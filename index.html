@@ -957,30 +957,42 @@
 
             // Get form data
             const formData = new FormData(event.target);
-            const data = {
-                firstName: formData.get('firstName'),
-                lastName: formData.get('lastName'),
-                email: formData.get('email'),
-                phone: formData.get('phone'),
-                company: formData.get('company'),
-                fundingType: formData.get('fundingType'),
-                projectValue: formData.get('projectValue'),
-                message: formData.get('message'),
-                timestamp: new Date().toISOString(),
-                source: 'constructioncapital.co.uk'
-            };
+
+            // Add Web3Forms access key and additional fields
+            formData.append('access_key', 'YOUR_WEB3FORMS_ACCESS_KEY');
+            formData.append('subject', 'New Lead from Construction Capital Website');
+            formData.append('from_name', 'Construction Capital Website');
+
+            // Format the message with all details
+            const detailedMessage = `
+New lead received from Construction Capital website:
+
+Name: ${formData.get('firstName')} ${formData.get('lastName')}
+Email: ${formData.get('email')}
+Phone: ${formData.get('phone')}
+Company: ${formData.get('company') || 'Not provided'}
+Funding Type: ${formData.get('fundingType')}
+Project Value: ${formData.get('projectValue') ? '£' + formData.get('projectValue') : 'Not provided'}
+
+Message:
+${formData.get('message')}
+
+---
+Submitted: ${new Date().toLocaleString('en-GB')}
+Source: Homepage Modal Form
+            `.trim();
+
+            formData.set('message', detailedMessage);
 
             try {
-                // Send to your backend endpoint
-                const response = await fetch('submit-lead.php', {
+                const response = await fetch('https://api.web3forms.com/submit', {
                     method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(data)
+                    body: formData
                 });
 
-                if (response.ok) {
+                const data = await response.json();
+
+                if (data.success) {
                     // Success
                     formMessage.className = 'form-message success';
                     formMessage.textContent = 'Thank you! We\'ll be in touch within 24 hours.';
@@ -991,12 +1003,12 @@
                         closeContactModal();
                     }, 3000);
                 } else {
-                    throw new Error('Submission failed');
+                    throw new Error(data.message || 'Submission failed');
                 }
             } catch (error) {
                 // Error handling
                 formMessage.className = 'form-message error';
-                formMessage.textContent = 'There was an error submitting your enquiry. Please try again or email us directly at info@constructioncapital.co.uk';
+                formMessage.textContent = 'There was an error submitting your enquiry. Please try again or email us directly at matt.lenzie@construction-capital.co.uk';
                 console.error('Form submission error:', error);
             } finally {
                 // Re-enable button

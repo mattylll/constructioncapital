@@ -7,15 +7,38 @@ A professional website for Construction Capital (constructioncapital.co.uk) - Pr
 - **Clean, Modern Design**: Professional look with intuitive navigation
 - **Modal Contact Forms**: Pop-up forms for lead generation
 - **Responsive Layout**: Works perfectly on desktop, tablet, and mobile
-- **Lead Capture System**: Automatic recording of all enquiries
-- **Email Notifications**: Get notified instantly of new leads
-- **CSV Export**: All leads saved in easy-to-read CSV format
+- **GitHub Pages Ready**: Deploy for free with GitHub Pages
+- **Email Notifications**: Get notified instantly of new leads via Web3Forms
+- **No Backend Required**: Works as a static website
 
-## Setup Instructions
+## Quick Setup (5 Minutes)
 
-### Option 1: PHP Backend (Recommended)
+### Step 1: Get Your Web3Forms Key
 
-This setup requires a web server with PHP support.
+1. Go to [web3forms.com](https://web3forms.com)
+2. Enter your email: matt.lenzie@construction-capital.co.uk
+3. Copy your access key
+
+### Step 2: Add Your Key
+
+Replace `YOUR_WEB3FORMS_ACCESS_KEY` in:
+- `index.html` (line ~962)
+- `contact.html` (line ~212)
+
+### Step 3: Deploy to GitHub Pages
+
+1. Go to your repository settings
+2. Click Pages → Source → Select "main" branch
+3. Save and wait 2 minutes
+4. Your site is live!
+
+**📖 Full instructions:** See [SETUP-WEB3FORMS.md](SETUP-WEB3FORMS.md)
+
+## Alternative Deployment Options
+
+### Option 1: GitHub Pages (Recommended - FREE!)
+
+Perfect for static hosting with form submissions via Web3Forms.
 
 1. **Upload Files to Your Web Server**
    - Upload all files to your web hosting via FTP/SFTP
