@@ -11,34 +11,51 @@ A professional website for Construction Capital (constructioncapital.co.uk) - Pr
 - **Email Notifications**: Get notified instantly of new leads via Web3Forms
 - **No Backend Required**: Works as a static website
 
-## Quick Setup (5 Minutes)
+## 🚀 Quick Deploy (5 Minutes) - RECOMMENDED
 
-### Step 1: Get Your Web3Forms Key
+### Deploy to Netlify (Most Secure!)
 
-1. Go to [web3forms.com](https://web3forms.com)
-2. Enter your email: matt.lenzie@construction-capital.co.uk
-3. Copy your access key
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mattylll/constructioncapital)
 
-### Step 2: Add Your Key
+**Why Netlify?**
+- ✅ **No API keys exposed** - forms handled server-side
+- ✅ **Built-in spam protection** - honeypot included
+- ✅ **Email notifications** - instant alerts to matt.lenzie@construction-capital.co.uk
+- ✅ **Form dashboard** - view and export all submissions
+- ✅ **Still FREE** - perfect for your needs
 
-Replace `YOUR_WEB3FORMS_ACCESS_KEY` in:
-- `index.html` (line ~962)
-- `contact.html` (line ~212)
+**📖 Full Netlify instructions:** See [DEPLOYMENT-NETLIFY.md](DEPLOYMENT-NETLIFY.md)
 
-### Step 3: Deploy to GitHub Pages
+---
 
-1. Go to your repository settings
-2. Click Pages → Source → Select "main" branch
-3. Save and wait 2 minutes
-4. Your site is live!
+## Alternative: GitHub Pages + Web3Forms
 
-**📖 Full instructions:** See [SETUP-WEB3FORMS.md](SETUP-WEB3FORMS.md)
+If you prefer GitHub Pages, you can use Web3Forms (requires public API key):
 
-## Alternative Deployment Options
+**Note:** Your Web3Forms access key will be visible in your JavaScript, but this is safe because:
+- It can only send emails to your registered address
+- You can revoke/regenerate it anytime
+- Web3Forms has rate limiting and spam protection
 
-### Option 1: GitHub Pages (Recommended - FREE!)
+**📖 Web3Forms setup:** See [SETUP-WEB3FORMS.md](SETUP-WEB3FORMS.md)
 
-Perfect for static hosting with form submissions via Web3Forms.
+---
+
+## Deployment Options Comparison
+
+| Feature | Netlify | GitHub Pages + Web3Forms |
+|---------|---------|--------------------------|
+| Setup time | 5 mins | 5 mins |
+| Security | ✅ No exposed keys | ⚠️ API key visible |
+| Form data | ✅ Dashboard + CSV | ❌ Email only |
+| Spam protection | ✅ Built-in | ✅ Via Web3Forms |
+| Cost | 💚 FREE | 💚 FREE |
+
+**Recommendation:** Use Netlify for better security!
+
+---
+
+## Other Deployment Options
 
 1. **Upload Files to Your Web Server**
    - Upload all files to your web hosting via FTP/SFTP
