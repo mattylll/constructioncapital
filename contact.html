@@ -68,7 +68,7 @@
 
                 <div id="formMessage" class="form-message"></div>
 
-                <form id="contactForm" class="contact-form-page" name="contact-page" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="handleFormSubmit(event)">
+                <form id="contactForm" class="contact-form-page" name="contact-page" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
                 <input type="hidden" name="form-name" value="contact-page">
                 <p style="display:none;">
                     <label>Don't fill this out: <input name="bot-field" /></label>
@@ -197,46 +197,6 @@
         </div>
     </footer>
 
-    <script>
-        // Handle form submission (Netlify)
-        async function handleFormSubmit(event) {
-            event.preventDefault();
-
-            const submitBtn = document.getElementById('submitBtn');
-            const formMessage = document.getElementById('formMessage');
-
-            // Disable button and show loading state
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'Submitting...';
-
-            // Get form data
-            const formData = new FormData(event.target);
-
-            try {
-                const response = await fetch('/', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                    body: new URLSearchParams(formData).toString()
-                });
-
-                if (response.ok) {
-                    // Redirect to thank you page
-                    window.location.href = 'thank-you.html';
-                } else {
-                    throw new Error('Submission failed');
-                }
-            } catch (error) {
-                // Error handling
-                formMessage.className = 'form-message error';
-                formMessage.textContent = 'There was an error submitting your enquiry. Please try again or email us directly at matt.lenzie@construction-capital.co.uk';
-                console.error('Form submission error:', error);
-
-                // Re-enable button
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Submit Enquiry';
-            }
-        }
-    </script>
 
     <link rel="stylesheet" href="styles.css">
 </body>
