@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Construction Capital</title>
+    <meta name="description" content="Get in touch with Construction Capital to discuss your property development finance needs. Quick response within 24 hours.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Construction Capital</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="active">Contact</a>
+                <button class="cta-button" onclick="document.getElementById('contactForm').scrollIntoView({behavior: 'smooth'})">Get Funding</button>
+            </div>
+            <button class="mobile-menu-btn" onclick="document.getElementById('contactForm').scrollIntoView({behavior: 'smooth'})">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero small-hero">
+        <div class="hero-content">
+            <h1>Get in Touch</h1>
+            <p>Let's discuss how we can help fund your development project</p>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="three-column">
+                <div class="contact-info-box">
+                    <div class="info-icon">📧</div>
+                    <h3>Email Us</h3>
+                    <p>matt.lenzie@construction-capital.co.uk</p>
+                    <p class="small-text">We typically respond within 24 hours</p>
+                </div>
+                <div class="contact-info-box">
+                    <div class="info-icon">⏱️</div>
+                    <h3>Response Time</h3>
+                    <p>Initial Assessment: 24 hours</p>
+                    <p>Term Sheets: 5 working days</p>
+                </div>
+                <div class="contact-info-box">
+                    <div class="info-icon">🇬🇧</div>
+                    <h3>Coverage</h3>
+                    <p>UK-Wide Service</p>
+                    <p>All regions considered</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="content-section gray-bg">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-intro">
+                    <h2>Tell Us About Your Project</h2>
+                    <p>Complete the form below and we'll be in touch within 24 hours to discuss your funding requirements. All enquiries are treated in strict confidence.</p>
+                </div>
+
+                <div id="formMessage" class="form-message"></div>
+
+                <form id="contactForm" class="contact-form-page" onsubmit="handleFormSubmit(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Company Name</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fundingType">Funding Type *</label>
+                            <select id="fundingType" name="fundingType" required>
+                                <option value="">Select funding type</option>
+                                <option value="development-finance">Development Finance</option>
+                                <option value="equity-funding">Equity Funding</option>
+                                <option value="refinancing">Refinancing</option>
+                                <option value="site-acquisition">Site Acquisition Finance</option>
+                                <option value="capital-strategy">Capital Strategy</option>
+                                <option value="joint-venture">Joint Venture</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="projectValue">Estimated Project Value (£)</label>
+                            <input type="text" id="projectValue" name="projectValue" placeholder="e.g., 2,000,000">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Tell us about your project *</label>
+                        <textarea id="message" name="message" required placeholder="Please provide details about your project including location, type (residential/commercial/mixed-use), timeline, planning status, and your funding requirements..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button" id="submitBtn">Submit Enquiry</button>
+
+                    <p class="privacy-notice">By submitting this form, you agree to our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms & Conditions</a>. We'll use your information solely to respond to your enquiry.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Contact Us Section -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="centered">What Happens Next?</h2>
+            <div class="three-column">
+                <div class="process-box">
+                    <div class="process-number">1</div>
+                    <h3>Initial Review</h3>
+                    <p>We'll review your enquiry and respond within 24 hours with initial thoughts and any questions we may have.</p>
+                </div>
+                <div class="process-box">
+                    <div class="process-number">2</div>
+                    <h3>Discovery Call</h3>
+                    <p>We'll arrange a call to discuss your project in detail, understand your requirements, and explain the funding options available.</p>
+                </div>
+                <div class="process-box">
+                    <div class="process-number">3</div>
+                    <h3>Proposal</h3>
+                    <p>If we can help, we'll outline our approach, identify suitable lenders or equity partners, and agree next steps with you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Prefer to Email Directly?</h2>
+            <p>You can reach Matt Lenzie directly at matt.lenzie@construction-capital.co.uk</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Construction Capital</h4>
+                <p>Capital advisory for property developers across the UK</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <a href="services.html#development-finance">Development Finance</a>
+                <a href="services.html#equity-funding">Equity Funding</a>
+                <a href="services.html#refinancing">Refinancing</a>
+                <a href="services.html#site-acquisition">Site Acquisition</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: matt.lenzie@construction-capital.co.uk</p>
+                <p>United Kingdom</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Construction Capital. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Handle form submission
+        async function handleFormSubmit(event) {
+            event.preventDefault();
+
+            const submitBtn = document.getElementById('submitBtn');
+            const formMessage = document.getElementById('formMessage');
+
+            // Disable button and show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Submitting...';
+
+            // Get form data
+            const formData = new FormData(event.target);
+            const data = {
+                firstName: formData.get('firstName'),
+                lastName: formData.get('lastName'),
+                email: formData.get('email'),
+                phone: formData.get('phone'),
+                company: formData.get('company'),
+                fundingType: formData.get('fundingType'),
+                projectValue: formData.get('projectValue'),
+                message: formData.get('message'),
+                timestamp: new Date().toISOString(),
+                source: 'contact-page'
+            };
+
+            try {
+                // Send to your backend endpoint
+                const response = await fetch('submit-lead.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (response.ok) {
+                    // Redirect to thank you page
+                    window.location.href = 'thank-you.html';
+                } else {
+                    throw new Error('Submission failed');
+                }
+            } catch (error) {
+                // Error handling
+                formMessage.className = 'form-message error';
+                formMessage.textContent = 'There was an error submitting your enquiry. Please try again or email us directly at matt.lenzie@construction-capital.co.uk';
+                console.error('Form submission error:', error);
+
+                // Re-enable button
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Submit Enquiry';
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</body>
+</html>

@@ -1,0 +1,29 @@
+# Prevent directory browsing
+Options -Indexes
+
+# Protect leads directory
+<FilesMatch "^(leads\.csv)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Enable pretty URLs (optional)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Remove .html extension
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([^\.]+)$ $1.html [NC,L]
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Protect leads directory from direct access
+RedirectMatch 403 ^/leads/.*$

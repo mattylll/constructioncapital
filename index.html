@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Capital - Property Development Finance & Equity</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            color: #1a1a1a;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.2rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: #4a4a4a;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #0066cc;
+        }
+
+        .cta-button {
+            background: #0066cc;
+            color: white !important;
+            padding: 0.7rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s, transform 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background: #0052a3;
+            transform: translateY(-1px);
+        }
+
+        /* Mobile Menu */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #4a4a4a;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #0066cc 0%, #004c99 100%);
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.95;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .primary-button {
+            background: white;
+            color: #0066cc;
+            padding: 1rem 2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s, box-shadow 0.3s;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+        }
+
+        .primary-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .secondary-button {
+            background: transparent;
+            color: white;
+            padding: 1rem 2rem;
+            border: 2px solid white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: background 0.3s, transform 0.2s;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .secondary-button:hover {
+            background: rgba(255,255,255,0.1);
+            transform: translateY(-2px);
+        }
+
+        /* Stats Section */
+        .stats {
+            background: #f8f9fa;
+            padding: 3rem 2rem;
+        }
+
+        .stats-grid {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+
+        .stat-item h3 {
+            font-size: 2.5rem;
+            color: #0066cc;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-item p {
+            color: #6a6a6a;
+            font-size: 1rem;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            color: #1a1a1a;
+            margin-bottom: 1rem;
+        }
+
+        .section-header p {
+            font-size: 1.2rem;
+            color: #6a6a6a;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: white;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+            padding: 2rem;
+            transition: box-shadow 0.3s, transform 0.3s;
+        }
+
+        .service-card:hover {
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            transform: translateY(-4px);
+        }
+
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: #e6f2ff;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+
+        .service-card p {
+            color: #6a6a6a;
+            line-height: 1.7;
+        }
+
+        /* Why Choose Section */
+        .why-choose {
+            background: #f8f9fa;
+            padding: 5rem 2rem;
+        }
+
+        .why-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-item {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .feature-icon {
+            width: 40px;
+            height: 40px;
+            background: #0066cc;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 1.2rem;
+        }
+
+        .feature-text h4 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: #1a1a1a;
+        }
+
+        .feature-text p {
+            color: #6a6a6a;
+            font-size: 0.95rem;
+        }
+
+        /* Process Section */
+        .process {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .process-step {
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: #0066cc;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0 auto 1.5rem;
+        }
+
+        .process-step h4 {
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+            color: #1a1a1a;
+        }
+
+        .process-step p {
+            color: #6a6a6a;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #0066cc 0%, #004c99 100%);
+            color: white;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+
+        .cta-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .cta-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.95;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            animation: fadeIn 0.3s ease;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            max-width: 500px;
+            width: 90%;
+            position: relative;
+            animation: slideIn 0.3s ease;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .close-modal {
+            position: absolute;
+            right: 1.5rem;
+            top: 1.5rem;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: #888;
+            background: none;
+            border: none;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .close-modal:hover {
+            background: #f0f0f0;
+            color: #333;
+        }
+
+        .modal-header {
+            margin-bottom: 1.5rem;
+        }
+
+        .modal-header h3 {
+            font-size: 1.8rem;
+            color: #1a1a1a;
+            margin-bottom: 0.5rem;
+        }
+
+        .modal-header p {
+            color: #6a6a6a;
+            font-size: 0.95rem;
+        }
+
+        /* Form Styles */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .form-group label {
+            font-weight: 600;
+            color: #1a1a1a;
+            font-size: 0.9rem;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-family: inherit;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #0066cc;
+            box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .submit-button {
+            background: #0066cc;
+            color: white;
+            padding: 1rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+            margin-top: 0.5rem;
+        }
+
+        .submit-button:hover {
+            background: #0052a3;
+            transform: translateY(-1px);
+        }
+
+        .submit-button:active {
+            transform: translateY(0);
+        }
+
+        .submit-button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .form-message {
+            padding: 1rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+            display: none;
+        }
+
+        .form-message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            display: block;
+        }
+
+        .form-message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 3rem 2rem 1.5rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: #b0b0b0;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: #0066cc;
+        }
+
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 2rem auto 0;
+            padding-top: 2rem;
+            border-top: 1px solid #333;
+            text-align: center;
+            color: #888;
+        }
+
+        .footer-bottom a {
+            color: #888;
+            text-decoration: none;
+        }
+
+        .footer-bottom a:hover {
+            color: #0066cc;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .services-grid,
+            .features-grid,
+            .process-steps {
+                grid-template-columns: 1fr;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .modal-content {
+                padding: 2rem 1.5rem;
+            }
+
+            .stat-item h3 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Construction Capital</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+                <button class="cta-button" onclick="openContactModal()">Get Funding</button>
+            </div>
+            <button class="mobile-menu-btn" onclick="openContactModal()">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Capital Advisory for Property Developers</h1>
+            <p>Securing development finance and equity funding for projects across the UK. Expert guidance, proven track record, unparalleled lender relationships.</p>
+            <div class="hero-buttons">
+                <button class="primary-button" onclick="openContactModal()">Discuss Your Project</button>
+                <a href="#services" class="secondary-button">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h3>£300m+</h3>
+                <p>Capital Arranged</p>
+            </div>
+            <div class="stat-item">
+                <h3>100+</h3>
+                <p>Lender Relationships</p>
+            </div>
+            <div class="stat-item">
+                <h3>10+</h3>
+                <p>Equity Sources</p>
+            </div>
+            <div class="stat-item">
+                <h3>UK-Wide</h3>
+                <p>Coverage</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header">
+            <h2>Capital Advisory Services</h2>
+            <p>Comprehensive funding solutions tailored to your property development needs</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🏗️</div>
+                <h3>Development Finance</h3>
+                <p>Senior and mezzanine debt for residential, commercial, and mixed-use developments. We structure funding packages that align with your project timeline and cashflow requirements.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💰</div>
+                <h3>Equity Funding</h3>
+                <p>Access to 10+ equity sources including family offices, institutional investors, and joint venture partners. We match your project with the right equity partner.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔄</div>
+                <h3>Refinancing</h3>
+                <p>Optimise your existing facility or release capital for your next project. We review your current arrangements and source competitive alternatives.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏘️</div>
+                <h3>Site Acquisition Finance</h3>
+                <p>Bridge funding for land purchases and pre-planning development. Fast turnaround to help you secure opportunities before they're gone.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📊</div>
+                <h3>Capital Strategy</h3>
+                <p>Financial modelling, viability assessments, and capital structuring advice. We help you understand your options before approaching lenders.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🤝</div>
+                <h3>Joint Ventures</h3>
+                <p>Structuring and placement for JV partnerships. Whether you need land, capital, or expertise, we connect developers with the right partners.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section class="why-choose" id="why-us">
+        <div class="why-content">
+            <div class="section-header">
+                <h2>Why Choose Construction Capital</h2>
+                <p>Experience, relationships, and results that set us apart</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <div class="feature-text">
+                        <h4>Proven Track Record</h4>
+                        <p>Over £300 million in equity and debt successfully arranged for property developments across the UK</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <div class="feature-text">
+                        <h4>Extensive Lender Network</h4>
+                        <p>Relationships with 100+ lenders including high street banks, challenger banks, and specialist finance providers</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <div class="feature-text">
+                        <h4>Independent Advice</h4>
+                        <p>We work for you, not the lenders. Our recommendations are based solely on what's best for your project</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <div class="feature-text">
+                        <h4>Fast Response Times</h4>
+                        <p>Initial assessment within 24 hours, term sheets typically within 5 working days</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <div class="feature-text">
+                        <h4>End-to-End Support</h4>
+                        <p>From initial consultation through to drawdown, we manage the entire funding process on your behalf</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <div class="feature-text">
+                        <h4>Multiple Equity Sources</h4>
+                        <p>Access to family offices, institutional funds, and private investors actively seeking development opportunities</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="section-header">
+            <h2>Our Process</h2>
+            <p>Simple, transparent, and efficient funding journey</p>
+        </div>
+        <div class="process-steps">
+            <div class="process-step">
+                <div class="step-number">1</div>
+                <h4>Initial Consultation</h4>
+                <p>Tell us about your project, your experience, and your funding requirements. We'll assess viability and discuss options.</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">2</div>
+                <h4>Lender Selection</h4>
+                <p>We identify the most suitable lenders or equity partners from our network, based on your specific project criteria.</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">3</div>
+                <h4>Application & Negotiation</h4>
+                <p>We prepare and submit applications, then negotiate terms on your behalf to secure the best possible deal.</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">4</div>
+                <h4>Completion</h4>
+                <p>We coordinate with solicitors and surveyors to ensure a smooth legal process and timely drawdown of funds.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="cta-content">
+            <h2>Ready to Discuss Your Project?</h2>
+            <p>Whether you're planning your first development or scaling your portfolio, we're here to help you access the capital you need.</p>
+            <button class="primary-button" onclick="openContactModal()">Get in Touch</button>
+        </div>
+    </section>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeContactModal()">&times;</button>
+            <div class="modal-header">
+                <h3>Get Your Project Funded</h3>
+                <p>Tell us about your project and we'll be in touch within 24 hours</p>
+            </div>
+            <div id="formMessage" class="form-message"></div>
+            <form id="contactForm" class="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name *</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="company">Company Name</label>
+                    <input type="text" id="company" name="company">
+                </div>
+
+                <div class="form-group">
+                    <label for="fundingType">Funding Type *</label>
+                    <select id="fundingType" name="fundingType" required>
+                        <option value="">Select funding type</option>
+                        <option value="development-finance">Development Finance</option>
+                        <option value="equity-funding">Equity Funding</option>
+                        <option value="refinancing">Refinancing</option>
+                        <option value="site-acquisition">Site Acquisition Finance</option>
+                        <option value="capital-strategy">Capital Strategy</option>
+                        <option value="joint-venture">Joint Venture</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="projectValue">Estimated Project Value (£)</label>
+                    <input type="text" id="projectValue" name="projectValue" placeholder="e.g., 2,000,000">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Tell us about your project *</label>
+                    <textarea id="message" name="message" required placeholder="Please provide details about your project, timeline, and funding requirements..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-button" id="submitBtn">Submit Enquiry</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Construction Capital</h4>
+                <p>Capital advisory for property developers across the UK</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <a href="services.html#development-finance">Development Finance</a>
+                <a href="services.html#equity-funding">Equity Funding</a>
+                <a href="services.html#refinancing">Refinancing</a>
+                <a href="services.html#site-acquisition">Site Acquisition</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: matt.lenzie@construction-capital.co.uk</p>
+                <p>United Kingdom</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Construction Capital. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Modal Functions
+        function openContactModal() {
+            document.getElementById('contactModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeContactModal() {
+            document.getElementById('contactModal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+            // Clear form message
+            const formMessage = document.getElementById('formMessage');
+            formMessage.className = 'form-message';
+            formMessage.textContent = '';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const modal = document.getElementById('contactModal');
+            if (event.target === modal) {
+                closeContactModal();
+            }
+        }
+
+        // Handle form submission
+        async function handleFormSubmit(event) {
+            event.preventDefault();
+
+            const submitBtn = document.getElementById('submitBtn');
+            const formMessage = document.getElementById('formMessage');
+
+            // Disable button and show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Submitting...';
+
+            // Get form data
+            const formData = new FormData(event.target);
+            const data = {
+                firstName: formData.get('firstName'),
+                lastName: formData.get('lastName'),
+                email: formData.get('email'),
+                phone: formData.get('phone'),
+                company: formData.get('company'),
+                fundingType: formData.get('fundingType'),
+                projectValue: formData.get('projectValue'),
+                message: formData.get('message'),
+                timestamp: new Date().toISOString(),
+                source: 'constructioncapital.co.uk'
+            };
+
+            try {
+                // Send to your backend endpoint
+                const response = await fetch('submit-lead.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (response.ok) {
+                    // Success
+                    formMessage.className = 'form-message success';
+                    formMessage.textContent = 'Thank you! We\'ll be in touch within 24 hours.';
+                    event.target.reset();
+
+                    // Close modal after 3 seconds
+                    setTimeout(() => {
+                        closeContactModal();
+                    }, 3000);
+                } else {
+                    throw new Error('Submission failed');
+                }
+            } catch (error) {
+                // Error handling
+                formMessage.className = 'form-message error';
+                formMessage.textContent = 'There was an error submitting your enquiry. Please try again or email us directly at info@constructioncapital.co.uk';
+                console.error('Form submission error:', error);
+            } finally {
+                // Re-enable button
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Submit Enquiry';
+            }
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && href !== '#contact') {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

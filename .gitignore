@@ -1,0 +1,26 @@
+# Lead data
+leads/
+leads.csv
+
+# Environment and config files
+.env
+config.php
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+error_log
+
+# Backup files
+*.bak
+*.backup
+*~
