@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { useMutation } from "convex/react";
 import { toast } from "sonner";
 import {
   ArrowRight,
@@ -12,7 +11,6 @@ import {
   User,
 } from "lucide-react";
 
-import { api } from "../../../convex/_generated/api";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -103,8 +101,6 @@ export function DealRoomForm() {
     {}
   );
 
-  const submitLead = useMutation(api.leads.submit);
-
   function updateField(field: keyof FormData, value: string) {
     setFormData((prev) => ({ ...prev, [field]: value }));
     if (errors[field]) {
@@ -177,25 +173,31 @@ export function DealRoomForm() {
     try {
       const unitsNum = parseInt(formData.units.replace(/[^0-9]/g, ""), 10);
 
-      await submitLead({
-        project_location: formData.projectLocation.trim(),
-        project_postcode: formData.postcode.trim() || undefined,
-        gdv: parseCurrencyToNumber(formData.gdv),
-        total_cost: parseCurrencyToNumber(formData.totalCost),
-        loan_amount: parseCurrencyToNumber(formData.loanAmount),
-        loan_type: formData.loanType,
-        project_type: formData.projectType || undefined,
-        units: isNaN(unitsNum) ? undefined : unitsNum,
-        additional_info: formData.additionalInfo.trim() || undefined,
-        full_name: formData.fullName.trim(),
-        email: formData.email.trim(),
-        phone: formData.phone.trim(),
-        company: formData.company.trim() || undefined,
-        source_page: typeof window !== "undefined" ? window.location.pathname : "/deal-room",
-        utm_source: getUtmParam("utm_source"),
-        utm_medium: getUtmParam("utm_medium"),
-        utm_campaign: getUtmParam("utm_campaign"),
+      const res = await fetch("/api/leads", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          project_location: formData.projectLocation.trim(),
+          project_postcode: formData.postcode.trim() || undefined,
+          gdv: parseCurrencyToNumber(formData.gdv),
+          total_cost: parseCurrencyToNumber(formData.totalCost),
+          loan_amount: parseCurrencyToNumber(formData.loanAmount),
+          loan_type: formData.loanType,
+          project_type: formData.projectType || undefined,
+          units: isNaN(unitsNum) ? undefined : unitsNum,
+          additional_info: formData.additionalInfo.trim() || undefined,
+          full_name: formData.fullName.trim(),
+          email: formData.email.trim(),
+          phone: formData.phone.trim(),
+          company: formData.company.trim() || undefined,
+          source_page: window.location.pathname,
+          utm_source: getUtmParam("utm_source"),
+          utm_medium: getUtmParam("utm_medium"),
+          utm_campaign: getUtmParam("utm_campaign"),
+        }),
       });
+
+      if (!res.ok) throw new Error("Submission failed");
 
       setIsSubmitted(true);
       toast.success("Deal submitted successfully");
