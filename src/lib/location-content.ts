@@ -250,7 +250,7 @@ const SERVICE_MARKET_COMMENTARY: Record<string, MarketCommentarySet> = {
       [
         "Speed defines bridging finance. When you need to complete an acquisition within days rather than weeks — whether at auction, to secure a competitive off-market site, or to break a chain — bridging provides certainty that mainstream lenders cannot match. The best bridging lenders can issue terms within hours and complete within 5-10 working days.",
         "Every bridging loan needs a clear exit strategy. The three most common exits are: sale of the property, refinance onto a longer-term facility (development finance, term loan, or mortgage), or planning uplift followed by development. Lenders assess the credibility of your exit as carefully as they assess the property itself.",
-        "Bridging rates have become more competitive as the sector has matured, with regulated bridging (on properties you'll occupy) starting from 0.55% per month and unregulated (investment properties) from 0.60% per month. Arrangement fees of 1-2% are standard, with exit fees increasingly rare among competitive lenders.",
+        "Bridging rates have become more competitive as the sector has matured, starting from 0.55% per month for owner-occupied properties and from 0.60% per month for investment properties. Arrangement fees of 1-2% are standard, with exit fees increasingly rare among competitive lenders.",
       ],
       [
         "Auction purchases represent the classic bridging use case: you've won the lot, the hammer has fallen, and you have 28 days (sometimes 56 for special conditions) to complete. Having a bridging facility pre-agreed or a lender who can move fast is essential. We recommend getting a decision in principle before the auction day.",
@@ -416,7 +416,7 @@ const SERVICE_FAQS: Record<string, (townName: string, countyName: string) => FAQ
     },
     {
       question: "Are regulated and unregulated bridging loans different?",
-      answer: "Yes, significantly. Regulated bridging loans are governed by the FCA and apply when you or a close family member will occupy the property. They offer consumer protections including a 14-day reflection period, which can delay completion. Unregulated bridges apply to investment properties and have no reflection period, making them faster to complete. The distinction is important because it affects which lenders can participate and the speed of execution.",
+      answer: "Yes, significantly. Regulated bridging loans apply when you or a close family member will occupy the property. They offer consumer protections including a 14-day reflection period, which can delay completion. Unregulated bridges apply to investment properties and have no reflection period, making them faster to complete. The distinction is important because it affects which lenders can participate and the speed of execution.",
     },
     {
       question: "What happens if my bridging loan term expires?",
@@ -470,7 +470,7 @@ const SERVICE_FAQS: Record<string, (townName: string, countyName: string) => FAQ
     },
     {
       question: "Can I live in the property during refurbishment?",
-      answer: "If you plan to occupy the property during refurbishment, the loan becomes a regulated product under FCA rules. This limits your lender options and typically adds 1-2 weeks to the completion timeline due to the mandatory reflection period. Many borrowers choose to live elsewhere during works to access unregulated (faster, wider lender choice) refurbishment finance. If the property will be uninhabitable during works, the point is moot — but confirm with your solicitor before proceeding.",
+      answer: "If you plan to occupy the property during refurbishment, the loan becomes a regulated product. This limits your lender options and typically adds 1-2 weeks to the completion timeline due to the mandatory reflection period. Many borrowers choose to live elsewhere during works to access unregulated (faster, wider lender choice) refurbishment finance. If the property will be uninhabitable during works, the point is moot — but confirm with your solicitor before proceeding.",
     },
     {
       question: "What happens if refurbishment costs exceed my budget?",
@@ -562,7 +562,7 @@ const SERVICE_DEAL_EXAMPLES: Record<string, (townName: string) => DealExample> =
     gdv: "£1,100,000",
     loanAmount: "£770,000",
     ltv: "70% LTV",
-    loanType: "Regulated Bridging Loan",
+    loanType: "Bridging Loan",
   }),
 
   "equity-jv": (townName) => ({

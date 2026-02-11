@@ -79,7 +79,7 @@ const caseStudies = [
     challenge:
       "The borrower won a property at auction in Hackney, East London, for £850K — significantly below the estimated market value of £1.1M. However, the property required substantial refurbishment (estimated £350K) before it could be sold or refinanced. The 28-day auction completion deadline meant traditional lender timelines were not feasible. The borrower needed certainty of completion to avoid losing the deposit.",
     solution:
-      "We arranged a regulated bridging loan within 14 days, funding 70% of the purchase price on day one. The valuer confirmed the open market value at £1.05M, supporting the LTV at completion. We pre-arranged a refurbishment exit facility with a separate lender, ensuring the borrower had a clear path from acquisition through to the completed, refinanced asset. Both facilities were documented in parallel to minimise dead time between drawdowns.",
+      "We arranged a bridging loan within 14 days, funding 70% of the purchase price on day one. The valuer confirmed the open market value at £1.05M, supporting the LTV at completion. We pre-arranged a refurbishment exit facility with a separate lender, ensuring the borrower had a clear path from acquisition through to the completed, refinanced asset. Both facilities were documented in parallel to minimise dead time between drawdowns.",
     outcome:
       "The auction purchase completed on day 12 — well within the deadline. The refurbishment facility was drawn down 4 weeks later, with works completed in 5 months. The finished property was valued at £1.8M, and the borrower refinanced onto a long-term residential mortgage at 60% LTV. Total profit after all costs and finance charges: approximately £420K.",
     isFeatured: false,

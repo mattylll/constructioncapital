@@ -2,13 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   ArrowRight,
-  Award,
   Building2,
   Handshake,
   Shield,
   Target,
   TrendingUp,
-  Users,
   Zap,
 } from "lucide-react";
 
@@ -437,26 +435,15 @@ export default function AboutPage() {
               Credentials
             </p>
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
-              Trust & Compliance
+              Trust & Professionalism
             </h2>
             <p className="mx-auto mt-5 max-w-2xl text-lg text-muted-foreground">
-              We operate to the highest standards of professional conduct and
-              regulatory compliance.
+              We operate to the highest standards of professional conduct.
             </p>
           </div>
 
-          <div className="mx-auto grid max-w-4xl gap-8 sm:grid-cols-3">
+          <div className="mx-auto grid max-w-4xl gap-8 sm:grid-cols-1">
             {[
-              {
-                icon: Award,
-                title: "FCA Regulated",
-                desc: "Authorised and regulated by the Financial Conduct Authority.",
-              },
-              {
-                icon: Users,
-                title: "NACFB Member",
-                desc: "Member of the National Association of Commercial Finance Brokers.",
-              },
               {
                 icon: Shield,
                 title: "PI Insured",
