@@ -1,40 +1,7 @@
-export interface GuideSection {
-  heading: string;
-  content: string[];
-}
+import type { Guide } from "./types";
+import { calculateReadingTime } from "./utils";
 
-export interface Guide {
-  slug: string;
-  title: string;
-  metaTitle: string;
-  metaDescription: string;
-  excerpt: string;
-  category: "development-finance" | "bridging" | "mezzanine" | "equity" | "refurbishment" | "commercial" | "general";
-  readingTime: string;
-  datePublished: string;
-  dateModified: string;
-  sections: GuideSection[];
-  relatedSlugs: string[];
-  /** Service slugs this guide links to */
-  relatedServices: string[];
-  /** County slugs for internal linking */
-  relatedLocations: string[];
-}
-
-function calculateReadingTime(sections: GuideSection[]): string {
-  const totalWords = sections.reduce((sum, section) => {
-    const headingWords = section.heading.split(/\s+/).length;
-    const contentWords = section.content.reduce(
-      (cSum, para) => cSum + para.split(/\s+/).length,
-      0,
-    );
-    return sum + headingWords + contentWords;
-  }, 0);
-  const minutes = Math.max(1, Math.round(totalWords / 200));
-  return `${minutes} min read`;
-}
-
-const GUIDES_RAW: Omit<Guide, "readingTime">[] = [
+const EXISTING_RAW: Omit<Guide, "readingTime">[] = [
   // ─── Development Finance Guides ───
   {
     slug: "how-does-development-finance-work",
@@ -434,19 +401,7 @@ const GUIDES_RAW: Omit<Guide, "readingTime">[] = [
   },
 ];
 
-export const GUIDES: Guide[] = GUIDES_RAW.map((guide) => ({
+export const EXISTING_GUIDES: Guide[] = EXISTING_RAW.map((guide) => ({
   ...guide,
   readingTime: calculateReadingTime(guide.sections),
 }));
-
-export function getGuideBySlug(slug: string): Guide | undefined {
-  return GUIDES.find((g) => g.slug === slug);
-}
-
-export function getRelatedGuides(currentSlug: string): Guide[] {
-  const current = getGuideBySlug(currentSlug);
-  if (!current) return [];
-  return current.relatedSlugs
-    .map((s) => getGuideBySlug(s))
-    .filter((g): g is Guide => g !== undefined);
-}

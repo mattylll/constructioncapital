@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
+import { pushLeadToGHL } from "@/lib/ghl";
 
 function formatCurrency(amount: number): string {
   return new Intl.NumberFormat("en-GB", {
@@ -55,6 +56,9 @@ export async function POST(request: Request) {
       timeStyle: "short",
       timeZone: "Europe/London",
     });
+
+    // Push to GoHighLevel CRM (non-blocking — errors logged, don't fail submission)
+    const ghlPromise = pushLeadToGHL(body);
 
     await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL || "Construction Capital <onboarding@resend.dev>",
@@ -127,6 +131,9 @@ export async function POST(request: Request) {
         </div>
       `,
     });
+
+    // Wait for GHL to finish (already error-handled internally)
+    await ghlPromise;
 
     return NextResponse.json({ success: true });
   } catch (error) {

@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter, Playfair_Display } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 
@@ -91,6 +92,12 @@ export default function RootLayout({
           </ConvexClientProvider>
         </ThemeProvider>
         <JsonLd data={organizationJsonLd} />
+        <Script
+          src="https://beta.leadconnectorhq.com/loader.js"
+          data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js"
+          data-widget-id="699f3a553303b65421850864"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );

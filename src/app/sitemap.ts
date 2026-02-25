@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { SITE_URL } from "@/lib/constants";
-import { GUIDES } from "@/lib/guides-data";
+import { GUIDES } from "@/lib/guides";
 import { SERVICES } from "@/lib/services";
 import { UK_COUNTIES } from "@/lib/uk-locations-data";
 

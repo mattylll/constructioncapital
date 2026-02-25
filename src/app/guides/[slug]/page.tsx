@@ -6,7 +6,7 @@ import { ArrowRight, ArrowLeft, Clock, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/ui/json-ld";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
-import { GUIDES, getGuideBySlug, getRelatedGuides } from "@/lib/guides-data";
+import { GUIDES, getGuideBySlug, getRelatedGuides } from "@/lib/guides";
 import { SERVICES } from "@/lib/services";
 
 export const dynamicParams = true;
@@ -246,7 +246,7 @@ export default async function GuidePage({ params }: PageProps) {
                 </h2>
                 <div className="prose prose-lg max-w-none text-muted-foreground">
                   {section.content.map((paragraph, j) => (
-                    <p key={j}>{paragraph}</p>
+                    <p key={j} dangerouslySetInnerHTML={{ __html: paragraph }} />
                   ))}
                 </div>
               </div>
