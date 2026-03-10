@@ -19,6 +19,7 @@ const navLinks = [
   { href: "/case-studies", label: "Case Studies" },
   { href: "/guides", label: "Guides" },
   { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function SiteHeader() {

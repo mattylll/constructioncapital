@@ -19,6 +19,7 @@ const footerLinks = {
     { href: "/case-studies", label: "Case Studies" },
     { href: "/deal-room", label: "Deal Room" },
     { href: "/guides", label: "Guides" },
+    { href: "/contact", label: "Contact Us" },
   ],
 };
 
@@ -108,8 +109,16 @@ export function SiteFooter() {
               terms for UK property developers.
             </p>
             <div className="mt-4 space-y-1 text-sm text-primary-foreground/70">
-              <p>{CONTACT.email}</p>
-              <p>{CONTACT.phone}</p>
+              <p>
+                <a href={`mailto:${CONTACT.email}`} className="transition-colors hover:text-gold">
+                  {CONTACT.email}
+                </a>
+              </p>
+              <p>
+                <a href={`tel:${CONTACT.phoneRaw}`} className="transition-colors hover:text-gold">
+                  {CONTACT.phone}
+                </a>
+              </p>
             </div>
           </div>
 
