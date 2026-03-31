@@ -16,12 +16,14 @@ import { LocationCTA } from "@/components/locations/location-cta";
 import { JsonLd } from "@/components/ui/json-ld";
 import { SERVICES, type Service } from "@/lib/services";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { getCaseStudiesByCountyAndService, getCaseStudiesByCounty } from "@/lib/case-studies";
 import {
   getMarketCommentary,
   getFaqs,
   getDealExample,
   getArrangementFee,
 } from "@/lib/location-content";
+import { LocalCaseStudies } from "@/components/locations/local-case-studies";
 import {
   UK_COUNTIES,
   getTownInCounty,
@@ -159,6 +161,12 @@ export default async function ServicePage({ params }: PageProps) {
   const townName = townData?.name ?? deslugify(town);
   const serviceData = findService(service);
   const serviceName = serviceData?.name || deslugify(service);
+
+  // Case studies: prefer exact county+service match, fall back to county-only
+  const exactCaseStudies = getCaseStudiesByCountyAndService(county, service);
+  const localCaseStudies = exactCaseStudies.length > 0
+    ? exactCaseStudies
+    : getCaseStudiesByCounty(county);
 
   const realRelated = getRealRelatedTowns(county, town, 6);
   const relatedTowns = realRelated.map((t) => ({
@@ -620,6 +628,9 @@ export default async function ServicePage({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      {/* Local Case Studies */}
+      <LocalCaseStudies caseStudies={localCaseStudies} locationName={`${townName}, ${countyName}`} />
 
       {/* CTA Section */}
       <LocationCTA townName={townName} serviceName={serviceName} />

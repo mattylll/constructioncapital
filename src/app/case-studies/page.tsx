@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { CASE_STUDIES } from "@/lib/case-studies";
 
 export const metadata: Metadata = {
   title: "Case Studies",

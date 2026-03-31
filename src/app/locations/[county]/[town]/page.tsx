@@ -19,7 +19,9 @@ import { LocationCTA } from "@/components/locations/location-cta";
 import { JsonLd } from "@/components/ui/json-ld";
 import { SERVICES } from "@/lib/services";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { getCaseStudiesByCounty } from "@/lib/case-studies";
 import { getTownOverview } from "@/lib/location-content";
+import { LocalCaseStudies } from "@/components/locations/local-case-studies";
 import {
   UK_COUNTIES,
   getTownInCounty,
@@ -104,6 +106,7 @@ export default async function TownPage({ params }: PageProps) {
   const townData = getTownInCounty(county, town);
   const townName = townData?.name ?? deslugify(town);
 
+  const localCaseStudies = getCaseStudiesByCounty(county);
   const realRelated = getRealRelatedTowns(county, town, 6);
   const relatedTowns = realRelated.map((t) => ({
     name: t.name,
@@ -404,6 +407,9 @@ export default async function TownPage({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      {/* Local Case Studies */}
+      <LocalCaseStudies caseStudies={localCaseStudies} locationName={countyName} />
 
       {/* Related Towns */}
       <RelatedTowns towns={relatedTowns} currentTown={townName} />

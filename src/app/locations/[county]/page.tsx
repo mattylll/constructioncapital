@@ -7,7 +7,9 @@ import { Breadcrumbs } from "@/components/locations/breadcrumbs";
 import { LocationCTA } from "@/components/locations/location-cta";
 import { JsonLd } from "@/components/ui/json-ld";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { getCaseStudiesByCounty } from "@/lib/case-studies";
 import { getCountyOverview } from "@/lib/location-content";
+import { LocalCaseStudies } from "@/components/locations/local-case-studies";
 import { UK_COUNTIES, getCountyBySlug, type TownData } from "@/lib/uk-locations-data";
 
 // ISR configuration
@@ -59,6 +61,7 @@ export default async function CountyPage({ params }: PageProps) {
   const countyData = getCountyBySlug(county);
   const countyName = countyData?.name ?? deslugify(county);
   const towns: TownData[] = countyData?.towns ?? [];
+  const localCaseStudies = getCaseStudiesByCounty(county);
   const countyOverview = countyData
     ? [countyData.overview]
     : getCountyOverview(county, countyName);
@@ -427,6 +430,9 @@ export default async function CountyPage({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      {/* Local Case Studies */}
+      <LocalCaseStudies caseStudies={localCaseStudies} locationName={countyName} />
 
       {/* CTA */}
       <LocationCTA townName={countyName} />
