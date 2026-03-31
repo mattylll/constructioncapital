@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { SITE_URL } from "@/lib/constants";
+import { CALCULATORS } from "@/lib/calculators";
 import { GUIDES } from "@/lib/guides";
 import { SERVICES } from "@/lib/services";
 import { UK_COUNTIES } from "@/lib/uk-locations-data";
@@ -108,6 +109,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // Calculator pages
+  const calculatorPages: MetadataRoute.Sitemap = [
+    {
+      url: `${SITE_URL}/calculators`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    ...CALCULATORS.map((calc) => ({
+      url: `${SITE_URL}/calculators/${calc.slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+  ];
+
   // Guide pages
   const guidePages: MetadataRoute.Sitemap = [
     {
@@ -124,5 +141,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...staticPages, ...servicePages, ...caseStudyPages, ...guidePages, ...locationPages];
+  return [...staticPages, ...servicePages, ...calculatorPages, ...caseStudyPages, ...guidePages, ...locationPages];
 }

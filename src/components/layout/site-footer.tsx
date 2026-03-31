@@ -18,6 +18,7 @@ const footerLinks = {
     { href: "/about", label: "About Matt Lenzie" },
     { href: "/case-studies", label: "Case Studies" },
     { href: "/deal-room", label: "Deal Room" },
+    { href: "/calculators", label: "Calculators" },
     { href: "/guides", label: "Guides" },
     { href: "/contact", label: "Contact Us" },
   ],
