@@ -9,7 +9,7 @@ import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { getCountyBySlug } from "@/lib/uk-locations-data";
 
 export const metadata: Metadata = {
-  title: `Development Finance Across the UK | ${SITE_NAME}`,
+  title: "Development Finance Across the UK",
   description:
     "Find development finance, bridging loans, mezzanine finance and commercial mortgages across the UK. Expert property finance brokers covering every region from London to Scotland.",
   alternates: {

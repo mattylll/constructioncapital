@@ -6,8 +6,7 @@ import { ThemeProvider } from "next-themes";
 
 import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import { ConvexClientProvider } from "@/components/layout/convex-client-provider";
-import { SiteHeader } from "@/components/layout/site-header";
-import { SiteFooter } from "@/components/layout/site-footer";
+import { LayoutShell } from "@/components/layout/layout-shell";
 import { JsonLd } from "@/components/ui/json-ld";
 import { Toaster } from "@/components/ui/sonner";
 import { SITE_NAME, SITE_URL, SITE_DESCRIPTION } from "@/lib/constants";
@@ -85,13 +84,18 @@ export default function RootLayout({
         )}
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
           <ConvexClientProvider>
-            <SiteHeader />
-            <main className="min-h-screen">{children}</main>
-            <SiteFooter />
+            <LayoutShell>{children}</LayoutShell>
             <Toaster />
           </ConvexClientProvider>
         </ThemeProvider>
         <JsonLd data={organizationJsonLd} />
+        {process.env.NEXT_PUBLIC_ANALYTICS_SITE_ID && (
+          <Script
+            src="/t.js"
+            data-site={process.env.NEXT_PUBLIC_ANALYTICS_SITE_ID}
+            strategy="afterInteractive"
+          />
+        )}
         <Script
           src="https://beta.leadconnectorhq.com/loader.js"
           data-resources-url="https://beta.leadconnectorhq.com/chat-widget/loader.js"

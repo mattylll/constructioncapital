@@ -115,7 +115,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const descPattern = SERVICE_DESC_PATTERNS[service];
   const title = titlePattern
     ? titlePattern(townName, countyName).title
-    : `${serviceName} in ${townName} | ${SITE_NAME}`;
+    : `${serviceName} in ${townName}, ${countyName}`;
   const description = descPattern
     ? descPattern(townName, countyName)
     : `${serviceName} for property developers in ${townName}, ${countyName}. ${serviceData?.shortDesc || ""} Expert brokers with 25+ years experience and 100+ lender relationships.`;

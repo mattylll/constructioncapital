@@ -8,7 +8,7 @@ import { GUIDES } from "@/lib/guides";
 import { GuidesGrid } from "./guides-grid";
 
 export const metadata: Metadata = {
-  title: `Property Development Finance Guides | ${SITE_NAME}`,
+  title: "Property Development Finance Guides",
   description:
     "In-depth guides to UK property development finance. Learn about development finance, bridging loans, mezzanine, GDV calculations, and how to fund your next project.",
   alternates: {

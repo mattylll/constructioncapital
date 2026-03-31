@@ -14,6 +14,7 @@ import { Button } from "@/components/ui/button";
 import { AnimatedCounter } from "@/components/home/animated-counter";
 import { Reveal } from "@/components/home/reveal";
 import { Typewriter } from "@/components/home/typewriter";
+import { HomepageEnquiryForm } from "@/components/home/homepage-enquiry-form";
 
 const services = [
   {
@@ -367,6 +368,52 @@ export default function HomePage() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ━━━ ENQUIRY FORM — Inline lead capture ━━━ */}
+      <section
+        className="relative py-24 sm:py-32"
+        style={{ background: "oklch(0.12 0.045 255)" }}
+      >
+        {/* Subtle gold glow */}
+        <div
+          className="pointer-events-none absolute inset-0"
+          style={{
+            background: "radial-gradient(ellipse at 50% 30%, oklch(0.75 0.12 85 / 0.04) 0%, transparent 50%)",
+          }}
+        />
+
+        <div className="relative mx-auto max-w-[900px] px-5 sm:px-8">
+          <Reveal>
+            <div className="mb-10">
+              <p
+                className="mb-4 text-[12px] font-bold tracking-[0.4em] uppercase"
+                style={{ color: "var(--gold)" }}
+              >
+                Get Started
+              </p>
+              <h2 className="mb-5 text-[clamp(2rem,5vw,3.5rem)] font-black leading-[0.9] tracking-[-0.03em] text-white">
+                GET INDICATIVE TERMS<br />
+                IN 24 HOURS<span style={{ color: "var(--gold)" }}>.</span>
+              </h2>
+              <p className="max-w-[500px] text-base leading-relaxed text-white/35">
+                Tell us about your deal. No commitment, no paperwork. Just fast, competitive terms from 100+ lenders.
+              </p>
+            </div>
+          </Reveal>
+
+          <Reveal delay={100}>
+            <div
+              className="p-8 sm:p-10"
+              style={{
+                background: "oklch(1 0 0 / 0.02)",
+                border: "1px solid oklch(1 0 0 / 0.06)",
+              }}
+            >
+              <HomepageEnquiryForm />
+            </div>
+          </Reveal>
         </div>
       </section>
 

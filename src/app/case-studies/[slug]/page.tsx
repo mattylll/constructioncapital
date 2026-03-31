@@ -168,10 +168,10 @@ export async function generateMetadata({
   if (!cs) return { title: "Case Study Not Found" };
 
   return {
-    title: `${cs.title} — ${cs.location} | ${SITE_NAME}`,
+    title: `${cs.title} — ${cs.location}`,
     description: cs.description,
     openGraph: {
-      title: `${cs.title} — ${cs.location}`,
+      title: `${cs.title} — ${cs.location} | ${SITE_NAME}`,
       description: cs.description,
       url: `${SITE_URL}/case-studies/${cs.slug}`,
       type: "article",

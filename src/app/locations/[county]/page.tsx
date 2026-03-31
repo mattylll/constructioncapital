@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const countyName = deslugify(county);
 
   return {
-    title: `Development Finance in ${countyName} | ${SITE_NAME}`,
+    title: `Development Finance in ${countyName}`,
     description: `Find development finance, bridging loans, mezzanine finance and commercial mortgages in ${countyName}. Expert property finance brokers with local knowledge and nationwide lender access.`,
     alternates: {
       canonical: `${SITE_URL}/locations/${county}`,
