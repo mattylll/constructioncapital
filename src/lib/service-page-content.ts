@@ -18,7 +18,7 @@ export interface ServicePageContent {
 export const SERVICE_PAGE_CONTENT: Record<string, ServicePageContent> = {
   "development-finance": {
     metaTitle:
-      "Development Finance | Ground-Up Funding from 6.5% — Construction Capital",
+      "Development Finance | Ground-Up Funding from 6.5%",
     metaDescription:
       "Staged development finance for new-build projects. 65-70% LTGDV, 12-24 month terms. Expert brokers arranging £500K–£50M+ facilities across the UK.",
     h1: "Development Finance for Property Developers",
@@ -121,7 +121,7 @@ export const SERVICE_PAGE_CONTENT: Record<string, ServicePageContent> = {
 
   "mezzanine-finance": {
     metaTitle:
-      "Mezzanine Finance | Stretch to 85-90% LTGDV — Construction Capital",
+      "Mezzanine Finance | Stretch to 85-90% LTGDV",
     metaDescription:
       "Mezzanine property finance to reduce your equity contribution. Stretches borrowing to 85-90% LTGDV behind senior debt. Expert structuring for UK developers.",
     h1: "Mezzanine Finance for Property Development",
@@ -218,7 +218,7 @@ export const SERVICE_PAGE_CONTENT: Record<string, ServicePageContent> = {
 
   "bridging-loans": {
     metaTitle:
-      "Bridging Loans | Funds in 7 Days from 0.55% p.m. — Construction Capital",
+      "Bridging Loans | Funds in 7 Days from 0.55% p.m.",
     metaDescription:
       "Fast bridging finance for property professionals. Completion in as little as 7 days, 75% LTV, 1-18 month terms. Auction, chain-break & pre-planning specialists.",
     h1: "Bridging Loans for Property Investors & Developers",
@@ -320,7 +320,7 @@ export const SERVICE_PAGE_CONTENT: Record<string, ServicePageContent> = {
 
   "equity-jv": {
     metaTitle:
-      "Equity Funding & Joint Ventures | Zero-Deposit Development — Construction Capital",
+      "Equity Funding & Joint Ventures | Zero-Deposit Development",
     metaDescription:
       "Connect with family offices and institutional equity partners for property development. Profit-share structures from 40%. Ideal for capital-light and first-time developers.",
     h1: "Equity Funding & Joint Venture Partnerships",
@@ -417,7 +417,7 @@ export const SERVICE_PAGE_CONTENT: Record<string, ServicePageContent> = {
 
   "refurbishment-finance": {
     metaTitle:
-      "Refurbishment Finance | Light & Heavy Refurb from 0.65% p.m. — Construction Capital",
+      "Refurbishment Finance | Light & Heavy Refurb from 0.65% p.m.",
     metaDescription:
       "Finance for property refurbishment and conversion projects. Covers acquisition + works. 75% LTV, 6-18 months. HMO, commercial-to-resi & permitted development specialists.",
     h1: "Refurbishment Finance for Property Investors",
@@ -514,7 +514,7 @@ export const SERVICE_PAGE_CONTENT: Record<string, ServicePageContent> = {
 
   "commercial-mortgages": {
     metaTitle:
-      "Commercial Mortgages | Long-Term Finance from 5.5% — Construction Capital",
+      "Commercial Mortgages | Long-Term Finance from 5.5%",
     metaDescription:
       "Commercial mortgage advice for offices, retail, industrial & mixed-use. Up to 75% LTV, 3-25 year terms. Whole-of-market broker access across the UK.",
     h1: "Commercial Mortgages for Property Investors",
@@ -611,7 +611,7 @@ export const SERVICE_PAGE_CONTENT: Record<string, ServicePageContent> = {
 
   "development-exit-finance": {
     metaTitle:
-      "Development Exit Finance | Release Capital from 0.55% p.m. — Construction Capital",
+      "Development Exit Finance | Release Capital from 0.55% p.m.",
     metaDescription:
       "Replace your development loan once construction completes. Phased unit sales, reduced rates from 0.55% p.m., 75% LTV. Free up capital for your next project.",
     h1: "Development Exit Finance",
