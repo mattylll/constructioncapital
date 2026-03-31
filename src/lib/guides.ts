@@ -61,6 +61,7 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "refurbishment-finance-vs-development-finance",
       "bank-vs-specialist-development-finance",
+      "first-time-property-developer-finance-guide",
     ],
     sections: [
       {
@@ -275,6 +276,8 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "development-finance-vs-bridging-loans",
       "senior-debt-vs-mezzanine-finance",
+      "first-time-property-developer-finance-guide",
+      "section-106-affordable-housing-finance-guide",
     ],
     sections: [
       {
@@ -566,6 +569,8 @@ export const GUIDES: Guide[] = [
     relatedGuides: [
       "development-finance-vs-bridging-loans",
       "bank-vs-specialist-development-finance",
+      "permitted-development-rights-finance-guide",
+      "hmo-conversion-finance-guide",
     ],
     sections: [
       {
@@ -637,6 +642,397 @@ export const GUIDES: Guide[] = [
           "Do I need planning permission for a heavy refurbishment?",
         answer:
           "Not always. Many heavy refurbishment projects fall under permitted development rights (e.g., converting a house into flats, commercial to residential under Class MA). However, you will almost always need Building Regulations approval. Check with your local planning authority before committing to a finance structure.",
+      },
+    ],
+  },
+
+  // --- Scenario Guide 1: First-Time Developer ---
+  {
+    slug: "first-time-property-developer-finance-guide",
+    title: "First-Time Property Developer's Guide to Finance",
+    metaTitle:
+      "First-Time Developer Finance Guide | How to Fund Your First Project",
+    metaDescription:
+      "Complete guide to property development finance for first-time developers. Learn how to secure funding, what lenders look for, and how to structure your first deal.",
+    excerpt:
+      "Breaking into property development without a track record is the single biggest financing challenge new developers face. This guide explains exactly how to get funded.",
+    category: "development-finance",
+    readingTime: "12 min read",
+    datePublished: "2026-03-31",
+    dateModified: "2026-03-31",
+    relatedServices: ["development-finance", "bridging-loans", "equity-jv"],
+    relatedLocations: ["greater-london", "greater-manchester", "west-midlands"],
+    relatedGuides: [
+      "development-finance-vs-bridging-loans",
+      "bank-vs-specialist-development-finance",
+    ],
+    sections: [
+      {
+        heading: "The Track Record Problem",
+        content: [
+          "Every first-time developer faces the same catch-22: lenders want to see a track record of completed projects before they'll fund you, but you can't build a track record without funding. This is the single biggest barrier to entry in property development — and it's entirely solvable if you approach it correctly.",
+          "The reality is that dozens of lenders actively fund first-time developers. They mitigate the experience risk through other means: lower leverage, stronger security, more experienced professional teams around you, and more conservative valuations. Your job is to present a package that gives lenders confidence despite the absence of a development CV.",
+          "The most common mistake first-time developers make is approaching high-street banks first. These lenders typically require 3-5 completed projects before they'll consider you. Specialist development lenders and challenger banks are far more likely to fund your first scheme — but they need to see that you've done your homework.",
+        ],
+      },
+      {
+        heading: "What Lenders Want to See From New Developers",
+        content: [
+          "<strong>A credible professional team:</strong> The single most important thing you can do as a first-time developer is surround yourself with experienced professionals. An architect with residential development experience, a quantity surveyor who has costed similar schemes, a solicitor who specialises in development, and — critically — an experienced contractor or project manager. Lenders will assess your team as much as they assess you.",
+          "<strong>Realistic financials:</strong> Your development appraisal needs to be bulletproof. Use conservative GDV assumptions backed by recent comparable sales evidence, not aspirational pricing. Your build costs should come from a quantity surveyor's report, not from internet estimates. Include a 10% contingency — lenders expect it, and cutting contingency to make the numbers work is a red flag.",
+          "<strong>Skin in the game:</strong> Expect to contribute 25-35% equity on your first project, compared to 15-25% for experienced developers. This higher equity requirement is the primary way lenders manage the risk of an unproven developer. If you don't have sufficient cash equity, a JV partner or family investment can fill the gap.",
+          "<strong>A simple first project:</strong> Your first development should be straightforward. A 2-4 unit residential scheme, a single house build, or a light conversion project. Do not attempt a 20-unit mixed-use scheme or a complex listed building conversion as your first project — even if you can fund it, the execution risk is too high and lenders know it.",
+        ],
+      },
+      {
+        heading: "Best Finance Routes for First-Time Developers",
+        content: [
+          "<strong>Specialist development finance (60-65% LTGDV):</strong> Several specialist lenders have explicit first-time developer programmes. These typically offer 60-65% of GDV (compared to 65-70% for experienced developers) with interest rates 0.5-1% higher than standard terms. The key advantage is that these lenders have underwriting teams who know how to assess new developers — they won't reject you automatically for lack of track record.",
+          "<strong>Bridging into development:</strong> For your very first project, a bridge-to-develop strategy can work well. Acquire the site on a bridging loan (easier to obtain than development finance), secure any remaining planning consents, then refinance onto a development facility. By the time you approach the development lender, you'll have a consented site with a clear scheme — a much stronger proposition than an unconsented acquisition.",
+          "<strong>JV with an experienced developer:</strong> Partnering with an established developer gives lenders the track record comfort they need. You bring the deal and the local knowledge; the experienced partner brings the development management credentials. Profit shares in these arrangements are typically 40-50% to the first-time developer, depending on how much of the deal they originated.",
+          "<strong>Family or private equity:</strong> If you have access to private capital — family money, a high-net-worth individual, or a small property investment club — this can substitute for or supplement development finance on your first project. The advantage is flexibility and speed. The disadvantage is that the cost of capital may be higher than institutional debt, and the governance expectations may be unclear.",
+        ],
+      },
+      {
+        heading: "How to Build Your Track Record Quickly",
+        content: [
+          "Your first completed project — even a modest one — transforms your financing options. Lenders move you from the 'first-time developer' category to 'developer with track record' after a single successful scheme. The key is choosing a first project that you can deliver well, on budget, and on time.",
+          "<strong>Start with refurbishment:</strong> A cosmetic or light structural refurbishment is the lowest-risk entry point. Buy a property below market value, refurbish it to a good standard, then sell or refinance. The finance is easier to obtain (bridging rather than development), the execution risk is lower, and you'll learn project management fundamentals before taking on a ground-up build.",
+          "<strong>Keep detailed records:</strong> Document everything from your first project: before and after photos, financial reports showing actual vs projected costs, timeline adherence, and final sale/valuation evidence. This becomes your track record pack for the next project. Lenders want to see that you can manage a budget and a programme — your first project is your opportunity to prove it.",
+          "<strong>Build professional relationships:</strong> Your QS, architect, and contractor from your first project become references for your second. Lenders often call these professionals to verify your capabilities. A contractor who confirms that you were well-organised, paid on time, and made sensible decisions is worth more than any financial statement.",
+        ],
+      },
+      {
+        heading: "Common First-Time Developer Mistakes",
+        content: [
+          "<strong>Overpaying for the site:</strong> The profit in development is made at acquisition, not at sale. First-time developers often pay too much because they're desperate to get their first deal done. Run your appraisal conservatively and walk away if the numbers don't work — there will be another site.",
+          "<strong>Underestimating costs:</strong> Build cost overruns are the most common cause of development failure. Always use a QS for your cost plan, include 10% contingency, and get fixed-price quotes from contractors. Variable-cost arrangements on your first project are a recipe for budget overruns.",
+          "<strong>Choosing too complex a first project:</strong> The temptation to go big on your first scheme is understandable but dangerous. A complex project amplifies every risk — planning, construction, sales, and finance. Prove yourself on something manageable first, then scale up.",
+          "<strong>Not having an exit strategy:</strong> Before you buy the site, know exactly how you'll exit the development finance. Will you sell all units individually? Sell the entire block to an investor? Refinance onto a portfolio mortgage? Your exit strategy determines your finance structure, and getting this wrong can leave you trapped in expensive short-term debt.",
+        ],
+      },
+      {
+        heading: "Your First Development: A Step-by-Step Checklist",
+        content: [
+          "<strong>1. Education (Month 1-2):</strong> Attend property development courses or events. Read development finance case studies. Understand the difference between GDV, LTGDV, LTC, and profit on cost. Learn to read a development appraisal. Join property networking groups in your target area.",
+          "<strong>2. Team assembly (Month 2-3):</strong> Find a development-experienced architect, a quantity surveyor, and a solicitor. These don't need to be the most expensive — but they do need development experience. Get recommendations from other developers or your broker.",
+          "<strong>3. Site search (Month 3-6):</strong> Focus on your local area where you understand values, demand, and planning attitudes. Look for sites that match your budget and experience level. Attend auctions, register with local agents, and monitor planning applications for stalled sites that might be available.",
+          "<strong>4. Appraisal and due diligence (2-4 weeks):</strong> Once you find a potential site, run a full development appraisal. Get your architect to confirm the scheme is feasible and your QS to provide a cost estimate. Check planning history and any constraints. Only proceed if the numbers show at least 20% profit on cost.",
+          "<strong>5. Finance application (4-8 weeks):</strong> Work with a specialist broker who has relationships with first-time developer-friendly lenders. Prepare your application pack: appraisal, site information, professional team details, cost plan, and your personal financial statement. Be upfront about your experience level — trying to hide it never works.",
+          "<strong>6. Build and manage (6-18 months):</strong> Execute the project according to your approved cost plan and programme. Communicate proactively with your lender and monitoring surveyor. Document everything. Keep a contingency reserve and don't spend it unless absolutely necessary.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Can I get development finance with no experience at all?",
+        answer:
+          "Yes. Several specialist lenders actively fund first-time developers. You'll typically need higher equity (25-35% vs 15-25%), a strong professional team, and a straightforward project. Working with a specialist broker who knows which lenders are open to new developers is essential — applying to the wrong lenders wastes time and creates unnecessary credit searches.",
+      },
+      {
+        question: "How much equity do I need for my first development?",
+        answer:
+          "Expect to contribute 25-35% of total project costs as equity on your first scheme. This can come from personal savings, equity in other properties, family investment, or a JV partner. Some lenders will accept a combination of cash and asset equity. After your first successful project, equity requirements typically drop to 15-25%.",
+      },
+      {
+        question:
+          "Should I use my own money or find a JV partner for my first project?",
+        answer:
+          "It depends on your capital position and risk appetite. Using your own money keeps all the profit but concentrates all the risk. A JV partner shares the risk and provides the track record comfort that lenders want, but you'll give up 30-50% of profits. For many first-time developers, a JV on the first project — followed by solo projects using the newly established track record — is the optimal path.",
+      },
+    ],
+  },
+
+  // --- Scenario Guide 2: Permitted Development Rights ---
+  {
+    slug: "permitted-development-rights-finance-guide",
+    title: "Permitted Development Rights: A Finance Guide for Developers",
+    metaTitle:
+      "Permitted Development Finance Guide | Class MA, Class Q & More",
+    metaDescription:
+      "How to finance permitted development conversions in the UK. Covers Class MA office-to-residential, Class Q agricultural, and specialist PDR lending criteria.",
+    excerpt:
+      "Permitted development rights let you convert commercial buildings to residential without full planning permission. Here's how to finance these projects and which lenders specialise in PDR schemes.",
+    category: "refurbishment",
+    readingTime: "10 min read",
+    datePublished: "2026-03-31",
+    dateModified: "2026-03-31",
+    relatedServices: [
+      "refurbishment-finance",
+      "development-finance",
+      "bridging-loans",
+    ],
+    relatedLocations: ["greater-london", "essex", "surrey", "berkshire"],
+    relatedGuides: [
+      "refurbishment-finance-vs-development-finance",
+      "development-finance-vs-bridging-loans",
+    ],
+    sections: [
+      {
+        heading: "What Are Permitted Development Rights?",
+        content: [
+          "Permitted Development Rights (PDR) allow certain types of building conversion and change of use without a full planning application. Instead, you apply for prior approval — a lighter-touch process that assesses transport, flooding, contamination, and noise impacts rather than the full range of planning considerations.",
+          "For property developers, PDR represents a significant opportunity: you can convert commercial buildings to residential use faster, with greater certainty, and at lower risk than a traditional planning route. The most commercially significant PDR classes for developers are Class MA (commercial to residential), Class Q (agricultural to residential), and Class AA (upward extensions to blocks of flats).",
+          "Prior approval is not automatic. The local authority assesses specific matters prescribed for each PDR class, and refusal is possible on those grounds. However, the range of considerations is much narrower than a full planning application, and appeal success rates for prior approval refusals are significantly higher than for full planning appeals.",
+        ],
+      },
+      {
+        heading: "Class MA: Office and Commercial to Residential",
+        content: [
+          "Class MA (formerly Class O) permits the change of use from commercial, business, and service use (Use Class E) to residential (Use Class C3). This is the most widely used PDR class for development projects. It applies to offices, shops, restaurants, light industrial units, gyms, health centres, and other Class E uses.",
+          "<strong>Key requirements:</strong> The building must have been in a commercial use within Use Class E for at least 2 continuous years prior to the application. The cumulative floor space being converted must not exceed 1,500 sq m. The building must not be a listed building, in a conservation area (unless the local authority has not made an Article 4 direction), or within a site of special scientific interest.",
+          "<strong>Prior approval matters assessed:</strong> Transport and highways, contamination, flooding, noise from commercial premises, the impact on the intended use of the building if only part is being converted, the provision of adequate natural light in all habitable rooms, the impact on a registered nursery or health centre, and fire safety.",
+          "<strong>Financing implications:</strong> Lenders view Class MA conversions favourably because the planning risk is substantially reduced. Once prior approval is granted, the conversion can proceed with much greater certainty than a scheme reliant on full planning permission. This typically translates to better leverage and pricing from development and refurbishment lenders.",
+        ],
+      },
+      {
+        heading: "Class Q: Agricultural to Residential",
+        content: [
+          "Class Q permits the conversion of agricultural buildings to up to 5 residential units, subject to a cumulative floor space limit of 865 sq m. This PDR class has created significant opportunities in rural areas where traditional planning for new residential development is restrictive.",
+          "<strong>Key requirements:</strong> The building must have been solely used for agricultural purposes as part of an established agricultural unit on 20 March 2013. Structural works are limited — the building must be capable of conversion through building operations reasonably necessary, meaning it must be structurally sound enough to bear the load of a residential conversion without substantial rebuild.",
+          "<strong>The structural test:</strong> This is where many Class Q applications fail. If the building requires so much structural work that it amounts to a rebuild rather than a conversion, prior approval will be refused. Lenders will want a structural engineer's report confirming the building can be converted within the PDR parameters before committing to fund.",
+          "<strong>Financing considerations:</strong> Class Q projects often involve higher build costs per sq ft than Class MA conversions due to the condition of agricultural buildings and the need for significant services infrastructure (water, sewage, electricity) in rural locations. Lenders factor these costs into their assessment and may require a QS report even for relatively modest schemes.",
+        ],
+      },
+      {
+        heading: "Class AA: Upward Extensions",
+        content: [
+          "Class AA permits the construction of up to two additional storeys on top of existing blocks of purpose-built, detached flats. This relatively new PDR class (introduced in 2020) creates opportunities to add value to existing residential buildings through rooftop development.",
+          "The requirements are specific: the building must be at least 3 storeys high, purpose-built as flats (not converted), detached (not terraced or semi-detached), and the additional storeys must not exceed the height of the existing top storey. The engineering and construction challenges of building on top of an existing structure require specialist assessment.",
+          "<strong>Financing approach:</strong> Class AA projects sit between refurbishment and development finance. The works typically require specialist contractors with experience in rooftop construction, and lenders will want to see structural engineering confirmation that the existing building can support additional floors. A development finance facility with staged drawdowns is usually the appropriate product.",
+        ],
+      },
+      {
+        heading: "How to Finance a PDR Conversion",
+        content: [
+          "<strong>Step 1 — Acquisition:</strong> Use a bridging loan to acquire the commercial building quickly. Bridge-to-develop is the standard strategy: buy the building on a short-term bridge, apply for prior approval (typically determined within 56 days), then refinance onto a development or refurbishment facility once prior approval is granted.",
+          "<strong>Step 2 — Prior approval:</strong> While the bridging facility is in place, submit the prior approval application. Most local authorities determine these within the 56-day statutory period. Use this time to progress your design, cost plan, and contractor procurement so you're ready to move quickly once approved.",
+          "<strong>Step 3 — Development/refurbishment finance:</strong> With prior approval in hand, approach development or refurbishment lenders. Present a complete package: prior approval notice, architectural drawings, QS cost plan, structural survey, and contractor quotes. The combination of granted prior approval plus a well-prepared application typically achieves strong terms.",
+          "<strong>Step 4 — Build and exit:</strong> Execute the conversion, draw down funds against surveyor-certified stages, and exit via individual unit sales or a portfolio refinance. PDR conversions often achieve faster build programmes than new-build schemes because you're working within an existing structure, which can reduce total finance costs.",
+        ],
+      },
+      {
+        heading: "Lender Appetite for PDR Schemes",
+        content: [
+          "Most specialist development lenders actively seek PDR conversion projects because the planning risk — typically their biggest concern — is substantially mitigated. Several lenders have specific PDR products or relaxed criteria for schemes with granted prior approval.",
+          "Lenders assess PDR schemes on the same fundamentals as any development project: cost plan credibility, GDV support from comparable evidence, developer experience, and exit strategy. The PDR element provides comfort on planning but doesn't override weak economics or an unrealistic appraisal.",
+          "One area of caution: Article 4 directions. Some local authorities — particularly in London and major cities — have removed PDR rights for certain building types or areas through Article 4 directions. If an Article 4 direction applies, you'll need full planning permission and the PDR financing advantages don't apply. Always check the local authority's Article 4 register before committing to a PDR strategy.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question:
+          "Is permitted development the same as not needing planning permission?",
+        answer:
+          "Not exactly. Permitted development rights grant planning permission by default, but you still need to apply for prior approval for most PDR classes used in development (Class MA, Class Q, Class AA). Prior approval is a lighter process than full planning — the local authority can only assess specific prescribed matters, not the full range of planning considerations. It's faster, more certain, but not automatic.",
+      },
+      {
+        question: "Can I get finance before prior approval is granted?",
+        answer:
+          "Yes — a bridging loan can fund the acquisition before prior approval. Most PDR developers use a bridge-to-develop strategy: acquire the building on a bridge, secure prior approval, then refinance onto a development facility. Some specialist lenders will even issue development finance terms conditional on prior approval being granted, giving you cost certainty from the outset.",
+      },
+      {
+        question: "What happens if prior approval is refused?",
+        answer:
+          "You can appeal to the Planning Inspectorate. Prior approval appeal success rates are generally higher than full planning appeals because the assessment criteria are narrower. Alternatively, you can resubmit addressing the specific reasons for refusal, or fall back to a full planning application. If you acquired the building on a bridge, factor the appeal timeline (typically 3-6 months) into your exit strategy.",
+      },
+    ],
+  },
+
+  // --- Scenario Guide 3: Section 106 & Affordable Housing ---
+  {
+    slug: "section-106-affordable-housing-finance-guide",
+    title:
+      "Section 106 & Affordable Housing: A Developer's Finance Guide",
+    metaTitle:
+      "Section 106 Finance Guide | Affordable Housing Obligations Explained",
+    metaDescription:
+      "How Section 106 agreements and affordable housing obligations affect your development finance. Viability assessments, commuted sums, and lender requirements explained.",
+    excerpt:
+      "Section 106 obligations can make or break a development's viability. Understanding how lenders assess S106 costs — and how to negotiate them — is essential for funded schemes above 10 units.",
+    category: "development-finance",
+    readingTime: "11 min read",
+    datePublished: "2026-03-31",
+    dateModified: "2026-03-31",
+    relatedServices: ["development-finance", "mezzanine-finance", "equity-jv"],
+    relatedLocations: [
+      "greater-london",
+      "bristol",
+      "west-midlands",
+      "west-yorkshire",
+    ],
+    relatedGuides: [
+      "bank-vs-specialist-development-finance",
+      "senior-debt-vs-mezzanine-finance",
+    ],
+    sections: [
+      {
+        heading: "What Is Section 106?",
+        content: [
+          "Section 106 of the Town and Country Planning Act 1990 allows local planning authorities to require developers to enter into legal agreements as a condition of planning permission. These planning obligations typically require the developer to provide affordable housing, contribute to local infrastructure (schools, highways, open space), or mitigate the impact of the development on the local area.",
+          "For residential developments of 10 or more units (or sites of 0.5 hectares or more), affordable housing provision is almost always required. The proportion varies by local authority — typically 20-40% of units — and the tenure mix (social rent, affordable rent, shared ownership, First Homes) is specified in the local plan.",
+          "Section 106 obligations directly affect your development's financial viability because they reduce the number of units you can sell at full market value. Understanding how to model S106 costs accurately, and how lenders factor them into their assessment, is critical for any scheme of 10+ units.",
+        ],
+      },
+      {
+        heading: "How S106 Affects Your Development Appraisal",
+        content: [
+          "Affordable housing units are transferred to a registered provider (housing association) at a discounted price — typically 40-60% of market value for social/affordable rent and 60-70% for shared ownership. This discount directly reduces your scheme's GDV. A 30% affordable housing requirement on a 20-unit scheme means 6 units sell at 40-60% of market value, significantly impacting total revenue.",
+          "<strong>Worked example:</strong> A 20-unit scheme with an average market value of £300,000 per unit has a full GDV of £6M. With 30% affordable housing (6 units at 50% of market value), the effective GDV drops to £5.1M. That £900K reduction flows directly through to your profit calculation and affects how much a lender will advance.",
+          "Infrastructure contributions (education, highways, open space) are typically fixed sums specified in the S106 agreement. These are additional costs in your development appraisal — not a GDV reduction — and are usually payable at specific trigger points (e.g., prior to occupation of the first unit, or before 50% of units are occupied).",
+          "Community Infrastructure Levy (CIL) is a separate charge applied in many local authority areas, calculated per sq m of new development. Unlike S106, CIL rates are non-negotiable and published in the local authority's charging schedule. Include CIL in your appraisal from the outset — it's not a surprise cost if you check the charging schedule early.",
+        ],
+      },
+      {
+        heading: "Viability Assessments: Negotiating Your S106",
+        content: [
+          "If the full affordable housing requirement makes your scheme unviable, you can submit a viability assessment to demonstrate that the S106 obligations should be reduced. This is a formal financial appraisal, typically prepared by a specialist surveyor, that shows the scheme cannot deliver a reasonable developer profit with the full affordable housing requirement.",
+          "Viability assessments are contentious. Local authorities are sceptical of developers claiming unviability, and they'll appoint their own assessor to scrutinise your inputs — land value, build costs, sales values, profit margin, and finance costs. The inputs must be transparent and defensible. Inflating costs or deflating revenues to manipulate the viability outcome will be challenged and can damage your relationship with the planning authority.",
+          "Acceptable developer profit margins in viability assessments are typically 15-20% of GDV for market housing and 6% of GDV for affordable housing. Finance costs should be modelled at current market rates with a realistic build programme. Land value is benchmarked against an 'existing use value plus premium' methodology — the value the land would achieve in its current use, plus a premium to incentivise release for development.",
+          "Successful viability negotiations often result in a reduced affordable housing percentage, a change in tenure mix (more shared ownership and fewer social rent units, which narrows the discount), or a phased trigger for affordable housing delivery. Some authorities accept commuted sums (a cash payment in lieu of on-site affordable units) for smaller schemes, which simplifies the development and improves lender appetite.",
+        ],
+      },
+      {
+        heading: "How Lenders Assess S106 Obligations",
+        content: [
+          "Development lenders factor S106 costs into their assessment in two ways: the affordable housing discount reduces the GDV they use to calculate leverage, and infrastructure contributions are added to the total development cost. Both reduce the loan amount the lender will offer.",
+          "<strong>GDV calculation:</strong> Lenders calculate GDV using blended values — market units at full value, affordable units at the discounted transfer price to the registered provider. If the S106 agreement isn't yet finalised, lenders will assume the full local plan requirement in their assessment, which may restrict your facility. Negotiating S106 terms before approaching lenders gives you a more accurate GDV to work with.",
+          "<strong>Affordable housing pre-sales:</strong> Some lenders require contracts with registered providers to be in place before they'll advance development finance for affordable units. This provides certainty on the affordable housing revenue but requires early engagement with housing associations. Having a registered provider letter of intent or development agreement in place strengthens your funding application significantly.",
+          "<strong>Trigger points:</strong> S106 payment triggers affect your cash flow modelling. If infrastructure payments are due before unit sales complete, your development finance facility needs to account for these outlays. Lenders will check that your facility covers all S106 payments as they fall due, and insufficient provision can cause funding gaps mid-project.",
+        ],
+      },
+      {
+        heading: "Strategies for Funding S106-Heavy Schemes",
+        content: [
+          "<strong>Registered provider forward funding:</strong> Some housing associations will forward-fund the affordable housing element of your scheme — effectively paying you during construction for units you'll deliver at completion. This injects cash during the build phase, reducing your development finance requirement and improving scheme viability.",
+          "<strong>Mezzanine to bridge the equity gap:</strong> S106 obligations increase your total development cost while reducing GDV, which means you need more equity to fund the difference. Mezzanine finance can fill this gap, stretching your leverage to 85-90% of total costs. The blended cost of senior debt plus mezzanine must still produce an acceptable profit margin, but for viable schemes, this structure works well.",
+          "<strong>Phased delivery:</strong> For larger schemes, negotiating a phased S106 delivery — where affordable units are delivered alongside or slightly behind market units — can improve early cash flow. This allows market unit sales to fund the affordable housing delivery, reducing peak debt and improving lender comfort.",
+          "<strong>Off-site contributions:</strong> Where local plan policy permits, a commuted sum payment in lieu of on-site affordable housing can simplify your development. You build and sell 100% market housing, and the commuted sum is modelled as a development cost. This is often more attractive to lenders because the entire scheme generates market GDV, and there's no need to coordinate with a registered provider during construction.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question:
+          "Can I avoid affordable housing requirements on my development?",
+        answer:
+          "The affordable housing threshold applies to schemes of 10+ units (or 0.5+ hectares). Below this threshold, affordable housing is generally not required. For schemes above the threshold, a viability assessment can reduce the requirement if you can demonstrate that full compliance makes the scheme unviable. However, this must be a genuine financial case — not a strategy to maximise profit at the expense of affordable housing delivery.",
+      },
+      {
+        question:
+          "Do S106 obligations affect how much development finance I can borrow?",
+        answer:
+          "Yes, significantly. Affordable housing reduces your effective GDV (lenders use blended values including the discounted affordable transfer prices), and infrastructure contributions increase total development costs. Both reduce the loan amount available. A scheme with 30% affordable housing will typically qualify for a smaller facility than the same scheme without S106 obligations.",
+      },
+      {
+        question: "What is a commuted sum and when can I use one?",
+        answer:
+          "A commuted sum is a cash payment to the local authority in lieu of providing affordable housing on-site. The authority uses the money to fund affordable housing elsewhere. Commuted sums are typically available for smaller schemes (10-15 units), schemes where on-site affordable housing is impractical, or as part of a viability negotiation. Check your local authority's S106 supplementary planning document for their policy on commuted sums.",
+      },
+    ],
+  },
+
+  // --- Scenario Guide 4: HMO Conversion ---
+  {
+    slug: "hmo-conversion-finance-guide",
+    title: "HMO Conversion Finance: A Complete Guide for Developers",
+    metaTitle:
+      "HMO Conversion Finance Guide | Funding Houses in Multiple Occupation",
+    metaDescription:
+      "How to finance HMO conversions in the UK. Covers licensing, Article 4 planning, specialist lenders, and exit strategies for houses in multiple occupation.",
+    excerpt:
+      "HMO conversions can deliver rental yields of 8-12% — significantly above standard BTL returns. But financing them requires specialist lenders who understand licensing, planning, and the operational model.",
+    category: "refurbishment",
+    readingTime: "10 min read",
+    datePublished: "2026-03-31",
+    dateModified: "2026-03-31",
+    relatedServices: [
+      "refurbishment-finance",
+      "bridging-loans",
+      "commercial-mortgages",
+    ],
+    relatedLocations: [
+      "greater-manchester",
+      "west-yorkshire",
+      "nottinghamshire",
+      "west-midlands",
+    ],
+    relatedGuides: [
+      "refurbishment-finance-vs-development-finance",
+      "fixed-vs-variable-bridging-rates",
+    ],
+    sections: [
+      {
+        heading: "What Is an HMO and Why Convert?",
+        content: [
+          "A House in Multiple Occupation (HMO) is a property rented to 3 or more tenants from 2 or more households who share facilities such as a kitchen or bathroom. HMOs are one of the highest-yielding residential investment strategies in the UK, with gross yields of 8-12% typical in strong university and employment-driven towns.",
+          "The economics are straightforward: a 5-bedroom house that might generate £1,200/month as a single let could produce £2,500-£3,500/month as a 5-room HMO. After management costs, the net yield advantage is typically 3-5 percentage points above conventional BTL — a significant difference that compounds over time.",
+          "HMO conversion involves purchasing a suitable property (typically a large terraced or semi-detached house), reconfiguring the layout to create en-suite bedrooms with a shared kitchen and living space, and bringing the property up to HMO licensing standards. The conversion cost varies widely — from £20,000 for a cosmetic refit of a property already configured as bedsits, to £150,000+ for a full structural conversion of a family home.",
+        ],
+      },
+      {
+        heading: "Licensing and Planning Requirements",
+        content: [
+          "<strong>Mandatory licensing:</strong> Since October 2018, all HMOs with 5 or more tenants forming 2 or more households require a mandatory licence from the local authority. The licensing regime sets minimum room sizes (6.51 sq m for a single room, 10.22 sq m for a double), fire safety standards, kitchen and bathroom ratios, and waste disposal arrangements. Non-compliance carries unlimited fines and rent repayment orders.",
+          "<strong>Additional licensing:</strong> Many local authorities operate additional licensing schemes that cover HMOs below the mandatory threshold (3-4 tenants). Check your target area's licensing regime before purchasing — the standards and fees vary significantly between authorities.",
+          "<strong>Article 4 directions:</strong> In many urban areas — particularly university towns and major cities — the local authority has made an Article 4 direction removing the permitted development right to convert a dwelling (Use Class C3) to an HMO (Use Class C4). Where an Article 4 direction applies, you need full planning permission to create a small HMO (3-6 tenants). Planning permission for a large HMO (7+ tenants, Sui Generis use) is always required regardless of Article 4.",
+          "<strong>Building regulations:</strong> HMO conversions typically require Building Regulations approval for structural alterations, fire safety measures (fire doors, alarms, escape routes), electrical works, and plumbing. The cost of achieving Building Regulations compliance should be factored into your conversion budget from the outset.",
+        ],
+      },
+      {
+        heading: "Financing the Acquisition",
+        content: [
+          "The acquisition phase of an HMO conversion is typically funded by a bridging loan. Standard residential mortgages don't cover properties you intend to convert, and specialist HMO mortgages require the property to already be licensed and tenanted. A bridge provides the fast, flexible acquisition funding you need.",
+          "<strong>Bridging for HMO:</strong> Several bridging lenders have specific HMO experience and understand the conversion process. They'll advance 70-75% of the purchase price (or current market value, whichever is lower) on a 6-12 month term. Interest rates for HMO bridge-to-refurbish facilities start from 0.65% per month.",
+          "If the property is already an HMO (you're buying it as a going concern), some specialist BTL lenders will provide purchase finance directly — avoiding the bridge entirely. This works when the property has an existing licence, compliant rooms, and tenants in place. The lender values it based on current rental income rather than vacant possession value.",
+          "<strong>Key lender questions:</strong> Does the property have Article 4 planning permission (if required)? Is the property licensable under the local authority's scheme? Do the room sizes meet minimum standards? Is there a viable fire escape route? Answering these positively before approaching lenders saves time and demonstrates competence.",
+        ],
+      },
+      {
+        heading: "Financing the Conversion Works",
+        content: [
+          "HMO conversion works are typically financed as either a retained element within the bridging loan or as a separate refurbishment facility. The approach depends on the scale of works.",
+          "<strong>Light conversion (under £50K):</strong> If the property already has a suitable layout and the works are primarily cosmetic — en-suite installation, fire safety upgrades, redecoration — a bridging loan with a retained works fund is the simplest option. The lender retains a portion of the gross loan advance to cover works costs, releasing funds against completed stages.",
+          "<strong>Heavy conversion (£50K-£150K+):</strong> Full structural conversions — reconfiguring layouts, installing multiple en-suites, upgrading electrical and plumbing systems — require a dedicated refurbishment or light development facility. These provide staged drawdowns against surveyor-certified completion milestones, similar to development finance but with lighter documentation requirements.",
+          "Build costs for HMO conversions vary regionally. As a guide: en-suite bathroom installation costs £3,000-£6,000 per room, fire door sets £300-£500 per door, fire alarm system £1,500-£3,000, kitchen upgrade £5,000-£15,000, and general refurbishment £200-£400 per sq m. Always get contractor quotes rather than relying on averages — every property has different requirements.",
+        ],
+      },
+      {
+        heading: "Exit Strategy: HMO Mortgages",
+        content: [
+          "Your exit from the bridging/refurbishment facility is a refinance onto a long-term HMO mortgage. This is where the yield advantage of HMOs translates into superior leverage — lenders assess HMO mortgages on rental income, and the higher rent supports a larger loan.",
+          "<strong>HMO mortgage criteria:</strong> Specialist HMO lenders require: a valid HMO licence (or evidence of application), rooms meeting minimum size standards, compliant fire safety measures, Building Regulations sign-off on any conversion works, and ideally 3-6 months of rental income evidence. Some lenders will refinance on projected rents with a surveyor's rental assessment.",
+          "<strong>Valuation methods:</strong> HMO valuations use either a bricks-and-mortar approach (comparable house values adjusted for HMO use) or an investment approach (capitalised rental income). The investment approach typically produces higher valuations, which supports better leverage. Not all lenders use the investment approach — choosing the right lender matters.",
+          "<strong>Typical HMO mortgage terms:</strong> LTV up to 75% of investment value, interest rates from 5-7%, terms of 2-5 years (with 25-year amortisation). Interest coverage ratios of 125-145% at a stressed rate are standard. Portfolio landlords (4+ mortgaged properties) face additional underwriting scrutiny but can still access competitive HMO mortgage products.",
+        ],
+      },
+      {
+        heading: "HMO Investment Strategy: Scale and Portfolio Building",
+        content: [
+          "The most successful HMO investors operate a systematic acquisition-conversion-refinance cycle. Each completed HMO is refinanced at the improved value, releasing equity to fund the next acquisition. With typical conversion value uplifts of 25-40%, the recycled equity can fund 2-3 further acquisitions per year.",
+          "<strong>Location selection:</strong> Focus on areas with strong tenant demand from young professionals, students, or key workers. University towns (Leeds, Manchester, Nottingham, Bristol) have reliable demand, but professional-let HMOs in employment centres often achieve higher rents with lower management intensity. Check local HMO saturation — too many HMOs in one area suppresses rents and increases voids.",
+          "<strong>Management considerations:</strong> HMOs are management-intensive compared to standard BTL. Shared areas need regular cleaning, maintenance calls are more frequent, and tenant turnover is higher. Most serious HMO investors use specialist HMO management companies (typically 10-15% of rent) or build an in-house team once they reach 5-10 properties. Factor management costs into your yield calculations from day one.",
+          "<strong>Regulatory risk:</strong> HMO regulation is tightening. Minimum room sizes, licensing requirements, and energy efficiency standards are all becoming more stringent. Properties that meet current minimum standards may not comply with future regulations. Over-specifying your conversion slightly — larger rooms, better insulation, higher-quality finishes — protects against regulatory tightening and attracts better tenants willing to pay premium rents.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Do I need planning permission to convert a house into an HMO?",
+        answer:
+          "It depends on the local authority. Converting a dwelling (C3) to a small HMO (C4, 3-6 tenants) is permitted development unless the local authority has made an Article 4 direction removing this right. Many urban areas and university towns have Article 4 directions in place. Large HMOs (7+ tenants, Sui Generis use) always require full planning permission. Check with your local planning authority before purchasing.",
+      },
+      {
+        question: "What yields can I expect from an HMO?",
+        answer:
+          "Gross yields of 8-12% are typical for well-located, well-managed HMOs, compared to 5-7% for standard BTL. Net yields after management, voids, and higher maintenance costs are typically 6-9%. The yield advantage is most pronounced in areas with strong rental demand and moderate property prices — northern cities and university towns often deliver the best returns.",
+      },
+      {
+        question:
+          "Can I get an HMO mortgage on a property I've just converted?",
+        answer:
+          "Yes, but most HMO mortgage lenders require a valid licence, compliant room sizes, fire safety measures, and ideally some rental income history. Some will refinance on projected rents with a surveyor's rental assessment. The typical route is: purchase on a bridge, convert, obtain the licence, tenant the property, then refinance onto a long-term HMO mortgage after 3-6 months of proven rental income.",
       },
     ],
   },
