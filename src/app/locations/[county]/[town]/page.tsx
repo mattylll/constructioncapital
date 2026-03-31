@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import Link from "next/link";
 import {
   Building2,
@@ -55,13 +56,22 @@ interface PageProps {
   params: Promise<{ county: string; town: string }>;
 }
 
+// Service slugs that must not be treated as town names
+const SERVICE_SLUGS: Set<string> = new Set(SERVICES.map((s) => s.slug));
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { county, town } = await params;
+
+  // Prevent service slugs from rendering as town pages (e.g. /locations/greater-london/development-finance)
+  if (SERVICE_SLUGS.has(town)) {
+    notFound();
+  }
+
   const countyName = deslugify(county);
   const townName = deslugify(town);
 
   return {
-    title: `Property Finance in ${townName}, ${countyName} | ${SITE_NAME}`,
+    title: `Property Finance in ${townName}, ${countyName}`,
     description: `Development finance, bridging loans, mezzanine finance and commercial mortgages in ${townName}, ${countyName}. Expert property finance brokers with local knowledge.`,
     alternates: {
       canonical: `${SITE_URL}/locations/${county}/${town}`,
@@ -84,6 +94,11 @@ export async function generateStaticParams(): Promise<{ county: string; town: st
 
 export default async function TownPage({ params }: PageProps) {
   const { county, town } = await params;
+
+  if (SERVICE_SLUGS.has(town)) {
+    notFound();
+  }
+
   const countyData = getCountyBySlug(county);
   const countyName = countyData?.name ?? deslugify(county);
   const townData = getTownInCounty(county, town);
