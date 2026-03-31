@@ -189,7 +189,6 @@ export default function ServicesPage() {
               return (
                 <div
                   key={service.slug}
-                  id={service.slug}
                   className="scroll-mt-24"
                 >
                   <div
@@ -233,7 +232,12 @@ export default function ServicesPage() {
                             color: isEven ? "white" : "var(--foreground)",
                           }}
                         >
-                          {service.name}
+                          <Link
+                            href={`/services/${service.slug}`}
+                            className="transition-opacity hover:opacity-80"
+                          >
+                            {service.name}
+                          </Link>
                         </h2>
 
                         <p
@@ -358,16 +362,28 @@ export default function ServicesPage() {
                       </div>
 
                       <div className="mt-8">
-                        <Button
-                          asChild
-                          variant="outline"
-                          className="border-gold/30 text-gold-dark hover:bg-gold/5 hover:text-gold-dark font-semibold"
-                        >
-                          <Link href="/deal-room">
-                            Apply for {service.name}
-                            <ArrowRight className="ml-2 h-4 w-4" />
-                          </Link>
-                        </Button>
+                        <div className="flex flex-wrap gap-3">
+                          <Button
+                            asChild
+                            variant="outline"
+                            className="border-gold/30 text-gold-dark hover:bg-gold/5 hover:text-gold-dark font-semibold"
+                          >
+                            <Link href={`/services/${service.slug}`}>
+                              Learn More
+                              <ArrowRight className="ml-2 h-4 w-4" />
+                            </Link>
+                          </Button>
+                          <Button
+                            asChild
+                            variant="outline"
+                            className="border-gold/30 text-gold-dark hover:bg-gold/5 hover:text-gold-dark font-semibold"
+                          >
+                            <Link href="/deal-room">
+                              Apply Now
+                              <ArrowRight className="ml-2 h-4 w-4" />
+                            </Link>
+                          </Button>
+                        </div>
                       </div>
 
                       {/* Location cross-links */}

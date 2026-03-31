@@ -57,6 +57,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  // Individual service pages
+  const servicePages: MetadataRoute.Sitemap = SERVICES.map((service) => ({
+    url: `${SITE_URL}/services/${service.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }));
+
   // Case study pages
   const caseStudyPages: MetadataRoute.Sitemap = CASE_STUDY_SLUGS.map(
     (slug) => ({
@@ -116,5 +124,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...staticPages, ...caseStudyPages, ...guidePages, ...locationPages];
+  return [...staticPages, ...servicePages, ...caseStudyPages, ...guidePages, ...locationPages];
 }
