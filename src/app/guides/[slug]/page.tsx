@@ -113,10 +113,27 @@ export default async function GuidePage({ params }: PageProps) {
     ],
   };
 
+  const faqJsonLd =
+    guide.faqs && guide.faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: guide.faqs.map((faq) => ({
+            "@type": "Question",
+            name: faq.question,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: faq.answer,
+            },
+          })),
+        }
+      : null;
+
   return (
     <>
       <JsonLd data={articleJsonLd} />
       <JsonLd data={breadcrumbJsonLd} />
+      {faqJsonLd && <JsonLd data={faqJsonLd} />}
 
       {/* Hero Section */}
       <section className="hero-gradient noise-overlay relative overflow-hidden py-20 text-white sm:py-28">
@@ -346,6 +363,42 @@ export default async function GuidePage({ params }: PageProps) {
                     </div>
                     <ArrowRight className="h-5 w-5 shrink-0 text-muted-foreground transition-all duration-300 group-hover:translate-x-1 group-hover:text-gold" />
                   </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* FAQs */}
+      {guide.faqs && guide.faqs.length > 0 && (
+        <section className="bg-muted/20 py-12 sm:py-16">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-3xl">
+              <div
+                className="mb-5 h-[2px] w-14"
+                style={{
+                  background:
+                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
+                }}
+              />
+              <h3 className="mb-8 text-xl font-bold tracking-tight sm:text-2xl">
+                Frequently Asked Questions
+              </h3>
+
+              <div className="space-y-6">
+                {guide.faqs.map((faq, i) => (
+                  <div
+                    key={i}
+                    className="rounded-xl border border-border bg-card p-6"
+                  >
+                    <h4 className="mb-3 font-bold text-foreground">
+                      {faq.question}
+                    </h4>
+                    <p className="text-sm leading-relaxed text-muted-foreground">
+                      {faq.answer}
+                    </p>
+                  </div>
                 ))}
               </div>
             </div>
