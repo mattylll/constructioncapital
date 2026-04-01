@@ -22,7 +22,7 @@ import { SITE_NAME, SITE_URL, CONTACT, STATS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "About Matt Lenzie — Founder & Principal Broker",
   description:
-    "Matt Lenzie has arranged over £500M in property development finance across 25+ years. FCA regulated, NACFB member. Specialist in development finance, bridging loans, mezzanine finance and equity structuring for UK property developers.",
+    "Matt Lenzie has arranged over £500M in property development finance across 25+ years. Specialist in development finance, bridging loans, mezzanine finance and equity structuring for UK property developers.",
   alternates: {
     canonical: `${SITE_URL}/about`,
   },
@@ -133,25 +133,13 @@ export default function AboutPage() {
       addressLocality: "London",
       addressCountry: "GB",
     },
-    hasCredential: [
-      {
-        "@type": "EducationalOccupationalCredential",
-        credentialCategory: "regulatory",
-        name: "FCA Authorised",
-        recognizedBy: {
-          "@type": "Organization",
-          name: "Financial Conduct Authority",
-        },
-      },
-      {
-        "@type": "EducationalOccupationalCredential",
-        credentialCategory: "professional membership",
-        name: "NACFB Member",
-        recognizedBy: {
-          "@type": "Organization",
-          name: "National Association of Commercial Finance Brokers",
-        },
-      },
+    knowsAbout: [
+      "Development Finance",
+      "Bridging Loans",
+      "Mezzanine Finance",
+      "Equity & Joint Ventures",
+      "Refurbishment Finance",
+      "Commercial Mortgages",
     ],
   };
 
@@ -603,7 +591,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ━━━ CREDENTIALS ━━━ */}
+      {/* ━━━ TRUST SIGNALS ━━━ */}
       <section className="border-t bg-muted/20 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-16 text-center">
@@ -611,14 +599,13 @@ export default function AboutPage() {
               className="mb-3 text-xs font-bold uppercase tracking-[0.25em]"
               style={{ color: "var(--gold-dark)" }}
             >
-              Credentials
+              Why Us
             </p>
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
-              Trust & Compliance
+              Track Record & Trust
             </h2>
             <p className="mx-auto mt-5 max-w-2xl text-lg text-muted-foreground">
-              We operate to the highest standards of professional conduct and
-              regulatory compliance.
+              25+ years of results across every market condition.
             </p>
           </div>
 
@@ -626,18 +613,18 @@ export default function AboutPage() {
             {[
               {
                 icon: Award,
-                title: "FCA Authorised & Regulated",
-                desc: "Construction Capital is authorised and regulated by the Financial Conduct Authority for credit broking activities. All advice and recommendations are provided in compliance with FCA consumer protection standards.",
+                title: "£500M+ Arranged",
+                desc: "Over half a billion pounds in property finance structured across development, bridging, mezzanine, and equity — from £200k light refurbs to £50M+ multi-phase schemes.",
               },
               {
                 icon: Users,
-                title: "NACFB Member",
-                desc: "Full member of the National Association of Commercial Finance Brokers — the UK's leading trade body for commercial finance professionals. NACFB membership requires ongoing CPD and adherence to the NACFB Code of Practice.",
+                title: "100+ Lender Panel",
+                desc: "Direct relationships with challenger banks, specialist lenders, family offices, and institutional debt funds. We match the right lender to your deal, not the other way round.",
               },
               {
                 icon: Shield,
-                title: "Professional Indemnity Insured",
-                desc: "Comprehensive PI insurance covering all brokerage activities. This protects clients in the unlikely event of professional negligence and is a requirement for all regulated finance intermediaries.",
+                title: "60%+ Repeat Business",
+                desc: "The majority of our deal flow comes from developers who return for their next project. Our track record through every market cycle — including zero client defaults in 2008 — speaks for itself.",
               },
             ].map((cred) => (
               <div

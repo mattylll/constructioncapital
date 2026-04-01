@@ -298,7 +298,7 @@ export const SERVICE_PAGE_CONTENT: Record<string, ServicePageContent> = {
       {
         question: "Are bridging loans regulated?",
         answer:
-          "Bridging loans on property you will live in are FCA-regulated. Investment and commercial bridging is unregulated. Construction Capital arranges both regulated and unregulated bridging through appropriately authorised lender partners.",
+          "Bridging loans on property you will live in are FCA-regulated. Investment and commercial bridging is unregulated. Construction Capital specialises in unregulated commercial and investment bridging for property developers and investors.",
       },
       {
         question: "Can I get a bridging loan on a property with no income?",
