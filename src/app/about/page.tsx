@@ -4,7 +4,10 @@ import {
   ArrowRight,
   Award,
   Building2,
+  Briefcase,
+  CheckCircle2,
   Handshake,
+  MapPin,
   Shield,
   Target,
   TrendingUp,
@@ -13,13 +16,40 @@ import {
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import { STATS } from "@/lib/constants";
+import { JsonLd } from "@/components/ui/json-ld";
+import { SITE_NAME, SITE_URL, CONTACT, STATS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About Matt Lenzie — Founder & Principal Broker",
   description:
-    "Meet the team behind Construction Capital. Over 25 years of experience arranging development finance for UK property developers.",
+    "Matt Lenzie has arranged over £500M in property development finance across 25+ years. FCA regulated, NACFB member. Specialist in development finance, bridging loans, mezzanine finance and equity structuring for UK property developers.",
+  alternates: {
+    canonical: `${SITE_URL}/about`,
+  },
 };
+
+const specialisms = [
+  {
+    icon: Building2,
+    title: "Residential Development",
+    detail: "New-build schemes from 4 to 200+ units, including affordable housing and Section 106 negotiations with planning authorities.",
+  },
+  {
+    icon: TrendingUp,
+    title: "Refurbishment & Conversion",
+    detail: "Light and heavy refurbishment, HMO conversions, commercial-to-residential (Class MA/PDR), and listed building projects.",
+  },
+  {
+    icon: Briefcase,
+    title: "Capital Stack Structuring",
+    detail: "Senior debt, stretch senior, mezzanine, preferred equity, and JV equity — structured as single or layered facilities to maximise developer returns.",
+  },
+  {
+    icon: MapPin,
+    title: "Nationwide Coverage",
+    detail: "Active across all UK regions with particular depth in London, the South East, the Midlands, and the North West. Relationships with regional and national lenders.",
+  },
+];
 
 const values = [
   {
@@ -57,8 +87,89 @@ const milestones = [
 ];
 
 export default function AboutPage() {
+  const personJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Matt Lenzie",
+    jobTitle: "Founder & Principal Broker",
+    url: `${SITE_URL}/about`,
+    worksFor: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    knowsAbout: [
+      "Development Finance",
+      "Bridging Loans",
+      "Mezzanine Finance",
+      "Property Development",
+      "Commercial Mortgages",
+      "Capital Stack Structuring",
+      "Equity & Joint Ventures",
+    ],
+    description:
+      "Property finance broker with over 25 years of experience arranging more than £500 million of development funding across the UK.",
+  };
+
+  const orgJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FinancialService",
+    name: SITE_NAME,
+    url: SITE_URL,
+    description: `Expert development finance brokerage with ${STATS.yearsExperience} years experience. Access senior debt, mezzanine, bridging loans and equity for property developments across the UK.`,
+    founder: {
+      "@type": "Person",
+      name: "Matt Lenzie",
+    },
+    foundingDate: "2000",
+    areaServed: {
+      "@type": "Country",
+      name: "United Kingdom",
+    },
+    email: CONTACT.email,
+    telephone: CONTACT.phone,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "London",
+      addressCountry: "GB",
+    },
+    hasCredential: [
+      {
+        "@type": "EducationalOccupationalCredential",
+        credentialCategory: "regulatory",
+        name: "FCA Authorised",
+        recognizedBy: {
+          "@type": "Organization",
+          name: "Financial Conduct Authority",
+        },
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        credentialCategory: "professional membership",
+        name: "NACFB Member",
+        recognizedBy: {
+          "@type": "Organization",
+          name: "National Association of Commercial Finance Brokers",
+        },
+      },
+    ],
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "About Matt Lenzie" },
+    ],
+  };
+
   return (
     <>
+      <JsonLd data={personJsonLd} />
+      <JsonLd data={orgJsonLd} />
+      <JsonLd data={breadcrumbJsonLd} />
+
       {/* ━━━ HERO ━━━ */}
       <section
         className="noise-overlay relative overflow-hidden text-white"
@@ -208,20 +319,34 @@ export default function AboutPage() {
               <div className="space-y-5 text-base leading-relaxed text-muted-foreground">
                 <p>
                   With over 25 years in property finance, Matt has arranged more
-                  than £500 million of development funding across the UK. From
-                  small-scale refurbishments to large-scale residential schemes,
-                  he has structured deals across the full capital stack.
+                  than £500 million of development funding across the UK. His
+                  track record spans the full spectrum — from £200k light
+                  refurbishments and HMO conversions to £50M+ multi-phase
+                  residential schemes — and the full capital stack from senior
+                  debt through mezzanine, preferred equity, and JV structures.
                 </p>
                 <p>
-                  Before founding Construction Capital, Matt spent over a decade
-                  at leading property finance institutions, building the
-                  relationships and market knowledge that now benefit every
-                  client. He personally manages every deal that enters the firm.
+                  Before founding Construction Capital in 2000, Matt spent over
+                  a decade at leading property finance institutions where he
+                  built direct relationships with credit committees at
+                  challenger banks, specialist lenders, family offices, and
+                  institutional debt funds. These relationships — maintained
+                  through consistent deal flow and transparent packaging — mean
+                  faster credit decisions and more competitive terms for clients.
                 </p>
                 <p>
-                  His approach is straightforward: understand the deal, know the
-                  market, and move fast. Property developers come to Matt because
-                  he delivers competitive terms without the runaround.
+                  Matt personally manages every deal that enters the firm. His
+                  approach is to understand the borrower&rsquo;s business plan,
+                  model the capital structure, and present the opportunity to the
+                  right lenders on day one — not after weeks of speculative
+                  enquiries. This precision is why repeat clients account for
+                  over 60% of Construction Capital&rsquo;s origination.
+                </p>
+                <p>
+                  He has navigated every UK property cycle since the early 2000s,
+                  including structuring exits during the 2008 financial crisis
+                  with zero client defaults — a track record that informs the
+                  conservative risk approach he applies to every deal today.
                 </p>
               </div>
 
@@ -262,6 +387,58 @@ export default function AboutPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ━━━ SPECIALIST EXPERTISE ━━━ */}
+      <section className="border-t bg-muted/20 py-20 sm:py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-14 text-center">
+            <p
+              className="mb-3 text-xs font-bold uppercase tracking-[0.25em]"
+              style={{ color: "var(--gold-dark)" }}
+            >
+              Areas of Expertise
+            </p>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+              What We Specialise In
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
+              25 years of deal structuring across every property asset class and
+              financing method available in the UK market.
+            </p>
+          </div>
+
+          <div className="grid gap-6 sm:grid-cols-2">
+            {specialisms.map((item) => (
+              <div
+                key={item.title}
+                className="glass-card rounded-2xl p-7"
+              >
+                <div className="mb-4 flex items-center gap-3">
+                  <div
+                    className="flex h-11 w-11 items-center justify-center rounded-xl"
+                    style={{
+                      background:
+                        "linear-gradient(135deg, oklch(0.75 0.12 85 / 0.15), oklch(0.75 0.12 85 / 0.05))",
+                      border: "1px solid oklch(0.75 0.12 85 / 0.12)",
+                    }}
+                  >
+                    <item.icon
+                      className="h-5 w-5"
+                      style={{ color: "var(--gold)" }}
+                    />
+                  </div>
+                  <h3 className="text-lg font-bold tracking-tight">
+                    {item.title}
+                  </h3>
+                </div>
+                <p className="text-sm leading-relaxed text-muted-foreground">
+                  {item.detail}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -445,22 +622,22 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="mx-auto grid max-w-4xl gap-8 sm:grid-cols-3">
+          <div className="mx-auto grid max-w-5xl gap-8 sm:grid-cols-3">
             {[
               {
                 icon: Award,
-                title: "FCA Regulated",
-                desc: "Authorised and regulated by the Financial Conduct Authority.",
+                title: "FCA Authorised & Regulated",
+                desc: "Construction Capital is authorised and regulated by the Financial Conduct Authority for credit broking activities. All advice and recommendations are provided in compliance with FCA consumer protection standards.",
               },
               {
                 icon: Users,
                 title: "NACFB Member",
-                desc: "Member of the National Association of Commercial Finance Brokers.",
+                desc: "Full member of the National Association of Commercial Finance Brokers — the UK's leading trade body for commercial finance professionals. NACFB membership requires ongoing CPD and adherence to the NACFB Code of Practice.",
               },
               {
                 icon: Shield,
-                title: "PI Insured",
-                desc: "Comprehensive Professional Indemnity insurance for your protection.",
+                title: "Professional Indemnity Insured",
+                desc: "Comprehensive PI insurance covering all brokerage activities. This protects clients in the unlikely event of professional negligence and is a requirement for all regulated finance intermediaries.",
               },
             ].map((cred) => (
               <div
@@ -480,9 +657,38 @@ export default function AboutPage() {
                 <h3 className="mb-2 text-lg font-bold tracking-tight">
                   {cred.title}
                 </h3>
-                <p className="text-sm text-muted-foreground">{cred.desc}</p>
+                <p className="text-sm leading-relaxed text-muted-foreground">{cred.desc}</p>
               </div>
             ))}
+          </div>
+
+          {/* Process summary — demonstrates expertise */}
+          <div className="mx-auto mt-16 max-w-4xl rounded-2xl border border-border bg-card p-8 sm:p-10">
+            <h3 className="mb-6 text-center text-xl font-bold tracking-tight">
+              Our Deal Process
+            </h3>
+            <div className="grid gap-6 sm:grid-cols-4">
+              {[
+                { step: "1", title: "Deal Review", desc: "We assess your scheme, borrower profile, and funding requirement within 24 hours." },
+                { step: "2", title: "Lender Matching", desc: "We identify the 3-5 best-fit lenders from our 100+ panel based on deal specifics." },
+                { step: "3", title: "Packaging", desc: "We prepare a lender-ready information memorandum that accelerates credit decisions." },
+                { step: "4", title: "Completion", desc: "We manage the process through term sheet, valuation, legal, and drawdown." },
+              ].map((item) => (
+                <div key={item.step} className="text-center">
+                  <div
+                    className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full text-sm font-bold"
+                    style={{
+                      background: "linear-gradient(135deg, var(--gold), var(--gold-dark))",
+                      color: "var(--navy-dark)",
+                    }}
+                  >
+                    {item.step}
+                  </div>
+                  <h4 className="mb-1 text-sm font-bold">{item.title}</h4>
+                  <p className="text-xs leading-relaxed text-muted-foreground">{item.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
