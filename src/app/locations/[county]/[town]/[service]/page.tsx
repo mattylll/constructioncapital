@@ -18,6 +18,7 @@ import {
   getArrangementFee,
 } from "@/lib/location-content";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
+import { LocationMap } from "@/components/locations/location-map";
 import {
   UK_COUNTIES,
   getTownInCounty,
@@ -618,6 +619,9 @@ export default async function ServicePage({ params }: PageProps) {
 
       {/* Local Case Studies */}
       <LocalCaseStudies caseStudies={localCaseStudies} locationName={`${townName}, ${countyName}`} />
+
+      {/* Location Map */}
+      <LocationMap locationName={townName} countyName={countyName} />
 
       {/* CTA Section */}
       <LocationCTA townName={townName} serviceName={serviceName} />

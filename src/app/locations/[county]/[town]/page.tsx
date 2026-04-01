@@ -24,6 +24,7 @@ import { getTownOverview } from "@/lib/location-content";
 import { getTownMarketData } from "@/lib/town-market-data";
 import { TownMarketInsights } from "@/components/locations/town-market-insights";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
+import { LocationMap } from "@/components/locations/location-map";
 import {
   UK_COUNTIES,
   getTownInCounty,
@@ -305,6 +306,9 @@ export default async function TownPage({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      {/* Location Map */}
+      <LocationMap locationName={townName} countyName={countyName} />
 
       {/* Town Market Insights — unique per town */}
       {townMarketData && (

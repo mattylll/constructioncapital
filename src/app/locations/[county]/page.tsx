@@ -10,6 +10,7 @@ import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { getCaseStudiesByCounty } from "@/lib/case-studies";
 import { getCountyOverview } from "@/lib/location-content";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
+import { LocationMap } from "@/components/locations/location-map";
 import { UK_COUNTIES, getCountyBySlug, type TownData } from "@/lib/uk-locations-data";
 
 // ISR configuration
@@ -278,6 +279,9 @@ export default async function CountyPage({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      {/* Location Map */}
+      <LocationMap locationName={countyName} countyName="United Kingdom" />
 
       {/* Towns Grid */}
       <section className="bg-muted/30 py-16 sm:py-20">
