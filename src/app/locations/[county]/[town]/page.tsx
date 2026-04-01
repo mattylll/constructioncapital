@@ -21,6 +21,8 @@ import { SERVICES } from "@/lib/services";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { getCaseStudiesByCounty } from "@/lib/case-studies";
 import { getTownOverview } from "@/lib/location-content";
+import { getTownMarketData } from "@/lib/town-market-data";
+import { TownMarketInsights } from "@/components/locations/town-market-insights";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
 import {
   UK_COUNTIES,
@@ -107,6 +109,7 @@ export default async function TownPage({ params }: PageProps) {
   const townName = townData?.name ?? deslugify(town);
 
   const localCaseStudies = getCaseStudiesByCounty(county);
+  const townMarketData = getTownMarketData(county, town);
   const realRelated = getRealRelatedTowns(county, town, 6);
   const relatedTowns = realRelated.map((t) => ({
     name: t.name,
@@ -303,8 +306,13 @@ export default async function TownPage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* Town Market Insights — unique per town */}
+      {townMarketData && (
+        <TownMarketInsights data={townMarketData} townName={townName} />
+      )}
+
       {/* Services Grid */}
-      <section className="bg-muted/30 py-16 sm:py-20">
+      <section className={townMarketData ? "bg-background py-16 sm:py-20" : "bg-muted/30 py-16 sm:py-20"}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
             <div
