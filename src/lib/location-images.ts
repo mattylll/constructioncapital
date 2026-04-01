@@ -109,6 +109,28 @@ const DEFAULT_IMAGE: LocationImage = {
 };
 
 /**
+ * Site-wide hero/feature images for non-location pages.
+ * Keyed by page or section identifier.
+ */
+export const SITE_IMAGES: Record<string, LocationImage> = {
+  "homepage-hero": {
+    id: "rxpThOwuVgE",
+    alt: "Modern residential property development under construction",
+    credit: "Daniel McCullough",
+  },
+  "homepage-process": {
+    id: "yoSKuivF87s",
+    alt: "Architect reviewing construction blueprints on site",
+    credit: "Scott Blake",
+  },
+  "case-studies-hero": {
+    id: "wTPp323zAEw",
+    alt: "Completed residential development project at dusk",
+    credit: "Avel Chuklanov",
+  },
+};
+
+/**
  * Get the image for a location. Tries town-specific first, then county, then default.
  */
 export function getLocationImage(

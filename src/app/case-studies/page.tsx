@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -10,6 +11,7 @@ import {
 
 import { Button } from "@/components/ui/button";
 import { CASE_STUDIES } from "@/lib/case-studies";
+import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
 
 export const metadata: Metadata = {
   title: "Case Studies",
@@ -25,11 +27,22 @@ export default function CaseStudiesPage() {
       {/* ━━━ HERO ━━━ */}
       <section
         className="noise-overlay relative overflow-hidden text-white"
-        style={{
-          background:
-            "linear-gradient(135deg, oklch(0.14 0.05 255) 0%, oklch(0.22 0.06 255) 50%, oklch(0.18 0.05 260) 100%)",
-        }}
       >
+        {/* Background image */}
+        <Image
+          src={unsplashUrl(SITE_IMAGES["case-studies-hero"].id, 1920, 75)}
+          alt=""
+          fill
+          className="object-cover"
+          priority
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(135deg, oklch(0.14 0.05 255 / 0.88) 0%, oklch(0.22 0.06 255 / 0.85) 50%, oklch(0.18 0.05 260 / 0.90) 100%)",
+          }}
+        />
         <div className="pointer-events-none absolute inset-0 opacity-[0.03]">
           <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
             <defs>

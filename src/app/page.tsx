@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import {
   Building2,
@@ -15,6 +16,7 @@ import { AnimatedCounter } from "@/components/home/animated-counter";
 import { Reveal } from "@/components/home/reveal";
 import { Typewriter } from "@/components/home/typewriter";
 import { HomepageEnquiryForm } from "@/components/home/homepage-enquiry-form";
+import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
 
 const services = [
   {
@@ -95,11 +97,23 @@ export default function HomePage() {
   return (
     <>
       {/* ━━━ HERO — Centered billboard ━━━ */}
-      <section className="relative flex min-h-[100vh] flex-col items-center justify-center overflow-hidden text-center text-white"
-        style={{
-          background: "linear-gradient(180deg, oklch(0.10 0.04 255) 0%, oklch(0.14 0.05 255) 50%, oklch(0.10 0.04 255) 100%)",
-        }}
-      >
+      <section className="relative flex min-h-[100vh] flex-col items-center justify-center overflow-hidden text-center text-white">
+        {/* Background construction image */}
+        <Image
+          src={unsplashUrl(SITE_IMAGES["homepage-hero"].id, 1920, 75)}
+          alt=""
+          fill
+          className="object-cover"
+          priority
+        />
+        {/* Dark overlay for text readability */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background: "linear-gradient(180deg, oklch(0.10 0.04 255 / 0.88) 0%, oklch(0.14 0.05 255 / 0.82) 50%, oklch(0.10 0.04 255 / 0.92) 100%)",
+          }}
+        />
+
         {/* Radial gold glow */}
         <div
           className="pointer-events-none absolute inset-0"
@@ -199,10 +213,21 @@ export default function HomePage() {
       {/* ━━━ SPEED — "COMPLETE IN DAYS / NOT MONTHS" ━━━ */}
       <section
         className="relative overflow-hidden py-32 text-center sm:py-44"
-        style={{
-          background: "oklch(0.10 0.04 255)",
-        }}
       >
+        {/* Background image */}
+        <Image
+          src={unsplashUrl(SITE_IMAGES["homepage-process"].id, 1920, 75)}
+          alt=""
+          fill
+          className="object-cover"
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            background: "oklch(0.10 0.04 255 / 0.90)",
+          }}
+        />
+
         {/* Subtle radial glow */}
         <div
           className="pointer-events-none absolute inset-0"
