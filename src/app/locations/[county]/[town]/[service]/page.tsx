@@ -19,6 +19,7 @@ import {
 } from "@/lib/location-content";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
 import { LocationMap } from "@/components/locations/location-map";
+import { LocationHeroImage } from "@/components/locations/location-hero-image";
 import {
   UK_COUNTIES,
   getTownInCounty,
@@ -345,6 +346,13 @@ export default async function ServicePage({ params }: PageProps) {
           }}
         />
       </section>
+
+      {/* Location Hero Image */}
+      <LocationHeroImage
+        countySlug={county}
+        townSlug={town}
+        locationName={`${townName}, ${countyName}`}
+      />
 
       {/* Market Commentary */}
       <section className="bg-background py-16 sm:py-20">

@@ -25,6 +25,7 @@ import { getTownMarketData } from "@/lib/town-market-data";
 import { TownMarketInsights } from "@/components/locations/town-market-insights";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
 import { LocationMap } from "@/components/locations/location-map";
+import { LocationHeroImage } from "@/components/locations/location-hero-image";
 import {
   UK_COUNTIES,
   getTownInCounty,
@@ -283,6 +284,13 @@ export default async function TownPage({ params }: PageProps) {
           }}
         />
       </section>
+
+      {/* Location Hero Image */}
+      <LocationHeroImage
+        countySlug={county}
+        townSlug={town}
+        locationName={`${townName}, ${countyName}`}
+      />
 
       {/* Town Overview */}
       <section className="bg-background py-16 sm:py-20">

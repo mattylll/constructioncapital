@@ -11,6 +11,7 @@ import { getCaseStudiesByCounty } from "@/lib/case-studies";
 import { getCountyOverview } from "@/lib/location-content";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
 import { LocationMap } from "@/components/locations/location-map";
+import { LocationHeroImage } from "@/components/locations/location-hero-image";
 import { UK_COUNTIES, getCountyBySlug, type TownData } from "@/lib/uk-locations-data";
 
 // ISR configuration
@@ -228,6 +229,9 @@ export default async function CountyPage({ params }: PageProps) {
           }}
         />
       </section>
+
+      {/* Location Hero Image */}
+      <LocationHeroImage countySlug={county} locationName={countyName} />
 
       {/* County Overview */}
       <section className="bg-background py-16 sm:py-20">
