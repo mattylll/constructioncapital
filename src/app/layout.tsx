@@ -1,11 +1,8 @@
-import type { ReactNode } from "react";
+import { Suspense, type ReactNode } from "react";
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Inter, Playfair_Display } from "next/font/google";
-import { ThemeProvider } from "next-themes";
-
 import { GoogleAnalytics } from "@/components/analytics/google-analytics";
-import { ConvexClientProvider } from "@/components/layout/convex-client-provider";
 import { LayoutShell } from "@/components/layout/layout-shell";
 import { JsonLd } from "@/components/ui/json-ld";
 import { Toaster } from "@/components/ui/sonner";
@@ -82,12 +79,8 @@ export default function RootLayout({
         {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
           <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
         )}
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
-          <ConvexClientProvider>
-            <LayoutShell>{children}</LayoutShell>
-            <Toaster />
-          </ConvexClientProvider>
-        </ThemeProvider>
+        <LayoutShell>{children}</LayoutShell>
+          <Suspense fallback={null}><Toaster /></Suspense>
         <JsonLd data={organizationJsonLd} />
         {process.env.NEXT_PUBLIC_ANALYTICS_SITE_ID && (
           <Script

@@ -1,7 +1,4 @@
 import Link from "next/link";
-import { ArrowRight, MapPin } from "lucide-react";
-
-import { Button } from "@/components/ui/button";
 
 export default function NotFound() {
   return (
@@ -21,22 +18,18 @@ export default function NotFound() {
           moved.
         </p>
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-          <Button
-            asChild
-            size="lg"
-            className="bg-gold text-navy-dark hover:bg-gold-dark h-12 px-8 font-bold"
+          <Link
+            href="/"
+            className="cta-shimmer inline-flex h-12 items-center justify-center rounded-md bg-gold px-8 text-base font-bold text-navy-dark shadow-lg transition-all duration-300 hover:bg-gold-dark"
           >
-            <Link href="/">
-              Back to Home
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </Button>
-          <Button asChild variant="outline" size="lg" className="h-12 px-8">
-            <Link href="/locations">
-              <MapPin className="mr-2 h-4 w-4" />
-              Explore Locations
-            </Link>
-          </Button>
+            Back to Home
+          </Link>
+          <Link
+            href="/locations"
+            className="inline-flex h-12 items-center justify-center rounded-md border bg-background px-8 text-base font-medium shadow-xs hover:bg-accent hover:text-accent-foreground"
+          >
+            Explore Locations
+          </Link>
         </div>
       </div>
     </section>

@@ -4,12 +4,6 @@ import { Clock } from "lucide-react";
 
 import { JsonLd } from "@/components/ui/json-ld";
 import { BridgingLoanCalculator } from "@/components/calculators/bridging-loan-calculator";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 import { getCalculatorBySlug } from "@/lib/calculators";
 
@@ -190,23 +184,21 @@ export default function BridgingLoanCalculatorPage() {
             </h2>
           </div>
 
-          <div className="mx-auto max-w-3xl">
-            <Accordion type="single" collapsible className="w-full">
+          <div className="mx-auto max-w-3xl space-y-0">
               {calc.faqs.map((faq, index) => (
-                <AccordionItem
+                <details
                   key={index}
-                  value={`faq-${index}`}
-                  className="border-border"
+                  className="group border-b border-border"
                 >
-                  <AccordionTrigger className="text-left text-base font-semibold hover:no-underline">
+                  <summary className="flex cursor-pointer items-center justify-between py-4 text-left text-base font-semibold transition-colors hover:text-foreground/80 [&::-webkit-details-marker]:hidden">
                     {faq.question}
-                  </AccordionTrigger>
-                  <AccordionContent className="text-muted-foreground">
+                    <svg className="ml-2 h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                  </summary>
+                  <div className="pb-4 text-muted-foreground">
                     {faq.answer}
-                  </AccordionContent>
-                </AccordionItem>
+                  </div>
+                </details>
               ))}
-            </Accordion>
           </div>
         </div>
       </section>

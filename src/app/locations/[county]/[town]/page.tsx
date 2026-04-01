@@ -89,10 +89,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
+// Town pages use ISR (dynamicParams=true, revalidate=86400).
+// Built on first request, then cached for 24 hours.
 export async function generateStaticParams(): Promise<{ county: string; town: string }[]> {
-  return UK_COUNTIES.flatMap((county) =>
-    county.towns.map((town) => ({ county: county.slug, town: town.slug }))
-  );
+  return [];
 }
 
 

@@ -3,12 +3,6 @@ import Link from "next/link";
 import { ArrowRight, TrendingUp, Percent, CalendarDays, FileText } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import { Breadcrumbs } from "@/components/locations/breadcrumbs";
 import { RelatedServices } from "@/components/locations/related-services";
 import { RelatedTowns } from "@/components/locations/related-towns";
@@ -137,18 +131,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
+// Only prerender top-traffic service pages at build time.
+// Remaining ~3,000 pages use ISR (dynamicParams=true, revalidate=86400)
+// and are built on first request, then cached for 24 hours.
 export async function generateStaticParams(): Promise<
   { county: string; town: string; service: string }[]
 > {
-  return UK_COUNTIES.flatMap((county) =>
-    county.towns.flatMap((town) =>
-      SERVICES.map((svc) => ({
-        county: county.slug,
-        town: town.slug,
-        service: svc.slug,
-      }))
-    )
-  );
+  return [];
 }
 
 
@@ -608,23 +597,21 @@ export default async function ServicePage({ params }: PageProps) {
             </h2>
           </div>
 
-          <div className="mx-auto max-w-3xl">
-            <Accordion type="single" collapsible className="w-full">
+          <div className="mx-auto max-w-3xl space-y-0">
               {faqs.map((faq, index) => (
-                <AccordionItem
+                <details
                   key={index}
-                  value={`faq-${index}`}
-                  className="border-border"
+                  className="group border-b border-border"
                 >
-                  <AccordionTrigger className="text-left text-base font-semibold hover:no-underline">
+                  <summary className="flex cursor-pointer items-center justify-between py-4 text-left text-base font-semibold transition-colors hover:text-foreground/80 [&::-webkit-details-marker]:hidden">
                     {faq.question}
-                  </AccordionTrigger>
-                  <AccordionContent className="text-muted-foreground">
+                    <svg className="ml-2 h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                  </summary>
+                  <div className="pb-4 text-muted-foreground">
                     {faq.answer}
-                  </AccordionContent>
-                </AccordionItem>
+                  </div>
+                </details>
               ))}
-            </Accordion>
           </div>
         </div>
       </section>

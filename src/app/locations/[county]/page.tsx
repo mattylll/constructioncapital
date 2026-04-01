@@ -51,8 +51,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
+// County pages use ISR — built on first request, cached for 24 hours.
 export async function generateStaticParams(): Promise<{ county: string }[]> {
-  return UK_COUNTIES.map((county) => ({ county: county.slug }));
+  return [];
 }
 
 
