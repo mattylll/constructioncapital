@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, ArrowLeft, Clock, BookOpen } from "lucide-react";
@@ -8,6 +9,7 @@ import { JsonLd } from "@/components/ui/json-ld";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { GUIDES, getGuideBySlug, getRelatedGuides } from "@/lib/guides";
 import { SERVICES } from "@/lib/services";
+import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
 
 export const dynamicParams = true;
 export const revalidate = 86400;
@@ -136,38 +138,21 @@ export default async function GuidePage({ params }: PageProps) {
       {faqJsonLd && <JsonLd data={faqJsonLd} />}
 
       {/* Hero Section */}
-      <section className="hero-gradient noise-overlay relative overflow-hidden py-20 text-white sm:py-28">
-        <div className="pointer-events-none absolute inset-0">
-          <svg
-            className="h-full w-full opacity-[0.035]"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <defs>
-              <pattern
-                id="guide-hero-grid"
-                width="80"
-                height="80"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 80 0 L 0 0 0 80"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#guide-hero-grid)" />
-          </svg>
-        </div>
-
+      <section className="noise-overlay relative overflow-hidden py-20 text-white sm:py-28">
+        {/* Background photo */}
+        <Image
+          src={unsplashUrl(SITE_IMAGES["guides-hero"].id, 1920, 75)}
+          alt=""
+          fill
+          className="object-cover"
+          priority
+        />
+        {/* Dark overlay */}
         <div
-          className="pointer-events-none absolute left-1/4 top-1/2 -translate-y-1/2"
+          className="absolute inset-0"
           style={{
-            width: "600px",
-            height: "500px",
             background:
-              "radial-gradient(ellipse, oklch(0.75 0.12 85 / 0.08) 0%, transparent 60%)",
+              "linear-gradient(135deg, oklch(0.14 0.05 255 / 0.90) 0%, oklch(0.22 0.06 255 / 0.85) 50%, oklch(0.14 0.05 260 / 0.92) 100%)",
           }}
         />
 

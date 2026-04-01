@@ -128,6 +128,54 @@ export const SITE_IMAGES: Record<string, LocationImage> = {
     alt: "Completed residential development project at dusk",
     credit: "Avel Chuklanov",
   },
+  // Service page heroes
+  "service-development-finance": {
+    id: "IoYJSGZ46Yk",
+    alt: "Construction workers on a residential building site",
+    credit: "Jeriden Villegas",
+  },
+  "service-mezzanine-finance": {
+    id: "7nrsVjvALnA",
+    alt: "High-rise residential development under construction",
+    credit: "Danist Soh",
+  },
+  "service-bridging-loans": {
+    id: "TkEPQPWr2sY",
+    alt: "Property developer reviewing plans at a building site",
+    credit: "Scott Blake",
+  },
+  "service-equity-jv": {
+    id: "5QgIuuBxKwM",
+    alt: "Business professionals shaking hands on a property deal",
+    credit: "Sebastian Herrmann",
+  },
+  "service-refurbishment-finance": {
+    id: "OQMZwNd3ThU",
+    alt: "Workers renovating a period property interior",
+    credit: "Milivoj Kuhar",
+  },
+  "service-commercial-mortgages": {
+    id: "yEd2v3AQNKE",
+    alt: "Modern commercial office building with glass facade",
+    credit: "Sean Pollock",
+  },
+  "service-development-exit-finance": {
+    id: "MP0bgaS_d1c",
+    alt: "Completed new-build homes ready for sale",
+    credit: "Avel Chuklanov",
+  },
+  // About page
+  "about-hero": {
+    id: "qCi_MzVODoU",
+    alt: "Professional meeting in a modern office with city views",
+    credit: "Austin Distel",
+  },
+  // Guides
+  "guides-hero": {
+    id: "376KN_ISplE",
+    alt: "Person working at a desk with financial documents and laptop",
+    credit: "Scott Graham",
+  },
 };
 
 /**

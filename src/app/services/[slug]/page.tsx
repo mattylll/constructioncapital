@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -19,6 +20,7 @@ import { SERVICES, type Service } from "@/lib/services";
 import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 import { SERVICE_POPULAR_LOCATIONS } from "@/lib/location-content";
 import { SERVICE_PAGE_CONTENT } from "@/lib/service-page-content";
+import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
 
 const iconMap: Record<string, React.ElementType> = {
   Building2,
@@ -150,38 +152,23 @@ export default async function ServicePage({ params }: PageProps) {
       {/* ━━━ HERO ━━━ */}
       <section
         className="noise-overlay relative overflow-hidden text-white"
-        style={{
-          background:
-            "linear-gradient(135deg, oklch(0.14 0.05 255) 0%, oklch(0.22 0.06 255) 50%, oklch(0.18 0.05 260) 100%)",
-        }}
       >
-        <div className="pointer-events-none absolute inset-0 opacity-[0.03]">
-          <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <pattern
-                id="svc-detail-grid"
-                width="60"
-                height="60"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 60 0 L 0 0 0 60"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#svc-detail-grid)" />
-          </svg>
-        </div>
-
+        {/* Background photo */}
+        {SITE_IMAGES[`service-${slug}`] && (
+          <Image
+            src={unsplashUrl(SITE_IMAGES[`service-${slug}`].id, 1920, 75)}
+            alt=""
+            fill
+            className="object-cover"
+            priority
+          />
+        )}
+        {/* Dark overlay */}
         <div
-          className="pointer-events-none absolute -right-20 top-0 h-[150%] w-px origin-top-right rotate-[20deg]"
+          className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, transparent, var(--gold), transparent)",
-            opacity: 0.1,
+              "linear-gradient(135deg, oklch(0.14 0.05 255 / 0.88) 0%, oklch(0.22 0.06 255 / 0.85) 50%, oklch(0.14 0.05 260 / 0.92) 100%)",
           }}
         />
 

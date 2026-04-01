@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -18,6 +19,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/ui/json-ld";
 import { SITE_NAME, SITE_URL, CONTACT, STATS } from "@/lib/constants";
+import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
 
 export const metadata: Metadata = {
   title: "About Matt Lenzie — Founder & Principal Broker",
@@ -161,51 +163,21 @@ export default function AboutPage() {
       {/* ━━━ HERO ━━━ */}
       <section
         className="noise-overlay relative overflow-hidden text-white"
-        style={{
-          background:
-            "linear-gradient(135deg, oklch(0.14 0.05 255) 0%, oklch(0.22 0.06 255) 50%, oklch(0.18 0.05 260) 100%)",
-        }}
       >
-        {/* Grid pattern */}
-        <div className="pointer-events-none absolute inset-0 opacity-[0.03]">
-          <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <pattern
-                id="about-grid"
-                width="60"
-                height="60"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 60 0 L 0 0 0 60"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#about-grid)" />
-          </svg>
-        </div>
-
-        {/* Diagonal gold accents */}
-        <div
-          className="pointer-events-none absolute -right-20 top-0 h-[150%] w-px origin-top-right rotate-[20deg]"
-          style={{
-            background:
-              "linear-gradient(180deg, transparent, var(--gold), transparent)",
-            opacity: 0.1,
-          }}
+        {/* Background photo */}
+        <Image
+          src={unsplashUrl(SITE_IMAGES["about-hero"].id, 1920, 75)}
+          alt=""
+          fill
+          className="object-cover"
+          priority
         />
-
-        {/* Radial glow */}
+        {/* Dark overlay */}
         <div
-          className="pointer-events-none absolute left-[20%] top-1/2 -translate-y-1/2"
+          className="absolute inset-0"
           style={{
-            width: "600px",
-            height: "600px",
             background:
-              "radial-gradient(circle, oklch(0.75 0.12 85 / 0.06), transparent 70%)",
+              "linear-gradient(135deg, oklch(0.14 0.05 255 / 0.88) 0%, oklch(0.22 0.06 255 / 0.85) 50%, oklch(0.14 0.05 260 / 0.92) 100%)",
           }}
         />
 
