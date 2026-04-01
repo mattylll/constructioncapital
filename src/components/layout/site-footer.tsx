@@ -20,6 +20,7 @@ const footerLinks = {
     { href: "/deal-room", label: "Deal Room" },
     { href: "/calculators", label: "Calculators" },
     { href: "/guides", label: "Guides" },
+    { href: "/faq", label: "FAQ" },
     { href: "/contact", label: "Contact Us" },
   ],
 };
