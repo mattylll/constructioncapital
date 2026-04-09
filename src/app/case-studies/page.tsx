@@ -11,6 +11,7 @@ import {
 
 import { Button } from "@/components/ui/button";
 import { CASE_STUDIES } from "@/lib/case-studies";
+import { SERVICES } from "@/lib/services";
 import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
 
 export const metadata: Metadata = {
@@ -230,6 +231,73 @@ export default function CaseStudiesPage() {
                 </div>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ━━━ SERVICES & RESOURCES ━━━ */}
+      <section className="bg-muted/30 py-16 sm:py-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-10">
+            <div
+              className="mb-5 h-[2px] w-14"
+              style={{
+                background: "linear-gradient(90deg, var(--gold), var(--gold-light))",
+              }}
+            />
+            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+              Finance Products Used in These Deals
+            </h2>
+            <p className="mt-3 text-muted-foreground">
+              Every deal uses a different combination of products. Explore our full range of finance solutions.
+            </p>
+          </div>
+
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {SERVICES.slice(0, 4).map((svc) => (
+              <Link
+                key={svc.slug}
+                href={`/services/${svc.slug}`}
+                className="group rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30"
+              >
+                <h3 className="mb-1 font-bold text-foreground group-hover:text-gold-dark transition-colors">
+                  {svc.name}
+                </h3>
+                <p className="mb-2 text-sm text-muted-foreground line-clamp-2">
+                  {svc.shortDesc}
+                </p>
+                <span className="text-xs font-semibold text-gold-dark">
+                  {svc.typicalRate} · {svc.typicalLtv}
+                </span>
+              </Link>
+            ))}
+          </div>
+
+          <div className="mt-8 flex flex-wrap gap-4">
+            <Button asChild variant="outline" size="sm">
+              <Link href="/services">
+                All services
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+            <Button asChild variant="outline" size="sm">
+              <Link href="/guides">
+                Finance guides
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+            <Button asChild variant="outline" size="sm">
+              <Link href="/market-reports">
+                Market reports
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+            <Button asChild variant="outline" size="sm">
+              <Link href="/calculators">
+                Calculators
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
           </div>
         </div>
       </section>

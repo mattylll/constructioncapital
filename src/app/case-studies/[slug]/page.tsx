@@ -18,6 +18,9 @@ import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/ui/json-ld";
 import { Breadcrumbs } from "@/components/locations/breadcrumbs";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { SERVICES } from "@/lib/services";
+import { getGuidesByService } from "@/lib/guides";
+import { getReportByCountySlug } from "@/lib/market-reports";
 import { countyNameToSlug, loanTypeToServiceSlug } from "@/lib/location-content";
 
 // Static placeholder case studies — will be replaced with Convex data
@@ -195,6 +198,11 @@ export default async function CaseStudyPage({
   const countySlug = countyNameToSlug(cs.county);
   const locationSlug = cs.location.toLowerCase().replace(/\s+/g, "-");
   const serviceSlug = loanTypeToServiceSlug(cs.loanType);
+  const service = serviceSlug
+    ? SERVICES.find((s) => s.slug === serviceSlug)
+    : null;
+  const relatedGuides = serviceSlug ? getGuidesByService(serviceSlug, 3) : [];
+  const countyReport = getReportByCountySlug(countySlug);
 
   const breadcrumbItems = [
     { label: "Home", href: "/" },
@@ -473,40 +481,124 @@ export default async function CaseStudyPage({
               </div>
             </div>
 
-            {/* Cross-links to location & service pages */}
-            <div
-              className="rounded-2xl p-8"
-              style={{
-                background: "oklch(0.75 0.12 85 / 0.04)",
-                border: "1px solid oklch(0.75 0.12 85 / 0.08)",
-              }}
-            >
-              <p
-                className="mb-4 text-xs font-bold uppercase tracking-[0.2em]"
-                style={{ color: "var(--gold-dark)" }}
+            {/* Cross-links to location, service, guides & market reports */}
+            <div className="space-y-6">
+              {/* Location & Service links */}
+              <div
+                className="rounded-2xl p-8"
+                style={{
+                  background: "oklch(0.75 0.12 85 / 0.04)",
+                  border: "1px solid oklch(0.75 0.12 85 / 0.08)",
+                }}
               >
-                Explore More
-              </p>
-              <div className="flex flex-wrap gap-3">
-                <Link
-                  href={`/locations/${countySlug}`}
-                  className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
-                  style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
+                <p
+                  className="mb-4 text-xs font-bold uppercase tracking-[0.2em]"
+                  style={{ color: "var(--gold-dark)" }}
                 >
-                  <MapPin className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
-                  Development finance in {cs.county}
-                </Link>
-                {serviceSlug && (
+                  Explore More
+                </p>
+                <div className="flex flex-wrap gap-3">
                   <Link
-                    href={`/locations/${countySlug}/${locationSlug}/${serviceSlug}`}
+                    href={`/locations/${countySlug}`}
                     className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
                     style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
                   >
-                    <Building2 className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
-                    {cs.loanType} in {cs.location}
+                    <MapPin className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
+                    Development finance in {cs.county}
                   </Link>
-                )}
+                  <Link
+                    href={`/locations/${countySlug}/${locationSlug}`}
+                    className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
+                    style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
+                  >
+                    <MapPin className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
+                    {cs.location} property market
+                  </Link>
+                  {service && (
+                    <Link
+                      href={`/services/${service.slug}`}
+                      className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
+                      style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
+                    >
+                      <Building2 className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
+                      {service.name}
+                    </Link>
+                  )}
+                  {serviceSlug && (
+                    <Link
+                      href={`/locations/${countySlug}/${locationSlug}/${serviceSlug}`}
+                      className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
+                      style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
+                    >
+                      <Building2 className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
+                      {cs.loanType} in {cs.location}
+                    </Link>
+                  )}
+                  {countyReport && (
+                    <Link
+                      href={`/market-reports/${countyReport.slug}`}
+                      className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
+                      style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
+                    >
+                      <TrendingUp className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
+                      {cs.county} market report
+                    </Link>
+                  )}
+                  <Link
+                    href="/calculators"
+                    className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
+                    style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
+                  >
+                    <Target className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
+                    Finance calculators
+                  </Link>
+                </div>
               </div>
+
+              {/* Related Guides */}
+              {relatedGuides.length > 0 && (
+                <div className="rounded-2xl border border-border p-8">
+                  <div className="mb-5 flex items-center gap-3">
+                    <div
+                      className="mb-1 h-[2px] w-10"
+                      style={{
+                        background: "linear-gradient(90deg, var(--gold), var(--gold-light))",
+                      }}
+                    />
+                    <p
+                      className="text-xs font-bold uppercase tracking-[0.2em]"
+                      style={{ color: "var(--gold-dark)" }}
+                    >
+                      Related Guides
+                    </p>
+                  </div>
+                  <div className="space-y-3">
+                    {relatedGuides.map((guide) => (
+                      <Link
+                        key={guide.slug}
+                        href={`/guides/${guide.slug}`}
+                        className="group flex items-center justify-between rounded-xl border border-border bg-card/50 p-4 transition-all duration-200 hover:border-gold/30"
+                      >
+                        <div>
+                          <h4 className="text-sm font-bold text-foreground group-hover:text-gold-dark transition-colors">
+                            {guide.title}
+                          </h4>
+                          <span className="text-xs text-muted-foreground">
+                            {guide.readingTime} read
+                          </span>
+                        </div>
+                        <ArrowRight className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 group-hover:translate-x-1 group-hover:text-gold" />
+                      </Link>
+                    ))}
+                  </div>
+                  <Link
+                    href="/guides"
+                    className="mt-4 inline-block text-sm font-medium text-gold-dark hover:underline"
+                  >
+                    View all guides →
+                  </Link>
+                </div>
+              )}
             </div>
           </div>
         </div>
