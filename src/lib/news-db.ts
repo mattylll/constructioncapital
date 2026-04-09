@@ -76,11 +76,16 @@ interface RawArticleRow {
 
 function getDb() {
   if (!fs.existsSync(DB_PATH)) return null;
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const Database = require("better-sqlite3");
-  const db = new Database(DB_PATH, { readonly: true });
-  db.pragma("journal_mode = WAL");
-  return db;
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const Database = require("better-sqlite3");
+    const db = new Database(DB_PATH, { readonly: true });
+    db.pragma("journal_mode = WAL");
+    return db;
+  } catch {
+    // better-sqlite3 is a devDependency — unavailable in production builds
+    return null;
+  }
 }
 
 function rowToArticle(row: RawArticleRow): NewsArticle {

@@ -9,7 +9,6 @@ import { SERVICES } from "@/lib/services";
 import { UK_COUNTIES } from "@/lib/uk-locations-data";
 import { GLOSSARY_TERMS } from "@/lib/glossary";
 import { LENDERS } from "@/lib/lenders";
-import { getPublishedArticles } from "@/lib/news-db";
 
 /**
  * Numeric IDs so Next.js generates a proper sitemap index at /sitemap.xml
@@ -220,8 +219,9 @@ export default function sitemap({
         })),
       ];
 
-    case "news": {
-      const articles = getPublishedArticles();
+    case "news":
+      // News index only — individual article URLs are added dynamically
+      // when the SQLite DB is available (better-sqlite3 is a devDependency)
       return [
         {
           url: `${SITE_URL}/news`,
@@ -229,14 +229,7 @@ export default function sitemap({
           changeFrequency: "daily",
           priority: 0.8,
         },
-        ...articles.map((article) => ({
-          url: `${SITE_URL}/news/${article.slug}`,
-          lastModified: new Date(article.updated_at),
-          changeFrequency: "weekly" as const,
-          priority: 0.7,
-        })),
       ];
-    }
 
     default:
       return [];
