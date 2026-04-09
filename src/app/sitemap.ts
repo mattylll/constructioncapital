@@ -8,6 +8,8 @@ import { MARKET_REPORTS } from "@/lib/market-reports";
 import { SERVICES } from "@/lib/services";
 import { UK_COUNTIES } from "@/lib/uk-locations-data";
 import { GLOSSARY_TERMS } from "@/lib/glossary";
+import { LENDERS } from "@/lib/lenders";
+import { getPublishedArticles } from "@/lib/news-db";
 
 type SitemapSegment =
   | "static"
@@ -16,7 +18,9 @@ type SitemapSegment =
   | "guides"
   | "market-reports"
   | "locations"
-  | "glossary";
+  | "glossary"
+  | "lender-panel"
+  | "news";
 
 export async function generateSitemaps(): Promise<{ id: SitemapSegment }[]> {
   return [
@@ -27,6 +31,8 @@ export async function generateSitemaps(): Promise<{ id: SitemapSegment }[]> {
     { id: "market-reports" },
     { id: "locations" },
     { id: "glossary" },
+    { id: "lender-panel" },
+    { id: "news" },
   ];
 }
 
@@ -81,6 +87,12 @@ export default function sitemap({
           lastModified: now,
           changeFrequency: "weekly",
           priority: 0.9,
+        },
+        {
+          url: `${SITE_URL}/why-construction-capital`,
+          lastModified: now,
+          changeFrequency: "monthly",
+          priority: 0.8,
         },
         // Case study detail pages
         ...CASE_STUDIES.map((cs) => ({
@@ -195,5 +207,39 @@ export default function sitemap({
           priority: 0.6,
         })),
       ];
+
+    case "lender-panel":
+      return [
+        {
+          url: `${SITE_URL}/lender-panel`,
+          lastModified: now,
+          changeFrequency: "weekly",
+          priority: 0.8,
+        },
+        ...LENDERS.map((lender) => ({
+          url: `${SITE_URL}/lender-panel/${lender.slug}`,
+          lastModified: now,
+          changeFrequency: "monthly" as const,
+          priority: 0.6,
+        })),
+      ];
+
+    case "news": {
+      const articles = getPublishedArticles();
+      return [
+        {
+          url: `${SITE_URL}/news`,
+          lastModified: now,
+          changeFrequency: "daily",
+          priority: 0.8,
+        },
+        ...articles.map((article) => ({
+          url: `${SITE_URL}/news/${article.slug}`,
+          lastModified: new Date(article.updated_at),
+          changeFrequency: "weekly" as const,
+          priority: 0.7,
+        })),
+      ];
+    }
   }
 }

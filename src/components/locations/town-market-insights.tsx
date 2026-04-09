@@ -1,4 +1,4 @@
-import { TrendingUp, MapPin, Users, Home, Briefcase } from "lucide-react";
+import { TrendingUp, MapPin, Users, Home, Briefcase, ExternalLink, Landmark, Shield, Building } from "lucide-react";
 import type { TownMarketData } from "@/lib/town-market-data";
 
 interface TownMarketInsightsProps {
@@ -99,6 +99,91 @@ export function TownMarketInsights({ data, townName }: TownMarketInsightsProps) 
             </ul>
           </div>
         </div>
+
+        {/* Enrichment: Planning, CIL/S106, Conservation, Lender Appetite */}
+        {(data.cilRate || data.s106Notes || data.conservationAreas || data.lenderAppetite) && (
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            {/* Planning & obligations */}
+            {(data.cilRate || data.s106Notes) && (
+              <div className="rounded-xl border border-border bg-card p-6">
+                <div className="mb-4 flex items-center gap-2">
+                  <Landmark className="h-5 w-5 text-gold" />
+                  <h3 className="text-lg font-bold">Planning Obligations</h3>
+                </div>
+                {data.planningPortalUrl && (
+                  <a
+                    href={data.planningPortalUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mb-4 inline-flex items-center gap-1.5 text-sm font-medium text-gold hover:underline"
+                  >
+                    {data.planningAuthority} Planning Portal
+                    <ExternalLink className="h-3.5 w-3.5" />
+                  </a>
+                )}
+                {data.cilRate && (
+                  <div className="mb-3">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                      Community Infrastructure Levy
+                    </p>
+                    <p className="mt-1 text-sm leading-relaxed">{data.cilRate}</p>
+                  </div>
+                )}
+                {data.s106Notes && (
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                      Section 106 / Affordable Housing
+                    </p>
+                    <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
+                      {data.s106Notes}
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Conservation areas */}
+            {data.conservationAreas && data.conservationAreas.length > 0 && (
+              <div className="rounded-xl border border-border bg-card p-6">
+                <div className="mb-4 flex items-center gap-2">
+                  <Shield className="h-5 w-5 text-gold" />
+                  <h3 className="text-lg font-bold">Conservation Areas</h3>
+                </div>
+                <p className="mb-3 text-xs text-muted-foreground">
+                  Development within conservation areas requires additional
+                  planning considerations including materials, design, and
+                  demolition controls.
+                </p>
+                <ul className="space-y-1.5">
+                  {data.conservationAreas.map((area, i) => (
+                    <li
+                      key={i}
+                      className="flex items-start gap-2 text-sm text-muted-foreground"
+                    >
+                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                      {area}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Lender appetite */}
+            {data.lenderAppetite && (
+              <div className="rounded-xl border border-border bg-card p-6 md:col-span-2">
+                <div className="mb-4 flex items-center gap-2">
+                  <Building className="h-5 w-5 text-gold" />
+                  <h3 className="text-lg font-bold">
+                    Lender Appetite in {townName}
+                  </h3>
+                </div>
+                <p className="text-sm leading-relaxed text-muted-foreground">
+                  {data.lenderAppetite}
+                </p>
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </section>
   );
