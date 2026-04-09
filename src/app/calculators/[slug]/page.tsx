@@ -245,6 +245,11 @@ export async function generateMetadata({
       url: `${SITE_URL}/calculators/${calc.slug}`,
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: calc.metaTitle,
+      description: calc.metaDescription,
+    },
   };
 }
 

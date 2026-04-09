@@ -8,6 +8,7 @@ import {
   ArrowLeft,
   CheckCircle2,
   Building2,
+  Info,
   PoundSterling,
   User,
 } from "lucide-react";
@@ -16,6 +17,11 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
+  trackDealRoomStep,
+  trackDealRoomSubmit,
+  trackDealRoomPrefill,
+} from "@/lib/analytics";
+import {
   Select,
   SelectContent,
   SelectItem,
@@ -23,6 +29,12 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const LOAN_TYPES = [
   "Development Finance",
@@ -133,6 +145,7 @@ export function DealRoomForm() {
       }));
       // Show pre-fill confirmation — stay on step 1 so user fills project details
       if (gdv || loanAmount) {
+        trackDealRoomPrefill(source || "calculator");
         setPrefilledSource(source || "calculator");
         setPrefilledSummary({
           ...(gdv ? { gdv: formatCurrency(gdv) } : {}),
@@ -199,12 +212,16 @@ export function DealRoomForm() {
 
   function handleNext() {
     if (validateStep(currentStep)) {
-      setCurrentStep((prev) => Math.min(prev + 1, 3));
+      const nextStep = Math.min(currentStep + 1, 3);
+      trackDealRoomStep(nextStep, "forward");
+      setCurrentStep(nextStep);
     }
   }
 
   function handleBack() {
-    setCurrentStep((prev) => Math.max(prev - 1, 1));
+    const prevStep = Math.max(currentStep - 1, 1);
+    trackDealRoomStep(prevStep, "back");
+    setCurrentStep(prevStep);
   }
 
   async function handleSubmit() {
@@ -241,6 +258,7 @@ export function DealRoomForm() {
 
       if (!res.ok) throw new Error("Submission failed");
 
+      trackDealRoomSubmit(formData.loanType, parseCurrencyToNumber(formData.loanAmount));
       setIsSubmitted(true);
       toast.success("Deal submitted successfully");
     } catch (error) {
@@ -508,8 +526,18 @@ export function DealRoomForm() {
 
           <div className="space-y-5">
             <div>
-              <Label htmlFor="gdv" className="text-sm font-semibold">
+              <Label htmlFor="gdv" className="flex items-center gap-1.5 text-sm font-semibold">
                 Gross Development Value (GDV) *
+                <TooltipProvider>
+                  <Tooltip>
+                    <TooltipTrigger type="button" tabIndex={-1}>
+                      <Info className="h-3.5 w-3.5 text-muted-foreground" />
+                    </TooltipTrigger>
+                    <TooltipContent side="top" className="max-w-xs">
+                      The total market value of all units once the development is complete and sold.
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
               </Label>
               <div className="relative mt-2">
                 <span className="absolute left-4 top-1/2 -translate-y-1/2 text-sm font-bold text-muted-foreground">
@@ -531,8 +559,18 @@ export function DealRoomForm() {
             </div>
 
             <div>
-              <Label htmlFor="totalCost" className="text-sm font-semibold">
+              <Label htmlFor="totalCost" className="flex items-center gap-1.5 text-sm font-semibold">
                 Total Project Cost
+                <TooltipProvider>
+                  <Tooltip>
+                    <TooltipTrigger type="button" tabIndex={-1}>
+                      <Info className="h-3.5 w-3.5 text-muted-foreground" />
+                    </TooltipTrigger>
+                    <TooltipContent side="top" className="max-w-xs">
+                      Land cost plus all build costs, professional fees, and contingency.
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
               </Label>
               <div className="relative mt-2">
                 <span className="absolute left-4 top-1/2 -translate-y-1/2 text-sm font-bold text-muted-foreground">
@@ -551,8 +589,18 @@ export function DealRoomForm() {
             </div>
 
             <div>
-              <Label htmlFor="loanAmount" className="text-sm font-semibold">
+              <Label htmlFor="loanAmount" className="flex items-center gap-1.5 text-sm font-semibold">
                 Loan Amount Required *
+                <TooltipProvider>
+                  <Tooltip>
+                    <TooltipTrigger type="button" tabIndex={-1}>
+                      <Info className="h-3.5 w-3.5 text-muted-foreground" />
+                    </TooltipTrigger>
+                    <TooltipContent side="top" className="max-w-xs">
+                      How much you need to borrow. We arrange facilities from £500,000 upwards.
+                    </TooltipContent>
+                  </Tooltip>
+                </TooltipProvider>
               </Label>
               <div className="relative mt-2">
                 <span className="absolute left-4 top-1/2 -translate-y-1/2 text-sm font-bold text-muted-foreground">

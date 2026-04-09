@@ -179,6 +179,11 @@ export async function generateMetadata({
       url: `${SITE_URL}/case-studies/${cs.slug}`,
       type: "article",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: `${cs.title} — ${cs.location} | ${SITE_NAME}`,
+      description: cs.description,
+    },
   };
 }
 

@@ -62,6 +62,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: `${SITE_URL}/services/${slug}`,
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: content.metaTitle,
+      description: content.metaDescription,
+    },
   };
 }
 
@@ -100,6 +105,28 @@ export default async function ServicePage({ params }: PageProps) {
       },
     },
     serviceType: service.name,
+    areaServed: {
+      "@type": "Country",
+      name: "United Kingdom",
+    },
+  };
+
+  // JSON-LD: FinancialProduct
+  const financialProductJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FinancialProduct",
+    name: service.name,
+    description: service.longDesc,
+    url: `${SITE_URL}/services/${slug}`,
+    provider: {
+      "@type": "FinancialService",
+      name: SITE_NAME,
+      url: SITE_URL,
+      telephone: CONTACT.phoneRaw,
+      email: CONTACT.email,
+    },
+    ...(service.typicalRate && { annualPercentageRate: service.typicalRate }),
+    ...(service.typicalTerm && { loanTerm: service.typicalTerm }),
     areaServed: {
       "@type": "Country",
       name: "United Kingdom",
@@ -148,6 +175,7 @@ export default async function ServicePage({ params }: PageProps) {
   return (
     <>
       <JsonLd data={financialServiceJsonLd} />
+      <JsonLd data={financialProductJsonLd} />
       <JsonLd data={faqJsonLd} />
       <JsonLd data={breadcrumbJsonLd} />
 

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Inter, Playfair_Display } from "next/font/google";
 import { GoogleAnalytics } from "@/components/analytics/google-analytics";
+import { WebVitals } from "@/components/analytics/web-vitals";
 import { LayoutShell } from "@/components/layout/layout-shell";
 import { JsonLd } from "@/components/ui/json-ld";
 import { Toaster } from "@/components/ui/sonner";
@@ -73,11 +74,20 @@ export default function RootLayout({
 }: Readonly<{ children: ReactNode }>) {
   return (
     <html suppressHydrationWarning lang="en">
+      <head>
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="dns-prefetch" href="https://images.unsplash.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+      </head>
       <body
         className={`${inter.variable} ${playfair.variable} bg-background text-foreground overscroll-none antialiased`}
       >
         {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
-          <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+          <>
+            <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+            <WebVitals />
+          </>
         )}
         <LayoutShell>{children}</LayoutShell>
           <Suspense fallback={null}><Toaster /></Suspense>

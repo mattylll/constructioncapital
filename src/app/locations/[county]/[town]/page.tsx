@@ -22,7 +22,7 @@ import { RelatedTowns } from "@/components/locations/related-towns";
 import { LocationCTA } from "@/components/locations/location-cta";
 import { JsonLd } from "@/components/ui/json-ld";
 import { SERVICES } from "@/lib/services";
-import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 import { getCaseStudiesByCounty } from "@/lib/case-studies";
 import { getTownOverview, getDataDrivenOverview, getTownFaqs } from "@/lib/location-content";
 import { getTownMarketData } from "@/lib/town-market-data";
@@ -240,6 +240,13 @@ export default async function TownPage({ params }: PageProps) {
     name: `${SITE_NAME} — ${townName}`,
     description: `Development finance, bridging loans, mezzanine finance and commercial mortgages in ${townName}, ${countyName}. Expert property finance brokers with local knowledge.`,
     url: `${SITE_URL}/locations/${county}/${town}`,
+    telephone: CONTACT.phone,
+    email: CONTACT.email,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "London",
+      addressCountry: "GB",
+    },
     areaServed: {
       "@type": "City",
       name: townName,

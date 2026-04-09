@@ -1,12 +1,14 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { ArrowRight, Building2, Info } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { ShareResults } from "@/components/calculators/share-results";
 
 function parseCurrency(value: string): number {
   return parseInt(value.replace(/[^0-9]/g, ""), 10) || 0;
@@ -39,6 +41,8 @@ interface Inputs {
 }
 
 export function DevelopmentFinanceCalculator() {
+  const searchParams = useSearchParams();
+
   const [inputs, setInputs] = useState<Inputs>({
     landCost: "500,000",
     buildCosts: "1,200,000",
@@ -52,6 +56,32 @@ export function DevelopmentFinanceCalculator() {
     mezzLtgdv: "85",
     mezzRate: "12",
   });
+
+  // Pre-populate from shared URL params
+  useEffect(() => {
+    const fmt = (v: string) => parseInt(v, 10).toLocaleString("en-GB");
+    const lc = searchParams.get("landCost");
+    const bc = searchParams.get("buildCosts");
+    const pf = searchParams.get("professionalFees");
+    const ct = searchParams.get("contingency");
+    const gv = searchParams.get("gdv");
+    const ir = searchParams.get("interestRate");
+    const tm = searchParams.get("termMonths");
+    const lt = searchParams.get("ltgdv");
+    if (lc || bc || gv) {
+      setInputs((prev) => ({
+        ...prev,
+        ...(lc ? { landCost: fmt(lc) } : {}),
+        ...(bc ? { buildCosts: fmt(bc) } : {}),
+        ...(pf ? { professionalFees: fmt(pf) } : {}),
+        ...(ct ? { contingency: ct } : {}),
+        ...(gv ? { gdv: fmt(gv) } : {}),
+        ...(ir ? { interestRate: ir } : {}),
+        ...(tm ? { termMonths: tm } : {}),
+        ...(lt ? { ltgdv: lt } : {}),
+      }));
+    }
+  }, [searchParams]);
 
   function updateCurrencyField(field: keyof Inputs, raw: string) {
     const digits = raw.replace(/[^0-9]/g, "");
@@ -142,6 +172,17 @@ export function DevelopmentFinanceCalculator() {
     total_cost: String(results.totalCost),
     loan_amount: String(results.totalDebt),
     source: "development-finance-calculator",
+  });
+
+  const shareParams = new URLSearchParams({
+    landCost: inputs.landCost.replace(/,/g, ""),
+    buildCosts: inputs.buildCosts.replace(/,/g, ""),
+    professionalFees: inputs.professionalFees.replace(/,/g, ""),
+    contingency: inputs.contingency,
+    gdv: inputs.gdv.replace(/,/g, ""),
+    interestRate: inputs.interestRate,
+    termMonths: inputs.termMonths,
+    ltgdv: inputs.ltgdv,
   });
 
   return (
@@ -598,6 +639,14 @@ export function DevelopmentFinanceCalculator() {
             <ArrowRight className="ml-2 h-5 w-5" />
           </Link>
         </Button>
+
+        {/* Share / Copy link */}
+        <div className="flex justify-center">
+          <ShareResults
+            params={shareParams.toString()}
+            calculatorSlug="development-finance"
+          />
+        </div>
       </div>
     </div>
   );

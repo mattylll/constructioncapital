@@ -28,6 +28,19 @@ export interface TownMarketData {
   overview?: string[];
   /** Custom service-page commentary keyed by service slug (optional) */
   serviceCommentary?: Record<string, string[]>;
+
+  // ── Enrichment fields (optional) ──────────────────────────
+
+  /** URL to the local planning authority's online planning portal */
+  planningPortalUrl?: string;
+  /** Community Infrastructure Levy rate info (if applicable) */
+  cilRate?: string;
+  /** S106 obligations overview for this area */
+  s106Notes?: string;
+  /** Whether the town centre or significant areas are in conservation zones */
+  conservationAreas?: string[];
+  /** Regional lender appetite commentary — what lenders look for here */
+  lenderAppetite?: string;
 }
 
 /**
@@ -56,6 +69,11 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
       "Permitted development office conversions in the City fringe",
     ],
     rentalYieldRange: "3.5-5.5%",
+    planningPortalUrl: "https://www.london.gov.uk/programmes-strategies/planning",
+    cilRate: "Varies by borough — typically £100-£400/sqm for residential in outer London, up to £400+/sqm in prime central",
+    s106Notes: "Affordable housing typically 35% on-site (50% on public land). Boroughs negotiate viability-tested contributions on smaller schemes.",
+    conservationAreas: ["Numerous across all boroughs — over 1,000 designated conservation areas across Greater London"],
+    lenderAppetite: "Very strong across all lender types. Inner London attracts institutional and family office capital for £5m+ schemes. Outer London is popular with specialist lenders for sub-£5m residential developments. Exit route certainty is high given sustained buyer demand.",
   },
 
   "greater-london/croydon": {
@@ -658,12 +676,212 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
 };
 
 /**
+ * Enrichment data — planning portal URLs, CIL/S106 info, conservation areas,
+ * and lender appetite commentary.  Kept separate from the base records for
+ * maintainability; merged at read time via `getTownMarketData`.
+ */
+const ENRICHMENT: Record<string, Partial<TownMarketData>> = {
+  "greater-london/croydon": {
+    planningPortalUrl: "https://www.croydon.gov.uk/planning-and-regeneration/planning",
+    cilRate: "£120/sqm for residential (Zone B), £0 in the Croydon Opportunity Area for affordable housing schemes",
+    s106Notes: "35% affordable housing requirement on major schemes (10+ units). Viability-tested reductions possible on brownfield and regeneration sites.",
+    conservationAreas: ["Central Croydon (Church Street area)", "South End and Park Hill", "Addiscombe"],
+    lenderAppetite: "Good appetite from specialist lenders for £1-5m residential schemes. Croydon's regeneration story is well understood. Some lenders cautious on high-rise given the Brick by Brick history — mid-rise schemes attract wider interest.",
+  },
+  "surrey/guildford": {
+    planningPortalUrl: "https://www.guildford.gov.uk/planning",
+    cilRate: "£573/sqm in town centre rising to £763/sqm in the wider borough for residential",
+    s106Notes: "40% affordable housing on sites of 10+ units. High CIL rates reflect premium values but compress development margins.",
+    conservationAreas: ["Guildford Town Centre", "Onslow Village", "Stoke Park"],
+    lenderAppetite: "Strong appetite across all lender types. Premium Surrey location with reliable exit values. Family offices and banks comfortable with schemes up to £10m+. Conservation area sites require lenders comfortable with heritage risk.",
+  },
+  "kent/maidstone": {
+    planningPortalUrl: "https://www.maidstone.gov.uk/home/primary-services/planning-and-building",
+    cilRate: "£120/sqm for residential in Zone A (urban), £160/sqm in Zone B (rural/suburban)",
+    s106Notes: "30% affordable housing on major schemes. Education and healthcare contributions typically required on family housing developments.",
+    conservationAreas: ["Maidstone Town Centre", "Loose Village", "Teston"],
+    lenderAppetite: "Good appetite from specialist and challenger lenders. Maidstone's strong housing delivery track record gives lenders confidence in planning. Schemes near HS1 stations attract premium interest from London-based lenders.",
+  },
+  "essex/chelmsford": {
+    planningPortalUrl: "https://www.chelmsford.gov.uk/planning-and-building-control/",
+    cilRate: "£168/sqm for residential in the urban area, higher in rural zones",
+    s106Notes: "35% affordable housing on major schemes. Healthcare and education contributions typically required. Garden Community sites have bespoke S106 frameworks.",
+    conservationAreas: ["Chelmsford City Centre", "Great Baddow", "Writtle Village"],
+    lenderAppetite: "Strong appetite from mainstream and specialist lenders. Chelmsford's city status and direct rail link to Liverpool Street support reliable exit values. Garden Community sites attract larger lenders comfortable with phased drawdown.",
+  },
+  "greater-manchester/manchester": {
+    planningPortalUrl: "https://www.manchester.gov.uk/info/200074/planning",
+    cilRate: "No CIL adopted — Manchester relies on S106 contributions",
+    s106Notes: "20% affordable housing on new developments (subject to viability). Manchester's no-CIL position makes it more developer-friendly than many comparable cities.",
+    conservationAreas: ["Ancoats", "Castlefield", "Albert Square", "Stevenson Square", "St Ann's Square"],
+    lenderAppetite: "Excellent appetite across all lender types. Manchester is the most active regional lending market in the UK. Banks, funds, and specialist lenders all compete for Manchester deals. BTR schemes attract institutional forward-funding. Maximum appetite typically £50m+ from large funds.",
+  },
+  "greater-manchester/salford": {
+    planningPortalUrl: "https://www.salford.gov.uk/planning-building-and-regeneration/",
+    cilRate: "No CIL adopted — Salford uses S106 contributions",
+    s106Notes: "20% affordable housing target. MediaCityUK and Salford Quays have specific planning frameworks with negotiated contributions.",
+    conservationAreas: ["Worsley Village", "Peel Green", "Kersal Dale"],
+    lenderAppetite: "Strong appetite, benefiting from Manchester market spillover. MediaCityUK-adjacent schemes particularly attractive to lenders. Land values lower than Manchester core make development economics compelling for specialist lenders.",
+  },
+  "lancashire/preston": {
+    planningPortalUrl: "https://www.preston.gov.uk/article/1276/Planning",
+    cilRate: "No CIL adopted",
+    s106Notes: "30% affordable housing on major schemes. Preston's community wealth building model means S106 contributions are actively negotiated.",
+    lenderAppetite: "Specialist lenders dominate. Strong yields attract investors but exit route needs demonstrating — lenders want evidence of buyer/tenant demand. Student housing schemes near UCLan campus attract dedicated PBSA lenders.",
+  },
+  "merseyside/liverpool": {
+    planningPortalUrl: "https://liverpool.gov.uk/planning-and-building-control/",
+    cilRate: "No CIL adopted — Liverpool uses S106 and planning obligations",
+    s106Notes: "20% affordable housing target (subject to viability). Liverpool Waters has a bespoke planning framework with reduced obligations to incentivise regeneration.",
+    conservationAreas: ["Stanley Dock", "Duke Street/Bold Street", "Castle Street", "William Brown Street"],
+    lenderAppetite: "Good appetite from specialist and challenger lenders. Liverpool's high yields attract investment-focused developers. Baltic Triangle and city centre schemes well understood. Some mainstream lenders remain cautious — specialist lenders dominate sub-£5m deals.",
+  },
+  "west-midlands/birmingham": {
+    planningPortalUrl: "https://www.birmingham.gov.uk/planning",
+    cilRate: "£69/sqm for residential in the city centre, £26/sqm in other areas",
+    s106Notes: "35% affordable housing on major schemes (20% in the city centre subject to viability). HS2 and Smithfield developments have bespoke planning frameworks.",
+    conservationAreas: ["Jewellery Quarter", "Colmore Row and Environs", "Moseley", "Bournville"],
+    lenderAppetite: "Excellent appetite — Birmingham is the UK's second-strongest regional lending market after Manchester. HS2 narrative drives mainstream lender interest. Curzon Street and Digbeth schemes attract institutional capital. Broad range of lenders from £500k specialist facilities to £50m+ institutional tickets.",
+  },
+  "nottinghamshire/nottingham": {
+    planningPortalUrl: "https://www.nottinghamcity.gov.uk/planning-and-building-control/",
+    cilRate: "No CIL currently in force — under review",
+    s106Notes: "20% affordable housing on major schemes (subject to viability). Broadmarsh area has specific regeneration incentives.",
+    conservationAreas: ["Lace Market", "The Park", "Sneinton Market"],
+    lenderAppetite: "Specialist lenders active for student housing and BTR. Island Quarter is attracting institutional interest. Mainstream bank appetite growing as the city centre regenerates. Lenders want to see strong pre-let or pre-sale evidence on for-sale schemes.",
+  },
+  "leicestershire/leicester": {
+    planningPortalUrl: "https://www.leicester.gov.uk/planning-and-building/",
+    cilRate: "No CIL adopted — uses S106 contributions",
+    s106Notes: "20% affordable housing on major schemes. Waterside regeneration zone has reduced S106 requirements to incentivise development.",
+    conservationAreas: ["New Walk", "Castle Gardens/St Mary de Castro", "Market Place"],
+    lenderAppetite: "Specialist lenders dominate. Strong yields and affordable land attract northern-focused lenders. Student housing schemes well understood by PBSA specialists. Space Park and technology corridor beginning to attract wider lender interest.",
+  },
+  "bristol/bristol": {
+    planningPortalUrl: "https://www.bristol.gov.uk/planning-and-building-regulations/planning-applications",
+    cilRate: "£100/sqm in the inner urban area, £50/sqm in central Bristol",
+    s106Notes: "40% affordable housing on major schemes — one of the highest requirements in England. Viability challenges common on brownfield sites. Bristol's affordable housing policy is frequently tested at appeal.",
+    conservationAreas: ["Clifton", "Redcliffe", "King Street", "Hotwells", "Montpelier"],
+    lenderAppetite: "Strong appetite from all lender types. Bristol's premium values and tech economy attract mainstream banks and institutional capital. Temple Quarter schemes command significant interest. Bedminster and South Bristol emerging — specialist lenders ahead of the curve here.",
+  },
+  "devon/exeter": {
+    planningPortalUrl: "https://exeter.gov.uk/planning-services/",
+    cilRate: "£125/sqm for residential development",
+    s106Notes: "35% affordable housing on major schemes. Cranbrook has a bespoke contributions framework including community infrastructure and SANGS.",
+    conservationAreas: ["Exeter City Centre", "Topsham", "St Leonards"],
+    lenderAppetite: "Moderate appetite — specialist lenders most active. Exeter's growth story is understood but distance from London means some mainstream lenders are less familiar. University-linked schemes and Cranbrook attract dedicated specialists.",
+  },
+  "west-yorkshire/leeds": {
+    planningPortalUrl: "https://www.leeds.gov.uk/planning",
+    cilRate: "No CIL adopted — uses S106 and planning obligations",
+    s106Notes: "7% affordable housing in the city centre (with commuted sums common), higher in suburban areas. Leeds' flexible approach makes development economics more viable than many comparable cities.",
+    conservationAreas: ["Leeds City Centre", "Headingley", "Far Headingley", "Meanwood"],
+    lenderAppetite: "Excellent appetite — Leeds is one of the strongest regional lending markets in the UK. Financial services employment gives lenders confidence in exit demand. South Bank is attracting institutional and fund capital for large-scale BTR. Specialist lenders active across all scheme sizes.",
+  },
+  "south-yorkshire/sheffield": {
+    planningPortalUrl: "https://www.sheffield.gov.uk/planning",
+    cilRate: "No CIL adopted",
+    s106Notes: "10% affordable housing on major schemes in the city centre (subject to viability). Sheffield's pragmatic approach supports development viability.",
+    conservationAreas: ["Sheffield City Centre", "Kelham Island/Neepsend", "Endcliffe and Ranmoor"],
+    lenderAppetite: "Specialist lenders most active. Sheffield's strong yields attract investment-focused developers. AMRC and university sector support BTR demand. Kelham Island success story gives lenders confidence in creative-quarter regeneration plays.",
+  },
+  "tyne-and-wear/newcastle": {
+    planningPortalUrl: "https://www.newcastle.gov.uk/services/planning-building-and-development",
+    cilRate: "No CIL adopted — uses S106 obligations",
+    s106Notes: "15% affordable housing on major schemes (subject to viability). Newcastle's pragmatic planning approach supports development.",
+    conservationAreas: ["Grainger Town", "Newcastle Central", "Jesmond", "Ouseburn Valley"],
+    lenderAppetite: "Specialist lenders dominate sub-£5m. Newcastle's compact city centre and university demand are well understood. Helix innovation district attracting wider interest. Some mainstream lenders active on larger BTR schemes (£10m+).",
+  },
+  "cambridgeshire/cambridge": {
+    planningPortalUrl: "https://www.cambridge.gov.uk/planning",
+    cilRate: "£150/sqm for residential in the city, varies in South Cambridgeshire",
+    s106Notes: "40% affordable housing on major schemes — one of the highest requirements in England. Viability is less often contested given Cambridge's premium values.",
+    conservationAreas: ["Cambridge City Centre (extensive — covers most of the historic core)", "Newnham", "West Cambridge"],
+    lenderAppetite: "Very strong appetite from all lender types. Cambridge's global brand and tech economy make it one of the most bankable development locations in the UK. Banks, institutional lenders, and family offices all compete for Cambridge deals. Limited available sites mean schemes rarely struggle for funding.",
+  },
+  "norfolk/norwich": {
+    planningPortalUrl: "https://www.norwich.gov.uk/info/20025/planning_applications",
+    cilRate: "£115/sqm for residential in the urban area",
+    s106Notes: "33% affordable housing on major schemes. East Norwich has a specific planning framework with bespoke contribution levels.",
+    conservationAreas: ["Norwich City Centre (one of the UK's largest urban conservation areas)", "Earlham", "The Avenues"],
+    lenderAppetite: "Specialist lenders most active. Norwich's self-contained market and university demand provide stable fundamentals. East Norwich masterplan attracting wider interest from regional lenders. Heritage conversion schemes require lenders comfortable with listed building risk.",
+  },
+  "edinburgh/edinburgh": {
+    planningPortalUrl: "https://www.edinburgh.gov.uk/planning-building",
+    cilRate: "Not applicable — Scotland does not use CIL",
+    s106Notes: "Scotland uses Section 75 planning obligations. Edinburgh requires 25% affordable housing on sites of 12+ units. Developer contributions for education and transport infrastructure are standard.",
+    conservationAreas: ["Edinburgh Old Town and New Town (UNESCO World Heritage Site)", "Stockbridge", "Morningside", "Leith"],
+    lenderAppetite: "Strong appetite but requires Scottish-capable lenders (Standard Securities, separate title system). Edinburgh's premium values attract banks and institutional capital. Not all English lenders operate in Scotland — we maintain a specialist panel of Scotland-active funders.",
+  },
+  "glasgow/glasgow": {
+    planningPortalUrl: "https://www.glasgow.gov.uk/index.aspx?articleid=17542",
+    cilRate: "Not applicable — Scotland does not use CIL",
+    s106Notes: "Scotland uses Section 75 planning obligations. Glasgow typically requires 25% affordable housing on major schemes. Regeneration zones may have reduced or waived contributions.",
+    conservationAreas: ["Glasgow City Centre", "Merchant City", "Park Circus/Woodlands", "Pollokshields"],
+    lenderAppetite: "Good appetite from Scottish-active lenders. Glasgow's strong yields and affordable land attract specialist capital. Sighthill and Clyde waterfront regeneration schemes building lender confidence. Requires funders comfortable with Scottish legal framework.",
+  },
+  "cardiff/cardiff": {
+    planningPortalUrl: "https://www.cardiff.gov.uk/ENG/resident/Planning/Pages/default.aspx",
+    cilRate: "Not applicable — Wales does not currently operate CIL (though reforms are under consultation)",
+    s106Notes: "Wales uses Section 106 obligations. Cardiff requires 20-30% affordable housing depending on location. Help to Buy Wales supports new-build demand, improving scheme viability.",
+    conservationAreas: ["Cardiff Bay", "Cathedral Road", "Pontcanna", "Roath Park"],
+    lenderAppetite: "Good appetite from lenders active in Wales. Cardiff's capital city status and Help to Buy Wales support make it the most bankable Welsh location. Some English lenders don't operate in Wales — we ensure access to Wales-active funders.",
+  },
+  "hampshire/southampton": {
+    planningPortalUrl: "https://www.southampton.gov.uk/planning/",
+    cilRate: "£70/sqm for residential in the city centre, £120/sqm elsewhere",
+    s106Notes: "35% affordable housing on major schemes (subject to viability). City centre and waterfront schemes may negotiate reduced requirements.",
+    conservationAreas: ["Old Town/High Street", "Oxford Street", "Bevois Mount"],
+    lenderAppetite: "Moderate to good appetite. Southampton's port employment and university sector provide stable demand fundamentals. Specialist lenders active across all scheme sizes. Waterfront and city centre regeneration schemes attract wider interest.",
+  },
+  "oxfordshire/oxford": {
+    planningPortalUrl: "https://www.oxford.gov.uk/planning",
+    cilRate: "£233/sqm for residential",
+    s106Notes: "50% affordable housing on sites of 10+ units — one of the highest requirements in England. Oxford's extreme undersupply means viability arguments are hard to sustain.",
+    conservationAreas: ["Oxford City Centre (extensive — covers most of the historic core)", "Jericho", "North Oxford", "Headington"],
+    lenderAppetite: "Very strong appetite from all lender types. Oxford's global brand and extreme undersupply make it exceptionally bankable. Premium values support strong security positions. Heritage complexity requires lenders experienced with listed buildings and conservation area work.",
+  },
+  "west-yorkshire/bradford": {
+    planningPortalUrl: "https://www.bradford.gov.uk/planning-and-building-control/",
+    cilRate: "No CIL adopted",
+    s106Notes: "15% affordable housing on major schemes (subject to viability). Bradford's regeneration priorities mean contributions are often negotiated pragmatically.",
+    lenderAppetite: "Specialist lenders most active. Bradford's low entry values and high yields attract investment-focused developers. City of Culture legacy building lender confidence. Track record evidence particularly important — lenders want to see demonstrated local exit capability.",
+  },
+  "cheshire/chester": {
+    planningPortalUrl: "https://www.cheshirewestandchester.gov.uk/residents/planning-and-building-control",
+    cilRate: "£110/sqm for residential in the city, varying across the wider district",
+    s106Notes: "30% affordable housing on major schemes. Conservation area and World Heritage considerations add complexity (and cost) to city centre schemes.",
+    conservationAreas: ["Chester City Centre (within Roman Walls)", "The Rows", "Queen's Park", "Curzon Park"],
+    lenderAppetite: "Good appetite from specialist and mainstream lenders. Chester's heritage and professional employment base support premium values. Conservation area work requires heritage-experienced lenders. Garden Quarter and Northgate attracting wider interest.",
+  },
+  "north-yorkshire/york": {
+    planningPortalUrl: "https://www.york.gov.uk/Planning",
+    cilRate: "No CIL adopted — uses S106 contributions",
+    s106Notes: "30% affordable housing on major schemes. York Central has a bespoke planning framework. Flood risk zones require additional mitigation contributions.",
+    conservationAreas: ["York City Centre (one of the UK's most extensive urban conservation areas)", "The Stonebow", "Clifton", "Bishopthorpe"],
+    lenderAppetite: "Moderate to good appetite. York's premium values attract mainstream lender interest but limited site availability constrains deal flow. York Central is attracting institutional capital. Flood risk considerations require specialist assessment — experienced lenders build this into appraisals.",
+  },
+  "hertfordshire/st-albans": {
+    planningPortalUrl: "https://www.stalbans.gov.uk/planning",
+    cilRate: "£240/sqm for residential — one of the highest rates in Hertfordshire",
+    s106Notes: "40% affordable housing on major schemes. Combined with high CIL, total planning obligations significantly impact viability. Prior approval conversions avoid both CIL and affordable housing requirements.",
+    conservationAreas: ["St Albans City Centre", "Fishpool Street/Romeland", "College Street", "Sopwell"],
+    lenderAppetite: "Strong appetite from all lender types. St Albans' premium values (median £615,000) provide excellent security. Prior approval conversions particularly popular with lenders given simplified planning. Banks and specialist lenders both active. Home Counties expertise essential — we match with Hertfordshire-experienced funders.",
+  },
+};
+
+/**
  * Retrieve town market data for a specific location.
+ * Merges base data with enrichment fields when available.
  * Returns undefined if no specific data exists for this town.
  */
 export function getTownMarketData(
   countySlug: string,
   townSlug: string,
 ): TownMarketData | undefined {
-  return TOWN_MARKET_DATA[`${countySlug}/${townSlug}`];
+  const key = `${countySlug}/${townSlug}`;
+  const base = TOWN_MARKET_DATA[key];
+  if (!base) return undefined;
+  const extra = ENRICHMENT[key];
+  return extra ? { ...base, ...extra } : base;
 }

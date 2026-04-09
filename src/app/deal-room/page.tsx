@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Shield, Clock, FileCheck } from "lucide-react";
 
-import { DealRoomForm } from "@/components/deal-room/deal-room-form";
 import { DealRoomTabs } from "@/components/deal-room/deal-room-tabs";
+import { ExitIntentModal } from "@/components/deal-room/exit-intent-modal";
 
 export const metadata: Metadata = {
   title: "Deal Room",
@@ -132,6 +132,11 @@ export default function DealRoomPage() {
           </Suspense>
         </div>
       </section>
+
+      {/* Exit intent recovery */}
+      <Suspense>
+        <ExitIntentModal />
+      </Suspense>
     </>
   );
 }

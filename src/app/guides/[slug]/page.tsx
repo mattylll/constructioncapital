@@ -46,6 +46,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       publishedTime: guide.datePublished,
       modifiedTime: guide.dateModified,
     },
+    twitter: {
+      card: "summary_large_image",
+      title: guide.metaTitle,
+      description: guide.metaDescription,
+    },
   };
 }
 

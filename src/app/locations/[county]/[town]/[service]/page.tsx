@@ -9,7 +9,7 @@ import { RelatedTowns } from "@/components/locations/related-towns";
 import { LocationCTA } from "@/components/locations/location-cta";
 import { JsonLd } from "@/components/ui/json-ld";
 import { SERVICES, type Service } from "@/lib/services";
-import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 import { getCaseStudiesByCountyAndService, getCaseStudiesByCounty } from "@/lib/case-studies";
 import {
   getMarketCommentary,
@@ -29,8 +29,14 @@ import {
   getCountyBySlug,
 } from "@/lib/uk-locations-data";
 import { getTownMarketData } from "@/lib/town-market-data";
-import { getTownStats, getSoldData } from "@/lib/local-market-data";
+import { getTownStats, getSoldData, getPlanningData } from "@/lib/local-market-data";
 import { MarketSnapshot } from "@/components/locations/market-snapshot";
+import { PlanningApplicationsTable } from "@/components/locations/planning-applications-table";
+import { PlanningDealAnalysis } from "@/components/locations/planning-deal-analysis";
+import { RecentSoldPrices } from "@/components/locations/recent-sold-prices";
+import { getGuidesByService } from "@/lib/guides";
+import { getReportByCountySlug, getReportByTownSlug } from "@/lib/market-reports";
+import { BookOpen, BarChart3, Clock } from "lucide-react";
 
 // ISR configuration
 export const dynamicParams = true;
@@ -175,6 +181,10 @@ export default async function ServicePage({ params }: PageProps) {
   const townMarketData = getTownMarketData(county, town);
   const townStats = getTownStats(county, town);
   const soldData = getSoldData(county, town);
+  const planningData = getPlanningData(county, town);
+  const relatedGuides = getGuidesByService(service, 3);
+  const townReport = getReportByTownSlug(county, town);
+  const countyReport = getReportByCountySlug(county);
 
   // Build local data for enrichment
   const localData = (soldData?.stats || townStats) ? {
@@ -237,6 +247,13 @@ export default async function ServicePage({ params }: PageProps) {
     name: `${serviceName} in ${townName} - ${SITE_NAME}`,
     description: `${serviceName} for property developers in ${townName}, ${countyName}. ${serviceData?.shortDesc || ""}`,
     url: `${SITE_URL}/locations/${county}/${town}/${service}`,
+    telephone: CONTACT.phone,
+    email: CONTACT.email,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "London",
+      addressCountry: "GB",
+    },
     areaServed: {
       "@type": "City",
       name: townName,
@@ -402,6 +419,43 @@ export default async function ServicePage({ params }: PageProps) {
       {/* Local Market Snapshot — real data when available */}
       {townStats && (
         <MarketSnapshot stats={townStats.marketSnapshot} townName={townName} />
+      )}
+
+      {/* Planning Applications */}
+      {planningData && (
+        <PlanningApplicationsTable
+          approved={planningData.approvedApplications}
+          pending={planningData.pendingApplications}
+          summary={planningData.summary}
+          townName={townName}
+        />
+      )}
+
+      {/* Deal Analysis — financial breakdown of key schemes */}
+      {planningData && (
+        <PlanningDealAnalysis
+          applications={[
+            ...planningData.approvedApplications,
+            ...planningData.pendingApplications,
+          ]}
+          townName={townName}
+          countyName={countyName}
+          countySlug={county}
+          townSlug={town}
+          currentServiceSlug={service}
+          medianPrice={
+            soldData?.stats?.medianPrice ?? townStats?.marketSnapshot.medianPrice
+          }
+        />
+      )}
+
+      {/* Recent Sold Prices */}
+      {soldData && soldData.recentTransactions.length > 0 && (
+        <RecentSoldPrices
+          transactions={soldData.recentTransactions}
+          stats={soldData.stats}
+          townName={townName}
+        />
       )}
 
       {/* Rate Card */}
@@ -651,6 +705,125 @@ export default async function ServicePage({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      {/* Related Guides */}
+      {relatedGuides.length > 0 && (
+        <section className="bg-background py-16 sm:py-20">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div
+              className="mb-5 h-[2px] w-14"
+              style={{
+                background:
+                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
+              }}
+            />
+            <p
+              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
+              style={{ color: "var(--gold-dark)" }}
+            >
+              Learn More
+            </p>
+            <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
+              {serviceName} Guides
+            </h2>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {relatedGuides.map((guide) => (
+                <Link
+                  key={guide.slug}
+                  href={`/guides/${guide.slug}`}
+                  className="group rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:border-gold/30 hover:-translate-y-1"
+                >
+                  <div className="mb-3 flex items-center gap-2">
+                    <BookOpen className="h-4 w-4 text-gold-dark" />
+                    <span className="flex items-center gap-1 text-xs text-muted-foreground">
+                      <Clock className="h-3 w-3" />
+                      {guide.readingTime}
+                    </span>
+                  </div>
+                  <h3 className="mb-2 font-bold text-foreground group-hover:text-gold-dark transition-colors">
+                    {guide.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground line-clamp-2">
+                    {guide.excerpt}
+                  </p>
+                </Link>
+              ))}
+            </div>
+            <div className="mt-6">
+              <Button asChild variant="outline" size="sm">
+                <Link href="/guides">
+                  View All Guides
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Market Reports */}
+      {(countyReport || townReport) && (
+        <section className="bg-muted/30 py-16 sm:py-20">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div
+              className="mb-5 h-[2px] w-14"
+              style={{
+                background:
+                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
+              }}
+            />
+            <p
+              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
+              style={{ color: "var(--gold-dark)" }}
+            >
+              Market Intelligence
+            </p>
+            <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
+              Local Market Reports
+            </h2>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {townReport && (
+                <Link
+                  href={`/market-reports/${townReport.slug}`}
+                  className="group rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:border-gold/30"
+                >
+                  <div className="mb-3 flex items-center gap-2">
+                    <BarChart3 className="h-4 w-4 text-gold-dark" />
+                    <span className="text-xs text-muted-foreground">
+                      {townReport.readingTime}
+                    </span>
+                  </div>
+                  <h3 className="mb-2 font-bold text-foreground group-hover:text-gold-dark transition-colors">
+                    {townReport.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground line-clamp-2">
+                    {townReport.excerpt}
+                  </p>
+                </Link>
+              )}
+              {countyReport && (
+                <Link
+                  href={`/market-reports/${countyReport.slug}`}
+                  className="group rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:border-gold/30"
+                >
+                  <div className="mb-3 flex items-center gap-2">
+                    <BarChart3 className="h-4 w-4 text-gold-dark" />
+                    <span className="text-xs text-muted-foreground">
+                      {countyReport.readingTime}
+                    </span>
+                  </div>
+                  <h3 className="mb-2 font-bold text-foreground group-hover:text-gold-dark transition-colors">
+                    {countyReport.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground line-clamp-2">
+                    {countyReport.excerpt}
+                  </p>
+                </Link>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Local Case Studies */}
       <LocalCaseStudies caseStudies={localCaseStudies} locationName={`${townName}, ${countyName}`} />

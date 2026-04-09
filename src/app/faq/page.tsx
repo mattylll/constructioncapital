@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, HelpCircle } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/ui/json-ld";
+import { FAQSearch } from "@/components/faq/faq-search";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { GUIDES } from "@/lib/guides";
 import { SERVICES } from "@/lib/services";
@@ -222,77 +223,8 @@ export default function FAQPage() {
         />
       </section>
 
-      {/* Category Nav */}
-      <section className="border-b border-border bg-muted/30 py-6">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap gap-3">
-            {categories.map((cat) => (
-              <a
-                key={cat.slug}
-                href={`#${cat.slug}`}
-                className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-gold/30 hover:text-gold-dark"
-              >
-                {cat.name}{" "}
-                <span className="text-muted-foreground">({cat.faqs.length})</span>
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Sections */}
-      <section className="bg-background py-16 sm:py-20">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          {categories.map((cat) => (
-            <div key={cat.slug} id={cat.slug} className="mb-16 last:mb-0">
-              <div className="mb-8">
-                <div
-                  className="mb-4 h-[2px] w-14"
-                  style={{
-                    background:
-                      "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                  }}
-                />
-                <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-                  {cat.name}
-                </h2>
-                <p className="mt-2 text-sm text-muted-foreground">
-                  {cat.description}
-                </p>
-              </div>
-
-              <div className="space-y-4">
-                {cat.faqs.map((faq, i) => (
-                  <details
-                    key={i}
-                    className="group rounded-xl border border-border bg-card transition-colors open:border-gold/20"
-                  >
-                    <summary className="flex cursor-pointer items-start gap-3 p-5 text-left font-bold text-foreground [&::-webkit-details-marker]:hidden">
-                      <HelpCircle className="mt-0.5 h-5 w-5 shrink-0 text-gold" />
-                      <span className="flex-1">{faq.question}</span>
-                      <span className="ml-2 mt-1 text-xs text-muted-foreground transition-transform group-open:rotate-180">
-                        ▼
-                      </span>
-                    </summary>
-                    <div className="border-t border-border px-5 pb-5 pt-4">
-                      <p className="text-sm leading-relaxed text-muted-foreground">
-                        {faq.answer}
-                      </p>
-                      <Link
-                        href={faq.sourceUrl}
-                        className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-gold-dark hover:underline"
-                      >
-                        Read more in: {faq.source}
-                        <ArrowRight className="h-3 w-3" />
-                      </Link>
-                    </div>
-                  </details>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+      {/* Searchable FAQ list (client component) */}
+      <FAQSearch categories={categories} />
 
       {/* CTA */}
       <section
