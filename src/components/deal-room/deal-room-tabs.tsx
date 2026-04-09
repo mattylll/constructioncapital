@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { MessageSquare, FileText } from "lucide-react";
 
 import { DealRoomForm } from "@/components/deal-room/deal-room-form";
@@ -22,7 +23,10 @@ const tabs = [
 ];
 
 export function DealRoomTabs() {
-  const [activeTab, setActiveTab] = useState<"quick" | "full">("quick");
+  const searchParams = useSearchParams();
+  // Auto-switch to Full Application when calculator params are present
+  const hasCalcParams = searchParams.get("gdv") || searchParams.get("loan_amount") || searchParams.get("source");
+  const [activeTab, setActiveTab] = useState<"quick" | "full">(hasCalcParams ? "full" : "quick");
 
   return (
     <div>

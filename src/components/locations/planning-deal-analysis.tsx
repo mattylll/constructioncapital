@@ -189,6 +189,17 @@ function SchemeAnalysisCard({
   const estimatedProfit = gdv - totalBuildCost - Math.round(gdv * 0.08); // 8% finance + fees
   const profitOnGdv = ((estimatedProfit / gdv) * 100).toFixed(1);
 
+  // Pre-fill deal room with this scheme's financials
+  const seniorDebt = stack.find((s) => s.label === "Senior Debt");
+  const dealRoomParams = new URLSearchParams({
+    gdv: String(gdv),
+    total_cost: String(totalBuildCost),
+    loan_amount: String(seniorDebt?.amount ?? Math.round(gdv * 0.6)),
+    loan_type: scheme.financeProduct,
+    town: townName,
+    source: `planning-${app.reference}`,
+  });
+
   // Determine which calculator is most relevant
   const calculatorSlug =
     scheme.type === "office-conversion"
@@ -410,10 +421,21 @@ function SchemeAnalysisCard({
           </p>
         </div>
 
+        {/* Primary CTA — straight to deal room with financials pre-filled */}
+        <div className="mt-5">
+          <Link
+            href={`/deal-room?${dealRoomParams.toString()}`}
+            className="inline-flex items-center gap-2 rounded-xl bg-gold px-5 py-3 text-sm font-bold text-navy-dark shadow-md transition-all hover:bg-gold-dark hover:scale-[1.02]"
+          >
+            Get Terms for This Scheme
+            <ArrowRight className="h-4 w-4" />
+          </Link>
+        </div>
+
         {/* Calculator links */}
         <div className="mt-4 flex flex-wrap gap-2">
           <Link
-            href={`/calculators/${calculatorSlug}`}
+            href={`/calculators/${calculatorSlug}?gdv=${gdv}&buildCosts=${totalBuildCost}`}
             className="inline-flex items-center gap-1 rounded-full bg-muted px-3 py-1.5 text-xs font-medium text-foreground hover:bg-gold/10 hover:text-gold-dark transition-colors"
           >
             <Calculator className="h-3 w-3" />

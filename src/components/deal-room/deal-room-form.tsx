@@ -334,6 +334,12 @@ export function DealRoomForm() {
     calculator: "Calculator",
   };
 
+  // Handle planning-sourced entries (e.g., "planning-5/2025/0741")
+  const source = searchParams.get("source") ?? "";
+  if (source.startsWith("planning-") && !sourceLabels[source]) {
+    sourceLabels[source] = `Planning Application ${source.replace("planning-", "")}`;
+  }
+
   return (
     <div className="mx-auto max-w-2xl">
       {/* Pre-fill confirmation banner */}
