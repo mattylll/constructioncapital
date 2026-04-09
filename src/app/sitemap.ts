@@ -11,39 +11,35 @@ import { GLOSSARY_TERMS } from "@/lib/glossary";
 import { LENDERS } from "@/lib/lenders";
 import { getPublishedArticles } from "@/lib/news-db";
 
-type SitemapSegment =
-  | "static"
-  | "services"
-  | "calculators"
-  | "guides"
-  | "market-reports"
-  | "locations"
-  | "glossary"
-  | "lender-panel"
-  | "news";
+/**
+ * Numeric IDs so Next.js generates a proper sitemap index at /sitemap.xml
+ * pointing to /sitemap/0.xml, /sitemap/1.xml, etc.
+ */
+const SEGMENTS = [
+  "static",
+  "services",
+  "calculators",
+  "guides",
+  "market-reports",
+  "locations",
+  "glossary",
+  "lender-panel",
+  "news",
+] as const;
 
-export async function generateSitemaps(): Promise<{ id: SitemapSegment }[]> {
-  return [
-    { id: "static" },
-    { id: "services" },
-    { id: "calculators" },
-    { id: "guides" },
-    { id: "market-reports" },
-    { id: "locations" },
-    { id: "glossary" },
-    { id: "lender-panel" },
-    { id: "news" },
-  ];
+export async function generateSitemaps(): Promise<{ id: number }[]> {
+  return SEGMENTS.map((_, i) => ({ id: i }));
 }
 
 export default function sitemap({
   id,
 }: {
-  id: SitemapSegment;
+  id: number;
 }): MetadataRoute.Sitemap {
   const now = new Date();
+  const segment = SEGMENTS[id];
 
-  switch (id) {
+  switch (segment) {
     case "static":
       return [
         {
@@ -241,5 +237,8 @@ export default function sitemap({
         })),
       ];
     }
+
+    default:
+      return [];
   }
 }
