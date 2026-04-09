@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { toast } from "sonner";
 import {
   ArrowRight,
@@ -31,6 +32,8 @@ const LOAN_TYPES = [
   "Refurbishment Finance",
   "Commercial Mortgage",
   "Development Exit Finance",
+  "Auction Finance",
+  "Buy-to-Let Mortgage",
 ] as const;
 
 const PROJECT_TYPES = [
@@ -40,9 +43,14 @@ const PROJECT_TYPES = [
   "Heavy Refurbishment",
   "Light Refurbishment",
   "Conversion (PDR)",
+  "Office to Residential",
+  "Commercial to Residential",
+  "Barn Conversion",
+  "Church / Chapel Conversion",
   "HMO Conversion",
   "Land Purchase",
   "Refinance",
+  "Portfolio Refinance",
   "Other",
 ] as const;
 
@@ -93,6 +101,7 @@ function parseCurrencyToNumber(value: string): number {
 }
 
 export function DealRoomForm() {
+  const searchParams = useSearchParams();
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState<FormData>(initialFormData);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -100,6 +109,39 @@ export function DealRoomForm() {
   const [errors, setErrors] = useState<Partial<Record<keyof FormData, string>>>(
     {}
   );
+
+  // Pre-populate form from URL params (from calculators or location pages)
+  const [prefilledSource, setPrefilledSource] = useState<string | null>(null);
+  const [prefilledSummary, setPrefilledSummary] = useState<{ gdv?: string; loanAmount?: string; loanType?: string } | null>(null);
+
+  useEffect(() => {
+    const gdv = searchParams.get("gdv");
+    const totalCost = searchParams.get("total_cost");
+    const loanAmount = searchParams.get("loan_amount");
+    const loanType = searchParams.get("loan_type");
+    const town = searchParams.get("town");
+    const source = searchParams.get("source");
+
+    if (gdv || totalCost || loanAmount || loanType || town) {
+      setFormData((prev) => ({
+        ...prev,
+        ...(gdv ? { gdv: formatCurrency(gdv) } : {}),
+        ...(totalCost ? { totalCost: formatCurrency(totalCost) } : {}),
+        ...(loanAmount ? { loanAmount: formatCurrency(loanAmount) } : {}),
+        ...(loanType ? { loanType } : {}),
+        ...(town ? { projectLocation: town } : {}),
+      }));
+      // Show pre-fill confirmation — stay on step 1 so user fills project details
+      if (gdv || loanAmount) {
+        setPrefilledSource(source || "calculator");
+        setPrefilledSummary({
+          ...(gdv ? { gdv: formatCurrency(gdv) } : {}),
+          ...(loanAmount ? { loanAmount: formatCurrency(loanAmount) } : {}),
+          ...(loanType ? { loanType } : {}),
+        });
+      }
+    }
+  }, [searchParams]);
 
   function updateField(field: keyof FormData, value: string) {
     setFormData((prev) => ({ ...prev, [field]: value }));
@@ -267,8 +309,38 @@ export function DealRoomForm() {
     );
   }
 
+  const sourceLabels: Record<string, string> = {
+    "development-finance-calculator": "Development Finance Calculator",
+    "bridging-loan-calculator": "Bridging Loan Calculator",
+    "mezzanine-finance-calculator": "Mezzanine Finance Calculator",
+    calculator: "Calculator",
+  };
+
   return (
     <div className="mx-auto max-w-2xl">
+      {/* Pre-fill confirmation banner */}
+      {prefilledSummary && (
+        <div
+          className="mb-8 rounded-xl border p-4"
+          style={{ borderColor: "oklch(0.75 0.12 85 / 0.3)", background: "oklch(0.75 0.12 85 / 0.05)" }}
+        >
+          <div className="flex items-start gap-3">
+            <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0" style={{ color: "var(--gold)" }} />
+            <div className="min-w-0">
+              <p className="text-sm font-semibold text-foreground">
+                Financial details pre-filled from {sourceLabels[prefilledSource || ""] || "your calculator"}
+              </p>
+              <p className="mt-1 text-xs text-muted-foreground">
+                {prefilledSummary.loanType && <span>{prefilledSummary.loanType}</span>}
+                {prefilledSummary.gdv && <span> &middot; GDV: £{prefilledSummary.gdv}</span>}
+                {prefilledSummary.loanAmount && <span> &middot; Loan: £{prefilledSummary.loanAmount}</span>}
+                {" — "}just add your project details below.
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Step indicator */}
       <div className="mb-12 flex items-center justify-center gap-4">
         {steps.map((step, i) => {

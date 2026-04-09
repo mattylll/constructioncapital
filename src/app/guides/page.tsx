@@ -5,7 +5,16 @@ import { ArrowRight, BookOpen, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { GUIDES } from "@/lib/guides";
+import type { GuideCategory } from "@/lib/guides";
+import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
 import { GuidesGrid } from "./guides-grid";
+
+// Build category→image URL map for the client grid
+const categoryImageUrls: Partial<Record<GuideCategory, string>> = {};
+for (const cat of new Set(GUIDES.map((g) => g.category))) {
+  const img = SITE_IMAGES[`guide-${cat}`];
+  if (img) categoryImageUrls[cat] = unsplashUrl(img.id, 640, 60);
+}
 
 export const metadata: Metadata = {
   title: "Property Development Finance Guides",
@@ -106,7 +115,7 @@ export default function GuidesPage() {
       {/* Guides Grid with Category Filtering */}
       <section className="bg-background py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <GuidesGrid guides={GUIDES} />
+          <GuidesGrid guides={GUIDES} categoryImages={categoryImageUrls} />
         </div>
       </section>
 

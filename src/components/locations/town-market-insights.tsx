@@ -8,7 +8,7 @@ interface TownMarketInsightsProps {
 
 export function TownMarketInsights({ data, townName }: TownMarketInsightsProps) {
   return (
-    <section className="bg-muted/30 py-12 sm:py-16">
+    <section className="py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div
           className="mb-5 h-[2px] w-14"

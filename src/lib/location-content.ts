@@ -884,6 +884,330 @@ export function getTownOverview(
   return generator(townName, countyName);
 }
 
+// ─────────────────────────────────────────────────────────
+// Property Type Labels
+// ─────────────────────────────────────────────────────────
+
+const PROPERTY_TYPE_LABELS: Record<string, string> = {
+  D: "Detached homes",
+  S: "Semi-detached homes",
+  T: "Terraced houses",
+  F: "Flats and apartments",
+};
+
+const PROPERTY_TYPE_LABELS_LOWER: Record<string, string> = {
+  D: "detached homes",
+  S: "semi-detached properties",
+  T: "terraced houses",
+  F: "flats",
+};
+
+// ─────────────────────────────────────────────────────────
+// Data-Driven Overview Generator
+// ─────────────────────────────────────────────────────────
+
+export interface OverviewData {
+  context?: string;
+  medianPrice?: number;
+  medianByType?: Record<string, number>;
+  transactionCount12m?: number;
+  yoyChange?: number;
+  newBuildCount?: number;
+}
+
+/**
+ * Generates a data-driven town overview using real Land Registry stats.
+ * Produces genuinely unique content per town because the data differs everywhere.
+ * Returns an array of paragraph objects with text and optional links.
+ */
+export function getDataDrivenOverview(
+  townName: string,
+  countyName: string,
+  countySlug: string,
+  townSlug: string,
+  data: OverviewData,
+): { text: string; links?: { text: string; href: string }[] }[] {
+  const paragraphs: { text: string; links?: { text: string; href: string }[] }[] = [];
+
+  // Paragraph 1: Town-specific hook with context + headline stats
+  const contextLine = data.context
+    ? `${townName} — ${data.context.charAt(0).toLowerCase()}${data.context.slice(1)}${data.context.endsWith(".") ? "" : "."}`
+    : `${townName}, ${countyName}.`;
+
+  let p1 = contextLine;
+  if (data.medianPrice && data.transactionCount12m) {
+    const priceStr = formatPrice(data.medianPrice);
+    const volDesc = getVolumeDescription(data.transactionCount12m);
+    p1 += ` With a median property price of ${priceStr} and ${data.transactionCount12m.toLocaleString("en-GB")} transactions in the last twelve months, ${townName} represents a ${volDesc} market`;
+    if (data.yoyChange !== undefined) {
+      const direction = data.yoyChange >= 0 ? "up" : "down";
+      p1 += ` with prices ${direction} ${Math.abs(data.yoyChange)}% year-on-year`;
+    }
+    p1 += ".";
+  }
+  paragraphs.push({ text: p1 });
+
+  // Paragraph 2: Property market characterisation using price-by-type data
+  if (data.medianByType && Object.keys(data.medianByType).length >= 2) {
+    const sorted = Object.entries(data.medianByType)
+      .filter(([, v]) => v > 0)
+      .sort(([, a], [, b]) => b - a);
+
+    if (sorted.length >= 2) {
+      const [topType, topPrice] = sorted[0];
+      const [bottomType, bottomPrice] = sorted[sorted.length - 1];
+      const topLabel = PROPERTY_TYPE_LABELS[topType] ?? topType;
+      const bottomLabel = PROPERTY_TYPE_LABELS_LOWER[bottomType] ?? bottomType;
+
+      let p2 = `${topLabel} command a median of ${formatPrice(topPrice)} while ${bottomLabel} average ${formatPrice(bottomPrice)}, reflecting the breadth of ${townName}'s residential market.`;
+
+      if (data.newBuildCount && data.newBuildCount > 10) {
+        p2 += ` New-build activity is notable, with ${data.newBuildCount} new-build transactions recorded over the past year — a signal of active development demand.`;
+      } else if (sorted.length >= 3) {
+        const [midType, midPrice] = sorted[Math.floor(sorted.length / 2)];
+        const midLabel = PROPERTY_TYPE_LABELS_LOWER[midType] ?? midType;
+        p2 += ` ${midLabel.charAt(0).toUpperCase() + midLabel.slice(1)} sit at ${formatPrice(midPrice)}, offering developers a range of scheme types from conversions to ground-up residential.`;
+      }
+
+      paragraphs.push({ text: p2 });
+    }
+  }
+
+  // Paragraph 3: Finance pitch with service links
+  const basePath = `/locations/${countySlug}/${townSlug}`;
+  const p3 = `Whether you need development finance for a ground-up scheme, bridging finance to secure a site at auction, or mezzanine finance to stretch your capital stack, our brokers arrange the full range of property finance across ${townName} and the wider ${countyName} area. Each deal is structured around your specific project, with terms negotiated from our panel of over 100 lenders.`;
+
+  paragraphs.push({
+    text: p3,
+    links: [
+      { text: "development finance", href: `${basePath}/development-finance` },
+      { text: "bridging finance", href: `${basePath}/bridging-loans` },
+      { text: "mezzanine finance", href: `${basePath}/mezzanine-finance` },
+    ],
+  });
+
+  return paragraphs;
+}
+
+function formatPrice(amount: number): string {
+  if (amount >= 1_000_000) {
+    return `£${(amount / 1_000_000).toFixed(1)}M`;
+  }
+  return `£${amount.toLocaleString("en-GB")}`;
+}
+
+function getVolumeDescription(count: number): string {
+  if (count >= 5000) return "high-volume";
+  if (count >= 2000) return "active";
+  if (count >= 1000) return "healthy";
+  if (count >= 500) return "steady";
+  return "focused";
+}
+
+// ─────────────────────────────────────────────────────────
+// Town-Level FAQs (Data-Driven)
+// ─────────────────────────────────────────────────────────
+
+export interface TownFaqData {
+  medianPrice?: number;
+  medianByType?: Record<string, number>;
+  transactionCount12m?: number;
+  yoyChange?: number;
+  context?: string;
+}
+
+export function getTownFaqs(
+  townName: string,
+  countyName: string,
+  countySlug: string,
+  townSlug: string,
+  data: TownFaqData,
+): FAQ[] {
+  const faqs: FAQ[] = [];
+  const basePath = `/locations/${countySlug}/${townSlug}`;
+
+  // FAQ 1: Average property price
+  if (data.medianPrice) {
+    let answer = `The median property price in ${townName} is ${formatPrice(data.medianPrice)}, based on Land Registry transactions over the past 12 months.`;
+    if (data.medianByType && Object.keys(data.medianByType).length >= 2) {
+      const typeLines = Object.entries(data.medianByType)
+        .filter(([, v]) => v > 0)
+        .sort(([, a], [, b]) => b - a)
+        .map(([type, price]) => `${PROPERTY_TYPE_LABELS_LOWER[type] ?? type} at ${formatPrice(price)}`)
+        .join(", ");
+      answer += ` Broken down by type: ${typeLines}.`;
+    }
+    faqs.push({
+      question: `What is the average property price in ${townName}?`,
+      answer,
+    });
+  }
+
+  // FAQ 2: Good area for development?
+  if (data.transactionCount12m) {
+    let answer = `${townName} recorded ${data.transactionCount12m.toLocaleString("en-GB")} property transactions in the last 12 months`;
+    if (data.yoyChange !== undefined) {
+      const trend = data.yoyChange >= 0
+        ? `with prices up ${data.yoyChange}% year-on-year — suggesting sustained buyer demand`
+        : `with prices adjusting ${Math.abs(data.yoyChange)}% year-on-year — creating potential value opportunities for developers`;
+      answer += `, ${trend}`;
+    }
+    answer += ".";
+    if (data.context) {
+      answer += ` ${data.context}.`;
+    }
+    answer += ` Active transaction volumes indicate a liquid market where completed developments can achieve timely sales.`;
+    faqs.push({
+      question: `Is ${townName} a good area for property development?`,
+      answer,
+    });
+  }
+
+  // FAQ 3: Types of finance available
+  faqs.push({
+    question: `What types of property finance are available in ${townName}?`,
+    answer: `We arrange the full range of property development finance in ${townName}: development finance for ground-up schemes, bridging loans for auction purchases and chain breaks, mezzanine finance to stretch your capital stack, refurbishment finance for conversion projects, commercial mortgages for income-producing assets, equity and joint ventures for larger schemes, and development exit finance for completed projects awaiting sales.`,
+  });
+
+  // FAQ 4: How to apply
+  faqs.push({
+    question: `How do I apply for development finance in ${townName}?`,
+    answer: `Start by submitting your deal through our Deal Room with your project details — site address, purchase price, build costs, and expected end value. Our team will review your scheme, model the funding structure, and present you with terms from our panel of over 100 lenders within 48 hours. There's no upfront fee and no obligation until you choose to proceed.`,
+  });
+
+  // FAQ 5: Local rates
+  if (data.medianPrice) {
+    const exampleGdv = data.medianByType?.["S"]
+      ? data.medianByType["S"] * 6
+      : data.medianPrice * 4;
+    faqs.push({
+      question: `What are typical development finance rates in ${townName}?`,
+      answer: `Development finance rates for ${townName} projects typically range from 7-11% per annum, depending on scheme size, developer experience, and leverage. For a scheme with a GDV of around ${formatPrice(exampleGdv)}, you could expect senior debt at 60-70% of GDV with rates from 7.5%. Arrangement fees are usually 1-2% of the facility. We negotiate the best available terms from our lender panel for each deal.`,
+    });
+  }
+
+  return faqs;
+}
+
+// ─────────────────────────────────────────────────────────
+// Data-Driven Service Commentary (injected before generic)
+// ─────────────────────────────────────────────────────────
+
+const SERVICE_DATA_COMMENTARY: Record<string, (townName: string, data: TownFaqData) => string | null> = {
+  "development-finance": (townName, data) => {
+    if (!data.medianPrice) return null;
+    const gdvEst = data.medianByType?.["S"] ? data.medianByType["S"] * 6 : data.medianPrice * 4;
+    const vol = data.transactionCount12m ? `${data.transactionCount12m.toLocaleString("en-GB")} sales in the past year` : "active transaction volumes";
+    return `The ${townName} residential market — with a median price of ${formatPrice(data.medianPrice)} and ${vol} — provides strong comparable evidence for development appraisals. A typical 6-unit scheme here would target a GDV around ${formatPrice(gdvEst)}, with senior development debt available at 60-70% of that figure. ${data.yoyChange !== undefined ? (data.yoyChange >= 0 ? `Year-on-year price growth of ${data.yoyChange}% supports lender confidence in exit valuations.` : `With prices adjusting ${Math.abs(data.yoyChange)}% year-on-year, lenders will apply a cautious GDV assessment — presenting your scheme with strong pre-sale evidence is key.`) : ""}`;
+  },
+  "mezzanine-finance": (townName, data) => {
+    if (!data.medianPrice) return null;
+    const equity15pct = Math.round(data.medianPrice * 4 * 0.15);
+    return `For a typical ${townName} development with a median property value of ${formatPrice(data.medianPrice)}, mezzanine finance can reduce your equity requirement from approximately ${formatPrice(Math.round(data.medianPrice * 4 * 0.35))} to as little as ${formatPrice(equity15pct)} — freeing capital to pursue multiple projects simultaneously across ${townName} and the surrounding area.`;
+  },
+  "bridging-loans": (townName, data) => {
+    if (!data.medianPrice) return null;
+    const bridgeAmount = Math.round(data.medianPrice * 0.75);
+    return `With a median property price of ${formatPrice(data.medianPrice)} in ${townName}, a typical bridging facility at 75% LTV would provide ${formatPrice(bridgeAmount)} for an acquisition. ${data.transactionCount12m ? `The area's ${data.transactionCount12m.toLocaleString("en-GB")} annual transactions provide strong resale evidence, giving bridging lenders confidence in exit valuations whether you plan to sell, refinance, or develop.` : ""}`;
+  },
+  "equity-jv": (townName, data) => {
+    if (!data.medianPrice) return null;
+    const schemeGdv = data.medianByType?.["S"] ? data.medianByType["S"] * 10 : data.medianPrice * 8;
+    return `${townName}'s property market — where the median price sits at ${formatPrice(data.medianPrice)} — offers attractive development economics for JV partners. A medium-scale scheme here targeting a GDV of ${formatPrice(schemeGdv)} could deliver net development profits of 18-25% on cost, making it a compelling proposition for equity investors seeking exposure to the ${townName} market.`;
+  },
+  "refurbishment-finance": (townName, data) => {
+    if (!data.medianPrice || !data.medianByType) return null;
+    const terraced = data.medianByType["T"];
+    const flat = data.medianByType["F"];
+    if (!terraced && !flat) return null;
+    const target = terraced ?? flat;
+    const refurbCost = Math.round(target * 0.2);
+    return `Refurbishment opportunities in ${townName} are underpinned by a median ${terraced ? "terraced house" : "flat"} price of ${formatPrice(target)}. A typical light refurbishment budget of ${formatPrice(refurbCost)} (20% of purchase price) funded through a bridging facility can unlock meaningful value uplift — particularly for properties below the area median that benefit from cosmetic modernisation.`;
+  },
+  "commercial-mortgages": (townName, data) => {
+    if (!data.medianPrice) return null;
+    return `${townName}'s property market fundamentals — with a median residential value of ${formatPrice(data.medianPrice)}${data.transactionCount12m ? ` and ${data.transactionCount12m.toLocaleString("en-GB")} transactions annually` : ""} — support commercial property values in the area. Rental yields on well-let commercial assets typically reflect the strength of the local residential market, making ${townName} an area where commercial mortgage lenders are willing to lend.`;
+  },
+  "development-exit-finance": (townName, data) => {
+    if (!data.medianPrice) return null;
+    return `For completed developments in ${townName}, where the median sale price is ${formatPrice(data.medianPrice)}, exit finance can significantly reduce your holding costs while units sell. ${data.yoyChange !== undefined && data.yoyChange < 0 ? `In the current market where prices have adjusted ${Math.abs(data.yoyChange)}% year-on-year, having the runway of a lower-cost exit facility is particularly valuable — it prevents forced sales at below-market prices.` : `With a stable local market, exit lenders view ${townName} schemes favourably, typically offering terms that save 2-4% per annum versus rolling over the original development facility.`}`;
+  },
+};
+
+/**
+ * Returns market commentary for a service page, enriched with local data.
+ * Prepends a data-driven paragraph to the generic commentary when stats are available.
+ */
+export function getEnrichedMarketCommentary(
+  serviceSlug: string,
+  countySlug: string,
+  townName: string,
+  countyName: string,
+  data?: TownFaqData,
+): string[] {
+  const generic = getMarketCommentary(serviceSlug, countySlug, townName, countyName);
+  if (!data) return generic;
+
+  const generator = SERVICE_DATA_COMMENTARY[serviceSlug];
+  const dataParag = generator?.(townName, data) ?? null;
+
+  return dataParag ? [dataParag, ...generic] : generic;
+}
+
+/**
+ * Returns data-enriched service FAQs that inject real local market data.
+ * Adds 2-3 town-specific questions to the existing service FAQs.
+ */
+export function getServiceFaqsWithData(
+  serviceSlug: string,
+  townName: string,
+  countyName: string,
+  data?: TownFaqData,
+): FAQ[] {
+  const baseFaqs = getFaqs(serviceSlug, townName, countyName);
+  if (!data?.medianPrice) return baseFaqs;
+
+  const localFaqs: FAQ[] = [];
+
+  // Add a data-driven FAQ specific to this town + service
+  if (serviceSlug === "development-finance" && data.medianByType) {
+    const sorted = Object.entries(data.medianByType).filter(([,v]) => v > 0).sort(([,a],[,b]) => b - a);
+    if (sorted.length >= 2) {
+      localFaqs.push({
+        question: `What GDV can I expect for a development in ${townName}?`,
+        answer: `Based on current Land Registry data, the median property price in ${townName} is ${formatPrice(data.medianPrice)}. ${PROPERTY_TYPE_LABELS[sorted[0][0]] ?? sorted[0][0]} command ${formatPrice(sorted[0][1])} while ${PROPERTY_TYPE_LABELS_LOWER[sorted[sorted.length-1][0]] ?? sorted[sorted.length-1][0]} average ${formatPrice(sorted[sorted.length-1][1])}. A 6-unit development of ${PROPERTY_TYPE_LABELS_LOWER[sorted[1][0]] ?? "mixed"} properties could target a GDV of approximately ${formatPrice(sorted[1][1] * 6)}. Your actual GDV will depend on specification, exact location, and market conditions at completion.`,
+      });
+    }
+  }
+
+  if (serviceSlug === "bridging-loans" && data.transactionCount12m) {
+    localFaqs.push({
+      question: `How quickly can I get a bridging loan for a ${townName} property?`,
+      answer: `For properties in ${townName}, bridging completions typically take 7-14 working days. With ${data.transactionCount12m.toLocaleString("en-GB")} transactions recorded in the area over the past year, local valuers have strong comparable evidence, which can accelerate the valuation process. For auction purchases in ${townName}, we recommend getting a decision in principle before bidding.`,
+    });
+  }
+
+  if (serviceSlug === "refurbishment-finance" && data.medianByType?.["T"]) {
+    localFaqs.push({
+      question: `What refurbishment budget should I plan for in ${townName}?`,
+      answer: `In ${townName}, where terraced houses have a median value of ${formatPrice(data.medianByType["T"])}, a light refurbishment typically costs ${formatPrice(Math.round(data.medianByType["T"] * 0.1))}-${formatPrice(Math.round(data.medianByType["T"] * 0.15))} (10-15% of property value). Heavy refurbishment or conversion projects may require ${formatPrice(Math.round(data.medianByType["T"] * 0.25))}-${formatPrice(Math.round(data.medianByType["T"] * 0.4))} (25-40% of value). The right refurbishment finance product depends on whether works are cosmetic (light) or structural (heavy).`,
+    });
+  }
+
+  if (serviceSlug === "commercial-mortgages" && data.medianPrice) {
+    localFaqs.push({
+      question: `What yield should I expect on commercial property in ${townName}?`,
+      answer: `Commercial yields in ${townName} vary by property type and tenant quality, but typically range from 5-8% for well-let assets. The area's residential market fundamentals — with a median price of ${formatPrice(data.medianPrice)}${data.yoyChange !== undefined ? ` and ${data.yoyChange >= 0 ? "positive" : "slightly negative"} price movement` : ""} — support local commercial values. Multi-let properties with diversified income streams typically attract the strongest lender appetite and most competitive mortgage terms.`,
+    });
+  }
+
+  // Insert local FAQs after the first 2 base FAQs
+  if (localFaqs.length > 0) {
+    return [...baseFaqs.slice(0, 2), ...localFaqs, ...baseFaqs.slice(2)];
+  }
+  return baseFaqs;
+}
+
 /**
  * Returns arrangement fee string for a service.
  */

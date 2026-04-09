@@ -3,6 +3,7 @@ import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/constants";
 import { CALCULATORS } from "@/lib/calculators";
 import { GUIDES } from "@/lib/guides";
+import { MARKET_REPORTS } from "@/lib/market-reports";
 import { SERVICES } from "@/lib/services";
 import { UK_COUNTIES } from "@/lib/uk-locations-data";
 
@@ -147,5 +148,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...staticPages, ...servicePages, ...calculatorPages, ...caseStudyPages, ...guidePages, ...locationPages];
+  // Market report pages
+  const marketReportPages: MetadataRoute.Sitemap = [
+    {
+      url: `${SITE_URL}/market-reports`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    ...MARKET_REPORTS.map((report) => ({
+      url: `${SITE_URL}/market-reports/${report.slug}`,
+      lastModified: new Date(report.dateModified),
+      changeFrequency: "monthly" as const,
+      priority: report.category === "town" ? 0.6 : 0.7,
+    })),
+  ];
+
+  return [...staticPages, ...servicePages, ...calculatorPages, ...caseStudyPages, ...guidePages, ...marketReportPages, ...locationPages];
 }

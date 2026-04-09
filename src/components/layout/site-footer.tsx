@@ -19,6 +19,7 @@ const footerLinks = {
     { href: "/case-studies", label: "Case Studies" },
     { href: "/deal-room", label: "Deal Room" },
     { href: "/calculators", label: "Calculators" },
+    { href: "/market-reports", label: "Market Reports" },
     { href: "/guides", label: "Guides" },
     { href: "/faq", label: "FAQ" },
     { href: "/contact", label: "Contact Us" },

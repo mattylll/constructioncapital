@@ -378,3 +378,52 @@
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
   pointer-events: none;
 }
+
+/* ━━━ Guide Content Styling ━━━ */
+.guide-content a {
+  color: var(--gold-dark);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: oklch(0.75 0.12 85 / 0.3);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.2s;
+}
+.guide-content a:hover {
+  text-decoration-color: var(--gold-dark);
+}
+.guide-content strong {
+  color: var(--foreground);
+  font-weight: 700;
+}
+.guide-content table {
+  width: 100%;
+  font-size: 0.875rem;
+  border-collapse: collapse;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+.guide-content table th {
+  text-align: left;
+  padding: 0.625rem 0.875rem;
+  font-weight: 600;
+  color: var(--foreground);
+  background: oklch(0.75 0.12 85 / 0.06);
+  border-bottom: 1px solid var(--border);
+}
+.guide-content table td {
+  padding: 0.625rem 0.875rem;
+  border-bottom: 1px solid oklch(0 0 0 / 0.04);
+  vertical-align: top;
+}
+.guide-content table tr:last-child td {
+  border-bottom: none;
+}
+.guide-content ul,
+.guide-content ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+.guide-content li {
+  margin-bottom: 0.375rem;
+}

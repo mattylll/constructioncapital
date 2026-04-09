@@ -42,11 +42,6 @@ export function LocationMap({ locationName, countyName }: LocationMapProps) {
           />
         </div>
 
-        <p className="mt-4 text-sm text-muted-foreground">
-          We arrange property finance for developments across {locationName} and
-          the wider {countyName} area. Local market knowledge combined with
-          access to 100+ specialist lenders.
-        </p>
       </div>
     </section>
   );

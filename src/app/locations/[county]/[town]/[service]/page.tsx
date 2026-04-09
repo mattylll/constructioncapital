@@ -16,6 +16,8 @@ import {
   getFaqs,
   getDealExample,
   getArrangementFee,
+  getEnrichedMarketCommentary,
+  getServiceFaqsWithData,
 } from "@/lib/location-content";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
 import { LocationMap } from "@/components/locations/location-map";
@@ -26,6 +28,9 @@ import {
   getRelatedTowns as getRealRelatedTowns,
   getCountyBySlug,
 } from "@/lib/uk-locations-data";
+import { getTownMarketData } from "@/lib/town-market-data";
+import { getTownStats, getSoldData } from "@/lib/local-market-data";
+import { MarketSnapshot } from "@/components/locations/market-snapshot";
 
 // ISR configuration
 export const dynamicParams = true;
@@ -165,10 +170,27 @@ export default async function ServicePage({ params }: PageProps) {
     slug: t.slug,
     countySlug: county,
   }));
-  const faqs = getFaqs(service, townName, countyName);
   const dealExample = getDealExample(service, townName);
-  const marketCommentary = getMarketCommentary(service, county, townName, countyName);
   const arrangementFee = getArrangementFee(service);
+  const townMarketData = getTownMarketData(county, town);
+  const townStats = getTownStats(county, town);
+  const soldData = getSoldData(county, town);
+
+  // Build local data for enrichment
+  const localData = (soldData?.stats || townStats) ? {
+    medianPrice: soldData?.stats?.medianPrice ?? townStats?.marketSnapshot.medianPrice,
+    medianByType: soldData?.stats?.medianByType,
+    transactionCount12m: soldData?.stats?.transactionCount12m ?? townStats?.marketSnapshot.transactionCount12m,
+    yoyChange: soldData?.stats?.yoyChange ?? townStats?.marketSnapshot.yoyPriceChange,
+    context: townData?.context,
+  } : undefined;
+
+  // Use town-specific service commentary when available, then enriched, then generic
+  const marketCommentary = townMarketData?.serviceCommentary?.[service]
+    ?? getEnrichedMarketCommentary(service, county, townName, countyName, localData);
+
+  // Data-enriched FAQs
+  const faqs = getServiceFaqsWithData(service, townName, countyName, localData);
 
   // Varied H1 per service type
   const titlePattern = SERVICE_TITLE_PATTERNS[service];
@@ -376,6 +398,11 @@ export default async function ServicePage({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      {/* Local Market Snapshot — real data when available */}
+      {townStats && (
+        <MarketSnapshot stats={townStats.marketSnapshot} townName={townName} />
+      )}
 
       {/* Rate Card */}
       <section className="bg-muted/30 py-16 sm:py-20">
@@ -628,11 +655,11 @@ export default async function ServicePage({ params }: PageProps) {
       {/* Local Case Studies */}
       <LocalCaseStudies caseStudies={localCaseStudies} locationName={`${townName}, ${countyName}`} />
 
-      {/* Location Map */}
-      <LocationMap locationName={townName} countyName={countyName} />
-
       {/* CTA Section */}
       <LocationCTA townName={townName} serviceName={serviceName} />
+
+      {/* Location Map */}
+      <LocationMap locationName={townName} countyName={countyName} />
 
       {/* Related Services */}
       <RelatedServices

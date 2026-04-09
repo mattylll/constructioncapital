@@ -21,6 +21,7 @@ import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 import { SERVICE_POPULAR_LOCATIONS } from "@/lib/location-content";
 import { SERVICE_PAGE_CONTENT } from "@/lib/service-page-content";
 import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
+import { getGuidesByService } from "@/lib/guides";
 
 const iconMap: Record<string, React.ElementType> = {
   Building2,
@@ -78,6 +79,7 @@ export default async function ServicePage({ params }: PageProps) {
     .map((s) => SERVICES.find((svc) => svc.slug === s))
     .filter(Boolean) as Service[];
   const popularLocations = SERVICE_POPULAR_LOCATIONS[slug] || [];
+  const relatedGuides = getGuidesByService(slug);
 
   // JSON-LD: FinancialService
   const financialServiceJsonLd = {
@@ -487,6 +489,65 @@ export default async function ServicePage({ params }: PageProps) {
                   {service.name} in {loc.label}
                 </Link>
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ━━━ RELATED GUIDES ━━━ */}
+      {relatedGuides.length > 0 && (
+        <section className="bg-background py-16 sm:py-20">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="mb-8">
+              <div
+                className="mb-5 h-[2px] w-14"
+                style={{
+                  background:
+                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
+                }}
+              />
+              <p
+                className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
+                style={{ color: "var(--gold-dark)" }}
+              >
+                Expert Guides
+              </p>
+              <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+                {service.name} Guides
+              </h2>
+              <p className="mt-3 text-muted-foreground">
+                In-depth guides to help you navigate {service.name.toLowerCase()}{" "}
+                — from application to completion.
+              </p>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {relatedGuides.map((guide) => (
+                <Link
+                  key={guide.slug}
+                  href={`/guides/${guide.slug}`}
+                  className="group rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30 hover:shadow-sm"
+                >
+                  <h3 className="mb-2 font-bold text-foreground group-hover:text-gold-dark transition-colors">
+                    {guide.title}
+                  </h3>
+                  <p className="mb-3 text-sm text-muted-foreground line-clamp-2">
+                    {guide.excerpt}
+                  </p>
+                  <span className="text-xs font-medium text-gold-dark">
+                    {guide.readingTime} read
+                  </span>
+                </Link>
+              ))}
+            </div>
+
+            <div className="mt-6">
+              <Button asChild variant="outline" size="sm">
+                <Link href="/guides">
+                  View All Guides
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
             </div>
           </div>
         </section>

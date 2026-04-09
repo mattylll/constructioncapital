@@ -18,6 +18,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Legal due diligence is the process by which a lender's solicitor investigates the legal title, planning status, and regulatory compliance of a development site before funds are released. In our experience arranging <a href=\"/services#development-finance\">development finance</a> facilities across the UK, this is the stage that most frequently causes delays, yet it is also the stage that developers are least prepared for. Understanding what solicitors check and why they check it gives you a significant advantage when structuring your deal.",
           "The lender's solicitor acts as the lender's gatekeeper. Their job is to ensure that the security the lender is taking, typically a first legal charge over the development site, is valid, enforceable, and free from defects that could impair its value. This means investigating everything from the paper trail of ownership to the environmental history of the land. For a typical development finance facility of £1,500,000 to £5,000,000, legal fees for the lender's solicitor alone can range from £5,000 to £15,000, so the process is thorough.",
           "We have seen transactions where the developer assumed legal due diligence was a formality, only to discover title defects, missing planning conditions, or unregistered rights that added weeks or even months to the completion timeline. The developers who move fastest through this process are those who instruct their own solicitor early, commission searches upfront, and prepare a comprehensive legal pack before the lender's solicitor is even instructed."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -51,6 +53,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Once the lender is satisfied with the due diligence findings, the lender's solicitor prepares the facility agreement and associated security documents. The borrower's solicitor must review these carefully. The <a href=\"/guides/development-finance-facility-agreement\">facility agreement</a> sets out every term of the loan including the interest rate, drawdown mechanics, financial covenants, representations and warranties, events of default, and the conditions precedent that must be satisfied before the first drawdown.",
           "The security package typically includes a first legal charge over the development site, a debenture over the borrower company's assets if the borrower is a limited company or SPV, personal guarantees from the directors, and an assignment of the building contract, professional team appointments, and insurance policies. Each document requires careful review to ensure that the terms are commercially acceptable and that the developer understands their obligations. In our experience, developers who skip the detailed review of their facility agreement are the ones most likely to encounter problems during the build, particularly around drawdown conditions and default triggers.",
           "We always recommend that developers engage a solicitor with specific experience in development finance transactions. A residential conveyancer or general commercial solicitor may not be familiar with the nuances of drawdown mechanics, monitoring surveyor provisions, or the implications of specific financial covenants. The cost of instructing a specialist is typically £3,000 to £8,000 for the borrower's legal fees, but this investment can prevent far more expensive problems later. If you are ready to proceed with your development, <a href=\"/deal-room\">submit your deal</a> and we will connect you with experienced legal professionals."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -64,7 +68,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["development-finance-facility-agreement", "land-registry-requirements-development", "how-does-development-finance-work", "environmental-searches-development"],
     relatedServices: ["development-finance", "bridging-loans"],
-    relatedLocations: ["greater-london", "kent", "surrey", "essex"]
+    relatedLocations: ["greater-london", "kent", "surrey", "essex"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "development-finance-facility-agreement",
@@ -82,6 +104,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "A development finance facility agreement is the legally binding contract between the borrower and the lender that governs the entire loan. It sets out the amount of the facility, the interest rate, the drawdown schedule, the conditions under which funds will be released, the representations and warranties given by the borrower, the financial covenants that must be maintained, and the events that will trigger a default. In our experience arranging <a href=\"/services#development-finance\">development finance</a> for projects ranging from £500,000 to £25,000,000, the facility agreement is the document that determines the success or failure of the borrower-lender relationship.",
           "Unlike a standard mortgage offer, which is relatively straightforward, a development finance facility agreement is a complex commercial lending document that can run to sixty or more pages. Every clause has been drafted to protect the lender's position, and while many terms are non-negotiable, there are areas where an experienced borrower's solicitor can achieve more favourable terms. The key is understanding which clauses are standard market practice and which represent the lender taking an aggressive position that warrants pushback.",
           "We strongly recommend that every developer reads and understands their facility agreement before signing it. Too many developers sign without fully appreciating the implications of specific clauses, particularly around drawdown conditions, cost overrun provisions, and default triggers. Ignorance of the terms is not a defence when things go wrong on site."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -91,6 +115,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Conditions precedent to the initial drawdown usually include satisfactory completion of <a href=\"/guides/legal-due-diligence-development-finance\">legal due diligence</a>, receipt of a satisfactory valuation, evidence that all planning conditions have been discharged, execution of the building contract, evidence of all required insurances, and confirmation that any required equity contribution has been made. For a typical £2,000,000 facility, the borrower might need to demonstrate that they have invested £400,000 of equity before the lender advances any funds.",
           "Subsequent drawdown conditions typically require a satisfactory monitoring surveyor report confirming that works have progressed to the stage claimed in the drawdown request, that costs remain within budget, and that there are no material defects. The facility agreement will specify the minimum notice period for drawdown requests, usually five to ten working days, and may limit the frequency of drawdowns to monthly intervals. Understanding these mechanics is essential for cash flow planning. A developer who expects to draw funds weekly will be disappointed to discover that the facility agreement limits drawdowns to monthly tranches with ten working days notice.",
           "We have seen developers run into serious cash flow problems because they did not understand the drawdown mechanics in their facility agreement. If your contractor requires weekly payments but you can only draw from the lender monthly, you need working capital to bridge the gap. This is a point we always raise when <a href=\"/deal-room\">structuring deals</a> for our clients."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -128,7 +154,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["legal-due-diligence-development-finance", "how-does-development-finance-work", "development-finance-completion-process", "spv-structure-property-development"],
     relatedServices: ["development-finance", "mezzanine-finance"],
-    relatedLocations: ["greater-london", "greater-manchester", "west-midlands", "kent"]
+    relatedLocations: ["greater-london", "greater-manchester", "west-midlands", "kent"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "spv-structure-property-development",
@@ -146,6 +190,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "A Special Purpose Vehicle, or SPV, is a limited company formed specifically to hold a single development project. It has no trading history, no other assets, and no liabilities beyond those related to the development. In the context of <a href=\"/services#development-finance\">development finance</a>, approximately 85% of lenders require the borrower to be an SPV rather than an individual or an existing trading company. The reason is straightforward: an SPV ring-fences the development project from the developer's other activities, creating a clean and transparent legal structure that simplifies security, administration, and, if necessary, enforcement.",
           "From the lender's perspective, an SPV ensures that the development site and the loan facility are the only significant assets and liabilities within the borrower entity. This means there are no competing creditors, no unrelated debts that could trigger cross-default provisions, and no risk of the borrower's other business activities contaminating the project. If the developer runs a separate construction company that becomes insolvent, the SPV holding the development site is unaffected because it is a separate legal entity.",
           "For developers, the SPV structure provides limited liability protection. If the development fails and the lender enforces its security, the developer's personal assets are protected, subject to any personal guarantees given. The SPV structure also makes it easier to bring in joint venture partners or equity investors, as their investment can be structured as shares in the SPV with clearly defined rights and obligations. We have arranged facilities for SPV structures ranging from simple single-director companies to complex multi-layered structures with holding companies and multiple project SPVs."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -155,6 +201,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "The SPV's name should clearly identify it as a project-specific entity. Names like '123 High Street Developments Limited' or 'Oakfield Residential SPV Limited' are common. Avoid names that are misleading or that could be confused with established businesses. The registered office address should be a genuine business address, not a virtual office, as some lenders view virtual offices unfavourably. The company should be registered for Corporation Tax with HMRC and, if applicable, registered for VAT.",
           "Directors and shareholders need careful consideration. The developer should be a director of the SPV, and in most cases the sole shareholder or majority shareholder. If there are joint venture partners, the shareholding structure should be agreed before the SPV is incorporated and documented in a shareholders' agreement. Lenders will require details of all directors and persons with significant control as part of their know-your-customer checks. Setting up the SPV typically costs between £50 and £500 depending on whether you use an off-the-shelf company or instruct a solicitor to incorporate a bespoke entity. We advise developers to have the SPV ready before submitting their <a href=\"/deal-room\">finance application</a>, as this avoids unnecessary delays.",
           "One important point that developers often overlook is that the SPV needs a bank account before the lender will complete. Opening a business bank account can take two to six weeks depending on the bank, and some banks are reluctant to open accounts for newly incorporated SPVs with no trading history. Start the account opening process as soon as the SPV is incorporated."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -194,7 +242,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["development-finance-facility-agreement", "how-does-development-finance-work", "mezzanine-vs-equity-jv", "legal-due-diligence-development-finance"],
     relatedServices: ["development-finance", "equity-jv"],
-    relatedLocations: ["greater-london", "west-midlands", "surrey", "kent"]
+    relatedLocations: ["greater-london", "west-midlands", "surrey", "kent"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "planning-permission-development-finance",
@@ -212,6 +278,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Planning permission is the single most important factor in a <a href=\"/services#development-finance\">development finance</a> application because it determines whether the proposed scheme can legally be built. Without valid planning permission, the development site is valued as land with hope value rather than as a consented development opportunity, and the gross development value that underpins the entire financial structure cannot be reliably calculated. In our experience, the type and status of planning permission directly affects the loan-to-value ratio available, the interest rate charged, and whether a lender will consider the application at all.",
           "Lenders view planning permission as a binary risk reducer. A site with full detailed planning permission for twelve residential units has a known, quantifiable development potential. A site with no planning permission is speculative. Between these two extremes lies a spectrum of planning statuses, including outline permission, reserved matters, resolution to grant, permitted development rights, and planning applications pending determination, each of which carries a different level of risk in the lender's assessment.",
           "The practical impact is significant. A residential development scheme in Surrey with full planning permission might attract development finance at 7.5% per annum with 65% loan-to-GDV. The same scheme with only outline permission might only attract 55% loan-to-GDV at 9.5% per annum, if a lender will consider it at all. Understanding how planning status affects your borrowing terms allows you to make informed decisions about when to apply for finance and how much equity you need to contribute."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -221,6 +289,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Outline planning permission establishes the principle of development but reserves detailed matters for subsequent approval. While outline permission provides confidence that the site can be developed, it leaves significant uncertainty about the final scheme. A smaller number of specialist lenders will consider facilities against outline permission, but typically at lower leverage, 50-55% of estimated GDV, and higher rates. The borrower is expected to submit and obtain reserved matters approval during the loan term, which introduces additional planning risk that the lender must price in.",
           "A resolution to grant is a committee decision to approve the application subject to the completion of a Section 106 agreement. This is common for larger residential schemes where affordable housing or infrastructure contributions are required. Some lenders treat a resolution to grant almost as favourably as full permission, particularly if the Section 106 heads of terms are agreed. Others will not lend until the Section 106 is completed and the formal decision notice issued. The time between resolution to grant and formal consent can be anywhere from two to twelve months depending on the complexity of the Section 106 negotiations.",
           "<a href=\"/guides/permitted-development-rights-finance\">Permitted development rights</a> allow certain types of development without the need for a full planning application, most commonly the conversion of commercial premises to residential use under Class MA or Class O of the General Permitted Development Order. Lenders will consider these schemes provided the developer has obtained prior approval from the local authority confirming that the proposed development falls within the permitted development rights. The prior approval process typically takes eight weeks and is a lighter-touch assessment than a full planning application."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -258,7 +328,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["legal-due-diligence-development-finance", "permitted-development-rights-finance", "cil-section-106-obligations", "how-does-development-finance-work"],
     relatedServices: ["development-finance", "bridging-loans"],
-    relatedLocations: ["surrey", "hampshire", "greater-london", "kent"]
+    relatedLocations: ["surrey", "hampshire", "greater-london", "kent"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "land-registry-requirements-development",
@@ -276,6 +364,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "The Land Registry is the government body responsible for registering ownership of land and property in England and Wales. It maintains a register of over 26 million titles, each of which records the owner, the extent of the land on a title plan, and any interests affecting the land such as mortgages, easements, and restrictive covenants. For <a href=\"/services#development-finance\">development finance</a> lenders, the Land Registry is the authoritative source for verifying that the borrower owns the site and that the lender can take a valid first legal charge over it.",
           "When you apply for development finance, the lender's solicitor will obtain official copies of the title register and title plan from the Land Registry. These documents cost £3 each and are available online within minutes. The title register comprises three sections: the property register, which describes the land and any rights benefiting it; the proprietorship register, which identifies the owner and any restrictions on their ability to deal with the land; and the charges register, which lists all mortgages, charges, and other financial encumbrances registered against the title.",
           "The title plan shows the extent of the registered title, outlined in red, against an Ordnance Survey base map. Importantly, the Land Registry title plan identifies the general boundaries of the property rather than the exact boundaries. This general boundary rule means that the title plan does not definitively show the precise position of boundary features such as walls, fences, or hedges. This can become relevant in development finance transactions where the proposed building footprint is close to the boundary, as we will discuss later in this guide."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -285,6 +375,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "For most straightforward transactions, the registration process is handled by the solicitor as part of the post-completion formalities and takes between two and eight weeks. However, some transactions trigger a requisition from the Land Registry, which is a request for additional information or documentation. Common requisitions include queries about the company's authority to enter the transaction, discrepancies between the transfer and the title plan, and questions about whether the transaction triggers a requirement for consent from a third party. Requisitions add time and cost to the process.",
           "First registrations are more complex. If the development site is unregistered land, the first dealing with the land, whether a sale, mortgage, or long lease, triggers compulsory first registration. The application for first registration requires extensive documentation including the original title deeds, an index map search, a statutory declaration explaining the chain of ownership, and a form DL listing all documents being lodged. First registration typically takes three to six months and can delay the lender's ability to register its charge. We always advise developers to check whether their title is registered before proceeding with a finance application by conducting a Land Registry search. If the title is unregistered, factor in additional time for the first registration process.",
           "The fee for registering a charge at the Land Registry depends on the transaction value. For a development finance facility of £2,000,000, the registration fee is approximately £270. While this is a relatively minor cost in the context of the overall transaction, the consequences of failing to register the charge correctly and within the priority period can be severe for the lender, which is why solicitors treat this step with great care."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -322,7 +414,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["legal-due-diligence-development-finance", "restrictive-covenants-development", "spv-structure-property-development", "rights-of-way-development-finance"],
     relatedServices: ["development-finance", "bridging-loans"],
-    relatedLocations: ["greater-london", "essex", "hertfordshire", "buckinghamshire"]
+    relatedLocations: ["greater-london", "essex", "hertfordshire", "buckinghamshire"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "jct-contracts-development-finance",
@@ -340,6 +450,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "The building contract is one of the most important documents in a <a href=\"/services#development-finance\">development finance</a> transaction because it governs the relationship between the developer and the contractor who will build the scheme. From the lender's perspective, the building contract determines how construction risk is allocated, how cost overruns are handled, what happens if the contractor becomes insolvent, and whether the lender can step into the developer's shoes and enforce the contract if the developer defaults on the loan. A well-drafted building contract reduces construction risk for both the developer and the lender, which translates into better borrowing terms.",
           "The Joint Contracts Tribunal, or JCT, produces the most widely used standard form building contracts in England and Wales. These contracts are recognised and trusted by development finance lenders because they have been developed over decades, refined through case law, and are understood by the construction industry, legal professionals, and quantity surveyors. When a lender sees a JCT contract, they know exactly what risk allocation it provides and can assess the development accordingly.",
           "Using a bespoke or non-standard building contract is possible but can cause delays in the finance application process. The lender's solicitor will need additional time to review and report on a non-standard contract, and the lender may require amendments to bring it in line with market norms. In our experience, developers who use a recognised JCT form move through the legal due diligence process significantly faster than those using bespoke contracts, saving both time and legal fees."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -348,6 +460,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "The JCT Minor Works Building Contract is designed for straightforward projects of relatively low value and short duration. It is appropriate for simple building works where the employer, the developer, has appointed an architect or contract administrator to oversee the project. The contract is shorter and less complex than the intermediate or design and build forms, making it easier to administer and less expensive in terms of professional fees.",
           "In the context of development finance, the Minor Works contract is suitable for projects with a construction value up to approximately £500,000, though there is no formal upper limit. Typical projects include single dwelling builds, small residential conversions of two to four units, and light <a href=\"/services#refurbishment-finance\">refurbishment projects</a>. The contract provides for an architect or contract administrator to issue instructions, value work, and certify practical completion. Payment is typically on a monthly basis following certification by the contract administrator.",
           "The limitations of the Minor Works contract become apparent on larger or more complex schemes. It does not include detailed provisions for loss and expense claims, it has limited provisions for dealing with contractor insolvency, and the dispute resolution procedures are less comprehensive than those in the intermediate or design and build forms. Development finance lenders will accept a Minor Works contract for smaller schemes but may require a more robust form for projects above £750,000 in construction value. We have arranged facilities for numerous small developments using the Minor Works form and find that it strikes the right balance between simplicity and protection for projects of appropriate scale."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -386,7 +500,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["legal-due-diligence-development-finance", "development-finance-facility-agreement", "how-does-development-finance-work", "building-regulations-development-finance"],
     relatedServices: ["development-finance", "refurbishment-finance"],
-    relatedLocations: ["greater-london", "kent", "essex", "west-midlands"]
+    relatedLocations: ["greater-london", "kent", "essex", "west-midlands"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "building-regulations-development-finance",
@@ -404,6 +536,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Building regulations are the minimum standards for the design, construction, and alteration of buildings in England and Wales. They exist to ensure that buildings are safe, energy-efficient, and accessible. Unlike planning permission, which controls what can be built and where, building regulations control how buildings are constructed, covering everything from structural stability and fire safety to ventilation, drainage, and electrical installations. For <a href=\"/services#development-finance\">development finance</a> lenders, building regulations compliance is essential because a building that does not comply cannot be lawfully occupied, cannot be insured, and therefore has limited or no resale value.",
           "The building regulations are set out in a series of Approved Documents, each covering a specific technical area. Part A covers structural safety, Part B covers fire safety, Part F covers ventilation, Part L covers energy conservation, and Part M covers accessibility. The most recent additions include Part O, which addresses overheating in residential buildings, and Part S, which requires electric vehicle charging infrastructure. Each of these parts sets minimum performance standards that the development must meet, and the lender's monitoring surveyor will verify compliance at each inspection stage.",
           "Non-compliance with building regulations can have severe consequences for a development finance transaction. If the building control body identifies non-compliant work, it can issue an enforcement notice requiring the work to be corrected. In extreme cases, it can require the demolition of non-compliant structures. For the lender, non-compliance means that the completed development may not achieve its projected sale prices, because buyers and their mortgage lenders will require evidence of building regulations compliance before completing a purchase. We have seen schemes where non-compliance with Part B fire safety regulations required retrospective remedial works costing over £150,000, turning a profitable development into a marginal one."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -420,6 +554,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Part B fire safety is the building regulation that causes the most issues in development finance transactions, particularly since the strengthening of requirements following the Grenfell Tower tragedy. For residential buildings over eleven metres in height, the requirements are particularly stringent, including the specification of external wall materials, compartmentation between dwellings, means of escape provisions, and fire detection and alarm systems. The cost of compliance with Part B can significantly affect the build budget, and developers should ensure that their quantity surveyor has priced the fire safety requirements accurately in the development appraisal.",
           "Part L energy conservation requires new dwellings to achieve minimum energy performance standards, including target fabric energy efficiency and target carbon dioxide emission rates. The 2025 update to Part L introduced more stringent standards as a stepping stone towards the Future Homes Standard. Compliance typically requires enhanced insulation, high-performance windows and doors, air source heat pumps or other low-carbon heating systems, and mechanical ventilation with heat recovery. These requirements increase build costs by approximately £5,000 to £15,000 per dwelling compared to the previous standards, and this additional cost should be reflected in the development appraisal submitted to the <a href=\"/guides/how-does-development-finance-work\">development finance</a> lender.",
           "Part S electric vehicle charging requires new residential developments to include electric vehicle charging infrastructure. Each dwelling with an associated parking space must have a dedicated charge point with a minimum power output of 7kW. For developments with communal parking, at least one charge point for every five spaces is required. The cost per charge point is typically £800 to £1,500 installed, and for a twenty-unit scheme with twenty parking spaces, this adds £16,000 to £30,000 to the build cost. While this is a relatively small proportion of the overall budget, it is an example of the incremental compliance costs that developers must account for in their appraisals."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -449,7 +585,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["jct-contracts-development-finance", "legal-due-diligence-development-finance", "how-does-development-finance-work", "development-finance-completion-process"],
     relatedServices: ["development-finance", "refurbishment-finance"],
-    relatedLocations: ["greater-london", "surrey", "kent", "west-yorkshire"]
+    relatedLocations: ["greater-london", "surrey", "kent", "west-yorkshire"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "environmental-searches-development",
@@ -467,6 +621,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Environmental searches are a standard component of the <a href=\"/guides/legal-due-diligence-development-finance\">legal due diligence</a> process in every development finance transaction. They identify potential contamination, flooding, and other environmental risks that could affect the development site, the health and safety of future occupants, and ultimately the value of the lender's security. In our experience arranging <a href=\"/services#development-finance\">development finance</a> across the UK, environmental issues are among the most common reasons for delays, renegotiations, or even the collapse of transactions. Understanding what environmental searches involve and how to manage the risks they reveal is essential for every developer.",
           "The environmental search is typically ordered by the developer's solicitor as part of the standard search pack and costs between £40 and £100. It is produced by a specialist environmental data provider who analyses a range of databases, historical maps, and regulatory records to assess the environmental risk profile of the site. The search report covers contaminated land registers, historical land use, landfill sites within a specified radius, flooding risk from rivers, surface water, and groundwater, radon gas risk, and industrial pollution sources.",
           "For brownfield development sites, which account for a significant proportion of residential development in England, the environmental search is particularly important. Former industrial land, petrol stations, dry cleaners, gasworks, and even agricultural land that has been subject to intensive pesticide use can all present contamination risks. The cost of remediating contaminated land can range from £20,000 for minor contamination to over £1,000,000 for severely contaminated industrial sites, making it essential that these risks are identified and quantified early in the project lifecycle."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -475,6 +631,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "The environmental search report is organised into sections covering different risk categories. The contaminated land section reports whether the site or nearby land is on the local authority's contaminated land register, and whether it has a history of potentially contaminative use. The report will flag historical uses such as factories, foundries, chemical works, fuel storage, and waste disposal as potential sources of contamination. It will also identify sites within a specified radius, typically 250 to 500 metres, that could present off-site contamination risks through groundwater migration or airborne pollutants.",
           "The flooding section of the report assesses the risk of flooding from rivers, the sea, surface water, and groundwater. It draws on Environment Agency flood maps and other data sources to categorise the site into flood risk zones. Zone 1 represents low risk, Zone 2 represents medium risk, and Zone 3 represents high risk. Development finance lenders are generally comfortable with Zone 1 sites but will require additional assessment for Zone 2 and may decline to lend on Zone 3 sites unless a site-specific flood risk assessment demonstrates that the risk can be mitigated. A Flood Risk Assessment typically costs £2,000 to £8,000 and must demonstrate that the development will be safe for its lifetime and will not increase flood risk elsewhere.",
           "The report also covers radon gas risk, which is relevant for developments in certain geological areas, particularly in Devon, Somerset, and parts of the Midlands. If the site is in a radon-affected area, the lender may require the developer to install radon protection measures during construction, which adds a relatively modest cost of £500 to £2,000 per dwelling. Other sections cover ground stability, mining, subsidence, and proximity to regulated industrial installations. Each risk factor is assessed on a traffic light system, with red flags requiring further investigation before the lender will proceed."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -507,12 +665,32 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "The key to managing environmental risk in a development finance application is early identification and professional assessment. Commission your environmental search as soon as you have identified a development site, ideally before you commit to the purchase. If the search identifies potential issues, commission a Phase 1 assessment before submitting your finance application. This allows you to present the lender with a clear picture of the environmental risk profile alongside a professional assessment of the remediation requirements and costs.",
           "Lenders are not inherently averse to sites with environmental issues. What they require is certainty. A site with identified contamination and a costed remediation plan is a manageable risk that can be priced into the facility. A site where contamination is suspected but unquantified is an unmanageable risk that most lenders will decline. The developer who commissions the right reports and presents the lender with a clear, costed solution will always achieve a better outcome than the developer who hopes that environmental issues will not surface during due diligence.",
           "Finally, ensure that your development appraisal accurately reflects all environmental costs, including search fees, Phase 1 and Phase 2 investigation fees, remediation costs, ongoing monitoring costs, and any additional foundation costs resulting from poor ground conditions. These costs should be itemised separately rather than buried in the contingency, so that the lender can see exactly how environmental risks are being managed and funded. A transparent, well-documented approach to environmental risk demonstrates professionalism and builds confidence with both the lender and the monitoring surveyor who will oversee the project."
+        ,
+          "For developers exploring other funding options, we also arrange <a href=\"/services/development-exit-finance\">development exit finance</a> and <a href=\"/services/mezzanine-finance\">mezzanine finance</a>. You may also find these guides useful: <a href=\"/guides/development-finance-completion-process\">Development Finance Completion Process</a>, <a href=\"/guides/rights-of-way-development-finance\">Rights of Way and Development Finance</a>, <a href=\"/guides/restrictive-covenants-development\">Restrictive Covenants and Development</a>. Development finance legal due diligence involves multiple regulatory bodies and statutory requirements. HM Land Registry registration is mandatory for all property charges. Building Regulations approval must be obtained from either the local authority building control or an approved inspector. The National House Building Council (NHBC) or equivalent warranty provider must be in place for new-build residential units. Section 106 obligations and Community Infrastructure Levy (CIL) payments must be accounted for in the legal structure.",
         ]
       }
     ],
     relatedSlugs: ["legal-due-diligence-development-finance", "planning-permission-development-finance", "how-does-development-finance-work", "building-regulations-development-finance"],
     relatedServices: ["development-finance", "refurbishment-finance"],
-    relatedLocations: ["essex", "kent", "somerset", "devon"]
+    relatedLocations: ["essex", "kent", "somerset", "devon"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "party-wall-agreements-development",
@@ -530,6 +708,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "The Party Wall etc. Act 1996 provides a framework for resolving disputes between neighbours where building work affects a shared wall, boundary, or adjacent property. It applies to three categories of work: building on or at the boundary between two properties, carrying out work to an existing party wall or party structure, and excavating within specified distances of neighbouring buildings. For property developers, the Act is relevant to the vast majority of development projects because most urban and suburban sites have neighbouring properties that could be affected by construction works.",
           "The Act requires the building owner, the developer, to serve formal notice on adjoining owners before commencing work that falls within its scope. The notice must describe the proposed works and specify the intended start date. The adjoining owner then has fourteen days to consent to the works or dissent. If they consent, the works can proceed without further formality. If they dissent, or fail to respond within the fourteen-day period, the Act requires the appointment of party wall surveyors to resolve the dispute and prepare a party wall award detailing the permitted works and any protective measures required.",
           "For <a href=\"/services#development-finance\">development finance</a> lenders, party wall compliance is a pre-drawdown requirement. The lender will not release construction funds until the developer can demonstrate that all necessary party wall notices have been served and that either consent has been obtained or a party wall award has been made. This is because non-compliance with the Party Wall Act can result in an injunction preventing the developer from continuing with the works, a risk that no lender is willing to accept. We have seen projects where failure to serve party wall notices before starting work resulted in a neighbour obtaining a court injunction, halting construction for three months and adding £45,000 in legal costs."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -546,6 +726,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "When an adjoining owner dissents to the party wall notice, the Act requires the appointment of party wall surveyors to resolve the dispute. The building owner appoints their own surveyor, the adjoining owner appoints their surveyor, and the two surveyors jointly appoint a third surveyor to act as an arbiter in case of disagreement. Alternatively, both parties can agree to appoint a single agreed surveyor, which is typically faster and less expensive. The cost of a party wall surveyor ranges from £1,000 to £3,000 per adjoining owner for straightforward cases, but can exceed £10,000 for complex cases involving basement excavations or multiple adjoining owners.",
           "The surveyors prepare a party wall award, which is a legally binding document that sets out the proposed works in detail, records the condition of the adjoining owner's property before work begins through a schedule of condition, specifies any protective measures required such as temporary propping, vibration monitoring, or crack monitoring, and determines who bears the costs of the award. In most cases, the building owner, the developer, bears the reasonable costs of the party wall process, including the fees of the adjoining owner's surveyor.",
           "The timeline for obtaining a party wall award varies significantly. In straightforward cases where the adjoining owner is cooperative, an award can be completed in four to six weeks from the date of the notice. In contentious cases where the adjoining owner is obstructive or has appointed a surveyor who is slow to respond, the process can take three to six months or longer. For developments with multiple adjoining owners, each requiring a separate notice and potentially a separate award, the cumulative timeline can be substantial. We always advise developers to serve party wall notices as early as possible, ideally at the same time as submitting their development finance application, so that the party wall process runs in parallel with the credit and legal due diligence process. A developer who waits until the lender has approved the deal before serving notices can add months to the drawdown timeline."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -575,7 +757,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["legal-due-diligence-development-finance", "rights-of-way-development-finance", "development-finance-completion-process", "jct-contracts-development-finance"],
     relatedServices: ["development-finance", "refurbishment-finance"],
-    relatedLocations: ["greater-london", "surrey", "sussex", "hertfordshire"]
+    relatedLocations: ["greater-london", "surrey", "sussex", "hertfordshire"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "restrictive-covenants-development",
@@ -593,6 +793,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "A restrictive covenant is a legally binding obligation attached to land that restricts how the land can be used or developed. Restrictive covenants are created by deed, typically when a landowner sells part of their land and imposes conditions on the buyer to protect the value or character of the retained land. Once created, a restrictive covenant runs with the land, meaning it binds all future owners, not just the original buyer. For property developers, restrictive covenants can present a fundamental obstacle to development if the covenant prohibits or restricts the type of building work proposed.",
           "Common restrictive covenants affecting development sites include covenants restricting the land to residential use only, prohibiting commercial or industrial use; covenants limiting the number of dwellings that can be built on the land; covenants specifying a maximum building height or minimum setback from boundaries; covenants requiring the approval of building plans by the original landowner or their successors; and covenants prohibiting the demolition of existing buildings. Each of these covenants can directly conflict with the developer's proposals and must be addressed before a <a href=\"/services#development-finance\">development finance</a> lender will complete the facility.",
           "The impact of a restrictive covenant on a development finance application depends on the nature of the covenant and the extent to which it conflicts with the proposed scheme. A covenant restricting the number of dwellings to one on a site where the developer proposes to build twelve apartments is a fundamental issue. A covenant requiring building plans to be approved by a management company, where the management company no longer exists, is a technical issue that can usually be resolved through indemnity insurance. In our experience, approximately 30% of development sites in established residential areas have restrictive covenants that require attention during the finance application process."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -601,6 +803,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Development finance lenders are concerned about restrictive covenants because a covenant that is enforced could prevent the development from being completed, reduce the value of the completed units, or result in the developer being required to demolish completed works. Each of these outcomes would impair the value of the lender's security and potentially prevent the repayment of the loan. The lender's solicitor will identify any restrictive covenants from the title register and report on their potential impact on the proposed development.",
           "The lender's assessment focuses on three key questions. First, does the covenant conflict with the proposed development? If the covenant prohibits building above two storeys and the proposed development is two storeys, there is no conflict. Second, is the covenant enforceable? A covenant that was imposed over a hundred years ago by a landowner who has since sold all their land may not be enforceable because there is no identifiable person with the benefit of the covenant. Third, if the covenant is both conflicting and potentially enforceable, can the risk be adequately mitigated through insurance or legal mechanisms?",
           "The lender's solicitor will typically provide an opinion on enforceability based on the age of the covenant, whether the person with the benefit can be identified, whether the covenant has been previously breached without enforcement, and the nature of the neighbourhood. A pre-war covenant restricting use to single dwelling houses in an area that is now predominantly apartment blocks may be assessed as low risk because the character of the area has fundamentally changed. However, a recent covenant imposed by a housing estate developer who retains neighbouring land is high risk because the person with the benefit is identifiable and has a clear interest in enforcement. We have seen covenant issues add £5,000 to £50,000 in costs depending on the complexity and the solution required."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -634,12 +838,32 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "The first step in managing restrictive covenants is identification. Obtain official copies of the title register from the <a href=\"/guides/land-registry-requirements-development\">Land Registry</a> and review the entries in the property register and charges register carefully. Restrictive covenants are usually set out in a transfer or conveyance that is referred to in the register, and the full text of the covenant may need to be obtained from the Land Registry or from the original deed. Do not rely solely on the summary in the register; always read the full covenant to understand its scope and the identity of the beneficiary.",
           "Once identified, assess whether the covenant conflicts with your proposed development. If there is no conflict, note this in your legal pack and move on. If there is a conflict, instruct your solicitor to advise on enforceability and to obtain quotes for indemnity insurance before taking any other action. Do not approach the beneficiary at this stage, as this will typically prevent insurance being obtained. If insurance is available at a reasonable cost, purchase the policy and provide it to the lender's solicitor as part of the conditions precedent to drawdown.",
           "If insurance is not available or the premium is prohibitive, consider whether consent from the beneficiary or an application to the Upper Tribunal is the appropriate route. Discuss the options with your solicitor and your broker, as the cost and timeline of each option will affect the overall viability and programme of the development. We always recommend addressing restrictive covenant issues as early as possible in the project lifecycle, ideally before exchanging contracts to purchase the site. Including a covenant resolution strategy in your finance application demonstrates thorough preparation and gives the lender confidence that you have identified and are managing this common risk."
+        ,
+          "For developers exploring other funding options, we also arrange <a href=\"/services/development-exit-finance\">development exit finance</a> and <a href=\"/services/mezzanine-finance\">mezzanine finance</a>. You may also find these guides useful: <a href=\"/guides/party-wall-agreements-development\">Party Wall Agreements for Development</a>, <a href=\"/guides/environmental-searches-development\">Environmental Searches for Development</a>, <a href=\"/guides/planning-permission-development-finance\">Planning Permission and Development Finance</a>. Development finance legal due diligence involves multiple regulatory bodies and statutory requirements. HM Land Registry registration is mandatory for all property charges. Building Regulations approval must be obtained from either the local authority building control or an approved inspector. The National House Building Council (NHBC) or equivalent warranty provider must be in place for new-build residential units. Section 106 obligations and Community Infrastructure Levy (CIL) payments must be accounted for in the legal structure.",
         ]
       }
     ],
     relatedSlugs: ["land-registry-requirements-development", "legal-due-diligence-development-finance", "rights-of-way-development-finance", "how-does-development-finance-work"],
     relatedServices: ["development-finance", "bridging-loans"],
-    relatedLocations: ["greater-london", "surrey", "berkshire", "oxfordshire"]
+    relatedLocations: ["greater-london", "surrey", "berkshire", "oxfordshire"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "rights-of-way-development-finance",
@@ -657,6 +881,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "An easement is a legal right that allows the owner of one piece of land, the dominant tenement, to use another piece of land, the servient tenement, for a specific purpose. The most common easements encountered in development finance transactions are rights of way, which allow someone to pass over your land to access their property; rights of drainage, which allow someone to run pipes or drains under your land; rights of light, which protect the amount of natural light received by windows in neighbouring buildings; and rights to lay and maintain services such as water, gas, electricity, and telecommunications cables across your land.",
           "For property developers, easements matter because they can restrict where and how you can build on your site. A right of way across the middle of your development site may prevent you from building on that strip of land, requiring a redesign of the scheme. A right of drainage running beneath your proposed building footprint may require the drain to be diverted at the developer's expense. A right of light benefiting neighbouring windows may limit the height or bulk of your development to avoid obstructing those windows. Each of these constraints affects the developable area, the scheme design, and ultimately the <a href=\"/guides/how-to-calculate-gdv\">gross development value</a> of the completed scheme.",
           "In our experience arranging <a href=\"/services#development-finance\">development finance</a>, easement issues are identified during the legal due diligence process and can cause significant delays if they are not anticipated and managed proactively. A developer who discovers a right of way across their site after the lender has approved the facility, valued the scheme, and instructed solicitors may face a choice between redesigning the scheme at their own cost or negotiating the release of the easement with the beneficiary, either of which takes time and money."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -665,6 +891,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Rights of way are the most frequently encountered easement in development transactions. They can be registered on the title at the Land Registry, or they can be unregistered and claimed by prescription, which means that someone has used the route without permission for at least twenty years. Registered rights of way are relatively straightforward to identify because they appear on the title register and are often shown by a coloured line on the title plan. Prescriptive rights of way are more problematic because they do not appear on the register and may only come to light when a neighbour asserts their right.",
           "A right of way over a development site typically takes one of two forms: a vehicular right of way, which allows access by car or delivery vehicles, and a pedestrian right of way, which allows access on foot. The width and route of the right of way determine the extent of the constraint on the development. A vehicular right of way typically requires a clear width of at least 3.7 metres, plus additional width for turning if the route includes bends or junctions. A pedestrian right of way requires a minimum width of approximately 1 metre. The land subject to the right of way cannot be built upon, fenced off, or otherwise obstructed.",
           "For development finance purposes, the lender's solicitor will identify all rights of way affecting the site and assess their impact on the proposed scheme. If the scheme design accommodates the existing rights of way, no further action may be needed. If the rights of way conflict with the proposed building layout, the developer will need to either redesign the scheme to accommodate the rights, negotiate a diversion or release of the right of way with the beneficiary, or demonstrate to the lender that the right of way can be overridden. Overriding an easement is possible in some circumstances, such as when the easement was created by implication and the route can be reasonably altered, but this is a complex legal area requiring specialist advice. The cost of diverting a right of way can range from £2,000 for a simple pedestrian diversion to £50,000 or more for a vehicular right of way requiring new road construction."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -702,7 +930,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["land-registry-requirements-development", "restrictive-covenants-development", "legal-due-diligence-development-finance", "party-wall-agreements-development"],
     relatedServices: ["development-finance", "bridging-loans"],
-    relatedLocations: ["greater-london", "kent", "surrey", "sussex"]
+    relatedLocations: ["greater-london", "kent", "surrey", "sussex"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "listed-building-consent-development",
@@ -720,6 +966,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Listed building consent is a separate form of permission required for any works to a listed building that would affect its character as a building of special architectural or historic interest. This applies to both internal and external works, making it significantly more restrictive than planning permission, which generally only controls external alterations. In England, there are approximately 400,000 listed buildings, graded I, II*, or II depending on their significance. Grade I buildings are of exceptional interest, Grade II* buildings are particularly important, and Grade II buildings are of special interest. The vast majority, approximately 92%, are Grade II.",
           "For property developers, listed building consent is required whenever the proposed works would alter the character of the building. This includes obvious alterations such as changing windows, adding extensions, or demolishing internal walls, but also less obvious works such as replacing historic plaster, removing original fireplaces, or installing modern building services in a way that affects historic fabric. The test is whether the works affect the building's special interest, and local planning authorities take a broad view of what constitutes special interest.",
           "The relevance to <a href=\"/services#development-finance\">development finance</a> is that listed building consent is a separate legal requirement from planning permission and must be obtained before works commence. A developer who has planning permission for a residential conversion of a listed building but does not have listed building consent cannot lawfully start work. More seriously, carrying out unauthorised works to a listed building is a criminal offence that can result in prosecution, unlimited fines, and a requirement to reverse the unauthorised alterations. Development finance lenders are acutely aware of these risks and will require evidence that listed building consent has been obtained before releasing any funds."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -728,6 +976,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Listed building status affects a development finance application in several important ways. First, the build cost for listed building projects is typically 20-40% higher than for equivalent non-listed schemes because of the requirement to use traditional materials and construction methods, the need for specialist tradespeople such as stonemasons, lime plasterers, and heritage joiners, and the additional time required for careful, conservation-led construction. A residential conversion of a Grade II listed former school that might cost £1,200,000 to convert if it were not listed could cost £1,600,000 to £1,700,000 with heritage constraints factored in.",
           "Second, the construction programme for listed building projects is longer because of the additional care required during construction and the need to comply with conditions attached to the listed building consent. Heritage conditions often require the developer to submit detailed method statements for specific elements of the work, to use named materials or techniques approved by the conservation officer, and to allow the conservation officer access to inspect works at critical stages. These conditions add time and cost to the project, both of which must be reflected in the development appraisal.",
           "Third, the pool of lenders willing to finance listed building projects is smaller than for standard developments. Some lenders exclude listed buildings entirely because of the additional construction risk and the restrictions on the use of the completed building. Others will lend but at lower loan-to-value ratios and higher interest rates to compensate for the additional risk. In our experience, approximately 40-50% of development finance lenders will consider listed building projects, and rates are typically 1-2% higher than for equivalent non-listed schemes. A facility for a Grade II listed conversion might be offered at 9-11% compared to 7.5-9% for a standard <a href=\"/guides/how-does-development-finance-work\">development finance</a> deal."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -766,7 +1016,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["planning-permission-development-finance", "building-regulations-development-finance", "legal-due-diligence-development-finance", "permitted-development-rights-finance"],
     relatedServices: ["development-finance", "refurbishment-finance"],
-    relatedLocations: ["greater-london", "somerset", "west-yorkshire", "warwickshire"]
+    relatedLocations: ["greater-london", "somerset", "west-yorkshire", "warwickshire"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "permitted-development-rights-finance",
@@ -784,6 +1052,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "Permitted development rights, often abbreviated to PD rights, are a national grant of planning permission that allows certain types of development to proceed without the need for a full planning application. For property developers, the most significant PD rights are those that allow the change of use of commercial buildings to residential dwellings. These rights, set out in the Town and Country Planning (General Permitted Development) (England) Order 2015, as amended, have created a significant market for commercial-to-residential conversions, particularly in town centres and business parks where office and retail demand has declined.",
           "The most commonly used PD right for conversions is Class MA, which permits the change of use from Class E commercial, business and service uses to Class C3 residential dwellinghouses. Class E encompasses a wide range of uses including offices, retail, restaurants, light industrial, gyms, and health centres. Class MA replaced the previous Class O office-to-residential right and broadened the scope of PD conversions significantly. In our experience arranging <a href=\"/services#development-finance\">development finance</a> for PD schemes, the volume of transactions has increased substantially since the introduction of Class MA.",
           "It is important to understand that PD rights are not an automatic entitlement. The developer must apply to the local planning authority for prior approval, which is a lighter-touch assessment than a full planning application but still involves scrutiny of specific matters including transport and highways, contamination, flooding, the impact on the character of the area, and adequate natural light in the proposed dwellings. The prior approval process takes fifty-six days from the date the application is received by the local planning authority, and the authority can either grant prior approval, refuse it, or determine that prior approval is not required."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -793,6 +1063,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "There is a size limit of 1,500 square metres of floorspace that can be converted under a single Class MA right. For larger buildings, only 1,500 square metres can be converted under PD, and any additional conversion would require a full planning application. The building must not be in an area excluded from Class MA rights, which includes certain conservation areas, areas of outstanding natural beauty, national parks, and sites of special scientific interest, where the local planning authority has made an Article 4 direction removing PD rights.",
           "Article 4 directions are particularly significant for developers because they remove PD rights in specific areas, requiring a full planning application for any change of use. Numerous London boroughs and other authorities have made Article 4 directions removing Class MA rights in their commercial centres to prevent the loss of employment floorspace. Before acquiring a building for PD conversion, developers must check whether an Article 4 direction applies. A check of the local authority's planning records and a pre-application enquiry will confirm the position. We have seen developers purchase buildings for PD conversion only to discover that an Article 4 direction prevents them from using PD rights, leaving them with a building that requires full planning permission for a residential conversion, a significantly more uncertain and time-consuming process.",
           "Financial contributions are another consideration. Since April 2021, Class MA conversions are liable for <a href=\"/guides/cil-section-106-obligations\">Community Infrastructure Levy</a> where applicable. The CIL charge varies by local authority and can range from £0 in areas without a charging schedule to over £200 per square metre in high-value areas such as parts of Greater London. On a 1,000 square metre conversion, a CIL charge of £150 per square metre represents a cost of £150,000, which must be factored into the development appraisal."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -830,7 +1102,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["planning-permission-development-finance", "building-regulations-development-finance", "cil-section-106-obligations", "how-does-development-finance-work"],
     relatedServices: ["development-finance", "refurbishment-finance", "bridging-loans"],
-    relatedLocations: ["greater-london", "essex", "surrey", "west-midlands"]
+    relatedLocations: ["greater-london", "essex", "surrey", "west-midlands"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "cil-section-106-obligations",
@@ -848,6 +1138,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "The Community Infrastructure Levy and Section 106 obligations are the two principal mechanisms through which local planning authorities require developers to contribute to the infrastructure and services needed to support new development. While they serve similar purposes, they operate in fundamentally different ways. CIL is a fixed charge calculated by reference to the type and size of development, set by the local authority in a published charging schedule. Section 106 obligations are negotiated on a site-specific basis between the developer and the planning authority as a condition of planning permission.",
           "For <a href=\"/services#development-finance\">development finance</a> applications, both CIL and Section 106 obligations represent significant project costs that must be factored into the development appraisal. Failure to account for these costs accurately can result in a scheme that appears profitable on paper but is actually unviable once all planning obligations are included. In our experience, planning levies are one of the most frequently underestimated costs in development appraisals, particularly for developers who are new to a specific local authority area and are unfamiliar with the local charging schedule and Section 106 policy.",
           "The combined cost of CIL and Section 106 obligations varies enormously by location and scheme type. In outer London boroughs, CIL charges for residential development can range from £50 to £250 per square metre, while in central London some boroughs charge over £400 per square metre. Section 106 contributions for affordable housing, transport, education, and health can add a further £10,000 to £100,000 or more per unit. For a twenty-unit residential scheme in a borough with high CIL rates and significant Section 106 requirements, the total planning levy cost can exceed £500,000, which is a material proportion of the total development cost."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -856,6 +1148,8 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "CIL is calculated using a simple formula: the net additional floorspace created by the development, measured in square metres, multiplied by the CIL rate set in the local authority's charging schedule, indexed to account for construction cost inflation since the charging schedule was adopted. The net additional floorspace is the gross internal area of the new development minus any existing floorspace that has been in lawful use for at least six continuous months within the previous three years. This means that if you are demolishing an existing building with 500 square metres of lawful floorspace and replacing it with a building of 1,500 square metres, the CIL charge is calculated on the net additional 1,000 square metres.",
           "The CIL liability becomes due when development commences, which is typically defined as the date on which any material operation is carried out on the site. This can include demolition, site clearance, or the digging of foundations. The developer must submit a CIL commencement notice to the local authority before starting work, confirming who will be liable for the CIL payment and when development will commence. Failure to submit a commencement notice can result in surcharges and the loss of any instalment payment arrangements.",
           "CIL payment terms vary by local authority. Some authorities require full payment within sixty days of commencement. Others offer instalment policies that allow the CIL to be paid in stages over the construction period. A typical instalment policy might require 25% within sixty days of commencement, a further 25% at six months, and the balance at twelve months. For a CIL liability of £200,000 on a development with a twelve-month build programme, an instalment policy can significantly ease the cash flow burden. Development finance lenders will factor the CIL payment schedule into the facility drawdown programme, and in some cases, CIL can be funded from the development finance facility. We always check the local authority's instalment policy when preparing a finance application and model the CIL payments into the cash flow accordingly."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
         ]
       },
       {
@@ -893,7 +1187,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["planning-permission-development-finance", "permitted-development-rights-finance", "how-does-development-finance-work", "development-finance-facility-agreement"],
     relatedServices: ["development-finance", "equity-jv"],
-    relatedLocations: ["greater-london", "surrey", "cambridgeshire", "oxfordshire"]
+    relatedLocations: ["greater-london", "surrey", "cambridgeshire", "oxfordshire"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
   {
     slug: "development-finance-completion-process",
@@ -911,6 +1223,10 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
           "The development finance completion process begins when the lender issues a formal facility offer, also known as a term sheet or heads of terms, and ends when the first drawdown of funds is made. In our experience arranging <a href=\"/services#development-finance\">development finance</a> across the UK, this process typically takes four to eight weeks for straightforward transactions and eight to twelve weeks for more complex deals. Understanding each step of the process, and preparing for it in advance, can significantly reduce the time to first drawdown and get your project started sooner.",
           "The completion process involves multiple parties working in parallel: the borrower's solicitor, the lender's solicitor, the valuer, the monitoring surveyor, and potentially other professionals such as party wall surveyors, environmental consultants, and building control officers. Each party has specific tasks to complete and information to provide, and the overall timeline is determined by the slowest element. A delay in obtaining a valuation, for instance, can hold up the entire process even if all other elements are ready.",
           "We have arranged hundreds of development finance facilities and have refined a process for managing completions efficiently. The key insight is that many of the completion requirements can be anticipated and prepared in advance of the facility offer. By the time the lender issues its offer, the developer should already have a solicitor instructed, a valuation booked or completed, searches ordered, party wall notices served, and a comprehensive legal pack assembled. This parallel processing approach is the single most effective way to accelerate the completion timeline."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Legal Requirement</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Responsible Party</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Timeline</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Title searches &amp; reports</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500</td><td class=\"py-2 px-3 border-b\">2-4 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Environmental searches</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;300-&pound;800</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Land Registry registration</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;100-&pound;1,000+</td><td class=\"py-2 px-3 border-b\">2-6 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Facility agreement review</td><td class=\"py-2 px-3 border-b\">Borrower's solicitor</td><td class=\"py-2 px-3 border-b\">&pound;2,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">1-2 weeks</td></tr><tr><td class=\"py-2 px-3 border-b\">Building Regulations sign-off</td><td class=\"py-2 px-3 border-b\">Approved inspector / LA</td><td class=\"py-2 px-3 border-b\">&pound;1,000-&pound;5,000</td><td class=\"py-2 px-3 border-b\">Ongoing</td></tr></tbody></table>",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Legal due diligence is where many development finance deals either progress smoothly or stall. In our experience, instructing a solicitor with specific development finance expertise &mdash; not just a general conveyancer &mdash; can reduce your legal completion timeline by 2-3 weeks and avoid costly post-completion issues.</p></div>",
         ]
       },
       {
@@ -956,7 +1272,25 @@ const LEGAL_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["legal-due-diligence-development-finance", "development-finance-facility-agreement", "how-does-development-finance-work", "building-regulations-development-finance"],
     relatedServices: ["development-finance", "bridging-loans", "development-exit-finance"],
-    relatedLocations: ["greater-london", "kent", "essex", "greater-manchester"]
+    relatedLocations: ["greater-london", "kent", "essex", "greater-manchester"],
+    faqs: [
+      {
+        question: "Do I need an SPV to get development finance?",
+        answer: "Most development finance lenders require the borrower to be a Special Purpose Vehicle (SPV), typically a limited company set up specifically for the development project. This ring-fences the project's assets and liabilities from the developer's other activities. An SPV also provides cleaner security for the lender and simplifies the legal structure."
+      },
+      {
+        question: "What legal searches are required for development finance?",
+        answer: "Standard searches include: local authority searches, environmental searches (including flood risk and contamination), drainage searches, Land Registry title checks, mining searches (where applicable), and chancel repair liability checks. Your solicitor will also need to review the planning permission, any restrictive covenants, rights of way, and the proposed building contract."
+      },
+      {
+        question: "How long does legal due diligence take for development finance?",
+        answer: "Legal due diligence typically takes 2-4 weeks for a straightforward scheme with clean title and standard planning permission. Complex sites with multiple title issues, restrictive covenants, or unusual planning conditions can take 6-8 weeks or longer. Using a solicitor experienced in development finance can significantly reduce this timeline."
+      },
+      {
+        question: "What is an intercreditor agreement and when is one needed?",
+        answer: "An intercreditor agreement governs the relationship between the senior lender and the mezzanine lender when both are lending on the same development. It defines repayment priorities, enforcement rights, and standstill provisions. An intercreditor agreement is required whenever mezzanine finance sits behind senior debt, and the terms can significantly impact both lenders' positions in a default scenario."
+      }
+    ]
   },
 ];
 

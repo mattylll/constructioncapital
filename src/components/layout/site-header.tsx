@@ -18,6 +18,7 @@ const navLinks = [
   { href: "/locations", label: "Locations" },
   { href: "/case-studies", label: "Case Studies" },
   { href: "/calculators", label: "Calculators" },
+  { href: "/market-reports", label: "Market Reports" },
   { href: "/guides", label: "Guides" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },

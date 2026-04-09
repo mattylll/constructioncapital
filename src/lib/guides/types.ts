@@ -3,6 +3,11 @@ export interface GuideSection {
   content: string[];
 }
 
+export interface GuideFAQ {
+  question: string;
+  answer: string;
+}
+
 export type GuideCategory =
   | "development-finance"
   | "bridging"
@@ -17,7 +22,8 @@ export type GuideCategory =
   | "legal"
   | "application"
   | "structuring"
-  | "market";
+  | "market"
+  | "comparison";
 
 export interface Guide {
   slug: string;
@@ -35,4 +41,6 @@ export interface Guide {
   relatedServices: string[];
   /** County slugs for internal linking */
   relatedLocations: string[];
+  /** Optional FAQ section for the guide */
+  faqs?: GuideFAQ[];
 }

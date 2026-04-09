@@ -10,6 +10,10 @@ import {
   Landmark,
   ChevronRight,
   ArrowRight,
+  PoundSterling,
+  BarChart3,
+  TrendingUp,
+  TrendingDown,
 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -20,7 +24,7 @@ import { JsonLd } from "@/components/ui/json-ld";
 import { SERVICES } from "@/lib/services";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { getCaseStudiesByCounty } from "@/lib/case-studies";
-import { getTownOverview } from "@/lib/location-content";
+import { getTownOverview, getDataDrivenOverview, getTownFaqs } from "@/lib/location-content";
 import { getTownMarketData } from "@/lib/town-market-data";
 import { TownMarketInsights } from "@/components/locations/town-market-insights";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
@@ -32,6 +36,17 @@ import {
   getRelatedTowns as getRealRelatedTowns,
   getCountyBySlug,
 } from "@/lib/uk-locations-data";
+import {
+  getPlanningData,
+  getSoldData,
+  getTownStats,
+} from "@/lib/local-market-data";
+import { getReportByCountySlug, getReportByTownSlug } from "@/lib/market-reports";
+import { MarketSnapshot } from "@/components/locations/market-snapshot";
+import { RecentSoldPrices } from "@/components/locations/recent-sold-prices";
+import { PlanningApplicationsTable } from "@/components/locations/planning-applications-table";
+import { LocalGdvCalculator } from "@/components/locations/local-gdv-calculator";
+import { getGuidesByLocation } from "@/lib/guides";
 
 // ISR configuration
 export const dynamicParams = true;
@@ -46,16 +61,58 @@ const iconMap: Record<string, React.ElementType> = {
   Landmark,
 };
 
-// Helper to convert slug to display name
 function deslugify(slug: string): string {
-  return slug
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (c) => c.toUpperCase());
+  return slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-// Helper to convert name to slug
 function slugify(name: string): string {
   return name.toLowerCase().replace(/\s+/g, "-");
+}
+
+function formatPriceShort(n: number): string {
+  if (n >= 1_000_000) return `£${(n / 1_000_000).toFixed(1)}m`;
+  if (n >= 1000) return `£${Math.round(n / 1000)}k`;
+  return `£${n}`;
+}
+
+function formatPrice(n: number): string {
+  if (n >= 1_000_000) return `£${(n / 1_000_000).toFixed(2)}m`.replace(".00m", "m");
+  return `£${Math.round(n).toLocaleString("en-GB")}`;
+}
+
+// Helper to render text with embedded links
+function renderTextWithLinks(
+  text: string,
+  links: { text: string; href: string }[],
+): React.ReactNode[] {
+  const parts: React.ReactNode[] = [];
+  let remaining = text;
+  let keyIdx = 0;
+
+  for (const link of links) {
+    const idx = remaining.toLowerCase().indexOf(link.text.toLowerCase());
+    if (idx === -1) continue;
+
+    if (idx > 0) {
+      parts.push(remaining.slice(0, idx));
+    }
+    parts.push(
+      <Link
+        key={keyIdx++}
+        href={link.href}
+        className="font-semibold text-gold-dark underline decoration-gold/30 underline-offset-2 transition-colors hover:text-gold hover:decoration-gold/60"
+      >
+        {remaining.slice(idx, idx + link.text.length)}
+      </Link>,
+    );
+    remaining = remaining.slice(idx + link.text.length);
+  }
+
+  if (remaining) {
+    parts.push(remaining);
+  }
+
+  return parts;
 }
 
 interface PageProps {
@@ -68,23 +125,25 @@ const SERVICE_SLUGS: Set<string> = new Set(SERVICES.map((s) => s.slug));
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { county, town } = await params;
 
-  // Prevent service slugs from rendering as town pages (e.g. /locations/greater-london/development-finance)
   if (SERVICE_SLUGS.has(town)) {
     notFound();
   }
 
   const countyName = deslugify(county);
   const townName = deslugify(town);
+  const sold = getSoldData(county, town);
+
+  const desc = sold
+    ? `Development finance in ${townName}, ${countyName}: median price ${formatPrice(sold.stats.medianPrice)}, ${sold.stats.transactionCount12m.toLocaleString("en-GB")} sales, ${sold.stats.yoyChange > 0 ? "+" : ""}${sold.stats.yoyChange}% YoY. Bridging, mezzanine, senior debt from 100+ lenders.`
+    : `Development finance, bridging loans, mezzanine finance and commercial mortgages in ${townName}, ${countyName}. Expert property finance brokers with local knowledge.`;
 
   return {
-    title: `Property Finance in ${townName}, ${countyName}`,
-    description: `Development finance, bridging loans, mezzanine finance and commercial mortgages in ${townName}, ${countyName}. Expert property finance brokers with local knowledge.`,
-    alternates: {
-      canonical: `${SITE_URL}/locations/${county}/${town}`,
-    },
+    title: `${townName} Development Finance — Property Market Data & Lending | ${countyName}`,
+    description: desc,
+    alternates: { canonical: `${SITE_URL}/locations/${county}/${town}` },
     openGraph: {
-      title: `Property Finance in ${townName}, ${countyName} | ${SITE_NAME}`,
-      description: `Development finance, bridging loans, mezzanine finance and commercial mortgages in ${townName}, ${countyName}.`,
+      title: `${townName} Development Finance | ${countyName} | ${SITE_NAME}`,
+      description: desc,
       url: `${SITE_URL}/locations/${county}/${town}`,
       type: "website",
     },
@@ -111,18 +170,50 @@ export default async function TownPage({ params }: PageProps) {
   const townName = townData?.name ?? deslugify(town);
 
   const localCaseStudies = getCaseStudiesByCounty(county);
+  const relatedGuides = getGuidesByLocation(county);
   const townMarketData = getTownMarketData(county, town);
+  const planningData = getPlanningData(county, town);
+  const soldData = getSoldData(county, town);
+  const townStats = getTownStats(county, town);
   const realRelated = getRealRelatedTowns(county, town, 6);
-  const relatedTowns = realRelated.map((t) => ({
-    name: t.name,
-    slug: t.slug,
-    countySlug: county,
-  }));
+  const relatedTowns = realRelated.map((t) => {
+    const relStats = getTownStats(county, t.slug);
+    return {
+      name: t.name,
+      slug: t.slug,
+      countySlug: county,
+      context: t.context,
+      medianPrice: relStats?.marketSnapshot.medianPrice,
+    };
+  });
 
-  // Use town-specific context if available, otherwise fall back to regional content
-  const townOverview = townData?.context
-    ? [townData.context, ...getTownOverview(townName, countyName, county)]
-    : getTownOverview(townName, countyName, county);
+  // Use custom overview from market data, then data-driven, then generic
+  type OverviewParagraph = { text: string; links?: { text: string; href: string }[] };
+  const hasMarketData = soldData?.stats || townStats;
+  const townOverview: OverviewParagraph[] = townMarketData?.overview
+    ? townMarketData.overview.map((text) => ({ text }))
+    : hasMarketData
+      ? getDataDrivenOverview(townName, countyName, county, town, {
+          context: townData?.context,
+          medianPrice: soldData?.stats?.medianPrice ?? townStats?.marketSnapshot.medianPrice,
+          medianByType: soldData?.stats?.medianByType,
+          transactionCount12m: soldData?.stats?.transactionCount12m ?? townStats?.marketSnapshot.transactionCount12m,
+          yoyChange: soldData?.stats?.yoyChange ?? townStats?.marketSnapshot.yoyPriceChange,
+          newBuildCount: soldData?.stats?.newBuildCount,
+        })
+      : (townData?.context
+          ? [townData.context, ...getTownOverview(townName, countyName, county)]
+          : getTownOverview(townName, countyName, county)
+        ).map((text) => ({ text }));
+
+  // Generate town-level FAQs
+  const townFaqs = getTownFaqs(townName, countyName, county, town, {
+    medianPrice: soldData?.stats?.medianPrice ?? townStats?.marketSnapshot.medianPrice,
+    medianByType: soldData?.stats?.medianByType,
+    transactionCount12m: soldData?.stats?.transactionCount12m ?? townStats?.marketSnapshot.transactionCount12m,
+    yoyChange: soldData?.stats?.yoyChange ?? townStats?.marketSnapshot.yoyPriceChange,
+    context: townData?.context,
+  });
 
   const breadcrumbItems = [
     { label: "Home", href: "/" },
@@ -172,11 +263,26 @@ export default async function TownPage({ params }: PageProps) {
     ],
   };
 
+  // FAQ JSON-LD
+  const faqJsonLd = townFaqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: townFaqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  } : null;
+
   return (
     <>
       {/* JSON-LD Structured Data */}
       <JsonLd data={breadcrumbJsonLd} />
       <JsonLd data={localBusinessJsonLd} />
+      {faqJsonLd && <JsonLd data={faqJsonLd} />}
 
       {/* Hero Section */}
       <section className="hero-gradient noise-overlay relative overflow-hidden py-20 text-white sm:py-28">
@@ -227,50 +333,61 @@ export default async function TownPage({ params }: PageProps) {
         />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Breadcrumbs */}
-          <div className="mb-8">
-            <Breadcrumbs items={breadcrumbItems} />
-          </div>
+          <div className="mb-8"><Breadcrumbs items={breadcrumbItems} /></div>
 
-          {/* Gold rule */}
-          <div
-            className="mb-8 h-[2px] w-20"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
+          <div className="flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
+            <div className="max-w-2xl flex-1">
+              <div className="mb-8 h-[2px] w-20" style={{ background: "linear-gradient(90deg, var(--gold), var(--gold-light))" }} />
+              <p className="mb-5 text-xs font-bold uppercase tracking-[0.35em] sm:text-sm" style={{ color: "var(--gold)" }}>
+                {countyName}
+              </p>
 
-          <p
-            className="mb-5 text-xs font-bold uppercase tracking-[0.35em] sm:text-sm"
-            style={{ color: "var(--gold)" }}
-          >
-            {countyName}
-          </p>
+              <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl">
+                <span className="gold-gradient-text italic">{townName}</span>
+                <br />Development Finance
+              </h1>
 
-          <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl">
-            Property Finance
-            <br />
-            in <span className="gold-gradient-text italic">{townName}</span>
-          </h1>
+              <p className="mt-6 text-lg leading-relaxed text-white/60 sm:text-xl">
+                Expert property development finance in {townName}, {countyName}.
+                {soldData ? ` Median price ${formatPrice(soldData.stats.medianPrice)}, ${soldData.stats.transactionCount12m.toLocaleString("en-GB")} annual sales.` : ""}{" "}
+                We connect developers with competitive funding from 100+ lenders.
+              </p>
 
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/60 sm:text-xl">
-            Access the full range of property development finance in {townName},{" "}
-            {countyName}. From senior debt to equity partnerships, we connect
-            you with lenders who understand your local market.
-          </p>
+              <div className="mt-10">
+                <Button asChild size="lg" className="cta-shimmer h-14 bg-gold px-10 text-base font-bold text-navy-dark shadow-lg transition-all duration-300 hover:bg-gold-dark">
+                  <Link href="/deal-room">
+                    Start Your {townName} Deal
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Link>
+                </Button>
+              </div>
+            </div>
 
-          <div className="mt-10">
-            <Button
-              asChild
-              size="lg"
-              className="cta-shimmer h-14 bg-gold px-10 text-base font-bold text-navy-dark shadow-lg transition-all duration-300 hover:bg-gold-dark"
-            >
-              <Link href="/deal-room">
-                Start Your {townName} Deal
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+            {/* Key stats */}
+            {soldData && (
+              <div className="grid w-full grid-cols-2 gap-3 md:w-[280px] md:shrink-0">
+                <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
+                  <PoundSterling className="mb-2 h-4 w-4 text-gold/70" />
+                  <p className="text-2xl font-black tracking-tight" style={{ color: "var(--gold)" }}>{formatPriceShort(soldData.stats.medianPrice)}</p>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/40">Median Price</p>
+                </div>
+                <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
+                  <BarChart3 className="mb-2 h-4 w-4 text-gold/70" />
+                  <p className="text-2xl font-black tracking-tight" style={{ color: "var(--gold)" }}>{soldData.stats.transactionCount12m.toLocaleString("en-GB")}</p>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/40">Sales (12m)</p>
+                </div>
+                <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
+                  {soldData.stats.yoyChange >= 0 ? <TrendingUp className="mb-2 h-4 w-4 text-green-400/70" /> : <TrendingDown className="mb-2 h-4 w-4 text-red-400/70" />}
+                  <p className={`text-2xl font-black tracking-tight ${soldData.stats.yoyChange >= 0 ? "text-green-400" : "text-red-400"}`}>{soldData.stats.yoyChange > 0 ? "+" : ""}{soldData.stats.yoyChange}%</p>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/40">YoY Change</p>
+                </div>
+                <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
+                  <Building2 className="mb-2 h-4 w-4 text-gold/70" />
+                  <p className="text-2xl font-black tracking-tight" style={{ color: "var(--gold)" }}>{soldData.stats.newBuildCount}</p>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/40">New Builds</p>
+                </div>
+              </div>
+            )}
           </div>
         </div>
 
@@ -292,7 +409,7 @@ export default async function TownPage({ params }: PageProps) {
         locationName={`${townName}, ${countyName}`}
       />
 
-      {/* Town Overview */}
+      {/* Town Overview — finance-focused narrative */}
       <section className="bg-background py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
@@ -304,27 +421,51 @@ export default async function TownPage({ params }: PageProps) {
               }}
             />
             <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
-              Development Finance in {townName}
+              Property Finance in {townName}
             </h2>
             <div className="prose prose-lg max-w-none text-muted-foreground">
               {townOverview.map((paragraph, i) => (
-                <p key={i}>{paragraph}</p>
+                <p key={i}>
+                  {paragraph.links
+                    ? renderTextWithLinks(paragraph.text, paragraph.links)
+                    : paragraph.text}
+                </p>
               ))}
             </div>
+
+            {/* Links to market reports */}
+            {(() => {
+              const townReport = getReportByTownSlug(county, town);
+              const countyReport = getReportByCountySlug(county);
+              return (
+                <div className="mt-6 flex flex-col gap-2">
+                  {townReport && (
+                    <Link
+                      href={`/market-reports/${townReport.slug}`}
+                      className="inline-flex items-center gap-2 text-sm font-semibold text-gold-dark hover:text-gold"
+                    >
+                      {townName} Property Market Report
+                      <ArrowRight className="h-4 w-4" />
+                    </Link>
+                  )}
+                  {countyReport && (
+                    <Link
+                      href={`/market-reports/${countyReport.slug}`}
+                      className="inline-flex items-center gap-2 text-sm font-semibold text-gold-dark hover:text-gold"
+                    >
+                      {countyName} County Market Report
+                      <ArrowRight className="h-4 w-4" />
+                    </Link>
+                  )}
+                </div>
+              );
+            })()}
           </div>
         </div>
       </section>
 
-      {/* Location Map */}
-      <LocationMap locationName={townName} countyName={countyName} />
-
-      {/* Town Market Insights — unique per town */}
-      {townMarketData && (
-        <TownMarketInsights data={townMarketData} townName={townName} />
-      )}
-
-      {/* Services Grid */}
-      <section className={townMarketData ? "bg-background py-16 sm:py-20" : "bg-muted/30 py-16 sm:py-20"}>
+      {/* Services Grid — core offering, positioned high for user intent */}
+      <section className="bg-muted/30 py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
             <div
@@ -428,8 +569,139 @@ export default async function TownPage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* Live Market Snapshot — data supports the finance narrative */}
+      {townStats && (
+        <MarketSnapshot stats={townStats.marketSnapshot} townName={townName} />
+      )}
+
+      {/* Local GDV Calculator — engagement tool near market data */}
+      {townStats && (
+        <LocalGdvCalculator
+          defaultGdv={
+            soldData?.stats?.medianByType?.["S"]
+              ? soldData.stats.medianByType["S"] * 6
+              : townStats.marketSnapshot.medianPrice * 4
+          }
+          defaultLandCost={
+            soldData?.stats?.medianByType?.["S"]
+              ? Math.round(soldData.stats.medianByType["S"] * 1.5)
+              : Math.round(townStats.marketSnapshot.medianPrice * 1.2)
+          }
+          townName={townName}
+        />
+      )}
+
+      {/* Town Market Insights — editorial content, unique per town */}
+      {townMarketData && (
+        <TownMarketInsights data={townMarketData} townName={townName} />
+      )}
+
+      {/* Recent Sold Prices — from Land Registry data */}
+      {soldData && (
+        <RecentSoldPrices
+          transactions={soldData.recentTransactions}
+          stats={soldData.stats}
+          townName={townName}
+        />
+      )}
+
+      {/* Planning Applications — approved + pending */}
+      {planningData && (
+        <PlanningApplicationsTable
+          approved={planningData.approvedApplications}
+          pending={planningData.pendingApplications}
+          summary={planningData.summary}
+          townName={townName}
+        />
+      )}
+
+      {/* FAQs — data-driven, unique per town */}
+      {townFaqs.length > 0 && (
+        <section className="bg-muted/30 py-16 sm:py-20">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-3xl">
+              <div
+                className="mb-5 h-[2px] w-14"
+                style={{
+                  background:
+                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
+                }}
+              />
+              <p
+                className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
+                style={{ color: "var(--gold-dark)" }}
+              >
+                Common Questions
+              </p>
+              <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
+                Property Finance in {townName} — FAQs
+              </h2>
+
+              <div className="space-y-4">
+                {townFaqs.map((faq, i) => (
+                  <details
+                    key={i}
+                    className="group rounded-xl border border-border bg-card/70 transition-colors open:bg-card"
+                  >
+                    <summary className="flex cursor-pointer items-center justify-between p-5 text-base font-semibold leading-snug [&::-webkit-details-marker]:hidden">
+                      {faq.question}
+                      <ChevronRight className="ml-3 h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200 group-open:rotate-90" />
+                    </summary>
+                    <div className="px-5 pb-5 text-sm leading-relaxed text-muted-foreground">
+                      {faq.answer}
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Related Guides */}
+      {relatedGuides.length > 0 && (
+        <section className="bg-background py-12 sm:py-16">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="mb-8">
+              <div className="mb-5 h-[2px] w-14" style={{ background: "linear-gradient(90deg, var(--gold), var(--gold-light))" }} />
+              <p className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm" style={{ color: "var(--gold-dark)" }}>
+                Expert Guides
+              </p>
+              <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+                Development Finance Guides
+              </h2>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-2">
+              {relatedGuides.map((guide) => (
+                <Link
+                  key={guide.slug}
+                  href={`/guides/${guide.slug}`}
+                  className="group flex items-center justify-between rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30"
+                >
+                  <div>
+                    <h3 className="mb-1 font-bold text-foreground group-hover:text-gold-dark transition-colors">
+                      {guide.title}
+                    </h3>
+                    <span className="text-xs text-muted-foreground">{guide.readingTime} read</span>
+                  </div>
+                  <ChevronRight className="h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200 group-hover:translate-x-1 group-hover:text-gold" />
+                </Link>
+              ))}
+            </div>
+            <div className="mt-4">
+              <Link href="/guides" className="text-sm font-medium text-gold-dark hover:underline">
+                View all guides →
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Local Case Studies */}
       <LocalCaseStudies caseStudies={localCaseStudies} locationName={countyName} />
+
+      {/* Location Map — reference section near bottom */}
+      <LocationMap locationName={townName} countyName={countyName} />
 
       {/* Related Towns */}
       <RelatedTowns towns={relatedTowns} currentTown={townName} />

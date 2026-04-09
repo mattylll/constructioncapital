@@ -4,3 +4,7 @@ export { ServiceCard } from "./service-card";
 export { LocationCTA } from "./location-cta";
 export { RelatedTowns } from "./related-towns";
 export { RelatedServices } from "./related-services";
+export { MarketSnapshot } from "./market-snapshot";
+export { RecentSoldPrices } from "./recent-sold-prices";
+export { PlanningApplicationsTable } from "./planning-applications-table";
+export { LocalGdvCalculator } from "./local-gdv-calculator";

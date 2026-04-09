@@ -47,3 +47,8 @@ next-env.d.ts
 # Google service account credentials
 gsc-credentials.json
 gsc-oauth-credentials.json
+
+# Local data pipeline (large files)
+/data/sqlite/
+/data/land-registry/
+/data/planning-exports/*.html

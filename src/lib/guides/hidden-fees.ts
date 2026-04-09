@@ -19,6 +19,10 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "An arrangement fee is the upfront charge a lender levies for setting up your <a href=\"/services#development-finance\">development finance</a> facility. On the surface it seems simple: lenders typically quote between 1% and 2% of the total facility. For a £2,000,000 loan that translates to £20,000 to £40,000 before you have even broken ground. However, the headline percentage rarely tells the full story. In our experience arranging hundreds of facilities each year, we have seen significant variations in how lenders calculate, disclose, and collect arrangement fees. Some lenders charge the fee on the gross facility amount, while others calculate it on the net day-one advance. That single distinction can create a difference of several thousand pounds on a typical scheme.",
           "The arrangement fee is distinct from other charges such as <a href=\"/guides/broker-fees-development-finance\">broker fees</a>, valuation fees, and legal costs, although borrowers sometimes conflate them. Understanding exactly what is included in your arrangement fee, and what is excluded, is the first step toward controlling your total cost of finance. We always recommend requesting a fully itemised term sheet before signing heads of terms, because lenders who bundle charges into a single line item often have the most expensive facilities once you break down the numbers.",
           "It is also worth noting that arrangement fees in development finance are generally non-refundable once the facility has been documented, even if you choose not to draw down the loan. This makes it critical to be confident in your scheme before committing. A £30,000 arrangement fee that you cannot recover is a significant cost, particularly on smaller schemes where margins are already tight.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -70,6 +74,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "bridging-loans", "mezzanine-finance"],
     relatedLocations: ["greater-london", "surrey", "kent", "hampshire"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 2. Monitoring Surveyor Fees ───
@@ -89,6 +111,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "A monitoring surveyor is an independent, RICS-qualified professional appointed by the lender to oversee the physical progress of your construction project. Their role is to verify that the works are being carried out in accordance with the approved plans and specifications, that the build quality meets acceptable standards, and that costs are in line with the approved budget. The monitoring surveyor acts as the lender's eyes and ears on site, providing the assurance required before each tranche of <a href=\"/services#development-finance\">development finance</a> is released.",
           "Every development finance lender in the UK requires a monitoring surveyor, and the cost falls entirely on the borrower. This is not optional, nor is it negotiable in principle, although the frequency of visits and the firm appointed can sometimes be influenced. The monitoring surveyor is distinct from your own project manager or quantity surveyor. They serve the lender's interests, and their reports determine when, and how much, of your facility is drawn down.",
           "In our experience, many first-time developers significantly underestimate the total cost of monitoring surveyor fees over the life of a project. A scheme that requires ten site visits at £850 per visit will generate £8,500 in monitoring costs alone, and that figure can climb rapidly if additional visits are required due to delays, changes in specification, or concerns raised during routine inspections. We always advise developers to treat monitoring costs as a material line item in the development appraisal rather than a minor incidental expense.",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -97,6 +121,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Monitoring surveyor fees in the UK generally fall into two structures: a fixed fee per visit or a fee based on a percentage of the total build cost. The per-visit model is the most common. Fees typically range from £500 to £1,500 per inspection, depending on the size and complexity of the scheme. A straightforward residential development of four to six units might attract fees at the lower end, around £600 to £800 per visit. A larger or more complex scheme, such as a 30-unit apartment block or a mixed-use development, will command fees of £1,000 to £1,500 or more.",
           "The percentage-based model is less common but is used by some lenders, particularly on larger schemes. Under this structure, the monitoring surveyor charges a fee equivalent to 1% to 1.5% of the total build cost for the entirety of their engagement. On a scheme with build costs of £1,200,000, that equates to £12,000 to £18,000. Whether this is more or less expensive than the per-visit model depends on the number of inspections required. For a project requiring 12 visits at £1,000 each, the per-visit cost of £12,000 would be comparable to the lower end of the percentage model.",
           "Some monitoring surveyors also charge a setup fee, sometimes called a desk-top review fee, for their initial assessment of the project documentation before the first site visit. This typically ranges from £750 to £2,000 and covers their review of the planning documents, <a href=\"/guides/quantity-surveyor-costs-development\">quantity surveyor cost plan</a>, contractor details, and build programme. This setup fee is often overlooked when developers are comparing finance offers, but it adds to the total monitoring cost.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
         ],
       },
       {
@@ -140,6 +166,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "refurbishment-finance"],
     relatedLocations: ["greater-london", "greater-manchester", "essex", "devon"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 3. Exit Fees on Development Loans ───
@@ -159,6 +203,10 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "An exit fee, sometimes called a redemption fee or discharge fee, is a charge levied by the lender when you repay your <a href=\"/services#development-finance\">development finance</a> facility in full. It is typically expressed as a percentage of the total loan amount, ranging from 0.5% to 1.5%, or occasionally as a flat fee. On a £2,500,000 facility, a 1% exit fee amounts to £25,000, which is a significant sum that comes directly off your bottom line at the point when you are realising your profit.",
           "Exit fees apply at the point of redemption, which in development finance usually coincides with the sale of completed units or a refinance onto a long-term facility such as a <a href=\"/services#commercial-mortgages\">commercial mortgage</a>. The timing is important because the exit fee is typically calculated on the original gross facility amount, not the outstanding balance at the point of redemption. If you have repaid part of the loan through unit sales, you may still owe the exit fee on the full original facility, which can feel punitive.",
           "Not all lenders charge exit fees, and this is one of the most important distinctions when comparing term sheets. In our experience, approximately 40% of development finance lenders include an exit fee, while the remaining 60% do not. However, lenders who do not charge an exit fee often compensate with a higher arrangement fee or interest rate, so you need to evaluate the total cost of finance rather than focusing on any single line item. The interplay between these different charges is precisely why working with a specialist broker who can model all costs simultaneously is so valuable for developers across the UK.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -210,6 +258,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "development-exit-finance"],
     relatedLocations: ["greater-london", "surrey", "essex", "west-midlands"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 4. Legal Fees in Property Development Finance ───
@@ -229,6 +295,10 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "One of the most surprising aspects of <a href=\"/services#development-finance\">development finance</a> for many borrowers is that you are responsible for paying not only your own solicitor but also the lender's solicitor. This dual legal cost structure is standard across the UK development finance market and applies to virtually every facility, from small refurbishment loans to large-scale residential developments. The rationale is that the lender requires independent legal representation to protect their position, and the cost of that representation is passed to the borrower as a condition of the facility.",
           "Your own solicitor handles the property transaction elements: reviewing the purchase contract if you are acquiring a site, conducting title searches, arranging for the transfer of title, and ensuring that all planning conditions and other requirements are met. The lender's solicitor handles the finance side: drafting and reviewing the facility agreement, creating the legal charge over the property, ensuring the lender's security is properly constituted, and dealing with the conditions precedent that must be satisfied before the first drawdown.",
           "In total, legal fees for a development finance facility typically range from £8,000 to £25,000 for both sides combined, depending on the complexity of the transaction and the value of the facility. On a straightforward residential development with clean title and a single borrowing entity, costs tend to sit at the lower end. Complex transactions involving multiple sites, corporate structures, or title issues can push costs significantly higher. These sums represent a material charge that should be included in every development appraisal from the earliest stage.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -281,6 +351,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "bridging-loans", "refurbishment-finance"],
     relatedLocations: ["greater-london", "kent", "west-midlands", "surrey"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 5. Broker Fees in Development Finance ───
@@ -300,6 +388,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "A development finance broker acts as the intermediary between you and the lender, sourcing the most appropriate facility for your project from across the market. Unlike a standard mortgage broker who selects from a panel of mainstream lenders, a development finance broker works with a diverse range of specialist providers including banks, challenger banks, bridging lenders, private credit funds, and family offices. The value a good broker provides is access to products and pricing that you cannot obtain by approaching lenders directly, combined with expertise in structuring deals to maximise the terms available.",
           "In practical terms, the broker's work includes: preparing a comprehensive funding application that presents your project in the best possible light, distributing it to appropriate lenders, negotiating terms on your behalf, managing the due diligence process, coordinating with solicitors and valuers, and troubleshooting issues that arise between application and drawdown. A typical <a href=\"/services#development-finance\">development finance</a> transaction involves 40 to 80 hours of broker time from initial enquiry to completion, depending on complexity.",
           "The broker's role becomes particularly valuable on complex transactions where structuring makes a material difference to the outcome. For example, a scheme that requires <a href=\"/services#mezzanine-finance\">mezzanine finance</a> layered on top of senior debt needs a broker who understands how to present the project to both lenders simultaneously, ensure the intercreditor arrangements work, and negotiate terms that are compatible across both facilities. Without this expertise, borrowers can end up with misaligned facilities that create practical problems during the build and at exit.",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -308,6 +398,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Development finance broker fees in the UK are typically structured as a percentage of the total facility arranged, ranging from 0.5% to 2% depending on the broker, the complexity of the deal, and the size of the facility. The most common fee is 1%, which is the standard rate charged by the majority of reputable brokers in the market. On a £2,000,000 facility, a 1% broker fee equates to £20,000.",
           "Some brokers charge a tiered fee that reduces as the facility size increases. For example, 1.5% on the first £1,000,000 and 1% on amounts above that. On a £3,000,000 facility, this would equate to £35,000 (£15,000 plus £20,000). Other brokers charge a flat fee, particularly on smaller transactions where a percentage-based fee would not adequately compensate them for their time. A minimum fee of £5,000 to £7,500 is common among quality brokers.",
           "The fee may be payable on commitment (when the facility agreement is signed), on first drawdown (when funds are first advanced), or on completion (when the final drawdown occurs). Completion-based fees align the broker's interests with yours because the broker only gets paid when you have successfully drawn the facility. We believe this is the fairest structure and it is how we operate. Brokers who demand full payment at commitment or, worse, at the term sheet stage should be approached with caution, because they have less incentive to support you through to completion.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
         ],
       },
       {
@@ -351,6 +443,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "mezzanine-finance", "bridging-loans"],
     relatedLocations: ["greater-london", "greater-manchester", "west-midlands", "kent"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 6. Valuation Fees for Development Projects ───
@@ -370,6 +480,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Every <a href=\"/services#development-finance\">development finance</a> lender in the UK requires an independent RICS Red Book valuation before they will advance funds. The Red Book, formally known as the RICS Valuation Global Standards, sets out the professional framework under which chartered surveyors must operate when providing valuations for lending purposes. A Red Book valuation provides the lender with three critical figures: the current market value of the site as-is, the estimated gross development value of the completed scheme, and a residual site value that confirms whether the proposed purchase price is reasonable.",
           "The valuation is commissioned by the lender but paid for by the borrower, and the valuer is selected from the lender's approved panel. This means you have limited control over which firm conducts the valuation and what they charge, although your broker can sometimes influence the choice. The valuation report typically runs to 30 to 50 pages and includes a detailed analysis of the site, the local market, comparable evidence for both the existing and proposed use, and the valuer's assessment of the development appraisal you have submitted.",
           "It is important to understand that the RICS Red Book valuation is not the same as an estate agent's appraisal or an online property valuation. It is a formal, regulated document that the valuer is professionally liable for. If the valuation proves to be materially inaccurate, the valuer can be held accountable by both the lender and the borrower. This professional liability is one reason why Red Book valuations are significantly more expensive than informal appraisals, and it is also why lenders rely on them so heavily.",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -378,6 +490,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Valuation fees for development projects are determined by the complexity and value of the scheme, not by a simple percentage. For a straightforward residential development of three to six units with a GDV below £2,000,000, expect to pay between £3,000 and £5,000 plus VAT for a full Red Book valuation. For medium-sized schemes with a GDV of £2,000,000 to £10,000,000, fees typically range from £5,000 to £10,000 plus VAT. Large or complex developments with a GDV above £10,000,000 can attract valuation fees of £10,000 to £20,000 or more.",
           "These figures cover the initial pre-lending valuation. However, the lender may require additional valuations during the course of the project. A re-inspection valuation at practical completion is common, particularly if the lender requires confirmation of the completed value before releasing retained funds. Re-inspection fees are typically 40% to 60% of the original valuation fee, so a £5,000 initial valuation might generate a further £2,500 to £3,000 re-inspection cost. On longer projects, the lender may also require an interim re-valuation if market conditions change significantly during the build period. We have seen schemes where two or even three re-valuations were required, adding £8,000 to £12,000 to the total professional fees on a single project.",
           "Some lenders also require a separate reinstatement cost assessment for insurance purposes, which the valuer may provide as an add-on to the main report for an additional £500 to £1,000. While this is a relatively modest cost, it adds to the total expenditure on professional fees that the borrower must fund. We always recommend asking the valuer to provide a comprehensive fee quote that covers all elements of their instruction, including any re-inspections, so you can budget accurately from the outset.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
         ],
       },
       {
@@ -421,6 +535,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "bridging-loans", "refurbishment-finance"],
     relatedLocations: ["greater-london", "devon", "norfolk", "essex"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 7. Non-Utilisation Fees ───
@@ -440,6 +572,10 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "A non-utilisation fee is a charge levied by the lender on the portion of your <a href=\"/services#development-finance\">development finance</a> facility that has been committed but not yet drawn down. In development finance, the full facility is agreed at the outset but funds are released in stages as construction progresses. The undrawn portion of the facility represents committed capital that the lender must reserve, and some lenders charge a fee for holding this capital available. The fee is typically expressed as a percentage per annum of the undrawn balance, ranging from 0.5% to 2%.",
           "To illustrate: if your total facility is £3,000,000 and you have drawn £1,000,000, the undrawn balance is £2,000,000. At a non-utilisation rate of 1% per annum, you would be charged £20,000 per year on the undrawn amount, or approximately £1,667 per month. As you draw down more of the facility, the undrawn balance decreases and so does the non-utilisation charge. However, in the early stages of a project when you have only drawn the land element and the bulk of the construction facility remains undrawn, the non-utilisation fee can be a material cost.",
           "Non-utilisation fees are one of the less well-known charges in development finance, and many developers are surprised to discover them in the facility documentation. They are more common among bank lenders and institutional funds than among specialist development finance providers, but they do appear across the market. In our experience arranging facilities across the UK, approximately 25% to 30% of lenders include a non-utilisation fee in their standard terms, although it can often be negotiated or removed entirely.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -491,6 +627,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance"],
     relatedLocations: ["greater-london", "hertfordshire", "surrey", "buckinghamshire"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 8. Extension Fees on Development Loans ───
@@ -510,6 +664,10 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Extension fees are charges levied by the lender when you need to extend your <a href=\"/services#development-finance\">development finance</a> facility beyond its original term. Development finance facilities are typically granted for a fixed period, usually 12 to 24 months, aligned to your projected build programme plus a sales or refinance period. If your project is not completed and the loan not repaid by the maturity date, you will need to request an extension. The fee for this extension is typically 1% to 2% of the outstanding loan balance, payable upfront for each extension period granted.",
           "Extension fees apply in addition to the ongoing interest charges, which themselves may increase during the extension period. Some lenders maintain the original interest rate during extensions, while others apply a higher rate, sometimes called a default rate or penalty rate, which can be 2% to 5% above the original rate. The combination of extension fees and increased interest creates a significant financial penalty for overrunning, which is precisely the lender's intention: they want their capital returned on time.",
           "In our experience, approximately 30% to 40% of development finance facilities require at least one extension. Construction projects are inherently susceptible to delays from weather, supply chain issues, planning complications, subcontractor availability, and dozens of other factors. This means extension fees are not an edge case but a common cost that developers should plan for. Yet in our review of development appraisals submitted to us, fewer than 20% include any provision for extension costs, which is a significant oversight.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -561,6 +719,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "development-exit-finance"],
     relatedLocations: ["greater-london", "surrey", "lancashire", "west-yorkshire"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 9. Default Interest Rates Explained ───
@@ -580,6 +756,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Default interest is an enhanced rate of interest that the lender is entitled to charge when the borrower is in breach of the facility agreement. The default rate is specified in the loan documentation and is typically expressed as the standard interest rate plus a margin of 3% to 8% per annum. If your standard rate is 8% and the default margin is 5%, the default rate is 13% per annum. This represents a dramatic increase in borrowing costs that can quickly erode your project's profit margin.",
           "Default interest is triggered by an event of default, which is defined in the facility agreement. The most common trigger is failure to repay the loan on the maturity date, but events of default can also include: breach of a loan covenant (such as a loan-to-value ratio breach), failure to maintain required insurance, failure to provide information requested by the lender, material adverse change in the borrower's financial position, and failure to comply with planning conditions. The breadth of these triggers means that default interest can apply in circumstances that the borrower did not anticipate.",
           "It is critical to understand that default interest is not just a theoretical risk. In our experience, approximately 10% to 15% of <a href=\"/services#development-finance\">development finance</a> facilities enter some form of default during their term, whether due to programme overruns, covenant breaches, or administrative failings. The financial consequences can be severe, which is why understanding the default provisions in your facility agreement is essential before you commit.",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -588,6 +766,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Default interest is calculated on the full outstanding balance of the facility from the date the event of default occurs until the date it is remedied or the loan is repaid. The calculation is straightforward but the impact is substantial. On a facility of £2,500,000 with £2,000,000 outstanding, a default rate of 13% per annum equates to £260,000 per year or approximately £21,667 per month. Compare this to the standard rate of, say, 8%, which would generate £160,000 per year or £13,333 per month. The additional cost of default is £8,333 per month, or approximately £100,000 per year.",
           "Some lenders apply default interest retrospectively, meaning it is calculated from the original drawdown date rather than the date the default occurred. This is particularly punitive because it can generate tens of thousands of pounds in additional interest charges overnight. We have seen retrospective default interest clauses add £30,000 to £50,000 to a borrower's liabilities on facilities where the default occurred near the end of the term. Always check whether the default interest clause in your facility agreement is prospective (from the date of default) or retrospective (from drawdown), and factor this into your risk assessment.",
           "Default interest is typically compounded, meaning that interest accrues on the unpaid default interest itself. On a facility in default for several months, the compounding effect can be significant. A £2,000,000 balance at a 13% default rate, compounded monthly, generates approximately £22,000 in the first month, but by month six the monthly charge has grown because interest is accruing on the accumulated default interest. Over six months of default, the total additional interest charge could be £135,000 to £140,000 rather than the £120,000 you might expect from a simple interest calculation.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
         ],
       },
       {
@@ -631,6 +811,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "bridging-loans"],
     relatedLocations: ["greater-london", "west-midlands", "greater-manchester", "essex"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 10. Insurance Requirements in Development Finance ───
@@ -650,6 +848,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Insurance is not optional in <a href=\"/services#development-finance\">development finance</a>. Every lender requires the borrower to maintain comprehensive insurance cover throughout the facility term, and the lender's interest must be noted on each policy. The rationale is simple: the lender is advancing significant sums against a construction project, and if something goes wrong, whether fire, flood, structural collapse, or third-party injury, the insurance cover protects both the lender's security and the borrower's ability to complete the scheme. Failure to maintain the required insurance is typically an event of default, which can trigger <a href=\"/guides/default-interest-rates-explained\">default interest</a> and other penalties.",
           "The insurance requirements are usually detailed in a schedule to the facility agreement, and the lender's solicitor will verify that all required policies are in place before the first drawdown. This verification process can itself cause delays if the borrower has not arranged insurance in advance. We recommend engaging with a specialist construction insurance broker at the same time as your finance application so that the insurance evidence is ready when the legal team needs it.",
           "The total cost of insurance for a development project typically ranges from £5,000 to £25,000 depending on the size and nature of the scheme, the location, and the level of cover required. These are genuine costs that must be factored into your development appraisal, and they are in addition to any insurance the contractor carries under their own policies. The borrower and the contractor both need insurance, and understanding the interaction between the two is essential for avoiding gaps in cover or paying for duplicate policies.",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -690,6 +890,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "The key to optimising insurance costs is to use a specialist construction insurance broker rather than a generalist. Specialist brokers have access to construction-specific underwriters who understand the risks and can price policies competitively. A generalist broker may place your cover with a standard commercial insurer who does not fully understand construction risk, resulting in higher premiums, restrictive terms, or inadequate cover.",
           "Consider a composite policy that bundles contract works, public liability, employer's liability, and other required covers into a single package. Composite policies are typically 15% to 25% cheaper than purchasing each policy separately, and they simplify the administration because you have one policy document, one renewal date, and one point of contact. Most specialist construction insurance brokers can arrange composite policies tailored to development projects.",
           "Review the interaction between your insurance and the contractor's insurance to avoid paying for duplicate cover. If the contractor carries contract works insurance that covers the full value of the works, you may not need a separate policy, although you will need to verify that the contractor's policy meets the lender's requirements and includes the lender's interest. If the contractor's policy is inadequate, you will need to arrange supplementary cover to fill the gaps. A thorough review of the insurance position before drawdown can save £2,000 to £5,000 in unnecessary premiums. For further guidance on the full cost of insurance in the context of your overall finance package, see our comprehensive guide on the <a href=\"/guides/true-cost-development-finance\">true cost of development finance</a>.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
         ],
       },
     ],
@@ -701,6 +903,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "refurbishment-finance"],
     relatedLocations: ["greater-london", "kent", "sussex", "hampshire"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 11. Title Indemnity Insurance Costs ───
@@ -720,6 +940,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Title indemnity insurance is a specialist policy that protects the insured party against financial loss arising from a defect in the legal title to a property. In the context of <a href=\"/services#development-finance\">development finance</a>, the lender requires their security, which is a legal charge over the property, to be registered against a clean title. If the title has a defect that cannot be resolved before drawdown, the lender will typically require title indemnity insurance to cover the risk of that defect causing a financial loss. The policy protects both the lender and the borrower, and the premium is always paid by the borrower.",
           "Title defects come in many forms. The most common include missing or lost title deeds, unregistered interests or rights over the land, restrictive covenants that may affect the proposed development, lack of evidence of rights of access, unclear boundary demarcations, and breach of building regulations on previous works. Each of these issues creates uncertainty about the enforceability of the lender's security, and the title indemnity policy provides financial protection in the event that the defect results in a claim.",
           "Title indemnity insurance is a single-premium, perpetual policy, meaning you pay once and the cover remains in place indefinitely. The premium is based on the level of cover required, which is typically the value of the property or the loan amount, whichever is greater. Premiums range from a few hundred pounds for straightforward defects to £10,000 or more for complex title issues on high-value sites. In our experience, approximately 25% to 30% of development finance transactions require at least one title indemnity policy, making it a common additional cost that developers should anticipate.",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -760,6 +982,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Given that approximately one in four development finance transactions requires title indemnity insurance, we recommend including a contingency of £2,000 to £5,000 in every development appraisal to cover potential title insurance costs. This allowance may not be needed on every project, but when it is needed, having it budgeted avoids a last-minute squeeze on your cost plan.",
           "For sites with known title complications, obtain indicative insurance quotes before finalising your purchase price. If the title indemnity premium is £8,000, this should be factored into your offer for the land. Many developers overlook this negotiation opportunity: the seller's defective title is the reason the insurance is needed, and the cost should logically be reflected in the price. In practice, not all sellers will accept a price reduction for title defects, particularly in competitive markets, but the argument is commercially sound.",
           "If you are developing across multiple sites with similar title characteristics, it may be possible to arrange portfolio title indemnity cover at a discounted rate. Some specialist insurers offer block policies for developers who regularly encounter the same types of defect across multiple acquisitions. This is particularly relevant for developers focused on Victorian terrace conversions in <a href=\"/services#development-finance\">Greater London</a> or inter-war housing in the <a href=\"/services#development-finance\">West Midlands</a>, where similar restrictive covenants appear on many properties. Speak to your solicitor or contact us through our <a href=\"/deal-room\">deal room</a> to explore whether portfolio pricing is available for your acquisition programme.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
         ],
       },
     ],
@@ -771,6 +995,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "bridging-loans", "refurbishment-finance"],
     relatedLocations: ["greater-london", "surrey", "kent", "berkshire"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 12. Building Control Fees and Development Finance ───
@@ -790,6 +1032,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Every <a href=\"/services#development-finance\">development finance</a> lender requires confirmation that the proposed works will comply with the Building Regulations 2010 (as amended) and that an appropriate building control body has been appointed to inspect the works during construction. This requirement protects the lender's security by ensuring that the completed development meets the statutory minimum standards for structural integrity, fire safety, energy efficiency, and accessibility. A building that does not have building regulations approval is difficult to sell, mortgage, or insure, which would undermine the lender's exit strategy.",
           "Building control compliance involves two key stages: the initial application or notice before work commences, and the inspections during construction leading to a completion certificate once the works are finished. Both stages incur fees, and the total cost depends on whether you use the local authority building control department or an approved inspector from the private sector. The choice between these two options affects both the cost and the service level, and lenders will accept either route provided it results in a valid completion certificate.",
           "The completion certificate is critical. Without it, the lender will typically withhold the final retention payment on the facility, the structural warranty provider may not issue their certificate, and the purchasers of the completed units will not be able to obtain mortgages. Building control is therefore not just a regulatory obligation but a commercial necessity that directly affects your ability to exit the development loan. We have seen projects delayed by months because the completion certificate was not obtained in a timely manner, costing the developer tens of thousands of pounds in <a href=\"/guides/extension-fees-development-loans\">extension fees</a> and additional interest.",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -798,6 +1042,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Local authority building control fees are set by each council and vary across the country. The fees are divided into two components: a plan checking fee, payable when you submit the building regulations application, and an inspection fee, payable before or during the inspection process. For a new-build residential development, the combined fees typically range from £3,000 to £12,000 depending on the number of units and the complexity of the works.",
           "As a rough guide, a three-unit residential development might incur building control fees of £3,000 to £4,500, a ten-unit scheme might cost £6,000 to £9,000, and a 20-unit development could generate fees of £10,000 to £15,000. These figures are for new-build residential; commercial developments, mixed-use schemes, and conversions may attract different fee scales. Local authority fees are published on each council's website and can be obtained in advance of submitting your application.",
           "One advantage of using local authority building control is that the fees are typically fixed and transparent, with no hidden charges. The local authority will inspect the works at prescribed stages, and the plan checking and inspection fees cover the entire process from application to completion certificate. There are no additional charges for re-inspections unless the works fail an inspection and require remedial work, in which case a further inspection will be needed but usually at no extra cost. For developments in areas such as <a href=\"/services#development-finance\">Greater London</a>, <a href=\"/services#development-finance\">Kent</a>, and <a href=\"/services#development-finance\">Hampshire</a>, local authority building control departments are generally well-resourced and responsive, although turnaround times can vary.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
         ],
       },
       {
@@ -841,6 +1087,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "refurbishment-finance"],
     relatedLocations: ["greater-london", "kent", "hampshire", "oxfordshire"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 13. Section 106 and CIL Costs ───
@@ -860,6 +1124,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Section 106 agreements, named after Section 106 of the Town and Country Planning Act 1990, are legally binding obligations negotiated between the developer and the local planning authority as a condition of planning permission. They are used to make developments acceptable in planning terms by requiring the developer to provide community benefits that mitigate the impact of the development. Common Section 106 obligations include affordable housing provision, contributions to local education, healthcare, highways, open space, and other infrastructure.",
           "The financial impact of Section 106 obligations can be substantial. An affordable housing obligation requiring 30% of a 20-unit scheme to be delivered as affordable units effectively transfers six units from the private sales programme to a registered provider at a significant discount. If the private sale value of each unit is £350,000 and the affordable sale value is £200,000, the Section 106 obligation reduces the GDV by £900,000 (six units multiplied by the £150,000 discount). This directly affects the viability of the scheme and the amount of <a href=\"/services#development-finance\">development finance</a> that can be supported.",
           "Financial contributions under Section 106 agreements are typically calculated by the local authority based on adopted supplementary planning documents. Education contributions might be £5,000 to £15,000 per dwelling depending on the local authority and the size of the units. Healthcare contributions range from £500 to £3,000 per dwelling. Highways contributions can be significantly higher if the development requires specific infrastructure improvements such as new access roads, traffic signals, or pedestrian crossings. We have seen total Section 106 financial contributions exceeding £100,000 on schemes of 15 to 20 units in areas such as <a href=\"/services#development-finance\">Surrey</a>, <a href=\"/services#development-finance\">Buckinghamshire</a>, and <a href=\"/services#development-finance\">Oxfordshire</a> where local planning policies are particularly demanding.",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -868,6 +1134,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "The Community Infrastructure Levy is a fixed charge levied by the local planning authority on new development to fund infrastructure that supports growth in the area. Unlike Section 106 contributions, which are negotiated on a case-by-case basis, CIL is calculated using a published rate applied to the net additional floor area created by the development. Not all local authorities have adopted CIL, but those that have typically charge between £100 and £400 per square metre of new residential floor area.",
           "The CIL calculation can produce significant charges on residential developments. A scheme creating 1,500 square metres of new residential floor area in a council area with a CIL rate of £200 per square metre would generate a CIL liability of £300,000. This is a substantial cost that must be factored into the development appraisal from the outset. CIL is payable regardless of whether the development is economically viable; unlike Section 106 obligations, CIL cannot be negotiated down on viability grounds except in exceptional circumstances.",
           "CIL payment triggers vary by local authority but typically fall between 60 days and 12 months after commencement of development. Some councils offer instalment policies that allow the CIL to be paid in stages, which can help with cash flow management. However, if you fail to submit a commencement notice before starting work, you may lose the right to pay by instalments and the full CIL amount becomes payable immediately. This is a common trap that catches developers who are focused on the construction programme and overlook the administrative requirements of the CIL regulations. The penalty for non-compliance can be severe, including surcharges and enforcement action.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
         ],
       },
       {
@@ -911,6 +1179,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "mezzanine-finance"],
     relatedLocations: ["surrey", "buckinghamshire", "oxfordshire", "cambridgeshire"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 14. Quantity Surveyor Costs ───
@@ -930,6 +1216,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "A quantity surveyor is a construction cost specialist who provides independent assessment and verification of build costs. In the context of <a href=\"/services#development-finance\">development finance</a>, lenders frequently require an independent QS report to confirm that the build costs in the developer's appraisal are realistic and that the project can be completed within the proposed budget. The QS provides the lender with assurance that they are not advancing funds against an unrealistic cost plan, which would put their security at risk if the project runs out of money before completion.",
           "The requirement for a QS report depends on the lender, the size of the project, and the experience of the borrower. Some lenders require a QS report on every facility regardless of size, while others only require one above a certain threshold, typically £1,000,000 in build costs. Experienced developers with a track record of delivering projects on budget may be able to avoid the QS requirement if their cost plans are supported by competitive contractor tenders. However, for <a href=\"/guides/development-finance-first-time-developer\">first-time developers</a>, a QS report is almost always mandatory.",
           "The QS report typically includes a detailed review of the proposed build costs, a comparison against industry benchmarks and similar projects, identification of any cost items that appear unrealistic or missing, an assessment of the contingency provision, and a recommendation on whether the proposed build budget is adequate. The report gives the lender confidence in the cost plan and also serves as a useful sanity check for the developer, who may discover cost items they had overlooked.",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -938,6 +1226,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Quantity surveyor fees for a lender-required cost review typically range from £2,500 to £8,000 depending on the size and complexity of the scheme. For a straightforward residential development of three to six units with build costs below £1,000,000, expect to pay £2,500 to £4,000 for an independent QS report. For medium-sized schemes with build costs of £1,000,000 to £3,000,000, fees typically range from £4,000 to £6,000. Larger or more complex developments with build costs above £3,000,000 can attract QS fees of £6,000 to £10,000 or more.",
           "These fees cover the initial cost review report. If the lender also requires the QS to provide ongoing cost monitoring during the construction phase, the fees will be higher. Ongoing cost monitoring involves the QS visiting the site periodically to verify that actual costs are in line with the budget, similar to the role of the <a href=\"/guides/monitoring-surveyor-fees-explained\">monitoring surveyor</a> but focused specifically on costs rather than physical progress. The fee for ongoing QS monitoring is typically £500 to £1,200 per visit, with visits on a monthly or quarterly basis.",
           "Some lenders combine the monitoring surveyor and QS roles, appointing a single firm to perform both functions. This can reduce the overall cost because there is less duplication of effort. Where the roles are combined, the per-visit fee is typically £1,000 to £1,800, which is more than a standalone monitoring surveyor visit but less than the cost of two separate professionals. Check with your lender whether combined appointments are available, as this can save £3,000 to £6,000 over the life of a typical project.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
         ],
       },
       {
@@ -981,6 +1271,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "refurbishment-finance"],
     relatedLocations: ["greater-manchester", "west-yorkshire", "south-yorkshire", "bristol"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 
   // ─── 15. The True Cost of Development Finance ───
@@ -1000,6 +1308,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "When developers compare <a href=\"/services#development-finance\">development finance</a> offers, they naturally focus on the interest rate. A lender quoting 7.5% sounds cheaper than one quoting 8.5%, and in many cases the developer will choose the lower rate without looking further. However, the headline interest rate is just one component of the total cost of borrowing, and in some cases it accounts for less than 50% of the total finance bill. The true cost of development finance includes arrangement fees, exit fees, broker fees, valuation fees, legal fees, monitoring surveyor fees, insurance costs, and a range of other charges that can collectively exceed the interest cost itself.",
           "To illustrate the point, consider two lenders offering facilities on a £2,500,000 scheme with a 15-month build programme. Lender A quotes 7.5% interest with a 2% arrangement fee, 1% exit fee, and higher monitoring and legal costs. Lender B quotes 8.5% interest with a 1% arrangement fee, no exit fee, and more moderate ancillary costs. When all fees are modelled over the facility term, Lender B may prove cheaper despite the higher headline rate. We see this scenario regularly in our practice, and it underscores the importance of comparing total cost of finance rather than headline rates.",
           "This guide brings together all the individual fee categories we have covered in our <a href=\"/guides/hidden-arrangement-fees-development-finance\">hidden fees series</a> and presents them as a complete framework for calculating the true cost of development finance. Whether you are a first-time developer or an experienced operator, this framework will help you make better-informed borrowing decisions and protect your profit margin.",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">In our experience arranging hundreds of development facilities each year, the difference between the cheapest headline rate and the lowest total cost is often significant. We have saved clients an average of &pound;12,000-&pound;18,000 per facility by identifying and negotiating hidden fees before commitment.</p></div>",
         ],
       },
       {
@@ -1008,6 +1318,8 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "The total cost of a development finance facility comprises the following categories. Interest is the primary cost, typically 6.5% to 12% per annum depending on the borrower's experience, the scheme quality, and market conditions. Interest is usually rolled up and compounded monthly, meaning you do not make payments during the build but the interest accrues and is repaid along with the principal at exit. On a £2,000,000 average drawn balance over 15 months at 8.5%, the total interest cost is approximately £212,500.",
           "<a href=\"/guides/hidden-arrangement-fees-development-finance\">Arrangement fees</a> typically range from 1% to 2% of the gross facility. On a £2,500,000 facility at 1.5%, the arrangement fee is £37,500. <a href=\"/guides/exit-fees-development-loans\">Exit fees</a>, where applicable, add 0.5% to 1.5%, potentially £12,500 to £37,500 on the same facility. <a href=\"/guides/broker-fees-development-finance\">Broker fees</a> of 1% add £25,000. <a href=\"/guides/valuation-fees-development-projects\">Valuation fees</a> of £4,000 to £8,000. <a href=\"/guides/legal-fees-property-development-finance\">Legal fees</a> for both sides combined at £10,000 to £20,000. <a href=\"/guides/monitoring-surveyor-fees-explained\">Monitoring surveyor fees</a> of £8,000 to £15,000. <a href=\"/guides/insurance-requirements-development-finance\">Insurance premiums</a> of £5,000 to £15,000. <a href=\"/guides/quantity-surveyor-costs-development\">QS fees</a> of £3,000 to £6,000 if required.",
           "Summing these charges on a representative £2,500,000 facility with a 15-month term produces a total cost range of approximately £318,000 to £376,000. Expressed as a percentage of the facility amount, the total cost of finance is 12.7% to 15% of the gross facility, or 8.5% to 10% annualised. This is significantly higher than the headline interest rate of 8.5% and demonstrates why focusing solely on the interest rate gives a misleading picture of your borrowing costs.",
+        
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
         ],
       },
       {
@@ -1059,6 +1371,24 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedServices: ["development-finance", "bridging-loans", "mezzanine-finance"],
     relatedLocations: ["greater-london", "kent", "greater-manchester", "edinburgh"],
+    faqs: [
+      {
+        question: "What are the most commonly hidden fees in development finance?",
+        answer: "The most commonly hidden fees include commitment fees (0.25-0.5%), administration fees, documentation preparation charges, minimum fee provisions, and deferred arrangement fee interest costs. Exit fees of 1-1.5% and extension charges are also frequently overlooked. Always request a fully itemised term sheet that lists every charge before committing to a facility."
+      },
+      {
+        question: "Are development finance fees regulated by the FCA?",
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+      },
+      {
+        question: "How can I reduce the total fees on my development finance facility?",
+        answer: "Negotiate from a position of strength by presenting a well-prepared scheme with strong fundamentals. Use a specialist broker who knows each lender's fee structures and negotiating flexibility. Compare total cost of finance (not just headline rates) across multiple lenders. Repeat borrowers can typically negotiate 0.25-0.5% reductions on arrangement fees."
+      },
+      {
+        question: "Should I pay arrangement fees upfront or defer them into the loan?",
+        answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      }
+    ],
   },
 ];
 

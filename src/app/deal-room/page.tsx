@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Shield, Clock, FileCheck } from "lucide-react";
 
 import { DealRoomForm } from "@/components/deal-room/deal-room-form";
@@ -126,7 +127,9 @@ export default function DealRoomPage() {
       {/* ━━━ FORM ━━━ */}
       <section className="bg-background py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <DealRoomTabs />
+          <Suspense>
+            <DealRoomTabs />
+          </Suspense>
         </div>
       </section>
     </>

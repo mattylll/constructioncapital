@@ -17,6 +17,7 @@ import { Reveal } from "@/components/home/reveal";
 import { Typewriter } from "@/components/home/typewriter";
 import { HomepageEnquiryForm } from "@/components/home/homepage-enquiry-form";
 import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
+import { GUIDES } from "@/lib/guides";
 
 const services = [
   {
@@ -502,6 +503,153 @@ export default function HomePage() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ━━━ MARKET INTELLIGENCE — Report teasers ━━━ */}
+      <section
+        className="relative py-24 sm:py-32"
+        style={{ background: "oklch(0.10 0.04 255)" }}
+      >
+        <div className="mx-auto max-w-[1200px] px-5 sm:px-8">
+          <Reveal>
+            <p
+              className="mb-4 text-[12px] font-bold tracking-[0.4em] uppercase"
+              style={{ color: "var(--gold)" }}
+            >
+              Market Intelligence
+            </p>
+            <h2 className="mb-5 text-[clamp(2.5rem,6vw,5rem)] font-black leading-[0.9] tracking-[-0.03em] text-white">
+              DATA-DRIVEN<br />MARKET REPORTS<span style={{ color: "var(--gold)" }}>.</span>
+            </h2>
+            <p className="mb-16 max-w-[500px] text-base leading-relaxed text-white/35">
+              Real Land Registry data across 48 counties. Town-by-town analysis, new build premiums, and development finance insights.
+            </p>
+          </Reveal>
+
+          <div className="grid gap-[2px] sm:grid-cols-2 lg:grid-cols-3">
+            {[
+              {
+                title: "Town Reports",
+                stat: "360",
+                label: "TOWNS",
+                desc: "Local market data for every town — prices, sales, trends, and development finance opportunities.",
+                href: "/market-reports?category=town",
+              },
+              {
+                title: "County Reports",
+                stat: "48",
+                label: "COUNTIES",
+                desc: "In-depth analysis of every county — price trends, town comparisons, and finance implications.",
+                href: "/market-reports?category=county",
+              },
+              {
+                title: "Thematic & Regional",
+                stat: "12",
+                label: "REPORTS",
+                desc: "Regional overviews, new build premiums, most active markets, and developer opportunity rankings.",
+                href: "/market-reports?category=regional",
+              },
+            ].map((card, i) => (
+              <Reveal key={card.title} delay={i * 80}>
+                <Link
+                  href={card.href}
+                  className="service-bar group relative block overflow-hidden p-10 transition-all duration-300 hover:bg-[oklch(0.75_0.12_85/0.03)]"
+                  style={{
+                    background: "oklch(1 0 0 / 0.02)",
+                    border: "1px solid oklch(1 0 0 / 0.04)",
+                  }}
+                >
+                  <h3 className="mb-3 text-[1.65rem] font-black leading-none tracking-[-0.02em] text-white">
+                    {card.title}
+                  </h3>
+                  <p
+                    className="text-4xl font-black tracking-[-0.02em]"
+                    style={{ color: "var(--gold)" }}
+                  >
+                    {card.stat}
+                  </p>
+                  <p className="mt-1 text-[11px] font-bold tracking-[0.2em] text-white/25">
+                    {card.label}
+                  </p>
+                  <p className="mt-4 text-sm leading-relaxed text-white/30">
+                    {card.desc}
+                  </p>
+                  <span className="mt-5 inline-flex items-center gap-1.5 text-[11px] font-bold tracking-[0.15em]" style={{ color: "var(--gold)" }}>
+                    EXPLORE
+                    <ArrowRight className="h-3.5 w-3.5" />
+                  </span>
+                </Link>
+              </Reveal>
+            ))}
+          </div>
+
+          <Reveal delay={300}>
+            <div className="mt-10 text-center">
+              <Button
+                asChild
+                variant="outline"
+                size="lg"
+                className="h-14 rounded-none border-white/10 px-10 text-sm font-bold uppercase tracking-[0.2em] text-white/50 transition-all hover:border-gold/30 hover:bg-transparent hover:text-gold"
+              >
+                <Link href="/market-reports">
+                  View All 420 Reports
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ━━━ GUIDES SECTION ━━━ */}
+      <section className="bg-background py-24 sm:py-32">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <Reveal>
+            <div className="mb-12 text-center">
+              <p
+                className="mb-3 text-xs font-bold uppercase tracking-[0.3em] sm:text-sm"
+                style={{ color: "var(--gold-dark)" }}
+              >
+                Expert Knowledge
+              </p>
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+                Development Finance Guides
+              </h2>
+              <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
+                {GUIDES.length} in-depth guides covering every aspect of property development finance — from first application to exit.
+              </p>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {GUIDES.slice(0, 6).map((guide) => (
+                <Link
+                  key={guide.slug}
+                  href={`/guides/${guide.slug}`}
+                  className="group rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:border-gold/30 hover:shadow-sm"
+                >
+                  <h3 className="mb-2 font-bold text-foreground group-hover:text-gold-dark transition-colors">
+                    {guide.title}
+                  </h3>
+                  <p className="mb-3 text-sm text-muted-foreground line-clamp-2">
+                    {guide.excerpt}
+                  </p>
+                  <span className="text-xs font-medium text-gold-dark">
+                    {guide.readingTime} read
+                  </span>
+                </Link>
+              ))}
+            </div>
+
+            <div className="mt-8 text-center">
+              <Button asChild variant="outline" size="lg">
+                <Link href="/guides">
+                  View All {GUIDES.length} Guides
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </Reveal>
         </div>
       </section>
 

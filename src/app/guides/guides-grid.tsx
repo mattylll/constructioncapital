@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Clock } from "lucide-react";
 import type { Guide, GuideCategory } from "@/lib/guides";
@@ -20,9 +21,16 @@ const categoryLabels: Record<GuideCategory, string> = {
   application: "Applications",
   structuring: "Deal Structuring",
   market: "Market Insights",
+  comparison: "Comparisons",
 };
 
-export function GuidesGrid({ guides }: { guides: Guide[] }) {
+export function GuidesGrid({
+  guides,
+  categoryImages = {},
+}: {
+  guides: Guide[];
+  categoryImages?: Partial<Record<GuideCategory, string>>;
+}) {
   const [active, setActive] = useState<GuideCategory | "all">("all");
 
   // Only show categories that have guides
@@ -71,8 +79,22 @@ export function GuidesGrid({ guides }: { guides: Guide[] }) {
           <Link
             key={guide.slug}
             href={`/guides/${guide.slug}`}
-            className="glass-card group relative overflow-hidden rounded-2xl p-7 transition-all duration-300 hover:translate-y-[-2px]"
+            className="glass-card group relative overflow-hidden rounded-2xl transition-all duration-300 hover:translate-y-[-2px]"
           >
+            {/* Category thumbnail */}
+            {categoryImages[guide.category] && (
+              <div className="relative h-40 w-full overflow-hidden">
+                <Image
+                  src={categoryImages[guide.category]!}
+                  alt=""
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+                <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, transparent 40%, oklch(0.15 0.04 255 / 0.7) 100%)" }} />
+              </div>
+            )}
+
             {/* Top accent line on hover */}
             <div
               className="absolute left-0 right-0 top-0 h-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
@@ -82,7 +104,7 @@ export function GuidesGrid({ guides }: { guides: Guide[] }) {
               }}
             />
 
-            <div className="relative">
+            <div className="relative p-7">
               {/* Category + reading time */}
               <div className="mb-4 flex items-center gap-3">
                 <span

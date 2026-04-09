@@ -139,9 +139,9 @@ export default async function GuidePage({ params }: PageProps) {
 
       {/* Hero Section */}
       <section className="noise-overlay relative overflow-hidden py-20 text-white sm:py-28">
-        {/* Background photo */}
+        {/* Background photo — category-specific */}
         <Image
-          src={unsplashUrl(SITE_IMAGES["guides-hero"].id, 1920, 75)}
+          src={unsplashUrl((SITE_IMAGES[`guide-${guide.category}`] ?? SITE_IMAGES["guides-hero"]).id, 1920, 75)}
           alt=""
           fill
           className="object-cover"
@@ -246,10 +246,15 @@ export default async function GuidePage({ params }: PageProps) {
                 <h2 className="mb-5 text-2xl font-bold tracking-tight sm:text-3xl">
                   {section.heading}
                 </h2>
-                <div className="prose prose-lg max-w-none text-muted-foreground">
-                  {section.content.map((paragraph, j) => (
-                    <p key={j} dangerouslySetInnerHTML={{ __html: paragraph }} />
-                  ))}
+                <div className="guide-content max-w-none text-base leading-relaxed text-muted-foreground">
+                  {section.content.map((paragraph, j) => {
+                    const isBlock = paragraph.trimStart().startsWith('<table') || paragraph.trimStart().startsWith('<div');
+                    return isBlock ? (
+                      <div key={j} className="my-8" dangerouslySetInnerHTML={{ __html: paragraph }} />
+                    ) : (
+                      <p key={j} className="mb-5" dangerouslySetInnerHTML={{ __html: paragraph }} />
+                    );
+                  })}
                 </div>
               </div>
             ))}

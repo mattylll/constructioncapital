@@ -1,5 +1,6 @@
-export type { Guide, GuideSection, GuideCategory } from "./types";
+export type { Guide, GuideSection, GuideCategory, GuideFAQ } from "./types";
 
+import { COMPARISON_GUIDES } from "./comparison";
 import { EXISTING_GUIDES } from "./existing-guides";
 import { HIDDEN_FEES_GUIDES } from "./hidden-fees";
 import { DEFAULTS_GUIDES } from "./defaults";
@@ -10,6 +11,7 @@ import { STRUCTURING_GUIDES } from "./structuring";
 import { MARKET_GUIDES } from "./market";
 
 export const GUIDES = [
+  ...COMPARISON_GUIDES,
   ...EXISTING_GUIDES,
   ...HIDDEN_FEES_GUIDES,
   ...DEFAULTS_GUIDES,
@@ -30,4 +32,20 @@ export function getRelatedGuides(currentSlug: string) {
   return current.relatedSlugs
     .map((s) => getGuideBySlug(s))
     .filter((g): g is NonNullable<typeof g> => g !== undefined);
+}
+
+/** Get guides that list a specific service in their relatedServices */
+export function getGuidesByService(serviceSlug: string, limit = 5) {
+  return GUIDES.filter((g) => g.relatedServices.includes(serviceSlug)).slice(
+    0,
+    limit
+  );
+}
+
+/** Get guides that list a specific county slug in their relatedLocations */
+export function getGuidesByLocation(countySlug: string, limit = 4) {
+  return GUIDES.filter((g) => g.relatedLocations.includes(countySlug)).slice(
+    0,
+    limit
+  );
 }

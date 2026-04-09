@@ -19,6 +19,10 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "The capital stack is one of the most important concepts in property development finance, yet it is widely misunderstood by newer developers entering the UK market. In its simplest form, the capital stack describes the layered structure of all the funding sources used to finance a development project. Each layer sits in a hierarchy based on its priority of repayment and the level of risk it carries. Understanding how these layers interact is fundamental to structuring any deal, whether you are building a single house or a 200-unit residential scheme worth £40 million or more.",
           "At its core, the capital stack typically has three layers. At the bottom sits senior debt, which is the most secure form of lending and therefore carries the lowest cost. In the middle you find mezzanine finance, which fills the gap between the senior debt and the developer's own equity. At the top sits the equity contribution from the developer or their investors. Each layer has different risk and return characteristics, and the way you combine them determines your overall cost of capital and, crucially, how much of the profit you retain.",
           "We frequently work with developers who focus exclusively on the interest rate of their senior debt without considering the full capital stack. This is a mistake. A developer who borrows at 7% on senior debt but needs to give away 50% of their profit to an equity partner may end up worse off than one who pays 9% on a stretched senior facility but retains all the upside. The capital stack must be viewed holistically, and that is exactly what we help our clients achieve through our <a href=\"/deal-room\">deal room</a> advisory service."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -64,7 +68,25 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["senior-debt-development-explained", "mezzanine-vs-equity-jv", "blended-finance-development", "equity-contribution-development"],
     relatedServices: ["development-finance", "mezzanine-finance", "equity-jv"],
-    relatedLocations: ["greater-london", "greater-manchester", "surrey", "kent"]
+    relatedLocations: ["greater-london", "greater-manchester", "surrey", "kent"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 2. Senior Debt ───
   {
@@ -83,6 +105,10 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Senior debt is the primary and most secure form of borrowing used in UK property development. It is called senior because it takes priority over all other forms of debt in the repayment hierarchy. The lender providing senior debt holds a first legal charge over the development site, meaning that if the borrower defaults and the property must be sold, the senior lender is repaid first, before any other creditor. This priority position is what makes senior debt the lowest-cost form of development borrowing, with rates currently ranging from 6.5% to 10% per annum depending on borrower profile and scheme risk.",
           "In practical terms, senior debt funds the bulk of most development projects. A typical <a href=\"/services#development-finance\">development finance</a> facility will cover between 55% and 70% of total project costs, split between the land acquisition cost (or the value of land already owned) and the construction costs. The land element is usually drawn down on day one of the facility, while construction costs are released in stages as the build progresses. This phased approach means the developer only pays interest on funds actually drawn, which can significantly reduce the overall cost of borrowing over the project lifecycle.",
           "We work with over 80 active senior development lenders in the UK market, ranging from high-street banks to specialist property finance houses. Each lender has different criteria regarding minimum and maximum loan sizes, geographic preferences, acceptable property types, and developer experience requirements. Understanding which lender is the best fit for your specific project is where broker expertise adds genuine value. A £1.5 million facility for a 4-unit scheme in Kent will be best served by a very different lender than a £25 million facility for a mixed-use development in central Manchester."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -129,7 +155,25 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["capital-stack-property-development", "stretched-senior-development-finance", "how-does-development-finance-work", "interest-roll-up-development-finance"],
     relatedServices: ["development-finance", "mezzanine-finance"],
-    relatedLocations: ["greater-london", "kent", "greater-manchester", "west-yorkshire"]
+    relatedLocations: ["greater-london", "kent", "greater-manchester", "west-yorkshire"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 3. Stretched Senior ───
   {
@@ -148,6 +192,10 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Stretched senior development finance is a single-facility loan that provides higher leverage than a traditional senior debt product, effectively combining the senior and mezzanine layers of the capital stack into one instrument. Where conventional senior debt typically caps at 60-65% of Gross Development Value, a stretched senior facility can reach 70-75% LTGDV, or 80-85% of total project costs. This higher leverage is achieved within a single loan agreement, under a single set of legal documents, with a single first charge over the property.",
           "The concept emerged in the UK market around 2018-2019 as lenders recognised that many developers were combining senior and mezzanine facilities at significant cost and complexity. By offering a single, higher-leverage product, stretched senior lenders eliminate the need for an intercreditor agreement, reduce legal costs, and simplify the borrower's ongoing reporting obligations. For a £4 million total development cost, a stretched senior facility at 85% LTC would provide £3.4 million, leaving the developer to contribute just £600,000 of equity.",
           "We have seen stretched senior products gain considerable traction over the past two years, particularly among mid-market developers working on schemes with a GDV between £2 million and £15 million. The simplicity of dealing with a single lender, combined with competitive blended pricing, makes this an increasingly popular structuring option. However, stretched senior is not available from every lender, and eligibility criteria tend to be more stringent than for standard senior debt. Understanding when this product is appropriate and how to access it is what we cover in this guide."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
+        
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -194,7 +242,25 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["capital-stack-property-development", "senior-debt-development-explained", "blended-finance-development", "mezzanine-vs-equity-jv"],
     relatedServices: ["development-finance", "mezzanine-finance"],
-    relatedLocations: ["greater-london", "surrey", "west-midlands", "bristol"]
+    relatedLocations: ["greater-london", "surrey", "west-midlands", "bristol"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 4. Bridging to Development Finance ───
   {
@@ -213,6 +279,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "The journey from site acquisition to construction start rarely follows a straight line, and this is precisely why many developers use a <a href=\"/services#bridging-loans\">bridging loan</a> as the first step in their funding strategy. Bridging finance is designed for speed. It can be arranged in as little as 5 to 10 working days, making it ideal for securing a site at auction, beating a competing buyer, or closing on a time-sensitive opportunity before planning permission has been obtained. Development finance, by contrast, typically requires full planning consent, detailed contractor appointments, and a comprehensive appraisal, all of which takes time to assemble.",
           "The classic scenario involves a developer who identifies a site with development potential but without planning permission. The vendor wants to exchange quickly, perhaps within 28 days. The developer uses a bridging loan to acquire the site for £800,000, then spends three to six months obtaining planning permission and preparing a development finance application. Once planning is granted, the site might be worth £1.2 million, and the developer refinances into a development facility that advances against this higher value, potentially repaying the bridging loan in full and releasing construction funding.",
           "We arrange this type of two-stage funding structure regularly, and in our experience it is one of the most effective ways for developers to acquire sites in competitive markets. The key is planning the transition before you take the bridging loan, not after. Developers who enter a bridge without a clear path to development finance risk being trapped in expensive short-term borrowing when their bridge term expires. For a broader comparison of these two products, see our guide on <a href=\"/guides/development-finance-vs-bridging-loan\">development finance versus bridging loans</a>."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -221,6 +289,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "The transition from bridging to development finance should be planned as a timeline with specific milestones, not treated as something you will figure out later. A typical bridging loan has a term of 6 to 12 months. If your planning application takes 8 to 13 weeks to be determined (the statutory period for minor applications), plus another 4 to 6 weeks to prepare a development finance application and achieve drawdown, you can see how a 6-month bridge term can feel very tight.",
           "We recommend the following milestone framework for a standard bridging-to-development transition. Month one: complete site acquisition via bridging loan and submit planning application. Months two to four: planning determination period. Month four: if planning is granted, immediately instruct a development finance broker and begin preparing the application pack. Months five to six: development finance application, valuation, legal due diligence, and drawdown. This leaves approximately zero buffer, which is why we generally advise taking a 12-month bridge term rather than 6 months, even though it costs more in interest. The additional headroom for planning delays or lender processing times is worth the premium.",
           "On a £1 million bridging loan at 0.85% per month, extending from 6 to 12 months costs approximately £51,000 in additional interest. That sounds significant, but a failed transition, where your bridge expires before your development facility is ready, could trigger default interest at 2-3% per month, enforcement fees, and potentially the loss of your site. In our experience, the insurance value of a longer bridge term almost always justifies the cost. We have seen developers lose sites worth over £2 million because they tried to save £30,000 on bridge interest by taking a shorter term."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
         ]
       },
       {
@@ -259,7 +329,25 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["development-finance-vs-bridging-loan", "capital-stack-property-development", "development-finance-exit-strategies", "how-does-development-finance-work"],
     relatedServices: ["bridging-loans", "development-finance"],
-    relatedLocations: ["greater-london", "essex", "kent", "surrey"]
+    relatedLocations: ["greater-london", "essex", "kent", "surrey"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 5. Profit Margins ───
   {
@@ -278,6 +366,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Profit margin is not just a measure of your return as a developer; it is the primary risk buffer that protects your lender in the event that the project does not perform as expected. When a development lender assesses your scheme, they want to see enough margin between total costs and expected revenue to absorb cost overruns, sales delays, or a softening market. If your projected profit is too thin, the lender has limited protection against loss, and they will either decline the application or reduce their leverage to create a larger buffer.",
           "In the UK <a href=\"/services#development-finance\">development finance</a> market, the minimum acceptable profit margin for most senior lenders is 20% of Gross Development Value for residential schemes. On a project with a GDV of £5 million, that means the lender wants to see at least £1 million of profit after all costs, including land, construction, professional fees, finance costs, sales costs, and contingency. Some lenders express this as a 25% profit on total cost rather than 20% on GDV, which produces a similar threshold. Below this level, the lender considers the margin of safety insufficient to warrant their risk exposure.",
           "We have arranged development facilities for hundreds of UK projects and can confirm that the 20% on GDV threshold is consistently applied across the market. However, there are nuances. Pre-sold schemes, where units are sold off-plan before construction begins, may be approved with margins as low as 15% on GDV because the sales risk has been substantially eliminated. Conversely, speculative commercial developments or schemes in weaker markets may need to demonstrate margins of 25% or more to satisfy lender appetite. Understanding your lender's specific margin requirements before you finalise your appraisal saves time and prevents wasted application fees."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -286,6 +376,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Lenders do not simply accept the profit margin shown in your development appraisal at face value. They conduct their own independent assessment using the figures you provide, adjusted for their own assumptions where they differ from yours. The lender's credit committee will typically apply more conservative assumptions to your GDV (using the lower end of comparable sales evidence) and more cautious build cost estimates (often adding to your contingency) to stress-test whether adequate margin survives under pessimistic conditions.",
           "The calculation itself is straightforward: profit margin on GDV equals (GDV minus total development costs) divided by GDV, expressed as a percentage. Total development costs include land purchase price (including Stamp Duty Land Tax), all construction costs, professional fees (architect, structural engineer, planning consultant), finance costs (interest, arrangement fees, valuation, legal), sales costs (estate agent fees at 1-1.5% plus marketing), and contingency (typically 5-10% of build costs). On a scheme with a GDV of £3 million and total costs of £2.4 million, the profit is £600,000, giving a margin of 20% on GDV.",
           "Where developers often stumble is in underestimating finance costs within their appraisal. If you have not yet obtained a term sheet, you may estimate interest at 7% when the actual rate turns out to be 9%, or forget to include the mezzanine interest if you later need additional leverage. A £2 million facility at 9% with rolled-up interest over 18 months costs approximately £270,000 in interest alone, before fees. If your appraisal only budgeted £180,000 for finance costs based on a lower rate estimate, your actual margin is 3% lower than projected. We always recommend using realistic, slightly conservative finance cost assumptions when preparing your initial appraisal. You can refine these once you have firm term sheets."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
         ]
       },
       {
@@ -325,7 +417,25 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["how-to-calculate-gdv", "capital-stack-property-development", "stretched-senior-development-finance", "development-finance-exit-strategies"],
     relatedServices: ["development-finance", "mezzanine-finance", "refurbishment-finance"],
-    relatedLocations: ["greater-london", "surrey", "hampshire", "berkshire"]
+    relatedLocations: ["greater-london", "surrey", "hampshire", "berkshire"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 6. Equity Contribution ───
   {
@@ -344,6 +454,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Equity in the context of development finance is the portion of total project costs that the developer funds from their own resources, rather than from borrowed money. It is the developer's financial stake in the project, and it serves as the primary loss-absorption layer for the lender. If the development underperforms, the developer's equity is eroded before the lender suffers any loss. This is why every development lender requires a minimum equity contribution, typically ranging from 10% to 40% of total project costs depending on the lender, the borrower's track record, and the overall risk profile of the scheme.",
           "What many developers do not realise is that equity does not have to be cash sitting in a bank account. While cash is the simplest form of equity and is universally accepted by lenders, there are several alternative forms that can partially or fully satisfy the equity requirement. These include the value of land you already own, planning uplift on a site, retained profits from previous developments held within your SPV, and in some cases the value of professional services or project management expertise you contribute to the scheme. Understanding which forms of equity your target lender will accept is critical to structuring your deal efficiently.",
           "In our experience arranging <a href=\"/services#development-finance\">development finance</a> across the UK, approximately 60% of the deals we structure involve non-cash equity in some form. The most common is land equity, where the developer owns the site outright or has an existing mortgage that can be refinanced into the development facility. The second most common is planning uplift, where the increase in site value attributable to a planning consent is recognised as equity. Both approaches allow developers to reduce their cash outlay and deploy capital more efficiently across multiple projects."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -352,6 +464,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Land value is the most widely accepted alternative to cash equity in UK development finance. If you purchased a site for £600,000 and the current market value is £600,000, the lender will recognise that £600,000 as your equity contribution toward the project. The development facility will then cover the construction costs, professional fees, and other project expenses up to the lender's maximum leverage ratio. In this scenario, if total project costs are £2 million and the lender funds 70% (£1.4 million), your land value of £600,000 exactly fills the equity requirement.",
           "The critical nuance is that lenders assess land equity at current market value, not at your purchase price. If you bought the site for £400,000 three years ago and it is now valued at £650,000, you benefit from £250,000 of unrealised appreciation that counts toward your equity. Conversely, if you overpaid and the site has depreciated, the lender will use the lower current value. This is why obtaining an independent RICS valuation before approaching lenders is advisable. It eliminates surprises and gives you a clear picture of your equity position.",
           "One structuring technique we frequently use involves developers who own land with an existing mortgage. If the site is worth £800,000 with a £300,000 mortgage, the developer has £500,000 of net equity. The development lender pays off the existing mortgage as part of the day-one drawdown and registers their own first charge. The £500,000 of net equity is then credited as the developer's contribution. This approach is seamless and avoids the developer needing to find separate cash to discharge the existing mortgage. For developers who acquired their site using a <a href=\"/services#bridging-loans\">bridging loan</a>, the same principle applies: the development lender redeems the bridge and the developer's equity is the difference between site value and the bridge balance."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
         ]
       },
       {
@@ -389,7 +503,25 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["capital-stack-property-development", "mezzanine-vs-equity-jv", "development-finance-portfolio-approach", "development-finance-first-time-developer"],
     relatedServices: ["development-finance", "equity-jv", "mezzanine-finance"],
-    relatedLocations: ["greater-london", "surrey", "kent", "essex"]
+    relatedLocations: ["greater-london", "surrey", "kent", "essex"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 7. Drawdown Schedules ───
   {
@@ -408,6 +540,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Unlike a conventional mortgage where the full loan is advanced on completion, <a href=\"/services#development-finance\">development finance</a> is released in stages known as drawdowns or tranches. Each drawdown corresponds to a phase of the construction programme and is released only after an independent monitoring surveyor confirms that the relevant works have been completed to the required standard. This phased approach is fundamental to how development lending operates in the UK and exists to protect both the lender and the developer from the risks inherent in construction projects.",
           "A typical drawdown schedule might consist of five to eight stages, starting with the initial advance for land acquisition and proceeding through substructure (foundations and ground works), superstructure (walls, floors, and roof), first fix (plumbing, electrics, and plastering), second fix (kitchens, bathrooms, and joinery), external works (landscaping and driveways), and practical completion. The number and timing of stages depends on the scale and complexity of the project. A simple four-unit housing scheme might have five drawdowns, while a 50-apartment block could have eight or more.",
           "The monitoring surveyor, typically a RICS-qualified professional appointed by the lender, plays a central role in the drawdown process. They visit the site before each drawdown to verify that the works claimed have been completed, that the quality is acceptable, and that costs are tracking within the approved budget. The surveyor issues a certificate confirming the value of work completed, and the lender releases the corresponding funds. Monitoring surveyor fees range from £500 to £1,500 per visit depending on scheme size, and these costs are borne by the developer. On a project with seven drawdowns, monitoring surveyor costs typically total £5,000 to £10,000."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -424,6 +558,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Drawdown schedules can be structured as front-loaded, back-loaded, or evenly distributed across the build programme. The structure you choose, or the lender imposes, has a significant impact on your interest costs and cash-flow dynamics throughout the project.",
           "A front-loaded drawdown structure releases a larger proportion of the facility early in the project. This is most common where the land purchase represents a significant portion of total costs and is advanced on day one. For example, on a project with a £1 million land cost and £1.5 million build cost, the day-one drawdown for land represents 40% of the total £2.5 million facility. The developer then draws the remaining £1.5 million over the following 12-18 months. Front-loading means more of the facility is drawn for a longer period, resulting in higher total interest charges. On a £2.5 million facility at 8%, front-loading might produce total interest of £250,000 compared to £180,000 for an evenly distributed schedule, a difference of £70,000.",
           "A back-loaded structure, where the majority of funds are drawn in the later stages of construction, reduces total interest costs but can create cash-flow pressure during the early phases when the developer must fund groundworks and substructure from their own resources. Some lenders address this by offering a smaller initial advance followed by proportionally larger draws as the build progresses. In our experience, the optimal approach depends on the developer's cash position. Developers with strong cash reserves benefit from a back-loaded structure that minimises interest. Developers with limited cash need a more front-loaded approach that provides early access to funds, even at the cost of higher interest. We model both scenarios for every deal we structure to help developers make an informed choice. For more on how interest accumulates during the build, see our guide on <a href=\"/guides/interest-roll-up-development-finance\">interest roll-up in development finance</a>."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
         ]
       },
       {
@@ -448,12 +584,32 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Because interest on development finance is typically charged only on drawn funds, the drawdown schedule directly impacts your total finance cost. Every pound drawn a day earlier costs you approximately 0.02-0.03 pence in daily interest at typical rates. Over a 15-month project on a £3 million facility, the difference between an optimised and a poorly structured drawdown schedule can amount to £20,000 to £40,000 in interest savings.",
           "The simplest optimisation is to delay drawdowns until funds are genuinely needed. If your contractor does not require payment until 30 days after stage completion, do not request the drawdown until day 15 or 20. The two-week delay on a £300,000 drawdown at 8% saves approximately £920 in interest. Across seven drawdowns over 18 months, these savings compound to a meaningful amount. However, this must be balanced against the risk of delayed payments causing contractor friction or contractual penalties.",
           "Another optimisation involves negotiating the drawdown structure with your lender at the term sheet stage. If you can demonstrate that certain early-stage costs are lower than the lender's standard assumptions, you may be able to shift drawdown weighting toward the later stages, reducing the overall average drawn balance and saving interest. We routinely review drawdown schedules proposed by lenders and suggest amendments that benefit the developer without increasing the lender's risk. This detailed structuring work is one of the ways we add value beyond simply placing the loan. To discuss how we can optimise your facility terms, submit your project via our <a href=\"/deal-room\">deal room</a>."
+        ,
+          "For developers exploring other funding options, we also arrange <a href=\"/services/mezzanine-finance\">mezzanine finance</a> and <a href=\"/services/development-exit-finance\">development exit finance</a>. You may also find these guides useful: <a href=\"/guides/build-to-rent-development-finance\">Build-to-Rent Development Finance</a>, <a href=\"/guides/development-finance-exit-strategies\">Development Finance Exit Strategies</a>, <a href=\"/guides/development-finance-100-percent\">100% Development Finance</a>. The capital stack structure must account for all statutory costs including Stamp Duty Land Tax (SDLT) payable to HMRC, Community Infrastructure Levy (CIL), and any Section 106 obligations. An SPV structure registered with Companies House and reflected at HM Land Registry is standard practice. The Financial Conduct Authority (FCA) regulates certain elements of property finance, and professional valuations must comply with Royal Institution of Chartered Surveyors (RICS) standards.",
         ]
       }
     ],
     relatedSlugs: ["how-does-development-finance-work", "interest-roll-up-development-finance", "development-finance-portfolio-approach", "capital-stack-property-development"],
     relatedServices: ["development-finance"],
-    relatedLocations: ["greater-london", "west-midlands", "greater-manchester", "bristol"]
+    relatedLocations: ["greater-london", "west-midlands", "greater-manchester", "bristol"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 8. Interest Roll-Up ───
   {
@@ -472,6 +628,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Interest roll-up, also known as capitalised interest or retained interest, is the standard method of handling interest payments in UK <a href=\"/services#development-finance\">development finance</a>. Instead of making monthly interest payments to the lender during the construction period, the interest accrued each month is added to (rolled up into) the outstanding loan balance. The total interest is then repaid along with the principal when the development completes and the loan is redeemed through unit sales or refinancing.",
           "This approach exists because development projects do not generate income during construction. A developer building 10 houses over 18 months has no rental income and no sales proceeds until the properties are completed and sold. Requiring monthly interest payments would therefore create a significant cash-flow burden during the period when the developer's capital is fully deployed in the build. By rolling up interest, the lender allows the developer to focus all available cash on construction, with the cost of borrowing deferred until the project generates revenue.",
           "The practical effect of interest roll-up is that the loan balance grows throughout the build period. If you draw down £1 million on day one at 8% per annum, after one month the balance becomes approximately £1,006,667 (including one month's interest). After 12 months, the balance is approximately £1,083,000. After 18 months, it reaches approximately £1,124,000. The £124,000 of accumulated interest must be repaid alongside the original £1 million principal. This compounding effect means that the total cost of borrowing is higher than it would be under a serviced interest arrangement, which is the trade-off for having no monthly payment obligations during the build."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -480,6 +638,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "The mathematics of interest roll-up follow a compounding pattern because interest accrues not only on the original principal but also on previously accrued interest. This compound interest effect is modest over short periods but becomes increasingly significant on longer facilities or higher-value loans. Understanding how compounding works allows you to accurately model your total finance costs and ensure your development appraisal reflects the true cost of borrowing.",
           "Consider a development facility with a £2.5 million maximum, drawn in stages over 15 months. The land tranche of £1 million is drawn on day one. A further £500,000 is drawn at month three, £400,000 at month six, £350,000 at month nine, and £250,000 at month twelve. At an interest rate of 8.5% per annum with monthly compounding, the total rolled-up interest by month 15 is approximately £215,000. This represents roughly 8.6% of the total facility and must be budgeted as a cost within your development appraisal.",
           "A common error we see in development appraisals is calculating interest as a simple flat percentage of the total facility for the full term. A developer might estimate interest at 8.5% of £2.5 million for 15 months, producing a figure of £265,625. But because funds are drawn in stages and interest only accrues on drawn amounts, the actual cost of £215,000 is lower. Conversely, we also see developers who underestimate interest by applying the rate only to the initial drawdown without accounting for subsequent draws. Getting this calculation right, by modelling interest on a month-by-month basis against the actual drawdown schedule, is essential for an accurate appraisal. Our team models interest to the penny for every deal we arrange, and we recommend all developers do the same."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
         ]
       },
       {
@@ -517,7 +677,25 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["drawdown-schedules-development", "capital-stack-property-development", "development-finance-exit-strategies", "development-finance-profit-margins"],
     relatedServices: ["development-finance", "development-exit-finance"],
-    relatedLocations: ["greater-london", "hertfordshire", "buckinghamshire", "oxfordshire"]
+    relatedLocations: ["greater-london", "hertfordshire", "buckinghamshire", "oxfordshire"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 9. Exit Strategies ───
   {
@@ -536,6 +714,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "In development finance, your exit strategy is not an afterthought; it is a foundational element of your loan application that directly influences the terms you receive, the leverage available, and even whether the lender approves your deal at all. The exit strategy answers the most fundamental question a lender asks: how will this loan be repaid? A clear, evidenced, and realistic exit strategy demonstrates that the developer has thought beyond the build phase and has a viable path to generating the revenue needed to redeem the facility.",
           "Lenders evaluate exit strategies based on three criteria: certainty, speed, and evidence. A pre-sold scheme where 70% of units are exchanged before construction begins scores highly on all three counts, the sales are contractually committed, completion is time-bound, and the evidence is in the form of signed contracts. A speculative scheme relying on open-market sales post-completion carries more uncertainty, a longer expected timeframe, and relies on comparable evidence rather than committed purchases. The difference in how lenders price these two scenarios can be 100-200 basis points in interest rate and 5-10% in leverage.",
           "We always advise developers to define their exit strategy before approaching any lender. This means having specific, evidenced plans for how each unit or the entire scheme will be disposed of, supported by comparable sales evidence, agent valuations, or letters of intent from buyers. Developers who present a clear exit strategy at the outset of the application process receive faster decisions and better terms. Those who are vague about their exit, or who change strategy mid-application, signal uncertainty that lenders interpret as additional risk."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -544,6 +724,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Individual unit sales are the most common exit strategy for residential <a href=\"/services#development-finance\">development finance</a> in the UK. The developer builds the scheme, markets the completed units through estate agents, and uses the sales proceeds to repay the development loan. This approach offers the highest potential revenue because each unit is sold at open market value to an individual buyer, typically an owner-occupier or a buy-to-let investor.",
           "The mechanics work as follows. As each unit is sold, the purchaser's solicitor remits the sale proceeds to the developer's solicitor, who uses those funds to make a partial repayment of the development facility. Most development lenders operate a release mechanism where they will release their charge over individual units upon receipt of an agreed minimum payment per unit. For example, on a 10-unit scheme with a £3 million facility, the lender might agree to release each unit upon receipt of £280,000, allowing the remaining £200,000 of proceeds per unit (assuming a £480,000 sale price) to flow to the developer after all units are sold and the loan is fully redeemed.",
           "The risk with individual sales as an exit strategy is the sales period. In a strong market, units may sell within weeks of completion. In a slower market, the sales period could extend to 6-12 months or longer, during which time interest continues to accrue on the outstanding loan balance. On a £2 million outstanding balance at 8%, every additional month of sales costs approximately £13,300 in interest. Over a six-month extended sales period, that represents £80,000 of eroded profit. This is why lenders and brokers alike stress the importance of realistic sales assumptions and why we model extended sales scenarios in every development appraisal we prepare."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
         ]
       },
       {
@@ -581,7 +763,25 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["development-finance-profit-margins", "interest-roll-up-development-finance", "forward-funding-development", "build-to-rent-development-finance"],
     relatedServices: ["development-finance", "development-exit-finance", "commercial-mortgages"],
-    relatedLocations: ["greater-london", "greater-manchester", "west-yorkshire", "edinburgh"]
+    relatedLocations: ["greater-london", "greater-manchester", "west-yorkshire", "edinburgh"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 10. Blended Finance ───
   {
@@ -600,6 +800,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Blended finance refers to the practice of combining multiple funding sources into a single, coherent capital structure for a development project. Rather than relying on a single lender or a single type of finance, the developer assembles a bespoke funding package that draws on senior debt, <a href=\"/services#mezzanine-finance\">mezzanine finance</a>, equity from investors, and potentially grants or other concessionary capital. Each source contributes a different amount, at a different cost, and with different risk characteristics. The art of blended finance lies in combining these sources to achieve the lowest possible blended cost of capital while meeting the developer's leverage and cash-flow requirements.",
           "The concept is straightforward but the execution is complex. Each funding source has its own legal documentation, its own security requirements, and its own conditions that must be satisfied before funds are released. The various capital providers must agree on their respective positions in the capital stack, their rights in the event of default, and the mechanics of how drawdowns and repayments flow between them. This coordination is typically managed through an intercreditor agreement that governs the relationship between senior and junior lenders.",
           "We have structured blended finance packages for projects ranging from £1.5 million residential conversions with two funding sources to £30 million mixed-use developments with four or five separate capital providers. The common thread across all these deals is that the blended approach delivered better overall terms than any single funding source could have provided on its own. The blended cost of capital, combining cheaper senior debt with more expensive but necessary subordinated funding, produced a more efficient and affordable structure than maximising any single lending product."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -608,6 +810,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "The primary building blocks available to UK developers are senior debt, mezzanine debt, equity (from the developer or external investors), and in certain cases grants or other forms of concessionary finance. Each block has a different cost, a different leverage contribution, and a different level of control over the project. Understanding the characteristics of each allows you to construct a structure that is optimised for your specific objectives.",
           "Senior debt, provided by banks and specialist development lenders, typically covers 55-70% of project costs at rates of 6.5-10%. This is the cheapest layer of the capital stack and should form the foundation of any blended structure. <a href=\"/services#mezzanine-finance\">Mezzanine finance</a> covers an additional 10-20% of costs at rates of 12-18%, reducing the equity requirement but at a higher price. Developer equity, whether in the form of cash, land value, or retained profits, typically accounts for 10-25% of costs and carries the highest risk but also the highest potential return. External equity from JV partners splits the profit but contributes capital that the developer does not have.",
           "Beyond these core sources, developers should explore whether grant funding is available for their scheme. Homes England, local authorities, and the Greater London Authority all provide grants for affordable housing, brownfield remediation, and infrastructure. Grants range from £20,000 to £100,000 or more per affordable unit and do not need to be repaid, making them the cheapest form of capital available. On a 20-unit scheme with 8 affordable units attracting £40,000 of grant per unit, the total grant funding of £320,000 directly reduces the developer's equity requirement or improves the project margin. We have structured deals where grant funding transformed a marginal scheme into a highly profitable one."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
         ]
       },
       {
@@ -645,7 +849,25 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["capital-stack-property-development", "mezzanine-vs-equity-jv", "development-finance-portfolio-approach", "stretched-senior-development-finance"],
     relatedServices: ["development-finance", "mezzanine-finance", "equity-jv"],
-    relatedLocations: ["west-midlands", "greater-london", "greater-manchester", "bristol"]
+    relatedLocations: ["west-midlands", "greater-london", "greater-manchester", "bristol"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 11. Forward Funding ───
   {
@@ -664,6 +886,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Forward funding is a development structuring mechanism where an institutional investor commits to purchasing a completed development at an agreed price before construction begins, and provides the capital to fund the construction. The developer acts as a development manager, delivering the scheme to an agreed specification on behalf of the investor, and receives a development management fee plus a share of any profit above an agreed threshold. This structure fundamentally changes the risk profile of a development because the end buyer is committed from day one, eliminating both sales risk and much of the finance risk.",
           "In a typical forward-funded deal, the investor purchases the site from the developer at the agreed land value and provides construction funding as the build progresses. Legal title to the property passes to the investor on day one, meaning the development is technically being built on the investor's land. The developer enters into a development agreement and a building contract that govern their obligations to deliver the scheme to the required standard, on time, and within budget. This structure is most common in the build-to-rent sector, student accommodation, and large-scale commercial developments where institutional investors are actively seeking pipeline product.",
           "We have seen forward funding become increasingly prevalent in the UK market over the past five years as institutional investors have sought to deploy capital into residential and mixed-use developments. The total value of forward-funded residential transactions in 2025 exceeded £4 billion, driven by the growing build-to-rent sector and institutional appetite for long-income residential assets. For developers, forward funding offers a route to delivering larger schemes with significantly less capital at risk. However, the trade-off is a reduced profit margin compared to a developer-led scheme funded through traditional <a href=\"/services#development-finance\">development finance</a>."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -672,6 +896,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "A forward-funded deal involves several key contractual elements that define the relationship between the developer and the investor. The first is the purchase agreement, under which the investor agrees to acquire the completed scheme at a price typically derived from the expected net operating income capitalised at an agreed yield. For a build-to-rent scheme expected to generate £500,000 per annum in net rent, capitalised at a 4.5% yield, the purchase price would be approximately £11.1 million.",
           "The second element is the development agreement, which sets out the developer's obligations to deliver the scheme to the agreed specification, programme, and budget. This agreement typically includes a fixed development cost that the investor will fund, a development management fee for the developer (usually 1-3% of total development cost), and a profit share arrangement. The developer may receive 50% of any profit above a hurdle return for the investor, typically 6-8% per annum on deployed capital. On a £10 million scheme where total development cost is £8 million and the investor's target return is 7%, the profit available for sharing would be approximately £2 million minus the investor's hurdle return of approximately £840,000 over 18 months, leaving approximately £1.16 million to split.",
           "The third element is the building contract, usually a design-and-build contract between the developer's building company and the investor's SPV. This contract provides the investor with the warranties and protections they need regarding build quality, programme, and defects liability. The developer must also provide performance bonds or parent company guarantees to secure their obligations under the building contract. We advise developers to engage specialist development solicitors who are experienced in forward-funded structures, as the documentation is considerably more complex than a standard development finance arrangement."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
         ]
       },
       {
@@ -704,12 +930,32 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "While forward funding transfers many risks from the developer to the investor, the developer retains significant obligations and risks that must be carefully managed. The primary risk is construction delivery. The developer is contractually committed to delivering the scheme to an agreed specification, within an agreed budget, and by an agreed date. Failure to meet any of these commitments can result in liquidated damages, forfeiture of the profit share, or in extreme cases, the investor terminating the development agreement and appointing an alternative contractor to complete the works.",
           "Cost overrun risk is typically borne by the developer. If the agreed development cost is £8 million and the actual cost comes to £8.5 million, the developer must fund the £500,000 shortfall from their own resources. This is why obtaining a fixed-price building contract from a reputable contractor before entering into a forward-funded deal is essential. Without cost certainty, the developer is exposed to unlimited downside risk on construction costs, which can quickly erode the management fee and profit share that make the deal worthwhile.",
           "Programme risk is equally significant. Forward-funded deals typically include a longstop date by which the scheme must reach practical completion. If the developer fails to complete by this date, the investor may have the right to step in and take control of the project, or to claim liquidated damages calculated as the investor's lost rental income during the delay period. On a scheme expected to generate £40,000 per month in rent, every month of delay costs the developer £40,000 in damages. We advise developers to build at least a three-month buffer into their programme when negotiating the longstop date, as construction delays are common and the consequences under a forward-funded agreement are severe."
+        ,
+          "For developers exploring other funding options, we also arrange <a href=\"/services/development-exit-finance\">development exit finance</a> and <a href=\"/services/refurbishment-finance\">refurbishment finance</a>. You may also find these guides useful: <a href=\"/guides/bridging-to-development-finance\">Bridging to Development Finance</a>, <a href=\"/guides/development-finance-100-percent\">100% Development Finance</a>, <a href=\"/guides/blended-finance-development\">Blended Finance for Development</a>. The capital stack structure must account for all statutory costs including Stamp Duty Land Tax (SDLT) payable to HMRC, Community Infrastructure Levy (CIL), and any Section 106 obligations. An SPV structure registered with Companies House and reflected at HM Land Registry is standard practice. The Financial Conduct Authority (FCA) regulates certain elements of property finance, and professional valuations must comply with Royal Institution of Chartered Surveyors (RICS) standards.",
         ]
       }
     ],
     relatedSlugs: ["build-to-rent-development-finance", "development-finance-exit-strategies", "capital-stack-property-development", "development-finance-profit-margins"],
     relatedServices: ["development-finance", "equity-jv"],
-    relatedLocations: ["greater-london", "greater-manchester", "west-midlands", "edinburgh"]
+    relatedLocations: ["greater-london", "greater-manchester", "west-midlands", "edinburgh"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 12. Build-to-Rent ───
   {
@@ -728,6 +974,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Build-to-rent (BTR) development finance is a specialist funding product designed for developers who are constructing residential properties specifically for long-term rental rather than individual sale. The BTR sector has grown rapidly in the UK, with over £5.5 billion of investment in 2025 and more than 100,000 BTR units either completed, under construction, or in planning across the country. This growth has been driven by persistent undersupply of rental housing, growing institutional appetite for residential income streams, and government policies that encourage purpose-built rental accommodation.",
           "The fundamental difference between BTR <a href=\"/services#development-finance\">development finance</a> and standard residential development finance lies in the exit strategy. A traditional development loan is repaid through individual unit sales. A BTR development loan is repaid through refinancing onto a long-term investment loan or commercial mortgage, or through a bulk sale to an institutional investor. This different exit changes how lenders assess the scheme, what metrics they focus on, and the terms they offer. BTR lenders are less concerned with individual unit values and more focused on the scheme's rental income potential, yield profile, and long-term demand characteristics.",
           "We have arranged BTR development finance for schemes ranging from 20-unit suburban rental developments valued at £3 million to 200-unit urban apartment blocks with a GDV of £50 million. The market has matured significantly over the past three years, and there are now 15 to 20 lenders actively providing development finance specifically for BTR schemes. This growing competition has improved terms for developers, with BTR development rates now comparable to standard residential development finance for well-structured schemes with strong rental demand."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -736,6 +984,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "BTR development lenders assess applications against a combination of development metrics and investment metrics that reflect both the construction phase and the long-term income characteristics of the completed scheme. The standard development metrics still apply: Loan-to-GDV, Loan-to-Cost, and developer experience. However, BTR lenders also evaluate the projected rental income, net yield, void rate assumptions, and management cost ratios to determine whether the completed scheme will generate sufficient income to support a refinance exit.",
           "The projected net yield is the most important BTR-specific metric. Net yield is calculated as annual rental income minus all operating costs (management, maintenance, insurance, service charges) divided by the completed scheme value. BTR lenders typically want to see a projected net yield of 4.5% to 6% depending on location and scheme quality. On a completed scheme valued at £10 million, a 5% net yield implies annual net operating income of £500,000, which must be sufficient to service the long-term mortgage that replaces the development facility. If the refinance mortgage is £6.5 million at 5.5%, the annual interest is £357,500, giving an interest coverage ratio of 1.40x, which satisfies most lenders' requirements.",
           "Void rate assumptions are scrutinised carefully. BTR lenders typically stress-test the scheme at a 5-10% void rate, meaning that at any given time, 5-10% of units are assumed to be unoccupied and generating no income. On a 50-unit scheme at £1,200 per month per unit, a 5% void rate reduces annual income by £36,000. If the lender's stress case uses a 10% void rate, the income reduction is £72,000, which materially impacts the debt-service coverage ratio. Developers who can demonstrate strong local rental demand, low void rates on comparable schemes, and a professional management strategy are more likely to satisfy these stress tests and secure competitive terms."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
         ]
       },
       {
@@ -773,7 +1023,25 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["forward-funding-development", "development-finance-exit-strategies", "capital-stack-property-development", "commercial-mortgage-guide-uk"],
     relatedServices: ["development-finance", "commercial-mortgages", "development-exit-finance"],
-    relatedLocations: ["greater-london", "greater-manchester", "west-yorkshire", "edinburgh"]
+    relatedLocations: ["greater-london", "greater-manchester", "west-yorkshire", "edinburgh"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 13. Portfolio Approach ───
   {
@@ -792,6 +1060,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Portfolio development finance refers to the practice of funding multiple development projects simultaneously, either through a single umbrella facility from one lender or through multiple standalone facilities from different lenders. As developers gain experience and build a track record, the natural progression is from completing one project at a time to running two, three, or more schemes concurrently. This portfolio approach dramatically increases the developer's annual output, revenue, and profit, but it also introduces additional complexity in terms of capital management, lender relationships, and risk diversification.",
           "The UK development finance market supports portfolio lending in several ways. Some lenders offer multi-project facilities where a single credit agreement covers multiple developments, with shared security and shared covenants across the portfolio. Others prefer to assess each project independently but offer preferential terms to borrowers who bring repeat business. A third model involves the developer working with a specialist broker who coordinates multiple lenders across a portfolio, ensuring that the capital structure of each project is optimised while managing the aggregate exposure across all live schemes.",
           "We work with numerous developers who are running three to eight projects simultaneously, with combined facilities ranging from £5 million to over £50 million. In our experience, the transition from single-project to portfolio development is the most significant scaling challenge a developer faces. It requires not just more capital, but fundamentally different approaches to cash-flow management, risk control, and lender relationship management. This guide covers the key principles and practical considerations for developers looking to make that transition."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -800,6 +1070,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Developers pursuing a portfolio approach have two broad structuring options: a multi-project facility from a single lender, or multiple standalone facilities from different lenders. Each approach has distinct advantages and trade-offs that depend on the developer's scale, the characteristics of their projects, and their risk management preferences.",
           "A multi-project facility provides simplicity and potentially lower costs. The developer negotiates one set of terms, pays one set of legal fees, and reports to one lender. Pricing is often more competitive because the lender benefits from the diversification across multiple projects and the deeper relationship with the borrower. On a portfolio of three projects with a combined facility of £8 million, the arrangement fee on a multi-project deal might be 1.25% (£100,000), compared to 1.5-2% on each standalone facility, which could total £120,000 to £160,000 across the portfolio. The saving of £20,000 to £60,000 flows directly to the developer's bottom line.",
           "However, multi-project facilities typically involve cross-collateralisation, where each project in the portfolio provides security for the others. If one project encounters difficulties, the lender can enforce against any project in the portfolio, not just the one that is underperforming. This creates contagion risk: a problem on one site can threaten projects that are otherwise performing well. Standalone facilities from different lenders eliminate this risk. Each lender's security is limited to its specific project, and a problem on Site A has no impact on the lender's ability to recover from Site B. We generally advise developers to use standalone facilities for projects with very different risk profiles, and to consider multi-project facilities for a portfolio of similar, low-risk schemes. For developers exploring <a href=\"/services#development-finance\">development finance</a> for multiple projects, we can model both approaches and recommend the optimal structure."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
         ]
       },
       {
@@ -832,12 +1104,32 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Running multiple development projects simultaneously introduces portfolio-level risks that do not exist when developing a single scheme. The most significant is correlation risk: the danger that a market downturn or economic shock affects all your projects at the same time. A developer with three live schemes in the same city and the same market segment is highly exposed to local market conditions. If property values in that city decline by 10%, all three projects are impacted, potentially pushing the combined margin below viable levels and threatening the developer's ability to repay multiple facilities.",
           "Diversification is the primary tool for managing correlation risk. Geographic diversification, building in different cities or regions, reduces exposure to local market conditions. Product diversification, combining residential, commercial, and refurbishment projects, reduces exposure to any single property sector. Timeline diversification, staggering projects so they complete and sell at different times, reduces exposure to short-term market fluctuations. We have helped developers construct portfolios that deliberately incorporate these diversification strategies, resulting in more stable overall returns even when individual projects underperform.",
           "Insurance and contingency planning also become more important at portfolio level. Each project should carry its own contingency reserve (5-10% of build costs), and the developer should maintain a portfolio-level cash reserve equivalent to at least one month's aggregate interest across all facilities. On a portfolio with total drawn balances of £8 million at an average rate of 8.5%, one month's interest is approximately £56,700. This reserve ensures that a temporary cash-flow disruption on one project does not cascade across the portfolio. For a comprehensive understanding of how individual project funding works within a portfolio, our guide on <a href=\"/guides/how-does-development-finance-work\">how development finance works</a> provides essential context."
+        ,
+          "For developers exploring other funding options, we also arrange <a href=\"/services/refurbishment-finance\">refurbishment finance</a> and <a href=\"/services/development-exit-finance\">development exit finance</a>. You may also find these guides useful: <a href=\"/guides/forward-funding-development\">Forward Funding for Development</a>, <a href=\"/guides/interest-roll-up-development-finance\">Interest Roll-Up in Development Finance</a>, <a href=\"/guides/development-finance-exit-strategies\">Development Finance Exit Strategies</a>. The capital stack structure must account for all statutory costs including Stamp Duty Land Tax (SDLT) payable to HMRC, Community Infrastructure Levy (CIL), and any Section 106 obligations. An SPV structure registered with Companies House and reflected at HM Land Registry is standard practice. The Financial Conduct Authority (FCA) regulates certain elements of property finance, and professional valuations must comply with Royal Institution of Chartered Surveyors (RICS) standards.",
         ]
       }
     ],
     relatedSlugs: ["capital-stack-property-development", "equity-contribution-development", "blended-finance-development", "how-does-development-finance-work"],
     relatedServices: ["development-finance", "mezzanine-finance", "bridging-loans"],
-    relatedLocations: ["greater-london", "greater-manchester", "west-midlands", "west-yorkshire"]
+    relatedLocations: ["greater-london", "greater-manchester", "west-midlands", "west-yorkshire"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 14. Land Banking ───
   {
@@ -856,6 +1148,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "Land banking is the practice of acquiring development sites before planning permission has been obtained, holding them until planning consent is secured, and then either developing the sites or selling them at a profit reflecting the planning uplift. It is a strategy used by developers of all sizes, from small operators purchasing a single residential plot to major housebuilders assembling land banks of thousands of plots across the country. The fundamental premise is straightforward: land with planning permission is worth significantly more than land without it, and the developer who secures the consent captures that value uplift.",
           "The financial dynamics of land banking can be compelling. A site purchased for £400,000 without planning permission might be worth £1.2 million once consent is granted for 8 residential units. The planning uplift of £800,000 represents a 200% return on the initial investment, minus holding costs and planning application expenses. Even after accounting for bridging finance interest, planning consultant fees, and other holding costs totalling perhaps £80,000 to £120,000 over a 12-month period, the net return remains substantial. This leverage effect makes land banking one of the most profitable strategies in UK property development, albeit one of the riskiest.",
           "The risk, of course, is that planning permission is not granted. If a site is refused planning consent and there is no realistic prospect of a successful appeal or resubmission, the land may be worth no more than its existing-use value, which could be significantly less than the purchase price. This binary outcome, either a substantial profit or a significant loss, distinguishes land banking from development itself, where the risks are more granular and manageable. For this reason, land banking finance is a specialist area that requires careful structuring and realistic risk assessment."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -864,6 +1158,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "The primary challenge in financing land acquisition before planning permission is that most mainstream development lenders will not advance funds until planning consent is in place. <a href=\"/services#development-finance\">Development finance</a> requires a clear development scheme, an approved planning consent, and a viable construction programme before funds are released. Without these elements, the lender has no basis for assessing the project's viability or the security value of the site. This means developers must use alternative funding sources for the pre-planning acquisition phase.",
           "The most common funding option is a <a href=\"/services#bridging-loans\">bridging loan</a> secured against the land. Bridging lenders are comfortable advancing against sites without planning permission, provided the existing-use value supports the loan amount and the borrower has a credible exit strategy. Typical terms for pre-planning bridging loans include an LTV of 50-65% of existing-use value, interest rates of 0.75% to 1.2% per month, and a term of 12 to 24 months. On a site with an existing-use value of £500,000, a 60% LTV bridge would provide £300,000, with the developer contributing the remaining £200,000 as cash equity.",
           "Specialist land loans represent a second option. Several niche lenders in the UK market provide land-specific funding that sits between bridging finance and development finance. These products offer terms of 18 to 36 months, allowing more time for the planning process, at rates typically lower than bridging (6-10% per annum versus 9-14% for bridging). The longer term is particularly valuable for sites where the planning process is expected to take more than 12 months, as it avoids the risk and cost of extending a bridge. We have access to five specialist land lenders and can secure indicative terms within 48 hours of receiving your site details through our <a href=\"/deal-room\">deal room</a>."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
         ]
       },
       {
@@ -901,7 +1197,25 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["bridging-to-development-finance", "bridging-loan-auction-purchases", "equity-contribution-development", "capital-stack-property-development"],
     relatedServices: ["bridging-loans", "development-finance"],
-    relatedLocations: ["greater-london", "kent", "surrey", "oxfordshire"]
+    relatedLocations: ["greater-london", "kent", "surrey", "oxfordshire"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
   // ─── 15. 100% Development Finance ───
   {
@@ -920,6 +1234,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "The question of whether 100% development finance exists is one of the most frequently asked in UK property development. The short answer is: no single lender will provide 100% of your total project costs, but yes, it is possible to structure a deal where you contribute zero cash equity. The distinction is important. No senior lender in the UK will fund the entirety of a development project through a single loan. Every lender requires the developer to have some form of equity in the deal, whether that is cash, land value, or a contribution from a third-party investor. What 100% finance structures actually achieve is the elimination of the developer's cash contribution by combining debt and equity from different sources.",
           "The typical approach involves layering senior debt at 65-70% of GDV, <a href=\"/services#mezzanine-finance\">mezzanine finance</a> at an additional 15-20% of costs, and an equity JV partner or the developer's existing land value to cover the remaining requirement. If the developer owns the site outright and the combined debt facilities cover all construction costs, professional fees, and finance charges, the developer has effectively achieved 100% finance in the sense that no additional cash is required from their pocket. However, the developer has contributed equity in the form of the land, and the total cost of the layered debt structure is significantly higher than a standard senior-debt-only facility.",
           "We arrange what clients call 100% finance structures regularly, though we prefer to describe them as maximised leverage structures. In our experience, approximately one in five deals we structure involves the developer contributing no cash, relying instead on a combination of land equity, mezzanine debt, and carefully structured facilities to cover all project costs. These deals are achievable but require strong schemes, experienced developers, and meticulous structuring. This guide explains exactly how they work and what they really cost."
+        ,
+          "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">Deal structuring is where the most significant value is created or destroyed in property development. Our advisory team has structured capital stacks from &pound;500K to &pound;30M+, and the optimal structure is never a one-size-fits-all solution. The right blend of senior debt, mezzanine, and equity depends on your specific project economics and personal objectives.</p></div>",
         ]
       },
       {
@@ -928,6 +1244,8 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
           "The most common route to a zero-cash-deposit development combines the developer's existing land ownership with layered senior and mezzanine debt. The developer owns a site with a value that satisfies the combined equity requirements of both lenders, and the debt facilities cover all remaining costs. This structure works particularly well when the developer has purchased the land at a low price and it has appreciated in value, or when planning permission has been obtained and the resulting uplift creates sufficient equity within the site.",
           "Consider a concrete example. A developer owns a site valued at £1.5 million with full planning permission for 12 residential units. The total development cost is £4.8 million (including the land) and the GDV is £7 million. A senior lender provides 65% LTGDV (£4.55 million), covering the land value plus most of the construction costs. A mezzanine provider contributes an additional £700,000, bringing total debt to £5.25 million. The developer's land equity of £1.5 million means the total funding (debt plus land equity) is £6.75 million, which exceeds the £4.8 million total cost. The developer contributes no cash, and the excess facility provides headroom for interest retention and contingency.",
           "This structure requires the senior lender to agree to a second charge for the mezzanine provider and for both lenders to be comfortable with the combined leverage. On a £7 million GDV scheme, combined debt of £5.25 million represents 75% LTGDV, which is within the appetite of several lender combinations we work with. The blended interest rate across the two facilities is typically 9-11%, and total finance costs over 18 months might reach £500,000 to £650,000. After deducting all costs, including finance, the developer's profit on a scheme like this would be approximately £1.4 million to £1.55 million, achieved with zero cash outlay. For more on how these layers fit together, see our guide on the <a href=\"/guides/capital-stack-property-development\">capital stack in property development</a>."
+        ,
+          "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Capital Layer</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical %</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Cost</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Security Position</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Senior Debt</td><td class=\"py-2 px-3 border-b\">55-70% LTGDV</td><td class=\"py-2 px-3 border-b\">6.5-10% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Mezzanine Finance</td><td class=\"py-2 px-3 border-b\">10-20% of costs</td><td class=\"py-2 px-3 border-b\">12-18% p.a.</td><td class=\"py-2 px-3 border-b\">Second charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Equity / JV</td><td class=\"py-2 px-3 border-b\">10-35% of costs</td><td class=\"py-2 px-3 border-b\">Profit share 30-50%</td><td class=\"py-2 px-3 border-b\">No charge</td></tr><tr><td class=\"py-2 px-3 border-b\">Stretched Senior</td><td class=\"py-2 px-3 border-b\">Up to 80% LTGDV</td><td class=\"py-2 px-3 border-b\">8-12% p.a.</td><td class=\"py-2 px-3 border-b\">First charge</td></tr></tbody></table>",
         ]
       },
       {
@@ -965,7 +1283,25 @@ const STRUCTURING_RAW: Omit<Guide, "readingTime">[] = [
     ],
     relatedSlugs: ["capital-stack-property-development", "mezzanine-vs-equity-jv", "bridging-to-development-finance", "equity-contribution-development"],
     relatedServices: ["development-finance", "mezzanine-finance", "equity-jv"],
-    relatedLocations: ["greater-london", "essex", "hertfordshire", "sussex"]
+    relatedLocations: ["greater-london", "essex", "hertfordshire", "sussex"],
+    faqs: [
+      {
+        question: "What is the optimal capital stack for a residential development?",
+        answer: "There is no single optimal structure, but a typical residential development capital stack comprises 60-65% senior debt (first charge, 6.5-10% p.a.), 15-20% mezzanine finance (second charge, 12-18% p.a.), and 15-25% developer equity. The right blend depends on your available equity, risk tolerance, and the profit margin of the specific scheme."
+      },
+      {
+        question: "Can I get 100% development finance with no equity contribution?",
+        answer: "True 100% development finance with zero developer equity is extremely rare. However, it is possible to structure a deal where land equity (if you own the site outright) substitutes for cash equity, or where mezzanine and equity JV partners provide 100% of the cash required. In these structures, the developer contributes expertise and planning consent rather than cash."
+      },
+      {
+        question: "What is stretched senior development finance?",
+        answer: "Stretched senior is a single-lender facility that provides higher leverage than standard senior debt, typically up to 75-80% of GDV or 85-90% of total costs. It combines the senior and mezzanine layers into one facility with one set of legal fees. The rate is typically 8-12% p.a., which reflects the blended cost of senior and mezzanine in a single product."
+      },
+      {
+        question: "How do I choose between mezzanine finance and an equity JV partner?",
+        answer: "Choose mezzanine when the development has strong, predictable profit margins and you want to retain 100% of the upside above the fixed interest cost. Choose an equity JV when the profit margin is uncertain, when you want to share downside risk, or when the equity partner brings additional value beyond capital (such as construction expertise or sales capability)."
+      }
+    ]
   },
 ];
 

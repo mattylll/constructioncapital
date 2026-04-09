@@ -24,6 +24,10 @@ export interface TownMarketData {
   demandDrivers: string[];
   /** Average rental yield range for the area */
   rentalYieldRange: string;
+  /** Custom overview paragraphs replacing the generic intro (optional) */
+  overview?: string[];
+  /** Custom service-page commentary keyed by service slug (optional) */
+  serviceCommentary?: Record<string, string[]>;
 }
 
 /**
@@ -586,6 +590,70 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
       "Premium residential market",
     ],
     rentalYieldRange: "4.5-6.0%",
+  },
+
+  "hertfordshire/st-albans": {
+    planningAuthority: "St Albans City and District Council",
+    avgPropertyPrice: "£615,000",
+    population: "150,000",
+    overview: [
+      "St Albans is a premium commuter city with cathedral heritage, outstanding schools, and a 20-minute Thameslink service into St Pancras. Median property prices sit around £615,000 — significantly above the national average — driven by persistent buyer demand and constrained supply across a heavily Green Belt district.",
+      "For developers, the opportunity here lies in conversion and infill. With extensive conservation area coverage across the city centre and tight Green Belt boundaries, new-build land is scarce. The strongest returns come from office-to-residential permitted development, sensitive heritage conversions, and previously developed sites on corridors like Hatfield Road and Victoria Street.",
+      "Whether you're financing a prior approval scheme, a boutique new-build, or a commercial-to-residential conversion, we connect you with lenders who understand the St Albans market and can structure funding around the planning realities of this high-value district.",
+    ],
+    developmentHotspots: [
+      "City centre infill and conversion (St Peters/Hatfield Road corridor)",
+      "Oaklands and Cell Barnes new-build developments",
+      "Office-to-residential conversions along Victoria Street",
+      "Green Belt edge sites near London Colney and Chiswell Green",
+    ],
+    marketInsight:
+      "St Albans combines cathedral-city heritage with premium London commuter demand — 20 minutes to St Pancras via Thameslink. The district is one of the most restrictive in Hertfordshire, with Green Belt covering much of the area and extensive conservation area constraints across the city centre. Development opportunity concentrates on prior approval conversions, infill sites, and previously developed land. Strong buyer demand keeps absorption rates high, but build costs in the Home Counties run 10-15% above national averages.",
+    demandDrivers: [
+      "Thameslink connectivity (20 min to St Pancras)",
+      "Outstanding state and private schools",
+      "Cathedral city heritage and lifestyle appeal",
+      "Strong rental market from young professionals and families",
+      "Limited new supply driving premium pricing",
+    ],
+    rentalYieldRange: "3.5-4.5%",
+    serviceCommentary: {
+      "development-finance": [
+        "St Albans sits in one of the most constrained planning districts in the Home Counties, with Green Belt coverage limiting new-build land supply and conservation area restrictions shaping what can be built in the city centre. For developers who can navigate these constraints, the rewards are significant — median property prices around £615,000 support strong GDV assumptions, and absorption rates remain high thanks to persistent commuter demand from the Thameslink corridor.",
+        "The typical development finance deal here isn't a large greenfield estate — it's a 4–12 unit infill scheme on previously developed land, a prior approval office conversion on Victoria Street or Hatfield Road, or a sensitive new-build within the conservation area. Senior lenders are comfortable with St Albans risk profiles, but the planning complexity means your funding partner needs to understand heritage constraints, Section 106 obligations, and the longer timelines that come with conservation area applications.",
+        "We structure development finance for St Albans schemes from £500k to £15M+, typically at 60–70% LTGDV with rates from 6.5% p.a. Build cost assumptions in this district run 10–15% above national averages — lenders familiar with Hertfordshire factor this into their appraisals, which is why working with a broker who knows the local lending landscape matters.",
+      ],
+      "mezzanine-finance": [
+        "In a high-value market like St Albans — where land costs are elevated and build specifications need to match buyer expectations — the equity requirement on a development can tie up significant capital. Mezzanine finance bridges the gap between the 60–65% that a senior lender will typically advance and the 85–90% total leverage that frees you to pursue multiple schemes simultaneously.",
+        "The intercreditor relationship is the structural foundation of any mezzanine deal. Not every senior lender operating in Hertfordshire will accept subordinated debt behind their facility, and those that do require an approved intercreditor agreement governing priorities in a default scenario. We work with both parties to ensure the capital stack is structurally sound — this is particularly important in St Albans where scheme timelines can extend due to conservation area and listed building consent processes.",
+        "With median semi-detached prices at £740,000 and detached values approaching £950,000, even a modest 6-unit scheme in St Albans can carry a GDV north of £4M. At those numbers, the difference between 65% and 85% leverage represents over £800,000 of equity released back to your balance sheet. Mezzanine pricing — typically 12–18% p.a. — reflects its subordinated position, but the blended cost across your full capital stack is often lower than alternatives that achieve similar leverage.",
+      ],
+      "bridging-loans": [
+        "Speed matters in St Albans. With limited development land and strong buyer competition, auction purchases and off-market opportunities don't wait for conventional mortgage timelines. Bridging finance lets you secure a site in 7–14 days, whether you're acquiring a commercial building for permitted development conversion, a period property for refurbishment, or a development plot before planning is determined.",
+        "The typical bridging scenario here involves acquiring a property or site while your planning application or prior approval is being processed. St Albans' conservation area coverage and Green Belt constraints mean that planning timelines can be longer than neighbouring districts — a 12-month bridge with extension options gives you the runway to navigate the process without pressure-selling if consent takes longer than expected.",
+        "With property values averaging £615,000 and detached homes regularly exceeding £950,000, St Albans assets provide strong security for bridging lenders. We arrange bridges from £150k to £10M+ at rates from 0.55% per month, with LTVs up to 75% of current value. Exit strategies typically involve either refinancing onto development finance once planning is secured, or sale of the completed/refurbished property.",
+      ],
+      "equity-jv": [
+        "St Albans' premium values and constrained supply make it an attractive market for equity partners and JV investors. Family offices and institutional investors are drawn to the district's fundamentals — strong commuter demand, high buyer quality, and limited competing supply — while developers benefit from 90–100% funding of project costs in exchange for a profit share.",
+        "The typical equity JV structure in this market involves the developer contributing the site (often acquired with bridging finance) and their development expertise, while the equity partner funds build costs and potentially the land. Profit splits vary — commonly 50/50 to 70/30 in the developer's favour — depending on the risk profile and your track record. For St Albans schemes, the investor appetite is strong: the combination of £615,000+ median prices and high absorption rates reduces the sales risk that equity partners are most concerned about.",
+        "We connect St Albans developers with equity sources including family offices, property funds, and high-net-worth individuals. Whether you're looking for a JV partner on a single scheme or a programmatic arrangement to roll across multiple sites in Hertfordshire, we structure the deal to align incentives and protect both parties through the development cycle.",
+      ],
+      "refurbishment-finance": [
+        "St Albans' housing stock includes a significant proportion of period and post-war properties, many within conservation areas, creating a steady pipeline of refurbishment opportunities. From light cosmetic upgrades to heavy structural refurbishments of listed buildings, the uplift potential in this market is compelling — a well-executed refurb can add 20–30% to the value of a property where the median already sits at £615,000.",
+        "The key distinction in St Albans is between light and heavy refurbishment finance. Light refurb — cosmetic works, new kitchens and bathrooms, redecorating — typically draws rates from 0.55% per month with faster completion. Heavy refurb involving structural works, extensions, or change of use (particularly HMO conversions, which are increasingly popular near the city centre) attracts higher rates but funds a wider scope of work including construction contingencies.",
+        "Conservation area and listed building constraints in central St Albans add complexity to refurbishment projects — materials specifications, window designs, and facade treatments all need to meet heritage requirements. Lenders experienced in Hertfordshire understand these constraints and build them into their appraisals. We match your project with funders who won't be surprised by the additional costs and timelines that heritage refurbishment demands.",
+      ],
+      "commercial-mortgages": [
+        "St Albans' commercial property market benefits from the same fundamentals that drive residential values — excellent transport links, affluent catchment, and a thriving city centre anchored by the cathedral and market. Office space, retail units on St Peters Street and the surrounding lanes, and mixed-use properties all attract investor interest, with yields typically ranging from 3.5–5.5% depending on asset class and covenant strength.",
+        "For investors holding or acquiring commercial property in the district, long-term mortgage finance provides stable, predictable leverage. We arrange commercial mortgages from £250k to £25M+ on offices, retail, industrial, and mixed-use assets across St Albans and the wider Hertfordshire area. Typical terms run 5–25 years at rates from 5.5% p.a., with LTVs up to 75%.",
+        "The emerging opportunity in St Albans is the conversion of commercial space — particularly offices that don't meet modern occupier requirements — into residential under permitted development rights. If you're holding a commercial asset with conversion potential, we can structure a commercial mortgage that reflects the underlying residential value while you pursue the planning pathway.",
+      ],
+      "development-exit-finance": [
+        "Development exit finance replaces your development facility once construction is substantially complete, giving you breathing room to sell completed units at the best price rather than under pressure from a maturing loan. In St Albans, where individual unit values are high and buyers are discerning, the difference between a pressured and a patient sale can be tens of thousands of pounds per unit.",
+        "The economics are straightforward: your development lender is charging 7–10% p.a. on the full facility while you're selling down. An exit facility at 0.55–0.75% per month on the remaining balance — which reduces as each unit sells — dramatically cuts your monthly interest bill during the sales period. On a 6-unit St Albans scheme with a GDV of £4M+, the interest saving alone can exceed £100,000 over a 6–9 month sales period.",
+        "We arrange development exit facilities from £500k to £15M+ with LTVs up to 75% of the completed value. Drawdown is typically within 2–4 weeks of practical completion, allowing a seamless transition from your development lender. The facility reduces automatically as units sell, so you're never paying interest on capital you don't need.",
+      ],
+    },
   },
 };
 
