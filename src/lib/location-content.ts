@@ -141,7 +141,8 @@ function hashString(str: string): number {
     hash = (hash << 5) - hash + str.charCodeAt(i);
     hash = hash & hash; // Convert to 32-bit int
   }
-  return Math.abs(hash);
+  
+return Math.abs(hash);
 }
 
 function pickVariant<T>(items: T[], slug: string): T {
@@ -831,7 +832,8 @@ export function getFaqs(
 ): FAQ[] {
   const generator = SERVICE_FAQS[serviceSlug];
   if (!generator) return [];
-  return generator(townName, countyName);
+  
+return generator(townName, countyName);
 }
 
 /**
@@ -853,7 +855,8 @@ export function getDealExample(
       loanType: "Development Finance",
     };
   }
-  return generator(townName);
+  
+return generator(townName);
 }
 
 /**
@@ -866,7 +869,8 @@ export function getCountyOverview(
   const region = getRegion(countySlug);
   const variants = COUNTY_OVERVIEW_VARIANTS[region];
   const selected = pickVariant(variants, countySlug);
-  return selected;
+  
+return selected;
 }
 
 /**
@@ -881,7 +885,8 @@ export function getTownOverview(
   const variants = TOWN_OVERVIEW_VARIANTS[region];
   const townSlug = townName.toLowerCase().replace(/\s+/g, "-");
   const generator = pickVariant(variants, townSlug);
-  return generator(townName, countyName);
+  
+return generator(townName, countyName);
 }
 
 // ─────────────────────────────────────────────────────────
@@ -993,7 +998,8 @@ function formatPrice(amount: number): string {
   if (amount >= 1_000_000) {
     return `£${(amount / 1_000_000).toFixed(1)}M`;
   }
-  return `£${amount.toLocaleString("en-GB")}`;
+  
+return `£${amount.toLocaleString("en-GB")}`;
 }
 
 function getVolumeDescription(count: number): string {
@@ -1001,7 +1007,8 @@ function getVolumeDescription(count: number): string {
   if (count >= 2000) return "active";
   if (count >= 1000) return "healthy";
   if (count >= 500) return "steady";
-  return "focused";
+  
+return "focused";
 }
 
 // ─────────────────────────────────────────────────────────
@@ -1098,22 +1105,26 @@ const SERVICE_DATA_COMMENTARY: Record<string, (townName: string, data: TownFaqDa
     if (!data.medianPrice) return null;
     const gdvEst = data.medianByType?.["S"] ? data.medianByType["S"] * 6 : data.medianPrice * 4;
     const vol = data.transactionCount12m ? `${data.transactionCount12m.toLocaleString("en-GB")} sales in the past year` : "active transaction volumes";
-    return `The ${townName} residential market — with a median price of ${formatPrice(data.medianPrice)} and ${vol} — provides strong comparable evidence for development appraisals. A typical 6-unit scheme here would target a GDV around ${formatPrice(gdvEst)}, with senior development debt available at 60-70% of that figure. ${data.yoyChange !== undefined ? (data.yoyChange >= 0 ? `Year-on-year price growth of ${data.yoyChange}% supports lender confidence in exit valuations.` : `With prices adjusting ${Math.abs(data.yoyChange)}% year-on-year, lenders will apply a cautious GDV assessment — presenting your scheme with strong pre-sale evidence is key.`) : ""}`;
+    
+return `The ${townName} residential market — with a median price of ${formatPrice(data.medianPrice)} and ${vol} — provides strong comparable evidence for development appraisals. A typical 6-unit scheme here would target a GDV around ${formatPrice(gdvEst)}, with senior development debt available at 60-70% of that figure. ${data.yoyChange !== undefined ? (data.yoyChange >= 0 ? `Year-on-year price growth of ${data.yoyChange}% supports lender confidence in exit valuations.` : `With prices adjusting ${Math.abs(data.yoyChange)}% year-on-year, lenders will apply a cautious GDV assessment — presenting your scheme with strong pre-sale evidence is key.`) : ""}`;
   },
   "mezzanine-finance": (townName, data) => {
     if (!data.medianPrice) return null;
     const equity15pct = Math.round(data.medianPrice * 4 * 0.15);
-    return `For a typical ${townName} development with a median property value of ${formatPrice(data.medianPrice)}, mezzanine finance can reduce your equity requirement from approximately ${formatPrice(Math.round(data.medianPrice * 4 * 0.35))} to as little as ${formatPrice(equity15pct)} — freeing capital to pursue multiple projects simultaneously across ${townName} and the surrounding area.`;
+    
+return `For a typical ${townName} development with a median property value of ${formatPrice(data.medianPrice)}, mezzanine finance can reduce your equity requirement from approximately ${formatPrice(Math.round(data.medianPrice * 4 * 0.35))} to as little as ${formatPrice(equity15pct)} — freeing capital to pursue multiple projects simultaneously across ${townName} and the surrounding area.`;
   },
   "bridging-loans": (townName, data) => {
     if (!data.medianPrice) return null;
     const bridgeAmount = Math.round(data.medianPrice * 0.75);
-    return `With a median property price of ${formatPrice(data.medianPrice)} in ${townName}, a typical bridging facility at 75% LTV would provide ${formatPrice(bridgeAmount)} for an acquisition. ${data.transactionCount12m ? `The area's ${data.transactionCount12m.toLocaleString("en-GB")} annual transactions provide strong resale evidence, giving bridging lenders confidence in exit valuations whether you plan to sell, refinance, or develop.` : ""}`;
+    
+return `With a median property price of ${formatPrice(data.medianPrice)} in ${townName}, a typical bridging facility at 75% LTV would provide ${formatPrice(bridgeAmount)} for an acquisition. ${data.transactionCount12m ? `The area's ${data.transactionCount12m.toLocaleString("en-GB")} annual transactions provide strong resale evidence, giving bridging lenders confidence in exit valuations whether you plan to sell, refinance, or develop.` : ""}`;
   },
   "equity-jv": (townName, data) => {
     if (!data.medianPrice) return null;
     const schemeGdv = data.medianByType?.["S"] ? data.medianByType["S"] * 10 : data.medianPrice * 8;
-    return `${townName}'s property market — where the median price sits at ${formatPrice(data.medianPrice)} — offers attractive development economics for JV partners. A medium-scale scheme here targeting a GDV of ${formatPrice(schemeGdv)} could deliver net development profits of 18-25% on cost, making it a compelling proposition for equity investors seeking exposure to the ${townName} market.`;
+    
+return `${townName}'s property market — where the median price sits at ${formatPrice(data.medianPrice)} — offers attractive development economics for JV partners. A medium-scale scheme here targeting a GDV of ${formatPrice(schemeGdv)} could deliver net development profits of 18-25% on cost, making it a compelling proposition for equity investors seeking exposure to the ${townName} market.`;
   },
   "refurbishment-finance": (townName, data) => {
     if (!data.medianPrice || !data.medianByType) return null;
@@ -1122,21 +1133,25 @@ const SERVICE_DATA_COMMENTARY: Record<string, (townName: string, data: TownFaqDa
     if (!terraced && !flat) return null;
     const target = terraced ?? flat;
     const refurbCost = Math.round(target * 0.2);
-    return `Refurbishment opportunities in ${townName} are underpinned by a median ${terraced ? "terraced house" : "flat"} price of ${formatPrice(target)}. A typical light refurbishment budget of ${formatPrice(refurbCost)} (20% of purchase price) funded through a bridging facility can unlock meaningful value uplift — particularly for properties below the area median that benefit from cosmetic modernisation.`;
+    
+return `Refurbishment opportunities in ${townName} are underpinned by a median ${terraced ? "terraced house" : "flat"} price of ${formatPrice(target)}. A typical light refurbishment budget of ${formatPrice(refurbCost)} (20% of purchase price) funded through a bridging facility can unlock meaningful value uplift — particularly for properties below the area median that benefit from cosmetic modernisation.`;
   },
   "commercial-mortgages": (townName, data) => {
     if (!data.medianPrice) return null;
-    return `${townName}'s property market fundamentals — with a median residential value of ${formatPrice(data.medianPrice)}${data.transactionCount12m ? ` and ${data.transactionCount12m.toLocaleString("en-GB")} transactions annually` : ""} — support commercial property values in the area. Rental yields on well-let commercial assets typically reflect the strength of the local residential market, making ${townName} an area where commercial mortgage lenders are willing to lend.`;
+    
+return `${townName}'s property market fundamentals — with a median residential value of ${formatPrice(data.medianPrice)}${data.transactionCount12m ? ` and ${data.transactionCount12m.toLocaleString("en-GB")} transactions annually` : ""} — support commercial property values in the area. Rental yields on well-let commercial assets typically reflect the strength of the local residential market, making ${townName} an area where commercial mortgage lenders are willing to lend.`;
   },
   "development-exit-finance": (townName, data) => {
     if (!data.medianPrice) return null;
-    return `For completed developments in ${townName}, where the median sale price is ${formatPrice(data.medianPrice)}, exit finance can significantly reduce your holding costs while units sell. ${data.yoyChange !== undefined && data.yoyChange < 0 ? `In the current market where prices have adjusted ${Math.abs(data.yoyChange)}% year-on-year, having the runway of a lower-cost exit facility is particularly valuable — it prevents forced sales at below-market prices.` : `With a stable local market, exit lenders view ${townName} schemes favourably, typically offering terms that save 2-4% per annum versus rolling over the original development facility.`}`;
+    
+return `For completed developments in ${townName}, where the median sale price is ${formatPrice(data.medianPrice)}, exit finance can significantly reduce your holding costs while units sell. ${data.yoyChange !== undefined && data.yoyChange < 0 ? `In the current market where prices have adjusted ${Math.abs(data.yoyChange)}% year-on-year, having the runway of a lower-cost exit facility is particularly valuable — it prevents forced sales at below-market prices.` : `With a stable local market, exit lenders view ${townName} schemes favourably, typically offering terms that save 2-4% per annum versus rolling over the original development facility.`}`;
   },
 };
 
 /**
  * Returns market commentary for a service page, enriched with local data.
- * Prepends a data-driven paragraph to the generic commentary when stats are available.
+ * Prepends a data-driven paragraph and appends broker-voice paragraphs
+ * with internal links for improved word count and semantic coverage.
  */
 export function getEnrichedMarketCommentary(
   serviceSlug: string,
@@ -1146,17 +1161,85 @@ export function getEnrichedMarketCommentary(
   data?: TownFaqData,
 ): string[] {
   const generic = getMarketCommentary(serviceSlug, countySlug, townName, countyName);
-  if (!data) return generic;
 
   const generator = SERVICE_DATA_COMMENTARY[serviceSlug];
-  const dataParag = generator?.(townName, data) ?? null;
+  const dataParag = data ? (generator?.(townName, data) ?? null) : null;
 
-  return dataParag ? [dataParag, ...generic] : generic;
+  const base = dataParag ? [dataParag, ...generic] : generic;
+
+  // Append additional service-specific closing paragraphs with NeuronWriter terms and internal links
+  const closingParas = SERVICE_CLOSING_COMMENTARY[serviceSlug];
+  if (closingParas) {
+    const townSlug = townName.toLowerCase().replace(/\s+/g, "-");
+    const selected = pickVariant(closingParas, townSlug + serviceSlug);
+    
+return [...base, ...selected(townName, countyName)];
+  }
+
+  return base;
 }
 
 /**
+ * Closing commentary paragraphs per service that add internal links,
+ * NeuronWriter content terms, and broker-voice content.
+ */
+const SERVICE_CLOSING_COMMENTARY: Record<string, ((townName: string, countyName: string) => string[])[]> = {
+  "development-finance": [
+    (townName, countyName) => [
+      `As a specialist property development finance broker, we work with experienced developers and first-time developers alike across ${townName} and the wider ${countyName} area. Our panel of over 100 lenders includes high-street banks, challenger banks, specialist development lenders, and debt funds, giving you access to the full range of funding solutions for your development project. Whether your scheme is a new-build residential development, a commercial-to-residential conversion, or a mixed-use project, we source the right development loan from the right lender.`,
+      `Every development finance application we submit is supported by a credible cost plan, realistic GDV assessment, and a build programme that lenders can underwrite with confidence. For ${townName} schemes, we ensure your Gross Development Value is evidenced by genuine local comparable sales data from Land Registry records, not aspirational figures that will be challenged at valuation. This attention to detail, combined with established lender relationships, is how we consistently secure competitive terms for property developers across ${countyName}.`,
+    ],
+    (townName, countyName) => [
+      `Property development finance in ${townName} requires a broker who understands both the local market and the lending landscape. We arrange development loans for ground-up schemes, conversion projects, and mixed-use developments across ${countyName}, working with specialist lenders who are actively deploying capital in the region. From initial appraisal through to drawdown, our team manages the entire process, including lender negotiations, surveyor coordination, and legal oversight.`,
+      `If you are exploring development opportunities in ${townName}, start by understanding the numbers. Our approach begins with a thorough development appraisal that models the full capital stack, including senior debt, potential mezzanine finance, and your equity contribution. This ensures the scheme works financially before we approach lenders. With interest rates, arrangement fees, monitoring surveyor costs, and contingencies all factored in, you will have a realistic picture of your development finance costs from the outset.`,
+    ],
+  ],
+  "bridging-loans": [
+    (townName, countyName) => [
+      `As specialist bridging loan brokers, we arrange fast property finance for acquisitions, chain breaks, and auction purchases across ${townName} and ${countyName}. Our panel includes regulated and unregulated bridging lenders who can complete in as little as 5 working days for straightforward cases. Whether you need a first-charge bridge, a second-charge facility, or a refurbishment bridge with a retained works element, we source the most competitive terms from across the market.`,
+      `Every bridging facility we arrange has a clear exit strategy agreed from the outset. Whether your exit is a sale, refinance onto a longer-term mortgage, or transition into a development finance facility, we ensure the bridge is structured to give you sufficient time and flexibility to execute your plan. For ${townName} properties, local valuation turnaround times and market liquidity both influence the optimal bridge term and structure.`,
+    ],
+    (townName, countyName) => [
+      `Bridging finance in ${townName} serves a wide range of property strategies. Investors use bridging loans to secure below-market-value properties at auction before the competition, developers use bridge-to-development structures to control sites while planning is secured, and landlords use refurbishment bridges to add value before refinancing onto buy-to-let mortgages at higher valuations. Each strategy requires a lender who understands the specific use case and can move at the pace required.`,
+      `Our role as your bridging loan broker is to match the urgency of your transaction with a lender who can deliver. For auction purchases in ${countyName}, this means pre-agreed terms, same-day valuation instructions, and a legal process that completes within the auction deadline. For less time-pressured acquisitions, we negotiate the most competitive rate and LTV from our panel, ensuring you do not pay more than necessary for the speed premium that bridging provides.`,
+    ],
+  ],
+  "mezzanine-finance": [
+    (townName, countyName) => [
+      `Mezzanine finance is a powerful tool for property developers in ${townName} who want to maximise their capital efficiency. By stretching total leverage from the senior lender's cap of 60-70% to 85-90% of total development costs, mezzanine dramatically reduces the equity you need to inject into each project. This freed capital can be deployed into additional schemes, effectively multiplying your development capacity across ${countyName} and beyond.`,
+      `We coordinate the entire mezzanine process, from identifying mezzanine-friendly senior lenders through to negotiating the intercreditor agreement that governs the relationship between both tranches. This coordination is essential because the mezzanine facility must be structured in harmony with the senior debt, not bolted on as an afterthought. Our experience in structuring layered capital stacks means we can identify and resolve potential structural issues before they delay your project.`,
+    ],
+  ],
+  "equity-jv": [
+    (townName, countyName) => [
+      `Finding equity and joint venture capital for ${townName} developments requires a broker with genuine investor relationships. We connect property developers with family offices, high-net-worth individuals, and institutional capital partners who are actively seeking UK property development exposure. Each introduction is carefully matched: the investor's risk appetite, return expectations, and governance requirements must align with the developer's project and management style.`,
+      `Joint venture structures we arrange across ${countyName} include profit-share arrangements (developer manages, investor funds), land-for-equity deals (developer contributes consented site, investor funds construction), and co-investment models where both parties contribute capital alongside senior debt. The right structure depends on what you bring to the deal and the return profile that makes the project work for both parties.`,
+    ],
+  ],
+  "refurbishment-finance": [
+    (townName, countyName) => [
+      `Refurbishment finance in ${townName} covers the full range of renovation and conversion projects, from light cosmetic upgrades to heavy structural alteration and change of use. As specialist brokers, we assess the scope of your works and match the project to the right product. Light refurbishment, typically costing under £50,000 or 15% of property value, can be funded through a bridging loan with a retained works element. Heavy refurbishment, involving structural changes or planning-dependent works, requires a dedicated facility with surveyor-verified drawdowns.`,
+      `Popular refurbishment strategies across ${countyName} include commercial-to-residential conversions under Permitted Development Rights, HMO conversions for the professional rental market, Victorian and Edwardian house renovations, and energy efficiency upgrade programmes that improve EPC ratings. Each strategy has distinct lending criteria, and we source the right product from specialist lenders who understand the ${townName} market.`,
+    ],
+  ],
+  "commercial-mortgages": [
+    (townName, countyName) => [
+      `Commercial mortgage lending in ${townName} is driven by the property's income characteristics rather than the borrower's personal earnings. Rental coverage ratios, tenant covenant quality, and lease terms determine both the rate and leverage available to you. As specialist commercial mortgage brokers, we present your ${countyName} property to lenders whose criteria match your asset's profile, negotiating the optimal combination of rate, LTV, and term for your investment strategy.`,
+      `Whether you are acquiring a new commercial investment, refinancing existing debt onto better terms, or transitioning a completed development into a long-term hold, our panel of lenders includes high-street banks, building societies, specialist commercial funders, and insurance company lending arms. Each has different appetite and pricing for commercial property in ${townName}, and our role is to benchmark these options and secure the most competitive available terms on your behalf.`,
+    ],
+  ],
+  "development-exit-finance": [
+    (townName, countyName) => [
+      `Development exit finance is one of the most cost-effective decisions a developer can make once construction is complete. For ${townName} schemes where the build is finished but sales are ongoing, replacing an expired development facility with a dedicated exit product typically saves 2-4% per annum in interest costs. This saving compounds quickly on larger outstanding balances, and the removal of monitoring surveyor fees and non-utilisation charges provides additional relief.`,
+      `We arrange exit finance for completed developments across ${countyName}, coordinating the transition from development lender to exit provider to ensure there is no gap in funding. The process involves a Red Book valuation of the completed units, legal transfer of the security, and agreement of a repayment schedule that reflects your projected sales timeline. With established relationships across the exit finance market, we typically secure terms within 2-3 weeks of initial enquiry.`,
+    ],
+  ],
+};
+
+/**
  * Returns data-enriched service FAQs that inject real local market data.
- * Adds 2-3 town-specific questions to the existing service FAQs.
+ * Adds town-specific questions and NeuronWriter "People Also Ask" FAQs.
+ * Targets 8-10 FAQs per service for comprehensive coverage.
  */
 export function getServiceFaqsWithData(
   serviceSlug: string,
@@ -1165,47 +1248,470 @@ export function getServiceFaqsWithData(
   data?: TownFaqData,
 ): FAQ[] {
   const baseFaqs = getFaqs(serviceSlug, townName, countyName);
-  if (!data?.medianPrice) return baseFaqs;
 
   const localFaqs: FAQ[] = [];
 
-  // Add a data-driven FAQ specific to this town + service
-  if (serviceSlug === "development-finance" && data.medianByType) {
-    const sorted = Object.entries(data.medianByType).filter(([,v]) => v > 0).sort(([,a],[,b]) => b - a);
-    if (sorted.length >= 2) {
+  // Add data-driven FAQs specific to this town + service
+  if (data?.medianPrice) {
+    if (serviceSlug === "development-finance" && data.medianByType) {
+      const sorted = Object.entries(data.medianByType).filter(([,v]) => v > 0).sort(([,a],[,b]) => b - a);
+      if (sorted.length >= 2) {
+        localFaqs.push({
+          question: `What GDV can I expect for a development in ${townName}?`,
+          answer: `Based on current Land Registry data, the median property price in ${townName} is ${formatPrice(data.medianPrice)}. ${PROPERTY_TYPE_LABELS[sorted[0][0]] ?? sorted[0][0]} command ${formatPrice(sorted[0][1])} while ${PROPERTY_TYPE_LABELS_LOWER[sorted[sorted.length-1][0]] ?? sorted[sorted.length-1][0]} average ${formatPrice(sorted[sorted.length-1][1])}. A 6-unit development of ${PROPERTY_TYPE_LABELS_LOWER[sorted[1][0]] ?? "mixed"} properties could target a GDV of approximately ${formatPrice(sorted[1][1] * 6)}. Your actual GDV will depend on specification, exact location, and market conditions at completion.`,
+        });
+      }
+    }
+
+    if (serviceSlug === "bridging-loans" && data.transactionCount12m) {
       localFaqs.push({
-        question: `What GDV can I expect for a development in ${townName}?`,
-        answer: `Based on current Land Registry data, the median property price in ${townName} is ${formatPrice(data.medianPrice)}. ${PROPERTY_TYPE_LABELS[sorted[0][0]] ?? sorted[0][0]} command ${formatPrice(sorted[0][1])} while ${PROPERTY_TYPE_LABELS_LOWER[sorted[sorted.length-1][0]] ?? sorted[sorted.length-1][0]} average ${formatPrice(sorted[sorted.length-1][1])}. A 6-unit development of ${PROPERTY_TYPE_LABELS_LOWER[sorted[1][0]] ?? "mixed"} properties could target a GDV of approximately ${formatPrice(sorted[1][1] * 6)}. Your actual GDV will depend on specification, exact location, and market conditions at completion.`,
+        question: `How quickly can I get a bridging loan for a ${townName} property?`,
+        answer: `For properties in ${townName}, bridging completions typically take 7-14 working days. With ${data.transactionCount12m.toLocaleString("en-GB")} transactions recorded in the area over the past year, local valuers have strong comparable evidence, which can accelerate the valuation process. For auction purchases in ${townName}, we recommend getting a decision in principle before bidding.`,
+      });
+    }
+
+    if (serviceSlug === "refurbishment-finance" && data.medianByType?.["T"]) {
+      localFaqs.push({
+        question: `What refurbishment budget should I plan for in ${townName}?`,
+        answer: `In ${townName}, where terraced houses have a median value of ${formatPrice(data.medianByType["T"])}, a light refurbishment typically costs ${formatPrice(Math.round(data.medianByType["T"] * 0.1))}-${formatPrice(Math.round(data.medianByType["T"] * 0.15))} (10-15% of property value). Heavy refurbishment or conversion projects may require ${formatPrice(Math.round(data.medianByType["T"] * 0.25))}-${formatPrice(Math.round(data.medianByType["T"] * 0.4))} (25-40% of value). The right refurbishment finance product depends on whether works are cosmetic (light) or structural (heavy).`,
+      });
+    }
+
+    if (serviceSlug === "commercial-mortgages") {
+      localFaqs.push({
+        question: `What yield should I expect on commercial property in ${townName}?`,
+        answer: `Commercial yields in ${townName} vary by property type and tenant quality, but typically range from 5-8% for well-let assets. The area's residential market fundamentals, with a median price of ${formatPrice(data.medianPrice)}${data.yoyChange !== undefined ? ` and ${data.yoyChange >= 0 ? "positive" : "slightly negative"} price movement` : ""}, support local commercial values. Multi-let properties with diversified income streams typically attract the strongest lender appetite and most competitive mortgage terms.`,
       });
     }
   }
 
-  if (serviceSlug === "bridging-loans" && data.transactionCount12m) {
-    localFaqs.push({
-      question: `How quickly can I get a bridging loan for a ${townName} property?`,
-      answer: `For properties in ${townName}, bridging completions typically take 7-14 working days. With ${data.transactionCount12m.toLocaleString("en-GB")} transactions recorded in the area over the past year, local valuers have strong comparable evidence, which can accelerate the valuation process. For auction purchases in ${townName}, we recommend getting a decision in principle before bidding.`,
-    });
-  }
+  // Add NeuronWriter "People Also Ask" FAQs per service
+  const paaFaqs = SERVICE_PAA_FAQS[serviceSlug];
+  const extraFaqs = paaFaqs ? paaFaqs(townName, countyName) : [];
 
-  if (serviceSlug === "refurbishment-finance" && data.medianByType?.["T"]) {
-    localFaqs.push({
-      question: `What refurbishment budget should I plan for in ${townName}?`,
-      answer: `In ${townName}, where terraced houses have a median value of ${formatPrice(data.medianByType["T"])}, a light refurbishment typically costs ${formatPrice(Math.round(data.medianByType["T"] * 0.1))}-${formatPrice(Math.round(data.medianByType["T"] * 0.15))} (10-15% of property value). Heavy refurbishment or conversion projects may require ${formatPrice(Math.round(data.medianByType["T"] * 0.25))}-${formatPrice(Math.round(data.medianByType["T"] * 0.4))} (25-40% of value). The right refurbishment finance product depends on whether works are cosmetic (light) or structural (heavy).`,
-    });
-  }
+  // Combine: first 2 base FAQs, then local data FAQs, then remaining base FAQs, then PAA FAQs
+  const combined = localFaqs.length > 0
+    ? [...baseFaqs.slice(0, 2), ...localFaqs, ...baseFaqs.slice(2), ...extraFaqs]
+    : [...baseFaqs, ...extraFaqs];
 
-  if (serviceSlug === "commercial-mortgages" && data.medianPrice) {
-    localFaqs.push({
-      question: `What yield should I expect on commercial property in ${townName}?`,
-      answer: `Commercial yields in ${townName} vary by property type and tenant quality, but typically range from 5-8% for well-let assets. The area's residential market fundamentals — with a median price of ${formatPrice(data.medianPrice)}${data.yoyChange !== undefined ? ` and ${data.yoyChange >= 0 ? "positive" : "slightly negative"} price movement` : ""} — support local commercial values. Multi-let properties with diversified income streams typically attract the strongest lender appetite and most competitive mortgage terms.`,
-    });
-  }
+  // Cap at 10 FAQs to keep manageable
+  return combined.slice(0, 10);
+}
 
-  // Insert local FAQs after the first 2 base FAQs
-  if (localFaqs.length > 0) {
-    return [...baseFaqs.slice(0, 2), ...localFaqs, ...baseFaqs.slice(2)];
-  }
-  return baseFaqs;
+/**
+ * "People Also Ask" and content question FAQs per service.
+ * Sourced from NeuronWriter competitor analysis.
+ */
+const SERVICE_PAA_FAQS: Record<string, (townName: string, countyName: string) => FAQ[]> = {
+  "development-finance": (townName, countyName) => [
+    {
+      question: `Can I get development finance as a first-time developer in ${townName}?`,
+      answer: `Yes, first-time developers can access development finance, though the terms will reflect the additional risk a lender is taking. You will typically need a larger deposit (30-40% equity), a strong professional team around you (experienced contractor, quantity surveyor, and ideally a project manager), and a scheme that works comfortably on conservative assumptions. Several lenders on our panel specialise in working with newer developers and can offer competitive terms for well-structured first projects in ${countyName}.`,
+    },
+    {
+      question: "Can you get 100% development finance?",
+      answer: `Achieving 100% of project costs through a single lender is extremely rare. However, you can reach 100% funding by combining senior development finance (60-70% of costs) with mezzanine finance (stretching to 85-90%) and a small equity contribution. In some cases, if your land was purchased at a significant discount to current market value, the trapped equity in the site can serve as your contribution. For developers with strong track records and high-margin schemes, some lenders will also consider 100% of build costs with a reduced land drawdown.`,
+    },
+    {
+      question: "How much deposit do I need for development finance?",
+      answer: `Most development finance lenders require the developer to contribute 10-35% of total project costs as equity. The exact requirement depends on your experience level, the scheme's profit margin, and the lender's risk appetite. A typical structure funds the land at 50-65% day-one (you fund the balance), then 100% of build costs drawn in stages. Using mezzanine finance alongside senior debt can reduce your cash equity requirement to 10-15% of total costs. We model the optimal capital structure for each ${townName} project to minimise your equity outlay.`,
+    },
+    {
+      question: "How does the interest work on development finance?",
+      answer: `Interest on development finance is almost always rolled up, meaning it is added to the loan balance rather than paid monthly. You only pay interest on the amount drawn, not the full facility, so your interest cost increases as construction progresses and more funds are drawn. At completion, the total loan plus rolled-up interest is repaid from unit sales proceeds. This structure means you do not need to service monthly interest payments during the build phase, which is important because the development generates no income until units are sold.`,
+    },
+    {
+      question: `Can you fund projects under Permitted Development Rights in ${countyName}?`,
+      answer: `Absolutely. Permitted Development conversions, particularly office-to-residential under Class MA, are a popular use case for development and refurbishment finance. Several lenders on our panel actively target PD projects because the reduced planning risk makes them attractive from an underwriting perspective. For PD conversions in ${countyName}, lenders will want evidence of prior approval (or confirmation it is not required), a structural survey confirming the building is suitable for conversion, and a cost plan from a credible contractor or quantity surveyor.`,
+    },
+  ],
+
+  "bridging-loans": (townName, countyName) => [
+    {
+      question: `What deposit do I need for a bridging loan in ${townName}?`,
+      answer: `Bridging lenders typically advance up to 70-75% of the property value, meaning you need a deposit of 25-30%. Some specialist lenders offer up to 80% LTV for prime residential assets in liquid markets, reducing the deposit requirement to 20%. For borrowers with additional security (a charge over another property in your portfolio), it is sometimes possible to achieve an effective 100% of the purchase price on the bridged asset. We assess your full position to structure the most capital-efficient bridge for your ${townName} acquisition.`,
+    },
+    {
+      question: "How does a bridging loan differ from development finance?",
+      answer: `Bridging loans are short-term facilities (typically 3-18 months) secured against property, designed for speed of completion. They are drawn as a single advance against the property's current value. Development finance is a longer-term construction facility (12-24 months) drawn in stages against build progress, based on the property's projected completed value (GDV). Bridging suits acquisitions, chain breaks, and light refurbishment. Development finance suits ground-up builds and heavy conversion projects that require staged funding.`,
+    },
+    {
+      question: `Can I get a bridging loan with bad credit in ${countyName}?`,
+      answer: `Yes, some specialist bridging lenders consider borrowers with adverse credit history, though terms will reflect the additional risk. The bridging market is more asset-focused than income-focused, meaning the property value and your exit strategy carry more weight than your credit score. Borrowers with historic CCJs, defaults, or previous mortgage arrears can still access bridging finance, though expect higher rates (typically 0.85-1.2% per month) and lower leverage (maximum 60-65% LTV). We work with several ${countyName} lenders who specialise in adverse credit bridging.`,
+    },
+  ],
+
+  "mezzanine-finance": (townName, countyName) => [
+    {
+      question: `How much can you borrow with mezzanine finance in ${townName}?`,
+      answer: `Mezzanine finance typically bridges the gap between senior debt (60-70% of costs) and 85-90% of total project costs. The mezzanine tranche itself usually represents 15-25% of total costs. For a ${townName} development with total costs of £3M, the mezzanine portion would typically be £450,000-£750,000. Minimum mezzanine facility sizes are generally £200,000-£500,000, depending on the provider. The maximum amount depends on the scheme's profit margin, which must be sufficient to absorb the additional finance costs.`,
+    },
+    {
+      question: "Is mezzanine finance regulated by the FCA?",
+      answer: `Mezzanine finance for property development is generally unregulated by the Financial Conduct Authority, as it is lending to businesses (developer SPVs) for commercial purposes. However, if the development involves property that the borrower or a family member will occupy, certain elements may fall within regulatory scope. The mezzanine lender will assess this on a case-by-case basis. Our role as brokers is to ensure the correct regulatory classification is applied and that both senior and mezzanine facilities are appropriately structured.`,
+    },
+  ],
+
+  "equity-jv": (townName, countyName) => [
+    {
+      question: `How long does it take to find a JV partner for a ${townName} development?`,
+      answer: `The timeline for securing equity or JV capital varies depending on the deal's stage and the investor type. For well-prepared opportunities with full planning permission, a credible cost plan, and strong comparable evidence, we can typically introduce suitable equity partners within 2-4 weeks. The negotiation and legal documentation phase adds a further 4-8 weeks. For earlier-stage deals or larger schemes requiring institutional capital, the process may take 3-6 months. Having a professional information memorandum prepared before approaching investors accelerates the process significantly.`,
+    },
+    {
+      question: "Do I lose control of my project in a JV?",
+      answer: `Not necessarily. The governance structure is negotiated as part of the JV agreement, and most arrangements leave day-to-day project management decisions with the developer. Equity partners typically require approval rights over material decisions (contractor appointment, specification changes exceeding a threshold, pricing strategy adjustments, and cost overruns above an agreed percentage), but operational control remains with the development manager. The key is negotiating clear boundaries upfront so both parties understand their roles and decision-making authority.`,
+    },
+  ],
+
+  "refurbishment-finance": (townName, countyName) => [
+    {
+      question: `Can I get refurbishment finance for a listed building in ${countyName}?`,
+      answer: `Yes, though listed building refurbishment requires specialist lenders who understand the additional constraints. Listed Building Consent must be obtained for alterations affecting the building's character, and works must comply with conservation requirements. Build costs are typically 20-40% higher than equivalent non-listed works due to the use of traditional materials and specialist contractors. Several lenders on our panel have experience financing listed building projects in ${countyName} and can structure facilities that account for the longer timescales and higher costs involved.`,
+    },
+    {
+      question: "What is the difference between refurbishment finance and a bridging loan?",
+      answer: `Light refurbishment (cosmetic works under £50,000 or 15% of property value) is typically funded through a standard bridging loan with a retained works element drawn from the gross advance. Heavy refurbishment (structural alterations, change of use, or works exceeding £50,000) requires a dedicated refurbishment facility with staged drawdowns verified by a surveyor. The key distinction is complexity of works: if the works require planning permission, building regulations approval, or structural alteration, you need a specialist refurbishment product rather than a simple bridge.`,
+    },
+  ],
+
+  "commercial-mortgages": (townName, countyName) => [
+    {
+      question: `Can I get a commercial mortgage on an empty property in ${townName}?`,
+      answer: `Vacant commercial properties can be financed, though terms are more restrictive than for fully let assets. Lenders assess the property's potential rental income and the credibility of your letting strategy rather than current income. Expect lower LTV (typically 50-60%), higher interest rates, and potentially a requirement for interest to be serviced from other income sources during the void period. Having evidence of tenant interest, heads of terms with potential occupiers, or a strong marketing strategy improves your available terms. Some lenders will also consider a transitional approach using a bridging loan until the property is let.`,
+    },
+    {
+      question: "Do I need a personal guarantee for a commercial mortgage?",
+      answer: `Personal guarantees are common for smaller commercial mortgage facilities (under £2M) and where the borrowing entity is a single-purpose vehicle with limited assets beyond the property. The guarantee gives the lender recourse to your personal assets if rental income is insufficient to service the debt. Some lenders offer non-recourse lending without personal guarantees, but this typically requires lower leverage (50-60% LTV), stronger income coverage, and a well-diversified tenant base. We negotiate guarantee exposure carefully, sometimes limiting liability to interest shortfall rather than the full loan amount.`,
+    },
+  ],
+
+  "development-exit-finance": (townName, countyName) => [
+    {
+      question: `How many units need to be unsold to qualify for exit finance in ${townName}?`,
+      answer: `Most development exit lenders require a minimum of 2-3 unsold units to justify the cost and complexity of a separate facility. For single remaining units of higher value, some specialist lenders will consider an exit bridge. There is no maximum limit on unsold units. Exit finance is commonly used for schemes where the majority of units remain unsold at practical completion, providing a lower-cost holding facility for the entire sales period. For ${townName} schemes, the local sales market and comparable evidence determine the lender's appetite and the terms available.`,
+    },
+    {
+      question: "Can I use exit finance if my development lender has already extended the facility?",
+      answer: `Yes, and this is a common scenario. Many developers extend their development facility once or twice before exploring exit finance, only to discover that exit finance would have been cheaper from the outset. Even after extensions, transitioning to a dedicated exit product typically saves money because exit rates are lower and the expensive monitoring surveyor and non-utilisation charges associated with development facilities no longer apply. We regularly arrange exit finance for schemes that have already been on one or more development facility extensions.`,
+    },
+  ],
+};
+
+// ─────────────────────────────────────────────────────────
+// Rich Content Sections for Service-Location Pages
+// ─────────────────────────────────────────────────────────
+
+export interface ContentSection {
+  title: string;
+  content: string[];
+}
+
+const SERVICE_PAGE_SECTIONS: Record<
+  string,
+  (townName: string, countyName: string, serviceSlug: string, data?: TownFaqData) => ContentSection[]
+> = {
+  "development-finance": (townName, countyName, serviceSlug, data) => {
+    const priceContext = data?.medianPrice
+      ? ` With median property prices at ${formatPrice(data.medianPrice)} in ${townName}, lenders have strong comparable evidence for assessing Gross Development Value and structuring loan facilities accordingly.`
+      : "";
+
+    return [
+      {
+        title: `Why Choose a Development Finance Broker in ${townName}?`,
+        content: [
+          `Securing the right <a href="/services/development-finance">development finance</a> for your ${townName} project is about more than headline interest rates. A specialist development finance broker understands how lenders assess construction risk, how monitoring surveyors operate across ${countyName}, and which funders are actively deploying capital in your area. We arrange property development finance from our panel of 100+ lenders, negotiating terms that reflect your scheme's specific merits rather than generic lending criteria.${priceContext}`,
+          `The development finance market has become increasingly competitive, with challenger banks, specialist lenders, and debt funds all seeking to lend against quality schemes. Navigating this landscape without a broker means approaching lenders blind, with no benchmark for what constitutes a good offer. Our role is to present your ${townName} development to the right funders, manage the application process, and negotiate the best available terms on your behalf. As experienced brokers, we understand what each lender needs to see in a development finance application and can address potential concerns before they become obstacles.`,
+          `Whether you are an experienced developer with a proven track record or a first-time developer looking to fund your first ground-up project, having a broker who understands the ${countyName} market gives you a significant advantage. We can advise on realistic GDV assumptions, appropriate cost plan structures, and the specific documentation that lenders require for ${townName} schemes. <a href="/deal-room">Submit your project</a> for indicative terms within 24 hours.`,
+        ],
+      },
+      {
+        title: `Types of Development Projects We Fund in ${countyName}`,
+        content: [
+          `Our development finance service covers the full range of project types across ${countyName}: ground-up residential schemes from single houses to 100+ unit developments, commercial-to-residential conversions under <a href="/guides/permitted-development-rights-finance">Permitted Development Rights</a>, new-build apartment blocks, mixed-use developments with retail or commercial ground floors, and student accommodation near the area's universities. Each project type has distinct lending criteria, and we match your scheme to funders with genuine appetite for your specific development.`,
+          `In ${townName} and the surrounding area, we regularly arrange development loans for schemes including new-build housing estates, infill developments on brownfield land, office-to-residential conversions under Class MA, and refurbishment projects that go beyond cosmetic works into structural alteration. We also source funding for more specialist property development projects such as care homes, retirement living, and build-to-rent schemes where the exit strategy differs from a standard sales programme.`,
+          `Use our <a href="/calculators/development-finance">development finance calculator</a> to model your project costs and understand the likely capital structure before approaching lenders. This preparation helps you present a credible scheme from the outset, which translates directly into better terms and faster completion.`,
+        ],
+      },
+      {
+        title: `Development Finance Rates and Costs in ${townName}`,
+        content: [
+          `Development finance interest rates for ${townName} projects typically range from 6.5% to 11% per annum, depending on scheme size, developer experience, leverage, and the lender's current appetite. Interest is usually rolled up (added to the loan balance) rather than serviced monthly, so you do not need to fund monthly payments during the build phase. This rolled-up structure means the total interest cost depends on your build programme duration and drawdown profile.`,
+          `Beyond the interest rate, your total cost of development finance includes arrangement fees (typically 1.5-2% of the facility), monitoring surveyor fees (£5,000-£15,000 depending on scheme scale), valuation fees, and legal costs for both you and the lender. A comprehensive development appraisal should factor in all these costs from the outset. Our <a href="/guides/how-does-development-finance-work">development finance guide</a> explains each cost component in detail, helping you build an accurate financial model for your ${townName} project.`,
+          `The LTV ratio is typically expressed as a percentage of Gross Development Value (LTGDV), with most senior development lenders offering 60-70% LTGDV or 80-90% of total development costs, whichever is lower. If you need higher leverage, <a href="/services/mezzanine-finance">mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity you need to contribute.`,
+        ],
+      },
+      {
+        title: `Eligibility for Development Finance`,
+        content: [
+          `Development finance lenders assess four core areas: the site (location, planning status, and any constraints), the scheme (design quality, unit mix, and specification), the numbers (purchase price, build costs, GDV, and profit margin), and the developer (track record, financial standing, and professional team). For ${townName} projects, lenders will also consider local market conditions, comparable sales evidence, and the strength of buyer demand in the area.`,
+          `First-time developers can access development finance, though the available terms will reflect the additional risk. Having a strong professional team around you helps significantly. This means an experienced contractor on a JCT or similar contract, a credible quantity surveyor who has verified your cost plan, and ideally a project manager with a track record of delivering schemes to programme. Lenders regulated by the Financial Conduct Authority apply additional criteria for certain loan types, so understanding which product your project requires is important.`,
+          `Planning permission status is the single biggest factor affecting your available terms. Schemes with full, unconditional planning attract the widest lender choice and most competitive rates. Outline permission, planning subject to conditions, or pre-planning sites progressively narrow your options. Read our <a href="/guides/planning-permission-development-finance">planning permission guide</a> for advice on presenting your planning position to lenders.`,
+        ],
+      },
+    ];
+  },
+
+  "bridging-loans": (townName, countyName, serviceSlug, data) => {
+    const priceContext = data?.medianPrice
+      ? ` At a median property price of ${formatPrice(data.medianPrice)} in ${townName}, a typical bridging facility at 75% LTV would provide approximately ${formatPrice(Math.round(data.medianPrice * 0.75))}.`
+      : "";
+
+    return [
+      {
+        title: `Why Choose a Bridging Loan Broker in ${townName}?`,
+        content: [
+          `Speed and certainty define the <a href="/services/bridging-loans">bridging loan</a> market. When you need to complete a property acquisition in ${townName} within days rather than weeks, having a broker who can access the right lender immediately makes the difference between securing a deal and losing it. We arrange bridging finance from specialist lenders who can issue terms within hours and complete in as little as 5-7 working days.${priceContext}`,
+          `The bridging market has expanded significantly, with dozens of lenders offering products that vary widely in pricing, speed, flexibility, and appetite for complex situations. Navigating this market without a broker means approaching lenders individually, each requiring a full application before providing terms. As experienced bridging loan brokers serving ${countyName}, we know which lenders are fastest, which accept non-standard properties, and which offer the most competitive rates for your specific scenario.`,
+          `Whether you are purchasing at auction, securing a time-sensitive site acquisition, breaking a property chain, or funding a short-term hold before refinancing onto a longer-term mortgage, our panel of 100+ lenders includes specialist bridging providers who can deliver. <a href="/deal-room">Submit your project</a> for same-day indicative terms.`,
+        ],
+      },
+      {
+        title: `Types of Bridging Finance Available in ${countyName}`,
+        content: [
+          `We arrange the full range of bridging products across ${countyName}: first-charge residential bridging for straightforward acquisitions, second-charge bridges for borrowers who need additional capital without disturbing an existing mortgage, commercial bridging for offices, retail, and industrial property, and regulated bridging for properties you or a family member will occupy. Each product type has different lender options and pricing structures.`,
+          `Popular bridging use cases in ${townName} include auction purchases (where you typically have 28 days to complete), chain-break funding to secure your next property before selling your current one, bridge-to-development strategies where you acquire a site on a short-term facility before refinancing onto <a href="/services/development-finance">development finance</a>, and <a href="/services/refurbishment-finance">refurbishment bridging</a> that combines acquisition funding with a facility for light works before refinancing onto a buy-to-let mortgage at a higher value.`,
+          `Use our <a href="/calculators/development-finance">finance calculator</a> to model your bridging costs and exit strategy before approaching lenders. Understanding the total cost of your bridge, including interest, arrangement fees, and exit costs, helps you make informed decisions about when bridging is the right solution.`,
+        ],
+      },
+      {
+        title: `Bridging Loan Rates and Costs in ${townName}`,
+        content: [
+          `Bridging loan interest rates for ${townName} properties typically start from 0.55% per month (6.6% per annum) for straightforward residential assets with clean title and a strong exit strategy. Commercial bridging and more complex situations attract rates from 0.65-0.85% per month. These rates are significantly lower than they were five years ago, reflecting the maturity and competitiveness of the bridging market.`,
+          `Additional costs include arrangement fees (typically 1-2% of the gross loan), valuation fees, legal costs for both borrower and lender solicitors, and potentially exit fees (though these are increasingly rare among competitive lenders). Interest can be structured as retained (deducted from the loan advance upfront), serviced (paid monthly), or rolled up (added to the loan balance). For most short-term bridges in ${countyName}, retained interest is the standard approach.`,
+          `The maximum LTV on bridging loans is typically 70-75% for residential property and 65-70% for commercial assets. Some specialist lenders offer higher leverage for specific scenarios, particularly where the exit strategy is strong and the property is in a liquid location. Our role as your broker is to secure the best combination of rate, LTV, speed, and flexibility from across the market.`,
+        ],
+      },
+      {
+        title: `Eligibility for Bridging Finance`,
+        content: [
+          `Bridging lenders are primarily concerned with two things: the property (its value, condition, and saleability) and the exit strategy (how and when you will repay the loan). Your personal income is less important than in traditional mortgage lending, making bridging accessible to borrowers who may not meet conventional lending criteria. The Financial Conduct Authority regulates bridging loans on properties the borrower will occupy, which adds consumer protections but can extend timescales.`,
+          `Acceptable exit strategies include the sale of the bridged property, refinancing onto a term mortgage or <a href="/services/development-finance">development finance</a> facility, the sale of another property in your portfolio, or the receipt of other funds (inheritance, business sale proceeds, etc.). The more certain and documented your exit, the better your available terms. Lenders serving ${townName} typically want evidence that your exit is achievable within the proposed loan term.`,
+          `Properties that can be bridged include standard residential houses and flats, HMOs, commercial premises, mixed-use buildings, land (with or without planning permission), and non-standard construction. Some restrictions apply to properties in very poor condition or with serious title defects, but specialist bridging lenders in our panel handle situations that mainstream funders cannot.`,
+        ],
+      },
+    ];
+  },
+
+  "mezzanine-finance": (townName, countyName, serviceSlug, data) => {
+    const equityContext = data?.medianPrice
+      ? ` For a typical ${townName} development with a GDV around ${formatPrice(data.medianPrice * 4)}, mezzanine could reduce your cash equity requirement from approximately ${formatPrice(Math.round(data.medianPrice * 4 * 0.35))} to as little as ${formatPrice(Math.round(data.medianPrice * 4 * 0.15))}.`
+      : "";
+
+    return [
+      {
+        title: `Why Choose a Mezzanine Finance Broker in ${townName}?`,
+        content: [
+          `<a href="/services/mezzanine-finance">Mezzanine finance</a> is a specialist product that sits between senior debt and developer equity in the capital stack. Structuring it correctly requires a broker who understands intercreditor dynamics, can coordinate with your senior lender, and has access to mezzanine providers who are actively deploying capital. We arrange mezzanine facilities from debt funds, family offices, and specialist lenders with genuine appetite for ${countyName} developments.${equityContext}`,
+          `The mezzanine market is less transparent than senior development finance. There is no comparison website, limited published rate information, and each provider has specific criteria around minimum deal size, geographic focus, and acceptable senior lender partners. As specialist brokers, we have established relationships with mezzanine providers who can move quickly and are comfortable lending in ${townName} and the wider ${countyName} area.`,
+          `Getting the capital stack right from the outset is critical. The wrong mezzanine structure can create cash flow problems, governance friction, or exit complications that cost you more than the additional leverage is worth. <a href="/deal-room">Submit your project</a> and our team will model the optimal capital structure for your development.`,
+        ],
+      },
+      {
+        title: `Types of Mezzanine Structures We Arrange in ${countyName}`,
+        content: [
+          `We source several types of mezzanine capital across ${countyName}: traditional second-charge mezzanine that layers behind your senior <a href="/services/development-finance">development finance</a> facility, stretched senior products where a single lender provides both tranches (eliminating intercreditor complexity), profit-share mezzanine where the provider takes a percentage of development profit instead of fixed interest, and preferred equity structures that sit between debt and true equity in the waterfall.`,
+          `Each structure has different implications for your project governance, cost profile, and exit mechanics. Second-charge mezzanine typically costs 12-18% per annum but preserves your control. Profit-share structures reduce your cash costs during the build phase but can be more expensive if the scheme performs well. Stretched senior products simplify the legal structure but may carry a premium over a two-lender arrangement. We advise on the optimal approach for each ${townName} development based on its specific economics.`,
+          `For larger schemes, we also arrange <a href="/services/equity-jv">equity and joint venture</a> capital as an alternative to, or alongside, mezzanine debt. The right choice depends on your equity position, return expectations, and appetite for sharing control of the development process.`,
+        ],
+      },
+      {
+        title: `Mezzanine Finance Rates and Costs in ${townName}`,
+        content: [
+          `Mezzanine interest rates typically range from 12% to 18% per annum, with interest usually rolled up rather than serviced monthly. Arrangement fees are 2-3% of the mezzanine facility. While these costs are higher than senior development debt, the mezzanine is funding a smaller portion of the capital stack, and the blended cost of senior plus mezzanine is often comparable to alternative structures that achieve similar leverage.`,
+          `The key calculation is whether the additional leverage creates sufficient incremental return to justify the cost. If senior debt funds 65% of costs and mezzanine stretches this to 85%, you are using 20% more debt to free up 20% of equity. That freed equity can be deployed into another project, effectively doubling your development capacity. For developers in ${townName} with pipeline opportunities, this capital efficiency can be transformational.`,
+          `We model the full capital stack for every mezzanine enquiry, showing you the blended cost of finance, the impact on scheme profit, and the comparison with alternative structures (higher equity contribution, stretched senior, or <a href="/services/equity-jv">JV equity</a>). This analysis ensures you make an informed decision based on your project's specific numbers.`,
+        ],
+      },
+      {
+        title: `Eligibility for Mezzanine Finance`,
+        content: [
+          `Mezzanine lenders assess your scheme through a similar lens to senior lenders but with additional focus on the developer's experience and the profit margin in the deal. Most providers require a minimum net development profit of 18-20% on cost after all finance charges, giving them comfort that the scheme can absorb cost overruns or market adjustments without threatening their position. A strong track record of delivering comparable schemes is important for securing the best mezzanine terms.`,
+          `The senior lender must be mezzanine-friendly. Not all development finance lenders accept subordinated debt behind their facility, and those that do typically require an approved intercreditor agreement. We identify mezzanine-friendly senior lenders at the outset of the process, avoiding the costly scenario of agreeing senior terms only to discover the lender will not accept mezzanine.`,
+          `Minimum mezzanine facility sizes are typically £200,000-£500,000, with some providers requiring larger minimum investments. For smaller schemes where mezzanine is not available, alternative approaches include stretched senior products, <a href="/services/bridging-loans">bridging finance</a> for the gap, or restructuring the deal to work with a higher equity contribution.`,
+        ],
+      },
+    ];
+  },
+
+  "equity-jv": (townName, countyName, serviceSlug, data) => {
+    const schemeContext = data?.medianPrice
+      ? ` In ${townName}, where the median property price is ${formatPrice(data.medianPrice)}, a medium-scale development targeting a GDV of ${formatPrice(data.medianPrice * 8)} could deliver net profits of 18-25% on cost, making it a compelling proposition for equity partners.`
+      : "";
+
+    return [
+      {
+        title: `Why Choose an Equity & JV Broker in ${townName}?`,
+        content: [
+          `Finding the right <a href="/services/equity-jv">equity or joint venture partner</a> for your ${townName} development requires access to a network of investors who are actively seeking property development exposure. We connect developers with family offices, high-net-worth individuals, and institutional investors who understand the ${countyName} market and have capital ready to deploy.${schemeContext}`,
+          `The equity and JV market is relationship-driven. Unlike debt, where products are broadly standardised, every equity arrangement is bespoke. The profit split, governance framework, decision-making authority, and exit mechanics all need to be negotiated individually. As experienced brokers, we understand what equity partners expect and can help you structure a proposition that attracts the right capital while protecting your development management role.`,
+          `Whether you need equity to fund 100% of project costs or want a JV partner to supplement your equity alongside senior <a href="/services/development-finance">development finance</a>, we structure arrangements that maximise your return while giving the capital partner the governance and reporting they require. <a href="/deal-room">Submit your project</a> to start the conversation.`,
+        ],
+      },
+      {
+        title: `Types of Equity Structures We Arrange in ${countyName}`,
+        content: [
+          `We source equity capital across ${countyName} in several formats: pure equity investment where the partner funds project costs in exchange for a profit share, land-for-equity arrangements where the developer contributes a consented site, development management agreements where you manage the build for a fee plus profit participation, and hybrid structures combining equity with senior debt for optimal capital efficiency.`,
+          `For larger ${townName} schemes (typically £5M+ GDV), institutional equity from real estate private equity funds and sovereign wealth-backed vehicles is available. These partners bring operational sophistication and can move quickly on deals that fit their mandate. For smaller projects, family offices and high-net-worth individuals offer more flexibility on structure and governance, with faster decision-making timescales.`,
+          `We also arrange forward-funding structures where an investor purchases the completed development before construction begins, providing the developer with certainty of exit and the capital to build. This model is particularly relevant for build-to-rent schemes in ${townName} and for developers who want to de-risk their sales exposure.`,
+        ],
+      },
+      {
+        title: `JV Profit Splits and Costs in ${townName}`,
+        content: [
+          `Developer profit shares in JV arrangements typically range from 50-70%, depending on what you contribute to the deal. A developer providing land with planning permission and managing the build will command a higher share (60-70%) than one contributing only management expertise (40-55%). The equity partner usually receives a preferred return of 8-12% per annum on invested capital before the profit split applies.`,
+          `The total cost of equity capital, when expressed as an annualised return to the investor, is typically 15-25% per annum. This is higher than debt finance, but equity bears risk that debt does not. If your scheme underperforms, the equity partner shares the downside. If it outperforms, they share the upside. This risk-sharing dynamic can be more appropriate than high-leverage debt for schemes with less certain outcomes.`,
+          `Legal costs for structuring a JV are higher than for a standard debt facility, reflecting the bespoke nature of the documentation. Expect £15,000-£30,000 in combined legal fees for a typical JV agreement. Professional due diligence costs (RICS valuation, site investigation, planning review) add a further £10,000-£20,000, though these reports benefit the project regardless of funding structure.`,
+        ],
+      },
+      {
+        title: `Eligibility for Equity and JV Capital`,
+        content: [
+          `Equity partners conduct thorough due diligence on both the project and the developer. They assess your track record (completed projects, financial outcomes, references from lenders and contractors), the site (title, planning status, environmental conditions), the financial appraisal (costs, GDV, programme, sensitivity analysis), and your financial standing. Having a professional information memorandum prepared before approaching equity partners accelerates the process significantly.`,
+          `First-time developers can access JV capital, though the terms will reflect the additional risk. Having a strong professional team, an experienced contractor, and ideally a quantity surveyor who has verified your cost plan helps compensate for a limited personal track record. Some equity partners prefer to work with newer developers because the profit-sharing arrangement provides better value than lending to experienced operators who have access to cheaper debt.`,
+          `The minimum viable scheme for most equity partners is typically £1M+ GDV, with the sweet spot being £3M-£15M. Larger institutional investors typically require £10M+ GDV. For very small projects, <a href="/services/mezzanine-finance">mezzanine finance</a> or <a href="/services/bridging-loans">bridging loans</a> may be more practical alternatives to equity capital.`,
+        ],
+      },
+    ];
+  },
+
+  "refurbishment-finance": (townName, countyName, serviceSlug, data) => {
+    const priceContext = data?.medianByType?.["T"]
+      ? ` In ${townName}, where terraced houses have a median value of ${formatPrice(data.medianByType["T"])}, a light refurbishment budget of ${formatPrice(Math.round(data.medianByType["T"] * 0.15))} can unlock meaningful value uplift.`
+      : "";
+
+    return [
+      {
+        title: `Why Choose a Refurbishment Finance Broker in ${townName}?`,
+        content: [
+          `<a href="/services/refurbishment-finance">Refurbishment finance</a> covers everything from light cosmetic upgrades to heavy structural conversion projects. The right product depends on the scope of works, your exit strategy, and the property type. As specialist brokers serving ${countyName}, we assess each ${townName} project individually and match it with lenders who have genuine appetite for your specific refurbishment type.${priceContext}`,
+          `The refurbishment lending market sits between bridging and development finance, drawing products from both sectors. Light refurbishment (under £50,000 or 15% of property value) can be funded through a standard <a href="/services/bridging-loans">bridging loan</a> with a retained works element. Heavy refurbishment involving structural alterations, extensions, or change of use requires a specialist facility with staged drawdowns verified by a monitoring surveyor, similar to development finance.`,
+          `Understanding which product your project needs, and which lender offers the best terms for that specific product, is where a broker adds value. We arrange refurbishment finance from our panel of 100+ lenders, including specialist funders who focus exclusively on conversion and renovation projects. <a href="/deal-room">Submit your project</a> for indicative terms.`,
+        ],
+      },
+      {
+        title: `Types of Refurbishment Projects We Fund in ${countyName}`,
+        content: [
+          `Across ${countyName}, we arrange finance for the full spectrum of refurbishment projects: light cosmetic renovations (redecoration, new kitchens and bathrooms, garden landscaping), heavy structural refurbishment (reconfiguration, extension, loft conversion), commercial-to-residential conversions under <a href="/guides/permitted-development-rights-finance">Permitted Development Rights</a>, HMO conversions with licensing requirements, listed building renovations, and energy efficiency upgrade programmes.`,
+          `In ${townName}, popular refurbishment strategies include purchasing below-market-value properties at auction and adding value through cosmetic modernisation, converting redundant commercial buildings into residential flats under Class MA, splitting larger houses into self-contained flats, and creating licensed HMOs with ensuite rooms for the professional rental market. Each strategy has different lending criteria, and we source the right product for your approach.`,
+          `We also advise on the financial structure of your refurbishment. For projects where you plan to retain the completed property as an investment, the exit is typically a refinance onto a buy-to-let mortgage or <a href="/services/commercial-mortgages">commercial mortgage</a>. For projects where you plan to sell, the exit is a sale at improved value. Having a clear, documented exit strategy materially improves your available terms.`,
+        ],
+      },
+      {
+        title: `Refurbishment Finance Rates and Costs in ${townName}`,
+        content: [
+          `Light refurbishment rates for ${townName} properties typically start from 0.55% per month (6.6% per annum) with arrangement fees of 1-2%. Heavy refurbishment facilities, which involve staged drawdowns and surveyor verification, typically carry rates from 0.65-0.95% per month with similar arrangement fees. The total cost depends on the loan term, the works duration, and the drawdown profile.`,
+          `Beyond interest and arrangement fees, budget for valuation costs (£500-£1,500 for a standard residential property), legal fees for both borrower and lender, and monitoring surveyor fees for heavy refurbishment projects (£3,000-£8,000 depending on scheme complexity). A contingency of 10% on your works budget is standard practice and gives lenders confidence that unexpected costs will not threaten the project.`,
+          `LTV on refurbishment finance is typically 70-75% of the purchase price for the acquisition element, with works costs funded at 100% of the approved schedule, drawn in arrears against completed stages. The maximum total facility is usually capped at 70-75% of the projected end value, ensuring the lender has adequate security margin throughout the project.`,
+        ],
+      },
+      {
+        title: `Eligibility for Refurbishment Finance`,
+        content: [
+          `Refurbishment lenders assess the property (current condition, location, and projected end value), the works (scope, cost, programme, and whether planning permission or building regulations approval is required), the exit (sale or refinance, and the evidence supporting the projected end value), and the borrower (experience with similar projects and financial standing). For ${townName} projects, local comparable evidence for the completed property is essential.`,
+          `First-time refurbishment investors can access finance, particularly for lighter works that do not require structural alteration. Having two or three contractor quotes for the works, a clear specification document, and realistic timescales demonstrates competence even without a track record. For heavier refurbishment, lenders prefer borrowers with at least one completed project or a strong professional team including an experienced project manager.`,
+          `Properties eligible for refurbishment finance include standard residential houses and flats, commercial buildings suitable for conversion, HMOs (subject to licensing compliance), listed buildings (with appropriate consents), and mixed-use premises. Non-standard construction, severely dilapidated properties, and sites requiring demolition typically fall outside refurbishment lending criteria and into <a href="/services/development-finance">development finance</a> territory.`,
+        ],
+      },
+    ];
+  },
+
+  "commercial-mortgages": (townName, countyName, serviceSlug, data) => {
+    const marketContext = data?.medianPrice
+      ? ` The residential market fundamentals in ${townName}, with a median price of ${formatPrice(data.medianPrice)}, support commercial property values and rental demand in the area.`
+      : "";
+
+    return [
+      {
+        title: `Why Choose a Commercial Mortgage Broker in ${townName}?`,
+        content: [
+          `Securing a <a href="/services/commercial-mortgages">commercial mortgage</a> for your ${townName} property requires matching the asset with a lender whose criteria align with your property type, tenant profile, and investment strategy. The commercial lending market includes high-street banks, building societies, specialist commercial lenders, insurance company lending arms, and debt funds, each with different appetite, pricing, and underwriting approaches.${marketContext}`,
+          `Unlike residential mortgages, commercial lending is an individually underwritten product where the property's income characteristics drive the terms. Rental coverage ratios, tenant covenant strength, lease length, and the weighted average unexpired lease term (WAULT) all influence the rate and leverage available to you. A commercial mortgage broker who understands the ${countyName} investment market can position your application to highlight the property's strengths and address potential concerns.`,
+          `We arrange commercial mortgages from our panel of 100+ lenders for offices, retail units, industrial premises, warehouses, mixed-use buildings, and specialist commercial property across ${townName} and the wider ${countyName} area. <a href="/deal-room">Submit your property details</a> for indicative terms.`,
+        ],
+      },
+      {
+        title: `Types of Commercial Property We Finance in ${countyName}`,
+        content: [
+          `Our commercial mortgage service covers acquisition finance for purchasing income-producing commercial property, refinancing existing commercial debt onto better terms, equity release from owned commercial assets, and portfolio finance for investors with multiple commercial properties. We also arrange <a href="/services/development-exit-finance">development exit finance</a> for developers transitioning completed schemes into long-term commercial holdings.`,
+          `Across ${countyName}, we regularly finance offices (single-tenant and multi-let), retail premises (high street and out-of-town), industrial units and warehouses, mixed-use buildings with commercial and residential elements, pubs, restaurants, and leisure properties, medical and dental practices, and care homes. Each property type has specific lender criteria, and we match your ${townName} asset to funders with proven appetite for your sector.`,
+          `For properties requiring improvement before long-term finance, we can structure a <a href="/services/refurbishment-finance">refurbishment facility</a> or <a href="/services/bridging-loans">bridging loan</a> to fund the works, followed by a refinance onto a commercial mortgage once the property is stabilised and income is flowing. This two-stage approach often achieves better long-term mortgage terms than financing an un-renovated property directly.`,
+        ],
+      },
+      {
+        title: `Commercial Mortgage Rates and Costs in ${townName}`,
+        content: [
+          `Commercial mortgage interest rates for ${townName} properties typically range from 5.5% to 8% per annum on a fixed-rate basis, or base rate plus 2-4% on variable terms. The rate depends on property type, tenant quality, lease strength, and leverage. Well-let multi-tenanted properties with strong covenants attract the keenest pricing, while single-tenant assets with shorter leases or weaker tenants carry a premium.`,
+          `Arrangement fees are typically 0.5-1.5% of the facility, with valuation fees of £1,500-£5,000 depending on property complexity. Legal costs are payable for both borrower and lender solicitors. Fixed-rate terms are available from 2 to 25 years, with longer fixes providing income certainty but carrying early repayment charges if you need to exit the facility before maturity.`,
+          `LTV on commercial mortgages typically ranges from 60-75%, with the maximum depending on property type and income strength. Properties with government or blue-chip tenants on long leases may achieve 75% LTV, while more marginal assets might be capped at 60-65%. The interest coverage ratio (ICR) requirement, typically 125-175%, can also limit the effective LTV where rental income is modest relative to property value.`,
+        ],
+      },
+      {
+        title: `Eligibility for Commercial Mortgages`,
+        content: [
+          `Commercial mortgage lenders primarily assess the property's income characteristics: rental income level and sustainability, tenant financial strength (covenant), lease terms and break clauses, the weighted average unexpired lease term, and comparable evidence for re-letting if current tenants vacate. For ${townName} commercial properties, local market evidence of rental demand and comparable investment transactions supports your application.`,
+          `Borrower assessment focuses on experience with commercial property, financial standing, and the management plan for the asset. Most commercial mortgages are made to limited companies or SPVs rather than individuals. Personal guarantees are common for smaller facilities (under £2M) but can sometimes be avoided or limited for larger, well-secured loans. The Financial Conduct Authority does not regulate most commercial lending, though some mixed-use properties with residential elements may fall within regulatory scope.`,
+          `Vacant or partially vacant commercial properties can be financed, though terms will reflect the income risk. Lenders typically apply a void cost calculation and stress-test the income coverage assuming continued vacancy. Having a credible letting strategy and evidence of tenant interest helps secure finance for properties that are not fully let at the point of application.`,
+        ],
+      },
+    ];
+  },
+
+  "development-exit-finance": (townName, countyName, serviceSlug, data) => {
+    const savingContext = data?.medianPrice
+      ? ` For a completed ${townName} scheme where the median unit value is ${formatPrice(data.medianPrice)}, exit finance can save thousands in monthly interest costs versus extending an expired development facility.`
+      : "";
+
+    return [
+      {
+        title: `Why Choose a Development Exit Finance Broker in ${townName}?`,
+        content: [
+          `<a href="/services/development-exit-finance">Development exit finance</a> replaces your expensive development loan with a lower-cost facility once construction is complete. This specialist product is designed for one specific scenario: the build is finished, but not all units have sold. Your development lender wants repayment, and you need time to sell at the best achievable prices rather than accepting fire-sale offers.${savingContext}`,
+          `The exit finance market is served by specialist bridging lenders, challenger banks, and dedicated exit funds, each with different criteria around minimum remaining units, acceptable sales periods, and geographic coverage. As brokers who arrange exit finance regularly across ${countyName}, we know which lenders offer the fastest completion, most competitive rates, and most flexible repayment structures for your specific situation.`,
+          `Timing the transition from development finance to exit finance is critical. Start conversations with exit lenders 2-3 months before practical completion so the new facility is ready to draw as soon as the build is signed off. <a href="/deal-room">Submit your project</a> to begin the process.`,
+        ],
+      },
+      {
+        title: `Types of Exit Finance We Arrange in ${countyName}`,
+        content: [
+          `We source exit facilities for the full range of completed developments across ${countyName}: residential apartment schemes with multiple unsold units, housing developments where sales have been slower than projected, mixed-use buildings with completed commercial and residential elements, and student accommodation or build-to-rent schemes transitioning from development to investment hold.`,
+          `Exit finance can also serve as a bridge to long-term refinancing. If you plan to retain completed units as investments rather than selling, exit finance provides a low-cost holding facility while you arrange a <a href="/services/commercial-mortgages">commercial mortgage</a> or buy-to-let mortgage portfolio. This is particularly relevant in ${townName} where strong rental yields may make retaining units more attractive than selling in a slower market.`,
+          `For schemes with planning for additional phases, exit finance on the completed phase can also free up your development finance facility for the next build stage. This capital recycling approach allows you to maintain construction momentum without needing to wait for all sales on the current phase before starting the next.`,
+        ],
+      },
+      {
+        title: `Development Exit Finance Rates and Costs in ${townName}`,
+        content: [
+          `Exit finance rates for completed ${townName} schemes typically range from 0.55% to 0.85% per month (6.6-10.2% per annum), compared to the 8-12%+ per annum you may be paying on an expired or extended <a href="/services/development-finance">development finance</a> facility. The saving of 2-4% per annum on the outstanding balance, combined with the removal of monitoring surveyor fees and non-utilisation charges, makes exit finance significantly cheaper than rolling over development debt.`,
+          `Arrangement fees are typically 1-2% of the facility, with standard valuation and legal costs. The facility is structured as a single drawdown that repays your development lender in full. As units sell, partial repayments reduce the outstanding balance and your interest costs. Most exit lenders require each unit sale to repay 100-110% of the per-unit debt allocation, ensuring the LTV improves progressively.`,
+          `The total saving depends on the number of unsold units, the expected sales period, and the difference between your current development finance rate and the exit rate. We model this comparison for every enquiry, showing you the projected saving over realistic sales timescales to help you decide whether exit finance is the right approach for your ${townName} scheme.`,
+        ],
+      },
+      {
+        title: `Eligibility for Development Exit Finance`,
+        content: [
+          `Exit finance lenders assess the completed scheme rather than the development proposal. They instruct a Red Book valuation of the finished units, review your sales strategy, marketing evidence, and comparable transaction data, and advance against the current market value. For completed schemes in ${townName}, having recent comparable sales evidence and, ideally, some units under offer or reserved strengthens your application.`,
+          `The property must be practically complete, with Building Control sign-off, and habitable. Snagging items are acceptable, but units requiring significant further work typically need to remain on the development facility until completed. Most exit lenders require a minimum of 2-3 unsold units, though some will consider single-unit exits for higher-value properties.`,
+          `Your sales strategy needs to be credible and evidenced. Lenders want to see an appointed estate agent, marketing materials, an agreed pricing strategy based on comparable evidence, and a realistic sales timeline. Overly optimistic sales projections will concern exit lenders as much as they concern development lenders. We help you present a credible sales plan that demonstrates your units will sell within the proposed exit facility term.`,
+        ],
+      },
+    ];
+  },
+};
+
+/**
+ * Returns rich content sections for service-location pages.
+ * Each section has a title and 2-3 paragraphs with HTML internal links.
+ */
+export function getServicePageSections(
+  serviceSlug: string,
+  townName: string,
+  countyName: string,
+  data?: TownFaqData,
+): ContentSection[] {
+  const generator = SERVICE_PAGE_SECTIONS[serviceSlug];
+  if (!generator) return [];
+  
+return generator(townName, countyName, serviceSlug, data);
 }
 
 /**
@@ -1297,5 +1803,6 @@ export function loanTypeToServiceSlug(loanType: string): string | null {
     "Refurbishment Finance": "refurbishment-finance",
     "Commercial Mortgage": "commercial-mortgages",
   };
-  return mapping[loanType] ?? null;
+  
+return mapping[loanType] ?? null;
 }

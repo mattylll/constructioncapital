@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, TrendingUp, Percent, CalendarDays, FileText } from "lucide-react";
+import { ArrowRight, TrendingUp, Percent, CalendarDays, FileText , BookOpen, BarChart3, Clock } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Breadcrumbs } from "@/components/locations/breadcrumbs";
@@ -18,6 +18,7 @@ import {
   getArrangementFee,
   getEnrichedMarketCommentary,
   getServiceFaqsWithData,
+  getServicePageSections,
 } from "@/lib/location-content";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
 import { LocationMap } from "@/components/locations/location-map";
@@ -36,7 +37,6 @@ import { PlanningDealAnalysis } from "@/components/locations/planning-deal-analy
 import { RecentSoldPrices } from "@/components/locations/recent-sold-prices";
 import { getGuidesByService } from "@/lib/guides";
 import { getReportByCountySlug, getReportByTownSlug } from "@/lib/market-reports";
-import { BookOpen, BarChart3, Clock } from "lucide-react";
 
 // ISR configuration
 export const dynamicParams = true;
@@ -201,6 +201,9 @@ export default async function ServicePage({ params }: PageProps) {
 
   // Data-enriched FAQs
   const faqs = getServiceFaqsWithData(service, townName, countyName, localData);
+
+  // Rich content sections for SEO depth
+  const contentSections = getServicePageSections(service, townName, countyName, localData);
 
   // Varied H1 per service type
   const titlePattern = SERVICE_TITLE_PATTERNS[service];
@@ -415,6 +418,37 @@ export default async function ServicePage({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      {/* Rich Content Sections — SEO depth with internal links */}
+      {contentSections.length > 0 && (
+        <section className="bg-muted/30 py-16 sm:py-20">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-3xl space-y-14">
+              {contentSections.map((section, sIdx) => (
+                <div key={sIdx}>
+                  <div
+                    className="mb-5 h-[2px] w-14"
+                    style={{
+                      background:
+                        "linear-gradient(90deg, var(--gold), var(--gold-light))",
+                    }}
+                  />
+                  <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
+                    {section.title}
+                  </h2>
+                  {section.content.map((p, pIdx) => (
+                    <p
+                      key={pIdx}
+                      className="mb-5 text-base leading-relaxed text-muted-foreground [&_a]:font-medium [&_a]:text-foreground [&_a]:underline [&_a]:decoration-gold/40 [&_a]:underline-offset-2 hover:[&_a]:decoration-gold"
+                      dangerouslySetInnerHTML={{ __html: p }}
+                    />
+                  ))}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Local Market Snapshot — real data when available */}
       {townStats && (

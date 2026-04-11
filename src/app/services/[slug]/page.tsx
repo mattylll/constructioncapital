@@ -331,10 +331,9 @@ export default async function ServicePage({ params }: PageProps) {
                   {section.paragraphs.map((p, i) => (
                     <p
                       key={i}
-                      className="text-base leading-relaxed text-muted-foreground"
-                    >
-                      {p}
-                    </p>
+                      className="text-base leading-relaxed text-muted-foreground [&_a]:font-medium [&_a]:text-foreground [&_a]:underline [&_a]:decoration-gold/40 [&_a]:underline-offset-2 hover:[&_a]:decoration-gold"
+                      dangerouslySetInnerHTML={{ __html: p }}
+                    />
                   ))}
                 </div>
               </div>
