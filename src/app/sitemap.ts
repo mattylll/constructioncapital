@@ -8,7 +8,9 @@ import { MARKET_REPORTS } from "@/lib/market-reports";
 import { SERVICES } from "@/lib/services";
 import { UK_COUNTIES } from "@/lib/uk-locations-data";
 import { GLOSSARY_TERMS } from "@/lib/glossary";
+import { HUBS } from "@/lib/hubs";
 import { LENDERS } from "@/lib/lenders";
+import { PRODUCT_COMPARISONS } from "@/lib/product-comparisons";
 
 /**
  * Numeric IDs so Next.js generates a proper sitemap index at /sitemap.xml
@@ -95,6 +97,20 @@ export default function sitemap({
           lastModified: now,
           changeFrequency: "monthly" as const,
           priority: 0.6,
+        })),
+        // Hub pages
+        ...HUBS.map((hub) => ({
+          url: `${SITE_URL}/${hub.slug}`,
+          lastModified: now,
+          changeFrequency: "monthly" as const,
+          priority: 0.9,
+        })),
+        // Comparison pages
+        ...PRODUCT_COMPARISONS.map((comp) => ({
+          url: `${SITE_URL}/compare/${comp.slug}`,
+          lastModified: now,
+          changeFrequency: "monthly" as const,
+          priority: 0.8,
         })),
       ];
 
