@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "great-yarmouth-norfolk-property-market",
   title: "Great Yarmouth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Great Yarmouth House Prices 2026 — Property Market Data & Development Finance | Norfolk",
+  metaTitle: "Great Yarmouth House Prices 2026 - Property Market Data & Development Finance | Norfolk",
   metaDescription: "Great Yarmouth property prices: median £202,000, 1,139 sales, -3.8% YoY. Detached £332,500, Flat £100,000. Land Registry data for Great Yarmouth, Norfolk.",
   excerpt: "Median price £202,000, 1,139 sales, -3.8% YoY. Norfolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Great Yarmouth recorded <strong>24</strong> new-build transactions in the past 12 months, representing <strong>2.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Great Yarmouth traded at a <strong>premium of 33.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded - see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
       ],
     },
     {

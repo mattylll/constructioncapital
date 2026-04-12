@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wellingborough-northamptonshire-property-market",
   title: "Wellingborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wellingborough House Prices 2026 — Property Market Data & Development Finance | Northamptonshire",
+  metaTitle: "Wellingborough House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
   metaDescription: "Wellingborough property prices: median £248,000, 1,026 sales, -6.2% YoY. Detached £346,873, Flat £130,000. Land Registry data for Wellingborough, Northamptonshire.",
   excerpt: "Median price £248,000, 1,026 sales, -6.2% YoY. Northamptonshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Wellingborough recorded <strong>70</strong> new-build transactions in the past 12 months, representing <strong>6.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Wellingborough traded at a <strong>premium of 35.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> market, 315 new-build completions were recorded — see our <a href="/market-reports/northamptonshire-property-market">Northamptonshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> market, 315 new-build completions were recorded - see our <a href="/market-reports/northamptonshire-property-market">Northamptonshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "alnwick-northumberland-property-market",
   title: "Alnwick Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Alnwick House Prices 2026 — Property Market Data & Development Finance | Northumberland",
+  metaTitle: "Alnwick House Prices 2026 - Property Market Data & Development Finance | Northumberland",
   metaDescription: "Alnwick property prices: median £260,000, 220 sales, -13.3% YoY. Detached £365,000, Flat £142,000. Land Registry data for Alnwick, Northumberland.",
   excerpt: "Median price £260,000, 220 sales, -13.3% YoY. Northumberland county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Alnwick recorded <strong>7</strong> new-build transactions in the past 12 months, representing <strong>3.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Alnwick traded at a <strong>premium of 9.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/northumberland-property-market">Northumberland</a> market, 72 new-build completions were recorded — see our <a href="/market-reports/northumberland-property-market">Northumberland property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northumberland-property-market">Northumberland</a> market, 72 new-build completions were recorded - see our <a href="/market-reports/northumberland-property-market">Northumberland property market report</a> for the full county picture.`,
       ],
     },
     {

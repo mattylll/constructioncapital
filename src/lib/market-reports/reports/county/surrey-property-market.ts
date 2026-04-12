@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "surrey-property-market",
   title: "Surrey Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Surrey Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Surrey Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Surrey property market analysis: median price £492,500, 9,602 sales, +1.3% YoY. Town comparisons, new builds & development finance across 10 towns.",
   excerpt: "10 towns analysed. Median price £492,500, 9,602 transactions, +1.3% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Surrey Property Market Overview`,
       content: [
         `One of England's most affluent counties, Surrey's property market is characterised by premium values, Green Belt constraints, and strong commuter demand. Limited development land means high competition for sites, but achievable values support viable margins even at elevated build costs. The county has a strong market for high-specification family homes and boutique apartment schemes.`,
-        `The <a href="/locations/surrey">Surrey</a> property market recorded <strong>9,602</strong> residential transactions over the past 12 months, with a median sale price of <strong>£492,500</strong> — £208k above the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+1.3%</strong> across the county's principal towns.`,
+        `The <a href="/locations/surrey">Surrey</a> property market recorded <strong>9,602</strong> residential transactions over the past 12 months, with a median sale price of <strong>£492,500</strong> - £208k above the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+1.3%</strong> across the county's principal towns.`,
         `Key drivers of the Surrey property market include Premium commuter demand from fast London services, Green Belt scarcity driving land values, Affluent buyer demographic supporting high-spec development. Additional factors include University of Surrey and Royal Holloway student demand.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/surrey/weybridge">Weybridge</a></td><td>£650,000</td><td>1,380</td><td>+4%</td></tr><tr><td><a href="/locations/surrey/leatherhead">Leatherhead</a></td><td>£582,500</td><td>328</td><td>+0.4%</td></tr><tr><td><a href="/locations/surrey/farnham">Farnham</a></td><td>£549,975</td><td>1,374</td><td>+3.8%</td></tr><tr><td><a href="/locations/surrey/epsom">Epsom</a></td><td>£540,000</td><td>681</td><td>+1.9%</td></tr><tr><td><a href="/locations/surrey/guildford">Guildford</a></td><td>£495,000</td><td>1,345</td><td>+2.1%</td></tr><tr><td><a href="/locations/surrey/dorking">Dorking</a></td><td>£490,000</td><td>263</td><td>+2.6%</td></tr><tr><td><a href="/locations/surrey/camberley">Camberley</a></td><td>£475,000</td><td>857</td><td>+2.6%</td></tr><tr><td><a href="/locations/surrey/redhill">Redhill</a></td><td>£471,250</td><td>1,404</td><td>-0.8%</td></tr><tr><td><a href="/locations/surrey/staines">Staines</a></td><td>£457,500</td><td>916</td><td>+1.7%</td></tr><tr><td><a href="/locations/surrey/woking">Woking</a></td><td>£420,000</td><td>1,054</td><td>-5.7%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/surrey/weybridge">Weybridge</a> (£650,000), <a href="/locations/surrey/leatherhead">Leatherhead</a> (£582,500), <a href="/locations/surrey/farnham">Farnham</a> (£549,975). Weybridge's premium reflects affluent elmbridge town with ultra-premium residential market and limited development supply.`,
         `<strong>Most affordable:</strong> <a href="/locations/surrey/woking">Woking</a> (£420,000), <a href="/locations/surrey/staines">Staines</a> (£457,500), <a href="/locations/surrey/redhill">Redhill</a> (£471,250). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/surrey/redhill">Redhill</a> (1,404 sales), <a href="/locations/surrey/weybridge">Weybridge</a> (1,380 sales), <a href="/locations/surrey/farnham">Farnham</a> (1,374 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/surrey/redhill">Redhill</a> (1,404 sales), <a href="/locations/surrey/weybridge">Weybridge</a> (1,380 sales), <a href="/locations/surrey/farnham">Farnham</a> (1,374 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Surrey market data carries direct implications for developers seeking finance. With a median property value of £492,500 and detached homes at £832,500, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Surrey, a scheme with a GDV of £832,500 would typically attract <strong>senior debt of £541,125</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `With prices rising at 1.3% year-on-year, the market environment is supportive of new development. Lenders view rising markets favourably when assessing applications.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Surrey's existing stock — particularly flat properties priced from £271,500 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Surrey's existing stock - particularly flat properties priced from £271,500 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Surrey's property market is on an upward trajectory, with 8 of 10 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/surrey/weybridge">Weybridge</a> (+4%), <a href="/locations/surrey/farnham">Farnham</a> (+3.8%), <a href="/locations/surrey/camberley">Camberley</a> (+2.6%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Woking (-5.7%) has seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Woking (-5.7%) has seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Surrey's development pipeline will be shaped by Premium commuter demand from fast London services and Green Belt scarcity driving land values. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Surrey, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

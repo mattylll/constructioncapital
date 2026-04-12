@@ -49,7 +49,7 @@ export async function generateMetadata({
   const lender = getLenderBySlug(slug);
   if (!lender) return {};
 
-  const title = `${lender.name} — Lender Profile | ${SITE_NAME}`;
+  const title = `${lender.name} - Lender Profile | ${SITE_NAME}`;
   const description = `${lender.name} offers ${lender.services.map((s) => getServiceBySlug(s)?.name ?? s).join(", ")}. Loans from ${lender.minLoan} to ${lender.maxLoan}. ${lender.typicalRate}. Access via ${SITE_NAME}.`;
 
   return {
@@ -198,7 +198,7 @@ export default async function LenderDetailPage({ params }: PageProps) {
                   Loan Range
                 </p>
                 <p className="mt-1 text-lg font-bold">
-                  {lender.minLoan} — {lender.maxLoan}
+                  {lender.minLoan} - {lender.maxLoan}
                 </p>
               </div>
               <div
@@ -450,7 +450,7 @@ export default async function LenderDetailPage({ params }: PageProps) {
               </p>
               <p>
                 When you submit your deal through our Deal Room, we assess your
-                project against the full panel of 100+ lenders — including{" "}
+                project against the full panel of 100+ lenders - including{" "}
                 {lender.name}. If they are the right fit, we present your case
                 directly to their credit team with a full information pack,
                 saving weeks of back-and-forth.

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cheltenham-gloucestershire-property-market",
   title: "Cheltenham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Cheltenham House Prices 2026 — Property Market Data & Development Finance | Gloucestershire",
+  metaTitle: "Cheltenham House Prices 2026 - Property Market Data & Development Finance | Gloucestershire",
   metaDescription: "Cheltenham property prices: median £315,000, 1,513 sales, -1.6% YoY. Detached £580,000, Flat £203,500. Land Registry data for Cheltenham, Gloucestershire.",
   excerpt: "Median price £315,000, 1,513 sales, -1.6% YoY. Gloucestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Cheltenham recorded <strong>3</strong> new-build transactions in the past 12 months, representing <strong>0.2%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Cheltenham traded at a <strong>discount of 23.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/gloucestershire-property-market">Gloucestershire</a> market, 154 new-build completions were recorded — see our <a href="/market-reports/gloucestershire-property-market">Gloucestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/gloucestershire-property-market">Gloucestershire</a> market, 154 new-build completions were recorded - see our <a href="/market-reports/gloucestershire-property-market">Gloucestershire property market report</a> for the full county picture.`,
       ],
     },
     {

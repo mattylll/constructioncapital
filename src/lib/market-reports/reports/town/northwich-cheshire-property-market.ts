@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "northwich-cheshire-property-market",
   title: "Northwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Northwich House Prices 2026 — Property Market Data & Development Finance | Cheshire",
+  metaTitle: "Northwich House Prices 2026 - Property Market Data & Development Finance | Cheshire",
   metaDescription: "Northwich property prices: median £262,500, 915 sales, +1% YoY. Detached £412,500, Flat £132,000. Land Registry data for Northwich, Cheshire.",
   excerpt: "Median price £262,500, 915 sales, +1% YoY. Cheshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Northwich recorded <strong>18</strong> new-build transactions in the past 12 months, representing <strong>2.0%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Northwich traded at a <strong>premium of 62.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cheshire-property-market">Cheshire</a> market, 147 new-build completions were recorded — see our <a href="/market-reports/cheshire-property-market">Cheshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cheshire-property-market">Cheshire</a> market, 147 new-build completions were recorded - see our <a href="/market-reports/cheshire-property-market">Cheshire property market report</a> for the full county picture.`,
       ],
     },
     {

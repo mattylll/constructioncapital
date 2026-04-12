@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "luton-bedfordshire-property-market",
   title: "Luton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Luton House Prices 2026 — Property Market Data & Development Finance | Bedfordshire",
+  metaTitle: "Luton House Prices 2026 - Property Market Data & Development Finance | Bedfordshire",
   metaDescription: "Luton property prices: median £300,000, 1,568 sales, 0% YoY. Detached £440,000, Flat £175,000. Land Registry data for Luton, Bedfordshire.",
   excerpt: "Median price £300,000, 1,568 sales, 0% YoY. Bedfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Luton recorded <strong>84</strong> new-build transactions in the past 12 months, representing <strong>5.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Luton traded at a <strong>discount of 13.3%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> market, 429 new-build completions were recorded — see our <a href="/market-reports/bedfordshire-property-market">Bedfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> market, 429 new-build completions were recorded - see our <a href="/market-reports/bedfordshire-property-market">Bedfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

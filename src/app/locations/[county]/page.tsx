@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     : `Find development finance, bridging loans, mezzanine finance and commercial mortgages in ${countyName}. Expert property finance brokers with local knowledge.`;
 
   return {
-    title: `${countyName} Development Finance — Property Market Data & Lending`,
+    title: `${countyName} Development Finance - Property Market Data & Lending`,
     description: desc,
     alternates: { canonical: `${SITE_URL}/locations/${county}` },
     openGraph: {
@@ -112,7 +112,7 @@ export default async function CountyPage({ params }: PageProps) {
   const localBusinessJsonLd = {
     "@context": "https://schema.org",
     "@type": "FinancialService",
-    name: `${SITE_NAME} — ${countyName}`,
+    name: `${SITE_NAME} - ${countyName}`,
     description: `Development finance, bridging loans, mezzanine finance and commercial mortgages in ${countyName}.`,
     url: `${SITE_URL}/locations/${county}`,
     areaServed: {
@@ -240,7 +240,7 @@ export default async function CountyPage({ params }: PageProps) {
       {/* Location Hero Image */}
       <LocationHeroImage countySlug={county} locationName={countyName} />
 
-      {/* Market Overview — rich content */}
+      {/* Market Overview - rich content */}
       <section className="bg-background py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
@@ -256,7 +256,7 @@ export default async function CountyPage({ params }: PageProps) {
               {agg && (
                 <>
                   <p>
-                    The {countyName} property market recorded <strong className="text-foreground">{agg.totalTransactions.toLocaleString("en-GB")}</strong> residential transactions over the past 12 months, with a county-wide median sale price of <strong className="text-foreground">{formatPrice(agg.medianPrice)}</strong> — {priceVsNational}. Prices have shown {agg.avgYoyChange > 0 ? "growth" : agg.avgYoyChange === 0 ? "stability" : "softening"}, with a year-on-year change of <strong className="text-foreground">{agg.avgYoyChange > 0 ? "+" : ""}{agg.avgYoyChange}%</strong> across the county&apos;s {agg.townCount} principal towns.
+                    The {countyName} property market recorded <strong className="text-foreground">{agg.totalTransactions.toLocaleString("en-GB")}</strong> residential transactions over the past 12 months, with a county-wide median sale price of <strong className="text-foreground">{formatPrice(agg.medianPrice)}</strong> - {priceVsNational}. Prices have shown {agg.avgYoyChange > 0 ? "growth" : agg.avgYoyChange === 0 ? "stability" : "softening"}, with a year-on-year change of <strong className="text-foreground">{agg.avgYoyChange > 0 ? "+" : ""}{agg.avgYoyChange}%</strong> across the county&apos;s {agg.townCount} principal towns.
                   </p>
                   {agg.totalNewBuilds > 0 && (
                     <p>
@@ -291,7 +291,7 @@ export default async function CountyPage({ params }: PageProps) {
                   <div>
                     <p className="text-xs font-bold uppercase tracking-[0.15em] text-gold-dark">In-Depth Analysis</p>
                     <p className="mt-1 font-bold text-foreground">{countyReport.title}</p>
-                    <p className="mt-1 text-sm text-muted-foreground">{countyReport.readingTime} — {countyReport.sections.length} sections with charts and data tables</p>
+                    <p className="mt-1 text-sm text-muted-foreground">{countyReport.readingTime} - {countyReport.sections.length} sections with charts and data tables</p>
                   </div>
                   <Link href={`/market-reports/${countyReport.slug}`} className="shrink-0 rounded-lg bg-gold px-4 py-2 text-sm font-bold text-navy-dark transition-all hover:bg-gold-dark">
                     Read Report
@@ -351,7 +351,7 @@ export default async function CountyPage({ params }: PageProps) {
 
               {agg.medianByType.D && agg.medianByType.F && (
                 <p className="mt-4 text-sm text-muted-foreground">
-                  The <strong className="text-foreground">{formatPriceShort(agg.medianByType.D - agg.medianByType.F)} spread</strong> between detached homes and flats creates development opportunities across the specification spectrum — from high-value family homes to accessible apartment schemes.
+                  The <strong className="text-foreground">{formatPriceShort(agg.medianByType.D - agg.medianByType.F)} spread</strong> between detached homes and flats creates development opportunities across the specification spectrum - from high-value family homes to accessible apartment schemes.
                 </p>
               )}
             </div>
@@ -410,7 +410,7 @@ export default async function CountyPage({ params }: PageProps) {
                     {townsByPrice.slice(0, 3).map(t => (
                       <p key={t.slug} className="text-sm">
                         <Link href={`/locations/${county}/${t.slug}`} className="font-medium text-foreground hover:text-gold-dark">{t.name}</Link>
-                        <span className="text-muted-foreground"> — {formatPrice(t.medianPrice)}</span>
+                        <span className="text-muted-foreground"> - {formatPrice(t.medianPrice)}</span>
                       </p>
                     ))}
                   </div>
@@ -421,7 +421,7 @@ export default async function CountyPage({ params }: PageProps) {
                     {townsByPrice.slice(-3).reverse().map(t => (
                       <p key={t.slug} className="text-sm">
                         <Link href={`/locations/${county}/${t.slug}`} className="font-medium text-foreground hover:text-gold-dark">{t.name}</Link>
-                        <span className="text-muted-foreground"> — {formatPrice(t.medianPrice)}</span>
+                        <span className="text-muted-foreground"> - {formatPrice(t.medianPrice)}</span>
                       </p>
                     ))}
                   </div>
@@ -432,7 +432,7 @@ export default async function CountyPage({ params }: PageProps) {
                     {townsByVolume.slice(0, 3).map(t => (
                       <p key={t.slug} className="text-sm">
                         <Link href={`/locations/${county}/${t.slug}`} className="font-medium text-foreground hover:text-gold-dark">{t.name}</Link>
-                        <span className="text-muted-foreground"> — {t.transactionCount12m.toLocaleString("en-GB")} sales</span>
+                        <span className="text-muted-foreground"> - {t.transactionCount12m.toLocaleString("en-GB")} sales</span>
                       </p>
                     ))}
                   </div>
@@ -543,7 +543,7 @@ export default async function CountyPage({ params }: PageProps) {
             <div className="mx-auto max-w-3xl">
               <div className="mb-5 h-[2px] w-14" style={{ background: "linear-gradient(90deg, var(--gold), var(--gold-light))" }} />
               <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-                Frequently Asked Questions — {countyName}
+                Frequently Asked Questions - {countyName}
               </h2>
               <div className="space-y-4">
                 {faqs.map((faq, i) => (
@@ -597,7 +597,7 @@ export default async function CountyPage({ params }: PageProps) {
         </section>
       )}
 
-      {/* Map — moved to bottom */}
+      {/* Map - moved to bottom */}
       <LocationMap locationName={countyName} countyName="United Kingdom" />
 
       {/* CTA */}

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "southend-on-sea-essex-property-market",
   title: "Southend-on-Sea Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Southend-on-Sea House Prices 2026 — Property Market Data & Development Finance | Essex",
+  metaTitle: "Southend-on-Sea House Prices 2026 - Property Market Data & Development Finance | Essex",
   metaDescription: "Southend-on-Sea property prices: median £330,000, 1,899 sales, +1.5% YoY. Detached £532,500, Flat £200,000. Land Registry data for Southend-on-Sea, Essex.",
   excerpt: "Median price £330,000, 1,899 sales, +1.5% YoY. Essex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Southend-on-Sea recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>0.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Southend-on-Sea traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded — see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded - see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
       ],
     },
     {

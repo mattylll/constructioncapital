@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "peterlee-county-durham-property-market",
   title: "Peterlee Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Peterlee House Prices 2026 — Property Market Data & Development Finance | County Durham",
+  metaTitle: "Peterlee House Prices 2026 - Property Market Data & Development Finance | County Durham",
   metaDescription: "Peterlee property prices: median £77,000, 471 sales, +16.7% YoY. Detached £260,000, Flat £27,500. Land Registry data for Peterlee, County Durham.",
   excerpt: "Median price £77,000, 471 sales, +16.7% YoY. County Durham county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Peterlee recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Peterlee traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/county-durham-property-market">County Durham</a> market, 215 new-build completions were recorded — see our <a href="/market-reports/county-durham-property-market">County Durham property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/county-durham-property-market">County Durham</a> market, 215 new-build completions were recorded - see our <a href="/market-reports/county-durham-property-market">County Durham property market report</a> for the full county picture.`,
       ],
     },
     {

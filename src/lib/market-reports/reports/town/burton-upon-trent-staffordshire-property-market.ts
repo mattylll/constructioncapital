@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "burton-upon-trent-staffordshire-property-market",
   title: "Burton upon Trent Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Burton upon Trent House Prices 2026 — Property Market Data & Development Finance | Staffordshire",
+  metaTitle: "Burton upon Trent House Prices 2026 - Property Market Data & Development Finance | Staffordshire",
   metaDescription: "Burton upon Trent property prices: median £227,000, 1,377 sales, -1.3% YoY. Detached £350,000, Flat £96,500. Land Registry data for Burton upon Trent, Staffordshire.",
   excerpt: "Median price £227,000, 1,377 sales, -1.3% YoY. Staffordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Burton upon Trent recorded <strong>55</strong> new-build transactions in the past 12 months, representing <strong>4.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Burton upon Trent traded at a <strong>premium of 33.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/staffordshire-property-market">Staffordshire</a> market, 173 new-build completions were recorded — see our <a href="/market-reports/staffordshire-property-market">Staffordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/staffordshire-property-market">Staffordshire</a> market, 173 new-build completions were recorded - see our <a href="/market-reports/staffordshire-property-market">Staffordshire property market report</a> for the full county picture.`,
       ],
     },
     {

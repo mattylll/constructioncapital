@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "long-eaton-derbyshire-property-market",
   title: "Long Eaton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Long Eaton House Prices 2026 — Property Market Data & Development Finance | Derbyshire",
+  metaTitle: "Long Eaton House Prices 2026 - Property Market Data & Development Finance | Derbyshire",
   metaDescription: "Long Eaton property prices: median £205,000, 1,271 sales, -2.4% YoY. Detached £310,000, Flat £118,000. Land Registry data for Long Eaton, Derbyshire.",
   excerpt: "Median price £205,000, 1,271 sales, -2.4% YoY. Derbyshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Long Eaton recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Long Eaton traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/derbyshire-property-market">Derbyshire</a> market, 206 new-build completions were recorded — see our <a href="/market-reports/derbyshire-property-market">Derbyshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/derbyshire-property-market">Derbyshire</a> market, 206 new-build completions were recorded - see our <a href="/market-reports/derbyshire-property-market">Derbyshire property market report</a> for the full county picture.`,
       ],
     },
     {

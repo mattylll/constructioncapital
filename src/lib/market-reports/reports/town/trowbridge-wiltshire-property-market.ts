@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "trowbridge-wiltshire-property-market",
   title: "Trowbridge Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Trowbridge House Prices 2026 — Property Market Data & Development Finance | Wiltshire",
+  metaTitle: "Trowbridge House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
   metaDescription: "Trowbridge property prices: median £285,000, 579 sales, +1.8% YoY. Detached £380,000, Flat £135,500. Land Registry data for Trowbridge, Wiltshire.",
   excerpt: "Median price £285,000, 579 sales, +1.8% YoY. Wiltshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Trowbridge recorded <strong>10</strong> new-build transactions in the past 12 months, representing <strong>1.7%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Trowbridge traded at a <strong>discount of 5.5%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded — see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded - see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
       ],
     },
     {

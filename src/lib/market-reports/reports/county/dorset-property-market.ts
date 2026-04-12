@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "dorset-property-market",
   title: "Dorset Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Dorset Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Dorset Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Dorset property market analysis: median price £336,500, 6,239 sales, -2.1% YoY. Town comparisons, new builds & development finance across 8 towns.",
   excerpt: "8 towns analysed. Median price £336,500, 6,239 transactions, -2.1% YoY.",
   category: "county",
@@ -18,8 +18,8 @@ const report: MarketReport = {
       heading: `Dorset Property Market Overview`,
       content: [
         `Dorset combines the Jurassic Coast's tourism appeal with Bournemouth's vibrant urban economy. Bournemouth, Christchurch and Poole (BCP) unitary authority is one of the South Coast's most active development markets, with strong student demand from two universities and a growing digital sector. Rural Dorset offers lifestyle conversions and agricultural PD opportunities, while the coast commands premium values for well-located schemes.`,
-        `The <a href="/locations/dorset">Dorset</a> property market recorded <strong>6,239</strong> residential transactions over the past 12 months, with a median sale price of <strong>£336,500</strong> — £52k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2.1%</strong> across the county's principal towns.`,
-        `Key drivers of the Dorset property market include BCP coastal conurbation — 400,000 population, Two universities driving student housing demand, Jurassic Coast tourism economy. Additional factors include Digital and financial services employment growth.`,
+        `The <a href="/locations/dorset">Dorset</a> property market recorded <strong>6,239</strong> residential transactions over the past 12 months, with a median sale price of <strong>£336,500</strong> - £52k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2.1%</strong> across the county's principal towns.`,
+        `Key drivers of the Dorset property market include BCP coastal conurbation - 400,000 population, Two universities driving student housing demand, Jurassic Coast tourism economy. Additional factors include Digital and financial services employment growth.`,
       ],
     },
     {
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/dorset/christchurch">Christchurch</a></td><td>£412,000</td><td>627</td><td>+0.5%</td></tr><tr><td><a href="/locations/dorset/wimborne">Wimborne</a></td><td>£385,000</td><td>354</td><td>-4.9%</td></tr><tr><td><a href="/locations/dorset/bridport">Bridport</a></td><td>£365,000</td><td>255</td><td>-3.9%</td></tr><tr><td><a href="/locations/dorset/sherborne">Sherborne</a></td><td>£337,500</td><td>210</td><td>0%</td></tr><tr><td><a href="/locations/dorset/dorchester">Dorchester</a></td><td>£335,500</td><td>530</td><td>-1%</td></tr><tr><td><a href="/locations/dorset/poole">Poole</a></td><td>£330,000</td><td>1,408</td><td>+1.5%</td></tr><tr><td><a href="/locations/dorset/bournemouth">Bournemouth</a></td><td>£295,000</td><td>2,032</td><td>-2.2%</td></tr><tr><td><a href="/locations/dorset/weymouth">Weymouth</a></td><td>£270,000</td><td>823</td><td>-6.9%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/dorset/christchurch">Christchurch</a> (£412,000), <a href="/locations/dorset/wimborne">Wimborne</a> (£385,000), <a href="/locations/dorset/bridport">Bridport</a> (£365,000). Christchurch's premium reflects affluent coastal town at the dorset-hampshire border with premium residential values.`,
         `<strong>Most affordable:</strong> <a href="/locations/dorset/weymouth">Weymouth</a> (£270,000), <a href="/locations/dorset/bournemouth">Bournemouth</a> (£295,000), <a href="/locations/dorset/poole">Poole</a> (£330,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/dorset/bournemouth">Bournemouth</a> (2,032 sales), <a href="/locations/dorset/poole">Poole</a> (1,408 sales), <a href="/locations/dorset/weymouth">Weymouth</a> (823 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/dorset/bournemouth">Bournemouth</a> (2,032 sales), <a href="/locations/dorset/poole">Poole</a> (1,408 sales), <a href="/locations/dorset/weymouth">Weymouth</a> (823 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Dorset market data carries direct implications for developers seeking finance. With a median property value of £336,500 and detached homes at £492,500, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Dorset, a scheme with a GDV of £492,500 would typically attract <strong>senior debt of £320,125</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -2.1%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Dorset's existing stock — particularly flat properties priced from £186,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Dorset's existing stock - particularly flat properties priced from £186,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,8 +79,8 @@ const report: MarketReport = {
       content: [
         `Dorset's property market is experiencing a correction, with 2 of 8 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/dorset/poole">Poole</a> (+1.5%), <a href="/locations/dorset/christchurch">Christchurch</a> (+0.5%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Bournemouth (-2.2%) and Bridport (-3.9%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
-        `Looking ahead, Dorset's development pipeline will be shaped by BCP coastal conurbation — 400,000 population and Two universities driving student housing demand. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
+        `Conversely, Bournemouth (-2.2%) and Bridport (-3.9%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
+        `Looking ahead, Dorset's development pipeline will be shaped by BCP coastal conurbation - 400,000 population and Two universities driving student housing demand. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Dorset, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -92,7 +92,7 @@ const report: MarketReport = {
     },
     {
       question: `Is Dorset a good area for property development?`,
-      answer: `Dorset recorded 6,239 residential transactions in the past 12 months with prices falling -2.1% year-on-year, indicating a liquid market with strong exit confidence for developers. 46 new-build completions demonstrate active development activity. Key growth drivers include bcp coastal conurbation — 400,000 population.`,
+      answer: `Dorset recorded 6,239 residential transactions in the past 12 months with prices falling -2.1% year-on-year, indicating a liquid market with strong exit confidence for developers. 46 new-build completions demonstrate active development activity. Key growth drivers include bcp coastal conurbation - 400,000 population.`,
     },
     {
       question: `What types of development finance are available in Dorset?`,

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wokingham-berkshire-property-market",
   title: "Wokingham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wokingham House Prices 2026 — Property Market Data & Development Finance | Berkshire",
+  metaTitle: "Wokingham House Prices 2026 - Property Market Data & Development Finance | Berkshire",
   metaDescription: "Wokingham property prices: median £480,000, 1,666 sales, -2% YoY. Detached £685,000, Flat £265,000. Land Registry data for Wokingham, Berkshire.",
   excerpt: "Median price £480,000, 1,666 sales, -2% YoY. Berkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Wokingham recorded <strong>36</strong> new-build transactions in the past 12 months, representing <strong>2.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Wokingham traded at a <strong>premium of 50.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded — see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded - see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
       ],
     },
     {

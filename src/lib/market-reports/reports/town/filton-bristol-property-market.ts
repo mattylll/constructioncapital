@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "filton-bristol-property-market",
   title: "Filton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Filton House Prices 2026 — Property Market Data & Development Finance | Bristol",
+  metaTitle: "Filton House Prices 2026 - Property Market Data & Development Finance | Bristol",
   metaDescription: "Filton property prices: median £330,000, 2,966 sales, -3.5% YoY. Detached £500,000, Flat £200,000. Land Registry data for Filton, Bristol.",
   excerpt: "Median price £330,000, 2,966 sales, -3.5% YoY. Bristol county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Filton recorded <strong>71</strong> new-build transactions in the past 12 months, representing <strong>2.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Filton traded at a <strong>premium of 35.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/bristol-property-market">Bristol</a> market, 171 new-build completions were recorded — see our <a href="/market-reports/bristol-property-market">Bristol property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/bristol-property-market">Bristol</a> market, 171 new-build completions were recorded - see our <a href="/market-reports/bristol-property-market">Bristol property market report</a> for the full county picture.`,
       ],
     },
     {

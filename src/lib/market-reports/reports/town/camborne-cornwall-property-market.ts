@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "camborne-cornwall-property-market",
   title: "Camborne Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Camborne House Prices 2026 — Property Market Data & Development Finance | Cornwall",
+  metaTitle: "Camborne House Prices 2026 - Property Market Data & Development Finance | Cornwall",
   metaDescription: "Camborne property prices: median £210,000, 257 sales, -8.7% YoY. Detached £340,000, Flat £120,000. Land Registry data for Camborne, Cornwall.",
   excerpt: "Median price £210,000, 257 sales, -8.7% YoY. Cornwall county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Camborne recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Camborne traded at a <strong>discount of 19.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded — see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded - see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
       ],
     },
     {

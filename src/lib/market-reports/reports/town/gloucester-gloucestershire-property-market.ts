@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "gloucester-gloucestershire-property-market",
   title: "Gloucester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Gloucester House Prices 2026 — Property Market Data & Development Finance | Gloucestershire",
+  metaTitle: "Gloucester House Prices 2026 - Property Market Data & Development Finance | Gloucestershire",
   metaDescription: "Gloucester property prices: median £245,000, 1,419 sales, -3.8% YoY. Detached £380,000, Flat £140,000. Land Registry data for Gloucester, Gloucestershire.",
   excerpt: "Median price £245,000, 1,419 sales, -3.8% YoY. Gloucestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Gloucester recorded <strong>42</strong> new-build transactions in the past 12 months, representing <strong>3.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Gloucester traded at a <strong>premium of 39.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/gloucestershire-property-market">Gloucestershire</a> market, 154 new-build completions were recorded — see our <a href="/market-reports/gloucestershire-property-market">Gloucestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/gloucestershire-property-market">Gloucestershire</a> market, 154 new-build completions were recorded - see our <a href="/market-reports/gloucestershire-property-market">Gloucestershire property market report</a> for the full county picture.`,
       ],
     },
     {

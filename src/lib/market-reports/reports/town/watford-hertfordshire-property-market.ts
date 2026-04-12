@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "watford-hertfordshire-property-market",
   title: "Watford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Watford House Prices 2026 — Property Market Data & Development Finance | Hertfordshire",
+  metaTitle: "Watford House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
   metaDescription: "Watford property prices: median £400,000, 739 sales, -3.6% YoY. Detached £855,000, Flat £260,000. Land Registry data for Watford, Hertfordshire.",
   excerpt: "Median price £400,000, 739 sales, -3.6% YoY. Hertfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Watford recorded <strong>29</strong> new-build transactions in the past 12 months, representing <strong>3.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Watford traded at a <strong>discount of 38.8%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded - see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

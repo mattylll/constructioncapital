@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "fleet-hampshire-property-market",
   title: "Fleet Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Fleet House Prices 2026 — Property Market Data & Development Finance | Hampshire",
+  metaTitle: "Fleet House Prices 2026 - Property Market Data & Development Finance | Hampshire",
   metaDescription: "Fleet property prices: median £450,000, 1,005 sales, -4.3% YoY. Detached £660,000, Flat £225,000. Land Registry data for Fleet, Hampshire.",
   excerpt: "Median price £450,000, 1,005 sales, -4.3% YoY. Hampshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Fleet recorded <strong>17</strong> new-build transactions in the past 12 months, representing <strong>1.7%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Fleet traded at a <strong>premium of 31.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded — see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded - see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
       ],
     },
     {

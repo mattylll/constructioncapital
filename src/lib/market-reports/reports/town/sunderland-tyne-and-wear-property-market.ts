@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "sunderland-tyne-and-wear-property-market",
   title: "Sunderland Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sunderland House Prices 2026 — Property Market Data & Development Finance | Tyne and Wear",
+  metaTitle: "Sunderland House Prices 2026 - Property Market Data & Development Finance | Tyne and Wear",
   metaDescription: "Sunderland property prices: median £130,000, 1,710 sales, 0% YoY. Detached £282,500, Flat £62,000. Land Registry data for Sunderland, Tyne and Wear.",
   excerpt: "Median price £130,000, 1,710 sales, 0% YoY. Tyne and Wear county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Sunderland recorded <strong>32</strong> new-build transactions in the past 12 months, representing <strong>1.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Sunderland traded at a <strong>premium of 94.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> market, 234 new-build completions were recorded — see our <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> market, 234 new-build completions were recorded - see our <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear property market report</a> for the full county picture.`,
       ],
     },
     {

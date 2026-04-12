@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bridgwater-somerset-property-market",
   title: "Bridgwater Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bridgwater House Prices 2026 — Property Market Data & Development Finance | Somerset",
+  metaTitle: "Bridgwater House Prices 2026 - Property Market Data & Development Finance | Somerset",
   metaDescription: "Bridgwater property prices: median £252,750, 804 sales, +1.1% YoY. Detached £380,000, Flat £126,000. Land Registry data for Bridgwater, Somerset.",
   excerpt: "Median price £252,750, 804 sales, +1.1% YoY. Somerset county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bridgwater recorded <strong>5</strong> new-build transactions in the past 12 months, representing <strong>0.6%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Bridgwater traded at a <strong>premium of 69.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/somerset-property-market">Somerset</a> market, 118 new-build completions were recorded — see our <a href="/market-reports/somerset-property-market">Somerset property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/somerset-property-market">Somerset</a> market, 118 new-build completions were recorded - see our <a href="/market-reports/somerset-property-market">Somerset property market report</a> for the full county picture.`,
       ],
     },
     {

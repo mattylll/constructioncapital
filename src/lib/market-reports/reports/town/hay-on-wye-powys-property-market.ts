@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hay-on-wye-powys-property-market",
   title: "Hay-on-Wye Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hay-on-Wye House Prices 2026 — Property Market Data & Development Finance | Powys",
+  metaTitle: "Hay-on-Wye House Prices 2026 - Property Market Data & Development Finance | Powys",
   metaDescription: "Hay-on-Wye property prices: median £250,000, 1,179 sales, 0% YoY. Detached £335,000, Flat £97,500. Land Registry data for Hay-on-Wye, Powys.",
   excerpt: "Median price £250,000, 1,179 sales, 0% YoY. Powys county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Hay-on-Wye recorded <strong>27</strong> new-build transactions in the past 12 months, representing <strong>2.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Hay-on-Wye traded at a <strong>premium of 23.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/powys-property-market">Powys</a> market, 39 new-build completions were recorded — see our <a href="/market-reports/powys-property-market">Powys property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/powys-property-market">Powys</a> market, 39 new-build completions were recorded - see our <a href="/market-reports/powys-property-market">Powys property market report</a> for the full county picture.`,
       ],
     },
     {

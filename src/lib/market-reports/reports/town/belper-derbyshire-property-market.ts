@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "belper-derbyshire-property-market",
   title: "Belper Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Belper House Prices 2026 — Property Market Data & Development Finance | Derbyshire",
+  metaTitle: "Belper House Prices 2026 - Property Market Data & Development Finance | Derbyshire",
   metaDescription: "Belper property prices: median £215,000, 1,398 sales, -6.5% YoY. Detached £330,000, Flat £147,500. Land Registry data for Belper, Derbyshire.",
   excerpt: "Median price £215,000, 1,398 sales, -6.5% YoY. Derbyshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Belper recorded <strong>61</strong> new-build transactions in the past 12 months, representing <strong>4.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Belper traded at a <strong>premium of 37.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/derbyshire-property-market">Derbyshire</a> market, 206 new-build completions were recorded — see our <a href="/market-reports/derbyshire-property-market">Derbyshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/derbyshire-property-market">Derbyshire</a> market, 206 new-build completions were recorded - see our <a href="/market-reports/derbyshire-property-market">Derbyshire property market report</a> for the full county picture.`,
       ],
     },
     {

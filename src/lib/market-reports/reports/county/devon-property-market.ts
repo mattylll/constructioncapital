@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "devon-property-market",
   title: "Devon Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Devon Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Devon Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Devon property market analysis: median price £290,000, 7,914 sales, -4.9% YoY. Town comparisons, new builds & development finance across 7 towns.",
   excerpt: "7 towns analysed. Median price £290,000, 7,914 transactions, -4.9% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Devon Property Market Overview`,
       content: [
         `Devon offers two distinct property markets: the South Devon coast (Torbay, Dartmouth, Salcombe) commands premium values driven by lifestyle buyers and tourism, while Exeter is emerging as a genuine economic hub with a growing biomedical sector and university expansion. North Devon's market is more affordable but benefits from tourism demand. The county's rural areas provide barn conversion and farmstead development opportunities.`,
-        `The <a href="/locations/devon">Devon</a> property market recorded <strong>7,914</strong> residential transactions over the past 12 months, with a median sale price of <strong>£290,000</strong> — £5k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-4.9%</strong> across the county's principal towns.`,
+        `The <a href="/locations/devon">Devon</a> property market recorded <strong>7,914</strong> residential transactions over the past 12 months, with a median sale price of <strong>£290,000</strong> - £5k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-4.9%</strong> across the county's principal towns.`,
         `Key drivers of the Devon property market include Exeter biomedical and university sector growth, South Devon coastal premium and lifestyle market, Tourism-driven holiday-let development. Additional factors include Rural barn conversion permitted development.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/devon/exmouth">Exmouth</a></td><td>£317,500</td><td>1,887</td><td>-3.8%</td></tr><tr><td><a href="/locations/devon/exeter">Exeter</a></td><td>£290,500</td><td>1,192</td><td>-4.4%</td></tr><tr><td><a href="/locations/devon/barnstaple">Barnstaple</a></td><td>£290,000</td><td>1,088</td><td>-1%</td></tr><tr><td><a href="/locations/devon/newton-abbot">Newton Abbot</a></td><td>£290,000</td><td>1,518</td><td>-3.3%</td></tr><tr><td><a href="/locations/devon/tiverton">Tiverton</a></td><td>£275,000</td><td>839</td><td>-7.6%</td></tr><tr><td><a href="/locations/devon/paignton">Paignton</a></td><td>£245,000</td><td>622</td><td>-7.5%</td></tr><tr><td><a href="/locations/devon/torquay">Torquay</a></td><td>£220,000</td><td>768</td><td>-6.4%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/devon/exmouth">Exmouth</a> (£317,500), <a href="/locations/devon/exeter">Exeter</a> (£290,500), <a href="/locations/devon/barnstaple">Barnstaple</a> (£290,000). Exmouth's premium reflects coastal town with exe estuary waterfront and growing appeal from exeter commuters.`,
         `<strong>Most affordable:</strong> <a href="/locations/devon/torquay">Torquay</a> (£220,000), <a href="/locations/devon/paignton">Paignton</a> (£245,000), <a href="/locations/devon/tiverton">Tiverton</a> (£275,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/devon/exmouth">Exmouth</a> (1,887 sales), <a href="/locations/devon/newton-abbot">Newton Abbot</a> (1,518 sales), <a href="/locations/devon/exeter">Exeter</a> (1,192 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/devon/exmouth">Exmouth</a> (1,887 sales), <a href="/locations/devon/newton-abbot">Newton Abbot</a> (1,518 sales), <a href="/locations/devon/exeter">Exeter</a> (1,192 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Devon market data carries direct implications for developers seeking finance. With a median property value of £290,000 and detached homes at £410,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Devon, a scheme with a GDV of £410,000 would typically attract <strong>senior debt of £266,500</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -4.9%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Devon's existing stock — particularly flat properties priced from £160,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Devon's existing stock - particularly flat properties priced from £160,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -78,7 +78,7 @@ const report: MarketReport = {
       heading: `Devon Property Market Outlook 2026`,
       content: [
         `Devon's property market is experiencing a correction, with 0 of 7 towns recording year-on-year price growth.`,
-        `Conversely, Newton Abbot (-3.3%) and Exmouth (-3.8%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Newton Abbot (-3.3%) and Exmouth (-3.8%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Devon's development pipeline will be shaped by Exeter biomedical and university sector growth and South Devon coastal premium and lifestyle market. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Devon, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

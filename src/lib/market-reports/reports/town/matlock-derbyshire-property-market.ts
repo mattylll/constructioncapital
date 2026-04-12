@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "matlock-derbyshire-property-market",
   title: "Matlock Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Matlock House Prices 2026 — Property Market Data & Development Finance | Derbyshire",
+  metaTitle: "Matlock House Prices 2026 - Property Market Data & Development Finance | Derbyshire",
   metaDescription: "Matlock property prices: median £310,000, 739 sales, -3.1% YoY. Detached £450,000, Flat £200,000. Land Registry data for Matlock, Derbyshire.",
   excerpt: "Median price £310,000, 739 sales, -3.1% YoY. Derbyshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Matlock recorded <strong>20</strong> new-build transactions in the past 12 months, representing <strong>2.7%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Matlock traded at a <strong>discount of 12.4%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/derbyshire-property-market">Derbyshire</a> market, 206 new-build completions were recorded — see our <a href="/market-reports/derbyshire-property-market">Derbyshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/derbyshire-property-market">Derbyshire</a> market, 206 new-build completions were recorded - see our <a href="/market-reports/derbyshire-property-market">Derbyshire property market report</a> for the full county picture.`,
       ],
     },
     {

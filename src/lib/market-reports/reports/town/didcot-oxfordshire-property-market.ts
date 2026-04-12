@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "didcot-oxfordshire-property-market",
   title: "Didcot Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Didcot House Prices 2026 — Property Market Data & Development Finance | Oxfordshire",
+  metaTitle: "Didcot House Prices 2026 - Property Market Data & Development Finance | Oxfordshire",
   metaDescription: "Didcot property prices: median £350,000, 386 sales, -2.8% YoY. Detached £472,475, Flat £203,000. Land Registry data for Didcot, Oxfordshire.",
   excerpt: "Median price £350,000, 386 sales, -2.8% YoY. Oxfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Didcot recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>3.6%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Didcot traded at a <strong>premium of 35.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/oxfordshire-property-market">Oxfordshire</a> market, 215 new-build completions were recorded — see our <a href="/market-reports/oxfordshire-property-market">Oxfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/oxfordshire-property-market">Oxfordshire</a> market, 215 new-build completions were recorded - see our <a href="/market-reports/oxfordshire-property-market">Oxfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

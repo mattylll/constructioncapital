@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wembley-greater-london-property-market",
   title: "Wembley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wembley House Prices 2026 — Property Market Data & Development Finance | Greater London",
+  metaTitle: "Wembley House Prices 2026 - Property Market Data & Development Finance | Greater London",
   metaDescription: "Wembley property prices: median £525,000, 1,527 sales, -0.9% YoY. Detached £972,500, Flat £407,400. Land Registry data for Wembley, Greater London.",
   excerpt: "Median price £525,000, 1,527 sales, -0.9% YoY. Greater London county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Wembley recorded <strong>166</strong> new-build transactions in the past 12 months, representing <strong>10.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Wembley traded at a <strong>premium of 9.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded - see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {

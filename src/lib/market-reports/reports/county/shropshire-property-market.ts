@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "shropshire-property-market",
   title: "Shropshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Shropshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Shropshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Shropshire property market analysis: median price £265,000, 2,461 sales, -2.2% YoY. Town comparisons, new builds & development finance across 5 towns.",
   excerpt: "5 towns analysed. Median price £265,000, 2,461 transactions, -2.2% YoY.",
   category: "county",
@@ -17,8 +17,8 @@ const report: MarketReport = {
     {
       heading: `Shropshire Property Market Overview`,
       content: [
-        `Shropshire is a large, predominantly rural county with development concentrated around Shrewsbury and Telford. Shrewsbury's medieval town centre offers heritage conversion opportunities, while Telford — a New Town — provides affordable land and modern commercial property for conversion. The county's position on the Welsh border gives it a distinct character and a market that differs from the urban West Midlands.`,
-        `The <a href="/locations/shropshire">Shropshire</a> property market recorded <strong>2,461</strong> residential transactions over the past 12 months, with a median sale price of <strong>£265,000</strong> — £20k below the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2.2%</strong> across the county's principal towns.`,
+        `Shropshire is a large, predominantly rural county with development concentrated around Shrewsbury and Telford. Shrewsbury's medieval town centre offers heritage conversion opportunities, while Telford - a New Town - provides affordable land and modern commercial property for conversion. The county's position on the Welsh border gives it a distinct character and a market that differs from the urban West Midlands.`,
+        `The <a href="/locations/shropshire">Shropshire</a> property market recorded <strong>2,461</strong> residential transactions over the past 12 months, with a median sale price of <strong>£265,000</strong> - £20k below the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2.2%</strong> across the county's principal towns.`,
         `Key drivers of the Shropshire property market include Shrewsbury medieval heritage conversions, Telford New Town regeneration, Welsh border market dynamics. Additional factors include Rural barn conversion and farmstead PD.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/shropshire/ludlow">Ludlow</a></td><td>£272,000</td><td>187</td><td>+0.3%</td></tr><tr><td><a href="/locations/shropshire/shrewsbury">Shrewsbury</a></td><td>£270,000</td><td>1,405</td><td>-3.6%</td></tr><tr><td><a href="/locations/shropshire/bridgnorth">Bridgnorth</a></td><td>£265,000</td><td>223</td><td>-2.8%</td></tr><tr><td><a href="/locations/shropshire/market-drayton">Market Drayton</a></td><td>£253,432</td><td>232</td><td>+1.4%</td></tr><tr><td><a href="/locations/shropshire/oswestry">Oswestry</a></td><td>£229,498</td><td>414</td><td>-6.3%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/shropshire/ludlow">Ludlow</a> (£272,000), <a href="/locations/shropshire/shrewsbury">Shrewsbury</a> (£270,000), <a href="/locations/shropshire/bridgnorth">Bridgnorth</a> (£265,000). Ludlow's premium reflects foodie capital with castle heritage, premium values, and strong lifestyle buyer demand.`,
         `<strong>Most affordable:</strong> <a href="/locations/shropshire/oswestry">Oswestry</a> (£229,498), <a href="/locations/shropshire/market-drayton">Market Drayton</a> (£253,432), <a href="/locations/shropshire/bridgnorth">Bridgnorth</a> (£265,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/shropshire/shrewsbury">Shrewsbury</a> (1,405 sales), <a href="/locations/shropshire/oswestry">Oswestry</a> (414 sales), <a href="/locations/shropshire/market-drayton">Market Drayton</a> (232 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/shropshire/shrewsbury">Shrewsbury</a> (1,405 sales), <a href="/locations/shropshire/oswestry">Oswestry</a> (414 sales), <a href="/locations/shropshire/market-drayton">Market Drayton</a> (232 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Shropshire market data carries direct implications for developers seeking finance. With a median property value of £265,000 and detached homes at £347,500, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Shropshire, a scheme with a GDV of £347,500 would typically attract <strong>senior debt of £225,875</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -2.2%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Shropshire's existing stock — particularly flat properties priced from £125,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Shropshire's existing stock - particularly flat properties priced from £125,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Shropshire's property market is experiencing a correction, with 2 of 5 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/shropshire/market-drayton">Market Drayton</a> (+1.4%), <a href="/locations/shropshire/ludlow">Ludlow</a> (+0.3%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Bridgnorth (-2.8%) and Shrewsbury (-3.6%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Bridgnorth (-2.8%) and Shrewsbury (-3.6%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Shropshire's development pipeline will be shaped by Shrewsbury medieval heritage conversions and Telford New Town regeneration. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Shropshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

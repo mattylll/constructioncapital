@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "st-helens-merseyside-property-market",
   title: "St Helens Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "St Helens House Prices 2026 — Property Market Data & Development Finance | Merseyside",
+  metaTitle: "St Helens House Prices 2026 - Property Market Data & Development Finance | Merseyside",
   metaDescription: "St Helens property prices: median £173,000, 1,787 sales, -3.9% YoY. Detached £320,000, Flat £95,000. Land Registry data for St Helens, Merseyside.",
   excerpt: "Median price £173,000, 1,787 sales, -3.9% YoY. Merseyside county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `St Helens recorded <strong>36</strong> new-build transactions in the past 12 months, representing <strong>2.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in St Helens traded at a <strong>premium of 58.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/merseyside-property-market">Merseyside</a> market, 102 new-build completions were recorded — see our <a href="/market-reports/merseyside-property-market">Merseyside property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/merseyside-property-market">Merseyside</a> market, 102 new-build completions were recorded - see our <a href="/market-reports/merseyside-property-market">Merseyside property market report</a> for the full county picture.`,
       ],
     },
     {

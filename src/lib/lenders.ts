@@ -615,7 +615,7 @@ export const LENDERS: Lender[] = [
     typicalRate: "From 6.5% p.a.",
     maxLtv: "75% LTGDV",
     strengths: [
-      "Green premium — reduced rates for EPC A-rated developments",
+      "Green premium - reduced rates for EPC A-rated developments",
       "Strong appetite for modular and MMC construction methods",
       "Will co-invest equity alongside senior debt for qualifying schemes",
     ],

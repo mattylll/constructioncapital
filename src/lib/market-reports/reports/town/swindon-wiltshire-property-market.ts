@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "swindon-wiltshire-property-market",
   title: "Swindon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Swindon House Prices 2026 — Property Market Data & Development Finance | Wiltshire",
+  metaTitle: "Swindon House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
   metaDescription: "Swindon property prices: median £270,000, 2,449 sales, -1.8% YoY. Detached £422,500, Flat £144,500. Land Registry data for Swindon, Wiltshire.",
   excerpt: "Median price £270,000, 2,449 sales, -1.8% YoY. Wiltshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Swindon recorded <strong>59</strong> new-build transactions in the past 12 months, representing <strong>2.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Swindon traded at a <strong>premium of 29.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded — see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded - see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
       ],
     },
     {

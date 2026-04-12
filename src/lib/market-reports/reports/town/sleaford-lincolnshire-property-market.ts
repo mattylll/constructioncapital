@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "sleaford-lincolnshire-property-market",
   title: "Sleaford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sleaford House Prices 2026 — Property Market Data & Development Finance | Lincolnshire",
+  metaTitle: "Sleaford House Prices 2026 - Property Market Data & Development Finance | Lincolnshire",
   metaDescription: "Sleaford property prices: median £238,998, 1,426 sales, +1.7% YoY. Detached £296,000, Flat £112,000. Land Registry data for Sleaford, Lincolnshire.",
   excerpt: "Median price £238,998, 1,426 sales, +1.7% YoY. Lincolnshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Sleaford recorded <strong>57</strong> new-build transactions in the past 12 months, representing <strong>4.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Sleaford traded at a <strong>premium of 17.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> market, 352 new-build completions were recorded — see our <a href="/market-reports/lincolnshire-property-market">Lincolnshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> market, 352 new-build completions were recorded - see our <a href="/market-reports/lincolnshire-property-market">Lincolnshire property market report</a> for the full county picture.`,
       ],
     },
     {

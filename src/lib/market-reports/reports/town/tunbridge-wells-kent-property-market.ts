@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "tunbridge-wells-kent-property-market",
   title: "Tunbridge Wells Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Tunbridge Wells House Prices 2026 — Property Market Data & Development Finance | Kent",
+  metaTitle: "Tunbridge Wells House Prices 2026 - Property Market Data & Development Finance | Kent",
   metaDescription: "Tunbridge Wells property prices: median £430,000, 1,193 sales, +2.4% YoY. Detached £761,500, Flat £255,000. Land Registry data for Tunbridge Wells, Kent.",
   excerpt: "Median price £430,000, 1,193 sales, +2.4% YoY. Kent county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Tunbridge Wells recorded <strong>25</strong> new-build transactions in the past 12 months, representing <strong>2.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Tunbridge Wells traded at a <strong>premium of 41.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded — see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded - see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
       ],
     },
     {

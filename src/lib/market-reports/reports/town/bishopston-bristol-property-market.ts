@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bishopston-bristol-property-market",
   title: "Bishopston Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bishopston House Prices 2026 — Property Market Data & Development Finance | Bristol",
+  metaTitle: "Bishopston House Prices 2026 - Property Market Data & Development Finance | Bristol",
   metaDescription: "Bishopston property prices: median £345,000, 4,420 sales, +1.5% YoY. Detached £535,000, Flat £255,000. Land Registry data for Bishopston, Bristol.",
   excerpt: "Median price £345,000, 4,420 sales, +1.5% YoY. Bristol county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bishopston recorded <strong>23</strong> new-build transactions in the past 12 months, representing <strong>0.5%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Bishopston traded at a <strong>discount of 27.5%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/bristol-property-market">Bristol</a> market, 171 new-build completions were recorded — see our <a href="/market-reports/bristol-property-market">Bristol property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/bristol-property-market">Bristol</a> market, 171 new-build completions were recorded - see our <a href="/market-reports/bristol-property-market">Bristol property market report</a> for the full county picture.`,
       ],
     },
     {

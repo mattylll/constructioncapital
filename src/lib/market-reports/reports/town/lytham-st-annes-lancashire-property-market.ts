@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lytham-st-annes-lancashire-property-market",
   title: "Lytham St Annes Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lytham St Annes House Prices 2026 — Property Market Data & Development Finance | Lancashire",
+  metaTitle: "Lytham St Annes House Prices 2026 - Property Market Data & Development Finance | Lancashire",
   metaDescription: "Lytham St Annes property prices: median £232,000, 1,019 sales, -3.3% YoY. Detached £340,000, Flat £121,000. Land Registry data for Lytham St Annes, Lancashire.",
   excerpt: "Median price £232,000, 1,019 sales, -3.3% YoY. Lancashire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Lytham St Annes recorded <strong>16</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Lytham St Annes traded at a <strong>premium of 56.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/lancashire-property-market">Lancashire</a> market, 224 new-build completions were recorded — see our <a href="/market-reports/lancashire-property-market">Lancashire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/lancashire-property-market">Lancashire</a> market, 224 new-build completions were recorded - see our <a href="/market-reports/lancashire-property-market">Lancashire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bicester-oxfordshire-property-market",
   title: "Bicester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bicester House Prices 2026 — Property Market Data & Development Finance | Oxfordshire",
+  metaTitle: "Bicester House Prices 2026 - Property Market Data & Development Finance | Oxfordshire",
   metaDescription: "Bicester property prices: median £355,000, 589 sales, -4.8% YoY. Detached £525,000, Flat £220,000. Land Registry data for Bicester, Oxfordshire.",
   excerpt: "Median price £355,000, 589 sales, -4.8% YoY. Oxfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bicester recorded <strong>13</strong> new-build transactions in the past 12 months, representing <strong>2.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Bicester traded at a <strong>premium of 18.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/oxfordshire-property-market">Oxfordshire</a> market, 215 new-build completions were recorded — see our <a href="/market-reports/oxfordshire-property-market">Oxfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/oxfordshire-property-market">Oxfordshire</a> market, 215 new-build completions were recorded - see our <a href="/market-reports/oxfordshire-property-market">Oxfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cirencester-gloucestershire-property-market",
   title: "Cirencester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Cirencester House Prices 2026 — Property Market Data & Development Finance | Gloucestershire",
+  metaTitle: "Cirencester House Prices 2026 - Property Market Data & Development Finance | Gloucestershire",
   metaDescription: "Cirencester property prices: median £435,000, 1,045 sales, -4% YoY. Detached £652,500, Flat £210,000. Land Registry data for Cirencester, Gloucestershire.",
   excerpt: "Median price £435,000, 1,045 sales, -4% YoY. Gloucestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Cirencester recorded <strong>3</strong> new-build transactions in the past 12 months, representing <strong>0.3%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Cirencester traded at a <strong>premium of 3.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/gloucestershire-property-market">Gloucestershire</a> market, 154 new-build completions were recorded — see our <a href="/market-reports/gloucestershire-property-market">Gloucestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/gloucestershire-property-market">Gloucestershire</a> market, 154 new-build completions were recorded - see our <a href="/market-reports/gloucestershire-property-market">Gloucestershire property market report</a> for the full county picture.`,
       ],
     },
     {

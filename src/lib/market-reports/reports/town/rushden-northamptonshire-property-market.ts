@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "rushden-northamptonshire-property-market",
   title: "Rushden Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Rushden House Prices 2026 — Property Market Data & Development Finance | Northamptonshire",
+  metaTitle: "Rushden House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
   metaDescription: "Rushden property prices: median £245,000, 480 sales, +1.7% YoY. Detached £347,500, Flat £115,000. Land Registry data for Rushden, Northamptonshire.",
   excerpt: "Median price £245,000, 480 sales, +1.7% YoY. Northamptonshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Rushden recorded <strong>2</strong> new-build transactions in the past 12 months, representing <strong>0.4%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Rushden traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> market, 315 new-build completions were recorded — see our <a href="/market-reports/northamptonshire-property-market">Northamptonshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> market, 315 new-build completions were recorded - see our <a href="/market-reports/northamptonshire-property-market">Northamptonshire property market report</a> for the full county picture.`,
       ],
     },
     {

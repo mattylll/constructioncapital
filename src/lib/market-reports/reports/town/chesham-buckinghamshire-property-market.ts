@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "chesham-buckinghamshire-property-market",
   title: "Chesham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chesham House Prices 2026 — Property Market Data & Development Finance | Buckinghamshire",
+  metaTitle: "Chesham House Prices 2026 - Property Market Data & Development Finance | Buckinghamshire",
   metaDescription: "Chesham property prices: median £440,000, 216 sales, -1.7% YoY. Detached £820,000, Flat £250,000. Land Registry data for Chesham, Buckinghamshire.",
   excerpt: "Median price £440,000, 216 sales, -1.7% YoY. Buckinghamshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Chesham recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Chesham traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded — see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded - see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
       ],
     },
     {

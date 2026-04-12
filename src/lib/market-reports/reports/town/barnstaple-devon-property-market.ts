@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "barnstaple-devon-property-market",
   title: "Barnstaple Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Barnstaple House Prices 2026 — Property Market Data & Development Finance | Devon",
+  metaTitle: "Barnstaple House Prices 2026 - Property Market Data & Development Finance | Devon",
   metaDescription: "Barnstaple property prices: median £290,000, 1,088 sales, -1% YoY. Detached £380,000, Flat £167,750. Land Registry data for Barnstaple, Devon.",
   excerpt: "Median price £290,000, 1,088 sales, -1% YoY. Devon county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Barnstaple recorded <strong>13</strong> new-build transactions in the past 12 months, representing <strong>1.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Barnstaple traded at a <strong>premium of 36.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/devon-property-market">Devon</a> market, 180 new-build completions were recorded — see our <a href="/market-reports/devon-property-market">Devon property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/devon-property-market">Devon</a> market, 180 new-build completions were recorded - see our <a href="/market-reports/devon-property-market">Devon property market report</a> for the full county picture.`,
       ],
     },
     {

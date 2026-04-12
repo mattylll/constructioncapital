@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ely-cambridgeshire-property-market",
   title: "Ely Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ely House Prices 2026 — Property Market Data & Development Finance | Cambridgeshire",
+  metaTitle: "Ely House Prices 2026 - Property Market Data & Development Finance | Cambridgeshire",
   metaDescription: "Ely property prices: median £335,000, 845 sales, -1.5% YoY. Detached £450,000, Flat £161,500. Land Registry data for Ely, Cambridgeshire.",
   excerpt: "Median price £335,000, 845 sales, -1.5% YoY. Cambridgeshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Ely recorded <strong>44</strong> new-build transactions in the past 12 months, representing <strong>5.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Ely traded at a <strong>premium of 7.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire</a> market, 154 new-build completions were recorded — see our <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire</a> market, 154 new-build completions were recorded - see our <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire property market report</a> for the full county picture.`,
       ],
     },
     {

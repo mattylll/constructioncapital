@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ripon-north-yorkshire-property-market",
   title: "Ripon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ripon House Prices 2026 — Property Market Data & Development Finance | North Yorkshire",
+  metaTitle: "Ripon House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
   metaDescription: "Ripon property prices: median £297,000, 223 sales, +0.7% YoY. Detached £440,000, Flat £148,500. Land Registry data for Ripon, North Yorkshire.",
   excerpt: "Median price £297,000, 223 sales, +0.7% YoY. North Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Ripon recorded <strong>2</strong> new-build transactions in the past 12 months, representing <strong>0.9%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Ripon traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> market, 130 new-build completions were recorded — see our <a href="/market-reports/north-yorkshire-property-market">North Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> market, 130 new-build completions were recorded - see our <a href="/market-reports/north-yorkshire-property-market">North Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

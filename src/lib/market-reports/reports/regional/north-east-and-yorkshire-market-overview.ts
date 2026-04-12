@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "north-east-and-yorkshire-market-overview",
   title: "North East & Yorkshire Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "North East & Yorkshire Property Market 2026 — County Prices, Trends & Development Hotspots",
+  metaTitle: "North East & Yorkshire Property Market 2026 - County Prices, Trends & Development Hotspots",
   metaDescription: "North East & Yorkshire property market overview: 7 counties, 63,462 sales, median £188,750. County comparisons, development hotspots & finance options.",
   excerpt: "7 counties, 63,462 transactions, median £188,750.",
   category: "regional",
@@ -31,7 +31,7 @@ const report: MarketReport = {
     {
       heading: `Price Geography`,
       content: [
-        `Property prices across North East & Yorkshire vary significantly. <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> commands the highest median price at <strong>£280,000</strong>, while <a href="/market-reports/county-durham-property-market">County Durham</a> offers the most affordable entry at <strong>£128,500</strong> — a spread of <strong>£152k</strong>.`,
+        `Property prices across North East & Yorkshire vary significantly. <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> commands the highest median price at <strong>£280,000</strong>, while <a href="/market-reports/county-durham-property-market">County Durham</a> offers the most affordable entry at <strong>£128,500</strong> - a spread of <strong>£152k</strong>.`,
         `This price differential creates opportunities across the risk-return spectrum. Premium locations offer higher GDVs but require larger capital commitments, while more affordable areas can deliver stronger percentage returns on lower absolute investment.`,
       ],
     },
@@ -39,7 +39,7 @@ const report: MarketReport = {
       heading: `Development Hotspots`,
       content: [
         `The most active development markets in North East & Yorkshire, measured by new-build completions, are <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> (348 new builds), <a href="/market-reports/south-yorkshire-property-market">South Yorkshire</a> (254 new builds), <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> (234 new builds).`,
-        `By total transaction volume — an indicator of market liquidity and exit confidence — <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> (18,392 sales), <a href="/market-reports/south-yorkshire-property-market">South Yorkshire</a> (14,675 sales), <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> (10,446 sales) lead the region.`,
+        `By total transaction volume - an indicator of market liquidity and exit confidence - <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> (18,392 sales), <a href="/market-reports/south-yorkshire-property-market">South Yorkshire</a> (14,675 sales), <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> (10,446 sales) lead the region.`,
         `Developers entering the North East & Yorkshire market should weigh these two metrics together: new-build activity shows where planning consent is achievable, while transaction volume confirms buyer demand.`,
       ],
     },
@@ -55,7 +55,7 @@ const report: MarketReport = {
       heading: `Key Takeaways`,
       content: [
         `<ul>
-<li><strong>Market size:</strong> 63,462 transactions across 7 counties — one of the UK's most active regions.</li>
+<li><strong>Market size:</strong> 63,462 transactions across 7 counties - one of the UK's most active regions.</li>
 <li><strong>Price range:</strong> £128,500 to £280,000 median prices, offering opportunities across the capital spectrum.</li>
 <li><strong>Market direction:</strong> 2 of 7 counties showing year-on-year price growth.</li>
 <li><strong>New build activity:</strong> 1,385 completions across the region, indicating a healthy development pipeline.</li>

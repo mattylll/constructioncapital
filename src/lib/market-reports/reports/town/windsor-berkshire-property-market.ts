@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "windsor-berkshire-property-market",
   title: "Windsor Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Windsor House Prices 2026 — Property Market Data & Development Finance | Berkshire",
+  metaTitle: "Windsor House Prices 2026 - Property Market Data & Development Finance | Berkshire",
   metaDescription: "Windsor property prices: median £517,250, 354 sales, +3.5% YoY. Detached £762,500, Flat £312,500. Land Registry data for Windsor, Berkshire.",
   excerpt: "Median price £517,250, 354 sales, +3.5% YoY. Berkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Windsor recorded <strong>3</strong> new-build transactions in the past 12 months, representing <strong>0.8%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Windsor traded at a <strong>premium of 29.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded — see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded - see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
       ],
     },
     {

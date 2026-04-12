@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newark-nottinghamshire-property-market",
   title: "Newark Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newark House Prices 2026 — Property Market Data & Development Finance | Nottinghamshire",
+  metaTitle: "Newark House Prices 2026 - Property Market Data & Development Finance | Nottinghamshire",
   metaDescription: "Newark property prices: median £225,000, 1,492 sales, -2.2% YoY. Detached £324,000, Flat £112,000. Land Registry data for Newark, Nottinghamshire.",
   excerpt: "Median price £225,000, 1,492 sales, -2.2% YoY. Nottinghamshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Newark recorded <strong>54</strong> new-build transactions in the past 12 months, representing <strong>3.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Newark traded at a <strong>premium of 28.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire</a> market, 284 new-build completions were recorded — see our <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire</a> market, 284 new-build completions were recorded - see our <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire property market report</a> for the full county picture.`,
       ],
     },
     {

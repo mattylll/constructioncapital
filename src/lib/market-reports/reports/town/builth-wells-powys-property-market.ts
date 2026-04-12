@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "builth-wells-powys-property-market",
   title: "Builth Wells Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Builth Wells House Prices 2026 — Property Market Data & Development Finance | Powys",
+  metaTitle: "Builth Wells House Prices 2026 - Property Market Data & Development Finance | Powys",
   metaDescription: "Builth Wells property prices: median £275,000, 41 sales, +10% YoY. Detached £352,500, Terraced £179,975. Land Registry data for Builth Wells, Powys.",
   excerpt: "Median price £275,000, 41 sales, +10% YoY. Powys county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Builth Wells recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Builth Wells traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/powys-property-market">Powys</a> market, 39 new-build completions were recorded — see our <a href="/market-reports/powys-property-market">Powys property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/powys-property-market">Powys</a> market, 39 new-build completions were recorded - see our <a href="/market-reports/powys-property-market">Powys property market report</a> for the full county picture.`,
       ],
     },
     {

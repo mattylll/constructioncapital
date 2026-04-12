@@ -52,7 +52,7 @@ export const UK_COUNTIES: CountyData[] = [
     ],
     towns: [
       { name: "Croydon", slug: "croydon", context: "South London's largest regeneration programme with over 10,000 new homes planned in the town centre" },
-      { name: "Barking", slug: "barking", context: "East London regeneration hub anchored by Barking Riverside — one of Europe's largest brownfield developments" },
+      { name: "Barking", slug: "barking", context: "East London regeneration hub anchored by Barking Riverside - one of Europe's largest brownfield developments" },
       { name: "Woolwich", slug: "woolwich", context: "Elizabeth Line connectivity driving residential demand along the Royal Arsenal Waterfront" },
       { name: "Ealing", slug: "ealing", context: "West London beneficiary of Crossrail with strong family housing demand and conservation area opportunities" },
       { name: "Stratford", slug: "stratford", context: "Olympic legacy area with continued institutional investment and strong transport connectivity" },
@@ -73,7 +73,7 @@ export const UK_COUNTIES: CountyData[] = [
       "The Garden of England combines strong London commuter demand with distinct local markets in cathedral cities and coastal towns. High Speed 1 services from Ebbsfleet and Ashford have transformed travel times to London, creating premium commuter catchments. The county's diverse geography supports everything from urban apartment schemes in Medway to rural barn conversions in the Weald.",
     drivers: [
       "HS1 commuter premium from Ebbsfleet and Ashford",
-      "Ebbsfleet Garden City — 15,000 new homes",
+      "Ebbsfleet Garden City - 15,000 new homes",
       "Coastal regeneration in Folkestone and Margate",
       "Medway waterfront development pipeline",
     ],
@@ -122,7 +122,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "sussex",
     region: "London & South East",
     overview:
-      "Sussex spans two historic counties — East and West — combining the coastal cities of Brighton and Worthing with the rural South Downs and prosperous Wealden towns. Brighton is the South Coast's most dynamic property market, driven by London overspill, a creative economy, and strong student demand. West Sussex towns along the Arun Valley line offer commuter-belt family housing at lower entry points.",
+      "Sussex spans two historic counties - East and West - combining the coastal cities of Brighton and Worthing with the rural South Downs and prosperous Wealden towns. Brighton is the South Coast's most dynamic property market, driven by London overspill, a creative economy, and strong student demand. West Sussex towns along the Arun Valley line offer commuter-belt family housing at lower entry points.",
     drivers: [
       "Brighton's creative economy and London overspill",
       "South Downs National Park lifestyle appeal",
@@ -172,7 +172,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "berkshire",
     region: "London & South East",
     overview:
-      "Berkshire's property market is driven by its position in the M4 corridor — the UK's 'Silicon Valley' — with major tech employers including Microsoft, Oracle, and Vodafone headquartered in the county. Reading is the commercial centre with significant office-to-residential conversion potential, while Windsor and Maidenhead command premium residential values. The county benefits from excellent motorway and rail connectivity.",
+      "Berkshire's property market is driven by its position in the M4 corridor - the UK's 'Silicon Valley' - with major tech employers including Microsoft, Oracle, and Vodafone headquartered in the county. Reading is the commercial centre with significant office-to-residential conversion potential, while Windsor and Maidenhead command premium residential values. The county benefits from excellent motorway and rail connectivity.",
     drivers: [
       "M4 tech corridor employment demand",
       "Reading station area regeneration",
@@ -197,7 +197,7 @@ export const UK_COUNTIES: CountyData[] = [
     overview:
       "Buckinghamshire is a prosperous Home Counties authority with a diverse market ranging from High Wycombe's urban regeneration to the Chiltern Hills' premium villages. The HS2 route through the county has created both disruption and opportunity, with development activity concentrated around Aylesbury's growth plans and the Milton Keynes border area. Pinewood Studios' expansion continues to drive local demand.",
     drivers: [
-      "Aylesbury Garden Town growth — 16,000 new homes planned",
+      "Aylesbury Garden Town growth - 16,000 new homes planned",
       "HS2 corridor development opportunities",
       "Pinewood Studios expansion and creative sector",
       "Chiltern Hills premium lifestyle market",
@@ -295,7 +295,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "bristol",
     region: "South West",
     overview:
-      "Bristol is the South West's economic powerhouse and one of the UK's most competitive regional cities for tech and professional services employment. The city's property market has outperformed most regional centres over the past decade, driven by a growing population, constrained supply, and the appeal of its cultural scene. Temple Quarter — a 130-acre regeneration area around Bristol Temple Meads station — represents one of the largest urban development opportunities in the UK.",
+      "Bristol is the South West's economic powerhouse and one of the UK's most competitive regional cities for tech and professional services employment. The city's property market has outperformed most regional centres over the past decade, driven by a growing population, constrained supply, and the appeal of its cultural scene. Temple Quarter - a 130-acre regeneration area around Bristol Temple Meads station - represents one of the largest urban development opportunities in the UK.",
     drivers: [
       "Temple Quarter 130-acre regeneration",
       "Tech sector employment growth",
@@ -316,7 +316,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "somerset",
     region: "South West",
     overview:
-      "Somerset's property market is diverse, ranging from the Georgian premium of Bath to the regeneration opportunities in Bridgwater and Taunton. Hinkley Point C — the UK's first new nuclear power station in a generation — is the county's largest current economic driver, bringing thousands of construction workers and creating housing demand across the Bridgwater area. Bath commands premium values driven by heritage appeal and lifestyle buyers.",
+      "Somerset's property market is diverse, ranging from the Georgian premium of Bath to the regeneration opportunities in Bridgwater and Taunton. Hinkley Point C - the UK's first new nuclear power station in a generation - is the county's largest current economic driver, bringing thousands of construction workers and creating housing demand across the Bridgwater area. Bath commands premium values driven by heritage appeal and lifestyle buyers.",
     drivers: [
       "Hinkley Point C construction workforce housing demand",
       "Bath heritage premium and conversion opportunities",
@@ -387,7 +387,7 @@ export const UK_COUNTIES: CountyData[] = [
     overview:
       "Dorset combines the Jurassic Coast's tourism appeal with Bournemouth's vibrant urban economy. Bournemouth, Christchurch and Poole (BCP) unitary authority is one of the South Coast's most active development markets, with strong student demand from two universities and a growing digital sector. Rural Dorset offers lifestyle conversions and agricultural PD opportunities, while the coast commands premium values for well-located schemes.",
     drivers: [
-      "BCP coastal conurbation — 400,000 population",
+      "BCP coastal conurbation - 400,000 population",
       "Two universities driving student housing demand",
       "Jurassic Coast tourism economy",
       "Digital and financial services employment growth",
@@ -408,7 +408,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "wiltshire",
     region: "South West",
     overview:
-      "Wiltshire is a large rural county with development focused around the garrison town of Salisbury, the M4 corridor town of Swindon, and the commuter-belt market towns of Marlborough, Devizes, and Chippenham. The county's military presence — with significant bases at Bulford, Tidworth, and Larkhill — creates steady housing demand. Swindon is the county's largest commercial centre with significant office-to-residential conversion potential.",
+      "Wiltshire is a large rural county with development focused around the garrison town of Salisbury, the M4 corridor town of Swindon, and the commuter-belt market towns of Marlborough, Devizes, and Chippenham. The county's military presence - with significant bases at Bulford, Tidworth, and Larkhill - creates steady housing demand. Swindon is the county's largest commercial centre with significant office-to-residential conversion potential.",
     drivers: [
       "Military garrison housing demand",
       "Swindon commercial conversion opportunities",
@@ -456,7 +456,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "west-midlands",
     region: "Midlands",
     overview:
-      "The West Midlands metropolitan county centres on Birmingham — the UK's second city — which is undergoing its most significant transformation in decades. HS2 arrival at Curzon Street, the Smithfield and Eastside regeneration zones, and the Commonwealth Games legacy are reshaping the city's development landscape. The Black Country towns of Wolverhampton, Dudley, and Walsall offer more affordable development opportunities with strong rental yields.",
+      "The West Midlands metropolitan county centres on Birmingham - the UK's second city - which is undergoing its most significant transformation in decades. HS2 arrival at Curzon Street, the Smithfield and Eastside regeneration zones, and the Commonwealth Games legacy are reshaping the city's development landscape. The Black Country towns of Wolverhampton, Dudley, and Walsall offer more affordable development opportunities with strong rental yields.",
     drivers: [
       "HS2 Curzon Street quarter development",
       "Smithfield and Eastside Birmingham regeneration",
@@ -479,11 +479,11 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "warwickshire",
     region: "Midlands",
     overview:
-      "Warwickshire benefits from Birmingham's economic growth while maintaining its own distinct identity. Royal Leamington Spa is the county's premium residential market, with Regency architecture and strong buyer demand. Warwick has heritage appeal, while Nuneaton and Rugby offer more affordable development opportunities along key transport corridors. The county's automotive heritage — with JLR at Gaydon and Aston Martin at Gaydon — supports local employment.",
+      "Warwickshire benefits from Birmingham's economic growth while maintaining its own distinct identity. Royal Leamington Spa is the county's premium residential market, with Regency architecture and strong buyer demand. Warwick has heritage appeal, while Nuneaton and Rugby offer more affordable development opportunities along key transport corridors. The county's automotive heritage - with JLR at Gaydon and Aston Martin at Gaydon - supports local employment.",
     drivers: [
       "Leamington Spa Regency premium market",
       "JLR and Aston Martin automotive employment",
-      "Rugby western growth area — 6,200 new homes",
+      "Rugby western growth area - 6,200 new homes",
       "HS2 route corridor development",
     ],
     towns: [
@@ -501,7 +501,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "staffordshire",
     region: "Midlands",
     overview:
-      "Staffordshire's property market is anchored by Stoke-on-Trent — the Potteries — where affordable values and a growing student population create accessible development opportunities. Lichfield offers a heritage premium, while Stafford town benefits from its position on the West Coast Main Line with fast London services. The county's northern moorlands provide rural conversion opportunities.",
+      "Staffordshire's property market is anchored by Stoke-on-Trent - the Potteries - where affordable values and a growing student population create accessible development opportunities. Lichfield offers a heritage premium, while Stafford town benefits from its position on the West Coast Main Line with fast London services. The county's northern moorlands provide rural conversion opportunities.",
     drivers: [
       "Stoke-on-Trent ceramics heritage conversions",
       "Stafford West Coast Main Line connectivity",
@@ -545,7 +545,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "shropshire",
     region: "Midlands",
     overview:
-      "Shropshire is a large, predominantly rural county with development concentrated around Shrewsbury and Telford. Shrewsbury's medieval town centre offers heritage conversion opportunities, while Telford — a New Town — provides affordable land and modern commercial property for conversion. The county's position on the Welsh border gives it a distinct character and a market that differs from the urban West Midlands.",
+      "Shropshire is a large, predominantly rural county with development concentrated around Shrewsbury and Telford. Shrewsbury's medieval town centre offers heritage conversion opportunities, while Telford - a New Town - provides affordable land and modern commercial property for conversion. The county's position on the Welsh border gives it a distinct character and a market that differs from the urban West Midlands.",
     drivers: [
       "Shrewsbury medieval heritage conversions",
       "Telford New Town regeneration",
@@ -566,7 +566,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "derbyshire",
     region: "Midlands",
     overview:
-      "Derbyshire's property market centres on Derby city — home to Rolls-Royce and Bombardier — with the Peak District National Park to the north creating a premium lifestyle market in towns like Bakewell and Matlock. Chesterfield's regeneration and the A38 corridor growth areas provide accessible development opportunities. The county's mix of industrial heritage and rural landscape creates diverse conversion and new-build opportunities.",
+      "Derbyshire's property market centres on Derby city - home to Rolls-Royce and Bombardier - with the Peak District National Park to the north creating a premium lifestyle market in towns like Bakewell and Matlock. Chesterfield's regeneration and the A38 corridor growth areas provide accessible development opportunities. The county's mix of industrial heritage and rural landscape creates diverse conversion and new-build opportunities.",
     drivers: [
       "Rolls-Royce and Bombardier employment anchor",
       "Derby Riverside regeneration",
@@ -655,7 +655,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "lincolnshire",
     region: "Midlands",
     overview:
-      "Lincolnshire is one of England's largest counties by area, with a predominantly agricultural economy that creates rural development opportunities alongside Lincoln's cathedral city market. The county's east coast — from Skegness to Mablethorpe — has a distinct tourism-driven economy, while the south of the county around Grantham benefits from East Coast Main Line connectivity. Boston and Spalding serve the agricultural sector with growing residential demand.",
+      "Lincolnshire is one of England's largest counties by area, with a predominantly agricultural economy that creates rural development opportunities alongside Lincoln's cathedral city market. The county's east coast - from Skegness to Mablethorpe - has a distinct tourism-driven economy, while the south of the county around Grantham benefits from East Coast Main Line connectivity. Boston and Spalding serve the agricultural sector with growing residential demand.",
     drivers: [
       "Lincoln cathedral city premium and university growth",
       "East Coast tourism economy",
@@ -682,7 +682,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "greater-manchester",
     region: "North West",
     overview:
-      "Greater Manchester is the UK's largest city-region economy outside London, with Manchester city centre experiencing a development boom that has transformed the skyline. The 10-borough metropolitan county offers diverse development opportunities — from premium city-centre BTR schemes to affordable family housing in Rochdale, Oldham, and Bolton. Strong rental yields, competitive build costs, and the fastest population growth of any UK city outside London underpin a robust development market.",
+      "Greater Manchester is the UK's largest city-region economy outside London, with Manchester city centre experiencing a development boom that has transformed the skyline. The 10-borough metropolitan county offers diverse development opportunities - from premium city-centre BTR schemes to affordable family housing in Rochdale, Oldham, and Bolton. Strong rental yields, competitive build costs, and the fastest population growth of any UK city outside London underpin a robust development market.",
     drivers: [
       "Manchester city centre BTR boom",
       "Northern Powerhouse Rail connectivity",
@@ -730,7 +730,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "merseyside",
     region: "North West",
     overview:
-      "Merseyside's development market is anchored by Liverpool's ongoing urban renaissance — from the Baltic Triangle creative quarter to the £5.5 billion Liverpool Waters scheme. The city's strong cultural identity, two universities, and growing tech sector support a diversified residential market. Wirral and Sefton offer suburban and coastal development opportunities at lower price points than the city centre.",
+      "Merseyside's development market is anchored by Liverpool's ongoing urban renaissance - from the Baltic Triangle creative quarter to the £5.5 billion Liverpool Waters scheme. The city's strong cultural identity, two universities, and growing tech sector support a diversified residential market. Wirral and Sefton offer suburban and coastal development opportunities at lower price points than the city centre.",
     drivers: [
       "Liverpool Waters £5.5bn waterfront scheme",
       "Baltic Triangle creative quarter",
@@ -799,9 +799,9 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "west-yorkshire",
     region: "North East & Yorkshire",
     overview:
-      "West Yorkshire is anchored by Leeds — the UK's largest financial centre outside London — which has experienced a sustained development boom in city centre living, BTR, and purpose-built student accommodation. Bradford's affordable values and university presence offer development at lower entry points, while Huddersfield and Wakefield provide market town opportunities. The county benefits from strong motorway and rail connectivity.",
+      "West Yorkshire is anchored by Leeds - the UK's largest financial centre outside London - which has experienced a sustained development boom in city centre living, BTR, and purpose-built student accommodation. Bradford's affordable values and university presence offer development at lower entry points, while Huddersfield and Wakefield provide market town opportunities. The county benefits from strong motorway and rail connectivity.",
     drivers: [
-      "Leeds South Bank — largest regeneration site in Europe",
+      "Leeds South Bank - largest regeneration site in Europe",
       "Channel 4 HQ and creative sector growth",
       "Bradford city centre regeneration",
       "Trans-Pennine Route Upgrade rail improvements",
@@ -822,7 +822,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "south-yorkshire",
     region: "North East & Yorkshire",
     overview:
-      "South Yorkshire centres on Sheffield — a city that has reinvented itself from its steel heritage into a hub for advanced manufacturing, digital industries, and higher education. The city's two universities create one of the UK's largest student populations, supporting a massive rental market. Doncaster and Rotherham offer affordable development at lower risk, while Barnsley's Glass Works regeneration is transforming the town centre.",
+      "South Yorkshire centres on Sheffield - a city that has reinvented itself from its steel heritage into a hub for advanced manufacturing, digital industries, and higher education. The city's two universities create one of the UK's largest student populations, supporting a massive rental market. Doncaster and Rotherham offer affordable development at lower risk, while Barnsley's Glass Works regeneration is transforming the town centre.",
     drivers: [
       "Sheffield Heart of the City II regeneration",
       "Advanced Manufacturing Innovation District",
@@ -887,7 +887,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "county-durham",
     region: "North East & Yorkshire",
     overview:
-      "County Durham combines the cathedral city of Durham — a UNESCO World Heritage Site — with former mining communities that offer some of England's most affordable property. Durham University creates strong student housing demand in the city, while the wider county's regeneration zones in Bishop Auckland and Newton Aycliffe provide development opportunities at accessible values. The A1(M) corridor connects the county to Newcastle and Teesside.",
+      "County Durham combines the cathedral city of Durham - a UNESCO World Heritage Site - with former mining communities that offer some of England's most affordable property. Durham University creates strong student housing demand in the city, while the wider county's regeneration zones in Bishop Auckland and Newton Aycliffe provide development opportunities at accessible values. The A1(M) corridor connects the county to Newcastle and Teesside.",
     drivers: [
       "Durham University student housing demand",
       "Bishop Auckland Heritage Action Zone",
@@ -954,7 +954,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "norfolk",
     region: "East of England",
     overview:
-      "Norfolk's property market centres on Norwich — a cathedral city with a growing university, insurance sector employment, and an independent cultural scene. The county's coastal markets from Wells to Great Yarmouth offer holiday-let and tourism-driven development, while the Broads National Park creates a unique waterside development niche. Norfolk has genuine housing undersupply in its market towns, supporting new residential development.",
+      "Norfolk's property market centres on Norwich - a cathedral city with a growing university, insurance sector employment, and an independent cultural scene. The county's coastal markets from Wells to Great Yarmouth offer holiday-let and tourism-driven development, while the Broads National Park creates a unique waterside development niche. Norfolk has genuine housing undersupply in its market towns, supporting new residential development.",
     drivers: [
       "Norwich city centre regeneration",
       "Norfolk Broads tourism and waterside development",
@@ -1004,7 +1004,7 @@ export const UK_COUNTIES: CountyData[] = [
     drivers: [
       "Cambridge biotech and technology cluster",
       "Oxford-Cambridge Arc growth corridor",
-      "Northstowe new town — 10,000 homes",
+      "Northstowe new town - 10,000 homes",
       "Cambridge South station development",
     ],
     towns: [
@@ -1051,7 +1051,7 @@ export const UK_COUNTIES: CountyData[] = [
     overview:
       "Edinburgh is Scotland's capital and one of the UK's most prestigious property markets, with the UNESCO Old and New Town World Heritage Site creating both opportunities and constraints. The city's financial services sector, festival economy, and university population drive strong residential demand, while the waterfront at Granton and Western Harbour represent Edinburgh's largest current development opportunities. Values in the city centre are comparable to many English cities.",
     drivers: [
-      "Granton Waterfront — Edinburgh's largest regeneration",
+      "Granton Waterfront - Edinburgh's largest regeneration",
       "Financial services and tech sector employment",
       "Three universities driving rental demand",
       "Festival economy supporting short-let market",
@@ -1070,11 +1070,11 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "glasgow",
     region: "Scotland",
     overview:
-      "Glasgow is Scotland's largest city and economic engine, with a property market that offers significantly more affordable development opportunities than Edinburgh while delivering strong rental yields. The city's extensive regeneration — from the Clyde waterfront to the Sighthill Transformational Regeneration Area — is creating development pipelines at scale. Glasgow's four universities generate one of the UK's largest student populations.",
+      "Glasgow is Scotland's largest city and economic engine, with a property market that offers significantly more affordable development opportunities than Edinburgh while delivering strong rental yields. The city's extensive regeneration - from the Clyde waterfront to the Sighthill Transformational Regeneration Area - is creating development pipelines at scale. Glasgow's four universities generate one of the UK's largest student populations.",
     drivers: [
       "Clyde waterfront and Buchanan Wharf regeneration",
       "Sighthill Transformational Regeneration Area",
-      "Four universities — largest student population in Scotland",
+      "Four universities - largest student population in Scotland",
       "COP26 legacy and net-zero innovation",
     ],
     towns: [
@@ -1091,10 +1091,10 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "aberdeen",
     region: "Scotland",
     overview:
-      "Aberdeen's property market is undergoing a significant transition as the city diversifies from its historic dependence on oil and gas toward renewable energy, hydrogen, and carbon capture. The Energy Transition Zone at the harbour is attracting investment, while the city centre — previously dominated by commercial property — is seeing growing demand for residential conversion. Values have corrected from their oil-boom peak, creating buying opportunities.",
+      "Aberdeen's property market is undergoing a significant transition as the city diversifies from its historic dependence on oil and gas toward renewable energy, hydrogen, and carbon capture. The Energy Transition Zone at the harbour is attracting investment, while the city centre - previously dominated by commercial property - is seeing growing demand for residential conversion. Values have corrected from their oil-boom peak, creating buying opportunities.",
     drivers: [
       "Energy Transition Zone harbour development",
-      "Aberdeen South Harbour — largest new port in UK",
+      "Aberdeen South Harbour - largest new port in UK",
       "University of Aberdeen and RGU student demand",
       "City centre commercial-to-residential conversions",
     ],
@@ -1112,11 +1112,11 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "dundee",
     region: "Scotland",
     overview:
-      "Dundee has been transformed by the V&A Museum and the wider waterfront regeneration, creating a cultural anchor that is reshaping the city's residential market. Two universities — Dundee and Abertay — generate strong student demand, while the city's growing digital games sector (home to Grand Theft Auto developer Rockstar North's origins) attracts tech workers. Property values remain among the most affordable of Scotland's cities.",
+      "Dundee has been transformed by the V&A Museum and the wider waterfront regeneration, creating a cultural anchor that is reshaping the city's residential market. Two universities - Dundee and Abertay - generate strong student demand, while the city's growing digital games sector (home to Grand Theft Auto developer Rockstar North's origins) attracts tech workers. Property values remain among the most affordable of Scotland's cities.",
     drivers: [
       "V&A Dundee and waterfront regeneration",
       "Digital games and creative tech sector",
-      "Two universities — student housing demand",
+      "Two universities - student housing demand",
       "Tay Cities Deal investment",
     ],
     towns: [
@@ -1151,7 +1151,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "fife",
     region: "Scotland",
     overview:
-      "Fife — the 'Kingdom of Fife' — sits between Edinburgh and Dundee, with St Andrews' university and golf heritage creating an internationally recognised premium market. Dunfermline and Kirkcaldy provide more accessible development opportunities, with the former benefiting from city status and Edinburgh commuter demand via the Queensferry Crossing. The East Neuk fishing villages offer premium holiday-let and conversion opportunities.",
+      "Fife - the 'Kingdom of Fife' - sits between Edinburgh and Dundee, with St Andrews' university and golf heritage creating an internationally recognised premium market. Dunfermline and Kirkcaldy provide more accessible development opportunities, with the former benefiting from city status and Edinburgh commuter demand via the Queensferry Crossing. The East Neuk fishing villages offer premium holiday-let and conversion opportunities.",
     drivers: [
       "St Andrews university and golf tourism premium",
       "Dunfermline city status and Edinburgh commuter demand",
@@ -1180,7 +1180,7 @@ export const UK_COUNTIES: CountyData[] = [
     drivers: [
       "Central Square BBC Wales and transport hub",
       "Dumballs Road mixed-use quarter",
-      "Three universities — strong student demand",
+      "Three universities - strong student demand",
       "South Wales Metro connectivity improvements",
     ],
     towns: [
@@ -1197,9 +1197,9 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "swansea",
     region: "Wales",
     overview:
-      "Swansea's property market is being reshaped by the major city centre and waterfront regeneration programme. The Swansea Bay City Deal is investing over £1 billion in the region, while the University of Swansea's Bay Campus has created a new residential catchment. The Gower Peninsula — the UK's first designated Area of Outstanding Natural Beauty — creates a premium coastal market for holiday-let and lifestyle development.",
+      "Swansea's property market is being reshaped by the major city centre and waterfront regeneration programme. The Swansea Bay City Deal is investing over £1 billion in the region, while the University of Swansea's Bay Campus has created a new residential catchment. The Gower Peninsula - the UK's first designated Area of Outstanding Natural Beauty - creates a premium coastal market for holiday-let and lifestyle development.",
     drivers: [
-      "Swansea Bay City Deal — £1bn+ investment",
+      "Swansea Bay City Deal - £1bn+ investment",
       "City centre regeneration and arena district",
       "University Bay Campus residential demand",
       "Gower Peninsula coastal premium market",
@@ -1238,7 +1238,7 @@ export const UK_COUNTIES: CountyData[] = [
     slug: "powys",
     region: "Wales",
     overview:
-      "Powys is Wales' largest and most sparsely populated county, spanning the rural heart of Mid Wales from the Brecon Beacons to the Shropshire border. The property market is characterised by rural development — barn conversions, farmstead developments, and small-scale housing in market towns. Brecon, Newtown, and Welshpool are the principal residential markets. Tourism and agriculture underpin the local economy, with the Brecon Beacons National Park driving holiday-let demand.",
+      "Powys is Wales' largest and most sparsely populated county, spanning the rural heart of Mid Wales from the Brecon Beacons to the Shropshire border. The property market is characterised by rural development - barn conversions, farmstead developments, and small-scale housing in market towns. Brecon, Newtown, and Welshpool are the principal residential markets. Tourism and agriculture underpin the local economy, with the Brecon Beacons National Park driving holiday-let demand.",
     drivers: [
       "Brecon Beacons National Park tourism",
       "Rural barn conversion opportunities",

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "woking-surrey-property-market",
   title: "Woking Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Woking House Prices 2026 — Property Market Data & Development Finance | Surrey",
+  metaTitle: "Woking House Prices 2026 - Property Market Data & Development Finance | Surrey",
   metaDescription: "Woking property prices: median £420,000, 1,054 sales, -5.7% YoY. Detached £750,000, Flat £260,000. Land Registry data for Woking, Surrey.",
   excerpt: "Median price £420,000, 1,054 sales, -5.7% YoY. Surrey county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Woking recorded <strong>103</strong> new-build transactions in the past 12 months, representing <strong>9.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Woking traded at a <strong>discount of 24.1%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/surrey-property-market">Surrey</a> market, 183 new-build completions were recorded — see our <a href="/market-reports/surrey-property-market">Surrey property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/surrey-property-market">Surrey</a> market, 183 new-build completions were recorded - see our <a href="/market-reports/surrey-property-market">Surrey property market report</a> for the full county picture.`,
       ],
     },
     {

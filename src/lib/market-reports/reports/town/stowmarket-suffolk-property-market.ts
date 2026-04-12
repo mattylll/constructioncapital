@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stowmarket-suffolk-property-market",
   title: "Stowmarket Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stowmarket House Prices 2026 — Property Market Data & Development Finance | Suffolk",
+  metaTitle: "Stowmarket House Prices 2026 - Property Market Data & Development Finance | Suffolk",
   metaDescription: "Stowmarket property prices: median £296,938, 1,204 sales, -5.7% YoY. Detached £415,000, Flat £133,000. Land Registry data for Stowmarket, Suffolk.",
   excerpt: "Median price £296,938, 1,204 sales, -5.7% YoY. Suffolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Stowmarket recorded <strong>76</strong> new-build transactions in the past 12 months, representing <strong>6.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Stowmarket traded at a <strong>premium of 19.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/suffolk-property-market">Suffolk</a> market, 189 new-build completions were recorded — see our <a href="/market-reports/suffolk-property-market">Suffolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/suffolk-property-market">Suffolk</a> market, 189 new-build completions were recorded - see our <a href="/market-reports/suffolk-property-market">Suffolk property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -100,7 +100,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       "Free development finance calculator. Enter land cost, build costs and GDV to estimate senior debt, equity required, interest and developer profit. Optional mezzanine toggle.",
     h1: "Development Finance Calculator",
     heroSubtitle:
-      "Model your development appraisal in seconds. Enter your costs and GDV to see senior debt, equity, interest and profit — with an optional mezzanine layer.",
+      "Model your development appraisal in seconds. Enter your costs and GDV to see senior debt, equity, interest and profit - with an optional mezzanine layer.",
     faqs: [
       {
         question: "How much can I borrow with development finance?",
@@ -120,7 +120,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "What costs does the calculator include?",
         answer:
-          "The calculator covers land cost, build costs, professional fees and a contingency percentage. It does not include stamp duty, agent fees or legal costs on the sale of units — factor these into your own appraisal.",
+          "The calculator covers land cost, build costs, professional fees and a contingency percentage. It does not include stamp duty, agent fees or legal costs on the sale of units - factor these into your own appraisal.",
       },
       {
         question: "Is this calculator accurate for my project?",
@@ -171,7 +171,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "How do I estimate GDV for my scheme?",
         answer:
-          "GDV is the total sales revenue from your completed units. Use comparable local sales data — our GDV Calculator can auto-populate values from Land Registry data for your area.",
+          "GDV is the total sales revenue from your completed units. Use comparable local sales data - our GDV Calculator can auto-populate values from Land Registry data for your area.",
       },
       {
         question: "Should I include affordable housing in my profit calculation?",
@@ -212,7 +212,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "What is included in build costs?",
         answer:
-          "Build costs typically include substructure (foundations), superstructure (walls, floors, roof), internal finishes, mechanical and electrical (M&E), external works and preliminaries. They exclude land cost, professional fees, finance costs and contingency — factor these separately.",
+          "Build costs typically include substructure (foundations), superstructure (walls, floors, roof), internal finishes, mechanical and electrical (M&E), external works and preliminaries. They exclude land cost, professional fees, finance costs and contingency - factor these separately.",
       },
       {
         question: "How accurate are online build cost calculators?",
@@ -258,7 +258,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "What is a development appraisal?",
         answer:
-          "A development appraisal is a financial model that assesses the viability of a property development by comparing the Gross Development Value (GDV) against all costs — land, construction, fees, finance and profit. It determines whether the scheme generates an acceptable return.",
+          "A development appraisal is a financial model that assesses the viability of a property development by comparing the Gross Development Value (GDV) against all costs - land, construction, fees, finance and profit. It determines whether the scheme generates an acceptable return.",
       },
       {
         question: "What is the residual method of valuation?",
@@ -324,7 +324,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "How do I find my local CIL rate?",
         answer:
-          "Check your local authority's planning website for their CIL Charging Schedule. Rates are usually published as a table showing charges by zone and use class. Some councils haven't adopted CIL — they rely on S106 instead.",
+          "Check your local authority's planning website for their CIL Charging Schedule. Rates are usually published as a table showing charges by zone and use class. Some councils haven't adopted CIL - they rely on S106 instead.",
       },
       {
         question:
@@ -371,7 +371,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "Why does build duration matter for finance?",
         answer:
-          "Development finance interest accrues throughout the build period. A longer build means higher interest costs, eroding your profit. Lenders set a maximum term — if your build overruns, you may face penalty rates or need to refinance.",
+          "Development finance interest accrues throughout the build period. A longer build means higher interest costs, eroding your profit. Lenders set a maximum term - if your build overruns, you may face penalty rates or need to refinance.",
       },
       {
         question: "What are pre-commencement conditions?",
@@ -436,7 +436,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "What can the council refuse prior approval on?",
         answer:
-          "Councils can only assess specific matters: transport/highways impact, contamination, flooding, noise, natural light, fire safety and the impact on the intended use of the building. They cannot refuse based on design, density or housing mix — which is a key advantage over full planning.",
+          "Councils can only assess specific matters: transport/highways impact, contamination, flooding, noise, natural light, fire safety and the impact on the intended use of the building. They cannot refuse based on design, density or housing mix - which is a key advantage over full planning.",
       },
     ],
     relatedCalculators: [
@@ -523,7 +523,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "How much does a commercial to residential conversion cost?",
         answer:
-          "Costs vary significantly by building type. Retail conversions: £100–180/sqft. Warehouse/industrial: £120–200/sqft. Pubs: £130–220/sqft. These ranges assume standard specification — listed buildings or complex structures will cost more.",
+          "Costs vary significantly by building type. Retail conversions: £100–180/sqft. Warehouse/industrial: £120–200/sqft. Pubs: £130–220/sqft. These ranges assume standard specification - listed buildings or complex structures will cost more.",
       },
       {
         question: "Is VAT charged on conversions?",
@@ -625,7 +625,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "Do I need planning permission to convert to an HMO?",
         answer:
-          "Converting a dwelling (C3) to a small HMO (C4, 3–6 occupants) is permitted development in most areas. However, many councils have introduced Article 4 directions removing PD rights for HMOs — check your local authority. Large HMOs (7+ occupants, Sui Generis) always need planning.",
+          "Converting a dwelling (C3) to a small HMO (C4, 3–6 occupants) is permitted development in most areas. However, many councils have introduced Article 4 directions removing PD rights for HMOs - check your local authority. Large HMOs (7+ occupants, Sui Generis) always need planning.",
       },
       {
         question: "What yields can I expect from an HMO?",
@@ -787,7 +787,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "Does ROI include leverage effects?",
         answer:
-          "Yes. This calculator shows ROI on cash invested (your deposit), which includes the leverage effect of mortgage finance. A £25k deposit on a £100k property that grows 5% gives you £5k growth on £25k invested — a 20% ROI on cash before rental income.",
+          "Yes. This calculator shows ROI on cash invested (your deposit), which includes the leverage effect of mortgage finance. A £25k deposit on a £100k property that grows 5% gives you £5k growth on £25k invested - a 20% ROI on cash before rental income.",
       },
       {
         question: "What capital growth rate should I assume?",
@@ -843,7 +843,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "What is the stress test rate?",
         answer:
-          "The stress test rate is the interest rate lenders use to assess affordability — typically 5.5% regardless of your actual rate. This ensures you can still afford payments if rates rise. Some lenders use higher stress rates (6–7%) for higher-risk products.",
+          "The stress test rate is the interest rate lenders use to assess affordability - typically 5.5% regardless of your actual rate. This ensures you can still afford payments if rates rise. Some lenders use higher stress rates (6–7%) for higher-risk products.",
       },
       {
         question: "Can I get a BTL mortgage through a limited company?",
@@ -899,7 +899,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "What is a portfolio landlord?",
         answer:
-          "The PRA defines a portfolio landlord as someone with 4+ mortgaged buy-to-let properties. Portfolio landlords face stricter assessment criteria — lenders must consider the entire portfolio, not just individual properties. Specialist portfolio lenders offer streamlined processes.",
+          "The PRA defines a portfolio landlord as someone with 4+ mortgaged buy-to-let properties. Portfolio landlords face stricter assessment criteria - lenders must consider the entire portfolio, not just individual properties. Specialist portfolio lenders offer streamlined processes.",
       },
     ],
     relatedCalculators: [
@@ -930,7 +930,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "What is cash-on-cash return?",
         answer:
-          "Cash-on-cash return measures the annual pre-tax cash flow from an investment divided by the total cash invested. Unlike yield (which uses property value), CoC uses your actual money put in — including deposit, stamp duty, refurb costs and fees.",
+          "Cash-on-cash return measures the annual pre-tax cash flow from an investment divided by the total cash invested. Unlike yield (which uses property value), CoC uses your actual money put in - including deposit, stamp duty, refurb costs and fees.",
       },
       {
         question: "What is a good cash-on-cash return for property?",
@@ -950,7 +950,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "How is cash-on-cash different from ROI?",
         answer:
-          "Cash-on-cash only considers annual cash flow — it ignores capital growth and mortgage principal repayment. ROI includes all forms of return (cash flow + capital growth + equity buildup). CoC is best for assessing immediate cash flow; ROI for total investment performance.",
+          "Cash-on-cash only considers annual cash flow - it ignores capital growth and mortgage principal repayment. ROI includes all forms of return (cash flow + capital growth + equity buildup). CoC is best for assessing immediate cash flow; ROI for total investment performance.",
       },
     ],
     relatedCalculators: [
@@ -1000,7 +1000,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "How long can I have a bridging loan for?",
         answer:
-          "Bridging loans typically run from 1 to 18 months. Most lenders prefer a clear exit strategy — either a sale or refinance — within 12 months. Extensions are possible but may incur additional fees.",
+          "Bridging loans typically run from 1 to 18 months. Most lenders prefer a clear exit strategy - either a sale or refinance - within 12 months. Extensions are possible but may incur additional fees.",
       },
       {
         question: "Is this calculator accurate?",
@@ -1041,7 +1041,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "How quickly can auction finance be arranged?",
         answer:
-          "Most auction finance lenders can provide a Decision in Principle (DIP) within 24 hours and complete within 7–14 working days — well within the 28-day auction completion deadline. Pre-arrange your finance before bidding for the fastest completion.",
+          "Most auction finance lenders can provide a Decision in Principle (DIP) within 24 hours and complete within 7–14 working days - well within the 28-day auction completion deadline. Pre-arrange your finance before bidding for the fastest completion.",
       },
       {
         question: "What deposit do I need at auction?",
@@ -1087,7 +1087,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "What is the difference between light and heavy refurbishment?",
         answer:
-          "Light refurb is cosmetic work — decoration, new kitchen/bathroom, flooring, garden. No structural changes or planning required. Heavy refurb involves structural work — extensions, loft conversions, reconfiguring layouts, underpinning. Heavy refurb typically needs building regulations and may need planning.",
+          "Light refurb is cosmetic work - decoration, new kitchen/bathroom, flooring, garden. No structural changes or planning required. Heavy refurb involves structural work - extensions, loft conversions, reconfiguring layouts, underpinning. Heavy refurb typically needs building regulations and may need planning.",
       },
       {
         question: "How is refurbishment finance structured?",
@@ -1143,12 +1143,12 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "When should I switch to exit finance?",
         answer:
-          "Switch when your development is practically complete (or has received practical completion certification) and you're in the sales period. Most developers switch when they have 6–12 months of sales remaining — the interest savings can be substantial.",
+          "Switch when your development is practically complete (or has received practical completion certification) and you're in the sales period. Most developers switch when they have 6–12 months of sales remaining - the interest savings can be substantial.",
       },
       {
         question: "How much can I save with exit finance?",
         answer:
-          "Typical savings are 0.2–0.4% per month on the outstanding balance. On a £2M loan over 6 months, that's £24,000–£48,000 in interest savings — often enough to cover the arrangement fee of the new facility.",
+          "Typical savings are 0.2–0.4% per month on the outstanding balance. On a £2M loan over 6 months, that's £24,000–£48,000 in interest savings - often enough to cover the arrangement fee of the new facility.",
       },
       {
         question: "What LTV is available on exit finance?",
@@ -1260,7 +1260,7 @@ export const CALCULATORS: CalculatorMeta[] = [
         question:
           "What is the difference between mezzanine finance and equity?",
         answer:
-          "Mezzanine is debt — it charges interest and must be repaid, but the lender has no ownership stake. Equity investors take a share of the profit (typically 40–60%) in exchange for their capital. Mezzanine is cheaper when the project performs well.",
+          "Mezzanine is debt - it charges interest and must be repaid, but the lender has no ownership stake. Equity investors take a share of the profit (typically 40–60%) in exchange for their capital. Mezzanine is cheaper when the project performs well.",
       },
       {
         question: "Can I use mezzanine and senior debt together?",
@@ -1296,12 +1296,12 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "How much equity do I need for a development?",
         answer:
-          "With senior debt only (65% LTGDV), you'll need 35% of GDV as equity — often 50–60% of total project cost. Adding mezzanine to 85–90% LTGDV reduces equity to 10–15% of GDV. The exact amount depends on the relationship between total cost and GDV.",
+          "With senior debt only (65% LTGDV), you'll need 35% of GDV as equity - often 50–60% of total project cost. Adding mezzanine to 85–90% LTGDV reduces equity to 10–15% of GDV. The exact amount depends on the relationship between total cost and GDV.",
       },
       {
         question: "Can I develop with no equity?",
         answer:
-          "In rare cases, yes — using 100% joint venture funding, profit-share arrangements, or cross-charging against other assets. However, most lenders require at least 5–10% cash equity to demonstrate the developer has 'skin in the game'.",
+          "In rare cases, yes - using 100% joint venture funding, profit-share arrangements, or cross-charging against other assets. However, most lenders require at least 5–10% cash equity to demonstrate the developer has 'skin in the game'.",
       },
       {
         question: "What counts as equity?",
@@ -1357,17 +1357,17 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "Is a JV better than mezzanine finance?",
         answer:
-          "JVs share risk — if the project underperforms, the JV partner absorbs losses alongside you. Mezzanine charges interest regardless of profit. JVs are better for higher-risk projects; mezzanine is cheaper when the project performs well. This calculator compares both.",
+          "JVs share risk - if the project underperforms, the JV partner absorbs losses alongside you. Mezzanine charges interest regardless of profit. JVs are better for higher-risk projects; mezzanine is cheaper when the project performs well. This calculator compares both.",
       },
       {
         question: "What legal structure should a JV use?",
         answer:
-          "Most property JVs use a Special Purpose Vehicle (SPV) limited company, with a shareholders' agreement defining roles, responsibilities, profit distribution and exit triggers. Some use LLPs. Always take legal advice — JV disputes are common and expensive.",
+          "Most property JVs use a Special Purpose Vehicle (SPV) limited company, with a shareholders' agreement defining roles, responsibilities, profit distribution and exit triggers. Some use LLPs. Always take legal advice - JV disputes are common and expensive.",
       },
       {
         question: "How do I find JV partners?",
         answer:
-          "JV partners include: high-net-worth individuals, family offices, property investment clubs, equity funds and other developers. We can introduce you to equity partners through our network — submit your deal in the Deal Room.",
+          "JV partners include: high-net-worth individuals, family offices, property investment clubs, equity funds and other developers. We can introduce you to equity partners through our network - submit your deal in the Deal Room.",
       },
     ],
     relatedCalculators: [
@@ -1398,7 +1398,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "What is blended cost of finance?",
         answer:
-          "Blended cost is the weighted average interest rate across all your funding sources. It accounts for the different amounts and rates of senior debt, mezzanine and equity. A lower blended cost means more profit — it's the key metric for comparing capital structures.",
+          "Blended cost is the weighted average interest rate across all your funding sources. It accounts for the different amounts and rates of senior debt, mezzanine and equity. A lower blended cost means more profit - it's the key metric for comparing capital structures.",
       },
       {
         question: "How do you calculate WACC for property development?",
@@ -1524,7 +1524,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "Do I pay VAT on arrangement fees?",
         answer:
-          "Financial intermediary services are generally VAT exempt. However, some fees (valuation, monitoring, legal) may attract VAT at 20%. Check with your lender — the VAT treatment can vary depending on how the fee is structured.",
+          "Financial intermediary services are generally VAT exempt. However, some fees (valuation, monitoring, legal) may attract VAT at 20%. Check with your lender - the VAT treatment can vary depending on how the fee is structured.",
       },
     ],
     relatedCalculators: [
@@ -1621,7 +1621,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "Is refurbishment work zero-rated?",
         answer:
-          "No. Refurbishment of existing dwellings is standard-rated at 20%. The only exception is properties that have been empty for 2+ years, which qualify for the 5% reduced rate. This is a significant cost difference — a £500k refurb costs £100k in VAT at 20% vs £25k at 5%.",
+          "No. Refurbishment of existing dwellings is standard-rated at 20%. The only exception is properties that have been empty for 2+ years, which qualify for the 5% reduced rate. This is a significant cost difference - a £500k refurb costs £100k in VAT at 20% vs £25k at 5%.",
       },
       {
         question: "What is the CIS scheme and does it affect VAT?",
@@ -1657,7 +1657,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "How much does an architect cost for a development?",
         answer:
-          "Architects typically charge 5–12% of build cost for a full service (from concept to completion). For larger developments, expect 5–7%. Smaller or complex projects: 8–12%. RIBA stages can be split — many developers only use an architect to Stage 3 (planning) then switch to a building designer.",
+          "Architects typically charge 5–12% of build cost for a full service (from concept to completion). For larger developments, expect 5–7%. Smaller or complex projects: 8–12%. RIBA stages can be split - many developers only use an architect to Stage 3 (planning) then switch to a building designer.",
       },
       {
         question: "Do I need a Quantity Surveyor?",
@@ -1677,7 +1677,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "Can I reduce professional fees?",
         answer:
-          "Yes. Negotiate fixed fees rather than percentage-based. Use a project manager to coordinate (reduces architect's scope). Appoint professionals early — changes mid-project are expensive. Get 3 quotes and check references. For repeat projects, negotiate portfolio discounts.",
+          "Yes. Negotiate fixed fees rather than percentage-based. Use a project manager to coordinate (reduces architect's scope). Appoint professionals early - changes mid-project are expensive. Get 3 quotes and check references. For repeat projects, negotiate portfolio discounts.",
       },
     ],
     relatedCalculators: [
@@ -1712,7 +1712,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       {
         question: "What is Gross Development Value (GDV)?",
         answer:
-          "GDV is the total sales revenue from a completed development — the sum of all unit sale prices. It's the top line of any development appraisal and determines how much a lender will advance (typically 60–70% of GDV as senior debt).",
+          "GDV is the total sales revenue from a completed development - the sum of all unit sale prices. It's the top line of any development appraisal and determines how much a lender will advance (typically 60–70% of GDV as senior debt).",
       },
       {
         question: "How do I estimate GDV for my development?",
@@ -1758,7 +1758,7 @@ export const CALCULATORS: CalculatorMeta[] = [
       "Free residual land value calculator. Enter GDV, build costs and target profit to calculate the maximum price you should pay for a development site using the residual method.",
     h1: "Residual Land Value Calculator",
     heroSubtitle:
-      "Calculate the maximum you should pay for land. Enter your GDV, costs and target profit to see the residual land value — the most you can bid and still make your required return.",
+      "Calculate the maximum you should pay for land. Enter your GDV, costs and target profit to see the residual land value - the most you can bid and still make your required return.",
     faqs: [
       {
         question: "What is residual land value?",

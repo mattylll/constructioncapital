@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "spalding-lincolnshire-property-market",
   title: "Spalding Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Spalding House Prices 2026 — Property Market Data & Development Finance | Lincolnshire",
+  metaTitle: "Spalding House Prices 2026 - Property Market Data & Development Finance | Lincolnshire",
   metaDescription: "Spalding property prices: median £220,000, 1,109 sales, -5.4% YoY. Detached £280,000, Flat £85,000. Land Registry data for Spalding, Lincolnshire.",
   excerpt: "Median price £220,000, 1,109 sales, -5.4% YoY. Lincolnshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Spalding recorded <strong>70</strong> new-build transactions in the past 12 months, representing <strong>6.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Spalding traded at a <strong>premium of 3.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> market, 352 new-build completions were recorded — see our <a href="/market-reports/lincolnshire-property-market">Lincolnshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> market, 352 new-build completions were recorded - see our <a href="/market-reports/lincolnshire-property-market">Lincolnshire property market report</a> for the full county picture.`,
       ],
     },
     {

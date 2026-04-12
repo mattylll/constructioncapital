@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wallasey-merseyside-property-market",
   title: "Wallasey Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wallasey House Prices 2026 — Property Market Data & Development Finance | Merseyside",
+  metaTitle: "Wallasey House Prices 2026 - Property Market Data & Development Finance | Merseyside",
   metaDescription: "Wallasey property prices: median £166,500, 757 sales, +0.9% YoY. Detached £340,000, Flat £125,000. Land Registry data for Wallasey, Merseyside.",
   excerpt: "Median price £166,500, 757 sales, +0.9% YoY. Merseyside county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Wallasey recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Wallasey traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/merseyside-property-market">Merseyside</a> market, 102 new-build completions were recorded — see our <a href="/market-reports/merseyside-property-market">Merseyside property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/merseyside-property-market">Merseyside</a> market, 102 new-build completions were recorded - see our <a href="/market-reports/merseyside-property-market">Merseyside property market report</a> for the full county picture.`,
       ],
     },
     {

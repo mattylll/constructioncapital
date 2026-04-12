@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "huddersfield-west-yorkshire-property-market",
   title: "Huddersfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Huddersfield House Prices 2026 — Property Market Data & Development Finance | West Yorkshire",
+  metaTitle: "Huddersfield House Prices 2026 - Property Market Data & Development Finance | West Yorkshire",
   metaDescription: "Huddersfield property prices: median £192,500, 1,883 sales, -3.8% YoY. Detached £385,000, Flat £105,000. Land Registry data for Huddersfield, West Yorkshire.",
   excerpt: "Median price £192,500, 1,883 sales, -3.8% YoY. West Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Huddersfield recorded <strong>30</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Huddersfield traded at a <strong>premium of 60.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded — see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded - see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

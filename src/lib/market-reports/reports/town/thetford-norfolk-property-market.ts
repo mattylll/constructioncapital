@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "thetford-norfolk-property-market",
   title: "Thetford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Thetford House Prices 2026 — Property Market Data & Development Finance | Norfolk",
+  metaTitle: "Thetford House Prices 2026 - Property Market Data & Development Finance | Norfolk",
   metaDescription: "Thetford property prices: median £235,000, 522 sales, -4.1% YoY. Detached £300,000, Flat £120,000. Land Registry data for Thetford, Norfolk.",
   excerpt: "Median price £235,000, 522 sales, -4.1% YoY. Norfolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Thetford recorded <strong>13</strong> new-build transactions in the past 12 months, representing <strong>2.5%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Thetford traded at a <strong>premium of 42.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded - see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
       ],
     },
     {

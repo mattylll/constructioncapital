@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "altrincham-greater-manchester-property-market",
   title: "Altrincham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Altrincham House Prices 2026 — Property Market Data & Development Finance | Greater Manchester",
+  metaTitle: "Altrincham House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
   metaDescription: "Altrincham property prices: median £355,000, 2,209 sales, -2.2% YoY. Detached £680,000, Flat £192,500. Land Registry data for Altrincham, Greater Manchester.",
   excerpt: "Median price £355,000, 2,209 sales, -2.2% YoY. Greater Manchester county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Altrincham recorded <strong>23</strong> new-build transactions in the past 12 months, representing <strong>1.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Altrincham traded at a <strong>discount of 14.1%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded - see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
       ],
     },
     {

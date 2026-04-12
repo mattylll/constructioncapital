@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cheshire-property-market",
   title: "Cheshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Cheshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Cheshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Cheshire property market analysis: median price £268,000, 8,221 sales, -0.3% YoY. Town comparisons, new builds & development finance across 8 towns.",
   excerpt: "8 towns analysed. Median price £268,000, 8,221 transactions, -0.3% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Cheshire Property Market Overview`,
       content: [
         `Cheshire is one of England's most affluent counties outside London, with premium residential markets in Alderley Edge, Wilmslow, and Knutsford commanding some of the highest values in the North West. Chester's Roman heritage and racecourse create a premium city market, while Crewe's position on the HS2 Phase 2 route has generated development interest. Warrington's position between Manchester and Liverpool makes it a significant commercial and residential market.`,
-        `The <a href="/locations/cheshire">Cheshire</a> property market recorded <strong>8,221</strong> residential transactions over the past 12 months, with a median sale price of <strong>£268,000</strong> — £17k below the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-0.3%</strong> across the county's principal towns.`,
+        `The <a href="/locations/cheshire">Cheshire</a> property market recorded <strong>8,221</strong> residential transactions over the past 12 months, with a median sale price of <strong>£268,000</strong> - £17k below the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-0.3%</strong> across the county's principal towns.`,
         `Key drivers of the Cheshire property market include Alderley Edge and Wilmslow ultra-premium market, Chester heritage city demand, Warrington new town expansion. Additional factors include HS2 Phase 2 Crewe hub station.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/cheshire/wilmslow">Wilmslow</a></td><td>£425,000</td><td>439</td><td>+1.9%</td></tr><tr><td><a href="/locations/cheshire/macclesfield">Macclesfield</a></td><td>£290,000</td><td>1,102</td><td>-3.3%</td></tr><tr><td><a href="/locations/cheshire/nantwich">Nantwich</a></td><td>£285,473</td><td>482</td><td>-1.6%</td></tr><tr><td><a href="/locations/cheshire/chester">Chester</a></td><td>£273,500</td><td>1,368</td><td>-2.3%</td></tr><tr><td><a href="/locations/cheshire/northwich">Northwich</a></td><td>£262,500</td><td>915</td><td>+1%</td></tr><tr><td><a href="/locations/cheshire/warrington">Warrington</a></td><td>£245,000</td><td>2,097</td><td>+0.8%</td></tr><tr><td><a href="/locations/cheshire/crewe">Crewe</a></td><td>£203,000</td><td>1,207</td><td>+1.5%</td></tr><tr><td><a href="/locations/cheshire/ellesmere-port">Ellesmere Port</a></td><td>£199,000</td><td>611</td><td>-0.5%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/cheshire/wilmslow">Wilmslow</a> (£425,000), <a href="/locations/cheshire/macclesfield">Macclesfield</a> (£290,000), <a href="/locations/cheshire/nantwich">Nantwich</a> (£285,473). Wilmslow's premium reflects premium commuter town with some of the north west's highest residential values.`,
         `<strong>Most affordable:</strong> <a href="/locations/cheshire/ellesmere-port">Ellesmere Port</a> (£199,000), <a href="/locations/cheshire/crewe">Crewe</a> (£203,000), <a href="/locations/cheshire/warrington">Warrington</a> (£245,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/cheshire/warrington">Warrington</a> (2,097 sales), <a href="/locations/cheshire/chester">Chester</a> (1,368 sales), <a href="/locations/cheshire/crewe">Crewe</a> (1,207 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/cheshire/warrington">Warrington</a> (2,097 sales), <a href="/locations/cheshire/chester">Chester</a> (1,368 sales), <a href="/locations/cheshire/crewe">Crewe</a> (1,207 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Cheshire market data carries direct implications for developers seeking finance. With a median property value of £268,000 and detached homes at £420,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Cheshire, a scheme with a GDV of £420,000 would typically attract <strong>senior debt of £273,000</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -0.3%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Cheshire's existing stock — particularly flat properties priced from £139,375 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Cheshire's existing stock - particularly flat properties priced from £139,375 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Cheshire's property market is in a period of consolidation, with 4 of 8 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/cheshire/wilmslow">Wilmslow</a> (+1.9%), <a href="/locations/cheshire/crewe">Crewe</a> (+1.5%), <a href="/locations/cheshire/northwich">Northwich</a> (+1%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Chester (-2.3%) and Macclesfield (-3.3%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Chester (-2.3%) and Macclesfield (-3.3%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Cheshire's development pipeline will be shaped by Alderley Edge and Wilmslow ultra-premium market and Chester heritage city demand. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Cheshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

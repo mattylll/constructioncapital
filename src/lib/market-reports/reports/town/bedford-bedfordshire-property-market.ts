@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bedford-bedfordshire-property-market",
   title: "Bedford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bedford House Prices 2026 — Property Market Data & Development Finance | Bedfordshire",
+  metaTitle: "Bedford House Prices 2026 - Property Market Data & Development Finance | Bedfordshire",
   metaDescription: "Bedford property prices: median £336,750, 1,754 sales, -0.2% YoY. Detached £483,750, Flat £172,000. Land Registry data for Bedford, Bedfordshire.",
   excerpt: "Median price £336,750, 1,754 sales, -0.2% YoY. Bedfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bedford recorded <strong>126</strong> new-build transactions in the past 12 months, representing <strong>7.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Bedford traded at a <strong>premium of 24.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> market, 429 new-build completions were recorded — see our <a href="/market-reports/bedfordshire-property-market">Bedfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> market, 429 new-build completions were recorded - see our <a href="/market-reports/bedfordshire-property-market">Bedfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

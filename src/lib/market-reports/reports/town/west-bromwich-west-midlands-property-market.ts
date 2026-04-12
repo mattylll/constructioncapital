@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "west-bromwich-west-midlands-property-market",
   title: "West Bromwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "West Bromwich House Prices 2026 — Property Market Data & Development Finance | West Midlands",
+  metaTitle: "West Bromwich House Prices 2026 - Property Market Data & Development Finance | West Midlands",
   metaDescription: "West Bromwich property prices: median £210,000, 2,007 sales, +2.4% YoY. Detached £315,000, Flat £107,000. Land Registry data for West Bromwich, West Midlands.",
   excerpt: "Median price £210,000, 2,007 sales, +2.4% YoY. West Midlands county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `West Bromwich recorded <strong>23</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in West Bromwich traded at a <strong>discount of 21.4%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/west-midlands-property-market">West Midlands</a> market, 308 new-build completions were recorded — see our <a href="/market-reports/west-midlands-property-market">West Midlands property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-midlands-property-market">West Midlands</a> market, 308 new-build completions were recorded - see our <a href="/market-reports/west-midlands-property-market">West Midlands property market report</a> for the full county picture.`,
       ],
     },
     {

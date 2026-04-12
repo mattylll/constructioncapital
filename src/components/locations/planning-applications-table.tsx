@@ -50,10 +50,10 @@ function ApplicationRow({ app }: { app: PlanningApp }) {
         </p>
       </td>
       <td className="whitespace-nowrap px-4 py-3 text-center text-sm">
-        {app.units ?? "—"}
+        {app.units ?? "-"}
       </td>
       <td className="whitespace-nowrap px-4 py-3 text-right text-sm">
-        {app.estimatedGdv ? formatGBP(app.estimatedGdv) : "—"}
+        {app.estimatedGdv ? formatGBP(app.estimatedGdv) : "-"}
       </td>
       <td className="whitespace-nowrap px-4 py-3">
         <span

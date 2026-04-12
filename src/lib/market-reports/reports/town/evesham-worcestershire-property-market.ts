@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "evesham-worcestershire-property-market",
   title: "Evesham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Evesham House Prices 2026 — Property Market Data & Development Finance | Worcestershire",
+  metaTitle: "Evesham House Prices 2026 - Property Market Data & Development Finance | Worcestershire",
   metaDescription: "Evesham property prices: median £290,000, 461 sales, -1.4% YoY. Detached £420,000, Flat £135,000. Land Registry data for Evesham, Worcestershire.",
   excerpt: "Median price £290,000, 461 sales, -1.4% YoY. Worcestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Evesham recorded <strong>5</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Evesham traded at a <strong>discount of 32.5%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/worcestershire-property-market">Worcestershire</a> market, 94 new-build completions were recorded — see our <a href="/market-reports/worcestershire-property-market">Worcestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/worcestershire-property-market">Worcestershire</a> market, 94 new-build completions were recorded - see our <a href="/market-reports/worcestershire-property-market">Worcestershire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -364,7 +364,7 @@ export function PermittedDevelopmentCalculator() {
                 style={{ color: "oklch(0.5 0.12 60)" }}
               >
                 Average unit size is{" "}
-                {Math.round(results.avgUnitSizeSqm)} sqm — below the
+                {Math.round(results.avgUnitSizeSqm)} sqm - below the
                 37 sqm NDSS minimum. Reduce the number of units or
                 increase floorspace to meet minimum space standards.
               </p>

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "splott-cardiff-property-market",
   title: "Splott Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Splott House Prices 2026 — Property Market Data & Development Finance | Cardiff",
+  metaTitle: "Splott House Prices 2026 - Property Market Data & Development Finance | Cardiff",
   metaDescription: "Splott property prices: median £265,000, 3,495 sales, +1.1% YoY. Detached £455,000, Flat £164,998. Land Registry data for Splott, Cardiff.",
   excerpt: "Median price £265,000, 3,495 sales, +1.1% YoY. Cardiff county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Splott recorded <strong>92</strong> new-build transactions in the past 12 months, representing <strong>2.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Splott traded at a <strong>premium of 72.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cardiff-property-market">Cardiff</a> market, 552 new-build completions were recorded — see our <a href="/market-reports/cardiff-property-market">Cardiff property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cardiff-property-market">Cardiff</a> market, 552 new-build completions were recorded - see our <a href="/market-reports/cardiff-property-market">Cardiff property market report</a> for the full county picture.`,
       ],
     },
     {

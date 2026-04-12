@@ -58,7 +58,7 @@ export async function POST(request: Request) {
         await resend.emails.send({
           from: process.env.RESEND_FROM_EMAIL || "Construction Capital <onboarding@resend.dev>",
           to: notificationEmail,
-          subject: `New Lead: ${full_name} — ${loan_type} ${formatCurrency(loan_amount)}`,
+          subject: `New Lead: ${full_name} - ${loan_type} ${formatCurrency(loan_amount)}`,
           html: `
             <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; color: #1a1a2e;">
               <div style="background: linear-gradient(135deg, #1a1a2e, #2d2d5e); padding: 32px; border-radius: 12px 12px 0 0;">
@@ -87,7 +87,7 @@ export async function POST(request: Request) {
                 <div style="padding: 16px; background: #f8f8fa; border-radius: 8px; font-size: 13px; color: #888;"><p style="margin: 0;">Source: ${source_page || "unknown"}</p></div>
               </div>
               <div style="background: #1a1a2e; padding: 20px 32px; border-radius: 0 0 12px 12px; text-align: center;">
-                <p style="color: rgba(255,255,255,0.4); font-size: 12px; margin: 0;">Construction Capital — Deal Room Lead Notification</p>
+                <p style="color: rgba(255,255,255,0.4); font-size: 12px; margin: 0;">Construction Capital - Deal Room Lead Notification</p>
               </div>
             </div>
           `,

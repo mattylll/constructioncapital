@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "nantwich-cheshire-property-market",
   title: "Nantwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Nantwich House Prices 2026 — Property Market Data & Development Finance | Cheshire",
+  metaTitle: "Nantwich House Prices 2026 - Property Market Data & Development Finance | Cheshire",
   metaDescription: "Nantwich property prices: median £285,473, 482 sales, -1.6% YoY. Detached £420,000, Flat £146,750. Land Registry data for Nantwich, Cheshire.",
   excerpt: "Median price £285,473, 482 sales, -1.6% YoY. Cheshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Nantwich recorded <strong>22</strong> new-build transactions in the past 12 months, representing <strong>4.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Nantwich traded at a <strong>discount of 14.3%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/cheshire-property-market">Cheshire</a> market, 147 new-build completions were recorded — see our <a href="/market-reports/cheshire-property-market">Cheshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cheshire-property-market">Cheshire</a> market, 147 new-build completions were recorded - see our <a href="/market-reports/cheshire-property-market">Cheshire property market report</a> for the full county picture.`,
       ],
     },
     {

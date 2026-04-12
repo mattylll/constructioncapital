@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "kings-lynn-norfolk-property-market",
   title: "King's Lynn Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "King's Lynn House Prices 2026 — Property Market Data & Development Finance | Norfolk",
+  metaTitle: "King's Lynn House Prices 2026 - Property Market Data & Development Finance | Norfolk",
   metaDescription: "King's Lynn property prices: median £260,000, 1,674 sales, -1.9% YoY. Detached £330,000, Flat £120,000. Land Registry data for King's Lynn, Norfolk.",
   excerpt: "Median price £260,000, 1,674 sales, -1.9% YoY. Norfolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `King's Lynn recorded <strong>23</strong> new-build transactions in the past 12 months, representing <strong>1.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in King's Lynn traded at a <strong>premium of 23.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded - see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
       ],
     },
     {

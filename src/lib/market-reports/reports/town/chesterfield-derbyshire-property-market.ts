@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "chesterfield-derbyshire-property-market",
   title: "Chesterfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chesterfield House Prices 2026 — Property Market Data & Development Finance | Derbyshire",
+  metaTitle: "Chesterfield House Prices 2026 - Property Market Data & Development Finance | Derbyshire",
   metaDescription: "Chesterfield property prices: median £181,500, 1,185 sales, -2.9% YoY. Detached £315,000, Flat £120,000. Land Registry data for Chesterfield, Derbyshire.",
   excerpt: "Median price £181,500, 1,185 sales, -2.9% YoY. Derbyshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Chesterfield recorded <strong>33</strong> new-build transactions in the past 12 months, representing <strong>2.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Chesterfield traded at a <strong>premium of 61.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/derbyshire-property-market">Derbyshire</a> market, 206 new-build completions were recorded — see our <a href="/market-reports/derbyshire-property-market">Derbyshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/derbyshire-property-market">Derbyshire</a> market, 206 new-build completions were recorded - see our <a href="/market-reports/derbyshire-property-market">Derbyshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "towcester-northamptonshire-property-market",
   title: "Towcester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Towcester House Prices 2026 — Property Market Data & Development Finance | Northamptonshire",
+  metaTitle: "Towcester House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
   metaDescription: "Towcester property prices: median £348,000, 384 sales, -4% YoY. Detached £514,498, Flat £133,000. Land Registry data for Towcester, Northamptonshire.",
   excerpt: "Median price £348,000, 384 sales, -4% YoY. Northamptonshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Towcester recorded <strong>41</strong> new-build transactions in the past 12 months, representing <strong>10.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Towcester traded at a <strong>premium of 24.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> market, 315 new-build completions were recorded — see our <a href="/market-reports/northamptonshire-property-market">Northamptonshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> market, 315 new-build completions were recorded - see our <a href="/market-reports/northamptonshire-property-market">Northamptonshire property market report</a> for the full county picture.`,
       ],
     },
     {

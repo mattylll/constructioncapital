@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bracknell-berkshire-property-market",
   title: "Bracknell Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bracknell House Prices 2026 — Property Market Data & Development Finance | Berkshire",
+  metaTitle: "Bracknell House Prices 2026 - Property Market Data & Development Finance | Berkshire",
   metaDescription: "Bracknell property prices: median £415,000, 1,222 sales, +1.1% YoY. Detached £638,000, Flat £230,000. Land Registry data for Bracknell, Berkshire.",
   excerpt: "Median price £415,000, 1,222 sales, +1.1% YoY. Berkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bracknell recorded <strong>34</strong> new-build transactions in the past 12 months, representing <strong>2.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Bracknell traded at a <strong>premium of 76.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded — see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded - see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "swadlincote-derbyshire-property-market",
   title: "Swadlincote Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Swadlincote House Prices 2026 — Property Market Data & Development Finance | Derbyshire",
+  metaTitle: "Swadlincote House Prices 2026 - Property Market Data & Development Finance | Derbyshire",
   metaDescription: "Swadlincote property prices: median £237,000, 1,323 sales, -7% YoY. Detached £340,000, Flat £126,000. Land Registry data for Swadlincote, Derbyshire.",
   excerpt: "Median price £237,000, 1,323 sales, -7% YoY. Derbyshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Swadlincote recorded <strong>66</strong> new-build transactions in the past 12 months, representing <strong>5.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Swadlincote traded at a <strong>premium of 34.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/derbyshire-property-market">Derbyshire</a> market, 206 new-build completions were recorded — see our <a href="/market-reports/derbyshire-property-market">Derbyshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/derbyshire-property-market">Derbyshire</a> market, 206 new-build completions were recorded - see our <a href="/market-reports/derbyshire-property-market">Derbyshire property market report</a> for the full county picture.`,
       ],
     },
     {

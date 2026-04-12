@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bury-greater-manchester-property-market",
   title: "Bury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bury House Prices 2026 — Property Market Data & Development Finance | Greater Manchester",
+  metaTitle: "Bury House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
   metaDescription: "Bury property prices: median £229,000, 1,879 sales, -0.8% YoY. Detached £382,000, Flat £125,000. Land Registry data for Bury, Greater Manchester.",
   excerpt: "Median price £229,000, 1,879 sales, -0.8% YoY. Greater Manchester county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bury recorded <strong>24</strong> new-build transactions in the past 12 months, representing <strong>1.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Bury traded at a <strong>premium of 23.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded - see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
       ],
     },
     {

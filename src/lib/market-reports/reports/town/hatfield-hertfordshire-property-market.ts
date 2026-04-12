@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hatfield-hertfordshire-property-market",
   title: "Hatfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hatfield House Prices 2026 — Property Market Data & Development Finance | Hertfordshire",
+  metaTitle: "Hatfield House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
   metaDescription: "Hatfield property prices: median £375,000, 306 sales, -5.1% YoY. Detached £765,000, Flat £240,000. Land Registry data for Hatfield, Hertfordshire.",
   excerpt: "Median price £375,000, 306 sales, -5.1% YoY. Hertfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Hatfield recorded <strong>10</strong> new-build transactions in the past 12 months, representing <strong>3.3%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Hatfield traded at a <strong>premium of 10.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded - see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "norwich-norfolk-property-market",
   title: "Norwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Norwich House Prices 2026 — Property Market Data & Development Finance | Norfolk",
+  metaTitle: "Norwich House Prices 2026 - Property Market Data & Development Finance | Norfolk",
   metaDescription: "Norwich property prices: median £230,000, 1,485 sales, -0.9% YoY. Detached £385,000, Flat £145,000. Land Registry data for Norwich, Norfolk.",
   excerpt: "Median price £230,000, 1,485 sales, -0.9% YoY. Norfolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Norwich recorded <strong>3</strong> new-build transactions in the past 12 months, representing <strong>0.2%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Norwich traded at a <strong>discount of 16.3%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded - see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
       ],
     },
     {

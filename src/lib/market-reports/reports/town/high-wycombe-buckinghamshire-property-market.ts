@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "high-wycombe-buckinghamshire-property-market",
   title: "High Wycombe Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "High Wycombe House Prices 2026 — Property Market Data & Development Finance | Buckinghamshire",
+  metaTitle: "High Wycombe House Prices 2026 - Property Market Data & Development Finance | Buckinghamshire",
   metaDescription: "High Wycombe property prices: median £420,000, 1,230 sales, 0% YoY. Detached £655,000, Flat £220,500. Land Registry data for High Wycombe, Buckinghamshire.",
   excerpt: "Median price £420,000, 1,230 sales, 0% YoY. Buckinghamshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `High Wycombe recorded <strong>24</strong> new-build transactions in the past 12 months, representing <strong>2.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in High Wycombe traded at a <strong>discount of 6.3%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded — see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded - see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
       ],
     },
     {

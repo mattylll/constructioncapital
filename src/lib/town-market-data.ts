@@ -39,7 +39,7 @@ export interface TownMarketData {
   s106Notes?: string;
   /** Whether the town centre or significant areas are in conservation zones */
   conservationAreas?: string[];
-  /** Regional lender appetite commentary — what lenders look for here */
+  /** Regional lender appetite commentary - what lenders look for here */
   lenderAppetite?: string;
 }
 
@@ -61,7 +61,7 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
       "Brent Cross Town regeneration",
     ],
     marketInsight:
-      "London operates as dozens of distinct micro-markets rather than a single entity. Inner London schemes command premium GDVs but face higher land costs and complex planning. Outer London boroughs — particularly those along Crossrail and DLR extensions — offer the best development economics for mid-market residential schemes targeting first-time buyers and young professionals.",
+      "London operates as dozens of distinct micro-markets rather than a single entity. Inner London schemes command premium GDVs but face higher land costs and complex planning. Outer London boroughs - particularly those along Crossrail and DLR extensions - offer the best development economics for mid-market residential schemes targeting first-time buyers and young professionals.",
     demandDrivers: [
       "Chronic housing undersupply across all 33 boroughs",
       "Crossrail and Overground extension catchment premiums",
@@ -70,9 +70,9 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
     ],
     rentalYieldRange: "3.5-5.5%",
     planningPortalUrl: "https://www.london.gov.uk/programmes-strategies/planning",
-    cilRate: "Varies by borough — typically £100-£400/sqm for residential in outer London, up to £400+/sqm in prime central",
+    cilRate: "Varies by borough - typically £100-£400/sqm for residential in outer London, up to £400+/sqm in prime central",
     s106Notes: "Affordable housing typically 35% on-site (50% on public land). Boroughs negotiate viability-tested contributions on smaller schemes.",
-    conservationAreas: ["Numerous across all boroughs — over 1,000 designated conservation areas across Greater London"],
+    conservationAreas: ["Numerous across all boroughs - over 1,000 designated conservation areas across Greater London"],
     lenderAppetite: "Very strong across all lender types. Inner London attracts institutional and family office capital for £5m+ schemes. Outer London is popular with specialist lenders for sub-£5m residential developments. Exit route certainty is high given sustained buyer demand.",
   },
 
@@ -159,7 +159,7 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
     avgPropertyPrice: "£250,000",
     population: "550,000",
     developmentHotspots: [
-      "Victoria North (formerly Northern Gateway) — 15,000 homes",
+      "Victoria North (formerly Northern Gateway) - 15,000 homes",
       "Ancoats and New Islington urban village",
       "NOMA mixed-use regeneration",
       "Piccadilly/HS2 station quarter",
@@ -219,7 +219,7 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
     avgPropertyPrice: "£180,000",
     population: "500,000",
     developmentHotspots: [
-      "Liverpool Waters — £5.5bn waterfront regeneration",
+      "Liverpool Waters - £5.5bn waterfront regeneration",
       "Baltic Triangle creative quarter",
       "Knowledge Quarter and Paddington Village",
       "Ten Streets creative district",
@@ -241,7 +241,7 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
     avgPropertyPrice: "£230,000",
     population: "1,150,000",
     developmentHotspots: [
-      "Smithfield — 17-acre city centre regeneration",
+      "Smithfield - 17-acre city centre regeneration",
       "Digbeth creative quarter",
       "Perry Barr (former Commonwealth Games village)",
       "Curzon Street HS2 station quarter",
@@ -264,7 +264,7 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
     population: "330,000",
     developmentHotspots: [
       "Broadmarsh centre redevelopment",
-      "Island Quarter — Nottingham's largest regeneration",
+      "Island Quarter - Nottingham's largest regeneration",
       "Sneinton Market creative quarter",
     ],
     marketInsight:
@@ -303,7 +303,7 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
     avgPropertyPrice: "£350,000",
     population: "470,000",
     developmentHotspots: [
-      "Temple Quarter — 130-acre city centre regeneration",
+      "Temple Quarter - 130-acre city centre regeneration",
       "Western Harbour dockside development",
       "Bedminster Green urban village",
       "Filton Airfield new neighbourhood (2,675 homes)",
@@ -345,7 +345,7 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
     avgPropertyPrice: "£230,000",
     population: "800,000",
     developmentHotspots: [
-      "South Bank — 253-acre city centre regeneration",
+      "South Bank - 253-acre city centre regeneration",
       "SOYO cultural quarter",
       "Kirkstall Forge and Aire Valley",
       "Leeds Innovation District",
@@ -392,7 +392,7 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
       "Forth Yards development",
     ],
     marketInsight:
-      "Newcastle's compact city centre and strong university sector create concentrated rental demand that supports attractive development yields. The Helix innovation district — on the former Scottish & Newcastle brewery site — is creating a new knowledge economy hub, while the Quayside and Ouseburn Valley offer characterful conversion opportunities. Land values remain accessible, supporting development viability.",
+      "Newcastle's compact city centre and strong university sector create concentrated rental demand that supports attractive development yields. The Helix innovation district - on the former Scottish & Newcastle brewery site - is creating a new knowledge economy hub, while the Quayside and Ouseburn Valley offer characterful conversion opportunities. Land values remain accessible, supporting development viability.",
     demandDrivers: [
       "Two major universities with 50,000+ students",
       "Helix innovation district",
@@ -478,7 +478,7 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
       "Collegelands Innovation District",
     ],
     marketInsight:
-      "Glasgow offers the strongest development economics of any major Scottish city: accessible land values, competitive build costs, and rental yields that significantly outperform Edinburgh. The city's extensive regeneration programme — from Sighthill to the Clyde waterfront — is creating large-scale residential development opportunities. Glasgow's four universities generate consistent student housing demand.",
+      "Glasgow offers the strongest development economics of any major Scottish city: accessible land values, competitive build costs, and rental yields that significantly outperform Edinburgh. The city's extensive regeneration programme - from Sighthill to the Clyde waterfront - is creating large-scale residential development opportunities. Glasgow's four universities generate consistent student housing demand.",
     demandDrivers: [
       "Four universities with 70,000+ students",
       "Largest city centre in Scotland by area",
@@ -595,12 +595,12 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
     avgPropertyPrice: "£320,000",
     population: "210,000",
     developmentHotspots: [
-      "York Central — 45-hectare brownfield regeneration",
+      "York Central - 45-hectare brownfield regeneration",
       "Castle Gateway and Foss Basin",
       "University of York campus expansion",
     ],
     marketInsight:
-      "York combines premium residential values with a constrained development market — the city's heritage status, Green Belt, and flood risk areas limit available sites. York Central, a 45-hectare brownfield site next to the station, represents one of the largest city-centre development opportunities in the UK. The University of York's continued expansion supports purpose-built student accommodation demand.",
+      "York combines premium residential values with a constrained development market - the city's heritage status, Green Belt, and flood risk areas limit available sites. York Central, a 45-hectare brownfield site next to the station, represents one of the largest city-centre development opportunities in the UK. The University of York's continued expansion supports purpose-built student accommodation demand.",
     demandDrivers: [
       "York Central 45-hectare brownfield opportunity",
       "Tourism economy (8M+ visitors/year)",
@@ -615,7 +615,7 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
     avgPropertyPrice: "£615,000",
     population: "150,000",
     overview: [
-      "St Albans is a premium commuter city with cathedral heritage, outstanding schools, and a 20-minute Thameslink service into St Pancras. Median property prices sit around £615,000 — significantly above the national average — driven by persistent buyer demand and constrained supply across a heavily Green Belt district.",
+      "St Albans is a premium commuter city with cathedral heritage, outstanding schools, and a 20-minute Thameslink service into St Pancras. Median property prices sit around £615,000 - significantly above the national average - driven by persistent buyer demand and constrained supply across a heavily Green Belt district.",
       "For developers, the opportunity here lies in conversion and infill. With extensive conservation area coverage across the city centre and tight Green Belt boundaries, new-build land is scarce. The strongest returns come from office-to-residential permitted development, sensitive heritage conversions, and previously developed sites on corridors like Hatfield Road and Victoria Street.",
       "Whether you're financing a prior approval scheme, a boutique new-build, or a commercial-to-residential conversion, we connect you with lenders who understand the St Albans market and can structure funding around the planning realities of this high-value district.",
     ],
@@ -626,7 +626,7 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
       "Green Belt edge sites near London Colney and Chiswell Green",
     ],
     marketInsight:
-      "St Albans combines cathedral-city heritage with premium London commuter demand — 20 minutes to St Pancras via Thameslink. The district is one of the most restrictive in Hertfordshire, with Green Belt covering much of the area and extensive conservation area constraints across the city centre. Development opportunity concentrates on prior approval conversions, infill sites, and previously developed land. Strong buyer demand keeps absorption rates high, but build costs in the Home Counties run 10-15% above national averages.",
+      "St Albans combines cathedral-city heritage with premium London commuter demand - 20 minutes to St Pancras via Thameslink. The district is one of the most restrictive in Hertfordshire, with Green Belt covering much of the area and extensive conservation area constraints across the city centre. Development opportunity concentrates on prior approval conversions, infill sites, and previously developed land. Strong buyer demand keeps absorption rates high, but build costs in the Home Counties run 10-15% above national averages.",
     demandDrivers: [
       "Thameslink connectivity (20 min to St Pancras)",
       "Outstanding state and private schools",
@@ -637,38 +637,38 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
     rentalYieldRange: "3.5-4.5%",
     serviceCommentary: {
       "development-finance": [
-        "St Albans sits in one of the most constrained planning districts in the Home Counties, with Green Belt coverage limiting new-build land supply and conservation area restrictions shaping what can be built in the city centre. For developers who can navigate these constraints, the rewards are significant — median property prices around £615,000 support strong GDV assumptions, and absorption rates remain high thanks to persistent commuter demand from the Thameslink corridor.",
-        "The typical development finance deal here isn't a large greenfield estate — it's a 4–12 unit infill scheme on previously developed land, a prior approval office conversion on Victoria Street or Hatfield Road, or a sensitive new-build within the conservation area. Senior lenders are comfortable with St Albans risk profiles, but the planning complexity means your funding partner needs to understand heritage constraints, Section 106 obligations, and the longer timelines that come with conservation area applications.",
-        "We structure development finance for St Albans schemes from £500k to £15M+, typically at 60–70% LTGDV with rates from 6.5% p.a. Build cost assumptions in this district run 10–15% above national averages — lenders familiar with Hertfordshire factor this into their appraisals, which is why working with a broker who knows the local lending landscape matters.",
+        "St Albans sits in one of the most constrained planning districts in the Home Counties, with Green Belt coverage limiting new-build land supply and conservation area restrictions shaping what can be built in the city centre. For developers who can navigate these constraints, the rewards are significant - median property prices around £615,000 support strong GDV assumptions, and absorption rates remain high thanks to persistent commuter demand from the Thameslink corridor.",
+        "The typical development finance deal here isn't a large greenfield estate - it's a 4–12 unit infill scheme on previously developed land, a prior approval office conversion on Victoria Street or Hatfield Road, or a sensitive new-build within the conservation area. Senior lenders are comfortable with St Albans risk profiles, but the planning complexity means your funding partner needs to understand heritage constraints, Section 106 obligations, and the longer timelines that come with conservation area applications.",
+        "We structure development finance for St Albans schemes from £500k to £15M+, typically at 60–70% LTGDV with rates from 6.5% p.a. Build cost assumptions in this district run 10–15% above national averages - lenders familiar with Hertfordshire factor this into their appraisals, which is why working with a broker who knows the local lending landscape matters.",
       ],
       "mezzanine-finance": [
-        "In a high-value market like St Albans — where land costs are elevated and build specifications need to match buyer expectations — the equity requirement on a development can tie up significant capital. Mezzanine finance bridges the gap between the 60–65% that a senior lender will typically advance and the 85–90% total leverage that frees you to pursue multiple schemes simultaneously.",
-        "The intercreditor relationship is the structural foundation of any mezzanine deal. Not every senior lender operating in Hertfordshire will accept subordinated debt behind their facility, and those that do require an approved intercreditor agreement governing priorities in a default scenario. We work with both parties to ensure the capital stack is structurally sound — this is particularly important in St Albans where scheme timelines can extend due to conservation area and listed building consent processes.",
-        "With median semi-detached prices at £740,000 and detached values approaching £950,000, even a modest 6-unit scheme in St Albans can carry a GDV north of £4M. At those numbers, the difference between 65% and 85% leverage represents over £800,000 of equity released back to your balance sheet. Mezzanine pricing — typically 12–18% p.a. — reflects its subordinated position, but the blended cost across your full capital stack is often lower than alternatives that achieve similar leverage.",
+        "In a high-value market like St Albans - where land costs are elevated and build specifications need to match buyer expectations - the equity requirement on a development can tie up significant capital. Mezzanine finance bridges the gap between the 60–65% that a senior lender will typically advance and the 85–90% total leverage that frees you to pursue multiple schemes simultaneously.",
+        "The intercreditor relationship is the structural foundation of any mezzanine deal. Not every senior lender operating in Hertfordshire will accept subordinated debt behind their facility, and those that do require an approved intercreditor agreement governing priorities in a default scenario. We work with both parties to ensure the capital stack is structurally sound - this is particularly important in St Albans where scheme timelines can extend due to conservation area and listed building consent processes.",
+        "With median semi-detached prices at £740,000 and detached values approaching £950,000, even a modest 6-unit scheme in St Albans can carry a GDV north of £4M. At those numbers, the difference between 65% and 85% leverage represents over £800,000 of equity released back to your balance sheet. Mezzanine pricing - typically 12–18% p.a. - reflects its subordinated position, but the blended cost across your full capital stack is often lower than alternatives that achieve similar leverage.",
       ],
       "bridging-loans": [
         "Speed matters in St Albans. With limited development land and strong buyer competition, auction purchases and off-market opportunities don't wait for conventional mortgage timelines. Bridging finance lets you secure a site in 7–14 days, whether you're acquiring a commercial building for permitted development conversion, a period property for refurbishment, or a development plot before planning is determined.",
-        "The typical bridging scenario here involves acquiring a property or site while your planning application or prior approval is being processed. St Albans' conservation area coverage and Green Belt constraints mean that planning timelines can be longer than neighbouring districts — a 12-month bridge with extension options gives you the runway to navigate the process without pressure-selling if consent takes longer than expected.",
+        "The typical bridging scenario here involves acquiring a property or site while your planning application or prior approval is being processed. St Albans' conservation area coverage and Green Belt constraints mean that planning timelines can be longer than neighbouring districts - a 12-month bridge with extension options gives you the runway to navigate the process without pressure-selling if consent takes longer than expected.",
         "With property values averaging £615,000 and detached homes regularly exceeding £950,000, St Albans assets provide strong security for bridging lenders. We arrange bridges from £150k to £10M+ at rates from 0.55% per month, with LTVs up to 75% of current value. Exit strategies typically involve either refinancing onto development finance once planning is secured, or sale of the completed/refurbished property.",
       ],
       "equity-jv": [
-        "St Albans' premium values and constrained supply make it an attractive market for equity partners and JV investors. Family offices and institutional investors are drawn to the district's fundamentals — strong commuter demand, high buyer quality, and limited competing supply — while developers benefit from 90–100% funding of project costs in exchange for a profit share.",
-        "The typical equity JV structure in this market involves the developer contributing the site (often acquired with bridging finance) and their development expertise, while the equity partner funds build costs and potentially the land. Profit splits vary — commonly 50/50 to 70/30 in the developer's favour — depending on the risk profile and your track record. For St Albans schemes, the investor appetite is strong: the combination of £615,000+ median prices and high absorption rates reduces the sales risk that equity partners are most concerned about.",
+        "St Albans' premium values and constrained supply make it an attractive market for equity partners and JV investors. Family offices and institutional investors are drawn to the district's fundamentals - strong commuter demand, high buyer quality, and limited competing supply - while developers benefit from 90–100% funding of project costs in exchange for a profit share.",
+        "The typical equity JV structure in this market involves the developer contributing the site (often acquired with bridging finance) and their development expertise, while the equity partner funds build costs and potentially the land. Profit splits vary - commonly 50/50 to 70/30 in the developer's favour - depending on the risk profile and your track record. For St Albans schemes, the investor appetite is strong: the combination of £615,000+ median prices and high absorption rates reduces the sales risk that equity partners are most concerned about.",
         "We connect St Albans developers with equity sources including family offices, property funds, and high-net-worth individuals. Whether you're looking for a JV partner on a single scheme or a programmatic arrangement to roll across multiple sites in Hertfordshire, we structure the deal to align incentives and protect both parties through the development cycle.",
       ],
       "refurbishment-finance": [
-        "St Albans' housing stock includes a significant proportion of period and post-war properties, many within conservation areas, creating a steady pipeline of refurbishment opportunities. From light cosmetic upgrades to heavy structural refurbishments of listed buildings, the uplift potential in this market is compelling — a well-executed refurb can add 20–30% to the value of a property where the median already sits at £615,000.",
-        "The key distinction in St Albans is between light and heavy refurbishment finance. Light refurb — cosmetic works, new kitchens and bathrooms, redecorating — typically draws rates from 0.55% per month with faster completion. Heavy refurb involving structural works, extensions, or change of use (particularly HMO conversions, which are increasingly popular near the city centre) attracts higher rates but funds a wider scope of work including construction contingencies.",
-        "Conservation area and listed building constraints in central St Albans add complexity to refurbishment projects — materials specifications, window designs, and facade treatments all need to meet heritage requirements. Lenders experienced in Hertfordshire understand these constraints and build them into their appraisals. We match your project with funders who won't be surprised by the additional costs and timelines that heritage refurbishment demands.",
+        "St Albans' housing stock includes a significant proportion of period and post-war properties, many within conservation areas, creating a steady pipeline of refurbishment opportunities. From light cosmetic upgrades to heavy structural refurbishments of listed buildings, the uplift potential in this market is compelling - a well-executed refurb can add 20–30% to the value of a property where the median already sits at £615,000.",
+        "The key distinction in St Albans is between light and heavy refurbishment finance. Light refurb - cosmetic works, new kitchens and bathrooms, redecorating - typically draws rates from 0.55% per month with faster completion. Heavy refurb involving structural works, extensions, or change of use (particularly HMO conversions, which are increasingly popular near the city centre) attracts higher rates but funds a wider scope of work including construction contingencies.",
+        "Conservation area and listed building constraints in central St Albans add complexity to refurbishment projects - materials specifications, window designs, and facade treatments all need to meet heritage requirements. Lenders experienced in Hertfordshire understand these constraints and build them into their appraisals. We match your project with funders who won't be surprised by the additional costs and timelines that heritage refurbishment demands.",
       ],
       "commercial-mortgages": [
-        "St Albans' commercial property market benefits from the same fundamentals that drive residential values — excellent transport links, affluent catchment, and a thriving city centre anchored by the cathedral and market. Office space, retail units on St Peters Street and the surrounding lanes, and mixed-use properties all attract investor interest, with yields typically ranging from 3.5–5.5% depending on asset class and covenant strength.",
+        "St Albans' commercial property market benefits from the same fundamentals that drive residential values - excellent transport links, affluent catchment, and a thriving city centre anchored by the cathedral and market. Office space, retail units on St Peters Street and the surrounding lanes, and mixed-use properties all attract investor interest, with yields typically ranging from 3.5–5.5% depending on asset class and covenant strength.",
         "For investors holding or acquiring commercial property in the district, long-term mortgage finance provides stable, predictable leverage. We arrange commercial mortgages from £250k to £25M+ on offices, retail, industrial, and mixed-use assets across St Albans and the wider Hertfordshire area. Typical terms run 5–25 years at rates from 5.5% p.a., with LTVs up to 75%.",
-        "The emerging opportunity in St Albans is the conversion of commercial space — particularly offices that don't meet modern occupier requirements — into residential under permitted development rights. If you're holding a commercial asset with conversion potential, we can structure a commercial mortgage that reflects the underlying residential value while you pursue the planning pathway.",
+        "The emerging opportunity in St Albans is the conversion of commercial space - particularly offices that don't meet modern occupier requirements - into residential under permitted development rights. If you're holding a commercial asset with conversion potential, we can structure a commercial mortgage that reflects the underlying residential value while you pursue the planning pathway.",
       ],
       "development-exit-finance": [
         "Development exit finance replaces your development facility once construction is substantially complete, giving you breathing room to sell completed units at the best price rather than under pressure from a maturing loan. In St Albans, where individual unit values are high and buyers are discerning, the difference between a pressured and a patient sale can be tens of thousands of pounds per unit.",
-        "The economics are straightforward: your development lender is charging 7–10% p.a. on the full facility while you're selling down. An exit facility at 0.55–0.75% per month on the remaining balance — which reduces as each unit sells — dramatically cuts your monthly interest bill during the sales period. On a 6-unit St Albans scheme with a GDV of £4M+, the interest saving alone can exceed £100,000 over a 6–9 month sales period.",
+        "The economics are straightforward: your development lender is charging 7–10% p.a. on the full facility while you're selling down. An exit facility at 0.55–0.75% per month on the remaining balance - which reduces as each unit sells - dramatically cuts your monthly interest bill during the sales period. On a 6-unit St Albans scheme with a GDV of £4M+, the interest saving alone can exceed £100,000 over a 6–9 month sales period.",
         "We arrange development exit facilities from £500k to £15M+ with LTVs up to 75% of the completed value. Drawdown is typically within 2–4 weeks of practical completion, allowing a seamless transition from your development lender. The facility reduces automatically as units sell, so you're never paying interest on capital you don't need.",
       ],
     },
@@ -676,7 +676,7 @@ export const TOWN_MARKET_DATA: Record<string, TownMarketData> = {
 };
 
 /**
- * Enrichment data — planning portal URLs, CIL/S106 info, conservation areas,
+ * Enrichment data - planning portal URLs, CIL/S106 info, conservation areas,
  * and lender appetite commentary.  Kept separate from the base records for
  * maintainability; merged at read time via `getTownMarketData`.
  */
@@ -686,7 +686,7 @@ const ENRICHMENT: Record<string, Partial<TownMarketData>> = {
     cilRate: "£120/sqm for residential (Zone B), £0 in the Croydon Opportunity Area for affordable housing schemes",
     s106Notes: "35% affordable housing requirement on major schemes (10+ units). Viability-tested reductions possible on brownfield and regeneration sites.",
     conservationAreas: ["Central Croydon (Church Street area)", "South End and Park Hill", "Addiscombe"],
-    lenderAppetite: "Good appetite from specialist lenders for £1-5m residential schemes. Croydon's regeneration story is well understood. Some lenders cautious on high-rise given the Brick by Brick history — mid-rise schemes attract wider interest.",
+    lenderAppetite: "Good appetite from specialist lenders for £1-5m residential schemes. Croydon's regeneration story is well understood. Some lenders cautious on high-rise given the Brick by Brick history - mid-rise schemes attract wider interest.",
   },
   "surrey/guildford": {
     planningPortalUrl: "https://www.guildford.gov.uk/planning",
@@ -711,14 +711,14 @@ const ENRICHMENT: Record<string, Partial<TownMarketData>> = {
   },
   "greater-manchester/manchester": {
     planningPortalUrl: "https://www.manchester.gov.uk/info/200074/planning",
-    cilRate: "No CIL adopted — Manchester relies on S106 contributions",
+    cilRate: "No CIL adopted - Manchester relies on S106 contributions",
     s106Notes: "20% affordable housing on new developments (subject to viability). Manchester's no-CIL position makes it more developer-friendly than many comparable cities.",
     conservationAreas: ["Ancoats", "Castlefield", "Albert Square", "Stevenson Square", "St Ann's Square"],
     lenderAppetite: "Excellent appetite across all lender types. Manchester is the most active regional lending market in the UK. Banks, funds, and specialist lenders all compete for Manchester deals. BTR schemes attract institutional forward-funding. Maximum appetite typically £50m+ from large funds.",
   },
   "greater-manchester/salford": {
     planningPortalUrl: "https://www.salford.gov.uk/planning-building-and-regeneration/",
-    cilRate: "No CIL adopted — Salford uses S106 contributions",
+    cilRate: "No CIL adopted - Salford uses S106 contributions",
     s106Notes: "20% affordable housing target. MediaCityUK and Salford Quays have specific planning frameworks with negotiated contributions.",
     conservationAreas: ["Worsley Village", "Peel Green", "Kersal Dale"],
     lenderAppetite: "Strong appetite, benefiting from Manchester market spillover. MediaCityUK-adjacent schemes particularly attractive to lenders. Land values lower than Manchester core make development economics compelling for specialist lenders.",
@@ -727,32 +727,32 @@ const ENRICHMENT: Record<string, Partial<TownMarketData>> = {
     planningPortalUrl: "https://www.preston.gov.uk/article/1276/Planning",
     cilRate: "No CIL adopted",
     s106Notes: "30% affordable housing on major schemes. Preston's community wealth building model means S106 contributions are actively negotiated.",
-    lenderAppetite: "Specialist lenders dominate. Strong yields attract investors but exit route needs demonstrating — lenders want evidence of buyer/tenant demand. Student housing schemes near UCLan campus attract dedicated PBSA lenders.",
+    lenderAppetite: "Specialist lenders dominate. Strong yields attract investors but exit route needs demonstrating - lenders want evidence of buyer/tenant demand. Student housing schemes near UCLan campus attract dedicated PBSA lenders.",
   },
   "merseyside/liverpool": {
     planningPortalUrl: "https://liverpool.gov.uk/planning-and-building-control/",
-    cilRate: "No CIL adopted — Liverpool uses S106 and planning obligations",
+    cilRate: "No CIL adopted - Liverpool uses S106 and planning obligations",
     s106Notes: "20% affordable housing target (subject to viability). Liverpool Waters has a bespoke planning framework with reduced obligations to incentivise regeneration.",
     conservationAreas: ["Stanley Dock", "Duke Street/Bold Street", "Castle Street", "William Brown Street"],
-    lenderAppetite: "Good appetite from specialist and challenger lenders. Liverpool's high yields attract investment-focused developers. Baltic Triangle and city centre schemes well understood. Some mainstream lenders remain cautious — specialist lenders dominate sub-£5m deals.",
+    lenderAppetite: "Good appetite from specialist and challenger lenders. Liverpool's high yields attract investment-focused developers. Baltic Triangle and city centre schemes well understood. Some mainstream lenders remain cautious - specialist lenders dominate sub-£5m deals.",
   },
   "west-midlands/birmingham": {
     planningPortalUrl: "https://www.birmingham.gov.uk/planning",
     cilRate: "£69/sqm for residential in the city centre, £26/sqm in other areas",
     s106Notes: "35% affordable housing on major schemes (20% in the city centre subject to viability). HS2 and Smithfield developments have bespoke planning frameworks.",
     conservationAreas: ["Jewellery Quarter", "Colmore Row and Environs", "Moseley", "Bournville"],
-    lenderAppetite: "Excellent appetite — Birmingham is the UK's second-strongest regional lending market after Manchester. HS2 narrative drives mainstream lender interest. Curzon Street and Digbeth schemes attract institutional capital. Broad range of lenders from £500k specialist facilities to £50m+ institutional tickets.",
+    lenderAppetite: "Excellent appetite - Birmingham is the UK's second-strongest regional lending market after Manchester. HS2 narrative drives mainstream lender interest. Curzon Street and Digbeth schemes attract institutional capital. Broad range of lenders from £500k specialist facilities to £50m+ institutional tickets.",
   },
   "nottinghamshire/nottingham": {
     planningPortalUrl: "https://www.nottinghamcity.gov.uk/planning-and-building-control/",
-    cilRate: "No CIL currently in force — under review",
+    cilRate: "No CIL currently in force - under review",
     s106Notes: "20% affordable housing on major schemes (subject to viability). Broadmarsh area has specific regeneration incentives.",
     conservationAreas: ["Lace Market", "The Park", "Sneinton Market"],
     lenderAppetite: "Specialist lenders active for student housing and BTR. Island Quarter is attracting institutional interest. Mainstream bank appetite growing as the city centre regenerates. Lenders want to see strong pre-let or pre-sale evidence on for-sale schemes.",
   },
   "leicestershire/leicester": {
     planningPortalUrl: "https://www.leicester.gov.uk/planning-and-building/",
-    cilRate: "No CIL adopted — uses S106 contributions",
+    cilRate: "No CIL adopted - uses S106 contributions",
     s106Notes: "20% affordable housing on major schemes. Waterside regeneration zone has reduced S106 requirements to incentivise development.",
     conservationAreas: ["New Walk", "Castle Gardens/St Mary de Castro", "Market Place"],
     lenderAppetite: "Specialist lenders dominate. Strong yields and affordable land attract northern-focused lenders. Student housing schemes well understood by PBSA specialists. Space Park and technology corridor beginning to attract wider lender interest.",
@@ -760,23 +760,23 @@ const ENRICHMENT: Record<string, Partial<TownMarketData>> = {
   "bristol/bristol": {
     planningPortalUrl: "https://www.bristol.gov.uk/planning-and-building-regulations/planning-applications",
     cilRate: "£100/sqm in the inner urban area, £50/sqm in central Bristol",
-    s106Notes: "40% affordable housing on major schemes — one of the highest requirements in England. Viability challenges common on brownfield sites. Bristol's affordable housing policy is frequently tested at appeal.",
+    s106Notes: "40% affordable housing on major schemes - one of the highest requirements in England. Viability challenges common on brownfield sites. Bristol's affordable housing policy is frequently tested at appeal.",
     conservationAreas: ["Clifton", "Redcliffe", "King Street", "Hotwells", "Montpelier"],
-    lenderAppetite: "Strong appetite from all lender types. Bristol's premium values and tech economy attract mainstream banks and institutional capital. Temple Quarter schemes command significant interest. Bedminster and South Bristol emerging — specialist lenders ahead of the curve here.",
+    lenderAppetite: "Strong appetite from all lender types. Bristol's premium values and tech economy attract mainstream banks and institutional capital. Temple Quarter schemes command significant interest. Bedminster and South Bristol emerging - specialist lenders ahead of the curve here.",
   },
   "devon/exeter": {
     planningPortalUrl: "https://exeter.gov.uk/planning-services/",
     cilRate: "£125/sqm for residential development",
     s106Notes: "35% affordable housing on major schemes. Cranbrook has a bespoke contributions framework including community infrastructure and SANGS.",
     conservationAreas: ["Exeter City Centre", "Topsham", "St Leonards"],
-    lenderAppetite: "Moderate appetite — specialist lenders most active. Exeter's growth story is understood but distance from London means some mainstream lenders are less familiar. University-linked schemes and Cranbrook attract dedicated specialists.",
+    lenderAppetite: "Moderate appetite - specialist lenders most active. Exeter's growth story is understood but distance from London means some mainstream lenders are less familiar. University-linked schemes and Cranbrook attract dedicated specialists.",
   },
   "west-yorkshire/leeds": {
     planningPortalUrl: "https://www.leeds.gov.uk/planning",
-    cilRate: "No CIL adopted — uses S106 and planning obligations",
+    cilRate: "No CIL adopted - uses S106 and planning obligations",
     s106Notes: "7% affordable housing in the city centre (with commuted sums common), higher in suburban areas. Leeds' flexible approach makes development economics more viable than many comparable cities.",
     conservationAreas: ["Leeds City Centre", "Headingley", "Far Headingley", "Meanwood"],
-    lenderAppetite: "Excellent appetite — Leeds is one of the strongest regional lending markets in the UK. Financial services employment gives lenders confidence in exit demand. South Bank is attracting institutional and fund capital for large-scale BTR. Specialist lenders active across all scheme sizes.",
+    lenderAppetite: "Excellent appetite - Leeds is one of the strongest regional lending markets in the UK. Financial services employment gives lenders confidence in exit demand. South Bank is attracting institutional and fund capital for large-scale BTR. Specialist lenders active across all scheme sizes.",
   },
   "south-yorkshire/sheffield": {
     planningPortalUrl: "https://www.sheffield.gov.uk/planning",
@@ -787,7 +787,7 @@ const ENRICHMENT: Record<string, Partial<TownMarketData>> = {
   },
   "tyne-and-wear/newcastle": {
     planningPortalUrl: "https://www.newcastle.gov.uk/services/planning-building-and-development",
-    cilRate: "No CIL adopted — uses S106 obligations",
+    cilRate: "No CIL adopted - uses S106 obligations",
     s106Notes: "15% affordable housing on major schemes (subject to viability). Newcastle's pragmatic planning approach supports development.",
     conservationAreas: ["Grainger Town", "Newcastle Central", "Jesmond", "Ouseburn Valley"],
     lenderAppetite: "Specialist lenders dominate sub-£5m. Newcastle's compact city centre and university demand are well understood. Helix innovation district attracting wider interest. Some mainstream lenders active on larger BTR schemes (£10m+).",
@@ -795,8 +795,8 @@ const ENRICHMENT: Record<string, Partial<TownMarketData>> = {
   "cambridgeshire/cambridge": {
     planningPortalUrl: "https://www.cambridge.gov.uk/planning",
     cilRate: "£150/sqm for residential in the city, varies in South Cambridgeshire",
-    s106Notes: "40% affordable housing on major schemes — one of the highest requirements in England. Viability is less often contested given Cambridge's premium values.",
-    conservationAreas: ["Cambridge City Centre (extensive — covers most of the historic core)", "Newnham", "West Cambridge"],
+    s106Notes: "40% affordable housing on major schemes - one of the highest requirements in England. Viability is less often contested given Cambridge's premium values.",
+    conservationAreas: ["Cambridge City Centre (extensive - covers most of the historic core)", "Newnham", "West Cambridge"],
     lenderAppetite: "Very strong appetite from all lender types. Cambridge's global brand and tech economy make it one of the most bankable development locations in the UK. Banks, institutional lenders, and family offices all compete for Cambridge deals. Limited available sites mean schemes rarely struggle for funding.",
   },
   "norfolk/norwich": {
@@ -808,24 +808,24 @@ const ENRICHMENT: Record<string, Partial<TownMarketData>> = {
   },
   "edinburgh/edinburgh": {
     planningPortalUrl: "https://www.edinburgh.gov.uk/planning-building",
-    cilRate: "Not applicable — Scotland does not use CIL",
+    cilRate: "Not applicable - Scotland does not use CIL",
     s106Notes: "Scotland uses Section 75 planning obligations. Edinburgh requires 25% affordable housing on sites of 12+ units. Developer contributions for education and transport infrastructure are standard.",
     conservationAreas: ["Edinburgh Old Town and New Town (UNESCO World Heritage Site)", "Stockbridge", "Morningside", "Leith"],
-    lenderAppetite: "Strong appetite but requires Scottish-capable lenders (Standard Securities, separate title system). Edinburgh's premium values attract banks and institutional capital. Not all English lenders operate in Scotland — we maintain a specialist panel of Scotland-active funders.",
+    lenderAppetite: "Strong appetite but requires Scottish-capable lenders (Standard Securities, separate title system). Edinburgh's premium values attract banks and institutional capital. Not all English lenders operate in Scotland - we maintain a specialist panel of Scotland-active funders.",
   },
   "glasgow/glasgow": {
     planningPortalUrl: "https://www.glasgow.gov.uk/index.aspx?articleid=17542",
-    cilRate: "Not applicable — Scotland does not use CIL",
+    cilRate: "Not applicable - Scotland does not use CIL",
     s106Notes: "Scotland uses Section 75 planning obligations. Glasgow typically requires 25% affordable housing on major schemes. Regeneration zones may have reduced or waived contributions.",
     conservationAreas: ["Glasgow City Centre", "Merchant City", "Park Circus/Woodlands", "Pollokshields"],
     lenderAppetite: "Good appetite from Scottish-active lenders. Glasgow's strong yields and affordable land attract specialist capital. Sighthill and Clyde waterfront regeneration schemes building lender confidence. Requires funders comfortable with Scottish legal framework.",
   },
   "cardiff/cardiff": {
     planningPortalUrl: "https://www.cardiff.gov.uk/ENG/resident/Planning/Pages/default.aspx",
-    cilRate: "Not applicable — Wales does not currently operate CIL (though reforms are under consultation)",
+    cilRate: "Not applicable - Wales does not currently operate CIL (though reforms are under consultation)",
     s106Notes: "Wales uses Section 106 obligations. Cardiff requires 20-30% affordable housing depending on location. Help to Buy Wales supports new-build demand, improving scheme viability.",
     conservationAreas: ["Cardiff Bay", "Cathedral Road", "Pontcanna", "Roath Park"],
-    lenderAppetite: "Good appetite from lenders active in Wales. Cardiff's capital city status and Help to Buy Wales support make it the most bankable Welsh location. Some English lenders don't operate in Wales — we ensure access to Wales-active funders.",
+    lenderAppetite: "Good appetite from lenders active in Wales. Cardiff's capital city status and Help to Buy Wales support make it the most bankable Welsh location. Some English lenders don't operate in Wales - we ensure access to Wales-active funders.",
   },
   "hampshire/southampton": {
     planningPortalUrl: "https://www.southampton.gov.uk/planning/",
@@ -837,15 +837,15 @@ const ENRICHMENT: Record<string, Partial<TownMarketData>> = {
   "oxfordshire/oxford": {
     planningPortalUrl: "https://www.oxford.gov.uk/planning",
     cilRate: "£233/sqm for residential",
-    s106Notes: "50% affordable housing on sites of 10+ units — one of the highest requirements in England. Oxford's extreme undersupply means viability arguments are hard to sustain.",
-    conservationAreas: ["Oxford City Centre (extensive — covers most of the historic core)", "Jericho", "North Oxford", "Headington"],
+    s106Notes: "50% affordable housing on sites of 10+ units - one of the highest requirements in England. Oxford's extreme undersupply means viability arguments are hard to sustain.",
+    conservationAreas: ["Oxford City Centre (extensive - covers most of the historic core)", "Jericho", "North Oxford", "Headington"],
     lenderAppetite: "Very strong appetite from all lender types. Oxford's global brand and extreme undersupply make it exceptionally bankable. Premium values support strong security positions. Heritage complexity requires lenders experienced with listed buildings and conservation area work.",
   },
   "west-yorkshire/bradford": {
     planningPortalUrl: "https://www.bradford.gov.uk/planning-and-building-control/",
     cilRate: "No CIL adopted",
     s106Notes: "15% affordable housing on major schemes (subject to viability). Bradford's regeneration priorities mean contributions are often negotiated pragmatically.",
-    lenderAppetite: "Specialist lenders most active. Bradford's low entry values and high yields attract investment-focused developers. City of Culture legacy building lender confidence. Track record evidence particularly important — lenders want to see demonstrated local exit capability.",
+    lenderAppetite: "Specialist lenders most active. Bradford's low entry values and high yields attract investment-focused developers. City of Culture legacy building lender confidence. Track record evidence particularly important - lenders want to see demonstrated local exit capability.",
   },
   "cheshire/chester": {
     planningPortalUrl: "https://www.cheshirewestandchester.gov.uk/residents/planning-and-building-control",
@@ -856,17 +856,17 @@ const ENRICHMENT: Record<string, Partial<TownMarketData>> = {
   },
   "north-yorkshire/york": {
     planningPortalUrl: "https://www.york.gov.uk/Planning",
-    cilRate: "No CIL adopted — uses S106 contributions",
+    cilRate: "No CIL adopted - uses S106 contributions",
     s106Notes: "30% affordable housing on major schemes. York Central has a bespoke planning framework. Flood risk zones require additional mitigation contributions.",
     conservationAreas: ["York City Centre (one of the UK's most extensive urban conservation areas)", "The Stonebow", "Clifton", "Bishopthorpe"],
-    lenderAppetite: "Moderate to good appetite. York's premium values attract mainstream lender interest but limited site availability constrains deal flow. York Central is attracting institutional capital. Flood risk considerations require specialist assessment — experienced lenders build this into appraisals.",
+    lenderAppetite: "Moderate to good appetite. York's premium values attract mainstream lender interest but limited site availability constrains deal flow. York Central is attracting institutional capital. Flood risk considerations require specialist assessment - experienced lenders build this into appraisals.",
   },
   "hertfordshire/st-albans": {
     planningPortalUrl: "https://www.stalbans.gov.uk/planning",
-    cilRate: "£240/sqm for residential — one of the highest rates in Hertfordshire",
+    cilRate: "£240/sqm for residential - one of the highest rates in Hertfordshire",
     s106Notes: "40% affordable housing on major schemes. Combined with high CIL, total planning obligations significantly impact viability. Prior approval conversions avoid both CIL and affordable housing requirements.",
     conservationAreas: ["St Albans City Centre", "Fishpool Street/Romeland", "College Street", "Sopwell"],
-    lenderAppetite: "Strong appetite from all lender types. St Albans' premium values (median £615,000) provide excellent security. Prior approval conversions particularly popular with lenders given simplified planning. Banks and specialist lenders both active. Home Counties expertise essential — we match with Hertfordshire-experienced funders.",
+    lenderAppetite: "Strong appetite from all lender types. St Albans' premium values (median £615,000) provide excellent security. Prior approval conversions particularly popular with lenders given simplified planning. Banks and specialist lenders both active. Home Counties expertise essential - we match with Hertfordshire-experienced funders.",
   },
 };
 

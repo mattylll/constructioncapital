@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newport-property-market",
   title: "Newport Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Newport Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Newport Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Newport property market analysis: median price £225,000, 5,792 sales, +0.1% YoY. Town comparisons, new builds & development finance across 5 towns.",
   excerpt: "5 towns analysed. Median price £225,000, 5,792 transactions, +0.1% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Newport Property Market Overview`,
       content: [
         `Newport is emerging as one of South Wales' most interesting development markets, with significantly lower values than Cardiff but strong growth fundamentals. The city's location at the M4 junction with direct London services, the International Convention Centre of Wales, and the growing tech sector are creating demand that outpaces current supply. The Transporter Bridge and riverside quarter represent heritage regeneration opportunities.`,
-        `The <a href="/locations/newport">Newport</a> property market recorded <strong>5,792</strong> residential transactions over the past 12 months, with a median sale price of <strong>£225,000</strong> — £60k below the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.1%</strong> across the county's principal towns.`,
+        `The <a href="/locations/newport">Newport</a> property market recorded <strong>5,792</strong> residential transactions over the past 12 months, with a median sale price of <strong>£225,000</strong> - £60k below the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.1%</strong> across the county's principal towns.`,
         `Key drivers of the Newport property market include International Convention Centre of Wales, M4 corridor and London Paddington services, Tech sector growth and compound semiconductor cluster. Additional factors include Riverside quarter and Transporter Bridge regeneration.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/newport/caerleon">Caerleon</a></td><td>£225,000</td><td>1,677</td><td>0%</td></tr><tr><td><a href="/locations/newport/maindee">Maindee</a></td><td>£225,000</td><td>1,677</td><td>0%</td></tr><tr><td><a href="/locations/newport/newport-city-centre">Newport City Centre</a></td><td>£225,000</td><td>1,677</td><td>0%</td></tr><tr><td><a href="/locations/newport/cwmbran">Cwmbran</a></td><td>£205,000</td><td>418</td><td>-2.4%</td></tr><tr><td><a href="/locations/newport/pontypool">Pontypool</a></td><td>£175,000</td><td>343</td><td>+2.9%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/newport/caerleon">Caerleon</a> (£225,000), <a href="/locations/newport/maindee">Maindee</a> (£225,000), <a href="/locations/newport/newport-city-centre">Newport City Centre</a> (£225,000). Caerleon's premium reflects roman heritage suburb with university campus and premium residential values.`,
         `<strong>Most affordable:</strong> <a href="/locations/newport/pontypool">Pontypool</a> (£175,000), <a href="/locations/newport/cwmbran">Cwmbran</a> (£205,000), <a href="/locations/newport/newport-city-centre">Newport City Centre</a> (£225,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/newport/caerleon">Caerleon</a> (1,677 sales), <a href="/locations/newport/maindee">Maindee</a> (1,677 sales), <a href="/locations/newport/newport-city-centre">Newport City Centre</a> (1,677 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/newport/caerleon">Caerleon</a> (1,677 sales), <a href="/locations/newport/maindee">Maindee</a> (1,677 sales), <a href="/locations/newport/newport-city-centre">Newport City Centre</a> (1,677 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Newport market data carries direct implications for developers seeking finance. With a median property value of £225,000 and detached homes at £380,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Newport, a scheme with a GDV of £380,000 would typically attract <strong>senior debt of £247,000</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `With prices rising at 0.1% year-on-year, the market environment is supportive of new development. Lenders view rising markets favourably when assessing applications.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Newport's existing stock — particularly flat properties priced from £126,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Newport's existing stock - particularly flat properties priced from £126,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Newport's property market is on an upward trajectory, with 1 of 5 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/newport/pontypool">Pontypool</a> (+2.9%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Cwmbran (-2.4%) has seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Cwmbran (-2.4%) has seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Newport's development pipeline will be shaped by International Convention Centre of Wales and M4 corridor and London Paddington services. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Newport, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

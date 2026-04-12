@@ -73,7 +73,7 @@ export function ReportsGrid({ reports }: { reports: MarketReport[] }) {
         })}
       </div>
 
-      {/* Region filter — shown for county reports */}
+      {/* Region filter - shown for county reports */}
       {(activeCategory === "all" || activeCategory === "county" || activeCategory === "town") && (
         <div className="mb-10 flex flex-wrap gap-2">
           <button

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cardiff-property-market",
   title: "Cardiff Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Cardiff Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Cardiff Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Cardiff property market analysis: median price £265,000, 20,970 sales, +1.1% YoY. Town comparisons, new builds & development finance across 6 towns.",
   excerpt: "6 towns analysed. Median price £265,000, 20,970 transactions, +1.1% YoY.",
   category: "county",
@@ -18,8 +18,8 @@ const report: MarketReport = {
       heading: `Cardiff Property Market Overview`,
       content: [
         `Cardiff is Wales' capital and its most active property development market, with a growing population, three universities, and a diversified economy spanning financial services, media, and the public sector. Cardiff Bay's waterfront transformation was a pioneering regeneration model, and the city centre continues to develop with schemes around Central Square and the Dumballs Road quarter. Strong rental demand from students and young professionals supports a robust BTL market.`,
-        `The <a href="/locations/cardiff">Cardiff</a> property market recorded <strong>20,970</strong> residential transactions over the past 12 months, with a median sale price of <strong>£265,000</strong> — £20k below the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+1.1%</strong> across the county's principal towns.`,
-        `Key drivers of the Cardiff property market include Central Square BBC Wales and transport hub, Dumballs Road mixed-use quarter, Three universities — strong student demand. Additional factors include South Wales Metro connectivity improvements.`,
+        `The <a href="/locations/cardiff">Cardiff</a> property market recorded <strong>20,970</strong> residential transactions over the past 12 months, with a median sale price of <strong>£265,000</strong> - £20k below the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+1.1%</strong> across the county's principal towns.`,
+        `Key drivers of the Cardiff property market include Central Square BBC Wales and transport hub, Dumballs Road mixed-use quarter, Three universities - strong student demand. Additional factors include South Wales Metro connectivity improvements.`,
       ],
     },
     {
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/cardiff/canton">Canton</a></td><td>£265,000</td><td>3,495</td><td>+1.1%</td></tr><tr><td><a href="/locations/cardiff/cardiff-bay">Cardiff Bay</a></td><td>£265,000</td><td>3,495</td><td>+1.1%</td></tr><tr><td><a href="/locations/cardiff/cardiff-city-centre">Cardiff City Centre</a></td><td>£265,000</td><td>3,495</td><td>+1.1%</td></tr><tr><td><a href="/locations/cardiff/cathays">Cathays</a></td><td>£265,000</td><td>3,495</td><td>+1.1%</td></tr><tr><td><a href="/locations/cardiff/pontcanna">Pontcanna</a></td><td>£265,000</td><td>3,495</td><td>+1.1%</td></tr><tr><td><a href="/locations/cardiff/splott">Splott</a></td><td>£265,000</td><td>3,495</td><td>+1.1%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/cardiff/canton">Canton</a> (£265,000), <a href="/locations/cardiff/cardiff-bay">Cardiff Bay</a> (£265,000), <a href="/locations/cardiff/cardiff-city-centre">Cardiff City Centre</a> (£265,000). Canton's premium reflects popular inner suburb with strong rental demand and victorian terrace refurbishment opportunities.`,
         `<strong>Most affordable:</strong> <a href="/locations/cardiff/splott">Splott</a> (£265,000), <a href="/locations/cardiff/pontcanna">Pontcanna</a> (£265,000), <a href="/locations/cardiff/cathays">Cathays</a> (£265,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/cardiff/canton">Canton</a> (3,495 sales), <a href="/locations/cardiff/cardiff-bay">Cardiff Bay</a> (3,495 sales), <a href="/locations/cardiff/cardiff-city-centre">Cardiff City Centre</a> (3,495 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/cardiff/canton">Canton</a> (3,495 sales), <a href="/locations/cardiff/cardiff-bay">Cardiff Bay</a> (3,495 sales), <a href="/locations/cardiff/cardiff-city-centre">Cardiff City Centre</a> (3,495 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Cardiff market data carries direct implications for developers seeking finance. With a median property value of £265,000 and detached homes at £455,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Cardiff, a scheme with a GDV of £455,000 would typically attract <strong>senior debt of £295,750</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `With prices rising at 1.1% year-on-year, the market environment is supportive of new development. Lenders view rising markets favourably when assessing applications.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Cardiff's existing stock — particularly flat properties priced from £164,998 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Cardiff's existing stock - particularly flat properties priced from £164,998 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {

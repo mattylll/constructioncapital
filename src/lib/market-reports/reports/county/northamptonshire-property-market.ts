@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "northamptonshire-property-market",
   title: "Northamptonshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Northamptonshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Northamptonshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Northamptonshire property market analysis: median price £250,000, 7,682 sales, -4% YoY. Town comparisons, new builds & development finance across 7 towns.",
   excerpt: "7 towns analysed. Median price £250,000, 7,682 transactions, -4% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Northamptonshire Property Market Overview`,
       content: [
         `Northamptonshire sits at the heart of England's logistics corridor, with excellent motorway connectivity via the M1, A14, and A45. Northampton's ongoing town centre regeneration and the county's position within the Oxford-Cambridge Arc create development opportunities. Daventry and Kettering offer market town development, while Corby's continued expansion from a New Town base provides volume housing opportunities.`,
-        `The <a href="/locations/northamptonshire">Northamptonshire</a> property market recorded <strong>7,682</strong> residential transactions over the past 12 months, with a median sale price of <strong>£250,000</strong> — £35k below the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-4%</strong> across the county's principal towns.`,
+        `The <a href="/locations/northamptonshire">Northamptonshire</a> property market recorded <strong>7,682</strong> residential transactions over the past 12 months, with a median sale price of <strong>£250,000</strong> - £35k below the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-4%</strong> across the county's principal towns.`,
         `Key drivers of the Northamptonshire property market include Oxford-Cambridge Arc growth corridor, M1 and A14 logistics employment, Northampton town centre regeneration. Additional factors include Corby continued expansion from New Town base.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/northamptonshire/towcester">Towcester</a></td><td>£348,000</td><td>384</td><td>-4%</td></tr><tr><td><a href="/locations/northamptonshire/northampton">Northampton</a></td><td>£271,150</td><td>3,184</td><td>-3.3%</td></tr><tr><td><a href="/locations/northamptonshire/daventry">Daventry</a></td><td>£265,000</td><td>485</td><td>-7%</td></tr><tr><td><a href="/locations/northamptonshire/kettering">Kettering</a></td><td>£250,000</td><td>1,392</td><td>-4.6%</td></tr><tr><td><a href="/locations/northamptonshire/wellingborough">Wellingborough</a></td><td>£248,000</td><td>1,026</td><td>-6.2%</td></tr><tr><td><a href="/locations/northamptonshire/rushden">Rushden</a></td><td>£245,000</td><td>480</td><td>+1.7%</td></tr><tr><td><a href="/locations/northamptonshire/corby">Corby</a></td><td>£220,000</td><td>731</td><td>-4.3%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/northamptonshire/towcester">Towcester</a> (£348,000), <a href="/locations/northamptonshire/northampton">Northampton</a> (£271,150), <a href="/locations/northamptonshire/daventry">Daventry</a> (£265,000). Towcester's premium reflects south northamptonshire market town with silverstone proximity and premium values.`,
         `<strong>Most affordable:</strong> <a href="/locations/northamptonshire/corby">Corby</a> (£220,000), <a href="/locations/northamptonshire/rushden">Rushden</a> (£245,000), <a href="/locations/northamptonshire/wellingborough">Wellingborough</a> (£248,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/northamptonshire/northampton">Northampton</a> (3,184 sales), <a href="/locations/northamptonshire/kettering">Kettering</a> (1,392 sales), <a href="/locations/northamptonshire/wellingborough">Wellingborough</a> (1,026 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/northamptonshire/northampton">Northampton</a> (3,184 sales), <a href="/locations/northamptonshire/kettering">Kettering</a> (1,392 sales), <a href="/locations/northamptonshire/wellingborough">Wellingborough</a> (1,026 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Northamptonshire market data carries direct implications for developers seeking finance. With a median property value of £250,000 and detached homes at £356,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Northamptonshire, a scheme with a GDV of £356,000 would typically attract <strong>senior debt of £231,400</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -4%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Northamptonshire's existing stock — particularly flat properties priced from £130,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Northamptonshire's existing stock - particularly flat properties priced from £130,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Northamptonshire's property market is experiencing a correction, with 1 of 7 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/northamptonshire/rushden">Rushden</a> (+1.7%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Northampton (-3.3%) and Towcester (-4%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Northampton (-3.3%) and Towcester (-4%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Northamptonshire's development pipeline will be shaped by Oxford-Cambridge Arc growth corridor and M1 and A14 logistics employment. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Northamptonshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

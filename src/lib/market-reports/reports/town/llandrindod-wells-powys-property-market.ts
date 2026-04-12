@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "llandrindod-wells-powys-property-market",
   title: "Llandrindod Wells Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Llandrindod Wells House Prices 2026 — Property Market Data & Development Finance | Powys",
+  metaTitle: "Llandrindod Wells House Prices 2026 - Property Market Data & Development Finance | Powys",
   metaDescription: "Llandrindod Wells property prices: median £233,750, 114 sales, -0.5% YoY. Detached £287,500, Flat £87,000. Land Registry data for Llandrindod Wells, Powys.",
   excerpt: "Median price £233,750, 114 sales, -0.5% YoY. Powys county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Llandrindod Wells recorded <strong>5</strong> new-build transactions in the past 12 months, representing <strong>4.4%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Llandrindod Wells traded at a <strong>premium of 35.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/powys-property-market">Powys</a> market, 39 new-build completions were recorded — see our <a href="/market-reports/powys-property-market">Powys property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/powys-property-market">Powys</a> market, 39 new-build completions were recorded - see our <a href="/market-reports/powys-property-market">Powys property market report</a> for the full county picture.`,
       ],
     },
     {

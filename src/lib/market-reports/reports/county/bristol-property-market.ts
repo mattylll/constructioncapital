@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bristol-property-market",
   title: "Bristol Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Bristol Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Bristol Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Bristol property market analysis: median price £345,000, 22,563 sales, +0.2% YoY. Town comparisons, new builds & development finance across 6 towns.",
   excerpt: "6 towns analysed. Median price £345,000, 22,563 transactions, +0.2% YoY.",
   category: "county",
@@ -17,8 +17,8 @@ const report: MarketReport = {
     {
       heading: `Bristol Property Market Overview`,
       content: [
-        `Bristol is the South West's economic powerhouse and one of the UK's most competitive regional cities for tech and professional services employment. The city's property market has outperformed most regional centres over the past decade, driven by a growing population, constrained supply, and the appeal of its cultural scene. Temple Quarter — a 130-acre regeneration area around Bristol Temple Meads station — represents one of the largest urban development opportunities in the UK.`,
-        `The <a href="/locations/bristol">Bristol</a> property market recorded <strong>22,563</strong> residential transactions over the past 12 months, with a median sale price of <strong>£345,000</strong> — £60k above the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.2%</strong> across the county's principal towns.`,
+        `Bristol is the South West's economic powerhouse and one of the UK's most competitive regional cities for tech and professional services employment. The city's property market has outperformed most regional centres over the past decade, driven by a growing population, constrained supply, and the appeal of its cultural scene. Temple Quarter - a 130-acre regeneration area around Bristol Temple Meads station - represents one of the largest urban development opportunities in the UK.`,
+        `The <a href="/locations/bristol">Bristol</a> property market recorded <strong>22,563</strong> residential transactions over the past 12 months, with a median sale price of <strong>£345,000</strong> - £60k above the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.2%</strong> across the county's principal towns.`,
         `Key drivers of the Bristol property market include Temple Quarter 130-acre regeneration, Tech sector employment growth, Two universities driving rental demand. Additional factors include Harbour-side and Bedminster regeneration.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/bristol/keynsham">Keynsham</a></td><td>£390,000</td><td>1,917</td><td>-1.3%</td></tr><tr><td><a href="/locations/bristol/bedminster">Bedminster</a></td><td>£345,000</td><td>4,420</td><td>+1.5%</td></tr><tr><td><a href="/locations/bristol/bishopston">Bishopston</a></td><td>£345,000</td><td>4,420</td><td>+1.5%</td></tr><tr><td><a href="/locations/bristol/bristol-city-centre">Bristol City Centre</a></td><td>£345,000</td><td>4,420</td><td>+1.5%</td></tr><tr><td><a href="/locations/bristol/hengrove">Hengrove</a></td><td>£345,000</td><td>4,420</td><td>+1.5%</td></tr><tr><td><a href="/locations/bristol/filton">Filton</a></td><td>£330,000</td><td>2,966</td><td>-3.5%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/bristol/keynsham">Keynsham</a> (£390,000), <a href="/locations/bristol/bedminster">Bedminster</a> (£345,000), <a href="/locations/bristol/bishopston">Bishopston</a> (£345,000). Keynsham's premium reflects bath-bristol corridor town with growing commuter demand and town centre regeneration.`,
         `<strong>Most affordable:</strong> <a href="/locations/bristol/filton">Filton</a> (£330,000), <a href="/locations/bristol/hengrove">Hengrove</a> (£345,000), <a href="/locations/bristol/bristol-city-centre">Bristol City Centre</a> (£345,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/bristol/bedminster">Bedminster</a> (4,420 sales), <a href="/locations/bristol/bishopston">Bishopston</a> (4,420 sales), <a href="/locations/bristol/bristol-city-centre">Bristol City Centre</a> (4,420 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/bristol/bedminster">Bedminster</a> (4,420 sales), <a href="/locations/bristol/bishopston">Bishopston</a> (4,420 sales), <a href="/locations/bristol/bristol-city-centre">Bristol City Centre</a> (4,420 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Bristol market data carries direct implications for developers seeking finance. With a median property value of £345,000 and detached homes at £535,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Bristol, a scheme with a GDV of £535,000 would typically attract <strong>senior debt of £347,750</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `With prices rising at 0.2% year-on-year, the market environment is supportive of new development. Lenders view rising markets favourably when assessing applications.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Bristol's existing stock — particularly flat properties priced from £255,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Bristol's existing stock - particularly flat properties priced from £255,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Bristol's property market is on an upward trajectory, with 4 of 6 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/bristol/bedminster">Bedminster</a> (+1.5%), <a href="/locations/bristol/bishopston">Bishopston</a> (+1.5%), <a href="/locations/bristol/bristol-city-centre">Bristol City Centre</a> (+1.5%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Filton (-3.5%) has seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Filton (-3.5%) has seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Bristol's development pipeline will be shaped by Temple Quarter 130-acre regeneration and Tech sector employment growth. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Bristol, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

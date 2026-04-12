@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "dereham-norfolk-property-market",
   title: "Dereham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dereham House Prices 2026 — Property Market Data & Development Finance | Norfolk",
+  metaTitle: "Dereham House Prices 2026 - Property Market Data & Development Finance | Norfolk",
   metaDescription: "Dereham property prices: median £265,000, 430 sales, -0.9% YoY. Detached £347,000, Flat £112,500. Land Registry data for Dereham, Norfolk.",
   excerpt: "Median price £265,000, 430 sales, -0.9% YoY. Norfolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Dereham recorded <strong>15</strong> new-build transactions in the past 12 months, representing <strong>3.5%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Dereham traded at a <strong>premium of 58.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded - see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
       ],
     },
     {

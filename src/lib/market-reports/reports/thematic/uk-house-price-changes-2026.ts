@@ -17,7 +17,7 @@ const report: MarketReport = {
     {
       heading: `UK House Price Trends 2026`,
       content: [
-        `House prices across England and Wales are telling a nuanced story in 2026. Of 48 counties analysed, <strong>16</strong> are seeing year-on-year price growth while <strong>32</strong> are experiencing declines. This report breaks down exactly where prices are moving — and what it means for developers and investors.`,
+        `House prices across England and Wales are telling a nuanced story in 2026. Of 48 counties analysed, <strong>16</strong> are seeing year-on-year price growth while <strong>32</strong> are experiencing declines. This report breaks down exactly where prices are moving - and what it means for developers and investors.`,
       ],
     },
     {

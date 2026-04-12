@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wimborne-dorset-property-market",
   title: "Wimborne Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wimborne House Prices 2026 — Property Market Data & Development Finance | Dorset",
+  metaTitle: "Wimborne House Prices 2026 - Property Market Data & Development Finance | Dorset",
   metaDescription: "Wimborne property prices: median £385,000, 354 sales, -4.9% YoY. Detached £500,000, Flat £184,000. Land Registry data for Wimborne, Dorset.",
   excerpt: "Median price £385,000, 354 sales, -4.9% YoY. Dorset county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Wimborne recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>4.0%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Wimborne traded at a <strong>discount of 11.5%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/dorset-property-market">Dorset</a> market, 46 new-build completions were recorded — see our <a href="/market-reports/dorset-property-market">Dorset property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/dorset-property-market">Dorset</a> market, 46 new-build completions were recorded - see our <a href="/market-reports/dorset-property-market">Dorset property market report</a> for the full county picture.`,
       ],
     },
     {

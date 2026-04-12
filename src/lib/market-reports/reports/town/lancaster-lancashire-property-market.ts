@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lancaster-lancashire-property-market",
   title: "Lancaster Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lancaster House Prices 2026 — Property Market Data & Development Finance | Lancashire",
+  metaTitle: "Lancaster House Prices 2026 - Property Market Data & Development Finance | Lancashire",
   metaDescription: "Lancaster property prices: median £190,000, 1,517 sales, -2.6% YoY. Detached £350,000, Flat £120,000. Land Registry data for Lancaster, Lancashire.",
   excerpt: "Median price £190,000, 1,517 sales, -2.6% YoY. Lancashire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Lancaster recorded <strong>15</strong> new-build transactions in the past 12 months, representing <strong>1.0%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Lancaster traded at a <strong>premium of 107.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/lancashire-property-market">Lancashire</a> market, 224 new-build completions were recorded — see our <a href="/market-reports/lancashire-property-market">Lancashire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/lancashire-property-market">Lancashire</a> market, 224 new-build completions were recorded - see our <a href="/market-reports/lancashire-property-market">Lancashire property market report</a> for the full county picture.`,
       ],
     },
     {

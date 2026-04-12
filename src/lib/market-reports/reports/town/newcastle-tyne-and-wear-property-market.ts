@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newcastle-tyne-and-wear-property-market",
   title: "Newcastle Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newcastle House Prices 2026 — Property Market Data & Development Finance | Tyne and Wear",
+  metaTitle: "Newcastle House Prices 2026 - Property Market Data & Development Finance | Tyne and Wear",
   metaDescription: "Newcastle property prices: median £192,000, 2,637 sales, -1.7% YoY. Detached £342,500, Flat £140,000. Land Registry data for Newcastle, Tyne and Wear.",
   excerpt: "Median price £192,000, 2,637 sales, -1.7% YoY. Tyne and Wear county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Newcastle recorded <strong>89</strong> new-build transactions in the past 12 months, representing <strong>3.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Newcastle traded at a <strong>premium of 45.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> market, 234 new-build completions were recorded — see our <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> market, 234 new-build completions were recorded - see our <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -45,7 +45,7 @@ const valueProps = [
     icon: Users,
     title: "100+ Lender Panel",
     description:
-      "We maintain relationships with over 100 specialist development finance lenders. One application from you triggers competition across the whole market — surfacing terms you would never find alone.",
+      "We maintain relationships with over 100 specialist development finance lenders. One application from you triggers competition across the whole market - surfacing terms you would never find alone.",
   },
   {
     icon: Zap,
@@ -57,19 +57,19 @@ const valueProps = [
     icon: Building2,
     title: "Specialist Deal Structuring",
     description:
-      "Senior debt, mezzanine, equity, bridging — we structure the optimal capital stack for every project. Most developers leave money on the table by not exploring the full range of options.",
+      "Senior debt, mezzanine, equity, bridging - we structure the optimal capital stack for every project. Most developers leave money on the table by not exploring the full range of options.",
   },
   {
     icon: Shield,
     title: "No Upfront Fees",
     description:
-      "We do not charge a penny until your facility completes. Our interests are fully aligned with yours — we only succeed when you get funded on terms that work.",
+      "We do not charge a penny until your facility completes. Our interests are fully aligned with yours - we only succeed when you get funded on terms that work.",
   },
   {
     icon: Clock,
     title: "25+ Years Experience",
     description:
-      "Our team has structured over half a billion pounds of development finance. We have seen every deal type, every lender quirk, and every pitfall — so you do not have to learn the hard way.",
+      "Our team has structured over half a billion pounds of development finance. We have seen every deal type, every lender quirk, and every pitfall - so you do not have to learn the hard way.",
   },
   {
     icon: MapPin,
@@ -83,7 +83,7 @@ const faqs = [
   {
     question: "Do I need a broker for development finance?",
     answer:
-      "Strictly speaking, no — you can approach lenders directly. But without a broker, you are limited to one lender's terms with no market comparison. A specialist broker like Construction Capital competes 100+ lenders against each other, typically saving developers significantly more than the broker fee through better rates, higher leverage, and optimised deal structures.",
+      "Strictly speaking, no - you can approach lenders directly. But without a broker, you are limited to one lender's terms with no market comparison. A specialist broker like Construction Capital competes 100+ lenders against each other, typically saving developers significantly more than the broker fee through better rates, higher leverage, and optimised deal structures.",
   },
   {
     question: "How much does a development finance broker cost?",
@@ -93,17 +93,17 @@ const faqs = [
   {
     question: "Can't I just go direct to a lender and save the broker fee?",
     answer:
-      "You can, but you will likely end up paying more overall. Lenders do not reduce their rates or fees because you approach them directly — they simply keep the margin a broker would have negotiated away. Brokers with volume relationships and panel leverage consistently secure better terms than individual developers approaching lenders cold.",
+      "You can, but you will likely end up paying more overall. Lenders do not reduce their rates or fees because you approach them directly - they simply keep the margin a broker would have negotiated away. Brokers with volume relationships and panel leverage consistently secure better terms than individual developers approaching lenders cold.",
   },
   {
     question: "How quickly will I receive terms?",
     answer:
-      "We provide indicative terms within 24 hours of receiving your project details. Formal heads of terms typically follow within 3-5 working days. Full completion — including valuation, legals, and due diligence — usually takes 2-4 weeks for standard deals, though we have completed urgent facilities in under 7 days.",
+      "We provide indicative terms within 24 hours of receiving your project details. Formal heads of terms typically follow within 3-5 working days. Full completion - including valuation, legals, and due diligence - usually takes 2-4 weeks for standard deals, though we have completed urgent facilities in under 7 days.",
   },
   {
     question: "What if my project is complex or unusual?",
     answer:
-      "Complex projects are where a specialist broker adds the most value. Whether it is a planning-contingent facility, a mixed-use scheme, a barn conversion, or a deal requiring mezzanine and equity alongside senior debt — we have structured it before. Our lender panel includes niche funds and alternative capital sources that most developers do not know exist.",
+      "Complex projects are where a specialist broker adds the most value. Whether it is a planning-contingent facility, a mixed-use scheme, a barn conversion, or a deal requiring mezzanine and equity alongside senior debt - we have structured it before. Our lender panel includes niche funds and alternative capital sources that most developers do not know exist.",
   },
 ];
 
@@ -206,7 +206,7 @@ export default function WhyConstructionCapitalPage() {
           </h1>
           <p className="mx-auto mt-6 max-w-[600px] text-lg leading-relaxed text-white/50">
             Why the UK&apos;s most ambitious property developers use a specialist
-            broker — and why they choose {SITE_NAME}.
+            broker - and why they choose {SITE_NAME}.
           </p>
           <div className="mt-10">
             <Button
@@ -239,7 +239,7 @@ export default function WhyConstructionCapitalPage() {
           <div className="space-y-6 text-base leading-relaxed text-white/45">
             <p>
               The UK development finance market is fragmented across hundreds of
-              lenders — from challenger banks and specialist funds to family
+              lenders - from challenger banks and specialist funds to family
               offices and international capital sources. Each has different
               appetites, criteria, and pricing. No single lender covers the whole
               market, and no developer has time to approach them all.
@@ -254,7 +254,7 @@ export default function WhyConstructionCapitalPage() {
             <p>
               Then there is structuring. Most developments need more than simple
               senior debt. Mezzanine finance, equity partnerships, phased
-              drawdowns, planning-contingent facilities — the optimal capital
+              drawdowns, planning-contingent facilities - the optimal capital
               stack can save hundreds of thousands of pounds over the life of a
               project. But structuring it correctly requires specialist
               knowledge that most developers, and most generalist brokers,
@@ -262,7 +262,7 @@ export default function WhyConstructionCapitalPage() {
             </p>
             <p>
               The result? Developers overpay for finance, accept suboptimal
-              leverage, or worse — lose deals entirely because they could not
+              leverage, or worse - lose deals entirely because they could not
               move fast enough. That is the problem we solve.
             </p>
           </div>
@@ -419,7 +419,7 @@ export default function WhyConstructionCapitalPage() {
             ))}
           </div>
 
-          {/* Mobile comparison — stacked cards */}
+          {/* Mobile comparison - stacked cards */}
           <div className="lg:hidden">
             {COMPARISON_FEATURES.map((feature) => (
               <div

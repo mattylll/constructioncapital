@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hertfordshire-property-market",
   title: "Hertfordshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Hertfordshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Hertfordshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Hertfordshire property market analysis: median price £443,550, 7,653 sales, -0.4% YoY. Town comparisons, new builds & development finance across 10 towns.",
   excerpt: "10 towns analysed. Median price £443,550, 7,653 transactions, -0.4% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Hertfordshire Property Market Overview`,
       content: [
         `Hertfordshire benefits from its position immediately north of London, with fast rail services from multiple towns into King's Cross, St Pancras, and Liverpool Street. The county has a strong bio-science sector centred on Stevenage, a growing film industry around Leavesden and Elstree, and established commuter markets in St Albans and Harpenden that command premium values. Major housing growth is planned at Harlow and Hemel Hempstead.`,
-        `The <a href="/locations/hertfordshire">Hertfordshire</a> property market recorded <strong>7,653</strong> residential transactions over the past 12 months, with a median sale price of <strong>£443,550</strong> — £159k above the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-0.4%</strong> across the county's principal towns.`,
+        `The <a href="/locations/hertfordshire">Hertfordshire</a> property market recorded <strong>7,653</strong> residential transactions over the past 12 months, with a median sale price of <strong>£443,550</strong> - £159k above the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-0.4%</strong> across the county's principal towns.`,
         `Key drivers of the Hertfordshire property market include Fast rail commuter services into London terminals, Bio-science corridor around Stevenage, Film studio expansion at Leavesden and Elstree. Additional factors include Harlow and Hemel Hempstead growth areas.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/hertfordshire/harpenden">Harpenden</a></td><td>£760,000</td><td>296</td><td>-0.7%</td></tr><tr><td><a href="/locations/hertfordshire/st-albans">St Albans</a></td><td>£575,000</td><td>998</td><td>0%</td></tr><tr><td><a href="/locations/hertfordshire/borehamwood">Borehamwood</a></td><td>£535,000</td><td>867</td><td>+2.9%</td></tr><tr><td><a href="/locations/hertfordshire/bishops-stortford">Bishops Stortford</a></td><td>£445,000</td><td>1,555</td><td>-1.1%</td></tr><tr><td><a href="/locations/hertfordshire/hertford">Hertford</a></td><td>£445,000</td><td>408</td><td>-1.1%</td></tr><tr><td><a href="/locations/hertfordshire/hemel-hempstead">Hemel Hempstead</a></td><td>£442,100</td><td>1,441</td><td>-0.7%</td></tr><tr><td><a href="/locations/hertfordshire/welwyn-garden-city">Welwyn Garden City</a></td><td>£417,250</td><td>390</td><td>+3.8%</td></tr><tr><td><a href="/locations/hertfordshire/watford">Watford</a></td><td>£400,000</td><td>739</td><td>-3.6%</td></tr><tr><td><a href="/locations/hertfordshire/hatfield">Hatfield</a></td><td>£375,000</td><td>306</td><td>-5.1%</td></tr><tr><td><a href="/locations/hertfordshire/stevenage">Stevenage</a></td><td>£340,000</td><td>653</td><td>+1.5%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/hertfordshire/harpenden">Harpenden</a> (£760,000), <a href="/locations/hertfordshire/st-albans">St Albans</a> (£575,000), <a href="/locations/hertfordshire/borehamwood">Borehamwood</a> (£535,000). Harpenden's premium reflects premium village-feel commuter town with some of the highest residential values in the county.`,
         `<strong>Most affordable:</strong> <a href="/locations/hertfordshire/stevenage">Stevenage</a> (£340,000), <a href="/locations/hertfordshire/hatfield">Hatfield</a> (£375,000), <a href="/locations/hertfordshire/watford">Watford</a> (£400,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/hertfordshire/bishops-stortford">Bishops Stortford</a> (1,555 sales), <a href="/locations/hertfordshire/hemel-hempstead">Hemel Hempstead</a> (1,441 sales), <a href="/locations/hertfordshire/st-albans">St Albans</a> (998 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/hertfordshire/bishops-stortford">Bishops Stortford</a> (1,555 sales), <a href="/locations/hertfordshire/hemel-hempstead">Hemel Hempstead</a> (1,441 sales), <a href="/locations/hertfordshire/st-albans">St Albans</a> (998 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Hertfordshire market data carries direct implications for developers seeking finance. With a median property value of £443,550 and detached homes at £818,750, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Hertfordshire, a scheme with a GDV of £818,750 would typically attract <strong>senior debt of £532,188</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -0.4%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Hertfordshire's existing stock — particularly flat properties priced from £255,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Hertfordshire's existing stock - particularly flat properties priced from £255,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Hertfordshire's property market is in a period of consolidation, with 3 of 10 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/hertfordshire/welwyn-garden-city">Welwyn Garden City</a> (+3.8%), <a href="/locations/hertfordshire/borehamwood">Borehamwood</a> (+2.9%), <a href="/locations/hertfordshire/stevenage">Stevenage</a> (+1.5%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Watford (-3.6%) and Hatfield (-5.1%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Watford (-3.6%) and Hatfield (-5.1%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Hertfordshire's development pipeline will be shaped by Fast rail commuter services into London terminals and Bio-science corridor around Stevenage. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Hertfordshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

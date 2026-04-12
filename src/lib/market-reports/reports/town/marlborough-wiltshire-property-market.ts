@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "marlborough-wiltshire-property-market",
   title: "Marlborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Marlborough House Prices 2026 — Property Market Data & Development Finance | Wiltshire",
+  metaTitle: "Marlborough House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
   metaDescription: "Marlborough property prices: median £440,000, 210 sales, -5.4% YoY. Detached £627,500, Flat £170,000. Land Registry data for Marlborough, Wiltshire.",
   excerpt: "Median price £440,000, 210 sales, -5.4% YoY. Wiltshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Marlborough recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Marlborough traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded — see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded - see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "dolgellau-gwynedd-property-market",
   title: "Dolgellau Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dolgellau House Prices 2026 — Property Market Data & Development Finance | Gwynedd",
+  metaTitle: "Dolgellau House Prices 2026 - Property Market Data & Development Finance | Gwynedd",
   metaDescription: "Dolgellau property prices: median £199,975, 56 sales, -8.1% YoY. Detached £272,500, Terraced £140,000. Land Registry data for Dolgellau, Gwynedd.",
   excerpt: "Median price £199,975, 56 sales, -8.1% YoY. Gwynedd county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Dolgellau recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>1.8%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Dolgellau traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/gwynedd-property-market">Gwynedd</a> market, 2 new-build completions were recorded — see our <a href="/market-reports/gwynedd-property-market">Gwynedd property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/gwynedd-property-market">Gwynedd</a> market, 2 new-build completions were recorded - see our <a href="/market-reports/gwynedd-property-market">Gwynedd property market report</a> for the full county picture.`,
       ],
     },
     {

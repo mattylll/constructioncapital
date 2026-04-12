@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lincoln-lincolnshire-property-market",
   title: "Lincoln Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lincoln House Prices 2026 — Property Market Data & Development Finance | Lincolnshire",
+  metaTitle: "Lincoln House Prices 2026 - Property Market Data & Development Finance | Lincolnshire",
   metaDescription: "Lincoln property prices: median £180,000, 998 sales, +1.7% YoY. Detached £280,000, Flat £119,156. Land Registry data for Lincoln, Lincolnshire.",
   excerpt: "Median price £180,000, 998 sales, +1.7% YoY. Lincolnshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Lincoln recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>0.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Lincoln traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> market, 352 new-build completions were recorded — see our <a href="/market-reports/lincolnshire-property-market">Lincolnshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> market, 352 new-build completions were recorded - see our <a href="/market-reports/lincolnshire-property-market">Lincolnshire property market report</a> for the full county picture.`,
       ],
     },
     {

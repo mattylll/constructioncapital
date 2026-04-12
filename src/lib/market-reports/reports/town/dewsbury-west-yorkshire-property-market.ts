@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "dewsbury-west-yorkshire-property-market",
   title: "Dewsbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dewsbury House Prices 2026 — Property Market Data & Development Finance | West Yorkshire",
+  metaTitle: "Dewsbury House Prices 2026 - Property Market Data & Development Finance | West Yorkshire",
   metaDescription: "Dewsbury property prices: median £173,000, 465 sales, -1.1% YoY. Detached £290,000, Flat £80,000. Land Registry data for Dewsbury, West Yorkshire.",
   excerpt: "Median price £173,000, 465 sales, -1.1% YoY. West Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Dewsbury recorded <strong>13</strong> new-build transactions in the past 12 months, representing <strong>2.8%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Dewsbury traded at a <strong>premium of 95.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded — see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded - see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

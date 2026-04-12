@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "retford-nottinghamshire-property-market",
   title: "Retford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Retford House Prices 2026 — Property Market Data & Development Finance | Nottinghamshire",
+  metaTitle: "Retford House Prices 2026 - Property Market Data & Development Finance | Nottinghamshire",
   metaDescription: "Retford property prices: median £190,000, 408 sales, -13.6% YoY. Detached £325,000, Flat £99,125. Land Registry data for Retford, Nottinghamshire.",
   excerpt: "Median price £190,000, 408 sales, -13.6% YoY. Nottinghamshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Retford recorded <strong>8</strong> new-build transactions in the past 12 months, representing <strong>2.0%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Retford traded at a <strong>premium of 128.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire</a> market, 284 new-build completions were recorded — see our <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire</a> market, 284 new-build completions were recorded - see our <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire property market report</a> for the full county picture.`,
       ],
     },
     {

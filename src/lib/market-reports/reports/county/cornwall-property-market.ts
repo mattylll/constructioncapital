@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cornwall-property-market",
   title: "Cornwall Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Cornwall Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Cornwall Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Cornwall property market analysis: median price £295,000, 3,068 sales, -5.1% YoY. Town comparisons, new builds & development finance across 8 towns.",
   excerpt: "8 towns analysed. Median price £295,000, 3,068 transactions, -5.1% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Cornwall Property Market Overview`,
       content: [
         `Cornwall's property market is uniquely shaped by tourism, lifestyle migration, and second-home ownership. The post-pandemic remote working shift has transformed the market, with permanent relocations from London and the South East pushing up values in previously affordable towns. St Ives, Padstow, and Rock command premium coastal values, while Truro and Falmouth offer year-round urban markets. Holiday-let development is a significant sector, though new planning restrictions on second homes are reshaping the opportunity.`,
-        `The <a href="/locations/cornwall">Cornwall</a> property market recorded <strong>3,068</strong> residential transactions over the past 12 months, with a median sale price of <strong>£295,000</strong> — £10k above the UK national median of £285,000. Prices have shown a notable decline, with a year-on-year change of <strong>-5.1%</strong> across the county's principal towns.`,
+        `The <a href="/locations/cornwall">Cornwall</a> property market recorded <strong>3,068</strong> residential transactions over the past 12 months, with a median sale price of <strong>£295,000</strong> - £10k above the UK national median of £285,000. Prices have shown a notable decline, with a year-on-year change of <strong>-5.1%</strong> across the county's principal towns.`,
         `Key drivers of the Cornwall property market include Remote working-driven permanent relocation, Tourism and holiday-let development demand, Spaceport Cornwall and aerospace sector growth. Additional factors include Falmouth and Penryn university campus expansion.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/cornwall/bude">Bude</a></td><td>£341,500</td><td>184</td><td>-7.7%</td></tr><tr><td><a href="/locations/cornwall/falmouth">Falmouth</a></td><td>£333,125</td><td>360</td><td>-7.5%</td></tr><tr><td><a href="/locations/cornwall/truro">Truro</a></td><td>£320,000</td><td>595</td><td>-1.7%</td></tr><tr><td><a href="/locations/cornwall/newquay">Newquay</a></td><td>£310,000</td><td>502</td><td>-6.1%</td></tr><tr><td><a href="/locations/cornwall/penzance">Penzance</a></td><td>£280,000</td><td>361</td><td>0%</td></tr><tr><td><a href="/locations/cornwall/st-austell">St Austell</a></td><td>£255,000</td><td>540</td><td>0%</td></tr><tr><td><a href="/locations/cornwall/bodmin">Bodmin</a></td><td>£240,000</td><td>269</td><td>-9.4%</td></tr><tr><td><a href="/locations/cornwall/camborne">Camborne</a></td><td>£210,000</td><td>257</td><td>-8.7%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/cornwall/bude">Bude</a> (£341,500), <a href="/locations/cornwall/falmouth">Falmouth</a> (£333,125), <a href="/locations/cornwall/truro">Truro</a> (£320,000). Bude's premium reflects north cornwall coastal town with lifestyle buyer demand and limited new housing supply.`,
         `<strong>Most affordable:</strong> <a href="/locations/cornwall/camborne">Camborne</a> (£210,000), <a href="/locations/cornwall/bodmin">Bodmin</a> (£240,000), <a href="/locations/cornwall/st-austell">St Austell</a> (£255,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/cornwall/truro">Truro</a> (595 sales), <a href="/locations/cornwall/st-austell">St Austell</a> (540 sales), <a href="/locations/cornwall/newquay">Newquay</a> (502 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/cornwall/truro">Truro</a> (595 sales), <a href="/locations/cornwall/st-austell">St Austell</a> (540 sales), <a href="/locations/cornwall/newquay">Newquay</a> (502 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Cornwall market data carries direct implications for developers seeking finance. With a median property value of £295,000 and detached homes at £433,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Cornwall, a scheme with a GDV of £433,000 would typically attract <strong>senior debt of £281,450</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -5.1%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Cornwall's existing stock — particularly flat properties priced from £161,500 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Cornwall's existing stock - particularly flat properties priced from £161,500 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -78,7 +78,7 @@ const report: MarketReport = {
       heading: `Cornwall Property Market Outlook 2026`,
       content: [
         `Cornwall's property market is experiencing a correction, with 0 of 8 towns recording year-on-year price growth.`,
-        `Conversely, Newquay (-6.1%) and Falmouth (-7.5%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Newquay (-6.1%) and Falmouth (-7.5%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Cornwall's development pipeline will be shaped by Remote working-driven permanent relocation and Tourism and holiday-let development demand. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Cornwall, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

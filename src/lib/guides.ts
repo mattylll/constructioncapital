@@ -1,5 +1,5 @@
 /**
- * Guides — re-exports from guides/ directory barrel.
+ * Guides - re-exports from guides/ directory barrel.
  *
  * All guide data lives in src/lib/guides/ subdirectory files.
  * This file exists so imports like `@/lib/guides` resolve correctly.

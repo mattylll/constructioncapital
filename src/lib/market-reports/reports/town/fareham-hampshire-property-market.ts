@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "fareham-hampshire-property-market",
   title: "Fareham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Fareham House Prices 2026 — Property Market Data & Development Finance | Hampshire",
+  metaTitle: "Fareham House Prices 2026 - Property Market Data & Development Finance | Hampshire",
   metaDescription: "Fareham property prices: median £340,000, 1,337 sales, -2.9% YoY. Detached £499,950, Flat £175,000. Land Registry data for Fareham, Hampshire.",
   excerpt: "Median price £340,000, 1,337 sales, -2.9% YoY. Hampshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Fareham recorded <strong>19</strong> new-build transactions in the past 12 months, representing <strong>1.4%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Fareham traded at a <strong>premium of 25.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded — see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded - see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
       ],
     },
     {

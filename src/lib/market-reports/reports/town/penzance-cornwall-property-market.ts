@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "penzance-cornwall-property-market",
   title: "Penzance Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Penzance House Prices 2026 — Property Market Data & Development Finance | Cornwall",
+  metaTitle: "Penzance House Prices 2026 - Property Market Data & Development Finance | Cornwall",
   metaDescription: "Penzance property prices: median £280,000, 361 sales, 0% YoY. Detached £450,000, Flat £143,000. Land Registry data for Penzance, Cornwall.",
   excerpt: "Median price £280,000, 361 sales, 0% YoY. Cornwall county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Penzance recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>0.3%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Penzance traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded — see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded - see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
       ],
     },
     {

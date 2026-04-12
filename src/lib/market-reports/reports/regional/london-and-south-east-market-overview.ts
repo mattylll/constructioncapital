@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "london-and-south-east-market-overview",
   title: "London & South East Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "London & South East Property Market 2026 — County Prices, Trends & Development Hotspots",
+  metaTitle: "London & South East Property Market 2026 - County Prices, Trends & Development Hotspots",
   metaDescription: "London & South East property market overview: 10 counties, 115,825 sales, median £396,000. County comparisons, development hotspots & finance options.",
   excerpt: "10 counties, 115,825 transactions, median £396,000.",
   category: "regional",
@@ -31,7 +31,7 @@ const report: MarketReport = {
     {
       heading: `Price Geography`,
       content: [
-        `Property prices across London & South East vary significantly. <a href="/market-reports/greater-london-property-market">Greater London</a> commands the highest median price at <strong>£497,500</strong>, while <a href="/market-reports/essex-property-market">Essex</a> offers the most affordable entry at <strong>£341,500</strong> — a spread of <strong>£156k</strong>.`,
+        `Property prices across London & South East vary significantly. <a href="/market-reports/greater-london-property-market">Greater London</a> commands the highest median price at <strong>£497,500</strong>, while <a href="/market-reports/essex-property-market">Essex</a> offers the most affordable entry at <strong>£341,500</strong> - a spread of <strong>£156k</strong>.`,
         `This price differential creates opportunities across the risk-return spectrum. Premium locations offer higher GDVs but require larger capital commitments, while more affordable areas can deliver stronger percentage returns on lower absolute investment.`,
       ],
     },
@@ -39,7 +39,7 @@ const report: MarketReport = {
       heading: `Development Hotspots`,
       content: [
         `The most active development markets in London & South East, measured by new-build completions, are <a href="/market-reports/greater-london-property-market">Greater London</a> (509 new builds), <a href="/market-reports/kent-property-market">Kent</a> (376 new builds), <a href="/market-reports/essex-property-market">Essex</a> (340 new builds).`,
-        `By total transaction volume — an indicator of market liquidity and exit confidence — <a href="/market-reports/greater-london-property-market">Greater London</a> (21,616 sales), <a href="/market-reports/kent-property-market">Kent</a> (17,119 sales), <a href="/market-reports/essex-property-market">Essex</a> (15,040 sales) lead the region.`,
+        `By total transaction volume - an indicator of market liquidity and exit confidence - <a href="/market-reports/greater-london-property-market">Greater London</a> (21,616 sales), <a href="/market-reports/kent-property-market">Kent</a> (17,119 sales), <a href="/market-reports/essex-property-market">Essex</a> (15,040 sales) lead the region.`,
         `Developers entering the London & South East market should weigh these two metrics together: new-build activity shows where planning consent is achievable, while transaction volume confirms buyer demand.`,
       ],
     },
@@ -55,7 +55,7 @@ const report: MarketReport = {
       heading: `Key Takeaways`,
       content: [
         `<ul>
-<li><strong>Market size:</strong> 115,825 transactions across 10 counties — one of the UK's most active regions.</li>
+<li><strong>Market size:</strong> 115,825 transactions across 10 counties - one of the UK's most active regions.</li>
 <li><strong>Price range:</strong> £341,500 to £497,500 median prices, offering opportunities across the capital spectrum.</li>
 <li><strong>Market direction:</strong> 4 of 10 counties showing year-on-year price growth.</li>
 <li><strong>New build activity:</strong> 2,391 completions across the region, indicating a healthy development pipeline.</li>

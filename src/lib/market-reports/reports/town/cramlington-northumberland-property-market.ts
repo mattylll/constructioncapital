@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cramlington-northumberland-property-market",
   title: "Cramlington Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Cramlington House Prices 2026 — Property Market Data & Development Finance | Northumberland",
+  metaTitle: "Cramlington House Prices 2026 - Property Market Data & Development Finance | Northumberland",
   metaDescription: "Cramlington property prices: median £180,000, 395 sales, -7.8% YoY. Detached £315,000, Flat £80,000. Land Registry data for Cramlington, Northumberland.",
   excerpt: "Median price £180,000, 395 sales, -7.8% YoY. Northumberland county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Cramlington recorded <strong>24</strong> new-build transactions in the past 12 months, representing <strong>6.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Cramlington traded at a <strong>premium of 35.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/northumberland-property-market">Northumberland</a> market, 72 new-build completions were recorded — see our <a href="/market-reports/northumberland-property-market">Northumberland property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northumberland-property-market">Northumberland</a> market, 72 new-build completions were recorded - see our <a href="/market-reports/northumberland-property-market">Northumberland property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ludlow-shropshire-property-market",
   title: "Ludlow Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ludlow House Prices 2026 — Property Market Data & Development Finance | Shropshire",
+  metaTitle: "Ludlow House Prices 2026 - Property Market Data & Development Finance | Shropshire",
   metaDescription: "Ludlow property prices: median £272,000, 187 sales, +0.3% YoY. Detached £325,000, Flat £110,500. Land Registry data for Ludlow, Shropshire.",
   excerpt: "Median price £272,000, 187 sales, +0.3% YoY. Shropshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Ludlow recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>2.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Ludlow traded at a <strong>premium of 7.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/shropshire-property-market">Shropshire</a> market, 75 new-build completions were recorded — see our <a href="/market-reports/shropshire-property-market">Shropshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/shropshire-property-market">Shropshire</a> market, 75 new-build completions were recorded - see our <a href="/market-reports/shropshire-property-market">Shropshire property market report</a> for the full county picture.`,
       ],
     },
     {

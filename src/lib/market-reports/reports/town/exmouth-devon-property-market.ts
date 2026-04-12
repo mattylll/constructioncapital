@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "exmouth-devon-property-market",
   title: "Exmouth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Exmouth House Prices 2026 — Property Market Data & Development Finance | Devon",
+  metaTitle: "Exmouth House Prices 2026 - Property Market Data & Development Finance | Devon",
   metaDescription: "Exmouth property prices: median £317,500, 1,887 sales, -3.8% YoY. Detached £498,000, Flat £189,000. Land Registry data for Exmouth, Devon.",
   excerpt: "Median price £317,500, 1,887 sales, -3.8% YoY. Devon county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Exmouth recorded <strong>61</strong> new-build transactions in the past 12 months, representing <strong>3.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Exmouth traded at a <strong>premium of 17.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/devon-property-market">Devon</a> market, 180 new-build completions were recorded — see our <a href="/market-reports/devon-property-market">Devon property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/devon-property-market">Devon</a> market, 180 new-build completions were recorded - see our <a href="/market-reports/devon-property-market">Devon property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wilmslow-cheshire-property-market",
   title: "Wilmslow Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wilmslow House Prices 2026 — Property Market Data & Development Finance | Cheshire",
+  metaTitle: "Wilmslow House Prices 2026 - Property Market Data & Development Finance | Cheshire",
   metaDescription: "Wilmslow property prices: median £425,000, 439 sales, +1.9% YoY. Detached £755,000, Flat £168,000. Land Registry data for Wilmslow, Cheshire.",
   excerpt: "Median price £425,000, 439 sales, +1.9% YoY. Cheshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Wilmslow recorded <strong>13</strong> new-build transactions in the past 12 months, representing <strong>3.0%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Wilmslow traded at a <strong>premium of 15.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cheshire-property-market">Cheshire</a> market, 147 new-build completions were recorded — see our <a href="/market-reports/cheshire-property-market">Cheshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cheshire-property-market">Cheshire</a> market, 147 new-build completions were recorded - see our <a href="/market-reports/cheshire-property-market">Cheshire property market report</a> for the full county picture.`,
       ],
     },
     {

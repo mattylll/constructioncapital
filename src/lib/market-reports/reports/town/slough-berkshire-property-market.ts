@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "slough-berkshire-property-market",
   title: "Slough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Slough House Prices 2026 — Property Market Data & Development Finance | Berkshire",
+  metaTitle: "Slough House Prices 2026 - Property Market Data & Development Finance | Berkshire",
   metaDescription: "Slough property prices: median £381,500, 730 sales, +1.7% YoY. Detached £600,000, Flat £215,000. Land Registry data for Slough, Berkshire.",
   excerpt: "Median price £381,500, 730 sales, +1.7% YoY. Berkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Slough recorded <strong>22</strong> new-build transactions in the past 12 months, representing <strong>3.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Slough traded at a <strong>discount of 26.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded — see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded - see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
       ],
     },
     {

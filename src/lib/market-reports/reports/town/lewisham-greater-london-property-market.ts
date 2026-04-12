@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lewisham-greater-london-property-market",
   title: "Lewisham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lewisham House Prices 2026 — Property Market Data & Development Finance | Greater London",
+  metaTitle: "Lewisham House Prices 2026 - Property Market Data & Development Finance | Greater London",
   metaDescription: "Lewisham property prices: median £461,000, 2,103 sales, +2.4% YoY. Detached £870,500, Flat £365,000. Land Registry data for Lewisham, Greater London.",
   excerpt: "Median price £461,000, 2,103 sales, +2.4% YoY. Greater London county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Lewisham recorded <strong>3</strong> new-build transactions in the past 12 months, representing <strong>0.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Lewisham traded at a <strong>discount of 2.5%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded - see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {

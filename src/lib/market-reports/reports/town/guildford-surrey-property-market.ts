@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "guildford-surrey-property-market",
   title: "Guildford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Guildford House Prices 2026 — Property Market Data & Development Finance | Surrey",
+  metaTitle: "Guildford House Prices 2026 - Property Market Data & Development Finance | Surrey",
   metaDescription: "Guildford property prices: median £495,000, 1,345 sales, +2.1% YoY. Detached £840,000, Flat £264,500. Land Registry data for Guildford, Surrey.",
   excerpt: "Median price £495,000, 1,345 sales, +2.1% YoY. Surrey county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Guildford recorded <strong>16</strong> new-build transactions in the past 12 months, representing <strong>1.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Guildford traded at a <strong>discount of 2.9%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/surrey-property-market">Surrey</a> market, 183 new-build completions were recorded — see our <a href="/market-reports/surrey-property-market">Surrey property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/surrey-property-market">Surrey</a> market, 183 new-build completions were recorded - see our <a href="/market-reports/surrey-property-market">Surrey property market report</a> for the full county picture.`,
       ],
     },
     {

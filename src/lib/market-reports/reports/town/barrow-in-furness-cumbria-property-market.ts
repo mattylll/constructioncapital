@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "barrow-in-furness-cumbria-property-market",
   title: "Barrow-in-Furness Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Barrow-in-Furness House Prices 2026 — Property Market Data & Development Finance | Cumbria",
+  metaTitle: "Barrow-in-Furness House Prices 2026 - Property Market Data & Development Finance | Cumbria",
   metaDescription: "Barrow-in-Furness property prices: median £145,000, 735 sales, +1.8% YoY. Detached £323,000, Flat £67,000. Land Registry data for Barrow-in-Furness, Cumbria.",
   excerpt: "Median price £145,000, 735 sales, +1.8% YoY. Cumbria county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Barrow-in-Furness recorded <strong>2</strong> new-build transactions in the past 12 months, representing <strong>0.3%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Barrow-in-Furness traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/cumbria-property-market">Cumbria</a> market, 79 new-build completions were recorded — see our <a href="/market-reports/cumbria-property-market">Cumbria property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cumbria-property-market">Cumbria</a> market, 79 new-build completions were recorded - see our <a href="/market-reports/cumbria-property-market">Cumbria property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "gloucestershire-property-market",
   title: "Gloucestershire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Gloucestershire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Gloucestershire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Gloucestershire property market analysis: median price £315,000, 7,277 sales, -2% YoY. Town comparisons, new builds & development finance across 6 towns.",
   excerpt: "6 towns analysed. Median price £315,000, 7,277 transactions, -2% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Gloucestershire Property Market Overview`,
       content: [
         `Gloucestershire bridges the Cotswolds' premium lifestyle market with Gloucester's urban regeneration and Cheltenham's established residential appeal. The Cotswolds command some of the highest rural property values in England, while Gloucester's docks and Kings Quarter regeneration offer development at more accessible price points. GCHQ's presence in Cheltenham drives tech-sector employment and housing demand.`,
-        `The <a href="/locations/gloucestershire">Gloucestershire</a> property market recorded <strong>7,277</strong> residential transactions over the past 12 months, with a median sale price of <strong>£315,000</strong> — £30k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2%</strong> across the county's principal towns.`,
+        `The <a href="/locations/gloucestershire">Gloucestershire</a> property market recorded <strong>7,277</strong> residential transactions over the past 12 months, with a median sale price of <strong>£315,000</strong> - £30k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2%</strong> across the county's principal towns.`,
         `Key drivers of the Gloucestershire property market include GCHQ Cheltenham cyber security cluster, Cotswolds premium lifestyle values, Gloucester docks and city centre regeneration. Additional factors include M5 corridor connectivity to Bristol and Birmingham.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/gloucestershire/cirencester">Cirencester</a></td><td>£435,000</td><td>1,045</td><td>-4%</td></tr><tr><td><a href="/locations/gloucestershire/stroud">Stroud</a></td><td>£329,000</td><td>1,331</td><td>-1.8%</td></tr><tr><td><a href="/locations/gloucestershire/cheltenham">Cheltenham</a></td><td>£315,000</td><td>1,513</td><td>-1.6%</td></tr><tr><td><a href="/locations/gloucestershire/tewkesbury">Tewkesbury</a></td><td>£315,000</td><td>1,162</td><td>-4.5%</td></tr><tr><td><a href="/locations/gloucestershire/lydney">Lydney</a></td><td>£280,000</td><td>807</td><td>+3.7%</td></tr><tr><td><a href="/locations/gloucestershire/gloucester">Gloucester</a></td><td>£245,000</td><td>1,419</td><td>-3.8%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/gloucestershire/cirencester">Cirencester</a> (£435,000), <a href="/locations/gloucestershire/stroud">Stroud</a> (£329,000), <a href="/locations/gloucestershire/cheltenham">Cheltenham</a> (£315,000). Cirencester's premium reflects capital of the cotswolds with premium market town values and heritage conversion demand.`,
         `<strong>Most affordable:</strong> <a href="/locations/gloucestershire/gloucester">Gloucester</a> (£245,000), <a href="/locations/gloucestershire/lydney">Lydney</a> (£280,000), <a href="/locations/gloucestershire/tewkesbury">Tewkesbury</a> (£315,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/gloucestershire/cheltenham">Cheltenham</a> (1,513 sales), <a href="/locations/gloucestershire/gloucester">Gloucester</a> (1,419 sales), <a href="/locations/gloucestershire/stroud">Stroud</a> (1,331 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/gloucestershire/cheltenham">Cheltenham</a> (1,513 sales), <a href="/locations/gloucestershire/gloucester">Gloucester</a> (1,419 sales), <a href="/locations/gloucestershire/stroud">Stroud</a> (1,331 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Gloucestershire market data carries direct implications for developers seeking finance. With a median property value of £315,000 and detached homes at £487,500, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Gloucestershire, a scheme with a GDV of £487,500 would typically attract <strong>senior debt of £316,875</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -2%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Gloucestershire's existing stock — particularly flat properties priced from £154,375 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Gloucestershire's existing stock - particularly flat properties priced from £154,375 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Gloucestershire's property market is experiencing a correction, with 1 of 6 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/gloucestershire/lydney">Lydney</a> (+3.7%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Gloucester (-3.8%) and Cirencester (-4%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Gloucester (-3.8%) and Cirencester (-4%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Gloucestershire's development pipeline will be shaped by GCHQ Cheltenham cyber security cluster and Cotswolds premium lifestyle values. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Gloucestershire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

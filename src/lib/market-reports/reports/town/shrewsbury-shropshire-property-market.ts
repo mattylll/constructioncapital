@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "shrewsbury-shropshire-property-market",
   title: "Shrewsbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Shrewsbury House Prices 2026 — Property Market Data & Development Finance | Shropshire",
+  metaTitle: "Shrewsbury House Prices 2026 - Property Market Data & Development Finance | Shropshire",
   metaDescription: "Shrewsbury property prices: median £270,000, 1,405 sales, -3.6% YoY. Detached £400,000, Flat £154,500. Land Registry data for Shrewsbury, Shropshire.",
   excerpt: "Median price £270,000, 1,405 sales, -3.6% YoY. Shropshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Shrewsbury recorded <strong>43</strong> new-build transactions in the past 12 months, representing <strong>3.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Shrewsbury traded at a <strong>premium of 2.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/shropshire-property-market">Shropshire</a> market, 75 new-build completions were recorded — see our <a href="/market-reports/shropshire-property-market">Shropshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/shropshire-property-market">Shropshire</a> market, 75 new-build completions were recorded - see our <a href="/market-reports/shropshire-property-market">Shropshire property market report</a> for the full county picture.`,
       ],
     },
     {

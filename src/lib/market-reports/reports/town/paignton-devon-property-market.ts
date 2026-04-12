@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "paignton-devon-property-market",
   title: "Paignton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Paignton House Prices 2026 — Property Market Data & Development Finance | Devon",
+  metaTitle: "Paignton House Prices 2026 - Property Market Data & Development Finance | Devon",
   metaDescription: "Paignton property prices: median £245,000, 622 sales, -7.5% YoY. Detached £370,000, Flat £140,000. Land Registry data for Paignton, Devon.",
   excerpt: "Median price £245,000, 622 sales, -7.5% YoY. Devon county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Paignton recorded <strong>16</strong> new-build transactions in the past 12 months, representing <strong>2.6%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Paignton traded at a <strong>premium of 42.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/devon-property-market">Devon</a> market, 180 new-build completions were recorded — see our <a href="/market-reports/devon-property-market">Devon property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/devon-property-market">Devon</a> market, 180 new-build completions were recorded - see our <a href="/market-reports/devon-property-market">Devon property market report</a> for the full county picture.`,
       ],
     },
     {

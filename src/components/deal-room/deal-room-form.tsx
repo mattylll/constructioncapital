@@ -143,7 +143,7 @@ export function DealRoomForm() {
         ...(loanType ? { loanType } : {}),
         ...(town ? { projectLocation: town } : {}),
       }));
-      // Show pre-fill confirmation — stay on step 1 so user fills project details
+      // Show pre-fill confirmation - stay on step 1 so user fills project details
       if (gdv || loanAmount) {
         trackDealRoomPrefill(source || "calculator");
         setPrefilledSource(source || "calculator");
@@ -358,7 +358,7 @@ export function DealRoomForm() {
                 {prefilledSummary.loanType && <span>{prefilledSummary.loanType}</span>}
                 {prefilledSummary.gdv && <span> &middot; GDV: £{prefilledSummary.gdv}</span>}
                 {prefilledSummary.loanAmount && <span> &middot; Loan: £{prefilledSummary.loanAmount}</span>}
-                {" — "}just add your project details below.
+                {" - "}just add your project details below.
               </p>
             </div>
           </div>

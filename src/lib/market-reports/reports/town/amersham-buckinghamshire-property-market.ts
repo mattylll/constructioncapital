@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "amersham-buckinghamshire-property-market",
   title: "Amersham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Amersham House Prices 2026 — Property Market Data & Development Finance | Buckinghamshire",
+  metaTitle: "Amersham House Prices 2026 - Property Market Data & Development Finance | Buckinghamshire",
   metaDescription: "Amersham property prices: median £735,000, 208 sales, +4.3% YoY. Detached £957,500, Flat £315,000. Land Registry data for Amersham, Buckinghamshire.",
   excerpt: "Median price £735,000, 208 sales, +4.3% YoY. Buckinghamshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Amersham recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Amersham traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded — see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded - see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
       ],
     },
     {

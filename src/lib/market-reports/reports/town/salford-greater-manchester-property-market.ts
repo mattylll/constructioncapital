@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "salford-greater-manchester-property-market",
   title: "Salford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Salford House Prices 2026 — Property Market Data & Development Finance | Greater Manchester",
+  metaTitle: "Salford House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
   metaDescription: "Salford property prices: median £227,000, 2,784 sales, +3.2% YoY. Detached £385,000, Flat £170,000. Land Registry data for Salford, Greater Manchester.",
   excerpt: "Median price £227,000, 2,784 sales, +3.2% YoY. Greater Manchester county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Salford recorded <strong>229</strong> new-build transactions in the past 12 months, representing <strong>8.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Salford traded at a <strong>premium of 14.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded - see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
       ],
     },
     {

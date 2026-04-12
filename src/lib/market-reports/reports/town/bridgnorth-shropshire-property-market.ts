@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bridgnorth-shropshire-property-market",
   title: "Bridgnorth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bridgnorth House Prices 2026 — Property Market Data & Development Finance | Shropshire",
+  metaTitle: "Bridgnorth House Prices 2026 - Property Market Data & Development Finance | Shropshire",
   metaDescription: "Bridgnorth property prices: median £265,000, 223 sales, -2.8% YoY. Detached £387,500, Flat £150,000. Land Registry data for Bridgnorth, Shropshire.",
   excerpt: "Median price £265,000, 223 sales, -2.8% YoY. Shropshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bridgnorth recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Bridgnorth traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/shropshire-property-market">Shropshire</a> market, 75 new-build completions were recorded — see our <a href="/market-reports/shropshire-property-market">Shropshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/shropshire-property-market">Shropshire</a> market, 75 new-build completions were recorded - see our <a href="/market-reports/shropshire-property-market">Shropshire property market report</a> for the full county picture.`,
       ],
     },
     {

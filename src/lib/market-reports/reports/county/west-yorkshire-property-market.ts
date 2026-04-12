@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "west-yorkshire-property-market",
   title: "West Yorkshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "West Yorkshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "West Yorkshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "West Yorkshire property market analysis: median price £188,750, 18,392 sales, -0.2% YoY. Town comparisons, new builds & development finance across 8 towns.",
   excerpt: "8 towns analysed. Median price £188,750, 18,392 transactions, -0.2% YoY.",
   category: "county",
@@ -17,9 +17,9 @@ const report: MarketReport = {
     {
       heading: `West Yorkshire Property Market Overview`,
       content: [
-        `West Yorkshire is anchored by Leeds — the UK's largest financial centre outside London — which has experienced a sustained development boom in city centre living, BTR, and purpose-built student accommodation. Bradford's affordable values and university presence offer development at lower entry points, while Huddersfield and Wakefield provide market town opportunities. The county benefits from strong motorway and rail connectivity.`,
-        `The <a href="/locations/west-yorkshire">West Yorkshire</a> property market recorded <strong>18,392</strong> residential transactions over the past 12 months, with a median sale price of <strong>£188,750</strong> — £96k below the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-0.2%</strong> across the county's principal towns.`,
-        `Key drivers of the West Yorkshire property market include Leeds South Bank — largest regeneration site in Europe, Channel 4 HQ and creative sector growth, Bradford city centre regeneration. Additional factors include Trans-Pennine Route Upgrade rail improvements.`,
+        `West Yorkshire is anchored by Leeds - the UK's largest financial centre outside London - which has experienced a sustained development boom in city centre living, BTR, and purpose-built student accommodation. Bradford's affordable values and university presence offer development at lower entry points, while Huddersfield and Wakefield provide market town opportunities. The county benefits from strong motorway and rail connectivity.`,
+        `The <a href="/locations/west-yorkshire">West Yorkshire</a> property market recorded <strong>18,392</strong> residential transactions over the past 12 months, with a median sale price of <strong>£188,750</strong> - £96k below the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-0.2%</strong> across the county's principal towns.`,
+        `Key drivers of the West Yorkshire property market include Leeds South Bank - largest regeneration site in Europe, Channel 4 HQ and creative sector growth, Bradford city centre regeneration. Additional factors include Trans-Pennine Route Upgrade rail improvements.`,
       ],
     },
     {
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/west-yorkshire/ilkley">Ilkley</a></td><td>£385,000</td><td>393</td><td>-3.7%</td></tr><tr><td><a href="/locations/west-yorkshire/leeds">Leeds</a></td><td>£235,000</td><td>7,768</td><td>0%</td></tr><tr><td><a href="/locations/west-yorkshire/wakefield">Wakefield</a></td><td>£219,000</td><td>1,396</td><td>+1.9%</td></tr><tr><td><a href="/locations/west-yorkshire/huddersfield">Huddersfield</a></td><td>£192,500</td><td>1,883</td><td>-3.8%</td></tr><tr><td><a href="/locations/west-yorkshire/pontefract">Pontefract</a></td><td>£185,000</td><td>1,074</td><td>+1.1%</td></tr><tr><td><a href="/locations/west-yorkshire/halifax">Halifax</a></td><td>£182,500</td><td>2,393</td><td>+0.8%</td></tr><tr><td><a href="/locations/west-yorkshire/dewsbury">Dewsbury</a></td><td>£173,000</td><td>465</td><td>-1.1%</td></tr><tr><td><a href="/locations/west-yorkshire/bradford">Bradford</a></td><td>£155,000</td><td>3,020</td><td>+3.3%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/west-yorkshire/ilkley">Ilkley</a> (£385,000), <a href="/locations/west-yorkshire/leeds">Leeds</a> (£235,000), <a href="/locations/west-yorkshire/wakefield">Wakefield</a> (£219,000). Ilkley's premium reflects premium west yorkshire spa town with strong family housing demand and wharfedale lifestyle appeal.`,
         `<strong>Most affordable:</strong> <a href="/locations/west-yorkshire/bradford">Bradford</a> (£155,000), <a href="/locations/west-yorkshire/dewsbury">Dewsbury</a> (£173,000), <a href="/locations/west-yorkshire/halifax">Halifax</a> (£182,500). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/west-yorkshire/leeds">Leeds</a> (7,768 sales), <a href="/locations/west-yorkshire/bradford">Bradford</a> (3,020 sales), <a href="/locations/west-yorkshire/halifax">Halifax</a> (2,393 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/west-yorkshire/leeds">Leeds</a> (7,768 sales), <a href="/locations/west-yorkshire/bradford">Bradford</a> (3,020 sales), <a href="/locations/west-yorkshire/halifax">Halifax</a> (2,393 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The West Yorkshire market data carries direct implications for developers seeking finance. With a median property value of £188,750 and detached homes at £367,500, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in West Yorkshire, a scheme with a GDV of £367,500 would typically attract <strong>senior debt of £238,875</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -0.2%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, West Yorkshire's existing stock — particularly flat properties priced from £107,500 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, West Yorkshire's existing stock - particularly flat properties priced from £107,500 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,8 +79,8 @@ const report: MarketReport = {
       content: [
         `West Yorkshire's property market is in a period of consolidation, with 4 of 8 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/west-yorkshire/bradford">Bradford</a> (+3.3%), <a href="/locations/west-yorkshire/wakefield">Wakefield</a> (+1.9%), <a href="/locations/west-yorkshire/pontefract">Pontefract</a> (+1.1%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Ilkley (-3.7%) and Huddersfield (-3.8%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
-        `Looking ahead, West Yorkshire's development pipeline will be shaped by Leeds South Bank — largest regeneration site in Europe and Channel 4 HQ and creative sector growth. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
+        `Conversely, Ilkley (-3.7%) and Huddersfield (-3.8%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
+        `Looking ahead, West Yorkshire's development pipeline will be shaped by Leeds South Bank - largest regeneration site in Europe and Channel 4 HQ and creative sector growth. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in West Yorkshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -92,7 +92,7 @@ const report: MarketReport = {
     },
     {
       question: `Is West Yorkshire a good area for property development?`,
-      answer: `West Yorkshire recorded 18,392 residential transactions in the past 12 months with prices falling -0.2% year-on-year, indicating a liquid market with strong exit confidence for developers. 348 new-build completions demonstrate active development activity. Key growth drivers include leeds south bank — largest regeneration site in europe.`,
+      answer: `West Yorkshire recorded 18,392 residential transactions in the past 12 months with prices falling -0.2% year-on-year, indicating a liquid market with strong exit confidence for developers. 348 new-build completions demonstrate active development activity. Key growth drivers include leeds south bank - largest regeneration site in europe.`,
     },
     {
       question: `What types of development finance are available in West Yorkshire?`,

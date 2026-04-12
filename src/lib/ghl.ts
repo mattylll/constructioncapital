@@ -125,7 +125,7 @@ async function createOpportunity(
 ): Promise<string> {
   const locationId = getLocationId();
 
-  const name = `${lead.full_name} — ${lead.loan_type} ${formatGBP(lead.loan_amount)}`;
+  const name = `${lead.full_name} - ${lead.loan_type} ${formatGBP(lead.loan_amount)}`;
 
   const body = {
     pipelineId: PIPELINE_ID,
@@ -156,7 +156,7 @@ async function createOpportunity(
 /**
  * Push a lead into GHL: creates/updates contact + creates opportunity.
  * Returns { contactId, opportunityId }.
- * Non-blocking — errors are logged but don't fail the lead submission.
+ * Non-blocking - errors are logged but don't fail the lead submission.
  */
 export async function pushLeadToGHL(
   lead: LeadData

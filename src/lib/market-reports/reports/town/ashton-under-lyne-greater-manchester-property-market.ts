@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ashton-under-lyne-greater-manchester-property-market",
   title: "Ashton-under-Lyne Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ashton-under-Lyne House Prices 2026 — Property Market Data & Development Finance | Greater Manchester",
+  metaTitle: "Ashton-under-Lyne House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
   metaDescription: "Ashton-under-Lyne property prices: median £200,000, 2,067 sales, -1.5% YoY. Detached £355,000, Flat £124,900. Land Registry data for Ashton-under-Lyne, Greater Manchester.",
   excerpt: "Median price £200,000, 2,067 sales, -1.5% YoY. Greater Manchester county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Ashton-under-Lyne recorded <strong>33</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Ashton-under-Lyne traded at a <strong>premium of 52.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded - see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "blackpool-lancashire-property-market",
   title: "Blackpool Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Blackpool House Prices 2026 — Property Market Data & Development Finance | Lancashire",
+  metaTitle: "Blackpool House Prices 2026 - Property Market Data & Development Finance | Lancashire",
   metaDescription: "Blackpool property prices: median £130,000, 1,846 sales, +2.4% YoY. Detached £253,000, Flat £85,000. Land Registry data for Blackpool, Lancashire.",
   excerpt: "Median price £130,000, 1,846 sales, +2.4% YoY. Lancashire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Blackpool recorded <strong>2</strong> new-build transactions in the past 12 months, representing <strong>0.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Blackpool traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/lancashire-property-market">Lancashire</a> market, 224 new-build completions were recorded — see our <a href="/market-reports/lancashire-property-market">Lancashire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/lancashire-property-market">Lancashire</a> market, 224 new-build completions were recorded - see our <a href="/market-reports/lancashire-property-market">Lancashire property market report</a> for the full county picture.`,
       ],
     },
     {

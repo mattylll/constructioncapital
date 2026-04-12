@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "leiston-suffolk-property-market",
   title: "Leiston Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Leiston House Prices 2026 — Property Market Data & Development Finance | Suffolk",
+  metaTitle: "Leiston House Prices 2026 - Property Market Data & Development Finance | Suffolk",
   metaDescription: "Leiston property prices: median £255,000, 84 sales, +7.4% YoY. Detached £356,000, Flat £133,750. Land Registry data for Leiston, Suffolk.",
   excerpt: "Median price £255,000, 84 sales, +7.4% YoY. Suffolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Leiston recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Leiston traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/suffolk-property-market">Suffolk</a> market, 189 new-build completions were recorded — see our <a href="/market-reports/suffolk-property-market">Suffolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/suffolk-property-market">Suffolk</a> market, 189 new-build completions were recorded - see our <a href="/market-reports/suffolk-property-market">Suffolk property market report</a> for the full county picture.`,
       ],
     },
     {

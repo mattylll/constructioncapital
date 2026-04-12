@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "dunstable-bedfordshire-property-market",
   title: "Dunstable Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dunstable House Prices 2026 — Property Market Data & Development Finance | Bedfordshire",
+  metaTitle: "Dunstable House Prices 2026 - Property Market Data & Development Finance | Bedfordshire",
   metaDescription: "Dunstable property prices: median £340,000, 793 sales, -4.8% YoY. Detached £497,000, Flat £175,000. Land Registry data for Dunstable, Bedfordshire.",
   excerpt: "Median price £340,000, 793 sales, -4.8% YoY. Bedfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Dunstable recorded <strong>45</strong> new-build transactions in the past 12 months, representing <strong>5.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Dunstable traded at a <strong>premium of 28.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> market, 429 new-build completions were recorded — see our <a href="/market-reports/bedfordshire-property-market">Bedfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> market, 429 new-build completions were recorded - see our <a href="/market-reports/bedfordshire-property-market">Bedfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

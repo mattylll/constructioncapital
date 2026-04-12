@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "rochdale-greater-manchester-property-market",
   title: "Rochdale Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Rochdale House Prices 2026 — Property Market Data & Development Finance | Greater Manchester",
+  metaTitle: "Rochdale House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
   metaDescription: "Rochdale property prices: median £185,000, 2,010 sales, -4.1% YoY. Detached £340,500, Flat £116,000. Land Registry data for Rochdale, Greater Manchester.",
   excerpt: "Median price £185,000, 2,010 sales, -4.1% YoY. Greater Manchester county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Rochdale recorded <strong>27</strong> new-build transactions in the past 12 months, representing <strong>1.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Rochdale traded at a <strong>premium of 96.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded - see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
       ],
     },
     {

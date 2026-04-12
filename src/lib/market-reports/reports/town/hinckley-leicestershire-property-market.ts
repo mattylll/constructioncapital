@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hinckley-leicestershire-property-market",
   title: "Hinckley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hinckley House Prices 2026 — Property Market Data & Development Finance | Leicestershire",
+  metaTitle: "Hinckley House Prices 2026 - Property Market Data & Development Finance | Leicestershire",
   metaDescription: "Hinckley property prices: median £252,000, 1,315 sales, -4.9% YoY. Detached £360,000, Flat £120,000. Land Registry data for Hinckley, Leicestershire.",
   excerpt: "Median price £252,000, 1,315 sales, -4.9% YoY. Leicestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Hinckley recorded <strong>22</strong> new-build transactions in the past 12 months, representing <strong>1.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Hinckley traded at a <strong>premium of 21.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/leicestershire-property-market">Leicestershire</a> market, 290 new-build completions were recorded — see our <a href="/market-reports/leicestershire-property-market">Leicestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/leicestershire-property-market">Leicestershire</a> market, 290 new-build completions were recorded - see our <a href="/market-reports/leicestershire-property-market">Leicestershire property market report</a> for the full county picture.`,
       ],
     },
     {

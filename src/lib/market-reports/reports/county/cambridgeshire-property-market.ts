@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cambridgeshire-property-market",
   title: "Cambridgeshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Cambridgeshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Cambridgeshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Cambridgeshire property market analysis: median price £305,000, 4,405 sales, -2.8% YoY. Town comparisons, new builds & development finance across 7 towns.",
   excerpt: "7 towns analysed. Median price £305,000, 4,405 transactions, -2.8% YoY.",
   category: "county",
@@ -18,8 +18,8 @@ const report: MarketReport = {
       heading: `Cambridgeshire Property Market Overview`,
       content: [
         `Cambridgeshire is one of the UK's fastest-growing counties, driven by Cambridge's world-renowned technology and biotech cluster. The city's severe housing undersupply creates premium values and strong development demand, while the surrounding towns of Huntingdon, St Neots, and Ely offer development at lower entry points with good rail connectivity. The Oxford-Cambridge Arc and the Northstowe new town represent generational development opportunities.`,
-        `The <a href="/locations/cambridgeshire">Cambridgeshire</a> property market recorded <strong>4,405</strong> residential transactions over the past 12 months, with a median sale price of <strong>£305,000</strong> — £20k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2.8%</strong> across the county's principal towns.`,
-        `Key drivers of the Cambridgeshire property market include Cambridge biotech and technology cluster, Oxford-Cambridge Arc growth corridor, Northstowe new town — 10,000 homes. Additional factors include Cambridge South station development.`,
+        `The <a href="/locations/cambridgeshire">Cambridgeshire</a> property market recorded <strong>4,405</strong> residential transactions over the past 12 months, with a median sale price of <strong>£305,000</strong> - £20k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2.8%</strong> across the county's principal towns.`,
+        `Key drivers of the Cambridgeshire property market include Cambridge biotech and technology cluster, Oxford-Cambridge Arc growth corridor, Northstowe new town - 10,000 homes. Additional factors include Cambridge South station development.`,
       ],
     },
     {
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/cambridgeshire/cambridge">Cambridge</a></td><td>£489,500</td><td>926</td><td>-0.1%</td></tr><tr><td><a href="/locations/cambridgeshire/ely">Ely</a></td><td>£335,000</td><td>845</td><td>-1.5%</td></tr><tr><td><a href="/locations/cambridgeshire/st-neots">St Neots</a></td><td>£320,000</td><td>588</td><td>-3.3%</td></tr><tr><td><a href="/locations/cambridgeshire/huntingdon">Huntingdon</a></td><td>£305,000</td><td>1,074</td><td>-6.2%</td></tr><tr><td><a href="/locations/cambridgeshire/st-ives">St Ives</a></td><td>£300,000</td><td>205</td><td>-2.8%</td></tr><tr><td><a href="/locations/cambridgeshire/march">March</a></td><td>£230,000</td><td>350</td><td>-4.2%</td></tr><tr><td><a href="/locations/cambridgeshire/wisbech">Wisbech</a></td><td>£202,500</td><td>417</td><td>-1.2%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/cambridgeshire/cambridge">Cambridge</a> (£489,500), <a href="/locations/cambridgeshire/ely">Ely</a> (£335,000), <a href="/locations/cambridgeshire/st-neots">St Neots</a> (£320,000). Cambridge's premium reflects world-class university city with severe undersupply, biotech-driven demand, and premium residential values.`,
         `<strong>Most affordable:</strong> <a href="/locations/cambridgeshire/wisbech">Wisbech</a> (£202,500), <a href="/locations/cambridgeshire/march">March</a> (£230,000), <a href="/locations/cambridgeshire/st-ives">St Ives</a> (£300,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/cambridgeshire/huntingdon">Huntingdon</a> (1,074 sales), <a href="/locations/cambridgeshire/cambridge">Cambridge</a> (926 sales), <a href="/locations/cambridgeshire/ely">Ely</a> (845 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/cambridgeshire/huntingdon">Huntingdon</a> (1,074 sales), <a href="/locations/cambridgeshire/cambridge">Cambridge</a> (926 sales), <a href="/locations/cambridgeshire/ely">Ely</a> (845 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Cambridgeshire market data carries direct implications for developers seeking finance. With a median property value of £305,000 and detached homes at £428,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Cambridgeshire, a scheme with a GDV of £428,000 would typically attract <strong>senior debt of £278,200</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -2.8%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Cambridgeshire's existing stock — particularly flat properties priced from £161,500 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Cambridgeshire's existing stock - particularly flat properties priced from £161,500 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -78,7 +78,7 @@ const report: MarketReport = {
       heading: `Cambridgeshire Property Market Outlook 2026`,
       content: [
         `Cambridgeshire's property market is experiencing a correction, with 0 of 7 towns recording year-on-year price growth.`,
-        `Conversely, St Ives (-2.8%) and St Neots (-3.3%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, St Ives (-2.8%) and St Neots (-3.3%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Cambridgeshire's development pipeline will be shaped by Cambridge biotech and technology cluster and Oxford-Cambridge Arc growth corridor. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Cambridgeshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

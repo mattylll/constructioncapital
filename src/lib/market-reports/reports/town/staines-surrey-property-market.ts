@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "staines-surrey-property-market",
   title: "Staines Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Staines House Prices 2026 — Property Market Data & Development Finance | Surrey",
+  metaTitle: "Staines House Prices 2026 - Property Market Data & Development Finance | Surrey",
   metaDescription: "Staines property prices: median £457,500, 916 sales, +1.7% YoY. Detached £665,000, Flat £280,000. Land Registry data for Staines, Surrey.",
   excerpt: "Median price £457,500, 916 sales, +1.7% YoY. Surrey county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Staines recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>0.4%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Staines traded at a <strong>premium of 15.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/surrey-property-market">Surrey</a> market, 183 new-build completions were recorded — see our <a href="/market-reports/surrey-property-market">Surrey property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/surrey-property-market">Surrey</a> market, 183 new-build completions were recorded - see our <a href="/market-reports/surrey-property-market">Surrey property market report</a> for the full county picture.`,
       ],
     },
     {

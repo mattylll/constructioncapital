@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "winchester-hampshire-property-market",
   title: "Winchester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Winchester House Prices 2026 — Property Market Data & Development Finance | Hampshire",
+  metaTitle: "Winchester House Prices 2026 - Property Market Data & Development Finance | Hampshire",
   metaDescription: "Winchester property prices: median £450,000, 1,229 sales, 0% YoY. Detached £635,000, Flat £233,000. Land Registry data for Winchester, Hampshire.",
   excerpt: "Median price £450,000, 1,229 sales, 0% YoY. Hampshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Winchester recorded <strong>33</strong> new-build transactions in the past 12 months, representing <strong>2.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Winchester traded at a <strong>premium of 0.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded — see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded - see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
       ],
     },
     {

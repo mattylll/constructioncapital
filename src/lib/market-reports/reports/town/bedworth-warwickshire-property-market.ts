@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bedworth-warwickshire-property-market",
   title: "Bedworth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bedworth House Prices 2026 — Property Market Data & Development Finance | Warwickshire",
+  metaTitle: "Bedworth House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
   metaDescription: "Bedworth property prices: median £230,000, 286 sales, -2.7% YoY. Detached £336,000, Flat £103,000. Land Registry data for Bedworth, Warwickshire.",
   excerpt: "Median price £230,000, 286 sales, -2.7% YoY. Warwickshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bedworth recorded <strong>17</strong> new-build transactions in the past 12 months, representing <strong>5.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Bedworth traded at a <strong>premium of 50.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded — see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded - see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "somerset-property-market",
   title: "Somerset Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Somerset Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Somerset Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Somerset property market analysis: median price £294,000, 7,339 sales, +0.1% YoY. Town comparisons, new builds & development finance across 8 towns.",
   excerpt: "8 towns analysed. Median price £294,000, 7,339 transactions, +0.1% YoY.",
   category: "county",
@@ -17,8 +17,8 @@ const report: MarketReport = {
     {
       heading: `Somerset Property Market Overview`,
       content: [
-        `Somerset's property market is diverse, ranging from the Georgian premium of Bath to the regeneration opportunities in Bridgwater and Taunton. Hinkley Point C — the UK's first new nuclear power station in a generation — is the county's largest current economic driver, bringing thousands of construction workers and creating housing demand across the Bridgwater area. Bath commands premium values driven by heritage appeal and lifestyle buyers.`,
-        `The <a href="/locations/somerset">Somerset</a> property market recorded <strong>7,339</strong> residential transactions over the past 12 months, with a median sale price of <strong>£294,000</strong> — £9k above the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.1%</strong> across the county's principal towns.`,
+        `Somerset's property market is diverse, ranging from the Georgian premium of Bath to the regeneration opportunities in Bridgwater and Taunton. Hinkley Point C - the UK's first new nuclear power station in a generation - is the county's largest current economic driver, bringing thousands of construction workers and creating housing demand across the Bridgwater area. Bath commands premium values driven by heritage appeal and lifestyle buyers.`,
+        `The <a href="/locations/somerset">Somerset</a> property market recorded <strong>7,339</strong> residential transactions over the past 12 months, with a median sale price of <strong>£294,000</strong> - £9k above the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.1%</strong> across the county's principal towns.`,
         `Key drivers of the Somerset property market include Hinkley Point C construction workforce housing demand, Bath heritage premium and conversion opportunities, Taunton garden town growth plans. Additional factors include M5 corridor connectivity improvements.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/somerset/bath">Bath</a></td><td>£428,000</td><td>1,163</td><td>-0.5%</td></tr><tr><td><a href="/locations/somerset/wells">Wells</a></td><td>£347,000</td><td>231</td><td>+6.8%</td></tr><tr><td><a href="/locations/somerset/frome">Frome</a></td><td>£324,995</td><td>401</td><td>0%</td></tr><tr><td><a href="/locations/somerset/weston-super-mare">Weston-super-Mare</a></td><td>£310,000</td><td>2,663</td><td>-1.6%</td></tr><tr><td><a href="/locations/somerset/glastonbury">Glastonbury</a></td><td>£278,000</td><td>157</td><td>-2.1%</td></tr><tr><td><a href="/locations/somerset/taunton">Taunton</a></td><td>£277,500</td><td>1,231</td><td>-0.9%</td></tr><tr><td><a href="/locations/somerset/bridgwater">Bridgwater</a></td><td>£252,750</td><td>804</td><td>+1.1%</td></tr><tr><td><a href="/locations/somerset/yeovil">Yeovil</a></td><td>£240,000</td><td>689</td><td>-2%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/somerset/bath">Bath</a> (£428,000), <a href="/locations/somerset/wells">Wells</a> (£347,000), <a href="/locations/somerset/frome">Frome</a> (£324,995). Bath's premium reflects unesco world heritage city with ultra-premium values and heritage conversion opportunities in georgian townhouses.`,
         `<strong>Most affordable:</strong> <a href="/locations/somerset/yeovil">Yeovil</a> (£240,000), <a href="/locations/somerset/bridgwater">Bridgwater</a> (£252,750), <a href="/locations/somerset/taunton">Taunton</a> (£277,500). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/somerset/weston-super-mare">Weston-super-Mare</a> (2,663 sales), <a href="/locations/somerset/taunton">Taunton</a> (1,231 sales), <a href="/locations/somerset/bath">Bath</a> (1,163 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/somerset/weston-super-mare">Weston-super-Mare</a> (2,663 sales), <a href="/locations/somerset/taunton">Taunton</a> (1,231 sales), <a href="/locations/somerset/bath">Bath</a> (1,163 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Somerset market data carries direct implications for developers seeking finance. With a median property value of £294,000 and detached homes at £432,500, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Somerset, a scheme with a GDV of £432,500 would typically attract <strong>senior debt of £281,125</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `With prices rising at 0.1% year-on-year, the market environment is supportive of new development. Lenders view rising markets favourably when assessing applications.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Somerset's existing stock — particularly flat properties priced from £156,500 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Somerset's existing stock - particularly flat properties priced from £156,500 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Somerset's property market is on an upward trajectory, with 2 of 8 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/somerset/wells">Wells</a> (+6.8%), <a href="/locations/somerset/bridgwater">Bridgwater</a> (+1.1%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Glastonbury (-2.1%) has seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Glastonbury (-2.1%) has seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Somerset's development pipeline will be shaped by Hinkley Point C construction workforce housing demand and Bath heritage premium and conversion opportunities. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Somerset, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

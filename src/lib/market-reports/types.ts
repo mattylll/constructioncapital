@@ -1,6 +1,6 @@
 export interface ReportSection {
   heading: string;
-  /** HTML paragraphs — rendered with dangerouslySetInnerHTML */
+  /** HTML paragraphs - rendered with dangerouslySetInnerHTML */
   content: string[];
 }
 
@@ -20,11 +20,11 @@ export interface ChartDataPoint {
 }
 
 export interface ReportCharts {
-  /** Price by property type — bar chart */
+  /** Price by property type - bar chart */
   priceByType?: ChartDataPoint[];
-  /** Town price comparison — horizontal bar chart */
+  /** Town price comparison - horizontal bar chart */
   townPrices?: ChartDataPoint[];
-  /** YoY change by town — bar chart with pos/neg colors */
+  /** YoY change by town - bar chart with pos/neg colors */
   townYoyChange?: ChartDataPoint[];
 }
 
@@ -38,9 +38,9 @@ export interface MarketReport {
   category: ReportCategory;
   /** Region name for filtering (e.g. "London & South East") */
   region?: string;
-  /** County slug — links back to /locations/{county} */
+  /** County slug - links back to /locations/{county} */
   countySlug?: string;
-  /** Town slug — for town-level reports, links back to /locations/{county}/{town} */
+  /** Town slug - for town-level reports, links back to /locations/{county}/{town} */
   townSlug?: string;
   datePublished: string;
   dateModified: string;

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "aylesbury-buckinghamshire-property-market",
   title: "Aylesbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Aylesbury House Prices 2026 — Property Market Data & Development Finance | Buckinghamshire",
+  metaTitle: "Aylesbury House Prices 2026 - Property Market Data & Development Finance | Buckinghamshire",
   metaDescription: "Aylesbury property prices: median £370,000, 1,557 sales, -2.4% YoY. Detached £610,663, Flat £195,000. Land Registry data for Aylesbury, Buckinghamshire.",
   excerpt: "Median price £370,000, 1,557 sales, -2.4% YoY. Buckinghamshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Aylesbury recorded <strong>152</strong> new-build transactions in the past 12 months, representing <strong>9.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Aylesbury traded at a <strong>premium of 12.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded — see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded - see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
       ],
     },
     {

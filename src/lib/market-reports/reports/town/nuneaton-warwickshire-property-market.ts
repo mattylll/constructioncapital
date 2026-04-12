@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "nuneaton-warwickshire-property-market",
   title: "Nuneaton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Nuneaton House Prices 2026 — Property Market Data & Development Finance | Warwickshire",
+  metaTitle: "Nuneaton House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
   metaDescription: "Nuneaton property prices: median £230,000, 882 sales, -4.8% YoY. Detached £335,000, Flat £112,500. Land Registry data for Nuneaton, Warwickshire.",
   excerpt: "Median price £230,000, 882 sales, -4.8% YoY. Warwickshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Nuneaton recorded <strong>31</strong> new-build transactions in the past 12 months, representing <strong>3.5%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Nuneaton traded at a <strong>premium of 36.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded — see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded - see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
       ],
     },
     {

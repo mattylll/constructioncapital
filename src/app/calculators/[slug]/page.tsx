@@ -274,7 +274,7 @@ export default async function CalculatorPage({
       seoContent = mod.content;
     }
   } catch {
-    // Content not yet written — render page without it
+    // Content not yet written - render page without it
   }
 
   const relatedCalcs = calc.relatedCalculators
@@ -284,7 +284,7 @@ export default async function CalculatorPage({
   const financialServiceJsonLd = {
     "@context": "https://schema.org",
     "@type": "FinancialService",
-    name: `${calc.name} — ${SITE_NAME}`,
+    name: `${calc.name} - ${SITE_NAME}`,
     description: calc.metaDescription,
     url: `${SITE_URL}/calculators/${calc.slug}`,
     provider: {

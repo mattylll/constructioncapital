@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wiltshire-property-market",
   title: "Wiltshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Wiltshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Wiltshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Wiltshire property market analysis: median price £304,623, 6,159 sales, +0.3% YoY. Town comparisons, new builds & development finance across 8 towns.",
   excerpt: "8 towns analysed. Median price £304,623, 6,159 transactions, +0.3% YoY.",
   category: "county",
@@ -17,8 +17,8 @@ const report: MarketReport = {
     {
       heading: `Wiltshire Property Market Overview`,
       content: [
-        `Wiltshire is a large rural county with development focused around the garrison town of Salisbury, the M4 corridor town of Swindon, and the commuter-belt market towns of Marlborough, Devizes, and Chippenham. The county's military presence — with significant bases at Bulford, Tidworth, and Larkhill — creates steady housing demand. Swindon is the county's largest commercial centre with significant office-to-residential conversion potential.`,
-        `The <a href="/locations/wiltshire">Wiltshire</a> property market recorded <strong>6,159</strong> residential transactions over the past 12 months, with a median sale price of <strong>£304,623</strong> — £20k above the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.3%</strong> across the county's principal towns.`,
+        `Wiltshire is a large rural county with development focused around the garrison town of Salisbury, the M4 corridor town of Swindon, and the commuter-belt market towns of Marlborough, Devizes, and Chippenham. The county's military presence - with significant bases at Bulford, Tidworth, and Larkhill - creates steady housing demand. Swindon is the county's largest commercial centre with significant office-to-residential conversion potential.`,
+        `The <a href="/locations/wiltshire">Wiltshire</a> property market recorded <strong>6,159</strong> residential transactions over the past 12 months, with a median sale price of <strong>£304,623</strong> - £20k above the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.3%</strong> across the county's principal towns.`,
         `Key drivers of the Wiltshire property market include Military garrison housing demand, Swindon commercial conversion opportunities, M4 corridor connectivity. Additional factors include Chippenham and Trowbridge growth areas.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/wiltshire/marlborough">Marlborough</a></td><td>£440,000</td><td>210</td><td>-5.4%</td></tr><tr><td><a href="/locations/wiltshire/salisbury">Salisbury</a></td><td>£335,000</td><td>1,182</td><td>+4.7%</td></tr><tr><td><a href="/locations/wiltshire/chippenham">Chippenham</a></td><td>£320,000</td><td>682</td><td>+1.6%</td></tr><tr><td><a href="/locations/wiltshire/devizes">Devizes</a></td><td>£310,000</td><td>373</td><td>+6.9%</td></tr><tr><td><a href="/locations/wiltshire/warminster">Warminster</a></td><td>£299,246</td><td>331</td><td>-5%</td></tr><tr><td><a href="/locations/wiltshire/melksham">Melksham</a></td><td>£290,000</td><td>353</td><td>0%</td></tr><tr><td><a href="/locations/wiltshire/trowbridge">Trowbridge</a></td><td>£285,000</td><td>579</td><td>+1.8%</td></tr><tr><td><a href="/locations/wiltshire/swindon">Swindon</a></td><td>£270,000</td><td>2,449</td><td>-1.8%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/wiltshire/marlborough">Marlborough</a> (£440,000), <a href="/locations/wiltshire/salisbury">Salisbury</a> (£335,000), <a href="/locations/wiltshire/chippenham">Chippenham</a> (£320,000). Marlborough's premium reflects premium market town with marlborough college presence and affluent buyer demographic.`,
         `<strong>Most affordable:</strong> <a href="/locations/wiltshire/swindon">Swindon</a> (£270,000), <a href="/locations/wiltshire/trowbridge">Trowbridge</a> (£285,000), <a href="/locations/wiltshire/melksham">Melksham</a> (£290,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/wiltshire/swindon">Swindon</a> (2,449 sales), <a href="/locations/wiltshire/salisbury">Salisbury</a> (1,182 sales), <a href="/locations/wiltshire/chippenham">Chippenham</a> (682 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/wiltshire/swindon">Swindon</a> (2,449 sales), <a href="/locations/wiltshire/salisbury">Salisbury</a> (1,182 sales), <a href="/locations/wiltshire/chippenham">Chippenham</a> (682 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Wiltshire market data carries direct implications for developers seeking finance. With a median property value of £304,623 and detached homes at £446,238, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Wiltshire, a scheme with a GDV of £446,238 would typically attract <strong>senior debt of £290,055</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `With prices rising at 0.3% year-on-year, the market environment is supportive of new development. Lenders view rising markets favourably when assessing applications.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Wiltshire's existing stock — particularly flat properties priced from £148,250 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Wiltshire's existing stock - particularly flat properties priced from £148,250 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Wiltshire's property market is on an upward trajectory, with 4 of 8 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/wiltshire/devizes">Devizes</a> (+6.9%), <a href="/locations/wiltshire/salisbury">Salisbury</a> (+4.7%), <a href="/locations/wiltshire/trowbridge">Trowbridge</a> (+1.8%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Warminster (-5%) and Marlborough (-5.4%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Warminster (-5%) and Marlborough (-5.4%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Wiltshire's development pipeline will be shaped by Military garrison housing demand and Swindon commercial conversion opportunities. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Wiltshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "droitwich-worcestershire-property-market",
   title: "Droitwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Droitwich House Prices 2026 — Property Market Data & Development Finance | Worcestershire",
+  metaTitle: "Droitwich House Prices 2026 - Property Market Data & Development Finance | Worcestershire",
   metaDescription: "Droitwich property prices: median £300,000, 317 sales, -1% YoY. Detached £435,000, Flat £149,000. Land Registry data for Droitwich, Worcestershire.",
   excerpt: "Median price £300,000, 317 sales, -1% YoY. Worcestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Droitwich recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Droitwich traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/worcestershire-property-market">Worcestershire</a> market, 94 new-build completions were recorded — see our <a href="/market-reports/worcestershire-property-market">Worcestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/worcestershire-property-market">Worcestershire</a> market, 94 new-build completions were recorded - see our <a href="/market-reports/worcestershire-property-market">Worcestershire property market report</a> for the full county picture.`,
       ],
     },
     {

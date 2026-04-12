@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "worthing-sussex-property-market",
   title: "Worthing Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Worthing House Prices 2026 — Property Market Data & Development Finance | Sussex",
+  metaTitle: "Worthing House Prices 2026 - Property Market Data & Development Finance | Sussex",
   metaDescription: "Worthing property prices: median £337,000, 1,189 sales, -2.9% YoY. Detached £550,000, Flat £215,000. Land Registry data for Worthing, Sussex.",
   excerpt: "Median price £337,000, 1,189 sales, -2.9% YoY. Sussex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Worthing recorded <strong>2</strong> new-build transactions in the past 12 months, representing <strong>0.2%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Worthing traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/sussex-property-market">Sussex</a> market, 157 new-build completions were recorded — see our <a href="/market-reports/sussex-property-market">Sussex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/sussex-property-market">Sussex</a> market, 157 new-build completions were recorded - see our <a href="/market-reports/sussex-property-market">Sussex property market report</a> for the full county picture.`,
       ],
     },
     {

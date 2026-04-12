@@ -111,7 +111,7 @@ export function ExitIntentModal() {
         </div>
 
         <p className="mt-3 text-center text-xs text-white/30">
-          Your progress won&rsquo;t be lost — just come back to this tab.
+          Your progress won&rsquo;t be lost - just come back to this tab.
         </p>
       </DialogContent>
     </Dialog>

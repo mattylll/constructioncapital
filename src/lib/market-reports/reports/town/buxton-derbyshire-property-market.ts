@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "buxton-derbyshire-property-market",
   title: "Buxton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Buxton House Prices 2026 — Property Market Data & Development Finance | Derbyshire",
+  metaTitle: "Buxton House Prices 2026 - Property Market Data & Development Finance | Derbyshire",
   metaDescription: "Buxton property prices: median £250,000, 1,028 sales, -3.8% YoY. Detached £427,500, Flat £150,000. Land Registry data for Buxton, Derbyshire.",
   excerpt: "Median price £250,000, 1,028 sales, -3.8% YoY. Derbyshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Buxton recorded <strong>26</strong> new-build transactions in the past 12 months, representing <strong>2.5%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Buxton traded at a <strong>premium of 83.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/derbyshire-property-market">Derbyshire</a> market, 206 new-build completions were recorded — see our <a href="/market-reports/derbyshire-property-market">Derbyshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/derbyshire-property-market">Derbyshire</a> market, 206 new-build completions were recorded - see our <a href="/market-reports/derbyshire-property-market">Derbyshire property market report</a> for the full county picture.`,
       ],
     },
     {

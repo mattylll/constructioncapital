@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "swansea-property-market",
   title: "Swansea Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Swansea Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Swansea Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Swansea property market analysis: median price £197,000, 13,511 sales, +4.2% YoY. Town comparisons, new builds & development finance across 6 towns.",
   excerpt: "6 towns analysed. Median price £197,000, 13,511 transactions, +4.2% YoY.",
   category: "county",
@@ -17,9 +17,9 @@ const report: MarketReport = {
     {
       heading: `Swansea Property Market Overview`,
       content: [
-        `Swansea's property market is being reshaped by the major city centre and waterfront regeneration programme. The Swansea Bay City Deal is investing over £1 billion in the region, while the University of Swansea's Bay Campus has created a new residential catchment. The Gower Peninsula — the UK's first designated Area of Outstanding Natural Beauty — creates a premium coastal market for holiday-let and lifestyle development.`,
-        `The <a href="/locations/swansea">Swansea</a> property market recorded <strong>13,511</strong> residential transactions over the past 12 months, with a median sale price of <strong>£197,000</strong> — £88k below the UK national median of £285,000. Prices have shown strong growth, with a year-on-year change of <strong>+4.2%</strong> across the county's principal towns.`,
-        `Key drivers of the Swansea property market include Swansea Bay City Deal — £1bn+ investment, City centre regeneration and arena district, University Bay Campus residential demand. Additional factors include Gower Peninsula coastal premium market.`,
+        `Swansea's property market is being reshaped by the major city centre and waterfront regeneration programme. The Swansea Bay City Deal is investing over £1 billion in the region, while the University of Swansea's Bay Campus has created a new residential catchment. The Gower Peninsula - the UK's first designated Area of Outstanding Natural Beauty - creates a premium coastal market for holiday-let and lifestyle development.`,
+        `The <a href="/locations/swansea">Swansea</a> property market recorded <strong>13,511</strong> residential transactions over the past 12 months, with a median sale price of <strong>£197,000</strong> - £88k below the UK national median of £285,000. Prices have shown strong growth, with a year-on-year change of <strong>+4.2%</strong> across the county's principal towns.`,
+        `Key drivers of the Swansea property market include Swansea Bay City Deal - £1bn+ investment, City centre regeneration and arena district, University Bay Campus residential demand. Additional factors include Gower Peninsula coastal premium market.`,
       ],
     },
     {
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/swansea/morriston">Morriston</a></td><td>£197,000</td><td>2,410</td><td>+3.7%</td></tr><tr><td><a href="/locations/swansea/mumbles">Mumbles</a></td><td>£197,000</td><td>2,410</td><td>+3.7%</td></tr><tr><td><a href="/locations/swansea/sa1-waterfront">SA1 Waterfront</a></td><td>£197,000</td><td>2,410</td><td>+3.7%</td></tr><tr><td><a href="/locations/swansea/sketty">Sketty</a></td><td>£197,000</td><td>2,410</td><td>+3.7%</td></tr><tr><td><a href="/locations/swansea/swansea-city-centre">Swansea City Centre</a></td><td>£197,000</td><td>2,410</td><td>+3.7%</td></tr><tr><td><a href="/locations/swansea/neath">Neath</a></td><td>£160,000</td><td>1,461</td><td>+6.7%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/swansea/morriston">Morriston</a> (£197,000), <a href="/locations/swansea/mumbles">Mumbles</a> (£197,000), <a href="/locations/swansea/sa1-waterfront">SA1 Waterfront</a> (£197,000). Morriston's premium reflects hospital quarter area with affordable values and growing residential demand.`,
         `<strong>Most affordable:</strong> <a href="/locations/swansea/neath">Neath</a> (£160,000), <a href="/locations/swansea/swansea-city-centre">Swansea City Centre</a> (£197,000), <a href="/locations/swansea/sketty">Sketty</a> (£197,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/swansea/morriston">Morriston</a> (2,410 sales), <a href="/locations/swansea/mumbles">Mumbles</a> (2,410 sales), <a href="/locations/swansea/sa1-waterfront">SA1 Waterfront</a> (2,410 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/swansea/morriston">Morriston</a> (2,410 sales), <a href="/locations/swansea/mumbles">Mumbles</a> (2,410 sales), <a href="/locations/swansea/sa1-waterfront">SA1 Waterfront</a> (2,410 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Swansea market data carries direct implications for developers seeking finance. With a median property value of £197,000 and detached homes at £340,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Swansea, a scheme with a GDV of £340,000 would typically attract <strong>senior debt of £221,000</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `With prices rising at 4.2% year-on-year, the market environment is supportive of new development. Lenders view rising markets favourably when assessing applications.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Swansea's existing stock — particularly flat properties priced from £125,001 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Swansea's existing stock - particularly flat properties priced from £125,001 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Swansea's property market is on an upward trajectory, with 6 of 6 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/swansea/neath">Neath</a> (+6.7%), <a href="/locations/swansea/morriston">Morriston</a> (+3.7%), <a href="/locations/swansea/mumbles">Mumbles</a> (+3.7%). These areas offer the strongest market momentum for new development.`,
-        `Looking ahead, Swansea's development pipeline will be shaped by Swansea Bay City Deal — £1bn+ investment and City centre regeneration and arena district. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
+        `Looking ahead, Swansea's development pipeline will be shaped by Swansea Bay City Deal - £1bn+ investment and City centre regeneration and arena district. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Swansea, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -91,7 +91,7 @@ const report: MarketReport = {
     },
     {
       question: `Is Swansea a good area for property development?`,
-      answer: `Swansea recorded 13,511 residential transactions in the past 12 months with prices rising 4.2% year-on-year, indicating a liquid market with strong exit confidence for developers. 211 new-build completions demonstrate active development activity. Key growth drivers include swansea bay city deal — £1bn+ investment.`,
+      answer: `Swansea recorded 13,511 residential transactions in the past 12 months with prices rising 4.2% year-on-year, indicating a liquid market with strong exit confidence for developers. 211 new-build completions demonstrate active development activity. Key growth drivers include swansea bay city deal - £1bn+ investment.`,
     },
     {
       question: `What types of development finance are available in Swansea?`,

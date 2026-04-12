@@ -421,7 +421,7 @@ function SchemeAnalysisCard({
           </p>
         </div>
 
-        {/* Primary CTA — straight to deal room with financials pre-filled */}
+        {/* Primary CTA - straight to deal room with financials pre-filled */}
         <div className="mt-5">
           <Link
             href={`/deal-room?${dealRoomParams.toString()}`}

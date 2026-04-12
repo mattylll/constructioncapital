@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "greater-london-property-market",
   title: "Greater London Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Greater London Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Greater London Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Greater London property market analysis: median price £497,500, 21,616 sales, +0.8% YoY. Town comparisons, new builds & development finance across 12 towns.",
   excerpt: "12 towns analysed. Median price £497,500, 21,616 transactions, +0.8% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Greater London Property Market Overview`,
       content: [
         `The UK's largest and most active property development market, with persistent housing undersupply across all 33 boroughs. Inner London commands premium values for luxury and BTR schemes, while outer boroughs attract family housing and first-time buyer developments. Crossrail, Overground extensions, and the Bakerloo line upgrade continue to reshape micro-market dynamics.`,
-        `The <a href="/locations/greater-london">Greater London</a> property market recorded <strong>21,616</strong> residential transactions over the past 12 months, with a median sale price of <strong>£497,500</strong> — £213k above the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.8%</strong> across the county's principal towns.`,
+        `The <a href="/locations/greater-london">Greater London</a> property market recorded <strong>21,616</strong> residential transactions over the past 12 months, with a median sale price of <strong>£497,500</strong> - £213k above the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.8%</strong> across the county's principal towns.`,
         `Key drivers of the Greater London property market include Crossrail catchment area premium, Build-to-Rent institutional demand, Permitted development office conversions. Additional factors include Affordable housing policy requirements.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/greater-london/hackney">Hackney</a></td><td>£565,000</td><td>1,494</td><td>-1.7%</td></tr><tr><td><a href="/locations/greater-london/tottenham">Tottenham</a></td><td>£560,000</td><td>1,557</td><td>+3.5%</td></tr><tr><td><a href="/locations/greater-london/brixton">Brixton</a></td><td>£540,000</td><td>2,385</td><td>+1.9%</td></tr><tr><td><a href="/locations/greater-london/bermondsey">Bermondsey</a></td><td>£535,000</td><td>1,997</td><td>-1.8%</td></tr><tr><td><a href="/locations/greater-london/wembley">Wembley</a></td><td>£525,000</td><td>1,527</td><td>-0.9%</td></tr><tr><td><a href="/locations/greater-london/ealing">Ealing</a></td><td>£520,000</td><td>1,975</td><td>+1%</td></tr><tr><td><a href="/locations/greater-london/hounslow">Hounslow</a></td><td>£475,000</td><td>1,428</td><td>0%</td></tr><tr><td><a href="/locations/greater-london/lewisham">Lewisham</a></td><td>£461,000</td><td>2,103</td><td>+2.4%</td></tr><tr><td><a href="/locations/greater-london/woolwich">Woolwich</a></td><td>£447,500</td><td>1,745</td><td>+0.6%</td></tr><tr><td><a href="/locations/greater-london/stratford">Stratford</a></td><td>£430,000</td><td>1,369</td><td>-2.2%</td></tr><tr><td><a href="/locations/greater-london/croydon">Croydon</a></td><td>£415,000</td><td>3,025</td><td>+2.5%</td></tr><tr><td><a href="/locations/greater-london/barking">Barking</a></td><td>£380,000</td><td>1,011</td><td>+3.7%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/greater-london/hackney">Hackney</a> (£565,000), <a href="/locations/greater-london/tottenham">Tottenham</a> (£560,000), <a href="/locations/greater-london/brixton">Brixton</a> (£540,000). Hackney's premium reflects east london creative hub with premium values for converted commercial and industrial buildings.`,
         `<strong>Most affordable:</strong> <a href="/locations/greater-london/barking">Barking</a> (£380,000), <a href="/locations/greater-london/croydon">Croydon</a> (£415,000), <a href="/locations/greater-london/stratford">Stratford</a> (£430,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/greater-london/croydon">Croydon</a> (3,025 sales), <a href="/locations/greater-london/brixton">Brixton</a> (2,385 sales), <a href="/locations/greater-london/lewisham">Lewisham</a> (2,103 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/greater-london/croydon">Croydon</a> (3,025 sales), <a href="/locations/greater-london/brixton">Brixton</a> (2,385 sales), <a href="/locations/greater-london/lewisham">Lewisham</a> (2,103 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Greater London market data carries direct implications for developers seeking finance. With a median property value of £497,500 and detached homes at £870,500, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Greater London, a scheme with a GDV of £870,500 would typically attract <strong>senior debt of £565,825</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `With prices rising at 0.8% year-on-year, the market environment is supportive of new development. Lenders view rising markets favourably when assessing applications.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Greater London's existing stock — particularly flat properties priced from £375,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Greater London's existing stock - particularly flat properties priced from £375,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Greater London's property market is on an upward trajectory, with 7 of 12 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/greater-london/barking">Barking</a> (+3.7%), <a href="/locations/greater-london/tottenham">Tottenham</a> (+3.5%), <a href="/locations/greater-london/croydon">Croydon</a> (+2.5%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Stratford (-2.2%) has seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Stratford (-2.2%) has seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Greater London's development pipeline will be shaped by Crossrail catchment area premium and Build-to-Rent institutional demand. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Greater London, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

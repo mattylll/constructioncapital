@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "berkshire-property-market",
   title: "Berkshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Berkshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Berkshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Berkshire property market analysis: median price £399,500, 7,057 sales, +0.5% YoY. Town comparisons, new builds & development finance across 8 towns.",
   excerpt: "8 towns analysed. Median price £399,500, 7,057 transactions, +0.5% YoY.",
   category: "county",
@@ -17,8 +17,8 @@ const report: MarketReport = {
     {
       heading: `Berkshire Property Market Overview`,
       content: [
-        `Berkshire's property market is driven by its position in the M4 corridor — the UK's 'Silicon Valley' — with major tech employers including Microsoft, Oracle, and Vodafone headquartered in the county. Reading is the commercial centre with significant office-to-residential conversion potential, while Windsor and Maidenhead command premium residential values. The county benefits from excellent motorway and rail connectivity.`,
-        `The <a href="/locations/berkshire">Berkshire</a> property market recorded <strong>7,057</strong> residential transactions over the past 12 months, with a median sale price of <strong>£399,500</strong> — £115k above the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.5%</strong> across the county's principal towns.`,
+        `Berkshire's property market is driven by its position in the M4 corridor - the UK's 'Silicon Valley' - with major tech employers including Microsoft, Oracle, and Vodafone headquartered in the county. Reading is the commercial centre with significant office-to-residential conversion potential, while Windsor and Maidenhead command premium residential values. The county benefits from excellent motorway and rail connectivity.`,
+        `The <a href="/locations/berkshire">Berkshire</a> property market recorded <strong>7,057</strong> residential transactions over the past 12 months, with a median sale price of <strong>£399,500</strong> - £115k above the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.5%</strong> across the county's principal towns.`,
         `Key drivers of the Berkshire property market include M4 tech corridor employment demand, Reading station area regeneration, Elizabeth Line extending commuter catchment. Additional factors include Office-to-residential PD conversions in town centres.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/berkshire/windsor">Windsor</a></td><td>£517,250</td><td>354</td><td>+3.5%</td></tr><tr><td><a href="/locations/berkshire/maidenhead">Maidenhead</a></td><td>£510,000</td><td>666</td><td>+2%</td></tr><tr><td><a href="/locations/berkshire/wokingham">Wokingham</a></td><td>£480,000</td><td>1,666</td><td>-2%</td></tr><tr><td><a href="/locations/berkshire/bracknell">Bracknell</a></td><td>£415,000</td><td>1,222</td><td>+1.1%</td></tr><tr><td><a href="/locations/berkshire/thatcham">Thatcham</a></td><td>£384,000</td><td>361</td><td>+3.8%</td></tr><tr><td><a href="/locations/berkshire/slough">Slough</a></td><td>£381,500</td><td>730</td><td>+1.7%</td></tr><tr><td><a href="/locations/berkshire/newbury">Newbury</a></td><td>£370,000</td><td>557</td><td>-3.1%</td></tr><tr><td><a href="/locations/berkshire/reading">Reading</a></td><td>£340,000</td><td>1,501</td><td>-2.9%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/berkshire/windsor">Windsor</a> (£517,250), <a href="/locations/berkshire/maidenhead">Maidenhead</a> (£510,000), <a href="/locations/berkshire/wokingham">Wokingham</a> (£480,000). Windsor's premium reflects royal town with ultra-premium values and heritage conversion opportunities near the castle.`,
         `<strong>Most affordable:</strong> <a href="/locations/berkshire/reading">Reading</a> (£340,000), <a href="/locations/berkshire/newbury">Newbury</a> (£370,000), <a href="/locations/berkshire/slough">Slough</a> (£381,500). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/berkshire/wokingham">Wokingham</a> (1,666 sales), <a href="/locations/berkshire/reading">Reading</a> (1,501 sales), <a href="/locations/berkshire/bracknell">Bracknell</a> (1,222 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/berkshire/wokingham">Wokingham</a> (1,666 sales), <a href="/locations/berkshire/reading">Reading</a> (1,501 sales), <a href="/locations/berkshire/bracknell">Bracknell</a> (1,222 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Berkshire market data carries direct implications for developers seeking finance. With a median property value of £399,500 and detached homes at £629,625, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Berkshire, a scheme with a GDV of £629,625 would typically attract <strong>senior debt of £409,256</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `With prices rising at 0.5% year-on-year, the market environment is supportive of new development. Lenders view rising markets favourably when assessing applications.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Berkshire's existing stock — particularly flat properties priced from £226,250 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Berkshire's existing stock - particularly flat properties priced from £226,250 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Berkshire's property market is on an upward trajectory, with 5 of 8 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/berkshire/thatcham">Thatcham</a> (+3.8%), <a href="/locations/berkshire/windsor">Windsor</a> (+3.5%), <a href="/locations/berkshire/maidenhead">Maidenhead</a> (+2%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Reading (-2.9%) and Newbury (-3.1%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Reading (-2.9%) and Newbury (-3.1%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Berkshire's development pipeline will be shaped by M4 tech corridor employment demand and Reading station area regeneration. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Berkshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

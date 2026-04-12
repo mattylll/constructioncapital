@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bridlington-east-riding-of-yorkshire-property-market",
   title: "Bridlington Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bridlington House Prices 2026 — Property Market Data & Development Finance | East Riding of Yorkshire",
+  metaTitle: "Bridlington House Prices 2026 - Property Market Data & Development Finance | East Riding of Yorkshire",
   metaDescription: "Bridlington property prices: median £175,000, 579 sales, -2.8% YoY. Detached £280,000, Flat £83,000. Land Registry data for Bridlington, East Riding of Yorkshire.",
   excerpt: "Median price £175,000, 579 sales, -2.8% YoY. East Riding of Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bridlington recorded <strong>10</strong> new-build transactions in the past 12 months, representing <strong>1.7%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Bridlington traded at a <strong>premium of 32.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire</a> market, 132 new-build completions were recorded — see our <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire</a> market, 132 new-build completions were recorded - see our <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "barking-greater-london-property-market",
   title: "Barking Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Barking House Prices 2026 — Property Market Data & Development Finance | Greater London",
+  metaTitle: "Barking House Prices 2026 - Property Market Data & Development Finance | Greater London",
   metaDescription: "Barking property prices: median £380,000, 1,011 sales, +3.7% YoY. Detached £480,000, Flat £230,000. Land Registry data for Barking, Greater London.",
   excerpt: "Median price £380,000, 1,011 sales, +3.7% YoY. Greater London county.",
   category: "town",
@@ -17,7 +17,7 @@ const report: MarketReport = {
     {
       heading: `Barking Property Market Overview`,
       content: [
-        `East London regeneration hub anchored by Barking Riverside — one of Europe's largest brownfield developments`,
+        `East London regeneration hub anchored by Barking Riverside - one of Europe's largest brownfield developments`,
         `The <a href="/locations/greater-london/barking">Barking</a> property market recorded <strong>1,011</strong> residential sales over the past 12 months, with a median sale price of <strong>£380,000</strong>. This places Barking £118k below the Greater London county median of £497,500, and £95k above the UK national median of £285,000.`,
         `Prices in Barking have shown strong growth, with a year-on-year change of <strong>+3.7%</strong>. Within <a href="/locations/greater-london">Greater London</a>, Barking ranks 12th by price out of 12 principal towns, and 12th by transaction volume.`,
       ],
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Barking recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Barking traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded - see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "whitehaven-cumbria-property-market",
   title: "Whitehaven Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Whitehaven House Prices 2026 — Property Market Data & Development Finance | Cumbria",
+  metaTitle: "Whitehaven House Prices 2026 - Property Market Data & Development Finance | Cumbria",
   metaDescription: "Whitehaven property prices: median £160,000, 380 sales, +2.7% YoY. Detached £275,000, Flat £97,500. Land Registry data for Whitehaven, Cumbria.",
   excerpt: "Median price £160,000, 380 sales, +2.7% YoY. Cumbria county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Whitehaven recorded <strong>22</strong> new-build transactions in the past 12 months, representing <strong>5.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Whitehaven traded at a <strong>premium of 58.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cumbria-property-market">Cumbria</a> market, 79 new-build completions were recorded — see our <a href="/market-reports/cumbria-property-market">Cumbria property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cumbria-property-market">Cumbria</a> market, 79 new-build completions were recorded - see our <a href="/market-reports/cumbria-property-market">Cumbria property market report</a> for the full county picture.`,
       ],
     },
     {

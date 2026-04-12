@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "oldham-greater-manchester-property-market",
   title: "Oldham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Oldham House Prices 2026 — Property Market Data & Development Finance | Greater Manchester",
+  metaTitle: "Oldham House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
   metaDescription: "Oldham property prices: median £193,000, 1,907 sales, +1.6% YoY. Detached £375,000, Flat £141,500. Land Registry data for Oldham, Greater Manchester.",
   excerpt: "Median price £193,000, 1,907 sales, +1.6% YoY. Greater Manchester county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Oldham recorded <strong>33</strong> new-build transactions in the past 12 months, representing <strong>1.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Oldham traded at a <strong>premium of 73.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded - see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
       ],
     },
     {

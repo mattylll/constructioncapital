@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stevenage-hertfordshire-property-market",
   title: "Stevenage Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stevenage House Prices 2026 — Property Market Data & Development Finance | Hertfordshire",
+  metaTitle: "Stevenage House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
   metaDescription: "Stevenage property prices: median £340,000, 653 sales, +1.5% YoY. Detached £550,000, Flat £191,000. Land Registry data for Stevenage, Hertfordshire.",
   excerpt: "Median price £340,000, 653 sales, +1.5% YoY. Hertfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Stevenage recorded <strong>9</strong> new-build transactions in the past 12 months, representing <strong>1.4%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Stevenage traded at a <strong>premium of 32.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded - see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

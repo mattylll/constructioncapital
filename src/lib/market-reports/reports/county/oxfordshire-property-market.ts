@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "oxfordshire-property-market",
   title: "Oxfordshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Oxfordshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Oxfordshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Oxfordshire property market analysis: median price £392,500, 5,852 sales, -2.5% YoY. Town comparisons, new builds & development finance across 8 towns.",
   excerpt: "8 towns analysed. Median price £392,500, 5,852 transactions, -2.5% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Oxfordshire Property Market Overview`,
       content: [
         `Oxfordshire combines Oxford's globally recognised university city market with the science and innovation corridor extending to Milton Park and Harwell. The county has some of the most acute housing affordability pressures outside London, creating strong demand for new residential development. Science Vale and the Oxfordshire-Cambridge Arc represent significant long-term growth drivers for both commercial and residential development.`,
-        `The <a href="/locations/oxfordshire">Oxfordshire</a> property market recorded <strong>5,852</strong> residential transactions over the past 12 months, with a median sale price of <strong>£392,500</strong> — £108k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2.5%</strong> across the county's principal towns.`,
+        `The <a href="/locations/oxfordshire">Oxfordshire</a> property market recorded <strong>5,852</strong> residential transactions over the past 12 months, with a median sale price of <strong>£392,500</strong> - £108k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2.5%</strong> across the county's principal towns.`,
         `Key drivers of the Oxfordshire property market include Oxford University and science-sector employment, Oxford-Cambridge Arc investment corridor, Didcot Garden Town and Science Vale growth. Additional factors include Severe housing affordability gap driving demand.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/oxfordshire/henley-on-thames">Henley-on-Thames</a></td><td>£695,000</td><td>194</td><td>-4.1%</td></tr><tr><td><a href="/locations/oxfordshire/oxford">Oxford</a></td><td>£450,000</td><td>971</td><td>0%</td></tr><tr><td><a href="/locations/oxfordshire/thame">Thame</a></td><td>£422,500</td><td>173</td><td>-6.1%</td></tr><tr><td><a href="/locations/oxfordshire/abingdon">Abingdon</a></td><td>£395,000</td><td>1,534</td><td>-0.5%</td></tr><tr><td><a href="/locations/oxfordshire/witney">Witney</a></td><td>£390,000</td><td>1,165</td><td>+0.1%</td></tr><tr><td><a href="/locations/oxfordshire/bicester">Bicester</a></td><td>£355,000</td><td>589</td><td>-4.8%</td></tr><tr><td><a href="/locations/oxfordshire/didcot">Didcot</a></td><td>£350,000</td><td>386</td><td>-2.8%</td></tr><tr><td><a href="/locations/oxfordshire/banbury">Banbury</a></td><td>£320,000</td><td>840</td><td>-1.7%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/oxfordshire/henley-on-thames">Henley-on-Thames</a> (£695,000), <a href="/locations/oxfordshire/oxford">Oxford</a> (£450,000), <a href="/locations/oxfordshire/thame">Thame</a> (£422,500). Henley-on-Thames's premium reflects premium thames-side town with regatta heritage and ultra-high-value residential market.`,
         `<strong>Most affordable:</strong> <a href="/locations/oxfordshire/banbury">Banbury</a> (£320,000), <a href="/locations/oxfordshire/didcot">Didcot</a> (£350,000), <a href="/locations/oxfordshire/bicester">Bicester</a> (£355,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/oxfordshire/abingdon">Abingdon</a> (1,534 sales), <a href="/locations/oxfordshire/witney">Witney</a> (1,165 sales), <a href="/locations/oxfordshire/oxford">Oxford</a> (971 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/oxfordshire/abingdon">Abingdon</a> (1,534 sales), <a href="/locations/oxfordshire/witney">Witney</a> (1,165 sales), <a href="/locations/oxfordshire/oxford">Oxford</a> (971 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Oxfordshire market data carries direct implications for developers seeking finance. With a median property value of £392,500 and detached homes at £565,750, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Oxfordshire, a scheme with a GDV of £565,750 would typically attract <strong>senior debt of £367,738</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -2.5%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Oxfordshire's existing stock — particularly flat properties priced from £215,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Oxfordshire's existing stock - particularly flat properties priced from £215,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Oxfordshire's property market is experiencing a correction, with 1 of 8 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/oxfordshire/witney">Witney</a> (+0.1%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Didcot (-2.8%) and Henley-on-Thames (-4.1%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Didcot (-2.8%) and Henley-on-Thames (-4.1%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Oxfordshire's development pipeline will be shaped by Oxford University and science-sector employment and Oxford-Cambridge Arc investment corridor. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Oxfordshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

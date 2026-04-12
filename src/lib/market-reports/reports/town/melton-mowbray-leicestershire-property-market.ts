@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "melton-mowbray-leicestershire-property-market",
   title: "Melton Mowbray Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Melton Mowbray House Prices 2026 — Property Market Data & Development Finance | Leicestershire",
+  metaTitle: "Melton Mowbray House Prices 2026 - Property Market Data & Development Finance | Leicestershire",
   metaDescription: "Melton Mowbray property prices: median £255,000, 663 sales, -7.3% YoY. Detached £388,000, Flat £132,500. Land Registry data for Melton Mowbray, Leicestershire.",
   excerpt: "Median price £255,000, 663 sales, -7.3% YoY. Leicestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Melton Mowbray recorded <strong>45</strong> new-build transactions in the past 12 months, representing <strong>6.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Melton Mowbray traded at a <strong>premium of 24.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/leicestershire-property-market">Leicestershire</a> market, 290 new-build completions were recorded — see our <a href="/market-reports/leicestershire-property-market">Leicestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/leicestershire-property-market">Leicestershire</a> market, 290 new-build completions were recorded - see our <a href="/market-reports/leicestershire-property-market">Leicestershire property market report</a> for the full county picture.`,
       ],
     },
     {

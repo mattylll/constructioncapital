@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "warminster-wiltshire-property-market",
   title: "Warminster Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Warminster House Prices 2026 — Property Market Data & Development Finance | Wiltshire",
+  metaTitle: "Warminster House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
   metaDescription: "Warminster property prices: median £299,246, 331 sales, -5% YoY. Detached £429,975, Flat £129,750. Land Registry data for Warminster, Wiltshire.",
   excerpt: "Median price £299,246, 331 sales, -5% YoY. Wiltshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Warminster recorded <strong>13</strong> new-build transactions in the past 12 months, representing <strong>3.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Warminster traded at a <strong>premium of 47.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded — see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded - see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
       ],
     },
     {

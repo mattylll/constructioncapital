@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wolverhampton-west-midlands-property-market",
   title: "Wolverhampton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wolverhampton House Prices 2026 — Property Market Data & Development Finance | West Midlands",
+  metaTitle: "Wolverhampton House Prices 2026 - Property Market Data & Development Finance | West Midlands",
   metaDescription: "Wolverhampton property prices: median £210,000, 1,746 sales, +2.4% YoY. Detached £325,000, Flat £103,500. Land Registry data for Wolverhampton, West Midlands.",
   excerpt: "Median price £210,000, 1,746 sales, +2.4% YoY. West Midlands county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Wolverhampton recorded <strong>13</strong> new-build transactions in the past 12 months, representing <strong>0.7%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Wolverhampton traded at a <strong>discount of 7.1%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/west-midlands-property-market">West Midlands</a> market, 308 new-build completions were recorded — see our <a href="/market-reports/west-midlands-property-market">West Midlands property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-midlands-property-market">West Midlands</a> market, 308 new-build completions were recorded - see our <a href="/market-reports/west-midlands-property-market">West Midlands property market report</a> for the full county picture.`,
       ],
     },
     {

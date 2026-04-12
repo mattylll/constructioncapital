@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "scarborough-north-yorkshire-property-market",
   title: "Scarborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Scarborough House Prices 2026 — Property Market Data & Development Finance | North Yorkshire",
+  metaTitle: "Scarborough House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
   metaDescription: "Scarborough property prices: median £179,000, 948 sales, -5.8% YoY. Detached £325,000, Flat £115,000. Land Registry data for Scarborough, North Yorkshire.",
   excerpt: "Median price £179,000, 948 sales, -5.8% YoY. North Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Scarborough recorded <strong>36</strong> new-build transactions in the past 12 months, representing <strong>3.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Scarborough traded at a <strong>premium of 36.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> market, 130 new-build completions were recorded — see our <a href="/market-reports/north-yorkshire-property-market">North Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> market, 130 new-build completions were recorded - see our <a href="/market-reports/north-yorkshire-property-market">North Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

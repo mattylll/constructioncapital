@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "neath-swansea-property-market",
   title: "Neath Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Neath House Prices 2026 — Property Market Data & Development Finance | Swansea",
+  metaTitle: "Neath House Prices 2026 - Property Market Data & Development Finance | Swansea",
   metaDescription: "Neath property prices: median £160,000, 1,461 sales, +6.7% YoY. Detached £267,000, Flat £82,750. Land Registry data for Neath, Swansea.",
   excerpt: "Median price £160,000, 1,461 sales, +6.7% YoY. Swansea county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Neath recorded <strong>16</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Neath traded at a <strong>premium of 46.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/swansea-property-market">Swansea</a> market, 211 new-build completions were recorded — see our <a href="/market-reports/swansea-property-market">Swansea property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/swansea-property-market">Swansea</a> market, 211 new-build completions were recorded - see our <a href="/market-reports/swansea-property-market">Swansea property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "leeds-west-yorkshire-property-market",
   title: "Leeds Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Leeds House Prices 2026 — Property Market Data & Development Finance | West Yorkshire",
+  metaTitle: "Leeds House Prices 2026 - Property Market Data & Development Finance | West Yorkshire",
   metaDescription: "Leeds property prices: median £235,000, 7,768 sales, 0% YoY. Detached £420,000, Flat £150,000. Land Registry data for Leeds, West Yorkshire.",
   excerpt: "Median price £235,000, 7,768 sales, 0% YoY. West Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Leeds recorded <strong>127</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Leeds traded at a <strong>premium of 29.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded — see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded - see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

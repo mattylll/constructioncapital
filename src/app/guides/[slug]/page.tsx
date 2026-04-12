@@ -144,7 +144,7 @@ export default async function GuidePage({ params }: PageProps) {
 
       {/* Hero Section */}
       <section className="noise-overlay relative overflow-hidden py-20 text-white sm:py-28">
-        {/* Background photo — category-specific */}
+        {/* Background photo - category-specific */}
         <Image
           src={unsplashUrl((SITE_IMAGES[`guide-${guide.category}`] ?? SITE_IMAGES["guides-hero"]).id, 1920, 75)}
           alt=""

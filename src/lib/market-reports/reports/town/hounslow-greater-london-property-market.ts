@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hounslow-greater-london-property-market",
   title: "Hounslow Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hounslow House Prices 2026 — Property Market Data & Development Finance | Greater London",
+  metaTitle: "Hounslow House Prices 2026 - Property Market Data & Development Finance | Greater London",
   metaDescription: "Hounslow property prices: median £475,000, 1,428 sales, 0% YoY. Detached £720,000, Flat £325,000. Land Registry data for Hounslow, Greater London.",
   excerpt: "Median price £475,000, 1,428 sales, 0% YoY. Greater London county.",
   category: "town",
@@ -34,7 +34,7 @@ const report: MarketReport = {
       heading: `New Build Homes in Hounslow`,
       content: [
         `Hounslow recorded <strong>39</strong> new-build transactions in the past 12 months, representing <strong>2.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded - see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {

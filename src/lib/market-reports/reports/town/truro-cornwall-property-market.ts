@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "truro-cornwall-property-market",
   title: "Truro Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Truro House Prices 2026 — Property Market Data & Development Finance | Cornwall",
+  metaTitle: "Truro House Prices 2026 - Property Market Data & Development Finance | Cornwall",
   metaDescription: "Truro property prices: median £320,000, 595 sales, -1.7% YoY. Detached £469,283, Flat £180,000. Land Registry data for Truro, Cornwall.",
   excerpt: "Median price £320,000, 595 sales, -1.7% YoY. Cornwall county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Truro recorded <strong>5</strong> new-build transactions in the past 12 months, representing <strong>0.8%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Truro traded at a <strong>premium of 154.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded — see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded - see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ashford-kent-property-market",
   title: "Ashford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ashford House Prices 2026 — Property Market Data & Development Finance | Kent",
+  metaTitle: "Ashford House Prices 2026 - Property Market Data & Development Finance | Kent",
   metaDescription: "Ashford property prices: median £340,000, 1,336 sales, 0% YoY. Detached £500,000, Flat £180,000. Land Registry data for Ashford, Kent.",
   excerpt: "Median price £340,000, 1,336 sales, 0% YoY. Kent county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Ashford recorded <strong>27</strong> new-build transactions in the past 12 months, representing <strong>2.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Ashford traded at a <strong>premium of 50.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded — see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded - see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
       ],
     },
     {

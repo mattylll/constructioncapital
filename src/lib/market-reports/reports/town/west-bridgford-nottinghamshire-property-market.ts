@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "west-bridgford-nottinghamshire-property-market",
   title: "West Bridgford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "West Bridgford House Prices 2026 — Property Market Data & Development Finance | Nottinghamshire",
+  metaTitle: "West Bridgford House Prices 2026 - Property Market Data & Development Finance | Nottinghamshire",
   metaDescription: "West Bridgford property prices: median £325,000, 1,412 sales, -5.2% YoY. Detached £425,000, Flat £160,000. Land Registry data for West Bridgford, Nottinghamshire.",
   excerpt: "Median price £325,000, 1,412 sales, -5.2% YoY. Nottinghamshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `West Bridgford recorded <strong>82</strong> new-build transactions in the past 12 months, representing <strong>5.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in West Bridgford traded at a <strong>premium of 14.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire</a> market, 284 new-build completions were recorded — see our <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire</a> market, 284 new-build completions were recorded - see our <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire property market report</a> for the full county picture.`,
       ],
     },
     {

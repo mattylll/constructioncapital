@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "midlands-market-overview",
   title: "Midlands Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "Midlands Property Market 2026 — County Prices, Trends & Development Hotspots",
+  metaTitle: "Midlands Property Market 2026 - County Prices, Trends & Development Hotspots",
   metaDescription: "Midlands property market overview: 10 counties, 82,232 sales, median £238,500. County comparisons, development hotspots & finance options.",
   excerpt: "10 counties, 82,232 transactions, median £238,500.",
   category: "regional",
@@ -31,7 +31,7 @@ const report: MarketReport = {
     {
       heading: `Price Geography`,
       content: [
-        `Property prices across Midlands vary significantly. <a href="/market-reports/warwickshire-property-market">Warwickshire</a> commands the highest median price at <strong>£330,000</strong>, while <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire</a> offers the most affordable entry at <strong>£210,000</strong> — a spread of <strong>£120k</strong>.`,
+        `Property prices across Midlands vary significantly. <a href="/market-reports/warwickshire-property-market">Warwickshire</a> commands the highest median price at <strong>£330,000</strong>, while <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire</a> offers the most affordable entry at <strong>£210,000</strong> - a spread of <strong>£120k</strong>.`,
         `This price differential creates opportunities across the risk-return spectrum. Premium locations offer higher GDVs but require larger capital commitments, while more affordable areas can deliver stronger percentage returns on lower absolute investment.`,
       ],
     },
@@ -39,7 +39,7 @@ const report: MarketReport = {
       heading: `Development Hotspots`,
       content: [
         `The most active development markets in Midlands, measured by new-build completions, are <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> (352 new builds), <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> (315 new builds), <a href="/market-reports/west-midlands-property-market">West Midlands</a> (308 new builds).`,
-        `By total transaction volume — an indicator of market liquidity and exit confidence — <a href="/market-reports/west-midlands-property-market">West Midlands</a> (20,681 sales), <a href="/market-reports/staffordshire-property-market">Staffordshire</a> (9,577 sales), <a href="/market-reports/leicestershire-property-market">Leicestershire</a> (8,776 sales) lead the region.`,
+        `By total transaction volume - an indicator of market liquidity and exit confidence - <a href="/market-reports/west-midlands-property-market">West Midlands</a> (20,681 sales), <a href="/market-reports/staffordshire-property-market">Staffordshire</a> (9,577 sales), <a href="/market-reports/leicestershire-property-market">Leicestershire</a> (8,776 sales) lead the region.`,
         `Developers entering the Midlands market should weigh these two metrics together: new-build activity shows where planning consent is achievable, while transaction volume confirms buyer demand.`,
       ],
     },
@@ -55,7 +55,7 @@ const report: MarketReport = {
       heading: `Key Takeaways`,
       content: [
         `<ul>
-<li><strong>Market size:</strong> 82,232 transactions across 10 counties — one of the UK's most active regions.</li>
+<li><strong>Market size:</strong> 82,232 transactions across 10 counties - one of the UK's most active regions.</li>
 <li><strong>Price range:</strong> £210,000 to £330,000 median prices, offering opportunities across the capital spectrum.</li>
 <li><strong>Market direction:</strong> 1 of 10 counties showing year-on-year price growth.</li>
 <li><strong>New build activity:</strong> 2,359 completions across the region, indicating a healthy development pipeline.</li>

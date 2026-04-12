@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "sudbury-suffolk-property-market",
   title: "Sudbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sudbury House Prices 2026 — Property Market Data & Development Finance | Suffolk",
+  metaTitle: "Sudbury House Prices 2026 - Property Market Data & Development Finance | Suffolk",
   metaDescription: "Sudbury property prices: median £320,000, 985 sales, -3% YoY. Detached £440,000, Flat £160,000. Land Registry data for Sudbury, Suffolk.",
   excerpt: "Median price £320,000, 985 sales, -3% YoY. Suffolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Sudbury recorded <strong>47</strong> new-build transactions in the past 12 months, representing <strong>4.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Sudbury traded at a <strong>premium of 46.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/suffolk-property-market">Suffolk</a> market, 189 new-build completions were recorded — see our <a href="/market-reports/suffolk-property-market">Suffolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/suffolk-property-market">Suffolk</a> market, 189 new-build completions were recorded - see our <a href="/market-reports/suffolk-property-market">Suffolk property market report</a> for the full county picture.`,
       ],
     },
     {

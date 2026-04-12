@@ -99,7 +99,7 @@ export function SiteFooter() {
   return (
     <footer className="border-t bg-primary text-primary-foreground">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        {/* Main grid — Brand, Services, Company */}
+        {/* Main grid - Brand, Services, Company */}
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div>
@@ -163,7 +163,7 @@ export function SiteFooter() {
             </ul>
           </div>
 
-          {/* Quick locations — top cities */}
+          {/* Quick locations - top cities */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-gold">
               Popular Locations
@@ -198,7 +198,7 @@ export function SiteFooter() {
           </div>
         </div>
 
-        {/* Regional location links — comprehensive internal linking */}
+        {/* Regional location links - comprehensive internal linking */}
         <div className="mt-12 border-t border-primary-foreground/10 pt-8">
           <h3 className="mb-6 text-sm font-semibold uppercase tracking-wider text-gold">
             Development Finance by Region

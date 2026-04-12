@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "sandy-bedfordshire-property-market",
   title: "Sandy Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sandy House Prices 2026 — Property Market Data & Development Finance | Bedfordshire",
+  metaTitle: "Sandy House Prices 2026 - Property Market Data & Development Finance | Bedfordshire",
   metaDescription: "Sandy property prices: median £335,000, 218 sales, +8.1% YoY. Detached £455,000, Flat £137,000. Land Registry data for Sandy, Bedfordshire.",
   excerpt: "Median price £335,000, 218 sales, +8.1% YoY. Bedfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Sandy recorded <strong>2</strong> new-build transactions in the past 12 months, representing <strong>0.9%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Sandy traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> market, 429 new-build completions were recorded — see our <a href="/market-reports/bedfordshire-property-market">Bedfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> market, 429 new-build completions were recorded - see our <a href="/market-reports/bedfordshire-property-market">Bedfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

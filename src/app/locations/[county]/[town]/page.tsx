@@ -138,7 +138,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     : `Development finance, bridging loans, mezzanine finance and commercial mortgages in ${townName}, ${countyName}. Expert property finance brokers with local knowledge.`;
 
   return {
-    title: `${townName} Development Finance — Property Market Data & Lending | ${countyName}`,
+    title: `${townName} Development Finance - Property Market Data & Lending | ${countyName}`,
     description: desc,
     alternates: { canonical: `${SITE_URL}/locations/${county}/${town}` },
     openGraph: {
@@ -237,7 +237,7 @@ export default async function TownPage({ params }: PageProps) {
   const localBusinessJsonLd = {
     "@context": "https://schema.org",
     "@type": "FinancialService",
-    name: `${SITE_NAME} — ${townName}`,
+    name: `${SITE_NAME} - ${townName}`,
     description: `Development finance, bridging loans, mezzanine finance and commercial mortgages in ${townName}, ${countyName}. Expert property finance brokers with local knowledge.`,
     url: `${SITE_URL}/locations/${county}/${town}`,
     telephone: CONTACT.phone,
@@ -416,7 +416,7 @@ export default async function TownPage({ params }: PageProps) {
         locationName={`${townName}, ${countyName}`}
       />
 
-      {/* Town Overview — finance-focused narrative */}
+      {/* Town Overview - finance-focused narrative */}
       <section className="bg-background py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
@@ -471,7 +471,7 @@ export default async function TownPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Services Grid — core offering, positioned high for user intent */}
+      {/* Services Grid - core offering, positioned high for user intent */}
       <section className="bg-muted/30 py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
@@ -576,12 +576,12 @@ export default async function TownPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Live Market Snapshot — data supports the finance narrative */}
+      {/* Live Market Snapshot - data supports the finance narrative */}
       {townStats && (
         <MarketSnapshot stats={townStats.marketSnapshot} townName={townName} />
       )}
 
-      {/* Local GDV Calculator — engagement tool near market data */}
+      {/* Local GDV Calculator - engagement tool near market data */}
       {townStats && (
         <LocalGdvCalculator
           defaultGdv={
@@ -598,12 +598,12 @@ export default async function TownPage({ params }: PageProps) {
         />
       )}
 
-      {/* Town Market Insights — editorial content, unique per town */}
+      {/* Town Market Insights - editorial content, unique per town */}
       {townMarketData && (
         <TownMarketInsights data={townMarketData} townName={townName} />
       )}
 
-      {/* Recent Sold Prices — from Land Registry data */}
+      {/* Recent Sold Prices - from Land Registry data */}
       {soldData && (
         <RecentSoldPrices
           transactions={soldData.recentTransactions}
@@ -612,7 +612,7 @@ export default async function TownPage({ params }: PageProps) {
         />
       )}
 
-      {/* Planning Applications — approved + pending */}
+      {/* Planning Applications - approved + pending */}
       {planningData && (
         <PlanningApplicationsTable
           approved={planningData.approvedApplications}
@@ -622,7 +622,7 @@ export default async function TownPage({ params }: PageProps) {
         />
       )}
 
-      {/* FAQs — data-driven, unique per town */}
+      {/* FAQs - data-driven, unique per town */}
       {townFaqs.length > 0 && (
         <section className="bg-muted/30 py-16 sm:py-20">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -641,7 +641,7 @@ export default async function TownPage({ params }: PageProps) {
                 Common Questions
               </p>
               <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-                Property Finance in {townName} — FAQs
+                Property Finance in {townName} - FAQs
               </h2>
 
               <div className="space-y-4">
@@ -707,7 +707,7 @@ export default async function TownPage({ params }: PageProps) {
       {/* Local Case Studies */}
       <LocalCaseStudies caseStudies={localCaseStudies} locationName={countyName} />
 
-      {/* Location Map — reference section near bottom */}
+      {/* Location Map - reference section near bottom */}
       <LocationMap locationName={townName} countyName={countyName} />
 
       {/* Related Towns */}

@@ -40,7 +40,7 @@ export function ShareResults({ params, calculatorSlug }: ShareResultsProps) {
   function handleShare() {
     if (navigator.share) {
       navigator.share({
-        title: "My Finance Calculation — Construction Capital",
+        title: "My Finance Calculation - Construction Capital",
         url: shareUrl,
       });
     } else {

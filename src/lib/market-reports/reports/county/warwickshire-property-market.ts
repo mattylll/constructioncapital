@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "warwickshire-property-market",
   title: "Warwickshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Warwickshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Warwickshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Warwickshire property market analysis: median price £330,000, 5,610 sales, -2.4% YoY. Town comparisons, new builds & development finance across 7 towns.",
   excerpt: "7 towns analysed. Median price £330,000, 5,610 transactions, -2.4% YoY.",
   category: "county",
@@ -17,9 +17,9 @@ const report: MarketReport = {
     {
       heading: `Warwickshire Property Market Overview`,
       content: [
-        `Warwickshire benefits from Birmingham's economic growth while maintaining its own distinct identity. Royal Leamington Spa is the county's premium residential market, with Regency architecture and strong buyer demand. Warwick has heritage appeal, while Nuneaton and Rugby offer more affordable development opportunities along key transport corridors. The county's automotive heritage — with JLR at Gaydon and Aston Martin at Gaydon — supports local employment.`,
-        `The <a href="/locations/warwickshire">Warwickshire</a> property market recorded <strong>5,610</strong> residential transactions over the past 12 months, with a median sale price of <strong>£330,000</strong> — £45k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2.4%</strong> across the county's principal towns.`,
-        `Key drivers of the Warwickshire property market include Leamington Spa Regency premium market, JLR and Aston Martin automotive employment, Rugby western growth area — 6,200 new homes. Additional factors include HS2 route corridor development.`,
+        `Warwickshire benefits from Birmingham's economic growth while maintaining its own distinct identity. Royal Leamington Spa is the county's premium residential market, with Regency architecture and strong buyer demand. Warwick has heritage appeal, while Nuneaton and Rugby offer more affordable development opportunities along key transport corridors. The county's automotive heritage - with JLR at Gaydon and Aston Martin at Gaydon - supports local employment.`,
+        `The <a href="/locations/warwickshire">Warwickshire</a> property market recorded <strong>5,610</strong> residential transactions over the past 12 months, with a median sale price of <strong>£330,000</strong> - £45k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2.4%</strong> across the county's principal towns.`,
+        `Key drivers of the Warwickshire property market include Leamington Spa Regency premium market, JLR and Aston Martin automotive employment, Rugby western growth area - 6,200 new homes. Additional factors include HS2 route corridor development.`,
       ],
     },
     {
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/warwickshire/kenilworth">Kenilworth</a></td><td>£405,000</td><td>299</td><td>+1.3%</td></tr><tr><td><a href="/locations/warwickshire/stratford-upon-avon">Stratford-upon-Avon</a></td><td>£351,750</td><td>1,606</td><td>-4.2%</td></tr><tr><td><a href="/locations/warwickshire/warwick">Warwick</a></td><td>£350,000</td><td>531</td><td>-1.4%</td></tr><tr><td><a href="/locations/warwickshire/leamington-spa">Leamington Spa</a></td><td>£330,000</td><td>749</td><td>-1.5%</td></tr><tr><td><a href="/locations/warwickshire/rugby">Rugby</a></td><td>£285,000</td><td>1,257</td><td>-3.4%</td></tr><tr><td><a href="/locations/warwickshire/bedworth">Bedworth</a></td><td>£230,000</td><td>286</td><td>-2.7%</td></tr><tr><td><a href="/locations/warwickshire/nuneaton">Nuneaton</a></td><td>£230,000</td><td>882</td><td>-4.8%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/warwickshire/kenilworth">Kenilworth</a> (£405,000), <a href="/locations/warwickshire/stratford-upon-avon">Stratford-upon-Avon</a> (£351,750), <a href="/locations/warwickshire/warwick">Warwick</a> (£350,000). Kenilworth's premium reflects affluent town between warwick and coventry with premium family housing and castle heritage.`,
         `<strong>Most affordable:</strong> <a href="/locations/warwickshire/nuneaton">Nuneaton</a> (£230,000), <a href="/locations/warwickshire/bedworth">Bedworth</a> (£230,000), <a href="/locations/warwickshire/rugby">Rugby</a> (£285,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/warwickshire/stratford-upon-avon">Stratford-upon-Avon</a> (1,606 sales), <a href="/locations/warwickshire/rugby">Rugby</a> (1,257 sales), <a href="/locations/warwickshire/nuneaton">Nuneaton</a> (882 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/warwickshire/stratford-upon-avon">Stratford-upon-Avon</a> (1,606 sales), <a href="/locations/warwickshire/rugby">Rugby</a> (1,257 sales), <a href="/locations/warwickshire/nuneaton">Nuneaton</a> (882 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Warwickshire market data carries direct implications for developers seeking finance. With a median property value of £330,000 and detached homes at £507,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Warwickshire, a scheme with a GDV of £507,000 would typically attract <strong>senior debt of £329,550</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -2.4%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Warwickshire's existing stock — particularly flat properties priced from £180,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Warwickshire's existing stock - particularly flat properties priced from £180,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Warwickshire's property market is experiencing a correction, with 1 of 7 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/warwickshire/kenilworth">Kenilworth</a> (+1.3%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Bedworth (-2.7%) and Rugby (-3.4%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Bedworth (-2.7%) and Rugby (-3.4%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Warwickshire's development pipeline will be shaped by Leamington Spa Regency premium market and JLR and Aston Martin automotive employment. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Warwickshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "brighton-sussex-property-market",
   title: "Brighton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Brighton House Prices 2026 — Property Market Data & Development Finance | Sussex",
+  metaTitle: "Brighton House Prices 2026 - Property Market Data & Development Finance | Sussex",
   metaDescription: "Brighton property prices: median £415,000, 2,565 sales, +3.8% YoY. Detached £681,250, Flat £300,000. Land Registry data for Brighton, Sussex.",
   excerpt: "Median price £415,000, 2,565 sales, +3.8% YoY. Sussex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Brighton recorded <strong>11</strong> new-build transactions in the past 12 months, representing <strong>0.4%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Brighton traded at a <strong>premium of 33.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/sussex-property-market">Sussex</a> market, 157 new-build completions were recorded — see our <a href="/market-reports/sussex-property-market">Sussex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/sussex-property-market">Sussex</a> market, 157 new-build completions were recorded - see our <a href="/market-reports/sussex-property-market">Sussex property market report</a> for the full county picture.`,
       ],
     },
     {

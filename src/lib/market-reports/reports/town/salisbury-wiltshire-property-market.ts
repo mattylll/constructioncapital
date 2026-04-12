@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "salisbury-wiltshire-property-market",
   title: "Salisbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Salisbury House Prices 2026 — Property Market Data & Development Finance | Wiltshire",
+  metaTitle: "Salisbury House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
   metaDescription: "Salisbury property prices: median £335,000, 1,182 sales, +4.7% YoY. Detached £480,000, Flat £174,500. Land Registry data for Salisbury, Wiltshire.",
   excerpt: "Median price £335,000, 1,182 sales, +4.7% YoY. Wiltshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Salisbury recorded <strong>5</strong> new-build transactions in the past 12 months, representing <strong>0.4%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Salisbury traded at a <strong>premium of 34.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded — see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded - see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
       ],
     },
     {

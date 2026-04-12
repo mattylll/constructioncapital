@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bromsgrove-worcestershire-property-market",
   title: "Bromsgrove Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bromsgrove House Prices 2026 — Property Market Data & Development Finance | Worcestershire",
+  metaTitle: "Bromsgrove House Prices 2026 - Property Market Data & Development Finance | Worcestershire",
   metaDescription: "Bromsgrove property prices: median £330,000, 885 sales, -2.9% YoY. Detached £486,250, Flat £150,000. Land Registry data for Bromsgrove, Worcestershire.",
   excerpt: "Median price £330,000, 885 sales, -2.9% YoY. Worcestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bromsgrove recorded <strong>7</strong> new-build transactions in the past 12 months, representing <strong>0.8%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Bromsgrove traded at a <strong>discount of 62.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/worcestershire-property-market">Worcestershire</a> market, 94 new-build completions were recorded — see our <a href="/market-reports/worcestershire-property-market">Worcestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/worcestershire-property-market">Worcestershire</a> market, 94 new-build completions were recorded - see our <a href="/market-reports/worcestershire-property-market">Worcestershire property market report</a> for the full county picture.`,
       ],
     },
     {

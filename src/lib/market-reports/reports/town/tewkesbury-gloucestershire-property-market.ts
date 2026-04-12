@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "tewkesbury-gloucestershire-property-market",
   title: "Tewkesbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Tewkesbury House Prices 2026 — Property Market Data & Development Finance | Gloucestershire",
+  metaTitle: "Tewkesbury House Prices 2026 - Property Market Data & Development Finance | Gloucestershire",
   metaDescription: "Tewkesbury property prices: median £315,000, 1,162 sales, -4.5% YoY. Detached £485,000, Flat £143,000. Land Registry data for Tewkesbury, Gloucestershire.",
   excerpt: "Median price £315,000, 1,162 sales, -4.5% YoY. Gloucestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Tewkesbury recorded <strong>40</strong> new-build transactions in the past 12 months, representing <strong>3.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Tewkesbury traded at a <strong>premium of 31.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/gloucestershire-property-market">Gloucestershire</a> market, 154 new-build completions were recorded — see our <a href="/market-reports/gloucestershire-property-market">Gloucestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/gloucestershire-property-market">Gloucestershire</a> market, 154 new-build completions were recorded - see our <a href="/market-reports/gloucestershire-property-market">Gloucestershire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "northallerton-north-yorkshire-property-market",
   title: "Northallerton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Northallerton House Prices 2026 — Property Market Data & Development Finance | North Yorkshire",
+  metaTitle: "Northallerton House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
   metaDescription: "Northallerton property prices: median £244,500, 334 sales, -1.4% YoY. Detached £383,750, Flat £116,500. Land Registry data for Northallerton, North Yorkshire.",
   excerpt: "Median price £244,500, 334 sales, -1.4% YoY. North Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Northallerton recorded <strong>5</strong> new-build transactions in the past 12 months, representing <strong>1.5%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Northallerton traded at a <strong>discount of 10.8%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> market, 130 new-build completions were recorded — see our <a href="/market-reports/north-yorkshire-property-market">North Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> market, 130 new-build completions were recorded - see our <a href="/market-reports/north-yorkshire-property-market">North Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

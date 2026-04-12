@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "macclesfield-cheshire-property-market",
   title: "Macclesfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Macclesfield House Prices 2026 — Property Market Data & Development Finance | Cheshire",
+  metaTitle: "Macclesfield House Prices 2026 - Property Market Data & Development Finance | Cheshire",
   metaDescription: "Macclesfield property prices: median £290,000, 1,102 sales, -3.3% YoY. Detached £510,000, Flat £175,000. Land Registry data for Macclesfield, Cheshire.",
   excerpt: "Median price £290,000, 1,102 sales, -3.3% YoY. Cheshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Macclesfield recorded <strong>47</strong> new-build transactions in the past 12 months, representing <strong>4.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Macclesfield traded at a <strong>premium of 26.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cheshire-property-market">Cheshire</a> market, 147 new-build completions were recorded — see our <a href="/market-reports/cheshire-property-market">Cheshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cheshire-property-market">Cheshire</a> market, 147 new-build completions were recorded - see our <a href="/market-reports/cheshire-property-market">Cheshire property market report</a> for the full county picture.`,
       ],
     },
     {

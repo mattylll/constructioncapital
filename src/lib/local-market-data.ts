@@ -4,7 +4,7 @@
  * Reads JSON files from data/generated/ at build/ISR time.
  * Returns null when data doesn't exist for a given town (graceful fallback).
  *
- * Server-only — do not use in client components.
+ * Server-only - do not use in client components.
  */
 
 import fs from "fs";

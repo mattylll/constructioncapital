@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hertford-hertfordshire-property-market",
   title: "Hertford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hertford House Prices 2026 — Property Market Data & Development Finance | Hertfordshire",
+  metaTitle: "Hertford House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
   metaDescription: "Hertford property prices: median £445,000, 408 sales, -1.1% YoY. Detached £847,500, Flat £275,000. Land Registry data for Hertford, Hertfordshire.",
   excerpt: "Median price £445,000, 408 sales, -1.1% YoY. Hertfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Hertford recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Hertford traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded - see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

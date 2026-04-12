@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "skegness-lincolnshire-property-market",
   title: "Skegness Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Skegness House Prices 2026 — Property Market Data & Development Finance | Lincolnshire",
+  metaTitle: "Skegness House Prices 2026 - Property Market Data & Development Finance | Lincolnshire",
   metaDescription: "Skegness property prices: median £204,998, 1,632 sales, -5.2% YoY. Detached £265,000, Flat £105,000. Land Registry data for Skegness, Lincolnshire.",
   excerpt: "Median price £204,998, 1,632 sales, -5.2% YoY. Lincolnshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Skegness recorded <strong>97</strong> new-build transactions in the past 12 months, representing <strong>5.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Skegness traded at a <strong>premium of 0.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> market, 352 new-build completions were recorded — see our <a href="/market-reports/lincolnshire-property-market">Lincolnshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> market, 352 new-build completions were recorded - see our <a href="/market-reports/lincolnshire-property-market">Lincolnshire property market report</a> for the full county picture.`,
       ],
     },
     {

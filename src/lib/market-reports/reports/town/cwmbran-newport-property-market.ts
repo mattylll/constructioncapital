@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cwmbran-newport-property-market",
   title: "Cwmbran Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Cwmbran House Prices 2026 — Property Market Data & Development Finance | Newport",
+  metaTitle: "Cwmbran House Prices 2026 - Property Market Data & Development Finance | Newport",
   metaDescription: "Cwmbran property prices: median £205,000, 418 sales, -2.4% YoY. Detached £342,500, Flat £118,000. Land Registry data for Cwmbran, Newport.",
   excerpt: "Median price £205,000, 418 sales, -2.4% YoY. Newport county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Cwmbran recorded <strong>9</strong> new-build transactions in the past 12 months, representing <strong>2.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Cwmbran traded at a <strong>premium of 50.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/newport-property-market">Newport</a> market, 147 new-build completions were recorded — see our <a href="/market-reports/newport-property-market">Newport property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/newport-property-market">Newport</a> market, 147 new-build completions were recorded - see our <a href="/market-reports/newport-property-market">Newport property market report</a> for the full county picture.`,
       ],
     },
     {

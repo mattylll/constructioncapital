@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "kenilworth-warwickshire-property-market",
   title: "Kenilworth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Kenilworth House Prices 2026 — Property Market Data & Development Finance | Warwickshire",
+  metaTitle: "Kenilworth House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
   metaDescription: "Kenilworth property prices: median £405,000, 299 sales, +1.3% YoY. Detached £560,000, Flat £208,750. Land Registry data for Kenilworth, Warwickshire.",
   excerpt: "Median price £405,000, 299 sales, +1.3% YoY. Warwickshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Kenilworth recorded <strong>13</strong> new-build transactions in the past 12 months, representing <strong>4.3%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Kenilworth traded at a <strong>premium of 23.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded — see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded - see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
       ],
     },
     {

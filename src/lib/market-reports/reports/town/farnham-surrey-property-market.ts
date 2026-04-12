@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "farnham-surrey-property-market",
   title: "Farnham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Farnham House Prices 2026 — Property Market Data & Development Finance | Surrey",
+  metaTitle: "Farnham House Prices 2026 - Property Market Data & Development Finance | Surrey",
   metaDescription: "Farnham property prices: median £549,975, 1,374 sales, +3.8% YoY. Detached £825,000, Flat £275,000. Land Registry data for Farnham, Surrey.",
   excerpt: "Median price £549,975, 1,374 sales, +3.8% YoY. Surrey county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Farnham recorded <strong>26</strong> new-build transactions in the past 12 months, representing <strong>1.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Farnham traded at a <strong>discount of 23.6%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/surrey-property-market">Surrey</a> market, 183 new-build completions were recorded — see our <a href="/market-reports/surrey-property-market">Surrey property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/surrey-property-market">Surrey</a> market, 183 new-build completions were recorded - see our <a href="/market-reports/surrey-property-market">Surrey property market report</a> for the full county picture.`,
       ],
     },
     {

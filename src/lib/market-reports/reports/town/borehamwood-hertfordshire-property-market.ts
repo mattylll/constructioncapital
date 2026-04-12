@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "borehamwood-hertfordshire-property-market",
   title: "Borehamwood Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Borehamwood House Prices 2026 — Property Market Data & Development Finance | Hertfordshire",
+  metaTitle: "Borehamwood House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
   metaDescription: "Borehamwood property prices: median £535,000, 867 sales, +2.9% YoY. Detached £965,000, Flat £310,000. Land Registry data for Borehamwood, Hertfordshire.",
   excerpt: "Median price £535,000, 867 sales, +2.9% YoY. Hertfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Borehamwood recorded <strong>6</strong> new-build transactions in the past 12 months, representing <strong>0.7%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Borehamwood traded at a <strong>premium of 42.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded - see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

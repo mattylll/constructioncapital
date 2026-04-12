@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wales-market-overview",
   title: "Wales Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "Wales Property Market 2026 — County Prices, Trends & Development Hotspots",
+  metaTitle: "Wales Property Market 2026 - County Prices, Trends & Development Hotspots",
   metaDescription: "Wales property market overview: 5 counties, 44,018 sales, median £225,000. County comparisons, development hotspots & finance options.",
   excerpt: "5 counties, 44,018 transactions, median £225,000.",
   category: "regional",
@@ -31,7 +31,7 @@ const report: MarketReport = {
     {
       heading: `Price Geography`,
       content: [
-        `Property prices across Wales vary significantly. <a href="/market-reports/cardiff-property-market">Cardiff</a> commands the highest median price at <strong>£265,000</strong>, while <a href="/market-reports/swansea-property-market">Swansea</a> offers the most affordable entry at <strong>£197,000</strong> — a spread of <strong>£68k</strong>.`,
+        `Property prices across Wales vary significantly. <a href="/market-reports/cardiff-property-market">Cardiff</a> commands the highest median price at <strong>£265,000</strong>, while <a href="/market-reports/swansea-property-market">Swansea</a> offers the most affordable entry at <strong>£197,000</strong> - a spread of <strong>£68k</strong>.`,
         `This price differential creates opportunities across the risk-return spectrum. Premium locations offer higher GDVs but require larger capital commitments, while more affordable areas can deliver stronger percentage returns on lower absolute investment.`,
       ],
     },
@@ -39,7 +39,7 @@ const report: MarketReport = {
       heading: `Development Hotspots`,
       content: [
         `The most active development markets in Wales, measured by new-build completions, are <a href="/market-reports/cardiff-property-market">Cardiff</a> (552 new builds), <a href="/market-reports/swansea-property-market">Swansea</a> (211 new builds), <a href="/market-reports/newport-property-market">Newport</a> (147 new builds).`,
-        `By total transaction volume — an indicator of market liquidity and exit confidence — <a href="/market-reports/cardiff-property-market">Cardiff</a> (20,970 sales), <a href="/market-reports/swansea-property-market">Swansea</a> (13,511 sales), <a href="/market-reports/newport-property-market">Newport</a> (5,792 sales) lead the region.`,
+        `By total transaction volume - an indicator of market liquidity and exit confidence - <a href="/market-reports/cardiff-property-market">Cardiff</a> (20,970 sales), <a href="/market-reports/swansea-property-market">Swansea</a> (13,511 sales), <a href="/market-reports/newport-property-market">Newport</a> (5,792 sales) lead the region.`,
         `Developers entering the Wales market should weigh these two metrics together: new-build activity shows where planning consent is achievable, while transaction volume confirms buyer demand.`,
       ],
     },
@@ -55,7 +55,7 @@ const report: MarketReport = {
       heading: `Key Takeaways`,
       content: [
         `<ul>
-<li><strong>Market size:</strong> 44,018 transactions across 5 counties — one of the UK's most active regions.</li>
+<li><strong>Market size:</strong> 44,018 transactions across 5 counties - one of the UK's most active regions.</li>
 <li><strong>Price range:</strong> £197,000 to £265,000 median prices, offering opportunities across the capital spectrum.</li>
 <li><strong>Market direction:</strong> 5 of 5 counties showing year-on-year price growth.</li>
 <li><strong>New build activity:</strong> 951 completions across the region, indicating a healthy development pipeline.</li>

@@ -24,7 +24,7 @@ export function Typewriter({
 
   useEffect(() => {
     if (currentLine >= lines.length) {
-      // Done typing — blink cursor then hide
+      // Done typing - blink cursor then hide
       const blinkTimeout = setTimeout(() => setShowCursor(false), 2000);
       return () => clearTimeout(blinkTimeout);
     }
@@ -42,7 +42,7 @@ export function Typewriter({
       }, speed);
       return () => clearTimeout(timeout);
     } else {
-      // Line complete — move to next after delay
+      // Line complete - move to next after delay
       const timeout = setTimeout(() => {
         setCurrentLine((l) => l + 1);
         setCurrentChar(0);

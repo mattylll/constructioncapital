@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "dorchester-dorset-property-market",
   title: "Dorchester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dorchester House Prices 2026 — Property Market Data & Development Finance | Dorset",
+  metaTitle: "Dorchester House Prices 2026 - Property Market Data & Development Finance | Dorset",
   metaDescription: "Dorchester property prices: median £335,500, 530 sales, -1% YoY. Detached £485,000, Flat £188,000. Land Registry data for Dorchester, Dorset.",
   excerpt: "Median price £335,500, 530 sales, -1% YoY. Dorset county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Dorchester recorded <strong>6</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Dorchester traded at a <strong>premium of 90.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/dorset-property-market">Dorset</a> market, 46 new-build completions were recorded — see our <a href="/market-reports/dorset-property-market">Dorset property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/dorset-property-market">Dorset</a> market, 46 new-build completions were recorded - see our <a href="/market-reports/dorset-property-market">Dorset property market report</a> for the full county picture.`,
       ],
     },
     {

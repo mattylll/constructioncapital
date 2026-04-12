@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "st-albans-hertfordshire-property-market",
   title: "St Albans Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "St Albans House Prices 2026 — Property Market Data & Development Finance | Hertfordshire",
+  metaTitle: "St Albans House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
   metaDescription: "St Albans property prices: median £575,000, 998 sales, 0% YoY. Detached £867,500, Flat £300,000. Land Registry data for St Albans, Hertfordshire.",
   excerpt: "Median price £575,000, 998 sales, 0% YoY. Hertfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `St Albans recorded <strong>19</strong> new-build transactions in the past 12 months, representing <strong>1.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in St Albans traded at a <strong>premium of 26.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded - see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

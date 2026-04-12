@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "thatcham-berkshire-property-market",
   title: "Thatcham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Thatcham House Prices 2026 — Property Market Data & Development Finance | Berkshire",
+  metaTitle: "Thatcham House Prices 2026 - Property Market Data & Development Finance | Berkshire",
   metaDescription: "Thatcham property prices: median £384,000, 361 sales, +3.8% YoY. Detached £600,000, Flat £184,750. Land Registry data for Thatcham, Berkshire.",
   excerpt: "Median price £384,000, 361 sales, +3.8% YoY. Berkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Thatcham recorded <strong>17</strong> new-build transactions in the past 12 months, representing <strong>4.7%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Thatcham traded at a <strong>premium of 72.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded — see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded - see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
       ],
     },
     {

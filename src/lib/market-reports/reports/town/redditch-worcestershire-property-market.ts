@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "redditch-worcestershire-property-market",
   title: "Redditch Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Redditch House Prices 2026 — Property Market Data & Development Finance | Worcestershire",
+  metaTitle: "Redditch House Prices 2026 - Property Market Data & Development Finance | Worcestershire",
   metaDescription: "Redditch property prices: median £247,500, 761 sales, +0.4% YoY. Detached £380,000, Flat £128,500. Land Registry data for Redditch, Worcestershire.",
   excerpt: "Median price £247,500, 761 sales, +0.4% YoY. Worcestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Redditch recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>0.5%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Redditch traded at a <strong>discount of 47.6%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/worcestershire-property-market">Worcestershire</a> market, 94 new-build completions were recorded — see our <a href="/market-reports/worcestershire-property-market">Worcestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/worcestershire-property-market">Worcestershire</a> market, 94 new-build completions were recorded - see our <a href="/market-reports/worcestershire-property-market">Worcestershire property market report</a> for the full county picture.`,
       ],
     },
     {

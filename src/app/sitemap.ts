@@ -220,7 +220,7 @@ export default function sitemap({
       ];
 
     case "news":
-      // News index only — individual article URLs are added dynamically
+      // News index only - individual article URLs are added dynamically
       // when the SQLite DB is available (better-sqlite3 is a devDependency)
       return [
         {

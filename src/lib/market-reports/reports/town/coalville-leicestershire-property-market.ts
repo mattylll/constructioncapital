@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "coalville-leicestershire-property-market",
   title: "Coalville Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Coalville House Prices 2026 — Property Market Data & Development Finance | Leicestershire",
+  metaTitle: "Coalville House Prices 2026 - Property Market Data & Development Finance | Leicestershire",
   metaDescription: "Coalville property prices: median £255,000, 1,288 sales, -5.6% YoY. Detached £350,000, Flat £145,000. Land Registry data for Coalville, Leicestershire.",
   excerpt: "Median price £255,000, 1,288 sales, -5.6% YoY. Leicestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Coalville recorded <strong>94</strong> new-build transactions in the past 12 months, representing <strong>7.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Coalville traded at a <strong>premium of 23.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/leicestershire-property-market">Leicestershire</a> market, 290 new-build completions were recorded — see our <a href="/market-reports/leicestershire-property-market">Leicestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/leicestershire-property-market">Leicestershire</a> market, 290 new-build completions were recorded - see our <a href="/market-reports/leicestershire-property-market">Leicestershire property market report</a> for the full county picture.`,
       ],
     },
     {

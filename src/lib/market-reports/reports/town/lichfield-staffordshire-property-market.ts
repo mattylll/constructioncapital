@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lichfield-staffordshire-property-market",
   title: "Lichfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lichfield House Prices 2026 — Property Market Data & Development Finance | Staffordshire",
+  metaTitle: "Lichfield House Prices 2026 - Property Market Data & Development Finance | Staffordshire",
   metaDescription: "Lichfield property prices: median £300,000, 1,183 sales, -1.6% YoY. Detached £471,000, Flat £158,000. Land Registry data for Lichfield, Staffordshire.",
   excerpt: "Median price £300,000, 1,183 sales, -1.6% YoY. Staffordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Lichfield recorded <strong>40</strong> new-build transactions in the past 12 months, representing <strong>3.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Lichfield traded at a <strong>discount of 2.9%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/staffordshire-property-market">Staffordshire</a> market, 173 new-build completions were recorded — see our <a href="/market-reports/staffordshire-property-market">Staffordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/staffordshire-property-market">Staffordshire</a> market, 173 new-build completions were recorded - see our <a href="/market-reports/staffordshire-property-market">Staffordshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hampshire-property-market",
   title: "Hampshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Hampshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Hampshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Hampshire property market analysis: median price £342,500, 13,543 sales, -2% YoY. Town comparisons, new builds & development finance across 10 towns.",
   excerpt: "10 towns analysed. Median price £342,500, 13,543 transactions, -2% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Hampshire Property Market Overview`,
       content: [
         `Hampshire is a large and diverse county anchored by the cities of Southampton and Portsmouth, with prosperous commuter towns along the M3 corridor. The county benefits from strong employment in defence, marine, and financial services, creating robust housing demand. Southampton's port-side regeneration and Winchester's heritage premium represent opposite ends of the value spectrum.`,
-        `The <a href="/locations/hampshire">Hampshire</a> property market recorded <strong>13,543</strong> residential transactions over the past 12 months, with a median sale price of <strong>£342,500</strong> — £58k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2%</strong> across the county's principal towns.`,
+        `The <a href="/locations/hampshire">Hampshire</a> property market recorded <strong>13,543</strong> residential transactions over the past 12 months, with a median sale price of <strong>£342,500</strong> - £58k above the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-2%</strong> across the county's principal towns.`,
         `Key drivers of the Hampshire property market include Southampton port regeneration and city centre living, Winchester premium market with heritage conversions, M3 corridor commuter demand. Additional factors include Military and defence sector housing demand.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/hampshire/fleet">Fleet</a></td><td>£450,000</td><td>1,005</td><td>-4.3%</td></tr><tr><td><a href="/locations/hampshire/winchester">Winchester</a></td><td>£450,000</td><td>1,229</td><td>0%</td></tr><tr><td><a href="/locations/hampshire/basingstoke">Basingstoke</a></td><td>£365,000</td><td>1,827</td><td>-2.7%</td></tr><tr><td><a href="/locations/hampshire/farnborough">Farnborough</a></td><td>£355,000</td><td>541</td><td>-3.3%</td></tr><tr><td><a href="/locations/hampshire/andover">Andover</a></td><td>£345,000</td><td>1,323</td><td>-5.5%</td></tr><tr><td><a href="/locations/hampshire/fareham">Fareham</a></td><td>£340,000</td><td>1,337</td><td>-2.9%</td></tr><tr><td><a href="/locations/hampshire/aldershot">Aldershot</a></td><td>£336,000</td><td>382</td><td>+4.2%</td></tr><tr><td><a href="/locations/hampshire/eastleigh">Eastleigh</a></td><td>£330,000</td><td>1,445</td><td>-4.3%</td></tr><tr><td><a href="/locations/hampshire/portsmouth">Portsmouth</a></td><td>£252,500</td><td>1,948</td><td>+1%</td></tr><tr><td><a href="/locations/hampshire/southampton">Southampton</a></td><td>£248,250</td><td>2,506</td><td>-2.6%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/hampshire/fleet">Fleet</a> (£450,000), <a href="/locations/hampshire/winchester">Winchester</a> (£450,000), <a href="/locations/hampshire/basingstoke">Basingstoke</a> (£365,000). Fleet's premium reflects affluent commuter town with strong family housing demand and limited new supply.`,
         `<strong>Most affordable:</strong> <a href="/locations/hampshire/southampton">Southampton</a> (£248,250), <a href="/locations/hampshire/portsmouth">Portsmouth</a> (£252,500), <a href="/locations/hampshire/eastleigh">Eastleigh</a> (£330,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/hampshire/southampton">Southampton</a> (2,506 sales), <a href="/locations/hampshire/portsmouth">Portsmouth</a> (1,948 sales), <a href="/locations/hampshire/basingstoke">Basingstoke</a> (1,827 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/hampshire/southampton">Southampton</a> (2,506 sales), <a href="/locations/hampshire/portsmouth">Portsmouth</a> (1,948 sales), <a href="/locations/hampshire/basingstoke">Basingstoke</a> (1,827 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Hampshire market data carries direct implications for developers seeking finance. With a median property value of £342,500 and detached homes at £560,624, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Hampshire, a scheme with a GDV of £560,624 would typically attract <strong>senior debt of £364,406</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -2%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Hampshire's existing stock — particularly flat properties priced from £177,500 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Hampshire's existing stock - particularly flat properties priced from £177,500 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Hampshire's property market is experiencing a correction, with 2 of 10 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/hampshire/aldershot">Aldershot</a> (+4.2%), <a href="/locations/hampshire/portsmouth">Portsmouth</a> (+1%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Southampton (-2.6%) and Basingstoke (-2.7%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Southampton (-2.6%) and Basingstoke (-2.7%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Hampshire's development pipeline will be shaped by Southampton port regeneration and city centre living and Winchester premium market with heritage conversions. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Hampshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

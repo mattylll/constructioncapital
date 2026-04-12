@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "halifax-west-yorkshire-property-market",
   title: "Halifax Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Halifax House Prices 2026 — Property Market Data & Development Finance | West Yorkshire",
+  metaTitle: "Halifax House Prices 2026 - Property Market Data & Development Finance | West Yorkshire",
   metaDescription: "Halifax property prices: median £182,500, 2,393 sales, +0.8% YoY. Detached £390,000, Flat £125,000. Land Registry data for Halifax, West Yorkshire.",
   excerpt: "Median price £182,500, 2,393 sales, +0.8% YoY. West Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Halifax recorded <strong>11</strong> new-build transactions in the past 12 months, representing <strong>0.5%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Halifax traded at a <strong>premium of 53.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded — see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded - see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

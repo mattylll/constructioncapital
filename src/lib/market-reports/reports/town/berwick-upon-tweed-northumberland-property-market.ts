@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "berwick-upon-tweed-northumberland-property-market",
   title: "Berwick-upon-Tweed Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Berwick-upon-Tweed House Prices 2026 — Property Market Data & Development Finance | Northumberland",
+  metaTitle: "Berwick-upon-Tweed House Prices 2026 - Property Market Data & Development Finance | Northumberland",
   metaDescription: "Berwick-upon-Tweed property prices: median £176,500, 185 sales, -6.2% YoY. Detached £322,500, Flat £110,000. Land Registry data for Berwick-upon-Tweed, Northumberland.",
   excerpt: "Median price £176,500, 185 sales, -6.2% YoY. Northumberland county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Berwick-upon-Tweed recorded <strong>2</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Berwick-upon-Tweed traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/northumberland-property-market">Northumberland</a> market, 72 new-build completions were recorded — see our <a href="/market-reports/northumberland-property-market">Northumberland property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northumberland-property-market">Northumberland</a> market, 72 new-build completions were recorded - see our <a href="/market-reports/northumberland-property-market">Northumberland property market report</a> for the full county picture.`,
       ],
     },
     {

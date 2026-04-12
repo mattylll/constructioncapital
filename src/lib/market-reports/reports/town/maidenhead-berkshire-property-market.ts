@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "maidenhead-berkshire-property-market",
   title: "Maidenhead Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Maidenhead House Prices 2026 — Property Market Data & Development Finance | Berkshire",
+  metaTitle: "Maidenhead House Prices 2026 - Property Market Data & Development Finance | Berkshire",
   metaDescription: "Maidenhead property prices: median £510,000, 666 sales, +2% YoY. Detached £810,000, Flat £282,500. Land Registry data for Maidenhead, Berkshire.",
   excerpt: "Median price £510,000, 666 sales, +2% YoY. Berkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Maidenhead recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>0.2%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Maidenhead traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded — see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded - see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
       ],
     },
     {

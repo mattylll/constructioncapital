@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "andover-hampshire-property-market",
   title: "Andover Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Andover House Prices 2026 — Property Market Data & Development Finance | Hampshire",
+  metaTitle: "Andover House Prices 2026 - Property Market Data & Development Finance | Hampshire",
   metaDescription: "Andover property prices: median £345,000, 1,323 sales, -5.5% YoY. Detached £556,250, Flat £175,000. Land Registry data for Andover, Hampshire.",
   excerpt: "Median price £345,000, 1,323 sales, -5.5% YoY. Hampshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Andover recorded <strong>16</strong> new-build transactions in the past 12 months, representing <strong>1.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Andover traded at a <strong>discount of 35.5%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded — see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded - see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
       ],
     },
     {

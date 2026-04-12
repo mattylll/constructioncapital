@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "morriston-swansea-property-market",
   title: "Morriston Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Morriston House Prices 2026 — Property Market Data & Development Finance | Swansea",
+  metaTitle: "Morriston House Prices 2026 - Property Market Data & Development Finance | Swansea",
   metaDescription: "Morriston property prices: median £197,000, 2,410 sales, +3.7% YoY. Detached £340,000, Flat £125,001. Land Registry data for Morriston, Swansea.",
   excerpt: "Median price £197,000, 2,410 sales, +3.7% YoY. Swansea county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Morriston recorded <strong>39</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Morriston traded at a <strong>premium of 79.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/swansea-property-market">Swansea</a> market, 211 new-build completions were recorded — see our <a href="/market-reports/swansea-property-market">Swansea property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/swansea-property-market">Swansea</a> market, 211 new-build completions were recorded - see our <a href="/market-reports/swansea-property-market">Swansea property market report</a> for the full county picture.`,
       ],
     },
     {

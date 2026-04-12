@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cambridge-cambridgeshire-property-market",
   title: "Cambridge Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Cambridge House Prices 2026 — Property Market Data & Development Finance | Cambridgeshire",
+  metaTitle: "Cambridge House Prices 2026 - Property Market Data & Development Finance | Cambridgeshire",
   metaDescription: "Cambridge property prices: median £489,500, 926 sales, -0.1% YoY. Detached £795,000, Flat £325,000. Land Registry data for Cambridge, Cambridgeshire.",
   excerpt: "Median price £489,500, 926 sales, -0.1% YoY. Cambridgeshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Cambridge recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>1.5%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Cambridge traded at a <strong>premium of 42.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire</a> market, 154 new-build completions were recorded — see our <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire</a> market, 154 new-build completions were recorded - see our <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire property market report</a> for the full county picture.`,
       ],
     },
     {

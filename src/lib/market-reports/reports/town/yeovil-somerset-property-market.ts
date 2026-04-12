@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "yeovil-somerset-property-market",
   title: "Yeovil Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Yeovil House Prices 2026 — Property Market Data & Development Finance | Somerset",
+  metaTitle: "Yeovil House Prices 2026 - Property Market Data & Development Finance | Somerset",
   metaDescription: "Yeovil property prices: median £240,000, 689 sales, -2% YoY. Detached £380,000, Flat £120,000. Land Registry data for Yeovil, Somerset.",
   excerpt: "Median price £240,000, 689 sales, -2% YoY. Somerset county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Yeovil recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>0.6%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Yeovil traded at a <strong>premium of 41.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/somerset-property-market">Somerset</a> market, 118 new-build completions were recorded — see our <a href="/market-reports/somerset-property-market">Somerset property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/somerset-property-market">Somerset</a> market, 118 new-build completions were recorded - see our <a href="/market-reports/somerset-property-market">Somerset property market report</a> for the full county picture.`,
       ],
     },
     {

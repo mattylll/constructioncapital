@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "pontefract-west-yorkshire-property-market",
   title: "Pontefract Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Pontefract House Prices 2026 — Property Market Data & Development Finance | West Yorkshire",
+  metaTitle: "Pontefract House Prices 2026 - Property Market Data & Development Finance | West Yorkshire",
   metaDescription: "Pontefract property prices: median £185,000, 1,074 sales, +1.1% YoY. Detached £287,500, Flat £87,500. Land Registry data for Pontefract, West Yorkshire.",
   excerpt: "Median price £185,000, 1,074 sales, +1.1% YoY. West Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Pontefract recorded <strong>40</strong> new-build transactions in the past 12 months, representing <strong>3.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Pontefract traded at a <strong>premium of 27.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded — see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded - see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stoke-on-trent-staffordshire-property-market",
   title: "Stoke-on-Trent Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stoke-on-Trent House Prices 2026 — Property Market Data & Development Finance | Staffordshire",
+  metaTitle: "Stoke-on-Trent House Prices 2026 - Property Market Data & Development Finance | Staffordshire",
   metaDescription: "Stoke-on-Trent property prices: median £140,000, 2,592 sales, 0% YoY. Detached £250,000, Flat £80,750. Land Registry data for Stoke-on-Trent, Staffordshire.",
   excerpt: "Median price £140,000, 2,592 sales, 0% YoY. Staffordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Stoke-on-Trent recorded <strong>26</strong> new-build transactions in the past 12 months, representing <strong>1.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Stoke-on-Trent traded at a <strong>premium of 40.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/staffordshire-property-market">Staffordshire</a> market, 173 new-build completions were recorded — see our <a href="/market-reports/staffordshire-property-market">Staffordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/staffordshire-property-market">Staffordshire</a> market, 173 new-build completions were recorded - see our <a href="/market-reports/staffordshire-property-market">Staffordshire property market report</a> for the full county picture.`,
       ],
     },
     {

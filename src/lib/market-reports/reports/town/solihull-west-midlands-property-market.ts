@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "solihull-west-midlands-property-market",
   title: "Solihull Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Solihull House Prices 2026 — Property Market Data & Development Finance | West Midlands",
+  metaTitle: "Solihull House Prices 2026 - Property Market Data & Development Finance | West Midlands",
   metaDescription: "Solihull property prices: median £324,000, 1,983 sales, +0.5% YoY. Detached £590,000, Flat £173,000. Land Registry data for Solihull, West Midlands.",
   excerpt: "Median price £324,000, 1,983 sales, +0.5% YoY. West Midlands county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Solihull recorded <strong>24</strong> new-build transactions in the past 12 months, representing <strong>1.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Solihull traded at a <strong>premium of 17.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/west-midlands-property-market">West Midlands</a> market, 308 new-build completions were recorded — see our <a href="/market-reports/west-midlands-property-market">West Midlands property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-midlands-property-market">West Midlands</a> market, 308 new-build completions were recorded - see our <a href="/market-reports/west-midlands-property-market">West Midlands property market report</a> for the full county picture.`,
       ],
     },
     {

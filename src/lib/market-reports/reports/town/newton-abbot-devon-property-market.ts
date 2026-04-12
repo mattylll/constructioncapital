@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newton-abbot-devon-property-market",
   title: "Newton Abbot Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newton Abbot House Prices 2026 — Property Market Data & Development Finance | Devon",
+  metaTitle: "Newton Abbot House Prices 2026 - Property Market Data & Development Finance | Devon",
   metaDescription: "Newton Abbot property prices: median £290,000, 1,518 sales, -3.3% YoY. Detached £425,000, Flat £160,000. Land Registry data for Newton Abbot, Devon.",
   excerpt: "Median price £290,000, 1,518 sales, -3.3% YoY. Devon county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Newton Abbot recorded <strong>35</strong> new-build transactions in the past 12 months, representing <strong>2.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Newton Abbot traded at a <strong>premium of 29.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/devon-property-market">Devon</a> market, 180 new-build completions were recorded — see our <a href="/market-reports/devon-property-market">Devon property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/devon-property-market">Devon</a> market, 180 new-build completions were recorded - see our <a href="/market-reports/devon-property-market">Devon property market report</a> for the full county picture.`,
       ],
     },
     {

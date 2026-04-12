@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "leighton-buzzard-bedfordshire-property-market",
   title: "Leighton Buzzard Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Leighton Buzzard House Prices 2026 — Property Market Data & Development Finance | Bedfordshire",
+  metaTitle: "Leighton Buzzard House Prices 2026 - Property Market Data & Development Finance | Bedfordshire",
   metaDescription: "Leighton Buzzard property prices: median £340,000, 658 sales, -5.6% YoY. Detached £517,000, Flat £190,000. Land Registry data for Leighton Buzzard, Bedfordshire.",
   excerpt: "Median price £340,000, 658 sales, -5.6% YoY. Bedfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Leighton Buzzard recorded <strong>44</strong> new-build transactions in the past 12 months, representing <strong>6.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Leighton Buzzard traded at a <strong>premium of 33.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> market, 429 new-build completions were recorded — see our <a href="/market-reports/bedfordshire-property-market">Bedfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> market, 429 new-build completions were recorded - see our <a href="/market-reports/bedfordshire-property-market">Bedfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

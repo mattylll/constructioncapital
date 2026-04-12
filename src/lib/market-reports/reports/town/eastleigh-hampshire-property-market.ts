@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "eastleigh-hampshire-property-market",
   title: "Eastleigh Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Eastleigh House Prices 2026 — Property Market Data & Development Finance | Hampshire",
+  metaTitle: "Eastleigh House Prices 2026 - Property Market Data & Development Finance | Hampshire",
   metaDescription: "Eastleigh property prices: median £330,000, 1,445 sales, -4.3% YoY. Detached £480,000, Flat £180,000. Land Registry data for Eastleigh, Hampshire.",
   excerpt: "Median price £330,000, 1,445 sales, -4.3% YoY. Hampshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Eastleigh recorded <strong>35</strong> new-build transactions in the past 12 months, representing <strong>2.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Eastleigh traded at a <strong>premium of 10.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded — see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded - see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
       ],
     },
     {

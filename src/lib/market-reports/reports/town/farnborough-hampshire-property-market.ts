@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "farnborough-hampshire-property-market",
   title: "Farnborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Farnborough House Prices 2026 — Property Market Data & Development Finance | Hampshire",
+  metaTitle: "Farnborough House Prices 2026 - Property Market Data & Development Finance | Hampshire",
   metaDescription: "Farnborough property prices: median £355,000, 541 sales, -3.3% YoY. Detached £575,000, Flat £214,650. Land Registry data for Farnborough, Hampshire.",
   excerpt: "Median price £355,000, 541 sales, -3.3% YoY. Hampshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Farnborough recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>0.7%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Farnborough traded at a <strong>discount of 9.1%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded — see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded - see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "brecon-powys-property-market",
   title: "Brecon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Brecon House Prices 2026 — Property Market Data & Development Finance | Powys",
+  metaTitle: "Brecon House Prices 2026 - Property Market Data & Development Finance | Powys",
   metaDescription: "Brecon property prices: median £285,000, 157 sales, +1.8% YoY. Detached £372,500, Flat £91,000. Land Registry data for Brecon, Powys.",
   excerpt: "Median price £285,000, 157 sales, +1.8% YoY. Powys county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Brecon recorded <strong>3</strong> new-build transactions in the past 12 months, representing <strong>1.9%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Brecon traded at a <strong>premium of 7.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/powys-property-market">Powys</a> market, 39 new-build completions were recorded — see our <a href="/market-reports/powys-property-market">Powys property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/powys-property-market">Powys</a> market, 39 new-build completions were recorded - see our <a href="/market-reports/powys-property-market">Powys property market report</a> for the full county picture.`,
       ],
     },
     {

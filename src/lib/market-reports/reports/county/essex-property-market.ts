@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "essex-property-market",
   title: "Essex Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Essex Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Essex Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Essex property market analysis: median price £341,500, 15,040 sales, -0.7% YoY. Town comparisons, new builds & development finance across 10 towns.",
   excerpt: "10 towns analysed. Median price £341,500, 15,040 transactions, -0.7% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Essex Property Market Overview`,
       content: [
         `Essex combines London-fringe regeneration areas with established commuter towns and the Thames Gateway growth corridor. The county's western edge merges with Greater London, offering development opportunities at London prices with Essex build costs. Basildon, Southend, and Chelmsford each have distinct market dynamics, from waterfront regeneration to city centre apartment schemes. The county's strong rental market supports both BTL investors and purpose-built rental development.`,
-        `The <a href="/locations/essex">Essex</a> property market recorded <strong>15,040</strong> residential transactions over the past 12 months, with a median sale price of <strong>£341,500</strong> — £57k above the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-0.7%</strong> across the county's principal towns.`,
+        `The <a href="/locations/essex">Essex</a> property market recorded <strong>15,040</strong> residential transactions over the past 12 months, with a median sale price of <strong>£341,500</strong> - £57k above the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-0.7%</strong> across the county's principal towns.`,
         `Key drivers of the Essex property market include Thames Gateway housing growth corridor, Chelmsford city status and commercial growth, Southend airport expansion and seafront regeneration. Additional factors include London overspill demand in western Essex.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/essex/brentwood">Brentwood</a></td><td>£500,000</td><td>853</td><td>+2%</td></tr><tr><td><a href="/locations/essex/chelmsford">Chelmsford</a></td><td>£395,000</td><td>1,848</td><td>-1.1%</td></tr><tr><td><a href="/locations/essex/canvey-island">Canvey Island</a></td><td>£355,000</td><td>848</td><td>0%</td></tr><tr><td><a href="/locations/essex/basildon">Basildon</a></td><td>£350,000</td><td>1,778</td><td>-1.4%</td></tr><tr><td><a href="/locations/essex/grays">Grays</a></td><td>£350,000</td><td>1,392</td><td>0%</td></tr><tr><td><a href="/locations/essex/braintree">Braintree</a></td><td>£333,000</td><td>1,709</td><td>-3.5%</td></tr><tr><td><a href="/locations/essex/harlow">Harlow</a></td><td>£330,000</td><td>756</td><td>+1.5%</td></tr><tr><td><a href="/locations/essex/southend-on-sea">Southend-on-Sea</a></td><td>£330,000</td><td>1,899</td><td>+1.5%</td></tr><tr><td><a href="/locations/essex/colchester">Colchester</a></td><td>£315,000</td><td>2,095</td><td>-1.6%</td></tr><tr><td><a href="/locations/essex/clacton-on-sea">Clacton-on-Sea</a></td><td>£267,750</td><td>1,862</td><td>-4.4%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/essex/brentwood">Brentwood</a> (£500,000), <a href="/locations/essex/chelmsford">Chelmsford</a> (£395,000), <a href="/locations/essex/canvey-island">Canvey Island</a> (£355,000). Brentwood's premium reflects affluent commuter town with elizabeth line proximity and premium family housing demand.`,
         `<strong>Most affordable:</strong> <a href="/locations/essex/clacton-on-sea">Clacton-on-Sea</a> (£267,750), <a href="/locations/essex/colchester">Colchester</a> (£315,000), <a href="/locations/essex/southend-on-sea">Southend-on-Sea</a> (£330,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/essex/colchester">Colchester</a> (2,095 sales), <a href="/locations/essex/southend-on-sea">Southend-on-Sea</a> (1,899 sales), <a href="/locations/essex/clacton-on-sea">Clacton-on-Sea</a> (1,862 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/essex/colchester">Colchester</a> (2,095 sales), <a href="/locations/essex/southend-on-sea">Southend-on-Sea</a> (1,899 sales), <a href="/locations/essex/clacton-on-sea">Clacton-on-Sea</a> (1,862 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Essex market data carries direct implications for developers seeking finance. With a median property value of £341,500 and detached homes at £520,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Essex, a scheme with a GDV of £520,000 would typically attract <strong>senior debt of £338,000</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -0.7%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Essex's existing stock — particularly flat properties priced from £200,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Essex's existing stock - particularly flat properties priced from £200,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Essex's property market is in a period of consolidation, with 3 of 10 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/essex/brentwood">Brentwood</a> (+2%), <a href="/locations/essex/harlow">Harlow</a> (+1.5%), <a href="/locations/essex/southend-on-sea">Southend-on-Sea</a> (+1.5%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Braintree (-3.5%) and Clacton-on-Sea (-4.4%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Braintree (-3.5%) and Clacton-on-Sea (-4.4%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Essex's development pipeline will be shaped by Thames Gateway housing growth corridor and Chelmsford city status and commercial growth. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Essex, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

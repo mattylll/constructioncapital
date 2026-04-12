@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "welwyn-garden-city-hertfordshire-property-market",
   title: "Welwyn Garden City Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Welwyn Garden City House Prices 2026 — Property Market Data & Development Finance | Hertfordshire",
+  metaTitle: "Welwyn Garden City House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
   metaDescription: "Welwyn Garden City property prices: median £417,250, 390 sales, +3.8% YoY. Detached £742,500, Flat £235,750. Land Registry data for Welwyn Garden City, Hertfordshire.",
   excerpt: "Median price £417,250, 390 sales, +3.8% YoY. Hertfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Welwyn Garden City recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Welwyn Garden City traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded - see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

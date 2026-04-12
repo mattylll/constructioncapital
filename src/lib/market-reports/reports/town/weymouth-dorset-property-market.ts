@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "weymouth-dorset-property-market",
   title: "Weymouth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Weymouth House Prices 2026 — Property Market Data & Development Finance | Dorset",
+  metaTitle: "Weymouth House Prices 2026 - Property Market Data & Development Finance | Dorset",
   metaDescription: "Weymouth property prices: median £270,000, 823 sales, -6.9% YoY. Detached £420,000, Flat £164,000. Land Registry data for Weymouth, Dorset.",
   excerpt: "Median price £270,000, 823 sales, -6.9% YoY. Dorset county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Weymouth recorded <strong>23</strong> new-build transactions in the past 12 months, representing <strong>2.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Weymouth traded at a <strong>premium of 7.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/dorset-property-market">Dorset</a> market, 46 new-build completions were recorded — see our <a href="/market-reports/dorset-property-market">Dorset property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/dorset-property-market">Dorset</a> market, 46 new-build completions were recorded - see our <a href="/market-reports/dorset-property-market">Dorset property market report</a> for the full county picture.`,
       ],
     },
     {

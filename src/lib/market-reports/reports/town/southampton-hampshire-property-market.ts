@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "southampton-hampshire-property-market",
   title: "Southampton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Southampton House Prices 2026 — Property Market Data & Development Finance | Hampshire",
+  metaTitle: "Southampton House Prices 2026 - Property Market Data & Development Finance | Hampshire",
   metaDescription: "Southampton property prices: median £248,250, 2,506 sales, -2.6% YoY. Detached £380,000, Flat £159,335. Land Registry data for Southampton, Hampshire.",
   excerpt: "Median price £248,250, 2,506 sales, -2.6% YoY. Hampshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Southampton recorded <strong>6</strong> new-build transactions in the past 12 months, representing <strong>0.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Southampton traded at a <strong>discount of 18.9%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded — see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded - see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
       ],
     },
     {

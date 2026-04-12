@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "harrogate-north-yorkshire-property-market",
   title: "Harrogate Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Harrogate House Prices 2026 — Property Market Data & Development Finance | North Yorkshire",
+  metaTitle: "Harrogate House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
   metaDescription: "Harrogate property prices: median £313,750, 1,184 sales, +0.6% YoY. Detached £576,500, Flat £227,475. Land Registry data for Harrogate, North Yorkshire.",
   excerpt: "Median price £313,750, 1,184 sales, +0.6% YoY. North Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Harrogate recorded <strong>24</strong> new-build transactions in the past 12 months, representing <strong>2.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Harrogate traded at a <strong>discount of 70.6%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> market, 130 new-build completions were recorded — see our <a href="/market-reports/north-yorkshire-property-market">North Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> market, 130 new-build completions were recorded - see our <a href="/market-reports/north-yorkshire-property-market">North Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

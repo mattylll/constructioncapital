@@ -12,7 +12,7 @@ import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 export const metadata: Metadata = {
   title: `Our Lender Panel | ${SITE_NAME}`,
   description:
-    "Access to 100+ lenders across the UK development finance market. Senior debt, mezzanine, bridging, equity and commercial mortgage lenders — all vetted and relationship-managed.",
+    "Access to 100+ lenders across the UK development finance market. Senior debt, mezzanine, bridging, equity and commercial mortgage lenders - all vetted and relationship-managed.",
   alternates: {
     canonical: `${SITE_URL}/lender-panel`,
   },

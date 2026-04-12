@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "consett-county-durham-property-market",
   title: "Consett Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Consett House Prices 2026 — Property Market Data & Development Finance | County Durham",
+  metaTitle: "Consett House Prices 2026 - Property Market Data & Development Finance | County Durham",
   metaDescription: "Consett property prices: median £134,950, 523 sales, -3.6% YoY. Detached £277,000, Flat £66,500. Land Registry data for Consett, County Durham.",
   excerpt: "Median price £134,950, 523 sales, -3.6% YoY. County Durham county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Consett recorded <strong>19</strong> new-build transactions in the past 12 months, representing <strong>3.6%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Consett traded at a <strong>premium of 78.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/county-durham-property-market">County Durham</a> market, 215 new-build completions were recorded — see our <a href="/market-reports/county-durham-property-market">County Durham property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/county-durham-property-market">County Durham</a> market, 215 new-build completions were recorded - see our <a href="/market-reports/county-durham-property-market">County Durham property market report</a> for the full county picture.`,
       ],
     },
     {

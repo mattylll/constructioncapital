@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "leatherhead-surrey-property-market",
   title: "Leatherhead Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Leatherhead House Prices 2026 — Property Market Data & Development Finance | Surrey",
+  metaTitle: "Leatherhead House Prices 2026 - Property Market Data & Development Finance | Surrey",
   metaDescription: "Leatherhead property prices: median £582,500, 328 sales, +0.4% YoY. Detached £875,000, Flat £260,000. Land Registry data for Leatherhead, Surrey.",
   excerpt: "Median price £582,500, 328 sales, +0.4% YoY. Surrey county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Leatherhead recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Leatherhead traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/surrey-property-market">Surrey</a> market, 183 new-build completions were recorded — see our <a href="/market-reports/surrey-property-market">Surrey property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/surrey-property-market">Surrey</a> market, 183 new-build completions were recorded - see our <a href="/market-reports/surrey-property-market">Surrey property market report</a> for the full county picture.`,
       ],
     },
     {

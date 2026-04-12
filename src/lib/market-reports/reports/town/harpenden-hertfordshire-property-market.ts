@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "harpenden-hertfordshire-property-market",
   title: "Harpenden Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Harpenden House Prices 2026 — Property Market Data & Development Finance | Hertfordshire",
+  metaTitle: "Harpenden House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
   metaDescription: "Harpenden property prices: median £760,000, 296 sales, -0.7% YoY. Detached £1.42m, Flat £330,000. Land Registry data for Harpenden, Hertfordshire.",
   excerpt: "Median price £760,000, 296 sales, -0.7% YoY. Hertfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Harpenden recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>0.3%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Harpenden traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded - see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

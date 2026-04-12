@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "keynsham-bristol-property-market",
   title: "Keynsham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Keynsham House Prices 2026 — Property Market Data & Development Finance | Bristol",
+  metaTitle: "Keynsham House Prices 2026 - Property Market Data & Development Finance | Bristol",
   metaDescription: "Keynsham property prices: median £390,000, 1,917 sales, -1.3% YoY. Detached £580,000, Flat £265,000. Land Registry data for Keynsham, Bristol.",
   excerpt: "Median price £390,000, 1,917 sales, -1.3% YoY. Bristol county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Keynsham recorded <strong>8</strong> new-build transactions in the past 12 months, representing <strong>0.4%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Keynsham traded at a <strong>premium of 86.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/bristol-property-market">Bristol</a> market, 171 new-build completions were recorded — see our <a href="/market-reports/bristol-property-market">Bristol property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/bristol-property-market">Bristol</a> market, 171 new-build completions were recorded - see our <a href="/market-reports/bristol-property-market">Bristol property market report</a> for the full county picture.`,
       ],
     },
     {

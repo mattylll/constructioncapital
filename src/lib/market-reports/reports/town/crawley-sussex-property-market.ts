@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "crawley-sussex-property-market",
   title: "Crawley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Crawley House Prices 2026 — Property Market Data & Development Finance | Sussex",
+  metaTitle: "Crawley House Prices 2026 - Property Market Data & Development Finance | Sussex",
   metaDescription: "Crawley property prices: median £342,750, 862 sales, -0.7% YoY. Detached £580,000, Flat £205,000. Land Registry data for Crawley, Sussex.",
   excerpt: "Median price £342,750, 862 sales, -0.7% YoY. Sussex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Crawley recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>0.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Crawley traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/sussex-property-market">Sussex</a> market, 157 new-build completions were recorded — see our <a href="/market-reports/sussex-property-market">Sussex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/sussex-property-market">Sussex</a> market, 157 new-build completions were recorded - see our <a href="/market-reports/sussex-property-market">Sussex property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "county-durham-property-market",
   title: "County Durham Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "County Durham Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "County Durham Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "County Durham property market analysis: median price £128,500, 9,852 sales, +1.4% YoY. Town comparisons, new builds & development finance across 6 towns.",
   excerpt: "6 towns analysed. Median price £128,500, 9,852 transactions, +1.4% YoY.",
   category: "county",
@@ -17,8 +17,8 @@ const report: MarketReport = {
     {
       heading: `County Durham Property Market Overview`,
       content: [
-        `County Durham combines the cathedral city of Durham — a UNESCO World Heritage Site — with former mining communities that offer some of England's most affordable property. Durham University creates strong student housing demand in the city, while the wider county's regeneration zones in Bishop Auckland and Newton Aycliffe provide development opportunities at accessible values. The A1(M) corridor connects the county to Newcastle and Teesside.`,
-        `The <a href="/locations/county-durham">County Durham</a> property market recorded <strong>9,852</strong> residential transactions over the past 12 months, with a median sale price of <strong>£128,500</strong> — £157k below the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+1.4%</strong> across the county's principal towns.`,
+        `County Durham combines the cathedral city of Durham - a UNESCO World Heritage Site - with former mining communities that offer some of England's most affordable property. Durham University creates strong student housing demand in the city, while the wider county's regeneration zones in Bishop Auckland and Newton Aycliffe provide development opportunities at accessible values. The A1(M) corridor connects the county to Newcastle and Teesside.`,
+        `The <a href="/locations/county-durham">County Durham</a> property market recorded <strong>9,852</strong> residential transactions over the past 12 months, with a median sale price of <strong>£128,500</strong> - £157k below the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+1.4%</strong> across the county's principal towns.`,
         `Key drivers of the County Durham property market include Durham University student housing demand, Bishop Auckland Heritage Action Zone, Hitachi Newton Aycliffe rail manufacturing. Additional factors include A1(M) corridor connectivity.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/county-durham/durham">Durham</a></td><td>£149,950</td><td>1,393</td><td>-6.3%</td></tr><tr><td><a href="/locations/county-durham/consett">Consett</a></td><td>£134,950</td><td>523</td><td>-3.6%</td></tr><tr><td><a href="/locations/county-durham/newton-aycliffe">Newton Aycliffe</a></td><td>£132,500</td><td>282</td><td>-2.6%</td></tr><tr><td><a href="/locations/county-durham/chester-le-street">Chester-le-Street</a></td><td>£124,500</td><td>6,469</td><td>+1.2%</td></tr><tr><td><a href="/locations/county-durham/bishop-auckland">Bishop Auckland</a></td><td>£110,000</td><td>714</td><td>+2.8%</td></tr><tr><td><a href="/locations/county-durham/peterlee">Peterlee</a></td><td>£77,000</td><td>471</td><td>+16.7%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/county-durham/durham">Durham</a> (£149,950), <a href="/locations/county-durham/consett">Consett</a> (£134,950), <a href="/locations/county-durham/newton-aycliffe">Newton Aycliffe</a> (£132,500). Durham's premium reflects unesco world heritage city with premium university housing demand and conservation area constraints.`,
         `<strong>Most affordable:</strong> <a href="/locations/county-durham/peterlee">Peterlee</a> (£77,000), <a href="/locations/county-durham/bishop-auckland">Bishop Auckland</a> (£110,000), <a href="/locations/county-durham/chester-le-street">Chester-le-Street</a> (£124,500). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/county-durham/chester-le-street">Chester-le-Street</a> (6,469 sales), <a href="/locations/county-durham/durham">Durham</a> (1,393 sales), <a href="/locations/county-durham/bishop-auckland">Bishop Auckland</a> (714 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/county-durham/chester-le-street">Chester-le-Street</a> (6,469 sales), <a href="/locations/county-durham/durham">Durham</a> (1,393 sales), <a href="/locations/county-durham/bishop-auckland">Bishop Auckland</a> (714 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The County Durham market data carries direct implications for developers seeking finance. With a median property value of £128,500 and detached homes at £250,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in County Durham, a scheme with a GDV of £250,000 would typically attract <strong>senior debt of £162,500</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `With prices rising at 1.4% year-on-year, the market environment is supportive of new development. Lenders view rising markets favourably when assessing applications.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, County Durham's existing stock — particularly flat properties priced from £65,500 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, County Durham's existing stock - particularly flat properties priced from £65,500 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `County Durham's property market is on an upward trajectory, with 3 of 6 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/county-durham/peterlee">Peterlee</a> (+16.7%), <a href="/locations/county-durham/bishop-auckland">Bishop Auckland</a> (+2.8%), <a href="/locations/county-durham/chester-le-street">Chester-le-Street</a> (+1.2%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Newton Aycliffe (-2.6%) and Consett (-3.6%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Newton Aycliffe (-2.6%) and Consett (-3.6%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, County Durham's development pipeline will be shaped by Durham University student housing demand and Bishop Auckland Heritage Action Zone. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in County Durham, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

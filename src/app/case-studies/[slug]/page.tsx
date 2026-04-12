@@ -23,7 +23,7 @@ import { getGuidesByService } from "@/lib/guides";
 import { getReportByCountySlug } from "@/lib/market-reports";
 import { countyNameToSlug, loanTypeToServiceSlug } from "@/lib/location-content";
 
-// Static placeholder case studies — will be replaced with Convex data
+// Static placeholder case studies - will be replaced with Convex data
 const caseStudies = [
   {
     slug: "residential-scheme-manchester",
@@ -38,7 +38,7 @@ const caseStudies = [
     description:
       "Structured senior debt for a ground-up residential scheme in South Manchester. Planning secured for 12 apartments across two blocks.",
     challenge:
-      "The developer had full planning permission for 12 apartments across two blocks in South Manchester but faced difficulties securing funding at competitive rates. Several high-street lenders had declined due to the developer's limited track record with schemes of this scale, despite having successfully completed smaller projects. The tight timeline — with planning permission due to lapse within 18 months — added urgency to the funding requirement.",
+      "The developer had full planning permission for 12 apartments across two blocks in South Manchester but faced difficulties securing funding at competitive rates. Several high-street lenders had declined due to the developer's limited track record with schemes of this scale, despite having successfully completed smaller projects. The tight timeline - with planning permission due to lapse within 18 months - added urgency to the funding requirement.",
     solution:
       "We approached our specialist development finance panel, presenting the scheme's strong fundamentals: excellent location near transport links, competitive build costs from a reputable contractor, and strong comparable evidence supporting the GDV. By structuring the facility with a phased drawdown aligned to build milestones, we secured terms from a specialist lender comfortable with the developer's experience level. The facility included a day-one land drawdown of 60% LTV against the site value.",
     outcome:
@@ -59,7 +59,7 @@ const caseStudies = [
     description:
       "Combined senior and mezzanine structure for a commercial-to-residential conversion in Birmingham city centre. 24 apartments over ground-floor retail.",
     challenge:
-      "An experienced developer identified a former office building in Birmingham's Jewellery Quarter with permitted development rights for conversion to 24 residential units, retaining the ground floor for commercial use. The total project cost of £4.9M required leverage beyond what a single senior lender would provide. The developer had equity of approximately £750K — enough for a 65% LTC senior facility but insufficient to cover the full costs without additional funding.",
+      "An experienced developer identified a former office building in Birmingham's Jewellery Quarter with permitted development rights for conversion to 24 residential units, retaining the ground floor for commercial use. The total project cost of £4.9M required leverage beyond what a single senior lender would provide. The developer had equity of approximately £750K - enough for a 65% LTC senior facility but insufficient to cover the full costs without additional funding.",
     solution:
       "We structured a dual-tranche capital stack: a senior development facility at 65% of costs from a mainstream specialist lender, topped up with a mezzanine facility from a separate provider to bring total leverage to 85% of costs. The mezzanine was structured as a profit-share arrangement, aligning the funder's interests with the developer. Both facilities were co-ordinated with a single monitoring surveyor to minimise friction during the build phase.",
     outcome:
@@ -80,11 +80,11 @@ const caseStudies = [
     description:
       "Rapid bridging finance for an auction purchase in Hackney. Funds drawn within 14 days to meet auction completion deadline, then refinanced into refurbishment facility.",
     challenge:
-      "The borrower won a property at auction in Hackney, East London, for £850K — significantly below the estimated market value of £1.1M. However, the property required substantial refurbishment (estimated £350K) before it could be sold or refinanced. The 28-day auction completion deadline meant traditional lender timelines were not feasible. The borrower needed certainty of completion to avoid losing the deposit.",
+      "The borrower won a property at auction in Hackney, East London, for £850K - significantly below the estimated market value of £1.1M. However, the property required substantial refurbishment (estimated £350K) before it could be sold or refinanced. The 28-day auction completion deadline meant traditional lender timelines were not feasible. The borrower needed certainty of completion to avoid losing the deposit.",
     solution:
       "We arranged a regulated bridging loan within 14 days, funding 70% of the purchase price on day one. The valuer confirmed the open market value at £1.05M, supporting the LTV at completion. We pre-arranged a refurbishment exit facility with a separate lender, ensuring the borrower had a clear path from acquisition through to the completed, refinanced asset. Both facilities were documented in parallel to minimise dead time between drawdowns.",
     outcome:
-      "The auction purchase completed on day 12 — well within the deadline. The refurbishment facility was drawn down 4 weeks later, with works completed in 5 months. The finished property was valued at £1.8M, and the borrower refinanced onto a long-term residential mortgage at 60% LTV. Total profit after all costs and finance charges: approximately £420K.",
+      "The auction purchase completed on day 12 - well within the deadline. The refurbishment facility was drawn down 4 weeks later, with works completed in 5 months. The finished property was valued at £1.8M, and the borrower refinanced onto a long-term residential mortgage at 60% LTV. Total profit after all costs and finance charges: approximately £420K.",
     isFeatured: false,
     publishedAt: "2024-04-10",
   },
@@ -105,7 +105,7 @@ const caseStudies = [
     solution:
       "We introduced a family office from our equity partner network willing to provide 100% of the development costs as a JV equity investment, with the developer contributing the land (valued at £1.7M) as their equity stake. The structure gave the developer 60% of net profits in exchange for managing the project, with the family office receiving 40% plus a preferred return of 8% per annum. We also sourced a senior debt facility at 55% LTGDV to gear the JV, reducing the family office's cash outlay.",
     outcome:
-      "The 30-unit scheme was completed in 22 months. Sales achieved a blended GDV of £9.1M — 7% above the original appraisal. After repaying the senior lender and the family office (including preferred return), the developer's net profit share exceeded £1.2M on a project where they contributed no cash. The family office has since committed to a further two projects with the same developer.",
+      "The 30-unit scheme was completed in 22 months. Sales achieved a blended GDV of £9.1M - 7% above the original appraisal. After repaying the senior lender and the family office (including preferred return), the developer's net profit share exceeded £1.2M on a project where they contributed no cash. The family office has since committed to a further two projects with the same developer.",
     isFeatured: true,
     publishedAt: "2024-02-28",
   },
@@ -145,7 +145,7 @@ const caseStudies = [
     challenge:
       "A property company sought to acquire a multi-tenanted office building in Edinburgh's financial district for £4.2M. The building had 6 tenants on various lease lengths (2–8 years remaining), with a WAULT of 4.3 years. The occupancy rate was 85%, with one floor vacant. High-street banks were cautious due to the mixed lease profile and the vacancy void, offering terms at higher margins than the borrower's target.",
     solution:
-      "We approached specialist commercial mortgage lenders who took a more nuanced view of the tenancy schedule. By presenting a detailed income analysis — including the reversionary potential of the vacant floor and strong comparable evidence for office rents in the area — we secured a 15-year fixed-rate facility at 70% LTV. The lender allowed the vacant floor to be excluded from the income covenant calculation for the first 12 months, giving the borrower time to let the space.",
+      "We approached specialist commercial mortgage lenders who took a more nuanced view of the tenancy schedule. By presenting a detailed income analysis - including the reversionary potential of the vacant floor and strong comparable evidence for office rents in the area - we secured a 15-year fixed-rate facility at 70% LTV. The lender allowed the vacant floor to be excluded from the income covenant calculation for the first 12 months, giving the borrower time to let the space.",
     outcome:
       "The acquisition completed within 6 weeks. The borrower let the vacant floor within 4 months of completion at a rent 15% above the assumed ERV, bringing the building to full occupancy. The 15-year fixed rate of 5.2% gave the borrower long-term certainty, and the asset's net yield post-finance exceeded 7.8%. The borrower is now exploring further acquisitions in the Edinburgh market.",
     isFeatured: false,
@@ -171,17 +171,17 @@ export async function generateMetadata({
   if (!cs) return { title: "Case Study Not Found" };
 
   return {
-    title: `${cs.title} — ${cs.location}`,
+    title: `${cs.title} - ${cs.location}`,
     description: cs.description,
     openGraph: {
-      title: `${cs.title} — ${cs.location} | ${SITE_NAME}`,
+      title: `${cs.title} - ${cs.location} | ${SITE_NAME}`,
       description: cs.description,
       url: `${SITE_URL}/case-studies/${cs.slug}`,
       type: "article",
     },
     twitter: {
       card: "summary_large_image",
-      title: `${cs.title} — ${cs.location} | ${SITE_NAME}`,
+      title: `${cs.title} - ${cs.location} | ${SITE_NAME}`,
       description: cs.description,
     },
   };

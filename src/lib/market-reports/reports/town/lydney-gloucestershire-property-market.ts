@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lydney-gloucestershire-property-market",
   title: "Lydney Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lydney House Prices 2026 — Property Market Data & Development Finance | Gloucestershire",
+  metaTitle: "Lydney House Prices 2026 - Property Market Data & Development Finance | Gloucestershire",
   metaDescription: "Lydney property prices: median £280,000, 807 sales, +3.7% YoY. Detached £385,000, Flat £135,500. Land Registry data for Lydney, Gloucestershire.",
   excerpt: "Median price £280,000, 807 sales, +3.7% YoY. Gloucestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Lydney recorded <strong>6</strong> new-build transactions in the past 12 months, representing <strong>0.7%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Lydney traded at a <strong>premium of 6.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/gloucestershire-property-market">Gloucestershire</a> market, 154 new-build completions were recorded — see our <a href="/market-reports/gloucestershire-property-market">Gloucestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/gloucestershire-property-market">Gloucestershire</a> market, 154 new-build completions were recorded - see our <a href="/market-reports/gloucestershire-property-market">Gloucestershire property market report</a> for the full county picture.`,
       ],
     },
     {

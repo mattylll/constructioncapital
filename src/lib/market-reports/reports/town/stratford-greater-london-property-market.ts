@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stratford-greater-london-property-market",
   title: "Stratford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stratford House Prices 2026 — Property Market Data & Development Finance | Greater London",
+  metaTitle: "Stratford House Prices 2026 - Property Market Data & Development Finance | Greater London",
   metaDescription: "Stratford property prices: median £430,000, 1,369 sales, -2.2% YoY. Semi-detached £484,500, Flat £360,000. Land Registry data for Stratford, Greater London.",
   excerpt: "Median price £430,000, 1,369 sales, -2.2% YoY. Greater London county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Stratford recorded <strong>90</strong> new-build transactions in the past 12 months, representing <strong>6.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Stratford traded at a <strong>premium of 27.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded - see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {

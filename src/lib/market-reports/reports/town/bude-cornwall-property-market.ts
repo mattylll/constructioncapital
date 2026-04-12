@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bude-cornwall-property-market",
   title: "Bude Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bude House Prices 2026 — Property Market Data & Development Finance | Cornwall",
+  metaTitle: "Bude House Prices 2026 - Property Market Data & Development Finance | Cornwall",
   metaDescription: "Bude property prices: median £341,500, 184 sales, -7.7% YoY. Detached £416,000, Flat £195,000. Land Registry data for Bude, Cornwall.",
   excerpt: "Median price £341,500, 184 sales, -7.7% YoY. Cornwall county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bude recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>2.2%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Bude traded at a <strong>discount of 1.5%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded — see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded - see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
       ],
     },
     {

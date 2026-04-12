@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "croydon-greater-london-property-market",
   title: "Croydon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Croydon House Prices 2026 — Property Market Data & Development Finance | Greater London",
+  metaTitle: "Croydon House Prices 2026 - Property Market Data & Development Finance | Greater London",
   metaDescription: "Croydon property prices: median £415,000, 3,025 sales, +2.5% YoY. Detached £718,500, Flat £270,000. Land Registry data for Croydon, Greater London.",
   excerpt: "Median price £415,000, 3,025 sales, +2.5% YoY. Greater London county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Croydon recorded <strong>16</strong> new-build transactions in the past 12 months, representing <strong>0.5%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Croydon traded at a <strong>discount of 27.7%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded - see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {

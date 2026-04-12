@@ -17,7 +17,7 @@ const report: MarketReport = {
     {
       heading: `Development Finance Hotspots 2026`,
       content: [
-        `Where should developers be looking in 2026? This report combines three key metrics — new-build completions (developer activity), transaction volume (exit confidence), and price growth (market momentum) — to identify the UK's most attractive development finance markets.`,
+        `Where should developers be looking in 2026? This report combines three key metrics - new-build completions (developer activity), transaction volume (exit confidence), and price growth (market momentum) - to identify the UK's most attractive development finance markets.`,
       ],
     },
     {
@@ -31,7 +31,7 @@ const report: MarketReport = {
       heading: `Emerging Opportunities`,
       content: [
         `Beyond the top-ranked hotspots, several counties show strong growth momentum that may signal emerging opportunities:`,
-        `<strong><a href="/market-reports/swansea-property-market">Swansea</a></strong>: +4.2% growth with median prices at £197,000. Swansea Bay City Deal — £1bn+ investment<br/><br/><strong><a href="/market-reports/gwynedd-property-market">Gwynedd</a></strong>: +9.5% growth with median prices at £197,488. Snowdonia National Park tourism economy<br/><br/><strong><a href="/market-reports/powys-property-market">Powys</a></strong>: +2.3% growth with median prices at £241,875. Brecon Beacons National Park tourism`,
+        `<strong><a href="/market-reports/swansea-property-market">Swansea</a></strong>: +4.2% growth with median prices at £197,000. Swansea Bay City Deal - £1bn+ investment<br/><br/><strong><a href="/market-reports/gwynedd-property-market">Gwynedd</a></strong>: +9.5% growth with median prices at £197,488. Snowdonia National Park tourism economy<br/><br/><strong><a href="/market-reports/powys-property-market">Powys</a></strong>: +2.3% growth with median prices at £241,875. Brecon Beacons National Park tourism`,
       ],
     },
     {

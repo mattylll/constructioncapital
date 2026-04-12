@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "kettering-northamptonshire-property-market",
   title: "Kettering Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Kettering House Prices 2026 — Property Market Data & Development Finance | Northamptonshire",
+  metaTitle: "Kettering House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
   metaDescription: "Kettering property prices: median £250,000, 1,392 sales, -4.6% YoY. Detached £356,000, Flat £127,000. Land Registry data for Kettering, Northamptonshire.",
   excerpt: "Median price £250,000, 1,392 sales, -4.6% YoY. Northamptonshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Kettering recorded <strong>62</strong> new-build transactions in the past 12 months, representing <strong>4.5%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Kettering traded at a <strong>premium of 22.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> market, 315 new-build completions were recorded — see our <a href="/market-reports/northamptonshire-property-market">Northamptonshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> market, 315 new-build completions were recorded - see our <a href="/market-reports/northamptonshire-property-market">Northamptonshire property market report</a> for the full county picture.`,
       ],
     },
     {

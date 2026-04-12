@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "doncaster-south-yorkshire-property-market",
   title: "Doncaster Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Doncaster House Prices 2026 — Property Market Data & Development Finance | South Yorkshire",
+  metaTitle: "Doncaster House Prices 2026 - Property Market Data & Development Finance | South Yorkshire",
   metaDescription: "Doncaster property prices: median £165,100, 3,104 sales, -1.1% YoY. Detached £275,000, Flat £100,000. Land Registry data for Doncaster, South Yorkshire.",
   excerpt: "Median price £165,100, 3,104 sales, -1.1% YoY. South Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Doncaster recorded <strong>32</strong> new-build transactions in the past 12 months, representing <strong>1.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Doncaster traded at a <strong>premium of 46.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/south-yorkshire-property-market">South Yorkshire</a> market, 254 new-build completions were recorded — see our <a href="/market-reports/south-yorkshire-property-market">South Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/south-yorkshire-property-market">South Yorkshire</a> market, 254 new-build completions were recorded - see our <a href="/market-reports/south-yorkshire-property-market">South Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hessle-east-riding-of-yorkshire-property-market",
   title: "Hessle Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hessle House Prices 2026 — Property Market Data & Development Finance | East Riding of Yorkshire",
+  metaTitle: "Hessle House Prices 2026 - Property Market Data & Development Finance | East Riding of Yorkshire",
   metaDescription: "Hessle property prices: median £196,500, 223 sales, -4.3% YoY. Detached £325,000, Flat £108,000. Land Registry data for Hessle, East Riding of Yorkshire.",
   excerpt: "Median price £196,500, 223 sales, -4.3% YoY. East Riding of Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Hessle recorded <strong>6</strong> new-build transactions in the past 12 months, representing <strong>2.7%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Hessle traded at a <strong>premium of 59.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire</a> market, 132 new-build completions were recorded — see our <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire</a> market, 132 new-build completions were recorded - see our <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

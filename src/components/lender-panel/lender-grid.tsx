@@ -151,7 +151,7 @@ export function LenderGrid({ lenders }: LenderGridProps) {
                       Loan Range
                     </p>
                     <p className="text-xs font-semibold text-foreground">
-                      {lender.minLoan} — {lender.maxLoan}
+                      {lender.minLoan} - {lender.maxLoan}
                     </p>
                   </div>
                 </div>

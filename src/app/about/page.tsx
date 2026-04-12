@@ -22,7 +22,7 @@ import { SITE_NAME, SITE_URL, CONTACT, STATS } from "@/lib/constants";
 import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
 
 export const metadata: Metadata = {
-  title: "About Matt Lenzie — Founder & Principal Broker",
+  title: "About Matt Lenzie - Founder & Principal Broker",
   description:
     "Matt Lenzie has arranged over £500M in property development finance across 25+ years. Specialist in development finance, bridging loans, mezzanine finance and equity structuring for UK property developers.",
   alternates: {
@@ -44,7 +44,7 @@ const specialisms = [
   {
     icon: Briefcase,
     title: "Capital Stack Structuring",
-    detail: "Senior debt, stretch senior, mezzanine, preferred equity, and JV equity — structured as single or layered facilities to maximise developer returns.",
+    detail: "Senior debt, stretch senior, mezzanine, preferred equity, and JV equity - structured as single or layered facilities to maximise developer returns.",
   },
   {
     icon: MapPin,
@@ -82,7 +82,7 @@ const values = [
 
 const milestones = [
   { year: "2000", event: "Founded in London" },
-  { year: "2008", event: "Navigated the financial crisis — zero defaults" },
+  { year: "2008", event: "Navigated the financial crisis - zero defaults" },
   { year: "2015", event: "£250M in total funds arranged" },
   { year: "2020", event: "Expanded to nationwide coverage" },
   { year: "2024", event: "£500M+ arranged, 100+ lender panel" },
@@ -204,7 +204,7 @@ export default function AboutPage() {
             <p className="animate-fade-up delay-200 mt-7 max-w-xl text-lg leading-relaxed text-white/60">
               Construction Capital was founded on a simple principle: property
               developers deserve a broker who understands their business, speaks
-              their language, and delivers results — not excuses.
+              their language, and delivers results - not excuses.
             </p>
           </div>
         </div>
@@ -280,9 +280,9 @@ export default function AboutPage() {
                 <p>
                   With over 25 years in property finance, Matt has arranged more
                   than £500 million of development funding across the UK. His
-                  track record spans the full spectrum — from £200k light
+                  track record spans the full spectrum - from £200k light
                   refurbishments and HMO conversions to £50M+ multi-phase
-                  residential schemes — and the full capital stack from senior
+                  residential schemes - and the full capital stack from senior
                   debt through mezzanine, preferred equity, and JV structures.
                 </p>
                 <p>
@@ -290,22 +290,22 @@ export default function AboutPage() {
                   a decade at leading property finance institutions where he
                   built direct relationships with credit committees at
                   challenger banks, specialist lenders, family offices, and
-                  institutional debt funds. These relationships — maintained
-                  through consistent deal flow and transparent packaging — mean
+                  institutional debt funds. These relationships - maintained
+                  through consistent deal flow and transparent packaging - mean
                   faster credit decisions and more competitive terms for clients.
                 </p>
                 <p>
                   Matt personally manages every deal that enters the firm. His
                   approach is to understand the borrower&rsquo;s business plan,
                   model the capital structure, and present the opportunity to the
-                  right lenders on day one — not after weeks of speculative
+                  right lenders on day one - not after weeks of speculative
                   enquiries. This precision is why repeat clients account for
                   over 60% of Construction Capital&rsquo;s origination.
                 </p>
                 <p>
                   He has navigated every UK property cycle since the early 2000s,
                   including structuring exits during the 2008 financial crisis
-                  with zero client defaults — a track record that informs the
+                  with zero client defaults - a track record that informs the
                   conservative risk approach he applies to every deal today.
                 </p>
               </div>
@@ -403,7 +403,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ━━━ VALUES — Dark section ━━━ */}
+      {/* ━━━ VALUES - Dark section ━━━ */}
       <section
         className="noise-overlay relative overflow-hidden py-24 sm:py-32"
         style={{
@@ -586,7 +586,7 @@ export default function AboutPage() {
               {
                 icon: Award,
                 title: "£500M+ Arranged",
-                desc: "Over half a billion pounds in property finance structured across development, bridging, mezzanine, and equity — from £200k light refurbs to £50M+ multi-phase schemes.",
+                desc: "Over half a billion pounds in property finance structured across development, bridging, mezzanine, and equity - from £200k light refurbs to £50M+ multi-phase schemes.",
               },
               {
                 icon: Users,
@@ -596,7 +596,7 @@ export default function AboutPage() {
               {
                 icon: Shield,
                 title: "60%+ Repeat Business",
-                desc: "The majority of our deal flow comes from developers who return for their next project. Our track record through every market cycle — including zero client defaults in 2008 — speaks for itself.",
+                desc: "The majority of our deal flow comes from developers who return for their next project. Our track record through every market cycle - including zero client defaults in 2008 - speaks for itself.",
               },
             ].map((cred) => (
               <div
@@ -621,7 +621,7 @@ export default function AboutPage() {
             ))}
           </div>
 
-          {/* Process summary — demonstrates expertise */}
+          {/* Process summary - demonstrates expertise */}
           <div className="mx-auto mt-16 max-w-4xl rounded-2xl border border-border bg-card p-8 sm:p-10">
             <h3 className="mb-6 text-center text-xl font-bold tracking-tight">
               Our Deal Process

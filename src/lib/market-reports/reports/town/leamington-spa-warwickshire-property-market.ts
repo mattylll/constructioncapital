@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "leamington-spa-warwickshire-property-market",
   title: "Leamington Spa Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Leamington Spa House Prices 2026 — Property Market Data & Development Finance | Warwickshire",
+  metaTitle: "Leamington Spa House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
   metaDescription: "Leamington Spa property prices: median £330,000, 749 sales, -1.5% YoY. Detached £552,500, Flat £213,000. Land Registry data for Leamington Spa, Warwickshire.",
   excerpt: "Median price £330,000, 749 sales, -1.5% YoY. Warwickshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Leamington Spa recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>0.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Leamington Spa traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded — see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded - see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "braintree-essex-property-market",
   title: "Braintree Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Braintree House Prices 2026 — Property Market Data & Development Finance | Essex",
+  metaTitle: "Braintree House Prices 2026 - Property Market Data & Development Finance | Essex",
   metaDescription: "Braintree property prices: median £333,000, 1,709 sales, -3.5% YoY. Detached £505,000, Flat £170,000. Land Registry data for Braintree, Essex.",
   excerpt: "Median price £333,000, 1,709 sales, -3.5% YoY. Essex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Braintree recorded <strong>58</strong> new-build transactions in the past 12 months, representing <strong>3.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Braintree traded at a <strong>premium of 55.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded — see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded - see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "crewe-cheshire-property-market",
   title: "Crewe Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Crewe House Prices 2026 — Property Market Data & Development Finance | Cheshire",
+  metaTitle: "Crewe House Prices 2026 - Property Market Data & Development Finance | Cheshire",
   metaDescription: "Crewe property prices: median £203,000, 1,207 sales, +1.5% YoY. Detached £337,373, Flat £100,000. Land Registry data for Crewe, Cheshire.",
   excerpt: "Median price £203,000, 1,207 sales, +1.5% YoY. Cheshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Crewe recorded <strong>11</strong> new-build transactions in the past 12 months, representing <strong>0.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Crewe traded at a <strong>premium of 56.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cheshire-property-market">Cheshire</a> market, 147 new-build completions were recorded — see our <a href="/market-reports/cheshire-property-market">Cheshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cheshire-property-market">Cheshire</a> market, 147 new-build completions were recorded - see our <a href="/market-reports/cheshire-property-market">Cheshire property market report</a> for the full county picture.`,
       ],
     },
     {

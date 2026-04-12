@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "whitby-north-yorkshire-property-market",
   title: "Whitby Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Whitby House Prices 2026 — Property Market Data & Development Finance | North Yorkshire",
+  metaTitle: "Whitby House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
   metaDescription: "Whitby property prices: median £260,000, 252 sales, -3.7% YoY. Detached £370,000, Flat £157,500. Land Registry data for Whitby, North Yorkshire.",
   excerpt: "Median price £260,000, 252 sales, -3.7% YoY. North Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Whitby recorded <strong>12</strong> new-build transactions in the past 12 months, representing <strong>4.8%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Whitby traded at a <strong>discount of 6.2%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> market, 130 new-build completions were recorded — see our <a href="/market-reports/north-yorkshire-property-market">North Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> market, 130 new-build completions were recorded - see our <a href="/market-reports/north-yorkshire-property-market">North Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

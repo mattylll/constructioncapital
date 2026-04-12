@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "durham-county-durham-property-market",
   title: "Durham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Durham House Prices 2026 — Property Market Data & Development Finance | County Durham",
+  metaTitle: "Durham House Prices 2026 - Property Market Data & Development Finance | County Durham",
   metaDescription: "Durham property prices: median £149,950, 1,393 sales, -6.3% YoY. Detached £250,000, Terraced £110,000. Land Registry data for Durham, County Durham.",
   excerpt: "Median price £149,950, 1,393 sales, -6.3% YoY. County Durham county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Durham recorded <strong>31</strong> new-build transactions in the past 12 months, representing <strong>2.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Durham traded at a <strong>premium of 51.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/county-durham-property-market">County Durham</a> market, 215 new-build completions were recorded — see our <a href="/market-reports/county-durham-property-market">County Durham property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/county-durham-property-market">County Durham</a> market, 215 new-build completions were recorded - see our <a href="/market-reports/county-durham-property-market">County Durham property market report</a> for the full county picture.`,
       ],
     },
     {

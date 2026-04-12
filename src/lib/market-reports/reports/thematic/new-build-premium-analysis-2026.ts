@@ -4,7 +4,7 @@ const report: MarketReport = {
   slug: "new-build-premium-analysis-2026",
   title: "UK New Build Premium Analysis 2026",
   metaTitle: "UK New Build Premium Analysis 2026 | New Build vs Existing Prices",
-  metaDescription: "Analysis of new-build premiums and discounts across 48 UK counties. Where do new homes command higher prices — and where don't they?",
+  metaDescription: "Analysis of new-build premiums and discounts across 48 UK counties. Where do new homes command higher prices - and where don't they?",
   excerpt: "10,043 new builds analysed across 48 counties.",
   category: "thematic",
   
@@ -17,7 +17,7 @@ const report: MarketReport = {
     {
       heading: `UK New Build Market Overview`,
       content: [
-        `New-build homes accounted for <strong>10,043</strong> of <strong>451,709</strong> total residential transactions (<strong>2.2%</strong>) across England and Wales in the past 12 months. This analysis examines the new-build premium — or discount — in every county to help developers understand where newly built homes command higher values than existing stock.`,
+        `New-build homes accounted for <strong>10,043</strong> of <strong>451,709</strong> total residential transactions (<strong>2.2%</strong>) across England and Wales in the past 12 months. This analysis examines the new-build premium - or discount - in every county to help developers understand where newly built homes command higher values than existing stock.`,
       ],
     },
     {
@@ -38,7 +38,7 @@ const report: MarketReport = {
       heading: `New Build Activity by County`,
       content: [
         `The most active new-build counties are <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> (620 completions), <a href="/market-reports/cardiff-property-market">Cardiff</a> (552 completions), <a href="/market-reports/greater-london-property-market">Greater London</a> (509 completions), <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> (429 completions), <a href="/market-reports/kent-property-market">Kent</a> (376 completions).`,
-        `High new-build volumes indicate both planning consent availability and proven buyer demand — two essential factors for any development finance application.`,
+        `High new-build volumes indicate both planning consent availability and proven buyer demand - two essential factors for any development finance application.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cannock-staffordshire-property-market",
   title: "Cannock Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Cannock House Prices 2026 — Property Market Data & Development Finance | Staffordshire",
+  metaTitle: "Cannock House Prices 2026 - Property Market Data & Development Finance | Staffordshire",
   metaDescription: "Cannock property prices: median £215,000, 943 sales, -3.4% YoY. Detached £335,000, Flat £115,000. Land Registry data for Cannock, Staffordshire.",
   excerpt: "Median price £215,000, 943 sales, -3.4% YoY. Staffordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Cannock recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Cannock traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/staffordshire-property-market">Staffordshire</a> market, 173 new-build completions were recorded — see our <a href="/market-reports/staffordshire-property-market">Staffordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/staffordshire-property-market">Staffordshire</a> market, 173 new-build completions were recorded - see our <a href="/market-reports/staffordshire-property-market">Staffordshire property market report</a> for the full county picture.`,
       ],
     },
     {

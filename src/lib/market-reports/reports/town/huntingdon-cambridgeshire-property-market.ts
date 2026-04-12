@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "huntingdon-cambridgeshire-property-market",
   title: "Huntingdon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Huntingdon House Prices 2026 — Property Market Data & Development Finance | Cambridgeshire",
+  metaTitle: "Huntingdon House Prices 2026 - Property Market Data & Development Finance | Cambridgeshire",
   metaDescription: "Huntingdon property prices: median £305,000, 1,074 sales, -6.2% YoY. Detached £428,000, Flat £152,000. Land Registry data for Huntingdon, Cambridgeshire.",
   excerpt: "Median price £305,000, 1,074 sales, -6.2% YoY. Cambridgeshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Huntingdon recorded <strong>45</strong> new-build transactions in the past 12 months, representing <strong>4.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Huntingdon traded at a <strong>premium of 25.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire</a> market, 154 new-build completions were recorded — see our <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire</a> market, 154 new-build completions were recorded - see our <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire property market report</a> for the full county picture.`,
       ],
     },
     {

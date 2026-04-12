@@ -59,18 +59,18 @@ function findService(slug: string): Service | undefined {
   return SERVICES.find((s) => s.slug === slug);
 }
 
-// Varied title patterns per service — avoids near-duplicate title tags across thousands of pages
+// Varied title patterns per service - avoids near-duplicate title tags across thousands of pages
 const SERVICE_TITLE_PATTERNS: Record<string, (town: string, county: string) => { title: string; h1: [string, string] }> = {
   "development-finance": (town, county) => ({
-    title: `Development Finance in ${town}, ${county} — Rates from 6.5%`,
+    title: `Development Finance in ${town}, ${county} - Rates from 6.5%`,
     h1: ["Development Finance", `in ${town}`],
   }),
   "mezzanine-finance": (town, county) => ({
-    title: `Mezzanine Finance ${town} — Stretch to 90% LTGDV | ${county}`,
+    title: `Mezzanine Finance ${town} - Stretch to 90% LTGDV | ${county}`,
     h1: ["Mezzanine Finance", `for ${town} Developers`],
   }),
   "bridging-loans": (town, county) => ({
-    title: `Bridging Loans in ${town} — Complete in 7 Days | ${county}`,
+    title: `Bridging Loans in ${town} - Complete in 7 Days | ${county}`,
     h1: ["Bridging Loans", `in ${town}`],
   }),
   "equity-jv": (town, county) => ({
@@ -78,15 +78,15 @@ const SERVICE_TITLE_PATTERNS: Record<string, (town: string, county: string) => {
     h1: ["Equity & Joint Ventures", `in ${town}`],
   }),
   "refurbishment-finance": (town, county) => ({
-    title: `Refurbishment Finance ${town} — Light & Heavy Refurb | ${county}`,
+    title: `Refurbishment Finance ${town} - Light & Heavy Refurb | ${county}`,
     h1: ["Refurbishment Finance", `in ${town}`],
   }),
   "commercial-mortgages": (town, county) => ({
-    title: `Commercial Mortgages in ${town} — Rates from 5.5% | ${county}`,
+    title: `Commercial Mortgages in ${town} - Rates from 5.5% | ${county}`,
     h1: ["Commercial Mortgages", `in ${town}`],
   }),
   "development-exit-finance": (town, county) => ({
-    title: `Development Exit Finance in ${town} — From 0.55% p.m. | ${county}`,
+    title: `Development Exit Finance in ${town} - From 0.55% p.m. | ${county}`,
     h1: ["Development Exit Finance", `in ${town}`],
   }),
 };
@@ -419,7 +419,7 @@ export default async function ServicePage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Rich Content Sections — SEO depth with internal links */}
+      {/* Rich Content Sections - SEO depth with internal links */}
       {contentSections.length > 0 && (
         <section className="bg-muted/30 py-16 sm:py-20">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -450,7 +450,7 @@ export default async function ServicePage({ params }: PageProps) {
         </section>
       )}
 
-      {/* Local Market Snapshot — real data when available */}
+      {/* Local Market Snapshot - real data when available */}
       {townStats && (
         <MarketSnapshot stats={townStats.marketSnapshot} townName={townName} />
       )}
@@ -465,7 +465,7 @@ export default async function ServicePage({ params }: PageProps) {
         />
       )}
 
-      {/* Deal Analysis — financial breakdown of key schemes */}
+      {/* Deal Analysis - financial breakdown of key schemes */}
       {planningData && (
         <PlanningDealAnalysis
           applications={[

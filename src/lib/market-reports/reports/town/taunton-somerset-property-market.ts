@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "taunton-somerset-property-market",
   title: "Taunton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Taunton House Prices 2026 — Property Market Data & Development Finance | Somerset",
+  metaTitle: "Taunton House Prices 2026 - Property Market Data & Development Finance | Somerset",
   metaDescription: "Taunton property prices: median £277,500, 1,231 sales, -0.9% YoY. Detached £413,750, Flat £140,000. Land Registry data for Taunton, Somerset.",
   excerpt: "Median price £277,500, 1,231 sales, -0.9% YoY. Somerset county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Taunton recorded <strong>9</strong> new-build transactions in the past 12 months, representing <strong>0.7%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Taunton traded at a <strong>premium of 50.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/somerset-property-market">Somerset</a> market, 118 new-build completions were recorded — see our <a href="/market-reports/somerset-property-market">Somerset property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/somerset-property-market">Somerset</a> market, 118 new-build completions were recorded - see our <a href="/market-reports/somerset-property-market">Somerset property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "chorley-lancashire-property-market",
   title: "Chorley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chorley House Prices 2026 — Property Market Data & Development Finance | Lancashire",
+  metaTitle: "Chorley House Prices 2026 - Property Market Data & Development Finance | Lancashire",
   metaDescription: "Chorley property prices: median £212,500, 1,245 sales, +1.2% YoY. Detached £355,000, Flat £115,000. Land Registry data for Chorley, Lancashire.",
   excerpt: "Median price £212,500, 1,245 sales, +1.2% YoY. Lancashire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Chorley recorded <strong>23</strong> new-build transactions in the past 12 months, representing <strong>1.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Chorley traded at a <strong>premium of 61.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/lancashire-property-market">Lancashire</a> market, 224 new-build completions were recorded — see our <a href="/market-reports/lancashire-property-market">Lancashire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/lancashire-property-market">Lancashire</a> market, 224 new-build completions were recorded - see our <a href="/market-reports/lancashire-property-market">Lancashire property market report</a> for the full county picture.`,
       ],
     },
     {

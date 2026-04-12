@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "derbyshire-property-market",
   title: "Derbyshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Derbyshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Derbyshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Derbyshire property market analysis: median price £215,000, 7,464 sales, -3.5% YoY. Town comparisons, new builds & development finance across 7 towns.",
   excerpt: "7 towns analysed. Median price £215,000, 7,464 transactions, -3.5% YoY.",
   category: "county",
@@ -17,8 +17,8 @@ const report: MarketReport = {
     {
       heading: `Derbyshire Property Market Overview`,
       content: [
-        `Derbyshire's property market centres on Derby city — home to Rolls-Royce and Bombardier — with the Peak District National Park to the north creating a premium lifestyle market in towns like Bakewell and Matlock. Chesterfield's regeneration and the A38 corridor growth areas provide accessible development opportunities. The county's mix of industrial heritage and rural landscape creates diverse conversion and new-build opportunities.`,
-        `The <a href="/locations/derbyshire">Derbyshire</a> property market recorded <strong>7,464</strong> residential transactions over the past 12 months, with a median sale price of <strong>£215,000</strong> — £70k below the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-3.5%</strong> across the county's principal towns.`,
+        `Derbyshire's property market centres on Derby city - home to Rolls-Royce and Bombardier - with the Peak District National Park to the north creating a premium lifestyle market in towns like Bakewell and Matlock. Chesterfield's regeneration and the A38 corridor growth areas provide accessible development opportunities. The county's mix of industrial heritage and rural landscape creates diverse conversion and new-build opportunities.`,
+        `The <a href="/locations/derbyshire">Derbyshire</a> property market recorded <strong>7,464</strong> residential transactions over the past 12 months, with a median sale price of <strong>£215,000</strong> - £70k below the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-3.5%</strong> across the county's principal towns.`,
         `Key drivers of the Derbyshire property market include Rolls-Royce and Bombardier employment anchor, Derby Riverside regeneration, Peak District lifestyle premium. Additional factors include A38 corridor growth areas.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/derbyshire/matlock">Matlock</a></td><td>£310,000</td><td>739</td><td>-3.1%</td></tr><tr><td><a href="/locations/derbyshire/buxton">Buxton</a></td><td>£250,000</td><td>1,028</td><td>-3.8%</td></tr><tr><td><a href="/locations/derbyshire/swadlincote">Swadlincote</a></td><td>£237,000</td><td>1,323</td><td>-7%</td></tr><tr><td><a href="/locations/derbyshire/belper">Belper</a></td><td>£215,000</td><td>1,398</td><td>-6.5%</td></tr><tr><td><a href="/locations/derbyshire/long-eaton">Long Eaton</a></td><td>£205,000</td><td>1,271</td><td>-2.4%</td></tr><tr><td><a href="/locations/derbyshire/ilkeston">Ilkeston</a></td><td>£181,625</td><td>520</td><td>+0.9%</td></tr><tr><td><a href="/locations/derbyshire/chesterfield">Chesterfield</a></td><td>£181,500</td><td>1,185</td><td>-2.9%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/derbyshire/matlock">Matlock</a> (£310,000), <a href="/locations/derbyshire/buxton">Buxton</a> (£250,000), <a href="/locations/derbyshire/swadlincote">Swadlincote</a> (£237,000). Matlock's premium reflects derwent valley county town with world heritage site proximity and tourism-supported market.`,
         `<strong>Most affordable:</strong> <a href="/locations/derbyshire/chesterfield">Chesterfield</a> (£181,500), <a href="/locations/derbyshire/ilkeston">Ilkeston</a> (£181,625), <a href="/locations/derbyshire/long-eaton">Long Eaton</a> (£205,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/derbyshire/belper">Belper</a> (1,398 sales), <a href="/locations/derbyshire/swadlincote">Swadlincote</a> (1,323 sales), <a href="/locations/derbyshire/long-eaton">Long Eaton</a> (1,271 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/derbyshire/belper">Belper</a> (1,398 sales), <a href="/locations/derbyshire/swadlincote">Swadlincote</a> (1,323 sales), <a href="/locations/derbyshire/long-eaton">Long Eaton</a> (1,271 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Derbyshire market data carries direct implications for developers seeking finance. With a median property value of £215,000 and detached homes at £330,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Derbyshire, a scheme with a GDV of £330,000 would typically attract <strong>senior debt of £214,500</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -3.5%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Derbyshire's existing stock — particularly flat properties priced from £126,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Derbyshire's existing stock - particularly flat properties priced from £126,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Derbyshire's property market is experiencing a correction, with 1 of 7 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/derbyshire/ilkeston">Ilkeston</a> (+0.9%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Long Eaton (-2.4%) and Chesterfield (-2.9%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Long Eaton (-2.4%) and Chesterfield (-2.9%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Derbyshire's development pipeline will be shaped by Rolls-Royce and Bombardier employment anchor and Derby Riverside regeneration. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Derbyshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

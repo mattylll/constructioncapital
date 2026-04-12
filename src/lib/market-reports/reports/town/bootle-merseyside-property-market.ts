@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bootle-merseyside-property-market",
   title: "Bootle Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bootle House Prices 2026 — Property Market Data & Development Finance | Merseyside",
+  metaTitle: "Bootle House Prices 2026 - Property Market Data & Development Finance | Merseyside",
   metaDescription: "Bootle property prices: median £137,950, 402 sales, +15% YoY. Detached £240,000, Flat £63,665. Land Registry data for Bootle, Merseyside.",
   excerpt: "Median price £137,950, 402 sales, +15% YoY. Merseyside county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bootle recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Bootle traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/merseyside-property-market">Merseyside</a> market, 102 new-build completions were recorded — see our <a href="/market-reports/merseyside-property-market">Merseyside property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/merseyside-property-market">Merseyside</a> market, 102 new-build completions were recorded - see our <a href="/market-reports/merseyside-property-market">Merseyside property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -119,7 +119,7 @@ export default function ServicesPage() {
           }}
         />
 
-        {/* Hero image — right side accent */}
+        {/* Hero image - right side accent */}
         <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-1/2 lg:block">
           <Image
             src="/images/services-hero.png"

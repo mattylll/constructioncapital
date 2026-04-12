@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "brentwood-essex-property-market",
   title: "Brentwood Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Brentwood House Prices 2026 — Property Market Data & Development Finance | Essex",
+  metaTitle: "Brentwood House Prices 2026 - Property Market Data & Development Finance | Essex",
   metaDescription: "Brentwood property prices: median £500,000, 853 sales, +2% YoY. Detached £820,000, Flat £280,000. Land Registry data for Brentwood, Essex.",
   excerpt: "Median price £500,000, 853 sales, +2% YoY. Essex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Brentwood recorded <strong>43</strong> new-build transactions in the past 12 months, representing <strong>5.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Brentwood traded at a <strong>discount of 11.9%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded — see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded - see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
       ],
     },
     {

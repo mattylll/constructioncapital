@@ -61,7 +61,7 @@ function buildFAQCategories(): FAQCategory[] {
     });
   }
 
-  // Guide FAQs — grouped by category
+  // Guide FAQs - grouped by category
   const guidesByCategory = new Map<string, typeof GUIDES>();
   for (const guide of GUIDES) {
     if (!guide.faqs?.length) continue;
@@ -240,7 +240,7 @@ export default function FAQPage() {
           </h2>
           <p className="mt-3 text-white/50">
             Every property project is different. Tell us about yours and
-            we&apos;ll give you specific answers — plus indicative terms from
+            we&apos;ll give you specific answers - plus indicative terms from
             100+ lenders within 24 hours.
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">

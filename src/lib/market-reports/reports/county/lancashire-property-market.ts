@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lancashire-property-market",
   title: "Lancashire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Lancashire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Lancashire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Lancashire property market analysis: median price £156,750, 10,862 sales, -4.5% YoY. Town comparisons, new builds & development finance across 8 towns.",
   excerpt: "8 towns analysed. Median price £156,750, 10,862 transactions, -4.5% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Lancashire Property Market Overview`,
       content: [
         `Lancashire's property market is diverse, from Preston's growing city centre to Blackpool's coastal regeneration and the Lancashire Enterprise Zone. The county benefits from strong transport links via the M6, M65, and West Coast Main Line, with Preston offering competitive city-centre values compared to Manchester and Liverpool. The Ribble Valley and Forest of Bowland provide premium lifestyle markets.`,
-        `The <a href="/locations/lancashire">Lancashire</a> property market recorded <strong>10,862</strong> residential transactions over the past 12 months, with a median sale price of <strong>£156,750</strong> — £128k below the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-4.5%</strong> across the county's principal towns.`,
+        `The <a href="/locations/lancashire">Lancashire</a> property market recorded <strong>10,862</strong> residential transactions over the past 12 months, with a median sale price of <strong>£156,750</strong> - £128k below the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-4.5%</strong> across the county's principal towns.`,
         `Key drivers of the Lancashire property market include Preston city centre living strategy, Blackpool coastal regeneration, Lancashire Enterprise Zone. Additional factors include UCLan and Lancaster University student demand.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/lancashire/lytham-st-annes">Lytham St Annes</a></td><td>£232,000</td><td>1,019</td><td>-3.3%</td></tr><tr><td><a href="/locations/lancashire/chorley">Chorley</a></td><td>£212,500</td><td>1,245</td><td>+1.2%</td></tr><tr><td><a href="/locations/lancashire/lancaster">Lancaster</a></td><td>£190,000</td><td>1,517</td><td>-2.6%</td></tr><tr><td><a href="/locations/lancashire/preston">Preston</a></td><td>£166,500</td><td>1,601</td><td>-12.4%</td></tr><tr><td><a href="/locations/lancashire/blackburn">Blackburn</a></td><td>£147,000</td><td>1,496</td><td>-10.9%</td></tr><tr><td><a href="/locations/lancashire/blackpool">Blackpool</a></td><td>£130,000</td><td>1,846</td><td>+2.4%</td></tr><tr><td><a href="/locations/lancashire/accrington">Accrington</a></td><td>£125,000</td><td>941</td><td>-3.8%</td></tr><tr><td><a href="/locations/lancashire/burnley">Burnley</a></td><td>£107,000</td><td>1,197</td><td>-7%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/lancashire/lytham-st-annes">Lytham St Annes</a> (£232,000), <a href="/locations/lancashire/chorley">Chorley</a> (£212,500), <a href="/locations/lancashire/lancaster">Lancaster</a> (£190,000). Lytham St Annes's premium reflects fylde coast premium market with strong retirement and lifestyle buyer demand.`,
         `<strong>Most affordable:</strong> <a href="/locations/lancashire/burnley">Burnley</a> (£107,000), <a href="/locations/lancashire/accrington">Accrington</a> (£125,000), <a href="/locations/lancashire/blackpool">Blackpool</a> (£130,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/lancashire/blackpool">Blackpool</a> (1,846 sales), <a href="/locations/lancashire/preston">Preston</a> (1,601 sales), <a href="/locations/lancashire/lancaster">Lancaster</a> (1,517 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/lancashire/blackpool">Blackpool</a> (1,846 sales), <a href="/locations/lancashire/preston">Preston</a> (1,601 sales), <a href="/locations/lancashire/lancaster">Lancaster</a> (1,517 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Lancashire market data carries direct implications for developers seeking finance. With a median property value of £156,750 and detached homes at £309,125, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Lancashire, a scheme with a GDV of £309,125 would typically attract <strong>senior debt of £200,931</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -4.5%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Lancashire's existing stock — particularly flat properties priced from £89,625 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Lancashire's existing stock - particularly flat properties priced from £89,625 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Lancashire's property market is experiencing a correction, with 2 of 8 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/lancashire/blackpool">Blackpool</a> (+2.4%), <a href="/locations/lancashire/chorley">Chorley</a> (+1.2%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Lancaster (-2.6%) and Lytham St Annes (-3.3%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Lancaster (-2.6%) and Lytham St Annes (-3.3%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Lancashire's development pipeline will be shaped by Preston city centre living strategy and Blackpool coastal regeneration. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Lancashire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

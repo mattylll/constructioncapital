@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "sheffield-south-yorkshire-property-market",
   title: "Sheffield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sheffield House Prices 2026 — Property Market Data & Development Finance | South Yorkshire",
+  metaTitle: "Sheffield House Prices 2026 - Property Market Data & Development Finance | South Yorkshire",
   metaDescription: "Sheffield property prices: median £200,000, 4,411 sales, -4.3% YoY. Detached £360,000, Flat £135,370. Land Registry data for Sheffield, South Yorkshire.",
   excerpt: "Median price £200,000, 4,411 sales, -4.3% YoY. South Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Sheffield recorded <strong>18</strong> new-build transactions in the past 12 months, representing <strong>0.4%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Sheffield traded at a <strong>premium of 50.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/south-yorkshire-property-market">South Yorkshire</a> market, 254 new-build completions were recorded — see our <a href="/market-reports/south-yorkshire-property-market">South Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/south-yorkshire-property-market">South Yorkshire</a> market, 254 new-build completions were recorded - see our <a href="/market-reports/south-yorkshire-property-market">South Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

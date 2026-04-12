@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hackney-greater-london-property-market",
   title: "Hackney Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hackney House Prices 2026 — Property Market Data & Development Finance | Greater London",
+  metaTitle: "Hackney House Prices 2026 - Property Market Data & Development Finance | Greater London",
   metaDescription: "Hackney property prices: median £565,000, 1,494 sales, -1.7% YoY. Semi-detached £1.48m, Flat £509,000. Land Registry data for Hackney, Greater London.",
   excerpt: "Median price £565,000, 1,494 sales, -1.7% YoY. Greater London county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Hackney recorded <strong>76</strong> new-build transactions in the past 12 months, representing <strong>5.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Hackney traded at a <strong>discount of 10.8%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded - see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {

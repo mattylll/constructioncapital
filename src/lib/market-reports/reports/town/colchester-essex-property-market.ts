@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "colchester-essex-property-market",
   title: "Colchester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Colchester House Prices 2026 — Property Market Data & Development Finance | Essex",
+  metaTitle: "Colchester House Prices 2026 - Property Market Data & Development Finance | Essex",
   metaDescription: "Colchester property prices: median £315,000, 2,095 sales, -1.6% YoY. Detached £450,000, Flat £170,500. Land Registry data for Colchester, Essex.",
   excerpt: "Median price £315,000, 2,095 sales, -1.6% YoY. Essex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Colchester recorded <strong>69</strong> new-build transactions in the past 12 months, representing <strong>3.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Colchester traded at a <strong>premium of 22.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded — see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded - see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
       ],
     },
     {

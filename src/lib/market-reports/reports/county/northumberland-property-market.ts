@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "northumberland-property-market",
   title: "Northumberland Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Northumberland Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Northumberland Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Northumberland property market analysis: median price £212,500, 2,248 sales, -5.7% YoY. Town comparisons, new builds & development finance across 6 towns.",
   excerpt: "6 towns analysed. Median price £212,500, 2,248 transactions, -5.7% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Northumberland Property Market Overview`,
       content: [
         `Northumberland is England's most northerly county, with a property market shaped by its dramatic coastline, rural landscapes, and the growing commuter belt around Morpeth and Cramlington. The county offers some of the most affordable development opportunities in England, with strong demand for quality new-build housing in the accessible southern towns. Alnwick's castle and heritage tourism create a premium niche market.`,
-        `The <a href="/locations/northumberland">Northumberland</a> property market recorded <strong>2,248</strong> residential transactions over the past 12 months, with a median sale price of <strong>£212,500</strong> — £73k below the UK national median of £285,000. Prices have shown a notable decline, with a year-on-year change of <strong>-5.7%</strong> across the county's principal towns.`,
+        `The <a href="/locations/northumberland">Northumberland</a> property market recorded <strong>2,248</strong> residential transactions over the past 12 months, with a median sale price of <strong>£212,500</strong> - £73k below the UK national median of £285,000. Prices have shown a notable decline, with a year-on-year change of <strong>-5.7%</strong> across the county's principal towns.`,
         `Key drivers of the Northumberland property market include Morpeth and Cramlington Newcastle commuter demand, Alnwick castle heritage tourism premium, AONB coastline tourism and holiday-lets. Additional factors include Blyth offshore wind employment growth.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/northumberland/alnwick">Alnwick</a></td><td>£260,000</td><td>220</td><td>-13.3%</td></tr><tr><td><a href="/locations/northumberland/hexham">Hexham</a></td><td>£257,500</td><td>274</td><td>-4.6%</td></tr><tr><td><a href="/locations/northumberland/morpeth">Morpeth</a></td><td>£245,000</td><td>725</td><td>+4.3%</td></tr><tr><td><a href="/locations/northumberland/cramlington">Cramlington</a></td><td>£180,000</td><td>395</td><td>-7.8%</td></tr><tr><td><a href="/locations/northumberland/berwick-upon-tweed">Berwick-upon-Tweed</a></td><td>£176,500</td><td>185</td><td>-6.2%</td></tr><tr><td><a href="/locations/northumberland/blyth">Blyth</a></td><td>£140,000</td><td>449</td><td>-6.7%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/northumberland/alnwick">Alnwick</a> (£260,000), <a href="/locations/northumberland/hexham">Hexham</a> (£257,500), <a href="/locations/northumberland/morpeth">Morpeth</a> (£245,000). Alnwick's premium reflects castle town with heritage tourism premium and alnwick garden cultural destination.`,
         `<strong>Most affordable:</strong> <a href="/locations/northumberland/blyth">Blyth</a> (£140,000), <a href="/locations/northumberland/berwick-upon-tweed">Berwick-upon-Tweed</a> (£176,500), <a href="/locations/northumberland/cramlington">Cramlington</a> (£180,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/northumberland/morpeth">Morpeth</a> (725 sales), <a href="/locations/northumberland/blyth">Blyth</a> (449 sales), <a href="/locations/northumberland/cramlington">Cramlington</a> (395 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/northumberland/morpeth">Morpeth</a> (725 sales), <a href="/locations/northumberland/blyth">Blyth</a> (449 sales), <a href="/locations/northumberland/cramlington">Cramlington</a> (395 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Northumberland market data carries direct implications for developers seeking finance. With a median property value of £212,500 and detached homes at £343,750, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Northumberland, a scheme with a GDV of £343,750 would typically attract <strong>senior debt of £223,438</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -5.7%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Northumberland's existing stock — particularly flat properties priced from £126,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Northumberland's existing stock - particularly flat properties priced from £126,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Northumberland's property market is experiencing a correction, with 1 of 6 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/northumberland/morpeth">Morpeth</a> (+4.3%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Hexham (-4.6%) and Berwick-upon-Tweed (-6.2%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Hexham (-4.6%) and Berwick-upon-Tweed (-6.2%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Northumberland's development pipeline will be shaped by Morpeth and Cramlington Newcastle commuter demand and Alnwick castle heritage tourism premium. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Northumberland, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

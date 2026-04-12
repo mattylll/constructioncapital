@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "buckinghamshire-property-market",
   title: "Buckinghamshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Buckinghamshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Buckinghamshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Buckinghamshire property market analysis: median price £470,000, 4,087 sales, -1.4% YoY. Town comparisons, new builds & development finance across 8 towns.",
   excerpt: "8 towns analysed. Median price £470,000, 4,087 transactions, -1.4% YoY.",
   category: "county",
@@ -18,8 +18,8 @@ const report: MarketReport = {
       heading: `Buckinghamshire Property Market Overview`,
       content: [
         `Buckinghamshire is a prosperous Home Counties authority with a diverse market ranging from High Wycombe's urban regeneration to the Chiltern Hills' premium villages. The HS2 route through the county has created both disruption and opportunity, with development activity concentrated around Aylesbury's growth plans and the Milton Keynes border area. Pinewood Studios' expansion continues to drive local demand.`,
-        `The <a href="/locations/buckinghamshire">Buckinghamshire</a> property market recorded <strong>4,087</strong> residential transactions over the past 12 months, with a median sale price of <strong>£470,000</strong> — £185k above the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-1.4%</strong> across the county's principal towns.`,
-        `Key drivers of the Buckinghamshire property market include Aylesbury Garden Town growth — 16,000 new homes planned, HS2 corridor development opportunities, Pinewood Studios expansion and creative sector. Additional factors include Chiltern Hills premium lifestyle market.`,
+        `The <a href="/locations/buckinghamshire">Buckinghamshire</a> property market recorded <strong>4,087</strong> residential transactions over the past 12 months, with a median sale price of <strong>£470,000</strong> - £185k above the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-1.4%</strong> across the county's principal towns.`,
+        `Key drivers of the Buckinghamshire property market include Aylesbury Garden Town growth - 16,000 new homes planned, HS2 corridor development opportunities, Pinewood Studios expansion and creative sector. Additional factors include Chiltern Hills premium lifestyle market.`,
       ],
     },
     {
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/buckinghamshire/beaconsfield">Beaconsfield</a></td><td>£951,000</td><td>182</td><td>-3.2%</td></tr><tr><td><a href="/locations/buckinghamshire/amersham">Amersham</a></td><td>£735,000</td><td>208</td><td>+4.3%</td></tr><tr><td><a href="/locations/buckinghamshire/marlow">Marlow</a></td><td>£610,000</td><td>171</td><td>-9.6%</td></tr><tr><td><a href="/locations/buckinghamshire/princes-risborough">Princes Risborough</a></td><td>£500,000</td><td>135</td><td>+4.2%</td></tr><tr><td><a href="/locations/buckinghamshire/chesham">Chesham</a></td><td>£440,000</td><td>216</td><td>-1.7%</td></tr><tr><td><a href="/locations/buckinghamshire/high-wycombe">High Wycombe</a></td><td>£420,000</td><td>1,230</td><td>0%</td></tr><tr><td><a href="/locations/buckinghamshire/buckingham">Buckingham</a></td><td>£378,000</td><td>388</td><td>-3.1%</td></tr><tr><td><a href="/locations/buckinghamshire/aylesbury">Aylesbury</a></td><td>£370,000</td><td>1,557</td><td>-2.4%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/buckinghamshire/beaconsfield">Beaconsfield</a> (£951,000), <a href="/locations/buckinghamshire/amersham">Amersham</a> (£735,000), <a href="/locations/buckinghamshire/marlow">Marlow</a> (£610,000). Beaconsfield's premium reflects affluent commuter town near pinewood studios with ultra-premium family housing market.`,
         `<strong>Most affordable:</strong> <a href="/locations/buckinghamshire/aylesbury">Aylesbury</a> (£370,000), <a href="/locations/buckinghamshire/buckingham">Buckingham</a> (£378,000), <a href="/locations/buckinghamshire/high-wycombe">High Wycombe</a> (£420,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/buckinghamshire/aylesbury">Aylesbury</a> (1,557 sales), <a href="/locations/buckinghamshire/high-wycombe">High Wycombe</a> (1,230 sales), <a href="/locations/buckinghamshire/buckingham">Buckingham</a> (388 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/buckinghamshire/aylesbury">Aylesbury</a> (1,557 sales), <a href="/locations/buckinghamshire/high-wycombe">High Wycombe</a> (1,230 sales), <a href="/locations/buckinghamshire/buckingham">Buckingham</a> (388 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Buckinghamshire market data carries direct implications for developers seeking finance. With a median property value of £470,000 and detached homes at £781,250, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Buckinghamshire, a scheme with a GDV of £781,250 would typically attract <strong>senior debt of £507,813</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -1.4%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Buckinghamshire's existing stock — particularly flat properties priced from £243,750 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Buckinghamshire's existing stock - particularly flat properties priced from £243,750 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,8 +79,8 @@ const report: MarketReport = {
       content: [
         `Buckinghamshire's property market is in a period of consolidation, with 2 of 8 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/buckinghamshire/amersham">Amersham</a> (+4.3%), <a href="/locations/buckinghamshire/princes-risborough">Princes Risborough</a> (+4.2%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Aylesbury (-2.4%) and Buckingham (-3.1%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
-        `Looking ahead, Buckinghamshire's development pipeline will be shaped by Aylesbury Garden Town growth — 16,000 new homes planned and HS2 corridor development opportunities. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
+        `Conversely, Aylesbury (-2.4%) and Buckingham (-3.1%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
+        `Looking ahead, Buckinghamshire's development pipeline will be shaped by Aylesbury Garden Town growth - 16,000 new homes planned and HS2 corridor development opportunities. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Buckinghamshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -92,7 +92,7 @@ const report: MarketReport = {
     },
     {
       question: `Is Buckinghamshire a good area for property development?`,
-      answer: `Buckinghamshire recorded 4,087 residential transactions in the past 12 months with prices falling -1.4% year-on-year, indicating a liquid market with strong exit confidence for developers. 191 new-build completions demonstrate active development activity. Key growth drivers include aylesbury garden town growth — 16,000 new homes planned.`,
+      answer: `Buckinghamshire recorded 4,087 residential transactions in the past 12 months with prices falling -1.4% year-on-year, indicating a liquid market with strong exit confidence for developers. 191 new-build completions demonstrate active development activity. Key growth drivers include aylesbury garden town growth - 16,000 new homes planned.`,
     },
     {
       question: `What types of development finance are available in Buckinghamshire?`,

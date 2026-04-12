@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "attleborough-norfolk-property-market",
   title: "Attleborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Attleborough House Prices 2026 — Property Market Data & Development Finance | Norfolk",
+  metaTitle: "Attleborough House Prices 2026 - Property Market Data & Development Finance | Norfolk",
   metaDescription: "Attleborough property prices: median £264,000, 228 sales, -12% YoY. Detached £340,000, Flat £122,000. Land Registry data for Attleborough, Norfolk.",
   excerpt: "Median price £264,000, 228 sales, -12% YoY. Norfolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Attleborough recorded <strong>5</strong> new-build transactions in the past 12 months, representing <strong>2.2%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Attleborough traded at a <strong>discount of 9.1%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded - see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
       ],
     },
     {

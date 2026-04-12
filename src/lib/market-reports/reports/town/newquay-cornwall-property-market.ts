@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newquay-cornwall-property-market",
   title: "Newquay Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newquay House Prices 2026 — Property Market Data & Development Finance | Cornwall",
+  metaTitle: "Newquay House Prices 2026 - Property Market Data & Development Finance | Cornwall",
   metaDescription: "Newquay property prices: median £310,000, 502 sales, -6.1% YoY. Detached £460,000, Flat £200,475. Land Registry data for Newquay, Cornwall.",
   excerpt: "Median price £310,000, 502 sales, -6.1% YoY. Cornwall county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Newquay recorded <strong>17</strong> new-build transactions in the past 12 months, representing <strong>3.4%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Newquay traded at a <strong>premium of 8.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded — see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded - see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "grays-essex-property-market",
   title: "Grays Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Grays House Prices 2026 — Property Market Data & Development Finance | Essex",
+  metaTitle: "Grays House Prices 2026 - Property Market Data & Development Finance | Essex",
   metaDescription: "Grays property prices: median £350,000, 1,392 sales, 0% YoY. Detached £525,000, Flat £208,435. Land Registry data for Grays, Essex.",
   excerpt: "Median price £350,000, 1,392 sales, 0% YoY. Essex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Grays recorded <strong>5</strong> new-build transactions in the past 12 months, representing <strong>0.4%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Grays traded at a <strong>premium of 35.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded — see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded - see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "worcester-worcestershire-property-market",
   title: "Worcester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Worcester House Prices 2026 — Property Market Data & Development Finance | Worcestershire",
+  metaTitle: "Worcester House Prices 2026 - Property Market Data & Development Finance | Worcestershire",
   metaDescription: "Worcester property prices: median £250,000, 1,095 sales, -2.7% YoY. Detached £380,000, Flat £140,500. Land Registry data for Worcester, Worcestershire.",
   excerpt: "Median price £250,000, 1,095 sales, -2.7% YoY. Worcestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Worcester recorded <strong>2</strong> new-build transactions in the past 12 months, representing <strong>0.2%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Worcester traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/worcestershire-property-market">Worcestershire</a> market, 94 new-build completions were recorded — see our <a href="/market-reports/worcestershire-property-market">Worcestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/worcestershire-property-market">Worcestershire</a> market, 94 new-build completions were recorded - see our <a href="/market-reports/worcestershire-property-market">Worcestershire property market report</a> for the full county picture.`,
       ],
     },
     {

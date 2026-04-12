@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "manchester-greater-manchester-property-market",
   title: "Manchester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Manchester House Prices 2026 — Property Market Data & Development Finance | Greater Manchester",
+  metaTitle: "Manchester House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
   metaDescription: "Manchester property prices: median £240,000, 4,093 sales, -4% YoY. Detached £386,000, Flat £205,000. Land Registry data for Manchester, Greater Manchester.",
   excerpt: "Median price £240,000, 4,093 sales, -4% YoY. Greater Manchester county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Manchester recorded <strong>118</strong> new-build transactions in the past 12 months, representing <strong>2.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Manchester traded at a <strong>premium of 53.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded - see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
       ],
     },
     {

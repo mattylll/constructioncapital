@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "torquay-devon-property-market",
   title: "Torquay Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Torquay House Prices 2026 — Property Market Data & Development Finance | Devon",
+  metaTitle: "Torquay House Prices 2026 - Property Market Data & Development Finance | Devon",
   metaDescription: "Torquay property prices: median £220,000, 768 sales, -6.4% YoY. Detached £410,000, Flat £150,000. Land Registry data for Torquay, Devon.",
   excerpt: "Median price £220,000, 768 sales, -6.4% YoY. Devon county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Torquay recorded <strong>7</strong> new-build transactions in the past 12 months, representing <strong>0.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Torquay traded at a <strong>premium of 3.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/devon-property-market">Devon</a> market, 180 new-build completions were recorded — see our <a href="/market-reports/devon-property-market">Devon property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/devon-property-market">Devon</a> market, 180 new-build completions were recorded - see our <a href="/market-reports/devon-property-market">Devon property market report</a> for the full county picture.`,
       ],
     },
     {

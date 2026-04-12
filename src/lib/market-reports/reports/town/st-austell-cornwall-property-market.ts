@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "st-austell-cornwall-property-market",
   title: "St Austell Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "St Austell House Prices 2026 — Property Market Data & Development Finance | Cornwall",
+  metaTitle: "St Austell House Prices 2026 - Property Market Data & Development Finance | Cornwall",
   metaDescription: "St Austell property prices: median £255,000, 540 sales, 0% YoY. Detached £360,000, Flat £129,250. Land Registry data for St Austell, Cornwall.",
   excerpt: "Median price £255,000, 540 sales, 0% YoY. Cornwall county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `St Austell recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>2.6%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in St Austell traded at a <strong>premium of 41.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded — see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded - see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
       ],
     },
     {

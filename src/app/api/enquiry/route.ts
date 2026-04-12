@@ -24,7 +24,7 @@ export async function POST(request: Request) {
       gdv: 0,
       total_cost: 0,
       loan_amount: 0,
-      loan_type: "TBC — Quick Enquiry",
+      loan_type: "TBC - Quick Enquiry",
       additional_info: message || undefined,
       source_page: source_page || "Quick Enquiry",
     });

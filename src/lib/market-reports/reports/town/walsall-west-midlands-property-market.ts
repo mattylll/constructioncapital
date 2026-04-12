@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "walsall-west-midlands-property-market",
   title: "Walsall Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Walsall House Prices 2026 — Property Market Data & Development Finance | West Midlands",
+  metaTitle: "Walsall House Prices 2026 - Property Market Data & Development Finance | West Midlands",
   metaDescription: "Walsall property prices: median £210,000, 2,071 sales, 0% YoY. Detached £347,498, Flat £118,000. Land Registry data for Walsall, West Midlands.",
   excerpt: "Median price £210,000, 2,071 sales, 0% YoY. West Midlands county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Walsall recorded <strong>29</strong> new-build transactions in the past 12 months, representing <strong>1.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Walsall traded at a <strong>premium of 15.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/west-midlands-property-market">West Midlands</a> market, 308 new-build completions were recorded — see our <a href="/market-reports/west-midlands-property-market">West Midlands property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-midlands-property-market">West Midlands</a> market, 308 new-build completions were recorded - see our <a href="/market-reports/west-midlands-property-market">West Midlands property market report</a> for the full county picture.`,
       ],
     },
     {

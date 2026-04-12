@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "beverley-east-riding-of-yorkshire-property-market",
   title: "Beverley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Beverley House Prices 2026 — Property Market Data & Development Finance | East Riding of Yorkshire",
+  metaTitle: "Beverley House Prices 2026 - Property Market Data & Development Finance | East Riding of Yorkshire",
   metaDescription: "Beverley property prices: median £235,000, 563 sales, -6% YoY. Detached £330,000, Flat £110,000. Land Registry data for Beverley, East Riding of Yorkshire.",
   excerpt: "Median price £235,000, 563 sales, -6% YoY. East Riding of Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Beverley recorded <strong>66</strong> new-build transactions in the past 12 months, representing <strong>11.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Beverley traded at a <strong>premium of 8.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire</a> market, 132 new-build completions were recorded — see our <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire</a> market, 132 new-build completions were recorded - see our <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

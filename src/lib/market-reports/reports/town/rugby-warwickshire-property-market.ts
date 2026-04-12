@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "rugby-warwickshire-property-market",
   title: "Rugby Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Rugby House Prices 2026 — Property Market Data & Development Finance | Warwickshire",
+  metaTitle: "Rugby House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
   metaDescription: "Rugby property prices: median £285,000, 1,257 sales, -3.4% YoY. Detached £430,000, Flat £133,500. Land Registry data for Rugby, Warwickshire.",
   excerpt: "Median price £285,000, 1,257 sales, -3.4% YoY. Warwickshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Rugby recorded <strong>102</strong> new-build transactions in the past 12 months, representing <strong>8.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Rugby traded at a <strong>premium of 52.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded — see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded - see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
       ],
     },
     {

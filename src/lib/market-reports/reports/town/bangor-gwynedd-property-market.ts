@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bangor-gwynedd-property-market",
   title: "Bangor Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bangor House Prices 2026 — Property Market Data & Development Finance | Gwynedd",
+  metaTitle: "Bangor House Prices 2026 - Property Market Data & Development Finance | Gwynedd",
   metaDescription: "Bangor property prices: median £192,000, 207 sales, +9.7% YoY. Detached £325,000, Flat £85,500. Land Registry data for Bangor, Gwynedd.",
   excerpt: "Median price £192,000, 207 sales, +9.7% YoY. Gwynedd county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bangor recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Bangor traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/gwynedd-property-market">Gwynedd</a> market, 2 new-build completions were recorded — see our <a href="/market-reports/gwynedd-property-market">Gwynedd property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/gwynedd-property-market">Gwynedd</a> market, 2 new-build completions were recorded - see our <a href="/market-reports/gwynedd-property-market">Gwynedd property market report</a> for the full county picture.`,
       ],
     },
     {

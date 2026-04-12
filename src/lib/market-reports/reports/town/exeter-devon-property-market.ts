@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "exeter-devon-property-market",
   title: "Exeter Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Exeter House Prices 2026 — Property Market Data & Development Finance | Devon",
+  metaTitle: "Exeter House Prices 2026 - Property Market Data & Development Finance | Devon",
   metaDescription: "Exeter property prices: median £290,500, 1,192 sales, -4.4% YoY. Detached £441,250, Flat £172,250. Land Registry data for Exeter, Devon.",
   excerpt: "Median price £290,500, 1,192 sales, -4.4% YoY. Devon county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Exeter recorded <strong>19</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Exeter traded at a <strong>premium of 60.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/devon-property-market">Devon</a> market, 180 new-build completions were recorded — see our <a href="/market-reports/devon-property-market">Devon property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/devon-property-market">Devon</a> market, 180 new-build completions were recorded - see our <a href="/market-reports/devon-property-market">Devon property market report</a> for the full county picture.`,
       ],
     },
     {

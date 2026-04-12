@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "south-shields-tyne-and-wear-property-market",
   title: "South Shields Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "South Shields House Prices 2026 — Property Market Data & Development Finance | Tyne and Wear",
+  metaTitle: "South Shields House Prices 2026 - Property Market Data & Development Finance | Tyne and Wear",
   metaDescription: "South Shields property prices: median £150,000, 1,425 sales, 0% YoY. Detached £311,250, Flat £82,000. Land Registry data for South Shields, Tyne and Wear.",
   excerpt: "Median price £150,000, 1,425 sales, 0% YoY. Tyne and Wear county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `South Shields recorded <strong>16</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in South Shields traded at a <strong>premium of 58.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> market, 234 new-build completions were recorded — see our <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> market, 234 new-build completions were recorded - see our <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear property market report</a> for the full county picture.`,
       ],
     },
     {

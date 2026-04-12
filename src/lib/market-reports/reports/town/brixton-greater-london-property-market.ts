@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "brixton-greater-london-property-market",
   title: "Brixton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Brixton House Prices 2026 — Property Market Data & Development Finance | Greater London",
+  metaTitle: "Brixton House Prices 2026 - Property Market Data & Development Finance | Greater London",
   metaDescription: "Brixton property prices: median £540,000, 2,385 sales, +1.9% YoY. Detached £1.35m, Flat £455,000. Land Registry data for Brixton, Greater London.",
   excerpt: "Median price £540,000, 2,385 sales, +1.9% YoY. Greater London county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Brixton recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>0.6%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Brixton traded at a <strong>premium of 54.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded - see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {

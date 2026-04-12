@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "falmouth-cornwall-property-market",
   title: "Falmouth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Falmouth House Prices 2026 — Property Market Data & Development Finance | Cornwall",
+  metaTitle: "Falmouth House Prices 2026 - Property Market Data & Development Finance | Cornwall",
   metaDescription: "Falmouth property prices: median £333,125, 360 sales, -7.5% YoY. Detached £555,000, Flat £242,000. Land Registry data for Falmouth, Cornwall.",
   excerpt: "Median price £333,125, 360 sales, -7.5% YoY. Cornwall county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Falmouth recorded <strong>2</strong> new-build transactions in the past 12 months, representing <strong>0.6%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Falmouth traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded — see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded - see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bury-st-edmunds-suffolk-property-market",
   title: "Bury St Edmunds Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bury St Edmunds House Prices 2026 — Property Market Data & Development Finance | Suffolk",
+  metaTitle: "Bury St Edmunds House Prices 2026 - Property Market Data & Development Finance | Suffolk",
   metaDescription: "Bury St Edmunds property prices: median £290,000, 1,135 sales, -2.5% YoY. Detached £400,000, Flat £170,000. Land Registry data for Bury St Edmunds, Suffolk.",
   excerpt: "Median price £290,000, 1,135 sales, -2.5% YoY. Suffolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bury St Edmunds recorded <strong>29</strong> new-build transactions in the past 12 months, representing <strong>2.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Bury St Edmunds traded at a <strong>premium of 7.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/suffolk-property-market">Suffolk</a> market, 189 new-build completions were recorded — see our <a href="/market-reports/suffolk-property-market">Suffolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/suffolk-property-market">Suffolk</a> market, 189 new-build completions were recorded - see our <a href="/market-reports/suffolk-property-market">Suffolk property market report</a> for the full county picture.`,
       ],
     },
     {

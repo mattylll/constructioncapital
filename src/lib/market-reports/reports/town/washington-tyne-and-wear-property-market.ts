@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "washington-tyne-and-wear-property-market",
   title: "Washington Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Washington House Prices 2026 — Property Market Data & Development Finance | Tyne and Wear",
+  metaTitle: "Washington House Prices 2026 - Property Market Data & Development Finance | Tyne and Wear",
   metaDescription: "Washington property prices: median £145,000, 459 sales, +5.8% YoY. Detached £290,000, Flat £36,000. Land Registry data for Washington, Tyne and Wear.",
   excerpt: "Median price £145,000, 459 sales, +5.8% YoY. Tyne and Wear county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Washington recorded <strong>6</strong> new-build transactions in the past 12 months, representing <strong>1.3%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Washington traded at a <strong>premium of 77.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> market, 234 new-build completions were recorded — see our <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> market, 234 new-build completions were recorded - see our <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear property market report</a> for the full county picture.`,
       ],
     },
     {

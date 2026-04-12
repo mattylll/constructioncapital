@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bodmin-cornwall-property-market",
   title: "Bodmin Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bodmin House Prices 2026 — Property Market Data & Development Finance | Cornwall",
+  metaTitle: "Bodmin House Prices 2026 - Property Market Data & Development Finance | Cornwall",
   metaDescription: "Bodmin property prices: median £240,000, 269 sales, -9.4% YoY. Detached £355,000, Flat £115,000. Land Registry data for Bodmin, Cornwall.",
   excerpt: "Median price £240,000, 269 sales, -9.4% YoY. Cornwall county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bodmin recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>1.5%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Bodmin traded at a <strong>premium of 77.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded — see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cornwall-property-market">Cornwall</a> market, 51 new-build completions were recorded - see our <a href="/market-reports/cornwall-property-market">Cornwall property market report</a> for the full county picture.`,
       ],
     },
     {

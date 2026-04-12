@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bognor-regis-sussex-property-market",
   title: "Bognor Regis Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bognor Regis House Prices 2026 — Property Market Data & Development Finance | Sussex",
+  metaTitle: "Bognor Regis House Prices 2026 - Property Market Data & Development Finance | Sussex",
   metaDescription: "Bognor Regis property prices: median £335,000, 1,996 sales, -2.9% YoY. Detached £500,000, Flat £170,000. Land Registry data for Bognor Regis, Sussex.",
   excerpt: "Median price £335,000, 1,996 sales, -2.9% YoY. Sussex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bognor Regis recorded <strong>93</strong> new-build transactions in the past 12 months, representing <strong>4.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Bognor Regis traded at a <strong>premium of 44.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/sussex-property-market">Sussex</a> market, 157 new-build completions were recorded — see our <a href="/market-reports/sussex-property-market">Sussex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/sussex-property-market">Sussex</a> market, 157 new-build completions were recorded - see our <a href="/market-reports/sussex-property-market">Sussex property market report</a> for the full county picture.`,
       ],
     },
     {

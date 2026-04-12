@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "harlow-essex-property-market",
   title: "Harlow Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Harlow House Prices 2026 — Property Market Data & Development Finance | Essex",
+  metaTitle: "Harlow House Prices 2026 - Property Market Data & Development Finance | Essex",
   metaDescription: "Harlow property prices: median £330,000, 756 sales, +1.5% YoY. Detached £515,000, Flat £200,000. Land Registry data for Harlow, Essex.",
   excerpt: "Median price £330,000, 756 sales, +1.5% YoY. Essex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Harlow recorded <strong>5</strong> new-build transactions in the past 12 months, representing <strong>0.7%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Harlow traded at a <strong>premium of 36.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded — see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded - see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
       ],
     },
     {

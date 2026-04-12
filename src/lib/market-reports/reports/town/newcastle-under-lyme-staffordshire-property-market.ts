@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newcastle-under-lyme-staffordshire-property-market",
   title: "Newcastle-under-Lyme Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newcastle-under-Lyme House Prices 2026 — Property Market Data & Development Finance | Staffordshire",
+  metaTitle: "Newcastle-under-Lyme House Prices 2026 - Property Market Data & Development Finance | Staffordshire",
   metaDescription: "Newcastle-under-Lyme property prices: median £189,500, 1,324 sales, +2.4% YoY. Detached £310,000, Flat £91,000. Land Registry data for Newcastle-under-Lyme, Staffordshire.",
   excerpt: "Median price £189,500, 1,324 sales, +2.4% YoY. Staffordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Newcastle-under-Lyme recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Newcastle-under-Lyme traded at a <strong>premium of 78.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/staffordshire-property-market">Staffordshire</a> market, 173 new-build completions were recorded — see our <a href="/market-reports/staffordshire-property-market">Staffordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/staffordshire-property-market">Staffordshire</a> market, 173 new-build completions were recorded - see our <a href="/market-reports/staffordshire-property-market">Staffordshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "merseyside-property-market",
   title: "Merseyside Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Merseyside Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Merseyside Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Merseyside property market analysis: median price £163,344, 8,821 sales, +2% YoY. Town comparisons, new builds & development finance across 6 towns.",
   excerpt: "6 towns analysed. Median price £163,344, 8,821 transactions, +2% YoY.",
   category: "county",
@@ -17,8 +17,8 @@ const report: MarketReport = {
     {
       heading: `Merseyside Property Market Overview`,
       content: [
-        `Merseyside's development market is anchored by Liverpool's ongoing urban renaissance — from the Baltic Triangle creative quarter to the £5.5 billion Liverpool Waters scheme. The city's strong cultural identity, two universities, and growing tech sector support a diversified residential market. Wirral and Sefton offer suburban and coastal development opportunities at lower price points than the city centre.`,
-        `The <a href="/locations/merseyside">Merseyside</a> property market recorded <strong>8,821</strong> residential transactions over the past 12 months, with a median sale price of <strong>£163,344</strong> — £122k below the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+2%</strong> across the county's principal towns.`,
+        `Merseyside's development market is anchored by Liverpool's ongoing urban renaissance - from the Baltic Triangle creative quarter to the £5.5 billion Liverpool Waters scheme. The city's strong cultural identity, two universities, and growing tech sector support a diversified residential market. Wirral and Sefton offer suburban and coastal development opportunities at lower price points than the city centre.`,
+        `The <a href="/locations/merseyside">Merseyside</a> property market recorded <strong>8,821</strong> residential transactions over the past 12 months, with a median sale price of <strong>£163,344</strong> - £122k below the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+2%</strong> across the county's principal towns.`,
         `Key drivers of the Merseyside property market include Liverpool Waters £5.5bn waterfront scheme, Baltic Triangle creative quarter, Knowledge Quarter and Paddington Village. Additional factors include Wirral Waters regeneration.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/merseyside/southport">Southport</a></td><td>£210,000</td><td>1,020</td><td>0%</td></tr><tr><td><a href="/locations/merseyside/st-helens">St Helens</a></td><td>£173,000</td><td>1,787</td><td>-3.9%</td></tr><tr><td><a href="/locations/merseyside/wallasey">Wallasey</a></td><td>£166,500</td><td>757</td><td>+0.9%</td></tr><tr><td><a href="/locations/merseyside/liverpool">Liverpool</a></td><td>£160,187</td><td>4,294</td><td>+1.4%</td></tr><tr><td><a href="/locations/merseyside/bootle">Bootle</a></td><td>£137,950</td><td>402</td><td>+15%</td></tr><tr><td><a href="/locations/merseyside/birkenhead">Birkenhead</a></td><td>£123,560</td><td>561</td><td>-1.2%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/merseyside/southport">Southport</a> (£210,000), <a href="/locations/merseyside/st-helens">St Helens</a> (£173,000), <a href="/locations/merseyside/wallasey">Wallasey</a> (£166,500). Southport's premium reflects victorian resort with seafront regeneration and retirement market demand.`,
         `<strong>Most affordable:</strong> <a href="/locations/merseyside/birkenhead">Birkenhead</a> (£123,560), <a href="/locations/merseyside/bootle">Bootle</a> (£137,950), <a href="/locations/merseyside/liverpool">Liverpool</a> (£160,187). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/merseyside/liverpool">Liverpool</a> (4,294 sales), <a href="/locations/merseyside/st-helens">St Helens</a> (1,787 sales), <a href="/locations/merseyside/southport">Southport</a> (1,020 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/merseyside/liverpool">Liverpool</a> (4,294 sales), <a href="/locations/merseyside/st-helens">St Helens</a> (1,787 sales), <a href="/locations/merseyside/southport">Southport</a> (1,020 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Merseyside market data carries direct implications for developers seeking finance. With a median property value of £163,344 and detached homes at £345,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Merseyside, a scheme with a GDV of £345,000 would typically attract <strong>senior debt of £224,250</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `With prices rising at 2% year-on-year, the market environment is supportive of new development. Lenders view rising markets favourably when assessing applications.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Merseyside's existing stock — particularly flat properties priced from £110,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Merseyside's existing stock - particularly flat properties priced from £110,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Merseyside's property market is on an upward trajectory, with 3 of 6 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/merseyside/bootle">Bootle</a> (+15%), <a href="/locations/merseyside/liverpool">Liverpool</a> (+1.4%), <a href="/locations/merseyside/wallasey">Wallasey</a> (+0.9%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, St Helens (-3.9%) has seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, St Helens (-3.9%) has seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Merseyside's development pipeline will be shaped by Liverpool Waters £5.5bn waterfront scheme and Baltic Triangle creative quarter. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Merseyside, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

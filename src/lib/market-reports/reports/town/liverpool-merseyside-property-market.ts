@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "liverpool-merseyside-property-market",
   title: "Liverpool Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Liverpool House Prices 2026 — Property Market Data & Development Finance | Merseyside",
+  metaTitle: "Liverpool House Prices 2026 - Property Market Data & Development Finance | Merseyside",
   metaDescription: "Liverpool property prices: median £160,187, 4,294 sales, +1.4% YoY. Detached £350,000, Flat £128,000. Land Registry data for Liverpool, Merseyside.",
   excerpt: "Median price £160,187, 4,294 sales, +1.4% YoY. Merseyside county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Liverpool recorded <strong>40</strong> new-build transactions in the past 12 months, representing <strong>0.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Liverpool traded at a <strong>discount of 10.7%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/merseyside-property-market">Merseyside</a> market, 102 new-build completions were recorded — see our <a href="/market-reports/merseyside-property-market">Merseyside property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/merseyside-property-market">Merseyside</a> market, 102 new-build completions were recorded - see our <a href="/market-reports/merseyside-property-market">Merseyside property market report</a> for the full county picture.`,
       ],
     },
     {

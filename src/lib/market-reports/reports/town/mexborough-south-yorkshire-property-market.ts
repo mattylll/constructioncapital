@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "mexborough-south-yorkshire-property-market",
   title: "Mexborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Mexborough House Prices 2026 — Property Market Data & Development Finance | South Yorkshire",
+  metaTitle: "Mexborough House Prices 2026 - Property Market Data & Development Finance | South Yorkshire",
   metaDescription: "Mexborough property prices: median £115,000, 176 sales, -1.7% YoY. Detached £265,000, Terraced £78,000. Land Registry data for Mexborough, South Yorkshire.",
   excerpt: "Median price £115,000, 176 sales, -1.7% YoY. South Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Mexborough recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Mexborough traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/south-yorkshire-property-market">South Yorkshire</a> market, 254 new-build completions were recorded — see our <a href="/market-reports/south-yorkshire-property-market">South Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/south-yorkshire-property-market">South Yorkshire</a> market, 254 new-build completions were recorded - see our <a href="/market-reports/south-yorkshire-property-market">South Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

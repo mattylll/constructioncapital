@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wigan-greater-manchester-property-market",
   title: "Wigan Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wigan House Prices 2026 — Property Market Data & Development Finance | Greater Manchester",
+  metaTitle: "Wigan House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
   metaDescription: "Wigan property prices: median £182,000, 3,437 sales, +1.1% YoY. Detached £325,000, Flat £110,000. Land Registry data for Wigan, Greater Manchester.",
   excerpt: "Median price £182,000, 3,437 sales, +1.1% YoY. Greater Manchester county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Wigan recorded <strong>69</strong> new-build transactions in the past 12 months, representing <strong>2.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Wigan traded at a <strong>premium of 41.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded - see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
       ],
     },
     {

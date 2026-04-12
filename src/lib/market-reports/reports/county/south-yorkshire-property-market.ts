@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "south-yorkshire-property-market",
   title: "South Yorkshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "South Yorkshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "South Yorkshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "South Yorkshire property market analysis: median price £164,924, 14,675 sales, -1.5% YoY. Town comparisons, new builds & development finance across 6 towns.",
   excerpt: "6 towns analysed. Median price £164,924, 14,675 transactions, -1.5% YoY.",
   category: "county",
@@ -17,8 +17,8 @@ const report: MarketReport = {
     {
       heading: `South Yorkshire Property Market Overview`,
       content: [
-        `South Yorkshire centres on Sheffield — a city that has reinvented itself from its steel heritage into a hub for advanced manufacturing, digital industries, and higher education. The city's two universities create one of the UK's largest student populations, supporting a massive rental market. Doncaster and Rotherham offer affordable development at lower risk, while Barnsley's Glass Works regeneration is transforming the town centre.`,
-        `The <a href="/locations/south-yorkshire">South Yorkshire</a> property market recorded <strong>14,675</strong> residential transactions over the past 12 months, with a median sale price of <strong>£164,924</strong> — £120k below the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-1.5%</strong> across the county's principal towns.`,
+        `South Yorkshire centres on Sheffield - a city that has reinvented itself from its steel heritage into a hub for advanced manufacturing, digital industries, and higher education. The city's two universities create one of the UK's largest student populations, supporting a massive rental market. Doncaster and Rotherham offer affordable development at lower risk, while Barnsley's Glass Works regeneration is transforming the town centre.`,
+        `The <a href="/locations/south-yorkshire">South Yorkshire</a> property market recorded <strong>14,675</strong> residential transactions over the past 12 months, with a median sale price of <strong>£164,924</strong> - £120k below the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-1.5%</strong> across the county's principal towns.`,
         `Key drivers of the South Yorkshire property market include Sheffield Heart of the City II regeneration, Advanced Manufacturing Innovation District, Doncaster Lakeside development area. Additional factors include Barnsley Glass Works town centre regeneration.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/south-yorkshire/sheffield">Sheffield</a></td><td>£200,000</td><td>4,411</td><td>-4.3%</td></tr><tr><td><a href="/locations/south-yorkshire/rotherham">Rotherham</a></td><td>£180,000</td><td>2,378</td><td>0%</td></tr><tr><td><a href="/locations/south-yorkshire/doncaster">Doncaster</a></td><td>£165,100</td><td>3,104</td><td>-1.1%</td></tr><tr><td><a href="/locations/south-yorkshire/wombwell">Wombwell</a></td><td>£164,748</td><td>2,572</td><td>-0.2%</td></tr><tr><td><a href="/locations/south-yorkshire/barnsley">Barnsley</a></td><td>£162,500</td><td>2,034</td><td>-1.5%</td></tr><tr><td><a href="/locations/south-yorkshire/mexborough">Mexborough</a></td><td>£115,000</td><td>176</td><td>-1.7%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/south-yorkshire/sheffield">Sheffield</a> (£200,000), <a href="/locations/south-yorkshire/rotherham">Rotherham</a> (£180,000), <a href="/locations/south-yorkshire/doncaster">Doncaster</a> (£165,100). Sheffield's premium reflects steel city reinvented with two universities, advanced manufacturing sector, and heart of the city ii regeneration.`,
         `<strong>Most affordable:</strong> <a href="/locations/south-yorkshire/mexborough">Mexborough</a> (£115,000), <a href="/locations/south-yorkshire/barnsley">Barnsley</a> (£162,500), <a href="/locations/south-yorkshire/wombwell">Wombwell</a> (£164,748). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/south-yorkshire/sheffield">Sheffield</a> (4,411 sales), <a href="/locations/south-yorkshire/doncaster">Doncaster</a> (3,104 sales), <a href="/locations/south-yorkshire/wombwell">Wombwell</a> (2,572 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/south-yorkshire/sheffield">Sheffield</a> (4,411 sales), <a href="/locations/south-yorkshire/doncaster">Doncaster</a> (3,104 sales), <a href="/locations/south-yorkshire/wombwell">Wombwell</a> (2,572 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The South Yorkshire market data carries direct implications for developers seeking finance. With a median property value of £164,924 and detached homes at £298,500, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in South Yorkshire, a scheme with a GDV of £298,500 would typically attract <strong>senior debt of £194,025</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -1.5%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, South Yorkshire's existing stock — particularly flat properties priced from £100,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, South Yorkshire's existing stock - particularly flat properties priced from £100,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -78,7 +78,7 @@ const report: MarketReport = {
       heading: `South Yorkshire Property Market Outlook 2026`,
       content: [
         `South Yorkshire's property market is in a period of consolidation, with 0 of 6 towns recording year-on-year price growth.`,
-        `Conversely, Sheffield (-4.3%) has seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Sheffield (-4.3%) has seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, South Yorkshire's development pipeline will be shaped by Sheffield Heart of the City II regeneration and Advanced Manufacturing Innovation District. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in South Yorkshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

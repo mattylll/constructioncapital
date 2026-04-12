@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "mansfield-nottinghamshire-property-market",
   title: "Mansfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Mansfield House Prices 2026 — Property Market Data & Development Finance | Nottinghamshire",
+  metaTitle: "Mansfield House Prices 2026 - Property Market Data & Development Finance | Nottinghamshire",
   metaDescription: "Mansfield property prices: median £175,000, 1,153 sales, -2.8% YoY. Detached £275,000, Flat £103,000. Land Registry data for Mansfield, Nottinghamshire.",
   excerpt: "Median price £175,000, 1,153 sales, -2.8% YoY. Nottinghamshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Mansfield recorded <strong>31</strong> new-build transactions in the past 12 months, representing <strong>2.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Mansfield traded at a <strong>premium of 36.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire</a> market, 284 new-build completions were recorded — see our <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire</a> market, 284 new-build completions were recorded - see our <a href="/market-reports/nottinghamshire-property-market">Nottinghamshire property market report</a> for the full county picture.`,
       ],
     },
     {

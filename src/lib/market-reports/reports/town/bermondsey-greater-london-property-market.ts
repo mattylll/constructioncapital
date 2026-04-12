@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bermondsey-greater-london-property-market",
   title: "Bermondsey Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bermondsey House Prices 2026 — Property Market Data & Development Finance | Greater London",
+  metaTitle: "Bermondsey House Prices 2026 - Property Market Data & Development Finance | Greater London",
   metaDescription: "Bermondsey property prices: median £535,000, 1,997 sales, -1.8% YoY. Detached £1.50m, Flat £445,000. Land Registry data for Bermondsey, Greater London.",
   excerpt: "Median price £535,000, 1,997 sales, -1.8% YoY. Greater London county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bermondsey recorded <strong>25</strong> new-build transactions in the past 12 months, representing <strong>1.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Bermondsey traded at a <strong>premium of 27.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded - see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {

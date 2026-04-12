@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "melksham-wiltshire-property-market",
   title: "Melksham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Melksham House Prices 2026 — Property Market Data & Development Finance | Wiltshire",
+  metaTitle: "Melksham House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
   metaDescription: "Melksham property prices: median £290,000, 353 sales, 0% YoY. Detached £409,000, Flat £130,000. Land Registry data for Melksham, Wiltshire.",
   excerpt: "Median price £290,000, 353 sales, 0% YoY. Wiltshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Melksham recorded <strong>15</strong> new-build transactions in the past 12 months, representing <strong>4.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Melksham traded at a <strong>premium of 31.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded — see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded - see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
       ],
     },
     {

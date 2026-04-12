@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "nottinghamshire-property-market",
   title: "Nottinghamshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Nottinghamshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Nottinghamshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Nottinghamshire property market analysis: median price £210,000, 6,537 sales, -4.3% YoY. Town comparisons, new builds & development finance across 6 towns.",
   excerpt: "6 towns analysed. Median price £210,000, 6,537 transactions, -4.3% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Nottinghamshire Property Market Overview`,
       content: [
         `Nottingham is one of the East Midlands' most dynamic cities, with two major universities, a growing creative sector, and significant regeneration investment in the Broadmarsh and Island Quarter developments. The city's strong rental market supports both BTL investment and purpose-built student accommodation. The wider county offers market town development in Newark, Mansfield, and Worksop at more affordable price points.`,
-        `The <a href="/locations/nottinghamshire">Nottinghamshire</a> property market recorded <strong>6,537</strong> residential transactions over the past 12 months, with a median sale price of <strong>£210,000</strong> — £75k below the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-4.3%</strong> across the county's principal towns.`,
+        `The <a href="/locations/nottinghamshire">Nottinghamshire</a> property market recorded <strong>6,537</strong> residential transactions over the past 12 months, with a median sale price of <strong>£210,000</strong> - £75k below the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-4.3%</strong> across the county's principal towns.`,
         `Key drivers of the Nottinghamshire property market include Broadmarsh and Island Quarter Nottingham regeneration, Two universities driving student housing demand, Creative Quarter and Lace Market conversions. Additional factors include Newark northern growth area.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/nottinghamshire/west-bridgford">West Bridgford</a></td><td>£325,000</td><td>1,412</td><td>-5.2%</td></tr><tr><td><a href="/locations/nottinghamshire/arnold">Arnold</a></td><td>£238,000</td><td>1,324</td><td>-4.7%</td></tr><tr><td><a href="/locations/nottinghamshire/newark">Newark</a></td><td>£225,000</td><td>1,492</td><td>-2.2%</td></tr><tr><td><a href="/locations/nottinghamshire/worksop">Worksop</a></td><td>£195,000</td><td>748</td><td>+2.6%</td></tr><tr><td><a href="/locations/nottinghamshire/retford">Retford</a></td><td>£190,000</td><td>408</td><td>-13.6%</td></tr><tr><td><a href="/locations/nottinghamshire/mansfield">Mansfield</a></td><td>£175,000</td><td>1,153</td><td>-2.8%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/nottinghamshire/west-bridgford">West Bridgford</a> (£325,000), <a href="/locations/nottinghamshire/arnold">Arnold</a> (£238,000), <a href="/locations/nottinghamshire/newark">Newark</a> (£225,000). West Bridgford's premium reflects premium nottingham suburb with strong family housing demand and trent bridge cricket ground.`,
         `<strong>Most affordable:</strong> <a href="/locations/nottinghamshire/mansfield">Mansfield</a> (£175,000), <a href="/locations/nottinghamshire/retford">Retford</a> (£190,000), <a href="/locations/nottinghamshire/worksop">Worksop</a> (£195,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/nottinghamshire/newark">Newark</a> (1,492 sales), <a href="/locations/nottinghamshire/west-bridgford">West Bridgford</a> (1,412 sales), <a href="/locations/nottinghamshire/arnold">Arnold</a> (1,324 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/nottinghamshire/newark">Newark</a> (1,492 sales), <a href="/locations/nottinghamshire/west-bridgford">West Bridgford</a> (1,412 sales), <a href="/locations/nottinghamshire/arnold">Arnold</a> (1,324 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Nottinghamshire market data carries direct implications for developers seeking finance. With a median property value of £210,000 and detached homes at £324,500, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Nottinghamshire, a scheme with a GDV of £324,500 would typically attract <strong>senior debt of £210,925</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -4.3%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Nottinghamshire's existing stock — particularly flat properties priced from £107,500 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Nottinghamshire's existing stock - particularly flat properties priced from £107,500 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Nottinghamshire's property market is experiencing a correction, with 1 of 6 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/nottinghamshire/worksop">Worksop</a> (+2.6%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Newark (-2.2%) and Mansfield (-2.8%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Newark (-2.2%) and Mansfield (-2.8%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Nottinghamshire's development pipeline will be shaped by Broadmarsh and Island Quarter Nottingham regeneration and Two universities driving student housing demand. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Nottinghamshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

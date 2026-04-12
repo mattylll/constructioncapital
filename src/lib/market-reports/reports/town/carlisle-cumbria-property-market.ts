@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "carlisle-cumbria-property-market",
   title: "Carlisle Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Carlisle House Prices 2026 — Property Market Data & Development Finance | Cumbria",
+  metaTitle: "Carlisle House Prices 2026 - Property Market Data & Development Finance | Cumbria",
   metaDescription: "Carlisle property prices: median £167,500, 1,296 sales, +1.5% YoY. Detached £300,000, Flat £95,000. Land Registry data for Carlisle, Cumbria.",
   excerpt: "Median price £167,500, 1,296 sales, +1.5% YoY. Cumbria county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Carlisle recorded <strong>12</strong> new-build transactions in the past 12 months, representing <strong>0.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Carlisle traded at a <strong>premium of 65.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cumbria-property-market">Cumbria</a> market, 79 new-build completions were recorded — see our <a href="/market-reports/cumbria-property-market">Cumbria property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cumbria-property-market">Cumbria</a> market, 79 new-build completions were recorded - see our <a href="/market-reports/cumbria-property-market">Cumbria property market report</a> for the full county picture.`,
       ],
     },
     {

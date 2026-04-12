@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "greater-manchester-property-market",
   title: "Greater Manchester Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Greater Manchester Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Greater Manchester Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Greater Manchester property market analysis: median price £213,500, 26,359 sales, -0.3% YoY. Town comparisons, new builds & development finance across 10 towns.",
   excerpt: "10 towns analysed. Median price £213,500, 26,359 transactions, -0.3% YoY.",
   category: "county",
@@ -17,8 +17,8 @@ const report: MarketReport = {
     {
       heading: `Greater Manchester Property Market Overview`,
       content: [
-        `Greater Manchester is the UK's largest city-region economy outside London, with Manchester city centre experiencing a development boom that has transformed the skyline. The 10-borough metropolitan county offers diverse development opportunities — from premium city-centre BTR schemes to affordable family housing in Rochdale, Oldham, and Bolton. Strong rental yields, competitive build costs, and the fastest population growth of any UK city outside London underpin a robust development market.`,
-        `The <a href="/locations/greater-manchester">Greater Manchester</a> property market recorded <strong>26,359</strong> residential transactions over the past 12 months, with a median sale price of <strong>£213,500</strong> — £72k below the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-0.3%</strong> across the county's principal towns.`,
+        `Greater Manchester is the UK's largest city-region economy outside London, with Manchester city centre experiencing a development boom that has transformed the skyline. The 10-borough metropolitan county offers diverse development opportunities - from premium city-centre BTR schemes to affordable family housing in Rochdale, Oldham, and Bolton. Strong rental yields, competitive build costs, and the fastest population growth of any UK city outside London underpin a robust development market.`,
+        `The <a href="/locations/greater-manchester">Greater Manchester</a> property market recorded <strong>26,359</strong> residential transactions over the past 12 months, with a median sale price of <strong>£213,500</strong> - £72k below the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-0.3%</strong> across the county's principal towns.`,
         `Key drivers of the Greater Manchester property market include Manchester city centre BTR boom, Northern Powerhouse Rail connectivity, MediaCityUK Salford expansion. Additional factors include Stockport town centre Mayoral Development Corporation.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/greater-manchester/altrincham">Altrincham</a></td><td>£355,000</td><td>2,209</td><td>-2.2%</td></tr><tr><td><a href="/locations/greater-manchester/stockport">Stockport</a></td><td>£296,000</td><td>3,217</td><td>+2.1%</td></tr><tr><td><a href="/locations/greater-manchester/manchester">Manchester</a></td><td>£240,000</td><td>4,093</td><td>-4%</td></tr><tr><td><a href="/locations/greater-manchester/bury">Bury</a></td><td>£229,000</td><td>1,879</td><td>-0.8%</td></tr><tr><td><a href="/locations/greater-manchester/salford">Salford</a></td><td>£227,000</td><td>2,784</td><td>+3.2%</td></tr><tr><td><a href="/locations/greater-manchester/ashton-under-lyne">Ashton-under-Lyne</a></td><td>£200,000</td><td>2,067</td><td>-1.5%</td></tr><tr><td><a href="/locations/greater-manchester/oldham">Oldham</a></td><td>£193,000</td><td>1,907</td><td>+1.6%</td></tr><tr><td><a href="/locations/greater-manchester/bolton">Bolton</a></td><td>£190,000</td><td>2,756</td><td>+1.6%</td></tr><tr><td><a href="/locations/greater-manchester/rochdale">Rochdale</a></td><td>£185,000</td><td>2,010</td><td>-4.1%</td></tr><tr><td><a href="/locations/greater-manchester/wigan">Wigan</a></td><td>£182,000</td><td>3,437</td><td>+1.1%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/greater-manchester/altrincham">Altrincham</a> (£355,000), <a href="/locations/greater-manchester/stockport">Stockport</a> (£296,000), <a href="/locations/greater-manchester/manchester">Manchester</a> (£240,000). Altrincham's premium reflects premium south manchester commuter town with award-winning market quarter.`,
         `<strong>Most affordable:</strong> <a href="/locations/greater-manchester/wigan">Wigan</a> (£182,000), <a href="/locations/greater-manchester/rochdale">Rochdale</a> (£185,000), <a href="/locations/greater-manchester/bolton">Bolton</a> (£190,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/greater-manchester/manchester">Manchester</a> (4,093 sales), <a href="/locations/greater-manchester/wigan">Wigan</a> (3,437 sales), <a href="/locations/greater-manchester/stockport">Stockport</a> (3,217 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/greater-manchester/manchester">Manchester</a> (4,093 sales), <a href="/locations/greater-manchester/wigan">Wigan</a> (3,437 sales), <a href="/locations/greater-manchester/stockport">Stockport</a> (3,217 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Greater Manchester market data carries direct implications for developers seeking finance. With a median property value of £213,500 and detached homes at £378,500, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Greater Manchester, a scheme with a GDV of £378,500 would typically attract <strong>senior debt of £246,025</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -0.3%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Greater Manchester's existing stock — particularly flat properties priced from £133,250 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Greater Manchester's existing stock - particularly flat properties priced from £133,250 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Greater Manchester's property market is in a period of consolidation, with 5 of 10 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/greater-manchester/salford">Salford</a> (+3.2%), <a href="/locations/greater-manchester/stockport">Stockport</a> (+2.1%), <a href="/locations/greater-manchester/bolton">Bolton</a> (+1.6%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Altrincham (-2.2%) and Manchester (-4%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Altrincham (-2.2%) and Manchester (-4%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Greater Manchester's development pipeline will be shaped by Manchester city centre BTR boom and Northern Powerhouse Rail connectivity. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Greater Manchester, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

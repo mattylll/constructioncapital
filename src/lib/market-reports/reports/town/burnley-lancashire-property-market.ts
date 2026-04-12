@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "burnley-lancashire-property-market",
   title: "Burnley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Burnley House Prices 2026 — Property Market Data & Development Finance | Lancashire",
+  metaTitle: "Burnley House Prices 2026 - Property Market Data & Development Finance | Lancashire",
   metaDescription: "Burnley property prices: median £107,000, 1,197 sales, -7% YoY. Detached £295,000, Terraced £83,000. Land Registry data for Burnley, Lancashire.",
   excerpt: "Median price £107,000, 1,197 sales, -7% YoY. Lancashire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Burnley recorded <strong>9</strong> new-build transactions in the past 12 months, representing <strong>0.8%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Burnley traded at a <strong>premium of 195.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/lancashire-property-market">Lancashire</a> market, 224 new-build completions were recorded — see our <a href="/market-reports/lancashire-property-market">Lancashire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/lancashire-property-market">Lancashire</a> market, 224 new-build completions were recorded - see our <a href="/market-reports/lancashire-property-market">Lancashire property market report</a> for the full county picture.`,
       ],
     },
     {

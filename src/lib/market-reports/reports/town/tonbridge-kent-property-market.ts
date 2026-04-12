@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "tonbridge-kent-property-market",
   title: "Tonbridge Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Tonbridge House Prices 2026 — Property Market Data & Development Finance | Kent",
+  metaTitle: "Tonbridge House Prices 2026 - Property Market Data & Development Finance | Kent",
   metaDescription: "Tonbridge property prices: median £410,000, 1,316 sales, +1.2% YoY. Detached £625,000, Flat £240,000. Land Registry data for Tonbridge, Kent.",
   excerpt: "Median price £410,000, 1,316 sales, +1.2% YoY. Kent county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Tonbridge recorded <strong>41</strong> new-build transactions in the past 12 months, representing <strong>3.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Tonbridge traded at a <strong>premium of 23.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded — see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded - see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
       ],
     },
     {

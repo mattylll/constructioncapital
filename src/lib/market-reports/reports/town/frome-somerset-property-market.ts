@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "frome-somerset-property-market",
   title: "Frome Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Frome House Prices 2026 — Property Market Data & Development Finance | Somerset",
+  metaTitle: "Frome House Prices 2026 - Property Market Data & Development Finance | Somerset",
   metaDescription: "Frome property prices: median £324,995, 401 sales, 0% YoY. Detached £450,000, Flat £159,000. Land Registry data for Frome, Somerset.",
   excerpt: "Median price £324,995, 401 sales, 0% YoY. Somerset county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Frome recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>3.5%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Frome traded at a <strong>premium of 5.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/somerset-property-market">Somerset</a> market, 118 new-build completions were recorded — see our <a href="/market-reports/somerset-property-market">Somerset property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/somerset-property-market">Somerset</a> market, 118 new-build completions were recorded - see our <a href="/market-reports/somerset-property-market">Somerset property market report</a> for the full county picture.`,
       ],
     },
     {

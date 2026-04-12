@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "clacton-on-sea-essex-property-market",
   title: "Clacton-on-Sea Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Clacton-on-Sea House Prices 2026 — Property Market Data & Development Finance | Essex",
+  metaTitle: "Clacton-on-Sea House Prices 2026 - Property Market Data & Development Finance | Essex",
   metaDescription: "Clacton-on-Sea property prices: median £267,750, 1,862 sales, -4.4% YoY. Detached £355,000, Flat £150,000. Land Registry data for Clacton-on-Sea, Essex.",
   excerpt: "Median price £267,750, 1,862 sales, -4.4% YoY. Essex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Clacton-on-Sea recorded <strong>91</strong> new-build transactions in the past 12 months, representing <strong>4.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Clacton-on-Sea traded at a <strong>premium of 47.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded — see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded - see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "welshpool-powys-property-market",
   title: "Welshpool Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Welshpool House Prices 2026 — Property Market Data & Development Finance | Powys",
+  metaTitle: "Welshpool House Prices 2026 - Property Market Data & Development Finance | Powys",
   metaDescription: "Welshpool property prices: median £220,000, 146 sales, -10.2% YoY. Detached £325,000, Terraced £159,000. Land Registry data for Welshpool, Powys.",
   excerpt: "Median price £220,000, 146 sales, -10.2% YoY. Powys county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Welshpool recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>2.7%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Welshpool traded at a <strong>premium of 5.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/powys-property-market">Powys</a> market, 39 new-build completions were recorded — see our <a href="/market-reports/powys-property-market">Powys property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/powys-property-market">Powys</a> market, 39 new-build completions were recorded - see our <a href="/market-reports/powys-property-market">Powys property market report</a> for the full county picture.`,
       ],
     },
     {

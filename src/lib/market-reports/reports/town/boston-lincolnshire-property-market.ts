@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "boston-lincolnshire-property-market",
   title: "Boston Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Boston House Prices 2026 — Property Market Data & Development Finance | Lincolnshire",
+  metaTitle: "Boston House Prices 2026 - Property Market Data & Development Finance | Lincolnshire",
   metaDescription: "Boston property prices: median £187,000, 655 sales, -6.3% YoY. Detached £251,500, Flat £86,250. Land Registry data for Boston, Lincolnshire.",
   excerpt: "Median price £187,000, 655 sales, -6.3% YoY. Lincolnshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Boston recorded <strong>27</strong> new-build transactions in the past 12 months, representing <strong>4.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Boston traded at a <strong>premium of 35.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> market, 352 new-build completions were recorded — see our <a href="/market-reports/lincolnshire-property-market">Lincolnshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> market, 352 new-build completions were recorded - see our <a href="/market-reports/lincolnshire-property-market">Lincolnshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newbury-berkshire-property-market",
   title: "Newbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newbury House Prices 2026 — Property Market Data & Development Finance | Berkshire",
+  metaTitle: "Newbury House Prices 2026 - Property Market Data & Development Finance | Berkshire",
   metaDescription: "Newbury property prices: median £370,000, 557 sales, -3.1% YoY. Detached £621,250, Flat £215,000. Land Registry data for Newbury, Berkshire.",
   excerpt: "Median price £370,000, 557 sales, -3.1% YoY. Berkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Newbury recorded <strong>11</strong> new-build transactions in the past 12 months, representing <strong>2.0%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Newbury traded at a <strong>premium of 63.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded — see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/berkshire-property-market">Berkshire</a> market, 128 new-build completions were recorded - see our <a href="/market-reports/berkshire-property-market">Berkshire property market report</a> for the full county picture.`,
       ],
     },
     {

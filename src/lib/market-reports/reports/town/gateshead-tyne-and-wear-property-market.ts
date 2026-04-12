@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "gateshead-tyne-and-wear-property-market",
   title: "Gateshead Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Gateshead House Prices 2026 — Property Market Data & Development Finance | Tyne and Wear",
+  metaTitle: "Gateshead House Prices 2026 - Property Market Data & Development Finance | Tyne and Wear",
   metaDescription: "Gateshead property prices: median £148,875, 2,042 sales, -4% YoY. Detached £310,000, Flat £94,000. Land Registry data for Gateshead, Tyne and Wear.",
   excerpt: "Median price £148,875, 2,042 sales, -4% YoY. Tyne and Wear county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Gateshead recorded <strong>47</strong> new-build transactions in the past 12 months, representing <strong>2.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Gateshead traded at a <strong>premium of 44.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> market, 234 new-build completions were recorded — see our <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> market, 234 new-build completions were recorded - see our <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear property market report</a> for the full county picture.`,
       ],
     },
     {

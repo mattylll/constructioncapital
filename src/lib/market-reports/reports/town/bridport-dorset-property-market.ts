@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bridport-dorset-property-market",
   title: "Bridport Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bridport House Prices 2026 — Property Market Data & Development Finance | Dorset",
+  metaTitle: "Bridport House Prices 2026 - Property Market Data & Development Finance | Dorset",
   metaDescription: "Bridport property prices: median £365,000, 255 sales, -3.9% YoY. Detached £516,500, Flat £175,000. Land Registry data for Bridport, Dorset.",
   excerpt: "Median price £365,000, 255 sales, -3.9% YoY. Dorset county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bridport recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Bridport traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/dorset-property-market">Dorset</a> market, 46 new-build completions were recorded — see our <a href="/market-reports/dorset-property-market">Dorset property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/dorset-property-market">Dorset</a> market, 46 new-build completions were recorded - see our <a href="/market-reports/dorset-property-market">Dorset property market report</a> for the full county picture.`,
       ],
     },
     {

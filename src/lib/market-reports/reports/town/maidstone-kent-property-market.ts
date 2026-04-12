@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "maidstone-kent-property-market",
   title: "Maidstone Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Maidstone House Prices 2026 — Property Market Data & Development Finance | Kent",
+  metaTitle: "Maidstone House Prices 2026 - Property Market Data & Development Finance | Kent",
   metaDescription: "Maidstone property prices: median £350,000, 1,830 sales, -1.4% YoY. Detached £562,500, Flat £180,000. Land Registry data for Maidstone, Kent.",
   excerpt: "Median price £350,000, 1,830 sales, -1.4% YoY. Kent county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Maidstone recorded <strong>21</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Maidstone traded at a <strong>premium of 63.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded — see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded - see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
       ],
     },
     {

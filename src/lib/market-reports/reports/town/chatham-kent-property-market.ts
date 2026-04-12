@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "chatham-kent-property-market",
   title: "Chatham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chatham House Prices 2026 — Property Market Data & Development Finance | Kent",
+  metaTitle: "Chatham House Prices 2026 - Property Market Data & Development Finance | Kent",
   metaDescription: "Chatham property prices: median £300,000, 2,736 sales, +0.8% YoY. Detached £475,000, Flat £170,000. Land Registry data for Chatham, Kent.",
   excerpt: "Median price £300,000, 2,736 sales, +0.8% YoY. Kent county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Chatham recorded <strong>38</strong> new-build transactions in the past 12 months, representing <strong>1.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Chatham traded at a <strong>premium of 100.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded — see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded - see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
       ],
     },
     {

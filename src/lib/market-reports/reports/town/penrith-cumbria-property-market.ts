@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "penrith-cumbria-property-market",
   title: "Penrith Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Penrith House Prices 2026 — Property Market Data & Development Finance | Cumbria",
+  metaTitle: "Penrith House Prices 2026 - Property Market Data & Development Finance | Cumbria",
   metaDescription: "Penrith property prices: median £230,500, 466 sales, -11.3% YoY. Detached £355,000, Flat £120,000. Land Registry data for Penrith, Cumbria.",
   excerpt: "Median price £230,500, 466 sales, -11.3% YoY. Cumbria county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Penrith recorded <strong>20</strong> new-build transactions in the past 12 months, representing <strong>4.3%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Penrith traded at a <strong>discount of 40.5%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/cumbria-property-market">Cumbria</a> market, 79 new-build completions were recorded — see our <a href="/market-reports/cumbria-property-market">Cumbria property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cumbria-property-market">Cumbria</a> market, 79 new-build completions were recorded - see our <a href="/market-reports/cumbria-property-market">Cumbria property market report</a> for the full county picture.`,
       ],
     },
     {

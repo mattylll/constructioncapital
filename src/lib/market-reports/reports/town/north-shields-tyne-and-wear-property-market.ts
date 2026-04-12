@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "north-shields-tyne-and-wear-property-market",
   title: "North Shields Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "North Shields House Prices 2026 — Property Market Data & Development Finance | Tyne and Wear",
+  metaTitle: "North Shields House Prices 2026 - Property Market Data & Development Finance | Tyne and Wear",
   metaDescription: "North Shields property prices: median £195,000, 2,173 sales, +2.1% YoY. Detached £335,000, Flat £118,000. Land Registry data for North Shields, Tyne and Wear.",
   excerpt: "Median price £195,000, 2,173 sales, +2.1% YoY. Tyne and Wear county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `North Shields recorded <strong>44</strong> new-build transactions in the past 12 months, representing <strong>2.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in North Shields traded at a <strong>premium of 73.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> market, 234 new-build completions were recorded — see our <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear</a> market, 234 new-build completions were recorded - see our <a href="/market-reports/tyne-and-wear-property-market">Tyne and Wear property market report</a> for the full county picture.`,
       ],
     },
     {

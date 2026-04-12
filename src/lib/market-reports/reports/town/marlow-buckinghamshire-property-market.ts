@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "marlow-buckinghamshire-property-market",
   title: "Marlow Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Marlow House Prices 2026 — Property Market Data & Development Finance | Buckinghamshire",
+  metaTitle: "Marlow House Prices 2026 - Property Market Data & Development Finance | Buckinghamshire",
   metaDescription: "Marlow property prices: median £610,000, 171 sales, -9.6% YoY. Detached £847,500, Flat £327,500. Land Registry data for Marlow, Buckinghamshire.",
   excerpt: "Median price £610,000, 171 sales, -9.6% YoY. Buckinghamshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Marlow recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>0.6%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Marlow traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded — see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded - see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
       ],
     },
     {

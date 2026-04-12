@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "northampton-northamptonshire-property-market",
   title: "Northampton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Northampton House Prices 2026 — Property Market Data & Development Finance | Northamptonshire",
+  metaTitle: "Northampton House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
   metaDescription: "Northampton property prices: median £271,150, 3,184 sales, -3.3% YoY. Detached £410,000, Flat £140,000. Land Registry data for Northampton, Northamptonshire.",
   excerpt: "Median price £271,150, 3,184 sales, -3.3% YoY. Northamptonshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Northampton recorded <strong>108</strong> new-build transactions in the past 12 months, representing <strong>3.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Northampton traded at a <strong>premium of 24.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> market, 315 new-build completions were recorded — see our <a href="/market-reports/northamptonshire-property-market">Northamptonshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> market, 315 new-build completions were recorded - see our <a href="/market-reports/northamptonshire-property-market">Northamptonshire property market report</a> for the full county picture.`,
       ],
     },
     {

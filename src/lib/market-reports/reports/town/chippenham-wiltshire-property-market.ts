@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "chippenham-wiltshire-property-market",
   title: "Chippenham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chippenham House Prices 2026 — Property Market Data & Development Finance | Wiltshire",
+  metaTitle: "Chippenham House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
   metaDescription: "Chippenham property prices: median £320,000, 682 sales, +1.6% YoY. Detached £474,000, Flat £153,000. Land Registry data for Chippenham, Wiltshire.",
   excerpt: "Median price £320,000, 682 sales, +1.6% YoY. Wiltshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Chippenham recorded <strong>16</strong> new-build transactions in the past 12 months, representing <strong>2.3%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Chippenham traded at a <strong>premium of 17.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded — see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/wiltshire-property-market">Wiltshire</a> market, 125 new-build completions were recorded - see our <a href="/market-reports/wiltshire-property-market">Wiltshire property market report</a> for the full county picture.`,
       ],
     },
     {

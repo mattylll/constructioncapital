@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bolton-greater-manchester-property-market",
   title: "Bolton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bolton House Prices 2026 — Property Market Data & Development Finance | Greater Manchester",
+  metaTitle: "Bolton House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
   metaDescription: "Bolton property prices: median £190,000, 2,756 sales, +1.6% YoY. Detached £355,000, Flat £110,000. Land Registry data for Bolton, Greater Manchester.",
   excerpt: "Median price £190,000, 2,756 sales, +1.6% YoY. Greater Manchester county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bolton recorded <strong>41</strong> new-build transactions in the past 12 months, representing <strong>1.5%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Bolton traded at a <strong>premium of 42.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> market, 620 new-build completions were recorded - see our <a href="/market-reports/greater-manchester-property-market">Greater Manchester property market report</a> for the full county picture.`,
       ],
     },
     {

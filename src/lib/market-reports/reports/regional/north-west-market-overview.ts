@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "north-west-market-overview",
   title: "North West Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "North West Property Market 2026 — County Prices, Trends & Development Hotspots",
+  metaTitle: "North West Property Market 2026 - County Prices, Trends & Development Hotspots",
   metaDescription: "North West property market overview: 5 counties, 58,026 sales, median £163,750. County comparisons, development hotspots & finance options.",
   excerpt: "5 counties, 58,026 transactions, median £163,750.",
   category: "regional",
@@ -31,7 +31,7 @@ const report: MarketReport = {
     {
       heading: `Price Geography`,
       content: [
-        `Property prices across North West vary significantly. <a href="/market-reports/cheshire-property-market">Cheshire</a> commands the highest median price at <strong>£268,000</strong>, while <a href="/market-reports/lancashire-property-market">Lancashire</a> offers the most affordable entry at <strong>£156,750</strong> — a spread of <strong>£111k</strong>.`,
+        `Property prices across North West vary significantly. <a href="/market-reports/cheshire-property-market">Cheshire</a> commands the highest median price at <strong>£268,000</strong>, while <a href="/market-reports/lancashire-property-market">Lancashire</a> offers the most affordable entry at <strong>£156,750</strong> - a spread of <strong>£111k</strong>.`,
         `This price differential creates opportunities across the risk-return spectrum. Premium locations offer higher GDVs but require larger capital commitments, while more affordable areas can deliver stronger percentage returns on lower absolute investment.`,
       ],
     },
@@ -39,7 +39,7 @@ const report: MarketReport = {
       heading: `Development Hotspots`,
       content: [
         `The most active development markets in North West, measured by new-build completions, are <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> (620 new builds), <a href="/market-reports/lancashire-property-market">Lancashire</a> (224 new builds), <a href="/market-reports/cheshire-property-market">Cheshire</a> (147 new builds).`,
-        `By total transaction volume — an indicator of market liquidity and exit confidence — <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> (26,359 sales), <a href="/market-reports/lancashire-property-market">Lancashire</a> (10,862 sales), <a href="/market-reports/merseyside-property-market">Merseyside</a> (8,821 sales) lead the region.`,
+        `By total transaction volume - an indicator of market liquidity and exit confidence - <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> (26,359 sales), <a href="/market-reports/lancashire-property-market">Lancashire</a> (10,862 sales), <a href="/market-reports/merseyside-property-market">Merseyside</a> (8,821 sales) lead the region.`,
         `Developers entering the North West market should weigh these two metrics together: new-build activity shows where planning consent is achievable, while transaction volume confirms buyer demand.`,
       ],
     },
@@ -55,7 +55,7 @@ const report: MarketReport = {
       heading: `Key Takeaways`,
       content: [
         `<ul>
-<li><strong>Market size:</strong> 58,026 transactions across 5 counties — one of the UK's most active regions.</li>
+<li><strong>Market size:</strong> 58,026 transactions across 5 counties - one of the UK's most active regions.</li>
 <li><strong>Price range:</strong> £156,750 to £268,000 median prices, offering opportunities across the capital spectrum.</li>
 <li><strong>Market direction:</strong> 1 of 5 counties showing year-on-year price growth.</li>
 <li><strong>New build activity:</strong> 1,172 completions across the region, indicating a healthy development pipeline.</li>

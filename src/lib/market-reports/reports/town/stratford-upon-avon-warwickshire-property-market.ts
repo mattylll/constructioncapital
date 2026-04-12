@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stratford-upon-avon-warwickshire-property-market",
   title: "Stratford-upon-Avon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stratford-upon-Avon House Prices 2026 — Property Market Data & Development Finance | Warwickshire",
+  metaTitle: "Stratford-upon-Avon House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
   metaDescription: "Stratford-upon-Avon property prices: median £351,750, 1,606 sales, -4.2% YoY. Detached £515,000, Flat £182,000. Land Registry data for Stratford-upon-Avon, Warwickshire.",
   excerpt: "Median price £351,750, 1,606 sales, -4.2% YoY. Warwickshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Stratford-upon-Avon recorded <strong>58</strong> new-build transactions in the past 12 months, representing <strong>3.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Stratford-upon-Avon traded at a <strong>premium of 3.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded — see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded - see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
       ],
     },
     {

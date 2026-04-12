@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "folkestone-kent-property-market",
   title: "Folkestone Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Folkestone House Prices 2026 — Property Market Data & Development Finance | Kent",
+  metaTitle: "Folkestone House Prices 2026 - Property Market Data & Development Finance | Kent",
   metaDescription: "Folkestone property prices: median £308,000, 1,259 sales, -0.6% YoY. Detached £462,500, Flat £183,000. Land Registry data for Folkestone, Kent.",
   excerpt: "Median price £308,000, 1,259 sales, -0.6% YoY. Kent county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Folkestone recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Folkestone traded at a <strong>premium of 26.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded — see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded - see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
       ],
     },
     {

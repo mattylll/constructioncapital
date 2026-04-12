@@ -83,7 +83,7 @@ function getDb() {
     db.pragma("journal_mode = WAL");
     return db;
   } catch {
-    // better-sqlite3 is a devDependency — unavailable in production builds
+    // better-sqlite3 is a devDependency - unavailable in production builds
     return null;
   }
 }

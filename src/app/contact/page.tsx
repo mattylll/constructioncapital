@@ -114,7 +114,7 @@ export default function ContactPage() {
       <section className="bg-background py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-16 lg:grid-cols-2 lg:gap-20">
-            {/* Left — Contact details */}
+            {/* Left - Contact details */}
             <div>
               <h2 className="mb-3 text-2xl font-bold tracking-tight sm:text-3xl">
                 Contact Details
@@ -195,7 +195,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Right — Quick enquiry form */}
+            {/* Right - Quick enquiry form */}
             <div>
               <div
                 className="rounded-2xl p-8 sm:p-10"

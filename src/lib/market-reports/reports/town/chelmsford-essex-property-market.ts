@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "chelmsford-essex-property-market",
   title: "Chelmsford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chelmsford House Prices 2026 — Property Market Data & Development Finance | Essex",
+  metaTitle: "Chelmsford House Prices 2026 - Property Market Data & Development Finance | Essex",
   metaDescription: "Chelmsford property prices: median £395,000, 1,848 sales, -1.1% YoY. Detached £611,750, Flat £220,000. Land Registry data for Chelmsford, Essex.",
   excerpt: "Median price £395,000, 1,848 sales, -1.1% YoY. Essex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Chelmsford recorded <strong>43</strong> new-build transactions in the past 12 months, representing <strong>2.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Chelmsford traded at a <strong>discount of 17.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded — see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/essex-property-market">Essex</a> market, 340 new-build completions were recorded - see our <a href="/market-reports/essex-property-market">Essex property market report</a> for the full county picture.`,
       ],
     },
     {

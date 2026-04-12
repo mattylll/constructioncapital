@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "driffield-east-riding-of-yorkshire-property-market",
   title: "Driffield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Driffield House Prices 2026 — Property Market Data & Development Finance | East Riding of Yorkshire",
+  metaTitle: "Driffield House Prices 2026 - Property Market Data & Development Finance | East Riding of Yorkshire",
   metaDescription: "Driffield property prices: median £212,500, 465 sales, +0.7% YoY. Detached £326,000, Flat £77,000. Land Registry data for Driffield, East Riding of Yorkshire.",
   excerpt: "Median price £212,500, 465 sales, +0.7% YoY. East Riding of Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Driffield recorded <strong>25</strong> new-build transactions in the past 12 months, representing <strong>5.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Driffield traded at a <strong>premium of 42.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire</a> market, 132 new-build completions were recorded — see our <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire</a> market, 132 new-build completions were recorded - see our <a href="/market-reports/east-riding-of-yorkshire-property-market">East Riding of Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

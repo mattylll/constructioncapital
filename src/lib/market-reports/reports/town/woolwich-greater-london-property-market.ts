@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "woolwich-greater-london-property-market",
   title: "Woolwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Woolwich House Prices 2026 — Property Market Data & Development Finance | Greater London",
+  metaTitle: "Woolwich House Prices 2026 - Property Market Data & Development Finance | Greater London",
   metaDescription: "Woolwich property prices: median £447,500, 1,745 sales, +0.6% YoY. Detached £665,000, Flat £365,000. Land Registry data for Woolwich, Greater London.",
   excerpt: "Median price £447,500, 1,745 sales, +0.6% YoY. Greater London county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Woolwich recorded <strong>11</strong> new-build transactions in the past 12 months, representing <strong>0.6%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Woolwich traded at a <strong>premium of 20.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded - see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ilkley-west-yorkshire-property-market",
   title: "Ilkley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ilkley House Prices 2026 — Property Market Data & Development Finance | West Yorkshire",
+  metaTitle: "Ilkley House Prices 2026 - Property Market Data & Development Finance | West Yorkshire",
   metaDescription: "Ilkley property prices: median £385,000, 393 sales, -3.7% YoY. Detached £629,995, Flat £250,000. Land Registry data for Ilkley, West Yorkshire.",
   excerpt: "Median price £385,000, 393 sales, -3.7% YoY. West Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Ilkley recorded <strong>13</strong> new-build transactions in the past 12 months, representing <strong>3.3%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Ilkley traded at a <strong>premium of 17.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded — see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded - see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

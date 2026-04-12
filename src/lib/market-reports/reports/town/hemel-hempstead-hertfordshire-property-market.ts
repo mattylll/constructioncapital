@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hemel-hempstead-hertfordshire-property-market",
   title: "Hemel Hempstead Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hemel Hempstead House Prices 2026 — Property Market Data & Development Finance | Hertfordshire",
+  metaTitle: "Hemel Hempstead House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
   metaDescription: "Hemel Hempstead property prices: median £442,100, 1,441 sales, -0.7% YoY. Detached £790,000, Flat £245,780. Land Registry data for Hemel Hempstead, Hertfordshire.",
   excerpt: "Median price £442,100, 1,441 sales, -0.7% YoY. Hertfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Hemel Hempstead recorded <strong>2</strong> new-build transactions in the past 12 months, representing <strong>0.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Hemel Hempstead traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hertfordshire-property-market">Hertfordshire</a> market, 117 new-build completions were recorded - see our <a href="/market-reports/hertfordshire-property-market">Hertfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

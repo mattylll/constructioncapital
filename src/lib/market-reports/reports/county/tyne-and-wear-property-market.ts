@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "tyne-and-wear-property-market",
   title: "Tyne and Wear Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Tyne and Wear Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Tyne and Wear Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Tyne and Wear property market analysis: median price £149,438, 10,446 sales, +0.4% YoY. Town comparisons, new builds & development finance across 6 towns.",
   excerpt: "6 towns analysed. Median price £149,438, 10,446 transactions, +0.4% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Tyne and Wear Property Market Overview`,
       content: [
         `Tyne and Wear is the North East's metropolitan heart, with Newcastle upon Tyne and Gateshead forming a dynamic twin-city centre. Newcastle's quayside regeneration, two universities, and growing digital economy support a strong rental and development market. Sunderland's International Advanced Manufacturing Park (IAMP) and city centre regeneration are creating employment-driven housing demand. The metro system provides excellent connectivity across the conurbation.`,
-        `The <a href="/locations/tyne-and-wear">Tyne and Wear</a> property market recorded <strong>10,446</strong> residential transactions over the past 12 months, with a median sale price of <strong>£149,438</strong> — £136k below the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.4%</strong> across the county's principal towns.`,
+        `The <a href="/locations/tyne-and-wear">Tyne and Wear</a> property market recorded <strong>10,446</strong> residential transactions over the past 12 months, with a median sale price of <strong>£149,438</strong> - £136k below the UK national median of £285,000. Prices have shown modest growth, with a year-on-year change of <strong>+0.4%</strong> across the county's principal towns.`,
         `Key drivers of the Tyne and Wear property market include Newcastle Helix innovation district, Gateshead Quays arena and conference centre, Sunderland IAMP advanced manufacturing. Additional factors include Two major universities driving rental demand.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/tyne-and-wear/north-shields">North Shields</a></td><td>£195,000</td><td>2,173</td><td>+2.1%</td></tr><tr><td><a href="/locations/tyne-and-wear/newcastle">Newcastle</a></td><td>£192,000</td><td>2,637</td><td>-1.7%</td></tr><tr><td><a href="/locations/tyne-and-wear/south-shields">South Shields</a></td><td>£150,000</td><td>1,425</td><td>0%</td></tr><tr><td><a href="/locations/tyne-and-wear/gateshead">Gateshead</a></td><td>£148,875</td><td>2,042</td><td>-4%</td></tr><tr><td><a href="/locations/tyne-and-wear/washington">Washington</a></td><td>£145,000</td><td>459</td><td>+5.8%</td></tr><tr><td><a href="/locations/tyne-and-wear/sunderland">Sunderland</a></td><td>£130,000</td><td>1,710</td><td>0%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/tyne-and-wear/north-shields">North Shields</a> (£195,000), <a href="/locations/tyne-and-wear/newcastle">Newcastle</a> (£192,000), <a href="/locations/tyne-and-wear/south-shields">South Shields</a> (£150,000). North Shields's premium reflects fish quay heritage area with growing creative sector and waterfront development.`,
         `<strong>Most affordable:</strong> <a href="/locations/tyne-and-wear/sunderland">Sunderland</a> (£130,000), <a href="/locations/tyne-and-wear/washington">Washington</a> (£145,000), <a href="/locations/tyne-and-wear/gateshead">Gateshead</a> (£148,875). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/tyne-and-wear/newcastle">Newcastle</a> (2,637 sales), <a href="/locations/tyne-and-wear/north-shields">North Shields</a> (2,173 sales), <a href="/locations/tyne-and-wear/gateshead">Gateshead</a> (2,042 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/tyne-and-wear/newcastle">Newcastle</a> (2,637 sales), <a href="/locations/tyne-and-wear/north-shields">North Shields</a> (2,173 sales), <a href="/locations/tyne-and-wear/gateshead">Gateshead</a> (2,042 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Tyne and Wear market data carries direct implications for developers seeking finance. With a median property value of £149,438 and detached homes at £310,625, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Tyne and Wear, a scheme with a GDV of £310,625 would typically attract <strong>senior debt of £201,906</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `With prices rising at 0.4% year-on-year, the market environment is supportive of new development. Lenders view rising markets favourably when assessing applications.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Tyne and Wear's existing stock — particularly flat properties priced from £88,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Tyne and Wear's existing stock - particularly flat properties priced from £88,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `Tyne and Wear's property market is on an upward trajectory, with 2 of 6 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/tyne-and-wear/washington">Washington</a> (+5.8%), <a href="/locations/tyne-and-wear/north-shields">North Shields</a> (+2.1%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Gateshead (-4%) has seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Gateshead (-4%) has seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Tyne and Wear's development pipeline will be shaped by Newcastle Helix innovation district and Gateshead Quays arena and conference centre. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Tyne and Wear, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

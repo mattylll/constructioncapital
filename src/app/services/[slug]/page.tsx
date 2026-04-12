@@ -90,7 +90,7 @@ export default async function ServicePage({ params }: PageProps) {
   const financialServiceJsonLd = {
     "@context": "https://schema.org",
     "@type": "FinancialService",
-    name: `${service.name} — ${SITE_NAME}`,
+    name: `${service.name} - ${SITE_NAME}`,
     description: content.metaDescription,
     url: `${SITE_URL}/services/${slug}`,
     provider: {
@@ -544,7 +544,7 @@ export default async function ServicePage({ params }: PageProps) {
               </h2>
               <p className="mt-3 text-muted-foreground">
                 In-depth guides to help you navigate {service.name.toLowerCase()}{" "}
-                — from application to completion.
+                - from application to completion.
               </p>
             </div>
 

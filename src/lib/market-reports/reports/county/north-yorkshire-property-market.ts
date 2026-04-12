@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "north-yorkshire-property-market",
   title: "North Yorkshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "North Yorkshire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "North Yorkshire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "North Yorkshire property market analysis: median price £280,000, 5,541 sales, -1% YoY. Town comparisons, new builds & development finance across 8 towns.",
   excerpt: "8 towns analysed. Median price £280,000, 5,541 transactions, -1% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `North Yorkshire Property Market Overview`,
       content: [
         `North Yorkshire is England's largest county by area, spanning from the Yorkshire Dales to the North York Moors and the heritage city of York. York commands premium values driven by tourism, two universities, and its position as a major rail hub. Harrogate and Ripon offer established residential markets with strong buyer demand, while Scarborough and Whitby have coastal tourism economies supporting holiday-let development.`,
-        `The <a href="/locations/north-yorkshire">North Yorkshire</a> property market recorded <strong>5,541</strong> residential transactions over the past 12 months, with a median sale price of <strong>£280,000</strong> — £5k below the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-1%</strong> across the county's principal towns.`,
+        `The <a href="/locations/north-yorkshire">North Yorkshire</a> property market recorded <strong>5,541</strong> residential transactions over the past 12 months, with a median sale price of <strong>£280,000</strong> - £5k below the UK national median of £285,000. Prices have shown broadly stable, with a year-on-year change of <strong>-1%</strong> across the county's principal towns.`,
         `Key drivers of the North Yorkshire property market include York student and tourism-driven demand, Harrogate conference and spa town premium, Yorkshire Dales and Moors tourism. Additional factors include Catterick Garrison military housing demand.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/north-yorkshire/knaresborough">Knaresborough</a></td><td>£357,000</td><td>225</td><td>+6.6%</td></tr><tr><td><a href="/locations/north-yorkshire/harrogate">Harrogate</a></td><td>£313,750</td><td>1,184</td><td>+0.6%</td></tr><tr><td><a href="/locations/north-yorkshire/ripon">Ripon</a></td><td>£297,000</td><td>223</td><td>+0.7%</td></tr><tr><td><a href="/locations/north-yorkshire/york">York</a></td><td>£295,000</td><td>1,950</td><td>-1.7%</td></tr><tr><td><a href="/locations/north-yorkshire/skipton">Skipton</a></td><td>£265,000</td><td>425</td><td>-3.6%</td></tr><tr><td><a href="/locations/north-yorkshire/whitby">Whitby</a></td><td>£260,000</td><td>252</td><td>-3.7%</td></tr><tr><td><a href="/locations/north-yorkshire/northallerton">Northallerton</a></td><td>£244,500</td><td>334</td><td>-1.4%</td></tr><tr><td><a href="/locations/north-yorkshire/scarborough">Scarborough</a></td><td>£179,000</td><td>948</td><td>-5.8%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/north-yorkshire/knaresborough">Knaresborough</a> (£357,000), <a href="/locations/north-yorkshire/harrogate">Harrogate</a> (£313,750), <a href="/locations/north-yorkshire/ripon">Ripon</a> (£297,000). Knaresborough's premium reflects riverside market town adjacent to harrogate with heritage character and strong demand.`,
         `<strong>Most affordable:</strong> <a href="/locations/north-yorkshire/scarborough">Scarborough</a> (£179,000), <a href="/locations/north-yorkshire/northallerton">Northallerton</a> (£244,500), <a href="/locations/north-yorkshire/whitby">Whitby</a> (£260,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/north-yorkshire/york">York</a> (1,950 sales), <a href="/locations/north-yorkshire/harrogate">Harrogate</a> (1,184 sales), <a href="/locations/north-yorkshire/scarborough">Scarborough</a> (948 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/north-yorkshire/york">York</a> (1,950 sales), <a href="/locations/north-yorkshire/harrogate">Harrogate</a> (1,184 sales), <a href="/locations/north-yorkshire/scarborough">Scarborough</a> (948 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The North Yorkshire market data carries direct implications for developers seeking finance. With a median property value of £280,000 and detached homes at £432,500, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in North Yorkshire, a scheme with a GDV of £432,500 would typically attract <strong>senior debt of £281,125</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -1%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, North Yorkshire's existing stock — particularly flat properties priced from £153,000 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, North Yorkshire's existing stock - particularly flat properties priced from £153,000 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -79,7 +79,7 @@ const report: MarketReport = {
       content: [
         `North Yorkshire's property market is in a period of consolidation, with 3 of 8 towns recording year-on-year price growth.`,
         `The fastest-growing markets are <a href="/locations/north-yorkshire/knaresborough">Knaresborough</a> (+6.6%), <a href="/locations/north-yorkshire/ripon">Ripon</a> (+0.7%), <a href="/locations/north-yorkshire/harrogate">Harrogate</a> (+0.6%). These areas offer the strongest market momentum for new development.`,
-        `Conversely, Skipton (-3.6%) and Whitby (-3.7%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Skipton (-3.6%) and Whitby (-3.7%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, North Yorkshire's development pipeline will be shaped by York student and tourism-driven demand and Harrogate conference and spa town premium. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in North Yorkshire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

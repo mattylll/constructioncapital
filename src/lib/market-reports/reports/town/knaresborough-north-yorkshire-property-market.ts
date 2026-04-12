@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "knaresborough-north-yorkshire-property-market",
   title: "Knaresborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Knaresborough House Prices 2026 — Property Market Data & Development Finance | North Yorkshire",
+  metaTitle: "Knaresborough House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
   metaDescription: "Knaresborough property prices: median £357,000, 225 sales, +6.6% YoY. Detached £490,000, Flat £145,000. Land Registry data for Knaresborough, North Yorkshire.",
   excerpt: "Median price £357,000, 225 sales, +6.6% YoY. North Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Knaresborough recorded <strong>20</strong> new-build transactions in the past 12 months, representing <strong>8.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Knaresborough traded at a <strong>premium of 4.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> market, 130 new-build completions were recorded — see our <a href="/market-reports/north-yorkshire-property-market">North Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/north-yorkshire-property-market">North Yorkshire</a> market, 130 new-build completions were recorded - see our <a href="/market-reports/north-yorkshire-property-market">North Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

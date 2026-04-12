@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "buckingham-buckinghamshire-property-market",
   title: "Buckingham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Buckingham House Prices 2026 — Property Market Data & Development Finance | Buckinghamshire",
+  metaTitle: "Buckingham House Prices 2026 - Property Market Data & Development Finance | Buckinghamshire",
   metaDescription: "Buckingham property prices: median £378,000, 388 sales, -3.1% YoY. Detached £514,750, Flat £180,000. Land Registry data for Buckingham, Buckinghamshire.",
   excerpt: "Median price £378,000, 388 sales, -3.1% YoY. Buckinghamshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Buckingham recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>1.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Buckingham traded at a <strong>premium of 53.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded — see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded - see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
       ],
     },
     {

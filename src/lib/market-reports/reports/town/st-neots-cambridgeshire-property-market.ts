@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "st-neots-cambridgeshire-property-market",
   title: "St Neots Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "St Neots House Prices 2026 — Property Market Data & Development Finance | Cambridgeshire",
+  metaTitle: "St Neots House Prices 2026 - Property Market Data & Development Finance | Cambridgeshire",
   metaDescription: "St Neots property prices: median £320,000, 588 sales, -3.3% YoY. Detached £461,695, Flat £170,000. Land Registry data for St Neots, Cambridgeshire.",
   excerpt: "Median price £320,000, 588 sales, -3.3% YoY. Cambridgeshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `St Neots recorded <strong>32</strong> new-build transactions in the past 12 months, representing <strong>5.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in St Neots traded at a <strong>premium of 21.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire</a> market, 154 new-build completions were recorded — see our <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire</a> market, 154 new-build completions were recorded - see our <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "market-harborough-leicestershire-property-market",
   title: "Market Harborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Market Harborough House Prices 2026 — Property Market Data & Development Finance | Leicestershire",
+  metaTitle: "Market Harborough House Prices 2026 - Property Market Data & Development Finance | Leicestershire",
   metaDescription: "Market Harborough property prices: median £325,000, 1,162 sales, -3.5% YoY. Detached £450,000, Flat £150,000. Land Registry data for Market Harborough, Leicestershire.",
   excerpt: "Median price £325,000, 1,162 sales, -3.5% YoY. Leicestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Market Harborough recorded <strong>52</strong> new-build transactions in the past 12 months, representing <strong>4.5%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Market Harborough traded at a <strong>premium of 9.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/leicestershire-property-market">Leicestershire</a> market, 290 new-build completions were recorded — see our <a href="/market-reports/leicestershire-property-market">Leicestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/leicestershire-property-market">Leicestershire</a> market, 290 new-build completions were recorded - see our <a href="/market-reports/leicestershire-property-market">Leicestershire property market report</a> for the full county picture.`,
       ],
     },
     {

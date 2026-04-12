@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "pwllheli-gwynedd-property-market",
   title: "Pwllheli Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Pwllheli House Prices 2026 — Property Market Data & Development Finance | Gwynedd",
+  metaTitle: "Pwllheli House Prices 2026 - Property Market Data & Development Finance | Gwynedd",
   metaDescription: "Pwllheli property prices: median £252,500, 158 sales, +1% YoY. Detached £313,500, Flat £163,000. Land Registry data for Pwllheli, Gwynedd.",
   excerpt: "Median price £252,500, 158 sales, +1% YoY. Gwynedd county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Pwllheli recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Pwllheli traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/gwynedd-property-market">Gwynedd</a> market, 2 new-build completions were recorded — see our <a href="/market-reports/gwynedd-property-market">Gwynedd property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/gwynedd-property-market">Gwynedd</a> market, 2 new-build completions were recorded - see our <a href="/market-reports/gwynedd-property-market">Gwynedd property market report</a> for the full county picture.`,
       ],
     },
     {

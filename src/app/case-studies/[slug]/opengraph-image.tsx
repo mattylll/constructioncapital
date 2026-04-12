@@ -23,7 +23,7 @@ export default async function Image({
   const { slug } = await params;
   const cs = CASE_STUDY_TITLES[slug];
   const title = cs?.title ?? "Case Study";
-  const subtitle = cs ? `${cs.location} — ${cs.gdv} GDV` : "Real Developer Success Stories";
+  const subtitle = cs ? `${cs.location} - ${cs.gdv} GDV` : "Real Developer Success Stories";
 
   return new ImageResponse(
     (

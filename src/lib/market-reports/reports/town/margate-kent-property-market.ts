@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "margate-kent-property-market",
   title: "Margate Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Margate House Prices 2026 — Property Market Data & Development Finance | Kent",
+  metaTitle: "Margate House Prices 2026 - Property Market Data & Development Finance | Kent",
   metaDescription: "Margate property prices: median £275,000, 1,559 sales, -1.8% YoY. Detached £430,000, Flat £161,250. Land Registry data for Margate, Kent.",
   excerpt: "Median price £275,000, 1,559 sales, -1.8% YoY. Kent county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Margate recorded <strong>26</strong> new-build transactions in the past 12 months, representing <strong>1.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Margate traded at a <strong>discount of 13.1%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded — see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded - see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -97,7 +97,7 @@ const steps = [
 export default function HomePage() {
   return (
     <>
-      {/* ━━━ HERO — Centered billboard ━━━ */}
+      {/* ━━━ HERO - Centered billboard ━━━ */}
       <section className="relative flex min-h-[100vh] flex-col items-center justify-center overflow-hidden text-center text-white">
         {/* Background construction image */}
         <Image
@@ -138,7 +138,7 @@ export default function HomePage() {
             Development Finance Brokers
           </p>
 
-          {/* Main title — typewriter effect */}
+          {/* Main title - typewriter effect */}
           <h1>
             <Typewriter
               lines={["WE GET YOU", "FUNDED"]}
@@ -149,7 +149,7 @@ export default function HomePage() {
             />
           </h1>
 
-          {/* Sub-headline — dimmed but readable */}
+          {/* Sub-headline - dimmed but readable */}
           <p className="animate-fade-up delay-200 mt-3 text-[clamp(2.5rem,8vw,6.5rem)] font-black leading-[0.9] tracking-[-0.03em] text-white/30">
             FAST.
           </p>
@@ -211,7 +211,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ━━━ SPEED — "COMPLETE IN DAYS / NOT MONTHS" ━━━ */}
+      {/* ━━━ SPEED - "COMPLETE IN DAYS / NOT MONTHS" ━━━ */}
       <section
         className="relative overflow-hidden py-32 text-center sm:py-44"
       >
@@ -260,7 +260,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ━━━ SERVICES — Grid with big rate numbers ━━━ */}
+      {/* ━━━ SERVICES - Grid with big rate numbers ━━━ */}
       <section
         className="relative py-24 sm:py-32"
         style={{ background: "oklch(0.12 0.045 255)" }}
@@ -324,7 +324,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ━━━ URGENCY — Red-tinted statement ━━━ */}
+      {/* ━━━ URGENCY - Red-tinted statement ━━━ */}
       <section
         className="relative overflow-hidden py-24 text-center sm:py-32"
         style={{ background: "oklch(0.10 0.04 255)" }}
@@ -353,7 +353,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ━━━ PROCESS — Three columns ━━━ */}
+      {/* ━━━ PROCESS - Three columns ━━━ */}
       <section
         className="relative py-24 sm:py-32"
         style={{ background: "oklch(0.10 0.04 255)" }}
@@ -397,7 +397,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ━━━ ENQUIRY FORM — Inline lead capture ━━━ */}
+      {/* ━━━ ENQUIRY FORM - Inline lead capture ━━━ */}
       <section
         className="relative py-24 sm:py-32"
         style={{ background: "oklch(0.12 0.045 255)" }}
@@ -443,7 +443,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ━━━ SOCIAL PROOF — Two-column grid ━━━ */}
+      {/* ━━━ SOCIAL PROOF - Two-column grid ━━━ */}
       <section
         className="relative py-24 sm:py-32"
         style={{ background: "oklch(0.12 0.045 255)" }}
@@ -506,7 +506,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ━━━ MARKET INTELLIGENCE — Report teasers ━━━ */}
+      {/* ━━━ MARKET INTELLIGENCE - Report teasers ━━━ */}
       <section
         className="relative py-24 sm:py-32"
         style={{ background: "oklch(0.10 0.04 255)" }}
@@ -533,14 +533,14 @@ export default function HomePage() {
                 title: "Town Reports",
                 stat: "360",
                 label: "TOWNS",
-                desc: "Local market data for every town — prices, sales, trends, and development finance opportunities.",
+                desc: "Local market data for every town - prices, sales, trends, and development finance opportunities.",
                 href: "/market-reports?category=town",
               },
               {
                 title: "County Reports",
                 stat: "48",
                 label: "COUNTIES",
-                desc: "In-depth analysis of every county — price trends, town comparisons, and finance implications.",
+                desc: "In-depth analysis of every county - price trends, town comparisons, and finance implications.",
                 href: "/market-reports?category=county",
               },
               {
@@ -617,7 +617,7 @@ export default function HomePage() {
                 Development Finance Guides
               </h2>
               <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-                {GUIDES.length} in-depth guides covering every aspect of property development finance — from first application to exit.
+                {GUIDES.length} in-depth guides covering every aspect of property development finance - from first application to exit.
               </p>
             </div>
 
@@ -653,7 +653,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ━━━ FINAL CTA — Full takeover ━━━ */}
+      {/* ━━━ FINAL CTA - Full takeover ━━━ */}
       <section
         className="relative overflow-hidden py-36 text-center sm:py-44"
         style={{ background: "oklch(0.10 0.04 255)" }}

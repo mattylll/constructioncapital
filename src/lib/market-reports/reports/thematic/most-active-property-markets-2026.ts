@@ -31,7 +31,7 @@ const report: MarketReport = {
       heading: `Top Counties by Total Volume`,
       content: [
         `At the county level, <a href="/market-reports/greater-manchester-property-market">Greater Manchester</a> (26,359), <a href="/market-reports/bristol-property-market">Bristol</a> (22,563), <a href="/market-reports/greater-london-property-market">Greater London</a> (21,616), <a href="/market-reports/cardiff-property-market">Cardiff</a> (20,970), <a href="/market-reports/west-midlands-property-market">West Midlands</a> (20,681) record the highest aggregate transaction volumes.`,
-        `These are the deepest property markets in the UK — where lenders are most comfortable providing finance and where developers have the clearest comparable evidence for their appraisals.`,
+        `These are the deepest property markets in the UK - where lenders are most comfortable providing finance and where developers have the clearest comparable evidence for their appraisals.`,
       ],
     },
     {

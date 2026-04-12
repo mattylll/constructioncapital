@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "gravesend-kent-property-market",
   title: "Gravesend Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Gravesend House Prices 2026 — Property Market Data & Development Finance | Kent",
+  metaTitle: "Gravesend House Prices 2026 - Property Market Data & Development Finance | Kent",
   metaDescription: "Gravesend property prices: median £350,000, 839 sales, +1.4% YoY. Detached £600,000, Flat £175,000. Land Registry data for Gravesend, Kent.",
   excerpt: "Median price £350,000, 839 sales, +1.4% YoY. Kent county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Gravesend recorded <strong>8</strong> new-build transactions in the past 12 months, representing <strong>1.0%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Gravesend traded at a <strong>discount of 36.1%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded — see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded - see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
       ],
     },
     {

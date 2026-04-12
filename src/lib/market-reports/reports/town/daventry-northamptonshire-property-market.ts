@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "daventry-northamptonshire-property-market",
   title: "Daventry Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Daventry House Prices 2026 — Property Market Data & Development Finance | Northamptonshire",
+  metaTitle: "Daventry House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
   metaDescription: "Daventry property prices: median £265,000, 485 sales, -7% YoY. Detached £390,000, Flat £130,000. Land Registry data for Daventry, Northamptonshire.",
   excerpt: "Median price £265,000, 485 sales, -7% YoY. Northamptonshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Daventry recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>0.8%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Daventry traded at a <strong>premium of 54.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> market, 315 new-build completions were recorded — see our <a href="/market-reports/northamptonshire-property-market">Northamptonshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northamptonshire-property-market">Northamptonshire</a> market, 315 new-build completions were recorded - see our <a href="/market-reports/northamptonshire-property-market">Northamptonshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "witney-oxfordshire-property-market",
   title: "Witney Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Witney House Prices 2026 — Property Market Data & Development Finance | Oxfordshire",
+  metaTitle: "Witney House Prices 2026 - Property Market Data & Development Finance | Oxfordshire",
   metaDescription: "Witney property prices: median £390,000, 1,165 sales, +0.1% YoY. Detached £581,500, Flat £207,500. Land Registry data for Witney, Oxfordshire.",
   excerpt: "Median price £390,000, 1,165 sales, +0.1% YoY. Oxfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Witney recorded <strong>10</strong> new-build transactions in the past 12 months, representing <strong>0.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Witney traded at a <strong>premium of 24.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/oxfordshire-property-market">Oxfordshire</a> market, 215 new-build completions were recorded — see our <a href="/market-reports/oxfordshire-property-market">Oxfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/oxfordshire-property-market">Oxfordshire</a> market, 215 new-build completions were recorded - see our <a href="/market-reports/oxfordshire-property-market">Oxfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

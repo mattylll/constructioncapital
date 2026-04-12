@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "chester-le-street-county-durham-property-market",
   title: "Chester-le-Street Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chester-le-Street House Prices 2026 — Property Market Data & Development Finance | County Durham",
+  metaTitle: "Chester-le-Street House Prices 2026 - Property Market Data & Development Finance | County Durham",
   metaDescription: "Chester-le-Street property prices: median £124,500, 6,469 sales, +1.2% YoY. Detached £250,000, Flat £80,000. Land Registry data for Chester-le-Street, County Durham.",
   excerpt: "Median price £124,500, 6,469 sales, +1.2% YoY. County Durham county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Chester-le-Street recorded <strong>155</strong> new-build transactions in the past 12 months, representing <strong>2.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Chester-le-Street traded at a <strong>premium of 93.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/county-durham-property-market">County Durham</a> market, 215 new-build completions were recorded — see our <a href="/market-reports/county-durham-property-market">County Durham property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/county-durham-property-market">County Durham</a> market, 215 new-build completions were recorded - see our <a href="/market-reports/county-durham-property-market">County Durham property market report</a> for the full county picture.`,
       ],
     },
     {

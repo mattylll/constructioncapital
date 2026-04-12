@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "warwick-warwickshire-property-market",
   title: "Warwick Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Warwick House Prices 2026 — Property Market Data & Development Finance | Warwickshire",
+  metaTitle: "Warwick House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
   metaDescription: "Warwick property prices: median £350,000, 531 sales, -1.4% YoY. Detached £507,000, Flat £180,000. Land Registry data for Warwick, Warwickshire.",
   excerpt: "Median price £350,000, 531 sales, -1.4% YoY. Warwickshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Warwick recorded <strong>40</strong> new-build transactions in the past 12 months, representing <strong>7.5%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Warwick traded at a <strong>premium of 31.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded — see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/warwickshire-property-market">Warwickshire</a> market, 262 new-build completions were recorded - see our <a href="/market-reports/warwickshire-property-market">Warwickshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "felixstowe-suffolk-property-market",
   title: "Felixstowe Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Felixstowe House Prices 2026 — Property Market Data & Development Finance | Suffolk",
+  metaTitle: "Felixstowe House Prices 2026 - Property Market Data & Development Finance | Suffolk",
   metaDescription: "Felixstowe property prices: median £282,000, 355 sales, +2.5% YoY. Detached £390,000, Flat £157,500. Land Registry data for Felixstowe, Suffolk.",
   excerpt: "Median price £282,000, 355 sales, +2.5% YoY. Suffolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Felixstowe recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>3.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Felixstowe traded at a <strong>premium of 13.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/suffolk-property-market">Suffolk</a> market, 189 new-build completions were recorded — see our <a href="/market-reports/suffolk-property-market">Suffolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/suffolk-property-market">Suffolk</a> market, 189 new-build completions were recorded - see our <a href="/market-reports/suffolk-property-market">Suffolk property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ealing-greater-london-property-market",
   title: "Ealing Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ealing House Prices 2026 — Property Market Data & Development Finance | Greater London",
+  metaTitle: "Ealing House Prices 2026 - Property Market Data & Development Finance | Greater London",
   metaDescription: "Ealing property prices: median £520,000, 1,975 sales, +1% YoY. Detached £1.31m, Flat £385,000. Land Registry data for Ealing, Greater London.",
   excerpt: "Median price £520,000, 1,975 sales, +1% YoY. Greater London county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Ealing recorded <strong>60</strong> new-build transactions in the past 12 months, representing <strong>3.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Ealing traded at a <strong>discount of 13.2%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market">Greater London</a> market, 509 new-build completions were recorded - see our <a href="/market-reports/greater-london-property-market">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {

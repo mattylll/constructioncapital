@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "biggleswade-bedfordshire-property-market",
   title: "Biggleswade Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Biggleswade House Prices 2026 — Property Market Data & Development Finance | Bedfordshire",
+  metaTitle: "Biggleswade House Prices 2026 - Property Market Data & Development Finance | Bedfordshire",
   metaDescription: "Biggleswade property prices: median £349,000, 348 sales, -6.3% YoY. Detached £527,500, Flat £200,000. Land Registry data for Biggleswade, Bedfordshire.",
   excerpt: "Median price £349,000, 348 sales, -6.3% YoY. Bedfordshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Biggleswade recorded <strong>3</strong> new-build transactions in the past 12 months, representing <strong>0.9%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Biggleswade traded at a <strong>premium of 139.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> market, 429 new-build completions were recorded — see our <a href="/market-reports/bedfordshire-property-market">Bedfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/bedfordshire-property-market">Bedfordshire</a> market, 429 new-build completions were recorded - see our <a href="/market-reports/bedfordshire-property-market">Bedfordshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -34,7 +34,7 @@ function drawHeatmap(
     ctx.fillRect(x - radius, y - radius, radius * 2, radius * 2);
   });
 
-  // Second pass — bright dots at exact click points
+  // Second pass - bright dots at exact click points
   ctx.fillStyle = "rgba(255, 60, 0, 0.6)";
   points.forEach((p) => {
     const x = p.x * scaleX;

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "blackburn-lancashire-property-market",
   title: "Blackburn Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Blackburn House Prices 2026 — Property Market Data & Development Finance | Lancashire",
+  metaTitle: "Blackburn House Prices 2026 - Property Market Data & Development Finance | Lancashire",
   metaDescription: "Blackburn property prices: median £147,000, 1,496 sales, -10.9% YoY. Detached £300,250, Flat £85,000. Land Registry data for Blackburn, Lancashire.",
   excerpt: "Median price £147,000, 1,496 sales, -10.9% YoY. Lancashire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Blackburn recorded <strong>80</strong> new-build transactions in the past 12 months, representing <strong>5.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Blackburn traded at a <strong>premium of 126.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/lancashire-property-market">Lancashire</a> market, 224 new-build completions were recorded — see our <a href="/market-reports/lancashire-property-market">Lancashire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/lancashire-property-market">Lancashire</a> market, 224 new-build completions were recorded - see our <a href="/market-reports/lancashire-property-market">Lancashire property market report</a> for the full county picture.`,
       ],
     },
     {

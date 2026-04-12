@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "gainsborough-lincolnshire-property-market",
   title: "Gainsborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Gainsborough House Prices 2026 — Property Market Data & Development Finance | Lincolnshire",
+  metaTitle: "Gainsborough House Prices 2026 - Property Market Data & Development Finance | Lincolnshire",
   metaDescription: "Gainsborough property prices: median £210,000, 1,180 sales, -5.5% YoY. Detached £295,000, Flat £80,000. Land Registry data for Gainsborough, Lincolnshire.",
   excerpt: "Median price £210,000, 1,180 sales, -5.5% YoY. Lincolnshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Gainsborough recorded <strong>51</strong> new-build transactions in the past 12 months, representing <strong>4.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Gainsborough traded at a <strong>premium of 18.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> market, 352 new-build completions were recorded — see our <a href="/market-reports/lincolnshire-property-market">Lincolnshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/lincolnshire-property-market">Lincolnshire</a> market, 352 new-build completions were recorded - see our <a href="/market-reports/lincolnshire-property-market">Lincolnshire property market report</a> for the full county picture.`,
       ],
     },
     {

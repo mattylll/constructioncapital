@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getAnalyticsDb } from "@/lib/analytics-db";
 
 /**
- * Analytics query API — used by the admin dashboard.
+ * Analytics query API - used by the admin dashboard.
  * Protected by a simple token check.
  */
 function isAuthorized(request: NextRequest): boolean {

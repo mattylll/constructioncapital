@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "beaconsfield-buckinghamshire-property-market",
   title: "Beaconsfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Beaconsfield House Prices 2026 — Property Market Data & Development Finance | Buckinghamshire",
+  metaTitle: "Beaconsfield House Prices 2026 - Property Market Data & Development Finance | Buckinghamshire",
   metaDescription: "Beaconsfield property prices: median £951,000, 182 sales, -3.2% YoY. Detached £1.55m, Flat £467,500. Land Registry data for Beaconsfield, Buckinghamshire.",
   excerpt: "Median price £951,000, 182 sales, -3.2% YoY. Buckinghamshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Beaconsfield recorded <strong>6</strong> new-build transactions in the past 12 months, representing <strong>3.3%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Beaconsfield traded at a <strong>discount of 8.8%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded — see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire</a> market, 191 new-build completions were recorded - see our <a href="/market-reports/buckinghamshire-property-market">Buckinghamshire property market report</a> for the full county picture.`,
       ],
     },
     {

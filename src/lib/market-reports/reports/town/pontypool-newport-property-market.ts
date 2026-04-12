@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "pontypool-newport-property-market",
   title: "Pontypool Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Pontypool House Prices 2026 — Property Market Data & Development Finance | Newport",
+  metaTitle: "Pontypool House Prices 2026 - Property Market Data & Development Finance | Newport",
   metaDescription: "Pontypool property prices: median £175,000, 343 sales, +2.9% YoY. Detached £320,000, Flat £121,250. Land Registry data for Pontypool, Newport.",
   excerpt: "Median price £175,000, 343 sales, +2.9% YoY. Newport county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Pontypool recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Pontypool traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/newport-property-market">Newport</a> market, 147 new-build completions were recorded — see our <a href="/market-reports/newport-property-market">Newport property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/newport-property-market">Newport</a> market, 147 new-build completions were recorded - see our <a href="/market-reports/newport-property-market">Newport property market report</a> for the full county picture.`,
       ],
     },
     {

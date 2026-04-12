@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "oswestry-shropshire-property-market",
   title: "Oswestry Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Oswestry House Prices 2026 — Property Market Data & Development Finance | Shropshire",
+  metaTitle: "Oswestry House Prices 2026 - Property Market Data & Development Finance | Shropshire",
   metaDescription: "Oswestry property prices: median £229,498, 414 sales, -6.3% YoY. Detached £340,000, Flat £100,000. Land Registry data for Oswestry, Shropshire.",
   excerpt: "Median price £229,498, 414 sales, -6.3% YoY. Shropshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Oswestry recorded <strong>16</strong> new-build transactions in the past 12 months, representing <strong>3.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Oswestry traded at a <strong>premium of 0.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/shropshire-property-market">Shropshire</a> market, 75 new-build completions were recorded — see our <a href="/market-reports/shropshire-property-market">Shropshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/shropshire-property-market">Shropshire</a> market, 75 new-build completions were recorded - see our <a href="/market-reports/shropshire-property-market">Shropshire property market report</a> for the full county picture.`,
       ],
     },
     {

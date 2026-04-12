@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "blyth-northumberland-property-market",
   title: "Blyth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Blyth House Prices 2026 — Property Market Data & Development Finance | Northumberland",
+  metaTitle: "Blyth House Prices 2026 - Property Market Data & Development Finance | Northumberland",
   metaDescription: "Blyth property prices: median £140,000, 449 sales, -6.7% YoY. Detached £249,250, Flat £71,000. Land Registry data for Blyth, Northumberland.",
   excerpt: "Median price £140,000, 449 sales, -6.7% YoY. Northumberland county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Blyth recorded <strong>5</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Blyth traded at a <strong>premium of 133.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/northumberland-property-market">Northumberland</a> market, 72 new-build completions were recorded — see our <a href="/market-reports/northumberland-property-market">Northumberland property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northumberland-property-market">Northumberland</a> market, 72 new-build completions were recorded - see our <a href="/market-reports/northumberland-property-market">Northumberland property market report</a> for the full county picture.`,
       ],
     },
     {

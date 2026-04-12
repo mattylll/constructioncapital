@@ -97,7 +97,7 @@ export default function CaseStudiesPage() {
             </h1>
             <p className="animate-fade-up delay-200 mt-7 max-w-xl text-lg leading-relaxed text-white/60">
               A selection of deals we&rsquo;ve structured across the UK.
-              Different locations, different structures, same result —
+              Different locations, different structures, same result -
               competitive terms delivered on time.
             </p>
           </div>

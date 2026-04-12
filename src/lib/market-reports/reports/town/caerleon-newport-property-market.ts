@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "caerleon-newport-property-market",
   title: "Caerleon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Caerleon House Prices 2026 — Property Market Data & Development Finance | Newport",
+  metaTitle: "Caerleon House Prices 2026 - Property Market Data & Development Finance | Newport",
   metaDescription: "Caerleon property prices: median £225,000, 1,677 sales, 0% YoY. Detached £380,000, Flat £126,000. Land Registry data for Caerleon, Newport.",
   excerpt: "Median price £225,000, 1,677 sales, 0% YoY. Newport county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Caerleon recorded <strong>46</strong> new-build transactions in the past 12 months, representing <strong>2.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Caerleon traded at a <strong>premium of 32.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/newport-property-market">Newport</a> market, 147 new-build completions were recorded — see our <a href="/market-reports/newport-property-market">Newport property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/newport-property-market">Newport</a> market, 147 new-build completions were recorded - see our <a href="/market-reports/newport-property-market">Newport property market report</a> for the full county picture.`,
       ],
     },
     {

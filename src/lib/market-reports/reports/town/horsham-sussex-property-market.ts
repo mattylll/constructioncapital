@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "horsham-sussex-property-market",
   title: "Horsham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Horsham House Prices 2026 — Property Market Data & Development Finance | Sussex",
+  metaTitle: "Horsham House Prices 2026 - Property Market Data & Development Finance | Sussex",
   metaDescription: "Horsham property prices: median £430,000, 1,545 sales, -1.7% YoY. Detached £695,000, Flat £228,750. Land Registry data for Horsham, Sussex.",
   excerpt: "Median price £430,000, 1,545 sales, -1.7% YoY. Sussex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Horsham recorded <strong>6</strong> new-build transactions in the past 12 months, representing <strong>0.4%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Horsham traded at a <strong>premium of 27.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/sussex-property-market">Sussex</a> market, 157 new-build completions were recorded — see our <a href="/market-reports/sussex-property-market">Sussex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/sussex-property-market">Sussex</a> market, 157 new-build completions were recorded - see our <a href="/market-reports/sussex-property-market">Sussex property market report</a> for the full county picture.`,
       ],
     },
     {

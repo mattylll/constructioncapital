@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "south-west-market-overview",
   title: "South West Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "South West Property Market 2026 — County Prices, Trends & Development Hotspots",
+  metaTitle: "South West Property Market 2026 - County Prices, Trends & Development Hotspots",
   metaDescription: "South West property market overview: 7 counties, 60,559 sales, median £304,623. County comparisons, development hotspots & finance options.",
   excerpt: "7 counties, 60,559 transactions, median £304,623.",
   category: "regional",
@@ -31,7 +31,7 @@ const report: MarketReport = {
     {
       heading: `Price Geography`,
       content: [
-        `Property prices across South West vary significantly. <a href="/market-reports/bristol-property-market">Bristol</a> commands the highest median price at <strong>£345,000</strong>, while <a href="/market-reports/devon-property-market">Devon</a> offers the most affordable entry at <strong>£290,000</strong> — a spread of <strong>£55k</strong>.`,
+        `Property prices across South West vary significantly. <a href="/market-reports/bristol-property-market">Bristol</a> commands the highest median price at <strong>£345,000</strong>, while <a href="/market-reports/devon-property-market">Devon</a> offers the most affordable entry at <strong>£290,000</strong> - a spread of <strong>£55k</strong>.`,
         `This price differential creates opportunities across the risk-return spectrum. Premium locations offer higher GDVs but require larger capital commitments, while more affordable areas can deliver stronger percentage returns on lower absolute investment.`,
       ],
     },
@@ -39,7 +39,7 @@ const report: MarketReport = {
       heading: `Development Hotspots`,
       content: [
         `The most active development markets in South West, measured by new-build completions, are <a href="/market-reports/devon-property-market">Devon</a> (180 new builds), <a href="/market-reports/bristol-property-market">Bristol</a> (171 new builds), <a href="/market-reports/gloucestershire-property-market">Gloucestershire</a> (154 new builds).`,
-        `By total transaction volume — an indicator of market liquidity and exit confidence — <a href="/market-reports/bristol-property-market">Bristol</a> (22,563 sales), <a href="/market-reports/devon-property-market">Devon</a> (7,914 sales), <a href="/market-reports/somerset-property-market">Somerset</a> (7,339 sales) lead the region.`,
+        `By total transaction volume - an indicator of market liquidity and exit confidence - <a href="/market-reports/bristol-property-market">Bristol</a> (22,563 sales), <a href="/market-reports/devon-property-market">Devon</a> (7,914 sales), <a href="/market-reports/somerset-property-market">Somerset</a> (7,339 sales) lead the region.`,
         `Developers entering the South West market should weigh these two metrics together: new-build activity shows where planning consent is achievable, while transaction volume confirms buyer demand.`,
       ],
     },
@@ -55,7 +55,7 @@ const report: MarketReport = {
       heading: `Key Takeaways`,
       content: [
         `<ul>
-<li><strong>Market size:</strong> 60,559 transactions across 7 counties — one of the UK's most active regions.</li>
+<li><strong>Market size:</strong> 60,559 transactions across 7 counties - one of the UK's most active regions.</li>
 <li><strong>Price range:</strong> £290,000 to £345,000 median prices, offering opportunities across the capital spectrum.</li>
 <li><strong>Market direction:</strong> 3 of 7 counties showing year-on-year price growth.</li>
 <li><strong>New build activity:</strong> 845 completions across the region, indicating a healthy development pipeline.</li>

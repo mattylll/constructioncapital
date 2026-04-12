@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wymondham-norfolk-property-market",
   title: "Wymondham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wymondham House Prices 2026 — Property Market Data & Development Finance | Norfolk",
+  metaTitle: "Wymondham House Prices 2026 - Property Market Data & Development Finance | Norfolk",
   metaDescription: "Wymondham property prices: median £292,500, 1,614 sales, -2.5% YoY. Detached £380,000, Flat £155,000. Land Registry data for Wymondham, Norfolk.",
   excerpt: "Median price £292,500, 1,614 sales, -2.5% YoY. Norfolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Wymondham recorded <strong>83</strong> new-build transactions in the past 12 months, representing <strong>5.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Wymondham traded at a <strong>premium of 11.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/norfolk-property-market">Norfolk</a> market, 168 new-build completions were recorded - see our <a href="/market-reports/norfolk-property-market">Norfolk property market report</a> for the full county picture.`,
       ],
     },
     {

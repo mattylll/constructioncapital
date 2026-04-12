@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "sherborne-dorset-property-market",
   title: "Sherborne Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sherborne House Prices 2026 — Property Market Data & Development Finance | Dorset",
+  metaTitle: "Sherborne House Prices 2026 - Property Market Data & Development Finance | Dorset",
   metaDescription: "Sherborne property prices: median £337,500, 210 sales, 0% YoY. Detached £520,100, Flat £165,000. Land Registry data for Sherborne, Dorset.",
   excerpt: "Median price £337,500, 210 sales, 0% YoY. Dorset county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Sherborne recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Sherborne traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/dorset-property-market">Dorset</a> market, 46 new-build completions were recorded — see our <a href="/market-reports/dorset-property-market">Dorset property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/dorset-property-market">Dorset</a> market, 46 new-build completions were recorded - see our <a href="/market-reports/dorset-property-market">Dorset property market report</a> for the full county picture.`,
       ],
     },
     {

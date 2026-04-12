@@ -18,7 +18,7 @@ export const FUNDING_ROUTES: ComparisonOption[] = [
     pros: [
       "Access to 100+ specialist lenders across the whole market",
       "Expert deal structuring to maximise leverage and minimise cost",
-      "Significant time saving — one application, multiple lenders",
+      "Significant time saving - one application, multiple lenders",
       "Competitive rates through panel leverage and lender competition",
     ],
     cons: [
@@ -40,7 +40,7 @@ export const FUNDING_ROUTES: ComparisonOption[] = [
     ],
     cons: [
       "Limited to one lender's products and appetite",
-      "No market comparison — you never know if you're getting the best deal",
+      "No market comparison - you never know if you're getting the best deal",
       "DIY application process with no expert guidance",
       "Often worse rates without broker leverage and volume relationships",
     ],
@@ -60,7 +60,7 @@ export const FUNDING_ROUTES: ComparisonOption[] = [
     ],
     cons: [
       "Slow decision-making (8-12 weeks is common)",
-      "Conservative lending criteria — low LTV, vanilla projects only",
+      "Conservative lending criteria - low LTV, vanilla projects only",
       "Limited development finance expertise within branch networks",
       "No specialist understanding of complex capital stacks",
     ],
@@ -79,7 +79,7 @@ export const FUNDING_ROUTES: ComparisonOption[] = [
       "Technology-driven, user-friendly interface",
     ],
     cons: [
-      "Limited real lender relationships — often just lead generation",
+      "Limited real lender relationships - often just lead generation",
       "Less structuring expertise for complex deals",
       "Indicative terms may not reflect final offers",
       "Limited human expertise when deals get complicated",
@@ -87,7 +87,7 @@ export const FUNDING_ROUTES: ComparisonOption[] = [
     bestFor:
       "Developers wanting a quick initial sense of market rates before engaging a specialist",
     typicalTimeline: "Instant indicative, but 4-8 weeks to actual completion",
-    typicalCost: "Varies — some charge fees, others are lead-gen funded",
+    typicalCost: "Varies - some charge fees, others are lead-gen funded",
   },
   {
     slug: "mortgage-broker",
@@ -105,8 +105,8 @@ export const FUNDING_ROUTES: ComparisonOption[] = [
       "Not equipped for planning-contingent or phased drawdown facilities",
     ],
     bestFor:
-      "Buy-to-let purchases or simple residential refinancing — not development finance",
-    typicalTimeline: "Varies widely — often delayed by learning curve",
+      "Buy-to-let purchases or simple residential refinancing - not development finance",
+    typicalTimeline: "Varies widely - often delayed by learning curve",
     typicalCost: "Standard broker fee, but risk of sub-optimal deal structure",
   },
 ];

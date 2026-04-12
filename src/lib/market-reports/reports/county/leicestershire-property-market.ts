@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "leicestershire-property-market",
   title: "Leicestershire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Leicestershire Property Market Report 2026 — House Prices, Sold Data & Finance",
+  metaTitle: "Leicestershire Property Market Report 2026 - House Prices, Sold Data & Finance",
   metaDescription: "Leicestershire property market analysis: median price £255,000, 8,776 sales, -3.8% YoY. Town comparisons, new builds & development finance across 7 towns.",
   excerpt: "7 towns analysed. Median price £255,000, 8,776 transactions, -3.8% YoY.",
   category: "county",
@@ -18,7 +18,7 @@ const report: MarketReport = {
       heading: `Leicestershire Property Market Overview`,
       content: [
         `Leicester has been one of the UK's fastest-growing cities, driven by a diverse economy, two universities, and a large student population that creates strong rental demand. The city's cultural diversity supports distinct property sub-markets, while the Golden Triangle (Leicester-Loughborough-Nottingham) is one of the UK's strongest buy-to-let corridors. Loughborough and Market Harborough offer distinct county town markets.`,
-        `The <a href="/locations/leicestershire">Leicestershire</a> property market recorded <strong>8,776</strong> residential transactions over the past 12 months, with a median sale price of <strong>£255,000</strong> — £30k below the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-3.8%</strong> across the county's principal towns.`,
+        `The <a href="/locations/leicestershire">Leicestershire</a> property market recorded <strong>8,776</strong> residential transactions over the past 12 months, with a median sale price of <strong>£255,000</strong> - £30k below the UK national median of £285,000. Prices have shown a moderate decline, with a year-on-year change of <strong>-3.8%</strong> across the county's principal towns.`,
         `Key drivers of the Leicestershire property market include Leicester city centre regeneration, Golden Triangle BTL corridor, Loughborough university campus demand. Additional factors include East Midlands Gateway logistics employment.`,
       ],
     },
@@ -37,7 +37,7 @@ const report: MarketReport = {
         `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><a href="/locations/leicestershire/market-harborough">Market Harborough</a></td><td>£325,000</td><td>1,162</td><td>-3.5%</td></tr><tr><td><a href="/locations/leicestershire/wigston">Wigston</a></td><td>£270,000</td><td>490</td><td>-3.6%</td></tr><tr><td><a href="/locations/leicestershire/loughborough">Loughborough</a></td><td>£265,873</td><td>1,928</td><td>-1.5%</td></tr><tr><td><a href="/locations/leicestershire/coalville">Coalville</a></td><td>£255,000</td><td>1,288</td><td>-5.6%</td></tr><tr><td><a href="/locations/leicestershire/melton-mowbray">Melton Mowbray</a></td><td>£255,000</td><td>663</td><td>-7.3%</td></tr><tr><td><a href="/locations/leicestershire/hinckley">Hinckley</a></td><td>£252,000</td><td>1,315</td><td>-4.9%</td></tr><tr><td><a href="/locations/leicestershire/leicester">Leicester</a></td><td>£235,000</td><td>1,930</td><td>0%</td></tr></tbody></table>`,
         `<strong>Most expensive:</strong> <a href="/locations/leicestershire/market-harborough">Market Harborough</a> (£325,000), <a href="/locations/leicestershire/wigston">Wigston</a> (£270,000), <a href="/locations/leicestershire/loughborough">Loughborough</a> (£265,873). Market Harborough's premium reflects premium market town with fast london services and affluent buyer demographic.`,
         `<strong>Most affordable:</strong> <a href="/locations/leicestershire/leicester">Leicester</a> (£235,000), <a href="/locations/leicestershire/hinckley">Hinckley</a> (£252,000), <a href="/locations/leicestershire/melton-mowbray">Melton Mowbray</a> (£255,000). These locations may offer stronger yields and lower entry costs for developers.`,
-        `<strong>Most active:</strong> <a href="/locations/leicestershire/leicester">Leicester</a> (1,930 sales), <a href="/locations/leicestershire/loughborough">Loughborough</a> (1,928 sales), <a href="/locations/leicestershire/hinckley">Hinckley</a> (1,315 sales). High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
+        `<strong>Most active:</strong> <a href="/locations/leicestershire/leicester">Leicester</a> (1,930 sales), <a href="/locations/leicestershire/loughborough">Loughborough</a> (1,928 sales), <a href="/locations/leicestershire/hinckley">Hinckley</a> (1,315 sales). High transaction volumes indicate strong liquidity - critical for exit strategy confidence.`,
       ],
     },
     {
@@ -61,9 +61,9 @@ const report: MarketReport = {
       content: [
         `The Leicestershire market data carries direct implications for developers seeking finance. With a median property value of £255,000 and detached homes at £370,000, typical scheme GDVs support a range of finance structures.`,
         `For a standard <a href="/services/development-finance">development finance</a> facility in Leicestershire, a scheme with a GDV of £370,000 would typically attract <strong>senior debt of £240,500</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15% of project costs.`,
-        `For developers looking to acquire sites quickly — particularly at auction — <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
+        `For developers looking to acquire sites quickly - particularly at auction - <a href="/services/bridging-loans">bridging loans</a> provide rapid access to capital, typically completing within 5-10 working days. Once construction is complete, <a href="/services/development-exit-finance">development exit finance</a> replaces the development facility at a lower rate, providing breathing room to sell units at optimal prices.`,
         `While prices are falling at -3.8%, experienced developers can still achieve strong returns by focusing on well-located sites with clear demand drivers. Lenders will scrutinise comparable evidence more carefully in a softer market.`,
-        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Leicestershire's existing stock — particularly flat properties priced from £132,500 — offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
+        `For <a href="/services/refurbishment-finance">refurbishment</a> and conversion projects, Leicestershire's existing stock - particularly flat properties priced from £132,500 - offers value-add opportunities where the uplift from renovation can generate attractive profit on cost.`,
       ],
     },
     {
@@ -78,7 +78,7 @@ const report: MarketReport = {
       heading: `Leicestershire Property Market Outlook 2026`,
       content: [
         `Leicestershire's property market is experiencing a correction, with 0 of 7 towns recording year-on-year price growth.`,
-        `Conversely, Market Harborough (-3.5%) and Wigston (-3.6%) have seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`,
+        `Conversely, Market Harborough (-3.5%) and Wigston (-3.6%) have seen price softening. For experienced developers, this can present buying opportunities - acquiring land at lower values while planning for a market recovery.`,
         `Looking ahead, Leicestershire's development pipeline will be shaped by Leicester city centre regeneration and Golden Triangle BTL corridor. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`,
         `To discuss financing a development in Leicestershire, submit your scheme details through our <a href="/services/development-finance">deal room</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],

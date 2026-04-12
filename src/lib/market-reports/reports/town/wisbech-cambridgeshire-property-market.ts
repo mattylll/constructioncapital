@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wisbech-cambridgeshire-property-market",
   title: "Wisbech Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wisbech House Prices 2026 — Property Market Data & Development Finance | Cambridgeshire",
+  metaTitle: "Wisbech House Prices 2026 - Property Market Data & Development Finance | Cambridgeshire",
   metaDescription: "Wisbech property prices: median £202,500, 417 sales, -1.2% YoY. Detached £255,000, Flat £79,725. Land Registry data for Wisbech, Cambridgeshire.",
   excerpt: "Median price £202,500, 417 sales, -1.2% YoY. Cambridgeshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Wisbech recorded <strong>9</strong> new-build transactions in the past 12 months, representing <strong>2.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Wisbech traded at a <strong>premium of 20.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire</a> market, 154 new-build completions were recorded — see our <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire</a> market, 154 new-build completions were recorded - see our <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -8,7 +8,7 @@ function isAuthorized(request: NextRequest): boolean {
   return token === expected;
 }
 
-/** POST /api/analytics/setup — initialize schema and optionally add a site */
+/** POST /api/analytics/setup - initialize schema and optionally add a site */
 export async function POST(request: NextRequest) {
   if (!isAuthorized(request)) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });

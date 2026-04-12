@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "st-ives-cambridgeshire-property-market",
   title: "St Ives Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "St Ives House Prices 2026 — Property Market Data & Development Finance | Cambridgeshire",
+  metaTitle: "St Ives House Prices 2026 - Property Market Data & Development Finance | Cambridgeshire",
   metaDescription: "St Ives property prices: median £300,000, 205 sales, -2.8% YoY. Detached £405,250, Flat £186,000. Land Registry data for St Ives, Cambridgeshire.",
   excerpt: "Median price £300,000, 205 sales, -2.8% YoY. Cambridgeshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `St Ives recorded <strong>2</strong> new-build transactions in the past 12 months, representing <strong>1.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in St Ives traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire</a> market, 154 new-build completions were recorded — see our <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire</a> market, 154 new-build completions were recorded - see our <a href="/market-reports/cambridgeshire-property-market">Cambridgeshire property market report</a> for the full county picture.`,
       ],
     },
     {

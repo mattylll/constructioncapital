@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "coventry-west-midlands-property-market",
   title: "Coventry Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Coventry House Prices 2026 — Property Market Data & Development Finance | West Midlands",
+  metaTitle: "Coventry House Prices 2026 - Property Market Data & Development Finance | West Midlands",
   metaDescription: "Coventry property prices: median £220,000, 2,811 sales, +0.7% YoY. Detached £385,000, Flat £125,000. Land Registry data for Coventry, West Midlands.",
   excerpt: "Median price £220,000, 2,811 sales, +0.7% YoY. West Midlands county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Coventry recorded <strong>45</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Coventry traded at a <strong>premium of 47.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/west-midlands-property-market">West Midlands</a> market, 308 new-build completions were recorded — see our <a href="/market-reports/west-midlands-property-market">West Midlands property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-midlands-property-market">West Midlands</a> market, 308 new-build completions were recorded - see our <a href="/market-reports/west-midlands-property-market">West Midlands property market report</a> for the full county picture.`,
       ],
     },
     {

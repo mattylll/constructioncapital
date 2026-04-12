@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "warrington-cheshire-property-market",
   title: "Warrington Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Warrington House Prices 2026 — Property Market Data & Development Finance | Cheshire",
+  metaTitle: "Warrington House Prices 2026 - Property Market Data & Development Finance | Cheshire",
   metaDescription: "Warrington property prices: median £245,000, 2,097 sales, +0.8% YoY. Detached £420,000, Flat £124,000. Land Registry data for Warrington, Cheshire.",
   excerpt: "Median price £245,000, 2,097 sales, +0.8% YoY. Cheshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Warrington recorded <strong>25</strong> new-build transactions in the past 12 months, representing <strong>1.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Warrington traded at a <strong>premium of 2.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cheshire-property-market">Cheshire</a> market, 147 new-build completions were recorded — see our <a href="/market-reports/cheshire-property-market">Cheshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cheshire-property-market">Cheshire</a> market, 147 new-build completions were recorded - see our <a href="/market-reports/cheshire-property-market">Cheshire property market report</a> for the full county picture.`,
       ],
     },
     {

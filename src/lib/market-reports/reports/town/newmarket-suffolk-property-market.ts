@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newmarket-suffolk-property-market",
   title: "Newmarket Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newmarket House Prices 2026 — Property Market Data & Development Finance | Suffolk",
+  metaTitle: "Newmarket House Prices 2026 - Property Market Data & Development Finance | Suffolk",
   metaDescription: "Newmarket property prices: median £290,000, 322 sales, 0% YoY. Detached £499,000, Flat £167,500. Land Registry data for Newmarket, Suffolk.",
   excerpt: "Median price £290,000, 322 sales, 0% YoY. Suffolk county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Newmarket recorded <strong>3</strong> new-build transactions in the past 12 months, representing <strong>0.9%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Newmarket traded at a <strong>premium of 91.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/suffolk-property-market">Suffolk</a> market, 189 new-build completions were recorded — see our <a href="/market-reports/suffolk-property-market">Suffolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/suffolk-property-market">Suffolk</a> market, 189 new-build completions were recorded - see our <a href="/market-reports/suffolk-property-market">Suffolk property market report</a> for the full county picture.`,
       ],
     },
     {

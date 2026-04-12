@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bradford-west-yorkshire-property-market",
   title: "Bradford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bradford House Prices 2026 — Property Market Data & Development Finance | West Yorkshire",
+  metaTitle: "Bradford House Prices 2026 - Property Market Data & Development Finance | West Yorkshire",
   metaDescription: "Bradford property prices: median £155,000, 3,020 sales, +3.3% YoY. Detached £295,000, Flat £85,000. Land Registry data for Bradford, West Yorkshire.",
   excerpt: "Median price £155,000, 3,020 sales, +3.3% YoY. West Yorkshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Bradford recorded <strong>47</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Bradford traded at a <strong>premium of 45.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded — see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-yorkshire-property-market">West Yorkshire</a> market, 348 new-build completions were recorded - see our <a href="/market-reports/west-yorkshire-property-market">West Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {

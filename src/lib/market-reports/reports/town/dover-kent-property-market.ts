@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "dover-kent-property-market",
   title: "Dover Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dover House Prices 2026 — Property Market Data & Development Finance | Kent",
+  metaTitle: "Dover House Prices 2026 - Property Market Data & Development Finance | Kent",
   metaDescription: "Dover property prices: median £285,000, 1,317 sales, -0.9% YoY. Detached £430,000, Flat £155,000. Land Registry data for Dover, Kent.",
   excerpt: "Median price £285,000, 1,317 sales, -0.9% YoY. Kent county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Dover recorded <strong>65</strong> new-build transactions in the past 12 months, representing <strong>4.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Dover traded at a <strong>premium of 6.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded — see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/kent-property-market">Kent</a> market, 376 new-build completions were recorded - see our <a href="/market-reports/kent-property-market">Kent property market report</a> for the full county picture.`,
       ],
     },
     {

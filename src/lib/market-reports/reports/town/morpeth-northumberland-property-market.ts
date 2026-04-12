@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "morpeth-northumberland-property-market",
   title: "Morpeth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Morpeth House Prices 2026 — Property Market Data & Development Finance | Northumberland",
+  metaTitle: "Morpeth House Prices 2026 - Property Market Data & Development Finance | Northumberland",
   metaDescription: "Morpeth property prices: median £245,000, 725 sales, +4.3% YoY. Detached £385,000, Flat £153,000. Land Registry data for Morpeth, Northumberland.",
   excerpt: "Median price £245,000, 725 sales, +4.3% YoY. Northumberland county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Morpeth recorded <strong>34</strong> new-build transactions in the past 12 months, representing <strong>4.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Morpeth traded at a <strong>premium of 24.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/northumberland-property-market">Northumberland</a> market, 72 new-build completions were recorded — see our <a href="/market-reports/northumberland-property-market">Northumberland property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northumberland-property-market">Northumberland</a> market, 72 new-build completions were recorded - see our <a href="/market-reports/northumberland-property-market">Northumberland property market report</a> for the full county picture.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newtown-powys-property-market",
   title: "Newtown Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newtown House Prices 2026 — Property Market Data & Development Finance | Powys",
+  metaTitle: "Newtown House Prices 2026 - Property Market Data & Development Finance | Powys",
   metaDescription: "Newtown property prices: median £213,500, 158 sales, +12.4% YoY. Detached £300,000, Terraced £169,000. Land Registry data for Newtown, Powys.",
   excerpt: "Median price £213,500, 158 sales, +12.4% YoY. Powys county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Newtown recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Newtown traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/powys-property-market">Powys</a> market, 39 new-build completions were recorded — see our <a href="/market-reports/powys-property-market">Powys property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/powys-property-market">Powys</a> market, 39 new-build completions were recorded - see our <a href="/market-reports/powys-property-market">Powys property market report</a> for the full county picture.`,
       ],
     },
     {

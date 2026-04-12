@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "southport-merseyside-property-market",
   title: "Southport Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Southport House Prices 2026 — Property Market Data & Development Finance | Merseyside",
+  metaTitle: "Southport House Prices 2026 - Property Market Data & Development Finance | Merseyside",
   metaDescription: "Southport property prices: median £210,000, 1,020 sales, 0% YoY. Detached £355,000, Flat £127,250. Land Registry data for Southport, Merseyside.",
   excerpt: "Median price £210,000, 1,020 sales, 0% YoY. Merseyside county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Southport recorded <strong>26</strong> new-build transactions in the past 12 months, representing <strong>2.5%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Southport traded at a <strong>premium of 36.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/merseyside-property-market">Merseyside</a> market, 102 new-build completions were recorded — see our <a href="/market-reports/merseyside-property-market">Merseyside property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/merseyside-property-market">Merseyside</a> market, 102 new-build completions were recorded - see our <a href="/market-reports/merseyside-property-market">Merseyside property market report</a> for the full county picture.`,
       ],
     },
     {

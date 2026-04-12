@@ -17,7 +17,7 @@ const report: MarketReport = {
     {
       heading: `Property Type Price Guide 2026`,
       content: [
-        `Property prices vary dramatically by type across the UK. A detached home in one county can cost the same as a flat in another. This guide breaks down median prices by property type — detached, semi-detached, terraced, and flat — across all 48 counties analysed, helping developers identify where each type of development is most viable.`,
+        `Property prices vary dramatically by type across the UK. A detached home in one county can cost the same as a flat in another. This guide breaks down median prices by property type - detached, semi-detached, terraced, and flat - across all 48 counties analysed, helping developers identify where each type of development is most viable.`,
       ],
     },
     {
@@ -37,7 +37,7 @@ const report: MarketReport = {
       heading: `Flats: Volume Development`,
       content: [
         `Flats have a national median of <strong>£139,938</strong>. The flat market is driven by urban demand, buy-to-let investors, and first-time buyers.`,
-        `Flat developments typically deliver lower per-unit values but higher density, making them suitable for urban sites where land values are high. <a href="/services/refurbishment-finance">Refurbishment finance</a> is commonly used for flat conversion schemes — transforming commercial buildings or large houses into apartments.`,
+        `Flat developments typically deliver lower per-unit values but higher density, making them suitable for urban sites where land values are high. <a href="/services/refurbishment-finance">Refurbishment finance</a> is commonly used for flat conversion schemes - transforming commercial buildings or large houses into apartments.`,
       ],
     },
     {

@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "portsmouth-hampshire-property-market",
   title: "Portsmouth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Portsmouth House Prices 2026 — Property Market Data & Development Finance | Hampshire",
+  metaTitle: "Portsmouth House Prices 2026 - Property Market Data & Development Finance | Hampshire",
   metaDescription: "Portsmouth property prices: median £252,500, 1,948 sales, +1% YoY. Detached £530,000, Flat £165,000. Land Registry data for Portsmouth, Hampshire.",
   excerpt: "Median price £252,500, 1,948 sales, +1% YoY. Hampshire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Portsmouth recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Portsmouth traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded — see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hampshire-property-market">Hampshire</a> market, 175 new-build completions were recorded - see our <a href="/market-reports/hampshire-property-market">Hampshire property market report</a> for the full county picture.`,
       ],
     },
     {

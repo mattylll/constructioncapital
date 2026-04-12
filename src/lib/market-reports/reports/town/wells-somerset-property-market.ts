@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wells-somerset-property-market",
   title: "Wells Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wells House Prices 2026 — Property Market Data & Development Finance | Somerset",
+  metaTitle: "Wells House Prices 2026 - Property Market Data & Development Finance | Somerset",
   metaDescription: "Wells property prices: median £347,000, 231 sales, +6.8% YoY. Detached £555,000, Flat £185,000. Land Registry data for Wells, Somerset.",
   excerpt: "Median price £347,000, 231 sales, +6.8% YoY. Somerset county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Wells recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Wells traded at a <strong>discount of 100.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/somerset-property-market">Somerset</a> market, 118 new-build completions were recorded — see our <a href="/market-reports/somerset-property-market">Somerset property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/somerset-property-market">Somerset</a> market, 118 new-build completions were recorded - see our <a href="/market-reports/somerset-property-market">Somerset property market report</a> for the full county picture.`,
       ],
     },
     {

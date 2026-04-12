@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "sutton-coldfield-west-midlands-property-market",
   title: "Sutton Coldfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sutton Coldfield House Prices 2026 — Property Market Data & Development Finance | West Midlands",
+  metaTitle: "Sutton Coldfield House Prices 2026 - Property Market Data & Development Finance | West Midlands",
   metaDescription: "Sutton Coldfield property prices: median £355,000, 958 sales, -1.1% YoY. Detached £545,000, Flat £160,000. Land Registry data for Sutton Coldfield, West Midlands.",
   excerpt: "Median price £355,000, 958 sales, -1.1% YoY. West Midlands county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Sutton Coldfield recorded <strong>8</strong> new-build transactions in the past 12 months, representing <strong>0.8%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Sutton Coldfield traded at a <strong>discount of 6.3%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/west-midlands-property-market">West Midlands</a> market, 308 new-build completions were recorded — see our <a href="/market-reports/west-midlands-property-market">West Midlands property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-midlands-property-market">West Midlands</a> market, 308 new-build completions were recorded - see our <a href="/market-reports/west-midlands-property-market">West Midlands property market report</a> for the full county picture.`,
       ],
     },
     {

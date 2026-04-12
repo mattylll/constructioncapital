@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "loughborough-leicestershire-property-market",
   title: "Loughborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Loughborough House Prices 2026 — Property Market Data & Development Finance | Leicestershire",
+  metaTitle: "Loughborough House Prices 2026 - Property Market Data & Development Finance | Leicestershire",
   metaDescription: "Loughborough property prices: median £265,873, 1,928 sales, -1.5% YoY. Detached £390,000, Flat £139,475. Land Registry data for Loughborough, Leicestershire.",
   excerpt: "Median price £265,873, 1,928 sales, -1.5% YoY. Leicestershire county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Loughborough recorded <strong>51</strong> new-build transactions in the past 12 months, representing <strong>2.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Loughborough traded at a <strong>premium of 41.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/leicestershire-property-market">Leicestershire</a> market, 290 new-build completions were recorded — see our <a href="/market-reports/leicestershire-property-market">Leicestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/leicestershire-property-market">Leicestershire</a> market, 290 new-build completions were recorded - see our <a href="/market-reports/leicestershire-property-market">Leicestershire property market report</a> for the full county picture.`,
       ],
     },
     {

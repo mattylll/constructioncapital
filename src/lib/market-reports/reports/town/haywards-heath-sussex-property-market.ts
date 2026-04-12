@@ -3,7 +3,7 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "haywards-heath-sussex-property-market",
   title: "Haywards Heath Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Haywards Heath House Prices 2026 — Property Market Data & Development Finance | Sussex",
+  metaTitle: "Haywards Heath House Prices 2026 - Property Market Data & Development Finance | Sussex",
   metaDescription: "Haywards Heath property prices: median £430,000, 1,640 sales, -0.7% YoY. Detached £660,000, Flat £240,000. Land Registry data for Haywards Heath, Sussex.",
   excerpt: "Median price £430,000, 1,640 sales, -0.7% YoY. Sussex county.",
   category: "town",
@@ -35,7 +35,7 @@ const report: MarketReport = {
       content: [
         `Haywards Heath recorded <strong>15</strong> new-build transactions in the past 12 months, representing <strong>0.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Haywards Heath traded at a <strong>premium of 23.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/sussex-property-market">Sussex</a> market, 157 new-build completions were recorded — see our <a href="/market-reports/sussex-property-market">Sussex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/sussex-property-market">Sussex</a> market, 157 new-build completions were recorded - see our <a href="/market-reports/sussex-property-market">Sussex property market report</a> for the full county picture.`,
       ],
     },
     {
