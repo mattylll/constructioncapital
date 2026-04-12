@@ -1,4 +1,5 @@
 import type { MarketReport, ReportCategory } from "./types";
+import { PRESS_REPORTS } from "./reports/press";
 import { TOWN_REPORTS } from "./reports/town";
 
 // County reports
@@ -131,6 +132,8 @@ export const MARKET_REPORTS: MarketReport[] = [
   new_build_premium_analysis_2026,
   property_type_price_guide_2026,
   uk_house_price_changes_2026,
+  // Press / PR reports
+  ...PRESS_REPORTS,
   // Town (auto-imported from barrel)
   ...TOWN_REPORTS,
 ];
