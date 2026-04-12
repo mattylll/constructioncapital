@@ -23,7 +23,9 @@ import type { AuthorityTown } from "./planning-authorities";
 // ─── Configuration ───────────────────────────────────────────
 
 const RESULTS_PER_PAGE = 10; // Idox always returns 10 per page
-const THROTTLE_MS = 1000; // ms between HTTP requests (be respectful to HTML portals)
+const THROTTLE_MS = 1500; // ms between HTTP requests (be respectful to HTML portals)
+const THROTTLE_BETWEEN_MONTHS_MS = 3000; // Extra pause between monthly searches
+const MAX_RETRIES = 3; // Retry failed requests with exponential backoff
 const DEFAULT_MONTHS = 12;
 
 // UK-wide fallback medians when local sold data is unavailable
@@ -858,6 +860,29 @@ function extractCsrf(html: string): string {
 }
 
 /**
+ * Retry a function with exponential backoff on 429/5xx errors.
+ */
+async function withRetry<T>(
+  fn: () => Promise<T>,
+  label: string,
+  retries = MAX_RETRIES
+): Promise<T> {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      return await fn();
+    } catch (err) {
+      const msg = String(err);
+      const isRetryable = msg.includes("429") || msg.includes("503") || msg.includes("fetch failed");
+      if (!isRetryable || attempt === retries) throw err;
+      const delay = Math.pow(2, attempt + 1) * 2000; // 4s, 8s, 16s
+      console.log(`    ⏳ ${label}: retrying in ${delay / 1000}s (attempt ${attempt + 1}/${retries})...`);
+      await sleep(delay);
+    }
+  }
+  throw new Error("Unreachable");
+}
+
+/**
  * Extract total results count from HTML.
  * Looks for text like "of 208" or "Showing 1-10 of 208 results"
  */
@@ -1128,8 +1153,9 @@ async function scrapeDateRange(
     await sleep(THROTTLE_MS);
 
     try {
-      const { html, cookies: pageCookies } = await fetchResultsPage(
-        authority, currentCookies, page
+      const { html, cookies: pageCookies } = await withRetry(
+        () => fetchResultsPage(authority, currentCookies, page),
+        `Page ${page}`
       );
       currentCookies = pageCookies;
 
@@ -1171,7 +1197,10 @@ async function scrapeAllResults(
 
     try {
       // Fresh session for each month (CSRF is single-use)
-      const { csrf, cookies } = await getSearchSession(authority);
+      const { csrf, cookies } = await withRetry(
+        () => getSearchSession(authority),
+        `Session ${i + 1}`
+      );
       await sleep(THROTTLE_MS);
 
       const { results } = await scrapeDateRange(
@@ -1187,7 +1216,7 @@ async function scrapeAllResults(
       }
     }
 
-    await sleep(THROTTLE_MS);
+    await sleep(THROTTLE_BETWEEN_MONTHS_MS);
   }
 
   return allResults;
