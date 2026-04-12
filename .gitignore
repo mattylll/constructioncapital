@@ -48,7 +48,12 @@ next-env.d.ts
 gsc-credentials.json
 gsc-oauth-credentials.json
 
-# Local data pipeline (large files)
+# Local data pipeline (large files, raw exports)
 /data/sqlite/
 /data/land-registry/
-/data/planning-exports/*.html
+/data/planning-exports/
+/data/backlinks-raw/
+/data/neuronwriter-reports/
+/data/neuronwriter-queries.json
+/data/newspapers.json
+/data/press-releases/
