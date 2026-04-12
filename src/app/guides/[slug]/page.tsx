@@ -5,11 +5,14 @@ import { notFound } from "next/navigation";
 import { ArrowRight, ArrowLeft, Clock, BookOpen } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { GuideMarketEvidence } from "@/components/guides/guide-market-evidence";
 import { JsonLd } from "@/components/ui/json-ld";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { GUIDES, getGuideBySlug, getRelatedGuides } from "@/lib/guides";
+import { getGuideMarketData } from "@/lib/local-market-data";
 import { SERVICES } from "@/lib/services";
 import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
+import { getTownsForCounty } from "@/lib/uk-locations-data";
 
 export const dynamicParams = true;
 export const revalidate = 86400;
@@ -70,6 +73,11 @@ export default async function GuidePage({ params }: PageProps) {
   const relatedServices = guide.relatedServices
     .map((s) => SERVICES.find((svc) => svc.slug === s))
     .filter(Boolean);
+
+  // Load regional market data based on guide's related locations
+  const marketData = guide.relatedLocations.length > 0
+    ? getGuideMarketData(guide.relatedLocations, getTownsForCounty)
+    : null;
 
   // JSON-LD
   const articleJsonLd = {
@@ -266,6 +274,9 @@ export default async function GuidePage({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      {/* Regional Market Evidence */}
+      {marketData && <GuideMarketEvidence data={marketData} />}
 
       {/* Related Services */}
       {relatedServices.length > 0 && (

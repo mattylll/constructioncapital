@@ -9,6 +9,7 @@ import { LEGAL_GUIDES } from "./legal";
 import { APPLICATION_GUIDES } from "./application";
 import { STRUCTURING_GUIDES } from "./structuring";
 import { MARKET_GUIDES } from "./market";
+import { SEGMENTS_GUIDES } from "./segments";
 
 export const GUIDES = [
   ...COMPARISON_GUIDES,
@@ -20,6 +21,7 @@ export const GUIDES = [
   ...APPLICATION_GUIDES,
   ...STRUCTURING_GUIDES,
   ...MARKET_GUIDES,
+  ...SEGMENTS_GUIDES,
 ];
 
 export function getGuideBySlug(slug: string) {

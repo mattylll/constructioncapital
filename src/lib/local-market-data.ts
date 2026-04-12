@@ -239,3 +239,162 @@ export function getPlanningData(
   );
   return readJSON<PlanningData>(filePath);
 }
+
+// ─── Guide Market Data ──────────────────────────────────────
+
+export interface GuideMarketData {
+  /** Aggregated sold price stats across all related counties */
+  medianPrice: number;
+  totalTransactions: number;
+  avgYoyChange: number;
+  newBuildPremium: number;
+  medianByType: Record<string, number>;
+  /** Top towns by transaction count — for internal linking */
+  topTowns: {
+    name: string;
+    slug: string;
+    countySlug: string;
+    medianPrice: number;
+    transactionCount12m: number;
+    yoyChange: number;
+  }[];
+  /** Planning pipeline — only populated if planning data exists for related counties */
+  planning: {
+    totalApproved: number;
+    totalPending: number;
+    pipelineUnits: number;
+    pipelineGdv: number;
+    avgApprovalRate: number;
+    categories: Record<string, number>;
+  } | null;
+  /** Number of counties and towns included in this data */
+  countyCount: number;
+  townCount: number;
+}
+
+/**
+ * Aggregate regional market data across multiple counties for guide pages.
+ * Uses the guide's relatedLocations (county slugs) to pull sold + planning data.
+ */
+export function getGuideMarketData(
+  countySlugs: string[],
+  getTowns: (countySlug: string) => { name: string; slug: string }[]
+): GuideMarketData | null {
+  if (countySlugs.length === 0) return null;
+
+  const allPrices: number[] = [];
+  const yoyValues: number[] = [];
+  const newBuildPremiums: number[] = [];
+  let totalTx = 0;
+  const typeD: number[] = [];
+  const typeS: number[] = [];
+  const typeT: number[] = [];
+  const typeF: number[] = [];
+
+  const allTowns: GuideMarketData["topTowns"] = [];
+  let totalTownCount = 0;
+  let countyCount = 0;
+
+  // Planning aggregation
+  let totalApproved = 0;
+  let totalPending = 0;
+  let pipelineUnits = 0;
+  let pipelineGdv = 0;
+  const approvalRates: number[] = [];
+  const categories: Record<string, number> = {};
+  let hasPlanningData = false;
+
+  for (const countySlug of countySlugs) {
+    const towns = getTowns(countySlug);
+    if (towns.length === 0) continue;
+
+    let countyHasData = false;
+
+    for (const town of towns) {
+      const data = getSoldData(countySlug, town.slug);
+      if (!data) continue;
+
+      countyHasData = true;
+      totalTownCount++;
+
+      allPrices.push(data.stats.medianPrice);
+      totalTx += data.stats.transactionCount12m;
+      yoyValues.push(data.stats.yoyChange);
+      if (data.stats.newBuildPremium !== 0) {
+        newBuildPremiums.push(data.stats.newBuildPremium);
+      }
+      if (data.stats.medianByType.D) typeD.push(data.stats.medianByType.D);
+      if (data.stats.medianByType.S) typeS.push(data.stats.medianByType.S);
+      if (data.stats.medianByType.T) typeT.push(data.stats.medianByType.T);
+      if (data.stats.medianByType.F) typeF.push(data.stats.medianByType.F);
+
+      allTowns.push({
+        name: town.name,
+        slug: town.slug,
+        countySlug,
+        medianPrice: data.stats.medianPrice,
+        transactionCount12m: data.stats.transactionCount12m,
+        yoyChange: data.stats.yoyChange,
+      });
+
+      // Planning data (only exists for some counties)
+      const planning = getPlanningData(countySlug, town.slug);
+      if (planning && planning.summary.total > 0) {
+        hasPlanningData = true;
+        totalApproved += planning.summary.approved;
+        totalPending += planning.summary.pending;
+        pipelineUnits += planning.summary.totalUnits;
+        pipelineGdv += planning.summary.totalEstimatedGDV;
+        if (planning.summary.approvalRate > 0) {
+          approvalRates.push(planning.summary.approvalRate);
+        }
+        // Aggregate categories from apps
+        for (const app of [...planning.approvedApplications, ...planning.pendingApplications]) {
+          const cat = app.category || "other";
+          categories[cat] = (categories[cat] || 0) + 1;
+        }
+      }
+    }
+
+    if (countyHasData) countyCount++;
+  }
+
+  if (allPrices.length === 0) return null;
+
+  // Sort towns by transaction count, take top 5
+  const topTowns = allTowns
+    .sort((a, b) => b.transactionCount12m - a.transactionCount12m)
+    .slice(0, 5);
+
+  return {
+    medianPrice: median(allPrices),
+    totalTransactions: totalTx,
+    avgYoyChange: yoyValues.length > 0
+      ? parseFloat((yoyValues.reduce((a, b) => a + b, 0) / yoyValues.length).toFixed(1))
+      : 0,
+    newBuildPremium: newBuildPremiums.length > 0
+      ? parseFloat((newBuildPremiums.reduce((a, b) => a + b, 0) / newBuildPremiums.length).toFixed(1))
+      : 0,
+    medianByType: {
+      ...(typeD.length > 0 ? { D: median(typeD) } : {}),
+      ...(typeS.length > 0 ? { S: median(typeS) } : {}),
+      ...(typeT.length > 0 ? { T: median(typeT) } : {}),
+      ...(typeF.length > 0 ? { F: median(typeF) } : {}),
+    },
+    topTowns,
+    planning: hasPlanningData
+      ? {
+          totalApproved,
+          totalPending,
+          pipelineUnits,
+          pipelineGdv,
+          avgApprovalRate: approvalRates.length > 0
+            ? parseFloat((approvalRates.reduce((a, b) => a + b, 0) / approvalRates.length).toFixed(0))
+            : 0,
+          categories,
+        }
+      : null,
+    countyCount,
+    townCount: totalTownCount,
+  };
+}
