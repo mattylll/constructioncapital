@@ -6,7 +6,8 @@
     "license": "MIT",
     "scripts": {
         "dev": "next dev --turbopack",
-        "build": "next build --experimental-build-mode=compile",
+        "build": "tsx scripts/generate-sitemaps.ts && next build --experimental-build-mode=compile",
+        "generate:sitemaps": "tsx scripts/generate-sitemaps.ts",
         "start": "next start",
         "lint": "next lint",
         "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
