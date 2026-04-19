@@ -83,12 +83,8 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${playfair.variable} bg-background text-foreground overscroll-none antialiased`}
       >
-        {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
-          <>
-            <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
-            <WebVitals />
-          </>
-        )}
+        <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "G-SRZHTZ3SVY"} />
+        <WebVitals />
         <LayoutShell>{children}</LayoutShell>
           <Suspense fallback={null}><Toaster /></Suspense>
         <JsonLd data={organizationJsonLd} />
