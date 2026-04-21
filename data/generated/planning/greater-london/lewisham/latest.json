@@ -1,0 +1,62 @@
+{
+  "updatedAt": "2026-04-19T07:23:25.956Z",
+  "townSlug": "lewisham",
+  "countySlug": "greater-london",
+  "localAuthority": "London Borough of Lewisham",
+  "source": "idox",
+  "summary": {
+    "total": 2632,
+    "relevant": 2,
+    "approved": 0,
+    "pending": 2,
+    "refused": 0,
+    "approvedUnits": 0,
+    "pendingUnits": 28,
+    "totalUnits": 28,
+    "approvedGdv": 0,
+    "pendingGdv": 10220000,
+    "totalEstimatedGDV": 10220000,
+    "approvalRate": 0
+  },
+  "approvedApplications": [],
+  "pendingApplications": [
+    {
+      "reference": "DC/26/143248",
+      "address": "26 HOMECROFT ROAD, LONDON, SE26 5QG",
+      "postcode": "SE26 5QG",
+      "ward": "",
+      "proposal": "The construction of a two storey house with flat green roof in the rear garden of 26 Homecroft Ro...",
+      "category": "other_residential",
+      "units": 26,
+      "estimatedGdv": 9490000,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "09/03/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.lewisham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_LEWIS_DCAPR_131171"
+    },
+    {
+      "reference": "DC/25/139944",
+      "address": "22 MARSALA ROAD, LONDON, SE13 7AD",
+      "postcode": "SE13 7AD",
+      "ward": "",
+      "proposal": "Conversion of 2 flats into a single dwellinghouse, installation of 2 replacement windows at the r...",
+      "category": "other_residential",
+      "units": 2,
+      "estimatedGdv": 730000,
+      "status": "Decided",
+      "decision": "Decided",
+      "receivedDate": "29/04/2025",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.lewisham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_LEWIS_DCAPR_127867"
+    }
+  ]
+}
