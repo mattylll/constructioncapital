@@ -54,7 +54,10 @@ export const PLANNING_AUTHORITIES: PlanningAuthority[] = [
     apiPath: "/w2webparts/Resource/Civica/Handler.ashx/keyobject/pagedsearch",
     refType: "PBDC",
     schemaFamily: "pbdc",
-    towns: [{ townSlug: "st-albans", countySlug: "hertfordshire" }],
+    towns: [
+      { townSlug: "st-albans", countySlug: "hertfordshire" },
+      { townSlug: "harpenden", countySlug: "hertfordshire" },
+    ],
     searchDateField: "received_date",
     enabled: true,
   },

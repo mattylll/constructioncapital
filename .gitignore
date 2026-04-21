@@ -48,6 +48,9 @@ next-env.d.ts
 gsc-credentials.json
 gsc-oauth-credentials.json
 
+# Weekly planning refresh logs
+/logs/
+
 # Local data pipeline (large files, raw exports)
 /data/sqlite/
 /data/land-registry/

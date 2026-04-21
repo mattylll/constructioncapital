@@ -50,6 +50,13 @@ interface IdoxAuthority {
   towns: AuthorityTown[];
   /** Whether this authority is enabled for fetching */
   enabled: boolean;
+  /** Override the default "/online-applications" path prefix (e.g. "/publicaccess", "/view") */
+  searchPath?: string;
+}
+
+/** Returns the Idox path prefix for an authority (default: "/online-applications") */
+function idoxPath(authority: IdoxAuthority): string {
+  return authority.searchPath ?? "/online-applications";
 }
 
 // ─── Idox Authority Registry ─────────────────────────────────
@@ -89,13 +96,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     towns: [{ townSlug: "guildford", countySlug: "surrey" }],
     enabled: false,
   },
-  {
-    id: "spelthorne",
-    name: "Spelthorne Borough Council",
-    baseUrl: "https://planning.spelthorne.gov.uk",
-    towns: [{ townSlug: "staines-upon-thames", countySlug: "surrey" }],
-    enabled: false,
-  },
+  // spelthorne moved to "spelthorne-new" with correct publicaccess URL
   {
     id: "elmbridge",
     name: "Elmbridge Borough Council",
@@ -140,6 +141,1358 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     towns: [], // No matching town pages yet
     enabled: false,
   },
+  {
+    id: "newham",
+    name: "London Borough of Newham",
+    baseUrl: "https://pa.newham.gov.uk",
+    towns: [{ townSlug: "stratford", countySlug: "greater-london" }],
+    enabled: true,
+  },
+  {
+    id: "lewisham",
+    name: "London Borough of Lewisham",
+    baseUrl: "https://planning.lewisham.gov.uk",
+    towns: [{ townSlug: "lewisham", countySlug: "greater-london" }],
+    enabled: true,
+  },
+  {
+    id: "lambeth",
+    name: "London Borough of Lambeth",
+    baseUrl: "https://planning.lambeth.gov.uk",
+    towns: [{ townSlug: "brixton", countySlug: "greater-london" }],
+    enabled: true,
+  },
+  {
+    id: "southwark",
+    name: "London Borough of Southwark",
+    baseUrl: "https://planning.southwark.gov.uk",
+    towns: [{ townSlug: "bermondsey", countySlug: "greater-london" }],
+    enabled: true,
+  },
+
+  // ── Kent ────────────────────────────────────────────────────
+  {
+    id: "canterbury",
+    name: "Canterbury City Council",
+    baseUrl: "https://pa.canterbury.gov.uk",
+    towns: [{ townSlug: "canterbury", countySlug: "kent" }],
+    enabled: true,
+  },
+  {
+    id: "tonbridge-malling",
+    name: "Tonbridge and Malling Borough Council",
+    baseUrl: "https://publicaccess.tmbc.gov.uk",
+    towns: [{ townSlug: "tonbridge", countySlug: "kent" }],
+    enabled: true,
+  },
+  {
+    id: "dover",
+    name: "Dover District Council",
+    baseUrl: "https://publicaccess.dover.gov.uk",
+    towns: [{ townSlug: "dover", countySlug: "kent" }],
+    enabled: true,
+  },
+  {
+    id: "sevenoaks",
+    name: "Sevenoaks District Council",
+    baseUrl: "https://pa.sevenoaks.gov.uk",
+    towns: [{ townSlug: "sevenoaks", countySlug: "kent" }],
+    enabled: true,
+  },
+
+  // ── Surrey (additional) ─────────────────────────────────────
+  {
+    id: "surrey-heath",
+    name: "Surrey Heath Borough Council",
+    baseUrl: "https://publicaccess.surreyheath.gov.uk",
+    towns: [{ townSlug: "camberley", countySlug: "surrey" }],
+    enabled: true,
+  },
+  {
+    id: "spelthorne-new",
+    name: "Spelthorne Borough Council",
+    baseUrl: "https://publicaccess.spelthorne.gov.uk",
+    towns: [{ townSlug: "staines", countySlug: "surrey" }],
+    enabled: true,
+  },
+
+  // ── Hampshire ───────────────────────────────────────────────
+  {
+    id: "portsmouth",
+    name: "Portsmouth City Council",
+    baseUrl: "https://publicaccess.portsmouth.gov.uk",
+    towns: [{ townSlug: "portsmouth", countySlug: "hampshire" }],
+    enabled: true,
+  },
+  {
+    id: "rushmoor",
+    name: "Rushmoor Borough Council",
+    baseUrl: "https://publicaccess.rushmoor.gov.uk",
+    towns: [
+      { townSlug: "farnborough", countySlug: "hampshire" },
+      { townSlug: "aldershot", countySlug: "hampshire" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "hart",
+    name: "Hart District Council",
+    baseUrl: "https://publicaccess.hart.gov.uk",
+    towns: [{ townSlug: "fleet", countySlug: "hampshire" }],
+    enabled: true,
+  },
+
+  // ── Sussex (additional) ─────────────────────────────────────
+  {
+    id: "adur-worthing",
+    name: "Adur & Worthing Councils",
+    baseUrl: "https://planning.adur-worthing.gov.uk",
+    towns: [{ townSlug: "worthing", countySlug: "sussex" }],
+    enabled: true,
+  },
+  {
+    id: "hastings",
+    name: "Hastings Borough Council",
+    baseUrl: "https://publicaccess.hastings.gov.uk",
+    towns: [{ townSlug: "hastings", countySlug: "sussex" }],
+    enabled: true,
+  },
+  {
+    id: "chichester",
+    name: "Chichester District Council",
+    baseUrl: "https://publicaccess.chichester.gov.uk",
+    towns: [
+      { townSlug: "chichester", countySlug: "sussex" },
+      { townSlug: "bognor-regis", countySlug: "sussex" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "mid-sussex",
+    name: "Mid Sussex District Council",
+    baseUrl: "https://pa.midsussex.gov.uk",
+    towns: [{ townSlug: "haywards-heath", countySlug: "sussex" }],
+    enabled: true,
+  },
+
+  // ── Berkshire ───────────────────────────────────────────────
+  {
+    id: "west-berkshire",
+    name: "West Berkshire Council",
+    baseUrl: "https://publicaccess.westberks.gov.uk",
+    towns: [
+      { townSlug: "newbury", countySlug: "berkshire" },
+      { townSlug: "thatcham", countySlug: "berkshire" },
+    ],
+    enabled: true,
+  },
+
+  // ── Buckinghamshire ─────────────────────────────────────────
+  {
+    id: "buckinghamshire",
+    name: "Buckinghamshire Council",
+    baseUrl: "https://publicaccess.buckinghamshire.gov.uk",
+    towns: [
+      { townSlug: "aylesbury", countySlug: "buckinghamshire" },
+      { townSlug: "high-wycombe", countySlug: "buckinghamshire" },
+      { townSlug: "amersham", countySlug: "buckinghamshire" },
+      { townSlug: "beaconsfield", countySlug: "buckinghamshire" },
+      { townSlug: "marlow", countySlug: "buckinghamshire" },
+      { townSlug: "chesham", countySlug: "buckinghamshire" },
+      { townSlug: "buckingham", countySlug: "buckinghamshire" },
+      { townSlug: "princes-risborough", countySlug: "buckinghamshire" },
+    ],
+    enabled: true,
+  },
+
+  // ── Oxfordshire ─────────────────────────────────────────────
+  {
+    id: "west-oxfordshire",
+    name: "West Oxfordshire District Council",
+    baseUrl: "https://publicaccess.westoxon.gov.uk",
+    towns: [{ townSlug: "witney", countySlug: "oxfordshire" }],
+    enabled: true,
+  },
+
+  // ── Hertfordshire (additional) ──────────────────────────────
+  {
+    id: "stevenage",
+    name: "Stevenage Borough Council",
+    baseUrl: "https://publicaccess.stevenage.gov.uk",
+    towns: [{ townSlug: "stevenage", countySlug: "hertfordshire" }],
+    enabled: true,
+  },
+  {
+    id: "east-herts",
+    name: "East Hertfordshire District Council",
+    baseUrl: "https://publicaccess.eastherts.gov.uk",
+    towns: [
+      { townSlug: "hertford", countySlug: "hertfordshire" },
+      { townSlug: "bishops-stortford", countySlug: "hertfordshire" },
+    ],
+    enabled: true,
+  },
+
+  // ── Bristol & South West ────────────────────────────────────
+  {
+    id: "bristol",
+    name: "Bristol City Council",
+    baseUrl: "https://pa.bristol.gov.uk",
+    towns: [
+      { townSlug: "bristol-city-centre", countySlug: "bristol" },
+      { townSlug: "bedminster", countySlug: "bristol" },
+      { townSlug: "bishopston", countySlug: "bristol" },
+      { townSlug: "filton", countySlug: "bristol" },
+      { townSlug: "hengrove", countySlug: "bristol" },
+      { townSlug: "keynsham", countySlug: "bristol" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "exeter",
+    name: "Exeter City Council",
+    baseUrl: "https://publicaccess.exeter.gov.uk",
+    towns: [{ townSlug: "exeter", countySlug: "devon" }],
+    enabled: true,
+  },
+  {
+    id: "plymouth",
+    name: "Plymouth City Council",
+    baseUrl: "https://planning.plymouth.gov.uk",
+    towns: [{ townSlug: "plymouth", countySlug: "devon" }],
+    enabled: true,
+  },
+  {
+    id: "cornwall",
+    name: "Cornwall Council",
+    baseUrl: "https://planning.cornwall.gov.uk",
+    towns: [
+      { townSlug: "truro", countySlug: "cornwall" },
+      { townSlug: "falmouth", countySlug: "cornwall" },
+      { townSlug: "newquay", countySlug: "cornwall" },
+      { townSlug: "penzance", countySlug: "cornwall" },
+      { townSlug: "st-austell", countySlug: "cornwall" },
+      { townSlug: "bodmin", countySlug: "cornwall" },
+      { townSlug: "camborne", countySlug: "cornwall" },
+      { townSlug: "bude", countySlug: "cornwall" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "cheltenham",
+    name: "Cheltenham Borough Council",
+    baseUrl: "https://publicaccess.cheltenham.gov.uk",
+    towns: [{ townSlug: "cheltenham", countySlug: "gloucestershire" }],
+    enabled: true,
+  },
+  {
+    id: "gloucester",
+    name: "Gloucester City Council",
+    baseUrl: "https://publicaccess.gloucester.gov.uk",
+    towns: [{ townSlug: "gloucester", countySlug: "gloucestershire" }],
+    enabled: true,
+  },
+
+  // ── Greater Manchester ──────────────────────────────────────
+  {
+    id: "manchester",
+    name: "Manchester City Council",
+    baseUrl: "https://pa.manchester.gov.uk",
+    towns: [{ townSlug: "manchester", countySlug: "greater-manchester" }],
+    enabled: true,
+  },
+  {
+    id: "bury",
+    name: "Bury Council",
+    baseUrl: "https://planning.bury.gov.uk",
+    towns: [{ townSlug: "bury", countySlug: "greater-manchester" }],
+    enabled: true,
+  },
+  {
+    id: "wigan",
+    name: "Wigan Council",
+    baseUrl: "https://planning.wigan.gov.uk",
+    towns: [{ townSlug: "wigan", countySlug: "greater-manchester" }],
+    enabled: true,
+  },
+
+  // ── Yorkshire ───────────────────────────────────────────────
+  {
+    id: "leeds",
+    name: "Leeds City Council",
+    baseUrl: "https://publicaccess.leeds.gov.uk",
+    towns: [{ townSlug: "leeds", countySlug: "west-yorkshire" }],
+    enabled: true,
+  },
+  {
+    id: "bradford",
+    name: "City of Bradford",
+    baseUrl: "https://planning.bradford.gov.uk",
+    towns: [
+      { townSlug: "bradford", countySlug: "west-yorkshire" },
+      { townSlug: "ilkley", countySlug: "west-yorkshire" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "wakefield",
+    name: "Wakefield Council",
+    baseUrl: "https://planning.wakefield.gov.uk",
+    towns: [
+      { townSlug: "wakefield", countySlug: "west-yorkshire" },
+      { townSlug: "pontefract", countySlug: "west-yorkshire" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "doncaster",
+    name: "City of Doncaster Council",
+    baseUrl: "https://planning.doncaster.gov.uk",
+    towns: [
+      { townSlug: "doncaster", countySlug: "south-yorkshire" },
+      { townSlug: "mexborough", countySlug: "south-yorkshire" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "north-yorkshire",
+    name: "North Yorkshire Council",
+    baseUrl: "https://publicaccess.northyorks.gov.uk",
+    towns: [
+      { townSlug: "harrogate", countySlug: "north-yorkshire" },
+      { townSlug: "scarborough", countySlug: "north-yorkshire" },
+      { townSlug: "skipton", countySlug: "north-yorkshire" },
+      { townSlug: "ripon", countySlug: "north-yorkshire" },
+      { townSlug: "northallerton", countySlug: "north-yorkshire" },
+      { townSlug: "knaresborough", countySlug: "north-yorkshire" },
+      { townSlug: "whitby", countySlug: "north-yorkshire" },
+    ],
+    enabled: true,
+  },
+
+  // ── North East ──────────────────────────────────────────────
+  {
+    id: "durham",
+    name: "Durham County Council",
+    baseUrl: "https://publicaccess.durham.gov.uk",
+    towns: [
+      { townSlug: "durham", countySlug: "county-durham" },
+      { townSlug: "bishop-auckland", countySlug: "county-durham" },
+      { townSlug: "newton-aycliffe", countySlug: "county-durham" },
+      { townSlug: "consett", countySlug: "county-durham" },
+      { townSlug: "chester-le-street", countySlug: "county-durham" },
+      { townSlug: "peterlee", countySlug: "county-durham" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "northumberland",
+    name: "Northumberland County Council",
+    baseUrl: "https://publicaccess.northumberland.gov.uk",
+    towns: [
+      { townSlug: "morpeth", countySlug: "northumberland" },
+      { townSlug: "blyth", countySlug: "northumberland" },
+      { townSlug: "cramlington", countySlug: "northumberland" },
+      { townSlug: "alnwick", countySlug: "northumberland" },
+      { townSlug: "hexham", countySlug: "northumberland" },
+      { townSlug: "berwick-upon-tweed", countySlug: "northumberland" },
+    ],
+    enabled: true,
+  },
+
+  // ── Merseyside ──────────────────────────────────────────────
+  {
+    id: "sefton",
+    name: "Sefton Council",
+    baseUrl: "https://pa.sefton.gov.uk",
+    towns: [
+      { townSlug: "southport", countySlug: "merseyside" },
+      { townSlug: "bootle", countySlug: "merseyside" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "st-helens",
+    name: "St Helens Council",
+    baseUrl: "https://publicaccess.sthelens.gov.uk",
+    towns: [{ townSlug: "st-helens", countySlug: "merseyside" }],
+    enabled: true,
+  },
+
+  // ── Lancashire ──────────────────────────────────────────────
+  {
+    id: "lancaster",
+    name: "Lancaster City Council",
+    baseUrl: "https://planning.lancaster.gov.uk",
+    towns: [{ townSlug: "lancaster", countySlug: "lancashire" }],
+    enabled: true,
+  },
+  {
+    id: "burnley",
+    name: "Burnley Borough Council",
+    baseUrl: "https://publicaccess.burnley.gov.uk",
+    towns: [{ townSlug: "burnley", countySlug: "lancashire" }],
+    enabled: true,
+  },
+  {
+    id: "chorley",
+    name: "Chorley Council",
+    baseUrl: "https://planning.chorley.gov.uk",
+    towns: [{ townSlug: "chorley", countySlug: "lancashire" }],
+    enabled: true,
+  },
+
+  // ── Cheshire ────────────────────────────────────────────────
+  {
+    id: "cheshire-west",
+    name: "Cheshire West and Chester Council",
+    baseUrl: "https://pa.cheshirewestandchester.gov.uk",
+    towns: [
+      { townSlug: "chester", countySlug: "cheshire" },
+      { townSlug: "northwich", countySlug: "cheshire" },
+      { townSlug: "ellesmere-port", countySlug: "cheshire" },
+    ],
+    enabled: true,
+  },
+
+  // ── Derbyshire ──────────────────────────────────────────────
+  {
+    id: "chesterfield",
+    name: "Chesterfield Borough Council",
+    baseUrl: "https://publicaccess.chesterfield.gov.uk",
+    towns: [{ townSlug: "chesterfield", countySlug: "derbyshire" }],
+    enabled: true,
+  },
+  {
+    id: "derbyshire-dales",
+    name: "Derbyshire Dales District Council",
+    baseUrl: "https://planning.derbyshiredales.gov.uk",
+    towns: [
+      { townSlug: "matlock", countySlug: "derbyshire" },
+      { townSlug: "buxton", countySlug: "derbyshire" },
+    ],
+    enabled: true,
+  },
+
+  // ── Nottinghamshire (additional) ────────────────────────────
+  {
+    id: "nottingham-city",
+    name: "Nottingham City Council",
+    baseUrl: "https://publicaccess.nottinghamcity.gov.uk",
+    towns: [{ townSlug: "nottingham", countySlug: "nottinghamshire" }],
+    enabled: true,
+  },
+  {
+    id: "mansfield",
+    name: "Mansfield District Council",
+    baseUrl: "https://planning.mansfield.gov.uk",
+    towns: [{ townSlug: "mansfield", countySlug: "nottinghamshire" }],
+    enabled: true,
+  },
+  {
+    id: "newark-sherwood",
+    name: "Newark and Sherwood District Council",
+    baseUrl: "https://publicaccess.newark-sherwooddc.gov.uk",
+    towns: [{ townSlug: "newark", countySlug: "nottinghamshire" }],
+    enabled: true,
+  },
+  {
+    id: "bassetlaw",
+    name: "Bassetlaw District Council",
+    baseUrl: "https://publicaccess.bassetlaw.gov.uk",
+    towns: [
+      { townSlug: "worksop", countySlug: "nottinghamshire" },
+      { townSlug: "retford", countySlug: "nottinghamshire" },
+    ],
+    enabled: true,
+  },
+
+  // ── Northamptonshire ────────────────────────────────────────
+  {
+    id: "north-northants",
+    name: "North Northamptonshire Council",
+    baseUrl: "https://publicaccess.northnorthants.gov.uk",
+    towns: [
+      { townSlug: "kettering", countySlug: "northamptonshire" },
+      { townSlug: "corby", countySlug: "northamptonshire" },
+      { townSlug: "wellingborough", countySlug: "northamptonshire" },
+      { townSlug: "rushden", countySlug: "northamptonshire" },
+    ],
+    enabled: true,
+  },
+
+  // ── Lincolnshire ────────────────────────────────────────────
+  {
+    id: "lincoln",
+    name: "City of Lincoln Council",
+    baseUrl: "https://planning.lincoln.gov.uk",
+    towns: [{ townSlug: "lincoln", countySlug: "lincolnshire" }],
+    enabled: true,
+  },
+
+  // ═══════════════════════════════════════════════════════════════
+  // NEW AUTHORITIES — added to close coverage gap (Apr 2026)
+  // ═══════════════════════════════════════════════════════════════
+
+  // ── Berkshire ───────────────────────────────────────────────
+  {
+    id: "bracknell-forest",
+    name: "Bracknell Forest Council",
+    baseUrl: "https://planapp.bracknell-forest.gov.uk",
+    towns: [{ townSlug: "bracknell", countySlug: "berkshire" }],
+    enabled: true,
+  },
+  {
+    id: "rbwm",
+    name: "Royal Borough of Windsor & Maidenhead",
+    baseUrl: "https://publicaccess.rbwm.gov.uk",
+    towns: [
+      { townSlug: "maidenhead", countySlug: "berkshire" },
+      { townSlug: "windsor", countySlug: "berkshire" },
+    ],
+    enabled: true,
+  },
+
+  // ── Kent (additional) ──────────────────────────────────────
+  {
+    id: "maidstone",
+    name: "Maidstone Borough Council (Mid Kent)",
+    baseUrl: "https://pa.midkent.gov.uk",
+    towns: [{ townSlug: "maidstone", countySlug: "kent" }],
+    enabled: true,
+  },
+  {
+    id: "medway",
+    name: "Medway Council",
+    baseUrl: "https://publicaccess1.medway.gov.uk",
+    towns: [{ townSlug: "chatham", countySlug: "kent" }],
+    enabled: true,
+  },
+  {
+    id: "gravesham",
+    name: "Gravesham Borough Council",
+    baseUrl: "https://plan.gravesham.gov.uk",
+    towns: [{ townSlug: "gravesend", countySlug: "kent" }],
+    enabled: true,
+  },
+  {
+    id: "dartford",
+    name: "Dartford Borough Council",
+    baseUrl: "https://publicaccess.dartford.gov.uk",
+    towns: [{ townSlug: "dartford", countySlug: "kent" }],
+    enabled: true,
+  },
+  {
+    id: "thanet",
+    name: "Thanet District Council",
+    baseUrl: "https://planning.thanet.gov.uk",
+    towns: [{ townSlug: "margate", countySlug: "kent" }],
+    enabled: true,
+  },
+
+  // ── Oxfordshire (additional) ───────────────────────────────
+  {
+    id: "oxford-city",
+    name: "Oxford City Council",
+    baseUrl: "https://public.oxford.gov.uk",
+    towns: [{ townSlug: "oxford", countySlug: "oxfordshire" }],
+    enabled: true,
+  },
+
+  // ── Surrey (additional) ────────────────────────────────────
+  {
+    id: "woking",
+    name: "Woking Borough Council",
+    baseUrl: "https://caps.woking.gov.uk",
+    towns: [{ townSlug: "woking", countySlug: "surrey" }],
+    enabled: true,
+  },
+
+  // ── Sussex (additional) ────────────────────────────────────
+  {
+    id: "brighton-hove",
+    name: "Brighton & Hove City Council",
+    baseUrl: "https://planningapps.brighton-hove.gov.uk",
+    towns: [{ townSlug: "brighton", countySlug: "sussex" }],
+    enabled: true,
+  },
+  {
+    id: "horsham",
+    name: "Horsham District Council",
+    baseUrl: "https://public-access.horsham.gov.uk",
+    towns: [{ townSlug: "horsham", countySlug: "sussex" }],
+    searchPath: "/public-access",
+    enabled: true,
+  },
+
+  // ── Greater London (additional) ────────────────────────────
+  {
+    id: "barking-dagenham",
+    name: "London Borough of Barking & Dagenham",
+    baseUrl: "https://paplan.lbbd.gov.uk",
+    towns: [{ townSlug: "barking", countySlug: "greater-london" }],
+    enabled: true,
+  },
+
+  // ── Hampshire (additional) ─────────────────────────────────
+  {
+    id: "southampton",
+    name: "Southampton City Council",
+    baseUrl: "https://planningpublicaccess.southampton.gov.uk",
+    towns: [{ townSlug: "southampton", countySlug: "hampshire" }],
+    enabled: true,
+  },
+  {
+    id: "winchester",
+    name: "Winchester City Council",
+    baseUrl: "https://planningapps.winchester.gov.uk",
+    towns: [{ townSlug: "winchester", countySlug: "hampshire" }],
+    enabled: true,
+  },
+  {
+    id: "basingstoke-deane",
+    name: "Basingstoke & Deane Borough Council",
+    baseUrl: "https://publicaccess.basingstoke.gov.uk",
+    towns: [{ townSlug: "basingstoke", countySlug: "hampshire" }],
+    enabled: true,
+  },
+  {
+    id: "test-valley",
+    name: "Test Valley Borough Council",
+    baseUrl: "https://view-applications.testvalley.gov.uk",
+    towns: [{ townSlug: "andover", countySlug: "hampshire" }],
+    enabled: true,
+  },
+
+  // ── Hertfordshire (additional) ─────────────────────────────
+  {
+    id: "watford",
+    name: "Watford Borough Council",
+    baseUrl: "https://pa.watford.gov.uk",
+    towns: [{ townSlug: "watford", countySlug: "hertfordshire" }],
+    searchPath: "/publicaccess",
+    enabled: true,
+  },
+  {
+    id: "dacorum",
+    name: "Dacorum Borough Council",
+    baseUrl: "https://planning.dacorum.gov.uk",
+    towns: [{ townSlug: "hemel-hempstead", countySlug: "hertfordshire" }],
+    searchPath: "/publicaccess",
+    enabled: true,
+  },
+  {
+    id: "welwyn-hatfield",
+    name: "Welwyn Hatfield Borough Council",
+    baseUrl: "https://planning.welhat.gov.uk",
+    towns: [
+      { townSlug: "welwyn-garden-city", countySlug: "hertfordshire" },
+      { townSlug: "hatfield", countySlug: "hertfordshire" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "hertsmere",
+    name: "Hertsmere Borough Council",
+    baseUrl: "https://www6.hertsmere.gov.uk",
+    towns: [{ townSlug: "borehamwood", countySlug: "hertfordshire" }],
+    enabled: true,
+  },
+
+  // ── Bedfordshire ───────────────────────────────────────────
+  {
+    id: "bedford",
+    name: "Bedford Borough Council",
+    baseUrl: "https://publicaccess.bedford.gov.uk",
+    towns: [{ townSlug: "bedford", countySlug: "bedfordshire" }],
+    enabled: true,
+  },
+  {
+    id: "luton",
+    name: "Luton Borough Council",
+    baseUrl: "https://planning.luton.gov.uk",
+    towns: [{ townSlug: "luton", countySlug: "bedfordshire" }],
+    enabled: true,
+  },
+
+  // ── Cambridgeshire ─────────────────────────────────────────
+  {
+    id: "greater-cambridge",
+    name: "Greater Cambridge Shared Planning",
+    baseUrl: "https://applications.greatercambridgeplanning.org",
+    towns: [{ townSlug: "cambridge", countySlug: "cambridgeshire" }],
+    enabled: true,
+  },
+  {
+    id: "huntingdonshire",
+    name: "Huntingdonshire District Council",
+    baseUrl: "https://publicaccess.huntingdonshire.gov.uk",
+    towns: [
+      { townSlug: "huntingdon", countySlug: "cambridgeshire" },
+      { townSlug: "st-neots", countySlug: "cambridgeshire" },
+      { townSlug: "st-ives", countySlug: "cambridgeshire" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "east-cambs",
+    name: "East Cambridgeshire District Council",
+    baseUrl: "https://pa.eastcambs.gov.uk",
+    towns: [{ townSlug: "ely", countySlug: "cambridgeshire" }],
+    enabled: true,
+  },
+  {
+    id: "fenland",
+    name: "Fenland District Council",
+    baseUrl: "https://www.fenland.gov.uk",
+    towns: [
+      { townSlug: "march", countySlug: "cambridgeshire" },
+      { townSlug: "wisbech", countySlug: "cambridgeshire" },
+    ],
+    searchPath: "/publicaccess",
+    enabled: true,
+  },
+
+  // ── Derbyshire (additional) ────────────────────────────────
+  {
+    id: "derby-city",
+    name: "Derby City Council",
+    baseUrl: "https://eplanning.derby.gov.uk",
+    towns: [{ townSlug: "derby", countySlug: "derbyshire" }],
+    enabled: true,
+  },
+
+  // ── Leicestershire ─────────────────────────────────────────
+  {
+    id: "leicester-city",
+    name: "Leicester City Council",
+    baseUrl: "https://planning.leicester.gov.uk",
+    towns: [{ townSlug: "leicester", countySlug: "leicestershire" }],
+    enabled: true,
+  },
+  {
+    id: "hinckley-bosworth",
+    name: "Hinckley & Bosworth Borough Council",
+    baseUrl: "https://pa.hinckley-bosworth.gov.uk",
+    towns: [{ townSlug: "hinckley", countySlug: "leicestershire" }],
+    enabled: true,
+  },
+  {
+    id: "melton",
+    name: "Melton Borough Council",
+    baseUrl: "https://pa.melton.gov.uk",
+    towns: [{ townSlug: "melton-mowbray", countySlug: "leicestershire" }],
+    enabled: true,
+  },
+  {
+    id: "harborough",
+    name: "Harborough District Council",
+    baseUrl: "https://pa2.harborough.gov.uk",
+    towns: [{ townSlug: "market-harborough", countySlug: "leicestershire" }],
+    enabled: true,
+  },
+  {
+    id: "nw-leicestershire",
+    name: "North West Leicestershire District Council",
+    baseUrl: "https://plans.nwleics.gov.uk",
+    towns: [{ townSlug: "coalville", countySlug: "leicestershire" }],
+    searchPath: "/public-access",
+    enabled: true,
+  },
+  {
+    id: "oadby-wigston",
+    name: "Oadby & Wigston Borough Council",
+    baseUrl: "https://pa.oadby-wigston.gov.uk",
+    towns: [{ townSlug: "wigston", countySlug: "leicestershire" }],
+    enabled: true,
+  },
+
+  // ── Nottinghamshire (additional) ───────────────────────────
+  {
+    id: "rushcliffe",
+    name: "Rushcliffe Borough Council",
+    baseUrl: "https://planningon-line.rushcliffe.gov.uk",
+    towns: [{ townSlug: "west-bridgford", countySlug: "nottinghamshire" }],
+    enabled: true,
+  },
+  {
+    id: "gedling",
+    name: "Gedling Borough Council",
+    baseUrl: "https://pawam.gedling.gov.uk",
+    towns: [{ townSlug: "arnold", countySlug: "nottinghamshire" }],
+    enabled: true,
+  },
+
+  // ── Shropshire ─────────────────────────────────────────────
+  {
+    id: "shropshire",
+    name: "Shropshire Council",
+    baseUrl: "https://pa.shropshire.gov.uk",
+    towns: [
+      { townSlug: "shrewsbury", countySlug: "shropshire" },
+      { townSlug: "oswestry", countySlug: "shropshire" },
+      { townSlug: "bridgnorth", countySlug: "shropshire" },
+      { townSlug: "market-drayton", countySlug: "shropshire" },
+      { townSlug: "ludlow", countySlug: "shropshire" },
+    ],
+    enabled: true,
+  },
+
+  // ── Staffordshire ──────────────────────────────────────────
+  {
+    id: "stoke-on-trent",
+    name: "Stoke-on-Trent City Council",
+    baseUrl: "https://planning.stoke.gov.uk",
+    towns: [{ townSlug: "stoke-on-trent", countySlug: "staffordshire" }],
+    enabled: true,
+  },
+  {
+    id: "stafford",
+    name: "Stafford Borough Council",
+    baseUrl: "https://www12.staffordbc.gov.uk",
+    towns: [{ townSlug: "stafford", countySlug: "staffordshire" }],
+    enabled: true,
+  },
+  {
+    id: "lichfield",
+    name: "Lichfield District Council",
+    baseUrl: "https://planning.lichfielddc.gov.uk",
+    towns: [{ townSlug: "lichfield", countySlug: "staffordshire" }],
+    enabled: true,
+  },
+  {
+    id: "newcastle-under-lyme",
+    name: "Newcastle-under-Lyme Borough Council",
+    baseUrl: "https://publicaccess.newcastle-staffs.gov.uk",
+    towns: [{ townSlug: "newcastle-under-lyme", countySlug: "staffordshire" }],
+    enabled: true,
+  },
+
+  // ── Warwickshire ───────────────────────────────────────────
+  {
+    id: "warwick",
+    name: "Warwick District Council",
+    baseUrl: "https://planningdocuments.warwickdc.gov.uk",
+    towns: [
+      { townSlug: "leamington-spa", countySlug: "warwickshire" },
+      { townSlug: "warwick", countySlug: "warwickshire" },
+      { townSlug: "kenilworth", countySlug: "warwickshire" },
+    ],
+    enabled: true,
+  },
+
+  // ── West Midlands ──────────────────────────────────────────
+  {
+    id: "wolverhampton",
+    name: "Wolverhampton City Council",
+    baseUrl: "https://planningonline.wolverhampton.gov.uk",
+    towns: [{ townSlug: "wolverhampton", countySlug: "west-midlands" }],
+    enabled: true,
+  },
+  {
+    id: "solihull",
+    name: "Solihull Metropolitan Borough Council",
+    baseUrl: "https://publicaccess.solihull.gov.uk",
+    towns: [{ townSlug: "solihull", countySlug: "west-midlands" }],
+    enabled: true,
+  },
+  {
+    id: "sandwell",
+    name: "Sandwell Metropolitan Borough Council",
+    baseUrl: "https://webcaps.sandwell.gov.uk",
+    towns: [{ townSlug: "west-bromwich", countySlug: "west-midlands" }],
+    searchPath: "/publicaccess",
+    enabled: true,
+  },
+
+  // ── Worcestershire ─────────────────────────────────────────
+  {
+    id: "bromsgrove-redditch",
+    name: "Bromsgrove & Redditch Councils",
+    baseUrl: "https://publicaccess.bromsgroveandredditch.gov.uk",
+    towns: [
+      { townSlug: "redditch", countySlug: "worcestershire" },
+      { townSlug: "bromsgrove", countySlug: "worcestershire" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "wyre-forest",
+    name: "Wyre Forest District Council",
+    baseUrl: "https://planningpa.wyreforestdc.gov.uk",
+    towns: [{ townSlug: "kidderminster", countySlug: "worcestershire" }],
+    enabled: true,
+  },
+
+  // ── Devon (additional) ─────────────────────────────────────
+  {
+    id: "torbay",
+    name: "Torbay Council",
+    baseUrl: "https://publicaccess.torbay.gov.uk",
+    towns: [
+      { townSlug: "torquay", countySlug: "devon" },
+      { townSlug: "paignton", countySlug: "devon" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "teignbridge",
+    name: "Teignbridge District Council",
+    baseUrl: "https://publicaccess.teignbridge.gov.uk",
+    towns: [{ townSlug: "newton-abbot", countySlug: "devon" }],
+    enabled: true,
+  },
+  {
+    id: "north-devon",
+    name: "North Devon District Council",
+    baseUrl: "https://planning.northdevon.gov.uk",
+    towns: [{ townSlug: "barnstaple", countySlug: "devon" }],
+    enabled: true,
+  },
+  {
+    id: "mid-devon",
+    name: "Mid Devon District Council",
+    baseUrl: "https://planning.middevon.gov.uk",
+    towns: [{ townSlug: "tiverton", countySlug: "devon" }],
+    enabled: true,
+  },
+  {
+    id: "east-devon",
+    name: "East Devon District Council",
+    baseUrl: "https://planning.eastdevon.gov.uk",
+    towns: [{ townSlug: "exmouth", countySlug: "devon" }],
+    enabled: true,
+  },
+
+  // ── Dorset ─────────────────────────────────────────────────
+  {
+    id: "bcp",
+    name: "BCP Council (Bournemouth, Christchurch & Poole)",
+    baseUrl: "https://planning.bcpcouncil.gov.uk",
+    towns: [
+      { townSlug: "bournemouth", countySlug: "dorset" },
+      { townSlug: "poole", countySlug: "dorset" },
+      { townSlug: "christchurch", countySlug: "dorset" },
+    ],
+    enabled: true,
+  },
+
+  // ── Gloucestershire (additional) ──────────────────────────
+  {
+    id: "stroud",
+    name: "Stroud District Council",
+    baseUrl: "https://publicaccess.stroud.gov.uk",
+    towns: [{ townSlug: "stroud", countySlug: "gloucestershire" }],
+    enabled: true,
+  },
+  {
+    id: "cotswold",
+    name: "Cotswold District Council",
+    baseUrl: "https://publicaccess.cotswold.gov.uk",
+    towns: [{ townSlug: "cirencester", countySlug: "gloucestershire" }],
+    enabled: true,
+  },
+  {
+    id: "tewkesbury",
+    name: "Tewkesbury Borough Council",
+    baseUrl: "https://publicaccess.tewkesbury.gov.uk",
+    towns: [{ townSlug: "tewkesbury", countySlug: "gloucestershire" }],
+    enabled: true,
+  },
+  {
+    id: "forest-of-dean",
+    name: "Forest of Dean District Council",
+    baseUrl: "https://publicaccess.fdean.gov.uk",
+    towns: [{ townSlug: "lydney", countySlug: "gloucestershire" }],
+    enabled: true,
+  },
+
+  // ── Somerset ───────────────────────────────────────────────
+  {
+    id: "north-somerset",
+    name: "North Somerset Council",
+    baseUrl: "https://planning.n-somerset.gov.uk",
+    towns: [{ townSlug: "weston-super-mare", countySlug: "somerset" }],
+    enabled: true,
+  },
+  {
+    id: "south-somerset",
+    name: "South Somerset District Council (legacy portal)",
+    baseUrl: "https://publicaccess.southsomerset.gov.uk",
+    towns: [{ townSlug: "yeovil", countySlug: "somerset" }],
+    enabled: true,
+  },
+  {
+    id: "mendip",
+    name: "Mendip District Council (legacy portal)",
+    baseUrl: "https://publicaccess.mendip.gov.uk",
+    towns: [
+      { townSlug: "frome", countySlug: "somerset" },
+      { townSlug: "glastonbury", countySlug: "somerset" },
+      { townSlug: "wells", countySlug: "somerset" },
+    ],
+    enabled: true,
+  },
+
+  // ── Wiltshire ──────────────────────────────────────────────
+  {
+    id: "swindon",
+    name: "Swindon Borough Council",
+    baseUrl: "https://pa.swindon.gov.uk",
+    towns: [{ townSlug: "swindon", countySlug: "wiltshire" }],
+    searchPath: "/publicaccess",
+    enabled: true,
+  },
+
+  // ── Greater Manchester (additional) ────────────────────────
+  {
+    id: "salford",
+    name: "Salford City Council",
+    baseUrl: "https://publicaccess.salford.gov.uk",
+    towns: [{ townSlug: "salford", countySlug: "greater-manchester" }],
+    searchPath: "/publicaccess",
+    enabled: true,
+  },
+  {
+    id: "stockport",
+    name: "Stockport Metropolitan Borough Council",
+    baseUrl: "https://planning.stockport.gov.uk",
+    towns: [{ townSlug: "stockport", countySlug: "greater-manchester" }],
+    searchPath: "/PlanningData-live",
+    enabled: true,
+  },
+  {
+    id: "bolton",
+    name: "Bolton Metropolitan Borough Council",
+    baseUrl: "https://paplanning.bolton.gov.uk",
+    towns: [{ townSlug: "bolton", countySlug: "greater-manchester" }],
+    enabled: true,
+  },
+  {
+    id: "rochdale",
+    name: "Rochdale Metropolitan Borough Council",
+    baseUrl: "https://publicaccess.rochdale.gov.uk",
+    towns: [{ townSlug: "rochdale", countySlug: "greater-manchester" }],
+    enabled: true,
+  },
+  {
+    id: "oldham",
+    name: "Oldham Metropolitan Borough Council",
+    baseUrl: "https://planningpa.oldham.gov.uk",
+    towns: [{ townSlug: "oldham", countySlug: "greater-manchester" }],
+    enabled: true,
+  },
+  {
+    id: "trafford",
+    name: "Trafford Council",
+    baseUrl: "https://pa.trafford.gov.uk",
+    towns: [{ townSlug: "altrincham", countySlug: "greater-manchester" }],
+    enabled: true,
+  },
+  {
+    id: "tameside",
+    name: "Tameside Metropolitan Borough Council",
+    baseUrl: "https://publicaccess.tameside.gov.uk",
+    towns: [{ townSlug: "ashton-under-lyne", countySlug: "greater-manchester" }],
+    enabled: true,
+  },
+
+  // ── Lancashire (additional) ────────────────────────────────
+  {
+    id: "blackpool",
+    name: "Blackpool Council",
+    baseUrl: "https://idoxpa.blackpool.gov.uk",
+    towns: [{ townSlug: "blackpool", countySlug: "lancashire" }],
+    enabled: true,
+  },
+
+  // ── East Riding & Hull ─────────────────────────────────────
+  {
+    id: "hull",
+    name: "Hull City Council",
+    baseUrl: "https://www.hullcc.gov.uk",
+    towns: [{ townSlug: "hull", countySlug: "east-riding-of-yorkshire" }],
+    searchPath: "/padcbc/publicaccess-live",
+    enabled: true,
+  },
+  {
+    id: "east-riding",
+    name: "East Riding of Yorkshire Council",
+    baseUrl: "https://newplanningaccess.eastriding.gov.uk",
+    towns: [
+      { townSlug: "beverley", countySlug: "east-riding-of-yorkshire" },
+      { townSlug: "bridlington", countySlug: "east-riding-of-yorkshire" },
+      { townSlug: "goole", countySlug: "east-riding-of-yorkshire" },
+      { townSlug: "driffield", countySlug: "east-riding-of-yorkshire" },
+      { townSlug: "hessle", countySlug: "east-riding-of-yorkshire" },
+    ],
+    searchPath: "/newplanningaccess",
+    enabled: true,
+  },
+
+  // ── South Yorkshire (additional) ──────────────────────────
+  {
+    id: "sheffield",
+    name: "Sheffield City Council",
+    baseUrl: "https://planningapps.sheffield.gov.uk",
+    towns: [{ townSlug: "sheffield", countySlug: "south-yorkshire" }],
+    enabled: true,
+  },
+
+  // ── West Yorkshire (additional) ───────────────────────────
+  {
+    id: "calderdale",
+    name: "Calderdale Council",
+    baseUrl: "https://portal.calderdale.gov.uk",
+    towns: [{ townSlug: "halifax", countySlug: "west-yorkshire" }],
+    enabled: true,
+  },
+
+  // ── North Yorkshire (additional) ──────────────────────────
+  {
+    id: "york",
+    name: "City of York Council",
+    baseUrl: "https://planningaccess.york.gov.uk",
+    towns: [{ townSlug: "york", countySlug: "north-yorkshire" }],
+    enabled: true,
+  },
+
+  // ── Norfolk (additional) ──────────────────────────────────
+  {
+    id: "norwich",
+    name: "Norwich City Council",
+    baseUrl: "https://planning.norwich.gov.uk",
+    towns: [{ townSlug: "norwich", countySlug: "norfolk" }],
+    enabled: true,
+  },
+  {
+    id: "north-norfolk",
+    name: "North Norfolk District Council",
+    baseUrl: "https://idoxpa.north-norfolk.gov.uk",
+    towns: [{ townSlug: "cromer", countySlug: "norfolk" }],
+    enabled: true,
+  },
+  {
+    id: "south-norfolk",
+    name: "South Norfolk Council",
+    baseUrl: "https://info.south-norfolk.gov.uk",
+    towns: [{ townSlug: "wymondham", countySlug: "norfolk" }],
+    enabled: true,
+  },
+
+  // ── Suffolk ────────────────────────────────────────────────
+  {
+    id: "west-suffolk",
+    name: "West Suffolk Council",
+    baseUrl: "https://planning.westsuffolk.gov.uk",
+    towns: [
+      { townSlug: "bury-st-edmunds", countySlug: "suffolk" },
+      { townSlug: "newmarket", countySlug: "suffolk" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "babergh-mid-suffolk",
+    name: "Babergh & Mid Suffolk Councils",
+    baseUrl: "https://planning.baberghmidsuffolk.gov.uk",
+    towns: [
+      { townSlug: "sudbury", countySlug: "suffolk" },
+      { townSlug: "stowmarket", countySlug: "suffolk" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "east-suffolk",
+    name: "East Suffolk Council",
+    baseUrl: "https://publicaccess.eastsuffolk.gov.uk",
+    towns: [
+      { townSlug: "lowestoft", countySlug: "suffolk" },
+      { townSlug: "felixstowe", countySlug: "suffolk" },
+      { townSlug: "leiston", countySlug: "suffolk" },
+    ],
+    enabled: true,
+  },
+
+  // ── Tyne & Wear ───────────────────────────────────────────
+  {
+    id: "sunderland",
+    name: "Sunderland City Council",
+    baseUrl: "https://online-applications.sunderland.gov.uk",
+    towns: [
+      { townSlug: "sunderland", countySlug: "tyne-and-wear" },
+      { townSlug: "washington", countySlug: "tyne-and-wear" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "gateshead",
+    name: "Gateshead Council",
+    baseUrl: "https://public.gateshead.gov.uk",
+    towns: [{ townSlug: "gateshead", countySlug: "tyne-and-wear" }],
+    enabled: true,
+  },
+
+  // ── Merseyside (additional) ───────────────────────────────
+  {
+    id: "wirral",
+    name: "Wirral Council",
+    baseUrl: "https://planning.wirral.gov.uk",
+    towns: [
+      { townSlug: "birkenhead", countySlug: "merseyside" },
+      { townSlug: "wallasey", countySlug: "merseyside" },
+    ],
+    enabled: true,
+  },
+
+  // ── Lincolnshire (additional) ─────────────────────────────
+  {
+    id: "north-kesteven",
+    name: "North Kesteven District Council",
+    baseUrl: "https://planningonline.n-kesteven.gov.uk",
+    towns: [{ townSlug: "sleaford", countySlug: "lincolnshire" }],
+    enabled: true,
+  },
+  {
+    id: "south-kesteven",
+    name: "South Kesteven District Council",
+    baseUrl: "https://planning.southkesteven.gov.uk",
+    towns: [
+      { townSlug: "grantham", countySlug: "lincolnshire" },
+      { townSlug: "stamford", countySlug: "lincolnshire" },
+    ],
+    enabled: true,
+  },
+
+  // ── Cumbria ────────────────────────────────────────────────
+  {
+    id: "cumberland",
+    name: "Cumberland Council",
+    baseUrl: "https://publicaccess.carlisle.gov.uk",
+    towns: [
+      { townSlug: "carlisle", countySlug: "cumbria" },
+      { townSlug: "workington", countySlug: "cumbria" },
+      { townSlug: "whitehaven", countySlug: "cumbria" },
+    ],
+    enabled: true,
+  },
+
+  // ── Wales ──────────────────────────────────────────────────
+  {
+    id: "cardiff",
+    name: "Cardiff Council",
+    baseUrl: "https://www.cardiffidoxcloud.wales",
+    towns: [
+      { townSlug: "cardiff-city-centre", countySlug: "cardiff" },
+      { townSlug: "cardiff-bay", countySlug: "cardiff" },
+      { townSlug: "canton", countySlug: "cardiff" },
+      { townSlug: "cathays", countySlug: "cardiff" },
+      { townSlug: "splott", countySlug: "cardiff" },
+      { townSlug: "pontcanna", countySlug: "cardiff" },
+    ],
+    searchPath: "/publicaccess",
+    enabled: true,
+  },
+  {
+    id: "newport",
+    name: "Newport City Council",
+    baseUrl: "https://publicaccess.newport.gov.uk",
+    towns: [
+      { townSlug: "newport-city-centre", countySlug: "newport" },
+      { townSlug: "caerleon", countySlug: "newport" },
+      { townSlug: "maindee", countySlug: "newport" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "torfaen",
+    name: "Torfaen County Borough Council",
+    baseUrl: "https://planningonline.torfaen.gov.uk",
+    towns: [
+      { townSlug: "cwmbran", countySlug: "newport" },
+      { townSlug: "pontypool", countySlug: "newport" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "powys",
+    name: "Powys County Council",
+    baseUrl: "https://pa.powys.gov.uk",
+    towns: [
+      { townSlug: "brecon", countySlug: "powys" },
+      { townSlug: "newtown", countySlug: "powys" },
+      { townSlug: "welshpool", countySlug: "powys" },
+      { townSlug: "llandrindod-wells", countySlug: "powys" },
+      { townSlug: "builth-wells", countySlug: "powys" },
+      { townSlug: "hay-on-wye", countySlug: "powys" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "swansea",
+    name: "Swansea Council",
+    baseUrl: "https://planningapps.swansea.gov.uk",
+    towns: [
+      { townSlug: "swansea-city-centre", countySlug: "swansea" },
+      { townSlug: "mumbles", countySlug: "swansea" },
+      { townSlug: "sa1-waterfront", countySlug: "swansea" },
+      { townSlug: "sketty", countySlug: "swansea" },
+      { townSlug: "morriston", countySlug: "swansea" },
+    ],
+    enabled: true,
+  },
+  {
+    id: "neath-port-talbot",
+    name: "Neath Port Talbot Council",
+    baseUrl: "https://planningonline.npt.gov.uk",
+    towns: [{ townSlug: "neath", countySlug: "swansea" }],
+    enabled: true,
+  },
+
+  // ═══════════════════════════════════════════════════════════════
+  // Added 2026-04-21 after portal-system probe — verified Idox Public Access
+  // ═══════════════════════════════════════════════════════════════
+  {
+    id: "basildon",
+    name: "Basildon Borough Council",
+    baseUrl: "https://planning.basildon.gov.uk",
+    towns: [{ townSlug: "basildon", countySlug: "essex" }],
+    enabled: true,
+  },
+  {
+    id: "brentwood",
+    name: "Brentwood Borough Council",
+    baseUrl: "https://publicaccess.brentwood.gov.uk",
+    towns: [{ townSlug: "brentwood", countySlug: "essex" }],
+    enabled: true,
+  },
+  {
+    id: "southend",
+    name: "Southend-on-Sea City Council",
+    baseUrl: "https://publicaccess.southend.gov.uk",
+    towns: [{ townSlug: "southend-on-sea", countySlug: "essex" }],
+    enabled: true,
+  },
+  {
+    id: "thurrock",
+    name: "Thurrock Council",
+    baseUrl: "https://regs.thurrock.gov.uk",
+    towns: [{ townSlug: "grays", countySlug: "essex" }],
+    enabled: true,
+  },
+  {
+    id: "kings-lynn-west-norfolk",
+    name: "King's Lynn & West Norfolk Borough Council",
+    baseUrl: "https://online.west-norfolk.gov.uk",
+    towns: [{ townSlug: "kings-lynn", countySlug: "norfolk" }],
+    enabled: true,
+  },
+  {
+    id: "south-gloucestershire",
+    name: "South Gloucestershire Council",
+    baseUrl: "https://developments.southglos.gov.uk",
+    towns: [{ townSlug: "filton", countySlug: "bristol" }],
+    enabled: true,
+  },
 ];
 
 // ─── Lookup Helpers ──────────────────────────────────────────
@@ -167,6 +1520,8 @@ interface IdoxSearchResult {
   proposal: string;
   /** Status from <span class="caseStatus"> */
   status: string;
+  /** Date from "Validated:" or "Received:" in metaInfo */
+  dateStr: string;
 }
 
 interface RawApp {
@@ -405,7 +1760,7 @@ const RELEVANT_TYPE_CODES = new Set([
   "L", // Listed Building (Greenwich)
   "I106", // S106 (Greenwich)
   "PN1", // Prior Notification (Greenwich)
-  "K", // Unknown/special (Greenwich) - let proposal analysis decide
+  // "K" moved to EXCLUDED — consultation by other borough
   // Croydon codes
   "GPDO", // General Permitted Development Order
   "PDO", // Prior Determination Order
@@ -506,6 +1861,16 @@ const EXCLUDED_TYPE_CODES = new Set([
   "MA", // Minor Amendment
   "CE", // Certificate Existing
   "TELN", // Telecoms notification (Brent)
+  "K", // Consultation by other borough (Greenwich)
+  "G", // Development by Govt Dept (Greenwich)
+  "H", // Hazardous substances (Greenwich)
+  "CLPL", // Cert of Lawfulness for Listed Bldg (Greenwich)
+  "AEA", // Additional Environmental Approval (Greenwich)
+  "BGP", // Biodiversity Gain Plan (Greenwich)
+  "CAAD", // Cert of Appropriate Alt Development (Greenwich)
+  "D1", // Demolition Prior Approval Required (Greenwich) — not residential
+  "PN6", // Agricultural/Forestry (Greenwich)
+  "PN7", // Demolition notification (Greenwich)
   // Croydon codes
   "DISC", // Discharge of conditions
   "LP", // Lawful Development Proposed
@@ -660,10 +2025,11 @@ function categorise(app: RawApp): { category: string; isRelevant: boolean; reaso
   // Pattern-based normalisation for Idox prior approval / reserved matters / PD variants
   if (/^PAP/.test(appType) || /^PA\d/.test(appType) || /^PAC/.test(appType) || appType === "PAD" || appType === "PALHE") appType = "Prior Approval";
   if (/^PDE/.test(appType) || appType === "PDCOU" || appType === "PDEAD" || appType === "PDEAB" || appType === "PDO" || appType === "GPDO") appType = "Prior Approval";
-  if (/^RM\d/.test(appType) || appType === "REM" || appType === "REMF") appType = "REM";
+  if (/^RM\d/.test(appType) || appType === "REM" || appType === "REMF" || appType === "R") appType = "REM";
   if (/^VS106/.test(appType) || appType === "S106A" || appType === "I106") appType = "MOD106";
   if (appType === "LBA" || appType === "L") appType = "LBC"; // Normalise Listed Building variants
-  if (appType === "PN1") appType = "Prior Approval"; // Prior notification variant
+  if (appType === "O") appType = "OUT"; // Outline (Greenwich single-letter code)
+  if (/^PN\d/.test(appType)) appType = "Prior Approval"; // Prior notification variants (PN1-PN7 etc.)
   if (appType === "AUT" || appType === "FULR") appType = "FUL"; // Authority's own / Retrospective = full planning
 
   if (EXCLUDED_TYPE_CODES.has(appType)) {
@@ -922,9 +2288,19 @@ function parseSearchResults(html: string): IdoxSearchResult[] {
     const detailUrl = decodeHtmlEntities(hrefMatch[1]);
     const keyVal = hrefMatch[2];
 
-    // Proposal is in <div class="summaryLinkTextClamp"> (inside the link)
-    const proposalMatch = block.match(/<div\s+class=["']summaryLinkTextClamp["'][^>]*>([\s\S]*?)<\/div>/i);
-    const proposal = proposalMatch ? stripHtml(proposalMatch[1]) : "";
+    // Proposal: some portals wrap it in <div class="summaryLinkTextClamp"> (Reigate),
+    // others put text directly in the <a> tag (Greenwich). Try both.
+    let proposal = "";
+    const clampMatch = block.match(/<div\s+class=["']summaryLinkTextClamp["'][^>]*>([\s\S]*?)<\/div>/i);
+    if (clampMatch) {
+      proposal = stripHtml(clampMatch[1]);
+    } else {
+      // Fall back to text inside the <a> tag (before any child elements)
+      const linkTextMatch = block.match(/<a\s+href=["'][^"']*keyVal=[^"']*["'][^>]*>([\s\S]*?)<\/a>/i);
+      if (linkTextMatch) {
+        proposal = stripHtml(linkTextMatch[1]);
+      }
+    }
 
     // Address from <p class="address">
     const addressMatch = block.match(/<p\s+class=["']address["'][^>]*>([\s\S]*?)<\/p>/i);
@@ -938,13 +2314,26 @@ function parseSearchResults(html: string): IdoxSearchResult[] {
     const refMatch = metaText.match(/Ref\.?\s*(?:No)?:?\s*(\S+)/i);
     const reference = refMatch ? refMatch[1].trim() : "";
 
-    // Extract validated date from meta: "Validated: Tue 31 Mar 2026"
-    // (we'll use this as the received_date approximation)
-    const validatedMatch = metaText.match(/Validated:\s*(.+?)(?:\||$)/i);
+    // Extract date from meta: "Validated: Tue 31 Mar 2026" or "Received: Fri 10 Apr 2026"
+    // Some portals use Validated, others use Received
+    const validatedMatch = metaText.match(/(?:Validated|Received):\s*(.+?)(?:\||$)/i);
 
     // Extract status from meta: "Status: Registered" or "Status: Decided"
     const statusMatch = metaText.match(/Status:\s*(.+?)(?:\||$)/i);
     const status = statusMatch ? statusMatch[1].trim() : "";
+
+    // Parse date string like "Tue 31 Mar 2026" → "31/03/2026"
+    const rawDate = validatedMatch ? validatedMatch[1].trim() : "";
+    let dateStr = "";
+    if (rawDate) {
+      const dateObj = new Date(rawDate);
+      if (!isNaN(dateObj.getTime())) {
+        const dd = String(dateObj.getDate()).padStart(2, "0");
+        const mm = String(dateObj.getMonth() + 1).padStart(2, "0");
+        const yyyy = dateObj.getFullYear();
+        dateStr = `${dd}/${mm}/${yyyy}`;
+      }
+    }
 
     results.push({
       detailUrl,
@@ -953,6 +2342,7 @@ function parseSearchResults(html: string): IdoxSearchResult[] {
       address,
       proposal,
       status,
+      dateStr,
     });
   }
 
@@ -969,7 +2359,7 @@ const USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/
 async function getSearchSession(
   authority: IdoxAuthority
 ): Promise<{ csrf: string; cookies: CookieJar }> {
-  const url = `${authority.baseUrl}/online-applications/search.do?action=advanced&searchType=Application`;
+  const url = `${authority.baseUrl}${idoxPath(authority)}/search.do?action=advanced&searchType=Application`;
   const cookies = new CookieJar();
 
   const resp = await fetch(url, {
@@ -1004,7 +2394,7 @@ async function submitSearch(
   dateFrom: string,
   dateTo: string
 ): Promise<{ html: string; cookies: CookieJar }> {
-  const url = `${authority.baseUrl}/online-applications/advancedSearchResults.do?action=firstPage`;
+  const url = `${authority.baseUrl}${idoxPath(authority)}/advancedSearchResults.do?action=firstPage`;
 
   const formData = new URLSearchParams();
   formData.set("_csrf", csrf);
@@ -1018,7 +2408,7 @@ async function submitSearch(
     "Content-Type": "application/x-www-form-urlencoded",
     Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     Cookie: cookies.toString(),
-    Referer: `${authority.baseUrl}/online-applications/search.do?action=advanced&searchType=Application`,
+    Referer: `${authority.baseUrl}${idoxPath(authority)}/search.do?action=advanced&searchType=Application`,
     Origin: authority.baseUrl,
   };
 
@@ -1052,7 +2442,7 @@ async function fetchResultsPage(
   cookies: CookieJar,
   pageNum: number
 ): Promise<{ html: string; cookies: CookieJar }> {
-  const url = `${authority.baseUrl}/online-applications/pagedSearchResults.do?action=page&searchCriteria.page=${pageNum}`;
+  const url = `${authority.baseUrl}${idoxPath(authority)}/pagedSearchResults.do?action=page&searchCriteria.page=${pageNum}`;
 
   const resp = await fetch(url, {
     method: "GET",
@@ -1125,6 +2515,13 @@ async function scrapeDateRange(
   const { html: firstPageHtml, cookies: updatedCookies } = await submitSearch(
     authority, csrf, cookies, dateFrom, dateTo
   );
+
+  // Debug: dump first page HTML if DEBUG_HTML env var is set
+  if (process.env.DEBUG_HTML) {
+    const debugPath = `/tmp/idox-debug-${authority.id}.html`;
+    fs.writeFileSync(debugPath, firstPageHtml, "utf-8");
+    console.log(`    🔍 Debug HTML written to ${debugPath}`);
+  }
 
   // Check for "too many results" error
   if (firstPageHtml.includes("Too many results") || firstPageHtml.includes("too many results")) {
@@ -1246,8 +2643,8 @@ function normaliseIdoxResult(
     decision_notice_type: result.status, // Idox shows decision in the status field
     decision_date: "",
     decision_level: "",
-    received_date: "", // Not available in search results
-    valid_date: "", // Not available in search results
+    received_date: result.dateStr || "",
+    valid_date: result.dateStr || "",
     expiry_date: "",
     ward: "",
     parish: "",
@@ -1266,7 +2663,7 @@ function normaliseIdoxResult(
 
 function buildIdoxSourceUrl(keyVal: string, authority: IdoxAuthority): string {
   if (!keyVal) return "";
-  return `${authority.baseUrl}/online-applications/applicationDetails.do?activeTab=summary&keyVal=${keyVal}`;
+  return `${authority.baseUrl}${idoxPath(authority)}/applicationDetails.do?activeTab=summary&keyVal=${keyVal}`;
 }
 
 function processApplications(
@@ -1626,7 +3023,10 @@ async function main() {
 
   const results: { id: string; name: string; success: boolean; error?: string }[] = [];
 
-  for (const authority of authorities) {
+  // Process authorities concurrently — each hits a different server
+  const CONCURRENCY = all ? 10 : 1;
+
+  async function processOne(authority: IdoxAuthority) {
     try {
       await processAuthority(authority, dateFrom, dateTo, months);
       results.push({ id: authority.id, name: authority.name, success: true });
@@ -1639,10 +3039,21 @@ async function main() {
         error: String(err),
       });
     }
+  }
 
-    // Throttle between authorities
-    if (authorities.length > 1) {
-      await sleep(2000);
+  if (CONCURRENCY > 1 && authorities.length > 1) {
+    console.log(`  ⚡ Running ${CONCURRENCY} authorities concurrently\n`);
+    // Process in chunks of CONCURRENCY
+    for (let i = 0; i < authorities.length; i += CONCURRENCY) {
+      const chunk = authorities.slice(i, i + CONCURRENCY);
+      await Promise.all(chunk.map(processOne));
+    }
+  } else {
+    for (const authority of authorities) {
+      await processOne(authority);
+      if (authorities.length > 1) {
+        await sleep(2000);
+      }
     }
   }
 
