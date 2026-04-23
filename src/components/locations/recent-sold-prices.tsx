@@ -1,5 +1,9 @@
 import { Home } from "lucide-react";
 import type { SoldTransaction } from "@/lib/local-market-data";
+import {
+  EditorialSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 
 interface RecentSoldPricesProps {
   transactions: SoldTransaction[];
@@ -55,47 +59,40 @@ export function RecentSoldPrices({
   townName,
 }: RecentSoldPricesProps) {
   return (
-    <section className="py-12 sm:py-16">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div
-          className="mb-5 h-[2px] w-14"
-          style={{
-            background:
-              "linear-gradient(90deg, var(--gold), var(--gold-light))",
-          }}
-        />
-        <p
-          className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-          style={{ color: "var(--gold-dark)" }}
-        >
-          Land Registry Data
-        </p>
-        <h2 className="mb-4 text-2xl font-bold tracking-tight sm:text-3xl">
-          Recent Property Sales in {townName}
-        </h2>
-        <p className="mb-8 max-w-3xl text-sm leading-relaxed text-muted-foreground">
-          {stats.transactionCount12m.toLocaleString("en-GB")} residential
-          transactions recorded in the last 12 months. Median sold price{" "}
-          {formatGBP(stats.medianPrice)}
-          {stats.yoyChange !== 0 && (
-            <>
-              {" "}
-              ({stats.yoyChange > 0 ? "+" : ""}
-              {stats.yoyChange}% year-on-year)
-            </>
-          )}
-          .{" "}
-          {stats.newBuildCount > 0 && (
-            <>
-              {stats.newBuildCount} new-build transactions with a{" "}
-              {stats.newBuildPremium > 0 ? "+" : ""}
-              {stats.newBuildPremium}% premium over existing stock.
-            </>
-          )}
-        </p>
-
+    <EditorialSection tone="paper">
+      <SectionHeader
+        tone="paper"
+        eyebrow="Land Registry data"
+        title={
+          <>
+            Recent property sales
+            <br />
+            <span className="italic" style={{ color: "var(--navy)" }}>
+              in {townName}.
+            </span>
+          </>
+        }
+        body={
+          <>
+            {stats.transactionCount12m.toLocaleString("en-GB")} residential
+            transactions in the last twelve months. Median sold price{" "}
+            <strong>{formatGBP(stats.medianPrice)}</strong>
+            {stats.yoyChange !== 0 && (
+              <> ({stats.yoyChange > 0 ? "+" : ""}{stats.yoyChange}% YoY)</>
+            )}
+            {stats.newBuildCount > 0 && (
+              <>
+                . {stats.newBuildCount} new-build transactions with a{" "}
+                {stats.newBuildPremium > 0 ? "+" : ""}
+                {stats.newBuildPremium}% premium over existing stock.
+              </>
+            )}
+          </>
+        }
+      />
+      <div className="mt-16">
         {/* Price by type badges */}
-        <div className="mb-8 flex flex-wrap gap-3">
+        <div className="mb-10 flex flex-wrap gap-3">
           {Object.entries(stats.medianByType).map(([type, price]) => (
             <div
               key={type}
@@ -167,6 +164,6 @@ export function RecentSoldPrices({
           </table>
         </div>
       </div>
-    </section>
+    </EditorialSection>
   );
 }

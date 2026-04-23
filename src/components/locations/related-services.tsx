@@ -1,5 +1,11 @@
 import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
+
 import type { Service } from "@/lib/services";
+import {
+  EditorialSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 
 interface RelatedServicesProps {
   services: readonly Service[];
@@ -17,7 +23,7 @@ export function RelatedServices({
   townName,
 }: RelatedServicesProps) {
   const otherServices = services.filter(
-    (service) => service.slug !== currentServiceSlug
+    (service) => service.slug !== currentServiceSlug,
   );
 
   if (otherServices.length === 0) {
@@ -25,60 +31,56 @@ export function RelatedServices({
   }
 
   return (
-    <section className="py-16">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Section heading with gold rule */}
-        <div className="mb-10">
-          <div
-            className="mb-4 h-[2px] w-12"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-            Other Services in {townName}
-          </h2>
-        </div>
+    <EditorialSection tone="paper">
+      <SectionHeader
+        tone="paper"
+        eyebrow="Adjacent products"
+        title={
+          <>
+            Other services
+            <br />
+            <span className="italic" style={{ color: "var(--navy)" }}>
+              in {townName}.
+            </span>
+          </>
+        }
+      />
 
-        {/* Services grid */}
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {otherServices.map((service) => (
-            <Link
-              key={service.slug}
-              href={`/locations/${countySlug}/${townSlug}/${service.slug}`}
-              className="group relative overflow-hidden rounded-xl border border-border bg-card/70 p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-lg"
-            >
-              {/* Top accent line - reveals on hover */}
-              <div
-                className="absolute left-0 right-0 top-0 h-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-                style={{
-                  background:
-                    "linear-gradient(90deg, transparent 10%, var(--gold) 50%, transparent 90%)",
-                }}
+      <div
+        className="mt-16 grid gap-px border-y sm:grid-cols-2 lg:grid-cols-3"
+        style={{
+          borderColor: "var(--stone-dark)",
+          background: "var(--stone-dark)",
+        }}
+      >
+        {otherServices.map((service) => (
+          <Link
+            key={service.slug}
+            href={`/locations/${countySlug}/${townSlug}/${service.slug}`}
+            className="group relative flex flex-col gap-4 px-7 py-8 transition-colors"
+            style={{ background: "var(--paper)" }}
+          >
+            <div className="flex items-start justify-between gap-4">
+              <h3
+                className="font-heading text-[20px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                style={{ color: "var(--navy-dark)" }}
+              >
+                {service.name}
+              </h3>
+              <ArrowUpRight
+                className="mt-1 h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                style={{ color: "var(--gold-dark)" }}
               />
-
-              <div className="relative">
-                {/* Service name */}
-                <h3 className="mb-2 text-base font-bold tracking-tight text-foreground">
-                  {service.name}
-                </h3>
-
-                {/* Rate badge */}
-                <span
-                  className="inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold"
-                  style={{
-                    backgroundColor: "oklch(0.75 0.12 85 / 0.1)",
-                    color: "var(--gold-dark)",
-                  }}
-                >
-                  {service.typicalRate}
-                </span>
-              </div>
-            </Link>
-          ))}
-        </div>
+            </div>
+            <p
+              className="numeral-tabular text-[11px] font-medium uppercase tracking-[0.22em]"
+              style={{ color: "oklch(0.50 0.02 255)" }}
+            >
+              {service.typicalRate} · {service.typicalLtv}
+            </p>
+          </Link>
+        ))}
       </div>
-    </section>
+    </EditorialSection>
   );
 }

@@ -6,7 +6,13 @@ import { Button } from "@/components/ui/button";
 import { Breadcrumbs } from "@/components/locations/breadcrumbs";
 import { LocationCTA } from "@/components/locations/location-cta";
 import { JsonLd } from "@/components/ui/json-ld";
-import { CTAButton, PageHero } from "@/components/editorial/primitives";
+import {
+  CTAButton,
+  EditorialSection,
+  PageHero,
+  ProseSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 import { CONTACT, SITE_NAME, SITE_URL } from "@/lib/constants";
 import { getCaseStudiesByCounty } from "@/lib/case-studies";
 import { getCountyOverview } from "@/lib/location-content";
@@ -218,15 +224,19 @@ export default async function CountyPage({ params }: PageProps) {
       <LocationHeroImage countySlug={county} locationName={countyName} />
 
       {/* Market Overview - rich content */}
-      <section className="bg-background py-16 sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl">
-            <div className="mb-5 h-[2px] w-14" style={{ background: "linear-gradient(90deg, var(--gold), var(--gold-light))" }} />
-            <p className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm" style={{ color: "var(--gold-dark)" }}>Market Overview</p>
-            <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
-              Property Development in {countyName}
-            </h2>
-            <div className="space-y-4 text-base leading-relaxed text-muted-foreground">
+      <EditorialSection tone="paper">
+        <ProseSection
+          title={
+            <>
+              Property development
+              <br />
+              <span className="italic" style={{ color: "var(--navy)" }}>
+                in {countyName}.
+              </span>
+            </>
+          }
+        >
+          <div className="space-y-4">
               {countyOverview.map((paragraph, i) => (
                 <p key={i}>{paragraph}</p>
               ))}
@@ -263,36 +273,61 @@ export default async function CountyPage({ params }: PageProps) {
 
             {/* Link to full market report */}
             {countyReport && (
-              <div className="mt-8 rounded-xl border border-gold/20 bg-gold/5 p-5">
-                <div className="flex items-start justify-between gap-4">
+              <div
+                className="not-prose mt-8 border p-6"
+                style={{ borderColor: "var(--stone-dark)", background: "oklch(0.75 0.12 85 / 0.05)" }}
+              >
+                <div className="flex items-start justify-between gap-6">
                   <div>
-                    <p className="text-xs font-bold uppercase tracking-[0.15em] text-gold-dark">In-Depth Analysis</p>
-                    <p className="mt-1 font-bold text-foreground">{countyReport.title}</p>
-                    <p className="mt-1 text-sm text-muted-foreground">{countyReport.readingTime} - {countyReport.sections.length} sections with charts and data tables</p>
+                    <p
+                      className="text-[10px] font-medium uppercase tracking-[0.26em]"
+                      style={{ color: "var(--gold-dark)" }}
+                    >
+                      In-depth analysis
+                    </p>
+                    <p
+                      className="font-heading mt-3 text-[20px] font-medium leading-tight tracking-tight"
+                      style={{ color: "var(--navy-dark)" }}
+                    >
+                      {countyReport.title}
+                    </p>
+                    <p
+                      className="mt-2 text-[13px]"
+                      style={{ color: "oklch(0.50 0.02 255)" }}
+                    >
+                      {countyReport.readingTime} · {countyReport.sections.length} sections with charts and data tables
+                    </p>
                   </div>
-                  <Link href={`/market-reports/${countyReport.slug}`} className="shrink-0 rounded-lg bg-gold px-4 py-2 text-sm font-bold text-navy-dark transition-all hover:bg-gold-dark">
-                    Read Report
-                  </Link>
+                  <CTAButton
+                    href={`/market-reports/${countyReport.slug}`}
+                    variant="navy"
+                  >
+                    Read report
+                  </CTAButton>
                 </div>
               </div>
             )}
-          </div>
-        </div>
-      </section>
+        </ProseSection>
+      </EditorialSection>
 
       {/* Price by Property Type */}
       {agg && Object.keys(agg.medianByType).length > 0 && (
-        <section className="bg-muted/30 py-16 sm:py-20">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl">
-              <div className="mb-5 h-[2px] w-14" style={{ background: "linear-gradient(90deg, var(--gold), var(--gold-light))" }} />
-              <p className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm" style={{ color: "var(--gold-dark)" }}>Price Analysis</p>
-              <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
-                {countyName} House Prices by Property Type
-              </h2>
-              <p className="mb-6 text-base leading-relaxed text-muted-foreground">
-                Understanding price variation across property types is essential for developers assessing scheme viability. The spread between property types indicates the range of opportunities available.
-              </p>
+        <EditorialSection tone="stone">
+          <SectionHeader
+            tone="stone"
+            eyebrow="Price analysis"
+            title={
+              <>
+                {countyName} house prices
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  by property type.
+                </span>
+              </>
+            }
+            body="Understanding price variation across property types is essential for developers assessing scheme viability. The spread between property types indicates the range of opportunities available."
+          />
+          <div className="mt-16 mx-auto max-w-4xl">
 
               <div className="overflow-x-auto rounded-xl border border-border">
                 <table className="w-full text-sm">
@@ -328,28 +363,41 @@ return (
               </div>
 
               {agg.medianByType.D && agg.medianByType.F && (
-                <p className="mt-4 text-sm text-muted-foreground">
-                  The <strong className="text-foreground">{formatPriceShort(agg.medianByType.D - agg.medianByType.F)} spread</strong> between detached homes and flats creates development opportunities across the specification spectrum - from high-value family homes to accessible apartment schemes.
+                <p
+                  className="mt-6 text-[15px] leading-[1.65]"
+                  style={{ color: "oklch(0.35 0.04 255)" }}
+                >
+                  The{" "}
+                  <strong style={{ color: "var(--navy-dark)" }}>
+                    {formatPriceShort(agg.medianByType.D - agg.medianByType.F)} spread
+                  </strong>{" "}
+                  between detached homes and flats creates development
+                  opportunities across the specification spectrum — from
+                  high-value family homes to accessible apartment schemes.
                 </p>
               )}
-            </div>
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* Town-by-Town Comparison */}
       {agg && agg.towns.length > 1 && (
-        <section className="bg-background py-16 sm:py-20">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-4xl">
-              <div className="mb-5 h-[2px] w-14" style={{ background: "linear-gradient(90deg, var(--gold), var(--gold-light))" }} />
-              <p className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm" style={{ color: "var(--gold-dark)" }}>Town Comparison</p>
-              <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
-                {countyName} Town-by-Town Price Data
-              </h2>
-              <p className="mb-6 text-base leading-relaxed text-muted-foreground">
-                {countyName} encompasses {agg.townCount} principal towns with distinct market characteristics. The table ranks each town by median price alongside transaction volume and annual price movement.
-              </p>
+        <EditorialSection tone="paper">
+          <SectionHeader
+            tone="paper"
+            eyebrow="Town comparison"
+            title={
+              <>
+                {countyName} town-by-town
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  price data.
+                </span>
+              </>
+            }
+            body={`${countyName} encompasses ${agg.townCount} principal towns with distinct market characteristics. Ranked by median price alongside transaction volume and annual price movement.`}
+          />
+          <div className="mt-16 mx-auto max-w-4xl">
 
               <div className="overflow-x-auto rounded-xl border border-border">
                 <table className="w-full text-sm">
@@ -416,21 +464,25 @@ return (
                   </div>
                 )}
               </div>
-            </div>
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* Development Finance Section */}
-      <section className="bg-muted/30 py-16 sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl">
-            <div className="mb-5 h-[2px] w-14" style={{ background: "linear-gradient(90deg, var(--gold), var(--gold-light))" }} />
-            <p className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm" style={{ color: "var(--gold-dark)" }}>Finance Solutions</p>
-            <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
-              Development Finance in {countyName}
-            </h2>
-            <div className="space-y-4 text-base leading-relaxed text-muted-foreground">
+      <EditorialSection tone="stone">
+        <ProseSection
+          tone="stone"
+          title={
+            <>
+              Development finance
+              <br />
+              <span className="italic" style={{ color: "var(--navy)" }}>
+                in {countyName}.
+              </span>
+            </>
+          }
+        >
+          <div className="space-y-4">
               <p>
                 Whether you&apos;re planning a ground-up residential development, converting a commercial building, or acquiring a site at auction in {countyName}, Construction Capital sources the optimal finance structure from our panel of 100+ lenders, funds, and family offices.
               </p>
@@ -439,141 +491,201 @@ return (
                   For a typical {countyName} development with a GDV based on detached home values of {formatPrice(agg.medianByType.D)}, senior development finance of <strong className="text-foreground">{formatPrice(Math.round(agg.medianByType.D * 0.65))}</strong> at 65% LTGDV is achievable. Mezzanine finance can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15%.
                 </p>
               )}
-            </div>
 
-            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="not-prose mt-10 grid gap-px border-y sm:grid-cols-2 lg:grid-cols-3" style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}>
               {SERVICES.slice(0, 6).map((service) => (
                 <Link
                   key={service.slug}
                   href={`/services/${service.slug}`}
-                  className="group rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30"
+                  className="group flex flex-col gap-3 px-6 py-6 transition-colors"
+                  style={{ background: "var(--stone)" }}
                 >
-                  <h3 className="mb-1 font-bold text-foreground">{service.name}</h3>
-                  <p className="mb-3 text-sm text-muted-foreground">{service.shortDesc}</p>
-                  <span className="inline-flex rounded-full px-3 py-1 text-xs font-bold" style={{ backgroundColor: "oklch(0.75 0.12 85 / 0.1)", color: "var(--gold-dark)" }}>
+                  <h3
+                    className="font-heading text-[18px] font-medium leading-tight tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                    style={{ color: "var(--navy-dark)" }}
+                  >
+                    {service.name}
+                  </h3>
+                  <p className="text-[14px] leading-[1.55]" style={{ color: "oklch(0.35 0.04 255)" }}>
+                    {service.shortDesc}
+                  </p>
+                  <span
+                    className="numeral-tabular text-[11px] font-medium uppercase tracking-[0.22em]"
+                    style={{ color: "var(--gold-dark)" }}
+                  >
                     {service.typicalRate}
                   </span>
                 </Link>
               ))}
             </div>
           </div>
-        </div>
-      </section>
+        </ProseSection>
+      </EditorialSection>
 
       {/* Towns Grid */}
-      <section className="bg-background py-16 sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-12">
-            <div className="mb-5 h-[2px] w-14" style={{ background: "linear-gradient(90deg, var(--gold), var(--gold-light))" }} />
-            <p className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm" style={{ color: "var(--gold-dark)" }}>
-              Locations in {countyName}
-            </p>
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              Explore {countyName} Towns
-            </h2>
-            <p className="mt-3 max-w-2xl text-muted-foreground">
-              Select a town for local property finance services, market data, and recent sold prices.
-            </p>
-          </div>
+      <EditorialSection tone="paper">
+        <SectionHeader
+          tone="paper"
+          eyebrow={`Locations in ${countyName}`}
+          title={
+            <>
+              Explore {countyName}
+              <br />
+              <span className="italic" style={{ color: "var(--navy)" }}>
+                town by town.
+              </span>
+            </>
+          }
+          body="Select a town for local property finance services, market data, and recent sold prices."
+        />
 
-          <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="mt-16 grid gap-px border-y sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}>
             {towns.map((town) => {
               const townAgg = agg?.towns.find(t => t.slug === town.slug);
-              
-return (
+              return (
                 <Link
                   key={town.slug}
                   href={`/locations/${county}/${town.slug}`}
-                  className="glass-card group relative overflow-hidden rounded-xl p-5 transition-all duration-300 hover:translate-y-[-2px]"
+                  className="group relative flex flex-col gap-3 px-6 py-6 transition-colors"
+                  style={{ background: "var(--paper)" }}
                 >
-                  <div className="absolute left-0 right-0 top-0 h-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100" style={{ background: "linear-gradient(90deg, transparent 10%, var(--gold) 50%, transparent 90%)" }} />
-                  <div className="relative">
-                    <div className="flex items-center gap-3">
-                      <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg" style={{ background: "linear-gradient(135deg, oklch(0.25 0.06 255 / 0.08), oklch(0.25 0.06 255 / 0.03))", border: "1px solid oklch(0.25 0.06 255 / 0.06)" }}>
-                        <MapPin className="h-4 w-4 text-primary" />
-                      </div>
-                      <div className="min-w-0 flex-1">
-                        <h3 className="font-bold text-foreground">{town.name}</h3>
-                        {townAgg ? (
-                          <p className="text-xs text-muted-foreground">
-                            {formatPriceShort(townAgg.medianPrice)} median &middot; {townAgg.transactionCount12m} sales
-                          </p>
-                        ) : (
-                          <p className="line-clamp-1 text-xs text-muted-foreground">{town.context}</p>
-                        )}
-                      </div>
-                      <ChevronRight className="h-5 w-5 shrink-0 text-muted-foreground transition-all duration-300 group-hover:translate-x-1 group-hover:text-gold" />
-                    </div>
+                  <div className="flex items-start justify-between gap-3">
+                    <h3
+                      className="font-heading text-[18px] font-medium leading-tight tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                      style={{ color: "var(--navy-dark)" }}
+                    >
+                      {town.name}
+                    </h3>
+                    <ChevronRight
+                      className="mt-1 h-4 w-4 shrink-0 transition-transform group-hover:translate-x-0.5"
+                      style={{ color: "var(--gold-dark)" }}
+                    />
                   </div>
+                  {townAgg ? (
+                    <p
+                      className="numeral-tabular text-[11px] font-medium uppercase tracking-[0.22em]"
+                      style={{ color: "oklch(0.50 0.02 255)" }}
+                    >
+                      {formatPriceShort(townAgg.medianPrice)} median · {townAgg.transactionCount12m} sales
+                    </p>
+                  ) : (
+                    <p
+                      className="line-clamp-2 text-[13px] leading-[1.5]"
+                      style={{ color: "oklch(0.35 0.04 255)" }}
+                    >
+                      {town.context}
+                    </p>
+                  )}
                 </Link>
               );
             })}
-          </div>
         </div>
-      </section>
+      </EditorialSection>
 
       {/* Local Case Studies */}
       <LocalCaseStudies caseStudies={localCaseStudies} locationName={countyName} />
 
       {/* FAQs */}
       {faqs.length > 0 && (
-        <section className="bg-muted/20 py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl">
-              <div className="mb-5 h-[2px] w-14" style={{ background: "linear-gradient(90deg, var(--gold), var(--gold-light))" }} />
-              <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-                Frequently Asked Questions - {countyName}
-              </h2>
-              <div className="space-y-4">
-                {faqs.map((faq, i) => (
-                  <div key={i} className="rounded-xl border border-border bg-card p-6">
-                    <h3 className="mb-3 font-bold text-foreground">{faq.q}</h3>
-                    <p className="text-sm leading-relaxed text-muted-foreground">{faq.a}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+        <EditorialSection tone="stone">
+          <SectionHeader
+            tone="stone"
+            eyebrow="Common questions"
+            title={
+              <>
+                {countyName}
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  — answered.
+                </span>
+              </>
+            }
+          />
+          <div className="mt-16 mx-auto max-w-3xl space-y-3">
+            {faqs.map((faq, i) => (
+              <details
+                key={i}
+                className="group border-b"
+                style={{ borderColor: "var(--stone-dark)" }}
+              >
+                <summary
+                  className="flex cursor-pointer items-center justify-between py-5 font-heading text-[18px] font-medium leading-snug tracking-tight [&::-webkit-details-marker]:hidden"
+                  style={{ color: "var(--navy-dark)" }}
+                >
+                  {faq.q}
+                  <ChevronRight
+                    className="ml-3 h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-90"
+                    style={{ color: "var(--gold-dark)" }}
+                  />
+                </summary>
+                <p
+                  className="pb-6 text-[16px] leading-[1.65]"
+                  style={{ color: "oklch(0.35 0.04 255)" }}
+                >
+                  {faq.a}
+                </p>
+              </details>
+            ))}
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* Related Guides */}
       {relatedGuides.length > 0 && (
-        <section className="bg-background py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mb-8">
-              <div className="mb-5 h-[2px] w-14" style={{ background: "linear-gradient(90deg, var(--gold), var(--gold-light))" }} />
-              <p className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm" style={{ color: "var(--gold-dark)" }}>
-                Expert Guides
-              </p>
-              <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-                Development Finance Guides
-              </h2>
-            </div>
-            <div className="grid gap-4 sm:grid-cols-2">
-              {relatedGuides.map((guide) => (
-                <Link
-                  key={guide.slug}
-                  href={`/guides/${guide.slug}`}
-                  className="group flex items-center justify-between rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30"
-                >
-                  <div>
-                    <h3 className="mb-1 font-bold text-foreground group-hover:text-gold-dark transition-colors">
-                      {guide.title}
-                    </h3>
-                    <span className="text-xs text-muted-foreground">{guide.readingTime} read</span>
-                  </div>
-                  <ChevronRight className="h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-200 group-hover:translate-x-1 group-hover:text-gold" />
-                </Link>
-              ))}
-            </div>
-            <div className="mt-4">
-              <Link href="/guides" className="text-sm font-medium text-gold-dark hover:underline">
-                View all guides →
+        <EditorialSection tone="paper">
+          <SectionHeader
+            tone="paper"
+            eyebrow="Expert guides"
+            title={
+              <>
+                Further reading
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  on development finance.
+                </span>
+              </>
+            }
+          />
+          <div className="mt-16 grid gap-px border-y sm:grid-cols-2" style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}>
+            {relatedGuides.map((guide) => (
+              <Link
+                key={guide.slug}
+                href={`/guides/${guide.slug}`}
+                className="group flex items-start justify-between gap-6 p-7 transition-colors"
+                style={{ background: "var(--paper)" }}
+              >
+                <div>
+                  <h3
+                    className="font-heading text-[20px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                    style={{ color: "var(--navy-dark)" }}
+                  >
+                    {guide.title}
+                  </h3>
+                  <span
+                    className="mt-3 inline-block text-[11px] font-medium uppercase tracking-[0.22em]"
+                    style={{ color: "oklch(0.50 0.02 255)" }}
+                  >
+                    {guide.readingTime} read
+                  </span>
+                </div>
+                <ChevronRight
+                  className="mt-1 h-4 w-4 shrink-0 transition-transform duration-200 group-hover:translate-x-1"
+                  style={{ color: "var(--gold-dark)" }}
+                />
               </Link>
-            </div>
+            ))}
           </div>
-        </section>
+          <div className="mt-8">
+            <Link
+              href="/guides"
+              className="editorial-link inline-flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.22em]"
+              style={{ color: "var(--navy-dark)" }}
+            >
+              View all guides
+              <ChevronRight className="h-3.5 w-3.5" />
+            </Link>
+          </div>
+        </EditorialSection>
       )}
 
       {/* Map - moved to bottom */}

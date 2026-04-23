@@ -1,5 +1,9 @@
 import { TrendingUp, MapPin, Users, Home, Briefcase, ExternalLink, Landmark, Shield, Building } from "lucide-react";
 import type { TownMarketData } from "@/lib/town-market-data";
+import {
+  EditorialSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 
 interface TownMarketInsightsProps {
   data: TownMarketData;
@@ -8,25 +12,21 @@ interface TownMarketInsightsProps {
 
 export function TownMarketInsights({ data, townName }: TownMarketInsightsProps) {
   return (
-    <section className="py-12 sm:py-16">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div
-          className="mb-5 h-[2px] w-14"
-          style={{
-            background:
-              "linear-gradient(90deg, var(--gold), var(--gold-light))",
-          }}
-        />
-        <p
-          className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-          style={{ color: "var(--gold-dark)" }}
-        >
-          Local Market Data
-        </p>
-        <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-          {townName} Property Development Market
-        </h2>
-
+    <EditorialSection tone="paper">
+      <SectionHeader
+        tone="paper"
+        eyebrow="Local market data"
+        title={
+          <>
+            The {townName}
+            <br />
+            <span className="italic" style={{ color: "var(--navy)" }}>
+              property development market.
+            </span>
+          </>
+        }
+      />
+      <div className="mt-16">
         {/* Key stats grid */}
         <div className="mb-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
           <div className="rounded-xl border border-border bg-card p-4">
@@ -185,6 +185,6 @@ export function TownMarketInsights({ data, townName }: TownMarketInsightsProps) 
           </div>
         )}
       </div>
-    </section>
+    </EditorialSection>
   );
 }

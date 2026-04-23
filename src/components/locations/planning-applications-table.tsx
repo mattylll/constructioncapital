@@ -1,5 +1,9 @@
 import { FileCheck, Clock, ExternalLink } from "lucide-react";
 import type { PlanningApp, PlanningData } from "@/lib/local-market-data";
+import {
+  EditorialSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 
 interface PlanningApplicationsTableProps {
   approved: PlanningApp[];
@@ -84,27 +88,23 @@ export function PlanningApplicationsTable({
   const topPending = pending.slice(0, 5);
 
   return (
-    <section className="py-12 sm:py-16">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div
-          className="mb-5 h-[2px] w-14"
-          style={{
-            background:
-              "linear-gradient(90deg, var(--gold), var(--gold-light))",
-          }}
-        />
-        <p
-          className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-          style={{ color: "var(--gold-dark)" }}
-        >
-          Planning Pipeline
-        </p>
-        <h2 className="mb-4 text-2xl font-bold tracking-tight sm:text-3xl">
-          Planning Activity in {townName}
-        </h2>
-
+    <EditorialSection tone="stone">
+      <SectionHeader
+        tone="stone"
+        eyebrow="Planning pipeline"
+        title={
+          <>
+            Planning activity
+            <br />
+            <span className="italic" style={{ color: "var(--navy)" }}>
+              in {townName}.
+            </span>
+          </>
+        }
+      />
+      <div className="mt-16">
         {/* Pipeline summary banner */}
-        <div className="mb-8 flex flex-wrap gap-4 rounded-xl border border-border bg-card p-4">
+        <div className="mb-8 flex flex-wrap gap-x-8 gap-y-3 border-y py-5" style={{ borderColor: "var(--stone-dark)", color: "oklch(0.35 0.04 255)" }}>
           <div className="flex items-center gap-2">
             <FileCheck className="h-4 w-4 text-emerald-500" />
             <span className="text-sm">
@@ -212,6 +212,6 @@ export function PlanningApplicationsTable({
           </div>
         )}
       </div>
-    </section>
+    </EditorialSection>
   );
 }

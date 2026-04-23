@@ -8,7 +8,13 @@ import { RelatedServices } from "@/components/locations/related-services";
 import { RelatedTowns } from "@/components/locations/related-towns";
 import { LocationCTA } from "@/components/locations/location-cta";
 import { JsonLd } from "@/components/ui/json-ld";
-import { CTAButton, PageHero } from "@/components/editorial/primitives";
+import {
+  CTAButton,
+  EditorialSection,
+  PageHero,
+  ProseSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 import { SERVICES, type Service } from "@/lib/services";
 import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 import { getCaseStudiesByCountyAndService, getCaseStudiesByCounty } from "@/lib/case-studies";
@@ -320,57 +326,46 @@ export default async function ServicePage({ params }: PageProps) {
       />
 
       {/* Market Commentary */}
-      <section className="bg-background py-16 sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
-              {serviceName} Market in {townName}
-            </h2>
-            <div className="prose prose-lg max-w-none text-muted-foreground">
-              {marketCommentary.map((paragraph, i) => (
-                <p key={i}>{paragraph}</p>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      <EditorialSection tone="paper">
+        <ProseSection
+          title={
+            <>
+              {serviceName}
+              <br />
+              <span className="italic" style={{ color: "var(--navy)" }}>
+                in {townName}.
+              </span>
+            </>
+          }
+        >
+          {marketCommentary.map((paragraph, i) => (
+            <p key={i}>{paragraph}</p>
+          ))}
+        </ProseSection>
+      </EditorialSection>
 
       {/* Rich Content Sections - SEO depth with internal links */}
       {contentSections.length > 0 && (
-        <section className="bg-muted/30 py-16 sm:py-20">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl space-y-14">
-              {contentSections.map((section, sIdx) => (
-                <div key={sIdx}>
-                  <div
-                    className="mb-5 h-[2px] w-14"
-                    style={{
-                      background:
-                        "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                    }}
+        <EditorialSection tone="stone">
+          <div className="space-y-20">
+            {contentSections.map((section, sIdx) => (
+              <ProseSection
+                key={sIdx}
+                tone="stone"
+                title={section.title}
+              >
+                {section.content.map((p, pIdx) => (
+                  <p
+                    key={pIdx}
+                    className="[&_a]:font-medium [&_a]:underline [&_a]:decoration-[color:var(--gold)]/40 [&_a]:underline-offset-2 hover:[&_a]:decoration-[color:var(--gold)]"
+                    style={{ color: "oklch(0.35 0.04 255)" }}
+                    dangerouslySetInnerHTML={{ __html: p }}
                   />
-                  <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
-                    {section.title}
-                  </h2>
-                  {section.content.map((p, pIdx) => (
-                    <p
-                      key={pIdx}
-                      className="mb-5 text-base leading-relaxed text-muted-foreground [&_a]:font-medium [&_a]:text-foreground [&_a]:underline [&_a]:decoration-gold/40 [&_a]:underline-offset-2 hover:[&_a]:decoration-gold"
-                      dangerouslySetInnerHTML={{ __html: p }}
-                    />
-                  ))}
-                </div>
-              ))}
-            </div>
+                ))}
+              </ProseSection>
+            ))}
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* Local Market Snapshot - real data when available */}
@@ -416,32 +411,23 @@ export default async function ServicePage({ params }: PageProps) {
       )}
 
       {/* Rate Card */}
-      <section className="bg-muted/30 py-16 sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-12">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-              style={{ color: "var(--gold-dark)" }}
-            >
-              Indicative Terms
-            </p>
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              {serviceName} Rates
-            </h2>
-            <p className="mt-3 max-w-2xl text-muted-foreground">
-              Typical terms available for {serviceName.toLowerCase()} in{" "}
-              {townName}. Actual rates depend on your project specifics and
-              experience.
-            </p>
-          </div>
+      <EditorialSection tone="stone">
+        <SectionHeader
+          tone="stone"
+          eyebrow="Indicative terms"
+          title={
+            <>
+              {serviceName} rates
+              <br />
+              <span className="italic" style={{ color: "var(--navy)" }}>
+                for {townName} deals.
+              </span>
+            </>
+          }
+          body={`Typical pricing for ${serviceName.toLowerCase()} in ${townName}. Actual terms depend on GDV, leverage, location and your experience — the numbers below are where most structured deals land.`}
+        />
 
+        <div className="mt-16">
           {/* Rate table as styled cards */}
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <div className="rounded-xl border border-border bg-card p-6">
@@ -530,35 +516,32 @@ export default async function ServicePage({ params }: PageProps) {
             </div>
           </div>
 
-          <p className="mt-6 text-center text-sm text-muted-foreground">
-            Rates shown are indicative and subject to individual assessment.
-            Contact us for a bespoke quote.
+          <p
+            className="mt-8 text-[13px] leading-[1.6]"
+            style={{ color: "oklch(0.50 0.02 255)" }}
+          >
+            Indicative only, subject to individual assessment. Actual terms
+            issued against a completed Deal Room submission.
           </p>
         </div>
-      </section>
+      </EditorialSection>
 
       {/* Deal Example */}
-      <section className="bg-background py-16 sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-12">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-              style={{ color: "var(--gold-dark)" }}
-            >
-              Representative Deal
-            </p>
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              Example {serviceName} Structure
-            </h2>
-          </div>
-
+      <EditorialSection tone="paper">
+        <SectionHeader
+          tone="paper"
+          eyebrow="Representative deal"
+          title={
+            <>
+              Example {serviceName.toLowerCase()}
+              <br />
+              <span className="italic" style={{ color: "var(--navy)" }}>
+                structure.
+              </span>
+            </>
+          }
+        />
+        <div className="mt-16">
           {/* Deal card */}
           <div
             className="relative overflow-hidden rounded-2xl p-8 sm:p-10"
@@ -615,171 +598,228 @@ export default async function ServicePage({ params }: PageProps) {
             </div>
           </div>
 
-          <p className="mt-6 text-center text-sm text-muted-foreground">
-            This is a representative example. Actual terms vary based on project
-            specifics.
+          <p
+            className="mt-8 text-[13px] leading-[1.6]"
+            style={{ color: "oklch(0.50 0.02 255)" }}
+          >
+            Representative only. Actual terms vary based on scheme specifics
+            and are issued after underwriting.
           </p>
         </div>
-      </section>
+      </EditorialSection>
 
       {/* FAQ Section */}
-      <section className="bg-muted/30 py-16 sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-12">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-              style={{ color: "var(--gold-dark)" }}
+      <EditorialSection tone="stone">
+        <SectionHeader
+          tone="stone"
+          eyebrow="Common questions"
+          title={
+            <>
+              {serviceName} in {townName}
+              <br />
+              <span className="italic" style={{ color: "var(--navy)" }}>
+                — answered.
+              </span>
+            </>
+          }
+        />
+        <div className="mt-16 mx-auto max-w-3xl space-y-3">
+          {faqs.map((faq, index) => (
+            <details
+              key={index}
+              className="group border-b"
+              style={{ borderColor: "var(--stone-dark)" }}
             >
-              Common Questions
-            </p>
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              {serviceName} FAQ
-            </h2>
-          </div>
-
-          <div className="mx-auto max-w-3xl space-y-0">
-              {faqs.map((faq, index) => (
-                <details
-                  key={index}
-                  className="group border-b border-border"
+              <summary
+                className="flex cursor-pointer items-center justify-between py-5 font-heading text-[18px] font-medium leading-snug tracking-tight [&::-webkit-details-marker]:hidden"
+                style={{ color: "var(--navy-dark)" }}
+              >
+                {faq.question}
+                <svg
+                  className="ml-3 h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180"
+                  style={{ color: "var(--gold-dark)" }}
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
-                  <summary className="flex cursor-pointer items-center justify-between py-4 text-left text-base font-semibold transition-colors hover:text-foreground/80 [&::-webkit-details-marker]:hidden">
-                    {faq.question}
-                    <svg className="ml-2 h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-                  </summary>
-                  <div className="pb-4 text-muted-foreground">
-                    {faq.answer}
-                  </div>
-                </details>
-              ))}
-          </div>
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </summary>
+              <div
+                className="pb-6 text-[16px] leading-[1.65]"
+                style={{ color: "oklch(0.35 0.04 255)" }}
+              >
+                {faq.answer}
+              </div>
+            </details>
+          ))}
         </div>
-      </section>
+      </EditorialSection>
 
       {/* Related Guides */}
       {relatedGuides.length > 0 && (
-        <section className="bg-background py-16 sm:py-20">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-              style={{ color: "var(--gold-dark)" }}
-            >
-              Learn More
-            </p>
-            <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-              {serviceName} Guides
-            </h2>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {relatedGuides.map((guide) => (
-                <Link
-                  key={guide.slug}
-                  href={`/guides/${guide.slug}`}
-                  className="group rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:border-gold/30 hover:-translate-y-1"
+        <EditorialSection tone="paper">
+          <SectionHeader
+            tone="paper"
+            eyebrow="Further reading"
+            title={
+              <>
+                {serviceName}
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  guides.
+                </span>
+              </>
+            }
+          />
+          <div
+            className="mt-16 grid gap-px border-y sm:grid-cols-2 lg:grid-cols-3"
+            style={{
+              borderColor: "var(--stone-dark)",
+              background: "var(--stone-dark)",
+            }}
+          >
+            {relatedGuides.map((guide) => (
+              <Link
+                key={guide.slug}
+                href={`/guides/${guide.slug}`}
+                className="group flex flex-col gap-4 px-7 py-8 transition-colors"
+                style={{ background: "var(--paper)" }}
+              >
+                <div className="flex items-center gap-3">
+                  <BookOpen
+                    className="h-4 w-4"
+                    style={{ color: "var(--gold-dark)" }}
+                  />
+                  <span
+                    className="flex items-center gap-1 text-[10px] font-medium uppercase tracking-[0.22em]"
+                    style={{ color: "oklch(0.50 0.02 255)" }}
+                  >
+                    <Clock className="h-3 w-3" />
+                    {guide.readingTime}
+                  </span>
+                </div>
+                <h3
+                  className="font-heading text-[20px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                  style={{ color: "var(--navy-dark)" }}
                 >
-                  <div className="mb-3 flex items-center gap-2">
-                    <BookOpen className="h-4 w-4 text-gold-dark" />
-                    <span className="flex items-center gap-1 text-xs text-muted-foreground">
-                      <Clock className="h-3 w-3" />
-                      {guide.readingTime}
-                    </span>
-                  </div>
-                  <h3 className="mb-2 font-bold text-foreground group-hover:text-gold-dark transition-colors">
-                    {guide.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground line-clamp-2">
-                    {guide.excerpt}
-                  </p>
-                </Link>
-              ))}
-            </div>
-            <div className="mt-6">
-              <Button asChild variant="outline" size="sm">
-                <Link href="/guides">
-                  View All Guides
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-            </div>
+                  {guide.title}
+                </h3>
+                <p
+                  className="line-clamp-2 text-[15px] leading-[1.55]"
+                  style={{ color: "oklch(0.35 0.04 255)" }}
+                >
+                  {guide.excerpt}
+                </p>
+              </Link>
+            ))}
           </div>
-        </section>
+          <div className="mt-10">
+            <Link
+              href="/guides"
+              className="editorial-link inline-flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.22em]"
+              style={{ color: "var(--navy-dark)" }}
+            >
+              View all guides
+              <ArrowRight className="h-3.5 w-3.5" />
+            </Link>
+          </div>
+        </EditorialSection>
       )}
 
       {/* Market Reports */}
       {(countyReport || townReport) && (
-        <section className="bg-muted/30 py-16 sm:py-20">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-              style={{ color: "var(--gold-dark)" }}
-            >
-              Market Intelligence
-            </p>
-            <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-              Local Market Reports
-            </h2>
-            <div className="grid gap-4 sm:grid-cols-2">
-              {townReport && (
-                <Link
-                  href={`/market-reports/${townReport.slug}`}
-                  className="group rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:border-gold/30"
+        <EditorialSection tone="stone">
+          <SectionHeader
+            tone="stone"
+            eyebrow="Market intelligence"
+            title={
+              <>
+                Local market
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  reports.
+                </span>
+              </>
+            }
+          />
+          <div
+            className="mt-16 grid gap-px border-y sm:grid-cols-2"
+            style={{
+              borderColor: "var(--stone-dark)",
+              background: "var(--stone-dark)",
+            }}
+          >
+            {townReport && (
+              <Link
+                href={`/market-reports/${townReport.slug}`}
+                className="group flex flex-col gap-4 px-7 py-8 transition-colors"
+                style={{ background: "var(--paper)" }}
+              >
+                <div className="flex items-center gap-3">
+                  <BarChart3
+                    className="h-4 w-4"
+                    style={{ color: "var(--gold-dark)" }}
+                  />
+                  <span
+                    className="text-[10px] font-medium uppercase tracking-[0.22em]"
+                    style={{ color: "oklch(0.50 0.02 255)" }}
+                  >
+                    {townReport.readingTime}
+                  </span>
+                </div>
+                <h3
+                  className="font-heading text-[20px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                  style={{ color: "var(--navy-dark)" }}
                 >
-                  <div className="mb-3 flex items-center gap-2">
-                    <BarChart3 className="h-4 w-4 text-gold-dark" />
-                    <span className="text-xs text-muted-foreground">
-                      {townReport.readingTime}
-                    </span>
-                  </div>
-                  <h3 className="mb-2 font-bold text-foreground group-hover:text-gold-dark transition-colors">
-                    {townReport.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground line-clamp-2">
-                    {townReport.excerpt}
-                  </p>
-                </Link>
-              )}
-              {countyReport && (
-                <Link
-                  href={`/market-reports/${countyReport.slug}`}
-                  className="group rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:border-gold/30"
+                  {townReport.title}
+                </h3>
+                <p
+                  className="line-clamp-2 text-[15px] leading-[1.55]"
+                  style={{ color: "oklch(0.35 0.04 255)" }}
                 >
-                  <div className="mb-3 flex items-center gap-2">
-                    <BarChart3 className="h-4 w-4 text-gold-dark" />
-                    <span className="text-xs text-muted-foreground">
-                      {countyReport.readingTime}
-                    </span>
-                  </div>
-                  <h3 className="mb-2 font-bold text-foreground group-hover:text-gold-dark transition-colors">
-                    {countyReport.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground line-clamp-2">
-                    {countyReport.excerpt}
-                  </p>
-                </Link>
-              )}
-            </div>
+                  {townReport.excerpt}
+                </p>
+              </Link>
+            )}
+            {countyReport && (
+              <Link
+                href={`/market-reports/${countyReport.slug}`}
+                className="group flex flex-col gap-4 px-7 py-8 transition-colors"
+                style={{ background: "var(--paper)" }}
+              >
+                <div className="flex items-center gap-3">
+                  <BarChart3
+                    className="h-4 w-4"
+                    style={{ color: "var(--gold-dark)" }}
+                  />
+                  <span
+                    className="text-[10px] font-medium uppercase tracking-[0.22em]"
+                    style={{ color: "oklch(0.50 0.02 255)" }}
+                  >
+                    {countyReport.readingTime}
+                  </span>
+                </div>
+                <h3
+                  className="font-heading text-[20px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                  style={{ color: "var(--navy-dark)" }}
+                >
+                  {countyReport.title}
+                </h3>
+                <p
+                  className="line-clamp-2 text-[15px] leading-[1.55]"
+                  style={{ color: "oklch(0.35 0.04 255)" }}
+                >
+                  {countyReport.excerpt}
+                </p>
+              </Link>
+            )}
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* Local Case Studies */}

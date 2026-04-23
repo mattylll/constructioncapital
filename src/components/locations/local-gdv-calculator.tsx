@@ -7,6 +7,10 @@ import { ArrowRight, Building2, Info } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import {
+  EditorialSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 
 interface LocalGdvCalculatorProps {
   defaultGdv: number;
@@ -118,26 +122,22 @@ export function LocalGdvCalculator({
   });
 
   return (
-    <section className="bg-muted/30 py-12 sm:py-16">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div
-          className="mb-5 h-[2px] w-14"
-          style={{
-            background:
-              "linear-gradient(90deg, var(--gold), var(--gold-light))",
-          }}
-        />
-        <p
-          className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-          style={{ color: "var(--gold-dark)" }}
-        >
-          {townName} Development Appraisal
-        </p>
-        <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-          Local GDV Calculator
-        </h2>
-
-        <div className="grid gap-8 lg:grid-cols-2">
+    <EditorialSection tone="stone">
+      <SectionHeader
+        tone="stone"
+        eyebrow={`${townName} development appraisal`}
+        title={
+          <>
+            Model the numbers
+            <br />
+            <span className="italic" style={{ color: "var(--navy)" }}>
+              for your scheme.
+            </span>
+          </>
+        }
+        body={`Pre-populated with ${townName} median prices and typical senior-debt pricing. Adjust the inputs to match your deal and we will hand the working assumptions through to the Deal Room.`}
+      />
+      <div className="mt-16 grid gap-8 lg:grid-cols-2">
           {/* Inputs */}
           <div className="rounded-xl border border-border bg-card p-6">
             <h3 className="mb-1 text-lg font-bold">Scheme Inputs</h3>
@@ -339,8 +339,7 @@ export function LocalGdvCalculator({
               </Button>
             </div>
           </div>
-        </div>
       </div>
-    </section>
+    </EditorialSection>
   );
 }

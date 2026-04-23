@@ -8,6 +8,10 @@ import {
   ArrowRight,
 } from "lucide-react";
 import type { PlanningApp } from "@/lib/local-market-data";
+import {
+  EditorialSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 
 interface PlanningDealAnalysisProps {
   applications: PlanningApp[];
@@ -499,32 +503,34 @@ export function PlanningDealAnalysis({
   );
 
   return (
-    <section className="bg-muted/20 py-16 sm:py-20">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div
-          className="mb-5 h-[2px] w-14"
-          style={{
-            background:
-              "linear-gradient(90deg, var(--gold), var(--gold-light))",
-          }}
-        />
-        <p
-          className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-          style={{ color: "var(--gold-dark)" }}
-        >
-          Deal Intelligence
-        </p>
-        <h2 className="mb-3 text-2xl font-bold tracking-tight sm:text-3xl">
-          Key Schemes in {townName}
-        </h2>
-        <p className="mb-10 max-w-3xl text-muted-foreground">
-          Financial analysis of the largest approved planning applications in{" "}
-          {townName}, {countyName}. These {significantApps.length} schemes
-          represent {formatGBP(totalPipelineGdv)} in combined GDV across{" "}
-          {totalPipelineUnits.toLocaleString("en-GB")} units. Each includes an
-          indicative capital stack showing how we would structure the funding.
-        </p>
-
+    <EditorialSection tone="stone">
+      <SectionHeader
+        tone="stone"
+        eyebrow="Deal intelligence"
+        title={
+          <>
+            Key schemes
+            <br />
+            <span className="italic" style={{ color: "var(--navy)" }}>
+              in {townName}.
+            </span>
+          </>
+        }
+        body={
+          <>
+            Financial analysis of the largest approved planning applications
+            in {townName}, {countyName}. These{" "}
+            <strong>{significantApps.length}</strong> schemes represent{" "}
+            <strong>{formatGBP(totalPipelineGdv)}</strong> in combined GDV
+            across{" "}
+            <strong>
+              {totalPipelineUnits.toLocaleString("en-GB")}
+            </strong>{" "}
+            units, with indicative capital stacks for each.
+          </>
+        }
+      />
+      <div className="mt-16">
         <div className="space-y-6">
           {significantApps.map((app, i) => (
             <SchemeAnalysisCard
@@ -562,6 +568,6 @@ export function PlanningDealAnalysis({
           </Link>
         </div>
       </div>
-    </section>
+    </EditorialSection>
   );
 }
