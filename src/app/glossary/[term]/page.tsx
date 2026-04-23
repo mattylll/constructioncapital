@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowRight, ArrowLeft, BookOpen } from "lucide-react";
+import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
+import {
+  CTAButton,
+  EditorialSection,
+  PageHero,
+  RelatedGrid,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 import { JsonLd } from "@/components/ui/json-ld";
-import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { CONTACT, SITE_NAME, SITE_URL } from "@/lib/constants";
 import {
   GLOSSARY_TERMS,
   getTermBySlug,
@@ -30,55 +36,43 @@ export async function generateMetadata({
 }: PageProps): Promise<Metadata> {
   const { term: slug } = await params;
   const term = getTermBySlug(slug);
-
-  if (!term) {
-    return { title: "Term Not Found" };
-  }
+  if (!term) return { title: "Term Not Found" };
 
   const title = `${term.term}: Definition & Meaning | ${SITE_NAME}`;
-  const description = term.definition.split(". ").slice(0, 2).join(". ") + ".";
+  const description =
+    term.definition.split(". ").slice(0, 2).join(". ") + ".";
 
   return {
     title,
     description,
-    alternates: {
-      canonical: `${SITE_URL}/glossary/${slug}`,
-    },
+    alternates: { canonical: `${SITE_URL}/glossary/${slug}` },
     openGraph: {
       title,
       description,
       url: `${SITE_URL}/glossary/${slug}`,
       type: "article",
     },
-    twitter: {
-      card: "summary",
-      title,
-      description,
-    },
+    twitter: { card: "summary", title, description },
   };
 }
 
 export default async function GlossaryTermPage({ params }: PageProps) {
   const { term: slug } = await params;
   const term = getTermBySlug(slug);
-
-  if (!term) {
-    notFound();
-  }
+  if (!term) notFound();
 
   const relatedTerms = term.relatedTerms
     .map((s) => getTermBySlug(s))
-    .filter(Boolean);
+    .filter(Boolean) as NonNullable<ReturnType<typeof getTermBySlug>>[];
 
   const relatedGuides = term.relatedGuides
     .map((s) => GUIDES.find((g) => g.slug === s || g.category === s))
-    .filter(Boolean);
+    .filter(Boolean) as NonNullable<(typeof GUIDES)[number]>[];
 
   const relatedServices = term.relatedServices
     .map((s) => SERVICES.find((svc) => svc.slug === s))
-    .filter(Boolean);
+    .filter(Boolean) as NonNullable<(typeof SERVICES)[number]>[];
 
-  // Find neighbour terms for prev/next navigation
   const termsByLetter = getTermsByLetter();
   const allTermsSorted = Array.from(termsByLetter.values()).flat();
   const currentIndex = allTermsSorted.findIndex((t) => t.slug === slug);
@@ -92,23 +86,14 @@ export default async function GlossaryTermPage({ params }: PageProps) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: SITE_URL,
-      },
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       {
         "@type": "ListItem",
         position: 2,
         name: "Glossary",
         item: `${SITE_URL}/glossary`,
       },
-      {
-        "@type": "ListItem",
-        position: 3,
-        name: term.term,
-      },
+      { "@type": "ListItem", position: 3, name: term.term },
     ],
   };
 
@@ -130,358 +115,261 @@ export default async function GlossaryTermPage({ params }: PageProps) {
       <JsonLd data={breadcrumbJsonLd} />
       <JsonLd data={definedTermJsonLd} />
 
-      {/* Hero Section */}
-      <section
-        className="noise-overlay relative overflow-hidden py-20 text-white sm:py-28"
-        style={{
-          background:
-            "linear-gradient(135deg, oklch(0.14 0.05 255) 0%, oklch(0.22 0.06 255) 50%, oklch(0.14 0.05 260) 100%)",
-        }}
-      >
-        <div className="pointer-events-none absolute inset-0">
-          <svg
-            className="h-full w-full opacity-[0.035]"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <defs>
-              <pattern
-                id="term-hero-grid"
-                width="80"
-                height="80"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 80 0 L 0 0 0 80"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#term-hero-grid)" />
-          </svg>
-        </div>
+      <PageHero
+        tone="paper"
+        breadcrumbs={[
+          { label: "Home", href: "/" },
+          { label: "Glossary", href: "/glossary" },
+          { label: term.term },
+        ]}
+        eyebrow="Glossary definition"
+        title={term.term}
+        deck={term.definition.split(". ").slice(0, 2).join(". ") + "."}
+      />
 
-        <div
-          className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
-          style={{
-            width: "800px",
-            height: "600px",
-            background:
-              "radial-gradient(ellipse, oklch(0.75 0.12 85 / 0.06) 0%, transparent 60%)",
-          }}
-        />
-
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Breadcrumbs */}
-          <nav className="mb-8">
-            <ol className="flex items-center gap-2 text-sm text-white/40">
-              <li>
-                <Link href="/" className="hover:text-white/70">
-                  Home
-                </Link>
-              </li>
-              <li>/</li>
-              <li>
-                <Link href="/glossary" className="hover:text-white/70">
-                  Glossary
-                </Link>
-              </li>
-              <li>/</li>
-              <li className="text-white/60">{term.term}</li>
-            </ol>
-          </nav>
-
-          <div
-            className="mb-8 h-[2px] w-20"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
-
-          <p
-            className="mb-5 text-xs font-bold uppercase tracking-[0.35em] sm:text-sm"
-            style={{ color: "var(--gold)" }}
-          >
-            Glossary Definition
-          </p>
-
-          <h1 className="font-heading max-w-4xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
-            {term.term}
-          </h1>
-
-          {term.relatedServices.length > 0 && (
-            <div className="mt-6 flex flex-wrap gap-2">
-              {term.relatedServices.map((svc) => {
-                const service = SERVICES.find((s) => s.slug === svc);
-                return (
-                  <span
-                    key={svc}
-                    className="rounded-full px-3 py-1 text-xs font-medium text-white/80"
-                    style={{
-                      background: "oklch(0.75 0.12 85 / 0.15)",
-                      border: "1px solid oklch(0.75 0.12 85 / 0.2)",
-                    }}
-                  >
-                    {service?.name ?? svc}
-                  </span>
-                );
-              })}
-            </div>
-          )}
-        </div>
-
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[2px]"
-          style={{
-            background:
-              "linear-gradient(90deg, transparent 0%, var(--gold) 20%, var(--gold) 80%, transparent 100%)",
-            opacity: 0.35,
-          }}
-        />
-      </section>
-
-      {/* Definition */}
-      <section className="bg-background py-16 sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl">
-            <div
-              className="mb-4 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <h2 className="mb-6 text-xl font-bold tracking-tight sm:text-2xl">
+      {/* Full definition — editorial prose */}
+      <EditorialSection tone="paper">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-16">
+          <div className="lg:col-span-4">
+            <p
+              className="text-[10px] font-medium uppercase tracking-[0.3em]"
+              style={{ color: "oklch(0.50 0.02 255)" }}
+            >
               Definition
-            </h2>
-            <p className="text-lg leading-relaxed text-muted-foreground">
-              {term.definition}
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* Related Terms */}
-      {relatedTerms.length > 0 && (
-        <section className="bg-muted/30 py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl">
-              <div
-                className="mb-5 h-[2px] w-14"
-                style={{
-                  background:
-                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                }}
-              />
-              <p
-                className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-                style={{ color: "var(--gold-dark)" }}
-              >
-                Related Terms
-              </p>
-              <h3 className="mb-6 text-xl font-bold tracking-tight sm:text-2xl">
-                See Also
-              </h3>
-
-              <div className="grid gap-3 sm:grid-cols-2">
-                {relatedTerms.map((related) => (
-                  <Link
-                    key={related!.slug}
-                    href={`/glossary/${related!.slug}`}
-                    className="group flex items-center justify-between rounded-xl border border-border bg-card p-4 transition-all duration-300 hover:border-gold/30"
-                  >
-                    <div>
-                      <h4 className="font-bold text-foreground group-hover:text-gold-dark">
-                        {related!.term}
-                      </h4>
-                      <p className="mt-1 text-xs text-muted-foreground line-clamp-1">
-                        {related!.definition.split(". ")[0]}.
-                      </p>
-                    </div>
-                    <ArrowRight className="ml-3 h-4 w-4 shrink-0 text-muted-foreground transition-all duration-300 group-hover:translate-x-1 group-hover:text-gold" />
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Related Guides */}
-      {relatedGuides.length > 0 && (
-        <section className="bg-background py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl">
-              <div
-                className="mb-5 h-[2px] w-14"
-                style={{
-                  background:
-                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                }}
-              />
-              <p
-                className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-                style={{ color: "var(--gold-dark)" }}
-              >
-                Further Reading
-              </p>
-              <h3 className="mb-6 text-xl font-bold tracking-tight sm:text-2xl">
-                Related Guides
-              </h3>
-
-              <div className="space-y-3">
-                {relatedGuides.map((guide) => (
-                  <Link
-                    key={guide!.slug}
-                    href={`/guides/${guide!.slug}`}
-                    className="group flex items-center justify-between rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30"
-                  >
-                    <div>
-                      <h4 className="font-bold text-foreground group-hover:text-gold-dark">
-                        {guide!.title}
-                      </h4>
-                      <p className="mt-1 text-sm text-muted-foreground line-clamp-1">
-                        {guide!.excerpt}
-                      </p>
-                    </div>
-                    <ArrowRight className="ml-3 h-5 w-5 shrink-0 text-muted-foreground transition-all duration-300 group-hover:translate-x-1 group-hover:text-gold" />
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Related Services */}
-      {relatedServices.length > 0 && (
-        <section className="bg-muted/30 py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl">
-              <div
-                className="mb-5 h-[2px] w-14"
-                style={{
-                  background:
-                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                }}
-              />
-              <p
-                className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-                style={{ color: "var(--gold-dark)" }}
-              >
-                Our Services
-              </p>
-              <h3 className="mb-6 text-xl font-bold tracking-tight sm:text-2xl">
-                Related Finance Products
-              </h3>
-
-              <div className="grid gap-4 sm:grid-cols-2">
-                {relatedServices.map((service) => (
-                  <Link
-                    key={service!.slug}
-                    href={`/services/${service!.slug}`}
-                    className="group rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30"
-                  >
-                    <h4 className="mb-1 font-bold text-foreground group-hover:text-gold-dark">
-                      {service!.name}
-                    </h4>
-                    <p className="mb-3 text-sm text-muted-foreground">
-                      {service!.shortDesc}
-                    </p>
-                    <span className="text-xs font-bold text-gold-dark">
-                      {service!.typicalRate} &middot; {service!.typicalLtv}
-                    </span>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Prev / Next Navigation */}
-      <section className="border-t border-border bg-background py-8">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto flex max-w-3xl items-center justify-between">
-            {prevTerm ? (
-              <Link
-                href={`/glossary/${prevTerm.slug}`}
-                className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
-              >
-                <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-1" />
-                <span>{prevTerm.term}</span>
-              </Link>
-            ) : (
-              <div />
-            )}
-            <Link
-              href="/glossary"
-              className="text-sm font-medium text-gold-dark hover:underline"
+          <div className="lg:col-span-7 lg:col-start-6">
+            <p
+              className="text-[19px] leading-[1.7]"
+              style={{ color: "oklch(0.28 0.04 255)" }}
             >
-              All Terms
-            </Link>
-            {nextTerm ? (
-              <Link
-                href={`/glossary/${nextTerm.slug}`}
-                className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
-              >
-                <span>{nextTerm.term}</span>
-                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Link>
-            ) : (
-              <div />
+              {term.definition}
+            </p>
+            {term.relatedServices.length > 0 && (
+              <div className="mt-10 flex flex-wrap gap-x-6 gap-y-2 border-t pt-6"
+                   style={{ borderColor: "var(--stone-dark)" }}>
+                <span
+                  className="text-[10px] font-medium uppercase tracking-[0.28em]"
+                  style={{ color: "oklch(0.50 0.02 255)" }}
+                >
+                  Appears in
+                </span>
+                {term.relatedServices.map((svc) => {
+                  const service = SERVICES.find((s) => s.slug === svc);
+                  return (
+                    <Link
+                      key={svc}
+                      href={`/services/${svc}`}
+                      className="editorial-link text-[13px]"
+                      style={{ color: "var(--navy-dark)" }}
+                    >
+                      {service?.name ?? svc}
+                    </Link>
+                  );
+                })}
+              </div>
             )}
           </div>
+        </div>
+      </EditorialSection>
+
+      {/* Related terms */}
+      {relatedTerms.length > 0 && (
+        <EditorialSection tone="stone">
+          <SectionHeader
+            tone="stone"
+            eyebrow="See also"
+            title="Closely related terms."
+          />
+          <ul
+            className="mt-12 grid grid-cols-1 gap-px border-y sm:grid-cols-2"
+            style={{
+              borderColor: "var(--stone-dark)",
+              backgroundColor: "var(--stone-dark)",
+            }}
+          >
+            {relatedTerms.map((related) => (
+              <li key={related.slug}>
+                <Link
+                  href={`/glossary/${related.slug}`}
+                  className="group flex h-full flex-col gap-2 p-6"
+                  style={{ background: "var(--stone)" }}
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <h3
+                      className="font-heading text-lg font-medium leading-tight tracking-tight"
+                      style={{ color: "var(--navy-dark)" }}
+                    >
+                      {related.term}
+                    </h3>
+                    <ArrowUpRight
+                      className="h-3.5 w-3.5 flex-shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                      style={{ color: "var(--gold-dark)" }}
+                    />
+                  </div>
+                  <p
+                    className="text-[14px] leading-[1.55]"
+                    style={{ color: "oklch(0.42 0.03 255)" }}
+                  >
+                    {related.definition.split(". ")[0]}.
+                  </p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </EditorialSection>
+      )}
+
+      {/* Related guides */}
+      {relatedGuides.length > 0 && (
+        <EditorialSection tone="paper">
+          <SectionHeader
+            tone="paper"
+            eyebrow="Further reading"
+            title="Guides that touch this term."
+          />
+          <div className="mt-12">
+            <RelatedGrid
+              tone="paper"
+              items={relatedGuides.map((guide) => ({
+                href: `/guides/${guide.slug}`,
+                eyebrow: "Guide",
+                title: guide.title,
+                body: guide.excerpt,
+                meta: `${guide.readingTime} read`,
+              }))}
+            />
+          </div>
+        </EditorialSection>
+      )}
+
+      {/* Related services */}
+      {relatedServices.length > 0 && (
+        <EditorialSection tone="stone">
+          <SectionHeader
+            tone="stone"
+            eyebrow="Where it shows up"
+            title="Finance products using this term."
+          />
+          <div className="mt-12">
+            <RelatedGrid
+              tone="stone"
+              items={relatedServices.map((service) => ({
+                href: `/services/${service.slug}`,
+                eyebrow: "Service",
+                title: service.name,
+                body: service.shortDesc,
+                meta: `${service.typicalRate} · ${service.typicalLtv}`,
+              }))}
+            />
+          </div>
+        </EditorialSection>
+      )}
+
+      {/* Prev / Next */}
+      <section
+        className="border-y"
+        style={{
+          borderColor: "var(--stone-dark)",
+          background: "var(--paper)",
+        }}
+      >
+        <div className="mx-auto flex max-w-[1360px] items-center justify-between gap-4 px-6 py-6 sm:px-10">
+          {prevTerm ? (
+            <Link
+              href={`/glossary/${prevTerm.slug}`}
+              className="group flex items-center gap-3 text-sm"
+              style={{ color: "oklch(0.35 0.04 255)" }}
+            >
+              <ArrowLeft
+                className="h-4 w-4 transition-transform group-hover:-translate-x-0.5"
+                style={{ color: "var(--gold-dark)" }}
+              />
+              <span>
+                <span
+                  className="block text-[10px] font-medium uppercase tracking-[0.26em]"
+                  style={{ color: "oklch(0.50 0.02 255)" }}
+                >
+                  Previous
+                </span>
+                <span
+                  className="font-heading text-base"
+                  style={{ color: "var(--navy-dark)" }}
+                >
+                  {prevTerm.term}
+                </span>
+              </span>
+            </Link>
+          ) : (
+            <span />
+          )}
+          <Link
+            href="/glossary"
+            className="editorial-link text-[12px] font-medium uppercase tracking-[0.22em]"
+            style={{ color: "var(--navy-dark)" }}
+          >
+            All terms
+          </Link>
+          {nextTerm ? (
+            <Link
+              href={`/glossary/${nextTerm.slug}`}
+              className="group flex items-center gap-3 text-right text-sm"
+              style={{ color: "oklch(0.35 0.04 255)" }}
+            >
+              <span>
+                <span
+                  className="block text-[10px] font-medium uppercase tracking-[0.26em]"
+                  style={{ color: "oklch(0.50 0.02 255)" }}
+                >
+                  Next
+                </span>
+                <span
+                  className="font-heading text-base"
+                  style={{ color: "var(--navy-dark)" }}
+                >
+                  {nextTerm.term}
+                </span>
+              </span>
+              <ArrowRight
+                className="h-4 w-4 transition-transform group-hover:translate-x-0.5"
+                style={{ color: "var(--gold-dark)" }}
+              />
+            </Link>
+          ) : (
+            <span />
+          )}
         </div>
       </section>
 
       {/* CTA */}
-      <section
-        className="noise-overlay relative overflow-hidden py-16 sm:py-20"
-        style={{
-          background:
-            "linear-gradient(180deg, oklch(0.16 0.05 255) 0%, oklch(0.20 0.06 255) 50%, oklch(0.16 0.05 255) 100%)",
-        }}
-      >
-        <div className="relative mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <BookOpen
-            className="mx-auto mb-4 h-10 w-10"
-            style={{ color: "var(--gold)" }}
-          />
-          <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
-            Ready to Apply?
-          </h2>
-          <p className="mt-3 text-white/50">
-            Tell us about your project and we&apos;ll source the best terms from
-            our panel of 100+ lenders. Indicative terms within 24 hours.
-          </p>
-          <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-            <Button
-              asChild
-              size="lg"
-              className="cta-shimmer h-14 bg-gold px-10 text-base font-bold text-navy-dark shadow-lg transition-all duration-300 hover:bg-gold-dark"
-            >
-              <Link href="/deal-room">
-                Start Your Deal
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="h-14 border-white/20 px-8 text-base text-white hover:bg-white/10"
-            >
-              <Link href="/glossary">
-                <ArrowLeft className="mr-2 h-5 w-5" />
-                All Terms
-              </Link>
-            </Button>
-          </div>
+      <EditorialSection tone="navy-dark">
+        <SectionHeader
+          tone="navy-dark"
+          eyebrow="Ready to apply"
+          title={
+            <>
+              Knowing the term is one thing.
+              <br />
+              <span className="italic" style={{ color: "var(--gold-light)" }}>
+                Getting it on your term sheet is ours.
+              </span>
+            </>
+          }
+          body="Send us the outline. We come back with indicative pricing from the right lenders inside a working day."
+        />
+        <div className="mt-12 flex flex-wrap items-center gap-5">
+          <CTAButton href="/deal-room" variant="gold" size="lg">
+            Start a deal
+          </CTAButton>
+          <a
+            href={`tel:${CONTACT.phoneRaw}`}
+            className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+            style={{ color: "oklch(1 0 0 / 0.95)" }}
+          >
+            Or call {CONTACT.phone}
+          </a>
         </div>
-      </section>
+      </EditorialSection>
     </>
   );
 }

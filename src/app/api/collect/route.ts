@@ -66,7 +66,8 @@ export async function POST(request: Request) {
     // Insert events in a batch
     const statements = batch.map((evt) => {
       const d = evt.d || {};
-      return {
+      
+return {
         sql: `INSERT INTO events (site_id, session_id, visitor_id, event_type, path, url, referrer, title, data, screen_w, screen_h, viewport_w, viewport_h, language, ua, country, is_new_visitor, created_at)
               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))`,
         args: [
@@ -96,7 +97,8 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true }, { headers: corsHeaders });
   } catch (error) {
     console.error("Analytics collect error:", error);
-    return NextResponse.json(
+    
+return NextResponse.json(
       { error: "Failed to collect events" },
       { status: 500, headers: corsHeaders }
     );

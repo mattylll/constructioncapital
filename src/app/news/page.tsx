@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Newspaper, Rss } from "lucide-react";
+import { ArrowUpRight, Rss } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import {
+  CTAButton,
+  EditorialSection,
+  PageHero,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 import { JsonLd } from "@/components/ui/json-ld";
-import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { CONTACT, SITE_NAME, SITE_URL } from "@/lib/constants";
 import {
   getPublishedArticles,
   getArticlesByCategory,
@@ -29,14 +33,6 @@ export const metadata: Metadata = {
   },
 };
 
-const CATEGORY_COLOURS: Record<NewsCategory, string> = {
-  "rate-update": "bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300",
-  "lender-news": "bg-blue-100 text-blue-800 dark:bg-blue-900/40 dark:text-blue-300",
-  "market-commentary": "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-300",
-  "deal-announcement": "bg-purple-100 text-purple-800 dark:bg-purple-900/40 dark:text-purple-300",
-  regulatory: "bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-300",
-};
-
 function categoryLabel(cat: NewsCategory): string {
   return NEWS_CATEGORIES.find((c) => c.slug === cat)?.label ?? cat;
 }
@@ -47,6 +43,12 @@ function formatDate(dateStr: string): string {
     month: "long",
     year: "numeric",
   });
+}
+
+function readingTime(body: string): string {
+  const words = body.trim().split(/\s+/).length;
+  const minutes = Math.max(1, Math.round(words / 220));
+  return `${minutes} min read`;
 }
 
 interface PageProps {
@@ -61,21 +63,18 @@ export default async function NewsPage({ searchParams }: PageProps) {
       ? getArticlesByCategory(category)
       : getPublishedArticles();
 
+  const allPublished = getPublishedArticles();
+  const thisYear = allPublished.filter(
+    (a) => new Date(a.published_at).getFullYear() === new Date().getFullYear()
+  ).length;
+  const latest = allPublished[0];
+
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: SITE_URL,
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: "News",
-      },
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "News" },
     ],
   };
 
@@ -83,211 +82,260 @@ export default async function NewsPage({ searchParams }: PageProps) {
     <>
       <JsonLd data={breadcrumbJsonLd} />
 
-      {/* Hero Section */}
-      <section className="hero-gradient noise-overlay relative overflow-hidden py-24 text-white sm:py-32">
-        <div className="pointer-events-none absolute inset-0">
-          <svg
-            className="h-full w-full opacity-[0.035]"
-            xmlns="http://www.w3.org/2000/svg"
+      <PageHero
+        tone="paper"
+        breadcrumbs={[{ label: "Home", href: "/" }, { label: "News" }]}
+        eyebrow="News & commentary"
+        title={
+          <>
+            From the desk.
+            <br />
+            <span className="italic" style={{ color: "var(--navy)" }}>
+              Daily.
+            </span>
+          </>
+        }
+        deck={
+          <>
+            A daily read of the UK property-finance market &mdash; rate
+            moves, lender news, planning activity, transactions. Written
+            against the same data we use to price live deals, so every
+            number cites its source.
+          </>
+        }
+        stats={[
+          { label: "This year", value: thisYear },
+          { label: "Categories", value: NEWS_CATEGORIES.length },
+          { label: "Author", value: "Matt Lenzie" },
+        ]}
+        actions={
+          <Link
+            href="/news/feed.xml"
+            className="group inline-flex items-center gap-2 text-[12px] font-medium uppercase tracking-[0.22em]"
+            style={{ color: "var(--navy-dark)" }}
           >
-            <defs>
-              <pattern
-                id="news-hero-grid"
-                width="80"
-                height="80"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 80 0 L 0 0 0 80"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#news-hero-grid)" />
-          </svg>
-        </div>
+            <Rss className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
+            <span className="editorial-link">Subscribe via RSS</span>
+          </Link>
+        }
+      />
 
-        <div
-          className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
-          style={{
-            width: "800px",
-            height: "600px",
-            background:
-              "radial-gradient(ellipse, oklch(0.75 0.12 85 / 0.08) 0%, transparent 60%)",
-          }}
-        />
-
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div
-            className="mb-8 h-[2px] w-20"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
-
-          <p
-            className="mb-5 text-xs font-bold uppercase tracking-[0.35em] sm:text-sm"
-            style={{ color: "var(--gold)" }}
-          >
-            Market Intelligence
-          </p>
-
-          <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
-            Market News &{" "}
-            <span className="gold-gradient-text italic">Updates</span>
-          </h1>
-
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/60 sm:text-xl">
-            Rate changes, lender launches, market analysis, and regulatory
-            updates from the UK development finance market.
-          </p>
-
-          <div className="mt-6 flex items-center gap-4">
-            <p className="text-sm text-white/40">
-              {articles.length} article{articles.length !== 1 ? "s" : ""}
-              {category ? ` in ${categoryLabel(category as NewsCategory)}` : ""}
+      {/* ━━━ Category filter rail + list ━━━ */}
+      <EditorialSection tone="paper">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-16">
+          <aside className="lg:col-span-3">
+            <p
+              className="mb-6 text-[10px] font-medium uppercase tracking-[0.28em]"
+              style={{ color: "oklch(0.50 0.02 255)" }}
+            >
+              Filter by topic
             </p>
-            <Link
-              href="/news/feed.xml"
-              className="flex items-center gap-1.5 text-xs text-white/30 transition-colors hover:text-white/60"
-            >
-              <Rss className="h-3.5 w-3.5" />
-              RSS Feed
-            </Link>
-          </div>
-        </div>
-
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[2px]"
-          style={{
-            background:
-              "linear-gradient(90deg, transparent 0%, var(--gold) 20%, var(--gold) 80%, transparent 100%)",
-            opacity: 0.35,
-          }}
-        />
-      </section>
-
-      {/* Category Filters + Articles */}
-      <section className="bg-background py-20 sm:py-28">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Category pills */}
-          <div className="mb-12 flex flex-wrap gap-2">
-            <Link
-              href="/news"
-              className={`inline-flex items-center rounded-full border px-4 py-2 text-sm font-medium transition-all duration-200 ${
-                !category
-                  ? "border-gold/40 bg-gold/10 text-gold-dark"
-                  : "border-border bg-card text-muted-foreground hover:border-gold/30 hover:text-foreground"
-              }`}
-            >
-              All
-            </Link>
-            {NEWS_CATEGORIES.map((cat) => (
-              <Link
-                key={cat.slug}
-                href={`/news?category=${cat.slug}`}
-                className={`inline-flex items-center rounded-full border px-4 py-2 text-sm font-medium transition-all duration-200 ${
-                  category === cat.slug
-                    ? "border-gold/40 bg-gold/10 text-gold-dark"
-                    : "border-border bg-card text-muted-foreground hover:border-gold/30 hover:text-foreground"
-                }`}
-              >
-                {cat.label}
-              </Link>
-            ))}
-          </div>
-
-          {/* Articles grid */}
-          {articles.length > 0 ? (
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {articles.map((article) => (
+            <ul className="space-y-3">
+              <li>
                 <Link
-                  key={article.slug}
-                  href={`/news/${article.slug}`}
-                  className="group rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:border-gold/30 hover:shadow-lg"
+                  href="/news"
+                  className={`group flex items-baseline justify-between gap-3 border-l-2 pl-4 text-[15px] transition-colors ${
+                    !category ? "font-medium" : ""
+                  }`}
+                  style={{
+                    borderColor: !category ? "var(--gold)" : "transparent",
+                    color: !category
+                      ? "var(--navy-dark)"
+                      : "oklch(0.40 0.03 255)",
+                  }}
                 >
-                  <div className="mb-4 flex items-center justify-between gap-3">
-                    <span
-                      className={`inline-flex rounded-full px-2.5 py-0.5 text-[11px] font-semibold ${
-                        CATEGORY_COLOURS[article.category]
-                      }`}
-                    >
-                      {categoryLabel(article.category)}
-                    </span>
-                    <time className="text-xs text-muted-foreground">
-                      {formatDate(article.published_at)}
-                    </time>
-                  </div>
-
-                  <h2 className="mb-3 text-lg font-bold leading-snug tracking-tight text-foreground transition-colors group-hover:text-gold-dark">
-                    {article.title}
-                  </h2>
-
-                  <p className="mb-4 line-clamp-3 text-sm leading-relaxed text-muted-foreground">
-                    {article.excerpt}
-                  </p>
-
-                  <span className="inline-flex items-center gap-1 text-sm font-semibold text-gold-dark">
-                    Read more
-                    <ArrowRight className="h-3.5 w-3.5 transition-transform duration-200 group-hover:translate-x-1" />
+                  <span>All articles</span>
+                  <span
+                    className="numeral-tabular text-[11px]"
+                    style={{ color: "oklch(0.50 0.02 255)" }}
+                  >
+                    {allPublished.length}
                   </span>
                 </Link>
-              ))}
-            </div>
-          ) : (
-            <div className="py-20 text-center">
-              <Newspaper
-                className="mx-auto mb-4 h-12 w-12 text-muted-foreground/30"
-              />
-              <h2 className="mb-2 text-xl font-bold text-foreground">
-                No articles yet
-              </h2>
-              <p className="text-muted-foreground">
-                Market news and updates will appear here. Check back soon.
-              </p>
-            </div>
-          )}
-        </div>
-      </section>
+              </li>
+              {NEWS_CATEGORIES.map((cat) => {
+                const count = getArticlesByCategory(cat.slug).length;
+                const active = category === cat.slug;
+                return (
+                  <li key={cat.slug}>
+                    <Link
+                      href={`/news?category=${cat.slug}`}
+                      className={`group flex items-baseline justify-between gap-3 border-l-2 pl-4 text-[15px] transition-colors ${active ? "font-medium" : ""}`}
+                      style={{
+                        borderColor: active ? "var(--gold)" : "transparent",
+                        color: active
+                          ? "var(--navy-dark)"
+                          : "oklch(0.40 0.03 255)",
+                      }}
+                    >
+                      <span>{cat.label}</span>
+                      <span
+                        className="numeral-tabular text-[11px]"
+                        style={{ color: "oklch(0.50 0.02 255)" }}
+                      >
+                        {count}
+                      </span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </aside>
 
-      {/* CTA */}
-      <section
-        className="noise-overlay relative overflow-hidden py-16 sm:py-20"
-        style={{
-          background:
-            "linear-gradient(135deg, oklch(0.75 0.12 85 / 0.08) 0%, oklch(0.75 0.12 85 / 0.04) 100%)",
-        }}
-      >
-        <div className="relative mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <Newspaper
-            className="mx-auto mb-4 h-10 w-10"
-            style={{ color: "var(--gold)" }}
-          />
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-            Need Finance for Your Next Project?
-          </h2>
-          <p className="mt-3 text-muted-foreground">
-            Stay informed with our market updates, then let us put that
-            knowledge to work. Tell us about your deal and we&apos;ll source the
-            best terms from 100+ lenders.
-          </p>
-          <div className="mt-8">
-            <Button
-              asChild
-              size="lg"
-              className="cta-shimmer h-14 bg-gold px-10 text-base font-bold text-navy-dark shadow-lg transition-all duration-300 hover:bg-gold-dark"
-            >
-              <Link href="/deal-room">
-                Start Your Deal
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+          <div className="lg:col-span-9">
+            {articles.length > 0 ? (
+              <ul
+                className="border-t"
+                style={{ borderColor: "var(--stone-dark)" }}
+              >
+                {articles.map((article, idx) => (
+                  <li
+                    key={article.slug}
+                    className="border-b"
+                    style={{ borderColor: "var(--stone-dark)" }}
+                  >
+                    <Link
+                      href={`/news/${article.slug}`}
+                      className="group grid grid-cols-12 items-baseline gap-4 py-7 transition-colors hover:bg-[oklch(0.75_0.12_85/0.04)] sm:gap-8 sm:py-9"
+                    >
+                      <div className="col-span-12 flex items-baseline gap-4 sm:col-span-3 sm:flex-col sm:items-start sm:gap-2">
+                        <time
+                          className="numeral-tabular text-[11px] font-medium uppercase tracking-[0.24em]"
+                          style={{ color: "oklch(0.50 0.02 255)" }}
+                        >
+                          {formatDate(article.published_at)}
+                        </time>
+                        {idx === 0 && !category && (
+                          <span
+                            className="text-[10px] font-medium uppercase tracking-[0.28em]"
+                            style={{ color: "var(--gold-dark)" }}
+                          >
+                            Latest
+                          </span>
+                        )}
+                      </div>
+                      <div className="col-span-12 sm:col-span-7">
+                        <p
+                          className="text-[11px] font-medium uppercase tracking-[0.24em]"
+                          style={{ color: "var(--navy)" }}
+                        >
+                          {categoryLabel(article.category)}
+                        </p>
+                        <h2
+                          className="font-heading mt-2 text-2xl font-medium leading-tight tracking-tight"
+                          style={{ color: "var(--navy-dark)" }}
+                        >
+                          {article.title}
+                        </h2>
+                        <p
+                          className="mt-3 line-clamp-2 text-[15px] leading-[1.55]"
+                          style={{ color: "oklch(0.40 0.03 255)" }}
+                        >
+                          {article.excerpt}
+                        </p>
+                      </div>
+                      <div className="col-span-12 flex items-baseline justify-between gap-4 sm:col-span-2 sm:justify-end sm:text-right">
+                        <span
+                          className="text-[11px] font-medium uppercase tracking-[0.24em]"
+                          style={{ color: "oklch(0.50 0.02 255)" }}
+                        >
+                          {readingTime(article.body)}
+                        </span>
+                        <ArrowUpRight
+                          className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                          style={{ color: "var(--gold-dark)" }}
+                        />
+                      </div>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <div
+                className="flex flex-col items-start gap-4 border-y py-14"
+                style={{ borderColor: "var(--stone-dark)" }}
+              >
+                <p
+                  className="text-[11px] font-medium uppercase tracking-[0.28em]"
+                  style={{ color: "oklch(0.50 0.02 255)" }}
+                >
+                  Nothing here yet
+                </p>
+                <p
+                  className="font-heading text-2xl font-medium tracking-tight"
+                  style={{ color: "var(--navy-dark)" }}
+                >
+                  New articles publish most mornings.
+                </p>
+                <p
+                  className="text-[15px] leading-[1.6]"
+                  style={{ color: "oklch(0.42 0.03 255)" }}
+                >
+                  Check back tomorrow or{" "}
+                  <Link href="/news" className="editorial-link">
+                    clear the category filter
+                  </Link>{" "}
+                  to see everything.
+                </p>
+              </div>
+            )}
           </div>
         </div>
-      </section>
+
+        {latest && !category && (
+          <div
+            className="mt-16 border-t pt-8"
+            style={{ borderColor: "var(--stone-dark)" }}
+          >
+            <p
+              className="text-[11px] font-medium uppercase tracking-[0.24em]"
+              style={{ color: "oklch(0.50 0.02 255)" }}
+            >
+              Data sources feeding the daily brief
+            </p>
+            <p
+              className="mt-3 max-w-[70ch] text-[14px] leading-[1.65]"
+              style={{ color: "oklch(0.42 0.03 255)" }}
+            >
+              HM Land Registry transaction data, local planning authorities
+              via Idox, Bank of England MPC releases, ONS House Price Index,
+              HMRC SDLT receipts, and curated UK property-finance press
+              feeds. Every numeric claim on a given article cites its
+              source.
+            </p>
+          </div>
+        )}
+      </EditorialSection>
+
+      {/* ━━━ CTA ━━━ */}
+      <EditorialSection tone="navy-dark">
+        <SectionHeader
+          tone="navy-dark"
+          eyebrow="From the news to your deal"
+          title={
+            <>
+              Reading the market
+              <br />
+              <span className="italic" style={{ color: "var(--gold-light)" }}>
+                is the easy half.
+              </span>
+            </>
+          }
+          body="Structuring a facility against what the market is doing is the other half. Send us the outline and we come back with indicative pricing inside a working day."
+        />
+        <div className="mt-12 flex flex-wrap items-center gap-5">
+          <CTAButton href="/deal-room" variant="gold" size="lg">
+            Start a deal
+          </CTAButton>
+          <a
+            href={`tel:${CONTACT.phoneRaw}`}
+            className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+            style={{ color: "oklch(1 0 0 / 0.95)" }}
+          >
+            Or call {CONTACT.phone}
+          </a>
+        </div>
+      </EditorialSection>
     </>
   );
 }

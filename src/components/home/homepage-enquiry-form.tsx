@@ -36,7 +36,8 @@ export function HomepageEnquiryForm() {
       setErrors((prev) => {
         const next = { ...prev };
         delete next[field];
-        return next;
+        
+return next;
       });
     }
   }
@@ -53,7 +54,8 @@ export function HomepageEnquiryForm() {
     }
     if (!formData.phone.trim()) newErrors.phone = "Phone number is required";
     setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
+    
+return Object.keys(newErrors).length === 0;
   }
 
   async function handleSubmit(e: React.FormEvent) {
@@ -188,9 +190,9 @@ export function HomepageEnquiryForm() {
         <Button
           type="submit"
           disabled={isSubmitting}
-          className="cta-shimmer bg-gold text-navy-dark hover:bg-gold-dark h-12 w-full rounded-none text-sm font-black uppercase tracking-[0.2em] transition-all duration-200 hover:scale-[1.01] hover:shadow-[0_0_40px_oklch(0.75_0.12_85/0.2)] sm:w-auto sm:px-16"
+          className="bg-gold text-navy-dark hover:bg-gold-light h-12 w-full rounded-none text-[13px] font-semibold uppercase tracking-[0.2em] transition-colors sm:w-auto sm:px-14"
         >
-          {isSubmitting ? "Sending..." : "Get Indicative Terms"}
+          {isSubmitting ? "Sending\u2026" : "Request indicative terms"}
           {!isSubmitting && <ArrowRight className="ml-2 h-4 w-4" />}
         </Button>
       </div>

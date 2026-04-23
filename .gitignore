@@ -40,6 +40,14 @@ next-env.d.ts
 
 # development screenshots (root level)
 /*.png
+/*.jpg
+/*.jpeg
+
+# ad-hoc coverage/report exports
+/planning-coverage.csv
+
+# Remotion side-project — commit separately later
+/remotion/
 
 # Local Netlify folder
 .netlify
@@ -64,3 +72,14 @@ gsc-oauth-credentials.json
 # Generated sitemaps
 /public/sitemap.xml
 /public/sitemaps/
+
+# Lead-gen / ops outputs — produced by scripts, NOT read by the site at build time
+/data/generated/press-packages/
+/data/generated/press-outreach/
+/data/generated/serp-analysis/
+/data/generated/social-content/
+/data/generated/developer-prospects/
+/data/generated/microsite-content/
+/data/generated/guide-drafts/
+/data/generated/news-runs/
+/data/generated/orchestration-logs/

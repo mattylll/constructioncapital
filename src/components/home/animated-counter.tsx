@@ -32,7 +32,8 @@ export function AnimatedCounter({
           const numericValue = parseInt(value.replace(/[^0-9]/g, ""), 10);
           if (isNaN(numericValue)) {
             setDisplayValue(value);
-            return;
+            
+return;
           }
 
           const duration = 1800;
@@ -58,7 +59,8 @@ export function AnimatedCounter({
     );
 
     observer.observe(el);
-    return () => observer.disconnect();
+    
+return () => observer.disconnect();
   }, [value, hasAnimated]);
 
   return (

@@ -7,8 +7,10 @@ export function calculateReadingTime(sections: GuideSection[]): string {
       (cSum, para) => cSum + para.split(/\s+/).length,
       0,
     );
-    return sum + headingWords + contentWords;
+    
+return sum + headingWords + contentWords;
   }, 0);
   const minutes = Math.max(1, Math.round(totalWords / 200));
-  return `${minutes} min read`;
+  
+return `${minutes} min read`;
 }

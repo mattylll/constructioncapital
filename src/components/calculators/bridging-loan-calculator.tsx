@@ -404,7 +404,8 @@ function CostBar({
   color: string;
 }) {
   const pct = total > 0 ? Math.min(100, (amount / total) * 100) : 0;
-  return (
+  
+return (
     <div>
       <div className="mb-1 flex justify-between text-xs">
         <span className="font-medium">{label}</span>

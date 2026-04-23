@@ -100,7 +100,8 @@ export async function POST(request: Request) {
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error("Lead submission error:", error);
-    return NextResponse.json(
+    
+return NextResponse.json(
       { error: "Failed to submit lead" },
       { status: 500 }
     );

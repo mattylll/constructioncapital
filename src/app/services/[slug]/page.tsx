@@ -1,37 +1,22 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import {
-  ArrowRight,
-  Check,
-  Building2,
-  Layers,
-  Clock,
-  Handshake,
-  Wrench,
-  Landmark,
-  LogOut,
-} from "lucide-react";
 
-import { Button } from "@/components/ui/button";
+import {
+  CTAButton,
+  EditorialSection,
+  Eyebrow,
+  PageHero,
+  ProseSection,
+  RelatedGrid,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 import { JsonLd } from "@/components/ui/json-ld";
 import { SERVICES, type Service } from "@/lib/services";
-import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
+import { CONTACT, SITE_NAME, SITE_URL } from "@/lib/constants";
 import { SERVICE_POPULAR_LOCATIONS } from "@/lib/location-content";
 import { SERVICE_PAGE_CONTENT } from "@/lib/service-page-content";
-import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
 import { getGuidesByService } from "@/lib/guides";
-
-const iconMap: Record<string, React.ElementType> = {
-  Building2,
-  Layers,
-  Clock,
-  Handshake,
-  Wrench,
-  Landmark,
-  LogOut,
-};
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -79,11 +64,10 @@ export default async function ServicePage({ params }: PageProps) {
     notFound();
   }
 
-  const Icon = iconMap[service.icon] || Building2;
   const relatedServices = content.relatedSlugs
     .map((s) => SERVICES.find((svc) => svc.slug === s))
     .filter(Boolean) as Service[];
-  const popularLocations = SERVICE_POPULAR_LOCATIONS[slug] || [];
+  const popularLocations = SERVICE_POPULAR_LOCATIONS[slug] ?? [];
   const relatedGuides = getGuidesByService(slug);
 
   // JSON-LD: FinancialService
@@ -99,19 +83,12 @@ export default async function ServicePage({ params }: PageProps) {
       url: SITE_URL,
       telephone: CONTACT.phoneRaw,
       email: CONTACT.email,
-      areaServed: {
-        "@type": "Country",
-        name: "United Kingdom",
-      },
+      areaServed: { "@type": "Country", name: "United Kingdom" },
     },
     serviceType: service.name,
-    areaServed: {
-      "@type": "Country",
-      name: "United Kingdom",
-    },
+    areaServed: { "@type": "Country", name: "United Kingdom" },
   };
 
-  // JSON-LD: FinancialProduct
   const financialProductJsonLd = {
     "@context": "https://schema.org",
     "@type": "FinancialProduct",
@@ -127,48 +104,26 @@ export default async function ServicePage({ params }: PageProps) {
     },
     ...(service.typicalRate && { annualPercentageRate: service.typicalRate }),
     ...(service.typicalTerm && { loanTerm: service.typicalTerm }),
-    areaServed: {
-      "@type": "Country",
-      name: "United Kingdom",
-    },
+    areaServed: { "@type": "Country", name: "United Kingdom" },
   };
 
-  // JSON-LD: FAQPage
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     mainEntity: content.faqs.map((faq) => ({
       "@type": "Question",
       name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
+      acceptedAnswer: { "@type": "Answer", text: faq.answer },
     })),
   };
 
-  // JSON-LD: BreadcrumbList
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: SITE_URL,
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: "Services",
-        item: `${SITE_URL}/services`,
-      },
-      {
-        "@type": "ListItem",
-        position: 3,
-        name: service.name,
-      },
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Services", item: `${SITE_URL}/services` },
+      { "@type": "ListItem", position: 3, name: service.name },
     ],
   };
 
@@ -179,509 +134,302 @@ export default async function ServicePage({ params }: PageProps) {
       <JsonLd data={faqJsonLd} />
       <JsonLd data={breadcrumbJsonLd} />
 
-      {/* ━━━ HERO ━━━ */}
-      <section
-        className="noise-overlay relative overflow-hidden text-white"
-      >
-        {/* Background photo */}
-        {SITE_IMAGES[`service-${slug}`] && (
-          <Image
-            src={unsplashUrl(SITE_IMAGES[`service-${slug}`].id, 1920, 75)}
-            alt=""
-            fill
-            className="object-cover"
-            priority
-          />
-        )}
-        {/* Dark overlay */}
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(135deg, oklch(0.14 0.05 255 / 0.88) 0%, oklch(0.22 0.06 255 / 0.85) 50%, oklch(0.14 0.05 260 / 0.92) 100%)",
-          }}
-        />
-
-        <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
-          <div className="max-w-3xl">
-            {/* Breadcrumb */}
-            <nav className="mb-8 flex items-center gap-2 text-sm text-white/40">
-              <Link href="/" className="transition-colors hover:text-white/60">
-                Home
-              </Link>
-              <span>/</span>
-              <Link
-                href="/services"
-                className="transition-colors hover:text-white/60"
-              >
-                Services
-              </Link>
-              <span>/</span>
-              <span className="text-white/70">{service.name}</span>
-            </nav>
-
-            <div
-              className="mb-8 h-[2px] w-20"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-
-            <div
-              className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl"
-              style={{
-                background:
-                  "linear-gradient(135deg, oklch(0.75 0.12 85 / 0.15), oklch(0.75 0.12 85 / 0.05))",
-                border: "1px solid oklch(0.75 0.12 85 / 0.1)",
-              }}
+      <PageHero
+        tone="paper"
+        breadcrumbs={[
+          { label: "Home", href: "/" },
+          { label: "Services", href: "/services" },
+          { label: service.name },
+        ]}
+        eyebrow={service.name}
+        title={content.h1}
+        deck={content.heroSubtitle}
+        stats={[
+          { label: "Typical rate", value: service.typicalRate },
+          { label: "Leverage", value: service.typicalLtv },
+          { label: "Term", value: service.typicalTerm },
+        ]}
+        actions={
+          <div className="flex flex-wrap items-center gap-4">
+            <CTAButton href="/deal-room" variant="navy" size="lg">
+              Get terms
+            </CTAButton>
+            <a
+              href={`tel:${CONTACT.phoneRaw}`}
+              className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+              style={{ color: "var(--navy-dark)" }}
             >
-              <Icon className="h-6 w-6" style={{ color: "var(--gold)" }} />
-            </div>
-
-            <h1 className="text-4xl font-bold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
-              {content.h1}
-            </h1>
-
-            <p className="mt-7 max-w-xl text-lg leading-relaxed text-white/60">
-              {content.heroSubtitle}
-            </p>
-
-            {/* Key metrics */}
-            <div className="mt-10 flex flex-wrap gap-6">
-              <div>
-                <p
-                  className="text-xs font-bold uppercase tracking-wider"
-                  style={{ color: "var(--gold)" }}
-                >
-                  Rate
-                </p>
-                <p className="mt-1 text-lg font-bold">{service.typicalRate}</p>
-              </div>
-              <div
-                className="w-px"
-                style={{ background: "oklch(1 0 0 / 0.1)" }}
-              />
-              <div>
-                <p
-                  className="text-xs font-bold uppercase tracking-wider"
-                  style={{ color: "var(--gold)" }}
-                >
-                  LTV
-                </p>
-                <p className="mt-1 text-lg font-bold">{service.typicalLtv}</p>
-              </div>
-              <div
-                className="w-px"
-                style={{ background: "oklch(1 0 0 / 0.1)" }}
-              />
-              <div>
-                <p
-                  className="text-xs font-bold uppercase tracking-wider"
-                  style={{ color: "var(--gold)" }}
-                >
-                  Term
-                </p>
-                <p className="mt-1 text-lg font-bold">{service.typicalTerm}</p>
-              </div>
-            </div>
-
-            <div className="mt-10">
-              <Button
-                asChild
-                size="lg"
-                className="cta-shimmer h-14 bg-gold px-10 text-base font-bold text-navy-dark shadow-lg transition-all duration-300 hover:bg-gold-dark"
-              >
-                <Link href="/deal-room">
-                  Get a {service.name} Quote
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
-            </div>
+              Or call {CONTACT.phone}
+            </a>
           </div>
-        </div>
+        }
+      />
 
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[2px]"
-          style={{
-            background:
-              "linear-gradient(90deg, transparent, var(--gold), transparent)",
-            opacity: 0.3,
-          }}
-        />
-      </section>
-
-      {/* ━━━ CONTENT SECTIONS ━━━ */}
-      <section className="bg-background py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl space-y-16">
-            {content.sections.map((section) => (
-              <div key={section.title}>
-                <div
-                  className="mb-5 h-[2px] w-14"
-                  style={{
-                    background:
-                      "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                  }}
+      {/* ━━━ CONTENT SECTIONS (editorial prose) ━━━ */}
+      <EditorialSection tone="paper">
+        <div className="space-y-20">
+          {content.sections.map((section) => (
+            <ProseSection key={section.title} title={section.title}>
+              {section.paragraphs.map((paragraph, i) => (
+                <p
+                  key={i}
+                  className="[&_a]:editorial-link [&_a]:font-medium"
+                  style={{ color: "oklch(0.32 0.04 255)" }}
+                  dangerouslySetInnerHTML={{ __html: paragraph }}
                 />
-                <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
-                  {section.title}
-                </h2>
-                <div className="space-y-4">
-                  {section.paragraphs.map((p, i) => (
-                    <p
-                      key={i}
-                      className="text-base leading-relaxed text-muted-foreground [&_a]:font-medium [&_a]:text-foreground [&_a]:underline [&_a]:decoration-gold/40 [&_a]:underline-offset-2 hover:[&_a]:decoration-gold"
-                      dangerouslySetInnerHTML={{ __html: p }}
-                    />
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </ProseSection>
+          ))}
         </div>
-      </section>
+      </EditorialSection>
 
       {/* ━━━ USE CASES ━━━ */}
-      <section className="bg-muted/30 py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-12">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-              style={{ color: "var(--gold-dark)" }}
+      <EditorialSection tone="stone">
+        <SectionHeader
+          tone="stone"
+          eyebrow="Typical use cases"
+          title={`When ${service.name.toLowerCase()} fits.`}
+        />
+        <ul
+          className="mt-14 grid grid-cols-1 gap-px border-y sm:grid-cols-2"
+          style={{
+            borderColor: "var(--stone-dark)",
+            backgroundColor: "var(--stone-dark)",
+          }}
+        >
+          {content.useCases.map((useCase) => (
+            <li
+              key={useCase.title}
+              className="flex flex-col gap-3 p-8"
+              style={{ background: "var(--stone)" }}
             >
-              Typical Use Cases
-            </p>
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              When to Use {service.name}
-            </h2>
-          </div>
-
-          <div className="grid gap-6 sm:grid-cols-2">
-            {content.useCases.map((useCase) => (
-              <div
-                key={useCase.title}
-                className="flex items-start gap-4 rounded-xl border border-border/50 bg-card p-6 transition-all duration-300 hover:border-gold/20 hover:shadow-sm"
-              >
-                <div
-                  className="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, oklch(0.75 0.12 85 / 0.15), oklch(0.75 0.12 85 / 0.05))",
-                  }}
+              <div className="flex items-start gap-3">
+                <span
+                  aria-hidden
+                  className="mt-[0.55rem] block h-1 w-1 flex-shrink-0 rounded-full"
+                  style={{ background: "var(--gold)" }}
+                />
+                <h3
+                  className="font-heading text-lg font-medium leading-tight tracking-tight"
+                  style={{ color: "var(--navy-dark)" }}
                 >
-                  <Check
-                    className="h-4 w-4"
-                    style={{ color: "var(--gold-dark)" }}
-                  />
-                </div>
-                <div>
-                  <h3 className="text-base font-bold text-foreground">
-                    {useCase.title}
-                  </h3>
-                  <p className="mt-1 text-sm text-muted-foreground">
-                    {useCase.description}
-                  </p>
-                </div>
+                  {useCase.title}
+                </h3>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
+              <p
+                className="pl-4 text-[14px] leading-[1.55]"
+                style={{ color: "oklch(0.42 0.03 255)" }}
+              >
+                {useCase.description}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </EditorialSection>
 
       {/* ━━━ PROCESS ━━━ */}
-      <section className="bg-background py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-12">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-              style={{ color: "var(--gold-dark)" }}
+      <EditorialSection tone="paper">
+        <SectionHeader
+          tone="paper"
+          eyebrow="How it works"
+          title={`The ${service.name.toLowerCase()} process.`}
+        />
+        <ol
+          className="mt-14 grid grid-cols-1 gap-px border-y sm:grid-cols-2 lg:grid-cols-4"
+          style={{
+            borderColor: "var(--stone-dark)",
+            backgroundColor: "var(--stone-dark)",
+          }}
+        >
+          {content.processSteps.map((step, i) => (
+            <li
+              key={step.title}
+              className="flex flex-col gap-4 p-8"
+              style={{ background: "var(--paper)" }}
             >
-              How It Works
-            </p>
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              The {service.name} Process
-            </h2>
-          </div>
-
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {content.processSteps.map((step, i) => (
-              <div key={step.title} className="relative">
-                <div
-                  className="mb-4 flex h-10 w-10 items-center justify-center rounded-full text-sm font-bold"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, oklch(0.75 0.12 85 / 0.15), oklch(0.75 0.12 85 / 0.05))",
-                    border: "1px solid oklch(0.75 0.12 85 / 0.12)",
-                    color: "var(--gold-dark)",
-                  }}
-                >
-                  {i + 1}
-                </div>
-                <h3 className="mb-2 text-base font-bold text-foreground">
-                  {step.title}
-                </h3>
-                <p className="text-sm text-muted-foreground">
-                  {step.description}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+              <p
+                className="numeral-tabular font-heading text-4xl font-medium tracking-tight"
+                style={{ color: "var(--gold-dark)" }}
+              >
+                {String(i + 1).padStart(2, "0")}
+              </p>
+              <h3
+                className="font-heading text-xl font-medium leading-tight tracking-tight"
+                style={{ color: "var(--navy-dark)" }}
+              >
+                {step.title}
+              </h3>
+              <p
+                className="text-[14px] leading-[1.6]"
+                style={{ color: "oklch(0.42 0.03 255)" }}
+              >
+                {step.description}
+              </p>
+            </li>
+          ))}
+        </ol>
+      </EditorialSection>
 
       {/* ━━━ FAQ ━━━ */}
-      <section className="bg-muted/30 py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-12">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-              style={{ color: "var(--gold-dark)" }}
+      <EditorialSection tone="stone">
+        <SectionHeader
+          tone="stone"
+          eyebrow="Common questions"
+          title={`${service.name} FAQ.`}
+        />
+        <div
+          className="mt-14 border-t"
+          style={{ borderColor: "var(--stone-dark)" }}
+        >
+          {content.faqs.map((faq, index) => (
+            <details
+              key={index}
+              className="group border-b"
+              style={{ borderColor: "var(--stone-dark)" }}
             >
-              Common Questions
-            </p>
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              {service.name} FAQ
-            </h2>
-          </div>
-
-          <div className="mx-auto max-w-3xl space-y-0">
-              {content.faqs.map((faq, index) => (
-                <details
-                  key={index}
-                  className="group border-b border-border"
+              <summary
+                className="flex cursor-pointer items-start justify-between gap-6 py-6 text-left transition-colors [&::-webkit-details-marker]:hidden"
+              >
+                <span
+                  className="font-heading text-lg font-medium leading-snug tracking-tight"
+                  style={{ color: "var(--navy-dark)" }}
                 >
-                  <summary className="flex cursor-pointer items-center justify-between py-4 text-left text-base font-semibold transition-colors hover:text-foreground/80 [&::-webkit-details-marker]:hidden">
-                    {faq.question}
-                    <svg className="ml-2 h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
-                  </summary>
-                  <div className="pb-4 text-muted-foreground">
-                    {faq.answer}
-                  </div>
-                </details>
-              ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ━━━ LOCATION CROSS-LINKS ━━━ */}
-      {popularLocations.length > 0 && (
-        <section className="bg-background py-16 sm:py-20">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mb-8">
+                  {faq.question}
+                </span>
+                <svg
+                  className="mt-1 h-4 w-4 flex-shrink-0 transition-transform duration-200 group-open:rotate-180"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="var(--gold-dark)"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </summary>
               <div
-                className="mb-5 h-[2px] w-14"
-                style={{
-                  background:
-                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                }}
-              />
-              <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-                {service.name} by Location
-              </h2>
-              <p className="mt-3 text-muted-foreground">
-                We arrange {service.name.toLowerCase()} for projects across the
-                UK. Here are some of our most active areas.
-              </p>
-            </div>
+                className="pb-6 pr-10 text-[15px] leading-[1.7]"
+                style={{ color: "oklch(0.42 0.03 255)" }}
+              >
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </EditorialSection>
 
-            <div className="flex flex-wrap gap-3">
-              {popularLocations.map((loc) => (
-                <Link
-                  key={loc.town}
-                  href={`/locations/${loc.county}/${loc.town}/${slug}`}
-                  className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium text-foreground transition-all duration-200 hover:border-gold/30 hover:shadow-sm"
-                >
-                  {service.name} in {loc.label}
-                </Link>
-              ))}
-            </div>
+      {/* ━━━ LOCATIONS ━━━ */}
+      {popularLocations.length > 0 && (
+        <EditorialSection tone="paper">
+          <SectionHeader
+            tone="paper"
+            eyebrow="By location"
+            title={`${service.name} across the UK.`}
+            body={`We arrange ${service.name.toLowerCase()} for projects nationwide. A selection of our most active markets below.`}
+          />
+          <div className="mt-12 flex flex-wrap gap-3">
+            {popularLocations.map((loc) => (
+              <Link
+                key={loc.town}
+                href={`/locations/${loc.county}/${loc.town}/${slug}`}
+                className="group inline-flex items-center gap-2 border px-5 py-2.5 text-[14px] transition-colors hover:bg-[oklch(0.75_0.12_85/0.06)]"
+                style={{
+                  borderColor: "oklch(0.82 0.01 250)",
+                  color: "var(--navy-dark)",
+                }}
+              >
+                {service.name} in {loc.label}
+              </Link>
+            ))}
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* ━━━ RELATED GUIDES ━━━ */}
       {relatedGuides.length > 0 && (
-        <section className="bg-background py-16 sm:py-20">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mb-8">
-              <div
-                className="mb-5 h-[2px] w-14"
-                style={{
-                  background:
-                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                }}
-              />
-              <p
-                className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-                style={{ color: "var(--gold-dark)" }}
-              >
-                Expert Guides
-              </p>
-              <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-                {service.name} Guides
-              </h2>
-              <p className="mt-3 text-muted-foreground">
-                In-depth guides to help you navigate {service.name.toLowerCase()}{" "}
-                - from application to completion.
-              </p>
-            </div>
-
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {relatedGuides.map((guide) => (
-                <Link
-                  key={guide.slug}
-                  href={`/guides/${guide.slug}`}
-                  className="group rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30 hover:shadow-sm"
-                >
-                  <h3 className="mb-2 font-bold text-foreground group-hover:text-gold-dark transition-colors">
-                    {guide.title}
-                  </h3>
-                  <p className="mb-3 text-sm text-muted-foreground line-clamp-2">
-                    {guide.excerpt}
-                  </p>
-                  <span className="text-xs font-medium text-gold-dark">
-                    {guide.readingTime} read
-                  </span>
-                </Link>
-              ))}
-            </div>
-
-            <div className="mt-6">
-              <Button asChild variant="outline" size="sm">
-                <Link href="/guides">
-                  View All Guides
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-            </div>
+        <EditorialSection tone="stone">
+          <SectionHeader
+            tone="stone"
+            eyebrow="Further reading"
+            title={`${service.name} guides.`}
+            body={`In-depth coverage of ${service.name.toLowerCase()} — from application to completion.`}
+          />
+          <div className="mt-14">
+            <RelatedGrid
+              tone="stone"
+              items={relatedGuides.slice(0, 6).map((guide) => ({
+                href: `/guides/${guide.slug}`,
+                eyebrow: "Guide",
+                title: guide.title,
+                body: guide.excerpt,
+                meta: `${guide.readingTime} read`,
+              }))}
+            />
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* ━━━ RELATED SERVICES ━━━ */}
-      <section className="bg-muted/30 py-16 sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-8">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
+      {relatedServices.length > 0 && (
+        <EditorialSection tone="paper">
+          <SectionHeader
+            tone="paper"
+            eyebrow="Related products"
+            title="Often used alongside."
+            body={`Most schemes use a combination of products. These sit well alongside ${service.name.toLowerCase()} in the capital stack.`}
+          />
+          <div className="mt-14">
+            <RelatedGrid
+              tone="paper"
+              items={relatedServices.map((related) => ({
+                href: `/services/${related.slug}`,
+                eyebrow: "Service",
+                title: related.name,
+                body: related.shortDesc,
+                meta: `${related.typicalRate} · ${related.typicalLtv}`,
+              }))}
             />
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              Related Services
-            </h2>
-            <p className="mt-3 text-muted-foreground">
-              Most deals use a combination of products. These services are
-              commonly used alongside {service.name.toLowerCase()}.
-            </p>
           </div>
-
-          <div className="grid gap-6 sm:grid-cols-3">
-            {relatedServices.map((related) => {
-              const RelatedIcon = iconMap[related.icon] || Building2;
-              return (
-                <Link
-                  key={related.slug}
-                  href={`/services/${related.slug}`}
-                  className="group rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:border-gold/20 hover:shadow-md"
-                >
-                  <div
-                    className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl"
-                    style={{
-                      background:
-                        "linear-gradient(135deg, oklch(0.75 0.12 85 / 0.15), oklch(0.75 0.12 85 / 0.05))",
-                      border: "1px solid oklch(0.75 0.12 85 / 0.12)",
-                    }}
-                  >
-                    <RelatedIcon
-                      className="h-5 w-5"
-                      style={{ color: "var(--gold-dark)" }}
-                    />
-                  </div>
-                  <h3 className="text-lg font-bold text-foreground group-hover:text-gold-dark transition-colors">
-                    {related.name}
-                  </h3>
-                  <p className="mt-2 text-sm text-muted-foreground">
-                    {related.shortDesc}
-                  </p>
-                  <p
-                    className="mt-3 text-sm font-semibold"
-                    style={{ color: "var(--gold-dark)" }}
-                  >
-                    {related.typicalRate} · {related.typicalLtv}
-                  </p>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
+        </EditorialSection>
+      )}
 
       {/* ━━━ CTA ━━━ */}
-      <section className="relative overflow-hidden py-24 sm:py-32">
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(135deg, oklch(0.70 0.14 80) 0%, oklch(0.78 0.12 88) 50%, oklch(0.72 0.13 82) 100%)",
-          }}
+      <EditorialSection tone="navy-dark">
+        <SectionHeader
+          tone="navy-dark"
+          eyebrow="Start a deal"
+          title={
+            <>
+              Get {service.name.toLowerCase()}
+              <br />
+              <span className="italic" style={{ color: "var(--gold-light)" }}>
+                terms inside a day.
+              </span>
+            </>
+          }
+          body={
+            <>
+              Two minutes on a call or form. We come back with indicative
+              terms from the right lenders inside one working day &mdash; no
+              commitment, no hard credit search.
+            </>
+          }
         />
-        <div className="noise-overlay absolute inset-0" />
-
-        <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <h2
-            className="text-4xl font-bold tracking-tight sm:text-5xl"
-            style={{ color: "var(--navy-dark)" }}
+        <div className="mt-12 flex flex-wrap items-center gap-5">
+          <CTAButton href="/deal-room" variant="gold" size="lg">
+            Start a deal
+          </CTAButton>
+          <a
+            href={`tel:${CONTACT.phoneRaw}`}
+            className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+            style={{ color: "oklch(1 0 0 / 0.95)" }}
           >
-            Ready to Discuss
-            <br />
-            Your Project?
-          </h2>
-          <p
-            className="mx-auto mt-5 max-w-xl text-lg"
-            style={{ color: "var(--navy)", opacity: 0.6 }}
-          >
-            Submit your deal and receive indicative {service.name.toLowerCase()}{" "}
-            terms within 24 hours. No obligation, no fees until we deliver.
-          </p>
-          <div className="mt-10">
-            <Button
-              asChild
-              size="lg"
-              className="bg-navy text-white hover:bg-navy-dark h-14 px-12 text-base font-bold shadow-2xl transition-all duration-300 hover:scale-[1.02]"
-            >
-              <Link href="/deal-room">
-                Enter the Deal Room
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-          </div>
+            Or call {CONTACT.phone}
+          </a>
         </div>
-      </section>
+      </EditorialSection>
     </>
   );
 }

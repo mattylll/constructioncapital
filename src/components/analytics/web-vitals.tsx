@@ -8,7 +8,7 @@ export function WebVitals() {
 
     import("web-vitals").then(({ onCLS, onINP, onLCP, onFCP, onTTFB }) => {
       const send = (metric: { name: string; value: number; id: string }) => {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+         
         const w = window as any;
         if (typeof w.gtag === "function") {
           w.gtag("event", metric.name, {

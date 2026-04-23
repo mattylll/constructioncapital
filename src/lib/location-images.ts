@@ -81,8 +81,8 @@ const LOCATION_IMAGES: Record<string, LocationImage> = {
     alt: "Devon sandy beach coastline",
   },
   cornwall: {
-    id: "1623849778405-d4df0a84c16",
-    alt: "Aerial view of Cornish beach and coastline",
+    id: "1576154048132-c407eab9007e",
+    alt: "Sandy West Country beach and coastline",
   },
   somerset: {
     id: "1660404869698-82ff165782a1",
@@ -113,8 +113,8 @@ const LOCATION_IMAGES: Record<string, LocationImage> = {
     alt: "Glasgow skyline with modern architecture",
   },
   "tyne-and-wear": {
-    id: "1694475201512-8348865954c4",
-    alt: "Newcastle upon Tyne cityscape",
+    id: "1641379413799-720f9f6e9770",
+    alt: "North East England cathedral and riverside cityscape",
   },
   dorset: {
     id: "1683925482919-132f72778175",
@@ -187,8 +187,8 @@ const LOCATION_IMAGES: Record<string, LocationImage> = {
     alt: "Liverpool waterfront and skyline",
   },
   "tyne-and-wear/newcastle": {
-    id: "1694475201512-8348865954c4",
-    alt: "Newcastle upon Tyne cityscape",
+    id: "1641379413799-720f9f6e9770",
+    alt: "North East England cathedral and riverside cityscape",
   },
   "south-yorkshire/sheffield": {
     id: "1678486974989-70f082776cb2",
@@ -242,8 +242,8 @@ const LOCATION_IMAGES: Record<string, LocationImage> = {
 
 /** Default fallback image for locations without a specific photo */
 const DEFAULT_IMAGE: LocationImage = {
-  id: "1742457730978-f14425b8b428",
-  alt: "Residential houses on a Georgian crescent in the UK",
+  id: "1513635269975-59663e0ac1ad",
+  alt: "UK city skyline with residential and commercial buildings",
 };
 
 /**
@@ -324,8 +324,8 @@ export const SITE_IMAGES: Record<string, LocationImage> = {
     alt: "Property renovation interior works",
   },
   "guide-commercial": {
-    id: "1486325212027-8a9603917dc8",
-    alt: "Commercial office building exterior",
+    id: "1499958060387-dbdb8d0994fb",
+    alt: "Birmingham city centre commercial buildings",
   },
   "guide-general": {
     id: "1560520653-9e0e4c89eb11",
@@ -336,12 +336,12 @@ export const SITE_IMAGES: Record<string, LocationImage> = {
     alt: "Financial documents and calculator",
   },
   "guide-defaults": {
-    id: "1450101499-f7e1f2b8a4e7",
-    alt: "Distressed property exterior",
+    id: "1513635269975-59663e0ac1ad",
+    alt: "UK city skyline with residential buildings",
   },
   "guide-valuations": {
-    id: "1560520031-3b0c48c048b3",
-    alt: "Surveyor assessing property value",
+    id: "1683459269288-63ce626a67f2",
+    alt: "Leeds city centre with clock tower building",
   },
   "guide-legal": {
     id: "1589829545856-d10d557cf95f",
@@ -360,8 +360,8 @@ export const SITE_IMAGES: Record<string, LocationImage> = {
     alt: "UK property market aerial view",
   },
   "guide-comparison": {
-    id: "1454165804-1bbd613a7217",
-    alt: "Side by side property comparison",
+    id: "1612436410902-e7123c3101d2",
+    alt: "Colourful terraced houses on the Bristol harbourside",
   },
 };
 
@@ -377,7 +377,8 @@ export function getLocationImage(
     if (LOCATION_IMAGES[townKey]) return LOCATION_IMAGES[townKey];
   }
   if (LOCATION_IMAGES[countySlug]) return LOCATION_IMAGES[countySlug];
-  return DEFAULT_IMAGE;
+  
+return DEFAULT_IMAGE;
 }
 
 /**

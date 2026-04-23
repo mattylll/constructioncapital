@@ -11,6 +11,8 @@ import { STRUCTURING_GUIDES } from "./structuring";
 import { MARKET_GUIDES } from "./market";
 import { SEGMENTS_GUIDES } from "./segments";
 
+import { CONTENT_GAP_WAVE_1_GUIDES } from "./content-gap-wave-1";
+
 export const GUIDES = [
   ...COMPARISON_GUIDES,
   ...EXISTING_GUIDES,
@@ -22,6 +24,7 @@ export const GUIDES = [
   ...STRUCTURING_GUIDES,
   ...MARKET_GUIDES,
   ...SEGMENTS_GUIDES,
+  ...CONTENT_GAP_WAVE_1_GUIDES,
 ];
 
 export function getGuideBySlug(slug: string) {
@@ -31,7 +34,8 @@ export function getGuideBySlug(slug: string) {
 export function getRelatedGuides(currentSlug: string) {
   const current = getGuideBySlug(currentSlug);
   if (!current) return [];
-  return current.relatedSlugs
+  
+return current.relatedSlugs
     .map((s) => getGuideBySlug(s))
     .filter((g): g is NonNullable<typeof g> => g !== undefined);
 }

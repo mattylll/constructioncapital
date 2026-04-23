@@ -41,7 +41,8 @@ function formatGBP(amount: number): string {
 
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);
-  return d.toLocaleDateString("en-GB", {
+  
+return d.toLocaleDateString("en-GB", {
     day: "numeric",
     month: "short",
     year: "numeric",

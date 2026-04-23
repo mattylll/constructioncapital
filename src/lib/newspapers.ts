@@ -63,7 +63,8 @@ function loadDatabase(): NewspaperDatabase {
   const filePath = path.join(process.cwd(), "data", "newspapers.json");
   const content = fs.readFileSync(filePath, "utf-8");
   _db = JSON.parse(content) as NewspaperDatabase;
-  return _db;
+  
+return _db;
 }
 
 // ── Lookup Functions ───────────────────────────────────────────
@@ -72,7 +73,8 @@ function loadDatabase(): NewspaperDatabase {
 export function getNewspapersByCounty(county: string): Newspaper[] {
   const db = loadDatabase();
   const normalised = county.toLowerCase();
-  return db.newspapers.filter(
+  
+return db.newspapers.filter(
     (n) => n.county.toLowerCase() === normalised
   );
 }
@@ -81,7 +83,8 @@ export function getNewspapersByCounty(county: string): Newspaper[] {
 export function getNewspapersByTown(townName: string): Newspaper[] {
   const db = loadDatabase();
   const normalised = townName.toLowerCase();
-  return db.newspapers.filter((n) =>
+  
+return db.newspapers.filter((n) =>
     n.keyTowns.some((t) => t.toLowerCase() === normalised)
   );
 }
@@ -90,7 +93,8 @@ export function getNewspapersByTown(townName: string): Newspaper[] {
 export function getPropertyJournalistsByCounty(county: string): Journalist[] {
   const db = loadDatabase();
   const normalised = county.toLowerCase();
-  return db.propertyJournalists.filter(
+  
+return db.propertyJournalists.filter(
     (j) => j.county.toLowerCase() === normalised
   );
 }
@@ -99,7 +103,8 @@ export function getPropertyJournalistsByCounty(county: string): Journalist[] {
 export function getFinanceJournalistsByCounty(county: string): Journalist[] {
   const db = loadDatabase();
   const normalised = county.toLowerCase();
-  return db.financeJournalists.filter(
+  
+return db.financeJournalists.filter(
     (j) => j.county.toLowerCase() === normalised
   );
 }
@@ -108,7 +113,8 @@ export function getFinanceJournalistsByCounty(county: string): Journalist[] {
 export function getPropertyJournalistsByTown(townName: string): Journalist[] {
   const db = loadDatabase();
   const normalised = townName.toLowerCase();
-  return db.propertyJournalists.filter((j) =>
+  
+return db.propertyJournalists.filter((j) =>
     j.keyTowns.some((t) => t.toLowerCase() === normalised)
   );
 }
@@ -117,7 +123,8 @@ export function getPropertyJournalistsByTown(townName: string): Journalist[] {
 export function getFinanceJournalistsByTown(townName: string): Journalist[] {
   const db = loadDatabase();
   const normalised = townName.toLowerCase();
-  return db.financeJournalists.filter((j) =>
+  
+return db.financeJournalists.filter((j) =>
     j.keyTowns.some((t) => t.toLowerCase() === normalised)
   );
 }
@@ -129,13 +136,15 @@ export function getTownPopulation(townName: string): number | null {
   const entry = db.townsReference.find(
     (t) => t.town.toLowerCase() === normalised
   );
-  return entry?.population ?? null;
+  
+return entry?.population ?? null;
 }
 
 /** Get all database stats */
 export function getDatabaseStats() {
   const db = loadDatabase();
-  return {
+  
+return {
     newspaperCount: db.newspapers.length,
     propertyJournalistCount: db.propertyJournalists.length,
     financeJournalistCount: db.financeJournalists.length,

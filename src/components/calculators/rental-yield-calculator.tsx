@@ -10,9 +10,7 @@ import {
   formatGBP,
   formatPercent,
   formatCurrencyInput,
-} from "@/components/calculators/shared";
-import { DealRoomCta } from "@/components/calculators/shared";
-import { Disclaimer } from "@/components/calculators/shared";
+ DealRoomCta , Disclaimer } from "@/components/calculators/shared";
 
 interface Inputs {
   propertyPrice: string;
@@ -318,7 +316,8 @@ function YieldBar({
   color: string;
 }) {
   const pct = maxValue > 0 ? Math.min(100, (value / maxValue) * 100) : 0;
-  return (
+  
+return (
     <div>
       <div className="mb-1 flex justify-between text-xs">
         <span className="font-medium">{label}</span>

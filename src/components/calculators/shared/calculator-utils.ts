@@ -16,5 +16,6 @@ export function formatPercent(value: number): string {
 
 export function formatCurrencyInput(raw: string): string {
   const digits = raw.replace(/[^0-9]/g, "");
-  return digits ? parseInt(digits, 10).toLocaleString("en-GB") : "";
+  
+return digits ? parseInt(digits, 10).toLocaleString("en-GB") : "";
 }

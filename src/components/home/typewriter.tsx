@@ -26,7 +26,8 @@ export function Typewriter({
     if (currentLine >= lines.length) {
       // Done typing - blink cursor then hide
       const blinkTimeout = setTimeout(() => setShowCursor(false), 2000);
-      return () => clearTimeout(blinkTimeout);
+      
+return () => clearTimeout(blinkTimeout);
     }
 
     const line = lines[currentLine];
@@ -36,11 +37,13 @@ export function Typewriter({
         setDisplayedLines((prev) => {
           const updated = [...prev];
           updated[currentLine] = line.slice(0, currentChar + 1);
-          return updated;
+          
+return updated;
         });
         setCurrentChar((c) => c + 1);
       }, speed);
-      return () => clearTimeout(timeout);
+      
+return () => clearTimeout(timeout);
     } else {
       // Line complete - move to next after delay
       const timeout = setTimeout(() => {
@@ -48,7 +51,8 @@ export function Typewriter({
         setCurrentChar(0);
         setDisplayedLines((prev) => [...prev, ""]);
       }, lineDelay);
-      return () => clearTimeout(timeout);
+      
+return () => clearTimeout(timeout);
     }
   }, [currentLine, currentChar, lines, speed, lineDelay]);
 
@@ -62,7 +66,8 @@ export function Typewriter({
   useEffect(() => {
     if (!showCursor) return;
     const interval = setInterval(() => setCursorVisible((v) => !v), 530);
-    return () => clearInterval(interval);
+    
+return () => clearInterval(interval);
   }, [showCursor]);
 
   return (

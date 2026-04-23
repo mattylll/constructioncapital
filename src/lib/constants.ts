@@ -1,13 +1,21 @@
 export const SITE_NAME = "Construction Capital";
 export const SITE_URL = "https://constructioncapital.co.uk";
 export const SITE_DESCRIPTION =
-  "Expert development finance brokerage with 25+ years experience. Access senior debt, mezzanine, bridging loans and equity for property developments across the UK.";
+  "Independent UK development finance brokerage led by Matt Lenzie — 25+ years arranging senior debt, mezzanine, bridging and equity for property developers.";
 
 export const CONTACT = {
   email: "matt.lenzie@construction-capital.co.uk",
   phone: "+44 20 3816 3693",
   phoneRaw: "+442038163693",
   address: "London, United Kingdom",
+} as const;
+
+export const LEGAL_ENTITY = {
+  name: "Lenzie Consulting Ltd",
+  companyNumber: "08174104",
+  tradingAs: "Construction Capital",
+  registeredOffice: "Lynch Farm, Kensworth, Dunstable, LU6 3QZ",
+  jurisdiction: "England & Wales",
 } as const;
 
 export const STATS = {

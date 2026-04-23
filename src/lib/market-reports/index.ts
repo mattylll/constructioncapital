@@ -162,7 +162,8 @@ export function getReportByTownSlug(countySlug: string, townSlug: string): Marke
 export function getRelatedReports(slug: string): MarketReport[] {
   const report = slugMap.get(slug);
   if (!report) return [];
-  return report.relatedReportSlugs
+  
+return report.relatedReportSlugs
     .map((s) => slugMap.get(s))
     .filter((r): r is MarketReport => r !== undefined)
     .slice(0, 5);
@@ -178,5 +179,6 @@ export function getReportsByRegion(region: string): MarketReport[] {
 
 export function getAllRegions(): string[] {
   const regions = new Set(MARKET_REPORTS.map((r) => r.region).filter(Boolean) as string[]);
-  return [...regions].sort();
+  
+return [...regions].sort();
 }

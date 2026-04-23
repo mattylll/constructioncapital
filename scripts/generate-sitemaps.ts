@@ -102,6 +102,24 @@ function buildStatic(): SitemapUrl[] {
       changefreq: "monthly",
       priority: 0.8,
     },
+    {
+      url: `${SITE_URL}/contact`,
+      lastmod: today,
+      changefreq: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/privacy`,
+      lastmod: today,
+      changefreq: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: `${SITE_URL}/terms`,
+      lastmod: today,
+      changefreq: "yearly",
+      priority: 0.3,
+    },
     // Case study detail pages
     ...CASE_STUDIES.map((cs) => ({
       url: `${SITE_URL}/case-studies/${cs.slug}`,

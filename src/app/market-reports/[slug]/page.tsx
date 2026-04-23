@@ -5,6 +5,7 @@ import { ArrowRight, ArrowLeft, Clock, BarChart3, MapPin } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/ui/json-ld";
+import { PageHero } from "@/components/editorial/primitives";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import {
   MARKET_REPORTS,
@@ -152,137 +153,26 @@ export default async function MarketReportPage({ params }: PageProps) {
       <JsonLd data={breadcrumbJsonLd} />
       {faqJsonLd && <JsonLd data={faqJsonLd} />}
 
-      {/* Hero */}
-      <section
-        className="noise-overlay relative overflow-hidden py-20 text-white sm:py-28"
-        style={{
-          background:
-            "linear-gradient(135deg, oklch(0.14 0.05 255) 0%, oklch(0.22 0.06 255) 50%, oklch(0.14 0.05 260) 100%)",
-        }}
-      >
-        <div className="pointer-events-none absolute inset-0 opacity-[0.03]">
-          <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <pattern
-                id="mr-grid"
-                width="60"
-                height="60"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 60 0 L 0 0 0 60"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#mr-grid)" />
-          </svg>
-        </div>
-
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Breadcrumbs */}
-          <nav className="mb-8">
-            <ol className="flex items-center gap-2 text-sm text-white/40">
-              <li>
-                <Link href="/" className="hover:text-white/70">
-                  Home
-                </Link>
-              </li>
-              <li>/</li>
-              <li>
-                <Link href="/market-reports" className="hover:text-white/70">
-                  Market Reports
-                </Link>
-              </li>
-              <li>/</li>
-              <li className="text-white/60">{report.title.split(":")[0]}</li>
-            </ol>
-          </nav>
-
-          <div
-            className="mb-8 h-[2px] w-20"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
-
-          <div className="mb-5 flex items-center gap-3">
-            <span
-              className="flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-bold"
-              style={{
-                backgroundColor: "oklch(1 0 0 / 0.08)",
-                color: "var(--gold)",
-              }}
-            >
-              {report.category === "county" && (
-                <MapPin className="h-3 w-3" />
-              )}
-              {report.category === "regional" && (
-                <BarChart3 className="h-3 w-3" />
-              )}
-              {report.category.charAt(0).toUpperCase() +
-                report.category.slice(1)}{" "}
-              Report
-            </span>
-            <span className="flex items-center gap-1 text-xs font-bold text-white/50">
-              <Clock className="h-3.5 w-3.5" />
-              {report.readingTime}
-            </span>
-            <span className="text-xs text-white/30">
-              Updated{" "}
-              {new Date(report.dateModified).toLocaleDateString("en-GB", {
-                month: "long",
-                year: "numeric",
-              })}
-            </span>
-          </div>
-
-          <h1 className="max-w-4xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl">
-            {report.title}
-          </h1>
-
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/60">
-            {report.excerpt}
-          </p>
-
-          <div className="mt-8 flex flex-wrap items-center gap-4 border-t border-white/10 pt-6">
-            <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gold/20 text-sm font-bold text-gold">
-                ML
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-white/80">
-                  Matt Lenzie
-                </p>
-                <p className="text-xs text-white/40">
-                  Founder, Construction Capital
-                </p>
-              </div>
-            </div>
-            <span className="hidden h-4 w-px bg-white/20 sm:block" />
-            <p className="text-xs text-white/40">
-              Published{" "}
-              {new Date(report.datePublished).toLocaleDateString("en-GB", {
-                day: "numeric",
-                month: "long",
-                year: "numeric",
-              })}
-            </p>
-          </div>
-        </div>
-
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[2px]"
-          style={{
-            background:
-              "linear-gradient(90deg, transparent 0%, var(--gold) 20%, var(--gold) 80%, transparent 100%)",
-            opacity: 0.35,
-          }}
-        />
-      </section>
+      <PageHero
+        tone="paper"
+        breadcrumbs={[
+          { label: "Home", href: "/" },
+          { label: "Market Reports", href: "/market-reports" },
+          { label: report.title.split(":")[0] },
+        ]}
+        eyebrow={
+          <>
+            {report.category.charAt(0).toUpperCase() + report.category.slice(1)} report &middot;{" "}
+            {report.readingTime} read &middot; Updated{" "}
+            {new Date(report.dateModified).toLocaleDateString("en-GB", {
+              month: "long",
+              year: "numeric",
+            })}
+          </>
+        }
+        title={report.title}
+        deck={report.excerpt}
+      />
 
       {/* Article Content */}
       <section className="bg-background py-16 sm:py-20">
@@ -329,7 +219,8 @@ export default async function MarketReportPage({ params }: PageProps) {
                     <div className="space-y-4 text-base leading-relaxed text-muted-foreground [&_a]:font-medium [&_a]:text-gold-dark [&_a]:no-underline hover:[&_a]:text-gold [&_strong]:font-semibold [&_strong]:text-foreground [&_table]:my-6 [&_table]:w-full [&_table]:text-sm [&_td]:border [&_td]:border-border [&_td]:px-3 [&_td]:py-2 [&_th]:border [&_th]:border-border [&_th]:bg-muted/50 [&_th]:px-3 [&_th]:py-2 [&_th]:text-left [&_th]:font-semibold [&_th]:text-foreground [&_ul]:my-4 [&_ul]:space-y-2 [&_ul]:pl-0 [&_li]:pl-0 [&_li]:text-muted-foreground">
                       {section.content.map((paragraph, j) => {
                         const isBlock = paragraph.startsWith("<table") || paragraph.startsWith("<ul") || paragraph.startsWith("<ol");
-                        return isBlock ? (
+                        
+return isBlock ? (
                           <div
                             key={j}
                             className="overflow-x-auto"
@@ -410,7 +301,8 @@ export default async function MarketReportPage({ params }: PageProps) {
                   </Link>
                   {report.relatedTownSlugs.slice(0, 6).map((ts) => {
                     const [, town] = ts.split("/");
-                    return (
+                    
+return (
                       <Link
                         key={ts}
                         href={`/locations/${ts}`}

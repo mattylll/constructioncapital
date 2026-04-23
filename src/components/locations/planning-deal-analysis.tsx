@@ -22,12 +22,14 @@ interface PlanningDealAnalysisProps {
 function formatGBP(amount: number): string {
   if (amount >= 1_000_000) {
     const m = amount / 1_000_000;
-    return `£${m % 1 === 0 ? m.toFixed(0) : m.toFixed(1)}M`;
+    
+return `£${m % 1 === 0 ? m.toFixed(0) : m.toFixed(1)}M`;
   }
   if (amount >= 1_000) {
     return `£${Math.round(amount / 1_000)}k`;
   }
-  return `£${amount.toLocaleString("en-GB")}`;
+  
+return `£${amount.toLocaleString("en-GB")}`;
 }
 
 function formatGBPFull(amount: number): string {
@@ -61,7 +63,8 @@ function classifyScheme(app: PlanningApp): {
         financeSlug: "refurbishment-finance",
       };
     }
-    return {
+    
+return {
       type: "pd-conversion",
       label: "Permitted Development Conversion",
       financeProduct: "Refurbishment Finance",
@@ -92,7 +95,8 @@ function classifyScheme(app: PlanningApp): {
       financeSlug: "development-finance",
     };
   }
-  return {
+  
+return {
     type: "small-residential",
     label: "Small-Scale Development",
     financeProduct: "Development Finance",

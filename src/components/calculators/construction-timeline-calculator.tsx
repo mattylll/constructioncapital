@@ -7,9 +7,7 @@ import { Label } from "@/components/ui/label";
 
 import {
   formatPercent,
-} from "@/components/calculators/shared";
-import { DealRoomCta } from "@/components/calculators/shared";
-import { Disclaimer } from "@/components/calculators/shared";
+ DealRoomCta , Disclaimer } from "@/components/calculators/shared";
 
 /* ------------------------------------------------------------------ */
 /*  Types                                                              */
@@ -123,7 +121,8 @@ export function ConstructionTimelineCalculator() {
     const phasesWithStart = phases.map((p) => {
       const start = cumulativeStart;
       cumulativeStart += p.months;
-      return { ...p, start };
+      
+return { ...p, start };
     });
 
     return {

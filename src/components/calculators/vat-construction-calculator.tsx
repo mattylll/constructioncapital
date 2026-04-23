@@ -11,9 +11,7 @@ import {
   formatGBP,
   formatPercent,
   formatCurrencyInput,
-} from "@/components/calculators/shared";
-import { DealRoomCta } from "@/components/calculators/shared";
-import { Disclaimer } from "@/components/calculators/shared";
+ DealRoomCta , Disclaimer } from "@/components/calculators/shared";
 
 /* ------------------------------------------------------------------ */
 /*  Types                                                              */

@@ -57,7 +57,8 @@ export function GuidesGrid({
         </button>
         {activeCategories.map((cat) => {
           const count = guides.filter((g) => g.category === cat).length;
-          return (
+          
+return (
             <button
               key={cat}
               onClick={() => setActive(cat)}

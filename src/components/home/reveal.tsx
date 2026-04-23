@@ -30,7 +30,8 @@ export function Reveal({
     );
 
     observer.observe(el);
-    return () => observer.disconnect();
+    
+return () => observer.disconnect();
   }, [delay]);
 
   return (

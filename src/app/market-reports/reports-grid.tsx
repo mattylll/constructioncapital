@@ -32,7 +32,8 @@ export function ReportsGrid({ reports }: { reports: MarketReport[] }) {
   const filtered = reports.filter((r) => {
     if (activeCategory !== "all" && r.category !== activeCategory) return false;
     if (activeRegion !== "all" && r.region !== activeRegion) return false;
-    return true;
+    
+return true;
   });
 
   return (
@@ -54,7 +55,8 @@ export function ReportsGrid({ reports }: { reports: MarketReport[] }) {
         </button>
         {(["county", "town", "regional", "thematic"] as ReportCategory[]).map((cat) => {
           const count = reports.filter((r) => r.category === cat).length;
-          return (
+          
+return (
             <button
               key={cat}
               onClick={() => {
@@ -106,7 +108,8 @@ export function ReportsGrid({ reports }: { reports: MarketReport[] }) {
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {filtered.map((report) => {
           const Icon = categoryIcons[report.category];
-          return (
+          
+return (
             <Link
               key={report.slug}
               href={`/market-reports/${report.slug}`}

@@ -65,7 +65,8 @@ export default function AnalyticsDashboard() {
         setToken(saved);
         setIsAuthed(true);
       }
-      return;
+      
+return;
     }
     analytics.sites().then((s) => {
       setSites(s);
@@ -117,7 +118,8 @@ export default function AnalyticsDashboard() {
     const interval = setInterval(() => {
       analytics.live(selectedSite).then((l) => setLiveCount(l.active));
     }, 30000);
-    return () => clearInterval(interval);
+    
+return () => clearInterval(interval);
   }, [isAuthed, selectedSite]);
 
   if (!isAuthed) {
@@ -331,7 +333,8 @@ export default function AnalyticsDashboard() {
                         deviceIcons[d.device as keyof typeof deviceIcons] || Monitor;
                       const total = devices.reduce((s, x) => s + x.visitors, 0);
                       const pct = total > 0 ? Math.round((d.visitors / total) * 100) : 0;
-                      return (
+                      
+return (
                         <div key={d.device} className="space-y-1">
                           <div className="flex items-center justify-between text-sm">
                             <div className="flex items-center gap-2 text-white/80">
@@ -368,7 +371,8 @@ export default function AnalyticsDashboard() {
                         ...scrollData.map((s) => s.count),
                         1
                       );
-                      return (
+                      
+return (
                         <div key={depth} className="flex items-center gap-3">
                           <span className="w-10 text-xs text-white/40">
                             {depth}%

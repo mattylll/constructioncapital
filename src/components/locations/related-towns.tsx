@@ -19,7 +19,8 @@ function formatPrice(amount: number): string {
   if (amount >= 1_000_000) {
     return `£${(amount / 1_000_000).toFixed(1)}M`;
   }
-  return `£${amount.toLocaleString("en-GB")}`;
+  
+return `£${amount.toLocaleString("en-GB")}`;
 }
 
 export function RelatedTowns({

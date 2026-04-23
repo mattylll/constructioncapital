@@ -8,6 +8,7 @@ import { RelatedServices } from "@/components/locations/related-services";
 import { RelatedTowns } from "@/components/locations/related-towns";
 import { LocationCTA } from "@/components/locations/location-cta";
 import { JsonLd } from "@/components/ui/json-ld";
+import { CTAButton, PageHero } from "@/components/editorial/primitives";
 import { SERVICES, type Service } from "@/lib/services";
 import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 import { getCaseStudiesByCountyAndService, getCaseStudiesByCounty } from "@/lib/case-studies";
@@ -280,114 +281,36 @@ export default async function ServicePage({ params }: PageProps) {
       <JsonLd data={faqJsonLd} />
       <JsonLd data={financialServiceJsonLd} />
 
-      {/* Hero Section */}
-      <section className="hero-gradient noise-overlay relative overflow-hidden py-20 text-white sm:py-28">
-        {/* Architectural grid background */}
-        <div className="pointer-events-none absolute inset-0">
-          <svg
-            className="h-full w-full opacity-[0.035]"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <defs>
-              <pattern
-                id="service-hero-grid"
-                width="80"
-                height="80"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 80 0 L 0 0 0 80"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#service-hero-grid)" />
-          </svg>
-        </div>
-
-        {/* Radial glow */}
-        <div
-          className="pointer-events-none absolute left-1/4 top-1/2 -translate-y-1/2"
-          style={{
-            width: "600px",
-            height: "500px",
-            background:
-              "radial-gradient(ellipse, oklch(0.75 0.12 85 / 0.08) 0%, transparent 60%)",
-          }}
-        />
-
-        {/* Diagonal gold beam */}
-        <div
-          className="pointer-events-none absolute -right-40 top-0 h-[160%] w-[2px] origin-top-right rotate-[22deg]"
-          style={{
-            background:
-              "linear-gradient(180deg, transparent 0%, var(--gold) 30%, var(--gold) 50%, transparent 100%)",
-            opacity: 0.12,
-          }}
-        />
-
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Breadcrumbs */}
-          <div className="mb-8">
-            <Breadcrumbs items={breadcrumbItems} />
-          </div>
-
-          {/* Gold rule */}
-          <div
-            className="mb-8 h-[2px] w-20"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
-
-          <p
-            className="mb-5 text-xs font-bold uppercase tracking-[0.35em] sm:text-sm"
-            style={{ color: "var(--gold)" }}
-          >
-            {townName}, {countyName}
-          </p>
-
-          <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl">
-            <span className="gold-gradient-text italic">{h1Parts[0]}</span>
+      <PageHero
+        tone="paper"
+        breadcrumbs={breadcrumbItems}
+        eyebrow={`${townName}, ${countyName}`}
+        title={
+          <>
+            <span className="italic" style={{ color: "var(--navy)" }}>{h1Parts[0]}</span>
             <br />
             {h1Parts[1]}
-          </h1>
-
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/60 sm:text-xl">
-            {serviceData?.longDesc ||
-              `Expert ${serviceName.toLowerCase()} for property developers in ${townName}. We connect you with competitive funding from our panel of 100+ lenders.`}
-          </p>
-
-          <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
-            <Button
-              asChild
-              size="lg"
-              className="cta-shimmer h-14 bg-gold px-10 text-base font-bold text-navy-dark shadow-lg transition-all duration-300 hover:bg-gold-dark"
+          </>
+        }
+        deck={
+          serviceData?.longDesc ||
+          `Expert ${serviceName.toLowerCase()} for property developers in ${townName}. We connect you with competitive funding from our panel of 100+ lenders.`
+        }
+        actions={
+          <div className="flex flex-wrap items-center gap-4">
+            <CTAButton href="/deal-room" variant="navy" size="lg">
+              Get {serviceName.toLowerCase()} terms
+            </CTAButton>
+            <a
+              href={`tel:${CONTACT.phoneRaw}`}
+              className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+              style={{ color: "var(--navy-dark)" }}
             >
-              <Link href="/deal-room">
-                Get {serviceName} Quote
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-            <span className="text-sm text-white/40">
-              Indicative terms within 24 hours
-            </span>
+              Or call {CONTACT.phone}
+            </a>
           </div>
-        </div>
-
-        {/* Bottom gold edge */}
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[2px]"
-          style={{
-            background:
-              "linear-gradient(90deg, transparent 0%, var(--gold) 20%, var(--gold) 80%, transparent 100%)",
-            opacity: 0.35,
-          }}
-        />
-      </section>
+        }
+      />
 
       {/* Location Hero Image */}
       <LocationHeroImage

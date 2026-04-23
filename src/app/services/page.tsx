@@ -1,36 +1,23 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
-import {
-  Building2,
-  Layers,
-  Clock,
-  Handshake,
-  Wrench,
-  Landmark,
-  LogOut,
-  ArrowRight,
-  Check,
-} from "lucide-react";
+import Link from "next/link";
 
-import { Button } from "@/components/ui/button";
+import {
+  CTAButton,
+  EditorialSection,
+  Eyebrow,
+  PageHero,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 import { SERVICES } from "@/lib/services";
 import { SERVICE_POPULAR_LOCATIONS } from "@/lib/location-content";
+import { getServiceImage, serviceImageUrl } from "@/lib/service-images";
+import { CONTACT, STATS } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Services",
   description:
     "Development finance, mezzanine, bridging loans, equity & JV, refurbishment finance, commercial mortgages, and development exit finance. The full capital stack for UK property developers.",
-};
-
-const iconMap: Record<string, React.ElementType> = {
-  Building2,
-  Layers,
-  Clock,
-  Handshake,
-  Wrench,
-  Landmark,
-  LogOut,
 };
 
 const useCases: Record<string, string[]> = {
@@ -81,382 +68,293 @@ const useCases: Record<string, string[]> = {
 export default function ServicesPage() {
   return (
     <>
-      {/* ━━━ HERO ━━━ */}
-      <section
-        className="noise-overlay relative overflow-hidden text-white"
-        style={{
-          background:
-            "linear-gradient(135deg, oklch(0.14 0.05 255) 0%, oklch(0.22 0.06 255) 50%, oklch(0.18 0.05 260) 100%)",
-        }}
-      >
-        <div className="pointer-events-none absolute inset-0 opacity-[0.03]">
-          <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <pattern
-                id="svc-grid"
-                width="60"
-                height="60"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 60 0 L 0 0 0 60"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#svc-grid)" />
-          </svg>
-        </div>
-
-        <div
-          className="pointer-events-none absolute -right-20 top-0 h-[150%] w-px origin-top-right rotate-[20deg]"
-          style={{
-            background:
-              "linear-gradient(180deg, transparent, var(--gold), transparent)",
-            opacity: 0.1,
-          }}
-        />
-
-        {/* Hero image - right side accent */}
-        <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-1/2 lg:block">
-          <Image
-            src="/images/services-hero.png"
-            alt="Modern UK construction development at golden hour"
-            width={960}
-            height={540}
-            className="h-full w-full object-cover opacity-20"
-            priority
-          />
-          <div
-            className="absolute inset-0"
-            style={{
-              background:
-                "linear-gradient(90deg, oklch(0.14 0.05 255) 0%, transparent 100%)",
-            }}
-          />
-        </div>
-
-        <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
-          <div className="max-w-3xl">
-            <div
-              className="animate-fade-in mb-8 h-[2px] w-20"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="animate-fade-up mb-5 text-xs font-bold uppercase tracking-[0.3em] sm:text-sm"
-              style={{ color: "var(--gold)" }}
-            >
-              Our Services
-            </p>
-            <h1 className="animate-fade-up delay-100 text-4xl font-bold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
-              The Full
-              <br />
-              Capital{" "}
-              <span className="gold-gradient-text italic">Stack</span>
-            </h1>
-            <p className="animate-fade-up delay-200 mt-7 max-w-xl text-lg leading-relaxed text-white/60">
-              Seven core funding solutions covering every stage of property
-              development. From land acquisition to long-term refinancing, we
-              structure the optimal capital solution for your project.
-            </p>
-          </div>
-        </div>
-
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[2px]"
-          style={{
-            background:
-              "linear-gradient(90deg, transparent, var(--gold), transparent)",
-            opacity: 0.3,
-          }}
-        />
-      </section>
-
-      {/* ━━━ SERVICES DETAIL ━━━ */}
-      <section className="bg-background py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="space-y-24">
-            {SERVICES.map((service, i) => {
-              const Icon = iconMap[service.icon] || Building2;
-              const cases = useCases[service.slug] || [];
-              const isEven = i % 2 === 0;
-
-              return (
-                <div
-                  key={service.slug}
-                  className="scroll-mt-24"
-                >
-                  <div
-                    className={`grid items-start gap-12 lg:grid-cols-2 ${!isEven ? "lg:[&>*:first-child]:order-2" : ""}`}
-                  >
-                    {/* Info card */}
-                    <div
-                      className="overflow-hidden rounded-2xl"
-                      style={{
-                        background: isEven
-                          ? "linear-gradient(135deg, oklch(0.16 0.05 255), oklch(0.22 0.06 255))"
-                          : "linear-gradient(135deg, oklch(0.96 0.005 250), oklch(0.98 0.002 250))",
-                        border: isEven
-                          ? "none"
-                          : "1px solid oklch(0.90 0.01 250)",
-                      }}
-                    >
-                      <div className="p-8 sm:p-10">
-                        <div
-                          className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl"
-                          style={{
-                            background: isEven
-                              ? "linear-gradient(135deg, oklch(0.75 0.12 85 / 0.15), oklch(0.75 0.12 85 / 0.05))"
-                              : "linear-gradient(135deg, oklch(0.25 0.06 255 / 0.08), oklch(0.25 0.06 255 / 0.03))",
-                            border: isEven
-                              ? "1px solid oklch(0.75 0.12 85 / 0.1)"
-                              : "1px solid oklch(0.25 0.06 255 / 0.06)",
-                          }}
-                        >
-                          <Icon
-                            className="h-6 w-6"
-                            style={{
-                              color: isEven ? "var(--gold)" : "var(--navy)",
-                            }}
-                          />
-                        </div>
-
-                        <h2
-                          className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl"
-                          style={{
-                            color: isEven ? "white" : "var(--foreground)",
-                          }}
-                        >
-                          <Link
-                            href={`/services/${service.slug}`}
-                            className="transition-opacity hover:opacity-80"
-                          >
-                            {service.name}
-                          </Link>
-                        </h2>
-
-                        <p
-                          className="mb-8 text-base leading-relaxed"
-                          style={{
-                            color: isEven
-                              ? "oklch(1 0 0 / 0.55)"
-                              : "var(--muted-foreground)",
-                          }}
-                        >
-                          {service.longDesc}
-                        </p>
-
-                        {/* Key metrics */}
-                        <div
-                          className="grid grid-cols-3 gap-4 rounded-xl p-5"
-                          style={{
-                            background: isEven
-                              ? "oklch(1 0 0 / 0.04)"
-                              : "oklch(0.25 0.06 255 / 0.04)",
-                            border: isEven
-                              ? "1px solid oklch(1 0 0 / 0.06)"
-                              : "1px solid oklch(0.25 0.06 255 / 0.06)",
-                          }}
-                        >
-                          <div>
-                            <p
-                              className="text-xs font-bold uppercase tracking-wider"
-                              style={{
-                                color: isEven
-                                  ? "var(--gold)"
-                                  : "var(--gold-dark)",
-                              }}
-                            >
-                              Rate
-                            </p>
-                            <p
-                              className="mt-1 text-sm font-bold"
-                              style={{
-                                color: isEven ? "white" : "var(--foreground)",
-                              }}
-                            >
-                              {service.typicalRate}
-                            </p>
-                          </div>
-                          <div>
-                            <p
-                              className="text-xs font-bold uppercase tracking-wider"
-                              style={{
-                                color: isEven
-                                  ? "var(--gold)"
-                                  : "var(--gold-dark)",
-                              }}
-                            >
-                              LTV
-                            </p>
-                            <p
-                              className="mt-1 text-sm font-bold"
-                              style={{
-                                color: isEven ? "white" : "var(--foreground)",
-                              }}
-                            >
-                              {service.typicalLtv}
-                            </p>
-                          </div>
-                          <div>
-                            <p
-                              className="text-xs font-bold uppercase tracking-wider"
-                              style={{
-                                color: isEven
-                                  ? "var(--gold)"
-                                  : "var(--gold-dark)",
-                              }}
-                            >
-                              Term
-                            </p>
-                            <p
-                              className="mt-1 text-sm font-bold"
-                              style={{
-                                color: isEven ? "white" : "var(--foreground)",
-                              }}
-                            >
-                              {service.typicalTerm}
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Use cases */}
-                    <div className="lg:pt-4">
-                      <p
-                        className="mb-6 text-xs font-bold uppercase tracking-[0.2em]"
-                        style={{ color: "var(--gold-dark)" }}
-                      >
-                        Typical Use Cases
-                      </p>
-
-                      <div className="space-y-4">
-                        {cases.map((useCase) => (
-                          <div
-                            key={useCase}
-                            className="flex items-start gap-4 rounded-xl border border-border/50 bg-card p-5 transition-all duration-300 hover:border-gold/20 hover:shadow-sm"
-                          >
-                            <div
-                              className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full"
-                              style={{
-                                background:
-                                  "linear-gradient(135deg, oklch(0.75 0.12 85 / 0.15), oklch(0.75 0.12 85 / 0.05))",
-                              }}
-                            >
-                              <Check
-                                className="h-3.5 w-3.5"
-                                style={{ color: "var(--gold-dark)" }}
-                              />
-                            </div>
-                            <span className="text-sm font-medium text-foreground">
-                              {useCase}
-                            </span>
-                          </div>
-                        ))}
-                      </div>
-
-                      <div className="mt-8">
-                        <div className="flex flex-wrap gap-3">
-                          <Button
-                            asChild
-                            variant="outline"
-                            className="border-gold/30 text-gold-dark hover:bg-gold/5 hover:text-gold-dark font-semibold"
-                          >
-                            <Link href={`/services/${service.slug}`}>
-                              Learn More
-                              <ArrowRight className="ml-2 h-4 w-4" />
-                            </Link>
-                          </Button>
-                          <Button
-                            asChild
-                            variant="outline"
-                            className="border-gold/30 text-gold-dark hover:bg-gold/5 hover:text-gold-dark font-semibold"
-                          >
-                            <Link href="/deal-room">
-                              Apply Now
-                              <ArrowRight className="ml-2 h-4 w-4" />
-                            </Link>
-                          </Button>
-                        </div>
-                      </div>
-
-                      {/* Location cross-links */}
-                      {SERVICE_POPULAR_LOCATIONS[service.slug] && (
-                        <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2">
-                          <span className="text-xs font-medium text-muted-foreground">
-                            Popular:
-                          </span>
-                          {SERVICE_POPULAR_LOCATIONS[service.slug].map(
-                            (loc) => (
-                              <Link
-                                key={loc.town}
-                                href={`/locations/${loc.county}/${loc.town}/${service.slug}`}
-                                className="text-xs font-medium transition-colors duration-200"
-                                style={{ color: "var(--gold-dark)" }}
-                              >
-                                {loc.label}
-                              </Link>
-                            )
-                          )}
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ━━━ CTA ━━━ */}
-      <section className="relative overflow-hidden py-24 sm:py-32">
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(135deg, oklch(0.70 0.14 80) 0%, oklch(0.78 0.12 88) 50%, oklch(0.72 0.13 82) 100%)",
-          }}
-        />
-        <div className="noise-overlay absolute inset-0" />
-
-        <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <h2
-            className="text-4xl font-bold tracking-tight sm:text-5xl"
-            style={{ color: "var(--navy-dark)" }}
-          >
-            Not Sure Which
+      <PageHero
+        tone="paper"
+        breadcrumbs={[{ label: "Home", href: "/" }, { label: "Services" }]}
+        eyebrow="The full capital stack"
+        title={
+          <>
+            Seven funding routes.
             <br />
-            Product Fits?
-          </h2>
-          <p
-            className="mx-auto mt-5 max-w-xl text-lg"
-            style={{ color: "var(--navy)", opacity: 0.6 }}
-          >
-            Tell us about your deal and we&rsquo;ll recommend the right
-            structure. Most deals use a combination of products to optimise
-            leverage and cost.
-          </p>
-          <div className="mt-10">
-            <Button
-              asChild
-              size="lg"
-              className="bg-navy text-white hover:bg-navy-dark h-14 px-12 text-base font-bold shadow-2xl transition-all duration-300 hover:scale-[1.02]"
+            <span className="italic" style={{ color: "var(--navy)" }}>
+              One broker.
+            </span>
+          </>
+        }
+        deck={
+          <>
+            Senior debt, mezzanine, bridging, equity, refurbishment, commercial
+            mortgages and exit finance &mdash; arranged for UK property
+            developers. Over {STATS.lenderPanel} lenders, structured on the
+            deal, not the product sheet.
+          </>
+        }
+        stats={[
+          { label: "Arranged", value: `£${STATS.fundsArranged}` },
+          { label: "Lender panel", value: STATS.lenderPanel },
+          { label: "Years", value: STATS.yearsExperience },
+        ]}
+        actions={
+          <div className="flex flex-wrap gap-4">
+            <CTAButton href="/deal-room" variant="navy" size="lg">
+              Start a deal
+            </CTAButton>
+            <a
+              href={`tel:${CONTACT.phoneRaw}`}
+              className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+              style={{ color: "var(--navy-dark)" }}
             >
-              <Link href="/deal-room">
-                Enter the Deal Room
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+              Or call {CONTACT.phone}
+            </a>
           </div>
+        }
+      />
+
+      {/* ━━━ Services list — editorial alternating rhythm ━━━ */}
+      {SERVICES.map((service, i) => {
+        const cases = useCases[service.slug] ?? [];
+        const popular = SERVICE_POPULAR_LOCATIONS[service.slug] ?? [];
+        const tone = i % 2 === 0 ? "paper" : "stone";
+        const image = getServiceImage(service.slug);
+        const imageSrc = serviceImageUrl(service.slug, 1800);
+
+        return (
+          <EditorialSection
+            key={service.slug}
+            tone={tone}
+            id={service.slug}
+            className="scroll-mt-24"
+          >
+            {image && imageSrc && (
+              <figure
+                className="relative mb-12 overflow-hidden border lg:mb-16"
+                style={{ borderColor: "var(--stone-dark)" }}
+              >
+                <div className="relative aspect-[21/9] w-full">
+                  <Image
+                    src={imageSrc}
+                    alt={image.alt}
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 1280px"
+                    className="object-cover"
+                    priority={i === 0}
+                    loading={i === 0 ? "eager" : "lazy"}
+                  />
+                  <div
+                    aria-hidden
+                    className="pointer-events-none absolute inset-0"
+                    style={{
+                      background:
+                        "linear-gradient(180deg, oklch(0.18 0.05 255 / 0) 45%, oklch(0.18 0.05 255 / 0.55) 100%)",
+                    }}
+                  />
+                  <div
+                    aria-hidden
+                    className="pointer-events-none absolute bottom-0 left-0 h-[2px] w-24"
+                    style={{ background: "var(--gold)" }}
+                  />
+                  <figcaption
+                    className="absolute bottom-5 left-6 right-6 flex items-end justify-between gap-6"
+                  >
+                    <span
+                      className="font-heading text-xl font-medium italic tracking-tight sm:text-2xl"
+                      style={{ color: "oklch(1 0 0 / 0.96)" }}
+                    >
+                      {service.name}
+                    </span>
+                    <span
+                      className="hidden text-[10px] font-medium uppercase tracking-[0.28em] sm:inline"
+                      style={{ color: "oklch(1 0 0 / 0.78)" }}
+                    >
+                      {String(i + 1).padStart(2, "0")} / {SERVICES.length.toString().padStart(2, "0")}
+                    </span>
+                  </figcaption>
+                </div>
+              </figure>
+            )}
+            <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
+              {/* Left: name + description + metrics */}
+              <div className="lg:col-span-7">
+                <Eyebrow tone={tone} className="mb-5">
+                  {String(i + 1).padStart(2, "0")} &middot; {service.name}
+                </Eyebrow>
+                <h2
+                  className="font-heading text-4xl font-medium leading-[1.05] tracking-[-0.015em] sm:text-[3rem]"
+                  style={{ color: "var(--navy-dark)" }}
+                >
+                  {service.name}
+                </h2>
+                <p
+                  className="mt-6 max-w-[48ch] text-[17px] leading-[1.65]"
+                  style={{ color: "oklch(0.35 0.04 255)" }}
+                >
+                  {service.longDesc}
+                </p>
+
+                <dl
+                  className="mt-10 grid grid-cols-3 gap-6 border-y py-7"
+                  style={{ borderColor: "var(--stone-dark)" }}
+                >
+                  <div>
+                    <dt
+                      className="text-[10px] font-medium uppercase tracking-[0.24em]"
+                      style={{ color: "oklch(0.50 0.02 255)" }}
+                    >
+                      Rate
+                    </dt>
+                    <dd
+                      className="numeral-tabular font-heading mt-2 text-xl font-medium tracking-tight"
+                      style={{ color: "var(--navy-dark)" }}
+                    >
+                      {service.typicalRate}
+                    </dd>
+                  </div>
+                  <div>
+                    <dt
+                      className="text-[10px] font-medium uppercase tracking-[0.24em]"
+                      style={{ color: "oklch(0.50 0.02 255)" }}
+                    >
+                      Leverage
+                    </dt>
+                    <dd
+                      className="numeral-tabular font-heading mt-2 text-xl font-medium tracking-tight"
+                      style={{ color: "var(--navy-dark)" }}
+                    >
+                      {service.typicalLtv}
+                    </dd>
+                  </div>
+                  <div>
+                    <dt
+                      className="text-[10px] font-medium uppercase tracking-[0.24em]"
+                      style={{ color: "oklch(0.50 0.02 255)" }}
+                    >
+                      Term
+                    </dt>
+                    <dd
+                      className="numeral-tabular font-heading mt-2 text-xl font-medium tracking-tight"
+                      style={{ color: "var(--navy-dark)" }}
+                    >
+                      {service.typicalTerm}
+                    </dd>
+                  </div>
+                </dl>
+
+                <div className="mt-8 flex flex-wrap gap-3">
+                  <CTAButton
+                    href={`/services/${service.slug}`}
+                    variant="outline-light"
+                  >
+                    Read more
+                  </CTAButton>
+                  <CTAButton href="/deal-room" variant="navy">
+                    Start a deal
+                  </CTAButton>
+                </div>
+
+                {popular.length > 0 && (
+                  <div className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-2">
+                    <span
+                      className="text-[10px] font-medium uppercase tracking-[0.26em]"
+                      style={{ color: "oklch(0.50 0.02 255)" }}
+                    >
+                      Active markets
+                    </span>
+                    {popular.map((loc, idx) => (
+                      <span
+                        key={loc.town}
+                        className="flex items-center gap-2 text-[13px]"
+                        style={{ color: "oklch(0.32 0.04 255)" }}
+                      >
+                        <Link
+                          href={`/locations/${loc.county}/${loc.town}/${service.slug}`}
+                          className="editorial-link"
+                        >
+                          {loc.label}
+                        </Link>
+                        {idx < popular.length - 1 && (
+                          <span style={{ color: "oklch(0.70 0.02 255)" }}>
+                            &middot;
+                          </span>
+                        )}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Right: use cases */}
+              <aside className="lg:col-span-4 lg:col-start-9">
+                <p
+                  className="text-[10px] font-medium uppercase tracking-[0.28em]"
+                  style={{ color: "oklch(0.50 0.02 255)" }}
+                >
+                  Typical use cases
+                </p>
+                <ul
+                  className="mt-6 divide-y"
+                  style={{ borderColor: "var(--stone-dark)" }}
+                >
+                  {cases.map((useCase) => (
+                    <li
+                      key={useCase}
+                      className="flex items-start gap-3 border-t py-4 first:border-t-0 first:pt-0"
+                      style={{ borderColor: "var(--stone-dark)" }}
+                    >
+                      <span
+                        aria-hidden
+                        className="mt-[0.55rem] block h-1 w-1 flex-shrink-0 rounded-full"
+                        style={{ background: "var(--gold)" }}
+                      />
+                      <span
+                        className="text-[15px] leading-[1.5]"
+                        style={{ color: "oklch(0.32 0.04 255)" }}
+                      >
+                        {useCase}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </aside>
+            </div>
+          </EditorialSection>
+        );
+      })}
+
+      {/* ━━━ Close: not sure which product fits? ━━━ */}
+      <EditorialSection tone="navy-dark">
+        <SectionHeader
+          tone="navy-dark"
+          eyebrow="Not sure which product fits?"
+          title={
+            <>
+              Tell us the deal.
+              <br />
+              <span className="italic" style={{ color: "var(--gold-light)" }}>
+                We&rsquo;ll recommend the structure.
+              </span>
+            </>
+          }
+          body={
+            <>
+              Most schemes use a combination of products to optimise leverage
+              and cost. A two-minute conversation usually tells us which layers
+              belong in the stack and which lenders should see the deal first.
+            </>
+          }
+        />
+        <div className="mt-12 flex flex-wrap items-center gap-5">
+          <CTAButton href="/deal-room" variant="gold" size="lg">
+            Start a deal
+          </CTAButton>
+          <a
+            href={`tel:${CONTACT.phoneRaw}`}
+            className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+            style={{ color: "oklch(1 0 0 / 0.95)" }}
+          >
+            Or call {CONTACT.phone}
+          </a>
         </div>
-      </section>
+      </EditorialSection>
     </>
   );
 }

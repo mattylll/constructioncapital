@@ -11,10 +11,7 @@ import {
   formatGBP,
   formatPercent,
   formatCurrencyInput,
-} from "@/components/calculators/shared";
-import { StackBar } from "@/components/calculators/shared";
-import { DealRoomCta } from "@/components/calculators/shared";
-import { Disclaimer } from "@/components/calculators/shared";
+ StackBar , DealRoomCta , Disclaimer } from "@/components/calculators/shared";
 
 /* ------------------------------------------------------------------ */
 /*  Types                                                              */
@@ -101,7 +98,8 @@ export function ProfessionalFeesCalculator() {
         fee.type === "percentage"
           ? Math.round(buildCost * (fee.value / 100))
           : fee.value;
-      return { ...fee, amount };
+      
+return { ...fee, amount };
     });
 
     const totalFees = feeBreakdown

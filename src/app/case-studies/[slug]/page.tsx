@@ -1,29 +1,28 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import {
-  ArrowLeft,
-  ArrowRight,
-  Building2,
-  Calendar,
-  MapPin,
-  PoundSterling,
-  TrendingUp,
-  Target,
-  Lightbulb,
-  CheckCircle2,
-} from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
+import {
+  CTAButton,
+  EditorialSection,
+  Eyebrow,
+  PageHero,
+  ProseSection,
+  RelatedGrid,
+  SectionHeader,
+  StatStrip,
+} from "@/components/editorial/primitives";
 import { JsonLd } from "@/components/ui/json-ld";
-import { Breadcrumbs } from "@/components/locations/breadcrumbs";
-import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 import { SERVICES } from "@/lib/services";
 import { getGuidesByService } from "@/lib/guides";
 import { getReportByCountySlug } from "@/lib/market-reports";
 import { countyNameToSlug, loanTypeToServiceSlug } from "@/lib/location-content";
 
-// Static placeholder case studies - will be replaced with Convex data
+// Extended case study data including challenge/solution/outcome narratives.
+// The shared src/lib/case-studies.ts has the summary; this file keeps the
+// long-form detail used on /case-studies/[slug].
 const caseStudies = [
   {
     slug: "residential-scheme-manchester",
@@ -38,7 +37,7 @@ const caseStudies = [
     description:
       "Structured senior debt for a ground-up residential scheme in South Manchester. Planning secured for 12 apartments across two blocks.",
     challenge:
-      "The developer had full planning permission for 12 apartments across two blocks in South Manchester but faced difficulties securing funding at competitive rates. Several high-street lenders had declined due to the developer's limited track record with schemes of this scale, despite having successfully completed smaller projects. The tight timeline - with planning permission due to lapse within 18 months - added urgency to the funding requirement.",
+      "The developer had full planning permission for 12 apartments across two blocks in South Manchester but faced difficulties securing funding at competitive rates. Several high-street lenders had declined due to the developer's limited track record with schemes of this scale, despite having successfully completed smaller projects. The tight timeline — with planning permission due to lapse within 18 months — added urgency to the funding requirement.",
     solution:
       "We approached our specialist development finance panel, presenting the scheme's strong fundamentals: excellent location near transport links, competitive build costs from a reputable contractor, and strong comparable evidence supporting the GDV. By structuring the facility with a phased drawdown aligned to build milestones, we secured terms from a specialist lender comfortable with the developer's experience level. The facility included a day-one land drawdown of 60% LTV against the site value.",
     outcome:
@@ -59,7 +58,7 @@ const caseStudies = [
     description:
       "Combined senior and mezzanine structure for a commercial-to-residential conversion in Birmingham city centre. 24 apartments over ground-floor retail.",
     challenge:
-      "An experienced developer identified a former office building in Birmingham's Jewellery Quarter with permitted development rights for conversion to 24 residential units, retaining the ground floor for commercial use. The total project cost of £4.9M required leverage beyond what a single senior lender would provide. The developer had equity of approximately £750K - enough for a 65% LTC senior facility but insufficient to cover the full costs without additional funding.",
+      "An experienced developer identified a former office building in Birmingham's Jewellery Quarter with permitted development rights for conversion to 24 residential units, retaining the ground floor for commercial use. The total project cost of £4.9M required leverage beyond what a single senior lender would provide. The developer had equity of approximately £750K — enough for a 65% LTC senior facility but insufficient to cover the full costs without additional funding.",
     solution:
       "We structured a dual-tranche capital stack: a senior development facility at 65% of costs from a mainstream specialist lender, topped up with a mezzanine facility from a separate provider to bring total leverage to 85% of costs. The mezzanine was structured as a profit-share arrangement, aligning the funder's interests with the developer. Both facilities were co-ordinated with a single monitoring surveyor to minimise friction during the build phase.",
     outcome:
@@ -80,11 +79,11 @@ const caseStudies = [
     description:
       "Rapid bridging finance for an auction purchase in Hackney. Funds drawn within 14 days to meet auction completion deadline, then refinanced into refurbishment facility.",
     challenge:
-      "The borrower won a property at auction in Hackney, East London, for £850K - significantly below the estimated market value of £1.1M. However, the property required substantial refurbishment (estimated £350K) before it could be sold or refinanced. The 28-day auction completion deadline meant traditional lender timelines were not feasible. The borrower needed certainty of completion to avoid losing the deposit.",
+      "The borrower won a property at auction in Hackney, East London, for £850K — significantly below the estimated market value of £1.1M. However, the property required substantial refurbishment (estimated £350K) before it could be sold or refinanced. The 28-day auction completion deadline meant traditional lender timelines were not feasible. The borrower needed certainty of completion to avoid losing the deposit.",
     solution:
       "We arranged a regulated bridging loan within 14 days, funding 70% of the purchase price on day one. The valuer confirmed the open market value at £1.05M, supporting the LTV at completion. We pre-arranged a refurbishment exit facility with a separate lender, ensuring the borrower had a clear path from acquisition through to the completed, refinanced asset. Both facilities were documented in parallel to minimise dead time between drawdowns.",
     outcome:
-      "The auction purchase completed on day 12 - well within the deadline. The refurbishment facility was drawn down 4 weeks later, with works completed in 5 months. The finished property was valued at £1.8M, and the borrower refinanced onto a long-term residential mortgage at 60% LTV. Total profit after all costs and finance charges: approximately £420K.",
+      "The auction purchase completed on day 12 — well within the deadline. The refurbishment facility was drawn down 4 weeks later, with works completed in 5 months. The finished property was valued at £1.8M, and the borrower refinanced onto a long-term residential mortgage at 60% LTV. Total profit after all costs and finance charges: approximately £420K.",
     isFeatured: false,
     publishedAt: "2024-04-10",
   },
@@ -105,7 +104,7 @@ const caseStudies = [
     solution:
       "We introduced a family office from our equity partner network willing to provide 100% of the development costs as a JV equity investment, with the developer contributing the land (valued at £1.7M) as their equity stake. The structure gave the developer 60% of net profits in exchange for managing the project, with the family office receiving 40% plus a preferred return of 8% per annum. We also sourced a senior debt facility at 55% LTGDV to gear the JV, reducing the family office's cash outlay.",
     outcome:
-      "The 30-unit scheme was completed in 22 months. Sales achieved a blended GDV of £9.1M - 7% above the original appraisal. After repaying the senior lender and the family office (including preferred return), the developer's net profit share exceeded £1.2M on a project where they contributed no cash. The family office has since committed to a further two projects with the same developer.",
+      "The 30-unit scheme was completed in 22 months. Sales achieved a blended GDV of £9.1M — 7% above the original appraisal. After repaying the senior lender and the family office (including preferred return), the developer's net profit share exceeded £1.2M on a project where they contributed no cash. The family office has since committed to a further two projects with the same developer.",
     isFeatured: true,
     publishedAt: "2024-02-28",
   },
@@ -145,7 +144,7 @@ const caseStudies = [
     challenge:
       "A property company sought to acquire a multi-tenanted office building in Edinburgh's financial district for £4.2M. The building had 6 tenants on various lease lengths (2–8 years remaining), with a WAULT of 4.3 years. The occupancy rate was 85%, with one floor vacant. High-street banks were cautious due to the mixed lease profile and the vacancy void, offering terms at higher margins than the borrower's target.",
     solution:
-      "We approached specialist commercial mortgage lenders who took a more nuanced view of the tenancy schedule. By presenting a detailed income analysis - including the reversionary potential of the vacant floor and strong comparable evidence for office rents in the area - we secured a 15-year fixed-rate facility at 70% LTV. The lender allowed the vacant floor to be excluded from the income covenant calculation for the first 12 months, giving the borrower time to let the space.",
+      "We approached specialist commercial mortgage lenders who took a more nuanced view of the tenancy schedule. By presenting a detailed income analysis — including the reversionary potential of the vacant floor and strong comparable evidence for office rents in the area — we secured a 15-year fixed-rate facility at 70% LTV. The lender allowed the vacant floor to be excluded from the income covenant calculation for the first 12 months, giving the borrower time to let the space.",
     outcome:
       "The acquisition completed within 6 weeks. The borrower let the vacant floor within 4 months of completion at a rent 15% above the assumed ERV, bringing the building to full occupancy. The 15-year fixed rate of 5.2% gave the borrower long-term certainty, and the asset's net yield post-finance exceeded 7.8%. The borrower is now exploring further acquisitions in the Edinburgh market.",
     isFeatured: false,
@@ -215,9 +214,37 @@ export default async function CaseStudyPage({
     { label: cs.title },
   ];
 
+  const exploreLinks: { label: string; href: string }[] = [
+    {
+      label: `Development finance in ${cs.county}`,
+      href: `/locations/${countySlug}`,
+    },
+    {
+      label: `${cs.location} property market`,
+      href: `/locations/${countySlug}/${locationSlug}`,
+    },
+  ];
+  if (service) {
+    exploreLinks.push({
+      label: service.name,
+      href: `/services/${service.slug}`,
+    });
+  }
+  if (serviceSlug) {
+    exploreLinks.push({
+      label: `${cs.loanType} in ${cs.location}`,
+      href: `/locations/${countySlug}/${locationSlug}/${serviceSlug}`,
+    });
+  }
+  if (countyReport) {
+    exploreLinks.push({
+      label: `${cs.county} market report`,
+      href: `/market-reports/${countyReport.slug}`,
+    });
+  }
+
   return (
     <>
-      {/* JSON-LD */}
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -225,16 +252,8 @@ export default async function CaseStudyPage({
           headline: cs.title,
           description: cs.description,
           datePublished: cs.publishedAt,
-          author: {
-            "@type": "Organization",
-            name: SITE_NAME,
-            url: SITE_URL,
-          },
-          publisher: {
-            "@type": "Organization",
-            name: SITE_NAME,
-            url: SITE_URL,
-          },
+          author: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+          publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
         }}
       />
       <JsonLd
@@ -252,498 +271,148 @@ export default async function CaseStudyPage({
         }}
       />
 
-      {/* ━━━ HERO ━━━ */}
-      <section
-        className="noise-overlay relative overflow-hidden text-white"
-        style={{
-          background:
-            "linear-gradient(135deg, oklch(0.14 0.05 255) 0%, oklch(0.20 0.06 255) 40%, oklch(0.16 0.05 258) 100%)",
-        }}
-      >
-        {/* Grid pattern */}
-        <div className="pointer-events-none absolute inset-0 opacity-[0.03]">
-          <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <pattern
-                id="csd-grid"
-                width="60"
-                height="60"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 60 0 L 0 0 0 60"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#csd-grid)" />
-          </svg>
+      <PageHero
+        tone="paper"
+        breadcrumbs={breadcrumbItems}
+        eyebrow={`${cs.projectType} · ${cs.location}`}
+        title={cs.title}
+        deck={cs.description}
+      />
+
+      {/* Key metrics strip — full-bleed hero numbers */}
+      <section className="relative" style={{ background: "var(--paper)" }}>
+        <div className="mx-auto max-w-[1360px] px-6 sm:px-10">
+          <StatStrip
+            tone="paper"
+            items={[
+              { label: "GDV", value: cs.gdv },
+              { label: "Facility", value: cs.loanAmount },
+              { label: "Structure", value: cs.ltv },
+            ]}
+          />
         </div>
+      </section>
 
-        {/* Diagonal gold beam */}
-        <div
-          className="pointer-events-none absolute -right-20 top-0 h-[150%] w-px origin-top-right rotate-[20deg]"
-          style={{
-            background:
-              "linear-gradient(180deg, transparent, var(--gold), transparent)",
-            opacity: 0.1,
-          }}
+      {/* Challenge / Solution / Outcome — editorial prose trio */}
+      <EditorialSection tone="paper">
+        <div className="space-y-20">
+          <ProseSection title="The challenge">
+            <p>{cs.challenge}</p>
+          </ProseSection>
+          <ProseSection title="Our solution">
+            <p>{cs.solution}</p>
+          </ProseSection>
+          <ProseSection title="The outcome">
+            <p>{cs.outcome}</p>
+          </ProseSection>
+        </div>
+      </EditorialSection>
+
+      {/* Explore / cross-links */}
+      <EditorialSection tone="stone">
+        <SectionHeader
+          tone="stone"
+          eyebrow="Explore"
+          title="Related coverage."
+          body={`Other resources connected to this deal — the services, locations and market data behind a ${cs.projectType.toLowerCase()} like this one.`}
         />
+        <div className="mt-12 flex flex-wrap gap-3">
+          {exploreLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="group inline-flex items-center gap-2 border px-5 py-2.5 text-[14px] transition-colors hover:bg-[oklch(0.75_0.12_85/0.06)]"
+              style={{
+                borderColor: "oklch(0.82 0.01 250)",
+                color: "var(--navy-dark)",
+                background: "var(--stone)",
+              }}
+            >
+              {link.label}
+              <ArrowUpRight
+                className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                style={{ color: "var(--gold-dark)" }}
+              />
+            </Link>
+          ))}
+        </div>
+      </EditorialSection>
 
-        <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 sm:py-28 lg:px-8">
-          <div className="max-w-3xl">
-            {/* Breadcrumbs */}
-            <div className="mb-8 [&_a]:text-white/50 [&_a]:hover:text-white/80 [&_span[aria-current]]:text-white [&_span]:text-white/40 [&_svg]:text-white/30">
-              <Breadcrumbs items={breadcrumbItems} />
-            </div>
+      {/* Related guides */}
+      {relatedGuides.length > 0 && (
+        <EditorialSection tone="paper">
+          <SectionHeader
+            tone="paper"
+            eyebrow="Further reading"
+            title="Guides on this product."
+          />
+          <div className="mt-12">
+            <RelatedGrid
+              tone="paper"
+              items={relatedGuides.map((guide) => ({
+                href: `/guides/${guide.slug}`,
+                eyebrow: "Guide",
+                title: guide.title,
+                body: guide.excerpt,
+                meta: `${guide.readingTime} read`,
+              }))}
+            />
+          </div>
+        </EditorialSection>
+      )}
 
-            {/* Tags */}
-            <div className="mb-6 flex flex-wrap items-center gap-3">
-              <span
-                className="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold"
-                style={{
-                  backgroundColor: "oklch(0.75 0.12 85 / 0.12)",
-                  color: "var(--gold)",
-                  border: "1px solid oklch(0.75 0.12 85 / 0.15)",
-                }}
-              >
-                <Building2 className="h-3 w-3" />
-                {cs.projectType}
+      {/* Related case studies */}
+      {relatedStudies.length > 0 && (
+        <EditorialSection tone="stone">
+          <SectionHeader
+            tone="stone"
+            eyebrow="More case files"
+            title="Related deals from the desk."
+          />
+          <div className="mt-12">
+            <RelatedGrid
+              tone="stone"
+              items={relatedStudies.map((related) => ({
+                href: `/case-studies/${related.slug}`,
+                eyebrow: `${related.location} · ${related.projectType}`,
+                title: related.title,
+                body: related.description,
+                meta: `${related.gdv} GDV`,
+              }))}
+            />
+          </div>
+        </EditorialSection>
+      )}
+
+      {/* CTA */}
+      <EditorialSection tone="navy-dark">
+        <SectionHeader
+          tone="navy-dark"
+          eyebrow="Start a deal"
+          title={
+            <>
+              Your scheme could be
+              <br />
+              <span className="italic" style={{ color: "var(--gold-light)" }}>
+                the next case file.
               </span>
-              <Link
-                href={`/locations/${countySlug}`}
-                className="inline-flex items-center gap-1.5 text-sm text-white/50 transition-colors hover:text-white/80"
-              >
-                <MapPin className="h-3.5 w-3.5" />
-                {cs.location}, {cs.county}
-              </Link>
-            </div>
-
-            <h1 className="text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">
-              {cs.title}
-            </h1>
-
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/60">
-              {cs.description}
-            </p>
-          </div>
-        </div>
-
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[2px]"
-          style={{
-            background:
-              "linear-gradient(90deg, transparent, var(--gold), transparent)",
-            opacity: 0.3,
-          }}
+            </>
+          }
+          body="Send us the outline. We come back with indicative terms from the right lenders inside a working day."
         />
-      </section>
-
-      {/* ━━━ DEAL METRICS BAR ━━━ */}
-      <section
-        className="border-b"
-        style={{
-          background: "oklch(0.97 0.005 255)",
-          borderColor: "oklch(0.90 0.02 255 / 0.3)",
-        }}
-      >
-        <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 gap-6 sm:grid-cols-4">
-            {[
-              {
-                label: "Gross Development Value",
-                value: cs.gdv,
-                icon: TrendingUp,
-              },
-              {
-                label: "Loan Amount",
-                value: cs.loanAmount,
-                icon: PoundSterling,
-              },
-              { label: "Product", value: cs.loanType, icon: Building2 },
-              { label: "Leverage", value: cs.ltv, icon: Target },
-            ].map((metric) => (
-              <div key={metric.label} className="flex items-start gap-3">
-                <div
-                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg"
-                  style={{
-                    background: "oklch(0.75 0.12 85 / 0.08)",
-                    border: "1px solid oklch(0.75 0.12 85 / 0.12)",
-                  }}
-                >
-                  <metric.icon
-                    className="h-4.5 w-4.5"
-                    style={{ color: "var(--gold-dark)" }}
-                  />
-                </div>
-                <div>
-                  <p
-                    className="text-[10px] font-bold uppercase tracking-wider"
-                    style={{ color: "var(--gold-dark)" }}
-                  >
-                    {metric.label}
-                  </p>
-                  <p className="mt-0.5 text-base font-bold text-foreground">
-                    {metric.value}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ━━━ CONTENT ━━━ */}
-      <section className="bg-background py-20 sm:py-28">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl">
-            {/* Challenge */}
-            <div className="mb-16">
-              <div className="mb-6 flex items-center gap-3">
-                <div
-                  className="flex h-10 w-10 items-center justify-center rounded-xl"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, oklch(0.20 0.06 255), oklch(0.28 0.07 255))",
-                  }}
-                >
-                  <Target className="h-5 w-5 text-white" />
-                </div>
-                <h2 className="text-2xl font-bold tracking-tight">
-                  The Challenge
-                </h2>
-              </div>
-              <div
-                className="rounded-2xl p-8"
-                style={{
-                  background: "oklch(0.25 0.06 255 / 0.03)",
-                  border: "1px solid oklch(0.25 0.06 255 / 0.06)",
-                }}
-              >
-                <p className="text-base leading-[1.85] text-muted-foreground">
-                  {cs.challenge}
-                </p>
-              </div>
-            </div>
-
-            {/* Solution */}
-            <div className="mb-16">
-              <div className="mb-6 flex items-center gap-3">
-                <div
-                  className="flex h-10 w-10 items-center justify-center rounded-xl"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, var(--gold-dark), var(--gold))",
-                  }}
-                >
-                  <Lightbulb className="h-5 w-5 text-white" />
-                </div>
-                <h2 className="text-2xl font-bold tracking-tight">
-                  Our Solution
-                </h2>
-              </div>
-              <div
-                className="rounded-2xl p-8"
-                style={{
-                  background: "oklch(0.75 0.12 85 / 0.04)",
-                  border: "1px solid oklch(0.75 0.12 85 / 0.08)",
-                }}
-              >
-                <p className="text-base leading-[1.85] text-muted-foreground">
-                  {cs.solution}
-                </p>
-              </div>
-            </div>
-
-            {/* Outcome */}
-            <div className="mb-16">
-              <div className="mb-6 flex items-center gap-3">
-                <div
-                  className="flex h-10 w-10 items-center justify-center rounded-xl"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, oklch(0.45 0.15 150), oklch(0.55 0.18 150))",
-                  }}
-                >
-                  <CheckCircle2 className="h-5 w-5 text-white" />
-                </div>
-                <h2 className="text-2xl font-bold tracking-tight">
-                  The Outcome
-                </h2>
-              </div>
-              <div
-                className="rounded-2xl p-8"
-                style={{
-                  background: "oklch(0.45 0.15 150 / 0.04)",
-                  border: "1px solid oklch(0.45 0.15 150 / 0.08)",
-                }}
-              >
-                <p className="text-base leading-[1.85] text-muted-foreground">
-                  {cs.outcome}
-                </p>
-              </div>
-            </div>
-
-            {/* Cross-links to location, service, guides & market reports */}
-            <div className="space-y-6">
-              {/* Location & Service links */}
-              <div
-                className="rounded-2xl p-8"
-                style={{
-                  background: "oklch(0.75 0.12 85 / 0.04)",
-                  border: "1px solid oklch(0.75 0.12 85 / 0.08)",
-                }}
-              >
-                <p
-                  className="mb-4 text-xs font-bold uppercase tracking-[0.2em]"
-                  style={{ color: "var(--gold-dark)" }}
-                >
-                  Explore More
-                </p>
-                <div className="flex flex-wrap gap-3">
-                  <Link
-                    href={`/locations/${countySlug}`}
-                    className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
-                    style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
-                  >
-                    <MapPin className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
-                    Development finance in {cs.county}
-                  </Link>
-                  <Link
-                    href={`/locations/${countySlug}/${locationSlug}`}
-                    className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
-                    style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
-                  >
-                    <MapPin className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
-                    {cs.location} property market
-                  </Link>
-                  {service && (
-                    <Link
-                      href={`/services/${service.slug}`}
-                      className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
-                      style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
-                    >
-                      <Building2 className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
-                      {service.name}
-                    </Link>
-                  )}
-                  {serviceSlug && (
-                    <Link
-                      href={`/locations/${countySlug}/${locationSlug}/${serviceSlug}`}
-                      className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
-                      style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
-                    >
-                      <Building2 className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
-                      {cs.loanType} in {cs.location}
-                    </Link>
-                  )}
-                  {countyReport && (
-                    <Link
-                      href={`/market-reports/${countyReport.slug}`}
-                      className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
-                      style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
-                    >
-                      <TrendingUp className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
-                      {cs.county} market report
-                    </Link>
-                  )}
-                  <Link
-                    href="/calculators"
-                    className="inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
-                    style={{ borderColor: "oklch(0.75 0.12 85 / 0.2)" }}
-                  >
-                    <Target className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
-                    Finance calculators
-                  </Link>
-                </div>
-              </div>
-
-              {/* Related Guides */}
-              {relatedGuides.length > 0 && (
-                <div className="rounded-2xl border border-border p-8">
-                  <div className="mb-5 flex items-center gap-3">
-                    <div
-                      className="mb-1 h-[2px] w-10"
-                      style={{
-                        background: "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                      }}
-                    />
-                    <p
-                      className="text-xs font-bold uppercase tracking-[0.2em]"
-                      style={{ color: "var(--gold-dark)" }}
-                    >
-                      Related Guides
-                    </p>
-                  </div>
-                  <div className="space-y-3">
-                    {relatedGuides.map((guide) => (
-                      <Link
-                        key={guide.slug}
-                        href={`/guides/${guide.slug}`}
-                        className="group flex items-center justify-between rounded-xl border border-border bg-card/50 p-4 transition-all duration-200 hover:border-gold/30"
-                      >
-                        <div>
-                          <h4 className="text-sm font-bold text-foreground group-hover:text-gold-dark transition-colors">
-                            {guide.title}
-                          </h4>
-                          <span className="text-xs text-muted-foreground">
-                            {guide.readingTime} read
-                          </span>
-                        </div>
-                        <ArrowRight className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200 group-hover:translate-x-1 group-hover:text-gold" />
-                      </Link>
-                    ))}
-                  </div>
-                  <Link
-                    href="/guides"
-                    className="mt-4 inline-block text-sm font-medium text-gold-dark hover:underline"
-                  >
-                    View all guides →
-                  </Link>
-                </div>
-              )}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ━━━ RELATED CASE STUDIES ━━━ */}
-      <section
-        className="border-t py-20 sm:py-28"
-        style={{ borderColor: "oklch(0 0 0 / 0.06)" }}
-      >
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-12 text-center">
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.3em]"
-              style={{ color: "var(--gold-dark)" }}
-            >
-              More Deals
-            </p>
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Related Case Studies
-            </h2>
-          </div>
-
-          <div className="grid gap-6 md:grid-cols-3">
-            {relatedStudies.map((related) => (
-              <Link
-                key={related.slug}
-                href={`/case-studies/${related.slug}`}
-                className="glass-card group relative overflow-hidden rounded-2xl transition-all duration-300 hover:-translate-y-1"
-              >
-                {/* Top accent */}
-                <div
-                  className="absolute left-0 right-0 top-0 h-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-                  style={{
-                    background:
-                      "linear-gradient(90deg, transparent 10%, var(--gold) 50%, transparent 90%)",
-                  }}
-                />
-
-                <div className="p-7">
-                  <div className="mb-3 flex items-center gap-1.5 text-sm text-muted-foreground">
-                    <MapPin className="h-3.5 w-3.5" />
-                    {related.location}
-                  </div>
-
-                  <h3 className="mb-2 text-lg font-bold tracking-tight text-foreground">
-                    {related.title}
-                  </h3>
-
-                  <p className="mb-5 line-clamp-2 text-sm leading-relaxed text-muted-foreground">
-                    {related.description}
-                  </p>
-
-                  <div className="flex items-center justify-between">
-                    <div className="flex gap-4">
-                      <div>
-                        <p
-                          className="text-[10px] font-bold uppercase tracking-wider"
-                          style={{ color: "var(--gold-dark)" }}
-                        >
-                          GDV
-                        </p>
-                        <p className="text-sm font-bold">{related.gdv}</p>
-                      </div>
-                      <div>
-                        <p
-                          className="text-[10px] font-bold uppercase tracking-wider"
-                          style={{ color: "var(--gold-dark)" }}
-                        >
-                          Loan
-                        </p>
-                        <p className="text-sm font-bold">
-                          {related.loanAmount}
-                        </p>
-                      </div>
-                    </div>
-                    <ArrowRight
-                      className="h-4 w-4 text-muted-foreground/50 transition-all duration-300 group-hover:translate-x-1 group-hover:text-gold-dark"
-                    />
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-
-          <div className="mt-12 text-center">
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="h-12 px-8"
-            >
-              <Link href="/case-studies">
-                <ArrowLeft className="mr-2 h-4 w-4" />
-                All Case Studies
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* ━━━ CTA ━━━ */}
-      <section className="relative overflow-hidden py-20 sm:py-28">
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(135deg, oklch(0.70 0.14 80) 0%, oklch(0.78 0.12 88) 50%, oklch(0.72 0.13 82) 100%)",
-          }}
-        />
-        <div className="noise-overlay absolute inset-0" />
-
-        <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <h2
-            className="text-3xl font-bold tracking-tight sm:text-4xl"
-            style={{ color: "var(--navy-dark)" }}
+        <div className="mt-12 flex flex-wrap items-center gap-5">
+          <CTAButton href="/deal-room" variant="gold" size="lg">
+            Start a deal
+          </CTAButton>
+          <a
+            href={`tel:${CONTACT.phoneRaw}`}
+            className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+            style={{ color: "oklch(1 0 0 / 0.95)" }}
           >
-            Your Deal Could Be Next
-          </h2>
-          <p
-            className="mx-auto mt-4 max-w-xl text-lg"
-            style={{ color: "var(--navy)", opacity: 0.6 }}
-          >
-            Submit your project details and we&rsquo;ll find the best terms from
-            our panel of 100+ lenders. No obligation, no upfront fees.
-          </p>
-          <div className="mt-8">
-            <Button
-              asChild
-              size="lg"
-              className="bg-navy text-white hover:bg-navy-dark h-14 px-12 text-base font-bold shadow-2xl transition-all duration-300 hover:scale-[1.02]"
-            >
-              <Link href="/deal-room">
-                Enter the Deal Room
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-          </div>
+            Or call {CONTACT.phone}
+          </a>
         </div>
-      </section>
+      </EditorialSection>
     </>
   );
 }

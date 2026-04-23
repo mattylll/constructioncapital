@@ -34,7 +34,8 @@ export function DealRoomTabs() {
       <div className="mx-auto mb-12 flex max-w-md overflow-hidden rounded-xl border border-border">
         {tabs.map((tab) => {
           const isActive = activeTab === tab.id;
-          return (
+          
+return (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}

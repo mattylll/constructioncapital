@@ -10,9 +10,7 @@ import {
   formatGBP,
   formatPercent,
   formatCurrencyInput,
-} from "@/components/calculators/shared";
-import { DealRoomCta } from "@/components/calculators/shared";
-import { Disclaimer } from "@/components/calculators/shared";
+ DealRoomCta , Disclaimer } from "@/components/calculators/shared";
 
 interface Inputs {
   propertyValue: string;
@@ -135,7 +133,8 @@ export function BtlMortgageCalculator() {
         color: "oklch(0.7 0.15 60)",
       };
     }
-    return {
+    
+return {
       label: "Below minimum threshold",
       border: "1px solid oklch(0.55 0.22 25 / 0.3)",
       bg: "oklch(0.55 0.22 25 / 0.05)",

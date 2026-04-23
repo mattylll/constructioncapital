@@ -18,7 +18,8 @@ function formatGBP(amount: number): string {
   if (amount >= 1_000_000) {
     return `£${(amount / 1_000_000).toFixed(1)}M`;
   }
-  return `£${amount.toLocaleString("en-GB")}`;
+  
+return `£${amount.toLocaleString("en-GB")}`;
 }
 
 const PROPERTY_TYPE_LABELS: Record<string, string> = {
@@ -191,7 +192,8 @@ export function GuideMarketEvidence({ data }: GuideMarketEvidenceProps) {
                   <tbody>
                     {data.topTowns.map((town) => {
                       const townYoyPositive = town.yoyChange >= 0;
-                      return (
+                      
+return (
                         <tr
                           key={`${town.countySlug}/${town.slug}`}
                           className="border-b last:border-0"

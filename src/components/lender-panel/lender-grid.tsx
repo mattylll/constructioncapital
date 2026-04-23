@@ -54,7 +54,8 @@ export function LenderGrid({ lenders }: LenderGridProps) {
         !lender.description.toLowerCase().includes(search.toLowerCase())
       )
         return false;
-      return true;
+      
+return true;
     });
   }, [lenders, search, typeFilter, serviceFilter]);
 

@@ -11,10 +11,7 @@ import {
   formatGBP,
   formatPercent,
   formatCurrencyInput,
-} from "@/components/calculators/shared";
-import { StackBar } from "@/components/calculators/shared";
-import { DealRoomCta } from "@/components/calculators/shared";
-import { Disclaimer } from "@/components/calculators/shared";
+ StackBar , DealRoomCta , Disclaimer } from "@/components/calculators/shared";
 
 /* ------------------------------------------------------------------ */
 /*  Types                                                              */

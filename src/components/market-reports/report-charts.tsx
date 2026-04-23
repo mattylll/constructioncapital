@@ -15,7 +15,8 @@ import type { ReportCharts } from "@/lib/market-reports/types";
 function formatPrice(n: number): string {
   if (n >= 1_000_000) return `£${(n / 1_000_000).toFixed(1)}m`;
   if (n >= 1000) return `£${Math.round(n / 1000)}k`;
-  return `£${n}`;
+  
+return `£${n}`;
 }
 
 function CustomTooltip({
@@ -30,7 +31,8 @@ function CustomTooltip({
   valueFormatter: (v: number) => string;
 }) {
   if (!active || !payload?.length) return null;
-  return (
+  
+return (
     <div className="rounded-lg border border-border bg-card px-3 py-2 text-sm shadow-md">
       <p className="font-semibold text-foreground">{label}</p>
       <p className="text-muted-foreground">{valueFormatter(payload[0].value)}</p>

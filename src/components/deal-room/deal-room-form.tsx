@@ -109,7 +109,8 @@ const steps = [
 
 function parseCurrencyToNumber(value: string): number {
   const num = parseInt(value.replace(/[^0-9]/g, ""), 10);
-  return isNaN(num) ? 0 : num;
+  
+return isNaN(num) ? 0 : num;
 }
 
 export function DealRoomForm() {
@@ -162,7 +163,8 @@ export function DealRoomForm() {
       setErrors((prev) => {
         const next = { ...prev };
         delete next[field];
-        return next;
+        
+return next;
       });
     }
   }
@@ -207,7 +209,8 @@ export function DealRoomForm() {
     }
 
     setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
+    
+return Object.keys(newErrors).length === 0;
   }
 
   function handleNext() {
@@ -274,7 +277,8 @@ export function DealRoomForm() {
   function formatCurrency(value: string): string {
     const num = value.replace(/[^0-9]/g, "");
     if (!num) return "";
-    return parseInt(num, 10).toLocaleString("en-GB");
+    
+return parseInt(num, 10).toLocaleString("en-GB");
   }
 
   if (isSubmitted) {
@@ -805,5 +809,6 @@ export function DealRoomForm() {
 function getUtmParam(param: string): string | undefined {
   if (typeof window === "undefined") return undefined;
   const url = new URL(window.location.href);
-  return url.searchParams.get(param) || undefined;
+  
+return url.searchParams.get(param) || undefined;
 }

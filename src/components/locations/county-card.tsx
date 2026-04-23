@@ -1,5 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
-import { MapPin } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
+
+import { getLocationImage, unsplashUrl } from "@/lib/location-images";
 
 interface CountyCardProps {
   name: string;
@@ -8,66 +11,58 @@ interface CountyCardProps {
   region: string;
 }
 
-export function CountyCard({ name, slug, townCount, region }: CountyCardProps) {
+export function CountyCard({ name, slug, townCount }: CountyCardProps) {
+  const image = getLocationImage(slug);
+  const imageSrc = unsplashUrl(image.id, 800);
+
   return (
     <Link
       href={`/locations/${slug}`}
-      className="glass-card group relative overflow-hidden rounded-2xl p-6"
+      className="group relative flex flex-col transition-colors"
+      style={{ background: "var(--paper)" }}
     >
-      {/* Top accent line - reveals on hover */}
-      <div
-        className="absolute left-0 right-0 top-0 h-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-        style={{
-          background:
-            "linear-gradient(90deg, transparent 10%, var(--gold) 50%, transparent 90%)",
-        }}
-      />
+      {/* Image */}
+      <div className="relative aspect-[3/2] w-full overflow-hidden">
+        <Image
+          src={imageSrc}
+          alt={image.alt}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+          className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+        />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(180deg, oklch(0.18 0.05 255 / 0) 50%, oklch(0.18 0.05 255 / 0.35) 100%)",
+          }}
+        />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute bottom-0 left-0 h-[2px] w-10 transition-all duration-500 group-hover:w-16"
+          style={{ background: "var(--gold)" }}
+        />
+      </div>
 
-      {/* Corner glow on hover */}
-      <div
-        className="pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-        style={{
-          background:
-            "radial-gradient(circle, oklch(0.75 0.12 85 / 0.08), transparent 70%)",
-        }}
-      />
-
-      <div className="relative">
-        {/* Region label */}
-        <div className="mb-3 flex items-center gap-2">
-          <MapPin
-            className="h-3.5 w-3.5"
-            style={{ color: "var(--gold-dark)" }}
-          />
-          <span className="text-xs font-medium uppercase tracking-wider text-muted-foreground">
-            {region}
-          </span>
-        </div>
-
-        {/* County name */}
-        <h3 className="mb-4 text-xl font-bold tracking-tight text-foreground transition-colors duration-300 group-hover:text-navy">
+      {/* Text */}
+      <div className="flex flex-col gap-2 px-6 py-5">
+        <h3
+          className="font-heading text-xl font-medium leading-tight tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+          style={{ color: "var(--navy-dark)" }}
+        >
           {name}
         </h3>
-
-        {/* Town count badge */}
-        <div className="flex items-center justify-between">
-          <span
-            className="inline-flex items-center rounded-full px-3 py-1 text-xs font-bold"
-            style={{
-              backgroundColor: "oklch(0.75 0.12 85 / 0.1)",
-              color: "var(--gold-dark)",
-            }}
-          >
-            {townCount} {townCount === 1 ? "town" : "towns"}
-          </span>
-
-          <span
-            className="text-sm font-semibold transition-all duration-300 group-hover:tracking-wide"
-            style={{ color: "var(--gold-dark)" }}
-          >
-            View &rarr;
-          </span>
-        </div>
+        <p
+          className="numeral-tabular text-[11px] font-medium uppercase tracking-[0.22em]"
+          style={{ color: "oklch(0.50 0.02 255)" }}
+        >
+          {townCount} {townCount === 1 ? "town" : "towns"}
+        </p>
+        <ArrowUpRight
+          className="absolute right-4 top-4 h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+          style={{ color: "oklch(1 0 0 / 0.9)" }}
+        />
       </div>
     </Link>
   );

@@ -8,7 +8,8 @@ export function ConvexClientProvider({ children }: { children: ReactNode }) {
 
   const client = useMemo(() => {
     if (!convexUrl) return null;
-    return new ConvexReactClient(convexUrl);
+    
+return new ConvexReactClient(convexUrl);
   }, [convexUrl]);
 
   if (!client) {

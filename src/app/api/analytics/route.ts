@@ -9,7 +9,8 @@ function isAuthorized(request: NextRequest): boolean {
   const token = request.headers.get("x-analytics-token");
   const expected = process.env.ANALYTICS_SECRET;
   if (!expected) return false;
-  return token === expected;
+  
+return token === expected;
 }
 
 export async function GET(request: NextRequest) {
@@ -76,7 +77,8 @@ export async function GET(request: NextRequest) {
                 ORDER BY day`,
           args: [siteId, `-${days} days`],
         });
-        return NextResponse.json(result.rows);
+        
+return NextResponse.json(result.rows);
       }
 
       case "top_pages": {
@@ -89,7 +91,8 @@ export async function GET(request: NextRequest) {
                 LIMIT 20`,
           args: [siteId, `-${days} days`],
         });
-        return NextResponse.json(result.rows);
+        
+return NextResponse.json(result.rows);
       }
 
       case "referrers": {
@@ -107,7 +110,8 @@ export async function GET(request: NextRequest) {
                 LIMIT 20`,
           args: [siteId, `-${days} days`],
         });
-        return NextResponse.json(result.rows);
+        
+return NextResponse.json(result.rows);
       }
 
       case "countries": {
@@ -120,7 +124,8 @@ export async function GET(request: NextRequest) {
                 LIMIT 20`,
           args: [siteId, `-${days} days`],
         });
-        return NextResponse.json(result.rows);
+        
+return NextResponse.json(result.rows);
       }
 
       case "devices": {
@@ -138,7 +143,8 @@ export async function GET(request: NextRequest) {
                 ORDER BY visitors DESC`,
           args: [siteId, `-${days} days`],
         });
-        return NextResponse.json(result.rows);
+        
+return NextResponse.json(result.rows);
       }
 
       case "scroll_depth": {
@@ -155,7 +161,8 @@ export async function GET(request: NextRequest) {
             ? [siteId, `-${days} days`, path]
             : [siteId, `-${days} days`],
         });
-        return NextResponse.json(result.rows);
+        
+return NextResponse.json(result.rows);
       }
 
       case "heatmap": {
@@ -171,7 +178,8 @@ export async function GET(request: NextRequest) {
                 LIMIT 5000`,
           args: [siteId, path || "/", `-${days} days`],
         });
-        return NextResponse.json(result.rows);
+        
+return NextResponse.json(result.rows);
       }
 
       case "live": {
@@ -181,7 +189,8 @@ export async function GET(request: NextRequest) {
                 WHERE site_id = ? AND event_type = 'pageview' AND created_at >= datetime('now', '-5 minutes')`,
           args: [siteId],
         });
-        return NextResponse.json({ active: result.rows[0]?.active ?? 0 });
+        
+return NextResponse.json({ active: result.rows[0]?.active ?? 0 });
       }
 
       case "sites": {
@@ -189,7 +198,8 @@ export async function GET(request: NextRequest) {
           sql: `SELECT * FROM sites ORDER BY name`,
           args: [],
         });
-        return NextResponse.json(result.rows);
+        
+return NextResponse.json(result.rows);
       }
 
       default:
@@ -200,7 +210,8 @@ export async function GET(request: NextRequest) {
     }
   } catch (error) {
     console.error("Analytics query error:", error);
-    return NextResponse.json(
+    
+return NextResponse.json(
       { error: "Query failed" },
       { status: 500 }
     );

@@ -12,7 +12,8 @@ export function DealRoomCta({
   label = "Get Indicative Terms",
 }: DealRoomCtaProps) {
   const searchParams = new URLSearchParams(params);
-  return (
+  
+return (
     <Button
       asChild
       size="lg"

@@ -7,6 +7,7 @@ import { ArrowRight, ArrowLeft, Clock, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { GuideMarketEvidence } from "@/components/guides/guide-market-evidence";
 import { JsonLd } from "@/components/ui/json-ld";
+import { PageHero } from "@/components/editorial/primitives";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import { GUIDES, getGuideBySlug, getRelatedGuides } from "@/lib/guides";
 import { getGuideMarketData } from "@/lib/local-market-data";
@@ -144,96 +145,78 @@ export default async function GuidePage({ params }: PageProps) {
         }
       : null;
 
+  // VideoObject schema — emitted only when a video is wired up. Duration in
+  // ISO-8601 format (PT{N}S). thumbnailUrl falls back to the page hero image.
+  const videoJsonLd = guide.videoUrl
+    ? {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        name: guide.title,
+        description: guide.excerpt,
+        thumbnailUrl: guide.videoThumbnailUrl
+          ?? unsplashUrl((SITE_IMAGES[`guide-${guide.category}`] ?? SITE_IMAGES["guides-hero"]).id, 1280, 80),
+        uploadDate: guide.datePublished,
+        contentUrl: guide.videoUrl,
+        duration: guide.videoDurationSeconds
+          ? `PT${Math.round(guide.videoDurationSeconds)}S`
+          : undefined,
+        publisher: {
+          "@type": "Organization",
+          name: SITE_NAME,
+          url: SITE_URL,
+        },
+      }
+    : null;
+
   return (
     <>
       <JsonLd data={articleJsonLd} />
       <JsonLd data={breadcrumbJsonLd} />
       {faqJsonLd && <JsonLd data={faqJsonLd} />}
+      {videoJsonLd && <JsonLd data={videoJsonLd} />}
 
-      {/* Hero Section */}
-      <section className="noise-overlay relative overflow-hidden py-20 text-white sm:py-28">
-        {/* Background photo - category-specific */}
-        <Image
-          src={unsplashUrl((SITE_IMAGES[`guide-${guide.category}`] ?? SITE_IMAGES["guides-hero"]).id, 1920, 75)}
-          alt=""
-          fill
-          className="object-cover"
-          priority
-        />
-        {/* Dark overlay */}
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(135deg, oklch(0.14 0.05 255 / 0.90) 0%, oklch(0.22 0.06 255 / 0.85) 50%, oklch(0.14 0.05 260 / 0.92) 100%)",
-          }}
-        />
-
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Breadcrumbs */}
-          <nav className="mb-8">
-            <ol className="flex items-center gap-2 text-sm text-white/40">
-              <li>
-                <Link href="/" className="hover:text-white/70">
-                  Home
-                </Link>
-              </li>
-              <li>/</li>
-              <li>
-                <Link href="/guides" className="hover:text-white/70">
-                  Guides
-                </Link>
-              </li>
-              <li>/</li>
-              <li className="text-white/60">{guide.title.split(":")[0]}</li>
-            </ol>
-          </nav>
-
-          <div
-            className="mb-8 h-[2px] w-20"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
-
-          <div className="mb-5 flex items-center gap-3">
-            <span className="flex items-center gap-1 text-xs font-bold text-white/50">
-              <Clock className="h-3.5 w-3.5" />
-              {guide.readingTime}
-            </span>
-            <span className="text-xs text-white/30">
-              Updated{" "}
-              {new Date(guide.dateModified).toLocaleDateString("en-GB", {
-                month: "long",
-                year: "numeric",
-              })}
-            </span>
-          </div>
-
-          <h1 className="max-w-4xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl">
-            {guide.title}
-          </h1>
-
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/60">
-            {guide.excerpt}
-          </p>
-        </div>
-
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[2px]"
-          style={{
-            background:
-              "linear-gradient(90deg, transparent 0%, var(--gold) 20%, var(--gold) 80%, transparent 100%)",
-            opacity: 0.35,
-          }}
-        />
-      </section>
+      <PageHero
+        tone="paper"
+        breadcrumbs={[
+          { label: "Home", href: "/" },
+          { label: "Guides", href: "/guides" },
+          { label: guide.title.split(":")[0] },
+        ]}
+        eyebrow={
+          <>
+            {guide.readingTime} read &middot; Updated{" "}
+            {new Date(guide.dateModified).toLocaleDateString("en-GB", {
+              month: "long",
+              year: "numeric",
+            })}
+          </>
+        }
+        title={guide.title}
+        deck={guide.excerpt}
+      />
 
       {/* Article Content */}
       <section className="bg-background py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
+            {/* Explainer video — lazy-loaded above the article body */}
+            {guide.videoUrl && (
+              <div className="mb-12 overflow-hidden rounded-xl border border-border bg-black">
+                <video
+                  src={guide.videoUrl}
+                  controls
+                  preload="none"
+                  poster={
+                    guide.videoThumbnailUrl
+                    ?? unsplashUrl((SITE_IMAGES[`guide-${guide.category}`] ?? SITE_IMAGES["guides-hero"]).id, 1280, 80)
+                  }
+                  className="aspect-video w-full"
+                >
+                  <track kind="captions" />
+                </video>
+              </div>
+            )}
+
             {/* Table of contents */}
             <nav className="mb-12 rounded-xl border border-border bg-muted/30 p-6">
               <p className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-muted-foreground">
@@ -262,7 +245,8 @@ export default async function GuidePage({ params }: PageProps) {
                 <div className="guide-content max-w-none text-base leading-relaxed text-muted-foreground">
                   {section.content.map((paragraph, j) => {
                     const isBlock = paragraph.trimStart().startsWith('<table') || paragraph.trimStart().startsWith('<div');
-                    return isBlock ? (
+                    
+return isBlock ? (
                       <div key={j} className="my-8" dangerouslySetInnerHTML={{ __html: paragraph }} />
                     ) : (
                       <p key={j} className="mb-5" dangerouslySetInnerHTML={{ __html: paragraph }} />

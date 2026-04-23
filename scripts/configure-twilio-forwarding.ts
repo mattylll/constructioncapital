@@ -13,7 +13,10 @@
  *                          (e.g. https://constructioncapital.co.uk/api/twilio/voice)
  */
 
-import "dotenv/config";
+import * as dotenv from "dotenv";
+import * as path from "path";
+
+dotenv.config({ path: path.join(process.cwd(), ".env.local") });
 
 const {
   TWILIO_ACCOUNT_SID,

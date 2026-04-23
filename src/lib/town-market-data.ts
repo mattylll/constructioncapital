@@ -883,5 +883,6 @@ export function getTownMarketData(
   const base = TOWN_MARKET_DATA[key];
   if (!base) return undefined;
   const extra = ENRICHMENT[key];
-  return extra ? { ...base, ...extra } : base;
+  
+return extra ? { ...base, ...extra } : base;
 }

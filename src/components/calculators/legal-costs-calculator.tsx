@@ -10,9 +10,7 @@ import {
   parseCurrency,
   formatGBP,
   formatCurrencyInput,
-} from "@/components/calculators/shared";
-import { DealRoomCta } from "@/components/calculators/shared";
-import { Disclaimer } from "@/components/calculators/shared";
+ DealRoomCta , Disclaimer } from "@/components/calculators/shared";
 
 /* ------------------------------------------------------------------ */
 /*  Types                                                              */
@@ -57,7 +55,8 @@ function getLandRegistryFee(value: number): number {
   if (value <= 200000) return 95;
   if (value <= 500000) return 135;
   if (value <= 1000000) return 270;
-  return 455;
+  
+return 455;
 }
 
 /* ------------------------------------------------------------------ */

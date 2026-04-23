@@ -89,7 +89,7 @@ export function ExitIntentModal() {
           <Button
             asChild
             variant="outline"
-            className="h-12 border-white/15 text-sm text-white hover:bg-white/10"
+            className="h-12 border-white/15 bg-transparent text-sm text-white hover:bg-white/10 hover:text-white"
           >
             <a href={`tel:${CONTACT.phoneRaw}`}>
               <Phone className="mr-2 h-4 w-4" style={{ color: "var(--gold)" }} />
@@ -101,7 +101,7 @@ export function ExitIntentModal() {
           <Button
             asChild
             variant="outline"
-            className="h-12 border-white/15 text-sm text-white hover:bg-white/10"
+            className="h-12 border-white/15 bg-transparent text-sm text-white hover:bg-white/10 hover:text-white"
           >
             <Link href="/guides">
               <BookOpen className="mr-2 h-4 w-4" style={{ color: "var(--gold)" }} />

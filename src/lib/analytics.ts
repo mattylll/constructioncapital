@@ -15,7 +15,7 @@ type GTagEvent = {
 
 function gtag(...args: unknown[]) {
   if (typeof window === "undefined") return;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+   
   const w = window as any;
   if (typeof w.gtag === "function") {
     w.gtag(...args);

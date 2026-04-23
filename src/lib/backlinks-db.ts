@@ -13,7 +13,8 @@ export function getBacklinksDb(): Client {
   }
 
   client = createClient({ url, authToken });
-  return client;
+  
+return client;
 }
 
 /**

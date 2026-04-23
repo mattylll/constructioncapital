@@ -13,7 +13,8 @@ export function getAnalyticsDb(): Client {
   }
 
   client = createClient({ url, authToken });
-  return client;
+  
+return client;
 }
 
 /**

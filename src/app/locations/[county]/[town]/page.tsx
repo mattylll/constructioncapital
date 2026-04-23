@@ -21,6 +21,7 @@ import { Breadcrumbs } from "@/components/locations/breadcrumbs";
 import { RelatedTowns } from "@/components/locations/related-towns";
 import { LocationCTA } from "@/components/locations/location-cta";
 import { JsonLd } from "@/components/ui/json-ld";
+import { CTAButton, PageHero } from "@/components/editorial/primitives";
 import { SERVICES } from "@/lib/services";
 import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 import { getCaseStudiesByCounty } from "@/lib/case-studies";
@@ -47,6 +48,8 @@ import { RecentSoldPrices } from "@/components/locations/recent-sold-prices";
 import { PlanningApplicationsTable } from "@/components/locations/planning-applications-table";
 import { LocalGdvCalculator } from "@/components/locations/local-gdv-calculator";
 import { getGuidesByLocation } from "@/lib/guides";
+import { getLocationVideoId } from "@/lib/location-videos";
+import { LocationVideo } from "@/components/locations/location-video";
 
 // ISR configuration
 export const dynamicParams = true;
@@ -72,12 +75,14 @@ function slugify(name: string): string {
 function formatPriceShort(n: number): string {
   if (n >= 1_000_000) return `£${(n / 1_000_000).toFixed(1)}m`;
   if (n >= 1000) return `£${Math.round(n / 1000)}k`;
-  return `£${n}`;
+  
+return `£${n}`;
 }
 
 function formatPrice(n: number): string {
   if (n >= 1_000_000) return `£${(n / 1_000_000).toFixed(2)}m`.replace(".00m", "m");
-  return `£${Math.round(n).toLocaleString("en-GB")}`;
+  
+return `£${Math.round(n).toLocaleString("en-GB")}`;
 }
 
 // Helper to render text with embedded links
@@ -171,6 +176,7 @@ export default async function TownPage({ params }: PageProps) {
 
   const localCaseStudies = getCaseStudiesByCounty(county);
   const relatedGuides = getGuidesByLocation(county);
+  const videoId = getLocationVideoId(county, town);
   const townMarketData = getTownMarketData(county, town);
   const planningData = getPlanningData(county, town);
   const soldData = getSoldData(county, town);
@@ -178,7 +184,8 @@ export default async function TownPage({ params }: PageProps) {
   const realRelated = getRealRelatedTowns(county, town, 6);
   const relatedTowns = realRelated.map((t) => {
     const relStats = getTownStats(county, t.slug);
-    return {
+    
+return {
       name: t.name,
       slug: t.slug,
       countySlug: county,
@@ -290,124 +297,74 @@ export default async function TownPage({ params }: PageProps) {
       <JsonLd data={breadcrumbJsonLd} />
       <JsonLd data={localBusinessJsonLd} />
       {faqJsonLd && <JsonLd data={faqJsonLd} />}
+      {videoId && (
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            name: `${townName} Property Market Update - ${SITE_NAME}`,
+            description: `Data-driven property market update for ${townName}, ${countyName}. Covering median prices, transaction volumes, year-on-year trends, and development finance opportunities.`,
+            thumbnailUrl: `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
+            uploadDate: "2026-04-17",
+            contentUrl: `https://www.youtube.com/watch?v=${videoId}`,
+            embedUrl: `https://www.youtube-nocookie.com/embed/${videoId}`,
+            publisher: {
+              "@type": "Organization",
+              name: SITE_NAME,
+              url: SITE_URL,
+            },
+          }}
+        />
+      )}
 
       {/* Hero Section */}
-      <section className="hero-gradient noise-overlay relative overflow-hidden py-20 text-white sm:py-28">
-        {/* Architectural grid background */}
-        <div className="pointer-events-none absolute inset-0">
-          <svg
-            className="h-full w-full opacity-[0.035]"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <defs>
-              <pattern
-                id="town-hero-grid"
-                width="80"
-                height="80"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 80 0 L 0 0 0 80"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#town-hero-grid)" />
-          </svg>
-        </div>
-
-        {/* Radial glow */}
-        <div
-          className="pointer-events-none absolute left-1/4 top-1/2 -translate-y-1/2"
-          style={{
-            width: "600px",
-            height: "500px",
-            background:
-              "radial-gradient(ellipse, oklch(0.75 0.12 85 / 0.08) 0%, transparent 60%)",
-          }}
-        />
-
-        {/* Diagonal gold beam */}
-        <div
-          className="pointer-events-none absolute -right-40 top-0 h-[160%] w-[2px] origin-top-right rotate-[22deg]"
-          style={{
-            background:
-              "linear-gradient(180deg, transparent 0%, var(--gold) 30%, var(--gold) 50%, transparent 100%)",
-            opacity: 0.12,
-          }}
-        />
-
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-8"><Breadcrumbs items={breadcrumbItems} /></div>
-
-          <div className="flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
-            <div className="max-w-2xl flex-1">
-              <div className="mb-8 h-[2px] w-20" style={{ background: "linear-gradient(90deg, var(--gold), var(--gold-light))" }} />
-              <p className="mb-5 text-xs font-bold uppercase tracking-[0.35em] sm:text-sm" style={{ color: "var(--gold)" }}>
-                {countyName}
-              </p>
-
-              <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl">
-                <span className="gold-gradient-text italic">{townName}</span>
-                <br />Development Finance
-              </h1>
-
-              <p className="mt-6 text-lg leading-relaxed text-white/60 sm:text-xl">
-                Expert property development finance in {townName}, {countyName}.
-                {soldData ? ` Median price ${formatPrice(soldData.stats.medianPrice)}, ${soldData.stats.transactionCount12m.toLocaleString("en-GB")} annual sales.` : ""}{" "}
-                We connect developers with competitive funding from 100+ lenders.
-              </p>
-
-              <div className="mt-10">
-                <Button asChild size="lg" className="cta-shimmer h-14 bg-gold px-10 text-base font-bold text-navy-dark shadow-lg transition-all duration-300 hover:bg-gold-dark">
-                  <Link href="/deal-room">
-                    Start Your {townName} Deal
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-              </div>
-            </div>
-
-            {/* Key stats */}
-            {soldData && (
-              <div className="grid w-full grid-cols-2 gap-3 md:w-[280px] md:shrink-0">
-                <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
-                  <PoundSterling className="mb-2 h-4 w-4 text-gold/70" />
-                  <p className="text-2xl font-black tracking-tight" style={{ color: "var(--gold)" }}>{formatPriceShort(soldData.stats.medianPrice)}</p>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/40">Median Price</p>
-                </div>
-                <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
-                  <BarChart3 className="mb-2 h-4 w-4 text-gold/70" />
-                  <p className="text-2xl font-black tracking-tight" style={{ color: "var(--gold)" }}>{soldData.stats.transactionCount12m.toLocaleString("en-GB")}</p>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/40">Sales (12m)</p>
-                </div>
-                <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
-                  {soldData.stats.yoyChange >= 0 ? <TrendingUp className="mb-2 h-4 w-4 text-green-400/70" /> : <TrendingDown className="mb-2 h-4 w-4 text-red-400/70" />}
-                  <p className={`text-2xl font-black tracking-tight ${soldData.stats.yoyChange >= 0 ? "text-green-400" : "text-red-400"}`}>{soldData.stats.yoyChange > 0 ? "+" : ""}{soldData.stats.yoyChange}%</p>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/40">YoY Change</p>
-                </div>
-                <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
-                  <Building2 className="mb-2 h-4 w-4 text-gold/70" />
-                  <p className="text-2xl font-black tracking-tight" style={{ color: "var(--gold)" }}>{soldData.stats.newBuildCount}</p>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/40">New Builds</p>
-                </div>
-              </div>
-            )}
+      <PageHero
+        tone="paper"
+        breadcrumbs={breadcrumbItems}
+        eyebrow={countyName}
+        title={
+          <>
+            <span className="italic" style={{ color: "var(--navy)" }}>{townName}</span>
+            <br />
+            development finance.
+          </>
+        }
+        deck={
+          <>
+            Expert property development finance in {townName}, {countyName}.
+            {soldData
+              ? ` Median price ${formatPrice(soldData.stats.medianPrice)}, ${soldData.stats.transactionCount12m.toLocaleString("en-GB")} annual sales. `
+              : " "}
+            We connect developers with competitive funding from 100+ lenders.
+          </>
+        }
+        stats={
+          soldData
+            ? [
+                { label: "Median price", value: formatPriceShort(soldData.stats.medianPrice) },
+                { label: "Sales (12m)", value: soldData.stats.transactionCount12m.toLocaleString("en-GB") },
+                {
+                  label: "YoY change",
+                  value: `${soldData.stats.yoyChange > 0 ? "+" : ""}${soldData.stats.yoyChange}%`,
+                },
+              ]
+            : undefined
+        }
+        actions={
+          <div className="flex flex-wrap items-center gap-4">
+            <CTAButton href="/deal-room" variant="navy" size="lg">
+              Start a {townName} deal
+            </CTAButton>
+            <a
+              href={`tel:${CONTACT.phoneRaw}`}
+              className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+              style={{ color: "var(--navy-dark)" }}
+            >
+              Or call {CONTACT.phone}
+            </a>
           </div>
-        </div>
-
-        {/* Bottom gold edge */}
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[2px]"
-          style={{
-            background:
-              "linear-gradient(90deg, transparent 0%, var(--gold) 20%, var(--gold) 80%, transparent 100%)",
-            opacity: 0.35,
-          }}
-        />
-      </section>
+        }
+      />
 
       {/* Location Hero Image */}
       <LocationHeroImage
@@ -444,7 +401,8 @@ export default async function TownPage({ params }: PageProps) {
             {(() => {
               const townReport = getReportByTownSlug(county, town);
               const countyReport = getReportByCountySlug(county);
-              return (
+              
+return (
                 <div className="mt-6 flex flex-col gap-2">
                   {townReport && (
                     <Link
@@ -470,6 +428,15 @@ export default async function TownPage({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      {/* Location Market Update Video */}
+      <LocationVideo
+        townName={townName}
+        countyName={countyName}
+        countySlug={county}
+        townSlug={town}
+        youtubeId={videoId}
+      />
 
       {/* Services Grid - core offering, positioned high for user intent */}
       <section className="bg-muted/30 py-16 sm:py-20">

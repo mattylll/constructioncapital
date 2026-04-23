@@ -26,7 +26,8 @@ export function QuickEnquiryForm() {
       setErrors((prev) => {
         const next = { ...prev };
         delete next[field];
-        return next;
+        
+return next;
       });
     }
   }
@@ -43,7 +44,8 @@ export function QuickEnquiryForm() {
     }
     if (!formData.phone.trim()) newErrors.phone = "Phone number is required";
     setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
+    
+return Object.keys(newErrors).length === 0;
   }
 
   async function handleSubmit(e: React.FormEvent) {

@@ -6,7 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Breadcrumbs } from "@/components/locations/breadcrumbs";
 import { LocationCTA } from "@/components/locations/location-cta";
 import { JsonLd } from "@/components/ui/json-ld";
-import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import { CTAButton, PageHero } from "@/components/editorial/primitives";
+import { CONTACT, SITE_NAME, SITE_URL } from "@/lib/constants";
 import { getCaseStudiesByCounty } from "@/lib/case-studies";
 import { getCountyOverview } from "@/lib/location-content";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
@@ -27,13 +28,15 @@ function deslugify(slug: string): string {
 
 function formatPrice(n: number): string {
   if (n >= 1_000_000) return `£${(n / 1_000_000).toFixed(2)}m`.replace(".00m", "m");
-  return `£${Math.round(n).toLocaleString("en-GB")}`;
+  
+return `£${Math.round(n).toLocaleString("en-GB")}`;
 }
 
 function formatPriceShort(n: number): string {
   if (n >= 1_000_000) return `£${(n / 1_000_000).toFixed(1)}m`;
   if (n >= 1000) return `£${Math.round(n / 1000)}k`;
-  return `£${n}`;
+  
+return `£${n}`;
 }
 
 const TYPE_LABELS: Record<string, string> = { D: "Detached", S: "Semi-detached", T: "Terraced", F: "Flat/Apartment" };
@@ -163,79 +166,53 @@ export default async function CountyPage({ params }: PageProps) {
       {faqJsonLd && <JsonLd data={faqJsonLd} />}
 
       {/* Hero with key stats */}
-      <section className="hero-gradient noise-overlay relative overflow-hidden py-20 text-white sm:py-28">
-        <div className="pointer-events-none absolute inset-0">
-          <svg className="h-full w-full opacity-[0.035]" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <pattern id="county-hero-grid" width="80" height="80" patternUnits="userSpaceOnUse">
-                <path d="M 80 0 L 0 0 0 80" fill="none" stroke="currentColor" strokeWidth="0.5" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#county-hero-grid)" />
-          </svg>
-        </div>
-
-        <div className="pointer-events-none absolute left-1/4 top-1/2 -translate-y-1/2" style={{ width: "600px", height: "500px", background: "radial-gradient(ellipse, oklch(0.75 0.12 85 / 0.08) 0%, transparent 60%)" }} />
-
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-8"><Breadcrumbs items={breadcrumbItems} /></div>
-
-          <div className="flex flex-col gap-10 md:flex-row md:items-center md:justify-between">
-            {/* Left: title + CTA */}
-            <div className="max-w-2xl flex-1">
-              <div className="mb-8 h-[2px] w-20" style={{ background: "linear-gradient(90deg, var(--gold), var(--gold-light))" }} />
-              <p className="mb-5 text-xs font-bold uppercase tracking-[0.35em] sm:text-sm" style={{ color: "var(--gold)" }}>
-                {countyName}
-              </p>
-              <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl">
-                <span className="gold-gradient-text italic">{countyName}</span>
-                <br />Development Finance
-              </h1>
-              <p className="mt-6 text-lg leading-relaxed text-white/60 sm:text-xl">
-                Expert property development finance across {countyName}.
-                {agg ? ` ${agg.townCount} towns, ${agg.totalTransactions.toLocaleString("en-GB")} annual transactions, median price ${formatPrice(agg.medianPrice)}.` : ""}{" "}
-                We connect developers with competitive funding from our panel of 100+ lenders.
-              </p>
-              <div className="mt-10">
-                <Button asChild size="lg" className="cta-shimmer h-14 bg-gold px-10 text-base font-bold text-navy-dark shadow-lg transition-all duration-300 hover:bg-gold-dark">
-                  <Link href="/deal-room">
-                    Start Your {countyName} Deal
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-              </div>
-            </div>
-
-            {/* Right: key stats cards */}
-            {agg && (
-              <div className="grid w-full grid-cols-2 gap-3 md:w-[280px] md:shrink-0">
-                <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
-                  <PoundSterling className="mb-2 h-4 w-4 text-gold/70" />
-                  <p className="text-2xl font-black tracking-tight" style={{ color: "var(--gold)" }}>{formatPriceShort(agg.medianPrice)}</p>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/40">Median Price</p>
-                </div>
-                <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
-                  <BarChart3 className="mb-2 h-4 w-4 text-gold/70" />
-                  <p className="text-2xl font-black tracking-tight" style={{ color: "var(--gold)" }}>{agg.totalTransactions.toLocaleString("en-GB")}</p>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/40">Sales (12m)</p>
-                </div>
-                <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
-                  {agg.avgYoyChange >= 0 ? <TrendingUp className="mb-2 h-4 w-4 text-green-400/70" /> : <TrendingDown className="mb-2 h-4 w-4 text-red-400/70" />}
-                  <p className={`text-2xl font-black tracking-tight ${agg.avgYoyChange >= 0 ? "text-green-400" : "text-red-400"}`}>{agg.avgYoyChange > 0 ? "+" : ""}{agg.avgYoyChange}%</p>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/40">YoY Change</p>
-                </div>
-                <div className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
-                  <Building2 className="mb-2 h-4 w-4 text-gold/70" />
-                  <p className="text-2xl font-black tracking-tight" style={{ color: "var(--gold)" }}>{agg.totalNewBuilds.toLocaleString("en-GB")}</p>
-                  <p className="text-[10px] font-bold uppercase tracking-[0.15em] text-white/40">New Builds</p>
-                </div>
-              </div>
-            )}
+      <PageHero
+        tone="paper"
+        breadcrumbs={breadcrumbItems}
+        eyebrow={countyName}
+        title={
+          <>
+            <span className="italic" style={{ color: "var(--navy)" }}>{countyName}</span>
+            <br />
+            development finance.
+          </>
+        }
+        deck={
+          <>
+            Expert property development finance across {countyName}.
+            {agg
+              ? ` ${agg.townCount} towns, ${agg.totalTransactions.toLocaleString("en-GB")} annual transactions, median price ${formatPrice(agg.medianPrice)}. `
+              : " "}
+            We connect developers with competitive funding from our panel of 100+ lenders.
+          </>
+        }
+        stats={
+          agg
+            ? [
+                { label: "Median price", value: formatPriceShort(agg.medianPrice) },
+                { label: "Sales (12m)", value: agg.totalTransactions.toLocaleString("en-GB") },
+                {
+                  label: "YoY change",
+                  value: `${agg.avgYoyChange > 0 ? "+" : ""}${agg.avgYoyChange}%`,
+                },
+              ]
+            : undefined
+        }
+        actions={
+          <div className="flex flex-wrap items-center gap-4">
+            <CTAButton href="/deal-room" variant="navy" size="lg">
+              Start a {countyName} deal
+            </CTAButton>
+            <a
+              href={`tel:${CONTACT.phoneRaw}`}
+              className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+              style={{ color: "var(--navy-dark)" }}
+            >
+              Or call {CONTACT.phone}
+            </a>
           </div>
-        </div>
-
-        <div className="absolute bottom-0 left-0 right-0 h-[2px]" style={{ background: "linear-gradient(90deg, transparent 0%, var(--gold) 20%, var(--gold) 80%, transparent 100%)", opacity: 0.35 }} />
-      </section>
+        }
+      />
 
       {/* Location Hero Image */}
       <LocationHeroImage countySlug={county} locationName={countyName} />
@@ -334,7 +311,8 @@ export default async function CountyPage({ params }: PageProps) {
                       .map(([type, price]) => {
                         const national: Record<string, number> = { D: 420000, S: 265000, T: 230000, F: 225000 };
                         const diff = price - (national[type] || 0);
-                        return (
+                        
+return (
                           <tr key={type} className="border-b border-border last:border-0">
                             <td className="px-4 py-3 font-medium text-foreground">{TYPE_LABELS[type] || type}</td>
                             <td className="px-4 py-3 font-semibold text-foreground">{formatPrice(price)}</td>
@@ -501,7 +479,8 @@ export default async function CountyPage({ params }: PageProps) {
           <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {towns.map((town) => {
               const townAgg = agg?.towns.find(t => t.slug === town.slug);
-              return (
+              
+return (
                 <Link
                   key={town.slug}
                   href={`/locations/${county}/${town.slug}`}

@@ -1,148 +1,108 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import {
-  Users,
-  Zap,
-  Shield,
-  Building2,
-  Clock,
-  MapPin,
-  ArrowRight,
-  Check,
-  X,
-} from "lucide-react";
 
-import { Button } from "@/components/ui/button";
+import {
+  CTAButton,
+  EditorialSection,
+  Eyebrow,
+  PageHero,
+  ProseSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 import { JsonLd } from "@/components/ui/json-ld";
-import {
-  SITE_NAME,
-  SITE_URL,
-  CONTACT,
-  STATS,
-} from "@/lib/constants";
-import {
-  FUNDING_ROUTES,
-  COMPARISON_FEATURES,
-} from "@/lib/comparisons";
+import { CONTACT, SITE_NAME, SITE_URL } from "@/lib/constants";
+import { FUNDING_ROUTES } from "@/lib/comparisons";
 
 export const metadata: Metadata = {
-  title: "Why Choose Construction Capital | UK Development Finance Broker",
+  title: "When a Broker Earns Their Fee | Construction Capital",
   description:
-    "100+ lenders, 24hr indicative terms, expert deal structuring. Discover why UK property developers choose Construction Capital over going direct, high street banks, and online platforms.",
+    "An honest case for using a development finance broker. When going direct is fine, when a broker pays for themselves, what we actually do, and how we're paid.",
   alternates: { canonical: `${SITE_URL}/why-construction-capital` },
   openGraph: {
-    title: "Why Choose Construction Capital | UK Development Finance Broker",
+    title: "When a Broker Earns Their Fee | Construction Capital",
     description:
-      "100+ lenders, 24hr indicative terms, expert deal structuring. Discover why UK property developers choose Construction Capital.",
+      "An honest case for using a development finance broker — and when you can skip it.",
     url: `${SITE_URL}/why-construction-capital`,
     siteName: SITE_NAME,
     type: "website",
   },
 };
 
-const valueProps = [
+const whenYouDontNeedUs = [
   {
-    icon: Users,
-    title: "100+ Lender Panel",
-    description:
-      "We maintain relationships with over 100 specialist development finance lenders. One application from you triggers competition across the whole market - surfacing terms you would never find alone.",
+    title: "You have an existing lender you trust",
+    body:
+      "A repeat relationship with a lender who knows your track record, prices competitively, and moves quickly is genuinely hard to beat. If you've already got that, keep it &mdash; don't let a broker replace it out of self-interest.",
   },
   {
-    icon: Zap,
-    title: "24hr Indicative Terms",
-    description:
-      "Submit your deal and receive indicative terms within 24 hours. No weeks of waiting, no chasing relationship managers. We know which lenders have appetite for your project right now.",
+    title: "The deal is plain-vanilla",
+    body:
+      "Single-plot residential, modest leverage, comfortable LTV, planning fully in place, experienced sponsor, no unusual security. High-street banks underwrite this profile every day. A broker adds little here.",
   },
   {
-    icon: Building2,
-    title: "Specialist Deal Structuring",
-    description:
-      "Senior debt, mezzanine, equity, bridging - we structure the optimal capital stack for every project. Most developers leave money on the table by not exploring the full range of options.",
+    title: "You&rsquo;re not actually time-pressured",
+    body:
+      "If you have six months before drawdown, you can run a direct-market beauty parade yourself. The comparison-shopping has cost but it has value too &mdash; you'll learn the market. Brokers compress that into days; if you don't need that compression, save the fee.",
   },
   {
-    icon: Shield,
-    title: "No Upfront Fees",
-    description:
-      "We do not charge a penny until your facility completes. Our interests are fully aligned with yours - we only succeed when you get funded on terms that work.",
-  },
-  {
-    icon: Clock,
-    title: "25+ Years Experience",
-    description:
-      "Our team has structured over half a billion pounds of development finance. We have seen every deal type, every lender quirk, and every pitfall - so you do not have to learn the hard way.",
-  },
-  {
-    icon: MapPin,
-    title: "Nationwide Coverage",
-    description:
-      "From Central London to rural Scotland, we fund projects across every region of the UK. Our lender relationships span national banks, regional funds, and international capital sources.",
+    title: "You&rsquo;re looking for a mortgage, not a facility",
+    body:
+      "Owner-occupier residential mortgages are regulated consumer products with tight pricing and transparent comparison tools. Use a regulated mortgage adviser, not us.",
   },
 ];
 
-const faqs = [
+const whenTheMathChanges = [
   {
-    question: "Do I need a broker for development finance?",
-    answer:
-      "Strictly speaking, no - you can approach lenders directly. But without a broker, you are limited to one lender's terms with no market comparison. A specialist broker like Construction Capital competes 100+ lenders against each other, typically saving developers significantly more than the broker fee through better rates, higher leverage, and optimised deal structures.",
+    title: "You need more than one lender in the stack",
+    body:
+      "Mezzanine behind senior, preferred equity on top, a separate bridging line to keep options open. Co-ordinating two or three lenders to complete on the same day is what breaks DIY applications. We document facilities in parallel and manage intercreditor.",
   },
   {
-    question: "How much does a development finance broker cost?",
-    answer:
-      "Most specialist brokers charge an arrangement fee of 1-2% of the facility, payable only on completion. At Construction Capital, we charge no upfront fees whatsoever. The arrangement fee is typically deducted from the facility at drawdown, meaning you pay nothing out of pocket. The savings we achieve through lender competition almost always exceed the fee.",
+    title: "Your scheme is outside the plain-vanilla box",
+    body:
+      "PD conversion, pre-planning acquisition, unusual security, first-time developer stretching into a bigger scheme, complex covenant package. Specialist lenders exist for all of these, but they're invisible to Google and don't run call centres. The panel is the product.",
   },
   {
-    question: "Can't I just go direct to a lender and save the broker fee?",
-    answer:
-      "You can, but you will likely end up paying more overall. Lenders do not reduce their rates or fees because you approach them directly - they simply keep the margin a broker would have negotiated away. Brokers with volume relationships and panel leverage consistently secure better terms than individual developers approaching lenders cold.",
+    title: "Leverage matters more than margin",
+    body:
+      "If an extra 10% LTGDV lets you take on a second scheme, the broker fee is a rounding error. Stretch senior, senior-plus-mezz, and JV equity regularly add leverage that direct-to-one-lender simply can't. That's where the real money moves.",
   },
   {
-    question: "How quickly will I receive terms?",
-    answer:
-      "We provide indicative terms within 24 hours of receiving your project details. Formal heads of terms typically follow within 3-5 working days. Full completion - including valuation, legals, and due diligence - usually takes 2-4 weeks for standard deals, though we have completed urgent facilities in under 7 days.",
-  },
-  {
-    question: "What if my project is complex or unusual?",
-    answer:
-      "Complex projects are where a specialist broker adds the most value. Whether it is a planning-contingent facility, a mixed-use scheme, a barn conversion, or a deal requiring mezzanine and equity alongside senior debt - we have structured it before. Our lender panel includes niche funds and alternative capital sources that most developers do not know exist.",
+    title: "Time-to-completion is the deal",
+    body:
+      "Auction purchases, chain breaks, retender situations, funding a deposit on a second site. Brokers with live relationships collapse weeks of enquiry/reply cycles into a single call. If you're counting days, that compression is the entire point.",
   },
 ];
 
-const ratingColour: Record<string, string> = {
-  excellent: "bg-emerald-500/20 text-emerald-400",
-  good: "bg-blue-500/20 text-blue-400",
-  average: "bg-amber-500/20 text-amber-400",
-  poor: "bg-red-500/20 text-red-400",
-  "n/a": "bg-white/5 text-white/25",
-};
-
-const ratingLabel: Record<string, string> = {
-  excellent: "Excellent",
-  good: "Good",
-  average: "Average",
-  poor: "Poor",
-  "n/a": "N/A",
-};
-
-const routeShortNames: Record<string, string> = {
-  "specialist-broker": "Specialist Broker",
-  "direct-to-lender": "Direct to Lender",
-  "high-street-bank": "High Street Bank",
-  "online-platform": "Online Platform",
-  "mortgage-broker": "Mortgage Broker",
-};
-
-const testimonials = [
+const whatWeActuallyDo = [
   {
-    quote:
-      "Structured our \u00a312M development facility in under two weeks. Direct access to credit committees made the difference.",
-    name: "JAMES WHITFIELD",
-    role: "Whitfield Developments",
+    title: "Pre-screen against 100+ lenders before writing a line",
+    body:
+      "We know which lenders have appetite this week, which are cold on the sector, and which credit committees sit on Thursdays. Saves you applying to the three lenders who will politely decline.",
   },
   {
-    quote:
-      "They engineered a mezzanine structure that reduced our equity requirement by 40%. Nobody else even suggested it.",
-    name: "SARAH CHEN",
-    role: "Apex Property Group",
+    title: "Package the deal the way credit committees want to read it",
+    body:
+      "A well-drafted information memorandum cuts weeks off the decision. Badly packaged deals get relegated to the bottom of the credit pile; well-packaged ones get a decision in the next sitting.",
+  },
+  {
+    title: "Negotiate the commercial terms, not just the rate",
+    body:
+      "Arrangement fee, exit fee, monitoring surveyor frequency, drawdown tranche structure, non-utilisation fee, cost overrun facility, covenant tests. The total cost of a facility is at least ten line items; the headline rate is one of them.",
+  },
+  {
+    title: "Co-ordinate valuers, solicitors and monitoring surveyors",
+    body:
+      "Deals die in the handoffs. We sit between the five or six professional parties and make sure nothing falls through a gap. One point of contact, weekly status on every file, no dropped stitches.",
+  },
+  {
+    title: "Run two or three tracks in parallel",
+    body:
+      "We rarely back a single lender all the way to offer. Running parallel negotiations until the commercial terms are tight keeps lenders honest and gives you a fallback if the preferred route stumbles on valuation or legal.",
+  },
+  {
+    title: "Stay on the file through drawdown",
+    body:
+      "The process doesn't stop at the term sheet. We see every deal through valuation, legal, first drawdown and subsequent stage releases. Same broker from day one to practical completion.",
   },
 ];
 
@@ -151,390 +111,386 @@ export default function WhyConstructionCapitalPage() {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: SITE_URL,
-      },
-      {
-        "@type": "ListItem",
-        position: 2,
-        name: "Why Construction Capital",
-        item: `${SITE_URL}/why-construction-capital`,
-      },
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "When a broker earns their fee" },
     ],
-  };
-
-  const faqJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
   };
 
   return (
     <>
       <JsonLd data={breadcrumbJsonLd} />
-      <JsonLd data={faqJsonLd} />
 
-      {/* ━━━ HERO ━━━ */}
-      <section className="hero-gradient noise-overlay relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden py-32 text-center text-white">
-        <div className="relative z-10 mx-auto max-w-[900px] px-5 sm:px-8">
-          <div
-            className="mx-auto mb-6 h-[2px] w-14"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
-          <p
-            className="mb-6 text-[12px] font-bold tracking-[0.4em] uppercase"
-            style={{ color: "var(--gold)" }}
-          >
-            Why Choose Us
-          </p>
-          <h1 className="font-playfair text-[clamp(2.5rem,6vw,5rem)] font-bold leading-[0.95] tracking-[-0.02em]">
-            The Broker{" "}
-            <span style={{ color: "var(--gold)" }}>Advantage</span>
-          </h1>
-          <p className="mx-auto mt-6 max-w-[600px] text-lg leading-relaxed text-white/50">
-            Why the UK&apos;s most ambitious property developers use a specialist
-            broker - and why they choose {SITE_NAME}.
-          </p>
-          <div className="mt-10">
-            <Button
-              asChild
-              size="lg"
-              className="cta-shimmer bg-gold text-navy-dark hover:bg-gold-dark h-14 rounded-none px-10 text-sm font-bold uppercase tracking-[0.2em]"
+      <PageHero
+        tone="paper"
+        breadcrumbs={[
+          { label: "Home", href: "/" },
+          { label: "Why Construction Capital" },
+        ]}
+        eyebrow="The honest version of the pitch"
+        title={
+          <>
+            When a broker earns their fee.
+            <br />
+            <span className="italic" style={{ color: "var(--navy)" }}>
+              (And when they don&rsquo;t.)
+            </span>
+          </>
+        }
+        deck={
+          <>
+            Every broker website says the same thing: wider access, better
+            terms, expert advice. Most of that&rsquo;s true &mdash; some of
+            the time. Here&rsquo;s the honest argument. When going direct
+            is fine, when a broker pays for themselves, and how we&rsquo;re
+            paid when it comes to it.
+          </>
+        }
+        actions={
+          <CTAButton href="/deal-room" variant="navy" size="lg">
+            Start a deal
+          </CTAButton>
+        }
+      />
+
+      {/* ━━━ When you DON'T need us ━━━ */}
+      <EditorialSection tone="paper">
+        <SectionHeader
+          tone="paper"
+          eyebrow="First, the honest bit"
+          title={
+            <>
+              When you probably
+              <br />
+              <span className="italic" style={{ color: "var(--navy)" }}>
+                don&rsquo;t need a broker.
+              </span>
+            </>
+          }
+          body="We lose nothing by saying this out loud. If the deal fits one of these patterns, go direct and save the fee."
+        />
+        <ul
+          className="mt-14 grid grid-cols-1 gap-px border-y sm:grid-cols-2"
+          style={{
+            borderColor: "var(--stone-dark)",
+            backgroundColor: "var(--stone-dark)",
+          }}
+        >
+          {whenYouDontNeedUs.map((item) => (
+            <li
+              key={item.title}
+              className="flex flex-col gap-3 p-8"
+              style={{ background: "var(--paper)" }}
             >
-              <Link href="/deal-room">Start Your Deal</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
+              <div className="flex items-start gap-3">
+                <span
+                  aria-hidden
+                  className="mt-[0.55rem] block h-1 w-1 flex-shrink-0 rounded-full"
+                  style={{ background: "oklch(0.50 0.02 255)" }}
+                />
+                <h3
+                  className="font-heading text-xl font-medium leading-tight tracking-tight"
+                  style={{ color: "var(--navy-dark)" }}
+                  dangerouslySetInnerHTML={{ __html: item.title }}
+                />
+              </div>
+              <p
+                className="pl-4 text-[15px] leading-[1.6]"
+                style={{ color: "oklch(0.42 0.03 255)" }}
+                dangerouslySetInnerHTML={{ __html: item.body }}
+              />
+            </li>
+          ))}
+        </ul>
+      </EditorialSection>
 
-      {/* ━━━ THE PROBLEM ━━━ */}
-      <section
-        className="py-24 sm:py-32"
-        style={{ background: "oklch(0.12 0.045 255)" }}
-      >
-        <div className="mx-auto max-w-[800px] px-5 sm:px-8">
-          <p
-            className="mb-4 text-[12px] font-bold tracking-[0.4em] uppercase"
-            style={{ color: "var(--gold)" }}
-          >
-            The Problem
-          </p>
-          <h2 className="mb-10 text-[clamp(2rem,5vw,3.5rem)] font-black leading-[0.9] tracking-[-0.03em] text-white">
-            DEVELOPMENT FINANCE<br />IS BROKEN<span style={{ color: "var(--gold)" }}>.</span>
-          </h2>
+      {/* ━━━ When the MATH changes ━━━ */}
+      <EditorialSection tone="navy-dark">
+        <SectionHeader
+          tone="navy-dark"
+          eyebrow="Now the other side"
+          title={
+            <>
+              When a broker pays for themselves
+              <br />
+              <span className="italic" style={{ color: "var(--gold-light)" }}>
+                many times over.
+              </span>
+            </>
+          }
+          body="Flip the pattern. Here's when the fee is a rounding error on the value delivered — and where most of our repeat business comes from."
+        />
+        <ul
+          className="mt-14 grid grid-cols-1 gap-px border-y sm:grid-cols-2"
+          style={{
+            borderColor: "oklch(1 0 0 / 0.14)",
+            backgroundColor: "oklch(1 0 0 / 0.14)",
+          }}
+        >
+          {whenTheMathChanges.map((item, i) => (
+            <li
+              key={item.title}
+              className="flex flex-col gap-4 p-8 sm:p-10"
+              style={{ background: "var(--navy-dark)" }}
+            >
+              <p
+                className="numeral-tabular font-heading text-3xl font-medium tracking-tight"
+                style={{ color: "var(--gold-light)" }}
+              >
+                {String(i + 1).padStart(2, "0")}
+              </p>
+              <h3
+                className="font-heading text-xl font-medium leading-tight tracking-tight"
+                style={{ color: "oklch(1 0 0 / 0.95)" }}
+              >
+                {item.title}
+              </h3>
+              <p
+                className="text-[15px] leading-[1.65]"
+                style={{ color: "oklch(1 0 0 / 0.72)" }}
+              >
+                {item.body}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </EditorialSection>
 
-          <div className="space-y-6 text-base leading-relaxed text-white/45">
-            <p>
-              The UK development finance market is fragmented across hundreds of
-              lenders - from challenger banks and specialist funds to family
-              offices and international capital sources. Each has different
-              appetites, criteria, and pricing. No single lender covers the whole
-              market, and no developer has time to approach them all.
-            </p>
-            <p>
-              Lender opacity makes the problem worse. Rates, fees, and criteria
-              are rarely published. Two identical projects can receive wildly
-              different terms from the same lender depending on timing, appetite,
-              and how the deal is presented. Without insider knowledge of credit
-              committee preferences, developers are negotiating blind.
-            </p>
-            <p>
-              Then there is structuring. Most developments need more than simple
-              senior debt. Mezzanine finance, equity partnerships, phased
-              drawdowns, planning-contingent facilities - the optimal capital
-              stack can save hundreds of thousands of pounds over the life of a
-              project. But structuring it correctly requires specialist
-              knowledge that most developers, and most generalist brokers,
-              simply do not have.
-            </p>
-            <p>
-              The result? Developers overpay for finance, accept suboptimal
-              leverage, or worse - lose deals entirely because they could not
-              move fast enough. That is the problem we solve.
-            </p>
-          </div>
-        </div>
-      </section>
+      {/* ━━━ What a broker actually does ━━━ */}
+      <EditorialSection tone="paper">
+        <SectionHeader
+          tone="paper"
+          eyebrow="What we actually do"
+          title={
+            <>
+              Six tasks a broker works on
+              <br />
+              <span className="italic" style={{ color: "var(--navy)" }}>
+                that a developer would skip.
+              </span>
+            </>
+          }
+          body="Not vibes. The concrete workflow from enquiry to drawdown. This is what the fee pays for."
+        />
+        <ol
+          className="mt-14 border-t"
+          style={{ borderColor: "var(--stone-dark)" }}
+        >
+          {whatWeActuallyDo.map((item, i) => (
+            <li
+              key={item.title}
+              className="grid grid-cols-12 items-baseline gap-4 border-b py-8 sm:gap-10"
+              style={{ borderColor: "var(--stone-dark)" }}
+            >
+              <p
+                className="numeral-tabular font-heading col-span-2 text-2xl font-medium tracking-tight sm:col-span-1 sm:text-[1.5rem]"
+                style={{ color: "var(--gold-dark)" }}
+              >
+                {String(i + 1).padStart(2, "0")}
+              </p>
+              <h3
+                className="font-heading col-span-10 text-xl font-medium leading-tight tracking-tight sm:col-span-5 sm:text-[1.4rem]"
+                style={{ color: "var(--navy-dark)" }}
+              >
+                {item.title}
+              </h3>
+              <p
+                className="col-span-12 text-[15px] leading-[1.65] sm:col-span-6"
+                style={{ color: "oklch(0.40 0.03 255)" }}
+              >
+                {item.body}
+              </p>
+            </li>
+          ))}
+        </ol>
+      </EditorialSection>
 
-      {/* ━━━ HOW WE'RE DIFFERENT ━━━ */}
-      <section
-        className="py-24 sm:py-32"
-        style={{ background: "oklch(0.10 0.04 255)" }}
-      >
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-8">
-          <p
-            className="mb-4 text-[12px] font-bold tracking-[0.4em] uppercase"
-            style={{ color: "var(--gold)" }}
-          >
-            How We&apos;re Different
-          </p>
-          <h2 className="mb-5 text-[clamp(2rem,5vw,3.5rem)] font-black leading-[0.9] tracking-[-0.03em] text-white">
-            THE CONSTRUCTION CAPITAL<br />DIFFERENCE<span style={{ color: "var(--gold)" }}>.</span>
-          </h2>
-          <p className="mb-16 max-w-[500px] text-base leading-relaxed text-white/35">
-            Six reasons why developers choose us over every other route to
-            funding.
-          </p>
-
-          <div className="grid gap-[2px] sm:grid-cols-2 lg:grid-cols-3">
-            {valueProps.map((vp) => {
-              const Icon = vp.icon;
-              return (
-                <div
-                  key={vp.title}
-                  className="p-8 transition-all duration-300 hover:bg-[oklch(0.75_0.12_85/0.03)]"
-                  style={{
-                    background: "oklch(1 0 0 / 0.02)",
-                    border: "1px solid oklch(1 0 0 / 0.04)",
-                  }}
-                >
-                  <Icon
-                    className="mb-4 h-7 w-7"
-                    style={{ color: "var(--gold)" }}
-                  />
-                  <h3 className="mb-3 text-lg font-black tracking-[-0.01em] text-white">
-                    {vp.title}
-                  </h3>
-                  <p className="text-sm leading-relaxed text-white/35">
-                    {vp.description}
-                  </p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ━━━ COMPARISON TABLE ━━━ */}
-      <section
-        className="py-24 sm:py-32"
-        style={{ background: "oklch(0.12 0.045 255)" }}
-      >
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-8">
-          <p
-            className="mb-4 text-[12px] font-bold tracking-[0.4em] uppercase"
-            style={{ color: "var(--gold)" }}
-          >
-            Compare Your Options
-          </p>
-          <h2 className="mb-5 text-[clamp(2rem,5vw,3.5rem)] font-black leading-[0.9] tracking-[-0.03em] text-white">
-            HOW WE<br />STACK UP<span style={{ color: "var(--gold)" }}>.</span>
-          </h2>
-          <p className="mb-16 max-w-[500px] text-base leading-relaxed text-white/35">
-            An honest comparison of every route to development finance.
-          </p>
-
-          {/* Desktop comparison grid */}
-          <div className="hidden lg:block">
-            {/* Header row */}
+      {/* ━━━ How we're paid ━━━ */}
+      <EditorialSection tone="stone">
+        <SectionHeader
+          tone="stone"
+          eyebrow="How we&rsquo;re paid"
+          title={
+            <>
+              Transparent fee, paid only
+              <br />
+              <span className="italic" style={{ color: "var(--navy)" }}>
+                on completion.
+              </span>
+            </>
+          }
+          body="No retainers, no success-plus-retainer. If the deal doesn&rsquo;t complete, we don&rsquo;t get paid &mdash; which means our interests are aligned with yours from the first call."
+        />
+        <div
+          className="mt-14 grid grid-cols-1 gap-px border-y sm:grid-cols-3"
+          style={{
+            borderColor: "var(--stone-dark)",
+            backgroundColor: "var(--stone-dark)",
+          }}
+        >
+          {[
+            {
+              label: "Arrangement fee",
+              value: "1 – 2%",
+              note: "Of the gross facility, typical range. Varies by complexity and deal size.",
+            },
+            {
+              label: "Paid when",
+              value: "On drawdown",
+              note: "Deducted from the first drawdown. No money out of the developer&rsquo;s pocket until the facility is live.",
+            },
+            {
+              label: "Retainers",
+              value: "None",
+              note: "No upfront fee, no success-plus-retainer. If the deal doesn&rsquo;t complete, neither do we.",
+            },
+          ].map((item) => (
             <div
-              className="mb-[2px] grid grid-cols-6 gap-[2px]"
+              key={item.label}
+              className="flex flex-col gap-4 p-8 sm:p-10"
+              style={{ background: "var(--stone)" }}
             >
-              <div
-                className="p-4"
-                style={{ background: "oklch(1 0 0 / 0.02)" }}
+              <p
+                className="text-[10px] font-medium uppercase tracking-[0.28em]"
+                style={{ color: "oklch(0.50 0.02 255)" }}
               >
-                <p className="text-xs font-bold uppercase tracking-[0.15em] text-white/30">
-                  Feature
-                </p>
-              </div>
-              {FUNDING_ROUTES.map((route) => (
-                <div
-                  key={route.slug}
-                  className="p-4"
-                  style={{
-                    background:
-                      route.slug === "specialist-broker"
-                        ? "oklch(0.75 0.12 85 / 0.08)"
-                        : "oklch(1 0 0 / 0.02)",
-                  }}
-                >
-                  <p
-                    className="text-xs font-bold uppercase tracking-[0.1em]"
-                    style={{
-                      color:
-                        route.slug === "specialist-broker"
-                          ? "var(--gold)"
-                          : "rgba(255,255,255,0.5)",
-                    }}
-                  >
-                    {routeShortNames[route.slug]}
-                  </p>
-                </div>
-              ))}
+                {item.label}
+              </p>
+              <p
+                className="numeral-tabular font-heading text-4xl font-medium leading-none tracking-tight"
+                style={{ color: "var(--navy-dark)" }}
+              >
+                {item.value}
+              </p>
+              <p
+                className="text-[14px] leading-[1.55]"
+                style={{ color: "oklch(0.42 0.03 255)" }}
+                dangerouslySetInnerHTML={{ __html: item.note }}
+              />
             </div>
-
-            {/* Feature rows */}
-            {COMPARISON_FEATURES.map((feature) => (
-              <div
-                key={feature.feature}
-                className="mb-[2px] grid grid-cols-6 gap-[2px]"
-              >
-                <div
-                  className="flex flex-col justify-center p-4"
-                  style={{ background: "oklch(1 0 0 / 0.02)" }}
-                >
-                  <p className="text-sm font-bold text-white">
-                    {feature.feature}
-                  </p>
-                  <p className="mt-0.5 text-xs text-white/25">
-                    {feature.description}
-                  </p>
-                </div>
-                {FUNDING_ROUTES.map((route) => {
-                  const rating = feature.ratings[route.slug];
-                  return (
-                    <div
-                      key={route.slug}
-                      className="flex items-center justify-center p-4"
-                      style={{
-                        background:
-                          route.slug === "specialist-broker"
-                            ? "oklch(0.75 0.12 85 / 0.04)"
-                            : "oklch(1 0 0 / 0.015)",
-                      }}
-                    >
-                      <span
-                        className={`rounded-full px-3 py-1 text-[11px] font-bold uppercase tracking-[0.1em] ${ratingColour[rating]}`}
-                      >
-                        {ratingLabel[rating]}
-                      </span>
-                    </div>
-                  );
-                })}
-              </div>
-            ))}
-          </div>
-
-          {/* Mobile comparison - stacked cards */}
-          <div className="lg:hidden">
-            {COMPARISON_FEATURES.map((feature) => (
-              <div
-                key={feature.feature}
-                className="mb-3 p-5"
-                style={{
-                  background: "oklch(1 0 0 / 0.02)",
-                  border: "1px solid oklch(1 0 0 / 0.04)",
-                }}
-              >
-                <p className="mb-1 text-sm font-bold text-white">
-                  {feature.feature}
-                </p>
-                <p className="mb-4 text-xs text-white/25">
-                  {feature.description}
-                </p>
-                <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
-                  {FUNDING_ROUTES.map((route) => {
-                    const rating = feature.ratings[route.slug];
-                    return (
-                      <div key={route.slug} className="flex flex-col gap-1">
-                        <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-white/30">
-                          {routeShortNames[route.slug]}
-                        </p>
-                        <span
-                          className={`inline-block w-fit rounded-full px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-[0.1em] ${ratingColour[rating]}`}
-                        >
-                          {ratingLabel[rating]}
-                        </span>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            ))}
-          </div>
+          ))}
         </div>
-      </section>
 
-      {/* ━━━ FUNDING ROUTE DETAILS ━━━ */}
-      <section
-        className="py-24 sm:py-32"
-        style={{ background: "oklch(0.10 0.04 255)" }}
-      >
-        <div className="mx-auto max-w-[1200px] px-5 sm:px-8">
-          <p
-            className="mb-4 text-[12px] font-bold tracking-[0.4em] uppercase"
-            style={{ color: "var(--gold)" }}
-          >
-            Your Options
+        <ProseSection title={<>&nbsp;</>} tone="stone">
+          <p>
+            A typical £3&ndash;5M development facility arranged through us
+            costs the developer £30k&ndash;£100k in broker fees. That sounds
+            like a lot until you weigh it against what we routinely save
+            on the rate (often 50&ndash;150bps), the arrangement fee
+            negotiated with the lender, or the incremental leverage we
+            can unlock &mdash; any one of which can be worth multiples of
+            our fee on a scheme that size.
           </p>
-          <h2 className="mb-16 text-[clamp(2rem,5vw,3.5rem)] font-black leading-[0.9] tracking-[-0.03em] text-white">
-            EVERY ROUTE TO<br />FUNDING<span style={{ color: "var(--gold)" }}>.</span>
-          </h2>
+          <p>
+            We show you the all-in cost comparison before you commit. If
+            the numbers don&rsquo;t stack up, we&rsquo;ll tell you.
+          </p>
+        </ProseSection>
+      </EditorialSection>
 
-          <div className="grid gap-4 lg:grid-cols-2">
-            {FUNDING_ROUTES.map((route) => (
-              <div
-                key={route.slug}
-                className="rounded-xl border border-border bg-card p-6"
-                style={
-                  route.slug === "specialist-broker"
-                    ? {
-                        borderColor: "oklch(0.75 0.12 85 / 0.3)",
-                        background: "oklch(0.75 0.12 85 / 0.04)",
-                      }
-                    : undefined
-                }
-              >
-                {route.slug === "specialist-broker" && (
-                  <span
-                    className="mb-3 inline-block rounded-full px-3 py-1 text-[11px] font-bold uppercase tracking-[0.15em]"
-                    style={{
-                      background: "oklch(0.75 0.12 85 / 0.15)",
-                      color: "var(--gold)",
-                    }}
-                  >
-                    Recommended
-                  </span>
-                )}
-                <h3 className="mb-2 text-xl font-black text-foreground">
+      {/* ━━━ Funding routes comparison ━━━ */}
+      <EditorialSection tone="paper">
+        <SectionHeader
+          tone="paper"
+          eyebrow="Alternative routes"
+          title="How we compare to the other options."
+          body="We&rsquo;re not the only way to fund a scheme. Here&rsquo;s an honest view of the main alternatives and when each one fits."
+        />
+        <div className="mt-14 space-y-14">
+          {FUNDING_ROUTES.map((route, idx) => (
+            <article
+              key={route.slug}
+              className="grid grid-cols-1 gap-8 border-t pt-10 lg:grid-cols-12 lg:gap-12"
+              style={{ borderColor: "var(--stone-dark)" }}
+            >
+              <div className="lg:col-span-4">
+                <Eyebrow tone="paper" className="mb-4">
+                  Route {idx + 1}
+                </Eyebrow>
+                <h3
+                  className="font-heading text-2xl font-medium leading-tight tracking-tight sm:text-[1.75rem]"
+                  style={{ color: "var(--navy-dark)" }}
+                >
                   {route.name}
                 </h3>
-                <p className="mb-4 text-sm text-muted-foreground">
+                <p
+                  className="mt-4 text-[15px] leading-[1.6]"
+                  style={{ color: "oklch(0.40 0.03 255)" }}
+                >
                   {route.description}
                 </p>
+              </div>
 
-                <div className="mb-4 grid gap-4 sm:grid-cols-2">
+              <div className="lg:col-span-8">
+                <dl
+                  className="grid grid-cols-2 gap-8 border-y py-6"
+                  style={{ borderColor: "var(--stone-dark)" }}
+                >
                   <div>
-                    <p className="mb-2 text-xs font-bold uppercase tracking-[0.15em] text-emerald-500">
-                      Pros
+                    <dt
+                      className="text-[10px] font-medium uppercase tracking-[0.26em]"
+                      style={{ color: "oklch(0.50 0.02 255)" }}
+                    >
+                      Timeline
+                    </dt>
+                    <dd
+                      className="numeral-tabular font-heading mt-2 text-lg font-medium tracking-tight"
+                      style={{ color: "var(--navy-dark)" }}
+                    >
+                      {route.typicalTimeline}
+                    </dd>
+                  </div>
+                  <div>
+                    <dt
+                      className="text-[10px] font-medium uppercase tracking-[0.26em]"
+                      style={{ color: "oklch(0.50 0.02 255)" }}
+                    >
+                      Typical cost
+                    </dt>
+                    <dd
+                      className="numeral-tabular font-heading mt-2 text-lg font-medium tracking-tight"
+                      style={{ color: "var(--navy-dark)" }}
+                    >
+                      {route.typicalCost}
+                    </dd>
+                  </div>
+                </dl>
+
+                <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2">
+                  <div>
+                    <p
+                      className="mb-3 text-[10px] font-medium uppercase tracking-[0.28em]"
+                      style={{ color: "var(--gold-dark)" }}
+                    >
+                      In its favour
                     </p>
-                    <ul className="space-y-1.5">
+                    <ul className="space-y-2 text-[14px] leading-[1.55]" style={{ color: "oklch(0.40 0.03 255)" }}>
                       {route.pros.map((pro) => (
-                        <li
-                          key={pro}
-                          className="flex items-start gap-2 text-sm text-muted-foreground"
-                        >
-                          <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-emerald-500" />
+                        <li key={pro} className="flex items-start gap-2">
+                          <span
+                            aria-hidden
+                            className="mt-[0.55rem] block h-1 w-1 flex-shrink-0 rounded-full"
+                            style={{ background: "var(--gold)" }}
+                          />
                           <span>{pro}</span>
                         </li>
                       ))}
                     </ul>
                   </div>
                   <div>
-                    <p className="mb-2 text-xs font-bold uppercase tracking-[0.15em] text-red-400">
-                      Cons
+                    <p
+                      className="mb-3 text-[10px] font-medium uppercase tracking-[0.28em]"
+                      style={{ color: "oklch(0.55 0.22 25)" }}
+                    >
+                      Against
                     </p>
-                    <ul className="space-y-1.5">
+                    <ul className="space-y-2 text-[14px] leading-[1.55]" style={{ color: "oklch(0.40 0.03 255)" }}>
                       {route.cons.map((con) => (
-                        <li
-                          key={con}
-                          className="flex items-start gap-2 text-sm text-muted-foreground"
-                        >
-                          <X className="mt-0.5 h-3.5 w-3.5 shrink-0 text-red-400" />
+                        <li key={con} className="flex items-start gap-2">
+                          <span
+                            aria-hidden
+                            className="mt-[0.55rem] block h-1 w-1 flex-shrink-0 rounded-full"
+                            style={{ background: "oklch(0.55 0.22 25)" }}
+                          />
                           <span>{con}</span>
                         </li>
                       ))}
@@ -542,227 +498,53 @@ export default function WhyConstructionCapitalPage() {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-3 gap-3 border-t border-border pt-4">
-                  <div>
-                    <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-muted-foreground/60">
-                      Best For
-                    </p>
-                    <p className="mt-0.5 text-xs text-muted-foreground">
-                      {route.bestFor}
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-muted-foreground/60">
-                      Timeline
-                    </p>
-                    <p className="mt-0.5 text-xs text-muted-foreground">
-                      {route.typicalTimeline}
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-muted-foreground/60">
-                      Cost
-                    </p>
-                    <p className="mt-0.5 text-xs text-muted-foreground">
-                      {route.typicalCost}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ━━━ THE NUMBERS ━━━ */}
-      <section
-        className="relative overflow-hidden py-24 text-center sm:py-32"
-        style={{ background: "oklch(0.12 0.045 255)" }}
-      >
-        <div
-          className="pointer-events-none absolute inset-0"
-          style={{
-            background:
-              "radial-gradient(ellipse at 50% 50%, oklch(0.75 0.12 85 / 0.05) 0%, transparent 50%)",
-          }}
-        />
-        <div className="relative mx-auto max-w-[1000px] px-5 sm:px-8">
-          <p
-            className="mb-4 text-[12px] font-bold tracking-[0.4em] uppercase"
-            style={{ color: "var(--gold)" }}
-          >
-            The Numbers
-          </p>
-          <h2 className="mb-16 text-[clamp(2rem,5vw,3.5rem)] font-black leading-[0.9] tracking-[-0.03em] text-white">
-            BUILT ON RESULTS<span style={{ color: "var(--gold)" }}>.</span>
-          </h2>
-
-          <div className="mx-auto grid max-w-[800px] grid-cols-2 gap-8 sm:grid-cols-4">
-            {[
-              { value: `\u00a3${STATS.fundsArranged}`, label: "FUNDS ARRANGED" },
-              { value: STATS.lenderPanel, label: "LENDERS" },
-              { value: "24hr", label: "INDICATIVE TERMS" },
-              { value: `${STATS.yearsExperience} yrs`, label: "EXPERIENCE" },
-            ].map((stat) => (
-              <div key={stat.label}>
                 <p
-                  className="text-[clamp(2.5rem,5vw,3.5rem)] font-black tracking-[-0.03em]"
-                  style={{ color: "var(--gold)" }}
+                  className="mt-6 text-[14px] italic leading-[1.6]"
+                  style={{ color: "oklch(0.35 0.04 255)" }}
                 >
-                  {stat.value}
-                </p>
-                <p className="mt-1 text-[11px] font-bold tracking-[0.2em] text-white/30">
-                  {stat.label}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ━━━ TESTIMONIALS ━━━ */}
-      <section
-        className="py-24 sm:py-32"
-        style={{ background: "oklch(0.10 0.04 255)" }}
-      >
-        <div className="mx-auto max-w-[1000px] px-5 sm:px-8">
-          <p
-            className="mb-4 text-[12px] font-bold tracking-[0.4em] uppercase"
-            style={{ color: "var(--gold)" }}
-          >
-            Client Results
-          </p>
-          <h2 className="mb-16 text-[clamp(2rem,5vw,3.5rem)] font-black leading-[0.9] tracking-[-0.03em] text-white">
-            DON&apos;T TAKE<br />OUR WORD<span style={{ color: "var(--gold)" }}>.</span>
-          </h2>
-
-          <div className="grid gap-[2px] sm:grid-cols-2">
-            {testimonials.map((t) => (
-              <div
-                key={t.name}
-                className="p-10"
-                style={{
-                  background: "oklch(1 0 0 / 0.015)",
-                  border: "1px solid oklch(1 0 0 / 0.03)",
-                }}
-              >
-                <p
-                  className="mb-3 text-sm tracking-[0.15em]"
-                  style={{ color: "var(--gold)" }}
-                >
-                  *****
-                </p>
-                <blockquote className="mb-6 text-lg leading-relaxed text-white/50 italic">
-                  &ldquo;{t.quote}&rdquo;
-                </blockquote>
-                <p className="text-sm font-black tracking-wide text-white">
-                  {t.name}
-                </p>
-                <p className="mt-1 text-xs text-white/25">{t.role}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ━━━ FAQs ━━━ */}
-      <section
-        className="py-24 sm:py-32"
-        style={{ background: "oklch(0.12 0.045 255)" }}
-      >
-        <div className="mx-auto max-w-[800px] px-5 sm:px-8">
-          <p
-            className="mb-4 text-[12px] font-bold tracking-[0.4em] uppercase"
-            style={{ color: "var(--gold)" }}
-          >
-            Common Questions
-          </p>
-          <h2 className="mb-16 text-[clamp(2rem,5vw,3.5rem)] font-black leading-[0.9] tracking-[-0.03em] text-white">
-            FAQs<span style={{ color: "var(--gold)" }}>.</span>
-          </h2>
-
-          <div className="space-y-6">
-            {faqs.map((faq) => (
-              <div
-                key={faq.question}
-                className="p-6"
-                style={{
-                  background: "oklch(1 0 0 / 0.02)",
-                  border: "1px solid oklch(1 0 0 / 0.04)",
-                }}
-              >
-                <h3 className="mb-3 text-lg font-bold text-white">
-                  {faq.question}
-                </h3>
-                <p className="text-sm leading-relaxed text-white/40">
-                  {faq.answer}
+                  <span
+                    className="mr-2 text-[10px] not-italic font-medium uppercase tracking-[0.24em]"
+                    style={{ color: "oklch(0.50 0.02 255)" }}
+                  >
+                    Best for:
+                  </span>
+                  {route.bestFor}
                 </p>
               </div>
-            ))}
-          </div>
+            </article>
+          ))}
         </div>
-      </section>
+      </EditorialSection>
 
-      {/* ━━━ CTA ━━━ */}
-      <section
-        className="relative overflow-hidden py-36 text-center sm:py-44"
-        style={{ background: "oklch(0.10 0.04 255)" }}
-      >
-        <div
-          className="pointer-events-none absolute inset-0"
-          style={{
-            background:
-              "radial-gradient(ellipse at 50% 50%, oklch(0.75 0.12 85 / 0.06) 0%, transparent 40%)",
-          }}
+      {/* ━━━ Close ━━━ */}
+      <EditorialSection tone="navy-dark">
+        <SectionHeader
+          tone="navy-dark"
+          eyebrow="Still reading"
+          title={
+            <>
+              If you&rsquo;re in the second camp,
+              <br />
+              <span className="italic" style={{ color: "var(--gold-light)" }}>
+                let&rsquo;s talk.
+              </span>
+            </>
+          }
+          body="Send us the outline of your scheme. We&rsquo;ll come back with indicative pricing from the right lenders inside a working day &mdash; and we&rsquo;ll tell you upfront if going direct would serve you better."
         />
-        <div className="relative px-5 sm:px-8">
-          <div
-            className="mx-auto mb-8 h-[2px] w-14"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
-          <h2 className="text-[clamp(2rem,6vw,4rem)] font-black leading-[0.9] tracking-[-0.03em] text-white">
-            READY TO SEE THE<br />
-            <span
-              style={{
-                color: "var(--gold)",
-                textShadow: "0 0 60px oklch(0.75 0.12 85 / 0.25)",
-              }}
-            >
-              DIFFERENCE
-            </span>
-            <span style={{ color: "var(--gold)" }}>?</span>
-          </h2>
-          <p className="mx-auto mt-6 max-w-[500px] text-base text-white/35">
-            Submit your deal. Receive indicative terms from 100+ lenders within
-            24 hours. No upfront fees. No obligation.
-          </p>
-          <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-            <Button
-              asChild
-              size="lg"
-              className="cta-shimmer bg-gold text-navy-dark hover:bg-gold-dark h-16 rounded-none px-14 text-base font-black uppercase tracking-[0.25em]"
-            >
-              <Link href="/deal-room">Enter the Deal Room</Link>
-            </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="h-16 rounded-none border-white/10 px-10 text-sm font-bold uppercase tracking-[0.2em] text-white/50 transition-all hover:border-gold/30 hover:bg-transparent hover:text-gold"
-            >
-              <Link href={`tel:${CONTACT.phoneRaw}`}>
-                Call {CONTACT.phone}
-              </Link>
-            </Button>
-          </div>
-          <p className="mt-5 text-xs tracking-wide text-white/20">
-            constructioncapital.co.uk
-          </p>
+        <div className="mt-12 flex flex-wrap items-center gap-5">
+          <CTAButton href="/deal-room" variant="gold" size="lg">
+            Start a deal
+          </CTAButton>
+          <a
+            href={`tel:${CONTACT.phoneRaw}`}
+            className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+            style={{ color: "oklch(1 0 0 / 0.95)" }}
+          >
+            Or call {CONTACT.phone}
+          </a>
         </div>
-      </section>
+      </EditorialSection>
     </>
   );
 }

@@ -6,6 +6,7 @@ import { ArrowRight, Check, Clock, PoundSterling, TrendingUp, Shield } from "luc
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { JsonLd } from "@/components/ui/json-ld";
+import { CTAButton, PageHero } from "@/components/editorial/primitives";
 import {
   LENDERS,
   LENDER_TYPES,
@@ -112,134 +113,27 @@ export default async function LenderDetailPage({ params }: PageProps) {
     <>
       <JsonLd data={breadcrumbJsonLd} />
 
-      {/* ━━━ HERO ━━━ */}
-      <section className="hero-gradient noise-overlay relative overflow-hidden text-white">
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(135deg, oklch(0.14 0.05 255 / 0.95) 0%, oklch(0.22 0.06 255 / 0.90) 50%, oklch(0.14 0.05 260 / 0.95) 100%)",
-          }}
-        />
-
-        <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
-          <div className="max-w-3xl">
-            {/* Breadcrumb */}
-            <nav className="mb-8 flex items-center gap-2 text-sm text-white/40">
-              <Link href="/" className="transition-colors hover:text-white/60">
-                Home
-              </Link>
-              <span>/</span>
-              <Link
-                href="/lender-panel"
-                className="transition-colors hover:text-white/60"
-              >
-                Lender Panel
-              </Link>
-              <span>/</span>
-              <span className="text-white/70">{lender.name}</span>
-            </nav>
-
-            <div
-              className="mb-4 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-
-            <Badge
-              className={`mb-5 rounded-md text-xs font-semibold ${TYPE_COLORS[lender.type]}`}
-            >
-              {getTypeLabel(lender.type)}
-            </Badge>
-
-            <h1 className="font-heading text-4xl font-bold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
-              {lender.name}
-            </h1>
-
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/60">
-              {lender.description}
-            </p>
-
-            {/* Key metrics */}
-            <div className="mt-10 flex flex-wrap gap-6">
-              <div>
-                <p
-                  className="text-xs font-bold uppercase tracking-wider"
-                  style={{ color: "var(--gold)" }}
-                >
-                  Rate
-                </p>
-                <p className="mt-1 text-lg font-bold">{lender.typicalRate}</p>
-              </div>
-              <div
-                className="w-px"
-                style={{ background: "oklch(1 0 0 / 0.1)" }}
-              />
-              <div>
-                <p
-                  className="text-xs font-bold uppercase tracking-wider"
-                  style={{ color: "var(--gold)" }}
-                >
-                  Max LTV
-                </p>
-                <p className="mt-1 text-lg font-bold">{lender.maxLtv}</p>
-              </div>
-              <div
-                className="w-px"
-                style={{ background: "oklch(1 0 0 / 0.1)" }}
-              />
-              <div>
-                <p
-                  className="text-xs font-bold uppercase tracking-wider"
-                  style={{ color: "var(--gold)" }}
-                >
-                  Loan Range
-                </p>
-                <p className="mt-1 text-lg font-bold">
-                  {lender.minLoan} - {lender.maxLoan}
-                </p>
-              </div>
-              <div
-                className="w-px"
-                style={{ background: "oklch(1 0 0 / 0.1)" }}
-              />
-              <div>
-                <p
-                  className="text-xs font-bold uppercase tracking-wider"
-                  style={{ color: "var(--gold)" }}
-                >
-                  Turnaround
-                </p>
-                <p className="mt-1 text-lg font-bold">{lender.turnaround}</p>
-              </div>
-            </div>
-
-            <div className="mt-10">
-              <Button
-                asChild
-                size="lg"
-                className="cta-shimmer h-14 bg-gold px-10 text-base font-bold text-navy-dark shadow-lg transition-all duration-300 hover:bg-gold-dark"
-              >
-                <Link href="/deal-room">
-                  Access This Lender
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
-            </div>
-          </div>
-        </div>
-
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[2px]"
-          style={{
-            background:
-              "linear-gradient(90deg, transparent, var(--gold), transparent)",
-            opacity: 0.3,
-          }}
-        />
-      </section>
+      <PageHero
+        tone="paper"
+        breadcrumbs={[
+          { label: "Home", href: "/" },
+          { label: "Lender Panel", href: "/lender-panel" },
+          { label: lender.name },
+        ]}
+        eyebrow={getTypeLabel(lender.type)}
+        title={lender.name}
+        deck={lender.description}
+        stats={[
+          { label: "Typical rate", value: lender.typicalRate },
+          { label: "Max LTV", value: lender.maxLtv },
+          { label: "Turnaround", value: lender.turnaround },
+        ]}
+        actions={
+          <CTAButton href="/deal-room" variant="navy" size="lg">
+            Access this lender
+          </CTAButton>
+        }
+      />
 
       {/* ━━━ SERVICES ━━━ */}
       <section className="bg-background py-16 sm:py-24">
@@ -266,7 +160,8 @@ export default async function LenderDetailPage({ params }: PageProps) {
               {lender.services.map((serviceSlug) => {
                 const service = getServiceBySlug(serviceSlug);
                 if (!service) return null;
-                return (
+                
+return (
                   <Link
                     key={serviceSlug}
                     href={`/services/${serviceSlug}`}

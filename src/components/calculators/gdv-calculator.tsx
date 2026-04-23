@@ -12,10 +12,7 @@ import {
   formatGBP,
   formatPercent,
   formatCurrencyInput,
-} from "@/components/calculators/shared";
-import { StackBar } from "@/components/calculators/shared";
-import { DealRoomCta } from "@/components/calculators/shared";
-import { Disclaimer } from "@/components/calculators/shared";
+ StackBar , DealRoomCta , Disclaimer } from "@/components/calculators/shared";
 
 /* ------------------------------------------------------------------ */
 /*  Types                                                              */
@@ -103,7 +100,8 @@ export function GdvCalculator() {
       const qty = parseInt(u.quantity, 10) || 0;
       const price = parseCurrency(u.pricePerUnit);
       const subtotal = qty * price;
-      return { ...u, qty, price, subtotal };
+      
+return { ...u, qty, price, subtotal };
     });
 
     const totalGDV = breakdown.reduce((sum, b) => sum + b.subtotal, 0);
@@ -360,7 +358,8 @@ export function GdvCalculator() {
                 <tr>
                   {SENSITIVITY_STEPS.map((step) => {
                     const adjusted = Math.round(results.totalGDV * step.mult);
-                    return (
+                    
+return (
                       <td
                         key={step.label}
                         className={`pt-3 text-center font-semibold ${

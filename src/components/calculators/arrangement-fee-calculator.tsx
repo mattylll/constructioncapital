@@ -11,9 +11,7 @@ import {
   formatGBP,
   formatPercent,
   formatCurrencyInput,
-} from "@/components/calculators/shared";
-import { DealRoomCta } from "@/components/calculators/shared";
-import { Disclaimer } from "@/components/calculators/shared";
+ DealRoomCta , Disclaimer } from "@/components/calculators/shared";
 
 /* ------------------------------------------------------------------ */
 /*  Types                                                              */
@@ -69,7 +67,8 @@ export function ArrangementFeeCalculator() {
         const effectiveRate = totalBorrowing > 0 && term > 0
           ? (interest / totalBorrowing) * (12 / term) * 100
           : rate;
-        return { netAdvance, additionalInterest, totalCost, interest, effectiveRate, totalBorrowing };
+        
+return { netAdvance, additionalInterest, totalCost, interest, effectiveRate, totalBorrowing };
       })(),
       "deducted-from-advance": (() => {
         const netAdvance = loan - feeAmount;
@@ -79,7 +78,8 @@ export function ArrangementFeeCalculator() {
         const effectiveRate = netAdvance > 0 && term > 0
           ? (interest / netAdvance) * (12 / term) * 100
           : rate;
-        return { netAdvance, additionalInterest, totalCost, interest, effectiveRate, totalBorrowing: loan };
+        
+return { netAdvance, additionalInterest, totalCost, interest, effectiveRate, totalBorrowing: loan };
       })(),
       "paid-separately": (() => {
         const netAdvance = loan;
@@ -87,7 +87,8 @@ export function ArrangementFeeCalculator() {
         const additionalInterest = 0;
         const totalCost = feeAmount + interest;
         const effectiveRate = rate;
-        return { netAdvance, additionalInterest, totalCost, interest, effectiveRate, totalBorrowing: loan };
+        
+return { netAdvance, additionalInterest, totalCost, interest, effectiveRate, totalBorrowing: loan };
       })(),
     };
 

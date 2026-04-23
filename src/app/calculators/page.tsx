@@ -15,6 +15,7 @@ import * as LucideIcons from "lucide-react";
 
 import { JsonLd } from "@/components/ui/json-ld";
 import { Button } from "@/components/ui/button";
+import { PageHero } from "@/components/editorial/primitives";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import {
   CALCULATORS,
@@ -62,82 +63,35 @@ export default function CalculatorsPage() {
     <>
       <JsonLd data={breadcrumbJsonLd} />
 
-      {/* ━━━ HERO ━━━ */}
-      <section
-        className="noise-overlay relative overflow-hidden text-white"
-        style={{
-          background:
-            "linear-gradient(135deg, oklch(0.14 0.05 255) 0%, oklch(0.22 0.06 255) 50%, oklch(0.18 0.05 260) 100%)",
-        }}
-      >
-        <div className="pointer-events-none absolute inset-0 opacity-[0.03]">
-          <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-              <pattern
-                id="calc-index-grid"
-                width="60"
-                height="60"
-                patternUnits="userSpaceOnUse"
-              >
-                <path
-                  d="M 60 0 L 0 0 0 60"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="0.5"
-                />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#calc-index-grid)" />
-          </svg>
-        </div>
-
-        <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 sm:py-28 lg:px-8">
-          <nav className="mb-8 flex items-center gap-2 text-sm text-white/40">
-            <Link href="/" className="transition-colors hover:text-white/60">
-              Home
-            </Link>
-            <span>/</span>
-            <span className="text-white/70">Calculators</span>
-          </nav>
-
-          <div
-            className="mb-6 h-[2px] w-20"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
-
-          <div
-            className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl"
-            style={{
-              background:
-                "linear-gradient(135deg, oklch(0.75 0.12 85 / 0.15), oklch(0.75 0.12 85 / 0.05))",
-              border: "1px solid oklch(0.75 0.12 85 / 0.1)",
-            }}
-          >
-            <Calculator className="h-6 w-6" style={{ color: "var(--gold)" }} />
-          </div>
-
-          <h1 className="text-4xl font-bold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
-            Property Finance Calculators
-          </h1>
-          <p className="mt-7 max-w-xl text-lg leading-relaxed text-white/60">
-            {CALCULATORS.length} free calculators to model your deal before you
-            apply. Estimate costs, profit, yields and finance across development,
-            conversions, investment and more.
-          </p>
-        </div>
-
-        <div
-          className="absolute bottom-0 left-0 right-0 h-[2px]"
-          style={{
-            background:
-              "linear-gradient(90deg, transparent, var(--gold), transparent)",
-            opacity: 0.3,
-          }}
-        />
-      </section>
+      <PageHero
+        tone="paper"
+        breadcrumbs={[
+          { label: "Home", href: "/" },
+          { label: "Calculators" },
+        ]}
+        eyebrow="Deal tools"
+        title={
+          <>
+            Model the scheme
+            <br />
+            <span className="italic" style={{ color: "var(--navy)" }}>
+              before you apply.
+            </span>
+          </>
+        }
+        deck={
+          <>
+            {CALCULATORS.length} calculators covering development, conversions,
+            investment, bridging, mezzanine, costs and valuation. Built from
+            the same assumptions we use when pricing live deals.
+          </>
+        }
+        stats={[
+          { label: "Calculators", value: CALCULATORS.length },
+          { label: "Categories", value: CALCULATOR_CATEGORIES.length },
+          { label: "Always free", value: "—" },
+        ]}
+      />
 
       {/* ━━━ CALCULATORS BY CATEGORY ━━━ */}
       <section className="bg-background py-20 sm:py-28">
@@ -147,7 +101,8 @@ export default function CalculatorsPage() {
             {CALCULATOR_CATEGORIES.map((cat) => {
               const CatIcon = categoryIconMap[cat.icon] || Calculator;
               const count = getCalculatorsByCategory(cat.slug).length;
-              return (
+              
+return (
                 <a
                   key={cat.slug}
                   href={`#${cat.slug}`}
@@ -201,7 +156,8 @@ export default function CalculatorsPage() {
                   <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                     {calcs.map((calc) => {
                       const CalcIcon = iconMap[calc.icon] || Calculator;
-                      return (
+                      
+return (
                         <Link
                           key={calc.slug}
                           href={`/calculators/${calc.slug}`}

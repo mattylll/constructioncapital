@@ -73,6 +73,45 @@ const DISTRICT_OVERRIDES: Record<string, string[]> = {
   "greater-london/brixton": ["LAMBETH"],
   "greater-london/hackney": ["HACKNEY"],
   "greater-london/bermondsey": ["SOUTHWARK"],
+  "greater-london/camden": ["CAMDEN"],
+  "greater-london/kentish-town": ["CAMDEN"],
+  "greater-london/hampstead": ["CAMDEN"],
+  "greater-london/highgate": ["CAMDEN", "HARINGEY"],
+  "greater-london/chelsea": ["KENSINGTON AND CHELSEA"],
+  "greater-london/kensington": ["KENSINGTON AND CHELSEA"],
+  "greater-london/notting-hill": ["KENSINGTON AND CHELSEA"],
+  "greater-london/islington": ["ISLINGTON"],
+  "greater-london/shoreditch": ["HACKNEY"],
+  "greater-london/mayfair": ["WESTMINSTER", "CITY OF WESTMINSTER"],
+  "greater-london/marylebone": ["WESTMINSTER", "CITY OF WESTMINSTER"],
+  "greater-london/westminster": ["WESTMINSTER", "CITY OF WESTMINSTER"],
+  "greater-london/clapham": ["LAMBETH"],
+  "greater-london/vauxhall": ["LAMBETH"],
+  "greater-london/fulham": ["HAMMERSMITH AND FULHAM"],
+  "greater-london/hammersmith": ["HAMMERSMITH AND FULHAM"],
+  "greater-london/battersea": ["WANDSWORTH"],
+  "greater-london/wandsworth": ["WANDSWORTH"],
+  "greater-london/southwark": ["SOUTHWARK"],
+  "greater-london/whitechapel": ["TOWER HAMLETS"],
+  "greater-london/canary-wharf": ["TOWER HAMLETS"],
+  "greater-london/tower-hamlets": ["TOWER HAMLETS"],
+  "greater-london/richmond": ["RICHMOND UPON THAMES"],
+  "greater-london/wimbledon": ["MERTON"],
+  "greater-london/merton": ["MERTON"],
+  "greater-london/kingston": ["KINGSTON UPON THAMES"],
+  "greater-london/bromley": ["BROMLEY"],
+  "greater-london/sutton": ["SUTTON"],
+  "greater-london/harrow": ["HARROW"],
+  "greater-london/enfield": ["ENFIELD"],
+  "greater-london/walthamstow": ["WALTHAM FOREST"],
+  "greater-london/leytonstone": ["WALTHAM FOREST"],
+  "greater-london/ilford": ["REDBRIDGE"],
+  "greater-london/redbridge": ["REDBRIDGE"],
+  "greater-london/barnet": ["BARNET"],
+  "greater-london/bexley": ["BEXLEY"],
+  "greater-london/havering": ["HAVERING"],
+  "greater-london/hillingdon": ["HILLINGDON"],
+  "greater-london/city-of-london": ["CITY OF LONDON"],
 
   // Kent — towns within larger districts
   "kent/maidstone": ["MAIDSTONE"],
@@ -198,7 +237,7 @@ const DISTRICT_OVERRIDES: Record<string, string[]> = {
 
   // Devon
   "devon/exeter": ["EXETER"],
-  "devon/plymouth": ["PLYMOUTH"],
+  "devon/plymouth": ["CITY OF PLYMOUTH", "PLYMOUTH"],
   "devon/torquay": ["TORBAY"],
   "devon/newton-abbot": ["TEIGNBRIDGE"],
   "devon/barnstaple": ["NORTH DEVON"],
@@ -217,8 +256,8 @@ const DISTRICT_OVERRIDES: Record<string, string[]> = {
   "cornwall/bude": ["CORNWALL"],
 
   // Dorset
-  "dorset/bournemouth": ["BOURNEMOUTH, CHRISTCHURCH AND POOLE", "BOURNEMOUTH"],
-  "dorset/poole": ["BOURNEMOUTH, CHRISTCHURCH AND POOLE", "POOLE"],
+  "dorset/bournemouth": ["BOURNEMOUTH, CHRISTCHURCH AND POOLE", "BOURNEMOUTH", "CHRISTCHURCH AND POOLE"],
+  "dorset/poole": ["BOURNEMOUTH, CHRISTCHURCH AND POOLE", "POOLE", "CHRISTCHURCH AND POOLE"],
   "dorset/weymouth": ["DORSET", "WEYMOUTH AND PORTLAND"],
   "dorset/dorchester": ["DORSET", "WEST DORSET"],
   "dorset/christchurch": ["BOURNEMOUTH, CHRISTCHURCH AND POOLE", "CHRISTCHURCH"],
@@ -290,7 +329,7 @@ const DISTRICT_OVERRIDES: Record<string, string[]> = {
   "shropshire/ludlow": ["SHROPSHIRE"],
 
   // Derbyshire
-  "derbyshire/derby": ["DERBY"],
+  "derbyshire/derby": ["CITY OF DERBY", "DERBY"],
   "derbyshire/chesterfield": ["CHESTERFIELD"],
   "derbyshire/buxton": ["HIGH PEAK"],
   "derbyshire/matlock": ["DERBYSHIRE DALES"],
@@ -300,7 +339,7 @@ const DISTRICT_OVERRIDES: Record<string, string[]> = {
   "derbyshire/long-eaton": ["EREWASH"],
 
   // Nottinghamshire
-  "nottinghamshire/nottingham": ["NOTTINGHAM"],
+  "nottinghamshire/nottingham": ["CITY OF NOTTINGHAM", "NOTTINGHAM"],
   "nottinghamshire/mansfield": ["MANSFIELD"],
   "nottinghamshire/newark": ["NEWARK AND SHERWOOD"],
   "nottinghamshire/worksop": ["BASSETLAW"],
@@ -437,7 +476,7 @@ const DISTRICT_OVERRIDES: Record<string, string[]> = {
   "northumberland/berwick-upon-tweed": ["NORTHUMBERLAND"],
 
   // East Riding
-  "east-riding-of-yorkshire/hull": ["KINGSTON UPON HULL, CITY OF", "KINGSTON UPON HULL"],
+  "east-riding-of-yorkshire/hull": ["CITY OF KINGSTON UPON HULL", "KINGSTON UPON HULL, CITY OF", "KINGSTON UPON HULL"],
   "east-riding-of-yorkshire/beverley": ["EAST RIDING OF YORKSHIRE"],
   "east-riding-of-yorkshire/bridlington": ["EAST RIDING OF YORKSHIRE"],
   "east-riding-of-yorkshire/goole": ["EAST RIDING OF YORKSHIRE"],
@@ -466,7 +505,7 @@ const DISTRICT_OVERRIDES: Record<string, string[]> = {
 
   // Cambridgeshire
   "cambridgeshire/cambridge": ["CAMBRIDGE"],
-  "cambridgeshire/peterborough": ["PETERBOROUGH"],
+  "cambridgeshire/peterborough": ["CITY OF PETERBOROUGH", "PETERBOROUGH"],
   "cambridgeshire/huntingdon": ["HUNTINGDONSHIRE"],
   "cambridgeshire/st-neots": ["HUNTINGDONSHIRE"],
   "cambridgeshire/ely": ["EAST CAMBRIDGESHIRE"],

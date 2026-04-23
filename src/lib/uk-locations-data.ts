@@ -63,6 +63,45 @@ export const UK_COUNTIES: CountyData[] = [
       { name: "Brixton", slug: "brixton", context: "South London market with strong buyer demand and heritage-led conversion opportunities" },
       { name: "Hackney", slug: "hackney", context: "East London creative hub with premium values for converted commercial and industrial buildings" },
       { name: "Bermondsey", slug: "bermondsey", context: "Southwark riverside area with warehouse conversions and proximity to the City" },
+      { name: "Camden", slug: "camden", context: "North London market combining high values with creative-sector demand and strong conservation-led conversion opportunities" },
+      { name: "Kentish Town", slug: "kentish-town", context: "Camden micro-market with period terraces, mews conversions and premium rebuild values along the Northern line" },
+      { name: "Chelsea", slug: "chelsea", context: "Prime Kensington & Chelsea address where super-prime refurbishment and lateral conversions dominate" },
+      { name: "Kensington", slug: "kensington", context: "Prime central London with tightly regulated conservation stock and extremely high build and finance costs" },
+      { name: "Islington", slug: "islington", context: "Inner North London with Georgian terraces, premium family values and a steady flow of period refurbishments" },
+      { name: "Shoreditch", slug: "shoreditch", context: "Hackney commercial-to-residential corridor with office-to-resi conversions and premium loft values" },
+      { name: "Mayfair", slug: "mayfair", context: "Westminster super-prime market with lateral flat amalgamations and heritage refurbishment at the top end of UK values" },
+      { name: "Marylebone", slug: "marylebone", context: "Prime central Westminster with mansion-block conversions and strong institutional BTR demand around the Elizabeth line" },
+      { name: "Notting Hill", slug: "notting-hill", context: "Royal Borough of Kensington & Chelsea stucco terraces with premium lateral conversion values" },
+      { name: "Clapham", slug: "clapham", context: "Lambeth family market with Victorian terraces, extensive back-garden development and strong buyer liquidity" },
+      { name: "Fulham", slug: "fulham", context: "Hammersmith & Fulham family market with premium period stock and active rear-extension planning" },
+      { name: "Battersea", slug: "battersea", context: "Wandsworth riverside powerhouse anchored by the Power Station regeneration and continuing BTR supply" },
+      { name: "Vauxhall", slug: "vauxhall", context: "Nine Elms / Vauxhall opportunity area with ongoing high-density residential completions and active BTR demand" },
+      { name: "Southwark", slug: "southwark", context: "Inner South London borough with major regeneration at Elephant & Castle, Canada Water and the South Bank" },
+      { name: "Hammersmith", slug: "hammersmith", context: "West London commercial-to-residential and mixed-use market anchored by the White City regeneration corridor" },
+      { name: "Hampstead", slug: "hampstead", context: "Camden prime residential market with conservation controls and high-value back-land and rebuild opportunities" },
+      { name: "Highgate", slug: "highgate", context: "Haringey/Camden border prime market with large period houses, tight planning and premium rebuild economics" },
+      { name: "Whitechapel", slug: "whitechapel", context: "Tower Hamlets Elizabeth line regeneration corridor with consented high-density residential and mixed-use schemes" },
+      { name: "Canary Wharf", slug: "canary-wharf", context: "Tower Hamlets commercial core pivoting to large-scale residential and BTR via Canary Wharf Group and Wood Wharf" },
+      { name: "Westminster", slug: "westminster", context: "Central London super-prime market covering Pimlico, Victoria and St John's Wood with heritage-led conversions" },
+      { name: "Richmond", slug: "richmond", context: "Richmond upon Thames prime family market with Green Belt edges and premium period terraces" },
+      { name: "Wimbledon", slug: "wimbledon", context: "Merton prime family market with strong buyer liquidity and active rear-extension and loft conversion pipeline" },
+      { name: "Kingston", slug: "kingston", context: "Kingston upon Thames town centre with ongoing residential densification and river-frontage BTR opportunities" },
+      { name: "Bromley", slug: "bromley", context: "South East London suburban market with active town-centre densification and continuing family housing demand" },
+      { name: "Sutton", slug: "sutton", context: "Outer South London market with town-centre regeneration and competitive outer-zone family housing values" },
+      { name: "Harrow", slug: "harrow", context: "North West London borough with Metropolitan line connectivity and a steady mid-market family housing pipeline" },
+      { name: "Enfield", slug: "enfield", context: "Outer North London with Meridian Water regeneration driving large-scale residential and employment delivery" },
+      { name: "Walthamstow", slug: "walthamstow", context: "Waltham Forest regeneration market anchored by Walthamstow Central and the Lea Bridge corridor" },
+      { name: "Leytonstone", slug: "leytonstone", context: "Waltham Forest mid-market with period terraces and a steady pipeline of rear-extension and loft conversions" },
+      { name: "Ilford", slug: "ilford", context: "Redbridge Elizabeth line hub with major town-centre residential densification around the station" },
+      { name: "Barnet", slug: "barnet", context: "Outer North London borough with Brent Cross regeneration and sustained suburban family housing demand" },
+      { name: "Bexley", slug: "bexley", context: "Outer South East London with Erith and Thamesmead-adjacent regeneration and entry-point Greater London values" },
+      { name: "Havering", slug: "havering", context: "Outer East London with Romford town-centre regeneration and sustained C2E commuter demand" },
+      { name: "Hillingdon", slug: "hillingdon", context: "Outer West London borough benefitting from Crossrail, Heathrow proximity and the Old Oak / Park Royal edges" },
+      { name: "Merton", slug: "merton", context: "South West London borough covering Wimbledon, Colliers Wood and Morden with active town-centre densification" },
+      { name: "Redbridge", slug: "redbridge", context: "Outer North East London borough covering Ilford, Wanstead and Gants Hill with Elizabeth line-led demand" },
+      { name: "Tower Hamlets", slug: "tower-hamlets", context: "Inner East London borough covering Canary Wharf, Whitechapel and Poplar — one of the UK's most active dense residential markets" },
+      { name: "Wandsworth", slug: "wandsworth", context: "Inner South West London borough covering Battersea, Clapham Junction, Putney and Earlsfield — consistent high-value family demand" },
+      { name: "City of London", slug: "city-of-london", context: "Square Mile where a constrained pipeline of office-to-residential conversions commands super-prime values" },
     ],
   },
   {
@@ -1289,7 +1328,8 @@ export function getCountyBySlug(slug: string): CountyData | undefined {
  */
 export function getTownsForCounty(countySlug: string): TownData[] {
   const county = getCountyBySlug(countySlug);
-  return county?.towns ?? [];
+  
+return county?.towns ?? [];
 }
 
 /**
@@ -1300,7 +1340,8 @@ export function getTownInCounty(
   townSlug: string,
 ): TownData | undefined {
   const towns = getTownsForCounty(countySlug);
-  return towns.find((t) => t.slug === townSlug);
+  
+return towns.find((t) => t.slug === townSlug);
 }
 
 /**
@@ -1312,5 +1353,6 @@ export function getRelatedTowns(
   limit = 6,
 ): TownData[] {
   const towns = getTownsForCounty(countySlug);
-  return towns.filter((t) => t.slug !== currentTownSlug).slice(0, limit);
+  
+return towns.filter((t) => t.slug !== currentTownSlug).slice(0, limit);
 }

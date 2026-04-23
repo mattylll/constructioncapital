@@ -101,7 +101,8 @@ export interface PlanningData {
 function readJSON<T>(filePath: string): T | null {
   try {
     const content = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(content) as T;
+    
+return JSON.parse(content) as T;
   } catch {
     return null;
   }
@@ -129,7 +130,8 @@ function median(values: number[]): number {
   if (values.length === 0) return 0;
   const sorted = [...values].sort((a, b) => a - b);
   const mid = Math.floor(sorted.length / 2);
-  return sorted.length % 2 ? sorted[mid] : Math.round((sorted[mid - 1] + sorted[mid]) / 2);
+  
+return sorted.length % 2 ? sorted[mid] : Math.round((sorted[mid - 1] + sorted[mid]) / 2);
 }
 
 export function getCountyAggregateData(
@@ -205,7 +207,8 @@ export function getTownStats(
     countySlug,
     `${townSlug}.json`
   );
-  return readJSON<TownStats>(filePath);
+  
+return readJSON<TownStats>(filePath);
 }
 
 export function getSoldData(
@@ -221,7 +224,8 @@ export function getSoldData(
     townSlug,
     "latest.json"
   );
-  return readJSON<SoldData>(filePath);
+  
+return readJSON<SoldData>(filePath);
 }
 
 export function getPlanningData(
@@ -237,7 +241,8 @@ export function getPlanningData(
     townSlug,
     "latest.json"
   );
-  return readJSON<PlanningData>(filePath);
+  
+return readJSON<PlanningData>(filePath);
 }
 
 // ─── Guide Market Data ──────────────────────────────────────

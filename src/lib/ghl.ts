@@ -8,7 +8,8 @@ const ENQUIRY_STAGE_ID = "2b7de044-0bfe-4165-a9e6-ced7a8e54616";
 function getHeaders() {
   const token = process.env.GHL_API_KEY;
   if (!token) throw new Error("GHL_API_KEY environment variable not set");
-  return {
+  
+return {
     Authorization: `Bearer ${token}`,
     "Content-Type": "application/json",
     Accept: "application/json",
@@ -19,7 +20,8 @@ function getHeaders() {
 function getLocationId() {
   const id = process.env.GHL_LOCATION_ID;
   if (!id) throw new Error("GHL_LOCATION_ID environment variable not set");
-  return id;
+  
+return id;
 }
 
 function formatGBP(amount: number): string {
@@ -113,7 +115,8 @@ async function upsertContact(lead: LeadData): Promise<string> {
   }
 
   const data = await res.json();
-  return data.contact?.id;
+  
+return data.contact?.id;
 }
 
 /**
@@ -150,7 +153,8 @@ async function createOpportunity(
   }
 
   const data = await res.json();
-  return data.opportunity?.id;
+  
+return data.opportunity?.id;
 }
 
 /**
@@ -165,16 +169,19 @@ export async function pushLeadToGHL(
     const contactId = await upsertContact(lead);
     if (!contactId) {
       console.error("GHL: contact upsert returned no ID");
-      return {};
+      
+return {};
     }
 
     const opportunityId = await createOpportunity(contactId, lead);
     console.log(
       `GHL: Created contact ${contactId} + opportunity ${opportunityId}`
     );
-    return { contactId, opportunityId };
+    
+return { contactId, opportunityId };
   } catch (error) {
     console.error("GHL integration error:", error);
-    return {};
+    
+return {};
   }
 }

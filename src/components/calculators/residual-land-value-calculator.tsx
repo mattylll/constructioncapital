@@ -53,7 +53,8 @@ function estimateSDLT(price: number): number {
     const taxable = Math.min(price, upper) - band.from;
     tax += taxable * band.rate;
   }
-  return Math.round(tax);
+  
+return Math.round(tax);
 }
 
 /* ------------------------------------------------------------------ */
@@ -183,7 +184,8 @@ export function ResidualLandValueCalculator() {
       margin,
       cells: gdvMultipliers.map((scenario) => {
         const adjustedGdv = Math.round(results.gdv * scenario.factor);
-        return calculateRLV(
+        
+return calculateRLV(
           adjustedGdv,
           results.buildCosts,
           results.profFeesPct,
