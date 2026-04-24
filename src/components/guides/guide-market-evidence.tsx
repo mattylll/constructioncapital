@@ -10,6 +10,10 @@ import {
   HardHat,
 } from "lucide-react";
 import type { GuideMarketData } from "@/lib/local-market-data";
+import {
+  EditorialSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 
 function formatGBP(amount: number): string {
   if (amount >= 1_000_000_000) {
@@ -49,30 +53,24 @@ export function GuideMarketEvidence({ data }: GuideMarketEvidenceProps) {
   const planning = data.planning;
 
   return (
-    <section className="bg-muted/20 py-12 sm:py-16">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-3xl">
-          <div
-            className="mb-5 h-[2px] w-14"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
-          <p
-            className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-            style={{ color: "var(--gold-dark)" }}
-          >
-            Live Market Data
-          </p>
-          <h3 className="mb-2 text-xl font-bold tracking-tight sm:text-2xl">
-            Regional Market Evidence
-          </h3>
-          <p className="mb-8 text-sm text-muted-foreground">
-            Aggregated from {data.townCount.toLocaleString("en-GB")} towns
-            across {data.countyCount} {data.countyCount === 1 ? "county" : "counties"} relevant
-            to this guide.
-          </p>
+    <EditorialSection tone="stone">
+      <div className="mx-auto max-w-4xl">
+        <SectionHeader
+          tone="stone"
+          align="stacked"
+          eyebrow="Live market data"
+          title={
+            <>
+              Regional
+              <br />
+              <span className="italic" style={{ color: "var(--navy)" }}>
+                market evidence.
+              </span>
+            </>
+          }
+          body={`Aggregated from ${data.townCount.toLocaleString("en-GB")} towns across ${data.countyCount} ${data.countyCount === 1 ? "county" : "counties"} relevant to this guide.`}
+        />
+        <div className="mt-14">
 
           {/* ── Stat Cards ── */}
           <div className="mb-8 grid grid-cols-2 gap-3 sm:grid-cols-3">
@@ -296,6 +294,6 @@ return (
             )}
         </div>
       </div>
-    </section>
+    </EditorialSection>
   );
 }

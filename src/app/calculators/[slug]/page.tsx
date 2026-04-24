@@ -6,7 +6,12 @@ import * as LucideIcons from "lucide-react";
 
 import { JsonLd } from "@/components/ui/json-ld";
 import { Button } from "@/components/ui/button";
-import { PageHero } from "@/components/editorial/primitives";
+import {
+  CTAButton,
+  EditorialSection,
+  PageHero,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 import { CALCULATORS, getCalculatorBySlug } from "@/lib/calculators";
 import type { CalculatorContent } from "@/lib/calculator-content/types";
@@ -343,253 +348,252 @@ export default async function CalculatorPage({
         deck={calc.heroSubtitle}
       />
 
-      {/* ━━━ CALCULATOR ━━━ */}
-      <section className="bg-background py-16 sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {CalculatorComponent ? (
-            <CalculatorComponent />
-          ) : (
-            <div className="rounded-xl border border-border bg-card p-12 text-center">
-              <Calculator className="mx-auto h-12 w-12 text-muted-foreground" />
-              <h2 className="mt-4 text-xl font-bold">Coming Soon</h2>
-              <p className="mt-2 text-muted-foreground">
-                This calculator is under development. In the meantime, submit
-                your deal for a bespoke appraisal.
-              </p>
-              <Button
-                asChild
-                size="lg"
-                className="mt-6 bg-gold text-navy-dark hover:bg-gold-dark"
-              >
-                <Link href="/deal-room">
-                  Enter the Deal Room
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-            </div>
-          )}
-        </div>
-      </section>
-
-      {/* ━━━ HOW IT WORKS ━━━ */}
-      {seoContent?.howItWorks && (
-        <section className="bg-muted/30 py-16 sm:py-20">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl">
-              <div
-                className="mb-5 h-[2px] w-14"
-                style={{
-                  background:
-                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                }}
-              />
-              <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-                {seoContent.howItWorks.title}
-              </h2>
-              <div className="space-y-5 text-base leading-relaxed text-muted-foreground">
-                {seoContent.howItWorks.paragraphs.map((p, i) => (
-                  <p key={i}>{p}</p>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* ━━━ EXPERT GUIDE ━━━ */}
-      {seoContent?.guide && (
-        <section className="bg-background py-16 sm:py-20">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl">
-              <div
-                className="mb-5 h-[2px] w-14"
-                style={{
-                  background:
-                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                }}
-              />
-              <p
-                className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-                style={{ color: "var(--gold-dark)" }}
-              >
-                Expert Guide
-              </p>
-              <h2 className="mb-12 text-2xl font-bold tracking-tight sm:text-3xl">
-                {seoContent.guide.title}
-              </h2>
-
-              <div className="space-y-12">
-                {seoContent.guide.sections.map((section, i) => (
-                  <div key={i}>
-                    <h3 className="mb-4 text-xl font-bold tracking-tight">
-                      {section.heading}
-                    </h3>
-                    <div className="space-y-4 text-base leading-relaxed text-muted-foreground">
-                      {section.paragraphs.map((p, j) => (
-                        <p key={j}>{p}</p>
-                      ))}
-                    </div>
-                    {section.bullets && section.bullets.length > 0 && (
-                      <ul className="mt-4 space-y-2 text-base text-muted-foreground">
-                        {section.bullets.map((bullet, k) => (
-                          <li key={k} className="flex items-start gap-3">
-                            <span
-                              className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full"
-                              style={{ background: "var(--gold)" }}
-                            />
-                            <span>{bullet}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* ━━━ FAQ ━━━ */}
-      <section className="bg-muted/30 py-16 sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-10">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
+      {/* Calculator */}
+      <EditorialSection tone="paper">
+        {CalculatorComponent ? (
+          <CalculatorComponent />
+        ) : (
+          <div
+            className="border p-12 text-center"
+            style={{ borderColor: "var(--stone-dark)", background: "var(--stone)" }}
+          >
+            <Calculator
+              className="mx-auto h-10 w-10"
               style={{ color: "var(--gold-dark)" }}
+            />
+            <h2
+              className="font-heading mt-6 text-[1.75rem] font-medium leading-tight tracking-tight"
+              style={{ color: "var(--navy-dark)" }}
             >
-              Common Questions
-            </p>
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              {calc.name.replace(" Calculator", "")} FAQ
+              Coming soon
             </h2>
-          </div>
-
-          <div className="mx-auto max-w-3xl space-y-0">
-            {calc.faqs.map((faq, index) => (
-              <details key={index} className="group border-b border-border">
-                <summary className="flex cursor-pointer items-center justify-between py-4 text-left text-base font-semibold transition-colors hover:text-foreground/80 [&::-webkit-details-marker]:hidden">
-                  {faq.question}
-                  <svg
-                    className="ml-2 h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="m6 9 6 6 6-6" />
-                  </svg>
-                </summary>
-                <div className="pb-4 text-muted-foreground">{faq.answer}</div>
-              </details>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ━━━ RELATED CALCULATORS ━━━ */}
-      {relatedCalcs.length > 0 && (
-        <section className="bg-background py-16 sm:py-20">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mb-8">
-              <div
-                className="mb-5 h-[2px] w-14"
-                style={{
-                  background:
-                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                }}
-              />
-              <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-                Related Calculators
-              </h2>
-            </div>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {relatedCalcs.map((related) => {
-                if (!related) return null;
-                const RelatedIcon = iconMap[related.icon] || Calculator;
-                
-return (
-                  <Link
-                    key={related.slug}
-                    href={`/calculators/${related.slug}`}
-                    className="group flex flex-col rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:border-gold/20 hover:shadow-md"
-                  >
-                    <div
-                      className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg"
-                      style={{
-                        background:
-                          "linear-gradient(135deg, oklch(0.75 0.12 85 / 0.12), oklch(0.75 0.12 85 / 0.04))",
-                        border: "1px solid oklch(0.75 0.12 85 / 0.1)",
-                      }}
-                    >
-                      <RelatedIcon
-                        className="h-5 w-5"
-                        style={{ color: "var(--gold-dark)" }}
-                      />
-                    </div>
-                    <h3 className="text-lg font-bold text-foreground transition-colors group-hover:text-gold-dark">
-                      {related.name}
-                    </h3>
-                    <p className="mt-2 flex-1 text-sm text-muted-foreground">
-                      {related.shortDesc}
-                    </p>
-                  </Link>
-                );
-              })}
+            <p
+              className="mx-auto mt-3 max-w-lg text-[16px] leading-[1.6]"
+              style={{ color: "oklch(0.35 0.04 255)" }}
+            >
+              This calculator is under development. In the meantime, submit
+              your deal for a bespoke appraisal.
+            </p>
+            <div className="mt-8 flex justify-center">
+              <CTAButton href="/deal-room" variant="navy">
+                Enter the Deal Room
+              </CTAButton>
             </div>
           </div>
-        </section>
+        )}
+      </EditorialSection>
+
+      {/* How it works */}
+      {seoContent?.howItWorks && (
+        <EditorialSection tone="stone">
+          <div className="mx-auto max-w-3xl">
+            <SectionHeader
+              tone="stone"
+              align="stacked"
+              eyebrow="How it works"
+              title={seoContent.howItWorks.title}
+            />
+            <div
+              className="mt-10 space-y-5 text-[17px] leading-[1.7]"
+              style={{ color: "oklch(0.32 0.04 255)" }}
+            >
+              {seoContent.howItWorks.paragraphs.map((p, i) => (
+                <p key={i}>{p}</p>
+              ))}
+            </div>
+          </div>
+        </EditorialSection>
       )}
 
-      {/* ━━━ CTA ━━━ */}
-      <section className="relative overflow-hidden py-20 sm:py-28">
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(135deg, oklch(0.70 0.14 80) 0%, oklch(0.78 0.12 88) 50%, oklch(0.72 0.13 82) 100%)",
-          }}
-        />
-        <div className="noise-overlay absolute inset-0" />
+      {/* Expert guide */}
+      {seoContent?.guide && (
+        <EditorialSection tone="paper">
+          <div className="mx-auto max-w-3xl">
+            <SectionHeader
+              tone="paper"
+              align="stacked"
+              eyebrow="Expert guide"
+              title={seoContent.guide.title}
+            />
 
-        <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <h2
-            className="text-3xl font-bold tracking-tight sm:text-4xl"
-            style={{ color: "var(--navy-dark)" }}
-          >
-            Need a Bespoke Appraisal?
-          </h2>
-          <p
-            className="mx-auto mt-5 max-w-xl text-lg"
-            style={{ color: "var(--navy)", opacity: 0.6 }}
-          >
-            This calculator gives indicative figures. For a precise structure
-            tailored to your project, submit your deal for a free review.
-          </p>
-          <div className="mt-10">
-            <Button
-              asChild
-              size="lg"
-              className="bg-navy text-white hover:bg-navy-dark h-14 px-12 text-base font-bold shadow-2xl transition-all duration-300 hover:scale-[1.02]"
-            >
-              <Link href="/deal-room">
-                Enter the Deal Room
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+            <div className="mt-14 space-y-14">
+              {seoContent.guide.sections.map((section, i) => (
+                <div key={i}>
+                  <h3
+                    className="font-heading mb-5 text-[1.5rem] font-medium leading-[1.15] tracking-tight"
+                    style={{ color: "var(--navy-dark)" }}
+                  >
+                    {section.heading}
+                  </h3>
+                  <div
+                    className="space-y-4 text-[17px] leading-[1.7]"
+                    style={{ color: "oklch(0.32 0.04 255)" }}
+                  >
+                    {section.paragraphs.map((p, j) => (
+                      <p key={j}>{p}</p>
+                    ))}
+                  </div>
+                  {section.bullets && section.bullets.length > 0 && (
+                    <ul className="mt-6 space-y-3">
+                      {section.bullets.map((bullet, k) => (
+                        <li key={k} className="flex items-start gap-3 text-[17px] leading-[1.65]" style={{ color: "oklch(0.32 0.04 255)" }}>
+                          <span
+                            aria-hidden
+                            className="mt-[0.7em] h-1 w-1 shrink-0 rounded-full"
+                            style={{ background: "var(--gold)" }}
+                          />
+                          <span>{bullet}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
+        </EditorialSection>
+      )}
+
+      {/* FAQ */}
+      <EditorialSection tone="stone">
+        <SectionHeader
+          tone="stone"
+          eyebrow="Common questions"
+          title={
+            <>
+              {calc.name.replace(" Calculator", "")}
+              <br />
+              <span className="italic" style={{ color: "var(--navy)" }}>
+                — answered.
+              </span>
+            </>
+          }
+        />
+        <div className="mt-16 mx-auto max-w-3xl space-y-3">
+          {calc.faqs.map((faq, index) => (
+            <details
+              key={index}
+              className="group border-b"
+              style={{ borderColor: "var(--stone-dark)" }}
+            >
+              <summary
+                className="flex cursor-pointer items-center justify-between py-5 font-heading text-[18px] font-medium leading-snug tracking-tight [&::-webkit-details-marker]:hidden"
+                style={{ color: "var(--navy-dark)" }}
+              >
+                {faq.question}
+                <svg
+                  className="ml-3 h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180"
+                  style={{ color: "var(--gold-dark)" }}
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </summary>
+              <p
+                className="pb-6 text-[16px] leading-[1.65]"
+                style={{ color: "oklch(0.35 0.04 255)" }}
+              >
+                {faq.answer}
+              </p>
+            </details>
+          ))}
         </div>
-      </section>
+      </EditorialSection>
+
+      {/* Related calculators */}
+      {relatedCalcs.length > 0 && (
+        <EditorialSection tone="paper">
+          <SectionHeader
+            tone="paper"
+            eyebrow="More tools"
+            title={
+              <>
+                Related
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  calculators.
+                </span>
+              </>
+            }
+          />
+          <div
+            className="mt-16 grid gap-px border-y sm:grid-cols-2 lg:grid-cols-3"
+            style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}
+          >
+            {relatedCalcs.map((related) => {
+              if (!related) return null;
+              const RelatedIcon = iconMap[related.icon] || Calculator;
+              return (
+                <Link
+                  key={related.slug}
+                  href={`/calculators/${related.slug}`}
+                  className="group flex flex-col gap-4 px-7 py-8 transition-colors"
+                  style={{ background: "var(--paper)" }}
+                >
+                  <div className="flex items-start justify-between gap-4">
+                    <RelatedIcon
+                      className="h-4 w-4"
+                      style={{ color: "var(--gold-dark)" }}
+                    />
+                    <ArrowRight
+                      className="h-4 w-4 shrink-0 transition-transform group-hover:translate-x-0.5"
+                      style={{ color: "var(--gold-dark)" }}
+                    />
+                  </div>
+                  <h3
+                    className="font-heading text-[20px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                    style={{ color: "var(--navy-dark)" }}
+                  >
+                    {related.name}
+                  </h3>
+                  <p
+                    className="flex-1 text-[14px] leading-[1.55]"
+                    style={{ color: "oklch(0.35 0.04 255)" }}
+                  >
+                    {related.shortDesc}
+                  </p>
+                </Link>
+              );
+            })}
+          </div>
+        </EditorialSection>
+      )}
+
+      {/* CTA */}
+      <EditorialSection tone="navy-dark">
+        <SectionHeader
+          tone="navy-dark"
+          eyebrow="Want the precise answer?"
+          title={
+            <>
+              Need a
+              <br />
+              <span className="italic" style={{ color: "var(--gold-light)" }}>
+                bespoke appraisal?
+              </span>
+            </>
+          }
+          body="This calculator gives indicative figures. For a precise structure tailored to your project, submit your deal for a partner-led review."
+        />
+        <div className="mt-12 flex flex-wrap items-center gap-5">
+          <CTAButton href="/deal-room" variant="gold" size="lg">
+            Enter the Deal Room
+          </CTAButton>
+          <a
+            href={`tel:${CONTACT.phoneRaw}`}
+            className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+            style={{ color: "oklch(1 0 0 / 0.95)" }}
+          >
+            Or call {CONTACT.phone}
+          </a>
+        </div>
+      </EditorialSection>
     </>
   );
 }

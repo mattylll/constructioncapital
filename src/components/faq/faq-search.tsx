@@ -2,9 +2,10 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { ArrowRight, HelpCircle, Search } from "lucide-react";
+import { ArrowRight, Search } from "lucide-react";
 
 import { Input } from "@/components/ui/input";
+import { EditorialSection } from "@/components/editorial/primitives";
 
 interface FAQEntry {
   question: string;
@@ -35,7 +36,7 @@ export function FAQSearch({ categories }: FAQSearchProps) {
           faqs: cat.faqs.filter(
             (faq) =>
               faq.question.toLowerCase().includes(lowerQuery) ||
-              faq.answer.toLowerCase().includes(lowerQuery)
+              faq.answer.toLowerCase().includes(lowerQuery),
           ),
         }))
         .filter((cat) => cat.faqs.length > 0)
@@ -43,39 +44,54 @@ export function FAQSearch({ categories }: FAQSearchProps) {
 
   const totalResults = filteredCategories.reduce(
     (sum, cat) => sum + cat.faqs.length,
-    0
+    0,
   );
 
   return (
     <>
       {/* Search bar */}
-      <div className="border-b border-border bg-muted/30 py-6">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="relative mb-4 max-w-lg">
-            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+      <div
+        className="border-y py-8"
+        style={{ borderColor: "var(--stone-dark)", background: "var(--stone)" }}
+      >
+        <div className="mx-auto max-w-[1360px] px-6 sm:px-10">
+          <div className="relative max-w-lg">
+            <Search
+              className="absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2"
+              style={{ color: "var(--gold-dark)" }}
+            />
             <Input
               type="search"
               placeholder="Search FAQs..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              className="h-11 pl-10"
+              className="h-12 border-0 bg-[color:var(--paper)] pl-12 text-[15px]"
+              style={{ borderColor: "var(--stone-dark)" }}
             />
           </div>
           {lowerQuery ? (
-            <p className="text-sm text-muted-foreground">
+            <p
+              className="mt-5 text-[11px] font-medium uppercase tracking-[0.24em]"
+              style={{ color: "var(--gold-dark)" }}
+            >
               {totalResults} result{totalResults !== 1 ? "s" : ""} for &ldquo;{query}&rdquo;
             </p>
           ) : (
-            <div className="flex flex-wrap gap-3">
+            <div className="mt-6 flex flex-wrap gap-2">
               {categories.map((cat) => (
                 <a
                   key={cat.slug}
                   href={`#${cat.slug}`}
-                  className="rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-gold/30 hover:text-gold-dark"
+                  className="inline-flex items-center gap-2 border px-4 py-2 text-[11px] font-medium uppercase tracking-[0.2em] transition-colors"
+                  style={{
+                    borderColor: "var(--stone-dark)",
+                    color: "var(--navy-dark)",
+                    background: "var(--paper)",
+                  }}
                 >
-                  {cat.name}{" "}
-                  <span className="text-muted-foreground">
-                    ({cat.faqs.length})
+                  {cat.name}
+                  <span className="numeral-tabular" style={{ color: "oklch(0.50 0.02 255)" }}>
+                    {String(cat.faqs.length).padStart(2, "0")}
                   </span>
                 </a>
               ))}
@@ -84,56 +100,83 @@ export function FAQSearch({ categories }: FAQSearchProps) {
         </div>
       </div>
 
-      {/* FAQ Sections */}
-      <section className="bg-background py-16 sm:py-20">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+      {/* FAQ sections */}
+      <EditorialSection tone="paper">
+        <div className="mx-auto max-w-4xl">
           {filteredCategories.length === 0 && (
-            <p className="text-center text-muted-foreground">
+            <p
+              className="text-center text-[17px] leading-[1.6]"
+              style={{ color: "oklch(0.35 0.04 255)" }}
+            >
               No FAQs match your search. Try a different term or{" "}
-              <Link href="/contact" className="text-gold-dark hover:underline">
+              <Link href="/contact" className="editorial-link" style={{ color: "var(--navy-dark)" }}>
                 contact us directly
               </Link>
               .
             </p>
           )}
-          {filteredCategories.map((cat) => (
-            <div key={cat.slug} id={cat.slug} className="mb-16 last:mb-0">
-              <div className="mb-8">
-                <div
-                  className="mb-4 h-[2px] w-14"
-                  style={{
-                    background:
-                      "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                  }}
-                />
-                <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-                  {cat.name}
-                </h2>
-                <p className="mt-2 text-sm text-muted-foreground">
-                  {cat.description}
-                </p>
-              </div>
+          {filteredCategories.map((cat, idx) => (
+            <div
+              key={cat.slug}
+              id={cat.slug}
+              className={`scroll-mt-24 ${idx > 0 ? "mt-20" : ""}`}
+            >
+              <p
+                className="mb-3 text-[11px] font-medium uppercase tracking-[0.26em]"
+                style={{ color: "var(--gold-dark)" }}
+              >
+                {String(idx + 1).padStart(2, "0")}
+              </p>
+              <h2
+                className="font-heading text-[2rem] font-medium leading-[1.1] tracking-[-0.015em] sm:text-[2.25rem]"
+                style={{ color: "var(--navy-dark)" }}
+              >
+                {cat.name}
+              </h2>
+              <p
+                className="mt-4 max-w-2xl text-[16px] leading-[1.6]"
+                style={{ color: "oklch(0.35 0.04 255)" }}
+              >
+                {cat.description}
+              </p>
 
-              <div className="space-y-4">
+              <div className="mt-10 space-y-3">
                 {cat.faqs.map((faq, i) => (
                   <details
                     key={i}
-                    className="group rounded-xl border border-border bg-card transition-colors open:border-gold/20"
+                    className="group border-b"
+                    style={{ borderColor: "var(--stone-dark)" }}
                   >
-                    <summary className="flex cursor-pointer items-start gap-3 p-5 text-left font-bold text-foreground [&::-webkit-details-marker]:hidden">
-                      <HelpCircle className="mt-0.5 h-5 w-5 shrink-0 text-gold" />
-                      <span className="flex-1">{faq.question}</span>
-                      <span className="ml-2 mt-1 text-xs text-muted-foreground transition-transform group-open:rotate-180">
-                        ▼
-                      </span>
+                    <summary
+                      className="flex cursor-pointer items-center justify-between gap-4 py-5 font-heading text-[18px] font-medium leading-snug tracking-tight [&::-webkit-details-marker]:hidden"
+                      style={{ color: "var(--navy-dark)" }}
+                    >
+                      <span>{faq.question}</span>
+                      <svg
+                        className="h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180"
+                        style={{ color: "var(--gold-dark)" }}
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="m6 9 6 6 6-6" />
+                      </svg>
                     </summary>
-                    <div className="border-t border-border px-5 pb-5 pt-4">
-                      <p className="text-sm leading-relaxed text-muted-foreground">
+                    <div className="pb-6">
+                      <p
+                        className="text-[16px] leading-[1.65]"
+                        style={{ color: "oklch(0.35 0.04 255)" }}
+                      >
                         {faq.answer}
                       </p>
                       <Link
                         href={faq.sourceUrl}
-                        className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-gold-dark hover:underline"
+                        className="mt-4 inline-flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.2em]"
+                        style={{ color: "var(--gold-dark)" }}
                       >
                         Read more in: {faq.source}
                         <ArrowRight className="h-3 w-3" />
@@ -145,7 +188,7 @@ export function FAQSearch({ categories }: FAQSearchProps) {
             </div>
           ))}
         </div>
-      </section>
+      </EditorialSection>
     </>
   );
 }

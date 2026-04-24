@@ -46,8 +46,8 @@ export function PriceByTypeChart({
   data: { name: string; value: number }[];
 }) {
   return (
-    <div className="my-8 rounded-xl border border-border bg-card p-6">
-      <h4 className="mb-4 text-sm font-semibold text-foreground">
+    <div className="my-10 border p-6" style={{ borderColor: "var(--stone-dark)", background: "var(--paper)" }}>
+      <h4 className="mb-5 text-[11px] font-medium uppercase tracking-[0.24em]" style={{ color: "var(--gold-dark)" }}>
         Median Price by Property Type
       </h4>
       <div className="h-[280px]">
@@ -111,8 +111,8 @@ export function TownPricesChart({
   data: { name: string; value: number }[];
 }) {
   return (
-    <div className="my-8 rounded-xl border border-border bg-card p-6">
-      <h4 className="mb-4 text-sm font-semibold text-foreground">
+    <div className="my-10 border p-6" style={{ borderColor: "var(--stone-dark)", background: "var(--paper)" }}>
+      <h4 className="mb-5 text-[11px] font-medium uppercase tracking-[0.24em]" style={{ color: "var(--gold-dark)" }}>
         Town Median Prices
       </h4>
       <div className="h-[360px]">
@@ -157,8 +157,8 @@ export function YoyChangeChart({
   data: { name: string; value: number }[];
 }) {
   return (
-    <div className="my-8 rounded-xl border border-border bg-card p-6">
-      <h4 className="mb-4 text-sm font-semibold text-foreground">
+    <div className="my-10 border p-6" style={{ borderColor: "var(--stone-dark)", background: "var(--paper)" }}>
+      <h4 className="mb-5 text-[11px] font-medium uppercase tracking-[0.24em]" style={{ color: "var(--gold-dark)" }}>
         Year-on-Year Price Change by Town
       </h4>
       <div className="h-[320px]">
@@ -219,23 +219,27 @@ export function ReportChartsSection({ charts }: { charts: ReportCharts }) {
 
   return (
     <div className="mx-auto max-w-3xl">
-      <div
-        className="mb-5 h-[2px] w-14"
-        style={{
-          background: "linear-gradient(90deg, var(--gold), var(--gold-light))",
-        }}
-      />
       <p
-        className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
+        className="mb-3 text-[11px] font-medium uppercase tracking-[0.26em]"
         style={{ color: "var(--gold-dark)" }}
       >
-        Data Visualisation
+        Data visualisation
       </p>
-      <h3 className="mb-2 text-xl font-bold tracking-tight sm:text-2xl">
-        Market Data at a Glance
+      <h3
+        className="font-heading text-[1.75rem] font-medium leading-[1.15] tracking-tight sm:text-[2rem]"
+        style={{ color: "var(--navy-dark)" }}
+      >
+        Market data
+        <br />
+        <span className="italic" style={{ color: "var(--navy)" }}>
+          at a glance.
+        </span>
       </h3>
-      <p className="mb-6 text-sm text-muted-foreground">
-        Interactive charts based on Land Registry sold price data.
+      <p
+        className="mt-4 mb-8 text-[16px] leading-[1.6]"
+        style={{ color: "oklch(0.35 0.04 255)" }}
+      >
+        Interactive charts based on Land Registry sold-price data.
       </p>
 
       {charts.priceByType && charts.priceByType.length > 0 && (

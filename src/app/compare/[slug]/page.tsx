@@ -11,8 +11,12 @@ import {
   ChevronRight,
 } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/ui/json-ld";
+import {
+  CTAButton,
+  EditorialSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
 import { SITE_NAME, SITE_URL } from "@/lib/constants";
 import {
   PRODUCT_COMPARISONS,
@@ -223,326 +227,345 @@ export default async function ComparisonPage({ params }: PageProps) {
         />
       </section>
 
-      {/* Quick Summary Cards */}
-      <section className="bg-background py-12 sm:py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid gap-6 md:grid-cols-2">
-            {[comparison.optionA, comparison.optionB].map((option, i) => (
+      {/* Summary cards — the two options */}
+      <EditorialSection tone="paper">
+        <div
+          className="grid gap-px border-y md:grid-cols-2"
+          style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}
+        >
+          {[comparison.optionA, comparison.optionB].map((option, i) => (
+            <div
+              key={i}
+              className="flex flex-col gap-6 px-8 py-10"
+              style={{ background: "var(--paper)" }}
+            >
+              <p
+                className="text-[10px] font-medium uppercase tracking-[0.28em]"
+                style={{ color: "var(--gold-dark)" }}
+              >
+                Option {i === 0 ? "A" : "B"}
+              </p>
+              <h2
+                className="font-heading text-[1.75rem] font-medium leading-[1.15] tracking-tight sm:text-[2rem]"
+                style={{ color: "var(--navy-dark)" }}
+              >
+                {option.name}
+              </h2>
+              <p
+                className="text-[16px] leading-[1.6]"
+                style={{ color: "oklch(0.35 0.04 255)" }}
+              >
+                {option.description}
+              </p>
+
+              <dl
+                className="grid grid-cols-3 gap-4 border-y py-5"
+                style={{ borderColor: "var(--stone-dark)" }}
+              >
+                <div>
+                  <dt className="text-[10px] font-medium uppercase tracking-[0.22em]" style={{ color: "oklch(0.50 0.02 255)" }}>Rate</dt>
+                  <dd className="numeral-tabular font-heading mt-1 text-[18px] font-medium tracking-tight" style={{ color: "var(--navy-dark)" }}>{option.typicalRate}</dd>
+                </div>
+                <div>
+                  <dt className="text-[10px] font-medium uppercase tracking-[0.22em]" style={{ color: "oklch(0.50 0.02 255)" }}>Leverage</dt>
+                  <dd className="numeral-tabular font-heading mt-1 text-[18px] font-medium tracking-tight" style={{ color: "var(--navy-dark)" }}>{option.typicalLtv}</dd>
+                </div>
+                <div>
+                  <dt className="text-[10px] font-medium uppercase tracking-[0.22em]" style={{ color: "oklch(0.50 0.02 255)" }}>Term</dt>
+                  <dd className="numeral-tabular font-heading mt-1 text-[18px] font-medium tracking-tight" style={{ color: "var(--navy-dark)" }}>{option.typicalTerm}</dd>
+                </div>
+              </dl>
+
+              <div>
+                <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.26em]" style={{ color: "oklch(0.55 0.15 160)" }}>Advantages</p>
+                <ul className="space-y-2">
+                  {option.pros.map((pro, j) => (
+                    <li key={j} className="flex items-start gap-3 text-[15px] leading-[1.55]" style={{ color: "var(--navy-dark)" }}>
+                      <Check className="mt-[0.2em] h-4 w-4 shrink-0" style={{ color: "oklch(0.55 0.15 160)" }} />
+                      <span>{pro}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div>
+                <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.26em]" style={{ color: "oklch(0.55 0.2 25)" }}>Disadvantages</p>
+                <ul className="space-y-2">
+                  {option.cons.map((con, j) => (
+                    <li key={j} className="flex items-start gap-3 text-[15px] leading-[1.55]" style={{ color: "var(--navy-dark)" }}>
+                      <X className="mt-[0.2em] h-4 w-4 shrink-0" style={{ color: "oklch(0.55 0.2 25)" }} />
+                      <span>{con}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
               <div
-                key={i}
-                className="rounded-xl border border-border bg-card p-6 sm:p-8"
+                className="mt-auto border-l-2 pl-4 py-1"
+                style={{ borderColor: "var(--gold)" }}
               >
                 <p
-                  className="mb-3 text-xs font-bold uppercase tracking-[0.25em]"
+                  className="text-[10px] font-medium uppercase tracking-[0.26em]"
                   style={{ color: "var(--gold-dark)" }}
                 >
-                  Option {i === 0 ? "A" : "B"}
+                  Best for
                 </p>
-                <h2 className="mb-3 text-xl font-bold tracking-tight sm:text-2xl">
-                  {option.name}
-                </h2>
-                <p className="mb-6 text-sm leading-relaxed text-muted-foreground">
-                  {option.description}
+                <p
+                  className="mt-1 text-[15px] leading-[1.55]"
+                  style={{ color: "var(--navy-dark)" }}
+                >
+                  {option.bestFor}
                 </p>
-
-                {/* Key stats */}
-                <div className="mb-6 grid grid-cols-3 gap-3">
-                  <div className="rounded-lg bg-muted/50 p-3 text-center">
-                    <p className="text-[11px] text-muted-foreground">Rate</p>
-                    <p className="text-sm font-bold">{option.typicalRate}</p>
-                  </div>
-                  <div className="rounded-lg bg-muted/50 p-3 text-center">
-                    <p className="text-[11px] text-muted-foreground">
-                      Leverage
-                    </p>
-                    <p className="text-sm font-bold">{option.typicalLtv}</p>
-                  </div>
-                  <div className="rounded-lg bg-muted/50 p-3 text-center">
-                    <p className="text-[11px] text-muted-foreground">Term</p>
-                    <p className="text-sm font-bold">{option.typicalTerm}</p>
-                  </div>
-                </div>
-
-                {/* Pros */}
-                <div className="mb-4">
-                  <p className="mb-2 text-xs font-bold uppercase tracking-wide text-emerald-600">
-                    Advantages
-                  </p>
-                  <ul className="space-y-1.5">
-                    {option.pros.map((pro, j) => (
-                      <li
-                        key={j}
-                        className="flex items-start gap-2 text-sm text-muted-foreground"
-                      >
-                        <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
-                        {pro}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                {/* Cons */}
-                <div className="mb-4">
-                  <p className="mb-2 text-xs font-bold uppercase tracking-wide text-red-600">
-                    Disadvantages
-                  </p>
-                  <ul className="space-y-1.5">
-                    {option.cons.map((con, j) => (
-                      <li
-                        key={j}
-                        className="flex items-start gap-2 text-sm text-muted-foreground"
-                      >
-                        <X className="mt-0.5 h-4 w-4 shrink-0 text-red-500" />
-                        {con}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                {/* Best for */}
-                <div className="rounded-lg border border-gold/20 bg-gold/5 p-4">
-                  <p className="text-xs font-bold text-gold-dark">Best For</p>
-                  <p className="mt-1 text-sm text-muted-foreground">
-                    {option.bestFor}
-                  </p>
-                </div>
               </div>
+            </div>
+          ))}
+        </div>
+      </EditorialSection>
+
+      {/* Feature comparison table */}
+      <EditorialSection tone="stone">
+        <div className="mx-auto max-w-4xl">
+          <SectionHeader
+            tone="stone"
+            align="stacked"
+            eyebrow="Side by side"
+            title={
+              <>
+                Feature-by-feature
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  comparison.
+                </span>
+              </>
+            }
+          />
+          <div
+            className="mt-12 overflow-x-auto border"
+            style={{ borderColor: "var(--stone-dark)" }}
+          >
+            <table className="w-full text-[15px]">
+              <thead>
+                <tr style={{ background: "var(--stone-dark)" }}>
+                  <th className="px-5 py-4 text-left font-heading text-[14px] font-medium tracking-tight sm:px-6" style={{ color: "var(--navy-dark)" }}>Feature</th>
+                  <th className="px-5 py-4 text-left font-heading text-[14px] font-medium tracking-tight sm:px-6" style={{ color: "var(--navy-dark)" }}>{comparison.optionA.name}</th>
+                  <th className="px-5 py-4 text-left font-heading text-[14px] font-medium tracking-tight sm:px-6" style={{ color: "var(--navy-dark)" }}>{comparison.optionB.name}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparison.features.map((feature, i) => (
+                  <tr
+                    key={i}
+                    className="border-t"
+                    style={{ borderColor: "var(--stone-dark)", background: i % 2 === 0 ? "var(--stone)" : "oklch(0.97 0.005 250)" }}
+                  >
+                    <td className="px-5 py-4 font-medium sm:px-6" style={{ color: "var(--navy-dark)" }}>{feature.feature}</td>
+                    <td className="px-5 py-4 sm:px-6" style={{ color: "oklch(0.35 0.04 255)" }}>{feature.optionA}</td>
+                    <td className="px-5 py-4 sm:px-6" style={{ color: "oklch(0.35 0.04 255)" }}>{feature.optionB}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </EditorialSection>
+
+      {/* Verdict */}
+      <EditorialSection tone="paper">
+        <div className="mx-auto max-w-3xl">
+          <SectionHeader
+            tone="paper"
+            align="stacked"
+            eyebrow="Our verdict"
+            title={
+              <>
+                Which should
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  you choose?
+                </span>
+              </>
+            }
+          />
+          <div
+            className="mt-10 space-y-5 text-[17px] leading-[1.7]"
+            style={{ color: "oklch(0.32 0.04 255)" }}
+          >
+            {comparison.verdict.map((paragraph, i) => (
+              <p key={i}>{paragraph}</p>
             ))}
           </div>
         </div>
-      </section>
+      </EditorialSection>
 
-      {/* Feature Comparison Table */}
-      <section className="bg-muted/20 py-12 sm:py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-4xl">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-              Feature-by-Feature Comparison
-            </h2>
-
-            <div className="overflow-hidden rounded-xl border border-border">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b bg-muted/50">
-                    <th className="px-4 py-3 text-left font-semibold sm:px-6">
-                      Feature
-                    </th>
-                    <th className="px-4 py-3 text-left font-semibold sm:px-6">
-                      {comparison.optionA.name}
-                    </th>
-                    <th className="px-4 py-3 text-left font-semibold sm:px-6">
-                      {comparison.optionB.name}
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {comparison.features.map((feature, i) => (
-                    <tr
-                      key={i}
-                      className="border-b last:border-0 even:bg-muted/20"
-                    >
-                      <td className="px-4 py-3 font-medium sm:px-6">
-                        {feature.feature}
-                      </td>
-                      <td className="px-4 py-3 text-muted-foreground sm:px-6">
-                        {feature.optionA}
-                      </td>
-                      <td className="px-4 py-3 text-muted-foreground sm:px-6">
-                        {feature.optionB}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Verdict */}
-      <section className="bg-background py-12 sm:py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-3xl">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-              style={{ color: "var(--gold-dark)" }}
-            >
-              Our Verdict
-            </p>
-            <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-              Which Should You Choose?
-            </h2>
-
-            <div className="space-y-5">
-              {comparison.verdict.map((paragraph, i) => (
-                <p
-                  key={i}
-                  className="text-base leading-relaxed text-muted-foreground"
-                >
-                  {paragraph}
-                </p>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Related Services */}
+      {/* Related services */}
       {relatedServices.length > 0 && (
-        <section className="bg-muted/30 py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl">
-              <h3 className="mb-6 text-xl font-bold tracking-tight sm:text-2xl">
-                Explore These Products
-              </h3>
-              <div className="grid gap-4 sm:grid-cols-2">
-                {relatedServices.map((service) => (
-                  <Link
-                    key={service!.slug}
-                    href={`/services#${service!.slug}`}
-                    className="group rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30"
+        <EditorialSection tone="stone">
+          <SectionHeader
+            tone="stone"
+            eyebrow="The two products"
+            title={
+              <>
+                Explore
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  each product.
+                </span>
+              </>
+            }
+          />
+          <div
+            className="mt-16 grid gap-px border-y sm:grid-cols-2"
+            style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}
+          >
+            {relatedServices.map((service) => (
+              <Link
+                key={service!.slug}
+                href={`/services/${service!.slug}`}
+                className="group flex flex-col gap-4 px-7 py-8 transition-colors"
+                style={{ background: "var(--stone)" }}
+              >
+                <div className="flex items-start justify-between gap-4">
+                  <h3
+                    className="font-heading text-[22px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                    style={{ color: "var(--navy-dark)" }}
                   >
-                    <h4 className="mb-1 font-bold text-foreground">
-                      {service!.name}
-                    </h4>
-                    <p className="mb-3 text-sm text-muted-foreground">
-                      {service!.shortDesc}
-                    </p>
-                    <span className="flex items-center gap-1 text-xs font-bold text-gold-dark">
-                      Learn more
-                      <ChevronRight className="h-3 w-3" />
-                    </span>
-                  </Link>
-                ))}
-              </div>
-            </div>
+                    {service!.name}
+                  </h3>
+                  <ChevronRight
+                    className="mt-1 h-4 w-4 shrink-0 transition-transform group-hover:translate-x-0.5"
+                    style={{ color: "var(--gold-dark)" }}
+                  />
+                </div>
+                <p
+                  className="text-[15px] leading-[1.55]"
+                  style={{ color: "oklch(0.35 0.04 255)" }}
+                >
+                  {service!.shortDesc}
+                </p>
+              </Link>
+            ))}
           </div>
-        </section>
+        </EditorialSection>
       )}
 
-      {/* Related Guides */}
+      {/* Related guides */}
       {relatedGuides.length > 0 && (
-        <section className="bg-background py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl">
-              <h3 className="mb-6 text-xl font-bold tracking-tight sm:text-2xl">
-                Further Reading
-              </h3>
-              <div className="space-y-4">
-                {relatedGuides.map((guide) => (
-                  <Link
-                    key={guide!.slug}
-                    href={`/guides/${guide!.slug}`}
-                    className="group flex items-center justify-between rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30"
+        <EditorialSection tone="paper">
+          <SectionHeader
+            tone="paper"
+            eyebrow="Further reading"
+            title={
+              <>
+                Go deeper
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  on the detail.
+                </span>
+              </>
+            }
+          />
+          <div
+            className="mt-16 grid gap-px border-y sm:grid-cols-2"
+            style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}
+          >
+            {relatedGuides.map((guide) => (
+              <Link
+                key={guide!.slug}
+                href={`/guides/${guide!.slug}`}
+                className="group flex items-start justify-between gap-6 px-7 py-7 transition-colors"
+                style={{ background: "var(--paper)" }}
+              >
+                <div>
+                  <h3
+                    className="font-heading text-[20px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                    style={{ color: "var(--navy-dark)" }}
                   >
-                    <div>
-                      <h4 className="mb-1 font-bold text-foreground">
-                        {guide!.title}
-                      </h4>
-                      <span className="text-xs text-muted-foreground">
-                        {guide!.readingTime}
-                      </span>
-                    </div>
-                    <ArrowRight className="h-5 w-5 shrink-0 text-muted-foreground transition-all duration-300 group-hover:translate-x-1 group-hover:text-gold" />
-                  </Link>
-                ))}
-              </div>
-            </div>
+                    {guide!.title}
+                  </h3>
+                  <span
+                    className="mt-3 inline-block text-[11px] font-medium uppercase tracking-[0.22em]"
+                    style={{ color: "oklch(0.50 0.02 255)" }}
+                  >
+                    {guide!.readingTime}
+                  </span>
+                </div>
+                <ArrowRight
+                  className="mt-1 h-4 w-4 shrink-0 transition-transform duration-200 group-hover:translate-x-1"
+                  style={{ color: "var(--gold-dark)" }}
+                />
+              </Link>
+            ))}
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* FAQs */}
       {comparison.faqs.length > 0 && (
-        <section className="bg-muted/20 py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl">
-              <div
-                className="mb-5 h-[2px] w-14"
-                style={{
-                  background:
-                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                }}
-              />
-              <h3 className="mb-8 text-xl font-bold tracking-tight sm:text-2xl">
-                Frequently Asked Questions
-              </h3>
-              <div className="space-y-6">
-                {comparison.faqs.map((faq, i) => (
-                  <div
-                    key={i}
-                    className="rounded-xl border border-border bg-card p-6"
-                  >
-                    <h4 className="mb-3 font-bold text-foreground">
-                      {faq.question}
-                    </h4>
-                    <p className="text-sm leading-relaxed text-muted-foreground">
-                      {faq.answer}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
+        <EditorialSection tone="stone">
+          <SectionHeader
+            tone="stone"
+            eyebrow="Common questions"
+            title={
+              <>
+                Frequently asked
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  questions.
+                </span>
+              </>
+            }
+          />
+          <div className="mt-16 mx-auto max-w-3xl space-y-3">
+            {comparison.faqs.map((faq, i) => (
+              <details
+                key={i}
+                className="group border-b"
+                style={{ borderColor: "var(--stone-dark)" }}
+              >
+                <summary
+                  className="flex cursor-pointer items-center justify-between py-5 font-heading text-[18px] font-medium leading-snug tracking-tight [&::-webkit-details-marker]:hidden"
+                  style={{ color: "var(--navy-dark)" }}
+                >
+                  {faq.question}
+                  <svg className="ml-3 h-4 w-4 shrink-0 transition-transform duration-200 group-open:rotate-180" style={{ color: "var(--gold-dark)" }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                </summary>
+                <p
+                  className="pb-6 text-[16px] leading-[1.65]"
+                  style={{ color: "oklch(0.35 0.04 255)" }}
+                >
+                  {faq.answer}
+                </p>
+              </details>
+            ))}
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* CTA */}
-      <section
-        className="noise-overlay relative overflow-hidden py-16 sm:py-20"
-        style={{
-          background:
-            "linear-gradient(180deg, oklch(0.16 0.05 255) 0%, oklch(0.20 0.06 255) 50%, oklch(0.16 0.05 255) 100%)",
-        }}
-      >
-        <div className="relative mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
-            Not Sure Which Product You Need?
-          </h2>
-          <p className="mt-3 text-white/50">
-            Tell us about your project and we&apos;ll recommend the right
-            finance structure. Indicative terms from 100+ lenders within 24
-            hours.
-          </p>
-          <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-            <Button
-              asChild
-              size="lg"
-              className="cta-shimmer h-14 bg-gold px-10 text-base font-bold text-navy-dark shadow-lg transition-all duration-300 hover:bg-gold-dark"
-            >
-              <Link href="/deal-room">
-                Start Your Deal
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="h-14 border-white/20 px-8 text-base text-white hover:bg-white/10"
-            >
-              <Link href="/guides">
-                <ArrowLeft className="mr-2 h-5 w-5" />
-                All Guides
-              </Link>
-            </Button>
-          </div>
+      <EditorialSection tone="navy-dark">
+        <SectionHeader
+          tone="navy-dark"
+          eyebrow="Ready when you are"
+          title={
+            <>
+              Not sure which
+              <br />
+              <span className="italic" style={{ color: "var(--gold-light)" }}>
+                product you need?
+              </span>
+            </>
+          }
+          body="Tell us about your scheme and we'll recommend the right finance structure. Indicative terms from the panel within one working day."
+        />
+        <div className="mt-12 flex flex-wrap items-center gap-5">
+          <CTAButton href="/deal-room" variant="gold" size="lg">
+            Start your deal
+          </CTAButton>
+          <CTAButton href="/guides" variant="outline-dark" size="lg">
+            All guides
+          </CTAButton>
         </div>
-      </section>
+      </EditorialSection>
     </>
   );
 }

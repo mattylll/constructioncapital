@@ -3,6 +3,11 @@
 import { useState } from "react";
 import { Play } from "lucide-react";
 
+import {
+  EditorialSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
+
 interface LocationVideoProps {
   townName: string;
   countyName: string;
@@ -19,8 +24,6 @@ interface LocationVideoProps {
 export function LocationVideo({
   townName,
   countyName,
-  countySlug,
-  townSlug,
   youtubeId,
 }: LocationVideoProps) {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -31,65 +34,78 @@ export function LocationVideo({
   const embedUrl = `https://www.youtube-nocookie.com/embed/${youtubeId}?autoplay=1&rel=0`;
 
   return (
-    <section className="bg-muted/30 py-16 sm:py-20">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-8">
-          <div
-            className="mb-5 h-[2px] w-14"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
-          <p
-            className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-            style={{ color: "var(--gold-dark)" }}
-          >
-            Market Update
-          </p>
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-            {townName} Property Market Video
-          </h2>
-          <p className="mt-3 max-w-2xl text-muted-foreground">
-            Watch our data-driven market update for {townName}, {countyName} -
-            covering prices, transactions, and development opportunities.
-          </p>
-        </div>
+    <EditorialSection tone="stone">
+      <SectionHeader
+        tone="stone"
+        eyebrow="Market update"
+        title={
+          <>
+            {townName}
+            <br />
+            <span className="italic" style={{ color: "var(--navy)" }}>
+              property market video.
+            </span>
+          </>
+        }
+        body={`Watch our data-driven market update for ${townName}, ${countyName} — prices, transactions and development opportunities.`}
+      />
 
-        <div className="mx-auto max-w-4xl">
-          <div className="relative overflow-hidden rounded-2xl border border-border shadow-lg aspect-video">
-            {isPlaying ? (
-              <iframe
-                src={embedUrl}
-                title={`${townName} Property Market Update - Construction Capital`}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="absolute inset-0 h-full w-full"
+      <div className="mt-16 mx-auto max-w-4xl">
+        <div
+          className="relative overflow-hidden border aspect-video"
+          style={{ borderColor: "var(--stone-dark)", background: "var(--navy-dark)" }}
+        >
+          {isPlaying ? (
+            <iframe
+              src={embedUrl}
+              title={`${townName} Property Market Update - Construction Capital`}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute inset-0 h-full w-full"
+              loading="lazy"
+            />
+          ) : (
+            <button
+              onClick={() => setIsPlaying(true)}
+              className="group absolute inset-0 flex items-center justify-center"
+              aria-label={`Play ${townName} market update video`}
+            >
+              {/* YouTube thumbnail */}
+              <img
+                src={thumbnailUrl}
+                alt={`${townName} property market update thumbnail`}
+                className="absolute inset-0 h-full w-full object-cover opacity-80 transition-opacity duration-300 group-hover:opacity-95"
                 loading="lazy"
               />
-            ) : (
-              <button
-                onClick={() => setIsPlaying(true)}
-                className="group absolute inset-0 flex items-center justify-center bg-navy-dark"
-                aria-label={`Play ${townName} market update video`}
-              >
-                {/* YouTube thumbnail */}
-                <img
-                  src={thumbnailUrl}
-                  alt={`${townName} property market update thumbnail`}
-                  className="absolute inset-0 h-full w-full object-cover opacity-80 transition-opacity duration-300 group-hover:opacity-90"
-                  loading="lazy"
-                />
+              <div
+                aria-hidden
+                className="absolute inset-0"
+                style={{
+                  background:
+                    "linear-gradient(180deg, oklch(0.12 0.045 255 / 0.2) 0%, oklch(0.12 0.045 255 / 0.55) 100%)",
+                }}
+              />
 
-                {/* Play button overlay */}
-                <div className="relative z-10 flex h-20 w-20 items-center justify-center rounded-full bg-gold shadow-xl transition-all duration-300 group-hover:scale-110 group-hover:bg-gold-dark">
-                  <Play className="ml-1 h-8 w-8 text-navy-dark" fill="currentColor" />
-                </div>
-              </button>
-            )}
-          </div>
+              {/* Play button overlay */}
+              <div
+                className="relative z-10 flex h-20 w-20 items-center justify-center border transition-all duration-300 group-hover:scale-105"
+                style={{
+                  background: "var(--gold)",
+                  borderColor: "var(--gold-dark)",
+                }}
+              >
+                <Play className="ml-1 h-7 w-7" fill="currentColor" style={{ color: "var(--navy-dark)" }} />
+              </div>
+
+              <div
+                aria-hidden
+                className="absolute bottom-0 left-0 h-[2px] w-24"
+                style={{ background: "var(--gold)" }}
+              />
+            </button>
+          )}
         </div>
       </div>
-    </section>
+    </EditorialSection>
   );
 }

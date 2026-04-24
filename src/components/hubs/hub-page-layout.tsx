@@ -1,16 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  ArrowRight,
-  Calculator,
-  BookOpen,
-  Scale,
-  ChevronRight,
-} from "lucide-react";
+import { ArrowUpRight, Calculator, BookOpen, Scale } from "lucide-react";
 
-import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/ui/json-ld";
-import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import {
+  CTAButton,
+  EditorialSection,
+  SectionHeader,
+} from "@/components/editorial/primitives";
+import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 import type { Hub } from "@/lib/hubs";
 import { GUIDES } from "@/lib/guides";
 import { CALCULATORS } from "@/lib/calculators";
@@ -23,26 +21,24 @@ interface HubPageLayoutProps {
 }
 
 export function HubPageLayout({ hub }: HubPageLayoutProps) {
-  // Gather guides by category + specific slugs
   const guides = GUIDES.filter(
     (g) =>
       hub.guideCategories.includes(g.category) ||
-      hub.guideSlugs.includes(g.slug)
+      hub.guideSlugs.includes(g.slug),
   );
 
   const calculators = CALCULATORS.filter((c) =>
-    hub.calculatorSlugs.includes(c.slug)
+    hub.calculatorSlugs.includes(c.slug),
   );
 
   const services = SERVICES.filter((s) => hub.serviceSlugs.includes(s.slug));
 
   const comparisons = PRODUCT_COMPARISONS.filter((c) =>
-    hub.comparisonSlugs.includes(c.slug)
+    hub.comparisonSlugs.includes(c.slug),
   );
 
   const heroImage = SITE_IMAGES[hub.heroImageKey] ?? SITE_IMAGES["guides-hero"];
 
-  // JSON-LD
   const webPageJsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -74,312 +70,360 @@ export function HubPageLayout({ hub }: HubPageLayoutProps) {
     ],
   };
 
+  const stats: { label: string; value: number; icon: typeof BookOpen }[] = [];
+  if (guides.length > 0) stats.push({ label: "Guides", value: guides.length, icon: BookOpen });
+  if (calculators.length > 0) stats.push({ label: "Calculators", value: calculators.length, icon: Calculator });
+  if (comparisons.length > 0) stats.push({ label: "Comparisons", value: comparisons.length, icon: Scale });
+
   return (
     <>
       <JsonLd data={webPageJsonLd} />
       <JsonLd data={breadcrumbJsonLd} />
 
-      {/* Hero */}
-      <section className="noise-overlay relative overflow-hidden py-20 text-white sm:py-28">
+      {/* Hero — image-backed editorial */}
+      <section
+        className="relative overflow-hidden"
+        style={{ background: "var(--navy-dark)" }}
+      >
         <Image
           src={unsplashUrl(heroImage.id, 1920, 75)}
           alt=""
           fill
-          className="object-cover"
+          className="object-cover opacity-45"
           priority
         />
         <div
+          aria-hidden
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(135deg, oklch(0.14 0.05 255 / 0.90) 0%, oklch(0.22 0.06 255 / 0.85) 50%, oklch(0.14 0.05 260 / 0.92) 100%)",
+              "linear-gradient(180deg, oklch(0.12 0.05 255 / 0.40) 0%, oklch(0.12 0.05 255 / 0.85) 100%)",
           }}
         />
 
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <nav className="mb-8">
-            <ol className="flex items-center gap-2 text-sm text-white/40">
+        <div className="relative mx-auto max-w-[1360px] px-6 py-24 sm:py-32 sm:px-10">
+          <nav className="mb-10">
+            <ol className="flex items-center gap-2 text-[11px] font-medium uppercase tracking-[0.24em]" style={{ color: "oklch(1 0 0 / 0.55)" }}>
               <li>
-                <Link href="/" className="hover:text-white/70">
+                <Link href="/" className="transition-colors hover:text-[color:var(--gold-light)]">
                   Home
                 </Link>
               </li>
-              <li>/</li>
-              <li className="text-white/60">{hub.title.split(":")[0]}</li>
+              <li aria-hidden>/</li>
+              <li style={{ color: "oklch(1 0 0 / 0.9)" }}>{hub.title.split(":")[0]}</li>
             </ol>
           </nav>
 
-          <div
-            className="mb-8 h-[2px] w-20"
-            style={{
-              background:
-                "linear-gradient(90deg, var(--gold), var(--gold-light))",
-            }}
-          />
+          <div className="flex items-center gap-4">
+            <span aria-hidden className="block h-px w-10" style={{ background: "var(--gold)" }} />
+            <p
+              className="text-[11px] font-medium uppercase tracking-[0.32em]"
+              style={{ color: "var(--gold-light)" }}
+            >
+              Topic hub
+            </p>
+          </div>
 
-          <h1 className="max-w-4xl text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl">
+          <h1
+            className="font-heading mt-8 max-w-4xl text-[2.75rem] font-medium leading-[1.04] tracking-[-0.015em] sm:text-[3.75rem] md:text-[4.25rem]"
+            style={{ color: "oklch(1 0 0 / 0.96)" }}
+          >
             {hub.title}
           </h1>
 
-          <div className="mt-6 max-w-2xl space-y-4">
+          <div
+            className="mt-8 max-w-2xl space-y-4 text-[17px] leading-[1.7]"
+            style={{ color: "oklch(1 0 0 / 0.72)" }}
+          >
             {hub.intro.map((p, i) => (
-              <p
-                key={i}
-                className="text-base leading-relaxed text-white/60 sm:text-lg"
-              >
-                {p}
-              </p>
+              <p key={i}>{p}</p>
             ))}
           </div>
 
-          {/* Quick stats */}
-          <div className="mt-8 flex flex-wrap gap-4">
-            {guides.length > 0 && (
-              <div className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2">
-                <BookOpen className="h-4 w-4 text-gold" />
-                <span className="text-sm text-white/70">
-                  {guides.length} Guides
-                </span>
-              </div>
-            )}
-            {calculators.length > 0 && (
-              <div className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2">
-                <Calculator className="h-4 w-4 text-gold" />
-                <span className="text-sm text-white/70">
-                  {calculators.length} Calculators
-                </span>
-              </div>
-            )}
-            {comparisons.length > 0 && (
-              <div className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2">
-                <Scale className="h-4 w-4 text-gold" />
-                <span className="text-sm text-white/70">
-                  {comparisons.length} Comparisons
-                </span>
-              </div>
-            )}
-          </div>
+          {stats.length > 0 && (
+            <dl className="mt-12 flex flex-wrap gap-x-12 gap-y-6 border-t pt-8" style={{ borderColor: "oklch(1 0 0 / 0.14)" }}>
+              {stats.map((stat) => {
+                const Icon = stat.icon;
+                return (
+                  <div key={stat.label} className="flex items-center gap-3">
+                    <Icon className="h-4 w-4" style={{ color: "var(--gold-light)" }} />
+                    <div>
+                      <dt
+                        className="text-[10px] font-medium uppercase tracking-[0.24em]"
+                        style={{ color: "oklch(1 0 0 / 0.55)" }}
+                      >
+                        {stat.label}
+                      </dt>
+                      <dd
+                        className="numeral-tabular font-heading mt-1 text-[1.5rem] font-medium tracking-tight"
+                        style={{ color: "oklch(1 0 0 / 0.95)" }}
+                      >
+                        {stat.value}
+                      </dd>
+                    </div>
+                  </div>
+                );
+              })}
+            </dl>
+          )}
         </div>
 
         <div
-          className="absolute bottom-0 left-0 right-0 h-[2px]"
-          style={{
-            background:
-              "linear-gradient(90deg, transparent 0%, var(--gold) 20%, var(--gold) 80%, transparent 100%)",
-            opacity: 0.35,
-          }}
+          aria-hidden
+          className="absolute bottom-0 left-0 h-[2px] w-32"
+          style={{ background: "var(--gold)" }}
         />
       </section>
 
       {/* Guides Grid */}
       {guides.length > 0 && (
-        <section className="bg-background py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-              style={{ color: "var(--gold-dark)" }}
-            >
-              In-Depth Guides
-            </p>
-            <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-              Read Our Expert Guides
-            </h2>
-
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {guides.map((guide) => (
-                <Link
-                  key={guide.slug}
-                  href={`/guides/${guide.slug}`}
-                  className="group rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30"
-                >
-                  <h3 className="mb-2 font-bold text-foreground group-hover:text-gold-dark">
+        <EditorialSection tone="paper">
+          <SectionHeader
+            tone="paper"
+            eyebrow="In-depth guides"
+            title={
+              <>
+                Read the
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  expert guides.
+                </span>
+              </>
+            }
+          />
+          <div
+            className="mt-16 grid gap-px border-y sm:grid-cols-2 lg:grid-cols-3"
+            style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}
+          >
+            {guides.map((guide) => (
+              <Link
+                key={guide.slug}
+                href={`/guides/${guide.slug}`}
+                className="group flex flex-col gap-4 px-7 py-8 transition-colors"
+                style={{ background: "var(--paper)" }}
+              >
+                <div className="flex items-start justify-between gap-4">
+                  <h3
+                    className="font-heading text-[20px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                    style={{ color: "var(--navy-dark)" }}
+                  >
                     {guide.title}
                   </h3>
-                  <p className="mb-3 line-clamp-2 text-sm text-muted-foreground">
-                    {guide.excerpt}
-                  </p>
-                  <span className="flex items-center gap-1 text-xs text-muted-foreground">
-                    {guide.readingTime}
-                    <ChevronRight className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
-                  </span>
-                </Link>
-              ))}
-            </div>
+                  <ArrowUpRight
+                    className="mt-1 h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                    style={{ color: "var(--gold-dark)" }}
+                  />
+                </div>
+                <p
+                  className="line-clamp-2 text-[15px] leading-[1.55]"
+                  style={{ color: "oklch(0.35 0.04 255)" }}
+                >
+                  {guide.excerpt}
+                </p>
+                <span
+                  className="mt-auto text-[10px] font-medium uppercase tracking-[0.22em]"
+                  style={{ color: "oklch(0.50 0.02 255)" }}
+                >
+                  {guide.readingTime}
+                </span>
+              </Link>
+            ))}
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* Calculators Grid */}
       {calculators.length > 0 && (
-        <section className="bg-muted/20 py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div
-              className="mb-5 h-[2px] w-14"
-              style={{
-                background:
-                  "linear-gradient(90deg, var(--gold), var(--gold-light))",
-              }}
-            />
-            <p
-              className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-              style={{ color: "var(--gold-dark)" }}
-            >
-              Financial Calculators
-            </p>
-            <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-              Model Your Numbers
-            </h2>
-
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {calculators.map((calc) => (
-                <Link
-                  key={calc.slug}
-                  href={`/calculators/${calc.slug}`}
-                  className="group rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30"
+        <EditorialSection tone="stone">
+          <SectionHeader
+            tone="stone"
+            eyebrow="Financial calculators"
+            title={
+              <>
+                Model the numbers
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  for your scheme.
+                </span>
+              </>
+            }
+          />
+          <div
+            className="mt-16 grid gap-px border-y sm:grid-cols-2 lg:grid-cols-3"
+            style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}
+          >
+            {calculators.map((calc) => (
+              <Link
+                key={calc.slug}
+                href={`/calculators/${calc.slug}`}
+                className="group flex flex-col gap-4 px-7 py-8 transition-colors"
+                style={{ background: "var(--stone)" }}
+              >
+                <div className="flex items-start justify-between gap-4">
+                  <Calculator
+                    className="h-4 w-4"
+                    style={{ color: "var(--gold-dark)" }}
+                  />
+                  <ArrowUpRight
+                    className="h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                    style={{ color: "var(--gold-dark)" }}
+                  />
+                </div>
+                <h3
+                  className="font-heading text-[20px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                  style={{ color: "var(--navy-dark)" }}
                 >
-                  <Calculator className="mb-3 h-5 w-5 text-gold" />
-                  <h3 className="mb-1 font-bold text-foreground group-hover:text-gold-dark">
-                    {calc.name}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {calc.shortDesc}
-                  </p>
-                </Link>
-              ))}
-            </div>
+                  {calc.name}
+                </h3>
+                <p
+                  className="text-[15px] leading-[1.55]"
+                  style={{ color: "oklch(0.35 0.04 255)" }}
+                >
+                  {calc.shortDesc}
+                </p>
+              </Link>
+            ))}
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* Comparisons */}
       {comparisons.length > 0 && (
-        <section className="bg-background py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl">
-              <div
-                className="mb-5 h-[2px] w-14"
-                style={{
-                  background:
-                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                }}
-              />
-              <p
-                className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-                style={{ color: "var(--gold-dark)" }}
+        <EditorialSection tone="paper">
+          <SectionHeader
+            tone="paper"
+            eyebrow="Side by side"
+            title={
+              <>
+                Compare
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  your options.
+                </span>
+              </>
+            }
+          />
+          <div
+            className="mt-16 grid gap-px border-y sm:grid-cols-2"
+            style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}
+          >
+            {comparisons.map((comp) => (
+              <Link
+                key={comp.slug}
+                href={`/compare/${comp.slug}`}
+                className="group flex items-start justify-between gap-6 px-7 py-7 transition-colors"
+                style={{ background: "var(--paper)" }}
               >
-                Side-by-Side Comparisons
-              </p>
-              <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-                Compare Your Options
-              </h2>
-
-              <div className="space-y-4">
-                {comparisons.map((comp) => (
-                  <Link
-                    key={comp.slug}
-                    href={`/compare/${comp.slug}`}
-                    className="group flex items-center justify-between rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30"
+                <div>
+                  <h3
+                    className="font-heading text-[20px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                    style={{ color: "var(--navy-dark)" }}
                   >
-                    <div>
-                      <h3 className="mb-1 font-bold text-foreground">
-                        {comp.title}
-                      </h3>
-                      <p className="text-sm text-muted-foreground">
-                        {comp.excerpt}
-                      </p>
-                    </div>
-                    <ArrowRight className="h-5 w-5 shrink-0 text-muted-foreground transition-all duration-300 group-hover:translate-x-1 group-hover:text-gold" />
-                  </Link>
-                ))}
-              </div>
-            </div>
+                    {comp.title}
+                  </h3>
+                  <p
+                    className="mt-3 line-clamp-2 text-[14px] leading-[1.55]"
+                    style={{ color: "oklch(0.35 0.04 255)" }}
+                  >
+                    {comp.excerpt}
+                  </p>
+                </div>
+                <ArrowUpRight
+                  className="mt-1 h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                  style={{ color: "var(--gold-dark)" }}
+                />
+              </Link>
+            ))}
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* Related Services */}
       {services.length > 0 && (
-        <section className="bg-muted/30 py-12 sm:py-16">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-3xl">
-              <div
-                className="mb-5 h-[2px] w-14"
-                style={{
-                  background:
-                    "linear-gradient(90deg, var(--gold), var(--gold-light))",
-                }}
-              />
-              <p
-                className="mb-3 text-xs font-bold uppercase tracking-[0.25em] sm:text-sm"
-                style={{ color: "var(--gold-dark)" }}
+        <EditorialSection tone="stone">
+          <SectionHeader
+            tone="stone"
+            eyebrow="Our services"
+            title={
+              <>
+                Related
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  finance products.
+                </span>
+              </>
+            }
+          />
+          <div
+            className="mt-16 grid gap-px border-y sm:grid-cols-2"
+            style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}
+          >
+            {services.map((service) => (
+              <Link
+                key={service.slug}
+                href={`/services/${service.slug}`}
+                className="group flex flex-col gap-4 px-7 py-8 transition-colors"
+                style={{ background: "var(--stone)" }}
               >
-                Our Services
-              </p>
-              <h2 className="mb-8 text-2xl font-bold tracking-tight sm:text-3xl">
-                Finance Products
-              </h2>
-
-              <div className="grid gap-4 sm:grid-cols-2">
-                {services.map((service) => (
-                  <Link
-                    key={service.slug}
-                    href={`/services#${service.slug}`}
-                    className="group rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-gold/30"
+                <div className="flex items-start justify-between gap-4">
+                  <h3
+                    className="font-heading text-[22px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                    style={{ color: "var(--navy-dark)" }}
                   >
-                    <h3 className="mb-1 font-bold text-foreground">
-                      {service.name}
-                    </h3>
-                    <p className="mb-3 text-sm text-muted-foreground">
-                      {service.shortDesc}
-                    </p>
-                    <span className="text-xs font-bold text-gold-dark">
-                      {service.typicalRate} &middot; {service.typicalLtv}
-                    </span>
-                  </Link>
-                ))}
-              </div>
-            </div>
+                    {service.name}
+                  </h3>
+                  <ArrowUpRight
+                    className="mt-1 h-4 w-4 shrink-0 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                    style={{ color: "var(--gold-dark)" }}
+                  />
+                </div>
+                <p
+                  className="text-[15px] leading-[1.55]"
+                  style={{ color: "oklch(0.35 0.04 255)" }}
+                >
+                  {service.shortDesc}
+                </p>
+                <span
+                  className="numeral-tabular text-[11px] font-medium uppercase tracking-[0.22em]"
+                  style={{ color: "var(--gold-dark)" }}
+                >
+                  {service.typicalRate} · {service.typicalLtv}
+                </span>
+              </Link>
+            ))}
           </div>
-        </section>
+        </EditorialSection>
       )}
 
       {/* CTA */}
-      <section
-        className="noise-overlay relative overflow-hidden py-16 sm:py-20"
-        style={{
-          background:
-            "linear-gradient(180deg, oklch(0.16 0.05 255) 0%, oklch(0.20 0.06 255) 50%, oklch(0.16 0.05 255) 100%)",
-        }}
-      >
-        <div className="relative mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
-            Ready to Get Started?
-          </h2>
-          <p className="mt-3 text-white/50">
-            Tell us about your project and we&apos;ll source the best terms from
-            our panel of 100+ lenders. Indicative terms within 24 hours.
-          </p>
-          <div className="mt-8">
-            <Button
-              asChild
-              size="lg"
-              className="cta-shimmer h-14 bg-gold px-10 text-base font-bold text-navy-dark shadow-lg transition-all duration-300 hover:bg-gold-dark"
-            >
-              <Link href="/deal-room">
-                Start Your Deal
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-          </div>
+      <EditorialSection tone="navy-dark">
+        <SectionHeader
+          tone="navy-dark"
+          eyebrow="Ready when you are"
+          title={
+            <>
+              Ready to get started?
+              <br />
+              <span className="italic" style={{ color: "var(--gold-light)" }}>
+                Tell us the deal.
+              </span>
+            </>
+          }
+          body="Submit your scheme and a partner will come back with an initial structure and indicative terms within one working day."
+        />
+        <div className="mt-12 flex flex-wrap items-center gap-5">
+          <CTAButton href="/deal-room" variant="gold" size="lg">
+            Start your deal
+          </CTAButton>
+          <a
+            href={`tel:${CONTACT.phoneRaw}`}
+            className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+            style={{ color: "oklch(1 0 0 / 0.95)" }}
+          >
+            Or call {CONTACT.phone}
+          </a>
         </div>
-      </section>
+      </EditorialSection>
     </>
   );
 }

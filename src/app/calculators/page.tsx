@@ -14,9 +14,13 @@ import {
 import * as LucideIcons from "lucide-react";
 
 import { JsonLd } from "@/components/ui/json-ld";
-import { Button } from "@/components/ui/button";
-import { PageHero } from "@/components/editorial/primitives";
-import { SITE_NAME, SITE_URL } from "@/lib/constants";
+import {
+  CTAButton,
+  EditorialSection,
+  PageHero,
+  SectionHeader,
+} from "@/components/editorial/primitives";
+import { CONTACT, SITE_NAME, SITE_URL } from "@/lib/constants";
 import {
   CALCULATORS,
   CALCULATOR_CATEGORIES,
@@ -93,156 +97,150 @@ export default function CalculatorsPage() {
         ]}
       />
 
-      {/* ━━━ CALCULATORS BY CATEGORY ━━━ */}
-      <section className="bg-background py-20 sm:py-28">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Category Quick Nav */}
-          <div className="mb-16 flex flex-wrap gap-3">
-            {CALCULATOR_CATEGORIES.map((cat) => {
-              const CatIcon = categoryIconMap[cat.icon] || Calculator;
-              const count = getCalculatorsByCategory(cat.slug).length;
-              
-return (
-                <a
-                  key={cat.slug}
-                  href={`#${cat.slug}`}
-                  className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm font-medium transition-all hover:border-gold/20 hover:bg-gold/5"
+      {/* Calculators by category */}
+      <EditorialSection tone="paper">
+        {/* Category quick nav — editorial pill row */}
+        <div
+          className="mb-20 flex flex-wrap gap-2 border-y py-5"
+          style={{ borderColor: "var(--stone-dark)" }}
+        >
+          {CALCULATOR_CATEGORIES.map((cat) => {
+            const CatIcon = categoryIconMap[cat.icon] || Calculator;
+            const count = getCalculatorsByCategory(cat.slug).length;
+            return (
+              <a
+                key={cat.slug}
+                href={`#${cat.slug}`}
+                className="group inline-flex items-center gap-2 border px-4 py-2 text-[11px] font-medium uppercase tracking-[0.2em] transition-colors"
+                style={{
+                  borderColor: "var(--stone-dark)",
+                  color: "var(--navy-dark)",
+                }}
+              >
+                <CatIcon className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
+                {cat.label}
+                <span
+                  className="numeral-tabular"
+                  style={{ color: "oklch(0.50 0.02 255)" }}
                 >
-                  <CatIcon
-                    className="h-4 w-4"
+                  {String(count).padStart(2, "0")}
+                </span>
+              </a>
+            );
+          })}
+        </div>
+
+        <div className="space-y-24">
+          {CALCULATOR_CATEGORIES.map((cat, idx) => {
+            const calcs = getCalculatorsByCategory(cat.slug);
+            return (
+              <div key={cat.slug} id={cat.slug} className="scroll-mt-24">
+                <div className="flex items-start gap-6">
+                  <p
+                    className="font-heading numeral-tabular shrink-0 text-[1.75rem] font-medium tracking-tight"
                     style={{ color: "var(--gold-dark)" }}
-                  />
-                  {cat.label}
-                  <span className="rounded-full bg-muted px-2 py-0.5 text-xs text-muted-foreground">
-                    {count}
-                  </span>
-                </a>
-              );
-            })}
-          </div>
-
-          {/* Categories */}
-          <div className="space-y-20">
-            {CALCULATOR_CATEGORIES.map((cat) => {
-              const calcs = getCalculatorsByCategory(cat.slug);
-              const CatIcon = categoryIconMap[cat.icon] || Calculator;
-
-              return (
-                <div key={cat.slug} id={cat.slug}>
-                  <div className="mb-8 flex items-center gap-4">
-                    <div
-                      className="flex h-12 w-12 items-center justify-center rounded-xl"
-                      style={{
-                        background:
-                          "linear-gradient(135deg, oklch(0.75 0.12 85 / 0.12), oklch(0.75 0.12 85 / 0.04))",
-                        border: "1px solid oklch(0.75 0.12 85 / 0.1)",
-                      }}
+                  >
+                    {String(idx + 1).padStart(2, "0")}
+                  </p>
+                  <div className="flex-1">
+                    <p
+                      className="text-[11px] font-medium uppercase tracking-[0.28em]"
+                      style={{ color: "var(--gold-dark)" }}
                     >
-                      <CatIcon
-                        className="h-6 w-6"
-                        style={{ color: "var(--gold-dark)" }}
-                      />
-                    </div>
-                    <div>
-                      <h2 className="text-2xl font-bold tracking-tight">
-                        {cat.label}
-                      </h2>
-                      <p className="mt-1 text-sm text-muted-foreground">
-                        {cat.description}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                    {calcs.map((calc) => {
-                      const CalcIcon = iconMap[calc.icon] || Calculator;
-                      
-return (
-                        <Link
-                          key={calc.slug}
-                          href={`/calculators/${calc.slug}`}
-                          className="group flex flex-col rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:border-gold/20 hover:shadow-lg"
-                        >
-                          <div
-                            className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg"
-                            style={{
-                              background:
-                                "linear-gradient(135deg, oklch(0.75 0.12 85 / 0.12), oklch(0.75 0.12 85 / 0.04))",
-                              border: "1px solid oklch(0.75 0.12 85 / 0.1)",
-                            }}
-                          >
-                            <CalcIcon
-                              className="h-5 w-5"
-                              style={{ color: "var(--gold-dark)" }}
-                            />
-                          </div>
-
-                          <h3 className="text-lg font-bold text-foreground transition-colors group-hover:text-gold-dark">
-                            {calc.name}
-                          </h3>
-                          <p className="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">
-                            {calc.shortDesc}
-                          </p>
-
-                          <div className="mt-4">
-                            <span
-                              className="inline-flex items-center text-sm font-semibold"
-                              style={{ color: "var(--gold-dark)" }}
-                            >
-                              Use Calculator
-                              <ArrowRight className="ml-1.5 h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
-                            </span>
-                          </div>
-                        </Link>
-                      );
-                    })}
+                      Category
+                    </p>
+                    <h2
+                      className="font-heading mt-2 text-[2rem] font-medium leading-[1.1] tracking-[-0.015em] sm:text-[2.25rem]"
+                      style={{ color: "var(--navy-dark)" }}
+                    >
+                      {cat.label}
+                    </h2>
+                    <p
+                      className="mt-3 max-w-2xl text-[16px] leading-[1.6]"
+                      style={{ color: "oklch(0.35 0.04 255)" }}
+                    >
+                      {cat.description}
+                    </p>
                   </div>
                 </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
 
-      {/* ━━━ CTA ━━━ */}
-      <section className="relative overflow-hidden py-20 sm:py-28">
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(135deg, oklch(0.70 0.14 80) 0%, oklch(0.78 0.12 88) 50%, oklch(0.72 0.13 82) 100%)",
-          }}
+                <div
+                  className="mt-10 grid gap-px border-y sm:grid-cols-2 lg:grid-cols-3"
+                  style={{
+                    borderColor: "var(--stone-dark)",
+                    background: "var(--stone-dark)",
+                  }}
+                >
+                  {calcs.map((calc) => {
+                    const CalcIcon = iconMap[calc.icon] || Calculator;
+                    return (
+                      <Link
+                        key={calc.slug}
+                        href={`/calculators/${calc.slug}`}
+                        className="group flex flex-col gap-4 px-7 py-7 transition-colors"
+                        style={{ background: "var(--paper)" }}
+                      >
+                        <div className="flex items-start justify-between gap-4">
+                          <CalcIcon
+                            className="h-4 w-4"
+                            style={{ color: "var(--gold-dark)" }}
+                          />
+                          <ArrowRight
+                            className="h-4 w-4 shrink-0 transition-transform group-hover:translate-x-0.5"
+                            style={{ color: "var(--gold-dark)" }}
+                          />
+                        </div>
+                        <h3
+                          className="font-heading text-[20px] font-medium leading-[1.2] tracking-tight transition-colors group-hover:text-[color:var(--navy)]"
+                          style={{ color: "var(--navy-dark)" }}
+                        >
+                          {calc.name}
+                        </h3>
+                        <p
+                          className="flex-1 text-[14px] leading-[1.55]"
+                          style={{ color: "oklch(0.35 0.04 255)" }}
+                        >
+                          {calc.shortDesc}
+                        </p>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </EditorialSection>
+
+      {/* CTA */}
+      <EditorialSection tone="navy-dark">
+        <SectionHeader
+          tone="navy-dark"
+          eyebrow="Want the precise answer?"
+          title={
+            <>
+              Need a
+              <br />
+              <span className="italic" style={{ color: "var(--gold-light)" }}>
+                bespoke appraisal?
+              </span>
+            </>
+          }
+          body="These calculators give indicative figures. For a precise capital stack and a real quote, submit your scheme for a partner-led review."
         />
-        <div className="noise-overlay absolute inset-0" />
-
-        <div className="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <h2
-            className="text-3xl font-bold tracking-tight sm:text-4xl"
-            style={{ color: "var(--navy-dark)" }}
+        <div className="mt-12 flex flex-wrap items-center gap-5">
+          <CTAButton href="/deal-room" variant="gold" size="lg">
+            Enter the Deal Room
+          </CTAButton>
+          <a
+            href={`tel:${CONTACT.phoneRaw}`}
+            className="numeral-tabular editorial-link inline-flex h-14 items-center text-lg font-medium tracking-tight"
+            style={{ color: "oklch(1 0 0 / 0.95)" }}
           >
-            Need a Bespoke Appraisal?
-          </h2>
-          <p
-            className="mx-auto mt-5 max-w-xl text-lg"
-            style={{ color: "var(--navy)", opacity: 0.6 }}
-          >
-            These calculators give indicative figures. For a precise structure
-            tailored to your project, submit your deal for a free review.
-          </p>
-          <div className="mt-10">
-            <Button
-              asChild
-              size="lg"
-              className="bg-navy text-white hover:bg-navy-dark h-14 px-12 text-base font-bold shadow-2xl transition-all duration-300 hover:scale-[1.02]"
-            >
-              <Link href="/deal-room">
-                Enter the Deal Room
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-          </div>
+            Or call {CONTACT.phone}
+          </a>
         </div>
-      </section>
+      </EditorialSection>
     </>
   );
 }
