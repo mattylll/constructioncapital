@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 import { CASE_STUDIES } from "@/lib/case-studies";
-import { SITE_IMAGES, unsplashUrl } from "@/lib/location-images";
+import { getLocationImage, unsplashUrl } from "@/lib/location-images";
 
 // Editorial commentary on the featured deal — written in the broker's voice.
 // Honest (no fabricated developer testimonial) and demonstrates the firm's
@@ -24,6 +24,15 @@ export function FeaturedCaseStudy() {
     { label: "Facility", value: caseStudy.loanAmount },
     { label: "Structure", value: caseStudy.ltv },
   ];
+
+  // Location-themed image keyed off the case study's county + town.
+  // getLocationImage falls back to DEFAULT_IMAGE if neither slug is mapped,
+  // so this always returns a working ID.
+  const slugify = (s: string) => s.toLowerCase().replace(/\s+/g, "-");
+  const heroImage = getLocationImage(
+    slugify(caseStudy.county),
+    slugify(caseStudy.location),
+  );
 
   return (
     <section
@@ -92,15 +101,12 @@ export function FeaturedCaseStudy() {
         <article className="grid grid-cols-1 lg:grid-cols-12">
           <div className="relative aspect-[16/10] w-full lg:col-span-7 lg:aspect-[4/3]">
             <Image
-              src={unsplashUrl(
-                SITE_IMAGES["service-commercial-mortgages"].id,
-                1400,
-                85
-              )}
+              src={unsplashUrl(heroImage.id, 1400, 85)}
               alt={`${caseStudy.title} — ${caseStudy.location}`}
               fill
               sizes="(min-width: 1024px) 58vw, 100vw"
               className="object-cover"
+              priority
             />
             <div
               className="absolute inset-0 mix-blend-multiply"
