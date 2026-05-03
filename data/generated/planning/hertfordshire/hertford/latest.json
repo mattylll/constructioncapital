@@ -1,25 +1,44 @@
 {
-  "updatedAt": "2026-04-26T01:24:54.066Z",
+  "updatedAt": "2026-05-03T01:22:36.341Z",
   "townSlug": "hertford",
   "countySlug": "hertfordshire",
   "localAuthority": "East Hertfordshire District Council",
   "source": "idox",
   "summary": {
-    "total": 504,
+    "total": 508,
     "relevant": 4,
     "approved": 0,
     "pending": 4,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 324,
-    "totalUnits": 324,
+    "pendingUnits": 332,
+    "totalUnits": 332,
     "approvedGdv": 0,
-    "pendingGdv": 143355000,
-    "totalEstimatedGDV": 143355000,
+    "pendingGdv": 146915000,
+    "totalEstimatedGDV": 146915000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "3/26/0570/VAR",
+      "address": "Land At Thorley House Thorley Street Thorley Bishops Stortford Hertfordshire CM23 4AL",
+      "postcode": "CM23 4AL",
+      "ward": "",
+      "proposal": "Variation of Conditions 2 (approved plans) and 13 ( Sustainibility Measures) pursuant to planning permission (ref: 3/25/0014/VAR/Dated 10/10/2025) for (Variation of condition 2 (approved plans) pursuant to planning permission 3/23/0681/FUL dated 03.01.2025 (for: Change of use of land and the erection of 9 dwellings, with associated landscaping, vehicular access and parking). The amendments include: alterations to the house types, the siting of the dwellinghouses, materials of construction, the siting of the garages, and alterations to the hard and soft landscaping and boundary treatments)",
+      "category": "other_residential",
+      "units": 9,
+      "estimatedGdv": 4005000,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "23/04/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.eastherts.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDXNE0GLKHP00"
+    },
     {
       "reference": "3/26/0461/OUT",
       "address": "Land North Of Station Road Stanstead Abbotts Hertfordshire",
@@ -76,25 +95,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.eastherts.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TC3G0UGLJXA00"
-    },
-    {
-      "reference": "3/26/0141/VAR",
-      "address": "Land Adjacent To Thorley Wash Cottage Thorley Street Thorley Bishops Stortford Hertfordshire CM23 4AS",
-      "postcode": "CM23 4AS",
-      "ward": "",
-      "proposal": "Variation of condition 2 (approved drawings), 3 (materials), 4 (detailed design drawings) and 5 (sustainable construction) attached to planning permission 3/21/1505/FUL (for Change of use of existing garage / annexe to create 1 dwelling. Raising of roof height. Part single storey, part two storey side and rear extensions, insertion of front dormers and front porch) - amendments allow minor changes to fenestration and submission of details for approval for conditions 3, 4 and 5)",
-      "category": "other_residential",
-      "units": 1,
-      "estimatedGdv": 445000,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "02/02/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.eastherts.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T9UAGCGLJ6Z00"
     }
   ]
 }

@@ -1,43 +1,23 @@
 {
-  "updatedAt": "2026-04-26T02:04:51.936Z",
+  "updatedAt": "2026-05-03T01:47:52.114Z",
   "townSlug": "manchester",
   "countySlug": "greater-manchester",
   "localAuthority": "Manchester City Council",
   "source": "idox",
   "summary": {
-    "total": 122,
-    "relevant": 1,
+    "total": 54,
+    "relevant": 0,
     "approved": 0,
-    "pending": 1,
+    "pending": 0,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 3,
-    "totalUnits": 3,
+    "pendingUnits": 0,
+    "totalUnits": 0,
     "approvedGdv": 0,
-    "pendingGdv": 616500,
-    "totalEstimatedGDV": 616500,
+    "pendingGdv": 0,
+    "totalEstimatedGDV": 0,
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": [
-    {
-      "reference": "145034/FO/2026",
-      "address": "619 Wilbraham Road Manchester M21 9AT",
-      "postcode": "M21 9AT",
-      "ward": "",
-      "proposal": "Change of Use from 8no. independent C3 apartments to 8no. C2 units and ancillary rooms with external alterations.",
-      "category": "other_residential",
-      "units": 3,
-      "estimatedGdv": 616500,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "03/03/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.manchester.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T9H08NBCMN500"
-    }
-  ]
+  "pendingApplications": []
 }

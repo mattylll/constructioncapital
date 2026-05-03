@@ -1,43 +1,23 @@
 {
-  "updatedAt": "2026-04-26T01:22:07.636Z",
+  "updatedAt": "2026-05-03T01:20:06.365Z",
   "townSlug": "stevenage",
   "countySlug": "hertfordshire",
   "localAuthority": "Stevenage Borough Council",
   "source": "idox",
   "summary": {
-    "total": 131,
-    "relevant": 1,
+    "total": 129,
+    "relevant": 0,
     "approved": 0,
-    "pending": 1,
+    "pending": 0,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 6,
-    "totalUnits": 6,
+    "pendingUnits": 0,
+    "totalUnits": 0,
     "approvedGdv": 0,
-    "pendingGdv": 2040000,
-    "totalEstimatedGDV": 2040000,
+    "pendingGdv": 0,
+    "totalEstimatedGDV": 0,
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": [
-    {
-      "reference": "26/00216/FP",
-      "address": "33 Julians Road Stevenage Herts SG1 3ES",
-      "postcode": "SG1 3ES",
-      "ward": "",
-      "proposal": "Change of use of 6 dwellinghouses (Use Class C3) to 6 Houses of Multiple Occupation (Use Class C4)",
-      "category": "other_residential",
-      "units": 6,
-      "estimatedGdv": 2040000,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "09/03/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.stevenage.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TBMGYTPHMTV00"
-    }
-  ]
+  "pendingApplications": []
 }

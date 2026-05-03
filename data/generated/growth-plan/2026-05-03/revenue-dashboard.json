@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-05-03T04:11:48.960Z",
+  "target": {
+    "brokerageRevenue": 5000000,
+    "completedFacilityVolume": 500000000,
+    "requiredCompletions": 167,
+    "averageFacilitySize": 3000000,
+    "requiredAverageCompletionsPerMonth": 14
+  },
+  "currentPipeline": {
+    "grossFacilityValue": 30000000,
+    "probability": 0.7,
+    "weightedFacilityValue": 21000000,
+    "weightedExpectedFee": 210000,
+    "remainingCompletedVolumeTarget": 479000000,
+    "additionalRequiredCompletions": 160
+  },
+  "operatingQueues": {
+    "contentSprintItems": 50,
+    "linkSprintItems": 100,
+    "referralTargets": 175,
+    "targetActiveIntroducers": 20,
+    "targetMonthlyReferredPipeline": 50000000,
+    "operatingActions": 14,
+    "ghlLeadRoutes": 5,
+    "videoAssets": 76,
+    "planningArticlesAvailable": 0
+  },
+  "stages": [
+    {
+      "id": "new",
+      "label": "New",
+      "probability": 0.05
+    },
+    {
+      "id": "qualified",
+      "label": "Qualified",
+      "probability": 0.2
+    },
+    {
+      "id": "docs_requested",
+      "label": "Docs requested",
+      "probability": 0.3
+    },
+    {
+      "id": "packaged",
+      "label": "Packaged",
+      "probability": 0.4
+    },
+    {
+      "id": "terms_requested",
+      "label": "Terms requested",
+      "probability": 0.55
+    },
+    {
+      "id": "terms_issued",
+      "label": "Terms issued",
+      "probability": 0.7
+    },
+    {
+      "id": "mandated",
+      "label": "Mandated",
+      "probability": 0.85
+    },
+    {
+      "id": "completed",
+      "label": "Completed",
+      "probability": 1
+    },
+    {
+      "id": "lost",
+      "label": "Lost",
+      "probability": 0
+    }
+  ],
+  "leadSources": [
+    "seo",
+    "planning_outreach",
+    "instantly",
+    "referral_partner",
+    "linkedin",
+    "youtube_video",
+    "podcast",
+    "direct",
+    "paid",
+    "repeat_client"
+  ],
+  "productMix": [
+    {
+      "product": "Bridging, refurbishment and development exit",
+      "share": 0.4,
+      "targetFacilityVolume": 200000000
+    },
+    {
+      "product": "Senior development finance",
+      "share": 0.35,
+      "targetFacilityVolume": 175000000
+    },
+    {
+      "product": "Mezzanine and stretch senior",
+      "share": 0.15,
+      "targetFacilityVolume": 75000000
+    },
+    {
+      "product": "JV equity and structured cases",
+      "share": 0.1,
+      "targetFacilityVolume": 50000000
+    }
+  ],
+  "monthlyTargets": [
+    {
+      "month": 1,
+      "livePipeline": 50000000,
+      "termsRequested": 20000000,
+      "activeIntroducers": 0,
+      "planningProspects": 0,
+      "commercialPagesLiveOrBriefed": 25,
+      "videosPublished": 0
+    },
+    {
+      "month": 2,
+      "livePipeline": 50000000,
+      "termsRequested": 25000000,
+      "activeIntroducers": 10,
+      "planningProspects": 100,
+      "commercialPagesLiveOrBriefed": 25,
+      "videosPublished": 40
+    },
+    {
+      "month": 3,
+      "livePipeline": 75000000,
+      "termsRequested": 35000000,
+      "activeIntroducers": 20,
+      "planningProspects": 100,
+      "commercialPagesLiveOrBriefed": 50,
+      "videosPublished": 80
+    },
+    {
+      "month": 6,
+      "livePipeline": 150000000,
+      "monthlyCompletedVolume": 40000000,
+      "activeIntroducers": 75,
+      "planningProspects": 100,
+      "commercialPagesLiveOrBriefed": 150,
+      "videosPublished": 100
+    },
+    {
+      "month": 9,
+      "livePipeline": 200000000,
+      "monthlyCompletedVolume": 45000000,
+      "activeIntroducers": 115,
+      "referredPipelinePerMonth": 50000000,
+      "planningProspects": 100,
+      "commercialPagesLiveOrBriefed": 225,
+      "videosPublished": 180
+    },
+    {
+      "month": 12,
+      "livePipeline": 200000000,
+      "annualCompletedVolume": 500000000,
+      "activeIntroducers": 150,
+      "planningProspects": 100,
+      "commercialPagesLiveOrBriefed": 300,
+      "videosPublished": 250
+    }
+  ]
+}
