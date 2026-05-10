@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-05-03T02:47:32.407Z",
+  "updatedAt": "2026-05-10T02:16:45.197Z",
   "townSlug": "watford",
   "countySlug": "hertfordshire",
   "localAuthority": "Watford Borough Council",
   "source": "idox",
   "summary": {
-    "total": 205,
-    "relevant": 23,
-    "approved": 4,
-    "pending": 18,
+    "total": 201,
+    "relevant": 22,
+    "approved": 5,
+    "pending": 16,
     "refused": 1,
     "approvedUnits": 3,
-    "pendingUnits": 8,
-    "totalUnits": 11,
+    "pendingUnits": 6,
+    "totalUnits": 9,
     "approvedGdv": 1200000,
-    "pendingGdv": 3200000,
-    "totalEstimatedGDV": 4400000,
-    "approvalRate": 80
+    "pendingGdv": 2400000,
+    "totalEstimatedGDV": 3600000,
+    "approvalRate": 83
   },
   "approvedApplications": [
     {
       "reference": "26/00139/FUL",
-      "address": "Land Adjacent To 1 Willow Lane Watford WD18 0JA",
-      "postcode": "WD18 0JA",
+      "address": "Land Adjacent To 1 Willow Lane Watford",
+      "postcode": "",
       "ward": "",
       "proposal": "Proposed two storey 58 sqm 1 bedroom eco-house (C3 use class) with 52.3 sqm of amenity garden space and 135sqm of communal garden space for 6 existing flats within the curtilage of the site (Revised description)",
       "category": "other_relevant",
@@ -94,6 +94,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TAA627QWIUG00"
+    },
+    {
+      "reference": "26/00214/LBC",
+      "address": "Derby Road Baptist Church Derby Road Watford WD17 2LZ",
+      "postcode": "WD17 2LZ",
+      "ward": "",
+      "proposal": "Listed Building consent for proposed new internal layout of female toilets to accommodate new unisex disabled wc.",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Approved",
+      "decision": "Approved",
+      "receivedDate": "13/03/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TBTQ2UQWKS500"
     }
   ],
   "pendingApplications": [
@@ -115,6 +134,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TE8ONPQWGKA00"
+    },
+    {
+      "reference": "26/00305/FUL",
+      "address": "Tesco Express Unit 2 Riverwell Square Shrodells Road Watford Hertfordshire WD18 0HA",
+      "postcode": "WD18 0HA",
+      "ward": "",
+      "proposal": "Proposed new Aluminum Automatic Bi-parting telescopic sliding doors with glazing to be installed and frames to be painted Anthracite RAL 7016. Proposed new ATM with camera and light installed on glazing panel.",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Pending consideration",
+      "decision": "Pending consideration",
+      "receivedDate": "15/04/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TDIRELQWGTB00"
     },
     {
       "reference": "26/00289/FUL",
@@ -250,25 +288,6 @@
       "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TBZA1MQWGMD00"
     },
     {
-      "reference": "26/00214/LBC",
-      "address": "Derby Road Baptist Church Derby Road Watford WD17 2LZ",
-      "postcode": "WD17 2LZ",
-      "ward": "",
-      "proposal": "Listed Building consent for proposed new internal layout of female toilets to accommodate new unisex disabled wc.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Pending consideration",
-      "decision": "Pending consideration",
-      "receivedDate": "13/03/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TBTQ2UQWKS500"
-    },
-    {
       "reference": "26/00197/FUL",
       "address": "6B Garston Park Parade Watford WD25 9LQ",
       "postcode": "WD25 9LQ",
@@ -288,23 +307,23 @@
       "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TBO61JQWH5100"
     },
     {
-      "reference": "26/00166/FUL",
-      "address": "Land Adjacent To The Meadows Watford Hertfordshire WD25 9FD",
-      "postcode": "WD25 9FD",
+      "reference": "26/00196/FUL",
+      "address": "Flat 75B Gladstone Road Watford WD17 2RA",
+      "postcode": "WD17 2RA",
       "ward": "",
-      "proposal": "Temporary permission for site compound to provide facilities and storage to facilitate works to Abbey View and Munden View towers",
+      "proposal": "Raise existing extension floor and roof levels and internal alterations",
       "category": "other_relevant",
       "units": null,
       "estimatedGdv": null,
       "status": "Pending consideration",
       "decision": "Pending consideration",
-      "receivedDate": "02/03/2026",
+      "receivedDate": "09/03/2026",
       "decisionDate": "",
       "applicantName": "",
       "applicantCompany": "",
       "agentName": "",
       "agentCompany": "",
-      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TB9CSFQWGFH00"
+      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TBN2B2QW0IG00"
     },
     {
       "reference": "26/00160/VAR",
@@ -400,44 +419,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TADVJMQWIIV00"
-    },
-    {
-      "reference": "26/00096/FUL",
-      "address": "139 Horseshoe Lane Watford WD25 7HT",
-      "postcode": "WD25 7HT",
-      "ward": "",
-      "proposal": "Proposed sub-division of existing dwelling into 2no dwellings (1 x 3 bedroom house and 1 x 2 bedroom house).",
-      "category": "other_relevant",
-      "units": 2,
-      "estimatedGdv": 800000,
-      "status": "Pending consideration",
-      "decision": "Pending consideration",
-      "receivedDate": "09/02/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TA6GRZQWJFH00"
-    },
-    {
-      "reference": "26/00089/FUL",
-      "address": "55 Goodwood Avenue Watford WD24 5LB",
-      "postcode": "WD24 5LB",
-      "ward": "",
-      "proposal": "Erection of a two storey side extension and subdivision of the existing house to create a new dwelling. Associated amenity space, refuse storage and cycle store.",
-      "category": "new_build",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Pending consideration",
-      "decision": "Pending consideration",
-      "receivedDate": "06/02/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TA0WT2QWGWJ00"
     }
   ]
 }

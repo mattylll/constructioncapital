@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-05-03T01:49:20.305Z",
+  "updatedAt": "2026-05-10T01:36:20.003Z",
   "townSlug": "wigan",
   "countySlug": "greater-manchester",
   "localAuthority": "Wigan Council",
   "source": "idox",
   "summary": {
-    "total": 316,
-    "relevant": 23,
+    "total": 310,
+    "relevant": 24,
     "approved": 0,
-    "pending": 23,
+    "pending": 24,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 24,
-    "totalUnits": 24,
+    "pendingUnits": 28,
+    "totalUnits": 28,
     "approvedGdv": 0,
-    "pendingGdv": 3081000,
-    "totalEstimatedGDV": 3081000,
+    "pendingGdv": 3523000,
+    "totalEstimatedGDV": 3523000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -135,6 +135,25 @@
       "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCK70BRRG9S00"
     },
     {
+      "reference": "A/26/100685/PDMA",
+      "address": "13 Preston Road Standish Wigan WN6 0HR",
+      "postcode": "WN6 0HR",
+      "ward": "",
+      "proposal": "Prior notification for change of use of the first floor to 1 apartment (Use Class C3)",
+      "category": "other_residential",
+      "units": 1,
+      "estimatedGdv": 110500,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "26/03/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCJZ51RR0DH00"
+    },
+    {
       "reference": "A/26/100679/PDE",
       "address": "50 Clapgate Lane Wigan WN3 6RW",
       "postcode": "WN3 6RW",
@@ -171,6 +190,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCENQMRR0DF00"
+    },
+    {
+      "reference": "A/26/100669/FULL",
+      "address": "65 Gerard Street Ashton-in-makerfield Wigan WN4 9AG",
+      "postcode": "WN4 9AG",
+      "ward": "",
+      "proposal": "Conversion of vacant bank (Use Class E(c)) into 3 apartments (Use Class C3) on the first and second floors only, together with installation of roof light",
+      "category": "other_residential",
+      "units": 3,
+      "estimatedGdv": 331500,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "24/03/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCEZ81RRG6F00"
     },
     {
       "reference": "A/26/100652/PDE",
@@ -437,25 +475,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TACCBNRR0DH00"
-    },
-    {
-      "reference": "A/26/100421/VAR",
-      "address": "Car Park Robin Park Leisure Centre Robin Park Road Wigan",
-      "postcode": "",
-      "ward": "",
-      "proposal": "To Vary Conditions of Planning Permission Number: A/25/098576/VAR - Condition 2 - to substitute approved drawings with amended plans and elevations; and subsequent changes to Condition 3 (materials) and Condition 11 (hard and soft landscaping)",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided",
-      "decision": "Decided",
-      "receivedDate": "09/02/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TA750HRRMN500"
     }
   ]
 }
