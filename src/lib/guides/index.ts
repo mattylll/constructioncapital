@@ -12,6 +12,7 @@ import { MARKET_GUIDES } from "./market";
 import { SEGMENTS_GUIDES } from "./segments";
 
 import { CONTENT_GAP_WAVE_1_GUIDES } from "./content-gap-wave-1";
+import { CONTENT_GAP_WAVE_2_GUIDES } from "./content-gap-wave-2";
 
 export const GUIDES = [
   ...COMPARISON_GUIDES,
@@ -25,6 +26,7 @@ export const GUIDES = [
   ...MARKET_GUIDES,
   ...SEGMENTS_GUIDES,
   ...CONTENT_GAP_WAVE_1_GUIDES,
+  ...CONTENT_GAP_WAVE_2_GUIDES,
 ];
 
 export function getGuideBySlug(slug: string) {
