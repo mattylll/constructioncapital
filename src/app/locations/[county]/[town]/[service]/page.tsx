@@ -44,6 +44,12 @@ import { PlanningDealAnalysis } from "@/components/locations/planning-deal-analy
 import { RecentSoldPrices } from "@/components/locations/recent-sold-prices";
 import { getGuidesByService } from "@/lib/guides";
 import { getReportByCountySlug, getReportByTownSlug } from "@/lib/market-reports";
+import {
+  getTownEntity,
+  getCountyEntity,
+  getServiceVariants,
+} from "@/lib/location-entities";
+import { NeighbourhoodAreas } from "@/components/locations/neighbourhood-areas";
 
 // ISR configuration
 export const dynamicParams = true;
@@ -54,6 +60,10 @@ function deslugify(slug: string): string {
   return slug
     .replace(/-/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+function capitalize(s: string): string {
+  return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
 // Helper to convert name to slug
@@ -127,14 +137,33 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const serviceData = findService(service);
   const serviceName = serviceData?.name || deslugify(service);
 
-  const titlePattern = SERVICE_TITLE_PATTERNS[service];
-  const descPattern = SERVICE_DESC_PATTERNS[service];
-  const title = titlePattern
-    ? titlePattern(townName, countyName).title
-    : `${serviceName} in ${townName}, ${countyName}`;
-  const description = descPattern
-    ? descPattern(townName, countyName)
-    : `${serviceName} for property developers in ${townName}, ${countyName}. ${serviceData?.shortDesc || ""} Expert brokers with 25+ years experience and 100+ lender relationships.`;
+  // Bradley Benner: when we have a Wikipedia-sourced entity record for this
+  // town, use the meta entity variant (different from the H1 phrasing the
+  // page will render) so URL/SEO title/H1 each use a fresh phrase.
+  const townEntity = getTownEntity(county, town);
+  const serviceVariants = getServiceVariants(service);
+
+  let title: string;
+  let description: string;
+  if (townEntity && serviceVariants) {
+    const metaVariant = serviceVariants.meta;
+    const countyEntity = getCountyEntity(county);
+    const countyForTitle = countyEntity?.primary ?? countyName;
+    title = `${metaVariant} in ${townEntity.primary}, ${countyForTitle}`;
+    const descPattern = SERVICE_DESC_PATTERNS[service];
+    description = descPattern
+      ? descPattern(townEntity.primary, countyForTitle)
+      : `${metaVariant} for property developers and investors in ${townEntity.primary}, ${countyForTitle}. ${serviceData?.shortDesc || ""} 100+ lender panel, 25+ years arranging UK property finance.`;
+  } else {
+    const titlePattern = SERVICE_TITLE_PATTERNS[service];
+    const descPattern = SERVICE_DESC_PATTERNS[service];
+    title = titlePattern
+      ? titlePattern(townName, countyName).title
+      : `${serviceName} in ${townName}, ${countyName}`;
+    description = descPattern
+      ? descPattern(townName, countyName)
+      : `${serviceName} for property developers in ${townName}, ${countyName}. ${serviceData?.shortDesc || ""} Expert brokers with 25+ years experience and 100+ lender relationships.`;
+  }
 
   return {
     title,
@@ -212,11 +241,25 @@ export default async function ServicePage({ params }: PageProps) {
   // Rich content sections for SEO depth
   const contentSections = getServicePageSections(service, townName, countyName, localData);
 
-  // Varied H1 per service type
-  const titlePattern = SERVICE_TITLE_PATTERNS[service];
-  const h1Parts = titlePattern
-    ? titlePattern(townName, countyName).h1
-    : [serviceName, `in ${townName}`];
+  // Entity-variant lookups (Bradley Benner methodology)
+  const townEntity = getTownEntity(county, town);
+  const countyEntity = getCountyEntity(county);
+  const serviceVariants = getServiceVariants(service);
+
+  // H1: trigger word + service H1 variant + entity primary
+  // (different phrasing from SEO title, which uses serviceVariants.meta)
+  let h1Parts: [string, string];
+  if (townEntity && serviceVariants) {
+    h1Parts = [
+      `${capitalize(townEntity.triggerWord)} ${serviceVariants.h1}`,
+      `for ${townEntity.primary} developers`,
+    ];
+  } else {
+    const titlePattern = SERVICE_TITLE_PATTERNS[service];
+    h1Parts = titlePattern
+      ? titlePattern(townName, countyName).h1
+      : [serviceName, `in ${townName}`];
+  }
 
   const breadcrumbItems = [
     { label: "Home", href: "/" },
@@ -325,17 +368,28 @@ export default async function ServicePage({ params }: PageProps) {
         locationName={`${townName}, ${countyName}`}
       />
 
-      {/* Market Commentary */}
+      {/* Market Commentary — H2 uses a DIFFERENT entity variant from the H1
+          per Bradley Benner methodology (service.h2 + variant entity term). */}
       <EditorialSection tone="paper">
         <ProseSection
           title={
-            <>
-              {serviceName}
-              <br />
-              <span className="italic" style={{ color: "var(--navy)" }}>
-                in {townName}.
-              </span>
-            </>
+            townEntity && serviceVariants ? (
+              <>
+                {serviceVariants.h2}
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  across {townEntity.variants[1] ?? townEntity.primary}.
+                </span>
+              </>
+            ) : (
+              <>
+                {serviceName}
+                <br />
+                <span className="italic" style={{ color: "var(--navy)" }}>
+                  in {townName}.
+                </span>
+              </>
+            )
           }
         >
           {marketCommentary.map((paragraph, i) => (
@@ -343,6 +397,17 @@ export default async function ServicePage({ params }: PageProps) {
           ))}
         </ProseSection>
       </EditorialSection>
+
+      {/* Neighbourhood Areas (H3 list) — only when we have a Wikipedia-sourced
+          neighbourhood list for this town. Per Benner's sub-page rule we
+          surface every area as an H3 here rather than spawning thin pages. */}
+      {townEntity && serviceVariants && (
+        <NeighbourhoodAreas
+          entity={townEntity}
+          serviceH2Variant={serviceVariants.h2}
+          serviceBodyVariant={serviceVariants.body}
+        />
+      )}
 
       {/* Rich Content Sections - SEO depth with internal links */}
       {contentSections.length > 0 && (
