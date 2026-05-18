@@ -13,7 +13,7 @@ export const COMPARISON_GUIDES: Guide[] = [
     dateModified: "2025-09-21",
     sections: [
       {
-        heading: "What Is Development Finance?",
+        heading: "What is development finance?",
         content: [
           "Development finance is senior debt structured specifically for ground-up construction or heavy conversion projects. It covers land acquisition and build costs, with funds released in staged drawdowns as your project hits construction milestones verified by a monitoring surveyor.",
           "Typical terms range from 12 to 24 months, with interest rates from 6.5% per annum. Lenders will fund up to 65-70% of the Gross Development Value (LTGDV), meaning you need equity or mezzanine to cover the rest.",
@@ -30,7 +30,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "What Are Bridging Loans?",
+        heading: "What are bridging loans?",
         content: [
           "Bridging loans are short-term secured loans designed for speed. They bridge a gap between a purchase and a longer-term finance solution, or provide rapid capital for auction purchases, chain-breaks, or time-sensitive acquisitions.",
           "Rates start from 0.55% per month (approximately 6.6% per annum), with terms from 1 to 18 months and LTV up to 75%. Unlike development finance, bridging loans are typically advanced as a single drawdown against the current value of the asset.",
@@ -38,7 +38,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Side-by-Side Comparison",
+        heading: "Side-by-side comparison",
         content: [
           "<strong>Rates:</strong> Development finance from 6.5% p.a. vs bridging from 0.55% p.m. (6.6% p.a.). On the surface they look similar, but development finance interest is typically rolled up and only charged on drawn funds, while bridging interest accrues on the full advance from day one.",
           "<strong>Loan-to-Value:</strong> Development finance offers up to 65-70% LTGDV (based on the completed project value). Bridging offers up to 75% LTV based on the current or purchase value of the asset.",
@@ -56,7 +56,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "When to Use Development Finance",
+        heading: "When to use development finance",
         content: [
           "Choose development finance when you are undertaking a ground-up build, heavy structural conversion, or any project where the end value significantly exceeds the current site value. The staged drawdown structure means you only pay interest on capital as you need it.",
           "Development finance is also the right choice when the project timeline exceeds 6 months, when you need to fund both land and build costs, or when you need to demonstrate to planning authorities or JV partners that you have an institutional-grade funding facility in place.",
@@ -64,7 +64,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "When to Use Bridging Loans",
+        heading: "When to use bridging loans",
         content: [
           "Bridging loans are the right tool when speed is the priority. Auction purchases with 28-day completion deadlines, securing a site before planning is granted, breaking a property chain, or acquiring a property that needs light refurbishment before refinancing onto a mortgage.",
           "They also work well for short-term holds where you plan to sell within 6-12 months without significant works, or when you need to release equity from an existing asset quickly to fund a deposit elsewhere.",
@@ -72,7 +72,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Cost Comparison: A Real Example",
+        heading: "Cost comparison: a real example",
         content: [
           "Consider a £2M site with £1.5M build costs and a GDV of £5M. With development finance at 65% LTGDV (£3.25M facility), interest at 7% p.a. rolled up on staged drawdowns over 18 months, your total interest cost would be approximately £250,000-£300,000.",
           "The same project funded via bridging at 75% LTV on the £2M purchase (£1.5M advance) at 0.75% p.m. for 18 months would cost £202,500 in interest alone  -  but you would still need to find the £1.5M build costs from another source. Total finance cost would be significantly higher.",
@@ -80,7 +80,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Can You Combine Both?",
+        heading: "Can you combine both?",
         content: [
           "Yes. A common strategy is to use a bridging loan to acquire a site quickly (especially at auction), then refinance into a development facility once planning is secured. This ‘bridge-to-develop’ approach gives you the speed of bridging with the cost efficiency of development finance.",
           "Construction Capital regularly structures these two-stage deals, ensuring the bridging lender’s terms allow early repayment without penalty when the development facility is ready to draw. Contact us to discuss your specific scenario."
@@ -145,7 +145,7 @@ export const COMPARISON_GUIDES: Guide[] = [
     dateModified: "2025-09-20",
     sections: [
       {
-        heading: "Understanding the Capital Stack",
+        heading: "Understanding the capital stack",
         content: [
           "Every property development is funded through a capital stack: layers of finance with different risk profiles, costs, and claims on the project’s profits. At the bottom is senior debt (cheapest, first claim). At the top is developer equity (most expensive, last claim). The middle layers  -  mezzanine and equity  -  are where most developers have choices to make.",
           "The fundamental trade-off is simple: mezzanine finance is debt (you repay it with interest), while equity funding gives an investor a share of ownership and profits. Both reduce the cash you need to put in, but they affect your returns and control very differently."
@@ -161,7 +161,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "What Is Mezzanine Finance?",
+        heading: "What is mezzanine finance?",
         content: [
           "Mezzanine finance is a subordinated loan that sits behind senior debt in the capital stack. It stretches your total borrowing from the typical 65-70% LTGDV of senior debt up to 85-90% LTGDV, dramatically reducing the equity you need to inject.",
           "Rates are higher than senior debt  -  typically from 12% per annum  -  reflecting the additional risk the mezzanine lender takes by ranking behind the senior lender in any recovery scenario. Terms mirror the development programme at 12-24 months.",
@@ -169,7 +169,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "What Is Equity Funding?",
+        heading: "What is equity funding?",
         content: [
           "Equity funding involves bringing in a capital partner  -  typically a family office, HNW individual, or property fund  -  who provides cash in exchange for a share of the project’s profits. There is no fixed interest rate; instead, the investor takes a profit share starting from around 40%.",
           "Equity can cover up to 100% of costs when combined with senior debt. In a joint venture (JV) structure, the equity partner may fund everything from the land deposit to the build contingency, while you contribute your development expertise and management time.",
@@ -177,7 +177,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Side-by-Side Comparison",
+        heading: "Side-by-side comparison",
         content: [
           "<strong>Cost structure:</strong> Mezzanine charges a fixed interest rate from 12% p.a. Equity takes a profit share from 40%. On a highly profitable scheme, mezzanine is cheaper. On a marginal scheme, equity may be less risky for the developer since there is no fixed repayment obligation.",
           "<strong>Control:</strong> Mezzanine lenders typically do not take a seat at the table  -  they monitor via the same surveyor as the senior lender. Equity partners often want board seats, approval rights on key decisions, and regular reporting. This can slow down decision-making on site.",
@@ -195,7 +195,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "When to Use Mezzanine Finance",
+        heading: "When to use mezzanine finance",
         content: [
           "Mezzanine is the right choice when you have a scheme with strong margins (20%+ profit on GDV) and want to maximise your return on equity. By borrowing more at a fixed cost, you keep a larger share of the profit upside.",
           "It also makes sense when you want to retain full control of the project, when you have a track record that mezzanine lenders will back, and when you have enough equity for the remaining 10-15% the mezzanine does not cover.",
@@ -203,7 +203,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "When to Use Equity Funding",
+        heading: "When to use equity funding",
         content: [
           "Equity is the better choice when you lack the personal capital to cover the gap between senior debt and total costs, when you are taking on a larger or riskier scheme than your balance sheet can support, or when you want a partner who brings more than just capital (contacts, expertise, operational support).",
           "First-time developers often need equity partners because mezzanine lenders require a track record of 2-3 completed schemes. A credible equity partner can also strengthen your application to senior lenders.",
@@ -211,7 +211,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "How Construction Capital Can Help",
+        heading: "How Construction Capital can help",
         content: [
           "We have relationships with both specialist mezzanine lenders and equity providers. Our role is to model your capital stack, show you the cost implications of each option, and connect you with the right partners for your specific scheme.",
           "In many cases, the optimal structure is a blend: senior debt covering 65% LTGDV, mezzanine stretching to 85%, and developer equity covering the final 15%. We can arrange the entire stack through a single process, saving you time and ensuring the intercreditor terms work for everyone."
@@ -275,7 +275,7 @@ export const COMPARISON_GUIDES: Guide[] = [
     dateModified: "2025-09-26",
     sections: [
       {
-        heading: "The Two Markets for Development Finance",
+        heading: "The two markets for development finance",
         content: [
           "UK development finance broadly splits into two markets. High street banks (Lloyds, NatWest, HSBC, Barclays, Santander) offer the lowest rates but the most rigid criteria. Specialist lenders (Atelier, CrowdProperty, LendInvest, Maslow, and dozens more) charge more but move faster and accept deals that banks won’t touch.",
           "Understanding which market your deal fits is the first decision you need to make. Get it wrong and you waste weeks on a bank application that was never going to be approved, or overpay with a specialist lender for a deal any bank would fund."
@@ -291,7 +291,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Bank Development Finance: What to Expect",
+        heading: "Bank development finance: what to expect",
         content: [
           "High street banks typically offer development finance at 4-6% over base rate (currently equating to roughly 8-10% all-in), with arrangement fees of 1-1.5%. They will fund up to 60-65% LTGDV and require a minimum developer track record of 3-5 completed schemes.",
           "The approval process involves a full credit committee review, which takes 6-12 weeks from application to first drawdown. Banks require detailed QS reports, full planning permission (not just outline), and evidence of pre-sales or lettings on larger schemes.",
@@ -299,7 +299,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Specialist Development Finance: What to Expect",
+        heading: "Specialist development finance: what to expect",
         content: [
           "Specialist lenders offer rates from 6.5% per annum (typically 8-12% all-in with fees) and will fund up to 70% LTGDV, sometimes 75% for experienced developers. Track record requirements are more flexible: some will fund second or third projects, and most will consider the strength of the wider team (contractor, architect, project manager).",
           "Speed is the headline advantage. Specialist lenders can issue terms within 48 hours, complete due diligence in 2-4 weeks, and have funds available within 4-6 weeks of application. Some can complete in as little as 2 weeks for straightforward schemes.",
@@ -307,7 +307,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Side-by-Side Comparison",
+        heading: "Side-by-side comparison",
         content: [
           "<strong>Rates:</strong> Banks from 4-6% over base rate. Specialists from 6.5% p.a. fixed. On current base rates, the gap is roughly 2-4% per annum.",
           "<strong>LTV/LTGDV:</strong> Banks max at 60-65% LTGDV. Specialists go to 70-75% LTGDV. The higher gearing from specialists means less equity required.",
@@ -326,7 +326,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "When to Use a Bank",
+        heading: "When to use a bank",
         content: [
           "Use a bank when you have a strong track record (5+ schemes), the project is straightforward (residential, full planning, established location), and timeline is not the main constraint. The interest savings on larger facilities (£5M+) can be substantial.",
           "Banks are also the right choice if you want to build a long-term lending relationship. Repeat borrowers often negotiate improved terms, faster approvals on subsequent deals, and access to higher gearing as trust builds.",
@@ -334,7 +334,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "When to Use a Specialist Lender",
+        heading: "When to use a specialist lender",
         content: [
           "Use a specialist when speed matters, when your track record is limited, when the scheme is unusual, or when you need higher gearing than a bank will offer. The premium you pay in interest is often offset by the cost of delay or the opportunity cost of missing a site acquisition.",
           "Specialists are essential for: permitted development conversions, schemes below £1M (most banks have minimum facility sizes), sites purchased at auction with tight completion deadlines, and projects in secondary or tertiary locations that fall outside bank catchment areas.",
@@ -397,7 +397,7 @@ export const COMPARISON_GUIDES: Guide[] = [
     dateModified: "2025-09-20",
     sections: [
       {
-        heading: "What Is Senior Debt?",
+        heading: "What is senior debt?",
         content: [
           "Senior debt is the primary loan facility in a property development’s capital stack. It has first priority over all other creditors  -  if the project fails and the asset is sold, the senior lender is repaid first. This lower risk position is reflected in lower interest rates, typically from 6.5% per annum.",
           "Senior lenders will typically fund up to 65-70% of the Gross Development Value (LTGDV), covering both land acquisition and construction costs through staged drawdowns. The loan is secured by a first charge over the development site.",
@@ -414,7 +414,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "What Is Mezzanine Finance?",
+        heading: "What is mezzanine finance?",
         content: [
           "Mezzanine finance is a subordinated loan that sits behind senior debt. It has a second charge over the property and is repaid only after the senior lender has been fully repaid. This higher risk is reflected in higher rates, typically from 12% per annum.",
           "Mezzanine stretches your total borrowing from the 65-70% LTGDV of senior debt up to 85-90% LTGDV. The mezzanine lender fills the gap between what the senior lender will provide and what you can contribute as equity.",
@@ -422,7 +422,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "How They Interact: The Intercreditor Agreement",
+        heading: "How they interact: the intercreditor agreement",
         content: [
           "When senior debt and mezzanine are used together, the two lenders enter into an intercreditor agreement (ICA). This legal document governs how the lenders relate to each other and, critically, what happens in a default scenario.",
           "Key ICA provisions include: the mezzanine lender cannot enforce its security without the senior lender’s consent, the senior lender is repaid in full before any mezzanine recovery, and the mezzanine lender may have ‘cure rights’ allowing it to step in and fix defaults before the senior lender accelerates the loan.",
@@ -430,7 +430,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Side-by-Side Comparison",
+        heading: "Side-by-side comparison",
         content: [
           "<strong>Priority:</strong> Senior debt has first charge and first claim on recovery. Mezzanine has second charge and is repaid only after the senior lender is made whole.",
           "<strong>Rates:</strong> Senior debt from 6.5% p.a. Mezzanine from 12% p.a. The rate difference reflects the additional risk the mezzanine lender carries.",
@@ -447,7 +447,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Example Capital Stack",
+        heading: "Example capital stack",
         content: [
           "Consider a development with a GDV of £5M and total costs (land + build + fees) of £3.75M. A typical capital stack might be: senior debt at 65% LTGDV = £3.25M, mezzanine at 85% LTGDV = additional £1M (covering the 65-85% tranche), and developer equity of £562,500 (15% of costs).",
           "The blended cost of debt in this scenario: senior debt at 7% on £3.25M = £227,500 p.a., plus mezzanine at 13% on £1M = £130,000 p.a. Total annual interest: £357,500, or a blended rate of approximately 8.4% on £4.25M total borrowing.",
@@ -455,7 +455,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "When to Stack Senior + Mezzanine",
+        heading: "When to stack senior + mezzanine",
         content: [
           "Use both when the project has strong margins (20%+ profit on GDV) that can absorb the blended cost of debt, when you want to maximise leverage to free capital for other projects, and when you have enough track record for both lenders to back you.",
           "Avoid stacking when margins are thin (below 15% on GDV), when the project carries significant planning or build risk, or when you are a first-time developer  -  mezzanine lenders typically require a demonstrated track record.",
@@ -516,7 +516,7 @@ export const COMPARISON_GUIDES: Guide[] = [
     dateModified: "2025-09-28",
     sections: [
       {
-        heading: "How Bridging Rates Are Structured",
+        heading: "How bridging rates are structured",
         content: [
           "Bridging loan rates are quoted monthly, not annually  -  a convention that makes direct comparison with other finance products tricky. A rate of 0.55% per month equates to approximately 6.6% per annum. Rates range from 0.55% to 1.5% per month depending on the LTV, property type, exit strategy, and borrower profile.",
           "Rates can be structured as either fixed for the entire loan term, or variable (typically tracking the Bank of England base rate plus a margin). The choice affects your total cost, your certainty over repayments, and your flexibility to exit early."
@@ -532,7 +532,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Fixed Rate Bridging Loans",
+        heading: "Fixed rate bridging loans",
         content: [
           "With a fixed rate bridging loan, the monthly interest rate is locked in for the entire term. If you agree 0.75% per month on a 12-month bridge, your interest cost is predictable from day one regardless of what happens to base rates.",
           "Fixed rates are typically 0.05-0.15% per month higher than the equivalent variable rate at the time of arrangement. This premium is the cost of certainty. On a £500,000 bridging loan over 12 months, the premium equates to £3,000-£9,000 in additional interest.",
@@ -540,7 +540,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Variable Rate Bridging Loans",
+        heading: "Variable rate bridging loans",
         content: [
           "Variable rate bridging loans are priced as a margin over the Bank of England base rate (e.g., base + 0.50% per month, or base + 5% per annum). As base rates move, your monthly interest cost moves with them.",
           "When base rates are stable or falling, variable rates offer savings over fixed. When rates are rising, variable exposes you to increasing costs that can erode your project margins. In the current rate environment, this is a material consideration.",
@@ -548,7 +548,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Cost Comparison Example",
+        heading: "Cost comparison example",
         content: [
           "Take a £750,000 bridging loan over 9 months. At a fixed rate of 0.75% p.m., total interest = £50,625. At a variable rate starting at 0.65% p.m. (base + margin) with base rate increasing by 0.25% during the term, total interest ≈ £47,250-£49,500 depending on timing.",
           "In this example, variable saves £1,000-£3,000 in a stable rate environment. But if base rates had increased by 0.50% instead, the variable cost would exceed the fixed cost. The savings are real but uncertain.",
@@ -564,21 +564,21 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "When to Choose Fixed Rates",
+        heading: "When to choose fixed rates",
         content: [
           "Choose fixed when: base rates are expected to rise, your exit strategy has a defined timeline (e.g., sale already agreed or refinance offer in hand), you need certainty for cash flow planning, or the premium over variable is small (under 0.10% p.m.).",
           "Fixed is also the safer option for less experienced borrowers who may not be tracking rate movements closely, or for projects where the margin is tight and a rate increase could make the deal unviable."
         ]
       },
       {
-        heading: "When to Choose Variable Rates",
+        heading: "When to choose variable rates",
         content: [
           "Choose variable when: base rates are stable or expected to fall, you plan to exit quickly (under 6 months), the variable margin is significantly lower than fixed alternatives, or you have a flexible exit strategy that allows you to accelerate repayment if rates increase.",
           "Variable rates are particularly attractive at the start of an easing cycle, when the base rate is expected to decline over your loan term. In this scenario, your monthly costs reduce automatically without needing to refinance."
         ]
       },
       {
-        heading: "Other Cost Factors Beyond the Rate",
+        heading: "Other cost factors beyond the rate",
         content: [
           "The interest rate is only one component of bridging loan cost. Arrangement fees (1-2%), exit fees (0-1.5%), valuation fees (£500-£2,500), and legal fees all contribute to the total cost of borrowing.",
           "Some lenders offer lower rates but charge higher fees, and vice versa. When comparing fixed vs variable, ensure you are comparing the total cost of borrowing, not just the headline rate. Construction Capital provides total-cost comparisons across our lender panel to help you make the right choice."
@@ -638,7 +638,7 @@ export const COMPARISON_GUIDES: Guide[] = [
     dateModified: "2025-09-24",
     sections: [
       {
-        heading: "Defining the Boundary: Refurbishment vs Development",
+        heading: "Defining the boundary: refurbishment vs development",
         content: [
           "The distinction matters because lenders assess, price, and structure these facilities differently. As a rule of thumb: if your project involves changing the use, adding square footage, or structural alteration requiring Building Regulations approval beyond a simple Part P or Part L notification, it is likely classified as development by most lenders.",
           "Light refurbishment covers cosmetic works: new kitchens, bathrooms, redecoration, new flooring, and minor repairs. Budget typically under £50,000 per unit. Heavy refurbishment adds structural changes: removing walls, adding extensions, loft conversions, or converting a house into flats under permitted development rights.",
@@ -662,7 +662,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Refurbishment Finance: How It Works",
+        heading: "Refurbishment finance: how it works",
         content: [
           "Refurbishment finance is structured as a short-term loan with one or two drawdowns. You receive funds to purchase the property and a further drawdown (or retained amount) to cover the refurbishment costs once works begin.",
           "Rates start from 0.65% per month with LTV up to 75% based on the current or purchase value. Terms run 6-18 months. The exit strategy is typically a sale of the improved property or a refinance onto a buy-to-let mortgage.",
@@ -670,7 +670,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Development Finance: How It Works",
+        heading: "Development finance: how it works",
         content: [
           "Development finance uses staged drawdowns tied to build milestones verified by an independent monitoring surveyor. The lender releases funds as each stage is completed (foundations, superstructure, first fix, second fix, completion).",
           "Rates start from 6.5% per annum with LTGDV up to 65-70%. Terms run 12-24 months. The exit strategy is typically a sale of completed units or a refinance onto investment finance.",
@@ -678,7 +678,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Side-by-Side Comparison",
+        heading: "Side-by-side comparison",
         content: [
           "<strong>Rates:</strong> Refurbishment from 0.65% p.m. (7.8% p.a.). Development from 6.5% p.a. Development looks cheaper on an annual basis, but refurbishment projects are typically shorter and the total interest cost may be lower.",
           "<strong>LTV basis:</strong> Refurbishment is based on current/purchase value (LTV). Development is based on completed value (LTGDV). This means development finance can advance a larger absolute sum on the same property if the project adds significant value.",
@@ -688,7 +688,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "The Grey Area: Heavy Refurbishment",
+        heading: "The grey area: heavy refurbishment",
         content: [
           "Many projects sit in a grey area between light refurbishment and full development. Converting a house into 3 flats under permitted development, adding a two-storey extension, or stripping a building back to its shell are all projects that some lenders classify as refurbishment and others as development.",
           "The classification matters because it determines pricing, documentation requirements, and which lenders will consider the deal. A project classified as development will face a longer application process and potentially higher costs, but may access higher leverage based on the completed value.",
@@ -696,7 +696,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "When to Choose Each",
+        heading: "When to choose each",
         content: [
           "<strong>Choose refurbishment finance when:</strong> the scope is cosmetic to moderate structural works, no planning permission is required, total works budget is under £250,000, you want speed and simplicity, and your exit is a sale or BTL refinance within 12 months.",
           "<strong>Choose development finance when:</strong> you are building from the ground up, the project requires full planning permission, total costs exceed £500,000, the completed value significantly exceeds the current value, or the project timeline exceeds 12 months.",
@@ -759,7 +759,7 @@ export const COMPARISON_GUIDES: Guide[] = [
     dateModified: "2025-10-03",
     sections: [
       {
-        heading: "The Track Record Problem",
+        heading: "The track record problem",
         content: [
           "Every first-time developer faces the same catch-22: lenders want to see a track record of completed projects before they'll fund you, but you can't build a track record without funding. This is the single biggest barrier to entry in property development  -  and it's entirely solvable if you approach it correctly.",
           "The reality is that dozens of lenders actively fund first-time developers. They mitigate the experience risk through other means: lower leverage, stronger security, more experienced professional teams around you, and more conservative valuations. Your job is to present a package that gives lenders confidence despite the absence of a development CV.",
@@ -776,7 +776,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "What Lenders Want to See From New Developers",
+        heading: "What lenders want to see from new developers",
         content: [
           "<strong>A credible professional team:</strong> The single most important thing you can do as a first-time developer is surround yourself with experienced professionals. An architect with residential development experience, a quantity surveyor who has costed similar schemes, a solicitor who specialises in development, and  -  critically  -  an experienced contractor or project manager. Lenders will assess your team as much as they assess you.",
           "<strong>Realistic financials:</strong> Your development appraisal needs to be bulletproof. Use conservative GDV assumptions backed by recent comparable sales evidence, not aspirational pricing. Your build costs should come from a quantity surveyor's report, not from internet estimates. Include a 10% contingency  -  lenders expect it, and cutting contingency to make the numbers work is a red flag.",
@@ -793,7 +793,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Best Finance Routes for First-Time Developers",
+        heading: "Best finance routes for first-time developers",
         content: [
           "<strong>Specialist development finance (60-65% LTGDV):</strong> Several specialist lenders have explicit first-time developer programmes. These typically offer 60-65% of GDV (compared to 65-70% for experienced developers) with interest rates 0.5-1% higher than standard terms. The key advantage is that these lenders have underwriting teams who know how to assess new developers  -  they won't reject you automatically for lack of track record.",
           "<strong>Bridging into development:</strong> For your very first project, a bridge-to-develop strategy can work well. Acquire the site on a bridging loan (easier to obtain than development finance), secure any remaining planning consents, then refinance onto a development facility. By the time you approach the development lender, you'll have a consented site with a clear scheme  -  a much stronger proposition than an unconsented acquisition.",
@@ -802,7 +802,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "How to Build Your Track Record Quickly",
+        heading: "How to build your track record quickly",
         content: [
           "Your first completed project  -  even a modest one  -  transforms your financing options. Lenders move you from the 'first-time developer' category to 'developer with track record' after a single successful scheme. The key is choosing a first project that you can deliver well, on budget, and on time.",
           "<strong>Start with refurbishment:</strong> A cosmetic or light structural refurbishment is the lowest-risk entry point. Buy a property below market value, refurbish it to a good standard, then sell or refinance. The finance is easier to obtain (bridging rather than development), the execution risk is lower, and you'll learn project management fundamentals before taking on a ground-up build.",
@@ -811,7 +811,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Common First-Time Developer Mistakes",
+        heading: "Common first-time developer mistakes",
         content: [
           "<strong>Overpaying for the site:</strong> The profit in development is made at acquisition, not at sale. First-time developers often pay too much because they're desperate to get their first deal done. Run your appraisal conservatively and walk away if the numbers don't work  -  there will be another site.",
           "<strong>Underestimating costs:</strong> Build cost overruns are the most common cause of development failure. Always use a QS for your cost plan, include 10% contingency, and get fixed-price quotes from contractors. Variable-cost arrangements on your first project are a recipe for budget overruns.",
@@ -820,7 +820,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Your First Development: A Step-by-Step Checklist",
+        heading: "Your first development: a step-by-step checklist",
         content: [
           "<strong>1. Education (Month 1-2):</strong> Attend property development courses or events. Read development finance case studies. Understand the difference between GDV, LTGDV, LTC, and profit on cost. Learn to read a development appraisal. Join property networking groups in your target area.",
           "<strong>2. Team assembly (Month 2-3):</strong> Find a development-experienced architect, a quantity surveyor, and a solicitor. These don't need to be the most expensive  -  but they do need development experience. Get recommendations from other developers or your broker.",
@@ -885,7 +885,7 @@ export const COMPARISON_GUIDES: Guide[] = [
     dateModified: "2025-10-03",
     sections: [
       {
-        heading: "What Are Permitted Development Rights?",
+        heading: "What are permitted development rights?",
         content: [
           "Permitted Development Rights (PDR) allow certain types of building conversion and change of use without a full planning application. Instead, you apply for prior approval  -  a lighter-touch process that assesses transport, flooding, contamination, and noise impacts rather than the full range of planning considerations.",
           "For property developers, PDR represents a significant opportunity: you can convert commercial buildings to residential use faster, with greater certainty, and at lower risk than a traditional planning route. The most commercially significant PDR classes for developers are Class MA (commercial to residential), Class Q (agricultural to residential), and Class AA (upward extensions to blocks of flats).",
@@ -902,7 +902,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Class MA: Office and Commercial to Residential",
+        heading: "Class ma: office and commercial to residential",
         content: [
           "Class MA (formerly Class O) permits the change of use from commercial, business, and service use (Use Class E) to residential (Use Class C3). This is the most widely used PDR class for development projects. It applies to offices, shops, restaurants, light industrial units, gyms, health centres, and other Class E uses.",
           "<strong>Key requirements:</strong> The building must have been in a commercial use within Use Class E for at least 2 continuous years prior to the application. The cumulative floor space being converted must not exceed 1,500 sq m. The building must not be a listed building, in a conservation area (unless the local authority has not made an Article 4 direction), or within a site of special scientific interest.",
@@ -919,7 +919,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Class Q: Agricultural to Residential",
+        heading: "Class q: agricultural to residential",
         content: [
           "Class Q permits the conversion of agricultural buildings to up to 5 residential units, subject to a cumulative floor space limit of 865 sq m. This PDR class has created significant opportunities in rural areas where traditional planning for new residential development is restrictive.",
           "<strong>Key requirements:</strong> The building must have been solely used for agricultural purposes as part of an established agricultural unit on 20 March 2013. Structural works are limited  -  the building must be capable of conversion through building operations reasonably necessary, meaning it must be structurally sound enough to bear the load of a residential conversion without substantial rebuild.",
@@ -928,7 +928,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Class AA: Upward Extensions",
+        heading: "Class aa: upward extensions",
         content: [
           "Class AA permits the construction of up to two additional storeys on top of existing blocks of purpose-built, detached flats. This relatively new PDR class (introduced in 2020) creates opportunities to add value to existing residential buildings through rooftop development.",
           "The requirements are specific: the building must be at least 3 storeys high, purpose-built as flats (not converted), detached (not terraced or semi-detached), and the additional storeys must not exceed the height of the existing top storey. The engineering and construction challenges of building on top of an existing structure require specialist assessment.",
@@ -936,7 +936,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "How to Finance a PDR Conversion",
+        heading: "How to finance a pdr conversion",
         content: [
           "<strong>Step 1  -  Acquisition:</strong> Use a bridging loan to acquire the commercial building quickly. Bridge-to-develop is the standard strategy: buy the building on a short-term bridge, apply for prior approval (typically determined within 56 days), then refinance onto a development or refurbishment facility once prior approval is granted.",
           "<strong>Step 2  -  Prior approval:</strong> While the bridging facility is in place, submit the prior approval application. Most local authorities determine these within the 56-day statutory period. Use this time to progress your design, cost plan, and contractor procurement so you're ready to move quickly once approved.",
@@ -945,7 +945,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Lender Appetite for PDR Schemes",
+        heading: "Lender appetite for pdr schemes",
         content: [
           "Most specialist development lenders actively seek PDR conversion projects because the planning risk  -  typically their biggest concern  -  is substantially mitigated. Several lenders have specific PDR products or relaxed criteria for schemes with granted prior approval.",
           "Lenders assess PDR schemes on the same fundamentals as any development project: cost plan credibility, GDV support from comparable evidence, developer experience, and exit strategy. The PDR element provides comfort on planning but doesn't override weak economics or an unrealistic appraisal.",
@@ -1008,7 +1008,7 @@ export const COMPARISON_GUIDES: Guide[] = [
     dateModified: "2025-09-30",
     sections: [
       {
-        heading: "What Is Section 106?",
+        heading: "What is Section 106?",
         content: [
           "Section 106 of the Town and Country Planning Act 1990 allows local planning authorities to require developers to enter into legal agreements as a condition of planning permission. These planning obligations typically require the developer to provide affordable housing, contribute to local infrastructure (schools, highways, open space), or mitigate the impact of the development on the local area.",
           "For residential developments of 10 or more units (or sites of 0.5 hectares or more), affordable housing provision is almost always required. The proportion varies by local authority  -  typically 20-40% of units  -  and the tenure mix (social rent, affordable rent, shared ownership, First Homes) is specified in the local plan.",
@@ -1025,7 +1025,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "How S106 Affects Your Development Appraisal",
+        heading: "How s106 affects your development appraisal",
         content: [
           "Affordable housing units are transferred to a registered provider (housing association) at a discounted price  -  typically 40-60% of market value for social/affordable rent and 60-70% for shared ownership. This discount directly reduces your scheme's GDV. A 30% affordable housing requirement on a 20-unit scheme means 6 units sell at 40-60% of market value, significantly impacting total revenue.",
           "<strong>Worked example:</strong> A 20-unit scheme with an average market value of £300,000 per unit has a full GDV of £6M. With 30% affordable housing (6 units at 50% of market value), the effective GDV drops to £5.1M. That £900K reduction flows directly through to your profit calculation and affects how much a lender will advance.",
@@ -1042,7 +1042,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Viability Assessments: Negotiating Your S106",
+        heading: "Viability assessments: negotiating your s106",
         content: [
           "If the full affordable housing requirement makes your scheme unviable, you can submit a viability assessment to demonstrate that the S106 obligations should be reduced. This is a formal financial appraisal, typically prepared by a specialist surveyor, that shows the scheme cannot deliver a reasonable developer profit with the full affordable housing requirement.",
           "Viability assessments are contentious. Local authorities are sceptical of developers claiming unviability, and they'll appoint their own assessor to scrutinise your inputs  -  land value, build costs, sales values, profit margin, and finance costs. The inputs must be transparent and defensible. Inflating costs or deflating revenues to manipulate the viability outcome will be challenged and can damage your relationship with the planning authority.",
@@ -1051,7 +1051,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "How Lenders Assess S106 Obligations",
+        heading: "How lenders assess s106 obligations",
         content: [
           "Development lenders factor S106 costs into their assessment in two ways: the affordable housing discount reduces the GDV they use to calculate leverage, and infrastructure contributions are added to the total development cost. Both reduce the loan amount the lender will offer.",
           "<strong>GDV calculation:</strong> Lenders calculate GDV using blended values  -  market units at full value, affordable units at the discounted transfer price to the registered provider. If the S106 agreement isn't yet finalised, lenders will assume the full local plan requirement in their assessment, which may restrict your facility. Negotiating S106 terms before approaching lenders gives you a more accurate GDV to work with.",
@@ -1060,7 +1060,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Strategies for Funding S106-Heavy Schemes",
+        heading: "Strategies for funding s106-heavy schemes",
         content: [
           "<strong>Registered provider forward funding:</strong> Some housing associations will forward-fund the affordable housing element of your scheme  -  effectively paying you during construction for units you'll deliver at completion. This injects cash during the build phase, reducing your development finance requirement and improving scheme viability.",
           "<strong>Mezzanine to bridge the equity gap:</strong> S106 obligations increase your total development cost while reducing GDV, which means you need more equity to fund the difference. Mezzanine finance can fill this gap, stretching your leverage to 85-90% of total costs. The blended cost of senior debt plus mezzanine must still produce an acceptable profit margin, but for viable schemes, this structure works well.",
@@ -1124,7 +1124,7 @@ export const COMPARISON_GUIDES: Guide[] = [
     dateModified: "2025-10-12",
     sections: [
       {
-        heading: "What Is an HMO and Why Convert?",
+        heading: "What is an HMO and why convert?",
         content: [
           "A House in Multiple Occupation (HMO) is a property rented to 3 or more tenants from 2 or more households who share facilities such as a kitchen or bathroom. HMOs are one of the highest-yielding residential investment strategies in the UK, with gross yields of 8-12% typical in strong university and employment-driven towns.",
           "The economics are straightforward: a 5-bedroom house that might generate £1,200/month as a single let could produce £2,500-£3,500/month as a 5-room HMO. After management costs, the net yield advantage is typically 3-5 percentage points above conventional BTL  -  a significant difference that compounds over time.",
@@ -1141,7 +1141,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Licensing and Planning Requirements",
+        heading: "Licensing and planning requirements",
         content: [
           "<strong>Mandatory licensing:</strong> Since October 2018, all HMOs with 5 or more tenants forming 2 or more households require a mandatory licence from the local authority. The licensing regime sets minimum room sizes (6.51 sq m for a single room, 10.22 sq m for a double), fire safety standards, kitchen and bathroom ratios, and waste disposal arrangements. Non-compliance carries unlimited fines and rent repayment orders.",
           "<strong>Additional licensing:</strong> Many local authorities operate additional licensing schemes that cover HMOs below the mandatory threshold (3-4 tenants). Check your target area's licensing regime before purchasing  -  the standards and fees vary significantly between authorities.",
@@ -1158,7 +1158,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Financing the Acquisition",
+        heading: "Financing the acquisition",
         content: [
           "The acquisition phase of an HMO conversion is typically funded by a bridging loan. Standard residential mortgages don't cover properties you intend to convert, and specialist HMO mortgages require the property to already be licensed and tenanted. A bridge provides the fast, flexible acquisition funding you need.",
           "<strong>Bridging for HMO:</strong> Several bridging lenders have specific HMO experience and understand the conversion process. They'll advance 70-75% of the purchase price (or current market value, whichever is lower) on a 6-12 month term. Interest rates for HMO bridge-to-refurbish facilities start from 0.65% per month.",
@@ -1167,7 +1167,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Financing the Conversion Works",
+        heading: "Financing the conversion works",
         content: [
           "HMO conversion works are typically financed as either a retained element within the bridging loan or as a separate refurbishment facility. The approach depends on the scale of works.",
           "<strong>Light conversion (under £50K):</strong> If the property already has a suitable layout and the works are primarily cosmetic  -  en-suite installation, fire safety upgrades, redecoration  -  a bridging loan with a retained works fund is the simplest option. The lender retains a portion of the gross loan advance to cover works costs, releasing funds against completed stages.",
@@ -1176,7 +1176,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "Exit Strategy: HMO Mortgages",
+        heading: "Exit strategy: HMO mortgages",
         content: [
           "Your exit from the bridging/refurbishment facility is a refinance onto a long-term HMO mortgage. This is where the yield advantage of HMOs translates into superior leverage  -  lenders assess HMO mortgages on rental income, and the higher rent supports a larger loan.",
           "<strong>HMO mortgage criteria:</strong> Specialist HMO lenders require: a valid HMO licence (or evidence of application), rooms meeting minimum size standards, compliant fire safety measures, Building Regulations sign-off on any conversion works, and ideally 3-6 months of rental income evidence. Some lenders will refinance on projected rents with a surveyor's rental assessment.",
@@ -1185,7 +1185,7 @@ export const COMPARISON_GUIDES: Guide[] = [
         ]
       },
       {
-        heading: "HMO Investment Strategy: Scale and Portfolio Building",
+        heading: "HMO investment strategy: scale and portfolio building",
         content: [
           "The most successful HMO investors operate a systematic acquisition-conversion-refinance cycle. Each completed HMO is refinanced at the improved value, releasing equity to fund the next acquisition. With typical conversion value uplifts of 25-40%, the recycled equity can fund 2-3 further acquisitions per year.",
           "<strong>Location selection:</strong> Focus on areas with strong tenant demand from young professionals, students, or key workers. University towns (Leeds, Manchester, Nottingham, Bristol) have reliable demand, but professional-let HMOs in employment centres often achieve higher rents with lower management intensity. Check local HMO saturation  -  too many HMOs in one area suppresses rents and increases voids.",
