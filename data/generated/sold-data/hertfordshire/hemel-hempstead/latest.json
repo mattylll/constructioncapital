@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.714Z",
+  "updatedAt": "2026-05-18T19:24:08.247Z",
   "townSlug": "hemel-hempstead",
   "countySlug": "hertfordshire",
   "stats": {
-    "medianPrice": 445000,
+    "medianPrice": 444000,
     "medianByType": {
-      "D": 789000,
-      "S": 527500,
-      "T": 418000,
-      "F": 247000
+      "D": 785000,
+      "S": 525000,
+      "T": 415000,
+      "F": 250000
     },
-    "transactionCount12m": 1409,
-    "yoyChange": 1.1,
-    "newBuildCount": 1,
-    "existingCount": 1408,
-    "newBuildPremium": -100
+    "transactionCount12m": 1528,
+    "yoyChange": 0.9,
+    "newBuildCount": 3,
+    "existingCount": 1525,
+    "newBuildPremium": 68.5
   },
   "recentTransactions": [
     {
-      "price": 575000,
-      "date": "2026-02-26",
-      "postcode": "HP4 1SB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, CAREYS CROFT"
-    },
-    {
-      "price": 640000,
-      "date": "2026-02-24",
-      "postcode": "HP4 2EJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "99A, GEORGE STREET"
-    },
-    {
-      "price": 937500,
-      "date": "2026-02-23",
-      "postcode": "HP4 3QT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "159, HIGH STREET SOUTH"
-    },
-    {
-      "price": 540000,
-      "date": "2026-02-20",
-      "postcode": "HP3 0JX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, AUSTINS MEAD"
-    },
-    {
-      "price": 490000,
-      "date": "2026-02-20",
-      "postcode": "HP1 2HT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, LONG CHAULDEN"
-    },
-    {
-      "price": 380000,
-      "date": "2026-02-20",
-      "postcode": "HP23 5ES",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, MILL GARDENS"
-    },
-    {
-      "price": 810000,
-      "date": "2026-02-20",
-      "postcode": "HP4 3PZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, VALLEY ROAD"
-    },
-    {
-      "price": 380000,
-      "date": "2026-02-20",
-      "postcode": "HP1 2JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, HONEYCROSS ROAD"
-    },
-    {
-      "price": 320000,
-      "date": "2026-02-19",
-      "postcode": "HP1 2TN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, THE PASTURES"
-    },
-    {
       "price": 370000,
-      "date": "2026-02-19",
-      "postcode": "HP2 7NL",
+      "date": "2026-03-25",
+      "postcode": "HP23 6BH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, KEATS CLOSE"
+      "address": "26, HENRY STREET"
     },
     {
-      "price": 475000,
-      "date": "2026-02-18",
-      "postcode": "HP2 4QJ",
+      "price": 470000,
+      "date": "2026-03-25",
+      "postcode": "HP23 5DB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, NEW PARK DRIVE"
+      "address": "29, EIGHT ACRES"
     },
     {
-      "price": 630000,
-      "date": "2026-02-18",
-      "postcode": "HP2 4RA",
+      "price": 720000,
+      "date": "2026-03-23",
+      "postcode": "HP3 0LT",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, WOOD LANE END"
+      "address": "HASLEMERE, VICARAGE LANE"
     },
     {
-      "price": 305000,
-      "date": "2026-02-18",
-      "postcode": "HP2 5DH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, NISSEL HOUSE, FENSOMES CLOSE"
-    },
-    {
-      "price": 138500,
-      "date": "2026-02-17",
-      "postcode": "HP2 6LD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "126, WOOTTON DRIVE"
-    },
-    {
-      "price": 194500,
-      "date": "2026-02-17",
-      "postcode": "HP3 9BA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, MOORSIDE, STRATFORD WAY"
-    },
-    {
-      "price": 243500,
-      "date": "2026-02-13",
-      "postcode": "HP3 9AQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "16, MALIN COURT, HARDINGS CLOSE"
-    },
-    {
-      "price": 197000,
-      "date": "2026-02-13",
-      "postcode": "HP2 7LS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "58, CUFFLEY COURT"
-    },
-    {
-      "price": 445000,
-      "date": "2026-02-13",
-      "postcode": "HP2 7QS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, BERKELEY SQUARE"
-    },
-    {
-      "price": 154000,
-      "date": "2026-02-13",
-      "postcode": "HP23 5HE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "51, WINGRAVE ROAD"
-    },
-    {
-      "price": 294000,
-      "date": "2026-02-13",
-      "postcode": "HP1 3ED",
+      "price": 500000,
+      "date": "2026-03-23",
+      "postcode": "HP3 0EN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, THE THISTLES"
+      "address": "28, THE BOURNE"
+    },
+    {
+      "price": 432500,
+      "date": "2026-03-20",
+      "postcode": "HP23 4HF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, BUCKINGHAM ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-20",
+      "postcode": "HP3 8LJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2A, THE ELMS, BEDMOND ROAD"
+    },
+    {
+      "price": 485000,
+      "date": "2026-03-19",
+      "postcode": "HP23 6BL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, CHAPEL STREET"
+    },
+    {
+      "price": 430000,
+      "date": "2026-03-19",
+      "postcode": "HP3 9UL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "149, GREAT ELMS ROAD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-19",
+      "postcode": "AL3 8NZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, BLACKSMITHS ROW"
+    },
+    {
+      "price": 397000,
+      "date": "2026-03-19",
+      "postcode": "HP4 2JZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, SYCAMORE RISE"
+    },
+    {
+      "price": 595000,
+      "date": "2026-03-17",
+      "postcode": "HP1 2HY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "124, LONG CHAULDEN"
+    },
+    {
+      "price": 180000,
+      "date": "2026-03-17",
+      "postcode": "HP2 4HE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "49B, MONTGOMERY AVENUE"
+    },
+    {
+      "price": 1320000,
+      "date": "2026-03-16",
+      "postcode": "HP4 3NP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LITTLE WILTON, SHOOTERSWAY LANE"
+    },
+    {
+      "price": 790000,
+      "date": "2026-03-16",
+      "postcode": "HP4 2DD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, HIGHFIELD ROAD"
+    },
+    {
+      "price": 145000,
+      "date": "2026-03-16",
+      "postcode": "HP2 7LT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "103, CUFFLEY COURT"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-16",
+      "postcode": "HP4 1FP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "17, SHELDON LODGE, HIGH STREET"
+    },
+    {
+      "price": 190000,
+      "date": "2026-03-13",
+      "postcode": "HP4 1AR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4, LITTLE COURT, RIVERSIDE GARDENS"
+    },
+    {
+      "price": 495000,
+      "date": "2026-03-13",
+      "postcode": "HP3 9QR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "80, EBBERNS ROAD"
+    },
+    {
+      "price": 545000,
+      "date": "2026-03-13",
+      "postcode": "HP3 8EQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, RANT MEADOW"
+    },
+    {
+      "price": 478200,
+      "date": "2026-03-12",
+      "postcode": "HP4 2JN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, HAZEL ROAD"
     }
   ]
 }

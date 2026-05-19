@@ -1,22 +1,103 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.677Z",
+  "updatedAt": "2026-05-18T19:24:08.211Z",
   "townSlug": "beaconsfield",
   "countySlug": "buckinghamshire",
   "stats": {
-    "medianPrice": 950000,
+    "medianPrice": 980000,
     "medianByType": {
-      "D": 1540000,
-      "S": 770000,
-      "T": 565000,
-      "F": 467500
+      "D": 1500000,
+      "S": 755000,
+      "T": 545000,
+      "F": 417500
     },
-    "transactionCount12m": 175,
-    "yoyChange": -2.3,
-    "newBuildCount": 6,
-    "existingCount": 169,
-    "newBuildPremium": -8.7
+    "transactionCount12m": 178,
+    "yoyChange": 1,
+    "newBuildCount": 4,
+    "existingCount": 174,
+    "newBuildPremium": 13.3
   },
   "recentTransactions": [
+    {
+      "price": 725000,
+      "date": "2026-03-20",
+      "postcode": "HP9 1LL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, HORSESHOE CRESCENT"
+    },
+    {
+      "price": 540000,
+      "date": "2026-03-11",
+      "postcode": "HP9 1LJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, HORSESHOE CRESCENT"
+    },
+    {
+      "price": 218000,
+      "date": "2026-03-06",
+      "postcode": "HP9 2NA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4, REYNOLDS COURT, BARING ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-03-05",
+      "postcode": "HP9 1HG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, CARDAIN HOUSE, BURKES ROAD"
+    },
+    {
+      "price": 1225000,
+      "date": "2026-02-27",
+      "postcode": "HP9 2UH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HILDRIC COTTAGE, BOTTOM LANE"
+    },
+    {
+      "price": 1060000,
+      "date": "2026-02-27",
+      "postcode": "HP9 1AE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, CANDLEMAS LANE"
+    },
+    {
+      "price": 305000,
+      "date": "2026-02-27",
+      "postcode": "HP9 2EN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "8, PARK GROVE"
+    },
+    {
+      "price": 715000,
+      "date": "2026-02-25",
+      "postcode": "HP9 2XT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, HOWARD ROAD"
+    },
+    {
+      "price": 1020000,
+      "date": "2026-02-20",
+      "postcode": "HP9 1AL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, MEADOW LANE"
+    },
     {
       "price": 1025000,
       "date": "2026-02-16",
@@ -25,6 +106,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "12, CANDLEMAS LANE"
+    },
+    {
+      "price": 1300000,
+      "date": "2026-02-12",
+      "postcode": "HP9 1UE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, MAYFLOWER WAY"
     },
     {
       "price": 2725000,
@@ -63,15 +153,6 @@
       "address": "21, GURNELLS ROAD"
     },
     {
-      "price": 955000,
-      "date": "2026-01-16",
-      "postcode": "HP9 1UQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, CRABTREE CLOSE"
-    },
-    {
       "price": 500000,
       "date": "2026-01-16",
       "postcode": "HP9 1LA",
@@ -79,6 +160,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "7, CANDLEMAS OAKS"
+    },
+    {
+      "price": 955000,
+      "date": "2026-01-16",
+      "postcode": "HP9 1UQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, CRABTREE CLOSE"
     },
     {
       "price": 390000,
@@ -106,96 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "9, WALDENBURY PLACE"
-    },
-    {
-      "price": 950000,
-      "date": "2025-12-19",
-      "postcode": "HP9 2RD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, BALDWIN ROAD"
-    },
-    {
-      "price": 1100000,
-      "date": "2025-12-18",
-      "postcode": "HP9 1LG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE ARTHOUSE, 141, STATION ROAD"
-    },
-    {
-      "price": 975000,
-      "date": "2025-12-17",
-      "postcode": "HP9 2PL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, WARWICK ROAD"
-    },
-    {
-      "price": 950000,
-      "date": "2025-12-17",
-      "postcode": "HP9 2AS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, MYNCHEN ROAD"
-    },
-    {
-      "price": 3000000,
-      "date": "2025-12-15",
-      "postcode": "HP9 2LT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, PENN ROAD"
-    },
-    {
-      "price": 1625000,
-      "date": "2025-12-12",
-      "postcode": "HP9 2SW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LITTLE LEIGHS, JORDANS LANE"
-    },
-    {
-      "price": 650000,
-      "date": "2025-12-12",
-      "postcode": "HP9 2EP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, HYDE GREEN"
-    },
-    {
-      "price": 950000,
-      "date": "2025-12-12",
-      "postcode": "HP9 2YD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, MANOR FARM WAY"
-    },
-    {
-      "price": 2150000,
-      "date": "2025-12-12",
-      "postcode": "HP9 2UH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SIDNEY HOUSE, BOTTOM LANE"
-    },
-    {
-      "price": 337500,
-      "date": "2025-12-11",
-      "postcode": "HP9 2EJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, WILTON HOLLOW, AMERSHAM ROAD"
     }
   ]
 }

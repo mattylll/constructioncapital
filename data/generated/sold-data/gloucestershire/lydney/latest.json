@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.961Z",
+  "updatedAt": "2026-05-18T19:24:08.500Z",
   "townSlug": "lydney",
   "countySlug": "gloucestershire",
   "stats": {
-    "medianPrice": 282000,
+    "medianPrice": 280000,
     "medianByType": {
-      "D": 380000,
-      "S": 245000,
-      "T": 208500,
-      "F": 135500
+      "D": 385000,
+      "S": 250000,
+      "T": 209250,
+      "F": 126000
     },
-    "transactionCount12m": 775,
-    "yoyChange": 4.4,
-    "newBuildCount": 3,
-    "existingCount": 772,
-    "newBuildPremium": 3.2
+    "transactionCount12m": 851,
+    "yoyChange": 3.7,
+    "newBuildCount": 12,
+    "existingCount": 839,
+    "newBuildPremium": -15.5
   },
   "recentTransactions": [
     {
-      "price": 120000,
-      "date": "2026-02-20",
-      "postcode": "GL15 6HB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BELL VIEW COTTAGE, ST JAMES SQUARE"
-    },
-    {
-      "price": 485000,
-      "date": "2026-02-18",
-      "postcode": "NP16 7EL",
+      "price": 420000,
+      "date": "2026-03-20",
+      "postcode": "GL15 5TH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, HENDRICK DRIVE"
+      "address": "11, CHANTRY CLOSE"
     },
     {
-      "price": 245000,
-      "date": "2026-02-13",
-      "postcode": "GL14 3JU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, DENE VIEW"
-    },
-    {
-      "price": 180000,
-      "date": "2026-02-13",
-      "postcode": "GL15 6HD",
+      "price": 170000,
+      "date": "2026-03-20",
+      "postcode": "GL14 2DG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, MAYPOLE GREEN"
+      "address": "8, PEMBROKE STREET"
     },
     {
-      "price": 330000,
-      "date": "2026-02-13",
-      "postcode": "GL14 1PL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SUNNINGDALE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-02-13",
-      "postcode": "GL14 2JT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, STATION STREET"
-    },
-    {
-      "price": 230000,
-      "date": "2026-02-13",
-      "postcode": "GL17 9US",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE BEECHES, HIGH STREET"
-    },
-    {
-      "price": 497000,
-      "date": "2026-02-12",
-      "postcode": "GL15 6LX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "OAKTREE COTTAGE, FOREST ROAD"
-    },
-    {
-      "price": 487500,
-      "date": "2026-02-12",
-      "postcode": "GL18 1TQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "RAMBLY EDGE, ROBINSON CLOSE"
-    },
-    {
-      "price": 292500,
-      "date": "2026-02-12",
-      "postcode": "GL19 3RY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, O'CONNOR CLOSE"
-    },
-    {
-      "price": 440000,
-      "date": "2026-02-11",
-      "postcode": "GL18 2AH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE STONES, THE VILLAGE"
-    },
-    {
-      "price": 242000,
-      "date": "2026-02-10",
-      "postcode": "GL15 5NE",
+      "price": 259000,
+      "date": "2026-03-20",
+      "postcode": "GL15 6DN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, ASH CLOSE"
+      "address": "10, STOCKWELL LANE"
     },
     {
-      "price": 175000,
-      "date": "2026-02-09",
-      "postcode": "GL15 6AW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, WHITTINGTON WAY"
-    },
-    {
-      "price": 296000,
-      "date": "2026-02-09",
-      "postcode": "GL14 2JS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, FOUNDRY ROAD"
-    },
-    {
-      "price": 332500,
-      "date": "2026-02-09",
-      "postcode": "GL15 4BQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, ABBOTS GATE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-02-06",
-      "postcode": "GL15 6TH",
+      "price": 275000,
+      "date": "2026-03-20",
+      "postcode": "GL19 3RS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, CROSS KEYS"
+      "address": "15, JUBILEE PLACE"
     },
     {
-      "price": 232500,
-      "date": "2026-02-06",
-      "postcode": "GL15 5LX",
+      "price": 597000,
+      "date": "2026-03-20",
+      "postcode": "GL16 8PH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, TILLIS VIEW"
+    },
+    {
+      "price": 252500,
+      "date": "2026-03-19",
+      "postcode": "GL18 1DX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "38, ALBERT STREET"
+      "address": "81, MEEK ROAD"
+    },
+    {
+      "price": 253000,
+      "date": "2026-03-19",
+      "postcode": "GL16 7HZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, BAYBERRY PLACE"
+    },
+    {
+      "price": 118000,
+      "date": "2026-03-16",
+      "postcode": "GL14 3JH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, NAILSMITHS COURT"
     },
     {
       "price": 235000,
-      "date": "2026-02-06",
-      "postcode": "GL15 5SL",
+      "date": "2026-03-13",
+      "postcode": "GL18 1UB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "80, LANCASTER DRIVE"
+      "address": "1, MAY HILL VIEW"
     },
     {
-      "price": 345000,
-      "date": "2026-02-06",
-      "postcode": "GL17 9JD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "KAPELLA, QUABBS ROAD"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-05",
-      "postcode": "GL17 0EJ",
+      "price": 215000,
+      "date": "2026-03-13",
+      "postcode": "GL16 8AL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "34, DEAN MEADOWS"
+      "address": "36, NEWLAND STREET"
+    },
+    {
+      "price": 260000,
+      "date": "2026-03-13",
+      "postcode": "GL17 9SH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CHURCH ROAD"
+    },
+    {
+      "price": 155000,
+      "date": "2026-03-12",
+      "postcode": "GL15 6EQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE COTTAGE, HIGH STREET"
+    },
+    {
+      "price": 475000,
+      "date": "2026-03-12",
+      "postcode": "GL14 2BD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BONNICOTT, LITTLEDEAN HILL ROAD"
+    },
+    {
+      "price": 540000,
+      "date": "2026-03-12",
+      "postcode": "GL14 3NJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HIGHFIELDS, GRANGE LANE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-03-12",
+      "postcode": "GL14 1LE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE OUTLOOK"
+    },
+    {
+      "price": 307500,
+      "date": "2026-03-11",
+      "postcode": "GL15 6PH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WISTERIA, NETHEREND"
+    },
+    {
+      "price": 440000,
+      "date": "2026-03-09",
+      "postcode": "HR8 1NX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FORESTERS END"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-09",
+      "postcode": "GL17 0PF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GREEN BANKS, OLD HILL"
+    },
+    {
+      "price": 255000,
+      "date": "2026-03-09",
+      "postcode": "GL14 3LF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "REDSTONES, THE RUFFITT"
+    },
+    {
+      "price": 465000,
+      "date": "2026-03-09",
+      "postcode": "GL19 3HS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LARKSMERE"
     }
   ]
 }

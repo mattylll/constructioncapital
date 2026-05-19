@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.532Z",
+  "updatedAt": "2026-05-18T19:24:08.933Z",
   "townSlug": "ellesmere-port",
   "countySlug": "cheshire",
   "stats": {
     "medianPrice": 200000,
     "medianByType": {
       "D": 320000,
-      "S": 200000,
+      "S": 203500,
       "T": 155000,
       "F": 99000
     },
-    "transactionCount12m": 586,
+    "transactionCount12m": 641,
     "yoyChange": 0,
-    "newBuildCount": 1,
-    "existingCount": 585,
-    "newBuildPremium": -100
+    "newBuildCount": 3,
+    "existingCount": 638,
+    "newBuildPremium": 85
   },
   "recentTransactions": [
     {
-      "price": 360000,
-      "date": "2026-02-20",
-      "postcode": "CH66 4QD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, HILLCREST DRIVE"
-    },
-    {
-      "price": 140000,
-      "date": "2026-02-16",
-      "postcode": "CH65 4DY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "69, CRESCENT ROAD"
-    },
-    {
-      "price": 112500,
-      "date": "2026-02-13",
-      "postcode": "CH65 2BD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, GRAFTON ROAD"
-    },
-    {
-      "price": 127000,
-      "date": "2026-02-13",
-      "postcode": "CH65 8BQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, BEECHFIELD ROAD"
-    },
-    {
-      "price": 195000,
-      "date": "2026-02-12",
-      "postcode": "CH65 9BX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "35, BIRKETT AVENUE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-02-09",
-      "postcode": "CH66 2PX",
+      "price": 170000,
+      "date": "2026-03-25",
+      "postcode": "CH66 3PR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, BIRCH GROVE"
+      "address": "50, HEYWOOD ROAD"
     },
     {
-      "price": 240000,
-      "date": "2026-02-09",
-      "postcode": "CH66 2XZ",
+      "price": 225000,
+      "date": "2026-03-25",
+      "postcode": "CH66 4YU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, ROXBURGH ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-03-20",
+      "postcode": "CH66 4SL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, MOSSLANDS CLOSE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-03-19",
+      "postcode": "CH66 4NN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, ARMTHORPE DRIVE"
+    },
+    {
+      "price": 186000,
+      "date": "2026-03-18",
+      "postcode": "CH66 2XF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, APPLE TREE GROVE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-03-18",
+      "postcode": "CH66 2XH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, LAMBOURNE CLOSE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-03-13",
+      "postcode": "CH66 2YH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, BAYTREE CLOSE"
+      "address": "11, MELROSE DRIVE"
     },
     {
       "price": 90000,
-      "date": "2026-02-06",
-      "postcode": "CH65 5FJ",
+      "date": "2026-03-13",
+      "postcode": "CH65 8DQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, DUDLEY ROAD"
+    },
+    {
+      "price": 150000,
+      "date": "2026-03-12",
+      "postcode": "CH65 8HT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "67, FESTIVAL ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-10",
+      "postcode": "CH66 1UN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, HIGH POND LANE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-03-09",
+      "postcode": "CH66 1HX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, CLOVERFIELD GARDENS"
+    },
+    {
+      "price": 50300,
+      "date": "2026-03-06",
+      "postcode": "CH65 7BB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "37, ST EDMUNDS HOUSE, ROBINSON ROAD"
+      "address": "107, SUTTON WAY"
     },
     {
-      "price": 640000,
-      "date": "2026-02-03",
-      "postcode": "CH66 4PL",
+      "price": 177500,
+      "date": "2026-03-06",
+      "postcode": "CH65 9AP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, WEST ROAD"
+    },
+    {
+      "price": 325000,
+      "date": "2026-03-06",
+      "postcode": "CH66 7NH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, HIGHFIELD ROAD"
+      "address": "26, ROFTEN WAY"
     },
     {
-      "price": 227000,
-      "date": "2026-02-03",
-      "postcode": "CH65 6ST",
-      "propertyType": "S",
+      "price": 173000,
+      "date": "2026-03-06",
+      "postcode": "CH65 7BG",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, MANSFIELD ROAD"
+      "address": "12, SINGLETON ROAD"
     },
     {
-      "price": 20475,
-      "date": "2026-01-30",
-      "postcode": "CH65 5DX",
-      "propertyType": "S",
+      "price": 225000,
+      "date": "2026-03-05",
+      "postcode": "CH66 2JP",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "27, DENBIGH COURT"
+      "tenure": "F",
+      "address": "19, HORSTONE CRESCENT"
     },
     {
-      "price": 69950,
-      "date": "2026-01-30",
-      "postcode": "CH65 9ED",
+      "price": 150000,
+      "date": "2026-03-05",
+      "postcode": "CH66 1UB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "5, DURHAM COURT"
+      "address": "3, LAMPREY ROAD"
     },
     {
-      "price": 160000,
-      "date": "2026-01-30",
-      "postcode": "CH65 8EB",
+      "price": 105000,
+      "date": "2026-03-05",
+      "postcode": "CH66 7PL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, VALENTINE STREET"
+    },
+    {
+      "price": 338000,
+      "date": "2026-03-05",
+      "postcode": "CH66 4BU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, BRIGHTSMITH ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-04",
+      "postcode": "CH66 5NS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, FLEET STREET"
-    },
-    {
-      "price": 110000,
-      "date": "2026-01-23",
-      "postcode": "CH65 2BD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, GRAFTON ROAD"
-    },
-    {
-      "price": 350000,
-      "date": "2026-01-23",
-      "postcode": "CH66 4AE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, LEAMINGTON ROAD"
-    },
-    {
-      "price": 180000,
-      "date": "2026-01-23",
-      "postcode": "CH65 7DB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, FARADAY ROAD"
-    },
-    {
-      "price": 340000,
-      "date": "2026-01-23",
-      "postcode": "CH66 4AY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, CHANDLER STREET"
-    },
-    {
-      "price": 140000,
-      "date": "2026-01-23",
-      "postcode": "CH65 2EF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, WESTMINSTER ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-01-23",
-      "postcode": "CH66 1LA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, CRAIG GARDENS"
-    },
-    {
-      "price": 257000,
-      "date": "2026-01-23",
-      "postcode": "CH66 1SE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, DEERWOOD CRESCENT"
+      "address": "6, HEATH LANE"
     }
   ]
 }

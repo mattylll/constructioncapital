@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.933Z",
+  "updatedAt": "2026-05-18T19:24:08.476Z",
   "townSlug": "devizes",
   "countySlug": "wiltshire",
   "stats": {
-    "medianPrice": 314500,
+    "medianPrice": 307500,
     "medianByType": {
-      "D": 460000,
-      "S": 307500,
-      "T": 255500,
-      "F": 152000
+      "D": 450000,
+      "S": 310000,
+      "T": 250000,
+      "F": 158000
     },
-    "transactionCount12m": 362,
-    "yoyChange": 8.4,
-    "newBuildCount": 6,
-    "existingCount": 356,
-    "newBuildPremium": 83.1
+    "transactionCount12m": 382,
+    "yoyChange": 4.2,
+    "newBuildCount": 9,
+    "existingCount": 373,
+    "newBuildPremium": 85
   },
   "recentTransactions": [
     {
-      "price": 345000,
-      "date": "2026-02-20",
-      "postcode": "SN10 3ER",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, ELM TREE CLOSE"
-    },
-    {
-      "price": 650000,
-      "date": "2026-02-16",
-      "postcode": "SN10 5SE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "YEW TREE HOUSE, 128, HIGH STREET"
-    },
-    {
-      "price": 1050000,
-      "date": "2026-02-11",
-      "postcode": "SN10 5SW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WILLOWS WARD, THE GREEN"
-    },
-    {
-      "price": 640000,
-      "date": "2026-02-11",
+      "price": 262000,
+      "date": "2026-03-27",
       "postcode": "SN10 4EY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, LAVINGTON LANE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-02-10",
-      "postcode": "SN10 3AB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, THE ISLAND"
+      "address": "6, LAVINGTON LANE"
     },
     {
-      "price": 457500,
-      "date": "2026-02-06",
-      "postcode": "SN10 2GP",
+      "price": 530000,
+      "date": "2026-03-27",
+      "postcode": "SN10 5DR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, GANDY WAY"
+      "address": "WICK LODGE, WICK LANE"
     },
     {
-      "price": 400000,
-      "date": "2026-02-06",
-      "postcode": "SN10 3AX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "100, LONGCROFT ROAD"
-    },
-    {
-      "price": 280000,
-      "date": "2026-02-06",
-      "postcode": "SN10 3AX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "65, LONGCROFT ROAD"
-    },
-    {
-      "price": 245000,
-      "date": "2026-02-06",
-      "postcode": "SN10 5UY",
+      "price": 408000,
+      "date": "2026-03-25",
+      "postcode": "SN10 2FR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "SOUTHFIELD COTTAGE, 84, THE GREEN"
+      "address": "1, CORN CROFT LANE"
     },
     {
-      "price": 363000,
-      "date": "2026-02-06",
-      "postcode": "SN10 2ED",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, ROUNDWAY PARK"
-    },
-    {
-      "price": 470000,
-      "date": "2026-02-05",
-      "postcode": "SN10 3RD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FAIRHAVEN, 37, WOODLAND ROAD"
-    },
-    {
-      "price": 330000,
-      "date": "2026-02-05",
-      "postcode": "SN10 4DD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, STIRLING ROAD"
-    },
-    {
-      "price": 415000,
-      "date": "2026-02-05",
-      "postcode": "SN10 5BE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, ADDINGTON CLOSE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-03",
-      "postcode": "SN10 5FG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, COOKE COURT, THOMAS WYATT ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-01-30",
-      "postcode": "SN10 5AZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, DRAKES AVENUE"
-    },
-    {
-      "price": 282000,
-      "date": "2026-01-30",
-      "postcode": "SN10 3PA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, THE STREET"
-    },
-    {
-      "price": 460000,
-      "date": "2026-01-29",
-      "postcode": "SN10 2GT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, ERGHUM LANE"
-    },
-    {
-      "price": 167500,
-      "date": "2026-01-29",
-      "postcode": "SN10 2GF",
+      "price": 148000,
+      "date": "2026-03-23",
+      "postcode": "SN10 2GG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "21, ANZIO ROAD"
+      "address": "3, THE KEEP, LONDON ROAD"
     },
     {
-      "price": 213945,
-      "date": "2026-01-27",
-      "postcode": "SN10 2FL",
+      "price": 285000,
+      "date": "2026-03-19",
+      "postcode": "SN10 3BZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "158, BRICKLEY LANE"
+    },
+    {
+      "price": 405000,
+      "date": "2026-03-18",
+      "postcode": "SN10 2DH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, COPPERS ROAD"
+      "address": "5, THE MEWS"
     },
     {
-      "price": 218000,
-      "date": "2026-01-26",
-      "postcode": "SN10 2RY",
+      "price": 143000,
+      "date": "2026-03-17",
+      "postcode": "SN10 2SW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "36, BEECHFIELD DRIVE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-03-16",
+      "postcode": "SN10 2HQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, ASH WALK"
+      "address": "55, WHITE HORSE WAY"
+    },
+    {
+      "price": 265000,
+      "date": "2026-03-09",
+      "postcode": "SN10 1FG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12, CROSSMOLINA BUILDINGS, SNUFF STREET"
+    },
+    {
+      "price": 365000,
+      "date": "2026-03-09",
+      "postcode": "SN10 1NJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, LONG STREET COTTAGE, LONG STREET"
+    },
+    {
+      "price": 118000,
+      "date": "2026-03-06",
+      "postcode": "SN10 1BH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 17, CHANTRY COURT, NEW PARK STREET"
+    },
+    {
+      "price": 297500,
+      "date": "2026-03-06",
+      "postcode": "SN10 4DB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, MELROSE CLOSE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-03-06",
+      "postcode": "SN10 5EF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "84, DOWNLANDS ROAD"
+    },
+    {
+      "price": 440000,
+      "date": "2026-03-04",
+      "postcode": "SN10 2EE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, ROUNDWAY PARK"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-04",
+      "postcode": "SN10 3RX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, HOPKINS ROAD"
+    },
+    {
+      "price": 325000,
+      "date": "2026-03-02",
+      "postcode": "SN10 4BZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, SOUTH CLIFFE ROAD"
+    },
+    {
+      "price": 315000,
+      "date": "2026-02-27",
+      "postcode": "SN10 5NS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, HIGHLANDS"
+    },
+    {
+      "price": 600000,
+      "date": "2026-02-26",
+      "postcode": "SN10 3FW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, FUSSELL CLOSE"
+    },
+    {
+      "price": 145000,
+      "date": "2026-02-26",
+      "postcode": "SN10 1LW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, ESTCOURT STREET"
+    },
+    {
+      "price": 280000,
+      "date": "2026-02-23",
+      "postcode": "SN10 5QE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, BLOUNTS COURT"
     }
   ]
 }

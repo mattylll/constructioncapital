@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.902Z",
+  "updatedAt": "2026-05-18T19:24:08.440Z",
   "townSlug": "bournemouth",
   "countySlug": "dorset",
   "stats": {
     "medianPrice": 300000,
     "medianByType": {
-      "D": 460000,
-      "S": 330000,
+      "D": 450000,
+      "S": 332500,
       "T": 285000,
-      "F": 198000
+      "F": 200000
     },
-    "transactionCount12m": 1975,
+    "transactionCount12m": 2127,
     "yoyChange": 0,
     "newBuildCount": 1,
-    "existingCount": 1974,
-    "newBuildPremium": -100
+    "existingCount": 2126,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 177000,
-      "date": "2026-02-25",
-      "postcode": "BH1 4LL",
+      "price": 410000,
+      "date": "2026-03-27",
+      "postcode": "BH9 3EQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, WINSTON ROAD"
+    },
+    {
+      "price": 337000,
+      "date": "2026-03-27",
+      "postcode": "BH10 5BD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, HILL VIEW ROAD"
+    },
+    {
+      "price": 404000,
+      "date": "2026-03-27",
+      "postcode": "BH9 1QY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, RIPON ROAD"
+    },
+    {
+      "price": 168000,
+      "date": "2026-03-25",
+      "postcode": "BH1 1AY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "9, STATUM, 2, WOOTTON MOUNT"
+    },
+    {
+      "price": 630000,
+      "date": "2026-03-24",
+      "postcode": "BH8 9DF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, ST GEORGES AVENUE"
+    },
+    {
+      "price": 590000,
+      "date": "2026-03-23",
+      "postcode": "BH3 7DT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "89, KEITH ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-03-20",
+      "postcode": "BH9 2QL",
       "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "58A, ASHLEY ROAD"
+      "tenure": "F",
+      "address": "11, HAWTHORN ROAD"
     },
     {
-      "price": 159000,
-      "date": "2026-02-24",
-      "postcode": "BH8 9BZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, 14, QUEENS PARK WEST DRIVE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-02-23",
-      "postcode": "BH10 4FG",
+      "price": 325000,
+      "date": "2026-03-20",
+      "postcode": "BH9 3AE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, CORNELIA ROAD"
+      "address": "29, MALVERN ROAD"
     },
     {
-      "price": 615000,
-      "date": "2026-02-20",
-      "postcode": "BH7 7AL",
-      "propertyType": "D",
+      "price": 238000,
+      "date": "2026-03-20",
+      "postcode": "BH11 9TJ",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, THISTLEBARROW ROAD"
+      "address": "70, VISCOUNT WALK"
     },
     {
-      "price": 415000,
-      "date": "2026-02-20",
-      "postcode": "BH7 6LL",
-      "propertyType": "D",
+      "price": 178200,
+      "date": "2026-03-20",
+      "postcode": "BH9 1JU",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "116, WHEATON ROAD"
-    },
-    {
-      "price": 650000,
-      "date": "2026-02-20",
-      "postcode": "BH7 6PB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, SWANMORE ROAD"
-    },
-    {
-      "price": 205000,
-      "date": "2026-02-20",
-      "postcode": "BH3 7HT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 9, TALBOT COURT, 55, TALBOT AVENUE"
-    },
-    {
-      "price": 295000,
-      "date": "2026-02-20",
-      "postcode": "BH2 6DE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 24, BARONSMEDE, 17, BRANKSOME WOOD ROAD"
-    },
-    {
-      "price": 570000,
-      "date": "2026-02-20",
-      "postcode": "BH5 2AR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, STOURFIELD ROAD"
-    },
-    {
-      "price": 391000,
-      "date": "2026-02-20",
-      "postcode": "BH10 5AQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, BARNES ROAD"
+      "address": "9, CRANMER ROAD"
     },
     {
       "price": 340000,
-      "date": "2026-02-20",
-      "postcode": "BH9 3QU",
+      "date": "2026-03-20",
+      "postcode": "BH9 2SA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, VICARAGE ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-03-20",
+      "postcode": "BH11 9DY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, SPETISBURY CLOSE"
+      "address": "51, POOLE LANE"
     },
     {
-      "price": 170000,
-      "date": "2026-02-20",
-      "postcode": "BH1 4SG",
+      "price": 647500,
+      "date": "2026-03-19",
+      "postcode": "BH6 3NP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "11, THE SLEEPERS, 2, NORTHCOTE ROAD"
+      "address": "7, MOONSTONE, 139 - 141, SOUTHBOURNE OVERCLIFF DRIVE"
     },
     {
-      "price": 937500,
-      "date": "2026-02-19",
-      "postcode": "BH8 9LG",
+      "price": 505000,
+      "date": "2026-03-19",
+      "postcode": "BH3 7JZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "40, QUEENS PARK AVENUE"
+      "address": "37, GERALD ROAD"
     },
     {
-      "price": 96000,
-      "date": "2026-02-19",
-      "postcode": "BH2 5EZ",
+      "price": 317500,
+      "date": "2026-03-19",
+      "postcode": "BH10 5NN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, LONG ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-19",
+      "postcode": "BH8 9LH",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 18, AVON HOUSE, 16A, WEST CLIFF ROAD"
+      "address": "FLAT 1, ASPIRE, 39, QUEENS PARK AVENUE"
     },
     {
-      "price": 265000,
-      "date": "2026-02-19",
-      "postcode": "BH8 0PN",
+      "price": 246000,
+      "date": "2026-03-18",
+      "postcode": "BH6 3SL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 10, DE GRESLEY, 2, PINE AVENUE"
+    },
+    {
+      "price": 122000,
+      "date": "2026-03-18",
+      "postcode": "BH8 8AS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, BROADLANDS CLOSE"
+      "address": "148A, HOLDENHURST ROAD"
     },
     {
-      "price": 465000,
-      "date": "2026-02-19",
-      "postcode": "BH7 7JD",
+      "price": 435000,
+      "date": "2026-03-18",
+      "postcode": "BH9 2QU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, LECHLADE GARDENS"
+      "address": "21, NAMU ROAD"
     },
     {
-      "price": 240000,
-      "date": "2026-02-18",
-      "postcode": "BH4 8EN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 9, 35, ALUMHURST ROAD"
-    },
-    {
-      "price": 500000,
-      "date": "2026-02-18",
-      "postcode": "BH6 5PY",
+      "price": 370000,
+      "date": "2026-03-18",
+      "postcode": "BH11 8PF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "32, CLINGAN ROAD"
-    },
-    {
-      "price": 415000,
-      "date": "2026-02-18",
-      "postcode": "BH6 5ER",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "150, CASTLEMAIN AVENUE"
-    },
-    {
-      "price": 625000,
-      "date": "2026-02-18",
-      "postcode": "BH7 7RP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, SOVEREIGN CLOSE"
+      "address": "6, HOLWORTH CLOSE"
     }
   ]
 }

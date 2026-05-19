@@ -1,200 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.379Z",
+  "updatedAt": "2026-05-18T19:24:07.879Z",
   "townSlug": "whitechapel",
   "countySlug": "greater-london",
   "stats": {
-    "medianPrice": 475000,
+    "medianPrice": 473550,
     "medianByType": {
+      "D": 1150000,
       "S": 753000,
-      "T": 845000,
+      "T": 831250,
       "F": 450000
     },
-    "transactionCount12m": 1678,
-    "yoyChange": -5,
-    "newBuildCount": 115,
-    "existingCount": 1563,
-    "newBuildPremium": 62.9
+    "transactionCount12m": 1852,
+    "yoyChange": -7.5,
+    "newBuildCount": 114,
+    "existingCount": 1738,
+    "newBuildPremium": 71.4
   },
   "recentTransactions": [
     {
-      "price": 363800,
-      "date": "2026-02-23",
-      "postcode": "E3 3GX",
+      "price": 695000,
+      "date": "2026-03-30",
+      "postcode": "E1 6LF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 104, KARA COURT, 15, SEVEN SEA GARDENS"
+      "address": "FLAT 2, APEX HOUSE, 17, BACON STREET"
     },
     {
-      "price": 560000,
-      "date": "2026-02-20",
-      "postcode": "E14 0GP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, ABBOTT ROAD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-02-20",
-      "postcode": "E14 6UG",
+      "price": 335000,
+      "date": "2026-03-27",
+      "postcode": "E14 9PX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 502, HARROLD COURT, 17, GUTHRIDGE CLOSE"
+      "address": "FLAT 738, NEW PROVIDENCE WHARF, 1, FAIRMONT AVENUE"
     },
     {
-      "price": 425000,
-      "date": "2026-02-20",
-      "postcode": "E2 6DX",
+      "price": 555000,
+      "date": "2026-03-24",
+      "postcode": "E2 7LD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "49, FULLER CLOSE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-02-20",
-      "postcode": "E14 9HP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1902, 3, PAN PENINSULA SQUARE"
-    },
-    {
-      "price": 375000,
-      "date": "2026-02-20",
-      "postcode": "E1W 2RP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, WELSH HOUSE, WAPPING LANE"
-    },
-    {
-      "price": 455000,
-      "date": "2026-02-19",
-      "postcode": "E2 0SG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 11, CAESAR COURT, PALMERS ROAD"
-    },
-    {
-      "price": 838000,
-      "date": "2026-02-16",
-      "postcode": "E3 5DR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, MEDWAY BUILDINGS, MEDWAY ROAD"
-    },
-    {
-      "price": 630000,
-      "date": "2026-02-16",
-      "postcode": "E1W 1UF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, PRESIDENTS QUAY HOUSE, 72, ST KATHARINES WAY"
-    },
-    {
-      "price": 648500,
-      "date": "2026-02-16",
-      "postcode": "E14 3BG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, MANCHESTER GROVE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-02-13",
-      "postcode": "E2 6ND",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 20, SOUTHWOOD SMITH HOUSE, FLORIDA STREET"
-    },
-    {
-      "price": 660000,
-      "date": "2026-02-13",
-      "postcode": "E3 2ER",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, ANNIE BESANT CLOSE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-02-13",
-      "postcode": "E2 9JE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 12, SANKEY HOUSE, ST JAMES'S AVENUE"
-    },
-    {
-      "price": 840000,
-      "date": "2026-02-12",
-      "postcode": "E2 0SZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 20, 20, PALMERS ROAD"
+      "address": "FLAT 7, TAPLOW HOUSE, PALISSY STREET"
     },
     {
       "price": 385000,
-      "date": "2026-02-12",
-      "postcode": "E3 3FQ",
+      "date": "2026-03-24",
+      "postcode": "E1 3HB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 57, MALLARD POINT, 6, RAINHILL WAY"
+      "address": "98, CLARK STREET"
     },
     {
-      "price": 450000,
-      "date": "2026-02-11",
-      "postcode": "E2 9BD",
+      "price": 680000,
+      "date": "2026-03-23",
+      "postcode": "E14 9XZ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 27, REGENTS WHARF, WHARF PLACE"
+      "address": "APARTMENT 4905, 10, MARSH WALL"
+    },
+    {
+      "price": 435000,
+      "date": "2026-03-23",
+      "postcode": "E14 0SU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 509, ASTELL HOUSE, 35, LYELL STREET"
+    },
+    {
+      "price": 360000,
+      "date": "2026-03-20",
+      "postcode": "E3 3GY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 501, AEGEAN COURT, 20, SEVEN SEA GARDENS"
+    },
+    {
+      "price": 773000,
+      "date": "2026-03-20",
+      "postcode": "E1 5LP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, ROCOCCO HOUSE, 65, PRINCELET STREET"
+    },
+    {
+      "price": 490000,
+      "date": "2026-03-20",
+      "postcode": "E3 3UE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 304, STAITH COURT, 8, NICHOLSON SQUARE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-03-20",
+      "postcode": "E3 3NU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 404, HUDSON HOUSE, 4, YEO STREET"
+    },
+    {
+      "price": 327500,
+      "date": "2026-03-20",
+      "postcode": "E3 2UT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 312 PARK EAST BUILDING, BOW QUARTER, 60, FAIRFIELD ROAD"
+    },
+    {
+      "price": 590000,
+      "date": "2026-03-20",
+      "postcode": "E3 3HL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, BRUCE ROAD"
     },
     {
       "price": 575000,
-      "date": "2026-02-10",
-      "postcode": "E14 3PP",
+      "date": "2026-03-20",
+      "postcode": "E1 6RL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1004, LOTUS HOUSE, 35, OVEX CLOSE"
+      "address": "FLAT 1, 110, BRICK LANE"
     },
     {
-      "price": 450000,
-      "date": "2026-02-10",
-      "postcode": "E3 2US",
+      "price": 385000,
+      "date": "2026-03-20",
+      "postcode": "E14 8HY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 12 PARK CENTRAL BUILDING, BOW QUARTER, 60, FAIRFIELD ROAD"
+      "address": "21, KEMPS DRIVE"
     },
     {
-      "price": 355000,
-      "date": "2026-02-09",
-      "postcode": "E14 3WF",
+      "price": 875000,
+      "date": "2026-03-19",
+      "postcode": "E1 7BB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "286, ST DAVIDS SQUARE"
+      "address": "FLAT 7, GATSBY APARTMENTS, 68, WENTWORTH STREET"
     },
     {
-      "price": 410000,
-      "date": "2026-02-06",
-      "postcode": "E14 6GJ",
+      "price": 1150000,
+      "date": "2026-03-19",
+      "postcode": "E14 8AX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 509, QUEENSBURY HOUSE, 17, EQUINOX SQUARE"
+      "address": "FLAT 67, DUNDEE WHARF, 100, THREE COLT STREET"
+    },
+    {
+      "price": 352500,
+      "date": "2026-03-19",
+      "postcode": "E14 3WD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "117, ST DAVIDS SQUARE"
+    },
+    {
+      "price": 352500,
+      "date": "2026-03-17",
+      "postcode": "E14 7JZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 196, BERGLEN COURT, 7, BRANCH ROAD"
+    },
+    {
+      "price": 500000,
+      "date": "2026-03-17",
+      "postcode": "E1 1ER",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 208, CORNELL BUILDING, 1, COKE STREET"
+    },
+    {
+      "price": 476000,
+      "date": "2026-03-17",
+      "postcode": "E3 2XT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 103, GASLIGHT COURT, 37, ROOKWOOD WAY"
     }
   ]
 }

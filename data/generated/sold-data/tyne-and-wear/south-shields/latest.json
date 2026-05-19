@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.682Z",
+  "updatedAt": "2026-05-18T19:24:09.091Z",
   "townSlug": "south-shields",
   "countySlug": "tyne-and-wear",
   "stats": {
     "medianPrice": 150000,
     "medianByType": {
-      "D": 311250,
+      "D": 310000,
       "S": 185000,
-      "T": 135000,
-      "F": 82000
+      "T": 136000,
+      "F": 82750
     },
-    "transactionCount12m": 1384,
-    "yoyChange": 1.7,
-    "newBuildCount": 14,
-    "existingCount": 1370,
-    "newBuildPremium": 60.7
+    "transactionCount12m": 1436,
+    "yoyChange": 0,
+    "newBuildCount": 12,
+    "existingCount": 1424,
+    "newBuildPremium": 63.5
   },
   "recentTransactions": [
     {
-      "price": 80000,
-      "date": "2026-02-25",
-      "postcode": "NE34 0BQ",
-      "propertyType": "S",
+      "price": 98000,
+      "date": "2026-03-27",
+      "postcode": "NE33 3AX",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "F",
-      "address": "63, RED BERRY WAY"
+      "address": "86A, MOWBRAY ROAD"
     },
     {
-      "price": 72500,
-      "date": "2026-02-23",
-      "postcode": "NE34 0BN",
+      "price": 70000,
+      "date": "2026-03-24",
+      "postcode": "NE33 2AB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1, ARBEIA HOUSE, GREENS PLACE"
+    },
+    {
+      "price": 85000,
+      "date": "2026-03-23",
+      "postcode": "NE33 2RG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, FOSS WAY"
-    },
-    {
-      "price": 245000,
-      "date": "2026-02-23",
-      "postcode": "NE36 0QN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, EAST VIEW, THE FOLLY"
-    },
-    {
-      "price": 115000,
-      "date": "2026-02-20",
-      "postcode": "NE34 9DX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, TASMANIA ROAD"
-    },
-    {
-      "price": 132000,
-      "date": "2026-02-20",
-      "postcode": "NE33 1TT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, FAWCETT WAY"
-    },
-    {
-      "price": 124995,
-      "date": "2026-02-20",
-      "postcode": "NE34 7JB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, CUMBERLAND PLACE"
+      "address": "36, BLENHEIM WALK"
     },
     {
       "price": 230000,
-      "date": "2026-02-20",
-      "postcode": "NE33 3JX",
+      "date": "2026-03-23",
+      "postcode": "NE31 1LS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "96, VICTORIA ROAD WEST"
+    },
+    {
+      "price": 135000,
+      "date": "2026-03-23",
+      "postcode": "NE34 9BB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "60, WHARTON STREET"
+      "address": "75, WENLOCK ROAD"
+    },
+    {
+      "price": 91000,
+      "date": "2026-03-20",
+      "postcode": "NE33 5LX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GREATHEAD STREET"
+    },
+    {
+      "price": 189500,
+      "date": "2026-03-20",
+      "postcode": "NE32 5DU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, LANGLEY TERRACE"
+    },
+    {
+      "price": 82000,
+      "date": "2026-03-20",
+      "postcode": "NE32 5JS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, NORTHBOURNE ROAD"
+    },
+    {
+      "price": 135500,
+      "date": "2026-03-20",
+      "postcode": "NE33 3NX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "34, NORTH MAIN COURT"
     },
     {
       "price": 290000,
-      "date": "2026-02-20",
-      "postcode": "SR6 7QU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, GARDEN LANE"
-    },
-    {
-      "price": 58750,
-      "date": "2026-02-20",
-      "postcode": "NE34 0JZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "26, BRABOURNE STREET"
-    },
-    {
-      "price": 179000,
-      "date": "2026-02-17",
-      "postcode": "NE31 2BF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, HOLMES DRIVE"
-    },
-    {
-      "price": 255000,
-      "date": "2026-02-16",
-      "postcode": "NE33 3DQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, OSBORNE AVENUE"
-    },
-    {
-      "price": 103000,
-      "date": "2026-02-16",
-      "postcode": "NE31 1BG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, THE RIVERSIDE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-02-16",
-      "postcode": "NE35 9LF",
+      "date": "2026-03-20",
+      "postcode": "NE31 1FE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, THORNBURY CLOSE"
+      "address": "33, LANDFALL DRIVE"
     },
     {
-      "price": 125000,
-      "date": "2026-02-13",
-      "postcode": "NE33 3DL",
-      "propertyType": "T",
+      "price": 106000,
+      "date": "2026-03-20",
+      "postcode": "NE33 4UF",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "12, THE POTTERIES"
+      "tenure": "L",
+      "address": "29, ASTON STREET"
     },
     {
-      "price": 140000,
-      "date": "2026-02-13",
-      "postcode": "NE35 9AR",
-      "propertyType": "T",
+      "price": 162500,
+      "date": "2026-03-20",
+      "postcode": "NE34 6JR",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "F",
-      "address": "16, NORTH ROAD"
+      "tenure": "L",
+      "address": "20, WELLS GROVE"
     },
     {
-      "price": 83000,
-      "date": "2026-02-13",
-      "postcode": "NE33 3BY",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "131, OSBORNE AVENUE"
-    },
-    {
-      "price": 87000,
-      "date": "2026-02-13",
-      "postcode": "NE32 5SR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "129, WANSBECK ROAD"
-    },
-    {
-      "price": 261000,
-      "date": "2026-02-13",
-      "postcode": "NE35 9BP",
+      "price": 193000,
+      "date": "2026-03-20",
+      "postcode": "NE31 1BF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, WOODSIDE DRIVE"
+      "address": "46, CHAFFINCH DRIVE"
+    },
+    {
+      "price": 93000,
+      "date": "2026-03-20",
+      "postcode": "NE31 2UQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "37, WELLINGTON STREET"
+    },
+    {
+      "price": 233000,
+      "date": "2026-03-20",
+      "postcode": "SR6 7SY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, WINDSOR DRIVE"
+    },
+    {
+      "price": 212000,
+      "date": "2026-03-20",
+      "postcode": "NE31 2QF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, DAHLIA WAY"
     },
     {
       "price": 120000,
-      "date": "2026-02-13",
-      "postcode": "NE33 2HT",
-      "propertyType": "O",
+      "date": "2026-03-20",
+      "postcode": "NE34 9BP",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "F",
-      "address": "13, OCEAN ROAD"
+      "tenure": "L",
+      "address": "187, WENLOCK ROAD"
     },
     {
-      "price": 185000,
-      "date": "2026-02-12",
-      "postcode": "NE33 2EL",
+      "price": 53000,
+      "date": "2026-03-19",
+      "postcode": "NE33 4AY",
       "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "57, VESPASIAN AVENUE"
+      "address": "75, DEAN ROAD"
+    },
+    {
+      "price": 168000,
+      "date": "2026-03-19",
+      "postcode": "NE36 0EH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, BECKENHAM AVENUE"
+    },
+    {
+      "price": 71000,
+      "date": "2026-03-17",
+      "postcode": "NE33 2RR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, BROUGHTON ROAD"
     }
   ]
 }

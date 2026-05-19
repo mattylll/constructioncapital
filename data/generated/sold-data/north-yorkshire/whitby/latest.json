@@ -1,22 +1,148 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.657Z",
+  "updatedAt": "2026-05-18T19:24:09.065Z",
   "townSlug": "whitby",
   "countySlug": "north-yorkshire",
   "stats": {
     "medianPrice": 260000,
     "medianByType": {
-      "D": 372500,
-      "S": 247500,
-      "T": 210000,
-      "F": 157500
+      "D": 366250,
+      "S": 248750,
+      "T": 212750,
+      "F": 165000
     },
-    "transactionCount12m": 249,
+    "transactionCount12m": 269,
     "yoyChange": -3.7,
     "newBuildCount": 12,
-    "existingCount": 237,
-    "newBuildPremium": -6.2
+    "existingCount": 257,
+    "newBuildPremium": 17.5
   },
   "recentTransactions": [
+    {
+      "price": 232500,
+      "date": "2026-03-24",
+      "postcode": "YO22 5DN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, INGHAM CLOSE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-03-17",
+      "postcode": "YO22 5EY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "NESTLING HEIGHTS"
+    },
+    {
+      "price": 120000,
+      "date": "2026-03-16",
+      "postcode": "YO21 1DL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, LOGGERHEAD YARD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-16",
+      "postcode": "YO22 4DY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, KINGFISHER DRIVE"
+    },
+    {
+      "price": 299950,
+      "date": "2026-03-10",
+      "postcode": "YO22 4EW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, ABRAHAMS QUAY"
+    },
+    {
+      "price": 325000,
+      "date": "2026-03-06",
+      "postcode": "YO21 1TU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, ARNCLIFFE VIEW"
+    },
+    {
+      "price": 263000,
+      "date": "2026-03-04",
+      "postcode": "YO21 3LW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, HIGHFIELD ROAD"
+    },
+    {
+      "price": 410000,
+      "date": "2026-03-04",
+      "postcode": "YO21 3LQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, LOVE LANE"
+    },
+    {
+      "price": 165000,
+      "date": "2026-02-25",
+      "postcode": "YO22 4BJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, BOROUGH PLACE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-02-25",
+      "postcode": "YO21 3JW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "117A, UPGANG LANE"
+    },
+    {
+      "price": 330000,
+      "date": "2026-02-25",
+      "postcode": "YO21 3NR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, SEA VIEW CLOSE"
+    },
+    {
+      "price": 295000,
+      "date": "2026-02-19",
+      "postcode": "YO22 4NX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, MULGRAVE VIEW"
+    },
+    {
+      "price": 219500,
+      "date": "2026-02-13",
+      "postcode": "YO21 1EH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, FALCON TERRACE"
+    },
+    {
+      "price": 455000,
+      "date": "2026-02-13",
+      "postcode": "YO21 1QQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, HANOVER TERRACE"
+    },
     {
       "price": 155000,
       "date": "2026-02-12",
@@ -25,6 +151,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "FLAT 3, 4, HAVELOCK PLACE"
+    },
+    {
+      "price": 113000,
+      "date": "2026-02-11",
+      "postcode": "YO21 3BZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, CLARKSON STREET"
     },
     {
       "price": 220000,
@@ -36,13 +171,22 @@
       "address": "22, MEADOWFIELDS"
     },
     {
-      "price": 211919,
-      "date": "2026-02-06",
-      "postcode": "YO21 1RB",
-      "propertyType": "O",
+      "price": 230000,
+      "date": "2026-02-09",
+      "postcode": "YO21 3LJ",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "4 BRUNSWICK MEWS, BRUNSWICK STREET"
+      "address": "2, LOVE LANE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-02-06",
+      "postcode": "YO21 1RB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5A, BRUNSWICK STREET"
     },
     {
       "price": 273000,
@@ -52,150 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "92, UPGANG LANE"
-    },
-    {
-      "price": 160000,
-      "date": "2026-01-30",
-      "postcode": "YO21 3HH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, 10, ESPLANADE"
-    },
-    {
-      "price": 585000,
-      "date": "2026-01-30",
-      "postcode": "YO22 5DS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, THE CLIFF"
-    },
-    {
-      "price": 276000,
-      "date": "2026-01-30",
-      "postcode": "YO22 5JZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, WATER ARK COTTAGES"
-    },
-    {
-      "price": 157000,
-      "date": "2026-01-26",
-      "postcode": "YO22 4HY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "123, ST PETERS ROAD"
-    },
-    {
-      "price": 314000,
-      "date": "2026-01-26",
-      "postcode": "YO21 3HS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1A, ARGYLE ROAD"
-    },
-    {
-      "price": 158000,
-      "date": "2026-01-23",
-      "postcode": "YO21 1YH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "27, SUTCLIFFE COURT"
-    },
-    {
-      "price": 148000,
-      "date": "2026-01-23",
-      "postcode": "YO21 3JY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 43, FAIRWAYS COURT, UPGANG LANE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-01-23",
-      "postcode": "YO21 3JY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 9, FAIRWAYS COURT, UPGANG LANE"
-    },
-    {
-      "price": 199999,
-      "date": "2026-01-22",
-      "postcode": "YO21 3UF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, CONVENT WAY"
-    },
-    {
-      "price": 270000,
-      "date": "2026-01-20",
-      "postcode": "YO22 4FH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, RICHARDSON COURT, WHITEHALL LANDING"
-    },
-    {
-      "price": 150000,
-      "date": "2026-01-19",
-      "postcode": "YO22 4ED",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, ABBOTS WALK"
-    },
-    {
-      "price": 348000,
-      "date": "2026-01-16",
-      "postcode": "YO21 3FL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, CLAREMONT DRIVE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-01-16",
-      "postcode": "YO21 1JT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, ROSEDALE CLOSE"
-    },
-    {
-      "price": 188000,
-      "date": "2026-01-13",
-      "postcode": "YO22 5DW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, INGHAM CLOSE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-01-12",
-      "postcode": "YO21 1HR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, MANOR CLOSE"
-    },
-    {
-      "price": 375000,
-      "date": "2026-01-09",
-      "postcode": "YO21 1LH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, ST ANDREWS ROAD"
     }
   ]
 }

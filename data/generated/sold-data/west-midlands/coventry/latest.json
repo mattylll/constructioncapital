@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.991Z",
+  "updatedAt": "2026-05-18T19:24:08.532Z",
   "townSlug": "coventry",
   "countySlug": "west-midlands",
   "stats": {
     "medianPrice": 220000,
     "medianByType": {
       "D": 385000,
-      "S": 265000,
-      "T": 210000,
+      "S": 263000,
+      "T": 208000,
       "F": 125000
     },
-    "transactionCount12m": 2714,
-    "yoyChange": 0.7,
-    "newBuildCount": 43,
-    "existingCount": 2671,
-    "newBuildPremium": 47.7
+    "transactionCount12m": 2944,
+    "yoyChange": 0,
+    "newBuildCount": 46,
+    "existingCount": 2898,
+    "newBuildPremium": 44.1
   },
   "recentTransactions": [
     {
-      "price": 188500,
-      "date": "2026-02-27",
-      "postcode": "CV3 2LA",
-      "propertyType": "T",
+      "price": 335000,
+      "date": "2026-03-26",
+      "postcode": "CV3 6JS",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, SOMERLY CLOSE"
+      "address": "121, ERITHWAY ROAD"
     },
     {
-      "price": 210000,
-      "date": "2026-02-26",
-      "postcode": "CV2 5FN",
-      "propertyType": "T",
+      "price": 278000,
+      "date": "2026-03-24",
+      "postcode": "CV2 2LS",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "201, HIPSWELL HIGHWAY"
+      "address": "5, RADNOR WALK"
     },
     {
-      "price": 163000,
-      "date": "2026-02-24",
-      "postcode": "CV4 9WU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "68, DENNIS DAVISON PLACE"
-    },
-    {
-      "price": 80000,
-      "date": "2026-02-24",
-      "postcode": "CV6 5GQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "155, CROSS ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2026-02-20",
-      "postcode": "CV6 6FF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, KING GEORGES AVENUE"
-    },
-    {
-      "price": 422500,
-      "date": "2026-02-20",
-      "postcode": "",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "UNITS 2, 3, 4, 16, 17 AND 18, ENSIGN BUSINESS CENTRE, WESTWOOD WAY"
-    },
-    {
-      "price": 232000,
-      "date": "2026-02-20",
-      "postcode": "CV6 1EZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, SOUTHBANK ROAD"
-    },
-    {
-      "price": 228000,
-      "date": "2026-02-20",
-      "postcode": "CV6 4FH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "89, ROTHERHAM ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-02-20",
-      "postcode": "CV5 8BZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, DUKE STREET"
-    },
-    {
-      "price": 625000,
-      "date": "2026-02-19",
-      "postcode": "CV5 6FW",
+      "price": 365000,
+      "date": "2026-03-23",
+      "postcode": "CV3 1NB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "202, BEECHWOOD AVENUE"
+      "address": "39, AMELIA CRESCENT"
     },
     {
-      "price": 232000,
-      "date": "2026-02-19",
-      "postcode": "CV2 5AH",
+      "price": 250000,
+      "date": "2026-03-20",
+      "postcode": "CV4 9DF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "82, TILE HILL LANE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-03-20",
+      "postcode": "CV4 9HR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, ATTOXHALL ROAD"
+      "address": "33, STATION AVENUE"
     },
     {
-      "price": 310000,
-      "date": "2026-02-19",
-      "postcode": "CV3 2XA",
+      "price": 89000,
+      "date": "2026-03-20",
+      "postcode": "CV3 6AS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "27, BRENTWOOD GARDENS"
+    },
+    {
+      "price": 210000,
+      "date": "2026-03-20",
+      "postcode": "CV2 2FD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "66, MILNER CRESCENT"
+    },
+    {
+      "price": 155150,
+      "date": "2026-03-20",
+      "postcode": "CV5 9LW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, BLETCHLEY DRIVE"
+    },
+    {
+      "price": 186000,
+      "date": "2026-03-20",
+      "postcode": "CV6 1JT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, SKIPWORTH ROAD"
+      "address": "22, BANKS ROAD"
     },
     {
-      "price": 239000,
-      "date": "2026-02-18",
-      "postcode": "CV3 3HU",
+      "price": 121000,
+      "date": "2026-03-20",
+      "postcode": "CV5 9NQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "79, VICTORIA COURT"
+    },
+    {
+      "price": 280500,
+      "date": "2026-03-20",
+      "postcode": "CV5 9JY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, TORBAY ROAD"
+    },
+    {
+      "price": 247500,
+      "date": "2026-03-19",
+      "postcode": "CV3 6NY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, WILLOW WAY"
+      "address": "167, BEANFIELD AVENUE"
+    },
+    {
+      "price": 244000,
+      "date": "2026-03-19",
+      "postcode": "CV3 6DY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, GRETNA ROAD"
     },
     {
       "price": 290000,
-      "date": "2026-02-18",
-      "postcode": "CV1 2NJ",
+      "date": "2026-03-19",
+      "postcode": "CV1 4NP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, SPINDLE STREET"
+    },
+    {
+      "price": 240000,
+      "date": "2026-03-19",
+      "postcode": "CV2 2GN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, QUINTON ROAD"
+      "address": "39, RINGWOOD HIGHWAY"
     },
     {
-      "price": 200000,
-      "date": "2026-02-18",
-      "postcode": "CV3 2JW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, DEERDALE TERRACE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-02-16",
-      "postcode": "CV6 1DR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, CEDARS AVENUE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-02-16",
-      "postcode": "CV6 6PL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, HANSON WAY"
-    },
-    {
-      "price": 38950,
-      "date": "2026-02-16",
-      "postcode": "CV6 5JZ",
+      "price": 130000,
+      "date": "2026-03-18",
+      "postcode": "CV5 7HY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "36, CULWORTH COURT"
+      "address": "14, CLAREMONT COURT, ESSEX CLOSE"
     },
     {
-      "price": 307000,
-      "date": "2026-02-16",
-      "postcode": "CV5 6NX",
+      "price": 190000,
+      "date": "2026-03-17",
+      "postcode": "CV5 9HY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, THE LEE"
+    },
+    {
+      "price": 60000,
+      "date": "2026-03-17",
+      "postcode": "CV5 9FW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, CAMERON CLOSE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-03-16",
+      "postcode": "CV4 9FT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, LARCH TREE AVENUE"
+    },
+    {
+      "price": 55000,
+      "date": "2026-03-16",
+      "postcode": "CV2 4NJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "66, BERKELEY ROAD NORTH"
-    },
-    {
-      "price": 162500,
-      "date": "2026-02-13",
-      "postcode": "CV4 9WU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "56, DENNIS DAVISON PLACE"
+      "address": "81, STRATFORD STREET"
     }
   ]
 }

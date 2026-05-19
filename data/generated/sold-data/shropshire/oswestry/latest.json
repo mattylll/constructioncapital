@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.080Z",
+  "updatedAt": "2026-05-18T19:24:08.629Z",
   "townSlug": "oswestry",
   "countySlug": "shropshire",
   "stats": {
-    "medianPrice": 229000,
+    "medianPrice": 229998,
     "medianByType": {
-      "D": 340000,
+      "D": 338750,
       "S": 200000,
-      "T": 172000,
-      "F": 100000
+      "T": 175000,
+      "F": 118725
     },
-    "transactionCount12m": 405,
-    "yoyChange": -6.5,
-    "newBuildCount": 15,
-    "existingCount": 390,
-    "newBuildPremium": 0.8
+    "transactionCount12m": 426,
+    "yoyChange": -6.1,
+    "newBuildCount": 26,
+    "existingCount": 400,
+    "newBuildPremium": 2.8
   },
   "recentTransactions": [
     {
-      "price": 125000,
-      "date": "2026-02-20",
-      "postcode": "SY11 2NJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, VICARAGE COURT"
-    },
-    {
-      "price": 144000,
-      "date": "2026-02-20",
-      "postcode": "SY11 1NJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "70, ALBERT ROAD"
-    },
-    {
-      "price": 265000,
-      "date": "2026-02-18",
-      "postcode": "SY11 4PY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, DONNETT MEWS"
-    },
-    {
-      "price": 185000,
-      "date": "2026-02-18",
-      "postcode": "SY11 2XH",
+      "price": 245000,
+      "date": "2026-03-27",
+      "postcode": "SY11 3AR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "77, BALMORAL CRESCENT"
+      "address": "CANDLEFORD, OVERTON ROAD"
     },
     {
-      "price": 140000,
-      "date": "2026-02-16",
-      "postcode": "SY11 3JH",
+      "price": 238000,
+      "date": "2026-03-16",
+      "postcode": "SY11 3LP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, NEW ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-02-13",
-      "postcode": "SY11 2RE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, ASCOT ROAD"
-    },
-    {
-      "price": 202500,
-      "date": "2026-02-13",
-      "postcode": "SY11 4AP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, ST BARBARAS PLACE"
-    },
-    {
-      "price": 207500,
-      "date": "2026-02-06",
-      "postcode": "SY11 2BL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SOUTH VIEW, EDWARD STREET"
-    },
-    {
-      "price": 290000,
-      "date": "2026-02-06",
-      "postcode": "SY10 8HZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HOLLY COTTAGE"
-    },
-    {
-      "price": 187750,
-      "date": "2026-02-05",
-      "postcode": "SY11 2DJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, MALORY ROAD"
-    },
-    {
-      "price": 232800,
-      "date": "2026-02-05",
-      "postcode": "SY11 2UD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "166, UNICORN ROAD"
-    },
-    {
-      "price": 635000,
-      "date": "2026-02-04",
-      "postcode": "SY10 8EA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HOLLYTREE COTTAGE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-02-02",
-      "postcode": "SY10 7TR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, PLOUGH BANK"
-    },
-    {
-      "price": 210000,
-      "date": "2026-01-30",
-      "postcode": "SY11 4AL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, ARTILLERY ROAD"
-    },
-    {
-      "price": 90000,
-      "date": "2026-01-30",
-      "postcode": "SY11 4RD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, APPLEWOOD CLOSE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-01-29",
-      "postcode": "SY11 4LX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, ORCHARD DRIVE"
-    },
-    {
-      "price": 372500,
-      "date": "2026-01-28",
-      "postcode": "SY11 1TB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, HIGH FAWR AVENUE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-01-27",
-      "postcode": "SY10 9BU",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BROOKSIDE COTTAGE"
-    },
-    {
-      "price": 110000,
-      "date": "2026-01-26",
-      "postcode": "SY11 1JY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, CASTLE STREET"
+      "address": "1, ASH VILLAS"
     },
     {
       "price": 175000,
-      "date": "2026-01-23",
-      "postcode": "SY11 2XN",
+      "date": "2026-03-16",
+      "postcode": "SY11 2YA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, ST JAMES CLOSE"
+      "address": "3, SUMMERFIELD CLOSE"
+    },
+    {
+      "price": 119950,
+      "date": "2026-03-13",
+      "postcode": "SY11 2BU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "17, REGENT COURT, ROFT STREET"
+    },
+    {
+      "price": 190000,
+      "date": "2026-03-13",
+      "postcode": "SY11 1SE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GERWYN, LOWER MINSTER"
+    },
+    {
+      "price": 287500,
+      "date": "2026-03-13",
+      "postcode": "SY11 3HZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, CHURCHFIELDS"
+    },
+    {
+      "price": 130000,
+      "date": "2026-03-12",
+      "postcode": "SY10 7BG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, MOORS BANK"
+    },
+    {
+      "price": 178000,
+      "date": "2026-03-10",
+      "postcode": "SY11 1RP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, HOLBACHE ROAD"
+    },
+    {
+      "price": 102500,
+      "date": "2026-03-10",
+      "postcode": "SY11 2AE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, UPPER CHURCH STREET"
+    },
+    {
+      "price": 185000,
+      "date": "2026-03-10",
+      "postcode": "SY11 2JS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, POWIS AVENUE"
+    },
+    {
+      "price": 510000,
+      "date": "2026-03-09",
+      "postcode": "SY10 8DP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WELLFIELD"
+    },
+    {
+      "price": 130000,
+      "date": "2026-03-06",
+      "postcode": "SY10 7RS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ROSEVILLE, STATION ROAD"
+    },
+    {
+      "price": 772000,
+      "date": "2026-03-06",
+      "postcode": "SY11 3DT",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ROCK FARM"
+    },
+    {
+      "price": 230000,
+      "date": "2026-03-04",
+      "postcode": "SY10 9PU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, MILARS FIELD"
+    },
+    {
+      "price": 183000,
+      "date": "2026-03-03",
+      "postcode": "SY11 2UZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, LLYS CLOSE"
+    },
+    {
+      "price": 379500,
+      "date": "2026-02-27",
+      "postcode": "SY11 3HQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TAKORADI, MOUNT BRADFORD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-02-27",
+      "postcode": "SY11 2SL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, BERESFORD GARDENS"
+    },
+    {
+      "price": 312500,
+      "date": "2026-02-27",
+      "postcode": "SY10 7FA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, GARSIDE CLOSE"
+    },
+    {
+      "price": 128200,
+      "date": "2026-02-26",
+      "postcode": "SY11 1NT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, VYRNWY ROAD"
+    },
+    {
+      "price": 123950,
+      "date": "2026-02-26",
+      "postcode": "SY11 2TR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 8, OSWALDS COURT, JEMMETT CLOSE"
     }
   ]
 }

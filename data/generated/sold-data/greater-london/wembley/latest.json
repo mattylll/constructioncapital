@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.266Z",
+  "updatedAt": "2026-05-18T19:24:07.754Z",
   "townSlug": "wembley",
   "countySlug": "greater-london",
   "stats": {
-    "medianPrice": 523000,
+    "medianPrice": 525000,
     "medianByType": {
-      "D": 972500,
-      "S": 680000,
+      "D": 950000,
+      "S": 660000,
       "T": 630000,
-      "F": 407500
+      "F": 401000
     },
-    "transactionCount12m": 1491,
-    "yoyChange": -1.3,
-    "newBuildCount": 165,
-    "existingCount": 1326,
-    "newBuildPremium": 10.7
+    "transactionCount12m": 1605,
+    "yoyChange": -0.9,
+    "newBuildCount": 147,
+    "existingCount": 1458,
+    "newBuildPremium": 10.3
   },
   "recentTransactions": [
     {
-      "price": 275500,
-      "date": "2026-02-27",
-      "postcode": "NW9 0NE",
+      "price": 520000,
+      "date": "2026-03-27",
+      "postcode": "W10 4AX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "26, HILLSIDE"
+      "address": "175, KILBURN LANE"
     },
     {
-      "price": 430000,
-      "date": "2026-02-20",
-      "postcode": "NW10 7FS",
+      "price": 750000,
+      "date": "2026-03-27",
+      "postcode": "NW6 7RJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 73, FALCONDALE COURT, LAKESIDE DRIVE"
+      "address": "GROUND FLOOR FLAT, 42, KINGSLEY ROAD"
     },
     {
-      "price": 340000,
-      "date": "2026-02-19",
-      "postcode": "HA1 3SH",
+      "price": 315000,
+      "date": "2026-03-23",
+      "postcode": "NW2 5EJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "64, SUDBURY COURT ROAD"
+      "address": "91A, SANDRINGHAM ROAD"
     },
     {
-      "price": 325000,
-      "date": "2026-02-17",
+      "price": 215000,
+      "date": "2026-03-23",
+      "postcode": "HA0 4GF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 15, HOLINGER COURT, ATLIP ROAD"
+    },
+    {
+      "price": 410000,
+      "date": "2026-03-20",
+      "postcode": "NW10 3ND",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "THE FIRST FLOOR FLAT AT, 77, CHAMBERLAYNE ROAD"
+    },
+    {
+      "price": 750000,
+      "date": "2026-03-20",
+      "postcode": "HA0 4UR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "203, CHAPLIN ROAD"
+    },
+    {
+      "price": 640000,
+      "date": "2026-03-20",
+      "postcode": "NW2 7RT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "90, TANFIELD AVENUE"
+    },
+    {
+      "price": 555023,
+      "date": "2026-03-20",
+      "postcode": "NW10 5EL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "53B, COLLEGE ROAD"
+    },
+    {
+      "price": 1250000,
+      "date": "2026-03-19",
+      "postcode": "NW10 1LU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, ABERDEEN ROAD"
+    },
+    {
+      "price": 590000,
+      "date": "2026-03-18",
+      "postcode": "HA9 6RF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, VIVIAN GARDENS"
+    },
+    {
+      "price": 850000,
+      "date": "2026-03-17",
+      "postcode": "HA9 9RP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "69, WEST HILL"
+    },
+    {
+      "price": 600000,
+      "date": "2026-03-16",
+      "postcode": "HA0 4HL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, BELMONT AVENUE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-03-16",
+      "postcode": "NW2 4SA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "42C, ST GABRIELS ROAD"
+    },
+    {
+      "price": 1500000,
+      "date": "2026-03-13",
+      "postcode": "",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "STAPLES CORNER SERVICE STATION, NORTH CIRCULAR ROAD"
+    },
+    {
+      "price": 667000,
+      "date": "2026-03-13",
+      "postcode": "NW2 7SS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "61, RANDALL AVENUE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-03-13",
+      "postcode": "NW10 3SG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ROBSON AVENUE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-03-11",
+      "postcode": "NW9 8TB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10A, OLD ST. ANDREWS MANSIONS, OLD CHURCH LANE"
+    },
+    {
+      "price": 232500,
+      "date": "2026-03-10",
       "postcode": "HA3 0QA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 6, 308, PRESTON ROAD"
+      "address": "284A, PRESTON ROAD"
     },
     {
-      "price": 545000,
-      "date": "2026-02-13",
-      "postcode": "NW10 7RT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UNIT 3, CUMBERLAND BUSINESS PARK"
-    },
-    {
-      "price": 280000,
-      "date": "2026-02-12",
-      "postcode": "HA9 7JB",
-      "propertyType": "F",
+      "price": 500000,
+      "date": "2026-03-10",
+      "postcode": "NW10 4EL",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "55A, ST JOHNS ROAD"
+      "address": "12, DRAYTON ROAD"
     },
     {
-      "price": 1855000,
-      "date": "2026-02-12",
-      "postcode": "NW2 3BU",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "197, WALM LANE"
-    },
-    {
-      "price": 1855000,
-      "date": "2026-02-12",
-      "postcode": "NW2 3BU",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, 197, WALM LANE"
-    },
-    {
-      "price": 1855000,
-      "date": "2026-02-12",
-      "postcode": "NW2 3BU",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, 197, WALM LANE"
-    },
-    {
-      "price": 1855000,
-      "date": "2026-02-12",
-      "postcode": "NW2 3BU",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, 197, WALM LANE"
-    },
-    {
-      "price": 1855000,
-      "date": "2026-02-12",
-      "postcode": "NW2 3BU",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 197, WALM LANE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-02-12",
-      "postcode": "NW10 2SB",
+      "price": 970000,
+      "date": "2026-03-09",
+      "postcode": "NW6 6HE",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT B, 197, HIGH ROAD"
-    },
-    {
-      "price": 545000,
-      "date": "2026-02-12",
-      "postcode": "NW9 0PR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, FAIRFIELDS CRESCENT"
-    },
-    {
-      "price": 450000,
-      "date": "2026-02-11",
-      "postcode": "HA9 8FD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 17, SMITH HOUSE, MATTHEWS CLOSE"
-    },
-    {
-      "price": 1090000,
-      "date": "2026-02-11",
-      "postcode": "NW10 7RT",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UNIT 18, CUMBERLAND BUSINESS PARK"
-    },
-    {
-      "price": 1275000,
-      "date": "2026-02-10",
-      "postcode": "HA9 9ED",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, MOUNT DRIVE"
-    },
-    {
-      "price": 651151,
-      "date": "2026-02-10",
-      "postcode": "HA0 3BE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "80, SUDBURY AVENUE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-02-09",
-      "postcode": "HA0 2PU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "86, ASPEN DRIVE"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-09",
-      "postcode": "NW9 8LH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, MEADOWBANK ROAD"
-    },
-    {
-      "price": 515000,
-      "date": "2026-02-09",
-      "postcode": "NW9 7JX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "84, KINLOCH DRIVE"
+      "address": "GROUND FLOOR FLAT, 219, HARVIST ROAD"
     }
   ]
 }

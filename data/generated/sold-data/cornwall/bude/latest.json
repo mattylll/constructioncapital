@@ -1,22 +1,103 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.897Z",
+  "updatedAt": "2026-05-18T19:24:08.436Z",
   "townSlug": "bude",
   "countySlug": "cornwall",
   "stats": {
-    "medianPrice": 341500,
+    "medianPrice": 343000,
     "medianByType": {
-      "D": 420000,
-      "S": 289000,
-      "T": 266000,
-      "F": 195000
+      "D": 422500,
+      "S": 285000,
+      "T": 257500,
+      "F": 220000
     },
-    "transactionCount12m": 178,
-    "yoyChange": -7.7,
-    "newBuildCount": 4,
-    "existingCount": 174,
-    "newBuildPremium": -1.5
+    "transactionCount12m": 185,
+    "yoyChange": -5.6,
+    "newBuildCount": 3,
+    "existingCount": 182,
+    "newBuildPremium": 3.5
   },
   "recentTransactions": [
+    {
+      "price": 500000,
+      "date": "2026-03-25",
+      "postcode": "EX23 9LZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BUTTERFLY BARN"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-17",
+      "postcode": "EX23 8RF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "TOP FLAT, 9, DOWNS VIEW"
+    },
+    {
+      "price": 357500,
+      "date": "2026-03-17",
+      "postcode": "EX23 8SX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, HAWKERS COURT"
+    },
+    {
+      "price": 610000,
+      "date": "2026-03-17",
+      "postcode": "EX23 8HA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, LEA WAY"
+    },
+    {
+      "price": 315000,
+      "date": "2026-03-11",
+      "postcode": "EX23 8RF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, 9, DOWNS VIEW"
+    },
+    {
+      "price": 335000,
+      "date": "2026-03-11",
+      "postcode": "EX23 8HF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, FOSTERS WAY"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-06",
+      "postcode": "EX23 0BX",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BARRIVOR"
+    },
+    {
+      "price": 285000,
+      "date": "2026-02-27",
+      "postcode": "EX23 0PH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MANOR CLOSE"
+    },
+    {
+      "price": 167000,
+      "date": "2026-02-27",
+      "postcode": "EX23 9BP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BAY TREE COTTAGES, HOSPITAL ROAD"
+    },
     {
       "price": 407500,
       "date": "2026-02-23",
@@ -34,6 +115,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "MIDSUMMER COTTAGE"
+    },
+    {
+      "price": 50000,
+      "date": "2026-02-20",
+      "postcode": "EX23 9QY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, THE DRIVE, PENSTOWE PARK HOLIDAY VILLAGE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-02-20",
+      "postcode": "EX23 8QH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, KINGS HILL"
     },
     {
       "price": 222500,
@@ -97,105 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "43, AGNES CLOSE"
-    },
-    {
-      "price": 343000,
-      "date": "2026-01-30",
-      "postcode": "EX23 9HW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, STIBB COTTAGES"
-    },
-    {
-      "price": 265000,
-      "date": "2026-01-30",
-      "postcode": "EX23 9JH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CLEAVE CRESCENT"
-    },
-    {
-      "price": 390000,
-      "date": "2026-01-26",
-      "postcode": "EX23 9EB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BURGESS CLOSE"
-    },
-    {
-      "price": 90000,
-      "date": "2026-01-23",
-      "postcode": "EX23 8AW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, KIMING, STRATTON ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-01-23",
-      "postcode": "EX23 9JH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, CLEAVE CRESCENT"
-    },
-    {
-      "price": 65000,
-      "date": "2026-01-22",
-      "postcode": "EX23 8JA",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HOLLABURY MISSION HALL, HOLLABURY ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-01-22",
-      "postcode": "EX23 9HA",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TREFORNIA"
-    },
-    {
-      "price": 325000,
-      "date": "2026-01-21",
-      "postcode": "EX23 9QG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, ROSECOTT PARK"
-    },
-    {
-      "price": 281000,
-      "date": "2026-01-20",
-      "postcode": "EX23 8SL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, CHERRILL GARDENS"
-    },
-    {
-      "price": 416000,
-      "date": "2026-01-20",
-      "postcode": "EX23 8SJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, DURSTON ROAD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-01-20",
-      "postcode": "EX23 9DP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CHANTRY COTTAGE, SANCTUARY LANE"
     }
   ]
 }

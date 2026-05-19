@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.010Z",
+  "updatedAt": "2026-05-18T19:24:08.551Z",
   "townSlug": "walsall",
   "countySlug": "west-midlands",
   "stats": {
-    "medianPrice": 210000,
+    "medianPrice": 215000,
     "medianByType": {
-      "D": 349995,
+      "D": 350000,
       "S": 225000,
       "T": 175000,
-      "F": 119000
+      "F": 120000
     },
-    "transactionCount12m": 1999,
-    "yoyChange": 0,
-    "newBuildCount": 29,
-    "existingCount": 1970,
-    "newBuildPremium": 15.4
+    "transactionCount12m": 2147,
+    "yoyChange": 2.4,
+    "newBuildCount": 15,
+    "existingCount": 2132,
+    "newBuildPremium": 19.8
   },
   "recentTransactions": [
     {
-      "price": 232500,
-      "date": "2026-02-27",
-      "postcode": "WS10 8QR",
+      "price": 220000,
+      "date": "2026-03-27",
+      "postcode": "WS4 1EG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "72, KING GEORGE CRESCENT"
+    },
+    {
+      "price": 201500,
+      "date": "2026-03-27",
+      "postcode": "WS9 8HS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "34, HEATHFIELD LANE WEST"
-    },
-    {
-      "price": 280000,
-      "date": "2026-02-24",
-      "postcode": "WS9 9BU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, NORTHGATE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-02-20",
-      "postcode": "WS3 2UJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, CRESSWELL CRESCENT"
-    },
-    {
-      "price": 75000,
-      "date": "2026-02-20",
-      "postcode": "WS8 6DJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 37, KNAVES COURT, HIGH STREET"
-    },
-    {
-      "price": 420000,
-      "date": "2026-02-20",
-      "postcode": "WS3 4JS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "120, ALLENS LANE"
-    },
-    {
-      "price": 108000,
-      "date": "2026-02-18",
-      "postcode": "WS4 1SF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, LADYPOOL CLOSE"
-    },
-    {
-      "price": 242800,
-      "date": "2026-02-17",
-      "postcode": "WS1 2DP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, WILLOWS ROAD"
-    },
-    {
-      "price": 256500,
-      "date": "2026-02-16",
-      "postcode": "WS3 4AA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "69, WOLVERHAMPTON ROAD"
-    },
-    {
-      "price": 100000,
-      "date": "2026-02-13",
-      "postcode": "B74 3DT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "28, GRANGE DRIVE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-02-13",
-      "postcode": "B74 3DT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, GRANGE DRIVE"
-    },
-    {
-      "price": 387000,
-      "date": "2026-02-13",
-      "postcode": "WS9 8JZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "114, STONNALL ROAD"
-    },
-    {
-      "price": 105000,
-      "date": "2026-02-13",
-      "postcode": "WS9 8QB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 30, HOMEBELL HOUSE, 2, NORTHGATE"
-    },
-    {
-      "price": 227500,
-      "date": "2026-02-13",
-      "postcode": "WS10 8PG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, HAMPTON PLACE"
-    },
-    {
-      "price": 191000,
-      "date": "2026-02-12",
-      "postcode": "WS1 3JB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57B, HIGHGATE ROAD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-02-12",
-      "postcode": "WS9 8HU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, STONNALL GATE"
-    },
-    {
-      "price": 221000,
-      "date": "2026-02-12",
-      "postcode": "WS2 0HN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, MOUNTBATTEN ROAD"
-    },
-    {
-      "price": 195000,
-      "date": "2026-02-12",
-      "postcode": "WS8 6AJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, POPLAR ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-12",
-      "postcode": "WS5 3AW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "179, SUTTON ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-02-11",
-      "postcode": "WS5 4PH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, TALKE ROAD"
+      "address": "29, KENT CLOSE"
     },
     {
       "price": 130000,
-      "date": "2026-02-11",
-      "postcode": "WS2 8QR",
+      "date": "2026-03-23",
+      "postcode": "WS1 3EW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "171, PARGETER STREET"
+      "address": "34, LITTLE LONDON"
+    },
+    {
+      "price": 75000,
+      "date": "2026-03-20",
+      "postcode": "WS2 8RQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "252, WOLVERHAMPTON ROAD"
+    },
+    {
+      "price": 243000,
+      "date": "2026-03-20",
+      "postcode": "WS9 8QQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, WALMER MEADOW"
+    },
+    {
+      "price": 223000,
+      "date": "2026-03-20",
+      "postcode": "WS1 3QS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "73, CORPORATION STREET WEST"
+    },
+    {
+      "price": 165000,
+      "date": "2026-03-20",
+      "postcode": "WS4 1BJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, OLD MILL GARDENS"
+    },
+    {
+      "price": 223000,
+      "date": "2026-03-20",
+      "postcode": "WS3 4NJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "72, OLD TOWN LANE"
+    },
+    {
+      "price": 317000,
+      "date": "2026-03-20",
+      "postcode": "B74 2BU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, LANESIDE AVENUE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-20",
+      "postcode": "WS4 1XB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "58, THE PARKWAY"
+    },
+    {
+      "price": 375000,
+      "date": "2026-03-20",
+      "postcode": "WS3 3SB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, SANSTONE ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-03-19",
+      "postcode": "WS9 9BH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "102, COPPICE ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-19",
+      "postcode": "B74 2DS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "258, ALDRIDGE ROAD"
+    },
+    {
+      "price": 40000,
+      "date": "2026-03-18",
+      "postcode": "WS10 9FD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "9, MONARCH COURT, COOK STREET"
+    },
+    {
+      "price": 100000,
+      "date": "2026-03-18",
+      "postcode": "WV13 1ES",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "141, TEMPLE ROAD"
+    },
+    {
+      "price": 198000,
+      "date": "2026-03-18",
+      "postcode": "WV12 4DR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, BASSETT CLOSE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-03-16",
+      "postcode": "WS1 2LH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "95, LUMLEY ROAD"
+    },
+    {
+      "price": 285000,
+      "date": "2026-03-16",
+      "postcode": "WS4 1DH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, WESTWAY"
+    },
+    {
+      "price": 360000,
+      "date": "2026-03-16",
+      "postcode": "B74 3PW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "94, BLACKWOOD ROAD"
+    },
+    {
+      "price": 150000,
+      "date": "2026-03-16",
+      "postcode": "WV13 1DR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, VICTORIA STREET"
     }
   ]
 }

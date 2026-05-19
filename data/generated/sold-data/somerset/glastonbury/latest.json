@@ -1,22 +1,121 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.839Z",
+  "updatedAt": "2026-05-18T19:24:08.383Z",
   "townSlug": "glastonbury",
   "countySlug": "somerset",
   "stats": {
-    "medianPrice": 276500,
+    "medianPrice": 280000,
     "medianByType": {
-      "D": 412500,
-      "S": 277500,
-      "T": 242500,
-      "F": 154000
+      "D": 431000,
+      "S": 292500,
+      "T": 250000,
+      "F": 151250
     },
-    "transactionCount12m": 154,
-    "yoyChange": -2.6,
+    "transactionCount12m": 160,
+    "yoyChange": 0,
     "newBuildCount": 0,
-    "existingCount": 154,
-    "newBuildPremium": -100
+    "existingCount": 160,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 120000,
+      "date": "2026-03-27",
+      "postcode": "BA6 9DL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, MANOR CLOSE"
+    },
+    {
+      "price": 575000,
+      "date": "2026-03-27",
+      "postcode": "BA6 8PX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THORNS COTTAGE, HAM STREET"
+    },
+    {
+      "price": 263000,
+      "date": "2026-03-20",
+      "postcode": "BA6 9HU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, ST EDMUNDS ROAD"
+    },
+    {
+      "price": 285000,
+      "date": "2026-03-16",
+      "postcode": "BA6 8HS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, HAMLYN ROAD"
+    },
+    {
+      "price": 332000,
+      "date": "2026-03-13",
+      "postcode": "BA6 8HT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, HAMLYN ROAD"
+    },
+    {
+      "price": 565000,
+      "date": "2026-03-09",
+      "postcode": "BA6 8NZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, ARCHBISHOP CLOSE"
+    },
+    {
+      "price": 384000,
+      "date": "2026-03-06",
+      "postcode": "BA6 9BY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, WELLS ROAD"
+    },
+    {
+      "price": 140000,
+      "date": "2026-03-03",
+      "postcode": "BA6 8BE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "83, BERE LANE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-03-02",
+      "postcode": "BA6 8EA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28 - 30, OLD WELLS ROAD"
+    },
+    {
+      "price": 229900,
+      "date": "2026-02-26",
+      "postcode": "BA6 9TE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, SUNNYMEAD"
+    },
+    {
+      "price": 340000,
+      "date": "2026-02-24",
+      "postcode": "BA6 9SG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MYRTLE CLOSE"
+    },
     {
       "price": 159000,
       "date": "2026-02-20",
@@ -48,7 +147,7 @@
       "price": 215000,
       "date": "2026-02-13",
       "postcode": "BA6 8QW",
-      "propertyType": "D",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
       "address": "OLD POST OFFICE, THE CROSS"
@@ -97,105 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "2, CROWN BARTON"
-    },
-    {
-      "price": 225000,
-      "date": "2026-02-03",
-      "postcode": "BA6 9QP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, CROWN BARTON"
-    },
-    {
-      "price": 220000,
-      "date": "2026-01-23",
-      "postcode": "BA6 8HH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, LEG OF MUTTON ROAD"
-    },
-    {
-      "price": 213000,
-      "date": "2026-01-09",
-      "postcode": "BA6 8HR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, WHITING ROAD"
-    },
-    {
-      "price": 245000,
-      "date": "2026-01-09",
-      "postcode": "BA6 8QW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, THE CROSS"
-    },
-    {
-      "price": 268000,
-      "date": "2026-01-07",
-      "postcode": "BA6 8QW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, THE CROSS"
-    },
-    {
-      "price": 700000,
-      "date": "2025-12-19",
-      "postcode": "BA6 8UE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ADMIRALS MEAD"
-    },
-    {
-      "price": 395000,
-      "date": "2025-12-19",
-      "postcode": "BA6 9SQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, DOWNS ORCHARD"
-    },
-    {
-      "price": 270000,
-      "date": "2025-12-19",
-      "postcode": "BA6 9GF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, HARTLAKE CLOSE"
-    },
-    {
-      "price": 147500,
-      "date": "2025-12-18",
-      "postcode": "BA6 9QE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, NORTHLOAD HALL, 56, NORTHLOAD STREET"
-    },
-    {
-      "price": 380000,
-      "date": "2025-12-16",
-      "postcode": "BA6 8DS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ACTIS ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2025-12-16",
-      "postcode": "BA6 9JJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, NORTHLOAD STREET"
     }
   ]
 }

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.063Z",
+  "updatedAt": "2026-05-18T19:24:08.610Z",
   "townSlug": "worcester",
   "countySlug": "worcestershire",
   "stats": {
     "medianPrice": 250000,
     "medianByType": {
-      "D": 378500,
-      "S": 260000,
-      "T": 227250,
-      "F": 142000
+      "D": 380000,
+      "S": 257250,
+      "T": 230000,
+      "F": 142500
     },
-    "transactionCount12m": 1063,
-    "yoyChange": -3.5,
+    "transactionCount12m": 1139,
+    "yoyChange": -2.3,
     "newBuildCount": 2,
-    "existingCount": 1061,
-    "newBuildPremium": -100
+    "existingCount": 1137,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 368600,
-      "date": "2026-02-20",
+      "price": 154000,
+      "date": "2026-03-26",
+      "postcode": "WR1 1UT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "79, LION COURT"
+    },
+    {
+      "price": 277500,
+      "date": "2026-03-20",
       "postcode": "WR4 0QF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, BRIDGNORTH ROW"
+    },
+    {
+      "price": 242000,
+      "date": "2026-03-20",
+      "postcode": "WR5 2NA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, STAPLOW ROAD"
+    },
+    {
+      "price": 363000,
+      "date": "2026-03-20",
+      "postcode": "WR4 0PW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, BRIDGNORTH ROW"
+      "address": "16, BOMFORD HILL"
     },
     {
-      "price": 162000,
-      "date": "2026-02-20",
-      "postcode": "WR5 3FX",
+      "price": 170000,
+      "date": "2026-03-20",
+      "postcode": "WR5 3ED",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 3, 3, CAVALIER CRESCENT"
-    },
-    {
-      "price": 285000,
-      "date": "2026-02-20",
-      "postcode": "WR2 5LX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, HAMPTON CLOSE"
-    },
-    {
-      "price": 255000,
-      "date": "2026-02-20",
-      "postcode": "WR2 4JQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "104, WINCHESTER AVENUE"
-    },
-    {
-      "price": 118000,
-      "date": "2026-02-20",
-      "postcode": "WR4 9EH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "18, MICHAEL TIPPET DRIVE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-02-16",
-      "postcode": "WR4 0LA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, DOVER AVENUE"
-    },
-    {
-      "price": 125000,
-      "date": "2026-02-13",
-      "postcode": "WR3 8HU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, WOODLAND CLOSE"
-    },
-    {
-      "price": 385000,
-      "date": "2026-02-13",
-      "postcode": "WR1 1QP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, SHRUBBERY AVENUE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-02-12",
-      "postcode": "WR3 8NY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, GREEN LANE"
-    },
-    {
-      "price": 267500,
-      "date": "2026-02-10",
-      "postcode": "WR2 5JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, ARROWSMITH AVENUE"
-    },
-    {
-      "price": 219000,
-      "date": "2026-02-09",
-      "postcode": "WR2 5NU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, WESTBOURNE CLOSE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-09",
-      "postcode": "WR5 3EG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12, ST MARKS COURT"
-    },
-    {
-      "price": 225000,
-      "date": "2026-02-09",
-      "postcode": "WR2 4EX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "178, BRANSFORD ROAD"
+      "address": "33, ST WULSTANS COURT, BATH ROAD"
     },
     {
       "price": 205000,
-      "date": "2026-02-06",
-      "postcode": "WR5 3TB",
+      "date": "2026-03-19",
+      "postcode": "WR2 5DR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "47, GRASSHOPPER AVENUE"
+      "address": "20, BLAKEFIELD ROAD"
+    },
+    {
+      "price": 117500,
+      "date": "2026-03-17",
+      "postcode": "WR5 1NE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "16, TAMAR CLOSE"
+    },
+    {
+      "price": 750000,
+      "date": "2026-03-17",
+      "postcode": "WR5 2JL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "KEMBLA, RED HILL LANE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-03-17",
+      "postcode": "WR2 5EZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, GREENACRES ROAD"
     },
     {
       "price": 207500,
-      "date": "2026-02-06",
-      "postcode": "WR1 1PA",
+      "date": "2026-03-16",
+      "postcode": "WR4 9SH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, BIRCH AVENUE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-16",
+      "postcode": "WR4 9XT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, SALTERS CLOSE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-03-13",
+      "postcode": "WR4 9SN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, CHESTNUT STREET"
+      "address": "73, GAMEKEEPERS DRIVE"
     },
     {
-      "price": 700000,
-      "date": "2026-02-06",
-      "postcode": "WR2 5LA",
+      "price": 355000,
+      "date": "2026-03-13",
+      "postcode": "WR3 7AF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "258, HYLTON ROAD"
+      "address": "3, TOWER ROAD"
     },
     {
-      "price": 330000,
-      "date": "2026-02-06",
-      "postcode": "WR2 4EG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, BEAVER CLOSE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-02-05",
-      "postcode": "WR4 9QZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5A, HAWTHORN ROAD"
-    },
-    {
-      "price": 368300,
-      "date": "2026-02-03",
-      "postcode": "WR5 1SG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, WILLIAMSON ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-02-02",
-      "postcode": "WR3 8NA",
+      "price": 245000,
+      "date": "2026-03-13",
+      "postcode": "WR5 3UH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, CRESCENT VILLAS"
+      "address": "19, RONA GARDENS"
+    },
+    {
+      "price": 220000,
+      "date": "2026-03-13",
+      "postcode": "WR2 5BL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, NELSON ROAD"
+    },
+    {
+      "price": 213000,
+      "date": "2026-03-13",
+      "postcode": "WR4 9QG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "73, SOMERVILLE ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-13",
+      "postcode": "WR4 9RT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, LAUREL ROAD"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-11",
+      "postcode": "WR3 7PF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, MORRIN CLOSE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-10",
+      "postcode": "WR4 9XT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, SALTERS CLOSE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-03-09",
+      "postcode": "WR5 3DJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, ST MARKS CLOSE"
     }
   ]
 }

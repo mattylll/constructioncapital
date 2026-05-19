@@ -1,22 +1,139 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.833Z",
+  "updatedAt": "2026-05-18T19:24:09.244Z",
   "townSlug": "sandy",
   "countySlug": "bedfordshire",
   "stats": {
-    "medianPrice": 335000,
+    "medianPrice": 339950,
     "medianByType": {
-      "D": 455000,
-      "S": 342500,
-      "T": 270000,
-      "F": 137000
+      "D": 450000,
+      "S": 340000,
+      "T": 275000,
+      "F": 134000
     },
-    "transactionCount12m": 217,
-    "yoyChange": 8.9,
+    "transactionCount12m": 229,
+    "yoyChange": 11,
     "newBuildCount": 2,
-    "existingCount": 215,
-    "newBuildPremium": -100
+    "existingCount": 227,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 316000,
+      "date": "2026-03-27",
+      "postcode": "SG19 1TB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, WAVERLEY AVENUE"
+    },
+    {
+      "price": 293500,
+      "date": "2026-03-20",
+      "postcode": "SG19 2TR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, WEAVERS GREEN"
+    },
+    {
+      "price": 420000,
+      "date": "2026-03-19",
+      "postcode": "SG19 2EF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, VICTORIA CLOSE"
+    },
+    {
+      "price": 642500,
+      "date": "2026-03-19",
+      "postcode": "SG19 2RL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CAUSEWAY END, CHURCH CAUSEWAY"
+    },
+    {
+      "price": 450000,
+      "date": "2026-03-10",
+      "postcode": "SG19 2RG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, MYERS ROAD"
+    },
+    {
+      "price": 435000,
+      "date": "2026-02-27",
+      "postcode": "SG19 2QD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56, THE PADDOCKS"
+    },
+    {
+      "price": 490000,
+      "date": "2026-02-27",
+      "postcode": "SG19 2PD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "79, EVERTON ROAD"
+    },
+    {
+      "price": 385000,
+      "date": "2026-02-27",
+      "postcode": "SG19 1BS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "126A, ST NEOTS ROAD"
+    },
+    {
+      "price": 395000,
+      "date": "2026-02-27",
+      "postcode": "SG19 2FQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, BLANE PLACE"
+    },
+    {
+      "price": 683500,
+      "date": "2026-02-25",
+      "postcode": "SG19 2RS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WOODBERRY HOUSE, 24A, BURY HILL"
+    },
+    {
+      "price": 290000,
+      "date": "2026-02-25",
+      "postcode": "SG19 2TA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, FALCON CLOSE"
+    },
+    {
+      "price": 555000,
+      "date": "2026-02-25",
+      "postcode": "SG19 2AU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, STATION ROAD"
+    },
+    {
+      "price": 390000,
+      "date": "2026-02-20",
+      "postcode": "SG19 2TA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, FALCON CLOSE"
+    },
     {
       "price": 255000,
       "date": "2026-02-19",
@@ -45,22 +162,22 @@
       "address": "11, CHURCH ROAD"
     },
     {
-      "price": 460000,
-      "date": "2026-02-13",
-      "postcode": "SG19 2TS",
+      "price": 505000,
+      "date": "2026-02-16",
+      "postcode": "SG19 2JT",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "62, KESTREL WAY"
+      "address": "1, WARDEN HILL"
     },
     {
-      "price": 380000,
-      "date": "2026-02-13",
-      "postcode": "SG19 2TG",
-      "propertyType": "D",
+      "price": 373000,
+      "date": "2026-02-16",
+      "postcode": "SG19 2SA",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, KESTREL WAY"
+      "address": "45, GOLDFINCH DRIVE"
     },
     {
       "price": 335000,
@@ -72,130 +189,13 @@
       "address": "15, KITCHENER GROVE"
     },
     {
-      "price": 55000,
-      "date": "2026-02-09",
-      "postcode": "SG19 2QU",
+      "price": 460000,
+      "date": "2026-02-13",
+      "postcode": "SG19 2TS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, IBBETT LANE"
-    },
-    {
-      "price": 228000,
-      "date": "2026-02-06",
-      "postcode": "SG19 1ET",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, CHURCH PATH"
-    },
-    {
-      "price": 345000,
-      "date": "2026-02-06",
-      "postcode": "SG19 1DX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, ALL SAINTS WAY"
-    },
-    {
-      "price": 237500,
-      "date": "2026-02-06",
-      "postcode": "SG19 2LR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, SUN STREET"
-    },
-    {
-      "price": 315000,
-      "date": "2026-02-06",
-      "postcode": "SG19 1DR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, WESTERN WAY"
-    },
-    {
-      "price": 362500,
-      "date": "2026-02-05",
-      "postcode": "SG19 2SB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, BYARDS GREEN"
-    },
-    {
-      "price": 265000,
-      "date": "2026-02-05",
-      "postcode": "SG19 2SF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ASTWOOD CLOSE"
-    },
-    {
-      "price": 470000,
-      "date": "2026-01-30",
-      "postcode": "SG19 2TU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, LARKS RISE"
-    },
-    {
-      "price": 298000,
-      "date": "2026-01-30",
-      "postcode": "SG19 1RN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, PRINCE GEORGES DRIVE"
-    },
-    {
-      "price": 339950,
-      "date": "2026-01-30",
-      "postcode": "SG19 1RN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, PRINCE GEORGES DRIVE"
-    },
-    {
-      "price": 258000,
-      "date": "2026-01-26",
-      "postcode": "SG19 2QA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, SANDY ROAD"
-    },
-    {
-      "price": 435000,
-      "date": "2026-01-16",
-      "postcode": "SG19 2PR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, CATHERINES CLOSE"
-    },
-    {
-      "price": 187500,
-      "date": "2026-01-16",
-      "postcode": "SG19 2PS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, THE RIDGEWAY"
-    },
-    {
-      "price": 148000,
-      "date": "2026-01-16",
-      "postcode": "SG19 1LE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "35E, ST NEOTS ROAD"
+      "address": "62, KESTREL WAY"
     }
   ]
 }

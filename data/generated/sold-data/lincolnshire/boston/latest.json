@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.196Z",
+  "updatedAt": "2026-05-18T19:24:08.744Z",
   "townSlug": "boston",
   "countySlug": "lincolnshire",
   "stats": {
-    "medianPrice": 189475,
+    "medianPrice": 187000,
     "medianByType": {
-      "D": 255000,
+      "D": 250000,
       "S": 160000,
-      "T": 120000,
-      "F": 88125
+      "T": 119500,
+      "F": 82500
     },
-    "transactionCount12m": 628,
-    "yoyChange": -4.2,
+    "transactionCount12m": 676,
+    "yoyChange": -5.5,
     "newBuildCount": 23,
-    "existingCount": 605,
-    "newBuildPremium": 40.5
+    "existingCount": 653,
+    "newBuildPremium": 35.1
   },
   "recentTransactions": [
     {
-      "price": 295000,
-      "date": "2026-02-25",
-      "postcode": "PE21 7PZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, FRESHNEY WAY"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-25",
-      "postcode": "PE20 1HG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, HARDWICK ESTATE"
-    },
-    {
-      "price": 125000,
-      "date": "2026-02-23",
-      "postcode": "PE21 7BA",
+      "price": 155000,
+      "date": "2026-03-31",
+      "postcode": "PE21 0QJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "288, LONDON ROAD"
+      "address": "37, HAWTHORN CLOSE"
     },
     {
-      "price": 212500,
-      "date": "2026-02-20",
-      "postcode": "PE21 0QR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE COACH HOUSE, FISHTOFT ROAD"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-20",
-      "postcode": "PE22 9NY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, HAWTHORN ROAD"
-    },
-    {
-      "price": 94000,
-      "date": "2026-02-20",
-      "postcode": "PE21 7RF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, WYBERTON LOW ROAD"
-    },
-    {
-      "price": 255000,
-      "date": "2026-02-18",
-      "postcode": "PE20 2BU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ALMARA, 38, OLD MAIN ROAD"
-    },
-    {
-      "price": 210000,
-      "date": "2026-02-18",
-      "postcode": "PE20 1BY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, LIGHTON AVENUE"
-    },
-    {
-      "price": 156000,
-      "date": "2026-02-17",
-      "postcode": "PE21 7RH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "85, WYBERTON LOW ROAD"
-    },
-    {
-      "price": 219500,
-      "date": "2026-02-16",
-      "postcode": "PE20 1XL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, LIGHTON AVENUE"
-    },
-    {
-      "price": 127000,
-      "date": "2026-02-16",
-      "postcode": "PE20 1EH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10D, WILLINGTON ROAD"
-    },
-    {
-      "price": 210000,
-      "date": "2026-02-16",
-      "postcode": "PE21 9EL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, MALLOW GARDENS"
-    },
-    {
-      "price": 182500,
-      "date": "2026-02-13",
-      "postcode": "PE21 7FD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, HARROW PLACE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-02-12",
-      "postcode": "PE22 0EY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, SEA LANE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-02-10",
-      "postcode": "PE21 0AE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, ST NICHOLAS CLOSE"
-    },
-    {
-      "price": 109000,
-      "date": "2026-02-10",
-      "postcode": "PE21 8UX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, KING STREET"
-    },
-    {
-      "price": 105000,
-      "date": "2026-02-09",
-      "postcode": "PE21 8PG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "89, GRANVILLE STREET"
-    },
-    {
-      "price": 160000,
-      "date": "2026-02-09",
-      "postcode": "PE20 3QX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, TOP FARM COTTAGE, LINESIDE"
-    },
-    {
-      "price": 67000,
-      "date": "2026-02-09",
-      "postcode": "PE21 9EG",
+      "price": 96500,
+      "date": "2026-03-20",
+      "postcode": "PE21 0QZ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "11, MILL LODGE, WILLOUGHBY ROAD"
+      "address": "8, BLADON ESTATE"
     },
     {
-      "price": 85000,
-      "date": "2026-02-06",
-      "postcode": "PE21 7RF",
+      "price": 175000,
+      "date": "2026-03-18",
+      "postcode": "PE21 7JU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "200, WYBERTON WEST ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-16",
+      "postcode": "PE22 0DX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LYDON LEA, HALL LANE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-03-16",
+      "postcode": "PE20 2HD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MAWENZI, BOSTON ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-13",
+      "postcode": "PE20 1RX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PONDAROSA, SILVERTOFT LANE"
+    },
+    {
+      "price": 202500,
+      "date": "2026-03-13",
+      "postcode": "PE21 7BU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, SAUNDERGATE PARK"
+    },
+    {
+      "price": 100000,
+      "date": "2026-03-13",
+      "postcode": "PE21 9BZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, WYBERTON LOW ROAD"
+      "address": "8, BROWNS ROAD"
+    },
+    {
+      "price": 252500,
+      "date": "2026-03-13",
+      "postcode": "PE20 3EN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, ABBEY ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-03-12",
+      "postcode": "PE21 7BT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, DELDALE ROAD"
+    },
+    {
+      "price": 370000,
+      "date": "2026-03-12",
+      "postcode": "PE20 1BP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BEAULIEU, LONDON ROAD"
+    },
+    {
+      "price": 165000,
+      "date": "2026-03-11",
+      "postcode": "PE21 8PA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "61, CARLTON ROAD"
+    },
+    {
+      "price": 194950,
+      "date": "2026-03-10",
+      "postcode": "PE20 1DH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, BIRCH ROAD"
+    },
+    {
+      "price": 307500,
+      "date": "2026-03-10",
+      "postcode": "PE20 1DJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, ELM CLOSE"
+    },
+    {
+      "price": 78000,
+      "date": "2026-03-09",
+      "postcode": "PE21 8XB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, QUEEN STREET"
+    },
+    {
+      "price": 85000,
+      "date": "2026-03-09",
+      "postcode": "PE21 8HH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, HAVEN MEADOWS"
+    },
+    {
+      "price": 185000,
+      "date": "2026-03-09",
+      "postcode": "PE22 0HT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, CHURCH ROAD"
+    },
+    {
+      "price": 135000,
+      "date": "2026-03-09",
+      "postcode": "PE21 9PD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, CHARTER CLOSE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-03-06",
+      "postcode": "PE21 9AR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, HIGHGROVE CRESCENT"
+    },
+    {
+      "price": 105000,
+      "date": "2026-03-04",
+      "postcode": "PE21 9HW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, MEDFORTH LANE"
     }
   ]
 }

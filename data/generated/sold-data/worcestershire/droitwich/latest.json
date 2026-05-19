@@ -1,22 +1,157 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.072Z",
+  "updatedAt": "2026-05-18T19:24:08.619Z",
   "townSlug": "droitwich",
   "countySlug": "worcestershire",
   "stats": {
-    "medianPrice": 300000,
+    "medianPrice": 305000,
     "medianByType": {
-      "D": 435000,
-      "S": 283500,
-      "T": 220000,
-      "F": 150000
+      "D": 445000,
+      "S": 280000,
+      "T": 222000,
+      "F": 152500
     },
-    "transactionCount12m": 305,
-    "yoyChange": 0,
-    "newBuildCount": 0,
-    "existingCount": 305,
-    "newBuildPremium": -100
+    "transactionCount12m": 327,
+    "yoyChange": 1.7,
+    "newBuildCount": 1,
+    "existingCount": 326,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 155000,
+      "date": "2026-03-17",
+      "postcode": "WR9 7UD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, LIDSGREEN AVENUE"
+    },
+    {
+      "price": 127000,
+      "date": "2026-03-16",
+      "postcode": "WR9 8PZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "90, MAYFLOWER ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-03-13",
+      "postcode": "WR9 7PU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, SCHOOL ROAD"
+    },
+    {
+      "price": 150000,
+      "date": "2026-03-11",
+      "postcode": "WR9 7PL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3A, DE WYCHE ROAD"
+    },
+    {
+      "price": 415000,
+      "date": "2026-03-09",
+      "postcode": "WR9 7BT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, OAKLAND AVENUE"
+    },
+    {
+      "price": 460000,
+      "date": "2026-03-05",
+      "postcode": "WR9 7FY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, GOLDCREST WAY"
+    },
+    {
+      "price": 90000,
+      "date": "2026-03-03",
+      "postcode": "WR9 8LA",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "UNIT 1, THE ROYAL EXCHANGE, QUEEN STREET"
+    },
+    {
+      "price": 407500,
+      "date": "2026-03-02",
+      "postcode": "WR9 7AJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "121, THE HOLLOWAY"
+    },
+    {
+      "price": 325000,
+      "date": "2026-03-02",
+      "postcode": "WR9 7HE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, JACKDAW LANE"
+    },
+    {
+      "price": 330000,
+      "date": "2026-02-27",
+      "postcode": "WR9 7FL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, FOX AVENUE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-02-27",
+      "postcode": "WR9 7RS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, BRANTWOOD CLOSE"
+    },
+    {
+      "price": 247000,
+      "date": "2026-02-27",
+      "postcode": "WR9 7EN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, TAGWELL CLOSE"
+    },
+    {
+      "price": 470000,
+      "date": "2026-02-24",
+      "postcode": "WR9 0NB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SNOWDROP COTTAGE, ADDIS LANE"
+    },
+    {
+      "price": 870000,
+      "date": "2026-02-20",
+      "postcode": "WR9 0JS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "UPHAMPTON COTTAGE, UPHAMPTON"
+    },
+    {
+      "price": 150000,
+      "date": "2026-02-20",
+      "postcode": "WR9 7RU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "22, CLAYHALL ROAD"
+    },
     {
       "price": 268000,
       "date": "2026-02-19",
@@ -25,6 +160,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "13, EAST PARK DRIVE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-02-19",
+      "postcode": "WR9 8SR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, THE TYNING"
     },
     {
       "price": 175000,
@@ -36,166 +180,22 @@
       "address": "20, SEVERN COURT, CORBETT AVENUE"
     },
     {
-      "price": 355000,
-      "date": "2026-02-06",
-      "postcode": "WR9 7QX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, BELFRY ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-02-06",
-      "postcode": "WR9 7UD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "17, LIDSGREEN AVENUE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-02-05",
-      "postcode": "WR9 9HE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, PARK WAY"
-    },
-    {
-      "price": 586000,
-      "date": "2026-02-05",
-      "postcode": "WR9 0BD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, WESTWOOD CLOSE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-02-02",
-      "postcode": "WR9 8TL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, TRENT CLOSE"
-    },
-    {
-      "price": 355000,
-      "date": "2026-01-30",
-      "postcode": "WR9 7RJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "28, ARKLE ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-01-30",
-      "postcode": "WR9 0BA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, BARNS CROFT WAY"
-    },
-    {
-      "price": 417000,
-      "date": "2026-01-30",
-      "postcode": "WR9 7FD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, TAGWELL GRANGE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-01-30",
-      "postcode": "WR9 7JD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, GRESLEY WAY"
-    },
-    {
-      "price": 492500,
-      "date": "2026-01-30",
-      "postcode": "WR9 7PF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "YEW TREES, WORCESTER ROAD"
-    },
-    {
-      "price": 470000,
-      "date": "2026-01-29",
-      "postcode": "WR9 8QW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, ST AUGUSTINES CLOSE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-01-29",
-      "postcode": "WR9 8NH",
+      "price": 240000,
+      "date": "2026-02-13",
+      "postcode": "WR9 0BS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, ALEXANDER AVENUE"
+      "address": "2, SCHOOL VIEW"
     },
     {
-      "price": 300000,
-      "date": "2026-01-26",
-      "postcode": "WR9 0PW",
+      "price": 395000,
+      "date": "2026-02-13",
+      "postcode": "WR9 7HH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "NEW INN COTTAGE, KIDDERMINSTER ROAD"
-    },
-    {
-      "price": 155000,
-      "date": "2026-01-26",
-      "postcode": "WR9 7UD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "25, LIDSGREEN AVENUE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-01-23",
-      "postcode": "WR9 9HP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, PADDOCK WAY"
-    },
-    {
-      "price": 220000,
-      "date": "2026-01-23",
-      "postcode": "WR9 9EW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, WOODMANS CLOSE"
-    },
-    {
-      "price": 97500,
-      "date": "2026-01-23",
-      "postcode": "WR9 0DF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, BRUMMEL COURT, WORCESTER ROAD"
-    },
-    {
-      "price": 435000,
-      "date": "2026-01-21",
-      "postcode": "WR9 7FH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, STOAT CLOSE"
+      "address": "37, KESTREL CRESCENT"
     }
   ]
 }

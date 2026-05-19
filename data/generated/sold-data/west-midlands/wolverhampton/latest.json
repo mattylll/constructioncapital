@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.984Z",
+  "updatedAt": "2026-05-18T19:24:08.525Z",
   "townSlug": "wolverhampton",
   "countySlug": "west-midlands",
   "stats": {
-    "medianPrice": 210000,
+    "medianPrice": 215000,
     "medianByType": {
       "D": 325000,
-      "S": 224000,
+      "S": 225000,
       "T": 180000,
-      "F": 105000
+      "F": 106500
     },
-    "transactionCount12m": 1675,
-    "yoyChange": 2.4,
-    "newBuildCount": 12,
-    "existingCount": 1663,
-    "newBuildPremium": -7.1
+    "transactionCount12m": 1813,
+    "yoyChange": 4.9,
+    "newBuildCount": 8,
+    "existingCount": 1805,
+    "newBuildPremium": -9.3
   },
   "recentTransactions": [
     {
-      "price": 166000,
-      "date": "2026-02-23",
-      "postcode": "WV10 6TN",
-      "propertyType": "S",
+      "price": 125000,
+      "date": "2026-03-23",
+      "postcode": "WV6 9LZ",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "9, ECCLESHALL AVENUE"
+      "tenure": "L",
+      "address": "92A, ALDERSLEY ROAD"
     },
     {
-      "price": 198000,
-      "date": "2026-02-20",
-      "postcode": "WV11 1NL",
+      "price": 221000,
+      "date": "2026-03-20",
+      "postcode": "WV2 3JF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "66, WOOD AVENUE"
+      "address": "131, PARK STREET SOUTH"
+    },
+    {
+      "price": 193000,
+      "date": "2026-03-20",
+      "postcode": "WV10 6RD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, BRINSFORD ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-19",
+      "postcode": "WV14 8RY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, SLIM AVENUE"
+    },
+    {
+      "price": 222000,
+      "date": "2026-03-19",
+      "postcode": "WV6 8QY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, NURSERY WALK"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-18",
+      "postcode": "WV6 0BW",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "100, TETTENHALL ROAD"
     },
     {
       "price": 210000,
-      "date": "2026-02-20",
-      "postcode": "WV1 2DH",
+      "date": "2026-03-18",
+      "postcode": "WV3 0QN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "36, PLASCOM ROAD"
+      "address": "162, ST MARKS ROAD"
     },
     {
-      "price": 220000,
-      "date": "2026-02-20",
-      "postcode": "WV14 8BX",
+      "price": 230000,
+      "date": "2026-03-17",
+      "postcode": "WV10 6JW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, MOORLAND AVENUE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-16",
+      "postcode": "WV14 0RH",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "122, BROAD LANES"
+    },
+    {
+      "price": 100000,
+      "date": "2026-03-16",
+      "postcode": "WV11 1SP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "88, WALLACE ROAD"
+      "address": "1, HIGH STREET"
+    },
+    {
+      "price": 305000,
+      "date": "2026-03-16",
+      "postcode": "WV4 5RS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "143, MOUNT ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-03-16",
+      "postcode": "DY3 1LT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, BATH STREET"
+    },
+    {
+      "price": 305000,
+      "date": "2026-03-16",
+      "postcode": "WV10 6BZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, RANGER DRIVE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-03-13",
+      "postcode": "WV6 8NW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, TORVALE ROAD"
+    },
+    {
+      "price": 317500,
+      "date": "2026-03-13",
+      "postcode": "WV14 9XR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WALLING CROFT"
     },
     {
       "price": 170000,
-      "date": "2026-02-18",
-      "postcode": "WV1 2AD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "321, DEANS ROAD"
-    },
-    {
-      "price": 142000,
-      "date": "2026-02-17",
-      "postcode": "WV3 7ET",
+      "date": "2026-03-12",
+      "postcode": "WV4 6HH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, CHURCH ROAD"
+      "address": "9, MARTIN STREET"
     },
     {
-      "price": 155000,
-      "date": "2026-02-17",
-      "postcode": "WV10 6RP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "375, STAFFORD ROAD"
-    },
-    {
-      "price": 255000,
-      "date": "2026-02-16",
-      "postcode": "WV11 3BB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, JOHNSON AVENUE"
-    },
-    {
-      "price": 465000,
-      "date": "2026-02-16",
-      "postcode": "WV10 6PW",
+      "price": 724000,
+      "date": "2026-03-12",
+      "postcode": "WV6 8SA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "88, TAUNTON AVENUE"
+      "address": "17, SAXON COURT"
     },
     {
-      "price": 267000,
-      "date": "2026-02-16",
-      "postcode": "WV9 5LA",
-      "propertyType": "D",
+      "price": 102000,
+      "date": "2026-03-12",
+      "postcode": "WV9 5QY",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "60, CLEWLEY DRIVE"
+      "address": "14, MARHOLM CLOSE"
     },
     {
-      "price": 310000,
-      "date": "2026-02-16",
-      "postcode": "WV3 0AB",
+      "price": 212000,
+      "date": "2026-03-12",
+      "postcode": "WV10 8JY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "407, BUSHBURY LANE"
+    },
+    {
+      "price": 184000,
+      "date": "2026-03-11",
+      "postcode": "WV11 3RR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "46, COPTHORNE ROAD"
-    },
-    {
-      "price": 480000,
-      "date": "2026-02-13",
-      "postcode": "WV2 4PS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "143, GOLDTHORN HILL"
-    },
-    {
-      "price": 93000,
-      "date": "2026-02-13",
-      "postcode": "WV3 0NL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "49, MARKET SQUARE"
-    },
-    {
-      "price": 90000,
-      "date": "2026-02-12",
-      "postcode": "WV3 9QP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "23A, COMPTON ROAD"
-    },
-    {
-      "price": 205000,
-      "date": "2026-02-11",
-      "postcode": "WV13 3HW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, BECCLES DRIVE"
-    },
-    {
-      "price": 242000,
-      "date": "2026-02-11",
-      "postcode": "WV3 7NP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "260, COALWAY ROAD"
-    },
-    {
-      "price": 62000,
-      "date": "2026-02-11",
-      "postcode": "WV3 0AZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "144, BRUFORD ROAD"
-    },
-    {
-      "price": 115050,
-      "date": "2026-02-11",
-      "postcode": "WV14 6NT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, CASTLECROFT ROAD"
-    },
-    {
-      "price": 75000,
-      "date": "2026-02-11",
-      "postcode": "WV6 8PE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "51, BEECHWOOD COURT"
-    },
-    {
-      "price": 250000,
-      "date": "2026-02-10",
-      "postcode": "WV14 6NR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1B, CARLTON AVENUE"
+      "address": "14, COLMAN AVENUE"
     }
   ]
 }

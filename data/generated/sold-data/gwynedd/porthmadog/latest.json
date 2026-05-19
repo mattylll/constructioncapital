@@ -1,20 +1,83 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.981Z",
+  "updatedAt": "2026-05-18T19:24:09.374Z",
   "townSlug": "porthmadog",
   "countySlug": "gwynedd",
   "stats": {
-    "medianPrice": 236000,
+    "medianPrice": 200000,
     "medianByType": {
-      "D": 280000,
-      "T": 187250
+      "D": 277500,
+      "T": 165000
     },
-    "transactionCount12m": 36,
-    "yoyChange": 33,
+    "transactionCount12m": 41,
+    "yoyChange": 11.1,
     "newBuildCount": 0,
-    "existingCount": 36,
-    "newBuildPremium": -100
+    "existingCount": 41,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 135000,
+      "date": "2026-03-05",
+      "postcode": "LL49 9AP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, LOMBARD STREET"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-02",
+      "postcode": "LL49 9YS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "77, CEFN Y GADER"
+    },
+    {
+      "price": 190000,
+      "date": "2026-02-27",
+      "postcode": "LL49 9BU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, MADOC STREET"
+    },
+    {
+      "price": 160000,
+      "date": "2026-02-27",
+      "postcode": "LL49 9EN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, EAST AVENUE"
+    },
+    {
+      "price": 145000,
+      "date": "2026-02-16",
+      "postcode": "LL49 9EG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GLASLYN STREET"
+    },
+    {
+      "price": 180000,
+      "date": "2026-02-16",
+      "postcode": "LL49 9ND",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "65, SOUTH SNOWDON WHARF"
+    },
+    {
+      "price": 129000,
+      "date": "2026-02-05",
+      "postcode": "LL49 9TA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, PENRHIW TERRACE"
+    },
     {
       "price": 132000,
       "date": "2026-01-09",
@@ -70,6 +133,15 @@
       "address": "85, CEFN Y GADER"
     },
     {
+      "price": 120000,
+      "date": "2025-11-28",
+      "postcode": "LL49 9YQ",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, CHALET PARK"
+    },
+    {
       "price": 325000,
       "date": "2025-11-28",
       "postcode": "LL49 9YA",
@@ -86,15 +158,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "5, MOUNT PLEASANT"
-    },
-    {
-      "price": 120000,
-      "date": "2025-11-28",
-      "postcode": "LL49 9YQ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, CHALET PARK"
     },
     {
       "price": 220000,
@@ -115,85 +178,22 @@
       "address": "15, SNOWDON STREET"
     },
     {
-      "price": 450000,
+      "price": 110000,
+      "date": "2025-10-31",
+      "postcode": "LL49 9EL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, EAST AVENUE"
+    },
+    {
+      "price": 175000,
       "date": "2025-10-27",
-      "postcode": "LL49 9TS",
-      "propertyType": "D",
+      "postcode": "LL49 9RA",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, IVY TERRACE"
-    },
-    {
-      "price": 250000,
-      "date": "2025-10-10",
-      "postcode": "LL49 9YS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "74, CEFN Y GADER"
-    },
-    {
-      "price": 550000,
-      "date": "2025-10-07",
-      "postcode": "LL49 9UY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PENRHYD FECHAN"
-    },
-    {
-      "price": 192500,
-      "date": "2025-10-03",
-      "postcode": "LL49 9UD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, GLYN TERRACE"
-    },
-    {
-      "price": 200000,
-      "date": "2025-09-26",
-      "postcode": "LL49 9UE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, TAN Y FOEL"
-    },
-    {
-      "price": 145000,
-      "date": "2025-09-19",
-      "postcode": "LL49 9AG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, MOUNT PLEASANT"
-    },
-    {
-      "price": 383000,
-      "date": "2025-08-29",
-      "postcode": "LL49 9SG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FFYNNON BEUNO"
-    },
-    {
-      "price": 250000,
-      "date": "2025-08-18",
-      "postcode": "LL49 9TP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CROGARDD"
-    },
-    {
-      "price": 280000,
-      "date": "2025-08-04",
-      "postcode": "LL49 9UB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, MERSEY STREET"
+      "address": "4, CHURCH STREET"
     }
   ]
 }

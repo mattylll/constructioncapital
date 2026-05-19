@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.536Z",
+  "updatedAt": "2026-05-18T19:24:08.936Z",
   "townSlug": "carlisle",
   "countySlug": "cumbria",
   "stats": {
-    "medianPrice": 168375,
+    "medianPrice": 170000,
     "medianByType": {
-      "D": 300000,
-      "S": 176000,
-      "T": 130000,
-      "F": 92500
+      "D": 310000,
+      "S": 175000,
+      "T": 129950,
+      "F": 95000
     },
-    "transactionCount12m": 1260,
-    "yoyChange": 2,
-    "newBuildCount": 10,
-    "existingCount": 1250,
-    "newBuildPremium": 50.1
+    "transactionCount12m": 1326,
+    "yoyChange": 3,
+    "newBuildCount": 12,
+    "existingCount": 1314,
+    "newBuildPremium": 112.6
   },
   "recentTransactions": [
     {
-      "price": 387500,
-      "date": "2026-02-24",
-      "postcode": "CA2 7PN",
-      "propertyType": "D",
+      "price": 170000,
+      "date": "2026-03-26",
+      "postcode": "CA6 5FA",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "69, BERKELEY GRANGE"
+      "address": "13, ST MICHAELS DRIVE"
     },
     {
-      "price": 120500,
-      "date": "2026-02-23",
-      "postcode": "CA2 4BD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, RED BANK TERRACE"
-    },
-    {
-      "price": 90000,
-      "date": "2026-02-20",
-      "postcode": "CA2 7BQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, HEAD STREET"
-    },
-    {
-      "price": 199950,
-      "date": "2026-02-20",
+      "price": 265000,
+      "date": "2026-03-25",
       "postcode": "CA1 3UE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "78, MOORSIDE DRIVE"
+      "address": "130, MOORSIDE DRIVE"
     },
     {
-      "price": 170000,
-      "date": "2026-02-20",
-      "postcode": "CA3 9DQ",
+      "price": 195000,
+      "date": "2026-03-25",
+      "postcode": "CA1 2AS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, CHURCH TERRACE"
+      "address": "47, ELDRED STREET"
     },
     {
-      "price": 160000,
-      "date": "2026-02-19",
-      "postcode": "CA2 4JB",
+      "price": 137500,
+      "date": "2026-03-24",
+      "postcode": "CA2 5HT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, COLVILLE STREET"
+    },
+    {
+      "price": 127000,
+      "date": "2026-03-23",
+      "postcode": "CA2 4DF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, NEWLANDS ROAD"
-    },
-    {
-      "price": 330000,
-      "date": "2026-02-18",
-      "postcode": "CA3 9FL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "74, LARCH DRIVE"
-    },
-    {
-      "price": 186000,
-      "date": "2026-02-18",
-      "postcode": "CA2 6QW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "89, GLARAMARA DRIVE"
-    },
-    {
-      "price": 95000,
-      "date": "2026-02-18",
-      "postcode": "CA2 5HW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, COLVILLE TERRACE"
-    },
-    {
-      "price": 100000,
-      "date": "2026-02-17",
-      "postcode": "CA1 2HS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, HOWE STREET"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-16",
-      "postcode": "CA1 3RN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "289, PENNINE WAY"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-13",
-      "postcode": "CA2 6BE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, MARGERY TERRACE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-02-13",
-      "postcode": "CA2 6TS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, ST EDMUNDS PARK"
-    },
-    {
-      "price": 310000,
-      "date": "2026-02-13",
-      "postcode": "CA3 0PF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, PENNINGTON DRIVE"
-    },
-    {
-      "price": 380000,
-      "date": "2026-02-13",
-      "postcode": "CA2 4TR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "403, DURDAR ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-02-13",
-      "postcode": "CA2 7NW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, FULMAR PLACE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-02-13",
-      "postcode": "CA2 7SA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, HEYSHAM PARK AVENUE"
+      "address": "10, JUBILEE ROAD"
     },
     {
       "price": 110000,
-      "date": "2026-02-13",
-      "postcode": "CA1 2XA",
+      "date": "2026-03-23",
+      "postcode": "CA2 6SP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "54, CUMREW CLOSE"
+      "address": "11, WHERNSIDE"
     },
     {
-      "price": 420000,
-      "date": "2026-02-12",
-      "postcode": "CA1 3GN",
+      "price": 340000,
+      "date": "2026-03-23",
+      "postcode": "CA2 4QS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, PARKLAND AVENUE"
+      "address": "1, HAMILTON DRIVE"
     },
     {
-      "price": 200000,
-      "date": "2026-02-12",
-      "postcode": "CA2 7JL",
+      "price": 117500,
+      "date": "2026-03-23",
+      "postcode": "CA1 3RG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "72, NEWTOWN ROAD"
+      "address": "13, ROSEVALE"
+    },
+    {
+      "price": 59000,
+      "date": "2026-03-23",
+      "postcode": "CA2 6SX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "36, REETH ROAD"
+    },
+    {
+      "price": 82000,
+      "date": "2026-03-23",
+      "postcode": "CA1 3RZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "161, BEVERLEY RISE"
+    },
+    {
+      "price": 83000,
+      "date": "2026-03-23",
+      "postcode": "CA2 5DY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, DENTON STREET"
+    },
+    {
+      "price": 120000,
+      "date": "2026-03-20",
+      "postcode": "CA2 4EE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, MONTREAL STREET"
+    },
+    {
+      "price": 89050,
+      "date": "2026-03-20",
+      "postcode": "CA2 5PT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, CRUMMOCK STREET"
+    },
+    {
+      "price": 217500,
+      "date": "2026-03-20",
+      "postcode": "CA1 3GX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, PENNINE VIEW"
+    },
+    {
+      "price": 125000,
+      "date": "2026-03-20",
+      "postcode": "CA2 5SL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SHANKLY ROAD"
+    },
+    {
+      "price": 45000,
+      "date": "2026-03-20",
+      "postcode": "CA2 5JQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, NORFOLK STREET"
+    },
+    {
+      "price": 198000,
+      "date": "2026-03-19",
+      "postcode": "CA2 6QL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, HELVELLYN RISE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-03-19",
+      "postcode": "CA3 0NA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, SOUTH CROFT"
+    },
+    {
+      "price": 220000,
+      "date": "2026-03-19",
+      "postcode": "CA6 4AQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, EDENSIDE"
+    },
+    {
+      "price": 60000,
+      "date": "2026-03-18",
+      "postcode": "CA1 2ND",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, LINDISFARNE STREET"
     }
   ]
 }

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.301Z",
+  "updatedAt": "2026-05-18T19:24:08.862Z",
   "townSlug": "burnley",
   "countySlug": "lancashire",
   "stats": {
-    "medianPrice": 109000,
+    "medianPrice": 110000,
     "medianByType": {
-      "D": 295125,
-      "S": 177500,
-      "T": 83500,
-      "F": 94625
+      "D": 300000,
+      "S": 180000,
+      "T": 85000,
+      "F": 89950
     },
-    "transactionCount12m": 1155,
-    "yoyChange": -5.2,
-    "newBuildCount": 7,
-    "existingCount": 1148,
-    "newBuildPremium": 187
+    "transactionCount12m": 1252,
+    "yoyChange": -4.3,
+    "newBuildCount": 6,
+    "existingCount": 1246,
+    "newBuildPremium": 221.9
   },
   "recentTransactions": [
     {
-      "price": 95000,
-      "date": "2026-02-20",
-      "postcode": "BB12 6RA",
+      "price": 89995,
+      "date": "2026-03-25",
+      "postcode": "BB10 3ER",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "18, LIONEL STREET"
+      "address": "23, WEST STREET"
     },
     {
-      "price": 274300,
-      "date": "2026-02-20",
-      "postcode": "BB12 6PU",
+      "price": 55000,
+      "date": "2026-03-24",
+      "postcode": "BB11 3LF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "100, DALL STREET"
+    },
+    {
+      "price": 160000,
+      "date": "2026-03-20",
+      "postcode": "BB11 1RY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "72, WESTGATE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-03-20",
+      "postcode": "BB12 8AW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "152, PRINTERS FOLD"
+      "address": "15, BRANTFELL DRIVE"
     },
     {
-      "price": 140000,
-      "date": "2026-02-20",
-      "postcode": "BB11 4HE",
+      "price": 125000,
+      "date": "2026-03-19",
+      "postcode": "BB10 4DL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "415, MANCHESTER ROAD"
+      "address": "185, BRUNSHAW ROAD"
     },
     {
-      "price": 94000,
-      "date": "2026-02-20",
-      "postcode": "BB10 1UD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "74, ST CUTHBERT STREET"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-20",
-      "postcode": "BB11 5JS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "269, COG LANE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-02-20",
-      "postcode": "BB12 0EF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "152, LOWER MANOR LANE"
-    },
-    {
-      "price": 123500,
-      "date": "2026-02-20",
+      "price": 133000,
+      "date": "2026-03-19",
       "postcode": "BB10 2RW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, SUNNINGDALE GARDENS"
+      "address": "11, SUNNINGDALE GARDENS"
     },
     {
-      "price": 82000,
-      "date": "2026-02-19",
-      "postcode": "BB12 8QX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "46, PENDLE STREET"
-    },
-    {
-      "price": 30000,
-      "date": "2026-02-18",
-      "postcode": "BB11 5AL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "177, ACCRINGTON ROAD"
-    },
-    {
-      "price": 29281,
-      "date": "2026-02-18",
-      "postcode": "BB12 7AZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, ELIZABETH STREET"
-    },
-    {
-      "price": 90000,
-      "date": "2026-02-13",
-      "postcode": "BB10 4DQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12, HAVEN STREET"
-    },
-    {
-      "price": 73000,
-      "date": "2026-02-13",
-      "postcode": "BB11 2HZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "56, HOLLINGREAVE ROAD"
-    },
-    {
-      "price": 142500,
-      "date": "2026-02-13",
-      "postcode": "BB10 2JF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "54, BURNLEY ROAD"
-    },
-    {
-      "price": 65500,
-      "date": "2026-02-13",
-      "postcode": "BB12 8QX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, PENDLE STREET"
-    },
-    {
-      "price": 80000,
-      "date": "2026-02-13",
-      "postcode": "BB12 6EX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, RONALD STREET"
-    },
-    {
-      "price": 40000,
-      "date": "2026-02-12",
-      "postcode": "BB12 0DB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "64, CROMWELL STREET"
-    },
-    {
-      "price": 120000,
-      "date": "2026-02-12",
-      "postcode": "BB11 5DH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "104, ROSSENDALE ROAD"
-    },
-    {
-      "price": 80000,
-      "date": "2026-02-11",
-      "postcode": "BB10 1PZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "45, HOWSIN STREET"
-    },
-    {
-      "price": 140000,
-      "date": "2026-02-11",
-      "postcode": "BB11 5JN",
+      "price": 155000,
+      "date": "2026-03-18",
+      "postcode": "BB11 3DS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "58, HILLSIDE"
+      "address": "170, LEYLAND ROAD"
     },
     {
-      "price": 95000,
-      "date": "2026-02-10",
-      "postcode": "BB11 3DJ",
+      "price": 37800,
+      "date": "2026-03-18",
+      "postcode": "BB10 1QA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "30, THURSTON STREET"
+      "address": "6, EVELYN STREET"
+    },
+    {
+      "price": 70000,
+      "date": "2026-03-17",
+      "postcode": "BB12 0JE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "22, NETHERFIELD CLOSE"
+    },
+    {
+      "price": 95000,
+      "date": "2026-03-17",
+      "postcode": "BB10 1RW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, NEWMAN STREET"
+    },
+    {
+      "price": 45000,
+      "date": "2026-03-16",
+      "postcode": "BB10 1SY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, MARK STREET"
+    },
+    {
+      "price": 83000,
+      "date": "2026-03-16",
+      "postcode": "BB10 1UR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "201, BRIERCLIFFE ROAD"
+    },
+    {
+      "price": 150000,
+      "date": "2026-03-16",
+      "postcode": "BB10 2PB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "151, CASTERTON AVENUE"
+    },
+    {
+      "price": 45000,
+      "date": "2026-03-16",
+      "postcode": "BB10 1UR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "223, BRIERCLIFFE ROAD"
+    },
+    {
+      "price": 215000,
+      "date": "2026-03-16",
+      "postcode": "BB12 0HU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, BRAMLEY AVENUE"
+    },
+    {
+      "price": 45000,
+      "date": "2026-03-16",
+      "postcode": "BB10 1UR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "215, BRIERCLIFFE ROAD"
+    },
+    {
+      "price": 80000,
+      "date": "2026-03-16",
+      "postcode": "BB10 2NS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, SUTTON AVENUE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-03-13",
+      "postcode": "BB10 3QT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "45, STIRLING COURT"
+    },
+    {
+      "price": 215000,
+      "date": "2026-03-13",
+      "postcode": "BB10 2DS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "20, SHORE AVENUE"
+    },
+    {
+      "price": 48000,
+      "date": "2026-03-12",
+      "postcode": "BB12 6QH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "105, GANNOW LANE"
     }
   ]
 }

@@ -1,22 +1,184 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.733Z",
+  "updatedAt": "2026-05-18T19:24:09.144Z",
   "townSlug": "hexham",
   "countySlug": "northumberland",
   "stats": {
-    "medianPrice": 260000,
+    "medianPrice": 281667,
     "medianByType": {
-      "D": 432250,
-      "S": 240000,
-      "T": 205000,
+      "D": 436250,
+      "S": 260000,
+      "T": 202500,
       "F": 145000
     },
-    "transactionCount12m": 269,
-    "yoyChange": -3.7,
+    "transactionCount12m": 294,
+    "yoyChange": 6.3,
     "newBuildCount": 0,
-    "existingCount": 269,
-    "newBuildPremium": -100
+    "existingCount": 294,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 170000,
+      "date": "2026-03-27",
+      "postcode": "NE46 3ET",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, SPITTAL TERRACE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-03-25",
+      "postcode": "NE46 1AS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, GIBSON FIELDS"
+    },
+    {
+      "price": 205000,
+      "date": "2026-03-25",
+      "postcode": "NE47 6DE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, INNERHAUGH MEWS"
+    },
+    {
+      "price": 375000,
+      "date": "2026-03-25",
+      "postcode": "NE46 2LX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, IVESON ROAD"
+    },
+    {
+      "price": 125000,
+      "date": "2026-03-20",
+      "postcode": "NE47 9PP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, DAWSON PLACE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-03-16",
+      "postcode": "NE46 3EU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, PRIOR TERRACE"
+    },
+    {
+      "price": 515000,
+      "date": "2026-03-16",
+      "postcode": "NE46 4SD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, DOBSON GARDENS"
+    },
+    {
+      "price": 330000,
+      "date": "2026-03-06",
+      "postcode": "NE46 4SU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, QUALITY COTTAGES"
+    },
+    {
+      "price": 655000,
+      "date": "2026-03-05",
+      "postcode": "NE47 9PU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ELMCROFT, THE DENE"
+    },
+    {
+      "price": 1060000,
+      "date": "2026-03-05",
+      "postcode": "NE46 2DP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "COFLETE HOUSE, HIGHFORD LANE"
+    },
+    {
+      "price": 475000,
+      "date": "2026-03-04",
+      "postcode": "NE46 1AX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, HACKWOOD PARK"
+    },
+    {
+      "price": 185000,
+      "date": "2026-02-24",
+      "postcode": "NE48 1HF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SOUTH WATERSIDE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-02-20",
+      "postcode": "NE47 9BP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CROSS KEYS, SHIELD STREET"
+    },
+    {
+      "price": 317500,
+      "date": "2026-02-20",
+      "postcode": "NE47 8AA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DOWN VIEW BARN"
+    },
+    {
+      "price": 730000,
+      "date": "2026-02-18",
+      "postcode": "NE46 1YB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE FOGGETT"
+    },
+    {
+      "price": 395000,
+      "date": "2026-02-18",
+      "postcode": "NE48 2DZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CALLISTERS COURT"
+    },
+    {
+      "price": 550000,
+      "date": "2026-02-16",
+      "postcode": "NE47 9JE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LOW RIGG"
+    },
+    {
+      "price": 300000,
+      "date": "2026-02-13",
+      "postcode": "",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BELLINGHAM AUCTION MART"
+    },
     {
       "price": 249000,
       "date": "2026-02-13",
@@ -27,175 +189,13 @@
       "address": "8, WOODBINE TERRACE"
     },
     {
-      "price": 183000,
-      "date": "2026-02-02",
-      "postcode": "NE46 3HF",
+      "price": 165000,
+      "date": "2026-02-04",
+      "postcode": "NE48 4AB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, TYNE GREEN"
-    },
-    {
-      "price": 350000,
-      "date": "2026-01-30",
-      "postcode": "NE46 2PD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, BENSON CLOSE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-01-30",
-      "postcode": "NE46 3JX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, LEAZES CRESCENT"
-    },
-    {
-      "price": 570000,
-      "date": "2026-01-30",
-      "postcode": "NE46 2HW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "STONEYCROFT, ELVASTON ROAD"
-    },
-    {
-      "price": 340000,
-      "date": "2026-01-30",
-      "postcode": "NE46 4DU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THISTLEHAUGH"
-    },
-    {
-      "price": 580000,
-      "date": "2026-01-22",
-      "postcode": "NE46 3JE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, TYNEDALE TERRACE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-01-16",
-      "postcode": "NE47 7EG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE FORGE"
-    },
-    {
-      "price": 182500,
-      "date": "2026-01-16",
-      "postcode": "NE46 2BW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, WEST HEXTOL"
-    },
-    {
-      "price": 238000,
-      "date": "2026-01-16",
-      "postcode": "NE46 1LQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, EDGEWOOD"
-    },
-    {
-      "price": 410000,
-      "date": "2026-01-16",
-      "postcode": "NE46 1BP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, THE PADDOCK, DIPTON MILL ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-01-16",
-      "postcode": "NE47 9QJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ORCHARD FARM COTTAGE"
-    },
-    {
-      "price": 757000,
-      "date": "2026-01-09",
-      "postcode": "NE47 0AD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LINDEN HOUSE"
-    },
-    {
-      "price": 386000,
-      "date": "2026-01-09",
-      "postcode": "NE46 2HZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, ROBSON DRIVE"
-    },
-    {
-      "price": 307000,
-      "date": "2026-01-05",
-      "postcode": "NE47 9QQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ALLEN VIEW"
-    },
-    {
-      "price": 470000,
-      "date": "2025-12-22",
-      "postcode": "NE47 6HG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MEADOW BANK, 10, BELMONT GARDENS"
-    },
-    {
-      "price": 126500,
-      "date": "2025-12-19",
-      "postcode": "NE47 6JN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, STROTHER CLOSE"
-    },
-    {
-      "price": 220000,
-      "date": "2025-12-19",
-      "postcode": "NE46 2DA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, WYDON PARK"
-    },
-    {
-      "price": 86000,
-      "date": "2025-12-19",
-      "postcode": "NE48 2TN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, ARMSTRONG STREET"
-    },
-    {
-      "price": 495000,
-      "date": "2025-12-19",
-      "postcode": "NE46 3BJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, SHAWS PARK"
+      "address": "1, WOODBINE TERRACE"
     }
   ]
 }

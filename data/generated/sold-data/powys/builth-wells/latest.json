@@ -1,21 +1,57 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.973Z",
+  "updatedAt": "2026-05-18T19:24:09.368Z",
   "townSlug": "builth-wells",
   "countySlug": "powys",
   "stats": {
-    "medianPrice": 280000,
+    "medianPrice": 290000,
     "medianByType": {
-      "D": 352500,
-      "S": 275000,
-      "T": 179975
+      "D": 355000,
+      "S": 280000,
+      "T": 179950
     },
-    "transactionCount12m": 40,
-    "yoyChange": 12,
+    "transactionCount12m": 44,
+    "yoyChange": 16,
     "newBuildCount": 0,
-    "existingCount": 40,
-    "newBuildPremium": -100
+    "existingCount": 44,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 177500,
+      "date": "2026-03-20",
+      "postcode": "LD2 3ED",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WOOL ROW"
+    },
+    {
+      "price": 385000,
+      "date": "2026-03-06",
+      "postcode": "LD2 3BE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, CAE CASTELL"
+    },
+    {
+      "price": 460000,
+      "date": "2026-03-06",
+      "postcode": "LD2 3NW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DOLEGLWYS, GOLF LINKS ROAD"
+    },
+    {
+      "price": 212000,
+      "date": "2026-03-06",
+      "postcode": "LD2 3EJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, PLEASANT VIEW"
+    },
     {
       "price": 420000,
       "date": "2026-01-23",
@@ -116,6 +152,15 @@
       "address": "4, CHURCH STREET"
     },
     {
+      "price": 305000,
+      "date": "2025-10-24",
+      "postcode": "LD2 3BE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, CAE CASTELL"
+    },
+    {
       "price": 355000,
       "date": "2025-10-23",
       "postcode": "LD2 3BE",
@@ -150,51 +195,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "39, HOSPITAL ROAD"
-    },
-    {
-      "price": 195000,
-      "date": "2025-10-01",
-      "postcode": "LD2 3EE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, BRECON ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2025-09-30",
-      "postcode": "LD2 3NL",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "IRFON INDUSTRIAL ESTATE, GARTH ROAD"
-    },
-    {
-      "price": 705000,
-      "date": "2025-09-30",
-      "postcode": "LD2 3JP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CHESNUT BARN"
-    },
-    {
-      "price": 191000,
-      "date": "2025-09-26",
-      "postcode": "LD2 3JY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, HERMAN VILLAS"
-    },
-    {
-      "price": 300000,
-      "date": "2025-09-12",
-      "postcode": "LD2 3NG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, PARC YR IRFON"
     }
   ]
 }

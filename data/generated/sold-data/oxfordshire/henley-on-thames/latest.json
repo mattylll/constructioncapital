@@ -1,22 +1,130 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.703Z",
+  "updatedAt": "2026-05-18T19:24:08.236Z",
   "townSlug": "henley-on-thames",
   "countySlug": "oxfordshire",
   "stats": {
-    "medianPrice": 687500,
+    "medianPrice": 650000,
     "medianByType": {
-      "D": 1242500,
-      "S": 572500,
-      "T": 565000,
-      "F": 350000
+      "D": 1230000,
+      "S": 565000,
+      "T": 555000,
+      "F": 347500
     },
-    "transactionCount12m": 190,
-    "yoyChange": -5.2,
-    "newBuildCount": 5,
-    "existingCount": 185,
-    "newBuildPremium": -20.1
+    "transactionCount12m": 207,
+    "yoyChange": -11.6,
+    "newBuildCount": 11,
+    "existingCount": 196,
+    "newBuildPremium": -20.4
   },
   "recentTransactions": [
+    {
+      "price": 676500,
+      "date": "2026-03-24",
+      "postcode": "RG9 1XW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, GRAVETT CLOSE"
+    },
+    {
+      "price": 915000,
+      "date": "2026-03-24",
+      "postcode": "RG9 1NJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, PEPPARD LANE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-03-20",
+      "postcode": "RG9 1AJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "31, HILL VIEW APARTMENTS, 2, NEWTOWN ROAD"
+    },
+    {
+      "price": 1495000,
+      "date": "2026-03-19",
+      "postcode": "RG9 2JJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, NORTHFIELD END"
+    },
+    {
+      "price": 900000,
+      "date": "2026-03-18",
+      "postcode": "RG9 1RJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ORCHARD LEIGH, ELIZABETH ROAD"
+    },
+    {
+      "price": 900000,
+      "date": "2026-03-05",
+      "postcode": "RG9 1DG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, MARMION ROAD"
+    },
+    {
+      "price": 333350,
+      "date": "2026-03-05",
+      "postcode": "RG9 1TB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "45B, GAINSBOROUGH CRESCENT"
+    },
+    {
+      "price": 512500,
+      "date": "2026-03-04",
+      "postcode": "RG9 1DB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, PARK ROAD"
+    },
+    {
+      "price": 420000,
+      "date": "2026-03-03",
+      "postcode": "RG9 1HX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "23, DAMER GARDENS"
+    },
+    {
+      "price": 390000,
+      "date": "2026-02-27",
+      "postcode": "RG9 2FH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 6, THE URBAN LOFTS, 4A, KINGS ROAD"
+    },
+    {
+      "price": 345000,
+      "date": "2026-02-27",
+      "postcode": "RG9 2JZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, FAIRMILE"
+    },
+    {
+      "price": 515000,
+      "date": "2026-02-26",
+      "postcode": "RG9 1XW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, GRAVETT CLOSE"
+    },
     {
       "price": 460000,
       "date": "2026-02-25",
@@ -27,6 +135,24 @@
       "address": "12, CLARENCE ROAD"
     },
     {
+      "price": 440000,
+      "date": "2026-02-24",
+      "postcode": "RG9 5DH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "YEW TREE COTTAGE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-02-23",
+      "postcode": "RG9 1TE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "135, GREYS ROAD"
+    },
+    {
       "price": 290000,
       "date": "2026-02-18",
       "postcode": "RG9 1EP",
@@ -34,6 +160,24 @@
       "newBuild": false,
       "tenure": "L",
       "address": "14, WAR MEMORIAL PLACE"
+    },
+    {
+      "price": 700000,
+      "date": "2026-02-17",
+      "postcode": "RG9 1DN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "110, READING ROAD"
+    },
+    {
+      "price": 1015000,
+      "date": "2026-02-17",
+      "postcode": "RG9 5NH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, HAZEL GROVE"
     },
     {
       "price": 636275,
@@ -52,150 +196,6 @@
       "newBuild": false,
       "tenure": "L",
       "address": "16, GARDINER PLACE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-02-06",
-      "postcode": "RG9 1UQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, ACACIA HOUSE, ANCASTLE GREEN"
-    },
-    {
-      "price": 530000,
-      "date": "2026-01-30",
-      "postcode": "RG9 1DH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, GROVE ROAD"
-    },
-    {
-      "price": 620000,
-      "date": "2026-01-30",
-      "postcode": "RG9 2DR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, YORK ROAD"
-    },
-    {
-      "price": 1375000,
-      "date": "2026-01-29",
-      "postcode": "RG9 1JH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, CROMWELL ROAD"
-    },
-    {
-      "price": 470000,
-      "date": "2026-01-28",
-      "postcode": "RG9 2HJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, CLEMENTS ROAD"
-    },
-    {
-      "price": 550000,
-      "date": "2026-01-26",
-      "postcode": "RG9 1EB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, NIAGARA ROAD"
-    },
-    {
-      "price": 535000,
-      "date": "2026-01-23",
-      "postcode": "RG9 1DB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, PARK ROAD"
-    },
-    {
-      "price": 805000,
-      "date": "2026-01-22",
-      "postcode": "RG9 5DP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DYMOND COTTAGE, 1"
-    },
-    {
-      "price": 606000,
-      "date": "2026-01-19",
-      "postcode": "RG9 1DN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "98, READING ROAD"
-    },
-    {
-      "price": 750000,
-      "date": "2026-01-16",
-      "postcode": "RG9 4ED",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, HEATHFIELD AVENUE"
-    },
-    {
-      "price": 395000,
-      "date": "2026-01-16",
-      "postcode": "RG9 1TD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "93, GREYS ROAD"
-    },
-    {
-      "price": 730000,
-      "date": "2026-01-16",
-      "postcode": "RG9 1UG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, DEANFIELD ROAD"
-    },
-    {
-      "price": 150000,
-      "date": "2026-01-15",
-      "postcode": "RG9 1EP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "21, WAR MEMORIAL PLACE"
-    },
-    {
-      "price": 2100000,
-      "date": "2026-01-12",
-      "postcode": "RG9 1UE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FIELD HOUSE, 43, DEANFIELD AVENUE"
-    },
-    {
-      "price": 500000,
-      "date": "2026-01-12",
-      "postcode": "RG9 2DR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, YORK ROAD"
-    },
-    {
-      "price": 565000,
-      "date": "2026-01-06",
-      "postcode": "RG9 4HJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "IVY COTTAGE"
     }
   ]
 }

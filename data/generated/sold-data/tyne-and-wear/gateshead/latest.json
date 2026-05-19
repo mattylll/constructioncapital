@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.677Z",
+  "updatedAt": "2026-05-18T19:24:09.087Z",
   "townSlug": "gateshead",
   "countySlug": "tyne-and-wear",
   "stats": {
-    "medianPrice": 149925,
+    "medianPrice": 150000,
     "medianByType": {
-      "D": 310000,
+      "D": 306600,
       "S": 170000,
       "T": 137500,
-      "F": 94000
+      "F": 92625
     },
-    "transactionCount12m": 1978,
-    "yoyChange": -3.7,
-    "newBuildCount": 45,
-    "existingCount": 1933,
-    "newBuildPremium": 44.1
+    "transactionCount12m": 2133,
+    "yoyChange": -3.2,
+    "newBuildCount": 53,
+    "existingCount": 2080,
+    "newBuildPremium": 59.5
   },
   "recentTransactions": [
     {
-      "price": 221000,
-      "date": "2026-02-23",
-      "postcode": "NE9 5HN",
+      "price": 130000,
+      "date": "2026-03-30",
+      "postcode": "NE9 5EP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, JOICEY ROAD"
+      "address": "10, ROCK GROVE"
     },
     {
-      "price": 115000,
-      "date": "2026-02-20",
-      "postcode": "NE21 4EW",
+      "price": 200000,
+      "date": "2026-03-27",
+      "postcode": "NE21 6SA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, BRIAR CLOSE"
+      "address": "11, NAYLOR AVENUE"
     },
     {
-      "price": 165000,
-      "date": "2026-02-20",
-      "postcode": "NE8 4SB",
-      "propertyType": "S",
+      "price": 242000,
+      "date": "2026-03-27",
+      "postcode": "NE40 3PT",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "329, BRIGHTON ROAD"
+      "address": "1, NORTHUMBERLAND ROAD"
+    },
+    {
+      "price": 140000,
+      "date": "2026-03-26",
+      "postcode": "NE39 2DL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, HILLCROFT"
     },
     {
       "price": 320000,
-      "date": "2026-02-20",
-      "postcode": "NE9 5TS",
+      "date": "2026-03-25",
+      "postcode": "DH3 1LX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "91, DRYDEN ROAD"
+      "address": "9, EGTON TERRACE"
     },
     {
-      "price": 173000,
-      "date": "2026-02-19",
-      "postcode": "NE10 9UU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, THORNYGARTH"
-    },
-    {
-      "price": 220000,
-      "date": "2026-02-19",
-      "postcode": "NE21 6BQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, NEWBANK WALK"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-19",
-      "postcode": "NE9 6RE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, QUEEN ELIZABETH AVENUE"
-    },
-    {
-      "price": 82000,
-      "date": "2026-02-19",
-      "postcode": "NE10 0NX",
+      "price": 125000,
+      "date": "2026-03-23",
+      "postcode": "NE8 2BG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "3, STOWELL TERRACE"
+      "address": "36, THE GRAINGER, NORTH WEST SIDE"
     },
     {
-      "price": 168000,
-      "date": "2026-02-19",
-      "postcode": "NE10 8UL",
+      "price": 207000,
+      "date": "2026-03-20",
+      "postcode": "NE8 3JD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, REDGRAVE CLOSE"
+    },
+    {
+      "price": 120000,
+      "date": "2026-03-20",
+      "postcode": "NE21 4DT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, MERESYDE"
+      "address": "27, RIVER VIEW"
     },
     {
-      "price": 190000,
-      "date": "2026-02-17",
-      "postcode": "NE10 8HH",
+      "price": 250000,
+      "date": "2026-03-20",
+      "postcode": "NE9 5TA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, MUSGRAVE ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-20",
+      "postcode": "NE40 3RU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "28, MEADOW CLOSE"
+    },
+    {
+      "price": 90000,
+      "date": "2026-03-20",
+      "postcode": "NE39 1PQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, WHINFIELD COTTAGES"
+    },
+    {
+      "price": 138000,
+      "date": "2026-03-20",
+      "postcode": "NE10 8JR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, LABURNUM AVENUE"
+      "address": "100, COTEMEDE"
     },
     {
-      "price": 320000,
-      "date": "2026-02-17",
-      "postcode": "NE40 3AN",
+      "price": 76000,
+      "date": "2026-03-20",
+      "postcode": "DH3 1EB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, QUEEN STREET"
+    },
+    {
+      "price": 110000,
+      "date": "2026-03-20",
+      "postcode": "DH3 1JT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, ELISABETH AVENUE"
+    },
+    {
+      "price": 163000,
+      "date": "2026-03-20",
+      "postcode": "NE9 6AA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56, EARLS DRIVE"
+    },
+    {
+      "price": 48000,
+      "date": "2026-03-18",
+      "postcode": "NE16 4DN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "25, ST MARYS GREEN"
+    },
+    {
+      "price": 177500,
+      "date": "2026-03-17",
+      "postcode": "NE8 2GS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, BEDE COURTYARD, WINTERS PASS"
+    },
+    {
+      "price": 73000,
+      "date": "2026-03-16",
+      "postcode": "NE40 4AL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, STANHOPE STREET"
+    },
+    {
+      "price": 205000,
+      "date": "2026-03-16",
+      "postcode": "NE40 3SB",
       "propertyType": "D",
       "newBuild": false,
-      "tenure": "F",
-      "address": "MAYFIELD, BARMOOR LANE"
+      "tenure": "L",
+      "address": "12, THE MEADOWS"
     },
     {
-      "price": 285000,
-      "date": "2026-02-16",
-      "postcode": "NE9 5EY",
+      "price": 230050,
+      "date": "2026-03-13",
+      "postcode": "NE11 0BT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "555, DURHAM ROAD"
-    },
-    {
-      "price": 425000,
-      "date": "2026-02-16",
-      "postcode": "NE40 4FE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, TILLEY CRESCENT"
-    },
-    {
-      "price": 148000,
-      "date": "2026-02-16",
-      "postcode": "NE40 3NG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, WOODSIDE WAY"
-    },
-    {
-      "price": 130000,
-      "date": "2026-02-16",
-      "postcode": "NE10 8UH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, GLANTON CLOSE"
-    },
-    {
-      "price": 100000,
-      "date": "2026-02-16",
-      "postcode": "NE21 4AP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, DELACOUR ROAD"
-    },
-    {
-      "price": 137000,
-      "date": "2026-02-16",
-      "postcode": "NE10 8LX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "74, OAKWOOD"
-    },
-    {
-      "price": 480000,
-      "date": "2026-02-16",
-      "postcode": "NE40 4JF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, THE STEADINGS"
-    },
-    {
-      "price": 230000,
-      "date": "2026-02-13",
-      "postcode": "NE9 5ED",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, SALKELD GARDENS"
-    },
-    {
-      "price": 136000,
-      "date": "2026-02-13",
-      "postcode": "NE16 3JN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, PLANTATION AVENUE"
+      "address": "417, LOBLEY HILL ROAD"
     }
   ]
 }

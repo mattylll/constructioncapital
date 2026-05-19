@@ -1,22 +1,94 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.817Z",
+  "updatedAt": "2026-05-18T19:24:09.227Z",
   "townSlug": "st-ives",
   "countySlug": "cambridgeshire",
   "stats": {
-    "medianPrice": 305000,
+    "medianPrice": 317150,
     "medianByType": {
-      "D": 405250,
-      "S": 312500,
-      "T": 257500,
-      "F": 185500
+      "D": 421000,
+      "S": 325000,
+      "T": 267000,
+      "F": 186000
     },
-    "transactionCount12m": 200,
-    "yoyChange": 0,
-    "newBuildCount": 2,
-    "existingCount": 198,
-    "newBuildPremium": -100
+    "transactionCount12m": 206,
+    "yoyChange": 5.3,
+    "newBuildCount": 1,
+    "existingCount": 205,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 369000,
+      "date": "2026-03-06",
+      "postcode": "PE27 5DR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, TERN DRIVE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-03-02",
+      "postcode": "PE27 6TE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, BRIGHAM CRESCENT"
+    },
+    {
+      "price": 525000,
+      "date": "2026-02-26",
+      "postcode": "PE27 6TG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, WILSON WAY"
+    },
+    {
+      "price": 240000,
+      "date": "2026-02-25",
+      "postcode": "PE27 5RR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4 LIBERAL HALL, CROWN YARD, EAST STREET"
+    },
+    {
+      "price": 454975,
+      "date": "2026-02-25",
+      "postcode": "PE27 4SG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, OLD FARM CLOSE"
+    },
+    {
+      "price": 680000,
+      "date": "2026-02-24",
+      "postcode": "PE27 3LY",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRIDGE FARM, SOMERSHAM ROAD"
+    },
+    {
+      "price": 365000,
+      "date": "2026-02-24",
+      "postcode": "PE27 6UD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, OAK TREE CLOSE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-02-20",
+      "postcode": "PE27 6SR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, PETTIS ROAD"
+    },
     {
       "price": 280000,
       "date": "2026-02-20",
@@ -25,6 +97,78 @@
       "newBuild": false,
       "tenure": "F",
       "address": "2, PARK MEWS"
+    },
+    {
+      "price": 445000,
+      "date": "2026-02-19",
+      "postcode": "PE27 6TL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CEDAR ROAD"
+    },
+    {
+      "price": 346000,
+      "date": "2026-02-16",
+      "postcode": "PE27 5DH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, DUNNOCK WAY"
+    },
+    {
+      "price": 310000,
+      "date": "2026-02-13",
+      "postcode": "PE27 3YN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "118, BURSTELLARS"
+    },
+    {
+      "price": 295000,
+      "date": "2026-02-13",
+      "postcode": "PE27 3DB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, EDINBURGH DRIVE"
+    },
+    {
+      "price": 495000,
+      "date": "2026-02-13",
+      "postcode": "PE27 5QP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, TENTERLEAS"
+    },
+    {
+      "price": 408000,
+      "date": "2026-02-13",
+      "postcode": "PE27 6RU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, HIGH LEYS"
+    },
+    {
+      "price": 355000,
+      "date": "2026-02-13",
+      "postcode": "PE27 3FJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, NENE WAY"
+    },
+    {
+      "price": 510000,
+      "date": "2026-02-13",
+      "postcode": "PE27 6TD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, ADAMS DRIVE"
     },
     {
       "price": 319300,
@@ -52,150 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "35, GREENFIELDS"
-    },
-    {
-      "price": 408000,
-      "date": "2026-02-13",
-      "postcode": "PE27 6RU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, HIGH LEYS"
-    },
-    {
-      "price": 355000,
-      "date": "2026-02-13",
-      "postcode": "PE27 3FJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, NENE WAY"
-    },
-    {
-      "price": 182000,
-      "date": "2026-02-06",
-      "postcode": "PE27 5QZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "25, HARVEST COURT"
-    },
-    {
-      "price": 365000,
-      "date": "2026-02-05",
-      "postcode": "PE27 6UQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, CHESTNUT CLOSE"
-    },
-    {
-      "price": 636000,
-      "date": "2026-02-04",
-      "postcode": "PE27 6SN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, ANSLEY WAY"
-    },
-    {
-      "price": 280000,
-      "date": "2026-01-30",
-      "postcode": "PE27 5EY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "G2, THE OLD MILL, LONDON ROAD"
-    },
-    {
-      "price": 217000,
-      "date": "2026-01-30",
-      "postcode": "PE27 5PZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE PUMP HOUSE, OXFORD ROAD"
-    },
-    {
-      "price": 255000,
-      "date": "2026-01-19",
-      "postcode": "PE27 3YW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, LABURNUM WAY"
-    },
-    {
-      "price": 260000,
-      "date": "2026-01-16",
-      "postcode": "PE27 6TG",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, WILSON WAY"
-    },
-    {
-      "price": 288000,
-      "date": "2026-01-16",
-      "postcode": "PE27 3UP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, VALIANT ROAD"
-    },
-    {
-      "price": 252500,
-      "date": "2026-01-14",
-      "postcode": "PE27 6RY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "79, GREEN LEYS"
-    },
-    {
-      "price": 191000,
-      "date": "2025-12-19",
-      "postcode": "PE27 6TB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "78, KNIGHTS WAY"
-    },
-    {
-      "price": 230000,
-      "date": "2025-12-19",
-      "postcode": "PE27 3JE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, TAMAR CLOSE"
-    },
-    {
-      "price": 385000,
-      "date": "2025-12-19",
-      "postcode": "PE27 6AF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, ANDERSON DRIVE"
-    },
-    {
-      "price": 200000,
-      "date": "2025-12-19",
-      "postcode": "PE27 5BB",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, THE RIDINGS, PRIORY ROAD"
-    },
-    {
-      "price": 180000,
-      "date": "2025-12-19",
-      "postcode": "PE27 5DZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, OSIER HOUSE, NEW ROAD"
     }
   ]
 }

@@ -1,22 +1,184 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.700Z",
+  "updatedAt": "2026-05-18T19:24:09.112Z",
   "townSlug": "newton-aycliffe",
   "countySlug": "county-durham",
   "stats": {
-    "medianPrice": 132000,
+    "medianPrice": 128000,
     "medianByType": {
       "D": 230000,
       "S": 145000,
-      "T": 90500,
+      "T": 86000,
       "F": 64500
     },
-    "transactionCount12m": 269,
-    "yoyChange": -2.9,
+    "transactionCount12m": 274,
+    "yoyChange": -5.5,
     "newBuildCount": 0,
-    "existingCount": 269,
-    "newBuildPremium": -100
+    "existingCount": 274,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 120000,
+      "date": "2026-03-23",
+      "postcode": "DL5 5DB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, YACLEY CLOSE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-03-13",
+      "postcode": "DL5 4UN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "58, PEMBERTON ROAD"
+    },
+    {
+      "price": 65000,
+      "date": "2026-03-10",
+      "postcode": "DL5 7NL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "126, BROCKETT CLOSE"
+    },
+    {
+      "price": 54000,
+      "date": "2026-03-09",
+      "postcode": "DL5 7EE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "73, ARNCLIFFE PLACE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-06",
+      "postcode": "DL5 4FG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, BLUESTONE CLOSE"
+    },
+    {
+      "price": 76500,
+      "date": "2026-03-05",
+      "postcode": "DL5 4AU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, WOLSEY CLOSE"
+    },
+    {
+      "price": 53000,
+      "date": "2026-02-27",
+      "postcode": "DL5 5RA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, RAMSEY PLACE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-02-27",
+      "postcode": "DL5 4RQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, BRAFFERTON CLOSE"
+    },
+    {
+      "price": 355000,
+      "date": "2026-02-27",
+      "postcode": "DL5 4UB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, WOODHAM GATE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-02-27",
+      "postcode": "DL5 4NT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, NEWBURN COURT"
+    },
+    {
+      "price": 125000,
+      "date": "2026-02-27",
+      "postcode": "DL5 5DY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, BALIOL GREEN"
+    },
+    {
+      "price": 262500,
+      "date": "2026-02-27",
+      "postcode": "DL5 6ND",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, MILLFIELDS"
+    },
+    {
+      "price": 29000,
+      "date": "2026-02-26",
+      "postcode": "DL5 7DR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, WHINLATTER PLACE"
+    },
+    {
+      "price": 105000,
+      "date": "2026-02-26",
+      "postcode": "DL5 7LQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, ZETLAND HUNT"
+    },
+    {
+      "price": 59000,
+      "date": "2026-02-25",
+      "postcode": "DL5 7NH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, BATES CLOSE"
+    },
+    {
+      "price": 74000,
+      "date": "2026-02-23",
+      "postcode": "DL5 7ES",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, GRASSHOLME PLACE"
+    },
+    {
+      "price": 183000,
+      "date": "2026-02-23",
+      "postcode": "DL5 4BF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, THE PASTURE"
+    },
+    {
+      "price": 85000,
+      "date": "2026-02-20",
+      "postcode": "DL5 4LY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, LILBURNE CRESCENT"
+    },
     {
       "price": 67750,
       "date": "2026-02-16",
@@ -27,24 +189,6 @@
       "address": "41, STOCKS GREEN"
     },
     {
-      "price": 95000,
-      "date": "2026-02-13",
-      "postcode": "DL5 5PD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, CREWE ROAD"
-    },
-    {
-      "price": 115000,
-      "date": "2026-02-13",
-      "postcode": "DL5 5AR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, MELLANBY CRESCENT"
-    },
-    {
       "price": 65000,
       "date": "2026-02-13",
       "postcode": "DL5 4EZ",
@@ -52,150 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "7, WRIGHT CLOSE"
-    },
-    {
-      "price": 115000,
-      "date": "2026-02-03",
-      "postcode": "DL5 4FF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, WELLHOUSE ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-02-02",
-      "postcode": "DL5 4TR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, LOW GREEN"
-    },
-    {
-      "price": 69995,
-      "date": "2026-01-30",
-      "postcode": "DL5 7AY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "61, BEECHFIELD"
-    },
-    {
-      "price": 74000,
-      "date": "2026-01-30",
-      "postcode": "DL5 7AZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "103, BEECHFIELD"
-    },
-    {
-      "price": 60000,
-      "date": "2026-01-27",
-      "postcode": "DL5 4QE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "138, GUTHRUM PLACE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-01-23",
-      "postcode": "DL5 4XF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, HASLEWOOD ROAD"
-    },
-    {
-      "price": 347500,
-      "date": "2026-01-23",
-      "postcode": "DL5 4XH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, KARLES CLOSE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-01-23",
-      "postcode": "DL5 7QP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, THWAITES CLOSE"
-    },
-    {
-      "price": 126000,
-      "date": "2026-01-16",
-      "postcode": "DL5 5HN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, LEE GREEN"
-    },
-    {
-      "price": 155100,
-      "date": "2026-01-16",
-      "postcode": "DL5 7PT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, BELFORD WAY"
-    },
-    {
-      "price": 70000,
-      "date": "2026-01-16",
-      "postcode": "DL5 7HF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "68, FEWSTON CLOSE"
-    },
-    {
-      "price": 127500,
-      "date": "2026-01-16",
-      "postcode": "DL5 4FF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, WELLHOUSE ROAD"
-    },
-    {
-      "price": 103000,
-      "date": "2026-01-16",
-      "postcode": "DL5 4BG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, WREN CLOSE"
-    },
-    {
-      "price": 170000,
-      "date": "2025-12-19",
-      "postcode": "DL5 4XL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, PATENSON COURT"
-    },
-    {
-      "price": 120000,
-      "date": "2025-12-19",
-      "postcode": "DL5 4BP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, FELTON CLOSE"
-    },
-    {
-      "price": 147500,
-      "date": "2025-12-19",
-      "postcode": "DL5 5HZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, CLARENCE GREEN"
     }
   ]
 }

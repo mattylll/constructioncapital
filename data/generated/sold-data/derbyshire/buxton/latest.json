@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.098Z",
+  "updatedAt": "2026-05-18T19:24:08.646Z",
   "townSlug": "buxton",
   "countySlug": "derbyshire",
   "stats": {
-    "medianPrice": 250000,
+    "medianPrice": 258000,
     "medianByType": {
-      "D": 430000,
-      "S": 272500,
+      "D": 425000,
+      "S": 270000,
       "T": 210000,
-      "F": 150000
+      "F": 154975
     },
-    "transactionCount12m": 1000,
-    "yoyChange": -3.8,
+    "transactionCount12m": 1095,
+    "yoyChange": 0.2,
     "newBuildCount": 26,
-    "existingCount": 974,
-    "newBuildPremium": 83
+    "existingCount": 1069,
+    "newBuildPremium": 76
   },
   "recentTransactions": [
     {
-      "price": 210000,
-      "date": "2026-02-20",
-      "postcode": "SK13 1EF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "60, POST STREET"
-    },
-    {
-      "price": 220000,
-      "date": "2026-02-20",
-      "postcode": "SK17 8DW",
+      "price": 430000,
+      "date": "2026-03-27",
+      "postcode": "SK13 5HB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, BUXTON ROAD"
+      "address": "74, GLOSSOP ROAD"
     },
     {
-      "price": 260000,
-      "date": "2026-02-20",
-      "postcode": "SK22 4LN",
+      "price": 235000,
+      "date": "2026-03-27",
+      "postcode": "SK13 2DW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, QUEEN STREET"
+    },
+    {
+      "price": 562500,
+      "date": "2026-03-27",
+      "postcode": "SK13 6LD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, THE OAKS"
+    },
+    {
+      "price": 539000,
+      "date": "2026-03-24",
+      "postcode": "SK23 0LD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12, ROWTON GRANGE ROAD"
+    },
+    {
+      "price": 400000,
+      "date": "2026-03-23",
+      "postcode": "SK17 6JQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, BOWDEN CRESCENT"
+      "address": "3A, HARTINGTON ROAD"
     },
     {
-      "price": 250000,
-      "date": "2026-02-18",
-      "postcode": "SK17 6SR",
-      "propertyType": "T",
+      "price": 274000,
+      "date": "2026-03-20",
+      "postcode": "SK23 0NY",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "61, MANCHESTER ROAD"
+      "address": "26, BERESFORD ROAD"
     },
     {
-      "price": 215000,
-      "date": "2026-02-18",
-      "postcode": "SK13 8AT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, CHAPEL STREET"
-    },
-    {
-      "price": 115000,
-      "date": "2026-02-18",
-      "postcode": "SK13 1AJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "108A, STATION ROAD"
-    },
-    {
-      "price": 178950,
-      "date": "2026-02-17",
-      "postcode": "SK13 1LW",
+      "price": 200000,
+      "date": "2026-03-20",
+      "postcode": "SK22 4PE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "30, MANCHESTER ROAD"
+      "address": "27, NEW STREET"
     },
     {
       "price": 172500,
-      "date": "2026-02-17",
-      "postcode": "SK23 7PX",
+      "date": "2026-03-20",
+      "postcode": "SK17 7ER",
       "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "210, BUXTON ROAD"
-    },
-    {
-      "price": 465000,
-      "date": "2026-02-13",
-      "postcode": "S33 0BT",
-      "propertyType": "D",
-      "newBuild": false,
       "tenure": "F",
-      "address": "TY BRYN, WEST LEES ROAD"
+      "address": "69, QUEENS ROAD"
     },
     {
-      "price": 295000,
-      "date": "2026-02-13",
-      "postcode": "SK13 1AD",
+      "price": 358000,
+      "date": "2026-03-18",
+      "postcode": "SK23 6BN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, TORSIDE STREET"
+      "address": "THE SURGERY, GREEN LANE"
     },
     {
-      "price": 65000,
-      "date": "2026-02-13",
-      "postcode": "SK17 6HH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT A, 11, BATH ROAD"
-    },
-    {
-      "price": 284500,
-      "date": "2026-02-12",
-      "postcode": "SK17 9PD",
+      "price": 265000,
+      "date": "2026-03-18",
+      "postcode": "SK23 7NT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "65, BERWICK ROAD"
+      "address": "11, WOODBROOK"
     },
     {
-      "price": 389000,
-      "date": "2026-02-12",
-      "postcode": "SK13 1QJ",
+      "price": 486000,
+      "date": "2026-03-18",
+      "postcode": "SK23 7BD",
       "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "9, LODGE BANK"
+      "tenure": "F",
+      "address": "19, MEADOW CLOSE"
     },
     {
-      "price": 45600,
-      "date": "2026-02-11",
-      "postcode": "SK13 8GJ",
-      "propertyType": "F",
+      "price": 272000,
+      "date": "2026-03-17",
+      "postcode": "SK17 9XP",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 26, WREN NEST MILL, GLOSSOP BROOK ROAD"
+      "tenure": "F",
+      "address": "68, CAIRN DRIVE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-03-17",
+      "postcode": "SK23 7NR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, ROSEY BANK"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-17",
+      "postcode": "SK23 0TF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, LONG LANE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-03-16",
+      "postcode": "SK17 6NQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, SOUTH AVENUE"
     },
     {
       "price": 252000,
-      "date": "2026-02-09",
-      "postcode": "SK17 7BR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, THOMAS FIELDS, BROWN EDGE ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-02-06",
-      "postcode": "SK17 6DT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, RIVERSIDE COURT"
-    },
-    {
-      "price": 135000,
-      "date": "2026-02-06",
-      "postcode": "SK13 8AZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 5, 69, HIGH STREET WEST"
-    },
-    {
-      "price": 362500,
-      "date": "2026-02-06",
-      "postcode": "SK17 9FZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, COLLEGE DRIVE"
-    },
-    {
-      "price": 124000,
-      "date": "2026-02-06",
-      "postcode": "SK17 9AR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, DINGLESIDE, 4, BURLINGTON ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-02-06",
-      "postcode": "SK13 8JY",
+      "date": "2026-03-16",
+      "postcode": "SK17 6ND",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, EBENEZER STREET"
+      "address": "30, DALE ROAD"
+    },
+    {
+      "price": 305000,
+      "date": "2026-03-16",
+      "postcode": "SK17 9PF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, AMBERLEY DRIVE"
+    },
+    {
+      "price": 442500,
+      "date": "2026-03-16",
+      "postcode": "SK17 6SP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "123, PARK ROAD"
+    },
+    {
+      "price": 186000,
+      "date": "2026-03-13",
+      "postcode": "SK17 6NA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, BENNETT STREET"
+    },
+    {
+      "price": 490000,
+      "date": "2026-03-13",
+      "postcode": "SK17 6SL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, THE GLADE"
     }
   ]
 }

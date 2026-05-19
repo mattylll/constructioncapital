@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.409Z",
+  "updatedAt": "2026-05-18T19:24:07.914Z",
   "townSlug": "bromley",
   "countySlug": "greater-london",
   "stats": {
     "medianPrice": 510000,
     "medianByType": {
-      "D": 860000,
+      "D": 870000,
       "S": 620000,
-      "T": 512250,
+      "T": 510000,
       "F": 330000
     },
-    "transactionCount12m": 2907,
+    "transactionCount12m": 3156,
     "yoyChange": 3,
-    "newBuildCount": 40,
-    "existingCount": 2867,
-    "newBuildPremium": -36.1
+    "newBuildCount": 39,
+    "existingCount": 3117,
+    "newBuildPremium": -34.6
   },
   "recentTransactions": [
     {
-      "price": 351500,
-      "date": "2026-02-23",
-      "postcode": "BR6 9QR",
+      "price": 450000,
+      "date": "2026-03-30",
+      "postcode": "BR5 3JR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, MAXWELL GARDENS"
+      "address": "1, GEORGES CLOSE"
     },
     {
-      "price": 785000,
-      "date": "2026-02-23",
-      "postcode": "BR2 0JD",
-      "propertyType": "T",
+      "price": 645000,
+      "date": "2026-03-27",
+      "postcode": "BR3 3JL",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, SHORTLANDS ROAD"
+      "address": "362, EDEN PARK AVENUE"
     },
     {
-      "price": 292000,
-      "date": "2026-02-20",
-      "postcode": "BR2 0YN",
+      "price": 311000,
+      "date": "2026-03-27",
+      "postcode": "BR3 5JD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "65, WHITEHAVEN CLOSE"
+      "address": "FLAT D, 28, BROMLEY ROAD"
     },
     {
-      "price": 635000,
-      "date": "2026-02-20",
-      "postcode": "BR3 3XU",
-      "propertyType": "T",
+      "price": 550000,
+      "date": "2026-03-26",
+      "postcode": "BR7 6EA",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "F",
-      "address": "11, ST MARTINS LANE"
+      "tenure": "L",
+      "address": "28, OAKDENE AVENUE"
     },
     {
-      "price": 260000,
-      "date": "2026-02-20",
-      "postcode": "BR6 0FD",
+      "price": 415000,
+      "date": "2026-03-26",
+      "postcode": "BR3 1RN",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 59, BERWICK HOUSE, 8 - 10, KNOLL RISE"
+      "address": "7, SILVERWOOD CLOSE"
     },
     {
-      "price": 430000,
-      "date": "2026-02-20",
-      "postcode": "SE20 8FW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 80, LAMBOURNE HOUSE, APPLE YARD"
-    },
-    {
-      "price": 630000,
-      "date": "2026-02-20",
-      "postcode": "BR7 6BJ",
+      "price": 500000,
+      "date": "2026-03-26",
+      "postcode": "BR2 9PT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "46, BELMONT LANE"
+      "address": "57, ALBERT ROAD"
     },
     {
-      "price": 875000,
-      "date": "2026-02-20",
-      "postcode": "BR3 3JU",
-      "propertyType": "T",
+      "price": 970000,
+      "date": "2026-03-25",
+      "postcode": "BR3 4QA",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "50, GLANFIELD ROAD"
-    },
-    {
-      "price": 330000,
-      "date": "2026-02-20",
-      "postcode": "BR5 4AJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "87, LOWER ROAD"
-    },
-    {
-      "price": 850000,
-      "date": "2026-02-20",
-      "postcode": "BR6 9XP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, HOLYWELL CLOSE"
-    },
-    {
-      "price": 515000,
-      "date": "2026-02-19",
-      "postcode": "BR1 4AA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31A, HIGHLAND ROAD"
+      "address": "50, SIDNEY ROAD"
     },
     {
       "price": 435000,
-      "date": "2026-02-19",
-      "postcode": "BR3 4QS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, SULTAN STREET"
-    },
-    {
-      "price": 965500,
-      "date": "2026-02-18",
-      "postcode": "BR2 9AZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, CAMERON ROAD"
-    },
-    {
-      "price": 810000,
-      "date": "2026-02-17",
-      "postcode": "BR3 3DT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "206, EDEN WAY"
-    },
-    {
-      "price": 760000,
-      "date": "2026-02-17",
-      "postcode": "BR5 1LP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, MAPLE CLOSE"
-    },
-    {
-      "price": 840000,
-      "date": "2026-02-16",
-      "postcode": "BR4 0EX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "179, GOODHART WAY"
-    },
-    {
-      "price": 375000,
-      "date": "2026-02-16",
-      "postcode": "BR2 0SJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "22, MADISON GARDENS"
-    },
-    {
-      "price": 950000,
-      "date": "2026-02-16",
-      "postcode": "BR4 9AR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, KESWICK ROAD"
-    },
-    {
-      "price": 515000,
-      "date": "2026-02-16",
-      "postcode": "SE20 7BE",
+      "date": "2026-03-23",
+      "postcode": "BR3 6LZ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1, HOLLYWOOD HOUSE, 1, STATION ROAD"
+      "address": "FLAT 3, STONEHAVEN, 37, WICKHAM ROAD"
     },
     {
-      "price": 385000,
-      "date": "2026-02-13",
-      "postcode": "BR6 7BA",
+      "price": 92000,
+      "date": "2026-03-23",
+      "postcode": "BR3 6UL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 28, ANDRECK COURT, 2A, CRESCENT ROAD"
+    },
+    {
+      "price": 700000,
+      "date": "2026-03-20",
+      "postcode": "BR1 2JX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, BROOKMEAD AVENUE"
+    },
+    {
+      "price": 305000,
+      "date": "2026-03-20",
+      "postcode": "BR1 3BX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 13, CROMARTY COURT, 126 - 128, WIDMORE ROAD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-20",
+      "postcode": "SE20 7QN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12B, ROYSTON ROAD"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-20",
+      "postcode": "BR5 3FS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, BEAUFORT PLACE"
+    },
+    {
+      "price": 490000,
+      "date": "2026-03-20",
+      "postcode": "BR1 4AN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "102, HIGH STREET"
+      "address": "30, PARK END"
+    },
+    {
+      "price": 515000,
+      "date": "2026-03-19",
+      "postcode": "TN16 3SG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "KIRKLAND, HAWTHORNE AVENUE"
+    },
+    {
+      "price": 487500,
+      "date": "2026-03-19",
+      "postcode": "BR4 0JL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, KENT ROAD"
+    },
+    {
+      "price": 430000,
+      "date": "2026-03-19",
+      "postcode": "TN16 3SH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BLACKTHORNE ROAD"
+    },
+    {
+      "price": 720000,
+      "date": "2026-03-18",
+      "postcode": "BR3 1TR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, PARKWOOD"
+    },
+    {
+      "price": 965000,
+      "date": "2026-03-18",
+      "postcode": "BR2 0JP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "70, SHORTLANDS ROAD"
+    },
+    {
+      "price": 1025000,
+      "date": "2026-03-17",
+      "postcode": "BR2 8PD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, WEALD CLOSE"
     }
   ]
 }

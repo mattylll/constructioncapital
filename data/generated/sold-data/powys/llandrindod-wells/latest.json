@@ -1,22 +1,76 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.971Z",
+  "updatedAt": "2026-05-18T19:24:09.366Z",
   "townSlug": "llandrindod-wells",
   "countySlug": "powys",
   "stats": {
-    "medianPrice": 235000,
+    "medianPrice": 237000,
     "medianByType": {
       "D": 295000,
       "S": 215000,
-      "T": 181250,
-      "F": 85500
+      "T": 213650,
+      "F": 89000
     },
-    "transactionCount12m": 103,
-    "yoyChange": 1.1,
-    "newBuildCount": 4,
-    "existingCount": 99,
-    "newBuildPremium": 40.1
+    "transactionCount12m": 111,
+    "yoyChange": 3,
+    "newBuildCount": 3,
+    "existingCount": 108,
+    "newBuildPremium": 42.6
   },
   "recentTransactions": [
+    {
+      "price": 240000,
+      "date": "2026-03-19",
+      "postcode": "LD1 6BL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ARCHIBALD HOUSE, WATERLOO ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-03-13",
+      "postcode": "LD1 5HT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "OAKFIELD, BROADWAY"
+    },
+    {
+      "price": 700000,
+      "date": "2026-02-27",
+      "postcode": "LD1 6PD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "NANTYRHAIDD"
+    },
+    {
+      "price": 212500,
+      "date": "2026-02-27",
+      "postcode": "LD1 5BA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, HERNOG CLOSE"
+    },
+    {
+      "price": 258000,
+      "date": "2026-02-26",
+      "postcode": "LD1 5LW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TYLEHURST, MONTPELLIER PARK"
+    },
+    {
+      "price": 215000,
+      "date": "2026-02-20",
+      "postcode": "LD1 5BF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, CAMDDWR RISE"
+    },
     {
       "price": 295000,
       "date": "2026-02-19",
@@ -34,6 +88,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "3, YORK HOUSE, TEMPLE AVENUE"
+    },
+    {
+      "price": 120000,
+      "date": "2026-02-13",
+      "postcode": "LD1 6AN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DYFFRYN HOUSE, DYFFRYN ROAD"
     },
     {
       "price": 41000,
@@ -72,15 +135,6 @@
       "address": "STANMORE, GROSVENOR ROAD"
     },
     {
-      "price": 160000,
-      "date": "2026-01-16",
-      "postcode": "LD1 5HB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, BRYNTEG"
-    },
-    {
       "price": 295000,
       "date": "2026-01-16",
       "postcode": "LD1 6LQ",
@@ -88,6 +142,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "5, CAE NANT"
+    },
+    {
+      "price": 160000,
+      "date": "2026-01-16",
+      "postcode": "LD1 5HB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, BRYNTEG"
     },
     {
       "price": 450000,
@@ -126,76 +189,13 @@
       "address": "43, DOLYDD PENTROSFA"
     },
     {
-      "price": 255000,
-      "date": "2025-12-10",
-      "postcode": "LD1 6AS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LORIAN, ITHON ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2025-12-08",
-      "postcode": "LD1 5ES",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, MANGALORE, SPA ROAD EAST"
-    },
-    {
-      "price": 350000,
-      "date": "2025-12-05",
-      "postcode": "LD1 6AP",
+      "price": 422500,
+      "date": "2025-12-17",
+      "postcode": "LD1 6HT",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE LAURELS, VICTORIA ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2025-12-01",
-      "postcode": "LD1 6AN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DOLCOED, DYFFRYN ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2025-11-28",
-      "postcode": "LD1 6DT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, CORTAY PARK"
-    },
-    {
-      "price": 237000,
-      "date": "2025-11-28",
-      "postcode": "LD1 5NW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LINDENBAR, PENTROSFA CRESCENT"
-    },
-    {
-      "price": 78000,
-      "date": "2025-11-27",
-      "postcode": "LD1 5DG",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LLOYDS TSB BANK PLC, MIDDLETON STREET"
-    },
-    {
-      "price": 325000,
-      "date": "2025-11-27",
-      "postcode": "LD1 6EW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CIL LLWYN"
+      "address": "GREAT HOUSE"
     }
   ]
 }

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.935Z",
+  "updatedAt": "2026-05-18T19:24:08.477Z",
   "townSlug": "warminster",
   "countySlug": "wiltshire",
   "stats": {
-    "medianPrice": 299950,
+    "medianPrice": 299598,
     "medianByType": {
-      "D": 429950,
-      "S": 280000,
-      "T": 221000,
-      "F": 129750
+      "D": 429975,
+      "S": 275496,
+      "T": 225000,
+      "F": 114000
     },
-    "transactionCount12m": 326,
-    "yoyChange": -4.8,
-    "newBuildCount": 13,
-    "existingCount": 313,
-    "newBuildPremium": 45.2
+    "transactionCount12m": 368,
+    "yoyChange": -4,
+    "newBuildCount": 21,
+    "existingCount": 347,
+    "newBuildPremium": 9.2
   },
   "recentTransactions": [
     {
-      "price": 198500,
-      "date": "2026-02-23",
-      "postcode": "BA12 8RW",
+      "price": 237500,
+      "date": "2026-03-25",
+      "postcode": "BA12 7RR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, VIRGINIA DRIVE"
+      "address": "45, CAMELLIA DRIVE"
+    },
+    {
+      "price": 540000,
+      "date": "2026-03-23",
+      "postcode": "BA12 6JS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "QUINCY HOUSE, CASTLE STREET"
+    },
+    {
+      "price": 675000,
+      "date": "2026-03-20",
+      "postcode": "BA12 8HP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BEACON VIEW"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-20",
+      "postcode": "BA12 8HE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, VICTORIA ROAD"
+    },
+    {
+      "price": 152000,
+      "date": "2026-03-20",
+      "postcode": "BA12 6EH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PARADISE COTTAGE, WELLHEAD"
+    },
+    {
+      "price": 65000,
+      "date": "2026-03-20",
+      "postcode": "BA12 9LS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, CHATHAM COURT, STATION ROAD"
+    },
+    {
+      "price": 360000,
+      "date": "2026-03-20",
+      "postcode": "BA12 6BQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BENIC HOUSE, 2, SPINNERS WAY"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-19",
+      "postcode": "BA12 9PT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BOURNE CLOSE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-18",
+      "postcode": "BA12 8LX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4A, BEECH AVENUE"
     },
     {
       "price": 170000,
-      "date": "2026-02-20",
-      "postcode": "BA12 9JR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, BOREHAM ROAD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-02-19",
-      "postcode": "BA12 8TB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, WERE CLOSE"
-    },
-    {
-      "price": 61000,
-      "date": "2026-02-19",
-      "postcode": "BA12 9BP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 67, HOMEMINSTER HOUSE, STATION ROAD"
-    },
-    {
-      "price": 265000,
-      "date": "2026-02-13",
-      "postcode": "BA12 9DA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, FAIRFIELD ROAD"
-    },
-    {
-      "price": 255000,
-      "date": "2026-02-11",
-      "postcode": "BA12 9PE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, WYLYE ROAD"
-    },
-    {
-      "price": 690000,
-      "date": "2026-02-09",
-      "postcode": "BA12 7JG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FOXLEASE, HIGH STREET"
-    },
-    {
-      "price": 390000,
-      "date": "2026-02-06",
-      "postcode": "BA12 8TD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, MINSTER VIEW"
-    },
-    {
-      "price": 472500,
-      "date": "2026-02-06",
-      "postcode": "BA12 8TJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, BRAMLEY CLOSE"
-    },
-    {
-      "price": 268000,
-      "date": "2026-02-06",
-      "postcode": "BA12 8TP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BLENHEIM CLOSE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-02-04",
-      "postcode": "BA12 8TA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, NORRIDGE VIEW"
-    },
-    {
-      "price": 205000,
-      "date": "2026-02-04",
-      "postcode": "BA12 8TQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, GRENADIER CLOSE"
-    },
-    {
-      "price": 345000,
-      "date": "2026-01-30",
-      "postcode": "BA12 8TA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, NORRIDGE VIEW"
-    },
-    {
-      "price": 89950,
-      "date": "2026-01-30",
-      "postcode": "BA12 9BP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 55, HOMEMINSTER HOUSE, STATION ROAD"
-    },
-    {
-      "price": 382500,
-      "date": "2026-01-30",
-      "postcode": "BA12 0NH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "118, HIGH STREET"
-    },
-    {
-      "price": 435000,
-      "date": "2026-01-28",
-      "postcode": "BA12 9QQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7B, HILLWOOD LANE"
-    },
-    {
-      "price": 222500,
-      "date": "2026-01-28",
-      "postcode": "BA12 8DJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, MADDOCKS HILL"
-    },
-    {
-      "price": 390000,
-      "date": "2026-01-28",
-      "postcode": "BA12 8TJ",
+      "date": "2026-03-13",
+      "postcode": "BA12 7BJ",
       "propertyType": "O",
       "newBuild": false,
-      "tenure": "F",
-      "address": "2, BRAMLEY CLOSE"
+      "tenure": "L",
+      "address": "LILAC COTTAGE, 5, THE COURTYARD, BISHOPSTROW ROAD"
     },
     {
       "price": 215000,
-      "date": "2026-01-28",
-      "postcode": "BA12 9DU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, DOWNS VIEW"
-    },
-    {
-      "price": 225000,
-      "date": "2026-01-28",
-      "postcode": "BA12 8RL",
+      "date": "2026-03-12",
+      "postcode": "BA12 6LJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, PRIMROSE WALK"
+      "address": "11, LONGCROSS"
+    },
+    {
+      "price": 257500,
+      "date": "2026-03-10",
+      "postcode": "BA12 9PP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, DAMASK WAY"
+    },
+    {
+      "price": 385000,
+      "date": "2026-03-09",
+      "postcode": "BA12 6DB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ARCADIA, EDGE BRIDGE"
+    },
+    {
+      "price": 460000,
+      "date": "2026-03-06",
+      "postcode": "BA12 8GP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, SATURN CLOSE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-03-06",
+      "postcode": "BA12 9QJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ASHLEY PLACE"
+    },
+    {
+      "price": 289000,
+      "date": "2026-03-06",
+      "postcode": "BA12 8NU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, THE TEASELS"
+    },
+    {
+      "price": 230000,
+      "date": "2026-03-05",
+      "postcode": "BA12 6JB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CASTLE HILL LANE"
+    },
+    {
+      "price": 70000,
+      "date": "2026-03-04",
+      "postcode": "BA12 8QD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, 52, PORTWAY"
+    },
+    {
+      "price": 365000,
+      "date": "2026-03-04",
+      "postcode": "BA12 0LS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, THE APPLE ORCHARD, BACK LANE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-02-27",
+      "postcode": "BA12 0AR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, COPHEAP RISE"
     }
   ]
 }

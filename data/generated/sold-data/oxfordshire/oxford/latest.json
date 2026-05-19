@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.685Z",
+  "updatedAt": "2026-05-18T19:24:08.221Z",
   "townSlug": "oxford",
   "countySlug": "oxfordshire",
   "stats": {
     "medianPrice": 450000,
     "medianByType": {
       "D": 800000,
-      "S": 490000,
-      "T": 470000,
+      "S": 480000,
+      "T": 465000,
       "F": 325000
     },
-    "transactionCount12m": 950,
+    "transactionCount12m": 1048,
     "yoyChange": 0,
-    "newBuildCount": 5,
-    "existingCount": 945,
-    "newBuildPremium": 27.8
+    "newBuildCount": 4,
+    "existingCount": 1044,
+    "newBuildPremium": 36.1
   },
   "recentTransactions": [
     {
-      "price": 310000,
-      "date": "2026-02-23",
-      "postcode": "OX4 4UD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, RIVERMEAD ROAD"
-    },
-    {
-      "price": 625000,
-      "date": "2026-02-20",
-      "postcode": "OX4 1EU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, JAMES STREET"
-    },
-    {
-      "price": 685000,
-      "date": "2026-02-16",
-      "postcode": "OX4 4EE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, MAYWOOD ROAD"
-    },
-    {
-      "price": 310000,
-      "date": "2026-02-13",
-      "postcode": "OX2 7DJ",
+      "price": 345000,
+      "date": "2026-03-26",
+      "postcode": "OX3 8SS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "39, RACKHAM PLACE"
+      "address": "1, DORCHESTER CLOSE"
     },
     {
-      "price": 265000,
-      "date": "2026-02-13",
-      "postcode": "OX3 8BE",
+      "price": 795000,
+      "date": "2026-03-23",
+      "postcode": "OX4 1EF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, IFFLEY ROAD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-20",
+      "postcode": "OX4 2HS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6A, TRAFFORD ROAD"
+      "address": "9, ST CHRISTOPHERS PLACE"
     },
     {
-      "price": 440000,
-      "date": "2026-02-13",
-      "postcode": "OX2 6JG",
+      "price": 350000,
+      "date": "2026-03-20",
+      "postcode": "OX1 1HZ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "23, BUTLER CLOSE"
+      "address": "7, VENNEIT CLOSE"
     },
     {
-      "price": 500000,
-      "date": "2026-02-13",
-      "postcode": "OX3 0RU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60, MORTIMER DRIVE"
-    },
-    {
-      "price": 420000,
-      "date": "2026-02-12",
-      "postcode": "OX4 3AQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, CATHERINE STREET"
-    },
-    {
-      "price": 730000,
-      "date": "2026-02-12",
-      "postcode": "OX4 1TF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, FAIRACRES ROAD"
-    },
-    {
-      "price": 698000,
-      "date": "2026-02-12",
-      "postcode": "OX2 6EP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60, OBSERVATORY STREET"
-    },
-    {
-      "price": 420000,
-      "date": "2026-02-11",
-      "postcode": "OX3 0JE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "430A, MARSTON ROAD"
-    },
-    {
-      "price": 676000,
-      "date": "2026-02-10",
-      "postcode": "OX4 1NG",
+      "price": 930000,
+      "date": "2026-03-20",
+      "postcode": "OX2 6TQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "131, MORRELL AVENUE"
+      "address": "16, STONE MEADOW"
     },
     {
-      "price": 460000,
-      "date": "2026-02-10",
-      "postcode": "OX1 4RB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, VICARAGE ROAD"
-    },
-    {
-      "price": 196000,
-      "date": "2026-02-09",
-      "postcode": "OX2 8BJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "23, MILLWAY CLOSE"
-    },
-    {
-      "price": 477500,
-      "date": "2026-02-09",
-      "postcode": "OX4 4NY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, MEDHURST WAY"
-    },
-    {
-      "price": 380000,
-      "date": "2026-02-06",
-      "postcode": "OX4 4AR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, PIPKIN WAY"
-    },
-    {
-      "price": 390000,
-      "date": "2026-02-06",
-      "postcode": "OX4 2EF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, SAUNDERS ROAD"
-    },
-    {
-      "price": 482500,
-      "date": "2026-02-06",
-      "postcode": "OX3 8JN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, BEAUMONT ROAD"
-    },
-    {
-      "price": 352500,
-      "date": "2026-02-06",
-      "postcode": "OX2 8BY",
+      "price": 365000,
+      "date": "2026-03-19",
+      "postcode": "OX2 8NP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 2, 54, DAVENANT ROAD"
+      "address": "39, PARK CLOSE"
     },
     {
-      "price": 366000,
-      "date": "2026-02-06",
-      "postcode": "OX4 2DP",
+      "price": 445000,
+      "date": "2026-03-18",
+      "postcode": "OX2 7ED",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, 304, BANBURY ROAD"
+    },
+    {
+      "price": 465000,
+      "date": "2026-03-13",
+      "postcode": "OX3 0RD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, OXFORD ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-13",
+      "postcode": "OX3 8JS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17A, COPPOCK CLOSE"
+    },
+    {
+      "price": 850000,
+      "date": "2026-03-13",
+      "postcode": "OX2 7SP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "478, COWLEY ROAD"
+      "address": "47, ISLIP ROAD"
+    },
+    {
+      "price": 214000,
+      "date": "2026-03-13",
+      "postcode": "OX3 8PL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "81, GREEN RIDGES"
+    },
+    {
+      "price": 446000,
+      "date": "2026-03-13",
+      "postcode": "OX4 1XR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "106, EAST AVENUE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-03-13",
+      "postcode": "OX4 7LH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, COLUMBINE GARDENS"
+    },
+    {
+      "price": 255000,
+      "date": "2026-03-13",
+      "postcode": "OX3 9BG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "19, HUBBLE CLOSE"
+    },
+    {
+      "price": 425500,
+      "date": "2026-03-12",
+      "postcode": "OX4 3BA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "157, HOWARD STREET"
+    },
+    {
+      "price": 360000,
+      "date": "2026-03-12",
+      "postcode": "OX3 7NA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, GIRDLESTONE ROAD"
+    },
+    {
+      "price": 2260000,
+      "date": "2026-03-12",
+      "postcode": "OX1 2LQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, ST JOHN STREET"
+    },
+    {
+      "price": 370000,
+      "date": "2026-03-12",
+      "postcode": "OX4 6HJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, BLACKBIRD LEYS ROAD"
+    },
+    {
+      "price": 430000,
+      "date": "2026-03-10",
+      "postcode": "OX4 2NE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "151, HOLLOW WAY"
+    },
+    {
+      "price": 940000,
+      "date": "2026-03-10",
+      "postcode": "OX2 7HJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BISHOP KIRK PLACE"
     }
   ]
 }

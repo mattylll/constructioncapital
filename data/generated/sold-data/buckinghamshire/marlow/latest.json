@@ -1,22 +1,184 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.679Z",
+  "updatedAt": "2026-05-18T19:24:08.212Z",
   "townSlug": "marlow",
   "countySlug": "buckinghamshire",
   "stats": {
     "medianPrice": 607500,
     "medianByType": {
       "D": 847500,
-      "S": 605000,
+      "S": 615000,
       "T": 542250,
-      "F": 327500
+      "F": 345000
     },
-    "transactionCount12m": 170,
+    "transactionCount12m": 196,
     "yoyChange": -10,
-    "newBuildCount": 1,
-    "existingCount": 169,
-    "newBuildPremium": -100
+    "newBuildCount": 2,
+    "existingCount": 194,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 424000,
+      "date": "2026-03-27",
+      "postcode": "SL7 1UQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, DOUGLAS COURT, PEACOCK ROAD"
+    },
+    {
+      "price": 386000,
+      "date": "2026-03-27",
+      "postcode": "SL7 2PT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "51, QUEENS ROAD"
+    },
+    {
+      "price": 1000000,
+      "date": "2026-03-23",
+      "postcode": "SL7 3BU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "NITON COTTAGE, MUNDAYDEAN LANE"
+    },
+    {
+      "price": 700000,
+      "date": "2026-03-12",
+      "postcode": "SL7 3PZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "229, MARLOW BOTTOM"
+    },
+    {
+      "price": 610000,
+      "date": "2026-03-12",
+      "postcode": "SL7 2BU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "172, WEST STREET"
+    },
+    {
+      "price": 1200000,
+      "date": "2026-03-12",
+      "postcode": "SL7 2AH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, POUND LANE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-03-10",
+      "postcode": "SL7 2QE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "20, MAREFIELD ROAD"
+    },
+    {
+      "price": 345000,
+      "date": "2026-03-05",
+      "postcode": "SL7 1XX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 6, BARONS COURT, DEDMERE RISE"
+    },
+    {
+      "price": 723000,
+      "date": "2026-03-02",
+      "postcode": "SL7 3SY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, MONKS HOLLOW"
+    },
+    {
+      "price": 675000,
+      "date": "2026-02-27",
+      "postcode": "SL7 2PR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "202, OXFORD ROAD"
+    },
+    {
+      "price": 620000,
+      "date": "2026-02-25",
+      "postcode": "SL7 3HR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, ROOKERY COURT"
+    },
+    {
+      "price": 1190000,
+      "date": "2026-02-24",
+      "postcode": "SL7 2DE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, HIGHFIELD PARK"
+    },
+    {
+      "price": 567000,
+      "date": "2026-02-20",
+      "postcode": "SL7 1JN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, NEWFIELD GARDENS"
+    },
+    {
+      "price": 250000,
+      "date": "2026-02-20",
+      "postcode": "SL7 1DW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "41, VICTORIA ROAD"
+    },
+    {
+      "price": 390000,
+      "date": "2026-02-18",
+      "postcode": "SL7 1LZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, SHELLEY ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-02-18",
+      "postcode": "SL7 1UT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, NUGENT COURT, NEWTOWN ROAD"
+    },
+    {
+      "price": 1030000,
+      "date": "2026-02-18",
+      "postcode": "SL7 2AL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, SPINNERS WALK"
+    },
+    {
+      "price": 366000,
+      "date": "2026-02-13",
+      "postcode": "SL7 2SN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "24, THE GROVE, HARLEYFORD"
+    },
     {
       "price": 894000,
       "date": "2026-02-13",
@@ -27,175 +189,13 @@
       "address": "21, ROOKERY COURT"
     },
     {
-      "price": 995000,
-      "date": "2026-02-11",
-      "postcode": "SL7 2JR",
+      "price": 987500,
+      "date": "2026-02-12",
+      "postcode": "SL7 2QT",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, BOVINGDON HEIGHTS"
-    },
-    {
-      "price": 1350000,
-      "date": "2026-02-11",
-      "postcode": "SL7 2DD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, SPINFIELD PARK"
-    },
-    {
-      "price": 459000,
-      "date": "2026-02-10",
-      "postcode": "SL7 1HT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, WILLOWMEAD CLOSE"
-    },
-    {
-      "price": 535000,
-      "date": "2026-02-09",
-      "postcode": "SL7 1BB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, MARLOW HOUSE, INSTITUTE ROAD"
-    },
-    {
-      "price": 550000,
-      "date": "2026-01-30",
-      "postcode": "SL7 3EZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, BARNHILL ROAD"
-    },
-    {
-      "price": 475000,
-      "date": "2026-01-26",
-      "postcode": "SL7 1HS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, WILLOWMEAD ROAD"
-    },
-    {
-      "price": 1260000,
-      "date": "2026-01-19",
-      "postcode": "SL7 3NA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "95A, MARLOW BOTTOM"
-    },
-    {
-      "price": 870000,
-      "date": "2026-01-15",
-      "postcode": "SL7 3NY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, MUNCES ROAD"
-    },
-    {
-      "price": 582000,
-      "date": "2026-01-13",
-      "postcode": "SL7 2NL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BAY TREE COTTAGE, 92, OXFORD ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-01-09",
-      "postcode": "SL7 1DE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, 66 - 68, CHAPEL STREET"
-    },
-    {
-      "price": 525000,
-      "date": "2026-01-08",
-      "postcode": "SL7 2SN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, THE GROVE, HARLEYFORD"
-    },
-    {
-      "price": 1145000,
-      "date": "2026-01-08",
-      "postcode": "SL7 2DF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ROSEWOOD COTTAGE, HENLEY ROAD"
-    },
-    {
-      "price": 415000,
-      "date": "2026-01-06",
-      "postcode": "SL7 2DQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "THE HEIGHTS, HENLEY ROAD"
-    },
-    {
-      "price": 1300000,
-      "date": "2026-01-06",
-      "postcode": "SL7 2BP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "122, WEST STREET"
-    },
-    {
-      "price": 186000,
-      "date": "2025-12-19",
-      "postcode": "SL7 3EA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, ALFRED DAVIS ROAD, WETHERED ROAD"
-    },
-    {
-      "price": 498000,
-      "date": "2025-12-19",
-      "postcode": "SL7 3HP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, HERONS PLACE"
-    },
-    {
-      "price": 289950,
-      "date": "2025-12-19",
-      "postcode": "SL7 1EP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, BRAEMAR COURT, LISTON ROAD"
-    },
-    {
-      "price": 735000,
-      "date": "2025-12-19",
-      "postcode": "SL7 1PG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, DEDMERE ROAD"
-    },
-    {
-      "price": 295000,
-      "date": "2025-12-18",
-      "postcode": "SL7 1AP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "36, GRAINGER HOUSE, FINDLAY MEWS"
+      "address": "6, FRIETH ROAD"
     }
   ]
 }

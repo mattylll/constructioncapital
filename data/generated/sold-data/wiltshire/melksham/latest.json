@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.931Z",
+  "updatedAt": "2026-05-18T19:24:08.473Z",
   "townSlug": "melksham",
   "countySlug": "wiltshire",
   "stats": {
-    "medianPrice": 290000,
+    "medianPrice": 286000,
     "medianByType": {
-      "D": 410268,
-      "S": 283750,
+      "D": 395000,
+      "S": 281500,
       "T": 240000,
       "F": 137000
     },
-    "transactionCount12m": 345,
-    "yoyChange": 0,
-    "newBuildCount": 15,
-    "existingCount": 330,
-    "newBuildPremium": 31.6
+    "transactionCount12m": 354,
+    "yoyChange": -3.1,
+    "newBuildCount": 13,
+    "existingCount": 341,
+    "newBuildPremium": 32.3
   },
   "recentTransactions": [
+    {
+      "price": 470000,
+      "date": "2026-03-18",
+      "postcode": "SN12 8JY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62, BATH ROAD"
+    },
+    {
+      "price": 85000,
+      "date": "2026-03-11",
+      "postcode": "SN12 7EP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, COBURGH SQUARE"
+    },
+    {
+      "price": 264000,
+      "date": "2026-03-11",
+      "postcode": "SN12 7PA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, WEBBS CLOSE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-03-11",
+      "postcode": "SN12 7FR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, HONEYSUCKLE CLOSE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-03-06",
+      "postcode": "SN12 7JH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, INGRAM ROAD"
+    },
+    {
+      "price": 265000,
+      "date": "2026-02-27",
+      "postcode": "SN12 6EE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "67, BERRYFIELD PARK"
+    },
+    {
+      "price": 440000,
+      "date": "2026-02-27",
+      "postcode": "SN12 7PR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, UNION STREET"
+    },
+    {
+      "price": 292000,
+      "date": "2026-02-27",
+      "postcode": "SN12 7FE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, BOWMANS COURT"
+    },
+    {
+      "price": 275000,
+      "date": "2026-02-27",
+      "postcode": "SN12 6SB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, BIRCH GROVE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-02-27",
+      "postcode": "SN12 7JG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, TOWER ROAD"
+    },
     {
       "price": 268000,
       "date": "2026-02-23",
@@ -25,6 +115,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "63, FORESTERS PARK ROAD"
+    },
+    {
+      "price": 245000,
+      "date": "2026-02-20",
+      "postcode": "SN12 6GG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, SMEATON WAY"
     },
     {
       "price": 335000,
@@ -54,6 +153,15 @@
       "address": "5, HEATHER AVENUE"
     },
     {
+      "price": 240000,
+      "date": "2026-02-16",
+      "postcode": "SN12 7JQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, TOWER ROAD"
+    },
+    {
       "price": 267500,
       "date": "2026-02-13",
       "postcode": "SN12 7BX",
@@ -72,24 +180,6 @@
       "address": "FLAT 55, WHARF COURT, SPA ROAD"
     },
     {
-      "price": 222000,
-      "date": "2026-02-13",
-      "postcode": "SN12 8HQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, MOUNT PLEASANT"
-    },
-    {
-      "price": 320000,
-      "date": "2026-02-13",
-      "postcode": "SN12 7TS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, ROSEBROOK GARDENS"
-    },
-    {
       "price": 210000,
       "date": "2026-02-13",
       "postcode": "SN12 7AN",
@@ -99,103 +189,13 @@
       "address": "COURTNEYS HOUSE, 15A, LITTLEJOHN AVENUE"
     },
     {
-      "price": 285000,
-      "date": "2026-02-12",
-      "postcode": "SN12 6WA",
+      "price": 222000,
+      "date": "2026-02-13",
+      "postcode": "SN12 8HQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, TEDDER GARDENS"
-    },
-    {
-      "price": 230000,
-      "date": "2026-02-12",
-      "postcode": "SN12 7HU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, BLACKMORE ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2026-02-11",
-      "postcode": "SN12 6HJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, WEST END"
-    },
-    {
-      "price": 325000,
-      "date": "2026-02-11",
-      "postcode": "SN12 6ED",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, BERRYFIELD PARK"
-    },
-    {
-      "price": 450000,
-      "date": "2026-02-11",
-      "postcode": "SN12 7SG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, PENNYCRESS DRIVE"
-    },
-    {
-      "price": 750000,
-      "date": "2026-02-10",
-      "postcode": "SN12 8JW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THREE GABLES, 38, BATH ROAD"
-    },
-    {
-      "price": 262500,
-      "date": "2026-02-10",
-      "postcode": "SN12 6LY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, CHURCH WALK"
-    },
-    {
-      "price": 310000,
-      "date": "2026-02-06",
-      "postcode": "SN12 7SD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, WOODCOMBE"
-    },
-    {
-      "price": 327500,
-      "date": "2026-02-05",
-      "postcode": "SN12 6XA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, DEBDEN CLOSE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-02-03",
-      "postcode": "SN12 6YN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, MINT GROVE"
-    },
-    {
-      "price": 355000,
-      "date": "2026-01-29",
-      "postcode": "SN12 7DG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, BARNWELL ROAD"
+      "address": "14, MOUNT PLEASANT"
     }
   ]
 }

@@ -1,22 +1,193 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.718Z",
+  "updatedAt": "2026-05-18T19:24:08.251Z",
   "townSlug": "welwyn-garden-city",
   "countySlug": "hertfordshire",
   "stats": {
-    "medianPrice": 420000,
+    "medianPrice": 415000,
     "medianByType": {
-      "D": 742500,
-      "S": 525000,
-      "T": 425000,
-      "F": 230000
+      "D": 725000,
+      "S": 530000,
+      "T": 417250,
+      "F": 240000
     },
-    "transactionCount12m": 387,
-    "yoyChange": 5,
+    "transactionCount12m": 428,
+    "yoyChange": 2.5,
     "newBuildCount": 0,
-    "existingCount": 387,
-    "newBuildPremium": -100
+    "existingCount": 428,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 330000,
+      "date": "2026-03-25",
+      "postcode": "AL7 3QQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, BASSINGBURN WALK"
+    },
+    {
+      "price": 224000,
+      "date": "2026-03-23",
+      "postcode": "AL7 1FW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, GREAT SAMPSONS FIELD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-03-20",
+      "postcode": "AL8 6TG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "252, HANDSIDE LANE"
+    },
+    {
+      "price": 262000,
+      "date": "2026-03-19",
+      "postcode": "AL7 1SF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "51, NURSERY GARDENS"
+    },
+    {
+      "price": 369500,
+      "date": "2026-03-16",
+      "postcode": "AL7 2NN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, LINCOLN CLOSE"
+    },
+    {
+      "price": 715000,
+      "date": "2026-03-16",
+      "postcode": "AL8 7DP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "78, VALLEY ROAD"
+    },
+    {
+      "price": 415000,
+      "date": "2026-03-16",
+      "postcode": "AL8 6RF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, GUESSENS GROVE"
+    },
+    {
+      "price": 500000,
+      "date": "2026-03-16",
+      "postcode": "AL8 6TE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "205, HANDSIDE LANE"
+    },
+    {
+      "price": 245000,
+      "date": "2026-03-13",
+      "postcode": "AL7 4SX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, EDDINGTON CRESCENT"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-13",
+      "postcode": "AL7 1DS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "167, BLYTHWAY"
+    },
+    {
+      "price": 410000,
+      "date": "2026-03-12",
+      "postcode": "AL7 1TR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, SALMON CLOSE"
+    },
+    {
+      "price": 735000,
+      "date": "2026-03-12",
+      "postcode": "AL8 7NW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "37, DIGSWELL PARK ROAD"
+    },
+    {
+      "price": 178500,
+      "date": "2026-03-11",
+      "postcode": "AL7 3TD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, WOODHALL COURT"
+    },
+    {
+      "price": 245000,
+      "date": "2026-03-10",
+      "postcode": "AL7 4SQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, EDDINGTON CRESCENT"
+    },
+    {
+      "price": 315000,
+      "date": "2026-03-09",
+      "postcode": "AL8 6DG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, PEEL COURT, COLLEGE WAY"
+    },
+    {
+      "price": 610000,
+      "date": "2026-03-06",
+      "postcode": "AL7 2BW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, THE PADDOCKS"
+    },
+    {
+      "price": 389950,
+      "date": "2026-03-03",
+      "postcode": "AL7 3HN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62, BUSHEY LEY"
+    },
+    {
+      "price": 550000,
+      "date": "2026-02-27",
+      "postcode": "AL7 2HG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, LORDS WOOD"
+    },
+    {
+      "price": 420000,
+      "date": "2026-02-27",
+      "postcode": "AL7 2JS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, GLENWOOD"
+    },
     {
       "price": 650000,
       "date": "2026-02-25",
@@ -25,177 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "105, PARKWAY"
-    },
-    {
-      "price": 495000,
-      "date": "2026-02-20",
-      "postcode": "AL7 1FP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, ELSONS MEWS"
-    },
-    {
-      "price": 325000,
-      "date": "2026-02-20",
-      "postcode": "AL7 3LT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "27, COWPER ROAD"
-    },
-    {
-      "price": 505000,
-      "date": "2026-02-20",
-      "postcode": "AL7 4TJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, GREAT LEY"
-    },
-    {
-      "price": 390000,
-      "date": "2026-02-18",
-      "postcode": "AL7 4DY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, BOUNDARY LANE"
-    },
-    {
-      "price": 670000,
-      "date": "2026-02-13",
-      "postcode": "AL7 3UA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, PEARTREE LANE"
-    },
-    {
-      "price": 370000,
-      "date": "2026-02-10",
-      "postcode": "AL7 4AQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "132, THISTLE GROVE"
-    },
-    {
-      "price": 495000,
-      "date": "2026-02-10",
-      "postcode": "AL7 1RE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "85, BROOMHILLS"
-    },
-    {
-      "price": 465000,
-      "date": "2026-02-10",
-      "postcode": "AL7 2JQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "120, FORRESTERS DRIVE"
-    },
-    {
-      "price": 830000,
-      "date": "2026-02-09",
-      "postcode": "AL8 7RX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, CONEYDALE"
-    },
-    {
-      "price": 430000,
-      "date": "2026-02-09",
-      "postcode": "AL7 4NA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, HYDE VALLEY"
-    },
-    {
-      "price": 280300,
-      "date": "2026-02-06",
-      "postcode": "AL7 3EZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, GREAT BREAK"
-    },
-    {
-      "price": 305000,
-      "date": "2026-02-06",
-      "postcode": "AL7 3TN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, SANDPIT ROAD"
-    },
-    {
-      "price": 327000,
-      "date": "2026-02-06",
-      "postcode": "AL7 2HW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, FORRESTERS DRIVE"
-    },
-    {
-      "price": 415000,
-      "date": "2026-02-06",
-      "postcode": "AL7 3SB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "80, SALISBURY ROAD"
-    },
-    {
-      "price": 350000,
-      "date": "2026-02-06",
-      "postcode": "AL7 3QQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BASSINGBURN WALK"
-    },
-    {
-      "price": 450000,
-      "date": "2026-02-04",
-      "postcode": "AL7 4FG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, CHAMBERS GROVE"
-    },
-    {
-      "price": 550000,
-      "date": "2026-01-30",
-      "postcode": "AL7 1FG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, BEAUCHAMPS"
-    },
-    {
-      "price": 686000,
-      "date": "2026-01-30",
-      "postcode": "AL8 7HR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, RAYFIELD"
-    },
-    {
-      "price": 410000,
-      "date": "2026-01-30",
-      "postcode": "AL7 1NH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, MAPLE GROVE"
     }
   ]
 }

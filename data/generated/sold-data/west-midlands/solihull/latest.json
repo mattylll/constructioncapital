@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.997Z",
+  "updatedAt": "2026-05-18T19:24:08.538Z",
   "townSlug": "solihull",
   "countySlug": "west-midlands",
   "stats": {
-    "medianPrice": 325000,
+    "medianPrice": 328250,
     "medianByType": {
       "D": 590000,
       "S": 340000,
-      "T": 240500,
+      "T": 242250,
       "F": 173000
     },
-    "transactionCount12m": 1933,
-    "yoyChange": 0.9,
-    "newBuildCount": 23,
-    "existingCount": 1910,
-    "newBuildPremium": 20
+    "transactionCount12m": 2148,
+    "yoyChange": 2.6,
+    "newBuildCount": 19,
+    "existingCount": 2129,
+    "newBuildPremium": 11.3
   },
   "recentTransactions": [
     {
-      "price": 512500,
-      "date": "2026-02-26",
-      "postcode": "B92 8RD",
+      "price": 300000,
+      "date": "2026-03-27",
+      "postcode": "B37 7XH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "116, KNIGHTSBRIDGE ROAD"
+      "address": "20, SOMERTON DRIVE"
     },
     {
-      "price": 255000,
-      "date": "2026-02-23",
-      "postcode": "CV7 7UG",
+      "price": 72500,
+      "date": "2026-03-26",
+      "postcode": "B90 3PW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "83, GREEN HILL WAY"
+    },
+    {
+      "price": 265000,
+      "date": "2026-03-26",
+      "postcode": "B92 8QQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46E, BRACKLEYS WAY"
+    },
+    {
+      "price": 222500,
+      "date": "2026-03-26",
+      "postcode": "B92 7LH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, ROCK GROVE"
+    },
+    {
+      "price": 385000,
+      "date": "2026-03-25",
+      "postcode": "B92 8DW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GREYFORT CRESCENT"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-25",
+      "postcode": "B92 8BD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, FENTHAM COURT, ULVERLEY CRESCENT"
+    },
+    {
+      "price": 421000,
+      "date": "2026-03-23",
+      "postcode": "B36 9AJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, THE GREEN"
+    },
+    {
+      "price": 380000,
+      "date": "2026-03-23",
+      "postcode": "B91 2LL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, HERMITAGE ROAD"
+    },
+    {
+      "price": 162000,
+      "date": "2026-03-23",
+      "postcode": "B36 9LG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "55, GREENFIELD AVENUE"
+      "address": "14, WOLSELEY CLOSE"
     },
     {
-      "price": 220000,
-      "date": "2026-02-20",
-      "postcode": "B91 3LY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, NORTHDOWN ROAD"
-    },
-    {
-      "price": 365000,
-      "date": "2026-02-20",
-      "postcode": "B90 1LD",
+      "price": 310000,
+      "date": "2026-03-20",
+      "postcode": "B92 9DR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "49, PEAR TREE CRESCENT"
+      "address": "32, WALFORD DRIVE"
     },
     {
-      "price": 530000,
-      "date": "2026-02-20",
-      "postcode": "B91 3DB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, MALTHOUSE MEADOW"
-    },
-    {
-      "price": 750000,
-      "date": "2026-02-20",
-      "postcode": "B91 1AN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "491, WARWICK ROAD"
-    },
-    {
-      "price": 127000,
-      "date": "2026-02-20",
-      "postcode": "B91 2UP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "324, WHARF LANE"
-    },
-    {
-      "price": 692500,
-      "date": "2026-02-19",
-      "postcode": "B91 2EQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "87, DOVE HOUSE LANE"
-    },
-    {
-      "price": 270200,
-      "date": "2026-02-18",
-      "postcode": "B92 8QB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, SUMMERFIELD ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-02-17",
-      "postcode": "B91 2SB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, LUGTROUT LANE"
-    },
-    {
-      "price": 427000,
-      "date": "2026-02-16",
-      "postcode": "B37 7HP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "152, COLESHILL ROAD"
-    },
-    {
-      "price": 418000,
-      "date": "2026-02-16",
-      "postcode": "B94 6QW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, HAZEL GROVE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-02-16",
-      "postcode": "B37 6NP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "170, COOKS LANE"
-    },
-    {
-      "price": 545000,
-      "date": "2026-02-13",
-      "postcode": "B37 7WH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, OLD FARM DRIVE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-02-13",
-      "postcode": "B90 3FU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 17, SIR ROBERT PEEL COURT, 285, STRATFORD ROAD"
-    },
-    {
-      "price": 312500,
-      "date": "2026-02-13",
-      "postcode": "B92 7JY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "127A, PIERCE AVENUE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-02-13",
-      "postcode": "B36 0SG",
+      "price": 245000,
+      "date": "2026-03-20",
+      "postcode": "B90 2NE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, FIELDFARE CROFT"
+      "address": "330, HASLUCKS GREEN ROAD"
     },
     {
-      "price": 435000,
-      "date": "2026-02-13",
-      "postcode": "B90 3RN",
+      "price": 310000,
+      "date": "2026-03-20",
+      "postcode": "B92 9DH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "202, YOXALL ROAD"
+      "address": "34, GOODWAY ROAD"
     },
     {
-      "price": 330000,
-      "date": "2026-02-13",
-      "postcode": "CV7 7LT",
+      "price": 280000,
+      "date": "2026-03-20",
+      "postcode": "B90 2JH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, MIDDLETON ROAD"
+    },
+    {
+      "price": 298000,
+      "date": "2026-03-20",
+      "postcode": "B90 2HF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "147, FILLONGLEY ROAD"
+      "address": "76, NEWBOROUGH ROAD"
     },
     {
-      "price": 200000,
-      "date": "2026-02-13",
-      "postcode": "B90 1UE",
-      "propertyType": "F",
+      "price": 325000,
+      "date": "2026-03-20",
+      "postcode": "B90 2RW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, WAKELIN ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-20",
+      "postcode": "B90 1SR",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "33, WHARF HOUSE, WATERSIDE"
+      "address": "17, OLD DICKENS HEATH ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-03-20",
+      "postcode": "B92 7JA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "83, BROOKVALE ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-20",
+      "postcode": "B92 7LN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "135, SCOTT ROAD"
+    },
+    {
+      "price": 620000,
+      "date": "2026-03-20",
+      "postcode": "B91 2DG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, BURYFIELD ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-03-19",
+      "postcode": "B91 2RQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, ALSTON ROAD"
     }
   ]
 }

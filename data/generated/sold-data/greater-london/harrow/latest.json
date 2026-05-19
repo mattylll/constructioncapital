@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.418Z",
+  "updatedAt": "2026-05-18T19:24:07.924Z",
   "townSlug": "harrow",
   "countySlug": "greater-london",
   "stats": {
-    "medianPrice": 530000,
+    "medianPrice": 533000,
     "medianByType": {
-      "D": 922500,
+      "D": 960000,
       "S": 635000,
-      "T": 540000,
+      "T": 546100,
       "F": 325000
     },
-    "transactionCount12m": 1191,
-    "yoyChange": 2.9,
-    "newBuildCount": 16,
-    "existingCount": 1175,
-    "newBuildPremium": -27.3
+    "transactionCount12m": 1299,
+    "yoyChange": 3.5,
+    "newBuildCount": 13,
+    "existingCount": 1286,
+    "newBuildPremium": -31.2
   },
   "recentTransactions": [
     {
-      "price": 700000,
-      "date": "2026-02-17",
-      "postcode": "HA1 4SX",
+      "price": 535000,
+      "date": "2026-03-27",
+      "postcode": "HA2 0AA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, MERTON ROAD"
+    },
+    {
+      "price": 330000,
+      "date": "2026-03-25",
+      "postcode": "HA2 6NH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1, BROADFIELD COURT, BROADFIELDS"
+    },
+    {
+      "price": 335000,
+      "date": "2026-03-23",
+      "postcode": "HA2 6HD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, HAZELWOOD CLOSE"
+    },
+    {
+      "price": 625000,
+      "date": "2026-03-20",
+      "postcode": "HA1 3JG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 6, THE WOODLANDS, LONDON ROAD"
+    },
+    {
+      "price": 775000,
+      "date": "2026-03-20",
+      "postcode": "HA3 8QT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "109, KINGSHILL DRIVE"
+    },
+    {
+      "price": 635000,
+      "date": "2026-03-20",
+      "postcode": "HA3 7QB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "147, HARROW VIEW"
+      "address": "52, RADCLIFFE ROAD"
     },
     {
-      "price": 100000,
-      "date": "2026-02-17",
-      "postcode": "HA2 0NF",
+      "price": 130000,
+      "date": "2026-03-18",
+      "postcode": "HA7 1EB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1, 48, BROOKE AVENUE"
+      "address": "125, EVERTON DRIVE"
     },
     {
-      "price": 192000,
-      "date": "2026-02-16",
-      "postcode": "HA5 4JX",
+      "price": 345000,
+      "date": "2026-03-18",
+      "postcode": "HA7 3AA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 8, LUTYENS LODGE, 523, UXBRIDGE ROAD"
+      "address": "3, CHERCHEFELLE MEWS"
+    },
+    {
+      "price": 835000,
+      "date": "2026-03-18",
+      "postcode": "HA2 6EN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "129, WOODLANDS"
+    },
+    {
+      "price": 655000,
+      "date": "2026-03-18",
+      "postcode": "HA5 5RA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, MELROSE ROAD"
     },
     {
       "price": 780000,
-      "date": "2026-02-16",
-      "postcode": "HA1 2BL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, KENTON ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2026-02-13",
-      "postcode": "HA7 4BS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, TAONA HOUSE, 1, MERRION AVENUE"
-    },
-    {
-      "price": 600000,
-      "date": "2026-02-13",
-      "postcode": "HA3 8LG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, BRAMPTON GROVE"
-    },
-    {
-      "price": 610000,
-      "date": "2026-02-12",
-      "postcode": "HA2 8ND",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, TORRINGTON DRIVE"
-    },
-    {
-      "price": 520000,
-      "date": "2026-02-12",
-      "postcode": "HA8 7RL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "46, LODGE CLOSE"
-    },
-    {
-      "price": 897500,
-      "date": "2026-02-12",
-      "postcode": "HA5 1UA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, WEST TOWERS"
-    },
-    {
-      "price": 470000,
-      "date": "2026-02-11",
-      "postcode": "HA2 8DQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2A, MAPLE AVENUE"
-    },
-    {
-      "price": 540000,
-      "date": "2026-02-11",
-      "postcode": "HA3 7HU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BISHOP KEN ROAD"
-    },
-    {
-      "price": 500000,
-      "date": "2026-02-11",
-      "postcode": "HA3 5NY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "83, ATHELSTONE ROAD"
-    },
-    {
-      "price": 905000,
-      "date": "2026-02-11",
-      "postcode": "HA3 7BY",
+      "date": "2026-03-18",
+      "postcode": "HA8 6PB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "162, COLLEGE HILL ROAD"
-    },
-    {
-      "price": 386000,
-      "date": "2026-02-10",
-      "postcode": "HA1 2RZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "58A, ROSSLYN CRESCENT"
-    },
-    {
-      "price": 289100,
-      "date": "2026-02-10",
-      "postcode": "HA2 8DN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, BARNABY CLOSE"
-    },
-    {
-      "price": 630000,
-      "date": "2026-02-10",
-      "postcode": "HA8 6BQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, TIVERTON ROAD"
+      "address": "100, WHITCHURCH GARDENS"
     },
     {
       "price": 82000,
-      "date": "2026-02-09",
-      "postcode": "HA1 2JU",
+      "date": "2026-03-17",
+      "postcode": "HA2 8EU",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "11, BRANDRETH COURT"
-    },
-    {
-      "price": 950000,
-      "date": "2026-02-09",
-      "postcode": "HA7 3DS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LONGDRIVE, STANMORE HILL"
+      "address": "25, BARNETTS COURT"
     },
     {
       "price": 610000,
-      "date": "2026-02-06",
-      "postcode": "HA1 4XQ",
+      "date": "2026-03-17",
+      "postcode": "HA3 5DS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, ARTISAN PLACE"
+    },
+    {
+      "price": 1175000,
+      "date": "2026-03-16",
+      "postcode": "HA7 3RQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, LEAVESDEN ROAD"
+    },
+    {
+      "price": 520000,
+      "date": "2026-03-13",
+      "postcode": "HA3 8QQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, HARLEY CRESCENT"
+      "address": "91, KINGSHILL DRIVE"
     },
     {
-      "price": 390750,
-      "date": "2026-02-06",
-      "postcode": "HA7 4HE",
+      "price": 370000,
+      "date": "2026-03-13",
+      "postcode": "HA1 1PG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 2, CHELTENHAM COURT, 30, MARSH LANE"
+      "address": "95B, HEADSTONE ROAD"
+    },
+    {
+      "price": 595000,
+      "date": "2026-03-13",
+      "postcode": "HA2 9LL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, WARDEN AVENUE"
+    },
+    {
+      "price": 865000,
+      "date": "2026-03-12",
+      "postcode": "HA7 2AP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, BEVERLEY GARDENS"
+    },
+    {
+      "price": 575000,
+      "date": "2026-03-12",
+      "postcode": "HA1 4UU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, WALTON ROAD"
+    },
+    {
+      "price": 620000,
+      "date": "2026-03-12",
+      "postcode": "HA7 2AF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, MOUNTBEL ROAD"
     }
   ]
 }

@@ -1,22 +1,130 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.684Z",
+  "updatedAt": "2026-05-18T19:24:08.216Z",
   "townSlug": "princes-risborough",
   "countySlug": "buckinghamshire",
   "stats": {
-    "medianPrice": 500000,
+    "medianPrice": 505000,
     "medianByType": {
-      "D": 740000,
-      "S": 465000,
-      "T": 408750,
-      "F": 236250
+      "D": 735000,
+      "S": 467500,
+      "T": 405000,
+      "F": 237500
     },
-    "transactionCount12m": 132,
-    "yoyChange": 4.2,
+    "transactionCount12m": 139,
+    "yoyChange": 4.7,
     "newBuildCount": 4,
-    "existingCount": 128,
-    "newBuildPremium": 53.1
+    "existingCount": 135,
+    "newBuildPremium": 39
   },
   "recentTransactions": [
+    {
+      "price": 510000,
+      "date": "2026-03-20",
+      "postcode": "HP27 0HH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, CROSSFIELD ROAD"
+    },
+    {
+      "price": 558000,
+      "date": "2026-03-20",
+      "postcode": "HP27 0JN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TIPPACOTT, NEW ROAD"
+    },
+    {
+      "price": 465000,
+      "date": "2026-03-19",
+      "postcode": "HP27 0HG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, HIGHFIELD ROAD"
+    },
+    {
+      "price": 690000,
+      "date": "2026-03-18",
+      "postcode": "HP27 9AY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, WILLOW WAY"
+    },
+    {
+      "price": 790000,
+      "date": "2026-03-18",
+      "postcode": "HP27 0QG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHILTERN EDGE, MAIN ROAD"
+    },
+    {
+      "price": 1580000,
+      "date": "2026-03-17",
+      "postcode": "HP27 0RJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HAMPDEN LODGE"
+    },
+    {
+      "price": 835000,
+      "date": "2026-03-12",
+      "postcode": "HP27 9DF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, STATION ROAD"
+    },
+    {
+      "price": 925000,
+      "date": "2026-03-06",
+      "postcode": "HP27 9FT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, WAYFARERS END"
+    },
+    {
+      "price": 407000,
+      "date": "2026-03-03",
+      "postcode": "HP27 9XU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, IVY CLOSE"
+    },
+    {
+      "price": 507000,
+      "date": "2026-03-02",
+      "postcode": "HP27 9BH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, STRATTON ROAD"
+    },
+    {
+      "price": 355000,
+      "date": "2026-02-20",
+      "postcode": "HP27 9ER",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, AUTUMN DRIVE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-02-13",
+      "postcode": "HP27 9AH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, PARK STREET"
+    },
     {
       "price": 390000,
       "date": "2026-02-13",
@@ -25,15 +133,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "JASMINE, CHAPEL HILL"
-    },
-    {
-      "price": 505000,
-      "date": "2026-02-06",
-      "postcode": "HP27 9HS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "87, WESTMEAD"
     },
     {
       "price": 190000,
@@ -45,6 +144,15 @@
       "address": "16, WINDSOR LODGE, WELLINGTON AVENUE"
     },
     {
+      "price": 505000,
+      "date": "2026-02-06",
+      "postcode": "HP27 9HS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, WESTMEAD"
+    },
+    {
       "price": 695000,
       "date": "2026-02-02",
       "postcode": "HP27 0ND",
@@ -52,6 +160,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "2, CHILTERN VIEW CLOSE"
+    },
+    {
+      "price": 615000,
+      "date": "2026-01-30",
+      "postcode": "HP27 9HE",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "POLICE STATION HOUSE, LONGWICK ROAD"
     },
     {
       "price": 180000,
@@ -79,123 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "JASMINE CORNER, LONG HIDE"
-    },
-    {
-      "price": 420000,
-      "date": "2026-01-26",
-      "postcode": "HP27 9JW",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, LITTLE HAM LANE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-01-23",
-      "postcode": "HP27 0DF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, SYCAMORE HOUSES"
-    },
-    {
-      "price": 745000,
-      "date": "2026-01-23",
-      "postcode": "HP27 9AP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, INNKEEPERS COURT"
-    },
-    {
-      "price": 700000,
-      "date": "2026-01-22",
-      "postcode": "HP27 9HY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, WELLINGTON AVENUE"
-    },
-    {
-      "price": 120000,
-      "date": "2026-01-21",
-      "postcode": "HP27 9RZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, WELLINGTON HOUSE, LOWER ICKNIELD WAY"
-    },
-    {
-      "price": 425000,
-      "date": "2026-01-20",
-      "postcode": "HP27 9RZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, WELLINGTON COTTAGES, LOWER ICKNIELD WAY"
-    },
-    {
-      "price": 435000,
-      "date": "2026-01-19",
-      "postcode": "HP27 0BQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, ASH ROAD"
-    },
-    {
-      "price": 810000,
-      "date": "2026-01-09",
-      "postcode": "HP27 0EP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, WINDMILL HILL"
-    },
-    {
-      "price": 880000,
-      "date": "2025-12-19",
-      "postcode": "HP27 0RQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, COTTAGE FARM WAY"
-    },
-    {
-      "price": 440000,
-      "date": "2025-12-18",
-      "postcode": "HP27 9AH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, PARK STREET"
-    },
-    {
-      "price": 1060000,
-      "date": "2025-12-18",
-      "postcode": "HP27 0LX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE HATCH"
-    },
-    {
-      "price": 815000,
-      "date": "2025-12-18",
-      "postcode": "HP27 9FZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, SPORTSMANS WAY"
-    },
-    {
-      "price": 252000,
-      "date": "2025-12-16",
-      "postcode": "HP27 0JL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, IVYHILL COURT, NEW ROAD"
     }
   ]
 }

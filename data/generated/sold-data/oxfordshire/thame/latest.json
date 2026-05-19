@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.704Z",
+  "updatedAt": "2026-05-18T19:24:08.236Z",
   "townSlug": "thame",
   "countySlug": "oxfordshire",
   "stats": {
-    "medianPrice": 421250,
+    "medianPrice": 420000,
     "medianByType": {
-      "D": 642000,
-      "S": 466250,
+      "D": 643500,
+      "S": 460000,
       "T": 370000,
-      "F": 236000
+      "F": 252500
     },
-    "transactionCount12m": 166,
-    "yoyChange": -7.4,
-    "newBuildCount": 4,
-    "existingCount": 162,
-    "newBuildPremium": 215.1
+    "transactionCount12m": 173,
+    "yoyChange": -8.7,
+    "newBuildCount": 3,
+    "existingCount": 170,
+    "newBuildPremium": 395.1
   },
   "recentTransactions": [
+    {
+      "price": 645000,
+      "date": "2026-03-25",
+      "postcode": "OX9 3YR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, CAVENDISH WALK"
+    },
+    {
+      "price": 310000,
+      "date": "2026-03-23",
+      "postcode": "OX9 3LT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, ESSEX ROAD"
+    },
+    {
+      "price": 855000,
+      "date": "2026-03-17",
+      "postcode": "OX9 7AL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CHILTERN VIEW"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-16",
+      "postcode": "OX9 3LY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, YEATS LODGE, GREYHOUND LANE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-03-12",
+      "postcode": "OX9 7AU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, MARSH END"
+    },
+    {
+      "price": 272500,
+      "date": "2026-03-06",
+      "postcode": "OX9 3JB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "42, LATIMER HOUSE, ANGUS COURT"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-06",
+      "postcode": "OX9 3EB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, IRETON COURT"
+    },
+    {
+      "price": 853500,
+      "date": "2026-03-06",
+      "postcode": "OX9 7BN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, SWAN GARDENS"
+    },
+    {
+      "price": 545000,
+      "date": "2026-02-27",
+      "postcode": "OX9 3TB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, HARRISON PLACE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-02-23",
+      "postcode": "OX9 3LP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "95, CHINNOR ROAD"
+    },
     {
       "price": 465000,
       "date": "2026-02-16",
@@ -36,6 +126,15 @@
       "address": "38, WARREN MEAD"
     },
     {
+      "price": 350000,
+      "date": "2026-02-06",
+      "postcode": "OX9 2FB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "18, MICHAELIS ROAD"
+    },
+    {
       "price": 750000,
       "date": "2026-02-04",
       "postcode": "OX9 2DQ",
@@ -43,6 +142,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "14, COLLEGE CLOSE"
+    },
+    {
+      "price": 1025000,
+      "date": "2026-02-04",
+      "postcode": "OX9 2FS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, SAXON SQUARE"
     },
     {
       "price": 595000,
@@ -81,15 +189,6 @@
       "address": "89, SHARMAN BEER COURT"
     },
     {
-      "price": 785000,
-      "date": "2026-01-23",
-      "postcode": "OX9 3EA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, AUGUSTINE WAY"
-    },
-    {
       "price": 800000,
       "date": "2026-01-23",
       "postcode": "OX9 2JR",
@@ -97,105 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "3, OLD LONDON ROAD"
-    },
-    {
-      "price": 935000,
-      "date": "2026-01-16",
-      "postcode": "OX9 7AT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LITTLE ACRE, HIGH STREET"
-    },
-    {
-      "price": 380000,
-      "date": "2026-01-16",
-      "postcode": "OX9 3AG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, STAGGS ROAD"
-    },
-    {
-      "price": 815000,
-      "date": "2026-01-15",
-      "postcode": "OX9 3HG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, PICKENFIELD"
-    },
-    {
-      "price": 345000,
-      "date": "2026-01-14",
-      "postcode": "OX9 3NZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "15, SEYMOUR COURT"
-    },
-    {
-      "price": 410000,
-      "date": "2026-01-12",
-      "postcode": "OX9 3BN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, WELLINGTON STREET"
-    },
-    {
-      "price": 450000,
-      "date": "2026-01-09",
-      "postcode": "OX9 3WD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, GLENHAM ROAD"
-    },
-    {
-      "price": 277500,
-      "date": "2026-01-07",
-      "postcode": "OX9 2FL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "15, CORBETTS WAY"
-    },
-    {
-      "price": 185000,
-      "date": "2025-12-19",
-      "postcode": "OX9 3TN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "47, BERKELEY ROAD"
-    },
-    {
-      "price": 205000,
-      "date": "2025-12-19",
-      "postcode": "OX9 3TN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "31, BERKELEY ROAD"
-    },
-    {
-      "price": 540000,
-      "date": "2025-12-18",
-      "postcode": "OX9 2LS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54, BROOKSIDE CLOSE"
-    },
-    {
-      "price": 750000,
-      "date": "2025-12-16",
-      "postcode": "OX9 3NF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, QUEENS ROAD"
     }
   ]
 }

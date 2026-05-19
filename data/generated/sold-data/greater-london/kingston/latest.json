@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.403Z",
+  "updatedAt": "2026-05-18T19:24:07.907Z",
   "townSlug": "kingston",
   "countySlug": "greater-london",
   "stats": {
-    "medianPrice": 550000,
+    "medianPrice": 545000,
     "medianByType": {
-      "D": 950000,
-      "S": 750000,
-      "T": 575679,
-      "F": 365000
+      "D": 947500,
+      "S": 765000,
+      "T": 582500,
+      "F": 362500
     },
-    "transactionCount12m": 1312,
+    "transactionCount12m": 1405,
     "yoyChange": 2.8,
     "newBuildCount": 0,
-    "existingCount": 1312,
-    "newBuildPremium": -100
+    "existingCount": 1405,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 520000,
-      "date": "2026-02-20",
-      "postcode": "KT9 2AH",
-      "propertyType": "T",
+      "price": 386000,
+      "date": "2026-03-25",
+      "postcode": "KT6 6DQ",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "43, THRIGBY ROAD"
+      "tenure": "L",
+      "address": "FLAT 7, WOODGATE HOUSE, SOUTH BANK"
     },
     {
       "price": 620000,
-      "date": "2026-02-20",
-      "postcode": "KT9 1HH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "88, CUMBERLAND DRIVE"
-    },
-    {
-      "price": 425000,
-      "date": "2026-02-20",
-      "postcode": "KT2 5FJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 29, 3, SKERNE ROAD"
-    },
-    {
-      "price": 815000,
-      "date": "2026-02-20",
-      "postcode": "KT2 5RN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54, SOPWITH CLOSE"
-    },
-    {
-      "price": 470000,
-      "date": "2026-02-20",
-      "postcode": "KT1 3AE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "27A, COBHAM ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-02-20",
-      "postcode": "KT6 5BL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 18, ST BERNARDS HOUSE, 54, HOOK ROAD"
-    },
-    {
-      "price": 190000,
-      "date": "2026-02-19",
-      "postcode": "KT6 6AZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 42, KINGFISHER COURT, 187A, EWELL ROAD"
-    },
-    {
-      "price": 660000,
-      "date": "2026-02-18",
-      "postcode": "KT3 5JU",
+      "date": "2026-03-24",
+      "postcode": "KT9 2PW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, BRAMSHAW RISE"
+      "address": "40, HARTFIELD ROAD"
     },
     {
-      "price": 265000,
-      "date": "2026-02-17",
-      "postcode": "KT5 8QX",
+      "price": 235000,
+      "date": "2026-03-23",
+      "postcode": "KT5 9NP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 2, 23, BERRYLANDS ROAD"
-    },
-    {
-      "price": 737000,
-      "date": "2026-02-16",
-      "postcode": "KT2 6EZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "113, ACRE ROAD"
-    },
-    {
-      "price": 535000,
-      "date": "2026-02-16",
-      "postcode": "KT1 3DY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, PORTMAN ROAD"
-    },
-    {
-      "price": 700000,
-      "date": "2026-02-16",
-      "postcode": "KT3 5RY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, GLEBE GARDENS"
-    },
-    {
-      "price": 1025000,
-      "date": "2026-02-13",
-      "postcode": "KT2 7TU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, WINDMILL RISE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-13",
-      "postcode": "KT6 4SU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "27, STRATTON COURT, 16, ADELAIDE ROAD"
-    },
-    {
-      "price": 428000,
-      "date": "2026-02-13",
-      "postcode": "KT1 2SS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19A, GROVE CLOSE"
-    },
-    {
-      "price": 735000,
-      "date": "2026-02-13",
-      "postcode": "KT5 8SY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1A, MAYBERRY PLACE"
-    },
-    {
-      "price": 948788,
-      "date": "2026-02-13",
-      "postcode": "KT1 2AP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, THE BITTOMS"
-    },
-    {
-      "price": 815000,
-      "date": "2026-02-12",
-      "postcode": "KT2 5RG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "93, BARNFIELD AVENUE"
-    },
-    {
-      "price": 610000,
-      "date": "2026-02-12",
-      "postcode": "KT9 1AY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "91, RHODRONS AVENUE"
+      "address": "43, DONALD WOODS GARDENS"
     },
     {
       "price": 750000,
-      "date": "2026-02-12",
-      "postcode": "KT3 6RQ",
+      "date": "2026-03-23",
+      "postcode": "KT3 5HF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, BAZALGETTE GARDENS"
+    },
+    {
+      "price": 680000,
+      "date": "2026-03-23",
+      "postcode": "KT6 5AQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, VALE ROAD SOUTH"
+    },
+    {
+      "price": 500000,
+      "date": "2026-03-19",
+      "postcode": "KT6 4LW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, HILL COURT, ST MARKS HILL"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-18",
+      "postcode": "KT1 3PE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, BOUNDARY CLOSE"
+    },
+    {
+      "price": 440000,
+      "date": "2026-03-18",
+      "postcode": "KT6 6EH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 5, 2, OAKHILL ROAD"
+    },
+    {
+      "price": 276000,
+      "date": "2026-03-18",
+      "postcode": "KT5 8DX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "47, MINSTREL GARDENS"
+    },
+    {
+      "price": 715000,
+      "date": "2026-03-18",
+      "postcode": "KT1 2FJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 29, HARRIER HOUSE, 5, ANTOINETTE CLOSE"
+    },
+    {
+      "price": 495000,
+      "date": "2026-03-18",
+      "postcode": "KT9 2QZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, BABBACOMBE CLOSE"
+    },
+    {
+      "price": 899950,
+      "date": "2026-03-17",
+      "postcode": "KT6 6JW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, SPEIRS CLOSE"
+      "address": "21, PENNERS GARDENS"
+    },
+    {
+      "price": 500000,
+      "date": "2026-03-16",
+      "postcode": "SW15 3QG",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ROBIN HOOD FARM, ROBIN HOOD WAY"
+    },
+    {
+      "price": 690000,
+      "date": "2026-03-13",
+      "postcode": "KT19 9HW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "545, CHESSINGTON ROAD"
+    },
+    {
+      "price": 760000,
+      "date": "2026-03-13",
+      "postcode": "KT9 2GP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, SIMMONS CLOSE"
+    },
+    {
+      "price": 628000,
+      "date": "2026-03-13",
+      "postcode": "KT3 6DP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, HADDON CLOSE"
+    },
+    {
+      "price": 1050000,
+      "date": "2026-03-13",
+      "postcode": "KT2 5JU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, BOCKHAMPTON ROAD"
+    },
+    {
+      "price": 715000,
+      "date": "2026-03-13",
+      "postcode": "KT5 9QE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "78, WARREN DRIVE SOUTH"
+    },
+    {
+      "price": 388000,
+      "date": "2026-03-12",
+      "postcode": "KT3 3FR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 24, WINDERMERE HOUSE, 271, KINGSTON ROAD"
+    },
+    {
+      "price": 625000,
+      "date": "2026-03-11",
+      "postcode": "KT2 5SP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 9, HOMINGTON COURT, ALBANY PARK ROAD"
     }
   ]
 }

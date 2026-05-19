@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.497Z",
+  "updatedAt": "2026-05-18T19:24:08.024Z",
   "townSlug": "canterbury",
   "countySlug": "kent",
   "stats": {
-    "medianPrice": 330000,
+    "medianPrice": 331530,
     "medianByType": {
-      "D": 471123,
-      "S": 335000,
-      "T": 290000,
-      "F": 185500
+      "D": 470000,
+      "S": 338000,
+      "T": 292500,
+      "F": 187500
     },
-    "transactionCount12m": 1443,
-    "yoyChange": -3.5,
-    "newBuildCount": 74,
-    "existingCount": 1369,
-    "newBuildPremium": 5.5
+    "transactionCount12m": 1564,
+    "yoyChange": -3.3,
+    "newBuildCount": 71,
+    "existingCount": 1493,
+    "newBuildPremium": 12.1
   },
   "recentTransactions": [
     {
-      "price": 105000,
-      "date": "2026-02-20",
-      "postcode": "CT6 5PR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, 75, MORTIMER STREET"
-    },
-    {
-      "price": 287000,
-      "date": "2026-02-20",
-      "postcode": "CT3 3JL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, THE STREET"
-    },
-    {
-      "price": 90600,
-      "date": "2026-02-20",
-      "postcode": "CT6 8PD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, CHISLET COURT"
-    },
-    {
-      "price": 305000,
-      "date": "2026-02-20",
-      "postcode": "CT2 8SD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, THE SPIRES"
-    },
-    {
-      "price": 245000,
-      "date": "2026-02-19",
-      "postcode": "CT2 7TP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, THE CLOSE"
-    },
-    {
-      "price": 370000,
-      "date": "2026-02-19",
-      "postcode": "CT4 5LU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, GREEN COURT"
-    },
-    {
-      "price": 365000,
-      "date": "2026-02-18",
-      "postcode": "CT6 8SB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, SELSEA AVENUE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-02-18",
-      "postcode": "CT5 2RD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "67, WOODMAN AVENUE"
-    },
-    {
-      "price": 197000,
-      "date": "2026-02-18",
-      "postcode": "CT6 5RP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, PARKSIDE COURT, KINGS ROAD"
-    },
-    {
-      "price": 630000,
-      "date": "2026-02-18",
-      "postcode": "CT4 7TF",
+      "price": 410000,
+      "date": "2026-03-27",
+      "postcode": "CT4 5DZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, JASMINE CLOSE"
+      "address": "WOODLANDS, BEKESBOURNE HILL"
+    },
+    {
+      "price": 447500,
+      "date": "2026-03-27",
+      "postcode": "CT6 6LW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, MALVERN PARK"
+    },
+    {
+      "price": 583000,
+      "date": "2026-03-26",
+      "postcode": "CT5 2EH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "100, CLARE ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-03-26",
+      "postcode": "CT5 1QF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, MILLSTROOD ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-03-24",
+      "postcode": "CT5 3JP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, ELLISON CLOSE"
+    },
+    {
+      "price": 478500,
+      "date": "2026-03-24",
+      "postcode": "CT2 9ER",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, WESTFIELD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-23",
+      "postcode": "CT5 1SA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, SEYMOUR AVENUE"
+    },
+    {
+      "price": 545000,
+      "date": "2026-03-20",
+      "postcode": "CT6 6BY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, DOWNS PARK"
+    },
+    {
+      "price": 385000,
+      "date": "2026-03-20",
+      "postcode": "CT6 6BW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, AROLLA ROAD"
+    },
+    {
+      "price": 650000,
+      "date": "2026-03-20",
+      "postcode": "CT6 6QA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "218, RECULVER ROAD"
+    },
+    {
+      "price": 480000,
+      "date": "2026-03-19",
+      "postcode": "CT1 1GS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, CAVALRY CLOSE"
+    },
+    {
+      "price": 410000,
+      "date": "2026-03-19",
+      "postcode": "CT5 4PW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, MEADOW WALK"
+    },
+    {
+      "price": 110501,
+      "date": "2026-03-19",
+      "postcode": "CT2 7LN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, STONEBRIDGE ROAD"
+    },
+    {
+      "price": 295000,
+      "date": "2026-03-18",
+      "postcode": "CT5 4PB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, OLD FARM CLOSE"
+    },
+    {
+      "price": 293000,
+      "date": "2026-03-18",
+      "postcode": "CT1 1PT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, WINDMILL CLOSE"
     },
     {
       "price": 490000,
-      "date": "2026-02-17",
-      "postcode": "CT5 3JN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, LAXTON WAY"
-    },
-    {
-      "price": 200000,
-      "date": "2026-02-16",
-      "postcode": "CT6 5EG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FLAT 3, 31, WILLIAM STREET"
-    },
-    {
-      "price": 85000,
-      "date": "2026-02-16",
-      "postcode": "CT6 5EG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 31, WILLIAM STREET"
-    },
-    {
-      "price": 354000,
-      "date": "2026-02-16",
-      "postcode": "CT1 1TJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, VILLIERS ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-16",
-      "postcode": "CT5 4HR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2B, FORGE LANE"
-    },
-    {
-      "price": 255000,
-      "date": "2026-02-16",
-      "postcode": "CT6 7JN",
+      "date": "2026-03-17",
+      "postcode": "CT6 7PE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "52, WOODROW CHASE"
+      "address": "THE DAIRY 1, COLEWOOD FARMSTEAD, THANET WAY"
     },
     {
-      "price": 230500,
-      "date": "2026-02-13",
-      "postcode": "CT2 7TU",
+      "price": 475000,
+      "date": "2026-03-16",
+      "postcode": "CT6 7DT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, ARDEN ROAD"
+    },
+    {
+      "price": 365000,
+      "date": "2026-03-16",
+      "postcode": "CT5 2EN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, BALIOL ROAD"
+    },
+    {
+      "price": 386500,
+      "date": "2026-03-16",
+      "postcode": "CT2 8DQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, GOUDHURST CLOSE"
+      "address": "30, WHITSTABLE ROAD"
     },
     {
-      "price": 280000,
-      "date": "2026-02-13",
-      "postcode": "CT6 7JF",
-      "propertyType": "D",
+      "price": 230000,
+      "date": "2026-03-16",
+      "postcode": "CT1 3LP",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "29, MILL VIEW ROAD"
-    },
-    {
-      "price": 512500,
-      "date": "2026-02-13",
-      "postcode": "CT3 4FN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, COLLIER WALK"
-    },
-    {
-      "price": 590000,
-      "date": "2026-02-13",
-      "postcode": "CT5 3BL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE MAYFLOWER, HARRIETS CORNER"
+      "tenure": "L",
+      "address": "152, GEORGE ROCHE ROAD"
     }
   ]
 }

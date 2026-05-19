@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.292Z",
+  "updatedAt": "2026-05-18T19:24:08.848Z",
   "townSlug": "blackpool",
   "countySlug": "lancashire",
   "stats": {
-    "medianPrice": 130000,
+    "medianPrice": 131500,
     "medianByType": {
       "D": 253000,
-      "S": 155000,
-      "T": 107000,
+      "S": 156700,
+      "T": 107750,
       "F": 85000
     },
-    "transactionCount12m": 1781,
-    "yoyChange": 2.4,
+    "transactionCount12m": 1888,
+    "yoyChange": 4.4,
     "newBuildCount": 1,
-    "existingCount": 1780,
-    "newBuildPremium": -100
+    "existingCount": 1887,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
+      "price": 117000,
+      "date": "2026-03-26",
+      "postcode": "FY1 6LD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "443, CENTRAL DRIVE"
+    },
+    {
+      "price": 49000,
+      "date": "2026-03-25",
+      "postcode": "FY3 9JR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "333A, WHITEGATE DRIVE"
+    },
+    {
+      "price": 127500,
+      "date": "2026-03-25",
+      "postcode": "FY4 2BG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, BEVERLEY GROVE"
+    },
+    {
+      "price": 67500,
+      "date": "2026-03-25",
+      "postcode": "FY4 5EU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "32, MOOREVIEW COURT"
+    },
+    {
       "price": 195000,
-      "date": "2026-02-24",
-      "postcode": "FY4 2JT",
+      "date": "2026-03-24",
+      "postcode": "FY2 0LL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, SUMMERVILLE"
+      "address": "24, GALWAY AVENUE"
     },
     {
-      "price": 185250,
-      "date": "2026-02-23",
-      "postcode": "FY4 1QE",
-      "propertyType": "S",
+      "price": 370000,
+      "date": "2026-03-23",
+      "postcode": "FY1 1DA",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, HARRINGTON AVENUE"
+      "address": "52, ABINGDON STREET"
     },
     {
-      "price": 175000,
-      "date": "2026-02-23",
-      "postcode": "FY5 1QD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, GLENMERE CRESCENT"
-    },
-    {
-      "price": 94000,
-      "date": "2026-02-23",
-      "postcode": "FY3 7TJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, HAMMERTON PLACE"
-    },
-    {
-      "price": 77950,
-      "date": "2026-02-20",
-      "postcode": "FY1 2RF",
+      "price": 112000,
+      "date": "2026-03-23",
+      "postcode": "FY3 8EJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, GRANTHAM ROAD"
+      "address": "28, GRANGE ROAD"
     },
     {
-      "price": 215000,
-      "date": "2026-02-20",
-      "postcode": "FY4 3QN",
+      "price": 168000,
+      "date": "2026-03-23",
+      "postcode": "FY1 6RL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, FERGUSON ROAD"
+    },
+    {
+      "price": 90000,
+      "date": "2026-03-20",
+      "postcode": "FY1 2PE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ASHBURTON ROAD"
+    },
+    {
+      "price": 145000,
+      "date": "2026-03-20",
+      "postcode": "FY1 3AD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "84, TOPPING STREET"
+    },
+    {
+      "price": 112000,
+      "date": "2026-03-20",
+      "postcode": "FY4 3NE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, WILLOWBANK AVENUE"
+    },
+    {
+      "price": 133000,
+      "date": "2026-03-20",
+      "postcode": "FY4 1SP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "54, ALDERLEY AVENUE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-03-20",
+      "postcode": "FY4 5FD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, OAKWOOD CLOSE"
+    },
+    {
+      "price": 125000,
+      "date": "2026-03-20",
+      "postcode": "FY5 3EL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "118, LYDDESDALE AVENUE"
+    },
+    {
+      "price": 216500,
+      "date": "2026-03-19",
+      "postcode": "FY1 3LL",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, MILBOURNE STREET"
+    },
+    {
+      "price": 376000,
+      "date": "2026-03-19",
+      "postcode": "FY4 5AS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, AVONDALE CRESCENT"
+    },
+    {
+      "price": 275000,
+      "date": "2026-03-18",
+      "postcode": "FY4 2HE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "32, LONGRIDGE AVENUE"
+      "address": "76, BROADWAY"
     },
     {
-      "price": 79000,
-      "date": "2026-02-20",
-      "postcode": "FY3 8EQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, BROUGHTON AVENUE"
-    },
-    {
-      "price": 55000,
-      "date": "2026-02-20",
-      "postcode": "FY1 2RB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, ENFIELD ROAD"
-    },
-    {
-      "price": 228000,
-      "date": "2026-02-20",
-      "postcode": "FY4 2LQ",
+      "price": 185000,
+      "date": "2026-03-18",
+      "postcode": "FY2 0DB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "54, CHEDDAR AVENUE"
+      "address": "9, GLENFIELD AVENUE"
     },
     {
-      "price": 75000,
-      "date": "2026-02-19",
-      "postcode": "FY4 1BQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, BOND STREET"
-    },
-    {
-      "price": 144000,
-      "date": "2026-02-16",
-      "postcode": "FY3 8EZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, BIRCHWAY AVENUE"
-    },
-    {
-      "price": 161500,
-      "date": "2026-02-16",
-      "postcode": "FY5 3AQ",
+      "price": 200000,
+      "date": "2026-03-17",
+      "postcode": "FY4 2JP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, NORTH DRIVE"
+      "address": "9, WELLOGATE GARDENS"
     },
     {
-      "price": 128000,
-      "date": "2026-02-13",
-      "postcode": "FY5 3JU",
+      "price": 125000,
+      "date": "2026-03-16",
+      "postcode": "FY4 3QT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, LOXLEY PLACE EAST"
-    },
-    {
-      "price": 110000,
-      "date": "2026-02-13",
-      "postcode": "FY4 3NH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "98, EDGEWAY ROAD"
-    },
-    {
-      "price": 140000,
-      "date": "2026-02-13",
-      "postcode": "FY2 9ER",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, RIVINGTON AVENUE"
-    },
-    {
-      "price": 120000,
-      "date": "2026-02-13",
-      "postcode": "FY3 7BS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "78, GRENFELL AVENUE"
-    },
-    {
-      "price": 144000,
-      "date": "2026-02-13",
-      "postcode": "FY3 7AA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "246, DEVONSHIRE ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2026-02-12",
-      "postcode": "FY3 9SS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, DALKEITH AVENUE"
-    },
-    {
-      "price": 186000,
-      "date": "2026-02-12",
-      "postcode": "FY3 9ES",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "126, WHITEGATE DRIVE"
-    },
-    {
-      "price": 174950,
-      "date": "2026-02-12",
-      "postcode": "FY3 9JL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "245A, WHITEGATE DRIVE"
+      "address": "103, FARINGDON AVENUE"
     }
   ]
 }

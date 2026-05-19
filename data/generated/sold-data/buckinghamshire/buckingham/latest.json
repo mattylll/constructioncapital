@@ -1,22 +1,166 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.682Z",
+  "updatedAt": "2026-05-18T19:24:08.215Z",
   "townSlug": "buckingham",
   "countySlug": "buckinghamshire",
   "stats": {
-    "medianPrice": 380000,
+    "medianPrice": 376000,
     "medianByType": {
       "D": 515000,
       "S": 357000,
-      "T": 301000,
-      "F": 179998
+      "T": 300000,
+      "F": 180000
     },
-    "transactionCount12m": 384,
-    "yoyChange": -2.6,
-    "newBuildCount": 4,
-    "existingCount": 380,
-    "newBuildPremium": 52.8
+    "transactionCount12m": 409,
+    "yoyChange": -4.8,
+    "newBuildCount": 18,
+    "existingCount": 391,
+    "newBuildPremium": 4
   },
   "recentTransactions": [
+    {
+      "price": 280000,
+      "date": "2026-03-25",
+      "postcode": "MK18 4NY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, STOWE VIEW"
+    },
+    {
+      "price": 325000,
+      "date": "2026-03-16",
+      "postcode": "MK18 2NT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, WEST STREET"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-12",
+      "postcode": "MK18 7EG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, BADGERS WAY"
+    },
+    {
+      "price": 580000,
+      "date": "2026-03-12",
+      "postcode": "MK18 7HJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, KESTREL WAY"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-11",
+      "postcode": "MK18 3BD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, ST LAURENCE ROAD"
+    },
+    {
+      "price": 245000,
+      "date": "2026-03-06",
+      "postcode": "MK18 3QZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, RUDDS CLOSE"
+    },
+    {
+      "price": 750000,
+      "date": "2026-03-06",
+      "postcode": "MK18 1PL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, HIGHLANDS ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-06",
+      "postcode": "MK18 3GE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, MILLGROUND FIELD"
+    },
+    {
+      "price": 628000,
+      "date": "2026-03-06",
+      "postcode": "MK18 4NB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, TOLL GATE STREET"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-02",
+      "postcode": "MK18 1LU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "77, OVERN AVENUE"
+    },
+    {
+      "price": 187500,
+      "date": "2026-03-02",
+      "postcode": "MK18 7SD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, EDGING LANE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-02-27",
+      "postcode": "MK18 2JA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, GREENFIELDS"
+    },
+    {
+      "price": 525000,
+      "date": "2026-02-27",
+      "postcode": "MK18 7HH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, PARTRIDGE CLOSE"
+    },
+    {
+      "price": 715000,
+      "date": "2026-02-27",
+      "postcode": "MK18 1QU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WOODLAND COTTAGE, MAIN STREET"
+    },
+    {
+      "price": 773200,
+      "date": "2026-02-27",
+      "postcode": "MK18 2EN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "COCKLE BARN, 2 CLAYDON HILL FARM BARNS"
+    },
+    {
+      "price": 370000,
+      "date": "2026-02-27",
+      "postcode": "MK18 1XU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, BUCCAS LANE"
+    },
     {
       "price": 227500,
       "date": "2026-02-24",
@@ -27,6 +171,24 @@
       "address": "3, THE OLD STABLE YARD"
     },
     {
+      "price": 275000,
+      "date": "2026-02-20",
+      "postcode": "MK18 2DN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "OAK TREE COTTAGE, BRIDGE STREET"
+    },
+    {
+      "price": 360000,
+      "date": "2026-02-18",
+      "postcode": "MK18 2FQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, BRINDLES CLOSE"
+    },
+    {
       "price": 550000,
       "date": "2026-02-18",
       "postcode": "MK18 1HL",
@@ -34,168 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "6A, WEST STREET"
-    },
-    {
-      "price": 240000,
-      "date": "2026-02-17",
-      "postcode": "MK18 2NT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, WEST STREET"
-    },
-    {
-      "price": 265000,
-      "date": "2026-02-16",
-      "postcode": "MK18 2HQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, WERNER TERRACE"
-    },
-    {
-      "price": 405000,
-      "date": "2026-02-13",
-      "postcode": "MK18 1SD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, SANDMARTIN CLOSE"
-    },
-    {
-      "price": 470000,
-      "date": "2026-02-12",
-      "postcode": "MK18 4DE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, THE BARRACKS"
-    },
-    {
-      "price": 485000,
-      "date": "2026-02-12",
-      "postcode": "MK18 7HD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, ROBIN CLOSE"
-    },
-    {
-      "price": 610000,
-      "date": "2026-02-11",
-      "postcode": "MK18 2FH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, COTSWOLDS WAY"
-    },
-    {
-      "price": 540000,
-      "date": "2026-02-10",
-      "postcode": "MK18 7EX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, KINGFISHER ROAD"
-    },
-    {
-      "price": 493995,
-      "date": "2026-02-10",
-      "postcode": "MK18 1YR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, EDMONDS CLOSE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-02-06",
-      "postcode": "MK18 1GN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, MOORHEN WAY"
-    },
-    {
-      "price": 190000,
-      "date": "2026-02-06",
-      "postcode": "MK18 7ET",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, DEERFIELD CLOSE"
-    },
-    {
-      "price": 665000,
-      "date": "2026-02-06",
-      "postcode": "MK18 7HJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, KESTREL WAY"
-    },
-    {
-      "price": 335000,
-      "date": "2026-02-06",
-      "postcode": "MK18 4QX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, STOCKLEYS LANE"
-    },
-    {
-      "price": 282500,
-      "date": "2026-02-06",
-      "postcode": "MK18 4FG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, LEYLAND CLOSE"
-    },
-    {
-      "price": 375000,
-      "date": "2026-02-06",
-      "postcode": "MK18 3DH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, AVENUE ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-02-04",
-      "postcode": "MK18 4DF",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "UNIT 19, APOLLO OFFICE COURT, RADCLIVE ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-01-30",
-      "postcode": "MK18 1NQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 11, PAYNES COURT, 27, HIGH STREET"
-    },
-    {
-      "price": 465000,
-      "date": "2026-01-30",
-      "postcode": "MK18 3AY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, DEMORAM CLOSE"
-    },
-    {
-      "price": 303000,
-      "date": "2026-01-30",
-      "postcode": "MK18 3QG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, LITTLE HILL"
     }
   ]
 }

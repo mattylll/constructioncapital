@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.713Z",
+  "updatedAt": "2026-05-18T19:24:09.125Z",
   "townSlug": "chester-le-street",
   "countySlug": "county-durham",
   "stats": {
     "medianPrice": 125000,
     "medianByType": {
-      "D": 250000,
+      "D": 255000,
       "S": 140000,
-      "T": 86000,
+      "T": 85000,
       "F": 80000
     },
-    "transactionCount12m": 6238,
-    "yoyChange": 0.1,
-    "newBuildCount": 151,
-    "existingCount": 6087,
-    "newBuildPremium": 90.2
+    "transactionCount12m": 6658,
+    "yoyChange": 0,
+    "newBuildCount": 147,
+    "existingCount": 6511,
+    "newBuildPremium": 87
   },
   "recentTransactions": [
     {
-      "price": 200000,
-      "date": "2026-02-27",
-      "postcode": "SR7 8JY",
+      "price": 73587,
+      "date": "2026-03-27",
+      "postcode": "DH6 2PJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, BRUCE GLAZIER TERRACE"
+    },
+    {
+      "price": 121500,
+      "date": "2026-03-27",
+      "postcode": "DH7 8QX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, BROCKWELL COURT"
+    },
+    {
+      "price": 60000,
+      "date": "2026-03-27",
+      "postcode": "SR7 8QE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, BOWES AVENUE"
+      "address": "4, STRANGFORD ROAD"
     },
     {
-      "price": 220000,
-      "date": "2026-02-25",
-      "postcode": "DL14 6LN",
+      "price": 182000,
+      "date": "2026-03-27",
+      "postcode": "DH8 7DN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, DOUAI DRIVE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-03-27",
+      "postcode": "SR8 4SP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, THORNTREE GILL"
+    },
+    {
+      "price": 135000,
+      "date": "2026-03-26",
+      "postcode": "SR7 0JY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, BYRON LODGE ESTATE"
+    },
+    {
+      "price": 50000,
+      "date": "2026-03-26",
+      "postcode": "TS28 5AP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, NORTH ROAD WEST"
+    },
+    {
+      "price": 70000,
+      "date": "2026-03-26",
+      "postcode": "TS27 4HU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, GLENHOLME TERRACE"
+    },
+    {
+      "price": 128000,
+      "date": "2026-03-25",
+      "postcode": "DH7 8EE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, CHURCH SQUARE"
+    },
+    {
+      "price": 470000,
+      "date": "2026-03-25",
+      "postcode": "DH1 4NS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, SKIPTON GROVE"
+      "address": "5, LOWES RISE"
     },
     {
-      "price": 130000,
-      "date": "2026-02-25",
-      "postcode": "DH9 6QA",
+      "price": 132000,
+      "date": "2026-03-25",
+      "postcode": "DL4 2GB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "61, ORWELL GARDENS"
+      "address": "35, DRUMMOND WAY"
+    },
+    {
+      "price": 385000,
+      "date": "2026-03-25",
+      "postcode": "DH1 5ZL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, PORTER CLOSE"
+    },
+    {
+      "price": 110625,
+      "date": "2026-03-25",
+      "postcode": "DH7 6FQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, RICHARDSON CLOSE"
+    },
+    {
+      "price": 42000,
+      "date": "2026-03-24",
+      "postcode": "DL14 8UU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, NEW ROW"
+    },
+    {
+      "price": 89950,
+      "date": "2026-03-24",
+      "postcode": "DH8 7BG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, BRIARDALE"
     },
     {
       "price": 120000,
-      "date": "2026-02-25",
-      "postcode": "DH8 0EQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, SUMMERDALE HOUSE, SNOWS GREEN ROAD"
-    },
-    {
-      "price": 39950,
-      "date": "2026-02-24",
-      "postcode": "TS27 4LA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, HATHERLEY SQUARE"
-    },
-    {
-      "price": 126000,
-      "date": "2026-02-24",
-      "postcode": "DL14 7NB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, SALISBURY PLACE"
-    },
-    {
-      "price": 92000,
-      "date": "2026-02-24",
-      "postcode": "DL14 9TQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, GREENFIELDS ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-24",
-      "postcode": "DL14 0AS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, SCHOOL STREET"
-    },
-    {
-      "price": 227000,
-      "date": "2026-02-24",
-      "postcode": "DL15 0GQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, CLEMENT WAY"
-    },
-    {
-      "price": 202500,
-      "date": "2026-02-23",
-      "postcode": "DL14 9LL",
+      "date": "2026-03-23",
+      "postcode": "DL15 9ND",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, CONISTON AVENUE"
+      "address": "12, CEDAR GARDENS"
     },
     {
-      "price": 287000,
-      "date": "2026-02-23",
-      "postcode": "DH1 5ZB",
+      "price": 83000,
+      "date": "2026-03-23",
+      "postcode": "SR7 9BL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "63, HARVEY AVENUE"
+      "address": "2, WINDSOR TERRACE SOUTH"
     },
     {
-      "price": 65000,
-      "date": "2026-02-20",
-      "postcode": "DL15 0PT",
+      "price": 108000,
+      "date": "2026-03-23",
+      "postcode": "DH9 7DJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, EASTFIELDS"
+    },
+    {
+      "price": 103000,
+      "date": "2026-03-23",
+      "postcode": "DH8 5FB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, QUEENS GATE"
+    },
+    {
+      "price": 120000,
+      "date": "2026-03-23",
+      "postcode": "DL5 5DB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, CANTERBURY CRESCENT"
-    },
-    {
-      "price": 155000,
-      "date": "2026-02-20",
-      "postcode": "DL14 6NQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, RICHMOND AVENUE"
-    },
-    {
-      "price": 65000,
-      "date": "2026-02-20",
-      "postcode": "SR7 7RF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, MAGLONA STREET"
-    },
-    {
-      "price": 165000,
-      "date": "2026-02-20",
-      "postcode": "DH1 5BA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, ST AIDANS AVENUE"
-    },
-    {
-      "price": 117500,
-      "date": "2026-02-20",
-      "postcode": "NE16 6QB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, WILLOW VIEW"
-    },
-    {
-      "price": 115000,
-      "date": "2026-02-20",
-      "postcode": "DL13 3NN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BEDBURN LODGE, BEDBURN"
-    },
-    {
-      "price": 55000,
-      "date": "2026-02-20",
-      "postcode": "DL17 8AU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, GORDON TERRACE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-02-20",
-      "postcode": "DH8 6AT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, OAKDALE ROAD"
-    },
-    {
-      "price": 130000,
-      "date": "2026-02-20",
-      "postcode": "DH9 8AB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, MANOR COURT"
+      "address": "15, YACLEY CLOSE"
     }
   ]
 }

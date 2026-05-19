@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.780Z",
+  "updatedAt": "2026-05-18T19:24:09.195Z",
   "townSlug": "bury-st-edmunds",
   "countySlug": "suffolk",
   "stats": {
     "medianPrice": 290000,
     "medianByType": {
-      "D": 400000,
-      "S": 283500,
-      "T": 250500,
+      "D": 405000,
+      "S": 280000,
+      "T": 251500,
       "F": 170000
     },
-    "transactionCount12m": 1107,
+    "transactionCount12m": 1170,
     "yoyChange": -2.5,
-    "newBuildCount": 26,
-    "existingCount": 1081,
-    "newBuildPremium": 7.2
+    "newBuildCount": 21,
+    "existingCount": 1149,
+    "newBuildPremium": 15.5
   },
   "recentTransactions": [
     {
-      "price": 263000,
-      "date": "2026-02-23",
-      "postcode": "IP28 8JU",
+      "price": 143000,
+      "date": "2026-03-27",
+      "postcode": "IP33 3SH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "23A, PRINCE OF WALES CLOSE"
+    },
+    {
+      "price": 455000,
+      "date": "2026-03-27",
+      "postcode": "IP33 2DG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, WARREN ROAD"
+      "address": "5, HORRINGER ROAD"
     },
     {
-      "price": 278830,
-      "date": "2026-02-20",
-      "postcode": "IP28 8TX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, JUNIPER ROAD"
-    },
-    {
-      "price": 276000,
-      "date": "2026-02-19",
-      "postcode": "IP33 3QS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, ALBEMARLE ROAD"
-    },
-    {
-      "price": 475000,
-      "date": "2026-02-18",
-      "postcode": "IP32 7HG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, APPLEDOWN DRIVE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-02-16",
-      "postcode": "IP31 1EZ",
+      "price": 270000,
+      "date": "2026-03-26",
+      "postcode": "IP33 1RH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, IXWORTH ROAD"
+      "address": "59, CHURCHGATE STREET"
     },
     {
-      "price": 370000,
-      "date": "2026-02-16",
-      "postcode": "IP32 7HE",
+      "price": 590000,
+      "date": "2026-03-20",
+      "postcode": "IP33 1SP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "129, CODLING ROAD"
+      "address": "53, ST JOHNS STREET"
     },
     {
-      "price": 160000,
-      "date": "2026-02-16",
-      "postcode": "IP33 2HY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, GODOLPHIN CLOSE"
-    },
-    {
-      "price": 412500,
-      "date": "2026-02-16",
-      "postcode": "IP29 5JP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, WALNUT TREE COTTAGES"
-    },
-    {
-      "price": 460000,
-      "date": "2026-02-16",
-      "postcode": "IP28 8LG",
+      "price": 305000,
+      "date": "2026-03-20",
+      "postcode": "IP28 7EU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "11A, HEATH FARM ROAD"
+      "address": "7, GRANVILLE GARDENS"
     },
     {
-      "price": 225000,
-      "date": "2026-02-16",
-      "postcode": "IP28 7PB",
+      "price": 233000,
+      "date": "2026-03-20",
+      "postcode": "IP32 7HQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, DOWNING CLOSE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-02-13",
-      "postcode": "IP28 8TW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, CARNATION WAY"
-    },
-    {
-      "price": 320000,
-      "date": "2026-02-12",
-      "postcode": "IP28 8UA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, OAK DRIVE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-02-12",
-      "postcode": "IP30 0TX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, TUTELINA ROAD"
-    },
-    {
-      "price": 232500,
-      "date": "2026-02-11",
-      "postcode": "IP28 8GP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, PARSLEY CLOSE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-02-10",
-      "postcode": "IP33 2BJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, SOUTHGATE STREET"
-    },
-    {
-      "price": 545000,
-      "date": "2026-02-09",
-      "postcode": "IP33 3QF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, BRIARWOOD AVENUE"
+      "address": "72, APPLEDOWN DRIVE"
     },
     {
       "price": 325000,
-      "date": "2026-02-09",
-      "postcode": "IP33 2SB",
+      "date": "2026-03-19",
+      "postcode": "IP33 1QG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, WESTGATE STREET"
+    },
+    {
+      "price": 247500,
+      "date": "2026-03-18",
+      "postcode": "IP32 6DN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, SEXTONS MEADOWS"
+      "address": "64, GLOUCESTER ROAD"
     },
     {
-      "price": 570000,
-      "date": "2026-02-09",
-      "postcode": "IP29 5PQ",
+      "price": 200000,
+      "date": "2026-03-17",
+      "postcode": "IP30 9LB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, REED PLACE"
+    },
+    {
+      "price": 600000,
+      "date": "2026-03-17",
+      "postcode": "IP32 7LP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, GRANGE MILL"
+      "address": "6, MARKANT CLOSE"
     },
     {
-      "price": 295000,
-      "date": "2026-02-06",
-      "postcode": "IP31 2HN",
+      "price": 540000,
+      "date": "2026-03-17",
+      "postcode": "IP32 7LX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, FISKE CLOSE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-03-17",
+      "postcode": "IP28 7AA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "78A, HIGH STREET"
+      "address": "13, NORTH TERRACE"
     },
     {
-      "price": 382000,
-      "date": "2026-02-06",
-      "postcode": "IP29 5ES",
+      "price": 299000,
+      "date": "2026-03-16",
+      "postcode": "IP28 8WQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, SNOWDROP WAY"
+    },
+    {
+      "price": 297000,
+      "date": "2026-03-16",
+      "postcode": "IP28 8YX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, BEALE ROAD"
+      "address": "1, DANDELION CRESCENT"
+    },
+    {
+      "price": 155000,
+      "date": "2026-03-13",
+      "postcode": "IP32 6EY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "53, MALTINGS WAY"
+    },
+    {
+      "price": 95000,
+      "date": "2026-03-13",
+      "postcode": "IP31 2AX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, FIELD COURT"
+    },
+    {
+      "price": 325000,
+      "date": "2026-03-13",
+      "postcode": "IP33 1RY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, SPARHAWK STREET"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-13",
+      "postcode": "IP28 7LW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, HEREWARD AVENUE"
+    },
+    {
+      "price": 870000,
+      "date": "2026-03-13",
+      "postcode": "IP31 2UB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WILLOW GARTH, GEORGE LANE"
+    },
+    {
+      "price": 525000,
+      "date": "2026-03-13",
+      "postcode": "IP28 6UG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, LARK VALLEY DRIVE"
     }
   ]
 }

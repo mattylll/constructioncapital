@@ -1,21 +1,84 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.632Z",
+  "updatedAt": "2026-05-18T19:24:09.041Z",
   "townSlug": "mexborough",
   "countySlug": "south-yorkshire",
   "stats": {
     "medianPrice": 115000,
     "medianByType": {
       "D": 265000,
-      "S": 160000,
-      "T": 78000
+      "S": 152250,
+      "T": 79000
     },
-    "transactionCount12m": 170,
+    "transactionCount12m": 181,
     "yoyChange": -4.2,
     "newBuildCount": 0,
-    "existingCount": 170,
-    "newBuildPremium": -100
+    "existingCount": 181,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 215000,
+      "date": "2026-03-23",
+      "postcode": "S64 0EG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "115, HARLINGTON ROAD"
+    },
+    {
+      "price": 105000,
+      "date": "2026-03-18",
+      "postcode": "S64 9NL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, WEST ROAD"
+    },
+    {
+      "price": 345000,
+      "date": "2026-03-13",
+      "postcode": "S64 0FG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, CYGNET DRIVE"
+    },
+    {
+      "price": 105000,
+      "date": "2026-03-06",
+      "postcode": "S64 9BL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, QUEENS TERRACE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-03-06",
+      "postcode": "S64 0LD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GLEN VIEW, HARLINGTON ROAD"
+    },
+    {
+      "price": 130000,
+      "date": "2026-03-03",
+      "postcode": "S64 0FD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "149, COMELYBANK DRIVE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-02-19",
+      "postcode": "S64 9EH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, BEECH CRESCENT"
+    },
     {
       "price": 300000,
       "date": "2026-02-18",
@@ -35,6 +98,15 @@
       "address": "9, LYNWOOD DRIVE"
     },
     {
+      "price": 152000,
+      "date": "2026-02-13",
+      "postcode": "S64 0NW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, BUZZARD AVENUE"
+    },
+    {
       "price": 265000,
       "date": "2026-02-12",
       "postcode": "S64 9AZ",
@@ -42,6 +114,51 @@
       "newBuild": false,
       "tenure": "F",
       "address": "SPRINGFIELD, DOLCLIFFE ROAD"
+    },
+    {
+      "price": 82000,
+      "date": "2026-02-10",
+      "postcode": "S64 9BZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, ALBERT ROAD"
+    },
+    {
+      "price": 170000,
+      "date": "2026-02-09",
+      "postcode": "S64 0PH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, ULLSWATER ROAD"
+    },
+    {
+      "price": 39950,
+      "date": "2026-02-06",
+      "postcode": "S64 0HW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, CLAYFIELD ROAD"
+    },
+    {
+      "price": 86000,
+      "date": "2026-02-04",
+      "postcode": "S64 9NW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, OLIVER STREET"
+    },
+    {
+      "price": 120000,
+      "date": "2026-02-04",
+      "postcode": "S64 9JX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, ARNOLD CRESCENT"
     },
     {
       "price": 80000,
@@ -78,123 +195,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "111, WATH ROAD"
-    },
-    {
-      "price": 53500,
-      "date": "2026-01-30",
-      "postcode": "S64 9PQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, KIRBY STREET"
-    },
-    {
-      "price": 127000,
-      "date": "2026-01-28",
-      "postcode": "S64 0HY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, CLAYFIELD AVENUE"
-    },
-    {
-      "price": 147500,
-      "date": "2026-01-27",
-      "postcode": "S64 9AU",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66 - 70, HIGH STREET"
-    },
-    {
-      "price": 45000,
-      "date": "2026-01-26",
-      "postcode": "S64 9NW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, OLIVER STREET"
-    },
-    {
-      "price": 140000,
-      "date": "2026-01-23",
-      "postcode": "S64 0FH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, GREEN SHANK DRIVE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-01-22",
-      "postcode": "S64 0FB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, WILD GEESE WAY"
-    },
-    {
-      "price": 200000,
-      "date": "2026-01-22",
-      "postcode": "S64 0NQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, DOVE ROAD"
-    },
-    {
-      "price": 110000,
-      "date": "2026-01-22",
-      "postcode": "S64 0DD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, GENOA STREET"
-    },
-    {
-      "price": 72500,
-      "date": "2026-01-19",
-      "postcode": "S64 9NP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, YORK STREET"
-    },
-    {
-      "price": 112000,
-      "date": "2026-01-16",
-      "postcode": "S64 9JX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, ARNOLD CRESCENT"
-    },
-    {
-      "price": 180000,
-      "date": "2026-01-15",
-      "postcode": "S64 0LQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, COWPER ROAD"
-    },
-    {
-      "price": 56900,
-      "date": "2026-01-13",
-      "postcode": "S64 9RF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, VICTORIA STREET"
-    },
-    {
-      "price": 46000,
-      "date": "2026-01-06",
-      "postcode": "S64 9RN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, CAMBRIDGE STREET"
     }
   ]
 }

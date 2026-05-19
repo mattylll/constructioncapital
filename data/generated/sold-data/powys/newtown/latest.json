@@ -1,21 +1,138 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.966Z",
+  "updatedAt": "2026-05-18T19:24:09.364Z",
   "townSlug": "newtown",
   "countySlug": "powys",
   "stats": {
     "medianPrice": 215000,
     "medianByType": {
-      "D": 300000,
+      "D": 302500,
       "S": 187500,
-      "T": 169000
+      "T": 165000
     },
     "transactionCount12m": 147,
-    "yoyChange": 8.9,
+    "yoyChange": 7.5,
     "newBuildCount": 0,
     "existingCount": 147,
-    "newBuildPremium": -100
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 195000,
+      "date": "2026-03-27",
+      "postcode": "SY16 1AS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, NEW ROAD"
+    },
+    {
+      "price": 120000,
+      "date": "2026-03-20",
+      "postcode": "SY16 1RQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, GLANDWR"
+    },
+    {
+      "price": 283000,
+      "date": "2026-03-13",
+      "postcode": "SY16 2DZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MIN-Y-FRON, MILFORD ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-03-13",
+      "postcode": "SY16 2AS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CEDEWAIN, CANAL ROAD"
+    },
+    {
+      "price": 132000,
+      "date": "2026-03-09",
+      "postcode": "SY16 1NL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "246, CEIRIOG"
+    },
+    {
+      "price": 239000,
+      "date": "2026-02-27",
+      "postcode": "SY16 4DD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, BEECH GROVE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-02-27",
+      "postcode": "SY16 2DE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, COMMERCIAL STREET"
+    },
+    {
+      "price": 164000,
+      "date": "2026-02-27",
+      "postcode": "SY16 2TA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, PRIMROSE DRIVE"
+    },
+    {
+      "price": 330000,
+      "date": "2026-02-27",
+      "postcode": "SY16 3EP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE FIRS"
+    },
+    {
+      "price": 70000,
+      "date": "2026-02-23",
+      "postcode": "SY16 2LP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BANK CHAMBERS, SHORT BRIDGE STREET"
+    },
+    {
+      "price": 138000,
+      "date": "2026-02-19",
+      "postcode": "SY16 1PR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, LON CEIRIOS"
+    },
+    {
+      "price": 87500,
+      "date": "2026-02-19",
+      "postcode": "SY16 1NB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, CLEDAN"
+    },
+    {
+      "price": 140000,
+      "date": "2026-02-19",
+      "postcode": "SY16 1EB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, PAVILION COURT"
+    },
     {
       "price": 140000,
       "date": "2026-02-13",
@@ -44,15 +161,6 @@
       "address": "3, BEECH GROVE"
     },
     {
-      "price": 178000,
-      "date": "2026-01-26",
-      "postcode": "SY16 2DL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, ROSE COTTAGE, LLANFAIR ROAD"
-    },
-    {
       "price": 238000,
       "date": "2026-01-26",
       "postcode": "SY16 4EA",
@@ -60,6 +168,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "33, PENARRON DRIVE"
+    },
+    {
+      "price": 178000,
+      "date": "2026-01-26",
+      "postcode": "SY16 2DL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ROSE COTTAGE, LLANFAIR ROAD"
     },
     {
       "price": 212000,
@@ -78,123 +195,6 @@
       "newBuild": false,
       "tenure": "L",
       "address": "15, CWRT DOLAFON"
-    },
-    {
-      "price": 163000,
-      "date": "2026-01-16",
-      "postcode": "SY16 1HQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, MAYFIELD TERRACE"
-    },
-    {
-      "price": 168000,
-      "date": "2026-01-09",
-      "postcode": "SY16 4DA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, PARK AVENUE"
-    },
-    {
-      "price": 163000,
-      "date": "2026-01-09",
-      "postcode": "SY16 1QT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, LON GLANYRAFON"
-    },
-    {
-      "price": 370000,
-      "date": "2025-12-19",
-      "postcode": "SY16 4HH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "QUARRY COTTAGE"
-    },
-    {
-      "price": 220000,
-      "date": "2025-12-19",
-      "postcode": "SY16 2TH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, WOODLAND WAY"
-    },
-    {
-      "price": 190000,
-      "date": "2025-12-19",
-      "postcode": "SY16 3EG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, ROSEMARY DRIVE"
-    },
-    {
-      "price": 465000,
-      "date": "2025-12-19",
-      "postcode": "SY16 3JP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, MILL FIELDS"
-    },
-    {
-      "price": 210000,
-      "date": "2025-12-17",
-      "postcode": "SY16 3BF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, MEILLIONYDD"
-    },
-    {
-      "price": 325000,
-      "date": "2025-12-05",
-      "postcode": "SY16 2QR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, OAKLANDS PARK"
-    },
-    {
-      "price": 158000,
-      "date": "2025-12-04",
-      "postcode": "SY16 1QZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "239, HEOL Y NANT"
-    },
-    {
-      "price": 268000,
-      "date": "2025-12-04",
-      "postcode": "SY16 4NZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRYNAWEL"
-    },
-    {
-      "price": 285000,
-      "date": "2025-11-28",
-      "postcode": "SY16 3HX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ISFRYN"
-    },
-    {
-      "price": 249950,
-      "date": "2025-11-21",
-      "postcode": "SY16 1NU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, MEADOW VIEW"
     }
   ]
 }

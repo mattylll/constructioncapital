@@ -1,22 +1,139 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.209Z",
+  "updatedAt": "2026-05-18T19:24:08.756Z",
   "townSlug": "stamford",
   "countySlug": "lincolnshire",
   "stats": {
-    "medianPrice": 295000,
+    "medianPrice": 300000,
     "medianByType": {
-      "D": 465000,
-      "S": 295000,
+      "D": 461250,
+      "S": 299998,
       "T": 270000,
-      "F": 174500
+      "F": 170000
     },
-    "transactionCount12m": 255,
-    "yoyChange": -7.4,
-    "newBuildCount": 0,
-    "existingCount": 255,
-    "newBuildPremium": -100
+    "transactionCount12m": 270,
+    "yoyChange": -5.7,
+    "newBuildCount": 4,
+    "existingCount": 266,
+    "newBuildPremium": 44.1
   },
   "recentTransactions": [
+    {
+      "price": 274000,
+      "date": "2026-03-27",
+      "postcode": "PE9 4PE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BARN END"
+    },
+    {
+      "price": 262000,
+      "date": "2026-03-16",
+      "postcode": "PE9 2FB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BIRCH ROAD"
+    },
+    {
+      "price": 215000,
+      "date": "2026-03-13",
+      "postcode": "PE9 1JJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, GIRTON WAY"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-12",
+      "postcode": "PE9 1FJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "64, BANKS CRESCENT"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-11",
+      "postcode": "PE9 2UN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, CHATSWORTH ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-03-09",
+      "postcode": "PE9 1QE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, VINE STREET"
+    },
+    {
+      "price": 198000,
+      "date": "2026-03-02",
+      "postcode": "PE9 1LH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, GLOUCESTER ROAD"
+    },
+    {
+      "price": 95000,
+      "date": "2026-02-27",
+      "postcode": "PE9 1UH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "36, BLACKSTONES COURT"
+    },
+    {
+      "price": 310000,
+      "date": "2026-02-27",
+      "postcode": "PE9 1JG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56, CHURCHILL ROAD"
+    },
+    {
+      "price": 340000,
+      "date": "2026-02-27",
+      "postcode": "PE9 2TR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, DUNDEE DRIVE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-02-26",
+      "postcode": "PE9 4SZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, BERTIE LANE"
+    },
+    {
+      "price": 360000,
+      "date": "2026-02-26",
+      "postcode": "PE9 1QQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, CONDUIT ROAD"
+    },
+    {
+      "price": 370000,
+      "date": "2026-02-24",
+      "postcode": "PE9 2NA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WOODSIDE, BARNACK ROAD"
+    },
     {
       "price": 299995,
       "date": "2026-02-20",
@@ -25,6 +142,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "2, FIR ROAD"
+    },
+    {
+      "price": 149500,
+      "date": "2026-02-13",
+      "postcode": "PE9 1HH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "26, EDINBURGH ROAD"
     },
     {
       "price": 247000,
@@ -36,13 +162,31 @@
       "address": "12, TRINITY ROAD"
     },
     {
-      "price": 205000,
-      "date": "2026-02-06",
-      "postcode": "PE9 2TW",
+      "price": 345000,
+      "date": "2026-02-12",
+      "postcode": "PE9 2WA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, TROON CLOSE"
+      "address": "32, KINGSDOWN DRIVE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-02-10",
+      "postcode": "PE9 1QE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, VINE STREET"
+    },
+    {
+      "price": 253000,
+      "date": "2026-02-09",
+      "postcode": "PE9 2YL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, CASTERTON ROAD"
     },
     {
       "price": 80000,
@@ -52,150 +196,6 @@
       "newBuild": false,
       "tenure": "L",
       "address": "12, KEBLE COURT"
-    },
-    {
-      "price": 257000,
-      "date": "2026-02-06",
-      "postcode": "PE9 2TJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, MONTROSE CLOSE"
-    },
-    {
-      "price": 211000,
-      "date": "2026-02-06",
-      "postcode": "PE9 2TW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, TROON CLOSE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-02-06",
-      "postcode": "PE9 2SQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, COTTESMORE ROAD"
-    },
-    {
-      "price": 1250000,
-      "date": "2026-02-04",
-      "postcode": "PE9 2DL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, ST MARYS STREET"
-    },
-    {
-      "price": 360000,
-      "date": "2026-01-30",
-      "postcode": "PE9 2XH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, HIGHLANDS WAY"
-    },
-    {
-      "price": 440000,
-      "date": "2026-01-28",
-      "postcode": "PE9 4RT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MAYLANDS, BAINTON ROAD"
-    },
-    {
-      "price": 560000,
-      "date": "2026-01-28",
-      "postcode": "PE9 2JR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "COULSON HOUSE, WOTHORPE ROAD"
-    },
-    {
-      "price": 320000,
-      "date": "2026-01-23",
-      "postcode": "PE9 1BE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, LITTLE CASTERTON ROAD"
-    },
-    {
-      "price": 255000,
-      "date": "2026-01-16",
-      "postcode": "PE9 4BL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, BRAMBLE GROVE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-01-14",
-      "postcode": "PE9 2JQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, PINE CLOSE"
-    },
-    {
-      "price": 448000,
-      "date": "2026-01-14",
-      "postcode": "PE9 2XY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BELVOIR CLOSE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-01-13",
-      "postcode": "PE9 4LZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, MANOR ROAD"
-    },
-    {
-      "price": 302500,
-      "date": "2026-01-09",
-      "postcode": "PE9 2XE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, ROXBURGH ROAD"
-    },
-    {
-      "price": 410000,
-      "date": "2026-01-06",
-      "postcode": "PE9 2YA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "187, CASTERTON ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2025-12-30",
-      "postcode": "PE9 1UB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, RYHALL ROAD"
-    },
-    {
-      "price": 442500,
-      "date": "2025-12-19",
-      "postcode": "PE9 2AS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BOWMAN MEWS"
     }
   ]
 }

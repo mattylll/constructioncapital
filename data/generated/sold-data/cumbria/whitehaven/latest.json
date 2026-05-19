@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.545Z",
+  "updatedAt": "2026-05-18T19:24:08.945Z",
   "townSlug": "whitehaven",
   "countySlug": "cumbria",
   "stats": {
-    "medianPrice": 160000,
+    "medianPrice": 158000,
     "medianByType": {
-      "D": 273750,
-      "S": 163575,
-      "T": 117500,
-      "F": 101250
+      "D": 277498,
+      "S": 160375,
+      "T": 118000,
+      "F": 105000
     },
-    "transactionCount12m": 368,
-    "yoyChange": 2.2,
-    "newBuildCount": 21,
-    "existingCount": 347,
-    "newBuildPremium": 58
+    "transactionCount12m": 384,
+    "yoyChange": 1.4,
+    "newBuildCount": 14,
+    "existingCount": 370,
+    "newBuildPremium": 67.7
   },
   "recentTransactions": [
     {
-      "price": 116000,
-      "date": "2026-02-20",
-      "postcode": "CA28 6XQ",
+      "price": 225000,
+      "date": "2026-03-27",
+      "postcode": "CA28 6TJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, THE CREST"
+    },
+    {
+      "price": 134000,
+      "date": "2026-03-20",
+      "postcode": "CA28 6RQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, CALDBECK ROAD"
+      "address": "33, CRIFFEL ROAD"
     },
     {
-      "price": 290000,
-      "date": "2026-02-20",
-      "postcode": "CA28 9LR",
-      "propertyType": "D",
+      "price": 140000,
+      "date": "2026-03-19",
+      "postcode": "CA28 7RB",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, LADSTOCK GROVE"
+      "address": "80, LOWTHER STREET"
     },
     {
-      "price": 220000,
-      "date": "2026-02-20",
-      "postcode": "CA28 7UG",
+      "price": 137500,
+      "date": "2026-03-18",
+      "postcode": "CA28 8SD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, LEATHWAITE"
+      "address": "5, OVEREND ROAD"
     },
     {
-      "price": 127000,
-      "date": "2026-02-20",
-      "postcode": "CA28 8HE",
-      "propertyType": "S",
+      "price": 78666,
+      "date": "2026-03-18",
+      "postcode": "CA28 9SZ",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, GABLE ROAD"
-    },
-    {
-      "price": 159000,
-      "date": "2026-02-13",
-      "postcode": "CA28 9DQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, MAYFLOWER LANE"
-    },
-    {
-      "price": 130000,
-      "date": "2026-02-13",
-      "postcode": "CA28 8HA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60, KIRKSTONE ROAD"
+      "address": "8, WASDALE CLOSE"
     },
     {
       "price": 170000,
-      "date": "2026-02-12",
-      "postcode": "CA28 6BT",
-      "propertyType": "T",
+      "date": "2026-03-16",
+      "postcode": "CA28 8HQ",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, BRAYTON TERRACE"
+      "address": "3, BOW FELL ROAD"
     },
     {
-      "price": 85000,
-      "date": "2026-02-10",
-      "postcode": "CA28 9EG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, CENTRAL ROAD"
-    },
-    {
-      "price": 272500,
-      "date": "2026-02-09",
-      "postcode": "CA28 9PE",
+      "price": 270000,
+      "date": "2026-03-16",
+      "postcode": "CA28 9LT",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, WATERS EDGE CLOSE"
+      "address": "21, WOODVILLE WAY"
     },
     {
-      "price": 115000,
-      "date": "2026-02-09",
-      "postcode": "CA28 9AZ",
+      "price": 173000,
+      "date": "2026-03-13",
+      "postcode": "CA28 9AX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "27, MID STREET"
+      "address": "8, LOW KELLS"
     },
     {
-      "price": 145000,
-      "date": "2026-02-05",
-      "postcode": "CA28 6XQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "84, CALDBECK ROAD"
-    },
-    {
-      "price": 30000,
-      "date": "2026-02-04",
-      "postcode": "CA28 7BB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "159, QUEEN STREET"
-    },
-    {
-      "price": 200000,
-      "date": "2026-02-04",
-      "postcode": "CA28 9EE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, HILL TOP ROAD"
-    },
-    {
-      "price": 95000,
-      "date": "2026-02-03",
-      "postcode": "CA28 8NT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60, WESTMORLAND ROAD"
-    },
-    {
-      "price": 46000,
-      "date": "2026-02-02",
-      "postcode": "CA28 8PY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, MAIN STREET"
-    },
-    {
-      "price": 245000,
-      "date": "2026-02-02",
-      "postcode": "CA28 6RB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, FERN GROVE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-01-30",
-      "postcode": "CA28 8QJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "16, ROSEBANK"
-    },
-    {
-      "price": 117500,
-      "date": "2026-01-30",
-      "postcode": "CA28 9PY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, LAKELAND AVENUE"
-    },
-    {
-      "price": 465000,
-      "date": "2026-01-28",
-      "postcode": "CA28 8YH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, SUMMERGROVE PARK"
-    },
-    {
-      "price": 160000,
-      "date": "2026-01-28",
+      "price": 92700,
+      "date": "2026-03-13",
       "postcode": "CA28 8BP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, TOMLIN AVENUE"
+      "address": "3, TOMLIN AVENUE"
+    },
+    {
+      "price": 84000,
+      "date": "2026-03-10",
+      "postcode": "CA28 9JE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, DALEGARTH AVENUE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-03-09",
+      "postcode": "CA28 6UY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, BALMORAL ROAD"
+    },
+    {
+      "price": 220000,
+      "date": "2026-03-09",
+      "postcode": "CA28 6SD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, BURTON HIGH CLOSE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-03-06",
+      "postcode": "CA28 6SA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, HOLLY BANK"
+    },
+    {
+      "price": 245000,
+      "date": "2026-03-06",
+      "postcode": "CA28 6RB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, FERN GROVE"
+    },
+    {
+      "price": 165000,
+      "date": "2026-03-06",
+      "postcode": "CA28 9LR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, LADSTOCK GROVE"
+    },
+    {
+      "price": 68000,
+      "date": "2026-03-06",
+      "postcode": "CA28 7EY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, GEORGE STREET"
+    },
+    {
+      "price": 157000,
+      "date": "2026-03-04",
+      "postcode": "CA28 6DZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, NEW ROAD"
+    },
+    {
+      "price": 239950,
+      "date": "2026-03-02",
+      "postcode": "CA28 6ST",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, HILLCREST AVENUE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-02-27",
+      "postcode": "CA28 7QS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, MILL STREET"
+    },
+    {
+      "price": 145000,
+      "date": "2026-02-27",
+      "postcode": "CA28 8YJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, EAGLES WAY"
     }
   ]
 }

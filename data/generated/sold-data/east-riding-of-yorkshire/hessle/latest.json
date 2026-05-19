@@ -1,22 +1,94 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.750Z",
+  "updatedAt": "2026-05-18T19:24:09.162Z",
   "townSlug": "hessle",
   "countySlug": "east-riding-of-yorkshire",
   "stats": {
-    "medianPrice": 197000,
+    "medianPrice": 198500,
     "medianByType": {
-      "D": 325000,
-      "S": 198250,
+      "D": 320000,
+      "S": 195125,
       "T": 167000,
       "F": 108000
     },
-    "transactionCount12m": 215,
-    "yoyChange": -4.1,
-    "newBuildCount": 5,
-    "existingCount": 210,
-    "newBuildPremium": 70.9
+    "transactionCount12m": 222,
+    "yoyChange": -0.8,
+    "newBuildCount": 10,
+    "existingCount": 212,
+    "newBuildPremium": 45.9
   },
   "recentTransactions": [
+    {
+      "price": 261300,
+      "date": "2026-03-23",
+      "postcode": "HU13 0AH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10A, HULL ROAD"
+    },
+    {
+      "price": 283500,
+      "date": "2026-03-23",
+      "postcode": "HU13 0QP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, HOLLY DRIVE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-03-12",
+      "postcode": "HU13 9BW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, SUNNINGDALE ROAD"
+    },
+    {
+      "price": 80000,
+      "date": "2026-03-04",
+      "postcode": "HU13 9LJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, THE HOURNE"
+    },
+    {
+      "price": 170000,
+      "date": "2026-02-27",
+      "postcode": "HU13 0PQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, FERRIBY ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-02-27",
+      "postcode": "HU13 9JL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "137, NORTHOLME ROAD"
+    },
+    {
+      "price": 291000,
+      "date": "2026-02-27",
+      "postcode": "HU13 0QT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, CHERRY AVENUE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-02-26",
+      "postcode": "HU13 0JZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "KEEPERS COTTAGE, JENNY BROUGH LANE"
+    },
     {
       "price": 205000,
       "date": "2026-02-23",
@@ -34,6 +106,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "33, SWINEGATE"
+    },
+    {
+      "price": 176000,
+      "date": "2026-02-13",
+      "postcode": "HU13 0GP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, LAILEY GROVE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-02-13",
+      "postcode": "HU13 9PH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, TRAFALGAR CLOSE"
     },
     {
       "price": 123000,
@@ -54,6 +144,15 @@
       "address": "15, ATHOLL AVENUE"
     },
     {
+      "price": 281500,
+      "date": "2026-02-06",
+      "postcode": "HU13 9BE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, THE BRIARS"
+    },
+    {
       "price": 197000,
       "date": "2026-02-05",
       "postcode": "HU13 0QL",
@@ -61,6 +160,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "72, WESTBOURNE GROVE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-02-05",
+      "postcode": "HU13 0NG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "241, BOOTHFERRY ROAD"
     },
     {
       "price": 256000,
@@ -72,24 +180,6 @@
       "address": "21, THE WEIR"
     },
     {
-      "price": 170000,
-      "date": "2026-01-30",
-      "postcode": "HU13 9PH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, TRAFALGAR CLOSE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-01-29",
-      "postcode": "HU13 0HP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "65, ELSHAM RISE"
-    },
-    {
       "price": 372500,
       "date": "2026-01-29",
       "postcode": "HU13 0PN",
@@ -99,103 +189,13 @@
       "address": "21, MARLBOROUGH AVENUE"
     },
     {
-      "price": 155000,
-      "date": "2026-01-23",
-      "postcode": "HU13 9ET",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "135, FIRST LANE"
-    },
-    {
-      "price": 394950,
-      "date": "2026-01-23",
-      "postcode": "HU13 0FH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, BROAD AVENUE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-01-23",
-      "postcode": "HU13 0GY",
+      "price": 225000,
+      "date": "2026-01-29",
+      "postcode": "HU13 0HP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, THOMPSON DALE"
-    },
-    {
-      "price": 1100000,
-      "date": "2026-01-21",
-      "postcode": "HU13 0HB",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "COUNTRY PARK INN, CLIFF ROAD"
-    },
-    {
-      "price": 135000,
-      "date": "2026-01-16",
-      "postcode": "HU13 0PH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, BARROW LANE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-01-16",
-      "postcode": "HU13 9DU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BISHOP TEMPLE COURT"
-    },
-    {
-      "price": 185000,
-      "date": "2026-01-13",
-      "postcode": "HU13 9HB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, KELSTON DRIVE"
-    },
-    {
-      "price": 165000,
-      "date": "2026-01-09",
-      "postcode": "HU13 0LW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, NORTHGATE"
-    },
-    {
-      "price": 108000,
-      "date": "2026-01-09",
-      "postcode": "HU13 0PE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9, HUDSON COURT, BARROW LANE"
-    },
-    {
-      "price": 172000,
-      "date": "2026-01-09",
-      "postcode": "HU13 0AZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, BON ACCORD ROAD"
-    },
-    {
-      "price": 455000,
-      "date": "2026-01-09",
-      "postcode": "HU13 0QT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, CHERRY AVENUE"
+      "address": "65, ELSHAM RISE"
     }
   ]
 }

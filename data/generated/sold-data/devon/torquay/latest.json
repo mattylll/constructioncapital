@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.864Z",
+  "updatedAt": "2026-05-18T19:24:08.405Z",
   "townSlug": "torquay",
   "countySlug": "devon",
   "stats": {
-    "medianPrice": 223250,
+    "medianPrice": 225000,
     "medianByType": {
       "D": 410000,
-      "S": 275000,
+      "S": 281000,
       "T": 215000,
       "F": 150000
     },
-    "transactionCount12m": 749,
-    "yoyChange": -4,
-    "newBuildCount": 7,
-    "existingCount": 742,
-    "newBuildPremium": 2.3
+    "transactionCount12m": 787,
+    "yoyChange": -2.2,
+    "newBuildCount": 6,
+    "existingCount": 781,
+    "newBuildPremium": -2.7
   },
   "recentTransactions": [
     {
-      "price": 205000,
-      "date": "2026-02-19",
-      "postcode": "TQ1 2PP",
-      "propertyType": "T",
+      "price": 425000,
+      "date": "2026-03-20",
+      "postcode": "TQ1 4JZ",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, KENTS LANE"
+      "address": "164, FOREST ROAD"
     },
     {
-      "price": 360000,
-      "date": "2026-02-17",
-      "postcode": "TQ2 6SW",
+      "price": 237500,
+      "date": "2026-03-18",
+      "postcode": "TQ2 6TB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "5, THE HEADLANDS"
+      "address": "FLAT 2, BROADPARK COURT, 12, BROADPARK ROAD"
     },
     {
-      "price": 360000,
-      "date": "2026-02-16",
-      "postcode": "TQ1 1PH",
+      "price": 260000,
+      "date": "2026-03-16",
+      "postcode": "TQ2 6HQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, WEST VIEW, ASHFIELD GARDENS"
+    },
+    {
+      "price": 84000,
+      "date": "2026-03-13",
+      "postcode": "TQ1 1QA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "THE CONSERVATORY, SUNNYHILL, HIGHER WARBERRY ROAD"
+      "address": "FLAT 34, CLARENDON COURT, STITCHILL ROAD"
     },
     {
-      "price": 265000,
-      "date": "2026-02-13",
-      "postcode": "TQ2 7SH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, BENCH TOR CLOSE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-02-13",
-      "postcode": "TQ1 1TE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, HIGHBURY ROAD"
-    },
-    {
-      "price": 283000,
-      "date": "2026-02-12",
-      "postcode": "TQ2 6AL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, PILMUIR AVENUE"
-    },
-    {
-      "price": 215500,
-      "date": "2026-02-11",
-      "postcode": "TQ2 7TE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, MERLIN WAY"
-    },
-    {
-      "price": 237000,
-      "date": "2026-02-11",
-      "postcode": "TQ2 8EX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, HALSTEADS ROAD"
-    },
-    {
-      "price": 220000,
-      "date": "2026-02-11",
-      "postcode": "TQ1 1QR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "25, HOLME COURT, LOWER WARBERRY ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-10",
-      "postcode": "TQ1 3UE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, BUDLEIGH CLOSE"
-    },
-    {
-      "price": 720000,
-      "date": "2026-02-10",
-      "postcode": "TQ1 1TT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, MARLBOROUGH AVENUE"
-    },
-    {
-      "price": 268000,
-      "date": "2026-02-10",
-      "postcode": "TQ1 1DW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MARINE WALK, 2, BRUNSWICK MEWS"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-09",
+      "price": 150000,
+      "date": "2026-03-13",
       "postcode": "TQ1 1PG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "105, PRINCES ROAD EAST"
+      "address": "101, PRINCES ROAD EAST"
     },
     {
-      "price": 121000,
-      "date": "2026-02-06",
-      "postcode": "TQ2 7PS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "84, HELE ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-02-06",
-      "postcode": "TQ2 8EY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, FALLOWAY CLOSE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-02-06",
-      "postcode": "TQ2 7PB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, AUDLEY AVENUE"
-    },
-    {
-      "price": 159000,
-      "date": "2026-02-06",
-      "postcode": "TQ1 1NU",
+      "price": 275000,
+      "date": "2026-03-13",
+      "postcode": "TQ1 1SF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1, 66, WARBERRY ROAD WEST"
+      "address": "FLAT 1, EDWINSTOWE, HIGHER WARBERRY ROAD"
     },
     {
-      "price": 220000,
-      "date": "2026-02-05",
-      "postcode": "TQ2 8EF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, GREENWAY CLOSE"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-05",
-      "postcode": "TQ2 5UR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3 TOR MANOR, TOR CHURCH ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-04",
-      "postcode": "TQ2 6QP",
+      "price": 185000,
+      "date": "2026-03-11",
+      "postcode": "TQ1 2LQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 7, SUNLEIGH, LIVERMEAD HILL"
+      "address": "FLAT 4, MEADVILLE, MEADFOOT SEA ROAD"
+    },
+    {
+      "price": 70000,
+      "date": "2026-03-11",
+      "postcode": "TQ1 1QQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "16A, HILLESDON ROAD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-03-11",
+      "postcode": "TQ1 4TS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 7, OYSTERCATCHER COURT, STEEP HILL"
+    },
+    {
+      "price": 850000,
+      "date": "2026-03-10",
+      "postcode": "TQ2 6SP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, MANSCOMBE ROAD"
+    },
+    {
+      "price": 147200,
+      "date": "2026-03-09",
+      "postcode": "TQ1 3NW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 8, COMPTON HOUSE, PALERMO ROAD"
+    },
+    {
+      "price": 262000,
+      "date": "2026-03-09",
+      "postcode": "TQ1 4JE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, SECOND AVENUE"
+    },
+    {
+      "price": 380000,
+      "date": "2026-03-09",
+      "postcode": "TQ2 7RP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7A, GLEBELAND WAY"
+    },
+    {
+      "price": 166000,
+      "date": "2026-03-09",
+      "postcode": "TQ2 7SL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, GLEBELAND WAY"
+    },
+    {
+      "price": 300000,
+      "date": "2026-03-06",
+      "postcode": "TQ2 6LY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, BURRIDGE ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-06",
+      "postcode": "TQ1 4BA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "179, LYMINGTON ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-05",
+      "postcode": "TQ1 4FF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, RICHARDSON WALK"
+    },
+    {
+      "price": 490000,
+      "date": "2026-03-04",
+      "postcode": "TQ1 3RL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, QUINTA ROAD"
+    },
+    {
+      "price": 400000,
+      "date": "2026-03-04",
+      "postcode": "TQ2 8PY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, SEYMOUR DRIVE"
+    },
+    {
+      "price": 75000,
+      "date": "2026-03-02",
+      "postcode": "TQ1 4FD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "64, MCKAY AVENUE"
     }
   ]
 }

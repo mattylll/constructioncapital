@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.305Z",
+  "updatedAt": "2026-05-18T19:24:07.795Z",
   "townSlug": "kensington",
   "countySlug": "greater-london",
   "stats": {
-    "medianPrice": 1000000,
+    "medianPrice": 1022500,
     "medianByType": {
-      "D": 6150000,
-      "S": 4450000,
-      "T": 3212500,
-      "F": 845000
+      "D": 4700000,
+      "S": 4379750,
+      "T": 3250000,
+      "F": 870000
     },
-    "transactionCount12m": 1013,
-    "yoyChange": -16.1,
-    "newBuildCount": 4,
-    "existingCount": 1009,
-    "newBuildPremium": 201.7
+    "transactionCount12m": 1106,
+    "yoyChange": -12.4,
+    "newBuildCount": 6,
+    "existingCount": 1100,
+    "newBuildPremium": 394.3
   },
   "recentTransactions": [
     {
-      "price": 2350000,
-      "date": "2026-02-17",
-      "postcode": "SW7 4NU",
+      "price": 600000,
+      "date": "2026-03-25",
+      "postcode": "W11 3BN",
       "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 51, PRINCES HOUSE, 52, KENSINGTON PARK ROAD"
+    },
+    {
+      "price": 670000,
+      "date": "2026-03-23",
+      "postcode": "SW3 5QB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, GROVE HOUSE, CHELSEA MANOR STREET"
+    },
+    {
+      "price": 535000,
+      "date": "2026-03-23",
+      "postcode": "W10 6HS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "GROUND FLOOR FLAT (EAST), 92, CAMBRIDGE GARDENS"
+    },
+    {
+      "price": 605000,
+      "date": "2026-03-20",
+      "postcode": "SW10 9DU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT C 1ST FLOOR, 105, FINBOROUGH ROAD"
+    },
+    {
+      "price": 650000,
+      "date": "2026-03-20",
+      "postcode": "W11 4RS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT D, 22A, ST ANNS VILLAS"
+    },
+    {
+      "price": 3467500,
+      "date": "2026-03-20",
+      "postcode": "W14 8JU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, OAKWOOD COURT"
+    },
+    {
+      "price": 12000000,
+      "date": "2026-03-20",
+      "postcode": "SW1X 9SA",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, WETHERBY STUDIOS, WETHERBY PLACE"
+      "address": "22, CADOGAN PLACE"
     },
     {
-      "price": 3700000,
-      "date": "2026-02-13",
-      "postcode": "SW7 3AL",
+      "price": 1700000,
+      "date": "2026-03-18",
+      "postcode": "SW3 3HN",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 5, 21, ONSLOW GARDENS"
+      "address": "FLAT 25, CRANMER COURT, WHITEHEADS GROVE"
     },
     {
-      "price": 183972,
-      "date": "2026-02-13",
-      "postcode": "SW10 0EN",
+      "price": 1100000,
+      "date": "2026-03-18",
+      "postcode": "SW3 4EX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "55, UPPER DARTREY WALK"
+      "address": "FLAT 7, TEVIOT HOUSE, 26, ORMONDE GATE"
     },
     {
-      "price": 405000,
-      "date": "2026-02-12",
-      "postcode": "SW10 0RH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, POOLES LANE"
-    },
-    {
-      "price": 351000,
-      "date": "2026-02-12",
-      "postcode": "SW3 2SE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "SECOND FLOOR STUDIO FLAT, 1, DRAYCOTT PLACE"
-    },
-    {
-      "price": 8000000,
-      "date": "2026-02-11",
-      "postcode": "SW3 5LD",
+      "price": 1950000,
+      "date": "2026-03-18",
+      "postcode": "SW7 5AJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, GLEBE PLACE"
+      "address": "1, CLAREVILLE STREET"
     },
     {
-      "price": 800000,
-      "date": "2026-02-09",
+      "price": 1125000,
+      "date": "2026-03-16",
+      "postcode": "SW7 5LT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, 16 - 17, MANSON PLACE"
+    },
+    {
+      "price": 731000,
+      "date": "2026-03-16",
+      "postcode": "SW5 9EB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, 40, PHILBEACH GARDENS"
+    },
+    {
+      "price": 520000,
+      "date": "2026-03-13",
       "postcode": "W11 2EB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1, 160, PORTOBELLO ROAD"
+      "address": "SECOND FLOOR FLAT, 164, PORTOBELLO ROAD"
     },
     {
-      "price": 1300000,
-      "date": "2026-02-06",
-      "postcode": "W8 7AW",
+      "price": 1375000,
+      "date": "2026-03-11",
+      "postcode": "SW7 3HD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1, LAURIE HOUSE, 16, AIRLIE GARDENS"
+      "address": "FLAT 29, PETERSHAM HOUSE, HARRINGTON ROAD"
     },
     {
-      "price": 392500,
-      "date": "2026-02-06",
-      "postcode": "W14 8NN",
+      "price": 878000,
+      "date": "2026-03-10",
+      "postcode": "W11 1QU",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 3, KENTON COURT, KENSINGTON HIGH STREET"
+      "address": "148, LANCASTER ROAD"
     },
     {
-      "price": 4700000,
-      "date": "2026-02-06",
-      "postcode": "W8 6PB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PEAR TREE COTTAGE, PEMBROKE SQUARE"
-    },
-    {
-      "price": 850000,
-      "date": "2026-02-05",
-      "postcode": "SW5 9PL",
+      "price": 470000,
+      "date": "2026-03-10",
+      "postcode": "SW7 4BQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 2, RUPERT HOUSE, 52 - 57, NEVERN SQUARE"
+      "address": "2A, GARDEN HOUSE, CORNWALL GARDENS"
     },
     {
-      "price": 1010000,
-      "date": "2026-02-04",
-      "postcode": "SW10 9BJ",
+      "price": 880000,
+      "date": "2026-03-10",
+      "postcode": "SW7 4AL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1A, 18, WESTGATE TERRACE"
+      "address": "FLAT C, 11, CORNWALL GARDENS"
     },
     {
-      "price": 580000,
-      "date": "2026-02-02",
-      "postcode": "W8 6AB",
+      "price": 1800100,
+      "date": "2026-03-09",
+      "postcode": "W8 6BS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 38, ABINGDON MANSIONS, PATER STREET"
+      "address": "FLAT 9, ABINGDON COURT, ABINGDON VILLAS"
     },
     {
-      "price": 1300000,
-      "date": "2026-01-30",
-      "postcode": "SW10 9BT",
+      "price": 585000,
+      "date": "2026-03-06",
+      "postcode": "W8 7AX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 5, 7, WESTGATE TERRACE"
+      "address": "FLAT 4, 9, CAMPDEN HILL GARDENS"
     },
     {
-      "price": 975000,
-      "date": "2026-01-30",
-      "postcode": "SW7 5EL",
+      "price": 1950000,
+      "date": "2026-03-06",
+      "postcode": "SW10 9JX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "8, QUEEN'S GATE"
-    },
-    {
-      "price": 1420000,
-      "date": "2026-01-30",
-      "postcode": "SW10 9NN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, 38, CATHCART ROAD"
-    },
-    {
-      "price": 1430000,
-      "date": "2026-01-30",
-      "postcode": "SW10 9BN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, 60, REDCLIFFE SQUARE"
-    },
-    {
-      "price": 6100000,
-      "date": "2026-01-30",
-      "postcode": "W8 7JY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, CAMPDEN HILL SQUARE"
-    },
-    {
-      "price": 3750000,
-      "date": "2026-01-30",
-      "postcode": "SW3 4QF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, ROYAL AVENUE"
-    },
-    {
-      "price": 255000,
-      "date": "2026-01-30",
-      "postcode": "SW3 3DU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "258, CHELSEA CLOISTERS, SLOANE AVENUE"
+      "address": "FLAT 4, 19, REDCLIFFE SQUARE"
     }
   ]
 }

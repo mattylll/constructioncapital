@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.960Z",
+  "updatedAt": "2026-05-18T19:24:09.359Z",
   "townSlug": "maindee",
   "countySlug": "newport",
   "stats": {
     "medianPrice": 225000,
     "medianByType": {
       "D": 380000,
-      "S": 243000,
+      "S": 245500,
       "T": 180000,
       "F": 125000
     },
-    "transactionCount12m": 1593,
+    "transactionCount12m": 1732,
     "yoyChange": 0,
-    "newBuildCount": 36,
-    "existingCount": 1557,
-    "newBuildPremium": 32.1
+    "newBuildCount": 61,
+    "existingCount": 1671,
+    "newBuildPremium": 60.3
   },
   "recentTransactions": [
     {
-      "price": 503000,
-      "date": "2026-02-24",
-      "postcode": "NP18 1PR",
+      "price": 185000,
+      "date": "2026-03-27",
+      "postcode": "NP20 5PJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, MALPAS ROAD"
+    },
+    {
+      "price": 53000,
+      "date": "2026-03-20",
+      "postcode": "NP20 3AU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "58, ST BRIDES GARDENS"
+    },
+    {
+      "price": 537000,
+      "date": "2026-03-19",
+      "postcode": "NP10 9AF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, AFON GARDENS"
+      "address": "10, CWM LANE"
     },
     {
-      "price": 610000,
-      "date": "2026-02-20",
-      "postcode": "NP18 2AE",
-      "propertyType": "D",
+      "price": 200000,
+      "date": "2026-03-19",
+      "postcode": "NP19 4SA",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "OAKWOOD"
+      "address": "11, HAWKSWORTH GROVE"
     },
     {
-      "price": 332000,
-      "date": "2026-02-17",
-      "postcode": "NP10 9JG",
-      "propertyType": "D",
+      "price": 90000,
+      "date": "2026-03-18",
+      "postcode": "NP19 8EY",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, CAMPANULA DRIVE"
+      "address": "3, LIVINGSTONE PLACE"
     },
     {
-      "price": 160000,
-      "date": "2026-02-17",
-      "postcode": "NP20 5BP",
+      "price": 203000,
+      "date": "2026-03-18",
+      "postcode": "NP19 0FF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, WALSALL STREET"
+    },
+    {
+      "price": 312500,
+      "date": "2026-03-18",
+      "postcode": "NP10 0AN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, FIELDS ROAD"
+      "address": "8, WATERSIDE WALK WEST"
     },
     {
-      "price": 236600,
-      "date": "2026-02-17",
-      "postcode": "NP10 9JF",
+      "price": 151000,
+      "date": "2026-03-17",
+      "postcode": "NP19 4SB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, CHURCHWARD DRIVE"
+    },
+    {
+      "price": 80000,
+      "date": "2026-03-13",
+      "postcode": "NP20 4JQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 15, HOMEVALLEY HOUSE, BRYNGWYN ROAD"
+    },
+    {
+      "price": 142000,
+      "date": "2026-03-13",
+      "postcode": "NP20 2ES",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "377, CHARLOTTE GREEN"
+    },
+    {
+      "price": 145000,
+      "date": "2026-03-13",
+      "postcode": "NP10 0BJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "29, STEVENSON COURT"
+    },
+    {
+      "price": 435000,
+      "date": "2026-03-13",
+      "postcode": "NP18 2AZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HOLLY COTTAGE, BROAD STREET COMMON"
+    },
+    {
+      "price": 240000,
+      "date": "2026-03-12",
+      "postcode": "NP10 9BL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, DELPHINIUM ROAD"
+      "address": "51, HILLSIDE CRESCENT"
+    },
+    {
+      "price": 170000,
+      "date": "2026-03-12",
+      "postcode": "NP19 0FT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "69, DEWSTOW STREET"
+    },
+    {
+      "price": 260000,
+      "date": "2026-03-09",
+      "postcode": "NP19 9ST",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, ELGAR AVENUE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-06",
+      "postcode": "NP19 7NN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "523, CAERLEON ROAD"
     },
     {
       "price": 250000,
-      "date": "2026-02-16",
-      "postcode": "NP20 6QN",
+      "date": "2026-03-06",
+      "postcode": "NP20 3FU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, WAVELL DRIVE"
+      "address": "55, CAE PERLLAN ROAD"
     },
     {
-      "price": 210000,
-      "date": "2026-02-13",
-      "postcode": "NP20 5ND",
+      "price": 250000,
+      "date": "2026-03-06",
+      "postcode": "NP19 8AF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "51, AILESBURY STREET"
+      "address": "6, BEECHFIELD AVENUE"
     },
     {
-      "price": 235000,
-      "date": "2026-02-13",
-      "postcode": "NP19 7HD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "351, CAERLEON ROAD"
-    },
-    {
-      "price": 205000,
-      "date": "2026-02-13",
-      "postcode": "NP19 8HT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "83, UPPER TENNYSON ROAD"
-    },
-    {
-      "price": 121000,
-      "date": "2026-02-13",
-      "postcode": "NP20 4EU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, CATHEDRAL COURT"
-    },
-    {
-      "price": 140000,
-      "date": "2026-02-12",
-      "postcode": "NP20 7SB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, RODING CLOSE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-02-11",
-      "postcode": "NP18 1PF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, STAR VILLAS"
-    },
-    {
-      "price": 195000,
-      "date": "2026-02-10",
-      "postcode": "NP10 8BL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, SKYE GROVE"
-    },
-    {
-      "price": 208000,
-      "date": "2026-02-10",
-      "postcode": "NP19 7LW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "448, CAERLEON ROAD"
-    },
-    {
-      "price": 162000,
-      "date": "2026-02-10",
-      "postcode": "NP20 5FD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ROSE STREET"
-    },
-    {
-      "price": 287000,
-      "date": "2026-02-09",
-      "postcode": "NP18 3SB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, WALNUT DRIVE"
-    },
-    {
-      "price": 55500,
-      "date": "2026-02-06",
-      "postcode": "NP20 2PS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, 31A, COMMERCIAL ROAD"
-    },
-    {
-      "price": 55500,
-      "date": "2026-02-06",
-      "postcode": "NP20 2PS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, 31A, COMMERCIAL ROAD"
-    },
-    {
-      "price": 192500,
-      "date": "2026-02-06",
-      "postcode": "NP20 3JW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, SHERIDAN CLOSE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-02-06",
-      "postcode": "NP18 1JN",
+      "price": 400000,
+      "date": "2026-03-06",
+      "postcode": "NP10 9NP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, OLD HILL CRESCENT"
+      "address": "25, OBAMA GROVE"
+    },
+    {
+      "price": 208000,
+      "date": "2026-03-06",
+      "postcode": "NP19 0BG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "129, CORPORATION ROAD"
     }
   ]
 }

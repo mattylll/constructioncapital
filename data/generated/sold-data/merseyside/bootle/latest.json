@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.337Z",
+  "updatedAt": "2026-05-18T19:24:08.900Z",
   "townSlug": "bootle",
   "countySlug": "merseyside",
   "stats": {
-    "medianPrice": 140000,
+    "medianPrice": 137000,
     "medianByType": {
-      "D": 250000,
-      "S": 185000,
-      "T": 117500,
+      "D": 260900,
+      "S": 184750,
+      "T": 114000,
       "F": 65000
     },
-    "transactionCount12m": 382,
-    "yoyChange": 16.7,
+    "transactionCount12m": 416,
+    "yoyChange": 9.6,
     "newBuildCount": 0,
-    "existingCount": 382,
-    "newBuildPremium": -100
+    "existingCount": 416,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 75000,
-      "date": "2026-02-16",
-      "postcode": "L20 7DR",
+      "price": 155000,
+      "date": "2026-03-27",
+      "postcode": "L20 9NR",
       "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "18, VIOLA STREET"
+      "tenure": "F",
+      "address": "10, SOUTHPORT ROAD"
     },
     {
-      "price": 72500,
-      "date": "2026-02-16",
-      "postcode": "L20 2EQ",
-      "propertyType": "T",
+      "price": 195000,
+      "date": "2026-03-20",
+      "postcode": "L30 7QG",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "22, BEATRICE STREET"
+      "address": "1, NEWARK CLOSE"
     },
     {
-      "price": 92500,
-      "date": "2026-02-13",
-      "postcode": "L30 3SH",
-      "propertyType": "F",
+      "price": 268000,
+      "date": "2026-03-18",
+      "postcode": "L30 7PN",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "13, COLUMBAN CLOSE"
+      "tenure": "F",
+      "address": "117, LUNAR DRIVE"
     },
     {
-      "price": 65000,
-      "date": "2026-02-12",
-      "postcode": "L20 4UL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "22, HALIDON COURT"
-    },
-    {
-      "price": 160000,
-      "date": "2026-02-09",
-      "postcode": "L20 4AD",
+      "price": 175000,
+      "date": "2026-03-13",
+      "postcode": "L20 6JU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, ST JOANS CLOSE"
-    },
-    {
-      "price": 84000,
-      "date": "2026-02-05",
-      "postcode": "L20 4UL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "31, HALIDON COURT"
-    },
-    {
-      "price": 113000,
-      "date": "2026-02-02",
-      "postcode": "L20 0DL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "39, KEIR HARDIE AVENUE"
+      "address": "211, HAWTHORNE ROAD"
     },
     {
       "price": 180000,
-      "date": "2026-02-02",
-      "postcode": "L30 1QA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "35, PARK LANE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-01-30",
-      "postcode": "L20 3JN",
+      "date": "2026-03-13",
+      "postcode": "L20 6EA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, CORPORATION WHARF"
+      "address": "5, CARR ROAD"
     },
     {
-      "price": 152500,
-      "date": "2026-01-30",
-      "postcode": "L30 5QD",
+      "price": 100000,
+      "date": "2026-03-12",
+      "postcode": "L20 3HE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "55, ST OSWALDS LANE"
+      "address": "45, CEDAR STREET"
     },
     {
-      "price": 210000,
-      "date": "2026-01-30",
-      "postcode": "L30 8RW",
+      "price": 150000,
+      "date": "2026-03-12",
+      "postcode": "L30 0PF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, HILTON COURT"
+    },
+    {
+      "price": 62000,
+      "date": "2026-03-11",
+      "postcode": "L20 4UL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, HALIDON COURT"
+    },
+    {
+      "price": 81000,
+      "date": "2026-03-11",
+      "postcode": "L20 5BG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "295, MARSH LANE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-03-11",
+      "postcode": "L20 0BU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, HOMESTEAD AVENUE"
+      "address": "16, WILLIAMS AVENUE"
+    },
+    {
+      "price": 75000,
+      "date": "2026-03-10",
+      "postcode": "L20 4RT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "67, DRYDEN STREET"
+    },
+    {
+      "price": 165000,
+      "date": "2026-03-06",
+      "postcode": "L30 2RU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "103, SIMONS CROFT"
+    },
+    {
+      "price": 180000,
+      "date": "2026-03-06",
+      "postcode": "L30 2PA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, RANDALL DRIVE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-03-06",
+      "postcode": "L30 6YG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "16, REGENT AVENUE"
+    },
+    {
+      "price": 83000,
+      "date": "2026-03-05",
+      "postcode": "L20 4PU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, WALLER STREET"
     },
     {
       "price": 110000,
-      "date": "2026-01-30",
-      "postcode": "L20 4RJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, BURNS STREET"
-    },
-    {
-      "price": 137900,
-      "date": "2026-01-28",
-      "postcode": "L20 3BX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, LANGDALE STREET"
-    },
-    {
-      "price": 250000,
-      "date": "2026-01-28",
-      "postcode": "L20 6DW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "64, PARK LANE"
-    },
-    {
-      "price": 92000,
-      "date": "2026-01-27",
-      "postcode": "L20 3HF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, CEDAR STREET"
-    },
-    {
-      "price": 183500,
-      "date": "2026-01-26",
-      "postcode": "L20 6EW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, FAIRLIE CRESCENT"
-    },
-    {
-      "price": 190000,
-      "date": "2026-01-23",
-      "postcode": "L20 9EF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "171, SOUTHPORT ROAD"
-    },
-    {
-      "price": 92500,
-      "date": "2026-01-23",
-      "postcode": "L20 4PF",
+      "date": "2026-03-02",
+      "postcode": "L20 9AL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "28, SCOTT STREET"
+      "address": "169, GLOUCESTER ROAD"
     },
     {
-      "price": 128500,
-      "date": "2026-01-23",
-      "postcode": "L20 9AE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "225, WORCESTER ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-01-23",
-      "postcode": "L20 0ED",
+      "price": 230000,
+      "date": "2026-03-02",
+      "postcode": "L20 9NS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, MOSS LANE"
+      "address": "42, SOUTHPORT ROAD"
+    },
+    {
+      "price": 85000,
+      "date": "2026-02-27",
+      "postcode": "L20 5BD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, MELLING ROAD"
+    },
+    {
+      "price": 112600,
+      "date": "2026-02-27",
+      "postcode": "L20 4LN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "19, SPENSER STREET"
+    },
+    {
+      "price": 145000,
+      "date": "2026-02-27",
+      "postcode": "L30 1RT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "45, LUNT AVENUE"
     }
   ]
 }

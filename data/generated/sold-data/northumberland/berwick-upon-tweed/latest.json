@@ -1,22 +1,121 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.734Z",
+  "updatedAt": "2026-05-18T19:24:09.146Z",
   "townSlug": "berwick-upon-tweed",
   "countySlug": "northumberland",
   "stats": {
-    "medianPrice": 178000,
+    "medianPrice": 187250,
     "medianByType": {
       "D": 322500,
-      "S": 194750,
-      "T": 172500,
-      "F": 110000
+      "S": 200000,
+      "T": 175000,
+      "F": 113750
     },
-    "transactionCount12m": 181,
-    "yoyChange": -3.8,
+    "transactionCount12m": 186,
+    "yoyChange": 1.2,
     "newBuildCount": 2,
-    "existingCount": 179,
-    "newBuildPremium": -100
+    "existingCount": 184,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 235000,
+      "date": "2026-03-27",
+      "postcode": "TD15 2LX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, HILLCREST"
+    },
+    {
+      "price": 125000,
+      "date": "2026-03-20",
+      "postcode": "TD15 1EB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "19D, WALLACE GREEN"
+    },
+    {
+      "price": 150000,
+      "date": "2026-03-19",
+      "postcode": "TD15 2EB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, GREENWOOD"
+    },
+    {
+      "price": 146000,
+      "date": "2026-03-18",
+      "postcode": "TD15 1LW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, ALBERT PLACE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-03-11",
+      "postcode": "TD15 1PQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, CARRICK CLOSE"
+    },
+    {
+      "price": 315000,
+      "date": "2026-03-11",
+      "postcode": "TD15 2YT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, RODDAM COURT"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-10",
+      "postcode": "TD15 2YW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WEST DRIVE"
+    },
+    {
+      "price": 192500,
+      "date": "2026-03-05",
+      "postcode": "TD15 2EU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, KNOWE HEAD"
+    },
+    {
+      "price": 305000,
+      "date": "2026-03-04",
+      "postcode": "TD15 1UB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, DUNS ROAD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-02-27",
+      "postcode": "TD15 1DA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, COLLEGE PLACE"
+    },
+    {
+      "price": 115000,
+      "date": "2026-02-26",
+      "postcode": "TD15 2HU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "51, OSBORNE CRESCENT"
+    },
     {
       "price": 165000,
       "date": "2026-02-24",
@@ -36,13 +135,13 @@
       "address": "56, SUNNYSIDE CRESCENT"
     },
     {
-      "price": 295000,
-      "date": "2026-02-16",
-      "postcode": "TD15 2FN",
-      "propertyType": "D",
+      "price": 50000,
+      "date": "2026-02-19",
+      "postcode": "TD15 1EA",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "14, MEADOW DALE"
+      "tenure": "L",
+      "address": "12, THE OLD CORN EXCHANGE, SANDGATE"
     },
     {
       "price": 150000,
@@ -52,6 +151,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "7, STEPHENSON COURT"
+    },
+    {
+      "price": 295000,
+      "date": "2026-02-16",
+      "postcode": "TD15 2FN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, MEADOW DALE"
+    },
+    {
+      "price": 385000,
+      "date": "2026-02-13",
+      "postcode": "TD15 1PB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "OAK LODGE, CASTLE HILLS"
     },
     {
       "price": 90000,
@@ -79,123 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "12, DOCK ROAD"
-    },
-    {
-      "price": 410000,
-      "date": "2026-01-30",
-      "postcode": "TD15 1PG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, DOUGLAS CLOSE"
-    },
-    {
-      "price": 163500,
-      "date": "2026-01-30",
-      "postcode": "TD15 1PZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, SEA VIEW"
-    },
-    {
-      "price": 155000,
-      "date": "2026-01-30",
-      "postcode": "TD15 2UA",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "74, MAIN STREET"
-    },
-    {
-      "price": 55000,
-      "date": "2026-01-29",
-      "postcode": "TD15 1DH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "45A, WOOLMARKET"
-    },
-    {
-      "price": 170000,
-      "date": "2026-01-26",
-      "postcode": "TD15 2JD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, RIVERDENE"
-    },
-    {
-      "price": 153000,
-      "date": "2026-01-23",
-      "postcode": "TD15 2QJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, SUNNYSIDE MEWS"
-    },
-    {
-      "price": 72500,
-      "date": "2026-01-20",
-      "postcode": "TD15 2HW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "18, WEST END PLACE"
-    },
-    {
-      "price": 157500,
-      "date": "2026-01-20",
-      "postcode": "TD15 2HE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, WEST END"
-    },
-    {
-      "price": 193000,
-      "date": "2026-01-19",
-      "postcode": "TD15 2EE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, SHIELFIELD TERRACE"
-    },
-    {
-      "price": 112500,
-      "date": "2026-01-19",
-      "postcode": "TD15 2HY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "26, UNION PARK ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-01-15",
-      "postcode": "TD15 1RQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, COMMERCIAL ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-01-13",
-      "postcode": "TD15 2EB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, GREENWOOD"
-    },
-    {
-      "price": 69000,
-      "date": "2026-01-09",
-      "postcode": "TD15 2HY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "31, UNION PARK ROAD"
     }
   ]
 }

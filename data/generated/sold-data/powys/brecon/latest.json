@@ -1,22 +1,121 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.964Z",
+  "updatedAt": "2026-05-18T19:24:09.363Z",
   "townSlug": "brecon",
   "countySlug": "powys",
   "stats": {
-    "medianPrice": 281000,
+    "medianPrice": 272500,
     "medianByType": {
       "D": 382500,
-      "S": 260000,
-      "T": 212500,
-      "F": 91000
+      "S": 259500,
+      "T": 205000,
+      "F": 95500
     },
-    "transactionCount12m": 146,
-    "yoyChange": -1.1,
-    "newBuildCount": 3,
-    "existingCount": 143,
-    "newBuildPremium": 8.9
+    "transactionCount12m": 161,
+    "yoyChange": -4.4,
+    "newBuildCount": 2,
+    "existingCount": 159,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 370000,
+      "date": "2026-03-19",
+      "postcode": "LD3 7UH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TY GROES"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-16",
+      "postcode": "LD3 7SJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, GLASFRYN"
+    },
+    {
+      "price": 190000,
+      "date": "2026-03-16",
+      "postcode": "LD3 8YN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MAESY CWM"
+    },
+    {
+      "price": 215000,
+      "date": "2026-03-06",
+      "postcode": "LD3 9BS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, PONTWILYM"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-06",
+      "postcode": "LD3 7FD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CANALSIDE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-03-03",
+      "postcode": "LD3 0HG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, WESTFIELDS"
+    },
+    {
+      "price": 415000,
+      "date": "2026-03-02",
+      "postcode": "LD3 8DF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, NEWTON GREEN"
+    },
+    {
+      "price": 575000,
+      "date": "2026-02-26",
+      "postcode": "LD3 7RS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, CAMDEN ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-02-26",
+      "postcode": "LD3 7SP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LABURNUM COTTAGE"
+    },
+    {
+      "price": 905000,
+      "date": "2026-02-25",
+      "postcode": "LD3 8LG",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DANYFAN"
+    },
+    {
+      "price": 300000,
+      "date": "2026-02-20",
+      "postcode": "LD3 7RR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SANAWAR, 9, CWRT Y CAMDEN"
+    },
     {
       "price": 218000,
       "date": "2026-02-20",
@@ -25,6 +124,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "1, PROSPECT ROW"
+    },
+    {
+      "price": 145000,
+      "date": "2026-02-18",
+      "postcode": "LD3 7LW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, THE STRUET"
     },
     {
       "price": 394500,
@@ -54,6 +162,15 @@
       "address": "RIVERSIDE SERVICES & RESTAURANT"
     },
     {
+      "price": 465000,
+      "date": "2026-01-30",
+      "postcode": "LD3 9NW",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, TWYN Y GAER"
+    },
+    {
       "price": 223000,
       "date": "2026-01-30",
       "postcode": "LD3 7JW",
@@ -79,123 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "YSGUBOR, KENSINGTON"
-    },
-    {
-      "price": 305000,
-      "date": "2026-01-16",
-      "postcode": "LD3 9NA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FORGE HOUSE"
-    },
-    {
-      "price": 480000,
-      "date": "2026-01-13",
-      "postcode": "LD3 7SJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TYLE COTTAGE"
-    },
-    {
-      "price": 285000,
-      "date": "2026-01-09",
-      "postcode": "LD3 8UH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CARPENTERS COTTAGE"
-    },
-    {
-      "price": 365000,
-      "date": "2026-01-08",
-      "postcode": "LD3 7RW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, SUNNYBANK"
-    },
-    {
-      "price": 400000,
-      "date": "2026-01-05",
-      "postcode": "LD3 8RP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WHITE HOUSE HOTEL"
-    },
-    {
-      "price": 180000,
-      "date": "2025-12-19",
-      "postcode": "LD3 0DR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GLENDALE, CHURCH STREET"
-    },
-    {
-      "price": 170000,
-      "date": "2025-12-19",
-      "postcode": "LD3 9HW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, CORYTON CLOSE"
-    },
-    {
-      "price": 460000,
-      "date": "2025-12-19",
-      "postcode": "LD3 8RH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LLWYN CARW FARM HOUSE"
-    },
-    {
-      "price": 308000,
-      "date": "2025-12-19",
-      "postcode": "LD3 7TD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, GRIFFIN TERRACE"
-    },
-    {
-      "price": 250000,
-      "date": "2025-12-19",
-      "postcode": "LD3 7JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, POWELLS TERRACE"
-    },
-    {
-      "price": 285000,
-      "date": "2025-12-19",
-      "postcode": "LD3 0DZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, COURT MEADOW"
-    },
-    {
-      "price": 290000,
-      "date": "2025-12-18",
-      "postcode": "LD3 9EQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "69, PENDRE GARDENS"
-    },
-    {
-      "price": 380000,
-      "date": "2025-12-18",
-      "postcode": "LD3 8TT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LISANDWILL"
     }
   ]
 }

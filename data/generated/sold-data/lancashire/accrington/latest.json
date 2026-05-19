@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.311Z",
+  "updatedAt": "2026-05-18T19:24:08.873Z",
   "townSlug": "accrington",
   "countySlug": "lancashire",
   "stats": {
     "medianPrice": 125000,
     "medianByType": {
-      "D": 260000,
-      "S": 182500,
-      "T": 100000,
-      "F": 71300
+      "D": 265000,
+      "S": 185000,
+      "T": 101750,
+      "F": 81500
     },
-    "transactionCount12m": 912,
-    "yoyChange": -3.8,
+    "transactionCount12m": 987,
+    "yoyChange": -3.1,
     "newBuildCount": 0,
-    "existingCount": 912,
-    "newBuildPremium": -100
+    "existingCount": 987,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 290000,
-      "date": "2026-02-20",
-      "postcode": "BB1 4EG",
+      "price": 90000,
+      "date": "2026-03-26",
+      "postcode": "BB5 4DU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, DILL HALL LANE"
+    },
+    {
+      "price": 125000,
+      "date": "2026-03-26",
+      "postcode": "BB6 7NG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, CATTLE STREET"
+    },
+    {
+      "price": 90000,
+      "date": "2026-03-23",
+      "postcode": "BB5 6TF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "22, WASHINGTON STREET"
+    },
+    {
+      "price": 275000,
+      "date": "2026-03-20",
+      "postcode": "BB5 3AW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "L",
-      "address": "45, WINDERMERE DRIVE"
+      "address": "20, LABURNUM DRIVE"
     },
     {
-      "price": 200000,
-      "date": "2026-02-20",
-      "postcode": "BB5 4RP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "78, HARGREAVES ROAD"
-    },
-    {
-      "price": 115000,
-      "date": "2026-02-20",
-      "postcode": "BB1 4HT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "68, KNOWLES STREET"
-    },
-    {
-      "price": 120000,
-      "date": "2026-02-18",
-      "postcode": "BB5 1SS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "79, MONK STREET"
-    },
-    {
-      "price": 168000,
-      "date": "2026-02-18",
-      "postcode": "BB5 4PT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, NAB LANE"
-    },
-    {
-      "price": 124000,
-      "date": "2026-02-18",
-      "postcode": "BB6 7JH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "79, JAMES STREET"
-    },
-    {
-      "price": 72000,
-      "date": "2026-02-13",
-      "postcode": "BB5 0HF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "54, SPRING STREET"
-    },
-    {
-      "price": 202500,
-      "date": "2026-02-13",
-      "postcode": "BB5 4RE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19, BUTTERMERE DRIVE"
-    },
-    {
-      "price": 140000,
-      "date": "2026-02-13",
-      "postcode": "BB5 6QS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, COPPICE AVENUE"
-    },
-    {
-      "price": 122000,
-      "date": "2026-02-13",
-      "postcode": "BB5 3EY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "85, RHYDDINGS STREET"
-    },
-    {
-      "price": 140000,
-      "date": "2026-02-10",
-      "postcode": "BB5 2QB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "66, ASHWORTH STREET"
-    },
-    {
-      "price": 190000,
-      "date": "2026-02-06",
-      "postcode": "BB5 6UE",
+      "price": 175000,
+      "date": "2026-03-20",
+      "postcode": "BB5 0FT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, WINTERLEY DRIVE"
+      "address": "10, ORCHARD BROW"
     },
     {
-      "price": 155000,
-      "date": "2026-02-06",
-      "postcode": "BB5 5HW",
+      "price": 128000,
+      "date": "2026-03-20",
+      "postcode": "BB5 4DQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "11, HYGIENE"
+      "address": "285, DILL HALL LANE"
     },
     {
-      "price": 110000,
-      "date": "2026-02-06",
-      "postcode": "BB5 0QT",
+      "price": 82000,
+      "date": "2026-03-17",
+      "postcode": "BB5 6PQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "110, RICHMOND HILL STREET"
+      "address": "78, STANLEY STREET"
+    },
+    {
+      "price": 191000,
+      "date": "2026-03-17",
+      "postcode": "BB5 5AL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, RADNOR STREET"
+    },
+    {
+      "price": 100000,
+      "date": "2026-03-16",
+      "postcode": "BB1 4ND",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "31, HERMITAGE STREET"
+    },
+    {
+      "price": 88000,
+      "date": "2026-03-13",
+      "postcode": "BB5 3QD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "86, ROE GREAVE ROAD"
+    },
+    {
+      "price": 131000,
+      "date": "2026-03-13",
+      "postcode": "BB5 6QQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "223, STANLEY STREET"
+    },
+    {
+      "price": 300000,
+      "date": "2026-03-13",
+      "postcode": "BB5 0NH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "335, WILLOWS LANE"
+    },
+    {
+      "price": 77500,
+      "date": "2026-03-13",
+      "postcode": "BB5 1BX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "187, WHALLEY ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-03-13",
+      "postcode": "BB5 5XA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "62, SPRING MEADOWS"
     },
     {
       "price": 125000,
-      "date": "2026-02-06",
-      "postcode": "BB1 4NL",
+      "date": "2026-03-12",
+      "postcode": "BB5 5LU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "126, HERMITAGE STREET"
-    },
-    {
-      "price": 125000,
-      "date": "2026-02-06",
-      "postcode": "BB1 4DG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, ST PETER STREET"
-    },
-    {
-      "price": 110000,
-      "date": "2026-02-06",
-      "postcode": "BB5 6SY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "23, SPENCER STREET"
+      "address": "5, ADELAIDE STREET"
     },
     {
       "price": 195000,
-      "date": "2026-02-05",
-      "postcode": "BB1 4JX",
+      "date": "2026-03-12",
+      "postcode": "BB6 7FN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, MILL GARDENS"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-12",
+      "postcode": "BB5 2QY",
       "propertyType": "S",
       "newBuild": false,
+      "tenure": "F",
+      "address": "181, HOLLINS LANE"
+    },
+    {
+      "price": 82000,
+      "date": "2026-03-12",
+      "postcode": "BB5 6RH",
+      "propertyType": "T",
+      "newBuild": false,
       "tenure": "L",
-      "address": "10, PINE CLOSE"
+      "address": "37A, BOLD STREET"
     },
     {
       "price": 75000,
-      "date": "2026-02-05",
-      "postcode": "BB5 0HF",
+      "date": "2026-03-11",
+      "postcode": "BB5 0HG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "26, SPRING STREET"
+      "address": "20, EDLESTON STREET"
     },
     {
-      "price": 118000,
-      "date": "2026-02-04",
-      "postcode": "BB6 7JF",
+      "price": 70000,
+      "date": "2026-03-11",
+      "postcode": "BB5 2HY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "34, GEORGE STREET"
+      "address": "30, WILFRED STREET"
     }
   ]
 }

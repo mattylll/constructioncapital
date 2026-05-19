@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.308Z",
+  "updatedAt": "2026-05-18T19:24:08.870Z",
   "townSlug": "chorley",
   "countySlug": "lancashire",
   "stats": {
     "medianPrice": 215000,
     "medianByType": {
-      "D": 355288,
-      "S": 210500,
-      "T": 165000,
-      "F": 117000
+      "D": 360000,
+      "S": 212250,
+      "T": 164000,
+      "F": 120000
     },
-    "transactionCount12m": 1200,
+    "transactionCount12m": 1272,
     "yoyChange": 2.4,
-    "newBuildCount": 22,
-    "existingCount": 1178,
-    "newBuildPremium": 57
+    "newBuildCount": 21,
+    "existingCount": 1251,
+    "newBuildPremium": 52.1
   },
   "recentTransactions": [
     {
-      "price": 610000,
-      "date": "2026-02-16",
-      "postcode": "L40 2RG",
+      "price": 185000,
+      "date": "2026-03-20",
+      "postcode": "PR7 5PB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "366, LANGTON BROW"
+    },
+    {
+      "price": 158000,
+      "date": "2026-03-20",
+      "postcode": "PR5 8BJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, SCHOOL FIELD"
+    },
+    {
+      "price": 227000,
+      "date": "2026-03-19",
+      "postcode": "PR7 3EU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "22, SOUTHDOWNS ROAD"
+    },
+    {
+      "price": 107000,
+      "date": "2026-03-18",
+      "postcode": "PR7 2FW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "8, FOLLY WOOD DRIVE"
+    },
+    {
+      "price": 115000,
+      "date": "2026-03-17",
+      "postcode": "PR7 3ER",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, PILLING LANE"
+    },
+    {
+      "price": 520000,
+      "date": "2026-03-16",
+      "postcode": "L40 3SE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GLENDALE, BRADSHAW LANE"
+    },
+    {
+      "price": 670000,
+      "date": "2026-03-16",
+      "postcode": "L40 2QU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "PLOVER GREEN, BLUE STONE LANE"
+      "address": "DELFRYN, DARK LANE"
+    },
+    {
+      "price": 110000,
+      "date": "2026-03-13",
+      "postcode": "PR7 3NN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, WELDBANK LANE"
+    },
+    {
+      "price": 137500,
+      "date": "2026-03-13",
+      "postcode": "PR7 7BY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, COOPERS PLACE"
+    },
+    {
+      "price": 168000,
+      "date": "2026-03-13",
+      "postcode": "PR6 7SQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, ASHDOWN DRIVE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-13",
+      "postcode": "PR6 8QY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, BRINSCALL TERRACE"
     },
     {
       "price": 210000,
-      "date": "2026-02-16",
-      "postcode": "PR26 9RS",
+      "date": "2026-03-12",
+      "postcode": "PR5 8BJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SCHOOL FIELD"
+    },
+    {
+      "price": 116000,
+      "date": "2026-03-12",
+      "postcode": "PR6 7AE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "58, WESTHEAD ROAD"
+      "address": "19, GARFIELD TERRACE"
     },
     {
-      "price": 210000,
-      "date": "2026-02-13",
-      "postcode": "PR7 7DL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9, INGHAM AVENUE"
-    },
-    {
-      "price": 370000,
-      "date": "2026-02-13",
-      "postcode": "PR6 9BP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, TORMORE CLOSE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-02-13",
-      "postcode": "PR7 3BW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "42, REDWOOD DRIVE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-02-12",
-      "postcode": "PR7 6BG",
+      "price": 590000,
+      "date": "2026-03-12",
+      "postcode": "PR7 1LN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, BRIAR AVENUE"
+      "address": "14, WINDSOR ROAD"
     },
     {
-      "price": 201000,
-      "date": "2026-02-12",
-      "postcode": "PR6 8EY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "222, BLACKBURN ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2026-02-11",
-      "postcode": "PR6 7FH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, WOOD BEECH GARDENS"
-    },
-    {
-      "price": 198000,
-      "date": "2026-02-10",
-      "postcode": "PR6 0LW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "41, CANTERBURY STREET"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-09",
-      "postcode": "PR6 0AW",
+      "price": 248500,
+      "date": "2026-03-11",
+      "postcode": "PR7 7DP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "52, PENNINE ROAD"
+      "address": "17, SUTHERLAND PLACE"
     },
     {
-      "price": 185500,
-      "date": "2026-02-06",
-      "postcode": "PR25 5TT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "100, HUNTERS ROAD"
-    },
-    {
-      "price": 183000,
-      "date": "2026-02-06",
-      "postcode": "PR6 9LH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "51, CHORLEY ROAD"
-    },
-    {
-      "price": 380000,
-      "date": "2026-02-06",
-      "postcode": "BL6 7RN",
+      "price": 405000,
+      "date": "2026-03-11",
+      "postcode": "PR6 8SU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "SMITHY COTTAGE, BOLTON ROAD"
+      "address": "19, SANDRINGHAM DRIVE"
     },
     {
-      "price": 140000,
-      "date": "2026-02-06",
-      "postcode": "PR7 2LL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, LAKELAND GARDENS"
-    },
-    {
-      "price": 295000,
-      "date": "2026-02-06",
-      "postcode": "PR6 0LA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, AMBER DRIVE"
-    },
-    {
-      "price": 282500,
-      "date": "2026-02-06",
-      "postcode": "PR6 7QQ",
+      "price": 245000,
+      "date": "2026-03-11",
+      "postcode": "PR7 5SG",
       "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "84, BACK LANE"
-    },
-    {
-      "price": 164000,
-      "date": "2026-02-06",
-      "postcode": "PR5 0DR",
-      "propertyType": "T",
-      "newBuild": false,
       "tenure": "F",
-      "address": "69, BOURNES ROW"
+      "address": "24, WINDSOR ROAD"
     },
     {
-      "price": 182500,
-      "date": "2026-02-06",
-      "postcode": "PR7 2YA",
+      "price": 271000,
+      "date": "2026-03-11",
+      "postcode": "PR6 9PY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "L",
-      "address": "42, LONG MEADOWS"
+      "address": "22, GRANVILLE STREET"
     },
     {
-      "price": 155000,
-      "date": "2026-02-06",
-      "postcode": "PR7 2BW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "21, DEVONSHIRE COURT, DEVONSHIRE ROAD"
-    },
-    {
-      "price": 194000,
-      "date": "2026-02-06",
-      "postcode": "PR7 5EZ",
+      "price": 367500,
+      "date": "2026-03-11",
+      "postcode": "PR6 8SP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "103, CHORLEY LANE"
+      "address": "UPFIELD HOUSE, PIKE LOWE"
+    },
+    {
+      "price": 121000,
+      "date": "2026-03-11",
+      "postcode": "PR7 7AH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "40, GUERNSEY AVENUE"
     }
   ]
 }

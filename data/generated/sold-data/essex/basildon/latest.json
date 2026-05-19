@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.739Z",
+  "updatedAt": "2026-05-18T19:24:08.270Z",
   "townSlug": "basildon",
   "countySlug": "essex",
   "stats": {
-    "medianPrice": 351375,
+    "medianPrice": 355000,
     "medianByType": {
-      "D": 575000,
-      "S": 408750,
+      "D": 570000,
+      "S": 410000,
       "T": 325000,
-      "F": 200000
+      "F": 197250
     },
-    "transactionCount12m": 1730,
-    "yoyChange": -1,
-    "newBuildCount": 22,
-    "existingCount": 1708,
-    "newBuildPremium": 40.6
+    "transactionCount12m": 1903,
+    "yoyChange": 1.4,
+    "newBuildCount": 26,
+    "existingCount": 1877,
+    "newBuildPremium": 38
   },
   "recentTransactions": [
     {
+      "price": 765000,
+      "date": "2026-03-27",
+      "postcode": "CM12 9ND",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, TYE COMMON ROAD"
+    },
+    {
+      "price": 120000,
+      "date": "2026-03-25",
+      "postcode": "SS16 4TZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, WATERVILLE DRIVE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-03-24",
+      "postcode": "SS15 5FP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, BEESTON COURTS"
+    },
+    {
       "price": 600000,
-      "date": "2026-02-25",
-      "postcode": "SS15 4AZ",
+      "date": "2026-03-24",
+      "postcode": "CM12 0GD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "RUSSLYN, WASH ROAD"
+      "address": "31, REGENT DRIVE"
     },
     {
-      "price": 415000,
-      "date": "2026-02-24",
-      "postcode": "SS14 2FP",
+      "price": 235000,
+      "date": "2026-03-24",
+      "postcode": "SS13 3DZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "49, GORDONS"
+    },
+    {
+      "price": 355000,
+      "date": "2026-03-23",
+      "postcode": "SS12 9PU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "110, CLENSHAW PATH"
+      "address": "87, MAITLAND ROAD"
     },
     {
-      "price": 430000,
-      "date": "2026-02-24",
-      "postcode": "SS16 6BJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, ROSEBERRY AVENUE"
-    },
-    {
-      "price": 830000,
-      "date": "2026-02-20",
-      "postcode": "CM11 1LN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, COULTER MEWS"
-    },
-    {
-      "price": 350000,
-      "date": "2026-02-20",
-      "postcode": "SS12 9HR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, FAMBRIDGE DRIVE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-02-19",
-      "postcode": "CM12 0ED",
+      "price": 690000,
+      "date": "2026-03-20",
+      "postcode": "SS11 8PA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, EARL MOUNTBATTEN DRIVE"
+      "address": "19, SANDOWN ROAD"
     },
     {
-      "price": 300000,
-      "date": "2026-02-18",
-      "postcode": "CM11 2JG",
+      "price": 325000,
+      "date": "2026-03-20",
+      "postcode": "SS14 2EP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, SALESBURY DRIVE"
+      "address": "610, WHITMORE WAY"
     },
     {
-      "price": 369000,
-      "date": "2026-02-16",
-      "postcode": "SS11 7FQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, TAMWORTH DRIVE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-02-16",
-      "postcode": "SS13 1NH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, STOKEFELDE"
-    },
-    {
-      "price": 225750,
-      "date": "2026-02-16",
-      "postcode": "SS15 5GT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, HAZEL CLOSE"
-    },
-    {
-      "price": 375000,
-      "date": "2026-02-16",
-      "postcode": "SS13 2DY",
+      "price": 400000,
+      "date": "2026-03-20",
+      "postcode": "CM12 9PX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, FAIRLEIGH ROAD"
+      "address": "BETHWIN, TYE COMMON ROAD"
     },
     {
-      "price": 665000,
-      "date": "2026-02-13",
-      "postcode": "SS16 6HJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, GROVE AVENUE"
-    },
-    {
-      "price": 410000,
-      "date": "2026-02-13",
-      "postcode": "SS12 0AY",
+      "price": 470000,
+      "date": "2026-03-19",
+      "postcode": "SS12 9LE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "80, DEIRDRE AVENUE"
+      "address": "JASMINE, CRANFIELD PARK ROAD"
     },
     {
-      "price": 340000,
-      "date": "2026-02-13",
-      "postcode": "SS15 5DF",
+      "price": 200000,
+      "date": "2026-03-19",
+      "postcode": "SS15 4AX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "18, CROUCH STREET"
+    },
+    {
+      "price": 420000,
+      "date": "2026-03-19",
+      "postcode": "CM12 9RU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, KENNEL LANE"
+    },
+    {
+      "price": 418500,
+      "date": "2026-03-19",
+      "postcode": "CM11 1EG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, HOLLYFORD"
+    },
+    {
+      "price": 640000,
+      "date": "2026-03-18",
+      "postcode": "CM12 0SH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "206, STOCK ROAD"
+    },
+    {
+      "price": 130000,
+      "date": "2026-03-17",
+      "postcode": "SS16 5GJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "29, CHERRYDOWN EAST"
+    },
+    {
+      "price": 440000,
+      "date": "2026-03-16",
+      "postcode": "SS15 5QR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "116, FALSTONES"
+      "address": "78, KATHLEEN FERRIER CRESCENT"
     },
     {
-      "price": 305000,
-      "date": "2026-02-13",
-      "postcode": "SS12 9RD",
+      "price": 286000,
+      "date": "2026-03-16",
+      "postcode": "SS13 3EL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "66, DOESHILL DRIVE"
+      "address": "38, CHEVERS PAWEN"
     },
     {
-      "price": 280000,
-      "date": "2026-02-13",
-      "postcode": "SS14 2FE",
+      "price": 400000,
+      "date": "2026-03-13",
+      "postcode": "SS15 6AW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51A, VICTORIA ROAD"
+    },
+    {
+      "price": 625000,
+      "date": "2026-03-13",
+      "postcode": "SS12 0JX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, STRADBROKE ROAD"
+      "address": "228, LONDON ROAD"
     },
     {
-      "price": 450000,
-      "date": "2026-02-13",
-      "postcode": "SS15 6LA",
-      "propertyType": "D",
+      "price": 425000,
+      "date": "2026-03-13",
+      "postcode": "CM12 0UD",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, STAMFORD DRIVE"
-    },
-    {
-      "price": 575000,
-      "date": "2026-02-13",
-      "postcode": "CM12 9PA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, TYELANDS"
-    },
-    {
-      "price": 542000,
-      "date": "2026-02-13",
-      "postcode": "SS12 9GA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, RAMSEY CHASE"
-    },
-    {
-      "price": 530000,
-      "date": "2026-02-12",
-      "postcode": "SS16 5JW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, DIXON ROAD"
+      "address": "7, DORSET WAY"
     }
   ]
 }

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.067Z",
+  "updatedAt": "2026-05-18T19:24:08.615Z",
   "townSlug": "kidderminster",
   "countySlug": "worcestershire",
   "stats": {
-    "medianPrice": 243625,
+    "medianPrice": 245000,
     "medianByType": {
       "D": 360000,
       "S": 245000,
-      "T": 187500,
-      "F": 124500
+      "T": 185500,
+      "F": 123000
     },
-    "transactionCount12m": 1042,
-    "yoyChange": -2.5,
-    "newBuildCount": 35,
-    "existingCount": 1007,
-    "newBuildPremium": 19.8
+    "transactionCount12m": 1114,
+    "yoyChange": -2,
+    "newBuildCount": 33,
+    "existingCount": 1081,
+    "newBuildPremium": 15
   },
   "recentTransactions": [
     {
-      "price": 115000,
-      "date": "2026-02-20",
-      "postcode": "DY13 8BN",
+      "price": 170000,
+      "date": "2026-03-27",
+      "postcode": "DY11 6XT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, CRANE STREET"
+    },
+    {
+      "price": 119000,
+      "date": "2026-03-27",
+      "postcode": "DY11 6DX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 2, STATION HOUSE, MACARTHUR WAY"
+      "address": "FLAT 3, CASTLE LOCKS, CASTLE ROAD"
     },
     {
-      "price": 200000,
-      "date": "2026-02-19",
-      "postcode": "DY11 6TE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PARK GRAND, 128, PARK LANE"
-    },
-    {
-      "price": 388500,
-      "date": "2026-02-18",
-      "postcode": "DY10 1YP",
+      "price": 562000,
+      "date": "2026-03-26",
+      "postcode": "DY11 6LF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, HOPTON DRIVE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-02-18",
-      "postcode": "DY13 8YB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, PARK CRESCENT"
-    },
-    {
-      "price": 505000,
-      "date": "2026-02-13",
-      "postcode": "DY10 1SG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9A, ST GEORGES TERRACE"
-    },
-    {
-      "price": 168950,
-      "date": "2026-02-13",
-      "postcode": "DY10 1RS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, CLARENCE STREET"
-    },
-    {
-      "price": 272500,
-      "date": "2026-02-13",
-      "postcode": "DY10 3QR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, SHERATON DRIVE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-10",
-      "postcode": "DY13 8PQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, STEATITE WAY"
-    },
-    {
-      "price": 217500,
-      "date": "2026-02-09",
-      "postcode": "DY11 6PU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, CLAUGHTON STREET"
-    },
-    {
-      "price": 262000,
-      "date": "2026-02-09",
-      "postcode": "DY10 1LG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, AGGBOROUGH CRESCENT"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-06",
-      "postcode": "DY11 5YZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, COURT CLOSE"
-    },
-    {
-      "price": 152000,
-      "date": "2026-02-06",
-      "postcode": "DY12 1EE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, WASSELL DRIVE"
-    },
-    {
-      "price": 110000,
-      "date": "2026-02-06",
-      "postcode": "DY10 1SJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, CHERRY ORCHARD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-02-06",
-      "postcode": "DY13 8SQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, GALAHAD WAY"
-    },
-    {
-      "price": 305000,
-      "date": "2026-02-06",
-      "postcode": "DY13 8QH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "131, WINDERMERE WAY"
+      "address": "183, SUTTON PARK ROAD"
     },
     {
       "price": 216000,
-      "date": "2026-02-06",
-      "postcode": "DY11 6PD",
-      "propertyType": "S",
+      "date": "2026-03-24",
+      "postcode": "DY12 1BS",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, LEA BANK AVENUE"
-    },
-    {
-      "price": 253000,
-      "date": "2026-02-05",
-      "postcode": "DY10 2XT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32B, SION HILL"
+      "address": "1, ROPEWORKS COTTAGES, WESTBOURNE STREET"
     },
     {
       "price": 320000,
-      "date": "2026-02-04",
-      "postcode": "DY13 8AE",
+      "date": "2026-03-24",
+      "postcode": "DY10 2TN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "42, LONGBOAT LANE"
+      "address": "32, BATHAM ROAD"
     },
     {
-      "price": 245000,
-      "date": "2026-02-04",
-      "postcode": "DY12 2BZ",
+      "price": 120000,
+      "date": "2026-03-24",
+      "postcode": "DY10 1UR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, STEWART COURT"
+    },
+    {
+      "price": 140000,
+      "date": "2026-03-23",
+      "postcode": "DY13 0JG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "106, REDSTONE LANE"
+    },
+    {
+      "price": 190000,
+      "date": "2026-03-20",
+      "postcode": "DY10 2UN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, CHURCH VIEW"
+      "address": "59, PITT STREET"
     },
     {
-      "price": 235000,
-      "date": "2026-02-03",
-      "postcode": "DY11 5HS",
+      "price": 418500,
+      "date": "2026-03-20",
+      "postcode": "DY11 6JP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, LUDGATE AVENUE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-03-20",
+      "postcode": "DY11 5JP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "144, MARLPOOL LANE"
+      "address": "41, TYNINGS CLOSE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-03-20",
+      "postcode": "DY10 4UB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, POCHARD CLOSE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-19",
+      "postcode": "DY11 6QY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, HOLMAN STREET"
+    },
+    {
+      "price": 117500,
+      "date": "2026-03-19",
+      "postcode": "DY11 6UQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62, PEEL STREET"
+    },
+    {
+      "price": 275000,
+      "date": "2026-03-18",
+      "postcode": "DY13 8XT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21A, THE RIDGEWAY"
+    },
+    {
+      "price": 165000,
+      "date": "2026-03-18",
+      "postcode": "DY11 5BJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "107, FRANCHE ROAD"
+    },
+    {
+      "price": 186250,
+      "date": "2026-03-16",
+      "postcode": "DY11 6RP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, COBDEN STREET"
+    },
+    {
+      "price": 225000,
+      "date": "2026-03-16",
+      "postcode": "DY11 5QF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, WILTON AVENUE"
+    },
+    {
+      "price": 335000,
+      "date": "2026-03-16",
+      "postcode": "DY10 4AQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, MERLIN DRIVE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-03-13",
+      "postcode": "DY10 1SN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "90, LEA STREET"
+    },
+    {
+      "price": 338000,
+      "date": "2026-03-11",
+      "postcode": "DY10 4UE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, GARGANEY COURT"
     }
   ]
 }

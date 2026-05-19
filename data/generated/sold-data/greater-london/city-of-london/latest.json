@@ -1,19 +1,73 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.486Z",
+  "updatedAt": "2026-05-18T19:24:08.010Z",
   "townSlug": "city-of-london",
   "countySlug": "greater-london",
   "stats": {
     "medianPrice": 742500,
     "medianByType": {
-      "F": 725000
+      "F": 735000
     },
-    "transactionCount12m": 108,
-    "yoyChange": -14.9,
-    "newBuildCount": 0,
-    "existingCount": 108,
-    "newBuildPremium": -100
+    "transactionCount12m": 118,
+    "yoyChange": -14.2,
+    "newBuildCount": 1,
+    "existingCount": 117,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 417500,
+      "date": "2026-03-05",
+      "postcode": "EC2Y 8NE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 87, JOHN TRUNDLE COURT, BARBICAN"
+    },
+    {
+      "price": 835000,
+      "date": "2026-02-27",
+      "postcode": "EC1A 7BT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 44, 75, LITTLE BRITAIN"
+    },
+    {
+      "price": 585000,
+      "date": "2026-02-26",
+      "postcode": "E9 5NW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 205, 11, MELDOLA YARD"
+    },
+    {
+      "price": 665000,
+      "date": "2026-02-20",
+      "postcode": "EC3N 2NU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 604, 1, PEPYS STREET"
+    },
+    {
+      "price": 1625000,
+      "date": "2026-02-20",
+      "postcode": "EC2Y 8NA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 341, LAUDERDALE TOWER, BARBICAN"
+    },
+    {
+      "price": 650000,
+      "date": "2026-02-17",
+      "postcode": "EC2Y 8DN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 43, DEFOE HOUSE, BARBICAN"
+    },
     {
       "price": 520000,
       "date": "2026-02-12",
@@ -96,15 +150,6 @@
       "address": "APARTMENT 402, 10, HOSIER LANE"
     },
     {
-      "price": 665000,
-      "date": "2026-01-07",
-      "postcode": "EC2Y 5AG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 9, ROMAN HOUSE, WOOD STREET"
-    },
-    {
       "price": 3675000,
       "date": "2026-01-07",
       "postcode": "EC4R 3TE",
@@ -112,6 +157,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "22, COUSIN LANE"
+    },
+    {
+      "price": 665000,
+      "date": "2026-01-07",
+      "postcode": "EC2Y 5AG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 9, ROMAN HOUSE, WOOD STREET"
     },
     {
       "price": 955000,
@@ -139,60 +193,6 @@
       "newBuild": false,
       "tenure": "L",
       "address": "FLAT 91, SPEED HOUSE, BARBICAN"
-    },
-    {
-      "price": 878580,
-      "date": "2025-12-15",
-      "postcode": "EC4V 5EG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, CATHEDRAL COURT, 68, CARTER LANE"
-    },
-    {
-      "price": 500000,
-      "date": "2025-12-15",
-      "postcode": "EC1A 9LS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 703, 10, HOSIER LANE"
-    },
-    {
-      "price": 2150000,
-      "date": "2025-12-11",
-      "postcode": "EC2Y 8HD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "801, FROBISHER CRESCENT"
-    },
-    {
-      "price": 600000,
-      "date": "2025-12-11",
-      "postcode": "EC1Y 0RB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 27, CUTHBERT HARROWING HOUSE, GOLDEN LANE ESTATE"
-    },
-    {
-      "price": 565000,
-      "date": "2025-12-10",
-      "postcode": "EC2Y 8AH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 12, THE COBALT BUILDING, 10 - 15, BRIDGEWATER SQUARE"
-    },
-    {
-      "price": 745000,
-      "date": "2025-12-09",
-      "postcode": "EC2Y 8NQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 316, BEN JONSON HOUSE, BARBICAN"
     }
   ]
 }

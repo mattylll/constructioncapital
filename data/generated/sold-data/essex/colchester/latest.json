@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.748Z",
+  "updatedAt": "2026-05-18T19:24:08.282Z",
   "townSlug": "colchester",
   "countySlug": "essex",
   "stats": {
-    "medianPrice": 315000,
+    "medianPrice": 316500,
     "medianByType": {
       "D": 450000,
       "S": 325000,
       "T": 270000,
-      "F": 171750
+      "F": 170000
     },
-    "transactionCount12m": 2055,
-    "yoyChange": -1.6,
-    "newBuildCount": 65,
-    "existingCount": 1990,
-    "newBuildPremium": 27
+    "transactionCount12m": 2192,
+    "yoyChange": -1.1,
+    "newBuildCount": 64,
+    "existingCount": 2128,
+    "newBuildPremium": 30.2
   },
   "recentTransactions": [
     {
-      "price": 240000,
-      "date": "2026-02-26",
-      "postcode": "CO2 8XG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, FRIDAY WOOD GREEN"
-    },
-    {
-      "price": 140000,
-      "date": "2026-02-24",
-      "postcode": "CO1 2SZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, GREENSTEAD ROAD"
-    },
-    {
-      "price": 205000,
-      "date": "2026-02-23",
-      "postcode": "CO2 7NU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, ROWNTREE COURT, 1, LONDINIUM ROAD"
-    },
-    {
-      "price": 315000,
-      "date": "2026-02-20",
-      "postcode": "CO3 0QY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, WODEN AVENUE"
-    },
-    {
-      "price": 428000,
-      "date": "2026-02-20",
-      "postcode": "CO3 0QG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, WINSTREE ROAD"
-    },
-    {
-      "price": 217000,
-      "date": "2026-02-20",
-      "postcode": "CO2 7FG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "55, LAMBETH ROAD"
-    },
-    {
-      "price": 320000,
-      "date": "2026-02-20",
-      "postcode": "CO2 9GQ",
+      "price": 485000,
+      "date": "2026-03-27",
+      "postcode": "CO4 9FS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, CINDER STREET"
+      "address": "4, ASQUITH DRIVE"
     },
     {
-      "price": 380000,
-      "date": "2026-02-19",
-      "postcode": "CO4 6BR",
+      "price": 310000,
+      "date": "2026-03-26",
+      "postcode": "CO4 5AQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "74, WHITMORE DRIVE"
-    },
-    {
-      "price": 430000,
-      "date": "2026-02-18",
-      "postcode": "CO1 1UW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, CASTLE ROAD"
-    },
-    {
-      "price": 330000,
-      "date": "2026-02-18",
-      "postcode": "CO2 7LT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, BOURNE ROAD"
+      "address": "114, BERGHOLT ROAD"
     },
     {
       "price": 350000,
-      "date": "2026-02-17",
-      "postcode": "CO4 6DT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 60, STATION SQUARE, BERGHOLT ROAD"
-    },
-    {
-      "price": 680000,
-      "date": "2026-02-17",
-      "postcode": "CO6 1BJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, LONDON ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-02-16",
-      "postcode": "CO4 5BL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, DICKENSON ROAD"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-16",
-      "postcode": "CO2 8YD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, TARRAGONA MEWS"
-    },
-    {
-      "price": 245500,
-      "date": "2026-02-16",
-      "postcode": "CO1 2HZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, MORANT ROAD"
-    },
-    {
-      "price": 270000,
-      "date": "2026-02-16",
-      "postcode": "CO6 2AB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "IRALDENE, COLCHESTER ROAD"
-    },
-    {
-      "price": 336000,
-      "date": "2026-02-13",
-      "postcode": "CO3 8WQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, SANDMARTIN CRESCENT"
-    },
-    {
-      "price": 340000,
-      "date": "2026-02-13",
-      "postcode": "CO4 5DE",
+      "date": "2026-03-26",
+      "postcode": "CO5 0DW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "45, HUGH DICKSON ROAD"
+      "address": "25, CAROLINA WAY"
     },
     {
-      "price": 440000,
-      "date": "2026-02-13",
-      "postcode": "CO5 8SA",
+      "price": 775000,
+      "date": "2026-03-25",
+      "postcode": "CO7 6FE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "96, EAST ROAD"
+      "address": "15, SAUNDERS FIELD"
     },
     {
-      "price": 475000,
-      "date": "2026-02-13",
-      "postcode": "CO6 3HQ",
+      "price": 190000,
+      "date": "2026-03-24",
+      "postcode": "CO1 2LZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "137, BARRACK STREET"
+    },
+    {
+      "price": 362500,
+      "date": "2026-03-24",
+      "postcode": "CO6 1XB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, JUBILEE MEADOW"
+      "address": "47, KEABLE ROAD"
+    },
+    {
+      "price": 190000,
+      "date": "2026-03-23",
+      "postcode": "CO2 8XZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "55, BALLANTYNE DRIVE"
+    },
+    {
+      "price": 170000,
+      "date": "2026-03-20",
+      "postcode": "CO3 0RG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "53, WEYLAND DRIVE"
+    },
+    {
+      "price": 545000,
+      "date": "2026-03-20",
+      "postcode": "CO6 3NP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRIERSIDE, PLUMMERS ROAD"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-20",
+      "postcode": "CO2 9FZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, TROWEL PLACE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-03-20",
+      "postcode": "CO3 8AS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, OSTRICH STREET"
+    },
+    {
+      "price": 315500,
+      "date": "2026-03-20",
+      "postcode": "CO6 1LE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, BURY CLOSE"
+    },
+    {
+      "price": 110000,
+      "date": "2026-03-19",
+      "postcode": "CO1 1BQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 16, STUART HOUSE, ST PETERS STREET"
+    },
+    {
+      "price": 85000,
+      "date": "2026-03-17",
+      "postcode": "CO3 3FF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, SALTER COURT, ST MARYS FIELDS"
+    },
+    {
+      "price": 310000,
+      "date": "2026-03-17",
+      "postcode": "CO3 0RU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, ROSE AVENUE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-03-17",
+      "postcode": "CO4 9RR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, BERKLEY CLOSE"
+    },
+    {
+      "price": 360000,
+      "date": "2026-03-16",
+      "postcode": "CO3 3HL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, KEBLE CLOSE"
+    },
+    {
+      "price": 445000,
+      "date": "2026-03-16",
+      "postcode": "CO7 9SJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WILSON CLOSE"
+    },
+    {
+      "price": 460000,
+      "date": "2026-03-13",
+      "postcode": "CO4 9AN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, ERNEST FANCY LANE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-13",
+      "postcode": "CO5 7JQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, MARSH CRESCENT"
     }
   ]
 }

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.102Z",
+  "updatedAt": "2026-05-18T19:24:08.649Z",
   "townSlug": "matlock",
   "countySlug": "derbyshire",
   "stats": {
-    "medianPrice": 313000,
+    "medianPrice": 315000,
     "medianByType": {
-      "D": 450000,
+      "D": 460000,
       "S": 275000,
-      "T": 240000,
+      "T": 235000,
       "F": 200000
     },
-    "transactionCount12m": 709,
-    "yoyChange": -2.2,
-    "newBuildCount": 14,
-    "existingCount": 695,
-    "newBuildPremium": -11
+    "transactionCount12m": 780,
+    "yoyChange": 0,
+    "newBuildCount": 8,
+    "existingCount": 772,
+    "newBuildPremium": 19
   },
   "recentTransactions": [
     {
-      "price": 500000,
-      "date": "2026-02-20",
-      "postcode": "DE6 1TG",
+      "price": 455000,
+      "date": "2026-03-27",
+      "postcode": "",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, HERMITAGE CLOSE"
+      "address": "MILLFIELD"
     },
     {
-      "price": 657500,
-      "date": "2026-02-20",
-      "postcode": "DE6 5NS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HIGHCROFT, LOWER STREET"
-    },
-    {
-      "price": 291000,
-      "date": "2026-02-20",
-      "postcode": "DE4 3JQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "98, JACKSON ROAD"
-    },
-    {
-      "price": 382500,
-      "date": "2026-02-20",
-      "postcode": "DE45 1DH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, UNDERCLIFFE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-02-18",
-      "postcode": "DE4 3TA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, PROSPECT DRIVE"
-    },
-    {
-      "price": 287000,
-      "date": "2026-02-18",
-      "postcode": "DE4 3GS",
+      "price": 133000,
+      "date": "2026-03-23",
+      "postcode": "DE4 2AA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, WELLINGTON STREET"
+      "address": "51, YEOMAN STREET"
     },
     {
-      "price": 180000,
-      "date": "2026-02-16",
-      "postcode": "DE4 4AD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WEST VIEW, GORSEY BANK"
-    },
-    {
-      "price": 210000,
-      "date": "2026-02-13",
-      "postcode": "DE4 3JN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, HOPEWELL ROAD"
-    },
-    {
-      "price": 310000,
-      "date": "2026-02-13",
-      "postcode": "DE4 3GF",
+      "price": 850000,
+      "date": "2026-03-20",
+      "postcode": "DE6 1BD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, BENTLEY CLOSE"
+      "address": "94, BELPER ROAD"
     },
     {
-      "price": 327500,
-      "date": "2026-02-13",
-      "postcode": "DE4 3BF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, KNOWLESTON HOUSE, MATLOCK GREEN"
-    },
-    {
-      "price": 450000,
-      "date": "2026-02-12",
-      "postcode": "DE4 3TE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, MEGDALE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-02-12",
-      "postcode": "DE45 1FX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, YELD CLOSE"
-    },
-    {
-      "price": 462000,
-      "date": "2026-02-12",
-      "postcode": "DE6 1TP",
+      "price": 435000,
+      "date": "2026-03-20",
+      "postcode": "DE6 5JY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, ELLEBY PLACE"
+      "address": "RYEFIELDS, CHAPEL GREEN"
     },
     {
-      "price": 335000,
-      "date": "2026-02-11",
-      "postcode": "DE4 3SB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, MORLEDGE"
-    },
-    {
-      "price": 540000,
-      "date": "2026-02-11",
-      "postcode": "DE6 1PT",
+      "price": 685000,
+      "date": "2026-03-20",
+      "postcode": "DE6 1JP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "EVERSON, MILLS CROFT"
+      "address": "HIGH CROFT, CHAPEL LANE"
     },
     {
-      "price": 185000,
-      "date": "2026-02-11",
-      "postcode": "DE4 3SQ",
-      "propertyType": "T",
+      "price": 245000,
+      "date": "2026-03-19",
+      "postcode": "DE6 2FN",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "63, VICTORIA HALL GARDENS"
+      "address": "14, WESTON BANK"
     },
     {
-      "price": 175000,
-      "date": "2026-02-09",
-      "postcode": "DE4 3BT",
+      "price": 413000,
+      "date": "2026-03-18",
+      "postcode": "DE45 1BG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "COPPICE, BURTON CLOSE DRIVE"
+    },
+    {
+      "price": 442000,
+      "date": "2026-03-16",
+      "postcode": "DE6 2DH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HIGHFIELDS, CLIFTON ROAD"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-16",
+      "postcode": "DE6 1TJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, HARLOW WAY"
+    },
+    {
+      "price": 130000,
+      "date": "2026-03-13",
+      "postcode": "DE4 3DP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "6, TAWNEY HOUSE, MATLOCK GREEN"
+      "address": "53, STEEP TURNPIKE"
     },
     {
-      "price": 249999,
-      "date": "2026-02-06",
-      "postcode": "DE6 5PL",
+      "price": 235000,
+      "date": "2026-03-13",
+      "postcode": "DE4 2FT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHURCH VIEW, DALE ROAD NORTH"
+    },
+    {
+      "price": 194000,
+      "date": "2026-03-13",
+      "postcode": "DE4 5FR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, WESLEY CLOSE"
+      "address": "2, BROOKSIDE COTTAGES, NOTTINGHAM ROAD"
     },
     {
-      "price": 385000,
-      "date": "2026-02-06",
-      "postcode": "DE4 2BZ",
-      "propertyType": "S",
+      "price": 1000000,
+      "date": "2026-03-10",
+      "postcode": "S32 1DD",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, ODDO COTTAGES, WEST END"
+      "address": "LITTLE JOHN HOTEL, STATION ROAD"
     },
     {
-      "price": 1200000,
-      "date": "2026-02-06",
-      "postcode": "DE4 2HE",
+      "price": 132000,
+      "date": "2026-03-09",
+      "postcode": "DE6 1BZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, TAYLOR COURT"
+    },
+    {
+      "price": 650000,
+      "date": "2026-03-09",
+      "postcode": "DE6 3JW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "HALLMOOR, LONG HILL"
+      "address": "CRYSTAL SPRINGS, NETHER LANE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-03-09",
+      "postcode": "DE4 3LH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "261, SMEDLEY STREET"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-06",
+      "postcode": "DE4 2JY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, OKER VIEW, MAIN ROAD"
+    },
+    {
+      "price": 525000,
+      "date": "2026-03-06",
+      "postcode": "DE4 3NL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, IMPERIAL ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-06",
+      "postcode": "DE4 5NG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, LUMSDALE ROAD"
+    },
+    {
+      "price": 130000,
+      "date": "2026-03-06",
+      "postcode": "DE4 2GS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "34, LIME GROVE"
     }
   ]
 }

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.342Z",
+  "updatedAt": "2026-05-18T19:24:08.908Z",
   "townSlug": "chester",
   "countySlug": "cheshire",
   "stats": {
     "medianPrice": 275000,
     "medianByType": {
-      "D": 435000,
-      "S": 295000,
-      "T": 235000,
-      "F": 155500
+      "D": 428750,
+      "S": 300000,
+      "T": 235750,
+      "F": 155000
     },
-    "transactionCount12m": 1323,
-    "yoyChange": -1.8,
+    "transactionCount12m": 1423,
+    "yoyChange": -0.3,
     "newBuildCount": 10,
-    "existingCount": 1313,
-    "newBuildPremium": 51.5
+    "existingCount": 1413,
+    "newBuildPremium": 67.3
   },
   "recentTransactions": [
     {
-      "price": 205000,
-      "date": "2026-02-27",
-      "postcode": "CH2 1BG",
+      "price": 374500,
+      "date": "2026-03-27",
+      "postcode": "CH3 7PQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, FOX LANE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-27",
+      "postcode": "CH2 2PH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, ETHELDA DRIVE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-03-26",
+      "postcode": "CH3 6PH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WILLOW COTTAGE, CREWE LANE SOUTH"
+    },
+    {
+      "price": 250000,
+      "date": "2026-03-24",
+      "postcode": "CH2 4LA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, ANVIL CLOSE"
+    },
+    {
+      "price": 435000,
+      "date": "2026-03-24",
+      "postcode": "CH2 2DJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, DAWPOOL CLOSE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-03-23",
+      "postcode": "CH3 8JB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "96, HIGH STREET"
+    },
+    {
+      "price": 490000,
+      "date": "2026-03-20",
+      "postcode": "CH2 3QP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, SANDILEIGH"
+    },
+    {
+      "price": 285000,
+      "date": "2026-03-20",
+      "postcode": "CH1 3DP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "139, UPTON GRANGE"
+      "address": "FLAT 46, BOWLING GREEN COURT, BROOK STREET"
     },
     {
-      "price": 162500,
-      "date": "2026-02-20",
-      "postcode": "CH1 2NW",
-      "propertyType": "F",
+      "price": 409750,
+      "date": "2026-03-20",
+      "postcode": "CW6 0GF",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "1, GREYFRIARS HOUSE, GREYFRIARS"
+      "tenure": "F",
+      "address": "9, OSWALDS WAY"
     },
     {
-      "price": 325000,
-      "date": "2026-02-20",
-      "postcode": "CH3 9PW",
+      "price": 425000,
+      "date": "2026-03-20",
+      "postcode": "CH3 8LN",
       "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "21, FLACCA COURT"
+      "tenure": "F",
+      "address": "6, ANDREWS CLOSE"
     },
     {
-      "price": 100000,
-      "date": "2026-02-18",
-      "postcode": "CH1 1AB",
+      "price": 126000,
+      "date": "2026-03-20",
+      "postcode": "CH1 3JD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 2, FOREST COURT, UNION STREET"
+      "address": "22, CHURCH STREET"
     },
     {
-      "price": 432500,
-      "date": "2026-02-17",
+      "price": 212000,
+      "date": "2026-03-20",
+      "postcode": "CH2 1PQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, NEWTON HALL DRIVE"
+    },
+    {
+      "price": 545000,
+      "date": "2026-03-18",
+      "postcode": "CH4 8AT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CURZON CLOSE"
+    },
+    {
+      "price": 375000,
+      "date": "2026-03-18",
+      "postcode": "CH3 8HA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, BROOM CRESCENT"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-18",
+      "postcode": "CH2 3DG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "58, WHARTON COURT"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-17",
       "postcode": "CH3 7NN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "61, RINGWAY"
+      "address": "31, RINGWAY"
     },
     {
-      "price": 250000,
-      "date": "2026-02-16",
-      "postcode": "CH4 8BL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, CHESTER STREET"
-    },
-    {
-      "price": 350000,
-      "date": "2026-02-16",
-      "postcode": "CH3 9QA",
+      "price": 155000,
+      "date": "2026-03-16",
+      "postcode": "CH3 6RR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, BELGRAVE COTTAGES, HIGH STREET"
+      "address": "20, BLUEBELL CLOSE"
     },
     {
-      "price": 375000,
-      "date": "2026-02-13",
-      "postcode": "CH4 7FA",
-      "propertyType": "D",
+      "price": 245000,
+      "date": "2026-03-16",
+      "postcode": "CH2 2PT",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, DEVANA GARDENS"
+      "address": "3, WINDERMERE AVENUE"
+    },
+    {
+      "price": 405000,
+      "date": "2026-03-13",
+      "postcode": "CH4 8HS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, LACHE PARK AVENUE"
     },
     {
       "price": 325000,
-      "date": "2026-02-13",
-      "postcode": "CH3 8BZ",
+      "date": "2026-03-13",
+      "postcode": "CH3 8LG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, BROOKSIDE"
-    },
-    {
-      "price": 167000,
-      "date": "2026-02-13",
-      "postcode": "CH2 3BP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "21, SIGNAL COURT"
-    },
-    {
-      "price": 330000,
-      "date": "2026-02-12",
-      "postcode": "CH3 8LL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, HALLFIELDS ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-12",
-      "postcode": "CH3 5LN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, OLDFIELD DRIVE"
-    },
-    {
-      "price": 430000,
-      "date": "2026-02-12",
-      "postcode": "CH2 4DB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GROVE FARM, RAKE LANE"
-    },
-    {
-      "price": 685000,
-      "date": "2026-02-12",
-      "postcode": "CH2 1EY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, WARREN LANE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-02-11",
-      "postcode": "CH3 5JU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, JAMIESON CLOSE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-02-10",
-      "postcode": "CH3 5HZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, GEORGE CLOSE"
-    },
-    {
-      "price": 243000,
-      "date": "2026-02-10",
-      "postcode": "CH3 8JE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CORONATION VILLAS"
-    },
-    {
-      "price": 307000,
-      "date": "2026-02-10",
-      "postcode": "CH3 5LS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, BRIDGEWATER DRIVE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-02-09",
-      "postcode": "CH3 8DD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, BOOTH AVENUE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-02-09",
-      "postcode": "CH3 5AY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, BEACONSFIELD STREET"
+      "address": "10, CROSSFIELDS"
     }
   ]
 }

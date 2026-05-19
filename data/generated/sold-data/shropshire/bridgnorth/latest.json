@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.082Z",
+  "updatedAt": "2026-05-18T19:24:08.630Z",
   "townSlug": "bridgnorth",
   "countySlug": "shropshire",
   "stats": {
-    "medianPrice": 266250,
+    "medianPrice": 263000,
     "medianByType": {
-      "D": 390000,
-      "S": 267500,
-      "T": 220000,
-      "F": 150000
+      "D": 375000,
+      "S": 261000,
+      "T": 225000,
+      "F": 140000
     },
-    "transactionCount12m": 216,
-    "yoyChange": -1.4,
+    "transactionCount12m": 244,
+    "yoyChange": -2.6,
     "newBuildCount": 0,
-    "existingCount": 216,
-    "newBuildPremium": -100
+    "existingCount": 244,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 240000,
-      "date": "2026-02-16",
-      "postcode": "WV16 4EP",
+      "price": 190000,
+      "date": "2026-03-27",
+      "postcode": "WV15 5BP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, MOAT STREET"
+      "address": "22, THE MALL"
     },
     {
-      "price": 118000,
-      "date": "2026-02-13",
-      "postcode": "WV16 6HW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "29, ASH STREET"
-    },
-    {
-      "price": 345000,
-      "date": "2026-02-13",
-      "postcode": "WV16 4RT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, LINLEY VIEW DRIVE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-02-13",
-      "postcode": "WV15 5BS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, GROVE CRESCENT"
-    },
-    {
-      "price": 185000,
-      "date": "2026-02-06",
-      "postcode": "WV16 4DZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, ST MARYS COURT"
-    },
-    {
-      "price": 410000,
-      "date": "2026-02-06",
-      "postcode": "WV16 4SQ",
+      "price": 338000,
+      "date": "2026-03-23",
+      "postcode": "WV15 6PB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, BRAMBLE RIDGE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-02-04",
-      "postcode": "WV16 5AN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, LUDLOW HEIGHTS"
+      "address": "47, GREENWAY AVENUE"
     },
     {
       "price": 95000,
-      "date": "2026-02-02",
+      "date": "2026-03-20",
+      "postcode": "WV16 5BR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "49, TALBOT COURT, SALOP STREET"
+    },
+    {
+      "price": 272500,
+      "date": "2026-03-20",
+      "postcode": "WV16 5AZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, WENLOCK ROAD"
+    },
+    {
+      "price": 295000,
+      "date": "2026-03-19",
+      "postcode": "WV15 6PD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, MEADOWBROOK CLOSE"
+    },
+    {
+      "price": 345000,
+      "date": "2026-03-13",
+      "postcode": "WV16 4EY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, CLIFF ROAD"
+    },
+    {
+      "price": 615000,
+      "date": "2026-03-13",
+      "postcode": "WV16 4SE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CANTERN"
+    },
+    {
+      "price": 260000,
+      "date": "2026-03-13",
+      "postcode": "WV16 4AW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, LISTLEY STREET"
+    },
+    {
+      "price": 295000,
+      "date": "2026-03-13",
+      "postcode": "WV15 5DS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, PINEWAY"
+    },
+    {
+      "price": 70000,
+      "date": "2026-03-10",
+      "postcode": "WV16 4DA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, FARTHINGS COURT, KINGS LOADE"
+    },
+    {
+      "price": 95000,
+      "date": "2026-03-09",
       "postcode": "WV16 4SD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "36, HOOK FARM ROAD"
+      "address": "44A, HOOK FARM ROAD"
     },
     {
-      "price": 1100000,
-      "date": "2026-01-30",
-      "postcode": "WV16 6PW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WALNUT TREE COTTAGE, 4, MIDWINTERS"
-    },
-    {
-      "price": 1250000,
-      "date": "2026-01-30",
-      "postcode": "WV16 5NB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE OLD VICARAGE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-01-30",
-      "postcode": "WV15 6BB",
+      "price": 178000,
+      "date": "2026-03-06",
+      "postcode": "WV15 5BP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "38, SEVERN STREET"
+      "address": "23, THE MALL"
     },
     {
-      "price": 300000,
-      "date": "2026-01-30",
-      "postcode": "WV16 6UG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, ST GILES TERRACE"
-    },
-    {
-      "price": 840000,
-      "date": "2026-01-29",
-      "postcode": "WV16 5JT",
+      "price": 310000,
+      "date": "2026-03-06",
+      "postcode": "WV15 6BN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE MILL HOUSE, 1, GRANGE FARM COURT"
-    },
-    {
-      "price": 239950,
-      "date": "2026-01-29",
-      "postcode": "WV16 4NR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, RACECOURSE DRIVE"
-    },
-    {
-      "price": 147500,
-      "date": "2026-01-28",
-      "postcode": "WV16 6JJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, ORCHARD SQUARE"
+      "address": "9, ST JAMES DRIVE"
     },
     {
       "price": 175000,
-      "date": "2026-01-26",
-      "postcode": "WV15 6AR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "20, GREYFRIARS HOUSE, KINGS COURT"
-    },
-    {
-      "price": 180000,
-      "date": "2026-01-23",
-      "postcode": "WV15 6DF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, DANESBRIDGE"
-    },
-    {
-      "price": 267500,
-      "date": "2026-01-16",
-      "postcode": "WV15 6NR",
+      "date": "2026-03-05",
+      "postcode": "WV16 6DP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "45, ARDEN WAY"
+      "address": "14, HOLLYWOOD DRIVE"
     },
     {
-      "price": 276000,
-      "date": "2026-01-09",
-      "postcode": "WV16 4EJ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE OLD GRAMMAR SCHOOL, ST LEONARDS CLOSE"
-    },
-    {
-      "price": 148000,
-      "date": "2026-01-09",
-      "postcode": "WV16 6JF",
+      "price": 350000,
+      "date": "2026-03-04",
+      "postcode": "WV16 6AT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, HILLCREST, HIGH STREET"
+      "address": "1, ASTBURY FARM COTTAGES, ASTBURY"
+    },
+    {
+      "price": 150000,
+      "date": "2026-03-02",
+      "postcode": "WV16 6NU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, TOP FIELD, SEVERNSIDE"
+    },
+    {
+      "price": 253485,
+      "date": "2026-03-02",
+      "postcode": "WV16 5HZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, CAPTAINS ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-02-27",
+      "postcode": "WV16 4PT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, WOODBERRY CLOSE"
+    },
+    {
+      "price": 458000,
+      "date": "2026-02-27",
+      "postcode": "WV16 5PG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ASHCROFT"
+    },
+    {
+      "price": 280000,
+      "date": "2026-02-27",
+      "postcode": "WV16 4PJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, BEECH ROAD"
     }
   ]
 }

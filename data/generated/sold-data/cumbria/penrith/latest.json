@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.542Z",
+  "updatedAt": "2026-05-18T19:24:08.942Z",
   "townSlug": "penrith",
   "countySlug": "cumbria",
   "stats": {
     "medianPrice": 235000,
     "medianByType": {
-      "D": 355000,
-      "S": 230500,
-      "T": 173000,
+      "D": 362500,
+      "S": 230000,
+      "T": 172000,
       "F": 122000
     },
-    "transactionCount12m": 443,
-    "yoyChange": -8.7,
-    "newBuildCount": 15,
-    "existingCount": 428,
-    "newBuildPremium": -7.7
+    "transactionCount12m": 479,
+    "yoyChange": -9.6,
+    "newBuildCount": 10,
+    "existingCount": 469,
+    "newBuildPremium": 1.6
   },
   "recentTransactions": [
     {
-      "price": 175000,
-      "date": "2026-02-27",
-      "postcode": "CA11 7ND",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, WATSON TERRACE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-24",
-      "postcode": "CA11 8BB",
+      "price": 80000,
+      "date": "2026-03-27",
+      "postcode": "CA11 7YJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "30, SAND CROFT"
+      "address": "9, HUTTON COURT, BENSON ROW"
     },
     {
-      "price": 295000,
-      "date": "2026-02-20",
-      "postcode": "CA11 7JY",
-      "propertyType": "S",
+      "price": 360000,
+      "date": "2026-03-26",
+      "postcode": "CA11 7LR",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, ELM TERRACE"
+      "address": "22, BRUNSWICK SQUARE"
     },
     {
-      "price": 270000,
-      "date": "2026-02-20",
-      "postcode": "CA11 9RU",
-      "propertyType": "S",
+      "price": 165000,
+      "date": "2026-03-25",
+      "postcode": "CA11 7NY",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, AIKBANK COTTAGES"
+      "address": "25, LARK FIELD"
     },
     {
-      "price": 230000,
-      "date": "2026-02-20",
-      "postcode": "CA11 9BS",
-      "propertyType": "D",
+      "price": 125000,
+      "date": "2026-03-18",
+      "postcode": "CA11 7JD",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, WINDSOR DRIVE"
+      "address": "37, CASTLEGATE"
     },
     {
       "price": 180000,
-      "date": "2026-02-19",
-      "postcode": "CA10 1TX",
+      "date": "2026-03-17",
+      "postcode": "CA11 7XF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, QUEEN STREET"
+    },
+    {
+      "price": 230000,
+      "date": "2026-03-16",
+      "postcode": "CA10 3AU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, PENNINE VIEW"
+      "address": "32, JACKSON CROFT"
     },
     {
-      "price": 270000,
-      "date": "2026-02-17",
-      "postcode": "CA10 3DF",
+      "price": 172000,
+      "date": "2026-03-13",
+      "postcode": "CA11 7NY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, LARK FIELD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-03-13",
+      "postcode": "CA11 9HA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "TRENTHAM COTTAGE"
+      "address": "20, CANNY CROFT"
     },
     {
-      "price": 245000,
-      "date": "2026-02-13",
-      "postcode": "CA11 8FE",
+      "price": 300000,
+      "date": "2026-03-13",
+      "postcode": "CA11 0DB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE ALDERS"
+    },
+    {
+      "price": 169500,
+      "date": "2026-03-13",
+      "postcode": "CA10 3SS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SCAR VIEW"
+    },
+    {
+      "price": 106000,
+      "date": "2026-03-12",
+      "postcode": "CA10 3TL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "58, CROCUS AVENUE"
+      "address": "BANK VIEW, ORTON ROAD"
     },
     {
-      "price": 195000,
-      "date": "2026-02-06",
-      "postcode": "CA10 3SL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, CHURCH RISE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-02-06",
-      "postcode": "CA11 8TX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, FRENCHFIELD GARDENS"
-    },
-    {
-      "price": 190000,
-      "date": "2026-02-06",
-      "postcode": "CA11 8HE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, MILNER MOUNT"
-    },
-    {
-      "price": 595000,
-      "date": "2026-02-04",
-      "postcode": "CA11 8EY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, COLD SPRINGS PARK"
-    },
-    {
-      "price": 57000,
-      "date": "2026-02-02",
-      "postcode": "CA11 7TA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, BURROWGATE"
-    },
-    {
-      "price": 184000,
-      "date": "2026-02-02",
-      "postcode": "CA11 9AL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CHERRY LEA, ALEXANDRA ROAD"
-    },
-    {
-      "price": 92000,
-      "date": "2026-02-02",
+      "price": 80000,
+      "date": "2026-03-11",
       "postcode": "CA11 8GW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 54, WOODLANDS, BRIDGE LANE"
+      "address": "FLAT 43, WOODLANDS, BRIDGE LANE"
     },
     {
-      "price": 288000,
-      "date": "2026-01-30",
-      "postcode": "CA11 8TN",
+      "price": 195500,
+      "date": "2026-03-06",
+      "postcode": "CA11 7DT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, BIRCH CRESCENT"
+      "address": "11, WARWICK PLACE"
     },
     {
-      "price": 240000,
-      "date": "2026-01-27",
-      "postcode": "CA11 0UF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, PARK ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-01-27",
-      "postcode": "CA11 8BB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "22, SAND CROFT"
-    },
-    {
-      "price": 382500,
-      "date": "2026-01-27",
-      "postcode": "CA10 3HN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WEIR HOUSE"
-    },
-    {
-      "price": 145000,
-      "date": "2026-01-27",
-      "postcode": "CA11 8JL",
+      "price": 189000,
+      "date": "2026-03-06",
+      "postcode": "CA11 9LY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, OLD LONDON ROAD"
+      "address": "4, EDEN CLOSE"
+    },
+    {
+      "price": 281500,
+      "date": "2026-03-06",
+      "postcode": "CA11 0TU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, HOWARD PARK"
+    },
+    {
+      "price": 220000,
+      "date": "2026-03-06",
+      "postcode": "CA11 9BE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, NORFOLK PLACE"
+    },
+    {
+      "price": 240000,
+      "date": "2026-03-06",
+      "postcode": "CA11 8AJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, BEACON SQUARE"
+    },
+    {
+      "price": 178000,
+      "date": "2026-03-06",
+      "postcode": "CA11 7JF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, TUDOR COURT, BRUNSWICK TERRACE"
+    },
+    {
+      "price": 314000,
+      "date": "2026-03-06",
+      "postcode": "CA11 0EE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FAIRBANK"
+    },
+    {
+      "price": 155000,
+      "date": "2026-03-02",
+      "postcode": "CA11 8DA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, FRIARS CLOSE"
     }
   ]
 }

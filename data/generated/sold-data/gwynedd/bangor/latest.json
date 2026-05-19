@@ -1,22 +1,130 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.980Z",
+  "updatedAt": "2026-05-18T19:24:09.373Z",
   "townSlug": "bangor",
   "countySlug": "gwynedd",
   "stats": {
-    "medianPrice": 192500,
+    "medianPrice": 192000,
     "medianByType": {
       "D": 325000,
-      "S": 225000,
+      "S": 232500,
       "T": 148000,
-      "F": 86000
+      "F": 90000
     },
-    "transactionCount12m": 201,
-    "yoyChange": 10,
+    "transactionCount12m": 221,
+    "yoyChange": 12.9,
     "newBuildCount": 0,
-    "existingCount": 201,
-    "newBuildPremium": -100
+    "existingCount": 221,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 185000,
+      "date": "2026-03-24",
+      "postcode": "LL57 3RD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, BRAICHMELYN"
+    },
+    {
+      "price": 114000,
+      "date": "2026-03-24",
+      "postcode": "LL57 3EU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, WATER STREET"
+    },
+    {
+      "price": 170000,
+      "date": "2026-03-19",
+      "postcode": "LL57 1BB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, FRIARS AVENUE"
+    },
+    {
+      "price": 162500,
+      "date": "2026-03-19",
+      "postcode": "LL57 3TS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, GORONWY STREET NUMBER ONE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-03-19",
+      "postcode": "LL57 4RA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ISCOED, CRAIG Y PANDY"
+    },
+    {
+      "price": 297500,
+      "date": "2026-03-12",
+      "postcode": "LL57 2UP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GLYN CERIS, DEINIOL ROAD"
+    },
+    {
+      "price": 157500,
+      "date": "2026-03-11",
+      "postcode": "LL57 2YT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, ORME TERRACE"
+    },
+    {
+      "price": 122500,
+      "date": "2026-03-06",
+      "postcode": "LL57 4AS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, BRO SYR IFOR"
+    },
+    {
+      "price": 140000,
+      "date": "2026-03-03",
+      "postcode": "LL57 2SZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "16, Y BAE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-03-02",
+      "postcode": "LL57 1AQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, PENLON GARDENS"
+    },
+    {
+      "price": 138000,
+      "date": "2026-02-27",
+      "postcode": "LL57 1BH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, AMBROSE STREET"
+    },
+    {
+      "price": 100000,
+      "date": "2026-02-25",
+      "postcode": "LL57 2YJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, AINON CLOSE"
+    },
     {
       "price": 425000,
       "date": "2026-02-23",
@@ -36,13 +144,31 @@
       "address": "18, YSTAD COETMOR"
     },
     {
-      "price": 242500,
-      "date": "2026-02-17",
+      "price": 260000,
+      "date": "2026-02-20",
+      "postcode": "LL57 4RR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, BRO DERFEL"
+    },
+    {
+      "price": 190000,
+      "date": "2026-02-18",
       "postcode": "LL57 4EW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, CAEAU GLEISION"
+      "address": "40, CAEAU GLEISION"
+    },
+    {
+      "price": 205000,
+      "date": "2026-02-18",
+      "postcode": "LL57 4UH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MOUNT PLEASANT"
     },
     {
       "price": 475000,
@@ -54,148 +180,22 @@
       "address": "TY GWYN, HIGH STREET"
     },
     {
-      "price": 170000,
-      "date": "2026-02-13",
-      "postcode": "LL57 4TE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, TREHWFA"
-    },
-    {
-      "price": 290000,
-      "date": "2026-02-13",
-      "postcode": "LL57 2QA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, CILFACH CRWYS"
-    },
-    {
-      "price": 148000,
-      "date": "2026-02-09",
-      "postcode": "LL57 4SY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, BRYN HEULOG TERRACE"
-    },
-    {
-      "price": 380000,
-      "date": "2026-02-06",
-      "postcode": "LL57 4DA",
+      "price": 378000,
+      "date": "2026-02-17",
+      "postcode": "LL57 3YS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "ISGRAIG, CYTTIR LANE"
+      "address": "1, BRO EMRYS"
     },
     {
-      "price": 257000,
-      "date": "2026-02-06",
-      "postcode": "LL57 4AH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, TANRHIW ROAD"
-    },
-    {
-      "price": 182025,
-      "date": "2026-02-06",
-      "postcode": "LL57 4DZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FLAT, YR HEN BOST, HERMON ROAD"
-    },
-    {
-      "price": 135000,
-      "date": "2026-02-05",
-      "postcode": "LL57 3RD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, BRAICHMELYN"
-    },
-    {
-      "price": 220000,
-      "date": "2026-02-04",
-      "postcode": "LL57 4AU",
+      "price": 242500,
+      "date": "2026-02-17",
+      "postcode": "LL57 4EW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE STORE"
-    },
-    {
-      "price": 267500,
-      "date": "2026-02-02",
-      "postcode": "LL57 2DS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CAEMAES LODWIG"
-    },
-    {
-      "price": 162500,
-      "date": "2026-01-30",
-      "postcode": "LL57 1NR",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, HIGH STREET"
-    },
-    {
-      "price": 220000,
-      "date": "2026-01-26",
-      "postcode": "LL57 3EU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, WATER STREET"
-    },
-    {
-      "price": 135000,
-      "date": "2026-01-23",
-      "postcode": "LL57 1AU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "93, ORME ROAD"
-    },
-    {
-      "price": 225000,
-      "date": "2026-01-21",
-      "postcode": "LL57 2DL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, RHOSFRYN"
-    },
-    {
-      "price": 220000,
-      "date": "2026-01-15",
-      "postcode": "LL57 2UP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HAFANEDD, DEINIOL ROAD"
-    },
-    {
-      "price": 259500,
-      "date": "2026-01-14",
-      "postcode": "LL57 4DR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, NANT COTTAGES"
-    },
-    {
-      "price": 560000,
-      "date": "2026-01-09",
-      "postcode": "LL57 2NX",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UNIT 2, TREBORTH BUSINESS PARK"
+      "address": "14, CAEAU GLEISION"
     }
   ]
 }

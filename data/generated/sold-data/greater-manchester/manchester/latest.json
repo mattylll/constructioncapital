@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.219Z",
+  "updatedAt": "2026-05-18T19:24:08.767Z",
   "townSlug": "manchester",
   "countySlug": "greater-manchester",
   "stats": {
-    "medianPrice": 242000,
+    "medianPrice": 245000,
     "medianByType": {
-      "D": 387975,
+      "D": 400000,
       "S": 300000,
-      "T": 233500,
-      "F": 205500
+      "T": 235000,
+      "F": 205000
     },
-    "transactionCount12m": 3979,
-    "yoyChange": -3.2,
-    "newBuildCount": 113,
-    "existingCount": 3866,
-    "newBuildPremium": 52.1
+    "transactionCount12m": 4223,
+    "yoyChange": -2,
+    "newBuildCount": 120,
+    "existingCount": 4103,
+    "newBuildPremium": 39.2
   },
   "recentTransactions": [
     {
-      "price": 575000,
-      "date": "2026-02-27",
-      "postcode": "M21 8XU",
-      "propertyType": "S",
+      "price": 256500,
+      "date": "2026-03-30",
+      "postcode": "M19 3EW",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, CLOVELLY ROAD"
+      "address": "30, HORNBEAM ROAD"
     },
     {
-      "price": 217500,
-      "date": "2026-02-27",
-      "postcode": "M20 3ZA",
+      "price": 195000,
+      "date": "2026-03-27",
+      "postcode": "M21 9HP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 4, PALATINE MANSIONS, 124 - 126, PALATINE ROAD"
+      "address": "FLAT 3, 8, YORK ROAD"
     },
     {
-      "price": 355800,
-      "date": "2026-02-27",
-      "postcode": "M21 7LA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, HARDY LANE"
-    },
-    {
-      "price": 317000,
-      "date": "2026-02-26",
-      "postcode": "M22 5WA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, EMERALD ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2026-02-24",
-      "postcode": "M13 0QN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, HECTOR ROAD"
-    },
-    {
-      "price": 356000,
-      "date": "2026-02-23",
-      "postcode": "M20 2HW",
+      "price": 188000,
+      "date": "2026-03-27",
+      "postcode": "M21 8DA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 6, SANDHURST HOUSE, 2, WALKERSHALL WAY"
+      "address": "FLAT 30, MEADE MANOR, CLAUDE ROAD"
     },
     {
-      "price": 600000,
-      "date": "2026-02-23",
-      "postcode": "M20 2GF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, DENE PARK"
-    },
-    {
-      "price": 210000,
-      "date": "2026-02-23",
-      "postcode": "M22 5HT",
+      "price": 450000,
+      "date": "2026-03-27",
+      "postcode": "M21 8TS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "99, HASLINGTON ROAD"
+      "address": "2, CLEVELEYS AVENUE"
     },
     {
-      "price": 569500,
-      "date": "2026-02-20",
-      "postcode": "M20 1LY",
+      "price": 205000,
+      "date": "2026-03-26",
+      "postcode": "M14 6RU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "183, GEORGIA AVENUE"
+      "address": "16, EDGEWORTH DRIVE"
     },
     {
-      "price": 242000,
-      "date": "2026-02-20",
-      "postcode": "M22 4GS",
+      "price": 312000,
+      "date": "2026-03-24",
+      "postcode": "M21 7WG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, ROTHERBY ROAD"
+      "address": "67, FLOYD AVENUE"
     },
     {
-      "price": 193000,
-      "date": "2026-02-20",
-      "postcode": "M18 8DQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "98, FURNIVAL ROAD"
-    },
-    {
-      "price": 257000,
-      "date": "2026-02-20",
-      "postcode": "M14 7BZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "294, PLATT LANE"
-    },
-    {
-      "price": 25000,
-      "date": "2026-02-20",
-      "postcode": "M21 0YJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, LAMBTON ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-02-20",
-      "postcode": "M22 5LU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, BROOKASH ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-02-19",
-      "postcode": "M15 4NZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 703, TIMBER WHARF, 32, WORSLEY STREET"
-    },
-    {
-      "price": 192000,
-      "date": "2026-02-19",
-      "postcode": "M14 4ND",
+      "price": 278000,
+      "date": "2026-03-23",
+      "postcode": "M19 2GU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "40, SALISBURY STREET"
+      "address": "6, LIVESEY STREET"
     },
     {
-      "price": 270000,
-      "date": "2026-02-19",
+      "price": 287000,
+      "date": "2026-03-23",
       "postcode": "M1 2DS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 19, JUNCTION HOUSE, 16, JUTLAND STREET"
+      "address": "APARTMENT 18, JUNCTION HOUSE, 16, JUTLAND STREET"
     },
     {
-      "price": 140000,
-      "date": "2026-02-19",
-      "postcode": "M22 4UD",
+      "price": 120000,
+      "date": "2026-03-23",
+      "postcode": "M1 7EQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 7, CONISTON COURT, 2, DOWNES WAY"
+      "address": "13, LAMPORT COURT"
     },
     {
-      "price": 170000,
-      "date": "2026-02-19",
-      "postcode": "M1 7EP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 62, PRINCESS HOUSE, 144, PRINCESS STREET"
-    },
-    {
-      "price": 57000,
-      "date": "2026-02-19",
-      "postcode": "M19 1WJ",
+      "price": 211000,
+      "date": "2026-03-20",
+      "postcode": "M40 1PJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "74, MOORCROFT DRIVE"
+      "address": "3, ALBERT GARDENS"
+    },
+    {
+      "price": 395000,
+      "date": "2026-03-20",
+      "postcode": "M22 4ZR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "61, BRONINGTON CLOSE"
+    },
+    {
+      "price": 176500,
+      "date": "2026-03-20",
+      "postcode": "M40 1WU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, LORING STREET"
+    },
+    {
+      "price": 850000,
+      "date": "2026-03-20",
+      "postcode": "M23 9HF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "249, BROOKLANDS ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-03-20",
+      "postcode": "M15 5FX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4, DUNHAM STREET"
+    },
+    {
+      "price": 295000,
+      "date": "2026-03-20",
+      "postcode": "M40 7EJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "189, VARLEY STREET"
+    },
+    {
+      "price": 305000,
+      "date": "2026-03-20",
+      "postcode": "M4 6FD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, WEYBRIDGE ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-03-20",
+      "postcode": "M9 8LG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "104, TWEEDLE HILL ROAD"
+    },
+    {
+      "price": 125000,
+      "date": "2026-03-20",
+      "postcode": "M40 9NF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, PENN STREET"
+    },
+    {
+      "price": 245000,
+      "date": "2026-03-20",
+      "postcode": "M14 7JX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, PARKSIDE ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-03-19",
+      "postcode": "M1 2FW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT B906, OXYGEN TOWER, 50, STORE STREET"
     }
   ]
 }

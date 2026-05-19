@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.824Z",
+  "updatedAt": "2026-05-18T19:24:09.234Z",
   "townSlug": "bedford",
   "countySlug": "bedfordshire",
   "stats": {
-    "medianPrice": 338500,
+    "medianPrice": 335259,
     "medianByType": {
       "D": 485000,
       "S": 340000,
-      "T": 285000,
-      "F": 174500
+      "T": 281000,
+      "F": 175000
     },
-    "transactionCount12m": 1711,
-    "yoyChange": 0.3,
-    "newBuildCount": 120,
-    "existingCount": 1591,
-    "newBuildPremium": 23.2
+    "transactionCount12m": 1820,
+    "yoyChange": -1.4,
+    "newBuildCount": 114,
+    "existingCount": 1706,
+    "newBuildPremium": 22.9
   },
   "recentTransactions": [
     {
-      "price": 305000,
-      "date": "2026-02-24",
-      "postcode": "MK43 9FJ",
+      "price": 325000,
+      "date": "2026-03-27",
+      "postcode": "MK41 0DE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, ARTHUR BLACK WAY"
+      "address": "25, GOODRICH AVENUE"
     },
     {
-      "price": 410000,
-      "date": "2026-02-23",
-      "postcode": "MK40 4DF",
-      "propertyType": "S",
+      "price": 215000,
+      "date": "2026-03-27",
+      "postcode": "MK42 7FJ",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "28, CUTCLIFFE PLACE"
+      "tenure": "L",
+      "address": "73, MARTELL DRIVE"
     },
     {
-      "price": 440000,
-      "date": "2026-02-20",
-      "postcode": "MK42 7GS",
+      "price": 572000,
+      "date": "2026-03-26",
+      "postcode": "MK40 3BJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, FOVARGUE MEAD"
+      "address": "25, CLOVELLY WAY"
     },
     {
-      "price": 850000,
-      "date": "2026-02-18",
-      "postcode": "MK40 4AX",
+      "price": 295000,
+      "date": "2026-03-26",
+      "postcode": "MK43 7SS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "98, LINCROFT"
+    },
+    {
+      "price": 340000,
+      "date": "2026-03-26",
+      "postcode": "MK40 3RB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "103, BOWER STREET"
+    },
+    {
+      "price": 340000,
+      "date": "2026-03-23",
+      "postcode": "MK43 8JT",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, DARLOW DRIVE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-02-18",
-      "postcode": "MK42 9GL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, SANDLEFORD DRIVE"
-    },
-    {
-      "price": 177500,
-      "date": "2026-02-17",
-      "postcode": "MK40 2TW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, 32, DE PARYS AVENUE"
-    },
-    {
-      "price": 192500,
-      "date": "2026-02-16",
-      "postcode": "MK42 0GB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "51, ROCHESTER WAY"
-    },
-    {
-      "price": 330000,
-      "date": "2026-02-13",
-      "postcode": "MK43 7SH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, BEVERY CLOSE"
-    },
-    {
-      "price": 467500,
-      "date": "2026-02-13",
-      "postcode": "MK41 7EF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, TRENT ROAD"
-    },
-    {
-      "price": 270000,
-      "date": "2026-02-13",
-      "postcode": "MK41 7RE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, SALISBURY STREET"
-    },
-    {
-      "price": 285000,
-      "date": "2026-02-13",
-      "postcode": "MK41 8HT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, CHILLINGHAM GREEN"
-    },
-    {
-      "price": 326000,
-      "date": "2026-02-13",
-      "postcode": "MK41 7AY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, ALWEN WALK"
-    },
-    {
-      "price": 510000,
-      "date": "2026-02-13",
-      "postcode": "MK40 3DG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, RICHMOND ROAD"
-    },
-    {
-      "price": 210000,
-      "date": "2026-02-13",
-      "postcode": "MK40 3PQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, 17, WATERLOO ROAD"
-    },
-    {
-      "price": 125000,
-      "date": "2026-02-13",
-      "postcode": "MK44 3HY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, SHELTON COURT, PYMS CLOSE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-02-13",
-      "postcode": "MK40 3AF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 1, MERTON ROAD"
-    },
-    {
-      "price": 218000,
-      "date": "2026-02-12",
-      "postcode": "MK42 7EQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, JUDITH GARDENS"
+      "address": "10, MOLIVERS LANE"
     },
     {
       "price": 420000,
-      "date": "2026-02-12",
-      "postcode": "MK40 3RL",
-      "propertyType": "T",
+      "date": "2026-03-23",
+      "postcode": "MK41 0SD",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "78, YORK STREET"
+      "address": "30, HARROLD PRIORY"
     },
     {
-      "price": 305000,
-      "date": "2026-02-12",
-      "postcode": "MK40 3BL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, WIDECOMBE CLOSE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-02-12",
-      "postcode": "MK40 2EE",
+      "price": 134000,
+      "date": "2026-03-23",
+      "postcode": "MK42 9HJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 2, 25, WARWICK AVENUE"
+      "address": "36D, MILLBROOK ROAD"
+    },
+    {
+      "price": 265000,
+      "date": "2026-03-20",
+      "postcode": "MK41 8NJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, PENDENNIS ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-03-20",
+      "postcode": "MK40 3SX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "124, DUDLEY STREET"
+    },
+    {
+      "price": 467500,
+      "date": "2026-03-20",
+      "postcode": "MK42 6BT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, PARKVIEW TERRACE"
+    },
+    {
+      "price": 517500,
+      "date": "2026-03-20",
+      "postcode": "MK40 4SP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, ALWIN COURT"
+    },
+    {
+      "price": 390000,
+      "date": "2026-03-18",
+      "postcode": "NN10 9LW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CHURCH LANE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-03-18",
+      "postcode": "MK45 3AX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "99, HIGH ROAD"
+    },
+    {
+      "price": 445000,
+      "date": "2026-03-18",
+      "postcode": "MK42 0XF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, POTTER MEADOWS"
+    },
+    {
+      "price": 520000,
+      "date": "2026-03-17",
+      "postcode": "MK40 1DG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, RUTLAND ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-17",
+      "postcode": "MK40 2UU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 43, OLIVIER COURT, UNION STREET"
+    },
+    {
+      "price": 257000,
+      "date": "2026-03-16",
+      "postcode": "MK41 6DA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, QUEENS CRESCENT"
+    },
+    {
+      "price": 345000,
+      "date": "2026-03-16",
+      "postcode": "MK41 0GE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, LANGLANDS ROAD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-16",
+      "postcode": "MK40 4TZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ELLESMERE GARDENS"
     }
   ]
 }

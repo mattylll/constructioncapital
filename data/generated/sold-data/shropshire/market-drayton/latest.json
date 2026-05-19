@@ -1,22 +1,157 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.083Z",
+  "updatedAt": "2026-05-18T19:24:08.632Z",
   "townSlug": "market-drayton",
   "countySlug": "shropshire",
   "stats": {
-    "medianPrice": 254363,
+    "medianPrice": 250000,
     "medianByType": {
-      "D": 350000,
-      "S": 215000,
-      "T": 180000,
-      "F": 125000
+      "D": 357375,
+      "S": 218750,
+      "T": 190000,
+      "F": 115000
     },
-    "transactionCount12m": 229,
-    "yoyChange": 0.7,
-    "newBuildCount": 12,
-    "existingCount": 217,
-    "newBuildPremium": 2.9
+    "transactionCount12m": 237,
+    "yoyChange": -5.4,
+    "newBuildCount": 14,
+    "existingCount": 223,
+    "newBuildPremium": -2
   },
   "recentTransactions": [
+    {
+      "price": 195000,
+      "date": "2026-03-19",
+      "postcode": "TF9 3AT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, ASHLEY VIEW"
+    },
+    {
+      "price": 120000,
+      "date": "2026-03-17",
+      "postcode": "TF9 3HP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, PROSPECT COURT, ALEXANDRA ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-17",
+      "postcode": "TF9 3RP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, HAMPTON DRIVE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-13",
+      "postcode": "TF9 1AX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, RED BANK ROAD"
+    },
+    {
+      "price": 440000,
+      "date": "2026-03-11",
+      "postcode": "TF9 2TL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PIXLEY VIEW, NEWPORT ROAD"
+    },
+    {
+      "price": 239950,
+      "date": "2026-03-06",
+      "postcode": "TF9 3UU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, DAMSON FAYRE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-03-05",
+      "postcode": "TF9 1HG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, GROVE GARDENS"
+    },
+    {
+      "price": 237000,
+      "date": "2026-03-04",
+      "postcode": "TF9 3QB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, GARDEN CITY"
+    },
+    {
+      "price": 660000,
+      "date": "2026-03-03",
+      "postcode": "TF9 3BL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "POOLSTOCK, BISHOPS LANE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-03-03",
+      "postcode": "TF9 3AD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, DRAYTON GROVE"
+    },
+    {
+      "price": 78000,
+      "date": "2026-03-02",
+      "postcode": "TF9 1JA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FLAT 1, SWAN MEWS, CROSS STREET"
+    },
+    {
+      "price": 270000,
+      "date": "2026-02-27",
+      "postcode": "TF9 1HQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, GROVE GARDENS"
+    },
+    {
+      "price": 280000,
+      "date": "2026-02-27",
+      "postcode": "TF9 2DE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, ST MICHAELS WAY"
+    },
+    {
+      "price": 510000,
+      "date": "2026-02-20",
+      "postcode": "TF9 3AG",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "UNIT 87-88, WALLACE WAY"
+    },
+    {
+      "price": 370000,
+      "date": "2026-02-20",
+      "postcode": "TF9 2JT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BROOK HOUSE, CHAPEL LANE"
+    },
     {
       "price": 310000,
       "date": "2026-02-20",
@@ -45,6 +180,15 @@
       "address": "8, OAKFIELD ROAD"
     },
     {
+      "price": 180000,
+      "date": "2026-02-13",
+      "postcode": "TF9 1AT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "69, SALISBURY ROAD"
+    },
+    {
       "price": 565000,
       "date": "2026-02-13",
       "postcode": "TF9 1JU",
@@ -52,150 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "MORNINGSIDE, NEWTOWN"
-    },
-    {
-      "price": 207500,
-      "date": "2026-02-13",
-      "postcode": "TF9 1RQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, WARWICK CLOSE"
-    },
-    {
-      "price": 525000,
-      "date": "2026-02-06",
-      "postcode": "TF9 3DA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, SHROPSHIRE STREET"
-    },
-    {
-      "price": 280000,
-      "date": "2026-02-06",
-      "postcode": "TF9 3AU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE LAURELS, FROGMORE ROAD"
-    },
-    {
-      "price": 585000,
-      "date": "2026-02-06",
-      "postcode": "TF9 3JL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE BOWLING BARN, THE AVENUE"
-    },
-    {
-      "price": 655000,
-      "date": "2026-02-06",
-      "postcode": "TF9 2EL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ACORN HOUSE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-02-04",
-      "postcode": "TF9 2JW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, DUTTON CLOSE"
-    },
-    {
-      "price": 530000,
-      "date": "2026-02-02",
-      "postcode": "TF9 2JU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DOVEDALE, ROSEHILL ROAD"
-    },
-    {
-      "price": 243000,
-      "date": "2026-02-02",
-      "postcode": "TF9 1HW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, TALBOT MEWS"
-    },
-    {
-      "price": 357750,
-      "date": "2026-02-02",
-      "postcode": "TF9 2JU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "EDEN ROC, ROSEHILL ROAD"
-    },
-    {
-      "price": 162500,
-      "date": "2026-01-30",
-      "postcode": "TF9 3EP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "206, SHREWSBURY ROAD"
-    },
-    {
-      "price": 205000,
-      "date": "2026-01-28",
-      "postcode": "TF9 1AF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, CHURCH STREET"
-    },
-    {
-      "price": 390000,
-      "date": "2026-01-19",
-      "postcode": "TF9 2SL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ROMAN WAY"
-    },
-    {
-      "price": 200000,
-      "date": "2026-01-09",
-      "postcode": "TF9 3LR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, COUNTRY MEADOWS"
-    },
-    {
-      "price": 900000,
-      "date": "2026-01-06",
-      "postcode": "TF9 3PW",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LONGFORD HOUSE FARM"
-    },
-    {
-      "price": 375500,
-      "date": "2025-12-19",
-      "postcode": "TF9 3DY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, GROTTO ROAD"
-    },
-    {
-      "price": 395000,
-      "date": "2025-12-19",
-      "postcode": "TF9 3BP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59A, LONGSLOW ROAD"
     }
   ]
 }

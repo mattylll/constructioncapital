@@ -1,22 +1,166 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.562Z",
+  "updatedAt": "2026-05-18T19:24:08.097Z",
   "townSlug": "leatherhead",
   "countySlug": "surrey",
   "stats": {
-    "medianPrice": 580000,
+    "medianPrice": 590000,
     "medianByType": {
       "D": 872500,
       "S": 575000,
-      "T": 425000,
-      "F": 261000
+      "T": 432000,
+      "F": 260000
     },
-    "transactionCount12m": 314,
-    "yoyChange": 0,
+    "transactionCount12m": 348,
+    "yoyChange": 1.7,
     "newBuildCount": 0,
-    "existingCount": 314,
-    "newBuildPremium": -100
+    "existingCount": 348,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 845000,
+      "date": "2026-03-24",
+      "postcode": "KT23 4PW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, HOWARD ROAD"
+    },
+    {
+      "price": 463000,
+      "date": "2026-03-20",
+      "postcode": "KT23 3DB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, MIDDLEMEAD ROAD"
+    },
+    {
+      "price": 420000,
+      "date": "2026-03-19",
+      "postcode": "KT23 3JL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, PARK CORNER, THE PARK"
+    },
+    {
+      "price": 800000,
+      "date": "2026-03-18",
+      "postcode": "KT22 8SX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, MELVINSHAW"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-10",
+      "postcode": "KT22 7GB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 6, CEDAR HOUSE, PARK VIEW ROAD"
+    },
+    {
+      "price": 225000,
+      "date": "2026-03-06",
+      "postcode": "KT22 7XP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "40, KINGSTON SQUARE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-06",
+      "postcode": "KT22 7FU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, EMMELINE LODGE, 27, KINGSTON AVENUE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-03-05",
+      "postcode": "KT22 7NH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "67, CLEEVE ROAD"
+    },
+    {
+      "price": 639000,
+      "date": "2026-03-04",
+      "postcode": "KT22 8UL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, SHERBORNE WALK"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-02",
+      "postcode": "KT22 7NT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "131, KINGSTON ROAD"
+    },
+    {
+      "price": 900000,
+      "date": "2026-02-27",
+      "postcode": "KT22 8UE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, QUARRY GARDENS"
+    },
+    {
+      "price": 650000,
+      "date": "2026-02-27",
+      "postcode": "KT22 9PQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, KENNEL LANE"
+    },
+    {
+      "price": 532950,
+      "date": "2026-02-27",
+      "postcode": "KT22 8UH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, WINDFIELD"
+    },
+    {
+      "price": 702500,
+      "date": "2026-02-27",
+      "postcode": "KT22 9JU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, SCHOOL LANE"
+    },
+    {
+      "price": 899950,
+      "date": "2026-02-26",
+      "postcode": "KT22 9PP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, THE OAKS"
+    },
+    {
+      "price": 450000,
+      "date": "2026-02-23",
+      "postcode": "KT23 4ND",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, OVETON WAY"
+    },
     {
       "price": 580000,
       "date": "2026-02-20",
@@ -27,175 +171,31 @@
       "address": "15, HARTFIELD ROAD"
     },
     {
-      "price": 255000,
+      "price": 725000,
+      "date": "2026-02-20",
+      "postcode": "KT22 7JF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, LINDEN ROAD"
+    },
+    {
+      "price": 213925,
       "date": "2026-02-19",
-      "postcode": "KT22 7UT",
+      "postcode": "KT22 8TG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 7, TURNER COURT, HIGHBURY DRIVE"
+      "address": "1, EAST LODGE, EPSOM ROAD"
     },
     {
-      "price": 140000,
-      "date": "2026-02-18",
-      "postcode": "KT22 7DX",
+      "price": 270000,
+      "date": "2026-02-19",
+      "postcode": "KT22 8HE",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 29, HOLLY COURT, BELMONT ROAD"
-    },
-    {
-      "price": 950000,
-      "date": "2026-02-17",
-      "postcode": "KT22 9HA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, BADINGHAM DRIVE"
-    },
-    {
-      "price": 449995,
-      "date": "2026-02-16",
-      "postcode": "KT22 8AZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, MAGAZINE PLACE"
-    },
-    {
-      "price": 1000000,
-      "date": "2026-02-12",
-      "postcode": "KT22 8RG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ROBIN HILL, FIR TREE ROAD"
-    },
-    {
-      "price": 780000,
-      "date": "2026-02-06",
-      "postcode": "KT22 9FF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, RIVER WALK"
-    },
-    {
-      "price": 253000,
-      "date": "2026-02-06",
-      "postcode": "KT22 9BX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "48, HAWKS HILL COURT, ELMER COTTAGES"
-    },
-    {
-      "price": 490000,
-      "date": "2026-02-06",
-      "postcode": "KT22 9UQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, WARENNE ROAD"
-    },
-    {
-      "price": 825000,
-      "date": "2026-02-06",
-      "postcode": "KT22 9RN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, MOLE ROAD"
-    },
-    {
-      "price": 595000,
-      "date": "2026-02-06",
-      "postcode": "KT22 9JW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, POUND CRESCENT"
-    },
-    {
-      "price": 255000,
-      "date": "2026-02-05",
-      "postcode": "KT22 7XP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, KINGSTON SQUARE"
-    },
-    {
-      "price": 407500,
-      "date": "2026-02-03",
-      "postcode": "KT22 9LL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 15, HARROWAY MANOR, COBHAM ROAD"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-02",
-      "postcode": "KT22 8BH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "18, MINCHIN CLOSE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-01-30",
-      "postcode": "KT22 7GE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 14, BIRCH COURT, PARK VIEW ROAD"
-    },
-    {
-      "price": 428000,
-      "date": "2026-01-30",
-      "postcode": "KT22 7QW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, SANDES PLACE"
-    },
-    {
-      "price": 197500,
-      "date": "2026-01-30",
-      "postcode": "KT22 8BF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 12, BRIDGE PLACE, 16 - 20, BRIDGE STREET"
-    },
-    {
-      "price": 160000,
-      "date": "2026-01-30",
-      "postcode": "KT22 7JL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 12, ROYAL SWAN QUARTER, LERET WAY"
-    },
-    {
-      "price": 518000,
-      "date": "2026-01-27",
-      "postcode": "KT22 7NG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, CLEEVE ROAD"
-    },
-    {
-      "price": 235000,
-      "date": "2026-01-26",
-      "postcode": "KT22 7GH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, CHERRY TREE COURT, PARK VIEW ROAD"
+      "address": "FLAT 6, BRIDGE HOUSE, 27, BRIDGE STREET"
     }
   ]
 }

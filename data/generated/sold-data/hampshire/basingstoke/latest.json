@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.621Z",
+  "updatedAt": "2026-05-18T19:24:08.155Z",
   "townSlug": "basingstoke",
   "countySlug": "hampshire",
   "stats": {
-    "medianPrice": 367000,
+    "medianPrice": 369950,
     "medianByType": {
-      "D": 564000,
-      "S": 393500,
-      "T": 310000,
-      "F": 190000
+      "D": 565000,
+      "S": 398500,
+      "T": 311000,
+      "F": 185500
     },
-    "transactionCount12m": 1774,
-    "yoyChange": -1.5,
-    "newBuildCount": 27,
-    "existingCount": 1747,
-    "newBuildPremium": 53.4
+    "transactionCount12m": 1915,
+    "yoyChange": 0,
+    "newBuildCount": 29,
+    "existingCount": 1886,
+    "newBuildPremium": 53.6
   },
   "recentTransactions": [
     {
-      "price": 460000,
-      "date": "2026-02-23",
-      "postcode": "RG24 8WP",
+      "price": 300000,
+      "date": "2026-03-30",
+      "postcode": "RG22 4PJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, EXETER CLOSE"
+    },
+    {
+      "price": 455000,
+      "date": "2026-03-27",
+      "postcode": "RG23 7LA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "38, PETERSFIELD CLOSE"
+      "address": "20, CROFT ROAD"
     },
     {
-      "price": 445000,
-      "date": "2026-02-20",
-      "postcode": "RG22 4FW",
+      "price": 260000,
+      "date": "2026-03-26",
+      "postcode": "RG26 4QW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, BURNHAM ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-03-23",
+      "postcode": "RG23 8JG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, BRITANNIA DRIVE"
+      "address": "9, CARLISLE CLOSE"
+    },
+    {
+      "price": 412000,
+      "date": "2026-03-20",
+      "postcode": "RG21 3PH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, LOGGON ROAD"
     },
     {
       "price": 400000,
-      "date": "2026-02-20",
-      "postcode": "RG22 4FX",
+      "date": "2026-03-20",
+      "postcode": "RG21 3LH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, HONEYLEAZE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-20",
-      "postcode": "RG26 3JE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, 28, MULFORDS HILL"
-    },
-    {
-      "price": 316000,
-      "date": "2026-02-20",
-      "postcode": "RG22 6UJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, BURNABY CLOSE"
-    },
-    {
-      "price": 377500,
-      "date": "2026-02-20",
-      "postcode": "RG21 8YA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "107, PACKENHAM ROAD"
-    },
-    {
-      "price": 350000,
-      "date": "2026-02-20",
-      "postcode": "RG26 4AJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, BORDON CLOSE"
-    },
-    {
-      "price": 430000,
-      "date": "2026-02-19",
-      "postcode": "RG23 8JA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, KENILWORTH ROAD"
-    },
-    {
-      "price": 1050000,
-      "date": "2026-02-19",
-      "postcode": "RG20 4UQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ORCHARD COTTAGE"
-    },
-    {
-      "price": 815000,
-      "date": "2026-02-18",
-      "postcode": "RG20 0PL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BROOKFIELD"
-    },
-    {
-      "price": 353000,
-      "date": "2026-02-18",
-      "postcode": "RG23 7BL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, LIGHTSFIELD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-02-18",
-      "postcode": "RG26 4LR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, REYNARDS CLOSE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-02-17",
-      "postcode": "RG27 0FJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ELING CRESCENT"
-    },
-    {
-      "price": 70000,
-      "date": "2026-02-16",
-      "postcode": "RG21 8FX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "22, FLAXFIELD COURT"
-    },
-    {
-      "price": 647500,
-      "date": "2026-02-16",
-      "postcode": "RG24 7HL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, BYFLEET AVENUE"
-    },
-    {
-      "price": 670000,
-      "date": "2026-02-16",
-      "postcode": "RG22 5UR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, SKYLARK CLOSE"
+      "address": "43, MORLEY ROAD"
     },
     {
       "price": 325000,
-      "date": "2026-02-16",
-      "postcode": "RG24 9FS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, MARSTON WALK"
-    },
-    {
-      "price": 385000,
-      "date": "2026-02-16",
-      "postcode": "RG24 9FL",
+      "date": "2026-03-20",
+      "postcode": "RG22 4BP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "36, HEWITT ROAD"
+      "address": "1, BEETHOVEN ROAD"
     },
     {
-      "price": 445000,
-      "date": "2026-02-16",
-      "postcode": "RG23 7GW",
+      "price": 345000,
+      "date": "2026-03-20",
+      "postcode": "RG24 9TQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, COULTER ROAD"
+      "address": "7, WHEELER WAY"
     },
     {
-      "price": 955000,
-      "date": "2026-02-16",
-      "postcode": "RG28 7JJ",
+      "price": 450000,
+      "date": "2026-03-20",
+      "postcode": "RG26 4JW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, MICHELDEVER CLOSE"
+      "address": "14, SILVERDALE ROAD"
+    },
+    {
+      "price": 191000,
+      "date": "2026-03-20",
+      "postcode": "RG28 7PX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, WATERLOO COURT"
+    },
+    {
+      "price": 500000,
+      "date": "2026-03-18",
+      "postcode": "RG22 5EW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "105, OLD KEMPSHOTT LANE"
+    },
+    {
+      "price": 187500,
+      "date": "2026-03-18",
+      "postcode": "RG22 4RR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "9, BREADELS COURT, BREADELS FIELD"
+    },
+    {
+      "price": 180000,
+      "date": "2026-03-18",
+      "postcode": "RG22 4AE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 52, PARK HEIGHTS, WELLA ROAD"
+    },
+    {
+      "price": 372500,
+      "date": "2026-03-18",
+      "postcode": "RG22 5DU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, DORSET CRESCENT"
+    },
+    {
+      "price": 480000,
+      "date": "2026-03-17",
+      "postcode": "RG23 7DJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, AVON ROAD"
+    },
+    {
+      "price": 725000,
+      "date": "2026-03-17",
+      "postcode": "RG21 3HD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, FOYLE PARK"
+    },
+    {
+      "price": 430000,
+      "date": "2026-03-17",
+      "postcode": "RG24 9YN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, MULLIGAN WAY"
+    },
+    {
+      "price": 528000,
+      "date": "2026-03-17",
+      "postcode": "RG19 8FT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, MEADOW WAY"
+    },
+    {
+      "price": 380000,
+      "date": "2026-03-16",
+      "postcode": "RG24 9SG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, VITELLIUS GARDENS"
+    },
+    {
+      "price": 375000,
+      "date": "2026-03-16",
+      "postcode": "RG22 4FR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, HERRIARD PLACE"
     }
   ]
 }

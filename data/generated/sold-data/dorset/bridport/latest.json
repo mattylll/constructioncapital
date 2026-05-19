@@ -1,22 +1,139 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.917Z",
+  "updatedAt": "2026-05-18T19:24:08.457Z",
   "townSlug": "bridport",
   "countySlug": "dorset",
   "stats": {
-    "medianPrice": 362500,
+    "medianPrice": 360000,
     "medianByType": {
-      "D": 518000,
+      "D": 527500,
       "S": 345000,
       "T": 285000,
       "F": 173000
     },
-    "transactionCount12m": 240,
-    "yoyChange": -4.6,
+    "transactionCount12m": 257,
+    "yoyChange": -4,
     "newBuildCount": 0,
-    "existingCount": 240,
-    "newBuildPremium": -100
+    "existingCount": 257,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 548000,
+      "date": "2026-03-24",
+      "postcode": "DT6 4HP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BAKROTA, MEADWAY"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-20",
+      "postcode": "DT6 6JE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ASHTON COTTAGE"
+    },
+    {
+      "price": 795000,
+      "date": "2026-03-17",
+      "postcode": "DT6 6BN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LONG REEF, CHARBERRY RISE"
+    },
+    {
+      "price": 735000,
+      "date": "2026-03-09",
+      "postcode": "DT6 3SG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SUNNYMEAD COTTAGE"
+    },
+    {
+      "price": 475000,
+      "date": "2026-03-09",
+      "postcode": "DT6 4EA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, SLADES GREEN"
+    },
+    {
+      "price": 329000,
+      "date": "2026-03-06",
+      "postcode": "DT6 6DN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ARAGON LODGE, STAR LANE"
+    },
+    {
+      "price": 257500,
+      "date": "2026-03-02",
+      "postcode": "DT6 5HX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, ROSEMARY COTTAGES"
+    },
+    {
+      "price": 125425,
+      "date": "2026-03-02",
+      "postcode": "DT6 3FP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, PRIORY GARDENS"
+    },
+    {
+      "price": 1010000,
+      "date": "2026-02-27",
+      "postcode": "DT6 4LT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "OLD LIME KILN, SHIPTON ROAD"
+    },
+    {
+      "price": 152750,
+      "date": "2026-02-27",
+      "postcode": "DT6 5DG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 10, ST. SWITHINS COURT, ST SWITHINS ROAD"
+    },
+    {
+      "price": 330000,
+      "date": "2026-02-26",
+      "postcode": "DT6 4DY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, GREEN LANE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-02-26",
+      "postcode": "DT6 4JZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, HAPPY ISLAND WAY"
+    },
+    {
+      "price": 252500,
+      "date": "2026-02-26",
+      "postcode": "DT6 4EX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SWAINS ROW"
+    },
     {
       "price": 450000,
       "date": "2026-02-25",
@@ -25,6 +142,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "37, MANOR FIELDS"
+    },
+    {
+      "price": 304500,
+      "date": "2026-02-25",
+      "postcode": "DT6 3PA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "127, SOUTH STREET"
+    },
+    {
+      "price": 720000,
+      "date": "2026-02-25",
+      "postcode": "DT6 5NJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, WATTON PARK"
     },
     {
       "price": 390000,
@@ -45,6 +180,15 @@
       "address": "FLAT 21, FOLLY MILL LODGE, SOUTH STREET"
     },
     {
+      "price": 920000,
+      "date": "2026-02-20",
+      "postcode": "DT6 5LA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE SKILLING, SKILLING HILL ROAD"
+    },
+    {
       "price": 385000,
       "date": "2026-02-17",
       "postcode": "DT6 4DF",
@@ -52,150 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "34, CROCK LANE"
-    },
-    {
-      "price": 710000,
-      "date": "2026-02-12",
-      "postcode": "DT6 4JJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WYCHEND, WYCH HILL"
-    },
-    {
-      "price": 410000,
-      "date": "2026-02-12",
-      "postcode": "DT6 4JU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, COOPERS DRIVE"
-    },
-    {
-      "price": 345000,
-      "date": "2026-02-11",
-      "postcode": "DT6 4SL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, BUTTERCUP WAY"
-    },
-    {
-      "price": 760000,
-      "date": "2026-02-06",
-      "postcode": "DT6 6DL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BULLEN SIDE, SUN LANE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-02-03",
-      "postcode": "DT6 5ET",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, VICARAGE COURT, PARSONAGE ROAD"
-    },
-    {
-      "price": 335000,
-      "date": "2026-01-30",
-      "postcode": "DT6 5DY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, NORTH ALLINGTON"
-    },
-    {
-      "price": 860000,
-      "date": "2026-01-29",
-      "postcode": "DT6 5DD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "YEW TREE HOUSE, ALLINGTON PARK"
-    },
-    {
-      "price": 212000,
-      "date": "2026-01-29",
-      "postcode": "DT6 3AE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, 95, VICTORIA GROVE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-01-29",
-      "postcode": "DT6 6QT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, WESLEY CLOSE"
-    },
-    {
-      "price": 680000,
-      "date": "2026-01-28",
-      "postcode": "DT6 4BW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BLOSSOMS, QUARRY LANE"
-    },
-    {
-      "price": 510510,
-      "date": "2026-01-26",
-      "postcode": "DT6 3AG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "145, VICTORIA GROVE"
-    },
-    {
-      "price": 455000,
-      "date": "2026-01-26",
-      "postcode": "DT6 6PU",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BANK HOUSE, THE STREET"
-    },
-    {
-      "price": 330000,
-      "date": "2026-01-22",
-      "postcode": "DT6 6JB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BILBERRY CLOSE"
-    },
-    {
-      "price": 212500,
-      "date": "2026-01-22",
-      "postcode": "DT6 3HB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 10, PEELERS COURT, ST ANDREWS ROAD"
-    },
-    {
-      "price": 175000,
-      "date": "2026-01-22",
-      "postcode": "DT6 4HE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, ESPLANADE"
-    },
-    {
-      "price": 252000,
-      "date": "2026-01-16",
-      "postcode": "DT6 6BB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, THE SEAHORSE, HIGHER SEA LANE"
     }
   ]
 }

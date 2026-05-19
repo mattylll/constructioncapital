@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.313Z",
+  "updatedAt": "2026-05-18T19:24:08.876Z",
   "townSlug": "lytham-st-annes",
   "countySlug": "lancashire",
   "stats": {
-    "medianPrice": 235000,
+    "medianPrice": 238000,
     "medianByType": {
-      "D": 339375,
-      "S": 227000,
-      "T": 179000,
-      "F": 120000
+      "D": 342250,
+      "S": 227500,
+      "T": 180000,
+      "F": 125000
     },
-    "transactionCount12m": 987,
-    "yoyChange": -2.1,
-    "newBuildCount": 15,
-    "existingCount": 972,
-    "newBuildPremium": 54.8
+    "transactionCount12m": 1079,
+    "yoyChange": -0.8,
+    "newBuildCount": 13,
+    "existingCount": 1066,
+    "newBuildPremium": 46.5
   },
   "recentTransactions": [
     {
-      "price": 220000,
-      "date": "2026-02-27",
-      "postcode": "PR4 2YR",
+      "price": 410000,
+      "date": "2026-03-26",
+      "postcode": "PR4 3FW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, SYLVAN GARDENS"
+    },
+    {
+      "price": 430000,
+      "date": "2026-03-20",
+      "postcode": "FY8 2EB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "42, DORSET ROAD"
+    },
+    {
+      "price": 222000,
+      "date": "2026-03-20",
+      "postcode": "PR4 2TT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "44, HILLSIDE AVENUE"
+      "address": "37, SOUTH VIEW"
     },
     {
-      "price": 112500,
-      "date": "2026-02-20",
-      "postcode": "PR4 3AE",
-      "propertyType": "T",
+      "price": 295000,
+      "date": "2026-03-20",
+      "postcode": "PR4 3XA",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, THOMPSON STREET"
-    },
-    {
-      "price": 180000,
-      "date": "2026-02-20",
-      "postcode": "FY8 1HN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, WHITEHALL COURT, 295, CLIFTON DRIVE SOUTH"
-    },
-    {
-      "price": 120000,
-      "date": "2026-02-19",
-      "postcode": "FY8 3TG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "143, CHURCH ROAD"
-    },
-    {
-      "price": 320000,
-      "date": "2026-02-16",
-      "postcode": "FY6 8LJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WOODSIDE, 4, BARNFIELD MANOR"
+      "address": "6, THE COTTAGE, THISTLETON ROAD"
     },
     {
       "price": 147500,
-      "date": "2026-02-16",
-      "postcode": "PR4 2UA",
+      "date": "2026-03-20",
+      "postcode": "FY8 2QS",
       "propertyType": "T",
       "newBuild": false,
-      "tenure": "F",
-      "address": "12, POPLAR AVENUE"
+      "tenure": "L",
+      "address": "95, ST DAVIDS GROVE"
     },
     {
-      "price": 429950,
-      "date": "2026-02-16",
-      "postcode": "PR4 2FD",
+      "price": 375000,
+      "date": "2026-03-19",
+      "postcode": "FY8 4FQ",
       "propertyType": "D",
       "newBuild": false,
-      "tenure": "F",
-      "address": "4, LANGTON LANE"
+      "tenure": "L",
+      "address": "17, TEAL LANE"
     },
     {
-      "price": 128000,
-      "date": "2026-02-13",
-      "postcode": "FY3 8QS",
-      "propertyType": "S",
+      "price": 258000,
+      "date": "2026-03-18",
+      "postcode": "FY8 2EE",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "F",
-      "address": "6, SHAFTESBURY AVENUE"
+      "tenure": "L",
+      "address": "29, GRETDALE AVENUE"
     },
     {
-      "price": 260000,
-      "date": "2026-02-13",
-      "postcode": "FY8 2NE",
+      "price": 132000,
+      "date": "2026-03-18",
+      "postcode": "FY8 3HQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 54, MAJESTIC, ST ANNES ROAD WEST"
+      "address": "15, SILVERBURN, 193, ST ANNES ROAD EAST"
     },
     {
-      "price": 785000,
-      "date": "2026-02-13",
-      "postcode": "FY8 4AE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LYNWOOD, KINTOUR ROAD"
-    },
-    {
-      "price": 460000,
-      "date": "2026-02-13",
-      "postcode": "FY8 5QE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, WESTWOOD MEWS"
-    },
-    {
-      "price": 360000,
-      "date": "2026-02-13",
-      "postcode": "FY8 1JR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "78, ST THOMAS ROAD"
-    },
-    {
-      "price": 284000,
-      "date": "2026-02-10",
-      "postcode": "PR4 1RH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, NAZE LANE"
-    },
-    {
-      "price": 105000,
-      "date": "2026-02-09",
-      "postcode": "PR4 3AS",
+      "price": 136000,
+      "date": "2026-03-18",
+      "postcode": "PR4 1BG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, RAWLINSON STREET"
+      "address": "6, NORSEMAN AVENUE"
     },
     {
-      "price": 342900,
-      "date": "2026-02-06",
-      "postcode": "FY8 2RU",
+      "price": 176070,
+      "date": "2026-03-17",
+      "postcode": "FY8 3SE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "29, CURZON ROAD"
+    },
+    {
+      "price": 336500,
+      "date": "2026-03-13",
+      "postcode": "FY8 2DB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, SANDHURST AVENUE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-03-12",
+      "postcode": "FY8 3AB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, KILNHOUSE LANE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-03-12",
+      "postcode": "FY8 2RJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, NAPIER CLOSE"
+    },
+    {
+      "price": 94750,
+      "date": "2026-03-11",
+      "postcode": "FY8 2ET",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 35, SANDHURST GRANGE, SANDHURST AVENUE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-11",
+      "postcode": "FY8 5AY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "5, CLIVE AVENUE"
+      "address": "123, PRESTON ROAD"
     },
     {
-      "price": 365000,
-      "date": "2026-02-06",
+      "price": 107500,
+      "date": "2026-03-10",
+      "postcode": "PR4 3BN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ALBERT STREET"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-10",
+      "postcode": "FY6 8LT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 9, SINGLETON HALL, LODGE LANE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-03-06",
+      "postcode": "PR4 3ES",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1, HORNBEAM CLOSE"
+    },
+    {
+      "price": 199000,
+      "date": "2026-03-06",
+      "postcode": "PR4 3NQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "9, THE LAURELS"
+    },
+    {
+      "price": 164000,
+      "date": "2026-03-06",
       "postcode": "FY8 2NQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 5, NORTHGATE, 14 - 16, NORTH PROMENADE"
-    },
-    {
-      "price": 87500,
-      "date": "2026-02-06",
-      "postcode": "FY8 2BH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9, ELDON COURT"
-    },
-    {
-      "price": 210000,
-      "date": "2026-02-06",
-      "postcode": "PR4 0ZD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, MEADOW CLOSE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-02-06",
-      "postcode": "FY8 3HU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "200, ST ALBANS ROAD"
-    },
-    {
-      "price": 205000,
-      "date": "2026-02-06",
-      "postcode": "PR4 3ZL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, LARBRECK AVENUE"
+      "address": "FLAT 2, SEFTON COURT, 42 - 44, NORTH PROMENADE"
     }
   ]
 }

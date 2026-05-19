@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:24.036Z",
+  "updatedAt": "2026-05-18T19:24:08.582Z",
   "townSlug": "bedworth",
   "countySlug": "warwickshire",
   "stats": {
-    "medianPrice": 231000,
+    "medianPrice": 230000,
     "medianByType": {
-      "D": 335675,
-      "S": 232500,
-      "T": 172500,
-      "F": 103500
+      "D": 319375,
+      "S": 230000,
+      "T": 175000,
+      "F": 110000
     },
-    "transactionCount12m": 276,
-    "yoyChange": -2.3,
+    "transactionCount12m": 297,
+    "yoyChange": -2.1,
     "newBuildCount": 15,
-    "existingCount": 261,
-    "newBuildPremium": 50
+    "existingCount": 282,
+    "newBuildPremium": 49
   },
   "recentTransactions": [
     {
-      "price": 410000,
-      "date": "2026-02-18",
+      "price": 275000,
+      "date": "2026-03-20",
+      "postcode": "CV12 9QA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, WYE CLOSE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-03-20",
+      "postcode": "CV12 0AD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "158, WOODLANDS ROAD"
+    },
+    {
+      "price": 135000,
+      "date": "2026-03-19",
+      "postcode": "CV12 8JE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "101, KING STREET"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-17",
+      "postcode": "CV12 9BH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, JOHNSON ROAD"
+    },
+    {
+      "price": 128000,
+      "date": "2026-03-16",
+      "postcode": "CV12 9DL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, NEW STREET"
+    },
+    {
+      "price": 211000,
+      "date": "2026-03-16",
+      "postcode": "CV12 9ED",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "127, BULKINGTON ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-13",
+      "postcode": "CV12 9EQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, NORTH AVENUE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-03-06",
+      "postcode": "CV12 0GY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CAMPION CLOSE"
+    },
+    {
+      "price": 228000,
+      "date": "2026-03-06",
+      "postcode": "CV12 0HR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, GOODYERS END LANE"
+    },
+    {
+      "price": 79500,
+      "date": "2026-03-06",
+      "postcode": "CV12 0PF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "17, BOVENEY, BEDE VILLAGE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-03-05",
+      "postcode": "CV12 8BE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, WILLOW CLOSE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-03-02",
+      "postcode": "CV12 8SD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "91, GALLAGHER ROAD"
+    },
+    {
+      "price": 333000,
+      "date": "2026-02-27",
+      "postcode": "CV12 8AB",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, LEICESTER ROAD"
+    },
+    {
+      "price": 212500,
+      "date": "2026-02-27",
+      "postcode": "CV12 0BS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, ALICE CLOSE"
+    },
+    {
+      "price": 83000,
+      "date": "2026-02-27",
+      "postcode": "CV12 8AW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ROYAL OAK YARD"
+    },
+    {
+      "price": 135000,
+      "date": "2026-02-27",
+      "postcode": "CV12 9AD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "130, MARSTON LANE"
+    },
+    {
+      "price": 251500,
+      "date": "2026-02-27",
+      "postcode": "CV12 0HS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "89, GOODYERS END LANE"
+    },
+    {
+      "price": 197000,
+      "date": "2026-02-27",
+      "postcode": "CV12 8BL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, JOHN KNIGHT ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-02-25",
       "postcode": "CV12 9LW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3A, LEYLAND ROAD"
-    },
-    {
-      "price": 210000,
-      "date": "2026-02-06",
-      "postcode": "CV12 0GB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, CELANDINE WAY"
-    },
-    {
-      "price": 336000,
-      "date": "2026-02-06",
-      "postcode": "CV12 0GX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, CLOVER WAY"
-    },
-    {
-      "price": 280000,
-      "date": "2026-02-06",
-      "postcode": "CV12 0GX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, CLOVER WAY"
-    },
-    {
-      "price": 176000,
-      "date": "2026-01-30",
-      "postcode": "CV12 8BL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, JOHN KNIGHT ROAD"
-    },
-    {
-      "price": 100000,
-      "date": "2026-01-30",
-      "postcode": "CV12 8NT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "57, COVENTRY ROAD"
-    },
-    {
-      "price": 205000,
-      "date": "2026-01-30",
-      "postcode": "CV12 0GA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, FERN GROVE"
+      "address": "42, LEYLAND ROAD"
     },
     {
       "price": 110000,
-      "date": "2026-01-30",
+      "date": "2026-02-25",
       "postcode": "CV12 8AP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "4, CARLTON COURT, NUNEATON ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-01-23",
-      "postcode": "CV12 9PD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "85, BARBRIDGE ROAD"
-    },
-    {
-      "price": 90000,
-      "date": "2026-01-23",
-      "postcode": "CV12 9NG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "68, LEICESTER STREET"
-    },
-    {
-      "price": 135500,
-      "date": "2026-01-21",
-      "postcode": "CV12 9DU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, WOOTTON STREET"
-    },
-    {
-      "price": 265000,
-      "date": "2026-01-21",
-      "postcode": "CV12 0FA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, DOWN MEADOW"
-    },
-    {
-      "price": 287000,
-      "date": "2026-01-19",
-      "postcode": "CV12 9RS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, WESTON LANE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-01-19",
-      "postcode": "CV12 9DP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, BRICK KILN WAY"
-    },
-    {
-      "price": 205000,
-      "date": "2026-01-16",
-      "postcode": "CV12 8NW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "152, COVENTRY ROAD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-01-15",
-      "postcode": "CV12 9PD",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "81, BARBRIDGE ROAD"
-    },
-    {
-      "price": 1000000,
-      "date": "2026-01-13",
-      "postcode": "CV12 8PT",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BEDWORTH LABOUR PARTY CLUB, CHAPEL STREET"
-    },
-    {
-      "price": 182000,
-      "date": "2026-01-12",
-      "postcode": "CV12 0HQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, MAVOR DRIVE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-01-09",
-      "postcode": "CV12 0BZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, RIVER CLOSE"
-    },
-    {
-      "price": 115000,
-      "date": "2026-01-09",
-      "postcode": "CV12 8FB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "53, OAKWOOD GARDENS, MARGARET AVENUE"
+      "address": "7, CARLTON COURT, NUNEATON ROAD"
     }
   ]
 }

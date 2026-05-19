@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.675Z",
+  "updatedAt": "2026-05-18T19:24:08.210Z",
   "townSlug": "amersham",
   "countySlug": "buckinghamshire",
   "stats": {
-    "medianPrice": 724975,
+    "medianPrice": 740000,
     "medianByType": {
-      "D": 957500,
-      "S": 740000,
+      "D": 955000,
+      "S": 783500,
       "T": 550000,
-      "F": 321000
+      "F": 323500
     },
-    "transactionCount12m": 200,
-    "yoyChange": 2.8,
+    "transactionCount12m": 211,
+    "yoyChange": 4.1,
     "newBuildCount": 0,
-    "existingCount": 200,
-    "newBuildPremium": -100
+    "existingCount": 211,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 537000,
+      "date": "2026-03-27",
+      "postcode": "HP6 6QR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "83, SANDYCROFT ROAD"
+    },
+    {
+      "price": 1685000,
+      "date": "2026-03-19",
+      "postcode": "HP6 5LJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, THE GROVE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-03-10",
+      "postcode": "HP7 0QT",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BEAMOND END RANCH"
+    },
+    {
+      "price": 1030000,
+      "date": "2026-03-06",
+      "postcode": "HP6 6NW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, MITCHELL WALK"
+    },
+    {
+      "price": 355000,
+      "date": "2026-03-06",
+      "postcode": "HP6 6FJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "38, OLD SAW MILL PLACE"
+    },
+    {
+      "price": 825000,
+      "date": "2026-03-05",
+      "postcode": "HP6 6RJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, WESTWOOD DRIVE"
+    },
+    {
+      "price": 750000,
+      "date": "2026-03-02",
+      "postcode": "HP6 6EN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, CHESTNUT LANE"
+    },
+    {
+      "price": 357500,
+      "date": "2026-02-27",
+      "postcode": "HP7 0ER",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, PONDWICKS"
+    },
+    {
+      "price": 1011000,
+      "date": "2026-02-20",
+      "postcode": "HP6 6RR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "106, WESTWOOD DRIVE"
+    },
+    {
+      "price": 783500,
+      "date": "2026-02-20",
+      "postcode": "HP6 6RF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DROMARA, CHALFONT AVENUE"
+    },
     {
       "price": 620000,
       "date": "2026-02-20",
@@ -25,6 +115,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "16, SNELLS WOOD COURT"
+    },
+    {
+      "price": 200000,
+      "date": "2026-02-19",
+      "postcode": "HP7 9PG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, DERWENT CLOSE"
     },
     {
       "price": 495000,
@@ -97,105 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "61, THE RIDGEWAY"
-    },
-    {
-      "price": 712500,
-      "date": "2026-01-19",
-      "postcode": "HP6 5DH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "168, STATION ROAD"
-    },
-    {
-      "price": 1250000,
-      "date": "2026-01-16",
-      "postcode": "HP6 6PY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, BEECH PARK"
-    },
-    {
-      "price": 1750000,
-      "date": "2026-01-15",
-      "postcode": "HP7 9BB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, STANLEY HILL AVENUE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-01-09",
-      "postcode": "HP7 0EW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, THORNHILL CLOSE"
-    },
-    {
-      "price": 700000,
-      "date": "2026-01-09",
-      "postcode": "HP6 5ES",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, OAKLANDS COURT, 10, CHESHAM ROAD"
-    },
-    {
-      "price": 885000,
-      "date": "2026-01-09",
-      "postcode": "HP6 6SH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, CHURCH GROVE"
-    },
-    {
-      "price": 925000,
-      "date": "2026-01-08",
-      "postcode": "HP6 6RU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, CHESSFIELD PARK"
-    },
-    {
-      "price": 479500,
-      "date": "2026-01-07",
-      "postcode": "HP6 5NE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, HANOVER COURT, 37, CHESHAM ROAD"
-    },
-    {
-      "price": 910000,
-      "date": "2025-12-19",
-      "postcode": "HP7 0DS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "92, HIGH STREET"
-    },
-    {
-      "price": 1750000,
-      "date": "2025-12-19",
-      "postcode": "HP6 5HD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21A, LONGFIELD DRIVE"
-    },
-    {
-      "price": 810000,
-      "date": "2025-12-18",
-      "postcode": "HP6 6SY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, OAKINGTON AVENUE"
     }
   ]
 }

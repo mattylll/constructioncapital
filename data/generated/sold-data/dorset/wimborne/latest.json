@@ -1,22 +1,193 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.915Z",
+  "updatedAt": "2026-05-18T19:24:08.455Z",
   "townSlug": "wimborne",
   "countySlug": "dorset",
   "stats": {
     "medianPrice": 385000,
     "medianByType": {
-      "D": 500000,
-      "S": 372500,
-      "T": 327500,
-      "F": 184000
+      "D": 515000,
+      "S": 371475,
+      "T": 325000,
+      "F": 195000
     },
-    "transactionCount12m": 347,
-    "yoyChange": -4.9,
+    "transactionCount12m": 376,
+    "yoyChange": -6.1,
     "newBuildCount": 13,
-    "existingCount": 334,
+    "existingCount": 363,
     "newBuildPremium": -9.1
   },
   "recentTransactions": [
+    {
+      "price": 625000,
+      "date": "2026-03-27",
+      "postcode": "BH21 2JD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "71, HAYES LANE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-03-27",
+      "postcode": "BH21 2GJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, RUGBY WAY"
+    },
+    {
+      "price": 310000,
+      "date": "2026-03-20",
+      "postcode": "BH21 2UF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, HARNESS CLOSE"
+    },
+    {
+      "price": 395000,
+      "date": "2026-03-19",
+      "postcode": "BH21 3TB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BIRCH CLOSE"
+    },
+    {
+      "price": 755000,
+      "date": "2026-03-18",
+      "postcode": "BH21 2TA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, CANNON HILL GARDENS"
+    },
+    {
+      "price": 195000,
+      "date": "2026-03-13",
+      "postcode": "BH21 3PN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "44, WAYMAN ROAD"
+    },
+    {
+      "price": 370000,
+      "date": "2026-03-13",
+      "postcode": "BH21 4AT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "105A, HIGH STREET"
+    },
+    {
+      "price": 335000,
+      "date": "2026-03-11",
+      "postcode": "BH21 3XF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, HADRIAN WAY"
+    },
+    {
+      "price": 360000,
+      "date": "2026-03-06",
+      "postcode": "BH21 2TB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, OLD MANOR CLOSE"
+    },
+    {
+      "price": 375000,
+      "date": "2026-03-06",
+      "postcode": "BH21 1DN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, RIVER CLOSE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-06",
+      "postcode": "BH21 6SH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, EVERGREEN CLOSE"
+    },
+    {
+      "price": 850000,
+      "date": "2026-03-06",
+      "postcode": "BH21 3LW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WHITE HOUSE, 234, WAREHAM ROAD"
+    },
+    {
+      "price": 635000,
+      "date": "2026-03-06",
+      "postcode": "BH21 2PP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, LEIGH LANE"
+    },
+    {
+      "price": 380000,
+      "date": "2026-03-03",
+      "postcode": "BH21 2RS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, WIMBORNE ROAD"
+    },
+    {
+      "price": 35000,
+      "date": "2026-02-27",
+      "postcode": "BH21 1RB",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, NEW BOROUGH ROAD"
+    },
+    {
+      "price": 636000,
+      "date": "2026-02-27",
+      "postcode": "BH21 6PA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, DYMEWOOD ROAD"
+    },
+    {
+      "price": 435000,
+      "date": "2026-02-27",
+      "postcode": "BH21 2EJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WYELANDS AVENUE"
+    },
+    {
+      "price": 885000,
+      "date": "2026-02-27",
+      "postcode": "BH21 2ND",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "84, PILFORD HEATH ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-02-26",
+      "postcode": "BH21 1QU",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "UNIT 6, RIVERSIDE PARK, STATION ROAD"
+    },
     {
       "price": 450000,
       "date": "2026-02-20",
@@ -25,177 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "25, BAY CLOSE"
-    },
-    {
-      "price": 372500,
-      "date": "2026-02-19",
-      "postcode": "BH21 3NN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, PHELIPPS ROAD"
-    },
-    {
-      "price": 345000,
-      "date": "2026-02-17",
-      "postcode": "BH21 3UW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, COVENTRY CLOSE"
-    },
-    {
-      "price": 357500,
-      "date": "2026-02-16",
-      "postcode": "BH21 3QX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, RUSHCOMBE WAY"
-    },
-    {
-      "price": 443000,
-      "date": "2026-02-13",
-      "postcode": "BH21 5PZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ROMAN COTTAGE, 12, CASTLE STREET"
-    },
-    {
-      "price": 335000,
-      "date": "2026-02-12",
-      "postcode": "BH21 2GF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, STRICKLAND WAY"
-    },
-    {
-      "price": 410000,
-      "date": "2026-02-12",
-      "postcode": "BH21 1AU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, ALLENVIEW ROAD"
-    },
-    {
-      "price": 535000,
-      "date": "2026-02-10",
-      "postcode": "BH21 1UY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, FALLOWFIELD PLACE"
-    },
-    {
-      "price": 380000,
-      "date": "2026-02-06",
-      "postcode": "BH21 4FX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, WHEATSHEAF ROAD"
-    },
-    {
-      "price": 145000,
-      "date": "2026-02-06",
-      "postcode": "BH21 1AF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12, LEIGH ROAD"
-    },
-    {
-      "price": 445000,
-      "date": "2026-02-04",
-      "postcode": "BH21 3EN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CORONATION WAY"
-    },
-    {
-      "price": 310000,
-      "date": "2026-02-02",
-      "postcode": "BH21 4AP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, KENTS LANE"
-    },
-    {
-      "price": 645000,
-      "date": "2026-02-02",
-      "postcode": "BH21 2JG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, HAYES LANE"
-    },
-    {
-      "price": 870000,
-      "date": "2026-01-30",
-      "postcode": "BH21 1ET",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, REDCOTTS ROAD"
-    },
-    {
-      "price": 385000,
-      "date": "2026-01-30",
-      "postcode": "BH21 2NQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, HERON DRIVE"
-    },
-    {
-      "price": 425000,
-      "date": "2026-01-30",
-      "postcode": "BH21 3NB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, MOORSIDE ROAD"
-    },
-    {
-      "price": 680000,
-      "date": "2026-01-30",
-      "postcode": "BH21 7LY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "STONE LODGE, STAPEHILL ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-01-30",
-      "postcode": "BH21 1XA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "33, NEWMANS CLOSE"
-    },
-    {
-      "price": 395000,
-      "date": "2026-01-30",
-      "postcode": "BH21 3PN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, WAYMAN ROAD"
-    },
-    {
-      "price": 365000,
-      "date": "2026-01-30",
-      "postcode": "BH21 3QP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, LINK RISE"
     }
   ]
 }

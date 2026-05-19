@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-04-23T10:19:23.225Z",
+  "updatedAt": "2026-05-18T19:24:07.717Z",
   "townSlug": "barking",
   "countySlug": "greater-london",
   "stats": {
-    "medianPrice": 380000,
+    "medianPrice": 377750,
     "medianByType": {
-      "D": 480000,
+      "D": 465000,
       "S": 420000,
-      "T": 392500,
+      "T": 390000,
       "F": 230000
     },
-    "transactionCount12m": 985,
-    "yoyChange": 3.8,
+    "transactionCount12m": 1060,
+    "yoyChange": 2.6,
     "newBuildCount": 0,
-    "existingCount": 985,
-    "newBuildPremium": -100
+    "existingCount": 1060,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 420000,
-      "date": "2026-02-20",
-      "postcode": "RM9 4UX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "412, GORESBROOK ROAD"
-    },
-    {
       "price": 395000,
-      "date": "2026-02-19",
-      "postcode": "RM8 2DW",
+      "date": "2026-03-26",
+      "postcode": "RM8 2QB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, EASEBOURNE ROAD"
+      "address": "84, WALDEGRAVE ROAD"
     },
     {
-      "price": 195000,
-      "date": "2026-02-18",
-      "postcode": "IG11 7GN",
+      "price": 356000,
+      "date": "2026-03-23",
+      "postcode": "RM9 5LX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "90, KEPPEL ROAD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-03-20",
+      "postcode": "RM10 8TD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, CHARLOTTE ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-03-19",
+      "postcode": "RM8 2AD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, GORING GARDENS"
+    },
+    {
+      "price": 265000,
+      "date": "2026-03-17",
+      "postcode": "RM8 1JD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 17, CRICK COURT, SPRING PLACE"
+      "address": "14, LANESIDE AVENUE"
     },
     {
-      "price": 400000,
-      "date": "2026-02-16",
-      "postcode": "RM8 2JZ",
+      "price": 450000,
+      "date": "2026-03-16",
+      "postcode": "RM10 7FG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, PANYERS GARDENS"
+    },
+    {
+      "price": 500000,
+      "date": "2026-03-13",
+      "postcode": "IG11 9XT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, WINTERBOURNE ROAD"
+      "address": "207, SALISBURY AVENUE"
+    },
+    {
+      "price": 360000,
+      "date": "2026-03-13",
+      "postcode": "RM8 3BL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "225, BONHAM ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-13",
+      "postcode": "IG11 8LG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "213, COWBRIDGE LANE"
+    },
+    {
+      "price": 380000,
+      "date": "2026-03-13",
+      "postcode": "IG11 7TX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, GREATFIELDS ROAD"
+    },
+    {
+      "price": 353000,
+      "date": "2026-03-13",
+      "postcode": "RM9 4BD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "88, CANNINGTON ROAD"
+    },
+    {
+      "price": 390000,
+      "date": "2026-03-12",
+      "postcode": "RM10 8QS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "288A, HEATHWAY"
+    },
+    {
+      "price": 450000,
+      "date": "2026-03-10",
+      "postcode": "RM10 7FT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, ALTHORNE WAY"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-10",
+      "postcode": "IG11 8AF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "9A, LONDON ROAD"
+    },
+    {
+      "price": 725000,
+      "date": "2026-03-09",
+      "postcode": "IG11 7PW",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "147, RIPPLE ROAD"
+    },
+    {
+      "price": 355000,
+      "date": "2026-03-06",
+      "postcode": "RM10 9EJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "216, OVAL ROAD NORTH"
+    },
+    {
+      "price": 375000,
+      "date": "2026-03-06",
+      "postcode": "RM10 8BN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, CROPPATH ROAD"
+    },
+    {
+      "price": 440000,
+      "date": "2026-03-06",
+      "postcode": "RM10 7AS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, HIGHLAND AVENUE"
+    },
+    {
+      "price": 425500,
+      "date": "2026-03-06",
+      "postcode": "IG11 8LB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "214, GURNEY CLOSE"
     },
     {
       "price": 370000,
-      "date": "2026-02-13",
-      "postcode": "RM10 9ND",
+      "date": "2026-03-03",
+      "postcode": "RM9 4ES",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "279, NEW ROAD"
-    },
-    {
-      "price": 423000,
-      "date": "2026-02-13",
-      "postcode": "RM8 2LX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "68, NEASHAM ROAD"
-    },
-    {
-      "price": 205000,
-      "date": "2026-02-13",
-      "postcode": "IG11 9EH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "290, LONGBRIDGE ROAD"
-    },
-    {
-      "price": 430000,
-      "date": "2026-02-13",
-      "postcode": "RM8 3DF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, CORIES CLOSE"
-    },
-    {
-      "price": 385000,
-      "date": "2026-02-13",
-      "postcode": "RM9 4RX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "99, LANGLEY CRESCENT"
-    },
-    {
-      "price": 402500,
-      "date": "2026-02-12",
-      "postcode": "RM8 1UA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "118, BARON ROAD"
-    },
-    {
-      "price": 392500,
-      "date": "2026-02-11",
-      "postcode": "IG11 7QN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "97, ESSEX ROAD"
-    },
-    {
-      "price": 473000,
-      "date": "2026-02-11",
-      "postcode": "RM6 6SL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54, GENEVA GARDENS"
-    },
-    {
-      "price": 385000,
-      "date": "2026-02-10",
-      "postcode": "RM8 1NS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, FAMBRIDGE ROAD"
-    },
-    {
-      "price": 231000,
-      "date": "2026-02-09",
-      "postcode": "RM10 8GP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 13, MADISON COURT, ST MARKS PLACE"
-    },
-    {
-      "price": 367500,
-      "date": "2026-02-09",
-      "postcode": "RM8 2XP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, BABINGTON ROAD"
-    },
-    {
-      "price": 395000,
-      "date": "2026-02-06",
-      "postcode": "RM9 5UR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, NORTHFIELD ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-02-06",
-      "postcode": "RM8 1UB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, BARON ROAD"
-    },
-    {
-      "price": 347500,
-      "date": "2026-02-06",
-      "postcode": "RM9 6JJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "81, CARTWRIGHT ROAD"
-    },
-    {
-      "price": 439000,
-      "date": "2026-02-06",
-      "postcode": "RM8 2YX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "171, ILCHESTER ROAD"
-    },
-    {
-      "price": 510000,
-      "date": "2026-02-06",
-      "postcode": "IG11 9PB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, GOODEY ROAD"
+      "address": "132, STAMFORD ROAD"
     }
   ]
 }
