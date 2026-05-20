@@ -6,6 +6,7 @@ import { CALCULATORS } from "@/lib/calculators";
 import { CASE_STUDIES } from "@/lib/case-studies";
 import { GUIDES } from "@/lib/guides";
 import { MARKET_REPORTS } from "@/lib/market-reports";
+import { TOP_50_LOCATIONS } from "@/lib/market-intelligence-locations";
 import { SERVICES } from "@/lib/services";
 import { UK_COUNTIES } from "@/lib/uk-locations-data";
 import { GLOSSARY_TERMS } from "@/lib/glossary";
@@ -21,6 +22,9 @@ interface SitemapUrl {
 }
 
 const today = new Date().toISOString().split("T")[0];
+const GENERATED_PLANNING_ARTICLES_DIR = path.resolve(
+  "data/generated/weekly-planning-outreach"
+);
 
 function escapeXml(str: string): string {
   return str
@@ -98,6 +102,12 @@ function buildStatic(): SitemapUrl[] {
     },
     {
       url: `${SITE_URL}/why-construction-capital`,
+      lastmod: today,
+      changefreq: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/introducers`,
       lastmod: today,
       changefreq: "monthly",
       priority: 0.8,
@@ -187,6 +197,23 @@ function buildGuides(): SitemapUrl[] {
   ];
 }
 
+function buildMarketIntelligence(): SitemapUrl[] {
+  return [
+    {
+      url: `${SITE_URL}/market-intelligence`,
+      lastmod: today,
+      changefreq: "weekly",
+      priority: 0.9,
+    },
+    ...TOP_50_LOCATIONS.map((loc) => ({
+      url: `${SITE_URL}/market-intelligence/${loc.slug}`,
+      lastmod: today,
+      changefreq: "weekly",
+      priority: loc.tier === 1 ? 0.85 : loc.tier === 2 ? 0.75 : 0.65,
+    })),
+  ];
+}
+
 function buildMarketReports(): SitemapUrl[] {
   return [
     {
@@ -271,6 +298,37 @@ function buildLenderPanel(): SitemapUrl[] {
   ];
 }
 
+function readGeneratedNewsArticles(): { slug: string; updated_at?: string }[] {
+  if (!fs.existsSync(GENERATED_PLANNING_ARTICLES_DIR)) return [];
+
+  const articles: { slug: string; updated_at?: string }[] = [];
+  for (const runId of fs.readdirSync(GENERATED_PLANNING_ARTICLES_DIR)) {
+    const manifestPath = path.join(
+      GENERATED_PLANNING_ARTICLES_DIR,
+      runId,
+      "articles.json"
+    );
+    if (!fs.existsSync(manifestPath)) continue;
+
+    try {
+      const rows = JSON.parse(fs.readFileSync(manifestPath, "utf-8")) as Array<{
+        slug?: string;
+        updated_at?: string;
+        is_published?: number;
+      }>;
+      for (const row of rows) {
+        if (row.slug && row.is_published === 1) {
+          articles.push(row as { slug: string; updated_at?: string });
+        }
+      }
+    } catch {
+      continue;
+    }
+  }
+
+  return articles;
+}
+
 function buildNews(): SitemapUrl[] {
   return [
     {
@@ -279,6 +337,12 @@ function buildNews(): SitemapUrl[] {
       changefreq: "daily",
       priority: 0.8,
     },
+    ...readGeneratedNewsArticles().map((article) => ({
+      url: `${SITE_URL}/news/${article.slug}`,
+      lastmod: article.updated_at?.slice(0, 10) || today,
+      changefreq: "weekly",
+      priority: 0.55,
+    })),
   ];
 }
 
@@ -290,6 +354,7 @@ const segments: { name: string; builder: () => SitemapUrl[] }[] = [
   { name: "calculators", builder: buildCalculators },
   { name: "guides", builder: buildGuides },
   { name: "market-reports", builder: buildMarketReports },
+  { name: "market-intelligence", builder: buildMarketIntelligence },
   { name: "locations", builder: buildLocations },
   { name: "glossary", builder: buildGlossary },
   { name: "lender-panel", builder: buildLenderPanel },

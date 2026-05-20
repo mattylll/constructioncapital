@@ -20,6 +20,7 @@ const primaryLinks = [
 ];
 
 const resourceLinks = [
+  { href: "/market-intelligence", label: "Market Intelligence", meta: "50 UK city briefings, refreshed monthly" },
   { href: "/market-reports", label: "Market Reports", meta: "Local data & reports" },
   { href: "/guides", label: "Guides", meta: "Deep dives on every product" },
   { href: "/calculators", label: "Calculators", meta: "33 development-finance tools" },
@@ -29,6 +30,7 @@ const resourceLinks = [
 
 const secondaryLinks = [
   { href: "/about", label: "About" },
+  { href: "/introducers", label: "Introducers" },
   { href: "/contact", label: "Contact" },
 ];
 
