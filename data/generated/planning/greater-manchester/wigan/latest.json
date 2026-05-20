@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-05-18T18:07:11.635Z",
+  "updatedAt": "2026-05-20T08:07:09.140Z",
   "townSlug": "wigan",
   "countySlug": "greater-manchester",
   "localAuthority": "Wigan Council",
   "source": "idox",
   "summary": {
-    "total": 28,
-    "relevant": 2,
+    "total": 0,
+    "relevant": 0,
     "approved": 0,
-    "pending": 2,
+    "pending": 0,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
@@ -19,44 +19,5 @@
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": [
-    {
-      "reference": "A/26/100794/PDE",
-      "address": "25 Abbeydale Appley Bridge Wigan WN6 9HX",
-      "postcode": "WN6 9HX",
-      "ward": "",
-      "proposal": "Single storey rear extension projecting 3.6 metres, height to the eaves 2.55 metres and height to the ridge 3.61 metres following demolition of existing conservatory",
-      "category": "prior_approval",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Registered",
-      "decision": "Registered",
-      "receivedDate": "22/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDVY5FRR0DF00"
-    },
-    {
-      "reference": "A/26/100792/PDE",
-      "address": "Pennington Farm Pennington Lane Haigh Wigan WN2 1NH",
-      "postcode": "WN2 1NH",
-      "ward": "",
-      "proposal": "Single storey rear extension projecting 8 metres, height to the eaves 2.5 metres and height to the ridge 4 metres",
-      "category": "prior_approval",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Registered",
-      "decision": "Registered",
-      "receivedDate": "21/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDVWPNRR0DF00"
-    }
-  ]
+  "pendingApplications": []
 }

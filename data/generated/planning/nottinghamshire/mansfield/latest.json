@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-05-18T18:22:20.322Z",
+  "updatedAt": "2026-05-20T08:07:09.168Z",
   "townSlug": "mansfield",
   "countySlug": "nottinghamshire",
   "localAuthority": "Mansfield District Council",
   "source": "idox",
   "summary": {
-    "total": 32,
-    "relevant": 3,
+    "total": 1,
+    "relevant": 1,
     "approved": 0,
-    "pending": 3,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 1,
@@ -20,25 +20,6 @@
   },
   "approvedApplications": [],
   "pendingApplications": [
-    {
-      "reference": "2026/0270/FUL",
-      "address": "Rear Of 15 Clipstone Road East Forest Town Nottinghamshire NG19 0HS",
-      "postcode": "NG19 0HS",
-      "ward": "",
-      "proposal": "ERECTION OF A DETACHED DWELLING TO THE REAR OF 15 CLIPSTONE ROAD EAST TO INCLUDE INDEPENDANT ACCESS FROM CLIPSTONE DRIVE.",
-      "category": "new_build",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Registered",
-      "decision": "Registered",
-      "receivedDate": "14/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.mansfield.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TF0NK1KMMBM00"
-    },
     {
       "reference": "2026/0263/COU",
       "address": "87 Leeming Lane South Mansfield Woodhouse Nottinghamshire NG19 9BD",
@@ -57,25 +38,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.mansfield.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEVMZDKMMAV00"
-    },
-    {
-      "reference": "2026/0251/FUL",
-      "address": "181 Sherwood Street Warsop Nottinghamshire NG20 0HG",
-      "postcode": "NG20 0HG",
-      "ward": "",
-      "proposal": "NEW DWELLING WITH DROPPED KERB ACCESS",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Registered",
-      "decision": "Registered",
-      "receivedDate": "06/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.mansfield.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEM5BYKMM9U00"
     }
   ]
 }
