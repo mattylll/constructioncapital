@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.324Z",
+  "updatedAt": "2026-05-20T15:21:59.874Z",
   "townSlug": "bedminster",
   "countySlug": "bristol",
   "stats": {
-    "medianPrice": 346250,
+    "medianPrice": 347013,
     "medianByType": {
       "D": 550000,
-      "S": 368500,
+      "S": 370000,
       "T": 375000,
       "F": 255000
     },
-    "transactionCount12m": 4668,
-    "yoyChange": 1.8,
+    "transactionCount12m": 4655,
+    "yoyChange": 2.1,
     "newBuildCount": 16,
-    "existingCount": 4652,
-    "newBuildPremium": -32.8
+    "existingCount": 4639,
+    "newBuildPremium": -32.9
   },
   "recentTransactions": [
     {
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "L",
       "address": "121, HAMPTON ROAD"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 325000,
+      "transactions": 483
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 311000,
+      "transactions": 553
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 317500,
+      "transactions": 519
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 318100,
+      "transactions": 496
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 329978,
+      "transactions": 542
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 325000,
+      "transactions": 526
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 346465,
+      "transactions": 606
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 335250,
+      "transactions": 703
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 340000,
+      "transactions": 644
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 365000,
+      "transactions": 724
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 330000,
+      "transactions": 600
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 352250,
+      "transactions": 598
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 335000,
+      "transactions": 512
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 345000,
+      "transactions": 576
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 355000,
+      "transactions": 1215
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 300500,
+      "transactions": 250
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 310000,
+      "transactions": 429
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 340000,
+      "transactions": 450
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 350000,
+      "transactions": 515
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 365500,
+      "transactions": 550
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 342500,
+      "transactions": 533
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 340000,
+      "transactions": 557
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 362500,
+      "transactions": 491
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 350000,
+      "transactions": 430
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 350000,
+      "transactions": 375
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 340000,
+      "transactions": 361
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 347013,
+      "transactions": 173
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 319995,
+      "transactions": 1555
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 325000,
+      "transactions": 1564
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 340000,
+      "transactions": 1953
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 350000,
+      "transactions": 1922
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 350000,
+      "transactions": 2303
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 317000,
+      "transactions": 1129
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 350000,
+      "transactions": 1598
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 350000,
+      "transactions": 1478
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 347000,
+      "transactions": 909
     }
   ]
 }

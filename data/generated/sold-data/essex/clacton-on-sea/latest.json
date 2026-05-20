@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.302Z",
+  "updatedAt": "2026-05-20T15:21:59.826Z",
   "townSlug": "clacton-on-sea",
   "countySlug": "essex",
   "stats": {
@@ -7,13 +7,13 @@
     "medianByType": {
       "D": 355000,
       "S": 255000,
-      "T": 208500,
+      "T": 208250,
       "F": 149375
     },
-    "transactionCount12m": 1879,
+    "transactionCount12m": 1874,
     "yoyChange": -1.8,
     "newBuildCount": 73,
-    "existingCount": 1806,
+    "existingCount": 1801,
     "newBuildPremium": 47.2
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "F",
       "address": "64, GRAVEL HILL WAY"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 255000,
+      "transactions": 173
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 257500,
+      "transactions": 205
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 275000,
+      "transactions": 238
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 275000,
+      "transactions": 205
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 275000,
+      "transactions": 263
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 269500,
+      "transactions": 271
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 272000,
+      "transactions": 273
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 262500,
+      "transactions": 317
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 280000,
+      "transactions": 255
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 280000,
+      "transactions": 307
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 270000,
+      "transactions": 321
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 290000,
+      "transactions": 320
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 280000,
+      "transactions": 235
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 289950,
+      "transactions": 273
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 290000,
+      "transactions": 542
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 225000,
+      "transactions": 151
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 275000,
+      "transactions": 199
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 273500,
+      "transactions": 229
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 265000,
+      "transactions": 203
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 265000,
+      "transactions": 215
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 278500,
+      "transactions": 198
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 260000,
+      "transactions": 218
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 274000,
+      "transactions": 174
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 260000,
+      "transactions": 194
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 265000,
+      "transactions": 144
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 271250,
+      "transactions": 142
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 260000,
+      "transactions": 63
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 261000,
+      "transactions": 616
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 271500,
+      "transactions": 739
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 270000,
+      "transactions": 845
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 280000,
+      "transactions": 948
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 287500,
+      "transactions": 1050
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 262500,
+      "transactions": 579
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 270000,
+      "transactions": 616
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 265000,
+      "transactions": 586
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 265000,
+      "transactions": 349
     }
   ]
 }

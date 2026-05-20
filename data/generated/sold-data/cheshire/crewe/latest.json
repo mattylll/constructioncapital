@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.918Z",
+  "updatedAt": "2026-05-20T15:22:01.047Z",
   "townSlug": "crewe",
   "countySlug": "cheshire",
   "stats": {
-    "medianPrice": 208500,
+    "medianPrice": 208000,
     "medianByType": {
       "D": 345000,
       "S": 200000,
       "T": 125000,
-      "F": 94500
+      "F": 96000
     },
-    "transactionCount12m": 1260,
-    "yoyChange": 4.3,
+    "transactionCount12m": 1255,
+    "yoyChange": 4,
     "newBuildCount": 18,
-    "existingCount": 1242,
+    "existingCount": 1237,
     "newBuildPremium": 43.4
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "F",
       "address": "18, ASPHODEL ROAD"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 185000,
+      "transactions": 102
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 175500,
+      "transactions": 133
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 190000,
+      "transactions": 169
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 169586,
+      "transactions": 120
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 185000,
+      "transactions": 153
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 204000,
+      "transactions": 142
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 198000,
+      "transactions": 167
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 180000,
+      "transactions": 159
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 200000,
+      "transactions": 161
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 196250,
+      "transactions": 176
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 200500,
+      "transactions": 176
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 215000,
+      "transactions": 140
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 185000,
+      "transactions": 137
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 181188,
+      "transactions": 168
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 245750,
+      "transactions": 256
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 174000,
+      "transactions": 100
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 182500,
+      "transactions": 168
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 210000,
+      "transactions": 161
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 215000,
+      "transactions": 115
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 219000,
+      "transactions": 150
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 188500,
+      "transactions": 136
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 204750,
+      "transactions": 134
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 228500,
+      "transactions": 124
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 215000,
+      "transactions": 129
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 205000,
+      "transactions": 75
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 185000,
+      "transactions": 88
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 260000,
+      "transactions": 53
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 185000,
+      "transactions": 404
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 185000,
+      "transactions": 415
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 195000,
+      "transactions": 487
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 205000,
+      "transactions": 492
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 215000,
+      "transactions": 561
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 187360,
+      "transactions": 429
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 205000,
+      "transactions": 401
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 220000,
+      "transactions": 387
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 200000,
+      "transactions": 216
     }
   ]
 }

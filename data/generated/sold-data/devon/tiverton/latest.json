@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.414Z",
+  "updatedAt": "2026-05-20T15:22:00.062Z",
   "townSlug": "tiverton",
   "countySlug": "devon",
   "stats": {
@@ -10,11 +10,11 @@
       "T": 224498,
       "F": 120000
     },
-    "transactionCount12m": 857,
+    "transactionCount12m": 856,
     "yoyChange": -6.8,
     "newBuildCount": 27,
-    "existingCount": 830,
-    "newBuildPremium": 23.4
+    "existingCount": 829,
+    "newBuildPremium": 22.7
   },
   "recentTransactions": [
     {
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "F",
       "address": "12, GREENWOOD"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 282500,
+      "transactions": 82
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 275000,
+      "transactions": 89
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 287000,
+      "transactions": 122
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 300000,
+      "transactions": 92
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 287500,
+      "transactions": 114
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 294000,
+      "transactions": 128
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 292498,
+      "transactions": 112
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 282498,
+      "transactions": 132
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 275000,
+      "transactions": 117
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 297250,
+      "transactions": 138
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 325000,
+      "transactions": 123
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 287500,
+      "transactions": 126
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 324040,
+      "transactions": 87
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 280750,
+      "transactions": 110
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 330000,
+      "transactions": 203
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 266000,
+      "transactions": 56
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 272500,
+      "transactions": 101
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 270000,
+      "transactions": 102
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 269000,
+      "transactions": 116
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 280000,
+      "transactions": 99
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 290000,
+      "transactions": 91
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 265500,
+      "transactions": 94
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 280000,
+      "transactions": 75
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 275000,
+      "transactions": 75
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 246500,
+      "transactions": 62
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 278000,
+      "transactions": 59
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 277500,
+      "transactions": 36
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 282500,
+      "transactions": 293
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 294500,
+      "transactions": 334
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 280000,
+      "transactions": 361
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 304000,
+      "transactions": 387
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 321500,
+      "transactions": 400
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 270000,
+      "transactions": 259
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 280000,
+      "transactions": 306
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 274000,
+      "transactions": 244
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 265000,
+      "transactions": 157
     }
   ]
 }

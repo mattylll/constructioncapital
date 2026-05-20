@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.897Z",
+  "updatedAt": "2026-05-20T15:22:01.009Z",
   "townSlug": "st-helens",
   "countySlug": "merseyside",
   "stats": {
@@ -7,14 +7,14 @@
     "medianByType": {
       "D": 321000,
       "S": 198000,
-      "T": 122500,
+      "T": 123000,
       "F": 95500
     },
-    "transactionCount12m": 1856,
+    "transactionCount12m": 1846,
     "yoyChange": -2.8,
     "newBuildCount": 31,
-    "existingCount": 1825,
-    "newBuildPremium": 55.9
+    "existingCount": 1815,
+    "newBuildPremium": 55.2
   },
   "recentTransactions": [
     {
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "L",
       "address": "APARTMENT 10, WHITE CROSS COURT, BORRON ROAD"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 157000,
+      "transactions": 135
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 170000,
+      "transactions": 190
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 168000,
+      "transactions": 235
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 160000,
+      "transactions": 194
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 170000,
+      "transactions": 231
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 180000,
+      "transactions": 243
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 183000,
+      "transactions": 232
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 185000,
+      "transactions": 275
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 180000,
+      "transactions": 246
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 185000,
+      "transactions": 288
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 180000,
+      "transactions": 314
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 185000,
+      "transactions": 255
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 162000,
+      "transactions": 179
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 175000,
+      "transactions": 250
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 204500,
+      "transactions": 369
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 166500,
+      "transactions": 155
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 160000,
+      "transactions": 248
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 190000,
+      "transactions": 212
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 165000,
+      "transactions": 209
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 173000,
+      "transactions": 196
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 178000,
+      "transactions": 182
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 170000,
+      "transactions": 250
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 176250,
+      "transactions": 162
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 175250,
+      "transactions": 184
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 180000,
+      "transactions": 131
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 184500,
+      "transactions": 130
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 170000,
+      "transactions": 68
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 166300,
+      "transactions": 560
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 173417,
+      "transactions": 668
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 180000,
+      "transactions": 753
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 180000,
+      "transactions": 857
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 185000,
+      "transactions": 798
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 170000,
+      "transactions": 615
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 171000,
+      "transactions": 587
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 172625,
+      "transactions": 596
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 180000,
+      "transactions": 329
     }
   ]
 }

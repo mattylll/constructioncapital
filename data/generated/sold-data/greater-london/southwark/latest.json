@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T19:24:07.854Z",
+  "updatedAt": "2026-05-20T15:21:58.568Z",
   "townSlug": "southwark",
   "countySlug": "greater-london",
   "stats": {
@@ -7,13 +7,13 @@
     "medianByType": {
       "D": 1460000,
       "S": 1340000,
-      "T": 872875,
+      "T": 870375,
       "F": 450000
     },
-    "transactionCount12m": 2132,
+    "transactionCount12m": 2127,
     "yoyChange": -3.7,
     "newBuildCount": 38,
-    "existingCount": 2094,
+    "existingCount": 2089,
     "newBuildPremium": 23.1
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "L",
       "address": "FLAT 13, THAMES HEIGHTS, 52 - 54, GAINSFORD STREET"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 605000,
+      "transactions": 211
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 555000,
+      "transactions": 223
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 510000,
+      "transactions": 250
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 496000,
+      "transactions": 237
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 599975,
+      "transactions": 362
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 625000,
+      "transactions": 384
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 545000,
+      "transactions": 371
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 537500,
+      "transactions": 374
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 550000,
+      "transactions": 307
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 546250,
+      "transactions": 388
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 522500,
+      "transactions": 308
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 525000,
+      "transactions": 291
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 600000,
+      "transactions": 238
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 536250,
+      "transactions": 278
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 495000,
+      "transactions": 652
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 475000,
+      "transactions": 119
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 515000,
+      "transactions": 233
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 540000,
+      "transactions": 251
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 547500,
+      "transactions": 276
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 562500,
+      "transactions": 262
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 581500,
+      "transactions": 254
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 511250,
+      "transactions": 268
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 550000,
+      "transactions": 171
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 485000,
+      "transactions": 187
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 500000,
+      "transactions": 157
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 440000,
+      "transactions": 124
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 510000,
+      "transactions": 57
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 550000,
+      "transactions": 684
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 591000,
+      "transactions": 983
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 548000,
+      "transactions": 1052
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 532482,
+      "transactions": 987
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 515000,
+      "transactions": 1168
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 525000,
+      "transactions": 603
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 558750,
+      "transactions": 792
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 510250,
+      "transactions": 626
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 485000,
+      "transactions": 338
     }
   ]
 }

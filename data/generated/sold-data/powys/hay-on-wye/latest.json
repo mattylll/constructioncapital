@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-18T19:24:09.370Z",
+  "updatedAt": "2026-05-20T15:22:01.936Z",
   "townSlug": "hay-on-wye",
   "countySlug": "powys",
   "stats": {
     "medianPrice": 250000,
     "medianByType": {
       "D": 340000,
-      "S": 212750,
+      "S": 213000,
       "T": 170000,
       "F": 100000
     },
-    "transactionCount12m": 1155,
-    "yoyChange": -1,
-    "newBuildCount": 16,
-    "existingCount": 1139,
-    "newBuildPremium": 12
+    "transactionCount12m": 1149,
+    "yoyChange": -0.8,
+    "newBuildCount": 15,
+    "existingCount": 1134,
+    "newBuildPremium": 6
   },
   "recentTransactions": [
     {
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "F",
       "address": "246, CEIRIOG"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 235000,
+      "transactions": 113
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 225000,
+      "transactions": 146
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 230000,
+      "transactions": 159
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 220000,
+      "transactions": 147
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 237500,
+      "transactions": 172
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 255000,
+      "transactions": 129
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 242000,
+      "transactions": 219
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 255000,
+      "transactions": 196
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 278000,
+      "transactions": 172
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 243000,
+      "transactions": 185
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 243000,
+      "transactions": 163
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 250000,
+      "transactions": 181
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 260000,
+      "transactions": 112
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 248000,
+      "transactions": 156
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 273500,
+      "transactions": 194
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 270000,
+      "transactions": 157
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 230000,
+      "transactions": 167
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 215000,
+      "transactions": 136
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 275000,
+      "transactions": 145
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 264000,
+      "transactions": 135
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 234950,
+      "transactions": 129
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 240000,
+      "transactions": 130
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 245500,
+      "transactions": 111
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 250000,
+      "transactions": 99
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 270000,
+      "transactions": 67
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 249000,
+      "transactions": 69
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 250000,
+      "transactions": 37
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 230000,
+      "transactions": 418
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 240000,
+      "transactions": 448
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 255000,
+      "transactions": 587
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 245000,
+      "transactions": 529
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 260000,
+      "transactions": 462
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 237500,
+      "transactions": 460
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 260000,
+      "transactions": 409
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 245000,
+      "transactions": 340
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 250000,
+      "transactions": 173
     }
   ]
 }

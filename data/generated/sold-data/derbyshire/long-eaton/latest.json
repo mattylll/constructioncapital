@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.661Z",
+  "updatedAt": "2026-05-20T15:22:00.544Z",
   "townSlug": "long-eaton",
   "countySlug": "derbyshire",
   "stats": {
-    "medianPrice": 208000,
+    "medianPrice": 207250,
     "medianByType": {
       "D": 320000,
       "S": 210000,
       "T": 160000,
       "F": 110000
     },
-    "transactionCount12m": 1313,
-    "yoyChange": -1,
+    "transactionCount12m": 1306,
+    "yoyChange": -1.3,
     "newBuildCount": 0,
-    "existingCount": 1313,
+    "existingCount": 1306,
     "newBuildPremium": null
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "F",
       "address": "87, CURZON STREET"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 200000,
+      "transactions": 105
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 212000,
+      "transactions": 134
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 181125,
+      "transactions": 148
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 190001,
+      "transactions": 117
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 209000,
+      "transactions": 169
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 195000,
+      "transactions": 126
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 208000,
+      "transactions": 185
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 210000,
+      "transactions": 185
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 195000,
+      "transactions": 129
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 202000,
+      "transactions": 178
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 220000,
+      "transactions": 176
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 210000,
+      "transactions": 160
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 215000,
+      "transactions": 137
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 200000,
+      "transactions": 177
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 215000,
+      "transactions": 261
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 195000,
+      "transactions": 105
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 210000,
+      "transactions": 148
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 195000,
+      "transactions": 140
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 205000,
+      "transactions": 153
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 220000,
+      "transactions": 166
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 196000,
+      "transactions": 138
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 218000,
+      "transactions": 177
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 209000,
+      "transactions": 127
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 200000,
+      "transactions": 106
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 218000,
+      "transactions": 86
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 210000,
+      "transactions": 96
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 230000,
+      "transactions": 43
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 200000,
+      "transactions": 387
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 200000,
+      "transactions": 412
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 207000,
+      "transactions": 499
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 212250,
+      "transactions": 514
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 210000,
+      "transactions": 575
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 200000,
+      "transactions": 393
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 205000,
+      "transactions": 457
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 210000,
+      "transactions": 410
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 215000,
+      "transactions": 225
     }
   ]
 }

@@ -19,7 +19,7 @@ export interface TownStats {
   marketSnapshot: {
     medianPrice: number;
     transactionCount12m: number;
-    yoyPriceChange: number;
+    yoyPriceChange: number | null;
     approvedApps12m: number;
     pipelineUnits: number;
     pipelineGdv: number;
@@ -37,6 +37,18 @@ export interface SoldTransaction {
   address: string;
 }
 
+export interface MonthlyHistoryPoint {
+  month: string; // YYYY-MM
+  medianPrice: number;
+  transactions: number;
+}
+
+export interface QuarterlyHistoryPoint {
+  quarter: string; // YYYY-Q1..Q4
+  medianPrice: number;
+  transactions: number;
+}
+
 export interface SoldData {
   updatedAt: string;
   townSlug: string;
@@ -45,12 +57,16 @@ export interface SoldData {
     medianPrice: number;
     medianByType: Record<string, number>;
     transactionCount12m: number;
-    yoyChange: number;
+    yoyChange: number | null;
     newBuildCount: number;
     existingCount: number;
-    newBuildPremium: number;
+    newBuildPremium: number | null;
   };
   recentTransactions: SoldTransaction[];
+  /** Last 36 months of median price + transaction count (added 2026-05). */
+  monthlyHistory?: MonthlyHistoryPoint[];
+  /** Quarterly aggregates for the same window. */
+  quarterlyHistory?: QuarterlyHistoryPoint[];
 }
 
 export interface PlanningApp {
@@ -111,7 +127,7 @@ return JSON.parse(content) as T;
 export interface CountyAggregateData {
   medianPrice: number;
   totalTransactions: number;
-  avgYoyChange: number;
+  avgYoyChange: number | null;
   totalNewBuilds: number;
   medianByType: Record<string, number>;
   townCount: number;
@@ -120,7 +136,7 @@ export interface CountyAggregateData {
     slug: string;
     medianPrice: number;
     transactionCount12m: number;
-    yoyChange: number;
+    yoyChange: number | null;
     newBuildCount: number;
     medianByType: Record<string, number>;
   }[];
@@ -168,7 +184,7 @@ export function getCountyAggregateData(
     allPrices.push(data.stats.medianPrice);
     totalTx += data.stats.transactionCount12m;
     totalNB += data.stats.newBuildCount;
-    yoyValues.push(data.stats.yoyChange);
+    if (data.stats.yoyChange !== null) yoyValues.push(data.stats.yoyChange);
     if (data.stats.medianByType.D) typeD.push(data.stats.medianByType.D);
     if (data.stats.medianByType.S) typeS.push(data.stats.medianByType.S);
     if (data.stats.medianByType.T) typeT.push(data.stats.medianByType.T);
@@ -182,7 +198,7 @@ export function getCountyAggregateData(
     totalTransactions: totalTx,
     avgYoyChange: yoyValues.length > 0
       ? parseFloat((yoyValues.reduce((a, b) => a + b, 0) / yoyValues.length).toFixed(1))
-      : 0,
+      : null,
     totalNewBuilds: totalNB,
     medianByType: {
       ...(typeD.length > 0 ? { D: median(typeD) } : {}),
@@ -251,8 +267,8 @@ export interface GuideMarketData {
   /** Aggregated sold price stats across all related counties */
   medianPrice: number;
   totalTransactions: number;
-  avgYoyChange: number;
-  newBuildPremium: number;
+  avgYoyChange: number | null;
+  newBuildPremium: number | null;
   medianByType: Record<string, number>;
   /** Top towns by transaction count — for internal linking */
   topTowns: {
@@ -261,7 +277,7 @@ export interface GuideMarketData {
     countySlug: string;
     medianPrice: number;
     transactionCount12m: number;
-    yoyChange: number;
+    yoyChange: number | null;
   }[];
   /** Planning pipeline — only populated if planning data exists for related counties */
   planning: {
@@ -324,8 +340,8 @@ export function getGuideMarketData(
 
       allPrices.push(data.stats.medianPrice);
       totalTx += data.stats.transactionCount12m;
-      yoyValues.push(data.stats.yoyChange);
-      if (data.stats.newBuildPremium !== 0) {
+      if (data.stats.yoyChange !== null) yoyValues.push(data.stats.yoyChange);
+      if (data.stats.newBuildPremium !== null) {
         newBuildPremiums.push(data.stats.newBuildPremium);
       }
       if (data.stats.medianByType.D) typeD.push(data.stats.medianByType.D);
@@ -376,10 +392,10 @@ export function getGuideMarketData(
     totalTransactions: totalTx,
     avgYoyChange: yoyValues.length > 0
       ? parseFloat((yoyValues.reduce((a, b) => a + b, 0) / yoyValues.length).toFixed(1))
-      : 0,
+      : null,
     newBuildPremium: newBuildPremiums.length > 0
       ? parseFloat((newBuildPremiums.reduce((a, b) => a + b, 0) / newBuildPremiums.length).toFixed(1))
-      : 0,
+      : null,
     medianByType: {
       ...(typeD.length > 0 ? { D: median(typeD) } : {}),
       ...(typeS.length > 0 ? { S: median(typeS) } : {}),

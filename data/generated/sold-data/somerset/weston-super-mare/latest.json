@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.389Z",
+  "updatedAt": "2026-05-20T15:22:00.008Z",
   "townSlug": "weston-super-mare",
   "countySlug": "somerset",
   "stats": {
@@ -10,10 +10,10 @@
       "T": 265000,
       "F": 180000
     },
-    "transactionCount12m": 2785,
+    "transactionCount12m": 2779,
     "yoyChange": -1.6,
     "newBuildCount": 63,
-    "existingCount": 2722,
+    "existingCount": 2716,
     "newBuildPremium": 22.6
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "L",
       "address": "APARTMENT 29, GRANGE LODGE, 5, ST PETERS ROAD"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 301500,
+      "transactions": 242
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 302850,
+      "transactions": 278
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 302500,
+      "transactions": 322
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 292500,
+      "transactions": 295
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 292475,
+      "transactions": 326
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 300000,
+      "transactions": 355
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 325000,
+      "transactions": 296
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 337375,
+      "transactions": 354
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 330000,
+      "transactions": 391
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 319288,
+      "transactions": 408
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 310000,
+      "transactions": 436
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 309000,
+      "transactions": 399
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 307000,
+      "transactions": 308
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 320000,
+      "transactions": 363
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 320000,
+      "transactions": 682
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 273500,
+      "transactions": 158
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 310000,
+      "transactions": 255
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 310000,
+      "transactions": 352
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 305000,
+      "transactions": 321
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 300000,
+      "transactions": 325
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 312500,
+      "transactions": 261
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 310000,
+      "transactions": 342
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 320000,
+      "transactions": 278
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 310000,
+      "transactions": 256
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 315000,
+      "transactions": 201
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 310000,
+      "transactions": 203
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 308000,
+      "transactions": 106
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 302850,
+      "transactions": 842
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 300000,
+      "transactions": 976
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 330000,
+      "transactions": 1041
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 313500,
+      "transactions": 1243
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 317500,
+      "transactions": 1353
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 300000,
+      "transactions": 765
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 306000,
+      "transactions": 907
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 310000,
+      "transactions": 876
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 310000,
+      "transactions": 510
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.287Z",
+  "updatedAt": "2026-05-20T15:21:59.800Z",
   "townSlug": "brentwood",
   "countySlug": "essex",
   "stats": {
     "medianPrice": 500000,
     "medianByType": {
       "D": 820000,
-      "S": 536250,
+      "S": 535000,
       "T": 416000,
       "F": 270000
     },
-    "transactionCount12m": 870,
+    "transactionCount12m": 867,
     "yoyChange": 2.5,
     "newBuildCount": 14,
-    "existingCount": 856,
+    "existingCount": 853,
     "newBuildPremium": 6.9
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "L",
       "address": "2, PRIMROSE COURT, KINGS ROAD"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 453433,
+      "transactions": 90
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 450000,
+      "transactions": 83
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 417500,
+      "transactions": 95
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 475000,
+      "transactions": 98
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 537500,
+      "transactions": 129
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 425000,
+      "transactions": 82
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 530000,
+      "transactions": 119
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 465000,
+      "transactions": 112
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 546250,
+      "transactions": 136
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 475000,
+      "transactions": 157
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 484000,
+      "transactions": 128
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 450000,
+      "transactions": 109
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 470000,
+      "transactions": 96
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 495000,
+      "transactions": 126
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 480000,
+      "transactions": 290
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 410000,
+      "transactions": 67
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 517000,
+      "transactions": 83
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 555000,
+      "transactions": 95
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 480000,
+      "transactions": 98
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 477500,
+      "transactions": 126
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 530000,
+      "transactions": 83
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 501000,
+      "transactions": 125
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 492500,
+      "transactions": 94
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 525000,
+      "transactions": 77
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 460000,
+      "transactions": 57
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 495000,
+      "transactions": 50
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 422500,
+      "transactions": 26
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 450000,
+      "transactions": 268
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 490000,
+      "transactions": 309
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 515000,
+      "transactions": 367
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 475000,
+      "transactions": 394
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 483500,
+      "transactions": 512
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 500000,
+      "transactions": 245
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 490000,
+      "transactions": 307
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 503000,
+      "transactions": 296
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 465000,
+      "transactions": 133
     }
   ]
 }

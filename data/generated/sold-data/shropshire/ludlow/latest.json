@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.634Z",
+  "updatedAt": "2026-05-20T15:22:00.490Z",
   "townSlug": "ludlow",
   "countySlug": "shropshire",
   "stats": {
-    "medianPrice": 267500,
+    "medianPrice": 265000,
     "medianByType": {
       "D": 340000,
-      "S": 242000,
+      "S": 241000,
       "T": 220000,
       "F": 110000
     },
-    "transactionCount12m": 192,
-    "yoyChange": -1.9,
+    "transactionCount12m": 191,
+    "yoyChange": -2.9,
     "newBuildCount": 4,
-    "existingCount": 188,
+    "existingCount": 187,
     "newBuildPremium": 5.6
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "F",
       "address": "TOLWORTH, FISHMORE ROAD"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 280000,
+      "transactions": 20
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 242000,
+      "transactions": 13
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 265000,
+      "transactions": 28
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 305000,
+      "transactions": 28
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 262500,
+      "transactions": 37
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 280000,
+      "transactions": 23
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 292500,
+      "transactions": 24
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 248770,
+      "transactions": 25
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 275500,
+      "transactions": 37
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 270000,
+      "transactions": 38
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 265000,
+      "transactions": 24
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 266500,
+      "transactions": 14
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 300000,
+      "transactions": 12
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 252500,
+      "transactions": 13
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 237750,
+      "transactions": 36
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 280000,
+      "transactions": 23
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 292000,
+      "transactions": 13
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 279950,
+      "transactions": 17
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 249000,
+      "transactions": 22
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 300000,
+      "transactions": 19
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 225000,
+      "transactions": 14
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 275000,
+      "transactions": 26
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 220000,
+      "transactions": 29
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 285000,
+      "transactions": 15
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 250000,
+      "transactions": 21
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 287500,
+      "transactions": 10
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 317500,
+      "transactions": 12
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 270000,
+      "transactions": 61
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 280000,
+      "transactions": 88
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 280000,
+      "transactions": 86
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 270000,
+      "transactions": 76
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 250000,
+      "transactions": 61
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 279950,
+      "transactions": 53
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 242000,
+      "transactions": 55
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 265000,
+      "transactions": 70
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 280000,
+      "transactions": 43
     }
   ]
 }

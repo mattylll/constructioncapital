@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.586Z",
+  "updatedAt": "2026-05-20T15:22:00.398Z",
   "townSlug": "stoke-on-trent",
   "countySlug": "staffordshire",
   "stats": {
@@ -10,10 +10,10 @@
       "T": 106000,
       "F": 80000
     },
-    "transactionCount12m": 2658,
+    "transactionCount12m": 2651,
     "yoyChange": 1.4,
     "newBuildCount": 27,
-    "existingCount": 2631,
+    "existingCount": 2624,
     "newBuildPremium": 20.4
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "F",
       "address": "10, FARNE GROVE"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 125000,
+      "transactions": 284
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 142000,
+      "transactions": 273
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 130000,
+      "transactions": 337
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 141000,
+      "transactions": 305
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 133000,
+      "transactions": 355
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 136000,
+      "transactions": 314
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 143300,
+      "transactions": 367
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 133000,
+      "transactions": 345
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 142750,
+      "transactions": 312
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 140000,
+      "transactions": 379
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 142000,
+      "transactions": 377
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 128330,
+      "transactions": 436
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 135000,
+      "transactions": 299
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 150000,
+      "transactions": 327
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 155000,
+      "transactions": 441
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 125000,
+      "transactions": 254
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 140000,
+      "transactions": 318
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 150000,
+      "transactions": 304
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 145000,
+      "transactions": 299
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 145000,
+      "transactions": 303
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 146750,
+      "transactions": 322
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 140000,
+      "transactions": 318
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 141050,
+      "transactions": 256
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 140000,
+      "transactions": 210
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 137000,
+      "transactions": 191
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 142500,
+      "transactions": 185
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 140000,
+      "transactions": 106
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 130750,
+      "transactions": 894
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 136000,
+      "transactions": 974
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 140000,
+      "transactions": 1024
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 138000,
+      "transactions": 1192
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 149000,
+      "transactions": 1067
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 135000,
+      "transactions": 876
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 145000,
+      "transactions": 924
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 140000,
+      "transactions": 784
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 140000,
+      "transactions": 482
     }
   ]
 }

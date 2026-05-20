@@ -741,12 +741,12 @@ function computeStats(transactions: Transaction[]) {
 
   const medianPrice = median(prices12m);
   const medianPrior = median(pricesPrior);
-  const yoyChange =
+  const yoyChange: number | null =
     medianPrior > 0
       ? parseFloat(
           (((medianPrice - medianPrior) / medianPrior) * 100).toFixed(1)
         )
-      : 0;
+      : null;
 
   // Median by property type
   const medianByType: Record<string, number> = {};
@@ -766,12 +766,52 @@ function computeStats(transactions: Transaction[]) {
     newBuilds.length >= 3 ? median(newBuilds.map((t) => t.price)) : 0;
   const existingMedian =
     existing.length >= 3 ? median(existing.map((t) => t.price)) : 0;
-  const newBuildPremium =
-    existingMedian > 0
+  const newBuildPremium: number | null =
+    existingMedian > 0 && newBuildMedian > 0
       ? parseFloat(
           (((newBuildMedian - existingMedian) / existingMedian) * 100).toFixed(1)
         )
-      : 0;
+      : null;
+
+  // Monthly history — last 36 months of median price + transaction count.
+  // Backs sparklines + trend visualisations on the market-intelligence pages.
+  const threeYearsAgo = new Date(now);
+  threeYearsAgo.setFullYear(threeYearsAgo.getFullYear() - 3);
+  const threeYearsAgoStr = threeYearsAgo.toISOString().split("T")[0];
+
+  const last36m = transactions.filter((t) => t.date >= threeYearsAgoStr);
+  const monthlyBuckets = new Map<string, number[]>();
+  for (const t of last36m) {
+    const ym = t.date.slice(0, 7); // YYYY-MM
+    if (!monthlyBuckets.has(ym)) monthlyBuckets.set(ym, []);
+    monthlyBuckets.get(ym)!.push(t.price);
+  }
+  const monthlyHistory = Array.from(monthlyBuckets.entries())
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([month, prices]) => ({
+      month,
+      medianPrice: median(prices),
+      transactions: prices.length,
+    }));
+
+  // Quarterly series — denser for charts when monthly is sparse
+  const quarterlyBuckets = new Map<string, number[]>();
+  const quarterlyTxns = new Map<string, number>();
+  for (const t of last36m) {
+    const d = new Date(t.date);
+    const q = Math.floor(d.getMonth() / 3) + 1;
+    const key = `${d.getFullYear()}-Q${q}`;
+    if (!quarterlyBuckets.has(key)) quarterlyBuckets.set(key, []);
+    quarterlyBuckets.get(key)!.push(t.price);
+    quarterlyTxns.set(key, (quarterlyTxns.get(key) || 0) + 1);
+  }
+  const quarterlyHistory = Array.from(quarterlyBuckets.entries())
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([quarter, prices]) => ({
+      quarter,
+      medianPrice: median(prices),
+      transactions: quarterlyTxns.get(quarter) || 0,
+    }));
 
   return {
     medianPrice,
@@ -793,6 +833,8 @@ function computeStats(transactions: Transaction[]) {
         tenure: t.tenure,
         address: t.address,
       })),
+    monthlyHistory,
+    quarterlyHistory,
   };
 }
 
@@ -832,6 +874,8 @@ function writeOutputFiles(
           newBuildPremium: stats.newBuildPremium,
         },
         recentTransactions: stats.recentTransactions,
+        monthlyHistory: stats.monthlyHistory,
+        quarterlyHistory: stats.quarterlyHistory,
       },
       null,
       2
@@ -948,8 +992,9 @@ async function main() {
   for (const year of years) {
     const csvPath = path.join(DATA_DIR, `pp-${year}.csv`);
     if (!fs.existsSync(csvPath)) {
-      console.log(`  Warning: ${csvPath} not found, skipping`);
-      continue;
+      throw new Error(
+        `Required CSV ${csvPath} not found. All requested years must load — silently skipping breaks YoY calcs.`
+      );
     }
     console.log(`\n  Processing ${year}...`);
     await streamAndBucket(csvPath, districtBuckets, townBuckets);

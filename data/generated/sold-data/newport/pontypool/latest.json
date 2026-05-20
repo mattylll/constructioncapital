@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-18T19:24:09.362Z",
+  "updatedAt": "2026-05-20T15:22:01.927Z",
   "townSlug": "pontypool",
   "countySlug": "newport",
   "stats": {
-    "medianPrice": 177500,
+    "medianPrice": 177750,
     "medianByType": {
       "D": 325000,
       "S": 195000,
       "T": 150000,
       "F": 117500
     },
-    "transactionCount12m": 371,
-    "yoyChange": 4.4,
+    "transactionCount12m": 368,
+    "yoyChange": 4.6,
     "newBuildCount": 0,
-    "existingCount": 371,
+    "existingCount": 368,
     "newBuildPremium": null
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "F",
       "address": "18, MOUNT ROAD"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 160000,
+      "transactions": 35
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 157500,
+      "transactions": 38
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 160000,
+      "transactions": 55
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 160000,
+      "transactions": 35
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 200000,
+      "transactions": 37
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 170000,
+      "transactions": 43
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 160000,
+      "transactions": 59
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 180000,
+      "transactions": 47
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 180000,
+      "transactions": 36
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 185000,
+      "transactions": 49
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 168000,
+      "transactions": 41
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 167000,
+      "transactions": 51
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 170000,
+      "transactions": 38
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 155000,
+      "transactions": 33
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 180000,
+      "transactions": 63
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 164000,
+      "transactions": 30
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 155000,
+      "transactions": 33
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 200000,
+      "transactions": 45
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 179950,
+      "transactions": 47
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 181250,
+      "transactions": 44
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 170000,
+      "transactions": 50
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 196000,
+      "transactions": 52
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 187000,
+      "transactions": 27
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 157000,
+      "transactions": 33
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 167500,
+      "transactions": 18
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 160000,
+      "transactions": 28
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 149000,
+      "transactions": 9
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 160000,
+      "transactions": 128
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 170000,
+      "transactions": 115
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 171500,
+      "transactions": 142
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 170000,
+      "transactions": 141
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 170000,
+      "transactions": 134
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 180000,
+      "transactions": 108
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 173500,
+      "transactions": 141
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 175500,
+      "transactions": 112
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 165000,
+      "transactions": 55
     }
   ]
 }

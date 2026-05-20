@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T19:24:09.070Z",
+  "updatedAt": "2026-05-20T15:22:01.340Z",
   "townSlug": "knaresborough",
   "countySlug": "north-yorkshire",
   "stats": {
@@ -10,11 +10,11 @@
       "T": 260000,
       "F": 157500
     },
-    "transactionCount12m": 237,
+    "transactionCount12m": 236,
     "yoyChange": 4.5,
     "newBuildCount": 22,
-    "existingCount": 215,
-    "newBuildPremium": 14.6
+    "existingCount": 214,
+    "newBuildPremium": 13.7
   },
   "recentTransactions": [
     {
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "L",
       "address": "2, HIGH BRIDGE HOUSE, HARROGATE ROAD"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 294998,
+      "transactions": 18
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 360000,
+      "transactions": 21
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 343000,
+      "transactions": 41
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 295800,
+      "transactions": 21
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 355000,
+      "transactions": 32
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 300808,
+      "transactions": 36
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 340500,
+      "transactions": 42
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 300000,
+      "transactions": 31
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 289975,
+      "transactions": 52
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 364000,
+      "transactions": 39
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 342500,
+      "transactions": 48
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 370995,
+      "transactions": 30
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 362500,
+      "transactions": 18
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 337500,
+      "transactions": 38
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 350000,
+      "transactions": 72
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 329498,
+      "transactions": 18
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 312500,
+      "transactions": 27
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 333000,
+      "transactions": 37
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 330000,
+      "transactions": 25
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 357000,
+      "transactions": 25
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 345000,
+      "transactions": 29
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 420000,
+      "transactions": 29
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 450000,
+      "transactions": 19
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 399975,
+      "transactions": 16
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 355000,
+      "transactions": 17
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 322500,
+      "transactions": 11
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 325000,
+      "transactions": 11
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 332000,
+      "transactions": 80
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 315000,
+      "transactions": 89
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 300000,
+      "transactions": 125
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 360000,
+      "transactions": 117
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 350000,
+      "transactions": 128
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 325000,
+      "transactions": 82
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 339950,
+      "transactions": 79
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 410000,
+      "transactions": 64
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 340000,
+      "transactions": 39
     }
   ]
 }

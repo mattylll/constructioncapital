@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.983Z",
+  "updatedAt": "2026-05-20T15:22:01.170Z",
   "townSlug": "huddersfield",
   "countySlug": "west-yorkshire",
   "stats": {
-    "medianPrice": 196750,
+    "medianPrice": 196000,
     "medianByType": {
-      "D": 380950,
-      "S": 219504,
+      "D": 380475,
+      "S": 217500,
       "T": 155000,
-      "F": 101500
+      "F": 102000
     },
-    "transactionCount12m": 1986,
-    "yoyChange": -1.6,
+    "transactionCount12m": 1974,
+    "yoyChange": -2,
     "newBuildCount": 31,
-    "existingCount": 1955,
+    "existingCount": 1943,
     "newBuildPremium": 66.6
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "F",
       "address": "4, MOOR LANE"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 170500,
+      "transactions": 162
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 188150,
+      "transactions": 184
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 171250,
+      "transactions": 209
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 180000,
+      "transactions": 212
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 181000,
+      "transactions": 258
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 190000,
+      "transactions": 251
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 187750,
+      "transactions": 280
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 220000,
+      "transactions": 281
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 195000,
+      "transactions": 255
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 197250,
+      "transactions": 366
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 195000,
+      "transactions": 313
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 210000,
+      "transactions": 373
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 176500,
+      "transactions": 195
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 220000,
+      "transactions": 287
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 210000,
+      "transactions": 436
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 178000,
+      "transactions": 149
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 185000,
+      "transactions": 229
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 195000,
+      "transactions": 222
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 190000,
+      "transactions": 251
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 200000,
+      "transactions": 233
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 185750,
+      "transactions": 206
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 210000,
+      "transactions": 224
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 185000,
+      "transactions": 185
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 217500,
+      "transactions": 196
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 192500,
+      "transactions": 141
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 200000,
+      "transactions": 154
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 198000,
+      "transactions": 55
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 174000,
+      "transactions": 555
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 185000,
+      "transactions": 721
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 204500,
+      "transactions": 816
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 200000,
+      "transactions": 1052
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 205000,
+      "transactions": 918
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 186500,
+      "transactions": 600
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 195000,
+      "transactions": 690
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 200000,
+      "transactions": 605
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 199000,
+      "transactions": 350
     }
   ]
 }

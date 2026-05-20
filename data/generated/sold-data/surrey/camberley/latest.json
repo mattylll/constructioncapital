@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.090Z",
+  "updatedAt": "2026-05-20T15:21:59.056Z",
   "townSlug": "camberley",
   "countySlug": "surrey",
   "stats": {
     "medianPrice": 475000,
     "medianByType": {
-      "D": 700000,
+      "D": 690000,
       "S": 471250,
       "T": 390000,
       "F": 220000
     },
-    "transactionCount12m": 927,
+    "transactionCount12m": 925,
     "yoyChange": 2.2,
     "newBuildCount": 11,
-    "existingCount": 916,
+    "existingCount": 914,
     "newBuildPremium": 8.4
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "F",
       "address": "18, LIME AVENUE"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 433000,
+      "transactions": 76
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 462500,
+      "transactions": 76
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 452500,
+      "transactions": 86
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 484975,
+      "transactions": 100
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 461500,
+      "transactions": 116
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 440000,
+      "transactions": 111
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 517500,
+      "transactions": 110
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 423750,
+      "transactions": 122
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 515625,
+      "transactions": 111
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 465000,
+      "transactions": 147
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 470000,
+      "transactions": 164
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 450000,
+      "transactions": 153
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 430000,
+      "transactions": 131
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 468000,
+      "transactions": 113
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 470000,
+      "transactions": 244
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 475000,
+      "transactions": 41
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 490000,
+      "transactions": 93
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 455000,
+      "transactions": 84
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 507500,
+      "transactions": 104
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 514000,
+      "transactions": 108
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 485000,
+      "transactions": 103
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 469250,
+      "transactions": 118
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 470000,
+      "transactions": 83
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 444500,
+      "transactions": 94
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 490500,
+      "transactions": 62
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 462500,
+      "transactions": 70
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 470000,
+      "transactions": 45
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 445000,
+      "transactions": 238
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 465000,
+      "transactions": 327
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 472500,
+      "transactions": 343
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 465000,
+      "transactions": 464
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 465000,
+      "transactions": 488
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 475000,
+      "transactions": 218
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 506500,
+      "transactions": 315
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 468000,
+      "transactions": 295
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 470000,
+      "transactions": 177
     }
   ]
 }

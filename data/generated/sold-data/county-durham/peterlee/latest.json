@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T19:24:09.133Z",
+  "updatedAt": "2026-05-20T15:22:01.468Z",
   "townSlug": "peterlee",
   "countySlug": "county-durham",
   "stats": {
@@ -10,10 +10,10 @@
       "T": 60000,
       "F": 34000
     },
-    "transactionCount12m": 476,
+    "transactionCount12m": 475,
     "yoyChange": 10.1,
     "newBuildCount": 0,
-    "existingCount": 476,
+    "existingCount": 475,
     "newBuildPremium": null
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "F",
       "address": "16, ASHWOOD MEADOWS"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 63000,
+      "transactions": 55
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 81500,
+      "transactions": 52
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 56500,
+      "transactions": 68
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 66250,
+      "transactions": 74
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 50000,
+      "transactions": 87
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 63000,
+      "transactions": 61
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 47000,
+      "transactions": 99
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 77500,
+      "transactions": 77
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 77000,
+      "transactions": 59
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 64000,
+      "transactions": 83
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 59000,
+      "transactions": 83
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 83000,
+      "transactions": 67
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 80000,
+      "transactions": 51
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 70000,
+      "transactions": 63
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 90000,
+      "transactions": 71
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 63706,
+      "transactions": 68
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 70000,
+      "transactions": 65
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 71250,
+      "transactions": 66
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 80000,
+      "transactions": 61
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 70155,
+      "transactions": 60
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 60000,
+      "transactions": 57
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 75000,
+      "transactions": 41
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 89950,
+      "transactions": 34
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 78000,
+      "transactions": 50
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 73000,
+      "transactions": 29
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 92250,
+      "transactions": 34
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 78000,
+      "transactions": 19
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 63500,
+      "transactions": 175
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 57000,
+      "transactions": 222
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 65500,
+      "transactions": 235
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 70000,
+      "transactions": 233
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 80000,
+      "transactions": 185
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 67000,
+      "transactions": 199
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 70000,
+      "transactions": 178
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 80000,
+      "transactions": 125
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 86000,
+      "transactions": 82
     }
   ]
 }

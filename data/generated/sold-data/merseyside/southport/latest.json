@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.893Z",
+  "updatedAt": "2026-05-20T15:22:01.000Z",
   "townSlug": "southport",
   "countySlug": "merseyside",
   "stats": {
-    "medianPrice": 212000,
+    "medianPrice": 212500,
     "medianByType": {
       "D": 359998,
       "S": 220000,
       "T": 185000,
       "F": 130000
     },
-    "transactionCount12m": 1091,
-    "yoyChange": 1,
+    "transactionCount12m": 1089,
+    "yoyChange": 1.2,
     "newBuildCount": 25,
-    "existingCount": 1066,
+    "existingCount": 1064,
     "newBuildPremium": 35.7
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "F",
       "address": "143, RADNOR DRIVE"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 187500,
+      "transactions": 86
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 177500,
+      "transactions": 120
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 191500,
+      "transactions": 142
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 190000,
+      "transactions": 129
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 225750,
+      "transactions": 136
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 181000,
+      "transactions": 138
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 205000,
+      "transactions": 151
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 230000,
+      "transactions": 170
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 220000,
+      "transactions": 153
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 220000,
+      "transactions": 204
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 223750,
+      "transactions": 182
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 217500,
+      "transactions": 126
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 195000,
+      "transactions": 141
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 200000,
+      "transactions": 167
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 220000,
+      "transactions": 229
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 190000,
+      "transactions": 73
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 177000,
+      "transactions": 105
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 177500,
+      "transactions": 114
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 201500,
+      "transactions": 118
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 230000,
+      "transactions": 150
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 222475,
+      "transactions": 110
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 223500,
+      "transactions": 140
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 209750,
+      "transactions": 98
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 219000,
+      "transactions": 98
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 200000,
+      "transactions": 79
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 213000,
+      "transactions": 77
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 225000,
+      "transactions": 46
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 185500,
+      "transactions": 348
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 195000,
+      "transactions": 403
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 220000,
+      "transactions": 474
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 220000,
+      "transactions": 512
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 208000,
+      "transactions": 537
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 182750,
+      "transactions": 292
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 219973,
+      "transactions": 378
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 218000,
+      "transactions": 336
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 210000,
+      "transactions": 202
     }
   ]
 }

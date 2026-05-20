@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-05-18T19:24:08.876Z",
+  "updatedAt": "2026-05-20T15:22:00.965Z",
   "townSlug": "lytham-st-annes",
   "countySlug": "lancashire",
   "stats": {
-    "medianPrice": 238000,
+    "medianPrice": 237250,
     "medianByType": {
       "D": 342250,
-      "S": 227500,
+      "S": 227000,
       "T": 180000,
       "F": 125000
     },
-    "transactionCount12m": 1079,
-    "yoyChange": -0.8,
+    "transactionCount12m": 1076,
+    "yoyChange": -1.1,
     "newBuildCount": 13,
-    "existingCount": 1066,
-    "newBuildPremium": 46.5
+    "existingCount": 1063,
+    "newBuildPremium": 47.1
   },
   "recentTransactions": [
     {
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "L",
       "address": "FLAT 2, SEFTON COURT, 42 - 44, NORTH PROMENADE"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 257500,
+      "transactions": 82
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 237000,
+      "transactions": 117
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 235000,
+      "transactions": 127
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 236495,
+      "transactions": 123
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 236000,
+      "transactions": 122
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 242998,
+      "transactions": 130
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 237248,
+      "transactions": 154
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 235000,
+      "transactions": 190
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 253497,
+      "transactions": 138
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 235000,
+      "transactions": 171
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 240000,
+      "transactions": 159
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 240000,
+      "transactions": 173
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 240000,
+      "transactions": 133
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 245000,
+      "transactions": 139
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 250000,
+      "transactions": 232
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 202500,
+      "transactions": 76
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 210000,
+      "transactions": 114
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 227000,
+      "transactions": 92
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 237500,
+      "transactions": 105
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 270000,
+      "transactions": 134
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 253250,
+      "transactions": 124
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 224000,
+      "transactions": 124
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 224012,
+      "transactions": 131
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 229000,
+      "transactions": 113
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 245000,
+      "transactions": 69
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 243000,
+      "transactions": 87
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 199500,
+      "transactions": 36
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 237250,
+      "transactions": 326
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 237500,
+      "transactions": 375
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 240498,
+      "transactions": 482
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 239995,
+      "transactions": 503
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 246250,
+      "transactions": 504
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 215000,
+      "transactions": 282
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 260000,
+      "transactions": 363
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 225000,
+      "transactions": 368
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 223750,
+      "transactions": 192
     }
   ]
 }

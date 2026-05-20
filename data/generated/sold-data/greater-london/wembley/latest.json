@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T19:24:07.754Z",
+  "updatedAt": "2026-05-20T15:21:58.339Z",
   "townSlug": "wembley",
   "countySlug": "greater-london",
   "stats": {
@@ -7,14 +7,14 @@
     "medianByType": {
       "D": 950000,
       "S": 660000,
-      "T": 630000,
-      "F": 401000
+      "T": 632500,
+      "F": 400000
     },
-    "transactionCount12m": 1605,
+    "transactionCount12m": 1595,
     "yoyChange": -0.9,
-    "newBuildCount": 147,
-    "existingCount": 1458,
-    "newBuildPremium": 10.3
+    "newBuildCount": 143,
+    "existingCount": 1452,
+    "newBuildPremium": 9.4
   },
   "recentTransactions": [
     {
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "L",
       "address": "GROUND FLOOR FLAT, 219, HARVIST ROAD"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 549500,
+      "transactions": 177
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 520000,
+      "transactions": 163
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 444500,
+      "transactions": 160
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 497500,
+      "transactions": 234
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 550000,
+      "transactions": 199
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 560000,
+      "transactions": 191
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 560000,
+      "transactions": 206
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 533500,
+      "transactions": 224
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 584625,
+      "transactions": 224
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 555000,
+      "transactions": 310
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 476500,
+      "transactions": 284
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 509125,
+      "transactions": 204
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 510600,
+      "transactions": 230
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 515000,
+      "transactions": 235
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 525000,
+      "transactions": 495
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 499975,
+      "transactions": 94
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 558000,
+      "transactions": 255
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 540000,
+      "transactions": 220
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 540000,
+      "transactions": 191
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 575000,
+      "transactions": 171
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 530000,
+      "transactions": 179
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 467500,
+      "transactions": 208
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 500000,
+      "transactions": 128
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 490000,
+      "transactions": 125
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 475000,
+      "transactions": 103
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 497000,
+      "transactions": 90
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 500000,
+      "transactions": 39
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 502500,
+      "transactions": 500
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 536549,
+      "transactions": 624
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 552500,
+      "transactions": 654
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 517350,
+      "transactions": 798
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 515000,
+      "transactions": 960
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 540000,
+      "transactions": 569
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 552500,
+      "transactions": 541
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 490000,
+      "transactions": 461
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 497000,
+      "transactions": 232
     }
   ]
 }

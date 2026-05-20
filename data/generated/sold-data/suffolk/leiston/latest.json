@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-05-18T19:24:09.209Z",
+  "updatedAt": "2026-05-20T15:22:01.601Z",
   "townSlug": "leiston",
   "countySlug": "suffolk",
   "stats": {
     "medianPrice": 257000,
     "medianByType": {
       "D": 410000,
-      "S": 250000,
+      "S": 253500,
       "T": 210000,
       "F": 132500
     },
-    "transactionCount12m": 83,
-    "yoyChange": 11,
+    "transactionCount12m": 82,
+    "yoyChange": 11.7,
     "newBuildCount": 0,
-    "existingCount": 83,
+    "existingCount": 82,
     "newBuildPremium": null
   },
   "recentTransactions": [
@@ -196,6 +196,190 @@
       "newBuild": false,
       "tenure": "L",
       "address": "SUITE 2, COLONIAL HOUSE, MASTER LORD INDUSTRIAL ESTATE"
+    }
+  ],
+  "monthlyHistory": [
+    {
+      "month": "2024-01",
+      "medianPrice": 327500,
+      "transactions": 9
+    },
+    {
+      "month": "2024-02",
+      "medianPrice": 270000,
+      "transactions": 5
+    },
+    {
+      "month": "2024-03",
+      "medianPrice": 203750,
+      "transactions": 8
+    },
+    {
+      "month": "2024-04",
+      "medianPrice": 249000,
+      "transactions": 15
+    },
+    {
+      "month": "2024-05",
+      "medianPrice": 288500,
+      "transactions": 8
+    },
+    {
+      "month": "2024-06",
+      "medianPrice": 197500,
+      "transactions": 12
+    },
+    {
+      "month": "2024-07",
+      "medianPrice": 203000,
+      "transactions": 9
+    },
+    {
+      "month": "2024-08",
+      "medianPrice": 259000,
+      "transactions": 10
+    },
+    {
+      "month": "2024-09",
+      "medianPrice": 170000,
+      "transactions": 11
+    },
+    {
+      "month": "2024-10",
+      "medianPrice": 235000,
+      "transactions": 14
+    },
+    {
+      "month": "2024-11",
+      "medianPrice": 198250,
+      "transactions": 18
+    },
+    {
+      "month": "2024-12",
+      "medianPrice": 210000,
+      "transactions": 13
+    },
+    {
+      "month": "2025-01",
+      "medianPrice": 261000,
+      "transactions": 12
+    },
+    {
+      "month": "2025-02",
+      "medianPrice": 235000,
+      "transactions": 15
+    },
+    {
+      "month": "2025-03",
+      "medianPrice": 267500,
+      "transactions": 20
+    },
+    {
+      "month": "2025-04",
+      "medianPrice": 260000,
+      "transactions": 9
+    },
+    {
+      "month": "2025-05",
+      "medianPrice": 230000,
+      "transactions": 11
+    },
+    {
+      "month": "2025-06",
+      "medianPrice": 250000,
+      "transactions": 5
+    },
+    {
+      "month": "2025-07",
+      "medianPrice": 270000,
+      "transactions": 17
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 230250,
+      "transactions": 8
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 199000,
+      "transactions": 8
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 255500,
+      "transactions": 12
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 225000,
+      "transactions": 4
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 425000,
+      "transactions": 5
+    },
+    {
+      "month": "2026-01",
+      "medianPrice": 210000,
+      "transactions": 7
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 355000,
+      "transactions": 10
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 185000,
+      "transactions": 3
+    }
+  ],
+  "quarterlyHistory": [
+    {
+      "quarter": "2024-Q1",
+      "medianPrice": 257500,
+      "transactions": 22
+    },
+    {
+      "quarter": "2024-Q2",
+      "medianPrice": 240000,
+      "transactions": 35
+    },
+    {
+      "quarter": "2024-Q3",
+      "medianPrice": 215000,
+      "transactions": 30
+    },
+    {
+      "quarter": "2024-Q4",
+      "medianPrice": 210000,
+      "transactions": 45
+    },
+    {
+      "quarter": "2025-Q1",
+      "medianPrice": 265000,
+      "transactions": 47
+    },
+    {
+      "quarter": "2025-Q2",
+      "medianPrice": 250000,
+      "transactions": 25
+    },
+    {
+      "quarter": "2025-Q3",
+      "medianPrice": 231000,
+      "transactions": 33
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 260000,
+      "transactions": 21
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 261000,
+      "transactions": 20
     }
   ]
 }
