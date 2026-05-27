@@ -1,23 +1,43 @@
 {
-  "updatedAt": "2026-05-18T18:35:35.373Z",
+  "updatedAt": "2026-05-26T21:52:31.269Z",
   "townSlug": "weston-super-mare",
   "countySlug": "somerset",
   "localAuthority": "North Somerset Council",
   "source": "idox",
   "summary": {
-    "total": 89,
-    "relevant": 0,
+    "total": 252,
+    "relevant": 1,
     "approved": 0,
-    "pending": 0,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 0,
-    "totalUnits": 0,
+    "pendingUnits": 1,
+    "totalUnits": 1,
     "approvedGdv": 0,
-    "pendingGdv": 0,
-    "totalEstimatedGDV": 0,
+    "pendingGdv": 310000,
+    "totalEstimatedGDV": 310000,
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "26/P/0814/NMA",
+      "address": "Cambridge Batch Garage Weston Road Long Ashton BS48 3QS",
+      "postcode": "BS48 3QS",
+      "ward": "",
+      "proposal": "Non-material amendment to application 23/P/0365/FUL (Demolition and clearance of Cambridge Batch Garage and associated buildings. Erection of no.11 dwellings with access from Weston Road) To allow for the removal of gates serving parking court for Plots 1-3 and formal approval of updated landscape drawings showing additional tree planting along north eastern boundary of site.",
+      "category": "other_residential",
+      "units": 1,
+      "estimatedGdv": 310000,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "15/04/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.n-somerset.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDJ7XKLPJ4Q00"
+    }
+  ]
 }

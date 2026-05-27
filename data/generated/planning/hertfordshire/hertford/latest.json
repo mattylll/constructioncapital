@@ -1,43 +1,23 @@
 {
-  "updatedAt": "2026-05-20T08:07:09.144Z",
+  "updatedAt": "2026-05-24T07:08:15.185Z",
   "townSlug": "hertford",
   "countySlug": "hertfordshire",
   "localAuthority": "East Hertfordshire District Council",
   "source": "idox",
   "summary": {
-    "total": 1,
-    "relevant": 1,
+    "total": 10,
+    "relevant": 0,
     "approved": 0,
-    "pending": 1,
+    "pending": 0,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 8,
-    "totalUnits": 8,
+    "pendingUnits": 0,
+    "totalUnits": 0,
     "approvedGdv": 0,
-    "pendingGdv": 3560000,
-    "totalEstimatedGDV": 3560000,
+    "pendingGdv": 0,
+    "totalEstimatedGDV": 0,
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": [
-    {
-      "reference": "3/26/0631/PIP",
-      "address": "Homefire Coal Yard Ware Road Widford Hertfordshire SG12 8RL",
-      "postcode": "SG12 8RL",
-      "ward": "",
-      "proposal": "Permission in principle for the removal of existing buildings and the erection of 5 to 8 dwellings and a Class E commercial unit",
-      "category": "other_residential",
-      "units": 8,
-      "estimatedGdv": 3560000,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "05/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.eastherts.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEKECRGL0CN00"
-    }
-  ]
+  "pendingApplications": []
 }
