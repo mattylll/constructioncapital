@@ -187,6 +187,10 @@ const VALUATIONS_RAW: Omit<Guide, "readingTime">[] = [
       {
         question: "How does a 180-day valuation affect my borrowing?",
         answer: "Some lenders use a 180-day valuation, which estimates the price achievable within a 180-day sale period rather than the open market value. The 180-day value is typically 10-15% below the open market valuation. This reduces the amount the lender will advance, so developers should check which valuation basis their lender uses before submitting an application."
+      },
+      {
+        question: "How is residual land value calculated?",
+        answer: "Residual land value is calculated by taking the gross development value (GDV) of the completed scheme and deducting all the costs of delivering it, the developer's required profit, and finance costs. What remains is the maximum a developer can pay for the land while still hitting their target return: GDV minus build costs, professional fees, finance and profit equals the residual land value. Because the figure is highly sensitive to the GDV and cost assumptions, lenders stress-test it before relying on it."
       }
     ]
   },
@@ -629,20 +633,20 @@ const VALUATIONS_RAW: Omit<Guide, "readingTime">[] = [
   },
   {
     slug: "commercial-property-valuation-methods",
-    title: "Commercial Property Valuation Methods: Yield, Comparable and DCF",
-    metaTitle: "Commercial Property Valuation Methods | UK Guide",
-    metaDescription: "Learn the three main commercial property valuation methods: investment yield, comparable, and DCF. Understand how each affects your mortgage or finance terms.",
-    excerpt: "Commercial properties are valued differently from residential. This guide explains the three primary methods used by RICS valuers and lenders, with worked examples showing how each produces different results.",
+    title: "Commercial Property Valuation Methods: The Five RICS Approaches",
+    metaTitle: "Commercial Property Valuation Methods: 5 RICS Approaches",
+    metaDescription: "The five RICS commercial property valuation methods: comparable, investment, profits, depreciated replacement cost and DCF, and how each affects your finance terms.",
+    excerpt: "Commercial properties are valued differently from residential. This guide explains the five methods RICS valuers and lenders use, with worked examples showing how each produces different results.",
     category: "valuations",
     datePublished: "2026-02-09",
-    dateModified: "2026-02-09",
+    dateModified: "2026-06-03",
     sections: [
       {
         heading: "Why commercial valuation differs from residential",
         content: [
           "Commercial property valuation operates under fundamentally different principles from residential valuation because the drivers of value are different. Residential property is primarily valued based on what an owner-occupier would pay, determined by comparable sales of similar properties in the area. Commercial property, by contrast, is typically valued based on its income-producing potential, because the majority of commercial property is held as investment rather than for owner-occupation. This distinction means that the valuation methodology must capture not just what the property is worth today but what income stream it can generate over time and how that income stream translates to capital value.",
           "For borrowers seeking a <a href=\"/services#commercial-mortgages\">commercial mortgage</a>, understanding the valuation methodology is essential because it directly determines borrowing capacity. A commercial lender will advance a percentage of the assessed value, typically 60-75% for commercial mortgages, and if the valuation methodology produces a lower figure than expected, the facility will be correspondingly smaller. We regularly encounter situations where developers and investors are surprised by commercial valuations because they have applied residential valuation logic to a commercial asset, or because they have not understood how yield movements affect capital values.",
-          "RICS-qualified valuers use three primary methods to value commercial property: the investment method based on capitalisation of rental income, the comparable method based on direct comparison with similar transactions, and the discounted cash flow method which models future income streams and discounts them to present value. Each method is appropriate in different circumstances, and for complex properties the valuer may use two or more methods to cross-check their conclusions. Understanding how each works empowers you to anticipate the valuation figure and prepare evidence that supports the strongest possible outcome."
+          "RICS-qualified valuers draw on five principal methods to value commercial property: the investment method based on capitalisation of rental income, the comparable method based on direct comparison with similar transactions, the profits method for trade-related assets valued on their operating profit, the depreciated replacement cost method for specialised property, and the discounted cash flow method which models future income streams and discounts them to present value. A sixth approach, the residual method, is used specifically to value development land. Each method is appropriate in different circumstances, and for complex properties the valuer may use two or more methods to cross-check their conclusions. Understanding how each works empowers you to anticipate the valuation figure and prepare evidence that supports the strongest possible outcome."
         ,
           "<div class=\"my-4 rounded-lg border-l-4 border-gold bg-gold/5 p-4\"><p class=\"text-sm font-semibold text-gold-dark mb-1\">Expert Insight</p><p class=\"text-sm\">RICS Red Book valuations are the industry standard for development finance in the UK. Our experience shows that instructing the right RICS-registered valuer &mdash; one with specific experience in your asset class and location &mdash; can make a material difference to your valuation outcome and therefore the facility terms available.</p></div>",
         ]
@@ -671,6 +675,22 @@ const VALUATIONS_RAW: Omit<Guide, "readingTime">[] = [
           "The discounted cash flow method, or DCF, is a more sophisticated approach that models the property's income stream over a specified period, typically 10-15 years, and discounts each year's cash flow back to present value using a target rate of return. The DCF also models the disposal of the property at the end of the analysis period, known as the exit or terminal value, and discounts this back to present value. The sum of all discounted cash flows and the discounted exit value gives the present capital value of the property.",
           "DCF is particularly useful for properties with complex income profiles, such as multi-tenanted buildings where leases expire at different times, properties with significant void risk, assets requiring capital expenditure, or developments where the income stream changes materially over the analysis period. For a multi-let office building generating £350,000 per annum today but with three leases expiring in years 2, 5, and 8, the DCF can model the rental voids during re-letting periods, the cost of tenant incentives, and the expected rental growth at each renewal, producing a valuation that captures these dynamics in a way that a simple yield capitalisation cannot.",
           "The main challenge with DCF analysis is that the output is highly sensitive to the assumptions used. The discount rate, rental growth assumptions, void periods, letting costs, capital expenditure provisions, and exit yield all significantly affect the result. A 0.5% change in the discount rate on a £5,000,000 commercial property can shift the valuation by £200,000 to £400,000 depending on the length of the analysis period. This sensitivity means that DCF valuations require experienced professional judgement, and lenders will scrutinise the assumptions carefully. In our experience, lenders are most comfortable with DCF valuations that use conservative, evidence-based assumptions rather than optimistic projections."
+        ]
+      },
+      {
+        heading: "The profits method for trade-related property",
+        content: [
+          "The profits method, sometimes called the accounts or profits-based method, values property whose worth derives from the trade carried out within it rather than from a conventional rent. It is the standard approach for operational or trade-related assets such as hotels, pubs, restaurants, care homes, petrol filling stations, holiday parks, and leisure facilities. For these properties there is rarely a meaningful open-market rent to capitalise, because value is bound up with the business itself. Instead, the valuer works from the fair maintainable operating profit the property could generate in the hands of a reasonably efficient operator, not the actual profit of the current owner.",
+          "The mechanics are straightforward in principle. The valuer estimates the fair maintainable turnover, deducts reasonable operating costs to arrive at the fair maintainable operating profit (broadly an EBITDA figure), and then applies a capitalisation multiple appropriate to the sector and the quality of the asset. A care home generating £450,000 of sustainable operating profit valued on a multiple of 8 would be worth approximately £3,600,000. The multiple reflects the same risk and return logic as a yield: stronger trading covenants, prime locations, and resilient demand support higher multiples and higher capital values.",
+          "Lenders treat profits-method valuations with care because the figure rests on trading assumptions rather than passing rent. When we arrange <a href=\"/services#commercial-mortgages\">commercial mortgages</a> on trade-related property, lenders typically want to see two to three years of trading accounts, evidence that the operating profit is sustainable, and comfort that the business is not over-reliant on a single operator. Where trading is unproven, the valuer may report a lower figure or the lender may reduce the loan to value, so a well-evidenced trading record directly supports both the valuation and the facility you can secure."
+        ]
+      },
+      {
+        heading: "The depreciated replacement cost method",
+        content: [
+          "The depreciated replacement cost method, known as DRC or the contractor's method, values a property as the current value of the land plus the cost of rebuilding the structure, less an allowance for depreciation. It is used for specialised properties that rarely change hands and produce no income, where neither the investment method nor comparable evidence can be applied. Typical examples include schools, hospitals, places of worship, owner-occupied specialist industrial premises, and purpose-built facilities with no general-market demand. RICS regards DRC as a method of last resort, applied only where the other approaches cannot reasonably be used.",
+          "The calculation begins with the value of the site for its existing use, to which the valuer adds the estimated current cost of constructing a modern equivalent building. From that rebuild cost the valuer deducts depreciation to reflect the age, condition, and functional obsolescence of the actual building. A specialist industrial unit on land worth £400,000, with a modern rebuild cost of £1,200,000 and accumulated depreciation of 40 per cent, would be valued at roughly £400,000 plus £720,000, giving £1,120,000. The depreciation judgement is the most subjective element and has a material effect on the result.",
+          "For finance purposes, DRC valuations are the hardest to lend against because they do not reflect an open-market exchange price and assume the property continues in its current specialised use. Lenders advancing against owner-occupied specialist premises will usually apply a conservative loan to value and may seek an alternative-use valuation as a fallback, recognising that on a default the realistic exit is a sale for redevelopment or general commercial use rather than for the existing specialised purpose."
         ]
       },
       {
@@ -717,6 +737,14 @@ const VALUATIONS_RAW: Omit<Guide, "readingTime">[] = [
       {
         question: "How does a 180-day valuation affect my borrowing?",
         answer: "Some lenders use a 180-day valuation, which estimates the price achievable within a 180-day sale period rather than the open market value. The 180-day value is typically 10-15% below the open market valuation. This reduces the amount the lender will advance, so developers should check which valuation basis their lender uses before submitting an application."
+      },
+      {
+        question: "What are the five methods of property valuation?",
+        answer: "The five principal methods recognised by RICS are the comparable method (direct comparison with similar sales), the investment method (capitalising rental income at a market yield), the profits method (valuing trade-related property on its operating profit), the depreciated replacement cost method (land value plus depreciated rebuild cost for specialised property), and the residual method (used to value development land). Discounted cash flow is a further income-based technique used for complex or multi-let assets."
+      },
+      {
+        question: "What are the top three valuation methods used in commercial appraisals?",
+        answer: "For most income-producing commercial property the three most commonly used methods are the investment method, the comparable method, and discounted cash flow analysis. The investment method is usually primary for tenanted assets, the comparable method provides a cross-check or values owner-occupied premises, and DCF is used where the income profile is complex or the property is multi-let."
       }
     ]
   },

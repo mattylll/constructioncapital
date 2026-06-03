@@ -94,11 +94,11 @@ const MARKET_RAW: Omit<Guide, "readingTime">[] = [
     slug: "interest-rate-trends-development-finance",
     title: "Interest Rate Trends in Development Finance: What Developers Should Expect",
     metaTitle: "Development Finance Interest Rate Trends | UK Guide",
-    metaDescription: "Track interest rate trends in UK development finance from 2020 to 2026. See how base rates, margins and fees have shifted and what developers should expect.",
-    excerpt: "An in-depth analysis of how development finance interest rates have evolved since 2020, the factors driving changes, and what UK developers should budget for in their next appraisal.",
+    metaDescription: "UK development finance interest rates in 2026: current ranges, how a rate is built from base rate plus margin, fees, and what developers should budget for.",
+    excerpt: "An in-depth analysis of how development finance interest rates have evolved since 2020, how a rate is actually calculated, the factors driving changes, and what UK developers should budget for in their next appraisal.",
     category: "market",
     datePublished: "2026-02-09",
-    dateModified: "2026-02-09",
+    dateModified: "2026-06-03",
     sections: [
       {
         heading: "How development finance rates have moved since 2020",
@@ -121,12 +121,36 @@ const MARKET_RAW: Omit<Guide, "readingTime">[] = [
         ]
       },
       {
+        heading: "How development finance interest rates are calculated",
+        content: [
+          "A development finance interest rate is built up from two components: a reference rate that reflects the lender's cost of funds, and a margin that reflects the risk of the specific loan. The reference rate is usually the Bank of England base rate or a market rate such as SONIA, and the margin is the lender's risk premium and profit on top. When you are quoted a development finance rate of, say, 8.5% per annum, that figure typically represents a reference rate of around 4.5% plus a margin of roughly 4%. On a variable-rate facility the reference rate moves with the market while the margin stays fixed for the life of the loan, so it is the margin that tells you how the lender has priced your risk.",
+          "Crucially, development finance interest is charged only on the funds you have actually drawn, not on the full facility. Because the loan is released in stages against the build programme, your interest cost ramps up gradually as drawdowns are made rather than applying to the whole sum from day one. On most schemes the interest is rolled up, added to the loan and repaid at exit, rather than serviced monthly, which preserves cash flow during the build but means you pay interest on accrued interest. This is why the headline rate alone understates the true cost, and why we model the effective cost on the actual drawdown profile for every facility we arrange.",
+          "Senior development finance is almost always quoted per annum, whereas short-term <a href=\"/services#bridging-loans\">bridging</a> and refurbishment products are usually quoted per month, so always confirm the basis before comparing two quotes. Where your rate then lands within the market range is set by risk-based pricing: your track record as a developer, the scheme's location and planning status, the loan to gross development value (LTGDV) ratio, and the strength of your exit. A fully permitted scheme for an experienced developer at modest leverage attracts the keenest margin, while higher leverage, weaker covenants, or thin comparable evidence push the margin upward."
+        ]
+      },
+      {
         heading: "The relationship between base rate and development finance pricing",
         content: [
           "Many developers assume that development finance rates move in lockstep with the Bank of England base rate. The reality is more nuanced. While the base rate is an important input, development finance pricing is influenced by a broader set of factors including lender funding costs, credit appetite, competitive dynamics, and scheme-specific risk assessment.",
           "During the rising rate cycle of 2022-2023, development finance rates increased by more than the base rate rise alone would suggest. This was because lenders were simultaneously repricing for increased credit risk (as higher rates threatened scheme viability and sales values) and in some cases facing higher funding costs in the wholesale markets. The risk premium  -  the margin above a lender's cost of funds  -  expanded significantly. Conversely, as conditions have stabilised, margins have compressed as lenders compete for a limited pool of quality transactions.",
           "For practical purposes, we advise developers to model their finance costs assuming rates remain stable over the life of the facility, with a stress test of at least 1-2% above the quoted rate. Most <a href=\"/guides/how-does-development-finance-work\">development finance facilities</a> are relatively short term (12-24 months), which limits the impact of rate movements. However, for longer programmes or phased developments, the cumulative impact of rate changes on rolled-up interest can be substantial. On a £3,000,000 facility at 8% with interest rolling up over 18 months, total interest costs would be approximately £360,000. A 2% rate increase would add roughly £90,000 to that figure  -  a meaningful impact on project profitability.",
           "Fixed-rate development finance products, which have become more widely available in 2026, offer a solution for developers who want certainty. These typically carry a premium of 0.25-0.50% over variable rates but eliminate the risk of rate movements during the build. For schemes where margins are tight, the additional cost of fixing can be a prudent form of insurance."
+        ]
+      },
+      {
+        heading: "How interest rates rise across the capital stack",
+        content: [
+          "The interest rate on a development scheme depends heavily on where the money sits in the capital stack. Senior debt, which holds a first charge over the asset, carries the lowest rate because it is repaid first and is best protected if the scheme runs into trouble. In 2026, senior development finance for experienced developers typically prices between 6.5% and 9.5% per annum, which is the range most developers will be working within for ground-up residential schemes.",
+          "Above the senior debt, stretched senior and <a href=\"/services#mezzanine-finance\">mezzanine finance</a> fill the gap between what the senior lender will advance and the equity a developer can commit. Because this capital ranks behind the senior debt and is more exposed if values fall, it is priced materially higher. Mezzanine finance currently runs at roughly 12% to 15% per annum, and <a href=\"/services#equity-jv\">equity or joint venture capital</a> is priced higher still, usually through a share of profit rather than a fixed rate. Each layer you add reduces the cash equity you must commit but raises your blended cost of finance.",
+          "The practical question is the blended rate across the whole stack, not the rate on any single layer. A scheme funded with £2,000,000 of senior debt at 8% and £400,000 of mezzanine at 14% carries a blended cost of roughly 9% across the £2,400,000, even though neither facility is priced at 9%. Understanding this blended figure is what allows developers to judge whether stretching leverage to reduce their equity is genuinely worth the extra cost on a given scheme."
+        ]
+      },
+      {
+        heading: "How development finance rates vary by scheme type",
+        content: [
+          "Not all development is priced the same. Standard ground-up residential development for sale is the benchmark against which lenders price everything else, because the market is deep, comparable evidence is plentiful, and exit through individual unit sales is well understood. This is the 6.5% to 9.5% senior range referenced above, and it is where most experienced developers will transact.",
+          "Conversion and permitted development schemes, such as office-to-residential, are priced close to ground-up rates where the planning position is secure, though a modest premium often applies to reflect construction and planning risk. Lighter <a href=\"/services#refurbishment-finance\">refurbishment</a> projects are frequently funded on bridging-style products quoted per month rather than per annum, so the comparison must always be made on an annualised basis. Heavy refurbishment that approaches the complexity of new build is usually priced like development finance proper.",
+          "Specialist asset classes carry their own pricing. Purpose-built student accommodation, care homes, and build-to-rent schemes can attract competitive rates where the operator covenant and underlying demand are strong, but lenders price in the narrower buyer pool and the operational risk at exit. First-time developers and non-standard schemes sit at the higher end of every range, which is why building a track record and presenting a complete, well-evidenced proposal has such a direct effect on the rate you are ultimately offered."
         ]
       },
       {
@@ -144,6 +168,14 @@ const MARKET_RAW: Omit<Guide, "readingTime">[] = [
           "Our view is that development finance rates are likely to remain broadly stable through 2026, with potential for modest further reductions if the base rate continues to fall. The competitive dynamics in the market  -  with non-bank lenders continuing to raise capital and expand their books  -  should keep downward pressure on pricing. We would not be surprised to see rates for prime schemes dip below 6% by the end of the year, although this will be contingent on macroeconomic conditions.",
           "The more significant trend is likely to be in leverage rather than rates. As lender confidence grows, we expect to see LTGDV ratios continue to creep upward, making schemes viable for a wider range of developers. The availability of <a href=\"/services#mezzanine-finance\">mezzanine finance</a> at more competitive rates is already expanding the pool of fundable projects, and we expect this to continue.",
           "For developers planning schemes in 2026, our advice is straightforward. Model your finance costs conservatively, build in contingency for rate movements and programme delays, and ensure your appraisal works even under stressed assumptions. The market is supportive, but discipline in financial planning remains essential. If you would like a current view on rates and terms for your specific scheme, <a href=\"/deal-room\">submit your details through our deal room</a> and we will provide a tailored indication within 48 hours."
+        ]
+      },
+      {
+        heading: "Is a 7% development finance rate competitive?",
+        content: [
+          "Developers often ask whether a particular rate, such as 7%, is a good one. The honest answer is that a development finance rate can only be judged in the context of the deal. A 7% per annum senior rate for an experienced developer on a fully permitted, well-evidenced residential scheme at 65% LTGDV is a strong rate in the 2026 market. The same 7% offered to a first-time developer on a speculative scheme with only outline planning would be exceptional, and worth scrutinising closely for hidden fees or restrictive conditions.",
+          "Rather than benchmarking the headline rate in isolation, compare the all-in cost of finance: the interest on your drawn profile plus the arrangement fee, exit fee, monitoring and professional fees. A 7% rate with a 2% arrangement fee and a 1% exit fee can cost more over an 18-month build than a 7.75% rate with a 1% arrangement fee and no exit fee. We model the total cost of finance for every facility so that developers can compare competing offers on a genuine like-for-like basis.",
+          "As a rule of thumb in 2026, senior rates much below 6.5% for ground-up development are rare outside the very strongest schemes, and rates above 10% usually signal high leverage, a non-standard asset, or a borrower-specific risk. If your quote sits well outside the prevailing 6.5% to 9.5% range without an obvious reason, it is worth testing the wider market through a broker before you commit."
         ]
       },
       {
@@ -175,6 +207,14 @@ const MARKET_RAW: Omit<Guide, "readingTime">[] = [
       {
         question: "Are non-bank lenders safe to use for development finance?",
         answer: "Non-bank lenders now account for 40-50% of UK development finance origination and include well-capitalised institutions backed by major credit funds. They are regulated where required and operate under standard facility documentation. Many offer better terms than banks for development lending. The key is to work with an established lender with a proven track record, ideally recommended by a specialist broker."
+      },
+      {
+        question: "Is 7% a good interest rate for a development loan?",
+        answer: "In the 2026 market a 7% per annum senior development finance rate is competitive for an experienced developer on a fully permitted, well-evidenced scheme at moderate leverage. Whether it is genuinely good depends on the all-in cost, including arrangement and exit fees, and on the leverage and terms attached. Always compare the total cost of finance rather than the headline rate alone."
+      },
+      {
+        question: "Will development finance rates fall back to the lows of the early 2020s?",
+        answer: "We do not expect development finance rates to return to the sub-5% lows of 2020-2021 in the near term, as those reflected an exceptional period of near-zero base rates. The realistic expectation for 2026 is broad stability with scope for modest reductions if the Bank of England base rate continues to ease. We advise developers to model finance costs on current rates with a stress test above the quoted figure rather than relying on further falls."
       }
     ]
   },
