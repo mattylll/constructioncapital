@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bradford-west-yorkshire-property-market",
   title: "Bradford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bradford House Prices 2026 - Property Market Data & Development Finance | West Yorkshire",
-  metaDescription: "Bradford property prices: median £155,000, 3,020 sales, +3.3% YoY. Detached £295,000, Flat £85,000. Land Registry data for Bradford, West Yorkshire.",
+  metaTitle: "Bradford House Prices 2026: £155,000 Median",
+  metaDescription: "Bradford house prices 2026: £155,000 median, 3,020 sales, +3.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £155,000, 3,020 sales, +3.3% YoY. West Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

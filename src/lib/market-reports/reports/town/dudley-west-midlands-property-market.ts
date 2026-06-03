@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "dudley-west-midlands-property-market",
   title: "Dudley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dudley House Prices 2026 - Property Market Data & Development Finance | West Midlands",
-  metaDescription: "Dudley property prices: median £230,000, 2,659 sales, +1.5% YoY. Detached £350,000, Flat £120,000. Land Registry data for Dudley, West Midlands.",
+  metaTitle: "Dudley House Prices 2026: £230,000 Median",
+  metaDescription: "Dudley house prices 2026: £230,000 median, 2,659 sales, +1.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £230,000, 2,659 sales, +1.5% YoY. West Midlands county.",
   category: "town",
   region: "Midlands",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cramlington-northumberland-property-market",
   title: "Cramlington Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Cramlington House Prices 2026 - Property Market Data & Development Finance | Northumberland",
-  metaDescription: "Cramlington property prices: median £180,000, 395 sales, -7.8% YoY. Detached £315,000, Flat £80,000. Land Registry data for Cramlington, Northumberland.",
+  metaTitle: "Cramlington House Prices 2026: £180,000 Median",
+  metaDescription: "Cramlington house prices 2026: £180,000 median, 395 sales, -7.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £180,000, 395 sales, -7.8% YoY. Northumberland county.",
   category: "town",
   region: "North East & Yorkshire",

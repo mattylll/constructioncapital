@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "oxford-oxfordshire-property-market",
   title: "Oxford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Oxford House Prices 2026 - Property Market Data & Development Finance | Oxfordshire",
-  metaDescription: "Oxford property prices: median £450,000, 971 sales, 0% YoY. Detached £800,000, Flat £325,000. Land Registry data for Oxford, Oxfordshire.",
+  metaTitle: "Oxford House Prices 2026: £450,000 Median",
+  metaDescription: "Oxford house prices 2026: £450,000 median, 971 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £450,000, 971 sales, 0% YoY. Oxfordshire county.",
   category: "town",
   region: "London & South East",

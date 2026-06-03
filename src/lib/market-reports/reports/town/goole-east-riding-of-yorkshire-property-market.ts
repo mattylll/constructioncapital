@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "goole-east-riding-of-yorkshire-property-market",
   title: "Goole Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Goole House Prices 2026 - Property Market Data & Development Finance | East Riding of Yorkshire",
-  metaDescription: "Goole property prices: median £180,000, 478 sales, -9.4% YoY. Detached £320,000, Terraced £112,000. Land Registry data for Goole, East Riding of Yorkshire.",
+  metaTitle: "Goole House Prices 2026: £180,000 Median",
+  metaDescription: "Goole house prices 2026: £180,000 median, 478 sales, -9.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £180,000, 478 sales, -9.4% YoY. East Riding of Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

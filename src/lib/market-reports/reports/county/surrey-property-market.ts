@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "surrey-property-market",
   title: "Surrey Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Surrey Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Surrey property market analysis: median price £492,500, 9,602 sales, +1.3% YoY. Town comparisons, new builds & development finance across 10 towns.",
+  metaTitle: "Surrey House Prices 2026: £492,500 Median",
+  metaDescription: "Surrey house prices 2026: £492,500 median, 9,602 sales, +1.3% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "10 towns analysed. Median price £492,500, 9,602 transactions, +1.3% YoY.",
   category: "county",
   region: "London & South East",

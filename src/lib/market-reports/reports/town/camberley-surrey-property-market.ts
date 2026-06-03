@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "camberley-surrey-property-market",
   title: "Camberley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Camberley House Prices 2026 - Property Market Data & Development Finance | Surrey",
-  metaDescription: "Camberley property prices: median £475,000, 857 sales, +2.6% YoY. Detached £695,000, Flat £225,000. Land Registry data for Camberley, Surrey.",
+  metaTitle: "Camberley House Prices 2026: £475,000 Median",
+  metaDescription: "Camberley house prices 2026: £475,000 median, 857 sales, +2.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £475,000, 857 sales, +2.6% YoY. Surrey county.",
   category: "town",
   region: "London & South East",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "greater-manchester-property-market",
   title: "Greater Manchester Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Greater Manchester Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Greater Manchester property market analysis: median price £213,500, 26,359 sales, -0.3% YoY. Town comparisons, new builds & development finance across 10 towns.",
+  metaTitle: "Greater Manchester House Prices 2026: £213,500 Median",
+  metaDescription: "Greater Manchester house prices 2026: £213,500 median, 26,359 sales, -0.3% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "10 towns analysed. Median price £213,500, 26,359 transactions, -0.3% YoY.",
   category: "county",
   region: "North West",

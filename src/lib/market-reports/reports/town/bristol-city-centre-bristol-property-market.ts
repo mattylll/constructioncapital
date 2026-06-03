@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bristol-city-centre-bristol-property-market",
   title: "Bristol City Centre Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bristol City Centre House Prices 2026 - Property Market Data & Development Finance | Bristol",
-  metaDescription: "Bristol City Centre property prices: median £345,000, 4,420 sales, +1.5% YoY. Detached £535,000, Flat £255,000. Land Registry data for Bristol City Centre, Bristol.",
+  metaTitle: "Bristol City Centre House Prices 2026: £345,000 Median",
+  metaDescription: "Bristol City Centre house prices 2026: £345,000 median, 4,420 sales, +1.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £345,000, 4,420 sales, +1.5% YoY. Bristol county.",
   category: "town",
   region: "South West",

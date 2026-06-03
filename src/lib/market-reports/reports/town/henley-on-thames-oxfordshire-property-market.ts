@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "henley-on-thames-oxfordshire-property-market",
   title: "Henley-on-Thames Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Henley-on-Thames House Prices 2026 - Property Market Data & Development Finance | Oxfordshire",
-  metaDescription: "Henley-on-Thames property prices: median £695,000, 194 sales, -4.1% YoY. Detached £1.23m, Flat £350,000. Land Registry data for Henley-on-Thames, Oxfordshire.",
+  metaTitle: "Henley-on-Thames House Prices 2026: £695,000 Median",
+  metaDescription: "Henley-on-Thames house prices 2026: £695,000 median, 194 sales, -4.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £695,000, 194 sales, -4.1% YoY. Oxfordshire county.",
   category: "town",
   region: "London & South East",

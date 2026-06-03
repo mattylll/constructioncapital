@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "birmingham-west-midlands-property-market",
   title: "Birmingham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Birmingham House Prices 2026 - Property Market Data & Development Finance | West Midlands",
-  metaDescription: "Birmingham property prices: median £220,000, 6,446 sales, 0% YoY. Detached £360,000, Flat £140,000. Land Registry data for Birmingham, West Midlands.",
+  metaTitle: "Birmingham House Prices 2026: £220,000 Median",
+  metaDescription: "Birmingham house prices 2026: £220,000 median, 6,446 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £220,000, 6,446 sales, 0% YoY. West Midlands county.",
   category: "town",
   region: "Midlands",

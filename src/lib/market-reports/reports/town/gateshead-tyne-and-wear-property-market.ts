@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "gateshead-tyne-and-wear-property-market",
   title: "Gateshead Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Gateshead House Prices 2026 - Property Market Data & Development Finance | Tyne and Wear",
-  metaDescription: "Gateshead property prices: median £148,875, 2,042 sales, -4% YoY. Detached £310,000, Flat £94,000. Land Registry data for Gateshead, Tyne and Wear.",
+  metaTitle: "Gateshead House Prices 2026: £148,875 Median",
+  metaDescription: "Gateshead house prices 2026: £148,875 median, 2,042 sales, -4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £148,875, 2,042 sales, -4% YoY. Tyne and Wear county.",
   category: "town",
   region: "North East & Yorkshire",

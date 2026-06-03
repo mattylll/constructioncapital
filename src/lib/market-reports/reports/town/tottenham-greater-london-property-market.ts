@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "tottenham-greater-london-property-market",
   title: "Tottenham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Tottenham House Prices 2026 - Property Market Data & Development Finance | Greater London",
-  metaDescription: "Tottenham property prices: median £560,000, 1,557 sales, +3.5% YoY. Detached £2.07m, Flat £445,000. Land Registry data for Tottenham, Greater London.",
+  metaTitle: "Tottenham House Prices 2026: £560,000 Median",
+  metaDescription: "Tottenham house prices 2026: £560,000 median, 1,557 sales, +3.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £560,000, 1,557 sales, +3.5% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

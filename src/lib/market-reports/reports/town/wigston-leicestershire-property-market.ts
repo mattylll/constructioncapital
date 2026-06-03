@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wigston-leicestershire-property-market",
   title: "Wigston Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wigston House Prices 2026 - Property Market Data & Development Finance | Leicestershire",
-  metaDescription: "Wigston property prices: median £270,000, 490 sales, -3.6% YoY. Detached £370,000, Flat £119,000. Land Registry data for Wigston, Leicestershire.",
+  metaTitle: "Wigston House Prices 2026: £270,000 Median",
+  metaDescription: "Wigston house prices 2026: £270,000 median, 490 sales, -3.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £270,000, 490 sales, -3.6% YoY. Leicestershire county.",
   category: "town",
   region: "Midlands",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ashford-kent-property-market",
   title: "Ashford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ashford House Prices 2026 - Property Market Data & Development Finance | Kent",
-  metaDescription: "Ashford property prices: median £340,000, 1,336 sales, 0% YoY. Detached £500,000, Flat £180,000. Land Registry data for Ashford, Kent.",
+  metaTitle: "Ashford House Prices 2026: £340,000 Median",
+  metaDescription: "Ashford house prices 2026: £340,000 median, 1,336 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £340,000, 1,336 sales, 0% YoY. Kent county.",
   category: "town",
   region: "London & South East",

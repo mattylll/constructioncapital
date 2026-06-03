@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "macclesfield-cheshire-property-market",
   title: "Macclesfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Macclesfield House Prices 2026 - Property Market Data & Development Finance | Cheshire",
-  metaDescription: "Macclesfield property prices: median £290,000, 1,102 sales, -3.3% YoY. Detached £510,000, Flat £175,000. Land Registry data for Macclesfield, Cheshire.",
+  metaTitle: "Macclesfield House Prices 2026: £290,000 Median",
+  metaDescription: "Macclesfield house prices 2026: £290,000 median, 1,102 sales, -3.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £290,000, 1,102 sales, -3.3% YoY. Cheshire county.",
   category: "town",
   region: "North West",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "folkestone-kent-property-market",
   title: "Folkestone Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Folkestone House Prices 2026 - Property Market Data & Development Finance | Kent",
-  metaDescription: "Folkestone property prices: median £308,000, 1,259 sales, -0.6% YoY. Detached £462,500, Flat £183,000. Land Registry data for Folkestone, Kent.",
+  metaTitle: "Folkestone House Prices 2026: £308,000 Median",
+  metaDescription: "Folkestone house prices 2026: £308,000 median, 1,259 sales, -0.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £308,000, 1,259 sales, -0.6% YoY. Kent county.",
   category: "town",
   region: "London & South East",

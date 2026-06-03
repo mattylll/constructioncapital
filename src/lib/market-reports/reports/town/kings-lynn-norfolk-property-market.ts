@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "kings-lynn-norfolk-property-market",
   title: "King's Lynn Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "King's Lynn House Prices 2026 - Property Market Data & Development Finance | Norfolk",
-  metaDescription: "King's Lynn property prices: median £260,000, 1,674 sales, -1.9% YoY. Detached £330,000, Flat £120,000. Land Registry data for King's Lynn, Norfolk.",
+  metaTitle: "King's Lynn House Prices 2026: £260,000 Median",
+  metaDescription: "King's Lynn house prices 2026: £260,000 median, 1,674 sales, -1.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £260,000, 1,674 sales, -1.9% YoY. Norfolk county.",
   category: "town",
   region: "East of England",

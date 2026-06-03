@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newport-city-centre-newport-property-market",
   title: "Newport City Centre Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newport City Centre House Prices 2026 - Property Market Data & Development Finance | Newport",
-  metaDescription: "Newport City Centre property prices: median £225,000, 1,677 sales, 0% YoY. Detached £380,000, Flat £126,000. Land Registry data for Newport City Centre, Newport.",
+  metaTitle: "Newport City Centre House Prices 2026: £225,000 Median",
+  metaDescription: "Newport City Centre house prices 2026: £225,000 median, 1,677 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £225,000, 1,677 sales, 0% YoY. Newport county.",
   category: "town",
   region: "Wales",

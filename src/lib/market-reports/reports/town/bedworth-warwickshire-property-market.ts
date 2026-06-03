@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bedworth-warwickshire-property-market",
   title: "Bedworth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bedworth House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
-  metaDescription: "Bedworth property prices: median £230,000, 286 sales, -2.7% YoY. Detached £336,000, Flat £103,000. Land Registry data for Bedworth, Warwickshire.",
+  metaTitle: "Bedworth House Prices 2026: £230,000 Median",
+  metaDescription: "Bedworth house prices 2026: £230,000 median, 286 sales, -2.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £230,000, 286 sales, -2.7% YoY. Warwickshire county.",
   category: "town",
   region: "Midlands",

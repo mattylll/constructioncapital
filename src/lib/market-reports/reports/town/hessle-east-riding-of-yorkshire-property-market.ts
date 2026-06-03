@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hessle-east-riding-of-yorkshire-property-market",
   title: "Hessle Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hessle House Prices 2026 - Property Market Data & Development Finance | East Riding of Yorkshire",
-  metaDescription: "Hessle property prices: median £196,500, 223 sales, -4.3% YoY. Detached £325,000, Flat £108,000. Land Registry data for Hessle, East Riding of Yorkshire.",
+  metaTitle: "Hessle House Prices 2026: £196,500 Median",
+  metaDescription: "Hessle house prices 2026: £196,500 median, 223 sales, -4.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £196,500, 223 sales, -4.3% YoY. East Riding of Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "birkenhead-merseyside-property-market",
   title: "Birkenhead Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Birkenhead House Prices 2026 - Property Market Data & Development Finance | Merseyside",
-  metaDescription: "Birkenhead property prices: median £123,560, 561 sales, -1.2% YoY. Detached £394,000, Flat £91,000. Land Registry data for Birkenhead, Merseyside.",
+  metaTitle: "Birkenhead House Prices 2026: £123,560 Median",
+  metaDescription: "Birkenhead house prices 2026: £123,560 median, 561 sales, -1.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £123,560, 561 sales, -1.2% YoY. Merseyside county.",
   category: "town",
   region: "North West",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "eastbourne-sussex-property-market",
   title: "Eastbourne Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Eastbourne House Prices 2026 - Property Market Data & Development Finance | Sussex",
-  metaDescription: "Eastbourne property prices: median £270,000, 1,168 sales, -3.6% YoY. Detached £420,000, Flat £182,500. Land Registry data for Eastbourne, Sussex.",
+  metaTitle: "Eastbourne House Prices 2026: £270,000 Median",
+  metaDescription: "Eastbourne house prices 2026: £270,000 median, 1,168 sales, -3.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £270,000, 1,168 sales, -3.6% YoY. Sussex county.",
   category: "town",
   region: "London & South East",

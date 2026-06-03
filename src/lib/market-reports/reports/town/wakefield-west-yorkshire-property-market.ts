@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wakefield-west-yorkshire-property-market",
   title: "Wakefield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wakefield House Prices 2026 - Property Market Data & Development Finance | West Yorkshire",
-  metaDescription: "Wakefield property prices: median £219,000, 1,396 sales, +1.9% YoY. Detached £350,000, Flat £110,000. Land Registry data for Wakefield, West Yorkshire.",
+  metaTitle: "Wakefield House Prices 2026: £219,000 Median",
+  metaDescription: "Wakefield house prices 2026: £219,000 median, 1,396 sales, +1.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £219,000, 1,396 sales, +1.9% YoY. West Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "brentwood-essex-property-market",
   title: "Brentwood Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Brentwood House Prices 2026 - Property Market Data & Development Finance | Essex",
-  metaDescription: "Brentwood property prices: median £500,000, 853 sales, +2% YoY. Detached £820,000, Flat £280,000. Land Registry data for Brentwood, Essex.",
+  metaTitle: "Brentwood House Prices 2026: £500,000 Median",
+  metaDescription: "Brentwood house prices 2026: £500,000 median, 853 sales, +2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £500,000, 853 sales, +2% YoY. Essex county.",
   category: "town",
   region: "London & South East",

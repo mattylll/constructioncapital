@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hounslow-greater-london-property-market",
   title: "Hounslow Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hounslow House Prices 2026 - Property Market Data & Development Finance | Greater London",
-  metaDescription: "Hounslow property prices: median £475,000, 1,428 sales, 0% YoY. Detached £720,000, Flat £325,000. Land Registry data for Hounslow, Greater London.",
+  metaTitle: "Hounslow House Prices 2026: £475,000 Median",
+  metaDescription: "Hounslow house prices 2026: £475,000 median, 1,428 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £475,000, 1,428 sales, 0% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

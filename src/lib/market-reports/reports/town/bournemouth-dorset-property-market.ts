@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bournemouth-dorset-property-market",
   title: "Bournemouth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bournemouth House Prices 2026 - Property Market Data & Development Finance | Dorset",
-  metaDescription: "Bournemouth property prices: median £295,000, 2,032 sales, -2.2% YoY. Detached £460,000, Flat £198,000. Land Registry data for Bournemouth, Dorset.",
+  metaTitle: "Bournemouth House Prices 2026: £295,000 Median",
+  metaDescription: "Bournemouth house prices 2026: £295,000 median, 2,032 sales, -2.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £295,000, 2,032 sales, -2.2% YoY. Dorset county.",
   category: "town",
   region: "South West",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "loughborough-leicestershire-property-market",
   title: "Loughborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Loughborough House Prices 2026 - Property Market Data & Development Finance | Leicestershire",
-  metaDescription: "Loughborough property prices: median £265,873, 1,928 sales, -1.5% YoY. Detached £390,000, Flat £139,475. Land Registry data for Loughborough, Leicestershire.",
+  metaTitle: "Loughborough House Prices 2026: £265,873 Median",
+  metaDescription: "Loughborough house prices 2026: £265,873 median, 1,928 sales, -1.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £265,873, 1,928 sales, -1.5% YoY. Leicestershire county.",
   category: "town",
   region: "Midlands",

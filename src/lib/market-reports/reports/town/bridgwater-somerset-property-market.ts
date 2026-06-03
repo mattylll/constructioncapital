@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bridgwater-somerset-property-market",
   title: "Bridgwater Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bridgwater House Prices 2026 - Property Market Data & Development Finance | Somerset",
-  metaDescription: "Bridgwater property prices: median £252,750, 804 sales, +1.1% YoY. Detached £380,000, Flat £126,000. Land Registry data for Bridgwater, Somerset.",
+  metaTitle: "Bridgwater House Prices 2026: £252,750 Median",
+  metaDescription: "Bridgwater house prices 2026: £252,750 median, 804 sales, +1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £252,750, 804 sales, +1.1% YoY. Somerset county.",
   category: "town",
   region: "South West",

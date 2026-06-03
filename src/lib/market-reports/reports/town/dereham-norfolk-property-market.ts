@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "dereham-norfolk-property-market",
   title: "Dereham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dereham House Prices 2026 - Property Market Data & Development Finance | Norfolk",
-  metaDescription: "Dereham property prices: median £265,000, 430 sales, -0.9% YoY. Detached £347,000, Flat £112,500. Land Registry data for Dereham, Norfolk.",
+  metaTitle: "Dereham House Prices 2026: £265,000 Median",
+  metaDescription: "Dereham house prices 2026: £265,000 median, 430 sales, -0.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £265,000, 430 sales, -0.9% YoY. Norfolk county.",
   category: "town",
   region: "East of England",

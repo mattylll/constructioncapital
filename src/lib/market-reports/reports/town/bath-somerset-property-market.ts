@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bath-somerset-property-market",
   title: "Bath Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bath House Prices 2026 - Property Market Data & Development Finance | Somerset",
-  metaDescription: "Bath property prices: median £428,000, 1,163 sales, -0.5% YoY. Detached £707,500, Flat £295,000. Land Registry data for Bath, Somerset.",
+  metaTitle: "Bath House Prices 2026: £428,000 Median",
+  metaDescription: "Bath house prices 2026: £428,000 median, 1,163 sales, -0.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £428,000, 1,163 sales, -0.5% YoY. Somerset county.",
   category: "town",
   region: "South West",

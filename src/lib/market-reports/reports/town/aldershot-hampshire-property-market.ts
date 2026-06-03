@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "aldershot-hampshire-property-market",
   title: "Aldershot Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Aldershot House Prices 2026 - Property Market Data & Development Finance | Hampshire",
-  metaDescription: "Aldershot property prices: median £336,000, 382 sales, +4.2% YoY. Detached £595,000, Flat £175,000. Land Registry data for Aldershot, Hampshire.",
+  metaTitle: "Aldershot House Prices 2026: £336,000 Median",
+  metaDescription: "Aldershot house prices 2026: £336,000 median, 382 sales, +4.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £336,000, 382 sales, +4.2% YoY. Hampshire county.",
   category: "town",
   region: "London & South East",

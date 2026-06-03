@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "arnold-nottinghamshire-property-market",
   title: "Arnold Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Arnold House Prices 2026 - Property Market Data & Development Finance | Nottinghamshire",
-  metaDescription: "Arnold property prices: median £238,000, 1,324 sales, -4.7% YoY. Detached £339,500, Flat £123,000. Land Registry data for Arnold, Nottinghamshire.",
+  metaTitle: "Arnold House Prices 2026: £238,000 Median",
+  metaDescription: "Arnold house prices 2026: £238,000 median, 1,324 sales, -4.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £238,000, 1,324 sales, -4.7% YoY. Nottinghamshire county.",
   category: "town",
   region: "Midlands",

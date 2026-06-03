@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "northumberland-property-market",
   title: "Northumberland Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Northumberland Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Northumberland property market analysis: median price £212,500, 2,248 sales, -5.7% YoY. Town comparisons, new builds & development finance across 6 towns.",
+  metaTitle: "Northumberland House Prices 2026: £212,500 Median",
+  metaDescription: "Northumberland house prices 2026: £212,500 median, 2,248 sales, -5.7% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "6 towns analysed. Median price £212,500, 2,248 transactions, -5.7% YoY.",
   category: "county",
   region: "North East & Yorkshire",

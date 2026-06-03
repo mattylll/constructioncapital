@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "tyne-and-wear-property-market",
   title: "Tyne and Wear Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Tyne and Wear Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Tyne and Wear property market analysis: median price £149,438, 10,446 sales, +0.4% YoY. Town comparisons, new builds & development finance across 6 towns.",
+  metaTitle: "Tyne and Wear House Prices 2026: £149,438 Median",
+  metaDescription: "Tyne and Wear house prices 2026: £149,438 median, 10,446 sales, +0.4% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "6 towns analysed. Median price £149,438, 10,446 transactions, +0.4% YoY.",
   category: "county",
   region: "North East & Yorkshire",

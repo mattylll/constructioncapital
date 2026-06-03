@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "rugby-warwickshire-property-market",
   title: "Rugby Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Rugby House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
-  metaDescription: "Rugby property prices: median £285,000, 1,257 sales, -3.4% YoY. Detached £430,000, Flat £133,500. Land Registry data for Rugby, Warwickshire.",
+  metaTitle: "Rugby House Prices 2026: £285,000 Median",
+  metaDescription: "Rugby house prices 2026: £285,000 median, 1,257 sales, -3.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £285,000, 1,257 sales, -3.4% YoY. Warwickshire county.",
   category: "town",
   region: "Midlands",

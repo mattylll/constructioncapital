@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newquay-cornwall-property-market",
   title: "Newquay Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newquay House Prices 2026 - Property Market Data & Development Finance | Cornwall",
-  metaDescription: "Newquay property prices: median £310,000, 502 sales, -6.1% YoY. Detached £460,000, Flat £200,475. Land Registry data for Newquay, Cornwall.",
+  metaTitle: "Newquay House Prices 2026: £310,000 Median",
+  metaDescription: "Newquay house prices 2026: £310,000 median, 502 sales, -6.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £310,000, 502 sales, -6.1% YoY. Cornwall county.",
   category: "town",
   region: "South West",

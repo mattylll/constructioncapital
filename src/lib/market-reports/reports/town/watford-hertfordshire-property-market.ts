@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "watford-hertfordshire-property-market",
   title: "Watford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Watford House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
-  metaDescription: "Watford property prices: median £400,000, 739 sales, -3.6% YoY. Detached £855,000, Flat £260,000. Land Registry data for Watford, Hertfordshire.",
+  metaTitle: "Watford House Prices 2026: £400,000 Median",
+  metaDescription: "Watford house prices 2026: £400,000 median, 739 sales, -3.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £400,000, 739 sales, -3.6% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",

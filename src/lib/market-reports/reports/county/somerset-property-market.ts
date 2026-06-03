@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "somerset-property-market",
   title: "Somerset Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Somerset Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Somerset property market analysis: median price £294,000, 7,339 sales, +0.1% YoY. Town comparisons, new builds & development finance across 8 towns.",
+  metaTitle: "Somerset House Prices 2026: £294,000 Median",
+  metaDescription: "Somerset house prices 2026: £294,000 median, 7,339 sales, +0.1% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £294,000, 7,339 transactions, +0.1% YoY.",
   category: "county",
   region: "South West",

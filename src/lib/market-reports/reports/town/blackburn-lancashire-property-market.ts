@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "blackburn-lancashire-property-market",
   title: "Blackburn Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Blackburn House Prices 2026 - Property Market Data & Development Finance | Lancashire",
-  metaDescription: "Blackburn property prices: median £147,000, 1,496 sales, -10.9% YoY. Detached £300,250, Flat £85,000. Land Registry data for Blackburn, Lancashire.",
+  metaTitle: "Blackburn House Prices 2026: £147,000 Median",
+  metaDescription: "Blackburn house prices 2026: £147,000 median, 1,496 sales, -10.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £147,000, 1,496 sales, -10.9% YoY. Lancashire county.",
   category: "town",
   region: "North West",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "accrington-lancashire-property-market",
   title: "Accrington Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Accrington House Prices 2026 - Property Market Data & Development Finance | Lancashire",
-  metaDescription: "Accrington property prices: median £125,000, 941 sales, -3.8% YoY. Detached £260,000, Flat £71,300. Land Registry data for Accrington, Lancashire.",
+  metaTitle: "Accrington House Prices 2026: £125,000 Median",
+  metaDescription: "Accrington house prices 2026: £125,000 median, 941 sales, -3.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £125,000, 941 sales, -3.8% YoY. Lancashire county.",
   category: "town",
   region: "North West",

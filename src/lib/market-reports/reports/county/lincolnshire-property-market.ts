@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lincolnshire-property-market",
   title: "Lincolnshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Lincolnshire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Lincolnshire property market analysis: median price £212,500, 8,066 sales, -4.4% YoY. Town comparisons, new builds & development finance across 8 towns.",
+  metaTitle: "Lincolnshire House Prices 2026: £212,500 Median",
+  metaDescription: "Lincolnshire house prices 2026: £212,500 median, 8,066 sales, -4.4% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £212,500, 8,066 transactions, -4.4% YoY.",
   category: "county",
   region: "Midlands",

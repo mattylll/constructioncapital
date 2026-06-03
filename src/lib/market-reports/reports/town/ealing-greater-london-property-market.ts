@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ealing-greater-london-property-market",
   title: "Ealing Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ealing House Prices 2026 - Property Market Data & Development Finance | Greater London",
-  metaDescription: "Ealing property prices: median £520,000, 1,975 sales, +1% YoY. Detached £1.31m, Flat £385,000. Land Registry data for Ealing, Greater London.",
+  metaTitle: "Ealing House Prices 2026: £520,000 Median",
+  metaDescription: "Ealing house prices 2026: £520,000 median, 1,975 sales, +1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £520,000, 1,975 sales, +1% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

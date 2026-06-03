@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "thatcham-berkshire-property-market",
   title: "Thatcham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Thatcham House Prices 2026 - Property Market Data & Development Finance | Berkshire",
-  metaDescription: "Thatcham property prices: median £384,000, 361 sales, +3.8% YoY. Detached £600,000, Flat £184,750. Land Registry data for Thatcham, Berkshire.",
+  metaTitle: "Thatcham House Prices 2026: £384,000 Median",
+  metaDescription: "Thatcham house prices 2026: £384,000 median, 361 sales, +3.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £384,000, 361 sales, +3.8% YoY. Berkshire county.",
   category: "town",
   region: "London & South East",

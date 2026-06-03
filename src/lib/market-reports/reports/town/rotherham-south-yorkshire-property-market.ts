@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "rotherham-south-yorkshire-property-market",
   title: "Rotherham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Rotherham House Prices 2026 - Property Market Data & Development Finance | South Yorkshire",
-  metaDescription: "Rotherham property prices: median £180,000, 2,378 sales, 0% YoY. Detached £303,750, Flat £106,000. Land Registry data for Rotherham, South Yorkshire.",
+  metaTitle: "Rotherham House Prices 2026: £180,000 Median",
+  metaDescription: "Rotherham house prices 2026: £180,000 median, 2,378 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £180,000, 2,378 sales, 0% YoY. South Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "croydon-greater-london-property-market",
   title: "Croydon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Croydon House Prices 2026 - Property Market Data & Development Finance | Greater London",
-  metaDescription: "Croydon property prices: median £415,000, 3,025 sales, +2.5% YoY. Detached £718,500, Flat £270,000. Land Registry data for Croydon, Greater London.",
+  metaTitle: "Croydon House Prices 2026: £415,000 Median",
+  metaDescription: "Croydon house prices 2026: £415,000 median, 3,025 sales, +2.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £415,000, 3,025 sales, +2.5% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

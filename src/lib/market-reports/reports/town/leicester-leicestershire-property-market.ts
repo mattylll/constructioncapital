@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "leicester-leicestershire-property-market",
   title: "Leicester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Leicester House Prices 2026 - Property Market Data & Development Finance | Leicestershire",
-  metaDescription: "Leicester property prices: median £235,000, 1,930 sales, 0% YoY. Detached £359,000, Flat £119,250. Land Registry data for Leicester, Leicestershire.",
+  metaTitle: "Leicester House Prices 2026: £235,000 Median",
+  metaDescription: "Leicester house prices 2026: £235,000 median, 1,930 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £235,000, 1,930 sales, 0% YoY. Leicestershire county.",
   category: "town",
   region: "Midlands",

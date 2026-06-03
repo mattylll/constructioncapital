@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "barrow-in-furness-cumbria-property-market",
   title: "Barrow-in-Furness Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Barrow-in-Furness House Prices 2026 - Property Market Data & Development Finance | Cumbria",
-  metaDescription: "Barrow-in-Furness property prices: median £145,000, 735 sales, +1.8% YoY. Detached £323,000, Flat £67,000. Land Registry data for Barrow-in-Furness, Cumbria.",
+  metaTitle: "Barrow-in-Furness House Prices 2026: £145,000 Median",
+  metaDescription: "Barrow-in-Furness house prices 2026: £145,000 median, 735 sales, +1.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £145,000, 735 sales, +1.8% YoY. Cumbria county.",
   category: "town",
   region: "North West",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "horsham-sussex-property-market",
   title: "Horsham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Horsham House Prices 2026 - Property Market Data & Development Finance | Sussex",
-  metaDescription: "Horsham property prices: median £430,000, 1,545 sales, -1.7% YoY. Detached £695,000, Flat £228,750. Land Registry data for Horsham, Sussex.",
+  metaTitle: "Horsham House Prices 2026: £430,000 Median",
+  metaDescription: "Horsham house prices 2026: £430,000 median, 1,545 sales, -1.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £430,000, 1,545 sales, -1.7% YoY. Sussex county.",
   category: "town",
   region: "London & South East",

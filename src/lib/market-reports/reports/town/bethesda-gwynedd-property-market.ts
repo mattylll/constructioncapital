@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bethesda-gwynedd-property-market",
   title: "Bethesda Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bethesda House Prices 2026 - Property Market Data & Development Finance | Gwynedd",
-  metaDescription: "Bethesda property prices: median £195,000, 1,203 sales, +5.4% YoY. Detached £296,000, Flat £95,000. Land Registry data for Bethesda, Gwynedd.",
+  metaTitle: "Bethesda House Prices 2026: £195,000 Median",
+  metaDescription: "Bethesda house prices 2026: £195,000 median, 1,203 sales, +5.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £195,000, 1,203 sales, +5.4% YoY. Gwynedd county.",
   category: "town",
   region: "Wales",

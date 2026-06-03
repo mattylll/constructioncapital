@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "crewe-cheshire-property-market",
   title: "Crewe Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Crewe House Prices 2026 - Property Market Data & Development Finance | Cheshire",
-  metaDescription: "Crewe property prices: median £203,000, 1,207 sales, +1.5% YoY. Detached £337,373, Flat £100,000. Land Registry data for Crewe, Cheshire.",
+  metaTitle: "Crewe House Prices 2026: £203,000 Median",
+  metaDescription: "Crewe house prices 2026: £203,000 median, 1,207 sales, +1.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £203,000, 1,207 sales, +1.5% YoY. Cheshire county.",
   category: "town",
   region: "North West",

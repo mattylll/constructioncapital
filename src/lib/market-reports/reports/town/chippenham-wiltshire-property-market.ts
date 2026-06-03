@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "chippenham-wiltshire-property-market",
   title: "Chippenham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chippenham House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
-  metaDescription: "Chippenham property prices: median £320,000, 682 sales, +1.6% YoY. Detached £474,000, Flat £153,000. Land Registry data for Chippenham, Wiltshire.",
+  metaTitle: "Chippenham House Prices 2026: £320,000 Median",
+  metaDescription: "Chippenham house prices 2026: £320,000 median, 682 sales, +1.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £320,000, 682 sales, +1.6% YoY. Wiltshire county.",
   category: "town",
   region: "South West",

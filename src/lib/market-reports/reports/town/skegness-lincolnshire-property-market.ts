@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "skegness-lincolnshire-property-market",
   title: "Skegness Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Skegness House Prices 2026 - Property Market Data & Development Finance | Lincolnshire",
-  metaDescription: "Skegness property prices: median £204,998, 1,632 sales, -5.2% YoY. Detached £265,000, Flat £105,000. Land Registry data for Skegness, Lincolnshire.",
+  metaTitle: "Skegness House Prices 2026: £204,998 Median",
+  metaDescription: "Skegness house prices 2026: £204,998 median, 1,632 sales, -5.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £204,998, 1,632 sales, -5.2% YoY. Lincolnshire county.",
   category: "town",
   region: "Midlands",

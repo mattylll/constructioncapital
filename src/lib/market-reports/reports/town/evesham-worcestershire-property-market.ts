@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "evesham-worcestershire-property-market",
   title: "Evesham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Evesham House Prices 2026 - Property Market Data & Development Finance | Worcestershire",
-  metaDescription: "Evesham property prices: median £290,000, 461 sales, -1.4% YoY. Detached £420,000, Flat £135,000. Land Registry data for Evesham, Worcestershire.",
+  metaTitle: "Evesham House Prices 2026: £290,000 Median",
+  metaDescription: "Evesham house prices 2026: £290,000 median, 461 sales, -1.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £290,000, 461 sales, -1.4% YoY. Worcestershire county.",
   category: "town",
   region: "Midlands",

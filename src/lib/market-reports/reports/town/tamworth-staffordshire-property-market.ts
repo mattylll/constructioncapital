@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "tamworth-staffordshire-property-market",
   title: "Tamworth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Tamworth House Prices 2026 - Property Market Data & Development Finance | Staffordshire",
-  metaDescription: "Tamworth property prices: median £245,000, 794 sales, +3.2% YoY. Detached £366,500, Flat £132,500. Land Registry data for Tamworth, Staffordshire.",
+  metaTitle: "Tamworth House Prices 2026: £245,000 Median",
+  metaDescription: "Tamworth house prices 2026: £245,000 median, 794 sales, +3.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £245,000, 794 sales, +3.2% YoY. Staffordshire county.",
   category: "town",
   region: "Midlands",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "melksham-wiltshire-property-market",
   title: "Melksham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Melksham House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
-  metaDescription: "Melksham property prices: median £290,000, 353 sales, 0% YoY. Detached £409,000, Flat £130,000. Land Registry data for Melksham, Wiltshire.",
+  metaTitle: "Melksham House Prices 2026: £290,000 Median",
+  metaDescription: "Melksham house prices 2026: £290,000 median, 353 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £290,000, 353 sales, 0% YoY. Wiltshire county.",
   category: "town",
   region: "South West",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "aylesbury-buckinghamshire-property-market",
   title: "Aylesbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Aylesbury House Prices 2026 - Property Market Data & Development Finance | Buckinghamshire",
-  metaDescription: "Aylesbury property prices: median £370,000, 1,557 sales, -2.4% YoY. Detached £610,663, Flat £195,000. Land Registry data for Aylesbury, Buckinghamshire.",
+  metaTitle: "Aylesbury House Prices 2026: £370,000 Median",
+  metaDescription: "Aylesbury house prices 2026: £370,000 median, 1,557 sales, -2.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £370,000, 1,557 sales, -2.4% YoY. Buckinghamshire county.",
   category: "town",
   region: "London & South East",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "morpeth-northumberland-property-market",
   title: "Morpeth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Morpeth House Prices 2026 - Property Market Data & Development Finance | Northumberland",
-  metaDescription: "Morpeth property prices: median £245,000, 725 sales, +4.3% YoY. Detached £385,000, Flat £153,000. Land Registry data for Morpeth, Northumberland.",
+  metaTitle: "Morpeth House Prices 2026: £245,000 Median",
+  metaDescription: "Morpeth house prices 2026: £245,000 median, 725 sales, +4.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £245,000, 725 sales, +4.3% YoY. Northumberland county.",
   category: "town",
   region: "North East & Yorkshire",

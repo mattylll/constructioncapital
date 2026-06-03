@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wombwell-south-yorkshire-property-market",
   title: "Wombwell Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wombwell House Prices 2026 - Property Market Data & Development Finance | South Yorkshire",
-  metaDescription: "Wombwell property prices: median £164,748, 2,572 sales, -0.2% YoY. Detached £300,000, Flat £100,000. Land Registry data for Wombwell, South Yorkshire.",
+  metaTitle: "Wombwell House Prices 2026: £164,748 Median",
+  metaDescription: "Wombwell house prices 2026: £164,748 median, 2,572 sales, -0.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £164,748, 2,572 sales, -0.2% YoY. South Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

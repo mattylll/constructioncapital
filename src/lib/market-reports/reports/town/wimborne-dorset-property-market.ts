@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wimborne-dorset-property-market",
   title: "Wimborne Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wimborne House Prices 2026 - Property Market Data & Development Finance | Dorset",
-  metaDescription: "Wimborne property prices: median £385,000, 354 sales, -4.9% YoY. Detached £500,000, Flat £184,000. Land Registry data for Wimborne, Dorset.",
+  metaTitle: "Wimborne House Prices 2026: £385,000 Median",
+  metaDescription: "Wimborne house prices 2026: £385,000 median, 354 sales, -4.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £385,000, 354 sales, -4.9% YoY. Dorset county.",
   category: "town",
   region: "South West",

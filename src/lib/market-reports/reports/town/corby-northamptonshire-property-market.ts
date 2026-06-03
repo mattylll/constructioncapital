@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "corby-northamptonshire-property-market",
   title: "Corby Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Corby House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
-  metaDescription: "Corby property prices: median £220,000, 731 sales, -4.3% YoY. Detached £325,000, Flat £134,950. Land Registry data for Corby, Northamptonshire.",
+  metaTitle: "Corby House Prices 2026: £220,000 Median",
+  metaDescription: "Corby house prices 2026: £220,000 median, 731 sales, -4.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £220,000, 731 sales, -4.3% YoY. Northamptonshire county.",
   category: "town",
   region: "Midlands",

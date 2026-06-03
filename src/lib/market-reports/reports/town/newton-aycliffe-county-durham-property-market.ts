@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newton-aycliffe-county-durham-property-market",
   title: "Newton Aycliffe Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newton Aycliffe House Prices 2026 - Property Market Data & Development Finance | County Durham",
-  metaDescription: "Newton Aycliffe property prices: median £132,500, 282 sales, -2.6% YoY. Detached £230,000, Flat £64,500. Land Registry data for Newton Aycliffe, County Durham.",
+  metaTitle: "Newton Aycliffe House Prices 2026: £132,500 Median",
+  metaDescription: "Newton Aycliffe house prices 2026: £132,500 median, 282 sales, -2.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £132,500, 282 sales, -2.6% YoY. County Durham county.",
   category: "town",
   region: "North East & Yorkshire",

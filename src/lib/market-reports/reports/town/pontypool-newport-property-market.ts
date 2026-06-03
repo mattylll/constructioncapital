@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "pontypool-newport-property-market",
   title: "Pontypool Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Pontypool House Prices 2026 - Property Market Data & Development Finance | Newport",
-  metaDescription: "Pontypool property prices: median £175,000, 343 sales, +2.9% YoY. Detached £320,000, Flat £121,250. Land Registry data for Pontypool, Newport.",
+  metaTitle: "Pontypool House Prices 2026: £175,000 Median",
+  metaDescription: "Pontypool house prices 2026: £175,000 median, 343 sales, +2.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £175,000, 343 sales, +2.9% YoY. Newport county.",
   category: "town",
   region: "Wales",

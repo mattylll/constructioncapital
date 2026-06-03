@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "dorchester-dorset-property-market",
   title: "Dorchester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dorchester House Prices 2026 - Property Market Data & Development Finance | Dorset",
-  metaDescription: "Dorchester property prices: median £335,500, 530 sales, -1% YoY. Detached £485,000, Flat £188,000. Land Registry data for Dorchester, Dorset.",
+  metaTitle: "Dorchester House Prices 2026: £335,500 Median",
+  metaDescription: "Dorchester house prices 2026: £335,500 median, 530 sales, -1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £335,500, 530 sales, -1% YoY. Dorset county.",
   category: "town",
   region: "South West",

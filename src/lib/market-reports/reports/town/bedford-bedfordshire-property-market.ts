@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bedford-bedfordshire-property-market",
   title: "Bedford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bedford House Prices 2026 - Property Market Data & Development Finance | Bedfordshire",
-  metaDescription: "Bedford property prices: median £336,750, 1,754 sales, -0.2% YoY. Detached £483,750, Flat £172,000. Land Registry data for Bedford, Bedfordshire.",
+  metaTitle: "Bedford House Prices 2026: £336,750 Median",
+  metaDescription: "Bedford house prices 2026: £336,750 median, 1,754 sales, -0.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £336,750, 1,754 sales, -0.2% YoY. Bedfordshire county.",
   category: "town",
   region: "East of England",

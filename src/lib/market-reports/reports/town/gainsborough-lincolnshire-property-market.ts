@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "gainsborough-lincolnshire-property-market",
   title: "Gainsborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Gainsborough House Prices 2026 - Property Market Data & Development Finance | Lincolnshire",
-  metaDescription: "Gainsborough property prices: median £210,000, 1,180 sales, -5.5% YoY. Detached £295,000, Flat £80,000. Land Registry data for Gainsborough, Lincolnshire.",
+  metaTitle: "Gainsborough House Prices 2026: £210,000 Median",
+  metaDescription: "Gainsborough house prices 2026: £210,000 median, 1,180 sales, -5.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £210,000, 1,180 sales, -5.5% YoY. Lincolnshire county.",
   category: "town",
   region: "Midlands",

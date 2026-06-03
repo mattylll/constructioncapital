@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "marlborough-wiltshire-property-market",
   title: "Marlborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Marlborough House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
-  metaDescription: "Marlborough property prices: median £440,000, 210 sales, -5.4% YoY. Detached £627,500, Flat £170,000. Land Registry data for Marlborough, Wiltshire.",
+  metaTitle: "Marlborough House Prices 2026: £440,000 Median",
+  metaDescription: "Marlborough house prices 2026: £440,000 median, 210 sales, -5.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £440,000, 210 sales, -5.4% YoY. Wiltshire county.",
   category: "town",
   region: "South West",

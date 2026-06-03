@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "brighton-sussex-property-market",
   title: "Brighton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Brighton House Prices 2026 - Property Market Data & Development Finance | Sussex",
-  metaDescription: "Brighton property prices: median £415,000, 2,565 sales, +3.8% YoY. Detached £681,250, Flat £300,000. Land Registry data for Brighton, Sussex.",
+  metaTitle: "Brighton House Prices 2026: £415,000 Median",
+  metaDescription: "Brighton house prices 2026: £415,000 median, 2,565 sales, +3.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £415,000, 2,565 sales, +3.8% YoY. Sussex county.",
   category: "town",
   region: "London & South East",

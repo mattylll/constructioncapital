@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bishops-stortford-hertfordshire-property-market",
   title: "Bishops Stortford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bishops Stortford House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
-  metaDescription: "Bishops Stortford property prices: median £445,000, 1,555 sales, -1.1% YoY. Detached £700,000, Flat £250,000. Land Registry data for Bishops Stortford, Hertfordshire.",
+  metaTitle: "Bishops Stortford House Prices 2026: £445,000 Median",
+  metaDescription: "Bishops Stortford house prices 2026: £445,000 median, 1,555 sales, -1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £445,000, 1,555 sales, -1.1% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",

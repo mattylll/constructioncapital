@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "alnwick-northumberland-property-market",
   title: "Alnwick Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Alnwick House Prices 2026 - Property Market Data & Development Finance | Northumberland",
-  metaDescription: "Alnwick property prices: median £260,000, 220 sales, -13.3% YoY. Detached £365,000, Flat £142,000. Land Registry data for Alnwick, Northumberland.",
+  metaTitle: "Alnwick House Prices 2026: £260,000 Median",
+  metaDescription: "Alnwick house prices 2026: £260,000 median, 220 sales, -13.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £260,000, 220 sales, -13.3% YoY. Northumberland county.",
   category: "town",
   region: "North East & Yorkshire",

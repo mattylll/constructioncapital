@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hertfordshire-property-market",
   title: "Hertfordshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Hertfordshire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Hertfordshire property market analysis: median price £443,550, 7,653 sales, -0.4% YoY. Town comparisons, new builds & development finance across 10 towns.",
+  metaTitle: "Hertfordshire House Prices 2026: £443,550 Median",
+  metaDescription: "Hertfordshire house prices 2026: £443,550 median, 7,653 sales, -0.4% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "10 towns analysed. Median price £443,550, 7,653 transactions, -0.4% YoY.",
   category: "county",
   region: "London & South East",

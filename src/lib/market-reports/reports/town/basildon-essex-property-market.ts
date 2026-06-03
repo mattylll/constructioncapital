@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "basildon-essex-property-market",
   title: "Basildon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Basildon House Prices 2026 - Property Market Data & Development Finance | Essex",
-  metaDescription: "Basildon property prices: median £350,000, 1,778 sales, -1.4% YoY. Detached £575,000, Flat £199,000. Land Registry data for Basildon, Essex.",
+  metaTitle: "Basildon House Prices 2026: £350,000 Median",
+  metaDescription: "Basildon house prices 2026: £350,000 median, 1,778 sales, -1.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £350,000, 1,778 sales, -1.4% YoY. Essex county.",
   category: "town",
   region: "London & South East",

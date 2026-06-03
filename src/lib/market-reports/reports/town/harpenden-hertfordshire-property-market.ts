@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "harpenden-hertfordshire-property-market",
   title: "Harpenden Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Harpenden House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
-  metaDescription: "Harpenden property prices: median £760,000, 296 sales, -0.7% YoY. Detached £1.42m, Flat £330,000. Land Registry data for Harpenden, Hertfordshire.",
+  metaTitle: "Harpenden House Prices 2026: £760,000 Median",
+  metaDescription: "Harpenden house prices 2026: £760,000 median, 296 sales, -0.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £760,000, 296 sales, -0.7% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",

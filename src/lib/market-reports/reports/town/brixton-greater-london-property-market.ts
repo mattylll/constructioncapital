@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "brixton-greater-london-property-market",
   title: "Brixton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Brixton House Prices 2026 - Property Market Data & Development Finance | Greater London",
-  metaDescription: "Brixton property prices: median £540,000, 2,385 sales, +1.9% YoY. Detached £1.35m, Flat £455,000. Land Registry data for Brixton, Greater London.",
+  metaTitle: "Brixton House Prices 2026: £540,000 Median",
+  metaDescription: "Brixton house prices 2026: £540,000 median, 2,385 sales, +1.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £540,000, 2,385 sales, +1.9% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

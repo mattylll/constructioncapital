@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cromer-norfolk-property-market",
   title: "Cromer Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Cromer House Prices 2026 - Property Market Data & Development Finance | Norfolk",
-  metaDescription: "Cromer property prices: median £290,000, 1,187 sales, -3.3% YoY. Detached £385,000, Flat £169,000. Land Registry data for Cromer, Norfolk.",
+  metaTitle: "Cromer House Prices 2026: £290,000 Median",
+  metaDescription: "Cromer house prices 2026: £290,000 median, 1,187 sales, -3.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £290,000, 1,187 sales, -3.3% YoY. Norfolk county.",
   category: "town",
   region: "East of England",

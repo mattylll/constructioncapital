@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "harrogate-north-yorkshire-property-market",
   title: "Harrogate Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Harrogate House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
-  metaDescription: "Harrogate property prices: median £313,750, 1,184 sales, +0.6% YoY. Detached £576,500, Flat £227,475. Land Registry data for Harrogate, North Yorkshire.",
+  metaTitle: "Harrogate House Prices 2026: £313,750 Median",
+  metaDescription: "Harrogate house prices 2026: £313,750 median, 1,184 sales, +0.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £313,750, 1,184 sales, +0.6% YoY. North Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

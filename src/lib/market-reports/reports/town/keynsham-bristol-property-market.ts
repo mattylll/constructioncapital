@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "keynsham-bristol-property-market",
   title: "Keynsham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Keynsham House Prices 2026 - Property Market Data & Development Finance | Bristol",
-  metaDescription: "Keynsham property prices: median £390,000, 1,917 sales, -1.3% YoY. Detached £580,000, Flat £265,000. Land Registry data for Keynsham, Bristol.",
+  metaTitle: "Keynsham House Prices 2026: £390,000 Median",
+  metaDescription: "Keynsham house prices 2026: £390,000 median, 1,917 sales, -1.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £390,000, 1,917 sales, -1.3% YoY. Bristol county.",
   category: "town",
   region: "South West",

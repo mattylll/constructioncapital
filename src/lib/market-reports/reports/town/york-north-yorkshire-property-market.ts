@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "york-north-yorkshire-property-market",
   title: "York Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "York House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
-  metaDescription: "York property prices: median £295,000, 1,950 sales, -1.7% YoY. Detached £425,000, Flat £190,000. Land Registry data for York, North Yorkshire.",
+  metaTitle: "York House Prices 2026: £295,000 Median",
+  metaDescription: "York house prices 2026: £295,000 median, 1,950 sales, -1.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £295,000, 1,950 sales, -1.7% YoY. North Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

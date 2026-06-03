@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "staines-surrey-property-market",
   title: "Staines Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Staines House Prices 2026 - Property Market Data & Development Finance | Surrey",
-  metaDescription: "Staines property prices: median £457,500, 916 sales, +1.7% YoY. Detached £665,000, Flat £280,000. Land Registry data for Staines, Surrey.",
+  metaTitle: "Staines House Prices 2026: £457,500 Median",
+  metaDescription: "Staines house prices 2026: £457,500 median, 916 sales, +1.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £457,500, 916 sales, +1.7% YoY. Surrey county.",
   category: "town",
   region: "London & South East",

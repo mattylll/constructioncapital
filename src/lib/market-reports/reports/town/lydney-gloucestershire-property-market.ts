@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lydney-gloucestershire-property-market",
   title: "Lydney Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lydney House Prices 2026 - Property Market Data & Development Finance | Gloucestershire",
-  metaDescription: "Lydney property prices: median £280,000, 807 sales, +3.7% YoY. Detached £385,000, Flat £135,500. Land Registry data for Lydney, Gloucestershire.",
+  metaTitle: "Lydney House Prices 2026: £280,000 Median",
+  metaDescription: "Lydney house prices 2026: £280,000 median, 807 sales, +3.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £280,000, 807 sales, +3.7% YoY. Gloucestershire county.",
   category: "town",
   region: "South West",

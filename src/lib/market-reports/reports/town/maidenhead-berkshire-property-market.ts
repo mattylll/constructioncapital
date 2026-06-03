@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "maidenhead-berkshire-property-market",
   title: "Maidenhead Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Maidenhead House Prices 2026 - Property Market Data & Development Finance | Berkshire",
-  metaDescription: "Maidenhead property prices: median £510,000, 666 sales, +2% YoY. Detached £810,000, Flat £282,500. Land Registry data for Maidenhead, Berkshire.",
+  metaTitle: "Maidenhead House Prices 2026: £510,000 Median",
+  metaDescription: "Maidenhead house prices 2026: £510,000 median, 666 sales, +2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £510,000, 666 sales, +2% YoY. Berkshire county.",
   category: "town",
   region: "London & South East",

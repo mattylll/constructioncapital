@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ilkeston-derbyshire-property-market",
   title: "Ilkeston Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ilkeston House Prices 2026 - Property Market Data & Development Finance | Derbyshire",
-  metaDescription: "Ilkeston property prices: median £181,625, 520 sales, +0.9% YoY. Detached £282,500, Flat £96,500. Land Registry data for Ilkeston, Derbyshire.",
+  metaTitle: "Ilkeston House Prices 2026: £181,625 Median",
+  metaDescription: "Ilkeston house prices 2026: £181,625 median, 520 sales, +0.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £181,625, 520 sales, +0.9% YoY. Derbyshire county.",
   category: "town",
   region: "Midlands",

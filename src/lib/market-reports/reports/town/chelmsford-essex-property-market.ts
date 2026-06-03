@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "chelmsford-essex-property-market",
   title: "Chelmsford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chelmsford House Prices 2026 - Property Market Data & Development Finance | Essex",
-  metaDescription: "Chelmsford property prices: median £395,000, 1,848 sales, -1.1% YoY. Detached £611,750, Flat £220,000. Land Registry data for Chelmsford, Essex.",
+  metaTitle: "Chelmsford House Prices 2026: £395,000 Median",
+  metaDescription: "Chelmsford house prices 2026: £395,000 median, 1,848 sales, -1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £395,000, 1,848 sales, -1.1% YoY. Essex county.",
   category: "town",
   region: "London & South East",

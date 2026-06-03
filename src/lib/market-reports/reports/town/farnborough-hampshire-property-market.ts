@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "farnborough-hampshire-property-market",
   title: "Farnborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Farnborough House Prices 2026 - Property Market Data & Development Finance | Hampshire",
-  metaDescription: "Farnborough property prices: median £355,000, 541 sales, -3.3% YoY. Detached £575,000, Flat £214,650. Land Registry data for Farnborough, Hampshire.",
+  metaTitle: "Farnborough House Prices 2026: £355,000 Median",
+  metaDescription: "Farnborough house prices 2026: £355,000 median, 541 sales, -3.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £355,000, 541 sales, -3.3% YoY. Hampshire county.",
   category: "town",
   region: "London & South East",

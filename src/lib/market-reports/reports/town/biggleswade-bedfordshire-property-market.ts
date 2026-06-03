@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "biggleswade-bedfordshire-property-market",
   title: "Biggleswade Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Biggleswade House Prices 2026 - Property Market Data & Development Finance | Bedfordshire",
-  metaDescription: "Biggleswade property prices: median £349,000, 348 sales, -6.3% YoY. Detached £527,500, Flat £200,000. Land Registry data for Biggleswade, Bedfordshire.",
+  metaTitle: "Biggleswade House Prices 2026: £349,000 Median",
+  metaDescription: "Biggleswade house prices 2026: £349,000 median, 348 sales, -6.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £349,000, 348 sales, -6.3% YoY. Bedfordshire county.",
   category: "town",
   region: "East of England",

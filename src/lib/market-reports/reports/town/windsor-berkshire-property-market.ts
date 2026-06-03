@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "windsor-berkshire-property-market",
   title: "Windsor Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Windsor House Prices 2026 - Property Market Data & Development Finance | Berkshire",
-  metaDescription: "Windsor property prices: median £517,250, 354 sales, +3.5% YoY. Detached £762,500, Flat £312,500. Land Registry data for Windsor, Berkshire.",
+  metaTitle: "Windsor House Prices 2026: £517,250 Median",
+  metaDescription: "Windsor house prices 2026: £517,250 median, 354 sales, +3.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £517,250, 354 sales, +3.5% YoY. Berkshire county.",
   category: "town",
   region: "London & South East",

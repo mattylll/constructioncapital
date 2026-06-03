@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "north-shields-tyne-and-wear-property-market",
   title: "North Shields Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "North Shields House Prices 2026 - Property Market Data & Development Finance | Tyne and Wear",
-  metaDescription: "North Shields property prices: median £195,000, 2,173 sales, +2.1% YoY. Detached £335,000, Flat £118,000. Land Registry data for North Shields, Tyne and Wear.",
+  metaTitle: "North Shields House Prices 2026: £195,000 Median",
+  metaDescription: "North Shields house prices 2026: £195,000 median, 2,173 sales, +2.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £195,000, 2,173 sales, +2.1% YoY. Tyne and Wear county.",
   category: "town",
   region: "North East & Yorkshire",

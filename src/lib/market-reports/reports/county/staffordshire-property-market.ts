@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "staffordshire-property-market",
   title: "Staffordshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Staffordshire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Staffordshire property market analysis: median price £227,000, 9,577 sales, -0.1% YoY. Town comparisons, new builds & development finance across 7 towns.",
+  metaTitle: "Staffordshire House Prices 2026: £227,000 Median",
+  metaDescription: "Staffordshire house prices 2026: £227,000 median, 9,577 sales, -0.1% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "7 towns analysed. Median price £227,000, 9,577 transactions, -0.1% YoY.",
   category: "county",
   region: "Midlands",

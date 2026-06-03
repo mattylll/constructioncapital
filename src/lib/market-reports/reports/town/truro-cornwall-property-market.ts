@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "truro-cornwall-property-market",
   title: "Truro Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Truro House Prices 2026 - Property Market Data & Development Finance | Cornwall",
-  metaDescription: "Truro property prices: median £320,000, 595 sales, -1.7% YoY. Detached £469,283, Flat £180,000. Land Registry data for Truro, Cornwall.",
+  metaTitle: "Truro House Prices 2026: £320,000 Median",
+  metaDescription: "Truro house prices 2026: £320,000 median, 595 sales, -1.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £320,000, 595 sales, -1.7% YoY. Cornwall county.",
   category: "town",
   region: "South West",

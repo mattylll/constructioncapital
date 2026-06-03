@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "east-riding-of-yorkshire-property-market",
   title: "East Riding of Yorkshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "East Riding of Yorkshire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "East Riding of Yorkshire property market analysis: median price £196,500, 2,308 sales, -4.4% YoY. Town comparisons, new builds & development finance across 5 towns.",
+  metaTitle: "East Riding of Yorkshire House Prices 2026: £196,500 Median",
+  metaDescription: "East Riding of Yorkshire house prices 2026: £196,500 median, 2,308 sales, -4.4% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "5 towns analysed. Median price £196,500, 2,308 transactions, -4.4% YoY.",
   category: "county",
   region: "North East & Yorkshire",

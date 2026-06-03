@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "west-bridgford-nottinghamshire-property-market",
   title: "West Bridgford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "West Bridgford House Prices 2026 - Property Market Data & Development Finance | Nottinghamshire",
-  metaDescription: "West Bridgford property prices: median £325,000, 1,412 sales, -5.2% YoY. Detached £425,000, Flat £160,000. Land Registry data for West Bridgford, Nottinghamshire.",
+  metaTitle: "West Bridgford House Prices 2026: £325,000 Median",
+  metaDescription: "West Bridgford house prices 2026: £325,000 median, 1,412 sales, -5.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £325,000, 1,412 sales, -5.2% YoY. Nottinghamshire county.",
   category: "town",
   region: "Midlands",

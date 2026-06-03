@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "boston-lincolnshire-property-market",
   title: "Boston Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Boston House Prices 2026 - Property Market Data & Development Finance | Lincolnshire",
-  metaDescription: "Boston property prices: median £187,000, 655 sales, -6.3% YoY. Detached £251,500, Flat £86,250. Land Registry data for Boston, Lincolnshire.",
+  metaTitle: "Boston House Prices 2026: £187,000 Median",
+  metaDescription: "Boston house prices 2026: £187,000 median, 655 sales, -6.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £187,000, 655 sales, -6.3% YoY. Lincolnshire county.",
   category: "town",
   region: "Midlands",

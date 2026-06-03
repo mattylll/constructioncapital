@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cwmbran-newport-property-market",
   title: "Cwmbran Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Cwmbran House Prices 2026 - Property Market Data & Development Finance | Newport",
-  metaDescription: "Cwmbran property prices: median £205,000, 418 sales, -2.4% YoY. Detached £342,500, Flat £118,000. Land Registry data for Cwmbran, Newport.",
+  metaTitle: "Cwmbran House Prices 2026: £205,000 Median",
+  metaDescription: "Cwmbran house prices 2026: £205,000 median, 418 sales, -2.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £205,000, 418 sales, -2.4% YoY. Newport county.",
   category: "town",
   region: "Wales",

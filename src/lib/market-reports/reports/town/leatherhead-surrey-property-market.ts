@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "leatherhead-surrey-property-market",
   title: "Leatherhead Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Leatherhead House Prices 2026 - Property Market Data & Development Finance | Surrey",
-  metaDescription: "Leatherhead property prices: median £582,500, 328 sales, +0.4% YoY. Detached £875,000, Flat £260,000. Land Registry data for Leatherhead, Surrey.",
+  metaTitle: "Leatherhead House Prices 2026: £582,500 Median",
+  metaDescription: "Leatherhead house prices 2026: £582,500 median, 328 sales, +0.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £582,500, 328 sales, +0.4% YoY. Surrey county.",
   category: "town",
   region: "London & South East",

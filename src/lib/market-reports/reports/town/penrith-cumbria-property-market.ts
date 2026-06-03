@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "penrith-cumbria-property-market",
   title: "Penrith Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Penrith House Prices 2026 - Property Market Data & Development Finance | Cumbria",
-  metaDescription: "Penrith property prices: median £230,500, 466 sales, -11.3% YoY. Detached £355,000, Flat £120,000. Land Registry data for Penrith, Cumbria.",
+  metaTitle: "Penrith House Prices 2026: £230,500 Median",
+  metaDescription: "Penrith house prices 2026: £230,500 median, 466 sales, -11.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £230,500, 466 sales, -11.3% YoY. Cumbria county.",
   category: "town",
   region: "North West",

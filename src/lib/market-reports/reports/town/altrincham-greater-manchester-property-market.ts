@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "altrincham-greater-manchester-property-market",
   title: "Altrincham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Altrincham House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
-  metaDescription: "Altrincham property prices: median £355,000, 2,209 sales, -2.2% YoY. Detached £680,000, Flat £192,500. Land Registry data for Altrincham, Greater Manchester.",
+  metaTitle: "Altrincham House Prices 2026: £355,000 Median",
+  metaDescription: "Altrincham house prices 2026: £355,000 median, 2,209 sales, -2.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £355,000, 2,209 sales, -2.2% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",

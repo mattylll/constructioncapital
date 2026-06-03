@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "redhill-surrey-property-market",
   title: "Redhill Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Redhill House Prices 2026 - Property Market Data & Development Finance | Surrey",
-  metaDescription: "Redhill property prices: median £471,250, 1,404 sales, -0.8% YoY. Detached £797,000, Flat £268,000. Land Registry data for Redhill, Surrey.",
+  metaTitle: "Redhill House Prices 2026: £471,250 Median",
+  metaDescription: "Redhill house prices 2026: £471,250 median, 1,404 sales, -0.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £471,250, 1,404 sales, -0.8% YoY. Surrey county.",
   category: "town",
   region: "London & South East",

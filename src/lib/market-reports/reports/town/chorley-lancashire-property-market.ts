@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "chorley-lancashire-property-market",
   title: "Chorley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chorley House Prices 2026 - Property Market Data & Development Finance | Lancashire",
-  metaDescription: "Chorley property prices: median £212,500, 1,245 sales, +1.2% YoY. Detached £355,000, Flat £115,000. Land Registry data for Chorley, Lancashire.",
+  metaTitle: "Chorley House Prices 2026: £212,500 Median",
+  metaDescription: "Chorley house prices 2026: £212,500 median, 1,245 sales, +1.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £212,500, 1,245 sales, +1.2% YoY. Lancashire county.",
   category: "town",
   region: "North West",

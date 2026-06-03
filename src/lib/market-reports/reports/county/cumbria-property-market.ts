@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cumbria-property-market",
   title: "Cumbria Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Cumbria Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Cumbria property market analysis: median price £163,750, 3,763 sales, -4.5% YoY. Town comparisons, new builds & development finance across 6 towns.",
+  metaTitle: "Cumbria House Prices 2026: £163,750 Median",
+  metaDescription: "Cumbria house prices 2026: £163,750 median, 3,763 sales, -4.5% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "6 towns analysed. Median price £163,750, 3,763 transactions, -4.5% YoY.",
   category: "county",
   region: "North West",

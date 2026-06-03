@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "gravesend-kent-property-market",
   title: "Gravesend Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Gravesend House Prices 2026 - Property Market Data & Development Finance | Kent",
-  metaDescription: "Gravesend property prices: median £350,000, 839 sales, +1.4% YoY. Detached £600,000, Flat £175,000. Land Registry data for Gravesend, Kent.",
+  metaTitle: "Gravesend House Prices 2026: £350,000 Median",
+  metaDescription: "Gravesend house prices 2026: £350,000 median, 839 sales, +1.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £350,000, 839 sales, +1.4% YoY. Kent county.",
   category: "town",
   region: "London & South East",

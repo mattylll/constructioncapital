@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "epsom-surrey-property-market",
   title: "Epsom Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Epsom House Prices 2026 - Property Market Data & Development Finance | Surrey",
-  metaDescription: "Epsom property prices: median £540,000, 681 sales, +1.9% YoY. Detached £845,000, Flat £315,000. Land Registry data for Epsom, Surrey.",
+  metaTitle: "Epsom House Prices 2026: £540,000 Median",
+  metaDescription: "Epsom house prices 2026: £540,000 median, 681 sales, +1.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £540,000, 681 sales, +1.9% YoY. Surrey county.",
   category: "town",
   region: "London & South East",

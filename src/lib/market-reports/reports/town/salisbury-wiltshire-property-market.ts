@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "salisbury-wiltshire-property-market",
   title: "Salisbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Salisbury House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
-  metaDescription: "Salisbury property prices: median £335,000, 1,182 sales, +4.7% YoY. Detached £480,000, Flat £174,500. Land Registry data for Salisbury, Wiltshire.",
+  metaTitle: "Salisbury House Prices 2026: £335,000 Median",
+  metaDescription: "Salisbury house prices 2026: £335,000 median, 1,182 sales, +4.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £335,000, 1,182 sales, +4.7% YoY. Wiltshire county.",
   category: "town",
   region: "South West",

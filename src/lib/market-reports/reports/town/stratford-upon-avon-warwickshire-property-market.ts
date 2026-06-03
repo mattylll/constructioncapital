@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stratford-upon-avon-warwickshire-property-market",
   title: "Stratford-upon-Avon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stratford-upon-Avon House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
-  metaDescription: "Stratford-upon-Avon property prices: median £351,750, 1,606 sales, -4.2% YoY. Detached £515,000, Flat £182,000. Land Registry data for Stratford-upon-Avon, Warwickshire.",
+  metaTitle: "Stratford-upon-Avon House Prices 2026: £351,750 Median",
+  metaDescription: "Stratford-upon-Avon house prices 2026: £351,750 median, 1,606 sales, -4.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £351,750, 1,606 sales, -4.2% YoY. Warwickshire county.",
   category: "town",
   region: "Midlands",

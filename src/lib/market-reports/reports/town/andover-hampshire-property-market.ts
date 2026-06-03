@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "andover-hampshire-property-market",
   title: "Andover Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Andover House Prices 2026 - Property Market Data & Development Finance | Hampshire",
-  metaDescription: "Andover property prices: median £345,000, 1,323 sales, -5.5% YoY. Detached £556,250, Flat £175,000. Land Registry data for Andover, Hampshire.",
+  metaTitle: "Andover House Prices 2026: £345,000 Median",
+  metaDescription: "Andover house prices 2026: £345,000 median, 1,323 sales, -5.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £345,000, 1,323 sales, -5.5% YoY. Hampshire county.",
   category: "town",
   region: "London & South East",

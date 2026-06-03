@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bury-greater-manchester-property-market",
   title: "Bury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bury House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
-  metaDescription: "Bury property prices: median £229,000, 1,879 sales, -0.8% YoY. Detached £382,000, Flat £125,000. Land Registry data for Bury, Greater Manchester.",
+  metaTitle: "Bury House Prices 2026: £229,000 Median",
+  metaDescription: "Bury house prices 2026: £229,000 median, 1,879 sales, -0.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £229,000, 1,879 sales, -0.8% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",

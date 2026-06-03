@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "spalding-lincolnshire-property-market",
   title: "Spalding Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Spalding House Prices 2026 - Property Market Data & Development Finance | Lincolnshire",
-  metaDescription: "Spalding property prices: median £220,000, 1,109 sales, -5.4% YoY. Detached £280,000, Flat £85,000. Land Registry data for Spalding, Lincolnshire.",
+  metaTitle: "Spalding House Prices 2026: £220,000 Median",
+  metaDescription: "Spalding house prices 2026: £220,000 median, 1,109 sales, -5.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £220,000, 1,109 sales, -5.4% YoY. Lincolnshire county.",
   category: "town",
   region: "Midlands",

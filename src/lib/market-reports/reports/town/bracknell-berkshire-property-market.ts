@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bracknell-berkshire-property-market",
   title: "Bracknell Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bracknell House Prices 2026 - Property Market Data & Development Finance | Berkshire",
-  metaDescription: "Bracknell property prices: median £415,000, 1,222 sales, +1.1% YoY. Detached £638,000, Flat £230,000. Land Registry data for Bracknell, Berkshire.",
+  metaTitle: "Bracknell House Prices 2026: £415,000 Median",
+  metaDescription: "Bracknell house prices 2026: £415,000 median, 1,222 sales, +1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £415,000, 1,222 sales, +1.1% YoY. Berkshire county.",
   category: "town",
   region: "London & South East",

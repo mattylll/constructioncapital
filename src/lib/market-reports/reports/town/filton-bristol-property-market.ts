@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "filton-bristol-property-market",
   title: "Filton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Filton House Prices 2026 - Property Market Data & Development Finance | Bristol",
-  metaDescription: "Filton property prices: median £330,000, 2,966 sales, -3.5% YoY. Detached £500,000, Flat £200,000. Land Registry data for Filton, Bristol.",
+  metaTitle: "Filton House Prices 2026: £330,000 Median",
+  metaDescription: "Filton house prices 2026: £330,000 median, 2,966 sales, -3.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £330,000, 2,966 sales, -3.5% YoY. Bristol county.",
   category: "town",
   region: "South West",

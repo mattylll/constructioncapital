@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "west-yorkshire-property-market",
   title: "West Yorkshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "West Yorkshire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "West Yorkshire property market analysis: median price £188,750, 18,392 sales, -0.2% YoY. Town comparisons, new builds & development finance across 8 towns.",
+  metaTitle: "West Yorkshire House Prices 2026: £188,750 Median",
+  metaDescription: "West Yorkshire house prices 2026: £188,750 median, 18,392 sales, -0.2% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £188,750, 18,392 transactions, -0.2% YoY.",
   category: "county",
   region: "North East & Yorkshire",

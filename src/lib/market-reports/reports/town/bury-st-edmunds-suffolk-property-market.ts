@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bury-st-edmunds-suffolk-property-market",
   title: "Bury St Edmunds Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bury St Edmunds House Prices 2026 - Property Market Data & Development Finance | Suffolk",
-  metaDescription: "Bury St Edmunds property prices: median £290,000, 1,135 sales, -2.5% YoY. Detached £400,000, Flat £170,000. Land Registry data for Bury St Edmunds, Suffolk.",
+  metaTitle: "Bury St Edmunds House Prices 2026: £290,000 Median",
+  metaDescription: "Bury St Edmunds house prices 2026: £290,000 median, 1,135 sales, -2.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £290,000, 1,135 sales, -2.5% YoY. Suffolk county.",
   category: "town",
   region: "East of England",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hertford-hertfordshire-property-market",
   title: "Hertford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hertford House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
-  metaDescription: "Hertford property prices: median £445,000, 408 sales, -1.1% YoY. Detached £847,500, Flat £275,000. Land Registry data for Hertford, Hertfordshire.",
+  metaTitle: "Hertford House Prices 2026: £445,000 Median",
+  metaDescription: "Hertford house prices 2026: £445,000 median, 408 sales, -1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £445,000, 408 sales, -1.1% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",

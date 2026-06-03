@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "preston-lancashire-property-market",
   title: "Preston Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Preston House Prices 2026 - Property Market Data & Development Finance | Lancashire",
-  metaDescription: "Preston property prices: median £166,500, 1,601 sales, -12.4% YoY. Detached £318,000, Flat £82,500. Land Registry data for Preston, Lancashire.",
+  metaTitle: "Preston House Prices 2026: £166,500 Median",
+  metaDescription: "Preston house prices 2026: £166,500 median, 1,601 sales, -12.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £166,500, 1,601 sales, -12.4% YoY. Lancashire county.",
   category: "town",
   region: "North West",

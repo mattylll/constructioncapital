@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "pontefract-west-yorkshire-property-market",
   title: "Pontefract Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Pontefract House Prices 2026 - Property Market Data & Development Finance | West Yorkshire",
-  metaDescription: "Pontefract property prices: median £185,000, 1,074 sales, +1.1% YoY. Detached £287,500, Flat £87,500. Land Registry data for Pontefract, West Yorkshire.",
+  metaTitle: "Pontefract House Prices 2026: £185,000 Median",
+  metaDescription: "Pontefract house prices 2026: £185,000 median, 1,074 sales, +1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £185,000, 1,074 sales, +1.1% YoY. West Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

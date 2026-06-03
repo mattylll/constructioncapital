@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "penzance-cornwall-property-market",
   title: "Penzance Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Penzance House Prices 2026 - Property Market Data & Development Finance | Cornwall",
-  metaDescription: "Penzance property prices: median £280,000, 361 sales, 0% YoY. Detached £450,000, Flat £143,000. Land Registry data for Penzance, Cornwall.",
+  metaTitle: "Penzance House Prices 2026: £280,000 Median",
+  metaDescription: "Penzance house prices 2026: £280,000 median, 361 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £280,000, 361 sales, 0% YoY. Cornwall county.",
   category: "town",
   region: "South West",

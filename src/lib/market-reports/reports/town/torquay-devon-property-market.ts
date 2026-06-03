@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "torquay-devon-property-market",
   title: "Torquay Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Torquay House Prices 2026 - Property Market Data & Development Finance | Devon",
-  metaDescription: "Torquay property prices: median £220,000, 768 sales, -6.4% YoY. Detached £410,000, Flat £150,000. Land Registry data for Torquay, Devon.",
+  metaTitle: "Torquay House Prices 2026: £220,000 Median",
+  metaDescription: "Torquay house prices 2026: £220,000 median, 768 sales, -6.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £220,000, 768 sales, -6.4% YoY. Devon county.",
   category: "town",
   region: "South West",

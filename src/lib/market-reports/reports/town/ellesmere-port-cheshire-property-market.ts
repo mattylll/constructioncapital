@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ellesmere-port-cheshire-property-market",
   title: "Ellesmere Port Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ellesmere Port House Prices 2026 - Property Market Data & Development Finance | Cheshire",
-  metaDescription: "Ellesmere Port property prices: median £199,000, 611 sales, -0.5% YoY. Detached £320,000, Flat £99,000. Land Registry data for Ellesmere Port, Cheshire.",
+  metaTitle: "Ellesmere Port House Prices 2026: £199,000 Median",
+  metaDescription: "Ellesmere Port house prices 2026: £199,000 median, 611 sales, -0.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £199,000, 611 sales, -0.5% YoY. Cheshire county.",
   category: "town",
   region: "North West",

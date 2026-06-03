@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "driffield-east-riding-of-yorkshire-property-market",
   title: "Driffield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Driffield House Prices 2026 - Property Market Data & Development Finance | East Riding of Yorkshire",
-  metaDescription: "Driffield property prices: median £212,500, 465 sales, +0.7% YoY. Detached £326,000, Flat £77,000. Land Registry data for Driffield, East Riding of Yorkshire.",
+  metaTitle: "Driffield House Prices 2026: £212,500 Median",
+  metaDescription: "Driffield house prices 2026: £212,500 median, 465 sales, +0.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £212,500, 465 sales, +0.7% YoY. East Riding of Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

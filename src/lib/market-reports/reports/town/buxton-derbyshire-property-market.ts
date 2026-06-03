@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "buxton-derbyshire-property-market",
   title: "Buxton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Buxton House Prices 2026 - Property Market Data & Development Finance | Derbyshire",
-  metaDescription: "Buxton property prices: median £250,000, 1,028 sales, -3.8% YoY. Detached £427,500, Flat £150,000. Land Registry data for Buxton, Derbyshire.",
+  metaTitle: "Buxton House Prices 2026: £250,000 Median",
+  metaDescription: "Buxton house prices 2026: £250,000 median, 1,028 sales, -3.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £250,000, 1,028 sales, -3.8% YoY. Derbyshire county.",
   category: "town",
   region: "Midlands",

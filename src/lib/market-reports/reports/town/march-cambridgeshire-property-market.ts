@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "march-cambridgeshire-property-market",
   title: "March Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "March House Prices 2026 - Property Market Data & Development Finance | Cambridgeshire",
-  metaDescription: "March property prices: median £230,000, 350 sales, -4.2% YoY. Detached £300,000, Flat £110,000. Land Registry data for March, Cambridgeshire.",
+  metaTitle: "March House Prices 2026: £230,000 Median",
+  metaDescription: "March house prices 2026: £230,000 median, 350 sales, -4.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £230,000, 350 sales, -4.2% YoY. Cambridgeshire county.",
   category: "town",
   region: "East of England",

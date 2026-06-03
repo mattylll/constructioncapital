@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "porthmadog-gwynedd-property-market",
   title: "Porthmadog Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Porthmadog House Prices 2026 - Property Market Data & Development Finance | Gwynedd",
-  metaDescription: "Porthmadog property prices: median £249,000, 39 sales, +42.3% YoY. Detached £275,000, Terraced £182,000. Land Registry data for Porthmadog, Gwynedd.",
+  metaTitle: "Porthmadog House Prices 2026: £249,000 Median",
+  metaDescription: "Porthmadog house prices 2026: £249,000 median, 39 sales, +42.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £249,000, 39 sales, +42.3% YoY. Gwynedd county.",
   category: "town",
   region: "Wales",

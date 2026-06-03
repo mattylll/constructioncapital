@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "exmouth-devon-property-market",
   title: "Exmouth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Exmouth House Prices 2026 - Property Market Data & Development Finance | Devon",
-  metaDescription: "Exmouth property prices: median £317,500, 1,887 sales, -3.8% YoY. Detached £498,000, Flat £189,000. Land Registry data for Exmouth, Devon.",
+  metaTitle: "Exmouth House Prices 2026: £317,500 Median",
+  metaDescription: "Exmouth house prices 2026: £317,500 median, 1,887 sales, -3.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £317,500, 1,887 sales, -3.8% YoY. Devon county.",
   category: "town",
   region: "South West",

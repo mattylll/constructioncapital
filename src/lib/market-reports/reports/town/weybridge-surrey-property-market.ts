@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "weybridge-surrey-property-market",
   title: "Weybridge Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Weybridge House Prices 2026 - Property Market Data & Development Finance | Surrey",
-  metaDescription: "Weybridge property prices: median £650,000, 1,380 sales, +4% YoY. Detached £1.25m, Flat £350,000. Land Registry data for Weybridge, Surrey.",
+  metaTitle: "Weybridge House Prices 2026: £650,000 Median",
+  metaDescription: "Weybridge house prices 2026: £650,000 median, 1,380 sales, +4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £650,000, 1,380 sales, +4% YoY. Surrey county.",
   category: "town",
   region: "London & South East",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "pwllheli-gwynedd-property-market",
   title: "Pwllheli Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Pwllheli House Prices 2026 - Property Market Data & Development Finance | Gwynedd",
-  metaDescription: "Pwllheli property prices: median £252,500, 158 sales, +1% YoY. Detached £313,500, Flat £163,000. Land Registry data for Pwllheli, Gwynedd.",
+  metaTitle: "Pwllheli House Prices 2026: £252,500 Median",
+  metaDescription: "Pwllheli house prices 2026: £252,500 median, 158 sales, +1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £252,500, 158 sales, +1% YoY. Gwynedd county.",
   category: "town",
   region: "Wales",

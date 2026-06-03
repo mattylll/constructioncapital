@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "west-bromwich-west-midlands-property-market",
   title: "West Bromwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "West Bromwich House Prices 2026 - Property Market Data & Development Finance | West Midlands",
-  metaDescription: "West Bromwich property prices: median £210,000, 2,007 sales, +2.4% YoY. Detached £315,000, Flat £107,000. Land Registry data for West Bromwich, West Midlands.",
+  metaTitle: "West Bromwich House Prices 2026: £210,000 Median",
+  metaDescription: "West Bromwich house prices 2026: £210,000 median, 2,007 sales, +2.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £210,000, 2,007 sales, +2.4% YoY. West Midlands county.",
   category: "town",
   region: "Midlands",

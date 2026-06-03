@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "skipton-north-yorkshire-property-market",
   title: "Skipton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Skipton House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
-  metaDescription: "Skipton property prices: median £265,000, 425 sales, -3.6% YoY. Detached £526,000, Flat £173,000. Land Registry data for Skipton, North Yorkshire.",
+  metaTitle: "Skipton House Prices 2026: £265,000 Median",
+  metaDescription: "Skipton house prices 2026: £265,000 median, 425 sales, -3.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £265,000, 425 sales, -3.6% YoY. North Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

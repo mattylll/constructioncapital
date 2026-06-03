@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "leamington-spa-warwickshire-property-market",
   title: "Leamington Spa Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Leamington Spa House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
-  metaDescription: "Leamington Spa property prices: median £330,000, 749 sales, -1.5% YoY. Detached £552,500, Flat £213,000. Land Registry data for Leamington Spa, Warwickshire.",
+  metaTitle: "Leamington Spa House Prices 2026: £330,000 Median",
+  metaDescription: "Leamington Spa house prices 2026: £330,000 median, 749 sales, -1.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £330,000, 749 sales, -1.5% YoY. Warwickshire county.",
   category: "town",
   region: "Midlands",

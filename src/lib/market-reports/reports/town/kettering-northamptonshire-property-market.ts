@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "kettering-northamptonshire-property-market",
   title: "Kettering Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Kettering House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
-  metaDescription: "Kettering property prices: median £250,000, 1,392 sales, -4.6% YoY. Detached £356,000, Flat £127,000. Land Registry data for Kettering, Northamptonshire.",
+  metaTitle: "Kettering House Prices 2026: £250,000 Median",
+  metaDescription: "Kettering house prices 2026: £250,000 median, 1,392 sales, -4.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £250,000, 1,392 sales, -4.6% YoY. Northamptonshire county.",
   category: "town",
   region: "Midlands",

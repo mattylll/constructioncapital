@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "barking-greater-london-property-market",
   title: "Barking Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Barking House Prices 2026 - Property Market Data & Development Finance | Greater London",
-  metaDescription: "Barking property prices: median £380,000, 1,011 sales, +3.7% YoY. Detached £480,000, Flat £230,000. Land Registry data for Barking, Greater London.",
+  metaTitle: "Barking House Prices 2026: £380,000 Median",
+  metaDescription: "Barking house prices 2026: £380,000 median, 1,011 sales, +3.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £380,000, 1,011 sales, +3.7% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

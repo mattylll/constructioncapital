@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "whitehaven-cumbria-property-market",
   title: "Whitehaven Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Whitehaven House Prices 2026 - Property Market Data & Development Finance | Cumbria",
-  metaDescription: "Whitehaven property prices: median £160,000, 380 sales, +2.7% YoY. Detached £275,000, Flat £97,500. Land Registry data for Whitehaven, Cumbria.",
+  metaTitle: "Whitehaven House Prices 2026: £160,000 Median",
+  metaDescription: "Whitehaven house prices 2026: £160,000 median, 380 sales, +2.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £160,000, 380 sales, +2.7% YoY. Cumbria county.",
   category: "town",
   region: "North West",

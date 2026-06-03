@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cambridge-cambridgeshire-property-market",
   title: "Cambridge Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Cambridge House Prices 2026 - Property Market Data & Development Finance | Cambridgeshire",
-  metaDescription: "Cambridge property prices: median £489,500, 926 sales, -0.1% YoY. Detached £795,000, Flat £325,000. Land Registry data for Cambridge, Cambridgeshire.",
+  metaTitle: "Cambridge House Prices 2026: £489,500 Median",
+  metaDescription: "Cambridge house prices 2026: £489,500 median, 926 sales, -0.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £489,500, 926 sales, -0.1% YoY. Cambridgeshire county.",
   category: "town",
   region: "East of England",

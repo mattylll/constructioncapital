@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "oldham-greater-manchester-property-market",
   title: "Oldham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Oldham House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
-  metaDescription: "Oldham property prices: median £193,000, 1,907 sales, +1.6% YoY. Detached £375,000, Flat £141,500. Land Registry data for Oldham, Greater Manchester.",
+  metaTitle: "Oldham House Prices 2026: £193,000 Median",
+  metaDescription: "Oldham house prices 2026: £193,000 median, 1,907 sales, +1.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £193,000, 1,907 sales, +1.6% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",

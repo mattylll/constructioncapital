@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "retford-nottinghamshire-property-market",
   title: "Retford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Retford House Prices 2026 - Property Market Data & Development Finance | Nottinghamshire",
-  metaDescription: "Retford property prices: median £190,000, 408 sales, -13.6% YoY. Detached £325,000, Flat £99,125. Land Registry data for Retford, Nottinghamshire.",
+  metaTitle: "Retford House Prices 2026: £190,000 Median",
+  metaDescription: "Retford house prices 2026: £190,000 median, 408 sales, -13.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £190,000, 408 sales, -13.6% YoY. Nottinghamshire county.",
   category: "town",
   region: "Midlands",

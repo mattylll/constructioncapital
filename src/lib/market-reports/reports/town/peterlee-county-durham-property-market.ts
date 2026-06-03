@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "peterlee-county-durham-property-market",
   title: "Peterlee Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Peterlee House Prices 2026 - Property Market Data & Development Finance | County Durham",
-  metaDescription: "Peterlee property prices: median £77,000, 471 sales, +16.7% YoY. Detached £260,000, Flat £27,500. Land Registry data for Peterlee, County Durham.",
+  metaTitle: "Peterlee House Prices 2026: £77,000 Median",
+  metaDescription: "Peterlee house prices 2026: £77,000 median, 471 sales, +16.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £77,000, 471 sales, +16.7% YoY. County Durham county.",
   category: "town",
   region: "North East & Yorkshire",

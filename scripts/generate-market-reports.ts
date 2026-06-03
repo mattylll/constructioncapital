@@ -204,7 +204,10 @@ function trendDirection(yoy: number): string {
   return "falling";
 }
 
-const TODAY = new Date().toISOString().split("T")[0];
+// Date stamp for generated reports. Defaults to today, but can be pinned via
+// REPORT_DATE for reproducible regeneration (e.g. a title/meta-only refresh
+// that must not churn datePublished across already-published reports).
+const TODAY = process.env.REPORT_DATE ?? new Date().toISOString().split("T")[0];
 
 // UK national benchmarks (approximate 2025/2026 values)
 const NATIONAL_MEDIAN = 285000;
@@ -657,8 +660,8 @@ function generateCountyReport(county: CountyAgg, allCounties: CountyAgg[]): Mark
   return {
     slug,
     title: `${county.name} Property Market: Prices, Trends & Development Finance (2026)`,
-    metaTitle: `${county.name} Property Market Report 2026 — House Prices, Sold Data & Finance`,
-    metaDescription: `${county.name} property market analysis: median price ${formatPrice(county.medianPrice)}, ${county.totalTransactions.toLocaleString("en-GB")} sales, ${county.avgYoyChange > 0 ? "+" : ""}${county.avgYoyChange}% YoY. Town comparisons, new builds & development finance across ${county.towns.length} towns.`,
+    metaTitle: `${county.name} House Prices 2026: ${formatPrice(county.medianPrice)} Median`,
+    metaDescription: `${county.name} house prices 2026: ${formatPrice(county.medianPrice)} median, ${county.totalTransactions.toLocaleString("en-GB")} sales, ${county.avgYoyChange > 0 ? "+" : ""}${county.avgYoyChange}% YoY. Town-by-town comparison, new-build premiums and development finance.`,
     excerpt: `${county.towns.length} towns analysed. Median price ${formatPrice(county.medianPrice)}, ${county.totalTransactions.toLocaleString("en-GB")} transactions, ${county.avgYoyChange > 0 ? "+" : ""}${county.avgYoyChange}% YoY.`,
     category: "county",
     region: county.region,
@@ -1411,8 +1414,8 @@ function generateTownReport(town: TownAgg, county: CountyAgg): MarketReport {
   return {
     slug,
     title: `${town.name} Property Market: House Prices, Sold Data & Development Finance (2026)`,
-    metaTitle: `${town.name} House Prices 2026 — Property Market Data & Development Finance | ${county.name}`,
-    metaDescription: `${town.name} property prices: median ${formatPrice(stats.medianPrice)}, ${stats.transactionCount12m.toLocaleString("en-GB")} sales, ${stats.yoyChange > 0 ? "+" : ""}${stats.yoyChange}% YoY. ${typeEntries.length >= 2 ? `${TYPE_LABELS_UPPER[typeEntries[0][0]]} ${formatPrice(typeEntries[0][1]!)}, ${TYPE_LABELS_UPPER[typeEntries[typeEntries.length - 1][0]]} ${formatPrice(typeEntries[typeEntries.length - 1][1]!)}. ` : ""}Land Registry data for ${town.name}, ${county.name}.`,
+    metaTitle: `${town.name} House Prices 2026: ${formatPrice(stats.medianPrice)} Median`,
+    metaDescription: `${town.name} house prices 2026: ${formatPrice(stats.medianPrice)} median, ${stats.transactionCount12m.toLocaleString("en-GB")} sales, ${stats.yoyChange > 0 ? "+" : ""}${stats.yoyChange}% YoY. Sold-price trends by property type, new-build premiums and development finance.`,
     excerpt: `Median price ${formatPrice(stats.medianPrice)}, ${stats.transactionCount12m.toLocaleString("en-GB")} sales, ${stats.yoyChange > 0 ? "+" : ""}${stats.yoyChange}% YoY. ${county.name} county.`,
     category: "town",
     region: county.region,

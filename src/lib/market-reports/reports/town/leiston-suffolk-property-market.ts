@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "leiston-suffolk-property-market",
   title: "Leiston Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Leiston House Prices 2026 - Property Market Data & Development Finance | Suffolk",
-  metaDescription: "Leiston property prices: median £255,000, 84 sales, +7.4% YoY. Detached £356,000, Flat £133,750. Land Registry data for Leiston, Suffolk.",
+  metaTitle: "Leiston House Prices 2026: £255,000 Median",
+  metaDescription: "Leiston house prices 2026: £255,000 median, 84 sales, +7.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £255,000, 84 sales, +7.4% YoY. Suffolk county.",
   category: "town",
   region: "East of England",

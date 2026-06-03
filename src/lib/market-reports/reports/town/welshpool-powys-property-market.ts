@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "welshpool-powys-property-market",
   title: "Welshpool Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Welshpool House Prices 2026 - Property Market Data & Development Finance | Powys",
-  metaDescription: "Welshpool property prices: median £220,000, 146 sales, -10.2% YoY. Detached £325,000, Terraced £159,000. Land Registry data for Welshpool, Powys.",
+  metaTitle: "Welshpool House Prices 2026: £220,000 Median",
+  metaDescription: "Welshpool house prices 2026: £220,000 median, 146 sales, -10.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £220,000, 146 sales, -10.2% YoY. Powys county.",
   category: "town",
   region: "Wales",

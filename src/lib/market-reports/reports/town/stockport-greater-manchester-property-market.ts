@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stockport-greater-manchester-property-market",
   title: "Stockport Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stockport House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
-  metaDescription: "Stockport property prices: median £296,000, 3,217 sales, +2.1% YoY. Detached £507,500, Flat £165,000. Land Registry data for Stockport, Greater Manchester.",
+  metaTitle: "Stockport House Prices 2026: £296,000 Median",
+  metaDescription: "Stockport house prices 2026: £296,000 median, 3,217 sales, +2.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £296,000, 3,217 sales, +2.1% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",

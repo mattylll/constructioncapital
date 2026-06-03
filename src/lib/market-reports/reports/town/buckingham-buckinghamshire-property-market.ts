@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "buckingham-buckinghamshire-property-market",
   title: "Buckingham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Buckingham House Prices 2026 - Property Market Data & Development Finance | Buckinghamshire",
-  metaDescription: "Buckingham property prices: median £378,000, 388 sales, -3.1% YoY. Detached £514,750, Flat £180,000. Land Registry data for Buckingham, Buckinghamshire.",
+  metaTitle: "Buckingham House Prices 2026: £378,000 Median",
+  metaDescription: "Buckingham house prices 2026: £378,000 median, 388 sales, -3.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £378,000, 388 sales, -3.1% YoY. Buckinghamshire county.",
   category: "town",
   region: "London & South East",

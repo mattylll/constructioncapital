@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "washington-tyne-and-wear-property-market",
   title: "Washington Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Washington House Prices 2026 - Property Market Data & Development Finance | Tyne and Wear",
-  metaDescription: "Washington property prices: median £145,000, 459 sales, +5.8% YoY. Detached £290,000, Flat £36,000. Land Registry data for Washington, Tyne and Wear.",
+  metaTitle: "Washington House Prices 2026: £145,000 Median",
+  metaDescription: "Washington house prices 2026: £145,000 median, 459 sales, +5.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £145,000, 459 sales, +5.8% YoY. Tyne and Wear county.",
   category: "town",
   region: "North East & Yorkshire",

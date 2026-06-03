@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "buckinghamshire-property-market",
   title: "Buckinghamshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Buckinghamshire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Buckinghamshire property market analysis: median price £470,000, 4,087 sales, -1.4% YoY. Town comparisons, new builds & development finance across 8 towns.",
+  metaTitle: "Buckinghamshire House Prices 2026: £470,000 Median",
+  metaDescription: "Buckinghamshire house prices 2026: £470,000 median, 4,087 sales, -1.4% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £470,000, 4,087 transactions, -1.4% YoY.",
   category: "county",
   region: "London & South East",

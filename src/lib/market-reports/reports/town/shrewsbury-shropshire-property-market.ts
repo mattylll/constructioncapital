@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "shrewsbury-shropshire-property-market",
   title: "Shrewsbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Shrewsbury House Prices 2026 - Property Market Data & Development Finance | Shropshire",
-  metaDescription: "Shrewsbury property prices: median £270,000, 1,405 sales, -3.6% YoY. Detached £400,000, Flat £154,500. Land Registry data for Shrewsbury, Shropshire.",
+  metaTitle: "Shrewsbury House Prices 2026: £270,000 Median",
+  metaDescription: "Shrewsbury house prices 2026: £270,000 median, 1,405 sales, -3.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £270,000, 1,405 sales, -3.6% YoY. Shropshire county.",
   category: "town",
   region: "Midlands",

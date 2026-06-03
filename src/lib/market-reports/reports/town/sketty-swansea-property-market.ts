@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "sketty-swansea-property-market",
   title: "Sketty Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sketty House Prices 2026 - Property Market Data & Development Finance | Swansea",
-  metaDescription: "Sketty property prices: median £197,000, 2,410 sales, +3.7% YoY. Detached £340,000, Flat £125,001. Land Registry data for Sketty, Swansea.",
+  metaTitle: "Sketty House Prices 2026: £197,000 Median",
+  metaDescription: "Sketty house prices 2026: £197,000 median, 2,410 sales, +3.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £197,000, 2,410 sales, +3.7% YoY. Swansea county.",
   category: "town",
   region: "Wales",

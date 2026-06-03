@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "woolwich-greater-london-property-market",
   title: "Woolwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Woolwich House Prices 2026 - Property Market Data & Development Finance | Greater London",
-  metaDescription: "Woolwich property prices: median £447,500, 1,745 sales, +0.6% YoY. Detached £665,000, Flat £365,000. Land Registry data for Woolwich, Greater London.",
+  metaTitle: "Woolwich House Prices 2026: £447,500 Median",
+  metaDescription: "Woolwich house prices 2026: £447,500 median, 1,745 sales, +0.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £447,500, 1,745 sales, +0.6% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

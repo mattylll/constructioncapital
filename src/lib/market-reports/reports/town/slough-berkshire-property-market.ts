@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "slough-berkshire-property-market",
   title: "Slough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Slough House Prices 2026 - Property Market Data & Development Finance | Berkshire",
-  metaDescription: "Slough property prices: median £381,500, 730 sales, +1.7% YoY. Detached £600,000, Flat £215,000. Land Registry data for Slough, Berkshire.",
+  metaTitle: "Slough House Prices 2026: £381,500 Median",
+  metaDescription: "Slough house prices 2026: £381,500 median, 730 sales, +1.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £381,500, 730 sales, +1.7% YoY. Berkshire county.",
   category: "town",
   region: "London & South East",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "gloucester-gloucestershire-property-market",
   title: "Gloucester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Gloucester House Prices 2026 - Property Market Data & Development Finance | Gloucestershire",
-  metaDescription: "Gloucester property prices: median £245,000, 1,419 sales, -3.8% YoY. Detached £380,000, Flat £140,000. Land Registry data for Gloucester, Gloucestershire.",
+  metaTitle: "Gloucester House Prices 2026: £245,000 Median",
+  metaDescription: "Gloucester house prices 2026: £245,000 median, 1,419 sales, -3.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £245,000, 1,419 sales, -3.8% YoY. Gloucestershire county.",
   category: "town",
   region: "South West",

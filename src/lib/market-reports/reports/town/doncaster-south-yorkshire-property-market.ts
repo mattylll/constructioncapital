@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "doncaster-south-yorkshire-property-market",
   title: "Doncaster Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Doncaster House Prices 2026 - Property Market Data & Development Finance | South Yorkshire",
-  metaDescription: "Doncaster property prices: median £165,100, 3,104 sales, -1.1% YoY. Detached £275,000, Flat £100,000. Land Registry data for Doncaster, South Yorkshire.",
+  metaTitle: "Doncaster House Prices 2026: £165,100 Median",
+  metaDescription: "Doncaster house prices 2026: £165,100 median, 3,104 sales, -1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £165,100, 3,104 sales, -1.1% YoY. South Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

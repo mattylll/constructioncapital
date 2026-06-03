@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "swadlincote-derbyshire-property-market",
   title: "Swadlincote Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Swadlincote House Prices 2026 - Property Market Data & Development Finance | Derbyshire",
-  metaDescription: "Swadlincote property prices: median £237,000, 1,323 sales, -7% YoY. Detached £340,000, Flat £126,000. Land Registry data for Swadlincote, Derbyshire.",
+  metaTitle: "Swadlincote House Prices 2026: £237,000 Median",
+  metaDescription: "Swadlincote house prices 2026: £237,000 median, 1,323 sales, -7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £237,000, 1,323 sales, -7% YoY. Derbyshire county.",
   category: "town",
   region: "Midlands",

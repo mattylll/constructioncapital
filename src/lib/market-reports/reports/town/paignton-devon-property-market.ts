@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "paignton-devon-property-market",
   title: "Paignton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Paignton House Prices 2026 - Property Market Data & Development Finance | Devon",
-  metaDescription: "Paignton property prices: median £245,000, 622 sales, -7.5% YoY. Detached £370,000, Flat £140,000. Land Registry data for Paignton, Devon.",
+  metaTitle: "Paignton House Prices 2026: £245,000 Median",
+  metaDescription: "Paignton house prices 2026: £245,000 median, 622 sales, -7.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £245,000, 622 sales, -7.5% YoY. Devon county.",
   category: "town",
   region: "South West",

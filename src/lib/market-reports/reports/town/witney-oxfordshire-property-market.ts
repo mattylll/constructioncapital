@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "witney-oxfordshire-property-market",
   title: "Witney Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Witney House Prices 2026 - Property Market Data & Development Finance | Oxfordshire",
-  metaDescription: "Witney property prices: median £390,000, 1,165 sales, +0.1% YoY. Detached £581,500, Flat £207,500. Land Registry data for Witney, Oxfordshire.",
+  metaTitle: "Witney House Prices 2026: £390,000 Median",
+  metaDescription: "Witney house prices 2026: £390,000 median, 1,165 sales, +0.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £390,000, 1,165 sales, +0.1% YoY. Oxfordshire county.",
   category: "town",
   region: "London & South East",

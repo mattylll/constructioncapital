@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "kendal-cumbria-property-market",
   title: "Kendal Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Kendal House Prices 2026 - Property Market Data & Development Finance | Cumbria",
-  metaDescription: "Kendal property prices: median £250,000, 447 sales, -12.3% YoY. Detached £405,000, Flat £145,000. Land Registry data for Kendal, Cumbria.",
+  metaTitle: "Kendal House Prices 2026: £250,000 Median",
+  metaDescription: "Kendal house prices 2026: £250,000 median, 447 sales, -12.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £250,000, 447 sales, -12.3% YoY. Cumbria county.",
   category: "town",
   region: "North West",

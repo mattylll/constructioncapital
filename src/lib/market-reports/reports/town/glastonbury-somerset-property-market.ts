@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "glastonbury-somerset-property-market",
   title: "Glastonbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Glastonbury House Prices 2026 - Property Market Data & Development Finance | Somerset",
-  metaDescription: "Glastonbury property prices: median £278,000, 157 sales, -2.1% YoY. Detached £415,000, Flat £154,000. Land Registry data for Glastonbury, Somerset.",
+  metaTitle: "Glastonbury House Prices 2026: £278,000 Median",
+  metaDescription: "Glastonbury house prices 2026: £278,000 median, 157 sales, -2.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £278,000, 157 sales, -2.1% YoY. Somerset county.",
   category: "town",
   region: "South West",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "harlow-essex-property-market",
   title: "Harlow Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Harlow House Prices 2026 - Property Market Data & Development Finance | Essex",
-  metaDescription: "Harlow property prices: median £330,000, 756 sales, +1.5% YoY. Detached £515,000, Flat £200,000. Land Registry data for Harlow, Essex.",
+  metaTitle: "Harlow House Prices 2026: £330,000 Median",
+  metaDescription: "Harlow house prices 2026: £330,000 median, 756 sales, +1.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £330,000, 756 sales, +1.5% YoY. Essex county.",
   category: "town",
   region: "London & South East",

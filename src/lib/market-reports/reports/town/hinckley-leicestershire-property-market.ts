@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hinckley-leicestershire-property-market",
   title: "Hinckley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hinckley House Prices 2026 - Property Market Data & Development Finance | Leicestershire",
-  metaDescription: "Hinckley property prices: median £252,000, 1,315 sales, -4.9% YoY. Detached £360,000, Flat £120,000. Land Registry data for Hinckley, Leicestershire.",
+  metaTitle: "Hinckley House Prices 2026: £252,000 Median",
+  metaDescription: "Hinckley house prices 2026: £252,000 median, 1,315 sales, -4.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £252,000, 1,315 sales, -4.9% YoY. Leicestershire county.",
   category: "town",
   region: "Midlands",

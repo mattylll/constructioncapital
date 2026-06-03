@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "merseyside-property-market",
   title: "Merseyside Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Merseyside Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Merseyside property market analysis: median price £163,344, 8,821 sales, +2% YoY. Town comparisons, new builds & development finance across 6 towns.",
+  metaTitle: "Merseyside House Prices 2026: £163,344 Median",
+  metaDescription: "Merseyside house prices 2026: £163,344 median, 8,821 sales, +2% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "6 towns analysed. Median price £163,344, 8,821 transactions, +2% YoY.",
   category: "county",
   region: "North West",

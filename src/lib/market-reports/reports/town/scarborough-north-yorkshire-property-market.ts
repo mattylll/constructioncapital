@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "scarborough-north-yorkshire-property-market",
   title: "Scarborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Scarborough House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
-  metaDescription: "Scarborough property prices: median £179,000, 948 sales, -5.8% YoY. Detached £325,000, Flat £115,000. Land Registry data for Scarborough, North Yorkshire.",
+  metaTitle: "Scarborough House Prices 2026: £179,000 Median",
+  metaDescription: "Scarborough house prices 2026: £179,000 median, 948 sales, -5.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £179,000, 948 sales, -5.8% YoY. North Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

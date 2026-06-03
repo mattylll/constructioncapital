@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wiltshire-property-market",
   title: "Wiltshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Wiltshire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Wiltshire property market analysis: median price £304,623, 6,159 sales, +0.3% YoY. Town comparisons, new builds & development finance across 8 towns.",
+  metaTitle: "Wiltshire House Prices 2026: £304,623 Median",
+  metaDescription: "Wiltshire house prices 2026: £304,623 median, 6,159 sales, +0.3% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £304,623, 6,159 transactions, +0.3% YoY.",
   category: "county",
   region: "South West",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "clacton-on-sea-essex-property-market",
   title: "Clacton-on-Sea Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Clacton-on-Sea House Prices 2026 - Property Market Data & Development Finance | Essex",
-  metaDescription: "Clacton-on-Sea property prices: median £267,750, 1,862 sales, -4.4% YoY. Detached £355,000, Flat £150,000. Land Registry data for Clacton-on-Sea, Essex.",
+  metaTitle: "Clacton-on-Sea House Prices 2026: £267,750 Median",
+  metaDescription: "Clacton-on-Sea house prices 2026: £267,750 median, 1,862 sales, -4.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £267,750, 1,862 sales, -4.4% YoY. Essex county.",
   category: "town",
   region: "London & South East",

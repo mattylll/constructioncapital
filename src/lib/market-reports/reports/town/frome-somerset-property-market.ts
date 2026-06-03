@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "frome-somerset-property-market",
   title: "Frome Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Frome House Prices 2026 - Property Market Data & Development Finance | Somerset",
-  metaDescription: "Frome property prices: median £324,995, 401 sales, 0% YoY. Detached £450,000, Flat £159,000. Land Registry data for Frome, Somerset.",
+  metaTitle: "Frome House Prices 2026: £324,995 Median",
+  metaDescription: "Frome house prices 2026: £324,995 median, 401 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £324,995, 401 sales, 0% YoY. Somerset county.",
   category: "town",
   region: "South West",

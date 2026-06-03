@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "thetford-norfolk-property-market",
   title: "Thetford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Thetford House Prices 2026 - Property Market Data & Development Finance | Norfolk",
-  metaDescription: "Thetford property prices: median £235,000, 522 sales, -4.1% YoY. Detached £300,000, Flat £120,000. Land Registry data for Thetford, Norfolk.",
+  metaTitle: "Thetford House Prices 2026: £235,000 Median",
+  metaDescription: "Thetford house prices 2026: £235,000 median, 522 sales, -4.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £235,000, 522 sales, -4.1% YoY. Norfolk county.",
   category: "town",
   region: "East of England",

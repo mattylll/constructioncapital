@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "workington-cumbria-property-market",
   title: "Workington Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Workington House Prices 2026 - Property Market Data & Development Finance | Cumbria",
-  metaDescription: "Workington property prices: median £135,500, 439 sales, -9.7% YoY. Detached £280,000, Flat £82,000. Land Registry data for Workington, Cumbria.",
+  metaTitle: "Workington House Prices 2026: £135,500 Median",
+  metaDescription: "Workington house prices 2026: £135,500 median, 439 sales, -9.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £135,500, 439 sales, -9.7% YoY. Cumbria county.",
   category: "town",
   region: "North West",

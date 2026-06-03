@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hackney-greater-london-property-market",
   title: "Hackney Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hackney House Prices 2026 - Property Market Data & Development Finance | Greater London",
-  metaDescription: "Hackney property prices: median £565,000, 1,494 sales, -1.7% YoY. Semi-detached £1.48m, Flat £509,000. Land Registry data for Hackney, Greater London.",
+  metaTitle: "Hackney House Prices 2026: £565,000 Median",
+  metaDescription: "Hackney house prices 2026: £565,000 median, 1,494 sales, -1.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £565,000, 1,494 sales, -1.7% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "maidstone-kent-property-market",
   title: "Maidstone Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Maidstone House Prices 2026 - Property Market Data & Development Finance | Kent",
-  metaDescription: "Maidstone property prices: median £350,000, 1,830 sales, -1.4% YoY. Detached £562,500, Flat £180,000. Land Registry data for Maidstone, Kent.",
+  metaTitle: "Maidstone House Prices 2026: £350,000 Median",
+  metaDescription: "Maidstone house prices 2026: £350,000 median, 1,830 sales, -1.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £350,000, 1,830 sales, -1.4% YoY. Kent county.",
   category: "town",
   region: "London & South East",

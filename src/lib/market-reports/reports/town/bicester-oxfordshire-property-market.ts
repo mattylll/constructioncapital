@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bicester-oxfordshire-property-market",
   title: "Bicester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bicester House Prices 2026 - Property Market Data & Development Finance | Oxfordshire",
-  metaDescription: "Bicester property prices: median £355,000, 589 sales, -4.8% YoY. Detached £525,000, Flat £220,000. Land Registry data for Bicester, Oxfordshire.",
+  metaTitle: "Bicester House Prices 2026: £355,000 Median",
+  metaDescription: "Bicester house prices 2026: £355,000 median, 589 sales, -4.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £355,000, 589 sales, -4.8% YoY. Oxfordshire county.",
   category: "town",
   region: "London & South East",

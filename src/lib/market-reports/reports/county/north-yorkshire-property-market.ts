@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "north-yorkshire-property-market",
   title: "North Yorkshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "North Yorkshire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "North Yorkshire property market analysis: median price £280,000, 5,541 sales, -1% YoY. Town comparisons, new builds & development finance across 8 towns.",
+  metaTitle: "North Yorkshire House Prices 2026: £280,000 Median",
+  metaDescription: "North Yorkshire house prices 2026: £280,000 median, 5,541 sales, -1% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £280,000, 5,541 transactions, -1% YoY.",
   category: "county",
   region: "North East & Yorkshire",

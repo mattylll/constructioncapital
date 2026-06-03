@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lichfield-staffordshire-property-market",
   title: "Lichfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lichfield House Prices 2026 - Property Market Data & Development Finance | Staffordshire",
-  metaDescription: "Lichfield property prices: median £300,000, 1,183 sales, -1.6% YoY. Detached £471,000, Flat £158,000. Land Registry data for Lichfield, Staffordshire.",
+  metaTitle: "Lichfield House Prices 2026: £300,000 Median",
+  metaDescription: "Lichfield house prices 2026: £300,000 median, 1,183 sales, -1.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £300,000, 1,183 sales, -1.6% YoY. Staffordshire county.",
   category: "town",
   region: "Midlands",

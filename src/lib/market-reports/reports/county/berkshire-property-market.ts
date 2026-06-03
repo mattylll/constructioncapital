@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "berkshire-property-market",
   title: "Berkshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Berkshire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Berkshire property market analysis: median price £399,500, 7,057 sales, +0.5% YoY. Town comparisons, new builds & development finance across 8 towns.",
+  metaTitle: "Berkshire House Prices 2026: £399,500 Median",
+  metaDescription: "Berkshire house prices 2026: £399,500 median, 7,057 sales, +0.5% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £399,500, 7,057 transactions, +0.5% YoY.",
   category: "county",
   region: "London & South East",

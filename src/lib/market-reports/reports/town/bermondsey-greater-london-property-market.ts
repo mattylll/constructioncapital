@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bermondsey-greater-london-property-market",
   title: "Bermondsey Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bermondsey House Prices 2026 - Property Market Data & Development Finance | Greater London",
-  metaDescription: "Bermondsey property prices: median £535,000, 1,997 sales, -1.8% YoY. Detached £1.50m, Flat £445,000. Land Registry data for Bermondsey, Greater London.",
+  metaTitle: "Bermondsey House Prices 2026: £535,000 Median",
+  metaDescription: "Bermondsey house prices 2026: £535,000 median, 1,997 sales, -1.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £535,000, 1,997 sales, -1.8% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

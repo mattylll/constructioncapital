@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lowestoft-suffolk-property-market",
   title: "Lowestoft Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lowestoft House Prices 2026 - Property Market Data & Development Finance | Suffolk",
-  metaDescription: "Lowestoft property prices: median £215,000, 886 sales, -1.1% YoY. Detached £306,000, Flat £118,000. Land Registry data for Lowestoft, Suffolk.",
+  metaTitle: "Lowestoft House Prices 2026: £215,000 Median",
+  metaDescription: "Lowestoft house prices 2026: £215,000 median, 886 sales, -1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £215,000, 886 sales, -1.1% YoY. Suffolk county.",
   category: "town",
   region: "East of England",

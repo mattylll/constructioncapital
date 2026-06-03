@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "chester-cheshire-property-market",
   title: "Chester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chester House Prices 2026 - Property Market Data & Development Finance | Cheshire",
-  metaDescription: "Chester property prices: median £273,500, 1,368 sales, -2.3% YoY. Detached £435,000, Flat £157,500. Land Registry data for Chester, Cheshire.",
+  metaTitle: "Chester House Prices 2026: £273,500 Median",
+  metaDescription: "Chester house prices 2026: £273,500 median, 1,368 sales, -2.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £273,500, 1,368 sales, -2.3% YoY. Cheshire county.",
   category: "town",
   region: "North West",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "powys-property-market",
   title: "Powys Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Powys Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Powys property market analysis: median price £241,875, 1,795 sales, +2.3% YoY. Town comparisons, new builds & development finance across 6 towns.",
+  metaTitle: "Powys House Prices 2026: £241,875 Median",
+  metaDescription: "Powys house prices 2026: £241,875 median, 1,795 sales, +2.3% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "6 towns analysed. Median price £241,875, 1,795 transactions, +2.3% YoY.",
   category: "county",
   region: "Wales",

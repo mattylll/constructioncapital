@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "grays-essex-property-market",
   title: "Grays Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Grays House Prices 2026 - Property Market Data & Development Finance | Essex",
-  metaDescription: "Grays property prices: median £350,000, 1,392 sales, 0% YoY. Detached £525,000, Flat £208,435. Land Registry data for Grays, Essex.",
+  metaTitle: "Grays House Prices 2026: £350,000 Median",
+  metaDescription: "Grays house prices 2026: £350,000 median, 1,392 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £350,000, 1,392 sales, 0% YoY. Essex county.",
   category: "town",
   region: "London & South East",

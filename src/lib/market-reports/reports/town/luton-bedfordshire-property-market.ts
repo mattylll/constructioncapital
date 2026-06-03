@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "luton-bedfordshire-property-market",
   title: "Luton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Luton House Prices 2026 - Property Market Data & Development Finance | Bedfordshire",
-  metaDescription: "Luton property prices: median £300,000, 1,568 sales, 0% YoY. Detached £440,000, Flat £175,000. Land Registry data for Luton, Bedfordshire.",
+  metaTitle: "Luton House Prices 2026: £300,000 Median",
+  metaDescription: "Luton house prices 2026: £300,000 median, 1,568 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £300,000, 1,568 sales, 0% YoY. Bedfordshire county.",
   category: "town",
   region: "East of England",

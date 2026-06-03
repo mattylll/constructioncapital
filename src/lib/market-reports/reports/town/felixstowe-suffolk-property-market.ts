@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "felixstowe-suffolk-property-market",
   title: "Felixstowe Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Felixstowe House Prices 2026 - Property Market Data & Development Finance | Suffolk",
-  metaDescription: "Felixstowe property prices: median £282,000, 355 sales, +2.5% YoY. Detached £390,000, Flat £157,500. Land Registry data for Felixstowe, Suffolk.",
+  metaTitle: "Felixstowe House Prices 2026: £282,000 Median",
+  metaDescription: "Felixstowe house prices 2026: £282,000 median, 355 sales, +2.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £282,000, 355 sales, +2.5% YoY. Suffolk county.",
   category: "town",
   region: "East of England",

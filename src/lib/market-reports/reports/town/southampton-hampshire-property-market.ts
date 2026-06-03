@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "southampton-hampshire-property-market",
   title: "Southampton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Southampton House Prices 2026 - Property Market Data & Development Finance | Hampshire",
-  metaDescription: "Southampton property prices: median £248,250, 2,506 sales, -2.6% YoY. Detached £380,000, Flat £159,335. Land Registry data for Southampton, Hampshire.",
+  metaTitle: "Southampton House Prices 2026: £248,250 Median",
+  metaDescription: "Southampton house prices 2026: £248,250 median, 2,506 sales, -2.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £248,250, 2,506 sales, -2.6% YoY. Hampshire county.",
   category: "town",
   region: "London & South East",

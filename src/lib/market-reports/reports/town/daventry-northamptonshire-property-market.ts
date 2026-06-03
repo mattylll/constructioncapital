@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "daventry-northamptonshire-property-market",
   title: "Daventry Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Daventry House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
-  metaDescription: "Daventry property prices: median £265,000, 485 sales, -7% YoY. Detached £390,000, Flat £130,000. Land Registry data for Daventry, Northamptonshire.",
+  metaTitle: "Daventry House Prices 2026: £265,000 Median",
+  metaDescription: "Daventry house prices 2026: £265,000 median, 485 sales, -7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £265,000, 485 sales, -7% YoY. Northamptonshire county.",
   category: "town",
   region: "Midlands",

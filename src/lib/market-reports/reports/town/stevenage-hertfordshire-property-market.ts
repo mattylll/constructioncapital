@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stevenage-hertfordshire-property-market",
   title: "Stevenage Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stevenage House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
-  metaDescription: "Stevenage property prices: median £340,000, 653 sales, +1.5% YoY. Detached £550,000, Flat £191,000. Land Registry data for Stevenage, Hertfordshire.",
+  metaTitle: "Stevenage House Prices 2026: £340,000 Median",
+  metaDescription: "Stevenage house prices 2026: £340,000 median, 653 sales, +1.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £340,000, 653 sales, +1.5% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",

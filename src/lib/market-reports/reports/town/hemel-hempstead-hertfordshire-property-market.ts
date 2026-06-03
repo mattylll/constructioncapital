@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "hemel-hempstead-hertfordshire-property-market",
   title: "Hemel Hempstead Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hemel Hempstead House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
-  metaDescription: "Hemel Hempstead property prices: median £442,100, 1,441 sales, -0.7% YoY. Detached £790,000, Flat £245,780. Land Registry data for Hemel Hempstead, Hertfordshire.",
+  metaTitle: "Hemel Hempstead House Prices 2026: £442,100 Median",
+  metaDescription: "Hemel Hempstead house prices 2026: £442,100 median, 1,441 sales, -0.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £442,100, 1,441 sales, -0.7% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",

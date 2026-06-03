@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "didcot-oxfordshire-property-market",
   title: "Didcot Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Didcot House Prices 2026 - Property Market Data & Development Finance | Oxfordshire",
-  metaDescription: "Didcot property prices: median £350,000, 386 sales, -2.8% YoY. Detached £472,475, Flat £203,000. Land Registry data for Didcot, Oxfordshire.",
+  metaTitle: "Didcot House Prices 2026: £350,000 Median",
+  metaDescription: "Didcot house prices 2026: £350,000 median, 386 sales, -2.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £350,000, 386 sales, -2.8% YoY. Oxfordshire county.",
   category: "town",
   region: "London & South East",

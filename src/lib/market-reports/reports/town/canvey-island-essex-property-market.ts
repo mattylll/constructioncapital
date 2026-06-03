@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "canvey-island-essex-property-market",
   title: "Canvey Island Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Canvey Island House Prices 2026 - Property Market Data & Development Finance | Essex",
-  metaDescription: "Canvey Island property prices: median £355,000, 848 sales, 0% YoY. Detached £426,500, Flat £220,000. Land Registry data for Canvey Island, Essex.",
+  metaTitle: "Canvey Island House Prices 2026: £355,000 Median",
+  metaDescription: "Canvey Island house prices 2026: £355,000 median, 848 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £355,000, 848 sales, 0% YoY. Essex county.",
   category: "town",
   region: "London & South East",

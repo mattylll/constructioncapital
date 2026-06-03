@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "princes-risborough-buckinghamshire-property-market",
   title: "Princes Risborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Princes Risborough House Prices 2026 - Property Market Data & Development Finance | Buckinghamshire",
-  metaDescription: "Princes Risborough property prices: median £500,000, 135 sales, +4.2% YoY. Detached £742,500, Flat £237,500. Land Registry data for Princes Risborough, Buckinghamshire.",
+  metaTitle: "Princes Risborough House Prices 2026: £500,000 Median",
+  metaDescription: "Princes Risborough house prices 2026: £500,000 median, 135 sales, +4.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £500,000, 135 sales, +4.2% YoY. Buckinghamshire county.",
   category: "town",
   region: "London & South East",

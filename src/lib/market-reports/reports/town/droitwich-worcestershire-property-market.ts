@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "droitwich-worcestershire-property-market",
   title: "Droitwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Droitwich House Prices 2026 - Property Market Data & Development Finance | Worcestershire",
-  metaDescription: "Droitwich property prices: median £300,000, 317 sales, -1% YoY. Detached £435,000, Flat £149,000. Land Registry data for Droitwich, Worcestershire.",
+  metaTitle: "Droitwich House Prices 2026: £300,000 Median",
+  metaDescription: "Droitwich house prices 2026: £300,000 median, 317 sales, -1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £300,000, 317 sales, -1% YoY. Worcestershire county.",
   category: "town",
   region: "Midlands",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "barnsley-south-yorkshire-property-market",
   title: "Barnsley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Barnsley House Prices 2026 - Property Market Data & Development Finance | South Yorkshire",
-  metaDescription: "Barnsley property prices: median £162,500, 2,034 sales, -1.5% YoY. Detached £297,000, Flat £95,000. Land Registry data for Barnsley, South Yorkshire.",
+  metaTitle: "Barnsley House Prices 2026: £162,500 Median",
+  metaDescription: "Barnsley house prices 2026: £162,500 median, 2,034 sales, -1.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £162,500, 2,034 sales, -1.5% YoY. South Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

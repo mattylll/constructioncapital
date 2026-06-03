@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "st-helens-merseyside-property-market",
   title: "St Helens Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "St Helens House Prices 2026 - Property Market Data & Development Finance | Merseyside",
-  metaDescription: "St Helens property prices: median £173,000, 1,787 sales, -3.9% YoY. Detached £320,000, Flat £95,000. Land Registry data for St Helens, Merseyside.",
+  metaTitle: "St Helens House Prices 2026: £173,000 Median",
+  metaDescription: "St Helens house prices 2026: £173,000 median, 1,787 sales, -3.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £173,000, 1,787 sales, -3.9% YoY. Merseyside county.",
   category: "town",
   region: "North West",

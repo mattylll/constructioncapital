@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "tewkesbury-gloucestershire-property-market",
   title: "Tewkesbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Tewkesbury House Prices 2026 - Property Market Data & Development Finance | Gloucestershire",
-  metaDescription: "Tewkesbury property prices: median £315,000, 1,162 sales, -4.5% YoY. Detached £485,000, Flat £143,000. Land Registry data for Tewkesbury, Gloucestershire.",
+  metaTitle: "Tewkesbury House Prices 2026: £315,000 Median",
+  metaDescription: "Tewkesbury house prices 2026: £315,000 median, 1,162 sales, -4.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £315,000, 1,162 sales, -4.5% YoY. Gloucestershire county.",
   category: "town",
   region: "South West",

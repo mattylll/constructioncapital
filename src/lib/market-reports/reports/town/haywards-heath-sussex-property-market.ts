@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "haywards-heath-sussex-property-market",
   title: "Haywards Heath Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Haywards Heath House Prices 2026 - Property Market Data & Development Finance | Sussex",
-  metaDescription: "Haywards Heath property prices: median £430,000, 1,640 sales, -0.7% YoY. Detached £660,000, Flat £240,000. Land Registry data for Haywards Heath, Sussex.",
+  metaTitle: "Haywards Heath House Prices 2026: £430,000 Median",
+  metaDescription: "Haywards Heath house prices 2026: £430,000 median, 1,640 sales, -0.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £430,000, 1,640 sales, -0.7% YoY. Sussex county.",
   category: "town",
   region: "London & South East",

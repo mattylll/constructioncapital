@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "tunbridge-wells-kent-property-market",
   title: "Tunbridge Wells Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Tunbridge Wells House Prices 2026 - Property Market Data & Development Finance | Kent",
-  metaDescription: "Tunbridge Wells property prices: median £430,000, 1,193 sales, +2.4% YoY. Detached £761,500, Flat £255,000. Land Registry data for Tunbridge Wells, Kent.",
+  metaTitle: "Tunbridge Wells House Prices 2026: £430,000 Median",
+  metaDescription: "Tunbridge Wells house prices 2026: £430,000 median, 1,193 sales, +2.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £430,000, 1,193 sales, +2.4% YoY. Kent county.",
   category: "town",
   region: "London & South East",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bristol-property-market",
   title: "Bristol Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Bristol Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Bristol property market analysis: median price £345,000, 22,563 sales, +0.2% YoY. Town comparisons, new builds & development finance across 6 towns.",
+  metaTitle: "Bristol House Prices 2026: £345,000 Median",
+  metaDescription: "Bristol house prices 2026: £345,000 median, 22,563 sales, +0.2% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "6 towns analysed. Median price £345,000, 22,563 transactions, +0.2% YoY.",
   category: "county",
   region: "South West",

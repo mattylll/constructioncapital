@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cardiff-property-market",
   title: "Cardiff Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Cardiff Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Cardiff property market analysis: median price £265,000, 20,970 sales, +1.1% YoY. Town comparisons, new builds & development finance across 6 towns.",
+  metaTitle: "Cardiff House Prices 2026: £265,000 Median",
+  metaDescription: "Cardiff house prices 2026: £265,000 median, 20,970 sales, +1.1% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "6 towns analysed. Median price £265,000, 20,970 transactions, +1.1% YoY.",
   category: "county",
   region: "Wales",

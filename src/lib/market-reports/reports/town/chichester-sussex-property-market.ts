@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "chichester-sussex-property-market",
   title: "Chichester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chichester House Prices 2026 - Property Market Data & Development Finance | Sussex",
-  metaDescription: "Chichester property prices: median £427,500, 1,213 sales, +4.3% YoY. Detached £660,000, Flat £212,500. Land Registry data for Chichester, Sussex.",
+  metaTitle: "Chichester House Prices 2026: £427,500 Median",
+  metaDescription: "Chichester house prices 2026: £427,500 median, 1,213 sales, +4.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £427,500, 1,213 sales, +4.3% YoY. Sussex county.",
   category: "town",
   region: "London & South East",

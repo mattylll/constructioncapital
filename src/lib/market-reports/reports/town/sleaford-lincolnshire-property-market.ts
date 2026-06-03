@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "sleaford-lincolnshire-property-market",
   title: "Sleaford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sleaford House Prices 2026 - Property Market Data & Development Finance | Lincolnshire",
-  metaDescription: "Sleaford property prices: median £238,998, 1,426 sales, +1.7% YoY. Detached £296,000, Flat £112,000. Land Registry data for Sleaford, Lincolnshire.",
+  metaTitle: "Sleaford House Prices 2026: £238,998 Median",
+  metaDescription: "Sleaford house prices 2026: £238,998 median, 1,426 sales, +1.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £238,998, 1,426 sales, +1.7% YoY. Lincolnshire county.",
   category: "town",
   region: "Midlands",

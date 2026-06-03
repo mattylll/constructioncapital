@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "melton-mowbray-leicestershire-property-market",
   title: "Melton Mowbray Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Melton Mowbray House Prices 2026 - Property Market Data & Development Finance | Leicestershire",
-  metaDescription: "Melton Mowbray property prices: median £255,000, 663 sales, -7.3% YoY. Detached £388,000, Flat £132,500. Land Registry data for Melton Mowbray, Leicestershire.",
+  metaTitle: "Melton Mowbray House Prices 2026: £255,000 Median",
+  metaDescription: "Melton Mowbray house prices 2026: £255,000 median, 663 sales, -7.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £255,000, 663 sales, -7.3% YoY. Leicestershire county.",
   category: "town",
   region: "Midlands",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "redditch-worcestershire-property-market",
   title: "Redditch Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Redditch House Prices 2026 - Property Market Data & Development Finance | Worcestershire",
-  metaDescription: "Redditch property prices: median £247,500, 761 sales, +0.4% YoY. Detached £380,000, Flat £128,500. Land Registry data for Redditch, Worcestershire.",
+  metaTitle: "Redditch House Prices 2026: £247,500 Median",
+  metaDescription: "Redditch house prices 2026: £247,500 median, 761 sales, +0.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £247,500, 761 sales, +0.4% YoY. Worcestershire county.",
   category: "town",
   region: "Midlands",

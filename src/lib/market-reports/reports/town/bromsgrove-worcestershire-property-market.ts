@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bromsgrove-worcestershire-property-market",
   title: "Bromsgrove Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bromsgrove House Prices 2026 - Property Market Data & Development Finance | Worcestershire",
-  metaDescription: "Bromsgrove property prices: median £330,000, 885 sales, -2.9% YoY. Detached £486,250, Flat £150,000. Land Registry data for Bromsgrove, Worcestershire.",
+  metaTitle: "Bromsgrove House Prices 2026: £330,000 Median",
+  metaDescription: "Bromsgrove house prices 2026: £330,000 median, 885 sales, -2.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £330,000, 885 sales, -2.9% YoY. Worcestershire county.",
   category: "town",
   region: "Midlands",

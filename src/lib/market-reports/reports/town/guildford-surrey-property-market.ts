@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "guildford-surrey-property-market",
   title: "Guildford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Guildford House Prices 2026 - Property Market Data & Development Finance | Surrey",
-  metaDescription: "Guildford property prices: median £495,000, 1,345 sales, +2.1% YoY. Detached £840,000, Flat £264,500. Land Registry data for Guildford, Surrey.",
+  metaTitle: "Guildford House Prices 2026: £495,000 Median",
+  metaDescription: "Guildford house prices 2026: £495,000 median, 1,345 sales, +2.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £495,000, 1,345 sales, +2.1% YoY. Surrey county.",
   category: "town",
   region: "London & South East",

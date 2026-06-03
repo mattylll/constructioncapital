@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "leicestershire-property-market",
   title: "Leicestershire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Leicestershire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Leicestershire property market analysis: median price £255,000, 8,776 sales, -3.8% YoY. Town comparisons, new builds & development finance across 7 towns.",
+  metaTitle: "Leicestershire House Prices 2026: £255,000 Median",
+  metaDescription: "Leicestershire house prices 2026: £255,000 median, 8,776 sales, -3.8% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "7 towns analysed. Median price £255,000, 8,776 transactions, -3.8% YoY.",
   category: "county",
   region: "Midlands",

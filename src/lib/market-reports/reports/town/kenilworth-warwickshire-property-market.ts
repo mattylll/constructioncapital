@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "kenilworth-warwickshire-property-market",
   title: "Kenilworth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Kenilworth House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
-  metaDescription: "Kenilworth property prices: median £405,000, 299 sales, +1.3% YoY. Detached £560,000, Flat £208,750. Land Registry data for Kenilworth, Warwickshire.",
+  metaTitle: "Kenilworth House Prices 2026: £405,000 Median",
+  metaDescription: "Kenilworth house prices 2026: £405,000 median, 299 sales, +1.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £405,000, 299 sales, +1.3% YoY. Warwickshire county.",
   category: "town",
   region: "Midlands",

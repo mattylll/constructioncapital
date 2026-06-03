@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bedfordshire-property-market",
   title: "Bedfordshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Bedfordshire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Bedfordshire property market analysis: median price £340,000, 8,636 sales, -1.7% YoY. Town comparisons, new builds & development finance across 7 towns.",
+  metaTitle: "Bedfordshire House Prices 2026: £340,000 Median",
+  metaDescription: "Bedfordshire house prices 2026: £340,000 median, 8,636 sales, -1.7% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "7 towns analysed. Median price £340,000, 8,636 transactions, -1.7% YoY.",
   category: "county",
   region: "East of England",

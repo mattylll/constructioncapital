@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bolton-greater-manchester-property-market",
   title: "Bolton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bolton House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
-  metaDescription: "Bolton property prices: median £190,000, 2,756 sales, +1.6% YoY. Detached £355,000, Flat £110,000. Land Registry data for Bolton, Greater Manchester.",
+  metaTitle: "Bolton House Prices 2026: £190,000 Median",
+  metaDescription: "Bolton house prices 2026: £190,000 median, 2,756 sales, +1.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £190,000, 2,756 sales, +1.6% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",

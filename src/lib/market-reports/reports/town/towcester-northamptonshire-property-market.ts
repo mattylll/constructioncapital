@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "towcester-northamptonshire-property-market",
   title: "Towcester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Towcester House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
-  metaDescription: "Towcester property prices: median £348,000, 384 sales, -4% YoY. Detached £514,498, Flat £133,000. Land Registry data for Towcester, Northamptonshire.",
+  metaTitle: "Towcester House Prices 2026: £348,000 Median",
+  metaDescription: "Towcester house prices 2026: £348,000 median, 384 sales, -4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £348,000, 384 sales, -4% YoY. Northamptonshire county.",
   category: "town",
   region: "Midlands",

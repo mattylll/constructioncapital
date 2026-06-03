@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wolverhampton-west-midlands-property-market",
   title: "Wolverhampton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wolverhampton House Prices 2026 - Property Market Data & Development Finance | West Midlands",
-  metaDescription: "Wolverhampton property prices: median £210,000, 1,746 sales, +2.4% YoY. Detached £325,000, Flat £103,500. Land Registry data for Wolverhampton, West Midlands.",
+  metaTitle: "Wolverhampton House Prices 2026: £210,000 Median",
+  metaDescription: "Wolverhampton house prices 2026: £210,000 median, 1,746 sales, +2.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £210,000, 1,746 sales, +2.4% YoY. West Midlands county.",
   category: "town",
   region: "Midlands",

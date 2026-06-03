@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "caernarfon-gwynedd-property-market",
   title: "Caernarfon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Caernarfon House Prices 2026 - Property Market Data & Development Finance | Gwynedd",
-  metaDescription: "Caernarfon property prices: median £192,000, 287 sales, +6.7% YoY. Detached £298,000, Flat £105,000. Land Registry data for Caernarfon, Gwynedd.",
+  metaTitle: "Caernarfon House Prices 2026: £192,000 Median",
+  metaDescription: "Caernarfon house prices 2026: £192,000 median, 287 sales, +6.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £192,000, 287 sales, +6.7% YoY. Gwynedd county.",
   category: "town",
   region: "Wales",

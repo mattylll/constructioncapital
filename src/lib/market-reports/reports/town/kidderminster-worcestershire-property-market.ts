@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "kidderminster-worcestershire-property-market",
   title: "Kidderminster Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Kidderminster House Prices 2026 - Property Market Data & Development Finance | Worcestershire",
-  metaDescription: "Kidderminster property prices: median £243,875, 1,078 sales, -2.5% YoY. Detached £359,100, Flat £124,500. Land Registry data for Kidderminster, Worcestershire.",
+  metaTitle: "Kidderminster House Prices 2026: £243,875 Median",
+  metaDescription: "Kidderminster house prices 2026: £243,875 median, 1,078 sales, -2.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £243,875, 1,078 sales, -2.5% YoY. Worcestershire county.",
   category: "town",
   region: "Midlands",

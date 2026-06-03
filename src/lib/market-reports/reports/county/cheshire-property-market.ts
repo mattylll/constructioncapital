@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cheshire-property-market",
   title: "Cheshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Cheshire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Cheshire property market analysis: median price £268,000, 8,221 sales, -0.3% YoY. Town comparisons, new builds & development finance across 8 towns.",
+  metaTitle: "Cheshire House Prices 2026: £268,000 Median",
+  metaDescription: "Cheshire house prices 2026: £268,000 median, 8,221 sales, -0.3% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £268,000, 8,221 transactions, -0.3% YoY.",
   category: "county",
   region: "North West",

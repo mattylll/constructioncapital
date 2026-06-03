@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stroud-gloucestershire-property-market",
   title: "Stroud Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stroud House Prices 2026 - Property Market Data & Development Finance | Gloucestershire",
-  metaDescription: "Stroud property prices: median £329,000, 1,331 sales, -1.8% YoY. Detached £490,000, Flat £165,750. Land Registry data for Stroud, Gloucestershire.",
+  metaTitle: "Stroud House Prices 2026: £329,000 Median",
+  metaDescription: "Stroud house prices 2026: £329,000 median, 1,331 sales, -1.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £329,000, 1,331 sales, -1.8% YoY. Gloucestershire county.",
   category: "town",
   region: "South West",

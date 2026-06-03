@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "weston-super-mare-somerset-property-market",
   title: "Weston-super-Mare Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Weston-super-Mare House Prices 2026 - Property Market Data & Development Finance | Somerset",
-  metaDescription: "Weston-super-Mare property prices: median £310,000, 2,663 sales, -1.6% YoY. Detached £460,000, Flat £178,000. Land Registry data for Weston-super-Mare, Somerset.",
+  metaTitle: "Weston-super-Mare House Prices 2026: £310,000 Median",
+  metaDescription: "Weston-super-Mare house prices 2026: £310,000 median, 2,663 sales, -1.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £310,000, 2,663 sales, -1.6% YoY. Somerset county.",
   category: "town",
   region: "South West",

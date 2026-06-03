@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "devizes-wiltshire-property-market",
   title: "Devizes Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Devizes House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
-  metaDescription: "Devizes property prices: median £310,000, 373 sales, +6.9% YoY. Detached £462,500, Flat £152,000. Land Registry data for Devizes, Wiltshire.",
+  metaTitle: "Devizes House Prices 2026: £310,000 Median",
+  metaDescription: "Devizes house prices 2026: £310,000 median, 373 sales, +6.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £310,000, 373 sales, +6.9% YoY. Wiltshire county.",
   category: "town",
   region: "South West",

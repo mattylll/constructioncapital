@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "st-austell-cornwall-property-market",
   title: "St Austell Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "St Austell House Prices 2026 - Property Market Data & Development Finance | Cornwall",
-  metaDescription: "St Austell property prices: median £255,000, 540 sales, 0% YoY. Detached £360,000, Flat £129,250. Land Registry data for St Austell, Cornwall.",
+  metaTitle: "St Austell House Prices 2026: £255,000 Median",
+  metaDescription: "St Austell house prices 2026: £255,000 median, 540 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £255,000, 540 sales, 0% YoY. Cornwall county.",
   category: "town",
   region: "South West",

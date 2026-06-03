@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "burnley-lancashire-property-market",
   title: "Burnley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Burnley House Prices 2026 - Property Market Data & Development Finance | Lancashire",
-  metaDescription: "Burnley property prices: median £107,000, 1,197 sales, -7% YoY. Detached £295,000, Terraced £83,000. Land Registry data for Burnley, Lancashire.",
+  metaTitle: "Burnley House Prices 2026: £107,000 Median",
+  metaDescription: "Burnley house prices 2026: £107,000 median, 1,197 sales, -7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £107,000, 1,197 sales, -7% YoY. Lancashire county.",
   category: "town",
   region: "North West",

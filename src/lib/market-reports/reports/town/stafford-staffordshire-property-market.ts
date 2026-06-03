@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stafford-staffordshire-property-market",
   title: "Stafford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stafford House Prices 2026 - Property Market Data & Development Finance | Staffordshire",
-  metaDescription: "Stafford property prices: median £250,000, 1,364 sales, 0% YoY. Detached £365,000, Flat £120,000. Land Registry data for Stafford, Staffordshire.",
+  metaTitle: "Stafford House Prices 2026: £250,000 Median",
+  metaDescription: "Stafford house prices 2026: £250,000 median, 1,364 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £250,000, 1,364 sales, 0% YoY. Staffordshire county.",
   category: "town",
   region: "Midlands",

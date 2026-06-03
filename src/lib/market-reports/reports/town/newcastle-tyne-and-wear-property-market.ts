@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newcastle-tyne-and-wear-property-market",
   title: "Newcastle Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newcastle House Prices 2026 - Property Market Data & Development Finance | Tyne and Wear",
-  metaDescription: "Newcastle property prices: median £192,000, 2,637 sales, -1.7% YoY. Detached £342,500, Flat £140,000. Land Registry data for Newcastle, Tyne and Wear.",
+  metaTitle: "Newcastle House Prices 2026: £192,000 Median",
+  metaDescription: "Newcastle house prices 2026: £192,000 median, 2,637 sales, -1.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £192,000, 2,637 sales, -1.7% YoY. Tyne and Wear county.",
   category: "town",
   region: "North East & Yorkshire",

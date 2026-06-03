@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "salford-greater-manchester-property-market",
   title: "Salford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Salford House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
-  metaDescription: "Salford property prices: median £227,000, 2,784 sales, +3.2% YoY. Detached £385,000, Flat £170,000. Land Registry data for Salford, Greater Manchester.",
+  metaTitle: "Salford House Prices 2026: £227,000 Median",
+  metaDescription: "Salford house prices 2026: £227,000 median, 2,784 sales, +3.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £227,000, 2,784 sales, +3.2% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ashton-under-lyne-greater-manchester-property-market",
   title: "Ashton-under-Lyne Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ashton-under-Lyne House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
-  metaDescription: "Ashton-under-Lyne property prices: median £200,000, 2,067 sales, -1.5% YoY. Detached £355,000, Flat £124,900. Land Registry data for Ashton-under-Lyne, Greater Manchester.",
+  metaTitle: "Ashton-under-Lyne House Prices 2026: £200,000 Median",
+  metaDescription: "Ashton-under-Lyne house prices 2026: £200,000 median, 2,067 sales, -1.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £200,000, 2,067 sales, -1.5% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",

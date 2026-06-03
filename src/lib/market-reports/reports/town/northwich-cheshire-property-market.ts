@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "northwich-cheshire-property-market",
   title: "Northwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Northwich House Prices 2026 - Property Market Data & Development Finance | Cheshire",
-  metaDescription: "Northwich property prices: median £262,500, 915 sales, +1% YoY. Detached £412,500, Flat £132,000. Land Registry data for Northwich, Cheshire.",
+  metaTitle: "Northwich House Prices 2026: £262,500 Median",
+  metaDescription: "Northwich house prices 2026: £262,500 median, 915 sales, +1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £262,500, 915 sales, +1% YoY. Cheshire county.",
   category: "town",
   region: "North West",

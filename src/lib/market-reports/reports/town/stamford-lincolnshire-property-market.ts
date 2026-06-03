@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stamford-lincolnshire-property-market",
   title: "Stamford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stamford House Prices 2026 - Property Market Data & Development Finance | Lincolnshire",
-  metaDescription: "Stamford property prices: median £290,000, 261 sales, -9.4% YoY. Detached £465,000, Flat £174,500. Land Registry data for Stamford, Lincolnshire.",
+  metaTitle: "Stamford House Prices 2026: £290,000 Median",
+  metaDescription: "Stamford house prices 2026: £290,000 median, 261 sales, -9.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £290,000, 261 sales, -9.4% YoY. Lincolnshire county.",
   category: "town",
   region: "Midlands",

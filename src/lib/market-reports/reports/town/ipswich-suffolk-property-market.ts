@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ipswich-suffolk-property-market",
   title: "Ipswich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ipswich House Prices 2026 - Property Market Data & Development Finance | Suffolk",
-  metaDescription: "Ipswich property prices: median £225,000, 1,296 sales, -4.3% YoY. Detached £360,000, Flat £127,000. Land Registry data for Ipswich, Suffolk.",
+  metaTitle: "Ipswich House Prices 2026: £225,000 Median",
+  metaDescription: "Ipswich house prices 2026: £225,000 median, 1,296 sales, -4.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £225,000, 1,296 sales, -4.3% YoY. Suffolk county.",
   category: "town",
   region: "East of England",

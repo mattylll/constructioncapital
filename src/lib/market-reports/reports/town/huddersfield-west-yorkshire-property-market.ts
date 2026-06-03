@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "huddersfield-west-yorkshire-property-market",
   title: "Huddersfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Huddersfield House Prices 2026 - Property Market Data & Development Finance | West Yorkshire",
-  metaDescription: "Huddersfield property prices: median £192,500, 1,883 sales, -3.8% YoY. Detached £385,000, Flat £105,000. Land Registry data for Huddersfield, West Yorkshire.",
+  metaTitle: "Huddersfield House Prices 2026: £192,500 Median",
+  metaDescription: "Huddersfield house prices 2026: £192,500 median, 1,883 sales, -3.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £192,500, 1,883 sales, -3.8% YoY. West Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

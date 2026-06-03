@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stratford-greater-london-property-market",
   title: "Stratford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stratford House Prices 2026 - Property Market Data & Development Finance | Greater London",
-  metaDescription: "Stratford property prices: median £430,000, 1,369 sales, -2.2% YoY. Semi-detached £484,500, Flat £360,000. Land Registry data for Stratford, Greater London.",
+  metaTitle: "Stratford House Prices 2026: £430,000 Median",
+  metaDescription: "Stratford house prices 2026: £430,000 median, 1,369 sales, -2.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £430,000, 1,369 sales, -2.2% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

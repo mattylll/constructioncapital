@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "southport-merseyside-property-market",
   title: "Southport Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Southport House Prices 2026 - Property Market Data & Development Finance | Merseyside",
-  metaDescription: "Southport property prices: median £210,000, 1,020 sales, 0% YoY. Detached £355,000, Flat £127,250. Land Registry data for Southport, Merseyside.",
+  metaTitle: "Southport House Prices 2026: £210,000 Median",
+  metaDescription: "Southport house prices 2026: £210,000 median, 1,020 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £210,000, 1,020 sales, 0% YoY. Merseyside county.",
   category: "town",
   region: "North West",

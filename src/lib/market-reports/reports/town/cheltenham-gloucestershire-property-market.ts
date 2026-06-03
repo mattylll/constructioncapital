@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cheltenham-gloucestershire-property-market",
   title: "Cheltenham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Cheltenham House Prices 2026 - Property Market Data & Development Finance | Gloucestershire",
-  metaDescription: "Cheltenham property prices: median £315,000, 1,513 sales, -1.6% YoY. Detached £580,000, Flat £203,500. Land Registry data for Cheltenham, Gloucestershire.",
+  metaTitle: "Cheltenham House Prices 2026: £315,000 Median",
+  metaDescription: "Cheltenham house prices 2026: £315,000 median, 1,513 sales, -1.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £315,000, 1,513 sales, -1.6% YoY. Gloucestershire county.",
   category: "town",
   region: "South West",

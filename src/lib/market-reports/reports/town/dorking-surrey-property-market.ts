@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "dorking-surrey-property-market",
   title: "Dorking Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dorking House Prices 2026 - Property Market Data & Development Finance | Surrey",
-  metaDescription: "Dorking property prices: median £490,000, 263 sales, +2.6% YoY. Detached £917,500, Flat £280,000. Land Registry data for Dorking, Surrey.",
+  metaTitle: "Dorking House Prices 2026: £490,000 Median",
+  metaDescription: "Dorking house prices 2026: £490,000 median, 263 sales, +2.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £490,000, 263 sales, +2.6% YoY. Surrey county.",
   category: "town",
   region: "London & South East",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lewisham-greater-london-property-market",
   title: "Lewisham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lewisham House Prices 2026 - Property Market Data & Development Finance | Greater London",
-  metaDescription: "Lewisham property prices: median £461,000, 2,103 sales, +2.4% YoY. Detached £870,500, Flat £365,000. Land Registry data for Lewisham, Greater London.",
+  metaTitle: "Lewisham House Prices 2026: £461,000 Median",
+  metaDescription: "Lewisham house prices 2026: £461,000 median, 2,103 sales, +2.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £461,000, 2,103 sales, +2.4% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

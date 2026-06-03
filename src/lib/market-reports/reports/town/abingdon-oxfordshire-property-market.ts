@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "abingdon-oxfordshire-property-market",
   title: "Abingdon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Abingdon House Prices 2026 - Property Market Data & Development Finance | Oxfordshire",
-  metaDescription: "Abingdon property prices: median £395,000, 1,534 sales, -0.5% YoY. Detached £550,000, Flat £210,000. Land Registry data for Abingdon, Oxfordshire.",
+  metaTitle: "Abingdon House Prices 2026: £395,000 Median",
+  metaDescription: "Abingdon house prices 2026: £395,000 median, 1,534 sales, -0.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £395,000, 1,534 sales, -0.5% YoY. Oxfordshire county.",
   category: "town",
   region: "London & South East",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "attleborough-norfolk-property-market",
   title: "Attleborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Attleborough House Prices 2026 - Property Market Data & Development Finance | Norfolk",
-  metaDescription: "Attleborough property prices: median £264,000, 228 sales, -12% YoY. Detached £340,000, Flat £122,000. Land Registry data for Attleborough, Norfolk.",
+  metaTitle: "Attleborough House Prices 2026: £264,000 Median",
+  metaDescription: "Attleborough house prices 2026: £264,000 median, 228 sales, -12% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £264,000, 228 sales, -12% YoY. Norfolk county.",
   category: "town",
   region: "East of England",

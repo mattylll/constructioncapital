@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newton-abbot-devon-property-market",
   title: "Newton Abbot Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newton Abbot House Prices 2026 - Property Market Data & Development Finance | Devon",
-  metaDescription: "Newton Abbot property prices: median £290,000, 1,518 sales, -3.3% YoY. Detached £425,000, Flat £160,000. Land Registry data for Newton Abbot, Devon.",
+  metaTitle: "Newton Abbot House Prices 2026: £290,000 Median",
+  metaDescription: "Newton Abbot house prices 2026: £290,000 median, 1,518 sales, -3.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £290,000, 1,518 sales, -3.3% YoY. Devon county.",
   category: "town",
   region: "South West",

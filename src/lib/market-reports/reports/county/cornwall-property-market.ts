@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cornwall-property-market",
   title: "Cornwall Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Cornwall Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Cornwall property market analysis: median price £295,000, 3,068 sales, -5.1% YoY. Town comparisons, new builds & development finance across 8 towns.",
+  metaTitle: "Cornwall House Prices 2026: £295,000 Median",
+  metaDescription: "Cornwall house prices 2026: £295,000 median, 3,068 sales, -5.1% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £295,000, 3,068 transactions, -5.1% YoY.",
   category: "county",
   region: "South West",

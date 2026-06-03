@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "rushden-northamptonshire-property-market",
   title: "Rushden Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Rushden House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
-  metaDescription: "Rushden property prices: median £245,000, 480 sales, +1.7% YoY. Detached £347,500, Flat £115,000. Land Registry data for Rushden, Northamptonshire.",
+  metaTitle: "Rushden House Prices 2026: £245,000 Median",
+  metaDescription: "Rushden house prices 2026: £245,000 median, 480 sales, +1.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £245,000, 480 sales, +1.7% YoY. Northamptonshire county.",
   category: "town",
   region: "Midlands",

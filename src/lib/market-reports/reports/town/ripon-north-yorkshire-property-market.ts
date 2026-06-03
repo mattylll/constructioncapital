@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ripon-north-yorkshire-property-market",
   title: "Ripon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ripon House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
-  metaDescription: "Ripon property prices: median £297,000, 223 sales, +0.7% YoY. Detached £440,000, Flat £148,500. Land Registry data for Ripon, North Yorkshire.",
+  metaTitle: "Ripon House Prices 2026: £297,000 Median",
+  metaDescription: "Ripon house prices 2026: £297,000 median, 223 sales, +0.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £297,000, 223 sales, +0.7% YoY. North Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

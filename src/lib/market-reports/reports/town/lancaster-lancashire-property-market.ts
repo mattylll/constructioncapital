@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "lancaster-lancashire-property-market",
   title: "Lancaster Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lancaster House Prices 2026 - Property Market Data & Development Finance | Lancashire",
-  metaDescription: "Lancaster property prices: median £190,000, 1,517 sales, -2.6% YoY. Detached £350,000, Flat £120,000. Land Registry data for Lancaster, Lancashire.",
+  metaTitle: "Lancaster House Prices 2026: £190,000 Median",
+  metaDescription: "Lancaster house prices 2026: £190,000 median, 1,517 sales, -2.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £190,000, 1,517 sales, -2.6% YoY. Lancashire county.",
   category: "town",
   region: "North West",

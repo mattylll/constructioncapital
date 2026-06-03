@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "fleet-hampshire-property-market",
   title: "Fleet Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Fleet House Prices 2026 - Property Market Data & Development Finance | Hampshire",
-  metaDescription: "Fleet property prices: median £450,000, 1,005 sales, -4.3% YoY. Detached £660,000, Flat £225,000. Land Registry data for Fleet, Hampshire.",
+  metaTitle: "Fleet House Prices 2026: £450,000 Median",
+  metaDescription: "Fleet house prices 2026: £450,000 median, 1,005 sales, -4.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £450,000, 1,005 sales, -4.3% YoY. Hampshire county.",
   category: "town",
   region: "London & South East",

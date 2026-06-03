@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "south-yorkshire-property-market",
   title: "South Yorkshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "South Yorkshire Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "South Yorkshire property market analysis: median price £164,924, 14,675 sales, -1.5% YoY. Town comparisons, new builds & development finance across 6 towns.",
+  metaTitle: "South Yorkshire House Prices 2026: £164,924 Median",
+  metaDescription: "South Yorkshire house prices 2026: £164,924 median, 14,675 sales, -1.5% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "6 towns analysed. Median price £164,924, 14,675 transactions, -1.5% YoY.",
   category: "county",
   region: "North East & Yorkshire",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "taunton-somerset-property-market",
   title: "Taunton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Taunton House Prices 2026 - Property Market Data & Development Finance | Somerset",
-  metaDescription: "Taunton property prices: median £277,500, 1,231 sales, -0.9% YoY. Detached £413,750, Flat £140,000. Land Registry data for Taunton, Somerset.",
+  metaTitle: "Taunton House Prices 2026: £277,500 Median",
+  metaDescription: "Taunton house prices 2026: £277,500 median, 1,231 sales, -0.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £277,500, 1,231 sales, -0.9% YoY. Somerset county.",
   category: "town",
   region: "South West",

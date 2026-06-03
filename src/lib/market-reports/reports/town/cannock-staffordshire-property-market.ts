@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "cannock-staffordshire-property-market",
   title: "Cannock Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Cannock House Prices 2026 - Property Market Data & Development Finance | Staffordshire",
-  metaDescription: "Cannock property prices: median £215,000, 943 sales, -3.4% YoY. Detached £335,000, Flat £115,000. Land Registry data for Cannock, Staffordshire.",
+  metaTitle: "Cannock House Prices 2026: £215,000 Median",
+  metaDescription: "Cannock house prices 2026: £215,000 median, 943 sales, -3.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £215,000, 943 sales, -3.4% YoY. Staffordshire county.",
   category: "town",
   region: "Midlands",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "stoke-on-trent-staffordshire-property-market",
   title: "Stoke-on-Trent Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stoke-on-Trent House Prices 2026 - Property Market Data & Development Finance | Staffordshire",
-  metaDescription: "Stoke-on-Trent property prices: median £140,000, 2,592 sales, 0% YoY. Detached £250,000, Flat £80,750. Land Registry data for Stoke-on-Trent, Staffordshire.",
+  metaTitle: "Stoke-on-Trent House Prices 2026: £140,000 Median",
+  metaDescription: "Stoke-on-Trent house prices 2026: £140,000 median, 2,592 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £140,000, 2,592 sales, 0% YoY. Staffordshire county.",
   category: "town",
   region: "Midlands",

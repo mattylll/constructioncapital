@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wembley-greater-london-property-market",
   title: "Wembley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wembley House Prices 2026 - Property Market Data & Development Finance | Greater London",
-  metaDescription: "Wembley property prices: median £525,000, 1,527 sales, -0.9% YoY. Detached £972,500, Flat £407,400. Land Registry data for Wembley, Greater London.",
+  metaTitle: "Wembley House Prices 2026: £525,000 Median",
+  metaDescription: "Wembley house prices 2026: £525,000 median, 1,527 sales, -0.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £525,000, 1,527 sales, -0.9% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

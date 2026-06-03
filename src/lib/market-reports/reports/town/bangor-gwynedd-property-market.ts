@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bangor-gwynedd-property-market",
   title: "Bangor Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bangor House Prices 2026 - Property Market Data & Development Finance | Gwynedd",
-  metaDescription: "Bangor property prices: median £192,000, 207 sales, +9.7% YoY. Detached £325,000, Flat £85,500. Land Registry data for Bangor, Gwynedd.",
+  metaTitle: "Bangor House Prices 2026: £192,000 Median",
+  metaDescription: "Bangor house prices 2026: £192,000 median, 207 sales, +9.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £192,000, 207 sales, +9.7% YoY. Gwynedd county.",
   category: "town",
   region: "Wales",

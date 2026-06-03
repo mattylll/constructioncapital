@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "northampton-northamptonshire-property-market",
   title: "Northampton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Northampton House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
-  metaDescription: "Northampton property prices: median £271,150, 3,184 sales, -3.3% YoY. Detached £410,000, Flat £140,000. Land Registry data for Northampton, Northamptonshire.",
+  metaTitle: "Northampton House Prices 2026: £271,150 Median",
+  metaDescription: "Northampton house prices 2026: £271,150 median, 3,184 sales, -3.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £271,150, 3,184 sales, -3.3% YoY. Northamptonshire county.",
   category: "town",
   region: "Midlands",

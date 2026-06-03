@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "kent-property-market",
   title: "Kent Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Kent Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Kent property market analysis: median price £345,000, 17,119 sales, +0.3% YoY. Town comparisons, new builds & development finance across 12 towns.",
+  metaTitle: "Kent House Prices 2026: £345,000 Median",
+  metaDescription: "Kent house prices 2026: £345,000 median, 17,119 sales, +0.3% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "12 towns analysed. Median price £345,000, 17,119 transactions, +0.3% YoY.",
   category: "county",
   region: "London & South East",

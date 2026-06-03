@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "worksop-nottinghamshire-property-market",
   title: "Worksop Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Worksop House Prices 2026 - Property Market Data & Development Finance | Nottinghamshire",
-  metaDescription: "Worksop property prices: median £195,000, 748 sales, +2.6% YoY. Detached £284,498, Flat £92,500. Land Registry data for Worksop, Nottinghamshire.",
+  metaTitle: "Worksop House Prices 2026: £195,000 Median",
+  metaDescription: "Worksop house prices 2026: £195,000 median, 748 sales, +2.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £195,000, 748 sales, +2.6% YoY. Nottinghamshire county.",
   category: "town",
   region: "Midlands",

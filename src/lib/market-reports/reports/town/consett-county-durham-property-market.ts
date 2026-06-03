@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "consett-county-durham-property-market",
   title: "Consett Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Consett House Prices 2026 - Property Market Data & Development Finance | County Durham",
-  metaDescription: "Consett property prices: median £134,950, 523 sales, -3.6% YoY. Detached £277,000, Flat £66,500. Land Registry data for Consett, County Durham.",
+  metaTitle: "Consett House Prices 2026: £134,950 Median",
+  metaDescription: "Consett house prices 2026: £134,950 median, 523 sales, -3.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £134,950, 523 sales, -3.6% YoY. County Durham county.",
   category: "town",
   region: "North East & Yorkshire",

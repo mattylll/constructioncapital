@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "worthing-sussex-property-market",
   title: "Worthing Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Worthing House Prices 2026 - Property Market Data & Development Finance | Sussex",
-  metaDescription: "Worthing property prices: median £337,000, 1,189 sales, -2.9% YoY. Detached £550,000, Flat £215,000. Land Registry data for Worthing, Sussex.",
+  metaTitle: "Worthing House Prices 2026: £337,000 Median",
+  metaDescription: "Worthing house prices 2026: £337,000 median, 1,189 sales, -2.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £337,000, 1,189 sales, -2.9% YoY. Sussex county.",
   category: "town",
   region: "London & South East",

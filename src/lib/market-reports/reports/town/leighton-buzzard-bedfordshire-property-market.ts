@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "leighton-buzzard-bedfordshire-property-market",
   title: "Leighton Buzzard Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Leighton Buzzard House Prices 2026 - Property Market Data & Development Finance | Bedfordshire",
-  metaDescription: "Leighton Buzzard property prices: median £340,000, 658 sales, -5.6% YoY. Detached £517,000, Flat £190,000. Land Registry data for Leighton Buzzard, Bedfordshire.",
+  metaTitle: "Leighton Buzzard House Prices 2026: £340,000 Median",
+  metaDescription: "Leighton Buzzard house prices 2026: £340,000 median, 658 sales, -5.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £340,000, 658 sales, -5.6% YoY. Bedfordshire county.",
   category: "town",
   region: "East of England",

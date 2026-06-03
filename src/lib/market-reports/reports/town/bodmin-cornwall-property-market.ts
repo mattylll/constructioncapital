@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bodmin-cornwall-property-market",
   title: "Bodmin Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bodmin House Prices 2026 - Property Market Data & Development Finance | Cornwall",
-  metaDescription: "Bodmin property prices: median £240,000, 269 sales, -9.4% YoY. Detached £355,000, Flat £115,000. Land Registry data for Bodmin, Cornwall.",
+  metaTitle: "Bodmin House Prices 2026: £240,000 Median",
+  metaDescription: "Bodmin house prices 2026: £240,000 median, 269 sales, -9.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £240,000, 269 sales, -9.4% YoY. Cornwall county.",
   category: "town",
   region: "South West",

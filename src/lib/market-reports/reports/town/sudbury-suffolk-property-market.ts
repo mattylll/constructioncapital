@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "sudbury-suffolk-property-market",
   title: "Sudbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sudbury House Prices 2026 - Property Market Data & Development Finance | Suffolk",
-  metaDescription: "Sudbury property prices: median £320,000, 985 sales, -3% YoY. Detached £440,000, Flat £160,000. Land Registry data for Sudbury, Suffolk.",
+  metaTitle: "Sudbury House Prices 2026: £320,000 Median",
+  metaDescription: "Sudbury house prices 2026: £320,000 median, 985 sales, -3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £320,000, 985 sales, -3% YoY. Suffolk county.",
   category: "town",
   region: "East of England",

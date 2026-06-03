@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "tiverton-devon-property-market",
   title: "Tiverton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Tiverton House Prices 2026 - Property Market Data & Development Finance | Devon",
-  metaDescription: "Tiverton property prices: median £275,000, 839 sales, -7.6% YoY. Detached £397,500, Flat £125,000. Land Registry data for Tiverton, Devon.",
+  metaTitle: "Tiverton House Prices 2026: £275,000 Median",
+  metaDescription: "Tiverton house prices 2026: £275,000 median, 839 sales, -7.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £275,000, 839 sales, -7.6% YoY. Devon county.",
   category: "town",
   region: "South West",

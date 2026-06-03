@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "st-albans-hertfordshire-property-market",
   title: "St Albans Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "St Albans House Prices 2026 - Property Market Data & Development Finance | Hertfordshire",
-  metaDescription: "St Albans property prices: median £575,000, 998 sales, 0% YoY. Detached £867,500, Flat £300,000. Land Registry data for St Albans, Hertfordshire.",
+  metaTitle: "St Albans House Prices 2026: £575,000 Median",
+  metaDescription: "St Albans house prices 2026: £575,000 median, 998 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £575,000, 998 sales, 0% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",

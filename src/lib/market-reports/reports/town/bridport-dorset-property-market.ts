@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bridport-dorset-property-market",
   title: "Bridport Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bridport House Prices 2026 - Property Market Data & Development Finance | Dorset",
-  metaDescription: "Bridport property prices: median £365,000, 255 sales, -3.9% YoY. Detached £516,500, Flat £175,000. Land Registry data for Bridport, Dorset.",
+  metaTitle: "Bridport House Prices 2026: £365,000 Median",
+  metaDescription: "Bridport house prices 2026: £365,000 median, 255 sales, -3.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £365,000, 255 sales, -3.9% YoY. Dorset county.",
   category: "town",
   region: "South West",

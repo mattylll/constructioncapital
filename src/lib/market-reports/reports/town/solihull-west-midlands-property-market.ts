@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "solihull-west-midlands-property-market",
   title: "Solihull Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Solihull House Prices 2026 - Property Market Data & Development Finance | West Midlands",
-  metaDescription: "Solihull property prices: median £324,000, 1,983 sales, +0.5% YoY. Detached £590,000, Flat £173,000. Land Registry data for Solihull, West Midlands.",
+  metaTitle: "Solihull House Prices 2026: £324,000 Median",
+  metaDescription: "Solihull house prices 2026: £324,000 median, 1,983 sales, +0.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £324,000, 1,983 sales, +0.5% YoY. West Midlands county.",
   category: "town",
   region: "Midlands",

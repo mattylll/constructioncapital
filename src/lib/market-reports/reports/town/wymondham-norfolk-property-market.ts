@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wymondham-norfolk-property-market",
   title: "Wymondham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wymondham House Prices 2026 - Property Market Data & Development Finance | Norfolk",
-  metaDescription: "Wymondham property prices: median £292,500, 1,614 sales, -2.5% YoY. Detached £380,000, Flat £155,000. Land Registry data for Wymondham, Norfolk.",
+  metaTitle: "Wymondham House Prices 2026: £292,500 Median",
+  metaDescription: "Wymondham house prices 2026: £292,500 median, 1,614 sales, -2.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £292,500, 1,614 sales, -2.5% YoY. Norfolk county.",
   category: "town",
   region: "East of England",

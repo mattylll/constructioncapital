@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "crawley-sussex-property-market",
   title: "Crawley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Crawley House Prices 2026 - Property Market Data & Development Finance | Sussex",
-  metaDescription: "Crawley property prices: median £342,750, 862 sales, -0.7% YoY. Detached £580,000, Flat £205,000. Land Registry data for Crawley, Sussex.",
+  metaTitle: "Crawley House Prices 2026: £342,750 Median",
+  metaDescription: "Crawley house prices 2026: £342,750 median, 862 sales, -0.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £342,750, 862 sales, -0.7% YoY. Sussex county.",
   category: "town",
   region: "London & South East",

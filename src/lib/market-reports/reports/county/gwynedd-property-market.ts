@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "gwynedd-property-market",
   title: "Gwynedd Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Gwynedd Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Gwynedd property market analysis: median price £197,488, 1,950 sales, +9.5% YoY. Town comparisons, new builds & development finance across 6 towns.",
+  metaTitle: "Gwynedd House Prices 2026: £197,488 Median",
+  metaDescription: "Gwynedd house prices 2026: £197,488 median, 1,950 sales, +9.5% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "6 towns analysed. Median price £197,488, 1,950 transactions, +9.5% YoY.",
   category: "county",
   region: "Wales",

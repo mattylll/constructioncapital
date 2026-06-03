@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "woking-surrey-property-market",
   title: "Woking Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Woking House Prices 2026 - Property Market Data & Development Finance | Surrey",
-  metaDescription: "Woking property prices: median £420,000, 1,054 sales, -5.7% YoY. Detached £750,000, Flat £260,000. Land Registry data for Woking, Surrey.",
+  metaTitle: "Woking House Prices 2026: £420,000 Median",
+  metaDescription: "Woking house prices 2026: £420,000 median, 1,054 sales, -5.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £420,000, 1,054 sales, -5.7% YoY. Surrey county.",
   category: "town",
   region: "London & South East",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "south-shields-tyne-and-wear-property-market",
   title: "South Shields Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "South Shields House Prices 2026 - Property Market Data & Development Finance | Tyne and Wear",
-  metaDescription: "South Shields property prices: median £150,000, 1,425 sales, 0% YoY. Detached £311,250, Flat £82,000. Land Registry data for South Shields, Tyne and Wear.",
+  metaTitle: "South Shields House Prices 2026: £150,000 Median",
+  metaDescription: "South Shields house prices 2026: £150,000 median, 1,425 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £150,000, 1,425 sales, 0% YoY. Tyne and Wear county.",
   category: "town",
   region: "North East & Yorkshire",

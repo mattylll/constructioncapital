@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "sutton-coldfield-west-midlands-property-market",
   title: "Sutton Coldfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sutton Coldfield House Prices 2026 - Property Market Data & Development Finance | West Midlands",
-  metaDescription: "Sutton Coldfield property prices: median £355,000, 958 sales, -1.1% YoY. Detached £545,000, Flat £160,000. Land Registry data for Sutton Coldfield, West Midlands.",
+  metaTitle: "Sutton Coldfield House Prices 2026: £355,000 Median",
+  metaDescription: "Sutton Coldfield house prices 2026: £355,000 median, 958 sales, -1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £355,000, 958 sales, -1.1% YoY. West Midlands county.",
   category: "town",
   region: "Midlands",

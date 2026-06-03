@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wellingborough-northamptonshire-property-market",
   title: "Wellingborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wellingborough House Prices 2026 - Property Market Data & Development Finance | Northamptonshire",
-  metaDescription: "Wellingborough property prices: median £248,000, 1,026 sales, -6.2% YoY. Detached £346,873, Flat £130,000. Land Registry data for Wellingborough, Northamptonshire.",
+  metaTitle: "Wellingborough House Prices 2026: £248,000 Median",
+  metaDescription: "Wellingborough house prices 2026: £248,000 median, 1,026 sales, -6.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £248,000, 1,026 sales, -6.2% YoY. Northamptonshire county.",
   category: "town",
   region: "Midlands",

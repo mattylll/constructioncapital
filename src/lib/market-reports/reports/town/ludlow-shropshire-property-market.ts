@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "ludlow-shropshire-property-market",
   title: "Ludlow Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ludlow House Prices 2026 - Property Market Data & Development Finance | Shropshire",
-  metaDescription: "Ludlow property prices: median £272,000, 187 sales, +0.3% YoY. Detached £325,000, Flat £110,500. Land Registry data for Ludlow, Shropshire.",
+  metaTitle: "Ludlow House Prices 2026: £272,000 Median",
+  metaDescription: "Ludlow house prices 2026: £272,000 median, 187 sales, +0.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £272,000, 187 sales, +0.3% YoY. Shropshire county.",
   category: "town",
   region: "Midlands",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wilmslow-cheshire-property-market",
   title: "Wilmslow Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wilmslow House Prices 2026 - Property Market Data & Development Finance | Cheshire",
-  metaDescription: "Wilmslow property prices: median £425,000, 439 sales, +1.9% YoY. Detached £755,000, Flat £168,000. Land Registry data for Wilmslow, Cheshire.",
+  metaTitle: "Wilmslow House Prices 2026: £425,000 Median",
+  metaDescription: "Wilmslow house prices 2026: £425,000 median, 439 sales, +1.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £425,000, 439 sales, +1.9% YoY. Cheshire county.",
   category: "town",
   region: "North West",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "great-yarmouth-norfolk-property-market",
   title: "Great Yarmouth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Great Yarmouth House Prices 2026 - Property Market Data & Development Finance | Norfolk",
-  metaDescription: "Great Yarmouth property prices: median £202,000, 1,139 sales, -3.8% YoY. Detached £332,500, Flat £100,000. Land Registry data for Great Yarmouth, Norfolk.",
+  metaTitle: "Great Yarmouth House Prices 2026: £202,000 Median",
+  metaDescription: "Great Yarmouth house prices 2026: £202,000 median, 1,139 sales, -3.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £202,000, 1,139 sales, -3.8% YoY. Norfolk county.",
   category: "town",
   region: "East of England",

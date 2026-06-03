@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "nuneaton-warwickshire-property-market",
   title: "Nuneaton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Nuneaton House Prices 2026 - Property Market Data & Development Finance | Warwickshire",
-  metaDescription: "Nuneaton property prices: median £230,000, 882 sales, -4.8% YoY. Detached £335,000, Flat £112,500. Land Registry data for Nuneaton, Warwickshire.",
+  metaTitle: "Nuneaton House Prices 2026: £230,000 Median",
+  metaDescription: "Nuneaton house prices 2026: £230,000 median, 882 sales, -4.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £230,000, 882 sales, -4.8% YoY. Warwickshire county.",
   category: "town",
   region: "Midlands",

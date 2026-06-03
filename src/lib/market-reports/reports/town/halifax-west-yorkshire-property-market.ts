@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "halifax-west-yorkshire-property-market",
   title: "Halifax Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Halifax House Prices 2026 - Property Market Data & Development Finance | West Yorkshire",
-  metaDescription: "Halifax property prices: median £182,500, 2,393 sales, +0.8% YoY. Detached £390,000, Flat £125,000. Land Registry data for Halifax, West Yorkshire.",
+  metaTitle: "Halifax House Prices 2026: £182,500 Median",
+  metaDescription: "Halifax house prices 2026: £182,500 median, 2,393 sales, +0.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £182,500, 2,393 sales, +0.8% YoY. West Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

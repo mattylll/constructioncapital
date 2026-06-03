@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "matlock-derbyshire-property-market",
   title: "Matlock Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Matlock House Prices 2026 - Property Market Data & Development Finance | Derbyshire",
-  metaDescription: "Matlock property prices: median £310,000, 739 sales, -3.1% YoY. Detached £450,000, Flat £200,000. Land Registry data for Matlock, Derbyshire.",
+  metaTitle: "Matlock House Prices 2026: £310,000 Median",
+  metaDescription: "Matlock house prices 2026: £310,000 median, 739 sales, -3.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £310,000, 739 sales, -3.1% YoY. Derbyshire county.",
   category: "town",
   region: "Midlands",

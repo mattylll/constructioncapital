@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "northallerton-north-yorkshire-property-market",
   title: "Northallerton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Northallerton House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
-  metaDescription: "Northallerton property prices: median £244,500, 334 sales, -1.4% YoY. Detached £383,750, Flat £116,500. Land Registry data for Northallerton, North Yorkshire.",
+  metaTitle: "Northallerton House Prices 2026: £244,500 Median",
+  metaDescription: "Northallerton house prices 2026: £244,500 median, 334 sales, -1.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £244,500, 334 sales, -1.4% YoY. North Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

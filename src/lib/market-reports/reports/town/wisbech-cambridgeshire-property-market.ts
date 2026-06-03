@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "wisbech-cambridgeshire-property-market",
   title: "Wisbech Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wisbech House Prices 2026 - Property Market Data & Development Finance | Cambridgeshire",
-  metaDescription: "Wisbech property prices: median £202,500, 417 sales, -1.2% YoY. Detached £255,000, Flat £79,725. Land Registry data for Wisbech, Cambridgeshire.",
+  metaTitle: "Wisbech House Prices 2026: £202,500 Median",
+  metaDescription: "Wisbech house prices 2026: £202,500 median, 417 sales, -1.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £202,500, 417 sales, -1.2% YoY. Cambridgeshire county.",
   category: "town",
   region: "East of England",

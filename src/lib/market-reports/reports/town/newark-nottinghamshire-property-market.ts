@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newark-nottinghamshire-property-market",
   title: "Newark Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newark House Prices 2026 - Property Market Data & Development Finance | Nottinghamshire",
-  metaDescription: "Newark property prices: median £225,000, 1,492 sales, -2.2% YoY. Detached £324,000, Flat £112,000. Land Registry data for Newark, Nottinghamshire.",
+  metaTitle: "Newark House Prices 2026: £225,000 Median",
+  metaDescription: "Newark house prices 2026: £225,000 median, 1,492 sales, -2.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £225,000, 1,492 sales, -2.2% YoY. Nottinghamshire county.",
   category: "town",
   region: "Midlands",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "rochdale-greater-manchester-property-market",
   title: "Rochdale Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Rochdale House Prices 2026 - Property Market Data & Development Finance | Greater Manchester",
-  metaDescription: "Rochdale property prices: median £185,000, 2,010 sales, -4.1% YoY. Detached £340,500, Flat £116,000. Land Registry data for Rochdale, Greater Manchester.",
+  metaTitle: "Rochdale House Prices 2026: £185,000 Median",
+  metaDescription: "Rochdale house prices 2026: £185,000 median, 2,010 sales, -4.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £185,000, 2,010 sales, -4.1% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",

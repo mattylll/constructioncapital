@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bognor-regis-sussex-property-market",
   title: "Bognor Regis Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bognor Regis House Prices 2026 - Property Market Data & Development Finance | Sussex",
-  metaDescription: "Bognor Regis property prices: median £335,000, 1,996 sales, -2.9% YoY. Detached £500,000, Flat £170,000. Land Registry data for Bognor Regis, Sussex.",
+  metaTitle: "Bognor Regis House Prices 2026: £335,000 Median",
+  metaDescription: "Bognor Regis house prices 2026: £335,000 median, 1,996 sales, -2.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £335,000, 1,996 sales, -2.9% YoY. Sussex county.",
   category: "town",
   region: "London & South East",

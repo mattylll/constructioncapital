@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "barnstaple-devon-property-market",
   title: "Barnstaple Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Barnstaple House Prices 2026 - Property Market Data & Development Finance | Devon",
-  metaDescription: "Barnstaple property prices: median £290,000, 1,088 sales, -1% YoY. Detached £380,000, Flat £167,750. Land Registry data for Barnstaple, Devon.",
+  metaTitle: "Barnstaple House Prices 2026: £290,000 Median",
+  metaDescription: "Barnstaple house prices 2026: £290,000 median, 1,088 sales, -1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £290,000, 1,088 sales, -1% YoY. Devon county.",
   category: "town",
   region: "South West",

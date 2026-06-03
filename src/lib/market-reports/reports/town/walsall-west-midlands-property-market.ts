@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "walsall-west-midlands-property-market",
   title: "Walsall Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Walsall House Prices 2026 - Property Market Data & Development Finance | West Midlands",
-  metaDescription: "Walsall property prices: median £210,000, 2,071 sales, 0% YoY. Detached £347,498, Flat £118,000. Land Registry data for Walsall, West Midlands.",
+  metaTitle: "Walsall House Prices 2026: £210,000 Median",
+  metaDescription: "Walsall house prices 2026: £210,000 median, 2,071 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £210,000, 2,071 sales, 0% YoY. West Midlands county.",
   category: "town",
   region: "Midlands",

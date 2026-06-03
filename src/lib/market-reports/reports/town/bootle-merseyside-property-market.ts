@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bootle-merseyside-property-market",
   title: "Bootle Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bootle House Prices 2026 - Property Market Data & Development Finance | Merseyside",
-  metaDescription: "Bootle property prices: median £137,950, 402 sales, +15% YoY. Detached £240,000, Flat £63,665. Land Registry data for Bootle, Merseyside.",
+  metaTitle: "Bootle House Prices 2026: £137,950 Median",
+  metaDescription: "Bootle house prices 2026: £137,950 median, 402 sales, +15% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £137,950, 402 sales, +15% YoY. Merseyside county.",
   category: "town",
   region: "North West",

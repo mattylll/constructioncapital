@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "knaresborough-north-yorkshire-property-market",
   title: "Knaresborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Knaresborough House Prices 2026 - Property Market Data & Development Finance | North Yorkshire",
-  metaDescription: "Knaresborough property prices: median £357,000, 225 sales, +6.6% YoY. Detached £490,000, Flat £145,000. Land Registry data for Knaresborough, North Yorkshire.",
+  metaTitle: "Knaresborough House Prices 2026: £357,000 Median",
+  metaDescription: "Knaresborough house prices 2026: £357,000 median, 225 sales, +6.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £357,000, 225 sales, +6.6% YoY. North Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

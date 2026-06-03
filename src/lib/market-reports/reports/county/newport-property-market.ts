@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "newport-property-market",
   title: "Newport Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Newport Property Market Report 2026 - House Prices, Sold Data & Finance",
-  metaDescription: "Newport property market analysis: median price £225,000, 5,792 sales, +0.1% YoY. Town comparisons, new builds & development finance across 5 towns.",
+  metaTitle: "Newport House Prices 2026: £225,000 Median",
+  metaDescription: "Newport house prices 2026: £225,000 median, 5,792 sales, +0.1% YoY. Town-by-town comparison, new-build premiums and development finance.",
   excerpt: "5 towns analysed. Median price £225,000, 5,792 transactions, +0.1% YoY.",
   category: "county",
   region: "Wales",

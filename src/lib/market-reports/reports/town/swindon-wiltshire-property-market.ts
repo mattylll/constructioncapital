@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "swindon-wiltshire-property-market",
   title: "Swindon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Swindon House Prices 2026 - Property Market Data & Development Finance | Wiltshire",
-  metaDescription: "Swindon property prices: median £270,000, 2,449 sales, -1.8% YoY. Detached £422,500, Flat £144,500. Land Registry data for Swindon, Wiltshire.",
+  metaTitle: "Swindon House Prices 2026: £270,000 Median",
+  metaDescription: "Swindon house prices 2026: £270,000 median, 2,449 sales, -1.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £270,000, 2,449 sales, -1.8% YoY. Wiltshire county.",
   category: "town",
   region: "South West",

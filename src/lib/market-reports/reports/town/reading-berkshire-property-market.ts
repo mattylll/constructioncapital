@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "reading-berkshire-property-market",
   title: "Reading Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Reading House Prices 2026 - Property Market Data & Development Finance | Berkshire",
-  metaDescription: "Reading property prices: median £340,000, 1,501 sales, -2.9% YoY. Detached £612,500, Flat £222,500. Land Registry data for Reading, Berkshire.",
+  metaTitle: "Reading House Prices 2026: £340,000 Median",
+  metaDescription: "Reading house prices 2026: £340,000 median, 1,501 sales, -2.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £340,000, 1,501 sales, -2.9% YoY. Berkshire county.",
   category: "town",
   region: "London & South East",

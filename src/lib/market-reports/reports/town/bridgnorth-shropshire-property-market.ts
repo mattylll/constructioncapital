@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bridgnorth-shropshire-property-market",
   title: "Bridgnorth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bridgnorth House Prices 2026 - Property Market Data & Development Finance | Shropshire",
-  metaDescription: "Bridgnorth property prices: median £265,000, 223 sales, -2.8% YoY. Detached £387,500, Flat £150,000. Land Registry data for Bridgnorth, Shropshire.",
+  metaTitle: "Bridgnorth House Prices 2026: £265,000 Median",
+  metaDescription: "Bridgnorth house prices 2026: £265,000 median, 223 sales, -2.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £265,000, 223 sales, -2.8% YoY. Shropshire county.",
   category: "town",
   region: "Midlands",

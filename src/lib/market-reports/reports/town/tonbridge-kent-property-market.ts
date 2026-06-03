@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "tonbridge-kent-property-market",
   title: "Tonbridge Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Tonbridge House Prices 2026 - Property Market Data & Development Finance | Kent",
-  metaDescription: "Tonbridge property prices: median £410,000, 1,316 sales, +1.2% YoY. Detached £625,000, Flat £240,000. Land Registry data for Tonbridge, Kent.",
+  metaTitle: "Tonbridge House Prices 2026: £410,000 Median",
+  metaDescription: "Tonbridge house prices 2026: £410,000 median, 1,316 sales, +1.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £410,000, 1,316 sales, +1.2% YoY. Kent county.",
   category: "town",
   region: "London & South East",

@@ -3,8 +3,8 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "sandy-bedfordshire-property-market",
   title: "Sandy Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sandy House Prices 2026 - Property Market Data & Development Finance | Bedfordshire",
-  metaDescription: "Sandy property prices: median £335,000, 218 sales, +8.1% YoY. Detached £455,000, Flat £137,000. Land Registry data for Sandy, Bedfordshire.",
+  metaTitle: "Sandy House Prices 2026: £335,000 Median",
+  metaDescription: "Sandy house prices 2026: £335,000 median, 218 sales, +8.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
   excerpt: "Median price £335,000, 218 sales, +8.1% YoY. Bedfordshire county.",
   category: "town",
   region: "East of England",
