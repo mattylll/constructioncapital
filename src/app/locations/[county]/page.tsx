@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       ? `, ${agg.avgYoyChange > 0 ? "+" : ""}${agg.avgYoyChange}% YoY`
       : "";
   const desc = agg
-    ? `Development finance in ${countyName}: median property price ${formatPrice(agg.medianPrice)}, ${agg.totalTransactions.toLocaleString("en-GB")} sales${yoyClause}. ${agg.townCount} towns, 100+ lenders.`
+    ? `Development finance, bridging loans & commercial mortgages in ${countyName}: median property price ${formatPrice(agg.medianPrice)}, ${agg.totalTransactions.toLocaleString("en-GB")} sales${yoyClause}. ${agg.townCount} towns, 100+ lenders.`
     : `Find development finance, bridging loans, mezzanine finance and commercial mortgages in ${countyName}. Expert property finance brokers with local knowledge.`;
 
   return {
@@ -507,6 +507,27 @@ return (
                   For a typical {countyName} development with a GDV based on detached home values of {formatPrice(agg.medianByType.D)}, senior development finance of <strong className="text-foreground">{formatPrice(Math.round(agg.medianByType.D * 0.65))}</strong> at 65% LTGDV is achievable. Mezzanine finance can stretch total borrowing to 85-90% of costs, reducing the equity requirement to as little as 10-15%.
                 </p>
               )}
+              <p>
+                Development finance is one route among several in {countyName}. We also arrange{" "}
+                <Link href="/services/bridging-loans" className="underline underline-offset-2" style={{ color: "var(--navy)" }}>bridging loans in {countyName}</Link>{" "}
+                for auction purchases, chain breaks and time-critical acquisitions
+                {towns[0] ? (
+                  <>
+                    , including schemes in{" "}
+                    <Link href={`/locations/${county}/${towns[0].slug}/bridging-loans`} className="underline underline-offset-2" style={{ color: "var(--navy)" }}>{towns[0].name}</Link>
+                  </>
+                ) : null}
+                , with funds released in as little as 7 to 14 days.
+              </p>
+              <p>
+                For investors and owner-occupiers,{" "}
+                <Link href="/services/commercial-mortgages" className="underline underline-offset-2" style={{ color: "var(--navy)" }}>commercial mortgages in {countyName}</Link>{" "}
+                are available up to 75% LTV across office, retail, industrial and mixed-use assets. Where a scheme needs to stretch beyond senior debt,{" "}
+                <Link href="/services/mezzanine-finance" className="underline underline-offset-2" style={{ color: "var(--navy)" }}>mezzanine finance</Link>{" "}
+                and{" "}
+                <Link href="/services/refurbishment-finance" className="underline underline-offset-2" style={{ color: "var(--navy)" }}>refurbishment finance</Link>{" "}
+                complete the toolkit, all from the same {countyName} panel of 100+ lenders.
+              </p>
 
             <div className="not-prose mt-10 grid gap-px border-y sm:grid-cols-2 lg:grid-cols-3" style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}>
               {SERVICES.slice(0, 6).map((service) => (
@@ -558,6 +579,7 @@ return (
         <div className="mt-16 grid gap-px border-y sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}>
             {towns.map((town) => {
               const townAgg = agg?.towns.find(t => t.slug === town.slug);
+
               return (
                 <Link
                   key={town.slug}
