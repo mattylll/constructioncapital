@@ -1204,11 +1204,11 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
     slug: "quantity-surveyor-costs-development",
     title: "Quantity Surveyor Costs: When Lenders Require Independent QS Reports",
     metaTitle: "Quantity Surveyor Costs in Dev Finance | UK Guide",
-    metaDescription: "Lenders often require independent QS reports for UK development finance. Learn what quantity surveyor fees cost, when they are needed, and how to save.",
-    excerpt: "Quantity surveyor reports are frequently required by development finance lenders to verify build costs. This guide explains when a QS report is needed, what it costs, and how to use it to your advantage.",
+    metaDescription: "Lenders often require independent QS reports for UK development finance. Learn what quantity surveyor fees cost, how QS charge, when reports are needed, and how to save.",
+    excerpt: "Quantity surveyor reports are frequently required by development finance lenders to verify build costs. This guide explains when a QS report is needed, what it costs, how quantity surveyors charge, and how to use it to your advantage.",
     category: "hidden-fees",
     datePublished: "2026-02-09",
-    dateModified: "2026-02-09",
+    dateModified: "2026-06-03",
     sections: [
       {
         heading: "Why lenders require independent quantity surveyor reports",
@@ -1228,6 +1228,14 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
           "Some lenders combine the monitoring surveyor and QS roles, appointing a single firm to perform both functions. This can reduce the overall cost because there is less duplication of effort. Where the roles are combined, the per-visit fee is typically £1,000 to £1,800, which is more than a standalone monitoring surveyor visit but less than the cost of two separate professionals. Check with your lender whether combined appointments are available, as this can save £3,000 to £6,000 over the life of a typical project.",
         
           "<table class=\"w-full text-sm border-collapse my-6\"><thead><tr><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Fee Type</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Typical Range</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">When Payable</th><th class=\"text-left py-2 px-3 bg-muted/50 font-semibold border-b\">Negotiable?</th></tr></thead><tbody><tr><td class=\"py-2 px-3 border-b\">Arrangement Fee</td><td class=\"py-2 px-3 border-b\">1-2% of facility</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Valuation Fee</td><td class=\"py-2 px-3 border-b\">&pound;3,000-&pound;7,500</td><td class=\"py-2 px-3 border-b\">Upfront</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Monitoring Surveyor</td><td class=\"py-2 px-3 border-b\">&pound;500-&pound;1,500/visit</td><td class=\"py-2 px-3 border-b\">Per inspection</td><td class=\"py-2 px-3 border-b\">Limited</td></tr><tr><td class=\"py-2 px-3 border-b\">Legal Fees (Lender)</td><td class=\"py-2 px-3 border-b\">&pound;5,000-&pound;15,000</td><td class=\"py-2 px-3 border-b\">On completion</td><td class=\"py-2 px-3 border-b\">No</td></tr><tr><td class=\"py-2 px-3 border-b\">Exit Fee</td><td class=\"py-2 px-3 border-b\">0-1.5% of loan</td><td class=\"py-2 px-3 border-b\">On redemption</td><td class=\"py-2 px-3 border-b\">Yes</td></tr><tr><td class=\"py-2 px-3 border-b\">Extension Fee</td><td class=\"py-2 px-3 border-b\">1-2% + rate increase</td><td class=\"py-2 px-3 border-b\">At extension</td><td class=\"py-2 px-3 border-b\">Limited</td></tr></tbody></table>",
+        ],
+      },
+      {
+        heading: "How quantity surveyors charge: fee structures explained",
+        content: [
+          "Quantity surveyors price their work in one of three ways, and knowing which applies helps you budget accurately. The most common basis for a defined piece of work, such as a lender-required cost review, is a lump sum or fixed fee agreed in advance for a clearly scoped report. This gives certainty of cost and is usually the best basis for a one-off development finance cost review, because you know the charge before you instruct and can enter it as a firm line in your appraisal.",
+          "On larger or full-service appointments, where the QS handles cost planning, procurement, and cost management through the build, fees are often charged as a percentage of the construction cost. Typical percentage fees run from around 1% to 3% of build cost, with the rate falling as the project size rises because the work does not scale in direct proportion to value. On a £1,500,000 build, a 2% full appointment would cost roughly £30,000 across the whole programme, which is a very different commitment from a one-off cost review of £3,000 to £5,000.",
+          "Where the scope is uncertain or advice is needed on an ad hoc basis, quantity surveyors charge on a time basis. Hourly rates in the UK typically range from around £60 to £150 per hour depending on seniority and region, while day rates commonly run from £500 to £1,200. For development finance, we generally advise agreeing a fixed fee for the cost review wherever the scope is clear, so the charge is known up front rather than being an open-ended cost that erodes your contingency."
         ],
       },
       {
@@ -1287,6 +1295,14 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       {
         question: "Should I pay arrangement fees upfront or defer them into the loan?",
         answer: "Deferring arrangement fees into the loan improves your initial cash position but means you pay interest on the fee itself for the duration of the facility. On a 15-month facility at 8.5% p.a., a deferred fee of 25,000 generates approximately 2,656 in additional interest. Model both scenarios to determine which is more cost-effective for your specific project."
+      },
+      {
+        question: "What is the average cost of a quantity surveyor?",
+        answer: "For a lender-required development finance cost review, quantity surveyor fees typically range from £2,500 to £8,000 depending on the size and complexity of the scheme, with most standard residential schemes falling between £3,000 and £5,000. Full-service appointments that run through the build are usually charged as a percentage of construction cost, commonly 1% to 3%, while ad hoc advice is charged at roughly £60 to £150 per hour."
+      },
+      {
+        question: "Is it worth getting a quantity surveyor?",
+        answer: "For most development finance, yes. A QS cost review gives the lender confidence in your build budget and frequently pays for itself: an independent benchmark of your costs can expose overpriced elements and support contractor negotiations, and a well-prepared cost plan can improve the leverage and rate a lender offers. For first-time developers in particular, commissioning a QS report before approaching lenders is one of the most cost-effective ways to strengthen an application."
       }
     ],
   },
