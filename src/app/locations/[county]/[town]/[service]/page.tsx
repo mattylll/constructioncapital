@@ -146,14 +146,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   let title: string;
   let description: string;
   if (townEntity && serviceVariants) {
-    const metaVariant = serviceVariants.meta;
     const countyEntity = getCountyEntity(county);
     const countyForTitle = countyEntity?.primary ?? countyName;
-    title = `${metaVariant} in ${townEntity.primary}, ${countyForTitle}`;
+    // Re-targeted (WS3): use the hook-bearing title pattern so the SEO title
+    // targets the real-volume "[service] [town]" query and carries a CTR hook
+    // (rates/speed), rather than the blander meta-variant form. The distinct
+    // entity H1/H2/neighbourhood treatment still renders on-page, so URL,
+    // title and H1 each keep a fresh phrasing per the Benner method.
+    const titlePattern = SERVICE_TITLE_PATTERNS[service];
+    title = titlePattern
+      ? titlePattern(townEntity.primary, countyForTitle).title
+      : `${serviceVariants.meta} in ${townEntity.primary}, ${countyForTitle}`;
     const descPattern = SERVICE_DESC_PATTERNS[service];
     description = descPattern
       ? descPattern(townEntity.primary, countyForTitle)
-      : `${metaVariant} for property developers and investors in ${townEntity.primary}, ${countyForTitle}. ${serviceData?.shortDesc || ""} 100+ lender panel, 25+ years arranging UK property finance.`;
+      : `${serviceVariants.meta} for property developers and investors in ${townEntity.primary}, ${countyForTitle}. ${serviceData?.shortDesc || ""} 100+ lender panel, 25+ years arranging UK property finance.`;
   } else {
     const titlePattern = SERVICE_TITLE_PATTERNS[service];
     const descPattern = SERVICE_DESC_PATTERNS[service];
