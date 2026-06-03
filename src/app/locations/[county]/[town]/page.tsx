@@ -144,8 +144,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const townName = deslugify(town);
   const sold = getSoldData(county, town);
 
+  const yoyClause =
+    sold && sold.stats.yoyChange !== null
+      ? `, ${sold.stats.yoyChange > 0 ? "+" : ""}${sold.stats.yoyChange}% YoY`
+      : "";
   const desc = sold
-    ? `Development finance in ${townName}, ${countyName}: median price ${formatPrice(sold.stats.medianPrice)}, ${sold.stats.transactionCount12m.toLocaleString("en-GB")} sales, ${sold.stats.yoyChange > 0 ? "+" : ""}${sold.stats.yoyChange}% YoY. Bridging, mezzanine, senior debt from 100+ lenders.`
+    ? `Development finance in ${townName}, ${countyName}: median price ${formatPrice(sold.stats.medianPrice)}, ${sold.stats.transactionCount12m.toLocaleString("en-GB")} sales${yoyClause}. Bridging, mezzanine, senior debt from 100+ lenders.`
     : `Development finance, bridging loans, mezzanine finance and commercial mortgages in ${townName}, ${countyName}. Expert property finance brokers with local knowledge.`;
 
   return {
@@ -349,10 +353,14 @@ return {
             ? [
                 { label: "Median price", value: formatPriceShort(soldData.stats.medianPrice) },
                 { label: "Sales (12m)", value: soldData.stats.transactionCount12m.toLocaleString("en-GB") },
-                {
-                  label: "YoY change",
-                  value: `${soldData.stats.yoyChange > 0 ? "+" : ""}${soldData.stats.yoyChange}%`,
-                },
+                ...(soldData.stats.yoyChange !== null
+                  ? [
+                      {
+                        label: "YoY change",
+                        value: `${soldData.stats.yoyChange > 0 ? "+" : ""}${soldData.stats.yoyChange}%`,
+                      },
+                    ]
+                  : []),
               ]
             : undefined
         }

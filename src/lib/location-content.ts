@@ -916,7 +916,7 @@ export interface OverviewData {
   medianPrice?: number;
   medianByType?: Record<string, number>;
   transactionCount12m?: number;
-  yoyChange?: number;
+  yoyChange?: number | null;
   newBuildCount?: number;
 }
 
@@ -944,8 +944,8 @@ export function getDataDrivenOverview(
     const priceStr = formatPrice(data.medianPrice);
     const volDesc = getVolumeDescription(data.transactionCount12m);
     p1 += ` With a median property price of ${priceStr} and ${data.transactionCount12m.toLocaleString("en-GB")} transactions in the last twelve months, ${townName} represents a ${volDesc} market`;
-    if (data.yoyChange !== undefined) {
-      const direction = data.yoyChange >= 0 ? "up" : "down";
+    if (data.yoyChange != null && data.yoyChange !== 0) {
+      const direction = data.yoyChange > 0 ? "up" : "down";
       p1 += ` with prices ${direction} ${Math.abs(data.yoyChange)}% year-on-year`;
     }
     p1 += ".";
@@ -1019,7 +1019,7 @@ export interface TownFaqData {
   medianPrice?: number;
   medianByType?: Record<string, number>;
   transactionCount12m?: number;
-  yoyChange?: number;
+  yoyChange?: number | null;
   context?: string;
 }
 
@@ -1053,8 +1053,8 @@ export function getTownFaqs(
   // FAQ 2: Good area for development?
   if (data.transactionCount12m) {
     let answer = `${townName} recorded ${data.transactionCount12m.toLocaleString("en-GB")} property transactions in the last 12 months`;
-    if (data.yoyChange !== undefined) {
-      const trend = data.yoyChange >= 0
+    if (data.yoyChange != null && data.yoyChange !== 0) {
+      const trend = data.yoyChange > 0
         ? `with prices up ${data.yoyChange}% year-on-year - suggesting sustained buyer demand`
         : `with prices adjusting ${Math.abs(data.yoyChange)}% year-on-year - creating potential value opportunities for developers`;
       answer += `, ${trend}`;
@@ -1106,7 +1106,7 @@ const SERVICE_DATA_COMMENTARY: Record<string, (townName: string, data: TownFaqDa
     const gdvEst = data.medianByType?.["S"] ? data.medianByType["S"] * 6 : data.medianPrice * 4;
     const vol = data.transactionCount12m ? `${data.transactionCount12m.toLocaleString("en-GB")} sales in the past year` : "active transaction volumes";
     
-return `The ${townName} residential market - with a median price of ${formatPrice(data.medianPrice)} and ${vol} - provides strong comparable evidence for development appraisals. A typical 6-unit scheme here would target a GDV around ${formatPrice(gdvEst)}, with senior development debt available at 60-70% of that figure. ${data.yoyChange !== undefined ? (data.yoyChange >= 0 ? `Year-on-year price growth of ${data.yoyChange}% supports lender confidence in exit valuations.` : `With prices adjusting ${Math.abs(data.yoyChange)}% year-on-year, lenders will apply a cautious GDV assessment - presenting your scheme with strong pre-sale evidence is key.`) : ""}`;
+return `The ${townName} residential market - with a median price of ${formatPrice(data.medianPrice)} and ${vol} - provides strong comparable evidence for development appraisals. A typical 6-unit scheme here would target a GDV around ${formatPrice(gdvEst)}, with senior development debt available at 60-70% of that figure. ${data.yoyChange != null && data.yoyChange !== 0 ? (data.yoyChange > 0 ? `Year-on-year price growth of ${data.yoyChange}% supports lender confidence in exit valuations.` : `With prices adjusting ${Math.abs(data.yoyChange)}% year-on-year, lenders will apply a cautious GDV assessment - presenting your scheme with strong pre-sale evidence is key.`) : ""}`;
   },
   "mezzanine-finance": (townName, data) => {
     if (!data.medianPrice) return null;
@@ -1144,7 +1144,7 @@ return `${townName}'s property market fundamentals - with a median residential v
   "development-exit-finance": (townName, data) => {
     if (!data.medianPrice) return null;
     
-return `For completed developments in ${townName}, where the median sale price is ${formatPrice(data.medianPrice)}, exit finance can significantly reduce your holding costs while units sell. ${data.yoyChange !== undefined && data.yoyChange < 0 ? `In the current market where prices have adjusted ${Math.abs(data.yoyChange)}% year-on-year, having the runway of a lower-cost exit facility is particularly valuable - it prevents forced sales at below-market prices.` : `With a stable local market, exit lenders view ${townName} schemes favourably, typically offering terms that save 2-4% per annum versus rolling over the original development facility.`}`;
+return `For completed developments in ${townName}, where the median sale price is ${formatPrice(data.medianPrice)}, exit finance can significantly reduce your holding costs while units sell. ${data.yoyChange != null && data.yoyChange < 0 ? `In the current market where prices have adjusted ${Math.abs(data.yoyChange)}% year-on-year, having the runway of a lower-cost exit facility is particularly valuable - it prevents forced sales at below-market prices.` : `With a stable local market, exit lenders view ${townName} schemes favourably, typically offering terms that save 2-4% per annum versus rolling over the original development facility.`}`;
   },
 };
 
@@ -1280,7 +1280,7 @@ export function getServiceFaqsWithData(
     if (serviceSlug === "commercial-mortgages") {
       localFaqs.push({
         question: `What yield should I expect on commercial property in ${townName}?`,
-        answer: `Commercial yields in ${townName} vary by property type and tenant quality, but typically range from 5-8% for well-let assets. The area's residential market fundamentals, with a median price of ${formatPrice(data.medianPrice)}${data.yoyChange !== undefined ? ` and ${data.yoyChange >= 0 ? "positive" : "slightly negative"} price movement` : ""}, support local commercial values. Multi-let properties with diversified income streams typically attract the strongest lender appetite and most competitive mortgage terms.`,
+        answer: `Commercial yields in ${townName} vary by property type and tenant quality, but typically range from 5-8% for well-let assets. The area's residential market fundamentals, with a median price of ${formatPrice(data.medianPrice)}${data.yoyChange != null && data.yoyChange !== 0 ? ` and ${data.yoyChange > 0 ? "positive" : "slightly negative"} price movement` : ""}, support local commercial values. Multi-let properties with diversified income streams typically attract the strongest lender appetite and most competitive mortgage terms.`,
       });
     }
   }

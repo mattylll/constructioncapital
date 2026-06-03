@@ -58,8 +58,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const countyName = countyData?.name ?? deslugify(county);
   const agg = countyData ? getCountyAggregateData(county, countyData.towns) : null;
 
+  const yoyClause =
+    agg && agg.avgYoyChange !== null
+      ? `, ${agg.avgYoyChange > 0 ? "+" : ""}${agg.avgYoyChange}% YoY`
+      : "";
   const desc = agg
-    ? `Development finance in ${countyName}: median property price ${formatPrice(agg.medianPrice)}, ${agg.totalTransactions.toLocaleString("en-GB")} sales, ${agg.avgYoyChange > 0 ? "+" : ""}${agg.avgYoyChange}% YoY. ${agg.townCount} towns, 100+ lenders.`
+    ? `Development finance in ${countyName}: median property price ${formatPrice(agg.medianPrice)}, ${agg.totalTransactions.toLocaleString("en-GB")} sales${yoyClause}. ${agg.townCount} towns, 100+ lenders.`
     : `Find development finance, bridging loans, mezzanine finance and commercial mortgages in ${countyName}. Expert property finance brokers with local knowledge.`;
 
   return {
@@ -93,7 +97,11 @@ export default async function CountyPage({ params }: PageProps) {
   // Sort towns for comparison
   const townsByPrice = agg ? [...agg.towns].sort((a, b) => b.medianPrice - a.medianPrice) : [];
   const townsByVolume = agg ? [...agg.towns].sort((a, b) => b.transactionCount12m - a.transactionCount12m) : [];
-  const townsByGrowth = agg ? [...agg.towns].sort((a, b) => b.yoyChange - a.yoyChange) : [];
+  const townsByGrowth = agg
+    ? [...agg.towns]
+        .filter((t) => t.yoyChange !== null)
+        .sort((a, b) => (b.yoyChange ?? 0) - (a.yoyChange ?? 0))
+    : [];
 
   const priceVsNational = agg
     ? agg.medianPrice > NATIONAL_MEDIAN
@@ -151,7 +159,11 @@ export default async function CountyPage({ params }: PageProps) {
     },
     {
       q: `Is ${countyName} a good area for property development?`,
-      a: `${countyName} recorded ${agg.totalTransactions.toLocaleString("en-GB")} sales and ${agg.totalNewBuilds} new-build completions in the past 12 months, with prices ${agg.avgYoyChange > 0 ? "rising" : agg.avgYoyChange === 0 ? "stable" : "softening"} at ${agg.avgYoyChange > 0 ? "+" : ""}${agg.avgYoyChange}% YoY. ${agg.totalTransactions > 5000 ? "This is a deep, liquid market with strong exit confidence." : "Developers should assess local demand carefully but opportunities exist."}`,
+      a: `${countyName} recorded ${agg.totalTransactions.toLocaleString("en-GB")} sales and ${agg.totalNewBuilds} new-build completions in the past 12 months${
+        agg.avgYoyChange !== null
+          ? `, with prices ${agg.avgYoyChange > 0 ? "rising" : agg.avgYoyChange < 0 ? "softening" : "stable"} at ${agg.avgYoyChange > 0 ? "+" : ""}${agg.avgYoyChange}% YoY`
+          : ""
+      }. ${agg.totalTransactions > 5000 ? "This is a deep, liquid market with strong exit confidence." : "Developers should assess local demand carefully but opportunities exist."}`,
     },
   ] : [];
 
@@ -197,10 +209,14 @@ export default async function CountyPage({ params }: PageProps) {
             ? [
                 { label: "Median price", value: formatPriceShort(agg.medianPrice) },
                 { label: "Sales (12m)", value: agg.totalTransactions.toLocaleString("en-GB") },
-                {
-                  label: "YoY change",
-                  value: `${agg.avgYoyChange > 0 ? "+" : ""}${agg.avgYoyChange}%`,
-                },
+                ...(agg.avgYoyChange !== null
+                  ? [
+                      {
+                        label: "YoY change",
+                        value: `${agg.avgYoyChange > 0 ? "+" : ""}${agg.avgYoyChange}%`,
+                      },
+                    ]
+                  : []),
               ]
             : undefined
         }
@@ -243,7 +259,7 @@ export default async function CountyPage({ params }: PageProps) {
               {agg && (
                 <>
                   <p>
-                    The {countyName} property market recorded <strong className="text-foreground">{agg.totalTransactions.toLocaleString("en-GB")}</strong> residential transactions over the past 12 months, with a county-wide median sale price of <strong className="text-foreground">{formatPrice(agg.medianPrice)}</strong> - {priceVsNational}. Prices have shown {agg.avgYoyChange > 0 ? "growth" : agg.avgYoyChange === 0 ? "stability" : "softening"}, with a year-on-year change of <strong className="text-foreground">{agg.avgYoyChange > 0 ? "+" : ""}{agg.avgYoyChange}%</strong> across the county&apos;s {agg.townCount} principal towns.
+                    The {countyName} property market recorded <strong className="text-foreground">{agg.totalTransactions.toLocaleString("en-GB")}</strong> residential transactions over the past 12 months, with a county-wide median sale price of <strong className="text-foreground">{formatPrice(agg.medianPrice)}</strong> - {priceVsNational}.{agg.avgYoyChange !== null ? <> Prices have shown {agg.avgYoyChange > 0 ? "growth" : agg.avgYoyChange < 0 ? "softening" : "stability"}, with a year-on-year change of <strong className="text-foreground">{agg.avgYoyChange > 0 ? "+" : ""}{agg.avgYoyChange}%</strong> across the county&apos;s {agg.townCount} principal towns.</> : <> Coverage spans {agg.townCount} principal towns.</>}
                   </p>
                   {agg.totalNewBuilds > 0 && (
                     <p>
@@ -419,8 +435,8 @@ return (
                         </td>
                         <td className="px-4 py-3 font-semibold text-foreground">{formatPrice(town.medianPrice)}</td>
                         <td className="px-4 py-3 text-muted-foreground">{town.transactionCount12m.toLocaleString("en-GB")}</td>
-                        <td className={`px-4 py-3 font-medium ${town.yoyChange > 0 ? "text-green-600" : town.yoyChange < 0 ? "text-red-500" : "text-muted-foreground"}`}>
-                          {town.yoyChange > 0 ? "+" : ""}{town.yoyChange}%
+                        <td className={`px-4 py-3 font-medium ${town.yoyChange === null ? "text-muted-foreground" : town.yoyChange > 0 ? "text-green-600" : town.yoyChange < 0 ? "text-red-500" : "text-muted-foreground"}`}>
+                          {town.yoyChange === null ? "—" : `${town.yoyChange > 0 ? "+" : ""}${town.yoyChange}%`}
                         </td>
                       </tr>
                     ))}
