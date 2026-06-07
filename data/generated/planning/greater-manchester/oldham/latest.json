@@ -1,23 +1,43 @@
 {
-  "updatedAt": "2026-05-27T00:10:09.542Z",
+  "updatedAt": "2026-06-07T03:30:17.522Z",
   "townSlug": "oldham",
   "countySlug": "greater-manchester",
   "localAuthority": "Oldham Metropolitan Borough Council",
   "source": "idox",
   "summary": {
-    "total": 151,
-    "relevant": 0,
+    "total": 281,
+    "relevant": 1,
     "approved": 0,
-    "pending": 0,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 0,
-    "totalUnits": 0,
+    "pendingUnits": 2,
+    "totalUnits": 2,
     "approvedGdv": 0,
-    "pendingGdv": 0,
-    "totalEstimatedGDV": 0,
+    "pendingGdv": 395000,
+    "totalEstimatedGDV": 395000,
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "PIP/356320/26",
+      "address": "Land Adjacent To 38 Dobcross New Road Dobcross Oldham OL3 5AY",
+      "postcode": "OL3 5AY",
+      "ward": "",
+      "proposal": "Permission in Principle for up to 2 dwellings.",
+      "category": "other_residential",
+      "units": 2,
+      "estimatedGdv": 395000,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "27/05/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFZV69MC03300"
+    }
+  ]
 }

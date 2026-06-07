@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-05-20T16:15:58.942Z",
+  "updatedAt": "2026-06-07T01:10:49.516Z",
   "townSlug": "worthing",
   "countySlug": "sussex",
   "localAuthority": "Adur & Worthing Councils",
   "source": "idox",
   "summary": {
-    "total": 319,
-    "relevant": 0,
+    "total": 306,
+    "relevant": 1,
     "approved": 0,
-    "pending": 0,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
@@ -19,5 +19,25 @@
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "AWDM/0614/26",
+      "address": "Land East Of Shadwells Road At Mash Barn Estate Mash Barn Lane Lancing West Sussex",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Application to Vary Condition 1 (Approved Plans) of previously approved AWDM/0021/22. Amendment: 1. Removal of small single-storey rear extension on 7 housetypes; 2. Internal reconfiguration of Block B; 3. Provision of additional vehicular parking to serve the community use.",
+      "category": "other_residential",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "19/05/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.adur-worthing.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TF9WZJCBN3M00"
+    }
+  ]
 }

@@ -1,23 +1,43 @@
 {
-  "updatedAt": "2026-05-26T19:57:24.626Z",
+  "updatedAt": "2026-06-07T03:24:43.600Z",
   "townSlug": "bolton",
   "countySlug": "greater-manchester",
   "localAuthority": "Bolton Metropolitan Borough Council",
   "source": "idox",
   "summary": {
-    "total": 290,
-    "relevant": 0,
+    "total": 446,
+    "relevant": 1,
     "approved": 0,
-    "pending": 0,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 0,
-    "totalUnits": 0,
+    "pendingUnits": 1,
+    "totalUnits": 1,
     "approvedGdv": 0,
-    "pendingGdv": 0,
-    "totalEstimatedGDV": 0,
+    "pendingGdv": 189000,
+    "totalEstimatedGDV": 189000,
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "00503/26",
+      "address": "Land Between Stopes Road And Salisbury Terrace Stopes Road Bolton BL3 1NW",
+      "postcode": "BL3 1NW",
+      "ward": "",
+      "proposal": "ERECTION OF NO.1 DWELLING",
+      "category": "other_residential",
+      "units": 1,
+      "estimatedGdv": 189000,
+      "status": "Decided",
+      "decision": "Decided",
+      "receivedDate": "19/03/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://paplanning.bolton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TC5J1NDEH3N00"
+    }
+  ]
 }

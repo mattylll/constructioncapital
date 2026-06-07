@@ -1,23 +1,43 @@
 {
-  "updatedAt": "2026-05-26T17:55:10.769Z",
+  "updatedAt": "2026-06-07T03:21:02.489Z",
   "townSlug": "west-bromwich",
   "countySlug": "west-midlands",
   "localAuthority": "Sandwell Metropolitan Borough Council",
   "source": "idox",
   "summary": {
-    "total": 176,
-    "relevant": 0,
+    "total": 272,
+    "relevant": 1,
     "approved": 0,
-    "pending": 0,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 0,
-    "totalUnits": 0,
+    "pendingUnits": 30,
+    "totalUnits": 30,
     "approvedGdv": 0,
-    "pendingGdv": 0,
-    "totalEstimatedGDV": 0,
+    "pendingGdv": 6300000,
+    "totalEstimatedGDV": 6300000,
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "DC/26/71634",
+      "address": "Land Formerly Wednesbury Motors Holyhead Road Wednesbury",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Proposed 30 unit residential development.",
+      "category": "other_residential",
+      "units": 30,
+      "estimatedGdv": 6300000,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://webcaps.sandwell.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TD7YE8NRLLB00"
+    }
+  ]
 }
