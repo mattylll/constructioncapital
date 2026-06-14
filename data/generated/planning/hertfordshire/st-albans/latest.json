@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-06-07T03:57:42.418Z",
+  "updatedAt": "2026-06-14T04:22:16.695Z",
   "townSlug": "st-albans",
   "countySlug": "hertfordshire",
   "localAuthority": "St Albans City and District Council",
   "summary": {
     "total": 50,
-    "relevant": 5,
+    "relevant": 7,
     "approved": 0,
-    "pending": 5,
+    "pending": 7,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 9,
-    "totalUnits": 9,
+    "pendingUnits": 7,
+    "totalUnits": 7,
     "approvedGdv": 0,
-    "pendingGdv": 6615000,
-    "totalEstimatedGDV": 6615000,
+    "pendingGdv": 5445000,
+    "totalEstimatedGDV": 5445000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
     {
       "reference": "5/2026/0935",
-      "address": "54 Roestock Lane Colney Heath, St Albans Hertfordshire Al4 0Qq",
+      "address": "54 Roestock Lane Colney Heath St Albans Hertfordshire Al4 0Qq",
       "postcode": "AL4 0QQ",
       "ward": "Colney Heath",
       "proposal": "Part two storey rear extension to existing dwelling and proposed new single family dwelling to land adjacent to 54 Roestock Lane",
@@ -37,6 +37,25 @@
       "agentName": "Mr K Daustin",
       "agentCompany": "Kda Designs Ltd",
       "sourceUrl": "https://planningapplications.stalbans.gov.uk/planning/search-applications#VIEW?RefType=PBDC&KeyNo=136942"
+    },
+    {
+      "reference": "5/2026/0911",
+      "address": "1 Bentsley Close St Albans Hertfordshire Al4 9Pn",
+      "postcode": "AL4 9PN",
+      "ward": "Marshalswick East & Jersey Farm",
+      "proposal": "Variation of Condition 2 (approved plans) to include solar panels and habitable accommodation in roof of planning application 5/2024/1587 allowed on appeal dated 27/05/2025 for Demolition of the existing dwelling with one replacement dwelling, including a",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Under Consultation",
+      "decision": "PENDING",
+      "receivedDate": "11/05/2026",
+      "decisionDate": "",
+      "applicantName": "Mr and Mr Hislop",
+      "applicantCompany": "",
+      "agentName": "Mr Araco Design Studio Architects Ltd",
+      "agentCompany": "Mr Araco Design Studio Architects Ltd",
+      "sourceUrl": "https://planningapplications.stalbans.gov.uk/planning/search-applications#VIEW?RefType=PBDC&KeyNo=136902"
     },
     {
       "reference": "5/2026/0908",
@@ -58,23 +77,23 @@
       "sourceUrl": "https://planningapplications.stalbans.gov.uk/planning/search-applications#VIEW?RefType=PBDC&KeyNo=136894"
     },
     {
-      "reference": "5/2026/0884",
-      "address": "21 Shirley Road St Albans Hertfordshire Al1 5Es",
-      "postcode": "AL1 5ES",
-      "ward": "St Peters",
-      "proposal": "Creation of two self-contained residential units through internal reconfiguration and extensions to the existing building. The works include a front porch extension, a two-storey side extension, a part two-storey rear extension, and a part single-storey r",
+      "reference": "5/2026/0890",
+      "address": "Land Adjacent The Fairways Ayres End Lane Harpenden Hertfordshire",
+      "postcode": "",
+      "ward": "Sandridge & Wheathampstead",
+      "proposal": "Permission in Principle - Detached single residential unit with associated landscaping works and access to the site",
       "category": "other_relevant",
-      "units": 2,
-      "estimatedGdv": 1170000,
+      "units": null,
+      "estimatedGdv": null,
       "status": "Under Consultation",
       "decision": "PENDING",
       "receivedDate": "06/05/2026",
       "decisionDate": "",
-      "applicantName": "Mr. Azad Hussain",
+      "applicantName": "M Sullivan",
       "applicantCompany": "",
-      "agentName": "Mr Nik Vyas",
-      "agentCompany": "",
-      "sourceUrl": "https://planningapplications.stalbans.gov.uk/planning/search-applications#VIEW?RefType=PBDC&KeyNo=136864"
+      "agentName": "Oguz Uskuri",
+      "agentCompany": "Uskuri Theobald Architects",
+      "sourceUrl": "https://planningapplications.stalbans.gov.uk/planning/search-applications#VIEW?RefType=PBDC&KeyNo=136867"
     },
     {
       "reference": "5/2026/0881",
@@ -113,6 +132,25 @@
       "agentName": "Mr Pravin Patel",
       "agentCompany": "Ppml Consulting Ltd",
       "sourceUrl": "https://planningapplications.stalbans.gov.uk/planning/search-applications#VIEW?RefType=PBDC&KeyNo=136770"
+    },
+    {
+      "reference": "5/2026/0818",
+      "address": "23 Mount Pleasant St Albans Hertfordshire Al3 4Qu",
+      "postcode": "AL3 4QU",
+      "ward": "Verulam",
+      "proposal": "Demolition of existing dwelling and construction of a new dwelling with associated works and new vehicular access",
+      "category": "new_build",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Under Consultation",
+      "decision": "PENDING",
+      "receivedDate": "24/04/2026",
+      "decisionDate": "",
+      "applicantName": "Mr & Mrs A Mccartney",
+      "applicantCompany": "",
+      "agentName": "Mr Ross Middleton",
+      "agentCompany": "CC Town Planning",
+      "sourceUrl": "https://planningapplications.stalbans.gov.uk/planning/search-applications#VIEW?RefType=PBDC&KeyNo=136771"
     }
   ]
 }

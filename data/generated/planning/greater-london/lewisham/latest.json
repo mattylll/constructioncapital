@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-07T01:07:44.332Z",
+  "updatedAt": "2026-06-14T01:08:58.726Z",
   "townSlug": "lewisham",
   "countySlug": "greater-london",
   "localAuthority": "London Borough of Lewisham",
   "source": "idox",
   "summary": {
-    "total": 393,
-    "relevant": 1,
+    "total": 566,
+    "relevant": 0,
     "approved": 0,
-    "pending": 1,
+    "pending": 0,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
@@ -19,25 +19,5 @@
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": [
-    {
-      "reference": "DC/26/143248",
-      "address": "26 HOMECROFT ROAD, LONDON, SE26 5QG",
-      "postcode": "SE26 5QG",
-      "ward": "",
-      "proposal": "Construction of a two-storey house with flat green roof in the rear garden of 26 Homecroft Road S...",
-      "category": "other_residential",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided",
-      "decision": "Decided",
-      "receivedDate": "09/03/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.lewisham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_LEWIS_DCAPR_131171"
-    }
-  ]
+  "pendingApplications": []
 }
