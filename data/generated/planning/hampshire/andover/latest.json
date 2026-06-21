@@ -1,25 +1,44 @@
 {
-  "updatedAt": "2026-06-14T03:20:25.494Z",
+  "updatedAt": "2026-06-21T02:47:11.214Z",
   "townSlug": "andover",
   "countySlug": "hampshire",
   "localAuthority": "Test Valley Borough Council",
   "source": "idox",
   "summary": {
-    "total": 475,
+    "total": 480,
     "relevant": 14,
     "approved": 0,
     "pending": 14,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 1312,
-    "totalUnits": 1312,
+    "pendingUnits": 1422,
+    "totalUnits": 1422,
     "approvedGdv": 0,
-    "pendingGdv": 458801000,
-    "totalEstimatedGDV": 458801000,
+    "pendingGdv": 497301000,
+    "totalEstimatedGDV": 497301000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/01326/SCRS",
+      "address": "Land South Of Castle Lane North Baddesley Southampton Hampshire SO52 9LZ",
+      "postcode": "SO52 9LZ",
+      "ward": "",
+      "proposal": "Screening Opinion under the Town and Country Planning (Environmental Impact Assessment) Regulations 2017 for erection of up to 300 dwellings, with care/employment, retail, SANG and associated access including new vehicular access on to Castle lane, parking, landscaping, open space and infrastructure works",
+      "category": "other_residential",
+      "units": 300,
+      "estimatedGdv": 105000000,
+      "status": "Current",
+      "decision": "Current",
+      "receivedDate": "19/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://view-applications.testvalley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGVKGPQC0PP00"
+    },
     {
       "reference": "26/01245/OUTS",
       "address": "Land At Crawley Hill Crawley Hill West Wellow Hampshire",
@@ -266,25 +285,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://view-applications.testvalley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCIGT3QCJWS00"
-    },
-    {
-      "reference": "26/00538/OUTS",
-      "address": "Land At Packridge Farm Packridge Lane Toothill Hampshire",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Outline planning application for: residential development of up to 190 dwellings, with access from Hoe Lane; the provision of Suitable Alternative Natural Greenspace (SANG), with car parking and access from Packridge Lane; open space, landscaping, drainage and associated infrastructure. All matters reserved except for Access",
-      "category": "other_residential",
-      "units": 190,
-      "estimatedGdv": 66500000,
-      "status": "Current",
-      "decision": "Current",
-      "receivedDate": "16/03/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://view-applications.testvalley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TBZYKZQCJM600"
     }
   ]
 }
