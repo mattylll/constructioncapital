@@ -1,22 +1,94 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.698Z",
+  "updatedAt": "2026-06-23T19:12:06.481Z",
   "townSlug": "henley-on-thames",
   "countySlug": "oxfordshire",
   "stats": {
-    "medianPrice": 650000,
+    "medianPrice": 617500,
     "medianByType": {
-      "D": 1230000,
-      "S": 565000,
-      "T": 555000,
-      "F": 347500
+      "D": 1197500,
+      "S": 575000,
+      "T": 552500,
+      "F": 350000
     },
-    "transactionCount12m": 207,
-    "yoyChange": -11.6,
+    "transactionCount12m": 204,
+    "yoyChange": -16,
     "newBuildCount": 11,
-    "existingCount": 196,
-    "newBuildPremium": -20.4
+    "existingCount": 193,
+    "newBuildPremium": -15.6
   },
   "recentTransactions": [
+    {
+      "price": 465000,
+      "date": "2026-04-20",
+      "postcode": "RG9 1XW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, GRAVETT CLOSE"
+    },
+    {
+      "price": 349000,
+      "date": "2026-04-10",
+      "postcode": "RG9 1UG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1A, DEANFIELD ROAD"
+    },
+    {
+      "price": 705000,
+      "date": "2026-04-10",
+      "postcode": "RG9 1TR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, ANCASTLE GREEN"
+    },
+    {
+      "price": 470000,
+      "date": "2026-04-07",
+      "postcode": "RG9 2HS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "16, FINLAY HOUSE, PHYLLIS COURT DRIVE"
+    },
+    {
+      "price": 635000,
+      "date": "2026-04-01",
+      "postcode": "RG9 2EY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, LUKER AVENUE"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-31",
+      "postcode": "RG9 1LR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 5, BOUGHTON HOUSE, GREEN LANE"
+    },
+    {
+      "price": 950000,
+      "date": "2026-03-26",
+      "postcode": "RG9 5HG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, SHIPLAKE BOTTOM"
+    },
+    {
+      "price": 910000,
+      "date": "2026-03-26",
+      "postcode": "RG9 2DH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, RAVENSCROFT ROAD"
+    },
     {
       "price": 676500,
       "date": "2026-03-24",
@@ -36,6 +108,24 @@
       "address": "7, PEPPARD LANE"
     },
     {
+      "price": 900000,
+      "date": "2026-03-20",
+      "postcode": "RG9 1DP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "163, READING ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-03-20",
+      "postcode": "RG9 5DD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, HIGH STREET"
+    },
+    {
       "price": 255000,
       "date": "2026-03-20",
       "postcode": "RG9 1AJ",
@@ -43,6 +133,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "31, HILL VIEW APARTMENTS, 2, NEWTOWN ROAD"
+    },
+    {
+      "price": 1375000,
+      "date": "2026-03-19",
+      "postcode": "RG9 1JE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "84, ST ANDREWS ROAD"
     },
     {
       "price": 1495000,
@@ -63,6 +162,24 @@
       "address": "ORCHARD LEIGH, ELIZABETH ROAD"
     },
     {
+      "price": 575000,
+      "date": "2026-03-18",
+      "postcode": "RG9 2EE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, GRAVEL HILL"
+    },
+    {
+      "price": 355000,
+      "date": "2026-03-06",
+      "postcode": "RG9 2JH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BADGEMORE LANE"
+    },
+    {
       "price": 900000,
       "date": "2026-03-05",
       "postcode": "RG9 1DG",
@@ -79,123 +196,6 @@
       "newBuild": false,
       "tenure": "L",
       "address": "45B, GAINSBOROUGH CRESCENT"
-    },
-    {
-      "price": 512500,
-      "date": "2026-03-04",
-      "postcode": "RG9 1DB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, PARK ROAD"
-    },
-    {
-      "price": 420000,
-      "date": "2026-03-03",
-      "postcode": "RG9 1HX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "23, DAMER GARDENS"
-    },
-    {
-      "price": 390000,
-      "date": "2026-02-27",
-      "postcode": "RG9 2FH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 6, THE URBAN LOFTS, 4A, KINGS ROAD"
-    },
-    {
-      "price": 345000,
-      "date": "2026-02-27",
-      "postcode": "RG9 2JZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, FAIRMILE"
-    },
-    {
-      "price": 515000,
-      "date": "2026-02-26",
-      "postcode": "RG9 1XW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, GRAVETT CLOSE"
-    },
-    {
-      "price": 460000,
-      "date": "2026-02-25",
-      "postcode": "RG9 2DP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, CLARENCE ROAD"
-    },
-    {
-      "price": 440000,
-      "date": "2026-02-24",
-      "postcode": "RG9 5DH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "YEW TREE COTTAGE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-02-23",
-      "postcode": "RG9 1TE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "135, GREYS ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-02-18",
-      "postcode": "RG9 1EP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, WAR MEMORIAL PLACE"
-    },
-    {
-      "price": 700000,
-      "date": "2026-02-17",
-      "postcode": "RG9 1DN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "110, READING ROAD"
-    },
-    {
-      "price": 1015000,
-      "date": "2026-02-17",
-      "postcode": "RG9 5NH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, HAZEL GROVE"
-    },
-    {
-      "price": 636275,
-      "date": "2026-02-13",
-      "postcode": "RG9 1EB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, NIAGARA ROAD"
-    },
-    {
-      "price": 810000,
-      "date": "2026-02-11",
-      "postcode": "RG9 2FG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "16, GARDINER PLACE"
     }
   ],
   "monthlyHistory": [
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 780000,
-      "transactions": 49
+      "medianPrice": 757500,
+      "transactions": 50
     },
     {
       "month": "2025-04",
@@ -286,13 +286,13 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 780000,
-      "transactions": 21
+      "medianPrice": 825000,
+      "transactions": 22
     },
     {
       "month": "2025-07",
-      "medianPrice": 552500,
-      "transactions": 22
+      "medianPrice": 547500,
+      "transactions": 24
     },
     {
       "month": "2025-08",
@@ -301,18 +301,18 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 740000,
-      "transactions": 28
+      "medianPrice": 780000,
+      "transactions": 27
     },
     {
       "month": "2025-10",
-      "medianPrice": 718000,
-      "transactions": 25
+      "medianPrice": 719000,
+      "transactions": 28
     },
     {
       "month": "2025-11",
-      "medianPrice": 742500,
-      "transactions": 12
+      "medianPrice": 712500,
+      "transactions": 16
     },
     {
       "month": "2025-12",
@@ -321,18 +321,23 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 613000,
-      "transactions": 18
+      "medianPrice": 606000,
+      "transactions": 19
     },
     {
       "month": "2026-02",
-      "medianPrice": 440000,
-      "transactions": 13
+      "medianPrice": 450000,
+      "transactions": 14
     },
     {
       "month": "2026-03",
       "medianPrice": 676500,
-      "transactions": 9
+      "transactions": 17
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 470000,
+      "transactions": 5
     }
   ],
   "quarterlyHistory": [
@@ -358,28 +363,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 727000,
-      "transactions": 110
+      "medianPrice": 719000,
+      "transactions": 111
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 770000,
-      "transactions": 63
+      "medianPrice": 775000,
+      "transactions": 64
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 612500,
-      "transactions": 80
+      "medianPrice": 610000,
+      "transactions": 81
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 695000,
-      "transactions": 55
+      "medianPrice": 697500,
+      "transactions": 62
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 557500,
-      "transactions": 40
+      "transactions": 50
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 470000,
+      "transactions": 5
     }
   ]
 }

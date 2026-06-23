@@ -1,22 +1,139 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.425Z",
+  "updatedAt": "2026-06-23T19:12:08.399Z",
   "townSlug": "consett",
   "countySlug": "county-durham",
   "stats": {
-    "medianPrice": 133000,
+    "medianPrice": 132500,
     "medianByType": {
-      "D": 270500,
-      "S": 141500,
-      "T": 108000,
-      "F": 74000
+      "D": 273500,
+      "S": 140000,
+      "T": 106250,
+      "F": 56000
     },
-    "transactionCount12m": 523,
-    "yoyChange": -5,
-    "newBuildCount": 20,
-    "existingCount": 503,
-    "newBuildPremium": 34.2
+    "transactionCount12m": 491,
+    "yoyChange": -5.4,
+    "newBuildCount": 13,
+    "existingCount": 478,
+    "newBuildPremium": 23
   },
   "recentTransactions": [
+    {
+      "price": 264105,
+      "date": "2026-04-24",
+      "postcode": "DH8 0JF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, OLEY MEADOWS"
+    },
+    {
+      "price": 165000,
+      "date": "2026-04-22",
+      "postcode": "DH8 6LF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, DEWHIRST CLOSE"
+    },
+    {
+      "price": 146000,
+      "date": "2026-04-22",
+      "postcode": "DH8 6NR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, THE AVENUE"
+    },
+    {
+      "price": 93500,
+      "date": "2026-04-14",
+      "postcode": "DH8 7JD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, SHAFTOE CLOSE"
+    },
+    {
+      "price": 142500,
+      "date": "2026-04-13",
+      "postcode": "DH8 9QF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, PARK TERRACE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-04-02",
+      "postcode": "DH8 0BH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, QUEENS ROAD"
+    },
+    {
+      "price": 345000,
+      "date": "2026-04-02",
+      "postcode": "DH8 0EY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, THE TERRACE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-04-02",
+      "postcode": "DH8 8JS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, BARLEY MILL ROAD"
+    },
+    {
+      "price": 215000,
+      "date": "2026-04-01",
+      "postcode": "DH8 0ER",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "58, SNOWS GREEN ROAD"
+    },
+    {
+      "price": 335000,
+      "date": "2026-04-01",
+      "postcode": "DH8 0SG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, BENFIELDSIDE ROAD"
+    },
+    {
+      "price": 236000,
+      "date": "2026-04-01",
+      "postcode": "DH8 5RZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, TEMPLE FORGE MEWS"
+    },
+    {
+      "price": 135000,
+      "date": "2026-03-31",
+      "postcode": "DH8 6PX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, DENESYDE"
+    },
+    {
+      "price": 62000,
+      "date": "2026-03-30",
+      "postcode": "DH8 7RQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, WILLOW CRESCENT"
+    },
     {
       "price": 182000,
       "date": "2026-03-27",
@@ -25,6 +142,33 @@
       "newBuild": false,
       "tenure": "F",
       "address": "4, DOUAI DRIVE"
+    },
+    {
+      "price": 86250,
+      "date": "2026-03-27",
+      "postcode": "DH8 7HE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, DELVEDERE"
+    },
+    {
+      "price": 165000,
+      "date": "2026-03-26",
+      "postcode": "DH8 6NS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, MEADOW RISE"
+    },
+    {
+      "price": 187500,
+      "date": "2026-03-26",
+      "postcode": "DH8 6DE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BALMORAL GROVE"
     },
     {
       "price": 89950,
@@ -36,166 +180,22 @@
       "address": "11, BRIARDALE"
     },
     {
-      "price": 103000,
-      "date": "2026-03-23",
-      "postcode": "DH8 5FB",
+      "price": 125000,
+      "date": "2026-03-24",
+      "postcode": "DH8 5RF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, QUEENS GATE"
+      "address": "41, PALMERSTON STREET"
     },
     {
-      "price": 165000,
-      "date": "2026-03-20",
-      "postcode": "DH8 6EB",
-      "propertyType": "D",
+      "price": 44500,
+      "date": "2026-03-24",
+      "postcode": "DH8 7DJ",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "34, ASH GROVE"
-    },
-    {
-      "price": 110000,
-      "date": "2026-03-18",
-      "postcode": "DH8 5LZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, STEPHEN STREET"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-16",
-      "postcode": "DH8 8BL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, HALLGARTH"
-    },
-    {
-      "price": 440000,
-      "date": "2026-03-12",
-      "postcode": "DH8 5XR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, PARKSIDE"
-    },
-    {
-      "price": 170000,
-      "date": "2026-03-09",
-      "postcode": "DH8 6LT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, EAST VIEW"
-    },
-    {
-      "price": 63000,
-      "date": "2026-03-06",
-      "postcode": "DH8 7JE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, LAMBTON AVENUE"
-    },
-    {
-      "price": 120000,
-      "date": "2026-03-06",
-      "postcode": "DH8 8AT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, PRIESTMAN AVENUE"
-    },
-    {
-      "price": 395000,
-      "date": "2026-03-06",
-      "postcode": "DH8 7EX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WYNGROVE, DELVES LANE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-03-06",
-      "postcode": "DH8 6FF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, GRANARY COURT"
-    },
-    {
-      "price": 144500,
-      "date": "2026-03-06",
-      "postcode": "DH8 6GH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, ROSEMARY CLOSE"
-    },
-    {
-      "price": 187000,
-      "date": "2026-03-06",
-      "postcode": "DH8 8JU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, ALSTON ROAD"
-    },
-    {
-      "price": 80000,
-      "date": "2026-03-05",
-      "postcode": "DH8 5NW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "297, DURHAM ROAD"
-    },
-    {
-      "price": 112500,
-      "date": "2026-03-05",
-      "postcode": "DH8 7DZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "133, CASTLEDENE ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2026-03-05",
-      "postcode": "DH8 6FG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, BRACKENRIGG"
-    },
-    {
-      "price": 60000,
-      "date": "2026-03-04",
-      "postcode": "DH8 7QP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, DUNELM WAY"
-    },
-    {
-      "price": 71000,
-      "date": "2026-03-02",
-      "postcode": "DH8 7NP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, TEMPLE GARDENS"
-    },
-    {
-      "price": 87000,
-      "date": "2026-02-27",
-      "postcode": "DH8 6NQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "100, SHERBURN TERRACE"
+      "tenure": "L",
+      "address": "136, GREENWAYS"
     }
   ],
   "monthlyHistory": [
@@ -271,33 +271,33 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 131500,
-      "transactions": 90
+      "medianPrice": 130000,
+      "transactions": 91
     },
     {
       "month": "2025-04",
       "medianPrice": 140000,
-      "transactions": 48
+      "transactions": 49
     },
     {
       "month": "2025-05",
-      "medianPrice": 140000,
-      "transactions": 73
+      "medianPrice": 138750,
+      "transactions": 74
     },
     {
       "month": "2025-06",
       "medianPrice": 139950,
-      "transactions": 77
+      "transactions": 81
     },
     {
       "month": "2025-07",
-      "medianPrice": 131500,
-      "transactions": 54
+      "medianPrice": 125000,
+      "transactions": 66
     },
     {
       "month": "2025-08",
-      "medianPrice": 136200,
-      "transactions": 61
+      "medianPrice": 135600,
+      "transactions": 62
     },
     {
       "month": "2025-09",
@@ -306,13 +306,13 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 128250,
-      "transactions": 46
+      "medianPrice": 130000,
+      "transactions": 51
     },
     {
       "month": "2025-11",
-      "medianPrice": 122500,
-      "transactions": 44
+      "medianPrice": 125000,
+      "transactions": 49
     },
     {
       "month": "2025-12",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 132500,
-      "transactions": 34
+      "medianPrice": 140000,
+      "transactions": 37
     },
     {
       "month": "2026-03",
-      "medianPrice": 120000,
-      "transactions": 19
+      "medianPrice": 125000,
+      "transactions": 35
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 215000,
+      "transactions": 11
     }
   ],
   "quarterlyHistory": [
@@ -358,28 +363,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 134500,
-      "transactions": 226
+      "medianPrice": 134000,
+      "transactions": 227
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 140000,
-      "transactions": 198
+      "transactions": 204
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 135050,
-      "transactions": 174
+      "medianPrice": 135000,
+      "transactions": 187
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 130000,
-      "transactions": 143
+      "transactions": 153
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 133000,
-      "transactions": 95
+      "medianPrice": 132750,
+      "transactions": 114
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 215000,
+      "transactions": 11
     }
   ]
 }

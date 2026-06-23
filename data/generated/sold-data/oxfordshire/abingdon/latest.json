@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.684Z",
+  "updatedAt": "2026-06-23T19:12:06.468Z",
   "townSlug": "abingdon",
   "countySlug": "oxfordshire",
   "stats": {
-    "medianPrice": 400000,
+    "medianPrice": 395000,
     "medianByType": {
-      "D": 551500,
-      "S": 380000,
-      "T": 318000,
-      "F": 208750
+      "D": 555000,
+      "S": 385000,
+      "T": 317000,
+      "F": 207500
     },
-    "transactionCount12m": 1582,
-    "yoyChange": 1.8,
-    "newBuildCount": 117,
-    "existingCount": 1465,
-    "newBuildPremium": 12.2
+    "transactionCount12m": 1524,
+    "yoyChange": 0,
+    "newBuildCount": 64,
+    "existingCount": 1460,
+    "newBuildPremium": 11.9
   },
   "recentTransactions": [
     {
-      "price": 325000,
-      "date": "2026-03-27",
-      "postcode": "OX14 4GA",
+      "price": 624500,
+      "date": "2026-04-28",
+      "postcode": "OX14 4NQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, APPLEFORD ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-04-28",
+      "postcode": "OX12 0QG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, THE HAWTHORNS"
+      "address": "8, MALLARD WAY"
+    },
+    {
+      "price": 975000,
+      "date": "2026-04-24",
+      "postcode": "OX12 8FS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, WOODLANDS BROOK"
+    },
+    {
+      "price": 444000,
+      "date": "2026-04-24",
+      "postcode": "OX14 3TT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, CURTIS AVENUE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-04-24",
+      "postcode": "OX14 3UX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, HOBBS CLOSE"
+    },
+    {
+      "price": 765000,
+      "date": "2026-04-24",
+      "postcode": "OX14 1XE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, PRINCE GROVE"
     },
     {
       "price": 385000,
-      "date": "2026-03-27",
-      "postcode": "SN6 8EE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, CHARLBURY ROAD"
-    },
-    {
-      "price": 292000,
-      "date": "2026-03-27",
-      "postcode": "OX14 1GN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, LARKHILL HOUSE, CEMETERY ROAD"
-    },
-    {
-      "price": 930000,
-      "date": "2026-03-26",
-      "postcode": "OX13 5JF",
+      "date": "2026-04-23",
+      "postcode": "OX13 5DA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE BEECHES, ENGLANDS LANE"
+      "address": "13, BLANDY AVENUE"
     },
     {
-      "price": 180750,
-      "date": "2026-03-25",
-      "postcode": "OX12 8BL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 1, THE WOOLPACK, 16, CHURCH STREET"
-    },
-    {
-      "price": 86000,
-      "date": "2026-03-25",
-      "postcode": "OX14 5ET",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 24, CYGNET COURT, CALDECOTT ROAD"
-    },
-    {
-      "price": 383000,
-      "date": "2026-03-24",
-      "postcode": "OX14 3TE",
+      "price": 300000,
+      "date": "2026-04-23",
+      "postcode": "SN7 7EQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "62, HAMBLE DRIVE"
+      "address": "29, MERCHANT CRESCENT"
     },
     {
-      "price": 260000,
-      "date": "2026-03-24",
-      "postcode": "OX14 3ZF",
-      "propertyType": "F",
+      "price": 397500,
+      "date": "2026-04-23",
+      "postcode": "OX14 4LT",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "156, THAMES VIEW"
+      "tenure": "F",
+      "address": "2, FISHER CLOSE"
     },
     {
-      "price": 380000,
-      "date": "2026-03-20",
-      "postcode": "OX11 6DG",
+      "price": 285000,
+      "date": "2026-04-22",
+      "postcode": "SN7 8NN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "2B, CHERRY TREE ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-03-20",
-      "postcode": "OX11 6GY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "47, WILLIAMS PLACE, 170, GREENWOOD WAY"
-    },
-    {
-      "price": 275000,
-      "date": "2026-03-20",
-      "postcode": "OX12 9HU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, HISKINS"
-    },
-    {
-      "price": 370000,
-      "date": "2026-03-20",
-      "postcode": "OX14 1JU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, CROSSLANDS DRIVE"
+      "address": "2, ANVIL COURT, FARINGDON ROAD"
     },
     {
       "price": 315000,
-      "date": "2026-03-19",
-      "postcode": "OX12 9DX",
-      "propertyType": "T",
+      "date": "2026-04-21",
+      "postcode": "SN7 7FY",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, GROSVENOR TERRACE"
+      "address": "7, WALKER DRIVE"
     },
     {
-      "price": 215000,
-      "date": "2026-03-19",
-      "postcode": "OX14 5EN",
+      "price": 200000,
+      "date": "2026-04-21",
+      "postcode": "SN7 8SL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "14, ST HELENS MILL HOUSE, ST HELENS WHARF"
+      "address": "FLAT 17, EASTFIELD COURT, CHURCH STREET"
     },
     {
-      "price": 511100,
-      "date": "2026-03-19",
-      "postcode": "OX12 9XN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, MABLY GROVE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-03-19",
-      "postcode": "OX13 5BE",
+      "price": 280000,
+      "date": "2026-04-17",
+      "postcode": "OX11 0PD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, CHERRY TREE CLOSE"
+      "address": "72, NORTH DRIVE"
     },
     {
-      "price": 580000,
-      "date": "2026-03-17",
-      "postcode": "OX13 6FJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, HARDING WAY"
-    },
-    {
-      "price": 908750,
-      "date": "2026-03-17",
-      "postcode": "OX12 9JB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WINDMILL BUNGALOW, ICKLETON ROAD"
-    },
-    {
-      "price": 525000,
-      "date": "2026-03-17",
-      "postcode": "OX12 8HG",
+      "price": 327000,
+      "date": "2026-04-16",
+      "postcode": "OX12 0JX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "52, CHARLTON ROAD"
+      "address": "1, BRAMLEY CLOSE"
     },
     {
-      "price": 340000,
-      "date": "2026-03-16",
-      "postcode": "OX2 9SN",
+      "price": 410000,
+      "date": "2026-04-14",
+      "postcode": "OX14 4HS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CRABTREE LANE"
+    },
+    {
+      "price": 495000,
+      "date": "2026-04-13",
+      "postcode": "OX1 5LL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, POTTLE CLOSE"
+      "address": "9, JACKSON DRIVE"
+    },
+    {
+      "price": 297000,
+      "date": "2026-04-13",
+      "postcode": "OX14 3GA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, JACKMAN CLOSE"
+    },
+    {
+      "price": 217500,
+      "date": "2026-04-10",
+      "postcode": "OX14 5BT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "69, WEST ST HELEN STREET"
+    },
+    {
+      "price": 445000,
+      "date": "2026-04-10",
+      "postcode": "SN7 7TE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, KINGS FARM COTTAGES, MALLINS LANE"
+    },
+    {
+      "price": 307500,
+      "date": "2026-04-10",
+      "postcode": "OX11 6FG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WYNTON CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -251,8 +251,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 400000,
-      "transactions": 251
+      "medianPrice": 401000,
+      "transactions": 252
     },
     {
       "month": "2024-12",
@@ -271,68 +271,73 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 406748,
-      "transactions": 398
+      "medianPrice": 408496,
+      "transactions": 401
     },
     {
       "month": "2025-04",
       "medianPrice": 290000,
-      "transactions": 107
+      "transactions": 108
     },
     {
       "month": "2025-05",
-      "medianPrice": 395000,
-      "transactions": 187
+      "medianPrice": 399745,
+      "transactions": 191
     },
     {
       "month": "2025-06",
-      "medianPrice": 410000,
-      "transactions": 239
+      "medianPrice": 403750,
+      "transactions": 269
     },
     {
       "month": "2025-07",
-      "medianPrice": 430000,
-      "transactions": 193
+      "medianPrice": 427250,
+      "transactions": 204
     },
     {
       "month": "2025-08",
       "medianPrice": 410000,
-      "transactions": 167
+      "transactions": 172
     },
     {
       "month": "2025-09",
-      "medianPrice": 419500,
-      "transactions": 184
+      "medianPrice": 414000,
+      "transactions": 190
     },
     {
       "month": "2025-10",
-      "medianPrice": 387500,
-      "transactions": 166
+      "medianPrice": 400000,
+      "transactions": 178
     },
     {
       "month": "2025-11",
-      "medianPrice": 395000,
-      "transactions": 138
+      "medianPrice": 399750,
+      "transactions": 148
     },
     {
       "month": "2025-12",
-      "medianPrice": 356000,
-      "transactions": 142
+      "medianPrice": 357000,
+      "transactions": 143
     },
     {
       "month": "2026-01",
-      "medianPrice": 373750,
-      "transactions": 92
+      "medianPrice": 372500,
+      "transactions": 95
     },
     {
       "month": "2026-02",
       "medianPrice": 400000,
-      "transactions": 110
+      "transactions": 115
     },
     {
       "month": "2026-03",
-      "medianPrice": 360000,
-      "transactions": 51
+      "medianPrice": 333500,
+      "transactions": 108
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 379000,
+      "transactions": 40
     }
   ],
   "quarterlyHistory": [
@@ -354,32 +359,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 400000,
-      "transactions": 766
+      "transactions": 767
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 395000,
-      "transactions": 812
+      "transactions": 815
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 380000,
-      "transactions": 533
+      "medianPrice": 383748,
+      "transactions": 568
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 419000,
-      "transactions": 544
+      "medianPrice": 415000,
+      "transactions": 566
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 380000,
-      "transactions": 446
+      "medianPrice": 385000,
+      "transactions": 469
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 380000,
-      "transactions": 253
+      "medianPrice": 371250,
+      "transactions": 318
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 379000,
+      "transactions": 40
     }
   ]
 }

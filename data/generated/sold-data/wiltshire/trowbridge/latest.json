@@ -1,208 +1,208 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.168Z",
+  "updatedAt": "2026-06-23T19:12:07.018Z",
   "townSlug": "trowbridge",
   "countySlug": "wiltshire",
   "stats": {
-    "medianPrice": 285000,
+    "medianPrice": 282500,
     "medianByType": {
       "D": 385000,
-      "S": 285000,
-      "T": 232675,
-      "F": 136250
+      "S": 280000,
+      "T": 235000,
+      "F": 138250
     },
-    "transactionCount12m": 625,
-    "yoyChange": 1.8,
-    "newBuildCount": 10,
-    "existingCount": 615,
-    "newBuildPremium": -11.7
+    "transactionCount12m": 635,
+    "yoyChange": 1.3,
+    "newBuildCount": 9,
+    "existingCount": 626,
+    "newBuildPremium": -15.8
   },
   "recentTransactions": [
     {
-      "price": 232850,
-      "date": "2026-03-25",
-      "postcode": "BA14 0BU",
+      "price": 260000,
+      "date": "2026-04-17",
+      "postcode": "BA14 8LZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "102, SEYMOUR ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-04-16",
+      "postcode": "BA14 7HJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, PITMAN AVENUE"
+      "address": "59, HARFORD STREET"
+    },
+    {
+      "price": 450000,
+      "date": "2026-04-16",
+      "postcode": "BA14 6EY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15A, DARK LANE NORTH"
+    },
+    {
+      "price": 600000,
+      "date": "2026-04-15",
+      "postcode": "BA14 6AZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE GRANGE, BRATTON ROAD"
+    },
+    {
+      "price": 265000,
+      "date": "2026-04-14",
+      "postcode": "BA14 6GA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "22, ST. GEORGES COURT, ST GEORGES ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-04-13",
+      "postcode": "BA14 7EN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "79, CORBIN ROAD"
+    },
+    {
+      "price": 670000,
+      "date": "2026-04-13",
+      "postcode": "BA14 7LF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, FULNEY CLOSE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-04-13",
+      "postcode": "BA14 7UE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, MOYLE PARK"
+    },
+    {
+      "price": 200000,
+      "date": "2026-04-13",
+      "postcode": "BA14 0AW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, SURREY PLACE"
+    },
+    {
+      "price": 218500,
+      "date": "2026-04-08",
+      "postcode": "BA14 8RB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, THE BRAMBLES"
+    },
+    {
+      "price": 265000,
+      "date": "2026-04-07",
+      "postcode": "BA14 7PT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, PRINCESS GARDENS"
+    },
+    {
+      "price": 155000,
+      "date": "2026-04-02",
+      "postcode": "BA14 7GS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, GARTH ROAD"
+    },
+    {
+      "price": 100000,
+      "date": "2026-04-01",
+      "postcode": "BA14 8HJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 57, REGAL COURT, BYTHESEA ROAD"
+    },
+    {
+      "price": 195000,
+      "date": "2026-04-01",
+      "postcode": "BA14 7ND",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, HAYES CLOSE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-03-31",
+      "postcode": "BA14 6GT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, PONTEFRACT AVENUE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-03-31",
+      "postcode": "BA14 6HG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, SPIERS PIECE"
     },
     {
       "price": 280000,
-      "date": "2026-03-23",
-      "postcode": "BA14 0LJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, SUMMERDOWN WALK"
-    },
-    {
-      "price": 223000,
-      "date": "2026-03-20",
-      "postcode": "BA14 0BD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, NEWTOWN"
-    },
-    {
-      "price": 228500,
-      "date": "2026-03-20",
-      "postcode": "BA14 0UH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "80, ALDERTON WAY"
-    },
-    {
-      "price": 245000,
-      "date": "2026-03-20",
-      "postcode": "BA14 0PA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "75, ASHMEAD"
-    },
-    {
-      "price": 422500,
-      "date": "2026-03-20",
-      "postcode": "BA14 7QW",
+      "date": "2026-03-30",
+      "postcode": "BA14 7RD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "80, NEWHURST PARK"
+      "address": "3, APSLEY CLOSE"
     },
     {
-      "price": 181500,
-      "date": "2026-03-17",
-      "postcode": "BA14 8UP",
+      "price": 280000,
+      "date": "2026-03-27",
+      "postcode": "BA14 7DD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, GREEN LANE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-03-27",
+      "postcode": "BA14 0UU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, RAMSBURY WALK"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-27",
+      "postcode": "BA14 8WD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "3, THE SLIPWAY"
-    },
-    {
-      "price": 317500,
-      "date": "2026-03-13",
-      "postcode": "BA14 0RX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, WILTSHIRE DRIVE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-13",
-      "postcode": "BA14 0PE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, DRYNHAM ROAD"
-    },
-    {
-      "price": 118000,
-      "date": "2026-03-13",
-      "postcode": "BA14 0JE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 15, ORCHARD HALL, HAWTHORN GROVE"
-    },
-    {
-      "price": 605000,
-      "date": "2026-03-13",
-      "postcode": "BA14 6ES",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, THE BUTTS"
-    },
-    {
-      "price": 285000,
-      "date": "2026-03-13",
-      "postcode": "BA14 7SQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, FOXGLOVE DRIVE"
-    },
-    {
-      "price": 292000,
-      "date": "2026-03-13",
-      "postcode": "BA14 0LH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, HEDDINGTON CLOSE"
-    },
-    {
-      "price": 243000,
-      "date": "2026-03-12",
-      "postcode": "BA14 9NP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ARNOLD NOAD CORNER"
-    },
-    {
-      "price": 417500,
-      "date": "2026-03-12",
-      "postcode": "BA14 9PG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, BLIND LANE"
-    },
-    {
-      "price": 270000,
-      "date": "2026-03-11",
-      "postcode": "BA14 9AY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, CHANTRY COURT"
-    },
-    {
-      "price": 275000,
-      "date": "2026-03-11",
-      "postcode": "BA14 7PT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, PRINCESS GARDENS"
-    },
-    {
-      "price": 462500,
-      "date": "2026-03-10",
-      "postcode": "BA14 6EQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, GULLIVERS LANE"
-    },
-    {
-      "price": 725000,
-      "date": "2026-03-09",
-      "postcode": "BA14 6GY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, KENDALL LANE"
-    },
-    {
-      "price": 485000,
-      "date": "2026-03-09",
-      "postcode": "BA14 6HF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, BARTLETTS MEAD"
+      "address": "22, BLEASE CLOSE"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 251750,
-      "transactions": 42
+      "medianPrice": 255000,
+      "transactions": 41
     },
     {
       "month": "2024-02",
@@ -256,8 +256,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 256750,
-      "transactions": 64
+      "medianPrice": 258500,
+      "transactions": 65
     },
     {
       "month": "2025-01",
@@ -282,17 +282,17 @@
     {
       "month": "2025-05",
       "medianPrice": 275000,
-      "transactions": 48
+      "transactions": 49
     },
     {
       "month": "2025-06",
       "medianPrice": 295000,
-      "transactions": 77
+      "transactions": 81
     },
     {
       "month": "2025-07",
-      "medianPrice": 281500,
-      "transactions": 77
+      "medianPrice": 280000,
+      "transactions": 86
     },
     {
       "month": "2025-08",
@@ -302,44 +302,49 @@
     {
       "month": "2025-09",
       "medianPrice": 250000,
-      "transactions": 57
+      "transactions": 59
     },
     {
       "month": "2025-10",
       "medianPrice": 296000,
-      "transactions": 73
+      "transactions": 75
     },
     {
       "month": "2025-11",
-      "medianPrice": 293000,
-      "transactions": 59
+      "medianPrice": 292500,
+      "transactions": 64
     },
     {
       "month": "2025-12",
       "medianPrice": 277500,
-      "transactions": 62
+      "transactions": 64
     },
     {
       "month": "2026-01",
       "medianPrice": 260000,
-      "transactions": 40
+      "transactions": 41
     },
     {
       "month": "2026-02",
-      "medianPrice": 279000,
-      "transactions": 54
+      "medianPrice": 278000,
+      "transactions": 61
     },
     {
       "month": "2026-03",
-      "medianPrice": 282500,
-      "transactions": 26
+      "medianPrice": 280000,
+      "transactions": 59
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 262500,
+      "transactions": 14
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 255000,
-      "transactions": 171
+      "medianPrice": 255850,
+      "transactions": 170
     },
     {
       "quarter": "2024-Q2",
@@ -353,8 +358,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 272000,
-      "transactions": 241
+      "medianPrice": 273000,
+      "transactions": 242
     },
     {
       "quarter": "2025-Q1",
@@ -364,22 +369,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 280000,
-      "transactions": 160
+      "transactions": 165
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 285000,
-      "transactions": 213
+      "transactions": 224
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 291000,
-      "transactions": 194
+      "medianPrice": 290000,
+      "transactions": 203
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 275500,
-      "transactions": 120
+      "medianPrice": 275000,
+      "transactions": 161
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 262500,
+      "transactions": 14
     }
   ]
 }

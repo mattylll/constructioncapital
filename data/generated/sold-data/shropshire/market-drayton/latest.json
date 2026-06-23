@@ -1,22 +1,121 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.488Z",
+  "updatedAt": "2026-06-23T19:12:07.371Z",
   "townSlug": "market-drayton",
   "countySlug": "shropshire",
   "stats": {
-    "medianPrice": 250000,
+    "medianPrice": 247033,
     "medianByType": {
-      "D": 357375,
-      "S": 218750,
+      "D": 387500,
+      "S": 217250,
       "T": 190000,
-      "F": 115000
+      "F": 120000
     },
-    "transactionCount12m": 237,
-    "yoyChange": -5.4,
-    "newBuildCount": 14,
-    "existingCount": 223,
-    "newBuildPremium": -2
+    "transactionCount12m": 233,
+    "yoyChange": -7.7,
+    "newBuildCount": 11,
+    "existingCount": 222,
+    "newBuildPremium": -1.2
   },
   "recentTransactions": [
+    {
+      "price": 250000,
+      "date": "2026-04-24",
+      "postcode": "TF9 1EJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, SMITHFIELD ROAD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-04-17",
+      "postcode": "TF9 2UD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, SANDBROOK CLOSE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-04-10",
+      "postcode": "TF9 2DX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, LANGLEY DALE"
+    },
+    {
+      "price": 217500,
+      "date": "2026-04-07",
+      "postcode": "TF9 2UD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, SANDBROOK CLOSE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-04-01",
+      "postcode": "TF9 4FG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, SILVER CLOSE"
+    },
+    {
+      "price": 134000,
+      "date": "2026-03-31",
+      "postcode": "TF9 1PY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, HIGH STREET"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-30",
+      "postcode": "TF9 2LH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, ELLAM PIECE"
+    },
+    {
+      "price": 164000,
+      "date": "2026-03-30",
+      "postcode": "TF9 1HD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, LONGLANDS LANE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-03-25",
+      "postcode": "TF9 3DX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, SIMONS ROAD"
+    },
+    {
+      "price": 447000,
+      "date": "2026-03-20",
+      "postcode": "TF9 4AU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, CHAPEL LANE"
+    },
+    {
+      "price": 335000,
+      "date": "2026-03-19",
+      "postcode": "TF9 2FB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHERRY, 2, MOAT HOUSE GARDENS"
+    },
     {
       "price": 195000,
       "date": "2026-03-19",
@@ -72,6 +171,15 @@
       "address": "29, DAMSON FAYRE"
     },
     {
+      "price": 520000,
+      "date": "2026-03-05",
+      "postcode": "TF9 2TH",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HIGH FARM COTTAGE, NEWPORT ROAD"
+    },
+    {
       "price": 230000,
       "date": "2026-03-05",
       "postcode": "TF9 1HG",
@@ -88,114 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "19, GARDEN CITY"
-    },
-    {
-      "price": 660000,
-      "date": "2026-03-03",
-      "postcode": "TF9 3BL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "POOLSTOCK, BISHOPS LANE"
-    },
-    {
-      "price": 420000,
-      "date": "2026-03-03",
-      "postcode": "TF9 3AD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, DRAYTON GROVE"
-    },
-    {
-      "price": 78000,
-      "date": "2026-03-02",
-      "postcode": "TF9 1JA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FLAT 1, SWAN MEWS, CROSS STREET"
-    },
-    {
-      "price": 270000,
-      "date": "2026-02-27",
-      "postcode": "TF9 1HQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, GROVE GARDENS"
-    },
-    {
-      "price": 280000,
-      "date": "2026-02-27",
-      "postcode": "TF9 2DE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, ST MICHAELS WAY"
-    },
-    {
-      "price": 510000,
-      "date": "2026-02-20",
-      "postcode": "TF9 3AG",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "UNIT 87-88, WALLACE WAY"
-    },
-    {
-      "price": 370000,
-      "date": "2026-02-20",
-      "postcode": "TF9 2JT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BROOK HOUSE, CHAPEL LANE"
-    },
-    {
-      "price": 310000,
-      "date": "2026-02-20",
-      "postcode": "TF9 3UQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, PRIORS LANE"
-    },
-    {
-      "price": 245000,
-      "date": "2026-02-20",
-      "postcode": "TF9 1DU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, TERN VIEW"
-    },
-    {
-      "price": 160000,
-      "date": "2026-02-16",
-      "postcode": "TF9 3HT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, OAKFIELD ROAD"
-    },
-    {
-      "price": 180000,
-      "date": "2026-02-13",
-      "postcode": "TF9 1AT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "69, SALISBURY ROAD"
-    },
-    {
-      "price": 565000,
-      "date": "2026-02-13",
-      "postcode": "TF9 1JU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MORNINGSIDE, NEWTOWN"
     }
   ],
   "monthlyHistory": [
@@ -251,8 +251,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 233750,
-      "transactions": 40
+      "medianPrice": 235000,
+      "transactions": 41
     },
     {
       "month": "2024-12",
@@ -286,18 +286,18 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 234000,
-      "transactions": 27
+      "medianPrice": 226000,
+      "transactions": 29
     },
     {
       "month": "2025-07",
-      "medianPrice": 200000,
-      "transactions": 25
+      "medianPrice": 205000,
+      "transactions": 26
     },
     {
       "month": "2025-08",
       "medianPrice": 252500,
-      "transactions": 17
+      "transactions": 19
     },
     {
       "month": "2025-09",
@@ -307,32 +307,37 @@
     {
       "month": "2025-10",
       "medianPrice": 227500,
-      "transactions": 32
+      "transactions": 34
     },
     {
       "month": "2025-11",
-      "medianPrice": 254494,
-      "transactions": 36
+      "medianPrice": 259813,
+      "transactions": 38
     },
     {
       "month": "2025-12",
-      "medianPrice": 343000,
-      "transactions": 22
+      "medianPrice": 346000,
+      "transactions": 23
     },
     {
       "month": "2026-01",
-      "medianPrice": 210500,
-      "transactions": 6
+      "medianPrice": 205000,
+      "transactions": 7
     },
     {
       "month": "2026-02",
-      "medianPrice": 310000,
-      "transactions": 19
+      "medianPrice": 295000,
+      "transactions": 22
     },
     {
       "month": "2026-03",
-      "medianPrice": 237000,
-      "transactions": 11
+      "medianPrice": 236000,
+      "transactions": 18
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 320000,
+      "transactions": 5
     }
   ],
   "quarterlyHistory": [
@@ -353,8 +358,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 267500,
-      "transactions": 118
+      "medianPrice": 270000,
+      "transactions": 119
     },
     {
       "quarter": "2025-Q1",
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 246750,
-      "transactions": 69
+      "medianPrice": 246050,
+      "transactions": 71
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 246250,
-      "transactions": 72
+      "medianPrice": 245000,
+      "transactions": 75
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 259813,
-      "transactions": 90
+      "medianPrice": 265000,
+      "transactions": 95
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 270000,
-      "transactions": 36
+      "medianPrice": 245000,
+      "transactions": 47
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 320000,
+      "transactions": 5
     }
   ]
 }

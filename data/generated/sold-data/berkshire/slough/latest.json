@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.597Z",
+  "updatedAt": "2026-06-23T19:12:06.355Z",
   "townSlug": "slough",
   "countySlug": "berkshire",
   "stats": {
-    "medianPrice": 386000,
+    "medianPrice": 387000,
     "medianByType": {
-      "D": 615000,
-      "S": 454000,
-      "T": 405000,
-      "F": 215000
+      "D": 600000,
+      "S": 453250,
+      "T": 410000,
+      "F": 211000
     },
-    "transactionCount12m": 797,
-    "yoyChange": 2.9,
-    "newBuildCount": 25,
-    "existingCount": 772,
-    "newBuildPremium": -26.9
+    "transactionCount12m": 761,
+    "yoyChange": 3.8,
+    "newBuildCount": 6,
+    "existingCount": 755,
+    "newBuildPremium": 1.4
   },
   "recentTransactions": [
     {
+      "price": 460000,
+      "date": "2026-04-27",
+      "postcode": "SL3 7TN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "119, GOSLING ROAD"
+    },
+    {
+      "price": 442000,
+      "date": "2026-04-24",
+      "postcode": "SL1 2PT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, KINGS ROAD"
+    },
+    {
+      "price": 431000,
+      "date": "2026-04-20",
+      "postcode": "SL2 2AY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, TWIST WAY"
+    },
+    {
+      "price": 417500,
+      "date": "2026-04-15",
+      "postcode": "SL2 1AA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, SALISBURY AVENUE"
+    },
+    {
       "price": 400000,
-      "date": "2026-03-20",
-      "postcode": "SL2 5BG",
+      "date": "2026-04-14",
+      "postcode": "SL1 1RR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, ELLIMAN AVENUE"
+      "address": "24, ALDIN AVENUE SOUTH"
     },
     {
-      "price": 285000,
-      "date": "2026-03-20",
-      "postcode": "SL2 1HW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, SOUTHCROFT"
-    },
-    {
-      "price": 415000,
-      "date": "2026-03-17",
-      "postcode": "SL2 1BQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "144, CANTERBURY AVENUE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-03-13",
-      "postcode": "SL1 2YZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "116, PEARL GARDENS"
-    },
-    {
-      "price": 140000,
-      "date": "2026-03-13",
-      "postcode": "SL1 9BD",
+      "price": 170000,
+      "date": "2026-04-10",
+      "postcode": "SL1 9HD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "15, ADELAIDE CLOSE"
+      "address": "20, CHARLTON CLOSE"
     },
     {
-      "price": 401000,
-      "date": "2026-03-13",
-      "postcode": "SL1 5JQ",
+      "price": 249950,
+      "date": "2026-04-10",
+      "postcode": "SL3 8LY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1, SCHOLARS WALK"
+    },
+    {
+      "price": 525000,
+      "date": "2026-04-08",
+      "postcode": "SL1 3AU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, FIRST CRESCENT"
+    },
+    {
+      "price": 405000,
+      "date": "2026-04-08",
+      "postcode": "SL1 6PB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, LOWESTOFT DRIVE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-04-08",
+      "postcode": "SL3 8LY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "9, SCHOLARS WALK"
+    },
+    {
+      "price": 205000,
+      "date": "2026-04-08",
+      "postcode": "SL1 3AL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "66, RUTLAND AVENUE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-04-02",
+      "postcode": "SL2 1TR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "62, NORTHMEAD ROAD"
+    },
+    {
+      "price": 247500,
+      "date": "2026-04-02",
+      "postcode": "SL1 2AW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "86, UPTON ROAD"
+    },
+    {
+      "price": 356250,
+      "date": "2026-04-02",
+      "postcode": "SL3 8NX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30A, VERNEY ROAD"
+    },
+    {
+      "price": 420000,
+      "date": "2026-04-01",
+      "postcode": "SL2 1SU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, LEWINS WAY"
+      "address": "50, BELMONT"
     },
     {
-      "price": 380000,
-      "date": "2026-03-13",
-      "postcode": "SL1 5HA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "139, BOWER WAY"
-    },
-    {
-      "price": 240000,
-      "date": "2026-03-13",
+      "price": 230000,
+      "date": "2026-03-31",
       "postcode": "SL1 2HY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "13, EDWARDS COURT, CHALVEY PARK"
+      "address": "14, EDWARDS COURT, CHALVEY PARK"
     },
     {
-      "price": 195000,
-      "date": "2026-03-13",
-      "postcode": "SL1 1GN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 16, ELVIAN HOUSE, NIXEY CLOSE"
-    },
-    {
-      "price": 390000,
-      "date": "2026-03-13",
-      "postcode": "SL1 3JD",
+      "price": 418000,
+      "date": "2026-03-31",
+      "postcode": "SL2 1TH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, LITTLEPORT SPUR"
+      "address": "16, GASCONS GROVE"
     },
     {
-      "price": 215000,
-      "date": "2026-03-11",
-      "postcode": "SL1 2EZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "66, ASPECTS COURT"
-    },
-    {
-      "price": 210000,
-      "date": "2026-03-06",
-      "postcode": "SL1 2AN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, DUDLEY COURT, UPTON ROAD"
-    },
-    {
-      "price": 374500,
-      "date": "2026-03-06",
-      "postcode": "SL2 2JP",
-      "propertyType": "T",
+      "price": 620000,
+      "date": "2026-03-31",
+      "postcode": "SL1 6LA",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, VERMONT ROAD"
+      "address": "117, BURNHAM LANE"
     },
     {
-      "price": 245000,
-      "date": "2026-03-06",
-      "postcode": "SL3 8FA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "81, HURRICANE COURT, HERON DRIVE"
-    },
-    {
-      "price": 430000,
-      "date": "2026-03-06",
-      "postcode": "SL3 8SY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "91, TAMAR WAY"
-    },
-    {
-      "price": 162000,
-      "date": "2026-03-06",
-      "postcode": "SL1 2SZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "92, PAXTON AVENUE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-06",
-      "postcode": "SL2 5XF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "477, ROCHFORDS GARDENS"
-    },
-    {
-      "price": 374000,
-      "date": "2026-03-05",
-      "postcode": "SL1 6JR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "85, STANHOPE ROAD"
-    },
-    {
-      "price": 390000,
-      "date": "2026-03-05",
-      "postcode": "SL1 2PS",
+      "price": 395000,
+      "date": "2026-03-30",
+      "postcode": "SL2 2NF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, KINGS ROAD"
+      "address": "17, ST MICHAELS COURT"
     },
     {
-      "price": 371000,
-      "date": "2026-03-04",
-      "postcode": "SL2 1SL",
+      "price": 410000,
+      "date": "2026-03-30",
+      "postcode": "SL2 1AW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, BODMIN AVENUE"
+      "address": "5, CUMBERLAND AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -246,8 +246,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 368000,
-      "transactions": 126
+      "medianPrice": 366000,
+      "transactions": 127
     },
     {
       "month": "2024-11",
@@ -266,13 +266,13 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 375000,
-      "transactions": 117
+      "medianPrice": 373750,
+      "transactions": 118
     },
     {
       "month": "2025-03",
-      "medianPrice": 404664,
-      "transactions": 278
+      "medianPrice": 405000,
+      "transactions": 279
     },
     {
       "month": "2025-04",
@@ -281,58 +281,63 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 375000,
-      "transactions": 88
+      "medianPrice": 371250,
+      "transactions": 94
     },
     {
       "month": "2025-06",
-      "medianPrice": 385000,
-      "transactions": 103
+      "medianPrice": 383500,
+      "transactions": 112
     },
     {
       "month": "2025-07",
       "medianPrice": 377500,
-      "transactions": 90
+      "transactions": 96
     },
     {
       "month": "2025-08",
-      "medianPrice": 380000,
-      "transactions": 87
+      "medianPrice": 377500,
+      "transactions": 90
     },
     {
       "month": "2025-09",
-      "medianPrice": 392500,
-      "transactions": 82
+      "medianPrice": 395000,
+      "transactions": 85
     },
     {
       "month": "2025-10",
       "medianPrice": 400000,
-      "transactions": 108
+      "transactions": 113
     },
     {
       "month": "2025-11",
       "medianPrice": 380000,
-      "transactions": 64
+      "transactions": 70
     },
     {
       "month": "2025-12",
-      "medianPrice": 392500,
-      "transactions": 62
+      "medianPrice": 390000,
+      "transactions": 63
     },
     {
       "month": "2026-01",
-      "medianPrice": 414000,
-      "transactions": 58
+      "medianPrice": 412000,
+      "transactions": 59
     },
     {
       "month": "2026-02",
-      "medianPrice": 387500,
-      "transactions": 74
+      "medianPrice": 380000,
+      "transactions": 79
     },
     {
       "month": "2026-03",
-      "medianPrice": 360500,
-      "transactions": 24
+      "medianPrice": 380000,
+      "transactions": 58
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 400000,
+      "transactions": 15
     }
   ],
   "quarterlyHistory": [
@@ -353,33 +358,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 361500,
-      "transactions": 374
+      "medianPrice": 360500,
+      "transactions": 375
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 393500,
-      "transactions": 500
+      "transactions": 502
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 380250,
-      "transactions": 242
+      "medianPrice": 375000,
+      "transactions": 257
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 385000,
-      "transactions": 259
+      "transactions": 271
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 396250,
-      "transactions": 234
+      "medianPrice": 392500,
+      "transactions": 246
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 385000,
-      "transactions": 156
+      "medianPrice": 390000,
+      "transactions": 196
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 400000,
+      "transactions": 15
     }
   ]
 }

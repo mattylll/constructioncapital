@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.829Z",
+  "updatedAt": "2026-06-23T19:12:07.739Z",
   "townSlug": "rochdale",
   "countySlug": "greater-manchester",
   "stats": {
     "medianPrice": 190000,
     "medianByType": {
-      "D": 340000,
-      "S": 222000,
+      "D": 346500,
+      "S": 221500,
       "T": 155000,
       "F": 116000
     },
-    "transactionCount12m": 2087,
-    "yoyChange": -2.6,
-    "newBuildCount": 27,
-    "existingCount": 2060,
-    "newBuildPremium": 77.1
+    "transactionCount12m": 2079,
+    "yoyChange": -2,
+    "newBuildCount": 13,
+    "existingCount": 2066,
+    "newBuildPremium": 100.5
   },
   "recentTransactions": [
     {
-      "price": 262000,
-      "date": "2026-03-20",
-      "postcode": "OL12 7NT",
+      "price": 174000,
+      "date": "2026-04-24",
+      "postcode": "OL12 0BE",
       "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "21, MARTINS FIELD"
+      "tenure": "F",
+      "address": "6, NETLEY AVENUE"
     },
     {
-      "price": 88500,
-      "date": "2026-03-20",
-      "postcode": "OL11 3NH",
+      "price": 260000,
+      "date": "2026-04-22",
+      "postcode": "OL16 4GF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, GINNELL FARM AVENUE"
+    },
+    {
+      "price": 65000,
+      "date": "2026-04-22",
+      "postcode": "OL11 1AX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "26, WELL STREET"
+    },
+    {
+      "price": 130000,
+      "date": "2026-04-22",
+      "postcode": "M24 5WF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "117, WINDERMERE ROAD"
+    },
+    {
+      "price": 106300,
+      "date": "2026-04-21",
+      "postcode": "M24 6HJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "16, BRUCE STREET"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-20",
-      "postcode": "OL16 4ET",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, GRANGE AVENUE"
-    },
-    {
-      "price": 480000,
-      "date": "2026-03-19",
-      "postcode": "OL11 5YB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "30, MOOR HILL"
-    },
-    {
-      "price": 220000,
-      "date": "2026-03-17",
-      "postcode": "M24 1DS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, OAK AVENUE"
-    },
-    {
-      "price": 80000,
-      "date": "2026-03-17",
-      "postcode": "M24 6AP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "93A, BOARSHAW ROAD"
-    },
-    {
-      "price": 274000,
-      "date": "2026-03-16",
-      "postcode": "M24 5DQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "25, CARMINE FOLD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-16",
-      "postcode": "M24 5DE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "17, KINDER WAY"
-    },
-    {
-      "price": 285000,
-      "date": "2026-03-16",
-      "postcode": "OL16 4RD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "64, CRAIGLANDS"
-    },
-    {
-      "price": 157000,
-      "date": "2026-03-16",
-      "postcode": "OL11 4PY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, SUDLEY ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-13",
-      "postcode": "OL12 9QJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "39, BIRCH ROAD"
-    },
-    {
-      "price": 265000,
-      "date": "2026-03-13",
-      "postcode": "OL10 3LQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, CUMBERLAND AVENUE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-03-13",
-      "postcode": "OL11 2SN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, ARK ROYAL AVENUE"
-    },
-    {
-      "price": 110000,
-      "date": "2026-03-13",
-      "postcode": "OL16 2BX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "90, RAMSAY STREET"
-    },
-    {
-      "price": 185000,
-      "date": "2026-03-12",
-      "postcode": "OL16 2YR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "185, CROXTON AVENUE"
-    },
-    {
-      "price": 135000,
-      "date": "2026-03-12",
-      "postcode": "OL12 6AW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, PRIMROSE STREET"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-11",
-      "postcode": "OL10 2QW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, GOLDCRAFT CLOSE"
+      "address": "APARTMENT 6, HEBERS COURT, WHALLEY ROAD"
     },
     {
       "price": 150000,
-      "date": "2026-03-11",
-      "postcode": "OL10 3AF",
+      "date": "2026-04-21",
+      "postcode": "OL11 3LG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "10, CARTRIDGE STREET"
+      "address": "69, CRESCENT ROAD"
     },
     {
-      "price": 131500,
-      "date": "2026-03-11",
-      "postcode": "OL10 4JS",
+      "price": 205000,
+      "date": "2026-04-20",
+      "postcode": "M24 6EU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, KIRKSTALL ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-04-20",
+      "postcode": "M24 5AL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, BLENCATHRA CLOSE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-04-17",
+      "postcode": "OL12 7GE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, FEARN DENE"
+    },
+    {
+      "price": 196500,
+      "date": "2026-04-17",
+      "postcode": "OL11 5AD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, VIKING STREET"
+    },
+    {
+      "price": 135000,
+      "date": "2026-04-17",
+      "postcode": "M24 2PX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, BREWSTER STREET"
+    },
+    {
+      "price": 250000,
+      "date": "2026-04-17",
+      "postcode": "M24 5DB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "42, TOWNCROFT AVENUE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-04-17",
+      "postcode": "OL11 5JA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, WINSTON AVENUE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-04-17",
+      "postcode": "OL11 2SW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, CHARLTON STREET"
+    },
+    {
+      "price": 190000,
+      "date": "2026-04-15",
+      "postcode": "OL16 4JP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, SYKES STREET"
+    },
+    {
+      "price": 200000,
+      "date": "2026-04-15",
+      "postcode": "OL15 0DZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, STARKEY STREET"
+      "address": "13, WALMSLEY AVENUE"
     },
     {
-      "price": 163000,
-      "date": "2026-03-10",
-      "postcode": "M24 2TQ",
+      "price": 165000,
+      "date": "2026-04-15",
+      "postcode": "OL16 4EQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "33, SUMMERFIELD DRIVE"
+      "address": "38, LADYHOUSE LANE"
+    },
+    {
+      "price": 165000,
+      "date": "2026-04-13",
+      "postcode": "BL9 7JF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "25, BIRCHFIELD AVENUE"
+    },
+    {
+      "price": 362500,
+      "date": "2026-04-10",
+      "postcode": "OL10 2LS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, COLLOP DRIVE"
+    },
+    {
+      "price": 173000,
+      "date": "2026-04-10",
+      "postcode": "OL10 4QN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "31, DERBY STREET"
     }
   ],
   "monthlyHistory": [
@@ -277,62 +277,67 @@
     {
       "month": "2025-04",
       "medianPrice": 175000,
-      "transactions": 168
+      "transactions": 169
     },
     {
       "month": "2025-05",
       "medianPrice": 175000,
-      "transactions": 235
+      "transactions": 239
     },
     {
       "month": "2025-06",
-      "medianPrice": 200000,
-      "transactions": 236
+      "medianPrice": 198000,
+      "transactions": 258
     },
     {
       "month": "2025-07",
-      "medianPrice": 185000,
-      "transactions": 244
+      "medianPrice": 183000,
+      "transactions": 262
     },
     {
       "month": "2025-08",
       "medianPrice": 190000,
-      "transactions": 245
+      "transactions": 247
     },
     {
       "month": "2025-09",
       "medianPrice": 175500,
-      "transactions": 229
+      "transactions": 237
     },
     {
       "month": "2025-10",
-      "medianPrice": 188000,
-      "transactions": 257
+      "medianPrice": 191000,
+      "transactions": 276
     },
     {
       "month": "2025-11",
-      "medianPrice": 188000,
-      "transactions": 201
+      "medianPrice": 189925,
+      "transactions": 220
     },
     {
       "month": "2025-12",
       "medianPrice": 210000,
-      "transactions": 220
+      "transactions": 224
     },
     {
       "month": "2026-01",
       "medianPrice": 180000,
-      "transactions": 125
+      "transactions": 132
     },
     {
       "month": "2026-02",
-      "medianPrice": 198475,
-      "transactions": 158
+      "medianPrice": 199975,
+      "transactions": 172
     },
     {
       "month": "2026-03",
-      "medianPrice": 180250,
-      "transactions": 48
+      "medianPrice": 195000,
+      "transactions": 155
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 190000,
+      "transactions": 55
     }
   ],
   "quarterlyHistory": [
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 180000,
-      "transactions": 639
+      "medianPrice": 178000,
+      "transactions": 666
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 185000,
-      "transactions": 718
+      "transactions": 746
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 195000,
-      "transactions": 678
+      "medianPrice": 195500,
+      "transactions": 720
     },
     {
       "quarter": "2026-Q1",
+      "medianPrice": 194000,
+      "transactions": 459
+    },
+    {
+      "quarter": "2026-Q2",
       "medianPrice": 190000,
-      "transactions": 331
+      "transactions": 55
     }
   ]
 }

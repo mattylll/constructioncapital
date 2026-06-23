@@ -1,218 +1,218 @@
 {
-  "updatedAt": "2026-05-20T15:21:58.912Z",
+  "updatedAt": "2026-06-23T19:12:05.996Z",
   "townSlug": "ashford",
   "countySlug": "kent",
   "stats": {
     "medianPrice": 340000,
     "medianByType": {
       "D": 500000,
-      "S": 335000,
-      "T": 290000,
+      "S": 336000,
+      "T": 287750,
       "F": 175000
     },
-    "transactionCount12m": 1392,
+    "transactionCount12m": 1388,
     "yoyChange": 0,
-    "newBuildCount": 26,
-    "existingCount": 1366,
-    "newBuildPremium": 48.5
+    "newBuildCount": 18,
+    "existingCount": 1370,
+    "newBuildPremium": 46.7
   },
   "recentTransactions": [
     {
-      "price": 505000,
-      "date": "2026-03-26",
-      "postcode": "TN23 3GD",
+      "price": 282000,
+      "date": "2026-04-24",
+      "postcode": "TN23 4NW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, KITHER ROAD"
+    },
+    {
+      "price": 440000,
+      "date": "2026-04-23",
+      "postcode": "CT4 8BN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, ROMNEY POINT"
+      "address": "THE GABLES, LONG HILL"
+    },
+    {
+      "price": 627500,
+      "date": "2026-04-22",
+      "postcode": "TN30 7FB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, BRAMLEY GROVE"
+    },
+    {
+      "price": 287500,
+      "date": "2026-04-20",
+      "postcode": "TN23 5WA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, BRADBRIDGE GREEN"
+    },
+    {
+      "price": 415000,
+      "date": "2026-04-20",
+      "postcode": "TN23 3HR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, ACORN CLOSE"
+    },
+    {
+      "price": 414000,
+      "date": "2026-04-17",
+      "postcode": "TN30 6NJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, SPRINGFIELD AVENUE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-04-17",
+      "postcode": "TN23 4YZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, LANGDALE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-04-17",
+      "postcode": "TN23 5DY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, WEAVERS WAY"
     },
     {
       "price": 320000,
-      "date": "2026-03-24",
-      "postcode": "TN24 0EQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "120, OSBORNE ROAD"
-    },
-    {
-      "price": 277500,
-      "date": "2026-03-24",
-      "postcode": "TN24 8NQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, KENT AVENUE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-03-24",
-      "postcode": "TN30 6DS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, YEW TREE COTTAGE, GRANGE ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-23",
-      "postcode": "TN23 7TF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, TORRINGTON ROAD"
-    },
-    {
-      "price": 510000,
-      "date": "2026-03-20",
-      "postcode": "TN30 6UH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, LAWN CLOSE"
-    },
-    {
-      "price": 620000,
-      "date": "2026-03-20",
-      "postcode": "TN25 5AT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, ORCHARD DRIVE"
-    },
-    {
-      "price": 427500,
-      "date": "2026-03-20",
-      "postcode": "TN25 4HH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ANDERIDA, THE LEES"
-    },
-    {
-      "price": 180000,
-      "date": "2026-03-20",
-      "postcode": "TN23 5GD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, THE BULRUSHES"
-    },
-    {
-      "price": 380000,
-      "date": "2026-03-20",
-      "postcode": "TN30 6PA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, WAYSIDE AVENUE"
-    },
-    {
-      "price": 270000,
-      "date": "2026-03-20",
-      "postcode": "TN23 5GH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, DRAGONFLY CLOSE"
-    },
-    {
-      "price": 293000,
-      "date": "2026-03-20",
-      "postcode": "TN23 5WJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, RYE COURT"
-    },
-    {
-      "price": 305000,
-      "date": "2026-03-18",
-      "postcode": "TN24 0NQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, YEOMAN GARDENS"
-    },
-    {
-      "price": 365000,
-      "date": "2026-03-18",
-      "postcode": "TN25 6RN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "COURT VIEW, LEES ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-03-18",
-      "postcode": "TN25 5ED",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "67, BRIDGE STREET"
-    },
-    {
-      "price": 186000,
-      "date": "2026-03-18",
-      "postcode": "TN23 5YW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, MANORFIELD"
-    },
-    {
-      "price": 1525000,
-      "date": "2026-03-17",
-      "postcode": "TN30 6TL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BIRDS ISLE, GRANGE ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-03-16",
-      "postcode": "TN17 4NE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 2, GREAT MAYTHAM HALL"
-    },
-    {
-      "price": 260000,
-      "date": "2026-03-16",
-      "postcode": "TN24 8ND",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, SUSSEX AVENUE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-03-16",
+      "date": "2026-04-17",
       "postcode": "TN23 3NQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, PARK WOOD CLOSE"
+      "address": "45, PARK WOOD CLOSE"
+    },
+    {
+      "price": 157000,
+      "date": "2026-04-17",
+      "postcode": "TN24 0TZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "40, DRUMMOND GROVE"
+    },
+    {
+      "price": 925000,
+      "date": "2026-04-16",
+      "postcode": "TN27 8NN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MILLVIEW COTTAGE, MILL LANE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-04-16",
+      "postcode": "TN24 0HX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, WILSON CLOSE"
+    },
+    {
+      "price": 282000,
+      "date": "2026-04-15",
+      "postcode": "TN23 4EW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "85, BROOKFIELD ROAD"
+    },
+    {
+      "price": 325000,
+      "date": "2026-04-15",
+      "postcode": "TN17 4LJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, GYBBONS ROAD"
+    },
+    {
+      "price": 512500,
+      "date": "2026-04-15",
+      "postcode": "TN26 3SL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, STONEBRIDGE COTTAGES, FRONT ROAD"
+    },
+    {
+      "price": 225000,
+      "date": "2026-04-13",
+      "postcode": "TN23 3TJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "81, SIR JOHN FOGGE AVENUE"
+    },
+    {
+      "price": 825000,
+      "date": "2026-04-13",
+      "postcode": "TN24 0JF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, LACTON OAST"
+    },
+    {
+      "price": 241000,
+      "date": "2026-04-13",
+      "postcode": "TN23 1LJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "130, GODINTON ROAD"
+    },
+    {
+      "price": 390000,
+      "date": "2026-04-13",
+      "postcode": "TN24 9FW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, RINGLET CLOSE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-04-13",
+      "postcode": "TN25 7BS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, BODIAM AVENUE"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 322000,
-      "transactions": 124
+      "medianPrice": 327500,
+      "transactions": 128
     },
     {
       "month": "2024-02",
-      "medianPrice": 345000,
+      "medianPrice": 350000,
       "transactions": 147
     },
     {
       "month": "2024-03",
       "medianPrice": 330000,
-      "transactions": 191
+      "transactions": 192
     },
     {
       "month": "2024-04",
@@ -231,13 +231,13 @@
     },
     {
       "month": "2024-07",
-      "medianPrice": 317500,
-      "transactions": 188
+      "medianPrice": 315000,
+      "transactions": 189
     },
     {
       "month": "2024-08",
-      "medianPrice": 325000,
-      "transactions": 197
+      "medianPrice": 322500,
+      "transactions": 198
     },
     {
       "month": "2024-09",
@@ -272,74 +272,79 @@
     {
       "month": "2025-03",
       "medianPrice": 361250,
-      "transactions": 296
+      "transactions": 298
     },
     {
       "month": "2025-04",
-      "medianPrice": 305000,
-      "transactions": 89
+      "medianPrice": 302500,
+      "transactions": 90
     },
     {
       "month": "2025-05",
-      "medianPrice": 325000,
-      "transactions": 127
+      "medianPrice": 330000,
+      "transactions": 133
     },
     {
       "month": "2025-06",
-      "medianPrice": 350000,
-      "transactions": 160
+      "medianPrice": 347500,
+      "transactions": 162
     },
     {
       "month": "2025-07",
       "medianPrice": 340000,
-      "transactions": 162
+      "transactions": 175
     },
     {
       "month": "2025-08",
       "medianPrice": 340000,
-      "transactions": 171
+      "transactions": 174
     },
     {
       "month": "2025-09",
-      "medianPrice": 363500,
-      "transactions": 156
+      "medianPrice": 359125,
+      "transactions": 162
     },
     {
       "month": "2025-10",
-      "medianPrice": 350000,
-      "transactions": 157
+      "medianPrice": 351250,
+      "transactions": 170
     },
     {
       "month": "2025-11",
-      "medianPrice": 330000,
-      "transactions": 140
+      "medianPrice": 328098,
+      "transactions": 148
     },
     {
       "month": "2025-12",
       "medianPrice": 335000,
-      "transactions": 122
+      "transactions": 126
     },
     {
       "month": "2026-01",
       "medianPrice": 355000,
-      "transactions": 101
+      "transactions": 103
     },
     {
       "month": "2026-02",
       "medianPrice": 320000,
-      "transactions": 91
+      "transactions": 96
     },
     {
       "month": "2026-03",
-      "medianPrice": 322500,
-      "transactions": 70
+      "medianPrice": 330000,
+      "transactions": 138
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 290000,
+      "transactions": 39
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 330000,
-      "transactions": 462
+      "medianPrice": 333000,
+      "transactions": 467
     },
     {
       "quarter": "2024-Q2",
@@ -348,8 +353,8 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 330500,
-      "transactions": 538
+      "medianPrice": 330000,
+      "transactions": 540
     },
     {
       "quarter": "2024-Q4",
@@ -359,27 +364,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 350000,
-      "transactions": 648
+      "transactions": 650
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 330000,
-      "transactions": 376
+      "transactions": 385
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 345000,
-      "transactions": 489
+      "medianPrice": 343000,
+      "transactions": 511
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 336000,
-      "transactions": 419
+      "medianPrice": 336750,
+      "transactions": 444
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 338750,
-      "transactions": 262
+      "medianPrice": 345000,
+      "transactions": 337
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 290000,
+      "transactions": 39
     }
   ]
 }

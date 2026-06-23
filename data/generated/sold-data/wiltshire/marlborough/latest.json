@@ -1,22 +1,67 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.173Z",
+  "updatedAt": "2026-06-23T19:12:07.025Z",
   "townSlug": "marlborough",
   "countySlug": "wiltshire",
   "stats": {
-    "medianPrice": 440000,
+    "medianPrice": 445000,
     "medianByType": {
-      "D": 640000,
-      "S": 391250,
-      "T": 345000,
-      "F": 161750
+      "D": 660000,
+      "S": 400000,
+      "T": 350000,
+      "F": 163500
     },
-    "transactionCount12m": 225,
-    "yoyChange": -4.3,
+    "transactionCount12m": 226,
+    "yoyChange": -1.1,
     "newBuildCount": 0,
-    "existingCount": 225,
+    "existingCount": 226,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 1950000,
+      "date": "2026-04-10",
+      "postcode": "SN8 3NQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MILTON HOUSE, 7"
+    },
+    {
+      "price": 485000,
+      "date": "2026-04-09",
+      "postcode": "SN8 3EA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "108, CADLEY ROAD"
+    },
+    {
+      "price": 410000,
+      "date": "2026-03-31",
+      "postcode": "SN8 2BW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1B, THE GREEN"
+    },
+    {
+      "price": 900000,
+      "date": "2026-03-31",
+      "postcode": "SN8 1JL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, HYDE LANE"
+    },
+    {
+      "price": 795000,
+      "date": "2026-03-27",
+      "postcode": "SN8 1TN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, HUGHES CLOSE"
+    },
     {
       "price": 558000,
       "date": "2026-03-25",
@@ -25,6 +70,51 @@
       "newBuild": false,
       "tenure": "F",
       "address": "67"
+    },
+    {
+      "price": 299950,
+      "date": "2026-03-20",
+      "postcode": "SN8 2QZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, KNOWLEDGE CRESCENT"
+    },
+    {
+      "price": 265000,
+      "date": "2026-03-19",
+      "postcode": "SN8 3NS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, COSTER VIEW"
+    },
+    {
+      "price": 765000,
+      "date": "2026-03-17",
+      "postcode": "SN8 3PW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, WANSDYKE ROAD"
+    },
+    {
+      "price": 415000,
+      "date": "2026-03-17",
+      "postcode": "SN8 3LT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, SPAINES"
+    },
+    {
+      "price": 517500,
+      "date": "2026-03-16",
+      "postcode": "SN8 3UF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, MANOR ROAD"
     },
     {
       "price": 45000,
@@ -45,6 +135,15 @@
       "address": "54"
     },
     {
+      "price": 975000,
+      "date": "2026-03-13",
+      "postcode": "SN8 2LX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ROMANS HALT"
+    },
+    {
       "price": 400000,
       "date": "2026-03-11",
       "postcode": "SN8 4ET",
@@ -52,6 +151,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "1, FORGE LANE"
+    },
+    {
+      "price": 595000,
+      "date": "2026-03-09",
+      "postcode": "SN8 1PJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, THE ORCHARD, WYE LANE"
     },
     {
       "price": 625000,
@@ -88,114 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "2, WALRONDS CLOSE"
-    },
-    {
-      "price": 340000,
-      "date": "2026-02-23",
-      "postcode": "SN8 3EX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, COOMBE COTTAGES"
-    },
-    {
-      "price": 700000,
-      "date": "2026-02-20",
-      "postcode": "SN8 2TD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, WALRONDS CLOSE"
-    },
-    {
-      "price": 430000,
-      "date": "2026-02-20",
-      "postcode": "SN8 1SG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, HALLAM, SOUTHEND"
-    },
-    {
-      "price": 550000,
-      "date": "2026-02-16",
-      "postcode": "SN8 1AA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14 CARDIGAN HOUSE, AILESBURY COURT, HIGH STREET"
-    },
-    {
-      "price": 445000,
-      "date": "2026-02-13",
-      "postcode": "SN8 2FE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "87, WHITE HORSE ROAD"
-    },
-    {
-      "price": 680000,
-      "date": "2026-02-13",
-      "postcode": "SN8 3EJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, LUDGERSHALL ROAD"
-    },
-    {
-      "price": 405000,
-      "date": "2026-02-12",
-      "postcode": "SN8 2DL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, LOTTAGE ROAD"
-    },
-    {
-      "price": 413000,
-      "date": "2026-02-12",
-      "postcode": "SN8 1NH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, RIVER PARK"
-    },
-    {
-      "price": 117500,
-      "date": "2026-02-11",
-      "postcode": "SN8 1LD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 27, CHURCHILL COURT, KELHAM GARDENS"
-    },
-    {
-      "price": 375000,
-      "date": "2026-02-10",
-      "postcode": "SN8 3TF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5A, WEBBS WAY"
-    },
-    {
-      "price": 750000,
-      "date": "2026-02-06",
-      "postcode": "SN8 2AX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GLEN LYN, BARNFIELD"
-    },
-    {
-      "price": 625000,
-      "date": "2026-02-04",
-      "postcode": "SN8 3EJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16B, LUDGERSHALL ROAD"
     }
   ],
   "monthlyHistory": [
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 450000,
-      "transactions": 51
+      "medianPrice": 440000,
+      "transactions": 52
     },
     {
       "month": "2025-04",
@@ -281,23 +281,23 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 447500,
-      "transactions": 25
+      "medianPrice": 413750,
+      "transactions": 26
     },
     {
       "month": "2025-06",
-      "medianPrice": 412750,
-      "transactions": 18
+      "medianPrice": 410500,
+      "transactions": 21
     },
     {
       "month": "2025-07",
-      "medianPrice": 450000,
-      "transactions": 39
+      "medianPrice": 445000,
+      "transactions": 42
     },
     {
       "month": "2025-08",
-      "medianPrice": 399950,
-      "transactions": 31
+      "medianPrice": 419975,
+      "transactions": 32
     },
     {
       "month": "2025-09",
@@ -306,18 +306,18 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 468000,
-      "transactions": 25
+      "medianPrice": 470625,
+      "transactions": 28
     },
     {
       "month": "2025-11",
       "medianPrice": 452500,
-      "transactions": 22
+      "transactions": 24
     },
     {
       "month": "2025-12",
-      "medianPrice": 415000,
-      "transactions": 17
+      "medianPrice": 398500,
+      "transactions": 18
     },
     {
       "month": "2026-01",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 445000,
-      "transactions": 13
+      "medianPrice": 437500,
+      "transactions": 14
     },
     {
       "month": "2026-03",
       "medianPrice": 558000,
-      "transactions": 7
+      "transactions": 17
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 1217500,
+      "transactions": 2
     }
   ],
   "quarterlyHistory": [
@@ -358,28 +363,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 455000,
-      "transactions": 106
+      "medianPrice": 450000,
+      "transactions": 107
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 412750,
-      "transactions": 48
+      "medianPrice": 396500,
+      "transactions": 52
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 440000,
-      "transactions": 95
+      "transactions": 99
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 452500,
-      "transactions": 64
+      "medianPrice": 461500,
+      "transactions": 70
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 435000,
-      "transactions": 37
+      "medianPrice": 437500,
+      "transactions": 48
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 1217500,
+      "transactions": 2
     }
   ]
 }

@@ -1,21 +1,48 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.933Z",
+  "updatedAt": "2026-06-23T19:12:08.935Z",
   "townSlug": "builth-wells",
   "countySlug": "powys",
   "stats": {
-    "medianPrice": 290000,
+    "medianPrice": 275000,
     "medianByType": {
-      "D": 355000,
+      "D": 367500,
       "S": 280000,
-      "T": 179950
+      "T": 170000
     },
-    "transactionCount12m": 44,
-    "yoyChange": 16,
+    "transactionCount12m": 47,
+    "yoyChange": 7.4,
     "newBuildCount": 0,
-    "existingCount": 44,
+    "existingCount": 47,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 82250,
+      "date": "2026-04-08",
+      "postcode": "LD2 3EX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CLETTWR COTTAGE"
+    },
+    {
+      "price": 132500,
+      "date": "2026-04-08",
+      "postcode": "LD2 3BB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BANK SQUARE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-04-06",
+      "postcode": "LD2 3LE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, DAFFODIL WOOD"
+    },
     {
       "price": 177500,
       "date": "2026-03-20",
@@ -24,6 +51,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "3, WOOL ROW"
+    },
+    {
+      "price": 163000,
+      "date": "2026-03-13",
+      "postcode": "LD2 3RL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, WYE VIEW"
     },
     {
       "price": 385000,
@@ -35,15 +71,6 @@
       "address": "24, CAE CASTELL"
     },
     {
-      "price": 460000,
-      "date": "2026-03-06",
-      "postcode": "LD2 3NW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DOLEGLWYS, GOLF LINKS ROAD"
-    },
-    {
       "price": 212000,
       "date": "2026-03-06",
       "postcode": "LD2 3EJ",
@@ -51,6 +78,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "2, PLEASANT VIEW"
+    },
+    {
+      "price": 460000,
+      "date": "2026-03-06",
+      "postcode": "LD2 3NW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DOLEGLWYS, GOLF LINKS ROAD"
     },
     {
       "price": 420000,
@@ -71,6 +107,15 @@
       "address": "7, PARK ROAD"
     },
     {
+      "price": 222000,
+      "date": "2026-01-21",
+      "postcode": "LD2 3FE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, TROED Y BRYN"
+    },
+    {
       "price": 350000,
       "date": "2025-12-15",
       "postcode": "LD2 3HP",
@@ -89,15 +134,6 @@
       "address": "BROOMFIELD"
     },
     {
-      "price": 179950,
-      "date": "2025-11-25",
-      "postcode": "LD2 3RH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, RAILWAY TERRACE"
-    },
-    {
       "price": 327500,
       "date": "2025-11-25",
       "postcode": "LD2 3DF",
@@ -114,6 +150,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "10, GLANDWR PARK"
+    },
+    {
+      "price": 179950,
+      "date": "2025-11-25",
+      "postcode": "LD2 3RH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, RAILWAY TERRACE"
     },
     {
       "price": 380000,
@@ -150,51 +195,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "4, CHURCH STREET"
-    },
-    {
-      "price": 305000,
-      "date": "2025-10-24",
-      "postcode": "LD2 3BE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, CAE CASTELL"
-    },
-    {
-      "price": 355000,
-      "date": "2025-10-23",
-      "postcode": "LD2 3BE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, CAE CASTELL"
-    },
-    {
-      "price": 327500,
-      "date": "2025-10-23",
-      "postcode": "LD2 3DE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, IRFON ROAD"
-    },
-    {
-      "price": 415000,
-      "date": "2025-10-17",
-      "postcode": "LD2 3EZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ORCHARD BARN"
-    },
-    {
-      "price": 400000,
-      "date": "2025-10-06",
-      "postcode": "LD2 3HE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, HOSPITAL ROAD"
     }
   ],
   "monthlyHistory": [
@@ -285,18 +285,18 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 197500,
-      "transactions": 4
+      "medianPrice": 200000,
+      "transactions": 5
     },
     {
       "month": "2025-07",
-      "medianPrice": 172500,
-      "transactions": 2
+      "medianPrice": 136060,
+      "transactions": 3
     },
     {
       "month": "2025-08",
-      "medianPrice": 355000,
-      "transactions": 9
+      "medianPrice": 320000,
+      "transactions": 10
     },
     {
       "month": "2025-09",
@@ -305,8 +305,8 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 327500,
-      "transactions": 7
+      "medianPrice": 341250,
+      "transactions": 8
     },
     {
       "month": "2025-11",
@@ -320,13 +320,18 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 370000,
-      "transactions": 2
+      "medianPrice": 320000,
+      "transactions": 3
     },
     {
       "month": "2026-03",
-      "medianPrice": 298500,
-      "transactions": 4
+      "medianPrice": 212000,
+      "transactions": 5
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 132500,
+      "transactions": 3
     }
   ],
   "quarterlyHistory": [
@@ -357,23 +362,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 197500,
-      "transactions": 10
+      "medianPrice": 200000,
+      "transactions": 11
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 285000,
-      "transactions": 17
+      "medianPrice": 275000,
+      "transactions": 19
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 305000,
-      "transactions": 15
+      "medianPrice": 316250,
+      "transactions": 16
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 352500,
-      "transactions": 6
+      "medianPrice": 271000,
+      "transactions": 8
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 132500,
+      "transactions": 3
     }
   ]
 }

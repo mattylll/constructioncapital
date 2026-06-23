@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.743Z",
+  "updatedAt": "2026-06-23T19:12:06.532Z",
   "townSlug": "harpenden",
   "countySlug": "hertfordshire",
   "stats": {
-    "medianPrice": 760000,
+    "medianPrice": 790000,
     "medianByType": {
-      "D": 1395000,
-      "S": 850500,
-      "T": 585000,
-      "F": 335000
+      "D": 1320000,
+      "S": 875000,
+      "T": 609000,
+      "F": 342500
     },
-    "transactionCount12m": 311,
-    "yoyChange": -0.7,
+    "transactionCount12m": 306,
+    "yoyChange": 5.3,
     "newBuildCount": 1,
-    "existingCount": 310,
+    "existingCount": 305,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 475000,
+      "date": "2026-04-21",
+      "postcode": "AL5 5NZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, KEATS HOUSE, MILTON ROAD"
+    },
+    {
+      "price": 800000,
+      "date": "2026-04-17",
+      "postcode": "AL5 4EZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, PIGEONWICK"
+    },
+    {
+      "price": 685000,
+      "date": "2026-04-02",
+      "postcode": "AL5 5NB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, HADDON COURT, SHAKESPEARE ROAD"
+    },
+    {
+      "price": 740000,
+      "date": "2026-04-02",
+      "postcode": "AL5 1BQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "154, CRAVELLS ROAD"
+    },
+    {
+      "price": 992500,
+      "date": "2026-04-01",
+      "postcode": "AL5 5TH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, BARNFIELD ROAD"
+    },
+    {
+      "price": 760000,
+      "date": "2026-04-01",
+      "postcode": "AL5 1EG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "91, COLESWOOD ROAD"
+    },
+    {
+      "price": 515000,
+      "date": "2026-04-01",
+      "postcode": "AL5 5HA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "160, LOWER LUTON ROAD"
+    },
+    {
+      "price": 1320000,
+      "date": "2026-03-31",
+      "postcode": "AL5 1JF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, LONG BUFTLERS"
+    },
+    {
+      "price": 975000,
+      "date": "2026-03-31",
+      "postcode": "AL5 1LJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, CHURCHFIELD"
+    },
+    {
+      "price": 251000,
+      "date": "2026-03-23",
+      "postcode": "AL5 4SA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, STATION ROAD"
+    },
     {
       "price": 725600,
       "date": "2026-03-23",
@@ -25,6 +115,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "17, PARK HILL"
+    },
+    {
+      "price": 500000,
+      "date": "2026-03-13",
+      "postcode": "AL5 1ER",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "101, GROVE ROAD"
+    },
+    {
+      "price": 1280000,
+      "date": "2026-03-12",
+      "postcode": "AL5 3QD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, GREEN LAWNS CLOSE"
     },
     {
       "price": 345500,
@@ -88,121 +196,13 @@
       "newBuild": false,
       "tenure": "L",
       "address": "19, ALBANY COURT, MILTON ROAD"
-    },
-    {
-      "price": 315000,
-      "date": "2026-02-27",
-      "postcode": "AL5 1QP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, BOWLING CLOSE"
-    },
-    {
-      "price": 1530000,
-      "date": "2026-02-25",
-      "postcode": "AL5 4QD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, GRANT GARDENS"
-    },
-    {
-      "price": 727500,
-      "date": "2026-02-24",
-      "postcode": "AL5 2BU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, AMENBURY COURT"
-    },
-    {
-      "price": 910000,
-      "date": "2026-02-24",
-      "postcode": "AL5 5SY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, ALZEY GARDENS"
-    },
-    {
-      "price": 835000,
-      "date": "2026-02-20",
-      "postcode": "AL5 5SU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, CHESTERTON AVENUE"
-    },
-    {
-      "price": 900000,
-      "date": "2026-02-19",
-      "postcode": "AL5 5SY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, ALZEY GARDENS"
-    },
-    {
-      "price": 550000,
-      "date": "2026-02-19",
-      "postcode": "AL5 5SL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, BRAMPTON CLOSE"
-    },
-    {
-      "price": 655000,
-      "date": "2026-02-19",
-      "postcode": "AL5 4PA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, HYDE VIEW ROAD"
-    },
-    {
-      "price": 130000,
-      "date": "2026-02-18",
-      "postcode": "AL5 3RA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "59, HOMEDELL HOUSE, ROUNDWOOD LANE"
-    },
-    {
-      "price": 790000,
-      "date": "2026-02-17",
-      "postcode": "AL5 1RJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, CRANBOURNE DRIVE"
-    },
-    {
-      "price": 233000,
-      "date": "2026-02-16",
-      "postcode": "AL5 4NG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "20, LEA WALK"
-    },
-    {
-      "price": 3200000,
-      "date": "2026-02-13",
-      "postcode": "AL5 2ED",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, PARK AVENUE NORTH"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 780952,
-      "transactions": 31
+      "medianPrice": 735476,
+      "transactions": 32
     },
     {
       "month": "2024-02",
@@ -287,32 +287,32 @@
     {
       "month": "2025-06",
       "medianPrice": 687249,
-      "transactions": 34
+      "transactions": 35
     },
     {
       "month": "2025-07",
-      "medianPrice": 820000,
-      "transactions": 39
+      "medianPrice": 775000,
+      "transactions": 41
     },
     {
       "month": "2025-08",
       "medianPrice": 947500,
-      "transactions": 42
+      "transactions": 44
     },
     {
       "month": "2025-09",
-      "medianPrice": 862500,
-      "transactions": 42
+      "medianPrice": 860000,
+      "transactions": 43
     },
     {
       "month": "2025-10",
-      "medianPrice": 931800,
-      "transactions": 32
+      "medianPrice": 910000,
+      "transactions": 35
     },
     {
       "month": "2025-11",
-      "medianPrice": 740000,
-      "transactions": 28
+      "medianPrice": 797500,
+      "transactions": 38
     },
     {
       "month": "2025-12",
@@ -331,15 +331,20 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 725600,
+      "medianPrice": 727800,
+      "transactions": 12
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 740000,
       "transactions": 7
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 805000,
-      "transactions": 93
+      "medianPrice": 792976,
+      "transactions": 94
     },
     {
       "quarter": "2024-Q2",
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 716250,
-      "transactions": 86
+      "medianPrice": 722500,
+      "transactions": 87
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 860000,
-      "transactions": 123
+      "medianPrice": 835000,
+      "transactions": 128
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 795000,
-      "transactions": 90
+      "medianPrice": 800000,
+      "transactions": 103
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 640000,
-      "transactions": 48
+      "medianPrice": 655000,
+      "transactions": 53
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 740000,
+      "transactions": 7
     }
   ]
 }

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.080Z",
+  "updatedAt": "2026-06-23T19:12:06.921Z",
   "townSlug": "truro",
   "countySlug": "cornwall",
   "stats": {
-    "medianPrice": 320000,
+    "medianPrice": 322500,
     "medianByType": {
-      "D": 468000,
+      "D": 455000,
       "S": 300000,
-      "T": 262500,
-      "F": 180000
+      "T": 265000,
+      "F": 181000
     },
     "transactionCount12m": 622,
-    "yoyChange": -1.6,
-    "newBuildCount": 5,
-    "existingCount": 617,
-    "newBuildPremium": 154.7
+    "yoyChange": -1.1,
+    "newBuildCount": 3,
+    "existingCount": 619,
+    "newBuildPremium": -13.2
   },
   "recentTransactions": [
     {
-      "price": 590000,
+      "price": 120000,
+      "date": "2026-04-27",
+      "postcode": "TR1 2RX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, VICTORIA SQUARE"
+    },
+    {
+      "price": 464500,
+      "date": "2026-04-24",
+      "postcode": "TR4 9FX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, ALWIN CLOSE"
+    },
+    {
+      "price": 318000,
+      "date": "2026-04-23",
+      "postcode": "TR1 3JZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, GLOWETH VIEW"
+    },
+    {
+      "price": 245000,
+      "date": "2026-04-17",
+      "postcode": "TR1 3YB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "93, CHYVELAH OPE"
+    },
+    {
+      "price": 60000,
+      "date": "2026-04-15",
+      "postcode": "TR1 2XX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "31, ROBARTES COURT, REDANNICK LANE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-04-15",
+      "postcode": "TR1 3FX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "86, PENWETHERS CRESCENT"
+    },
+    {
+      "price": 415000,
+      "date": "2026-04-13",
+      "postcode": "TR4 8AH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, ATLANTIC WAY"
+    },
+    {
+      "price": 260000,
+      "date": "2026-04-13",
+      "postcode": "TR1 1GP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 35, DEVINGTON HALL, AGAR ROAD"
+    },
+    {
+      "price": 670000,
+      "date": "2026-04-09",
+      "postcode": "TR3 6RS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, TREVALLION PARK"
+    },
+    {
+      "price": 265000,
+      "date": "2026-04-09",
+      "postcode": "TR1 2GS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BOWNDER HYNSHORN"
+    },
+    {
+      "price": 675000,
+      "date": "2026-04-08",
+      "postcode": "TR3 7FR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, MELLINGEY VALLEY"
+    },
+    {
+      "price": 350000,
+      "date": "2026-04-07",
+      "postcode": "TR3 6HF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55A, LANYON ROAD"
+    },
+    {
+      "price": 495000,
+      "date": "2026-04-07",
+      "postcode": "TR4 8LW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, HIGH STREET"
+    },
+    {
+      "price": 700000,
+      "date": "2026-04-07",
+      "postcode": "TR1 1QL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, TRENNICK ROW"
+    },
+    {
+      "price": 230000,
+      "date": "2026-04-02",
+      "postcode": "TR1 1LW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, TRECARNE CLOSE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-03-31",
+      "postcode": "TR1 1JT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, MITCHELL COURT"
+    },
+    {
+      "price": 353000,
+      "date": "2026-03-31",
+      "postcode": "TR3 6UB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, LEAP PARK"
+    },
+    {
+      "price": 875000,
+      "date": "2026-03-31",
+      "postcode": "TR4 8LY",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "COX HILL HOUSE, COX HILL"
+    },
+    {
+      "price": 400000,
+      "date": "2026-03-30",
+      "postcode": "TR3 7JU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SYLVAN CROFT, WESTMOOR CRESCENT"
+    },
+    {
+      "price": 280000,
       "date": "2026-03-27",
-      "postcode": "TR1 1WL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, TREFFRY ROAD"
-    },
-    {
-      "price": 225000,
-      "date": "2026-03-26",
-      "postcode": "TR1 1XR",
+      "postcode": "TR1 2XT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "75, PENAIR VIEW"
-    },
-    {
-      "price": 135000,
-      "date": "2026-03-25",
-      "postcode": "TR1 2LW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 12, THE CLOCKHOUSE, LEMON QUAY"
-    },
-    {
-      "price": 450000,
-      "date": "2026-03-25",
-      "postcode": "TR4 8HH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, WEST END COTTAGES, WEST END"
-    },
-    {
-      "price": 530000,
-      "date": "2026-03-24",
-      "postcode": "TR3 6RJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, DOZMERE"
-    },
-    {
-      "price": 349000,
-      "date": "2026-03-23",
-      "postcode": "TR3 6DH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, POLSTAIN ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-03-23",
-      "postcode": "TR4 8TN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "85, CHARLOTTE CLOSE"
-    },
-    {
-      "price": 415000,
-      "date": "2026-03-20",
-      "postcode": "TR3 6XB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, PARK AN GWARRY"
-    },
-    {
-      "price": 385000,
-      "date": "2026-03-20",
-      "postcode": "TR1 2DA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, DANIELL ROAD"
-    },
-    {
-      "price": 375000,
-      "date": "2026-03-20",
-      "postcode": "TR1 3PZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, HIGHERTOWN"
-    },
-    {
-      "price": 172500,
-      "date": "2026-03-17",
-      "postcode": "TR3 6TX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, HOLLY CLOSE"
-    },
-    {
-      "price": 367500,
-      "date": "2026-03-16",
-      "postcode": "TR1 2FJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, FORDH TALGARREK"
-    },
-    {
-      "price": 315000,
-      "date": "2026-03-13",
-      "postcode": "TR3 6SP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, PENDEEN CRESCENT"
-    },
-    {
-      "price": 155000,
-      "date": "2026-03-12",
-      "postcode": "TR4 8DB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, GOVER CLOSE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-03-12",
-      "postcode": "TR1 2JS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, ASHLEY ROAD"
-    },
-    {
-      "price": 272500,
-      "date": "2026-03-12",
-      "postcode": "TR1 3SE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, TREHAVERNE TERRACE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-10",
-      "postcode": "TR2 4LF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, ST AUSTELL ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-03-06",
-      "postcode": "TR1 1RL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, TREMORVAH COURT, TREVITHICK ROAD"
-    },
-    {
-      "price": 415000,
-      "date": "2026-03-06",
-      "postcode": "TR2 4LY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PERNICKETY"
-    },
-    {
-      "price": 292000,
-      "date": "2026-03-06",
-      "postcode": "TR2 4RS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "VERCOE, FORE STREET"
+      "address": "3, DAVID PENHALIGON WAY"
     }
   ],
   "monthlyHistory": [
@@ -257,7 +257,7 @@
     {
       "month": "2024-12",
       "medianPrice": 325000,
-      "transactions": 85
+      "transactions": 86
     },
     {
       "month": "2025-01",
@@ -281,58 +281,63 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 320000,
-      "transactions": 63
+      "medianPrice": 332500,
+      "transactions": 64
     },
     {
       "month": "2025-06",
       "medianPrice": 320750,
-      "transactions": 64
+      "transactions": 68
     },
     {
       "month": "2025-07",
-      "medianPrice": 327000,
-      "transactions": 75
+      "medianPrice": 323500,
+      "transactions": 80
     },
     {
       "month": "2025-08",
-      "medianPrice": 332500,
-      "transactions": 76
+      "medianPrice": 325000,
+      "transactions": 79
     },
     {
       "month": "2025-09",
       "medianPrice": 325000,
-      "transactions": 67
+      "transactions": 68
     },
     {
       "month": "2025-10",
-      "medianPrice": 313000,
-      "transactions": 65
+      "medianPrice": 322500,
+      "transactions": 73
     },
     {
       "month": "2025-11",
       "medianPrice": 350000,
-      "transactions": 50
+      "transactions": 57
     },
     {
       "month": "2025-12",
-      "medianPrice": 300000,
-      "transactions": 65
+      "medianPrice": 305000,
+      "transactions": 67
     },
     {
       "month": "2026-01",
-      "medianPrice": 307500,
-      "transactions": 54
+      "medianPrice": 310000,
+      "transactions": 55
     },
     {
       "month": "2026-02",
-      "medianPrice": 327500,
+      "medianPrice": 326500,
       "transactions": 44
     },
     {
       "month": "2026-03",
-      "medianPrice": 292000,
-      "transactions": 31
+      "medianPrice": 302500,
+      "transactions": 62
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 340000,
+      "transactions": 15
     }
   ],
   "quarterlyHistory": [
@@ -354,7 +359,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 325000,
-      "transactions": 269
+      "transactions": 270
     },
     {
       "quarter": "2025-Q1",
@@ -364,22 +369,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 300000,
-      "transactions": 163
+      "transactions": 168
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 326000,
-      "transactions": 218
+      "medianPrice": 325000,
+      "transactions": 227
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 317750,
-      "transactions": 180
+      "medianPrice": 330000,
+      "transactions": 197
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 312000,
-      "transactions": 129
+      "transactions": 161
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 340000,
+      "transactions": 15
     }
   ]
 }

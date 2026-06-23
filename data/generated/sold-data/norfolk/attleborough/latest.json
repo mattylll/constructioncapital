@@ -1,22 +1,175 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.563Z",
+  "updatedAt": "2026-06-23T19:12:08.551Z",
   "townSlug": "attleborough",
   "countySlug": "norfolk",
   "stats": {
-    "medianPrice": 266000,
+    "medianPrice": 275000,
     "medianByType": {
-      "D": 342500,
-      "S": 250000,
+      "D": 347500,
+      "S": 247000,
       "T": 207000,
       "F": 130000
     },
-    "transactionCount12m": 246,
-    "yoyChange": -11.3,
-    "newBuildCount": 6,
-    "existingCount": 240,
-    "newBuildPremium": -7.7
+    "transactionCount12m": 236,
+    "yoyChange": -6,
+    "newBuildCount": 1,
+    "existingCount": 235,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 312500,
+      "date": "2026-04-22",
+      "postcode": "NR17 2SJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, VARRICK WAY"
+    },
+    {
+      "price": 550000,
+      "date": "2026-04-13",
+      "postcode": "NR17 1NQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BLENHEIM HOUSE, BUCKENHAM ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-04-13",
+      "postcode": "NR17 2EL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CONNAUGHT COTTAGE, EDENSIDE DRIVE"
+    },
+    {
+      "price": 292000,
+      "date": "2026-04-10",
+      "postcode": "NR17 2AY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MILLERS SQUARE"
+    },
+    {
+      "price": 380000,
+      "date": "2026-04-10",
+      "postcode": "NR17 2BN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CRANBROOK, 9, CONNAUGHT ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-04-10",
+      "postcode": "NR17 1YJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, BLACKTHORN ROAD"
+    },
+    {
+      "price": 252500,
+      "date": "2026-04-08",
+      "postcode": "NR17 2DL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, ST EDMUNDS GATE"
+    },
+    {
+      "price": 430000,
+      "date": "2026-04-02",
+      "postcode": "NR17 1XX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, TEASEL ROAD"
+    },
+    {
+      "price": 295000,
+      "date": "2026-03-31",
+      "postcode": "NR17 2HE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, FAIRFIELD DRIVE"
+    },
+    {
+      "price": 520000,
+      "date": "2026-03-31",
+      "postcode": "NR17 1LL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27A, LONG STREET"
+    },
+    {
+      "price": 120000,
+      "date": "2026-03-30",
+      "postcode": "NR17 2QG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, MELBOURNE MEWS"
+    },
+    {
+      "price": 330000,
+      "date": "2026-03-27",
+      "postcode": "NR17 1YJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, BLACKTHORN ROAD"
+    },
+    {
+      "price": 480000,
+      "date": "2026-03-26",
+      "postcode": "NR17 2DG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, WOODS END"
+    },
+    {
+      "price": 230000,
+      "date": "2026-03-23",
+      "postcode": "NR17 1TE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, POPPY WAY"
+    },
+    {
+      "price": 365000,
+      "date": "2026-03-20",
+      "postcode": "NR17 1GQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, WELLINGTON ROAD"
+    },
+    {
+      "price": 179500,
+      "date": "2026-03-13",
+      "postcode": "NR17 2NJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "117, BESTHORPE ROAD"
+    },
+    {
+      "price": 255000,
+      "date": "2026-03-13",
+      "postcode": "NR17 1LE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CHURCH STREET"
+    },
     {
       "price": 790000,
       "date": "2026-03-13",
@@ -27,6 +180,15 @@
       "address": "83, LONG STREET"
     },
     {
+      "price": 900000,
+      "date": "2026-03-12",
+      "postcode": "NR17 2LE",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MAYFIELD FARMHOUSE, SILVER STREET"
+    },
+    {
       "price": 342500,
       "date": "2026-03-11",
       "postcode": "NR17 1QY",
@@ -34,168 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "13, LAXTON CLOSE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-03-11",
-      "postcode": "NR17 1FF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, WALLER DRIVE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-06",
-      "postcode": "NR17 2SG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, TUMMEL WAY"
-    },
-    {
-      "price": 220000,
-      "date": "2026-03-06",
-      "postcode": "NR17 2HW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, DORSET CLOSE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-03-05",
-      "postcode": "NR17 1HY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, HINGHAM ROAD"
-    },
-    {
-      "price": 177000,
-      "date": "2026-03-03",
-      "postcode": "NR17 2HS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, THORPE DRIVE"
-    },
-    {
-      "price": 205000,
-      "date": "2026-03-02",
-      "postcode": "NR17 1QR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, SORREL DRIVE"
-    },
-    {
-      "price": 310000,
-      "date": "2026-03-02",
-      "postcode": "NR17 2EX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, CEDAR DRIVE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-03-02",
-      "postcode": "NR17 2GA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "21, EDWARDS COURT, QUEENS ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-02-27",
-      "postcode": "NR17 1LD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, RECTORY LANE"
-    },
-    {
-      "price": 212500,
-      "date": "2026-02-27",
-      "postcode": "NR17 2PZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, LAVENDER CLOSE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-02-27",
-      "postcode": "NR17 1GE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, SPITFIRE CLOSE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-02-20",
-      "postcode": "NR17 2JN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, ROSECROFT"
-    },
-    {
-      "price": 196500,
-      "date": "2026-02-19",
-      "postcode": "NR17 1XX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, TEASEL ROAD"
-    },
-    {
-      "price": 330500,
-      "date": "2026-02-19",
-      "postcode": "NR17 2NJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "112, BESTHORPE ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-19",
-      "postcode": "NR17 2NY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MAYDENE, SILVER STREET"
-    },
-    {
-      "price": 64750,
-      "date": "2026-02-16",
-      "postcode": "NR17 1ST",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "15, COWSLIP MEADOW"
-    },
-    {
-      "price": 267000,
-      "date": "2026-02-16",
-      "postcode": "NR17 2SD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, SUNART CLOSE"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-16",
-      "postcode": "NR17 1YA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, NEW ROAD"
     }
   ],
   "monthlyHistory": [
@@ -236,8 +236,8 @@
     },
     {
       "month": "2024-08",
-      "medianPrice": 279975,
-      "transactions": 38
+      "medianPrice": 275000,
+      "transactions": 39
     },
     {
       "month": "2024-09",
@@ -281,13 +281,13 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 250500,
-      "transactions": 26
+      "medianPrice": 251000,
+      "transactions": 27
     },
     {
       "month": "2025-06",
-      "medianPrice": 252500,
-      "transactions": 24
+      "medianPrice": 255000,
+      "transactions": 25
     },
     {
       "month": "2025-07",
@@ -296,8 +296,8 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 284500,
-      "transactions": 24
+      "medianPrice": 265000,
+      "transactions": 26
     },
     {
       "month": "2025-09",
@@ -306,8 +306,8 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 350000,
-      "transactions": 39
+      "medianPrice": 337500,
+      "transactions": 38
     },
     {
       "month": "2025-11",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 260000,
-      "transactions": 19
+      "medianPrice": 262500,
+      "transactions": 20
     },
     {
       "month": "2026-03",
-      "medianPrice": 230000,
-      "transactions": 10
+      "medianPrice": 250000,
+      "transactions": 21
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 346250,
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -348,8 +353,8 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 290000,
-      "transactions": 119
+      "medianPrice": 289975,
+      "transactions": 120
     },
     {
       "quarter": "2024-Q4",
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 257475,
-      "transactions": 66
+      "medianPrice": 259975,
+      "transactions": 68
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 285000,
-      "transactions": 84
+      "transactions": 86
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 285000,
-      "transactions": 85
+      "transactions": 84
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 250000,
-      "transactions": 40
+      "medianPrice": 257500,
+      "transactions": 52
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 346250,
+      "transactions": 8
     }
   ]
 }

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.047Z",
+  "updatedAt": "2026-06-23T19:12:07.973Z",
   "townSlug": "crewe",
   "countySlug": "cheshire",
   "stats": {
-    "medianPrice": 208000,
+    "medianPrice": 210000,
     "medianByType": {
-      "D": 345000,
-      "S": 200000,
-      "T": 125000,
-      "F": 96000
+      "D": 347250,
+      "S": 203500,
+      "T": 125625,
+      "F": 100000
     },
-    "transactionCount12m": 1255,
-    "yoyChange": 4,
-    "newBuildCount": 18,
-    "existingCount": 1237,
-    "newBuildPremium": 43.4
+    "transactionCount12m": 1193,
+    "yoyChange": 5,
+    "newBuildCount": 12,
+    "existingCount": 1181,
+    "newBuildPremium": 40
   },
   "recentTransactions": [
     {
+      "price": 230000,
+      "date": "2026-04-28",
+      "postcode": "CW1 5JG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, KIPLING WAY"
+    },
+    {
+      "price": 432500,
+      "date": "2026-04-24",
+      "postcode": "CW2 5QW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CORNER COTTAGE, ENGLESEA BROOK LANE"
+    },
+    {
       "price": 250000,
-      "date": "2026-03-26",
-      "postcode": "CW1 5PX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "79, BRADELEY ROAD"
-    },
-    {
-      "price": 190000,
-      "date": "2026-03-20",
-      "postcode": "CW2 8SL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "639, WEST STREET"
-    },
-    {
-      "price": 293000,
-      "date": "2026-03-20",
-      "postcode": "CW1 4NE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "355, STONELEY ROAD"
-    },
-    {
-      "price": 292500,
-      "date": "2026-03-20",
-      "postcode": "CW2 7NE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, FRANKLYN AVENUE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-03-20",
-      "postcode": "CW2 5HU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, KNIGHTS WAY"
-    },
-    {
-      "price": 205000,
-      "date": "2026-03-20",
-      "postcode": "CW1 4NS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "122, BROUGHTON ROAD"
-    },
-    {
-      "price": 83000,
-      "date": "2026-03-20",
-      "postcode": "CW1 3BF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 19, WORSDELL HOUSE, BLOUNT CLOSE"
-    },
-    {
-      "price": 910000,
-      "date": "2026-03-18",
-      "postcode": "CW1 5XF",
+      "date": "2026-04-23",
+      "postcode": "CW1 5SX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "HOLMSHAW FARMHOUSE, HOLMSHAW LANE"
+      "address": "2, MEADOW VIEW, WALDRON ROAD"
     },
     {
-      "price": 492500,
-      "date": "2026-03-18",
-      "postcode": "CW4 7JB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, PORTREE DRIVE"
-    },
-    {
-      "price": 590000,
-      "date": "2026-03-17",
-      "postcode": "CW2 8ET",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11A, WESTFIELD DRIVE"
-    },
-    {
-      "price": 318500,
-      "date": "2026-03-16",
-      "postcode": "CW2 5AQ",
+      "price": 32500,
+      "date": "2026-04-17",
+      "postcode": "CW2 6EY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "276, CREWE ROAD"
+      "address": "92, CLAUGHTON AVENUE"
     },
     {
-      "price": 150000,
-      "date": "2026-03-16",
-      "postcode": "CW1 5PB",
+      "price": 44600,
+      "date": "2026-04-17",
+      "postcode": "CW2 8RN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1C, OAKLAND AVENUE"
+      "address": "36, BOWNESS ROAD"
     },
     {
-      "price": 335000,
-      "date": "2026-03-16",
-      "postcode": "CW2 8QQ",
+      "price": 105000,
+      "date": "2026-04-16",
+      "postcode": "CW1 6DT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, CREWE ROAD"
+    },
+    {
+      "price": 247500,
+      "date": "2026-04-15",
+      "postcode": "CW1 5PG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, KINGSLEY ROAD"
+    },
+    {
+      "price": 762500,
+      "date": "2026-04-15",
+      "postcode": "CW3 0HP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "44, ULLSWATER AVENUE"
+      "address": "REDWOOD, MONKS LANE"
     },
     {
-      "price": 180000,
-      "date": "2026-03-13",
-      "postcode": "CW2 7RJ",
+      "price": 80000,
+      "date": "2026-04-15",
+      "postcode": "CW2 6HL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "200, WISTASTON ROAD"
+      "address": "42, SOUTH STREET"
     },
     {
-      "price": 280000,
-      "date": "2026-03-13",
-      "postcode": "CW2 6RL",
+      "price": 350000,
+      "date": "2026-04-14",
+      "postcode": "CW2 6XB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, BRIDGE CLOSE"
+      "address": "15, SWALLOWFIELD CLOSE"
     },
     {
-      "price": 395000,
-      "date": "2026-03-13",
-      "postcode": "CW2 5NZ",
+      "price": 468000,
+      "date": "2026-04-14",
+      "postcode": "CW2 5DU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, CHESTERTON WAY"
+      "address": "BANK HOUSE, 62, MAIN ROAD"
     },
     {
-      "price": 187500,
-      "date": "2026-03-13",
-      "postcode": "CW2 8TY",
+      "price": 268000,
+      "date": "2026-04-10",
+      "postcode": "CW1 4FT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "64, HIGHER CROFT DRIVE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-04-10",
+      "postcode": "CW1 3SN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, OAKWOOD CRESCENT"
-    },
-    {
-      "price": 175000,
-      "date": "2026-03-13",
-      "postcode": "CW2 6LA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, NEVILLE STREET"
+      "address": "35, MARLEY AVENUE"
     },
     {
       "price": 230000,
-      "date": "2026-03-13",
-      "postcode": "CW1 3PY",
+      "date": "2026-04-10",
+      "postcode": "CW1 3YB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, FARMLEIGH DRIVE"
+      "address": "2, LYCEUM CLOSE"
     },
     {
-      "price": 347500,
-      "date": "2026-03-13",
-      "postcode": "CW2 5XU",
+      "price": 25000,
+      "date": "2026-04-09",
+      "postcode": "CW1 5JX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, COLERIDGE WAY"
+    },
+    {
+      "price": 238000,
+      "date": "2026-04-08",
+      "postcode": "CW1 3YE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, ASPHODEL ROAD"
+      "address": "8, CARRINGTON WAY"
+    },
+    {
+      "price": 42000,
+      "date": "2026-04-08",
+      "postcode": "CW2 7SW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "84, QUEENS PARK GARDENS"
+    },
+    {
+      "price": 460000,
+      "date": "2026-04-07",
+      "postcode": "CW4 7GQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, GEORGE JACKSON AVENUE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-04-07",
+      "postcode": "CW1 5YQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "103, ROCHESTER CRESCENT"
+    },
+    {
+      "price": 355000,
+      "date": "2026-04-07",
+      "postcode": "CW2 8EJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BROOKLAND AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -222,7 +222,7 @@
     {
       "month": "2024-05",
       "medianPrice": 185000,
-      "transactions": 153
+      "transactions": 154
     },
     {
       "month": "2024-06",
@@ -231,8 +231,8 @@
     },
     {
       "month": "2024-07",
-      "medianPrice": 198000,
-      "transactions": 167
+      "medianPrice": 199000,
+      "transactions": 166
     },
     {
       "month": "2024-08",
@@ -242,7 +242,7 @@
     {
       "month": "2024-09",
       "medianPrice": 200000,
-      "transactions": 161
+      "transactions": 163
     },
     {
       "month": "2024-10",
@@ -257,17 +257,17 @@
     {
       "month": "2024-12",
       "medianPrice": 215000,
-      "transactions": 140
+      "transactions": 141
     },
     {
       "month": "2025-01",
-      "medianPrice": 185000,
-      "transactions": 137
+      "medianPrice": 187500,
+      "transactions": 139
     },
     {
       "month": "2025-02",
-      "medianPrice": 181188,
-      "transactions": 168
+      "medianPrice": 182375,
+      "transactions": 169
     },
     {
       "month": "2025-03",
@@ -281,58 +281,63 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 182500,
-      "transactions": 168
+      "medianPrice": 185000,
+      "transactions": 169
     },
     {
       "month": "2025-06",
-      "medianPrice": 210000,
-      "transactions": 161
+      "medianPrice": 212500,
+      "transactions": 166
     },
     {
       "month": "2025-07",
-      "medianPrice": 215000,
-      "transactions": 115
+      "medianPrice": 216250,
+      "transactions": 122
     },
     {
       "month": "2025-08",
-      "medianPrice": 219000,
-      "transactions": 150
+      "medianPrice": 220000,
+      "transactions": 153
     },
     {
       "month": "2025-09",
-      "medianPrice": 188500,
-      "transactions": 136
+      "medianPrice": 187000,
+      "transactions": 140
     },
     {
       "month": "2025-10",
-      "medianPrice": 204750,
-      "transactions": 134
+      "medianPrice": 206000,
+      "transactions": 143
     },
     {
       "month": "2025-11",
-      "medianPrice": 228500,
-      "transactions": 124
+      "medianPrice": 225000,
+      "transactions": 131
     },
     {
       "month": "2025-12",
-      "medianPrice": 215000,
-      "transactions": 129
+      "medianPrice": 210000,
+      "transactions": 134
     },
     {
       "month": "2026-01",
-      "medianPrice": 205000,
-      "transactions": 75
+      "medianPrice": 200000,
+      "transactions": 78
     },
     {
       "month": "2026-02",
-      "medianPrice": 185000,
-      "transactions": 88
+      "medianPrice": 190000,
+      "transactions": 93
     },
     {
       "month": "2026-03",
-      "medianPrice": 260000,
-      "transactions": 53
+      "medianPrice": 230000,
+      "transactions": 104
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 230000,
+      "transactions": 27
     }
   ],
   "quarterlyHistory": [
@@ -343,43 +348,48 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 185000,
-      "transactions": 415
+      "medianPrice": 183850,
+      "transactions": 416
     },
     {
       "quarter": "2024-Q3",
       "medianPrice": 195000,
-      "transactions": 487
+      "transactions": 488
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 205000,
-      "transactions": 492
+      "transactions": 493
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 215000,
-      "transactions": 561
+      "transactions": 564
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 187360,
-      "transactions": 429
+      "medianPrice": 190000,
+      "transactions": 435
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 205000,
-      "transactions": 401
+      "transactions": 415
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 220000,
-      "transactions": 387
+      "medianPrice": 215000,
+      "transactions": 408
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 200000,
-      "transactions": 216
+      "medianPrice": 205000,
+      "transactions": 275
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 230000,
+      "transactions": 27
     }
   ]
 }

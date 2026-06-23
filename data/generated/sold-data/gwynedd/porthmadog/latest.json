@@ -1,20 +1,47 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.944Z",
+  "updatedAt": "2026-06-23T19:12:08.946Z",
   "townSlug": "porthmadog",
   "countySlug": "gwynedd",
   "stats": {
-    "medianPrice": 200000,
+    "medianPrice": 192500,
     "medianByType": {
-      "D": 277500,
-      "T": 165000
+      "D": 270000,
+      "T": 148000
     },
-    "transactionCount12m": 41,
-    "yoyChange": 11.1,
+    "transactionCount12m": 39,
+    "yoyChange": 4.9,
     "newBuildCount": 0,
-    "existingCount": 41,
+    "existingCount": 39,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 70000,
+      "date": "2026-04-15",
+      "postcode": "LL49 9ED",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, NEW STREET"
+    },
+    {
+      "price": 290000,
+      "date": "2026-04-07",
+      "postcode": "LL49 9YD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WYLAN"
+    },
+    {
+      "price": 230000,
+      "date": "2026-03-24",
+      "postcode": "LL49 9YS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "61, CEFN Y GADER"
+    },
     {
       "price": 135000,
       "date": "2026-03-05",
@@ -34,15 +61,6 @@
       "address": "77, CEFN Y GADER"
     },
     {
-      "price": 190000,
-      "date": "2026-02-27",
-      "postcode": "LL49 9BU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, MADOC STREET"
-    },
-    {
       "price": 160000,
       "date": "2026-02-27",
       "postcode": "LL49 9EN",
@@ -52,13 +70,13 @@
       "address": "32, EAST AVENUE"
     },
     {
-      "price": 145000,
-      "date": "2026-02-16",
-      "postcode": "LL49 9EG",
+      "price": 190000,
+      "date": "2026-02-27",
+      "postcode": "LL49 9BU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, GLASLYN STREET"
+      "address": "7, MADOC STREET"
     },
     {
       "price": 180000,
@@ -68,6 +86,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "65, SOUTH SNOWDON WHARF"
+    },
+    {
+      "price": 145000,
+      "date": "2026-02-16",
+      "postcode": "LL49 9EG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GLASLYN STREET"
     },
     {
       "price": 129000,
@@ -167,33 +194,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "35, MADOC STREET"
-    },
-    {
-      "price": 250000,
-      "date": "2025-11-20",
-      "postcode": "LL49 9BT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, SNOWDON STREET"
-    },
-    {
-      "price": 110000,
-      "date": "2025-10-31",
-      "postcode": "LL49 9EL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, EAST AVENUE"
-    },
-    {
-      "price": 175000,
-      "date": "2025-10-27",
-      "postcode": "LL49 9RA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, CHURCH STREET"
     }
   ],
   "monthlyHistory": [
@@ -284,13 +284,13 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 287500,
-      "transactions": 4
+      "medianPrice": 190000,
+      "transactions": 5
     },
     {
       "month": "2025-07",
-      "medianPrice": 54000,
-      "transactions": 1
+      "medianPrice": 139500,
+      "transactions": 2
     },
     {
       "month": "2025-08",
@@ -304,13 +304,13 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 192500,
-      "transactions": 7
+      "medianPrice": 183750,
+      "transactions": 8
     },
     {
       "month": "2025-11",
       "medianPrice": 220000,
-      "transactions": 5
+      "transactions": 6
     },
     {
       "month": "2025-12",
@@ -329,7 +329,12 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 202500,
+      "medianPrice": 230000,
+      "transactions": 3
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 180000,
       "transactions": 2
     }
   ],
@@ -361,23 +366,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 200000,
-      "transactions": 19
+      "medianPrice": 197500,
+      "transactions": 20
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 250000,
-      "transactions": 7
+      "medianPrice": 237500,
+      "transactions": 8
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 220000,
-      "transactions": 17
+      "transactions": 19
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 152500,
-      "transactions": 8
+      "medianPrice": 160000,
+      "transactions": 9
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 180000,
+      "transactions": 2
     }
   ]
 }

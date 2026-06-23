@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.710Z",
+  "updatedAt": "2026-06-23T19:12:06.494Z",
   "townSlug": "watford",
   "countySlug": "hertfordshire",
   "stats": {
-    "medianPrice": 403500,
+    "medianPrice": 409325,
     "medianByType": {
       "D": 830000,
-      "S": 550000,
+      "S": 549000,
       "T": 420000,
-      "F": 258500
+      "F": 255000
     },
-    "transactionCount12m": 794,
-    "yoyChange": -2.8,
+    "transactionCount12m": 787,
+    "yoyChange": 0.3,
     "newBuildCount": 29,
-    "existingCount": 765,
-    "newBuildPremium": -13.7
+    "existingCount": 758,
+    "newBuildPremium": -14.8
   },
   "recentTransactions": [
     {
-      "price": 480000,
-      "date": "2026-03-23",
-      "postcode": "WD25 7BU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, OLD FORGE CLOSE"
-    },
-    {
-      "price": 495000,
-      "date": "2026-03-20",
-      "postcode": "WD25 7BL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ASHFIELDS"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-20",
-      "postcode": "WD24 5JD",
+      "price": 357000,
+      "date": "2026-04-27",
+      "postcode": "WD18 6AH",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "101A, GAMMONS LANE"
+      "address": "FLAT 31, DAPPLE COURT, 300, CROXLEY VIEW"
     },
     {
-      "price": 565000,
-      "date": "2026-03-20",
-      "postcode": "WD25 0JG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, HILLINGDON ROAD"
-    },
-    {
-      "price": 396000,
-      "date": "2026-03-20",
-      "postcode": "WD17 2RG",
+      "price": 220000,
+      "date": "2026-04-24",
+      "postcode": "WD18 7UF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, SHAFTESBURY ROAD"
+      "address": "41, BELGRAVE AVENUE"
     },
     {
-      "price": 1110000,
-      "date": "2026-03-19",
-      "postcode": "WD17 4HQ",
+      "price": 515000,
+      "date": "2026-04-23",
+      "postcode": "WD25 9QL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, GARSTON LANE"
+    },
+    {
+      "price": 725000,
+      "date": "2026-04-20",
+      "postcode": "WD17 4JL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, GRANGE CLOSE"
+      "address": "103, GREENBANK ROAD"
     },
     {
-      "price": 755000,
-      "date": "2026-03-19",
-      "postcode": "WD17 4BT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2 THE LODGE HOUSE, HARMONIA COURT"
-    },
-    {
-      "price": 630000,
-      "date": "2026-03-19",
-      "postcode": "WD25 0JB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, MEADOW ROAD"
-    },
-    {
-      "price": 214248,
-      "date": "2026-03-19",
-      "postcode": "WD24 6RN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, OAKDENE ROAD"
-    },
-    {
-      "price": 362500,
-      "date": "2026-03-18",
-      "postcode": "WD24 4RD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12, ELIZABETH HOUSE, HALLAM CLOSE"
-    },
-    {
-      "price": 247000,
-      "date": "2026-03-18",
-      "postcode": "WD25 7LY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19, FOXLANDS CLOSE"
-    },
-    {
-      "price": 780000,
-      "date": "2026-03-16",
-      "postcode": "WD25 7FD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, PRIVET DRIVE"
-    },
-    {
-      "price": 1100000,
-      "date": "2026-03-16",
-      "postcode": "WD17 3DY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, ORCHARD DRIVE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-03-13",
-      "postcode": "WD17 4AQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "13, ARDEN COURT, LOCKHART ROAD"
-    },
-    {
-      "price": 100000,
-      "date": "2026-03-13",
-      "postcode": "WD17 3AF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "30, NANTERRE COURT, 63 - 67, HEMPSTEAD ROAD"
-    },
-    {
-      "price": 550500,
-      "date": "2026-03-13",
-      "postcode": "WD24 4HU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, CARISBROOKE AVENUE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-03-13",
-      "postcode": "WD25 0AQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "153, NORTH WESTERN AVENUE"
-    },
-    {
-      "price": 495000,
-      "date": "2026-03-12",
-      "postcode": "WD19 4JQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, CROSSMEAD"
-    },
-    {
-      "price": 475000,
-      "date": "2026-03-12",
-      "postcode": "WD19 4HH",
+      "price": 526000,
+      "date": "2026-04-19",
+      "postcode": "WD18 0AH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "61, GROVER ROAD"
+      "address": "35, GRANVILLE ROAD"
     },
     {
-      "price": 930000,
-      "date": "2026-03-11",
-      "postcode": "WD17 3DU",
+      "price": 838000,
+      "date": "2026-04-17",
+      "postcode": "WD17 4PL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "BOTTOM FLAT, 78, LANGLEY ROAD"
+    },
+    {
+      "price": 158000,
+      "date": "2026-04-17",
+      "postcode": "WD18 6SF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4, SHETLAND HOUSE, PIONEER WAY"
+    },
+    {
+      "price": 250000,
+      "date": "2026-04-16",
+      "postcode": "WD18 6GN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, LEWIS HOUSE, SCAMMELL WAY"
+    },
+    {
+      "price": 215000,
+      "date": "2026-04-15",
+      "postcode": "WD17 2QN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "81C, QUEENS ROAD"
+    },
+    {
+      "price": 198500,
+      "date": "2026-04-15",
+      "postcode": "WD25 7DN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "9, BEMBRIDGE PLACE"
+    },
+    {
+      "price": 470000,
+      "date": "2026-04-15",
+      "postcode": "WD19 4ED",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28A, PINNER ROAD"
+    },
+    {
+      "price": 340000,
+      "date": "2026-04-13",
+      "postcode": "WD19 4AF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CAROLINE PLACE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-04-10",
+      "postcode": "WD25 0LS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "29, GLEBE COURT, LYCH GATE"
+    },
+    {
+      "price": 530000,
+      "date": "2026-04-10",
+      "postcode": "WD25 0RR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, ORCHARD CLOSE"
+      "address": "28, CEDAR WOOD DRIVE"
+    },
+    {
+      "price": 905701,
+      "date": "2026-04-10",
+      "postcode": "WD17 3AU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, PARKSIDE DRIVE"
+    },
+    {
+      "price": 393000,
+      "date": "2026-04-09",
+      "postcode": "WD17 2QB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "95, SOTHERON ROAD"
+    },
+    {
+      "price": 570000,
+      "date": "2026-04-08",
+      "postcode": "WD18 7JU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, MAYTHORNE CLOSE"
+    },
+    {
+      "price": 228000,
+      "date": "2026-04-08",
+      "postcode": "WD24 5HL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11A, SUSSEX ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-04-02",
+      "postcode": "WD18 7BL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "32, CATALONIA APARTMENTS, METROPOLITAN STATION APPROACH"
+    },
+    {
+      "price": 800000,
+      "date": "2026-04-02",
+      "postcode": "WD17 4RU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, BIRCHMEAD"
     }
   ],
   "monthlyHistory": [
@@ -227,12 +227,12 @@
     {
       "month": "2024-06",
       "medianPrice": 415000,
-      "transactions": 103
+      "transactions": 104
     },
     {
       "month": "2024-07",
       "medianPrice": 420000,
-      "transactions": 123
+      "transactions": 124
     },
     {
       "month": "2024-08",
@@ -246,33 +246,33 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 438888,
-      "transactions": 129
+      "medianPrice": 425000,
+      "transactions": 191
     },
     {
       "month": "2024-11",
-      "medianPrice": 410000,
-      "transactions": 138
+      "medianPrice": 403000,
+      "transactions": 145
     },
     {
       "month": "2024-12",
-      "medianPrice": 416345,
-      "transactions": 122
+      "medianPrice": 407000,
+      "transactions": 137
     },
     {
       "month": "2025-01",
-      "medianPrice": 417500,
-      "transactions": 104
+      "medianPrice": 425500,
+      "transactions": 110
     },
     {
       "month": "2025-02",
-      "medianPrice": 387500,
-      "transactions": 136
+      "medianPrice": 375000,
+      "transactions": 149
     },
     {
       "month": "2025-03",
-      "medianPrice": 415000,
-      "transactions": 239
+      "medianPrice": 407500,
+      "transactions": 252
     },
     {
       "month": "2025-04",
@@ -281,18 +281,18 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 389000,
-      "transactions": 86
+      "medianPrice": 390000,
+      "transactions": 87
     },
     {
       "month": "2025-06",
-      "medianPrice": 426500,
-      "transactions": 86
+      "medianPrice": 423203,
+      "transactions": 89
     },
     {
       "month": "2025-07",
-      "medianPrice": 390000,
-      "transactions": 109
+      "medianPrice": 400000,
+      "transactions": 119
     },
     {
       "month": "2025-08",
@@ -301,38 +301,43 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 421250,
-      "transactions": 96
+      "medianPrice": 426250,
+      "transactions": 98
     },
     {
       "month": "2025-10",
-      "medianPrice": 392650,
-      "transactions": 82
+      "medianPrice": 398750,
+      "transactions": 86
     },
     {
       "month": "2025-11",
-      "medianPrice": 403500,
-      "transactions": 84
+      "medianPrice": 397500,
+      "transactions": 92
     },
     {
       "month": "2025-12",
-      "medianPrice": 426125,
-      "transactions": 64
+      "medianPrice": 420000,
+      "transactions": 65
     },
     {
       "month": "2026-01",
-      "medianPrice": 378500,
-      "transactions": 44
+      "medianPrice": 386000,
+      "transactions": 46
     },
     {
       "month": "2026-02",
-      "medianPrice": 417500,
-      "transactions": 58
+      "medianPrice": 420000,
+      "transactions": 59
     },
     {
       "month": "2026-03",
-      "medianPrice": 450000,
-      "transactions": 33
+      "medianPrice": 440000,
+      "transactions": 63
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 384000,
+      "transactions": 26
     }
   ],
   "quarterlyHistory": [
@@ -343,43 +348,48 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 412500,
-      "transactions": 325
+      "medianPrice": 411250,
+      "transactions": 326
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 413975,
-      "transactions": 342
+      "medianPrice": 413000,
+      "transactions": 343
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 417000,
-      "transactions": 389
+      "medianPrice": 415000,
+      "transactions": 473
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 410000,
-      "transactions": 479
+      "medianPrice": 400000,
+      "transactions": 511
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 395000,
-      "transactions": 209
+      "transactions": 213
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 402500,
-      "transactions": 298
+      "medianPrice": 409663,
+      "transactions": 310
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 400000,
-      "transactions": 230
+      "transactions": 243
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 402000,
-      "transactions": 135
+      "medianPrice": 413500,
+      "transactions": 168
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 384000,
+      "transactions": 26
     }
   ]
 }

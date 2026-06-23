@@ -1,22 +1,175 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.726Z",
+  "updatedAt": "2026-06-23T19:12:06.513Z",
   "townSlug": "welwyn-garden-city",
   "countySlug": "hertfordshire",
   "stats": {
     "medianPrice": 415000,
     "medianByType": {
-      "D": 725000,
-      "S": 530000,
-      "T": 417250,
+      "D": 740000,
+      "S": 530750,
+      "T": 415000,
       "F": 240000
     },
-    "transactionCount12m": 428,
-    "yoyChange": 2.5,
+    "transactionCount12m": 426,
+    "yoyChange": 1.2,
     "newBuildCount": 0,
-    "existingCount": 428,
+    "existingCount": 426,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 385000,
+      "date": "2026-04-24",
+      "postcode": "AL7 2JH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, THE SQUIRRELS"
+    },
+    {
+      "price": 407500,
+      "date": "2026-04-16",
+      "postcode": "AL7 4EE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, GOLDEN DELL"
+    },
+    {
+      "price": 505000,
+      "date": "2026-04-10",
+      "postcode": "AL8 6DE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "17, ROSANNE HOUSE, BRIDGE ROAD"
+    },
+    {
+      "price": 585000,
+      "date": "2026-04-07",
+      "postcode": "AL8 7TN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, LEMSFORD VILLAGE"
+    },
+    {
+      "price": 428500,
+      "date": "2026-04-02",
+      "postcode": "AL7 2AN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "80, BROOKSFIELD"
+    },
+    {
+      "price": 495000,
+      "date": "2026-04-02",
+      "postcode": "AL7 4SB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "82, THE COMMONS"
+    },
+    {
+      "price": 560000,
+      "date": "2026-04-01",
+      "postcode": "AL8 6YQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, MARSDEN ROAD"
+    },
+    {
+      "price": 950000,
+      "date": "2026-04-01",
+      "postcode": "AL8 6HF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, SCOTTS VIEW"
+    },
+    {
+      "price": 472500,
+      "date": "2026-03-31",
+      "postcode": "AL7 2AH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "76, HERNS LANE"
+    },
+    {
+      "price": 455000,
+      "date": "2026-03-31",
+      "postcode": "AL8 7JE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "73, KNIGHTSFIELD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-31",
+      "postcode": "AL7 3QE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "92, LUDWICK WAY"
+    },
+    {
+      "price": 460000,
+      "date": "2026-03-31",
+      "postcode": "AL7 4RB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, HOWLANDS"
+    },
+    {
+      "price": 335000,
+      "date": "2026-03-31",
+      "postcode": "AL7 4HZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, KINGSLEY COURT"
+    },
+    {
+      "price": 410000,
+      "date": "2026-03-30",
+      "postcode": "AL7 3HE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, DODWOOD"
+    },
+    {
+      "price": 420000,
+      "date": "2026-03-27",
+      "postcode": "AL8 7JD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "125, KNIGHTSFIELD"
+    },
+    {
+      "price": 345000,
+      "date": "2026-03-27",
+      "postcode": "AL7 2NB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, WELLINGTON DRIVE"
+    },
+    {
+      "price": 510000,
+      "date": "2026-03-26",
+      "postcode": "AL7 4SJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, CHEQUERS"
+    },
     {
       "price": 330000,
       "date": "2026-03-25",
@@ -36,166 +189,13 @@
       "address": "15, GREAT SAMPSONS FIELD"
     },
     {
-      "price": 450000,
+      "price": 390000,
       "date": "2026-03-20",
-      "postcode": "AL8 6TG",
+      "postcode": "AL7 2DU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "252, HANDSIDE LANE"
-    },
-    {
-      "price": 262000,
-      "date": "2026-03-19",
-      "postcode": "AL7 1SF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "51, NURSERY GARDENS"
-    },
-    {
-      "price": 369500,
-      "date": "2026-03-16",
-      "postcode": "AL7 2NN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, LINCOLN CLOSE"
-    },
-    {
-      "price": 715000,
-      "date": "2026-03-16",
-      "postcode": "AL8 7DP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "78, VALLEY ROAD"
-    },
-    {
-      "price": 415000,
-      "date": "2026-03-16",
-      "postcode": "AL8 6RF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, GUESSENS GROVE"
-    },
-    {
-      "price": 500000,
-      "date": "2026-03-16",
-      "postcode": "AL8 6TE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "205, HANDSIDE LANE"
-    },
-    {
-      "price": 245000,
-      "date": "2026-03-13",
-      "postcode": "AL7 4SX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "15, EDDINGTON CRESCENT"
-    },
-    {
-      "price": 350000,
-      "date": "2026-03-13",
-      "postcode": "AL7 1DS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "167, BLYTHWAY"
-    },
-    {
-      "price": 410000,
-      "date": "2026-03-12",
-      "postcode": "AL7 1TR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, SALMON CLOSE"
-    },
-    {
-      "price": 735000,
-      "date": "2026-03-12",
-      "postcode": "AL8 7NW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "37, DIGSWELL PARK ROAD"
-    },
-    {
-      "price": 178500,
-      "date": "2026-03-11",
-      "postcode": "AL7 3TD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, WOODHALL COURT"
-    },
-    {
-      "price": 245000,
-      "date": "2026-03-10",
-      "postcode": "AL7 4SQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "30, EDDINGTON CRESCENT"
-    },
-    {
-      "price": 315000,
-      "date": "2026-03-09",
-      "postcode": "AL8 6DG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, PEEL COURT, COLLEGE WAY"
-    },
-    {
-      "price": 610000,
-      "date": "2026-03-06",
-      "postcode": "AL7 2BW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, THE PADDOCKS"
-    },
-    {
-      "price": 389950,
-      "date": "2026-03-03",
-      "postcode": "AL7 3HN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, BUSHEY LEY"
-    },
-    {
-      "price": 550000,
-      "date": "2026-02-27",
-      "postcode": "AL7 2HG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "87, LORDS WOOD"
-    },
-    {
-      "price": 420000,
-      "date": "2026-02-27",
-      "postcode": "AL7 2JS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, GLENWOOD"
-    },
-    {
-      "price": 650000,
-      "date": "2026-02-25",
-      "postcode": "AL8 6JD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "105, PARKWAY"
+      "address": "58, TANSYCROFT"
     }
   ],
   "monthlyHistory": [
@@ -281,38 +281,38 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 437250,
-      "transactions": 36
+      "medianPrice": 437500,
+      "transactions": 37
     },
     {
       "month": "2025-06",
-      "medianPrice": 427500,
-      "transactions": 44
+      "medianPrice": 410000,
+      "transactions": 46
     },
     {
       "month": "2025-07",
-      "medianPrice": 391500,
-      "transactions": 54
+      "medianPrice": 387000,
+      "transactions": 58
     },
     {
       "month": "2025-08",
       "medianPrice": 415000,
-      "transactions": 47
+      "transactions": 51
     },
     {
       "month": "2025-09",
-      "medianPrice": 426500,
-      "transactions": 37
+      "medianPrice": 426750,
+      "transactions": 38
     },
     {
       "month": "2025-10",
-      "medianPrice": 410000,
-      "transactions": 47
+      "medianPrice": 415000,
+      "transactions": 51
     },
     {
       "month": "2025-11",
       "medianPrice": 400000,
-      "transactions": 38
+      "transactions": 42
     },
     {
       "month": "2025-12",
@@ -321,18 +321,23 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 500000,
-      "transactions": 35
+      "medianPrice": 468000,
+      "transactions": 36
     },
     {
       "month": "2026-02",
       "medianPrice": 420000,
-      "transactions": 33
+      "transactions": 35
     },
     {
       "month": "2026-03",
-      "medianPrice": 369500,
-      "transactions": 17
+      "medianPrice": 400000,
+      "transactions": 34
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 500000,
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -364,22 +369,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 425000,
-      "transactions": 96
+      "transactions": 99
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 410000,
-      "transactions": 138
+      "transactions": 147
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 402500,
-      "transactions": 138
+      "medianPrice": 406250,
+      "transactions": 146
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 420000,
-      "transactions": 85
+      "transactions": 105
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 500000,
+      "transactions": 8
     }
   ]
 }

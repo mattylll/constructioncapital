@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.140Z",
+  "updatedAt": "2026-06-23T19:12:06.989Z",
   "townSlug": "bridport",
   "countySlug": "dorset",
   "stats": {
-    "medianPrice": 360000,
+    "medianPrice": 370000,
     "medianByType": {
       "D": 527500,
-      "S": 345000,
+      "S": 342500,
       "T": 285000,
-      "F": 173000
+      "F": 170000
     },
-    "transactionCount12m": 257,
-    "yoyChange": -4,
+    "transactionCount12m": 282,
+    "yoyChange": -1.3,
     "newBuildCount": 0,
-    "existingCount": 257,
+    "existingCount": 282,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 548000,
-      "date": "2026-03-24",
-      "postcode": "DT6 4HP",
+      "price": 360000,
+      "date": "2026-04-24",
+      "postcode": "DT6 5QJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HIGHRIDGE"
+    },
+    {
+      "price": 525000,
+      "date": "2026-04-24",
+      "postcode": "DT6 3FB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "BAKROTA, MEADWAY"
+      "address": "29, HEMLETS CLOSE"
     },
     {
-      "price": 200000,
-      "date": "2026-03-20",
-      "postcode": "DT6 6JE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ASHTON COTTAGE"
-    },
-    {
-      "price": 795000,
-      "date": "2026-03-17",
-      "postcode": "DT6 6BN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LONG REEF, CHARBERRY RISE"
-    },
-    {
-      "price": 735000,
-      "date": "2026-03-09",
-      "postcode": "DT6 3SG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SUNNYMEAD COTTAGE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-03-09",
-      "postcode": "DT6 4EA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, SLADES GREEN"
-    },
-    {
-      "price": 329000,
-      "date": "2026-03-06",
-      "postcode": "DT6 6DN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ARAGON LODGE, STAR LANE"
-    },
-    {
-      "price": 257500,
-      "date": "2026-03-02",
-      "postcode": "DT6 5HX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, ROSEMARY COTTAGES"
-    },
-    {
-      "price": 125425,
-      "date": "2026-03-02",
-      "postcode": "DT6 3FP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, PRIORY GARDENS"
-    },
-    {
-      "price": 1010000,
-      "date": "2026-02-27",
-      "postcode": "DT6 4LT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "OLD LIME KILN, SHIPTON ROAD"
-    },
-    {
-      "price": 152750,
-      "date": "2026-02-27",
-      "postcode": "DT6 5DG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 10, ST. SWITHINS COURT, ST SWITHINS ROAD"
-    },
-    {
-      "price": 330000,
-      "date": "2026-02-26",
-      "postcode": "DT6 4DY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, GREEN LANE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-26",
+      "price": 168000,
+      "date": "2026-04-24",
       "postcode": "DT6 4JZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, HAPPY ISLAND WAY"
+      "address": "71, HAPPY ISLAND WAY"
     },
     {
-      "price": 252500,
-      "date": "2026-02-26",
-      "postcode": "DT6 4EX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, SWAINS ROW"
-    },
-    {
-      "price": 450000,
-      "date": "2026-02-25",
-      "postcode": "DT6 4DB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, MANOR FIELDS"
-    },
-    {
-      "price": 304500,
-      "date": "2026-02-25",
-      "postcode": "DT6 3PA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "127, SOUTH STREET"
-    },
-    {
-      "price": 720000,
-      "date": "2026-02-25",
-      "postcode": "DT6 5NJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, WATTON PARK"
-    },
-    {
-      "price": 390000,
-      "date": "2026-02-20",
-      "postcode": "DT6 4RA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "86, HIGH STREET"
-    },
-    {
-      "price": 214220,
-      "date": "2026-02-20",
-      "postcode": "DT6 3QS",
+      "price": 120000,
+      "date": "2026-04-20",
+      "postcode": "DT6 3HB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 21, FOLLY MILL LODGE, SOUTH STREET"
+      "address": "FLAT 5, PEELERS COURT, ST ANDREWS ROAD"
     },
     {
-      "price": 920000,
-      "date": "2026-02-20",
-      "postcode": "DT6 5LA",
+      "price": 380000,
+      "date": "2026-04-17",
+      "postcode": "DT6 3XJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, TRINITY WAY"
+    },
+    {
+      "price": 140000,
+      "date": "2026-04-15",
+      "postcode": "DT6 5DX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, THE OLD LINEN MILL, 9, NORTH ALLINGTON"
+    },
+    {
+      "price": 305095,
+      "date": "2026-04-14",
+      "postcode": "DT6 5HH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "69, CHERRY TREE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-04-14",
+      "postcode": "DT6 5BL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, THE STRAND, WEST ALLINGTON"
+    },
+    {
+      "price": 82500,
+      "date": "2026-04-13",
+      "postcode": "DT6 3NL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 23, HOMEBREDY HOUSE, 70, EAST STREET"
+    },
+    {
+      "price": 87000,
+      "date": "2026-04-10",
+      "postcode": "DT6 3NL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 33, HOMEBREDY HOUSE, 70, EAST STREET"
+    },
+    {
+      "price": 640000,
+      "date": "2026-04-09",
+      "postcode": "DT6 6DY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE SKILLING, SKILLING HILL ROAD"
+      "address": "MORCOMBE FARM HOUSE"
     },
     {
-      "price": 385000,
-      "date": "2026-02-17",
-      "postcode": "DT6 4DF",
+      "price": 120000,
+      "date": "2026-04-08",
+      "postcode": "DT6 3HB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 50, PEELERS COURT, ST ANDREWS ROAD"
+    },
+    {
+      "price": 812000,
+      "date": "2026-04-08",
+      "postcode": "DT6 5JJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "34, CROCK LANE"
+      "address": "FOUR ASHES HOUSE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-04-07",
+      "postcode": "DT6 5RQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, LAUREL CLOSE"
+    },
+    {
+      "price": 84400,
+      "date": "2026-04-07",
+      "postcode": "DT6 3NL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 18, HOMEBREDY HOUSE, 70, EAST STREET"
+    },
+    {
+      "price": 170000,
+      "date": "2026-04-07",
+      "postcode": "DT6 3LX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21A, BARRACK STREET"
+    },
+    {
+      "price": 562500,
+      "date": "2026-04-01",
+      "postcode": "DT6 4EA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, SLADES GREEN"
+    },
+    {
+      "price": 465000,
+      "date": "2026-04-01",
+      "postcode": "DT6 4HT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WEST WALK"
+    },
+    {
+      "price": 735000,
+      "date": "2026-04-01",
+      "postcode": "DT6 3BT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "219, ST ANDREWS ROAD"
+    },
+    {
+      "price": 1000000,
+      "date": "2026-03-30",
+      "postcode": "DT6 6BD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE BEACH HOUSE, HIGHER SEA LANE"
     }
   ],
   "monthlyHistory": [
@@ -231,8 +231,8 @@
     },
     {
       "month": "2024-07",
-      "medianPrice": 337500,
-      "transactions": 44
+      "medianPrice": 330000,
+      "transactions": 45
     },
     {
       "month": "2024-08",
@@ -276,8 +276,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 405000,
-      "transactions": 23
+      "medianPrice": 397500,
+      "transactions": 24
     },
     {
       "month": "2025-05",
@@ -291,28 +291,28 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 390000,
-      "transactions": 38
+      "medianPrice": 380000,
+      "transactions": 43
     },
     {
       "month": "2025-08",
-      "medianPrice": 435000,
-      "transactions": 32
+      "medianPrice": 440000,
+      "transactions": 33
     },
     {
       "month": "2025-09",
-      "medianPrice": 390000,
-      "transactions": 27
+      "medianPrice": 391250,
+      "transactions": 30
     },
     {
       "month": "2025-10",
-      "medianPrice": 335000,
-      "transactions": 36
+      "medianPrice": 350000,
+      "transactions": 38
     },
     {
       "month": "2025-11",
-      "medianPrice": 386250,
-      "transactions": 22
+      "medianPrice": 400000,
+      "transactions": 24
     },
     {
       "month": "2025-12",
@@ -321,18 +321,23 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 357500,
-      "transactions": 20
+      "medianPrice": 370000,
+      "transactions": 21
     },
     {
       "month": "2026-02",
       "medianPrice": 387500,
-      "transactions": 18
+      "transactions": 20
     },
     {
       "month": "2026-03",
-      "medianPrice": 402000,
-      "transactions": 8
+      "medianPrice": 475000,
+      "transactions": 13
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 280000,
+      "transactions": 19
     }
   ],
   "quarterlyHistory": [
@@ -348,8 +353,8 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 380000,
-      "transactions": 109
+      "medianPrice": 377500,
+      "transactions": 110
     },
     {
       "quarter": "2024-Q4",
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 357500,
-      "transactions": 62
+      "medianPrice": 350000,
+      "transactions": 63
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 390000,
-      "transactions": 97
+      "transactions": 106
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 350000,
-      "transactions": 84
+      "transactions": 88
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 377500,
-      "transactions": 46
+      "medianPrice": 395000,
+      "transactions": 54
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 280000,
+      "transactions": 19
     }
   ]
 }

@@ -1,22 +1,193 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.386Z",
+  "updatedAt": "2026-06-23T19:12:07.256Z",
   "townSlug": "kenilworth",
   "countySlug": "warwickshire",
   "stats": {
-    "medianPrice": 408000,
+    "medianPrice": 415000,
     "medianByType": {
-      "D": 565000,
-      "S": 400000,
+      "D": 560000,
+      "S": 415000,
       "T": 317000,
       "F": 202500
     },
-    "transactionCount12m": 322,
-    "yoyChange": 2,
-    "newBuildCount": 11,
-    "existingCount": 311,
-    "newBuildPremium": 11.5
+    "transactionCount12m": 325,
+    "yoyChange": 3.8,
+    "newBuildCount": 10,
+    "existingCount": 315,
+    "newBuildPremium": 15.7
   },
   "recentTransactions": [
+    {
+      "price": 477500,
+      "date": "2026-04-22",
+      "postcode": "CV8 2FP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, CRACKLEY HILL"
+    },
+    {
+      "price": 350000,
+      "date": "2026-04-16",
+      "postcode": "CV8 1TP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, MAPLE LANE"
+    },
+    {
+      "price": 418000,
+      "date": "2026-04-15",
+      "postcode": "CV8 2UB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CANNADINE ROAD"
+    },
+    {
+      "price": 522500,
+      "date": "2026-04-14",
+      "postcode": "CV8 2NT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, PENCRAIG CLOSE"
+    },
+    {
+      "price": 422000,
+      "date": "2026-04-10",
+      "postcode": "CV8 1DS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, LUNN AVENUE"
+    },
+    {
+      "price": 395000,
+      "date": "2026-04-02",
+      "postcode": "CV8 1JE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, REGENCY DRIVE"
+    },
+    {
+      "price": 810000,
+      "date": "2026-03-31",
+      "postcode": "CV8 2PY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, MOUNTBATTEN AVENUE"
+    },
+    {
+      "price": 85000,
+      "date": "2026-03-31",
+      "postcode": "CV8 1RX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 17, WILTON COURT, SOUTHBANK ROAD"
+    },
+    {
+      "price": 251900,
+      "date": "2026-03-31",
+      "postcode": "CV8 2SF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, BROOMY BANK"
+    },
+    {
+      "price": 325000,
+      "date": "2026-03-31",
+      "postcode": "CV8 1TE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, TALISMAN CLOSE"
+    },
+    {
+      "price": 13097034,
+      "date": "2026-03-31",
+      "postcode": "CV8 2DA",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "KENILWORTH SCHOOL, LEYES LANE"
+    },
+    {
+      "price": 345000,
+      "date": "2026-03-30",
+      "postcode": "CV8 2JL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, PARK CLOSE"
+    },
+    {
+      "price": 425000,
+      "date": "2026-03-30",
+      "postcode": "CV8 1PA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "72, RED LANE"
+    },
+    {
+      "price": 630000,
+      "date": "2026-03-27",
+      "postcode": "CV8 1AJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, BROMLEY CLOSE"
+    },
+    {
+      "price": 409000,
+      "date": "2026-03-27",
+      "postcode": "CV8 1HZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, CLARENDON ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-27",
+      "postcode": "CV8 2HB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, SPRING LANE"
+    },
+    {
+      "price": 172000,
+      "date": "2026-03-26",
+      "postcode": "CV8 2SS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12, PIPERS LANE"
+    },
+    {
+      "price": 700000,
+      "date": "2026-03-26",
+      "postcode": "CV8 2NT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, PENCRAIG CLOSE"
+    },
+    {
+      "price": 500000,
+      "date": "2026-03-26",
+      "postcode": "CV8 2AJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38A, GLASSHOUSE LANE"
+    },
     {
       "price": 556000,
       "date": "2026-03-24",
@@ -25,177 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "49, ELMDENE ROAD"
-    },
-    {
-      "price": 660000,
-      "date": "2026-03-19",
-      "postcode": "CV8 1PN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "247, CROMWELL LANE"
-    },
-    {
-      "price": 249215,
-      "date": "2026-03-18",
-      "postcode": "CV8 1HA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "20, PRIORY HOUSE, GRAFTON CLOSE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-03-16",
-      "postcode": "CV8 2DU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, ARDEN ROAD"
-    },
-    {
-      "price": 233000,
-      "date": "2026-03-13",
-      "postcode": "CV8 2DW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, HERMITAGE WAY"
-    },
-    {
-      "price": 358000,
-      "date": "2026-03-13",
-      "postcode": "CV8 1HJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, HARGER COURT"
-    },
-    {
-      "price": 475000,
-      "date": "2026-03-13",
-      "postcode": "CV8 2QE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, WINCOTE CLOSE"
-    },
-    {
-      "price": 282000,
-      "date": "2026-03-13",
-      "postcode": "CV8 2SE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, ASPLEN COURT"
-    },
-    {
-      "price": 625000,
-      "date": "2026-03-12",
-      "postcode": "CV8 2NY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, DENEWOOD WAY"
-    },
-    {
-      "price": 417500,
-      "date": "2026-03-12",
-      "postcode": "CV8 2GN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, LOWER LADYES HILLS"
-    },
-    {
-      "price": 800000,
-      "date": "2026-03-12",
-      "postcode": "CV8 2PY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, MOUNTBATTEN AVENUE"
-    },
-    {
-      "price": 310000,
-      "date": "2026-03-06",
-      "postcode": "CV8 1GS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, ESSEX CLOSE"
-    },
-    {
-      "price": 415000,
-      "date": "2026-03-04",
-      "postcode": "CV8 2DL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, FARMER WARD ROAD"
-    },
-    {
-      "price": 345000,
-      "date": "2026-03-02",
-      "postcode": "CV8 2NH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, RAGLAN GROVE"
-    },
-    {
-      "price": 411000,
-      "date": "2026-03-02",
-      "postcode": "CV8 2SN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, RILEY CLOSE"
-    },
-    {
-      "price": 670000,
-      "date": "2026-02-27",
-      "postcode": "CV8 1FH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, SUNCLIFFE DRIVE"
-    },
-    {
-      "price": 172000,
-      "date": "2026-02-27",
-      "postcode": "CV8 1RT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 12, MOORLANDS LODGE, MOORLANDS AVENUE"
-    },
-    {
-      "price": 247500,
-      "date": "2026-02-27",
-      "postcode": "CV8 2GF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, CASTLE COURT, PARK ROAD"
-    },
-    {
-      "price": 137000,
-      "date": "2026-02-27",
-      "postcode": "CV8 2QL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "60, EBOURNE CLOSE"
-    },
-    {
-      "price": 358000,
-      "date": "2026-02-26",
-      "postcode": "CV8 2JQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, BEECH DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -282,22 +282,22 @@
     {
       "month": "2025-05",
       "medianPrice": 351500,
-      "transactions": 27
+      "transactions": 29
     },
     {
       "month": "2025-06",
-      "medianPrice": 386500,
-      "transactions": 34
+      "medianPrice": 405000,
+      "transactions": 38
     },
     {
       "month": "2025-07",
       "medianPrice": 440000,
-      "transactions": 42
+      "transactions": 45
     },
     {
       "month": "2025-08",
       "medianPrice": 415000,
-      "transactions": 35
+      "transactions": 36
     },
     {
       "month": "2025-09",
@@ -306,13 +306,13 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 390000,
-      "transactions": 49
+      "medianPrice": 405000,
+      "transactions": 51
     },
     {
       "month": "2025-11",
-      "medianPrice": 423500,
-      "transactions": 30
+      "medianPrice": 427000,
+      "transactions": 33
     },
     {
       "month": "2025-12",
@@ -331,8 +331,13 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 415000,
-      "transactions": 15
+      "medianPrice": 411000,
+      "transactions": 31
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 420000,
+      "transactions": 6
     }
   ],
   "quarterlyHistory": [
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 378000,
-      "transactions": 85
+      "medianPrice": 395000,
+      "transactions": 91
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 425000,
-      "transactions": 109
-    },
-    {
-      "quarter": "2025-Q4",
-      "medianPrice": 380000,
       "transactions": 113
     },
     {
+      "quarter": "2025-Q4",
+      "medianPrice": 382500,
+      "transactions": 118
+    },
+    {
       "quarter": "2026-Q1",
-      "medianPrice": 405500,
-      "transactions": 52
+      "medianPrice": 404500,
+      "transactions": 68
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 420000,
+      "transactions": 6
     }
   ]
 }

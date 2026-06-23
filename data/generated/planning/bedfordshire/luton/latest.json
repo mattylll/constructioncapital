@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-06-21T02:41:40.557Z",
+  "updatedAt": "2026-06-23T17:46:31.753Z",
   "townSlug": "luton",
   "countySlug": "bedfordshire",
   "localAuthority": "Luton Borough Council",
   "source": "idox",
   "summary": {
-    "total": 236,
+    "total": 241,
     "relevant": 43,
     "approved": 0,
     "pending": 43,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 423,
-    "totalUnits": 423,
+    "pendingUnits": 514,
+    "totalUnits": 514,
     "approvedGdv": 0,
-    "pendingGdv": 84095000,
-    "totalEstimatedGDV": 84095000,
+    "pendingGdv": 100020000,
+    "totalEstimatedGDV": 100020000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -190,25 +190,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.luton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCCBYJKGG2V00"
-    },
-    {
-      "reference": "26/00445/FUL",
-      "address": "888 Dunstable Road Luton LU4 0HJ",
-      "postcode": "LU4 0HJ",
-      "ward": "",
-      "proposal": "Erection of a front porch with addition of a WC after demolition of existing porch and alterations to fenestration.",
-      "category": "demolition_rebuild",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.luton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TE9E2KKGGQL00"
     },
     {
       "reference": "26/00429/FUL",
@@ -591,6 +572,25 @@
       "sourceUrl": "https://planning.luton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCTMJ0KGG8Z00"
     },
     {
+      "reference": "26/00552/COU",
+      "address": "47 Blundell Road Luton LU3 1SG",
+      "postcode": "LU3 1SG",
+      "ward": "",
+      "proposal": "Conversion of a five bedroom dwellinghouse to 2no. self contained flats (1 x 2 Bedroom and 1 x 1 Bedroom).",
+      "category": "conversion",
+      "units": 1,
+      "estimatedGdv": 175000,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.luton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFN5O8KGH7700"
+    },
+    {
       "reference": "26/00538/DOC",
       "address": "Land Adj To Wandon Close Luton LU2 8DX",
       "postcode": "LU2 8DX",
@@ -819,14 +819,14 @@
       "sourceUrl": "https://planning.luton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TED8WPKGGSE00"
     },
     {
-      "reference": "26/00611/REM",
-      "address": "Power Court Luton Bedfordshire",
-      "postcode": "",
+      "reference": "26/00603/DOC",
+      "address": "36 - 38 Crescent Road Luton LU2 0AH",
+      "postcode": "LU2 0AH",
       "ward": "",
-      "proposal": "Outline proposals, with all matters reserved except for access, for a mixed-use development comprising: residential floorspace; appropriate town centre uses including a health centre, retail, community uses, food and drinking establishments; car and cycle parking; and associated access, highways, utilities, public realm, landscaping, riverworks and associated ancillary works and structures. Approval of all Reserved Matters for Phase 3 of planning permission 20/01587/OUTEIA",
-      "category": "mixed_use",
-      "units": null,
-      "estimatedGdv": null,
+      "proposal": "Erection of 90 dwellings consisting of (14 x 1-bed, 60 x 2-bed and 10 x 3-beds) flats within 4 and 7 storey building and (6 x 4 beds) within 3 storey houses with associated car parking, landscaping and amenity spaces after demolition of existing buildings. - Resubmission. Discharge of conditions15 (Ste Investigation Report), 21 (Ground Investigation/Risk Assessment) and 27 (Aboricultural Method Statement) of Planning permission 21/00731/FUL dated 30 June 2023.",
+      "category": "other_residential",
+      "units": 90,
+      "estimatedGdv": 15750000,
       "status": "",
       "decision": "",
       "receivedDate": "",
@@ -835,7 +835,7 @@
       "applicantCompany": "",
       "agentName": "",
       "agentCompany": "",
-      "sourceUrl": "https://planning.luton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGD8P9KGHGO00"
+      "sourceUrl": "https://planning.luton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGBGV9KGHFI00"
     }
   ]
 }

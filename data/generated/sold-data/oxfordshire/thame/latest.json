@@ -1,22 +1,103 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.699Z",
+  "updatedAt": "2026-06-23T19:12:06.483Z",
   "townSlug": "thame",
   "countySlug": "oxfordshire",
   "stats": {
-    "medianPrice": 420000,
+    "medianPrice": 430000,
     "medianByType": {
-      "D": 643500,
-      "S": 460000,
-      "T": 370000,
-      "F": 252500
+      "D": 750000,
+      "S": 468750,
+      "T": 360500,
+      "F": 270000
     },
-    "transactionCount12m": 173,
-    "yoyChange": -8.7,
-    "newBuildCount": 3,
-    "existingCount": 170,
-    "newBuildPremium": 395.1
+    "transactionCount12m": 165,
+    "yoyChange": -6.9,
+    "newBuildCount": 2,
+    "existingCount": 163,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 300000,
+      "date": "2026-04-24",
+      "postcode": "OX9 3LP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, CHINNOR ROAD"
+    },
+    {
+      "price": 575000,
+      "date": "2026-04-23",
+      "postcode": "OX9 3XH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, MONTROSE WAY"
+    },
+    {
+      "price": 460000,
+      "date": "2026-04-09",
+      "postcode": "OX9 2DT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, HAMPDEN AVENUE"
+    },
+    {
+      "price": 750000,
+      "date": "2026-04-08",
+      "postcode": "OX9 3NB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, COTMORE GARDENS"
+    },
+    {
+      "price": 500000,
+      "date": "2026-04-02",
+      "postcode": "OX9 2DP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, NELSON STREET"
+    },
+    {
+      "price": 300000,
+      "date": "2026-04-01",
+      "postcode": "OX9 2BZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 3, 17, HIGH STREET"
+    },
+    {
+      "price": 430000,
+      "date": "2026-03-30",
+      "postcode": "OX9 3JQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, SEVEN ACRES"
+    },
+    {
+      "price": 385000,
+      "date": "2026-03-27",
+      "postcode": "OX9 7AD",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, HIGH STREET"
+    },
+    {
+      "price": 432500,
+      "date": "2026-03-27",
+      "postcode": "OX9 3WF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, VANE ROAD"
+    },
     {
       "price": 645000,
       "date": "2026-03-25",
@@ -34,6 +115,24 @@
       "newBuild": false,
       "tenure": "L",
       "address": "7, ESSEX ROAD"
+    },
+    {
+      "price": 460000,
+      "date": "2026-03-23",
+      "postcode": "OX9 2LY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ALBURY VIEW"
+    },
+    {
+      "price": 289500,
+      "date": "2026-03-23",
+      "postcode": "OX9 3YG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, MARSTON ROAD"
     },
     {
       "price": 855000,
@@ -54,6 +153,15 @@
       "address": "3, YEATS LODGE, GREYHOUND LANE"
     },
     {
+      "price": 480000,
+      "date": "2026-03-16",
+      "postcode": "OX9 3ZQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, YOUENS DRIVE"
+    },
+    {
       "price": 400000,
       "date": "2026-03-12",
       "postcode": "OX9 7AU",
@@ -61,15 +169,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "15, MARSH END"
-    },
-    {
-      "price": 272500,
-      "date": "2026-03-06",
-      "postcode": "OX9 3JB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "42, LATIMER HOUSE, ANGUS COURT"
     },
     {
       "price": 320000,
@@ -90,112 +189,13 @@
       "address": "5, SWAN GARDENS"
     },
     {
-      "price": 545000,
-      "date": "2026-02-27",
-      "postcode": "OX9 3TB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, HARRISON PLACE"
-    },
-    {
-      "price": 365000,
-      "date": "2026-02-23",
-      "postcode": "OX9 3LP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "95, CHINNOR ROAD"
-    },
-    {
-      "price": 465000,
-      "date": "2026-02-16",
-      "postcode": "OX9 7JA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, OAK FARM CLOSE"
-    },
-    {
-      "price": 545000,
-      "date": "2026-02-12",
-      "postcode": "OX9 3GD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, WARREN MEAD"
-    },
-    {
-      "price": 350000,
-      "date": "2026-02-06",
-      "postcode": "OX9 2FB",
+      "price": 272500,
+      "date": "2026-03-06",
+      "postcode": "OX9 3JB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "18, MICHAELIS ROAD"
-    },
-    {
-      "price": 750000,
-      "date": "2026-02-04",
-      "postcode": "OX9 2DQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, COLLEGE CLOSE"
-    },
-    {
-      "price": 1025000,
-      "date": "2026-02-04",
-      "postcode": "OX9 2FS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, SAXON SQUARE"
-    },
-    {
-      "price": 595000,
-      "date": "2026-02-03",
-      "postcode": "OX9 3HX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "86, PARK STREET"
-    },
-    {
-      "price": 310000,
-      "date": "2026-01-30",
-      "postcode": "OX9 3BW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, WELLINGTON STREET"
-    },
-    {
-      "price": 270000,
-      "date": "2026-01-30",
-      "postcode": "OX9 3GB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, ABINGDON CLOSE"
-    },
-    {
-      "price": 253000,
-      "date": "2026-01-26",
-      "postcode": "OX9 2DD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "89, SHARMAN BEER COURT"
-    },
-    {
-      "price": 800000,
-      "date": "2026-01-23",
-      "postcode": "OX9 2JR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, OLD LONDON ROAD"
+      "address": "42, LATIMER HOUSE, ANGUS COURT"
     }
   ],
   "monthlyHistory": [
@@ -261,8 +261,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 450000,
-      "transactions": 19
+      "medianPrice": 457500,
+      "transactions": 20
     },
     {
       "month": "2025-02",
@@ -286,8 +286,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 396000,
-      "transactions": 27
+      "medianPrice": 438000,
+      "transactions": 29
     },
     {
       "month": "2025-07",
@@ -296,8 +296,8 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 410000,
-      "transactions": 21
+      "medianPrice": 416250,
+      "transactions": 22
     },
     {
       "month": "2025-09",
@@ -307,17 +307,17 @@
     {
       "month": "2025-10",
       "medianPrice": 452500,
-      "transactions": 22
+      "transactions": 24
     },
     {
       "month": "2025-11",
-      "medianPrice": 507500,
-      "transactions": 20
+      "medianPrice": 480000,
+      "transactions": 21
     },
     {
       "month": "2025-12",
-      "medianPrice": 390000,
-      "transactions": 17
+      "medianPrice": 401000,
+      "transactions": 18
     },
     {
       "month": "2026-01",
@@ -327,12 +327,17 @@
     {
       "month": "2026-02",
       "medianPrice": 545000,
-      "transactions": 8
+      "transactions": 9
     },
     {
       "month": "2026-03",
-      "medianPrice": 360000,
-      "transactions": 8
+      "medianPrice": 400000,
+      "transactions": 15
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 480000,
+      "transactions": 6
     }
   ],
   "quarterlyHistory": [
@@ -358,28 +363,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 467500,
-      "transactions": 98
+      "medianPrice": 470000,
+      "transactions": 99
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 417000,
-      "transactions": 54
+      "medianPrice": 451500,
+      "transactions": 56
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 388500,
-      "transactions": 52
+      "medianPrice": 390000,
+      "transactions": 53
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 465000,
-      "transactions": 59
+      "transactions": 63
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 430000,
-      "transactions": 28
+      "medianPrice": 431250,
+      "transactions": 36
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 480000,
+      "transactions": 6
     }
   ]
 }

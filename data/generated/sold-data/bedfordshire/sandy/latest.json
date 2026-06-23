@@ -1,22 +1,67 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.668Z",
+  "updatedAt": "2026-06-23T19:12:08.667Z",
   "townSlug": "sandy",
   "countySlug": "bedfordshire",
   "stats": {
     "medianPrice": 339950,
     "medianByType": {
-      "D": 450000,
-      "S": 340000,
+      "D": 455000,
+      "S": 345000,
       "T": 275000,
-      "F": 138000
+      "F": 130000
     },
-    "transactionCount12m": 228,
-    "yoyChange": 11.5,
-    "newBuildCount": 2,
-    "existingCount": 226,
+    "transactionCount12m": 221,
+    "yoyChange": 9,
+    "newBuildCount": 1,
+    "existingCount": 220,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 280000,
+      "date": "2026-04-16",
+      "postcode": "SG19 1QR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, ABBEY GROVE"
+    },
+    {
+      "price": 298000,
+      "date": "2026-04-10",
+      "postcode": "SG19 2UY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, THE JAYS"
+    },
+    {
+      "price": 130000,
+      "date": "2026-04-02",
+      "postcode": "SG19 1ES",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, 90, BEDFORD ROAD"
+    },
+    {
+      "price": 132000,
+      "date": "2026-03-30",
+      "postcode": "SG19 2FF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "28, LEWIS CORNER"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-30",
+      "postcode": "SG19 2UY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, THE JAYS"
+    },
     {
       "price": 316000,
       "date": "2026-03-27",
@@ -27,6 +72,78 @@
       "address": "52, WAVERLEY AVENUE"
     },
     {
+      "price": 375000,
+      "date": "2026-03-27",
+      "postcode": "SG19 2TQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, STARLING CLOSE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-27",
+      "postcode": "SG19 1TP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, PENTLAND CLOSE"
+    },
+    {
+      "price": 257500,
+      "date": "2026-03-26",
+      "postcode": "SG19 2QF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, LANGLEY GARDENS"
+    },
+    {
+      "price": 645000,
+      "date": "2026-03-26",
+      "postcode": "SG19 2QL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, OLD BEDFORD ROAD"
+    },
+    {
+      "price": 365000,
+      "date": "2026-03-26",
+      "postcode": "SG19 1LG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "84, ST NEOTS ROAD"
+    },
+    {
+      "price": 500000,
+      "date": "2026-03-26",
+      "postcode": "SG19 1LE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, ST NEOTS ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-03-25",
+      "postcode": "SG19 2BG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, STUART COURT"
+    },
+    {
+      "price": 255000,
+      "date": "2026-03-23",
+      "postcode": "SG19 2EL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, ALEXANDER ROAD"
+    },
+    {
       "price": 293500,
       "date": "2026-03-20",
       "postcode": "SG19 2TR",
@@ -34,6 +151,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "46, WEAVERS GREEN"
+    },
+    {
+      "price": 275000,
+      "date": "2026-03-20",
+      "postcode": "SG19 2UY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, THE JAYS"
+    },
+    {
+      "price": 340000,
+      "date": "2026-03-20",
+      "postcode": "SG19 1HD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, QUEENS ROAD"
     },
     {
       "price": 420000,
@@ -61,141 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "23, MYERS ROAD"
-    },
-    {
-      "price": 435000,
-      "date": "2026-02-27",
-      "postcode": "SG19 2QD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, THE PADDOCKS"
-    },
-    {
-      "price": 490000,
-      "date": "2026-02-27",
-      "postcode": "SG19 2PD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "79, EVERTON ROAD"
-    },
-    {
-      "price": 385000,
-      "date": "2026-02-27",
-      "postcode": "SG19 1BS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "126A, ST NEOTS ROAD"
-    },
-    {
-      "price": 395000,
-      "date": "2026-02-27",
-      "postcode": "SG19 2FQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BLANE PLACE"
-    },
-    {
-      "price": 683500,
-      "date": "2026-02-25",
-      "postcode": "SG19 2RS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WOODBERRY HOUSE, 24A, BURY HILL"
-    },
-    {
-      "price": 290000,
-      "date": "2026-02-25",
-      "postcode": "SG19 2TA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, FALCON CLOSE"
-    },
-    {
-      "price": 555000,
-      "date": "2026-02-25",
-      "postcode": "SG19 2AU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, STATION ROAD"
-    },
-    {
-      "price": 390000,
-      "date": "2026-02-20",
-      "postcode": "SG19 2TA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, FALCON CLOSE"
-    },
-    {
-      "price": 255000,
-      "date": "2026-02-19",
-      "postcode": "SG19 1QU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, FRIARS WALK"
-    },
-    {
-      "price": 362500,
-      "date": "2026-02-18",
-      "postcode": "SG19 2GQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, WINGFIELD DRIVE"
-    },
-    {
-      "price": 390000,
-      "date": "2026-02-16",
-      "postcode": "SG19 2JY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, CHURCH ROAD"
-    },
-    {
-      "price": 505000,
-      "date": "2026-02-16",
-      "postcode": "SG19 2JT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, WARDEN HILL"
-    },
-    {
-      "price": 373000,
-      "date": "2026-02-16",
-      "postcode": "SG19 2SA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, GOLDFINCH DRIVE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-02-13",
-      "postcode": "SG19 2FA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, KITCHENER GROVE"
-    },
-    {
-      "price": 460000,
-      "date": "2026-02-13",
-      "postcode": "SG19 2TS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, KESTREL WAY"
     }
   ],
   "monthlyHistory": [
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 330000,
-      "transactions": 61
+      "medianPrice": 325000,
+      "transactions": 62
     },
     {
       "month": "2025-04",
@@ -286,13 +286,13 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 340000,
-      "transactions": 27
+      "medianPrice": 331000,
+      "transactions": 28
     },
     {
       "month": "2025-07",
       "medianPrice": 344998,
-      "transactions": 32
+      "transactions": 34
     },
     {
       "month": "2025-08",
@@ -306,13 +306,13 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 292475,
-      "transactions": 18
+      "medianPrice": 299950,
+      "transactions": 19
     },
     {
       "month": "2025-11",
-      "medianPrice": 325000,
-      "transactions": 29
+      "medianPrice": 332500,
+      "transactions": 32
     },
     {
       "month": "2025-12",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 373000,
-      "transactions": 23
+      "medianPrice": 365000,
+      "transactions": 25
     },
     {
       "month": "2026-03",
-      "medianPrice": 420000,
-      "transactions": 5
+      "medianPrice": 340000,
+      "transactions": 17
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 280000,
+      "transactions": 3
     }
   ],
   "quarterlyHistory": [
@@ -358,28 +363,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 312250,
-      "transactions": 118
+      "medianPrice": 312500,
+      "transactions": 119
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 318500,
-      "transactions": 60
+      "medianPrice": 315000,
+      "transactions": 61
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 339973,
-      "transactions": 88
+      "transactions": 90
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 319000,
-      "transactions": 63
+      "medianPrice": 325000,
+      "transactions": 67
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 362500,
-      "transactions": 37
+      "medianPrice": 350000,
+      "transactions": 51
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 280000,
+      "transactions": 3
     }
   ]
 }

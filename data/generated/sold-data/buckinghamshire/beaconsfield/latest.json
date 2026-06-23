@@ -1,22 +1,85 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.651Z",
+  "updatedAt": "2026-06-23T19:12:06.428Z",
   "townSlug": "beaconsfield",
   "countySlug": "buckinghamshire",
   "stats": {
-    "medianPrice": 965000,
+    "medianPrice": 950000,
     "medianByType": {
-      "D": 1450000,
-      "S": 755000,
+      "D": 1407500,
+      "S": 825000,
       "T": 545000,
-      "F": 417500
+      "F": 392500
     },
-    "transactionCount12m": 176,
-    "yoyChange": -1,
+    "transactionCount12m": 170,
+    "yoyChange": -2.1,
     "newBuildCount": 4,
-    "existingCount": 172,
-    "newBuildPremium": 15
+    "existingCount": 166,
+    "newBuildPremium": 16.8
   },
   "recentTransactions": [
+    {
+      "price": 500000,
+      "date": "2026-04-07",
+      "postcode": "HP9 2LZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, CALUMET, REYNOLDS ROAD"
+    },
+    {
+      "price": 785000,
+      "date": "2026-04-07",
+      "postcode": "HP9 2RW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, DUPRE CRESCENT"
+    },
+    {
+      "price": 795000,
+      "date": "2026-04-02",
+      "postcode": "HP9 1AB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 10, THE GROVES, 46, STATION ROAD"
+    },
+    {
+      "price": 630000,
+      "date": "2026-04-01",
+      "postcode": "HP9 1RE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, CHESTERTON GREEN"
+    },
+    {
+      "price": 275000,
+      "date": "2026-03-31",
+      "postcode": "HP9 1BF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1, BEACONSFIELD MEWS"
+    },
+    {
+      "price": 735000,
+      "date": "2026-03-31",
+      "postcode": "HP9 2NE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, BARING ROAD"
+    },
+    {
+      "price": 510000,
+      "date": "2026-03-26",
+      "postcode": "HP9 1BE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, ROWAN CLOSE"
+    },
     {
       "price": 725000,
       "date": "2026-03-20",
@@ -25,6 +88,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "30, HORSESHOE CRESCENT"
+    },
+    {
+      "price": 840000,
+      "date": "2026-03-13",
+      "postcode": "HP9 2RW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, DUPRE CRESCENT"
     },
     {
       "price": 540000,
@@ -124,78 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "3, BEARSWOOD END"
-    },
-    {
-      "price": 1000000,
-      "date": "2026-01-28",
-      "postcode": "HP9 2RR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, WATERGLADES"
-    },
-    {
-      "price": 952000,
-      "date": "2026-01-23",
-      "postcode": "HP9 2XT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, HOWARD ROAD"
-    },
-    {
-      "price": 750000,
-      "date": "2026-01-19",
-      "postcode": "HP9 2XJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, GURNELLS ROAD"
-    },
-    {
-      "price": 500000,
-      "date": "2026-01-16",
-      "postcode": "HP9 1LA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, CANDLEMAS OAKS"
-    },
-    {
-      "price": 955000,
-      "date": "2026-01-16",
-      "postcode": "HP9 1UQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, CRABTREE CLOSE"
-    },
-    {
-      "price": 390000,
-      "date": "2026-01-16",
-      "postcode": "HP9 1RH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 23, THE HOLLIES, MAXWELL ROAD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-01-09",
-      "postcode": "HP9 2PE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, BOLEYN MANSIONS, 32, WARWICK ROAD"
-    },
-    {
-      "price": 435000,
-      "date": "2026-01-09",
-      "postcode": "HP9 1GN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, WALDENBURY PLACE"
     }
   ],
   "monthlyHistory": [
@@ -282,7 +282,7 @@
     {
       "month": "2025-05",
       "medianPrice": 919125,
-      "transactions": 24
+      "transactions": 26
     },
     {
       "month": "2025-06",
@@ -291,13 +291,13 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 1200000,
-      "transactions": 31
+      "medianPrice": 1187500,
+      "transactions": 32
     },
     {
       "month": "2025-08",
-      "medianPrice": 1040000,
-      "transactions": 26
+      "medianPrice": 1050000,
+      "transactions": 27
     },
     {
       "month": "2025-09",
@@ -311,8 +311,8 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 847500,
-      "transactions": 16
+      "medianPrice": 820000,
+      "transactions": 19
     },
     {
       "month": "2025-12",
@@ -331,7 +331,12 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 420000,
+      "medianPrice": 525000,
+      "transactions": 8
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 707500,
       "transactions": 4
     }
   ],
@@ -364,22 +369,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 952500,
-      "transactions": 60
+      "transactions": 62
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 1143750,
-      "transactions": 74
+      "transactions": 76
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 950000,
-      "transactions": 53
+      "medianPrice": 912500,
+      "transactions": 56
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 737500,
-      "transactions": 20
+      "medianPrice": 730000,
+      "transactions": 24
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 707500,
+      "transactions": 4
     }
   ]
 }

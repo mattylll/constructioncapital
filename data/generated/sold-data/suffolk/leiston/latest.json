@@ -1,22 +1,58 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.601Z",
+  "updatedAt": "2026-06-23T19:12:08.595Z",
   "townSlug": "leiston",
   "countySlug": "suffolk",
   "stats": {
     "medianPrice": 257000,
     "medianByType": {
       "D": 410000,
-      "S": 253500,
-      "T": 210000,
+      "S": 240500,
+      "T": 187500,
       "F": 132500
     },
-    "transactionCount12m": 82,
-    "yoyChange": 11.7,
+    "transactionCount12m": 88,
+    "yoyChange": 10.3,
     "newBuildCount": 0,
-    "existingCount": 82,
+    "existingCount": 88,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 535000,
+      "date": "2026-04-01",
+      "postcode": "IP16 4HE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, WATERLOO AVENUE"
+    },
+    {
+      "price": 385000,
+      "date": "2026-04-01",
+      "postcode": "IP16 4PY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BLUEBELL COTTAGE"
+    },
+    {
+      "price": 735000,
+      "date": "2026-03-31",
+      "postcode": "IP16 4RE",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRICK KILN FARM, ABBEY ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-30",
+      "postcode": "IP16 4UZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, THE GABLES"
+    },
     {
       "price": 185000,
       "date": "2026-03-27",
@@ -25,6 +61,51 @@
       "newBuild": false,
       "tenure": "F",
       "address": "4, ROBERTS ROAD"
+    },
+    {
+      "price": 285000,
+      "date": "2026-03-23",
+      "postcode": "IP16 4HP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "83, ST MARGARETS CRESCENT"
+    },
+    {
+      "price": 210000,
+      "date": "2026-03-23",
+      "postcode": "IP16 4DN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, HAYLINGS ROAD"
+    },
+    {
+      "price": 475000,
+      "date": "2026-03-20",
+      "postcode": "IP16 4PZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SEVENBROOMES, MILL HILL"
+    },
+    {
+      "price": 227000,
+      "date": "2026-03-20",
+      "postcode": "IP16 4BS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, VALLEY GARDENS"
+    },
+    {
+      "price": 205000,
+      "date": "2026-03-12",
+      "postcode": "IP16 4WX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, COXWELLS SQUARE"
     },
     {
       "price": 410000,
@@ -54,15 +135,6 @@
       "address": "4, MINDEN DRIVE"
     },
     {
-      "price": 385000,
-      "date": "2026-02-23",
-      "postcode": "IP16 4BZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "122, HIGH STREET"
-    },
-    {
       "price": 435000,
       "date": "2026-02-23",
       "postcode": "IP16 4BX",
@@ -70,6 +142,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "123, HIGH STREET"
+    },
+    {
+      "price": 385000,
+      "date": "2026-02-23",
+      "postcode": "IP16 4BZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "122, HIGH STREET"
     },
     {
       "price": 440000,
@@ -115,87 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "17, GARRETT CRESCENT"
-    },
-    {
-      "price": 365000,
-      "date": "2026-02-06",
-      "postcode": "IP16 4PW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, MEADOWSIDE, ALDEBURGH ROAD"
-    },
-    {
-      "price": 382000,
-      "date": "2026-02-03",
-      "postcode": "IP16 4JX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, KING GEORGES AVENUE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-01-30",
-      "postcode": "IP16 4FN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, OAK DRIVE"
-    },
-    {
-      "price": 160000,
-      "date": "2026-01-09",
-      "postcode": "IP16 4AL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, PROSPECT PLACE"
-    },
-    {
-      "price": 285000,
-      "date": "2026-01-09",
-      "postcode": "IP16 4JG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, KING GEORGES AVENUE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-01-08",
-      "postcode": "IP16 4AR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, ARCHWAY COTTAGES, VALLEY ROAD"
-    },
-    {
-      "price": 265000,
-      "date": "2026-01-08",
-      "postcode": "IP16 4AY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, EASTWARD HO"
-    },
-    {
-      "price": 175000,
-      "date": "2026-01-06",
-      "postcode": "IP16 4HA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, BULLER ROAD"
-    },
-    {
-      "price": 132500,
-      "date": "2026-01-05",
-      "postcode": "IP16 4JD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "SUITE 2, COLONIAL HOUSE, MASTER LORD INDUSTRIAL ESTATE"
     }
   ],
   "monthlyHistory": [
@@ -291,13 +291,13 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 270000,
-      "transactions": 17
+      "medianPrice": 234000,
+      "transactions": 19
     },
     {
       "month": "2025-08",
-      "medianPrice": 230250,
-      "transactions": 8
+      "medianPrice": 229500,
+      "transactions": 9
     },
     {
       "month": "2025-09",
@@ -331,8 +331,13 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 185000,
-      "transactions": 3
+      "medianPrice": 256000,
+      "transactions": 10
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 460000,
+      "transactions": 2
     }
   ],
   "quarterlyHistory": [
@@ -368,8 +373,8 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 231000,
-      "transactions": 33
+      "medianPrice": 224750,
+      "transactions": 36
     },
     {
       "quarter": "2025-Q4",
@@ -378,8 +383,13 @@
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 261000,
-      "transactions": 20
+      "medianPrice": 265000,
+      "transactions": 27
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 460000,
+      "transactions": 2
     }
   ]
 }

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.787Z",
+  "updatedAt": "2026-06-23T19:12:06.590Z",
   "townSlug": "colchester",
   "countySlug": "essex",
   "stats": {
-    "medianPrice": 316000,
+    "medianPrice": 320000,
     "medianByType": {
       "D": 450000,
       "S": 325000,
-      "T": 270000,
-      "F": 170000
+      "T": 268000,
+      "F": 169000
     },
-    "transactionCount12m": 2186,
-    "yoyChange": -1.3,
-    "newBuildCount": 64,
-    "existingCount": 2122,
-    "newBuildPremium": 30.2
+    "transactionCount12m": 2222,
+    "yoyChange": 0,
+    "newBuildCount": 63,
+    "existingCount": 2159,
+    "newBuildPremium": 38.1
   },
   "recentTransactions": [
     {
-      "price": 485000,
-      "date": "2026-03-27",
-      "postcode": "CO4 9FS",
+      "price": 153000,
+      "date": "2026-04-27",
+      "postcode": "CO4 5TY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, JOY CLUCAS HOUSE, APPRENTICE DRIVE"
+    },
+    {
+      "price": 950000,
+      "date": "2026-04-23",
+      "postcode": "CO5 0FP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, ASQUITH DRIVE"
+      "address": "8, SALIS CLOSE"
     },
     {
-      "price": 310000,
-      "date": "2026-03-26",
-      "postcode": "CO4 5AQ",
+      "price": 862000,
+      "date": "2026-04-23",
+      "postcode": "CO3 3RQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, WROXHAM CLOSE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-04-20",
+      "postcode": "CO2 7PG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, KING GEORGE ROAD"
+    },
+    {
+      "price": 390000,
+      "date": "2026-04-17",
+      "postcode": "CO4 3FH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, CHAFFINCH GARDENS"
+    },
+    {
+      "price": 325000,
+      "date": "2026-04-17",
+      "postcode": "CO5 0FH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, KETLEY CLOSE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-04-17",
+      "postcode": "CO4 5EW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "114, BERGHOLT ROAD"
+      "address": "70, NAYLAND ROAD"
     },
     {
       "price": 350000,
-      "date": "2026-03-26",
-      "postcode": "CO5 0DW",
+      "date": "2026-04-17",
+      "postcode": "CO3 0QU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, CAROLINA WAY"
+      "address": "6, VALLEY CLOSE"
     },
     {
-      "price": 775000,
-      "date": "2026-03-25",
-      "postcode": "CO7 6FE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, SAUNDERS FIELD"
-    },
-    {
-      "price": 190000,
-      "date": "2026-03-24",
-      "postcode": "CO1 2LZ",
+      "price": 200000,
+      "date": "2026-04-17",
+      "postcode": "CO4 3YY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "137, BARRACK STREET"
+      "address": "3, PURCELL CLOSE"
     },
     {
-      "price": 362500,
-      "date": "2026-03-24",
-      "postcode": "CO6 1XB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, KEABLE ROAD"
-    },
-    {
-      "price": 190000,
-      "date": "2026-03-23",
-      "postcode": "CO2 8XZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "55, BALLANTYNE DRIVE"
-    },
-    {
-      "price": 170000,
-      "date": "2026-03-20",
-      "postcode": "CO3 0RG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "53, WEYLAND DRIVE"
-    },
-    {
-      "price": 545000,
-      "date": "2026-03-20",
-      "postcode": "CO6 3NP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRIERSIDE, PLUMMERS ROAD"
-    },
-    {
-      "price": 320000,
-      "date": "2026-03-20",
-      "postcode": "CO2 9FZ",
+      "price": 350000,
+      "date": "2026-04-17",
+      "postcode": "CO5 0BG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, TROWEL PLACE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-03-20",
-      "postcode": "CO3 8AS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, OSTRICH STREET"
-    },
-    {
-      "price": 315500,
-      "date": "2026-03-20",
-      "postcode": "CO6 1LE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, BURY CLOSE"
-    },
-    {
-      "price": 110000,
-      "date": "2026-03-19",
-      "postcode": "CO1 1BQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 16, STUART HOUSE, ST PETERS STREET"
-    },
-    {
-      "price": 85000,
-      "date": "2026-03-17",
-      "postcode": "CO3 3FF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, SALTER COURT, ST MARYS FIELDS"
-    },
-    {
-      "price": 310000,
-      "date": "2026-03-17",
-      "postcode": "CO3 0RU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, ROSE AVENUE"
-    },
-    {
-      "price": 300000,
-      "date": "2026-03-17",
-      "postcode": "CO4 9RR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, BERKLEY CLOSE"
+      "address": "8, LAVENDER CLOSE"
     },
     {
       "price": 360000,
-      "date": "2026-03-16",
-      "postcode": "CO3 3HL",
+      "date": "2026-04-17",
+      "postcode": "CO4 0JX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, KEBLE CLOSE"
+      "address": "8, BROAD OAKS PARK"
     },
     {
-      "price": 445000,
-      "date": "2026-03-16",
-      "postcode": "CO7 9SJ",
+      "price": 155000,
+      "date": "2026-04-17",
+      "postcode": "CO3 4RP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, VICARAGE COURT, SHRUB END ROAD"
+    },
+    {
+      "price": 295000,
+      "date": "2026-04-17",
+      "postcode": "CO5 0EA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, GREEN LANE"
+    },
+    {
+      "price": 355000,
+      "date": "2026-04-17",
+      "postcode": "CO4 5ZU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, BLADE ROAD"
+    },
+    {
+      "price": 125000,
+      "date": "2026-04-17",
+      "postcode": "CO1 2XT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "92, NICHOLSONS GROVE"
+    },
+    {
+      "price": 515000,
+      "date": "2026-04-17",
+      "postcode": "CO4 5YJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, WILSON CLOSE"
+      "address": "237, AXIAL DRIVE"
     },
     {
-      "price": 460000,
-      "date": "2026-03-13",
-      "postcode": "CO4 9AN",
+      "price": 375000,
+      "date": "2026-04-17",
+      "postcode": "CO5 7LR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, ERNEST FANCY LANE"
+      "address": "4, PERTWEE WAY"
     },
     {
-      "price": 320000,
-      "date": "2026-03-13",
-      "postcode": "CO5 7JQ",
+      "price": 762500,
+      "date": "2026-04-17",
+      "postcode": "CO6 4AR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, MANOR CLOSE"
+    },
+    {
+      "price": 259000,
+      "date": "2026-04-17",
+      "postcode": "CO2 8WW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, MARSH CRESCENT"
+      "address": "99, JOHN MACE ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-04-16",
+      "postcode": "CO5 7PT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FERNS, CHURCH ROAD"
     }
   ],
   "monthlyHistory": [
@@ -242,7 +242,7 @@
     {
       "month": "2024-09",
       "medianPrice": 325000,
-      "transactions": 228
+      "transactions": 229
     },
     {
       "month": "2024-10",
@@ -256,8 +256,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 325000,
-      "transactions": 297
+      "medianPrice": 323000,
+      "transactions": 298
     },
     {
       "month": "2025-01",
@@ -272,67 +272,72 @@
     {
       "month": "2025-03",
       "medianPrice": 332500,
-      "transactions": 536
+      "transactions": 538
     },
     {
       "month": "2025-04",
       "medianPrice": 295000,
-      "transactions": 119
+      "transactions": 121
     },
     {
       "month": "2025-05",
       "medianPrice": 321500,
-      "transactions": 188
+      "transactions": 192
     },
     {
       "month": "2025-06",
-      "medianPrice": 313750,
-      "transactions": 268
+      "medianPrice": 312500,
+      "transactions": 281
     },
     {
       "month": "2025-07",
       "medianPrice": 310000,
-      "transactions": 280
+      "transactions": 306
     },
     {
       "month": "2025-08",
-      "medianPrice": 318500,
-      "transactions": 244
+      "medianPrice": 320000,
+      "transactions": 253
     },
     {
       "month": "2025-09",
-      "medianPrice": 325000,
-      "transactions": 227
+      "medianPrice": 326000,
+      "transactions": 233
     },
     {
       "month": "2025-10",
-      "medianPrice": 315000,
-      "transactions": 266
+      "medianPrice": 312500,
+      "transactions": 280
     },
     {
       "month": "2025-11",
-      "medianPrice": 325000,
-      "transactions": 190
+      "medianPrice": 322500,
+      "transactions": 204
     },
     {
       "month": "2025-12",
-      "medianPrice": 308750,
-      "transactions": 212
+      "medianPrice": 310000,
+      "transactions": 217
     },
     {
       "month": "2026-01",
       "medianPrice": 300000,
-      "transactions": 171
+      "transactions": 176
     },
     {
       "month": "2026-02",
-      "medianPrice": 319000,
-      "transactions": 166
+      "medianPrice": 320000,
+      "transactions": 179
     },
     {
       "month": "2026-03",
-      "medianPrice": 346250,
-      "transactions": 66
+      "medianPrice": 320000,
+      "transactions": 166
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 317500,
+      "transactions": 70
     }
   ],
   "quarterlyHistory": [
@@ -348,38 +353,43 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 321500,
-      "transactions": 796
+      "medianPrice": 322000,
+      "transactions": 797
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 310000,
-      "transactions": 933
+      "medianPrice": 309000,
+      "transactions": 934
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 330000,
-      "transactions": 1056
+      "transactions": 1058
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 310000,
-      "transactions": 575
+      "transactions": 594
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 318000,
-      "transactions": 751
+      "medianPrice": 320000,
+      "transactions": 792
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 315000,
-      "transactions": 668
+      "transactions": 701
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 315500,
-      "transactions": 403
+      "medianPrice": 317500,
+      "transactions": 521
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 317500,
+      "transactions": 70
     }
   ]
 }

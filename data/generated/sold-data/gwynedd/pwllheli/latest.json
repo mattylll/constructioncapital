@@ -1,22 +1,103 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.945Z",
+  "updatedAt": "2026-06-23T19:12:08.947Z",
   "townSlug": "pwllheli",
   "countySlug": "gwynedd",
   "stats": {
-    "medianPrice": 250000,
+    "medianPrice": 265000,
     "medianByType": {
-      "D": 313500,
-      "S": 250875,
-      "T": 165000,
+      "D": 347500,
+      "S": 267500,
+      "T": 183000,
       "F": 174000
     },
-    "transactionCount12m": 157,
-    "yoyChange": 0.8,
+    "transactionCount12m": 155,
+    "yoyChange": 6.9,
     "newBuildCount": 0,
-    "existingCount": 157,
+    "existingCount": 155,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 145000,
+      "date": "2026-04-13",
+      "postcode": "LL53 6NH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PEN Y GROES"
+    },
+    {
+      "price": 410000,
+      "date": "2026-04-10",
+      "postcode": "LL53 7RF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CYNLAS"
+    },
+    {
+      "price": 410000,
+      "date": "2026-04-07",
+      "postcode": "LL53 7EW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CAER GRAIG, LON HAWEN"
+    },
+    {
+      "price": 540000,
+      "date": "2026-04-01",
+      "postcode": "LL53 7RN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GODRE'R FOEL"
+    },
+    {
+      "price": 205000,
+      "date": "2026-03-30",
+      "postcode": "LL53 5AU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, MORFA'R GARREG"
+    },
+    {
+      "price": 285000,
+      "date": "2026-03-26",
+      "postcode": "LL53 5TJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRYN GWYN, 10, PARC YR EFAIL"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-24",
+      "postcode": "LL53 6UR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TY MAWR"
+    },
+    {
+      "price": 680000,
+      "date": "2026-03-20",
+      "postcode": "LL53 7BE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SEACROFT, LON RHOSLYN"
+    },
+    {
+      "price": 250000,
+      "date": "2026-03-20",
+      "postcode": "LL53 7EF",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BEACH HUT, PORTH OER BEACH HUTS, GOLF ROAD"
+    },
     {
       "price": 190000,
       "date": "2026-03-12",
@@ -25,6 +106,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "9, PENRHOS"
+    },
+    {
+      "price": 300000,
+      "date": "2026-03-06",
+      "postcode": "LL53 8DT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HEN WELLINGTON"
+    },
+    {
+      "price": 375000,
+      "date": "2026-03-06",
+      "postcode": "LL53 6PA",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GORSLWYD"
     },
     {
       "price": 250000,
@@ -72,6 +171,15 @@
       "address": "28, GLYN Y MOR"
     },
     {
+      "price": 162000,
+      "date": "2026-02-18",
+      "postcode": "LL53 5HP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, NEW STREET"
+    },
+    {
       "price": 375000,
       "date": "2026-02-18",
       "postcode": "LL53 6TJ",
@@ -88,114 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "4, GERDDI MADRYN"
-    },
-    {
-      "price": 151000,
-      "date": "2026-02-12",
-      "postcode": "LL53 5BU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HEULFRE, ALA ROAD"
-    },
-    {
-      "price": 580000,
-      "date": "2026-02-10",
-      "postcode": "LL53 7LY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "AFALLON, 18, TAN Y GAER"
-    },
-    {
-      "price": 500000,
-      "date": "2026-02-09",
-      "postcode": "LL53 7EH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TREMYNYS"
-    },
-    {
-      "price": 225000,
-      "date": "2026-02-09",
-      "postcode": "LL53 7PG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, TYN Y PWLL ESTATE"
-    },
-    {
-      "price": 202000,
-      "date": "2026-02-06",
-      "postcode": "LL53 6PA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "NANT BACH"
-    },
-    {
-      "price": 188000,
-      "date": "2026-02-06",
-      "postcode": "LL53 7YP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "Y BWTHYN"
-    },
-    {
-      "price": 306000,
-      "date": "2026-02-06",
-      "postcode": "LL53 6SR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "STATION COTTAGE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-01-30",
-      "postcode": "LL53 5AP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SANDYGATE, FFORDD MELA"
-    },
-    {
-      "price": 105000,
-      "date": "2026-01-29",
-      "postcode": "LL53 5DR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, KINGSHEAD STREET"
-    },
-    {
-      "price": 100000,
-      "date": "2026-01-27",
-      "postcode": "LL53 6SN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, GLAN Y WERN TERRACE"
-    },
-    {
-      "price": 201000,
-      "date": "2026-01-26",
-      "postcode": "LL53 7TD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, PEN Y GROES COTTAGES"
-    },
-    {
-      "price": 330000,
-      "date": "2026-01-23",
-      "postcode": "LL53 6AU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "Y DRYSLWYN, LONYLLWYN"
     }
   ],
   "monthlyHistory": [
@@ -262,7 +262,7 @@
     {
       "month": "2025-01",
       "medianPrice": 280000,
-      "transactions": 15
+      "transactions": 16
     },
     {
       "month": "2025-02",
@@ -281,38 +281,38 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 240000,
-      "transactions": 23
+      "medianPrice": 244485,
+      "transactions": 24
     },
     {
       "month": "2025-06",
-      "medianPrice": 225000,
-      "transactions": 33
+      "medianPrice": 220000,
+      "transactions": 35
     },
     {
       "month": "2025-07",
       "medianPrice": 312000,
-      "transactions": 15
+      "transactions": 19
     },
     {
       "month": "2025-08",
-      "medianPrice": 258000,
-      "transactions": 23
+      "medianPrice": 265000,
+      "transactions": 25
     },
     {
       "month": "2025-09",
       "medianPrice": 292500,
-      "transactions": 11
+      "transactions": 13
     },
     {
       "month": "2025-10",
       "medianPrice": 224975,
-      "transactions": 24
+      "transactions": 26
     },
     {
       "month": "2025-11",
       "medianPrice": 277500,
-      "transactions": 12
+      "transactions": 14
     },
     {
       "month": "2025-12",
@@ -321,18 +321,23 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 220475,
-      "transactions": 10
+      "medianPrice": 239950,
+      "transactions": 9
     },
     {
       "month": "2026-02",
-      "medianPrice": 245000,
-      "transactions": 14
+      "medianPrice": 240000,
+      "transactions": 15
     },
     {
       "month": "2026-03",
-      "medianPrice": 190000,
-      "transactions": 1
+      "medianPrice": 267500,
+      "transactions": 8
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 410000,
+      "transactions": 4
     }
   ],
   "quarterlyHistory": [
@@ -359,27 +364,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 250000,
-      "transactions": 58
+      "transactions": 59
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 225000,
-      "transactions": 70
+      "transactions": 73
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 280000,
-      "transactions": 49
+      "transactions": 57
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 242500,
-      "transactions": 46
+      "medianPrice": 250000,
+      "transactions": 50
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 239950,
-      "transactions": 25
+      "medianPrice": 245000,
+      "transactions": 32
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 410000,
+      "transactions": 4
     }
   ]
 }

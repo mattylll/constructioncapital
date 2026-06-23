@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.473Z",
+  "updatedAt": "2026-06-23T19:12:08.447Z",
   "townSlug": "morpeth",
   "countySlug": "northumberland",
   "stats": {
-    "medianPrice": 240000,
+    "medianPrice": 247250,
     "medianByType": {
-      "D": 387500,
-      "S": 210000,
-      "T": 166202,
-      "F": 153000
+      "D": 390000,
+      "S": 212000,
+      "T": 169975,
+      "F": 153500
     },
-    "transactionCount12m": 766,
-    "yoyChange": 2.1,
-    "newBuildCount": 43,
-    "existingCount": 723,
-    "newBuildPremium": 75.7
+    "transactionCount12m": 746,
+    "yoyChange": 5.2,
+    "newBuildCount": 38,
+    "existingCount": 708,
+    "newBuildPremium": 64.8
   },
   "recentTransactions": [
     {
-      "price": 190000,
-      "date": "2026-03-27",
-      "postcode": "NE61 1UA",
+      "price": 425000,
+      "date": "2026-04-28",
+      "postcode": "NE61 6AG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BIRCHWOOD"
+    },
+    {
+      "price": 185000,
+      "date": "2026-04-27",
+      "postcode": "NE65 9RG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, THE DUNES"
+    },
+    {
+      "price": 75000,
+      "date": "2026-04-24",
+      "postcode": "NE61 5TD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, CRAWFORD TERRACE"
+      "address": "5, DALTON AVENUE"
     },
     {
-      "price": 25000,
-      "date": "2026-03-20",
-      "postcode": "NE61 5AJ",
-      "propertyType": "S",
+      "price": 303000,
+      "date": "2026-04-24",
+      "postcode": "NE61 1JF",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "BILLENDENE, MAIN STREET"
-    },
-    {
-      "price": 161000,
-      "date": "2026-03-20",
-      "postcode": "NE61 2GD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, BOWYER WAY"
+      "address": "36, HOOD STREET"
     },
     {
       "price": 440000,
-      "date": "2026-03-19",
-      "postcode": "NE65 7AJ",
+      "date": "2026-04-24",
+      "postcode": "NE61 1XD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE WYND"
+      "address": "5, BANKSIDE"
     },
     {
-      "price": 400000,
-      "date": "2026-03-18",
-      "postcode": "NE61 1QD",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE OLD STABLES, GREYS YARD"
-    },
-    {
-      "price": 150000,
-      "date": "2026-03-18",
-      "postcode": "NE61 2HT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, ELEVENTH AVENUE"
-    },
-    {
-      "price": 477500,
-      "date": "2026-03-16",
-      "postcode": "NE61 2GE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CRANFORD COURT"
-    },
-    {
-      "price": 365000,
-      "date": "2026-03-16",
-      "postcode": "NE61 3EZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, WHITE BEAM WAY"
-    },
-    {
-      "price": 720000,
-      "date": "2026-03-16",
+      "price": 640000,
+      "date": "2026-04-14",
       "postcode": "NE65 9JD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, PARK ROAD"
+      "address": "42, PARK ROAD"
     },
     {
-      "price": 90000,
-      "date": "2026-03-13",
-      "postcode": "NE65 9SP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, CHEVIOT CRESCENT"
-    },
-    {
-      "price": 83000,
-      "date": "2026-03-13",
-      "postcode": "NE61 5HQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, DENE VIEW"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-13",
-      "postcode": "NE61 1HD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, WANSBECK COURT"
-    },
-    {
-      "price": 183000,
-      "date": "2026-03-12",
-      "postcode": "NE65 7QZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, JUBILEE CRESCENT"
-    },
-    {
-      "price": 265000,
-      "date": "2026-03-12",
-      "postcode": "NE65 7QN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, WHITTON VIEW"
-    },
-    {
-      "price": 210000,
-      "date": "2026-03-12",
-      "postcode": "NE61 3FF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53B, FENNEL WAY"
-    },
-    {
-      "price": 130000,
-      "date": "2026-03-09",
-      "postcode": "NE61 5NQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, MARGARET STREET"
-    },
-    {
-      "price": 150000,
-      "date": "2026-03-09",
-      "postcode": "NE65 7EJ",
+      "price": 239950,
+      "date": "2026-04-13",
+      "postcode": "NE65 0DF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "NORTH CROFT"
+      "address": "6, SHEARWATER DRIVE"
     },
     {
-      "price": 68000,
-      "date": "2026-03-06",
-      "postcode": "NE61 5ES",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "42, TWEED AVENUE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-03-06",
-      "postcode": "NE65 9NG",
+      "price": 232500,
+      "date": "2026-04-10",
+      "postcode": "NE61 2RB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, BENLAW GROVE"
+      "address": "5, WOODMAN CLOSE"
     },
     {
-      "price": 70000,
-      "date": "2026-03-06",
-      "postcode": "NE61 5TE",
+      "price": 260000,
+      "date": "2026-04-10",
+      "postcode": "NE61 3TU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "HALE-BOPP HEIGHTS, 8, WHALTON PARK"
+    },
+    {
+      "price": 332000,
+      "date": "2026-04-09",
+      "postcode": "NE61 6TN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, BURGHLEY GARDENS"
+    },
+    {
+      "price": 440000,
+      "date": "2026-04-08",
+      "postcode": "NE61 2XT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, TOWNSEND CRESCENT"
+    },
+    {
+      "price": 210000,
+      "date": "2026-04-08",
+      "postcode": "NE61 2LY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "47, DALTON AVENUE"
+      "address": "11, ABBOTS WAY"
+    },
+    {
+      "price": 320000,
+      "date": "2026-04-02",
+      "postcode": "NE65 8XE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, LINDEN COTTAGES"
+    },
+    {
+      "price": 800000,
+      "date": "2026-04-02",
+      "postcode": "NE61 3QF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE GRANARY"
+    },
+    {
+      "price": 530000,
+      "date": "2026-04-02",
+      "postcode": "NE65 0JR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, HAUXLEY LINKS"
+    },
+    {
+      "price": 550000,
+      "date": "2026-04-02",
+      "postcode": "NE65 0FB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 23, COBLE QUAY"
+    },
+    {
+      "price": 205000,
+      "date": "2026-04-02",
+      "postcode": "NE65 0TP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, WARKWORTH AVENUE"
+    },
+    {
+      "price": 600000,
+      "date": "2026-04-02",
+      "postcode": "NE61 6FL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, PELE COURT"
+    },
+    {
+      "price": 230000,
+      "date": "2026-04-01",
+      "postcode": "NE61 1QU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, HIGH STANNERS"
+    },
+    {
+      "price": 450000,
+      "date": "2026-04-01",
+      "postcode": "NE65 8AS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, THE ORCHARD"
     }
   ],
   "monthlyHistory": [
@@ -231,8 +231,8 @@
     },
     {
       "month": "2024-07",
-      "medianPrice": 233750,
-      "transactions": 128
+      "medianPrice": 232500,
+      "transactions": 129
     },
     {
       "month": "2024-08",
@@ -257,7 +257,7 @@
     {
       "month": "2024-12",
       "medianPrice": 250000,
-      "transactions": 132
+      "transactions": 133
     },
     {
       "month": "2025-01",
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 260000,
-      "transactions": 169
+      "medianPrice": 262250,
+      "transactions": 170
     },
     {
       "month": "2025-04",
@@ -281,43 +281,43 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 224500,
-      "transactions": 84
+      "medianPrice": 235000,
+      "transactions": 89
     },
     {
       "month": "2025-06",
-      "medianPrice": 235000,
-      "transactions": 105
+      "medianPrice": 256775,
+      "transactions": 114
     },
     {
       "month": "2025-07",
-      "medianPrice": 197500,
-      "transactions": 68
+      "medianPrice": 201017,
+      "transactions": 78
     },
     {
       "month": "2025-08",
-      "medianPrice": 275500,
-      "transactions": 86
+      "medianPrice": 275000,
+      "transactions": 88
     },
     {
       "month": "2025-09",
       "medianPrice": 229500,
-      "transactions": 100
+      "transactions": 102
     },
     {
       "month": "2025-10",
       "medianPrice": 255000,
-      "transactions": 91
+      "transactions": 97
     },
     {
       "month": "2025-11",
-      "medianPrice": 282625,
-      "transactions": 66
+      "medianPrice": 287000,
+      "transactions": 71
     },
     {
       "month": "2025-12",
-      "medianPrice": 275000,
-      "transactions": 69
+      "medianPrice": 278000,
+      "transactions": 71
     },
     {
       "month": "2026-01",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 237500,
-      "transactions": 52
+      "medianPrice": 235000,
+      "transactions": 53
     },
     {
       "month": "2026-03",
-      "medianPrice": 161000,
-      "transactions": 25
+      "medianPrice": 192500,
+      "transactions": 56
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 320000,
+      "transactions": 21
     }
   ],
   "quarterlyHistory": [
@@ -348,38 +353,43 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 230000,
-      "transactions": 371
+      "medianPrice": 228750,
+      "transactions": 372
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 242475,
-      "transactions": 370
+      "medianPrice": 242950,
+      "transactions": 371
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 238750,
-      "transactions": 342
+      "medianPrice": 240000,
+      "transactions": 343
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 222475,
-      "transactions": 246
+      "medianPrice": 228750,
+      "transactions": 260
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 230000,
-      "transactions": 254
+      "transactions": 268
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 271250,
-      "transactions": 226
+      "medianPrice": 275000,
+      "transactions": 239
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 235000,
-      "transactions": 131
+      "transactions": 163
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 320000,
+      "transactions": 21
     }
   ]
 }

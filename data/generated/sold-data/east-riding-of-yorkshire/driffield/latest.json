@@ -1,22 +1,148 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.514Z",
+  "updatedAt": "2026-06-23T19:12:08.497Z",
   "townSlug": "driffield",
   "countySlug": "east-riding-of-yorkshire",
   "stats": {
-    "medianPrice": 220000,
+    "medianPrice": 215000,
     "medianByType": {
-      "D": 318000,
-      "S": 187500,
-      "T": 154500,
+      "D": 305000,
+      "S": 186500,
+      "T": 152000,
       "F": 77000
     },
-    "transactionCount12m": 472,
-    "yoyChange": 4.3,
-    "newBuildCount": 16,
-    "existingCount": 456,
-    "newBuildPremium": 50
+    "transactionCount12m": 473,
+    "yoyChange": 0.9,
+    "newBuildCount": 7,
+    "existingCount": 466,
+    "newBuildPremium": 11.6
   },
   "recentTransactions": [
+    {
+      "price": 70000,
+      "date": "2026-04-20",
+      "postcode": "YO25 6LR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, EASTGATE SOUTH"
+    },
+    {
+      "price": 235000,
+      "date": "2026-04-20",
+      "postcode": "YO25 5JB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14A, WOODLAND RISE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-04-17",
+      "postcode": "YO25 5XA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ROSE COTTAGE, YORK ROAD"
+    },
+    {
+      "price": 72000,
+      "date": "2026-04-14",
+      "postcode": "YO25 6QQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE COTTAGE, PROVIDENCE PLACE"
+    },
+    {
+      "price": 169950,
+      "date": "2026-04-13",
+      "postcode": "YO25 8DN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BACK VILLAGE GREEN"
+    },
+    {
+      "price": 227000,
+      "date": "2026-04-10",
+      "postcode": "YO25 5BR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, FORLORNS DRIVE"
+    },
+    {
+      "price": 415000,
+      "date": "2026-04-09",
+      "postcode": "YO25 3HA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, TOWTHORPE COTTAGES"
+    },
+    {
+      "price": 222500,
+      "date": "2026-04-08",
+      "postcode": "YO25 5HP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, MANORFIELD AVENUE"
+    },
+    {
+      "price": 305000,
+      "date": "2026-04-08",
+      "postcode": "YO25 4SU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, MIDDLEWOOD CLOSE"
+    },
+    {
+      "price": 163000,
+      "date": "2026-04-02",
+      "postcode": "YO25 6SQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, ELM ROAD"
+    },
+    {
+      "price": 167000,
+      "date": "2026-04-01",
+      "postcode": "YO25 9QR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30B, MAIN STREET"
+    },
+    {
+      "price": 400000,
+      "date": "2026-04-01",
+      "postcode": "YO25 4BA",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CLITHEROE FARM, KILHAM ROAD"
+    },
+    {
+      "price": 460000,
+      "date": "2026-03-31",
+      "postcode": "YO25 9DW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SUMMERLANDS"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-31",
+      "postcode": "YO25 6RU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, LOCKWOOD STREET"
+    },
     {
       "price": 230000,
       "date": "2026-03-30",
@@ -27,175 +153,49 @@
       "address": "2, LONDESBOROUGH COURT"
     },
     {
-      "price": 201250,
-      "date": "2026-03-23",
-      "postcode": "YO25 9QJ",
-      "propertyType": "S",
+      "price": 662500,
+      "date": "2026-03-30",
+      "postcode": "YO25 5UT",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, SYCAMORE CRESCENT"
+      "address": "NORTHFIELD MANOR NURSING HOME, LONG LANE"
     },
     {
-      "price": 202000,
-      "date": "2026-03-23",
-      "postcode": "YO25 5PF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, DARWIN DRIVE"
-    },
-    {
-      "price": 340000,
-      "date": "2026-03-20",
-      "postcode": "YO25 5DE",
+      "price": 285000,
+      "date": "2026-03-27",
+      "postcode": "YO25 9UA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, MILNER AVENUE"
+      "address": "13, FRONT STREET"
     },
     {
-      "price": 196000,
-      "date": "2026-03-19",
-      "postcode": "YO25 5AY",
+      "price": 255000,
+      "date": "2026-03-27",
+      "postcode": "YO25 4SZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "77, YORK ROAD"
+      "address": "7, ROPERY CLOSE"
     },
     {
-      "price": 185000,
-      "date": "2026-03-19",
-      "postcode": "YO25 5JL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "140, THE MOUNT"
-    },
-    {
-      "price": 225000,
-      "date": "2026-03-17",
-      "postcode": "YO25 4QA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, WEST END FALLS"
-    },
-    {
-      "price": 245000,
-      "date": "2026-03-16",
-      "postcode": "YO25 9BA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BEELER CLOSE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-03-13",
-      "postcode": "YO25 3TU",
+      "price": 215000,
+      "date": "2026-03-27",
+      "postcode": "YO25 6PF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE SQUIRRELS, KILHAM ROAD"
+      "address": "2, RIVERSIDE MEWS"
     },
     {
-      "price": 165000,
-      "date": "2026-03-13",
-      "postcode": "YO25 5JB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, WOODLAND RISE"
-    },
-    {
-      "price": 173000,
-      "date": "2026-03-13",
-      "postcode": "YO25 5HH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, CURLEW CLOSE"
-    },
-    {
-      "price": 815000,
-      "date": "2026-03-06",
-      "postcode": "YO25 9EX",
+      "price": 300000,
+      "date": "2026-03-27",
+      "postcode": "YO25 4UH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, MONTGOMERY SQUARE"
-    },
-    {
-      "price": 262500,
-      "date": "2026-03-06",
-      "postcode": "YO25 5YW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, WHITELANDS"
-    },
-    {
-      "price": 165000,
-      "date": "2026-03-06",
-      "postcode": "YO25 3ED",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, SWAYTHORPE FARM COTTAGES"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-06",
-      "postcode": "YO25 5JN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "124, THE MOUNT"
-    },
-    {
-      "price": 315000,
-      "date": "2026-03-05",
-      "postcode": "YO25 5HL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, FIELDFARE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-05",
-      "postcode": "YO25 9XT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TAILORS COTTAGE, 6, PULHAM LANE"
-    },
-    {
-      "price": 106000,
-      "date": "2026-03-03",
-      "postcode": "YO25 6AB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, CRICKETERS COURT, LOCKWOOD STREET"
-    },
-    {
-      "price": 380000,
-      "date": "2026-03-02",
-      "postcode": "YO25 5AU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, YORK ROAD"
-    },
-    {
-      "price": 95000,
-      "date": "2026-03-02",
-      "postcode": "YO25 6NW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, RIVERHEAD COURT, RIVERHEAD"
+      "address": "MAYTHORPE HOUSE, LONG STREET"
     }
   ],
   "monthlyHistory": [
@@ -281,23 +281,23 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 189500,
-      "transactions": 46
+      "medianPrice": 192000,
+      "transactions": 47
     },
     {
       "month": "2025-06",
-      "medianPrice": 255000,
-      "transactions": 45
+      "medianPrice": 251000,
+      "transactions": 46
     },
     {
       "month": "2025-07",
-      "medianPrice": 197500,
-      "transactions": 53
+      "medianPrice": 188100,
+      "transactions": 61
     },
     {
       "month": "2025-08",
-      "medianPrice": 206250,
-      "transactions": 54
+      "medianPrice": 205000,
+      "transactions": 55
     },
     {
       "month": "2025-09",
@@ -306,13 +306,13 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 262000,
-      "transactions": 60
+      "medianPrice": 260000,
+      "transactions": 61
     },
     {
       "month": "2025-11",
-      "medianPrice": 205000,
-      "transactions": 41
+      "medianPrice": 200000,
+      "transactions": 43
     },
     {
       "month": "2025-12",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 190000,
-      "transactions": 39
+      "medianPrice": 195000,
+      "transactions": 41
     },
     {
       "month": "2026-03",
-      "medianPrice": 225000,
-      "transactions": 21
+      "medianPrice": 227500,
+      "transactions": 44
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 216250,
+      "transactions": 12
     }
   ],
   "quarterlyHistory": [
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 208550,
-      "transactions": 136
+      "medianPrice": 211250,
+      "transactions": 138
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 202000,
-      "transactions": 152
+      "medianPrice": 200000,
+      "transactions": 161
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 230000,
-      "transactions": 162
+      "transactions": 165
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 201625,
-      "transactions": 96
+      "medianPrice": 215000,
+      "transactions": 121
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 216250,
+      "transactions": 12
     }
   ]
 }

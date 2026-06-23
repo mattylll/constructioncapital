@@ -1,22 +1,184 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.678Z",
+  "updatedAt": "2026-06-23T19:12:07.580Z",
   "townSlug": "corby",
   "countySlug": "northamptonshire",
   "stats": {
     "medianPrice": 220000,
     "medianByType": {
-      "D": 327500,
-      "S": 224975,
+      "D": 335000,
+      "S": 222000,
       "T": 190000,
-      "F": 129000
+      "F": 130000
     },
-    "transactionCount12m": 764,
-    "yoyChange": -5.4,
-    "newBuildCount": 26,
-    "existingCount": 738,
-    "newBuildPremium": 35.9
+    "transactionCount12m": 744,
+    "yoyChange": -6,
+    "newBuildCount": 20,
+    "existingCount": 724,
+    "newBuildPremium": 39.5
   },
   "recentTransactions": [
+    {
+      "price": 295000,
+      "date": "2026-04-17",
+      "postcode": "NN18 8RG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, HUNTINGDON CLOSE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-04-15",
+      "postcode": "NN18 8NW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, VIOLET CLOSE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-04-14",
+      "postcode": "NN18 0NR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SCARBOROUGH WALK"
+    },
+    {
+      "price": 259995,
+      "date": "2026-04-13",
+      "postcode": "NN17 2BP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, ROWLETT ROAD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-04-10",
+      "postcode": "NN17 2JU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, HUMBER WALK"
+    },
+    {
+      "price": 175000,
+      "date": "2026-04-08",
+      "postcode": "NN18 8TW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, FLINDERS CLOSE"
+    },
+    {
+      "price": 193000,
+      "date": "2026-04-02",
+      "postcode": "NN18 9HS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, SPILSBY CLOSE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-04-02",
+      "postcode": "NN17 1EL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "73, WEST GLEBE ROAD"
+    },
+    {
+      "price": 123000,
+      "date": "2026-04-02",
+      "postcode": "NN18 8FW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "35, CONYGER CLOSE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-04-02",
+      "postcode": "NN18 8FX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "66, OUTFIELD CLOSE"
+    },
+    {
+      "price": 183500,
+      "date": "2026-03-31",
+      "postcode": "NN17 1HJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, TANFIELDS GROVE"
+    },
+    {
+      "price": 214000,
+      "date": "2026-03-31",
+      "postcode": "NN18 8FX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, OUTFIELD CLOSE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-03-31",
+      "postcode": "NN17 2AG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, WHITE POST COURT"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-30",
+      "postcode": "NN18 9BA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, HIGHBROOK"
+    },
+    {
+      "price": 215000,
+      "date": "2026-03-27",
+      "postcode": "NN18 9BE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "71, SOUTHBROOK"
+    },
+    {
+      "price": 255000,
+      "date": "2026-03-27",
+      "postcode": "NN18 8GG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, KESTEVEN WAY"
+    },
+    {
+      "price": 243750,
+      "date": "2026-03-27",
+      "postcode": "NN17 5EW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, SUNNINGDALE DRIVE"
+    },
+    {
+      "price": 352500,
+      "date": "2026-03-27",
+      "postcode": "NN18 8RL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, KELSO CLOSE"
+    },
     {
       "price": 125000,
       "date": "2026-03-26",
@@ -27,175 +189,13 @@
       "address": "20, FRANKLIN FIELDS"
     },
     {
-      "price": 300000,
-      "date": "2026-03-20",
-      "postcode": "NN17 5FP",
+      "price": 157000,
+      "date": "2026-03-25",
+      "postcode": "NN18 9BW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "120, KESTREL ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-03-20",
-      "postcode": "NN17 1NA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, OAKLEY ROAD"
-    },
-    {
-      "price": 125000,
-      "date": "2026-03-13",
-      "postcode": "NN18 8FW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "31, CONYGER CLOSE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-03-13",
-      "postcode": "NN18 8QU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, AYR CLOSE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-03-10",
-      "postcode": "NN18 0QT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, LOWRY CLOSE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-03-09",
-      "postcode": "NN17 3FS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, MASON CLOSE"
-    },
-    {
-      "price": 186000,
-      "date": "2026-03-06",
-      "postcode": "NN18 8RQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, SISKIN CLOSE"
-    },
-    {
-      "price": 382000,
-      "date": "2026-03-06",
-      "postcode": "NN17 5GD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, GLENEAGLES ROAD"
-    },
-    {
-      "price": 365000,
-      "date": "2026-03-06",
-      "postcode": "NN18 9BU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, BRANDENBURG ROAD"
-    },
-    {
-      "price": 195000,
-      "date": "2026-03-05",
-      "postcode": "NN17 2UT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, LARCH ROAD"
-    },
-    {
-      "price": 220000,
-      "date": "2026-03-03",
-      "postcode": "NN18 9EA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BALTIC CLOSE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-03",
-      "postcode": "NN17 5EP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "121, THE AVENUE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-03-02",
-      "postcode": "NN18 9JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, WESTMINSTER WALK"
-    },
-    {
-      "price": 224950,
-      "date": "2026-03-02",
-      "postcode": "NN17 2AF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, BEECH CLOSE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-27",
-      "postcode": "NN18 9DL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, NANSEN WALK"
-    },
-    {
-      "price": 225500,
-      "date": "2026-02-27",
-      "postcode": "NN17 4AH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, DEWAR CLOSE"
-    },
-    {
-      "price": 110000,
-      "date": "2026-02-27",
-      "postcode": "NN18 8FW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "54, CONYGER CLOSE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-27",
-      "postcode": "NN17 2LA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, TAMAR GREEN"
-    },
-    {
-      "price": 189995,
-      "date": "2026-02-27",
-      "postcode": "NN18 9FB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, OLYMPIC SQUARE"
+      "address": "6, GRANTHAM WALK"
     }
   ],
   "monthlyHistory": [
@@ -211,8 +211,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 247500,
-      "transactions": 88
+      "medianPrice": 250000,
+      "transactions": 89
     },
     {
       "month": "2024-04",
@@ -256,8 +256,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 229066,
-      "transactions": 118
+      "medianPrice": 229995,
+      "transactions": 119
     },
     {
       "month": "2025-01",
@@ -266,58 +266,58 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 240000,
-      "transactions": 117
+      "medianPrice": 242500,
+      "transactions": 118
     },
     {
       "month": "2025-03",
-      "medianPrice": 240000,
-      "transactions": 175
+      "medianPrice": 242500,
+      "transactions": 176
     },
     {
       "month": "2025-04",
-      "medianPrice": 250250,
-      "transactions": 70
+      "medianPrice": 253000,
+      "transactions": 71
     },
     {
       "month": "2025-05",
       "medianPrice": 233218,
-      "transactions": 72
+      "transactions": 74
     },
     {
       "month": "2025-06",
-      "medianPrice": 217500,
-      "transactions": 114
+      "medianPrice": 220000,
+      "transactions": 130
     },
     {
       "month": "2025-07",
-      "medianPrice": 200000,
-      "transactions": 88
+      "medianPrice": 203000,
+      "transactions": 101
     },
     {
       "month": "2025-08",
       "medianPrice": 225000,
-      "transactions": 65
+      "transactions": 67
     },
     {
       "month": "2025-09",
-      "medianPrice": 220000,
-      "transactions": 79
+      "medianPrice": 222000,
+      "transactions": 81
     },
     {
       "month": "2025-10",
       "medianPrice": 205000,
-      "transactions": 76
+      "transactions": 83
     },
     {
       "month": "2025-11",
-      "medianPrice": 240000,
-      "transactions": 75
+      "medianPrice": 241000,
+      "transactions": 78
     },
     {
       "month": "2025-12",
       "medianPrice": 220000,
-      "transactions": 93
+      "transactions": 95
     },
     {
       "month": "2026-01",
@@ -326,20 +326,25 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 215000,
-      "transactions": 53
+      "medianPrice": 220000,
+      "transactions": 57
     },
     {
       "month": "2026-03",
-      "medianPrice": 215000,
-      "transactions": 15
+      "medianPrice": 214000,
+      "transactions": 47
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 189000,
+      "transactions": 10
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 235300,
-      "transactions": 228
+      "medianPrice": 235600,
+      "transactions": 229
     },
     {
       "quarter": "2024-Q2",
@@ -353,33 +358,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 233975,
-      "transactions": 378
+      "medianPrice": 234950,
+      "transactions": 379
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 236250,
-      "transactions": 386
+      "medianPrice": 237500,
+      "transactions": 388
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 226436,
-      "transactions": 256
+      "medianPrice": 228500,
+      "transactions": 275
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 215000,
-      "transactions": 232
+      "medianPrice": 218500,
+      "transactions": 249
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 220000,
-      "transactions": 244
+      "medianPrice": 217500,
+      "transactions": 256
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 220000,
-      "transactions": 134
+      "transactions": 170
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 189000,
+      "transactions": 10
     }
   ]
 }

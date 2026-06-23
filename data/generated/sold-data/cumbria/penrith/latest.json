@@ -1,22 +1,175 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.090Z",
+  "updatedAt": "2026-06-23T19:12:08.020Z",
   "townSlug": "penrith",
   "countySlug": "cumbria",
   "stats": {
-    "medianPrice": 235000,
+    "medianPrice": 232000,
     "medianByType": {
-      "D": 360000,
-      "S": 230000,
-      "T": 172500,
-      "F": 122000
+      "D": 355000,
+      "S": 231000,
+      "T": 175000,
+      "F": 121250
     },
-    "transactionCount12m": 477,
-    "yoyChange": -9.6,
-    "newBuildCount": 10,
-    "existingCount": 467,
-    "newBuildPremium": 1.6
+    "transactionCount12m": 457,
+    "yoyChange": -9,
+    "newBuildCount": 6,
+    "existingCount": 451,
+    "newBuildPremium": 19.7
   },
   "recentTransactions": [
+    {
+      "price": 175000,
+      "date": "2026-04-24",
+      "postcode": "CA11 9BY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, JAMES STREET"
+    },
+    {
+      "price": 217000,
+      "date": "2026-04-10",
+      "postcode": "CA11 8AJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BEACON SQUARE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-04-10",
+      "postcode": "CA11 8PT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "78, CLIFFORD ROAD"
+    },
+    {
+      "price": 119000,
+      "date": "2026-04-10",
+      "postcode": "CA11 7GP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, TOURNAMENT HOUSE, BOWLING GREEN LANE"
+    },
+    {
+      "price": 52234,
+      "date": "2026-04-10",
+      "postcode": "CA11 8FA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, PRIMROSE DRIVE"
+    },
+    {
+      "price": 245000,
+      "date": "2026-04-10",
+      "postcode": "CA10 1FQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, ROMNEY RISE"
+    },
+    {
+      "price": 135000,
+      "date": "2026-04-07",
+      "postcode": "CA11 9QU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BRACKEN COURT"
+    },
+    {
+      "price": 160000,
+      "date": "2026-04-02",
+      "postcode": "CA10 2AX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CARLETON HALL ROAD"
+    },
+    {
+      "price": 215000,
+      "date": "2026-04-02",
+      "postcode": "CA11 9DH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, BROUGHAM STREET"
+    },
+    {
+      "price": 330000,
+      "date": "2026-04-02",
+      "postcode": "CA11 8BY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "94, TULIP GARDENS"
+    },
+    {
+      "price": 190000,
+      "date": "2026-04-01",
+      "postcode": "CA11 9HS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, MACADAM GARDENS"
+    },
+    {
+      "price": 430000,
+      "date": "2026-03-31",
+      "postcode": "CA11 8TP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PLOVER HOUSE"
+    },
+    {
+      "price": 1245000,
+      "date": "2026-03-31",
+      "postcode": "CA10 3AE",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "STATION HOUSE, STATION ROAD"
+    },
+    {
+      "price": 79000,
+      "date": "2026-03-31",
+      "postcode": "CA11 0XB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "23, ULLSWATER SUITE WHITBARROW"
+    },
+    {
+      "price": 710000,
+      "date": "2026-03-30",
+      "postcode": "CA10 2JW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "RICKSTEAD HOUSE"
+    },
+    {
+      "price": 292000,
+      "date": "2026-03-27",
+      "postcode": "CA10 1UP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRIGHT PROSPECT"
+    },
+    {
+      "price": 165000,
+      "date": "2026-03-27",
+      "postcode": "CA10 2EG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHAPEL COTTAGE"
+    },
     {
       "price": 80000,
       "date": "2026-03-27",
@@ -27,175 +180,22 @@
       "address": "9, HUTTON COURT, BENSON ROW"
     },
     {
-      "price": 360000,
+      "price": 423750,
       "date": "2026-03-26",
-      "postcode": "CA11 7LR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, BRUNSWICK SQUARE"
-    },
-    {
-      "price": 165000,
-      "date": "2026-03-25",
-      "postcode": "CA11 7NY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, LARK FIELD"
-    },
-    {
-      "price": 125000,
-      "date": "2026-03-18",
-      "postcode": "CA11 7JD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, CASTLEGATE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-03-17",
-      "postcode": "CA11 7XF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, QUEEN STREET"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-16",
-      "postcode": "CA10 3AU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, JACKSON CROFT"
-    },
-    {
-      "price": 172000,
-      "date": "2026-03-13",
-      "postcode": "CA11 7NY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, LARK FIELD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-13",
-      "postcode": "CA11 9HA",
+      "postcode": "CA11 8FE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, CANNY CROFT"
+      "address": "48, CROCUS AVENUE"
     },
     {
-      "price": 300000,
-      "date": "2026-03-13",
-      "postcode": "CA11 0DB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE ALDERS"
-    },
-    {
-      "price": 169500,
-      "date": "2026-03-13",
-      "postcode": "CA10 3SS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SCAR VIEW"
-    },
-    {
-      "price": 106000,
-      "date": "2026-03-12",
-      "postcode": "CA10 3TL",
+      "price": 290000,
+      "date": "2026-03-26",
+      "postcode": "CA11 8TU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "BANK VIEW, ORTON ROAD"
-    },
-    {
-      "price": 80000,
-      "date": "2026-03-11",
-      "postcode": "CA11 8GW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 43, WOODLANDS, BRIDGE LANE"
-    },
-    {
-      "price": 195500,
-      "date": "2026-03-06",
-      "postcode": "CA11 7DT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, WARWICK PLACE"
-    },
-    {
-      "price": 189000,
-      "date": "2026-03-06",
-      "postcode": "CA11 9LY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, EDEN CLOSE"
-    },
-    {
-      "price": 281500,
-      "date": "2026-03-06",
-      "postcode": "CA11 0TU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, HOWARD PARK"
-    },
-    {
-      "price": 220000,
-      "date": "2026-03-06",
-      "postcode": "CA11 9BE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, NORFOLK PLACE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-03-06",
-      "postcode": "CA11 8AJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BEACON SQUARE"
-    },
-    {
-      "price": 178000,
-      "date": "2026-03-06",
-      "postcode": "CA11 7JF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, TUDOR COURT, BRUNSWICK TERRACE"
-    },
-    {
-      "price": 314000,
-      "date": "2026-03-06",
-      "postcode": "CA11 0EE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FAIRBANK"
-    },
-    {
-      "price": 155000,
-      "date": "2026-03-02",
-      "postcode": "CA11 8DA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, FRIARS CLOSE"
+      "address": "18, MAPLE DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -271,48 +271,48 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 261600,
-      "transactions": 104
+      "medianPrice": 263200,
+      "transactions": 105
     },
     {
       "month": "2025-04",
       "medianPrice": 205000,
-      "transactions": 45
+      "transactions": 47
     },
     {
       "month": "2025-05",
       "medianPrice": 225000,
-      "transactions": 61
+      "transactions": 63
     },
     {
       "month": "2025-06",
-      "medianPrice": 235000,
-      "transactions": 57
+      "medianPrice": 239000,
+      "transactions": 62
     },
     {
       "month": "2025-07",
-      "medianPrice": 238000,
-      "transactions": 44
+      "medianPrice": 235500,
+      "transactions": 50
     },
     {
       "month": "2025-08",
-      "medianPrice": 240000,
-      "transactions": 57
+      "medianPrice": 241500,
+      "transactions": 58
     },
     {
       "month": "2025-09",
       "medianPrice": 232000,
-      "transactions": 61
+      "transactions": 63
     },
     {
       "month": "2025-10",
       "medianPrice": 255000,
-      "transactions": 57
+      "transactions": 59
     },
     {
       "month": "2025-11",
-      "medianPrice": 245000,
-      "transactions": 45
+      "medianPrice": 250000,
+      "transactions": 49
     },
     {
       "month": "2025-12",
@@ -321,18 +321,23 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 210000,
-      "transactions": 26
+      "medianPrice": 200000,
+      "transactions": 29
     },
     {
       "month": "2026-02",
-      "medianPrice": 237500,
-      "transactions": 32
+      "medianPrice": 212500,
+      "transactions": 34
     },
     {
       "month": "2026-03",
-      "medianPrice": 184500,
-      "transactions": 20
+      "medianPrice": 225000,
+      "transactions": 38
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 190000,
+      "transactions": 11
     }
   ],
   "quarterlyHistory": [
@@ -358,28 +363,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 265500,
-      "transactions": 252
+      "medianPrice": 266000,
+      "transactions": 253
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 230000,
-      "transactions": 163
+      "medianPrice": 233875,
+      "transactions": 172
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 238000,
-      "transactions": 162
+      "medianPrice": 236000,
+      "transactions": 171
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 245000,
-      "transactions": 151
+      "medianPrice": 250000,
+      "transactions": 157
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 197750,
-      "transactions": 78
+      "medianPrice": 220000,
+      "transactions": 101
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 190000,
+      "transactions": 11
     }
   ]
 }

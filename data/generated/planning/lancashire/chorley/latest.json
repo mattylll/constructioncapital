@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-06-21T02:18:31.455Z",
+  "updatedAt": "2026-06-23T17:23:37.406Z",
   "townSlug": "chorley",
   "countySlug": "lancashire",
   "localAuthority": "Chorley Council",
   "source": "idox",
   "summary": {
-    "total": 227,
-    "relevant": 68,
-    "approved": 7,
-    "pending": 55,
+    "total": 245,
+    "relevant": 72,
+    "approved": 8,
+    "pending": 58,
     "refused": 3,
     "approvedUnits": 2,
-    "pendingUnits": 236,
-    "totalUnits": 238,
+    "pendingUnits": 237,
+    "totalUnits": 239,
     "approvedGdv": 573146,
-    "pendingGdv": 51652190,
-    "totalEstimatedGDV": 52225336,
-    "approvalRate": 70
+    "pendingGdv": 51772190,
+    "totalEstimatedGDV": 52345336,
+    "approvalRate": 73
   },
   "approvedApplications": [
     {
@@ -56,6 +56,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCGVDHETIZX00"
+    },
+    {
+      "reference": "26/00364/FUL",
+      "address": "Land To The West Of 21-25 Birchin Lane Whittle-le-woods",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Erection of 1no. detached bungalow following demolition of existing garage",
+      "category": "demolition_rebuild",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Granted",
+      "decision": "Granted",
+      "receivedDate": "21/04/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDUSL2ETJF000"
     },
     {
       "reference": "26/00349/FUL",
@@ -155,6 +174,25 @@
   ],
   "pendingApplications": [
     {
+      "reference": "26/00537/FUL",
+      "address": "Spendmore Lane 110 Classic Car Workshop Coppull Chorley PR7 5BX",
+      "postcode": "PR7 5BX",
+      "ward": "",
+      "proposal": "Installation of 1no. housed refrigeration unit, 3no. AC heat pump units and associated protective railing",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "19/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGW1XVETKAE00"
+    },
+    {
       "reference": "26/00529/PDE",
       "address": "75 Grove Farm Drive Adlington Chorley PR6 9QS",
       "postcode": "PR6 9QS",
@@ -193,6 +231,44 @@
       "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGOCM9ET0EO00"
     },
     {
+      "reference": "26/00514/PIP",
+      "address": "Land Rear Of 61 To 65 Gorsey Lane Mawdesley",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Permission in principle application for the erection one self build dwelling following demolition of the existing building on site",
+      "category": "demolition_rebuild",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "11/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGH55JET07E00"
+    },
+    {
+      "reference": "26/00509/AGR",
+      "address": "Land Off Tincklers Lane Eccleston L40 2RD",
+      "postcode": "L40 2RD",
+      "ward": "",
+      "proposal": "Agricultural determination for an agricultural storage building",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "10/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGFDXRETK5I00"
+    },
+    {
       "reference": "26/00507/FUL",
       "address": "Land 130M North Of Barretts Farm Salt Pit Lane Mawdesley",
       "postcode": "",
@@ -210,6 +286,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGDJA9ETK4T00"
+    },
+    {
+      "reference": "26/00502/FUL",
+      "address": "Whiskers 60 Pall Mall Chorley PR7 2LE",
+      "postcode": "PR7 2LE",
+      "ward": "",
+      "proposal": "Change of use of first floor to self contained 1 bedroom flat, with access by means of a new external steel staircase to rear",
+      "category": "change_of_use",
+      "units": 1,
+      "estimatedGdv": 120000,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "08/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGBOLWETK4500"
     },
     {
       "reference": "26/00497/FUL",
@@ -269,25 +364,6 @@
       "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TG2F8UETK1T00"
     },
     {
-      "reference": "26/00480/FUL",
-      "address": "NatWest 46 - 48 Market Street Chorley PR7 2SE",
-      "postcode": "PR7 2SE",
-      "ward": "",
-      "proposal": "Relocation and replacement of ATM, relocation of letterbox and new ramp, steps, upstand wall, landing and handrail (following removal of existing ramp, steps, upstand wall and handrail)",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "02/06/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TG0KM9ETK1100"
-    },
-    {
       "reference": "26/00483/FUL",
       "address": "Little Harbour Farm Harbour Lane Wheelton Chorley PR6 8JR",
       "postcode": "PR6 8JR",
@@ -324,6 +400,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TG0KMQETK1500"
+    },
+    {
+      "reference": "26/00480/FUL",
+      "address": "NatWest 46 - 48 Market Street Chorley PR7 2SE",
+      "postcode": "PR7 2SE",
+      "ward": "",
+      "proposal": "Relocation and replacement of ATM, relocation of letterbox and new ramp, steps, upstand wall, landing and handrail (following removal of existing ramp, steps, upstand wall and handrail)",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "02/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TG0KM9ETK1100"
     },
     {
       "reference": "26/00469/FUL",
@@ -383,7 +478,7 @@
       "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFNLXTETJXD00"
     },
     {
-      "reference": "26/00452/FUL.",
+      "reference": "26/00452/FUL",
       "address": "Land Off Ulnes Walton Lane Moss Side Leyland Lancashire",
       "postcode": "",
       "ward": "",
@@ -402,11 +497,11 @@
       "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFG7AHETJVQ00"
     },
     {
-      "reference": "26/00454/FUL",
-      "address": "126 Towngate Eccleston Chorley PR7 5QS",
-      "postcode": "PR7 5QS",
+      "reference": "26/00451/FUL",
+      "address": "3 Croft Road Chorley PR6 0QD",
+      "postcode": "PR6 0QD",
       "ward": "",
-      "proposal": "Change of use from Use Class C3 (residential dwelling) to Sui Generis (Short Term Holiday Let), to establish a permanent use of the property as a Airbnb accommodation.",
+      "proposal": "Change of Use from a dwellinghouse (C3) to a 6 bed HMO (C4)",
       "category": "change_of_use",
       "units": 1,
       "estimatedGdv": 215000,
@@ -418,7 +513,7 @@
       "applicantCompany": "",
       "agentName": "",
       "agentCompany": "",
-      "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFG7B2ETJVW00"
+      "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFG79TETJVN00"
     },
     {
       "reference": "26/00450/FUL",
@@ -440,11 +535,11 @@
       "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFFSY9ET07E00"
     },
     {
-      "reference": "26/00451/FUL",
-      "address": "3 Croft Road Chorley PR6 0QD",
-      "postcode": "PR6 0QD",
+      "reference": "26/00454/FUL",
+      "address": "126 Towngate Eccleston Chorley PR7 5QS",
+      "postcode": "PR7 5QS",
       "ward": "",
-      "proposal": "Change of Use from a dwellinghouse (C3) to a 6 bed HMO (C4)",
+      "proposal": "Change of use from Use Class C3 (residential dwelling) to Sui Generis (Short Term Holiday Let), to establish a permanent use of the property as a Airbnb accommodation.",
       "category": "change_of_use",
       "units": 1,
       "estimatedGdv": 215000,
@@ -456,7 +551,7 @@
       "applicantCompany": "",
       "agentName": "",
       "agentCompany": "",
-      "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFG79TETJVN00"
+      "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFG7B2ETJVW00"
     },
     {
       "reference": "26/00453/AGR",
@@ -875,25 +970,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDYHXCETJGF00"
-    },
-    {
-      "reference": "26/00364/FUL",
-      "address": "Land To The West Of 21-25 Birchin Lane Whittle-le-woods",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Erection of 1no. detached bungalow following demolition of existing garage",
-      "category": "demolition_rebuild",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "21/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.chorley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDUSL2ETJF000"
     },
     {
       "reference": "26/00365/FUL",

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.805Z",
+  "updatedAt": "2026-06-23T19:12:08.805Z",
   "townSlug": "pontcanna",
   "countySlug": "cardiff",
   "stats": {
-    "medianPrice": 265000,
+    "medianPrice": 266000,
     "medianByType": {
-      "D": 457000,
-      "S": 300000,
+      "D": 460000,
+      "S": 299000,
       "T": 265000,
       "F": 162000
     },
-    "transactionCount12m": 3504,
-    "yoyChange": 0.8,
-    "newBuildCount": 75,
-    "existingCount": 3429,
-    "newBuildPremium": 74
+    "transactionCount12m": 3463,
+    "yoyChange": 0.4,
+    "newBuildCount": 62,
+    "existingCount": 3401,
+    "newBuildPremium": 72.1
   },
   "recentTransactions": [
     {
-      "price": 245000,
-      "date": "2026-03-27",
-      "postcode": "CF14 9DG",
+      "price": 131147,
+      "date": "2026-04-27",
+      "postcode": "CF11 6EY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, WHITEACRE CLOSE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-03-26",
-      "postcode": "CF24 4NE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FLAT, 57, CRWYS ROAD"
-    },
-    {
-      "price": 135000,
-      "date": "2026-03-25",
-      "postcode": "CF11 6NG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 3, 54, PENARTH ROAD"
-    },
-    {
-      "price": 345000,
-      "date": "2026-03-23",
-      "postcode": "CF11 8ND",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, POWDERHAM DRIVE"
-    },
-    {
-      "price": 135000,
-      "date": "2026-03-23",
-      "postcode": "CF23 5JS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 12, DYFED HOUSE, GLENSIDE COURT"
-    },
-    {
-      "price": 340000,
-      "date": "2026-03-23",
-      "postcode": "CF5 2EY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CRANWELL CLOSE"
-    },
-    {
-      "price": 380000,
-      "date": "2026-03-23",
-      "postcode": "CF14 6AB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, TY WERN ROAD"
+      "address": "126, CRADDOCK STREET"
     },
     {
       "price": 250000,
-      "date": "2026-03-23",
-      "postcode": "CF3 5PY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, HEATHCLIFFE CLOSE"
-    },
-    {
-      "price": 232000,
-      "date": "2026-03-23",
-      "postcode": "CF23 7EE",
+      "date": "2026-04-24",
+      "postcode": "CF23 9AY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "27, BRYN CELYN"
+      "address": "103, COLCHESTER AVENUE"
     },
     {
-      "price": 247000,
-      "date": "2026-03-23",
-      "postcode": "CF24 3HE",
+      "price": 220000,
+      "date": "2026-04-24",
+      "postcode": "CF24 2HF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, CYFARTHFA STREET"
+      "address": "20, HANDLEY ROAD"
     },
     {
-      "price": 118000,
-      "date": "2026-03-20",
-      "postcode": "CF23 9QB",
-      "propertyType": "F",
+      "price": 425000,
+      "date": "2026-04-24",
+      "postcode": "CF14 2BR",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "89, AWEL MOR"
+      "tenure": "F",
+      "address": "47, WESTBOURNE ROAD"
     },
     {
-      "price": 210000,
-      "date": "2026-03-20",
-      "postcode": "CF3 0DH",
+      "price": 350000,
+      "date": "2026-04-23",
+      "postcode": "CF11 9DF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "63, SANDERLING DRIVE"
-    },
-    {
-      "price": 302500,
-      "date": "2026-03-20",
-      "postcode": "CF24 2NP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, COVENY STREET"
-    },
-    {
-      "price": 120000,
-      "date": "2026-03-20",
-      "postcode": "CF11 7BG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 44, TAFF EMBANKMENT"
-    },
-    {
-      "price": 260000,
-      "date": "2026-03-20",
-      "postcode": "CF11 8FD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, TREM YR AFON"
-    },
-    {
-      "price": 149500,
-      "date": "2026-03-20",
-      "postcode": "CF5 2DL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 32, CHERITON HOUSE, THE CRESCENT"
-    },
-    {
-      "price": 720000,
-      "date": "2026-03-19",
-      "postcode": "CF11 0JZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, DAN DONOVAN WAY"
-    },
-    {
-      "price": 110000,
-      "date": "2026-03-19",
-      "postcode": "CF10 2FH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 200, ALTOLUSSO, BUTE TERRACE"
-    },
-    {
-      "price": 131000,
-      "date": "2026-03-18",
-      "postcode": "CF5 1RA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1B, RADNOR ROAD"
+      "address": "183, KINGS ROAD"
     },
     {
       "price": 150000,
-      "date": "2026-03-18",
-      "postcode": "CF11 7EX",
+      "date": "2026-04-23",
+      "postcode": "CF10 5NX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "78, SEAGER DRIVE"
+      "address": "37, HANSEN COURT, HEOL GLAN RHEIDOL"
+    },
+    {
+      "price": 140000,
+      "date": "2026-04-22",
+      "postcode": "CF5 4QE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, MOSTYN ROAD"
+    },
+    {
+      "price": 242000,
+      "date": "2026-04-22",
+      "postcode": "CF14 4NP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, ARMOURY DRIVE"
+    },
+    {
+      "price": 297650,
+      "date": "2026-04-21",
+      "postcode": "CF24 2LQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "170, MOORLAND ROAD"
+    },
+    {
+      "price": 215000,
+      "date": "2026-04-21",
+      "postcode": "CF5 6GD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, GWERN CATHERINE"
+    },
+    {
+      "price": 202000,
+      "date": "2026-04-21",
+      "postcode": "CF5 1NF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12A, TINTERN STREET"
+    },
+    {
+      "price": 225000,
+      "date": "2026-04-20",
+      "postcode": "CF11 6TJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, COMPTON STREET"
+    },
+    {
+      "price": 400000,
+      "date": "2026-04-20",
+      "postcode": "CF11 9EE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, WYNDHAM CRESCENT"
+    },
+    {
+      "price": 245000,
+      "date": "2026-04-20",
+      "postcode": "CF23 8EQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "61, THE MALTINGS"
+    },
+    {
+      "price": 415000,
+      "date": "2026-04-17",
+      "postcode": "CF23 8SN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, TARRAGON WAY"
+    },
+    {
+      "price": 240000,
+      "date": "2026-04-17",
+      "postcode": "CF5 5QX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "84, HEOL YR ODYN"
+    },
+    {
+      "price": 235000,
+      "date": "2026-04-17",
+      "postcode": "CF14 9HY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, HUNTSMEAD CLOSE"
+    },
+    {
+      "price": 315000,
+      "date": "2026-04-17",
+      "postcode": "CF14 3EB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "122, MYNACHDY ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-04-17",
+      "postcode": "CF11 9QE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, BLOOM STREET"
+    },
+    {
+      "price": 350000,
+      "date": "2026-04-16",
+      "postcode": "CF14 1RN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "170, MANOR WAY"
     }
   ],
   "monthlyHistory": [
@@ -212,32 +212,32 @@
     {
       "month": "2024-03",
       "medianPrice": 250000,
-      "transactions": 395
+      "transactions": 396
     },
     {
       "month": "2024-04",
       "medianPrice": 260000,
-      "transactions": 409
+      "transactions": 410
     },
     {
       "month": "2024-05",
-      "medianPrice": 258500,
-      "transactions": 433
+      "medianPrice": 258250,
+      "transactions": 434
     },
     {
       "month": "2024-06",
       "medianPrice": 279000,
-      "transactions": 474
+      "transactions": 476
     },
     {
       "month": "2024-07",
       "medianPrice": 270000,
-      "transactions": 531
+      "transactions": 533
     },
     {
       "month": "2024-08",
       "medianPrice": 250000,
-      "transactions": 499
+      "transactions": 501
     },
     {
       "month": "2024-09",
@@ -246,13 +246,13 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 260000,
-      "transactions": 535
+      "medianPrice": 261000,
+      "transactions": 536
     },
     {
       "month": "2024-11",
-      "medianPrice": 261500,
-      "transactions": 497
+      "medianPrice": 261000,
+      "transactions": 499
     },
     {
       "month": "2024-12",
@@ -267,119 +267,129 @@
     {
       "month": "2025-02",
       "medianPrice": 252000,
-      "transactions": 416
+      "transactions": 417
     },
     {
       "month": "2025-03",
-      "medianPrice": 258750,
-      "transactions": 504
+      "medianPrice": 260000,
+      "transactions": 506
     },
     {
       "month": "2025-04",
-      "medianPrice": 272000,
-      "transactions": 439
+      "medianPrice": 273000,
+      "transactions": 444
     },
     {
       "month": "2025-05",
-      "medianPrice": 259001,
-      "transactions": 384
+      "medianPrice": 260000,
+      "transactions": 394
     },
     {
       "month": "2025-06",
       "medianPrice": 275000,
-      "transactions": 421
+      "transactions": 443
     },
     {
       "month": "2025-07",
       "medianPrice": 280000,
-      "transactions": 395
+      "transactions": 428
     },
     {
       "month": "2025-08",
       "medianPrice": 265000,
-      "transactions": 427
+      "transactions": 445
     },
     {
       "month": "2025-09",
-      "medianPrice": 254125,
-      "transactions": 386
+      "medianPrice": 255000,
+      "transactions": 402
     },
     {
       "month": "2025-10",
-      "medianPrice": 267750,
-      "transactions": 438
+      "medianPrice": 270000,
+      "transactions": 469
     },
     {
       "month": "2025-11",
-      "medianPrice": 265000,
-      "transactions": 316
+      "medianPrice": 266500,
+      "transactions": 339
     },
     {
       "month": "2025-12",
-      "medianPrice": 254688,
-      "transactions": 306
+      "medianPrice": 254375,
+      "transactions": 311
     },
     {
       "month": "2026-01",
-      "medianPrice": 266000,
-      "transactions": 262
+      "medianPrice": 270000,
+      "transactions": 269
     },
     {
       "month": "2026-02",
-      "medianPrice": 265000,
-      "transactions": 249
+      "medianPrice": 265250,
+      "transactions": 268
     },
     {
       "month": "2026-03",
-      "medianPrice": 250000,
-      "transactions": 105
+      "medianPrice": 263000,
+      "transactions": 257
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 242000,
+      "transactions": 83
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 249500,
-      "transactions": 1054
+      "medianPrice": 250000,
+      "transactions": 1055
     },
     {
       "quarter": "2024-Q2",
       "medianPrice": 265000,
-      "transactions": 1316
+      "transactions": 1320
     },
     {
       "quarter": "2024-Q3",
       "medianPrice": 260000,
-      "transactions": 1451
+      "transactions": 1455
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 265000,
-      "transactions": 1499
+      "transactions": 1502
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 258000,
-      "transactions": 1283
+      "medianPrice": 258794,
+      "transactions": 1286
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 270000,
-      "transactions": 1244
+      "transactions": 1281
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 265000,
-      "transactions": 1208
+      "medianPrice": 267500,
+      "transactions": 1275
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 260000,
-      "transactions": 1060
+      "medianPrice": 263000,
+      "transactions": 1119
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 261000,
-      "transactions": 616
+      "medianPrice": 265000,
+      "transactions": 794
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 242000,
+      "transactions": 83
     }
   ]
 }

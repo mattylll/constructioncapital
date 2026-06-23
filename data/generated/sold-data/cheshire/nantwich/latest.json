@@ -1,22 +1,184 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.068Z",
+  "updatedAt": "2026-06-23T19:12:07.996Z",
   "townSlug": "nantwich",
   "countySlug": "cheshire",
   "stats": {
-    "medianPrice": 290000,
+    "medianPrice": 292250,
     "medianByType": {
-      "D": 423998,
-      "S": 262100,
-      "T": 220000,
-      "F": 145750
+      "D": 430000,
+      "S": 260000,
+      "T": 224000,
+      "F": 134250
     },
-    "transactionCount12m": 508,
-    "yoyChange": 0,
-    "newBuildCount": 31,
-    "existingCount": 477,
-    "newBuildPremium": -29
+    "transactionCount12m": 496,
+    "yoyChange": 0.8,
+    "newBuildCount": 18,
+    "existingCount": 478,
+    "newBuildPremium": 31
   },
   "recentTransactions": [
+    {
+      "price": 360000,
+      "date": "2026-04-23",
+      "postcode": "CW5 6YJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, MONTGOMERY AVENUE"
+    },
+    {
+      "price": 5775,
+      "date": "2026-04-23",
+      "postcode": "CW5 8BJ",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, OAKS CLOSE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-04-17",
+      "postcode": "CW5 5TY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, HOLLY DRIVE"
+    },
+    {
+      "price": 368000,
+      "date": "2026-04-17",
+      "postcode": "CW5 6XF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "68, REASEHEATH WAY"
+    },
+    {
+      "price": 210000,
+      "date": "2026-04-13",
+      "postcode": "CW5 5UT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, BYRON WALK"
+    },
+    {
+      "price": 460000,
+      "date": "2026-04-10",
+      "postcode": "CW5 7TB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, WHITE IRIS PLACE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-04-02",
+      "postcode": "CW5 6EP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, PARK VIEW"
+    },
+    {
+      "price": 250000,
+      "date": "2026-04-02",
+      "postcode": "CW5 6SY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, CUBITT CLOSE"
+    },
+    {
+      "price": 81500,
+      "date": "2026-04-02",
+      "postcode": "CW5 7JL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, LONDON ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-04-02",
+      "postcode": "CW5 6QW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, ORCHARD STREET"
+    },
+    {
+      "price": 535000,
+      "date": "2026-04-02",
+      "postcode": "CW5 6JU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, BIRCHIN LANE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-04-02",
+      "postcode": "CW5 8PS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ROSE COTTAGE, SOUND LANE"
+    },
+    {
+      "price": 315000,
+      "date": "2026-04-01",
+      "postcode": "CW5 6PB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LOGAN HOUSE, MIDDLEWICH ROAD"
+    },
+    {
+      "price": 635000,
+      "date": "2026-03-31",
+      "postcode": "CW5 7EQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, POLLARD DRIVE"
+    },
+    {
+      "price": 170000,
+      "date": "2026-03-31",
+      "postcode": "CW5 5JZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, BLAGG AVENUE"
+    },
+    {
+      "price": 670000,
+      "date": "2026-03-30",
+      "postcode": "CW5 7QA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHECKLEY GREEN COTTAGE, CHECKLEY LANE"
+    },
+    {
+      "price": 282000,
+      "date": "2026-03-30",
+      "postcode": "CW5 6QD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "72, COPPICE ROAD"
+    },
+    {
+      "price": 105000,
+      "date": "2026-03-27",
+      "postcode": "CW5 5BX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 36, MILL HOUSE, QUEENS DRIVE"
+    },
     {
       "price": 445000,
       "date": "2026-03-27",
@@ -27,175 +189,13 @@
       "address": "1, TORRINGTON CLOSE"
     },
     {
-      "price": 145000,
-      "date": "2026-03-20",
-      "postcode": "CW5 5QD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ALBERT STREET"
-    },
-    {
-      "price": 760000,
-      "date": "2026-03-17",
-      "postcode": "CW5 6AL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ROTOITI, DAIRY LANE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-03-12",
-      "postcode": "CW5 7RX",
-      "propertyType": "T",
+      "price": 133500,
+      "date": "2026-03-27",
+      "postcode": "CW5 6JD",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "12, ARROWHEAD CLOSE"
-    },
-    {
-      "price": 545000,
-      "date": "2026-03-11",
-      "postcode": "CW5 7GA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, LAKESIDE VIEW"
-    },
-    {
-      "price": 195000,
-      "date": "2026-03-10",
-      "postcode": "CW5 7RE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, PICKERING WAY"
-    },
-    {
-      "price": 262100,
-      "date": "2026-03-06",
-      "postcode": "CW5 7NF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, CHADWICKE CLOSE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-03-06",
-      "postcode": "CW5 5BW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, GROCOTTS ROW"
-    },
-    {
-      "price": 270000,
-      "date": "2026-03-05",
-      "postcode": "CW5 8EY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, THE GREEN"
-    },
-    {
-      "price": 415000,
-      "date": "2026-03-02",
-      "postcode": "CW5 7LT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, VALEBROOK DRIVE"
-    },
-    {
-      "price": 525000,
-      "date": "2026-02-27",
-      "postcode": "CW5 7GS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, COMBERBACH DRIVE"
-    },
-    {
-      "price": 192000,
-      "date": "2026-02-27",
-      "postcode": "CW5 8DN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, COUNCIL HOUSES"
-    },
-    {
-      "price": 545000,
-      "date": "2026-02-27",
-      "postcode": "CW5 7GG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, HAYDN JONES DRIVE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-02-27",
-      "postcode": "CW5 7RR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, TALBOT WAY"
-    },
-    {
-      "price": 839000,
-      "date": "2026-02-27",
-      "postcode": "CW5 8EZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BIRCHWOOD HOUSE, THE GREEN"
-    },
-    {
-      "price": 525000,
-      "date": "2026-02-27",
-      "postcode": "CW5 6LU",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "K M D HIRE SERVICES, LONDON ROAD"
-    },
-    {
-      "price": 272000,
-      "date": "2026-02-26",
-      "postcode": "CW5 5SG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, SOUTH CROFTS"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-26",
-      "postcode": "CW5 6XZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, TIPTON GREEN CLOSE"
-    },
-    {
-      "price": 380000,
-      "date": "2026-02-23",
-      "postcode": "CW5 7QE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, BRIDLE HEY"
-    },
-    {
-      "price": 236250,
-      "date": "2026-02-23",
-      "postcode": "CW5 5UN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, GIBSON CLOSE"
+      "address": "APARTMENT 4, BARLEY GARDENS, 58A, CREWE ROAD"
     }
   ],
   "monthlyHistory": [
@@ -216,8 +216,8 @@
     },
     {
       "month": "2024-04",
-      "medianPrice": 250000,
-      "transactions": 56
+      "medianPrice": 255000,
+      "transactions": 57
     },
     {
       "month": "2024-05",
@@ -276,48 +276,48 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 267000,
-      "transactions": 28
+      "medianPrice": 269000,
+      "transactions": 29
     },
     {
       "month": "2025-05",
-      "medianPrice": 233696,
-      "transactions": 55
+      "medianPrice": 237498,
+      "transactions": 58
     },
     {
       "month": "2025-06",
-      "medianPrice": 292498,
-      "transactions": 80
+      "medianPrice": 295000,
+      "transactions": 90
     },
     {
       "month": "2025-07",
-      "medianPrice": 265000,
-      "transactions": 47
+      "medianPrice": 262000,
+      "transactions": 53
     },
     {
       "month": "2025-08",
       "medianPrice": 300000,
-      "transactions": 62
+      "transactions": 63
     },
     {
       "month": "2025-09",
       "medianPrice": 325000,
-      "transactions": 72
+      "transactions": 74
     },
     {
       "month": "2025-10",
-      "medianPrice": 255000,
-      "transactions": 57
+      "medianPrice": 269000,
+      "transactions": 61
     },
     {
       "month": "2025-11",
-      "medianPrice": 307500,
-      "transactions": 40
+      "medianPrice": 310000,
+      "transactions": 45
     },
     {
       "month": "2025-12",
       "medianPrice": 320000,
-      "transactions": 40
+      "transactions": 43
     },
     {
       "month": "2026-01",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 360000,
-      "transactions": 33
+      "medianPrice": 342500,
+      "transactions": 34
     },
     {
       "month": "2026-03",
-      "medianPrice": 267500,
-      "transactions": 10
+      "medianPrice": 265000,
+      "transactions": 33
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 270000,
+      "transactions": 13
     }
   ],
   "quarterlyHistory": [
@@ -343,8 +348,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 269500,
-      "transactions": 171
+      "medianPrice": 269750,
+      "transactions": 172
     },
     {
       "quarter": "2024-Q3",
@@ -364,22 +369,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 265000,
-      "transactions": 163
+      "transactions": 177
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 300000,
-      "transactions": 181
+      "medianPrice": 297500,
+      "transactions": 190
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 300000,
-      "transactions": 137
+      "transactions": 149
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 286000,
-      "transactions": 74
+      "medianPrice": 277500,
+      "transactions": 98
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 270000,
+      "transactions": 13
     }
   ]
 }

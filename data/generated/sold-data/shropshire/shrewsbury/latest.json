@@ -1,208 +1,208 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.480Z",
+  "updatedAt": "2026-06-23T19:12:07.360Z",
   "townSlug": "shrewsbury",
   "countySlug": "shropshire",
   "stats": {
-    "medianPrice": 272500,
+    "medianPrice": 274498,
     "medianByType": {
-      "D": 398748,
+      "D": 395000,
       "S": 250000,
-      "T": 215000,
+      "T": 217250,
       "F": 155000
     },
-    "transactionCount12m": 1423,
-    "yoyChange": -0.9,
-    "newBuildCount": 34,
-    "existingCount": 1389,
-    "newBuildPremium": -7.3
+    "transactionCount12m": 1404,
+    "yoyChange": -0.2,
+    "newBuildCount": 18,
+    "existingCount": 1386,
+    "newBuildPremium": 37.2
   },
   "recentTransactions": [
     {
+      "price": 800000,
+      "date": "2026-04-24",
+      "postcode": "SY3 9DX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MOUSECROFT, MOUSECROFT LANE"
+    },
+    {
+      "price": 347000,
+      "date": "2026-04-24",
+      "postcode": "SY4 4DA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TYN CELYN, BINGS HEATH"
+    },
+    {
+      "price": 162500,
+      "date": "2026-04-23",
+      "postcode": "SY4 1FH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, STONEHOUSE CLOSE"
+    },
+    {
       "price": 155000,
-      "date": "2026-03-27",
-      "postcode": "SY3 8RL",
+      "date": "2026-04-17",
+      "postcode": "SY1 2BA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "5, BRICKFIELD FLATS"
+      "address": "FLAT 9, UPPER BLACKFRIARS CRESCENT, ST MARYS WATER LANE"
     },
     {
-      "price": 210000,
-      "date": "2026-03-26",
-      "postcode": "SY1 3SU",
+      "price": 245000,
+      "date": "2026-04-17",
+      "postcode": "SY1 4RY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, FIRST TERRACE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-04-17",
+      "postcode": "SY2 6AL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "48, STIPERSTONES COURT, ABBEY FOREGATE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-04-17",
+      "postcode": "SY1 2BF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, WHITE MEADOW CLOSE"
+      "address": "10, PENSON WAY"
     },
     {
-      "price": 340000,
-      "date": "2026-03-26",
-      "postcode": "SY5 0RH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, MANOR PARK"
-    },
-    {
-      "price": 625000,
-      "date": "2026-03-26",
-      "postcode": "SY3 8BQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, BEAUFORT RIDGE"
-    },
-    {
-      "price": 97500,
-      "date": "2026-03-24",
-      "postcode": "SY1 3YT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "23, COLDRIDGE DRIVE"
-    },
-    {
-      "price": 245000,
-      "date": "2026-03-24",
-      "postcode": "SY2 6EY",
+      "price": 215000,
+      "date": "2026-04-17",
+      "postcode": "SY4 5BL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, STRETTON CLOSE"
+      "address": "56, STATION ROAD"
     },
     {
-      "price": 187000,
-      "date": "2026-03-23",
-      "postcode": "SY3 8JG",
+      "price": 360000,
+      "date": "2026-04-17",
+      "postcode": "SY4 2LJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, PARK AVENUE"
+      "address": "HILL VIEW, RUYTON ROAD"
     },
     {
-      "price": 245000,
-      "date": "2026-03-20",
-      "postcode": "SY1 3HB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, BERRINGTON DRIVE"
-    },
-    {
-      "price": 272200,
-      "date": "2026-03-20",
-      "postcode": "SY2 5YB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, TENBURY DRIVE"
-    },
-    {
-      "price": 1350000,
-      "date": "2026-03-19",
-      "postcode": "SY2 6NE",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "UNIT 3, STADIUM POINT BUSINESS PARK, OTELEY ROAD"
-    },
-    {
-      "price": 245000,
-      "date": "2026-03-19",
-      "postcode": "SY4 5HN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, TRENTHAM ROAD"
-    },
-    {
-      "price": 347500,
-      "date": "2026-03-18",
-      "postcode": "SY1 4RT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "78, SUNDORNE ROAD"
-    },
-    {
-      "price": 150000,
-      "date": "2026-03-16",
-      "postcode": "SY3 0AN",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, SHARPSTONES LANE"
-    },
-    {
-      "price": 465000,
-      "date": "2026-03-16",
-      "postcode": "SY4 2EG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LANGHAM HOUSE, CHURCH ROAD"
-    },
-    {
-      "price": 195000,
-      "date": "2026-03-13",
-      "postcode": "SY3 0PN",
+      "price": 390000,
+      "date": "2026-04-16",
+      "postcode": "SY1 1RD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "35B, GLEBE ROAD"
+      "address": "11, CLAREMONT HILL"
     },
     {
-      "price": 195000,
-      "date": "2026-03-13",
-      "postcode": "SY3 5AZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, BROMLEY ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-03-13",
-      "postcode": "SY1 4FA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, RONDEL STREET"
-    },
-    {
-      "price": 115000,
-      "date": "2026-03-13",
-      "postcode": "SY3 8ZQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "32, CHURCHILL ROAD"
-    },
-    {
-      "price": 335000,
-      "date": "2026-03-13",
-      "postcode": "SY5 8QA",
+      "price": 375000,
+      "date": "2026-04-16",
+      "postcode": "SY3 8ES",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, WHITTY CLOSE"
+      "address": "17, THE OVAL"
     },
     {
-      "price": 179500,
-      "date": "2026-03-13",
-      "postcode": "SY1 3HD",
+      "price": 180000,
+      "date": "2026-04-16",
+      "postcode": "SY3 5FU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "37, THE FURLONGS"
+    },
+    {
+      "price": 345000,
+      "date": "2026-04-16",
+      "postcode": "SY4 2JQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, CARDINGTON DRIVE"
+      "address": "4, MERESIDE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-04-16",
+      "postcode": "SY3 5DG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, SION DRIVE"
+    },
+    {
+      "price": 123500,
+      "date": "2026-04-15",
+      "postcode": "SY2 6BW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "38, BELGRAVIA COURT, ABBEY FOREGATE"
+    },
+    {
+      "price": 295000,
+      "date": "2026-04-15",
+      "postcode": "SY3 0LW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "132, LYTHWOOD ROAD"
+    },
+    {
+      "price": 80000,
+      "date": "2026-04-15",
+      "postcode": "SY4 1LH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "36, BIRCH GROVE"
+    },
+    {
+      "price": 116000,
+      "date": "2026-04-15",
+      "postcode": "SY4 5BE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, CORDWELL PARK"
+    },
+    {
+      "price": 175000,
+      "date": "2026-04-14",
+      "postcode": "SY3 6AL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, RADBROOK HOUSE, 46, STANHILL ROAD"
+    },
+    {
+      "price": 188000,
+      "date": "2026-04-14",
+      "postcode": "SY1 4DS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "102, WHITCHURCH ROAD"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
       "medianPrice": 280000,
-      "transactions": 119
+      "transactions": 120
     },
     {
       "month": "2024-02",
@@ -226,8 +226,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 277500,
-      "transactions": 191
+      "medianPrice": 276250,
+      "transactions": 192
     },
     {
       "month": "2024-07",
@@ -252,7 +252,7 @@
     {
       "month": "2024-11",
       "medianPrice": 287500,
-      "transactions": 195
+      "transactions": 197
     },
     {
       "month": "2024-12",
@@ -267,84 +267,89 @@
     {
       "month": "2025-02",
       "medianPrice": 290000,
-      "transactions": 180
+      "transactions": 183
     },
     {
       "month": "2025-03",
-      "medianPrice": 289000,
-      "transactions": 323
+      "medianPrice": 289975,
+      "transactions": 328
     },
     {
       "month": "2025-04",
       "medianPrice": 240000,
-      "transactions": 97
+      "transactions": 99
     },
     {
       "month": "2025-05",
-      "medianPrice": 251250,
-      "transactions": 128
+      "medianPrice": 257000,
+      "transactions": 131
     },
     {
       "month": "2025-06",
       "medianPrice": 274000,
-      "transactions": 174
+      "transactions": 180
     },
     {
       "month": "2025-07",
-      "medianPrice": 275000,
-      "transactions": 159
+      "medianPrice": 280000,
+      "transactions": 173
     },
     {
       "month": "2025-08",
       "medianPrice": 295000,
-      "transactions": 177
+      "transactions": 180
     },
     {
       "month": "2025-09",
       "medianPrice": 274000,
-      "transactions": 139
+      "transactions": 141
     },
     {
       "month": "2025-10",
       "medianPrice": 270000,
-      "transactions": 187
+      "transactions": 195
     },
     {
       "month": "2025-11",
-      "medianPrice": 268000,
-      "transactions": 147
+      "medianPrice": 260000,
+      "transactions": 161
     },
     {
       "month": "2025-12",
       "medianPrice": 270000,
-      "transactions": 136
+      "transactions": 139
     },
     {
       "month": "2026-01",
-      "medianPrice": 270000,
-      "transactions": 95
-    },
-    {
-      "month": "2026-02",
-      "medianPrice": 270000,
+      "medianPrice": 275000,
       "transactions": 99
     },
     {
+      "month": "2026-02",
+      "medianPrice": 260000,
+      "transactions": 109
+    },
+    {
       "month": "2026-03",
-      "medianPrice": 245000,
-      "transactions": 42
+      "medianPrice": 279998,
+      "transactions": 94
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 259875,
+      "transactions": 58
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 274995,
-      "transactions": 442
+      "transactions": 443
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 282250,
-      "transactions": 520
+      "medianPrice": 282000,
+      "transactions": 521
     },
     {
       "quarter": "2024-Q3",
@@ -354,32 +359,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 285000,
-      "transactions": 615
+      "transactions": 617
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 286000,
-      "transactions": 632
+      "medianPrice": 287500,
+      "transactions": 640
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 257000,
-      "transactions": 399
+      "medianPrice": 258500,
+      "transactions": 410
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 285000,
-      "transactions": 475
+      "transactions": 494
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 270000,
-      "transactions": 470
+      "transactions": 495
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 270000,
-      "transactions": 236
+      "medianPrice": 272750,
+      "transactions": 302
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 259875,
+      "transactions": 58
     }
   ]
 }

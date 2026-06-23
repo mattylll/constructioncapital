@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.797Z",
+  "updatedAt": "2026-06-23T19:12:07.706Z",
   "townSlug": "stockport",
   "countySlug": "greater-manchester",
   "stats": {
-    "medianPrice": 300000,
+    "medianPrice": 305000,
     "medianByType": {
-      "D": 510000,
+      "D": 525000,
       "S": 325000,
       "T": 235000,
       "F": 165000
     },
-    "transactionCount12m": 3372,
-    "yoyChange": 3.4,
-    "newBuildCount": 25,
-    "existingCount": 3347,
-    "newBuildPremium": 76.7
+    "transactionCount12m": 3301,
+    "yoyChange": 5.2,
+    "newBuildCount": 20,
+    "existingCount": 3281,
+    "newBuildPremium": 106.2
   },
   "recentTransactions": [
     {
-      "price": 373000,
-      "date": "2026-03-27",
-      "postcode": "SK7 5PQ",
+      "price": 520000,
+      "date": "2026-04-28",
+      "postcode": "SK7 2JN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, PINE ROAD"
+    },
+    {
+      "price": 265000,
+      "date": "2026-04-27",
+      "postcode": "SK6 4JW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, LINDA DRIVE"
+      "address": "40, ALAMEIN DRIVE"
     },
     {
-      "price": 332500,
-      "date": "2026-03-24",
-      "postcode": "SK6 5HG",
-      "propertyType": "T",
+      "price": 290000,
+      "date": "2026-04-27",
+      "postcode": "SK6 2HQ",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "34, COMPSTALL ROAD"
+      "address": "38, REDHILL DRIVE"
     },
     {
-      "price": 295000,
-      "date": "2026-03-23",
-      "postcode": "SK6 3DQ",
+      "price": 260000,
+      "date": "2026-04-27",
+      "postcode": "SK3 8LQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "26, ROSTREVOR ROAD"
+    },
+    {
+      "price": 600000,
+      "date": "2026-04-24",
+      "postcode": "SK6 7NB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, PARSONAGE GARDENS"
+    },
+    {
+      "price": 387000,
+      "date": "2026-04-24",
+      "postcode": "SK8 3HG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "123, QUEENSWAY"
+    },
+    {
+      "price": 290000,
+      "date": "2026-04-23",
+      "postcode": "SK6 3JG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, GREEN LANE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-04-23",
+      "postcode": "SK7 2NA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, WARTON CLOSE"
+    },
+    {
+      "price": 308250,
+      "date": "2026-04-21",
+      "postcode": "SK4 2AG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "11, CATHERINE ROAD"
+      "address": "8, BRANKSOME ROAD"
     },
     {
-      "price": 280000,
-      "date": "2026-03-23",
-      "postcode": "SK3 9LR",
-      "propertyType": "T",
+      "price": 500000,
+      "date": "2026-04-20",
+      "postcode": "SK7 2JF",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "F",
-      "address": "194, OLD CHAPEL STREET"
+      "tenure": "L",
+      "address": "75, FIR ROAD"
     },
     {
-      "price": 85000,
-      "date": "2026-03-23",
-      "postcode": "SK8 2BZ",
+      "price": 325000,
+      "date": "2026-04-17",
+      "postcode": "SK6 2GA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, SHAKESPEARE DRIVE"
+      "address": "29, KENNETT DRIVE"
     },
     {
-      "price": 183500,
-      "date": "2026-03-23",
-      "postcode": "SK2 7BG",
+      "price": 291000,
+      "date": "2026-04-17",
+      "postcode": "SK8 6SJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, GATHILL CLOSE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-04-17",
+      "postcode": "SK7 5QY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, BICKERTON DRIVE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-04-17",
+      "postcode": "SK6 6EQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, AVON CLOSE"
+    },
+    {
+      "price": 192000,
+      "date": "2026-04-17",
+      "postcode": "SK1 4BE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, ELLWOOD ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-04-17",
+      "postcode": "SK4 3HB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 5, EDMONTON COURT, EDMONTON ROAD"
+      "address": "FLAT 15, CAVENDISH COURT, 406, DIDSBURY ROAD"
     },
     {
-      "price": 399950,
-      "date": "2026-03-23",
-      "postcode": "SK6 7QB",
+      "price": 475000,
+      "date": "2026-04-17",
+      "postcode": "SK8 5ND",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, NARROWBOAT CLOSE"
+      "address": "22, PRINCESS AVENUE"
     },
     {
-      "price": 184500,
-      "date": "2026-03-23",
-      "postcode": "SK1 3JT",
+      "price": 305000,
+      "date": "2026-04-17",
+      "postcode": "SK3 9LJ",
       "propertyType": "T",
       "newBuild": false,
-      "tenure": "F",
-      "address": "86, CHARLES STREET"
+      "tenure": "L",
+      "address": "23, RAE STREET"
     },
     {
-      "price": 280000,
-      "date": "2026-03-20",
-      "postcode": "SK6 2HL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, KAY AVENUE"
-    },
-    {
-      "price": 365000,
-      "date": "2026-03-20",
-      "postcode": "SK7 6DT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "78, MACCLESFIELD ROAD"
-    },
-    {
-      "price": 287500,
-      "date": "2026-03-20",
-      "postcode": "SK8 3HU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, VISCOUNT DRIVE"
-    },
-    {
-      "price": 1105000,
-      "date": "2026-03-20",
-      "postcode": "SK4 4PL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, PEEL MOAT ROAD"
-    },
-    {
-      "price": 345000,
-      "date": "2026-03-20",
-      "postcode": "SK8 2BZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, SHAKESPEARE DRIVE"
-    },
-    {
-      "price": 920000,
-      "date": "2026-03-20",
-      "postcode": "SK8 7PA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "84, ACRE LANE"
-    },
-    {
-      "price": 540000,
-      "date": "2026-03-20",
-      "postcode": "SK2 5DQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, KEDLESTON GREEN"
-    },
-    {
-      "price": 795000,
-      "date": "2026-03-20",
-      "postcode": "SK7 1JT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, QUEENSGATE"
-    },
-    {
-      "price": 222700,
-      "date": "2026-03-20",
-      "postcode": "SK3 9LS",
+      "price": 275000,
+      "date": "2026-04-17",
+      "postcode": "SK3 8EH",
       "propertyType": "T",
       "newBuild": false,
-      "tenure": "F",
-      "address": "67, CHELMSFORD ROAD"
+      "tenure": "L",
+      "address": "4, ABBEYFIELD CLOSE"
     },
     {
-      "price": 415000,
-      "date": "2026-03-20",
-      "postcode": "SK8 1ED",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3A, OAK ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-03-20",
-      "postcode": "SK4 4PL",
+      "price": 306500,
+      "date": "2026-04-17",
+      "postcode": "SK3 8XB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, PEEL MOAT ROAD"
-    },
-    {
-      "price": 605000,
-      "date": "2026-03-20",
-      "postcode": "SK8 1QH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, WENSLEY ROAD"
+      "address": "9, GOODWOOD DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -207,7 +207,7 @@
     {
       "month": "2024-02",
       "medianPrice": 272500,
-      "transactions": 335
+      "transactions": 336
     },
     {
       "month": "2024-03",
@@ -216,8 +216,8 @@
     },
     {
       "month": "2024-04",
-      "medianPrice": 288000,
-      "transactions": 279
+      "medianPrice": 289000,
+      "transactions": 280
     },
     {
       "month": "2024-05",
@@ -227,7 +227,7 @@
     {
       "month": "2024-06",
       "medianPrice": 280000,
-      "transactions": 358
+      "transactions": 357
     },
     {
       "month": "2024-07",
@@ -241,13 +241,13 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 280750,
-      "transactions": 414
+      "medianPrice": 281000,
+      "transactions": 415
     },
     {
       "month": "2024-10",
-      "medianPrice": 291250,
-      "transactions": 520
+      "medianPrice": 292500,
+      "transactions": 521
     },
     {
       "month": "2024-11",
@@ -261,125 +261,135 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 295000,
-      "transactions": 363
+      "medianPrice": 293000,
+      "transactions": 364
     },
     {
       "month": "2025-02",
       "medianPrice": 290000,
-      "transactions": 475
+      "transactions": 476
     },
     {
       "month": "2025-03",
       "medianPrice": 310000,
-      "transactions": 796
+      "transactions": 799
     },
     {
       "month": "2025-04",
       "medianPrice": 260000,
-      "transactions": 225
+      "transactions": 227
     },
     {
       "month": "2025-05",
       "medianPrice": 290000,
-      "transactions": 329
+      "transactions": 335
     },
     {
       "month": "2025-06",
       "medianPrice": 320000,
-      "transactions": 395
+      "transactions": 406
     },
     {
       "month": "2025-07",
-      "medianPrice": 313750,
-      "transactions": 390
+      "medianPrice": 315000,
+      "transactions": 418
     },
     {
       "month": "2025-08",
       "medianPrice": 305000,
-      "transactions": 422
+      "transactions": 427
     },
     {
       "month": "2025-09",
       "medianPrice": 300000,
-      "transactions": 342
+      "transactions": 359
     },
     {
       "month": "2025-10",
-      "medianPrice": 300000,
-      "transactions": 411
+      "medianPrice": 305000,
+      "transactions": 437
     },
     {
       "month": "2025-11",
       "medianPrice": 295000,
-      "transactions": 323
+      "transactions": 345
     },
     {
       "month": "2025-12",
-      "medianPrice": 286000,
-      "transactions": 286
+      "medianPrice": 287000,
+      "transactions": 289
     },
     {
       "month": "2026-01",
-      "medianPrice": 297250,
-      "transactions": 253
+      "medianPrice": 299750,
+      "transactions": 254
     },
     {
       "month": "2026-02",
-      "medianPrice": 316500,
-      "transactions": 266
+      "medianPrice": 318000,
+      "transactions": 287
     },
     {
       "month": "2026-03",
-      "medianPrice": 312250,
-      "transactions": 112
+      "medianPrice": 297500,
+      "transactions": 244
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 305000,
+      "transactions": 99
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 270000,
-      "transactions": 1080
+      "transactions": 1081
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 283000,
+      "medianPrice": 283250,
       "transactions": 1005
     },
     {
       "quarter": "2024-Q3",
       "medianPrice": 285000,
-      "transactions": 1403
+      "transactions": 1404
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 290000,
-      "transactions": 1459
+      "medianPrice": 290250,
+      "transactions": 1460
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 300000,
-      "transactions": 1634
+      "transactions": 1639
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 289000,
-      "transactions": 949
+      "medianPrice": 290000,
+      "transactions": 968
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 305250,
-      "transactions": 1154
+      "medianPrice": 306000,
+      "transactions": 1204
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 294000,
-      "transactions": 1020
+      "medianPrice": 295000,
+      "transactions": 1071
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 307000,
-      "transactions": 631
+      "medianPrice": 305000,
+      "transactions": 785
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 305000,
+      "transactions": 99
     }
   ]
 }

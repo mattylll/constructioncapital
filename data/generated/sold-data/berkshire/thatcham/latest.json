@@ -1,22 +1,157 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.629Z",
+  "updatedAt": "2026-06-23T19:12:06.399Z",
   "townSlug": "thatcham",
   "countySlug": "berkshire",
   "stats": {
-    "medianPrice": 380000,
+    "medianPrice": 377500,
     "medianByType": {
-      "D": 597500,
-      "S": 361000,
-      "T": 330000,
-      "F": 187500
+      "D": 595000,
+      "S": 360000,
+      "T": 328000,
+      "F": 180000
     },
-    "transactionCount12m": 363,
-    "yoyChange": 2.7,
-    "newBuildCount": 15,
-    "existingCount": 348,
-    "newBuildPremium": 52
+    "transactionCount12m": 348,
+    "yoyChange": 2,
+    "newBuildCount": 9,
+    "existingCount": 339,
+    "newBuildPremium": 51.4
   },
   "recentTransactions": [
+    {
+      "price": 482500,
+      "date": "2026-04-17",
+      "postcode": "RG19 3TN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "197, LOWER WAY"
+    },
+    {
+      "price": 310000,
+      "date": "2026-04-10",
+      "postcode": "RG19 4QJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, REDFINCH MEWS"
+    },
+    {
+      "price": 150000,
+      "date": "2026-04-01",
+      "postcode": "RG19 4PW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "23, FERNDALE COURT"
+    },
+    {
+      "price": 636000,
+      "date": "2026-04-01",
+      "postcode": "RG18 4NL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DARNA, THE GROVE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-31",
+      "postcode": "RG19 3UR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "83A, DERWENT ROAD"
+    },
+    {
+      "price": 397250,
+      "date": "2026-03-31",
+      "postcode": "RG19 4YF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, WHEELERS GREEN WAY"
+    },
+    {
+      "price": 545000,
+      "date": "2026-03-27",
+      "postcode": "RG18 4DG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, WITHYBED WAY"
+    },
+    {
+      "price": 145000,
+      "date": "2026-03-27",
+      "postcode": "RG18 3GL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, FAIRCROSS COURT"
+    },
+    {
+      "price": 280000,
+      "date": "2026-03-27",
+      "postcode": "RG19 4GT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, PEACHEY DRIVE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-03-27",
+      "postcode": "RG19 3XY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, TOMLIN CLOSE"
+    },
+    {
+      "price": 415000,
+      "date": "2026-03-27",
+      "postcode": "RG19 3LG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, ILKLEY WAY"
+    },
+    {
+      "price": 412000,
+      "date": "2026-03-27",
+      "postcode": "RG18 3EA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, LOUNDYES CLOSE"
+    },
+    {
+      "price": 540000,
+      "date": "2026-03-20",
+      "postcode": "RG18 3FH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, SAGECROFT ROAD"
+    },
+    {
+      "price": 495000,
+      "date": "2026-03-20",
+      "postcode": "RG19 4RG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, HORNE ROAD"
+    },
+    {
+      "price": 210000,
+      "date": "2026-03-20",
+      "postcode": "RG19 3XU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, FYFIELD ROAD"
+    },
     {
       "price": 340000,
       "date": "2026-03-19",
@@ -61,141 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "19, STRETCHER DRIVE"
-    },
-    {
-      "price": 390000,
-      "date": "2026-03-12",
-      "postcode": "RG18 0SB",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BROOK COTTAGE, WATER STREET"
-    },
-    {
-      "price": 370000,
-      "date": "2026-03-12",
-      "postcode": "RG19 4YE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, QUARRINGTON CLOSE"
-    },
-    {
-      "price": 2650000,
-      "date": "2026-03-09",
-      "postcode": "RG19 8DG",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PINCHINGTON HALL, CROOKHAM HILL"
-    },
-    {
-      "price": 350000,
-      "date": "2026-03-09",
-      "postcode": "RG18 3BF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, SAGECROFT ROAD"
-    },
-    {
-      "price": 435000,
-      "date": "2026-03-02",
-      "postcode": "RG19 4RF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, URQUHART ROAD"
-    },
-    {
-      "price": 812000,
-      "date": "2026-03-02",
-      "postcode": "RG18 9XD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE BEECHES, BEECHFIELD LANE"
-    },
-    {
-      "price": 273000,
-      "date": "2026-02-27",
-      "postcode": "RG18 3UE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, LAMB CLOSE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-02-27",
-      "postcode": "RG19 3TY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, WINSTON WAY"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-27",
-      "postcode": "RG19 4JR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, COOMBE COURT"
-    },
-    {
-      "price": 331500,
-      "date": "2026-02-27",
-      "postcode": "RG19 4RS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, IMPERIAL WAY"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-27",
-      "postcode": "RG19 4RG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "38, HORNE ROAD"
-    },
-    {
-      "price": 210000,
-      "date": "2026-02-27",
-      "postcode": "RG18 3GQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, APUS HOUSE, FRANCIS CLOSE"
-    },
-    {
-      "price": 415000,
-      "date": "2026-02-27",
-      "postcode": "RG19 3RJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, MEADOW CLOSE"
-    },
-    {
-      "price": 750000,
-      "date": "2026-02-20",
-      "postcode": "RG18 0XT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HIGHFIELD HOUSE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-02-20",
-      "postcode": "RG19 4FQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, SCRIVENS MEAD"
     }
   ],
   "monthlyHistory": [
@@ -231,8 +231,8 @@
     },
     {
       "month": "2024-07",
-      "medianPrice": 352500,
-      "transactions": 34
+      "medianPrice": 355000,
+      "transactions": 35
     },
     {
       "month": "2024-08",
@@ -276,8 +276,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 365000,
-      "transactions": 21
+      "medianPrice": 357500,
+      "transactions": 22
     },
     {
       "month": "2025-05",
@@ -286,18 +286,18 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 415000,
-      "transactions": 51
+      "medianPrice": 417500,
+      "transactions": 52
     },
     {
       "month": "2025-07",
-      "medianPrice": 365000,
-      "transactions": 41
+      "medianPrice": 361000,
+      "transactions": 47
     },
     {
       "month": "2025-08",
-      "medianPrice": 392500,
-      "transactions": 46
+      "medianPrice": 395000,
+      "transactions": 47
     },
     {
       "month": "2025-09",
@@ -306,13 +306,13 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 415000,
-      "transactions": 43
+      "medianPrice": 395500,
+      "transactions": 46
     },
     {
       "month": "2025-11",
-      "medianPrice": 373500,
-      "transactions": 28
+      "medianPrice": 377000,
+      "transactions": 29
     },
     {
       "month": "2025-12",
@@ -331,8 +331,13 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 370000,
-      "transactions": 11
+      "medianPrice": 390000,
+      "transactions": 23
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 396250,
+      "transactions": 4
     }
   ],
   "quarterlyHistory": [
@@ -349,7 +354,7 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 375000,
-      "transactions": 111
+      "transactions": 112
     },
     {
       "quarter": "2024-Q4",
@@ -364,22 +369,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 385000,
-      "transactions": 111
+      "transactions": 113
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 380000,
-      "transactions": 123
+      "transactions": 130
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 387500,
-      "transactions": 109
+      "medianPrice": 380000,
+      "transactions": 113
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 355750,
-      "transactions": 62
+      "medianPrice": 360000,
+      "transactions": 74
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 396250,
+      "transactions": 4
     }
   ]
 }

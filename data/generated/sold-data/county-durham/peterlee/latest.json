@@ -1,22 +1,166 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.468Z",
+  "updatedAt": "2026-06-23T19:12:08.443Z",
   "townSlug": "peterlee",
   "countySlug": "county-durham",
   "stats": {
-    "medianPrice": 76000,
+    "medianPrice": 75000,
     "medianByType": {
-      "D": 260000,
-      "S": 92500,
-      "T": 60000,
-      "F": 34000
+      "D": 230000,
+      "S": 103950,
+      "T": 58300,
+      "F": 32000
     },
-    "transactionCount12m": 475,
-    "yoyChange": 10.1,
+    "transactionCount12m": 479,
+    "yoyChange": 7.1,
     "newBuildCount": 0,
-    "existingCount": 475,
+    "existingCount": 479,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 75000,
+      "date": "2026-04-24",
+      "postcode": "SR8 4AN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, SMILLIE ROAD"
+    },
+    {
+      "price": 185000,
+      "date": "2026-04-17",
+      "postcode": "SR8 1BA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, OAKFIELD GARDENS"
+    },
+    {
+      "price": 51500,
+      "date": "2026-04-17",
+      "postcode": "SR8 3LT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, THOMAS STREET"
+    },
+    {
+      "price": 77500,
+      "date": "2026-04-16",
+      "postcode": "SR8 5TE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "130, HATFIELD PLACE"
+    },
+    {
+      "price": 57000,
+      "date": "2026-04-10",
+      "postcode": "SR8 4QH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, TWELFTH STREET"
+    },
+    {
+      "price": 94995,
+      "date": "2026-04-10",
+      "postcode": "SR8 2LP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, QUANTOCK PLACE"
+    },
+    {
+      "price": 72000,
+      "date": "2026-04-08",
+      "postcode": "SR8 3AF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, MORRIS SQUARE"
+    },
+    {
+      "price": 129500,
+      "date": "2026-04-07",
+      "postcode": "SR8 3XG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BRAMPTON COURT"
+    },
+    {
+      "price": 98000,
+      "date": "2026-04-02",
+      "postcode": "SR8 1LD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "126, OAKERSIDE DRIVE"
+    },
+    {
+      "price": 104999,
+      "date": "2026-04-01",
+      "postcode": "SR8 5BN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, DUNELM WALK"
+    },
+    {
+      "price": 320000,
+      "date": "2026-03-31",
+      "postcode": "SR8 4SS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, EASTFIELD"
+    },
+    {
+      "price": 57000,
+      "date": "2026-03-31",
+      "postcode": "SR8 3LF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, LONDONDERRY TERRACE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-03-30",
+      "postcode": "SR8 3FD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, PARSLEY CLOSE"
+    },
+    {
+      "price": 147000,
+      "date": "2026-03-27",
+      "postcode": "SR8 5TL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "69, EASTDENE WAY"
+    },
+    {
+      "price": 113500,
+      "date": "2026-03-27",
+      "postcode": "SR8 3HR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, OAK ROAD"
+    },
+    {
+      "price": 75000,
+      "date": "2026-03-27",
+      "postcode": "SR8 4BD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CRANSTON HOUSE, BELFORD STREET"
+    },
     {
       "price": 160000,
       "date": "2026-03-27",
@@ -27,175 +171,31 @@
       "address": "19, THORNTREE GILL"
     },
     {
-      "price": 92500,
-      "date": "2026-03-20",
-      "postcode": "SR8 4ES",
+      "price": 180000,
+      "date": "2026-03-26",
+      "postcode": "SR8 3FD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, BEACH GROVE"
+      "address": "64, PARSLEY CLOSE"
     },
     {
-      "price": 19000,
-      "date": "2026-03-19",
-      "postcode": "SR8 4QH",
+      "price": 96999,
+      "date": "2026-03-26",
+      "postcode": "SR8 5PJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, TWELFTH STREET"
+      "address": "14, KILNHILL WALK"
     },
     {
-      "price": 272500,
-      "date": "2026-03-16",
-      "postcode": "SR8 1NQ",
-      "propertyType": "D",
+      "price": 120000,
+      "date": "2026-03-25",
+      "postcode": "SR8 2BJ",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "45, BERWICK CHASE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-03-13",
-      "postcode": "SR8 3NU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, THE COPPICE"
-    },
-    {
-      "price": 70000,
-      "date": "2026-03-11",
-      "postcode": "SR8 5PU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, KENTMERE PLACE"
-    },
-    {
-      "price": 96000,
-      "date": "2026-03-11",
-      "postcode": "SR8 3PR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE BUNGALOW, SCHOOL STREET"
-    },
-    {
-      "price": 49000,
-      "date": "2026-03-09",
-      "postcode": "SR8 5PQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60, GRISEDALE ROAD"
-    },
-    {
-      "price": 49500,
-      "date": "2026-03-09",
-      "postcode": "SR8 4QL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, HUDSON AVENUE"
-    },
-    {
-      "price": 126000,
-      "date": "2026-03-06",
-      "postcode": "SR8 3UA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, THORPE ROAD"
-    },
-    {
-      "price": 102000,
-      "date": "2026-03-06",
-      "postcode": "SR8 4ST",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ROSETOWN AVENUE"
-    },
-    {
-      "price": 248000,
-      "date": "2026-03-06",
-      "postcode": "SR8 5HQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, CLIFTON SQUARE"
-    },
-    {
-      "price": 38000,
-      "date": "2026-03-06",
-      "postcode": "SR8 3QQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ASHTON STREET"
-    },
-    {
-      "price": 60000,
-      "date": "2026-03-06",
-      "postcode": "SR8 4QX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, GREENSIDE AVENUE"
-    },
-    {
-      "price": 76999,
-      "date": "2026-03-05",
-      "postcode": "SR8 3QB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, ANTHONY STREET"
-    },
-    {
-      "price": 58600,
-      "date": "2026-03-03",
-      "postcode": "SR8 4EH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "88, THIRD STREET"
-    },
-    {
-      "price": 380000,
-      "date": "2026-03-03",
-      "postcode": "SR8 2LZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TALL TREES, THE VILLAGE"
-    },
-    {
-      "price": 2000,
-      "date": "2026-03-02",
-      "postcode": "SR8 4LA",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DICKMAN BUILDINGS, FIFTH STREET"
-    },
-    {
-      "price": 78000,
-      "date": "2026-03-02",
-      "postcode": "SR8 1HB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, OAKERSIDE DRIVE"
-    },
-    {
-      "price": 160000,
-      "date": "2026-02-25",
-      "postcode": "SR8 4BF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, ASHWOOD MEADOWS"
+      "address": "28, STAINTON WAY"
     }
   ],
   "monthlyHistory": [
@@ -246,13 +246,13 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 64000,
-      "transactions": 83
+      "medianPrice": 64500,
+      "transactions": 82
     },
     {
       "month": "2024-11",
-      "medianPrice": 59000,
-      "transactions": 83
+      "medianPrice": 61250,
+      "transactions": 84
     },
     {
       "month": "2024-12",
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 90000,
-      "transactions": 71
+      "medianPrice": 89975,
+      "transactions": 72
     },
     {
       "month": "2025-04",
@@ -282,42 +282,42 @@
     {
       "month": "2025-05",
       "medianPrice": 70000,
-      "transactions": 65
+      "transactions": 67
     },
     {
       "month": "2025-06",
-      "medianPrice": 71250,
-      "transactions": 66
+      "medianPrice": 68500,
+      "transactions": 68
     },
     {
       "month": "2025-07",
-      "medianPrice": 80000,
-      "transactions": 61
+      "medianPrice": 78000,
+      "transactions": 70
     },
     {
       "month": "2025-08",
-      "medianPrice": 70155,
-      "transactions": 60
+      "medianPrice": 69250,
+      "transactions": 64
     },
     {
       "month": "2025-09",
       "medianPrice": 60000,
-      "transactions": 57
+      "transactions": 59
     },
     {
       "month": "2025-10",
-      "medianPrice": 75000,
-      "transactions": 41
+      "medianPrice": 75500,
+      "transactions": 46
     },
     {
       "month": "2025-11",
       "medianPrice": 89950,
-      "transactions": 34
+      "transactions": 37
     },
     {
       "month": "2025-12",
-      "medianPrice": 78000,
-      "transactions": 50
+      "medianPrice": 76000,
+      "transactions": 52
     },
     {
       "month": "2026-01",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 92250,
-      "transactions": 34
+      "medianPrice": 91000,
+      "transactions": 40
     },
     {
       "month": "2026-03",
-      "medianPrice": 78000,
-      "transactions": 19
+      "medianPrice": 77500,
+      "transactions": 40
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 86248,
+      "transactions": 10
     }
   ],
   "quarterlyHistory": [
@@ -353,33 +358,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 70000,
+      "medianPrice": 72000,
       "transactions": 233
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 80000,
-      "transactions": 185
+      "transactions": 186
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 67000,
-      "transactions": 199
+      "transactions": 203
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 70000,
-      "transactions": 178
+      "medianPrice": 68500,
+      "transactions": 193
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 80000,
-      "transactions": 125
+      "medianPrice": 79995,
+      "transactions": 135
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 86000,
-      "transactions": 82
+      "medianPrice": 85000,
+      "transactions": 109
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 86248,
+      "transactions": 10
     }
   ]
 }

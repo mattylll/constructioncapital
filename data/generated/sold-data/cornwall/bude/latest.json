@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.102Z",
+  "updatedAt": "2026-06-23T19:12:06.947Z",
   "townSlug": "bude",
   "countySlug": "cornwall",
   "stats": {
     "medianPrice": 343000,
     "medianByType": {
-      "D": 422500,
+      "D": 427750,
       "S": 285000,
-      "T": 257500,
-      "F": 220000
+      "T": 265000,
+      "F": 207500
     },
-    "transactionCount12m": 185,
-    "yoyChange": -5.6,
-    "newBuildCount": 3,
-    "existingCount": 182,
-    "newBuildPremium": 3.5
+    "transactionCount12m": 193,
+    "yoyChange": -6,
+    "newBuildCount": 10,
+    "existingCount": 183,
+    "newBuildPremium": 23.2
   },
   "recentTransactions": [
+    {
+      "price": 370000,
+      "date": "2026-04-20",
+      "postcode": "EX23 0JN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CLOVER HOUSE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-04-17",
+      "postcode": "EX23 9BH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, UNION COTTAGES, BOWDEN"
+    },
+    {
+      "price": 465000,
+      "date": "2026-04-02",
+      "postcode": "EX23 8NZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SANDFORD, POUGHILL ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-04-02",
+      "postcode": "EX23 8SL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CHERRILL GARDENS"
+    },
+    {
+      "price": 350000,
+      "date": "2026-04-02",
+      "postcode": "EX23 8SH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, GURNEY CLOSE"
+    },
+    {
+      "price": 597500,
+      "date": "2026-04-01",
+      "postcode": "EX23 8EN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, KILLERTON ROAD"
+    },
+    {
+      "price": 355000,
+      "date": "2026-04-01",
+      "postcode": "EX23 8LE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, THE CRESCENT"
+    },
+    {
+      "price": 307000,
+      "date": "2026-03-27",
+      "postcode": "EX23 0EL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, CRICKET PARK"
+    },
+    {
+      "price": 1200000,
+      "date": "2026-03-27",
+      "postcode": "EX23 0JZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "KNAPP BUNGALOW"
+    },
+    {
+      "price": 290000,
+      "date": "2026-03-25",
+      "postcode": "EX23 8FQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, PINTAIL CLOSE"
+    },
     {
       "price": 500000,
       "date": "2026-03-25",
@@ -25,6 +115,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "BUTTERFLY BARN"
+    },
+    {
+      "price": 55000,
+      "date": "2026-03-20",
+      "postcode": "EX23 9QY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1 PENHALT, PENSTOWE PARK"
+    },
+    {
+      "price": 260000,
+      "date": "2026-03-20",
+      "postcode": "EX23 8HP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, FLEXBURY PARK ROAD"
     },
     {
       "price": 270000,
@@ -88,114 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "5, MANOR CLOSE"
-    },
-    {
-      "price": 167000,
-      "date": "2026-02-27",
-      "postcode": "EX23 9BP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, BAY TREE COTTAGES, HOSPITAL ROAD"
-    },
-    {
-      "price": 407500,
-      "date": "2026-02-23",
-      "postcode": "EX23 8PG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, HALLETT WAY"
-    },
-    {
-      "price": 765000,
-      "date": "2026-02-23",
-      "postcode": "EX23 9ER",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MIDSUMMER COTTAGE"
-    },
-    {
-      "price": 50000,
-      "date": "2026-02-20",
-      "postcode": "EX23 9QY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, THE DRIVE, PENSTOWE PARK HOLIDAY VILLAGE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-02-20",
-      "postcode": "EX23 8QH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, KINGS HILL"
-    },
-    {
-      "price": 222500,
-      "date": "2026-02-19",
-      "postcode": "EX23 0HZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, FOUNDRY COTTAGES, HELEBRIDGE ROAD"
-    },
-    {
-      "price": 225000,
-      "date": "2026-02-18",
-      "postcode": "EX23 8BG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, KITTIWAKE COURT"
-    },
-    {
-      "price": 272500,
-      "date": "2026-02-11",
-      "postcode": "EX23 8FG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, HOPTON CLOSE"
-    },
-    {
-      "price": 520000,
-      "date": "2026-02-11",
-      "postcode": "EX23 8EZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, ELM DRIVE"
-    },
-    {
-      "price": 718000,
-      "date": "2026-02-09",
-      "postcode": "EX23 0AJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GWEL TEG, MADEIRA DRIVE"
-    },
-    {
-      "price": 370000,
-      "date": "2026-02-06",
-      "postcode": "EX23 0HX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, ST MARWENNE CLOSE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-01-30",
-      "postcode": "EX23 8SB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, AGNES CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -286,13 +286,13 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 355000,
-      "transactions": 18
+      "medianPrice": 345000,
+      "transactions": 21
     },
     {
       "month": "2025-07",
-      "medianPrice": 357500,
-      "transactions": 26
+      "medianPrice": 360000,
+      "transactions": 31
     },
     {
       "month": "2025-08",
@@ -302,22 +302,22 @@
     {
       "month": "2025-09",
       "medianPrice": 357500,
-      "transactions": 30
+      "transactions": 32
     },
     {
       "month": "2025-10",
-      "medianPrice": 314000,
-      "transactions": 20
+      "medianPrice": 285000,
+      "transactions": 23
     },
     {
       "month": "2025-11",
-      "medianPrice": 380000,
-      "transactions": 16
+      "medianPrice": 426500,
+      "transactions": 20
     },
     {
       "month": "2025-12",
       "medianPrice": 385000,
-      "transactions": 16
+      "transactions": 17
     },
     {
       "month": "2026-01",
@@ -331,7 +331,12 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 335000,
+      "medianPrice": 311000,
+      "transactions": 12
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 355000,
       "transactions": 7
     }
   ],
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 298500,
-      "transactions": 48
+      "medianPrice": 297000,
+      "transactions": 51
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 357500,
-      "transactions": 70
+      "medianPrice": 360000,
+      "transactions": 77
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 367500,
-      "transactions": 52
+      "transactions": 60
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 285000,
-      "transactions": 39
+      "medianPrice": 287500,
+      "transactions": 44
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 355000,
+      "transactions": 7
     }
   ]
 }

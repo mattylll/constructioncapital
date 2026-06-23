@@ -1,22 +1,76 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.946Z",
+  "updatedAt": "2026-06-23T19:12:08.948Z",
   "townSlug": "dolgellau",
   "countySlug": "gwynedd",
   "stats": {
-    "medianPrice": 180000,
+    "medianPrice": 176500,
     "medianByType": {
-      "D": 272500,
-      "S": 226000,
-      "T": 145000,
-      "F": 107000
+      "D": 255000,
+      "S": 257000,
+      "T": 150000,
+      "F": 141750
     },
-    "transactionCount12m": 59,
-    "yoyChange": -22.7,
+    "transactionCount12m": 57,
+    "yoyChange": -22.2,
     "newBuildCount": 1,
-    "existingCount": 58,
+    "existingCount": 56,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 165000,
+      "date": "2026-04-21",
+      "postcode": "LL40 1RH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CADER ROAD"
+    },
+    {
+      "price": 176500,
+      "date": "2026-04-17",
+      "postcode": "LL40 1BD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, ARRAN VILLAS"
+    },
+    {
+      "price": 210000,
+      "date": "2026-04-10",
+      "postcode": "LL40 1NL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, WENALLT VILLAS"
+    },
+    {
+      "price": 310000,
+      "date": "2026-04-07",
+      "postcode": "LL40 2TF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, GWELFRYN"
+    },
+    {
+      "price": 67000,
+      "date": "2026-03-30",
+      "postcode": "LL40 1DN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 11, GOLDEN LION, LION STREET"
+    },
+    {
+      "price": 110000,
+      "date": "2026-03-20",
+      "postcode": "LL40 1LU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, FRONDEG, MEYRICK SQUARE"
+    },
     {
       "price": 345000,
       "date": "2026-03-17",
@@ -142,60 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "BRYNWNION, CADER ROAD"
-    },
-    {
-      "price": 340000,
-      "date": "2025-11-11",
-      "postcode": "LL40 2YP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PENRHOS, PEN Y COED"
-    },
-    {
-      "price": 272500,
-      "date": "2025-11-11",
-      "postcode": "LL40 1LF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, MAESBRITH"
-    },
-    {
-      "price": 120000,
-      "date": "2025-10-31",
-      "postcode": "LL40 2EA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TY'R SIOP"
-    },
-    {
-      "price": 215000,
-      "date": "2025-10-21",
-      "postcode": "LL40 1LT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, MEYRICK SQUARE"
-    },
-    {
-      "price": 227500,
-      "date": "2025-10-20",
-      "postcode": "LL40 1LY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MALVERN HOUSE, SPRINGFIELD STREET"
-    },
-    {
-      "price": 250000,
-      "date": "2025-10-17",
-      "postcode": "LL40 1ES",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CLIFTON HOUSE HOTEL, SMITHFIELD SQUARE"
     }
   ],
   "monthlyHistory": [
@@ -281,8 +281,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 220000,
-      "transactions": 12
+      "medianPrice": 200000,
+      "transactions": 13
     },
     {
       "month": "2025-06",
@@ -291,23 +291,23 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 247500,
-      "transactions": 4
+      "medianPrice": 215000,
+      "transactions": 5
     },
     {
       "month": "2025-08",
-      "medianPrice": 171000,
-      "transactions": 11
+      "medianPrice": 167000,
+      "transactions": 12
     },
     {
       "month": "2025-09",
-      "medianPrice": 152000,
-      "transactions": 4
+      "medianPrice": 99000,
+      "transactions": 5
     },
     {
       "month": "2025-10",
-      "medianPrice": 215000,
-      "transactions": 7
+      "medianPrice": 221250,
+      "transactions": 8
     },
     {
       "month": "2025-11",
@@ -326,8 +326,13 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 180000,
-      "transactions": 6
+      "medianPrice": 160000,
+      "transactions": 8
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 193250,
+      "transactions": 4
     }
   ],
   "quarterlyHistory": [
@@ -358,23 +363,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 200000,
-      "transactions": 27
+      "medianPrice": 197500,
+      "transactions": 28
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 199950,
-      "transactions": 19
+      "medianPrice": 167000,
+      "transactions": 22
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 199999,
-      "transactions": 13
+      "medianPrice": 207500,
+      "transactions": 14
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 175000,
-      "transactions": 10
+      "medianPrice": 170000,
+      "transactions": 12
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 193250,
+      "transactions": 4
     }
   ]
 }

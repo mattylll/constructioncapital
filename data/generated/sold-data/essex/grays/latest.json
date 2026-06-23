@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.816Z",
+  "updatedAt": "2026-06-23T19:12:06.624Z",
   "townSlug": "grays",
   "countySlug": "essex",
   "stats": {
     "medianPrice": 350000,
     "medianByType": {
-      "D": 532500,
+      "D": 550000,
       "S": 400000,
       "T": 340000,
-      "F": 207750
+      "F": 202000
     },
-    "transactionCount12m": 1489,
+    "transactionCount12m": 1477,
     "yoyChange": 0,
-    "newBuildCount": 5,
-    "existingCount": 1484,
-    "newBuildPremium": 31.2
+    "newBuildCount": 4,
+    "existingCount": 1473,
+    "newBuildPremium": 99.3
   },
   "recentTransactions": [
     {
-      "price": 435000,
-      "date": "2026-03-27",
-      "postcode": "RM16 4UT",
+      "price": 285000,
+      "date": "2026-04-24",
+      "postcode": "RM19 1QJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, CHURCH HOLLOW"
+    },
+    {
+      "price": 295000,
+      "date": "2026-04-22",
+      "postcode": "RM17 6QX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, STANLEY ROAD"
+    },
+    {
+      "price": 580000,
+      "date": "2026-04-20",
+      "postcode": "RM16 2TW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "56, HEATH ROAD"
-    },
-    {
-      "price": 370000,
-      "date": "2026-03-20",
-      "postcode": "RM15 4TJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, CRESCENT WAY"
-    },
-    {
-      "price": 470000,
-      "date": "2026-03-20",
-      "postcode": "RM15 5TH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, ARDMORE ROAD"
-    },
-    {
-      "price": 254000,
-      "date": "2026-03-20",
-      "postcode": "RM17 5HS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, PAGETTE WAY"
-    },
-    {
-      "price": 279385,
-      "date": "2026-03-20",
-      "postcode": "RM16 3AP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "212, HEATH ROAD"
-    },
-    {
-      "price": 325000,
-      "date": "2026-03-20",
-      "postcode": "RM15 5QE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, FYFIELD DRIVE"
-    },
-    {
-      "price": 255000,
-      "date": "2026-03-20",
-      "postcode": "RM17 5JQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, WINGFIELD"
-    },
-    {
-      "price": 345000,
-      "date": "2026-03-20",
-      "postcode": "RM15 4NH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, RAVEL GARDENS"
-    },
-    {
-      "price": 455000,
-      "date": "2026-03-19",
-      "postcode": "SS17 7NJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "76, GIFFORDS CROSS AVENUE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-03-19",
-      "postcode": "SS17 0HD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "17, HIGH STREET"
-    },
-    {
-      "price": 385000,
-      "date": "2026-03-17",
-      "postcode": "RM17 6TN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, COMFREY COURT"
-    },
-    {
-      "price": 449000,
-      "date": "2026-03-16",
-      "postcode": "RM16 2RS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, HEATHVIEW ROAD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-03-16",
-      "postcode": "RM15 4SZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "68, ST MICHAELS CLOSE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-03-13",
-      "postcode": "RM16 6DW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, CARDINAL ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-03-13",
-      "postcode": "RM15 4DA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "107, BELHOUSE AVENUE"
+      "address": "7, CONRAD CLOSE"
     },
     {
       "price": 350000,
-      "date": "2026-03-13",
-      "postcode": "RM15 5FS",
+      "date": "2026-04-20",
+      "postcode": "RM17 5FG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, SUNLINER WAY"
+      "address": "27, MALTHOUSE DRIVE"
     },
     {
-      "price": 430000,
-      "date": "2026-03-13",
-      "postcode": "SS17 0BD",
+      "price": 310000,
+      "date": "2026-04-17",
+      "postcode": "RM18 8EL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, MONARCH CLOSE"
+    },
+    {
+      "price": 360000,
+      "date": "2026-04-17",
+      "postcode": "SS17 8JX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "164, MILTON ROAD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-04-17",
+      "postcode": "SS17 7JF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, WEBSTER ROAD"
+      "address": "21, ANDERSONS"
     },
     {
-      "price": 405000,
-      "date": "2026-03-13",
-      "postcode": "SS17 0QA",
+      "price": 314000,
+      "date": "2026-04-17",
+      "postcode": "RM16 6PZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CELEDON CLOSE"
+    },
+    {
+      "price": 217000,
+      "date": "2026-04-16",
+      "postcode": "SS17 8JL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, HOWELL ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-04-15",
+      "postcode": "RM16 4TR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "207, GODMAN ROAD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-04-15",
+      "postcode": "SS17 0DZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "46, SOMERSET ROAD"
+      "address": "47, WHARF ROAD"
     },
     {
-      "price": 475000,
-      "date": "2026-03-13",
-      "postcode": "RM17 5SW",
+      "price": 410000,
+      "date": "2026-04-15",
+      "postcode": "RM15 5JU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "141, GARRON LANE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-04-14",
+      "postcode": "RM16 2XR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "251, RECTORY ROAD"
+      "address": "33, CONNAUGHT AVENUE"
     },
     {
-      "price": 460000,
-      "date": "2026-03-12",
-      "postcode": "SS17 7EB",
+      "price": 240000,
+      "date": "2026-04-14",
+      "postcode": "RM19 1RN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, BANNER CLOSE"
+    },
+    {
+      "price": 410000,
+      "date": "2026-04-13",
+      "postcode": "RM17 6EF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "120, MONKS HAVEN"
+      "address": "3, MANOR ROAD"
+    },
+    {
+      "price": 367000,
+      "date": "2026-04-10",
+      "postcode": "SS17 8DX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, RODINGS AVENUE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-04-10",
+      "postcode": "RM15 5DT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12, DUNNING CLOSE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-04-09",
+      "postcode": "RM18 8SR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, KENSINGTON GARDENS, CORONATION AVENUE"
+    },
+    {
+      "price": 790000,
+      "date": "2026-04-09",
+      "postcode": "RM16 2GG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, KING EDWARD DRIVE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-04-08",
+      "postcode": "RM19 1RD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "62, WINDERMERE AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -247,17 +247,17 @@
     {
       "month": "2024-10",
       "medianPrice": 350000,
-      "transactions": 244
+      "transactions": 245
     },
     {
       "month": "2024-11",
       "medianPrice": 350000,
-      "transactions": 223
+      "transactions": 224
     },
     {
       "month": "2024-12",
       "medianPrice": 350000,
-      "transactions": 167
+      "transactions": 168
     },
     {
       "month": "2025-01",
@@ -267,12 +267,12 @@
     {
       "month": "2025-02",
       "medianPrice": 350000,
-      "transactions": 205
+      "transactions": 206
     },
     {
       "month": "2025-03",
       "medianPrice": 360000,
-      "transactions": 433
+      "transactions": 437
     },
     {
       "month": "2025-04",
@@ -282,37 +282,37 @@
     {
       "month": "2025-05",
       "medianPrice": 348750,
-      "transactions": 166
+      "transactions": 170
     },
     {
       "month": "2025-06",
-      "medianPrice": 346000,
-      "transactions": 166
+      "medianPrice": 345000,
+      "transactions": 176
     },
     {
       "month": "2025-07",
       "medianPrice": 365000,
-      "transactions": 180
+      "transactions": 186
     },
     {
       "month": "2025-08",
-      "medianPrice": 341000,
-      "transactions": 164
+      "medianPrice": 342000,
+      "transactions": 170
     },
     {
       "month": "2025-09",
       "medianPrice": 350000,
-      "transactions": 182
+      "transactions": 186
     },
     {
       "month": "2025-10",
       "medianPrice": 360000,
-      "transactions": 199
+      "transactions": 213
     },
     {
       "month": "2025-11",
-      "medianPrice": 335000,
-      "transactions": 133
+      "medianPrice": 336000,
+      "transactions": 151
     },
     {
       "month": "2025-12",
@@ -321,18 +321,23 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 358000,
-      "transactions": 117
+      "medianPrice": 360250,
+      "transactions": 118
     },
     {
       "month": "2026-02",
-      "medianPrice": 356500,
-      "transactions": 102
+      "medianPrice": 352500,
+      "transactions": 112
     },
     {
       "month": "2026-03",
-      "medianPrice": 377500,
-      "transactions": 46
+      "medianPrice": 351500,
+      "transactions": 116
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 347750,
+      "transactions": 32
     }
   ],
   "quarterlyHistory": [
@@ -354,32 +359,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 350000,
-      "transactions": 634
+      "transactions": 637
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 350000,
-      "transactions": 798
+      "medianPrice": 353000,
+      "transactions": 803
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 335500,
-      "transactions": 409
+      "medianPrice": 335000,
+      "transactions": 423
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 350000,
-      "transactions": 526
+      "transactions": 542
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 350000,
-      "transactions": 459
+      "transactions": 491
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 360000,
-      "transactions": 265
+      "medianPrice": 356000,
+      "transactions": 346
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 347750,
+      "transactions": 32
     }
   ]
 }

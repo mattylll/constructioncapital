@@ -1,22 +1,157 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.928Z",
+  "updatedAt": "2026-06-23T19:12:08.930Z",
   "townSlug": "brecon",
   "countySlug": "powys",
   "stats": {
-    "medianPrice": 272500,
+    "medianPrice": 285000,
     "medianByType": {
-      "D": 382500,
-      "S": 259500,
-      "T": 205000,
-      "F": 95500
+      "D": 385000,
+      "S": 260000,
+      "T": 220000,
+      "F": 100000
     },
     "transactionCount12m": 161,
-    "yoyChange": -4.4,
-    "newBuildCount": 2,
-    "existingCount": 159,
-    "newBuildPremium": null
+    "yoyChange": 0.6,
+    "newBuildCount": 5,
+    "existingCount": 156,
+    "newBuildPremium": 12
   },
   "recentTransactions": [
+    {
+      "price": 161000,
+      "date": "2026-04-24",
+      "postcode": "LD3 9DR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, NORTH ROAD"
+    },
+    {
+      "price": 210000,
+      "date": "2026-04-22",
+      "postcode": "LD3 8DU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, FFYNNON DEWI"
+    },
+    {
+      "price": 382500,
+      "date": "2026-04-15",
+      "postcode": "LD3 0PP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "OAEDFAN, COLLEGE LANE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-04-14",
+      "postcode": "LD3 7YG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE SPINNEY"
+    },
+    {
+      "price": 240000,
+      "date": "2026-04-09",
+      "postcode": "LD3 9ET",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, BEECH GROVE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-03-31",
+      "postcode": "LD3 0AR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CEDDRWYDDEN, PARK AVENUE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-03-31",
+      "postcode": "LD3 9DF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, THE POSTERN"
+    },
+    {
+      "price": 270000,
+      "date": "2026-03-27",
+      "postcode": "LD3 0LL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DEWSBURY GATE"
+    },
+    {
+      "price": 233500,
+      "date": "2026-03-27",
+      "postcode": "LD3 9AQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "77, HOGGAN PARK"
+    },
+    {
+      "price": 265000,
+      "date": "2026-03-27",
+      "postcode": "LD3 9AQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "83, HOGGAN PARK"
+    },
+    {
+      "price": 323000,
+      "date": "2026-03-27",
+      "postcode": "LD3 8YR",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TYCANOL"
+    },
+    {
+      "price": 130000,
+      "date": "2026-03-24",
+      "postcode": "LD3 9PL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, MAES Y FFYNNON"
+    },
+    {
+      "price": 575000,
+      "date": "2026-03-24",
+      "postcode": "LD3 0SZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CAE FELIN, 11, BLACK MOUNTAIN VIEW"
+    },
+    {
+      "price": 440000,
+      "date": "2026-03-20",
+      "postcode": "LD3 0YZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, RIVER VIEW CLOSE"
+    },
+    {
+      "price": 490000,
+      "date": "2026-03-20",
+      "postcode": "LD3 9SX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, HOGGAN PARK"
+    },
     {
       "price": 370000,
       "date": "2026-03-19",
@@ -25,6 +160,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "TY GROES"
+    },
+    {
+      "price": 280000,
+      "date": "2026-03-16",
+      "postcode": "LD3 7RT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "61, CAMDEN ROAD"
     },
     {
       "price": 270000,
@@ -45,157 +189,13 @@
       "address": "3, MAESY CWM"
     },
     {
-      "price": 215000,
-      "date": "2026-03-06",
-      "postcode": "LD3 9BS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, PONTWILYM"
-    },
-    {
-      "price": 320000,
-      "date": "2026-03-06",
-      "postcode": "LD3 7FD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, CANALSIDE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-03-03",
-      "postcode": "LD3 0HG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, WESTFIELDS"
-    },
-    {
-      "price": 415000,
-      "date": "2026-03-02",
-      "postcode": "LD3 8DF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, NEWTON GREEN"
-    },
-    {
-      "price": 575000,
-      "date": "2026-02-26",
-      "postcode": "LD3 7RS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, CAMDEN ROAD"
-    },
-    {
       "price": 250000,
-      "date": "2026-02-26",
-      "postcode": "LD3 7SP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LABURNUM COTTAGE"
-    },
-    {
-      "price": 905000,
-      "date": "2026-02-25",
-      "postcode": "LD3 8LG",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DANYFAN"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-20",
-      "postcode": "LD3 7RR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SANAWAR, 9, CWRT Y CAMDEN"
-    },
-    {
-      "price": 218000,
-      "date": "2026-02-20",
-      "postcode": "LD3 8SN",
+      "date": "2026-03-15",
+      "postcode": "LD3 7YQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, PROSPECT ROW"
-    },
-    {
-      "price": 145000,
-      "date": "2026-02-18",
-      "postcode": "LD3 7LW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, THE STRUET"
-    },
-    {
-      "price": 394500,
-      "date": "2026-02-12",
-      "postcode": "LD3 0UD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "YNYS DAREN"
-    },
-    {
-      "price": 213000,
-      "date": "2026-02-09",
-      "postcode": "LD3 0HG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, WESTFIELDS"
-    },
-    {
-      "price": 1478602,
-      "date": "2026-02-02",
-      "postcode": "LD3 8PS",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "RIVERSIDE SERVICES & RESTAURANT"
-    },
-    {
-      "price": 465000,
-      "date": "2026-01-30",
-      "postcode": "LD3 9NW",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, TWYN Y GAER"
-    },
-    {
-      "price": 223000,
-      "date": "2026-01-30",
-      "postcode": "LD3 7JW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, HONDDU COURT"
-    },
-    {
-      "price": 140000,
-      "date": "2026-01-20",
-      "postcode": "LD3 9BH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, VICTORIA PLACE"
-    },
-    {
-      "price": 232500,
-      "date": "2026-01-19",
-      "postcode": "LD3 9AY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "YSGUBOR, KENSINGTON"
+      "address": "27, PENPENTRE"
     }
   ],
   "monthlyHistory": [
@@ -276,8 +276,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 305000,
-      "transactions": 23
+      "medianPrice": 297500,
+      "transactions": 24
     },
     {
       "month": "2025-05",
@@ -286,23 +286,23 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 315000,
-      "transactions": 19
+      "medianPrice": 296500,
+      "transactions": 20
     },
     {
       "month": "2025-07",
-      "medianPrice": 370000,
-      "transactions": 15
+      "medianPrice": 365000,
+      "transactions": 18
     },
     {
       "month": "2025-08",
-      "medianPrice": 300000,
-      "transactions": 19
+      "medianPrice": 301000,
+      "transactions": 22
     },
     {
       "month": "2025-09",
-      "medianPrice": 337500,
-      "transactions": 20
+      "medianPrice": 335000,
+      "transactions": 21
     },
     {
       "month": "2025-10",
@@ -316,8 +316,8 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 283500,
-      "transactions": 20
+      "medianPrice": 285000,
+      "transactions": 21
     },
     {
       "month": "2026-01",
@@ -332,7 +332,12 @@
     {
       "month": "2026-03",
       "medianPrice": 270000,
-      "transactions": 7
+      "transactions": 19
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 240000,
+      "transactions": 5
     }
   ],
   "quarterlyHistory": [
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 285000,
-      "transactions": 64
+      "medianPrice": 282500,
+      "transactions": 66
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 313750,
-      "transactions": 54
+      "medianPrice": 317500,
+      "transactions": 61
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 250000,
-      "transactions": 48
+      "transactions": 49
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 292500,
-      "transactions": 26
+      "medianPrice": 282500,
+      "transactions": 38
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 240000,
+      "transactions": 5
     }
   ]
 }

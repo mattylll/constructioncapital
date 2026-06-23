@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.577Z",
+  "updatedAt": "2026-06-23T19:12:07.472Z",
   "townSlug": "worksop",
   "countySlug": "nottinghamshire",
   "stats": {
-    "medianPrice": 195000,
+    "medianPrice": 190000,
     "medianByType": {
-      "D": 285000,
-      "S": 180000,
-      "T": 126000,
-      "F": 92000
+      "D": 290000,
+      "S": 175000,
+      "T": 125000,
+      "F": 94000
     },
-    "transactionCount12m": 753,
-    "yoyChange": 2.6,
-    "newBuildCount": 62,
-    "existingCount": 691,
-    "newBuildPremium": 19.1
+    "transactionCount12m": 693,
+    "yoyChange": 0,
+    "newBuildCount": 35,
+    "existingCount": 658,
+    "newBuildPremium": 30.4
   },
   "recentTransactions": [
     {
-      "price": 145000,
-      "date": "2026-03-20",
-      "postcode": "S81 0RF",
+      "price": 105000,
+      "date": "2026-04-15",
+      "postcode": "S80 2DA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, CHESTERTON DRIVE"
+      "address": "44, GARSIDE STREET"
     },
     {
-      "price": 257500,
-      "date": "2026-03-20",
-      "postcode": "S80 1BB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, ROWAN CRESCENT"
-    },
-    {
-      "price": 172500,
-      "date": "2026-03-20",
-      "postcode": "S81 0AJ",
+      "price": 179000,
+      "date": "2026-04-14",
+      "postcode": "S81 9HN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, SUNFIELD AVENUE"
+      "address": "17, HAWTHORN WAY"
     },
     {
-      "price": 250000,
-      "date": "2026-03-20",
-      "postcode": "S81 7TA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, RED ADMIRAL ROAD"
-    },
-    {
-      "price": 137000,
-      "date": "2026-03-19",
-      "postcode": "S80 2ED",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "177, KILTON ROAD"
-    },
-    {
-      "price": 193000,
-      "date": "2026-03-19",
-      "postcode": "S81 9DG",
+      "price": 140000,
+      "date": "2026-04-10",
+      "postcode": "S81 0FE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, CONWAY DRIVE"
+      "address": "9, WARREN DRIVE"
+    },
+    {
+      "price": 125000,
+      "date": "2026-04-10",
+      "postcode": "S80 1NA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, DEVONSHIRE STREET"
     },
     {
       "price": 130000,
-      "date": "2026-03-19",
-      "postcode": "S80 2TU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, SHREWSBURY ROAD"
-    },
-    {
-      "price": 53500,
-      "date": "2026-03-18",
-      "postcode": "S80 1RE",
+      "date": "2026-04-10",
+      "postcode": "S81 7DD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "59, EASTGATE"
+      "address": "12, HAMILTON STREET"
     },
     {
-      "price": 215000,
-      "date": "2026-03-17",
-      "postcode": "S81 8TR",
+      "price": 168000,
+      "date": "2026-04-10",
+      "postcode": "S81 7HL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, GATEFORD DRIVE"
+    },
+    {
+      "price": 360000,
+      "date": "2026-04-08",
+      "postcode": "S81 9AW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, PEREGRINE COURT"
+      "address": "23A, LONG LANE"
     },
     {
-      "price": 75000,
-      "date": "2026-03-17",
+      "price": 282000,
+      "date": "2026-04-02",
+      "postcode": "S81 8WF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, IVEL CRESCENT"
+    },
+    {
+      "price": 310000,
+      "date": "2026-04-01",
+      "postcode": "S81 7LN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, SUNNYSIDE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-04-01",
+      "postcode": "S81 9HF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, KINGSTON ROAD"
+    },
+    {
+      "price": 83000,
+      "date": "2026-03-31",
+      "postcode": "S80 1ND",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, THE WILLOWS"
+    },
+    {
+      "price": 330000,
+      "date": "2026-03-31",
+      "postcode": "S80 3PL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, LADYLEA CLOSE"
+    },
+    {
+      "price": 245000,
+      "date": "2026-03-30",
+      "postcode": "S81 7SP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "109, HARLEQUIN DRIVE"
+    },
+    {
+      "price": 237000,
+      "date": "2026-03-27",
+      "postcode": "S81 7SR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, CAPE HONEY WAY"
+    },
+    {
+      "price": 245000,
+      "date": "2026-03-27",
+      "postcode": "S81 9TD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, GREENFIELDS WAY"
+    },
+    {
+      "price": 130000,
+      "date": "2026-03-27",
       "postcode": "S81 0RP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, ST DAVIDS CLOSE"
-    },
-    {
-      "price": 143500,
-      "date": "2026-03-13",
-      "postcode": "S80 2UG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, RUFFORD STREET"
-    },
-    {
-      "price": 325000,
-      "date": "2026-03-13",
-      "postcode": "S81 0JN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, HIGHLAND GROVE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-03-12",
-      "postcode": "S81 7RQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, KENLEY CLOSE"
-    },
-    {
-      "price": 253000,
-      "date": "2026-03-12",
-      "postcode": "S81 7RD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ROSEWOOD CLOSE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-06",
-      "postcode": "S81 9HL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, KNATON ROAD"
-    },
-    {
-      "price": 90000,
-      "date": "2026-03-06",
-      "postcode": "S80 1UF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, CAMBRIA TERRACE"
+      "address": "14, ST DAVIDS CLOSE"
     },
     {
       "price": 135000,
-      "date": "2026-03-03",
-      "postcode": "S80 2DN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "192, KILTON ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-03-03",
-      "postcode": "S81 7JN",
+      "date": "2026-03-27",
+      "postcode": "S80 2UP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, MOUNT AVENUE"
+      "address": "15, SOUTHBRECK RISE"
     },
     {
-      "price": 102000,
-      "date": "2026-03-02",
-      "postcode": "S80 2JN",
-      "propertyType": "T",
+      "price": 470000,
+      "date": "2026-03-27",
+      "postcode": "S81 7HN",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, LOW TOWN STREET"
+      "address": "215, CARLTON ROAD"
     },
     {
-      "price": 145000,
-      "date": "2026-03-02",
-      "postcode": "S81 7JG",
+      "price": 273500,
+      "date": "2026-03-27",
+      "postcode": "S81 7QJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, APPLEBY COURT"
+    },
+    {
+      "price": 170000,
+      "date": "2026-03-27",
+      "postcode": "S81 0PS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "162, ANSTON AVENUE"
+      "address": "4, LICHFIELD CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -276,48 +276,48 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 177500,
-      "transactions": 72
+      "medianPrice": 175000,
+      "transactions": 73
     },
     {
       "month": "2025-05",
-      "medianPrice": 189975,
-      "transactions": 86
+      "medianPrice": 189950,
+      "transactions": 91
     },
     {
       "month": "2025-06",
-      "medianPrice": 197750,
-      "transactions": 120
+      "medianPrice": 197500,
+      "transactions": 123
     },
     {
       "month": "2025-07",
-      "medianPrice": 176500,
-      "transactions": 86
+      "medianPrice": 168000,
+      "transactions": 93
     },
     {
       "month": "2025-08",
       "medianPrice": 195000,
-      "transactions": 88
+      "transactions": 91
     },
     {
       "month": "2025-09",
-      "medianPrice": 194000,
-      "transactions": 82
+      "medianPrice": 190000,
+      "transactions": 83
     },
     {
       "month": "2025-10",
-      "medianPrice": 206250,
-      "transactions": 98
+      "medianPrice": 205000,
+      "transactions": 99
     },
     {
       "month": "2025-11",
-      "medianPrice": 208000,
-      "transactions": 57
+      "medianPrice": 202500,
+      "transactions": 62
     },
     {
       "month": "2025-12",
-      "medianPrice": 192500,
-      "transactions": 58
+      "medianPrice": 190000,
+      "transactions": 59
     },
     {
       "month": "2026-01",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 210000,
-      "transactions": 59
+      "medianPrice": 207500,
+      "transactions": 62
     },
     {
       "month": "2026-03",
-      "medianPrice": 158750,
-      "transactions": 20
+      "medianPrice": 175500,
+      "transactions": 49
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 159000,
+      "transactions": 10
     }
   ],
   "quarterlyHistory": [
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 190998,
-      "transactions": 278
+      "medianPrice": 190000,
+      "transactions": 287
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 188750,
-      "transactions": 256
+      "medianPrice": 185929,
+      "transactions": 267
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 205000,
-      "transactions": 213
+      "medianPrice": 202500,
+      "transactions": 220
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 188750,
-      "transactions": 116
+      "medianPrice": 186250,
+      "transactions": 148
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 159000,
+      "transactions": 10
     }
   ]
 }

@@ -1,30 +1,147 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.731Z",
+  "updatedAt": "2026-06-23T19:12:06.518Z",
   "townSlug": "hertford",
   "countySlug": "hertfordshire",
   "stats": {
-    "medianPrice": 445000,
+    "medianPrice": 446000,
     "medianByType": {
-      "D": 850000,
-      "S": 591250,
-      "T": 450000,
-      "F": 275000
+      "D": 882500,
+      "S": 587500,
+      "T": 445000,
+      "F": 274000
     },
-    "transactionCount12m": 428,
-    "yoyChange": -1.1,
+    "transactionCount12m": 440,
+    "yoyChange": -0.9,
     "newBuildCount": 0,
-    "existingCount": 428,
+    "existingCount": 440,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 645000,
-      "date": "2026-03-27",
-      "postcode": "SG13 7JF",
-      "propertyType": "D",
+      "price": 398000,
+      "date": "2026-04-17",
+      "postcode": "SG13 7SU",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "64, WOODLANDS ROAD"
+      "address": "15, COTTON DRIVE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-04-17",
+      "postcode": "SG14 1SZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1, MAIDENHEAD YARD"
+    },
+    {
+      "price": 370000,
+      "date": "2026-04-17",
+      "postcode": "SG13 7EH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MEADOW CLOSE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-04-10",
+      "postcode": "SG14 1FD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, GRAVESON HOUSE, MARKET PLACE"
+    },
+    {
+      "price": 670000,
+      "date": "2026-04-10",
+      "postcode": "SG14 1RU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, OLD CROSS WHARF"
+    },
+    {
+      "price": 250000,
+      "date": "2026-04-01",
+      "postcode": "SG14 1HZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 6, TANNERS COURT, 53, ST ANDREW STREET"
+    },
+    {
+      "price": 315000,
+      "date": "2026-04-01",
+      "postcode": "SG13 8ND",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4, WOODCOCK LODGE"
+    },
+    {
+      "price": 246500,
+      "date": "2026-03-31",
+      "postcode": "SG14 3HT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12, BENGEO MEADOWS"
+    },
+    {
+      "price": 635000,
+      "date": "2026-03-31",
+      "postcode": "SG13 7HA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, BURLEIGH ROAD"
+    },
+    {
+      "price": 575000,
+      "date": "2026-03-31",
+      "postcode": "SG14 3JY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, GLEBE ROAD"
+    },
+    {
+      "price": 445000,
+      "date": "2026-03-27",
+      "postcode": "SG13 7TX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, THE COPSE"
+    },
+    {
+      "price": 765000,
+      "date": "2026-03-27",
+      "postcode": "SG14 3AF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "100 - 102, PORT VALE"
+    },
+    {
+      "price": 580000,
+      "date": "2026-03-27",
+      "postcode": "SG14 3FF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BUCKWELLS FIELD"
+    },
+    {
+      "price": 695000,
+      "date": "2026-03-27",
+      "postcode": "SG14 2BG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, FORDWICH HILL"
     },
     {
       "price": 120000,
@@ -36,166 +153,49 @@
       "address": "42, CHAUNCY COURT"
     },
     {
-      "price": 375000,
-      "date": "2026-03-19",
-      "postcode": "SG14 2TB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "70, LADYWOOD ROAD"
-    },
-    {
-      "price": 715000,
-      "date": "2026-03-18",
-      "postcode": "SG13 7DN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "94, TAMWORTH ROAD"
-    },
-    {
-      "price": 466000,
-      "date": "2026-03-16",
-      "postcode": "SG13 7RS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4A, CHURCH HILL"
-    },
-    {
-      "price": 425400,
-      "date": "2026-03-16",
-      "postcode": "SG13 7RJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, LONDON ROAD"
-    },
-    {
-      "price": 635000,
-      "date": "2026-03-13",
-      "postcode": "SG13 7RF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, WISDOM DRIVE"
-    },
-    {
-      "price": 740000,
-      "date": "2026-03-13",
-      "postcode": "SG14 3ND",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, CLUSTERBOLTS"
-    },
-    {
-      "price": 350000,
-      "date": "2026-03-13",
-      "postcode": "SG14 2EH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, TURPINS CLOSE"
-    },
-    {
-      "price": 590000,
-      "date": "2026-03-12",
-      "postcode": "SG14 1RE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19A, OLD CROSS"
-    },
-    {
-      "price": 362500,
-      "date": "2026-03-12",
-      "postcode": "SG14 3SX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, AYLOTT COURT, HIGH STREET"
-    },
-    {
-      "price": 600000,
-      "date": "2026-03-11",
-      "postcode": "SG13 7UX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, THE ELMS"
-    },
-    {
-      "price": 875000,
-      "date": "2026-03-06",
-      "postcode": "SG13 7EU",
+      "price": 645000,
+      "date": "2026-03-27",
+      "postcode": "SG13 7JF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, COCKBUSH AVENUE"
+      "address": "64, WOODLANDS ROAD"
     },
     {
-      "price": 1190000,
-      "date": "2026-03-06",
-      "postcode": "SG13 8AZ",
+      "price": 890000,
+      "date": "2026-03-27",
+      "postcode": "SG14 2RA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, QUEENS ROAD"
+      "address": "THE COACH HOUSE, WATERFORD HALL FARM, HIGH ROAD"
     },
     {
-      "price": 168000,
-      "date": "2026-03-06",
-      "postcode": "SG14 1DU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12, CHAUNCY COURT"
-    },
-    {
-      "price": 897000,
-      "date": "2026-03-06",
-      "postcode": "SG14 3DU",
+      "price": 625000,
+      "date": "2026-03-27",
+      "postcode": "SG13 7TA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "104, THE AVENUE"
+      "address": "3, MARTINS DRIVE"
     },
     {
-      "price": 475000,
-      "date": "2026-03-05",
-      "postcode": "SG13 7BY",
+      "price": 415000,
+      "date": "2026-03-27",
+      "postcode": "SG14 3QD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "45, TALBOT STREET"
+      "address": "13, STONEY FIELDS"
     },
     {
-      "price": 445000,
-      "date": "2026-03-05",
-      "postcode": "SG13 7SY",
+      "price": 545000,
+      "date": "2026-03-26",
+      "postcode": "SG14 3EH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "62, BIRDIE WAY"
-    },
-    {
-      "price": 315000,
-      "date": "2026-03-05",
-      "postcode": "SG14 1PD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, NIGHTINGALE COURT"
-    },
-    {
-      "price": 850000,
-      "date": "2026-03-02",
-      "postcode": "SG13 8FD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, NOAHS COURT GARDENS"
+      "address": "9, LYS HILL GARDENS"
     }
   ],
   "monthlyHistory": [
@@ -261,8 +261,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 445000,
-      "transactions": 43
+      "medianPrice": 446000,
+      "transactions": 44
     },
     {
       "month": "2025-02",
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 432500,
-      "transactions": 114
+      "medianPrice": 430000,
+      "transactions": 115
     },
     {
       "month": "2025-04",
@@ -281,43 +281,43 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 406000,
-      "transactions": 37
+      "medianPrice": 408000,
+      "transactions": 38
     },
     {
       "month": "2025-06",
-      "medianPrice": 435000,
-      "transactions": 51
+      "medianPrice": 445000,
+      "transactions": 55
     },
     {
       "month": "2025-07",
-      "medianPrice": 445000,
-      "transactions": 42
+      "medianPrice": 450000,
+      "transactions": 46
     },
     {
       "month": "2025-08",
-      "medianPrice": 490000,
-      "transactions": 59
+      "medianPrice": 479000,
+      "transactions": 60
     },
     {
       "month": "2025-09",
       "medianPrice": 419500,
-      "transactions": 35
+      "transactions": 37
     },
     {
       "month": "2025-10",
-      "medianPrice": 406500,
-      "transactions": 59
+      "medianPrice": 415000,
+      "transactions": 61
     },
     {
       "month": "2025-11",
       "medianPrice": 468000,
-      "transactions": 47
+      "transactions": 49
     },
     {
       "month": "2025-12",
       "medianPrice": 395250,
-      "transactions": 42
+      "transactions": 44
     },
     {
       "month": "2026-01",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 455500,
-      "transactions": 34
+      "medianPrice": 443000,
+      "transactions": 35
     },
     {
       "month": "2026-03",
-      "medianPrice": 532500,
-      "transactions": 20
+      "medianPrice": 516000,
+      "transactions": 48
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 315000,
+      "transactions": 7
     }
   ],
   "quarterlyHistory": [
@@ -359,27 +364,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 447500,
-      "transactions": 222
+      "transactions": 224
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 416000,
-      "transactions": 112
+      "medianPrice": 425000,
+      "transactions": 117
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 450000,
-      "transactions": 136
+      "transactions": 143
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 420000,
-      "transactions": 148
+      "medianPrice": 430000,
+      "transactions": 154
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 467000,
-      "transactions": 78
+      "medianPrice": 470000,
+      "transactions": 107
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 315000,
+      "transactions": 7
     }
   ]
 }

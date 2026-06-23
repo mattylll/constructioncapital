@@ -1,22 +1,49 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.653Z",
+  "updatedAt": "2026-06-23T19:12:06.432Z",
   "townSlug": "marlow",
   "countySlug": "buckinghamshire",
   "stats": {
-    "medianPrice": 607500,
+    "medianPrice": 610000,
     "medianByType": {
-      "D": 847500,
-      "S": 615000,
-      "T": 542250,
-      "F": 345000
+      "D": 860000,
+      "S": 605000,
+      "T": 545000,
+      "F": 342500
     },
-    "transactionCount12m": 196,
-    "yoyChange": -10,
+    "transactionCount12m": 194,
+    "yoyChange": -9.6,
     "newBuildCount": 2,
-    "existingCount": 194,
+    "existingCount": 192,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 327000,
+      "date": "2026-04-15",
+      "postcode": "SL7 1AP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, GRAINGER HOUSE, FINDLAY MEWS"
+    },
+    {
+      "price": 335000,
+      "date": "2026-04-10",
+      "postcode": "SL7 1XX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, BARONS COURT, DEDMERE RISE"
+    },
+    {
+      "price": 700000,
+      "date": "2026-03-30",
+      "postcode": "SL7 2NY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, COPSE CLOSE"
+    },
     {
       "price": 424000,
       "date": "2026-03-27",
@@ -25,6 +52,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "18, DOUGLAS COURT, PEACOCK ROAD"
+    },
+    {
+      "price": 550000,
+      "date": "2026-03-27",
+      "postcode": "SL7 1JZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, REDGRAVE PLACE"
     },
     {
       "price": 386000,
@@ -36,6 +72,24 @@
       "address": "51, QUEENS ROAD"
     },
     {
+      "price": 940000,
+      "date": "2026-03-24",
+      "postcode": "SL7 3NN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "73, NEW ROAD"
+    },
+    {
+      "price": 499950,
+      "date": "2026-03-23",
+      "postcode": "SL7 1HR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, MEAD CLOSE"
+    },
+    {
       "price": 1000000,
       "date": "2026-03-23",
       "postcode": "SL7 3BU",
@@ -43,6 +97,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "NITON COTTAGE, MUNDAYDEAN LANE"
+    },
+    {
+      "price": 765000,
+      "date": "2026-03-19",
+      "postcode": "SL7 3QB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, CEDAR DRIVE"
     },
     {
       "price": 700000,
@@ -133,69 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "13, NEWFIELD GARDENS"
-    },
-    {
-      "price": 250000,
-      "date": "2026-02-20",
-      "postcode": "SL7 1DW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "41, VICTORIA ROAD"
-    },
-    {
-      "price": 390000,
-      "date": "2026-02-18",
-      "postcode": "SL7 1LZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, SHELLEY ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-02-18",
-      "postcode": "SL7 1UT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, NUGENT COURT, NEWTOWN ROAD"
-    },
-    {
-      "price": 1030000,
-      "date": "2026-02-18",
-      "postcode": "SL7 2AL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, SPINNERS WALK"
-    },
-    {
-      "price": 366000,
-      "date": "2026-02-13",
-      "postcode": "SL7 2SN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "24, THE GROVE, HARLEYFORD"
-    },
-    {
-      "price": 894000,
-      "date": "2026-02-13",
-      "postcode": "SL7 3HR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, ROOKERY COURT"
-    },
-    {
-      "price": 987500,
-      "date": "2026-02-12",
-      "postcode": "SL7 2QT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, FRIETH ROAD"
     }
   ],
   "monthlyHistory": [
@@ -211,8 +211,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 415000,
-      "transactions": 37
+      "medianPrice": 411750,
+      "transactions": 38
     },
     {
       "month": "2024-04",
@@ -241,8 +241,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 641500,
-      "transactions": 32
+      "medianPrice": 637000,
+      "transactions": 33
     },
     {
       "month": "2024-10",
@@ -281,23 +281,23 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 671500,
-      "transactions": 14
+      "medianPrice": 655000,
+      "transactions": 15
     },
     {
       "month": "2025-06",
-      "medianPrice": 560000,
-      "transactions": 22
+      "medianPrice": 580000,
+      "transactions": 24
     },
     {
       "month": "2025-07",
-      "medianPrice": 625000,
-      "transactions": 15
+      "medianPrice": 596250,
+      "transactions": 16
     },
     {
       "month": "2025-08",
       "medianPrice": 717500,
-      "transactions": 22
+      "transactions": 24
     },
     {
       "month": "2025-09",
@@ -306,13 +306,13 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 615000,
-      "transactions": 31
+      "medianPrice": 610000,
+      "transactions": 35
     },
     {
       "month": "2025-11",
-      "medianPrice": 662500,
-      "transactions": 20
+      "medianPrice": 650000,
+      "transactions": 23
     },
     {
       "month": "2025-12",
@@ -321,8 +321,8 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 550000,
-      "transactions": 11
+      "medianPrice": 566000,
+      "transactions": 12
     },
     {
       "month": "2026-02",
@@ -331,15 +331,20 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 610000,
-      "transactions": 9
+      "medianPrice": 655000,
+      "transactions": 14
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 331000,
+      "transactions": 2
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 610000,
-      "transactions": 71
+      "medianPrice": 601250,
+      "transactions": 72
     },
     {
       "quarter": "2024-Q2",
@@ -348,8 +353,8 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 648000,
-      "transactions": 90
+      "medianPrice": 646000,
+      "transactions": 91
     },
     {
       "quarter": "2024-Q4",
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 582500,
-      "transactions": 40
+      "medianPrice": 585000,
+      "transactions": 43
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 675000,
-      "transactions": 59
+      "medianPrice": 667500,
+      "transactions": 62
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 612500,
-      "transactions": 74
+      "medianPrice": 605000,
+      "transactions": 81
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 582000,
-      "transactions": 37
+      "medianPrice": 610000,
+      "transactions": 43
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 331000,
+      "transactions": 2
     }
   ]
 }

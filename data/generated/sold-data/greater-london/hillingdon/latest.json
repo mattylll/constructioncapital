@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:21:58.830Z",
+  "updatedAt": "2026-06-23T19:12:05.910Z",
   "townSlug": "hillingdon",
   "countySlug": "greater-london",
   "stats": {
-    "medianPrice": 502250,
+    "medianPrice": 500000,
     "medianByType": {
       "D": 825000,
-      "S": 563000,
-      "T": 499975,
-      "F": 300000
+      "S": 560000,
+      "T": 495000,
+      "F": 298500
     },
-    "transactionCount12m": 1936,
-    "yoyChange": 3.6,
-    "newBuildCount": 32,
-    "existingCount": 1904,
-    "newBuildPremium": -21.8
+    "transactionCount12m": 1917,
+    "yoyChange": 3,
+    "newBuildCount": 17,
+    "existingCount": 1900,
+    "newBuildPremium": -22.3
   },
   "recentTransactions": [
     {
-      "price": 665000,
-      "date": "2026-03-27",
-      "postcode": "UB8 2NN",
+      "price": 340000,
+      "date": "2026-04-30",
+      "postcode": "UB4 8NP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "132, GROSVENOR AVENUE"
+    },
+    {
+      "price": 129270,
+      "date": "2026-04-28",
+      "postcode": "UB10 0EL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "53, CHESTWOOD GROVE"
+    },
+    {
+      "price": 475000,
+      "date": "2026-04-27",
+      "postcode": "UB9 6HA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, QUEENS ROAD"
+      "address": "185, ASH GROVE"
     },
     {
-      "price": 610000,
-      "date": "2026-03-26",
-      "postcode": "UB8 2BQ",
+      "price": 738000,
+      "date": "2026-04-24",
+      "postcode": "HA4 9JE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, MANOR WAYE"
+      "address": "1, FERNCROFT AVENUE"
     },
     {
-      "price": 535000,
-      "date": "2026-03-23",
-      "postcode": "UB7 9JZ",
+      "price": 380000,
+      "date": "2026-04-22",
+      "postcode": "HA4 0GD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4, COBALT COURT, 28, ARLA PLACE"
+    },
+    {
+      "price": 605000,
+      "date": "2026-04-17",
+      "postcode": "UB3 3AB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "106, THORNTON AVENUE"
+      "address": "19, HITHERBROOM ROAD"
     },
     {
-      "price": 920000,
-      "date": "2026-03-20",
-      "postcode": "HA6 2DJ",
+      "price": 730000,
+      "date": "2026-04-17",
+      "postcode": "HA4 7JQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "38A, MOOR PARK ROAD"
+      "address": "36, SHARPS LANE"
     },
     {
-      "price": 910000,
-      "date": "2026-03-20",
-      "postcode": "HA5 3TT",
+      "price": 970000,
+      "date": "2026-04-17",
+      "postcode": "UB8 3RA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, HAZELWOOD DRIVE"
+      "address": "29, THE CHANTRY"
     },
     {
-      "price": 500000,
-      "date": "2026-03-20",
-      "postcode": "UB9 6AT",
-      "propertyType": "S",
+      "price": 2800000,
+      "date": "2026-04-17",
+      "postcode": "HA6 2DL",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, THE FURROWS"
+      "address": "11, MOOR PARK ROAD"
     },
     {
-      "price": 675000,
-      "date": "2026-03-20",
-      "postcode": "UB10 8RT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "88, BURNHAM AVENUE"
-    },
-    {
-      "price": 217000,
-      "date": "2026-03-20",
-      "postcode": "UB7 8LZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "82, KNOWLES CLOSE"
-    },
-    {
-      "price": 295000,
-      "date": "2026-03-20",
-      "postcode": "UB7 9DG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 18, KENSINGTON HOUSE, 34, PARK LODGE AVENUE"
-    },
-    {
-      "price": 580000,
-      "date": "2026-03-20",
-      "postcode": "UB10 9AU",
+      "price": 635000,
+      "date": "2026-04-17",
+      "postcode": "HA4 8TZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "42, WINDSOR AVENUE"
+      "address": "107, LINDEN AVENUE"
     },
     {
-      "price": 455000,
-      "date": "2026-03-20",
-      "postcode": "HA4 7LB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "46, MANOR ROAD"
-    },
-    {
-      "price": 567500,
-      "date": "2026-03-20",
-      "postcode": "UB8 2DN",
+      "price": 430000,
+      "date": "2026-04-17",
+      "postcode": "UB3 2RL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, MYDDLETON ROAD"
-    },
-    {
-      "price": 141000,
-      "date": "2026-03-20",
-      "postcode": "UB4 9AJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, YEADING COURT, MASEFIELD LANE"
-    },
-    {
-      "price": 426000,
-      "date": "2026-03-19",
-      "postcode": "UB7 8PZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, ARCHER TERRACE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-03-19",
-      "postcode": "HA4 6RB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "370A, WEST END ROAD"
-    },
-    {
-      "price": 292000,
-      "date": "2026-03-19",
-      "postcode": "UB4 9BE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "74A, WILLOW TREE LANE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-19",
-      "postcode": "HA4 6DH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 26, SHERLEYS COURT, WOOD LANE"
-    },
-    {
-      "price": 226000,
-      "date": "2026-03-18",
-      "postcode": "UB7 7ST",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, BETJEMAN COURT"
+      "address": "5, CHURCH WALK"
     },
     {
       "price": 520000,
-      "date": "2026-03-18",
-      "postcode": "UB4 9PU",
+      "date": "2026-04-15",
+      "postcode": "UB3 2PU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "143, CROMWELL ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-04-15",
+      "postcode": "HA4 0FF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, AMBER COURT, 2, ARLA PLACE"
+    },
+    {
+      "price": 540000,
+      "date": "2026-04-14",
+      "postcode": "HA4 0DH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "72, FLAMBOROUGH ROAD"
+    },
+    {
+      "price": 662500,
+      "date": "2026-04-10",
+      "postcode": "UB10 9EX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "127, GROSVENOR CRESCENT"
+    },
+    {
+      "price": 303000,
+      "date": "2026-04-10",
+      "postcode": "UB7 7RY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, ALBA CLOSE"
+      "address": "22, PHILPOTS CLOSE"
     },
     {
-      "price": 100000,
-      "date": "2026-03-18",
-      "postcode": "UB7 8PE",
-      "propertyType": "O",
+      "price": 470000,
+      "date": "2026-04-10",
+      "postcode": "UB8 2LW",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "67, OTTERFIELD ROAD"
+      "address": "95, NEWCOURT"
+    },
+    {
+      "price": 565000,
+      "date": "2026-04-10",
+      "postcode": "HA4 6HJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "184, HERLWYN AVENUE"
+    },
+    {
+      "price": 690000,
+      "date": "2026-04-10",
+      "postcode": "UB8 2BE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, MANOR WAYE"
+    },
+    {
+      "price": 1000000,
+      "date": "2026-04-10",
+      "postcode": "HA6 2JS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, HURST PLACE"
     }
   ],
   "monthlyHistory": [
@@ -251,8 +251,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 485000,
-      "transactions": 302
+      "medianPrice": 482500,
+      "transactions": 304
     },
     {
       "month": "2024-12",
@@ -266,13 +266,13 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 510000,
-      "transactions": 243
+      "medianPrice": 510500,
+      "transactions": 244
     },
     {
       "month": "2025-03",
       "medianPrice": 500000,
-      "transactions": 651
+      "transactions": 666
     },
     {
       "month": "2025-04",
@@ -281,58 +281,63 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 508000,
-      "transactions": 213
+      "medianPrice": 507212,
+      "transactions": 216
     },
     {
       "month": "2025-06",
-      "medianPrice": 500000,
-      "transactions": 254
+      "medianPrice": 487500,
+      "transactions": 283
     },
     {
       "month": "2025-07",
       "medianPrice": 500000,
-      "transactions": 190
+      "transactions": 226
     },
     {
       "month": "2025-08",
-      "medianPrice": 530000,
-      "transactions": 221
+      "medianPrice": 529500,
+      "transactions": 226
     },
     {
       "month": "2025-09",
-      "medianPrice": 515000,
-      "transactions": 233
+      "medianPrice": 510000,
+      "transactions": 240
     },
     {
       "month": "2025-10",
-      "medianPrice": 510000,
-      "transactions": 231
+      "medianPrice": 515000,
+      "transactions": 244
     },
     {
       "month": "2025-11",
-      "medianPrice": 480000,
-      "transactions": 162
+      "medianPrice": 485000,
+      "transactions": 186
     },
     {
       "month": "2025-12",
-      "medianPrice": 478690,
-      "transactions": 166
+      "medianPrice": 475000,
+      "transactions": 171
     },
     {
       "month": "2026-01",
       "medianPrice": 505000,
-      "transactions": 159
+      "transactions": 162
     },
     {
       "month": "2026-02",
-      "medianPrice": 527500,
-      "transactions": 152
+      "medianPrice": 517750,
+      "transactions": 164
     },
     {
       "month": "2026-03",
-      "medianPrice": 480000,
-      "transactions": 75
+      "medianPrice": 442500,
+      "transactions": 146
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 520000,
+      "transactions": 43
     }
   ],
   "quarterlyHistory": [
@@ -353,33 +358,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 483750,
-      "transactions": 896
+      "medianPrice": 482500,
+      "transactions": 898
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 500000,
-      "transactions": 1130
+      "transactions": 1146
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 455000,
-      "transactions": 657
+      "medianPrice": 450000,
+      "transactions": 689
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 514500,
-      "transactions": 644
+      "medianPrice": 510000,
+      "transactions": 692
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 490000,
-      "transactions": 559
+      "medianPrice": 499950,
+      "transactions": 601
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 510000,
-      "transactions": 386
+      "medianPrice": 499389,
+      "transactions": 472
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 520000,
+      "transactions": 43
     }
   ]
 }

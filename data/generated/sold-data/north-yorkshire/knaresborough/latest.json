@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.340Z",
+  "updatedAt": "2026-06-23T19:12:08.310Z",
   "townSlug": "knaresborough",
   "countySlug": "north-yorkshire",
   "stats": {
-    "medianPrice": 350000,
+    "medianPrice": 352500,
     "medianByType": {
-      "D": 475000,
-      "S": 311250,
-      "T": 260000,
-      "F": 157500
+      "D": 491150,
+      "S": 299498,
+      "T": 267500,
+      "F": 152500
     },
-    "transactionCount12m": 236,
-    "yoyChange": 4.5,
-    "newBuildCount": 22,
-    "existingCount": 214,
-    "newBuildPremium": 13.7
+    "transactionCount12m": 228,
+    "yoyChange": 5.2,
+    "newBuildCount": 15,
+    "existingCount": 213,
+    "newBuildPremium": 20
   },
   "recentTransactions": [
+    {
+      "price": 255000,
+      "date": "2026-04-24",
+      "postcode": "HG5 0PS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, HALFPENNY LANE"
+    },
+    {
+      "price": 377000,
+      "date": "2026-04-24",
+      "postcode": "HG5 0AR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, PRINCESS GROVE"
+    },
+    {
+      "price": 315000,
+      "date": "2026-04-17",
+      "postcode": "HG5 0PY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, HAMBLETON CLOSE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-04-17",
+      "postcode": "HG5 0BQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, LITTONDALE AVENUE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-04-10",
+      "postcode": "HG5 9HE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, RIPLEY ROAD"
+    },
+    {
+      "price": 335000,
+      "date": "2026-04-10",
+      "postcode": "HG5 0UB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ASH TREE ROAD"
+    },
+    {
+      "price": 390000,
+      "date": "2026-04-02",
+      "postcode": "HG5 8LD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, RIEVAULX AVENUE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-04-02",
+      "postcode": "HG5 8HS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BYLAND MEWS"
+    },
+    {
+      "price": 186500,
+      "date": "2026-03-30",
+      "postcode": "HG5 0AY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, PRINCESS TERRACE"
+    },
+    {
+      "price": 360000,
+      "date": "2026-03-30",
+      "postcode": "HG5 0SH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, THE PADDOCK"
+    },
     {
       "price": 305000,
       "date": "2026-03-27",
@@ -25,6 +115,51 @@
       "newBuild": false,
       "tenure": "F",
       "address": "5, AVENUE HOUSE COURT"
+    },
+    {
+      "price": 308000,
+      "date": "2026-03-27",
+      "postcode": "HG5 0PS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, HALFPENNY LANE"
+    },
+    {
+      "price": 460000,
+      "date": "2026-03-27",
+      "postcode": "HG5 8EG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, STEPHENSON CLOSE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-03-27",
+      "postcode": "HG5 0AT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, QUEENS ROAD"
+    },
+    {
+      "price": 720000,
+      "date": "2026-03-24",
+      "postcode": "HG5 8NT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BOUNDARY LODGE, STATION ROAD"
+    },
+    {
+      "price": 165000,
+      "date": "2026-03-23",
+      "postcode": "HG5 0EP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BLUE COTTAGE, BERRYS AVENUE"
     },
     {
       "price": 275000,
@@ -45,6 +180,15 @@
       "address": "FLAT 4, 9, MINT GARTH"
     },
     {
+      "price": 275000,
+      "date": "2026-03-16",
+      "postcode": "HG5 9JQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, LINGERFIELD TERRACE"
+    },
+    {
       "price": 320000,
       "date": "2026-03-11",
       "postcode": "HG5 0UD",
@@ -52,150 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "6, WHINCUP CLOSE"
-    },
-    {
-      "price": 462000,
-      "date": "2026-03-09",
-      "postcode": "HG5 9HG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WOODY NOOK COTTAGE, 13, SCOTTON DRIVE"
-    },
-    {
-      "price": 421000,
-      "date": "2026-03-06",
-      "postcode": "HG5 9HA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ABBOTTSFORD, RIPLEY ROAD"
-    },
-    {
-      "price": 340000,
-      "date": "2026-03-06",
-      "postcode": "HG5 0NU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, BLIND LANE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-03-04",
-      "postcode": "HG5 8ER",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, ABBEY MILL GARDENS"
-    },
-    {
-      "price": 540000,
-      "date": "2026-03-04",
-      "postcode": "HG5 8HH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, ASPIN DRIVE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-03-04",
-      "postcode": "HG5 0PB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, HALFPENNY LANE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-03-02",
-      "postcode": "HG5 8HH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ASPIN DRIVE"
-    },
-    {
-      "price": 172500,
-      "date": "2026-02-27",
-      "postcode": "HG5 0EX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, FOREST COURT, HIGH STREET"
-    },
-    {
-      "price": 223000,
-      "date": "2026-02-27",
-      "postcode": "HG5 0PH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ALEXANDRA GROVE"
-    },
-    {
-      "price": 562500,
-      "date": "2026-02-23",
-      "postcode": "HG5 8NP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, PRINCESS MEAD"
-    },
-    {
-      "price": 322500,
-      "date": "2026-02-18",
-      "postcode": "HG5 0WE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, NOBLE COURT"
-    },
-    {
-      "price": 470000,
-      "date": "2026-02-18",
-      "postcode": "HG5 8DZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, STOCKDALE WALK"
-    },
-    {
-      "price": 132000,
-      "date": "2026-02-18",
-      "postcode": "HG5 0DZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "24, BARDALE CLOSE"
-    },
-    {
-      "price": 435000,
-      "date": "2026-02-11",
-      "postcode": "HG5 8HD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, GRIMBALD ROAD"
-    },
-    {
-      "price": 172000,
-      "date": "2026-02-11",
-      "postcode": "HG5 8BH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "104, BRIGGATE"
-    },
-    {
-      "price": 640000,
-      "date": "2026-02-09",
-      "postcode": "HG5 8DA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, HIGH BRIDGE HOUSE, HARROGATE ROAD"
     }
   ],
   "monthlyHistory": [
@@ -291,28 +291,28 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 330000,
-      "transactions": 25
+      "medianPrice": 303995,
+      "transactions": 27
     },
     {
       "month": "2025-08",
-      "medianPrice": 357000,
-      "transactions": 25
+      "medianPrice": 358500,
+      "transactions": 26
     },
     {
       "month": "2025-09",
       "medianPrice": 345000,
-      "transactions": 29
+      "transactions": 31
     },
     {
       "month": "2025-10",
-      "medianPrice": 420000,
-      "transactions": 29
+      "medianPrice": 405000,
+      "transactions": 30
     },
     {
       "month": "2025-11",
-      "medianPrice": 450000,
-      "transactions": 19
+      "medianPrice": 452500,
+      "transactions": 20
     },
     {
       "month": "2025-12",
@@ -331,8 +331,13 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 325000,
-      "transactions": 11
+      "medianPrice": 322500,
+      "transactions": 22
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 317500,
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -368,18 +373,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 339950,
-      "transactions": 79
+      "medianPrice": 337475,
+      "transactions": 84
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 410000,
-      "transactions": 64
+      "transactions": 66
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 340000,
-      "transactions": 39
+      "transactions": 50
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 317500,
+      "transactions": 8
     }
   ]
 }

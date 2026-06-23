@@ -1,22 +1,193 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.578Z",
+  "updatedAt": "2026-06-23T19:12:06.331Z",
   "townSlug": "aldershot",
   "countySlug": "hampshire",
   "stats": {
-    "medianPrice": 332500,
+    "medianPrice": 341755,
     "medianByType": {
-      "D": 565000,
-      "S": 385000,
-      "T": 326500,
-      "F": 170000
+      "D": 557500,
+      "S": 387500,
+      "T": 330000,
+      "F": 172750
     },
-    "transactionCount12m": 420,
-    "yoyChange": 2.4,
-    "newBuildCount": 17,
-    "existingCount": 403,
-    "newBuildPremium": 80.9
+    "transactionCount12m": 411,
+    "yoyChange": 5.2,
+    "newBuildCount": 13,
+    "existingCount": 398,
+    "newBuildPremium": 77
   },
   "recentTransactions": [
+    {
+      "price": 370000,
+      "date": "2026-04-27",
+      "postcode": "GU12 4SA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "100, BELLE VUE ROAD"
+    },
+    {
+      "price": 330000,
+      "date": "2026-04-24",
+      "postcode": "GU12 4BY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, COLEMAN ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-04-24",
+      "postcode": "GU11 3EP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, 25, CARGATE AVENUE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-04-23",
+      "postcode": "GU11 2EU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, PARSONS CLOSE"
+    },
+    {
+      "price": 410000,
+      "date": "2026-04-20",
+      "postcode": "GU12 4GA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, BADGER WAY"
+    },
+    {
+      "price": 450000,
+      "date": "2026-04-16",
+      "postcode": "GU11 3TY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "58, CAMPBELL FIELDS"
+    },
+    {
+      "price": 380000,
+      "date": "2026-04-15",
+      "postcode": "GU11 3RA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "153, LOWER FARNHAM ROAD"
+    },
+    {
+      "price": 445000,
+      "date": "2026-04-15",
+      "postcode": "GU12 4JW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "113, ST MICHAELS ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-04-08",
+      "postcode": "GU12 4EZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, ASH ROAD"
+    },
+    {
+      "price": 405000,
+      "date": "2026-04-07",
+      "postcode": "GU12 4QX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, CALVERT CLOSE"
+    },
+    {
+      "price": 333000,
+      "date": "2026-04-07",
+      "postcode": "GU12 4AG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, ALLDEN AVENUE"
+    },
+    {
+      "price": 415000,
+      "date": "2026-04-01",
+      "postcode": "GU11 3NU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, LEGGE CRESCENT"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-31",
+      "postcode": "GU11 3JU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "86, QUEENS ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-03-30",
+      "postcode": "GU11 4EH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "13, BOWEN HOUSE, 15, HOSPITAL ROAD"
+    },
+    {
+      "price": 365000,
+      "date": "2026-03-27",
+      "postcode": "GU12 4HG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, BRIGHTON ROAD"
+    },
+    {
+      "price": 345000,
+      "date": "2026-03-27",
+      "postcode": "GU11 3EW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26D, CARGATE AVENUE"
+    },
+    {
+      "price": 570000,
+      "date": "2026-03-27",
+      "postcode": "GU11 4BE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WEST HOPE GRANTS ROAD"
+    },
+    {
+      "price": 205000,
+      "date": "2026-03-26",
+      "postcode": "GU12 4JB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "13, WELLESLEY GATE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-20",
+      "postcode": "GU12 4AD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, WHYTE AVENUE"
+    },
     {
       "price": 400000,
       "date": "2026-03-18",
@@ -25,177 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "10, OAK TREE CLOSE"
-    },
-    {
-      "price": 417000,
-      "date": "2026-03-18",
-      "postcode": "GU12 4HE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, WESTBURY WAY"
-    },
-    {
-      "price": 345000,
-      "date": "2026-03-16",
-      "postcode": "GU11 3HB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "86, CHURCH LANE EAST"
-    },
-    {
-      "price": 300000,
-      "date": "2026-03-13",
-      "postcode": "GU11 3JR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, PEROWNE STREET"
-    },
-    {
-      "price": 78000,
-      "date": "2026-03-13",
-      "postcode": "GU11 1JU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, 177, VICTORIA ROAD"
-    },
-    {
-      "price": 315000,
-      "date": "2026-03-11",
-      "postcode": "GU11 1QN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, HUNTERS MEWS"
-    },
-    {
-      "price": 565000,
-      "date": "2026-03-11",
-      "postcode": "GU11 3NU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, LEGGE CRESCENT"
-    },
-    {
-      "price": 385000,
-      "date": "2026-03-09",
-      "postcode": "GU12 4FG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "189, WOODLAND WALK"
-    },
-    {
-      "price": 82500,
-      "date": "2026-03-09",
-      "postcode": "GU11 1NL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "20A, THE GROVE"
-    },
-    {
-      "price": 82500,
-      "date": "2026-03-09",
-      "postcode": "GU11 1NL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "20C, THE GROVE"
-    },
-    {
-      "price": 495000,
-      "date": "2026-03-06",
-      "postcode": "GU11 3SY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, LEE COURT"
-    },
-    {
-      "price": 550000,
-      "date": "2026-03-06",
-      "postcode": "GU12 4LD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, ST GEORGES ROAD"
-    },
-    {
-      "price": 180000,
-      "date": "2026-03-06",
-      "postcode": "GU11 1YQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "13, BRIDLE COURT"
-    },
-    {
-      "price": 600000,
-      "date": "2026-03-06",
-      "postcode": "GU11 3QP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, LARKSPUR CLOSE"
-    },
-    {
-      "price": 375000,
-      "date": "2026-03-06",
-      "postcode": "GU11 3TZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "67, CAMPBELL FIELDS"
-    },
-    {
-      "price": 288000,
-      "date": "2026-03-06",
-      "postcode": "GU11 3NQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, COLEMAN COURT, 4, EGGARS HILL"
-    },
-    {
-      "price": 450000,
-      "date": "2026-03-04",
-      "postcode": "GU11 4AQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, HATT STREET"
-    },
-    {
-      "price": 720000,
-      "date": "2026-02-27",
-      "postcode": "GU11 3DD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HIGHVIEW, BRIDGE ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-02-27",
-      "postcode": "GU11 3TZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "89, CAMPBELL FIELDS"
-    },
-    {
-      "price": 625000,
-      "date": "2026-02-27",
-      "postcode": "GU11 3BF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, RUSSET GLADE"
     }
   ],
   "monthlyHistory": [
@@ -241,8 +241,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 325000,
-      "transactions": 61
+      "medianPrice": 322000,
+      "transactions": 62
     },
     {
       "month": "2024-10",
@@ -252,7 +252,7 @@
     {
       "month": "2024-11",
       "medianPrice": 290000,
-      "transactions": 112
+      "transactions": 113
     },
     {
       "month": "2024-12",
@@ -277,22 +277,22 @@
     {
       "month": "2025-04",
       "medianPrice": 241000,
-      "transactions": 32
+      "transactions": 34
     },
     {
       "month": "2025-05",
-      "medianPrice": 370000,
-      "transactions": 31
+      "medianPrice": 360000,
+      "transactions": 32
     },
     {
       "month": "2025-06",
-      "medianPrice": 345000,
-      "transactions": 72
+      "medianPrice": 339500,
+      "transactions": 76
     },
     {
       "month": "2025-07",
-      "medianPrice": 260825,
-      "transactions": 62
+      "medianPrice": 279000,
+      "transactions": 69
     },
     {
       "month": "2025-08",
@@ -302,17 +302,17 @@
     {
       "month": "2025-09",
       "medianPrice": 350000,
-      "transactions": 43
+      "transactions": 45
     },
     {
       "month": "2025-10",
-      "medianPrice": 347500,
-      "transactions": 44
+      "medianPrice": 355000,
+      "transactions": 47
     },
     {
       "month": "2025-11",
-      "medianPrice": 315000,
-      "transactions": 31
+      "medianPrice": 319000,
+      "transactions": 34
     },
     {
       "month": "2025-12",
@@ -322,17 +322,22 @@
     {
       "month": "2026-01",
       "medianPrice": 330000,
-      "transactions": 17
+      "transactions": 19
     },
     {
       "month": "2026-02",
-      "medianPrice": 345000,
-      "transactions": 37
+      "medianPrice": 345500,
+      "transactions": 38
     },
     {
       "month": "2026-03",
-      "medianPrice": 375000,
-      "transactions": 17
+      "medianPrice": 350000,
+      "transactions": 33
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 377500,
+      "transactions": 12
     }
   ],
   "quarterlyHistory": [
@@ -348,13 +353,13 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 325000,
-      "transactions": 159
+      "medianPrice": 324750,
+      "transactions": 160
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 303500,
-      "transactions": 250
+      "medianPrice": 306000,
+      "transactions": 251
     },
     {
       "quarter": "2025-Q1",
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 335000,
-      "transactions": 135
+      "medianPrice": 328000,
+      "transactions": 142
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 340000,
-      "transactions": 148
+      "transactions": 157
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 320000,
-      "transactions": 115
+      "medianPrice": 322000,
+      "transactions": 121
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 345000,
-      "transactions": 71
+      "transactions": 90
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 377500,
+      "transactions": 12
     }
   ]
 }

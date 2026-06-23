@@ -1,22 +1,139 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.655Z",
+  "updatedAt": "2026-06-23T19:12:06.434Z",
   "townSlug": "chesham",
   "countySlug": "buckinghamshire",
   "stats": {
-    "medianPrice": 450000,
+    "medianPrice": 452250,
     "medianByType": {
-      "D": 815000,
-      "S": 495000,
-      "T": 400000,
-      "F": 250000
+      "D": 850000,
+      "S": 500000,
+      "T": 415000,
+      "F": 246500
     },
-    "transactionCount12m": 243,
-    "yoyChange": 2,
+    "transactionCount12m": 256,
+    "yoyChange": 2.5,
     "newBuildCount": 0,
-    "existingCount": 243,
+    "existingCount": 256,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 415000,
+      "date": "2026-04-13",
+      "postcode": "HP5 3AX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, ESKDALE AVENUE"
+    },
+    {
+      "price": 295000,
+      "date": "2026-04-10",
+      "postcode": "HP5 2FE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, BRONTE HOUSE, FARRIERS WAY"
+    },
+    {
+      "price": 257500,
+      "date": "2026-04-10",
+      "postcode": "HP5 3EA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 13, COPSHAM HOUSE, 53, BROAD STREET"
+    },
+    {
+      "price": 440000,
+      "date": "2026-04-10",
+      "postcode": "HP5 1HY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "73, CHURCH STREET"
+    },
+    {
+      "price": 920000,
+      "date": "2026-04-09",
+      "postcode": "HP5 2GG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, DE VERE CLOSE"
+    },
+    {
+      "price": 447000,
+      "date": "2026-04-09",
+      "postcode": "HP5 2DG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, PATTERSON ROAD"
+    },
+    {
+      "price": 675000,
+      "date": "2026-04-07",
+      "postcode": "HP5 1SS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "115, BOIS MOOR ROAD"
+    },
+    {
+      "price": 335000,
+      "date": "2026-04-07",
+      "postcode": "HP5 3HN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, ABBOTTS VALE"
+    },
+    {
+      "price": 560000,
+      "date": "2026-03-31",
+      "postcode": "HP5 2TW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, ARNOLDS COTTAGES, COGDELLS LANE"
+    },
+    {
+      "price": 692500,
+      "date": "2026-03-31",
+      "postcode": "HP5 1JH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, WEY LANE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-03-31",
+      "postcode": "HP5 1YQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, GOOSE ACRE"
+    },
+    {
+      "price": 495000,
+      "date": "2026-03-31",
+      "postcode": "HP5 3DD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, CRABBE CRESCENT"
+    },
+    {
+      "price": 535000,
+      "date": "2026-03-30",
+      "postcode": "HP5 3BD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "108, ESKDALE AVENUE"
+    },
     {
       "price": 451500,
       "date": "2026-03-30",
@@ -27,13 +144,22 @@
       "address": "135, NALDERS ROAD"
     },
     {
-      "price": 510000,
+      "price": 530000,
       "date": "2026-03-27",
-      "postcode": "HP5 1RB",
-      "propertyType": "S",
+      "postcode": "HP5 3LB",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, CHESSMOUNT RISE"
+      "address": "2, FIELD CLOSE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-27",
+      "postcode": "HP5 1BW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, 35, HIGH STREET"
     },
     {
       "price": 300000,
@@ -45,157 +171,31 @@
       "address": "2, GEOFFREY KEEN ROAD"
     },
     {
-      "price": 220000,
+      "price": 510000,
+      "date": "2026-03-27",
+      "postcode": "HP5 1RB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, CHESSMOUNT RISE"
+    },
+    {
+      "price": 355000,
+      "date": "2026-03-24",
+      "postcode": "HP5 3HQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "412, BERKHAMPSTEAD ROAD"
+    },
+    {
+      "price": 795000,
       "date": "2026-03-20",
-      "postcode": "HP5 3BN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, STONEY GROVE"
-    },
-    {
-      "price": 398000,
-      "date": "2026-03-19",
-      "postcode": "HP5 1AH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "80, WHITE HILL"
-    },
-    {
-      "price": 225000,
-      "date": "2026-03-19",
-      "postcode": "HP5 1HX",
+      "postcode": "HP5 3FG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, BURY LANE"
-    },
-    {
-      "price": 800000,
-      "date": "2026-03-17",
-      "postcode": "HP5 1UY",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "65, CROWN COTTAGES"
-    },
-    {
-      "price": 545000,
-      "date": "2026-03-12",
-      "postcode": "HP5 3JL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BIRCH WAY"
-    },
-    {
-      "price": 475000,
-      "date": "2026-03-10",
-      "postcode": "HP5 1AP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, BARNES AVENUE"
-    },
-    {
-      "price": 800000,
-      "date": "2026-03-10",
-      "postcode": "HP5 3QW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "APPLE TREES, JASONS HILL"
-    },
-    {
-      "price": 650000,
-      "date": "2026-03-06",
-      "postcode": "HP5 1XG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "122, BOTLEY ROAD"
-    },
-    {
-      "price": 620000,
-      "date": "2026-03-05",
-      "postcode": "HP5 2RA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, GARSON GROVE"
-    },
-    {
-      "price": 985000,
-      "date": "2026-03-05",
-      "postcode": "HP5 1XZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BIRCH TREE GROVE"
-    },
-    {
-      "price": 205000,
-      "date": "2026-03-03",
-      "postcode": "HP5 1BW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, 35, HIGH STREET"
-    },
-    {
-      "price": 230000,
-      "date": "2026-02-27",
-      "postcode": "HP5 2PY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7C, ESPRIT, 17, ASHERIDGE ROAD"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-27",
-      "postcode": "HP5 1GR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, VIOLET COURT, FEARNEY FIELD CLOSE"
-    },
-    {
-      "price": 403000,
-      "date": "2026-02-25",
-      "postcode": "HP5 2AP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "93, SUNNYSIDE ROAD"
-    },
-    {
-      "price": 580000,
-      "date": "2026-02-25",
-      "postcode": "HP5 1QA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, INKERMAN TERRACE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-02-25",
-      "postcode": "HP5 1NN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, FIVE ACRES"
-    },
-    {
-      "price": 575000,
-      "date": "2026-02-25",
-      "postcode": "HP5 2PL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, PORTOBELLO CLOSE"
+      "address": "26, CULVERHOUSE WAY"
     }
   ],
   "monthlyHistory": [
@@ -226,8 +226,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 445000,
-      "transactions": 26
+      "medianPrice": 465000,
+      "transactions": 27
     },
     {
       "month": "2024-07",
@@ -241,13 +241,13 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 450000,
-      "transactions": 29
+      "medianPrice": 442500,
+      "transactions": 30
     },
     {
       "month": "2024-10",
-      "medianPrice": 483500,
-      "transactions": 34
+      "medianPrice": 480000,
+      "transactions": 35
     },
     {
       "month": "2024-11",
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 435000,
-      "transactions": 65
+      "medianPrice": 432500,
+      "transactions": 66
     },
     {
       "month": "2025-04",
@@ -287,27 +287,27 @@
     {
       "month": "2025-06",
       "medianPrice": 497500,
-      "transactions": 16
+      "transactions": 18
     },
     {
       "month": "2025-07",
-      "medianPrice": 423500,
-      "transactions": 44
+      "medianPrice": 425000,
+      "transactions": 47
     },
     {
       "month": "2025-08",
-      "medianPrice": 485000,
-      "transactions": 21
+      "medianPrice": 465000,
+      "transactions": 23
     },
     {
       "month": "2025-09",
       "medianPrice": 453000,
-      "transactions": 33
+      "transactions": 35
     },
     {
       "month": "2025-10",
-      "medianPrice": 470000,
-      "transactions": 19
+      "medianPrice": 472000,
+      "transactions": 21
     },
     {
       "month": "2025-11",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 500000,
-      "transactions": 20
+      "medianPrice": 487500,
+      "transactions": 22
     },
     {
       "month": "2026-03",
-      "medianPrice": 492500,
-      "transactions": 14
+      "medianPrice": 505000,
+      "transactions": 28
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 427500,
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -343,43 +348,48 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 455000,
-      "transactions": 84
+      "medianPrice": 460000,
+      "transactions": 85
     },
     {
       "quarter": "2024-Q3",
       "medianPrice": 455000,
-      "transactions": 94
+      "transactions": 95
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 482250,
-      "transactions": 115
+      "medianPrice": 481125,
+      "transactions": 116
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 420000,
-      "transactions": 129
+      "medianPrice": 419500,
+      "transactions": 130
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 435000,
-      "transactions": 46
+      "medianPrice": 436250,
+      "transactions": 48
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 439000,
-      "transactions": 98
+      "medianPrice": 438000,
+      "transactions": 105
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 417500,
-      "transactions": 62
+      "medianPrice": 421250,
+      "transactions": 64
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 485000,
-      "transactions": 53
+      "transactions": 69
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 427500,
+      "transactions": 8
     }
   ]
 }

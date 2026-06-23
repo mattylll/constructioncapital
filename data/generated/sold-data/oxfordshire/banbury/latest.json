@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.671Z",
+  "updatedAt": "2026-06-23T19:12:06.453Z",
   "townSlug": "banbury",
   "countySlug": "oxfordshire",
   "stats": {
-    "medianPrice": 317250,
+    "medianPrice": 320000,
     "medianByType": {
       "D": 460000,
-      "S": 319000,
-      "T": 268750,
-      "F": 159250
+      "S": 320000,
+      "T": 270000,
+      "F": 160000
     },
-    "transactionCount12m": 882,
-    "yoyChange": -3.9,
-    "newBuildCount": 47,
-    "existingCount": 835,
-    "newBuildPremium": 33.3
+    "transactionCount12m": 847,
+    "yoyChange": -3,
+    "newBuildCount": 34,
+    "existingCount": 813,
+    "newBuildPremium": 18
   },
   "recentTransactions": [
     {
-      "price": 315000,
-      "date": "2026-03-27",
-      "postcode": "OX16 9AY",
+      "price": 270000,
+      "date": "2026-04-22",
+      "postcode": "OX16 2FA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 21, THE COURTS, WARWICK ROAD"
+    },
+    {
+      "price": 262000,
+      "date": "2026-04-21",
+      "postcode": "OX16 4FG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, BEAULIEU CLOSE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-04-20",
+      "postcode": "OX15 4FY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, LINNET ROAD"
+    },
+    {
+      "price": 293000,
+      "date": "2026-04-17",
+      "postcode": "OX16 1AD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, GRANGE ROAD"
+      "address": "PITMASTON LODGE, USHER DRIVE"
     },
     {
-      "price": 525000,
-      "date": "2026-03-26",
-      "postcode": "OX15 5FG",
+      "price": 375000,
+      "date": "2026-04-17",
+      "postcode": "OX15 4SW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, COTEFIELD DRIVE"
+    },
+    {
+      "price": 620000,
+      "date": "2026-04-17",
+      "postcode": "OX17 3GA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "47, GOLDINGS ROAD"
+      "address": "35, HENGE CLOSE"
     },
     {
-      "price": 295000,
-      "date": "2026-03-25",
-      "postcode": "OX16 9SW",
-      "propertyType": "S",
+      "price": 420000,
+      "date": "2026-04-17",
+      "postcode": "OX16 9EU",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, COPPICE CLOSE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-24",
-      "postcode": "OX16 4RX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, MERTON STREET"
+      "address": "2, POPLAR CLOSE"
     },
     {
       "price": 210000,
-      "date": "2026-03-23",
-      "postcode": "OX16 9JS",
+      "date": "2026-04-16",
+      "postcode": "OX16 4RU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, MERTON STREET"
+    },
+    {
+      "price": 275000,
+      "date": "2026-04-14",
+      "postcode": "OX16 9SS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, MEADOW VIEW"
+    },
+    {
+      "price": 695000,
+      "date": "2026-04-10",
+      "postcode": "OX15 4PT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ASHWELL COTTAGE, STONE HILL"
+    },
+    {
+      "price": 357500,
+      "date": "2026-04-10",
+      "postcode": "OX16 2DR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, LAWRENCE CLOSE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-04-10",
+      "postcode": "OX16 4SR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, SCHOOL ROW"
+    },
+    {
+      "price": 317500,
+      "date": "2026-04-10",
+      "postcode": "OX16 4SF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "155, CAUSEWAY"
+    },
+    {
+      "price": 68200,
+      "date": "2026-04-10",
+      "postcode": "OX16 5EY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 5, MORELAND HOUSE, 41, BLOXHAM ROAD"
+      "address": "37, SPENCER COURT, BRITANNIA ROAD"
     },
     {
-      "price": 470000,
-      "date": "2026-03-20",
-      "postcode": "OX15 6PN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, THE DAIRYGROUND"
-    },
-    {
-      "price": 365000,
-      "date": "2026-03-20",
-      "postcode": "OX16 5HT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, OLD PARR ROAD"
-    },
-    {
-      "price": 485000,
-      "date": "2026-03-20",
-      "postcode": "OX15 4ER",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PARGETERS HOUSE, MERRIVALES LANE"
-    },
-    {
-      "price": 241000,
-      "date": "2026-03-20",
-      "postcode": "OX16 4SQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "128, CAUSEWAY"
-    },
-    {
-      "price": 500000,
-      "date": "2026-03-20",
-      "postcode": "OX15 4TB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, COLESBOURNE ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-03-20",
-      "postcode": "OX17 3FL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, JANET BLUNT HOUSE, GREENHILL"
-    },
-    {
-      "price": 280000,
-      "date": "2026-03-16",
-      "postcode": "OX16 9AP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, FARMFIELD ROAD"
-    },
-    {
-      "price": 1014000,
-      "date": "2026-03-13",
-      "postcode": "OX15 5PJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TALBOT HOUSE, QUEEN STREET"
-    },
-    {
-      "price": 270000,
-      "date": "2026-03-12",
-      "postcode": "OX16 1QJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "103, PORTWAY"
-    },
-    {
-      "price": 367500,
-      "date": "2026-03-12",
+      "price": 377500,
+      "date": "2026-04-07",
       "postcode": "OX15 4BA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, ROOKERY CLOSE"
+      "address": "26, ROOKERY CLOSE"
     },
     {
-      "price": 231000,
-      "date": "2026-03-09",
-      "postcode": "OX15 4QS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, WINTERS WAY"
-    },
-    {
-      "price": 475000,
-      "date": "2026-03-06",
-      "postcode": "OX16 4UZ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7A, THORPE DRIVE"
-    },
-    {
-      "price": 172000,
-      "date": "2026-03-06",
-      "postcode": "OX16 4RT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "57, ALMA ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-03-06",
-      "postcode": "OX15 4AD",
+      "price": 505000,
+      "date": "2026-04-07",
+      "postcode": "OX17 3LD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "PICKET POST, CANAL LANE"
+      "address": "22, DEENE CLOSE"
     },
     {
-      "price": 257781,
-      "date": "2026-03-06",
-      "postcode": "OX15 5PX",
+      "price": 347000,
+      "date": "2026-04-02",
+      "postcode": "OX15 4FL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, BLOXHAM COURT"
+    },
+    {
+      "price": 347500,
+      "date": "2026-04-02",
+      "postcode": "OX16 9NH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, BRANTWOOD RISE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-04-02",
+      "postcode": "OX16 3TX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, PARK ROAD"
+      "address": "124, WEST STREET"
+    },
+    {
+      "price": 350000,
+      "date": "2026-04-02",
+      "postcode": "OX16 9HF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, SYCAMORE DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -281,38 +281,38 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 341000,
-      "transactions": 108
+      "medianPrice": 345000,
+      "transactions": 117
     },
     {
       "month": "2025-06",
       "medianPrice": 306412,
-      "transactions": 129
+      "transactions": 144
     },
     {
       "month": "2025-07",
-      "medianPrice": 327500,
-      "transactions": 96
+      "medianPrice": 322500,
+      "transactions": 102
     },
     {
       "month": "2025-08",
       "medianPrice": 325000,
-      "transactions": 114
+      "transactions": 117
     },
     {
       "month": "2025-09",
-      "medianPrice": 317500,
-      "transactions": 79
+      "medianPrice": 318000,
+      "transactions": 82
     },
     {
       "month": "2025-10",
-      "medianPrice": 306500,
-      "transactions": 96
+      "medianPrice": 301500,
+      "transactions": 102
     },
     {
       "month": "2025-11",
-      "medianPrice": 325000,
-      "transactions": 65
+      "medianPrice": 327450,
+      "transactions": 68
     },
     {
       "month": "2025-12",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 325000,
-      "transactions": 66
+      "medianPrice": 322500,
+      "transactions": 70
     },
     {
       "month": "2026-03",
-      "medianPrice": 295000,
-      "transactions": 29
+      "medianPrice": 312000,
+      "transactions": 61
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 348750,
+      "transactions": 28
     }
   ],
   "quarterlyHistory": [
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 323250,
-      "transactions": 296
+      "medianPrice": 325338,
+      "transactions": 320
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 325000,
-      "transactions": 289
+      "transactions": 301
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 315000,
-      "transactions": 248
+      "transactions": 257
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 317000,
-      "transactions": 156
+      "transactions": 192
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 348750,
+      "transactions": 28
     }
   ]
 }

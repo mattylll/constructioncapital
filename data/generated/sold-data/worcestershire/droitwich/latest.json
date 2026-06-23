@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.466Z",
+  "updatedAt": "2026-06-23T19:12:07.345Z",
   "townSlug": "droitwich",
   "countySlug": "worcestershire",
   "stats": {
-    "medianPrice": 305000,
+    "medianPrice": 325000,
     "medianByType": {
-      "D": 445000,
-      "S": 281000,
+      "D": 463500,
+      "S": 290000,
       "T": 222000,
-      "F": 152500
+      "F": 157000
     },
-    "transactionCount12m": 326,
-    "yoyChange": 1.7,
+    "transactionCount12m": 309,
+    "yoyChange": 8.3,
     "newBuildCount": 1,
-    "existingCount": 325,
+    "existingCount": 308,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 238000,
+      "date": "2026-04-17",
+      "postcode": "WR9 0RT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, WESTBURY AVENUE"
+    },
+    {
+      "price": 470000,
+      "date": "2026-04-14",
+      "postcode": "WR9 0QY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, OAK TREE DRIVE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-04-01",
+      "postcode": "WR9 8QY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, COLLEGE GREEN"
+    },
+    {
+      "price": 440000,
+      "date": "2026-04-01",
+      "postcode": "WR9 7FZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ROBIN MEADOW"
+    },
+    {
+      "price": 266539,
+      "date": "2026-03-31",
+      "postcode": "WR9 8NP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CHURCHILL AVENUE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-03-31",
+      "postcode": "WR9 7HZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, WILLIAM SHAKESPEARE PLACE"
+    },
+    {
+      "price": 242000,
+      "date": "2026-03-31",
+      "postcode": "WR9 0PW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE HOLLIES, KIDDERMINSTER ROAD"
+    },
+    {
+      "price": 460000,
+      "date": "2026-03-20",
+      "postcode": "WR9 0PE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, THE BROAD"
+    },
+    {
+      "price": 383000,
+      "date": "2026-03-20",
+      "postcode": "WR9 7PH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LIONHEART, 42, CHEQUERS LANE"
+    },
+    {
+      "price": 162500,
+      "date": "2026-03-20",
+      "postcode": "WR9 8AH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 19, ROWAN COURT, WORCESTER ROAD"
+    },
     {
       "price": 155000,
       "date": "2026-03-17",
@@ -25,6 +115,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "11, LIDSGREEN AVENUE"
+    },
+    {
+      "price": 475000,
+      "date": "2026-03-16",
+      "postcode": "WR9 8JF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, OMBERSLEY ROAD"
     },
     {
       "price": 127000,
@@ -45,6 +144,24 @@
       "address": "47, SCHOOL ROAD"
     },
     {
+      "price": 160000,
+      "date": "2026-03-13",
+      "postcode": "WR9 9DJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "139, SHEPHERDS RISE"
+    },
+    {
+      "price": 1345000,
+      "date": "2026-03-12",
+      "postcode": "WR9 0DA",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "RADNALL COTTAGE"
+    },
+    {
       "price": 150000,
       "date": "2026-03-11",
       "postcode": "WR9 7PL",
@@ -63,139 +180,22 @@
       "address": "53, OAKLAND AVENUE"
     },
     {
-      "price": 460000,
-      "date": "2026-03-05",
-      "postcode": "WR9 7FY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, GOLDCREST WAY"
-    },
-    {
-      "price": 90000,
-      "date": "2026-03-03",
-      "postcode": "WR9 8LA",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UNIT 1, THE ROYAL EXCHANGE, QUEEN STREET"
-    },
-    {
-      "price": 407500,
-      "date": "2026-03-02",
-      "postcode": "WR9 7AJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "121, THE HOLLOWAY"
-    },
-    {
-      "price": 325000,
-      "date": "2026-03-02",
-      "postcode": "WR9 7HE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, JACKDAW LANE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-02-27",
-      "postcode": "WR9 7FL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, FOX AVENUE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-02-27",
-      "postcode": "WR9 7RS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, BRANTWOOD CLOSE"
-    },
-    {
-      "price": 247000,
-      "date": "2026-02-27",
-      "postcode": "WR9 7EN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, TAGWELL CLOSE"
-    },
-    {
-      "price": 470000,
-      "date": "2026-02-24",
-      "postcode": "WR9 0NB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SNOWDROP COTTAGE, ADDIS LANE"
-    },
-    {
-      "price": 870000,
-      "date": "2026-02-20",
-      "postcode": "WR9 0JS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UPHAMPTON COTTAGE, UPHAMPTON"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-20",
-      "postcode": "WR9 7RU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "22, CLAYHALL ROAD"
-    },
-    {
-      "price": 268000,
-      "date": "2026-02-19",
-      "postcode": "WR9 9HG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, EAST PARK DRIVE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-02-19",
-      "postcode": "WR9 8SR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, THE TYNING"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-13",
-      "postcode": "WR9 7DL",
+      "price": 122500,
+      "date": "2026-03-06",
+      "postcode": "WR9 8GD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "20, SEVERN COURT, CORBETT AVENUE"
+      "address": "16, HORTON MILL COURT, HANBURY ROAD"
     },
     {
-      "price": 240000,
-      "date": "2026-02-13",
-      "postcode": "WR9 0BS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, SCHOOL VIEW"
-    },
-    {
-      "price": 395000,
-      "date": "2026-02-13",
-      "postcode": "WR9 7HH",
+      "price": 635000,
+      "date": "2026-03-06",
+      "postcode": "WR9 7LB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, KESTREL CRESCENT"
+      "address": "DENE COTTAGE"
     }
   ],
   "monthlyHistory": [
@@ -276,8 +276,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 265500,
-      "transactions": 20
+      "medianPrice": 256000,
+      "transactions": 21
     },
     {
       "month": "2025-05",
@@ -286,18 +286,18 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 280000,
-      "transactions": 36
+      "medianPrice": 272500,
+      "transactions": 38
     },
     {
       "month": "2025-07",
-      "medianPrice": 290000,
-      "transactions": 47
+      "medianPrice": 288750,
+      "transactions": 48
     },
     {
       "month": "2025-08",
       "medianPrice": 321600,
-      "transactions": 42
+      "transactions": 44
     },
     {
       "month": "2025-09",
@@ -306,18 +306,18 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 349000,
-      "transactions": 43
+      "medianPrice": 349500,
+      "transactions": 46
     },
     {
       "month": "2025-11",
       "medianPrice": 330000,
-      "transactions": 30
+      "transactions": 32
     },
     {
       "month": "2025-12",
-      "medianPrice": 307500,
-      "transactions": 24
+      "medianPrice": 315000,
+      "transactions": 25
     },
     {
       "month": "2026-01",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 299000,
-      "transactions": 18
+      "medianPrice": 345000,
+      "transactions": 21
     },
     {
       "month": "2026-03",
-      "medianPrice": 280000,
-      "transactions": 9
+      "medianPrice": 290000,
+      "transactions": 20
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 350000,
+      "transactions": 4
     }
   ],
   "quarterlyHistory": [
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 265000,
-      "transactions": 83
+      "medianPrice": 262500,
+      "transactions": 86
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 305000,
-      "transactions": 126
+      "transactions": 129
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 331000,
-      "transactions": 97
+      "medianPrice": 340000,
+      "transactions": 103
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 327500,
-      "transactions": 52
+      "medianPrice": 337500,
+      "transactions": 66
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 350000,
+      "transactions": 4
     }
   ]
 }

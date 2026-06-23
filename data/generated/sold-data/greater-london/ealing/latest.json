@@ -1,238 +1,238 @@
 {
-  "updatedAt": "2026-05-20T15:21:58.285Z",
+  "updatedAt": "2026-06-23T19:12:05.359Z",
   "townSlug": "ealing",
   "countySlug": "greater-london",
   "stats": {
-    "medianPrice": 520000,
+    "medianPrice": 517000,
     "medianByType": {
-      "D": 1275000,
-      "S": 715000,
-      "T": 618000,
-      "F": 377685
+      "D": 1200000,
+      "S": 716500,
+      "T": 605000,
+      "F": 372000
     },
-    "transactionCount12m": 2078,
-    "yoyChange": 0,
-    "newBuildCount": 57,
-    "existingCount": 2021,
-    "newBuildPremium": -13.8
+    "transactionCount12m": 2071,
+    "yoyChange": -0.6,
+    "newBuildCount": 31,
+    "existingCount": 2040,
+    "newBuildPremium": -8.9
   },
   "recentTransactions": [
     {
       "price": 965000,
-      "date": "2026-03-30",
-      "postcode": "W7 3HY",
-      "propertyType": "S",
+      "date": "2026-04-24",
+      "postcode": "W13 9SH",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "59, YORK AVENUE"
+      "address": "39, CRANMER AVENUE"
     },
     {
       "price": 490000,
-      "date": "2026-03-27",
-      "postcode": "UB1 2LF",
+      "date": "2026-04-24",
+      "postcode": "UB2 5HX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, NORTH PARADE"
+      "address": "71, FLORENCE ROAD"
     },
     {
-      "price": 440000,
-      "date": "2026-03-23",
-      "postcode": "W13 8NH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, 34, DENBIGH ROAD"
-    },
-    {
-      "price": 545000,
-      "date": "2026-03-23",
-      "postcode": "UB6 0EG",
+      "price": 585000,
+      "date": "2026-04-24",
+      "postcode": "NW10 6TX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "504, WHITTON AVENUE WEST"
+      "address": "21, STEPHENSON STREET"
     },
     {
-      "price": 290000,
-      "date": "2026-03-23",
-      "postcode": "UB6 9EQ",
+      "price": 347500,
+      "date": "2026-04-24",
+      "postcode": "W5 1BX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "7A, RUISLIP ROAD"
+      "address": "FLAT 6, WHITE LODGE, CASTLEBAR PARK"
     },
     {
-      "price": 500000,
-      "date": "2026-03-20",
-      "postcode": "UB1 2EU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, ALLENBY ROAD"
-    },
-    {
-      "price": 345000,
-      "date": "2026-03-20",
-      "postcode": "W3 6DQ",
+      "price": 150000,
+      "date": "2026-04-21",
+      "postcode": "UB5 6QG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 3, 11, NEWBURGH ROAD"
+      "address": "7, POPLAR COURT, OLD RUISLIP ROAD"
     },
     {
-      "price": 515000,
-      "date": "2026-03-20",
-      "postcode": "W5 2PY",
+      "price": 208000,
+      "date": "2026-04-21",
+      "postcode": "UB5 6TN",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "2, COLLEGE COURT"
-    },
-    {
-      "price": 330000,
-      "date": "2026-03-20",
-      "postcode": "W3 7LU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "143, PERRYN ROAD"
+      "address": "29, HOTSPUR ROAD"
     },
     {
       "price": 400000,
-      "date": "2026-03-20",
-      "postcode": "W5 1HH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 45, MINSTER COURT, 28, HILLCREST ROAD"
-    },
-    {
-      "price": 346000,
-      "date": "2026-03-19",
-      "postcode": "W3 6NH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, ALEXANDRA HOUSE, OLDHAM TERRACE"
-    },
-    {
-      "price": 730000,
-      "date": "2026-03-18",
-      "postcode": "W3 0NY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "117, SAXON DRIVE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-17",
-      "postcode": "UB2 4WH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "38, ASHWELL HOUSE, HEALUM AVENUE"
-    },
-    {
-      "price": 1409994,
-      "date": "2026-03-16",
-      "postcode": "W3 6PH",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HORNLANE FILLING STATION, 162 - 164, HORN LANE"
-    },
-    {
-      "price": 470000,
-      "date": "2026-03-16",
-      "postcode": "UB5 4TT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "128, BLENHEIM ROAD"
-    },
-    {
-      "price": 341000,
-      "date": "2026-03-13",
-      "postcode": "W7 3JD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "53, STATION ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2026-03-13",
-      "postcode": "UB5 6GE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 23, WEY HOUSE, TAYWOOD ROAD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-03-13",
-      "postcode": "W3 6LH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "26, ALFRED ROAD"
-    },
-    {
-      "price": 715000,
-      "date": "2026-03-13",
-      "postcode": "UB6 8RN",
+      "date": "2026-04-21",
+      "postcode": "UB5 5AR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "56, COSTONS AVENUE"
+      "address": "378, CHURCH ROAD"
     },
     {
-      "price": 900000,
-      "date": "2026-03-13",
-      "postcode": "W5 3LS",
+      "price": 487950,
+      "date": "2026-04-21",
+      "postcode": "W5 2QB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "37A, FORDHOOK AVENUE"
+      "address": "FLAT 1, 15, NORTH COMMON ROAD"
+    },
+    {
+      "price": 455000,
+      "date": "2026-04-20",
+      "postcode": "W7 1AS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, TEMPLEMAN ROAD"
+    },
+    {
+      "price": 620000,
+      "date": "2026-04-20",
+      "postcode": "W5 4JE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, ALDERS CLOSE"
+    },
+    {
+      "price": 790000,
+      "date": "2026-04-20",
+      "postcode": "W13 9XW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, RIDLEY AVENUE"
+    },
+    {
+      "price": 620000,
+      "date": "2026-04-17",
+      "postcode": "W5 1NN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, NEVILLE ROAD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-04-17",
+      "postcode": "W7 3QP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, GREENFORD AVENUE"
+    },
+    {
+      "price": 500000,
+      "date": "2026-04-17",
+      "postcode": "UB1 2UP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, RUTLAND ROAD"
+    },
+    {
+      "price": 595000,
+      "date": "2026-04-17",
+      "postcode": "W13 0HF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 8, 85, CLEVELAND ROAD"
+    },
+    {
+      "price": 399950,
+      "date": "2026-04-17",
+      "postcode": "W5 4TH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, 116 - 118, WINDERMERE ROAD"
+    },
+    {
+      "price": 345000,
+      "date": "2026-04-17",
+      "postcode": "W3 6AD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 42, TRENTHAM COURT, VICTORIA ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-04-17",
+      "postcode": "W5 1EX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 26, WELLINGTON HOUSE, WESTERN AVENUE"
+    },
+    {
+      "price": 460000,
+      "date": "2026-04-16",
+      "postcode": "UB5 5UQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "101, MAKEPEACE ROAD"
+    },
+    {
+      "price": 880000,
+      "date": "2026-04-16",
+      "postcode": "W12 9ED",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, JEDDO ROAD"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
       "medianPrice": 500000,
-      "transactions": 239
+      "transactions": 240
     },
     {
       "month": "2024-02",
       "medianPrice": 485000,
-      "transactions": 279
+      "transactions": 282
     },
     {
       "month": "2024-03",
       "medianPrice": 460000,
-      "transactions": 340
+      "transactions": 343
     },
     {
       "month": "2024-04",
       "medianPrice": 480000,
-      "transactions": 326
+      "transactions": 330
     },
     {
       "month": "2024-05",
-      "medianPrice": 483075,
-      "transactions": 370
+      "medianPrice": 485000,
+      "transactions": 372
     },
     {
       "month": "2024-06",
       "medianPrice": 500000,
-      "transactions": 257
+      "transactions": 266
     },
     {
       "month": "2024-07",
       "medianPrice": 550000,
-      "transactions": 373
+      "transactions": 377
     },
     {
       "month": "2024-08",
@@ -241,145 +241,155 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 530000,
-      "transactions": 298
+      "medianPrice": 527500,
+      "transactions": 302
     },
     {
       "month": "2024-10",
       "medianPrice": 540000,
-      "transactions": 406
+      "transactions": 410
     },
     {
       "month": "2024-11",
-      "medianPrice": 520000,
-      "transactions": 400
+      "medianPrice": 510000,
+      "transactions": 419
     },
     {
       "month": "2024-12",
       "medianPrice": 525000,
-      "transactions": 321
+      "transactions": 323
     },
     {
       "month": "2025-01",
       "medianPrice": 560000,
-      "transactions": 261
+      "transactions": 263
     },
     {
       "month": "2025-02",
       "medianPrice": 510000,
-      "transactions": 317
+      "transactions": 319
     },
     {
       "month": "2025-03",
-      "medianPrice": 505000,
-      "transactions": 640
+      "medianPrice": 508000,
+      "transactions": 648
     },
     {
       "month": "2025-04",
       "medianPrice": 504540,
-      "transactions": 137
+      "transactions": 139
     },
     {
       "month": "2025-05",
-      "medianPrice": 506000,
-      "transactions": 252
+      "medianPrice": 505000,
+      "transactions": 261
     },
     {
       "month": "2025-06",
-      "medianPrice": 530000,
-      "transactions": 267
+      "medianPrice": 540000,
+      "transactions": 281
     },
     {
       "month": "2025-07",
-      "medianPrice": 538000,
-      "transactions": 279
+      "medianPrice": 532250,
+      "transactions": 318
     },
     {
       "month": "2025-08",
-      "medianPrice": 540000,
-      "transactions": 248
+      "medianPrice": 535000,
+      "transactions": 259
     },
     {
       "month": "2025-09",
       "medianPrice": 518500,
-      "transactions": 232
+      "transactions": 242
     },
     {
       "month": "2025-10",
-      "medianPrice": 499975,
-      "transactions": 250
+      "medianPrice": 493750,
+      "transactions": 272
     },
     {
       "month": "2025-11",
-      "medianPrice": 500000,
-      "transactions": 168
+      "medianPrice": 530000,
+      "transactions": 191
     },
     {
       "month": "2025-12",
       "medianPrice": 500000,
-      "transactions": 164
+      "transactions": 172
     },
     {
       "month": "2026-01",
-      "medianPrice": 525000,
-      "transactions": 150
+      "medianPrice": 520000,
+      "transactions": 155
     },
     {
       "month": "2026-02",
-      "medianPrice": 499999,
-      "transactions": 141
+      "medianPrice": 494975,
+      "transactions": 154
     },
     {
       "month": "2026-03",
-      "medianPrice": 435000,
-      "transactions": 59
+      "medianPrice": 497475,
+      "transactions": 154
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 495000,
+      "transactions": 57
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 480000,
-      "transactions": 858
+      "transactions": 865
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 485925,
-      "transactions": 953
+      "medianPrice": 488138,
+      "transactions": 968
     },
     {
       "quarter": "2024-Q3",
       "medianPrice": 530000,
-      "transactions": 1036
+      "transactions": 1044
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 530000,
-      "transactions": 1127
+      "medianPrice": 525000,
+      "transactions": 1152
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 517250,
-      "transactions": 1218
+      "medianPrice": 520000,
+      "transactions": 1230
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 520000,
-      "transactions": 656
+      "transactions": 681
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 535000,
-      "transactions": 759
+      "medianPrice": 530000,
+      "transactions": 819
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 500000,
-      "transactions": 582
+      "transactions": 635
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 500000,
-      "transactions": 350
+      "transactions": 463
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 495000,
+      "transactions": 57
     }
   ]
 }

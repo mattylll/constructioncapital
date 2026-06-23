@@ -1,22 +1,157 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.485Z",
+  "updatedAt": "2026-06-23T19:12:08.462Z",
   "townSlug": "hexham",
   "countySlug": "northumberland",
   "stats": {
-    "medianPrice": 281667,
+    "medianPrice": 290500,
     "medianByType": {
       "D": 437500,
-      "S": 265000,
-      "T": 202500,
-      "F": 145000
+      "S": 277500,
+      "T": 207500,
+      "F": 139000
     },
-    "transactionCount12m": 292,
-    "yoyChange": 6.3,
+    "transactionCount12m": 288,
+    "yoyChange": 9.6,
     "newBuildCount": 0,
-    "existingCount": 292,
+    "existingCount": 288,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 150000,
+      "date": "2026-04-22",
+      "postcode": "NE46 3ER",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, EILANSGATE TERRACE"
+    },
+    {
+      "price": 178000,
+      "date": "2026-04-20",
+      "postcode": "NE46 1HG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, DEAN STREET"
+    },
+    {
+      "price": 265000,
+      "date": "2026-04-20",
+      "postcode": "NE46 3DP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, CRESCENT AVENUE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-04-15",
+      "postcode": "NE46 2AJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, PRIESTLANDS ROAD"
+    },
+    {
+      "price": 515000,
+      "date": "2026-04-14",
+      "postcode": "NE46 3JF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, TYNEDALE VILLAS"
+    },
+    {
+      "price": 170000,
+      "date": "2026-04-14",
+      "postcode": "NE47 9QS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DALE VIEW"
+    },
+    {
+      "price": 314500,
+      "date": "2026-04-14",
+      "postcode": "NE46 3JR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, WINDSOR TERRACE"
+    },
+    {
+      "price": 211335,
+      "date": "2026-04-13",
+      "postcode": "NE46 3SQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MILLFIELD COURT"
+    },
+    {
+      "price": 195000,
+      "date": "2026-04-10",
+      "postcode": "NE47 9LG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE HAWTHORNS, SHILBURN ROAD"
+    },
+    {
+      "price": 370000,
+      "date": "2026-04-08",
+      "postcode": "NE46 3PQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, HALLSTILE BANK"
+    },
+    {
+      "price": 335000,
+      "date": "2026-04-02",
+      "postcode": "NE46 3BN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "PENTHOUSE A, THE LEAZES, SHAWS LANE"
+    },
+    {
+      "price": 88500,
+      "date": "2026-04-01",
+      "postcode": "NE46 3SW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, PUDDING MEWS"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-31",
+      "postcode": "NE48 2SA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, WHITE ACRE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-03-30",
+      "postcode": "NE46 4PN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, NORTHUMBERLAND COURT"
+    },
+    {
+      "price": 333000,
+      "date": "2026-03-30",
+      "postcode": "NE46 2BG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CAUSEY BRAE"
+    },
     {
       "price": 170000,
       "date": "2026-03-27",
@@ -27,6 +162,33 @@
       "address": "10, SPITTAL TERRACE"
     },
     {
+      "price": 431500,
+      "date": "2026-03-27",
+      "postcode": "NE46 3JY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, QUATRE BRAS"
+    },
+    {
+      "price": 115000,
+      "date": "2026-03-26",
+      "postcode": "NE46 4QD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CROSS BANK VIEW"
+    },
+    {
+      "price": 510000,
+      "date": "2026-03-26",
+      "postcode": "NE46 4ED",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MILESTONE COTTAGE"
+    },
+    {
       "price": 340000,
       "date": "2026-03-25",
       "postcode": "NE46 1AS",
@@ -34,168 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "28, GIBSON FIELDS"
-    },
-    {
-      "price": 205000,
-      "date": "2026-03-25",
-      "postcode": "NE47 6DE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "15, INNERHAUGH MEWS"
-    },
-    {
-      "price": 375000,
-      "date": "2026-03-25",
-      "postcode": "NE46 2LX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, IVESON ROAD"
-    },
-    {
-      "price": 125000,
-      "date": "2026-03-20",
-      "postcode": "NE47 9PP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, DAWSON PLACE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-03-16",
-      "postcode": "NE46 3EU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, PRIOR TERRACE"
-    },
-    {
-      "price": 515000,
-      "date": "2026-03-16",
-      "postcode": "NE46 4SD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, DOBSON GARDENS"
-    },
-    {
-      "price": 330000,
-      "date": "2026-03-06",
-      "postcode": "NE46 4SU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, QUALITY COTTAGES"
-    },
-    {
-      "price": 655000,
-      "date": "2026-03-05",
-      "postcode": "NE47 9PU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ELMCROFT, THE DENE"
-    },
-    {
-      "price": 1060000,
-      "date": "2026-03-05",
-      "postcode": "NE46 2DP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "COFLETE HOUSE, HIGHFORD LANE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-03-04",
-      "postcode": "NE46 1AX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, HACKWOOD PARK"
-    },
-    {
-      "price": 185000,
-      "date": "2026-02-24",
-      "postcode": "NE48 1HF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, SOUTH WATERSIDE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-02-20",
-      "postcode": "NE47 9BP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CROSS KEYS, SHIELD STREET"
-    },
-    {
-      "price": 317500,
-      "date": "2026-02-20",
-      "postcode": "NE47 8AA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DOWN VIEW BARN"
-    },
-    {
-      "price": 730000,
-      "date": "2026-02-18",
-      "postcode": "NE46 1YB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE FOGGETT"
-    },
-    {
-      "price": 395000,
-      "date": "2026-02-18",
-      "postcode": "NE48 2DZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, CALLISTERS COURT"
-    },
-    {
-      "price": 550000,
-      "date": "2026-02-16",
-      "postcode": "NE47 9JE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LOW RIGG"
-    },
-    {
-      "price": 300000,
-      "date": "2026-02-13",
-      "postcode": "",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BELLINGHAM AUCTION MART"
-    },
-    {
-      "price": 249000,
-      "date": "2026-02-13",
-      "postcode": "NE46 3LE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, WOODBINE TERRACE"
-    },
-    {
-      "price": 165000,
-      "date": "2026-02-04",
-      "postcode": "NE48 4AB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, WOODBINE TERRACE"
     }
   ],
   "monthlyHistory": [
@@ -292,12 +292,12 @@
     {
       "month": "2025-07",
       "medianPrice": 275000,
-      "transactions": 28
+      "transactions": 30
     },
     {
       "month": "2025-08",
       "medianPrice": 395000,
-      "transactions": 43
+      "transactions": 45
     },
     {
       "month": "2025-09",
@@ -306,13 +306,13 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 195000,
-      "transactions": 36
+      "medianPrice": 200000,
+      "transactions": 37
     },
     {
       "month": "2025-11",
-      "medianPrice": 237000,
-      "transactions": 36
+      "medianPrice": 235000,
+      "transactions": 39
     },
     {
       "month": "2025-12",
@@ -331,8 +331,13 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 340000,
-      "transactions": 11
+      "medianPrice": 282500,
+      "transactions": 22
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 203168,
+      "transactions": 12
     }
   ],
   "quarterlyHistory": [
@@ -368,18 +373,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 297500,
-      "transactions": 102
+      "medianPrice": 300000,
+      "transactions": 106
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 250000,
-      "transactions": 106
+      "transactions": 110
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 375000,
-      "transactions": 39
+      "medianPrice": 345000,
+      "transactions": 50
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 203168,
+      "transactions": 12
     }
   ]
 }

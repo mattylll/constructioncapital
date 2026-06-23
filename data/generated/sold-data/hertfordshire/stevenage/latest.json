@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.714Z",
+  "updatedAt": "2026-06-23T19:12:06.499Z",
   "townSlug": "stevenage",
   "countySlug": "hertfordshire",
   "stats": {
-    "medianPrice": 342500,
+    "medianPrice": 340000,
     "medianByType": {
-      "D": 540000,
+      "D": 544250,
       "S": 392000,
       "T": 335000,
-      "F": 200000
+      "F": 198000
     },
-    "transactionCount12m": 697,
-    "yoyChange": 2.2,
-    "newBuildCount": 7,
-    "existingCount": 690,
-    "newBuildPremium": 32.4
+    "transactionCount12m": 678,
+    "yoyChange": 1.5,
+    "newBuildCount": 0,
+    "existingCount": 678,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 350000,
-      "date": "2026-03-27",
+      "price": 380000,
+      "date": "2026-04-24",
+      "postcode": "SG2 9QA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, CARTERS CLOSE"
+    },
+    {
+      "price": 480000,
+      "date": "2026-04-23",
+      "postcode": "SG1 1ND",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "178, BEDWELL CRESCENT"
+    },
+    {
+      "price": 300000,
+      "date": "2026-04-22",
+      "postcode": "SG2 0AP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, NASH CLOSE"
+    },
+    {
+      "price": 720000,
+      "date": "2026-04-20",
+      "postcode": "SG2 0JY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, KNIGHTS TEMPLARS GREEN"
+    },
+    {
+      "price": 207200,
+      "date": "2026-04-20",
+      "postcode": "SG1 2JF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "28, SHOREHAM CLOSE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-04-17",
+      "postcode": "SG2 7DS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "114, BOXFIELD GREEN"
+    },
+    {
+      "price": 335000,
+      "date": "2026-04-17",
       "postcode": "SG1 5RY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, DONCASTER CLOSE"
+      "address": "42, DONCASTER CLOSE"
     },
     {
-      "price": 465000,
-      "date": "2026-03-26",
-      "postcode": "SG1 4RN",
-      "propertyType": "S",
+      "price": 377000,
+      "date": "2026-04-16",
+      "postcode": "SG2 8TQ",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, INGLESIDE DRIVE"
+      "address": "52B, STIRLING CLOSE"
+    },
+    {
+      "price": 330000,
+      "date": "2026-04-16",
+      "postcode": "SG1 4EQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "499, CANTERBURY WAY"
     },
     {
       "price": 375000,
-      "date": "2026-03-26",
-      "postcode": "SG1 6DN",
+      "date": "2026-04-15",
+      "postcode": "SG2 9XJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, CALDER WAY"
+      "address": "21, HYDEAN WAY"
     },
     {
-      "price": 177500,
-      "date": "2026-03-24",
-      "postcode": "SG1 5TB",
+      "price": 339500,
+      "date": "2026-04-15",
+      "postcode": "SG2 9QA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, CARTERS CLOSE"
+    },
+    {
+      "price": 375000,
+      "date": "2026-04-14",
+      "postcode": "SG2 9EL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, FURZEDOWN"
+    },
+    {
+      "price": 405000,
+      "date": "2026-04-13",
+      "postcode": "SG2 9EP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, DOVEDALE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-04-09",
+      "postcode": "SG2 8RJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "7, ST MICHAELS COURT"
+      "address": "21, KIMBOLTON CRESCENT"
     },
     {
-      "price": 325000,
-      "date": "2026-03-23",
-      "postcode": "SG1 4HL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "252, YORK ROAD"
-    },
-    {
-      "price": 145000,
-      "date": "2026-03-20",
+      "price": 227500,
+      "date": "2026-04-08",
       "postcode": "SG1 1YJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 12, PINETREE COURT, DANESTRETE"
+      "address": "APARTMENT 20, PINETREE COURT, DANESTRETE"
     },
     {
-      "price": 310000,
-      "date": "2026-03-20",
-      "postcode": "SG2 0LT",
+      "price": 275000,
+      "date": "2026-04-08",
+      "postcode": "SG2 7BN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "114, CHELLS WAY"
+      "address": "104, CHALKDOWN"
     },
     {
-      "price": 71000,
-      "date": "2026-03-18",
-      "postcode": "SG1 3AE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "154, MONUMENT COURT, WOOLNERS WAY"
-    },
-    {
-      "price": 260000,
-      "date": "2026-03-16",
-      "postcode": "SG2 7DQ",
+      "price": 280000,
+      "date": "2026-04-07",
+      "postcode": "SG1 1PP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, THE HEDGEROWS"
+      "address": "6, EAST CLOSE"
     },
     {
-      "price": 452500,
-      "date": "2026-03-13",
-      "postcode": "SG2 8XZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "64, GRENVILLE WAY"
-    },
-    {
-      "price": 351000,
-      "date": "2026-03-13",
-      "postcode": "SG1 3TA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, POPPLE WAY"
-    },
-    {
-      "price": 510000,
-      "date": "2026-03-12",
-      "postcode": "SG2 7QS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "63, CONIFER WALK"
-    },
-    {
-      "price": 307500,
-      "date": "2026-03-12",
-      "postcode": "SG2 7QY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, AUGUSTUS GATE"
-    },
-    {
-      "price": 160000,
-      "date": "2026-03-10",
-      "postcode": "SG1 5DR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "371, LONSDALE ROAD"
-    },
-    {
-      "price": 414000,
-      "date": "2026-03-09",
-      "postcode": "SG2 8UR",
+      "price": 300000,
+      "date": "2026-04-02",
+      "postcode": "SG1 2QT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, AYLWARD DRIVE"
+      "address": "282, BUDE CRESCENT"
     },
     {
-      "price": 425000,
-      "date": "2026-03-09",
-      "postcode": "SG2 8BW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, FELLOWES WAY"
-    },
-    {
-      "price": 325000,
-      "date": "2026-03-09",
-      "postcode": "SG2 9UY",
+      "price": 275000,
+      "date": "2026-04-02",
+      "postcode": "SG1 5DA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, ELM WALK"
+      "address": "7, LONSDALE ROAD"
     },
     {
-      "price": 362500,
-      "date": "2026-03-06",
-      "postcode": "SG2 8RJ",
+      "price": 327500,
+      "date": "2026-04-02",
+      "postcode": "SG1 5TT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "58, KIMBOLTON CRESCENT"
-    },
-    {
-      "price": 320000,
-      "date": "2026-03-06",
-      "postcode": "SG2 9DS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, NEWGATE"
-    },
-    {
-      "price": 362500,
-      "date": "2026-03-06",
-      "postcode": "SG1 5RY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, DONCASTER CLOSE"
+      "address": "38, CHEPSTOW CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -277,27 +277,27 @@
     {
       "month": "2025-04",
       "medianPrice": 310000,
-      "transactions": 49
+      "transactions": 50
     },
     {
       "month": "2025-05",
-      "medianPrice": 332500,
-      "transactions": 68
+      "medianPrice": 330000,
+      "transactions": 69
     },
     {
       "month": "2025-06",
-      "medianPrice": 315000,
-      "transactions": 73
+      "medianPrice": 313000,
+      "transactions": 74
     },
     {
       "month": "2025-07",
       "medianPrice": 340000,
-      "transactions": 84
+      "transactions": 89
     },
     {
       "month": "2025-08",
-      "medianPrice": 352000,
-      "transactions": 93
+      "medianPrice": 351000,
+      "transactions": 94
     },
     {
       "month": "2025-09",
@@ -306,13 +306,13 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 340000,
-      "transactions": 83
+      "medianPrice": 349500,
+      "transactions": 90
     },
     {
       "month": "2025-11",
-      "medianPrice": 342000,
-      "transactions": 53
+      "medianPrice": 335000,
+      "transactions": 59
     },
     {
       "month": "2025-12",
@@ -322,17 +322,22 @@
     {
       "month": "2026-01",
       "medianPrice": 335000,
-      "transactions": 46
+      "transactions": 47
     },
     {
       "month": "2026-02",
-      "medianPrice": 354000,
-      "transactions": 64
+      "medianPrice": 350000,
+      "transactions": 69
     },
     {
       "month": "2026-03",
-      "medianPrice": 327500,
-      "transactions": 26
+      "medianPrice": 325000,
+      "transactions": 53
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 332500,
+      "transactions": 22
     }
   ],
   "quarterlyHistory": [
@@ -364,22 +369,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 320000,
-      "transactions": 190
+      "transactions": 193
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 345000,
-      "transactions": 259
+      "transactions": 265
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 349500,
-      "transactions": 186
+      "medianPrice": 350000,
+      "transactions": 199
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 345500,
-      "transactions": 136
+      "medianPrice": 335000,
+      "transactions": 169
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 332500,
+      "transactions": 22
     }
   ]
 }

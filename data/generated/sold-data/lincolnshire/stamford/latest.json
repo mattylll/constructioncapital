@@ -1,22 +1,130 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.736Z",
+  "updatedAt": "2026-06-23T19:12:07.642Z",
   "townSlug": "stamford",
   "countySlug": "lincolnshire",
   "stats": {
     "medianPrice": 300000,
     "medianByType": {
-      "D": 461250,
-      "S": 299998,
+      "D": 455000,
+      "S": 292500,
       "T": 270000,
-      "F": 170000
+      "F": 174500
     },
-    "transactionCount12m": 270,
-    "yoyChange": -5.7,
-    "newBuildCount": 4,
-    "existingCount": 266,
-    "newBuildPremium": 44.1
+    "transactionCount12m": 287,
+    "yoyChange": -4.8,
+    "newBuildCount": 5,
+    "existingCount": 282,
+    "newBuildPremium": 43.3
   },
   "recentTransactions": [
+    {
+      "price": 415000,
+      "date": "2026-04-24",
+      "postcode": "PE9 4NQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, TEMPLEMAN DRIVE"
+    },
+    {
+      "price": 335000,
+      "date": "2026-04-15",
+      "postcode": "PE9 2QF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, QUEENS WALK"
+    },
+    {
+      "price": 297000,
+      "date": "2026-04-13",
+      "postcode": "PE9 4BU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, PRIMROSE WAY"
+    },
+    {
+      "price": 390000,
+      "date": "2026-04-10",
+      "postcode": "PE9 2LW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, WELLAND MEWS"
+    },
+    {
+      "price": 215000,
+      "date": "2026-04-09",
+      "postcode": "PE9 1YJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "95, DRIFT AVENUE"
+    },
+    {
+      "price": 560000,
+      "date": "2026-04-08",
+      "postcode": "PE9 3DD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, BOYFIELD CRESCENT"
+    },
+    {
+      "price": 247500,
+      "date": "2026-04-07",
+      "postcode": "PE9 1SP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, WILLOUGHBY ROAD"
+    },
+    {
+      "price": 500000,
+      "date": "2026-04-02",
+      "postcode": "PE9 2NA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2A, BARNACK ROAD"
+    },
+    {
+      "price": 725000,
+      "date": "2026-04-01",
+      "postcode": "PE9 2FL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, FOREST GARDENS"
+    },
+    {
+      "price": 207000,
+      "date": "2026-03-31",
+      "postcode": "PE9 1LL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, YORK ROAD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-03-30",
+      "postcode": "PE9 2HW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, CORNSTALL BUILDINGS"
+    },
+    {
+      "price": 284000,
+      "date": "2026-03-30",
+      "postcode": "PE9 2UY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, TORKINGTON STREET"
+    },
     {
       "price": 274000,
       "date": "2026-03-27",
@@ -27,175 +135,67 @@
       "address": "BARN END"
     },
     {
-      "price": 262000,
-      "date": "2026-03-16",
-      "postcode": "PE9 2FB",
+      "price": 363000,
+      "date": "2026-03-27",
+      "postcode": "PE9 1SA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, BIRCH ROAD"
+      "address": "25, HOLLAND ROAD"
     },
     {
-      "price": 215000,
-      "date": "2026-03-13",
-      "postcode": "PE9 1JJ",
+      "price": 425000,
+      "date": "2026-03-27",
+      "postcode": "PE9 1SA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, GIRTON WAY"
+      "address": "7, HOLLAND ROAD"
     },
     {
-      "price": 320000,
-      "date": "2026-03-12",
-      "postcode": "PE9 1FJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "64, BANKS CRESCENT"
-    },
-    {
-      "price": 235000,
-      "date": "2026-03-11",
-      "postcode": "PE9 2UN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, CHATSWORTH ROAD"
-    },
-    {
-      "price": 375000,
-      "date": "2026-03-09",
-      "postcode": "PE9 1QE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, VINE STREET"
-    },
-    {
-      "price": 198000,
-      "date": "2026-03-02",
-      "postcode": "PE9 1LH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, GLOUCESTER ROAD"
-    },
-    {
-      "price": 95000,
-      "date": "2026-02-27",
-      "postcode": "PE9 1UH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "36, BLACKSTONES COURT"
-    },
-    {
-      "price": 310000,
-      "date": "2026-02-27",
-      "postcode": "PE9 1JG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, CHURCHILL ROAD"
-    },
-    {
-      "price": 340000,
-      "date": "2026-02-27",
+      "price": 355000,
+      "date": "2026-03-27",
       "postcode": "PE9 2TR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, DUNDEE DRIVE"
+      "address": "15, DUNDEE DRIVE"
     },
     {
-      "price": 205000,
-      "date": "2026-02-26",
-      "postcode": "PE9 4SZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, BERTIE LANE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-02-26",
-      "postcode": "PE9 1QQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, CONDUIT ROAD"
-    },
-    {
-      "price": 370000,
-      "date": "2026-02-24",
-      "postcode": "PE9 2NA",
+      "price": 265000,
+      "date": "2026-03-27",
+      "postcode": "PE9 1DF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, WOODSIDE, BARNACK ROAD"
+      "address": "8, FITZWILLIAM ROAD"
     },
     {
-      "price": 299995,
-      "date": "2026-02-20",
-      "postcode": "PE9 2FD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, FIR ROAD"
-    },
-    {
-      "price": 149500,
-      "date": "2026-02-13",
-      "postcode": "PE9 1HH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "26, EDINBURGH ROAD"
-    },
-    {
-      "price": 247000,
-      "date": "2026-02-13",
-      "postcode": "PE9 1BP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, TRINITY ROAD"
-    },
-    {
-      "price": 345000,
-      "date": "2026-02-12",
-      "postcode": "PE9 2WA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, KINGSDOWN DRIVE"
-    },
-    {
-      "price": 205000,
-      "date": "2026-02-10",
-      "postcode": "PE9 1QE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, VINE STREET"
-    },
-    {
-      "price": 253000,
-      "date": "2026-02-09",
-      "postcode": "PE9 2YL",
+      "price": 312500,
+      "date": "2026-03-27",
+      "postcode": "PE9 4RH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, CASTERTON ROAD"
+      "address": "24, ST LAWRENCE WAY"
     },
     {
-      "price": 80000,
-      "date": "2026-02-06",
-      "postcode": "PE9 1JP",
-      "propertyType": "F",
+      "price": 350000,
+      "date": "2026-03-27",
+      "postcode": "PE9 4NQ",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "12, KEBLE COURT"
+      "tenure": "F",
+      "address": "17, TEMPLEMAN DRIVE"
+    },
+    {
+      "price": 220500,
+      "date": "2026-03-27",
+      "postcode": "PE9 1HU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, MOUNTBATTEN AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -266,8 +266,8 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 272500,
-      "transactions": 38
+      "medianPrice": 270000,
+      "transactions": 39
     },
     {
       "month": "2025-03",
@@ -286,28 +286,28 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 300000,
-      "transactions": 33
+      "medianPrice": 296250,
+      "transactions": 34
     },
     {
       "month": "2025-07",
-      "medianPrice": 295000,
-      "transactions": 41
+      "medianPrice": 300000,
+      "transactions": 47
     },
     {
       "month": "2025-08",
       "medianPrice": 325000,
-      "transactions": 36
+      "transactions": 38
     },
     {
       "month": "2025-09",
-      "medianPrice": 274000,
-      "transactions": 29
+      "medianPrice": 274625,
+      "transactions": 30
     },
     {
       "month": "2025-10",
-      "medianPrice": 354000,
-      "transactions": 36
+      "medianPrice": 350000,
+      "transactions": 37
     },
     {
       "month": "2025-11",
@@ -317,22 +317,27 @@
     {
       "month": "2025-12",
       "medianPrice": 277500,
-      "transactions": 22
+      "transactions": 24
     },
     {
       "month": "2026-01",
-      "medianPrice": 342500,
-      "transactions": 10
+      "medianPrice": 360000,
+      "transactions": 11
     },
     {
       "month": "2026-02",
-      "medianPrice": 255000,
-      "transactions": 18
+      "medianPrice": 253000,
+      "transactions": 19
     },
     {
       "month": "2026-03",
-      "medianPrice": 262000,
-      "transactions": 7
+      "medianPrice": 265000,
+      "transactions": 25
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 390000,
+      "transactions": 9
     }
   ],
   "quarterlyHistory": [
@@ -359,27 +364,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 308000,
-      "transactions": 143
+      "transactions": 144
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 287500,
-      "transactions": 76
+      "medianPrice": 285000,
+      "transactions": 77
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 295000,
-      "transactions": 106
+      "medianPrice": 300000,
+      "transactions": 115
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 305000,
-      "transactions": 85
+      "transactions": 88
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 299995,
-      "transactions": 35
+      "medianPrice": 275000,
+      "transactions": 55
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 390000,
+      "transactions": 9
     }
   ]
 }

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.557Z",
+  "updatedAt": "2026-06-23T19:12:06.311Z",
   "townSlug": "farnborough",
   "countySlug": "hampshire",
   "stats": {
     "medianPrice": 360000,
     "medianByType": {
       "D": 560000,
-      "S": 415000,
+      "S": 415500,
       "T": 340000,
-      "F": 210000
+      "F": 213650
     },
-    "transactionCount12m": 551,
-    "yoyChange": -1.9,
-    "newBuildCount": 2,
-    "existingCount": 549,
+    "transactionCount12m": 541,
+    "yoyChange": -1.4,
+    "newBuildCount": 0,
+    "existingCount": 541,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 460000,
-      "date": "2026-03-25",
-      "postcode": "GU14 7DN",
+      "price": 525500,
+      "date": "2026-04-17",
+      "postcode": "GU14 8RF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "98, ASHDOWN AVENUE"
+      "address": "27, BIRCHETT ROAD"
     },
     {
-      "price": 440000,
-      "date": "2026-03-13",
-      "postcode": "GU14 6AX",
+      "price": 400000,
+      "date": "2026-04-17",
+      "postcode": "GU14 7ED",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, SOUTHAMPTON STREET"
+      "address": "5, HATFIELD GARDENS"
     },
     {
-      "price": 460000,
-      "date": "2026-03-13",
-      "postcode": "GU14 9QA",
-      "propertyType": "S",
+      "price": 580000,
+      "date": "2026-04-16",
+      "postcode": "GU14 0DW",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "42, CRIPLEY ROAD"
+      "address": "46, HAZEL AVENUE"
+    },
+    {
+      "price": 232000,
+      "date": "2026-04-15",
+      "postcode": "GU14 0RA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, THE TOPIARY"
+    },
+    {
+      "price": 245000,
+      "date": "2026-04-13",
+      "postcode": "GU14 0EY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, COVE ROAD"
+    },
+    {
+      "price": 640000,
+      "date": "2026-04-10",
+      "postcode": "GU14 6RE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "93, SYCAMORE ROAD"
+    },
+    {
+      "price": 307800,
+      "date": "2026-04-09",
+      "postcode": "GU14 6HA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, PEABODY ROAD"
+    },
+    {
+      "price": 320000,
+      "date": "2026-04-08",
+      "postcode": "GU14 8JW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, WORCESTER CLOSE"
+    },
+    {
+      "price": 535000,
+      "date": "2026-04-08",
+      "postcode": "GU14 9XX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, COMFREY CLOSE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-04-08",
+      "postcode": "GU14 6FJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, HONINGTON MEWS"
     },
     {
       "price": 425000,
-      "date": "2026-03-12",
-      "postcode": "GU14 9UQ",
+      "date": "2026-04-02",
+      "postcode": "GU14 7EU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, MANOR ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-04-02",
+      "postcode": "GU14 0DU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, CHESTNUT TREE GROVE"
-    },
-    {
-      "price": 465000,
-      "date": "2026-03-11",
-      "postcode": "GU14 6DR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "81, SOMERSET ROAD"
-    },
-    {
-      "price": 142000,
-      "date": "2026-03-10",
-      "postcode": "GU14 8UT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 12, VIENNA COURT, VESEY CLOSE"
+      "address": "8, BROOK GARDENS"
     },
     {
       "price": 360000,
-      "date": "2026-03-09",
-      "postcode": "GU14 9YA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, MARLBOROUGH VIEW"
-    },
-    {
-      "price": 370000,
-      "date": "2026-03-06",
-      "postcode": "GU14 0EE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, PROSPECT ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-06",
-      "postcode": "GU14 8LR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, BRACKLESHAM CLOSE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-03-06",
+      "date": "2026-04-02",
       "postcode": "GU14 9UP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, SILVER BIRCH WAY"
-    },
-    {
-      "price": 625000,
-      "date": "2026-03-05",
-      "postcode": "GU14 9JR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, THE POTTERIES"
-    },
-    {
-      "price": 405000,
-      "date": "2026-03-04",
-      "postcode": "GU14 8BT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, FLEMING CLOSE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-03-02",
-      "postcode": "GU14 6JW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "101, QUEENS ROAD"
-    },
-    {
-      "price": 460000,
-      "date": "2026-02-27",
-      "postcode": "GU14 8PQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, BETA ROAD"
+      "address": "11, SILVER BIRCH WAY"
     },
     {
-      "price": 400000,
-      "date": "2026-02-27",
-      "postcode": "GU14 6QS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, THE GROVE"
-    },
-    {
-      "price": 505500,
-      "date": "2026-02-27",
-      "postcode": "GU14 9QF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, WOODLANDS ROAD"
-    },
-    {
-      "price": 188000,
-      "date": "2026-02-27",
-      "postcode": "GU14 6RR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, 143, ALEXANDRA ROAD"
-    },
-    {
-      "price": 170163,
-      "date": "2026-02-26",
-      "postcode": "GU14 8LF",
+      "price": 265000,
+      "date": "2026-03-30",
+      "postcode": "GU14 9TG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "43, AUSTEN ROAD"
+      "address": "21, LYNDSEY CLOSE"
     },
     {
-      "price": 142500,
-      "date": "2026-02-26",
-      "postcode": "GU14 7AZ",
-      "propertyType": "F",
+      "price": 375000,
+      "date": "2026-03-30",
+      "postcode": "GU14 9YF",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "24, COOPER COURT, SALISBURY ROAD"
+      "tenure": "F",
+      "address": "10, PURMEREND CLOSE"
     },
     {
-      "price": 267000,
-      "date": "2026-02-24",
-      "postcode": "GU14 8SE",
-      "propertyType": "F",
+      "price": 218000,
+      "date": "2026-03-30",
+      "postcode": "GU14 9TF",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "211, CHEYNE WAY"
+      "tenure": "F",
+      "address": "84, CHILTERN AVENUE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-03-30",
+      "postcode": "GU14 9NJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, SWALE ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-03-27",
+      "postcode": "GU14 0DJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "113, KEITH LUCAS ROAD"
+    },
+    {
+      "price": 315000,
+      "date": "2026-03-27",
+      "postcode": "GU14 8QF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, HOUSEMAN ROAD"
+    },
+    {
+      "price": 430000,
+      "date": "2026-03-27",
+      "postcode": "GU14 0PA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, NEVADA CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -261,8 +261,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 351000,
-      "transactions": 60
+      "medianPrice": 350000,
+      "transactions": 61
     },
     {
       "month": "2025-02",
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 365000,
-      "transactions": 134
+      "medianPrice": 360000,
+      "transactions": 137
     },
     {
       "month": "2025-04",
@@ -281,18 +281,18 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 340000,
-      "transactions": 67
+      "medianPrice": 336250,
+      "transactions": 70
     },
     {
       "month": "2025-06",
       "medianPrice": 340000,
-      "transactions": 57
+      "transactions": 61
     },
     {
       "month": "2025-07",
       "medianPrice": 365000,
-      "transactions": 56
+      "transactions": 63
     },
     {
       "month": "2025-08",
@@ -301,37 +301,42 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 365000,
-      "transactions": 71
+      "medianPrice": 362500,
+      "transactions": 72
     },
     {
       "month": "2025-10",
-      "medianPrice": 347000,
-      "transactions": 69
+      "medianPrice": 358900,
+      "transactions": 74
     },
     {
       "month": "2025-11",
       "medianPrice": 360000,
-      "transactions": 55
+      "transactions": 59
     },
     {
       "month": "2025-12",
-      "medianPrice": 354000,
-      "transactions": 63
+      "medianPrice": 357250,
+      "transactions": 64
     },
     {
       "month": "2026-01",
-      "medianPrice": 387500,
-      "transactions": 32
+      "medianPrice": 385000,
+      "transactions": 33
     },
     {
       "month": "2026-02",
       "medianPrice": 350000,
-      "transactions": 40
+      "transactions": 42
     },
     {
       "month": "2026-03",
-      "medianPrice": 405000,
+      "medianPrice": 370000,
+      "transactions": 27
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 360000,
       "transactions": 13
     }
   ],
@@ -358,28 +363,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 365000,
-      "transactions": 264
+      "medianPrice": 363750,
+      "transactions": 268
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 332500,
-      "transactions": 149
+      "medianPrice": 332250,
+      "transactions": 156
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 366250,
-      "transactions": 192
+      "medianPrice": 367500,
+      "transactions": 200
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 354000,
-      "transactions": 187
+      "medianPrice": 360000,
+      "transactions": 197
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 370000,
-      "transactions": 85
+      "medianPrice": 365000,
+      "transactions": 102
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 360000,
+      "transactions": 13
     }
   ]
 }

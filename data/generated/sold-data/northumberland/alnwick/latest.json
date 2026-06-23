@@ -1,22 +1,130 @@
 {
-  "updatedAt": "2026-05-20T15:22:01.483Z",
+  "updatedAt": "2026-06-23T19:12:08.460Z",
   "townSlug": "alnwick",
   "countySlug": "northumberland",
   "stats": {
-    "medianPrice": 262500,
+    "medianPrice": 272500,
     "medianByType": {
-      "D": 365000,
-      "S": 251000,
-      "T": 213500,
+      "D": 379998,
+      "S": 260000,
+      "T": 223000,
       "F": 140000
     },
-    "transactionCount12m": 218,
-    "yoyChange": -11.9,
-    "newBuildCount": 4,
-    "existingCount": 214,
-    "newBuildPremium": -5.7
+    "transactionCount12m": 204,
+    "yoyChange": -7.3,
+    "newBuildCount": 3,
+    "existingCount": 201,
+    "newBuildPremium": 13
   },
   "recentTransactions": [
+    {
+      "price": 320000,
+      "date": "2026-04-27",
+      "postcode": "NE66 2FE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, SOMERSET AVENUE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-04-27",
+      "postcode": "NE66 2XX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, FARNE ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-04-02",
+      "postcode": "NE66 1QY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRIDGE HOUSE, 3, BRIDGE STREET"
+    },
+    {
+      "price": 190000,
+      "date": "2026-04-02",
+      "postcode": "NE66 1UR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, LISBURN STREET"
+    },
+    {
+      "price": 492722,
+      "date": "2026-03-31",
+      "postcode": "NE66 3TG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, DUNSTAN SQUARE"
+    },
+    {
+      "price": 223000,
+      "date": "2026-03-31",
+      "postcode": "NE66 3AF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, STATION ROAD"
+    },
+    {
+      "price": 718850,
+      "date": "2026-03-31",
+      "postcode": "NE66 3JQ",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CO-OPERATIVE GROUP LIMITED, BURNSIDE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-03-30",
+      "postcode": "NE66 3HP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, MOUNT VIEW"
+    },
+    {
+      "price": 1750000,
+      "date": "2026-03-30",
+      "postcode": "NE66 3QH",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HIGH BUSTON HALL"
+    },
+    {
+      "price": 450000,
+      "date": "2026-03-27",
+      "postcode": "NE66 2NW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, HILLCREST PARK"
+    },
+    {
+      "price": 397500,
+      "date": "2026-03-27",
+      "postcode": "NE66 3FD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, HARPER CRESCENT"
+    },
+    {
+      "price": 250000,
+      "date": "2026-03-25",
+      "postcode": "NE66 3TL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, HEUGH WYND"
+    },
     {
       "price": 445000,
       "date": "2026-03-24",
@@ -25,6 +133,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "31, SOMERSET AVENUE"
+    },
+    {
+      "price": 193000,
+      "date": "2026-03-24",
+      "postcode": "NE66 1AY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "79, ST GEORGES CRESCENT"
+    },
+    {
+      "price": 103500,
+      "date": "2026-03-23",
+      "postcode": "NE66 1PT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "31, MEWS TOWERS, PARK VIEW"
     },
     {
       "price": 135000,
@@ -36,6 +162,15 @@
       "address": "3, NORTH TERRACE"
     },
     {
+      "price": 820000,
+      "date": "2026-03-16",
+      "postcode": "NE66 2FQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, STONEY KNOWE"
+    },
+    {
       "price": 325000,
       "date": "2026-03-09",
       "postcode": "NE66 2EN",
@@ -45,164 +180,29 @@
       "address": "36, FARRIERS RISE"
     },
     {
-      "price": 192000,
-      "date": "2026-03-05",
-      "postcode": "NE66 1LN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 16, MALTHOUSE, DISPENSARY STREET"
-    },
-    {
-      "price": 175000,
-      "date": "2026-03-02",
-      "postcode": "NE66 4HA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, CRAWLEY DENE"
-    },
-    {
-      "price": 172500,
-      "date": "2026-02-27",
-      "postcode": "NE66 1BY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BLAKELAW COURT"
-    },
-    {
-      "price": 290000,
-      "date": "2026-02-25",
-      "postcode": "NE66 4AL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, FRONT STREET"
-    },
-    {
-      "price": 475000,
-      "date": "2026-02-24",
-      "postcode": "NE66 2QR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "186, ALLERBURN LEA"
-    },
-    {
-      "price": 295000,
-      "date": "2026-02-20",
-      "postcode": "NE66 1LZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, BAILIFFGATE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-02-19",
-      "postcode": "NE66 2DA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, ROYAL OAK GARDENS"
-    },
-    {
-      "price": 430000,
-      "date": "2026-02-13",
-      "postcode": "NE66 2FE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, SOMERSET AVENUE"
-    },
-    {
       "price": 250000,
-      "date": "2026-02-12",
-      "postcode": "NE66 1XA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ARMSTRONG PLACE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-02-11",
-      "postcode": "NE66 1UZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, UPPER HOWICK STREET"
-    },
-    {
-      "price": 335000,
-      "date": "2026-02-11",
-      "postcode": "NE66 1AP",
+      "date": "2026-03-09",
+      "postcode": "NE66 2QE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, MEADOW RIGGS"
+      "address": "10, OAKY BALKS"
     },
     {
-      "price": 365000,
-      "date": "2026-02-05",
-      "postcode": "NE66 1EU",
+      "price": 285000,
+      "date": "2026-03-09",
+      "postcode": "NE66 2JJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, SKINNERS CLOSE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-02-04",
-      "postcode": "NE66 2XL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, GRANGE ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-02-04",
-      "postcode": "NE66 3NR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, HILLSIDE"
-    },
-    {
-      "price": 98000,
-      "date": "2026-02-03",
-      "postcode": "NE66 1LE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 40, TOWERGATE, CLAYPORT STREET"
-    },
-    {
-      "price": 144000,
-      "date": "2026-01-30",
-      "postcode": "NE66 2UP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, FALLODON AVENUE"
-    },
-    {
-      "price": 179000,
-      "date": "2026-01-30",
-      "postcode": "NE66 1BN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, THE CORDWAINERS"
+      "address": "74, TYELAW MEADOWS"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 335000,
-      "transactions": 31
+      "medianPrice": 337500,
+      "transactions": 32
     },
     {
       "month": "2024-02",
@@ -276,8 +276,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 181250,
-      "transactions": 12
+      "medianPrice": 187500,
+      "transactions": 13
     },
     {
       "month": "2025-05",
@@ -286,13 +286,13 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 215000,
-      "transactions": 23
+      "medianPrice": 280000,
+      "transactions": 28
     },
     {
       "month": "2025-07",
-      "medianPrice": 297500,
-      "transactions": 28
+      "medianPrice": 295000,
+      "transactions": 33
     },
     {
       "month": "2025-08",
@@ -301,18 +301,18 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 255000,
-      "transactions": 29
+      "medianPrice": 277000,
+      "transactions": 30
     },
     {
       "month": "2025-10",
-      "medianPrice": 235000,
-      "transactions": 23
+      "medianPrice": 230000,
+      "transactions": 24
     },
     {
       "month": "2025-11",
       "medianPrice": 260000,
-      "transactions": 17
+      "transactions": 19
     },
     {
       "month": "2025-12",
@@ -331,15 +331,20 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 192000,
-      "transactions": 5
+      "medianPrice": 325000,
+      "transactions": 19
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 220000,
+      "transactions": 4
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 260000,
-      "transactions": 89
+      "medianPrice": 260750,
+      "transactions": 90
     },
     {
       "quarter": "2024-Q2",
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 249995,
-      "transactions": 69
+      "medianPrice": 257000,
+      "transactions": 75
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 285000,
-      "transactions": 79
+      "transactions": 85
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 260000,
-      "transactions": 59
+      "transactions": 62
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 250000,
-      "transactions": 35
+      "transactions": 49
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 220000,
+      "transactions": 4
     }
   ]
 }

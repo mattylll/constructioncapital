@@ -1,22 +1,121 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.649Z",
+  "updatedAt": "2026-06-23T19:12:06.424Z",
   "townSlug": "amersham",
   "countySlug": "buckinghamshire",
   "stats": {
-    "medianPrice": 740000,
+    "medianPrice": 746850,
     "medianByType": {
-      "D": 955000,
-      "S": 783500,
+      "D": 985000,
+      "S": 740000,
       "T": 550000,
-      "F": 323500
+      "F": 345000
     },
-    "transactionCount12m": 211,
-    "yoyChange": 4.1,
+    "transactionCount12m": 217,
+    "yoyChange": 5.9,
     "newBuildCount": 0,
-    "existingCount": 211,
+    "existingCount": 217,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 562500,
+      "date": "2026-04-22",
+      "postcode": "HP7 9JN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, PINEAPPLE ROAD"
+    },
+    {
+      "price": 580000,
+      "date": "2026-04-15",
+      "postcode": "HP6 6FB",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "UNIT 12, THE BUSINESS CENTRE, CORINIUM INDUSTRIAL ESTATE"
+    },
+    {
+      "price": 625000,
+      "date": "2026-04-13",
+      "postcode": "HP6 6EP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, CHESTNUT LANE"
+    },
+    {
+      "price": 825000,
+      "date": "2026-04-10",
+      "postcode": "HP7 9DZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, ACRES END"
+    },
+    {
+      "price": 425000,
+      "date": "2026-04-10",
+      "postcode": "HP7 9LW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "124, WHITE LION ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-04-09",
+      "postcode": "HP6 5HP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "8, CHILTERN PARADE"
+    },
+    {
+      "price": 670000,
+      "date": "2026-04-09",
+      "postcode": "HP7 9JN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1A, PINEAPPLE ROAD"
+    },
+    {
+      "price": 475000,
+      "date": "2026-04-08",
+      "postcode": "HP6 5FF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 35, REGENT PLACE, 75, SYCAMORE ROAD"
+    },
+    {
+      "price": 530000,
+      "date": "2026-04-02",
+      "postcode": "HP7 0AH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "123, STATION ROAD"
+    },
+    {
+      "price": 725000,
+      "date": "2026-04-02",
+      "postcode": "HP6 5TA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, OAKFIELD CLOSE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-04-01",
+      "postcode": "HP7 0JE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "TYLESWORTH, WHIELDEN GREEN"
+    },
     {
       "price": 537000,
       "date": "2026-03-27",
@@ -25,6 +124,51 @@
       "newBuild": false,
       "tenure": "F",
       "address": "83, SANDYCROFT ROAD"
+    },
+    {
+      "price": 655000,
+      "date": "2026-03-27",
+      "postcode": "HP6 6RE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, RUSSELL CLOSE"
+    },
+    {
+      "price": 562500,
+      "date": "2026-03-26",
+      "postcode": "HP6 6FS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, CHALK STREAM RISE"
+    },
+    {
+      "price": 725000,
+      "date": "2026-03-26",
+      "postcode": "HP7 9JN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, PINEAPPLE ROAD"
+    },
+    {
+      "price": 780000,
+      "date": "2026-03-25",
+      "postcode": "HP6 6RW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, WESTWOOD DRIVE"
+    },
+    {
+      "price": 1400000,
+      "date": "2026-03-20",
+      "postcode": "HP6 5LQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, GREEN LANE"
     },
     {
       "price": 1685000,
@@ -36,6 +180,15 @@
       "address": "7, THE GROVE"
     },
     {
+      "price": 590000,
+      "date": "2026-03-11",
+      "postcode": "HP7 0QJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PENTLANDS, SCHOOL LANE"
+    },
+    {
       "price": 400000,
       "date": "2026-03-10",
       "postcode": "HP7 0QT",
@@ -43,159 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "BEAMOND END RANCH"
-    },
-    {
-      "price": 1030000,
-      "date": "2026-03-06",
-      "postcode": "HP6 6NW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, MITCHELL WALK"
-    },
-    {
-      "price": 355000,
-      "date": "2026-03-06",
-      "postcode": "HP6 6FJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "38, OLD SAW MILL PLACE"
-    },
-    {
-      "price": 825000,
-      "date": "2026-03-05",
-      "postcode": "HP6 6RJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, WESTWOOD DRIVE"
-    },
-    {
-      "price": 750000,
-      "date": "2026-03-02",
-      "postcode": "HP6 6EN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, CHESTNUT LANE"
-    },
-    {
-      "price": 357500,
-      "date": "2026-02-27",
-      "postcode": "HP7 0ER",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, PONDWICKS"
-    },
-    {
-      "price": 1011000,
-      "date": "2026-02-20",
-      "postcode": "HP6 6RR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "106, WESTWOOD DRIVE"
-    },
-    {
-      "price": 783500,
-      "date": "2026-02-20",
-      "postcode": "HP6 6RF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DROMARA, CHALFONT AVENUE"
-    },
-    {
-      "price": 620000,
-      "date": "2026-02-20",
-      "postcode": "HP7 9QT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "16, SNELLS WOOD COURT"
-    },
-    {
-      "price": 200000,
-      "date": "2026-02-19",
-      "postcode": "HP7 9PG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, DERWENT CLOSE"
-    },
-    {
-      "price": 495000,
-      "date": "2026-02-12",
-      "postcode": "HP6 6UN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, SCHOLARS WAY"
-    },
-    {
-      "price": 880000,
-      "date": "2026-02-12",
-      "postcode": "HP6 6BQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, WOODSIDE AVENUE"
-    },
-    {
-      "price": 480000,
-      "date": "2026-02-05",
-      "postcode": "HP7 0PF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, ELMDON COTTAGES, FAGNALL LANE"
-    },
-    {
-      "price": 950000,
-      "date": "2026-01-30",
-      "postcode": "HP6 5QY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, WINDMILL WOOD"
-    },
-    {
-      "price": 305000,
-      "date": "2026-01-28",
-      "postcode": "HP7 9EN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, LONGWOOD LANE"
-    },
-    {
-      "price": 916500,
-      "date": "2026-01-26",
-      "postcode": "HP7 0AH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "109, STATION ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-01-23",
-      "postcode": "HP6 6JA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, COOKHAM COURT, PLANTATION ROAD"
-    },
-    {
-      "price": 830000,
-      "date": "2026-01-21",
-      "postcode": "HP7 9HJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "61, THE RIDGEWAY"
     }
   ],
   "monthlyHistory": [
@@ -287,17 +287,17 @@
     {
       "month": "2025-06",
       "medianPrice": 645000,
-      "transactions": 21
+      "transactions": 22
     },
     {
       "month": "2025-07",
       "medianPrice": 746850,
-      "transactions": 21
+      "transactions": 25
     },
     {
       "month": "2025-08",
-      "medianPrice": 810000,
-      "transactions": 30
+      "medianPrice": 800000,
+      "transactions": 31
     },
     {
       "month": "2025-09",
@@ -306,13 +306,13 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 777000,
-      "transactions": 20
+      "medianPrice": 705000,
+      "transactions": 22
     },
     {
       "month": "2025-11",
-      "medianPrice": 775000,
-      "transactions": 25
+      "medianPrice": 857500,
+      "transactions": 30
     },
     {
       "month": "2025-12",
@@ -326,13 +326,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 557500,
-      "transactions": 8
+      "medianPrice": 620000,
+      "transactions": 9
     },
     {
       "month": "2026-03",
-      "medianPrice": 750000,
-      "transactions": 7
+      "medianPrice": 725000,
+      "transactions": 13
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 562500,
+      "transactions": 11
     }
   ],
   "quarterlyHistory": [
@@ -363,23 +368,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 681000,
-      "transactions": 60
+      "medianPrice": 677000,
+      "transactions": 61
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 788500,
-      "transactions": 82
+      "medianPrice": 787000,
+      "transactions": 87
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 767500,
-      "transactions": 68
+      "medianPrice": 775000,
+      "transactions": 75
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 731250,
-      "transactions": 28
+      "medianPrice": 725000,
+      "transactions": 35
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 562500,
+      "transactions": 11
     }
   ]
 }

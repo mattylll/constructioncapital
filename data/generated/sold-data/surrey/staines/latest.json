@@ -1,208 +1,208 @@
 {
-  "updatedAt": "2026-05-20T15:21:59.061Z",
+  "updatedAt": "2026-06-23T19:12:06.154Z",
   "townSlug": "staines",
   "countySlug": "surrey",
   "stats": {
-    "medianPrice": 460000,
+    "medianPrice": 465250,
     "medianByType": {
       "D": 660000,
-      "S": 520000,
-      "T": 440500,
+      "S": 523500,
+      "T": 443000,
       "F": 275000
     },
-    "transactionCount12m": 955,
-    "yoyChange": 2.2,
-    "newBuildCount": 7,
-    "existingCount": 948,
-    "newBuildPremium": 15.2
+    "transactionCount12m": 940,
+    "yoyChange": 3.4,
+    "newBuildCount": 8,
+    "existingCount": 932,
+    "newBuildPremium": 13.3
   },
   "recentTransactions": [
     {
+      "price": 850000,
+      "date": "2026-04-16",
+      "postcode": "TW18 2NP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "104, LALEHAM ROAD"
+    },
+    {
+      "price": 505000,
+      "date": "2026-04-15",
+      "postcode": "TW17 8QE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, HAWTHORN WAY"
+    },
+    {
+      "price": 980000,
+      "date": "2026-04-14",
+      "postcode": "TW17 9ED",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, MANYGATE LANE"
+    },
+    {
+      "price": 445000,
+      "date": "2026-04-14",
+      "postcode": "TW18 2RB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, FARM ROAD"
+    },
+    {
       "price": 325000,
-      "date": "2026-03-20",
+      "date": "2026-04-14",
+      "postcode": "TW18 1PR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, BOOTH DRIVE"
+    },
+    {
+      "price": 240000,
+      "date": "2026-04-13",
+      "postcode": "TW16 7HB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "96B, WINDMILL ROAD"
+    },
+    {
+      "price": 465000,
+      "date": "2026-04-10",
+      "postcode": "TW18 1QW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, SHAFTESBURY CRESCENT"
+    },
+    {
+      "price": 430000,
+      "date": "2026-04-10",
+      "postcode": "TW17 0AU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, SHEEP WALK"
+    },
+    {
+      "price": 322000,
+      "date": "2026-04-10",
       "postcode": "TW18 1NE",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "19, BRIGHTSIDE AVENUE"
-    },
-    {
-      "price": 410000,
-      "date": "2026-03-20",
-      "postcode": "TW16 6JJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "195, PEREGRINE ROAD"
-    },
-    {
-      "price": 585000,
-      "date": "2026-03-17",
-      "postcode": "TW16 7TE",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, CATHERINE DRIVE"
-    },
-    {
-      "price": 550000,
-      "date": "2026-03-17",
-      "postcode": "TW19 7JY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, STANWELL GARDENS"
-    },
-    {
-      "price": 383000,
-      "date": "2026-03-16",
-      "postcode": "TW18 2HR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, PENTON HALL, PENTON HALL DRIVE"
-    },
-    {
-      "price": 650000,
-      "date": "2026-03-16",
-      "postcode": "TW17 8BE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, LOIS DRIVE"
-    },
-    {
-      "price": 25000,
-      "date": "2026-03-13",
-      "postcode": "",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GARAGE 10G, SWAN WALK"
+      "address": "25A, BRIGHTSIDE AVENUE"
     },
     {
       "price": 495000,
-      "date": "2026-03-13",
-      "postcode": "TW17 8LY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "41, SWAN WALK"
-    },
-    {
-      "price": 270000,
-      "date": "2026-03-13",
-      "postcode": "TW16 7HS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "216, INTERNATIONAL WAY"
-    },
-    {
-      "price": 222000,
-      "date": "2026-03-13",
-      "postcode": "TW19 7FG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 42, WEST PLAZA, TOWN LANE"
-    },
-    {
-      "price": 530000,
-      "date": "2026-03-13",
-      "postcode": "TW19 7SH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4D, HOLYWELL WAY"
-    },
-    {
-      "price": 385000,
-      "date": "2026-03-13",
-      "postcode": "TW18 2SH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, WILLOWMEAD"
-    },
-    {
-      "price": 420000,
-      "date": "2026-03-12",
-      "postcode": "TW16 6LR",
+      "date": "2026-04-10",
+      "postcode": "TW16 7TY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "40, LAYTONS LANE"
+      "address": "38, WOLSEY ROAD"
     },
     {
-      "price": 385000,
-      "date": "2026-03-10",
-      "postcode": "TW18 4HS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, STANWELL NEW ROAD"
-    },
-    {
-      "price": 550000,
-      "date": "2026-03-10",
-      "postcode": "TW16 7TF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "61, CATHERINE DRIVE"
-    },
-    {
-      "price": 640000,
-      "date": "2026-03-10",
-      "postcode": "TW17 0DJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, HORNE ROAD"
-    },
-    {
-      "price": 312000,
-      "date": "2026-03-09",
-      "postcode": "TW16 7TH",
+      "price": 305000,
+      "date": "2026-04-10",
+      "postcode": "TW15 1SU",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "22, CHANTRY CLOSE"
+      "address": "FLAT 8, ALBANY COURT 65-67, CHERTSEY ROAD"
     },
     {
-      "price": 260000,
-      "date": "2026-03-09",
-      "postcode": "TW16 7HQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "72, INTERNATIONAL WAY"
-    },
-    {
-      "price": 500000,
-      "date": "2026-03-09",
-      "postcode": "TW17 9HG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, MERVYN ROAD"
-    },
-    {
-      "price": 880000,
-      "date": "2026-03-09",
-      "postcode": "TW16 5HL",
+      "price": 660000,
+      "date": "2026-04-08",
+      "postcode": "TW17 8ET",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, KINGSMEAD AVENUE"
+      "address": "141, GASTON WAY"
+    },
+    {
+      "price": 210000,
+      "date": "2026-04-08",
+      "postcode": "TW15 1PZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, BLACKTHORNE COURT, STAINES ROAD WEST"
+    },
+    {
+      "price": 311500,
+      "date": "2026-04-08",
+      "postcode": "TW16 5PA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, KEMPTON COURT"
+    },
+    {
+      "price": 360000,
+      "date": "2026-04-07",
+      "postcode": "TW15 3PQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, WARWICK ROAD"
+    },
+    {
+      "price": 430000,
+      "date": "2026-04-02",
+      "postcode": "TW19 7QE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, KINGSWAY"
+    },
+    {
+      "price": 425000,
+      "date": "2026-04-02",
+      "postcode": "TW17 0LA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, ROSEACRE CLOSE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-04-01",
+      "postcode": "TW17 8BF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "20, BALLARD LODGE, 11, LALEHAM ROAD"
+    },
+    {
+      "price": 465500,
+      "date": "2026-03-31",
+      "postcode": "TW15 1AP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, WRENS AVENUE"
+    },
+    {
+      "price": 570000,
+      "date": "2026-03-31",
+      "postcode": "TW15 2DB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, GILMORE CRESCENT"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 391800,
-      "transactions": 118
+      "medianPrice": 399300,
+      "transactions": 120
     },
     {
       "month": "2024-02",
@@ -211,13 +211,13 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 402538,
-      "transactions": 122
+      "medianPrice": 405075,
+      "transactions": 123
     },
     {
       "month": "2024-04",
-      "medianPrice": 442500,
-      "transactions": 120
+      "medianPrice": 440000,
+      "transactions": 121
     },
     {
       "month": "2024-05",
@@ -231,13 +231,13 @@
     },
     {
       "month": "2024-07",
-      "medianPrice": 460000,
-      "transactions": 140
+      "medianPrice": 450000,
+      "transactions": 149
     },
     {
       "month": "2024-08",
-      "medianPrice": 480000,
-      "transactions": 189
+      "medianPrice": 477500,
+      "transactions": 190
     },
     {
       "month": "2024-09",
@@ -266,18 +266,18 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 464500,
-      "transactions": 122
+      "medianPrice": 465000,
+      "transactions": 123
     },
     {
       "month": "2025-03",
       "medianPrice": 465000,
-      "transactions": 279
+      "transactions": 280
     },
     {
       "month": "2025-04",
-      "medianPrice": 357500,
-      "transactions": 60
+      "medianPrice": 355000,
+      "transactions": 61
     },
     {
       "month": "2025-05",
@@ -286,70 +286,75 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 489000,
-      "transactions": 97
+      "medianPrice": 485000,
+      "transactions": 101
     },
     {
       "month": "2025-07",
-      "medianPrice": 445000,
-      "transactions": 110
+      "medianPrice": 465000,
+      "transactions": 119
     },
     {
       "month": "2025-08",
       "medianPrice": 485000,
-      "transactions": 129
+      "transactions": 134
     },
     {
       "month": "2025-09",
       "medianPrice": 465000,
-      "transactions": 135
+      "transactions": 139
     },
     {
       "month": "2025-10",
-      "medianPrice": 454750,
-      "transactions": 96
+      "medianPrice": 460000,
+      "transactions": 100
     },
     {
       "month": "2025-11",
-      "medianPrice": 476000,
-      "transactions": 92
+      "medianPrice": 477000,
+      "transactions": 99
     },
     {
       "month": "2025-12",
       "medianPrice": 453500,
-      "transactions": 78
+      "transactions": 82
     },
     {
       "month": "2026-01",
       "medianPrice": 470000,
-      "transactions": 65
+      "transactions": 67
     },
     {
       "month": "2026-02",
       "medianPrice": 440000,
-      "transactions": 68
+      "transactions": 71
     },
     {
       "month": "2026-03",
-      "medianPrice": 420000,
-      "transactions": 33
+      "medianPrice": 465000,
+      "transactions": 70
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 427500,
+      "transactions": 18
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 406538,
-      "transactions": 366
+      "medianPrice": 410000,
+      "transactions": 369
     },
     {
       "quarter": "2024-Q2",
       "medianPrice": 420000,
-      "transactions": 363
+      "transactions": 364
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 469000,
-      "transactions": 478
+      "medianPrice": 461500,
+      "transactions": 488
     },
     {
       "quarter": "2024-Q4",
@@ -359,27 +364,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 462500,
-      "transactions": 531
+      "transactions": 533
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 435000,
-      "transactions": 258
+      "transactions": 263
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 467500,
-      "transactions": 374
+      "medianPrice": 468000,
+      "transactions": 392
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 464000,
-      "transactions": 266
+      "medianPrice": 465000,
+      "transactions": 281
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 437500,
-      "transactions": 166
+      "medianPrice": 452500,
+      "transactions": 208
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 427500,
+      "transactions": 18
     }
   ]
 }

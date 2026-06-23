@@ -1,22 +1,157 @@
 {
-  "updatedAt": "2026-05-20T15:22:00.091Z",
+  "updatedAt": "2026-06-23T19:12:06.933Z",
   "townSlug": "penzance",
   "countySlug": "cornwall",
   "stats": {
-    "medianPrice": 285000,
+    "medianPrice": 280000,
     "medianByType": {
-      "D": 442000,
+      "D": 443500,
       "S": 315000,
-      "T": 242000,
-      "F": 150000
+      "T": 245000,
+      "F": 167500
     },
-    "transactionCount12m": 369,
-    "yoyChange": 1.8,
+    "transactionCount12m": 379,
+    "yoyChange": 0,
     "newBuildCount": 0,
-    "existingCount": 369,
+    "existingCount": 379,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 246500,
+      "date": "2026-04-24",
+      "postcode": "TR18 2EU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, MOUNT STREET"
+    },
+    {
+      "price": 140000,
+      "date": "2026-04-17",
+      "postcode": "TR18 3DR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12A, MILLFIELD"
+    },
+    {
+      "price": 295000,
+      "date": "2026-04-13",
+      "postcode": "TR18 4RJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, LANSDOWNE CLOSE"
+    },
+    {
+      "price": 249500,
+      "date": "2026-04-10",
+      "postcode": "TR20 9ST",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, 19, TREWARTHA ROAD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-04-08",
+      "postcode": "TR20 8YE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TEYLU"
+    },
+    {
+      "price": 505000,
+      "date": "2026-04-08",
+      "postcode": "TR20 8UT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHYNOWETH"
+    },
+    {
+      "price": 450000,
+      "date": "2026-04-07",
+      "postcode": "TR18 4SY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, ALEXANDRA GARDENS"
+    },
+    {
+      "price": 695000,
+      "date": "2026-04-02",
+      "postcode": "TR19 6JS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ANCHOR WATCH"
+    },
+    {
+      "price": 160000,
+      "date": "2026-04-02",
+      "postcode": "TR19 6QG",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, COMMERCIAL ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-04-01",
+      "postcode": "TR19 7UT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, TALVENETH"
+    },
+    {
+      "price": 440000,
+      "date": "2026-03-27",
+      "postcode": "TR20 9PN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CROFT HAVEN"
+    },
+    {
+      "price": 447000,
+      "date": "2026-03-27",
+      "postcode": "TR19 6AJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, TOWER MEADOWS"
+    },
+    {
+      "price": 450000,
+      "date": "2026-03-27",
+      "postcode": "TR18 4NF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, ROSEVALE ESTATE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-03-27",
+      "postcode": "TR18 2BU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, ST JAMES STREET"
+    },
+    {
+      "price": 160000,
+      "date": "2026-03-27",
+      "postcode": "TR18 5NW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CHYWOONE PLACE"
+    },
     {
       "price": 345000,
       "date": "2026-03-27",
@@ -25,6 +160,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "29, TOLVER ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-03-27",
+      "postcode": "TR20 8DX",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "STAR INN"
     },
     {
       "price": 265000,
@@ -36,6 +180,15 @@
       "address": "40, CARDINNIS ROAD"
     },
     {
+      "price": 127500,
+      "date": "2026-03-25",
+      "postcode": "TR19 7AQ",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "APPLE TREE CAFE"
+    },
+    {
       "price": 660000,
       "date": "2026-03-24",
       "postcode": "TR18 2AJ",
@@ -43,159 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "29, PENDARVES ROAD"
-    },
-    {
-      "price": 640000,
-      "date": "2026-03-19",
-      "postcode": "TR20 8NS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LITTLE BOSULLOW COTTAGE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-03-18",
-      "postcode": "TR20 9HB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, MEADOW VIEW"
-    },
-    {
-      "price": 242000,
-      "date": "2026-03-17",
-      "postcode": "TR18 5AG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, LOWER CHYWOONE HILL"
-    },
-    {
-      "price": 365000,
-      "date": "2026-03-16",
-      "postcode": "TR18 3EW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13A, WESLEY STREET"
-    },
-    {
-      "price": 335000,
-      "date": "2026-03-13",
-      "postcode": "TR19 6DB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, THE ALLOTMENTS, BOSKENNAL LANE"
-    },
-    {
-      "price": 640000,
-      "date": "2026-03-12",
-      "postcode": "TR18 4HU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "NORWOOD, BAY VIEW VILLAS"
-    },
-    {
-      "price": 101000,
-      "date": "2026-03-11",
-      "postcode": "TR18 3LS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CHYANDOUR PLACE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-11",
-      "postcode": "TR19 6UE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, TRUNGLE TERRACE"
-    },
-    {
-      "price": 651000,
-      "date": "2026-03-11",
-      "postcode": "TR19 7DS",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "RADJEL HOUSE, BOSCASWELL TERRACE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-03-06",
-      "postcode": "TR18 2RR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, ALVERNE BUILDINGS"
-    },
-    {
-      "price": 445000,
-      "date": "2026-03-04",
-      "postcode": "TR20 9PU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ERNIE COTTAGE, RED LANE"
-    },
-    {
-      "price": 695000,
-      "date": "2026-03-03",
-      "postcode": "TR18 4DZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ST MARYS TERRACE"
-    },
-    {
-      "price": 245000,
-      "date": "2026-02-27",
-      "postcode": "TR19 7JE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE OLD BARN, TRELEW GARDENS"
-    },
-    {
-      "price": 115000,
-      "date": "2026-02-27",
-      "postcode": "TR18 2DE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, PENLEE STREET"
-    },
-    {
-      "price": 156000,
-      "date": "2026-02-26",
-      "postcode": "TR18 5ER",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, EBENEZER PLACE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-02-26",
-      "postcode": "TR18 5NN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "36C, CHYWOONE AVENUE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-02-25",
-      "postcode": "TR19 7DA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TRELEW, OLD COASTGUARD ROW"
     }
   ],
   "monthlyHistory": [
@@ -216,13 +216,13 @@
     },
     {
       "month": "2024-04",
-      "medianPrice": 270000,
-      "transactions": 51
+      "medianPrice": 266250,
+      "transactions": 52
     },
     {
       "month": "2024-05",
-      "medianPrice": 275000,
-      "transactions": 53
+      "medianPrice": 277500,
+      "transactions": 54
     },
     {
       "month": "2024-06",
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 281250,
-      "transactions": 90
+      "medianPrice": 280000,
+      "transactions": 91
     },
     {
       "month": "2025-04",
@@ -287,17 +287,17 @@
     {
       "month": "2025-06",
       "medianPrice": 245000,
-      "transactions": 29
+      "transactions": 31
     },
     {
       "month": "2025-07",
-      "medianPrice": 290000,
-      "transactions": 42
+      "medianPrice": 277500,
+      "transactions": 50
     },
     {
       "month": "2025-08",
-      "medianPrice": 327500,
-      "transactions": 52
+      "medianPrice": 325000,
+      "transactions": 54
     },
     {
       "month": "2025-09",
@@ -306,18 +306,18 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 285000,
-      "transactions": 48
+      "medianPrice": 274000,
+      "transactions": 51
     },
     {
       "month": "2025-11",
       "medianPrice": 270000,
-      "transactions": 34
+      "transactions": 38
     },
     {
       "month": "2025-12",
-      "medianPrice": 290000,
-      "transactions": 38
+      "medianPrice": 277500,
+      "transactions": 40
     },
     {
       "month": "2026-01",
@@ -327,12 +327,17 @@
     {
       "month": "2026-02",
       "medianPrice": 300000,
-      "transactions": 20
+      "transactions": 23
     },
     {
       "month": "2026-03",
-      "medianPrice": 350000,
-      "transactions": 15
+      "medianPrice": 345000,
+      "transactions": 30
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 272250,
+      "transactions": 10
     }
   ],
   "quarterlyHistory": [
@@ -344,7 +349,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 270000,
-      "transactions": 157
+      "transactions": 159
     },
     {
       "quarter": "2024-Q3",
@@ -359,27 +364,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 290000,
-      "transactions": 188
+      "transactions": 189
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 242500,
-      "transactions": 96
+      "transactions": 98
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 310000,
-      "transactions": 138
+      "medianPrice": 295000,
+      "transactions": 148
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 282500,
-      "transactions": 120
+      "medianPrice": 275000,
+      "transactions": 129
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 300000,
-      "transactions": 64
+      "medianPrice": 295500,
+      "transactions": 82
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 272250,
+      "transactions": 10
     }
   ]
 }
