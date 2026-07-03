@@ -20,7 +20,17 @@ const OUTPUT_DIR = path.join(
   "src/lib/market-reports/reports/press"
 );
 
-const DATE = "2026-04-12";
+// Original publish date — kept stable across refreshes for JSON-LD datePublished.
+const DATE_PUBLISHED = "2026-04-12";
+// This refresh's date — becomes dateModified. Update on every re-run.
+const DATE_MODIFIED = "2026-07-03";
+// Land Registry Price Paid data lags real time by ~1-2 months (registration delay).
+// Set this to the actual max transaction date found in the refreshed sold-data, not
+// today's date, so reports never overclaim currency they don't have.
+const SOLD_DATA_AS_OF = "May 2026";
+// Planning application data is scraped live from portals, so it can be dated close
+// to the actual refresh date.
+const PLANNING_DATA_AS_OF = "June 2026";
 
 // ── Types ────────────────────────────────────────────────────────────────────
 
@@ -34,6 +44,12 @@ interface SoldStats {
   newBuildPremium: number;
 }
 
+interface QuarterPoint {
+  quarter: string; // e.g. "2026-Q2"
+  medianPrice: number;
+  transactions: number;
+}
+
 interface SoldData {
   townSlug: string;
   countySlug: string;
@@ -45,6 +61,7 @@ interface SoldData {
     newBuild: boolean;
     address: string;
   }[];
+  quarterlyHistory: QuarterPoint[];
 }
 
 interface PlanningSummary {
@@ -88,6 +105,32 @@ interface TownRecord {
   townSlug: string;
   countySlug: string;
   stats: SoldStats;
+  quarterlyHistory: QuarterPoint[];
+}
+
+// Combines two quarters into a period figure. Median is a transactions-weighted
+// average of the two quarterly medians (disclosed as such in copy) — the raw
+// per-transaction prices aren't available to recompute a true combined median.
+interface PeriodStats {
+  medianPrice: number;
+  transactions: number;
+}
+
+function getQuarter(town: TownRecord, quarter: string): QuarterPoint | undefined {
+  return town.quarterlyHistory.find((q) => q.quarter === quarter);
+}
+
+function combineQuarters(a: QuarterPoint | undefined, b: QuarterPoint | undefined): PeriodStats | null {
+  if (!a && !b) return null;
+  const txns = (a?.transactions || 0) + (b?.transactions || 0);
+  if (txns === 0) return { medianPrice: 0, transactions: 0 };
+  const weightedSum = (a ? a.medianPrice * a.transactions : 0) + (b ? b.medianPrice * b.transactions : 0);
+  return { medianPrice: Math.round(weightedSum / txns), transactions: txns };
+}
+
+function yoyPct(current: number, prior: number): number {
+  if (!prior) return 0;
+  return ((current - prior) / prior) * 100;
 }
 
 interface CountyAggregate {
@@ -165,6 +208,13 @@ function fmtBigNumber(n: number): string {
   return fmtPrice(n);
 }
 
+// Shared methodology note — cites HM Land Registry Price Paid Data and the
+// official UK House Price Index by name (the well-known benchmark this report
+// sits alongside), and clarifies England & Wales scope since HMLR does not
+// cover Scotland or Northern Ireland.
+const METHODOLOGY_NOTE =
+  'This report is built from HM Land Registry Price Paid Data, the same transaction-level source underlying the official UK House Price Index, covering house prices and sales across England and Wales. Scotland and Northern Ireland use separate registration systems (Registers of Scotland and Land and Property Services) and are not included in this analysis.';
+
 function townLink(countySlug: string, townSlug: string): string {
   return `<a href="/locations/${countySlug}/${townSlug}">${titleCase(townSlug)}</a>`;
 }
@@ -208,6 +258,7 @@ function loadAllSoldData(): TownRecord[] {
           townSlug: data.townSlug || town,
           countySlug: data.countySlug || county,
           stats: data.stats,
+          quarterlyHistory: data.quarterlyHistory || [],
         });
       } catch {
         // skip malformed files
@@ -294,38 +345,117 @@ function aggregateByCounty(towns: TownRecord[]): CountyAggregate[] {
 
 // ── Report builders ──────────────────────────────────────────────────────────
 
-function buildFastestGrowingReport(towns: TownRecord[]): string {
-  console.log("  Building: fastest-growing-markets-q1-2026");
+interface PeriodConfig {
+  slug: string;
+  periodLabel: string; // "Q2 2026" or "H1 2026"
+  periodRangeLabel: string; // "April to June 2026" or "January to June 2026"
+  minTxns: number;
+  provisional: boolean;
+  currentQuarters: string[];
+  priorYearQuarters: string[];
+}
 
-  const sorted = [...towns]
-    .filter((t) => t.stats.transactionCount12m > 10)
-    .sort((a, b) => b.stats.yoyChange - a.stats.yoyChange);
+const Q2_2026: PeriodConfig = {
+  slug: "fastest-growing-property-markets-q2-2026",
+  periodLabel: "Q2 2026",
+  periodRangeLabel: "April to June 2026",
+  minTxns: 5,
+  provisional: true,
+  currentQuarters: ["2026-Q2"],
+  priorYearQuarters: ["2025-Q2"],
+};
+
+const H1_2026: PeriodConfig = {
+  slug: "fastest-growing-property-markets-h1-2026",
+  periodLabel: "H1 2026",
+  periodRangeLabel: "January to June 2026",
+  minTxns: 10,
+  provisional: true,
+  currentQuarters: ["2026-Q1", "2026-Q2"],
+  priorYearQuarters: ["2025-Q1", "2025-Q2"],
+};
+
+interface TownPeriodFigure {
+  townSlug: string;
+  countySlug: string;
+  medianPrice: number;
+  transactions: number;
+  yoyChange: number;
+}
+
+function getTownPeriodFigures(town: TownRecord, period: PeriodConfig): TownPeriodFigure | null {
+  const currentPoints = period.currentQuarters.map((q) => getQuarter(town, q));
+  const priorPoints = period.priorYearQuarters.map((q) => getQuarter(town, q));
+  const current =
+    currentPoints.length === 1 ? currentPoints[0] || null : combineQuarters(currentPoints[0], currentPoints[1]);
+  const prior =
+    priorPoints.length === 1 ? priorPoints[0] || null : combineQuarters(priorPoints[0], priorPoints[1]);
+  if (!current || current.transactions === 0) return null;
+  return {
+    townSlug: town.townSlug,
+    countySlug: town.countySlug,
+    medianPrice: current.medianPrice,
+    transactions: current.transactions,
+    yoyChange: prior && prior.medianPrice > 0 ? yoyPct(current.medianPrice, prior.medianPrice) : 0,
+  };
+}
+
+function buildMajorCityHousePrices(towns: TownRecord[]): string {
+  const cities: { label: string; countySlug: string; townSlug: string }[] = [
+    { label: "Manchester", countySlug: "greater-manchester", townSlug: "manchester" },
+    { label: "Birmingham", countySlug: "west-midlands", townSlug: "birmingham" },
+    { label: "Liverpool", countySlug: "merseyside", townSlug: "liverpool" },
+  ];
+  const rows = cities
+    .map((c) => {
+      const town = towns.find((t) => t.countySlug === c.countySlug && t.townSlug === c.townSlug);
+      if (!town) return null;
+      return `<tr><td>${c.label}</td><td>${fmtPrice(town.stats.medianPrice)}</td><td>${fmtPct(town.stats.yoyChange)}</td><td>${town.stats.transactionCount12m.toLocaleString("en-GB")}</td></tr>`;
+    })
+    .filter(Boolean)
+    .join("");
+  const table = `<table><thead><tr><th>City</th><th>House Price (Median)</th><th>YoY Change</th><th>Transactions (12m)</th></tr></thead><tbody>${rows}</tbody></table>`;
+  return `House prices in England's largest regional cities remain a key reference point for developers weighing regeneration schemes against smaller-town opportunities. ${table} London's house prices are covered separately across ${countyReportLink("greater-london")}'s boroughs, each with distinct local dynamics rather than a single city-wide figure.`;
+}
+
+function buildFastestGrowingReport(towns: TownRecord[], period: PeriodConfig): string {
+  console.log(`  Building: ${period.slug}`);
+
+  const figures = towns
+    .map((t) => getTownPeriodFigures(t, period))
+    .filter((f): f is TownPeriodFigure => f !== null && f.transactions > period.minTxns);
+
+  const sorted = [...figures].sort((a, b) => b.yoyChange - a.yoyChange);
   const top20 = sorted.slice(0, 20);
   const bottom10 = sorted.slice(-10).reverse();
 
   const totalTowns = sorted.length;
-  const rising = sorted.filter((t) => t.stats.yoyChange > 0).length;
-  const falling = sorted.filter((t) => t.stats.yoyChange < 0).length;
+  const rising = sorted.filter((t) => t.yoyChange > 0).length;
+  const falling = sorted.filter((t) => t.yoyChange < 0).length;
+
+  const provisionalNote = period.provisional
+    ? ` Land Registry registrations for the most recent weeks of ${period.periodRangeLabel} are still incomplete at the time of publication, so these figures are provisional and will be refreshed as further sales register.`
+    : "";
 
   const topTableRows = top20
     .map(
       (t, i) =>
-        `<tr><td>${i + 1}</td><td>${townLink(t.countySlug, t.townSlug)}</td><td>${countyReportLink(t.countySlug)}</td><td>${fmtPct(t.stats.yoyChange)}</td><td>${fmtPrice(t.stats.medianPrice)}</td><td>${t.stats.transactionCount12m.toLocaleString("en-GB")}</td></tr>`
+        `<tr><td>${i + 1}</td><td>${townLink(t.countySlug, t.townSlug)}</td><td>${countyReportLink(t.countySlug)}</td><td>${fmtPct(t.yoyChange)}</td><td>${fmtPrice(t.medianPrice)}</td><td>${t.transactions.toLocaleString("en-GB")}</td></tr>`
     )
     .join("");
-  const topTable = `<table><thead><tr><th>#</th><th>Town</th><th>County</th><th>YoY Change</th><th>Median Price</th><th>Transactions (12m)</th></tr></thead><tbody>${topTableRows}</tbody></table>`;
+  const topTable = `<table><thead><tr><th>#</th><th>Town</th><th>County</th><th>YoY Change</th><th>Median Price</th><th>Transactions (${period.periodLabel})</th></tr></thead><tbody>${topTableRows}</tbody></table>`;
 
   const bottomTableRows = bottom10
     .map(
       (t, i) =>
-        `<tr><td>${i + 1}</td><td>${townLink(t.countySlug, t.townSlug)}</td><td>${countyReportLink(t.countySlug)}</td><td>${fmtPct(t.stats.yoyChange)}</td><td>${fmtPrice(t.stats.medianPrice)}</td><td>${t.stats.transactionCount12m.toLocaleString("en-GB")}</td></tr>`
+        `<tr><td>${i + 1}</td><td>${townLink(t.countySlug, t.townSlug)}</td><td>${countyReportLink(t.countySlug)}</td><td>${fmtPct(t.yoyChange)}</td><td>${fmtPrice(t.medianPrice)}</td><td>${t.transactions.toLocaleString("en-GB")}</td></tr>`
     )
     .join("");
-  const bottomTable = `<table><thead><tr><th>#</th><th>Town</th><th>County</th><th>YoY Change</th><th>Median Price</th><th>Transactions (12m)</th></tr></thead><tbody>${bottomTableRows}</tbody></table>`;
+  const bottomTable = `<table><thead><tr><th>#</th><th>Town</th><th>County</th><th>YoY Change</th><th>Median Price</th><th>Transactions (${period.periodLabel})</th></tr></thead><tbody>${bottomTableRows}</tbody></table>`;
 
   const chartData = top20.slice(0, 15).map((t) => ({
     name: titleCase(t.townSlug),
-    value: parseFloat(t.stats.yoyChange.toFixed(1)),
+    value: parseFloat(t.yoyChange.toFixed(1)),
   }));
 
   const relatedCountySlugs = [
@@ -333,14 +463,13 @@ function buildFastestGrowingReport(towns: TownRecord[]): string {
   ].slice(0, 5);
 
   const allContent = `
-Of ${totalTowns} towns with meaningful transaction volumes, ${rising} are recording year-on-year price growth whilst ${falling} are seeing declines.
+Of ${totalTowns} towns with meaningful transaction volumes in ${period.periodLabel}, ${rising} are recording year-on-year price growth whilst ${falling} are seeing declines.${provisionalNote}
 ${topTable}
-${top20[0] ? `${titleCase(top20[0].townSlug)} leads the table with ${fmtPct(top20[0].stats.yoyChange)} growth, where the median price now sits at ${fmtPrice(top20[0].stats.medianPrice)}.` : ""}
+${top20[0] ? `${titleCase(top20[0].townSlug)} leads the table with ${fmtPct(top20[0].yoyChange)} growth, where the median price now sits at ${fmtPrice(top20[0].medianPrice)}.` : ""}
 ${bottomTable}
 Declining markets are not necessarily a warning sign for developers. Lower land values reduce acquisition costs, and strategic development through a price trough can deliver strong returns.
-Rising markets offer developers the advantage of appreciating end values during the build period, whilst falling markets present land acquisition opportunities. Understanding these dynamics is essential when structuring <a href="/services/development-finance">development finance</a>.
-For <a href="/services/bridging-loans">bridging loan</a> exits, rising markets provide greater certainty on refinance valuations. In declining markets, <a href="/services/mezzanine-finance">mezzanine finance</a> can help bridge the gap between senior debt and equity.
-Whether your scheme is in a rising or falling market, Construction Capital can source competitive terms from 100+ lenders. Submit your project via our <a href="/deal-room">deal room</a> for a no-obligation quote.
+Rising markets offer developers the advantage of appreciating end values during the build period, whilst falling markets present land acquisition opportunities. Understanding these dynamics is essential when structuring development finance.
+For bridging loan exits, rising markets provide greater certainty on refinance valuations. In declining markets, mezzanine finance can help bridge the gap between senior debt and equity.
 `;
 
   const wordCount = allContent.split(/\s+/).length;
@@ -349,27 +478,34 @@ Whether your scheme is in a rising or falling market, Construction Capital can s
   const report = `import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
-  slug: "fastest-growing-markets-q1-2026",
-  title: "Fastest-Growing Property Markets in England & Wales Q1 2026",
-  metaTitle: "Fastest-Growing Property Markets Q1 2026 | Price Growth Rankings",
-  metaDescription: "Data-driven ranking of the fastest-growing and fastest-falling property markets across England and Wales in Q1 2026, based on Land Registry transactions.",
-  excerpt: "${rising} towns rising, ${falling} falling. Full town-by-town rankings with transaction data.",
+  slug: "${period.slug}",
+  title: "Fastest-Growing Property Markets in England & Wales, ${period.periodLabel}",
+  metaTitle: "Fastest-Growing Property Markets ${period.periodLabel} | Price Growth Rankings",
+  metaDescription: "Data-driven ranking of the fastest-growing and fastest-falling property markets across England and Wales in ${period.periodLabel} (${period.periodRangeLabel}), based on Land Registry transactions.",
+  excerpt: "${rising} towns rising, ${falling} falling in ${period.periodLabel}. Full town-by-town rankings with transaction data.",
   category: "thematic",
-  datePublished: "${DATE}",
-  dateModified: "${DATE}",
+  datePublished: "${DATE_MODIFIED}",
+  dateModified: "${DATE_MODIFIED}",
   readingTime: "${readTime}",
   sections: [
     {
-      heading: "Q1 2026 Market Overview",
+      heading: "${period.periodLabel} Market Overview",
       content: [
-        ${JSON.stringify(escapeTs(`Of ${totalTowns} towns with meaningful transaction volumes (>10 sales in the past 12 months), <strong>${rising}</strong> are recording year-on-year price growth whilst <strong>${falling}</strong> are seeing declines. This report ranks every market by price momentum to highlight where developers face rising end values — and where land acquisition bargains may be emerging.`))},
+        ${JSON.stringify(escapeTs(`Of ${totalTowns} towns with meaningful transaction volumes (>${period.minTxns} sales in ${period.periodLabel}), <strong>${rising}</strong> are recording year-on-year house price growth whilst <strong>${falling}</strong> are seeing declines. This report ranks every housing market by price momentum to highlight where developers face rising end values — and where land acquisition bargains may be emerging.${provisionalNote}`))},
+        ${JSON.stringify(escapeTs(METHODOLOGY_NOTE))},
+      ],
+    },
+    {
+      heading: "Major City House Prices",
+      content: [
+        ${JSON.stringify(escapeTs(buildMajorCityHousePrices(towns)))},
       ],
     },
     {
       heading: "Top 20 Fastest-Rising Markets",
       content: [
         ${JSON.stringify(escapeTs(topTable))},
-        ${JSON.stringify(escapeTs(top20[0] ? `${titleCase(top20[0].townSlug)} in ${titleCase(top20[0].countySlug)} leads the table with <strong>${fmtPct(top20[0].stats.yoyChange)}</strong> growth, where the median price now sits at ${fmtPrice(top20[0].stats.medianPrice)}. ${top20[1] ? `${titleCase(top20[1].townSlug)} follows at ${fmtPct(top20[1].stats.yoyChange)}, with ${titleCase(top20[2]?.townSlug || "")} in third place at ${fmtPct(top20[2]?.stats.yoyChange || 0)}.` : ""}` : ""))},
+        ${JSON.stringify(escapeTs(top20[0] ? `${titleCase(top20[0].townSlug)} in ${titleCase(top20[0].countySlug)} leads the table with <strong>${fmtPct(top20[0].yoyChange)}</strong> growth, where the median price now sits at ${fmtPrice(top20[0].medianPrice)}. ${top20[1] ? `${titleCase(top20[1].townSlug)} follows at ${fmtPct(top20[1].yoyChange)}, with ${titleCase(top20[2]?.townSlug || "")} in third place at ${fmtPct(top20[2]?.yoyChange || 0)}.` : ""}` : ""))},
         ${JSON.stringify(escapeTs(`Rising markets offer developers the advantage of appreciating end values during the build period. For schemes funded with <a href="/services/development-finance">development finance</a>, this can improve profit margins between drawdown and exit.`))},
       ],
     },
@@ -397,12 +533,12 @@ const report: MarketReport = {
   ],
   faqs: [
     {
-      question: "Where are property prices rising fastest in Q1 2026?",
-      answer: ${JSON.stringify(escapeTs(top20[0] ? `${titleCase(top20[0].townSlug)} in ${titleCase(top20[0].countySlug)} leads with ${fmtPct(top20[0].stats.yoyChange)} year-on-year growth, based on Land Registry transaction data.` : "Data pending."))},
+      question: "Where are property prices rising fastest in ${period.periodLabel}?",
+      answer: ${JSON.stringify(escapeTs(top20[0] ? `${titleCase(top20[0].townSlug)} in ${titleCase(top20[0].countySlug)} leads with ${fmtPct(top20[0].yoyChange)} year-on-year growth in ${period.periodLabel}, based on Land Registry transaction data.` : "Data pending."))},
     },
     {
-      question: "Where are property prices falling the most?",
-      answer: ${JSON.stringify(escapeTs(bottom10[0] ? `${titleCase(bottom10[0].townSlug)} in ${titleCase(bottom10[0].countySlug)} has seen the largest decline at ${fmtPct(bottom10[0].stats.yoyChange)} year-on-year. However, price declines can create opportunities for developers acquiring land at lower values.` : "Data pending."))},
+      question: "Where are property prices falling the most in ${period.periodLabel}?",
+      answer: ${JSON.stringify(escapeTs(bottom10[0] ? `${titleCase(bottom10[0].townSlug)} in ${titleCase(bottom10[0].countySlug)} has seen the largest decline at ${fmtPct(bottom10[0].yoyChange)} year-on-year. However, price declines can create opportunities for developers acquiring land at lower values.` : "Data pending."))},
     },
     {
       question: "How does price growth affect development finance?",
@@ -474,21 +610,23 @@ function buildAffordableHotspotsReport(towns: TownRecord[]): string {
   const report = `import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
-  slug: "affordable-development-hotspots-2026",
+  slug: "affordable-development-hotspots-h1-2026",
   title: "Affordable Entry Points: Where First-Time Developers Are Starting in 2026",
   metaTitle: "Affordable Development Hotspots 2026 | Lowest Entry Points for Developers",
   metaDescription: "Discover the most affordable property markets in England and Wales with active transaction volumes. Data-driven guide for first-time developers seeking low-cost entry points.",
   excerpt: "The 20 most affordable markets with active sales — from ${fmtPrice(top30[0]?.stats.medianPrice || 0)} to ${fmtPrice(top30[19]?.stats.medianPrice || 0)}.",
   category: "thematic",
-  datePublished: "${DATE}",
-  dateModified: "${DATE}",
+  datePublished: "${DATE_PUBLISHED}",
+  dateModified: "${DATE_MODIFIED}",
   readingTime: "5 min read",
   sections: [
     {
       heading: "Finding Affordable Entry Points",
       content: [
-        ${JSON.stringify(escapeTs(`With the national median price sitting at ${fmtPrice(nationalMedian)}, many first-time developers assume they need substantial capital to enter the market. This report identifies towns where median prices are significantly below the national average — but where transaction volumes confirm an active, liquid market.`))},
+        ${JSON.stringify(escapeTs(`With the national median house price sitting at ${fmtPrice(nationalMedian)}, many first-time developers assume they need substantial capital to enter the market. This report identifies towns where median property prices are significantly below the national average — but where transaction volumes confirm an active, liquid market.`))},
         ${JSON.stringify(escapeTs(`We filtered for towns with more than 20 transactions in the past 12 months, ensuring these are genuine markets rather than statistical anomalies from low sample sizes.`))},
+        ${JSON.stringify(escapeTs(`This is a different opportunity to the buy-to-let investment hotspots that dominate coverage of cities like Manchester, Birmingham, Liverpool and London — this report is aimed at developers and small-scale investors seeking a lower-cost entry point for conversion or new-build schemes, not rental yield in major regeneration areas.`))},
+        ${JSON.stringify(escapeTs(METHODOLOGY_NOTE))},
       ],
     },
     {
@@ -591,21 +729,22 @@ function buildNewBuildPremiumReport(towns: TownRecord[], counties: CountyAggrega
   const report = `import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
-  slug: "new-build-premium-report-q1-2026",
-  title: "UK New Build Premium Report Q1 2026",
-  metaTitle: "New Build Premium Report Q1 2026 | County-by-County Price Gaps",
+  slug: "new-build-premium-report-h1-2026",
+  title: "UK New Build Premium Report, H1 2026",
+  metaTitle: "New Build Premium Report H1 2026 | County-by-County Price Gaps",
   metaDescription: "Press-ready analysis of new build vs existing property price premiums across England and Wales. County-level rankings showing where new builds command the highest margins.",
   excerpt: "${totalNewBuild.toLocaleString("en-GB")} new build transactions analysed. County-by-county premium rankings.",
   category: "thematic",
-  datePublished: "${DATE}",
-  dateModified: "${DATE}",
+  datePublished: "${DATE_PUBLISHED}",
+  dateModified: "${DATE_MODIFIED}",
   readingTime: "5 min read",
   sections: [
     {
       heading: "The New Build Premium Landscape",
       content: [
-        ${JSON.stringify(escapeTs(`Across ${counties.length} counties, ${totalNewBuild.toLocaleString("en-GB")} new build transactions were recorded in the past 12 months — representing ${nationalNewBuildPct}% of all residential sales. But the premium buyers pay for new build over existing stock varies dramatically by location.`))},
-        ${JSON.stringify(escapeTs(`This report analyses the average new build premium at county level, revealing where developers can command the highest margins — and where new build stock is, surprisingly, selling at a discount to existing properties.`))},
+        ${JSON.stringify(escapeTs(`Across ${counties.length} counties, ${totalNewBuild.toLocaleString("en-GB")} new build homes were sold in the past 12 months — representing ${nationalNewBuildPct}% of all residential property sales. But the premium buyers pay for a new build home over an older, existing property varies dramatically by location.`))},
+        ${JSON.stringify(escapeTs(`This report analyses the average new build premium at county level, revealing where developers can command the highest margins on new homes — and where new build stock is, surprisingly, selling at a discount to older properties.`))},
+        ${JSON.stringify(escapeTs(METHODOLOGY_NOTE))},
       ],
     },
     {
@@ -742,21 +881,22 @@ function buildPlanningPipelineReport(planning: PlanningData[], towns: TownRecord
   const report = `import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
-  slug: "planning-pipeline-hotspots-2026",
+  slug: "planning-pipeline-hotspots-h1-2026",
   title: "Planning Approval Hotspots: Where Developers Are Building in 2026",
   metaTitle: "Planning Pipeline Hotspots 2026 | GDV Rankings & Approval Rates",
   metaDescription: "Analysis of planning pipelines across ${planningCounties.length} counties. Ranked by estimated GDV, approved units, and development category breakdown.",
   excerpt: "${fmtBigNumber(totalGdv)} pipeline GDV across ${totalApps.toLocaleString("en-GB")} applications in ${planningCounties.length} counties.",
   category: "thematic",
-  datePublished: "${DATE}",
-  dateModified: "${DATE}",
+  datePublished: "${DATE_PUBLISHED}",
+  dateModified: "${DATE_MODIFIED}",
   readingTime: "5 min read",
   sections: [
     {
-      heading: "The 2026 Planning Pipeline",
+      heading: "The Planning Pipeline (to ${PLANNING_DATA_AS_OF})",
       content: [
-        ${JSON.stringify(escapeTs(`Across ${planningCounties.length} counties with planning data — ${planningCounties.map((c) => countyReportLink(c)).join(", ")} — we identified <strong>${totalApps.toLocaleString("en-GB")}</strong> relevant planning applications with a combined estimated gross development value (GDV) of <strong>${fmtBigNumber(totalGdv)}</strong> and <strong>${totalUnits.toLocaleString("en-GB")}</strong> residential units in the pipeline.`))},
-        ${JSON.stringify(escapeTs(`Of these, ${totalApproved.toLocaleString("en-GB")} have been approved and ${totalPending.toLocaleString("en-GB")} are awaiting decision.`))},
+        ${JSON.stringify(escapeTs(`Across ${planningCounties.length} counties in England — ${planningCounties.map((c) => countyReportLink(c)).join(", ")} — we identified <strong>${totalApps.toLocaleString("en-GB")}</strong> relevant planning applications with a combined estimated gross development value (GDV) of <strong>${fmtBigNumber(totalGdv)}</strong> and <strong>${totalUnits.toLocaleString("en-GB")}</strong> residential units in the housing delivery pipeline.`))},
+        ${JSON.stringify(escapeTs(`Of these, ${totalApproved.toLocaleString("en-GB")} have been approved by the local planning authority and ${totalPending.toLocaleString("en-GB")} are awaiting a decision.`))},
+        ${JSON.stringify(escapeTs(`Data is sourced directly from local planning authorities' public registers via the Idox Public Access and Civica Portal360 planning portals, covering live application status rather than a lagging published index.`))},
       ],
     },
     {
@@ -864,20 +1004,21 @@ function buildPropertyTypeGapsReport(towns: TownRecord[], counties: CountyAggreg
   const report = `import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
-  slug: "property-type-price-gaps-2026",
+  slug: "property-type-price-gaps-h1-2026",
   title: "Mind the Gap: Detached vs Flat Price Differentials Across England 2026",
   metaTitle: "Detached vs Flat Price Gaps 2026 | County Rankings for Developers",
   metaDescription: "County-by-county analysis of the price gap between detached houses and flats. Where the biggest differentials create opportunities for conversion and subdivision developers.",
   excerpt: "National gap: ${fmtPrice(nationalDetached - nationalFlat)}. County rankings from widest to narrowest spread.",
   category: "thematic",
-  datePublished: "${DATE}",
-  dateModified: "${DATE}",
+  datePublished: "${DATE_PUBLISHED}",
+  dateModified: "${DATE_MODIFIED}",
   readingTime: "5 min read",
   sections: [
     {
       heading: "The Price Type Spectrum",
       content: [
-        ${JSON.stringify(escapeTs(`Across England and Wales, the national median prices by property type are: <strong>Detached ${fmtPrice(nationalDetached)}</strong>, Semi-Detached ${fmtPrice(nationalSemi)}, Terraced ${fmtPrice(nationalTerraced)}, and Flats ${fmtPrice(nationalFlat)}. The gap between detached and flat values — ${fmtPrice(nationalDetached - nationalFlat)} or ${((((nationalDetached - nationalFlat) / nationalFlat) * 100)).toFixed(0)}% — represents a key metric for developers considering conversion and subdivision schemes.`))},
+        ${JSON.stringify(escapeTs(`Across England and Wales, the national median house prices by property type are: <strong>Detached ${fmtPrice(nationalDetached)}</strong>, Semi-Detached ${fmtPrice(nationalSemi)}, Terraced ${fmtPrice(nationalTerraced)}, and Flats ${fmtPrice(nationalFlat)}. The gap between detached and flat house prices — ${fmtPrice(nationalDetached - nationalFlat)} or ${((((nationalDetached - nationalFlat) / nationalFlat) * 100)).toFixed(0)}% — represents a key regional house price index metric for developers considering conversion and subdivision schemes.`))},
+        ${JSON.stringify(escapeTs(METHODOLOGY_NOTE))},
       ],
     },
     {
@@ -1013,21 +1154,22 @@ function buildBarometerReport(
   const report = `import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
-  slug: "development-market-barometer-q1-2026",
-  title: "Development Finance Market Barometer Q1 2026",
-  metaTitle: "Development Finance Market Barometer Q1 2026 | National Overview",
-  metaDescription: "Comprehensive national overview of the UK development market in Q1 2026. Regional breakdowns, transaction volumes, price trends, and planning pipeline analysis.",
+  slug: "development-market-barometer-h1-2026",
+  title: "Development Finance Market Barometer, H1 2026",
+  metaTitle: "Development Finance Market Barometer H1 2026 | National Overview",
+  metaDescription: "Comprehensive national overview of the UK development market. Regional breakdowns, transaction volumes, price trends, and planning pipeline analysis to ${SOLD_DATA_AS_OF}.",
   excerpt: "${totalTransactions.toLocaleString("en-GB")} transactions, ${fmtPrice(nationalMedian)} national median, ${fmtPct(avgYoy)} average YoY.",
   category: "thematic",
-  datePublished: "${DATE}",
-  dateModified: "${DATE}",
+  datePublished: "${DATE_PUBLISHED}",
+  dateModified: "${DATE_MODIFIED}",
   readingTime: "6 min read",
   sections: [
     {
       heading: "National Market Snapshot",
       content: [
-        ${JSON.stringify(escapeTs(`The UK development market in Q1 2026 is characterised by <strong>${totalTransactions.toLocaleString("en-GB")}</strong> residential transactions in the past 12 months across ${counties.length} counties. The national median price stands at <strong>${fmtPrice(nationalMedian)}</strong>, with an average year-on-year change of <strong>${fmtPct(avgYoy)}</strong>.`))},
-        ${JSON.stringify(escapeTs(`Of towns with meaningful transaction volumes, <strong>${risingCount}</strong> are recording price growth and <strong>${fallingCount}</strong> are seeing declines. New build activity accounts for ${totalNewBuild.toLocaleString("en-GB")} of ${(totalNewBuild + totalExisting).toLocaleString("en-GB")} total transactions (${((totalNewBuild / (totalNewBuild + totalExisting)) * 100).toFixed(1)}%).`))},
+        ${JSON.stringify(escapeTs(`The England and Wales property market is characterised by <strong>${totalTransactions.toLocaleString("en-GB")}</strong> residential house sales in the past 12 months across ${counties.length} counties. The national median house price stands at <strong>${fmtPrice(nationalMedian)}</strong>, with an average year-on-year price change of <strong>${fmtPct(avgYoy)}</strong>.`))},
+        ${JSON.stringify(escapeTs(`Of towns with meaningful transaction volumes, <strong>${risingCount}</strong> are recording house price growth and <strong>${fallingCount}</strong> are seeing declines. New build activity accounts for ${totalNewBuild.toLocaleString("en-GB")} of ${(totalNewBuild + totalExisting).toLocaleString("en-GB")} total sales (${((totalNewBuild / (totalNewBuild + totalExisting)) * 100).toFixed(1)}%).`))},
+        ${JSON.stringify(escapeTs(METHODOLOGY_NOTE))},
       ],
     },
     {
@@ -1038,7 +1180,7 @@ const report: MarketReport = {
       ],
     },
     {
-      heading: "Planning Pipeline Overview",
+      heading: "Planning Pipeline Overview (to ${PLANNING_DATA_AS_OF})",
       content: [
         ${JSON.stringify(escapeTs(`Across ${planningCounties.length} counties with planning data (${planningCounties.map((c) => countyReportLink(c)).join(", ")}), the development pipeline contains <strong>${totalPlanningApps.toLocaleString("en-GB")}</strong> relevant applications with an estimated total GDV of <strong>${fmtBigNumber(totalPlanningGdv)}</strong> and <strong>${totalPlanningUnits.toLocaleString("en-GB")}</strong> residential units.`))},
         ${JSON.stringify(escapeTs(`This pipeline signals continued developer confidence and sustained demand for <a href="/services/development-finance">development finance</a> across the South East and East of England in particular.`))},
@@ -1047,7 +1189,7 @@ const report: MarketReport = {
     {
       heading: "Lender Appetite and Market Conditions",
       content: [
-        ${JSON.stringify(escapeTs(`Development finance lenders are broadly active in Q1 2026, with appetite strongest in regions showing stable or growing prices. Senior debt is typically available at 60–70% LTV (of GDV) for experienced developers, with rates from 7–10% per annum depending on scheme risk.`))},
+        ${JSON.stringify(escapeTs(`Development finance lenders are broadly active, with appetite strongest in regions showing stable or growing prices. Senior debt is typically available at 60–70% LTV (of GDV) for experienced developers, with rates from 7–10% per annum depending on scheme risk.`))},
         ${JSON.stringify(escapeTs(`For first-time developers or higher-risk schemes, <a href="/services/mezzanine-finance">mezzanine finance</a> can bridge the gap between senior debt and equity, enabling projects to proceed with less personal capital. <a href="/services/bridging-loans">Bridging loans</a> remain the go-to product for site acquisition ahead of planning or development finance drawdown.`))},
       ],
     },
@@ -1062,7 +1204,7 @@ const report: MarketReport = {
   faqs: [
     {
       question: "What is the current average house price in England and Wales?",
-      answer: ${JSON.stringify(escapeTs(`Based on Land Registry data across ${counties.length} counties and ${towns.length} towns, the national median price is ${fmtPrice(nationalMedian)} as of Q1 2026.`))},
+      answer: ${JSON.stringify(escapeTs(`Based on Land Registry data across ${counties.length} counties and ${towns.length} towns, the national median price is ${fmtPrice(nationalMedian)}, based on transactions to ${SOLD_DATA_AS_OF}.`))},
     },
     {
       question: "Are house prices rising or falling in 2026?",
@@ -1113,27 +1255,31 @@ async function main() {
 
   const reports: { filename: string; content: string }[] = [
     {
-      filename: "fastest-growing-markets-q1-2026.ts",
-      content: buildFastestGrowingReport(towns),
+      filename: "fastest-growing-property-markets-q2-2026.ts",
+      content: buildFastestGrowingReport(towns, Q2_2026),
     },
     {
-      filename: "affordable-development-hotspots-2026.ts",
+      filename: "fastest-growing-property-markets-h1-2026.ts",
+      content: buildFastestGrowingReport(towns, H1_2026),
+    },
+    {
+      filename: "affordable-development-hotspots-h1-2026.ts",
       content: buildAffordableHotspotsReport(towns),
     },
     {
-      filename: "new-build-premium-report-q1-2026.ts",
+      filename: "new-build-premium-report-h1-2026.ts",
       content: buildNewBuildPremiumReport(towns, counties),
     },
     {
-      filename: "planning-pipeline-hotspots-2026.ts",
+      filename: "planning-pipeline-hotspots-h1-2026.ts",
       content: buildPlanningPipelineReport(planning, towns),
     },
     {
-      filename: "property-type-price-gaps-2026.ts",
+      filename: "property-type-price-gaps-h1-2026.ts",
       content: buildPropertyTypeGapsReport(towns, counties),
     },
     {
-      filename: "development-market-barometer-q1-2026.ts",
+      filename: "development-market-barometer-h1-2026.ts",
       content: buildBarometerReport(towns, counties, planning),
     },
   ];
@@ -1148,15 +1294,17 @@ async function main() {
   console.log("\nGenerating barrel file...");
   const barrel = `import type { MarketReport } from "../../types";
 
-import fastestGrowing from "./fastest-growing-markets-q1-2026";
-import affordableHotspots from "./affordable-development-hotspots-2026";
-import newBuildPremium from "./new-build-premium-report-q1-2026";
-import planningPipeline from "./planning-pipeline-hotspots-2026";
-import propertyTypeGaps from "./property-type-price-gaps-2026";
-import barometer from "./development-market-barometer-q1-2026";
+import fastestGrowingQ2 from "./fastest-growing-property-markets-q2-2026";
+import fastestGrowingH1 from "./fastest-growing-property-markets-h1-2026";
+import affordableHotspots from "./affordable-development-hotspots-h1-2026";
+import newBuildPremium from "./new-build-premium-report-h1-2026";
+import planningPipeline from "./planning-pipeline-hotspots-h1-2026";
+import propertyTypeGaps from "./property-type-price-gaps-h1-2026";
+import barometer from "./development-market-barometer-h1-2026";
 
 export const PRESS_REPORTS: MarketReport[] = [
-  fastestGrowing,
+  fastestGrowingQ2,
+  fastestGrowingH1,
   affordableHotspots,
   newBuildPremium,
   planningPipeline,
