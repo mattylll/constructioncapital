@@ -297,6 +297,21 @@ function loadAllPlanningData(): PlanningData[] {
   return records;
 }
 
+// The planning fetchers tag every town within a local authority with that
+// authority's FULL application set (identical GDV/units/application refs
+// repeated verbatim per town) — there is no town-level split. Summing
+// per-town records directly therefore double- (or triple-) counts every
+// multi-town authority. Dedupe to one record per unique localAuthority
+// before computing any aggregate or ranking that spans multiple towns.
+function dedupePlanningByAuthority(planning: PlanningData[]): PlanningData[] {
+  const seen = new Map<string, PlanningData>();
+  for (const p of planning) {
+    const key = p.localAuthority || `${p.countySlug}/${p.townSlug}`;
+    if (!seen.has(key)) seen.set(key, p);
+  }
+  return [...seen.values()];
+}
+
 function aggregateByCounty(towns: TownRecord[]): CountyAggregate[] {
   const byCounty = new Map<string, TownRecord[]>();
   for (const t of towns) {
@@ -813,8 +828,11 @@ export default report;
   return report;
 }
 
-function buildPlanningPipelineReport(planning: PlanningData[], towns: TownRecord[]): string {
+function buildPlanningPipelineReport(rawPlanning: PlanningData[], towns: TownRecord[]): string {
   console.log("  Building: planning-pipeline-hotspots-2026");
+
+  // Dedupe by local authority — see dedupePlanningByAuthority for why.
+  const planning = dedupePlanningByAuthority(rawPlanning);
 
   // Build a lookup for sold data
   const soldLookup = new Map<string, TownRecord>();
@@ -853,10 +871,10 @@ function buildPlanningPipelineReport(planning: PlanningData[], towns: TownRecord
     .slice(0, 15)
     .map(
       (p, i) =>
-        `<tr><td>${i + 1}</td><td>${townLink(p.countySlug, p.townSlug)}</td><td>${countyReportLink(p.countySlug)}</td><td>${fmtBigNumber(p.summary.totalEstimatedGDV)}</td><td>${p.summary.totalUnits.toLocaleString("en-GB")}</td><td>${p.summary.relevant.toLocaleString("en-GB")}</td></tr>`
+        `<tr><td>${i + 1}</td><td>${p.localAuthority || townLink(p.countySlug, p.townSlug)}</td><td>${countyReportLink(p.countySlug)}</td><td>${fmtBigNumber(p.summary.totalEstimatedGDV)}</td><td>${p.summary.totalUnits.toLocaleString("en-GB")}</td><td>${p.summary.relevant.toLocaleString("en-GB")}</td></tr>`
     )
     .join("");
-  const gdvTable = `<table><thead><tr><th>#</th><th>Town</th><th>County</th><th>Pipeline GDV</th><th>Total Units</th><th>Applications</th></tr></thead><tbody>${gdvTableRows}</tbody></table>`;
+  const gdvTable = `<table><thead><tr><th>#</th><th>Local Planning Authority</th><th>County</th><th>Pipeline GDV</th><th>Total Units</th><th>Applications</th></tr></thead><tbody>${gdvTableRows}</tbody></table>`;
 
   const categoryRows: string[] = [];
   const catNames: Record<string, string> = {
@@ -1081,9 +1099,12 @@ export default report;
 function buildBarometerReport(
   towns: TownRecord[],
   counties: CountyAggregate[],
-  planning: PlanningData[]
+  rawPlanning: PlanningData[]
 ): string {
   console.log("  Building: development-market-barometer-q1-2026");
+
+  // Dedupe by local authority — see dedupePlanningByAuthority for why.
+  const planning = dedupePlanningByAuthority(rawPlanning);
 
   const totalTransactions = towns.reduce((s, t) => s + t.stats.transactionCount12m, 0);
   const nationalMedian = median(towns.filter((t) => t.stats.medianPrice > 0).map((t) => t.stats.medianPrice));
