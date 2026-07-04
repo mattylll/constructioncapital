@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-06-28T01:10:56.062Z",
+  "updatedAt": "2026-07-03T15:23:47.803Z",
   "townSlug": "farnborough",
   "countySlug": "hampshire",
   "localAuthority": "Rushmoor Borough Council",
   "source": "idox",
   "summary": {
-    "total": 152,
+    "total": 161,
     "relevant": 4,
     "approved": 0,
     "pending": 4,
@@ -20,6 +20,25 @@
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/00350/FUL",
+      "address": "22 Southwood Road Farnborough Hampshire GU14 0JQ",
+      "postcode": "GU14 0JQ",
+      "ward": "",
+      "proposal": "Attic conversion with the addition of front and rear rooflights",
+      "category": "conversion",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "29/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.rushmoor.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THDVMDNMKHZ00"
+    },
     {
       "reference": "26/00219/REVPP",
       "address": "Land At And Adjoining Orchard Rise 127 And La Fosse House 129 Ship Lane Farnborough Hampshire",
@@ -76,25 +95,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.rushmoor.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCWM1NNMJFS00"
-    },
-    {
-      "reference": "26/00169/FUL",
-      "address": "45 Larch Way Farnborough Hampshire GU14 0QW",
-      "postcode": "GU14 0QW",
-      "ward": "",
-      "proposal": "Garage conversion",
-      "category": "conversion",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided",
-      "decision": "Decided",
-      "receivedDate": "01/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.rushmoor.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCSWOMNMJEW00"
     }
   ]
 }
