@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "bishopston-bristol-property-market-h1-2026",
-  title: "Bishopston Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bishopston House Prices 2026: £350,000 Median",
-  metaDescription: "Bishopston house prices 2026: £350,000 median, 5,038 sales, +2.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Bishopston Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Bishopston House Prices, End of H1 2026: £350,000 Median",
+  metaDescription: "Bishopston house prices as at the end of H1 2026: £350,000 median, 5,038 sales, +2.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £350,000, 5,038 sales, +2.9% YoY. Bristol county.",
   category: "town",
   region: "South West",

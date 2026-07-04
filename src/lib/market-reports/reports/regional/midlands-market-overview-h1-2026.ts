@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "midlands-market-overview-h1-2026",
-  title: "Midlands Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "Midlands Property Market 2026 — County Prices, Trends & Development Hotspots",
-  metaDescription: "Midlands property market overview: 10 counties, 95,155 sales, median £238,500. County comparisons, development hotspots & finance options.",
+  title: "Midlands Property Market: Regional Analysis & County Comparison, End of H1 2026",
+  metaTitle: "Midlands Property Market, End of H1 2026: County Prices, Trends & Development Hotspots",
+  metaDescription: "Midlands property market overview as at the end of H1 2026: 10 counties, 95,155 sales, median £238,500. County comparisons, development hotspots and finance options.",
   excerpt: "10 counties, 95,155 transactions, median £238,500.",
   category: "regional",
   region: "Midlands",

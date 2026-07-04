@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "dorset-property-market-h1-2026",
-  title: "Dorset Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Dorset House Prices 2026: £343,250 Median",
-  metaDescription: "Dorset house prices 2026: £343,250 median, 7,015 sales, +0.3% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Dorset Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Dorset House Prices, End of H1 2026: £343,250 Median",
+  metaDescription: "Dorset house prices as at the end of H1 2026: £343,250 median, 7,015 sales, +0.3% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £343,250, 7,015 transactions, +0.3% YoY.",
   category: "county",
   region: "South West",

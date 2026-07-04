@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "sussex-property-market-h1-2026",
-  title: "Sussex Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Sussex House Prices 2026: £360,000 Median",
-  metaDescription: "Sussex house prices 2026: £360,000 median, 15,908 sales, -0.7% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Sussex Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Sussex House Prices, End of H1 2026: £360,000 Median",
+  metaDescription: "Sussex house prices as at the end of H1 2026: £360,000 median, 15,908 sales, -0.7% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "10 towns analysed. Median price £360,000, 15,908 transactions, -0.7% YoY.",
   category: "county",
   region: "London & South East",

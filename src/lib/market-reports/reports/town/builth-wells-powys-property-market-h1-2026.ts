@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "builth-wells-powys-property-market-h1-2026",
-  title: "Builth Wells Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Builth Wells House Prices 2026: £280,000 Median",
-  metaDescription: "Builth Wells house prices 2026: £280,000 median, 58 sales, +11.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Builth Wells Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Builth Wells House Prices, End of H1 2026: £280,000 Median",
+  metaDescription: "Builth Wells house prices as at the end of H1 2026: £280,000 median, 58 sales, +11.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £280,000, 58 sales, +11.6% YoY. Powys county.",
   category: "town",
   region: "Wales",

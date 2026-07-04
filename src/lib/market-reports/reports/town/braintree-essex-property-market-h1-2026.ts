@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "braintree-essex-property-market-h1-2026",
-  title: "Braintree Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Braintree House Prices 2026: £335,000 Median",
-  metaDescription: "Braintree house prices 2026: £335,000 median, 1,858 sales, -2.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Braintree Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Braintree House Prices, End of H1 2026: £335,000 Median",
+  metaDescription: "Braintree house prices as at the end of H1 2026: £335,000 median, 1,858 sales, -2.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £335,000, 1,858 sales, -2.9% YoY. Essex county.",
   category: "town",
   region: "London & South East",

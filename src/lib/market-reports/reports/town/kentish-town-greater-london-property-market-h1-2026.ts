@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "kentish-town-greater-london-property-market-h1-2026",
-  title: "Kentish Town Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Kentish Town House Prices 2026: £725,500 Median",
-  metaDescription: "Kentish Town house prices 2026: £725,500 median, 1,342 sales, -4.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Kentish Town Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Kentish Town House Prices, End of H1 2026: £725,500 Median",
+  metaDescription: "Kentish Town house prices as at the end of H1 2026: £725,500 median, 1,342 sales, -4.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £725,500, 1,342 sales, -4.5% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

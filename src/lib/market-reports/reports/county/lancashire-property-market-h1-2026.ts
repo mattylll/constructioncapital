@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "lancashire-property-market-h1-2026",
-  title: "Lancashire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Lancashire House Prices 2026: £161,000 Median",
-  metaDescription: "Lancashire house prices 2026: £161,000 median, 11,819 sales, -1.3% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Lancashire Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Lancashire House Prices, End of H1 2026: £161,000 Median",
+  metaDescription: "Lancashire house prices as at the end of H1 2026: £161,000 median, 11,819 sales, -1.3% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £161,000, 11,819 transactions, -1.3% YoY.",
   category: "county",
   region: "North West",

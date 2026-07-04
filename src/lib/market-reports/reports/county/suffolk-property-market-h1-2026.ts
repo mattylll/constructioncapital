@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "suffolk-property-market-h1-2026",
-  title: "Suffolk Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Suffolk House Prices 2026: £282,500 Median",
-  metaDescription: "Suffolk house prices 2026: £282,500 median, 6,876 sales, -0.4% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Suffolk Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Suffolk House Prices, End of H1 2026: £282,500 Median",
+  metaDescription: "Suffolk house prices as at the end of H1 2026: £282,500 median, 6,876 sales, -0.4% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £282,500, 6,876 transactions, -0.4% YoY.",
   category: "county",
   region: "East of England",

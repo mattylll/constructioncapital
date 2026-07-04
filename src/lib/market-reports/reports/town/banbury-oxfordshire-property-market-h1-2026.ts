@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "banbury-oxfordshire-property-market-h1-2026",
-  title: "Banbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Banbury House Prices 2026: £318,000 Median",
-  metaDescription: "Banbury house prices 2026: £318,000 median, 880 sales, -3.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Banbury Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Banbury House Prices, End of H1 2026: £318,000 Median",
+  metaDescription: "Banbury house prices as at the end of H1 2026: £318,000 median, 880 sales, -3.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £318,000, 880 sales, -3.6% YoY. Oxfordshire county.",
   category: "town",
   region: "London & South East",

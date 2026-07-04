@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "high-wycombe-buckinghamshire-property-market-h1-2026",
-  title: "High Wycombe Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "High Wycombe House Prices 2026: £425,000 Median",
-  metaDescription: "High Wycombe house prices 2026: £425,000 median, 1,370 sales, +1.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "High Wycombe Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "High Wycombe House Prices, End of H1 2026: £425,000 Median",
+  metaDescription: "High Wycombe house prices as at the end of H1 2026: £425,000 median, 1,370 sales, +1.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £425,000, 1,370 sales, +1.2% YoY. Buckinghamshire county.",
   category: "town",
   region: "London & South East",

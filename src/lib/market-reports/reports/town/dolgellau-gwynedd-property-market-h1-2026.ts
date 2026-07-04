@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "dolgellau-gwynedd-property-market-h1-2026",
-  title: "Dolgellau Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dolgellau House Prices 2026: £175,000 Median",
-  metaDescription: "Dolgellau house prices 2026: £175,000 median, 56 sales, -18.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Dolgellau Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Dolgellau House Prices, End of H1 2026: £175,000 Median",
+  metaDescription: "Dolgellau house prices as at the end of H1 2026: £175,000 median, 56 sales, -18.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £175,000, 56 sales, -18.6% YoY. Gwynedd county.",
   category: "town",
   region: "Wales",

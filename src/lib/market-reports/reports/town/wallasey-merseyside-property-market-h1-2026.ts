@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "wallasey-merseyside-property-market-h1-2026",
-  title: "Wallasey Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wallasey House Prices 2026: £175,000 Median",
-  metaDescription: "Wallasey house prices 2026: £175,000 median, 752 sales, +9.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Wallasey Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Wallasey House Prices, End of H1 2026: £175,000 Median",
+  metaDescription: "Wallasey house prices as at the end of H1 2026: £175,000 median, 752 sales, +9.4% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £175,000, 752 sales, +9.4% YoY. Merseyside county.",
   category: "town",
   region: "North West",

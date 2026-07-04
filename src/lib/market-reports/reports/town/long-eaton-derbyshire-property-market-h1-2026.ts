@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "long-eaton-derbyshire-property-market-h1-2026",
-  title: "Long Eaton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Long Eaton House Prices 2026: £210,000 Median",
-  metaDescription: "Long Eaton house prices 2026: £210,000 median, 1,368 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Long Eaton Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Long Eaton House Prices, End of H1 2026: £210,000 Median",
+  metaDescription: "Long Eaton house prices as at the end of H1 2026: £210,000 median, 1,368 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £210,000, 1,368 sales, 0% YoY. Derbyshire county.",
   category: "town",
   region: "Midlands",

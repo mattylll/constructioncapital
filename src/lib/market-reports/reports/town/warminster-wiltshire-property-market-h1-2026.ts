@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "warminster-wiltshire-property-market-h1-2026",
-  title: "Warminster Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Warminster House Prices 2026: £298,623 Median",
-  metaDescription: "Warminster house prices 2026: £298,623 median, 388 sales, -1.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Warminster Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Warminster House Prices, End of H1 2026: £298,623 Median",
+  metaDescription: "Warminster house prices as at the end of H1 2026: £298,623 median, 388 sales, -1.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £298,623, 388 sales, -1.8% YoY. Wiltshire county.",
   category: "town",
   region: "South West",

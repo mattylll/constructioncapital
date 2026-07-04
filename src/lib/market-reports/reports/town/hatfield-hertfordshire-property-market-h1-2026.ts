@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "hatfield-hertfordshire-property-market-h1-2026",
-  title: "Hatfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hatfield House Prices 2026: £385,000 Median",
-  metaDescription: "Hatfield house prices 2026: £385,000 median, 366 sales, -3.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Hatfield Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Hatfield House Prices, End of H1 2026: £385,000 Median",
+  metaDescription: "Hatfield house prices as at the end of H1 2026: £385,000 median, 366 sales, -3.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £385,000, 366 sales, -3.1% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",

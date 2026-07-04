@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "newmarket-suffolk-property-market-h1-2026",
-  title: "Newmarket Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newmarket House Prices 2026: £285,000 Median",
-  metaDescription: "Newmarket house prices 2026: £285,000 median, 353 sales, -4.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Newmarket Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Newmarket House Prices, End of H1 2026: £285,000 Median",
+  metaDescription: "Newmarket house prices as at the end of H1 2026: £285,000 median, 353 sales, -4.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £285,000, 353 sales, -4.2% YoY. Suffolk county.",
   category: "town",
   region: "East of England",

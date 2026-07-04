@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "ely-cambridgeshire-property-market-h1-2026",
-  title: "Ely Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ely House Prices 2026: £340,000 Median",
-  metaDescription: "Ely house prices 2026: £340,000 median, 911 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Ely Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Ely House Prices, End of H1 2026: £340,000 Median",
+  metaDescription: "Ely house prices as at the end of H1 2026: £340,000 median, 911 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £340,000, 911 sales, 0% YoY. Cambridgeshire county.",
   category: "town",
   region: "East of England",

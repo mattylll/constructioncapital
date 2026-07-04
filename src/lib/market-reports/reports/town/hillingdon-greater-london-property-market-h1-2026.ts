@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "hillingdon-greater-london-property-market-h1-2026",
-  title: "Hillingdon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hillingdon House Prices 2026: £500,000 Median",
-  metaDescription: "Hillingdon house prices 2026: £500,000 median, 2,012 sales, +3.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Hillingdon Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Hillingdon House Prices, End of H1 2026: £500,000 Median",
+  metaDescription: "Hillingdon house prices as at the end of H1 2026: £500,000 median, 2,012 sales, +3.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £500,000, 2,012 sales, +3.1% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

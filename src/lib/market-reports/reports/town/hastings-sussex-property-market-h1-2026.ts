@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "hastings-sussex-property-market-h1-2026",
-  title: "Hastings Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hastings House Prices 2026: £271,500 Median",
-  metaDescription: "Hastings house prices 2026: £271,500 median, 1,143 sales, +1.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Hastings Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Hastings House Prices, End of H1 2026: £271,500 Median",
+  metaDescription: "Hastings house prices as at the end of H1 2026: £271,500 median, 1,143 sales, +1.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £271,500, 1,143 sales, +1.7% YoY. Sussex county.",
   category: "town",
   region: "London & South East",

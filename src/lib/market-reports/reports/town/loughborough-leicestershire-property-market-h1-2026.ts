@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "loughborough-leicestershire-property-market-h1-2026",
-  title: "Loughborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Loughborough House Prices 2026: £270,000 Median",
-  metaDescription: "Loughborough house prices 2026: £270,000 median, 2,014 sales, +0.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Loughborough Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Loughborough House Prices, End of H1 2026: £270,000 Median",
+  metaDescription: "Loughborough house prices as at the end of H1 2026: £270,000 median, 2,014 sales, +0.4% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £270,000, 2,014 sales, +0.4% YoY. Leicestershire county.",
   category: "town",
   region: "Midlands",

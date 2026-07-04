@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "market-harborough-leicestershire-property-market-h1-2026",
-  title: "Market Harborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Market Harborough House Prices 2026: £320,000 Median",
-  metaDescription: "Market Harborough house prices 2026: £320,000 median, 1,267 sales, -4.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Market Harborough Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Market Harborough House Prices, End of H1 2026: £320,000 Median",
+  metaDescription: "Market Harborough house prices as at the end of H1 2026: £320,000 median, 1,267 sales, -4.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £320,000, 1,267 sales, -4.5% YoY. Leicestershire county.",
   category: "town",
   region: "Midlands",

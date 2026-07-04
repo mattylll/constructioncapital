@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "borehamwood-hertfordshire-property-market-h1-2026",
-  title: "Borehamwood Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Borehamwood House Prices 2026: £542,500 Median",
-  metaDescription: "Borehamwood house prices 2026: £542,500 median, 1,008 sales, +4.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Borehamwood Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Borehamwood House Prices, End of H1 2026: £542,500 Median",
+  metaDescription: "Borehamwood house prices as at the end of H1 2026: £542,500 median, 1,008 sales, +4.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £542,500, 1,008 sales, +4.3% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",

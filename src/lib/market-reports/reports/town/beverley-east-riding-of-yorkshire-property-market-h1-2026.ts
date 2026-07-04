@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "beverley-east-riding-of-yorkshire-property-market-h1-2026",
-  title: "Beverley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Beverley House Prices 2026: £249,475 Median",
-  metaDescription: "Beverley house prices 2026: £249,475 median, 612 sales, +2.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Beverley Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Beverley House Prices, End of H1 2026: £249,475 Median",
+  metaDescription: "Beverley house prices as at the end of H1 2026: £249,475 median, 612 sales, +2.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £249,475, 612 sales, +2.5% YoY. East Riding of Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "northamptonshire-property-market-h1-2026",
-  title: "Northamptonshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Northamptonshire House Prices 2026: £250,000 Median",
-  metaDescription: "Northamptonshire house prices 2026: £250,000 median, 8,150 sales, -4.2% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Northamptonshire Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Northamptonshire House Prices, End of H1 2026: £250,000 Median",
+  metaDescription: "Northamptonshire house prices as at the end of H1 2026: £250,000 median, 8,150 sales, -4.2% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "7 towns analysed. Median price £250,000, 8,150 transactions, -4.2% YoY.",
   category: "county",
   region: "Midlands",

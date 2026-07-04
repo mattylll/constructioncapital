@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "county-durham-property-market-h1-2026",
-  title: "County Durham Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "County Durham House Prices 2026: £126,500 Median",
-  metaDescription: "County Durham house prices 2026: £126,500 median, 10,382 sales, +0.2% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "County Durham Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "County Durham House Prices, End of H1 2026: £126,500 Median",
+  metaDescription: "County Durham house prices as at the end of H1 2026: £126,500 median, 10,382 sales, +0.2% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "6 towns analysed. Median price £126,500, 10,382 transactions, +0.2% YoY.",
   category: "county",
   region: "North East & Yorkshire",

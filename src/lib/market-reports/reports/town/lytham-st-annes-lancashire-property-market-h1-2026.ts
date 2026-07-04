@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "lytham-st-annes-lancashire-property-market-h1-2026",
-  title: "Lytham St Annes Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lytham St Annes House Prices 2026: £239,950 Median",
-  metaDescription: "Lytham St Annes house prices 2026: £239,950 median, 1,165 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Lytham St Annes Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Lytham St Annes House Prices, End of H1 2026: £239,950 Median",
+  metaDescription: "Lytham St Annes house prices as at the end of H1 2026: £239,950 median, 1,165 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £239,950, 1,165 sales, 0% YoY. Lancashire county.",
   category: "town",
   region: "North West",

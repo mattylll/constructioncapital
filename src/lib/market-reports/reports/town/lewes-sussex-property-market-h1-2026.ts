@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "lewes-sussex-property-market-h1-2026",
-  title: "Lewes Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lewes House Prices 2026: £375,000 Median",
-  metaDescription: "Lewes house prices 2026: £375,000 median, 1,207 sales, -2.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Lewes Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Lewes House Prices, End of H1 2026: £375,000 Median",
+  metaDescription: "Lewes house prices as at the end of H1 2026: £375,000 median, 1,207 sales, -2.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £375,000, 1,207 sales, -2.5% YoY. Sussex county.",
   category: "town",
   region: "London & South East",

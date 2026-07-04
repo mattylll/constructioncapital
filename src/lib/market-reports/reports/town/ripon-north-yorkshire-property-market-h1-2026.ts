@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "ripon-north-yorkshire-property-market-h1-2026",
-  title: "Ripon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ripon House Prices 2026: £281,250 Median",
-  metaDescription: "Ripon house prices 2026: £281,250 median, 276 sales, -4.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Ripon Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Ripon House Prices, End of H1 2026: £281,250 Median",
+  metaDescription: "Ripon house prices as at the end of H1 2026: £281,250 median, 276 sales, -4.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £281,250, 276 sales, -4.7% YoY. North Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "market-drayton-shropshire-property-market-h1-2026",
-  title: "Market Drayton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Market Drayton House Prices 2026: £250,000 Median",
-  metaDescription: "Market Drayton house prices 2026: £250,000 median, 251 sales, -3.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Market Drayton Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Market Drayton House Prices, End of H1 2026: £250,000 Median",
+  metaDescription: "Market Drayton house prices as at the end of H1 2026: £250,000 median, 251 sales, -3.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £250,000, 251 sales, -3.8% YoY. Shropshire county.",
   category: "town",
   region: "Midlands",

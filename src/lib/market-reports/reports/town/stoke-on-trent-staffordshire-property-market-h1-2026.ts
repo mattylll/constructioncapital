@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "stoke-on-trent-staffordshire-property-market-h1-2026",
-  title: "Stoke-on-Trent Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stoke-on-Trent House Prices 2026: £143,000 Median",
-  metaDescription: "Stoke-on-Trent house prices 2026: £143,000 median, 2,780 sales, +2.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Stoke-on-Trent Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Stoke-on-Trent House Prices, End of H1 2026: £143,000 Median",
+  metaDescription: "Stoke-on-Trent house prices as at the end of H1 2026: £143,000 median, 2,780 sales, +2.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £143,000, 2,780 sales, +2.1% YoY. Staffordshire county.",
   category: "town",
   region: "Midlands",

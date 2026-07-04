@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "warwick-warwickshire-property-market-h1-2026",
-  title: "Warwick Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Warwick House Prices 2026: £345,050 Median",
-  metaDescription: "Warwick house prices 2026: £345,050 median, 553 sales, -2.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Warwick Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Warwick House Prices, End of H1 2026: £345,050 Median",
+  metaDescription: "Warwick house prices as at the end of H1 2026: £345,050 median, 553 sales, -2.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £345,050, 553 sales, -2.8% YoY. Warwickshire county.",
   category: "town",
   region: "Midlands",

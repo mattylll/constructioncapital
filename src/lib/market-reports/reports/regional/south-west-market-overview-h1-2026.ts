@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "south-west-market-overview-h1-2026",
-  title: "South West Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "South West Property Market 2026 — County Prices, Trends & Development Hotspots",
-  metaDescription: "South West property market overview: 7 counties, 70,343 sales, median £301,062. County comparisons, development hotspots & finance options.",
+  title: "South West Property Market: Regional Analysis & County Comparison, End of H1 2026",
+  metaTitle: "South West Property Market, End of H1 2026: County Prices, Trends & Development Hotspots",
+  metaDescription: "South West property market overview as at the end of H1 2026: 7 counties, 70,343 sales, median £301,062. County comparisons, development hotspots and finance options.",
   excerpt: "7 counties, 70,343 transactions, median £301,062.",
   category: "regional",
   region: "South West",

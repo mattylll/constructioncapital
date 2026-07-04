@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "hull-east-riding-of-yorkshire-property-market-h1-2026",
-  title: "Hull Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hull House Prices 2026: £130,000 Median",
-  metaDescription: "Hull house prices 2026: £130,000 median, 2,744 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Hull Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Hull House Prices, End of H1 2026: £130,000 Median",
+  metaDescription: "Hull house prices as at the end of H1 2026: £130,000 median, 2,744 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £130,000, 2,744 sales, 0% YoY. East Riding of Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

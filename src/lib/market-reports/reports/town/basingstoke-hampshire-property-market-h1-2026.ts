@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "basingstoke-hampshire-property-market-h1-2026",
-  title: "Basingstoke Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Basingstoke House Prices 2026: £370,000 Median",
-  metaDescription: "Basingstoke house prices 2026: £370,000 median, 1,996 sales, +0.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Basingstoke Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Basingstoke House Prices, End of H1 2026: £370,000 Median",
+  metaDescription: "Basingstoke house prices as at the end of H1 2026: £370,000 median, 1,996 sales, +0.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £370,000, 1,996 sales, +0.2% YoY. Hampshire county.",
   category: "town",
   region: "London & South East",

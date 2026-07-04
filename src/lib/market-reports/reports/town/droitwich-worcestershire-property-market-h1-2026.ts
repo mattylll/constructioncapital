@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "droitwich-worcestershire-property-market-h1-2026",
-  title: "Droitwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Droitwich House Prices 2026: £325,000 Median",
-  metaDescription: "Droitwich house prices 2026: £325,000 median, 331 sales, +8.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Droitwich Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Droitwich House Prices, End of H1 2026: £325,000 Median",
+  metaDescription: "Droitwich house prices as at the end of H1 2026: £325,000 median, 331 sales, +8.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £325,000, 331 sales, +8.3% YoY. Worcestershire county.",
   category: "town",
   region: "Midlands",

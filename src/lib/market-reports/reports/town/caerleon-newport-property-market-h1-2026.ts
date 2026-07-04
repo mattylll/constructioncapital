@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "caerleon-newport-property-market-h1-2026",
-  title: "Caerleon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Caerleon House Prices 2026: £227,500 Median",
-  metaDescription: "Caerleon house prices 2026: £227,500 median, 1,776 sales, +1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Caerleon Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Caerleon House Prices, End of H1 2026: £227,500 Median",
+  metaDescription: "Caerleon house prices as at the end of H1 2026: £227,500 median, 1,776 sales, +1.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £227,500, 1,776 sales, +1.1% YoY. Newport county.",
   category: "town",
   region: "Wales",

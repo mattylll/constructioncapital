@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "newtown-powys-property-market-h1-2026",
-  title: "Newtown Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newtown House Prices 2026: £226,500 Median",
-  metaDescription: "Newtown house prices 2026: £226,500 median, 148 sales, +13.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Newtown Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Newtown House Prices, End of H1 2026: £226,500 Median",
+  metaDescription: "Newtown house prices as at the end of H1 2026: £226,500 median, 148 sales, +13.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £226,500, 148 sales, +13.3% YoY. Powys county.",
   category: "town",
   region: "Wales",

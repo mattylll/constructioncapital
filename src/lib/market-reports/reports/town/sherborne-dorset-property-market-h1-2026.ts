@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "sherborne-dorset-property-market-h1-2026",
-  title: "Sherborne Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sherborne House Prices 2026: £350,000 Median",
-  metaDescription: "Sherborne house prices 2026: £350,000 median, 234 sales, +6.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Sherborne Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Sherborne House Prices, End of H1 2026: £350,000 Median",
+  metaDescription: "Sherborne house prices as at the end of H1 2026: £350,000 median, 234 sales, +6.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £350,000, 234 sales, +6.1% YoY. Dorset county.",
   category: "town",
   region: "South West",

@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "trowbridge-wiltshire-property-market-h1-2026",
-  title: "Trowbridge Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Trowbridge House Prices 2026: £280,000 Median",
-  metaDescription: "Trowbridge house prices 2026: £280,000 median, 650 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Trowbridge Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Trowbridge House Prices, End of H1 2026: £280,000 Median",
+  metaDescription: "Trowbridge house prices as at the end of H1 2026: £280,000 median, 650 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £280,000, 650 sales, 0% YoY. Wiltshire county.",
   category: "town",
   region: "South West",

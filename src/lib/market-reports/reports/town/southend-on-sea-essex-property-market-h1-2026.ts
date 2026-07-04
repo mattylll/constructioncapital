@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "southend-on-sea-essex-property-market-h1-2026",
-  title: "Southend-on-Sea Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Southend-on-Sea House Prices 2026: £333,500 Median",
-  metaDescription: "Southend-on-Sea house prices 2026: £333,500 median, 2,147 sales, +2.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Southend-on-Sea Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Southend-on-Sea House Prices, End of H1 2026: £333,500 Median",
+  metaDescription: "Southend-on-Sea house prices as at the end of H1 2026: £333,500 median, 2,147 sales, +2.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £333,500, 2,147 sales, +2.6% YoY. Essex county.",
   category: "town",
   region: "London & South East",

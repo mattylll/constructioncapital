@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "woolwich-greater-london-property-market-h1-2026",
-  title: "Woolwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Woolwich House Prices 2026: £450,000 Median",
-  metaDescription: "Woolwich house prices 2026: £450,000 median, 1,961 sales, +0.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Woolwich Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Woolwich House Prices, End of H1 2026: £450,000 Median",
+  metaDescription: "Woolwich house prices as at the end of H1 2026: £450,000 median, 1,961 sales, +0.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £450,000, 1,961 sales, +0.8% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

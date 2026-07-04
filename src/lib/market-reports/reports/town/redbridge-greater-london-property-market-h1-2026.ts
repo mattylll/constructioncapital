@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "redbridge-greater-london-property-market-h1-2026",
-  title: "Redbridge Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Redbridge House Prices 2026: £500,000 Median",
-  metaDescription: "Redbridge house prices 2026: £500,000 median, 1,956 sales, +5.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Redbridge Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Redbridge House Prices, End of H1 2026: £500,000 Median",
+  metaDescription: "Redbridge house prices as at the end of H1 2026: £500,000 median, 1,956 sales, +5.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £500,000, 1,956 sales, +5.3% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

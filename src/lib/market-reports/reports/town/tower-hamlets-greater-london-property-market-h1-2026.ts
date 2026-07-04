@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "tower-hamlets-greater-london-property-market-h1-2026",
-  title: "Tower Hamlets Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Tower Hamlets House Prices 2026: £472,000 Median",
-  metaDescription: "Tower Hamlets house prices 2026: £472,000 median, 1,976 sales, -7.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Tower Hamlets Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Tower Hamlets House Prices, End of H1 2026: £472,000 Median",
+  metaDescription: "Tower Hamlets house prices as at the end of H1 2026: £472,000 median, 1,976 sales, -7.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £472,000, 1,976 sales, -7.1% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

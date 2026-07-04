@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "brighton-sussex-property-market-h1-2026",
-  title: "Brighton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Brighton House Prices 2026: £411,500 Median",
-  metaDescription: "Brighton house prices 2026: £411,500 median, 2,932 sales, +2.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Brighton Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Brighton House Prices, End of H1 2026: £411,500 Median",
+  metaDescription: "Brighton house prices as at the end of H1 2026: £411,500 median, 2,932 sales, +2.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £411,500, 2,932 sales, +2.9% YoY. Sussex county.",
   category: "town",
   region: "London & South East",

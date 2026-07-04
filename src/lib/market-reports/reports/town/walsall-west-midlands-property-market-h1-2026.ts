@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "walsall-west-midlands-property-market-h1-2026",
-  title: "Walsall Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Walsall House Prices 2026: £210,000 Median",
-  metaDescription: "Walsall house prices 2026: £210,000 median, 2,265 sales, -2.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Walsall Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Walsall House Prices, End of H1 2026: £210,000 Median",
+  metaDescription: "Walsall house prices as at the end of H1 2026: £210,000 median, 2,265 sales, -2.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £210,000, 2,265 sales, -2.3% YoY. West Midlands county.",
   category: "town",
   region: "Midlands",

@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "ilford-greater-london-property-market-h1-2026",
-  title: "Ilford Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ilford House Prices 2026: £485,000 Median",
-  metaDescription: "Ilford house prices 2026: £485,000 median, 1,028 sales, +3.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Ilford Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Ilford House Prices, End of H1 2026: £485,000 Median",
+  metaDescription: "Ilford house prices as at the end of H1 2026: £485,000 median, 1,028 sales, +3.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £485,000, 1,028 sales, +3.2% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

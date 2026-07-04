@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "swansea-city-centre-swansea-property-market-h1-2026",
-  title: "Swansea City Centre Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Swansea City Centre House Prices 2026: £195,000 Median",
-  metaDescription: "Swansea City Centre house prices 2026: £195,000 median, 2,381 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Swansea City Centre Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Swansea City Centre House Prices, End of H1 2026: £195,000 Median",
+  metaDescription: "Swansea City Centre house prices as at the end of H1 2026: £195,000 median, 2,381 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £195,000, 2,381 sales, 0% YoY. Swansea county.",
   category: "town",
   region: "Wales",

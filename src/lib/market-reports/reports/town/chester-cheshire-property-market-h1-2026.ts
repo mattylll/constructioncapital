@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "chester-cheshire-property-market-h1-2026",
-  title: "Chester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chester House Prices 2026: £280,000 Median",
-  metaDescription: "Chester house prices 2026: £280,000 median, 1,508 sales, +2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Chester Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Chester House Prices, End of H1 2026: £280,000 Median",
+  metaDescription: "Chester house prices as at the end of H1 2026: £280,000 median, 1,508 sales, +2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £280,000, 1,508 sales, +2% YoY. Cheshire county.",
   category: "town",
   region: "North West",

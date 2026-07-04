@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "hampshire-property-market-h1-2026",
-  title: "Hampshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Hampshire House Prices 2026: £347,238 Median",
-  metaDescription: "Hampshire house prices 2026: £347,238 median, 14,902 sales, -0.5% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Hampshire Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Hampshire House Prices, End of H1 2026: £347,238 Median",
+  metaDescription: "Hampshire house prices as at the end of H1 2026: £347,238 median, 14,902 sales, -0.5% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "10 towns analysed. Median price £347,238, 14,902 transactions, -0.5% YoY.",
   category: "county",
   region: "London & South East",

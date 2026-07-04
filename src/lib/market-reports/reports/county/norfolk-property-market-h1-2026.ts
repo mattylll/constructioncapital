@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "norfolk-property-market-h1-2026",
-  title: "Norfolk Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Norfolk House Prices 2026: £267,500 Median",
-  metaDescription: "Norfolk house prices 2026: £267,500 median, 9,006 sales, -1.9% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Norfolk Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Norfolk House Prices, End of H1 2026: £267,500 Median",
+  metaDescription: "Norfolk house prices as at the end of H1 2026: £267,500 median, 9,006 sales, -1.9% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £267,500, 9,006 transactions, -1.9% YoY.",
   category: "county",
   region: "East of England",

@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "thame-oxfordshire-property-market-h1-2026",
-  title: "Thame Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Thame House Prices 2026: £437,250 Median",
-  metaDescription: "Thame house prices 2026: £437,250 median, 184 sales, -4.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Thame Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Thame House Prices, End of H1 2026: £437,250 Median",
+  metaDescription: "Thame house prices as at the end of H1 2026: £437,250 median, 184 sales, -4.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £437,250, 184 sales, -4.9% YoY. Oxfordshire county.",
   category: "town",
   region: "London & South East",

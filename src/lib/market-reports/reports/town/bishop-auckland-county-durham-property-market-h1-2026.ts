@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "bishop-auckland-county-durham-property-market-h1-2026",
-  title: "Bishop Auckland Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bishop Auckland House Prices 2026: £115,000 Median",
-  metaDescription: "Bishop Auckland house prices 2026: £115,000 median, 761 sales, +8.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Bishop Auckland Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Bishop Auckland House Prices, End of H1 2026: £115,000 Median",
+  metaDescription: "Bishop Auckland house prices as at the end of H1 2026: £115,000 median, 761 sales, +8.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £115,000, 761 sales, +8.5% YoY. County Durham county.",
   category: "town",
   region: "North East & Yorkshire",

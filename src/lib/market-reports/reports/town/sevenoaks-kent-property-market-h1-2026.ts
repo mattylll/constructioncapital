@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "sevenoaks-kent-property-market-h1-2026",
-  title: "Sevenoaks Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sevenoaks House Prices 2026: £490,875 Median",
-  metaDescription: "Sevenoaks house prices 2026: £490,875 median, 1,212 sales, +5.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Sevenoaks Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Sevenoaks House Prices, End of H1 2026: £490,875 Median",
+  metaDescription: "Sevenoaks house prices as at the end of H1 2026: £490,875 median, 1,212 sales, +5.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £490,875, 1,212 sales, +5.6% YoY. Kent county.",
   category: "town",
   region: "London & South East",

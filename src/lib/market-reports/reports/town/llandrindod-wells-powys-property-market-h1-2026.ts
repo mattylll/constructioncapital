@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "llandrindod-wells-powys-property-market-h1-2026",
-  title: "Llandrindod Wells Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Llandrindod Wells House Prices 2026: £242,500 Median",
-  metaDescription: "Llandrindod Wells house prices 2026: £242,500 median, 116 sales, +7.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Llandrindod Wells Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Llandrindod Wells House Prices, End of H1 2026: £242,500 Median",
+  metaDescription: "Llandrindod Wells house prices as at the end of H1 2026: £242,500 median, 116 sales, +7.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £242,500, 116 sales, +7.8% YoY. Powys county.",
   category: "town",
   region: "Wales",

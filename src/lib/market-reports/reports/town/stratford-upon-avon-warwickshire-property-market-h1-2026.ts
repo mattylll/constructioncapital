@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "stratford-upon-avon-warwickshire-property-market-h1-2026",
-  title: "Stratford-upon-Avon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stratford-upon-Avon House Prices 2026: £357,000 Median",
-  metaDescription: "Stratford-upon-Avon house prices 2026: £357,000 median, 1,783 sales, -2.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Stratford-upon-Avon Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Stratford-upon-Avon House Prices, End of H1 2026: £357,000 Median",
+  metaDescription: "Stratford-upon-Avon house prices as at the end of H1 2026: £357,000 median, 1,783 sales, -2.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £357,000, 1,783 sales, -2.2% YoY. Warwickshire county.",
   category: "town",
   region: "Midlands",

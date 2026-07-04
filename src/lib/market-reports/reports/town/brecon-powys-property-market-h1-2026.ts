@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "brecon-powys-property-market-h1-2026",
-  title: "Brecon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Brecon House Prices 2026: £280,000 Median",
-  metaDescription: "Brecon house prices 2026: £280,000 median, 177 sales, -1.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Brecon Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Brecon House Prices, End of H1 2026: £280,000 Median",
+  metaDescription: "Brecon house prices as at the end of H1 2026: £280,000 median, 177 sales, -1.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £280,000, 177 sales, -1.8% YoY. Powys county.",
   category: "town",
   region: "Wales",

@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "canton-cardiff-property-market-h1-2026",
-  title: "Canton Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Canton House Prices 2026: £265,000 Median",
-  metaDescription: "Canton house prices 2026: £265,000 median, 3,662 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Canton Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Canton House Prices, End of H1 2026: £265,000 Median",
+  metaDescription: "Canton house prices as at the end of H1 2026: £265,000 median, 3,662 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £265,000, 3,662 sales, 0% YoY. Cardiff county.",
   category: "town",
   region: "Wales",

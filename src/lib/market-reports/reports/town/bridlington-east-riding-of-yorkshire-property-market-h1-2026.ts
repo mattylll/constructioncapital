@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "bridlington-east-riding-of-yorkshire-property-market-h1-2026",
-  title: "Bridlington Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bridlington House Prices 2026: £175,000 Median",
-  metaDescription: "Bridlington house prices 2026: £175,000 median, 614 sales, -1.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Bridlington Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Bridlington House Prices, End of H1 2026: £175,000 Median",
+  metaDescription: "Bridlington house prices as at the end of H1 2026: £175,000 median, 614 sales, -1.4% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £175,000, 614 sales, -1.4% YoY. East Riding of Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

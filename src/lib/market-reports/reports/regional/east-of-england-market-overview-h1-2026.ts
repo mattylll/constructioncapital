@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "east-of-england-market-overview-h1-2026",
-  title: "East of England Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "East of England Property Market 2026 — County Prices, Trends & Development Hotspots",
-  metaDescription: "East of England property market overview: 4 counties, 31,746 sales, median £292,500. County comparisons, development hotspots & finance options.",
+  title: "East of England Property Market: Regional Analysis & County Comparison, End of H1 2026",
+  metaTitle: "East of England Property Market, End of H1 2026: County Prices, Trends & Development Hotspots",
+  metaDescription: "East of England property market overview as at the end of H1 2026: 4 counties, 31,746 sales, median £292,500. County comparisons, development hotspots and finance options.",
   excerpt: "4 counties, 31,746 transactions, median £292,500.",
   category: "regional",
   region: "East of England",

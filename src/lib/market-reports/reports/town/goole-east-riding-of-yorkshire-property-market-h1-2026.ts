@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "goole-east-riding-of-yorkshire-property-market-h1-2026",
-  title: "Goole Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Goole House Prices 2026: £177,500 Median",
-  metaDescription: "Goole house prices 2026: £177,500 median, 524 sales, -11.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Goole Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Goole House Prices, End of H1 2026: £177,500 Median",
+  metaDescription: "Goole house prices as at the end of H1 2026: £177,500 median, 524 sales, -11.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £177,500, 524 sales, -11.3% YoY. East Riding of Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

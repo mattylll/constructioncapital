@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "chester-le-street-county-durham-property-market-h1-2026",
-  title: "Chester-le-Street Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chester-le-Street House Prices 2026: £125,000 Median",
-  metaDescription: "Chester-le-Street house prices 2026: £125,000 median, 6,819 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Chester-le-Street Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Chester-le-Street House Prices, End of H1 2026: £125,000 Median",
+  metaDescription: "Chester-le-Street house prices as at the end of H1 2026: £125,000 median, 6,819 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £125,000, 6,819 sales, 0% YoY. County Durham county.",
   category: "town",
   region: "North East & Yorkshire",

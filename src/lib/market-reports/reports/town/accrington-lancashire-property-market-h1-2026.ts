@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "accrington-lancashire-property-market-h1-2026",
-  title: "Accrington Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Accrington House Prices 2026: £128,500 Median",
-  metaDescription: "Accrington house prices 2026: £128,500 median, 1,046 sales, +0.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Accrington Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Accrington House Prices, End of H1 2026: £128,500 Median",
+  metaDescription: "Accrington house prices as at the end of H1 2026: £128,500 median, 1,046 sales, +0.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £128,500, 1,046 sales, +0.8% YoY. Lancashire county.",
   category: "town",
   region: "North West",

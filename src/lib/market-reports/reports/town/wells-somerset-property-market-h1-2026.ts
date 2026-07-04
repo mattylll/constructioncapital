@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "wells-somerset-property-market-h1-2026",
-  title: "Wells Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wells House Prices 2026: £335,000 Median",
-  metaDescription: "Wells house prices 2026: £335,000 median, 243 sales, +1.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Wells Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Wells House Prices, End of H1 2026: £335,000 Median",
+  metaDescription: "Wells house prices as at the end of H1 2026: £335,000 median, 243 sales, +1.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £335,000, 243 sales, +1.5% YoY. Somerset county.",
   category: "town",
   region: "South West",

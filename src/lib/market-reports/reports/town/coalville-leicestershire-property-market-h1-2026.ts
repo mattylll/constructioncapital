@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "coalville-leicestershire-property-market-h1-2026",
-  title: "Coalville Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Coalville House Prices 2026: £255,000 Median",
-  metaDescription: "Coalville house prices 2026: £255,000 median, 1,379 sales, -3.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Coalville Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Coalville House Prices, End of H1 2026: £255,000 Median",
+  metaDescription: "Coalville house prices as at the end of H1 2026: £255,000 median, 1,379 sales, -3.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £255,000, 1,379 sales, -3.8% YoY. Leicestershire county.",
   category: "town",
   region: "Midlands",

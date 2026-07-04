@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "neath-swansea-property-market-h1-2026",
-  title: "Neath Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Neath House Prices 2026: £158,000 Median",
-  metaDescription: "Neath house prices 2026: £158,000 median, 1,510 sales, +1.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Neath Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Neath House Prices, End of H1 2026: £158,000 Median",
+  metaDescription: "Neath house prices as at the end of H1 2026: £158,000 median, 1,510 sales, +1.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £158,000, 1,510 sales, +1.9% YoY. Swansea county.",
   category: "town",
   region: "Wales",

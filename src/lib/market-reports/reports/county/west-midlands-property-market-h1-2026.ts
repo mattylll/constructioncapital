@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "west-midlands-property-market-h1-2026",
-  title: "West Midlands Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "West Midlands House Prices 2026: £220,000 Median",
-  metaDescription: "West Midlands house prices 2026: £220,000 median, 23,072 sales, +0.5% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "West Midlands Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "West Midlands House Prices, End of H1 2026: £220,000 Median",
+  metaDescription: "West Midlands house prices as at the end of H1 2026: £220,000 median, 23,072 sales, +0.5% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £220,000, 23,072 transactions, +0.5% YoY.",
   category: "county",
   region: "Midlands",

@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "manchester-greater-manchester-property-market-h1-2026",
-  title: "Manchester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Manchester House Prices 2026: £245,000 Median",
-  metaDescription: "Manchester house prices 2026: £245,000 median, 4,460 sales, +2.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Manchester Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Manchester House Prices, End of H1 2026: £245,000 Median",
+  metaDescription: "Manchester house prices as at the end of H1 2026: £245,000 median, 4,460 sales, +2.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £245,000, 4,460 sales, +2.1% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",

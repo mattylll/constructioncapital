@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "falmouth-cornwall-property-market-h1-2026",
-  title: "Falmouth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Falmouth House Prices 2026: £350,000 Median",
-  metaDescription: "Falmouth house prices 2026: £350,000 median, 363 sales, -1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Falmouth Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Falmouth House Prices, End of H1 2026: £350,000 Median",
+  metaDescription: "Falmouth house prices as at the end of H1 2026: £350,000 median, 363 sales, -1.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £350,000, 363 sales, -1.1% YoY. Cornwall county.",
   category: "town",
   region: "South West",

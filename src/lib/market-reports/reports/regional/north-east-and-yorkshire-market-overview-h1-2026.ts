@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "north-east-and-yorkshire-market-overview-h1-2026",
-  title: "North East & Yorkshire Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "North East & Yorkshire Property Market 2026 — County Prices, Trends & Development Hotspots",
-  metaDescription: "North East & Yorkshire property market overview: 7 counties, 71,523 sales, median £190,000. County comparisons, development hotspots & finance options.",
+  title: "North East & Yorkshire Property Market: Regional Analysis & County Comparison, End of H1 2026",
+  metaTitle: "North East & Yorkshire Property Market, End of H1 2026: County Prices, Trends & Development Hotspots",
+  metaDescription: "North East & Yorkshire property market overview as at the end of H1 2026: 7 counties, 71,523 sales, median £190,000. County comparisons, development hotspots and finance options.",
   excerpt: "7 counties, 71,523 transactions, median £190,000.",
   category: "regional",
   region: "North East & Yorkshire",

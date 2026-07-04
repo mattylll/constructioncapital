@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "flitwick-bedfordshire-property-market-h1-2026",
-  title: "Flitwick Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Flitwick House Prices 2026: £355,000 Median",
-  metaDescription: "Flitwick house prices 2026: £355,000 median, 3,580 sales, -3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Flitwick Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Flitwick House Prices, End of H1 2026: £355,000 Median",
+  metaDescription: "Flitwick house prices as at the end of H1 2026: £355,000 median, 3,580 sales, -3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £355,000, 3,580 sales, -3% YoY. Bedfordshire county.",
   category: "town",
   region: "East of England",

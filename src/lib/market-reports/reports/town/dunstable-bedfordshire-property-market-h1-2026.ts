@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "dunstable-bedfordshire-property-market-h1-2026",
-  title: "Dunstable Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dunstable House Prices 2026: £330,000 Median",
-  metaDescription: "Dunstable house prices 2026: £330,000 median, 812 sales, -7.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Dunstable Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Dunstable House Prices, End of H1 2026: £330,000 Median",
+  metaDescription: "Dunstable house prices as at the end of H1 2026: £330,000 median, 812 sales, -7.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £330,000, 812 sales, -7.6% YoY. Bedfordshire county.",
   category: "town",
   region: "East of England",

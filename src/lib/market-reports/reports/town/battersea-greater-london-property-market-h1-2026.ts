@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "battersea-greater-london-property-market-h1-2026",
-  title: "Battersea Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Battersea House Prices 2026: £630,000 Median",
-  metaDescription: "Battersea house prices 2026: £630,000 median, 3,449 sales, +0.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Battersea Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Battersea House Prices, End of H1 2026: £630,000 Median",
+  metaDescription: "Battersea house prices as at the end of H1 2026: £630,000 median, 3,449 sales, +0.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £630,000, 3,449 sales, +0.8% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

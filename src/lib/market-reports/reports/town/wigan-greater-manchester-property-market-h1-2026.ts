@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "wigan-greater-manchester-property-market-h1-2026",
-  title: "Wigan Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wigan House Prices 2026: £182,000 Median",
-  metaDescription: "Wigan house prices 2026: £182,000 median, 3,740 sales, +1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Wigan Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Wigan House Prices, End of H1 2026: £182,000 Median",
+  metaDescription: "Wigan house prices as at the end of H1 2026: £182,000 median, 3,740 sales, +1.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £182,000, 3,740 sales, +1.1% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",

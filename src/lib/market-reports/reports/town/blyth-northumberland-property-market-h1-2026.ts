@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "blyth-northumberland-property-market-h1-2026",
-  title: "Blyth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Blyth House Prices 2026: £140,000 Median",
-  metaDescription: "Blyth house prices 2026: £140,000 median, 468 sales, -1.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Blyth Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Blyth House Prices, End of H1 2026: £140,000 Median",
+  metaDescription: "Blyth house prices as at the end of H1 2026: £140,000 median, 468 sales, -1.4% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £140,000, 468 sales, -1.4% YoY. Northumberland county.",
   category: "town",
   region: "North East & Yorkshire",

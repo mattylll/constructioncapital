@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "london-and-south-east-market-overview-h1-2026",
-  title: "London & South East Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "London & South East Property Market 2026 — County Prices, Trends & Development Hotspots",
-  metaDescription: "London & South East property market overview: 10 counties, 203,231 sales, median £396,250. County comparisons, development hotspots & finance options.",
+  title: "London & South East Property Market: Regional Analysis & County Comparison, End of H1 2026",
+  metaTitle: "London & South East Property Market, End of H1 2026: County Prices, Trends & Development Hotspots",
+  metaDescription: "London & South East property market overview as at the end of H1 2026: 10 counties, 203,231 sales, median £396,250. County comparisons, development hotspots and finance options.",
   excerpt: "10 counties, 203,231 transactions, median £396,250.",
   category: "regional",
   region: "London & South East",

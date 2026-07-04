@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "kenilworth-warwickshire-property-market-h1-2026",
-  title: "Kenilworth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Kenilworth House Prices 2026: £400,000 Median",
-  metaDescription: "Kenilworth house prices 2026: £400,000 median, 341 sales, +0.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Kenilworth Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Kenilworth House Prices, End of H1 2026: £400,000 Median",
+  metaDescription: "Kenilworth house prices as at the end of H1 2026: £400,000 median, 341 sales, +0.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £400,000, 341 sales, +0.3% YoY. Warwickshire county.",
   category: "town",
   region: "Midlands",

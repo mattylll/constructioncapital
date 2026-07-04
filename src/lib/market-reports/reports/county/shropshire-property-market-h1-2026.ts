@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "shropshire-property-market-h1-2026",
-  title: "Shropshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Shropshire House Prices 2026: £265,000 Median",
-  metaDescription: "Shropshire house prices 2026: £265,000 median, 2,703 sales, -1.7% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Shropshire Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Shropshire House Prices, End of H1 2026: £265,000 Median",
+  metaDescription: "Shropshire house prices as at the end of H1 2026: £265,000 median, 2,703 sales, -1.7% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "5 towns analysed. Median price £265,000, 2,703 transactions, -1.7% YoY.",
   category: "county",
   region: "Midlands",

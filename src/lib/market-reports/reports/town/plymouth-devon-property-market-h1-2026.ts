@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "plymouth-devon-property-market-h1-2026",
-  title: "Plymouth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Plymouth House Prices 2026: £220,496 Median",
-  metaDescription: "Plymouth house prices 2026: £220,496 median, 3,162 sales, +0.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Plymouth Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Plymouth House Prices, End of H1 2026: £220,496 Median",
+  metaDescription: "Plymouth house prices as at the end of H1 2026: £220,496 median, 3,162 sales, +0.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £220,496, 3,162 sales, +0.2% YoY. Devon county.",
   category: "town",
   region: "South West",

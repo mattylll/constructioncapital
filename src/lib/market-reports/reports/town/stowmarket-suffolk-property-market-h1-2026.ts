@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "stowmarket-suffolk-property-market-h1-2026",
-  title: "Stowmarket Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Stowmarket House Prices 2026: £300,000 Median",
-  metaDescription: "Stowmarket house prices 2026: £300,000 median, 1,312 sales, -5.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Stowmarket Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Stowmarket House Prices, End of H1 2026: £300,000 Median",
+  metaDescription: "Stowmarket house prices as at the end of H1 2026: £300,000 median, 1,312 sales, -5.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £300,000, 1,312 sales, -5.5% YoY. Suffolk county.",
   category: "town",
   region: "East of England",

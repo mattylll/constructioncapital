@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "bude-cornwall-property-market-h1-2026",
-  title: "Bude Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Bude House Prices 2026: £343,000 Median",
-  metaDescription: "Bude house prices 2026: £343,000 median, 212 sales, -6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Bude Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Bude House Prices, End of H1 2026: £343,000 Median",
+  metaDescription: "Bude house prices as at the end of H1 2026: £343,000 median, 212 sales, -6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £343,000, 212 sales, -6% YoY. Cornwall county.",
   category: "town",
   region: "South West",

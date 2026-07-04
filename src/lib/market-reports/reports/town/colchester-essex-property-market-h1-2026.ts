@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "colchester-essex-property-market-h1-2026",
-  title: "Colchester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Colchester House Prices 2026: £315,000 Median",
-  metaDescription: "Colchester house prices 2026: £315,000 median, 2,337 sales, -1.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Colchester Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Colchester House Prices, End of H1 2026: £315,000 Median",
+  metaDescription: "Colchester house prices as at the end of H1 2026: £315,000 median, 2,337 sales, -1.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £315,000, 2,337 sales, -1.6% YoY. Essex county.",
   category: "town",
   region: "London & South East",

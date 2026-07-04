@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "grantham-lincolnshire-property-market-h1-2026",
-  title: "Grantham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Grantham House Prices 2026: £217,000 Median",
-  metaDescription: "Grantham house prices 2026: £217,000 median, 817 sales, -5.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Grantham Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Grantham House Prices, End of H1 2026: £217,000 Median",
+  metaDescription: "Grantham house prices as at the end of H1 2026: £217,000 median, 817 sales, -5.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £217,000, 817 sales, -5.7% YoY. Lincolnshire county.",
   category: "town",
   region: "Midlands",
