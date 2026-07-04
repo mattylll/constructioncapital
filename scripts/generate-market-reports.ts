@@ -41,6 +41,15 @@ interface SoldData {
   recentTransactions: Transaction[];
 }
 
+interface TownPlanning {
+  localAuthority: string;
+  totalUnits: number;
+  totalEstimatedGDV: number;
+  approvalRate: number;
+  pending: number;
+  approved: number;
+}
+
 interface TownAgg {
   name: string;
   slug: string;
@@ -48,6 +57,7 @@ interface TownAgg {
   context: string;
   stats: SoldStats;
   topTransactions: Transaction[];
+  planning: TownPlanning | null;
 }
 
 interface CountyAgg {
@@ -64,6 +74,11 @@ interface CountyAgg {
   totalNewBuilds: number;
   medianByType: { D?: number; S?: number; T?: number; F?: number };
   topTransactions: Transaction[];
+  // Planning pipeline (deduped by local authority — see dedupePlanningByAuthority)
+  pipelineUnits: number;
+  pipelineGdv: number;
+  pipelineApprovalRate: number;
+  pipelineAuthorityCount: number;
 }
 
 interface RegionAgg {
@@ -115,6 +130,7 @@ interface MarketReport {
 
 const ROOT = path.resolve(__dirname, "..");
 const SOLD_DATA_DIR = path.join(ROOT, "data/generated/sold-data");
+const PLANNING_DIR = path.join(ROOT, "data/generated/planning");
 const OUTPUT_DIR = path.join(ROOT, "src/lib/market-reports/reports");
 
 // ── Helpers ────────────────────────────────────────────────────────
@@ -136,6 +152,13 @@ const TYPE_LABELS_UPPER: Record<string, string> = {
 function formatPrice(n: number): string {
   if (n >= 1_000_000) return `£${(n / 1_000_000).toFixed(2)}m`.replace(".00m", "m");
   return `£${Math.round(n).toLocaleString("en-GB")}`;
+}
+
+// For pipeline GDV figures, which can run into the billions unlike sold prices.
+function formatBigNumber(n: number): string {
+  if (n >= 1_000_000_000) return `£${(n / 1_000_000_000).toFixed(1)}bn`;
+  if (n >= 1_000_000) return `£${(n / 1_000_000).toFixed(1)}m`;
+  return formatPrice(n);
 }
 
 function formatPriceShort(n: number): string {
@@ -329,11 +352,75 @@ function loadSoldData(): Map<string, Map<string, SoldData>> {
   return result;
 }
 
+interface PlanningSummary {
+  total: number;
+  relevant: number;
+  approved: number;
+  pending: number;
+  refused: number;
+  totalUnits: number;
+  totalEstimatedGDV: number;
+  approvalRate: number;
+}
+
+interface PlanningData {
+  townSlug: string;
+  countySlug: string;
+  localAuthority: string;
+  summary: PlanningSummary;
+}
+
+function loadPlanningData(): Map<string, Map<string, PlanningData>> {
+  const result = new Map<string, Map<string, PlanningData>>();
+  if (!fs.existsSync(PLANNING_DIR)) return result;
+
+  const counties = fs.readdirSync(PLANNING_DIR).filter((f) =>
+    fs.statSync(path.join(PLANNING_DIR, f)).isDirectory()
+  );
+
+  for (const county of counties) {
+    const countyDir = path.join(PLANNING_DIR, county);
+    const towns = fs.readdirSync(countyDir).filter((f) =>
+      fs.statSync(path.join(countyDir, f)).isDirectory()
+    );
+
+    const townMap = new Map<string, PlanningData>();
+    for (const town of towns) {
+      const jsonPath = path.join(countyDir, town, "latest.json");
+      if (fs.existsSync(jsonPath)) {
+        try {
+          const data = JSON.parse(fs.readFileSync(jsonPath, "utf-8")) as PlanningData;
+          townMap.set(town, data);
+        } catch {
+          // skip malformed
+        }
+      }
+    }
+    result.set(county, townMap);
+  }
+
+  return result;
+}
+
+// Local planning authorities that cover multiple towns tag EVERY town in
+// their area with the authority's full application set (identical GDV/units
+// repeated verbatim per town) — there is no town-level split. Dedupe to one
+// record per unique localAuthority before summing anything county-wide.
+function dedupePlanningByAuthority(records: PlanningData[]): PlanningData[] {
+  const seen = new Map<string, PlanningData>();
+  for (const p of records) {
+    const key = p.localAuthority || `${p.countySlug}/${p.townSlug}`;
+    if (!seen.has(key)) seen.set(key, p);
+  }
+  return [...seen.values()];
+}
+
 // ── Aggregation ────────────────────────────────────────────────────
 
 function aggregateCounties(
   soldData: Map<string, Map<string, SoldData>>,
-  ukCounties: CountyDataRaw[]
+  ukCounties: CountyDataRaw[],
+  planningData: Map<string, Map<string, PlanningData>>
 ): CountyAgg[] {
   const countyMap = new Map(ukCounties.map((c) => [c.slug, c]));
   const results: CountyAgg[] = [];
@@ -341,6 +428,8 @@ function aggregateCounties(
   for (const [countySlug, townMap] of soldData) {
     const countyInfo = countyMap.get(countySlug);
     if (!countyInfo) continue; // Skip counties not in our data
+
+    const countyPlanning = planningData.get(countySlug);
 
     const towns: TownAgg[] = [];
     const allPrices: number[] = [];
@@ -352,10 +441,24 @@ function aggregateCounties(
     const typeT: number[] = [];
     const typeF: number[] = [];
     const allTransactions: (Transaction & { townName: string; townSlug: string })[] = [];
+    const rawPlanningRecords: PlanningData[] = [];
 
     for (const [townSlug, data] of townMap) {
       const townInfo = countyInfo.towns.find((t) => t.slug === townSlug);
       if (!townInfo) continue;
+
+      const townPlanningRaw = countyPlanning?.get(townSlug);
+      if (townPlanningRaw) rawPlanningRecords.push(townPlanningRaw);
+      const townPlanning: TownPlanning | null = townPlanningRaw
+        ? {
+            localAuthority: townPlanningRaw.localAuthority,
+            totalUnits: townPlanningRaw.summary.totalUnits,
+            totalEstimatedGDV: townPlanningRaw.summary.totalEstimatedGDV,
+            approvalRate: townPlanningRaw.summary.approvalRate,
+            pending: townPlanningRaw.summary.pending,
+            approved: townPlanningRaw.summary.approved,
+          }
+        : null;
 
       towns.push({
         name: townInfo.name,
@@ -364,6 +467,7 @@ function aggregateCounties(
         context: townInfo.context,
         stats: data.stats,
         topTransactions: (data.recentTransactions || []).slice(0, 5),
+        planning: townPlanning,
       });
 
       allPrices.push(data.stats.medianPrice);
@@ -388,6 +492,14 @@ function aggregateCounties(
     allTransactions.sort((a, b) => b.price - a.price);
     const topTx = allTransactions.slice(0, 8);
 
+    // Dedupe planning by local authority before summing county-wide totals
+    const dedupedPlanning = dedupePlanningByAuthority(rawPlanningRecords);
+    const pipelineUnits = dedupedPlanning.reduce((s, p) => s + p.summary.totalUnits, 0);
+    const pipelineGdv = dedupedPlanning.reduce((s, p) => s + p.summary.totalEstimatedGDV, 0);
+    const pipelineApprovalRate = dedupedPlanning.length > 0
+      ? Math.round(dedupedPlanning.reduce((s, p) => s + p.summary.approvalRate, 0) / dedupedPlanning.length)
+      : 0;
+
     results.push({
       name: countyInfo.name,
       slug: countySlug,
@@ -408,6 +520,10 @@ function aggregateCounties(
         ...(typeF.length > 0 ? { F: median(typeF) } : {}),
       },
       topTransactions: topTx,
+      pipelineUnits,
+      pipelineGdv,
+      pipelineApprovalRate,
+      pipelineAuthorityCount: dedupedPlanning.length,
     });
   }
 
@@ -446,7 +562,7 @@ function aggregateRegions(counties: CountyAgg[]): RegionAgg[] {
 // ── County Report Generator ────────────────────────────────────────
 
 function generateCountyReport(county: CountyAgg, allCounties: CountyAgg[]): MarketReport {
-  const slug = `${county.slug}-property-market`;
+  const slug = `${county.slug}-property-market-h1-2026`;
   const regionCounties = allCounties.filter((c) => c.region === county.region && c.slug !== county.slug);
   const regionSlugStr = regionSlug(county.region);
 
@@ -469,6 +585,26 @@ function generateCountyReport(county: CountyAgg, allCounties: CountyAgg[]): Mark
         : "",
     ].filter(Boolean),
   });
+
+  // 1b. Planning Pipeline (new — not present in the April edition)
+  const townsWithPlanning = county.towns.filter((t) => t.planning);
+  if (county.pipelineAuthorityCount > 0) {
+    const byUnits = [...townsWithPlanning].sort(
+      (a, b) => (b.planning?.totalUnits || 0) - (a.planning?.totalUnits || 0)
+    );
+    const topAuthority = byUnits[0];
+
+    sections.push({
+      heading: `${county.name} Planning Pipeline`,
+      content: [
+        `Local planning authority data shows <strong>${county.pipelineUnits.toLocaleString("en-GB")}</strong> residential units currently in the pipeline across ${county.pipelineAuthorityCount} local planning ${county.pipelineAuthorityCount === 1 ? "authority" : "authorities"} in ${county.name}, representing an estimated gross development value of <strong>${formatBigNumber(county.pipelineGdv)}</strong>. The average planning approval rate across these authorities is <strong>${county.pipelineApprovalRate}%</strong>.`,
+        topAuthority?.planning
+          ? `${topAuthority.planning.localAuthority} has the largest pipeline in the county, with ${topAuthority.planning.totalUnits.toLocaleString("en-GB")} units across ${topAuthority.planning.approved + topAuthority.planning.pending} applications (${topAuthority.planning.approved} approved, ${topAuthority.planning.pending} pending). Note that where a single local planning authority covers more than one town in this county, the same authority-wide pipeline figure applies to each of its towns — it is not a per-town split.`
+          : "",
+        `For developers, a strong pipeline and approval rate signal where planning risk is lower and where lenders have recent comparable evidence to underwrite against. See the <a href="/services/development-finance">development finance</a> options available for schemes already through planning in ${county.name}.`,
+      ].filter(Boolean),
+    });
+  }
 
   // 2. Price Analysis by Property Type
   const typeEntries = Object.entries(county.medianByType)
@@ -645,8 +781,8 @@ function generateCountyReport(county: CountyAgg, allCounties: CountyAgg[]): Mark
 
   // Related reports
   const relatedReportSlugs = [
-    `${regionSlugStr}-market-overview`,
-    ...regionCounties.slice(0, 3).map((c) => `${c.slug}-property-market`),
+    `${regionSlugStr}-market-overview-h1-2026`,
+    ...regionCounties.slice(0, 3).map((c) => `${c.slug}-property-market-h1-2026`),
   ];
 
   const relatedTownSlugs = county.towns.map((t) => `${county.slug}/${t.slug}`);
@@ -694,7 +830,7 @@ function generateCountyReport(county: CountyAgg, allCounties: CountyAgg[]): Mark
 // ── Regional Report Generator ──────────────────────────────────────
 
 function generateRegionalReport(region: RegionAgg, allCounties: CountyAgg[]): MarketReport {
-  const slug = `${region.slug}-market-overview`;
+  const slug = `${region.slug}-market-overview-h1-2026`;
   const sections: ReportSection[] = [];
 
   // 1. Regional Overview
@@ -710,7 +846,7 @@ function generateRegionalReport(region: RegionAgg, allCounties: CountyAgg[]): Ma
   const countyRows = region.counties
     .sort((a, b) => b.medianPrice - a.medianPrice)
     .map((c) =>
-      `<tr><td>${reportLink(`${c.slug}-property-market`, c.name)}</td><td>${formatPrice(c.medianPrice)}</td><td>${c.totalTransactions.toLocaleString("en-GB")}</td><td>${c.avgYoyChange > 0 ? "+" : ""}${c.avgYoyChange}%</td><td>${c.totalNewBuilds}</td></tr>`
+      `<tr><td>${reportLink(`${c.slug}-property-market-h1-2026`, c.name)}</td><td>${formatPrice(c.medianPrice)}</td><td>${c.totalTransactions.toLocaleString("en-GB")}</td><td>${c.avgYoyChange > 0 ? "+" : ""}${c.avgYoyChange}%</td><td>${c.totalNewBuilds}</td></tr>`
     );
 
   sections.push({
@@ -732,7 +868,7 @@ function generateRegionalReport(region: RegionAgg, allCounties: CountyAgg[]): Ma
     heading: "Price Geography",
     content: [
       mostExpensive && leastExpensive
-        ? `Property prices across ${region.name} vary significantly. ${reportLink(`${mostExpensive.slug}-property-market`, mostExpensive.name)} commands the highest median price at <strong>${formatPrice(mostExpensive.medianPrice)}</strong>, while ${reportLink(`${leastExpensive.slug}-property-market`, leastExpensive.name)} offers the most affordable entry at <strong>${formatPrice(leastExpensive.medianPrice)}</strong> — a spread of <strong>${formatPriceShort(priceSpread)}</strong>.`
+        ? `Property prices across ${region.name} vary significantly. ${reportLink(`${mostExpensive.slug}-property-market-h1-2026`, mostExpensive.name)} commands the highest median price at <strong>${formatPrice(mostExpensive.medianPrice)}</strong>, while ${reportLink(`${leastExpensive.slug}-property-market-h1-2026`, leastExpensive.name)} offers the most affordable entry at <strong>${formatPrice(leastExpensive.medianPrice)}</strong> — a spread of <strong>${formatPriceShort(priceSpread)}</strong>.`
         : "",
       `This price differential creates opportunities across the risk-return spectrum. Premium locations offer higher GDVs but require larger capital commitments, while more affordable areas can deliver stronger percentage returns on lower absolute investment.`,
     ].filter(Boolean),
@@ -745,8 +881,8 @@ function generateRegionalReport(region: RegionAgg, allCounties: CountyAgg[]): Ma
   sections.push({
     heading: "Development Hotspots",
     content: [
-      `The most active development markets in ${region.name}, measured by new-build completions, are ${byNewBuilds.slice(0, 3).map((c) => `${reportLink(`${c.slug}-property-market`, c.name)} (${c.totalNewBuilds} new builds)`).join(", ")}.`,
-      `By total transaction volume — an indicator of market liquidity and exit confidence — ${byVolume.slice(0, 3).map((c) => `${reportLink(`${c.slug}-property-market`, c.name)} (${c.totalTransactions.toLocaleString("en-GB")} sales)`).join(", ")} lead the region.`,
+      `The most active development markets in ${region.name}, measured by new-build completions, are ${byNewBuilds.slice(0, 3).map((c) => `${reportLink(`${c.slug}-property-market-h1-2026`, c.name)} (${c.totalNewBuilds} new builds)`).join(", ")}.`,
+      `By total transaction volume — an indicator of market liquidity and exit confidence — ${byVolume.slice(0, 3).map((c) => `${reportLink(`${c.slug}-property-market-h1-2026`, c.name)} (${c.totalTransactions.toLocaleString("en-GB")} sales)`).join(", ")} lead the region.`,
       `Developers entering the ${region.name} market should weigh these two metrics together: new-build activity shows where planning consent is achievable, while transaction volume confirms buyer demand.`,
     ],
   });
@@ -804,7 +940,7 @@ function generateRegionalReport(region: RegionAgg, allCounties: CountyAgg[]): Ma
     readingTime: estimateReadingTime(sections),
     sections,
     faqs,
-    relatedReportSlugs: region.counties.map((c) => `${c.slug}-property-market`),
+    relatedReportSlugs: region.counties.map((c) => `${c.slug}-property-market-h1-2026`),
     relatedTownSlugs: [],
     relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
   };
@@ -852,7 +988,7 @@ function generateNewBuildReport(counties: CountyAgg[]): MarketReport {
       heading: "Counties with the Strongest New Build Premium",
       content: [
         premiumCounties.length > 0
-          ? `The strongest new-build premiums are found in ${premiumCounties.slice(0, 5).map((c) => `${reportLink(`${c.slug}-property-market`, c.name)} (+${c.avgPremium.toFixed(1)}%)`).join(", ")}. These are markets where buyers willingly pay more for new construction, supporting strong development viability.`
+          ? `The strongest new-build premiums are found in ${premiumCounties.slice(0, 5).map((c) => `${reportLink(`${c.slug}-property-market-h1-2026`, c.name)} (+${c.avgPremium.toFixed(1)}%)`).join(", ")}. These are markets where buyers willingly pay more for new construction, supporting strong development viability.`
           : "Few counties show a consistent new-build premium across all towns.",
         `A positive premium is the clearest indicator that ${serviceLink("development-finance", "development finance")} schemes can achieve end values above comparable second-hand stock, de-risking the appraisal.`,
       ],
@@ -861,7 +997,7 @@ function generateNewBuildReport(counties: CountyAgg[]): MarketReport {
       heading: "Counties Where New Builds Trade at a Discount",
       content: [
         discountCounties.length > 0
-          ? `Conversely, ${discountCounties.slice(0, 5).map((c) => `${reportLink(`${c.slug}-property-market`, c.name)} (${c.avgPremium.toFixed(1)}%)`).join(", ")} see new-build properties trading below existing stock. This may reflect oversupply of new-build flats, Help to Buy withdrawal effects, or a market preference for period character.`
+          ? `Conversely, ${discountCounties.slice(0, 5).map((c) => `${reportLink(`${c.slug}-property-market-h1-2026`, c.name)} (${c.avgPremium.toFixed(1)}%)`).join(", ")} see new-build properties trading below existing stock. This may reflect oversupply of new-build flats, Help to Buy withdrawal effects, or a market preference for period character.`
           : "No counties show significant new-build discounts.",
         `Developers working in discount markets should focus on premium specification, energy efficiency, and lifestyle features to differentiate from existing stock.`,
       ],
@@ -869,7 +1005,7 @@ function generateNewBuildReport(counties: CountyAgg[]): MarketReport {
     {
       heading: "New Build Activity by County",
       content: [
-        `The most active new-build counties are ${sorted.slice(0, 5).map((c) => `${reportLink(`${c.slug}-property-market`, c.name)} (${c.totalNewBuilds} completions)`).join(", ")}.`,
+        `The most active new-build counties are ${sorted.slice(0, 5).map((c) => `${reportLink(`${c.slug}-property-market-h1-2026`, c.name)} (${c.totalNewBuilds} completions)`).join(", ")}.`,
         `High new-build volumes indicate both planning consent availability and proven buyer demand — two essential factors for any development finance application.`,
       ],
     },
@@ -903,7 +1039,7 @@ function generateNewBuildReport(counties: CountyAgg[]): MarketReport {
         answer: `A positive new-build premium strengthens development appraisals by increasing projected GDV. Lenders view schemes more favourably when new-build comparables exceed existing stock values, potentially offering higher LTV ratios and better rates.`,
       },
     ],
-    relatedReportSlugs: sorted.slice(0, 5).map((c) => `${c.slug}-property-market`),
+    relatedReportSlugs: sorted.slice(0, 5).map((c) => `${c.slug}-property-market-h1-2026`),
     relatedTownSlugs: [],
     relatedServiceSlugs: ["development-finance", "mezzanine-finance"],
   };
@@ -934,7 +1070,7 @@ function generateMostActiveReport(counties: CountyAgg[]): MarketReport {
     {
       heading: "Top Counties by Total Volume",
       content: [
-        `At the county level, ${topCounties.slice(0, 5).map((c) => `${reportLink(`${c.slug}-property-market`, c.name)} (${c.totalTransactions.toLocaleString("en-GB")})`).join(", ")} record the highest aggregate transaction volumes.`,
+        `At the county level, ${topCounties.slice(0, 5).map((c) => `${reportLink(`${c.slug}-property-market-h1-2026`, c.name)} (${c.totalTransactions.toLocaleString("en-GB")})`).join(", ")} record the highest aggregate transaction volumes.`,
         `These are the deepest property markets in the UK — where lenders are most comfortable providing finance and where developers have the clearest comparable evidence for their appraisals.`,
       ],
     },
@@ -966,7 +1102,7 @@ function generateMostActiveReport(counties: CountyAgg[]): MarketReport {
           : "See our report for the full ranking.",
       },
     ],
-    relatedReportSlugs: topCounties.slice(0, 5).map((c) => `${c.slug}-property-market`),
+    relatedReportSlugs: topCounties.slice(0, 5).map((c) => `${c.slug}-property-market-h1-2026`),
     relatedTownSlugs: topTowns.slice(0, 10).map((t) => `${t.countySlug}/${t.slug}`),
     relatedServiceSlugs: ["development-finance", "bridging-loans"],
   };
@@ -1010,9 +1146,9 @@ function generatePriceChangeReport(counties: CountyAgg[]): MarketReport {
     {
       heading: "County-Level Price Direction",
       content: [
-        `At county level, the strongest growth is in ${risingCounties.slice(0, 3).map((c) => `${reportLink(`${c.slug}-property-market`, c.name)} (+${c.avgYoyChange}%)`).join(", ")}.`,
+        `At county level, the strongest growth is in ${risingCounties.slice(0, 3).map((c) => `${reportLink(`${c.slug}-property-market-h1-2026`, c.name)} (+${c.avgYoyChange}%)`).join(", ")}.`,
         fallingCounties.length > 0
-          ? `Counties seeing declines include ${fallingCounties.slice(0, 3).map((c) => `${reportLink(`${c.slug}-property-market`, c.name)} (${c.avgYoyChange}%)`).join(", ")}.`
+          ? `Counties seeing declines include ${fallingCounties.slice(0, 3).map((c) => `${reportLink(`${c.slug}-property-market-h1-2026`, c.name)} (${c.avgYoyChange}%)`).join(", ")}.`
           : "",
       ].filter(Boolean),
     },
@@ -1051,7 +1187,7 @@ function generatePriceChangeReport(counties: CountyAgg[]): MarketReport {
       },
     ],
     relatedReportSlugs: [...risingCounties.slice(0, 3), ...fallingCounties.slice(0, 2)].map(
-      (c) => `${c.slug}-property-market`
+      (c) => `${c.slug}-property-market-h1-2026`
     ),
     relatedTownSlugs: risingTowns.slice(0, 5).map((t) => `${t.countySlug}/${t.slug}`),
     relatedServiceSlugs: ["development-finance", "bridging-loans"],
@@ -1121,7 +1257,7 @@ function generatePropertyTypeReport(counties: CountyAgg[]): MarketReport {
     {
       heading: "Detached Homes: Premium Development",
       content: [
-        `Detached homes command a national median of <strong>${formatPrice(median(typeData.D.prices))}</strong>. ${expensiveByType.D ? `The premium market is led by ${reportLink(`${expensiveByType.D.county.slug}-property-market`, expensiveByType.D.county.name)} at ${formatPrice(expensiveByType.D.price)}` : ""}, while ${cheapestByType.D ? `${reportLink(`${cheapestByType.D.county.slug}-property-market`, cheapestByType.D.county.name)} offers detached homes from ${formatPrice(cheapestByType.D.price)}` : "more affordable locations offer entry-level detached opportunities"}.`,
+        `Detached homes command a national median of <strong>${formatPrice(median(typeData.D.prices))}</strong>. ${expensiveByType.D ? `The premium market is led by ${reportLink(`${expensiveByType.D.county.slug}-property-market-h1-2026`, expensiveByType.D.county.name)} at ${formatPrice(expensiveByType.D.price)}` : ""}, while ${cheapestByType.D ? `${reportLink(`${cheapestByType.D.county.slug}-property-market-h1-2026`, cheapestByType.D.county.name)} offers detached homes from ${formatPrice(cheapestByType.D.price)}` : "more affordable locations offer entry-level detached opportunities"}.`,
         `For developers, detached homes typically deliver the highest absolute profit per unit but require larger plots. ${serviceLink("development-finance", "Development finance")} for detached schemes generally benefits from strong comparable evidence and premium buyer demand.`,
       ],
     },
@@ -1163,7 +1299,7 @@ function generatePropertyTypeReport(counties: CountyAgg[]): MarketReport {
       },
     ],
     relatedReportSlugs: Object.values(expensiveByType)
-      .map((e) => `${e.county.slug}-property-market`)
+      .map((e) => `${e.county.slug}-property-market-h1-2026`)
       .slice(0, 4),
     relatedTownSlugs: [],
     relatedServiceSlugs: ["development-finance", "refurbishment-finance", "equity-jv"],
@@ -1192,7 +1328,7 @@ function generateHotspotsReport(counties: CountyAgg[]): MarketReport {
     {
       heading: "Top 15 Development Hotspots",
       content: [
-        `<table><thead><tr><th>#</th><th>County</th><th>New Builds</th><th>Sales (12m)</th><th>YoY</th><th>Median Price</th></tr></thead><tbody>${ranked.slice(0, 15).map((c, i) => `<tr><td>${i + 1}</td><td>${reportLink(`${c.slug}-property-market`, c.name)}</td><td>${c.totalNewBuilds}</td><td>${c.totalTransactions.toLocaleString("en-GB")}</td><td>${c.avgYoyChange > 0 ? "+" : ""}${c.avgYoyChange}%</td><td>${formatPrice(c.medianPrice)}</td></tr>`).join("")}</tbody></table>`,
+        `<table><thead><tr><th>#</th><th>County</th><th>New Builds</th><th>Sales (12m)</th><th>YoY</th><th>Median Price</th></tr></thead><tbody>${ranked.slice(0, 15).map((c, i) => `<tr><td>${i + 1}</td><td>${reportLink(`${c.slug}-property-market-h1-2026`, c.name)}</td><td>${c.totalNewBuilds}</td><td>${c.totalTransactions.toLocaleString("en-GB")}</td><td>${c.avgYoyChange > 0 ? "+" : ""}${c.avgYoyChange}%</td><td>${formatPrice(c.medianPrice)}</td></tr>`).join("")}</tbody></table>`,
         ranked[0]
           ? `<strong>${ranked[0].name}</strong> tops our ranking with ${ranked[0].totalNewBuilds} new-build completions, ${ranked[0].totalTransactions.toLocaleString("en-GB")} transactions, and ${ranked[0].avgYoyChange > 0 ? "+" : ""}${ranked[0].avgYoyChange}% price growth. This combination of active development, strong liquidity, and positive price direction makes it the most attractive market for ${serviceLink("development-finance", "development finance")} in 2026.`
           : "",
@@ -1202,7 +1338,7 @@ function generateHotspotsReport(counties: CountyAgg[]): MarketReport {
       heading: "Emerging Opportunities",
       content: [
         `Beyond the top-ranked hotspots, several counties show strong growth momentum that may signal emerging opportunities:`,
-        `${ranked.filter((c) => c.avgYoyChange > 2).slice(0, 5).map((c) => `<strong>${reportLink(`${c.slug}-property-market`, c.name)}</strong>: ${c.avgYoyChange > 0 ? "+" : ""}${c.avgYoyChange}% growth with median prices at ${formatPrice(c.medianPrice)}. ${c.drivers[0] || ""}`).join("<br/><br/>")}`,
+        `${ranked.filter((c) => c.avgYoyChange > 2).slice(0, 5).map((c) => `<strong>${reportLink(`${c.slug}-property-market-h1-2026`, c.name)}</strong>: ${c.avgYoyChange > 0 ? "+" : ""}${c.avgYoyChange}% growth with median prices at ${formatPrice(c.medianPrice)}. ${c.drivers[0] || ""}`).join("<br/><br/>")}`,
       ],
     },
     {
@@ -1234,7 +1370,7 @@ function generateHotspotsReport(counties: CountyAgg[]): MarketReport {
           : "See our full ranking.",
       },
     ],
-    relatedReportSlugs: ranked.slice(0, 5).map((c) => `${c.slug}-property-market`),
+    relatedReportSlugs: ranked.slice(0, 5).map((c) => `${c.slug}-property-market-h1-2026`),
     relatedTownSlugs: [],
     relatedServiceSlugs: ["development-finance", "mezzanine-finance", "bridging-loans", "equity-jv"],
   };
@@ -1243,8 +1379,8 @@ function generateHotspotsReport(counties: CountyAgg[]): MarketReport {
 // ── Town Report Generator ─────────────────────────────────────────
 
 function generateTownReport(town: TownAgg, county: CountyAgg): MarketReport {
-  const slug = `${town.slug}-${county.slug}-property-market`;
-  const countyReportSlug = `${county.slug}-property-market`;
+  const slug = `${town.slug}-${county.slug}-property-market-h1-2026`;
+  const countyReportSlug = `${county.slug}-property-market-h1-2026`;
   const regionSlugStr = regionSlug(county.region);
   const sections: ReportSection[] = [];
   const stats = town.stats;
@@ -1276,6 +1412,20 @@ function generateTownReport(town: TownAgg, county: CountyAgg): MarketReport {
       `Prices in ${town.name} have shown ${trendWord(stats.yoyChange)}, with a year-on-year change of <strong>${stats.yoyChange > 0 ? "+" : ""}${stats.yoyChange}%</strong>. Within ${countyLink(county.slug, county.name)}, ${town.name} ranks ${ordinal(priceRank)} by price out of ${county.towns.length} principal towns, and ${ordinal(volumeRank)} by transaction volume.`,
     ],
   });
+
+  // 1b. Planning Pipeline (new — not present in the April edition)
+  if (town.planning) {
+    const p = town.planning;
+    sections.push({
+      heading: `Planning Pipeline in ${town.name}`,
+      content: [
+        `${p.localAuthority} — the local planning authority covering ${town.name} — has <strong>${p.totalUnits.toLocaleString("en-GB")}</strong> residential units in its current pipeline, an estimated gross development value of <strong>${formatBigNumber(p.totalEstimatedGDV)}</strong>, across ${p.approved + p.pending} applications (${p.approved} approved, ${p.pending} pending) at an approval rate of <strong>${p.approvalRate}%</strong>.`,
+        county.towns.filter((t) => t.planning?.localAuthority === p.localAuthority).length > 1
+          ? `${p.localAuthority} covers more than one town in ${county.name}, so this pipeline figure is authority-wide rather than specific to ${town.name} alone — planning applications aren't consistently attributable to a single town within a shared authority area.`
+          : ""
+      ].filter(Boolean),
+    });
+  }
 
   // 2. Price by Property Type
   const typeEntries = Object.entries(stats.medianByType)
@@ -1409,7 +1559,7 @@ function generateTownReport(town: TownAgg, county: CountyAgg): MarketReport {
   const siblingTowns = county.towns
     .filter((t) => t.slug !== town.slug)
     .slice(0, 4)
-    .map((t) => `${t.slug}-${county.slug}-property-market`);
+    .map((t) => `${t.slug}-${county.slug}-property-market-h1-2026`);
 
   return {
     slug,
@@ -1426,7 +1576,7 @@ function generateTownReport(town: TownAgg, county: CountyAgg): MarketReport {
     readingTime: estimateReadingTime(sections),
     sections,
     faqs,
-    relatedReportSlugs: [countyReportSlug, `${regionSlugStr}-market-overview`, ...siblingTowns],
+    relatedReportSlugs: [countyReportSlug, `${regionSlugStr}-market-overview-h1-2026`, ...siblingTowns],
     relatedTownSlugs: [`${county.slug}/${town.slug}`],
     relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
     charts: Object.keys(charts).length > 0 ? charts : undefined,
@@ -1495,6 +1645,11 @@ export default report;
 
 // ── Main ───────────────────────────────────────────────────────────
 
+// --county <slug> restricts the run to one county (and its towns) for safe
+// testing before a full run. No flag processes every county.
+const countyFilterIdx = process.argv.indexOf("--county");
+const countyFilter = countyFilterIdx !== -1 ? process.argv[countyFilterIdx + 1] : undefined;
+
 function main() {
   console.log("Loading UK counties data...");
   const ukCounties = loadUkCounties();
@@ -1504,23 +1659,30 @@ function main() {
   const soldData = loadSoldData();
   console.log(`  Found ${soldData.size} counties with sold data`);
 
+  console.log("Loading planning data...");
+  const planningData = loadPlanningData();
+  console.log(`  Found ${planningData.size} counties with planning data`);
+
   console.log("Aggregating county data...");
-  const counties = aggregateCounties(soldData, ukCounties);
+  let counties = aggregateCounties(soldData, ukCounties, planningData);
   console.log(`  Aggregated ${counties.length} counties`);
+
+  if (countyFilter) {
+    counties = counties.filter((c) => c.slug === countyFilter);
+    console.log(`  --county ${countyFilter}: restricting run to ${counties.length} county/counties`);
+  }
 
   console.log("Aggregating regional data...");
   const regions = aggregateRegions(counties);
   console.log(`  Aggregated ${regions.length} regions`);
 
-  // Clean only the subdirectories this script owns. Never wipe OUTPUT_DIR
-  // itself — it's the shared parent of county/regional/thematic/town AND
-  // press/ (owned by scripts/generate-pr-reports.ts), so recursively
-  // removing it would destroy sibling output this script knows nothing about.
-  for (const subDir of ["county", "regional", "thematic", "town"]) {
+  // This is an ADDITIVE run: it writes new H1 2026 editions (slug suffix
+  // -h1-2026) alongside the existing April reports, and never deletes or
+  // overwrites anything. Only mkdir if missing — no rmSync of any kind.
+  for (const subDir of ["county", "regional", "town"]) {
     const dir = path.join(OUTPUT_DIR, subDir);
-    if (fs.existsSync(dir)) fs.rmSync(dir, { recursive: true });
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
   }
-  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
   // Generate county reports
   console.log("\nGenerating county reports...");
@@ -1544,36 +1706,12 @@ function main() {
   }
   console.log(`\n  Generated ${regionalReports.length} regional reports`);
 
-  // Generate thematic reports
-  console.log("Generating thematic reports...");
-  const thematicReports: MarketReport[] = [];
-
-  const nbReport = generateNewBuildReport(counties);
-  writeReport(nbReport, "thematic");
-  thematicReports.push(nbReport);
-  process.stdout.write(".");
-
-  const activeReport = generateMostActiveReport(counties);
-  writeReport(activeReport, "thematic");
-  thematicReports.push(activeReport);
-  process.stdout.write(".");
-
-  const priceReport = generatePriceChangeReport(counties);
-  writeReport(priceReport, "thematic");
-  thematicReports.push(priceReport);
-  process.stdout.write(".");
-
-  const typeReport = generatePropertyTypeReport(counties);
-  writeReport(typeReport, "thematic");
-  thematicReports.push(typeReport);
-  process.stdout.write(".");
-
-  const hotspotsReport = generateHotspotsReport(counties);
-  writeReport(hotspotsReport, "thematic");
-  thematicReports.push(hotspotsReport);
-  process.stdout.write(".");
-
-  console.log(`\n  Generated ${thematicReports.length} thematic reports`);
+  // Thematic reports are deliberately NOT regenerated here — they cover the
+  // same ground (fastest-growing markets, new-build premium, planning
+  // pipeline, property-type gaps, national barometer) as the 7 press
+  // reports already refreshed via generate-pr-reports.ts, which are more
+  // current and SEO-optimised. Regenerating both would create duplicate,
+  // competing content on near-identical topics.
 
   // Generate town reports
   console.log("Generating town reports...");
@@ -1588,25 +1726,40 @@ function main() {
   }
   console.log(`\n  Generated ${townReports.length} town reports`);
 
-  // Generate town barrel file
-  console.log("Generating town barrel index...");
-  const townImports = townReports.map((r) => {
-    const varName = r.slug.replace(/-/g, "_");
-    return `import ${varName} from "./${r.slug}";`;
-  });
-  const townExports = townReports.map((r) => r.slug.replace(/-/g, "_"));
-  const townBarrel = `import type { MarketReport } from "../../types";\n\n${townImports.join("\n")}\n\nexport const TOWN_REPORTS: MarketReport[] = [\n  ${townExports.join(",\n  ")},\n];\n`;
-  const townIndexPath = path.join(OUTPUT_DIR, "town", "index.ts");
-  fs.writeFileSync(townIndexPath, townBarrel);
-  console.log("  Generated town/index.ts barrel");
+  // Write a dedicated H1-2026-edition barrel per category, distinct from
+  // the April barrel/import list, so nothing about the existing April
+  // reports needs to change. If running with --county, merge with any
+  // H1-2026 files already on disk from a prior partial run instead of
+  // overwriting them with just this run's subset.
+  function writeEditionBarrel(subDir: string, exportName: string, thisRunReports: MarketReport[]) {
+    const dir = path.join(OUTPUT_DIR, subDir);
+    const existingSlugs = fs
+      .readdirSync(dir)
+      .filter((f) => f.endsWith("-h1-2026.ts") && f !== "index-h1-2026.ts")
+      .map((f) => f.replace(/\.ts$/, ""));
+    const allSlugs = [...new Set([...existingSlugs, ...thisRunReports.map((r) => r.slug)])].sort();
+
+    const imports = allSlugs.map((slug) => `import ${slug.replace(/-/g, "_")} from "./${slug}";`);
+    const exportsList = allSlugs.map((slug) => slug.replace(/-/g, "_"));
+    const barrel = `import type { MarketReport } from "../../types";\n\n${imports.join("\n")}\n\nexport const ${exportName}: MarketReport[] = [\n  ${exportsList.join(",\n  ")},\n];\n`;
+    fs.writeFileSync(path.join(dir, "index-h1-2026.ts"), barrel);
+    console.log(`  Generated ${subDir}/index-h1-2026.ts (${allSlugs.length} reports)`);
+  }
+
+  console.log("\nGenerating H1-2026 edition barrels...");
+  writeEditionBarrel("county", "COUNTY_REPORTS_H1_2026", countyReports);
+  writeEditionBarrel("regional", "REGIONAL_REPORTS_H1_2026", regionalReports);
+  writeEditionBarrel("town", "TOWN_REPORTS_H1_2026", townReports);
 
   // Summary
-  const total = countyReports.length + regionalReports.length + thematicReports.length + townReports.length;
-  console.log(`\n✓ Generated ${total} market reports`);
+  const total = countyReports.length + regionalReports.length + townReports.length;
+  console.log(`\n✓ Generated ${total} H1 2026 market report editions`);
   console.log(`  County: ${countyReports.length}`);
   console.log(`  Regional: ${regionalReports.length}`);
-  console.log(`  Thematic: ${thematicReports.length}`);
   console.log(`  Town: ${townReports.length}`);
+  if (countyFilter) {
+    console.log(`  (--county ${countyFilter} restricted this run; barrels merged with any prior H1-2026 files on disk)`);
+  }
 }
 
 if (process.argv.includes("--help") || process.argv.includes("-h")) {

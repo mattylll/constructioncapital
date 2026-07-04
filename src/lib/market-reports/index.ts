@@ -1,6 +1,9 @@
 import type { MarketReport, ReportCategory } from "./types";
 import { PRESS_REPORTS } from "./reports/press";
 import { TOWN_REPORTS } from "./reports/town";
+import { TOWN_REPORTS_H1_2026 } from "./reports/town/index-h1-2026";
+import { COUNTY_REPORTS_H1_2026 } from "./reports/county/index-h1-2026";
+import { REGIONAL_REPORTS_H1_2026 } from "./reports/regional/index-h1-2026";
 
 // County reports
 import bedfordshire_property_market from "./reports/county/bedfordshire-property-market";
@@ -118,6 +121,9 @@ const UNSORTED_MARKET_REPORTS: MarketReport[] = [
   west_yorkshire_property_market,
   wiltshire_property_market,
   worcestershire_property_market,
+  // County — H1 2026 editions (coexist alongside the April reports above;
+  // see the edition-precedence note below on how the newest wins lookups)
+  ...COUNTY_REPORTS_H1_2026,
   // Regional
   east_of_england_market_overview,
   london_and_south_east_market_overview,
@@ -126,6 +132,8 @@ const UNSORTED_MARKET_REPORTS: MarketReport[] = [
   north_west_market_overview,
   south_west_market_overview,
   wales_market_overview,
+  // Regional — H1 2026 editions
+  ...REGIONAL_REPORTS_H1_2026,
   // Thematic
   development_finance_hotspots_2026,
   most_active_property_markets_2026,
@@ -136,6 +144,8 @@ const UNSORTED_MARKET_REPORTS: MarketReport[] = [
   ...PRESS_REPORTS,
   // Town (auto-imported from barrel)
   ...TOWN_REPORTS,
+  // Town — H1 2026 editions
+  ...TOWN_REPORTS_H1_2026,
 ];
 
 // Most-recently-modified first, so freshly refreshed reports (e.g. the
@@ -148,11 +158,21 @@ export const MARKET_REPORTS: MarketReport[] = [...UNSORTED_MARKET_REPORTS].sort(
 );
 
 const slugMap = new Map(MARKET_REPORTS.map((r) => [r.slug, r]));
+
+// Multiple editions of a county/town report (e.g. April and H1 2026) share
+// the same countySlug/townSlug for internal linking, but only one can be
+// "the" report returned for a given location — later Map.set() calls win,
+// so build these two lookup maps from oldest-to-newest (not MARKET_REPORTS'
+// newest-first display order) so the most recent edition is always the one
+// location pages link to, regardless of how many editions exist.
+const byAgeAscending = [...MARKET_REPORTS].sort(
+  (a, b) => new Date(a.dateModified).getTime() - new Date(b.dateModified).getTime()
+);
 const countySlugMap = new Map(
-  MARKET_REPORTS.filter((r) => r.category === "county" && r.countySlug).map((r) => [r.countySlug!, r])
+  byAgeAscending.filter((r) => r.category === "county" && r.countySlug).map((r) => [r.countySlug!, r])
 );
 const townSlugMap = new Map(
-  MARKET_REPORTS.filter((r) => r.category === "town" && r.townSlug && r.countySlug).map((r) => [`${r.countySlug}/${r.townSlug}`, r])
+  byAgeAscending.filter((r) => r.category === "town" && r.townSlug && r.countySlug).map((r) => [`${r.countySlug}/${r.townSlug}`, r])
 );
 
 export function getReportBySlug(slug: string): MarketReport | undefined {
