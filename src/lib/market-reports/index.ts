@@ -68,7 +68,7 @@ import new_build_premium_analysis_2026 from "./reports/thematic/new-build-premiu
 import property_type_price_guide_2026 from "./reports/thematic/property-type-price-guide-2026";
 import uk_house_price_changes_2026 from "./reports/thematic/uk-house-price-changes-2026";
 
-export const MARKET_REPORTS: MarketReport[] = [
+const UNSORTED_MARKET_REPORTS: MarketReport[] = [
   // County (loaded first for priority in slug lookups)
   bedfordshire_property_market,
   berkshire_property_market,
@@ -137,6 +137,15 @@ export const MARKET_REPORTS: MarketReport[] = [
   // Town (auto-imported from barrel)
   ...TOWN_REPORTS,
 ];
+
+// Most-recently-modified first, so freshly refreshed reports (e.g. the
+// quarterly/half-year press reports) surface at the top of the listing page
+// and within their category filter, without needing manual reordering above
+// on every refresh. Ties (most county/regional/thematic reports currently
+// share one placeholder date) keep their original relative order.
+export const MARKET_REPORTS: MarketReport[] = [...UNSORTED_MARKET_REPORTS].sort(
+  (a, b) => new Date(b.dateModified).getTime() - new Date(a.dateModified).getTime()
+);
 
 const slugMap = new Map(MARKET_REPORTS.map((r) => [r.slug, r]));
 const countySlugMap = new Map(
