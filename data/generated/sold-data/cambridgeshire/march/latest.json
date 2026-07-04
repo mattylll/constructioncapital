@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.630Z",
+  "updatedAt": "2026-07-03T11:39:54.415Z",
   "townSlug": "march",
   "countySlug": "cambridgeshire",
   "stats": {
     "medianPrice": 235000,
     "medianByType": {
       "D": 300000,
-      "S": 220000,
-      "T": 177500,
-      "F": 106500
+      "S": 217500,
+      "T": 180000,
+      "F": 103000
     },
-    "transactionCount12m": 350,
-    "yoyChange": -2.1,
-    "newBuildCount": 7,
-    "existingCount": 343,
-    "newBuildPremium": 44.4
+    "transactionCount12m": 372,
+    "yoyChange": -1.7,
+    "newBuildCount": 5,
+    "existingCount": 367,
+    "newBuildPremium": 60.3
   },
   "recentTransactions": [
     {
-      "price": 103000,
-      "date": "2026-04-21",
-      "postcode": "PE15 9NH",
-      "propertyType": "F",
+      "price": 232000,
+      "date": "2026-05-22",
+      "postcode": "PE15 8NB",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, OLD COURT PLACE, HIGH STREET"
+      "tenure": "F",
+      "address": "49, COUNTY ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-05-20",
+      "postcode": "PE15 8SD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "346, CREEK ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-05-18",
+      "postcode": "PE15 8EN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "102, RUSSELL AVENUE"
+    },
+    {
+      "price": 395000,
+      "date": "2026-05-18",
+      "postcode": "PE15 8SD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "348, CREEK ROAD"
     },
     {
       "price": 200000,
-      "date": "2026-04-10",
-      "postcode": "PE15 9HP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9A, FAIRFAX WAY"
-    },
-    {
-      "price": 390000,
-      "date": "2026-04-08",
-      "postcode": "PE15 0FE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, RAY COURT"
-    },
-    {
-      "price": 145000,
-      "date": "2026-04-08",
-      "postcode": "PE15 9AG",
+      "date": "2026-05-15",
+      "postcode": "PE15 0PW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, DEERFIELD ROAD"
-    },
-    {
-      "price": 262500,
-      "date": "2026-04-02",
-      "postcode": "PE15 0SE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, THE ROWANS"
-    },
-    {
-      "price": 475000,
-      "date": "2026-04-02",
-      "postcode": "PE15 9DT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, UPWELL ROAD"
+      "address": "7, WOODYSFIELD"
     },
     {
       "price": 215000,
-      "date": "2026-04-02",
-      "postcode": "PE15 8LX",
+      "date": "2026-05-15",
+      "postcode": "PE15 8JT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "66, MAPLE GROVE"
+    },
+    {
+      "price": 90000,
+      "date": "2026-05-14",
+      "postcode": "PE15 9TJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "24, HUSSARS COURT"
+    },
+    {
+      "price": 297000,
+      "date": "2026-05-13",
+      "postcode": "PE15 8RW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, WATERSIDE GARDENS"
+    },
+    {
+      "price": 197000,
+      "date": "2026-05-13",
+      "postcode": "PE15 8PG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, KINGSLEY STREET"
+      "address": "80, ELM ROAD"
     },
     {
-      "price": 275000,
-      "date": "2026-03-31",
-      "postcode": "PE15 8LW",
+      "price": 170000,
+      "date": "2026-05-12",
+      "postcode": "PE15 9BD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, HEATHCOTE CLOSE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-05-08",
+      "postcode": "PE15 8FN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CLIFTON CLOSE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-05-08",
+      "postcode": "PE15 9LU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "11A, REGENT AVENUE"
+      "address": "7, GAS ROAD"
+    },
+    {
+      "price": 126000,
+      "date": "2026-05-06",
+      "postcode": "PE15 8JE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, NORWALDE STREET"
     },
     {
       "price": 330000,
-      "date": "2026-03-31",
-      "postcode": "PE15 9SX",
+      "date": "2026-05-05",
+      "postcode": "PE15 8TU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, LEWIS CLOSE"
+      "address": "2, ALEXANDER GARDENS"
     },
     {
-      "price": 405000,
-      "date": "2026-03-31",
-      "postcode": "PE15 9PY",
+      "price": 185000,
+      "date": "2026-05-01",
+      "postcode": "PE15 9EU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, PAPWORTH ROAD"
+    },
+    {
+      "price": 135000,
+      "date": "2026-05-01",
+      "postcode": "PE15 9BZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, CHURCH STREET"
+      "address": "30, ELWYN COURT"
     },
     {
-      "price": 122500,
-      "date": "2026-03-30",
-      "postcode": "PE15 0LL",
+      "price": 205000,
+      "date": "2026-05-01",
+      "postcode": "PE15 8RA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, RIVERDOWN"
+    },
+    {
+      "price": 247500,
+      "date": "2026-05-01",
+      "postcode": "PE15 0TH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, PARK ROAD"
+      "address": "26, HIGH STREET"
     },
     {
-      "price": 333000,
-      "date": "2026-03-30",
-      "postcode": "PE15 0HG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "61, STATION ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-03-27",
-      "postcode": "PE15 0HB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "OUTLAND, WISBECH ROAD"
-    },
-    {
-      "price": 227000,
-      "date": "2026-03-27",
-      "postcode": "PE15 8UW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "65, CAWOOD CLOSE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-03-27",
-      "postcode": "PE15 8HZ",
+      "price": 208000,
+      "date": "2026-04-30",
+      "postcode": "PE15 9ND",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, ROBINGOODFELLOWS LANE"
+      "address": "49, EASTWOOD AVENUE"
     },
     {
-      "price": 134000,
-      "date": "2026-03-27",
-      "postcode": "PE15 8PE",
+      "price": 257500,
+      "date": "2026-04-29",
+      "postcode": "PE15 0HL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, HIGHFIELD ROAD"
-    },
-    {
-      "price": 270000,
-      "date": "2026-03-26",
-      "postcode": "PE15 8TD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38E, NENE PARADE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-24",
-      "postcode": "PE15 8RL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, ST JOHNS CHASE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-03-20",
-      "postcode": "PE15 9UH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BABBLE CLOSE"
-    },
-    {
-      "price": 422500,
-      "date": "2026-03-20",
-      "postcode": "PE15 0HF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "65, SCHOLARS CLOSE"
+      "address": "30, TEACHERS CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -226,8 +226,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 243000,
-      "transactions": 41
+      "medianPrice": 240250,
+      "transactions": 42
     },
     {
       "month": "2024-07",
@@ -251,8 +251,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 240000,
-      "transactions": 51
+      "medianPrice": 237500,
+      "transactions": 52
     },
     {
       "month": "2024-12",
@@ -281,8 +281,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 240000,
-      "transactions": 43
+      "medianPrice": 245000,
+      "transactions": 44
     },
     {
       "month": "2025-06",
@@ -291,53 +291,58 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 225000,
-      "transactions": 45
+      "medianPrice": 224000,
+      "transactions": 44
     },
     {
       "month": "2025-08",
       "medianPrice": 225000,
-      "transactions": 39
+      "transactions": 45
     },
     {
       "month": "2025-09",
       "medianPrice": 254998,
-      "transactions": 26
+      "transactions": 28
     },
     {
       "month": "2025-10",
       "medianPrice": 245000,
-      "transactions": 40
+      "transactions": 42
     },
     {
       "month": "2025-11",
       "medianPrice": 255000,
-      "transactions": 41
+      "transactions": 43
     },
     {
       "month": "2025-12",
-      "medianPrice": 210000,
-      "transactions": 37
+      "medianPrice": 212500,
+      "transactions": 38
     },
     {
       "month": "2026-01",
-      "medianPrice": 225000,
-      "transactions": 30
+      "medianPrice": 220000,
+      "transactions": 31
     },
     {
       "month": "2026-02",
-      "medianPrice": 224000,
-      "transactions": 38
+      "medianPrice": 225000,
+      "transactions": 39
     },
     {
       "month": "2026-03",
       "medianPrice": 275000,
-      "transactions": 27
+      "transactions": 31
     },
     {
       "month": "2026-04",
-      "medianPrice": 215000,
-      "transactions": 7
+      "medianPrice": 222500,
+      "transactions": 14
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 210000,
+      "transactions": 18
     }
   ],
   "quarterlyHistory": [
@@ -348,8 +353,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 228000,
-      "transactions": 129
+      "medianPrice": 227000,
+      "transactions": 130
     },
     {
       "quarter": "2024-Q3",
@@ -358,8 +363,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 233750,
-      "transactions": 158
+      "medianPrice": 232500,
+      "transactions": 159
     },
     {
       "quarter": "2025-Q1",
@@ -368,28 +373,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 220000,
-      "transactions": 125
+      "medianPrice": 221250,
+      "transactions": 126
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 227500,
-      "transactions": 110
+      "medianPrice": 225000,
+      "transactions": 117
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 245000,
-      "transactions": 118
+      "transactions": 123
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 235000,
-      "transactions": 95
+      "transactions": 101
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 215000,
-      "transactions": 7
+      "transactions": 32
     }
   ]
 }

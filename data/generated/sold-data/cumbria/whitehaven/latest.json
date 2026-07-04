@@ -1,22 +1,193 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.028Z",
+  "updatedAt": "2026-07-03T11:39:53.756Z",
   "townSlug": "whitehaven",
   "countySlug": "cumbria",
   "stats": {
-    "medianPrice": 157000,
+    "medianPrice": 156000,
     "medianByType": {
-      "D": 280500,
-      "S": 160000,
-      "T": 118500,
-      "F": 90000
+      "D": 285000,
+      "S": 161375,
+      "T": 118000,
+      "F": 90250
     },
-    "transactionCount12m": 362,
-    "yoyChange": -1.2,
-    "newBuildCount": 12,
-    "existingCount": 350,
-    "newBuildPremium": 70.6
+    "transactionCount12m": 393,
+    "yoyChange": -1.9,
+    "newBuildCount": 10,
+    "existingCount": 383,
+    "newBuildPremium": 48.4
   },
   "recentTransactions": [
+    {
+      "price": 242500,
+      "date": "2026-05-20",
+      "postcode": "CA28 6TG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, OAKFIELD COURT"
+    },
+    {
+      "price": 93000,
+      "date": "2026-05-20",
+      "postcode": "CA28 8QH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, ST JOHNS COURT"
+    },
+    {
+      "price": 455000,
+      "date": "2026-05-20",
+      "postcode": "CA28 6SG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SUMMER LEA, HARRAS ROAD"
+    },
+    {
+      "price": 56000,
+      "date": "2026-05-15",
+      "postcode": "CA28 8NX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, CAMBRIDGE ROAD"
+    },
+    {
+      "price": 78000,
+      "date": "2026-05-15",
+      "postcode": "CA28 9PP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, BRAKESIDE GARDENS"
+    },
+    {
+      "price": 128500,
+      "date": "2026-05-15",
+      "postcode": "CA28 9TE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "156, MEADOW ROAD"
+    },
+    {
+      "price": 139950,
+      "date": "2026-05-11",
+      "postcode": "CA28 8BA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "100, VALLEY PARK"
+    },
+    {
+      "price": 225000,
+      "date": "2026-05-11",
+      "postcode": "CA28 7UE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, TOWER HILL"
+    },
+    {
+      "price": 95000,
+      "date": "2026-05-06",
+      "postcode": "CA28 6PF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, MORESBY TERRACE"
+    },
+    {
+      "price": 132100,
+      "date": "2026-05-06",
+      "postcode": "CA28 8SG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, ULLSWATER AVENUE"
+    },
+    {
+      "price": 330000,
+      "date": "2026-05-05",
+      "postcode": "CA28 6HG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, BRANSTY ROAD"
+    },
+    {
+      "price": 197500,
+      "date": "2026-05-01",
+      "postcode": "CA28 6XE",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, RED LONNING"
+    },
+    {
+      "price": 72000,
+      "date": "2026-05-01",
+      "postcode": "CA28 8SR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, RICHMOND HILL ROAD"
+    },
+    {
+      "price": 86000,
+      "date": "2026-05-01",
+      "postcode": "CA28 9BT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, ELLISONS PLACE"
+    },
+    {
+      "price": 345000,
+      "date": "2026-05-01",
+      "postcode": "CA28 6TB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, RUSKIN DRIVE"
+    },
+    {
+      "price": 211250,
+      "date": "2026-05-01",
+      "postcode": "CA28 9AH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, BASKET ROAD"
+    },
+    {
+      "price": 126000,
+      "date": "2026-04-30",
+      "postcode": "CA28 6EQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, THE CLOSE"
+    },
+    {
+      "price": 125000,
+      "date": "2026-04-29",
+      "postcode": "CA28 6UD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, SPRINGFIELD GROVE"
+    },
+    {
+      "price": 135000,
+      "date": "2026-04-27",
+      "postcode": "CA28 6QR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MICKLAM COTTAGES"
+    },
     {
       "price": 162000,
       "date": "2026-04-24",
@@ -25,177 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "10, HOLLY BANK"
-    },
-    {
-      "price": 248000,
-      "date": "2026-04-24",
-      "postcode": "CA28 8YS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, HARRIER COURT"
-    },
-    {
-      "price": 130000,
-      "date": "2026-04-24",
-      "postcode": "CA28 8DJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "109, WHINLATTER ROAD"
-    },
-    {
-      "price": 148000,
-      "date": "2026-04-23",
-      "postcode": "CA28 8RZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, CLEATOR MOOR ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-04-17",
-      "postcode": "CA28 6HF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, HIGHLAND VIEW, BRANSTY ROAD"
-    },
-    {
-      "price": 330000,
-      "date": "2026-04-07",
-      "postcode": "CA28 7BH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, WOODSTOCK LANE"
-    },
-    {
-      "price": 110000,
-      "date": "2026-04-02",
-      "postcode": "CA28 9TD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, THE OVAL"
-    },
-    {
-      "price": 265000,
-      "date": "2026-03-31",
-      "postcode": "CA28 6LQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, OAK CRESCENT"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-30",
-      "postcode": "CA28 8HX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, ROWANGATE"
-    },
-    {
-      "price": 140000,
-      "date": "2026-03-30",
-      "postcode": "CA28 6ED",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, SOUTH VIEW ROAD"
-    },
-    {
-      "price": 205000,
-      "date": "2026-03-27",
-      "postcode": "CA28 8JT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "RED ROCK BARN, THE GROVES"
-    },
-    {
-      "price": 185000,
-      "date": "2026-03-27",
-      "postcode": "CA28 6EL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BEATTY ROAD"
-    },
-    {
-      "price": 273000,
-      "date": "2026-03-27",
-      "postcode": "CA28 6NJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, FERN WAY"
-    },
-    {
-      "price": 160000,
-      "date": "2026-03-27",
-      "postcode": "CA28 8HN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "69, HONISTER ROAD"
-    },
-    {
-      "price": 220000,
-      "date": "2026-03-27",
-      "postcode": "CA28 6JE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, VICTORIA ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2026-03-27",
-      "postcode": "CA28 8XQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "116, MORESBY PARKS ROAD"
-    },
-    {
-      "price": 225000,
-      "date": "2026-03-27",
-      "postcode": "CA28 6TJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, THE CREST"
-    },
-    {
-      "price": 300000,
-      "date": "2026-03-26",
-      "postcode": "CA28 9AD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CROSS WINDS, HARBOUR VIEW"
-    },
-    {
-      "price": 134000,
-      "date": "2026-03-20",
-      "postcode": "CA28 6RQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, CRIFFEL ROAD"
-    },
-    {
-      "price": 140000,
-      "date": "2026-03-19",
-      "postcode": "CA28 7RB",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "80, LOWTHER STREET"
     }
   ],
   "monthlyHistory": [
@@ -211,8 +211,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 168975,
-      "transactions": 44
+      "medianPrice": 169950,
+      "transactions": 45
     },
     {
       "month": "2024-04",
@@ -246,8 +246,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 169975,
-      "transactions": 58
+      "medianPrice": 170000,
+      "transactions": 59
     },
     {
       "month": "2024-11",
@@ -292,17 +292,17 @@
     {
       "month": "2025-07",
       "medianPrice": 175500,
-      "transactions": 54
+      "transactions": 56
     },
     {
       "month": "2025-08",
-      "medianPrice": 123750,
-      "transactions": 36
+      "medianPrice": 128000,
+      "transactions": 39
     },
     {
       "month": "2025-09",
-      "medianPrice": 144975,
-      "transactions": 42
+      "medianPrice": 145000,
+      "transactions": 45
     },
     {
       "month": "2025-10",
@@ -311,40 +311,45 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 170000,
-      "transactions": 31
+      "medianPrice": 152125,
+      "transactions": 38
     },
     {
       "month": "2025-12",
-      "medianPrice": 149750,
-      "transactions": 36
+      "medianPrice": 142500,
+      "transactions": 37
     },
     {
       "month": "2026-01",
-      "medianPrice": 154975,
-      "transactions": 24
+      "medianPrice": 160000,
+      "transactions": 25
     },
     {
       "month": "2026-02",
       "medianPrice": 145000,
-      "transactions": 43
+      "transactions": 44
     },
     {
       "month": "2026-03",
-      "medianPrice": 162500,
-      "transactions": 32
+      "medianPrice": 165000,
+      "transactions": 35
     },
     {
       "month": "2026-04",
-      "medianPrice": 160000,
-      "transactions": 7
+      "medianPrice": 166000,
+      "transactions": 20
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 136025,
+      "transactions": 16
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 155000,
-      "transactions": 112
+      "transactions": 113
     },
     {
       "quarter": "2024-Q2",
@@ -358,8 +363,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 168750,
-      "transactions": 156
+      "medianPrice": 169500,
+      "transactions": 157
     },
     {
       "quarter": "2025-Q1",
@@ -373,23 +378,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 152250,
-      "transactions": 132
+      "medianPrice": 154000,
+      "transactions": 140
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 158500,
-      "transactions": 106
+      "medianPrice": 151250,
+      "transactions": 114
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 157500,
-      "transactions": 99
+      "medianPrice": 159500,
+      "transactions": 104
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 160000,
-      "transactions": 7
+      "medianPrice": 161000,
+      "transactions": 36
     }
   ]
 }

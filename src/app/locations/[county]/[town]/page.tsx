@@ -19,6 +19,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { Breadcrumbs } from "@/components/locations/breadcrumbs";
 import { RelatedTowns } from "@/components/locations/related-towns";
+import { LocalFinanceNetwork } from "@/components/locations/local-finance-network";
+import { getLocalFinancePartners } from "@/data/local-finance-network";
 import { LocationCTA } from "@/components/locations/location-cta";
 import { JsonLd } from "@/components/ui/json-ld";
 import {
@@ -191,6 +193,7 @@ export default async function TownPage({ params }: PageProps) {
   const planningData = getPlanningData(county, town);
   const soldData = getSoldData(county, town);
   const townStats = getTownStats(county, town);
+  const localFinancePartners = getLocalFinancePartners(county, town);
   const realRelated = getRealRelatedTowns(county, town, 6);
   const relatedTowns = realRelated.map((t) => {
     const relStats = getTownStats(county, t.slug);
@@ -700,6 +703,9 @@ return {
 
       {/* Location Map - reference section near bottom */}
       <LocationMap locationName={townName} countyName={countyName} />
+
+      {/* Local Finance Network, co-located sister brands serving this town */}
+      <LocalFinanceNetwork partners={localFinancePartners} townName={townName} />
 
       {/* Related Towns */}
       <RelatedTowns towns={relatedTowns} currentTown={townName} />

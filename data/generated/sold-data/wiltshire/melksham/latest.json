@@ -1,22 +1,121 @@
 {
-  "updatedAt": "2026-06-23T19:12:07.023Z",
+  "updatedAt": "2026-07-03T11:39:52.717Z",
   "townSlug": "melksham",
   "countySlug": "wiltshire",
   "stats": {
     "medianPrice": 285000,
     "medianByType": {
-      "D": 395000,
-      "S": 282000,
+      "D": 402500,
+      "S": 280000,
       "T": 240000,
-      "F": 136000
+      "F": 142000
     },
-    "transactionCount12m": 343,
+    "transactionCount12m": 347,
     "yoyChange": -3.4,
-    "newBuildCount": 9,
-    "existingCount": 334,
-    "newBuildPremium": 27.6
+    "newBuildCount": 2,
+    "existingCount": 345,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 405000,
+      "date": "2026-05-22",
+      "postcode": "SN12 6UX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, HAZELWOOD ROAD"
+    },
+    {
+      "price": 341500,
+      "date": "2026-05-14",
+      "postcode": "SN12 6FQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, GRASMERE"
+    },
+    {
+      "price": 660000,
+      "date": "2026-05-11",
+      "postcode": "SN12 6QA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, PERRYS LANE"
+    },
+    {
+      "price": 442500,
+      "date": "2026-05-08",
+      "postcode": "SN12 6WG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, PARK ROAD"
+    },
+    {
+      "price": 445000,
+      "date": "2026-05-05",
+      "postcode": "SN12 6GL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, RENNIE CRESCENT"
+    },
+    {
+      "price": 590000,
+      "date": "2026-05-01",
+      "postcode": "SN12 8PX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE CORNER HOUSE, 35A, CURTIS ORCHARD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-04-28",
+      "postcode": "SN12 7SJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, BURNET CLOSE"
+    },
+    {
+      "price": 135000,
+      "date": "2026-04-28",
+      "postcode": "SN12 8FE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, TURNERS COURT"
+    },
+    {
+      "price": 425000,
+      "date": "2026-04-24",
+      "postcode": "SN12 6GG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, SMEATON WAY"
+    },
+    {
+      "price": 305000,
+      "date": "2026-04-24",
+      "postcode": "SN12 6HU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, LABURNUM DRIVE"
+    },
+    {
+      "price": 327500,
+      "date": "2026-04-24",
+      "postcode": "SN12 6XW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, TANGMERE CLOSE"
+    },
     {
       "price": 450000,
       "date": "2026-04-24",
@@ -27,13 +126,13 @@
       "address": "9, KENNEDY AVENUE"
     },
     {
-      "price": 350000,
-      "date": "2026-04-17",
-      "postcode": "SN12 6UX",
-      "propertyType": "D",
+      "price": 257000,
+      "date": "2026-04-22",
+      "postcode": "SN12 8FB",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "40, HAZELWOOD ROAD"
+      "address": "55, BEANACRE ROAD"
     },
     {
       "price": 140000,
@@ -45,6 +144,15 @@
       "address": "23, VERBENA COURT"
     },
     {
+      "price": 350000,
+      "date": "2026-04-17",
+      "postcode": "SN12 6UX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, HAZELWOOD ROAD"
+    },
+    {
       "price": 385000,
       "date": "2026-04-16",
       "postcode": "SN12 7AA",
@@ -52,6 +160,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "16, FOREST ROAD"
+    },
+    {
+      "price": 165000,
+      "date": "2026-04-15",
+      "postcode": "SN12 6DW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "85, SEMINGTON ROAD"
     },
     {
       "price": 230000,
@@ -63,139 +180,22 @@
       "address": "4, WEAVERS COTTAGES"
     },
     {
-      "price": 345000,
+      "price": 222500,
       "date": "2026-04-10",
-      "postcode": "SN12 7QW",
-      "propertyType": "D",
+      "postcode": "SN12 6FF",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "361A, SNARLTON LANE"
+      "address": "11, VALENTIA COURT"
     },
     {
-      "price": 432500,
+      "price": 337500,
       "date": "2026-04-10",
-      "postcode": "SN12 6UF",
+      "postcode": "SN12 6AF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, BADER PARK"
-    },
-    {
-      "price": 260000,
-      "date": "2026-04-08",
-      "postcode": "SN12 6FE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, MAGISTER ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-04-08",
-      "postcode": "SN12 7RX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, PENNINE CLOSE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-04-01",
-      "postcode": "SN12 8JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "94, CHURCH STREET"
-    },
-    {
-      "price": 258000,
-      "date": "2026-03-31",
-      "postcode": "SN12 7EL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, FRANE LEA PARK"
-    },
-    {
-      "price": 248000,
-      "date": "2026-03-31",
-      "postcode": "SN12 6ED",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BERRYFIELD PARK"
-    },
-    {
-      "price": 216000,
-      "date": "2026-03-31",
-      "postcode": "SN12 6FD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, MAGISTER ROAD"
-    },
-    {
-      "price": 190000,
-      "date": "2026-03-30",
-      "postcode": "SN12 8AL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, BEANACRE ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-03-27",
-      "postcode": "SN12 7LX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, SOMERSET CRESCENT"
-    },
-    {
-      "price": 350000,
-      "date": "2026-03-27",
-      "postcode": "SN12 6ZU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, BAY GARDENS"
-    },
-    {
-      "price": 330000,
-      "date": "2026-03-27",
-      "postcode": "SN12 7QP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "357C, SNARLTON LANE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-03-27",
-      "postcode": "SN12 7BT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, ST MARGARETS GARDENS"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-26",
-      "postcode": "SN12 6FB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, HARVARD CLOSE"
-    },
-    {
-      "price": 285000,
-      "date": "2026-03-25",
-      "postcode": "SN12 8BG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9A, TRENT CRESCENT"
+      "address": "39A, KENILWORTH GARDENS"
     }
   ],
   "monthlyHistory": [
@@ -221,8 +221,8 @@
     },
     {
       "month": "2024-05",
-      "medianPrice": 273500,
-      "transactions": 42
+      "medianPrice": 273000,
+      "transactions": 43
     },
     {
       "month": "2024-06",
@@ -292,27 +292,27 @@
     {
       "month": "2025-07",
       "medianPrice": 275000,
-      "transactions": 37
+      "transactions": 39
     },
     {
       "month": "2025-08",
-      "medianPrice": 315000,
-      "transactions": 38
+      "medianPrice": 310000,
+      "transactions": 39
     },
     {
       "month": "2025-09",
-      "medianPrice": 278750,
-      "transactions": 36
+      "medianPrice": 281250,
+      "transactions": 38
     },
     {
       "month": "2025-10",
-      "medianPrice": 272725,
-      "transactions": 48
+      "medianPrice": 280000,
+      "transactions": 51
     },
     {
       "month": "2025-11",
-      "medianPrice": 306000,
-      "transactions": 34
+      "medianPrice": 315000,
+      "transactions": 38
     },
     {
       "month": "2025-12",
@@ -322,7 +322,7 @@
     {
       "month": "2026-01",
       "medianPrice": 330000,
-      "transactions": 19
+      "transactions": 20
     },
     {
       "month": "2026-02",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 253000,
-      "transactions": 24
+      "medianPrice": 245000,
+      "transactions": 27
     },
     {
       "month": "2026-04",
-      "medianPrice": 337500,
-      "transactions": 10
+      "medianPrice": 258500,
+      "transactions": 22
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 443750,
+      "transactions": 6
     }
   ],
   "quarterlyHistory": [
@@ -348,8 +353,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 257500,
-      "transactions": 96
+      "medianPrice": 255000,
+      "transactions": 97
     },
     {
       "quarter": "2024-Q3",
@@ -373,23 +378,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 282500,
-      "transactions": 111
+      "medianPrice": 282250,
+      "transactions": 116
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 290000,
-      "transactions": 119
+      "medianPrice": 296000,
+      "transactions": 126
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 285000,
-      "transactions": 74
+      "medianPrice": 275500,
+      "transactions": 78
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 337500,
-      "transactions": 10
+      "medianPrice": 328750,
+      "transactions": 28
     }
   ]
 }

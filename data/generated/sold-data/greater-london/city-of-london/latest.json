@@ -1,19 +1,73 @@
 {
-  "updatedAt": "2026-06-23T19:12:05.979Z",
+  "updatedAt": "2026-07-03T11:39:51.723Z",
   "townSlug": "city-of-london",
   "countySlug": "greater-london",
   "stats": {
-    "medianPrice": 725000,
+    "medianPrice": 736000,
     "medianByType": {
-      "F": 700000
+      "F": 710000
     },
-    "transactionCount12m": 111,
-    "yoyChange": -17.1,
-    "newBuildCount": 1,
-    "existingCount": 110,
+    "transactionCount12m": 123,
+    "yoyChange": -18.2,
+    "newBuildCount": 2,
+    "existingCount": 121,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 5525000,
+      "date": "2026-05-15",
+      "postcode": "EC4N 4SJ",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "78, QUEEN VICTORIA STREET"
+    },
+    {
+      "price": 103000,
+      "date": "2026-05-12",
+      "postcode": "EC1A 9DS",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "59, WEST SMITHFIELD"
+    },
+    {
+      "price": 880000,
+      "date": "2026-05-08",
+      "postcode": "EC2Y 9AP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1402, 5, MOOR LANE"
+    },
+    {
+      "price": 980000,
+      "date": "2026-05-06",
+      "postcode": "EC2Y 8BE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4, BRANDON MEWS, BARBICAN"
+    },
+    {
+      "price": 775000,
+      "date": "2026-04-30",
+      "postcode": "EC2Y 8BN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 702, WILLOUGHBY HOUSE, BARBICAN"
+    },
+    {
+      "price": 520000,
+      "date": "2026-04-20",
+      "postcode": "EC2Y 8DH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "215, BUNYAN COURT, BARBICAN"
+    },
     {
       "price": 823000,
       "date": "2026-03-30",
@@ -67,6 +121,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "APARTMENT 44, 75, LITTLE BRITAIN"
+    },
+    {
+      "price": 27247456,
+      "date": "2026-02-26",
+      "postcode": "EC3N 4AX",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SEETHING LANE"
     },
     {
       "price": 585000,
@@ -130,69 +193,6 @@
       "newBuild": false,
       "tenure": "L",
       "address": "FLAT 510, 1, PEPYS STREET"
-    },
-    {
-      "price": 390000,
-      "date": "2026-01-30",
-      "postcode": "EC1Y 0RQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 81, GREAT ARTHUR HOUSE, GOLDEN LANE ESTATE"
-    },
-    {
-      "price": 482500,
-      "date": "2026-01-26",
-      "postcode": "EC3N 2NU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 502, 1, PEPYS STREET"
-    },
-    {
-      "price": 639000,
-      "date": "2026-01-20",
-      "postcode": "EC2Y 8AG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 12, 6 - 9, BRIDGEWATER SQUARE"
-    },
-    {
-      "price": 870000,
-      "date": "2026-01-16",
-      "postcode": "EC4Y 0DD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 6, VICTORIA HOUSE, 25, TUDOR STREET"
-    },
-    {
-      "price": 736000,
-      "date": "2026-01-15",
-      "postcode": "EC2Y 8NQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 312, BEN JONSON HOUSE, BARBICAN"
-    },
-    {
-      "price": 450000,
-      "date": "2026-01-13",
-      "postcode": "EC4V 3EH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 411, QUEENS QUAY, 58, UPPER THAMES STREET"
-    },
-    {
-      "price": 725000,
-      "date": "2026-01-09",
-      "postcode": "EC4A 1BF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 29, ST. DUNSTANS HOUSE, 133 - 137, FETTER LANE"
     }
   ],
   "monthlyHistory": [
@@ -273,8 +273,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 1000000,
-      "transactions": 9
+      "medianPrice": 1100000,
+      "transactions": 10
     },
     {
       "month": "2025-05",
@@ -283,8 +283,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 867500,
-      "transactions": 14
+      "medianPrice": 885000,
+      "transactions": 15
     },
     {
       "month": "2025-07",
@@ -293,8 +293,8 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 627500,
-      "transactions": 16
+      "medianPrice": 665000,
+      "transactions": 18
     },
     {
       "month": "2025-09",
@@ -303,18 +303,18 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 740000,
-      "transactions": 9
+      "medianPrice": 923975,
+      "transactions": 12
     },
     {
       "month": "2025-11",
-      "medianPrice": 865000,
-      "transactions": 11
+      "medianPrice": 800000,
+      "transactions": 16
     },
     {
       "month": "2025-12",
-      "medianPrice": 745000,
-      "transactions": 13
+      "medianPrice": 792500,
+      "transactions": 15
     },
     {
       "month": "2026-01",
@@ -323,13 +323,23 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 617500,
-      "transactions": 8
+      "medianPrice": 650000,
+      "transactions": 9
     },
     {
       "month": "2026-03",
       "medianPrice": 605000,
       "transactions": 5
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 647500,
+      "transactions": 2
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 930000,
+      "transactions": 4
     }
   ],
   "quarterlyHistory": [
@@ -360,23 +370,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 885000,
-      "transactions": 39
+      "medianPrice": 900000,
+      "transactions": 41
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 747500,
-      "transactions": 50
+      "medianPrice": 772500,
+      "transactions": 52
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 745000,
-      "transactions": 33
+      "medianPrice": 820000,
+      "transactions": 43
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 639000,
-      "transactions": 23
+      "medianPrice": 644500,
+      "transactions": 24
+    },
+    {
+      "quarter": "2026-Q2",
+      "medianPrice": 827500,
+      "transactions": 6
     }
   ]
 }

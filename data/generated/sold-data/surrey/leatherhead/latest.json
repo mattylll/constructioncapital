@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:06.159Z",
+  "updatedAt": "2026-07-03T11:39:51.896Z",
   "townSlug": "leatherhead",
   "countySlug": "surrey",
   "stats": {
-    "medianPrice": 595000,
+    "medianPrice": 570000,
     "medianByType": {
-      "D": 869375,
-      "S": 565000,
-      "T": 426500,
-      "F": 255000
+      "D": 870000,
+      "S": 570000,
+      "T": 430000,
+      "F": 259500
     },
-    "transactionCount12m": 357,
-    "yoyChange": 2.3,
+    "transactionCount12m": 367,
+    "yoyChange": -1.7,
     "newBuildCount": 0,
-    "existingCount": 357,
+    "existingCount": 367,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 251500,
+      "price": 875000,
+      "date": "2026-05-19",
+      "postcode": "KT22 8TT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, HATHERWOOD"
+    },
+    {
+      "price": 598500,
+      "date": "2026-05-15",
+      "postcode": "KT22 0AS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "84, CONSORT DRIVE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-05-15",
+      "postcode": "KT22 8UG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "9, WINDFIELD"
+    },
+    {
+      "price": 605000,
+      "date": "2026-05-15",
+      "postcode": "KT22 9HT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, COBHAM ROAD"
+    },
+    {
+      "price": 190000,
+      "date": "2026-05-12",
+      "postcode": "KT22 7FU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "37, EMMELINE LODGE, 27, KINGSTON AVENUE"
+    },
+    {
+      "price": 640000,
+      "date": "2026-05-01",
+      "postcode": "KT22 0AS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, CONSORT DRIVE"
+    },
+    {
+      "price": 500000,
+      "date": "2026-05-01",
+      "postcode": "KT23 3DD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, MIDDLEMEAD ROAD"
+    },
+    {
+      "price": 240000,
+      "date": "2026-05-01",
+      "postcode": "KT22 7JL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 39, ROYAL SWAN QUARTER, LERET WAY"
+    },
+    {
+      "price": 367500,
+      "date": "2026-04-30",
+      "postcode": "KT22 7AA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, PLATINUM HOUSE, 3, STATION ROAD"
+    },
+    {
+      "price": 283000,
+      "date": "2026-04-29",
+      "postcode": "KT23 4BY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "50, PROCTOR GARDENS"
+    },
+    {
+      "price": 333000,
+      "date": "2026-04-29",
+      "postcode": "KT22 0AS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, 90, CONSORT DRIVE"
+    },
+    {
+      "price": 295000,
+      "date": "2026-04-29",
+      "postcode": "KT22 7BT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "88B, KINGSTON ROAD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-04-29",
+      "postcode": "KT22 8AX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BYRON PLACE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-04-27",
+      "postcode": "KT22 7PZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "174A, KINGSTON ROAD"
+    },
+    {
+      "price": 362500,
+      "date": "2026-04-24",
+      "postcode": "KT22 7UG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 16, OPUS COURT, BAY TREE AVENUE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-04-24",
+      "postcode": "KT22 7LN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 4, BURLEIGH COURT, BELMONT ROAD"
+    },
+    {
+      "price": 506000,
+      "date": "2026-04-24",
+      "postcode": "KT22 8AS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, WAVERLEY PLACE"
+    },
+    {
+      "price": 785000,
+      "date": "2026-04-24",
+      "postcode": "KT22 9LA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, NUTCROFT GROVE"
+    },
+    {
+      "price": 650000,
+      "date": "2026-04-24",
+      "postcode": "KT22 9FF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, RIVER WALK"
+    },
+    {
+      "price": 440000,
       "date": "2026-04-23",
-      "postcode": "KT22 7XP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, KINGSTON SQUARE"
-    },
-    {
-      "price": 5750000,
-      "date": "2026-04-16",
-      "postcode": "KT22 0DJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FAIROAKS LODGE, PACHESHAM PARK"
-    },
-    {
-      "price": 468000,
-      "date": "2026-04-10",
-      "postcode": "KT22 7HD",
+      "postcode": "KT22 9PA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, PARR CLOSE"
-    },
-    {
-      "price": 312500,
-      "date": "2026-04-10",
-      "postcode": "KT22 8SW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, GROSVENOR COURT, 15, EPSOM ROAD"
-    },
-    {
-      "price": 315000,
-      "date": "2026-04-07",
-      "postcode": "KT22 7PE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "237, KINGSTON ROAD"
-    },
-    {
-      "price": 876000,
-      "date": "2026-04-02",
-      "postcode": "KT23 3NP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "78, EASTWICK PARK AVENUE"
-    },
-    {
-      "price": 1335000,
-      "date": "2026-04-01",
-      "postcode": "KT22 8LH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "COPPERS, THE DOWNS"
-    },
-    {
-      "price": 495000,
-      "date": "2026-03-30",
-      "postcode": "KT22 8SE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, ST JOHNS ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-30",
-      "postcode": "KT22 8TG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, EAST LODGE, EPSOM ROAD"
-    },
-    {
-      "price": 806000,
-      "date": "2026-03-27",
-      "postcode": "KT23 4BU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, CAMILLA CLOSE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-03-26",
-      "postcode": "KT22 7AB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 8, LEITH HOUSE, STATION ROAD"
-    },
-    {
-      "price": 685000,
-      "date": "2026-03-25",
-      "postcode": "KT22 7HR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, QUEEN ANNES TERRACE"
-    },
-    {
-      "price": 845000,
-      "date": "2026-03-24",
-      "postcode": "KT23 4PW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, HOWARD ROAD"
-    },
-    {
-      "price": 445000,
-      "date": "2026-03-24",
-      "postcode": "KT22 7SJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, OAKS COURT"
-    },
-    {
-      "price": 800000,
-      "date": "2026-03-20",
-      "postcode": "KT22 8UB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, BEAUCLARE CLOSE"
-    },
-    {
-      "price": 463000,
-      "date": "2026-03-20",
-      "postcode": "KT23 3DB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, MIDDLEMEAD ROAD"
-    },
-    {
-      "price": 788000,
-      "date": "2026-03-20",
-      "postcode": "KT22 9DH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ELMER COTTAGES"
-    },
-    {
-      "price": 420000,
-      "date": "2026-03-19",
-      "postcode": "KT23 3JL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, PARK CORNER, THE PARK"
-    },
-    {
-      "price": 422500,
-      "date": "2026-03-19",
-      "postcode": "KT23 4NS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12, BOOKHAM GROVE"
-    },
-    {
-      "price": 800000,
-      "date": "2026-03-18",
-      "postcode": "KT22 8SX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, MELVINSHAW"
+      "address": "21, COPPERFIELDS"
     }
   ],
   "monthlyHistory": [
@@ -291,13 +291,13 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 551250,
-      "transactions": 60
+      "medianPrice": 558750,
+      "transactions": 62
     },
     {
       "month": "2025-08",
-      "medianPrice": 625000,
-      "transactions": 43
+      "medianPrice": 615000,
+      "transactions": 45
     },
     {
       "month": "2025-09",
@@ -306,18 +306,18 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 615500,
-      "transactions": 52
+      "medianPrice": 606000,
+      "transactions": 53
     },
     {
       "month": "2025-11",
-      "medianPrice": 597750,
+      "medianPrice": 631500,
       "transactions": 26
     },
     {
       "month": "2025-12",
-      "medianPrice": 560000,
-      "transactions": 31
+      "medianPrice": 537500,
+      "transactions": 32
     },
     {
       "month": "2026-01",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 450000,
-      "transactions": 23
+      "medianPrice": 456500,
+      "transactions": 26
     },
     {
       "month": "2026-04",
-      "medianPrice": 468000,
-      "transactions": 7
+      "medianPrice": 367500,
+      "transactions": 23
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 549250,
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -374,22 +379,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 622500,
-      "transactions": 138
+      "transactions": 142
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 595000,
-      "transactions": 109
+      "transactions": 111
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 525475,
-      "transactions": 86
+      "medianPrice": 532950,
+      "transactions": 89
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 468000,
-      "transactions": 7
+      "medianPrice": 440000,
+      "transactions": 31
     }
   ]
 }

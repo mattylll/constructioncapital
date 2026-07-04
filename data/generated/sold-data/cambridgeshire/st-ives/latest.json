@@ -1,22 +1,175 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.635Z",
+  "updatedAt": "2026-07-03T11:39:54.426Z",
   "townSlug": "st-ives",
   "countySlug": "cambridgeshire",
   "stats": {
-    "medianPrice": 317150,
+    "medianPrice": 300000,
     "medianByType": {
-      "D": 432500,
-      "S": 317500,
-      "T": 267000,
-      "F": 191000
+      "D": 435000,
+      "S": 312500,
+      "T": 257750,
+      "F": 190000
     },
-    "transactionCount12m": 204,
-    "yoyChange": 4,
-    "newBuildCount": 1,
-    "existingCount": 203,
+    "transactionCount12m": 221,
+    "yoyChange": -3.2,
+    "newBuildCount": 0,
+    "existingCount": 221,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 480000,
+      "date": "2026-05-26",
+      "postcode": "PE27 3JQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, WOODSIDE WAY"
+    },
+    {
+      "price": 356500,
+      "date": "2026-05-18",
+      "postcode": "PE27 3YB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, ABBOTS CRESCENT"
+    },
+    {
+      "price": 260000,
+      "date": "2026-05-15",
+      "postcode": "PE27 3DY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, WITHAM CLOSE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-05-15",
+      "postcode": "PE27 5HB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, GREENFIELDS"
+    },
+    {
+      "price": 225000,
+      "date": "2026-05-11",
+      "postcode": "PE27 3JA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, DART CLOSE"
+    },
+    {
+      "price": 138500,
+      "date": "2026-05-07",
+      "postcode": "PE27 5BP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "29, NORRIS ROAD"
+    },
+    {
+      "price": 220000,
+      "date": "2026-05-07",
+      "postcode": "PE27 3JD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, TAMAR CLOSE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-05-06",
+      "postcode": "PE27 4SJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "74, HIGH STREET"
+    },
+    {
+      "price": 237500,
+      "date": "2026-05-06",
+      "postcode": "PE27 3DB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "78, EDINBURGH DRIVE"
+    },
+    {
+      "price": 120000,
+      "date": "2026-05-06",
+      "postcode": "PE27 6SP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "39, HILL RISE"
+    },
+    {
+      "price": 330500,
+      "date": "2026-05-05",
+      "postcode": "PE27 3FN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "85, WAVENEY ROAD"
+    },
+    {
+      "price": 258000,
+      "date": "2026-05-01",
+      "postcode": "PE27 5DP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, ST LEGERS MEWS"
+    },
+    {
+      "price": 185000,
+      "date": "2026-05-01",
+      "postcode": "PE27 3DB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, EDINBURGH DRIVE"
+    },
+    {
+      "price": 415000,
+      "date": "2026-04-30",
+      "postcode": "PE27 5JT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, NEEDINGWORTH ROAD"
+    },
+    {
+      "price": 237000,
+      "date": "2026-04-27",
+      "postcode": "PE27 3DB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, EDINBURGH DRIVE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-04-23",
+      "postcode": "PE27 3DF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, BURLEIGH ROAD"
+    },
+    {
+      "price": 160000,
+      "date": "2026-04-16",
+      "postcode": "PE27 3HR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, DERWENT CLOSE"
+    },
     {
       "price": 175000,
       "date": "2026-04-15",
@@ -36,166 +189,13 @@
       "address": "2, FARTHING COURT, FARTHING LANE"
     },
     {
-      "price": 577500,
-      "date": "2026-04-08",
-      "postcode": "PE27 3JH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, RUSHINGTON CLOSE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-04-07",
-      "postcode": "PE27 6SB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, GREEN LEYS"
-    },
-    {
-      "price": 600000,
-      "date": "2026-04-07",
-      "postcode": "PE27 5HF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55A, HEMINGFORD ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-03-31",
-      "postcode": "PE27 5RP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, CROWN MEWS"
-    },
-    {
-      "price": 324000,
-      "date": "2026-03-27",
-      "postcode": "PE27 6TB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, KNIGHTS WAY"
-    },
-    {
-      "price": 435000,
-      "date": "2026-03-26",
-      "postcode": "PE27 3HH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, GAINSBOROUGH DRIVE"
-    },
-    {
-      "price": 136000,
-      "date": "2026-03-26",
-      "postcode": "PE27 6TA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, THE CRESCENT"
-    },
-    {
-      "price": 190000,
-      "date": "2026-03-24",
-      "postcode": "PE27 5EP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, BRIDGEFOOT, LONDON ROAD"
-    },
-    {
       "price": 365000,
-      "date": "2026-03-23",
-      "postcode": "PE27 4TB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6A, CHURCH STREET"
-    },
-    {
-      "price": 325000,
-      "date": "2026-03-20",
-      "postcode": "PE27 3YY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, ALL SAINTS GREEN"
-    },
-    {
-      "price": 185000,
-      "date": "2026-03-16",
-      "postcode": "PE27 3FT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, OUSE ROAD"
-    },
-    {
-      "price": 520000,
-      "date": "2026-03-09",
-      "postcode": "PE27 6HY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, BLACK HILL ROAD"
-    },
-    {
-      "price": 380000,
-      "date": "2026-03-06",
-      "postcode": "PE27 3XH",
+      "date": "2026-04-10",
+      "postcode": "PE27 3UU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, ALL SAINTS GREEN"
-    },
-    {
-      "price": 369000,
-      "date": "2026-03-06",
-      "postcode": "PE27 5DR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, TERN DRIVE"
-    },
-    {
-      "price": 600000,
-      "date": "2026-03-02",
-      "postcode": "PE27 5ES",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ARMES CORNER, LONDON ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-03-02",
-      "postcode": "PE27 6TE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, BRIGHAM CRESCENT"
-    },
-    {
-      "price": 205000,
-      "date": "2026-02-27",
-      "postcode": "PE27 5WZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, MAYTREES"
-    },
-    {
-      "price": 525000,
-      "date": "2026-02-26",
-      "postcode": "PE27 6TG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, WILSON WAY"
+      "address": "48, STIRLING ROAD"
     }
   ],
   "monthlyHistory": [
@@ -291,13 +291,13 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 296000,
-      "transactions": 24
+      "medianPrice": 282000,
+      "transactions": 25
     },
     {
       "month": "2025-08",
       "medianPrice": 305000,
-      "transactions": 28
+      "transactions": 30
     },
     {
       "month": "2025-09",
@@ -306,18 +306,18 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 375000,
-      "transactions": 23
+      "medianPrice": 360000,
+      "transactions": 24
     },
     {
       "month": "2025-11",
       "medianPrice": 259000,
-      "transactions": 13
+      "transactions": 17
     },
     {
       "month": "2025-12",
-      "medianPrice": 278750,
-      "transactions": 28
+      "medianPrice": 295000,
+      "transactions": 29
     },
     {
       "month": "2026-01",
@@ -332,12 +332,17 @@
     {
       "month": "2026-03",
       "medianPrice": 365000,
-      "transactions": 13
+      "transactions": 15
     },
     {
       "month": "2026-04",
-      "medianPrice": 450000,
-      "transactions": 5
+      "medianPrice": 290500,
+      "transactions": 12
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 258000,
+      "transactions": 13
     }
   ],
   "quarterlyHistory": [
@@ -373,23 +378,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 297500,
-      "transactions": 80
+      "medianPrice": 295000,
+      "transactions": 83
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 305000,
-      "transactions": 64
+      "medianPrice": 310000,
+      "transactions": 70
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 325000,
-      "transactions": 43
+      "transactions": 45
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 450000,
-      "transactions": 5
+      "medianPrice": 260000,
+      "transactions": 25
     }
   ]
 }

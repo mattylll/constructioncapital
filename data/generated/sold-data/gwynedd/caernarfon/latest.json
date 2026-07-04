@@ -1,29 +1,164 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.945Z",
+  "updatedAt": "2026-07-03T11:39:54.761Z",
   "townSlug": "caernarfon",
   "countySlug": "gwynedd",
   "stats": {
     "medianPrice": 189500,
     "medianByType": {
-      "D": 301500,
+      "D": 316250,
       "S": 199950,
       "T": 150000
     },
-    "transactionCount12m": 278,
-    "yoyChange": 4.1,
+    "transactionCount12m": 296,
+    "yoyChange": 3.3,
     "newBuildCount": 0,
-    "existingCount": 278,
+    "existingCount": 296,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 88000,
-      "date": "2026-04-17",
-      "postcode": "LL54 7PT",
+      "price": 120000,
+      "date": "2026-05-11",
+      "postcode": "LL54 6NN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, DOLAWEN TERRACE"
+      "address": "6, MARKET PLACE"
+    },
+    {
+      "price": 380000,
+      "date": "2026-05-11",
+      "postcode": "LL54 7LB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "AELYBRYN"
+    },
+    {
+      "price": 210000,
+      "date": "2026-05-11",
+      "postcode": "LL55 1RT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, MARKET STREET"
+    },
+    {
+      "price": 430000,
+      "date": "2026-05-08",
+      "postcode": "LL55 3AD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE BUNGALOW, GORS BACH"
+    },
+    {
+      "price": 355000,
+      "date": "2026-05-01",
+      "postcode": "LL55 3AL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "RHOS AERON"
+    },
+    {
+      "price": 237000,
+      "date": "2026-05-01",
+      "postcode": "LL55 4ER",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, CHARLOTTE STREET"
+    },
+    {
+      "price": 130000,
+      "date": "2026-04-30",
+      "postcode": "LL54 7BD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRON EIFION"
+    },
+    {
+      "price": 295000,
+      "date": "2026-04-30",
+      "postcode": "LL55 4ZA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, LLYS Y WAUN"
+    },
+    {
+      "price": 119000,
+      "date": "2026-04-30",
+      "postcode": "LL55 3HT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MARIAN TERRACE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-04-30",
+      "postcode": "LL55 4TR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, VAYNOL COTTAGES"
+    },
+    {
+      "price": 370000,
+      "date": "2026-04-29",
+      "postcode": "LL55 2TB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LLWYN ALICE"
+    },
+    {
+      "price": 212000,
+      "date": "2026-04-28",
+      "postcode": "LL54 7TQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, CEFN DYFFRYN"
+    },
+    {
+      "price": 395000,
+      "date": "2026-04-28",
+      "postcode": "LL54 5TJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GER Y LLAN"
+    },
+    {
+      "price": 170000,
+      "date": "2026-04-27",
+      "postcode": "LL54 5LR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, LIME STREET"
+    },
+    {
+      "price": 195000,
+      "date": "2026-04-24",
+      "postcode": "LL55 4ER",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CHARLOTTE STREET"
+    },
+    {
+      "price": 55000,
+      "date": "2026-04-21",
+      "postcode": "LL55 2SH",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "CHALET 191, GLAN GWNA HOLIDAY PARK"
     },
     {
       "price": 80000,
@@ -35,6 +170,24 @@
       "address": "29, HIGH STREET"
     },
     {
+      "price": 88000,
+      "date": "2026-04-17",
+      "postcode": "LL54 7PT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, DOLAWEN TERRACE"
+    },
+    {
+      "price": 170000,
+      "date": "2026-04-17",
+      "postcode": "LL55 2LA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, BEULAH SQUARE"
+    },
+    {
       "price": 195000,
       "date": "2026-04-16",
       "postcode": "LL54 5ET",
@@ -42,159 +195,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "4, GARTH ESTATE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-04-16",
-      "postcode": "LL54 6LF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HAFODLAS-UCHAF"
-    },
-    {
-      "price": 233333,
-      "date": "2026-04-15",
-      "postcode": "LL55 1EA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "Y BETWS, PENGELLI WYN ESTATE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-04-09",
-      "postcode": "LL55 4AU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54, BRO RHYTHALLT"
-    },
-    {
-      "price": 280000,
-      "date": "2026-04-02",
-      "postcode": "LL55 2PH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, SEGONTIUM TERRACE"
-    },
-    {
-      "price": 170000,
-      "date": "2026-04-01",
-      "postcode": "LL55 2HW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ST HELENS TERRACE"
-    },
-    {
-      "price": 375000,
-      "date": "2026-03-31",
-      "postcode": "LL55 4HD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CRUD YR AWEL, TYDU ROAD"
-    },
-    {
-      "price": 525000,
-      "date": "2026-03-31",
-      "postcode": "LL55 3HD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRYNFFYNNON"
-    },
-    {
-      "price": 825000,
-      "date": "2026-03-31",
-      "postcode": "LL55 1BA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, NORTH ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-03-24",
-      "postcode": "LL54 5AL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BODHYFRYD"
-    },
-    {
-      "price": 69000,
-      "date": "2026-03-16",
-      "postcode": "LL55 3LE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, GREEN TERRACE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-03-16",
-      "postcode": "LL55 4AU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, BRO RHYTHALLT"
-    },
-    {
-      "price": 252000,
-      "date": "2026-03-16",
-      "postcode": "LL55 2TW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ERW WEN"
-    },
-    {
-      "price": 195000,
-      "date": "2026-03-16",
-      "postcode": "LL54 5SF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LLWYN"
-    },
-    {
-      "price": 187500,
-      "date": "2026-03-13",
-      "postcode": "LL54 6BL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, BALA DEULYN TERRACE"
-    },
-    {
-      "price": 136596,
-      "date": "2026-03-11",
-      "postcode": "LL55 2SJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, GWEL Y LLAN"
-    },
-    {
-      "price": 160000,
-      "date": "2026-03-09",
-      "postcode": "LL55 1PG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, ELEANOR STREET"
-    },
-    {
-      "price": 220000,
-      "date": "2026-03-09",
-      "postcode": "LL55 4LE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, FRONGOCH"
     }
   ],
   "monthlyHistory": [
@@ -291,27 +291,27 @@
     {
       "month": "2025-07",
       "medianPrice": 175000,
-      "transactions": 30
+      "transactions": 32
     },
     {
       "month": "2025-08",
-      "medianPrice": 195500,
-      "transactions": 46
+      "medianPrice": 192500,
+      "transactions": 50
     },
     {
       "month": "2025-09",
       "medianPrice": 195000,
-      "transactions": 29
+      "transactions": 31
     },
     {
       "month": "2025-10",
-      "medianPrice": 168000,
-      "transactions": 39
+      "medianPrice": 169000,
+      "transactions": 42
     },
     {
       "month": "2025-11",
-      "medianPrice": 189000,
-      "transactions": 25
+      "medianPrice": 194475,
+      "transactions": 26
     },
     {
       "month": "2025-12",
@@ -336,7 +336,12 @@
     {
       "month": "2026-04",
       "medianPrice": 190000,
-      "transactions": 8
+      "transactions": 20
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 296000,
+      "transactions": 6
     }
   ],
   "quarterlyHistory": [
@@ -372,13 +377,13 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 192000,
-      "transactions": 105
+      "medianPrice": 190000,
+      "transactions": 113
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 184000,
-      "transactions": 89
+      "medianPrice": 187500,
+      "transactions": 93
     },
     {
       "quarter": "2026-Q1",
@@ -387,8 +392,8 @@
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 190000,
-      "transactions": 8
+      "medianPrice": 202500,
+      "transactions": 26
     }
   ]
 }

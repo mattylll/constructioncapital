@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:06.883Z",
+  "updatedAt": "2026-07-03T11:39:52.578Z",
   "townSlug": "newton-abbot",
   "countySlug": "devon",
   "stats": {
-    "medianPrice": 293750,
+    "medianPrice": 293625,
     "medianByType": {
-      "D": 422500,
-      "S": 291000,
+      "D": 425000,
+      "S": 290000,
       "T": 235000,
-      "F": 160000
+      "F": 155000
     },
-    "transactionCount12m": 1659,
+    "transactionCount12m": 1730,
     "yoyChange": -2.1,
-    "newBuildCount": 44,
-    "existingCount": 1615,
-    "newBuildPremium": 23.3
+    "newBuildCount": 27,
+    "existingCount": 1703,
+    "newBuildPremium": 37.6
   },
   "recentTransactions": [
     {
-      "price": 286000,
-      "date": "2026-04-28",
-      "postcode": "TQ12 3NG",
+      "price": 148500,
+      "date": "2026-05-22",
+      "postcode": "TQ12 5EE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "162, EXETER ROAD"
+      "address": "19, JURYS CORNER CLOSE"
     },
     {
-      "price": 295000,
-      "date": "2026-04-27",
-      "postcode": "TQ12 2NT",
+      "price": 230000,
+      "date": "2026-05-22",
+      "postcode": "TQ13 8NX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "86, ABBOTSBURY ROAD"
+      "address": "3, POUND STREET"
     },
     {
-      "price": 76000,
-      "date": "2026-04-24",
-      "postcode": "TQ12 2DG",
-      "propertyType": "F",
+      "price": 426000,
+      "date": "2026-05-22",
+      "postcode": "TQ13 7AU",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 33, LYDFORD HOUSE, HAMELDOWN WAY"
+      "tenure": "F",
+      "address": "LAURESTON, HARES LANE"
+    },
+    {
+      "price": 232500,
+      "date": "2026-05-22",
+      "postcode": "TQ12 3YZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, LITTLE CLOSE"
+    },
+    {
+      "price": 327150,
+      "date": "2026-05-22",
+      "postcode": "EX2 9RQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, FORE STREET"
+    },
+    {
+      "price": 360000,
+      "date": "2026-05-22",
+      "postcode": "TQ12 5JQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, SOUTHEY CRESCENT"
+    },
+    {
+      "price": 200000,
+      "date": "2026-05-21",
+      "postcode": "EX7 9SS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, TAYLOR CLOSE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-05-20",
+      "postcode": "TQ14 9DJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, FIRST AVENUE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-05-19",
+      "postcode": "EX6 8AR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, GLEBELANDS"
+    },
+    {
+      "price": 270000,
+      "date": "2026-05-15",
+      "postcode": "TQ13 9GT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, BOWDENS CLOSE"
+    },
+    {
+      "price": 320500,
+      "date": "2026-05-14",
+      "postcode": "TQ12 4JX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, CHESTNUT DRIVE"
     },
     {
       "price": 400000,
-      "date": "2026-04-24",
-      "postcode": "EX6 8AT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "NORTH LODGE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-04-23",
-      "postcode": "TQ12 6RU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, HEATHER ESTATE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-04-22",
-      "postcode": "EX7 9AZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, MEADOW RISE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-04-22",
-      "postcode": "TQ13 9UA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LAUREL COTTAGE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-04-21",
-      "postcode": "TQ12 3BD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "KINDLE COTTAGE, GREENHILL ROAD"
-    },
-    {
-      "price": 330000,
-      "date": "2026-04-21",
-      "postcode": "TQ12 5YJ",
+      "date": "2026-05-14",
+      "postcode": "TQ13 0AH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, FULTON CLOSE"
+      "address": "2, WINSTOW COTTAGES"
     },
     {
-      "price": 400000,
-      "date": "2026-04-21",
-      "postcode": "TQ14 8QS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, ASHLEIGH WAY"
-    },
-    {
-      "price": 125000,
-      "date": "2026-04-21",
-      "postcode": "TQ13 0PJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "80, PALACE MEADOW"
-    },
-    {
-      "price": 300000,
-      "date": "2026-04-21",
-      "postcode": "TQ12 5YN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, DORNAFIELD DRIVE EAST"
-    },
-    {
-      "price": 315000,
-      "date": "2026-04-20",
-      "postcode": "TQ12 1PN",
+      "price": 510000,
+      "date": "2026-05-13",
+      "postcode": "EX7 0AW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, WOODLEIGH ROAD"
+      "address": "4, HENTY AVENUE"
     },
     {
-      "price": 235000,
-      "date": "2026-04-20",
-      "postcode": "TQ11 0PF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, HOSKINGS COURT, STRODE ROAD"
-    },
-    {
-      "price": 183000,
-      "date": "2026-04-20",
-      "postcode": "EX7 9LG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, KING STREET"
-    },
-    {
-      "price": 322500,
-      "date": "2026-04-17",
-      "postcode": "TQ12 1GZ",
+      "price": 325000,
+      "date": "2026-05-13",
+      "postcode": "EX7 0EA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, BUGLE PLACE"
+      "address": "5, NEWLANDS"
     },
     {
-      "price": 225000,
-      "date": "2026-04-17",
-      "postcode": "EX7 9AD",
+      "price": 290000,
+      "date": "2026-05-12",
+      "postcode": "EX7 9EL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, PRINCE ALBERT PLACE"
+      "address": "122, WEST CLIFF PARK DRIVE"
     },
     {
-      "price": 135000,
-      "date": "2026-04-16",
-      "postcode": "TQ12 2AP",
+      "price": 410000,
+      "date": "2026-05-12",
+      "postcode": "EX7 9EP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, LEA MOUNT CLOSE"
+    },
+    {
+      "price": 245000,
+      "date": "2026-05-11",
+      "postcode": "TQ11 0BZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, ELLIOTT PLAIN"
+    },
+    {
+      "price": 477000,
+      "date": "2026-05-11",
+      "postcode": "TQ13 7LH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HOMELEIGH"
+    },
+    {
+      "price": 580000,
+      "date": "2026-05-08",
+      "postcode": "TQ13 0EE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE BUNGALOW, STATION HILL"
+    },
+    {
+      "price": 97000,
+      "date": "2026-05-08",
+      "postcode": "TQ14 8BR",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 32, D'ARCY COURT, MARSH ROAD"
-    },
-    {
-      "price": 180000,
-      "date": "2026-04-16",
-      "postcode": "TQ12 3BG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, SANDPATH ROAD"
-    },
-    {
-      "price": 539000,
-      "date": "2026-04-15",
-      "postcode": "TQ12 5UW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "AMBROOK BARN"
+      "address": "FLAT 38, ROYAL COURT, DEN CRESCENT"
     }
   ],
   "monthlyHistory": [
@@ -272,72 +272,77 @@
     {
       "month": "2025-03",
       "medianPrice": 315000,
-      "transactions": 319
+      "transactions": 320
     },
     {
       "month": "2025-04",
-      "medianPrice": 270000,
-      "transactions": 103
+      "medianPrice": 271000,
+      "transactions": 104
     },
     {
       "month": "2025-05",
-      "medianPrice": 290000,
-      "transactions": 118
+      "medianPrice": 291500,
+      "transactions": 120
     },
     {
       "month": "2025-06",
-      "medianPrice": 295000,
-      "transactions": 199
+      "medianPrice": 297125,
+      "transactions": 214
     },
     {
       "month": "2025-07",
-      "medianPrice": 295000,
-      "transactions": 235
+      "medianPrice": 300000,
+      "transactions": 245
     },
     {
       "month": "2025-08",
-      "medianPrice": 295000,
-      "transactions": 204
+      "medianPrice": 295750,
+      "transactions": 214
     },
     {
       "month": "2025-09",
-      "medianPrice": 326000,
-      "transactions": 170
+      "medianPrice": 315000,
+      "transactions": 177
     },
     {
       "month": "2025-10",
-      "medianPrice": 317000,
-      "transactions": 192
+      "medianPrice": 318000,
+      "transactions": 197
     },
     {
       "month": "2025-11",
-      "medianPrice": 285000,
-      "transactions": 165
+      "medianPrice": 289000,
+      "transactions": 180
     },
     {
       "month": "2025-12",
-      "medianPrice": 258500,
-      "transactions": 156
+      "medianPrice": 260000,
+      "transactions": 167
     },
     {
       "month": "2026-01",
-      "medianPrice": 285000,
-      "transactions": 118
+      "medianPrice": 280000,
+      "transactions": 119
     },
     {
       "month": "2026-02",
-      "medianPrice": 285000,
-      "transactions": 131
+      "medianPrice": 283750,
+      "transactions": 132
     },
     {
       "month": "2026-03",
-      "medianPrice": 305000,
-      "transactions": 141
+      "medianPrice": 301500,
+      "transactions": 152
     },
     {
       "month": "2026-04",
-      "medianPrice": 315000,
-      "transactions": 61
+      "medianPrice": 290000,
+      "transactions": 124
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 270000,
+      "transactions": 35
     }
   ],
   "quarterlyHistory": [
@@ -363,33 +368,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 300000,
-      "transactions": 677
+      "medianPrice": 302250,
+      "transactions": 678
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 290000,
-      "transactions": 420
+      "transactions": 438
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 300000,
-      "transactions": 609
+      "transactions": 636
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 285000,
-      "transactions": 513
+      "medianPrice": 290000,
+      "transactions": 544
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 290000,
-      "transactions": 390
+      "medianPrice": 285000,
+      "transactions": 403
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 315000,
-      "transactions": 61
+      "medianPrice": 290000,
+      "transactions": 159
     }
   ]
 }

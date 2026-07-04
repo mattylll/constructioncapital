@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.699Z",
+  "updatedAt": "2026-07-03T11:39:54.497Z",
   "townSlug": "cardiff-city-centre",
   "countySlug": "cardiff",
   "stats": {
-    "medianPrice": 266000,
+    "medianPrice": 265000,
     "medianByType": {
       "D": 460000,
-      "S": 299000,
+      "S": 297000,
       "T": 265000,
-      "F": 162000
+      "F": 161000
     },
-    "transactionCount12m": 3463,
-    "yoyChange": 0.4,
-    "newBuildCount": 62,
-    "existingCount": 3401,
-    "newBuildPremium": 72.1
+    "transactionCount12m": 3662,
+    "yoyChange": 0,
+    "newBuildCount": 34,
+    "existingCount": 3628,
+    "newBuildPremium": 72.5
   },
   "recentTransactions": [
     {
-      "price": 131147,
-      "date": "2026-04-27",
-      "postcode": "CF11 6EY",
+      "price": 475500,
+      "date": "2026-05-22",
+      "postcode": "CF15 8FD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, BRYN CALCH"
+    },
+    {
+      "price": 285000,
+      "date": "2026-05-22",
+      "postcode": "CF14 4NJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "126, CRADDOCK STREET"
+      "address": "90, FFORDD TY UNNOS"
     },
     {
-      "price": 250000,
-      "date": "2026-04-24",
-      "postcode": "CF23 9AY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "103, COLCHESTER AVENUE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-04-24",
-      "postcode": "CF24 2HF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, HANDLEY ROAD"
-    },
-    {
-      "price": 425000,
-      "date": "2026-04-24",
-      "postcode": "CF14 2BR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, WESTBOURNE ROAD"
-    },
-    {
-      "price": 350000,
-      "date": "2026-04-23",
-      "postcode": "CF11 9DF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "183, KINGS ROAD"
-    },
-    {
-      "price": 150000,
-      "date": "2026-04-23",
-      "postcode": "CF10 5NX",
+      "price": 152000,
+      "date": "2026-05-22",
+      "postcode": "CF10 4ET",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "37, HANSEN COURT, HEOL GLAN RHEIDOL"
+      "address": "APARTMENT 24, SCHOONER WHARF, SCHOONER DRIVE"
     },
     {
-      "price": 140000,
-      "date": "2026-04-22",
-      "postcode": "CF5 4QE",
+      "price": 305000,
+      "date": "2026-05-21",
+      "postcode": "CF24 3LA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, MOSTYN ROAD"
+      "address": "161, GLENROY STREET"
     },
     {
-      "price": 242000,
-      "date": "2026-04-22",
-      "postcode": "CF14 4NP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, ARMOURY DRIVE"
-    },
-    {
-      "price": 297650,
-      "date": "2026-04-21",
-      "postcode": "CF24 2LQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "170, MOORLAND ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-04-21",
-      "postcode": "CF5 6GD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, GWERN CATHERINE"
-    },
-    {
-      "price": 202000,
-      "date": "2026-04-21",
-      "postcode": "CF5 1NF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12A, TINTERN STREET"
-    },
-    {
-      "price": 225000,
-      "date": "2026-04-20",
-      "postcode": "CF11 6TJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, COMPTON STREET"
-    },
-    {
-      "price": 400000,
-      "date": "2026-04-20",
-      "postcode": "CF11 9EE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, WYNDHAM CRESCENT"
-    },
-    {
-      "price": 245000,
-      "date": "2026-04-20",
-      "postcode": "CF23 8EQ",
+      "price": 385000,
+      "date": "2026-05-20",
+      "postcode": "CF24 1DJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "61, THE MALTINGS"
+      "address": "136, NEWPORT ROAD"
     },
     {
-      "price": 415000,
-      "date": "2026-04-17",
-      "postcode": "CF23 8SN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, TARRAGON WAY"
-    },
-    {
-      "price": 240000,
-      "date": "2026-04-17",
-      "postcode": "CF5 5QX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "84, HEOL YR ODYN"
-    },
-    {
-      "price": 235000,
-      "date": "2026-04-17",
-      "postcode": "CF14 9HY",
+      "price": 189000,
+      "date": "2026-05-20",
+      "postcode": "CF14 4PW",
       "propertyType": "T",
       "newBuild": false,
-      "tenure": "F",
-      "address": "8, HUNTSMEAD CLOSE"
+      "tenure": "L",
+      "address": "14, THREIPLAND DRIVE"
     },
     {
       "price": 315000,
-      "date": "2026-04-17",
-      "postcode": "CF14 3EB",
+      "date": "2026-05-20",
+      "postcode": "CF14 4AD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, CAERPHILLY ROAD"
+    },
+    {
+      "price": 405000,
+      "date": "2026-05-19",
+      "postcode": "CF23 6DQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "122, MYNACHDY ROAD"
+      "address": "15, TORRENS DRIVE"
     },
     {
-      "price": 380000,
-      "date": "2026-04-17",
-      "postcode": "CF11 9QE",
-      "propertyType": "D",
+      "price": 215000,
+      "date": "2026-05-19",
+      "postcode": "CF11 0LA",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "12, BLOOM STREET"
+      "tenure": "L",
+      "address": "72, DAVAAR HOUSE, FERRY COURT"
     },
     {
-      "price": 350000,
-      "date": "2026-04-16",
-      "postcode": "CF14 1RN",
+      "price": 455000,
+      "date": "2026-05-15",
+      "postcode": "CF24 4HS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "170, MANOR WAY"
+      "address": "31, CATHAYS TERRACE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-05-15",
+      "postcode": "CF11 9BZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, 18, KINGS ROAD"
+    },
+    {
+      "price": 165000,
+      "date": "2026-05-15",
+      "postcode": "CF11 9NL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 6, OLIVE COURT, LLANDAFF ROAD"
+    },
+    {
+      "price": 195000,
+      "date": "2026-05-15",
+      "postcode": "CF11 9EW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, CLOS DEWI SANT"
+    },
+    {
+      "price": 480000,
+      "date": "2026-05-15",
+      "postcode": "CF11 0JX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, FRANCIS STREET"
+    },
+    {
+      "price": 103500,
+      "date": "2026-05-15",
+      "postcode": "CF10 5FW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "26, SOUDREY WAY"
+    },
+    {
+      "price": 196000,
+      "date": "2026-05-15",
+      "postcode": "CF11 0JE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "22, HARTLAND HOUSE, FERRY COURT"
+    },
+    {
+      "price": 323000,
+      "date": "2026-05-15",
+      "postcode": "CF14 5ER",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "29, LLYS PEGASUS, TY GLAS ROAD"
+    },
+    {
+      "price": 319000,
+      "date": "2026-05-15",
+      "postcode": "CF5 1HH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "78, CLIVE ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-05-15",
+      "postcode": "CF24 2JP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, COURTENAY ROAD"
+    },
+    {
+      "price": 43100,
+      "date": "2026-05-15",
+      "postcode": "CF5 3BD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "38, LIMESLADE CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -251,18 +251,18 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 261000,
-      "transactions": 499
+      "medianPrice": 260500,
+      "transactions": 500
     },
     {
       "month": "2024-12",
       "medianPrice": 275000,
-      "transactions": 467
+      "transactions": 468
     },
     {
       "month": "2025-01",
-      "medianPrice": 265000,
-      "transactions": 363
+      "medianPrice": 263750,
+      "transactions": 366
     },
     {
       "month": "2025-02",
@@ -272,71 +272,76 @@
     {
       "month": "2025-03",
       "medianPrice": 260000,
-      "transactions": 506
+      "transactions": 507
     },
     {
       "month": "2025-04",
       "medianPrice": 273000,
-      "transactions": 444
+      "transactions": 446
     },
     {
       "month": "2025-05",
       "medianPrice": 260000,
-      "transactions": 394
+      "transactions": 395
     },
     {
       "month": "2025-06",
-      "medianPrice": 275000,
-      "transactions": 443
+      "medianPrice": 280000,
+      "transactions": 455
     },
     {
       "month": "2025-07",
       "medianPrice": 280000,
-      "transactions": 428
+      "transactions": 443
     },
     {
       "month": "2025-08",
       "medianPrice": 265000,
-      "transactions": 445
+      "transactions": 470
     },
     {
       "month": "2025-09",
       "medianPrice": 255000,
-      "transactions": 402
+      "transactions": 419
     },
     {
       "month": "2025-10",
-      "medianPrice": 270000,
-      "transactions": 469
+      "medianPrice": 269000,
+      "transactions": 493
     },
     {
       "month": "2025-11",
       "medianPrice": 266500,
-      "transactions": 339
+      "transactions": 383
     },
     {
       "month": "2025-12",
-      "medianPrice": 254375,
-      "transactions": 311
+      "medianPrice": 255000,
+      "transactions": 328
     },
     {
       "month": "2026-01",
       "medianPrice": 270000,
-      "transactions": 269
+      "transactions": 282
     },
     {
       "month": "2026-02",
-      "medianPrice": 265250,
-      "transactions": 268
+      "medianPrice": 265000,
+      "transactions": 277
     },
     {
       "month": "2026-03",
-      "medianPrice": 263000,
-      "transactions": 257
+      "medianPrice": 265000,
+      "transactions": 290
     },
     {
       "month": "2026-04",
-      "medianPrice": 242000,
+      "medianPrice": 265000,
+      "transactions": 221
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 275000,
       "transactions": 83
     }
   ],
@@ -359,37 +364,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 265000,
-      "transactions": 1502
+      "transactions": 1504
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 258794,
-      "transactions": 1286
+      "medianPrice": 257750,
+      "transactions": 1290
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 270000,
-      "transactions": 1281
+      "medianPrice": 270500,
+      "transactions": 1296
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 267500,
-      "transactions": 1275
+      "medianPrice": 266500,
+      "transactions": 1332
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 263000,
-      "transactions": 1119
+      "medianPrice": 264005,
+      "transactions": 1204
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 265000,
-      "transactions": 794
+      "transactions": 849
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 242000,
-      "transactions": 83
+      "medianPrice": 266000,
+      "transactions": 304
     }
   ]
 }

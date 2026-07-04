@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.216Z",
+  "updatedAt": "2026-07-03T11:39:53.954Z",
   "townSlug": "rotherham",
   "countySlug": "south-yorkshire",
   "stats": {
-    "medianPrice": 185000,
+    "medianPrice": 182500,
     "medianByType": {
       "D": 305000,
-      "S": 181000,
+      "S": 180000,
       "T": 125000,
-      "F": 105000
+      "F": 103500
     },
-    "transactionCount12m": 2496,
-    "yoyChange": 1.6,
-    "newBuildCount": 94,
-    "existingCount": 2402,
-    "newBuildPremium": 62.5
+    "transactionCount12m": 2638,
+    "yoyChange": 0,
+    "newBuildCount": 60,
+    "existingCount": 2578,
+    "newBuildPremium": 94.4
   },
   "recentTransactions": [
     {
-      "price": 70000,
-      "date": "2026-04-27",
-      "postcode": "S63 6QF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "45, MELTON HIGH STREET"
-    },
-    {
-      "price": 95000,
-      "date": "2026-04-24",
-      "postcode": "S61 2LB",
+      "price": 210000,
+      "date": "2026-05-27",
+      "postcode": "S65 3QX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, THORNTON STREET"
+      "address": "153, DALTON LANE"
     },
     {
-      "price": 95000,
-      "date": "2026-04-24",
-      "postcode": "S61 2LB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, THORNTON STREET"
-    },
-    {
-      "price": 121500,
-      "date": "2026-04-24",
-      "postcode": "S60 5SY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, FREDERICK STREET"
-    },
-    {
-      "price": 218000,
-      "date": "2026-04-24",
-      "postcode": "S66 8BD",
+      "price": 305000,
+      "date": "2026-05-22",
+      "postcode": "S60 5TY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, HAZEL ROAD"
+      "address": "17, CHANDLER GROVE"
+    },
+    {
+      "price": 312300,
+      "date": "2026-05-22",
+      "postcode": "S66 3ZG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, JENKIN WOOD CLOSE"
+    },
+    {
+      "price": 148500,
+      "date": "2026-05-22",
+      "postcode": "S25 2SY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, WENTWORTH WAY"
+    },
+    {
+      "price": 85000,
+      "date": "2026-05-21",
+      "postcode": "S60 2SQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "8, BROOM CHASE"
     },
     {
       "price": 150000,
-      "date": "2026-04-23",
-      "postcode": "S65 2EX",
+      "date": "2026-05-20",
+      "postcode": "S66 3PR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, WESTERN ROAD"
+      "address": "16, LABURNUM AVENUE"
     },
     {
-      "price": 175000,
-      "date": "2026-04-22",
-      "postcode": "S66 8AG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "198, DALE HILL ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-04-22",
-      "postcode": "S66 8RG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, VICTORIA WAY"
-    },
-    {
-      "price": 60000,
-      "date": "2026-04-22",
-      "postcode": "S61 1BJ",
+      "price": 190000,
+      "date": "2026-05-20",
+      "postcode": "S60 8DB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, JOSEPHINE ROAD"
-    },
-    {
-      "price": 180000,
-      "date": "2026-04-17",
-      "postcode": "S62 5NE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48A, KILNHURST ROAD"
-    },
-    {
-      "price": 103000,
-      "date": "2026-04-17",
-      "postcode": "S61 2LJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 25, TRAFFORD APARTMENTS, RICHMOND WAY"
-    },
-    {
-      "price": 255000,
-      "date": "2026-04-17",
-      "postcode": "S66 9FH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, CANDLE CRESCENT"
-    },
-    {
-      "price": 118000,
-      "date": "2026-04-17",
-      "postcode": "S63 6BH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, WEST END ROAD"
-    },
-    {
-      "price": 155000,
-      "date": "2026-04-17",
-      "postcode": "S60 5EZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, THORNDALE RISE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-04-17",
-      "postcode": "S66 9DP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, CLARKE AVENUE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-04-17",
-      "postcode": "S62 7EL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "92, MONKWOOD ROAD"
-    },
-    {
-      "price": 43500,
-      "date": "2026-04-17",
-      "postcode": "S66 2EZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "136, FLEMING WAY"
-    },
-    {
-      "price": 258000,
-      "date": "2026-04-15",
-      "postcode": "S63 7LX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, WOODSIDE AVENUE"
-    },
-    {
-      "price": 172500,
-      "date": "2026-04-15",
-      "postcode": "S66 8BH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, HAIDS ROAD"
+      "address": "140, LESCAR ROAD"
     },
     {
       "price": 210000,
-      "date": "2026-04-15",
-      "postcode": "S25 2DA",
+      "date": "2026-05-19",
+      "postcode": "S61 2AS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4, KEPPEL VIEW ROAD"
+    },
+    {
+      "price": 140000,
+      "date": "2026-05-19",
+      "postcode": "S61 4PP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, FIRTH STREET"
+    },
+    {
+      "price": 186550,
+      "date": "2026-05-19",
+      "postcode": "S66 3ZT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, THE GREEN"
+    },
+    {
+      "price": 120000,
+      "date": "2026-05-15",
+      "postcode": "S61 4QG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, FENTON WAY"
+    },
+    {
+      "price": 240000,
+      "date": "2026-05-15",
+      "postcode": "S65 3DA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "40, TRUSDALE AVENUE"
+      "address": "18, DALE AVENUE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-05-15",
+      "postcode": "S65 3JD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, WINLEA AVENUE"
+    },
+    {
+      "price": 287500,
+      "date": "2026-05-15",
+      "postcode": "S60 4BX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, EAST BAWTRY ROAD"
+    },
+    {
+      "price": 100000,
+      "date": "2026-05-15",
+      "postcode": "S60 1JB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, FALDING STREET"
+    },
+    {
+      "price": 90000,
+      "date": "2026-05-15",
+      "postcode": "S60 5DH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "79, ELLIS STREET"
+    },
+    {
+      "price": 60000,
+      "date": "2026-05-15",
+      "postcode": "S61 1EB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, MEADOW STREET"
+    },
+    {
+      "price": 70200,
+      "date": "2026-05-15",
+      "postcode": "S61 1DS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, HOLMESFIELD, ROSEBERY STREET"
+    },
+    {
+      "price": 160000,
+      "date": "2026-05-15",
+      "postcode": "S60 8BL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, HARRIS GROVE"
+    },
+    {
+      "price": 344000,
+      "date": "2026-05-14",
+      "postcode": "S60 8DF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, PARKSIDE WAY"
     }
   ],
   "monthlyHistory": [
@@ -267,77 +267,82 @@
     {
       "month": "2025-02",
       "medianPrice": 170000,
-      "transactions": 351
+      "transactions": 352
     },
     {
       "month": "2025-03",
       "medianPrice": 195000,
-      "transactions": 560
+      "transactions": 561
     },
     {
       "month": "2025-04",
-      "medianPrice": 149500,
-      "transactions": 244
+      "medianPrice": 150000,
+      "transactions": 249
     },
     {
       "month": "2025-05",
-      "medianPrice": 187000,
-      "transactions": 311
+      "medianPrice": 188290,
+      "transactions": 316
     },
     {
       "month": "2025-06",
-      "medianPrice": 185000,
-      "transactions": 376
+      "medianPrice": 190000,
+      "transactions": 397
     },
     {
       "month": "2025-07",
-      "medianPrice": 176250,
-      "transactions": 336
+      "medianPrice": 177500,
+      "transactions": 349
     },
     {
       "month": "2025-08",
       "medianPrice": 185000,
-      "transactions": 304
+      "transactions": 327
     },
     {
       "month": "2025-09",
       "medianPrice": 180000,
-      "transactions": 288
+      "transactions": 294
     },
     {
       "month": "2025-10",
-      "medianPrice": 186000,
-      "transactions": 319
+      "medianPrice": 187728,
+      "transactions": 338
     },
     {
       "month": "2025-11",
-      "medianPrice": 180000,
-      "transactions": 258
+      "medianPrice": 185000,
+      "transactions": 295
     },
     {
       "month": "2025-12",
-      "medianPrice": 184000,
-      "transactions": 228
+      "medianPrice": 182000,
+      "transactions": 244
     },
     {
       "month": "2026-01",
-      "medianPrice": 186000,
-      "transactions": 170
+      "medianPrice": 185000,
+      "transactions": 175
     },
     {
       "month": "2026-02",
       "medianPrice": 176000,
-      "transactions": 190
+      "transactions": 191
     },
     {
       "month": "2026-03",
       "medianPrice": 190000,
-      "transactions": 177
+      "transactions": 208
     },
     {
       "month": "2026-04",
       "medianPrice": 175000,
-      "transactions": 72
+      "transactions": 183
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 185000,
+      "transactions": 57
     }
   ],
   "quarterlyHistory": [
@@ -364,32 +369,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 185000,
-      "transactions": 1178
+      "transactions": 1180
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 179999,
-      "transactions": 931
+      "medianPrice": 180000,
+      "transactions": 962
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 180000,
-      "transactions": 928
+      "transactions": 970
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 185000,
-      "transactions": 805
+      "transactions": 877
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 185000,
-      "transactions": 537
+      "transactions": 574
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 175000,
-      "transactions": 72
+      "transactions": 240
     }
   ]
 }

@@ -1,20 +1,74 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.946Z",
+  "updatedAt": "2026-07-03T11:39:54.762Z",
   "townSlug": "porthmadog",
   "countySlug": "gwynedd",
   "stats": {
     "medianPrice": 192500,
     "medianByType": {
-      "D": 270000,
-      "T": 148000
+      "D": 272500,
+      "T": 155000
     },
-    "transactionCount12m": 39,
+    "transactionCount12m": 45,
     "yoyChange": 4.9,
     "newBuildCount": 0,
-    "existingCount": 39,
+    "existingCount": 45,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 200000,
+      "date": "2026-05-05",
+      "postcode": "LL49 9UE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, TAN Y FOEL"
+    },
+    {
+      "price": 325000,
+      "date": "2026-05-01",
+      "postcode": "LL49 9UY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SEAGULL SHACK"
+    },
+    {
+      "price": 155000,
+      "date": "2026-05-01",
+      "postcode": "LL49 9DN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, CHAPEL STREET"
+    },
+    {
+      "price": 520000,
+      "date": "2026-04-28",
+      "postcode": "LL49 9UF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ACHIPUR"
+    },
+    {
+      "price": 329950,
+      "date": "2026-04-28",
+      "postcode": "LL49 9UA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, RALPH STREET"
+    },
+    {
+      "price": 165000,
+      "date": "2026-04-28",
+      "postcode": "LL49 9RA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, CHURCH STREET"
+    },
     {
       "price": 70000,
       "date": "2026-04-15",
@@ -79,15 +133,6 @@
       "address": "7, MADOC STREET"
     },
     {
-      "price": 180000,
-      "date": "2026-02-16",
-      "postcode": "LL49 9ND",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "65, SOUTH SNOWDON WHARF"
-    },
-    {
       "price": 145000,
       "date": "2026-02-16",
       "postcode": "LL49 9EG",
@@ -97,6 +142,15 @@
       "address": "4, GLASLYN STREET"
     },
     {
+      "price": 180000,
+      "date": "2026-02-16",
+      "postcode": "LL49 9ND",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "65, SOUTH SNOWDON WHARF"
+    },
+    {
       "price": 129000,
       "date": "2026-02-05",
       "postcode": "LL49 9TA",
@@ -104,6 +158,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "1, PENRHIW TERRACE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-01-14",
+      "postcode": "LL49 9PT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, ISGRAIG"
     },
     {
       "price": 132000,
@@ -131,69 +194,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "50, EAST AVENUE"
-    },
-    {
-      "price": 270000,
-      "date": "2025-12-04",
-      "postcode": "LL49 9YR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, Y FFRIDD"
-    },
-    {
-      "price": 249000,
-      "date": "2025-12-03",
-      "postcode": "LL49 9YR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, Y FFRIDD"
-    },
-    {
-      "price": 263000,
-      "date": "2025-12-01",
-      "postcode": "LL49 9YS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "85, CEFN Y GADER"
-    },
-    {
-      "price": 120000,
-      "date": "2025-11-28",
-      "postcode": "LL49 9YQ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, CHALET PARK"
-    },
-    {
-      "price": 325000,
-      "date": "2025-11-28",
-      "postcode": "LL49 9YA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, BEACH ROAD"
-    },
-    {
-      "price": 102000,
-      "date": "2025-11-28",
-      "postcode": "LL49 9AG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, MOUNT PLEASANT"
-    },
-    {
-      "price": 220000,
-      "date": "2025-11-21",
-      "postcode": "LL49 9BU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, MADOC STREET"
     }
   ],
   "monthlyHistory": [
@@ -294,8 +294,8 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 277500,
-      "transactions": 4
+      "medianPrice": 275000,
+      "transactions": 5
     },
     {
       "month": "2025-09",
@@ -319,8 +319,8 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 132000,
-      "transactions": 1
+      "medianPrice": 131000,
+      "transactions": 2
     },
     {
       "month": "2026-02",
@@ -334,8 +334,13 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 180000,
-      "transactions": 2
+      "medianPrice": 290000,
+      "transactions": 5
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 200000,
+      "transactions": 3
     }
   ],
   "quarterlyHistory": [
@@ -371,8 +376,8 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 237500,
-      "transactions": 8
+      "medianPrice": 225000,
+      "transactions": 9
     },
     {
       "quarter": "2025-Q4",
@@ -381,13 +386,13 @@
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 160000,
-      "transactions": 9
+      "medianPrice": 152500,
+      "transactions": 10
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 180000,
-      "transactions": 2
+      "medianPrice": 245000,
+      "transactions": 8
     }
   ]
 }

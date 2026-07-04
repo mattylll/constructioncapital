@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:07.070Z",
+  "updatedAt": "2026-07-03T11:39:52.762Z",
   "townSlug": "tewkesbury",
   "countySlug": "gloucestershire",
   "stats": {
     "medianPrice": 315000,
     "medianByType": {
-      "D": 485000,
-      "S": 300000,
+      "D": 487500,
+      "S": 299500,
       "T": 250000,
-      "F": 150000
+      "F": 151000
     },
-    "transactionCount12m": 1177,
-    "yoyChange": -3.4,
-    "newBuildCount": 19,
-    "existingCount": 1158,
-    "newBuildPremium": 31.1
+    "transactionCount12m": 1262,
+    "yoyChange": -3.9,
+    "newBuildCount": 15,
+    "existingCount": 1247,
+    "newBuildPremium": 29
   },
   "recentTransactions": [
     {
-      "price": 180000,
-      "date": "2026-04-24",
+      "price": 360000,
+      "date": "2026-05-22",
+      "postcode": "GL3 4YX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, DE HAVILLAND GARDENS"
+    },
+    {
+      "price": 250000,
+      "date": "2026-05-22",
+      "postcode": "GL20 8RL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, GOULD DRIVE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-05-22",
+      "postcode": "GL3 4DG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "105, ERMIN PARK"
+    },
+    {
+      "price": 270000,
+      "date": "2026-05-22",
+      "postcode": "GL52 8JB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "72, THE HIGHGROVE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-05-21",
+      "postcode": "GL52 8FP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, PLOUGH SQUARE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-05-15",
+      "postcode": "GL52 8SJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, GREENACRE WAY"
+    },
+    {
+      "price": 230000,
+      "date": "2026-05-15",
+      "postcode": "GL2 9BU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, SHERWOOD GREEN"
+    },
+    {
+      "price": 280000,
+      "date": "2026-05-15",
+      "postcode": "GL20 5QG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15A, BARTON ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-05-15",
+      "postcode": "GL52 8XP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, CHILTERN AVENUE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-05-15",
+      "postcode": "GL3 4DD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, ERMIN PARK"
+    },
+    {
+      "price": 170000,
+      "date": "2026-05-15",
       "postcode": "GL3 1NT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "65, RALEIGH CLOSE"
+      "address": "25, RALEIGH CLOSE"
     },
     {
-      "price": 269000,
-      "date": "2026-04-24",
-      "postcode": "GL20 7FW",
+      "price": 280000,
+      "date": "2026-05-14",
+      "postcode": "GL3 4FL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, STEARMAN WALK"
+    },
+    {
+      "price": 270000,
+      "date": "2026-05-14",
+      "postcode": "GL3 4FL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, STEARMAN WALK"
+    },
+    {
+      "price": 270000,
+      "date": "2026-05-14",
+      "postcode": "GL3 4FL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, STEARMAN WALK"
+    },
+    {
+      "price": 210000,
+      "date": "2026-05-14",
+      "postcode": "GL3 1BW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "27, DAFFODIL DRIVE"
+      "address": "45, SWALLOW CRESCENT"
     },
     {
-      "price": 320000,
-      "date": "2026-04-24",
-      "postcode": "GL52 7YT",
+      "price": 272000,
+      "date": "2026-05-13",
+      "postcode": "GL52 8FP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, PLOUGH SQUARE"
+    },
+    {
+      "price": 315000,
+      "date": "2026-05-12",
+      "postcode": "GL52 7ZL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, SAPPHIRE ROAD"
+      "address": "17, RUBY AVENUE"
     },
     {
-      "price": 285000,
-      "date": "2026-04-24",
-      "postcode": "GL20 5HB",
-      "propertyType": "S",
+      "price": 445000,
+      "date": "2026-05-11",
+      "postcode": "GL52 9ES",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "81, YORK ROAD"
+      "address": "11B, ASHMEAD DRIVE"
     },
     {
-      "price": 140000,
-      "date": "2026-04-24",
-      "postcode": "GL3 2HT",
+      "price": 317240,
+      "date": "2026-05-08",
+      "postcode": "GL52 7WG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ASHLEA MEADOW"
+    },
+    {
+      "price": 185000,
+      "date": "2026-05-08",
+      "postcode": "GL52 9HG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 7, THE MANOR, CHURCH ROAD"
-    },
-    {
-      "price": 195000,
-      "date": "2026-04-24",
-      "postcode": "GL20 5AY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 49, MARINA COURT, TRAFALGAR ROAD"
-    },
-    {
-      "price": 255000,
-      "date": "2026-04-23",
-      "postcode": "GL2 9FX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, HAWFINCH ROAD"
-    },
-    {
-      "price": 365000,
-      "date": "2026-04-20",
-      "postcode": "GL20 8SG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, MILNE PASTURES"
-    },
-    {
-      "price": 438000,
-      "date": "2026-04-17",
-      "postcode": "GL2 9GW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, PORTHILL CLOSE"
-    },
-    {
-      "price": 242500,
-      "date": "2026-04-17",
-      "postcode": "GL52 9QS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, KEEPERS MILL"
-    },
-    {
-      "price": 520000,
-      "date": "2026-04-17",
-      "postcode": "GL54 5NX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LYGON, BECKETTS LANE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-04-17",
-      "postcode": "GL20 7RQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, CORMORANT AVENUE"
-    },
-    {
-      "price": 365000,
-      "date": "2026-04-17",
-      "postcode": "GL51 6GH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, MESSENGER WAY"
-    },
-    {
-      "price": 350000,
-      "date": "2026-04-15",
-      "postcode": "GL3 1JT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, APPLE TREE CLOSE"
-    },
-    {
-      "price": 285000,
-      "date": "2026-04-15",
-      "postcode": "GL3 3TB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, MONTGOMERY CLOSE"
-    },
-    {
-      "price": 223000,
-      "date": "2026-04-13",
-      "postcode": "GL3 4LJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, LEADON CLOSE"
-    },
-    {
-      "price": 388000,
-      "date": "2026-04-10",
-      "postcode": "GL2 8LW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, WETHERLEIGH DRIVE"
-    },
-    {
-      "price": 300000,
-      "date": "2026-04-10",
-      "postcode": "GL20 8AH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, DIGBY DRIVE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-04-10",
-      "postcode": "GL3 4FH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, STEARMAN ROAD"
-    },
-    {
-      "price": 265000,
-      "date": "2026-04-10",
-      "postcode": "GL52 8WL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, BLACKBERRY GROVE"
+      "address": "45, KNAPPS CRESCENT"
     }
   ],
   "monthlyHistory": [
@@ -222,7 +222,7 @@
     {
       "month": "2024-05",
       "medianPrice": 320000,
-      "transactions": 180
+      "transactions": 181
     },
     {
       "month": "2024-06",
@@ -232,7 +232,7 @@
     {
       "month": "2024-07",
       "medianPrice": 330000,
-      "transactions": 158
+      "transactions": 159
     },
     {
       "month": "2024-08",
@@ -256,8 +256,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 315000,
-      "transactions": 227
+      "medianPrice": 314250,
+      "transactions": 228
     },
     {
       "month": "2025-01",
@@ -266,63 +266,63 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 311000,
-      "transactions": 154
+      "medianPrice": 310000,
+      "transactions": 155
     },
     {
       "month": "2025-03",
-      "medianPrice": 353000,
-      "transactions": 309
+      "medianPrice": 350000,
+      "transactions": 312
     },
     {
       "month": "2025-04",
-      "medianPrice": 270000,
-      "transactions": 83
+      "medianPrice": 271250,
+      "transactions": 84
     },
     {
       "month": "2025-05",
-      "medianPrice": 345372,
-      "transactions": 131
+      "medianPrice": 346059,
+      "transactions": 132
     },
     {
       "month": "2025-06",
-      "medianPrice": 320000,
-      "transactions": 170
+      "medianPrice": 330000,
+      "transactions": 193
     },
     {
       "month": "2025-07",
       "medianPrice": 325000,
-      "transactions": 173
+      "transactions": 183
     },
     {
       "month": "2025-08",
-      "medianPrice": 314000,
-      "transactions": 145
+      "medianPrice": 315000,
+      "transactions": 151
     },
     {
       "month": "2025-09",
-      "medianPrice": 307500,
-      "transactions": 110
+      "medianPrice": 300000,
+      "transactions": 113
     },
     {
       "month": "2025-10",
       "medianPrice": 307000,
-      "transactions": 180
+      "transactions": 188
     },
     {
       "month": "2025-11",
-      "medianPrice": 312250,
-      "transactions": 110
+      "medianPrice": 339000,
+      "transactions": 130
     },
     {
       "month": "2025-12",
       "medianPrice": 300000,
-      "transactions": 129
+      "transactions": 134
     },
     {
       "month": "2026-01",
-      "medianPrice": 320000,
-      "transactions": 73
+      "medianPrice": 319000,
+      "transactions": 74
     },
     {
       "month": "2026-02",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 305000,
-      "transactions": 87
+      "medianPrice": 310000,
+      "transactions": 94
     },
     {
       "month": "2026-04",
-      "medianPrice": 300000,
-      "transactions": 35
+      "medianPrice": 320000,
+      "transactions": 76
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 270000,
+      "transactions": 34
     }
   ],
   "quarterlyHistory": [
@@ -348,48 +353,48 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 330498,
-      "transactions": 488
+      "medianPrice": 330995,
+      "transactions": 489
     },
     {
       "quarter": "2024-Q3",
       "medianPrice": 320000,
-      "transactions": 530
+      "transactions": 531
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 325000,
-      "transactions": 662
+      "transactions": 663
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 342000,
-      "transactions": 625
+      "medianPrice": 340995,
+      "transactions": 629
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 320000,
-      "transactions": 384
+      "medianPrice": 325000,
+      "transactions": 409
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 320000,
-      "transactions": 428
+      "transactions": 447
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 307000,
-      "transactions": 419
+      "medianPrice": 312500,
+      "transactions": 452
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 310000,
-      "transactions": 249
+      "transactions": 257
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 300000,
-      "transactions": 35
+      "medianPrice": 287500,
+      "transactions": 110
     }
   ]
 }

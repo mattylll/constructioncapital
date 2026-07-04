@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:07.613Z",
+  "updatedAt": "2026-07-03T11:39:53.326Z",
   "townSlug": "boston",
   "countySlug": "lincolnshire",
   "stats": {
-    "medianPrice": 190000,
+    "medianPrice": 194975,
     "medianByType": {
       "D": 255000,
-      "S": 163500,
-      "T": 120000,
+      "S": 164500,
+      "T": 119500,
       "F": 90000
     },
-    "transactionCount12m": 690,
-    "yoyChange": -3.8,
-    "newBuildCount": 49,
-    "existingCount": 641,
-    "newBuildPremium": 35.1
+    "transactionCount12m": 742,
+    "yoyChange": -1.3,
+    "newBuildCount": 60,
+    "existingCount": 682,
+    "newBuildPremium": 34.8
   },
   "recentTransactions": [
     {
-      "price": 299950,
-      "date": "2026-04-23",
-      "postcode": "PE21 7PG",
+      "price": 137000,
+      "date": "2026-05-22",
+      "postcode": "PE21 8LF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "210, SLEAFORD ROAD"
+      "address": "80, FYDELL STREET"
     },
     {
-      "price": 227000,
-      "date": "2026-04-23",
-      "postcode": "PE21 9RT",
-      "propertyType": "D",
+      "price": 120000,
+      "date": "2026-05-22",
+      "postcode": "PE21 9JA",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "42, LINDIS ROAD"
+      "address": "45, HORNCASTLE ROAD"
     },
     {
-      "price": 76500,
-      "date": "2026-04-21",
-      "postcode": "PE20 3AW",
+      "price": 105000,
+      "date": "2026-05-22",
+      "postcode": "PE20 3EN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, ABBEY ROAD"
+    },
+    {
+      "price": 79950,
+      "date": "2026-05-19",
+      "postcode": "PE21 8GG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "17, ST SWITHINS CLOSE"
+      "address": "5, GAMMONS COURT"
     },
     {
-      "price": 148000,
-      "date": "2026-04-20",
-      "postcode": "PE21 0HY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, WINDSOR CRESCENT"
-    },
-    {
-      "price": 405000,
-      "date": "2026-04-16",
-      "postcode": "PE22 9AN",
+      "price": 299950,
+      "date": "2026-05-15",
+      "postcode": "PE21 9AP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "LONG RIDGES, MAIN ROAD"
+      "address": "70, PRINCESS ANNE ROAD"
     },
     {
-      "price": 160000,
-      "date": "2026-04-15",
-      "postcode": "PE21 7HE",
+      "price": 105000,
+      "date": "2026-05-15",
+      "postcode": "PE21 0AQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, 35, RECTORY ROAD"
+    },
+    {
+      "price": 103000,
+      "date": "2026-05-14",
+      "postcode": "PE21 8PE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, WOODSIDE"
+      "address": "13, ALBERT STREET"
     },
     {
-      "price": 164000,
-      "date": "2026-04-13",
-      "postcode": "PE20 3AX",
+      "price": 95000,
+      "date": "2026-05-12",
+      "postcode": "PE21 9EP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, GAUNTLET ROAD"
+      "address": "5, ROBIN HOODS WALK"
     },
     {
-      "price": 162500,
-      "date": "2026-04-10",
-      "postcode": "PE21 7BU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, SAUNDERGATE PARK"
-    },
-    {
-      "price": 405000,
-      "date": "2026-04-09",
-      "postcode": "PE20 2BF",
+      "price": 295000,
+      "date": "2026-05-12",
+      "postcode": "PE21 0RZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, TOWER GARDENS"
+      "address": "THE SHEILING, RECTORY CLOSE"
     },
     {
-      "price": 160000,
-      "date": "2026-04-02",
-      "postcode": "PE21 0RQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "77, WARD CRESCENT"
-    },
-    {
-      "price": 170000,
-      "date": "2026-04-02",
-      "postcode": "PE21 8HG",
+      "price": 347500,
+      "date": "2026-05-12",
+      "postcode": "PE21 6LG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "LORELEY, BARTOL CRESCENT"
-    },
-    {
-      "price": 74000,
-      "date": "2026-04-02",
-      "postcode": "PE21 8PN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, CASTLE STREET"
+      "address": "29, WITHAM PLACE"
     },
     {
       "price": 137000,
-      "date": "2026-04-02",
-      "postcode": "PE21 0NJ",
+      "date": "2026-05-11",
+      "postcode": "PE21 9TE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "62, SMALLEY ROAD"
+      "address": "135, NORFOLK STREET"
     },
     {
-      "price": 285000,
-      "date": "2026-04-02",
-      "postcode": "PE22 9BL",
+      "price": 150000,
+      "date": "2026-05-11",
+      "postcode": "PE22 0JG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "EDGEFIELD, TOOLEY LANE"
+      "address": "41, PRINCE WILLIAM DRIVE"
     },
     {
-      "price": 88000,
-      "date": "2026-04-02",
-      "postcode": "PE21 8XA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, BROADFIELD STREET"
-    },
-    {
-      "price": 238000,
-      "date": "2026-04-01",
-      "postcode": "PE20 3SN",
+      "price": 190000,
+      "date": "2026-05-08",
+      "postcode": "PE20 2BS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "GIVENDALE, MAIN ROAD"
+      "address": "31, BELL LANE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-05-08",
+      "postcode": "PE21 7HP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, TYTTON LANE EAST"
     },
     {
       "price": 75000,
-      "date": "2026-04-01",
-      "postcode": "PE21 6DW",
-      "propertyType": "T",
+      "date": "2026-05-08",
+      "postcode": "PE21 8BP",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "6, CHARLES STREET"
+      "tenure": "L",
+      "address": "69, IVY CRESCENT"
     },
     {
-      "price": 155000,
-      "date": "2026-03-31",
-      "postcode": "PE21 0QJ",
+      "price": 342000,
+      "date": "2026-05-08",
+      "postcode": "PE20 2HJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, MONARCHS ROAD"
+    },
+    {
+      "price": 214000,
+      "date": "2026-05-08",
+      "postcode": "PE21 8HU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, PUNCHBOWL LANE"
+    },
+    {
+      "price": 100000,
+      "date": "2026-05-08",
+      "postcode": "PE21 9BY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, HAWTHORN CLOSE"
+      "address": "9, HOSPITAL LANE"
     },
     {
-      "price": 163000,
-      "date": "2026-03-31",
-      "postcode": "PE22 0DH",
-      "propertyType": "S",
+      "price": 184000,
+      "date": "2026-05-06",
+      "postcode": "PE20 3NP",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, THE MARSH"
+      "address": "21, MILNE GREEN"
     },
     {
-      "price": 75000,
-      "date": "2026-03-31",
-      "postcode": "PE21 8HH",
-      "propertyType": "T",
+      "price": 315000,
+      "date": "2026-05-06",
+      "postcode": "PE21 7TS",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, HAVEN MEADOWS"
+      "address": "23, ARCHIBALD WALK"
     }
   ],
   "monthlyHistory": [
@@ -251,8 +251,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 194000,
-      "transactions": 108
+      "medianPrice": 190000,
+      "transactions": 109
     },
     {
       "month": "2024-12",
@@ -272,17 +272,17 @@
     {
       "month": "2025-03",
       "medianPrice": 216000,
-      "transactions": 162
+      "transactions": 166
     },
     {
       "month": "2025-04",
       "medianPrice": 178500,
-      "transactions": 62
+      "transactions": 64
     },
     {
       "month": "2025-05",
-      "medianPrice": 197500,
-      "transactions": 73
+      "medianPrice": 207000,
+      "transactions": 75
     },
     {
       "month": "2025-06",
@@ -291,38 +291,38 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 175000,
-      "transactions": 72
+      "medianPrice": 177500,
+      "transactions": 80
     },
     {
       "month": "2025-08",
-      "medianPrice": 185000,
-      "transactions": 77
+      "medianPrice": 184650,
+      "transactions": 87
     },
     {
       "month": "2025-09",
-      "medianPrice": 203600,
-      "transactions": 82
+      "medianPrice": 205000,
+      "transactions": 87
     },
     {
       "month": "2025-10",
-      "medianPrice": 195250,
-      "transactions": 82
+      "medianPrice": 208250,
+      "transactions": 90
     },
     {
       "month": "2025-11",
       "medianPrice": 190000,
-      "transactions": 55
+      "transactions": 64
     },
     {
       "month": "2025-12",
-      "medianPrice": 211750,
-      "transactions": 78
+      "medianPrice": 215000,
+      "transactions": 81
     },
     {
       "month": "2026-01",
-      "medianPrice": 175000,
-      "transactions": 45
+      "medianPrice": 188500,
+      "transactions": 48
     },
     {
       "month": "2026-02",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 195000,
-      "transactions": 73
+      "medianPrice": 198750,
+      "transactions": 78
     },
     {
       "month": "2026-04",
-      "medianPrice": 162500,
-      "transactions": 17
+      "medianPrice": 175000,
+      "transactions": 34
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 180750,
+      "transactions": 24
     }
   ],
   "quarterlyHistory": [
@@ -358,38 +363,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 188500,
-      "transactions": 298
+      "medianPrice": 188000,
+      "transactions": 299
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 205000,
-      "transactions": 351
+      "transactions": 355
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 185000,
-      "transactions": 234
+      "transactions": 238
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 190000,
-      "transactions": 231
+      "transactions": 254
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 194000,
-      "transactions": 215
+      "medianPrice": 207000,
+      "transactions": 235
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 193475,
-      "transactions": 190
+      "medianPrice": 196475,
+      "transactions": 198
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 162500,
-      "transactions": 17
+      "medianPrice": 176250,
+      "transactions": 58
     }
   ]
 }

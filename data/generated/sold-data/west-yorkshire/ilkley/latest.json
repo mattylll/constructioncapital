@@ -1,22 +1,130 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.155Z",
+  "updatedAt": "2026-07-03T11:39:53.890Z",
   "townSlug": "ilkley",
   "countySlug": "west-yorkshire",
   "stats": {
-    "medianPrice": 380000,
+    "medianPrice": 389975,
     "medianByType": {
-      "D": 599950,
-      "S": 395000,
-      "T": 325000,
-      "F": 227500
+      "D": 630000,
+      "S": 397475,
+      "T": 325250,
+      "F": 230000
     },
-    "transactionCount12m": 414,
-    "yoyChange": -5,
-    "newBuildCount": 4,
-    "existingCount": 410,
-    "newBuildPremium": 21.2
+    "transactionCount12m": 440,
+    "yoyChange": -2.5,
+    "newBuildCount": 2,
+    "existingCount": 438,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 705000,
+      "date": "2026-05-14",
+      "postcode": "LS29 6PD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, BRIDGLAND AVENUE"
+    },
+    {
+      "price": 299500,
+      "date": "2026-05-13",
+      "postcode": "LS29 9EA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 9, GROVE SQUARE, 23, REGENT ROAD"
+    },
+    {
+      "price": 130000,
+      "date": "2026-05-13",
+      "postcode": "LS29 8SN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 21, CARNEGIE COURT, 17, SPRINGS LANE"
+    },
+    {
+      "price": 1050000,
+      "date": "2026-05-12",
+      "postcode": "LS29 8BL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, MOORFIELD ROAD"
+    },
+    {
+      "price": 735000,
+      "date": "2026-05-05",
+      "postcode": "LS29 9QP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, PARISH GHYLL LANE"
+    },
+    {
+      "price": 670000,
+      "date": "2026-05-01",
+      "postcode": "LS29 6NN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, WENTWORTH CLOSE"
+    },
+    {
+      "price": 165000,
+      "date": "2026-04-30",
+      "postcode": "LS29 0SY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 6, MILL LODGE, 1, MILL FOLD"
+    },
+    {
+      "price": 315000,
+      "date": "2026-04-30",
+      "postcode": "LS29 0SQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, RIDLEYS FOLD"
+    },
+    {
+      "price": 721000,
+      "date": "2026-04-30",
+      "postcode": "LS29 8LB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, VALE GARDENS"
+    },
+    {
+      "price": 405000,
+      "date": "2026-04-30",
+      "postcode": "LS29 7LY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, HARVEST CROFT"
+    },
+    {
+      "price": 280000,
+      "date": "2026-04-24",
+      "postcode": "LS29 0PT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, MOOR PARK DRIVE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-04-22",
+      "postcode": "LS29 8PF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "8, EMMANDJAY COURT, VALLEY DRIVE"
+    },
     {
       "price": 176500,
       "date": "2026-04-20",
@@ -45,157 +153,49 @@
       "address": "12, GORDON STREET"
     },
     {
-      "price": 400000,
-      "date": "2026-04-02",
-      "postcode": "LS29 0PR",
+      "price": 325000,
+      "date": "2026-04-17",
+      "postcode": "LS29 8EN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, LEAMINGTON ROAD"
+    },
+    {
+      "price": 614500,
+      "date": "2026-04-17",
+      "postcode": "LS29 8QT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "46, MOOR LANE"
+      "address": "48, ST JOHNS ROAD"
     },
     {
-      "price": 165000,
-      "date": "2026-04-01",
-      "postcode": "LS29 9PT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, ONE OAK, 20, PARISH GHYLL DRIVE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-03-31",
-      "postcode": "LS29 8AR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9, WHARFEDALE GRANGE, BEN RHYDDING DRIVE"
-    },
-    {
-      "price": 274000,
-      "date": "2026-03-31",
+      "price": 260000,
+      "date": "2026-04-16",
       "postcode": "LS29 8EJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, LEAMINGTON TERRACE"
+      "address": "2, LEAMINGTON TERRACE"
     },
     {
-      "price": 1300000,
-      "date": "2026-03-31",
-      "postcode": "LS29 6DT",
-      "propertyType": "O",
+      "price": 305000,
+      "date": "2026-04-14",
+      "postcode": "LS29 9LG",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "FLAT 1, CHIPPENDALE COURT, 115, BRADFORD ROAD"
+      "tenure": "L",
+      "address": "8, WELLS COURT, WELLS PROMENADE"
     },
     {
-      "price": 450000,
-      "date": "2026-03-27",
-      "postcode": "LS29 6LY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, CROFT PARK"
-    },
-    {
-      "price": 782000,
-      "date": "2026-03-27",
-      "postcode": "LS29 8QD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, BOLLING ROAD"
-    },
-    {
-      "price": 620000,
-      "date": "2026-03-27",
-      "postcode": "LS29 0TS",
+      "price": 970000,
+      "date": "2026-04-09",
+      "postcode": "LS29 6JL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, KILNERS CROFT"
-    },
-    {
-      "price": 307500,
-      "date": "2026-03-26",
-      "postcode": "LS29 6HQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, DERRY HILL GARDENS"
-    },
-    {
-      "price": 280000,
-      "date": "2026-03-26",
-      "postcode": "LS29 6JY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BINGLEY ROAD"
-    },
-    {
-      "price": 520000,
-      "date": "2026-03-26",
-      "postcode": "LS29 7ST",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, RON LAWTON CRESCENT"
-    },
-    {
-      "price": 188000,
-      "date": "2026-03-24",
-      "postcode": "LS29 6LD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12, CROFT COURT"
-    },
-    {
-      "price": 660000,
-      "date": "2026-03-24",
-      "postcode": "LS29 9JA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, CHANTRY CLOSE"
-    },
-    {
-      "price": 168000,
-      "date": "2026-03-23",
-      "postcode": "LS29 7NN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "43, LANGFORD ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-20",
-      "postcode": "LS29 9DZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, LISTERS COURT, CUNLIFFE ROAD"
-    },
-    {
-      "price": 83000,
-      "date": "2026-03-20",
-      "postcode": "LS29 6NA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, CROFT HOUSE, 2, CROFT PARK"
-    },
-    {
-      "price": 380000,
-      "date": "2026-03-20",
-      "postcode": "LS29 7RR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, FAR MEAD CROFT"
+      "address": "3B, STATION ROAD"
     }
   ],
   "monthlyHistory": [
@@ -256,8 +256,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 362500,
-      "transactions": 58
+      "medianPrice": 360000,
+      "transactions": 59
     },
     {
       "month": "2025-01",
@@ -271,58 +271,58 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 448750,
-      "transactions": 114
+      "medianPrice": 450000,
+      "transactions": 115
     },
     {
       "month": "2025-04",
-      "medianPrice": 430495,
+      "medianPrice": 492495,
       "transactions": 25
     },
     {
       "month": "2025-05",
-      "medianPrice": 445000,
-      "transactions": 45
+      "medianPrice": 452498,
+      "transactions": 46
     },
     {
       "month": "2025-06",
-      "medianPrice": 382500,
-      "transactions": 58
+      "medianPrice": 388750,
+      "transactions": 60
     },
     {
       "month": "2025-07",
       "medianPrice": 422500,
-      "transactions": 62
+      "transactions": 64
     },
     {
       "month": "2025-08",
-      "medianPrice": 374000,
-      "transactions": 48
+      "medianPrice": 378500,
+      "transactions": 54
     },
     {
       "month": "2025-09",
-      "medianPrice": 395500,
-      "transactions": 50
+      "medianPrice": 401000,
+      "transactions": 51
     },
     {
       "month": "2025-10",
       "medianPrice": 375975,
-      "transactions": 42
+      "transactions": 50
     },
     {
       "month": "2025-11",
       "medianPrice": 390000,
-      "transactions": 47
+      "transactions": 51
     },
     {
       "month": "2025-12",
-      "medianPrice": 342200,
-      "transactions": 37
+      "medianPrice": 346502,
+      "transactions": 42
     },
     {
       "month": "2026-01",
-      "medianPrice": 430000,
-      "transactions": 27
+      "medianPrice": 415000,
+      "transactions": 29
     },
     {
       "month": "2026-02",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 379500,
-      "transactions": 37
+      "medianPrice": 379750,
+      "transactions": 40
     },
     {
       "month": "2026-04",
-      "medianPrice": 230000,
-      "transactions": 5
+      "medianPrice": 312500,
+      "transactions": 20
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 687500,
+      "transactions": 6
     }
   ],
   "quarterlyHistory": [
@@ -358,38 +363,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 358500,
-      "transactions": 167
+      "medianPrice": 356750,
+      "transactions": 168
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 407325,
-      "transactions": 198
+      "medianPrice": 409950,
+      "transactions": 199
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 400000,
-      "transactions": 128
+      "medianPrice": 419950,
+      "transactions": 131
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 400475,
-      "transactions": 160
+      "medianPrice": 401000,
+      "transactions": 169
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 362000,
-      "transactions": 126
+      "medianPrice": 375000,
+      "transactions": 143
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 380000,
-      "transactions": 104
+      "transactions": 109
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 230000,
-      "transactions": 5
+      "medianPrice": 320000,
+      "transactions": 26
     }
   ]
 }

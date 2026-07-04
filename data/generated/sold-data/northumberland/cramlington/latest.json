@@ -1,22 +1,175 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.456Z",
+  "updatedAt": "2026-07-03T11:39:54.203Z",
   "townSlug": "cramlington",
   "countySlug": "northumberland",
   "stats": {
-    "medianPrice": 181995,
+    "medianPrice": 179973,
     "medianByType": {
-      "D": 315000,
-      "S": 181500,
+      "D": 308500,
+      "S": 183000,
       "T": 150000,
       "F": 80000
     },
-    "transactionCount12m": 405,
-    "yoyChange": -5.5,
-    "newBuildCount": 25,
-    "existingCount": 380,
-    "newBuildPremium": 60.6
+    "transactionCount12m": 418,
+    "yoyChange": -6.6,
+    "newBuildCount": 11,
+    "existingCount": 407,
+    "newBuildPremium": 11.1
   },
   "recentTransactions": [
+    {
+      "price": 585000,
+      "date": "2026-05-22",
+      "postcode": "NE23 7XE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, RICHMOND WAY"
+    },
+    {
+      "price": 124000,
+      "date": "2026-05-18",
+      "postcode": "NE23 2BU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, THORNLEY AVENUE"
+    },
+    {
+      "price": 122600,
+      "date": "2026-05-15",
+      "postcode": "NE23 3BG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, STEPHEN STREET"
+    },
+    {
+      "price": 183000,
+      "date": "2026-05-15",
+      "postcode": "NE23 8BD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, MUSSELBURGH CIRCLE"
+    },
+    {
+      "price": 395000,
+      "date": "2026-05-15",
+      "postcode": "NE23 3SZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, GLENFIELD AVENUE"
+    },
+    {
+      "price": 110000,
+      "date": "2026-05-11",
+      "postcode": "NE23 6RL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, STOREY STREET"
+    },
+    {
+      "price": 188010,
+      "date": "2026-05-11",
+      "postcode": "NE23 3GG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, MILLBROOK ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-05-08",
+      "postcode": "NE23 7DH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "EMBLETON HOUSE, THE GRANGE"
+    },
+    {
+      "price": 174000,
+      "date": "2026-05-08",
+      "postcode": "NE23 8BQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, ARCHERFIELD DRIVE"
+    },
+    {
+      "price": 86000,
+      "date": "2026-05-06",
+      "postcode": "NE23 6HT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "31, WEETWOOD ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-05-05",
+      "postcode": "NE23 7EA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GARDEN HOUSE, THE BARNS, MARES CLOSE"
+    },
+    {
+      "price": 308000,
+      "date": "2026-05-05",
+      "postcode": "NE23 8BF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, LITTLESTONE WYND"
+    },
+    {
+      "price": 45000,
+      "date": "2026-04-30",
+      "postcode": "NE23 6EA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "27, ALEXANDRA WAY"
+    },
+    {
+      "price": 150000,
+      "date": "2026-04-29",
+      "postcode": "NE23 6TB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, BRINKBURN AVENUE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-04-29",
+      "postcode": "NE23 3TY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, PLAISTOW WAY"
+    },
+    {
+      "price": 255000,
+      "date": "2026-04-27",
+      "postcode": "NE23 6RB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LEAHOLME, HIGH PIT ROAD"
+    },
+    {
+      "price": 215000,
+      "date": "2026-04-24",
+      "postcode": "NE23 6LS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, WANLOCK CLOSE"
+    },
     {
       "price": 174000,
       "date": "2026-04-24",
@@ -36,166 +189,13 @@
       "address": "17, SNOWDROP WAY"
     },
     {
-      "price": 310000,
-      "date": "2026-04-15",
-      "postcode": "NE23 1TF",
+      "price": 245000,
+      "date": "2026-04-24",
+      "postcode": "NE23 1PF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "L",
-      "address": "2, FORRES PLACE"
-    },
-    {
-      "price": 291950,
-      "date": "2026-04-13",
-      "postcode": "NE23 1AT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, SPILSBY CRESCENT"
-    },
-    {
-      "price": 145000,
-      "date": "2026-04-10",
-      "postcode": "NE23 2GB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "18, DRYBECK COURT"
-    },
-    {
-      "price": 134000,
-      "date": "2026-04-10",
-      "postcode": "NE23 3AN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, SCOTT STREET"
-    },
-    {
-      "price": 82500,
-      "date": "2026-04-09",
-      "postcode": "NE23 7SN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, THE CLOSE"
-    },
-    {
-      "price": 176250,
-      "date": "2026-04-08",
-      "postcode": "NE23 8FR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, FOXGLOVE COURT"
-    },
-    {
-      "price": 301500,
-      "date": "2026-03-30",
-      "postcode": "NE23 6EG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, CANBERRA DRIVE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-03-30",
-      "postcode": "NE23 7UG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, KENSINGTON CLOSE"
-    },
-    {
-      "price": 139950,
-      "date": "2026-03-27",
-      "postcode": "NE23 8DP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "61, LOUGHRIGG AVENUE"
-    },
-    {
-      "price": 40500,
-      "date": "2026-03-27",
-      "postcode": "NE23 6LQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "39, CHIRNSIDE"
-    },
-    {
-      "price": 138000,
-      "date": "2026-03-27",
-      "postcode": "NE23 7SL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, THE CRESCENT"
-    },
-    {
-      "price": 184950,
-      "date": "2026-03-27",
-      "postcode": "NE23 6AA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "16, ALEXANDRA CHASE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-27",
-      "postcode": "NE23 6BS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, AYLESBURY GRANGE"
-    },
-    {
-      "price": 187500,
-      "date": "2026-03-27",
-      "postcode": "NE23 6EX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "37, CATERAN WAY"
-    },
-    {
-      "price": 129950,
-      "date": "2026-03-27",
-      "postcode": "NE23 7SE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, STATION ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-03-26",
-      "postcode": "NE23 1PQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, TORCROSS WAY"
-    },
-    {
-      "price": 290000,
-      "date": "2026-03-24",
-      "postcode": "NE23 6AU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, MINTING PLACE"
-    },
-    {
-      "price": 305000,
-      "date": "2026-03-20",
-      "postcode": "NE23 1AJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, CONINGSBY CRESCENT"
+      "address": "5, TORCROSS WAY"
     }
   ],
   "monthlyHistory": [
@@ -266,8 +266,8 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 178973,
-      "transactions": 40
+      "medianPrice": 179950,
+      "transactions": 41
     },
     {
       "month": "2025-03",
@@ -286,43 +286,43 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 204245,
-      "transactions": 75
+      "medianPrice": 204995,
+      "transactions": 77
     },
     {
       "month": "2025-07",
-      "medianPrice": 180995,
-      "transactions": 56
+      "medianPrice": 181995,
+      "transactions": 59
     },
     {
       "month": "2025-08",
       "medianPrice": 189950,
-      "transactions": 53
+      "transactions": 59
     },
     {
       "month": "2025-09",
-      "medianPrice": 195000,
-      "transactions": 47
+      "medianPrice": 184950,
+      "transactions": 49
     },
     {
       "month": "2025-10",
-      "medianPrice": 166000,
-      "transactions": 42
+      "medianPrice": 171125,
+      "transactions": 48
     },
     {
       "month": "2025-11",
       "medianPrice": 167500,
-      "transactions": 30
+      "transactions": 36
     },
     {
       "month": "2025-12",
-      "medianPrice": 175000,
-      "transactions": 41
+      "medianPrice": 165000,
+      "transactions": 42
     },
     {
       "month": "2026-01",
-      "medianPrice": 233000,
-      "transactions": 27
+      "medianPrice": 231500,
+      "transactions": 28
     },
     {
       "month": "2026-02",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 181475,
-      "transactions": 34
+      "medianPrice": 179975,
+      "transactions": 38
     },
     {
       "month": "2026-04",
-      "medianPrice": 175125,
-      "transactions": 8
+      "medianPrice": 176250,
+      "transactions": 21
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 185505,
+      "transactions": 12
     }
   ],
   "quarterlyHistory": [
@@ -364,32 +369,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 190000,
-      "transactions": 168
+      "transactions": 169
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 186750,
-      "transactions": 158
+      "medianPrice": 188750,
+      "transactions": 160
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 185750,
-      "transactions": 156
+      "medianPrice": 185000,
+      "transactions": 167
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 167000,
-      "transactions": 113
+      "medianPrice": 168500,
+      "transactions": 126
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 181500,
-      "transactions": 88
+      "medianPrice": 180000,
+      "transactions": 93
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 175125,
-      "transactions": 8
+      "medianPrice": 183000,
+      "transactions": 33
     }
   ]
 }

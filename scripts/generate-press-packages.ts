@@ -99,6 +99,7 @@ interface TownData {
   name: string;
   stats: TownStats["stats"] | null;
   planning: PlanningData["summary"] | null;
+  localAuthority: string | null;
 }
 
 interface PressPackage {
@@ -137,8 +138,11 @@ function loadCountyTownData(county: string): TownData[] {
         const data: TownStats = JSON.parse(fs.readFileSync(statsFile, "utf-8"));
         const planningFile = path.join(planningDir, townDir, "latest.json");
         let planning: PlanningData["summary"] | null = null;
+        let localAuthority: string | null = null;
         if (fs.existsSync(planningFile)) {
-          planning = JSON.parse(fs.readFileSync(planningFile, "utf-8")).summary;
+          const planningJson = JSON.parse(fs.readFileSync(planningFile, "utf-8"));
+          planning = planningJson.summary;
+          localAuthority = planningJson.localAuthority || null;
         }
 
         towns.push({
@@ -146,6 +150,7 @@ function loadCountyTownData(county: string): TownData[] {
           name: slugToName(townDir),
           stats: data.stats,
           planning,
+          localAuthority,
         });
       } catch {
         // Skip malformed
@@ -167,6 +172,7 @@ function loadCountyTownData(county: string): TownData[] {
           name: slugToName(townDir),
           stats: null,
           planning: pData.summary,
+          localAuthority: pData.localAuthority || null,
         });
       } catch {
         // Skip
@@ -248,9 +254,11 @@ function formatGBP(amount: number): string {
 }
 
 function countySlugToMicrositeDomain(county: string): string {
-  // Map county slugs to likely microsite domains for attribution
-  const clean = county.replace(/-/g, "");
-  return `${clean}developmentfinance.co.uk`;
+  // Points to the real, live Construction Capital county market-report page.
+  // Do NOT construct a speculative microsite domain here — county-level
+  // "{county}developmentfinance.co.uk" domains do not exist; citing one in a
+  // press release creates a dead link in front of journalists.
+  return `constructioncapital.co.uk/market-reports/${county}-property-market`;
 }
 
 // ── CSV Generation ──────────────────────────────────────────────────────────
@@ -274,7 +282,7 @@ function generateDataTableCsv(towns: TownData[], countyName: string): string {
         s ? (s.yoyChange > 0 ? `+${s.yoyChange}` : String(s.yoyChange)) : "",
         s ? String(s.transactionCount12m) : "",
         s ? String(s.newBuildCount) : "",
-        s ? s.newBuildPremium.toFixed(1) : "",
+        s && s.newBuildPremium != null ? s.newBuildPremium.toFixed(1) : "",
         p ? String(p.approved) : "",
         p ? String(p.pending) : "",
         p ? String(p.totalUnits) : "",
@@ -540,17 +548,29 @@ async function main() {
     const withStats = towns.filter((t) => t.stats);
     const withPlanning = towns.filter((t) => t.planning);
 
+    // The planning fetchers tag every town within a local authority with that
+    // authority's FULL application set (identical GDV/units repeated verbatim
+    // per town). Dedupe by localAuthority before summing county-wide totals,
+    // otherwise a multi-town authority's pipeline gets counted once per town.
+    const seenAuthorities = new Set<string>();
+    const withPlanningDeduped = withPlanning.filter((t) => {
+      const key = t.localAuthority || t.slug;
+      if (seenAuthorities.has(key)) return false;
+      seenAuthorities.add(key);
+      return true;
+    });
+
     const aggregateStats = {
       totalTransactions: withStats.reduce((s, t) => s + (t.stats?.transactionCount12m || 0), 0),
       avgMedianPrice:
         withStats.length > 0
           ? Math.round(withStats.reduce((s, t) => s + (t.stats?.medianPrice || 0), 0) / withStats.length)
           : 0,
-      pipelineUnits: withPlanning.reduce((s, t) => s + (t.planning?.totalUnits || 0), 0),
-      pipelineGdv: withPlanning.reduce((s, t) => s + (t.planning?.totalEstimatedGDV || 0), 0),
+      pipelineUnits: withPlanningDeduped.reduce((s, t) => s + (t.planning?.totalUnits || 0), 0),
+      pipelineGdv: withPlanningDeduped.reduce((s, t) => s + (t.planning?.totalEstimatedGDV || 0), 0),
       avgApprovalRate:
-        withPlanning.length > 0
-          ? Math.round(withPlanning.reduce((s, t) => s + (t.planning?.approvalRate || 0), 0) / withPlanning.length)
+        withPlanningDeduped.length > 0
+          ? Math.round(withPlanningDeduped.reduce((s, t) => s + (t.planning?.approvalRate || 0), 0) / withPlanningDeduped.length)
           : 0,
     };
 

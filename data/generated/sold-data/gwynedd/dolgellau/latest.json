@@ -1,22 +1,40 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.948Z",
+  "updatedAt": "2026-07-03T11:39:54.763Z",
   "townSlug": "dolgellau",
   "countySlug": "gwynedd",
   "stats": {
-    "medianPrice": 176500,
+    "medianPrice": 175000,
     "medianByType": {
-      "D": 255000,
-      "S": 257000,
-      "T": 150000,
+      "D": 268750,
+      "S": 227500,
+      "T": 145000,
       "F": 141750
     },
-    "transactionCount12m": 57,
-    "yoyChange": -22.2,
-    "newBuildCount": 1,
+    "transactionCount12m": 56,
+    "yoyChange": -18.6,
+    "newBuildCount": 0,
     "existingCount": 56,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 270000,
+      "date": "2026-05-06",
+      "postcode": "LL40 2AF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DWYRYD"
+    },
+    {
+      "price": 470000,
+      "date": "2026-05-05",
+      "postcode": "LL40 2TA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CAPEL COFFA"
+    },
     {
       "price": 165000,
       "date": "2026-04-21",
@@ -126,15 +144,6 @@
       "address": "13, MAES TALARAN"
     },
     {
-      "price": 165000,
-      "date": "2026-02-20",
-      "postcode": "LL40 1DL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, GREEN LANE"
-    },
-    {
       "price": 163995,
       "date": "2026-02-20",
       "postcode": "LL40 1UA",
@@ -142,6 +151,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "1, TALYBONT"
+    },
+    {
+      "price": 165000,
+      "date": "2026-02-20",
+      "postcode": "LL40 1DL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GREEN LANE"
     },
     {
       "price": 260000,
@@ -178,24 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "1, SPRINGFIELD STREET"
-    },
-    {
-      "price": 59000,
-      "date": "2025-12-03",
-      "postcode": "LL40 1BE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, WNION SQUARE"
-    },
-    {
-      "price": 134000,
-      "date": "2025-12-02",
-      "postcode": "LL40 1RY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRYNWNION, CADER ROAD"
     }
   ],
   "monthlyHistory": [
@@ -311,8 +311,8 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 306250,
-      "transactions": 2
+      "medianPrice": 223750,
+      "transactions": 4
     },
     {
       "month": "2025-12",
@@ -333,6 +333,11 @@
       "month": "2026-04",
       "medianPrice": 193250,
       "transactions": 4
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 370000,
+      "transactions": 2
     }
   ],
   "quarterlyHistory": [
@@ -373,8 +378,8 @@
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 207500,
-      "transactions": 14
+      "medianPrice": 187500,
+      "transactions": 16
     },
     {
       "quarter": "2026-Q1",
@@ -383,8 +388,8 @@
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 193250,
-      "transactions": 4
+      "medianPrice": 240000,
+      "transactions": 6
     }
   ]
 }

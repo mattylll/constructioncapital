@@ -1,22 +1,184 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.395Z",
+  "updatedAt": "2026-07-03T11:39:54.137Z",
   "townSlug": "newton-aycliffe",
   "countySlug": "county-durham",
   "stats": {
-    "medianPrice": 126000,
+    "medianPrice": 128000,
     "medianByType": {
-      "D": 230000,
-      "S": 141500,
-      "T": 87000,
-      "F": 64500
+      "D": 233000,
+      "S": 145000,
+      "T": 90000,
+      "F": 67000
     },
-    "transactionCount12m": 272,
-    "yoyChange": -7,
+    "transactionCount12m": 295,
+    "yoyChange": -5.2,
     "newBuildCount": 0,
-    "existingCount": 272,
+    "existingCount": 295,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 149950,
+      "date": "2026-05-27",
+      "postcode": "DL5 4BF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, THE PASTURE"
+    },
+    {
+      "price": 148000,
+      "date": "2026-05-18",
+      "postcode": "DL5 4JJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, HARDINGE ROAD"
+    },
+    {
+      "price": 245000,
+      "date": "2026-05-18",
+      "postcode": "DL5 7PR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31A, MALVERN WAY"
+    },
+    {
+      "price": 200000,
+      "date": "2026-05-18",
+      "postcode": "DL5 4ST",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, STAG LANE"
+    },
+    {
+      "price": 218000,
+      "date": "2026-05-15",
+      "postcode": "DL5 7QH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, TEMPLE WAY"
+    },
+    {
+      "price": 115000,
+      "date": "2026-05-14",
+      "postcode": "DL5 7AZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "96, BEECHFIELD"
+    },
+    {
+      "price": 80000,
+      "date": "2026-05-11",
+      "postcode": "DL5 7BB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "225, ROWAN PLACE"
+    },
+    {
+      "price": 77000,
+      "date": "2026-05-08",
+      "postcode": "DL5 4EP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, LIGHTFOOT ROAD"
+    },
+    {
+      "price": 218000,
+      "date": "2026-05-08",
+      "postcode": "DL5 4PF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, FOXGLOVE CLOSE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-05-08",
+      "postcode": "DL5 7QT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, HARESON ROAD"
+    },
+    {
+      "price": 158000,
+      "date": "2026-05-07",
+      "postcode": "DL5 7PR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, MALVERN WAY"
+    },
+    {
+      "price": 290000,
+      "date": "2026-05-06",
+      "postcode": "DL5 4ST",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, STAG LANE"
+    },
+    {
+      "price": 136603,
+      "date": "2026-05-05",
+      "postcode": "DL5 5QS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, SHAFTO WAY"
+    },
+    {
+      "price": 180000,
+      "date": "2026-04-30",
+      "postcode": "DL5 7BH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, BIRCH WAY"
+    },
+    {
+      "price": 315000,
+      "date": "2026-04-30",
+      "postcode": "DL5 6TB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, SMYTHSONS CLOSE"
+    },
+    {
+      "price": 156000,
+      "date": "2026-04-29",
+      "postcode": "DL5 4FF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, WELLHOUSE ROAD"
+    },
+    {
+      "price": 100000,
+      "date": "2026-04-28",
+      "postcode": "DL5 5DB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, YACLEY CLOSE"
+    },
+    {
+      "price": 110000,
+      "date": "2026-04-27",
+      "postcode": "DL5 4YG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, EPSOM COURT"
+    },
     {
       "price": 132000,
       "date": "2026-04-27",
@@ -27,175 +189,13 @@
       "address": "5, HUNTER ROAD"
     },
     {
-      "price": 102999,
-      "date": "2026-04-16",
-      "postcode": "DL5 7ED",
-      "propertyType": "T",
+      "price": 104000,
+      "date": "2026-04-24",
+      "postcode": "DL5 6HS",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "24, HAWES PLACE"
-    },
-    {
-      "price": 115500,
-      "date": "2026-04-09",
-      "postcode": "DL5 7BH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, BIRCH WAY"
-    },
-    {
-      "price": 330000,
-      "date": "2026-04-09",
-      "postcode": "DL5 4FE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, PINEWOOD CLOSE"
-    },
-    {
-      "price": 126000,
-      "date": "2026-04-07",
-      "postcode": "DL5 4SL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, BAMBURGH CRESCENT"
-    },
-    {
-      "price": 124000,
-      "date": "2026-04-07",
-      "postcode": "DL5 4BD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, WHITEHEAD WALK"
-    },
-    {
-      "price": 240000,
-      "date": "2026-04-07",
-      "postcode": "DL5 4PF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, FOXGLOVE CLOSE"
-    },
-    {
-      "price": 80000,
-      "date": "2026-04-01",
-      "postcode": "DL5 4QL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, PHOENIX PLACE"
-    },
-    {
-      "price": 187000,
-      "date": "2026-03-31",
-      "postcode": "DL5 7LB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, RUSSELL COURT"
-    },
-    {
-      "price": 112000,
-      "date": "2026-03-31",
-      "postcode": "DL5 5QS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, SHAFTO WAY"
-    },
-    {
-      "price": 55000,
-      "date": "2026-03-31",
-      "postcode": "DL5 7DP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, KIRKSTONE PLACE"
-    },
-    {
-      "price": 222000,
-      "date": "2026-03-27",
-      "postcode": "DL5 4UY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, HEATHERBURN COURT"
-    },
-    {
-      "price": 221000,
-      "date": "2026-03-26",
-      "postcode": "DL5 7BJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, BIRCH WAY"
-    },
-    {
-      "price": 155000,
-      "date": "2026-03-26",
-      "postcode": "DL5 4AS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, WASHINGTON CRESCENT"
-    },
-    {
-      "price": 92000,
-      "date": "2026-03-24",
-      "postcode": "DL5 4NW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "140, FAULKNER ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2026-03-23",
-      "postcode": "DL5 5DB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, YACLEY CLOSE"
-    },
-    {
-      "price": 355000,
-      "date": "2026-03-19",
-      "postcode": "DL5 4TR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, LOW GREEN"
-    },
-    {
-      "price": 180000,
-      "date": "2026-03-13",
-      "postcode": "DL5 4UN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, PEMBERTON ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-03-13",
-      "postcode": "DL5 7PX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, WOLVESTON CLOSE"
-    },
-    {
-      "price": 65000,
-      "date": "2026-03-13",
-      "postcode": "DL5 5QU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, STANFIELD ROAD"
+      "tenure": "L",
+      "address": "3, THE OLD STATION"
     }
   ],
   "monthlyHistory": [
@@ -291,13 +291,13 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 110000,
-      "transactions": 43
+      "medianPrice": 107500,
+      "transactions": 44
     },
     {
       "month": "2025-08",
-      "medianPrice": 145000,
-      "transactions": 27
+      "medianPrice": 138000,
+      "transactions": 29
     },
     {
       "month": "2025-09",
@@ -311,23 +311,23 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 146500,
-      "transactions": 24
+      "medianPrice": 148000,
+      "transactions": 25
     },
     {
       "month": "2025-12",
       "medianPrice": 145000,
-      "transactions": 25
+      "transactions": 26
     },
     {
       "month": "2026-01",
-      "medianPrice": 103000,
-      "transactions": 13
+      "medianPrice": 109000,
+      "transactions": 14
     },
     {
       "month": "2026-02",
-      "medianPrice": 105000,
-      "transactions": 21
+      "medianPrice": 110000,
+      "transactions": 22
     },
     {
       "month": "2026-03",
@@ -337,7 +337,12 @@
     {
       "month": "2026-04",
       "medianPrice": 125000,
-      "transactions": 8
+      "transactions": 24
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 158000,
+      "transactions": 13
     }
   ],
   "quarterlyHistory": [
@@ -373,23 +378,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 123000,
-      "transactions": 104
+      "medianPrice": 117000,
+      "transactions": 107
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 146250,
-      "transactions": 98
+      "transactions": 100
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 112000,
-      "transactions": 51
+      "medianPrice": 115000,
+      "transactions": 53
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 125000,
-      "transactions": 8
+      "medianPrice": 136603,
+      "transactions": 37
     }
   ]
 }

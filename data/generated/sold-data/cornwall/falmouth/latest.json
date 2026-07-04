@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-06-23T19:12:06.925Z",
+  "updatedAt": "2026-07-03T11:39:52.617Z",
   "townSlug": "falmouth",
   "countySlug": "cornwall",
   "stats": {
     "medianPrice": 350000,
     "medianByType": {
-      "D": 553750,
-      "S": 343998,
+      "D": 550000,
+      "S": 335750,
       "T": 325000,
-      "F": 230000
+      "F": 236000
     },
-    "transactionCount12m": 372,
-    "yoyChange": -2,
-    "newBuildCount": 2,
-    "existingCount": 370,
+    "transactionCount12m": 363,
+    "yoyChange": -1.1,
+    "newBuildCount": 1,
+    "existingCount": 362,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 345000,
+      "date": "2026-05-15",
+      "postcode": "TR11 4QR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "9, CAMBRIDGE PLACE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-05-08",
+      "postcode": "TR11 4HX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, CHARLES AVENUE"
+    },
+    {
+      "price": 515000,
+      "date": "2026-05-08",
+      "postcode": "TR11 4JX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, VENTON ROAD"
+    },
+    {
+      "price": 165000,
+      "date": "2026-05-08",
+      "postcode": "TR11 4QS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, 2, WOODLANE CRESCENT"
+    },
+    {
+      "price": 270000,
+      "date": "2026-05-08",
+      "postcode": "TR11 5PT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, CHURCHTOWN VIEW"
+    },
+    {
+      "price": 485000,
+      "date": "2026-05-01",
+      "postcode": "TR11 5GS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, ROSVA MORGOWR"
+    },
+    {
+      "price": 1800000,
+      "date": "2026-04-30",
+      "postcode": "TR11 5UD",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LAWITHICK, PENARROW ROAD"
+    },
+    {
+      "price": 285000,
+      "date": "2026-04-30",
+      "postcode": "TR11 3NX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WATERLOO PLACE"
+    },
+    {
+      "price": 35000,
+      "date": "2026-04-30",
+      "postcode": "TR11 5EU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, PARC AN MANNS"
+    },
+    {
+      "price": 380000,
+      "date": "2026-04-29",
+      "postcode": "TR11 5SE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38A, COMFORT ROAD"
+    },
     {
       "price": 400000,
       "date": "2026-04-27",
@@ -25,6 +115,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "10, ALBANY ROAD"
+    },
+    {
+      "price": 262500,
+      "date": "2026-04-27",
+      "postcode": "TR11 2AF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "60, HIGH STREET"
     },
     {
       "price": 445000,
@@ -45,6 +144,15 @@
       "address": "3, CARLIDNACK CLOSE"
     },
     {
+      "price": 400000,
+      "date": "2026-04-24",
+      "postcode": "TR11 3LT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, TRELAWNEY ROAD"
+    },
+    {
       "price": 515000,
       "date": "2026-04-22",
       "postcode": "TR11 5UX",
@@ -52,6 +160,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "1, POLMENNOR ROAD"
+    },
+    {
+      "price": 495000,
+      "date": "2026-04-22",
+      "postcode": "TR11 4JR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, KELLEY ROAD"
     },
     {
       "price": 755000,
@@ -79,123 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "97, LONGFIELD"
-    },
-    {
-      "price": 367500,
-      "date": "2026-04-14",
-      "postcode": "TR11 2UQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, TREVETHAN COURT, MITCHELL ROAD"
-    },
-    {
-      "price": 245000,
-      "date": "2026-04-13",
-      "postcode": "TR11 4SL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "88, LONGFIELD"
-    },
-    {
-      "price": 325000,
-      "date": "2026-04-13",
-      "postcode": "TR11 2BL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, BERKELEY HILL"
-    },
-    {
-      "price": 430000,
-      "date": "2026-04-08",
-      "postcode": "TR11 5SN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, PASSAGE HILL"
-    },
-    {
-      "price": 475000,
-      "date": "2026-04-08",
-      "postcode": "TR11 5BA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FERNLEA"
-    },
-    {
-      "price": 427500,
-      "date": "2026-04-02",
-      "postcode": "TR11 4QF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "126, BOSLOWICK ROAD"
-    },
-    {
-      "price": 650000,
-      "date": "2026-04-02",
-      "postcode": "TR11 5NS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PENTREATH, TREGATREATH"
-    },
-    {
-      "price": 125000,
-      "date": "2026-04-02",
-      "postcode": "TR11 3BB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "13, WELLINGTON GARDENS"
-    },
-    {
-      "price": 270000,
-      "date": "2026-04-02",
-      "postcode": "TR11 5NF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, BONYTHON CLOSE"
-    },
-    {
-      "price": 465000,
-      "date": "2026-04-02",
-      "postcode": "TR11 2DS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, PARK RISE"
-    },
-    {
-      "price": 273750,
-      "date": "2026-04-02",
-      "postcode": "TR11 4AB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, LINK CLOSE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-04-01",
-      "postcode": "TR11 2UJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "22, ADMIRALS QUAY"
-    },
-    {
-      "price": 330000,
-      "date": "2026-04-01",
-      "postcode": "TR11 2AU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "82, TREVETHAN ROAD"
     }
   ],
   "monthlyHistory": [
@@ -226,8 +226,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 355000,
-      "transactions": 57
+      "medianPrice": 356000,
+      "transactions": 56
     },
     {
       "month": "2024-07",
@@ -257,7 +257,7 @@
     {
       "month": "2024-12",
       "medianPrice": 350000,
-      "transactions": 33
+      "transactions": 34
     },
     {
       "month": "2025-01",
@@ -286,8 +286,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 335000,
-      "transactions": 56
+      "medianPrice": 330000,
+      "transactions": 67
     },
     {
       "month": "2025-07",
@@ -306,18 +306,18 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 366250,
-      "transactions": 48
+      "medianPrice": 357000,
+      "transactions": 50
     },
     {
       "month": "2025-11",
-      "medianPrice": 352000,
-      "transactions": 35
+      "medianPrice": 420000,
+      "transactions": 39
     },
     {
       "month": "2025-12",
-      "medianPrice": 358750,
-      "transactions": 34
+      "medianPrice": 357500,
+      "transactions": 35
     },
     {
       "month": "2026-01",
@@ -332,12 +332,17 @@
     {
       "month": "2026-03",
       "medianPrice": 387500,
-      "transactions": 28
+      "transactions": 30
     },
     {
       "month": "2026-04",
-      "medianPrice": 375000,
-      "transactions": 20
+      "medianPrice": 380000,
+      "transactions": 29
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 317500,
+      "transactions": 6
     }
   ],
   "quarterlyHistory": [
@@ -348,8 +353,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 355000,
-      "transactions": 157
+      "medianPrice": 356000,
+      "transactions": 156
     },
     {
       "quarter": "2024-Q3",
@@ -359,7 +364,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 350000,
-      "transactions": 153
+      "transactions": 154
     },
     {
       "quarter": "2025-Q1",
@@ -368,8 +373,8 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 332500,
-      "transactions": 116
+      "medianPrice": 330000,
+      "transactions": 127
     },
     {
       "quarter": "2025-Q3",
@@ -378,18 +383,18 @@
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 360000,
-      "transactions": 117
+      "medianPrice": 362500,
+      "transactions": 124
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 350000,
-      "transactions": 87
+      "transactions": 89
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 375000,
-      "transactions": 20
+      "medianPrice": 367500,
+      "transactions": 35
     }
   ]
 }

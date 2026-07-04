@@ -1,22 +1,94 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.462Z",
+  "updatedAt": "2026-07-03T11:39:54.212Z",
   "townSlug": "hexham",
   "countySlug": "northumberland",
   "stats": {
-    "medianPrice": 290500,
+    "medianPrice": 280000,
     "medianByType": {
-      "D": 437500,
-      "S": 277500,
-      "T": 207500,
-      "F": 139000
+      "D": 436250,
+      "S": 270000,
+      "T": 202000,
+      "F": 143000
     },
-    "transactionCount12m": 288,
-    "yoyChange": 9.6,
+    "transactionCount12m": 300,
+    "yoyChange": 9.8,
     "newBuildCount": 0,
-    "existingCount": 288,
+    "existingCount": 300,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 268000,
+      "date": "2026-05-20",
+      "postcode": "NE46 1UG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, DIPTON CLOSE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-05-13",
+      "postcode": "NE46 2BL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, VALEBROOK"
+    },
+    {
+      "price": 177000,
+      "date": "2026-05-11",
+      "postcode": "NE47 9UY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, SIPTON TERRACE"
+    },
+    {
+      "price": 545000,
+      "date": "2026-05-08",
+      "postcode": "NE47 7JL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HIGH BIRKSHAW"
+    },
+    {
+      "price": 375000,
+      "date": "2026-05-01",
+      "postcode": "NE47 9AS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, FORSTERSTEADS"
+    },
+    {
+      "price": 105000,
+      "date": "2026-04-30",
+      "postcode": "NE47 7EH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ELMS VIEW"
+    },
+    {
+      "price": 260000,
+      "date": "2026-04-29",
+      "postcode": "NE46 4QZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, REDBURN CRESCENT"
+    },
+    {
+      "price": 525000,
+      "date": "2026-04-29",
+      "postcode": "NE46 1UN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, THE ORCHARD, CORBRIDGE ROAD"
+    },
     {
       "price": 150000,
       "date": "2026-04-22",
@@ -25,15 +97,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "25, EILANSGATE TERRACE"
-    },
-    {
-      "price": 178000,
-      "date": "2026-04-20",
-      "postcode": "NE46 1HG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, DEAN STREET"
     },
     {
       "price": 265000,
@@ -45,6 +108,24 @@
       "address": "12, CRESCENT AVENUE"
     },
     {
+      "price": 178000,
+      "date": "2026-04-20",
+      "postcode": "NE46 1HG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, DEAN STREET"
+    },
+    {
+      "price": 200000,
+      "date": "2026-04-17",
+      "postcode": "NE46 3JR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, WINDSOR TERRACE"
+    },
+    {
       "price": 185000,
       "date": "2026-04-15",
       "postcode": "NE46 2AJ",
@@ -52,6 +133,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "28, PRIESTLANDS ROAD"
+    },
+    {
+      "price": 108000,
+      "date": "2026-04-14",
+      "postcode": "NE46 2EA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, ST WILFRIDS ROAD"
+    },
+    {
+      "price": 314500,
+      "date": "2026-04-14",
+      "postcode": "NE46 3JR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, WINDSOR TERRACE"
     },
     {
       "price": 515000,
@@ -72,15 +171,6 @@
       "address": "DALE VIEW"
     },
     {
-      "price": 314500,
-      "date": "2026-04-14",
-      "postcode": "NE46 3JR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, WINDSOR TERRACE"
-    },
-    {
       "price": 211335,
       "date": "2026-04-13",
       "postcode": "NE46 3SQ",
@@ -99,103 +189,13 @@
       "address": "THE HAWTHORNS, SHILBURN ROAD"
     },
     {
-      "price": 370000,
-      "date": "2026-04-08",
-      "postcode": "NE46 3PQ",
+      "price": 202000,
+      "date": "2026-04-10",
+      "postcode": "NE48 3PB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, HALLSTILE BANK"
-    },
-    {
-      "price": 335000,
-      "date": "2026-04-02",
-      "postcode": "NE46 3BN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "PENTHOUSE A, THE LEAZES, SHAWS LANE"
-    },
-    {
-      "price": 88500,
-      "date": "2026-04-01",
-      "postcode": "NE46 3SW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, PUDDING MEWS"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-31",
-      "postcode": "NE48 2SA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, WHITE ACRE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-03-30",
-      "postcode": "NE46 4PN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, NORTHUMBERLAND COURT"
-    },
-    {
-      "price": 333000,
-      "date": "2026-03-30",
-      "postcode": "NE46 2BG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CAUSEY BRAE"
-    },
-    {
-      "price": 170000,
-      "date": "2026-03-27",
-      "postcode": "NE46 3ET",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, SPITTAL TERRACE"
-    },
-    {
-      "price": 431500,
-      "date": "2026-03-27",
-      "postcode": "NE46 3JY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, QUATRE BRAS"
-    },
-    {
-      "price": 115000,
-      "date": "2026-03-26",
-      "postcode": "NE46 4QD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CROSS BANK VIEW"
-    },
-    {
-      "price": 510000,
-      "date": "2026-03-26",
-      "postcode": "NE46 4ED",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MILESTONE COTTAGE"
-    },
-    {
-      "price": 340000,
-      "date": "2026-03-25",
-      "postcode": "NE46 1AS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, GIBSON FIELDS"
+      "address": "KELD COTTAGE, BURNMOUTH COTTAGES"
     }
   ],
   "monthlyHistory": [
@@ -291,13 +291,13 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 275000,
-      "transactions": 30
+      "medianPrice": 255000,
+      "transactions": 31
     },
     {
       "month": "2025-08",
-      "medianPrice": 395000,
-      "transactions": 45
+      "medianPrice": 345000,
+      "transactions": 47
     },
     {
       "month": "2025-09",
@@ -306,38 +306,43 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 200000,
-      "transactions": 37
+      "medianPrice": 205000,
+      "transactions": 38
     },
     {
       "month": "2025-11",
       "medianPrice": 235000,
-      "transactions": 39
+      "transactions": 41
     },
     {
       "month": "2025-12",
-      "medianPrice": 325000,
-      "transactions": 34
+      "medianPrice": 317500,
+      "transactions": 36
     },
     {
       "month": "2026-01",
-      "medianPrice": 383000,
-      "transactions": 16
+      "medianPrice": 380000,
+      "transactions": 17
     },
     {
       "month": "2026-02",
-      "medianPrice": 356250,
-      "transactions": 12
+      "medianPrice": 317500,
+      "transactions": 13
     },
     {
       "month": "2026-03",
-      "medianPrice": 282500,
-      "transactions": 22
+      "medianPrice": 245000,
+      "transactions": 23
     },
     {
       "month": "2026-04",
-      "medianPrice": 203168,
-      "transactions": 12
+      "medianPrice": 200000,
+      "transactions": 19
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 275000,
+      "transactions": 5
     }
   ],
   "quarterlyHistory": [
@@ -373,23 +378,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 300000,
-      "transactions": 106
+      "medianPrice": 295000,
+      "transactions": 109
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 250000,
-      "transactions": 110
+      "transactions": 115
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 345000,
-      "transactions": 50
+      "medianPrice": 340000,
+      "transactions": 53
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 203168,
-      "transactions": 12
+      "medianPrice": 206668,
+      "transactions": 24
     }
   ]
 }

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:07.867Z",
+  "updatedAt": "2026-07-03T11:39:53.593Z",
   "townSlug": "chorley",
   "countySlug": "lancashire",
   "stats": {
-    "medianPrice": 216000,
+    "medianPrice": 219998,
     "medianByType": {
-      "D": 355810,
-      "S": 212000,
+      "D": 350000,
+      "S": 215000,
       "T": 165000,
       "F": 120000
     },
-    "transactionCount12m": 1269,
-    "yoyChange": 1.9,
-    "newBuildCount": 17,
-    "existingCount": 1252,
-    "newBuildPremium": 52.1
+    "transactionCount12m": 1384,
+    "yoyChange": 3.8,
+    "newBuildCount": 15,
+    "existingCount": 1369,
+    "newBuildPremium": 50
   },
   "recentTransactions": [
     {
-      "price": 140000,
-      "date": "2026-04-24",
-      "postcode": "PR7 4HG",
+      "price": 110000,
+      "date": "2026-05-22",
+      "postcode": "PR7 4JL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, WALTON STREET"
+      "address": "15, CHAPEL STREET"
     },
     {
-      "price": 209995,
-      "date": "2026-04-22",
-      "postcode": "BB2 5JA",
+      "price": 185000,
+      "date": "2026-05-22",
+      "postcode": "PR6 7SU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, BURGHLEY CLOSE"
+    },
+    {
+      "price": 295000,
+      "date": "2026-05-22",
+      "postcode": "PR7 6QG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, BALSHAW HOUSE GARDENS"
+    },
+    {
+      "price": 162000,
+      "date": "2026-05-21",
+      "postcode": "PR7 4PB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "28, OAKWOOD ROAD"
+    },
+    {
+      "price": 164000,
+      "date": "2026-05-20",
+      "postcode": "PR7 2EB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, LORNE STREET"
+    },
+    {
+      "price": 162000,
+      "date": "2026-05-18",
+      "postcode": "PR7 1XR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, BROADFIELDS"
+    },
+    {
+      "price": 170000,
+      "date": "2026-05-18",
+      "postcode": "PR5 8JB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, MAYPARK"
+    },
+    {
+      "price": 235000,
+      "date": "2026-05-15",
+      "postcode": "PR7 7AQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "39, MAIN STREET"
+    },
+    {
+      "price": 227500,
+      "date": "2026-05-15",
+      "postcode": "PR6 9RU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, BROAD OAK CLOSE"
+    },
+    {
+      "price": 162000,
+      "date": "2026-05-15",
+      "postcode": "PR6 0PU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "21, LAUREL BANK TERRACE"
+      "address": "85, EAVES LANE"
     },
     {
-      "price": 400000,
-      "date": "2026-04-21",
-      "postcode": "PR5 8HR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, CARR MEADOW"
-    },
-    {
-      "price": 174000,
-      "date": "2026-04-21",
-      "postcode": "PR7 3PL",
+      "price": 268000,
+      "date": "2026-05-15",
+      "postcode": "PR6 9FN",
       "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, DRAPERFIELD"
-    },
-    {
-      "price": 97732,
-      "date": "2026-04-20",
-      "postcode": "PR7 6JQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, PARK AVENUE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-04-17",
-      "postcode": "PR25 5TT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "76, HUNTERS ROAD"
-    },
-    {
-      "price": 325000,
-      "date": "2026-04-15",
-      "postcode": "PR7 5RE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, BEECHFIELDS"
-    },
-    {
-      "price": 645000,
-      "date": "2026-04-14",
-      "postcode": "PR6 8LQ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HIGHER FOLD BARN, TANHOUSE LANE"
-    },
-    {
-      "price": 129995,
-      "date": "2026-04-14",
-      "postcode": "PR6 0BG",
-      "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "30, KERSHAW STREET"
-    },
-    {
-      "price": 350000,
-      "date": "2026-04-10",
-      "postcode": "PR7 4AJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HILL COT, BOLTON ROAD"
-    },
-    {
-      "price": 176000,
-      "date": "2026-04-10",
-      "postcode": "PR7 7EH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "43, THE COURT, OAKBRIDGE DRIVE"
+      "address": "3, LIGHTOLLER CLOSE"
     },
     {
       "price": 520000,
-      "date": "2026-04-10",
-      "postcode": "PR7 3FJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "62, DUXBURY MANOR WAY"
-    },
-    {
-      "price": 280000,
-      "date": "2026-04-10",
-      "postcode": "PR7 7JH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "35, TOWNSEND DRIVE"
-    },
-    {
-      "price": 203500,
-      "date": "2026-04-09",
-      "postcode": "PR7 7LS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, STIRLING DRIVE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-04-08",
-      "postcode": "PR7 1UT",
+      "date": "2026-05-15",
+      "postcode": "PR7 5SB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, WYMUNDSLEY"
+      "address": "152, THE GREEN"
     },
     {
-      "price": 211000,
-      "date": "2026-04-07",
-      "postcode": "PR7 7LW",
+      "price": 175000,
+      "date": "2026-05-15",
+      "postcode": "PR7 5NB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, MARTLET GROVE"
+      "address": "29, LEESON AVENUE"
     },
     {
-      "price": 360000,
-      "date": "2026-04-07",
-      "postcode": "PR7 3DF",
+      "price": 255000,
+      "date": "2026-05-14",
+      "postcode": "PR7 6FZ",
       "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "21, AUSTIN DRIVE"
+      "tenure": "F",
+      "address": "2, GLENEAGLES DRIVE"
     },
     {
-      "price": 180000,
-      "date": "2026-04-07",
-      "postcode": "PR7 7GQ",
+      "price": 295000,
+      "date": "2026-05-14",
+      "postcode": "PR7 5RH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, RED HOUSE LANE"
+    },
+    {
+      "price": 142000,
+      "date": "2026-05-14",
+      "postcode": "PR5 8LH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ELMFIELD DRIVE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-05-13",
+      "postcode": "PR7 4LW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "14A, HORSESHOE DRIVE"
+      "address": "8, SUMMERFIELDS"
     },
     {
-      "price": 600000,
-      "date": "2026-04-02",
-      "postcode": "PR7 5TZ",
-      "propertyType": "O",
+      "price": 425000,
+      "date": "2026-05-12",
+      "postcode": "PR25 5AP",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "F",
-      "address": "UNIT 2, GROVE PARK INDUSTRIAL ESTATE"
+      "tenure": "L",
+      "address": "23, DARWIN DRIVE"
     },
     {
-      "price": 124000,
-      "date": "2026-04-02",
-      "postcode": "PR7 5BZ",
+      "price": 195000,
+      "date": "2026-05-11",
+      "postcode": "PR6 8HF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "204, SPENDMORE LANE"
+      "address": "4, ALBERT STREET"
+    },
+    {
+      "price": 227500,
+      "date": "2026-05-11",
+      "postcode": "PR7 5HD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, BLAINSCOUGH ROAD"
     }
   ],
   "monthlyHistory": [
@@ -246,13 +246,13 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 198498,
-      "transactions": 192
+      "medianPrice": 197000,
+      "transactions": 193
     },
     {
       "month": "2024-11",
-      "medianPrice": 203500,
-      "transactions": 193
+      "medianPrice": 204250,
+      "transactions": 194
     },
     {
       "month": "2024-12",
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 237500,
-      "transactions": 303
+      "medianPrice": 237750,
+      "transactions": 306
     },
     {
       "month": "2025-04",
@@ -282,62 +282,67 @@
     {
       "month": "2025-05",
       "medianPrice": 210000,
-      "transactions": 155
+      "transactions": 159
     },
     {
       "month": "2025-06",
       "medianPrice": 190000,
-      "transactions": 125
+      "transactions": 133
     },
     {
       "month": "2025-07",
-      "medianPrice": 207250,
-      "transactions": 154
+      "medianPrice": 207000,
+      "transactions": 163
     },
     {
       "month": "2025-08",
       "medianPrice": 235000,
-      "transactions": 171
+      "transactions": 179
     },
     {
       "month": "2025-09",
       "medianPrice": 215000,
-      "transactions": 157
+      "transactions": 161
     },
     {
       "month": "2025-10",
-      "medianPrice": 220000,
-      "transactions": 159
+      "medianPrice": 220500,
+      "transactions": 166
     },
     {
       "month": "2025-11",
-      "medianPrice": 235000,
-      "transactions": 125
+      "medianPrice": 240000,
+      "transactions": 135
     },
     {
       "month": "2025-12",
-      "medianPrice": 220000,
-      "transactions": 131
+      "medianPrice": 218000,
+      "transactions": 136
     },
     {
       "month": "2026-01",
-      "medianPrice": 200000,
-      "transactions": 107
+      "medianPrice": 200500,
+      "transactions": 115
     },
     {
       "month": "2026-02",
-      "medianPrice": 201000,
-      "transactions": 91
+      "medianPrice": 205500,
+      "transactions": 90
     },
     {
       "month": "2026-03",
-      "medianPrice": 215000,
-      "transactions": 107
+      "medianPrice": 212500,
+      "transactions": 118
     },
     {
       "month": "2026-04",
-      "medianPrice": 210498,
-      "transactions": 30
+      "medianPrice": 225000,
+      "transactions": 81
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 215000,
+      "transactions": 42
     }
   ],
   "quarterlyHistory": [
@@ -359,37 +364,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 210000,
-      "transactions": 558
+      "transactions": 560
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 223750,
-      "transactions": 646
+      "medianPrice": 225000,
+      "transactions": 649
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 199995,
-      "transactions": 385
+      "medianPrice": 200000,
+      "transactions": 397
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 218000,
-      "transactions": 482
+      "transactions": 503
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 221000,
-      "transactions": 415
+      "medianPrice": 222000,
+      "transactions": 437
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 201000,
-      "transactions": 305
+      "medianPrice": 205000,
+      "transactions": 323
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 210498,
-      "transactions": 30
+      "medianPrice": 220000,
+      "transactions": 123
     }
   ]
 }

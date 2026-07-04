@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.150Z",
+  "updatedAt": "2026-07-03T11:39:53.883Z",
   "townSlug": "pontefract",
   "countySlug": "west-yorkshire",
   "stats": {
     "medianPrice": 180000,
     "medianByType": {
-      "D": 305000,
-      "S": 185000,
-      "T": 130000,
-      "F": 90000
+      "D": 300000,
+      "S": 187000,
+      "T": 135000,
+      "F": 91500
     },
-    "transactionCount12m": 1037,
+    "transactionCount12m": 1077,
     "yoyChange": -2.7,
-    "newBuildCount": 28,
-    "existingCount": 1009,
-    "newBuildPremium": 16.6
+    "newBuildCount": 20,
+    "existingCount": 1057,
+    "newBuildPremium": 25.1
   },
   "recentTransactions": [
     {
+      "price": 240500,
+      "date": "2026-05-22",
+      "postcode": "WF9 4HU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, COTTAM CROFT"
+    },
+    {
+      "price": 148000,
+      "date": "2026-05-22",
+      "postcode": "WF8 2LS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, MILL LANE"
+    },
+    {
       "price": 175000,
-      "date": "2026-04-24",
-      "postcode": "WF9 5FP",
+      "date": "2026-05-19",
+      "postcode": "WF9 4LS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, STOPE AVENUE"
-    },
-    {
-      "price": 160000,
-      "date": "2026-04-24",
-      "postcode": "WF7 6DH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, GIN LANE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-04-23",
-      "postcode": "WF8 2LW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, ELIZABETHAN COURT"
-    },
-    {
-      "price": 70000,
-      "date": "2026-04-21",
-      "postcode": "WF9 5EL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2D, PARK VIEW"
-    },
-    {
-      "price": 242000,
-      "date": "2026-04-17",
-      "postcode": "WF8 2FX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, CASTLE CRESCENT"
-    },
-    {
-      "price": 82500,
-      "date": "2026-04-15",
-      "postcode": "WF8 1LZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "66, NORTHGATE LODGE"
+      "address": "4, LAVENDER WAY"
     },
     {
       "price": 165000,
-      "date": "2026-04-14",
-      "postcode": "WF9 4BE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, GROVE LANE"
-    },
-    {
-      "price": 228000,
-      "date": "2026-04-13",
-      "postcode": "WF7 5PG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, COLLIERS ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-04-13",
-      "postcode": "WF8 2PH",
+      "date": "2026-05-18",
+      "postcode": "WF7 7PD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, DARKFIELD LANE"
+      "address": "5, MILL GATE"
     },
     {
-      "price": 233000,
-      "date": "2026-04-10",
-      "postcode": "WF7 6AD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "196, FEATHERSTONE LANE"
-    },
-    {
-      "price": 112000,
-      "date": "2026-04-10",
-      "postcode": "WF9 2JP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ROWLEY LANE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-04-09",
-      "postcode": "WF9 5BN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, ASHWOOD MOUNT"
-    },
-    {
-      "price": 160000,
-      "date": "2026-04-09",
-      "postcode": "WF9 2BH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "111, BARNSLEY ROAD"
-    },
-    {
-      "price": 142500,
-      "date": "2026-04-08",
-      "postcode": "WF9 1HA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, SCHOOL STREET"
-    },
-    {
-      "price": 215000,
-      "date": "2026-04-07",
-      "postcode": "WF7 5PU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "107, SILKSTONE ROAD"
-    },
-    {
-      "price": 225000,
-      "date": "2026-04-02",
-      "postcode": "WF9 3JX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, THE GREEN"
-    },
-    {
-      "price": 90000,
-      "date": "2026-04-02",
-      "postcode": "WF7 5BA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "114A, STATION LANE"
-    },
-    {
-      "price": 72500,
-      "date": "2026-04-01",
+      "price": 60000,
+      "date": "2026-05-15",
       "postcode": "WF8 1LZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "86, NORTHGATE LODGE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-04-01",
-      "postcode": "WF7 6DH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, GIN LANE"
-    },
-    {
-      "price": 80000,
-      "date": "2026-03-31",
-      "postcode": "WF8 2GN",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "19, BAILEYGATE MEWS"
+      "address": "115, NORTHGATE LODGE"
+    },
+    {
+      "price": 170000,
+      "date": "2026-05-15",
+      "postcode": "WF7 6LQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, EASTBOURNE AVENUE"
+    },
+    {
+      "price": 170000,
+      "date": "2026-05-15",
+      "postcode": "WF8 2ZB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, HAWTHORNE CLOSE"
+    },
+    {
+      "price": 190000,
+      "date": "2026-05-15",
+      "postcode": "WF9 4PJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, VISSETT CLOSE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-05-15",
+      "postcode": "WF7 7JS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, HARDAKERS LANE"
+    },
+    {
+      "price": 170000,
+      "date": "2026-05-15",
+      "postcode": "WF7 5JR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, SOUTHFIELD AVENUE"
+    },
+    {
+      "price": 181000,
+      "date": "2026-05-14",
+      "postcode": "WF7 6BB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, CHURCH LANE"
+    },
+    {
+      "price": 165000,
+      "date": "2026-05-11",
+      "postcode": "WF7 5NF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "90A, GIRNHILL LANE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-05-11",
+      "postcode": "WF9 4LZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "139, SOUTHMOOR ROAD"
+    },
+    {
+      "price": 115000,
+      "date": "2026-05-11",
+      "postcode": "WF8 3BJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, CHURCH LANE"
+    },
+    {
+      "price": 100000,
+      "date": "2026-05-08",
+      "postcode": "WF9 5EB",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, WAKEFIELD ROAD"
+    },
+    {
+      "price": 157500,
+      "date": "2026-05-08",
+      "postcode": "WF9 5FH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, DUKE STREET"
+    },
+    {
+      "price": 337500,
+      "date": "2026-05-08",
+      "postcode": "WF9 3LD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33A, WHITE APRON STREET"
+    },
+    {
+      "price": 137500,
+      "date": "2026-05-08",
+      "postcode": "WF9 3QP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "100, CHURCH DRIVE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-05-08",
+      "postcode": "WF8 2RZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, AVENS CLOSE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-05-08",
+      "postcode": "WF9 3RB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, CLAYTON HOLT"
     }
   ],
   "monthlyHistory": [
@@ -237,7 +237,7 @@
     {
       "month": "2024-08",
       "medianPrice": 180000,
-      "transactions": 135
+      "transactions": 136
     },
     {
       "month": "2024-09",
@@ -266,28 +266,28 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 185000,
-      "transactions": 139
+      "medianPrice": 184553,
+      "transactions": 140
     },
     {
       "month": "2025-03",
       "medianPrice": 195000,
-      "transactions": 240
+      "transactions": 242
     },
     {
       "month": "2025-04",
-      "medianPrice": 167500,
-      "transactions": 76
+      "medianPrice": 163000,
+      "transactions": 77
     },
     {
       "month": "2025-05",
       "medianPrice": 200000,
-      "transactions": 146
+      "transactions": 147
     },
     {
       "month": "2025-06",
-      "medianPrice": 170995,
-      "transactions": 135
+      "medianPrice": 173000,
+      "transactions": 139
     },
     {
       "month": "2025-07",
@@ -296,28 +296,28 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 185000,
-      "transactions": 126
+      "medianPrice": 180000,
+      "transactions": 133
     },
     {
       "month": "2025-09",
       "medianPrice": 170000,
-      "transactions": 125
+      "transactions": 126
     },
     {
       "month": "2025-10",
       "medianPrice": 180000,
-      "transactions": 146
+      "transactions": 152
     },
     {
       "month": "2025-11",
-      "medianPrice": 176500,
-      "transactions": 96
+      "medianPrice": 178000,
+      "transactions": 103
     },
     {
       "month": "2025-12",
       "medianPrice": 202500,
-      "transactions": 110
+      "transactions": 114
     },
     {
       "month": "2026-01",
@@ -326,18 +326,23 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 167500,
-      "transactions": 65
+      "medianPrice": 167750,
+      "transactions": 68
     },
     {
       "month": "2026-03",
-      "medianPrice": 178000,
-      "transactions": 85
+      "medianPrice": 180000,
+      "transactions": 94
     },
     {
       "month": "2026-04",
-      "medianPrice": 165000,
-      "transactions": 19
+      "medianPrice": 174250,
+      "transactions": 56
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 179250,
+      "transactions": 32
     }
   ],
   "quarterlyHistory": [
@@ -354,7 +359,7 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 185000,
-      "transactions": 423
+      "transactions": 424
     },
     {
       "quarter": "2024-Q4",
@@ -364,32 +369,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 190000,
-      "transactions": 514
+      "transactions": 517
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 182500,
-      "transactions": 357
+      "medianPrice": 183000,
+      "transactions": 363
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 180000,
-      "transactions": 399
+      "transactions": 407
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 188000,
-      "transactions": 352
+      "transactions": 369
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 171250,
-      "transactions": 210
+      "medianPrice": 173750,
+      "transactions": 222
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 165000,
-      "transactions": 19
+      "medianPrice": 175000,
+      "transactions": 88
     }
   ]
 }

@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-06-23T19:12:06.428Z",
+  "updatedAt": "2026-07-03T11:39:52.148Z",
   "townSlug": "beaconsfield",
   "countySlug": "buckinghamshire",
   "stats": {
-    "medianPrice": 950000,
+    "medianPrice": 965000,
     "medianByType": {
-      "D": 1407500,
-      "S": 825000,
-      "T": 545000,
-      "F": 392500
+      "D": 1415000,
+      "S": 850000,
+      "T": 565000,
+      "F": 395000
     },
-    "transactionCount12m": 170,
-    "yoyChange": -2.1,
+    "transactionCount12m": 182,
+    "yoyChange": 0,
     "newBuildCount": 4,
-    "existingCount": 166,
-    "newBuildPremium": 16.8
+    "existingCount": 178,
+    "newBuildPremium": 20.2
   },
   "recentTransactions": [
+    {
+      "price": 600000,
+      "date": "2026-05-14",
+      "postcode": "HP9 2YH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, HEARNES MEADOW"
+    },
+    {
+      "price": 945000,
+      "date": "2026-05-13",
+      "postcode": "HP9 2RD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, BALDWIN ROAD"
+    },
+    {
+      "price": 1710000,
+      "date": "2026-04-29",
+      "postcode": "HP9 2BE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, NETHERWOOD ROAD"
+    },
+    {
+      "price": 1700000,
+      "date": "2026-04-28",
+      "postcode": "HP9 2TT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SANDALWOOD, DREWS PARK"
+    },
+    {
+      "price": 1190000,
+      "date": "2026-04-28",
+      "postcode": "HP9 1EJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "66, BURGESS WOOD ROAD SOUTH"
+    },
+    {
+      "price": 730000,
+      "date": "2026-04-27",
+      "postcode": "HP9 1AR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "77, CANDLEMAS MEAD"
+    },
+    {
+      "price": 870000,
+      "date": "2026-04-27",
+      "postcode": "HP9 2HA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, AMERSHAM ROAD"
+    },
+    {
+      "price": 895000,
+      "date": "2026-04-24",
+      "postcode": "HP9 2BF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, ORCHARD GREEN"
+    },
+    {
+      "price": 1250000,
+      "date": "2026-04-17",
+      "postcode": "HP9 2RW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, DUPRE CRESCENT"
+    },
+    {
+      "price": 400000,
+      "date": "2026-04-10",
+      "postcode": "HP9 1AQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 12, MAXWELL PLACE, 130 - 136, MAXWELL ROAD"
+    },
     {
       "price": 500000,
       "date": "2026-04-07",
@@ -72,6 +162,15 @@
       "address": "16, BARING ROAD"
     },
     {
+      "price": 288000,
+      "date": "2026-03-27",
+      "postcode": "HP9 1QF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "37, ELMERS COURT, POST OFFICE LANE"
+    },
+    {
       "price": 510000,
       "date": "2026-03-26",
       "postcode": "HP9 1BE",
@@ -97,105 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "4, DUPRE CRESCENT"
-    },
-    {
-      "price": 540000,
-      "date": "2026-03-11",
-      "postcode": "HP9 1LJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, HORSESHOE CRESCENT"
-    },
-    {
-      "price": 218000,
-      "date": "2026-03-06",
-      "postcode": "HP9 2NA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, REYNOLDS COURT, BARING ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-03-05",
-      "postcode": "HP9 1HG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, CARDAIN HOUSE, BURKES ROAD"
-    },
-    {
-      "price": 1225000,
-      "date": "2026-02-27",
-      "postcode": "HP9 2UH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HILDRIC COTTAGE, BOTTOM LANE"
-    },
-    {
-      "price": 1060000,
-      "date": "2026-02-27",
-      "postcode": "HP9 1AE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, CANDLEMAS LANE"
-    },
-    {
-      "price": 305000,
-      "date": "2026-02-27",
-      "postcode": "HP9 2EN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, PARK GROVE"
-    },
-    {
-      "price": 715000,
-      "date": "2026-02-25",
-      "postcode": "HP9 2XT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, HOWARD ROAD"
-    },
-    {
-      "price": 1020000,
-      "date": "2026-02-20",
-      "postcode": "HP9 1AL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, MEADOW LANE"
-    },
-    {
-      "price": 1025000,
-      "date": "2026-02-16",
-      "postcode": "HP9 1AH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, CANDLEMAS LANE"
-    },
-    {
-      "price": 1300000,
-      "date": "2026-02-12",
-      "postcode": "HP9 1UE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, MAYFLOWER WAY"
-    },
-    {
-      "price": 2725000,
-      "date": "2026-01-30",
-      "postcode": "HP9 2NR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, BEARSWOOD END"
     }
   ],
   "monthlyHistory": [
@@ -291,13 +291,13 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 1187500,
-      "transactions": 32
+      "medianPrice": 1200000,
+      "transactions": 35
     },
     {
       "month": "2025-08",
-      "medianPrice": 1050000,
-      "transactions": 27
+      "medianPrice": 1105000,
+      "transactions": 28
     },
     {
       "month": "2025-09",
@@ -311,33 +311,38 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 820000,
-      "transactions": 19
+      "medianPrice": 1020000,
+      "transactions": 23
     },
     {
       "month": "2025-12",
-      "medianPrice": 950000,
-      "transactions": 17
+      "medianPrice": 975000,
+      "transactions": 21
     },
     {
       "month": "2026-01",
-      "medianPrice": 750000,
-      "transactions": 9
+      "medianPrice": 851000,
+      "transactions": 10
     },
     {
       "month": "2026-02",
-      "medianPrice": 1025000,
-      "transactions": 7
-    },
-    {
-      "month": "2026-03",
-      "medianPrice": 525000,
+      "medianPrice": 1042500,
       "transactions": 8
     },
     {
+      "month": "2026-03",
+      "medianPrice": 510000,
+      "transactions": 9
+    },
+    {
       "month": "2026-04",
-      "medianPrice": 707500,
-      "transactions": 4
+      "medianPrice": 832500,
+      "transactions": 12
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 772500,
+      "transactions": 2
     }
   ],
   "quarterlyHistory": [
@@ -373,23 +378,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 1143750,
-      "transactions": 76
+      "medianPrice": 1150000,
+      "transactions": 80
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 912500,
-      "transactions": 56
+      "medianPrice": 962500,
+      "transactions": 64
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 730000,
-      "transactions": 24
+      "medianPrice": 735000,
+      "transactions": 27
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 707500,
-      "transactions": 4
+      "medianPrice": 832500,
+      "transactions": 14
     }
   ]
 }

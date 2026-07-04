@@ -1,22 +1,148 @@
 {
-  "updatedAt": "2026-06-23T19:12:07.492Z",
+  "updatedAt": "2026-07-03T11:39:53.209Z",
   "townSlug": "retford",
   "countySlug": "nottinghamshire",
   "stats": {
-    "medianPrice": 190000,
+    "medianPrice": 194000,
     "medianByType": {
-      "D": 335000,
+      "D": 325000,
       "S": 180000,
-      "T": 155000,
-      "F": 97000
+      "T": 150000,
+      "F": 95000
     },
-    "transactionCount12m": 413,
-    "yoyChange": -14.8,
-    "newBuildCount": 9,
-    "existingCount": 404,
-    "newBuildPremium": 78.9
+    "transactionCount12m": 436,
+    "yoyChange": -13.4,
+    "newBuildCount": 3,
+    "existingCount": 433,
+    "newBuildPremium": 315.6
   },
   "recentTransactions": [
+    {
+      "price": 160000,
+      "date": "2026-05-22",
+      "postcode": "DN22 7ST",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, LIFTON AVENUE"
+    },
+    {
+      "price": 154000,
+      "date": "2026-05-18",
+      "postcode": "DN22 8AF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "72, LAWNWOOD AVENUE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-05-14",
+      "postcode": "DN22 7ZD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, BIRCHCROFT ROAD"
+    },
+    {
+      "price": 96250,
+      "date": "2026-05-08",
+      "postcode": "DN22 7SB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, ROSE LEA"
+    },
+    {
+      "price": 190000,
+      "date": "2026-05-08",
+      "postcode": "DN22 6UA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "67, HOLDENBY CLOSE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-05-08",
+      "postcode": "DN22 8LE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HOLLY TREE COTTAGE, STATION ROAD"
+    },
+    {
+      "price": 285000,
+      "date": "2026-05-08",
+      "postcode": "DN22 7GX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, OAKDALE ROAD"
+    },
+    {
+      "price": 240000,
+      "date": "2026-05-07",
+      "postcode": "DN22 7WZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4, BLUE ALBION STREET"
+    },
+    {
+      "price": 337500,
+      "date": "2026-05-06",
+      "postcode": "DN22 0AD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GAINSBOROUGH HOUSE, MAIN STREET"
+    },
+    {
+      "price": 182500,
+      "date": "2026-05-01",
+      "postcode": "DN22 7FP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, BOVINGTON COURT"
+    },
+    {
+      "price": 241000,
+      "date": "2026-05-01",
+      "postcode": "DN22 6BE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1A, HOLLY ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-04-29",
+      "postcode": "DN22 6ST",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, DURHAM GROVE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-04-29",
+      "postcode": "DN22 7XL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "97, NORTH ROAD"
+    },
+    {
+      "price": 340000,
+      "date": "2026-04-25",
+      "postcode": "DN22 0EN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MANOR FARM, TOWN STREET"
+    },
     {
       "price": 172000,
       "date": "2026-04-24",
@@ -27,6 +153,42 @@
       "address": "34, WATERFIELDS"
     },
     {
+      "price": 122500,
+      "date": "2026-04-24",
+      "postcode": "DN22 7YS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, FIRTH ROAD"
+    },
+    {
+      "price": 70000,
+      "date": "2026-04-23",
+      "postcode": "DN22 6FE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "145, MILL BRIDGE CLOSE"
+    },
+    {
+      "price": 272500,
+      "date": "2026-04-17",
+      "postcode": "DN22 6TZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, WELHAM GROVE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-04-17",
+      "postcode": "DN22 9JY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, SOUTH VIEW DRIVE"
+    },
+    {
       "price": 85000,
       "date": "2026-04-17",
       "postcode": "DN22 6NJ",
@@ -34,168 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "2A, OSBERTON ROAD"
-    },
-    {
-      "price": 420000,
-      "date": "2026-04-14",
-      "postcode": "DN22 7ZH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, HINE CLOSE"
-    },
-    {
-      "price": 145000,
-      "date": "2026-04-13",
-      "postcode": "DN22 0DN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, PIPPISTRELLE CLOSE"
-    },
-    {
-      "price": 95000,
-      "date": "2026-04-10",
-      "postcode": "DN22 6RE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "94, WATERFIELDS"
-    },
-    {
-      "price": 380000,
-      "date": "2026-04-10",
-      "postcode": "DN22 7TZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PINFOLD HOUSE, 133, HIGH STREET"
-    },
-    {
-      "price": 153500,
-      "date": "2026-04-10",
-      "postcode": "DN22 7RG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, MERTON AVENUE"
-    },
-    {
-      "price": 177500,
-      "date": "2026-04-10",
-      "postcode": "DN22 7WG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, CANTERBURY CLOSE"
-    },
-    {
-      "price": 507500,
-      "date": "2026-04-09",
-      "postcode": "DN22 0BN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "APPLEGARTH, HIGH STREET"
-    },
-    {
-      "price": 447000,
-      "date": "2026-04-08",
-      "postcode": "DN22 9DG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "NORLAND HOUSE, CHURCH HILL"
-    },
-    {
-      "price": 385000,
-      "date": "2026-04-07",
-      "postcode": "DN22 7XF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, NORTH ROAD"
-    },
-    {
-      "price": 225000,
-      "date": "2026-04-02",
-      "postcode": "DN22 6UJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, WILLIAM GARDENS"
-    },
-    {
-      "price": 175000,
-      "date": "2026-04-02",
-      "postcode": "DN22 8LX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, CHERRY TREE CLOSE"
-    },
-    {
-      "price": 245000,
-      "date": "2026-04-02",
-      "postcode": "DN22 6TT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, BRIXWORTH WAY"
-    },
-    {
-      "price": 460000,
-      "date": "2026-04-02",
-      "postcode": "DN22 7US",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE KINGFISHERS, ALL HALLOWS VIEW"
-    },
-    {
-      "price": 95000,
-      "date": "2026-04-02",
-      "postcode": "DN22 6PS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, WELLINGTON SQUARE"
-    },
-    {
-      "price": 90000,
-      "date": "2026-04-01",
-      "postcode": "DN22 7EH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, WHARTON STREET"
-    },
-    {
-      "price": 80000,
-      "date": "2026-04-01",
-      "postcode": "DN22 7ET",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "15, GOMERSALL CLOSE"
-    },
-    {
-      "price": 145000,
-      "date": "2026-03-30",
-      "postcode": "DN22 0TD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, THE PASTURES"
-    },
-    {
-      "price": 152000,
-      "date": "2026-03-30",
-      "postcode": "DN22 7RN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, CHESTNUT AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -256,8 +256,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 256000,
-      "transactions": 57
+      "medianPrice": 258000,
+      "transactions": 58
     },
     {
       "month": "2025-01",
@@ -287,42 +287,42 @@
     {
       "month": "2025-06",
       "medianPrice": 242498,
-      "transactions": 44
+      "transactions": 46
     },
     {
       "month": "2025-07",
-      "medianPrice": 186250,
-      "transactions": 50
+      "medianPrice": 187750,
+      "transactions": 52
     },
     {
       "month": "2025-08",
       "medianPrice": 190000,
-      "transactions": 49
+      "transactions": 51
     },
     {
       "month": "2025-09",
       "medianPrice": 215000,
-      "transactions": 41
+      "transactions": 43
     },
     {
       "month": "2025-10",
-      "medianPrice": 195000,
-      "transactions": 57
+      "medianPrice": 198000,
+      "transactions": 60
     },
     {
       "month": "2025-11",
-      "medianPrice": 173125,
-      "transactions": 42
+      "medianPrice": 175000,
+      "transactions": 47
     },
     {
       "month": "2025-12",
-      "medianPrice": 202500,
+      "medianPrice": 205000,
       "transactions": 41
     },
     {
       "month": "2026-01",
-      "medianPrice": 197500,
-      "transactions": 30
+      "medianPrice": 200000,
+      "transactions": 31
     },
     {
       "month": "2026-02",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 182500,
-      "transactions": 32
+      "medianPrice": 185000,
+      "transactions": 38
     },
     {
       "month": "2026-04",
-      "medianPrice": 176250,
-      "transactions": 18
+      "medianPrice": 212500,
+      "transactions": 32
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 205000,
+      "transactions": 11
     }
   ],
   "quarterlyHistory": [
@@ -358,8 +363,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 237000,
-      "transactions": 181
+      "medianPrice": 237250,
+      "transactions": 182
     },
     {
       "quarter": "2025-Q1",
@@ -369,27 +374,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 224000,
-      "transactions": 139
+      "transactions": 141
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 190000,
-      "transactions": 140
+      "transactions": 146
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 191500,
-      "transactions": 140
+      "medianPrice": 195000,
+      "transactions": 148
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 190000,
-      "transactions": 95
+      "transactions": 102
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 176250,
-      "transactions": 18
+      "medianPrice": 205000,
+      "transactions": 43
     }
   ]
 }

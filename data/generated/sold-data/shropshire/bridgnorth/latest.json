@@ -1,22 +1,94 @@
 {
-  "updatedAt": "2026-06-23T19:12:07.369Z",
+  "updatedAt": "2026-07-03T11:39:53.083Z",
   "townSlug": "bridgnorth",
   "countySlug": "shropshire",
   "stats": {
-    "medianPrice": 266250,
+    "medianPrice": 265000,
     "medianByType": {
-      "D": 382500,
+      "D": 380000,
       "S": 260000,
-      "T": 226000,
-      "F": 140000
+      "T": 227000,
+      "F": 137500
     },
-    "transactionCount12m": 244,
-    "yoyChange": 0.5,
+    "transactionCount12m": 255,
+    "yoyChange": 0,
     "newBuildCount": 0,
-    "existingCount": 244,
+    "existingCount": 255,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 232500,
+      "date": "2026-05-22",
+      "postcode": "WV16 6FA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, HITCHENS WAY"
+    },
+    {
+      "price": 395000,
+      "date": "2026-05-11",
+      "postcode": "WV16 4JF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, QUEENSWAY DRIVE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-05-07",
+      "postcode": "WV15 5AS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26A, BERNARDS HILL"
+    },
+    {
+      "price": 230000,
+      "date": "2026-05-01",
+      "postcode": "WV16 6DP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, HOLLYWOOD DRIVE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-05-01",
+      "postcode": "WV15 6DQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, SABRINA ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-04-24",
+      "postcode": "WV16 4EJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BAXTERS COTTAGE, 30, ST LEONARDS CLOSE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-04-24",
+      "postcode": "WV16 6NU",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24 - 25, THE BUNGALOWS"
+    },
+    {
+      "price": 160000,
+      "date": "2026-04-24",
+      "postcode": "WV15 6NR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, ARDEN WAY"
+    },
     {
       "price": 295000,
       "date": "2026-04-24",
@@ -25,6 +97,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "7, RASTRICK CLOSE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-04-23",
+      "postcode": "WV16 6FB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, STALEY GROVE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-04-14",
+      "postcode": "WV15 6PG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, GREENLEYS CRESCENT"
     },
     {
       "price": 445000,
@@ -36,13 +126,13 @@
       "address": "34, BIRCH GROVE"
     },
     {
-      "price": 325000,
+      "price": 345000,
       "date": "2026-04-14",
-      "postcode": "WV15 6PG",
-      "propertyType": "D",
+      "postcode": "WV15 6DN",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, GREENLEYS CRESCENT"
+      "address": "43, SPRINGFIELD"
     },
     {
       "price": 170000,
@@ -72,13 +162,31 @@
       "address": "25, BEECH STREET"
     },
     {
-      "price": 530000,
+      "price": 770000,
+      "date": "2026-04-09",
+      "postcode": "WV16 6AQ",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LOBBY FARM"
+    },
+    {
+      "price": 665000,
+      "date": "2026-04-08",
+      "postcode": "WV16 6RQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FAINTREE HEIGHTS"
+    },
+    {
+      "price": 212500,
       "date": "2026-04-02",
-      "postcode": "WV16 5BX",
+      "postcode": "WV16 6EA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, CONDUIT LANE"
+      "address": "5, HAZELWELLS ROAD"
     },
     {
       "price": 220000,
@@ -88,114 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "10, COPPERFIELD"
-    },
-    {
-      "price": 85000,
-      "date": "2026-04-01",
-      "postcode": "WV16 4BY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 39, LAVINGTON COURT, 41, UNDERHILL STREET"
-    },
-    {
-      "price": 500000,
-      "date": "2026-03-27",
-      "postcode": "WV16 5DN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, PAULBROOK ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-27",
-      "postcode": "WV16 4RY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, FAIRFIELD"
-    },
-    {
-      "price": 248500,
-      "date": "2026-03-27",
-      "postcode": "WV16 4NE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, GOLDSTONE DRIVE"
-    },
-    {
-      "price": 227000,
-      "date": "2026-03-27",
-      "postcode": "WV16 4BT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, KINGS LOADE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-03-27",
-      "postcode": "WV15 5BP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, THE MALL"
-    },
-    {
-      "price": 338000,
-      "date": "2026-03-23",
-      "postcode": "WV15 6PB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, GREENWAY AVENUE"
-    },
-    {
-      "price": 95000,
-      "date": "2026-03-20",
-      "postcode": "WV16 5BR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "49, TALBOT COURT, SALOP STREET"
-    },
-    {
-      "price": 272500,
-      "date": "2026-03-20",
-      "postcode": "WV16 5AZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, WENLOCK ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-03-19",
-      "postcode": "WV16 6JY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "103, RHEA HALL ESTATE"
-    },
-    {
-      "price": 295000,
-      "date": "2026-03-19",
-      "postcode": "WV15 6PD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, MEADOWBROOK CLOSE"
-    },
-    {
-      "price": 370000,
-      "date": "2026-03-13",
-      "postcode": "WV16 5NB",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31"
     }
   ],
   "monthlyHistory": [
@@ -281,8 +281,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 260000,
-      "transactions": 22
+      "medianPrice": 267500,
+      "transactions": 23
     },
     {
       "month": "2025-06",
@@ -291,8 +291,8 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 292500,
-      "transactions": 16
+      "medianPrice": 290000,
+      "transactions": 17
     },
     {
       "month": "2025-08",
@@ -301,23 +301,23 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 315000,
-      "transactions": 29
+      "medianPrice": 307500,
+      "transactions": 30
     },
     {
       "month": "2025-10",
-      "medianPrice": 272550,
-      "transactions": 36
+      "medianPrice": 272600,
+      "transactions": 37
     },
     {
       "month": "2025-11",
-      "medianPrice": 271000,
-      "transactions": 26
+      "medianPrice": 270000,
+      "transactions": 29
     },
     {
       "month": "2025-12",
-      "medianPrice": 257000,
-      "transactions": 34
+      "medianPrice": 260000,
+      "transactions": 36
     },
     {
       "month": "2026-01",
@@ -336,8 +336,13 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 220000,
-      "transactions": 9
+      "medianPrice": 225000,
+      "transactions": 17
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 232500,
+      "transactions": 5
     }
   ],
   "quarterlyHistory": [
@@ -368,18 +373,18 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 242500,
-      "transactions": 64
+      "medianPrice": 245000,
+      "transactions": 65
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 290000,
-      "transactions": 69
+      "medianPrice": 280000,
+      "transactions": 71
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 271000,
-      "transactions": 96
+      "transactions": 102
     },
     {
       "quarter": "2026-Q1",
@@ -388,8 +393,8 @@
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 220000,
-      "transactions": 9
+      "medianPrice": 231250,
+      "transactions": 22
     }
   ]
 }

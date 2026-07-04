@@ -1,22 +1,166 @@
 {
-  "updatedAt": "2026-06-23T19:12:06.532Z",
+  "updatedAt": "2026-07-03T11:39:52.243Z",
   "townSlug": "harpenden",
   "countySlug": "hertfordshire",
   "stats": {
     "medianPrice": 790000,
     "medianByType": {
-      "D": 1320000,
-      "S": 875000,
-      "T": 609000,
-      "F": 342500
+      "D": 1410000,
+      "S": 910000,
+      "T": 595000,
+      "F": 340000
     },
-    "transactionCount12m": 306,
+    "transactionCount12m": 321,
     "yoyChange": 5.3,
-    "newBuildCount": 1,
-    "existingCount": 305,
+    "newBuildCount": 0,
+    "existingCount": 321,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 2250000,
+      "date": "2026-05-19",
+      "postcode": "AL5 5NS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, CRABTREE LANE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-05-15",
+      "postcode": "AL5 1QL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, WALKERS COURT, 101, SOUTHDOWN ROAD"
+    },
+    {
+      "price": 335000,
+      "date": "2026-05-15",
+      "postcode": "AL5 4DF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, ST NICHOLAS COURT, BLOOMFIELD ROAD"
+    },
+    {
+      "price": 725000,
+      "date": "2026-05-15",
+      "postcode": "AL5 3AS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, PARK MOUNT"
+    },
+    {
+      "price": 950000,
+      "date": "2026-05-08",
+      "postcode": "AL5 2PY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, TOWNSEND LANE"
+    },
+    {
+      "price": 620000,
+      "date": "2026-05-08",
+      "postcode": "AL5 5AH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "58, LOWER LUTON ROAD"
+    },
+    {
+      "price": 2070000,
+      "date": "2026-05-07",
+      "postcode": "AL5 5QN",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, LYNDHURST DRIVE"
+    },
+    {
+      "price": 1750000,
+      "date": "2026-05-07",
+      "postcode": "AL5 1JE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, LONG BUFTLERS"
+    },
+    {
+      "price": 1085000,
+      "date": "2026-05-01",
+      "postcode": "AL5 4PH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, OX LANE"
+    },
+    {
+      "price": 247000,
+      "date": "2026-04-29",
+      "postcode": "AL5 4XT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 40, BALFOUR COURT, STATION ROAD"
+    },
+    {
+      "price": 1160000,
+      "date": "2026-04-27",
+      "postcode": "AL5 2EY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, MORETON END LANE"
+    },
+    {
+      "price": 710000,
+      "date": "2026-04-27",
+      "postcode": "AL5 4EG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "24, ARCADIAN COURT, SUN LANE"
+    },
+    {
+      "price": 5000,
+      "date": "2026-04-24",
+      "postcode": "AL5 2SP",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "72, HIGH STREET"
+    },
+    {
+      "price": 451500,
+      "date": "2026-04-24",
+      "postcode": "AL5 4XH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BETJEMAN CLOSE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-04-24",
+      "postcode": "AL5 5LQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "25, THE CEDARS"
+    },
+    {
+      "price": 265000,
+      "date": "2026-04-24",
+      "postcode": "AL5 4PT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "17, CLARENDON COURT, CLARENDON ROAD"
+    },
     {
       "price": 475000,
       "date": "2026-04-21",
@@ -25,6 +169,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "2, KEATS HOUSE, MILTON ROAD"
+    },
+    {
+      "price": 700000,
+      "date": "2026-04-20",
+      "postcode": "AL5 2UG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SOUTHGATE COURT, LUTON ROAD"
     },
     {
       "price": 800000,
@@ -36,166 +189,13 @@
       "address": "12, PIGEONWICK"
     },
     {
-      "price": 685000,
-      "date": "2026-04-02",
-      "postcode": "AL5 5NB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, HADDON COURT, SHAKESPEARE ROAD"
-    },
-    {
-      "price": 740000,
-      "date": "2026-04-02",
-      "postcode": "AL5 1BQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "154, CRAVELLS ROAD"
-    },
-    {
-      "price": 992500,
-      "date": "2026-04-01",
-      "postcode": "AL5 5TH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, BARNFIELD ROAD"
-    },
-    {
-      "price": 760000,
-      "date": "2026-04-01",
-      "postcode": "AL5 1EG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "91, COLESWOOD ROAD"
-    },
-    {
-      "price": 515000,
-      "date": "2026-04-01",
-      "postcode": "AL5 5HA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "160, LOWER LUTON ROAD"
-    },
-    {
-      "price": 1320000,
-      "date": "2026-03-31",
-      "postcode": "AL5 1JF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, LONG BUFTLERS"
-    },
-    {
-      "price": 975000,
-      "date": "2026-03-31",
-      "postcode": "AL5 1LJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, CHURCHFIELD"
-    },
-    {
-      "price": 251000,
-      "date": "2026-03-23",
-      "postcode": "AL5 4SA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, STATION ROAD"
-    },
-    {
-      "price": 725600,
-      "date": "2026-03-23",
-      "postcode": "AL5 3AT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, PARK HILL"
-    },
-    {
-      "price": 500000,
-      "date": "2026-03-13",
-      "postcode": "AL5 1ER",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "101, GROVE ROAD"
-    },
-    {
-      "price": 1280000,
-      "date": "2026-03-12",
-      "postcode": "AL5 3QD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, GREEN LAWNS CLOSE"
-    },
-    {
-      "price": 345500,
-      "date": "2026-03-11",
-      "postcode": "AL5 2UN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, BERKELEY COURT, 48, LUTON ROAD"
-    },
-    {
       "price": 340000,
-      "date": "2026-03-09",
-      "postcode": "AL5 4FE",
+      "date": "2026-04-08",
+      "postcode": "AL5 5FE",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 15, STEPHENS COURT, STATION ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-03-06",
-      "postcode": "AL5 4FE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 24, STEPHENS COURT, STATION ROAD"
-    },
-    {
-      "price": 1090000,
-      "date": "2026-03-06",
-      "postcode": "AL5 1JG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, CROFTWELL"
-    },
-    {
-      "price": 730000,
-      "date": "2026-03-06",
-      "postcode": "AL5 5NB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, HADDON COURT, SHAKESPEARE ROAD"
-    },
-    {
-      "price": 1425000,
-      "date": "2026-03-05",
-      "postcode": "AL5 2NY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE BUNGALOW, 1A, WHEATFIELD ROAD"
-    },
-    {
-      "price": 375000,
-      "date": "2026-02-27",
-      "postcode": "AL5 5LU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19, ALBANY COURT, MILTON ROAD"
+      "address": "46, MILLSTONE WAY"
     }
   ],
   "monthlyHistory": [
@@ -292,12 +292,12 @@
     {
       "month": "2025-07",
       "medianPrice": 775000,
-      "transactions": 41
+      "transactions": 42
     },
     {
       "month": "2025-08",
-      "medianPrice": 947500,
-      "transactions": 44
+      "medianPrice": 952500,
+      "transactions": 46
     },
     {
       "month": "2025-09",
@@ -306,18 +306,18 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 910000,
-      "transactions": 35
-    },
-    {
-      "month": "2025-11",
-      "medianPrice": 797500,
+      "medianPrice": 905000,
       "transactions": 38
     },
     {
+      "month": "2025-11",
+      "medianPrice": 800000,
+      "transactions": 45
+    },
+    {
       "month": "2025-12",
-      "medianPrice": 810000,
-      "transactions": 30
+      "medianPrice": 850000,
+      "transactions": 33
     },
     {
       "month": "2026-01",
@@ -326,18 +326,23 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 655000,
-      "transactions": 19
+      "medianPrice": 691250,
+      "transactions": 20
     },
     {
       "month": "2026-03",
-      "medianPrice": 727800,
-      "transactions": 12
+      "medianPrice": 725600,
+      "transactions": 13
     },
     {
       "month": "2026-04",
-      "medianPrice": 740000,
-      "transactions": 7
+      "medianPrice": 600000,
+      "transactions": 16
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 950000,
+      "transactions": 9
     }
   ],
   "quarterlyHistory": [
@@ -373,23 +378,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 835000,
-      "transactions": 128
+      "medianPrice": 850000,
+      "transactions": 131
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 800000,
-      "transactions": 103
+      "medianPrice": 850000,
+      "transactions": 116
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 655000,
-      "transactions": 53
+      "transactions": 55
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 740000,
-      "transactions": 7
+      "medianPrice": 700000,
+      "transactions": 25
     }
   ]
 }

@@ -1,22 +1,85 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.934Z",
+  "updatedAt": "2026-07-03T11:39:54.749Z",
   "townSlug": "llandrindod-wells",
   "countySlug": "powys",
   "stats": {
-    "medianPrice": 240000,
+    "medianPrice": 242500,
     "medianByType": {
       "D": 295000,
-      "S": 221000,
-      "T": 219325,
-      "F": 85500
+      "S": 215000,
+      "T": 213650,
+      "F": 82000
     },
-    "transactionCount12m": 110,
-    "yoyChange": 5.5,
-    "newBuildCount": 1,
-    "existingCount": 109,
+    "transactionCount12m": 116,
+    "yoyChange": 7.8,
+    "newBuildCount": 0,
+    "existingCount": 116,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 300000,
+      "date": "2026-05-14",
+      "postcode": "LD1 5NX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, MAPLE RIDGE CLOSE"
+    },
+    {
+      "price": 199000,
+      "date": "2026-05-12",
+      "postcode": "LD1 6DG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HILLCOM, HILLCREST DRIVE"
+    },
+    {
+      "price": 245000,
+      "date": "2026-04-30",
+      "postcode": "LD1 5BF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, CAMDDWR RISE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-04-30",
+      "postcode": "LD1 5BZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, CLYWEDOG DRIVE"
+    },
+    {
+      "price": 618000,
+      "date": "2026-04-29",
+      "postcode": "LD1 6NU",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DOLIVER"
+    },
+    {
+      "price": 170000,
+      "date": "2026-04-29",
+      "postcode": "LD1 6PE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, BLUEBELL COTTAGES, DDOLE ROAD"
+    },
+    {
+      "price": 245000,
+      "date": "2026-04-28",
+      "postcode": "LD1 6DT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, CORTAY PARK"
+    },
     {
       "price": 221000,
       "date": "2026-04-24",
@@ -34,6 +97,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "TAN-Y-BRYN"
+    },
+    {
+      "price": 270000,
+      "date": "2026-04-24",
+      "postcode": "LD1 6AN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ASHLEIGH, DYFFRYN ROAD"
     },
     {
       "price": 295000,
@@ -63,6 +135,15 @@
       "address": "HAZELHURST, PARK CRESCENT"
     },
     {
+      "price": 495000,
+      "date": "2026-03-26",
+      "postcode": "LD1 5NN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ARLINGTON, PARK LANE"
+    },
+    {
       "price": 245000,
       "date": "2026-03-26",
       "postcode": "LD1 5DE",
@@ -72,13 +153,13 @@
       "address": "54, WOODLANDS"
     },
     {
-      "price": 495000,
-      "date": "2026-03-26",
-      "postcode": "LD1 5NN",
-      "propertyType": "D",
+      "price": 108500,
+      "date": "2026-03-24",
+      "postcode": "LD1 6HU",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "ARLINGTON, PARK LANE"
+      "address": "13, LLWYN CELYN"
     },
     {
       "price": 80000,
@@ -115,87 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "OAKFIELD, BROADWAY"
-    },
-    {
-      "price": 365000,
-      "date": "2026-03-06",
-      "postcode": "LD1 6DT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, CORTAY PARK"
-    },
-    {
-      "price": 33000,
-      "date": "2026-03-04",
-      "postcode": "LD1 5BD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, COMMERCE HOUSE, STATION CRESCENT"
-    },
-    {
-      "price": 212500,
-      "date": "2026-02-27",
-      "postcode": "LD1 5BA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, HERNOG CLOSE"
-    },
-    {
-      "price": 700000,
-      "date": "2026-02-27",
-      "postcode": "LD1 6PD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "NANTYRHAIDD"
-    },
-    {
-      "price": 258000,
-      "date": "2026-02-26",
-      "postcode": "LD1 5LW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TYLEHURST, MONTPELLIER PARK"
-    },
-    {
-      "price": 215000,
-      "date": "2026-02-20",
-      "postcode": "LD1 5BF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, CAMDDWR RISE"
-    },
-    {
-      "price": 295000,
-      "date": "2026-02-19",
-      "postcode": "LD1 6AN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TYCOCH, DYFFRYN ROAD"
-    },
-    {
-      "price": 113000,
-      "date": "2026-02-16",
-      "postcode": "LD1 5LR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, YORK HOUSE, TEMPLE AVENUE"
-    },
-    {
-      "price": 120000,
-      "date": "2026-02-13",
-      "postcode": "LD1 6AN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DYFFRYN HOUSE, DYFFRYN ROAD"
     }
   ],
   "monthlyHistory": [
@@ -241,8 +241,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 255000,
-      "transactions": 13
+      "medianPrice": 247500,
+      "transactions": 14
     },
     {
       "month": "2024-10",
@@ -256,8 +256,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 220000,
-      "transactions": 15
+      "medianPrice": 225000,
+      "transactions": 16
     },
     {
       "month": "2025-01",
@@ -296,13 +296,13 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 235000,
-      "transactions": 13
+      "medianPrice": 252500,
+      "transactions": 14
     },
     {
       "month": "2025-09",
-      "medianPrice": 225000,
-      "transactions": 15
+      "medianPrice": 227500,
+      "transactions": 16
     },
     {
       "month": "2025-10",
@@ -311,13 +311,13 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 267000,
-      "transactions": 14
+      "medianPrice": 287000,
+      "transactions": 16
     },
     {
       "month": "2025-12",
-      "medianPrice": 248000,
-      "transactions": 9
+      "medianPrice": 239000,
+      "transactions": 10
     },
     {
       "month": "2026-01",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 240000,
-      "transactions": 9
+      "medianPrice": 200000,
+      "transactions": 10
     },
     {
       "month": "2026-04",
-      "medianPrice": 258000,
-      "transactions": 4
+      "medianPrice": 250000,
+      "transactions": 10
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 249500,
+      "transactions": 2
     }
   ],
   "quarterlyHistory": [
@@ -353,13 +358,13 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 240000,
-      "transactions": 39
+      "medianPrice": 235000,
+      "transactions": 40
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 215000,
-      "transactions": 52
+      "transactions": 53
     },
     {
       "quarter": "2025-Q1",
@@ -373,23 +378,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 232500,
-      "transactions": 45
+      "medianPrice": 235000,
+      "transactions": 47
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 252498,
-      "transactions": 30
+      "medianPrice": 255000,
+      "transactions": 33
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 230000,
-      "transactions": 23
+      "medianPrice": 222500,
+      "transactions": 24
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 258000,
-      "transactions": 4
+      "medianPrice": 250000,
+      "transactions": 12
     }
   ]
 }

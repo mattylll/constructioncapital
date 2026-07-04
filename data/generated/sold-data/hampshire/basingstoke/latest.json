@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:06.296Z",
+  "updatedAt": "2026-07-03T11:39:52.026Z",
   "townSlug": "basingstoke",
   "countySlug": "hampshire",
   "stats": {
-    "medianPrice": 372000,
+    "medianPrice": 370000,
     "medianByType": {
-      "D": 569000,
+      "D": 565000,
       "S": 400000,
-      "T": 313000,
-      "F": 185750
+      "T": 314500,
+      "F": 188750
     },
-    "transactionCount12m": 1897,
-    "yoyChange": 0.5,
-    "newBuildCount": 19,
-    "existingCount": 1878,
-    "newBuildPremium": 46.6
+    "transactionCount12m": 1996,
+    "yoyChange": 0.2,
+    "newBuildCount": 10,
+    "existingCount": 1986,
+    "newBuildPremium": 39.8
   },
   "recentTransactions": [
     {
+      "price": 385000,
+      "date": "2026-05-27",
+      "postcode": "RG24 8EX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, FARM VIEW DRIVE"
+    },
+    {
+      "price": 427000,
+      "date": "2026-05-26",
+      "postcode": "RG24 8ZT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, HAZELDENE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-05-22",
+      "postcode": "RG26 4JU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, SELBORNE WALK"
+    },
+    {
+      "price": 600000,
+      "date": "2026-05-22",
+      "postcode": "RG22 4QF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, RYCROFT MEADOW"
+    },
+    {
+      "price": 415000,
+      "date": "2026-05-20",
+      "postcode": "RG26 3PF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GRAVELLY CLOSE"
+    },
+    {
+      "price": 261250,
+      "date": "2026-05-15",
+      "postcode": "RG26 5FN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "90, KIRBY DRIVE"
+    },
+    {
+      "price": 148000,
+      "date": "2026-05-15",
+      "postcode": "RG24 9JR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "42, GANDER DRIVE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-05-15",
+      "postcode": "RG24 8PN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "37, MURANO DRIVE"
+    },
+    {
+      "price": 232500,
+      "date": "2026-05-15",
+      "postcode": "RG27 0SG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "23, COMPTON WAY"
+    },
+    {
+      "price": 310000,
+      "date": "2026-05-15",
+      "postcode": "RG24 9SA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, FLORENCE WAY"
+    },
+    {
+      "price": 215000,
+      "date": "2026-05-15",
+      "postcode": "RG22 6HD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "16, WHITE HOUSE CLOSE"
+    },
+    {
+      "price": 295000,
+      "date": "2026-05-14",
+      "postcode": "RG24 8GL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, LITTLE COPSE CHASE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-05-14",
+      "postcode": "RG21 6AW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "93, LILLY COURT, 21, FULLBROOK DRIVE"
+    },
+    {
+      "price": 395000,
+      "date": "2026-05-13",
+      "postcode": "RG24 8YZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BEDDINGTON COURT"
+    },
+    {
+      "price": 485000,
+      "date": "2026-05-13",
+      "postcode": "RG20 5ES",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, QUEENS ROAD"
+    },
+    {
+      "price": 120000,
+      "date": "2026-05-12",
+      "postcode": "RG21 7UN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "406, WINTERTHUR WAY"
+    },
+    {
+      "price": 227500,
+      "date": "2026-05-12",
+      "postcode": "RG21 7NY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 8, ANCHOR COURT, 28, LONDON STREET"
+    },
+    {
       "price": 345000,
-      "date": "2026-04-24",
-      "postcode": "RG22 4UY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, CYPRUS ROAD"
-    },
-    {
-      "price": 750000,
-      "date": "2026-04-24",
-      "postcode": "RG22 4QH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, MEADOWRIDGE"
-    },
-    {
-      "price": 575000,
-      "date": "2026-04-23",
-      "postcode": "RG22 5JP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, MALLARD CLOSE"
-    },
-    {
-      "price": 620000,
-      "date": "2026-04-23",
-      "postcode": "RG22 4UY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, CYPRUS ROAD"
-    },
-    {
-      "price": 545000,
-      "date": "2026-04-23",
-      "postcode": "RG22 5HG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "95, PACK LANE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-04-23",
-      "postcode": "RG21 7PF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "57, LADY SUSAN COURT, NEW ROAD"
-    },
-    {
-      "price": 330000,
-      "date": "2026-04-22",
-      "postcode": "RG24 8XD",
+      "date": "2026-05-11",
+      "postcode": "RG21 5PU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "61, RENOWN WAY"
+      "address": "4, SOPER GROVE"
     },
     {
-      "price": 530000,
-      "date": "2026-04-22",
-      "postcode": "RG24 8UY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, MARSHCOURT"
-    },
-    {
-      "price": 220000,
-      "date": "2026-04-21",
-      "postcode": "RG22 4NF",
+      "price": 370000,
+      "date": "2026-05-11",
+      "postcode": "RG21 3NH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "76, BERNSTEIN ROAD"
+      "address": "6, HAMMOND ROAD"
     },
     {
-      "price": 410000,
-      "date": "2026-04-21",
-      "postcode": "RG26 3DJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, VALLEY WAY"
-    },
-    {
-      "price": 314500,
-      "date": "2026-04-20",
-      "postcode": "RG28 7BX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, LOWER EVINGAR ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-04-20",
-      "postcode": "RG21 5UA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, MERTON ROAD"
-    },
-    {
-      "price": 705000,
-      "date": "2026-04-18",
-      "postcode": "RG25 3FB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, EDNEYS WALK"
-    },
-    {
-      "price": 460000,
-      "date": "2026-04-17",
-      "postcode": "RG23 7QW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, COPPER PLACE"
-    },
-    {
-      "price": 100000,
-      "date": "2026-04-16",
-      "postcode": "RG22 4NN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, GERSHWIN COURT"
-    },
-    {
-      "price": 412000,
-      "date": "2026-04-16",
-      "postcode": "RG7 2QE",
+      "price": 295000,
+      "date": "2026-05-11",
+      "postcode": "RG24 8RT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, HARTLEYS"
-    },
-    {
-      "price": 275000,
-      "date": "2026-04-15",
-      "postcode": "RG22 4NY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, LENNON WAY"
-    },
-    {
-      "price": 198000,
-      "date": "2026-04-15",
-      "postcode": "RG24 9RJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, HOLLIES COURT"
-    },
-    {
-      "price": 290000,
-      "date": "2026-04-15",
-      "postcode": "RG24 8WL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, LONG COPSE CHASE"
-    },
-    {
-      "price": 20000,
-      "date": "2026-04-15",
-      "postcode": "RG20 8QQ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CARPORT, PHOENIX COURT"
+      "address": "43, BADGERS BANK"
     }
   ],
   "monthlyHistory": [
@@ -227,7 +227,7 @@
     {
       "month": "2024-06",
       "medianPrice": 375000,
-      "transactions": 241
+      "transactions": 243
     },
     {
       "month": "2024-07",
@@ -252,12 +252,12 @@
     {
       "month": "2024-11",
       "medianPrice": 345000,
-      "transactions": 271
+      "transactions": 272
     },
     {
       "month": "2024-12",
       "medianPrice": 370000,
-      "transactions": 247
+      "transactions": 248
     },
     {
       "month": "2025-01",
@@ -272,72 +272,77 @@
     {
       "month": "2025-03",
       "medianPrice": 390000,
-      "transactions": 481
+      "transactions": 484
     },
     {
       "month": "2025-04",
-      "medianPrice": 341475,
-      "transactions": 106
+      "medianPrice": 343475,
+      "transactions": 108
     },
     {
       "month": "2025-05",
       "medianPrice": 325000,
-      "transactions": 200
+      "transactions": 206
     },
     {
       "month": "2025-06",
-      "medianPrice": 355000,
-      "transactions": 223
+      "medianPrice": 364000,
+      "transactions": 231
     },
     {
       "month": "2025-07",
-      "medianPrice": 347500,
-      "transactions": 211
+      "medianPrice": 348500,
+      "transactions": 223
     },
     {
       "month": "2025-08",
-      "medianPrice": 390000,
-      "transactions": 231
+      "medianPrice": 387500,
+      "transactions": 244
     },
     {
       "month": "2025-09",
       "medianPrice": 355000,
-      "transactions": 204
+      "transactions": 205
     },
     {
       "month": "2025-10",
-      "medianPrice": 383000,
-      "transactions": 259
+      "medianPrice": 385000,
+      "transactions": 267
     },
     {
       "month": "2025-11",
-      "medianPrice": 365000,
-      "transactions": 190
+      "medianPrice": 362500,
+      "transactions": 205
     },
     {
       "month": "2025-12",
       "medianPrice": 375000,
-      "transactions": 196
+      "transactions": 204
     },
     {
       "month": "2026-01",
       "medianPrice": 400000,
-      "transactions": 146
+      "transactions": 148
     },
     {
       "month": "2026-02",
       "medianPrice": 350000,
-      "transactions": 162
+      "transactions": 166
     },
     {
       "month": "2026-03",
       "medianPrice": 370000,
-      "transactions": 159
+      "transactions": 170
     },
     {
       "month": "2026-04",
-      "medianPrice": 410000,
-      "transactions": 55
+      "medianPrice": 385000,
+      "transactions": 129
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 364000,
+      "transactions": 45
     }
   ],
   "quarterlyHistory": [
@@ -349,7 +354,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 370000,
-      "transactions": 679
+      "transactions": 681
     },
     {
       "quarter": "2024-Q3",
@@ -359,37 +364,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 355000,
-      "transactions": 816
+      "transactions": 818
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 380000,
-      "transactions": 939
+      "medianPrice": 379000,
+      "transactions": 942
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 344000,
-      "transactions": 529
+      "medianPrice": 345000,
+      "transactions": 545
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 365000,
-      "transactions": 646
+      "transactions": 672
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 375000,
-      "transactions": 645
+      "transactions": 676
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 370000,
-      "transactions": 467
+      "transactions": 484
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 410000,
-      "transactions": 55
+      "medianPrice": 370000,
+      "transactions": 174
     }
   ]
 }

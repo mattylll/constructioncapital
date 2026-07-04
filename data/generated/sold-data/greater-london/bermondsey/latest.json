@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:05.483Z",
+  "updatedAt": "2026-07-03T11:39:51.234Z",
   "townSlug": "bermondsey",
   "countySlug": "greater-london",
   "stats": {
-    "medianPrice": 525000,
+    "medianPrice": 520000,
     "medianByType": {
-      "D": 1787500,
-      "S": 1340000,
-      "T": 875000,
+      "D": 1800000,
+      "S": 1307588,
+      "T": 861750,
       "F": 450000
     },
-    "transactionCount12m": 2099,
-    "yoyChange": 0,
-    "newBuildCount": 42,
-    "existingCount": 2057,
-    "newBuildPremium": 11.1
+    "transactionCount12m": 2268,
+    "yoyChange": -1,
+    "newBuildCount": 27,
+    "existingCount": 2241,
+    "newBuildPremium": -3.8
   },
   "recentTransactions": [
     {
-      "price": 275000,
-      "date": "2026-04-28",
-      "postcode": "SE22 8NJ",
+      "price": 600000,
+      "date": "2026-05-27",
+      "postcode": "SE16 5QF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 7, EPPING COURT, HIGHWOOD CLOSE"
+      "address": "FLAT 206, PACIFIC WHARF, 165, ROTHERHITHE STREET"
     },
     {
-      "price": 335000,
-      "date": "2026-04-24",
-      "postcode": "SE15 2ND",
+      "price": 360000,
+      "date": "2026-05-22",
+      "postcode": "SE16 4UW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 3, 127, QUEENS ROAD"
+      "address": "FLAT 17, NICKLEBY HOUSE, GEORGE ROW"
     },
     {
-      "price": 372000,
-      "date": "2026-04-24",
-      "postcode": "SE16 7JR",
+      "price": 415000,
+      "date": "2026-05-22",
+      "postcode": "SE15 5GL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "39, IRWELL ESTATE"
-    },
-    {
-      "price": 1000000,
-      "date": "2026-04-20",
-      "postcode": "SE22 8ND",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "386, LORDSHIP LANE"
+      "address": "FLAT 3, 41, KELLY AVENUE"
     },
     {
       "price": 810000,
-      "date": "2026-04-17",
-      "postcode": "SE22 0PD",
+      "date": "2026-05-22",
+      "postcode": "SE16 5GA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "199A, UNDERHILL ROAD"
+      "address": "56, BRUNEL ROAD"
     },
     {
-      "price": 462500,
-      "date": "2026-04-17",
-      "postcode": "SE23 3DS",
+      "price": 570000,
+      "date": "2026-05-22",
+      "postcode": "SE1 6FP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "21A, WOOD VALE"
+      "address": "APARTMENT 2901, 251, SOUTHWARK BRIDGE ROAD"
     },
     {
-      "price": 485000,
-      "date": "2026-04-17",
-      "postcode": "SE17 1FH",
+      "price": 650000,
+      "date": "2026-05-22",
+      "postcode": "SE5 7QE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, GABLES CLOSE"
+    },
+    {
+      "price": 272000,
+      "date": "2026-05-20",
+      "postcode": "SE15 6PN",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1101, BALDWIN POINT, 6, SAYER STREET"
+      "address": "FLAT 21, 54, PECKHAM GROVE"
+    },
+    {
+      "price": 872000,
+      "date": "2026-05-18",
+      "postcode": "SE1 6FD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 2206, 1, ST GABRIEL WALK"
+    },
+    {
+      "price": 335000,
+      "date": "2026-05-18",
+      "postcode": "SE16 3EY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 79, 11, ROSSETTI ROAD"
+    },
+    {
+      "price": 227270,
+      "date": "2026-05-18",
+      "postcode": "SE17 3QB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 19, SUFFIELD HOUSE, ALBERTA ESTATE"
+    },
+    {
+      "price": 690000,
+      "date": "2026-05-15",
+      "postcode": "SE16 7EE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 29, ONTARIO POINT, 28, SURREY QUAYS ROAD"
+    },
+    {
+      "price": 850000,
+      "date": "2026-05-15",
+      "postcode": "SE1 6FB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 1806, 1, ST GABRIEL WALK"
+    },
+    {
+      "price": 525000,
+      "date": "2026-05-15",
+      "postcode": "SE22 8PS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "60A, EAST DULWICH GROVE"
+    },
+    {
+      "price": 585000,
+      "date": "2026-05-15",
+      "postcode": "SE15 3NA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "98, DANIELS ROAD"
+    },
+    {
+      "price": 600000,
+      "date": "2026-05-15",
+      "postcode": "SE16 6QA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62, SHIPWRIGHT ROAD"
+    },
+    {
+      "price": 415000,
+      "date": "2026-05-14",
+      "postcode": "SE22 0AZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "109, FRIERN ROAD"
+    },
+    {
+      "price": 475000,
+      "date": "2026-05-14",
+      "postcode": "SE1 4QL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "73, MEAKIN ESTATE"
+    },
+    {
+      "price": 385000,
+      "date": "2026-05-13",
+      "postcode": "SE11 4SJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15B, AUSTRAL STREET"
     },
     {
       "price": 300000,
-      "date": "2026-04-17",
-      "postcode": "SE5 0YL",
+      "date": "2026-05-13",
+      "postcode": "SE16 5XR",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 37, HORSMAN HOUSE, BETHWIN ROAD"
+      "address": "33, FREDERICK SQUARE"
     },
     {
-      "price": 1800000,
-      "date": "2026-04-17",
-      "postcode": "SE15 5NN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, TALFOURD ROAD"
-    },
-    {
-      "price": 340000,
-      "date": "2026-04-17",
-      "postcode": "SE22 0PW",
+      "price": 400000,
+      "date": "2026-05-13",
+      "postcode": "SE1 6BT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 163, LADLANDS, OVERHILL ROAD"
-    },
-    {
-      "price": 590000,
-      "date": "2026-04-17",
-      "postcode": "SE15 5FA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 7, 95, PECKHAM ROAD"
-    },
-    {
-      "price": 315000,
-      "date": "2026-04-17",
-      "postcode": "SE15 6PW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 43, GALLERIA COURT, SUMNER ROAD"
-    },
-    {
-      "price": 679000,
-      "date": "2026-04-15",
-      "postcode": "SE17 1BS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 14, JARDIN HOUSE, STEAD STREET"
-    },
-    {
-      "price": 480000,
-      "date": "2026-04-15",
-      "postcode": "SE1 1YG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 17, BRENLEY HOUSE, TABARD GARDEN ESTATE"
-    },
-    {
-      "price": 300000,
-      "date": "2026-04-14",
-      "postcode": "SE15 5LD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 53, KELLY AVENUE"
-    },
-    {
-      "price": 345000,
-      "date": "2026-04-13",
-      "postcode": "SE22 8NL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 13, SHERWOOD COURT, HIGHWOOD CLOSE"
-    },
-    {
-      "price": 390000,
-      "date": "2026-04-10",
-      "postcode": "SE17 3HD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "LOWER GROUND FLOOR FLAT, 10, FIELDING STREET"
-    },
-    {
-      "price": 500000,
-      "date": "2026-04-10",
-      "postcode": "SE15 5FA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 17, 95, PECKHAM ROAD"
-    },
-    {
-      "price": 430000,
-      "date": "2026-04-10",
-      "postcode": "SE1 3AZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 4, 95, ALSCOT ROAD"
-    },
-    {
-      "price": 710000,
-      "date": "2026-04-09",
-      "postcode": "SE17 3SA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "112, AMBERGATE STREET"
+      "address": "APARTMENT 154, METRO CENTRAL HEIGHTS, 119, NEWINGTON CAUSEWAY"
     }
   ],
   "monthlyHistory": [
@@ -246,23 +246,23 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 546250,
-      "transactions": 388
+      "medianPrice": 545000,
+      "transactions": 389
     },
     {
       "month": "2024-11",
-      "medianPrice": 522500,
-      "transactions": 308
+      "medianPrice": 520000,
+      "transactions": 309
     },
     {
       "month": "2024-12",
-      "medianPrice": 525000,
-      "transactions": 291
+      "medianPrice": 526000,
+      "transactions": 292
     },
     {
       "month": "2025-01",
       "medianPrice": 600000,
-      "transactions": 238
+      "transactions": 239
     },
     {
       "month": "2025-02",
@@ -271,73 +271,78 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 495000,
-      "transactions": 658
+      "medianPrice": 492500,
+      "transactions": 661
     },
     {
       "month": "2025-04",
-      "medianPrice": 475000,
-      "transactions": 119
+      "medianPrice": 500000,
+      "transactions": 121
     },
     {
       "month": "2025-05",
-      "medianPrice": 515000,
-      "transactions": 237
+      "medianPrice": 512500,
+      "transactions": 238
     },
     {
       "month": "2025-06",
-      "medianPrice": 495000,
-      "transactions": 346
+      "medianPrice": 482500,
+      "transactions": 389
     },
     {
       "month": "2025-07",
-      "medianPrice": 543650,
-      "transactions": 300
+      "medianPrice": 551000,
+      "transactions": 316
     },
     {
       "month": "2025-08",
-      "medianPrice": 552500,
-      "transactions": 270
+      "medianPrice": 550000,
+      "transactions": 283
     },
     {
       "month": "2025-09",
-      "medianPrice": 581500,
-      "transactions": 264
+      "medianPrice": 550000,
+      "transactions": 275
     },
     {
       "month": "2025-10",
-      "medianPrice": 510000,
-      "transactions": 293
+      "medianPrice": 511250,
+      "transactions": 302
     },
     {
       "month": "2025-11",
-      "medianPrice": 546000,
-      "transactions": 199
+      "medianPrice": 553000,
+      "transactions": 234
     },
     {
       "month": "2025-12",
-      "medianPrice": 485000,
-      "transactions": 190
+      "medianPrice": 500000,
+      "transactions": 247
     },
     {
       "month": "2026-01",
-      "medianPrice": 500000,
-      "transactions": 161
+      "medianPrice": 507500,
+      "transactions": 170
     },
     {
       "month": "2026-02",
-      "medianPrice": 440000,
-      "transactions": 138
+      "medianPrice": 437500,
+      "transactions": 144
     },
     {
       "month": "2026-03",
-      "medianPrice": 500000,
-      "transactions": 130
+      "medianPrice": 490000,
+      "transactions": 145
     },
     {
       "month": "2026-04",
-      "medianPrice": 482500,
-      "transactions": 34
+      "medianPrice": 490000,
+      "transactions": 111
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 490000,
+      "transactions": 58
     }
   ],
   "quarterlyHistory": [
@@ -358,38 +363,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 532482,
-      "transactions": 987
+      "medianPrice": 531766,
+      "transactions": 990
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 515000,
-      "transactions": 1175
+      "transactions": 1179
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 496000,
-      "transactions": 702
+      "medianPrice": 492000,
+      "transactions": 748
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 553500,
-      "transactions": 834
+      "medianPrice": 550000,
+      "transactions": 874
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 510250,
-      "transactions": 682
+      "medianPrice": 520000,
+      "transactions": 783
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 480000,
-      "transactions": 429
+      "medianPrice": 475000,
+      "transactions": 459
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 482500,
-      "transactions": 34
+      "medianPrice": 490000,
+      "transactions": 169
     }
   ]
 }

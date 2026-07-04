@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.665Z",
+  "updatedAt": "2026-07-03T11:39:54.458Z",
   "townSlug": "leighton-buzzard",
   "countySlug": "bedfordshire",
   "stats": {
     "medianPrice": 340000,
     "medianByType": {
-      "D": 509125,
-      "S": 367813,
+      "D": 505000,
+      "S": 367500,
       "T": 315000,
-      "F": 186250
+      "F": 190000
     },
-    "transactionCount12m": 704,
+    "transactionCount12m": 718,
     "yoyChange": -5.6,
-    "newBuildCount": 30,
-    "existingCount": 674,
-    "newBuildPremium": 52.1
+    "newBuildCount": 19,
+    "existingCount": 699,
+    "newBuildPremium": 47.2
   },
   "recentTransactions": [
     {
-      "price": 356000,
-      "date": "2026-04-24",
+      "price": 195000,
+      "date": "2026-05-21",
+      "postcode": "LU7 1GR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 9, SOVEREIGN HOUSE, 24 - 26, HOCKLIFFE STREET"
+    },
+    {
+      "price": 225000,
+      "date": "2026-05-20",
+      "postcode": "LU7 2AJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "88, WEST DOCK, THE WHARF"
+    },
+    {
+      "price": 240000,
+      "date": "2026-05-15",
+      "postcode": "LU7 2RL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8A, SOULBURY ROAD"
+    },
+    {
+      "price": 365000,
+      "date": "2026-05-12",
+      "postcode": "LU7 2TS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "189, BIDEFORD GREEN"
+    },
+    {
+      "price": 422000,
+      "date": "2026-05-12",
+      "postcode": "LU7 4UQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, HARROW ROAD"
+    },
+    {
+      "price": 370000,
+      "date": "2026-05-11",
+      "postcode": "LU7 4PX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, WARNEFORD WAY"
+    },
+    {
+      "price": 487500,
+      "date": "2026-05-11",
+      "postcode": "LU7 4UT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, ELLIOTT WAY"
+    },
+    {
+      "price": 196500,
+      "date": "2026-05-08",
+      "postcode": "LU7 1HR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, RUSH COURT, BEAUDESERT"
+    },
+    {
+      "price": 567000,
+      "date": "2026-05-08",
+      "postcode": "LU7 4HJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, TRENT WAY"
+    },
+    {
+      "price": 366000,
+      "date": "2026-05-08",
+      "postcode": "LU7 9SD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, FORTUNA MEAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-05-06",
+      "postcode": "LU7 4BY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, HERON ROAD"
+    },
+    {
+      "price": 195000,
+      "date": "2026-05-06",
+      "postcode": "LU7 3BX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "64, DRAKES AVENUE"
+    },
+    {
+      "price": 145000,
+      "date": "2026-05-01",
+      "postcode": "LU7 1EF",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, NORTH STREET"
+    },
+    {
+      "price": 465000,
+      "date": "2026-05-01",
+      "postcode": "LU7 2UA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "511, BIDEFORD GREEN"
+    },
+    {
+      "price": 440000,
+      "date": "2026-05-01",
       "postcode": "LU7 9RP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "54, THEEDWAY"
-    },
-    {
-      "price": 96700,
-      "date": "2026-04-24",
-      "postcode": "LU7 1WB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 14, MAGNON COURT, LAKE STREET"
-    },
-    {
-      "price": 298000,
-      "date": "2026-04-22",
-      "postcode": "LU7 3BL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, CHILTERN GARDENS"
-    },
-    {
-      "price": 207000,
-      "date": "2026-04-20",
-      "postcode": "LU7 4DG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "16, FIELDFARE"
-    },
-    {
-      "price": 375000,
-      "date": "2026-04-17",
-      "postcode": "LU7 3GE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, RUTHERFORD CRESCENT"
-    },
-    {
-      "price": 425000,
-      "date": "2026-04-17",
-      "postcode": "LU7 3UW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, ALMOND ROAD"
-    },
-    {
-      "price": 424000,
-      "date": "2026-04-16",
-      "postcode": "LU7 4NZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, GIBSON DRIVE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-04-15",
-      "postcode": "LU7 2QB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "195, GRASMERE WAY"
-    },
-    {
-      "price": 170000,
-      "date": "2026-04-14",
-      "postcode": "LU7 1DL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "21, ROSEBERY COURT, WATER LANE"
-    },
-    {
-      "price": 405000,
-      "date": "2026-04-13",
-      "postcode": "LU7 2XN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, MELFORT DRIVE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-04-10",
-      "postcode": "LU7 3QN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, ALEXANDER WAY"
-    },
-    {
-      "price": 355000,
-      "date": "2026-04-10",
-      "postcode": "LU7 4QA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "117, STANBRIDGE ROAD"
-    },
-    {
-      "price": 261000,
-      "date": "2026-04-09",
-      "postcode": "LU7 3EW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ORCA MEWS"
-    },
-    {
-      "price": 395000,
-      "date": "2026-04-09",
-      "postcode": "LU7 3UU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, SATURN CLOSE"
-    },
-    {
-      "price": 480000,
-      "date": "2026-04-08",
-      "postcode": "LU7 4BY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, HERON ROAD"
+      "address": "6, THEEDWAY"
     },
     {
       "price": 370000,
-      "date": "2026-04-08",
-      "postcode": "LU7 4UY",
+      "date": "2026-05-01",
+      "postcode": "LU7 3GE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, CORMORANT WAY"
+      "address": "67, RUTHERFORD CRESCENT"
     },
     {
-      "price": 346500,
-      "date": "2026-04-07",
-      "postcode": "LU7 9SX",
-      "propertyType": "S",
+      "price": 575000,
+      "date": "2026-05-01",
+      "postcode": "LU7 2PH",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, MESSOR GARDENS"
+      "address": "25, MOWBRAY DRIVE"
     },
     {
-      "price": 300000,
-      "date": "2026-04-02",
-      "postcode": "LU7 2SJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, CORBET RIDE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-04-01",
-      "postcode": "LU7 1LH",
+      "price": 180000,
+      "date": "2026-04-30",
+      "postcode": "LU7 1BD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 100, TOWN BRIDGE MILL, LEIGHTON ROAD"
+      "address": "17, WEST SIDE"
     },
     {
-      "price": 318000,
-      "date": "2026-04-01",
-      "postcode": "LU7 4PZ",
-      "propertyType": "T",
+      "price": 420000,
+      "date": "2026-04-30",
+      "postcode": "LU7 0AX",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, STANBRIDGE ROAD"
+      "address": "32, THRIFT ROAD"
+    },
+    {
+      "price": 169000,
+      "date": "2026-04-30",
+      "postcode": "LU7 9SP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "59, GREENFIELDS, THEEDWAY"
     }
   ],
   "monthlyHistory": [
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 370000,
-      "transactions": 173
+      "medianPrice": 371750,
+      "transactions": 174
     },
     {
       "month": "2025-04",
@@ -281,13 +281,13 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 338000,
-      "transactions": 73
+      "medianPrice": 339000,
+      "transactions": 72
     },
     {
       "month": "2025-06",
-      "medianPrice": 352500,
-      "transactions": 104
+      "medianPrice": 374978,
+      "transactions": 112
     },
     {
       "month": "2025-07",
@@ -296,33 +296,33 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 353750,
-      "transactions": 98
+      "medianPrice": 360000,
+      "transactions": 101
     },
     {
       "month": "2025-09",
       "medianPrice": 300000,
-      "transactions": 80
+      "transactions": 83
     },
     {
       "month": "2025-10",
       "medianPrice": 355000,
-      "transactions": 92
+      "transactions": 95
     },
     {
       "month": "2025-11",
       "medianPrice": 300000,
-      "transactions": 73
+      "transactions": 76
     },
     {
       "month": "2025-12",
       "medianPrice": 325000,
-      "transactions": 62
+      "transactions": 63
     },
     {
       "month": "2026-01",
-      "medianPrice": 365000,
-      "transactions": 45
+      "medianPrice": 361000,
+      "transactions": 46
     },
     {
       "month": "2026-02",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 340000,
-      "transactions": 53
+      "medianPrice": 339998,
+      "transactions": 60
     },
     {
       "month": "2026-04",
-      "medianPrice": 355500,
-      "transactions": 20
+      "medianPrice": 360000,
+      "transactions": 53
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 366000,
+      "transactions": 17
     }
   ],
   "quarterlyHistory": [
@@ -364,32 +369,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 365000,
-      "transactions": 340
+      "transactions": 341
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 350000,
-      "transactions": 210
+      "transactions": 217
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 330000,
-      "transactions": 249
+      "transactions": 255
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 336000,
-      "transactions": 227
+      "medianPrice": 336125,
+      "transactions": 234
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 350000,
-      "transactions": 155
+      "transactions": 163
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 355500,
-      "transactions": 20
+      "medianPrice": 365000,
+      "transactions": 70
     }
   ]
 }
