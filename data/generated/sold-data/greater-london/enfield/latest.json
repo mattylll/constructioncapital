@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:05.816Z",
+  "updatedAt": "2026-07-03T11:39:51.569Z",
   "townSlug": "enfield",
   "countySlug": "greater-london",
   "stats": {
-    "medianPrice": 450000,
+    "medianPrice": 447085,
     "medianByType": {
-      "D": 944000,
-      "S": 641250,
-      "T": 475000,
+      "D": 923000,
+      "S": 640000,
+      "T": 473998,
       "F": 300000
     },
-    "transactionCount12m": 2010,
-    "yoyChange": 0,
-    "newBuildCount": 4,
-    "existingCount": 2006,
-    "newBuildPremium": 35.6
+    "transactionCount12m": 2176,
+    "yoyChange": -0.6,
+    "newBuildCount": 5,
+    "existingCount": 2171,
+    "newBuildPremium": 11.9
   },
   "recentTransactions": [
     {
-      "price": 185000,
-      "date": "2026-04-30",
-      "postcode": "EN3 6ST",
+      "price": 380000,
+      "date": "2026-05-29",
+      "postcode": "N18 2DR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, LADYSMITH ROAD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-05-27",
+      "postcode": "EN3 5DH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, LEYLAND AVENUE"
+    },
+    {
+      "price": 564000,
+      "date": "2026-05-26",
+      "postcode": "EN1 2NH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, PORLOCK ROAD"
+    },
+    {
+      "price": 520000,
+      "date": "2026-05-22",
+      "postcode": "N18 2AJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, CLARENDON ROAD"
+    },
+    {
+      "price": 475000,
+      "date": "2026-05-22",
+      "postcode": "N13 5JF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "237, NORTH CIRCULAR ROAD"
+    },
+    {
+      "price": 410000,
+      "date": "2026-05-22",
+      "postcode": "EN3 6AP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "100, BEACONSFIELD ROAD"
+    },
+    {
+      "price": 240000,
+      "date": "2026-05-20",
+      "postcode": "EN1 4UZ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "19, FOREST ROAD"
-    },
-    {
-      "price": 130000,
-      "date": "2026-04-24",
-      "postcode": "N21 1JL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, OAK LODGE, 50, EVERSLEY PARK ROAD"
-    },
-    {
-      "price": 743000,
-      "date": "2026-04-24",
-      "postcode": "N13 5RW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, OAKTREE AVENUE"
-    },
-    {
-      "price": 535000,
-      "date": "2026-04-24",
-      "postcode": "EN1 3DU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, CARNARVON AVENUE"
-    },
-    {
-      "price": 150923,
-      "date": "2026-04-24",
-      "postcode": "N13 6JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "97, TOTTENHALL ROAD"
+      "address": "86, MELLING DRIVE"
     },
     {
       "price": 315000,
-      "date": "2026-04-24",
-      "postcode": "EN2 8NP",
+      "date": "2026-05-19",
+      "postcode": "N18 2FF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 4, 184, LAVENDER HILL"
+      "address": "55, PROWSE COURT, 74, FORE STREET"
     },
     {
-      "price": 358000,
-      "date": "2026-04-24",
-      "postcode": "EN2 8DB",
+      "price": 360000,
+      "date": "2026-05-18",
+      "postcode": "N14 5BT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 21, BENNETS LODGE, 1, CHASE COURT GARDENS"
+      "address": "FLAT 6, HERITAGE HOUSE, 42, CHASE SIDE"
     },
     {
-      "price": 320000,
-      "date": "2026-04-23",
-      "postcode": "N21 1RD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, MERRIDENE"
-    },
-    {
-      "price": 725000,
-      "date": "2026-04-21",
-      "postcode": "EN2 9BZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, CYPRESS AVENUE"
-    },
-    {
-      "price": 725000,
-      "date": "2026-04-20",
-      "postcode": "EN3 5LU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "105, CARTERHATCH ROAD"
-    },
-    {
-      "price": 418000,
-      "date": "2026-04-17",
-      "postcode": "EN3 6EA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, BRIDLE CLOSE"
-    },
-    {
-      "price": 805000,
-      "date": "2026-04-17",
-      "postcode": "N11 2HU",
+      "price": 500000,
+      "date": "2026-05-18",
+      "postcode": "N18 1JJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, NATAL ROAD"
+      "address": "27, PETERSFIELD CLOSE"
     },
     {
-      "price": 851500,
-      "date": "2026-04-17",
-      "postcode": "EN2 0HL",
+      "price": 620000,
+      "date": "2026-05-18",
+      "postcode": "N21 2PT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, PHIPPS HATCH LANE"
-    },
-    {
-      "price": 930000,
-      "date": "2026-04-17",
-      "postcode": "N21 2NU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, SHERBROOK GARDENS"
-    },
-    {
-      "price": 1000000,
-      "date": "2026-04-17",
-      "postcode": "EN2 8JD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, FAIRVIEW ROAD"
-    },
-    {
-      "price": 369000,
-      "date": "2026-04-17",
-      "postcode": "EN3 5DU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54, GREENWOOD AVENUE"
+      "address": "10, FIRS PARK AVENUE"
     },
     {
       "price": 450000,
-      "date": "2026-04-17",
-      "postcode": "EN3 6SX",
-      "propertyType": "O",
+      "date": "2026-05-18",
+      "postcode": "EN3 4PH",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "46, CHESTNUT ROAD"
+      "address": "8, ORCHARD ROAD"
     },
     {
-      "price": 388000,
-      "date": "2026-04-17",
-      "postcode": "EN1 3NU",
+      "price": 302000,
+      "date": "2026-05-15",
+      "postcode": "N9 9AS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "76, INVERNESS AVENUE"
+      "address": "96A, CHURCH STREET"
     },
     {
-      "price": 340000,
-      "date": "2026-04-17",
-      "postcode": "EN2 8HJ",
+      "price": 305000,
+      "date": "2026-05-15",
+      "postcode": "N14 4BW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "33, WOODRIDGE CLOSE"
+      "address": "FLAT 17, WOODMERE COURT, 7, AVENUE ROAD"
     },
     {
-      "price": 140000,
-      "date": "2026-04-17",
-      "postcode": "N9 9GA",
-      "propertyType": "F",
+      "price": 367995,
+      "date": "2026-05-15",
+      "postcode": "EN3 5DN",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "44, MILESTONE CLOSE"
+      "tenure": "F",
+      "address": "32, GREENWOOD AVENUE"
+    },
+    {
+      "price": 385000,
+      "date": "2026-05-15",
+      "postcode": "EN3 4AQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "461, LINCOLN ROAD"
+    },
+    {
+      "price": 980000,
+      "date": "2026-05-15",
+      "postcode": "EN2 6TS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, SYDNEY ROAD"
+    },
+    {
+      "price": 178000,
+      "date": "2026-05-15",
+      "postcode": "N18 1EU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, PRETORIA ROAD NORTH"
+    },
+    {
+      "price": 625000,
+      "date": "2026-05-15",
+      "postcode": "N14 4XP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, SOUTH LODGE DRIVE"
+    },
+    {
+      "price": 555000,
+      "date": "2026-05-14",
+      "postcode": "EN1 1RE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, CLIVE ROAD"
     }
   ],
   "monthlyHistory": [
@@ -216,8 +216,8 @@
     },
     {
       "month": "2024-04",
-      "medianPrice": 442000,
-      "transactions": 226
+      "medianPrice": 440000,
+      "transactions": 227
     },
     {
       "month": "2024-05",
@@ -262,7 +262,7 @@
     {
       "month": "2025-01",
       "medianPrice": 430000,
-      "transactions": 317
+      "transactions": 318
     },
     {
       "month": "2025-02",
@@ -272,7 +272,7 @@
     {
       "month": "2025-03",
       "medianPrice": 455000,
-      "transactions": 631
+      "transactions": 633
     },
     {
       "month": "2025-04",
@@ -286,58 +286,63 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 435000,
-      "transactions": 236
+      "medianPrice": 432500,
+      "transactions": 239
     },
     {
       "month": "2025-07",
-      "medianPrice": 468750,
-      "transactions": 284
+      "medianPrice": 460000,
+      "transactions": 301
     },
     {
       "month": "2025-08",
-      "medianPrice": 459000,
-      "transactions": 254
+      "medianPrice": 455000,
+      "transactions": 261
     },
     {
       "month": "2025-09",
-      "medianPrice": 495998,
-      "transactions": 240
+      "medianPrice": 496995,
+      "transactions": 247
     },
     {
       "month": "2025-10",
-      "medianPrice": 437500,
-      "transactions": 284
+      "medianPrice": 430000,
+      "transactions": 303
     },
     {
       "month": "2025-11",
-      "medianPrice": 455000,
-      "transactions": 197
+      "medianPrice": 449000,
+      "transactions": 229
     },
     {
       "month": "2025-12",
       "medianPrice": 445000,
-      "transactions": 189
+      "transactions": 206
     },
     {
       "month": "2026-01",
       "medianPrice": 435000,
-      "transactions": 148
+      "transactions": 153
     },
     {
       "month": "2026-02",
       "medianPrice": 440000,
-      "transactions": 139
+      "transactions": 147
     },
     {
       "month": "2026-03",
-      "medianPrice": 441000,
-      "transactions": 128
+      "medianPrice": 436500,
+      "transactions": 149
     },
     {
       "month": "2026-04",
-      "medianPrice": 400000,
-      "transactions": 65
+      "medianPrice": 405000,
+      "transactions": 139
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 442500,
+      "transactions": 58
     }
   ],
   "quarterlyHistory": [
@@ -349,7 +354,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 445000,
-      "transactions": 715
+      "transactions": 716
     },
     {
       "quarter": "2024-Q3",
@@ -364,32 +369,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 450000,
-      "transactions": 1190
+      "transactions": 1193
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 445000,
-      "transactions": 568
+      "transactions": 571
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 475000,
-      "transactions": 778
+      "medianPrice": 470000,
+      "transactions": 809
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 449500,
-      "transactions": 670
+      "medianPrice": 440000,
+      "transactions": 738
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 440000,
-      "transactions": 415
+      "medianPrice": 435000,
+      "transactions": 449
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 400000,
-      "transactions": 65
+      "medianPrice": 424000,
+      "transactions": 197
     }
   ]
 }

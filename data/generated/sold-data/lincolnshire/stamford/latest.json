@@ -1,22 +1,130 @@
 {
-  "updatedAt": "2026-06-23T19:12:07.642Z",
+  "updatedAt": "2026-07-03T11:39:53.353Z",
   "townSlug": "stamford",
   "countySlug": "lincolnshire",
   "stats": {
-    "medianPrice": 300000,
+    "medianPrice": 303250,
     "medianByType": {
-      "D": 455000,
-      "S": 292500,
-      "T": 270000,
-      "F": 174500
+      "D": 449000,
+      "S": 290000,
+      "T": 274000,
+      "F": 166000
     },
-    "transactionCount12m": 287,
-    "yoyChange": -4.8,
-    "newBuildCount": 5,
-    "existingCount": 282,
-    "newBuildPremium": 43.3
+    "transactionCount12m": 294,
+    "yoyChange": -4.5,
+    "newBuildCount": 1,
+    "existingCount": 293,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 387000,
+      "date": "2026-05-14",
+      "postcode": "PE9 1FF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "85, BANKS CRESCENT"
+    },
+    {
+      "price": 84000,
+      "date": "2026-05-08",
+      "postcode": "PE9 2DD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, CLAPTON CLOSE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-05-07",
+      "postcode": "PE9 3DB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, BARROWFIELD DRIVE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-05-01",
+      "postcode": "PE9 2WN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, CLOVER GARDENS"
+    },
+    {
+      "price": 300000,
+      "date": "2026-05-01",
+      "postcode": "PE9 1UX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, DRIFT GARDENS"
+    },
+    {
+      "price": 230000,
+      "date": "2026-04-30",
+      "postcode": "PE9 1DT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, TURNPOLE CLOSE"
+    },
+    {
+      "price": 3200000,
+      "date": "2026-04-29",
+      "postcode": "PE9 4SN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "UFFINGTON MANOR, MAIN ROAD"
+    },
+    {
+      "price": 167000,
+      "date": "2026-04-29",
+      "postcode": "PE9 1HJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WINDSOR CLOSE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-04-28",
+      "postcode": "PE9 3ER",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, VANDERBANK TERRACE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-04-28",
+      "postcode": "PE9 2TU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, FALKIRK CLOSE"
+    },
+    {
+      "price": 395000,
+      "date": "2026-04-27",
+      "postcode": "PE9 2XS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, ARRAN ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-04-24",
+      "postcode": "PE9 1BB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "STONE COTTAGE, LITTLE CASTERTON ROAD"
+    },
     {
       "price": 415000,
       "date": "2026-04-24",
@@ -25,6 +133,42 @@
       "newBuild": false,
       "tenure": "F",
       "address": "4, TEMPLEMAN DRIVE"
+    },
+    {
+      "price": 315000,
+      "date": "2026-04-23",
+      "postcode": "PE9 2XS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "67, ARRAN ROAD"
+    },
+    {
+      "price": 685000,
+      "date": "2026-04-17",
+      "postcode": "PE9 2DS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40A, ST MARYS STREET"
+    },
+    {
+      "price": 318000,
+      "date": "2026-04-17",
+      "postcode": "PE9 1HS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, CHRIST CHURCH CLOSE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-04-17",
+      "postcode": "PE9 1HS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, CHRIST CHURCH CLOSE"
     },
     {
       "price": 335000,
@@ -52,150 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "1, WELLAND MEWS"
-    },
-    {
-      "price": 215000,
-      "date": "2026-04-09",
-      "postcode": "PE9 1YJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "95, DRIFT AVENUE"
-    },
-    {
-      "price": 560000,
-      "date": "2026-04-08",
-      "postcode": "PE9 3DD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, BOYFIELD CRESCENT"
-    },
-    {
-      "price": 247500,
-      "date": "2026-04-07",
-      "postcode": "PE9 1SP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, WILLOUGHBY ROAD"
-    },
-    {
-      "price": 500000,
-      "date": "2026-04-02",
-      "postcode": "PE9 2NA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2A, BARNACK ROAD"
-    },
-    {
-      "price": 725000,
-      "date": "2026-04-01",
-      "postcode": "PE9 2FL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, FOREST GARDENS"
-    },
-    {
-      "price": 207000,
-      "date": "2026-03-31",
-      "postcode": "PE9 1LL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, YORK ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-30",
-      "postcode": "PE9 2HW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, CORNSTALL BUILDINGS"
-    },
-    {
-      "price": 284000,
-      "date": "2026-03-30",
-      "postcode": "PE9 2UY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, TORKINGTON STREET"
-    },
-    {
-      "price": 274000,
-      "date": "2026-03-27",
-      "postcode": "PE9 4PE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BARN END"
-    },
-    {
-      "price": 363000,
-      "date": "2026-03-27",
-      "postcode": "PE9 1SA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, HOLLAND ROAD"
-    },
-    {
-      "price": 425000,
-      "date": "2026-03-27",
-      "postcode": "PE9 1SA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, HOLLAND ROAD"
-    },
-    {
-      "price": 355000,
-      "date": "2026-03-27",
-      "postcode": "PE9 2TR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, DUNDEE DRIVE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-03-27",
-      "postcode": "PE9 1DF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, FITZWILLIAM ROAD"
-    },
-    {
-      "price": 312500,
-      "date": "2026-03-27",
-      "postcode": "PE9 4RH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, ST LAWRENCE WAY"
-    },
-    {
-      "price": 350000,
-      "date": "2026-03-27",
-      "postcode": "PE9 4NQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, TEMPLEMAN DRIVE"
-    },
-    {
-      "price": 220500,
-      "date": "2026-03-27",
-      "postcode": "PE9 1HU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, MOUNTBATTEN AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -251,8 +251,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 315000,
-      "transactions": 45
+      "medianPrice": 332500,
+      "transactions": 46
     },
     {
       "month": "2024-12",
@@ -292,12 +292,12 @@
     {
       "month": "2025-07",
       "medianPrice": 300000,
-      "transactions": 47
+      "transactions": 48
     },
     {
       "month": "2025-08",
-      "medianPrice": 325000,
-      "transactions": 38
+      "medianPrice": 315000,
+      "transactions": 40
     },
     {
       "month": "2025-09",
@@ -307,17 +307,17 @@
     {
       "month": "2025-10",
       "medianPrice": 350000,
-      "transactions": 37
+      "transactions": 41
     },
     {
       "month": "2025-11",
-      "medianPrice": 270000,
-      "transactions": 27
+      "medianPrice": 277500,
+      "transactions": 32
     },
     {
       "month": "2025-12",
-      "medianPrice": 277500,
-      "transactions": 24
+      "medianPrice": 280000,
+      "transactions": 25
     },
     {
       "month": "2026-01",
@@ -326,18 +326,23 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 253000,
-      "transactions": 19
+      "medianPrice": 250000,
+      "transactions": 20
     },
     {
       "month": "2026-03",
-      "medianPrice": 265000,
-      "transactions": 25
+      "medianPrice": 269500,
+      "transactions": 26
     },
     {
       "month": "2026-04",
-      "medianPrice": 390000,
-      "transactions": 9
+      "medianPrice": 321500,
+      "transactions": 20
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 325000,
+      "transactions": 5
     }
   ],
   "quarterlyHistory": [
@@ -358,8 +363,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 341500,
-      "transactions": 134
+      "medianPrice": 343000,
+      "transactions": 135
     },
     {
       "quarter": "2025-Q1",
@@ -373,23 +378,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 300000,
-      "transactions": 115
+      "medianPrice": 299000,
+      "transactions": 118
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 305000,
-      "transactions": 88
+      "transactions": 98
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 275000,
-      "transactions": 55
+      "transactions": 57
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 390000,
-      "transactions": 9
+      "medianPrice": 325000,
+      "transactions": 25
     }
   ]
 }

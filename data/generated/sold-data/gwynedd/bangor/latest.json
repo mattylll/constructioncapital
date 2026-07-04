@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.943Z",
+  "updatedAt": "2026-07-03T11:39:54.758Z",
   "townSlug": "bangor",
   "countySlug": "gwynedd",
   "stats": {
-    "medianPrice": 190000,
+    "medianPrice": 189438,
     "medianByType": {
-      "D": 350000,
+      "D": 337500,
       "S": 225000,
-      "T": 148000,
-      "F": 98000
+      "T": 147750,
+      "F": 106000
     },
-    "transactionCount12m": 226,
-    "yoyChange": 8.6,
+    "transactionCount12m": 244,
+    "yoyChange": 7.6,
     "newBuildCount": 0,
-    "existingCount": 226,
+    "existingCount": 244,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 75000,
+      "date": "2026-05-19",
+      "postcode": "LL57 2UF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, TREM ELIDIR"
+    },
+    {
+      "price": 51000,
+      "date": "2026-05-11",
+      "postcode": "LL57 2EU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, HOLYHEAD ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-05-01",
+      "postcode": "LL57 4DF",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "UNIT 10, LLYS ONNEN, FFORDD Y LLYN"
+    },
+    {
+      "price": 200000,
+      "date": "2026-04-30",
+      "postcode": "",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "UNIT 12, LLYS CASTAN"
+    },
+    {
+      "price": 100000,
+      "date": "2026-04-29",
+      "postcode": "LL57 2UR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, DEINIOL ROAD"
+    },
+    {
+      "price": 90000,
+      "date": "2026-04-28",
+      "postcode": "LL57 2HA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, HILL STREET"
+    },
+    {
+      "price": 90000,
+      "date": "2026-04-27",
+      "postcode": "LL57 2HA",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49A, HILL STREET"
+    },
+    {
+      "price": 225000,
+      "date": "2026-04-23",
+      "postcode": "LL57 4TR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BLAEN Y WAWR"
+    },
+    {
+      "price": 144000,
+      "date": "2026-04-20",
+      "postcode": "LL57 1AH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MOUNT VIEW, GLYNNE ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-04-17",
+      "postcode": "LL57 2RU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, GORDON TERRACE"
+    },
     {
       "price": 140000,
       "date": "2026-04-17",
@@ -25,6 +115,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "310, CAERNARFON ROAD"
+    },
+    {
+      "price": 750000,
+      "date": "2026-04-17",
+      "postcode": "LL57 2BH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MENAI DALE, SILIWEN ROAD"
     },
     {
       "price": 293000,
@@ -63,6 +162,15 @@
       "address": "26, MOUNT STREET"
     },
     {
+      "price": 156500,
+      "date": "2026-04-13",
+      "postcode": "LL57 4YR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, TAI'R STABLAU"
+    },
+    {
       "price": 185000,
       "date": "2026-04-10",
       "postcode": "LL57 3PG",
@@ -88,114 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "28, ORME ROAD"
-    },
-    {
-      "price": 175000,
-      "date": "2026-04-01",
-      "postcode": "LL57 4HG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "99, CAE GLAS"
-    },
-    {
-      "price": 237500,
-      "date": "2026-03-30",
-      "postcode": "LL57 4PH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, MAES OGWEN"
-    },
-    {
-      "price": 355000,
-      "date": "2026-03-30",
-      "postcode": "LL57 4RA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GWEL Y DON, CRAIG Y PANDY"
-    },
-    {
-      "price": 100000,
-      "date": "2026-03-30",
-      "postcode": "LL57 3SE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, CARNEDDI ROAD"
-    },
-    {
-      "price": 280000,
-      "date": "2026-03-26",
-      "postcode": "LL57 2NS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, FFORDD CYNAN"
-    },
-    {
-      "price": 106000,
-      "date": "2026-03-26",
-      "postcode": "LL57 2YJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, AINON CLOSE"
-    },
-    {
-      "price": 405000,
-      "date": "2026-03-26",
-      "postcode": "LL57 2QE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, LON Y WYDDFA"
-    },
-    {
-      "price": 225000,
-      "date": "2026-03-26",
-      "postcode": "LL57 4TB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, FFORDD COED MAWR"
-    },
-    {
-      "price": 110000,
-      "date": "2026-03-24",
-      "postcode": "LL57 4DR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, NANT COTTAGES"
-    },
-    {
-      "price": 114000,
-      "date": "2026-03-24",
-      "postcode": "LL57 3EU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, WATER STREET"
-    },
-    {
-      "price": 79000,
-      "date": "2026-03-24",
-      "postcode": "LL57 1BJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9, NEUADD YR EGLWYS"
-    },
-    {
-      "price": 185000,
-      "date": "2026-03-24",
-      "postcode": "LL57 3RD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, BRAICHMELYN"
     }
   ],
   "monthlyHistory": [
@@ -292,22 +292,22 @@
     {
       "month": "2025-07",
       "medianPrice": 170000,
-      "transactions": 33
+      "transactions": 35
     },
     {
       "month": "2025-08",
-      "medianPrice": 189375,
-      "transactions": 27
+      "medianPrice": 184688,
+      "transactions": 30
     },
     {
       "month": "2025-09",
-      "medianPrice": 186000,
-      "transactions": 21
+      "medianPrice": 191750,
+      "transactions": 22
     },
     {
       "month": "2025-10",
       "medianPrice": 145000,
-      "transactions": 26
+      "transactions": 30
     },
     {
       "month": "2025-11",
@@ -316,13 +316,13 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 217500,
-      "transactions": 29
+      "medianPrice": 217250,
+      "transactions": 32
     },
     {
       "month": "2026-01",
-      "medianPrice": 222500,
-      "transactions": 8
+      "medianPrice": 242250,
+      "transactions": 10
     },
     {
       "month": "2026-02",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 185000,
-      "transactions": 23
+      "medianPrice": 205000,
+      "transactions": 24
     },
     {
       "month": "2026-04",
-      "medianPrice": 183000,
-      "transactions": 9
+      "medianPrice": 179000,
+      "transactions": 18
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 75000,
+      "transactions": 3
     }
   ],
   "quarterlyHistory": [
@@ -374,22 +379,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 186000,
-      "transactions": 81
+      "transactions": 87
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 185000,
-      "transactions": 77
+      "medianPrice": 179500,
+      "transactions": 84
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 220000,
-      "transactions": 52
+      "medianPrice": 225000,
+      "transactions": 55
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 183000,
-      "transactions": 9
+      "medianPrice": 175000,
+      "transactions": 21
     }
   ]
 }

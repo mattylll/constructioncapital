@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:07.329Z",
+  "updatedAt": "2026-07-03T11:39:53.044Z",
   "townSlug": "redditch",
   "countySlug": "worcestershire",
   "stats": {
     "medianPrice": 250000,
     "medianByType": {
       "D": 385000,
-      "S": 265000,
-      "T": 199000,
+      "S": 262000,
+      "T": 200000,
       "F": 130000
     },
-    "transactionCount12m": 751,
-    "yoyChange": 1,
+    "transactionCount12m": 823,
+    "yoyChange": 0.4,
     "newBuildCount": 4,
-    "existingCount": 747,
-    "newBuildPremium": -48
+    "existingCount": 819,
+    "newBuildPremium": -49
   },
   "recentTransactions": [
     {
-      "price": 205000,
-      "date": "2026-04-22",
-      "postcode": "B97 4NR",
-      "propertyType": "T",
+      "price": 423000,
+      "date": "2026-05-22",
+      "postcode": "B97 5ND",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "43, PLYMOUTH COURT, PLYMOUTH CLOSE"
+      "tenure": "F",
+      "address": "18, CHURCH DOWN CLOSE"
     },
     {
-      "price": 155000,
-      "date": "2026-04-17",
-      "postcode": "B97 5HZ",
+      "price": 300000,
+      "date": "2026-05-19",
+      "postcode": "B97 6TZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, LILY GREEN LANE"
+    },
+    {
+      "price": 145000,
+      "date": "2026-05-14",
+      "postcode": "B98 7QE",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "98, RANGEWORTHY CLOSE"
+      "address": "37, HEDGEROW CLOSE"
     },
     {
-      "price": 385000,
-      "date": "2026-04-17",
-      "postcode": "B97 5SL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "78, PACKWOOD CLOSE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-04-17",
-      "postcode": "B97 5NP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "111, WALKWOOD ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-04-17",
-      "postcode": "B98 7BZ",
+      "price": 95000,
+      "date": "2026-05-14",
+      "postcode": "B97 5NA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, HONEYCHURCH CLOSE"
-    },
-    {
-      "price": 363000,
-      "date": "2026-04-17",
-      "postcode": "B97 5NE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "111, ENFIELD ROAD"
-    },
-    {
-      "price": 65000,
-      "date": "2026-04-14",
-      "postcode": "B98 7HZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "68, SOUTHCREST ROAD"
-    },
-    {
-      "price": 263000,
-      "date": "2026-04-02",
-      "postcode": "B98 0QL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, PRESTBURY CLOSE"
-    },
-    {
-      "price": 446000,
-      "date": "2026-04-02",
-      "postcode": "B97 5QF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, FAIRFIELD DRIVE"
-    },
-    {
-      "price": 201000,
-      "date": "2026-04-02",
-      "postcode": "B98 8QB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, BROADWAS CLOSE"
-    },
-    {
-      "price": 222500,
-      "date": "2026-04-01",
-      "postcode": "B98 0NL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, BARROW CLOSE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-03-30",
-      "postcode": "B98 7UQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, RUSHOCK CLOSE"
-    },
-    {
-      "price": 224000,
-      "date": "2026-03-27",
-      "postcode": "B98 0HZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, MEREVALE CLOSE"
-    },
-    {
-      "price": 310000,
-      "date": "2026-03-27",
-      "postcode": "B98 7QF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "88, HEDGEROW CLOSE"
-    },
-    {
-      "price": 168000,
-      "date": "2026-03-27",
-      "postcode": "B98 7HY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "13, BATTENS CLOSE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-03-27",
-      "postcode": "B98 0HZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19, MEREVALE CLOSE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-03-27",
-      "postcode": "B98 9LF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "92, UPPER FIELD CLOSE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-27",
-      "postcode": "B98 9JE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, BARNWOOD CLOSE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-03-27",
-      "postcode": "B98 7XQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, YARNINGALE CLOSE"
+      "address": "94, BANNERS LANE"
     },
     {
       "price": 180000,
-      "date": "2026-03-27",
-      "postcode": "B97 4LF",
+      "date": "2026-05-14",
+      "postcode": "B98 0BN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, HASELEY CLOSE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-05-08",
+      "postcode": "B97 5AR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, FECKENHAM ROAD"
+    },
+    {
+      "price": 338000,
+      "date": "2026-05-08",
+      "postcode": "B98 0TG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, BERRINGTON CLOSE"
+    },
+    {
+      "price": 278000,
+      "date": "2026-05-05",
+      "postcode": "B98 7HS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, STONEHOUSE CLOSE"
+      "address": "58, PITCHCOMBE CLOSE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-05-05",
+      "postcode": "B98 7HG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "145, STUDLEY ROAD"
+    },
+    {
+      "price": 174000,
+      "date": "2026-05-01",
+      "postcode": "B98 8ED",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "125, ST GEORGES ROAD"
+    },
+    {
+      "price": 147500,
+      "date": "2026-05-01",
+      "postcode": "B97 4LX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 3, THE BEECHES, 233, BIRCHFIELD ROAD"
+    },
+    {
+      "price": 545000,
+      "date": "2026-05-01",
+      "postcode": "B97 4NH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "325, BROMSGROVE ROAD"
+    },
+    {
+      "price": 520000,
+      "date": "2026-05-01",
+      "postcode": "B97 5WL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, GREAT HOCKINGS LANE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-05-01",
+      "postcode": "B98 8RP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, NORBURY CLOSE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-05-01",
+      "postcode": "B98 0JS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "26, STAPLETON CLOSE"
+    },
+    {
+      "price": 375000,
+      "date": "2026-05-01",
+      "postcode": "B98 7PW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56A, ELLERDENE CLOSE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-05-01",
+      "postcode": "B98 8QH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "126, EDGEWORTH CLOSE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-04-30",
+      "postcode": "B98 7BN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "34, BRITANNIA CLOSE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-04-30",
+      "postcode": "B98 9JL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "228, LOXLEY CLOSE"
+    },
+    {
+      "price": 277000,
+      "date": "2026-04-30",
+      "postcode": "B97 4JH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "92, MOUNT PLEASANT"
     }
   ],
   "monthlyHistory": [
@@ -276,68 +276,73 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 247500,
-      "transactions": 54
+      "medianPrice": 250000,
+      "transactions": 55
     },
     {
       "month": "2025-05",
       "medianPrice": 238000,
-      "transactions": 99
+      "transactions": 101
     },
     {
       "month": "2025-06",
-      "medianPrice": 249000,
-      "transactions": 103
+      "medianPrice": 247000,
+      "transactions": 104
     },
     {
       "month": "2025-07",
       "medianPrice": 250000,
-      "transactions": 101
+      "transactions": 102
     },
     {
       "month": "2025-08",
-      "medianPrice": 247500,
-      "transactions": 97
+      "medianPrice": 246250,
+      "transactions": 102
     },
     {
       "month": "2025-09",
       "medianPrice": 271000,
-      "transactions": 88
-    },
-    {
-      "month": "2025-10",
-      "medianPrice": 273000,
-      "transactions": 121
-    },
-    {
-      "month": "2025-11",
-      "medianPrice": 244000,
-      "transactions": 66
-    },
-    {
-      "month": "2025-12",
-      "medianPrice": 210000,
       "transactions": 90
     },
     {
+      "month": "2025-10",
+      "medianPrice": 274000,
+      "transactions": 130
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 249000,
+      "transactions": 88
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 213500,
+      "transactions": 92
+    },
+    {
       "month": "2026-01",
-      "medianPrice": 285000,
-      "transactions": 44
+      "medianPrice": 283750,
+      "transactions": 48
     },
     {
       "month": "2026-02",
-      "medianPrice": 235000,
-      "transactions": 58
+      "medianPrice": 240000,
+      "transactions": 59
     },
     {
       "month": "2026-03",
-      "medianPrice": 240000,
-      "transactions": 39
+      "medianPrice": 250000,
+      "transactions": 51
     },
     {
       "month": "2026-04",
-      "medianPrice": 222500,
-      "transactions": 11
+      "medianPrice": 235000,
+      "transactions": 47
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 278000,
+      "transactions": 17
     }
   ],
   "quarterlyHistory": [
@@ -369,27 +374,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 242500,
-      "transactions": 256
+      "transactions": 260
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 250500,
-      "transactions": 286
+      "transactions": 294
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 246500,
-      "transactions": 277
+      "medianPrice": 250000,
+      "transactions": 310
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 250000,
-      "transactions": 141
+      "medianPrice": 255250,
+      "transactions": 158
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 222500,
-      "transactions": 11
+      "medianPrice": 240500,
+      "transactions": 64
     }
   ]
 }

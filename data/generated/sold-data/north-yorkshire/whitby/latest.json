@@ -1,22 +1,130 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.297Z",
+  "updatedAt": "2026-07-03T11:39:54.035Z",
   "townSlug": "whitby",
   "countySlug": "north-yorkshire",
   "stats": {
-    "medianPrice": 255000,
+    "medianPrice": 256972,
     "medianByType": {
-      "D": 368000,
-      "S": 247250,
-      "T": 211500,
-      "F": 157500
+      "D": 380000,
+      "S": 250000,
+      "T": 220000,
+      "F": 152000
     },
-    "transactionCount12m": 259,
-    "yoyChange": -5.6,
+    "transactionCount12m": 280,
+    "yoyChange": -4.8,
     "newBuildCount": 4,
-    "existingCount": 255,
-    "newBuildPremium": 25.3
+    "existingCount": 276,
+    "newBuildPremium": 22.8
   },
   "recentTransactions": [
+    {
+      "price": 280000,
+      "date": "2026-05-20",
+      "postcode": "YO21 3LJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, LOVE LANE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-05-18",
+      "postcode": "YO21 1PN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, PARK TERRACE"
+    },
+    {
+      "price": 445000,
+      "date": "2026-05-14",
+      "postcode": "YO22 5HX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ST. NINIANS"
+    },
+    {
+      "price": 185000,
+      "date": "2026-05-12",
+      "postcode": "YO21 1PL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, OSWY STREET"
+    },
+    {
+      "price": 230000,
+      "date": "2026-05-11",
+      "postcode": "YO21 3QS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HILLCREST, RICHARDSONS ROW"
+    },
+    {
+      "price": 225000,
+      "date": "2026-05-08",
+      "postcode": "YO22 4DW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, HENRIETTA STREET"
+    },
+    {
+      "price": 248000,
+      "date": "2026-05-08",
+      "postcode": "YO22 4QP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, NIGHTINGALE DRIVE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-05-07",
+      "postcode": "YO22 5BZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, BIRCH AVENUE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-05-06",
+      "postcode": "YO21 1RY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 5, THE WOODLANDS, WOODLANDS"
+    },
+    {
+      "price": 275000,
+      "date": "2026-05-01",
+      "postcode": "YO21 3AE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TALDOMAS GALLERY, ST HILDAS TERRACE"
+    },
+    {
+      "price": 470000,
+      "date": "2026-04-29",
+      "postcode": "YO22 4RS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, THE ESPLANADE"
+    },
+    {
+      "price": 212000,
+      "date": "2026-04-29",
+      "postcode": "YO21 1PL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, OSWY STREET"
+    },
     {
       "price": 250000,
       "date": "2026-04-24",
@@ -27,6 +135,33 @@
       "address": "2A, POPLAR ROW"
     },
     {
+      "price": 230000,
+      "date": "2026-04-24",
+      "postcode": "YO21 1QD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, PROSPECT HILL"
+    },
+    {
+      "price": 112500,
+      "date": "2026-04-24",
+      "postcode": "YO21 3FH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 6, 1, ABBEY TERRACE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-04-24",
+      "postcode": "YO21 1QL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34A, BAGDALE"
+    },
+    {
       "price": 597000,
       "date": "2026-04-22",
       "postcode": "YO21 3SU",
@@ -34,6 +169,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "NESS VIEW, EAST ROW"
+    },
+    {
+      "price": 395000,
+      "date": "2026-04-22",
+      "postcode": "YO22 4QT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, SANDPIPER PLACE"
     },
     {
       "price": 545000,
@@ -52,150 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "8, PROSPECT FIELD"
-    },
-    {
-      "price": 195000,
-      "date": "2026-04-14",
-      "postcode": "YO21 3HU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, METROPOLE TOWERS, ARGYLE ROAD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-04-10",
-      "postcode": "YO21 1HS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, STAKESBY ROAD"
-    },
-    {
-      "price": 245000,
-      "date": "2026-04-08",
-      "postcode": "YO21 2PP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, PARK VIEW"
-    },
-    {
-      "price": 369000,
-      "date": "2026-04-07",
-      "postcode": "YO22 4RX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SHERWOOD HOUSE, THE SQUARE"
-    },
-    {
-      "price": 160000,
-      "date": "2026-04-01",
-      "postcode": "YO21 1YF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, RUNSWICK COURT, BYLAND ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-03-31",
-      "postcode": "YO21 2JZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, STRAIT LANE"
-    },
-    {
-      "price": 183800,
-      "date": "2026-03-31",
-      "postcode": "YO22 4EL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, STUDLEY TERRACE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-31",
-      "postcode": "YO22 4JJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, ESKDALE ROAD"
-    },
-    {
-      "price": 152000,
-      "date": "2026-03-31",
-      "postcode": "YO21 3HL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, MOUNT SQUARE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-03-27",
-      "postcode": "YO21 1QF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, MEADOWFIELDS"
-    },
-    {
-      "price": 213000,
-      "date": "2026-03-26",
-      "postcode": "YO21 1EW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, GEORGE STREET"
-    },
-    {
-      "price": 170000,
-      "date": "2026-03-26",
-      "postcode": "YO22 4HU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, STAINSACRE LANE"
-    },
-    {
-      "price": 232500,
-      "date": "2026-03-24",
-      "postcode": "YO22 5DN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, INGHAM CLOSE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-03-23",
-      "postcode": "YO22 4HN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, QUEENS DRIVE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-03-23",
-      "postcode": "YO21 3NB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, LOCKTON ROAD"
-    },
-    {
-      "price": 430000,
-      "date": "2026-03-19",
-      "postcode": "YO22 4RQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE NOOK, MOUNT PLEASANT SOUTH"
     }
   ],
   "monthlyHistory": [
@@ -206,8 +206,8 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 250000,
-      "transactions": 43
+      "medianPrice": 245000,
+      "transactions": 44
     },
     {
       "month": "2024-03",
@@ -231,8 +231,8 @@
     },
     {
       "month": "2024-07",
-      "medianPrice": 267500,
-      "transactions": 48
+      "medianPrice": 265000,
+      "transactions": 49
     },
     {
       "month": "2024-08",
@@ -276,8 +276,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 225000,
-      "transactions": 11
+      "medianPrice": 215000,
+      "transactions": 10
     },
     {
       "month": "2025-05",
@@ -291,8 +291,8 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 270000,
-      "transactions": 31
+      "medianPrice": 261250,
+      "transactions": 35
     },
     {
       "month": "2025-08",
@@ -307,17 +307,17 @@
     {
       "month": "2025-10",
       "medianPrice": 270000,
-      "transactions": 44
+      "transactions": 46
     },
     {
       "month": "2025-11",
       "medianPrice": 275000,
-      "transactions": 28
+      "transactions": 33
     },
     {
       "month": "2025-12",
-      "medianPrice": 240000,
-      "transactions": 23
+      "medianPrice": 247500,
+      "transactions": 26
     },
     {
       "month": "2026-01",
@@ -331,20 +331,25 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 228750,
-      "transactions": 20
+      "medianPrice": 241250,
+      "transactions": 24
     },
     {
       "month": "2026-04",
-      "medianPrice": 285000,
-      "transactions": 9
+      "medianPrice": 258944,
+      "transactions": 17
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 261500,
+      "transactions": 10
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 255000,
-      "transactions": 117
+      "transactions": 118
     },
     {
       "quarter": "2024-Q2",
@@ -353,8 +358,8 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 265000,
-      "transactions": 137
+      "medianPrice": 261250,
+      "transactions": 138
     },
     {
       "quarter": "2024-Q4",
@@ -368,28 +373,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 250000,
-      "transactions": 83
+      "medianPrice": 250400,
+      "transactions": 82
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 260000,
-      "transactions": 87
+      "transactions": 91
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 265000,
-      "transactions": 95
+      "medianPrice": 260000,
+      "transactions": 105
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 231250,
-      "transactions": 54
+      "medianPrice": 241250,
+      "transactions": 58
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 285000,
-      "transactions": 9
+      "medianPrice": 258944,
+      "transactions": 27
     }
   ]
 }

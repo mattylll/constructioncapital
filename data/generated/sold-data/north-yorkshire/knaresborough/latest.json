@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.310Z",
+  "updatedAt": "2026-07-03T11:39:54.050Z",
   "townSlug": "knaresborough",
   "countySlug": "north-yorkshire",
   "stats": {
     "medianPrice": 352500,
     "medianByType": {
-      "D": 491150,
-      "S": 299498,
-      "T": 267500,
-      "F": 152500
+      "D": 497620,
+      "S": 315000,
+      "T": 260000,
+      "F": 145000
     },
-    "transactionCount12m": 228,
+    "transactionCount12m": 226,
     "yoyChange": 5.2,
-    "newBuildCount": 15,
-    "existingCount": 213,
-    "newBuildPremium": 20
+    "newBuildCount": 5,
+    "existingCount": 221,
+    "newBuildPremium": -1.4
   },
   "recentTransactions": [
+    {
+      "price": 360000,
+      "date": "2026-05-22",
+      "postcode": "HG5 0GU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, POPPY CLOSE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-05-15",
+      "postcode": "HG5 0TR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, GARTEN CLOSE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-05-14",
+      "postcode": "HG5 0LN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, STOCKWELL GROVE"
+    },
+    {
+      "price": 83000,
+      "date": "2026-05-13",
+      "postcode": "HG5 8FG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "MISTLETOE, BADGER HILL"
+    },
+    {
+      "price": 585000,
+      "date": "2026-05-08",
+      "postcode": "HG5 8EJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, ASPIN AVENUE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-05-01",
+      "postcode": "HG5 0AZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, KINGS ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-05-01",
+      "postcode": "HG5 0JX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ST MARGARETS GARDENS"
+    },
+    {
+      "price": 192000,
+      "date": "2026-04-30",
+      "postcode": "HG5 0BJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, PARK ROW"
+    },
+    {
+      "price": 405000,
+      "date": "2026-04-30",
+      "postcode": "HG5 9EU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, VICTORIA AVENUE"
+    },
+    {
+      "price": 530000,
+      "date": "2026-04-28",
+      "postcode": "HG5 9HJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE BARN, BAR FARM, RIPLEY ROAD"
+    },
     {
       "price": 255000,
       "date": "2026-04-24",
@@ -34,6 +124,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "4, PRINCESS GROVE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-04-24",
+      "postcode": "HG5 8BH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "86, BRIGGATE"
     },
     {
       "price": 315000,
@@ -72,6 +171,15 @@
       "address": "2, ASH TREE ROAD"
     },
     {
+      "price": 60000,
+      "date": "2026-04-07",
+      "postcode": "HG5 0UH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "28, ROWAN WAY"
+    },
+    {
       "price": 390000,
       "date": "2026-04-02",
       "postcode": "HG5 8LD",
@@ -88,114 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "7, BYLAND MEWS"
-    },
-    {
-      "price": 186500,
-      "date": "2026-03-30",
-      "postcode": "HG5 0AY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, PRINCESS TERRACE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-03-30",
-      "postcode": "HG5 0SH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, THE PADDOCK"
-    },
-    {
-      "price": 305000,
-      "date": "2026-03-27",
-      "postcode": "HG5 8PR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, AVENUE HOUSE COURT"
-    },
-    {
-      "price": 308000,
-      "date": "2026-03-27",
-      "postcode": "HG5 0PS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, HALFPENNY LANE"
-    },
-    {
-      "price": 460000,
-      "date": "2026-03-27",
-      "postcode": "HG5 8EG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, STEPHENSON CLOSE"
-    },
-    {
-      "price": 140000,
-      "date": "2026-03-27",
-      "postcode": "HG5 0AT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, QUEENS ROAD"
-    },
-    {
-      "price": 720000,
-      "date": "2026-03-24",
-      "postcode": "HG5 8NT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BOUNDARY LODGE, STATION ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-03-23",
-      "postcode": "HG5 0EP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BLUE COTTAGE, BERRYS AVENUE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-03-17",
-      "postcode": "HG5 8AG",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "36, MARKET PLACE"
-    },
-    {
-      "price": 170000,
-      "date": "2026-03-16",
-      "postcode": "HG5 0WH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, 9, MINT GARTH"
-    },
-    {
-      "price": 275000,
-      "date": "2026-03-16",
-      "postcode": "HG5 9JQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, LINGERFIELD TERRACE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-03-11",
-      "postcode": "HG5 0UD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, WHINCUP CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -276,13 +276,13 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 329498,
-      "transactions": 18
+      "medianPrice": 308995,
+      "transactions": 19
     },
     {
       "month": "2025-05",
-      "medianPrice": 312500,
-      "transactions": 27
+      "medianPrice": 313750,
+      "transactions": 28
     },
     {
       "month": "2025-06",
@@ -297,7 +297,7 @@
     {
       "month": "2025-08",
       "medianPrice": 358500,
-      "transactions": 26
+      "transactions": 28
     },
     {
       "month": "2025-09",
@@ -307,17 +307,17 @@
     {
       "month": "2025-10",
       "medianPrice": 405000,
-      "transactions": 30
+      "transactions": 32
     },
     {
       "month": "2025-11",
-      "medianPrice": 452500,
-      "transactions": 20
+      "medianPrice": 450000,
+      "transactions": 21
     },
     {
       "month": "2025-12",
-      "medianPrice": 399975,
-      "transactions": 16
+      "medianPrice": 400000,
+      "transactions": 17
     },
     {
       "month": "2026-01",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 322500,
-      "transactions": 22
+      "medianPrice": 325000,
+      "transactions": 23
     },
     {
       "month": "2026-04",
-      "medianPrice": 317500,
-      "transactions": 8
+      "medianPrice": 315000,
+      "transactions": 13
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 350000,
+      "transactions": 7
     }
   ],
   "quarterlyHistory": [
@@ -369,27 +374,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 325000,
-      "transactions": 82
+      "transactions": 84
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 337475,
-      "transactions": 84
+      "transactions": 86
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 410000,
-      "transactions": 66
+      "transactions": 70
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 340000,
-      "transactions": 50
+      "transactions": 51
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 317500,
-      "transactions": 8
+      "transactions": 20
     }
   ]
 }

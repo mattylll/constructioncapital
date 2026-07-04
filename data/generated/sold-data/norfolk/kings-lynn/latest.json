@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.522Z",
+  "updatedAt": "2026-07-03T11:39:54.278Z",
   "townSlug": "kings-lynn",
   "countySlug": "norfolk",
   "stats": {
     "medianPrice": 265000,
     "medianByType": {
       "D": 335000,
-      "S": 240500,
-      "T": 188748,
-      "F": 123000
+      "S": 240000,
+      "T": 190000,
+      "F": 125000
     },
-    "transactionCount12m": 1708,
+    "transactionCount12m": 1840,
     "yoyChange": 0,
-    "newBuildCount": 27,
-    "existingCount": 1681,
-    "newBuildPremium": 35
+    "newBuildCount": 20,
+    "existingCount": 1820,
+    "newBuildPremium": 41.8
   },
   "recentTransactions": [
     {
-      "price": 292500,
-      "date": "2026-04-28",
-      "postcode": "PE32 1BT",
+      "price": 235000,
+      "date": "2026-05-22",
+      "postcode": "PE30 4DF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "FLORADENE, BACK LANE"
+      "address": "35, BALMORAL ROAD"
     },
     {
-      "price": 209000,
-      "date": "2026-04-27",
-      "postcode": "PE30 3UA",
+      "price": 257000,
+      "date": "2026-05-22",
+      "postcode": "PE31 6JH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, QUEEN ELIZABETH DRIVE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-05-22",
+      "postcode": "PE30 2QL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, PRINCES WAY"
+    },
+    {
+      "price": 345000,
+      "date": "2026-05-22",
+      "postcode": "PE36 5PJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CAMPBELL CLOSE"
+    },
+    {
+      "price": 166500,
+      "date": "2026-05-22",
+      "postcode": "PE30 4QL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, LANGLEY ROAD"
+      "address": "4, RAYNHAM CLOSE"
     },
     {
-      "price": 200000,
-      "date": "2026-04-24",
-      "postcode": "PE36 5BD",
+      "price": 280000,
+      "date": "2026-05-22",
+      "postcode": "PE38 9UH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, SEAGATE ROAD"
+      "address": "21, BASIL DRIVE"
     },
     {
-      "price": 209000,
-      "date": "2026-04-24",
-      "postcode": "PE14 8AE",
+      "price": 230000,
+      "date": "2026-05-21",
+      "postcode": "IP26 4EE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, MILL ROAD"
+      "address": "2, OLD SCHOOL CLOSE"
     },
     {
-      "price": 180000,
-      "date": "2026-04-24",
-      "postcode": "PE31 7EN",
+      "price": 240000,
+      "date": "2026-05-21",
+      "postcode": "PE33 9JJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, SANDRINGHAM DRIVE"
+      "address": "41, HILLSIDE"
     },
     {
-      "price": 550000,
-      "date": "2026-04-24",
-      "postcode": "PE30 4DR",
+      "price": 512500,
+      "date": "2026-05-21",
+      "postcode": "PE32 1QR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "147, WOOTTON ROAD"
+      "address": "DUNDRUMIN, BACK STREET"
     },
     {
-      "price": 390000,
-      "date": "2026-04-24",
-      "postcode": "PE34 3LY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FOXS HOLT, FOXS LANE"
-    },
-    {
-      "price": 270650,
-      "date": "2026-04-23",
-      "postcode": "PE30 5NJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, PARK AVENUE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-04-23",
-      "postcode": "PE34 3JZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, MEADOW WAY"
-    },
-    {
-      "price": 420000,
-      "date": "2026-04-22",
-      "postcode": "PE36 5LA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, DOCKING ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-04-21",
-      "postcode": "PE32 1RN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BARNS COTTAGE, HILL ROAD"
-    },
-    {
-      "price": 225000,
-      "date": "2026-04-20",
-      "postcode": "PE38 0EP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ALEXANDER HOUSE, STATION ROAD"
-    },
-    {
-      "price": 225000,
-      "date": "2026-04-17",
-      "postcode": "PE38 9RW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, CHURCHILL WAY"
-    },
-    {
-      "price": 1640000,
-      "date": "2026-04-17",
-      "postcode": "NR21 9LF",
+      "price": 500,
+      "date": "2026-05-18",
+      "postcode": "PE14 7AD",
       "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "ABBEY COTTAGE"
+      "address": "FORTUNE, WATERLEES ROAD"
     },
     {
-      "price": 166000,
-      "date": "2026-04-17",
-      "postcode": "PE30 1NR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, BLACKFRIARS ROAD"
-    },
-    {
-      "price": 245000,
-      "date": "2026-04-17",
-      "postcode": "PE34 4RD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13B, SPICE CHASE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-04-16",
-      "postcode": "PE30 4AZ",
+      "price": 630000,
+      "date": "2026-05-18",
+      "postcode": "PE14 9BS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "TAMARISK, FIELD END CLOSE"
+      "address": "OAK LODGE, CHALK ROAD"
+    },
+    {
+      "price": 167500,
+      "date": "2026-05-18",
+      "postcode": "PE14 7RS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WOODFORDE, ELY ROW"
+    },
+    {
+      "price": 500000,
+      "date": "2026-05-18",
+      "postcode": "PE32 1DW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SIRRON, CONGHAM ROAD"
+    },
+    {
+      "price": 165000,
+      "date": "2026-05-15",
+      "postcode": "PE38 0HU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, LYNN ROAD"
     },
     {
       "price": 320000,
-      "date": "2026-04-16",
-      "postcode": "PE30 2QE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, KING GEORGE V AVENUE"
-    },
-    {
-      "price": 182000,
-      "date": "2026-04-16",
-      "postcode": "PE38 9TA",
+      "date": "2026-05-15",
+      "postcode": "PE31 7BY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, RICHMOND ROAD"
+      "address": "52, COLLEGE DRIVE"
     },
     {
-      "price": 795000,
-      "date": "2026-04-16",
-      "postcode": "PE31 6HY",
+      "price": 102000,
+      "date": "2026-05-15",
+      "postcode": "PE38 9HY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "42, WADE-WRIGHT COURT, PRIORY ROAD"
+    },
+    {
+      "price": 224500,
+      "date": "2026-05-15",
+      "postcode": "PE30 4GJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "130, ANTHONY NOLAN ROAD"
+    },
+    {
+      "price": 825000,
+      "date": "2026-05-14",
+      "postcode": "PE36 6EJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "HILL HOUSE COTTAGE, MILL ROAD"
+      "address": "76, CLIFF PARADE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-05-13",
+      "postcode": "PE33 0PX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, SILVER TREE WAY"
+    },
+    {
+      "price": 132000,
+      "date": "2026-05-13",
+      "postcode": "PE14 9QD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, LAKE AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -226,8 +226,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 269000,
-      "transactions": 179
+      "medianPrice": 268250,
+      "transactions": 180
     },
     {
       "month": "2024-07",
@@ -261,18 +261,18 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 250000,
-      "transactions": 203
+      "medianPrice": 252500,
+      "transactions": 204
     },
     {
       "month": "2025-02",
-      "medianPrice": 265000,
-      "transactions": 211
+      "medianPrice": 266500,
+      "transactions": 212
     },
     {
       "month": "2025-03",
       "medianPrice": 280000,
-      "transactions": 409
+      "transactions": 410
     },
     {
       "month": "2025-04",
@@ -282,62 +282,67 @@
     {
       "month": "2025-05",
       "medianPrice": 272000,
-      "transactions": 179
+      "transactions": 181
     },
     {
       "month": "2025-06",
-      "medianPrice": 251250,
-      "transactions": 184
+      "medianPrice": 250000,
+      "transactions": 190
     },
     {
       "month": "2025-07",
-      "medianPrice": 265750,
-      "transactions": 230
+      "medianPrice": 268998,
+      "transactions": 240
     },
     {
       "month": "2025-08",
-      "medianPrice": 260000,
-      "transactions": 209
+      "medianPrice": 257000,
+      "transactions": 221
     },
     {
       "month": "2025-09",
-      "medianPrice": 267250,
-      "transactions": 202
+      "medianPrice": 267500,
+      "transactions": 208
     },
     {
       "month": "2025-10",
-      "medianPrice": 255000,
-      "transactions": 197
+      "medianPrice": 256000,
+      "transactions": 209
     },
     {
       "month": "2025-11",
       "medianPrice": 270000,
-      "transactions": 184
+      "transactions": 201
     },
     {
       "month": "2025-12",
       "medianPrice": 259500,
-      "transactions": 181
+      "transactions": 185
     },
     {
       "month": "2026-01",
-      "medianPrice": 278750,
-      "transactions": 144
+      "medianPrice": 275000,
+      "transactions": 151
     },
     {
       "month": "2026-02",
-      "medianPrice": 285000,
-      "transactions": 116
+      "medianPrice": 282500,
+      "transactions": 118
     },
     {
       "month": "2026-03",
-      "medianPrice": 268000,
-      "transactions": 133
+      "medianPrice": 265000,
+      "transactions": 139
     },
     {
       "month": "2026-04",
-      "medianPrice": 258750,
-      "transactions": 46
+      "medianPrice": 260000,
+      "transactions": 120
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 249000,
+      "transactions": 54
     }
   ],
   "quarterlyHistory": [
@@ -348,8 +353,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 255500,
-      "transactions": 560
+      "medianPrice": 255000,
+      "transactions": 561
     },
     {
       "quarter": "2024-Q3",
@@ -364,32 +369,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 270000,
-      "transactions": 823
+      "transactions": 826
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 250000,
-      "transactions": 494
+      "transactions": 502
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 265000,
-      "transactions": 641
+      "transactions": 669
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 260000,
-      "transactions": 562
+      "transactions": 595
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 277500,
-      "transactions": 393
+      "medianPrice": 272500,
+      "transactions": 408
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 258750,
-      "transactions": 46
+      "medianPrice": 255000,
+      "transactions": 174
     }
   ]
 }

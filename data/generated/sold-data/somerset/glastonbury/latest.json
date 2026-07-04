@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-06-23T19:12:06.828Z",
+  "updatedAt": "2026-07-03T11:39:52.520Z",
   "townSlug": "glastonbury",
   "countySlug": "somerset",
   "stats": {
-    "medianPrice": 276500,
+    "medianPrice": 281000,
     "medianByType": {
-      "D": 407500,
+      "D": 450000,
       "S": 280000,
       "T": 250000,
-      "F": 151250
+      "F": 147500
     },
-    "transactionCount12m": 158,
-    "yoyChange": -1.3,
+    "transactionCount12m": 172,
+    "yoyChange": 0.4,
     "newBuildCount": 0,
-    "existingCount": 158,
+    "existingCount": 172,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 950000,
+      "date": "2026-05-28",
+      "postcode": "BA6 8LH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HOLLY TREE FARM"
+    },
+    {
+      "price": 765000,
+      "date": "2026-05-20",
+      "postcode": "BA6 9SN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DOWN HOUSE, GLASTONBURY ROAD"
+    },
+    {
+      "price": 135000,
+      "date": "2026-05-13",
+      "postcode": "BA6 9LW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 12, THE TANNERIES, SEDGEMOOR WAY"
+    },
+    {
+      "price": 812500,
+      "date": "2026-05-13",
+      "postcode": "BA6 8BL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE HERMITAGE, WELLHOUSE LANE"
+    },
+    {
+      "price": 253000,
+      "date": "2026-05-07",
+      "postcode": "BA6 8NN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "AMBERLEA, NEWTOWN"
+    },
+    {
+      "price": 340000,
+      "date": "2026-05-01",
+      "postcode": "BA6 8JT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, BUSHY COOMBE GARDENS"
+    },
+    {
+      "price": 257000,
+      "date": "2026-05-01",
+      "postcode": "BA6 9NH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, FAIRFIELD GARDENS"
+    },
+    {
+      "price": 570000,
+      "date": "2026-04-30",
+      "postcode": "BA6 8NZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, ARCHBISHOP CLOSE"
+    },
+    {
+      "price": 385000,
+      "date": "2026-04-27",
+      "postcode": "BA6 9TQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BROADLAND, OXENPILL"
+    },
+    {
+      "price": 265000,
+      "date": "2026-04-27",
+      "postcode": "BA6 9BW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, FERRYMAN ROAD"
+    },
     {
       "price": 200000,
       "date": "2026-04-24",
@@ -72,6 +162,15 @@
       "address": "10, BERE LANE"
     },
     {
+      "price": 320000,
+      "date": "2026-03-31",
+      "postcode": "BA6 8HB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, GUNWYN CLOSE"
+    },
+    {
       "price": 390000,
       "date": "2026-03-27",
       "postcode": "BA6 9BJ",
@@ -97,105 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "THORNS COTTAGE, HAM STREET"
-    },
-    {
-      "price": 263000,
-      "date": "2026-03-20",
-      "postcode": "BA6 9HU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, ST EDMUNDS ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-03-19",
-      "postcode": "BA6 8DS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, ACTIS ROAD"
-    },
-    {
-      "price": 480000,
-      "date": "2026-03-19",
-      "postcode": "BA6 9SP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, ST MARYS ROAD"
-    },
-    {
-      "price": 510500,
-      "date": "2026-03-18",
-      "postcode": "BA6 8FD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, WATTS CORNER"
-    },
-    {
-      "price": 285000,
-      "date": "2026-03-16",
-      "postcode": "BA6 8HS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, HAMLYN ROAD"
-    },
-    {
-      "price": 332000,
-      "date": "2026-03-13",
-      "postcode": "BA6 8HT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, HAMLYN ROAD"
-    },
-    {
-      "price": 565000,
-      "date": "2026-03-09",
-      "postcode": "BA6 8NZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, ARCHBISHOP CLOSE"
-    },
-    {
-      "price": 384000,
-      "date": "2026-03-06",
-      "postcode": "BA6 9BY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, WELLS ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-03-05",
-      "postcode": "BA6 8JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, SUMMERHOUSE ORCHARD"
-    },
-    {
-      "price": 140000,
-      "date": "2026-03-03",
-      "postcode": "BA6 8BE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "83, BERE LANE"
-    },
-    {
-      "price": 310000,
-      "date": "2026-03-02",
-      "postcode": "BA6 8EA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28 - 30, OLD WELLS ROAD"
     }
   ],
   "monthlyHistory": [
@@ -286,18 +286,18 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 456000,
-      "transactions": 15
-    },
-    {
-      "month": "2025-07",
-      "medianPrice": 289000,
+      "medianPrice": 393000,
       "transactions": 16
     },
     {
+      "month": "2025-07",
+      "medianPrice": 300000,
+      "transactions": 17
+    },
+    {
       "month": "2025-08",
-      "medianPrice": 262000,
-      "transactions": 23
+      "medianPrice": 266000,
+      "transactions": 24
     },
     {
       "month": "2025-09",
@@ -306,18 +306,18 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 267500,
-      "transactions": 23
+      "medianPrice": 300000,
+      "transactions": 27
     },
     {
       "month": "2025-11",
       "medianPrice": 250000,
-      "transactions": 21
+      "transactions": 23
     },
     {
       "month": "2025-12",
-      "medianPrice": 277500,
-      "transactions": 16
+      "medianPrice": 280000,
+      "transactions": 17
     },
     {
       "month": "2026-01",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 358000,
-      "transactions": 14
+      "medianPrice": 332000,
+      "transactions": 15
     },
     {
       "month": "2026-04",
-      "medianPrice": 293500,
-      "transactions": 6
+      "medianPrice": 362000,
+      "transactions": 9
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 340000,
+      "transactions": 7
     }
   ],
   "quarterlyHistory": [
@@ -368,28 +373,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 291000,
-      "transactions": 49
+      "medianPrice": 287000,
+      "transactions": 50
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 300000,
-      "transactions": 56
+      "medianPrice": 307500,
+      "transactions": 58
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 271000,
-      "transactions": 60
+      "medianPrice": 275000,
+      "transactions": 67
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 263000,
-      "transactions": 31
+      "medianPrice": 265500,
+      "transactions": 32
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 293500,
-      "transactions": 6
+      "medianPrice": 351000,
+      "transactions": 16
     }
   ]
 }

@@ -1,22 +1,130 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.307Z",
+  "updatedAt": "2026-07-03T11:39:54.045Z",
   "townSlug": "northallerton",
   "countySlug": "north-yorkshire",
   "stats": {
     "medianPrice": 243800,
     "medianByType": {
-      "D": 374975,
-      "S": 230000,
+      "D": 358750,
+      "S": 235000,
       "T": 185000,
-      "F": 113500
+      "F": 111000
     },
-    "transactionCount12m": 363,
-    "yoyChange": -2.5,
-    "newBuildCount": 8,
-    "existingCount": 355,
-    "newBuildPremium": 22.3
+    "transactionCount12m": 373,
+    "yoyChange": -3.2,
+    "newBuildCount": 5,
+    "existingCount": 368,
+    "newBuildPremium": 12.4
   },
   "recentTransactions": [
+    {
+      "price": 242000,
+      "date": "2026-05-21",
+      "postcode": "DL7 8DJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "264, HIGH STREET"
+    },
+    {
+      "price": 686000,
+      "date": "2026-05-19",
+      "postcode": "DL7 9SS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MILL LANE"
+    },
+    {
+      "price": 655000,
+      "date": "2026-05-14",
+      "postcode": "DL6 2AS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WILLOW TREE HOUSE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-05-08",
+      "postcode": "DL7 8WD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "77, DE LACY ROAD"
+    },
+    {
+      "price": 193500,
+      "date": "2026-05-08",
+      "postcode": "DL6 2FT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, GOLDFINCH WAY"
+    },
+    {
+      "price": 255000,
+      "date": "2026-05-07",
+      "postcode": "DL7 8RP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, ORMESBY CRESCENT"
+    },
+    {
+      "price": 205000,
+      "date": "2026-05-07",
+      "postcode": "DL6 1JE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "214, BANKHEAD ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-05-06",
+      "postcode": "DL7 0NN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, LAZENBY"
+    },
+    {
+      "price": 350000,
+      "date": "2026-05-05",
+      "postcode": "DL7 8WH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, ALL SAINTS LANE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-05-01",
+      "postcode": "DL6 2QG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, HILTON GREEN"
+    },
+    {
+      "price": 167950,
+      "date": "2026-05-01",
+      "postcode": "DL6 1HD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "166, ASHLANDS ROAD"
+    },
+    {
+      "price": 895000,
+      "date": "2026-05-01",
+      "postcode": "DL6 2SE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GREENACRES"
+    },
     {
       "price": 146500,
       "date": "2026-04-24",
@@ -25,6 +133,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "5, DEXTA WAY"
+    },
+    {
+      "price": 266000,
+      "date": "2026-04-24",
+      "postcode": "DL6 2GE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, HAWTHORN CLOSE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-04-24",
+      "postcode": "DL6 1JQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, VICARS CROFT"
     },
     {
       "price": 235000,
@@ -54,15 +180,6 @@
       "address": "8, FERGUSON CLOSE"
     },
     {
-      "price": 350000,
-      "date": "2026-04-20",
-      "postcode": "DL7 8YX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, ST MICHAELS COURT"
-    },
-    {
       "price": 325000,
       "date": "2026-04-20",
       "postcode": "DL7 8BW",
@@ -72,130 +189,13 @@
       "address": "79, BOROUGHBRIDGE ROAD"
     },
     {
-      "price": 415000,
-      "date": "2026-04-17",
-      "postcode": "DL6 1ED",
+      "price": 350000,
+      "date": "2026-04-20",
+      "postcode": "DL7 8YX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "SWALEDALE, 54, BROMPTON ROAD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-04-16",
-      "postcode": "DL6 2FE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, BRICKSIDE WAY"
-    },
-    {
-      "price": 185000,
-      "date": "2026-04-10",
-      "postcode": "DL6 3BH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, NORTH END"
-    },
-    {
-      "price": 260000,
-      "date": "2026-04-10",
-      "postcode": "DL7 8FH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "95, ROMANBY ROAD"
-    },
-    {
-      "price": 340000,
-      "date": "2026-04-08",
-      "postcode": "DL6 2AQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CHURCH VIEW, BAKER STREET"
-    },
-    {
-      "price": 240000,
-      "date": "2026-04-02",
-      "postcode": "DL7 8BQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, HAREWOOD LANE"
-    },
-    {
-      "price": 65500,
-      "date": "2026-04-01",
-      "postcode": "DL6 1EW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "36, ARDEN COURT"
-    },
-    {
-      "price": 672400,
-      "date": "2026-04-01",
-      "postcode": "DL6 3ND",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PENTLAND, CROSS LANE"
-    },
-    {
-      "price": 255000,
-      "date": "2026-03-31",
-      "postcode": "DL7 9EJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, FOUNDRY WAY"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-30",
-      "postcode": "DL6 2QD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, DE GAUNTE ROAD"
-    },
-    {
-      "price": 145000,
-      "date": "2026-03-30",
-      "postcode": "DL7 9QQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, WEST VIEW"
-    },
-    {
-      "price": 270000,
-      "date": "2026-03-27",
-      "postcode": "DL6 2UX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, FERNWOOD CLOSE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-27",
-      "postcode": "DL7 8FH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "77, ROMANBY ROAD"
-    },
-    {
-      "price": 95000,
-      "date": "2026-03-27",
-      "postcode": "DL7 8GT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "17, WHITE ROSE HOUSE, AINDERBY GARDENS"
+      "address": "4, ST MICHAELS COURT"
     }
   ],
   "monthlyHistory": [
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 255500,
-      "transactions": 76
+      "medianPrice": 260771,
+      "transactions": 84
     },
     {
       "month": "2025-04",
@@ -286,18 +286,18 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 243750,
-      "transactions": 50
+      "medianPrice": 241250,
+      "transactions": 52
     },
     {
       "month": "2025-07",
       "medianPrice": 235000,
-      "transactions": 47
+      "transactions": 52
     },
     {
       "month": "2025-08",
       "medianPrice": 280000,
-      "transactions": 43
+      "transactions": 45
     },
     {
       "month": "2025-09",
@@ -306,38 +306,43 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 242500,
-      "transactions": 42
+      "medianPrice": 240000,
+      "transactions": 43
     },
     {
       "month": "2025-11",
       "medianPrice": 230000,
-      "transactions": 37
+      "transactions": 41
     },
     {
       "month": "2025-12",
-      "medianPrice": 257500,
-      "transactions": 38
+      "medianPrice": 275000,
+      "transactions": 41
     },
     {
       "month": "2026-01",
-      "medianPrice": 243900,
-      "transactions": 32
+      "medianPrice": 243800,
+      "transactions": 33
     },
     {
       "month": "2026-02",
-      "medianPrice": 253850,
-      "transactions": 28
+      "medianPrice": 259700,
+      "transactions": 29
     },
     {
       "month": "2026-03",
-      "medianPrice": 232500,
-      "transactions": 26
+      "medianPrice": 230000,
+      "transactions": 27
     },
     {
       "month": "2026-04",
-      "medianPrice": 250000,
-      "transactions": 14
+      "medianPrice": 260000,
+      "transactions": 19
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 257500,
+      "transactions": 12
     }
   ],
   "quarterlyHistory": [
@@ -363,33 +368,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 250000,
-      "transactions": 160
+      "medianPrice": 255500,
+      "transactions": 168
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 247250,
-      "transactions": 102
+      "medianPrice": 244000,
+      "transactions": 104
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 249500,
-      "transactions": 125
+      "medianPrice": 247250,
+      "transactions": 132
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 235000,
-      "transactions": 117
+      "transactions": 125
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 244500,
-      "transactions": 86
+      "medianPrice": 244000,
+      "transactions": 89
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 250000,
-      "transactions": 14
+      "medianPrice": 260000,
+      "transactions": 31
     }
   ]
 }

@@ -1,22 +1,112 @@
 {
-  "updatedAt": "2026-06-23T19:12:07.371Z",
+  "updatedAt": "2026-07-03T11:39:53.085Z",
   "townSlug": "market-drayton",
   "countySlug": "shropshire",
   "stats": {
-    "medianPrice": 247033,
+    "medianPrice": 250000,
     "medianByType": {
-      "D": 387500,
-      "S": 217250,
-      "T": 190000,
-      "F": 120000
+      "D": 392500,
+      "S": 217000,
+      "T": 187500,
+      "F": 115000
     },
-    "transactionCount12m": 233,
-    "yoyChange": -7.7,
-    "newBuildCount": 11,
-    "existingCount": 222,
-    "newBuildPremium": -1.2
+    "transactionCount12m": 251,
+    "yoyChange": -3.8,
+    "newBuildCount": 10,
+    "existingCount": 241,
+    "newBuildPremium": -3
   },
   "recentTransactions": [
+    {
+      "price": 225000,
+      "date": "2026-05-22",
+      "postcode": "TF9 1NS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, WILLOW CLOSE"
+    },
+    {
+      "price": 465000,
+      "date": "2026-05-21",
+      "postcode": "TF9 2DA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, VILLAGE BARNS"
+    },
+    {
+      "price": 245000,
+      "date": "2026-05-15",
+      "postcode": "TF9 1NX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GLENDON CLOSE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-05-15",
+      "postcode": "TF9 1DU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, TERN VIEW"
+    },
+    {
+      "price": 180000,
+      "date": "2026-05-12",
+      "postcode": "TF9 3AY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, MANOR GARDENS"
+    },
+    {
+      "price": 345000,
+      "date": "2026-05-01",
+      "postcode": "TF9 1NN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, LIME GROVE"
+    },
+    {
+      "price": 182000,
+      "date": "2026-05-01",
+      "postcode": "TF9 3QH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, RIVERSIDE DRIVE"
+    },
+    {
+      "price": 335000,
+      "date": "2026-05-01",
+      "postcode": "TF9 2SS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, MILL GREEN"
+    },
+    {
+      "price": 227500,
+      "date": "2026-04-30",
+      "postcode": "TF9 3HA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "107, ELM DRIVE"
+    },
+    {
+      "price": 515000,
+      "date": "2026-04-28",
+      "postcode": "TF9 3DQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SEVASTOPOL, SHROPSHIRE STREET"
+    },
     {
       "price": 250000,
       "date": "2026-04-24",
@@ -25,6 +115,42 @@
       "newBuild": false,
       "tenure": "F",
       "address": "27, SMITHFIELD ROAD"
+    },
+    {
+      "price": 485000,
+      "date": "2026-04-24",
+      "postcode": "TF9 3FX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, ORWELL ROAD"
+    },
+    {
+      "price": 315000,
+      "date": "2026-04-24",
+      "postcode": "TF9 2NY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, DONALDSON DRIVE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-04-17",
+      "postcode": "TF9 1LJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, BENTLEYS ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-04-17",
+      "postcode": "TF9 3HA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, ELM DRIVE"
     },
     {
       "price": 450000,
@@ -45,6 +171,15 @@
       "address": "28, LANGLEY DALE"
     },
     {
+      "price": 395000,
+      "date": "2026-04-08",
+      "postcode": "TF9 3FU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, STEVENS GROVE"
+    },
+    {
       "price": 217500,
       "date": "2026-04-07",
       "postcode": "TF9 2UD",
@@ -54,148 +189,13 @@
       "address": "9, SANDBROOK CLOSE"
     },
     {
-      "price": 400000,
-      "date": "2026-04-01",
-      "postcode": "TF9 4FG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, SILVER CLOSE"
-    },
-    {
-      "price": 134000,
-      "date": "2026-03-31",
-      "postcode": "TF9 1PY",
+      "price": 182500,
+      "date": "2026-04-02",
+      "postcode": "TF9 3FG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, HIGH STREET"
-    },
-    {
-      "price": 235000,
-      "date": "2026-03-30",
-      "postcode": "TF9 2LH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, ELLAM PIECE"
-    },
-    {
-      "price": 164000,
-      "date": "2026-03-30",
-      "postcode": "TF9 1HD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, LONGLANDS LANE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-03-25",
-      "postcode": "TF9 3DX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, SIMONS ROAD"
-    },
-    {
-      "price": 447000,
-      "date": "2026-03-20",
-      "postcode": "TF9 4AU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, CHAPEL LANE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-03-19",
-      "postcode": "TF9 2FB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CHERRY, 2, MOAT HOUSE GARDENS"
-    },
-    {
-      "price": 195000,
-      "date": "2026-03-19",
-      "postcode": "TF9 3AT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, ASHLEY VIEW"
-    },
-    {
-      "price": 120000,
-      "date": "2026-03-17",
-      "postcode": "TF9 3HP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, PROSPECT COURT, ALEXANDRA ROAD"
-    },
-    {
-      "price": 270000,
-      "date": "2026-03-17",
-      "postcode": "TF9 3RP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, HAMPTON DRIVE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-03-13",
-      "postcode": "TF9 1AX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, RED BANK ROAD"
-    },
-    {
-      "price": 440000,
-      "date": "2026-03-11",
-      "postcode": "TF9 2TL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PIXLEY VIEW, NEWPORT ROAD"
-    },
-    {
-      "price": 239950,
-      "date": "2026-03-06",
-      "postcode": "TF9 3UU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, DAMSON FAYRE"
-    },
-    {
-      "price": 520000,
-      "date": "2026-03-05",
-      "postcode": "TF9 2TH",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HIGH FARM COTTAGE, NEWPORT ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-05",
-      "postcode": "TF9 1HG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, GROVE GARDENS"
-    },
-    {
-      "price": 237000,
-      "date": "2026-03-04",
-      "postcode": "TF9 3QB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, GARDEN CITY"
+      "address": "1, BEACONSFIELD ROAD"
     }
   ],
   "monthlyHistory": [
@@ -286,8 +286,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 226000,
-      "transactions": 29
+      "medianPrice": 230000,
+      "transactions": 30
     },
     {
       "month": "2025-07",
@@ -297,22 +297,22 @@
     {
       "month": "2025-08",
       "medianPrice": 252500,
-      "transactions": 19
+      "transactions": 21
     },
     {
       "month": "2025-09",
-      "medianPrice": 334500,
-      "transactions": 30
+      "medianPrice": 329000,
+      "transactions": 31
     },
     {
       "month": "2025-10",
       "medianPrice": 227500,
-      "transactions": 34
+      "transactions": 36
     },
     {
       "month": "2025-11",
       "medianPrice": 259813,
-      "transactions": 38
+      "transactions": 42
     },
     {
       "month": "2025-12",
@@ -326,18 +326,23 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 295000,
-      "transactions": 22
+      "medianPrice": 280000,
+      "transactions": 23
     },
     {
       "month": "2026-03",
-      "medianPrice": 236000,
-      "transactions": 18
+      "medianPrice": 235000,
+      "transactions": 21
     },
     {
       "month": "2026-04",
       "medianPrice": 320000,
-      "transactions": 5
+      "transactions": 13
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 235000,
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -368,28 +373,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 246050,
-      "transactions": 71
+      "medianPrice": 246400,
+      "transactions": 72
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 245000,
-      "transactions": 75
+      "transactions": 78
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 265000,
-      "transactions": 95
+      "transactions": 101
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 245000,
-      "transactions": 47
+      "medianPrice": 243000,
+      "transactions": 51
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 320000,
-      "transactions": 5
+      "medianPrice": 315000,
+      "transactions": 21
     }
   ]
 }

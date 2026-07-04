@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:06.461Z",
+  "updatedAt": "2026-07-03T11:39:52.177Z",
   "townSlug": "bicester",
   "countySlug": "oxfordshire",
   "stats": {
     "medianPrice": 360000,
     "medianByType": {
-      "D": 525000,
-      "S": 370000,
-      "T": 300000,
-      "F": 220000
+      "D": 520000,
+      "S": 368500,
+      "T": 304038,
+      "F": 230000
     },
-    "transactionCount12m": 602,
+    "transactionCount12m": 652,
     "yoyChange": -2.7,
-    "newBuildCount": 3,
-    "existingCount": 599,
+    "newBuildCount": 5,
+    "existingCount": 647,
     "newBuildPremium": 18.1
   },
   "recentTransactions": [
     {
-      "price": 432500,
-      "date": "2026-04-24",
-      "postcode": "OX26 1AB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, WHITELANDS WAY"
-    },
-    {
-      "price": 482500,
-      "date": "2026-04-24",
-      "postcode": "OX26 6UE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, CORNCRAKE WAY"
-    },
-    {
-      "price": 303575,
-      "date": "2026-04-22",
-      "postcode": "OX25 1QT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ORCHARD CLOSE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-04-21",
-      "postcode": "OX26 4YF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, LINCOLN CLOSE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-04-20",
-      "postcode": "OX25 2RN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, SYCAMORE ROAD"
-    },
-    {
-      "price": 562500,
-      "date": "2026-04-20",
-      "postcode": "OX25 2PQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FAIRLEA"
-    },
-    {
-      "price": 635000,
-      "date": "2026-04-17",
-      "postcode": "OX26 1AL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, RIPON CLOSE"
-    },
-    {
-      "price": 665000,
-      "date": "2026-04-17",
-      "postcode": "OX25 6JS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ASHBERRY COTTAGE"
-    },
-    {
-      "price": 2445237,
-      "date": "2026-04-16",
-      "postcode": "OX25 1AE",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "COWPASTURES FARM"
-    },
-    {
-      "price": 295000,
-      "date": "2026-04-15",
-      "postcode": "OX26 6XT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, MERGANSER DRIVE"
-    },
-    {
-      "price": 540000,
-      "date": "2026-04-13",
-      "postcode": "OX26 3EE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, PURSLANE DRIVE"
-    },
-    {
-      "price": 340000,
-      "date": "2026-04-10",
-      "postcode": "OX26 2FU",
+      "price": 645000,
+      "date": "2026-05-21",
+      "postcode": "OX26 1UJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, OSBORNE CLOSE"
+      "address": "13, BIGNELL VIEW"
     },
     {
-      "price": 375000,
-      "date": "2026-04-10",
-      "postcode": "OX26 2FB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, SCOTT CLOSE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-04-09",
-      "postcode": "OX26 1AF",
+      "price": 290500,
+      "date": "2026-05-20",
+      "postcode": "OX26 3EQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, WHITELANDS WAY"
+      "address": "103, LUCERNE AVENUE"
+    },
+    {
+      "price": 355000,
+      "date": "2026-05-18",
+      "postcode": "OX27 8BP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, BRAEBURN AVENUE"
+    },
+    {
+      "price": 334500,
+      "date": "2026-05-15",
+      "postcode": "OX25 5AD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, BROAD WAY"
     },
     {
       "price": 530000,
-      "date": "2026-04-09",
-      "postcode": "OX25 5AL",
+      "date": "2026-05-15",
+      "postcode": "OX25 5AB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, WELLINGTON ROAD"
-    },
-    {
-      "price": 380000,
-      "date": "2026-04-09",
-      "postcode": "OX25 5DD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, CHATHAM CLOSE"
-    },
-    {
-      "price": 317500,
-      "date": "2026-04-07",
-      "postcode": "OX25 1PH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, BUCHANAN ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-04-07",
-      "postcode": "OX26 3US",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, HAWTHORN WALK"
+      "address": "5, IZZARD ROAD"
     },
     {
       "price": 340000,
-      "date": "2026-04-02",
-      "postcode": "OX26 1BY",
+      "date": "2026-05-15",
+      "postcode": "OX27 8BT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, STRATFORD WAY"
+      "address": "16, BRASSICA TERRACE"
     },
     {
-      "price": 156000,
-      "date": "2026-04-02",
-      "postcode": "OX26 6YA",
+      "price": 290000,
+      "date": "2026-05-14",
+      "postcode": "OX26 4XR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, WHITLEY CRESCENT"
+    },
+    {
+      "price": 335000,
+      "date": "2026-05-13",
+      "postcode": "OX26 6FY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62, FLANDERS CLOSE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-05-13",
+      "postcode": "OX26 3YH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "71, HORNBEAM ROAD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-05-11",
+      "postcode": "OX26 6DT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "62, KESTREL WAY"
+      "address": "1, BICESTER HOUSE, KINGS END"
+    },
+    {
+      "price": 430000,
+      "date": "2026-05-08",
+      "postcode": "OX25 5DD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, CHATHAM CLOSE"
+    },
+    {
+      "price": 284250,
+      "date": "2026-05-08",
+      "postcode": "OX27 7QB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, HODGSON CLOSE"
+    },
+    {
+      "price": 360000,
+      "date": "2026-05-08",
+      "postcode": "OX26 2FF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, WEAR ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-05-07",
+      "postcode": "OX25 1QL",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, HOPCRAFT CLOSE"
+    },
+    {
+      "price": 460000,
+      "date": "2026-05-07",
+      "postcode": "OX26 4YG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, FAIRFORD WAY"
+    },
+    {
+      "price": 270000,
+      "date": "2026-05-06",
+      "postcode": "OX26 6DH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, 4, LAUNTON ROAD"
+    },
+    {
+      "price": 289500,
+      "date": "2026-05-06",
+      "postcode": "OX26 6XR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, LAPWING CLOSE"
+    },
+    {
+      "price": 510000,
+      "date": "2026-05-01",
+      "postcode": "OX25 4SR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, GRANGE PARK"
+    },
+    {
+      "price": 135000,
+      "date": "2026-05-01",
+      "postcode": "OX26 1ED",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, THIRSK ROAD"
+    },
+    {
+      "price": 415000,
+      "date": "2026-05-01",
+      "postcode": "OX26 1EU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, LUDLOW ROAD"
     }
   ],
   "monthlyHistory": [
@@ -286,38 +286,38 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 358000,
-      "transactions": 73
-    },
-    {
-      "month": "2025-07",
-      "medianPrice": 345000,
+      "medianPrice": 360000,
       "transactions": 75
     },
     {
+      "month": "2025-07",
+      "medianPrice": 350000,
+      "transactions": 79
+    },
+    {
       "month": "2025-08",
-      "medianPrice": 372500,
-      "transactions": 84
+      "medianPrice": 380000,
+      "transactions": 89
     },
     {
       "month": "2025-09",
-      "medianPrice": 362500,
-      "transactions": 76
+      "medianPrice": 360000,
+      "transactions": 77
     },
     {
       "month": "2025-10",
       "medianPrice": 348500,
-      "transactions": 71
+      "transactions": 73
     },
     {
       "month": "2025-11",
-      "medianPrice": 385000,
-      "transactions": 77
+      "medianPrice": 383000,
+      "transactions": 80
     },
     {
       "month": "2025-12",
-      "medianPrice": 320000,
-      "transactions": 56
+      "medianPrice": 335000,
+      "transactions": 61
     },
     {
       "month": "2026-01",
@@ -326,18 +326,23 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 342000,
-      "transactions": 27
+      "medianPrice": 338500,
+      "transactions": 28
     },
     {
       "month": "2026-03",
-      "medianPrice": 376500,
-      "transactions": 48
+      "medianPrice": 385000,
+      "transactions": 55
     },
     {
       "month": "2026-04",
-      "medianPrice": 375000,
-      "transactions": 21
+      "medianPrice": 340000,
+      "transactions": 43
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 335000,
+      "transactions": 23
     }
   ],
   "quarterlyHistory": [
@@ -368,28 +373,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 352000,
-      "transactions": 157
+      "medianPrice": 355000,
+      "transactions": 159
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 360000,
-      "transactions": 235
+      "medianPrice": 365000,
+      "transactions": 245
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 355000,
-      "transactions": 204
+      "medianPrice": 357500,
+      "transactions": 214
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 370000,
-      "transactions": 120
+      "transactions": 128
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 375000,
-      "transactions": 21
+      "medianPrice": 340000,
+      "transactions": 66
     }
   ]
 }

@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:07.646Z",
+  "updatedAt": "2026-07-03T11:39:53.358Z",
   "townSlug": "gainsborough",
   "countySlug": "lincolnshire",
   "stats": {
-    "medianPrice": 215000,
+    "medianPrice": 220000,
     "medianByType": {
-      "D": 305000,
-      "S": 186750,
-      "T": 135000,
-      "F": 90000
+      "D": 315000,
+      "S": 187500,
+      "T": 133000,
+      "F": 72000
     },
-    "transactionCount12m": 1244,
-    "yoyChange": -2.3,
-    "newBuildCount": 58,
-    "existingCount": 1186,
-    "newBuildPremium": 11.6
+    "transactionCount12m": 1322,
+    "yoyChange": 0,
+    "newBuildCount": 22,
+    "existingCount": 1300,
+    "newBuildPremium": 32
   },
   "recentTransactions": [
     {
-      "price": 90000,
-      "date": "2026-04-28",
-      "postcode": "DN21 2JX",
-      "propertyType": "S",
+      "price": 45000,
+      "date": "2026-05-22",
+      "postcode": "DN21 1LD",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "71, CHURCH STREET"
+      "address": "48, ASHCROFT ROAD"
     },
     {
-      "price": 402000,
-      "date": "2026-04-24",
-      "postcode": "LN7 6LS",
+      "price": 52000,
+      "date": "2026-05-22",
+      "postcode": "DN21 2AB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, LEWIS STREET"
+    },
+    {
+      "price": 230000,
+      "date": "2026-05-22",
+      "postcode": "DN21 3EZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, SOUTH DALE"
+      "address": "15, SOUTHLANDS DRIVE"
     },
     {
-      "price": 367000,
-      "date": "2026-04-24",
-      "postcode": "LN7 6NL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SUNNYSIDE FARMHOUSE, COOKS LANE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-04-24",
-      "postcode": "LN7 6NL",
+      "price": 140000,
+      "date": "2026-05-22",
+      "postcode": "DN21 1AQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, ORB COTTAGES, COOKS LANE"
+      "address": "7, COPPER BEECH CLOSE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-05-22",
+      "postcode": "LN3 4GF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, ASH HOLT CLOSE"
+    },
+    {
+      "price": 55000,
+      "date": "2026-05-20",
+      "postcode": "DN21 2LA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, GARFIELD STREET"
+    },
+    {
+      "price": 10750,
+      "date": "2026-05-19",
+      "postcode": "LN1 2PW",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DRINSEY FARM HOUSE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-05-19",
+      "postcode": "LN7 6NJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, NETTLETON ROAD"
+    },
+    {
+      "price": 209000,
+      "date": "2026-05-19",
+      "postcode": "DN21 2QE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, OLD SHOWFIELDS"
+    },
+    {
+      "price": 170000,
+      "date": "2026-05-18",
+      "postcode": "LN3 5XG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, SILVER STREET"
+    },
+    {
+      "price": 218000,
+      "date": "2026-05-15",
+      "postcode": "DN41 8SB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, BECK CLOSE"
+    },
+    {
+      "price": 68000,
+      "date": "2026-05-15",
+      "postcode": "DN21 1JA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "47, SANDARS MALTINGS, BRIDGE STREET"
+    },
+    {
+      "price": 185000,
+      "date": "2026-05-15",
+      "postcode": "LN8 3RP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, ANGLIAN WAY"
+    },
+    {
+      "price": 127000,
+      "date": "2026-05-15",
+      "postcode": "DN21 1DD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "194, SANDSFIELD LANE"
+    },
+    {
+      "price": 158000,
+      "date": "2026-05-15",
+      "postcode": "DN21 1WG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, THE HOLT"
+    },
+    {
+      "price": 273000,
+      "date": "2026-05-15",
+      "postcode": "LN7 6XD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, THE MEADOW"
+    },
+    {
+      "price": 157000,
+      "date": "2026-05-14",
+      "postcode": "DN21 2TN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, QUEENSFIELD"
+    },
+    {
+      "price": 265000,
+      "date": "2026-05-14",
+      "postcode": "DN21 1TY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, MIDDLEFIELD LANE"
+    },
+    {
+      "price": 108000,
+      "date": "2026-05-13",
+      "postcode": "DN21 2PP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GREY STREET"
     },
     {
       "price": 160000,
-      "date": "2026-04-24",
-      "postcode": "DN21 3BU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, BYCROFT ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2026-04-22",
+      "date": "2026-05-13",
       "postcode": "LN2 3LN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, ST MARYS AVENUE"
-    },
-    {
-      "price": 148000,
-      "date": "2026-04-22",
-      "postcode": "DN21 1NU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "77, MIDDLEFIELD LANE"
-    },
-    {
-      "price": 165000,
-      "date": "2026-04-20",
-      "postcode": "DN21 3PS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TRESCO, MORTON ROAD"
-    },
-    {
-      "price": 295000,
-      "date": "2026-04-17",
-      "postcode": "LN8 3DY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BEECH VIEW, LEGSBY ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-04-17",
-      "postcode": "DN21 1EH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, THE AVENUE"
-    },
-    {
-      "price": 166000,
-      "date": "2026-04-17",
-      "postcode": "LN8 3ZF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, CHANTREY PARK"
-    },
-    {
-      "price": 101000,
-      "date": "2026-04-16",
-      "postcode": "LN7 6QB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "112, NORTH KELSEY ROAD"
-    },
-    {
-      "price": 375000,
-      "date": "2026-04-16",
-      "postcode": "LN3 4JD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BELLWOOD GRANGE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-04-16",
-      "postcode": "LN3 5SS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, SILVER STREET"
-    },
-    {
-      "price": 92500,
-      "date": "2026-04-15",
-      "postcode": "DN21 3TL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, MANCHESTER HOUSE, HIGH STREET"
-    },
-    {
-      "price": 50000,
-      "date": "2026-04-14",
-      "postcode": "LN1 2SB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, ADDISON PLACE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-04-10",
-      "postcode": "DN21 4RT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, THE POPLARS, BRANDYWHARF"
-    },
-    {
-      "price": 295000,
-      "date": "2026-04-10",
-      "postcode": "LN7 6NY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, NEWBOLT CLOSE"
-    },
-    {
-      "price": 177500,
-      "date": "2026-04-10",
-      "postcode": "DN21 1AN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "140, LEA ROAD"
-    },
-    {
-      "price": 253000,
-      "date": "2026-04-08",
-      "postcode": "DN21 3QP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MEADFOOT, EASTGATE"
+      "address": "20, ST MARYS AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -211,8 +211,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 182767,
-      "transactions": 116
+      "medianPrice": 184000,
+      "transactions": 117
     },
     {
       "month": "2024-04",
@@ -236,8 +236,8 @@
     },
     {
       "month": "2024-08",
-      "medianPrice": 225000,
-      "transactions": 147
+      "medianPrice": 222500,
+      "transactions": 148
     },
     {
       "month": "2024-09",
@@ -272,79 +272,84 @@
     {
       "month": "2025-03",
       "medianPrice": 230000,
-      "transactions": 324
+      "transactions": 327
     },
     {
       "month": "2025-04",
       "medianPrice": 162500,
-      "transactions": 84
+      "transactions": 86
     },
     {
       "month": "2025-05",
       "medianPrice": 205000,
-      "transactions": 138
+      "transactions": 141
     },
     {
       "month": "2025-06",
       "medianPrice": 210000,
-      "transactions": 159
+      "transactions": 167
     },
     {
       "month": "2025-07",
       "medianPrice": 230000,
-      "transactions": 161
+      "transactions": 170
     },
     {
       "month": "2025-08",
-      "medianPrice": 220000,
-      "transactions": 162
+      "medianPrice": 223750,
+      "transactions": 178
     },
     {
       "month": "2025-09",
       "medianPrice": 223000,
-      "transactions": 155
+      "transactions": 161
     },
     {
       "month": "2025-10",
-      "medianPrice": 223000,
-      "transactions": 145
+      "medianPrice": 217500,
+      "transactions": 152
     },
     {
       "month": "2025-11",
-      "medianPrice": 229000,
-      "transactions": 116
-    },
-    {
-      "month": "2025-12",
-      "medianPrice": 206000,
+      "medianPrice": 225000,
       "transactions": 131
     },
     {
+      "month": "2025-12",
+      "medianPrice": 207000,
+      "transactions": 141
+    },
+    {
       "month": "2026-01",
-      "medianPrice": 190000,
-      "transactions": 107
+      "medianPrice": 200000,
+      "transactions": 109
     },
     {
       "month": "2026-02",
-      "medianPrice": 227500,
-      "transactions": 76
+      "medianPrice": 231500,
+      "transactions": 78
     },
     {
       "month": "2026-03",
-      "medianPrice": 205000,
-      "transactions": 83
+      "medianPrice": 207000,
+      "transactions": 99
     },
     {
       "month": "2026-04",
-      "medianPrice": 210000,
-      "transactions": 34
+      "medianPrice": 220000,
+      "transactions": 67
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 197000,
+      "transactions": 44
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 197000,
-      "transactions": 339
+      "medianPrice": 196000,
+      "transactions": 340
     },
     {
       "quarter": "2024-Q2",
@@ -353,8 +358,8 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 221498,
-      "transactions": 490
+      "medianPrice": 220000,
+      "transactions": 491
     },
     {
       "quarter": "2024-Q4",
@@ -363,33 +368,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 230000,
-      "transactions": 629
+      "medianPrice": 229750,
+      "transactions": 632
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 204995,
-      "transactions": 381
+      "medianPrice": 205000,
+      "transactions": 394
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 223000,
-      "transactions": 478
+      "medianPrice": 225000,
+      "transactions": 509
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 220000,
-      "transactions": 392
+      "transactions": 424
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 210000,
-      "transactions": 266
+      "medianPrice": 213750,
+      "transactions": 286
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 210000,
-      "transactions": 34
+      "medianPrice": 215000,
+      "transactions": 111
     }
   ]
 }

@@ -1,38 +1,65 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.932Z",
+  "updatedAt": "2026-07-03T11:39:54.747Z",
   "townSlug": "newtown",
   "countySlug": "powys",
   "stats": {
-    "medianPrice": 227500,
+    "medianPrice": 226500,
     "medianByType": {
-      "D": 296000,
+      "D": 297000,
       "S": 217500,
-      "T": 165000
+      "T": 164000
     },
-    "transactionCount12m": 143,
-    "yoyChange": 13.8,
+    "transactionCount12m": 148,
+    "yoyChange": 13.3,
     "newBuildCount": 2,
-    "existingCount": 141,
+    "existingCount": 146,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 298000,
-      "date": "2026-04-17",
-      "postcode": "SY16 2PU",
-      "propertyType": "D",
+      "price": 165000,
+      "date": "2026-05-11",
+      "postcode": "SY16 2NP",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, CHURCHILL CLOSE"
+      "address": "24, HIGH STREET"
     },
     {
-      "price": 242500,
-      "date": "2026-04-17",
+      "price": 270000,
+      "date": "2026-05-05",
       "postcode": "SY16 4FD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, ST. MICHAELS DRIVE"
+      "address": "1, ST. MICHAELS DRIVE"
+    },
+    {
+      "price": 580000,
+      "date": "2026-05-01",
+      "postcode": "SY16 3NJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CEFN"
+    },
+    {
+      "price": 290000,
+      "date": "2026-04-30",
+      "postcode": "SY16 2TH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WOODLAND WAY"
+    },
+    {
+      "price": 325000,
+      "date": "2026-04-30",
+      "postcode": "SY16 3EQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, PARC HAFOD"
     },
     {
       "price": 480000,
@@ -44,6 +71,24 @@
       "address": "SUNNY BANK"
     },
     {
+      "price": 242500,
+      "date": "2026-04-17",
+      "postcode": "SY16 4FD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ST. MICHAELS DRIVE"
+    },
+    {
+      "price": 298000,
+      "date": "2026-04-17",
+      "postcode": "SY16 2PU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CHURCHILL CLOSE"
+    },
+    {
       "price": 145500,
       "date": "2026-04-10",
       "postcode": "SY16 1HJ",
@@ -51,6 +96,51 @@
       "newBuild": false,
       "tenure": "F",
       "address": "6, OAKFIELD TERRACE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-04-10",
+      "postcode": "SY16 2QR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, OAKLANDS PARK"
+    },
+    {
+      "price": 220000,
+      "date": "2026-04-10",
+      "postcode": "SY16 4DH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ROWAN COURT"
+    },
+    {
+      "price": 340000,
+      "date": "2026-04-10",
+      "postcode": "SY16 4BN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "OLD TOLLGATE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-04-07",
+      "postcode": "SY16 3EA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE OLD SAWMILL"
+    },
+    {
+      "price": 110000,
+      "date": "2026-04-02",
+      "postcode": "SY16 1QY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "178, LON DOLAFON"
     },
     {
       "price": 238000,
@@ -71,13 +161,13 @@
       "address": "BRYNAWELON, 2, PARK CLOSE"
     },
     {
-      "price": 320000,
-      "date": "2026-03-27",
-      "postcode": "SY16 3LF",
-      "propertyType": "S",
+      "price": 435000,
+      "date": "2026-03-31",
+      "postcode": "SY16 3DS",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "OAK-APPLE COTTAGE"
+      "address": "HEULFRON"
     },
     {
       "price": 195000,
@@ -89,6 +179,15 @@
       "address": "31, NEW ROAD"
     },
     {
+      "price": 320000,
+      "date": "2026-03-27",
+      "postcode": "SY16 3LF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "OAK-APPLE COTTAGE"
+    },
+    {
       "price": 120000,
       "date": "2026-03-20",
       "postcode": "SY16 1RQ",
@@ -96,105 +195,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "51, GLANDWR"
-    },
-    {
-      "price": 227500,
-      "date": "2026-03-18",
-      "postcode": "SY16 1HB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, WYNFIELDS"
-    },
-    {
-      "price": 295000,
-      "date": "2026-03-13",
-      "postcode": "SY16 2QR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, OAKLANDS PARK"
-    },
-    {
-      "price": 283000,
-      "date": "2026-03-13",
-      "postcode": "SY16 2DZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MIN-Y-FRON, MILFORD ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-13",
-      "postcode": "SY16 2AS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CEDEWAIN, CANAL ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-03-13",
-      "postcode": "SY16 2TF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, HEATHER CLOSE"
-    },
-    {
-      "price": 132000,
-      "date": "2026-03-09",
-      "postcode": "SY16 1NL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "246, CEIRIOG"
-    },
-    {
-      "price": 239000,
-      "date": "2026-02-27",
-      "postcode": "SY16 4DD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BEECH GROVE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-27",
-      "postcode": "SY16 2DE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, COMMERCIAL STREET"
-    },
-    {
-      "price": 330000,
-      "date": "2026-02-27",
-      "postcode": "SY16 3EP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE FIRS"
-    },
-    {
-      "price": 164000,
-      "date": "2026-02-27",
-      "postcode": "SY16 2TA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, PRIMROSE DRIVE"
-    },
-    {
-      "price": 70000,
-      "date": "2026-02-23",
-      "postcode": "SY16 2LP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BANK CHAMBERS, SHORT BRIDGE STREET"
     }
   ],
   "monthlyHistory": [
@@ -290,13 +290,13 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 252500,
-      "transactions": 14
+      "medianPrice": 231500,
+      "transactions": 16
     },
     {
       "month": "2025-08",
-      "medianPrice": 255000,
-      "transactions": 23
+      "medianPrice": 252500,
+      "transactions": 24
     },
     {
       "month": "2025-09",
@@ -310,13 +310,13 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 271000,
-      "transactions": 20
+      "medianPrice": 267000,
+      "transactions": 23
     },
     {
       "month": "2025-12",
-      "medianPrice": 244000,
-      "transactions": 8
+      "medianPrice": 268000,
+      "transactions": 9
     },
     {
       "month": "2026-01",
@@ -330,13 +330,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 227500,
-      "transactions": 9
+      "medianPrice": 238750,
+      "transactions": 10
     },
     {
       "month": "2026-04",
-      "medianPrice": 258750,
-      "transactions": 6
+      "medianPrice": 275000,
+      "transactions": 13
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 270000,
+      "transactions": 3
     }
   ],
   "quarterlyHistory": [
@@ -372,23 +377,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 245000,
-      "transactions": 51
+      "medianPrice": 221750,
+      "transactions": 54
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 232000,
-      "transactions": 43
+      "transactions": 47
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 175000,
-      "transactions": 31
+      "medianPrice": 176500,
+      "transactions": 32
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 258750,
-      "transactions": 6
+      "medianPrice": 272500,
+      "transactions": 16
     }
   ]
 }

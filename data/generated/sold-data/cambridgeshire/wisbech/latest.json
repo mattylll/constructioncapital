@@ -1,22 +1,175 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.633Z",
+  "updatedAt": "2026-07-03T11:39:54.417Z",
   "townSlug": "wisbech",
   "countySlug": "cambridgeshire",
   "stats": {
-    "medianPrice": 207500,
+    "medianPrice": 209000,
     "medianByType": {
-      "D": 260000,
+      "D": 264500,
       "S": 190000,
       "T": 135000,
-      "F": 67500
+      "F": 71250
     },
-    "transactionCount12m": 396,
-    "yoyChange": 2.7,
-    "newBuildCount": 11,
-    "existingCount": 385,
-    "newBuildPremium": 1.9
+    "transactionCount12m": 430,
+    "yoyChange": 4.1,
+    "newBuildCount": 10,
+    "existingCount": 420,
+    "newBuildPremium": 1.2
   },
   "recentTransactions": [
+    {
+      "price": 275000,
+      "date": "2026-05-27",
+      "postcode": "PE13 3QJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, GRIMMERS ROAD"
+    },
+    {
+      "price": 207000,
+      "date": "2026-05-22",
+      "postcode": "PE13 3QL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, LEROWE ROAD"
+    },
+    {
+      "price": 287000,
+      "date": "2026-05-21",
+      "postcode": "PE13 2UQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, PIPPIN PLACE"
+    },
+    {
+      "price": 430000,
+      "date": "2026-05-19",
+      "postcode": "PE13 4NF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LITTLE ACRE FARM, FENDYKE LANE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-05-15",
+      "postcode": "PE13 5JX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, RICHMOND WAY"
+    },
+    {
+      "price": 122000,
+      "date": "2026-05-15",
+      "postcode": "PE13 1RP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, SUMMERFIELD CLOSE"
+    },
+    {
+      "price": 218500,
+      "date": "2026-05-15",
+      "postcode": "PE14 0ED",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, THOMAS AVELING CLOSE"
+    },
+    {
+      "price": 169995,
+      "date": "2026-05-15",
+      "postcode": "PE13 2ET",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "64, COLVILE ROAD"
+    },
+    {
+      "price": 110000,
+      "date": "2026-05-13",
+      "postcode": "PE13 3AY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, ALBANY ROAD"
+    },
+    {
+      "price": 325000,
+      "date": "2026-05-11",
+      "postcode": "PE13 5LA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "RUBYLIN, CHURCH LANE"
+    },
+    {
+      "price": 860000,
+      "date": "2026-05-06",
+      "postcode": "PE13 5DQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HOPWOOD, THE STILL"
+    },
+    {
+      "price": 250000,
+      "date": "2026-05-05",
+      "postcode": "PE13 4ED",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "IVYHOLM COTTAGE, HIGH ROAD"
+    },
+    {
+      "price": 180000,
+      "date": "2026-05-01",
+      "postcode": "PE14 0AA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, HIGH ROAD"
+    },
+    {
+      "price": 140000,
+      "date": "2026-05-01",
+      "postcode": "PE14 9PU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, THE CROFT"
+    },
+    {
+      "price": 297500,
+      "date": "2026-04-29",
+      "postcode": "PE14 9NF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "OAKLANDS, CROWN ROAD"
+    },
+    {
+      "price": 272000,
+      "date": "2026-04-29",
+      "postcode": "PE14 9NF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CROWN HOUSE, CROWN ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-04-28",
+      "postcode": "PE13 4EQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PLYM COTTAGE, HIGH ROAD"
+    },
     {
       "price": 155000,
       "date": "2026-04-24",
@@ -27,175 +180,22 @@
       "address": "21, FALKLANDS DRIVE"
     },
     {
-      "price": 140000,
-      "date": "2026-04-21",
-      "postcode": "PE13 1SF",
+      "price": 660000,
+      "date": "2026-04-24",
+      "postcode": "PE14 0NH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, GRANGE ROAD"
+      "address": "KEMPTON HOUSE, THE CONIFERS"
     },
     {
-      "price": 205000,
-      "date": "2026-04-20",
-      "postcode": "PE14 0BT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, HENRY WARBY AVENUE"
-    },
-    {
-      "price": 148000,
-      "date": "2026-04-17",
-      "postcode": "PE13 3DR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, KENLAN ROAD"
-    },
-    {
-      "price": 167500,
-      "date": "2026-04-17",
-      "postcode": "PE13 3TA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "175, NORWICH ROAD"
-    },
-    {
-      "price": 270000,
-      "date": "2026-04-15",
-      "postcode": "PE13 2PX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, STATION DRIVE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-04-09",
-      "postcode": "PE14 0ST",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "84, MALT DRIVE"
-    },
-    {
-      "price": 167000,
-      "date": "2026-04-08",
-      "postcode": "PE13 5AQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, WALSINGHAM COURT"
-    },
-    {
-      "price": 58000,
-      "date": "2026-04-01",
-      "postcode": "PE13 3TN",
+      "price": 75000,
+      "date": "2026-04-24",
+      "postcode": "PE13 2LL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 21, BRANCASTER COURT, STAITHE ROAD"
-    },
-    {
-      "price": 630000,
-      "date": "2026-03-31",
-      "postcode": "PE14 9SN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE MAPLES, MARCH ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-03-31",
-      "postcode": "PE13 4RY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WALSINGHAM LODGE, STATION ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-03-31",
-      "postcode": "PE13 2JT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, BOYCES ROAD"
-    },
-    {
-      "price": 236000,
-      "date": "2026-03-31",
-      "postcode": "PE13 3DP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "122, LYNN ROAD"
-    },
-    {
-      "price": 210000,
-      "date": "2026-03-27",
-      "postcode": "PE13 5HQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, GOODENS LANE"
-    },
-    {
-      "price": 157500,
-      "date": "2026-03-27",
-      "postcode": "PE13 3LP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "128, EDINBURGH DRIVE"
-    },
-    {
-      "price": 311500,
-      "date": "2026-03-27",
-      "postcode": "PE13 4SL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE COTTAGE, HIGH ROAD"
-    },
-    {
-      "price": 295000,
-      "date": "2026-03-27",
-      "postcode": "PE13 2DF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "A1, TRAFFORD PARK"
-    },
-    {
-      "price": 230000,
-      "date": "2026-03-27",
-      "postcode": "PE13 3AU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "84, CHASE STREET"
-    },
-    {
-      "price": 227500,
-      "date": "2026-03-26",
-      "postcode": "PE13 5AF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, MOUNTBATTEN DRIVE"
-    },
-    {
-      "price": 355000,
-      "date": "2026-03-26",
-      "postcode": "PE13 4PY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FOURWINDS, ELLOE BANK"
+      "address": "3, CHAPEL GATE COURT"
     }
   ],
   "monthlyHistory": [
@@ -286,8 +286,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 183750,
-      "transactions": 54
+      "medianPrice": 180000,
+      "transactions": 61
     },
     {
       "month": "2025-07",
@@ -297,27 +297,27 @@
     {
       "month": "2025-08",
       "medianPrice": 215000,
-      "transactions": 54
+      "transactions": 57
     },
     {
       "month": "2025-09",
-      "medianPrice": 210000,
-      "transactions": 52
+      "medianPrice": 207500,
+      "transactions": 54
     },
     {
       "month": "2025-10",
       "medianPrice": 197500,
-      "transactions": 51
+      "transactions": 53
     },
     {
       "month": "2025-11",
       "medianPrice": 220000,
-      "transactions": 31
+      "transactions": 37
     },
     {
       "month": "2025-12",
       "medianPrice": 208000,
-      "transactions": 48
+      "transactions": 50
     },
     {
       "month": "2026-01",
@@ -326,18 +326,23 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 185000,
-      "transactions": 37
+      "medianPrice": 177500,
+      "transactions": 38
     },
     {
       "month": "2026-03",
       "medianPrice": 218750,
-      "transactions": 28
+      "transactions": 30
     },
     {
       "month": "2026-04",
-      "medianPrice": 167000,
-      "transactions": 9
+      "medianPrice": 185000,
+      "transactions": 25
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 212750,
+      "transactions": 14
     }
   ],
   "quarterlyHistory": [
@@ -368,28 +373,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 188250,
-      "transactions": 142
+      "medianPrice": 187500,
+      "transactions": 149
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 215000,
-      "transactions": 155
+      "medianPrice": 215500,
+      "transactions": 160
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 203500,
-      "transactions": 130
+      "transactions": 140
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 206000,
-      "transactions": 89
+      "medianPrice": 205500,
+      "transactions": 92
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 167000,
-      "transactions": 9
+      "medianPrice": 200000,
+      "transactions": 39
     }
   ]
 }

@@ -1,22 +1,103 @@
 {
-  "updatedAt": "2026-06-23T19:12:06.947Z",
+  "updatedAt": "2026-07-03T11:39:52.641Z",
   "townSlug": "bude",
   "countySlug": "cornwall",
   "stats": {
     "medianPrice": 343000,
     "medianByType": {
-      "D": 427750,
-      "S": 285000,
-      "T": 265000,
-      "F": 207500
+      "D": 427500,
+      "S": 286500,
+      "T": 275000,
+      "F": 195000
     },
-    "transactionCount12m": 193,
+    "transactionCount12m": 212,
     "yoyChange": -6,
     "newBuildCount": 10,
-    "existingCount": 183,
-    "newBuildPremium": 23.2
+    "existingCount": 202,
+    "newBuildPremium": -0.1
   },
   "recentTransactions": [
+    {
+      "price": 365000,
+      "date": "2026-05-21",
+      "postcode": "EX23 9EH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, MOOR CROSS"
+    },
+    {
+      "price": 400000,
+      "date": "2026-05-07",
+      "postcode": "EX23 8EP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, VALLEY ROAD"
+    },
+    {
+      "price": 390000,
+      "date": "2026-05-06",
+      "postcode": "EX23 0NG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, SOUTHCOTT MEADOWS"
+    },
+    {
+      "price": 375000,
+      "date": "2026-05-06",
+      "postcode": "EX23 0BP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, LOWER KENTS"
+    },
+    {
+      "price": 250000,
+      "date": "2026-05-01",
+      "postcode": "EX23 8GB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, WHALESBOROUGH PARC"
+    },
+    {
+      "price": 970000,
+      "date": "2026-04-29",
+      "postcode": "EX23 9EF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TRELAN"
+    },
+    {
+      "price": 297000,
+      "date": "2026-04-27",
+      "postcode": "EX23 8FS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, WIGEON ROAD"
+    },
+    {
+      "price": 460000,
+      "date": "2026-04-23",
+      "postcode": "EX23 8PJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MARDENIA COURT, BENCOOLEN ROAD"
+    },
+    {
+      "price": 100000,
+      "date": "2026-04-22",
+      "postcode": "EX23 8AW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 13, KIMING, STRATTON ROAD"
+    },
     {
       "price": 370000,
       "date": "2026-04-20",
@@ -34,6 +115,51 @@
       "newBuild": false,
       "tenure": "F",
       "address": "2, UNION COTTAGES, BOWDEN"
+    },
+    {
+      "price": 166600,
+      "date": "2026-04-17",
+      "postcode": "EX23 8SB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56, AGNES CLOSE"
+    },
+    {
+      "price": 880000,
+      "date": "2026-04-17",
+      "postcode": "EX23 9LZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HERSHAM CARPENTRY"
+    },
+    {
+      "price": 300000,
+      "date": "2026-04-16",
+      "postcode": "EX23 8AG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, COAST VIEW"
+    },
+    {
+      "price": 755000,
+      "date": "2026-04-10",
+      "postcode": "EX23 8NQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MAER BRIDGE, MAER LANE"
+    },
+    {
+      "price": 249900,
+      "date": "2026-04-07",
+      "postcode": "EX23 8QP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "134, BERRIES AVENUE"
     },
     {
       "price": 465000,
@@ -63,139 +189,13 @@
       "address": "5, GURNEY CLOSE"
     },
     {
-      "price": 597500,
-      "date": "2026-04-01",
-      "postcode": "EX23 8EN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, KILLERTON ROAD"
-    },
-    {
-      "price": 355000,
-      "date": "2026-04-01",
-      "postcode": "EX23 8LE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, THE CRESCENT"
-    },
-    {
-      "price": 307000,
-      "date": "2026-03-27",
-      "postcode": "EX23 0EL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, CRICKET PARK"
-    },
-    {
-      "price": 1200000,
-      "date": "2026-03-27",
-      "postcode": "EX23 0JZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "KNAPP BUNGALOW"
-    },
-    {
-      "price": 290000,
-      "date": "2026-03-25",
-      "postcode": "EX23 8FQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, PINTAIL CLOSE"
-    },
-    {
-      "price": 500000,
-      "date": "2026-03-25",
-      "postcode": "EX23 9LZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BUTTERFLY BARN"
-    },
-    {
-      "price": 55000,
-      "date": "2026-03-20",
-      "postcode": "EX23 9QY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1 PENHALT, PENSTOWE PARK"
-    },
-    {
-      "price": 260000,
-      "date": "2026-03-20",
-      "postcode": "EX23 8HP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, FLEXBURY PARK ROAD"
-    },
-    {
-      "price": 270000,
-      "date": "2026-03-17",
-      "postcode": "EX23 8RF",
+      "price": 220000,
+      "date": "2026-04-02",
+      "postcode": "EX23 8GW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "TOP FLAT, 9, DOWNS VIEW"
-    },
-    {
-      "price": 357500,
-      "date": "2026-03-17",
-      "postcode": "EX23 8SX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, HAWKERS COURT"
-    },
-    {
-      "price": 610000,
-      "date": "2026-03-17",
-      "postcode": "EX23 8HA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, LEA WAY"
-    },
-    {
-      "price": 315000,
-      "date": "2026-03-11",
-      "postcode": "EX23 8RF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 9, DOWNS VIEW"
-    },
-    {
-      "price": 335000,
-      "date": "2026-03-11",
-      "postcode": "EX23 8HF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, FOSTERS WAY"
-    },
-    {
-      "price": 175000,
-      "date": "2026-03-06",
-      "postcode": "EX23 0BX",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BARRIVOR"
-    },
-    {
-      "price": 285000,
-      "date": "2026-02-27",
-      "postcode": "EX23 0PH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, MANOR CLOSE"
+      "address": "9, PEN MORVAH, BRAMBLE HILL"
     }
   ],
   "monthlyHistory": [
@@ -291,33 +291,33 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 360000,
-      "transactions": 31
-    },
-    {
-      "month": "2025-08",
-      "medianPrice": 407500,
-      "transactions": 14
-    },
-    {
-      "month": "2025-09",
       "medianPrice": 357500,
       "transactions": 32
     },
     {
+      "month": "2025-08",
+      "medianPrice": 387000,
+      "transactions": 16
+    },
+    {
+      "month": "2025-09",
+      "medianPrice": 350000,
+      "transactions": 33
+    },
+    {
       "month": "2025-10",
       "medianPrice": 285000,
-      "transactions": 23
+      "transactions": 24
     },
     {
       "month": "2025-11",
-      "medianPrice": 426500,
-      "transactions": 20
+      "medianPrice": 428000,
+      "transactions": 25
     },
     {
       "month": "2025-12",
       "medianPrice": 385000,
-      "transactions": 17
+      "transactions": 19
     },
     {
       "month": "2026-01",
@@ -336,8 +336,13 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 355000,
-      "transactions": 7
+      "medianPrice": 350000,
+      "transactions": 19
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 375000,
+      "transactions": 5
     }
   ],
   "quarterlyHistory": [
@@ -373,13 +378,13 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 360000,
-      "transactions": 77
+      "medianPrice": 355000,
+      "transactions": 81
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 367500,
-      "transactions": 60
+      "medianPrice": 372500,
+      "transactions": 68
     },
     {
       "quarter": "2026-Q1",
@@ -388,8 +393,8 @@
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 355000,
-      "transactions": 7
+      "medianPrice": 360000,
+      "transactions": 24
     }
   ]
 }

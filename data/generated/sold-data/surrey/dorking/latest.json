@@ -1,22 +1,166 @@
 {
-  "updatedAt": "2026-06-23T19:12:06.157Z",
+  "updatedAt": "2026-07-03T11:39:51.894Z",
   "townSlug": "dorking",
   "countySlug": "surrey",
   "stats": {
-    "medianPrice": 500000,
+    "medianPrice": 497500,
     "medianByType": {
       "D": 910000,
-      "S": 547000,
-      "T": 437000,
-      "F": 280000
+      "S": 550000,
+      "T": 435000,
+      "F": 268000
     },
-    "transactionCount12m": 285,
+    "transactionCount12m": 296,
     "yoyChange": 7,
     "newBuildCount": 0,
-    "existingCount": 285,
+    "existingCount": 296,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 340000,
+      "date": "2026-05-15",
+      "postcode": "RH4 3HE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, VINCENT LANE"
+    },
+    {
+      "price": 359750,
+      "date": "2026-05-08",
+      "postcode": "RH5 4GE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 34, DEEPDENE HOUSE, DEEPDENE AVENUE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-05-08",
+      "postcode": "RH4 1HZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "20, LIMEWAY TERRACE"
+    },
+    {
+      "price": 570000,
+      "date": "2026-05-08",
+      "postcode": "RH4 1NB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, ASHCOMBE ROAD"
+    },
+    {
+      "price": 465000,
+      "date": "2026-05-05",
+      "postcode": "RH4 3QE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, GROVE COTTAGES, GUILDFORD ROAD"
+    },
+    {
+      "price": 345000,
+      "date": "2026-05-05",
+      "postcode": "RH4 3DY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, MARLEY RISE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-04-24",
+      "postcode": "RH4 2JJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, ORCHARD WAY"
+    },
+    {
+      "price": 575000,
+      "date": "2026-04-24",
+      "postcode": "RH4 1QY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, ASHURST PLACE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-04-24",
+      "postcode": "RH4 3JB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, MOUNT ROW"
+    },
+    {
+      "price": 620000,
+      "date": "2026-04-24",
+      "postcode": "RH5 6PX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, THE DENE"
+    },
+    {
+      "price": 765000,
+      "date": "2026-04-24",
+      "postcode": "RH5 6HE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CLIFF COTTAGE"
+    },
+    {
+      "price": 695000,
+      "date": "2026-04-24",
+      "postcode": "RH4 3DS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, GLEBE ROAD"
+    },
+    {
+      "price": 420000,
+      "date": "2026-04-24",
+      "postcode": "RH5 4HL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, BENTSBROOK COTTAGES, SPOOK HILL"
+    },
+    {
+      "price": 950000,
+      "date": "2026-04-23",
+      "postcode": "RH5 4QD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SUNRISE, NEWDIGATE ROAD"
+    },
+    {
+      "price": 550000,
+      "date": "2026-04-22",
+      "postcode": "RH5 5TH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, FERN COTTAGES, STANE STREET"
+    },
+    {
+      "price": 125000,
+      "date": "2026-04-21",
+      "postcode": "RH4 1HH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "23, CANTERBURY COURT"
+    },
     {
       "price": 230000,
       "date": "2026-04-17",
@@ -25,6 +169,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "5, RAVENSWOOD COURT, HORSHAM ROAD"
+    },
+    {
+      "price": 882837,
+      "date": "2026-04-17",
+      "postcode": "RH4 3ES",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, KNOLL ROAD"
     },
     {
       "price": 302500,
@@ -36,166 +189,13 @@
       "address": "8, TREELANDS"
     },
     {
-      "price": 310000,
-      "date": "2026-04-14",
-      "postcode": "RH4 1DG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 4, CHAPEL MEWS, 48 - 51, CHURCH STREET"
-    },
-    {
-      "price": 415000,
-      "date": "2026-04-13",
-      "postcode": "RH4 2NY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, OAK RIDGE"
-    },
-    {
-      "price": 425000,
-      "date": "2026-04-13",
-      "postcode": "RH4 1DH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, MEADOWBROOK ROAD"
-    },
-    {
-      "price": 539500,
-      "date": "2026-04-13",
-      "postcode": "RH4 2BP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, COTMANDENE"
-    },
-    {
-      "price": 245750,
-      "date": "2026-04-13",
+      "price": 750000,
+      "date": "2026-04-16",
       "postcode": "RH4 1HZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "38, LIMEWAY TERRACE"
-    },
-    {
-      "price": 520000,
-      "date": "2026-04-08",
-      "postcode": "RH4 1EY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, CHALKPIT LANE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-04-08",
-      "postcode": "RH4 1NT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, BOXHURST, OLD REIGATE ROAD"
-    },
-    {
-      "price": 910000,
-      "date": "2026-04-08",
-      "postcode": "RH5 5JY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE OLD JOINERY, 110, THE STREET"
-    },
-    {
-      "price": 5500,
-      "date": "2026-04-03",
-      "postcode": "RH5 5LY",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PLOT 6, STRANDON VIEW, STANE STREET"
-    },
-    {
-      "price": 450000,
-      "date": "2026-03-27",
-      "postcode": "RH4 1DW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, CHURCH STREET"
-    },
-    {
-      "price": 555000,
-      "date": "2026-03-27",
-      "postcode": "RH5 4RH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, WOODSIDE ROAD"
-    },
-    {
-      "price": 143000,
-      "date": "2026-03-27",
-      "postcode": "RH4 1PR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "24, RIVERSIDE"
-    },
-    {
-      "price": 910000,
-      "date": "2026-03-19",
-      "postcode": "RH5 5AR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HAZEL COTTAGE, EWOOD LANE"
-    },
-    {
-      "price": 780000,
-      "date": "2026-03-18",
-      "postcode": "RH4 2JF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, BIRCHLEA COURT, CLIFTONVILLE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-03-13",
-      "postcode": "RH4 1PW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, LESLIE ROAD"
-    },
-    {
-      "price": 800000,
-      "date": "2026-03-12",
-      "postcode": "RH4 1BF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, BETCHWORTH PLACE"
-    },
-    {
-      "price": 455000,
-      "date": "2026-03-09",
-      "postcode": "RH5 4HT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, HOLMESDALE ROAD"
-    },
-    {
-      "price": 495000,
-      "date": "2026-03-06",
-      "postcode": "RH4 1DP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, ST MARTINS MEWS"
+      "address": "13, LIMEWAY TERRACE"
     }
   ],
   "monthlyHistory": [
@@ -271,8 +271,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 480000,
-      "transactions": 97
+      "medianPrice": 475000,
+      "transactions": 98
     },
     {
       "month": "2025-04",
@@ -292,12 +292,12 @@
     {
       "month": "2025-07",
       "medianPrice": 515000,
-      "transactions": 39
+      "transactions": 41
     },
     {
       "month": "2025-08",
       "medianPrice": 525000,
-      "transactions": 31
+      "transactions": 32
     },
     {
       "month": "2025-09",
@@ -306,13 +306,13 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 525000,
-      "transactions": 43
+      "medianPrice": 512500,
+      "transactions": 44
     },
     {
       "month": "2025-11",
       "medianPrice": 519000,
-      "transactions": 26
+      "transactions": 32
     },
     {
       "month": "2025-12",
@@ -326,18 +326,23 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 390000,
-      "transactions": 31
+      "medianPrice": 420000,
+      "transactions": 30
     },
     {
       "month": "2026-03",
-      "medianPrice": 525000,
-      "transactions": 12
+      "medianPrice": 475000,
+      "transactions": 14
     },
     {
       "month": "2026-04",
-      "medianPrice": 320000,
-      "transactions": 11
+      "medianPrice": 460000,
+      "transactions": 25
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 352375,
+      "transactions": 6
     }
   ],
   "quarterlyHistory": [
@@ -363,8 +368,8 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 485000,
-      "transactions": 177
+      "medianPrice": 482500,
+      "transactions": 178
     },
     {
       "quarter": "2025-Q2",
@@ -373,23 +378,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 531500,
-      "transactions": 102
+      "medianPrice": 525000,
+      "transactions": 105
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 500000,
-      "transactions": 90
+      "transactions": 97
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 485000,
-      "transactions": 66
+      "medianPrice": 475000,
+      "transactions": 67
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 320000,
-      "transactions": 11
+      "medianPrice": 450000,
+      "transactions": 31
     }
   ]
 }

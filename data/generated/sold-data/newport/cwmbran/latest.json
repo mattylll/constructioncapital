@@ -1,22 +1,148 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.926Z",
+  "updatedAt": "2026-07-03T11:39:54.742Z",
   "townSlug": "cwmbran",
   "countySlug": "newport",
   "stats": {
     "medianPrice": 200000,
     "medianByType": {
-      "D": 340000,
-      "S": 225125,
+      "D": 342500,
+      "S": 225063,
       "T": 171000,
-      "F": 117500
+      "F": 118000
     },
-    "transactionCount12m": 385,
-    "yoyChange": -6.1,
-    "newBuildCount": 5,
-    "existingCount": 380,
-    "newBuildPremium": 43.8
+    "transactionCount12m": 412,
+    "yoyChange": -5.7,
+    "newBuildCount": 1,
+    "existingCount": 411,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 305000,
+      "date": "2026-05-22",
+      "postcode": "NP44 1GD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, HEOL EWEN"
+    },
+    {
+      "price": 317500,
+      "date": "2026-05-12",
+      "postcode": "NP44 3BG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "217, LLANTARNAM ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-05-08",
+      "postcode": "NP44 1NJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WAYFIELD CRESCENT"
+    },
+    {
+      "price": 150000,
+      "date": "2026-05-08",
+      "postcode": "NP44 4EW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, COVERT WALK"
+    },
+    {
+      "price": 160000,
+      "date": "2026-05-08",
+      "postcode": "NP44 5UL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "80, WYE COURT"
+    },
+    {
+      "price": 370000,
+      "date": "2026-05-07",
+      "postcode": "NP44 6EW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, HENDRE COURT"
+    },
+    {
+      "price": 155000,
+      "date": "2026-05-07",
+      "postcode": "NP44 4TD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, PICWIC GREEN"
+    },
+    {
+      "price": 165500,
+      "date": "2026-05-06",
+      "postcode": "NP44 4RG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, CRESSWELL WALK"
+    },
+    {
+      "price": 142000,
+      "date": "2026-05-01",
+      "postcode": "NP44 6LB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CLOVER COURT"
+    },
+    {
+      "price": 360000,
+      "date": "2026-05-01",
+      "postcode": "NP44 7NX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, GIFFORD CLOSE"
+    },
+    {
+      "price": 203000,
+      "date": "2026-04-30",
+      "postcode": "NP44 2QP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, HARLECH CLOSE"
+    },
+    {
+      "price": 223000,
+      "date": "2026-04-24",
+      "postcode": "NP44 7JE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "84, TROSTREY"
+    },
+    {
+      "price": 180000,
+      "date": "2026-04-24",
+      "postcode": "NP44 4SG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1, CLYFFES"
+    },
+    {
+      "price": 210000,
+      "date": "2026-04-23",
+      "postcode": "NP44 1DB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, FIVE LOCKS CLOSE"
+    },
     {
       "price": 200000,
       "date": "2026-04-17",
@@ -25,6 +151,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "8, RHODRI PLACE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-04-16",
+      "postcode": "NP44 5HB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, MAENDY WAY"
     },
     {
       "price": 245000,
@@ -45,6 +180,15 @@
       "address": "3, HENDRE COURT"
     },
     {
+      "price": 220000,
+      "date": "2026-04-09",
+      "postcode": "NP44 2EZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, WHITEHOUSE ROAD"
+    },
+    {
       "price": 195000,
       "date": "2026-04-08",
       "postcode": "NP44 5JF",
@@ -52,150 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "66, GREENWOOD AVENUE"
-    },
-    {
-      "price": 165000,
-      "date": "2026-04-01",
-      "postcode": "NP44 2JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, SNOWDON COURT"
-    },
-    {
-      "price": 150000,
-      "date": "2026-03-31",
-      "postcode": "NP44 4DH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, CROFTON MEDE"
-    },
-    {
-      "price": 173000,
-      "date": "2026-03-30",
-      "postcode": "NP44 3NJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, PROSPECT PLACE"
-    },
-    {
-      "price": 162000,
-      "date": "2026-03-27",
-      "postcode": "NP44 7LR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "76, PENTRE CLOSE"
-    },
-    {
-      "price": 445000,
-      "date": "2026-03-27",
-      "postcode": "NP44 6EB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, TWMBARLWM RISE"
-    },
-    {
-      "price": 140000,
-      "date": "2026-03-27",
-      "postcode": "NP44 4LA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "254, PANDY"
-    },
-    {
-      "price": 296000,
-      "date": "2026-03-27",
-      "postcode": "NP44 2QJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, GARW WOOD DRIVE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-03-27",
-      "postcode": "NP44 3FL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, JAMES PROSSER WAY"
-    },
-    {
-      "price": 186000,
-      "date": "2026-03-27",
-      "postcode": "NP44 7JJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, COCKER AVENUE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-03-25",
-      "postcode": "NP44 2JL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, STONEBRIDGE PARK"
-    },
-    {
-      "price": 160000,
-      "date": "2026-03-20",
-      "postcode": "NP44 6UN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "140, OAKSFORD"
-    },
-    {
-      "price": 140000,
-      "date": "2026-03-18",
-      "postcode": "NP44 2JX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, CONWAY TERRACE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-03-16",
-      "postcode": "NP44 7UT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "70, BRYN MILWR"
-    },
-    {
-      "price": 350000,
-      "date": "2026-03-13",
-      "postcode": "NP44 3FL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, JAMES PROSSER WAY"
-    },
-    {
-      "price": 238000,
-      "date": "2026-03-11",
-      "postcode": "NP44 5TQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, THORNHILL CLOSE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-03-09",
-      "postcode": "NP44 7EZ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "UNIT 2, TOWNGATE INDUSTRIAL ESTATE, TY COCH WAY"
     }
   ],
   "monthlyHistory": [
@@ -246,8 +246,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 194000,
-      "transactions": 59
+      "medianPrice": 194500,
+      "transactions": 58
     },
     {
       "month": "2024-11",
@@ -262,12 +262,12 @@
     {
       "month": "2025-01",
       "medianPrice": 175000,
-      "transactions": 44
+      "transactions": 43
     },
     {
       "month": "2025-02",
-      "medianPrice": 183000,
-      "transactions": 44
+      "medianPrice": 180000,
+      "transactions": 45
     },
     {
       "month": "2025-03",
@@ -281,23 +281,23 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 230000,
-      "transactions": 59
+      "medianPrice": 226250,
+      "transactions": 60
     },
     {
       "month": "2025-06",
-      "medianPrice": 219000,
-      "transactions": 70
+      "medianPrice": 222500,
+      "transactions": 78
     },
     {
       "month": "2025-07",
-      "medianPrice": 200000,
-      "transactions": 50
+      "medianPrice": 197500,
+      "transactions": 56
     },
     {
       "month": "2025-08",
-      "medianPrice": 215000,
-      "transactions": 45
+      "medianPrice": 220000,
+      "transactions": 47
     },
     {
       "month": "2025-09",
@@ -306,38 +306,43 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 208750,
-      "transactions": 58
+      "medianPrice": 207500,
+      "transactions": 63
     },
     {
       "month": "2025-11",
-      "medianPrice": 185000,
-      "transactions": 37
+      "medianPrice": 187500,
+      "transactions": 46
     },
     {
       "month": "2025-12",
-      "medianPrice": 172750,
-      "transactions": 42
+      "medianPrice": 174000,
+      "transactions": 48
     },
     {
       "month": "2026-01",
-      "medianPrice": 198750,
-      "transactions": 18
-    },
-    {
-      "month": "2026-02",
-      "medianPrice": 234000,
-      "transactions": 25
-    },
-    {
-      "month": "2026-03",
-      "medianPrice": 186000,
+      "medianPrice": 207500,
       "transactions": 19
     },
     {
+      "month": "2026-02",
+      "medianPrice": 225000,
+      "transactions": 27
+    },
+    {
+      "month": "2026-03",
+      "medianPrice": 211500,
+      "transactions": 22
+    },
+    {
       "month": "2026-04",
-      "medianPrice": 200000,
-      "transactions": 5
+      "medianPrice": 203000,
+      "transactions": 13
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 170250,
+      "transactions": 10
     }
   ],
   "quarterlyHistory": [
@@ -359,7 +364,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 210000,
-      "transactions": 202
+      "transactions": 201
     },
     {
       "quarter": "2025-Q1",
@@ -368,28 +373,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 217000,
-      "transactions": 190
+      "medianPrice": 218000,
+      "transactions": 199
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 210000,
-      "transactions": 159
+      "medianPrice": 205000,
+      "transactions": 167
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 188345,
-      "transactions": 137
+      "transactions": 157
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 201250,
-      "transactions": 62
+      "medianPrice": 209250,
+      "transactions": 68
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 200000,
-      "transactions": 5
+      "transactions": 23
     }
   ]
 }

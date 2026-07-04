@@ -1,22 +1,103 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.465Z",
+  "updatedAt": "2026-07-03T11:39:54.215Z",
   "townSlug": "berwick-upon-tweed",
   "countySlug": "northumberland",
   "stats": {
-    "medianPrice": 185000,
+    "medianPrice": 189750,
     "medianByType": {
       "D": 315000,
-      "S": 197500,
-      "T": 175000,
-      "F": 110000
+      "S": 200000,
+      "T": 184000,
+      "F": 103750
     },
-    "transactionCount12m": 187,
-    "yoyChange": -1.6,
-    "newBuildCount": 2,
-    "existingCount": 185,
+    "transactionCount12m": 204,
+    "yoyChange": 2.6,
+    "newBuildCount": 1,
+    "existingCount": 203,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 425000,
+      "date": "2026-05-28",
+      "postcode": "TD15 2QP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SUNNYSIDE HOUSE, SUNNYSIDE"
+    },
+    {
+      "price": 645000,
+      "date": "2026-05-27",
+      "postcode": "TD15 2PL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE BYRE, LINDISFARNE BAY COTTAGES"
+    },
+    {
+      "price": 178500,
+      "date": "2026-05-15",
+      "postcode": "TD15 2YR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, LAMB COURT"
+    },
+    {
+      "price": 335000,
+      "date": "2026-05-15",
+      "postcode": "TD15 2FN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, MEADOW DALE"
+    },
+    {
+      "price": 115000,
+      "date": "2026-05-14",
+      "postcode": "TD15 1PZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, SEA VIEW"
+    },
+    {
+      "price": 295000,
+      "date": "2026-05-11",
+      "postcode": "TD15 2YT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, RODDAM COURT"
+    },
+    {
+      "price": 255000,
+      "date": "2026-05-11",
+      "postcode": "TD15 1PQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, CARRICK CLOSE"
+    },
+    {
+      "price": 97500,
+      "date": "2026-05-08",
+      "postcode": "TD15 1DB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, WALKERGATE"
+    },
+    {
+      "price": 120000,
+      "date": "2026-05-01",
+      "postcode": "TD15 2EW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, GROVE GARDENS SOUTH"
+    },
     {
       "price": 67000,
       "date": "2026-04-29",
@@ -25,6 +106,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "184A, MAIN STREET"
+    },
+    {
+      "price": 200000,
+      "date": "2026-04-28",
+      "postcode": "TD15 2HQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, RIVERSIDE ROAD"
     },
     {
       "price": 125000,
@@ -43,6 +133,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "38, IVINSON ROAD"
+    },
+    {
+      "price": 390000,
+      "date": "2026-04-17",
+      "postcode": "TD15 1RJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, ST HELENS TERRACE"
+    },
+    {
+      "price": 480000,
+      "date": "2026-04-16",
+      "postcode": "TD15 2XY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TURRET HOUSE, 2, COOPERS FIELD"
     },
     {
       "price": 189000,
@@ -88,114 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "109, MARYGATE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-03-27",
-      "postcode": "TD15 2LX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, HILLCREST"
-    },
-    {
-      "price": 310000,
-      "date": "2026-03-27",
-      "postcode": "TD15 1JX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, CASTLEGATE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-03-27",
-      "postcode": "TD15 1EG",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CHURCH STREET"
-    },
-    {
-      "price": 170000,
-      "date": "2026-03-27",
-      "postcode": "TD15 1RR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "223, MAIN STREET"
-    },
-    {
-      "price": 125000,
-      "date": "2026-03-20",
-      "postcode": "TD15 1EB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19D, WALLACE GREEN"
-    },
-    {
-      "price": 150000,
-      "date": "2026-03-19",
-      "postcode": "TD15 2EB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, GREENWOOD"
-    },
-    {
-      "price": 146000,
-      "date": "2026-03-18",
-      "postcode": "TD15 1LW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, ALBERT PLACE"
-    },
-    {
-      "price": 58000,
-      "date": "2026-03-16",
-      "postcode": "TD15 1BH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "111A, MARYGATE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-03-11",
-      "postcode": "TD15 1PQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, CARRICK CLOSE"
-    },
-    {
-      "price": 315000,
-      "date": "2026-03-11",
-      "postcode": "TD15 2YT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, RODDAM COURT"
-    },
-    {
-      "price": 425000,
-      "date": "2026-03-10",
-      "postcode": "TD15 2YW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, WEST DRIVE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-03-09",
-      "postcode": "TD15 1RP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "105, MAIN STREET"
     }
   ],
   "monthlyHistory": [
@@ -286,8 +286,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 159000,
-      "transactions": 16
+      "medianPrice": 153000,
+      "transactions": 17
     },
     {
       "month": "2025-07",
@@ -297,22 +297,22 @@
     {
       "month": "2025-08",
       "medianPrice": 170000,
-      "transactions": 35
+      "transactions": 41
     },
     {
       "month": "2025-09",
-      "medianPrice": 170000,
-      "transactions": 12
+      "medianPrice": 150000,
+      "transactions": 13
     },
     {
       "month": "2025-10",
-      "medianPrice": 230000,
-      "transactions": 31
+      "medianPrice": 225000,
+      "transactions": 34
     },
     {
       "month": "2025-11",
-      "medianPrice": 203500,
-      "transactions": 16
+      "medianPrice": 210000,
+      "transactions": 17
     },
     {
       "month": "2025-12",
@@ -321,8 +321,8 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 160500,
-      "transactions": 16
+      "medianPrice": 163500,
+      "transactions": 17
     },
     {
       "month": "2026-02",
@@ -336,8 +336,13 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 122500,
-      "transactions": 8
+      "medianPrice": 189000,
+      "transactions": 11
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 255000,
+      "transactions": 9
     }
   ],
   "quarterlyHistory": [
@@ -368,28 +373,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 170000,
-      "transactions": 45
+      "medianPrice": 167500,
+      "transactions": 46
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 185000,
-      "transactions": 77
+      "medianPrice": 184000,
+      "transactions": 84
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 230000,
-      "transactions": 55
+      "transactions": 59
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 164250,
-      "transactions": 44
+      "medianPrice": 165000,
+      "transactions": 45
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 122500,
-      "transactions": 8
+      "medianPrice": 194500,
+      "transactions": 20
     }
   ]
 }

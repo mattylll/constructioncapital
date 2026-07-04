@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:06.909Z",
+  "updatedAt": "2026-07-03T11:39:52.602Z",
   "townSlug": "exmouth",
   "countySlug": "devon",
   "stats": {
     "medianPrice": 320000,
     "medianByType": {
-      "D": 483500,
-      "S": 310000,
-      "T": 260000,
-      "F": 192250
+      "D": 485000,
+      "S": 300000,
+      "T": 257000,
+      "F": 191250
     },
-    "transactionCount12m": 1948,
-    "yoyChange": -1.5,
-    "newBuildCount": 60,
-    "existingCount": 1888,
-    "newBuildPremium": 31.3
+    "transactionCount12m": 2052,
+    "yoyChange": -2.4,
+    "newBuildCount": 39,
+    "existingCount": 2013,
+    "newBuildPremium": 37.5
   },
   "recentTransactions": [
     {
-      "price": 125000,
-      "date": "2026-04-27",
-      "postcode": "EX8 1QD",
+      "price": 265000,
+      "date": "2026-05-27",
+      "postcode": "EX8 1BT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MORTON CRESCENT MEWS"
+    },
+    {
+      "price": 235000,
+      "date": "2026-05-22",
+      "postcode": "EX8 2AH",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "83B, EXETER ROAD"
+      "address": "FLAT 2, LION HOUSE, 2, CARLTON HILL"
+    },
+    {
+      "price": 325000,
+      "date": "2026-05-22",
+      "postcode": "EX9 7HQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, THE GREEN"
+    },
+    {
+      "price": 630000,
+      "date": "2026-05-22",
+      "postcode": "EX10 8RZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PILGRIM COTTAGE, PEAK HILL ROAD"
+    },
+    {
+      "price": 440000,
+      "date": "2026-05-21",
+      "postcode": "EX14 9TA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, OTTERVALE CLOSE"
+    },
+    {
+      "price": 385000,
+      "date": "2026-05-21",
+      "postcode": "EX8 2AL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, LOUISA PLACE"
+    },
+    {
+      "price": 770000,
+      "date": "2026-05-20",
+      "postcode": "EX11 1RZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "VENN OTTERY BARTON"
+    },
+    {
+      "price": 330000,
+      "date": "2026-05-19",
+      "postcode": "EX13 5GN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WELCH CLOSE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-05-19",
+      "postcode": "EX24 6RJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, KINGSHOLME"
+    },
+    {
+      "price": 270000,
+      "date": "2026-05-18",
+      "postcode": "EX8 1TE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BRIDGE ROAD"
+    },
+    {
+      "price": 294000,
+      "date": "2026-05-15",
+      "postcode": "EX10 0BW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, BURROW LANE"
+    },
+    {
+      "price": 415000,
+      "date": "2026-05-15",
+      "postcode": "EX14 3AH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, CHURCHMEAD COTTAGES"
+    },
+    {
+      "price": 1137000,
+      "date": "2026-05-15",
+      "postcode": "EX8 2HD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MAYFIELD DRIVE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-05-15",
+      "postcode": "EX14 1DY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4B, EUREKA TERRACE"
+    },
+    {
+      "price": 580000,
+      "date": "2026-05-15",
+      "postcode": "EX14 3AS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "KINGS COTTAGE"
+    },
+    {
+      "price": 356000,
+      "date": "2026-05-15",
+      "postcode": "EX8 4AE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, FREELANDS CLOSE"
     },
     {
       "price": 320000,
-      "date": "2026-04-27",
-      "postcode": "EX10 8JR",
+      "date": "2026-05-15",
+      "postcode": "EX8 3BW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "100, ELMFIELD CRESCENT"
+    },
+    {
+      "price": 270000,
+      "date": "2026-05-15",
+      "postcode": "EX5 7HQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, LOWER FURLONG CLOSE"
+    },
+    {
+      "price": 667000,
+      "date": "2026-05-14",
+      "postcode": "EX10 9JX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, KING CHARLES WAY"
+    },
+    {
+      "price": 65000,
+      "date": "2026-05-14",
+      "postcode": "EX13 5PL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 12, SALCOMBE COURT, SALCOMBE HILL ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2026-04-24",
-      "postcode": "EX5 7GN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, KINGFISHER RISE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-04-24",
-      "postcode": "EX13 5NU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, BELLE VUE, WEST STREET"
-    },
-    {
-      "price": 234950,
-      "date": "2026-04-24",
-      "postcode": "EX8 1RX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, EGREMONT ROAD"
-    },
-    {
-      "price": 342500,
-      "date": "2026-04-24",
-      "postcode": "EX14 2FS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, BUTTS CLOSE"
-    },
-    {
-      "price": 160000,
-      "date": "2026-04-23",
-      "postcode": "EX14 4UR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, SIMCOE WAY"
-    },
-    {
-      "price": 650000,
-      "date": "2026-04-22",
-      "postcode": "EX1 3GQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, MANLEY MEADOW"
-    },
-    {
-      "price": 620000,
-      "date": "2026-04-22",
-      "postcode": "EX13 7LU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BURROWS FARM, GOLDSMITH LANE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-04-22",
-      "postcode": "EX10 0DJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, HAZEL CLOSE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-04-21",
-      "postcode": "EX13 5QW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "70, WILLHAYES PARK"
-    },
-    {
-      "price": 320000,
-      "date": "2026-04-21",
-      "postcode": "EX24 6PF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, BURNARDS FIELD ROAD"
-    },
-    {
-      "price": 245000,
-      "date": "2026-04-21",
-      "postcode": "EX24 6RH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, MOUNT VIEW"
-    },
-    {
-      "price": 145000,
-      "date": "2026-04-20",
-      "postcode": "EX5 2NG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "KINGSHEAD HOUSE"
-    },
-    {
-      "price": 390000,
-      "date": "2026-04-20",
-      "postcode": "EX1 3UX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, HAWKINS ROAD"
-    },
-    {
-      "price": 322000,
-      "date": "2026-04-17",
-      "postcode": "EX10 8EY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, OLD HAYES, COTMATON ROAD"
-    },
-    {
-      "price": 299000,
-      "date": "2026-04-17",
-      "postcode": "EX8 1TF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, WITHYCOMBE ROAD"
-    },
-    {
-      "price": 77500,
-      "date": "2026-04-17",
-      "postcode": "EX14 1AA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, HOMELACE HOUSE, KING STREET"
-    },
-    {
-      "price": 315000,
-      "date": "2026-04-17",
-      "postcode": "EX14 1XH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, OAKLEA"
-    },
-    {
-      "price": 285000,
-      "date": "2026-04-17",
-      "postcode": "EX14 2YJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, LABURNUM CLOSE"
+      "address": "44, MINSTER COURT, WEST STREET"
     }
   ],
   "monthlyHistory": [
@@ -212,7 +212,7 @@
     {
       "month": "2024-03",
       "medianPrice": 375000,
-      "transactions": 205
+      "transactions": 204
     },
     {
       "month": "2024-04",
@@ -256,8 +256,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 330000,
-      "transactions": 317
+      "medianPrice": 335000,
+      "transactions": 322
     },
     {
       "month": "2025-01",
@@ -287,64 +287,69 @@
     {
       "month": "2025-06",
       "medianPrice": 300000,
-      "transactions": 235
+      "transactions": 245
     },
     {
       "month": "2025-07",
-      "medianPrice": 325000,
-      "transactions": 262
+      "medianPrice": 322500,
+      "transactions": 274
     },
     {
       "month": "2025-08",
       "medianPrice": 325000,
-      "transactions": 255
+      "transactions": 266
     },
     {
       "month": "2025-09",
-      "medianPrice": 318750,
-      "transactions": 200
+      "medianPrice": 322500,
+      "transactions": 206
     },
     {
       "month": "2025-10",
-      "medianPrice": 335000,
-      "transactions": 256
+      "medianPrice": 340000,
+      "transactions": 265
     },
     {
       "month": "2025-11",
       "medianPrice": 320000,
-      "transactions": 195
+      "transactions": 211
     },
     {
       "month": "2025-12",
-      "medianPrice": 310000,
-      "transactions": 176
+      "medianPrice": 312500,
+      "transactions": 190
     },
     {
       "month": "2026-01",
-      "medianPrice": 315000,
-      "transactions": 103
+      "medianPrice": 317500,
+      "transactions": 108
     },
     {
       "month": "2026-02",
       "medianPrice": 345000,
-      "transactions": 184
+      "transactions": 186
     },
     {
       "month": "2026-03",
-      "medianPrice": 300000,
-      "transactions": 153
+      "medianPrice": 297500,
+      "transactions": 158
     },
     {
       "month": "2026-04",
-      "medianPrice": 320000,
-      "transactions": 66
+      "medianPrice": 307500,
+      "transactions": 129
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 294500,
+      "transactions": 76
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 345000,
-      "transactions": 566
+      "transactions": 565
     },
     {
       "quarter": "2024-Q2",
@@ -359,7 +364,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 335000,
-      "transactions": 945
+      "transactions": 950
     },
     {
       "quarter": "2025-Q1",
@@ -369,27 +374,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 292500,
-      "transactions": 555
+      "transactions": 565
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 325000,
-      "transactions": 717
+      "transactions": 746
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 320000,
-      "transactions": 627
+      "medianPrice": 325000,
+      "transactions": 666
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 320500,
-      "transactions": 440
+      "transactions": 452
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 320000,
-      "transactions": 66
+      "medianPrice": 300000,
+      "transactions": 205
     }
   ]
 }

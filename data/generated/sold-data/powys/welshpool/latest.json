@@ -1,21 +1,57 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.933Z",
+  "updatedAt": "2026-07-03T11:39:54.749Z",
   "townSlug": "welshpool",
   "countySlug": "powys",
   "stats": {
-    "medianPrice": 217500,
+    "medianPrice": 232500,
     "medianByType": {
       "D": 325000,
-      "S": 185000,
-      "T": 175100
+      "S": 191000,
+      "T": 173932
     },
-    "transactionCount12m": 130,
-    "yoyChange": -11.2,
-    "newBuildCount": 4,
-    "existingCount": 126,
-    "newBuildPremium": 4.9
+    "transactionCount12m": 134,
+    "yoyChange": -5.1,
+    "newBuildCount": 5,
+    "existingCount": 129,
+    "newBuildPremium": -11.7
   },
   "recentTransactions": [
+    {
+      "price": 150000,
+      "date": "2026-05-18",
+      "postcode": "SY21 0NR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRYN PISTYLL"
+    },
+    {
+      "price": 275000,
+      "date": "2026-05-05",
+      "postcode": "SY21 9PA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, OLDCASTLE AVENUE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-04-16",
+      "postcode": "SY21 9PA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, OLDCASTLE AVENUE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-04-10",
+      "postcode": "SY21 9HW",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GUNGROG HALL"
+    },
     {
       "price": 400000,
       "date": "2026-04-10",
@@ -98,15 +134,6 @@
       "address": "CARTREFLE, BRIDGE STREET"
     },
     {
-      "price": 196000,
-      "date": "2026-02-27",
-      "postcode": "SY21 7GZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, BURGESS CLOSE"
-    },
-    {
       "price": 203000,
       "date": "2026-02-27",
       "postcode": "SY21 9AN",
@@ -123,6 +150,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "PEN Y BONT"
+    },
+    {
+      "price": 196000,
+      "date": "2026-02-27",
+      "postcode": "SY21 7GZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BURGESS CLOSE"
     },
     {
       "price": 175000,
@@ -143,6 +179,15 @@
       "address": "BODEINION, RAVEN STREET"
     },
     {
+      "price": 172764,
+      "date": "2026-02-20",
+      "postcode": "SY21 9FD",
+      "propertyType": "T",
+      "newBuild": true,
+      "tenure": "F",
+      "address": "1, LLWYN NANT"
+    },
+    {
       "price": 410000,
       "date": "2026-02-16",
       "postcode": "SY21 0JY",
@@ -150,51 +195,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "BUNGALOW"
-    },
-    {
-      "price": 364500,
-      "date": "2026-02-09",
-      "postcode": "SY21 0NR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRYNAWEL"
-    },
-    {
-      "price": 250000,
-      "date": "2026-01-30",
-      "postcode": "SY21 7DT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CEFN Y MAES, BRYNEGLWYS"
-    },
-    {
-      "price": 335000,
-      "date": "2026-01-30",
-      "postcode": "SY21 8LT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CRONK Y VODDY"
-    },
-    {
-      "price": 171000,
-      "date": "2026-01-30",
-      "postcode": "SY21 7UL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "83, GUNGROG HILL"
-    },
-    {
-      "price": 230000,
-      "date": "2026-01-28",
-      "postcode": "SY21 9PA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, OLDCASTLE AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -290,8 +290,8 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 240000,
-      "transactions": 26
+      "medianPrice": 245000,
+      "transactions": 27
     },
     {
       "month": "2025-08",
@@ -310,23 +310,23 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 268000,
-      "transactions": 10
+      "medianPrice": 270000,
+      "transactions": 13
     },
     {
       "month": "2025-12",
-      "medianPrice": 200000,
-      "transactions": 17
+      "medianPrice": 195000,
+      "transactions": 18
     },
     {
       "month": "2026-01",
-      "medianPrice": 250000,
-      "transactions": 11
+      "medianPrice": 240000,
+      "transactions": 12
     },
     {
       "month": "2026-02",
-      "medianPrice": 241500,
-      "transactions": 8
+      "medianPrice": 203000,
+      "transactions": 9
     },
     {
       "month": "2026-03",
@@ -335,8 +335,13 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 400000,
-      "transactions": 1
+      "medianPrice": 255000,
+      "transactions": 3
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 212500,
+      "transactions": 2
     }
   ],
   "quarterlyHistory": [
@@ -372,23 +377,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 212500,
-      "transactions": 51
+      "medianPrice": 213750,
+      "transactions": 52
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 211250,
-      "transactions": 48
+      "transactions": 52
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 260750,
-      "transactions": 26
+      "medianPrice": 255000,
+      "transactions": 28
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 400000,
-      "transactions": 1
+      "medianPrice": 255000,
+      "transactions": 5
     }
   ]
 }

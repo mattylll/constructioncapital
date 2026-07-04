@@ -1,22 +1,157 @@
 {
-  "updatedAt": "2026-06-23T19:12:08.500Z",
+  "updatedAt": "2026-07-03T11:39:54.253Z",
   "townSlug": "hessle",
   "countySlug": "east-riding-of-yorkshire",
   "stats": {
-    "medianPrice": 198500,
+    "medianPrice": 202500,
     "medianByType": {
-      "D": 307500,
-      "S": 198250,
-      "T": 167000,
-      "F": 111500
+      "D": 320000,
+      "S": 212500,
+      "T": 170000,
+      "F": 115000
     },
-    "transactionCount12m": 214,
-    "yoyChange": 3.1,
-    "newBuildCount": 5,
-    "existingCount": 209,
-    "newBuildPremium": 37
+    "transactionCount12m": 224,
+    "yoyChange": 6.6,
+    "newBuildCount": 2,
+    "existingCount": 222,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 158000,
+      "date": "2026-05-22",
+      "postcode": "HU13 9JA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, KIRKHAM CLOSE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-05-22",
+      "postcode": "HU13 0QL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, WESTBOURNE GROVE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-05-15",
+      "postcode": "HU13 0EX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, SOUTHFIELD"
+    },
+    {
+      "price": 210000,
+      "date": "2026-05-08",
+      "postcode": "HU13 0TQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, CLARKE AVENUE"
+    },
+    {
+      "price": 89021,
+      "date": "2026-05-08",
+      "postcode": "HU13 9DY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "124, FIRST LANE"
+    },
+    {
+      "price": 207500,
+      "date": "2026-05-06",
+      "postcode": "HU13 9HG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, BRIGG DRIVE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-05-01",
+      "postcode": "HU13 9EG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, FIRST LANE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-05-01",
+      "postcode": "HU13 0DJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, SOUTHGATE"
+    },
+    {
+      "price": 330000,
+      "date": "2026-04-30",
+      "postcode": "HU13 0PS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, TRANBY AVENUE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-04-24",
+      "postcode": "HU13 9QB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, GREEN LANE"
+    },
+    {
+      "price": 147500,
+      "date": "2026-04-22",
+      "postcode": "HU13 0RW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, 88, DAVENPORT AVENUE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-04-22",
+      "postcode": "HU13 9HZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, GISBURN ROAD"
+    },
+    {
+      "price": 140000,
+      "date": "2026-04-17",
+      "postcode": "HU13 9DL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "79, NORTHFIELD AVENUE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-04-17",
+      "postcode": "HU13 0FS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, GREENFIELD AVENUE"
+    },
+    {
+      "price": 528500,
+      "date": "2026-04-17",
+      "postcode": "HU13 0PN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29A, MARLBOROUGH AVENUE"
+    },
     {
       "price": 180000,
       "date": "2026-04-14",
@@ -25,6 +160,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "56, BERRYMAN WAY"
+    },
+    {
+      "price": 270000,
+      "date": "2026-04-09",
+      "postcode": "HU13 0HB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, RIVERSIDE COURT, CLIFF ROAD"
     },
     {
       "price": 170000,
@@ -45,157 +189,13 @@
       "address": "35, BEDFORD ROAD"
     },
     {
-      "price": 365000,
+      "price": 212500,
       "date": "2026-04-02",
-      "postcode": "HU13 0PG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, FERRIBY ROAD"
-    },
-    {
-      "price": 190000,
-      "date": "2026-04-02",
-      "postcode": "HU13 9PH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, TRAFALGAR CLOSE"
-    },
-    {
-      "price": 177000,
-      "date": "2026-03-31",
-      "postcode": "HU13 0QD",
+      "postcode": "HU13 0LP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, MOUNT AVENUE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-03-31",
-      "postcode": "HU13 0FL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, TENNISON WALK"
-    },
-    {
-      "price": 200000,
-      "date": "2026-03-30",
-      "postcode": "HU13 9BJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, BEVERLEY ROAD"
-    },
-    {
-      "price": 130000,
-      "date": "2026-03-27",
-      "postcode": "HU13 9NH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "170, HULL ROAD"
-    },
-    {
-      "price": 178500,
-      "date": "2026-03-25",
-      "postcode": "HU13 9AY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, BOOTHFERRY ROAD"
-    },
-    {
-      "price": 244000,
-      "date": "2026-03-25",
-      "postcode": "HU13 9AH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, CARTER DRIVE"
-    },
-    {
-      "price": 338000,
-      "date": "2026-03-24",
-      "postcode": "HU13 0HP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, ELSHAM RISE"
-    },
-    {
-      "price": 261300,
-      "date": "2026-03-23",
-      "postcode": "HU13 0AH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10A, HULL ROAD"
-    },
-    {
-      "price": 283500,
-      "date": "2026-03-23",
-      "postcode": "HU13 0QP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, HOLLY DRIVE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-03-12",
-      "postcode": "HU13 9BW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "75, SUNNINGDALE ROAD"
-    },
-    {
-      "price": 145000,
-      "date": "2026-03-12",
-      "postcode": "HU13 9PH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, TRAFALGAR CLOSE"
-    },
-    {
-      "price": 135000,
-      "date": "2026-03-11",
-      "postcode": "HU13 9QH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, WINSTON CHURCHILL CLOSE"
-    },
-    {
-      "price": 245000,
-      "date": "2026-03-06",
-      "postcode": "HU13 0QT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, CHERRY AVENUE"
-    },
-    {
-      "price": 80000,
-      "date": "2026-03-04",
-      "postcode": "HU13 9LJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, THE HOURNE"
-    },
-    {
-      "price": 170000,
-      "date": "2026-02-27",
-      "postcode": "HU13 0PQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, FERRIBY ROAD"
+      "address": "12, SWANLAND ROAD"
     }
   ],
   "monthlyHistory": [
@@ -226,8 +226,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 238750,
-      "transactions": 50
+      "medianPrice": 240000,
+      "transactions": 51
     },
     {
       "month": "2024-07",
@@ -256,8 +256,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 218500,
-      "transactions": 31
+      "medianPrice": 220500,
+      "transactions": 32
     },
     {
       "month": "2025-01",
@@ -296,28 +296,28 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 202250,
+      "medianPrice": 211500,
       "transactions": 24
     },
     {
       "month": "2025-09",
-      "medianPrice": 190000,
-      "transactions": 22
+      "medianPrice": 195000,
+      "transactions": 24
     },
     {
       "month": "2025-10",
-      "medianPrice": 171500,
-      "transactions": 24
+      "medianPrice": 167000,
+      "transactions": 28
     },
     {
       "month": "2025-11",
       "medianPrice": 217475,
-      "transactions": 24
+      "transactions": 26
     },
     {
       "month": "2025-12",
-      "medianPrice": 220000,
-      "transactions": 19
+      "medianPrice": 217500,
+      "transactions": 20
     },
     {
       "month": "2026-01",
@@ -326,18 +326,23 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 197000,
-      "transactions": 15
+      "medianPrice": 201000,
+      "transactions": 16
     },
     {
       "month": "2026-03",
-      "medianPrice": 212500,
-      "transactions": 14
+      "medianPrice": 225000,
+      "transactions": 15
     },
     {
       "month": "2026-04",
+      "medianPrice": 201250,
+      "transactions": 14
+    },
+    {
+      "month": "2026-05",
       "medianPrice": 180000,
-      "transactions": 5
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -349,7 +354,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 235000,
-      "transactions": 98
+      "transactions": 99
     },
     {
       "quarter": "2024-Q3",
@@ -359,7 +364,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 210000,
-      "transactions": 90
+      "transactions": 91
     },
     {
       "quarter": "2025-Q1",
@@ -373,23 +378,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 212750,
-      "transactions": 74
+      "medianPrice": 214250,
+      "transactions": 76
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 193750,
-      "transactions": 67
+      "medianPrice": 191475,
+      "transactions": 74
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 198500,
-      "transactions": 52
+      "medianPrice": 202500,
+      "transactions": 54
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 180000,
-      "transactions": 5
+      "medianPrice": 185000,
+      "transactions": 22
     }
   ]
 }

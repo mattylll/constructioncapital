@@ -1,22 +1,103 @@
 {
-  "updatedAt": "2026-06-23T19:12:07.599Z",
+  "updatedAt": "2026-07-03T11:39:53.312Z",
   "townSlug": "towcester",
   "countySlug": "northamptonshire",
   "stats": {
-    "medianPrice": 350000,
+    "medianPrice": 335000,
     "medianByType": {
-      "D": 497475,
-      "S": 314950,
-      "T": 305000,
-      "F": 152500
+      "D": 520000,
+      "S": 315000,
+      "T": 300000,
+      "F": 140500
     },
-    "transactionCount12m": 383,
-    "yoyChange": -4.1,
-    "newBuildCount": 32,
-    "existingCount": 351,
-    "newBuildPremium": 32.6
+    "transactionCount12m": 377,
+    "yoyChange": -8.8,
+    "newBuildCount": 12,
+    "existingCount": 365,
+    "newBuildPremium": 30.5
   },
   "recentTransactions": [
+    {
+      "price": 295000,
+      "date": "2026-05-12",
+      "postcode": "NN12 6JL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, KENSINGTON CLOSE"
+    },
+    {
+      "price": 578500,
+      "date": "2026-05-07",
+      "postcode": "NN12 6LE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, TANTERS ROAD"
+    },
+    {
+      "price": 740000,
+      "date": "2026-05-06",
+      "postcode": "NN12 7UF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, MOOREND ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-05-01",
+      "postcode": "NN12 6RN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "93, ALCHESTER COURT"
+    },
+    {
+      "price": 1125000,
+      "date": "2026-05-01",
+      "postcode": "NN12 8UY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "64, WEST END"
+    },
+    {
+      "price": 265000,
+      "date": "2026-04-30",
+      "postcode": "NN12 6NU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CHELTENHAM CLOSE"
+    },
+    {
+      "price": 335000,
+      "date": "2026-04-30",
+      "postcode": "NN12 6FR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, SAXON WAY"
+    },
+    {
+      "price": 310000,
+      "date": "2026-04-29",
+      "postcode": "NN12 6UB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, HEXHAM STREET"
+    },
+    {
+      "price": 457000,
+      "date": "2026-04-29",
+      "postcode": "NN12 6LE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, TANTERS ROAD"
+    },
     {
       "price": 410000,
       "date": "2026-04-24",
@@ -34,6 +115,42 @@
       "newBuild": false,
       "tenure": "F",
       "address": "14, HESKETH ROAD"
+    },
+    {
+      "price": 920000,
+      "date": "2026-04-24",
+      "postcode": "NN12 8UX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CATTLE END"
+    },
+    {
+      "price": 425000,
+      "date": "2026-04-24",
+      "postcode": "NN12 8WF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ROBERTS ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-04-24",
+      "postcode": "NN12 6JE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "61, YORK CLOSE"
+    },
+    {
+      "price": 343692,
+      "date": "2026-04-24",
+      "postcode": "NN12 6BD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, WOODCROFT CLOSE"
     },
     {
       "price": 310000,
@@ -63,6 +180,15 @@
       "address": "40, FREEMANS WAY"
     },
     {
+      "price": 395000,
+      "date": "2026-04-17",
+      "postcode": "NN12 6UE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, BEVERLEY WAY"
+    },
+    {
       "price": 400000,
       "date": "2026-04-16",
       "postcode": "NN12 6UZ",
@@ -70,132 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "26, YEOMAN ROAD"
-    },
-    {
-      "price": 350000,
-      "date": "2026-04-10",
-      "postcode": "NN12 8WQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, TIMMS LANE"
-    },
-    {
-      "price": 395000,
-      "date": "2026-04-10",
-      "postcode": "NN12 6UB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "97, HEXHAM STREET"
-    },
-    {
-      "price": 860000,
-      "date": "2026-04-07",
-      "postcode": "NN12 8FG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LODGE FARM BARN, WATER LANE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-04-02",
-      "postcode": "NN12 8SW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, THE LANE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-03-30",
-      "postcode": "NN12 6NU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, CHELTENHAM CLOSE"
-    },
-    {
-      "price": 310000,
-      "date": "2026-03-30",
-      "postcode": "NN12 6NX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, CATTERICK WAY"
-    },
-    {
-      "price": 410000,
-      "date": "2026-03-30",
-      "postcode": "NN12 6UB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, HEXHAM STREET"
-    },
-    {
-      "price": 560000,
-      "date": "2026-03-30",
-      "postcode": "NN12 8BP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, BLAKESLEY HILL"
-    },
-    {
-      "price": 260000,
-      "date": "2026-03-27",
-      "postcode": "NN12 6UD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "114, HEXHAM STREET"
-    },
-    {
-      "price": 590000,
-      "date": "2026-03-27",
-      "postcode": "NN12 7AU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, SENNA DRIVE"
-    },
-    {
-      "price": 405000,
-      "date": "2026-03-27",
-      "postcode": "NN12 8LB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, WATLING STREET EAST"
-    },
-    {
-      "price": 395000,
-      "date": "2026-03-27",
-      "postcode": "NN12 6UE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BEVERLEY WAY"
-    },
-    {
-      "price": 305000,
-      "date": "2026-03-27",
-      "postcode": "NN12 8FP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, LIME KILN CLOSE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-03-27",
-      "postcode": "NN12 6UY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "26, MALTHOUSE COURT"
     }
   ],
   "monthlyHistory": [
@@ -286,18 +286,18 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 394702,
-      "transactions": 74
+      "medianPrice": 382352,
+      "transactions": 80
     },
     {
       "month": "2025-07",
-      "medianPrice": 355000,
-      "transactions": 37
+      "medianPrice": 347500,
+      "transactions": 40
     },
     {
       "month": "2025-08",
-      "medianPrice": 355000,
-      "transactions": 41
+      "medianPrice": 344975,
+      "transactions": 48
     },
     {
       "month": "2025-09",
@@ -307,17 +307,17 @@
     {
       "month": "2025-10",
       "medianPrice": 322500,
-      "transactions": 44
+      "transactions": 46
     },
     {
       "month": "2025-11",
       "medianPrice": 365000,
-      "transactions": 45
+      "transactions": 53
     },
     {
       "month": "2025-12",
-      "medianPrice": 315000,
-      "transactions": 28
+      "medianPrice": 308000,
+      "transactions": 31
     },
     {
       "month": "2026-01",
@@ -326,18 +326,23 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 330000,
-      "transactions": 37
+      "medianPrice": 331250,
+      "transactions": 38
     },
     {
       "month": "2026-03",
-      "medianPrice": 328500,
-      "transactions": 28
+      "medianPrice": 320000,
+      "transactions": 30
     },
     {
       "month": "2026-04",
-      "medianPrice": 397500,
-      "transactions": 10
+      "medianPrice": 390000,
+      "transactions": 21
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 578500,
+      "transactions": 5
     }
   ],
   "quarterlyHistory": [
@@ -368,28 +373,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 361977,
-      "transactions": 160
+      "medianPrice": 357977,
+      "transactions": 166
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 358750,
-      "transactions": 126
+      "medianPrice": 356250,
+      "transactions": 136
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 325000,
-      "transactions": 117
+      "transactions": 130
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 325500,
-      "transactions": 84
+      "medianPrice": 325000,
+      "transactions": 87
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 397500,
-      "transactions": 10
+      "medianPrice": 392500,
+      "transactions": 26
     }
   ]
 }

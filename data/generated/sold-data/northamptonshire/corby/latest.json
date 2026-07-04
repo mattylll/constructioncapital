@@ -1,201 +1,201 @@
 {
-  "updatedAt": "2026-06-23T19:12:07.580Z",
+  "updatedAt": "2026-07-03T11:39:53.295Z",
   "townSlug": "corby",
   "countySlug": "northamptonshire",
   "stats": {
     "medianPrice": 220000,
     "medianByType": {
-      "D": 335000,
-      "S": 222000,
+      "D": 340000,
+      "S": 221000,
       "T": 190000,
       "F": 130000
     },
-    "transactionCount12m": 744,
-    "yoyChange": -6,
-    "newBuildCount": 20,
-    "existingCount": 724,
-    "newBuildPremium": 39.5
+    "transactionCount12m": 752,
+    "yoyChange": -4.3,
+    "newBuildCount": 7,
+    "existingCount": 745,
+    "newBuildPremium": 29.5
   },
   "recentTransactions": [
     {
-      "price": 295000,
-      "date": "2026-04-17",
-      "postcode": "NN18 8RG",
+      "price": 205000,
+      "date": "2026-05-18",
+      "postcode": "NN18 9LG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, BONINGTON WALK"
+    },
+    {
+      "price": 390000,
+      "date": "2026-05-11",
+      "postcode": "NN17 5FY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, HUNTINGDON CLOSE"
+      "address": "47, ARNOLD DRIVE"
     },
     {
-      "price": 185000,
-      "date": "2026-04-15",
-      "postcode": "NN18 8NW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, VIOLET CLOSE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-04-14",
-      "postcode": "NN18 0NR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, SCARBOROUGH WALK"
-    },
-    {
-      "price": 259995,
-      "date": "2026-04-13",
-      "postcode": "NN17 2BP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "75, ROWLETT ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-04-10",
-      "postcode": "NN17 2JU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, HUMBER WALK"
-    },
-    {
-      "price": 175000,
-      "date": "2026-04-08",
-      "postcode": "NN18 8TW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, FLINDERS CLOSE"
-    },
-    {
-      "price": 193000,
-      "date": "2026-04-02",
-      "postcode": "NN18 9HS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, SPILSBY CLOSE"
-    },
-    {
-      "price": 160000,
-      "date": "2026-04-02",
-      "postcode": "NN17 1EL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "73, WEST GLEBE ROAD"
-    },
-    {
-      "price": 123000,
-      "date": "2026-04-02",
-      "postcode": "NN18 8FW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "35, CONYGER CLOSE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-04-02",
-      "postcode": "NN18 8FX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "66, OUTFIELD CLOSE"
-    },
-    {
-      "price": 183500,
-      "date": "2026-03-31",
-      "postcode": "NN17 1HJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, TANFIELDS GROVE"
-    },
-    {
-      "price": 214000,
-      "date": "2026-03-31",
-      "postcode": "NN18 8FX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, OUTFIELD CLOSE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-03-31",
-      "postcode": "NN17 2AG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, WHITE POST COURT"
-    },
-    {
-      "price": 175000,
-      "date": "2026-03-30",
-      "postcode": "NN18 9BA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, HIGHBROOK"
-    },
-    {
-      "price": 215000,
-      "date": "2026-03-27",
-      "postcode": "NN18 9BE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "71, SOUTHBROOK"
-    },
-    {
-      "price": 255000,
-      "date": "2026-03-27",
-      "postcode": "NN18 8GG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, KESTEVEN WAY"
-    },
-    {
-      "price": 243750,
-      "date": "2026-03-27",
-      "postcode": "NN17 5EW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, SUNNINGDALE DRIVE"
-    },
-    {
-      "price": 352500,
-      "date": "2026-03-27",
-      "postcode": "NN18 8RL",
+      "price": 315000,
+      "date": "2026-05-08",
+      "postcode": "NN18 8DQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, KELSO CLOSE"
+      "address": "25, CLARENDON CLOSE"
     },
     {
-      "price": 125000,
-      "date": "2026-03-26",
-      "postcode": "NN17 1DJ",
-      "propertyType": "S",
+      "price": 340000,
+      "date": "2026-05-08",
+      "postcode": "NN18 8TR",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, FRANKLIN FIELDS"
+      "address": "50, LIVINGSTONE ROAD"
     },
     {
-      "price": 157000,
-      "date": "2026-03-25",
-      "postcode": "NN18 9BW",
+      "price": 167500,
+      "date": "2026-05-08",
+      "postcode": "NN17 2QU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, GRANTHAM WALK"
+      "address": "23, RATHLIN CLOSE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-05-08",
+      "postcode": "NN18 9HY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, KINGSBROOK"
+    },
+    {
+      "price": 350000,
+      "date": "2026-05-08",
+      "postcode": "NN17 3HT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, CORBY ROAD"
+    },
+    {
+      "price": 325000,
+      "date": "2026-05-01",
+      "postcode": "NN18 8PJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, OSBOURNE CLOSE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-05-01",
+      "postcode": "NN18 0QU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, NASH CLOSE"
+    },
+    {
+      "price": 430000,
+      "date": "2026-05-01",
+      "postcode": "NN17 3HF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, HILLSIDE CRESCENT"
+    },
+    {
+      "price": 232000,
+      "date": "2026-05-01",
+      "postcode": "NN17 1HE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WESTFIELDS ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-04-30",
+      "postcode": "NN18 9JX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, DUNEDIN ROAD"
+    },
+    {
+      "price": 330000,
+      "date": "2026-04-30",
+      "postcode": "NN18 8DQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, CLARENDON CLOSE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-04-30",
+      "postcode": "NN18 8QQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "97, CHEPSTOW ROAD"
+    },
+    {
+      "price": 320000,
+      "date": "2026-04-30",
+      "postcode": "NN18 8PH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "401, LYVEDEN WAY"
+    },
+    {
+      "price": 235000,
+      "date": "2026-04-29",
+      "postcode": "NN17 3LX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "92, AIRFIELD WAY"
+    },
+    {
+      "price": 180000,
+      "date": "2026-04-28",
+      "postcode": "NN18 9DJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, GRIEG WALK"
+    },
+    {
+      "price": 232000,
+      "date": "2026-04-27",
+      "postcode": "NN17 1BJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, PEN GREEN LANE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-04-27",
+      "postcode": "NN17 5FB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, EYDON DRIVE"
+    },
+    {
+      "price": 289950,
+      "date": "2026-04-27",
+      "postcode": "NN17 1AU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, STOCKS LANE"
     }
   ],
   "monthlyHistory": [
@@ -267,12 +267,12 @@
     {
       "month": "2025-02",
       "medianPrice": 242500,
-      "transactions": 118
+      "transactions": 120
     },
     {
       "month": "2025-03",
-      "medianPrice": 242500,
-      "transactions": 176
+      "medianPrice": 245000,
+      "transactions": 177
     },
     {
       "month": "2025-04",
@@ -281,38 +281,38 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 233218,
-      "transactions": 74
+      "medianPrice": 226436,
+      "transactions": 75
     },
     {
       "month": "2025-06",
       "medianPrice": 220000,
-      "transactions": 130
+      "transactions": 133
     },
     {
       "month": "2025-07",
-      "medianPrice": 203000,
-      "transactions": 101
+      "medianPrice": 206000,
+      "transactions": 103
     },
     {
       "month": "2025-08",
-      "medianPrice": 225000,
-      "transactions": 67
+      "medianPrice": 227500,
+      "transactions": 71
     },
     {
       "month": "2025-09",
-      "medianPrice": 222000,
-      "transactions": 81
+      "medianPrice": 223500,
+      "transactions": 82
     },
     {
       "month": "2025-10",
-      "medianPrice": 205000,
-      "transactions": 83
+      "medianPrice": 204500,
+      "transactions": 86
     },
     {
       "month": "2025-11",
-      "medianPrice": 241000,
-      "transactions": 78
+      "medianPrice": 240000,
+      "transactions": 87
     },
     {
       "month": "2025-12",
@@ -321,23 +321,28 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 229000,
-      "transactions": 66
+      "medianPrice": 227500,
+      "transactions": 68
     },
     {
       "month": "2026-02",
       "medianPrice": 220000,
-      "transactions": 57
+      "transactions": 58
     },
     {
       "month": "2026-03",
-      "medianPrice": 214000,
-      "transactions": 47
+      "medianPrice": 215000,
+      "transactions": 55
     },
     {
       "month": "2026-04",
-      "medianPrice": 189000,
-      "transactions": 10
+      "medianPrice": 232000,
+      "transactions": 37
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 315000,
+      "transactions": 11
     }
   ],
   "quarterlyHistory": [
@@ -364,32 +369,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 237500,
-      "transactions": 388
+      "transactions": 391
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 228500,
-      "transactions": 275
+      "transactions": 279
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 218500,
-      "transactions": 249
+      "medianPrice": 219000,
+      "transactions": 256
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 217500,
-      "transactions": 256
+      "transactions": 268
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 220000,
-      "transactions": 170
+      "transactions": 181
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 189000,
-      "transactions": 10
+      "medianPrice": 237500,
+      "transactions": 48
     }
   ]
 }

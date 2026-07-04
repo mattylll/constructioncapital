@@ -1,22 +1,148 @@
 {
-  "updatedAt": "2026-06-23T19:12:06.483Z",
+  "updatedAt": "2026-07-03T11:39:52.197Z",
   "townSlug": "thame",
   "countySlug": "oxfordshire",
   "stats": {
-    "medianPrice": 430000,
+    "medianPrice": 437250,
     "medianByType": {
-      "D": 750000,
-      "S": 468750,
-      "T": 360500,
+      "D": 727500,
+      "S": 475000,
+      "T": 355250,
       "F": 270000
     },
-    "transactionCount12m": 165,
-    "yoyChange": -6.9,
-    "newBuildCount": 2,
-    "existingCount": 163,
-    "newBuildPremium": null
+    "transactionCount12m": 184,
+    "yoyChange": -4.9,
+    "newBuildCount": 4,
+    "existingCount": 180,
+    "newBuildPremium": 206.1
   },
   "recentTransactions": [
+    {
+      "price": 900000,
+      "date": "2026-05-13",
+      "postcode": "OX9 3DN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, JOHN FULKES AVENUE"
+    },
+    {
+      "price": 995000,
+      "date": "2026-05-13",
+      "postcode": "OX9 2AU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, CEDAR CRESCENT"
+    },
+    {
+      "price": 420000,
+      "date": "2026-05-13",
+      "postcode": "OX9 3YX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ONSLOW DRIVE"
+    },
+    {
+      "price": 480000,
+      "date": "2026-05-08",
+      "postcode": "OX9 3TG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, CROMWELL AVENUE"
+    },
+    {
+      "price": 440000,
+      "date": "2026-05-08",
+      "postcode": "OX9 3XH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MONTROSE WAY"
+    },
+    {
+      "price": 705000,
+      "date": "2026-05-08",
+      "postcode": "OX9 2QA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, ARNOLD WAY"
+    },
+    {
+      "price": 450000,
+      "date": "2026-05-08",
+      "postcode": "OX9 3NJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, HORTON AVENUE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-05-05",
+      "postcode": "OX9 3HR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, PARK STREET"
+    },
+    {
+      "price": 285000,
+      "date": "2026-05-01",
+      "postcode": "OX9 3BH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, THE OLD GRAIN STORE, 46A, NORTH STREET"
+    },
+    {
+      "price": 639000,
+      "date": "2026-05-01",
+      "postcode": "OX9 3NF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, QUEENS ROAD"
+    },
+    {
+      "price": 220000,
+      "date": "2026-05-01",
+      "postcode": "OX9 3JR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "18, ORCHARD CLOSE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-05-01",
+      "postcode": "OX9 3NE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "72, COTMORE CLOSE"
+    },
+    {
+      "price": 435000,
+      "date": "2026-04-29",
+      "postcode": "OX9 3YJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, OVERTON DRIVE"
+    },
+    {
+      "price": 580000,
+      "date": "2026-04-27",
+      "postcode": "OX9 3ZG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, YOUENS DRIVE"
+    },
     {
       "price": 300000,
       "date": "2026-04-24",
@@ -36,6 +162,24 @@
       "address": "17, MONTROSE WAY"
     },
     {
+      "price": 400000,
+      "date": "2026-04-23",
+      "postcode": "OX9 3HR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, PARK STREET"
+    },
+    {
+      "price": 322000,
+      "date": "2026-04-23",
+      "postcode": "OX9 3DA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6A, KINGS CLOSE"
+    },
+    {
       "price": 460000,
       "date": "2026-04-09",
       "postcode": "OX9 2DT",
@@ -52,150 +196,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "57, COTMORE GARDENS"
-    },
-    {
-      "price": 500000,
-      "date": "2026-04-02",
-      "postcode": "OX9 2DP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, NELSON STREET"
-    },
-    {
-      "price": 300000,
-      "date": "2026-04-01",
-      "postcode": "OX9 2BZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 3, 17, HIGH STREET"
-    },
-    {
-      "price": 430000,
-      "date": "2026-03-30",
-      "postcode": "OX9 3JQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, SEVEN ACRES"
-    },
-    {
-      "price": 385000,
-      "date": "2026-03-27",
-      "postcode": "OX9 7AD",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, HIGH STREET"
-    },
-    {
-      "price": 432500,
-      "date": "2026-03-27",
-      "postcode": "OX9 3WF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, VANE ROAD"
-    },
-    {
-      "price": 645000,
-      "date": "2026-03-25",
-      "postcode": "OX9 3YR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CAVENDISH WALK"
-    },
-    {
-      "price": 310000,
-      "date": "2026-03-23",
-      "postcode": "OX9 3LT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, ESSEX ROAD"
-    },
-    {
-      "price": 460000,
-      "date": "2026-03-23",
-      "postcode": "OX9 2LY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, ALBURY VIEW"
-    },
-    {
-      "price": 289500,
-      "date": "2026-03-23",
-      "postcode": "OX9 3YG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, MARSTON ROAD"
-    },
-    {
-      "price": 855000,
-      "date": "2026-03-17",
-      "postcode": "OX9 7AL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, CHILTERN VIEW"
-    },
-    {
-      "price": 320000,
-      "date": "2026-03-16",
-      "postcode": "OX9 3LY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, YEATS LODGE, GREYHOUND LANE"
-    },
-    {
-      "price": 480000,
-      "date": "2026-03-16",
-      "postcode": "OX9 3ZQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, YOUENS DRIVE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-03-12",
-      "postcode": "OX9 7AU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, MARSH END"
-    },
-    {
-      "price": 320000,
-      "date": "2026-03-06",
-      "postcode": "OX9 3EB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, IRETON COURT"
-    },
-    {
-      "price": 853500,
-      "date": "2026-03-06",
-      "postcode": "OX9 7BN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, SWAN GARDENS"
-    },
-    {
-      "price": 272500,
-      "date": "2026-03-06",
-      "postcode": "OX9 3JB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "42, LATIMER HOUSE, ANGUS COURT"
     }
   ],
   "monthlyHistory": [
@@ -261,8 +261,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 457500,
-      "transactions": 20
+      "medianPrice": 465000,
+      "transactions": 21
     },
     {
       "month": "2025-02",
@@ -291,13 +291,13 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 383500,
-      "transactions": 20
+      "medianPrice": 387000,
+      "transactions": 21
     },
     {
       "month": "2025-08",
-      "medianPrice": 416250,
-      "transactions": 22
+      "medianPrice": 438750,
+      "transactions": 24
     },
     {
       "month": "2025-09",
@@ -306,13 +306,13 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 452500,
-      "transactions": 24
+      "medianPrice": 445000,
+      "transactions": 25
     },
     {
       "month": "2025-11",
       "medianPrice": 480000,
-      "transactions": 21
+      "transactions": 23
     },
     {
       "month": "2025-12",
@@ -331,13 +331,18 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 400000,
-      "transactions": 15
+      "medianPrice": 415000,
+      "transactions": 16
     },
     {
       "month": "2026-04",
-      "medianPrice": 480000,
-      "transactions": 6
+      "medianPrice": 460000,
+      "transactions": 13
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 445000,
+      "transactions": 12
     }
   ],
   "quarterlyHistory": [
@@ -364,7 +369,7 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 470000,
-      "transactions": 99
+      "transactions": 100
     },
     {
       "quarter": "2025-Q2",
@@ -373,23 +378,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 390000,
-      "transactions": 53
+      "medianPrice": 402500,
+      "transactions": 56
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 465000,
-      "transactions": 63
+      "medianPrice": 462500,
+      "transactions": 66
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 431250,
-      "transactions": 36
+      "medianPrice": 432500,
+      "transactions": 37
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 480000,
-      "transactions": 6
+      "medianPrice": 450000,
+      "transactions": 25
     }
   ]
 }
