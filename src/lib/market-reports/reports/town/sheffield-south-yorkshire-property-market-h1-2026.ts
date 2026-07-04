@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "sheffield-south-yorkshire-property-market-h1-2026",
-  title: "Sheffield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sheffield House Prices 2026: £208,750 Median",
-  metaDescription: "Sheffield house prices 2026: £208,750 median, 5,074 sales, -0.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Sheffield Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Sheffield House Prices, End of H1 2026: £208,750 Median",
+  metaDescription: "Sheffield house prices as at the end of H1 2026: £208,750 median, 5,074 sales, -0.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £208,750, 5,074 sales, -0.6% YoY. South Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

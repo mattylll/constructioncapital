@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "dover-kent-property-market-h1-2026",
-  title: "Dover Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dover House Prices 2026: £280,000 Median",
-  metaDescription: "Dover house prices 2026: £280,000 median, 1,416 sales, -3.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Dover Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Dover House Prices, End of H1 2026: £280,000 Median",
+  metaDescription: "Dover house prices as at the end of H1 2026: £280,000 median, 1,416 sales, -3.4% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £280,000, 1,416 sales, -3.4% YoY. Kent county.",
   category: "town",
   region: "London & South East",

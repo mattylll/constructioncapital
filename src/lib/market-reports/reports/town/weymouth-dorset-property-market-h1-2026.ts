@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "weymouth-dorset-property-market-h1-2026",
-  title: "Weymouth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Weymouth House Prices 2026: £275,000 Median",
-  metaDescription: "Weymouth house prices 2026: £275,000 median, 872 sales, -3.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Weymouth Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Weymouth House Prices, End of H1 2026: £275,000 Median",
+  metaDescription: "Weymouth house prices as at the end of H1 2026: £275,000 median, 872 sales, -3.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £275,000, 872 sales, -3.5% YoY. Dorset county.",
   category: "town",
   region: "South West",

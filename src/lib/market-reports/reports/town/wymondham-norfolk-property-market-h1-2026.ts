@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "wymondham-norfolk-property-market-h1-2026",
-  title: "Wymondham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Wymondham House Prices 2026: £300,000 Median",
-  metaDescription: "Wymondham house prices 2026: £300,000 median, 1,697 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Wymondham Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Wymondham House Prices, End of H1 2026: £300,000 Median",
+  metaDescription: "Wymondham house prices as at the end of H1 2026: £300,000 median, 1,697 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £300,000, 1,697 sales, 0% YoY. Norfolk county.",
   category: "town",
   region: "East of England",

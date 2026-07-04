@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "hexham-northumberland-property-market-h1-2026",
-  title: "Hexham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hexham House Prices 2026: £280,000 Median",
-  metaDescription: "Hexham house prices 2026: £280,000 median, 300 sales, +9.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Hexham Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Hexham House Prices, End of H1 2026: £280,000 Median",
+  metaDescription: "Hexham house prices as at the end of H1 2026: £280,000 median, 300 sales, +9.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £280,000, 300 sales, +9.8% YoY. Northumberland county.",
   category: "town",
   region: "North East & Yorkshire",

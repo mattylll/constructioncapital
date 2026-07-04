@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "highgate-greater-london-property-market-h1-2026",
-  title: "Highgate Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Highgate House Prices 2026: £625,000 Median",
-  metaDescription: "Highgate house prices 2026: £625,000 median, 3,124 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Highgate Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Highgate House Prices, End of H1 2026: £625,000 Median",
+  metaDescription: "Highgate house prices as at the end of H1 2026: £625,000 median, 3,124 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £625,000, 3,124 sales, 0% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

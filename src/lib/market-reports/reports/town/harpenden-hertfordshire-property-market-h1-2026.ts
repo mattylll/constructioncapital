@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "harpenden-hertfordshire-property-market-h1-2026",
-  title: "Harpenden Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Harpenden House Prices 2026: £790,000 Median",
-  metaDescription: "Harpenden house prices 2026: £790,000 median, 321 sales, +5.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Harpenden Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Harpenden House Prices, End of H1 2026: £790,000 Median",
+  metaDescription: "Harpenden house prices as at the end of H1 2026: £790,000 median, 321 sales, +5.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £790,000, 321 sales, +5.3% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",

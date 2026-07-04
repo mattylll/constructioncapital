@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "blackpool-lancashire-property-market-h1-2026",
-  title: "Blackpool Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Blackpool House Prices 2026: £133,500 Median",
-  metaDescription: "Blackpool house prices 2026: £133,500 median, 1,924 sales, +5.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Blackpool Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Blackpool House Prices, End of H1 2026: £133,500 Median",
+  metaDescription: "Blackpool house prices as at the end of H1 2026: £133,500 median, 1,924 sales, +5.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £133,500, 1,924 sales, +5.1% YoY. Lancashire county.",
   category: "town",
   region: "North West",

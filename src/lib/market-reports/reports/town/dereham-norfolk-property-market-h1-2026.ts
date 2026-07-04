@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "dereham-norfolk-property-market-h1-2026",
-  title: "Dereham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dereham House Prices 2026: £270,000 Median",
-  metaDescription: "Dereham house prices 2026: £270,000 median, 449 sales, +0.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Dereham Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Dereham House Prices, End of H1 2026: £270,000 Median",
+  metaDescription: "Dereham house prices as at the end of H1 2026: £270,000 median, 449 sales, +0.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £270,000, 449 sales, +0.7% YoY. Norfolk county.",
   category: "town",
   region: "East of England",

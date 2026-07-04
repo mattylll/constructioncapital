@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "warrington-cheshire-property-market-h1-2026",
-  title: "Warrington Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Warrington House Prices 2026: £249,999 Median",
-  metaDescription: "Warrington house prices 2026: £249,999 median, 2,419 sales, +2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Warrington Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Warrington House Prices, End of H1 2026: £249,999 Median",
+  metaDescription: "Warrington house prices as at the end of H1 2026: £249,999 median, 2,419 sales, +2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £249,999, 2,419 sales, +2% YoY. Cheshire county.",
   category: "town",
   region: "North West",

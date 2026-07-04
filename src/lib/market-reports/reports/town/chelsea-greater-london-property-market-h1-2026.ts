@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "chelsea-greater-london-property-market-h1-2026",
-  title: "Chelsea Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chelsea House Prices 2026: £1m Median",
-  metaDescription: "Chelsea house prices 2026: £1m median, 1,185 sales, -14.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Chelsea Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Chelsea House Prices, End of H1 2026: £1m Median",
+  metaDescription: "Chelsea house prices as at the end of H1 2026: £1m median, 1,185 sales, -14.4% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £1m, 1,185 sales, -14.4% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

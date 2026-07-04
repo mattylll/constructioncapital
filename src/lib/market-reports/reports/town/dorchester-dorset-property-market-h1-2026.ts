@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "dorchester-dorset-property-market-h1-2026",
-  title: "Dorchester Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dorchester House Prices 2026: £336,500 Median",
-  metaDescription: "Dorchester house prices 2026: £336,500 median, 620 sales, -1.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Dorchester Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Dorchester House Prices, End of H1 2026: £336,500 Median",
+  metaDescription: "Dorchester house prices as at the end of H1 2026: £336,500 median, 620 sales, -1.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £336,500, 620 sales, -1.8% YoY. Dorset county.",
   category: "town",
   region: "South West",

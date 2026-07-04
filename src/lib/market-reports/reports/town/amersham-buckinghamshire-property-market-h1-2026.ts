@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "amersham-buckinghamshire-property-market-h1-2026",
-  title: "Amersham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Amersham House Prices 2026: £746,995 Median",
-  metaDescription: "Amersham house prices 2026: £746,995 median, 231 sales, +6.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Amersham Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Amersham House Prices, End of H1 2026: £746,995 Median",
+  metaDescription: "Amersham house prices as at the end of H1 2026: £746,995 median, 231 sales, +6.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £746,995, 231 sales, +6.7% YoY. Buckinghamshire county.",
   category: "town",
   region: "London & South East",

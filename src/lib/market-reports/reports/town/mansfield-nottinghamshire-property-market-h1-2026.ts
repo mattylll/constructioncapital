@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "mansfield-nottinghamshire-property-market-h1-2026",
-  title: "Mansfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Mansfield House Prices 2026: £180,000 Median",
-  metaDescription: "Mansfield house prices 2026: £180,000 median, 1,212 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Mansfield Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Mansfield House Prices, End of H1 2026: £180,000 Median",
+  metaDescription: "Mansfield house prices as at the end of H1 2026: £180,000 median, 1,212 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £180,000, 1,212 sales, 0% YoY. Nottinghamshire county.",
   category: "town",
   region: "Midlands",

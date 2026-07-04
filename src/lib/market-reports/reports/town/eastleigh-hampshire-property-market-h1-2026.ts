@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "eastleigh-hampshire-property-market-h1-2026",
-  title: "Eastleigh Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Eastleigh House Prices 2026: £330,000 Median",
-  metaDescription: "Eastleigh house prices 2026: £330,000 median, 1,615 sales, -2.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Eastleigh Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Eastleigh House Prices, End of H1 2026: £330,000 Median",
+  metaDescription: "Eastleigh house prices as at the end of H1 2026: £330,000 median, 1,615 sales, -2.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £330,000, 1,615 sales, -2.9% YoY. Hampshire county.",
   category: "town",
   region: "London & South East",

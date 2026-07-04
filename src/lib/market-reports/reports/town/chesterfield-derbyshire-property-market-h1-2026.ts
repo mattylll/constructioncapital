@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "chesterfield-derbyshire-property-market-h1-2026",
-  title: "Chesterfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chesterfield House Prices 2026: £185,000 Median",
-  metaDescription: "Chesterfield house prices 2026: £185,000 median, 1,249 sales, -2.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Chesterfield Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Chesterfield House Prices, End of H1 2026: £185,000 Median",
+  metaDescription: "Chesterfield house prices as at the end of H1 2026: £185,000 median, 1,249 sales, -2.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £185,000, 1,249 sales, -2.6% YoY. Derbyshire county.",
   category: "town",
   region: "Midlands",

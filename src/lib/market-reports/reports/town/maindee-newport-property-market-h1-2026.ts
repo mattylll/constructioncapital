@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "maindee-newport-property-market-h1-2026",
-  title: "Maindee Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Maindee House Prices 2026: £227,500 Median",
-  metaDescription: "Maindee house prices 2026: £227,500 median, 1,776 sales, +1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Maindee Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Maindee House Prices, End of H1 2026: £227,500 Median",
+  metaDescription: "Maindee house prices as at the end of H1 2026: £227,500 median, 1,776 sales, +1.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £227,500, 1,776 sales, +1.1% YoY. Newport county.",
   category: "town",
   region: "Wales",

@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "malvern-worcestershire-property-market-h1-2026",
-  title: "Malvern Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Malvern House Prices 2026: £333,750 Median",
-  metaDescription: "Malvern house prices 2026: £333,750 median, 874 sales, +4.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Malvern Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Malvern House Prices, End of H1 2026: £333,750 Median",
+  metaDescription: "Malvern house prices as at the end of H1 2026: £333,750 median, 874 sales, +4.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £333,750, 874 sales, +4.3% YoY. Worcestershire county.",
   category: "town",
   region: "Midlands",

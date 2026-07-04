@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "derby-derbyshire-property-market-h1-2026",
-  title: "Derby Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Derby House Prices 2026: £205,000 Median",
-  metaDescription: "Derby house prices 2026: £205,000 median, 2,702 sales, -1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Derby Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Derby House Prices, End of H1 2026: £205,000 Median",
+  metaDescription: "Derby house prices as at the end of H1 2026: £205,000 median, 2,702 sales, -1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £205,000, 2,702 sales, -1% YoY. Derbyshire county.",
   category: "town",
   region: "Midlands",

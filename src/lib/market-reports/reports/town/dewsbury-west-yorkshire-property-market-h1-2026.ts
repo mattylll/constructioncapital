@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "dewsbury-west-yorkshire-property-market-h1-2026",
-  title: "Dewsbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Dewsbury House Prices 2026: £173,000 Median",
-  metaDescription: "Dewsbury house prices 2026: £173,000 median, 469 sales, -1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Dewsbury Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Dewsbury House Prices, End of H1 2026: £173,000 Median",
+  metaDescription: "Dewsbury house prices as at the end of H1 2026: £173,000 median, 469 sales, -1.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £173,000, 469 sales, -1.1% YoY. West Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "cambridgeshire-property-market-h1-2026",
-  title: "Cambridgeshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Cambridgeshire House Prices 2026: £302,500 Median",
-  metaDescription: "Cambridgeshire house prices 2026: £302,500 median, 6,561 sales, -2.3% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Cambridgeshire Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Cambridgeshire House Prices, End of H1 2026: £302,500 Median",
+  metaDescription: "Cambridgeshire house prices as at the end of H1 2026: £302,500 median, 6,561 sales, -2.3% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £302,500, 6,561 transactions, -2.3% YoY.",
   category: "county",
   region: "East of England",

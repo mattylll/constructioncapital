@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "vauxhall-greater-london-property-market-h1-2026",
-  title: "Vauxhall Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Vauxhall House Prices 2026: £530,000 Median",
-  metaDescription: "Vauxhall house prices 2026: £530,000 median, 2,688 sales, -3.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Vauxhall Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Vauxhall House Prices, End of H1 2026: £530,000 Median",
+  metaDescription: "Vauxhall house prices as at the end of H1 2026: £530,000 median, 2,688 sales, -3.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £530,000, 2,688 sales, -3.2% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

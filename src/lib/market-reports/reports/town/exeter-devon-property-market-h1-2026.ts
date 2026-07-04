@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "exeter-devon-property-market-h1-2026",
-  title: "Exeter Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Exeter House Prices 2026: £300,000 Median",
-  metaDescription: "Exeter house prices 2026: £300,000 median, 1,265 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Exeter Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Exeter House Prices, End of H1 2026: £300,000 Median",
+  metaDescription: "Exeter house prices as at the end of H1 2026: £300,000 median, 1,265 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £300,000, 1,265 sales, 0% YoY. Devon county.",
   category: "town",
   region: "South West",

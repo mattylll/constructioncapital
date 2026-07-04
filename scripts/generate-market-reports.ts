@@ -795,9 +795,9 @@ function generateCountyReport(county: CountyAgg, allCounties: CountyAgg[]): Mark
 
   return {
     slug,
-    title: `${county.name} Property Market: Prices, Trends & Development Finance (2026)`,
-    metaTitle: `${county.name} House Prices 2026: ${formatPrice(county.medianPrice)} Median`,
-    metaDescription: `${county.name} house prices 2026: ${formatPrice(county.medianPrice)} median, ${county.totalTransactions.toLocaleString("en-GB")} sales, ${county.avgYoyChange > 0 ? "+" : ""}${county.avgYoyChange}% YoY. Town-by-town comparison, new-build premiums and development finance.`,
+    title: `${county.name} Property Market: Prices, Trends & Development Finance, End of H1 2026`,
+    metaTitle: `${county.name} House Prices, End of H1 2026: ${formatPrice(county.medianPrice)} Median`,
+    metaDescription: `${county.name} house prices as at the end of H1 2026: ${formatPrice(county.medianPrice)} median, ${county.totalTransactions.toLocaleString("en-GB")} sales, ${county.avgYoyChange > 0 ? "+" : ""}${county.avgYoyChange}% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.`,
     excerpt: `${county.towns.length} towns analysed. Median price ${formatPrice(county.medianPrice)}, ${county.totalTransactions.toLocaleString("en-GB")} transactions, ${county.avgYoyChange > 0 ? "+" : ""}${county.avgYoyChange}% YoY.`,
     category: "county",
     region: county.region,
@@ -929,9 +929,9 @@ function generateRegionalReport(region: RegionAgg, allCounties: CountyAgg[]): Ma
 
   return {
     slug,
-    title: `${region.name} Property Market: Regional Analysis & County Comparison (2026)`,
-    metaTitle: `${region.name} Property Market 2026 — County Prices, Trends & Development Hotspots`,
-    metaDescription: `${region.name} property market overview: ${region.counties.length} counties, ${region.totalTransactions.toLocaleString("en-GB")} sales, median ${formatPrice(region.medianPrice)}. County comparisons, development hotspots & finance options.`,
+    title: `${region.name} Property Market: Regional Analysis & County Comparison, End of H1 2026`,
+    metaTitle: `${region.name} Property Market, End of H1 2026: County Prices, Trends & Development Hotspots`,
+    metaDescription: `${region.name} property market overview as at the end of H1 2026: ${region.counties.length} counties, ${region.totalTransactions.toLocaleString("en-GB")} sales, median ${formatPrice(region.medianPrice)}. County comparisons, development hotspots and finance options.`,
     excerpt: `${region.counties.length} counties, ${region.totalTransactions.toLocaleString("en-GB")} transactions, median ${formatPrice(region.medianPrice)}.`,
     category: "regional",
     region: region.name,
@@ -1563,9 +1563,9 @@ function generateTownReport(town: TownAgg, county: CountyAgg): MarketReport {
 
   return {
     slug,
-    title: `${town.name} Property Market: House Prices, Sold Data & Development Finance (2026)`,
-    metaTitle: `${town.name} House Prices 2026: ${formatPrice(stats.medianPrice)} Median`,
-    metaDescription: `${town.name} house prices 2026: ${formatPrice(stats.medianPrice)} median, ${stats.transactionCount12m.toLocaleString("en-GB")} sales, ${stats.yoyChange > 0 ? "+" : ""}${stats.yoyChange}% YoY. Sold-price trends by property type, new-build premiums and development finance.`,
+    title: `${town.name} Property Market: House Prices, Sold Data & Development Finance, End of H1 2026`,
+    metaTitle: `${town.name} House Prices, End of H1 2026: ${formatPrice(stats.medianPrice)} Median`,
+    metaDescription: `${town.name} house prices as at the end of H1 2026: ${formatPrice(stats.medianPrice)} median, ${stats.transactionCount12m.toLocaleString("en-GB")} sales, ${stats.yoyChange > 0 ? "+" : ""}${stats.yoyChange}% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.`,
     excerpt: `Median price ${formatPrice(stats.medianPrice)}, ${stats.transactionCount12m.toLocaleString("en-GB")} sales, ${stats.yoyChange > 0 ? "+" : ""}${stats.yoyChange}% YoY. ${county.name} county.`,
     category: "town",
     region: county.region,

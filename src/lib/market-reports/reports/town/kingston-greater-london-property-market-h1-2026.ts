@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "kingston-greater-london-property-market-h1-2026",
-  title: "Kingston Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Kingston House Prices 2026: £540,000 Median",
-  metaDescription: "Kingston house prices 2026: £540,000 median, 1,472 sales, +1.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Kingston Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Kingston House Prices, End of H1 2026: £540,000 Median",
+  metaDescription: "Kingston house prices as at the end of H1 2026: £540,000 median, 1,472 sales, +1.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £540,000, 1,472 sales, +1.9% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

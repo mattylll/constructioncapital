@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "worcestershire-property-market-h1-2026",
-  title: "Worcestershire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Worcestershire House Prices 2026: £290,000 Median",
-  metaDescription: "Worcestershire house prices 2026: £290,000 median, 5,903 sales, +0.9% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Worcestershire Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Worcestershire House Prices, End of H1 2026: £290,000 Median",
+  metaDescription: "Worcestershire house prices as at the end of H1 2026: £290,000 median, 5,903 sales, +0.9% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "7 towns analysed. Median price £290,000, 5,903 transactions, +0.9% YoY.",
   category: "county",
   region: "Midlands",

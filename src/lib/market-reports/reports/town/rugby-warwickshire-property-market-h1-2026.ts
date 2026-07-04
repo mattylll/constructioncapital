@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "rugby-warwickshire-property-market-h1-2026",
-  title: "Rugby Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Rugby House Prices 2026: £277,750 Median",
-  metaDescription: "Rugby house prices 2026: £277,750 median, 1,316 sales, -7.4% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Rugby Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Rugby House Prices, End of H1 2026: £277,750 Median",
+  metaDescription: "Rugby house prices as at the end of H1 2026: £277,750 median, 1,316 sales, -7.4% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £277,750, 1,316 sales, -7.4% YoY. Warwickshire county.",
   category: "town",
   region: "Midlands",

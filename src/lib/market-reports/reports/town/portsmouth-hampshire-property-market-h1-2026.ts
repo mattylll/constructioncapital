@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "portsmouth-hampshire-property-market-h1-2026",
-  title: "Portsmouth Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Portsmouth House Prices 2026: £252,750 Median",
-  metaDescription: "Portsmouth house prices 2026: £252,750 median, 2,076 sales, +1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Portsmouth Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Portsmouth House Prices, End of H1 2026: £252,750 Median",
+  metaDescription: "Portsmouth house prices as at the end of H1 2026: £252,750 median, 2,076 sales, +1.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £252,750, 2,076 sales, +1.1% YoY. Hampshire county.",
   category: "town",
   region: "London & South East",

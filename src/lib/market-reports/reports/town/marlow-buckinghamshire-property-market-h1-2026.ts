@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "marlow-buckinghamshire-property-market-h1-2026",
-  title: "Marlow Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Marlow House Prices 2026: £625,000 Median",
-  metaDescription: "Marlow house prices 2026: £625,000 median, 203 sales, -6.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Marlow Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Marlow House Prices, End of H1 2026: £625,000 Median",
+  metaDescription: "Marlow house prices as at the end of H1 2026: £625,000 median, 203 sales, -6.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £625,000, 203 sales, -6.7% YoY. Buckinghamshire county.",
   category: "town",
   region: "London & South East",

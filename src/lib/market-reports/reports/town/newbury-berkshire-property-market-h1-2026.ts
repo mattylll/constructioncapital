@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "newbury-berkshire-property-market-h1-2026",
-  title: "Newbury Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newbury House Prices 2026: £354,250 Median",
-  metaDescription: "Newbury house prices 2026: £354,250 median, 624 sales, -8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Newbury Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Newbury House Prices, End of H1 2026: £354,250 Median",
+  metaDescription: "Newbury house prices as at the end of H1 2026: £354,250 median, 624 sales, -8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £354,250, 624 sales, -8% YoY. Berkshire county.",
   category: "town",
   region: "London & South East",

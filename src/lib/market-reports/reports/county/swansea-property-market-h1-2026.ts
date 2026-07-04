@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "swansea-property-market-h1-2026",
-  title: "Swansea Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Swansea House Prices 2026: £195,000 Median",
-  metaDescription: "Swansea house prices 2026: £195,000 median, 13,415 sales, +0.3% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Swansea Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Swansea House Prices, End of H1 2026: £195,000 Median",
+  metaDescription: "Swansea house prices as at the end of H1 2026: £195,000 median, 13,415 sales, +0.3% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "6 towns analysed. Median price £195,000, 13,415 transactions, +0.3% YoY.",
   category: "county",
   region: "Wales",

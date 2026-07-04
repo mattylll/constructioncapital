@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "havering-greater-london-property-market-h1-2026",
-  title: "Havering Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Havering House Prices 2026: £445,000 Median",
-  metaDescription: "Havering house prices 2026: £445,000 median, 2,573 sales, +1.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Havering Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Havering House Prices, End of H1 2026: £445,000 Median",
+  metaDescription: "Havering house prices as at the end of H1 2026: £445,000 median, 2,573 sales, +1.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £445,000, 2,573 sales, +1.1% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

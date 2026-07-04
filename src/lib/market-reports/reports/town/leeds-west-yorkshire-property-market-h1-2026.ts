@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "leeds-west-yorkshire-property-market-h1-2026",
-  title: "Leeds Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Leeds House Prices 2026: £235,000 Median",
-  metaDescription: "Leeds house prices 2026: £235,000 median, 8,455 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Leeds Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Leeds House Prices, End of H1 2026: £235,000 Median",
+  metaDescription: "Leeds house prices as at the end of H1 2026: £235,000 median, 8,455 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £235,000, 8,455 sales, 0% YoY. West Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

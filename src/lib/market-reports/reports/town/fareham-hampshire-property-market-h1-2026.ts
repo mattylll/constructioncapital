@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "fareham-hampshire-property-market-h1-2026",
-  title: "Fareham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Fareham House Prices 2026: £344,475 Median",
-  metaDescription: "Fareham house prices 2026: £344,475 median, 1,467 sales, -1.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Fareham Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Fareham House Prices, End of H1 2026: £344,475 Median",
+  metaDescription: "Fareham house prices as at the end of H1 2026: £344,475 median, 1,467 sales, -1.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £344,475, 1,467 sales, -1.6% YoY. Hampshire county.",
   category: "town",
   region: "London & South East",

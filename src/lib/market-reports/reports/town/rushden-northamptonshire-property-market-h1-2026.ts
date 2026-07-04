@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "rushden-northamptonshire-property-market-h1-2026",
-  title: "Rushden Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Rushden House Prices 2026: £241,000 Median",
-  metaDescription: "Rushden house prices 2026: £241,000 median, 526 sales, -2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Rushden Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Rushden House Prices, End of H1 2026: £241,000 Median",
+  metaDescription: "Rushden house prices as at the end of H1 2026: £241,000 median, 526 sales, -2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £241,000, 526 sales, -2% YoY. Northamptonshire county.",
   category: "town",
   region: "Midlands",

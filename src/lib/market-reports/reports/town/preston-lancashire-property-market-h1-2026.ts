@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "preston-lancashire-property-market-h1-2026",
-  title: "Preston Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Preston House Prices 2026: £174,000 Median",
-  metaDescription: "Preston house prices 2026: £174,000 median, 1,775 sales, -5.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Preston Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Preston House Prices, End of H1 2026: £174,000 Median",
+  metaDescription: "Preston house prices as at the end of H1 2026: £174,000 median, 1,775 sales, -5.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £174,000, 1,775 sales, -5.9% YoY. Lancashire county.",
   category: "town",
   region: "North West",

@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "greater-london-property-market-h1-2026",
-  title: "Greater London Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Greater London House Prices 2026: £530,000 Median",
-  metaDescription: "Greater London house prices 2026: £530,000 median, 98,870 sales, -2.6% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Greater London Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Greater London House Prices, End of H1 2026: £530,000 Median",
+  metaDescription: "Greater London house prices as at the end of H1 2026: £530,000 median, 98,870 sales, -2.6% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "51 towns analysed. Median price £530,000, 98,870 transactions, -2.6% YoY.",
   category: "county",
   region: "London & South East",

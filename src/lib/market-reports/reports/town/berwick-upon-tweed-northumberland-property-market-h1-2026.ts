@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "berwick-upon-tweed-northumberland-property-market-h1-2026",
-  title: "Berwick-upon-Tweed Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Berwick-upon-Tweed House Prices 2026: £189,750 Median",
-  metaDescription: "Berwick-upon-Tweed house prices 2026: £189,750 median, 204 sales, +2.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Berwick-upon-Tweed Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Berwick-upon-Tweed House Prices, End of H1 2026: £189,750 Median",
+  metaDescription: "Berwick-upon-Tweed house prices as at the end of H1 2026: £189,750 median, 204 sales, +2.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £189,750, 204 sales, +2.6% YoY. Northumberland county.",
   category: "town",
   region: "North East & Yorkshire",

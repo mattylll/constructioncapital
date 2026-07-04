@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "belper-derbyshire-property-market-h1-2026",
-  title: "Belper Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Belper House Prices 2026: £216,750 Median",
-  metaDescription: "Belper house prices 2026: £216,750 median, 1,596 sales, -5.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Belper Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Belper House Prices, End of H1 2026: £216,750 Median",
+  metaDescription: "Belper house prices as at the end of H1 2026: £216,750 median, 1,596 sales, -5.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £216,750, 1,596 sales, -5.8% YoY. Derbyshire county.",
   category: "town",
   region: "Midlands",

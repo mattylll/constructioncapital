@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "huntingdon-cambridgeshire-property-market-h1-2026",
-  title: "Huntingdon Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Huntingdon House Prices 2026: £305,000 Median",
-  metaDescription: "Huntingdon house prices 2026: £305,000 median, 1,149 sales, -6.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Huntingdon Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Huntingdon House Prices, End of H1 2026: £305,000 Median",
+  metaDescription: "Huntingdon house prices as at the end of H1 2026: £305,000 median, 1,149 sales, -6.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £305,000, 1,149 sales, -6.2% YoY. Cambridgeshire county.",
   category: "town",
   region: "East of England",

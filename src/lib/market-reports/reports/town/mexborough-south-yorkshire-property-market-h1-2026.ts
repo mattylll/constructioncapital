@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "mexborough-south-yorkshire-property-market-h1-2026",
-  title: "Mexborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Mexborough House Prices 2026: £120,000 Median",
-  metaDescription: "Mexborough house prices 2026: £120,000 median, 196 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Mexborough Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Mexborough House Prices, End of H1 2026: £120,000 Median",
+  metaDescription: "Mexborough house prices as at the end of H1 2026: £120,000 median, 196 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £120,000, 196 sales, 0% YoY. South Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

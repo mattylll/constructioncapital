@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "liverpool-merseyside-property-market-h1-2026",
-  title: "Liverpool Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Liverpool House Prices 2026: £167,000 Median",
-  metaDescription: "Liverpool house prices 2026: £167,000 median, 4,607 sales, +5.7% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Liverpool Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Liverpool House Prices, End of H1 2026: £167,000 Median",
+  metaDescription: "Liverpool house prices as at the end of H1 2026: £167,000 median, 4,607 sales, +5.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £167,000, 4,607 sales, +5.7% YoY. Merseyside county.",
   category: "town",
   region: "North West",

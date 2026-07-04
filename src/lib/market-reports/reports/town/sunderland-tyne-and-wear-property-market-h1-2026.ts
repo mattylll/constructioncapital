@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "sunderland-tyne-and-wear-property-market-h1-2026",
-  title: "Sunderland Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Sunderland House Prices 2026: £130,000 Median",
-  metaDescription: "Sunderland house prices 2026: £130,000 median, 1,842 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Sunderland Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Sunderland House Prices, End of H1 2026: £130,000 Median",
+  metaDescription: "Sunderland house prices as at the end of H1 2026: £130,000 median, 1,842 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £130,000, 1,842 sales, 0% YoY. Tyne and Wear county.",
   category: "town",
   region: "North East & Yorkshire",

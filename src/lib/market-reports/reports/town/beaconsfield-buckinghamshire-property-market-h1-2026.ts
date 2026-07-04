@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "beaconsfield-buckinghamshire-property-market-h1-2026",
-  title: "Beaconsfield Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Beaconsfield House Prices 2026: £965,000 Median",
-  metaDescription: "Beaconsfield house prices 2026: £965,000 median, 182 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Beaconsfield Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Beaconsfield House Prices, End of H1 2026: £965,000 Median",
+  metaDescription: "Beaconsfield house prices as at the end of H1 2026: £965,000 median, 182 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £965,000, 182 sales, 0% YoY. Buckinghamshire county.",
   category: "town",
   region: "London & South East",

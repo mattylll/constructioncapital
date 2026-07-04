@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "lowestoft-suffolk-property-market-h1-2026",
-  title: "Lowestoft Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Lowestoft House Prices 2026: £220,000 Median",
-  metaDescription: "Lowestoft house prices 2026: £220,000 median, 915 sales, +2.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Lowestoft Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Lowestoft House Prices, End of H1 2026: £220,000 Median",
+  metaDescription: "Lowestoft house prices as at the end of H1 2026: £220,000 median, 915 sales, +2.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £220,000, 915 sales, +2.3% YoY. Suffolk county.",
   category: "town",
   region: "East of England",

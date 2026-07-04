@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "harrow-greater-london-property-market-h1-2026",
-  title: "Harrow Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Harrow House Prices 2026: £526,000 Median",
-  metaDescription: "Harrow house prices 2026: £526,000 median, 1,440 sales, +3.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Harrow Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Harrow House Prices, End of H1 2026: £526,000 Median",
+  metaDescription: "Harrow house prices as at the end of H1 2026: £526,000 median, 1,440 sales, +3.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £526,000, 1,440 sales, +3.1% YoY. Greater London county.",
   category: "town",
   region: "London & South East",

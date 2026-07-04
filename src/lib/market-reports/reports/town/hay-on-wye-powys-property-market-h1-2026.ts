@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "hay-on-wye-powys-property-market-h1-2026",
-  title: "Hay-on-Wye Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Hay-on-Wye House Prices 2026: £250,000 Median",
-  metaDescription: "Hay-on-Wye house prices 2026: £250,000 median, 1,195 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Hay-on-Wye Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Hay-on-Wye House Prices, End of H1 2026: £250,000 Median",
+  metaDescription: "Hay-on-Wye house prices as at the end of H1 2026: £250,000 median, 1,195 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £250,000, 1,195 sales, 0% YoY. Powys county.",
   category: "town",
   region: "Wales",

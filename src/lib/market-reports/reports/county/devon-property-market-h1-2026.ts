@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "devon-property-market-h1-2026",
-  title: "Devon Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Devon House Prices 2026: £285,000 Median",
-  metaDescription: "Devon house prices 2026: £285,000 median, 11,810 sales, -2.5% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Devon Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Devon House Prices, End of H1 2026: £285,000 Median",
+  metaDescription: "Devon house prices as at the end of H1 2026: £285,000 median, 11,810 sales, -2.5% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "8 towns analysed. Median price £285,000, 11,810 transactions, -2.5% YoY.",
   category: "county",
   region: "South West",

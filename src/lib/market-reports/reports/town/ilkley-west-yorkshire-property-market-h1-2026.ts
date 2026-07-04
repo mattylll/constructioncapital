@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "ilkley-west-yorkshire-property-market-h1-2026",
-  title: "Ilkley Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Ilkley House Prices 2026: £389,975 Median",
-  metaDescription: "Ilkley house prices 2026: £389,975 median, 440 sales, -2.5% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Ilkley Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Ilkley House Prices, End of H1 2026: £389,975 Median",
+  metaDescription: "Ilkley house prices as at the end of H1 2026: £389,975 median, 440 sales, -2.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £389,975, 440 sales, -2.5% YoY. West Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",

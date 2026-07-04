@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "peterborough-cambridgeshire-property-market-h1-2026",
-  title: "Peterborough Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Peterborough House Prices 2026: £235,000 Median",
-  metaDescription: "Peterborough house prices 2026: £235,000 median, 1,843 sales, -2.1% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Peterborough Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Peterborough House Prices, End of H1 2026: £235,000 Median",
+  metaDescription: "Peterborough house prices as at the end of H1 2026: £235,000 median, 1,843 sales, -2.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £235,000, 1,843 sales, -2.1% YoY. Cambridgeshire county.",
   category: "town",
   region: "East of England",

@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "gloucestershire-property-market-h1-2026",
-  title: "Gloucestershire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Gloucestershire House Prices 2026: £317,500 Median",
-  metaDescription: "Gloucestershire house prices 2026: £317,500 median, 7,941 sales, -0.7% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Gloucestershire Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Gloucestershire House Prices, End of H1 2026: £317,500 Median",
+  metaDescription: "Gloucestershire house prices as at the end of H1 2026: £317,500 median, 7,941 sales, -0.7% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "6 towns analysed. Median price £317,500, 7,941 transactions, -0.7% YoY.",
   category: "county",
   region: "South West",

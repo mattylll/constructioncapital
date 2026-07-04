@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "nottinghamshire-property-market-h1-2026",
-  title: "Nottinghamshire Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Nottinghamshire House Prices 2026: £194,000 Median",
-  metaDescription: "Nottinghamshire house prices 2026: £194,000 median, 9,600 sales, -3.6% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Nottinghamshire Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Nottinghamshire House Prices, End of H1 2026: £194,000 Median",
+  metaDescription: "Nottinghamshire house prices as at the end of H1 2026: £194,000 median, 9,600 sales, -3.6% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "7 towns analysed. Median price £194,000, 9,600 transactions, -3.6% YoY.",
   category: "county",
   region: "Midlands",

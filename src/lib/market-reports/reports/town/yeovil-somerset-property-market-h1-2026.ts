@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "yeovil-somerset-property-market-h1-2026",
-  title: "Yeovil Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Yeovil House Prices 2026: £237,750 Median",
-  metaDescription: "Yeovil house prices 2026: £237,750 median, 746 sales, -0.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Yeovil Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Yeovil House Prices, End of H1 2026: £237,750 Median",
+  metaDescription: "Yeovil house prices as at the end of H1 2026: £237,750 median, 746 sales, -0.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £237,750, 746 sales, -0.9% YoY. Somerset county.",
   category: "town",
   region: "South West",

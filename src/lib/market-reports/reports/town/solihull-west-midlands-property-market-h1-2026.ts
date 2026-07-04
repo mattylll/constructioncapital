@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "solihull-west-midlands-property-market-h1-2026",
-  title: "Solihull Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Solihull House Prices 2026: £327,000 Median",
-  metaDescription: "Solihull house prices 2026: £327,000 median, 2,333 sales, +1.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Solihull Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Solihull House Prices, End of H1 2026: £327,000 Median",
+  metaDescription: "Solihull house prices as at the end of H1 2026: £327,000 median, 2,333 sales, +1.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £327,000, 2,333 sales, +1.6% YoY. West Midlands county.",
   category: "town",
   region: "Midlands",

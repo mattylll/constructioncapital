@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "farnham-surrey-property-market-h1-2026",
-  title: "Farnham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Farnham House Prices 2026: £540,000 Median",
-  metaDescription: "Farnham house prices 2026: £540,000 median, 1,499 sales, +0.9% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Farnham Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Farnham House Prices, End of H1 2026: £540,000 Median",
+  metaDescription: "Farnham house prices as at the end of H1 2026: £540,000 median, 1,499 sales, +0.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £540,000, 1,499 sales, +0.9% YoY. Surrey county.",
   category: "town",
   region: "London & South East",

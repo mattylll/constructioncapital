@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "chesham-buckinghamshire-property-market-h1-2026",
-  title: "Chesham Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Chesham House Prices 2026: £451,500 Median",
-  metaDescription: "Chesham house prices 2026: £451,500 median, 259 sales, +2.6% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Chesham Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Chesham House Prices, End of H1 2026: £451,500 Median",
+  metaDescription: "Chesham house prices as at the end of H1 2026: £451,500 median, 259 sales, +2.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £451,500, 259 sales, +2.6% YoY. Buckinghamshire county.",
   category: "town",
   region: "London & South East",

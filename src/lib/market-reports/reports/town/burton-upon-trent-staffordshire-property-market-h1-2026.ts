@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "burton-upon-trent-staffordshire-property-market-h1-2026",
-  title: "Burton upon Trent Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Burton upon Trent House Prices 2026: £227,000 Median",
-  metaDescription: "Burton upon Trent house prices 2026: £227,000 median, 1,449 sales, -1.3% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Burton upon Trent Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Burton upon Trent House Prices, End of H1 2026: £227,000 Median",
+  metaDescription: "Burton upon Trent house prices as at the end of H1 2026: £227,000 median, 1,449 sales, -1.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £227,000, 1,449 sales, -1.3% YoY. Staffordshire county.",
   category: "town",
   region: "Midlands",

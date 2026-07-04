@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "essex-property-market-h1-2026",
-  title: "Essex Property Market: Prices, Trends & Development Finance (2026)",
-  metaTitle: "Essex House Prices 2026: £342,500 Median",
-  metaDescription: "Essex house prices 2026: £342,500 median, 16,758 sales, 0% YoY. Town-by-town comparison, new-build premiums and development finance.",
+  title: "Essex Property Market: Prices, Trends & Development Finance, End of H1 2026",
+  metaTitle: "Essex House Prices, End of H1 2026: £342,500 Median",
+  metaDescription: "Essex house prices as at the end of H1 2026: £342,500 median, 16,758 sales, 0% YoY. Town-by-town comparison, planning pipeline, new-build premiums and development finance.",
   excerpt: "10 towns analysed. Median price £342,500, 16,758 transactions, 0% YoY.",
   category: "county",
   region: "London & South East",

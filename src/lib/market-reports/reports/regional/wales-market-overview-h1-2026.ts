@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "wales-market-overview-h1-2026",
-  title: "Wales Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "Wales Property Market 2026 — County Prices, Trends & Development Hotspots",
-  metaDescription: "Wales property market overview: 5 counties, 45,427 sales, median £227,500. County comparisons, development hotspots & finance options.",
+  title: "Wales Property Market: Regional Analysis & County Comparison, End of H1 2026",
+  metaTitle: "Wales Property Market, End of H1 2026: County Prices, Trends & Development Hotspots",
+  metaDescription: "Wales property market overview as at the end of H1 2026: 5 counties, 45,427 sales, median £227,500. County comparisons, development hotspots and finance options.",
   excerpt: "5 counties, 45,427 transactions, median £227,500.",
   category: "regional",
   region: "Wales",

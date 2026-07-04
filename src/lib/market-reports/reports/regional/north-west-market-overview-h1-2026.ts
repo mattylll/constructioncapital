@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "north-west-market-overview-h1-2026",
-  title: "North West Property Market: Regional Analysis & County Comparison (2026)",
-  metaTitle: "North West Property Market 2026 — County Prices, Trends & Development Hotspots",
-  metaDescription: "North West property market overview: 5 counties, 63,063 sales, median £171,000. County comparisons, development hotspots & finance options.",
+  title: "North West Property Market: Regional Analysis & County Comparison, End of H1 2026",
+  metaTitle: "North West Property Market, End of H1 2026: County Prices, Trends & Development Hotspots",
+  metaDescription: "North West property market overview as at the end of H1 2026: 5 counties, 63,063 sales, median £171,000. County comparisons, development hotspots and finance options.",
   excerpt: "5 counties, 63,063 transactions, median £171,000.",
   category: "regional",
   region: "North West",

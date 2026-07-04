@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "nantwich-cheshire-property-market-h1-2026",
-  title: "Nantwich Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Nantwich House Prices 2026: £292,250 Median",
-  metaDescription: "Nantwich house prices 2026: £292,250 median, 486 sales, +0.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Nantwich Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Nantwich House Prices, End of H1 2026: £292,250 Median",
+  metaDescription: "Nantwich house prices as at the end of H1 2026: £292,250 median, 486 sales, +0.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £292,250, 486 sales, +0.8% YoY. Cheshire county.",
   category: "town",
   region: "North West",

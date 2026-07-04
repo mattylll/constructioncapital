@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "newcastle-under-lyme-staffordshire-property-market-h1-2026",
-  title: "Newcastle-under-Lyme Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Newcastle-under-Lyme House Prices 2026: £191,250 Median",
-  metaDescription: "Newcastle-under-Lyme house prices 2026: £191,250 median, 1,408 sales, +2.8% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Newcastle-under-Lyme Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Newcastle-under-Lyme House Prices, End of H1 2026: £191,250 Median",
+  metaDescription: "Newcastle-under-Lyme house prices as at the end of H1 2026: £191,250 median, 1,408 sales, +2.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £191,250, 1,408 sales, +2.8% YoY. Staffordshire county.",
   category: "town",
   region: "Midlands",

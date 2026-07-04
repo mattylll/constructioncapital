@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "welwyn-garden-city-hertfordshire-property-market-h1-2026",
-  title: "Welwyn Garden City Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Welwyn Garden City House Prices 2026: £410,000 Median",
-  metaDescription: "Welwyn Garden City house prices 2026: £410,000 median, 462 sales, +1.2% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Welwyn Garden City Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Welwyn Garden City House Prices, End of H1 2026: £410,000 Median",
+  metaDescription: "Welwyn Garden City house prices as at the end of H1 2026: £410,000 median, 462 sales, +1.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £410,000, 462 sales, +1.2% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",

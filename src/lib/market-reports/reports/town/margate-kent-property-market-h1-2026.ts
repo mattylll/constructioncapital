@@ -2,9 +2,9 @@ import type { MarketReport } from "../../types";
 
 const report: MarketReport = {
   slug: "margate-kent-property-market-h1-2026",
-  title: "Margate Property Market: House Prices, Sold Data & Development Finance (2026)",
-  metaTitle: "Margate House Prices 2026: £280,000 Median",
-  metaDescription: "Margate house prices 2026: £280,000 median, 1,756 sales, 0% YoY. Sold-price trends by property type, new-build premiums and development finance.",
+  title: "Margate Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
+  metaTitle: "Margate House Prices, End of H1 2026: £280,000 Median",
+  metaDescription: "Margate house prices as at the end of H1 2026: £280,000 median, 1,756 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
   excerpt: "Median price £280,000, 1,756 sales, 0% YoY. Kent county.",
   category: "town",
   region: "London & South East",
