@@ -1512,9 +1512,13 @@ function main() {
   const regions = aggregateRegions(counties);
   console.log(`  Aggregated ${regions.length} regions`);
 
-  // Clean output directory
-  if (fs.existsSync(OUTPUT_DIR)) {
-    fs.rmSync(OUTPUT_DIR, { recursive: true });
+  // Clean only the subdirectories this script owns. Never wipe OUTPUT_DIR
+  // itself — it's the shared parent of county/regional/thematic/town AND
+  // press/ (owned by scripts/generate-pr-reports.ts), so recursively
+  // removing it would destroy sibling output this script knows nothing about.
+  for (const subDir of ["county", "regional", "thematic", "town"]) {
+    const dir = path.join(OUTPUT_DIR, subDir);
+    if (fs.existsSync(dir)) fs.rmSync(dir, { recursive: true });
   }
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
@@ -1603,6 +1607,17 @@ function main() {
   console.log(`  Regional: ${regionalReports.length}`);
   console.log(`  Thematic: ${thematicReports.length}`);
   console.log(`  Town: ${townReports.length}`);
+}
+
+if (process.argv.includes("--help") || process.argv.includes("-h")) {
+  console.log(
+    "Usage: npx tsx scripts/generate-market-reports.ts\n\n" +
+      "Regenerates all county, regional, thematic, and town reports from\n" +
+      "data/generated/sold-data. Wipes and rewrites src/lib/market-reports/reports/{county,regional,thematic,town}/\n" +
+      "only (never touches reports/press/, owned by generate-pr-reports.ts).\n" +
+      "No filters or dry-run mode currently exist — this always regenerates everything."
+  );
+  process.exit(0);
 }
 
 main();
