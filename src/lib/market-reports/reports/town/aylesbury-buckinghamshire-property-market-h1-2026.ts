@@ -4,22 +4,23 @@ const report: MarketReport = {
   slug: "aylesbury-buckinghamshire-property-market-h1-2026",
   title: "Aylesbury Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Aylesbury House Prices, End of H1 2026: £370,000 Median",
-  metaDescription: "Aylesbury house prices as at the end of H1 2026: £370,000 median, 1,612 sales, -1.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £370,000, 1,612 sales, -1.3% YoY. Buckinghamshire county.",
+  metaDescription: "Aylesbury house prices as at the end of H1 2026: £370,000 median, 1,595 sales, -1.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £370,000, 1,595 sales, -1.3% YoY. Buckinghamshire county.",
   category: "town",
   region: "London & South East",
   countySlug: "buckinghamshire",
   townSlug: "aylesbury",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Aylesbury Property Market Overview`,
       content: [
         `Garden Town designation with 16,000 new homes planned across multiple strategic sites`,
-        `The <a href="/locations/buckinghamshire/aylesbury">Aylesbury</a> property market recorded <strong>1,612</strong> residential sales over the past 12 months, with a median sale price of <strong>£370,000</strong>. This places Aylesbury £110k below the Buckinghamshire county median of £480,000, and £85k above the UK national median of £285,000.`,
+        `The <a href="/locations/buckinghamshire/aylesbury">Aylesbury</a> property market recorded <strong>1,595</strong> residential sales over the past 12 months, with a median sale price of <strong>£370,000</strong>. This places Aylesbury £110k below the Buckinghamshire county median of £479,625, and £85k above the UK national median of £285,000.`,
         `Prices in Aylesbury have shown broadly stable, with a year-on-year change of <strong>-1.3%</strong>. Within <a href="/locations/buckinghamshire">Buckinghamshire</a>, Aylesbury ranks 8th by price out of 8 principal towns, and 1st by transaction volume.`,
+        `Aylesbury median prices have moved from £389,995 in Q1 2025 to £365,000 in Q2 2026, a change of -6.4% over 5 quarters. Aylesbury has now recorded 2 consecutive quarters of price falls.`,
       ],
     },
     {
@@ -33,16 +34,16 @@ const report: MarketReport = {
       heading: `Aylesbury House Prices by Property Type`,
       content: [
         `Property prices in Aylesbury vary significantly by type. The table below compares Aylesbury prices with Buckinghamshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Aylesbury</th><th>Buckinghamshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£611,663</td><td>£775,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£394,625</td><td>£481,250</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£315,000</td><td>£409,250</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£190,000</td><td>£239,000</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Aylesbury command <strong>£611,663</strong>, while flat properties are most accessible at <strong>£190,000</strong>. The <strong>£422k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Aylesbury</th><th>Buckinghamshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£610,000</td><td>£775,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£392,500</td><td>£483,750</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£315,000</td><td>£402,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£190,000</td><td>£239,000</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Aylesbury command <strong>£610,000</strong>, while flat properties are most accessible at <strong>£190,000</strong>. The <strong>£420k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Aylesbury`,
       content: [
-        `Aylesbury recorded <strong>104</strong> new-build transactions in the past 12 months, representing <strong>6.5%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
-        `New-build properties in Aylesbury traded at a <strong>premium of 7.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/buckinghamshire-property-market-h1-2026">Buckinghamshire</a> market, 141 new-build completions were recorded — see our <a href="/market-reports/buckinghamshire-property-market-h1-2026">Buckinghamshire property market report</a> for the full county picture.`,
+        `Aylesbury recorded <strong>101</strong> new-build transactions in the past 12 months, representing <strong>6.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
+        `New-build properties in Aylesbury traded at a <strong>premium of 7.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/buckinghamshire-property-market-h1-2026">Buckinghamshire</a> market, 136 new-build completions were recorded — see our <a href="/market-reports/buckinghamshire-property-market-h1-2026">Buckinghamshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -56,8 +57,8 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Aylesbury`,
       content: [
-        `For developers considering Aylesbury, the local market data translates directly into finance structuring. With a median value of £370,000 and detached homes at £611,663, lenders can assess scheme viability with confidence.`,
-        `A typical <a href="/services/development-finance">development finance</a> facility for a Aylesbury scheme with a GDV of £611,663 would attract <strong>senior debt of approximately £397,581</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
+        `For developers considering Aylesbury, the local market data translates directly into finance structuring. With a median value of £370,000 and detached homes at £610,000, lenders can assess scheme viability with confidence.`,
+        `A typical <a href="/services/development-finance">development finance</a> facility for a Aylesbury scheme with a GDV of £610,000 would attract <strong>senior debt of approximately £396,500</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
         `While prices have softened 1.3% year-on-year, experienced developers can still generate strong returns in Aylesbury by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in Aylesbury? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
@@ -66,7 +67,7 @@ const report: MarketReport = {
       heading: `Aylesbury Compared to Nearby Buckinghamshire Towns`,
       content: [
         `To put Aylesbury's market in context, the table below compares it with similarly-priced towns across <a href="/locations/buckinghamshire">Buckinghamshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Aylesbury</strong></td><td><strong>£370,000</strong></td><td><strong>1,612</strong></td><td><strong>-1.3%</strong></td></tr><tr><td><a href="/locations/buckinghamshire/buckingham">Buckingham</a></td><td>£375,000</td><td>405</td><td>-5.1%</td></tr><tr><td><a href="/locations/buckinghamshire/high-wycombe">High Wycombe</a></td><td>£425,000</td><td>1,370</td><td>+1.2%</td></tr><tr><td><a href="/locations/buckinghamshire/chesham">Chesham</a></td><td>£451,500</td><td>259</td><td>+2.6%</td></tr><tr><td><a href="/locations/buckinghamshire/princes-risborough">Princes Risborough</a></td><td>£508,500</td><td>170</td><td>+2.7%</td></tr><tr><td><a href="/locations/buckinghamshire/marlow">Marlow</a></td><td>£625,000</td><td>203</td><td>-6.7%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Aylesbury</strong></td><td><strong>£370,000</strong></td><td><strong>1,595</strong></td><td><strong>-1.3%</strong></td></tr><tr><td><a href="/locations/buckinghamshire/buckingham">Buckingham</a></td><td>£375,000</td><td>401</td><td>-5.1%</td></tr><tr><td><a href="/locations/buckinghamshire/high-wycombe">High Wycombe</a></td><td>£425,000</td><td>1,350</td><td>+1.2%</td></tr><tr><td><a href="/locations/buckinghamshire/chesham">Chesham</a></td><td>£452,250</td><td>256</td><td>+2.8%</td></tr><tr><td><a href="/locations/buckinghamshire/princes-risborough">Princes Risborough</a></td><td>£507,000</td><td>169</td><td>+2.4%</td></tr><tr><td><a href="/locations/buckinghamshire/marlow">Marlow</a></td><td>£620,000</td><td>199</td><td>-7.5%</td></tr></tbody></table>`,
         `For the full Buckinghamshire town-by-town breakdown, see our comprehensive <a href="/market-reports/buckinghamshire-property-market-h1-2026">Buckinghamshire property market report</a>.`,
       ],
     },
@@ -74,15 +75,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Aylesbury?`,
-      answer: `The median house price in Aylesbury is £370,000, based on 1,612 transactions over the past 12 months. Detached homes average £611,663 while flat properties average £190,000.`,
+      answer: `The median house price in Aylesbury is £370,000, based on 1,595 transactions over the past 12 months. Detached homes average £610,000 while flat properties average £190,000.`,
     },
     {
       question: `Are house prices rising or falling in Aylesbury?`,
-      answer: `House prices in Aylesbury are falling at -1.3% year-on-year. This decline may present buying opportunities for investors and developers. The wider Buckinghamshire market is flat at 0%.`,
+      answer: `House prices in Aylesbury are falling at -1.3% year-on-year. This decline may present buying opportunities for investors and developers. The wider Buckinghamshire market is falling at -0.3%.`,
     },
     {
       question: `How many properties sold in Aylesbury recently?`,
-      answer: `Aylesbury recorded 1,612 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Aylesbury recorded 1,595 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Aylesbury?`,
@@ -92,7 +93,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["buckinghamshire-property-market-h1-2026", "london-and-south-east-market-overview-h1-2026", "amersham-buckinghamshire-property-market-h1-2026", "beaconsfield-buckinghamshire-property-market-h1-2026", "buckingham-buckinghamshire-property-market-h1-2026", "chesham-buckinghamshire-property-market-h1-2026"],
   relatedTownSlugs: ["buckinghamshire/aylesbury"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":611663},{"name":"Semi-detached","value":394625},{"name":"Terraced","value":315000},{"name":"Flat","value":190000}]},
+  charts: {"priceByType":[{"name":"Detached","value":610000},{"name":"Semi-detached","value":392500},{"name":"Terraced","value":315000},{"name":"Flat","value":190000}]},
 };
 
 export default report;

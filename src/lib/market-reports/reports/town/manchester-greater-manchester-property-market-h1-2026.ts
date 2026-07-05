@@ -3,23 +3,24 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "manchester-greater-manchester-property-market-h1-2026",
   title: "Manchester Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
-  metaTitle: "Manchester House Prices, End of H1 2026: £245,000 Median",
-  metaDescription: "Manchester house prices as at the end of H1 2026: £245,000 median, 4,460 sales, +2.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £245,000, 4,460 sales, +2.1% YoY. Greater Manchester county.",
+  metaTitle: "Manchester House Prices, End of H1 2026: £244,500 Median",
+  metaDescription: "Manchester house prices as at the end of H1 2026: £244,500 median, 4,386 sales, +1.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £244,500, 4,386 sales, +1.9% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",
   countySlug: "greater-manchester",
   townSlug: "manchester",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Manchester Property Market Overview`,
       content: [
         `UK's fastest-growing city with major BTR pipeline, NOMA and Ancoats regeneration, and two university campuses`,
-        `The <a href="/locations/greater-manchester/manchester">Manchester</a> property market recorded <strong>4,460</strong> residential sales over the past 12 months, with a median sale price of <strong>£245,000</strong>. This places Manchester £31k above the Greater Manchester county median of £213,860, and £40k below the UK national median of £285,000.`,
-        `Prices in Manchester have shown modest growth, with a year-on-year change of <strong>+2.1%</strong>. Within <a href="/locations/greater-manchester">Greater Manchester</a>, Manchester ranks 3rd by price out of 10 principal towns, and 1st by transaction volume.`,
+        `The <a href="/locations/greater-manchester/manchester">Manchester</a> property market recorded <strong>4,386</strong> residential sales over the past 12 months, with a median sale price of <strong>£244,500</strong>. This places Manchester £31k above the Greater Manchester county median of £213,675, and £41k below the UK national median of £285,000.`,
+        `Prices in Manchester have shown modest growth, with a year-on-year change of <strong>+1.9%</strong>. Within <a href="/locations/greater-manchester">Greater Manchester</a>, Manchester ranks 3rd by price out of 10 principal towns, and 1st by transaction volume.`,
+        `Manchester median prices have moved from £240,000 in Q1 2025 to £232,000 in Q2 2026, a change of -3.3% over 5 quarters. Manchester has now recorded 2 consecutive quarters of price falls.`,
       ],
     },
     {
@@ -32,16 +33,16 @@ const report: MarketReport = {
       heading: `Manchester House Prices by Property Type`,
       content: [
         `Property prices in Manchester vary significantly by type. The table below compares Manchester prices with Greater Manchester county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Manchester</th><th>Greater Manchester Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£392,000</td><td>£377,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£300,000</td><td>£252,125</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£234,950</td><td>£180,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£200,000</td><td>£133,750</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Manchester command <strong>£392,000</strong>, while flat properties are most accessible at <strong>£200,000</strong>. The <strong>£192k spread</strong> between the most and least expensive types indicates a relatively compressed market where margins between types are tighter.`,
+        `<table><thead><tr><th>Type</th><th>Manchester</th><th>Greater Manchester Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£390,000</td><td>£377,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£300,000</td><td>£252,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£234,950</td><td>£180,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£200,000</td><td>£133,750</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Manchester command <strong>£390,000</strong>, while flat properties are most accessible at <strong>£200,000</strong>. The <strong>£190k spread</strong> between the most and least expensive types indicates a relatively compressed market where margins between types are tighter.`,
       ],
     },
     {
       heading: `New Build Homes in Manchester`,
       content: [
-        `Manchester recorded <strong>83</strong> new-build transactions in the past 12 months, representing <strong>1.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
-        `New-build properties in Manchester traded at a <strong>premium of 21.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester</a> market, 222 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester property market report</a> for the full county picture.`,
+        `Manchester recorded <strong>76</strong> new-build transactions in the past 12 months, representing <strong>1.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
+        `New-build properties in Manchester traded at a <strong>premium of 20.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester</a> market, 207 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -55,9 +56,9 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Manchester`,
       content: [
-        `For developers considering Manchester, the local market data translates directly into finance structuring. With a median value of £245,000 and detached homes at £392,000, lenders can assess scheme viability with confidence.`,
-        `A typical <a href="/services/development-finance">development finance</a> facility for a Manchester scheme with a GDV of £392,000 would attract <strong>senior debt of approximately £254,800</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `With prices rising 2.1% year-on-year, Manchester presents a supportive environment for new development. Lenders view positive price momentum favourably when assessing loan applications.`,
+        `For developers considering Manchester, the local market data translates directly into finance structuring. With a median value of £244,500 and detached homes at £390,000, lenders can assess scheme viability with confidence.`,
+        `A typical <a href="/services/development-finance">development finance</a> facility for a Manchester scheme with a GDV of £390,000 would attract <strong>senior debt of approximately £253,500</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
+        `With prices rising 1.9% year-on-year, Manchester presents a supportive environment for new development. Lenders view positive price momentum favourably when assessing loan applications.`,
         `Ready to develop in Manchester? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -65,7 +66,7 @@ const report: MarketReport = {
       heading: `Manchester Compared to Nearby Greater Manchester Towns`,
       content: [
         `To put Manchester's market in context, the table below compares it with similarly-priced towns across <a href="/locations/greater-manchester">Greater Manchester</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Manchester</strong></td><td><strong>£245,000</strong></td><td><strong>4,460</strong></td><td><strong>+2.1%</strong></td></tr><tr><td><a href="/locations/greater-manchester/bury">Bury</a></td><td>£230,000</td><td>2,036</td><td>-1.1%</td></tr><tr><td><a href="/locations/greater-manchester/salford">Salford</a></td><td>£223,770</td><td>2,807</td><td>-1%</td></tr><tr><td><a href="/locations/greater-manchester/ashton-under-lyne">Ashton-under-Lyne</a></td><td>£203,950</td><td>2,288</td><td>-0.5%</td></tr><tr><td><a href="/locations/greater-manchester/oldham">Oldham</a></td><td>£200,000</td><td>2,110</td><td>+5.3%</td></tr><tr><td><a href="/locations/greater-manchester/bolton">Bolton</a></td><td>£190,000</td><td>3,029</td><td>+1.4%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Manchester</strong></td><td><strong>£244,500</strong></td><td><strong>4,386</strong></td><td><strong>+1.9%</strong></td></tr><tr><td><a href="/locations/greater-manchester/bury">Bury</a></td><td>£230,000</td><td>2,008</td><td>-1.1%</td></tr><tr><td><a href="/locations/greater-manchester/salford">Salford</a></td><td>£223,350</td><td>2,752</td><td>-1.2%</td></tr><tr><td><a href="/locations/greater-manchester/ashton-under-lyne">Ashton-under-Lyne</a></td><td>£204,000</td><td>2,261</td><td>-0.5%</td></tr><tr><td><a href="/locations/greater-manchester/oldham">Oldham</a></td><td>£200,000</td><td>2,073</td><td>+5.3%</td></tr><tr><td><a href="/locations/greater-manchester/bolton">Bolton</a></td><td>£190,000</td><td>2,981</td><td>+1.1%</td></tr></tbody></table>`,
         `For the full Greater Manchester town-by-town breakdown, see our comprehensive <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester property market report</a>.`,
       ],
     },
@@ -73,15 +74,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Manchester?`,
-      answer: `The median house price in Manchester is £245,000, based on 4,460 transactions over the past 12 months. Detached homes average £392,000 while flat properties average £200,000.`,
+      answer: `The median house price in Manchester is £244,500, based on 4,386 transactions over the past 12 months. Detached homes average £390,000 while flat properties average £200,000.`,
     },
     {
       question: `Are house prices rising or falling in Manchester?`,
-      answer: `House prices in Manchester are rising at +2.1% year-on-year. This positive trend suggests sustained buyer demand. The wider Greater Manchester market is rising at +0.9%.`,
+      answer: `House prices in Manchester are rising at +1.9% year-on-year. This positive trend suggests sustained buyer demand. The wider Greater Manchester market is rising at +0.9%.`,
     },
     {
       question: `How many properties sold in Manchester recently?`,
-      answer: `Manchester recorded 4,460 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Manchester recorded 4,386 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Manchester?`,
@@ -91,7 +92,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["greater-manchester-property-market-h1-2026", "north-west-market-overview-h1-2026", "altrincham-greater-manchester-property-market-h1-2026", "ashton-under-lyne-greater-manchester-property-market-h1-2026", "bolton-greater-manchester-property-market-h1-2026", "bury-greater-manchester-property-market-h1-2026"],
   relatedTownSlugs: ["greater-manchester/manchester"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":392000},{"name":"Semi-detached","value":300000},{"name":"Terraced","value":234950},{"name":"Flat","value":200000}]},
+  charts: {"priceByType":[{"name":"Detached","value":390000},{"name":"Semi-detached","value":300000},{"name":"Terraced","value":234950},{"name":"Flat","value":200000}]},
 };
 
 export default report;

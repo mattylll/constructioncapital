@@ -1,20 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.624Z",
+  "updatedAt": "2026-07-05T06:06:56.800Z",
   "townSlug": "liverpool",
   "countySlug": "merseyside",
+  "isDistrictLevelFallback": false,
   "stats": {
     "medianPrice": 167000,
     "medianByType": {
-      "D": 365000,
+      "D": 367500,
       "S": 235000,
-      "T": 146500,
+      "T": 146000,
       "F": 132500
     },
-    "transactionCount12m": 4607,
+    "transactionCount12m": 4551,
     "yoyChange": 5.7,
     "newBuildCount": 37,
-    "existingCount": 4570,
-    "newBuildPremium": 10.2
+    "existingCount": 4514,
+    "newBuildPremium": 10.7
   },
   "recentTransactions": [
     {

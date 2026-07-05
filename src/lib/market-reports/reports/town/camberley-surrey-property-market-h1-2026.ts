@@ -4,30 +4,31 @@ const report: MarketReport = {
   slug: "camberley-surrey-property-market-h1-2026",
   title: "Camberley Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Camberley House Prices, End of H1 2026: £475,000 Median",
-  metaDescription: "Camberley house prices as at the end of H1 2026: £475,000 median, 975 sales, +1.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £475,000, 975 sales, +1.1% YoY. Surrey county.",
+  metaDescription: "Camberley house prices as at the end of H1 2026: £475,000 median, 966 sales, +1.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £475,000, 966 sales, +1.1% YoY. Surrey county.",
   category: "town",
   region: "London & South East",
   countySlug: "surrey",
   townSlug: "camberley",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Camberley Property Market Overview`,
       content: [
         `Western Surrey town with Ministry of Defence presence and growing commercial sector`,
-        `The <a href="/locations/surrey/camberley">Camberley</a> property market recorded <strong>975</strong> residential sales over the past 12 months, with a median sale price of <strong>£475,000</strong>. This places Camberley £19k below the Surrey county median of £493,750, and £190k above the UK national median of £285,000.`,
+        `The <a href="/locations/surrey/camberley">Camberley</a> property market recorded <strong>966</strong> residential sales over the past 12 months, with a median sale price of <strong>£475,000</strong>. This places Camberley £18k below the Surrey county median of £492,500, and £190k above the UK national median of £285,000.`,
         `Prices in Camberley have shown modest growth, with a year-on-year change of <strong>+1.1%</strong>. Within <a href="/locations/surrey">Surrey</a>, Camberley ranks 8th by price out of 10 principal towns, and 7th by transaction volume.`,
+        `Camberley median prices have moved from £470,000 in Q1 2025 to £472,500 in Q2 2026, a change of +0.5% over 5 quarters.`,
       ],
     },
     {
       heading: `Camberley House Prices by Property Type`,
       content: [
         `Property prices in Camberley vary significantly by type. The table below compares Camberley prices with Surrey county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Camberley</th><th>Surrey Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£710,000</td><td>£824,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£470,000</td><td>£545,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£385,000</td><td>£432,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£221,000</td><td>£264,000</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Camberley command <strong>£710,000</strong>, while flat properties are most accessible at <strong>£221,000</strong>. The <strong>£489k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Camberley</th><th>Surrey Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£710,000</td><td>£822,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£470,000</td><td>£540,694</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£385,000</td><td>£431,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£222,000</td><td>£264,500</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Camberley command <strong>£710,000</strong>, while flat properties are most accessible at <strong>£222,000</strong>. The <strong>£488k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
@@ -35,7 +36,7 @@ const report: MarketReport = {
       content: [
         `Camberley recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>0.4%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Camberley traded at a <strong>premium of 8.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/surrey-property-market-h1-2026">Surrey</a> market, 134 new-build completions were recorded — see our <a href="/market-reports/surrey-property-market-h1-2026">Surrey property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/surrey-property-market-h1-2026">Surrey</a> market, 131 new-build completions were recorded — see our <a href="/market-reports/surrey-property-market-h1-2026">Surrey property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Camberley Compared to Nearby Surrey Towns`,
       content: [
         `To put Camberley's market in context, the table below compares it with similarly-priced towns across <a href="/locations/surrey">Surrey</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Camberley</strong></td><td><strong>£475,000</strong></td><td><strong>975</strong></td><td><strong>+1.1%</strong></td></tr><tr><td><a href="/locations/surrey/redhill">Redhill</a></td><td>£480,000</td><td>1,548</td><td>+1.1%</td></tr><tr><td><a href="/locations/surrey/staines">Staines</a></td><td>£465,000</td><td>1,008</td><td>+3.3%</td></tr><tr><td><a href="/locations/surrey/guildford">Guildford</a></td><td>£490,000</td><td>1,539</td><td>-1%</td></tr><tr><td><a href="/locations/surrey/dorking">Dorking</a></td><td>£497,500</td><td>296</td><td>+7%</td></tr><tr><td><a href="/locations/surrey/woking">Woking</a></td><td>£429,050</td><td>1,218</td><td>-2.7%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Camberley</strong></td><td><strong>£475,000</strong></td><td><strong>966</strong></td><td><strong>+1.1%</strong></td></tr><tr><td><a href="/locations/surrey/redhill">Redhill</a></td><td>£477,000</td><td>1,520</td><td>+0.4%</td></tr><tr><td><a href="/locations/surrey/staines">Staines</a></td><td>£465,000</td><td>999</td><td>+3.3%</td></tr><tr><td><a href="/locations/surrey/guildford">Guildford</a></td><td>£490,000</td><td>1,519</td><td>-1%</td></tr><tr><td><a href="/locations/surrey/dorking">Dorking</a></td><td>£495,000</td><td>294</td><td>+6.5%</td></tr><tr><td><a href="/locations/surrey/woking">Woking</a></td><td>£430,000</td><td>1,205</td><td>-2.7%</td></tr></tbody></table>`,
         `For the full Surrey town-by-town breakdown, see our comprehensive <a href="/market-reports/surrey-property-market-h1-2026">Surrey property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Camberley?`,
-      answer: `The median house price in Camberley is £475,000, based on 975 transactions over the past 12 months. Detached homes average £710,000 while flat properties average £221,000.`,
+      answer: `The median house price in Camberley is £475,000, based on 966 transactions over the past 12 months. Detached homes average £710,000 while flat properties average £222,000.`,
     },
     {
       question: `Are house prices rising or falling in Camberley?`,
-      answer: `House prices in Camberley are rising at +1.1% year-on-year. This positive trend suggests sustained buyer demand. The wider Surrey market is rising at +2%.`,
+      answer: `House prices in Camberley are rising at +1.1% year-on-year. This positive trend suggests sustained buyer demand. The wider Surrey market is rising at +2.1%.`,
     },
     {
       question: `How many properties sold in Camberley recently?`,
-      answer: `Camberley recorded 975 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Camberley recorded 966 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Camberley?`,
@@ -85,7 +86,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["surrey-property-market-h1-2026", "london-and-south-east-market-overview-h1-2026", "dorking-surrey-property-market-h1-2026", "epsom-surrey-property-market-h1-2026", "farnham-surrey-property-market-h1-2026", "guildford-surrey-property-market-h1-2026"],
   relatedTownSlugs: ["surrey/camberley"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":710000},{"name":"Semi-detached","value":470000},{"name":"Terraced","value":385000},{"name":"Flat","value":221000}]},
+  charts: {"priceByType":[{"name":"Detached","value":710000},{"name":"Semi-detached","value":470000},{"name":"Terraced","value":385000},{"name":"Flat","value":222000}]},
 };
 
 export default report;

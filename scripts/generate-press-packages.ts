@@ -367,7 +367,7 @@ Local planning authority data shows ${aggregateStats.pipelineUnits.toLocaleStrin
 
 ### Market Commentary
 
-Matt Lenzie, Director at Construction Capital, commented:
+Matt Lenzie, Founder of Construction Capital, commented:
 
 > "${countyName} continues to present strong opportunities for residential developers. With ${aggregateStats.pipelineUnits.toLocaleString()} units in the pipeline and median prices`;
 
@@ -412,7 +412,7 @@ Matt Lenzie, Director at Construction Capital, commented:
 Construction Capital is a specialist development finance brokerage with access to over 100 lenders across the UK. The firm arranges development finance, bridging loans, mezzanine finance, and structured funding for residential and commercial schemes.
 
 **Media Contact:**
-Matt Lenzie, Director
+Matt Lenzie, Founder
 Construction Capital
 info@constructioncapital.co.uk
 constructioncapital.co.uk
@@ -471,7 +471,7 @@ ${townSummaries}
 - Press release format with FOR IMMEDIATE RELEASE header, headline, standfirst, body, quote, notes to editors
 - 400-600 words
 - Lead with the most newsworthy data point (biggest price move, transaction volume, or pipeline figure)
-- Include one quote from "Matt Lenzie, Director at Construction Capital"
+- Include one quote from "Matt Lenzie, Founder of Construction Capital"
 - Quote should offer market insight relevant to developers and homebuyers, not be promotional
 - Reference HM Land Registry Price Paid Data and local planning authority data as sources
 - Include a data table (markdown) with town-by-town figures

@@ -4,38 +4,39 @@ const report: MarketReport = {
   slug: "colchester-essex-property-market-h1-2026",
   title: "Colchester Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Colchester House Prices, End of H1 2026: £315,000 Median",
-  metaDescription: "Colchester house prices as at the end of H1 2026: £315,000 median, 2,337 sales, -1.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £315,000, 2,337 sales, -1.6% YoY. Essex county.",
+  metaDescription: "Colchester house prices as at the end of H1 2026: £315,000 median, 2,301 sales, -1.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £315,000, 2,301 sales, -1.6% YoY. Essex county.",
   category: "town",
   region: "London & South East",
   countySlug: "essex",
   townSlug: "colchester",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Colchester Property Market Overview`,
       content: [
         `Britain's oldest recorded town with garrison regeneration and university campus driving demand`,
-        `The <a href="/locations/essex/colchester">Colchester</a> property market recorded <strong>2,337</strong> residential sales over the past 12 months, with a median sale price of <strong>£315,000</strong>. This places Colchester £28k below the Essex county median of £342,500, and £30k above the UK national median of £285,000.`,
+        `The <a href="/locations/essex/colchester">Colchester</a> property market recorded <strong>2,301</strong> residential sales over the past 12 months, with a median sale price of <strong>£315,000</strong>. This places Colchester £28k below the Essex county median of £342,500, and £30k above the UK national median of £285,000.`,
         `Prices in Colchester have shown broadly stable, with a year-on-year change of <strong>-1.6%</strong>. Within <a href="/locations/essex">Essex</a>, Colchester ranks 9th by price out of 10 principal towns, and 1st by transaction volume.`,
+        `Colchester median prices have moved from £330,000 in Q1 2025 to £300,000 in Q2 2026, a change of -9.1% over 5 quarters.`,
       ],
     },
     {
       heading: `Colchester House Prices by Property Type`,
       content: [
         `Property prices in Colchester vary significantly by type. The table below compares Colchester prices with Essex county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Colchester</th><th>Essex Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£440,000</td><td>£524,250</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£325,000</td><td>£400,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£269,500</td><td>£322,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£167,250</td><td>£203,000</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Colchester command <strong>£440,000</strong>, while flat properties are most accessible at <strong>£167,250</strong>. The <strong>£273k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Colchester</th><th>Essex Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£440,000</td><td>£525,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£325,000</td><td>£400,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£270,000</td><td>£322,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£168,000</td><td>£201,500</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Colchester command <strong>£440,000</strong>, while flat properties are most accessible at <strong>£168,000</strong>. The <strong>£272k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Colchester`,
       content: [
-        `Colchester recorded <strong>30</strong> new-build transactions in the past 12 months, representing <strong>1.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
+        `Colchester recorded <strong>28</strong> new-build transactions in the past 12 months, representing <strong>1.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Colchester traded at a <strong>premium of 39.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/essex-property-market-h1-2026">Essex</a> market, 196 new-build completions were recorded — see our <a href="/market-reports/essex-property-market-h1-2026">Essex property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/essex-property-market-h1-2026">Essex</a> market, 183 new-build completions were recorded — see our <a href="/market-reports/essex-property-market-h1-2026">Essex property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Colchester Compared to Nearby Essex Towns`,
       content: [
         `To put Colchester's market in context, the table below compares it with similarly-priced towns across <a href="/locations/essex">Essex</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Colchester</strong></td><td><strong>£315,000</strong></td><td><strong>2,337</strong></td><td><strong>-1.6%</strong></td></tr><tr><td><a href="/locations/essex/southend-on-sea">Southend-on-Sea</a></td><td>£333,500</td><td>2,147</td><td>+2.6%</td></tr><tr><td><a href="/locations/essex/braintree">Braintree</a></td><td>£335,000</td><td>1,858</td><td>-2.9%</td></tr><tr><td><a href="/locations/essex/harlow">Harlow</a></td><td>£335,000</td><td>860</td><td>+2.4%</td></tr><tr><td><a href="/locations/essex/grays">Grays</a></td><td>£350,000</td><td>1,581</td><td>0%</td></tr><tr><td><a href="/locations/essex/basildon">Basildon</a></td><td>£355,000</td><td>2,017</td><td>+1.4%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Colchester</strong></td><td><strong>£315,000</strong></td><td><strong>2,301</strong></td><td><strong>-1.6%</strong></td></tr><tr><td><a href="/locations/essex/southend-on-sea">Southend-on-Sea</a></td><td>£333,000</td><td>2,106</td><td>+2.5%</td></tr><tr><td><a href="/locations/essex/braintree">Braintree</a></td><td>£335,000</td><td>1,837</td><td>-3.3%</td></tr><tr><td><a href="/locations/essex/harlow">Harlow</a></td><td>£335,000</td><td>845</td><td>+2.4%</td></tr><tr><td><a href="/locations/essex/grays">Grays</a></td><td>£350,000</td><td>1,561</td><td>0%</td></tr><tr><td><a href="/locations/essex/basildon">Basildon</a></td><td>£355,000</td><td>1,990</td><td>+1.4%</td></tr></tbody></table>`,
         `For the full Essex town-by-town breakdown, see our comprehensive <a href="/market-reports/essex-property-market-h1-2026">Essex property market report</a>.`,
       ],
     },
@@ -67,7 +68,7 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Colchester?`,
-      answer: `The median house price in Colchester is £315,000, based on 2,337 transactions over the past 12 months. Detached homes average £440,000 while flat properties average £167,250.`,
+      answer: `The median house price in Colchester is £315,000, based on 2,301 transactions over the past 12 months. Detached homes average £440,000 while flat properties average £168,000.`,
     },
     {
       question: `Are house prices rising or falling in Colchester?`,
@@ -75,7 +76,7 @@ const report: MarketReport = {
     },
     {
       question: `How many properties sold in Colchester recently?`,
-      answer: `Colchester recorded 2,337 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Colchester recorded 2,301 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Colchester?`,
@@ -85,7 +86,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["essex-property-market-h1-2026", "london-and-south-east-market-overview-h1-2026", "basildon-essex-property-market-h1-2026", "braintree-essex-property-market-h1-2026", "brentwood-essex-property-market-h1-2026", "canvey-island-essex-property-market-h1-2026"],
   relatedTownSlugs: ["essex/colchester"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":440000},{"name":"Semi-detached","value":325000},{"name":"Terraced","value":269500},{"name":"Flat","value":167250}]},
+  charts: {"priceByType":[{"name":"Detached","value":440000},{"name":"Semi-detached","value":325000},{"name":"Terraced","value":270000},{"name":"Flat","value":168000}]},
 };
 
 export default report;

@@ -4,28 +4,29 @@ const report: MarketReport = {
   slug: "matlock-derbyshire-property-market-h1-2026",
   title: "Matlock Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Matlock House Prices, End of H1 2026: £315,000 Median",
-  metaDescription: "Matlock house prices as at the end of H1 2026: £315,000 median, 814 sales, +1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £315,000, 814 sales, +1% YoY. Derbyshire county.",
+  metaDescription: "Matlock house prices as at the end of H1 2026: £315,000 median, 796 sales, +0.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £315,000, 796 sales, +0.3% YoY. Derbyshire county.",
   category: "town",
   region: "Midlands",
   countySlug: "derbyshire",
   townSlug: "matlock",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Matlock Property Market Overview`,
       content: [
         `Derwent Valley county town with World Heritage Site proximity and tourism-supported market`,
-        `The <a href="/locations/derbyshire/matlock">Matlock</a> property market recorded <strong>814</strong> residential sales over the past 12 months, with a median sale price of <strong>£315,000</strong>. This places Matlock £102k above the Derbyshire county median of £213,375, and £30k above the UK national median of £285,000.`,
-        `Prices in Matlock have shown modest growth, with a year-on-year change of <strong>+1%</strong>. Within <a href="/locations/derbyshire">Derbyshire</a>, Matlock ranks 1st by price out of 8 principal towns, and 7th by transaction volume.`,
+        `The <a href="/locations/derbyshire/matlock">Matlock</a> property market recorded <strong>796</strong> residential sales over the past 12 months, with a median sale price of <strong>£315,000</strong>. This places Matlock £98k above the Derbyshire county median of £217,000, and £30k above the UK national median of £285,000.`,
+        `Prices in Matlock have shown modest growth, with a year-on-year change of <strong>+0.3%</strong>. Within <a href="/locations/derbyshire">Derbyshire</a>, Matlock ranks 1st by price out of 8 principal towns, and 7th by transaction volume.`,
+        `Matlock median prices have moved from £322,000 in Q1 2025 to £275,000 in Q2 2026, a change of -14.6% over 5 quarters. Matlock has now recorded 2 consecutive quarters of price falls.`,
       ],
     },
     {
       heading: `Planning Pipeline in Matlock`,
       content: [
-        `Derbyshire Dales District Council — the local planning authority covering Matlock — has <strong>51</strong> residential units in its current pipeline, an estimated gross development value of <strong>£16.1m</strong>, across 81 applications (17 approved, 64 pending) at an approval rate of <strong>94%</strong>.`,
+        `Derbyshire Dales District Council — the local planning authority covering Matlock — has <strong>50</strong> residential units in its current pipeline, an estimated gross development value of <strong>£15.8m</strong>, across 79 applications (16 approved, 63 pending) at an approval rate of <strong>100%</strong>.`,
         `Derbyshire Dales District Council covers more than one town in Derbyshire, so this pipeline figure is authority-wide rather than specific to Matlock alone — planning applications aren't consistently attributable to a single town within a shared authority area.`,
       ],
     },
@@ -33,16 +34,16 @@ const report: MarketReport = {
       heading: `Matlock House Prices by Property Type`,
       content: [
         `Property prices in Matlock vary significantly by type. The table below compares Matlock prices with Derbyshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Matlock</th><th>Derbyshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£460,000</td><td>£327,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£275,000</td><td>£213,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£235,000</td><td>£160,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£183,750</td><td>£125,000</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Matlock command <strong>£460,000</strong>, while flat properties are most accessible at <strong>£183,750</strong>. The <strong>£276k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Matlock</th><th>Derbyshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£460,000</td><td>£335,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£275,000</td><td>£212,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£235,000</td><td>£160,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£181,875</td><td>£131,250</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Matlock command <strong>£460,000</strong>, while flat properties are most accessible at <strong>£181,875</strong>. The <strong>£278k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Matlock`,
       content: [
-        `Matlock recorded <strong>10</strong> new-build transactions in the past 12 months, representing <strong>1.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
+        `Matlock recorded <strong>9</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Matlock traded at a <strong>premium of 19.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/derbyshire-property-market-h1-2026">Derbyshire</a> market, 184 new-build completions were recorded — see our <a href="/market-reports/derbyshire-property-market-h1-2026">Derbyshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/derbyshire-property-market-h1-2026">Derbyshire</a> market, 175 new-build completions were recorded — see our <a href="/market-reports/derbyshire-property-market-h1-2026">Derbyshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -58,7 +59,7 @@ const report: MarketReport = {
       content: [
         `For developers considering Matlock, the local market data translates directly into finance structuring. With a median value of £315,000 and detached homes at £460,000, lenders can assess scheme viability with confidence.`,
         `A typical <a href="/services/development-finance">development finance</a> facility for a Matlock scheme with a GDV of £460,000 would attract <strong>senior debt of approximately £299,000</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `With prices rising 1% year-on-year, Matlock presents a supportive environment for new development. Lenders view positive price momentum favourably when assessing loan applications.`,
+        `With prices rising 0.3% year-on-year, Matlock presents a supportive environment for new development. Lenders view positive price momentum favourably when assessing loan applications.`,
         `Ready to develop in Matlock? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -66,7 +67,7 @@ const report: MarketReport = {
       heading: `Matlock Compared to Nearby Derbyshire Towns`,
       content: [
         `To put Matlock's market in context, the table below compares it with similarly-priced towns across <a href="/locations/derbyshire">Derbyshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Matlock</strong></td><td><strong>£315,000</strong></td><td><strong>814</strong></td><td><strong>+1%</strong></td></tr><tr><td><a href="/locations/derbyshire/buxton">Buxton</a></td><td>£255,000</td><td>1,102</td><td>-1%</td></tr><tr><td><a href="/locations/derbyshire/swadlincote">Swadlincote</a></td><td>£240,000</td><td>1,451</td><td>-7%</td></tr><tr><td><a href="/locations/derbyshire/belper">Belper</a></td><td>£216,750</td><td>1,596</td><td>-5.8%</td></tr><tr><td><a href="/locations/derbyshire/long-eaton">Long Eaton</a></td><td>£210,000</td><td>1,368</td><td>0%</td></tr><tr><td><a href="/locations/derbyshire/derby">Derby</a></td><td>£205,000</td><td>2,702</td><td>-1%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Matlock</strong></td><td><strong>£315,000</strong></td><td><strong>796</strong></td><td><strong>+0.3%</strong></td></tr><tr><td><a href="/locations/derbyshire/buxton">Buxton</a></td><td>£255,000</td><td>1,088</td><td>-1%</td></tr><tr><td><a href="/locations/derbyshire/swadlincote">Swadlincote</a></td><td>£240,000</td><td>1,417</td><td>-7%</td></tr><tr><td><a href="/locations/derbyshire/belper">Belper</a></td><td>£217,000</td><td>1,581</td><td>-5.7%</td></tr><tr><td><a href="/locations/derbyshire/long-eaton">Long Eaton</a></td><td>£210,000</td><td>1,342</td><td>0%</td></tr><tr><td><a href="/locations/derbyshire/derby">Derby</a></td><td>£205,000</td><td>2,663</td><td>-1.4%</td></tr></tbody></table>`,
         `For the full Derbyshire town-by-town breakdown, see our comprehensive <a href="/market-reports/derbyshire-property-market-h1-2026">Derbyshire property market report</a>.`,
       ],
     },
@@ -74,15 +75,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Matlock?`,
-      answer: `The median house price in Matlock is £315,000, based on 814 transactions over the past 12 months. Detached homes average £460,000 while flat properties average £183,750.`,
+      answer: `The median house price in Matlock is £315,000, based on 796 transactions over the past 12 months. Detached homes average £460,000 while flat properties average £181,875.`,
     },
     {
       question: `Are house prices rising or falling in Matlock?`,
-      answer: `House prices in Matlock are rising at +1% year-on-year. This positive trend suggests sustained buyer demand. The wider Derbyshire market is falling at -1.9%.`,
+      answer: `House prices in Matlock are rising at +0.3% year-on-year. This positive trend suggests sustained buyer demand. The wider Derbyshire market is falling at -2.3%.`,
     },
     {
       question: `How many properties sold in Matlock recently?`,
-      answer: `Matlock recorded 814 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Matlock recorded 796 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Matlock?`,
@@ -92,7 +93,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["derbyshire-property-market-h1-2026", "midlands-market-overview-h1-2026", "belper-derbyshire-property-market-h1-2026", "buxton-derbyshire-property-market-h1-2026", "chesterfield-derbyshire-property-market-h1-2026", "derby-derbyshire-property-market-h1-2026"],
   relatedTownSlugs: ["derbyshire/matlock"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":460000},{"name":"Semi-detached","value":275000},{"name":"Terraced","value":235000},{"name":"Flat","value":183750}]},
+  charts: {"priceByType":[{"name":"Detached","value":460000},{"name":"Semi-detached","value":275000},{"name":"Terraced","value":235000},{"name":"Flat","value":181875}]},
 };
 
 export default report;

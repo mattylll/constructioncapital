@@ -4,28 +4,29 @@ const report: MarketReport = {
   slug: "kings-lynn-norfolk-property-market-h1-2026",
   title: "King's Lynn Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "King's Lynn House Prices, End of H1 2026: £265,000 Median",
-  metaDescription: "King's Lynn house prices as at the end of H1 2026: £265,000 median, 1,840 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £265,000, 1,840 sales, 0% YoY. Norfolk county.",
+  metaDescription: "King's Lynn house prices as at the end of H1 2026: £265,000 median, 1,804 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £265,000, 1,804 sales, 0% YoY. Norfolk county.",
   category: "town",
   region: "East of England",
   countySlug: "norfolk",
   townSlug: "kings-lynn",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `King's Lynn Property Market Overview`,
       content: [
         `West Norfolk market town with heritage waterfront and growing residential demand`,
-        `The <a href="/locations/norfolk/kings-lynn">King's Lynn</a> property market recorded <strong>1,840</strong> residential sales over the past 12 months, with a median sale price of <strong>£265,000</strong>. This places King's Lynn £3k below the Norfolk county median of £267,500, and £20k below the UK national median of £285,000.`,
+        `The <a href="/locations/norfolk/kings-lynn">King's Lynn</a> property market recorded <strong>1,804</strong> residential sales over the past 12 months, with a median sale price of <strong>£265,000</strong>. This places King's Lynn £1k below the Norfolk county median of £266,250, and £20k below the UK national median of £285,000.`,
         `Prices in King's Lynn have shown broadly stable, with a year-on-year change of <strong>0%</strong>. Within <a href="/locations/norfolk">Norfolk</a>, King's Lynn ranks 5th by price out of 8 principal towns, and 1st by transaction volume.`,
+        `King's Lynn median prices have moved from £270,000 in Q1 2025 to £255,000 in Q2 2026, a change of -5.6% over 5 quarters.`,
       ],
     },
     {
       heading: `Planning Pipeline in King's Lynn`,
       content: [
-        `King's Lynn & West Norfolk Borough Council — the local planning authority covering King's Lynn — has <strong>1,563</strong> residential units in its current pipeline, an estimated gross development value of <strong>£410.7m</strong>, across 251 applications (53 approved, 198 pending) at an approval rate of <strong>87%</strong>.`,
+        `King's Lynn & West Norfolk Borough Council — the local planning authority covering King's Lynn — has <strong>1,563</strong> residential units in its current pipeline, an estimated gross development value of <strong>£410.7m</strong>, across 250 applications (52 approved, 198 pending) at an approval rate of <strong>87%</strong>.`,
       ],
     },
     {
@@ -39,9 +40,9 @@ const report: MarketReport = {
     {
       heading: `New Build Homes in King's Lynn`,
       content: [
-        `King's Lynn recorded <strong>20</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. There is moderate development activity, with room for further growth.`,
-        `New-build properties in King's Lynn traded at a <strong>premium of 41.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk</a> market, 76 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk property market report</a> for the full county picture.`,
+        `King's Lynn recorded <strong>11</strong> new-build transactions in the past 12 months, representing <strong>0.6%</strong> of total sales. There is moderate development activity, with room for further growth.`,
+        `New-build properties in King's Lynn traded at a <strong>premium of 10.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk</a> market, 64 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -65,7 +66,7 @@ const report: MarketReport = {
       heading: `King's Lynn Compared to Nearby Norfolk Towns`,
       content: [
         `To put King's Lynn's market in context, the table below compares it with similarly-priced towns across <a href="/locations/norfolk">Norfolk</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>King's Lynn</strong></td><td><strong>£265,000</strong></td><td><strong>1,840</strong></td><td><strong>0%</strong></td></tr><tr><td><a href="/locations/norfolk/dereham">Dereham</a></td><td>£270,000</td><td>449</td><td>+0.7%</td></tr><tr><td><a href="/locations/norfolk/attleborough">Attleborough</a></td><td>£275,000</td><td>257</td><td>-5.2%</td></tr><tr><td><a href="/locations/norfolk/cromer">Cromer</a></td><td>£286,000</td><td>1,405</td><td>-4.3%</td></tr><tr><td><a href="/locations/norfolk/thetford">Thetford</a></td><td>£239,995</td><td>577</td><td>-2%</td></tr><tr><td><a href="/locations/norfolk/norwich">Norwich</a></td><td>£230,000</td><td>1,580</td><td>-2.1%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>King's Lynn</strong></td><td><strong>£265,000</strong></td><td><strong>1,804</strong></td><td><strong>0%</strong></td></tr><tr><td><a href="/locations/norfolk/attleborough">Attleborough</a></td><td>£267,500</td><td>249</td><td>-7.7%</td></tr><tr><td><a href="/locations/norfolk/dereham">Dereham</a></td><td>£270,000</td><td>440</td><td>+0.7%</td></tr><tr><td><a href="/locations/norfolk/cromer">Cromer</a></td><td>£287,750</td><td>1,378</td><td>-2.5%</td></tr><tr><td><a href="/locations/norfolk/thetford">Thetford</a></td><td>£240,000</td><td>570</td><td>-2%</td></tr><tr><td><a href="/locations/norfolk/norwich">Norwich</a></td><td>£230,000</td><td>1,557</td><td>-1.3%</td></tr></tbody></table>`,
         `For the full Norfolk town-by-town breakdown, see our comprehensive <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk property market report</a>.`,
       ],
     },
@@ -73,7 +74,7 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in King's Lynn?`,
-      answer: `The median house price in King's Lynn is £265,000, based on 1,840 transactions over the past 12 months. Detached homes average £335,000 while flat properties average £125,000.`,
+      answer: `The median house price in King's Lynn is £265,000, based on 1,804 transactions over the past 12 months. Detached homes average £335,000 while flat properties average £125,000.`,
     },
     {
       question: `Are house prices rising or falling in King's Lynn?`,
@@ -81,7 +82,7 @@ const report: MarketReport = {
     },
     {
       question: `How many properties sold in King's Lynn recently?`,
-      answer: `King's Lynn recorded 1,840 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `King's Lynn recorded 1,804 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in King's Lynn?`,

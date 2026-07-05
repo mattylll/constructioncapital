@@ -4,36 +4,37 @@ const report: MarketReport = {
   slug: "lewisham-greater-london-property-market-h1-2026",
   title: "Lewisham Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Lewisham House Prices, End of H1 2026: £460,000 Median",
-  metaDescription: "Lewisham house prices as at the end of H1 2026: £460,000 median, 2,363 sales, +2.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £460,000, 2,363 sales, +2.2% YoY. Greater London county.",
+  metaDescription: "Lewisham house prices as at the end of H1 2026: £460,000 median, 2,327 sales, +2.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £460,000, 2,327 sales, +2.2% YoY. Greater London county.",
   category: "town",
   region: "London & South East",
   countySlug: "greater-london",
   townSlug: "lewisham",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Lewisham Property Market Overview`,
       content: [
         `Bakerloo line extension target area with significant council-led regeneration plans`,
-        `The <a href="/locations/greater-london/lewisham">Lewisham</a> property market recorded <strong>2,363</strong> residential sales over the past 12 months, with a median sale price of <strong>£460,000</strong>. This places Lewisham £70k below the Greater London county median of £530,000, and £175k above the UK national median of £285,000.`,
+        `The <a href="/locations/greater-london/lewisham">Lewisham</a> property market recorded <strong>2,327</strong> residential sales over the past 12 months, with a median sale price of <strong>£460,000</strong>. This places Lewisham £25k below the Greater London county median of £485,000, and £175k above the UK national median of £285,000.`,
         `Prices in Lewisham have shown modest growth, with a year-on-year change of <strong>+2.2%</strong>. Within <a href="/locations/greater-london">Greater London</a>, Lewisham ranks 43th by price out of 51 principal towns, and 11th by transaction volume.`,
+        `Lewisham median prices have moved from £450,000 in Q1 2025 to £450,000 in Q2 2026, a change of 0.0% over 5 quarters.`,
       ],
     },
     {
       heading: `Planning Pipeline in Lewisham`,
       content: [
-        `London Borough of Lewisham — the local planning authority covering Lewisham — has <strong>0</strong> residential units in its current pipeline, an estimated gross development value of <strong>£0</strong>, across 1 applications (0 approved, 1 pending) at an approval rate of <strong>0%</strong>.`,
+        `London Borough of Lewisham — the local planning authority covering Lewisham — has <strong>0</strong> residential units in its current pipeline, an estimated gross development value of <strong>£0</strong>, across 0 applications (0 approved, 0 pending) at an approval rate of <strong>0%</strong>.`,
       ],
     },
     {
       heading: `Lewisham House Prices by Property Type`,
       content: [
         `Property prices in Lewisham vary significantly by type. The table below compares Lewisham prices with Greater London county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Lewisham</th><th>Greater London Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£856,000</td><td>£1.16m</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£765,000</td><td>£815,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£632,500</td><td>£814,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£365,000</td><td>£450,000</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Lewisham command <strong>£856,000</strong>, while flat properties are most accessible at <strong>£365,000</strong>. The <strong>£491k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Lewisham</th><th>Greater London Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£855,500</td><td>£852,750</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£765,000</td><td>£608,375</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£630,000</td><td>£505,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£365,000</td><td>£338,000</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Lewisham command <strong>£855,500</strong>, while flat properties are most accessible at <strong>£365,000</strong>. The <strong>£491k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
@@ -41,7 +42,7 @@ const report: MarketReport = {
       content: [
         `Lewisham recorded <strong>2</strong> new-build transactions in the past 12 months, representing <strong>0.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Lewisham traded at a <strong>discount of 0.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market-h1-2026">Greater London</a> market, 1,536 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market-h1-2026">Greater London</a> market, 412 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -55,8 +56,8 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Lewisham`,
       content: [
-        `For developers considering Lewisham, the local market data translates directly into finance structuring. With a median value of £460,000 and detached homes at £856,000, lenders can assess scheme viability with confidence.`,
-        `A typical <a href="/services/development-finance">development finance</a> facility for a Lewisham scheme with a GDV of £856,000 would attract <strong>senior debt of approximately £556,400</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
+        `For developers considering Lewisham, the local market data translates directly into finance structuring. With a median value of £460,000 and detached homes at £855,500, lenders can assess scheme viability with confidence.`,
+        `A typical <a href="/services/development-finance">development finance</a> facility for a Lewisham scheme with a GDV of £855,500 would attract <strong>senior debt of approximately £556,075</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
         `With prices rising 2.2% year-on-year, Lewisham presents a supportive environment for new development. Lenders view positive price momentum favourably when assessing loan applications.`,
         `Ready to develop in Lewisham? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
@@ -65,7 +66,7 @@ const report: MarketReport = {
       heading: `Lewisham Compared to Nearby Greater London Towns`,
       content: [
         `To put Lewisham's market in context, the table below compares it with similarly-priced towns across <a href="/locations/greater-london">Greater London</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Lewisham</strong></td><td><strong>£460,000</strong></td><td><strong>2,363</strong></td><td><strong>+2.2%</strong></td></tr><tr><td><a href="/locations/greater-london/sutton">Sutton</a></td><td>£450,000</td><td>1,768</td><td>0%</td></tr><tr><td><a href="/locations/greater-london/woolwich">Woolwich</a></td><td>£450,000</td><td>1,961</td><td>+0.8%</td></tr><tr><td><a href="/locations/greater-london/canary-wharf">Canary Wharf</a></td><td>£472,000</td><td>1,976</td><td>-7.1%</td></tr><tr><td><a href="/locations/greater-london/tower-hamlets">Tower Hamlets</a></td><td>£472,000</td><td>1,976</td><td>-7.1%</td></tr><tr><td><a href="/locations/greater-london/whitechapel">Whitechapel</a></td><td>£472,000</td><td>1,976</td><td>-7.1%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Lewisham</strong></td><td><strong>£460,000</strong></td><td><strong>2,327</strong></td><td><strong>+2.2%</strong></td></tr><tr><td><a href="/locations/greater-london/sutton">Sutton</a></td><td>£450,000</td><td>1,742</td><td>0%</td></tr><tr><td><a href="/locations/greater-london/woolwich">Woolwich</a></td><td>£450,000</td><td>1,936</td><td>+0.6%</td></tr><tr><td><a href="/locations/greater-london/canary-wharf">Canary Wharf</a></td><td>£471,356</td><td>1,944</td><td>-7.2%</td></tr><tr><td><a href="/locations/greater-london/tower-hamlets">Tower Hamlets</a></td><td>£471,356</td><td>1,944</td><td>-7.2%</td></tr><tr><td><a href="/locations/greater-london/whitechapel">Whitechapel</a></td><td>£471,356</td><td>1,944</td><td>-7.2%</td></tr></tbody></table>`,
         `For the full Greater London town-by-town breakdown, see our comprehensive <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a>.`,
       ],
     },
@@ -73,15 +74,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Lewisham?`,
-      answer: `The median house price in Lewisham is £460,000, based on 2,363 transactions over the past 12 months. Detached homes average £856,000 while flat properties average £365,000.`,
+      answer: `The median house price in Lewisham is £460,000, based on 2,327 transactions over the past 12 months. Detached homes average £855,500 while flat properties average £365,000.`,
     },
     {
       question: `Are house prices rising or falling in Lewisham?`,
-      answer: `House prices in Lewisham are rising at +2.2% year-on-year. This positive trend suggests sustained buyer demand. The wider Greater London market is falling at -2.6%.`,
+      answer: `House prices in Lewisham are rising at +2.2% year-on-year. This positive trend suggests sustained buyer demand. The wider Greater London market is flat at 0%.`,
     },
     {
       question: `How many properties sold in Lewisham recently?`,
-      answer: `Lewisham recorded 2,363 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Lewisham recorded 2,327 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Lewisham?`,
@@ -91,7 +92,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["greater-london-property-market-h1-2026", "london-and-south-east-market-overview-h1-2026", "barking-greater-london-property-market-h1-2026", "barnet-greater-london-property-market-h1-2026", "battersea-greater-london-property-market-h1-2026", "bermondsey-greater-london-property-market-h1-2026"],
   relatedTownSlugs: ["greater-london/lewisham"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":856000},{"name":"Semi-detached","value":765000},{"name":"Terraced","value":632500},{"name":"Flat","value":365000}]},
+  charts: {"priceByType":[{"name":"Detached","value":855500},{"name":"Semi-detached","value":765000},{"name":"Terraced","value":630000},{"name":"Flat","value":365000}]},
 };
 
 export default report;

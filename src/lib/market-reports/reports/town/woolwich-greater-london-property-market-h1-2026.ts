@@ -4,36 +4,37 @@ const report: MarketReport = {
   slug: "woolwich-greater-london-property-market-h1-2026",
   title: "Woolwich Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Woolwich House Prices, End of H1 2026: £450,000 Median",
-  metaDescription: "Woolwich house prices as at the end of H1 2026: £450,000 median, 1,961 sales, +0.8% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £450,000, 1,961 sales, +0.8% YoY. Greater London county.",
+  metaDescription: "Woolwich house prices as at the end of H1 2026: £450,000 median, 1,936 sales, +0.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £450,000, 1,936 sales, +0.6% YoY. Greater London county.",
   category: "town",
   region: "London & South East",
   countySlug: "greater-london",
   townSlug: "woolwich",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Woolwich Property Market Overview`,
       content: [
         `Elizabeth Line connectivity driving residential demand along the Royal Arsenal Waterfront`,
-        `The <a href="/locations/greater-london/woolwich">Woolwich</a> property market recorded <strong>1,961</strong> residential sales over the past 12 months, with a median sale price of <strong>£450,000</strong>. This places Woolwich £80k below the Greater London county median of £530,000, and £165k above the UK national median of £285,000.`,
-        `Prices in Woolwich have shown modest growth, with a year-on-year change of <strong>+0.8%</strong>. Within <a href="/locations/greater-london">Greater London</a>, Woolwich ranks 45th by price out of 51 principal towns, and 23th by transaction volume.`,
+        `The <a href="/locations/greater-london/woolwich">Woolwich</a> property market recorded <strong>1,936</strong> residential sales over the past 12 months, with a median sale price of <strong>£450,000</strong>. This places Woolwich £35k below the Greater London county median of £485,000, and £165k above the UK national median of £285,000.`,
+        `Prices in Woolwich have shown modest growth, with a year-on-year change of <strong>+0.6%</strong>. Within <a href="/locations/greater-london">Greater London</a>, Woolwich ranks 45th by price out of 51 principal towns, and 23th by transaction volume.`,
+        `Woolwich median prices have moved from £450,000 in Q1 2025 to £445,000 in Q2 2026, a change of -1.1% over 5 quarters.`,
       ],
     },
     {
       heading: `Planning Pipeline in Woolwich`,
       content: [
-        `Royal Borough of Greenwich — the local planning authority covering Woolwich — has <strong>30</strong> residential units in its current pipeline, an estimated gross development value of <strong>£13.2m</strong>, across 132 applications (0 approved, 132 pending) at an approval rate of <strong>0%</strong>.`,
+        `Royal Borough of Greenwich — the local planning authority covering Woolwich — has <strong>21</strong> residential units in its current pipeline, an estimated gross development value of <strong>£9.2m</strong>, across 110 applications (0 approved, 110 pending) at an approval rate of <strong>0%</strong>.`,
       ],
     },
     {
       heading: `Woolwich House Prices by Property Type`,
       content: [
         `Property prices in Woolwich vary significantly by type. The table below compares Woolwich prices with Greater London county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Woolwich</th><th>Greater London Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£737,500</td><td>£1.16m</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£559,000</td><td>£815,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£485,000</td><td>£814,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£362,341</td><td>£450,000</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Woolwich command <strong>£737,500</strong>, while flat properties are most accessible at <strong>£362,341</strong>. The <strong>£375k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Woolwich</th><th>Greater London Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£715,000</td><td>£852,750</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£560,000</td><td>£608,375</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£485,000</td><td>£505,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£362,500</td><td>£338,000</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Woolwich command <strong>£715,000</strong>, while flat properties are most accessible at <strong>£362,500</strong>. The <strong>£353k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
@@ -41,7 +42,7 @@ const report: MarketReport = {
       content: [
         `Woolwich recorded <strong>22</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Woolwich traded at a <strong>discount of 28.2%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market-h1-2026">Greater London</a> market, 1,536 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market-h1-2026">Greater London</a> market, 412 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -55,9 +56,9 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Woolwich`,
       content: [
-        `For developers considering Woolwich, the local market data translates directly into finance structuring. With a median value of £450,000 and detached homes at £737,500, lenders can assess scheme viability with confidence.`,
-        `A typical <a href="/services/development-finance">development finance</a> facility for a Woolwich scheme with a GDV of £737,500 would attract <strong>senior debt of approximately £479,375</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `With prices rising 0.8% year-on-year, Woolwich presents a supportive environment for new development. Lenders view positive price momentum favourably when assessing loan applications.`,
+        `For developers considering Woolwich, the local market data translates directly into finance structuring. With a median value of £450,000 and detached homes at £715,000, lenders can assess scheme viability with confidence.`,
+        `A typical <a href="/services/development-finance">development finance</a> facility for a Woolwich scheme with a GDV of £715,000 would attract <strong>senior debt of approximately £464,750</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
+        `With prices rising 0.6% year-on-year, Woolwich presents a supportive environment for new development. Lenders view positive price momentum favourably when assessing loan applications.`,
         `Ready to develop in Woolwich? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -65,7 +66,7 @@ const report: MarketReport = {
       heading: `Woolwich Compared to Nearby Greater London Towns`,
       content: [
         `To put Woolwich's market in context, the table below compares it with similarly-priced towns across <a href="/locations/greater-london">Greater London</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Woolwich</strong></td><td><strong>£450,000</strong></td><td><strong>1,961</strong></td><td><strong>+0.8%</strong></td></tr><tr><td><a href="/locations/greater-london/sutton">Sutton</a></td><td>£450,000</td><td>1,768</td><td>0%</td></tr><tr><td><a href="/locations/greater-london/enfield">Enfield</a></td><td>£447,085</td><td>2,176</td><td>-0.6%</td></tr><tr><td><a href="/locations/greater-london/havering">Havering</a></td><td>£445,000</td><td>2,573</td><td>+1.1%</td></tr><tr><td><a href="/locations/greater-london/lewisham">Lewisham</a></td><td>£460,000</td><td>2,363</td><td>+2.2%</td></tr><tr><td><a href="/locations/greater-london/stratford">Stratford</a></td><td>£435,000</td><td>1,604</td><td>-1.1%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Woolwich</strong></td><td><strong>£450,000</strong></td><td><strong>1,936</strong></td><td><strong>+0.6%</strong></td></tr><tr><td><a href="/locations/greater-london/sutton">Sutton</a></td><td>£450,000</td><td>1,742</td><td>0%</td></tr><tr><td><a href="/locations/greater-london/enfield">Enfield</a></td><td>£445,000</td><td>2,146</td><td>-1.1%</td></tr><tr><td><a href="/locations/greater-london/havering">Havering</a></td><td>£445,000</td><td>2,546</td><td>+1.1%</td></tr><tr><td><a href="/locations/greater-london/lewisham">Lewisham</a></td><td>£460,000</td><td>2,327</td><td>+2.2%</td></tr><tr><td><a href="/locations/greater-london/stratford">Stratford</a></td><td>£435,000</td><td>1,581</td><td>-1.1%</td></tr></tbody></table>`,
         `For the full Greater London town-by-town breakdown, see our comprehensive <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a>.`,
       ],
     },
@@ -73,15 +74,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Woolwich?`,
-      answer: `The median house price in Woolwich is £450,000, based on 1,961 transactions over the past 12 months. Detached homes average £737,500 while flat properties average £362,341.`,
+      answer: `The median house price in Woolwich is £450,000, based on 1,936 transactions over the past 12 months. Detached homes average £715,000 while flat properties average £362,500.`,
     },
     {
       question: `Are house prices rising or falling in Woolwich?`,
-      answer: `House prices in Woolwich are rising at +0.8% year-on-year. This positive trend suggests sustained buyer demand. The wider Greater London market is falling at -2.6%.`,
+      answer: `House prices in Woolwich are rising at +0.6% year-on-year. This positive trend suggests sustained buyer demand. The wider Greater London market is flat at 0%.`,
     },
     {
       question: `How many properties sold in Woolwich recently?`,
-      answer: `Woolwich recorded 1,961 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Woolwich recorded 1,936 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Woolwich?`,
@@ -91,7 +92,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["greater-london-property-market-h1-2026", "london-and-south-east-market-overview-h1-2026", "barking-greater-london-property-market-h1-2026", "barnet-greater-london-property-market-h1-2026", "battersea-greater-london-property-market-h1-2026", "bermondsey-greater-london-property-market-h1-2026"],
   relatedTownSlugs: ["greater-london/woolwich"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":737500},{"name":"Semi-detached","value":559000},{"name":"Terraced","value":485000},{"name":"Flat","value":362341}]},
+  charts: {"priceByType":[{"name":"Detached","value":715000},{"name":"Semi-detached","value":560000},{"name":"Terraced","value":485000},{"name":"Flat","value":362500}]},
 };
 
 export default report;

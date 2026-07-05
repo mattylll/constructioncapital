@@ -1,22 +1,22 @@
 {
-  "updatedAt": "2026-07-03T16:41:25.548Z",
+  "updatedAt": "2026-07-05T02:11:49.304Z",
   "townSlug": "matlock",
   "countySlug": "derbyshire",
   "localAuthority": "Derbyshire Dales District Council",
   "source": "idox",
   "summary": {
-    "total": 200,
-    "relevant": 83,
-    "approved": 17,
-    "pending": 64,
-    "refused": 1,
+    "total": 199,
+    "relevant": 80,
+    "approved": 16,
+    "pending": 63,
+    "refused": 0,
     "approvedUnits": 2,
-    "pendingUnits": 49,
-    "totalUnits": 51,
+    "pendingUnits": 48,
+    "totalUnits": 50,
     "approvedGdv": 630000,
-    "pendingGdv": 15448750,
-    "totalEstimatedGDV": 16078750,
-    "approvalRate": 94
+    "pendingGdv": 15133750,
+    "totalEstimatedGDV": 15763750,
+    "approvalRate": 100
   },
   "approvedApplications": [
     {
@@ -227,25 +227,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.derbyshiredales.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TD3PN2FUMWK00"
-    },
-    {
-      "reference": "26/00384/DEM",
-      "address": "Middleton Barn Middleton By Wirksworth Derbyshire DE4 4LT",
-      "postcode": "DE4 4LT",
-      "ward": "",
-      "proposal": "Demolition of stone barn",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Prior Approval Not Required",
-      "decision": "Prior Approval Not Required",
-      "receivedDate": "03/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.derbyshiredales.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCWB0OFUMW700"
     },
     {
       "reference": "26/00535/FUL",
@@ -1540,25 +1521,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.derbyshiredales.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TD5K9KFUMWV00"
-    },
-    {
-      "reference": "26/00383/REM",
-      "address": "Cornerways Sandy Lane Matlock Derbyshire DE4 5LD",
-      "postcode": "DE4 5LD",
-      "ward": "",
-      "proposal": "Approval of Reserved Matters following Outline Planning Permission (Ref: 23/00992/OUT) - Erection of one dwelling and associated demolition of existing outbuildings",
-      "category": "demolition_rebuild",
-      "units": 1,
-      "estimatedGdv": 315000,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "03/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.derbyshiredales.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TCWB0GFUMW500"
     }
   ]
 }

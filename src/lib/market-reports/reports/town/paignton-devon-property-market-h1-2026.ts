@@ -4,29 +4,30 @@ const report: MarketReport = {
   slug: "paignton-devon-property-market-h1-2026",
   title: "Paignton Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Paignton House Prices, End of H1 2026: £250,000 Median",
-  metaDescription: "Paignton house prices as at the end of H1 2026: £250,000 median, 666 sales, -5.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £250,000, 666 sales, -5.7% YoY. Devon county.",
+  metaDescription: "Paignton house prices as at the end of H1 2026: £250,000 median, 659 sales, -5.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £250,000, 659 sales, -5.7% YoY. Devon county.",
   category: "town",
   region: "South West",
   countySlug: "devon",
   townSlug: "paignton",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Paignton Property Market Overview`,
       content: [
         `Torbay coastal town with affordable values relative to Torquay and regeneration opportunities`,
-        `The <a href="/locations/devon/paignton">Paignton</a> property market recorded <strong>666</strong> residential sales over the past 12 months, with a median sale price of <strong>£250,000</strong>. This places Paignton £35k below the Devon county median of £285,000, and £35k below the UK national median of £285,000.`,
+        `The <a href="/locations/devon/paignton">Paignton</a> property market recorded <strong>659</strong> residential sales over the past 12 months, with a median sale price of <strong>£250,000</strong>. This places Paignton £35k below the Devon county median of £285,000, and £35k below the UK national median of £285,000.`,
         `Prices in Paignton have shown a notable decline, with a year-on-year change of <strong>-5.7%</strong>. Within <a href="/locations/devon">Devon</a>, Paignton ranks 6th by price out of 8 principal towns, and 8th by transaction volume.`,
+        `Paignton median prices have moved from £274,000 in Q1 2025 to £277,000 in Q2 2026, a change of +1.1% over 5 quarters.`,
       ],
     },
     {
       heading: `Paignton House Prices by Property Type`,
       content: [
         `Property prices in Paignton vary significantly by type. The table below compares Paignton prices with Devon county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Paignton</th><th>Devon Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£367,500</td><td>£411,732</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£260,000</td><td>£276,750</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£213,750</td><td>£220,875</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£135,000</td><td>£150,000</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Paignton</th><th>Devon Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£367,500</td><td>£410,866</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£260,000</td><td>£276,750</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£213,750</td><td>£220,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£135,000</td><td>£149,500</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Paignton command <strong>£367,500</strong>, while flat properties are most accessible at <strong>£135,000</strong>. The <strong>£233k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
@@ -35,7 +36,7 @@ const report: MarketReport = {
       content: [
         `Paignton recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Paignton traded at a <strong>discount of 0.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/devon-property-market-h1-2026">Devon</a> market, 103 new-build completions were recorded — see our <a href="/market-reports/devon-property-market-h1-2026">Devon property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/devon-property-market-h1-2026">Devon</a> market, 96 new-build completions were recorded — see our <a href="/market-reports/devon-property-market-h1-2026">Devon property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Paignton Compared to Nearby Devon Towns`,
       content: [
         `To put Paignton's market in context, the table below compares it with similarly-priced towns across <a href="/locations/devon">Devon</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Paignton</strong></td><td><strong>£250,000</strong></td><td><strong>666</strong></td><td><strong>-5.7%</strong></td></tr><tr><td><a href="/locations/devon/torquay">Torquay</a></td><td>£225,000</td><td>832</td><td>-2.2%</td></tr><tr><td><a href="/locations/devon/plymouth">Plymouth</a></td><td>£220,496</td><td>3,162</td><td>+0.2%</td></tr><tr><td><a href="/locations/devon/tiverton">Tiverton</a></td><td>£280,000</td><td>892</td><td>-6%</td></tr><tr><td><a href="/locations/devon/barnstaple">Barnstaple</a></td><td>£290,000</td><td>1,211</td><td>-1.7%</td></tr><tr><td><a href="/locations/devon/newton-abbot">Newton Abbot</a></td><td>£293,625</td><td>1,730</td><td>-2.1%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Paignton</strong></td><td><strong>£250,000</strong></td><td><strong>659</strong></td><td><strong>-5.7%</strong></td></tr><tr><td><a href="/locations/devon/torquay">Torquay</a></td><td>£225,000</td><td>820</td><td>-2.2%</td></tr><tr><td><a href="/locations/devon/plymouth">Plymouth</a></td><td>£220,000</td><td>3,118</td><td>0%</td></tr><tr><td><a href="/locations/devon/tiverton">Tiverton</a></td><td>£280,000</td><td>879</td><td>-6.4%</td></tr><tr><td><a href="/locations/devon/barnstaple">Barnstaple</a></td><td>£290,000</td><td>1,203</td><td>-1.5%</td></tr><tr><td><a href="/locations/devon/newton-abbot">Newton Abbot</a></td><td>£295,000</td><td>1,703</td><td>-1.7%</td></tr></tbody></table>`,
         `For the full Devon town-by-town breakdown, see our comprehensive <a href="/market-reports/devon-property-market-h1-2026">Devon property market report</a>.`,
       ],
     },
@@ -67,7 +68,7 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Paignton?`,
-      answer: `The median house price in Paignton is £250,000, based on 666 transactions over the past 12 months. Detached homes average £367,500 while flat properties average £135,000.`,
+      answer: `The median house price in Paignton is £250,000, based on 659 transactions over the past 12 months. Detached homes average £367,500 while flat properties average £135,000.`,
     },
     {
       question: `Are house prices rising or falling in Paignton?`,
@@ -75,7 +76,7 @@ const report: MarketReport = {
     },
     {
       question: `How many properties sold in Paignton recently?`,
-      answer: `Paignton recorded 666 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Paignton recorded 659 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Paignton?`,

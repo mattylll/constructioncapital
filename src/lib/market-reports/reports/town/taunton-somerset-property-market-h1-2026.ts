@@ -3,30 +3,31 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "taunton-somerset-property-market-h1-2026",
   title: "Taunton Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
-  metaTitle: "Taunton House Prices, End of H1 2026: £279,300 Median",
-  metaDescription: "Taunton house prices as at the end of H1 2026: £279,300 median, 1,325 sales, -0.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £279,300, 1,325 sales, -0.3% YoY. Somerset county.",
+  metaTitle: "Taunton House Prices, End of H1 2026: £277,250 Median",
+  metaDescription: "Taunton house prices as at the end of H1 2026: £277,250 median, 1,306 sales, -1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £277,250, 1,306 sales, -1% YoY. Somerset county.",
   category: "town",
   region: "South West",
   countySlug: "somerset",
   townSlug: "taunton",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Taunton Property Market Overview`,
       content: [
         `County town with garden town aspirations, Firepool regeneration, and growing commuter appeal`,
-        `The <a href="/locations/somerset/taunton">Taunton</a> property market recorded <strong>1,325</strong> residential sales over the past 12 months, with a median sale price of <strong>£279,300</strong>. This places Taunton £16k below the Somerset county median of £295,500, and £6k below the UK national median of £285,000.`,
-        `Prices in Taunton have shown broadly stable, with a year-on-year change of <strong>-0.3%</strong>. Within <a href="/locations/somerset">Somerset</a>, Taunton ranks 6th by price out of 8 principal towns, and 2nd by transaction volume.`,
+        `The <a href="/locations/somerset/taunton">Taunton</a> property market recorded <strong>1,306</strong> residential sales over the past 12 months, with a median sale price of <strong>£277,250</strong>. This places Taunton £18k below the Somerset county median of £295,000, and £8k below the UK national median of £285,000.`,
+        `Prices in Taunton have shown broadly stable, with a year-on-year change of <strong>-1%</strong>. Within <a href="/locations/somerset">Somerset</a>, Taunton ranks 6th by price out of 8 principal towns, and 2nd by transaction volume.`,
+        `Taunton median prices have moved from £280,000 in Q1 2025 to £280,000 in Q2 2026, a change of 0.0% over 5 quarters.`,
       ],
     },
     {
       heading: `Taunton House Prices by Property Type`,
       content: [
         `Property prices in Taunton vary significantly by type. The table below compares Taunton prices with Somerset county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Taunton</th><th>Somerset Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£415,000</td><td>£448,750</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£277,250</td><td>£297,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£230,000</td><td>£258,875</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£150,000</td><td>£154,750</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Taunton</th><th>Somerset Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£415,000</td><td>£448,750</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£276,000</td><td>£297,250</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£230,000</td><td>£258,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£150,000</td><td>£154,500</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Taunton command <strong>£415,000</strong>, while flat properties are most accessible at <strong>£150,000</strong>. The <strong>£265k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
@@ -34,8 +35,8 @@ const report: MarketReport = {
       heading: `New Build Homes in Taunton`,
       content: [
         `Taunton recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. There is moderate development activity, with room for further growth.`,
-        `New-build properties in Taunton traded at a <strong>discount of 32.7%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/somerset-property-market-h1-2026">Somerset</a> market, 70 new-build completions were recorded — see our <a href="/market-reports/somerset-property-market-h1-2026">Somerset property market report</a> for the full county picture.`,
+        `New-build properties in Taunton traded at a <strong>discount of 32.4%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
+        `Across the wider <a href="/market-reports/somerset-property-market-h1-2026">Somerset</a> market, 66 new-build completions were recorded — see our <a href="/market-reports/somerset-property-market-h1-2026">Somerset property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -49,9 +50,9 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Taunton`,
       content: [
-        `For developers considering Taunton, the local market data translates directly into finance structuring. With a median value of £279,300 and detached homes at £415,000, lenders can assess scheme viability with confidence.`,
+        `For developers considering Taunton, the local market data translates directly into finance structuring. With a median value of £277,250 and detached homes at £415,000, lenders can assess scheme viability with confidence.`,
         `A typical <a href="/services/development-finance">development finance</a> facility for a Taunton scheme with a GDV of £415,000 would attract <strong>senior debt of approximately £269,750</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `While prices have softened 0.3% year-on-year, experienced developers can still generate strong returns in Taunton by targeting well-located sites with clear demand drivers.`,
+        `While prices have softened 1% year-on-year, experienced developers can still generate strong returns in Taunton by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in Taunton? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Taunton Compared to Nearby Somerset Towns`,
       content: [
         `To put Taunton's market in context, the table below compares it with similarly-priced towns across <a href="/locations/somerset">Somerset</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Taunton</strong></td><td><strong>£279,300</strong></td><td><strong>1,325</strong></td><td><strong>-0.3%</strong></td></tr><tr><td><a href="/locations/somerset/glastonbury">Glastonbury</a></td><td>£281,000</td><td>172</td><td>+0.4%</td></tr><tr><td><a href="/locations/somerset/bridgwater">Bridgwater</a></td><td>£255,000</td><td>912</td><td>+2%</td></tr><tr><td><a href="/locations/somerset/weston-super-mare">Weston-super-Mare</a></td><td>£310,000</td><td>2,924</td><td>-1.6%</td></tr><tr><td><a href="/locations/somerset/frome">Frome</a></td><td>£315,000</td><td>484</td><td>-4.4%</td></tr><tr><td><a href="/locations/somerset/yeovil">Yeovil</a></td><td>£237,750</td><td>746</td><td>-0.9%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Taunton</strong></td><td><strong>£277,250</strong></td><td><strong>1,306</strong></td><td><strong>-1%</strong></td></tr><tr><td><a href="/locations/somerset/glastonbury">Glastonbury</a></td><td>£280,000</td><td>169</td><td>0%</td></tr><tr><td><a href="/locations/somerset/bridgwater">Bridgwater</a></td><td>£255,000</td><td>893</td><td>+2%</td></tr><tr><td><a href="/locations/somerset/weston-super-mare">Weston-super-Mare</a></td><td>£310,000</td><td>2,888</td><td>-1.6%</td></tr><tr><td><a href="/locations/somerset/frome">Frome</a></td><td>£316,000</td><td>474</td><td>-3.7%</td></tr><tr><td><a href="/locations/somerset/yeovil">Yeovil</a></td><td>£238,000</td><td>737</td><td>-0.8%</td></tr></tbody></table>`,
         `For the full Somerset town-by-town breakdown, see our comprehensive <a href="/market-reports/somerset-property-market-h1-2026">Somerset property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Taunton?`,
-      answer: `The median house price in Taunton is £279,300, based on 1,325 transactions over the past 12 months. Detached homes average £415,000 while flat properties average £150,000.`,
+      answer: `The median house price in Taunton is £277,250, based on 1,306 transactions over the past 12 months. Detached homes average £415,000 while flat properties average £150,000.`,
     },
     {
       question: `Are house prices rising or falling in Taunton?`,
-      answer: `House prices in Taunton are falling at -0.3% year-on-year. This decline may present buying opportunities for investors and developers. The wider Somerset market is falling at -0.3%.`,
+      answer: `House prices in Taunton are falling at -1% year-on-year. This decline may present buying opportunities for investors and developers. The wider Somerset market is falling at -0.3%.`,
     },
     {
       question: `How many properties sold in Taunton recently?`,
-      answer: `Taunton recorded 1,325 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Taunton recorded 1,306 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Taunton?`,
@@ -85,7 +86,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["somerset-property-market-h1-2026", "south-west-market-overview-h1-2026", "bath-somerset-property-market-h1-2026", "bridgwater-somerset-property-market-h1-2026", "frome-somerset-property-market-h1-2026", "glastonbury-somerset-property-market-h1-2026"],
   relatedTownSlugs: ["somerset/taunton"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":415000},{"name":"Semi-detached","value":277250},{"name":"Terraced","value":230000},{"name":"Flat","value":150000}]},
+  charts: {"priceByType":[{"name":"Detached","value":415000},{"name":"Semi-detached","value":276000},{"name":"Terraced","value":230000},{"name":"Flat","value":150000}]},
 };
 
 export default report;

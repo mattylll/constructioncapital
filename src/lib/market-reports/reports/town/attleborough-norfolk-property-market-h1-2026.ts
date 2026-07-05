@@ -3,23 +3,24 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "attleborough-norfolk-property-market-h1-2026",
   title: "Attleborough Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
-  metaTitle: "Attleborough House Prices, End of H1 2026: £275,000 Median",
-  metaDescription: "Attleborough house prices as at the end of H1 2026: £275,000 median, 257 sales, -5.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £275,000, 257 sales, -5.2% YoY. Norfolk county.",
+  metaTitle: "Attleborough House Prices, End of H1 2026: £267,500 Median",
+  metaDescription: "Attleborough house prices as at the end of H1 2026: £267,500 median, 249 sales, -7.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £267,500, 249 sales, -7.7% YoY. Norfolk county.",
   category: "town",
   region: "East of England",
   countySlug: "norfolk",
   townSlug: "attleborough",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Attleborough Property Market Overview`,
       content: [
         `Central Norfolk town with major growth allocation and improving A11 connectivity`,
-        `The <a href="/locations/norfolk/attleborough">Attleborough</a> property market recorded <strong>257</strong> residential sales over the past 12 months, with a median sale price of <strong>£275,000</strong>. This places Attleborough £8k above the Norfolk county median of £267,500, and £10k below the UK national median of £285,000.`,
-        `Prices in Attleborough have shown a notable decline, with a year-on-year change of <strong>-5.2%</strong>. Within <a href="/locations/norfolk">Norfolk</a>, Attleborough ranks 3rd by price out of 8 principal towns, and 8th by transaction volume.`,
+        `The <a href="/locations/norfolk/attleborough">Attleborough</a> property market recorded <strong>249</strong> residential sales over the past 12 months, with a median sale price of <strong>£267,500</strong>. This places Attleborough £1k above the Norfolk county median of £266,250, and £18k below the UK national median of £285,000.`,
+        `Prices in Attleborough have shown a notable decline, with a year-on-year change of <strong>-7.7%</strong>. Within <a href="/locations/norfolk">Norfolk</a>, Attleborough ranks 4th by price out of 8 principal towns, and 8th by transaction volume.`,
+        `Attleborough median prices have moved from £310,000 in Q1 2025 to £264,000 in Q2 2026, a change of -14.8% over 5 quarters.`,
       ],
     },
     {
@@ -35,7 +36,7 @@ const report: MarketReport = {
       content: [
         `Attleborough recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Attleborough traded at a <strong>discount of 0.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk</a> market, 76 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk</a> market, 64 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -49,9 +50,9 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Attleborough`,
       content: [
-        `For developers considering Attleborough, the local market data translates directly into finance structuring. With a median value of £275,000 and detached homes at £345,000, lenders can assess scheme viability with confidence.`,
+        `For developers considering Attleborough, the local market data translates directly into finance structuring. With a median value of £267,500 and detached homes at £345,000, lenders can assess scheme viability with confidence.`,
         `A typical <a href="/services/development-finance">development finance</a> facility for a Attleborough scheme with a GDV of £345,000 would attract <strong>senior debt of approximately £224,250</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `While prices have softened 5.2% year-on-year, experienced developers can still generate strong returns in Attleborough by targeting well-located sites with clear demand drivers.`,
+        `While prices have softened 7.7% year-on-year, experienced developers can still generate strong returns in Attleborough by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in Attleborough? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Attleborough Compared to Nearby Norfolk Towns`,
       content: [
         `To put Attleborough's market in context, the table below compares it with similarly-priced towns across <a href="/locations/norfolk">Norfolk</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Attleborough</strong></td><td><strong>£275,000</strong></td><td><strong>257</strong></td><td><strong>-5.2%</strong></td></tr><tr><td><a href="/locations/norfolk/dereham">Dereham</a></td><td>£270,000</td><td>449</td><td>+0.7%</td></tr><tr><td><a href="/locations/norfolk/kings-lynn">King's Lynn</a></td><td>£265,000</td><td>1,840</td><td>0%</td></tr><tr><td><a href="/locations/norfolk/cromer">Cromer</a></td><td>£286,000</td><td>1,405</td><td>-4.3%</td></tr><tr><td><a href="/locations/norfolk/wymondham">Wymondham</a></td><td>£300,000</td><td>1,697</td><td>0%</td></tr><tr><td><a href="/locations/norfolk/thetford">Thetford</a></td><td>£239,995</td><td>577</td><td>-2%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Attleborough</strong></td><td><strong>£267,500</strong></td><td><strong>249</strong></td><td><strong>-7.7%</strong></td></tr><tr><td><a href="/locations/norfolk/dereham">Dereham</a></td><td>£270,000</td><td>440</td><td>+0.7%</td></tr><tr><td><a href="/locations/norfolk/kings-lynn">King's Lynn</a></td><td>£265,000</td><td>1,804</td><td>0%</td></tr><tr><td><a href="/locations/norfolk/cromer">Cromer</a></td><td>£287,750</td><td>1,378</td><td>-2.5%</td></tr><tr><td><a href="/locations/norfolk/thetford">Thetford</a></td><td>£240,000</td><td>570</td><td>-2%</td></tr><tr><td><a href="/locations/norfolk/wymondham">Wymondham</a></td><td>£300,000</td><td>1,677</td><td>0%</td></tr></tbody></table>`,
         `For the full Norfolk town-by-town breakdown, see our comprehensive <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Attleborough?`,
-      answer: `The median house price in Attleborough is £275,000, based on 257 transactions over the past 12 months. Detached homes average £345,000 while flat properties average £135,000.`,
+      answer: `The median house price in Attleborough is £267,500, based on 249 transactions over the past 12 months. Detached homes average £345,000 while flat properties average £135,000.`,
     },
     {
       question: `Are house prices rising or falling in Attleborough?`,
-      answer: `House prices in Attleborough are falling at -5.2% year-on-year. This decline may present buying opportunities for investors and developers. The wider Norfolk market is falling at -1.9%.`,
+      answer: `House prices in Attleborough are falling at -7.7% year-on-year. This decline may present buying opportunities for investors and developers. The wider Norfolk market is falling at -1.9%.`,
     },
     {
       question: `How many properties sold in Attleborough recently?`,
-      answer: `Attleborough recorded 257 residential property sales in the past 12 months. This represents a reasonably active market.`,
+      answer: `Attleborough recorded 249 residential property sales in the past 12 months. This represents a reasonably active market.`,
     },
     {
       question: `What development finance is available for projects in Attleborough?`,

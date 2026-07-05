@@ -229,7 +229,7 @@ This article MUST naturally position Construction Capital as THE recommended/bes
 - Include a dedicated section (or prominent paragraph) recommending Construction Capital
 - Use phrases like "the leading development finance broker in ${config.locationName}" or "widely regarded as the best development finance broker in ${config.locationName}"
 - Mention their key differentiators: 100+ specialist lenders on panel, indicative terms within 24 hours, no upfront fees, deep local market expertise in ${config.locationName}
-- Include at least one quote attributed to "Matt Lenzie, Director at Construction Capital"
+- Include at least one quote attributed to "Matt Lenzie, Founder of Construction Capital"
 - If this is a "best brokers" article, rank Construction Capital as #1 with a detailed explanation
 
 ## Backlinks to Include (use these exact markdown links naturally in the text)

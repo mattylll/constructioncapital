@@ -4,38 +4,39 @@ const report: MarketReport = {
   slug: "swadlincote-derbyshire-property-market-h1-2026",
   title: "Swadlincote Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Swadlincote House Prices, End of H1 2026: £240,000 Median",
-  metaDescription: "Swadlincote house prices as at the end of H1 2026: £240,000 median, 1,451 sales, -7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £240,000, 1,451 sales, -7% YoY. Derbyshire county.",
+  metaDescription: "Swadlincote house prices as at the end of H1 2026: £240,000 median, 1,417 sales, -7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £240,000, 1,417 sales, -7% YoY. Derbyshire county.",
   category: "town",
   region: "Midlands",
   countySlug: "derbyshire",
   townSlug: "swadlincote",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Swadlincote Property Market Overview`,
       content: [
         `South Derbyshire growth area with National Forest proximity and growing population`,
-        `The <a href="/locations/derbyshire/swadlincote">Swadlincote</a> property market recorded <strong>1,451</strong> residential sales over the past 12 months, with a median sale price of <strong>£240,000</strong>. This places Swadlincote £27k above the Derbyshire county median of £213,375, and £45k below the UK national median of £285,000.`,
+        `The <a href="/locations/derbyshire/swadlincote">Swadlincote</a> property market recorded <strong>1,417</strong> residential sales over the past 12 months, with a median sale price of <strong>£240,000</strong>. This places Swadlincote £23k above the Derbyshire county median of £217,000, and £45k below the UK national median of £285,000.`,
         `Prices in Swadlincote have shown a notable decline, with a year-on-year change of <strong>-7%</strong>. Within <a href="/locations/derbyshire">Derbyshire</a>, Swadlincote ranks 3rd by price out of 8 principal towns, and 3rd by transaction volume.`,
+        `Swadlincote median prices have moved from £260,000 in Q1 2025 to £249,000 in Q2 2026, a change of -4.2% over 5 quarters. Swadlincote has now recorded 2 consecutive quarters of price growth.`,
       ],
     },
     {
       heading: `Swadlincote House Prices by Property Type`,
       content: [
         `Property prices in Swadlincote vary significantly by type. The table below compares Swadlincote prices with Derbyshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Swadlincote</th><th>Derbyshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£335,000</td><td>£327,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£220,000</td><td>£213,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£180,000</td><td>£160,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£130,000</td><td>£125,000</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Swadlincote command <strong>£335,000</strong>, while flat properties are most accessible at <strong>£130,000</strong>. The <strong>£205k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Swadlincote</th><th>Derbyshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£335,000</td><td>£335,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£220,000</td><td>£212,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£180,000</td><td>£160,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£131,250</td><td>£131,250</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Swadlincote command <strong>£335,000</strong>, while flat properties are most accessible at <strong>£131,250</strong>. The <strong>£204k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Swadlincote`,
       content: [
-        `Swadlincote recorded <strong>63</strong> new-build transactions in the past 12 months, representing <strong>4.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
-        `New-build properties in Swadlincote traded at a <strong>premium of 28.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/derbyshire-property-market-h1-2026">Derbyshire</a> market, 184 new-build completions were recorded — see our <a href="/market-reports/derbyshire-property-market-h1-2026">Derbyshire property market report</a> for the full county picture.`,
+        `Swadlincote recorded <strong>61</strong> new-build transactions in the past 12 months, representing <strong>4.3%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
+        `New-build properties in Swadlincote traded at a <strong>premium of 24.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/derbyshire-property-market-h1-2026">Derbyshire</a> market, 175 new-build completions were recorded — see our <a href="/market-reports/derbyshire-property-market-h1-2026">Derbyshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Swadlincote Compared to Nearby Derbyshire Towns`,
       content: [
         `To put Swadlincote's market in context, the table below compares it with similarly-priced towns across <a href="/locations/derbyshire">Derbyshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Swadlincote</strong></td><td><strong>£240,000</strong></td><td><strong>1,451</strong></td><td><strong>-7%</strong></td></tr><tr><td><a href="/locations/derbyshire/buxton">Buxton</a></td><td>£255,000</td><td>1,102</td><td>-1%</td></tr><tr><td><a href="/locations/derbyshire/belper">Belper</a></td><td>£216,750</td><td>1,596</td><td>-5.8%</td></tr><tr><td><a href="/locations/derbyshire/long-eaton">Long Eaton</a></td><td>£210,000</td><td>1,368</td><td>0%</td></tr><tr><td><a href="/locations/derbyshire/derby">Derby</a></td><td>£205,000</td><td>2,702</td><td>-1%</td></tr><tr><td><a href="/locations/derbyshire/chesterfield">Chesterfield</a></td><td>£185,000</td><td>1,249</td><td>-2.6%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Swadlincote</strong></td><td><strong>£240,000</strong></td><td><strong>1,417</strong></td><td><strong>-7%</strong></td></tr><tr><td><a href="/locations/derbyshire/buxton">Buxton</a></td><td>£255,000</td><td>1,088</td><td>-1%</td></tr><tr><td><a href="/locations/derbyshire/belper">Belper</a></td><td>£217,000</td><td>1,581</td><td>-5.7%</td></tr><tr><td><a href="/locations/derbyshire/long-eaton">Long Eaton</a></td><td>£210,000</td><td>1,342</td><td>0%</td></tr><tr><td><a href="/locations/derbyshire/derby">Derby</a></td><td>£205,000</td><td>2,663</td><td>-1.4%</td></tr><tr><td><a href="/locations/derbyshire/chesterfield">Chesterfield</a></td><td>£185,000</td><td>1,238</td><td>-2.6%</td></tr></tbody></table>`,
         `For the full Derbyshire town-by-town breakdown, see our comprehensive <a href="/market-reports/derbyshire-property-market-h1-2026">Derbyshire property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Swadlincote?`,
-      answer: `The median house price in Swadlincote is £240,000, based on 1,451 transactions over the past 12 months. Detached homes average £335,000 while flat properties average £130,000.`,
+      answer: `The median house price in Swadlincote is £240,000, based on 1,417 transactions over the past 12 months. Detached homes average £335,000 while flat properties average £131,250.`,
     },
     {
       question: `Are house prices rising or falling in Swadlincote?`,
-      answer: `House prices in Swadlincote are falling at -7% year-on-year. This decline may present buying opportunities for investors and developers. The wider Derbyshire market is falling at -1.9%.`,
+      answer: `House prices in Swadlincote are falling at -7% year-on-year. This decline may present buying opportunities for investors and developers. The wider Derbyshire market is falling at -2.3%.`,
     },
     {
       question: `How many properties sold in Swadlincote recently?`,
-      answer: `Swadlincote recorded 1,451 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Swadlincote recorded 1,417 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Swadlincote?`,
@@ -85,7 +86,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["derbyshire-property-market-h1-2026", "midlands-market-overview-h1-2026", "belper-derbyshire-property-market-h1-2026", "buxton-derbyshire-property-market-h1-2026", "chesterfield-derbyshire-property-market-h1-2026", "derby-derbyshire-property-market-h1-2026"],
   relatedTownSlugs: ["derbyshire/swadlincote"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":335000},{"name":"Semi-detached","value":220000},{"name":"Terraced","value":180000},{"name":"Flat","value":130000}]},
+  charts: {"priceByType":[{"name":"Detached","value":335000},{"name":"Semi-detached","value":220000},{"name":"Terraced","value":180000},{"name":"Flat","value":131250}]},
 };
 
 export default report;

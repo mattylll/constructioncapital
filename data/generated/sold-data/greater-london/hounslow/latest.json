@@ -1,19 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.187Z",
+  "updatedAt": "2026-07-05T06:06:54.592Z",
   "townSlug": "hounslow",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": false,
   "stats": {
     "medianPrice": 475000,
     "medianByType": {
       "D": 690000,
       "S": 560000,
-      "T": 511000,
+      "T": 512375,
       "F": 338000
     },
-    "transactionCount12m": 1634,
-    "yoyChange": 1,
+    "transactionCount12m": 1615,
+    "yoyChange": 1.1,
     "newBuildCount": 48,
-    "existingCount": 1586,
+    "existingCount": 1567,
     "newBuildPremium": 13.7
   },
   "recentTransactions": [

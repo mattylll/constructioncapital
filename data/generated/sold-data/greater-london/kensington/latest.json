@@ -1,19 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.274Z",
+  "updatedAt": "2026-07-05T06:06:54.664Z",
   "townSlug": "kensington",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": true,
   "stats": {
-    "medianPrice": 1000000,
+    "medianPrice": 995000,
     "medianByType": {
       "D": 4087500,
       "S": 6539875,
       "T": 3400000,
-      "F": 832500
+      "F": 830000
     },
-    "transactionCount12m": 1185,
-    "yoyChange": -14.4,
+    "transactionCount12m": 1173,
+    "yoyChange": -15,
     "newBuildCount": 10,
-    "existingCount": 1175,
+    "existingCount": 1163,
     "newBuildPremium": -3.5
   },
   "recentTransactions": [

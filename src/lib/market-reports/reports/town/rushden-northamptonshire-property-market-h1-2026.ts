@@ -4,22 +4,23 @@ const report: MarketReport = {
   slug: "rushden-northamptonshire-property-market-h1-2026",
   title: "Rushden Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Rushden House Prices, End of H1 2026: £241,000 Median",
-  metaDescription: "Rushden house prices as at the end of H1 2026: £241,000 median, 526 sales, -2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £241,000, 526 sales, -2% YoY. Northamptonshire county.",
+  metaDescription: "Rushden house prices as at the end of H1 2026: £241,000 median, 522 sales, -2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £241,000, 522 sales, -2% YoY. Northamptonshire county.",
   category: "town",
   region: "Midlands",
   countySlug: "northamptonshire",
   townSlug: "rushden",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Rushden Property Market Overview`,
       content: [
         `East Northamptonshire town with Rushden Lakes retail destination and growing residential market`,
-        `The <a href="/locations/northamptonshire/rushden">Rushden</a> property market recorded <strong>526</strong> residential sales over the past 12 months, with a median sale price of <strong>£241,000</strong>. This places Rushden £9k below the Northamptonshire county median of £250,000, and £44k below the UK national median of £285,000.`,
+        `The <a href="/locations/northamptonshire/rushden">Rushden</a> property market recorded <strong>522</strong> residential sales over the past 12 months, with a median sale price of <strong>£241,000</strong>. This places Rushden £9k below the Northamptonshire county median of £250,000, and £44k below the UK national median of £285,000.`,
         `Prices in Rushden have shown a moderate decline, with a year-on-year change of <strong>-2%</strong>. Within <a href="/locations/northamptonshire">Northamptonshire</a>, Rushden ranks 6th by price out of 7 principal towns, and 5th by transaction volume.`,
+        `Rushden median prices have moved from £249,000 in Q1 2025 to £235,000 in Q2 2026, a change of -5.6% over 5 quarters.`,
       ],
     },
     {
@@ -35,7 +36,7 @@ const report: MarketReport = {
       content: [
         `Rushden recorded <strong>5</strong> new-build transactions in the past 12 months, representing <strong>1.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Rushden traded at a <strong>premium of 84.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/northamptonshire-property-market-h1-2026">Northamptonshire</a> market, 130 new-build completions were recorded — see our <a href="/market-reports/northamptonshire-property-market-h1-2026">Northamptonshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northamptonshire-property-market-h1-2026">Northamptonshire</a> market, 127 new-build completions were recorded — see our <a href="/market-reports/northamptonshire-property-market-h1-2026">Northamptonshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Rushden Compared to Nearby Northamptonshire Towns`,
       content: [
         `To put Rushden's market in context, the table below compares it with similarly-priced towns across <a href="/locations/northamptonshire">Northamptonshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Rushden</strong></td><td><strong>£241,000</strong></td><td><strong>526</strong></td><td><strong>-2%</strong></td></tr><tr><td><a href="/locations/northamptonshire/wellingborough">Wellingborough</a></td><td>£245,000</td><td>1,140</td><td>-7.5%</td></tr><tr><td><a href="/locations/northamptonshire/kettering">Kettering</a></td><td>£250,000</td><td>1,457</td><td>-4.6%</td></tr><tr><td><a href="/locations/northamptonshire/corby">Corby</a></td><td>£220,000</td><td>752</td><td>-4.3%</td></tr><tr><td><a href="/locations/northamptonshire/northampton">Northampton</a></td><td>£270,000</td><td>3,386</td><td>-3.6%</td></tr><tr><td><a href="/locations/northamptonshire/daventry">Daventry</a></td><td>£274,500</td><td>512</td><td>+1.7%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Rushden</strong></td><td><strong>£241,000</strong></td><td><strong>522</strong></td><td><strong>-2%</strong></td></tr><tr><td><a href="/locations/northamptonshire/wellingborough">Wellingborough</a></td><td>£245,000</td><td>1,124</td><td>-7.5%</td></tr><tr><td><a href="/locations/northamptonshire/kettering">Kettering</a></td><td>£250,000</td><td>1,427</td><td>-4.3%</td></tr><tr><td><a href="/locations/northamptonshire/corby">Corby</a></td><td>£220,000</td><td>745</td><td>-4.3%</td></tr><tr><td><a href="/locations/northamptonshire/northampton">Northampton</a></td><td>£270,000</td><td>3,330</td><td>-3.6%</td></tr><tr><td><a href="/locations/northamptonshire/daventry">Daventry</a></td><td>£275,000</td><td>507</td><td>+1.9%</td></tr></tbody></table>`,
         `For the full Northamptonshire town-by-town breakdown, see our comprehensive <a href="/market-reports/northamptonshire-property-market-h1-2026">Northamptonshire property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Rushden?`,
-      answer: `The median house price in Rushden is £241,000, based on 526 transactions over the past 12 months. Detached homes average £362,500 while flat properties average £125,000.`,
+      answer: `The median house price in Rushden is £241,000, based on 522 transactions over the past 12 months. Detached homes average £362,500 while flat properties average £125,000.`,
     },
     {
       question: `Are house prices rising or falling in Rushden?`,
-      answer: `House prices in Rushden are falling at -2% year-on-year. This decline may present buying opportunities for investors and developers. The wider Northamptonshire market is falling at -4.2%.`,
+      answer: `House prices in Rushden are falling at -2% year-on-year. This decline may present buying opportunities for investors and developers. The wider Northamptonshire market is falling at -4.1%.`,
     },
     {
       question: `How many properties sold in Rushden recently?`,
-      answer: `Rushden recorded 526 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Rushden recorded 522 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Rushden?`,

@@ -4,38 +4,40 @@ const report: MarketReport = {
   slug: "flitwick-bedfordshire-property-market-h1-2026",
   title: "Flitwick Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Flitwick House Prices, End of H1 2026: £355,000 Median",
-  metaDescription: "Flitwick house prices as at the end of H1 2026: £355,000 median, 3,580 sales, -3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £355,000, 3,580 sales, -3% YoY. Bedfordshire county.",
+  metaDescription: "Flitwick house prices as at the end of H1 2026: £355,000 median, 3,532 sales, -3.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £355,000, 3,532 sales, -3.1% YoY. Bedfordshire county.",
   category: "town",
   region: "East of England",
   countySlug: "bedfordshire",
   townSlug: "flitwick",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Flitwick Property Market Overview`,
       content: [
         `Mid-Bedfordshire commuter town with fast Thameslink services and family housing demand`,
-        `The <a href="/locations/bedfordshire/flitwick">Flitwick</a> property market recorded <strong>3,580</strong> residential sales over the past 12 months, with a median sale price of <strong>£355,000</strong>. This places Flitwick £18k above the Bedfordshire county median of £337,475, and £70k above the UK national median of £285,000.`,
-        `Prices in Flitwick have shown a moderate decline, with a year-on-year change of <strong>-3%</strong>. Within <a href="/locations/bedfordshire">Bedfordshire</a>, Flitwick ranks 2nd by price out of 7 principal towns, and 1st by transaction volume.`,
+        `The <a href="/locations/bedfordshire/flitwick">Flitwick</a> property market recorded <strong>3,532</strong> residential sales over the past 12 months, with a median sale price of <strong>£355,000</strong>. This places Flitwick £20k above the Bedfordshire county median of £335,000, and £70k above the UK national median of £285,000.`,
+        `Prices in Flitwick have shown a moderate decline, with a year-on-year change of <strong>-3.1%</strong>. Within <a href="/locations/bedfordshire">Bedfordshire</a>, Flitwick ranks 2nd by price out of 7 principal towns, and 1st by transaction volume.`,
+        `Flitwick median prices have moved from £365,750 in Q1 2025 to £365,500 in Q2 2026, a change of -0.1% over 5 quarters. Flitwick has now recorded 2 consecutive quarters of price growth.`,
+        `Flitwick shares a HM Land Registry reporting district with neighbouring towns, and the source data does not distinguish Flitwick-specific sales from the wider district. The figures above reflect the whole shared district rather than Flitwick alone.`,
       ],
     },
     {
       heading: `Flitwick House Prices by Property Type`,
       content: [
         `Property prices in Flitwick vary significantly by type. The table below compares Flitwick prices with Bedfordshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Flitwick</th><th>Bedfordshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£517,000</td><td>£500,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£375,000</td><td>£364,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£305,000</td><td>£300,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£185,000</td><td>£177,000</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Flitwick command <strong>£517,000</strong>, while flat properties are most accessible at <strong>£185,000</strong>. The <strong>£332k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Flitwick</th><th>Bedfordshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£515,000</td><td>£490,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£372,500</td><td>£352,750</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£305,000</td><td>£292,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£185,000</td><td>£173,000</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Flitwick command <strong>£515,000</strong>, while flat properties are most accessible at <strong>£185,000</strong>. The <strong>£330k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Flitwick`,
       content: [
-        `Flitwick recorded <strong>58</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
-        `New-build properties in Flitwick traded at a <strong>premium of 48.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire</a> market, 242 new-build completions were recorded — see our <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire property market report</a> for the full county picture.`,
+        `Flitwick recorded <strong>55</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
+        `New-build properties in Flitwick traded at a <strong>premium of 48.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire</a> market, 172 new-build completions were recorded — see our <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -49,9 +51,9 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Flitwick`,
       content: [
-        `For developers considering Flitwick, the local market data translates directly into finance structuring. With a median value of £355,000 and detached homes at £517,000, lenders can assess scheme viability with confidence.`,
-        `A typical <a href="/services/development-finance">development finance</a> facility for a Flitwick scheme with a GDV of £517,000 would attract <strong>senior debt of approximately £336,050</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `While prices have softened 3% year-on-year, experienced developers can still generate strong returns in Flitwick by targeting well-located sites with clear demand drivers.`,
+        `For developers considering Flitwick, the local market data translates directly into finance structuring. With a median value of £355,000 and detached homes at £515,000, lenders can assess scheme viability with confidence.`,
+        `A typical <a href="/services/development-finance">development finance</a> facility for a Flitwick scheme with a GDV of £515,000 would attract <strong>senior debt of approximately £334,750</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
+        `While prices have softened 3.1% year-on-year, experienced developers can still generate strong returns in Flitwick by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in Flitwick? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -59,7 +61,7 @@ const report: MarketReport = {
       heading: `Flitwick Compared to Nearby Bedfordshire Towns`,
       content: [
         `To put Flitwick's market in context, the table below compares it with similarly-priced towns across <a href="/locations/bedfordshire">Bedfordshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Flitwick</strong></td><td><strong>£355,000</strong></td><td><strong>3,580</strong></td><td><strong>-3%</strong></td></tr><tr><td><a href="/locations/bedfordshire/biggleswade">Biggleswade</a></td><td>£355,500</td><td>380</td><td>-2.6%</td></tr><tr><td><a href="/locations/bedfordshire/leighton-buzzard">Leighton Buzzard</a></td><td>£340,000</td><td>718</td><td>-5.6%</td></tr><tr><td><a href="/locations/bedfordshire/sandy">Sandy</a></td><td>£337,475</td><td>234</td><td>+7.6%</td></tr><tr><td><a href="/locations/bedfordshire/bedford">Bedford</a></td><td>£335,000</td><td>1,847</td><td>-1.5%</td></tr><tr><td><a href="/locations/bedfordshire/dunstable">Dunstable</a></td><td>£330,000</td><td>812</td><td>-7.6%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Flitwick</strong></td><td><strong>£355,000</strong></td><td><strong>3,532</strong></td><td><strong>-3.1%</strong></td></tr><tr><td><a href="/locations/bedfordshire/biggleswade">Biggleswade</a></td><td>£355,000</td><td>374</td><td>-2.7%</td></tr><tr><td><a href="/locations/bedfordshire/leighton-buzzard">Leighton Buzzard</a></td><td>£340,000</td><td>713</td><td>-5.6%</td></tr><tr><td><a href="/locations/bedfordshire/bedford">Bedford</a></td><td>£335,000</td><td>1,806</td><td>-1.5%</td></tr><tr><td><a href="/locations/bedfordshire/sandy">Sandy</a></td><td>£335,000</td><td>229</td><td>+6.3%</td></tr><tr><td><a href="/locations/bedfordshire/dunstable">Dunstable</a></td><td>£329,000</td><td>796</td><td>-7.8%</td></tr></tbody></table>`,
         `For the full Bedfordshire town-by-town breakdown, see our comprehensive <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire property market report</a>.`,
       ],
     },
@@ -67,15 +69,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Flitwick?`,
-      answer: `The median house price in Flitwick is £355,000, based on 3,580 transactions over the past 12 months. Detached homes average £517,000 while flat properties average £185,000.`,
+      answer: `The median house price in Flitwick is £355,000, based on 3,532 transactions over the past 12 months. Detached homes average £515,000 while flat properties average £185,000.`,
     },
     {
       question: `Are house prices rising or falling in Flitwick?`,
-      answer: `House prices in Flitwick are falling at -3% year-on-year. This decline may present buying opportunities for investors and developers. The wider Bedfordshire market is falling at -1.8%.`,
+      answer: `House prices in Flitwick are falling at -3.1% year-on-year. This decline may present buying opportunities for investors and developers. The wider Bedfordshire market is falling at -1.9%.`,
     },
     {
       question: `How many properties sold in Flitwick recently?`,
-      answer: `Flitwick recorded 3,580 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Flitwick recorded 3,532 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Flitwick?`,
@@ -85,7 +87,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["bedfordshire-property-market-h1-2026", "east-of-england-market-overview-h1-2026", "bedford-bedfordshire-property-market-h1-2026", "biggleswade-bedfordshire-property-market-h1-2026", "dunstable-bedfordshire-property-market-h1-2026", "leighton-buzzard-bedfordshire-property-market-h1-2026"],
   relatedTownSlugs: ["bedfordshire/flitwick"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":517000},{"name":"Semi-detached","value":375000},{"name":"Terraced","value":305000},{"name":"Flat","value":185000}]},
+  charts: {"priceByType":[{"name":"Detached","value":515000},{"name":"Semi-detached","value":372500},{"name":"Terraced","value":305000},{"name":"Flat","value":185000}]},
 };
 
 export default report;

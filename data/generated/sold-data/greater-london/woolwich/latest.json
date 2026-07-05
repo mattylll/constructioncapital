@@ -1,19 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.103Z",
+  "updatedAt": "2026-07-05T06:06:54.515Z",
   "townSlug": "woolwich",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": false,
   "stats": {
     "medianPrice": 450000,
     "medianByType": {
-      "D": 737500,
-      "S": 559000,
+      "D": 715000,
+      "S": 560000,
       "T": 485000,
-      "F": 362341
+      "F": 362500
     },
-    "transactionCount12m": 1961,
-    "yoyChange": 0.8,
+    "transactionCount12m": 1936,
+    "yoyChange": 0.6,
     "newBuildCount": 22,
-    "existingCount": 1939,
+    "existingCount": 1914,
     "newBuildPremium": -28.2
   },
   "recentTransactions": [

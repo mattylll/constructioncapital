@@ -1,20 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.546Z",
+  "updatedAt": "2026-07-05T06:06:54.917Z",
   "townSlug": "sutton",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": false,
   "stats": {
     "medianPrice": 450000,
     "medianByType": {
       "D": 900000,
-      "S": 601000,
+      "S": 604250,
       "T": 483750,
       "F": 285000
     },
-    "transactionCount12m": 1768,
+    "transactionCount12m": 1742,
     "yoyChange": 0,
-    "newBuildCount": 3,
-    "existingCount": 1765,
-    "newBuildPremium": -34.4
+    "newBuildCount": 1,
+    "existingCount": 1741,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {

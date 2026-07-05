@@ -4,22 +4,23 @@ const report: MarketReport = {
   slug: "tiverton-devon-property-market-h1-2026",
   title: "Tiverton Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Tiverton House Prices, End of H1 2026: £280,000 Median",
-  metaDescription: "Tiverton house prices as at the end of H1 2026: £280,000 median, 892 sales, -6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £280,000, 892 sales, -6% YoY. Devon county.",
+  metaDescription: "Tiverton house prices as at the end of H1 2026: £280,000 median, 879 sales, -6.4% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £280,000, 879 sales, -6.4% YoY. Devon county.",
   category: "town",
   region: "South West",
   countySlug: "devon",
   townSlug: "tiverton",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Tiverton Property Market Overview`,
       content: [
         `Mid-Devon market town with new A361 improvements and growing residential demand`,
-        `The <a href="/locations/devon/tiverton">Tiverton</a> property market recorded <strong>892</strong> residential sales over the past 12 months, with a median sale price of <strong>£280,000</strong>. This places Tiverton £5k below the Devon county median of £285,000, and £5k below the UK national median of £285,000.`,
-        `Prices in Tiverton have shown a notable decline, with a year-on-year change of <strong>-6%</strong>. Within <a href="/locations/devon">Devon</a>, Tiverton ranks 5th by price out of 8 principal towns, and 6th by transaction volume.`,
+        `The <a href="/locations/devon/tiverton">Tiverton</a> property market recorded <strong>879</strong> residential sales over the past 12 months, with a median sale price of <strong>£280,000</strong>. This places Tiverton £5k below the Devon county median of £285,000, and £5k below the UK national median of £285,000.`,
+        `Prices in Tiverton have shown a notable decline, with a year-on-year change of <strong>-6.4%</strong>. Within <a href="/locations/devon">Devon</a>, Tiverton ranks 5th by price out of 8 principal towns, and 6th by transaction volume.`,
+        `Tiverton median prices have moved from £325,000 in Q1 2025 to £299,975 in Q2 2026, a change of -7.7% over 5 quarters.`,
       ],
     },
     {
@@ -32,16 +33,16 @@ const report: MarketReport = {
       heading: `Tiverton House Prices by Property Type`,
       content: [
         `Property prices in Tiverton vary significantly by type. The table below compares Tiverton prices with Devon county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Tiverton</th><th>Devon Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£405,000</td><td>£411,732</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£268,500</td><td>£276,750</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£221,750</td><td>£220,875</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£120,000</td><td>£150,000</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Tiverton</th><th>Devon Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£405,000</td><td>£410,866</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£268,000</td><td>£276,750</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£220,000</td><td>£220,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£120,000</td><td>£149,500</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Tiverton command <strong>£405,000</strong>, while flat properties are most accessible at <strong>£120,000</strong>. The <strong>£285k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Tiverton`,
       content: [
-        `Tiverton recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. There is moderate development activity, with room for further growth.`,
-        `New-build properties in Tiverton traded at a <strong>premium of 33.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/devon-property-market-h1-2026">Devon</a> market, 103 new-build completions were recorded — see our <a href="/market-reports/devon-property-market-h1-2026">Devon property market report</a> for the full county picture.`,
+        `Tiverton recorded <strong>11</strong> new-build transactions in the past 12 months, representing <strong>1.3%</strong> of total sales. There is moderate development activity, with room for further growth.`,
+        `New-build properties in Tiverton traded at a <strong>premium of 68.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/devon-property-market-h1-2026">Devon</a> market, 96 new-build completions were recorded — see our <a href="/market-reports/devon-property-market-h1-2026">Devon property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -57,7 +58,7 @@ const report: MarketReport = {
       content: [
         `For developers considering Tiverton, the local market data translates directly into finance structuring. With a median value of £280,000 and detached homes at £405,000, lenders can assess scheme viability with confidence.`,
         `A typical <a href="/services/development-finance">development finance</a> facility for a Tiverton scheme with a GDV of £405,000 would attract <strong>senior debt of approximately £263,250</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `While prices have softened 6% year-on-year, experienced developers can still generate strong returns in Tiverton by targeting well-located sites with clear demand drivers.`,
+        `While prices have softened 6.4% year-on-year, experienced developers can still generate strong returns in Tiverton by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in Tiverton? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -65,7 +66,7 @@ const report: MarketReport = {
       heading: `Tiverton Compared to Nearby Devon Towns`,
       content: [
         `To put Tiverton's market in context, the table below compares it with similarly-priced towns across <a href="/locations/devon">Devon</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Tiverton</strong></td><td><strong>£280,000</strong></td><td><strong>892</strong></td><td><strong>-6%</strong></td></tr><tr><td><a href="/locations/devon/barnstaple">Barnstaple</a></td><td>£290,000</td><td>1,211</td><td>-1.7%</td></tr><tr><td><a href="/locations/devon/newton-abbot">Newton Abbot</a></td><td>£293,625</td><td>1,730</td><td>-2.1%</td></tr><tr><td><a href="/locations/devon/exeter">Exeter</a></td><td>£300,000</td><td>1,265</td><td>0%</td></tr><tr><td><a href="/locations/devon/paignton">Paignton</a></td><td>£250,000</td><td>666</td><td>-5.7%</td></tr><tr><td><a href="/locations/devon/exmouth">Exmouth</a></td><td>£320,000</td><td>2,052</td><td>-2.4%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Tiverton</strong></td><td><strong>£280,000</strong></td><td><strong>879</strong></td><td><strong>-6.4%</strong></td></tr><tr><td><a href="/locations/devon/barnstaple">Barnstaple</a></td><td>£290,000</td><td>1,203</td><td>-1.5%</td></tr><tr><td><a href="/locations/devon/newton-abbot">Newton Abbot</a></td><td>£295,000</td><td>1,703</td><td>-1.7%</td></tr><tr><td><a href="/locations/devon/exeter">Exeter</a></td><td>£300,000</td><td>1,242</td><td>0%</td></tr><tr><td><a href="/locations/devon/paignton">Paignton</a></td><td>£250,000</td><td>659</td><td>-5.7%</td></tr><tr><td><a href="/locations/devon/exmouth">Exmouth</a></td><td>£320,000</td><td>2,030</td><td>-2.4%</td></tr></tbody></table>`,
         `For the full Devon town-by-town breakdown, see our comprehensive <a href="/market-reports/devon-property-market-h1-2026">Devon property market report</a>.`,
       ],
     },
@@ -73,15 +74,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Tiverton?`,
-      answer: `The median house price in Tiverton is £280,000, based on 892 transactions over the past 12 months. Detached homes average £405,000 while flat properties average £120,000.`,
+      answer: `The median house price in Tiverton is £280,000, based on 879 transactions over the past 12 months. Detached homes average £405,000 while flat properties average £120,000.`,
     },
     {
       question: `Are house prices rising or falling in Tiverton?`,
-      answer: `House prices in Tiverton are falling at -6% year-on-year. This decline may present buying opportunities for investors and developers. The wider Devon market is falling at -2.5%.`,
+      answer: `House prices in Tiverton are falling at -6.4% year-on-year. This decline may present buying opportunities for investors and developers. The wider Devon market is falling at -2.5%.`,
     },
     {
       question: `How many properties sold in Tiverton recently?`,
-      answer: `Tiverton recorded 892 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Tiverton recorded 879 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Tiverton?`,
@@ -91,7 +92,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["devon-property-market-h1-2026", "south-west-market-overview-h1-2026", "barnstaple-devon-property-market-h1-2026", "exeter-devon-property-market-h1-2026", "exmouth-devon-property-market-h1-2026", "newton-abbot-devon-property-market-h1-2026"],
   relatedTownSlugs: ["devon/tiverton"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":405000},{"name":"Semi-detached","value":268500},{"name":"Terraced","value":221750},{"name":"Flat","value":120000}]},
+  charts: {"priceByType":[{"name":"Detached","value":405000},{"name":"Semi-detached","value":268000},{"name":"Terraced","value":220000},{"name":"Flat","value":120000}]},
 };
 
 export default report;

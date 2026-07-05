@@ -4,38 +4,39 @@ const report: MarketReport = {
   slug: "peterborough-cambridgeshire-property-market-h1-2026",
   title: "Peterborough Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Peterborough House Prices, End of H1 2026: £235,000 Median",
-  metaDescription: "Peterborough house prices as at the end of H1 2026: £235,000 median, 1,843 sales, -2.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £235,000, 1,843 sales, -2.1% YoY. Cambridgeshire county.",
+  metaDescription: "Peterborough house prices as at the end of H1 2026: £235,000 median, 1,816 sales, -2.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £235,000, 1,816 sales, -2.1% YoY. Cambridgeshire county.",
   category: "town",
   region: "East of England",
   countySlug: "cambridgeshire",
   townSlug: "peterborough",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Peterborough Property Market Overview`,
       content: [
         `Northern gateway city with significant growth agenda and affordable development land`,
-        `The <a href="/locations/cambridgeshire/peterborough">Peterborough</a> property market recorded <strong>1,843</strong> residential sales over the past 12 months, with a median sale price of <strong>£235,000</strong>. This places Peterborough £68k below the Cambridgeshire county median of £302,500, and £50k below the UK national median of £285,000.`,
+        `The <a href="/locations/cambridgeshire/peterborough">Peterborough</a> property market recorded <strong>1,816</strong> residential sales over the past 12 months, with a median sale price of <strong>£235,000</strong>. This places Peterborough £68k below the Cambridgeshire county median of £302,750, and £50k below the UK national median of £285,000.`,
         `Prices in Peterborough have shown a moderate decline, with a year-on-year change of <strong>-2.1%</strong>. Within <a href="/locations/cambridgeshire">Cambridgeshire</a>, Peterborough ranks 7th by price out of 8 principal towns, and 1st by transaction volume.`,
+        `Peterborough median prices have moved from £235,000 in Q1 2025 to £232,500 in Q2 2026, a change of -1.1% over 5 quarters.`,
       ],
     },
     {
       heading: `Peterborough House Prices by Property Type`,
       content: [
         `Property prices in Peterborough vary significantly by type. The table below compares Peterborough prices with Cambridgeshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Peterborough</th><th>Cambridgeshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£330,000</td><td>£430,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£240,000</td><td>£293,250</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£185,000</td><td>£247,750</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£120,000</td><td>£155,125</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Peterborough</th><th>Cambridgeshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£330,000</td><td>£430,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£240,000</td><td>£294,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£185,000</td><td>£247,625</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£120,000</td><td>£155,125</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Peterborough command <strong>£330,000</strong>, while flat properties are most accessible at <strong>£120,000</strong>. The <strong>£210k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Peterborough`,
       content: [
-        `Peterborough recorded <strong>35</strong> new-build transactions in the past 12 months, representing <strong>1.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
-        `New-build properties in Peterborough traded at a <strong>premium of 40.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire</a> market, 103 new-build completions were recorded — see our <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire property market report</a> for the full county picture.`,
+        `Peterborough recorded <strong>34</strong> new-build transactions in the past 12 months, representing <strong>1.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
+        `New-build properties in Peterborough traded at a <strong>premium of 38.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire</a> market, 98 new-build completions were recorded — see our <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Peterborough Compared to Nearby Cambridgeshire Towns`,
       content: [
         `To put Peterborough's market in context, the table below compares it with similarly-priced towns across <a href="/locations/cambridgeshire">Cambridgeshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Peterborough</strong></td><td><strong>£235,000</strong></td><td><strong>1,843</strong></td><td><strong>-2.1%</strong></td></tr><tr><td><a href="/locations/cambridgeshire/march">March</a></td><td>£235,000</td><td>372</td><td>-1.7%</td></tr><tr><td><a href="/locations/cambridgeshire/wisbech">Wisbech</a></td><td>£209,000</td><td>430</td><td>+4.1%</td></tr><tr><td><a href="/locations/cambridgeshire/st-ives">St Ives</a></td><td>£300,000</td><td>221</td><td>-3.2%</td></tr><tr><td><a href="/locations/cambridgeshire/huntingdon">Huntingdon</a></td><td>£305,000</td><td>1,149</td><td>-6.2%</td></tr><tr><td><a href="/locations/cambridgeshire/st-neots">St Neots</a></td><td>£312,000</td><td>611</td><td>-6.9%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Peterborough</strong></td><td><strong>£235,000</strong></td><td><strong>1,816</strong></td><td><strong>-2.1%</strong></td></tr><tr><td><a href="/locations/cambridgeshire/march">March</a></td><td>£235,000</td><td>365</td><td>-2.1%</td></tr><tr><td><a href="/locations/cambridgeshire/wisbech">Wisbech</a></td><td>£208,000</td><td>427</td><td>+4%</td></tr><tr><td><a href="/locations/cambridgeshire/st-ives">St Ives</a></td><td>£300,000</td><td>221</td><td>-3.2%</td></tr><tr><td><a href="/locations/cambridgeshire/huntingdon">Huntingdon</a></td><td>£305,500</td><td>1,136</td><td>-6%</td></tr><tr><td><a href="/locations/cambridgeshire/st-neots">St Neots</a></td><td>£310,000</td><td>602</td><td>-7.5%</td></tr></tbody></table>`,
         `For the full Cambridgeshire town-by-town breakdown, see our comprehensive <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Peterborough?`,
-      answer: `The median house price in Peterborough is £235,000, based on 1,843 transactions over the past 12 months. Detached homes average £330,000 while flat properties average £120,000.`,
+      answer: `The median house price in Peterborough is £235,000, based on 1,816 transactions over the past 12 months. Detached homes average £330,000 while flat properties average £120,000.`,
     },
     {
       question: `Are house prices rising or falling in Peterborough?`,
-      answer: `House prices in Peterborough are falling at -2.1% year-on-year. This decline may present buying opportunities for investors and developers. The wider Cambridgeshire market is falling at -2.3%.`,
+      answer: `House prices in Peterborough are falling at -2.1% year-on-year. This decline may present buying opportunities for investors and developers. The wider Cambridgeshire market is falling at -2.2%.`,
     },
     {
       question: `How many properties sold in Peterborough recently?`,
-      answer: `Peterborough recorded 1,843 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Peterborough recorded 1,816 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Peterborough?`,

@@ -1,20 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.234Z",
+  "updatedAt": "2026-07-05T06:06:54.630Z",
   "townSlug": "bermondsey",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": true,
   "stats": {
     "medianPrice": 520000,
     "medianByType": {
       "D": 1800000,
-      "S": 1307588,
+      "S": 1300000,
       "T": 861750,
       "F": 450000
     },
-    "transactionCount12m": 2268,
+    "transactionCount12m": 2237,
     "yoyChange": -1,
-    "newBuildCount": 27,
-    "existingCount": 2241,
-    "newBuildPremium": -3.8
+    "newBuildCount": 26,
+    "existingCount": 2211,
+    "newBuildPremium": -5.2
   },
   "recentTransactions": [
     {

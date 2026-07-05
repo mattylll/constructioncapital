@@ -842,7 +842,8 @@ function computeStats(transactions: Transaction[]) {
 
 function writeOutputFiles(
   mapping: LocationMapping,
-  transactions: Transaction[]
+  transactions: Transaction[],
+  isDistrictLevelFallback: boolean = false
 ) {
   const stats = computeStats(transactions);
 
@@ -864,6 +865,12 @@ function writeOutputFiles(
         updatedAt: new Date().toISOString(),
         townSlug: mapping.townSlug,
         countySlug: mapping.countySlug,
+        // True when this location shares an HMLR district with sibling towns
+        // and no town-level disambiguation was possible in the source data —
+        // these figures are district-wide, not specific to this town alone.
+        // Report generators should caveat this rather than presenting the
+        // numbers as town-specific.
+        isDistrictLevelFallback,
         stats: {
           medianPrice: stats.medianPrice,
           medianByType: stats.medianByType,
@@ -1027,14 +1034,31 @@ async function main() {
         m.districts.some((d) => mapping.districts.includes(d))
     );
 
+    // Tracks whether this location's data is a genuine town-level match or a
+    // district-wide fallback (see below) — surfaced in the output JSON so
+    // downstream report generators can caveat district-level figures rather
+    // than presenting them as town-specific.
+    let isDistrictLevelFallback = false;
+
     if (sharedDistrictLocations.length > 0 && transactions.length > 0) {
-      // This district is shared — try to narrow by town/city column match
+      // This district is shared by multiple towns — narrow by the town/city
+      // column in the source data whenever we get ANY match at all. A small
+      // number of genuinely-attributed rows is always more honest than the
+      // full shared-district bucket, which duplicates every transaction
+      // across every town sharing that district (confirmed: this previously
+      // required >=10 matches before narrowing, so small towns whose name
+      // rarely appears in HMLR's free-text town field silently inherited
+      // every other town's transactions in the same district).
       const townFiltered = transactions.filter(
         (t) => t.town === mapping.townName.toUpperCase()
       );
-      // Use filtered if it has enough data, otherwise keep district-level
-      if (townFiltered.length >= 10) {
+      if (townFiltered.length > 0) {
         transactions = townFiltered;
+      } else {
+        // No town-level match exists at all in the source data — there is no
+        // way to disambiguate this location from its sibling towns. Keep the
+        // district-level bucket as a last resort, but flag it.
+        isDistrictLevelFallback = true;
       }
     }
 
@@ -1052,7 +1076,7 @@ async function main() {
       continue;
     }
 
-    const written = writeOutputFiles(mapping, transactions);
+    const written = writeOutputFiles(mapping, transactions, isDistrictLevelFallback);
     if (written) {
       const stats = computeStats(transactions);
       matched++;

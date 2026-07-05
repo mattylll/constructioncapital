@@ -3,30 +3,31 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "thetford-norfolk-property-market-h1-2026",
   title: "Thetford Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
-  metaTitle: "Thetford House Prices, End of H1 2026: £239,995 Median",
-  metaDescription: "Thetford house prices as at the end of H1 2026: £239,995 median, 577 sales, -2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £239,995, 577 sales, -2% YoY. Norfolk county.",
+  metaTitle: "Thetford House Prices, End of H1 2026: £240,000 Median",
+  metaDescription: "Thetford house prices as at the end of H1 2026: £240,000 median, 570 sales, -2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £240,000, 570 sales, -2% YoY. Norfolk county.",
   category: "town",
   region: "East of England",
   countySlug: "norfolk",
   townSlug: "thetford",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Thetford Property Market Overview`,
       content: [
         `Breckland town with major SUE growth area delivering 5,000+ new homes`,
-        `The <a href="/locations/norfolk/thetford">Thetford</a> property market recorded <strong>577</strong> residential sales over the past 12 months, with a median sale price of <strong>£239,995</strong>. This places Thetford £28k below the Norfolk county median of £267,500, and £45k below the UK national median of £285,000.`,
+        `The <a href="/locations/norfolk/thetford">Thetford</a> property market recorded <strong>570</strong> residential sales over the past 12 months, with a median sale price of <strong>£240,000</strong>. This places Thetford £26k below the Norfolk county median of £266,250, and £45k below the UK national median of £285,000.`,
         `Prices in Thetford have shown a moderate decline, with a year-on-year change of <strong>-2%</strong>. Within <a href="/locations/norfolk">Norfolk</a>, Thetford ranks 6th by price out of 8 principal towns, and 6th by transaction volume.`,
+        `Thetford median prices have moved from £240,000 in Q1 2025 to £250,000 in Q2 2026, a change of +4.2% over 5 quarters.`,
       ],
     },
     {
       heading: `Thetford House Prices by Property Type`,
       content: [
         `Property prices in Thetford vary significantly by type. The table below compares Thetford prices with Norfolk county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Thetford</th><th>Norfolk Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£305,000</td><td>£347,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£230,000</td><td>£241,375</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£182,000</td><td>£198,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£97,000</td><td>£130,000</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Thetford</th><th>Norfolk Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£305,000</td><td>£347,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£230,000</td><td>£241,375</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£182,500</td><td>£198,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£97,000</td><td>£130,000</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Thetford command <strong>£305,000</strong>, while flat properties are most accessible at <strong>£97,000</strong>. The <strong>£208k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
@@ -34,8 +35,8 @@ const report: MarketReport = {
       heading: `New Build Homes in Thetford`,
       content: [
         `Thetford recorded <strong>8</strong> new-build transactions in the past 12 months, representing <strong>1.4%</strong> of total sales. There is moderate development activity, with room for further growth.`,
-        `New-build properties in Thetford traded at a <strong>premium of 61.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk</a> market, 76 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk property market report</a> for the full county picture.`,
+        `New-build properties in Thetford traded at a <strong>premium of 60.7%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk</a> market, 64 new-build completions were recorded — see our <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -49,7 +50,7 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Thetford`,
       content: [
-        `For developers considering Thetford, the local market data translates directly into finance structuring. With a median value of £239,995 and detached homes at £305,000, lenders can assess scheme viability with confidence.`,
+        `For developers considering Thetford, the local market data translates directly into finance structuring. With a median value of £240,000 and detached homes at £305,000, lenders can assess scheme viability with confidence.`,
         `A typical <a href="/services/development-finance">development finance</a> facility for a Thetford scheme with a GDV of £305,000 would attract <strong>senior debt of approximately £198,250</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
         `While prices have softened 2% year-on-year, experienced developers can still generate strong returns in Thetford by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in Thetford? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Thetford Compared to Nearby Norfolk Towns`,
       content: [
         `To put Thetford's market in context, the table below compares it with similarly-priced towns across <a href="/locations/norfolk">Norfolk</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Thetford</strong></td><td><strong>£239,995</strong></td><td><strong>577</strong></td><td><strong>-2%</strong></td></tr><tr><td><a href="/locations/norfolk/norwich">Norwich</a></td><td>£230,000</td><td>1,580</td><td>-2.1%</td></tr><tr><td><a href="/locations/norfolk/kings-lynn">King's Lynn</a></td><td>£265,000</td><td>1,840</td><td>0%</td></tr><tr><td><a href="/locations/norfolk/dereham">Dereham</a></td><td>£270,000</td><td>449</td><td>+0.7%</td></tr><tr><td><a href="/locations/norfolk/great-yarmouth">Great Yarmouth</a></td><td>£205,000</td><td>1,201</td><td>-2.4%</td></tr><tr><td><a href="/locations/norfolk/attleborough">Attleborough</a></td><td>£275,000</td><td>257</td><td>-5.2%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Thetford</strong></td><td><strong>£240,000</strong></td><td><strong>570</strong></td><td><strong>-2%</strong></td></tr><tr><td><a href="/locations/norfolk/norwich">Norwich</a></td><td>£230,000</td><td>1,557</td><td>-1.3%</td></tr><tr><td><a href="/locations/norfolk/kings-lynn">King's Lynn</a></td><td>£265,000</td><td>1,804</td><td>0%</td></tr><tr><td><a href="/locations/norfolk/attleborough">Attleborough</a></td><td>£267,500</td><td>249</td><td>-7.7%</td></tr><tr><td><a href="/locations/norfolk/dereham">Dereham</a></td><td>£270,000</td><td>440</td><td>+0.7%</td></tr><tr><td><a href="/locations/norfolk/great-yarmouth">Great Yarmouth</a></td><td>£205,000</td><td>1,179</td><td>-2.4%</td></tr></tbody></table>`,
         `For the full Norfolk town-by-town breakdown, see our comprehensive <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk property market report</a>.`,
       ],
     },
@@ -67,7 +68,7 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Thetford?`,
-      answer: `The median house price in Thetford is £239,995, based on 577 transactions over the past 12 months. Detached homes average £305,000 while flat properties average £97,000.`,
+      answer: `The median house price in Thetford is £240,000, based on 570 transactions over the past 12 months. Detached homes average £305,000 while flat properties average £97,000.`,
     },
     {
       question: `Are house prices rising or falling in Thetford?`,
@@ -75,7 +76,7 @@ const report: MarketReport = {
     },
     {
       question: `How many properties sold in Thetford recently?`,
-      answer: `Thetford recorded 577 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Thetford recorded 570 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Thetford?`,
@@ -85,7 +86,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["norfolk-property-market-h1-2026", "east-of-england-market-overview-h1-2026", "attleborough-norfolk-property-market-h1-2026", "cromer-norfolk-property-market-h1-2026", "dereham-norfolk-property-market-h1-2026", "great-yarmouth-norfolk-property-market-h1-2026"],
   relatedTownSlugs: ["norfolk/thetford"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":305000},{"name":"Semi-detached","value":230000},{"name":"Terraced","value":182000},{"name":"Flat","value":97000}]},
+  charts: {"priceByType":[{"name":"Detached","value":305000},{"name":"Semi-detached","value":230000},{"name":"Terraced","value":182500},{"name":"Flat","value":97000}]},
 };
 
 export default report;

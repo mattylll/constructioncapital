@@ -4,28 +4,29 @@ const report: MarketReport = {
   slug: "bradford-west-yorkshire-property-market-h1-2026",
   title: "Bradford Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Bradford House Prices, End of H1 2026: £160,000 Median",
-  metaDescription: "Bradford house prices as at the end of H1 2026: £160,000 median, 3,260 sales, +6.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £160,000, 3,260 sales, +6.7% YoY. West Yorkshire county.",
+  metaDescription: "Bradford house prices as at the end of H1 2026: £160,000 median, 3,223 sales, +6.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £160,000, 3,223 sales, +6.7% YoY. West Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",
   countySlug: "west-yorkshire",
   townSlug: "bradford",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Bradford Property Market Overview`,
       content: [
         `City with affordable development land, two university campuses, and UNESCO City of Film status`,
-        `The <a href="/locations/west-yorkshire/bradford">Bradford</a> property market recorded <strong>3,260</strong> residential sales over the past 12 months, with a median sale price of <strong>£160,000</strong>. This places Bradford £34k below the West Yorkshire county median of £193,500, and £125k below the UK national median of £285,000.`,
+        `The <a href="/locations/west-yorkshire/bradford">Bradford</a> property market recorded <strong>3,223</strong> residential sales over the past 12 months, with a median sale price of <strong>£160,000</strong>. This places Bradford £34k below the West Yorkshire county median of £193,750, and £125k below the UK national median of £285,000.`,
         `Prices in Bradford have shown strong growth, with a year-on-year change of <strong>+6.7%</strong>. Within <a href="/locations/west-yorkshire">West Yorkshire</a>, Bradford ranks 8th by price out of 8 principal towns, and 2nd by transaction volume.`,
+        `Bradford median prices have moved from £155,000 in Q1 2025 to £160,750 in Q2 2026, a change of +3.7% over 5 quarters.`,
       ],
     },
     {
       heading: `Planning Pipeline in Bradford`,
       content: [
-        `City of Bradford — the local planning authority covering Bradford — has <strong>229</strong> residential units in its current pipeline, an estimated gross development value of <strong>£33.5m</strong>, across 117 applications (12 approved, 105 pending) at an approval rate of <strong>80%</strong>.`,
+        `City of Bradford — the local planning authority covering Bradford — has <strong>255</strong> residential units in its current pipeline, an estimated gross development value of <strong>£36.4m</strong>, across 169 applications (16 approved, 153 pending) at an approval rate of <strong>84%</strong>.`,
         `City of Bradford covers more than one town in West Yorkshire, so this pipeline figure is authority-wide rather than specific to Bradford alone — planning applications aren't consistently attributable to a single town within a shared authority area.`,
       ],
     },
@@ -33,8 +34,8 @@ const report: MarketReport = {
       heading: `Bradford House Prices by Property Type`,
       content: [
         `Property prices in Bradford vary significantly by type. The table below compares Bradford prices with West Yorkshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Bradford</th><th>West Yorkshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£300,000</td><td>£370,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£185,000</td><td>£217,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£126,500</td><td>£154,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£82,000</td><td>£103,000</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Bradford command <strong>£300,000</strong>, while flat properties are most accessible at <strong>£82,000</strong>. The <strong>£218k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Bradford</th><th>West Yorkshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£300,000</td><td>£370,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£185,000</td><td>£217,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£126,500</td><td>£154,013</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£81,000</td><td>£101,500</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Bradford command <strong>£300,000</strong>, while flat properties are most accessible at <strong>£81,000</strong>. The <strong>£219k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
@@ -42,7 +43,7 @@ const report: MarketReport = {
       content: [
         `Bradford recorded <strong>46</strong> new-build transactions in the past 12 months, representing <strong>1.4%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in Bradford traded at a <strong>premium of 46.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/west-yorkshire-property-market-h1-2026">West Yorkshire</a> market, 201 new-build completions were recorded — see our <a href="/market-reports/west-yorkshire-property-market-h1-2026">West Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-yorkshire-property-market-h1-2026">West Yorkshire</a> market, 193 new-build completions were recorded — see our <a href="/market-reports/west-yorkshire-property-market-h1-2026">West Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -66,7 +67,7 @@ const report: MarketReport = {
       heading: `Bradford Compared to Nearby West Yorkshire Towns`,
       content: [
         `To put Bradford's market in context, the table below compares it with similarly-priced towns across <a href="/locations/west-yorkshire">West Yorkshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Bradford</strong></td><td><strong>£160,000</strong></td><td><strong>3,260</strong></td><td><strong>+6.7%</strong></td></tr><tr><td><a href="/locations/west-yorkshire/dewsbury">Dewsbury</a></td><td>£173,000</td><td>469</td><td>-1.1%</td></tr><tr><td><a href="/locations/west-yorkshire/pontefract">Pontefract</a></td><td>£180,000</td><td>1,077</td><td>-2.7%</td></tr><tr><td><a href="/locations/west-yorkshire/halifax">Halifax</a></td><td>£187,000</td><td>2,678</td><td>+2.7%</td></tr><tr><td><a href="/locations/west-yorkshire/huddersfield">Huddersfield</a></td><td>£200,000</td><td>2,141</td><td>0%</td></tr><tr><td><a href="/locations/west-yorkshire/wakefield">Wakefield</a></td><td>£217,000</td><td>1,494</td><td>+0.9%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Bradford</strong></td><td><strong>£160,000</strong></td><td><strong>3,223</strong></td><td><strong>+6.7%</strong></td></tr><tr><td><a href="/locations/west-yorkshire/dewsbury">Dewsbury</a></td><td>£171,250</td><td>460</td><td>-2.1%</td></tr><tr><td><a href="/locations/west-yorkshire/pontefract">Pontefract</a></td><td>£180,000</td><td>1,051</td><td>-2.7%</td></tr><tr><td><a href="/locations/west-yorkshire/halifax">Halifax</a></td><td>£187,500</td><td>2,652</td><td>+3%</td></tr><tr><td><a href="/locations/west-yorkshire/huddersfield">Huddersfield</a></td><td>£200,000</td><td>2,103</td><td>0%</td></tr><tr><td><a href="/locations/west-yorkshire/wakefield">Wakefield</a></td><td>£217,500</td><td>1,471</td><td>+1.2%</td></tr></tbody></table>`,
         `For the full West Yorkshire town-by-town breakdown, see our comprehensive <a href="/market-reports/west-yorkshire-property-market-h1-2026">West Yorkshire property market report</a>.`,
       ],
     },
@@ -74,15 +75,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Bradford?`,
-      answer: `The median house price in Bradford is £160,000, based on 3,260 transactions over the past 12 months. Detached homes average £300,000 while flat properties average £82,000.`,
+      answer: `The median house price in Bradford is £160,000, based on 3,223 transactions over the past 12 months. Detached homes average £300,000 while flat properties average £81,000.`,
     },
     {
       question: `Are house prices rising or falling in Bradford?`,
-      answer: `House prices in Bradford are rising at +6.7% year-on-year. This positive trend suggests sustained buyer demand. The wider West Yorkshire market is rising at +0.5%.`,
+      answer: `House prices in Bradford are rising at +6.7% year-on-year. This positive trend suggests sustained buyer demand. The wider West Yorkshire market is rising at +0.4%.`,
     },
     {
       question: `How many properties sold in Bradford recently?`,
-      answer: `Bradford recorded 3,260 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Bradford recorded 3,223 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Bradford?`,
@@ -92,7 +93,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["west-yorkshire-property-market-h1-2026", "north-east-and-yorkshire-market-overview-h1-2026", "dewsbury-west-yorkshire-property-market-h1-2026", "halifax-west-yorkshire-property-market-h1-2026", "huddersfield-west-yorkshire-property-market-h1-2026", "ilkley-west-yorkshire-property-market-h1-2026"],
   relatedTownSlugs: ["west-yorkshire/bradford"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":300000},{"name":"Semi-detached","value":185000},{"name":"Terraced","value":126500},{"name":"Flat","value":82000}]},
+  charts: {"priceByType":[{"name":"Detached","value":300000},{"name":"Semi-detached","value":185000},{"name":"Terraced","value":126500},{"name":"Flat","value":81000}]},
 };
 
 export default report;

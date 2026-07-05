@@ -4,29 +4,30 @@ const report: MarketReport = {
   slug: "pontefract-west-yorkshire-property-market-h1-2026",
   title: "Pontefract Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Pontefract House Prices, End of H1 2026: £180,000 Median",
-  metaDescription: "Pontefract house prices as at the end of H1 2026: £180,000 median, 1,077 sales, -2.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £180,000, 1,077 sales, -2.7% YoY. West Yorkshire county.",
+  metaDescription: "Pontefract house prices as at the end of H1 2026: £180,000 median, 1,051 sales, -2.7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £180,000, 1,051 sales, -2.7% YoY. West Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",
   countySlug: "west-yorkshire",
   townSlug: "pontefract",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Pontefract Property Market Overview`,
       content: [
         `Historic Wakefield district town with castle heritage and growing residential demand`,
-        `The <a href="/locations/west-yorkshire/pontefract">Pontefract</a> property market recorded <strong>1,077</strong> residential sales over the past 12 months, with a median sale price of <strong>£180,000</strong>. This places Pontefract £14k below the West Yorkshire county median of £193,500, and £105k below the UK national median of £285,000.`,
+        `The <a href="/locations/west-yorkshire/pontefract">Pontefract</a> property market recorded <strong>1,051</strong> residential sales over the past 12 months, with a median sale price of <strong>£180,000</strong>. This places Pontefract £14k below the West Yorkshire county median of £193,750, and £105k below the UK national median of £285,000.`,
         `Prices in Pontefract have shown a moderate decline, with a year-on-year change of <strong>-2.7%</strong>. Within <a href="/locations/west-yorkshire">West Yorkshire</a>, Pontefract ranks 6th by price out of 8 principal towns, and 6th by transaction volume.`,
+        `Pontefract median prices have moved from £190,000 in Q1 2025 to £175,000 in Q2 2026, a change of -7.9% over 5 quarters.`,
       ],
     },
     {
       heading: `Pontefract House Prices by Property Type`,
       content: [
         `Property prices in Pontefract vary significantly by type. The table below compares Pontefract prices with West Yorkshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Pontefract</th><th>West Yorkshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£300,000</td><td>£370,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£187,000</td><td>£217,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£135,000</td><td>£154,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£91,500</td><td>£103,000</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Pontefract</th><th>West Yorkshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£300,000</td><td>£370,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£187,000</td><td>£217,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£135,000</td><td>£154,013</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£91,500</td><td>£101,500</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Pontefract command <strong>£300,000</strong>, while flat properties are most accessible at <strong>£91,500</strong>. The <strong>£209k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
@@ -35,7 +36,7 @@ const report: MarketReport = {
       content: [
         `Pontefract recorded <strong>20</strong> new-build transactions in the past 12 months, representing <strong>1.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Pontefract traded at a <strong>premium of 25.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/west-yorkshire-property-market-h1-2026">West Yorkshire</a> market, 201 new-build completions were recorded — see our <a href="/market-reports/west-yorkshire-property-market-h1-2026">West Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/west-yorkshire-property-market-h1-2026">West Yorkshire</a> market, 193 new-build completions were recorded — see our <a href="/market-reports/west-yorkshire-property-market-h1-2026">West Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Pontefract Compared to Nearby West Yorkshire Towns`,
       content: [
         `To put Pontefract's market in context, the table below compares it with similarly-priced towns across <a href="/locations/west-yorkshire">West Yorkshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Pontefract</strong></td><td><strong>£180,000</strong></td><td><strong>1,077</strong></td><td><strong>-2.7%</strong></td></tr><tr><td><a href="/locations/west-yorkshire/dewsbury">Dewsbury</a></td><td>£173,000</td><td>469</td><td>-1.1%</td></tr><tr><td><a href="/locations/west-yorkshire/halifax">Halifax</a></td><td>£187,000</td><td>2,678</td><td>+2.7%</td></tr><tr><td><a href="/locations/west-yorkshire/bradford">Bradford</a></td><td>£160,000</td><td>3,260</td><td>+6.7%</td></tr><tr><td><a href="/locations/west-yorkshire/huddersfield">Huddersfield</a></td><td>£200,000</td><td>2,141</td><td>0%</td></tr><tr><td><a href="/locations/west-yorkshire/wakefield">Wakefield</a></td><td>£217,000</td><td>1,494</td><td>+0.9%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Pontefract</strong></td><td><strong>£180,000</strong></td><td><strong>1,051</strong></td><td><strong>-2.7%</strong></td></tr><tr><td><a href="/locations/west-yorkshire/halifax">Halifax</a></td><td>£187,500</td><td>2,652</td><td>+3%</td></tr><tr><td><a href="/locations/west-yorkshire/dewsbury">Dewsbury</a></td><td>£171,250</td><td>460</td><td>-2.1%</td></tr><tr><td><a href="/locations/west-yorkshire/bradford">Bradford</a></td><td>£160,000</td><td>3,223</td><td>+6.7%</td></tr><tr><td><a href="/locations/west-yorkshire/huddersfield">Huddersfield</a></td><td>£200,000</td><td>2,103</td><td>0%</td></tr><tr><td><a href="/locations/west-yorkshire/wakefield">Wakefield</a></td><td>£217,500</td><td>1,471</td><td>+1.2%</td></tr></tbody></table>`,
         `For the full West Yorkshire town-by-town breakdown, see our comprehensive <a href="/market-reports/west-yorkshire-property-market-h1-2026">West Yorkshire property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Pontefract?`,
-      answer: `The median house price in Pontefract is £180,000, based on 1,077 transactions over the past 12 months. Detached homes average £300,000 while flat properties average £91,500.`,
+      answer: `The median house price in Pontefract is £180,000, based on 1,051 transactions over the past 12 months. Detached homes average £300,000 while flat properties average £91,500.`,
     },
     {
       question: `Are house prices rising or falling in Pontefract?`,
-      answer: `House prices in Pontefract are falling at -2.7% year-on-year. This decline may present buying opportunities for investors and developers. The wider West Yorkshire market is rising at +0.5%.`,
+      answer: `House prices in Pontefract are falling at -2.7% year-on-year. This decline may present buying opportunities for investors and developers. The wider West Yorkshire market is rising at +0.4%.`,
     },
     {
       question: `How many properties sold in Pontefract recently?`,
-      answer: `Pontefract recorded 1,077 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Pontefract recorded 1,051 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Pontefract?`,

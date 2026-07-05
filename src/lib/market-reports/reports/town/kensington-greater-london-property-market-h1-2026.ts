@@ -3,39 +3,41 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "kensington-greater-london-property-market-h1-2026",
   title: "Kensington Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
-  metaTitle: "Kensington House Prices, End of H1 2026: £1m Median",
-  metaDescription: "Kensington house prices as at the end of H1 2026: £1m median, 1,185 sales, -14.4% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £1m, 1,185 sales, -14.4% YoY. Greater London county.",
+  metaTitle: "Kensington House Prices, End of H1 2026: £995,000 Median",
+  metaDescription: "Kensington house prices as at the end of H1 2026: £995,000 median, 1,173 sales, -15% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £995,000, 1,173 sales, -15% YoY. Greater London county.",
   category: "town",
   region: "London & South East",
   countySlug: "greater-london",
   townSlug: "kensington",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Kensington Property Market Overview`,
       content: [
         `Prime central London with tightly regulated conservation stock and extremely high build and finance costs`,
-        `The <a href="/locations/greater-london/kensington">Kensington</a> property market recorded <strong>1,185</strong> residential sales over the past 12 months, with a median sale price of <strong>£1m</strong>. This places Kensington £470k above the Greater London county median of £530,000, and £715k above the UK national median of £285,000.`,
-        `Prices in Kensington have shown a notable decline, with a year-on-year change of <strong>-14.4%</strong>. Within <a href="/locations/greater-london">Greater London</a>, Kensington ranks 2nd by price out of 51 principal towns, and 47th by transaction volume.`,
+        `The <a href="/locations/greater-london/kensington">Kensington</a> property market recorded <strong>1,173</strong> residential sales over the past 12 months, with a median sale price of <strong>£995,000</strong>. This places Kensington £510k above the Greater London county median of £485,000, and £710k above the UK national median of £285,000.`,
+        `Prices in Kensington have shown a notable decline, with a year-on-year change of <strong>-15%</strong>. Within <a href="/locations/greater-london">Greater London</a>, Kensington ranks 2nd by price out of 51 principal towns, and 47th by transaction volume.`,
+        `Kensington median prices have moved from £1.05m in Q1 2025 to £915,000 in Q2 2026, a change of -12.9% over 5 quarters.`,
+        `Kensington shares a HM Land Registry reporting district with neighbouring towns, and the source data does not distinguish Kensington-specific sales from the wider district. The figures above reflect the whole shared district rather than Kensington alone.`,
       ],
     },
     {
       heading: `Kensington House Prices by Property Type`,
       content: [
         `Property prices in Kensington vary significantly by type. The table below compares Kensington prices with Greater London county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Kensington</th><th>Greater London Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Semi-detached</strong></td><td>£6.54m</td><td>£815,000</td><td>£265,000</td></tr><tr><td><strong>Detached</strong></td><td>£4.09m</td><td>£1.16m</td><td>£420,000</td></tr><tr><td><strong>Terraced</strong></td><td>£3.40m</td><td>£814,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£832,500</td><td>£450,000</td><td>£225,000</td></tr></tbody></table>`,
-        `Semi-detached homes in Kensington command <strong>£6.54m</strong>, while flat properties are most accessible at <strong>£832,500</strong>. The <strong>£5.7m spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Kensington</th><th>Greater London Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Semi-detached</strong></td><td>£6.54m</td><td>£608,375</td><td>£265,000</td></tr><tr><td><strong>Detached</strong></td><td>£4.09m</td><td>£852,750</td><td>£420,000</td></tr><tr><td><strong>Terraced</strong></td><td>£3.40m</td><td>£505,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£830,000</td><td>£338,000</td><td>£225,000</td></tr></tbody></table>`,
+        `Semi-detached homes in Kensington command <strong>£6.54m</strong>, while flat properties are most accessible at <strong>£830,000</strong>. The <strong>£5.7m spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Kensington`,
       content: [
-        `Kensington recorded <strong>10</strong> new-build transactions in the past 12 months, representing <strong>0.8%</strong> of total sales. There is moderate development activity, with room for further growth.`,
+        `Kensington recorded <strong>10</strong> new-build transactions in the past 12 months, representing <strong>0.9%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Kensington traded at a <strong>discount of 3.5%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market-h1-2026">Greater London</a> market, 1,536 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market-h1-2026">Greater London</a> market, 412 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -49,9 +51,9 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Kensington`,
       content: [
-        `For developers considering Kensington, the local market data translates directly into finance structuring. With a median value of £1m and detached homes at £4.09m, lenders can assess scheme viability with confidence.`,
+        `For developers considering Kensington, the local market data translates directly into finance structuring. With a median value of £995,000 and detached homes at £4.09m, lenders can assess scheme viability with confidence.`,
         `A typical <a href="/services/development-finance">development finance</a> facility for a Kensington scheme with a GDV of £4.09m would attract <strong>senior debt of approximately £2.66m</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `While prices have softened 14.4% year-on-year, experienced developers can still generate strong returns in Kensington by targeting well-located sites with clear demand drivers.`,
+        `While prices have softened 15% year-on-year, experienced developers can still generate strong returns in Kensington by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in Kensington? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -59,7 +61,7 @@ const report: MarketReport = {
       heading: `Kensington Compared to Nearby Greater London Towns`,
       content: [
         `To put Kensington's market in context, the table below compares it with similarly-priced towns across <a href="/locations/greater-london">Greater London</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Kensington</strong></td><td><strong>£1m</strong></td><td><strong>1,185</strong></td><td><strong>-14.4%</strong></td></tr><tr><td><a href="/locations/greater-london/chelsea">Chelsea</a></td><td>£1m</td><td>1,185</td><td>-14.4%</td></tr><tr><td><a href="/locations/greater-london/notting-hill">Notting Hill</a></td><td>£1m</td><td>1,185</td><td>-14.4%</td></tr><tr><td><a href="/locations/greater-london/marylebone">Marylebone</a></td><td>£795,000</td><td>1,637</td><td>-11.7%</td></tr><tr><td><a href="/locations/greater-london/mayfair">Mayfair</a></td><td>£795,000</td><td>1,637</td><td>-11.7%</td></tr><tr><td><a href="/locations/greater-london/westminster">Westminster</a></td><td>£795,000</td><td>1,637</td><td>-11.7%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Kensington</strong></td><td><strong>£995,000</strong></td><td><strong>1,173</strong></td><td><strong>-15%</strong></td></tr><tr><td><a href="/locations/greater-london/chelsea">Chelsea</a></td><td>£995,000</td><td>1,173</td><td>-15%</td></tr><tr><td><a href="/locations/greater-london/notting-hill">Notting Hill</a></td><td>£995,000</td><td>1,173</td><td>-15%</td></tr><tr><td><a href="/locations/greater-london/marylebone">Marylebone</a></td><td>£790,000</td><td>1,621</td><td>-12.2%</td></tr><tr><td><a href="/locations/greater-london/mayfair">Mayfair</a></td><td>£790,000</td><td>1,621</td><td>-12.2%</td></tr><tr><td><a href="/locations/greater-london/westminster">Westminster</a></td><td>£790,000</td><td>1,621</td><td>-12.2%</td></tr></tbody></table>`,
         `For the full Greater London town-by-town breakdown, see our comprehensive <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a>.`,
       ],
     },
@@ -67,15 +69,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Kensington?`,
-      answer: `The median house price in Kensington is £1m, based on 1,185 transactions over the past 12 months. Semi-detached homes average £6.54m while flat properties average £832,500.`,
+      answer: `The median house price in Kensington is £995,000, based on 1,173 transactions over the past 12 months. Semi-detached homes average £6.54m while flat properties average £830,000.`,
     },
     {
       question: `Are house prices rising or falling in Kensington?`,
-      answer: `House prices in Kensington are falling at -14.4% year-on-year. This decline may present buying opportunities for investors and developers. The wider Greater London market is falling at -2.6%.`,
+      answer: `House prices in Kensington are falling at -15% year-on-year. This decline may present buying opportunities for investors and developers. The wider Greater London market is flat at 0%.`,
     },
     {
       question: `How many properties sold in Kensington recently?`,
-      answer: `Kensington recorded 1,185 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Kensington recorded 1,173 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Kensington?`,
@@ -85,7 +87,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["greater-london-property-market-h1-2026", "london-and-south-east-market-overview-h1-2026", "barking-greater-london-property-market-h1-2026", "barnet-greater-london-property-market-h1-2026", "battersea-greater-london-property-market-h1-2026", "bermondsey-greater-london-property-market-h1-2026"],
   relatedTownSlugs: ["greater-london/kensington"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Semi-detached","value":6539875},{"name":"Detached","value":4087500},{"name":"Terraced","value":3400000},{"name":"Flat","value":832500}]},
+  charts: {"priceByType":[{"name":"Semi-detached","value":6539875},{"name":"Detached","value":4087500},{"name":"Terraced","value":3400000},{"name":"Flat","value":830000}]},
 };
 
 export default report;
