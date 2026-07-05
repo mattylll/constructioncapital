@@ -259,7 +259,7 @@ ${townSummaries}
 ## Requirements
 - 600-1,000 words
 - Professional, data-driven tone. British English.
-- Include one quote from "Matt Lenzie, Director at Construction Capital" offering insight on the development pipeline
+- Include one quote from "Matt Lenzie, Founder of Construction Capital" offering insight on the development pipeline
 - Reference specific planning applications by reference number where notable
 - Structure: Overview → Town-by-Town Highlights → Development Opportunity → CTA
 - Include a summary data table (markdown)

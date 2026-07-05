@@ -232,7 +232,7 @@ ${townSummaries}
 ## Requirements
 - 800-1,200 words
 - Professional, data-driven tone. British English.
-- Include one quote from "Matt Lenzie, Director at Construction Capital" offering market insight
+- Include one quote from "Matt Lenzie, Founder of Construction Capital" offering market insight
 - Reference specific data points with source attribution (HM Land Registry Price Paid Data, Local Planning Authority data)
 - Structure: Overview → Price Trends → Planning Pipeline → Development Opportunity → What This Means for Developers
 - End with a CTA to contact Construction Capital
