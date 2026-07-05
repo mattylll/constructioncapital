@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-07-03T16:49:24.091Z",
+  "updatedAt": "2026-07-05T02:21:42.173Z",
   "townSlug": "horsham",
   "countySlug": "sussex",
   "localAuthority": "Horsham District Council",
   "source": "idox",
   "summary": {
-    "total": 451,
+    "total": 431,
     "relevant": 16,
     "approved": 0,
     "pending": 16,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 1411,
-    "totalUnits": 1411,
+    "pendingUnits": 1284,
+    "totalUnits": 1284,
     "approvedGdv": 0,
-    "pendingGdv": 601276000,
-    "totalEstimatedGDV": 601276000,
+    "pendingGdv": 546666000,
+    "totalEstimatedGDV": 546666000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -249,6 +249,25 @@
       "sourceUrl": "https://public-access.horsham.gov.uk/public-access/applicationDetails.do?activeTab=summary&keyVal=TE54MTIJIZX00"
     },
     {
+      "reference": "DC/26/0604",
+      "address": "Farthings Walk Rudgwick House Farthings Hill Horsham West Sussex RH12 1WR",
+      "postcode": "RH12 1WR",
+      "ward": "",
+      "proposal": "Removal of condition 7 of planning permission HU/183/98 (Erection of 6 houses and single garages for Farthings Farm Cottage and Sunicot) relating to permitted development rights.",
+      "category": "other_residential",
+      "units": 6,
+      "estimatedGdv": 2580000,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "05/05/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://public-access.horsham.gov.uk/public-access/applicationDetails.do?activeTab=summary&keyVal=TDFVKFIJIS000"
+    },
+    {
       "reference": "DC/26/0782",
       "address": "The Warren Horsham Road Handcross Haywards Heath West Sussex RH17 6DX",
       "postcode": "RH17 6DX",
@@ -304,25 +323,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://public-access.horsham.gov.uk/public-access/applicationDetails.do?activeTab=summary&keyVal=TDKTDIIJIU400"
-    },
-    {
-      "reference": "DC/26/0592",
-      "address": "Land at Lower Broadbridge Farm Billingshurst Road Broadbridge Heath Horsham West Sussex RH12 3LR",
-      "postcode": "RH12 3LR",
-      "ward": "",
-      "proposal": "Reserved matters application for the erection of 133 dwellings following approval of outline application DC/22/1052 as amended by DC/25/1886, relating to appearance, landscaping, layout and scale",
-      "category": "other_residential",
-      "units": 133,
-      "estimatedGdv": 57190000,
-      "status": "Registered",
-      "decision": "Registered",
-      "receivedDate": "10/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://public-access.horsham.gov.uk/public-access/applicationDetails.do?activeTab=summary&keyVal=TD9NCKIJIQJ00"
     }
   ]
 }
