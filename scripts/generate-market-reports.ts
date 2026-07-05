@@ -33,12 +33,23 @@ interface Transaction {
   address: string;
 }
 
+interface QuarterPoint {
+  quarter: string; // e.g. "2026-Q2"
+  medianPrice: number;
+  transactions: number;
+}
+
 interface SoldData {
   updatedAt: string;
   townSlug: string;
   countySlug: string;
+  // True when this town shares an HMLR district with sibling towns and no
+  // town-level disambiguation was possible in the source data — these
+  // figures are district-wide, not specific to this town alone.
+  isDistrictLevelFallback?: boolean;
   stats: SoldStats;
   recentTransactions: Transaction[];
+  quarterlyHistory?: QuarterPoint[];
 }
 
 interface TownPlanning {
@@ -58,6 +69,8 @@ interface TownAgg {
   stats: SoldStats;
   topTransactions: Transaction[];
   planning: TownPlanning | null;
+  isDistrictLevelFallback: boolean;
+  quarterlyHistory: QuarterPoint[];
 }
 
 interface CountyAgg {
@@ -140,11 +153,13 @@ const TYPE_LABELS: Record<string, string> = {
   S: "semi-detached",
   T: "terraced",
   F: "flat",
+  O: "other",
 };
 
 const TYPE_LABELS_UPPER: Record<string, string> = {
   D: "Detached",
   S: "Semi-detached",
+  O: "Other",
   T: "Terraced",
   F: "Flat",
 };
@@ -225,6 +240,88 @@ function trendDirection(yoy: number): string {
   if (yoy > 0) return "rising";
   if (yoy === 0) return "flat";
   return "falling";
+}
+
+// Human-readable quarter label, e.g. "2026-Q2" -> "Q2 2026".
+function formatQuarterLabel(quarter: string): string {
+  const [year, q] = quarter.split("-");
+  return `${q} ${year}`;
+}
+
+interface QuarterlyTrend {
+  sentence: string;
+  chartData: { name: string; value: number }[];
+}
+
+// Builds a genuine multi-quarter trend narrative from quarterlyHistory —
+// the streak (consecutive quarters moving the same direction) and the
+// overall change across the window shown, not just a single trailing-12m
+// point. Returns null when there isn't enough usable history (e.g. a new
+// or very low-volume location) to say anything meaningful.
+function describeQuarterlyTrend(history: QuarterPoint[], subject: string): QuarterlyTrend | null {
+  const usable = history.filter((q) => q.transactions > 0 && q.medianPrice > 0);
+  if (usable.length < 3) return null;
+
+  const window = usable.slice(-6);
+  const first = window[0];
+  const last = window[window.length - 1];
+  const overallChangePct = first.medianPrice > 0
+    ? ((last.medianPrice - first.medianPrice) / first.medianPrice) * 100
+    : 0;
+
+  // Current streak: walk backward from the most recent quarter, counting
+  // consecutive quarters moving in the same direction as the latest move.
+  let streak = 0;
+  let streakDirection: "up" | "down" | null = null;
+  for (let i = window.length - 1; i > 0; i--) {
+    const change = window[i].medianPrice - window[i - 1].medianPrice;
+    const direction = change > 0 ? "up" : change < 0 ? "down" : null;
+    if (streak === 0) {
+      if (direction === null) break;
+      streakDirection = direction;
+      streak = 1;
+    } else if (direction === streakDirection) {
+      streak++;
+    } else {
+      break;
+    }
+  }
+
+  const streakSentence = streak >= 2 && streakDirection
+    ? ` ${subject} has now recorded ${streak} consecutive quarters of ${streakDirection === "up" ? "price growth" : "price falls"}.`
+    : "";
+
+  const sentence = `${subject} median prices have moved from ${formatPrice(first.medianPrice)} in ${formatQuarterLabel(first.quarter)} to ${formatPrice(last.medianPrice)} in ${formatQuarterLabel(last.quarter)}, a change of ${overallChangePct > 0 ? "+" : ""}${overallChangePct.toFixed(1)}% over ${window.length - 1} quarters.${streakSentence}`;
+
+  return {
+    sentence,
+    chartData: window.map((q) => ({ name: formatQuarterLabel(q.quarter), value: q.medianPrice })),
+  };
+}
+
+// Aggregates per-town quarterlyHistory into a county-wide series — a
+// transactions-weighted average of each quarter's town medians (the same
+// approach already used for period-specific national press reports, since
+// there's no way to recompute a true combined median without raw
+// transaction-level prices).
+function aggregateQuarterlyHistory(towns: { quarterlyHistory: QuarterPoint[] }[]): QuarterPoint[] {
+  const byQuarter = new Map<string, { weightedSum: number; transactions: number }>();
+  for (const town of towns) {
+    for (const q of town.quarterlyHistory) {
+      if (q.transactions <= 0) continue;
+      const existing = byQuarter.get(q.quarter) || { weightedSum: 0, transactions: 0 };
+      existing.weightedSum += q.medianPrice * q.transactions;
+      existing.transactions += q.transactions;
+      byQuarter.set(q.quarter, existing);
+    }
+  }
+  return [...byQuarter.entries()]
+    .map(([quarter, { weightedSum, transactions }]) => ({
+      quarter,
+      medianPrice: Math.round(weightedSum / transactions),
+      transactions,
+    }))
+    .sort((a, b) => a.quarter.localeCompare(b.quarter));
 }
 
 // Date stamp for generated reports. Defaults to today, but can be pinned via
@@ -468,25 +565,40 @@ function aggregateCounties(
         stats: data.stats,
         topTransactions: (data.recentTransactions || []).slice(0, 5),
         planning: townPlanning,
+        isDistrictLevelFallback: data.isDistrictLevelFallback === true,
+        quarterlyHistory: data.quarterlyHistory || [],
       });
 
-      allPrices.push(data.stats.medianPrice);
-      totalTransactions += data.stats.transactionCount12m;
-      totalNewBuilds += data.stats.newBuildCount;
-      yoyValues.push(data.stats.yoyChange);
-
-      if (data.stats.medianByType.D) typeD.push(data.stats.medianByType.D);
-      if (data.stats.medianByType.S) typeS.push(data.stats.medianByType.S);
-      if (data.stats.medianByType.T) typeT.push(data.stats.medianByType.T);
-      if (data.stats.medianByType.F) typeF.push(data.stats.medianByType.F);
-
-      for (const tx of (data.recentTransactions || []).slice(0, 10)) {
-        allTransactions.push({ ...tx, townName: townInfo.name, townSlug });
+      if (data.recentTransactions) {
+        for (const tx of data.recentTransactions.slice(0, 10)) {
+          allTransactions.push({ ...tx, townName: townInfo.name, townSlug });
+        }
       }
     }
 
     // Sort towns by name for consistency
     towns.sort((a, b) => a.name.localeCompare(b.name));
+
+    // County-wide sums must exclude district-level-fallback towns whenever a
+    // genuinely town-specific sibling exists in the same county — a fallback
+    // town's figures are the WHOLE shared HMLR district (including its
+    // siblings' own transactions), so summing every town would double-count
+    // every non-fallback town's transactions via its fallback neighbour.
+    // Only fall back to using every town (accepting the double-count) in the
+    // rare case where every town in the county is itself a fallback — there
+    // is then no non-duplicated figure to prefer.
+    const nonFallbackTowns = towns.filter((t) => !t.isDistrictLevelFallback);
+    const townsForAggregate = nonFallbackTowns.length > 0 ? nonFallbackTowns : towns;
+    for (const t of townsForAggregate) {
+      allPrices.push(t.stats.medianPrice);
+      totalTransactions += t.stats.transactionCount12m;
+      totalNewBuilds += t.stats.newBuildCount;
+      yoyValues.push(t.stats.yoyChange);
+      if (t.stats.medianByType.D) typeD.push(t.stats.medianByType.D);
+      if (t.stats.medianByType.S) typeS.push(t.stats.medianByType.S);
+      if (t.stats.medianByType.T) typeT.push(t.stats.medianByType.T);
+      if (t.stats.medianByType.F) typeF.push(t.stats.medianByType.F);
+    }
 
     // Get top transactions by price
     allTransactions.sort((a, b) => b.price - a.price);
@@ -575,11 +687,17 @@ function generateCountyReport(county: CountyAgg, allCounties: CountyAgg[]): Mark
     ? `${formatPriceShort(NATIONAL_MEDIAN - county.medianPrice)} below`
     : "in line with";
 
+  const countyQuarterlyHistory = aggregateQuarterlyHistory(
+    county.towns.filter((t) => !t.isDistrictLevelFallback)
+  );
+  const countyTrend = describeQuarterlyTrend(countyQuarterlyHistory, county.name);
+
   sections.push({
     heading: `${county.name} Property Market Overview`,
     content: [
       `${county.overview}`,
       `The ${countyLink(county.slug, county.name)} property market recorded <strong>${county.totalTransactions.toLocaleString("en-GB")}</strong> residential transactions over the past 12 months, with a median sale price of <strong>${formatPrice(county.medianPrice)}</strong> — ${priceVsNational} the UK national median of ${formatPrice(NATIONAL_MEDIAN)}. Prices have shown ${trendWord(county.avgYoyChange)}, with a year-on-year change of <strong>${county.avgYoyChange > 0 ? "+" : ""}${county.avgYoyChange}%</strong> across the county's principal towns.`,
+      countyTrend ? countyTrend.sentence : "",
       county.drivers.length > 0
         ? `Key drivers of the ${county.name} property market include ${county.drivers.slice(0, 3).join(", ")}.${county.drivers.length > 3 ? ` Additional factors include ${county.drivers.slice(3).join(" and ")}.` : ""}`
         : "",
@@ -640,22 +758,26 @@ function generateCountyReport(county: CountyAgg, allCounties: CountyAgg[]): Mark
   const townsByGrowth = [...county.towns].sort((a, b) => b.stats.yoyChange - a.stats.yoyChange);
 
   const townRows = townsByPrice.map((t) =>
-    `<tr><td>${townLink(county.slug, t.slug, t.name)}</td><td>${formatPrice(t.stats.medianPrice)}</td><td>${t.stats.transactionCount12m.toLocaleString("en-GB")}</td><td>${t.stats.yoyChange > 0 ? "+" : ""}${t.stats.yoyChange}%</td></tr>`
+    `<tr><td>${townLink(county.slug, t.slug, t.name)}${t.isDistrictLevelFallback ? "*" : ""}</td><td>${formatPrice(t.stats.medianPrice)}</td><td>${t.stats.transactionCount12m.toLocaleString("en-GB")}</td><td>${t.stats.yoyChange > 0 ? "+" : ""}${t.stats.yoyChange}%</td></tr>`
   );
 
   const top3Expensive = townsByPrice.slice(0, 3);
   const top3Affordable = townsByPrice.slice(-3).reverse();
   const top3Active = townsByVolume.slice(0, 3);
+  const fallbackTowns = county.towns.filter((t) => t.isDistrictLevelFallback);
 
   sections.push({
     heading: `${county.name} Town-by-Town Price Comparison`,
     content: [
       `${county.name} encompasses ${county.towns.length} principal towns, each with distinct market characteristics. The table below ranks every town by median sale price, alongside transaction volume and annual price movement.`,
       `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody>${townRows.join("")}</tbody></table>`,
-      `<strong>Most expensive:</strong> ${top3Expensive.map((t) => `${townLink(county.slug, t.slug, t.name)} (${formatPrice(t.stats.medianPrice)})`).join(", ")}. ${top3Expensive[0] ? `${top3Expensive[0].name}'s premium reflects ${top3Expensive[0].context.toLowerCase()}.` : ""}`,
+      fallbackTowns.length > 0
+        ? `*${fallbackTowns.map((t) => t.name).join(", ")} share${fallbackTowns.length === 1 ? "s" : ""} a HM Land Registry reporting district with neighbouring towns; the source data does not distinguish sales specific to ${fallbackTowns.length === 1 ? "that town" : "those towns"} from the wider district, so ${fallbackTowns.length === 1 ? "its" : "their"} figures reflect the whole shared district. These rows are excluded from the county-wide totals below to avoid double-counting.`
+        : "",
+      `<strong>Most expensive:</strong> ${top3Expensive.map((t) => `${townLink(county.slug, t.slug, t.name)} (${formatPrice(t.stats.medianPrice)})`).join(", ")}. ${top3Expensive[0] ? `${top3Expensive[0].name}'s premium reflects ${top3Expensive[0].context.charAt(0).toLowerCase()}${top3Expensive[0].context.slice(1)}.` : ""}`,
       `<strong>Most affordable:</strong> ${top3Affordable.map((t) => `${townLink(county.slug, t.slug, t.name)} (${formatPrice(t.stats.medianPrice)})`).join(", ")}. These locations may offer stronger yields and lower entry costs for developers.`,
       `<strong>Most active:</strong> ${top3Active.map((t) => `${townLink(county.slug, t.slug, t.name)} (${t.stats.transactionCount12m.toLocaleString("en-GB")} sales)`).join(", ")}. High transaction volumes indicate strong liquidity — critical for exit strategy confidence.`,
-    ],
+    ].filter(Boolean),
   });
 
   // 4. New Build Market
@@ -694,7 +816,7 @@ function generateCountyReport(county: CountyAgg, allCounties: CountyAgg[]): Mark
   sections.push({
     heading: `${county.name} Property Transaction Activity`,
     content: [
-      `${county.name} recorded <strong>${county.totalTransactions.toLocaleString("en-GB")}</strong> residential sales over the past 12 months, representing an estimated <strong>${formatPrice(totalVolEst)}</strong> in total transacted value. ${county.totalTransactions > 5000 ? "This is a deep, liquid market where developers can have confidence in their exit strategy." : county.totalTransactions > 2000 ? "This represents a moderately active market with reasonable exit confidence." : "This is a smaller market where developers should carefully assess demand and ensure robust exit strategies."}`,
+      `${county.name} recorded <strong>${county.totalTransactions.toLocaleString("en-GB")}</strong> residential sales over the past 12 months, representing an estimated <strong>${formatBigNumber(totalVolEst)}</strong> in total transacted value. ${county.totalTransactions > 5000 ? "This is a deep, liquid market where developers can have confidence in their exit strategy." : county.totalTransactions > 2000 ? "This represents a moderately active market with reasonable exit confidence." : "This is a smaller market where developers should carefully assess demand and ensure robust exit strategies."}`,
       `${top3Active.length >= 3 ? `Transaction activity is concentrated in ${top3Active[0].name} (${top3Active[0].stats.transactionCount12m.toLocaleString("en-GB")} sales), ${top3Active[1].name} (${top3Active[1].stats.transactionCount12m.toLocaleString("en-GB")}), and ${top3Active[2].name} (${top3Active[2].stats.transactionCount12m.toLocaleString("en-GB")}), which together account for ${Math.round(((top3Active[0].stats.transactionCount12m + top3Active[1].stats.transactionCount12m + top3Active[2].stats.transactionCount12m) / county.totalTransactions) * 100)}% of county-wide volume.` : ""}`,
       `For developers, liquidity directly affects finance terms. Lenders are more comfortable providing higher loan-to-value ratios and competitive rates in areas with strong transaction volumes, as the evidence of comparable sales reduces valuation risk.`,
     ],
@@ -749,7 +871,9 @@ function generateCountyReport(county: CountyAgg, allCounties: CountyAgg[]): Mark
         ? `Conversely, ${decliningTowns.slice(0, 2).map((t) => `${t.name} (${t.stats.yoyChange}%)`).join(" and ")} ${decliningTowns.length === 1 ? "has" : "have"} seen price softening. For experienced developers, this can present buying opportunities — acquiring land at lower values while planning for a market recovery.`
         : "",
       county.drivers.length > 0
-        ? `Looking ahead, ${county.name}'s development pipeline will be shaped by ${county.drivers.slice(0, 2).join(" and ")}. Developers who align their schemes with these structural demand drivers are best positioned to secure finance and achieve strong returns.`
+        ? county.drivers.length > 3
+          ? `Looking ahead, ${county.name}'s development pipeline will also be shaped by ${county.drivers.slice(3).join(" and ")}, alongside the demand drivers set out above. Developers who align their schemes with these structural factors are best positioned to secure finance and achieve strong returns.`
+          : `Looking ahead, ${county.name}'s development pipeline will continue to be shaped by the demand drivers set out above. Developers who align their schemes with these structural factors are best positioned to secure finance and achieve strong returns.`
         : "",
       `To discuss financing a development in ${county.name}, submit your scheme details through our ${serviceLink("development-finance", "deal room")} for indicative terms within 24 hours from our panel of 100+ lenders.`,
     ].filter(Boolean),
@@ -834,10 +958,15 @@ function generateRegionalReport(region: RegionAgg, allCounties: CountyAgg[]): Ma
   const sections: ReportSection[] = [];
 
   // 1. Regional Overview
+  const regionTowns = region.counties.flatMap((c) => c.towns).filter((t) => !t.isDistrictLevelFallback);
+  const regionQuarterlyHistory = aggregateQuarterlyHistory(regionTowns);
+  const regionTrend = describeQuarterlyTrend(regionQuarterlyHistory, region.name);
+
   sections.push({
     heading: `${region.name} Property Market Overview`,
     content: [
       `The ${region.name} region encompasses <strong>${region.counties.length} counties</strong>, recording a combined <strong>${region.totalTransactions.toLocaleString("en-GB")}</strong> residential transactions over the past 12 months. The regional median property price stands at <strong>${formatPrice(region.medianPrice)}</strong>, with prices ${trendDirection(region.avgYoyChange)} at <strong>${region.avgYoyChange > 0 ? "+" : ""}${region.avgYoyChange}%</strong> year-on-year.`,
+      regionTrend ? regionTrend.sentence : "",
       `${region.totalNewBuilds > 0 ? `New-build activity across the region totalled <strong>${region.totalNewBuilds.toLocaleString("en-GB")} completions</strong>, demonstrating an active development pipeline.` : ""}`,
     ].filter(Boolean),
   });
@@ -1404,13 +1533,18 @@ function generateTownReport(town: TownAgg, county: CountyAgg): MarketReport {
   const ordinal = (n: number) => n === 1 ? "1st" : n === 2 ? "2nd" : n === 3 ? "3rd" : `${n}th`;
 
   // 1. Market Overview
+  const townTrend = describeQuarterlyTrend(town.quarterlyHistory, town.name);
   sections.push({
     heading: `${town.name} Property Market Overview`,
     content: [
       `${town.context}`,
       `The ${townLink(county.slug, town.slug, town.name)} property market recorded <strong>${stats.transactionCount12m.toLocaleString("en-GB")}</strong> residential sales over the past 12 months, with a median sale price of <strong>${formatPrice(stats.medianPrice)}</strong>. This places ${town.name} ${priceVsCounty}, and ${priceVsNational} the UK national median of ${formatPrice(NATIONAL_MEDIAN)}.`,
       `Prices in ${town.name} have shown ${trendWord(stats.yoyChange)}, with a year-on-year change of <strong>${stats.yoyChange > 0 ? "+" : ""}${stats.yoyChange}%</strong>. Within ${countyLink(county.slug, county.name)}, ${town.name} ranks ${ordinal(priceRank)} by price out of ${county.towns.length} principal towns, and ${ordinal(volumeRank)} by transaction volume.`,
-    ],
+      townTrend ? townTrend.sentence : "",
+      town.isDistrictLevelFallback
+        ? `${town.name} shares a HM Land Registry reporting district with neighbouring towns, and the source data does not distinguish ${town.name}-specific sales from the wider district. The figures above reflect the whole shared district rather than ${town.name} alone.`
+        : "",
+    ].filter(Boolean),
   });
 
   // 1b. Planning Pipeline (new — not present in the April edition)

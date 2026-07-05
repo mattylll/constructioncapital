@@ -10,8 +10,8 @@ const report: MarketReport = {
   region: "North East & Yorkshire",
   countySlug: "northumberland",
   townSlug: "berwick-upon-tweed",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
@@ -20,6 +20,7 @@ const report: MarketReport = {
         `Border town with ECML station and unique English-Scottish cross-border market`,
         `The <a href="/locations/northumberland/berwick-upon-tweed">Berwick-upon-Tweed</a> property market recorded <strong>204</strong> residential sales over the past 12 months, with a median sale price of <strong>£189,750</strong>. This places Berwick-upon-Tweed £28k below the Northumberland county median of £217,375, and £95k below the UK national median of £285,000.`,
         `Prices in Berwick-upon-Tweed have shown modest growth, with a year-on-year change of <strong>+2.6%</strong>. Within <a href="/locations/northumberland">Northumberland</a>, Berwick-upon-Tweed ranks 4th by price out of 6 principal towns, and 6th by transaction volume.`,
+        `Berwick-upon-Tweed median prices have moved from £188,000 in Q1 2025 to £194,500 in Q2 2026, a change of +3.5% over 5 quarters.`,
       ],
     },
     {
@@ -33,7 +34,7 @@ const report: MarketReport = {
       heading: `Berwick-upon-Tweed House Prices by Property Type`,
       content: [
         `Property prices in Berwick-upon-Tweed vary significantly by type. The table below compares Berwick-upon-Tweed prices with Northumberland county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Berwick-upon-Tweed</th><th>Northumberland Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£315,000</td><td>£348,375</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£200,000</td><td>£210,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£184,000</td><td>£177,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£103,750</td><td>£121,875</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Berwick-upon-Tweed</th><th>Northumberland Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£315,000</td><td>£347,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£200,000</td><td>£210,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£184,000</td><td>£176,988</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£103,750</td><td>£121,875</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Berwick-upon-Tweed command <strong>£315,000</strong>, while flat properties are most accessible at <strong>£103,750</strong>. The <strong>£211k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
@@ -42,7 +43,7 @@ const report: MarketReport = {
       content: [
         `Berwick-upon-Tweed recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>0.5%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Berwick-upon-Tweed traded at a <strong>discount of 0.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/northumberland-property-market-h1-2026">Northumberland</a> market, 33 new-build completions were recorded — see our <a href="/market-reports/northumberland-property-market-h1-2026">Northumberland property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/northumberland-property-market-h1-2026">Northumberland</a> market, 31 new-build completions were recorded — see our <a href="/market-reports/northumberland-property-market-h1-2026">Northumberland property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -66,7 +67,7 @@ const report: MarketReport = {
       heading: `Berwick-upon-Tweed Compared to Nearby Northumberland Towns`,
       content: [
         `To put Berwick-upon-Tweed's market in context, the table below compares it with similarly-priced towns across <a href="/locations/northumberland">Northumberland</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Berwick-upon-Tweed</strong></td><td><strong>£189,750</strong></td><td><strong>204</strong></td><td><strong>+2.6%</strong></td></tr><tr><td><a href="/locations/northumberland/cramlington">Cramlington</a></td><td>£179,973</td><td>418</td><td>-6.6%</td></tr><tr><td><a href="/locations/northumberland/blyth">Blyth</a></td><td>£140,000</td><td>468</td><td>-1.4%</td></tr><tr><td><a href="/locations/northumberland/morpeth">Morpeth</a></td><td>£245,000</td><td>783</td><td>+4.3%</td></tr><tr><td><a href="/locations/northumberland/alnwick">Alnwick</a></td><td>£271,000</td><td>218</td><td>-6.6%</td></tr><tr><td><a href="/locations/northumberland/hexham">Hexham</a></td><td>£280,000</td><td>300</td><td>+9.8%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Berwick-upon-Tweed</strong></td><td><strong>£189,750</strong></td><td><strong>204</strong></td><td><strong>+2.6%</strong></td></tr><tr><td><a href="/locations/northumberland/cramlington">Cramlington</a></td><td>£179,973</td><td>410</td><td>-6.6%</td></tr><tr><td><a href="/locations/northumberland/blyth">Blyth</a></td><td>£140,000</td><td>458</td><td>-2.1%</td></tr><tr><td><a href="/locations/northumberland/morpeth">Morpeth</a></td><td>£245,000</td><td>771</td><td>+4.3%</td></tr><tr><td><a href="/locations/northumberland/alnwick">Alnwick</a></td><td>£265,000</td><td>212</td><td>-10.2%</td></tr><tr><td><a href="/locations/northumberland/hexham">Hexham</a></td><td>£280,000</td><td>297</td><td>+9.8%</td></tr></tbody></table>`,
         `For the full Northumberland town-by-town breakdown, see our comprehensive <a href="/market-reports/northumberland-property-market-h1-2026">Northumberland property market report</a>.`,
       ],
     },
@@ -78,7 +79,7 @@ const report: MarketReport = {
     },
     {
       question: `Are house prices rising or falling in Berwick-upon-Tweed?`,
-      answer: `House prices in Berwick-upon-Tweed are rising at +2.6% year-on-year. This positive trend suggests sustained buyer demand. The wider Northumberland market is rising at +0.4%.`,
+      answer: `House prices in Berwick-upon-Tweed are rising at +2.6% year-on-year. This positive trend suggests sustained buyer demand. The wider Northumberland market is falling at -0.4%.`,
     },
     {
       question: `How many properties sold in Berwick-upon-Tweed recently?`,

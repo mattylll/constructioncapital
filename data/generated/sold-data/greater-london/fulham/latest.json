@@ -1,19 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.351Z",
+  "updatedAt": "2026-07-05T06:06:54.735Z",
   "townSlug": "fulham",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": true,
   "stats": {
     "medianPrice": 650000,
     "medianByType": {
       "D": 2340000,
-      "S": 1826750,
+      "S": 1750000,
       "T": 1345000,
       "F": 562750
     },
-    "transactionCount12m": 1543,
-    "yoyChange": -11.6,
+    "transactionCount12m": 1511,
+    "yoyChange": -11.3,
     "newBuildCount": 14,
-    "existingCount": 1529,
+    "existingCount": 1497,
     "newBuildPremium": 28.4
   },
   "recentTransactions": [

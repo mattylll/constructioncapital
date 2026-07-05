@@ -4,22 +4,23 @@ const report: MarketReport = {
   slug: "stevenage-hertfordshire-property-market-h1-2026",
   title: "Stevenage Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Stevenage House Prices, End of H1 2026: £345,000 Median",
-  metaDescription: "Stevenage house prices as at the end of H1 2026: £345,000 median, 729 sales, +3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £345,000, 729 sales, +3% YoY. Hertfordshire county.",
+  metaDescription: "Stevenage house prices as at the end of H1 2026: £345,000 median, 721 sales, +3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £345,000, 721 sales, +3% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",
   countySlug: "hertfordshire",
   townSlug: "stevenage",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Stevenage Property Market Overview`,
       content: [
         `New Town undergoing regeneration with bio-science employment base and major housing growth plans`,
-        `The <a href="/locations/hertfordshire/stevenage">Stevenage</a> property market recorded <strong>729</strong> residential sales over the past 12 months, with a median sale price of <strong>£345,000</strong>. This places Stevenage £105k below the Hertfordshire county median of £450,000, and £60k above the UK national median of £285,000.`,
+        `The <a href="/locations/hertfordshire/stevenage">Stevenage</a> property market recorded <strong>721</strong> residential sales over the past 12 months, with a median sale price of <strong>£345,000</strong>. This places Stevenage £105k below the Hertfordshire county median of £450,000, and £60k above the UK national median of £285,000.`,
         `Prices in Stevenage have shown modest growth, with a year-on-year change of <strong>+3%</strong>. Within <a href="/locations/hertfordshire">Hertfordshire</a>, Stevenage ranks 10th by price out of 10 principal towns, and 6th by transaction volume.`,
+        `Stevenage median prices have moved from £342,000 in Q1 2025 to £335,000 in Q2 2026, a change of -2.0% over 5 quarters.`,
       ],
     },
     {
@@ -32,7 +33,7 @@ const report: MarketReport = {
       heading: `Stevenage House Prices by Property Type`,
       content: [
         `Property prices in Stevenage vary significantly by type. The table below compares Stevenage prices with Hertfordshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Stevenage</th><th>Hertfordshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£558,500</td><td>£816,250</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£390,000</td><td>£542,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£335,000</td><td>£416,525</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£197,500</td><td>£253,500</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Stevenage</th><th>Hertfordshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£558,500</td><td>£842,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£390,000</td><td>£550,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£335,000</td><td>£420,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£197,500</td><td>£255,000</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Stevenage command <strong>£558,500</strong>, while flat properties are most accessible at <strong>£197,500</strong>. The <strong>£361k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
@@ -41,7 +42,7 @@ const report: MarketReport = {
       content: [
         `Stevenage recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Stevenage traded at a <strong>discount of 0.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire</a> market, 68 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire</a> market, 44 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -65,7 +66,7 @@ const report: MarketReport = {
       heading: `Stevenage Compared to Nearby Hertfordshire Towns`,
       content: [
         `To put Stevenage's market in context, the table below compares it with similarly-priced towns across <a href="/locations/hertfordshire">Hertfordshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Stevenage</strong></td><td><strong>£345,000</strong></td><td><strong>729</strong></td><td><strong>+3%</strong></td></tr><tr><td><a href="/locations/hertfordshire/hatfield">Hatfield</a></td><td>£385,000</td><td>366</td><td>-3.1%</td></tr><tr><td><a href="/locations/hertfordshire/watford">Watford</a></td><td>£407,000</td><td>840</td><td>-0.7%</td></tr><tr><td><a href="/locations/hertfordshire/welwyn-garden-city">Welwyn Garden City</a></td><td>£410,000</td><td>462</td><td>+1.2%</td></tr><tr><td><a href="/locations/hertfordshire/bishops-stortford">Bishops Stortford</a></td><td>£450,000</td><td>1,708</td><td>+1.1%</td></tr><tr><td><a href="/locations/hertfordshire/hemel-hempstead">Hemel Hempstead</a></td><td>£450,000</td><td>1,626</td><td>+2.3%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Stevenage</strong></td><td><strong>£345,000</strong></td><td><strong>721</strong></td><td><strong>+3%</strong></td></tr><tr><td><a href="/locations/hertfordshire/hatfield">Hatfield</a></td><td>£385,000</td><td>360</td><td>-3.1%</td></tr><tr><td><a href="/locations/hertfordshire/watford">Watford</a></td><td>£405,000</td><td>824</td><td>-1.2%</td></tr><tr><td><a href="/locations/hertfordshire/welwyn-garden-city">Welwyn Garden City</a></td><td>£410,000</td><td>448</td><td>+1.2%</td></tr><tr><td><a href="/locations/hertfordshire/bishops-stortford">Bishops Stortford</a></td><td>£450,000</td><td>1,689</td><td>+1.1%</td></tr><tr><td><a href="/locations/hertfordshire/hemel-hempstead">Hemel Hempstead</a></td><td>£450,000</td><td>1,604</td><td>+2.3%</td></tr></tbody></table>`,
         `For the full Hertfordshire town-by-town breakdown, see our comprehensive <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire property market report</a>.`,
       ],
     },
@@ -73,7 +74,7 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Stevenage?`,
-      answer: `The median house price in Stevenage is £345,000, based on 729 transactions over the past 12 months. Detached homes average £558,500 while flat properties average £197,500.`,
+      answer: `The median house price in Stevenage is £345,000, based on 721 transactions over the past 12 months. Detached homes average £558,500 while flat properties average £197,500.`,
     },
     {
       question: `Are house prices rising or falling in Stevenage?`,
@@ -81,7 +82,7 @@ const report: MarketReport = {
     },
     {
       question: `How many properties sold in Stevenage recently?`,
-      answer: `Stevenage recorded 729 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Stevenage recorded 721 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Stevenage?`,

@@ -4,22 +4,23 @@ const report: MarketReport = {
   slug: "weston-super-mare-somerset-property-market-h1-2026",
   title: "Weston-super-Mare Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Weston-super-Mare House Prices, End of H1 2026: £310,000 Median",
-  metaDescription: "Weston-super-Mare house prices as at the end of H1 2026: £310,000 median, 2,924 sales, -1.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £310,000, 2,924 sales, -1.6% YoY. Somerset county.",
+  metaDescription: "Weston-super-Mare house prices as at the end of H1 2026: £310,000 median, 2,888 sales, -1.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £310,000, 2,888 sales, -1.6% YoY. Somerset county.",
   category: "town",
   region: "South West",
   countySlug: "somerset",
   townSlug: "weston-super-mare",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Weston-super-Mare Property Market Overview`,
       content: [
         `North Somerset coastal town with town centre regeneration and Bristol commuter demand`,
-        `The <a href="/locations/somerset/weston-super-mare">Weston-super-Mare</a> property market recorded <strong>2,924</strong> residential sales over the past 12 months, with a median sale price of <strong>£310,000</strong>. This places Weston-super-Mare £15k above the Somerset county median of £295,500, and £25k above the UK national median of £285,000.`,
+        `The <a href="/locations/somerset/weston-super-mare">Weston-super-Mare</a> property market recorded <strong>2,888</strong> residential sales over the past 12 months, with a median sale price of <strong>£310,000</strong>. This places Weston-super-Mare £15k above the Somerset county median of £295,000, and £25k above the UK national median of £285,000.`,
         `Prices in Weston-super-Mare have shown broadly stable, with a year-on-year change of <strong>-1.6%</strong>. Within <a href="/locations/somerset">Somerset</a>, Weston-super-Mare ranks 4th by price out of 8 principal towns, and 1st by transaction volume.`,
+        `Weston-super-Mare median prices have moved from £320,000 in Q1 2025 to £315,000 in Q2 2026, a change of -1.6% over 5 quarters.`,
       ],
     },
     {
@@ -32,16 +33,16 @@ const report: MarketReport = {
       heading: `Weston-super-Mare House Prices by Property Type`,
       content: [
         `Property prices in Weston-super-Mare vary significantly by type. The table below compares Weston-super-Mare prices with Somerset county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Weston-super-Mare</th><th>Somerset Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£470,000</td><td>£448,750</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£315,000</td><td>£297,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£267,750</td><td>£258,875</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£179,000</td><td>£154,750</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Weston-super-Mare command <strong>£470,000</strong>, while flat properties are most accessible at <strong>£179,000</strong>. The <strong>£291k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Weston-super-Mare</th><th>Somerset Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£470,000</td><td>£448,750</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£317,500</td><td>£297,250</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£267,000</td><td>£258,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£180,000</td><td>£154,500</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Weston-super-Mare command <strong>£470,000</strong>, while flat properties are most accessible at <strong>£180,000</strong>. The <strong>£290k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Weston-super-Mare`,
       content: [
-        `Weston-super-Mare recorded <strong>36</strong> new-build transactions in the past 12 months, representing <strong>1.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
-        `New-build properties in Weston-super-Mare traded at a <strong>premium of 40.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/somerset-property-market-h1-2026">Somerset</a> market, 70 new-build completions were recorded — see our <a href="/market-reports/somerset-property-market-h1-2026">Somerset property market report</a> for the full county picture.`,
+        `Weston-super-Mare recorded <strong>33</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
+        `New-build properties in Weston-super-Mare traded at a <strong>premium of 41.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/somerset-property-market-h1-2026">Somerset</a> market, 66 new-build completions were recorded — see our <a href="/market-reports/somerset-property-market-h1-2026">Somerset property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -65,7 +66,7 @@ const report: MarketReport = {
       heading: `Weston-super-Mare Compared to Nearby Somerset Towns`,
       content: [
         `To put Weston-super-Mare's market in context, the table below compares it with similarly-priced towns across <a href="/locations/somerset">Somerset</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Weston-super-Mare</strong></td><td><strong>£310,000</strong></td><td><strong>2,924</strong></td><td><strong>-1.6%</strong></td></tr><tr><td><a href="/locations/somerset/frome">Frome</a></td><td>£315,000</td><td>484</td><td>-4.4%</td></tr><tr><td><a href="/locations/somerset/wells">Wells</a></td><td>£335,000</td><td>243</td><td>+1.5%</td></tr><tr><td><a href="/locations/somerset/glastonbury">Glastonbury</a></td><td>£281,000</td><td>172</td><td>+0.4%</td></tr><tr><td><a href="/locations/somerset/taunton">Taunton</a></td><td>£279,300</td><td>1,325</td><td>-0.3%</td></tr><tr><td><a href="/locations/somerset/bridgwater">Bridgwater</a></td><td>£255,000</td><td>912</td><td>+2%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Weston-super-Mare</strong></td><td><strong>£310,000</strong></td><td><strong>2,888</strong></td><td><strong>-1.6%</strong></td></tr><tr><td><a href="/locations/somerset/frome">Frome</a></td><td>£316,000</td><td>474</td><td>-3.7%</td></tr><tr><td><a href="/locations/somerset/wells">Wells</a></td><td>£335,000</td><td>243</td><td>+1.5%</td></tr><tr><td><a href="/locations/somerset/glastonbury">Glastonbury</a></td><td>£280,000</td><td>169</td><td>0%</td></tr><tr><td><a href="/locations/somerset/taunton">Taunton</a></td><td>£277,250</td><td>1,306</td><td>-1%</td></tr><tr><td><a href="/locations/somerset/bridgwater">Bridgwater</a></td><td>£255,000</td><td>893</td><td>+2%</td></tr></tbody></table>`,
         `For the full Somerset town-by-town breakdown, see our comprehensive <a href="/market-reports/somerset-property-market-h1-2026">Somerset property market report</a>.`,
       ],
     },
@@ -73,7 +74,7 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Weston-super-Mare?`,
-      answer: `The median house price in Weston-super-Mare is £310,000, based on 2,924 transactions over the past 12 months. Detached homes average £470,000 while flat properties average £179,000.`,
+      answer: `The median house price in Weston-super-Mare is £310,000, based on 2,888 transactions over the past 12 months. Detached homes average £470,000 while flat properties average £180,000.`,
     },
     {
       question: `Are house prices rising or falling in Weston-super-Mare?`,
@@ -81,7 +82,7 @@ const report: MarketReport = {
     },
     {
       question: `How many properties sold in Weston-super-Mare recently?`,
-      answer: `Weston-super-Mare recorded 2,924 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Weston-super-Mare recorded 2,888 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Weston-super-Mare?`,
@@ -91,7 +92,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["somerset-property-market-h1-2026", "south-west-market-overview-h1-2026", "bath-somerset-property-market-h1-2026", "bridgwater-somerset-property-market-h1-2026", "frome-somerset-property-market-h1-2026", "glastonbury-somerset-property-market-h1-2026"],
   relatedTownSlugs: ["somerset/weston-super-mare"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":470000},{"name":"Semi-detached","value":315000},{"name":"Terraced","value":267750},{"name":"Flat","value":179000}]},
+  charts: {"priceByType":[{"name":"Detached","value":470000},{"name":"Semi-detached","value":317500},{"name":"Terraced","value":267000},{"name":"Flat","value":180000}]},
 };
 
 export default report;

@@ -4,22 +4,24 @@ const report: MarketReport = {
   slug: "bishops-stortford-hertfordshire-property-market-h1-2026",
   title: "Bishops Stortford Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Bishops Stortford House Prices, End of H1 2026: £450,000 Median",
-  metaDescription: "Bishops Stortford house prices as at the end of H1 2026: £450,000 median, 1,708 sales, +1.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £450,000, 1,708 sales, +1.1% YoY. Hertfordshire county.",
+  metaDescription: "Bishops Stortford house prices as at the end of H1 2026: £450,000 median, 1,689 sales, +1.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £450,000, 1,689 sales, +1.1% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",
   countySlug: "hertfordshire",
   townSlug: "bishops-stortford",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Bishops Stortford Property Market Overview`,
       content: [
         `Stansted Airport proximity driving demand with major northern expansion delivering 5,000+ homes`,
-        `The <a href="/locations/hertfordshire/bishops-stortford">Bishops Stortford</a> property market recorded <strong>1,708</strong> residential sales over the past 12 months, with a median sale price of <strong>£450,000</strong>. This places Bishops Stortford in line with the Hertfordshire county median, and £165k above the UK national median of £285,000.`,
+        `The <a href="/locations/hertfordshire/bishops-stortford">Bishops Stortford</a> property market recorded <strong>1,689</strong> residential sales over the past 12 months, with a median sale price of <strong>£450,000</strong>. This places Bishops Stortford in line with the Hertfordshire county median, and £165k above the UK national median of £285,000.`,
         `Prices in Bishops Stortford have shown modest growth, with a year-on-year change of <strong>+1.1%</strong>. Within <a href="/locations/hertfordshire">Hertfordshire</a>, Bishops Stortford ranks 4th by price out of 10 principal towns, and 1st by transaction volume.`,
+        `Bishops Stortford median prices have moved from £439,125 in Q1 2025 to £430,000 in Q2 2026, a change of -2.1% over 5 quarters.`,
+        `Bishops Stortford shares a HM Land Registry reporting district with neighbouring towns, and the source data does not distinguish Bishops Stortford-specific sales from the wider district. The figures above reflect the whole shared district rather than Bishops Stortford alone.`,
       ],
     },
     {
@@ -33,16 +35,16 @@ const report: MarketReport = {
       heading: `Bishops Stortford House Prices by Property Type`,
       content: [
         `Property prices in Bishops Stortford vary significantly by type. The table below compares Bishops Stortford prices with Hertfordshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Bishops Stortford</th><th>Hertfordshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£730,000</td><td>£816,250</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£495,000</td><td>£542,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£415,000</td><td>£416,525</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£250,000</td><td>£253,500</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Bishops Stortford command <strong>£730,000</strong>, while flat properties are most accessible at <strong>£250,000</strong>. The <strong>£480k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Bishops Stortford</th><th>Hertfordshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£729,000</td><td>£842,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£498,417</td><td>£550,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£415,000</td><td>£420,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£250,000</td><td>£255,000</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Bishops Stortford command <strong>£729,000</strong>, while flat properties are most accessible at <strong>£250,000</strong>. The <strong>£479k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Bishops Stortford`,
       content: [
-        `Bishops Stortford recorded <strong>19</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. There is moderate development activity, with room for further growth.`,
-        `New-build properties in Bishops Stortford traded at a <strong>premium of 37.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire</a> market, 68 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire property market report</a> for the full county picture.`,
+        `Bishops Stortford recorded <strong>18</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. There is moderate development activity, with room for further growth.`,
+        `New-build properties in Bishops Stortford traded at a <strong>premium of 35.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire</a> market, 44 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -56,8 +58,8 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Bishops Stortford`,
       content: [
-        `For developers considering Bishops Stortford, the local market data translates directly into finance structuring. With a median value of £450,000 and detached homes at £730,000, lenders can assess scheme viability with confidence.`,
-        `A typical <a href="/services/development-finance">development finance</a> facility for a Bishops Stortford scheme with a GDV of £730,000 would attract <strong>senior debt of approximately £474,500</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
+        `For developers considering Bishops Stortford, the local market data translates directly into finance structuring. With a median value of £450,000 and detached homes at £729,000, lenders can assess scheme viability with confidence.`,
+        `A typical <a href="/services/development-finance">development finance</a> facility for a Bishops Stortford scheme with a GDV of £729,000 would attract <strong>senior debt of approximately £473,850</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
         `With prices rising 1.1% year-on-year, Bishops Stortford presents a supportive environment for new development. Lenders view positive price momentum favourably when assessing loan applications.`,
         `Ready to develop in Bishops Stortford? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
@@ -66,7 +68,7 @@ const report: MarketReport = {
       heading: `Bishops Stortford Compared to Nearby Hertfordshire Towns`,
       content: [
         `To put Bishops Stortford's market in context, the table below compares it with similarly-priced towns across <a href="/locations/hertfordshire">Hertfordshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Bishops Stortford</strong></td><td><strong>£450,000</strong></td><td><strong>1,708</strong></td><td><strong>+1.1%</strong></td></tr><tr><td><a href="/locations/hertfordshire/hemel-hempstead">Hemel Hempstead</a></td><td>£450,000</td><td>1,626</td><td>+2.3%</td></tr><tr><td><a href="/locations/hertfordshire/hertford">Hertford</a></td><td>£450,000</td><td>456</td><td>+0.4%</td></tr><tr><td><a href="/locations/hertfordshire/welwyn-garden-city">Welwyn Garden City</a></td><td>£410,000</td><td>462</td><td>+1.2%</td></tr><tr><td><a href="/locations/hertfordshire/watford">Watford</a></td><td>£407,000</td><td>840</td><td>-0.7%</td></tr><tr><td><a href="/locations/hertfordshire/hatfield">Hatfield</a></td><td>£385,000</td><td>366</td><td>-3.1%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Bishops Stortford</strong></td><td><strong>£450,000</strong></td><td><strong>1,689</strong></td><td><strong>+1.1%</strong></td></tr><tr><td><a href="/locations/hertfordshire/hemel-hempstead">Hemel Hempstead</a></td><td>£450,000</td><td>1,604</td><td>+2.3%</td></tr><tr><td><a href="/locations/hertfordshire/hertford">Hertford</a></td><td>£450,000</td><td>452</td><td>+0.7%</td></tr><tr><td><a href="/locations/hertfordshire/welwyn-garden-city">Welwyn Garden City</a></td><td>£410,000</td><td>448</td><td>+1.2%</td></tr><tr><td><a href="/locations/hertfordshire/watford">Watford</a></td><td>£405,000</td><td>824</td><td>-1.2%</td></tr><tr><td><a href="/locations/hertfordshire/hatfield">Hatfield</a></td><td>£385,000</td><td>360</td><td>-3.1%</td></tr></tbody></table>`,
         `For the full Hertfordshire town-by-town breakdown, see our comprehensive <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire property market report</a>.`,
       ],
     },
@@ -74,7 +76,7 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Bishops Stortford?`,
-      answer: `The median house price in Bishops Stortford is £450,000, based on 1,708 transactions over the past 12 months. Detached homes average £730,000 while flat properties average £250,000.`,
+      answer: `The median house price in Bishops Stortford is £450,000, based on 1,689 transactions over the past 12 months. Detached homes average £729,000 while flat properties average £250,000.`,
     },
     {
       question: `Are house prices rising or falling in Bishops Stortford?`,
@@ -82,7 +84,7 @@ const report: MarketReport = {
     },
     {
       question: `How many properties sold in Bishops Stortford recently?`,
-      answer: `Bishops Stortford recorded 1,708 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Bishops Stortford recorded 1,689 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Bishops Stortford?`,
@@ -92,7 +94,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["hertfordshire-property-market-h1-2026", "london-and-south-east-market-overview-h1-2026", "borehamwood-hertfordshire-property-market-h1-2026", "harpenden-hertfordshire-property-market-h1-2026", "hatfield-hertfordshire-property-market-h1-2026", "hemel-hempstead-hertfordshire-property-market-h1-2026"],
   relatedTownSlugs: ["hertfordshire/bishops-stortford"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":730000},{"name":"Semi-detached","value":495000},{"name":"Terraced","value":415000},{"name":"Flat","value":250000}]},
+  charts: {"priceByType":[{"name":"Detached","value":729000},{"name":"Semi-detached","value":498417},{"name":"Terraced","value":415000},{"name":"Flat","value":250000}]},
 };
 
 export default report;

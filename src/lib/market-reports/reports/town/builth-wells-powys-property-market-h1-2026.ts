@@ -10,16 +10,17 @@ const report: MarketReport = {
   region: "Wales",
   countySlug: "powys",
   townSlug: "builth-wells",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Builth Wells Property Market Overview`,
       content: [
         `Royal Welsh Show town with agricultural heritage and rural market appeal`,
-        `The <a href="/locations/powys/builth-wells">Builth Wells</a> property market recorded <strong>58</strong> residential sales over the past 12 months, with a median sale price of <strong>£280,000</strong>. This places Builth Wells £34k above the Powys county median of £246,250, and £5k below the UK national median of £285,000.`,
-        `Prices in Builth Wells have shown strong growth, with a year-on-year change of <strong>+11.6%</strong>. Within <a href="/locations/powys">Powys</a>, Builth Wells ranks 2nd by price out of 6 principal towns, and 6th by transaction volume.`,
+        `The <a href="/locations/powys/builth-wells">Builth Wells</a> property market recorded <strong>58</strong> residential sales over the past 12 months, with a median sale price of <strong>£280,000</strong>. This places Builth Wells £40k above the Powys county median of £240,000, and £5k below the UK national median of £285,000.`,
+        `Prices in Builth Wells have shown strong growth, with a year-on-year change of <strong>+11.6%</strong>. Within <a href="/locations/powys">Powys</a>, Builth Wells ranks 1st by price out of 6 principal towns, and 6th by transaction volume.`,
+        `Builth Wells median prices have moved from £242,500 in Q1 2025 to £132,500 in Q2 2026, a change of -45.4% over 5 quarters.`,
       ],
     },
     {
@@ -33,7 +34,7 @@ const report: MarketReport = {
       heading: `Builth Wells House Prices by Property Type`,
       content: [
         `Property prices in Builth Wells vary significantly by type. The table below compares Builth Wells prices with Powys county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Builth Wells</th><th>Powys Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£355,000</td><td>£332,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£248,500</td><td>£216,250</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£173,750</td><td>£173,841</td><td>£230,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Builth Wells</th><th>Powys Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£355,000</td><td>£327,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£248,500</td><td>£217,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£173,750</td><td>£175,100</td><td>£230,000</td></tr></tbody></table>`,
         `Detached homes in Builth Wells command <strong>£355,000</strong>, while terraced properties are most accessible at <strong>£173,750</strong>. The <strong>£181k spread</strong> between the most and least expensive types indicates a relatively compressed market where margins between types are tighter.`,
       ],
     },
@@ -42,7 +43,7 @@ const report: MarketReport = {
       content: [
         `Builth Wells recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Builth Wells traded at a <strong>discount of 0.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/powys-property-market-h1-2026">Powys</a> market, 28 new-build completions were recorded — see our <a href="/market-reports/powys-property-market-h1-2026">Powys property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/powys-property-market-h1-2026">Powys</a> market, 11 new-build completions were recorded — see our <a href="/market-reports/powys-property-market-h1-2026">Powys property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -66,7 +67,7 @@ const report: MarketReport = {
       heading: `Builth Wells Compared to Nearby Powys Towns`,
       content: [
         `To put Builth Wells's market in context, the table below compares it with similarly-priced towns across <a href="/locations/powys">Powys</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Builth Wells</strong></td><td><strong>£280,000</strong></td><td><strong>58</strong></td><td><strong>+11.6%</strong></td></tr><tr><td><a href="/locations/powys/brecon">Brecon</a></td><td>£280,000</td><td>177</td><td>-1.8%</td></tr><tr><td><a href="/locations/powys/hay-on-wye">Hay-on-Wye</a></td><td>£250,000</td><td>1,195</td><td>0%</td></tr><tr><td><a href="/locations/powys/llandrindod-wells">Llandrindod Wells</a></td><td>£242,500</td><td>116</td><td>+7.8%</td></tr><tr><td><a href="/locations/powys/welshpool">Welshpool</a></td><td>£232,500</td><td>134</td><td>-5.1%</td></tr><tr><td><a href="/locations/powys/newtown">Newtown</a></td><td>£226,500</td><td>148</td><td>+13.3%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Builth Wells</strong></td><td><strong>£280,000</strong></td><td><strong>58</strong></td><td><strong>+11.6%</strong></td></tr><tr><td><a href="/locations/powys/brecon">Brecon</a></td><td>£277,500</td><td>174</td><td>-2.5%</td></tr><tr><td><a href="/locations/powys/hay-on-wye">Hay-on-Wye</a></td><td>£250,000</td><td>1,174</td><td>0%</td></tr><tr><td><a href="/locations/powys/llandrindod-wells">Llandrindod Wells</a></td><td>£240,000</td><td>115</td><td>+5.5%</td></tr><tr><td><a href="/locations/powys/newtown">Newtown</a></td><td>£227,500</td><td>147</td><td>+13.8%</td></tr><tr><td><a href="/locations/powys/welshpool">Welshpool</a></td><td>£225,000</td><td>128</td><td>-8.2%</td></tr></tbody></table>`,
         `For the full Powys town-by-town breakdown, see our comprehensive <a href="/market-reports/powys-property-market-h1-2026">Powys property market report</a>.`,
       ],
     },
@@ -78,7 +79,7 @@ const report: MarketReport = {
     },
     {
       question: `Are house prices rising or falling in Builth Wells?`,
-      answer: `House prices in Builth Wells are rising at +11.6% year-on-year. This positive trend suggests sustained buyer demand. The wider Powys market is rising at +4.3%.`,
+      answer: `House prices in Builth Wells are rising at +11.6% year-on-year. This positive trend suggests sustained buyer demand. The wider Powys market is rising at +4%.`,
     },
     {
       question: `How many properties sold in Builth Wells recently?`,

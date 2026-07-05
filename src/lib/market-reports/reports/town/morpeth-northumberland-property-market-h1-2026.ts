@@ -4,22 +4,23 @@ const report: MarketReport = {
   slug: "morpeth-northumberland-property-market-h1-2026",
   title: "Morpeth Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Morpeth House Prices, End of H1 2026: £245,000 Median",
-  metaDescription: "Morpeth house prices as at the end of H1 2026: £245,000 median, 783 sales, +4.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £245,000, 783 sales, +4.3% YoY. Northumberland county.",
+  metaDescription: "Morpeth house prices as at the end of H1 2026: £245,000 median, 771 sales, +4.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £245,000, 771 sales, +4.3% YoY. Northumberland county.",
   category: "town",
   region: "North East & Yorkshire",
   countySlug: "northumberland",
   townSlug: "morpeth",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Morpeth Property Market Overview`,
       content: [
         `Premium county town with strong Newcastle commuter demand and Carlisle Park riverside development`,
-        `The <a href="/locations/northumberland/morpeth">Morpeth</a> property market recorded <strong>783</strong> residential sales over the past 12 months, with a median sale price of <strong>£245,000</strong>. This places Morpeth £28k above the Northumberland county median of £217,375, and £40k below the UK national median of £285,000.`,
+        `The <a href="/locations/northumberland/morpeth">Morpeth</a> property market recorded <strong>771</strong> residential sales over the past 12 months, with a median sale price of <strong>£245,000</strong>. This places Morpeth £28k above the Northumberland county median of £217,375, and £40k below the UK national median of £285,000.`,
         `Prices in Morpeth have shown strong growth, with a year-on-year change of <strong>+4.3%</strong>. Within <a href="/locations/northumberland">Northumberland</a>, Morpeth ranks 3rd by price out of 6 principal towns, and 1st by transaction volume.`,
+        `Morpeth median prices have moved from £240,000 in Q1 2025 to £252,000 in Q2 2026, a change of +5.0% over 5 quarters.`,
       ],
     },
     {
@@ -33,16 +34,16 @@ const report: MarketReport = {
       heading: `Morpeth House Prices by Property Type`,
       content: [
         `Property prices in Morpeth vary significantly by type. The table below compares Morpeth prices with Northumberland county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Morpeth</th><th>Northumberland Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£390,000</td><td>£348,375</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£220,000</td><td>£210,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£170,000</td><td>£177,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£153,500</td><td>£121,875</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Morpeth</th><th>Northumberland Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£390,000</td><td>£347,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£220,000</td><td>£210,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£169,975</td><td>£176,988</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£153,500</td><td>£121,875</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Morpeth command <strong>£390,000</strong>, while flat properties are most accessible at <strong>£153,500</strong>. The <strong>£237k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Morpeth`,
       content: [
-        `Morpeth recorded <strong>18</strong> new-build transactions in the past 12 months, representing <strong>2.3%</strong> of total sales. There is moderate development activity, with room for further growth.`,
-        `New-build properties in Morpeth traded at a <strong>premium of 118.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/northumberland-property-market-h1-2026">Northumberland</a> market, 33 new-build completions were recorded — see our <a href="/market-reports/northumberland-property-market-h1-2026">Northumberland property market report</a> for the full county picture.`,
+        `Morpeth recorded <strong>17</strong> new-build transactions in the past 12 months, representing <strong>2.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
+        `New-build properties in Morpeth traded at a <strong>premium of 135.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/northumberland-property-market-h1-2026">Northumberland</a> market, 31 new-build completions were recorded — see our <a href="/market-reports/northumberland-property-market-h1-2026">Northumberland property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -66,7 +67,7 @@ const report: MarketReport = {
       heading: `Morpeth Compared to Nearby Northumberland Towns`,
       content: [
         `To put Morpeth's market in context, the table below compares it with similarly-priced towns across <a href="/locations/northumberland">Northumberland</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Morpeth</strong></td><td><strong>£245,000</strong></td><td><strong>783</strong></td><td><strong>+4.3%</strong></td></tr><tr><td><a href="/locations/northumberland/alnwick">Alnwick</a></td><td>£271,000</td><td>218</td><td>-6.6%</td></tr><tr><td><a href="/locations/northumberland/hexham">Hexham</a></td><td>£280,000</td><td>300</td><td>+9.8%</td></tr><tr><td><a href="/locations/northumberland/berwick-upon-tweed">Berwick-upon-Tweed</a></td><td>£189,750</td><td>204</td><td>+2.6%</td></tr><tr><td><a href="/locations/northumberland/cramlington">Cramlington</a></td><td>£179,973</td><td>418</td><td>-6.6%</td></tr><tr><td><a href="/locations/northumberland/blyth">Blyth</a></td><td>£140,000</td><td>468</td><td>-1.4%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Morpeth</strong></td><td><strong>£245,000</strong></td><td><strong>771</strong></td><td><strong>+4.3%</strong></td></tr><tr><td><a href="/locations/northumberland/alnwick">Alnwick</a></td><td>£265,000</td><td>212</td><td>-10.2%</td></tr><tr><td><a href="/locations/northumberland/hexham">Hexham</a></td><td>£280,000</td><td>297</td><td>+9.8%</td></tr><tr><td><a href="/locations/northumberland/berwick-upon-tweed">Berwick-upon-Tweed</a></td><td>£189,750</td><td>204</td><td>+2.6%</td></tr><tr><td><a href="/locations/northumberland/cramlington">Cramlington</a></td><td>£179,973</td><td>410</td><td>-6.6%</td></tr><tr><td><a href="/locations/northumberland/blyth">Blyth</a></td><td>£140,000</td><td>458</td><td>-2.1%</td></tr></tbody></table>`,
         `For the full Northumberland town-by-town breakdown, see our comprehensive <a href="/market-reports/northumberland-property-market-h1-2026">Northumberland property market report</a>.`,
       ],
     },
@@ -74,15 +75,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Morpeth?`,
-      answer: `The median house price in Morpeth is £245,000, based on 783 transactions over the past 12 months. Detached homes average £390,000 while flat properties average £153,500.`,
+      answer: `The median house price in Morpeth is £245,000, based on 771 transactions over the past 12 months. Detached homes average £390,000 while flat properties average £153,500.`,
     },
     {
       question: `Are house prices rising or falling in Morpeth?`,
-      answer: `House prices in Morpeth are rising at +4.3% year-on-year. This positive trend suggests sustained buyer demand. The wider Northumberland market is rising at +0.4%.`,
+      answer: `House prices in Morpeth are rising at +4.3% year-on-year. This positive trend suggests sustained buyer demand. The wider Northumberland market is falling at -0.4%.`,
     },
     {
       question: `How many properties sold in Morpeth recently?`,
-      answer: `Morpeth recorded 783 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Morpeth recorded 771 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Morpeth?`,
@@ -92,7 +93,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["northumberland-property-market-h1-2026", "north-east-and-yorkshire-market-overview-h1-2026", "alnwick-northumberland-property-market-h1-2026", "berwick-upon-tweed-northumberland-property-market-h1-2026", "blyth-northumberland-property-market-h1-2026", "cramlington-northumberland-property-market-h1-2026"],
   relatedTownSlugs: ["northumberland/morpeth"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":390000},{"name":"Semi-detached","value":220000},{"name":"Terraced","value":170000},{"name":"Flat","value":153500}]},
+  charts: {"priceByType":[{"name":"Detached","value":390000},{"name":"Semi-detached","value":220000},{"name":"Terraced","value":169975},{"name":"Flat","value":153500}]},
 };
 
 export default report;

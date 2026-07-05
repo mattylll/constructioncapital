@@ -4,22 +4,23 @@ const report: MarketReport = {
   slug: "driffield-east-riding-of-yorkshire-property-market-h1-2026",
   title: "Driffield Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Driffield House Prices, End of H1 2026: £215,000 Median",
-  metaDescription: "Driffield house prices as at the end of H1 2026: £215,000 median, 501 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £215,000, 501 sales, 0% YoY. East Riding of Yorkshire county.",
+  metaDescription: "Driffield house prices as at the end of H1 2026: £215,000 median, 488 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £215,000, 488 sales, 0% YoY. East Riding of Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",
   countySlug: "east-riding-of-yorkshire",
   townSlug: "driffield",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Driffield Property Market Overview`,
       content: [
         `Wolds market town with agricultural economy and growing residential demand`,
-        `The <a href="/locations/east-riding-of-yorkshire/driffield">Driffield</a> property market recorded <strong>501</strong> residential sales over the past 12 months, with a median sale price of <strong>£215,000</strong>. This places Driffield £25k above the East Riding of Yorkshire county median of £190,000, and £70k below the UK national median of £285,000.`,
+        `The <a href="/locations/east-riding-of-yorkshire/driffield">Driffield</a> property market recorded <strong>488</strong> residential sales over the past 12 months, with a median sale price of <strong>£215,000</strong>. This places Driffield £26k above the East Riding of Yorkshire county median of £188,625, and £70k below the UK national median of £285,000.`,
         `Prices in Driffield have shown broadly stable, with a year-on-year change of <strong>0%</strong>. Within <a href="/locations/east-riding-of-yorkshire">East Riding of Yorkshire</a>, Driffield ranks 2nd by price out of 6 principal towns, and 5th by transaction volume.`,
+        `Driffield median prices have moved from £230,000 in Q1 2025 to £216,250 in Q2 2026, a change of -6.0% over 5 quarters.`,
       ],
     },
     {
@@ -33,16 +34,16 @@ const report: MarketReport = {
       heading: `Driffield House Prices by Property Type`,
       content: [
         `Property prices in Driffield vary significantly by type. The table below compares Driffield prices with East Riding of Yorkshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Driffield</th><th>East Riding of Yorkshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£305,000</td><td>£312,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£185,000</td><td>£187,499</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£154,500</td><td>£149,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£77,000</td><td>£92,989</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Driffield</th><th>East Riding of Yorkshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£305,000</td><td>£309,375</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£189,000</td><td>£187,750</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£154,500</td><td>£148,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£77,000</td><td>£92,620</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Driffield command <strong>£305,000</strong>, while flat properties are most accessible at <strong>£77,000</strong>. The <strong>£228k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Driffield`,
       content: [
-        `Driffield recorded <strong>7</strong> new-build transactions in the past 12 months, representing <strong>1.4%</strong> of total sales. There is moderate development activity, with room for further growth.`,
-        `New-build properties in Driffield traded at a <strong>discount of 14.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/east-riding-of-yorkshire-property-market-h1-2026">East Riding of Yorkshire</a> market, 90 new-build completions were recorded — see our <a href="/market-reports/east-riding-of-yorkshire-property-market-h1-2026">East Riding of Yorkshire property market report</a> for the full county picture.`,
+        `Driffield recorded <strong>4</strong> new-build transactions in the past 12 months, representing <strong>0.8%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
+        `New-build properties in Driffield traded at a <strong>discount of 17.8%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
+        `Across the wider <a href="/market-reports/east-riding-of-yorkshire-property-market-h1-2026">East Riding of Yorkshire</a> market, 84 new-build completions were recorded — see our <a href="/market-reports/east-riding-of-yorkshire-property-market-h1-2026">East Riding of Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -66,7 +67,7 @@ const report: MarketReport = {
       heading: `Driffield Compared to Nearby East Riding of Yorkshire Towns`,
       content: [
         `To put Driffield's market in context, the table below compares it with similarly-priced towns across <a href="/locations/east-riding-of-yorkshire">East Riding of Yorkshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Driffield</strong></td><td><strong>£215,000</strong></td><td><strong>501</strong></td><td><strong>0%</strong></td></tr><tr><td><a href="/locations/east-riding-of-yorkshire/hessle">Hessle</a></td><td>£202,500</td><td>224</td><td>+6.6%</td></tr><tr><td><a href="/locations/east-riding-of-yorkshire/beverley">Beverley</a></td><td>£249,475</td><td>612</td><td>+2.5%</td></tr><tr><td><a href="/locations/east-riding-of-yorkshire/goole">Goole</a></td><td>£177,500</td><td>524</td><td>-11.3%</td></tr><tr><td><a href="/locations/east-riding-of-yorkshire/bridlington">Bridlington</a></td><td>£175,000</td><td>614</td><td>-1.4%</td></tr><tr><td><a href="/locations/east-riding-of-yorkshire/hull">Hull</a></td><td>£130,000</td><td>2,744</td><td>0%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Driffield</strong></td><td><strong>£215,000</strong></td><td><strong>488</strong></td><td><strong>0%</strong></td></tr><tr><td><a href="/locations/east-riding-of-yorkshire/hessle">Hessle</a></td><td>£200,000</td><td>215</td><td>+5.3%</td></tr><tr><td><a href="/locations/east-riding-of-yorkshire/beverley">Beverley</a></td><td>£249,000</td><td>603</td><td>+1.6%</td></tr><tr><td><a href="/locations/east-riding-of-yorkshire/goole">Goole</a></td><td>£177,250</td><td>514</td><td>-11.4%</td></tr><tr><td><a href="/locations/east-riding-of-yorkshire/bridlington">Bridlington</a></td><td>£175,000</td><td>605</td><td>-1.7%</td></tr><tr><td><a href="/locations/east-riding-of-yorkshire/hull">Hull</a></td><td>£130,000</td><td>2,700</td><td>0%</td></tr></tbody></table>`,
         `For the full East Riding of Yorkshire town-by-town breakdown, see our comprehensive <a href="/market-reports/east-riding-of-yorkshire-property-market-h1-2026">East Riding of Yorkshire property market report</a>.`,
       ],
     },
@@ -74,15 +75,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Driffield?`,
-      answer: `The median house price in Driffield is £215,000, based on 501 transactions over the past 12 months. Detached homes average £305,000 while flat properties average £77,000.`,
+      answer: `The median house price in Driffield is £215,000, based on 488 transactions over the past 12 months. Detached homes average £305,000 while flat properties average £77,000.`,
     },
     {
       question: `Are house prices rising or falling in Driffield?`,
-      answer: `House prices in Driffield are flat at 0% year-on-year. The market is broadly stable. The wider East Riding of Yorkshire market is falling at -0.6%.`,
+      answer: `House prices in Driffield are flat at 0% year-on-year. The market is broadly stable. The wider East Riding of Yorkshire market is falling at -1%.`,
     },
     {
       question: `How many properties sold in Driffield recently?`,
-      answer: `Driffield recorded 501 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Driffield recorded 488 residential property sales in the past 12 months. This represents a reasonably active market.`,
     },
     {
       question: `What development finance is available for projects in Driffield?`,
@@ -92,7 +93,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["east-riding-of-yorkshire-property-market-h1-2026", "north-east-and-yorkshire-market-overview-h1-2026", "beverley-east-riding-of-yorkshire-property-market-h1-2026", "bridlington-east-riding-of-yorkshire-property-market-h1-2026", "goole-east-riding-of-yorkshire-property-market-h1-2026", "hessle-east-riding-of-yorkshire-property-market-h1-2026"],
   relatedTownSlugs: ["east-riding-of-yorkshire/driffield"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":305000},{"name":"Semi-detached","value":185000},{"name":"Terraced","value":154500},{"name":"Flat","value":77000}]},
+  charts: {"priceByType":[{"name":"Detached","value":305000},{"name":"Semi-detached","value":189000},{"name":"Terraced","value":154500},{"name":"Flat","value":77000}]},
 };
 
 export default report;

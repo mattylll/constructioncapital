@@ -4,22 +4,23 @@ const report: MarketReport = {
   slug: "hemel-hempstead-hertfordshire-property-market-h1-2026",
   title: "Hemel Hempstead Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Hemel Hempstead House Prices, End of H1 2026: £450,000 Median",
-  metaDescription: "Hemel Hempstead house prices as at the end of H1 2026: £450,000 median, 1,626 sales, +2.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £450,000, 1,626 sales, +2.3% YoY. Hertfordshire county.",
+  metaDescription: "Hemel Hempstead house prices as at the end of H1 2026: £450,000 median, 1,604 sales, +2.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £450,000, 1,604 sales, +2.3% YoY. Hertfordshire county.",
   category: "town",
   region: "London & South East",
   countySlug: "hertfordshire",
   townSlug: "hemel-hempstead",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Hemel Hempstead Property Market Overview`,
       content: [
         `Dacorum growth area with Maylands business park and significant brownfield redevelopment potential`,
-        `The <a href="/locations/hertfordshire/hemel-hempstead">Hemel Hempstead</a> property market recorded <strong>1,626</strong> residential sales over the past 12 months, with a median sale price of <strong>£450,000</strong>. This places Hemel Hempstead in line with the Hertfordshire county median, and £165k above the UK national median of £285,000.`,
+        `The <a href="/locations/hertfordshire/hemel-hempstead">Hemel Hempstead</a> property market recorded <strong>1,604</strong> residential sales over the past 12 months, with a median sale price of <strong>£450,000</strong>. This places Hemel Hempstead in line with the Hertfordshire county median, and £165k above the UK national median of £285,000.`,
         `Prices in Hemel Hempstead have shown modest growth, with a year-on-year change of <strong>+2.3%</strong>. Within <a href="/locations/hertfordshire">Hertfordshire</a>, Hemel Hempstead ranks 5th by price out of 10 principal towns, and 2nd by transaction volume.`,
+        `Hemel Hempstead median prices have moved from £450,000 in Q1 2025 to £450,000 in Q2 2026, a change of 0.0% over 5 quarters.`,
       ],
     },
     {
@@ -32,7 +33,7 @@ const report: MarketReport = {
       heading: `Hemel Hempstead House Prices by Property Type`,
       content: [
         `Property prices in Hemel Hempstead vary significantly by type. The table below compares Hemel Hempstead prices with Hertfordshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Hemel Hempstead</th><th>Hertfordshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£790,000</td><td>£816,250</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£534,000</td><td>£542,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£416,500</td><td>£416,525</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£252,000</td><td>£253,500</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Hemel Hempstead</th><th>Hertfordshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£790,000</td><td>£842,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£534,000</td><td>£550,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£416,500</td><td>£420,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£252,000</td><td>£255,000</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Hemel Hempstead command <strong>£790,000</strong>, while flat properties are most accessible at <strong>£252,000</strong>. The <strong>£538k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
@@ -41,7 +42,7 @@ const report: MarketReport = {
       content: [
         `Hemel Hempstead recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>0.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Hemel Hempstead traded at a <strong>discount of 0.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire</a> market, 68 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire</a> market, 44 new-build completions were recorded — see our <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -65,7 +66,7 @@ const report: MarketReport = {
       heading: `Hemel Hempstead Compared to Nearby Hertfordshire Towns`,
       content: [
         `To put Hemel Hempstead's market in context, the table below compares it with similarly-priced towns across <a href="/locations/hertfordshire">Hertfordshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Hemel Hempstead</strong></td><td><strong>£450,000</strong></td><td><strong>1,626</strong></td><td><strong>+2.3%</strong></td></tr><tr><td><a href="/locations/hertfordshire/bishops-stortford">Bishops Stortford</a></td><td>£450,000</td><td>1,708</td><td>+1.1%</td></tr><tr><td><a href="/locations/hertfordshire/hertford">Hertford</a></td><td>£450,000</td><td>456</td><td>+0.4%</td></tr><tr><td><a href="/locations/hertfordshire/welwyn-garden-city">Welwyn Garden City</a></td><td>£410,000</td><td>462</td><td>+1.2%</td></tr><tr><td><a href="/locations/hertfordshire/watford">Watford</a></td><td>£407,000</td><td>840</td><td>-0.7%</td></tr><tr><td><a href="/locations/hertfordshire/hatfield">Hatfield</a></td><td>£385,000</td><td>366</td><td>-3.1%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Hemel Hempstead</strong></td><td><strong>£450,000</strong></td><td><strong>1,604</strong></td><td><strong>+2.3%</strong></td></tr><tr><td><a href="/locations/hertfordshire/bishops-stortford">Bishops Stortford</a></td><td>£450,000</td><td>1,689</td><td>+1.1%</td></tr><tr><td><a href="/locations/hertfordshire/hertford">Hertford</a></td><td>£450,000</td><td>452</td><td>+0.7%</td></tr><tr><td><a href="/locations/hertfordshire/welwyn-garden-city">Welwyn Garden City</a></td><td>£410,000</td><td>448</td><td>+1.2%</td></tr><tr><td><a href="/locations/hertfordshire/watford">Watford</a></td><td>£405,000</td><td>824</td><td>-1.2%</td></tr><tr><td><a href="/locations/hertfordshire/hatfield">Hatfield</a></td><td>£385,000</td><td>360</td><td>-3.1%</td></tr></tbody></table>`,
         `For the full Hertfordshire town-by-town breakdown, see our comprehensive <a href="/market-reports/hertfordshire-property-market-h1-2026">Hertfordshire property market report</a>.`,
       ],
     },
@@ -73,7 +74,7 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Hemel Hempstead?`,
-      answer: `The median house price in Hemel Hempstead is £450,000, based on 1,626 transactions over the past 12 months. Detached homes average £790,000 while flat properties average £252,000.`,
+      answer: `The median house price in Hemel Hempstead is £450,000, based on 1,604 transactions over the past 12 months. Detached homes average £790,000 while flat properties average £252,000.`,
     },
     {
       question: `Are house prices rising or falling in Hemel Hempstead?`,
@@ -81,7 +82,7 @@ const report: MarketReport = {
     },
     {
       question: `How many properties sold in Hemel Hempstead recently?`,
-      answer: `Hemel Hempstead recorded 1,626 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Hemel Hempstead recorded 1,604 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Hemel Hempstead?`,

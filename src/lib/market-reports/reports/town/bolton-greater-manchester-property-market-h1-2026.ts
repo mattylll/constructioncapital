@@ -4,22 +4,23 @@ const report: MarketReport = {
   slug: "bolton-greater-manchester-property-market-h1-2026",
   title: "Bolton Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Bolton House Prices, End of H1 2026: £190,000 Median",
-  metaDescription: "Bolton house prices as at the end of H1 2026: £190,000 median, 3,029 sales, +1.4% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £190,000, 3,029 sales, +1.4% YoY. Greater Manchester county.",
+  metaDescription: "Bolton house prices as at the end of H1 2026: £190,000 median, 2,981 sales, +1.1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £190,000, 2,981 sales, +1.1% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",
   countySlug: "greater-manchester",
   townSlug: "bolton",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Bolton Property Market Overview`,
       content: [
         `Former mill town with town centre regeneration and affordable development opportunities`,
-        `The <a href="/locations/greater-manchester/bolton">Bolton</a> property market recorded <strong>3,029</strong> residential sales over the past 12 months, with a median sale price of <strong>£190,000</strong>. This places Bolton £24k below the Greater Manchester county median of £213,860, and £95k below the UK national median of £285,000.`,
-        `Prices in Bolton have shown modest growth, with a year-on-year change of <strong>+1.4%</strong>. Within <a href="/locations/greater-manchester">Greater Manchester</a>, Bolton ranks 8th by price out of 10 principal towns, and 4th by transaction volume.`,
+        `The <a href="/locations/greater-manchester/bolton">Bolton</a> property market recorded <strong>2,981</strong> residential sales over the past 12 months, with a median sale price of <strong>£190,000</strong>. This places Bolton £24k below the Greater Manchester county median of £213,675, and £95k below the UK national median of £285,000.`,
+        `Prices in Bolton have shown modest growth, with a year-on-year change of <strong>+1.1%</strong>. Within <a href="/locations/greater-manchester">Greater Manchester</a>, Bolton ranks 8th by price out of 10 principal towns, and 4th by transaction volume.`,
+        `Bolton median prices have moved from £199,532 in Q1 2025 to £190,000 in Q2 2026, a change of -4.8% over 5 quarters. Bolton has now recorded 2 consecutive quarters of price growth.`,
       ],
     },
     {
@@ -32,16 +33,16 @@ const report: MarketReport = {
       heading: `Bolton House Prices by Property Type`,
       content: [
         `Property prices in Bolton vary significantly by type. The table below compares Bolton prices with Greater Manchester county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Bolton</th><th>Greater Manchester Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£355,000</td><td>£377,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£220,000</td><td>£252,125</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£152,750</td><td>£180,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£105,000</td><td>£133,750</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Bolton</th><th>Greater Manchester Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£355,000</td><td>£377,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£220,000</td><td>£252,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£152,250</td><td>£180,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£105,000</td><td>£133,750</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Bolton command <strong>£355,000</strong>, while flat properties are most accessible at <strong>£105,000</strong>. The <strong>£250k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Bolton`,
       content: [
-        `Bolton recorded <strong>18</strong> new-build transactions in the past 12 months, representing <strong>0.6%</strong> of total sales. There is moderate development activity, with room for further growth.`,
-        `New-build properties in Bolton traded at a <strong>premium of 97.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester</a> market, 222 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester property market report</a> for the full county picture.`,
+        `Bolton recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>0.5%</strong> of total sales. There is moderate development activity, with room for further growth.`,
+        `New-build properties in Bolton traded at a <strong>premium of 64.4%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester</a> market, 207 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -57,7 +58,7 @@ const report: MarketReport = {
       content: [
         `For developers considering Bolton, the local market data translates directly into finance structuring. With a median value of £190,000 and detached homes at £355,000, lenders can assess scheme viability with confidence.`,
         `A typical <a href="/services/development-finance">development finance</a> facility for a Bolton scheme with a GDV of £355,000 would attract <strong>senior debt of approximately £230,750</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `With prices rising 1.4% year-on-year, Bolton presents a supportive environment for new development. Lenders view positive price momentum favourably when assessing loan applications.`,
+        `With prices rising 1.1% year-on-year, Bolton presents a supportive environment for new development. Lenders view positive price momentum favourably when assessing loan applications.`,
         `Ready to develop in Bolton? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -65,7 +66,7 @@ const report: MarketReport = {
       heading: `Bolton Compared to Nearby Greater Manchester Towns`,
       content: [
         `To put Bolton's market in context, the table below compares it with similarly-priced towns across <a href="/locations/greater-manchester">Greater Manchester</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Bolton</strong></td><td><strong>£190,000</strong></td><td><strong>3,029</strong></td><td><strong>+1.4%</strong></td></tr><tr><td><a href="/locations/greater-manchester/rochdale">Rochdale</a></td><td>£190,000</td><td>2,204</td><td>-2.6%</td></tr><tr><td><a href="/locations/greater-manchester/wigan">Wigan</a></td><td>£182,000</td><td>3,740</td><td>+1.1%</td></tr><tr><td><a href="/locations/greater-manchester/oldham">Oldham</a></td><td>£200,000</td><td>2,110</td><td>+5.3%</td></tr><tr><td><a href="/locations/greater-manchester/ashton-under-lyne">Ashton-under-Lyne</a></td><td>£203,950</td><td>2,288</td><td>-0.5%</td></tr><tr><td><a href="/locations/greater-manchester/salford">Salford</a></td><td>£223,770</td><td>2,807</td><td>-1%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Bolton</strong></td><td><strong>£190,000</strong></td><td><strong>2,981</strong></td><td><strong>+1.1%</strong></td></tr><tr><td><a href="/locations/greater-manchester/rochdale">Rochdale</a></td><td>£190,000</td><td>2,166</td><td>-2.6%</td></tr><tr><td><a href="/locations/greater-manchester/wigan">Wigan</a></td><td>£182,000</td><td>3,688</td><td>+1.1%</td></tr><tr><td><a href="/locations/greater-manchester/oldham">Oldham</a></td><td>£200,000</td><td>2,073</td><td>+5.3%</td></tr><tr><td><a href="/locations/greater-manchester/ashton-under-lyne">Ashton-under-Lyne</a></td><td>£204,000</td><td>2,261</td><td>-0.5%</td></tr><tr><td><a href="/locations/greater-manchester/salford">Salford</a></td><td>£223,350</td><td>2,752</td><td>-1.2%</td></tr></tbody></table>`,
         `For the full Greater Manchester town-by-town breakdown, see our comprehensive <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester property market report</a>.`,
       ],
     },
@@ -73,15 +74,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Bolton?`,
-      answer: `The median house price in Bolton is £190,000, based on 3,029 transactions over the past 12 months. Detached homes average £355,000 while flat properties average £105,000.`,
+      answer: `The median house price in Bolton is £190,000, based on 2,981 transactions over the past 12 months. Detached homes average £355,000 while flat properties average £105,000.`,
     },
     {
       question: `Are house prices rising or falling in Bolton?`,
-      answer: `House prices in Bolton are rising at +1.4% year-on-year. This positive trend suggests sustained buyer demand. The wider Greater Manchester market is rising at +0.9%.`,
+      answer: `House prices in Bolton are rising at +1.1% year-on-year. This positive trend suggests sustained buyer demand. The wider Greater Manchester market is rising at +0.9%.`,
     },
     {
       question: `How many properties sold in Bolton recently?`,
-      answer: `Bolton recorded 3,029 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Bolton recorded 2,981 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Bolton?`,
@@ -91,7 +92,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["greater-manchester-property-market-h1-2026", "north-west-market-overview-h1-2026", "altrincham-greater-manchester-property-market-h1-2026", "ashton-under-lyne-greater-manchester-property-market-h1-2026", "bury-greater-manchester-property-market-h1-2026", "manchester-greater-manchester-property-market-h1-2026"],
   relatedTownSlugs: ["greater-manchester/bolton"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":355000},{"name":"Semi-detached","value":220000},{"name":"Terraced","value":152750},{"name":"Flat","value":105000}]},
+  charts: {"priceByType":[{"name":"Detached","value":355000},{"name":"Semi-detached","value":220000},{"name":"Terraced","value":152250},{"name":"Flat","value":105000}]},
 };
 
 export default report;

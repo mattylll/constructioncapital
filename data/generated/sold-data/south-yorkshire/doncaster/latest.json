@@ -1,20 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.936Z",
+  "updatedAt": "2026-07-05T06:06:57.081Z",
   "townSlug": "doncaster",
   "countySlug": "south-yorkshire",
+  "isDistrictLevelFallback": false,
   "stats": {
     "medianPrice": 167000,
     "medianByType": {
       "D": 275000,
       "S": 165000,
       "T": 115000,
-      "F": 104500
+      "F": 104000
     },
-    "transactionCount12m": 3379,
-    "yoyChange": -0.3,
-    "newBuildCount": 20,
-    "existingCount": 3359,
-    "newBuildPremium": 5.8
+    "transactionCount12m": 3330,
+    "yoyChange": -0.6,
+    "newBuildCount": 17,
+    "existingCount": 3313,
+    "newBuildPremium": 1.2
   },
   "recentTransactions": [
     {

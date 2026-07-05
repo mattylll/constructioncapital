@@ -4,42 +4,43 @@ const report: MarketReport = {
   slug: "east-of-england-market-overview-h1-2026",
   title: "East of England Property Market: Regional Analysis & County Comparison, End of H1 2026",
   metaTitle: "East of England Property Market, End of H1 2026: County Prices, Trends & Development Hotspots",
-  metaDescription: "East of England property market overview as at the end of H1 2026: 4 counties, 31,746 sales, median £292,500. County comparisons, development hotspots and finance options.",
-  excerpt: "4 counties, 31,746 transactions, median £292,500.",
+  metaDescription: "East of England property market overview as at the end of H1 2026: 4 counties, 27,717 sales, median £292,625. County comparisons, development hotspots and finance options.",
+  excerpt: "4 counties, 27,717 transactions, median £292,625.",
   category: "regional",
   region: "East of England",
   
   
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `East of England Property Market Overview`,
       content: [
-        `The East of England region encompasses <strong>4 counties</strong>, recording a combined <strong>31,746</strong> residential transactions over the past 12 months. The regional median property price stands at <strong>£292,500</strong>, with prices falling at <strong>-1.6%</strong> year-on-year.`,
-        `New-build activity across the region totalled <strong>528 completions</strong>, demonstrating an active development pipeline.`,
+        `The East of England region encompasses <strong>4 counties</strong>, recording a combined <strong>27,717</strong> residential transactions over the past 12 months. The regional median property price stands at <strong>£292,625</strong>, with prices falling at <strong>-1.6%</strong> year-on-year.`,
+        `East of England median prices have moved from £298,587 in Q1 2025 to £282,099 in Q2 2026, a change of -5.5% over 5 quarters.`,
+        `New-build activity across the region totalled <strong>439 completions</strong>, demonstrating an active development pipeline.`,
       ],
     },
     {
       heading: `County-by-County Comparison`,
       content: [
         `The table below compares all 4 counties in the East of England region, ranked by median property price. Click any county name for the full market report.`,
-        `<table><thead><tr><th>County</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th><th>New Builds</th></tr></thead><tbody><tr><td><a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire</a></td><td>£337,475</td><td>9,303</td><td>-1.8%</td><td>242</td></tr><tr><td><a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire</a></td><td>£302,500</td><td>6,561</td><td>-2.3%</td><td>103</td></tr><tr><td><a href="/market-reports/suffolk-property-market-h1-2026">Suffolk</a></td><td>£282,500</td><td>6,876</td><td>-0.4%</td><td>107</td></tr><tr><td><a href="/market-reports/norfolk-property-market-h1-2026">Norfolk</a></td><td>£267,500</td><td>9,006</td><td>-1.9%</td><td>76</td></tr></tbody></table>`,
+        `<table><thead><tr><th>County</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th><th>New Builds</th></tr></thead><tbody><tr><td><a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire</a></td><td>£335,000</td><td>5,625</td><td>-1.9%</td><td>172</td></tr><tr><td><a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire</a></td><td>£302,750</td><td>6,468</td><td>-2.2%</td><td>98</td></tr><tr><td><a href="/market-reports/suffolk-property-market-h1-2026">Suffolk</a></td><td>£282,500</td><td>6,770</td><td>-0.6%</td><td>105</td></tr><tr><td><a href="/market-reports/norfolk-property-market-h1-2026">Norfolk</a></td><td>£266,250</td><td>8,854</td><td>-1.9%</td><td>64</td></tr></tbody></table>`,
       ],
     },
     {
       heading: `Price Geography`,
       content: [
-        `Property prices across East of England vary significantly. <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire</a> commands the highest median price at <strong>£337,475</strong>, while <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk</a> offers the most affordable entry at <strong>£267,500</strong> — a spread of <strong>£70k</strong>.`,
+        `Property prices across East of England vary significantly. <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire</a> commands the highest median price at <strong>£335,000</strong>, while <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk</a> offers the most affordable entry at <strong>£266,250</strong> — a spread of <strong>£69k</strong>.`,
         `This price differential creates opportunities across the risk-return spectrum. Premium locations offer higher GDVs but require larger capital commitments, while more affordable areas can deliver stronger percentage returns on lower absolute investment.`,
       ],
     },
     {
       heading: `Development Hotspots`,
       content: [
-        `The most active development markets in East of England, measured by new-build completions, are <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire</a> (242 new builds), <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk</a> (107 new builds), <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire</a> (103 new builds).`,
-        `By total transaction volume — an indicator of market liquidity and exit confidence — <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire</a> (9,303 sales), <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk</a> (9,006 sales), <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk</a> (6,876 sales) lead the region.`,
+        `The most active development markets in East of England, measured by new-build completions, are <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire</a> (172 new builds), <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk</a> (105 new builds), <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire</a> (98 new builds).`,
+        `By total transaction volume — an indicator of market liquidity and exit confidence — <a href="/market-reports/norfolk-property-market-h1-2026">Norfolk</a> (8,854 sales), <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk</a> (6,770 sales), <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire</a> (6,468 sales) lead the region.`,
         `Developers entering the East of England market should weigh these two metrics together: new-build activity shows where planning consent is achievable, while transaction volume confirms buyer demand.`,
       ],
     },
@@ -55,10 +56,10 @@ const report: MarketReport = {
       heading: `Key Takeaways`,
       content: [
         `<ul>
-<li><strong>Market size:</strong> 31,746 transactions across 4 counties — one of the UK's most active regions.</li>
-<li><strong>Price range:</strong> £267,500 to £337,475 median prices, offering opportunities across the capital spectrum.</li>
+<li><strong>Market size:</strong> 27,717 transactions across 4 counties — one of the UK's most active regions.</li>
+<li><strong>Price range:</strong> £266,250 to £335,000 median prices, offering opportunities across the capital spectrum.</li>
 <li><strong>Market direction:</strong> 0 of 4 counties showing year-on-year price growth.</li>
-<li><strong>New build activity:</strong> 528 completions across the region, indicating a healthy development pipeline.</li>
+<li><strong>New build activity:</strong> 439 completions across the region, suggesting room for new supply.</li>
 <li><strong>Finance availability:</strong> Full range of development finance, mezzanine, bridging, and exit products available across all East of England counties.</li>
 </ul>`,
       ],
@@ -67,11 +68,11 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in East of England?`,
-      answer: `The median house price across East of England is £292,500, based on 31,746 transactions over the past 12 months. Prices range from £267,500 in Norfolk to £337,475 in Bedfordshire.`,
+      answer: `The median house price across East of England is £292,625, based on 27,717 transactions over the past 12 months. Prices range from £266,250 in Norfolk to £335,000 in Bedfordshire.`,
     },
     {
       question: `Which county in East of England is best for property development?`,
-      answer: `This depends on your strategy. Bedfordshire offers the highest transaction volumes (9,303 sales) for exit confidence. Bedfordshire has the most new-build activity (242 completions). See the individual county reports for detailed analysis.`,
+      answer: `This depends on your strategy. Norfolk offers the highest transaction volumes (8,854 sales) for exit confidence. Bedfordshire has the most new-build activity (172 completions). See the individual county reports for detailed analysis.`,
     },
     {
       question: `How are property prices trending in East of England?`,

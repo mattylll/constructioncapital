@@ -3,36 +3,37 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "gloucester-gloucestershire-property-market-h1-2026",
   title: "Gloucester Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
-  metaTitle: "Gloucester House Prices, End of H1 2026: £246,000 Median",
-  metaDescription: "Gloucester house prices as at the end of H1 2026: £246,000 median, 1,507 sales, -1.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £246,000, 1,507 sales, -1.6% YoY. Gloucestershire county.",
+  metaTitle: "Gloucester House Prices, End of H1 2026: £245,000 Median",
+  metaDescription: "Gloucester house prices as at the end of H1 2026: £245,000 median, 1,483 sales, -2.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £245,000, 1,483 sales, -2.6% YoY. Gloucestershire county.",
   category: "town",
   region: "South West",
   countySlug: "gloucestershire",
   townSlug: "gloucester",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Gloucester Property Market Overview`,
       content: [
         `Cathedral city with docks regeneration, Kings Quarter development, and affordable urban values`,
-        `The <a href="/locations/gloucestershire/gloucester">Gloucester</a> property market recorded <strong>1,507</strong> residential sales over the past 12 months, with a median sale price of <strong>£246,000</strong>. This places Gloucester £72k below the Gloucestershire county median of £317,500, and £39k below the UK national median of £285,000.`,
-        `Prices in Gloucester have shown broadly stable, with a year-on-year change of <strong>-1.6%</strong>. Within <a href="/locations/gloucestershire">Gloucestershire</a>, Gloucester ranks 6th by price out of 6 principal towns, and 2nd by transaction volume.`,
+        `The <a href="/locations/gloucestershire/gloucester">Gloucester</a> property market recorded <strong>1,483</strong> residential sales over the past 12 months, with a median sale price of <strong>£245,000</strong>. This places Gloucester £73k below the Gloucestershire county median of £317,500, and £40k below the UK national median of £285,000.`,
+        `Prices in Gloucester have shown a moderate decline, with a year-on-year change of <strong>-2.6%</strong>. Within <a href="/locations/gloucestershire">Gloucestershire</a>, Gloucester ranks 6th by price out of 6 principal towns, and 2nd by transaction volume.`,
+        `Gloucester median prices have moved from £255,000 in Q1 2025 to £232,500 in Q2 2026, a change of -8.8% over 5 quarters. Gloucester has now recorded 2 consecutive quarters of price falls.`,
       ],
     },
     {
       heading: `Planning Pipeline in Gloucester`,
       content: [
-        `Gloucester City Council — the local planning authority covering Gloucester — has <strong>910</strong> residential units in its current pipeline, an estimated gross development value of <strong>£223.6m</strong>, across 83 applications (0 approved, 83 pending) at an approval rate of <strong>0%</strong>.`,
+        `Gloucester City Council — the local planning authority covering Gloucester — has <strong>910</strong> residential units in its current pipeline, an estimated gross development value of <strong>£223.6m</strong>, across 82 applications (0 approved, 82 pending) at an approval rate of <strong>0%</strong>.`,
       ],
     },
     {
       heading: `Gloucester House Prices by Property Type`,
       content: [
         `Property prices in Gloucester vary significantly by type. The table below compares Gloucester prices with Gloucestershire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Gloucester</th><th>Gloucestershire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£390,000</td><td>£488,750</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£275,750</td><td>£309,750</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£215,000</td><td>£257,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£140,000</td><td>£160,000</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Gloucester</th><th>Gloucestershire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£390,000</td><td>£489,375</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£275,750</td><td>£308,750</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£215,000</td><td>£257,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£140,000</td><td>£161,000</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Gloucester command <strong>£390,000</strong>, while flat properties are most accessible at <strong>£140,000</strong>. The <strong>£250k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
@@ -41,7 +42,7 @@ const report: MarketReport = {
       content: [
         `Gloucester recorded <strong>6</strong> new-build transactions in the past 12 months, representing <strong>0.4%</strong> of total sales. There is moderate development activity, with room for further growth.`,
         `New-build properties in Gloucester traded at a <strong>premium of 32.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/gloucestershire-property-market-h1-2026">Gloucestershire</a> market, 72 new-build completions were recorded — see our <a href="/market-reports/gloucestershire-property-market-h1-2026">Gloucestershire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/gloucestershire-property-market-h1-2026">Gloucestershire</a> market, 69 new-build completions were recorded — see our <a href="/market-reports/gloucestershire-property-market-h1-2026">Gloucestershire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -55,9 +56,9 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Gloucester`,
       content: [
-        `For developers considering Gloucester, the local market data translates directly into finance structuring. With a median value of £246,000 and detached homes at £390,000, lenders can assess scheme viability with confidence.`,
+        `For developers considering Gloucester, the local market data translates directly into finance structuring. With a median value of £245,000 and detached homes at £390,000, lenders can assess scheme viability with confidence.`,
         `A typical <a href="/services/development-finance">development finance</a> facility for a Gloucester scheme with a GDV of £390,000 would attract <strong>senior debt of approximately £253,500</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `While prices have softened 1.6% year-on-year, experienced developers can still generate strong returns in Gloucester by targeting well-located sites with clear demand drivers.`,
+        `While prices have softened 2.6% year-on-year, experienced developers can still generate strong returns in Gloucester by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in Gloucester? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -65,7 +66,7 @@ const report: MarketReport = {
       heading: `Gloucester Compared to Nearby Gloucestershire Towns`,
       content: [
         `To put Gloucester's market in context, the table below compares it with similarly-priced towns across <a href="/locations/gloucestershire">Gloucestershire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Gloucester</strong></td><td><strong>£246,000</strong></td><td><strong>1,507</strong></td><td><strong>-1.6%</strong></td></tr><tr><td><a href="/locations/gloucestershire/lydney">Lydney</a></td><td>£280,000</td><td>887</td><td>+3.7%</td></tr><tr><td><a href="/locations/gloucestershire/tewkesbury">Tewkesbury</a></td><td>£315,000</td><td>1,262</td><td>-3.9%</td></tr><tr><td><a href="/locations/gloucestershire/cheltenham">Cheltenham</a></td><td>£320,000</td><td>1,660</td><td>+0.6%</td></tr><tr><td><a href="/locations/gloucestershire/stroud">Stroud</a></td><td>£330,000</td><td>1,440</td><td>+0.3%</td></tr><tr><td><a href="/locations/gloucestershire/cirencester">Cirencester</a></td><td>£440,000</td><td>1,185</td><td>-3.3%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Gloucester</strong></td><td><strong>£245,000</strong></td><td><strong>1,483</strong></td><td><strong>-2.6%</strong></td></tr><tr><td><a href="/locations/gloucestershire/lydney">Lydney</a></td><td>£280,000</td><td>876</td><td>+3.7%</td></tr><tr><td><a href="/locations/gloucestershire/tewkesbury">Tewkesbury</a></td><td>£315,000</td><td>1,239</td><td>-4%</td></tr><tr><td><a href="/locations/gloucestershire/cheltenham">Cheltenham</a></td><td>£320,000</td><td>1,640</td><td>+0.3%</td></tr><tr><td><a href="/locations/gloucestershire/stroud">Stroud</a></td><td>£330,000</td><td>1,416</td><td>+0.3%</td></tr><tr><td><a href="/locations/gloucestershire/cirencester">Cirencester</a></td><td>£440,000</td><td>1,170</td><td>-2.9%</td></tr></tbody></table>`,
         `For the full Gloucestershire town-by-town breakdown, see our comprehensive <a href="/market-reports/gloucestershire-property-market-h1-2026">Gloucestershire property market report</a>.`,
       ],
     },
@@ -73,15 +74,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Gloucester?`,
-      answer: `The median house price in Gloucester is £246,000, based on 1,507 transactions over the past 12 months. Detached homes average £390,000 while flat properties average £140,000.`,
+      answer: `The median house price in Gloucester is £245,000, based on 1,483 transactions over the past 12 months. Detached homes average £390,000 while flat properties average £140,000.`,
     },
     {
       question: `Are house prices rising or falling in Gloucester?`,
-      answer: `House prices in Gloucester are falling at -1.6% year-on-year. This decline may present buying opportunities for investors and developers. The wider Gloucestershire market is falling at -0.7%.`,
+      answer: `House prices in Gloucester are falling at -2.6% year-on-year. This decline may present buying opportunities for investors and developers. The wider Gloucestershire market is falling at -0.9%.`,
     },
     {
       question: `How many properties sold in Gloucester recently?`,
-      answer: `Gloucester recorded 1,507 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Gloucester recorded 1,483 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Gloucester?`,

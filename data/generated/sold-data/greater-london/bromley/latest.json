@@ -1,19 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.531Z",
+  "updatedAt": "2026-07-05T06:06:54.903Z",
   "townSlug": "bromley",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": false,
   "stats": {
     "medianPrice": 500000,
     "medianByType": {
-      "D": 851000,
-      "S": 615000,
+      "D": 850000,
+      "S": 612500,
       "T": 500000,
       "F": 330000
     },
-    "transactionCount12m": 3288,
-    "yoyChange": 0.8,
+    "transactionCount12m": 3255,
+    "yoyChange": 0.4,
     "newBuildCount": 29,
-    "existingCount": 3259,
+    "existingCount": 3226,
     "newBuildPremium": -31
   },
   "recentTransactions": [

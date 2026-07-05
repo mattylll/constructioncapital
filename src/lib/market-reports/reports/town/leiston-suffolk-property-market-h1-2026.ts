@@ -10,8 +10,8 @@ const report: MarketReport = {
   region: "East of England",
   countySlug: "suffolk",
   townSlug: "leiston",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
@@ -20,6 +20,7 @@ const report: MarketReport = {
         `Sizewell C adjacent town that will see significant workforce housing demand`,
         `The <a href="/locations/suffolk/leiston">Leiston</a> property market recorded <strong>91</strong> residential sales over the past 12 months, with a median sale price of <strong>£257,000</strong>. This places Leiston £26k below the Suffolk county median of £282,500, and £28k below the UK national median of £285,000.`,
         `Prices in Leiston have shown strong growth, with a year-on-year change of <strong>+9.8%</strong>. Within <a href="/locations/suffolk">Suffolk</a>, Leiston ranks 6th by price out of 8 principal towns, and 8th by transaction volume.`,
+        `Leiston median prices have moved from £265,000 in Q1 2025 to £355,000 in Q2 2026, a change of +34.0% over 5 quarters. Leiston has now recorded 3 consecutive quarters of price growth.`,
       ],
     },
     {
@@ -33,7 +34,7 @@ const report: MarketReport = {
       heading: `Leiston House Prices by Property Type`,
       content: [
         `Property prices in Leiston vary significantly by type. The table below compares Leiston prices with Suffolk county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Leiston</th><th>Suffolk Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£417,500</td><td>£407,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£240,500</td><td>£260,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£200,000</td><td>£232,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£116,250</td><td>£150,000</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Leiston</th><th>Suffolk Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£417,500</td><td>£408,750</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£240,500</td><td>£260,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£200,000</td><td>£232,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£116,250</td><td>£150,000</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Leiston command <strong>£417,500</strong>, while flat properties are most accessible at <strong>£116,250</strong>. The <strong>£301k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
@@ -42,14 +43,14 @@ const report: MarketReport = {
       content: [
         `Leiston recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>1.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Leiston traded at a <strong>discount of 0.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk</a> market, 107 new-build completions were recorded — see our <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk</a> market, 105 new-build completions were recorded — see our <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk property market report</a> for the full county picture.`,
       ],
     },
     {
       heading: `Recent Property Sales in Leiston`,
       content: [
         `The following table shows the most recent property transactions recorded in Leiston, providing real-time evidence of achieved prices for buyers, sellers, and developers:`,
-        `<table><thead><tr><th>Price</th><th>Type</th><th>Postcode</th><th>Date</th><th>Status</th></tr></thead><tbody><tr><td>£182,500</td><td>Semi-detached</td><td>IP16 4LH</td><td>2026-04-16</td><td>Existing</td></tr><tr><td>£325,000</td><td>Semi-detached</td><td>IP16 4UT</td><td>2026-04-13</td><td>Existing</td></tr><tr><td>£535,000</td><td>Detached</td><td>IP16 4HE</td><td>2026-04-01</td><td>Existing</td></tr><tr><td>£385,000</td><td>Detached</td><td>IP16 4PY</td><td>2026-04-01</td><td>Existing</td></tr><tr><td>£735,000</td><td>O</td><td>IP16 4RE</td><td>2026-03-31</td><td>Existing</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Price</th><th>Type</th><th>Postcode</th><th>Date</th><th>Status</th></tr></thead><tbody><tr><td>£182,500</td><td>Semi-detached</td><td>IP16 4LH</td><td>2026-04-16</td><td>Existing</td></tr><tr><td>£325,000</td><td>Semi-detached</td><td>IP16 4UT</td><td>2026-04-13</td><td>Existing</td></tr><tr><td>£535,000</td><td>Detached</td><td>IP16 4HE</td><td>2026-04-01</td><td>Existing</td></tr><tr><td>£385,000</td><td>Detached</td><td>IP16 4PY</td><td>2026-04-01</td><td>Existing</td></tr><tr><td>£735,000</td><td>Other</td><td>IP16 4RE</td><td>2026-03-31</td><td>Existing</td></tr></tbody></table>`,
         `These transactions are sourced from HM Land Registry Price Paid data and represent completed, registered sales. The range from £182,500 to £735,000 illustrates the breadth of the Leiston market.`,
       ],
     },
@@ -66,7 +67,7 @@ const report: MarketReport = {
       heading: `Leiston Compared to Nearby Suffolk Towns`,
       content: [
         `To put Leiston's market in context, the table below compares it with similarly-priced towns across <a href="/locations/suffolk">Suffolk</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Leiston</strong></td><td><strong>£257,000</strong></td><td><strong>91</strong></td><td><strong>+9.8%</strong></td></tr><tr><td><a href="/locations/suffolk/felixstowe">Felixstowe</a></td><td>£280,000</td><td>371</td><td>+1.8%</td></tr><tr><td><a href="/locations/suffolk/newmarket">Newmarket</a></td><td>£285,000</td><td>353</td><td>-4.2%</td></tr><tr><td><a href="/locations/suffolk/ipswich">Ipswich</a></td><td>£227,500</td><td>1,495</td><td>-1.1%</td></tr><tr><td><a href="/locations/suffolk/bury-st-edmunds">Bury St Edmunds</a></td><td>£290,000</td><td>1,224</td><td>-3.3%</td></tr><tr><td><a href="/locations/suffolk/lowestoft">Lowestoft</a></td><td>£220,000</td><td>915</td><td>+2.3%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Leiston</strong></td><td><strong>£257,000</strong></td><td><strong>91</strong></td><td><strong>+9.8%</strong></td></tr><tr><td><a href="/locations/suffolk/felixstowe">Felixstowe</a></td><td>£280,000</td><td>359</td><td>+1.8%</td></tr><tr><td><a href="/locations/suffolk/newmarket">Newmarket</a></td><td>£285,000</td><td>348</td><td>-5%</td></tr><tr><td><a href="/locations/suffolk/ipswich">Ipswich</a></td><td>£227,500</td><td>1,471</td><td>-1.1%</td></tr><tr><td><a href="/locations/suffolk/bury-st-edmunds">Bury St Edmunds</a></td><td>£288,000</td><td>1,205</td><td>-4%</td></tr><tr><td><a href="/locations/suffolk/lowestoft">Lowestoft</a></td><td>£220,000</td><td>900</td><td>+2.3%</td></tr></tbody></table>`,
         `For the full Suffolk town-by-town breakdown, see our comprehensive <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk property market report</a>.`,
       ],
     },
@@ -78,7 +79,7 @@ const report: MarketReport = {
     },
     {
       question: `Are house prices rising or falling in Leiston?`,
-      answer: `House prices in Leiston are rising at +9.8% year-on-year. This positive trend suggests sustained buyer demand. The wider Suffolk market is falling at -0.4%.`,
+      answer: `House prices in Leiston are rising at +9.8% year-on-year. This positive trend suggests sustained buyer demand. The wider Suffolk market is falling at -0.6%.`,
     },
     {
       question: `How many properties sold in Leiston recently?`,

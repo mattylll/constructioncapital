@@ -3,23 +3,24 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "bury-st-edmunds-suffolk-property-market-h1-2026",
   title: "Bury St Edmunds Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
-  metaTitle: "Bury St Edmunds House Prices, End of H1 2026: £290,000 Median",
-  metaDescription: "Bury St Edmunds house prices as at the end of H1 2026: £290,000 median, 1,224 sales, -3.3% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £290,000, 1,224 sales, -3.3% YoY. Suffolk county.",
+  metaTitle: "Bury St Edmunds House Prices, End of H1 2026: £288,000 Median",
+  metaDescription: "Bury St Edmunds house prices as at the end of H1 2026: £288,000 median, 1,205 sales, -4% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £288,000, 1,205 sales, -4% YoY. Suffolk county.",
   category: "town",
   region: "East of England",
   countySlug: "suffolk",
   townSlug: "bury-st-edmunds",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Bury St Edmunds Property Market Overview`,
       content: [
         `Historic abbey town with premium market town values and strong lifestyle buyer demand`,
-        `The <a href="/locations/suffolk/bury-st-edmunds">Bury St Edmunds</a> property market recorded <strong>1,224</strong> residential sales over the past 12 months, with a median sale price of <strong>£290,000</strong>. This places Bury St Edmunds £8k above the Suffolk county median of £282,500, and £5k above the UK national median of £285,000.`,
-        `Prices in Bury St Edmunds have shown a moderate decline, with a year-on-year change of <strong>-3.3%</strong>. Within <a href="/locations/suffolk">Suffolk</a>, Bury St Edmunds ranks 3rd by price out of 8 principal towns, and 3rd by transaction volume.`,
+        `The <a href="/locations/suffolk/bury-st-edmunds">Bury St Edmunds</a> property market recorded <strong>1,205</strong> residential sales over the past 12 months, with a median sale price of <strong>£288,000</strong>. This places Bury St Edmunds £6k above the Suffolk county median of £282,500, and £3k above the UK national median of £285,000.`,
+        `Prices in Bury St Edmunds have shown a moderate decline, with a year-on-year change of <strong>-4%</strong>. Within <a href="/locations/suffolk">Suffolk</a>, Bury St Edmunds ranks 3rd by price out of 8 principal towns, and 3rd by transaction volume.`,
+        `Bury St Edmunds median prices have moved from £285,000 in Q1 2025 to £285,000 in Q2 2026, a change of 0.0% over 5 quarters.`,
       ],
     },
     {
@@ -33,16 +34,16 @@ const report: MarketReport = {
       heading: `Bury St Edmunds House Prices by Property Type`,
       content: [
         `Property prices in Bury St Edmunds vary significantly by type. The table below compares Bury St Edmunds prices with Suffolk county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Bury St Edmunds</th><th>Suffolk Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£400,000</td><td>£407,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£280,000</td><td>£260,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£250,000</td><td>£232,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£170,000</td><td>£150,000</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Bury St Edmunds</th><th>Suffolk Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£400,000</td><td>£408,750</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£280,000</td><td>£260,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£250,000</td><td>£232,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£170,000</td><td>£150,000</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Bury St Edmunds command <strong>£400,000</strong>, while flat properties are most accessible at <strong>£170,000</strong>. The <strong>£230k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Bury St Edmunds`,
       content: [
-        `Bury St Edmunds recorded <strong>23</strong> new-build transactions in the past 12 months, representing <strong>1.9%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
-        `New-build properties in Bury St Edmunds traded at a <strong>premium of 6.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk</a> market, 107 new-build completions were recorded — see our <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk property market report</a> for the full county picture.`,
+        `Bury St Edmunds recorded <strong>22</strong> new-build transactions in the past 12 months, representing <strong>1.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
+        `New-build properties in Bury St Edmunds traded at a <strong>premium of 7.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk</a> market, 105 new-build completions were recorded — see our <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -56,9 +57,9 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Bury St Edmunds`,
       content: [
-        `For developers considering Bury St Edmunds, the local market data translates directly into finance structuring. With a median value of £290,000 and detached homes at £400,000, lenders can assess scheme viability with confidence.`,
+        `For developers considering Bury St Edmunds, the local market data translates directly into finance structuring. With a median value of £288,000 and detached homes at £400,000, lenders can assess scheme viability with confidence.`,
         `A typical <a href="/services/development-finance">development finance</a> facility for a Bury St Edmunds scheme with a GDV of £400,000 would attract <strong>senior debt of approximately £260,000</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `While prices have softened 3.3% year-on-year, experienced developers can still generate strong returns in Bury St Edmunds by targeting well-located sites with clear demand drivers.`,
+        `While prices have softened 4% year-on-year, experienced developers can still generate strong returns in Bury St Edmunds by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in Bury St Edmunds? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -66,7 +67,7 @@ const report: MarketReport = {
       heading: `Bury St Edmunds Compared to Nearby Suffolk Towns`,
       content: [
         `To put Bury St Edmunds's market in context, the table below compares it with similarly-priced towns across <a href="/locations/suffolk">Suffolk</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Bury St Edmunds</strong></td><td><strong>£290,000</strong></td><td><strong>1,224</strong></td><td><strong>-3.3%</strong></td></tr><tr><td><a href="/locations/suffolk/newmarket">Newmarket</a></td><td>£285,000</td><td>353</td><td>-4.2%</td></tr><tr><td><a href="/locations/suffolk/felixstowe">Felixstowe</a></td><td>£280,000</td><td>371</td><td>+1.8%</td></tr><tr><td><a href="/locations/suffolk/stowmarket">Stowmarket</a></td><td>£300,000</td><td>1,312</td><td>-5.5%</td></tr><tr><td><a href="/locations/suffolk/sudbury">Sudbury</a></td><td>£320,000</td><td>1,115</td><td>-3%</td></tr><tr><td><a href="/locations/suffolk/leiston">Leiston</a></td><td>£257,000</td><td>91</td><td>+9.8%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Bury St Edmunds</strong></td><td><strong>£288,000</strong></td><td><strong>1,205</strong></td><td><strong>-4%</strong></td></tr><tr><td><a href="/locations/suffolk/newmarket">Newmarket</a></td><td>£285,000</td><td>348</td><td>-5%</td></tr><tr><td><a href="/locations/suffolk/felixstowe">Felixstowe</a></td><td>£280,000</td><td>359</td><td>+1.8%</td></tr><tr><td><a href="/locations/suffolk/stowmarket">Stowmarket</a></td><td>£300,000</td><td>1,294</td><td>-5.4%</td></tr><tr><td><a href="/locations/suffolk/leiston">Leiston</a></td><td>£257,000</td><td>91</td><td>+9.8%</td></tr><tr><td><a href="/locations/suffolk/sudbury">Sudbury</a></td><td>£320,000</td><td>1,102</td><td>-3%</td></tr></tbody></table>`,
         `For the full Suffolk town-by-town breakdown, see our comprehensive <a href="/market-reports/suffolk-property-market-h1-2026">Suffolk property market report</a>.`,
       ],
     },
@@ -74,15 +75,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Bury St Edmunds?`,
-      answer: `The median house price in Bury St Edmunds is £290,000, based on 1,224 transactions over the past 12 months. Detached homes average £400,000 while flat properties average £170,000.`,
+      answer: `The median house price in Bury St Edmunds is £288,000, based on 1,205 transactions over the past 12 months. Detached homes average £400,000 while flat properties average £170,000.`,
     },
     {
       question: `Are house prices rising or falling in Bury St Edmunds?`,
-      answer: `House prices in Bury St Edmunds are falling at -3.3% year-on-year. This decline may present buying opportunities for investors and developers. The wider Suffolk market is falling at -0.4%.`,
+      answer: `House prices in Bury St Edmunds are falling at -4% year-on-year. This decline may present buying opportunities for investors and developers. The wider Suffolk market is falling at -0.6%.`,
     },
     {
       question: `How many properties sold in Bury St Edmunds recently?`,
-      answer: `Bury St Edmunds recorded 1,224 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Bury St Edmunds recorded 1,205 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Bury St Edmunds?`,

@@ -4,38 +4,39 @@ const report: MarketReport = {
   slug: "sutton-greater-london-property-market-h1-2026",
   title: "Sutton Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Sutton House Prices, End of H1 2026: £450,000 Median",
-  metaDescription: "Sutton house prices as at the end of H1 2026: £450,000 median, 1,768 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £450,000, 1,768 sales, 0% YoY. Greater London county.",
+  metaDescription: "Sutton house prices as at the end of H1 2026: £450,000 median, 1,742 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £450,000, 1,742 sales, 0% YoY. Greater London county.",
   category: "town",
   region: "London & South East",
   countySlug: "greater-london",
   townSlug: "sutton",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Sutton Property Market Overview`,
       content: [
         `Outer South London market with town-centre regeneration and competitive outer-zone family housing values`,
-        `The <a href="/locations/greater-london/sutton">Sutton</a> property market recorded <strong>1,768</strong> residential sales over the past 12 months, with a median sale price of <strong>£450,000</strong>. This places Sutton £80k below the Greater London county median of £530,000, and £165k above the UK national median of £285,000.`,
+        `The <a href="/locations/greater-london/sutton">Sutton</a> property market recorded <strong>1,742</strong> residential sales over the past 12 months, with a median sale price of <strong>£450,000</strong>. This places Sutton £35k below the Greater London county median of £485,000, and £165k above the UK national median of £285,000.`,
         `Prices in Sutton have shown broadly stable, with a year-on-year change of <strong>0%</strong>. Within <a href="/locations/greater-london">Greater London</a>, Sutton ranks 44th by price out of 51 principal towns, and 27th by transaction volume.`,
+        `Sutton median prices have moved from £450,000 in Q1 2025 to £417,500 in Q2 2026, a change of -7.2% over 5 quarters. Sutton has now recorded 3 consecutive quarters of price falls.`,
       ],
     },
     {
       heading: `Sutton House Prices by Property Type`,
       content: [
         `Property prices in Sutton vary significantly by type. The table below compares Sutton prices with Greater London county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Sutton</th><th>Greater London Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£900,000</td><td>£1.16m</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£601,000</td><td>£815,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£483,750</td><td>£814,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£285,000</td><td>£450,000</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Sutton</th><th>Greater London Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£900,000</td><td>£852,750</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£604,250</td><td>£608,375</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£483,750</td><td>£505,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£285,000</td><td>£338,000</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Sutton command <strong>£900,000</strong>, while flat properties are most accessible at <strong>£285,000</strong>. The <strong>£615k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Sutton`,
       content: [
-        `Sutton recorded <strong>3</strong> new-build transactions in the past 12 months, representing <strong>0.2%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
-        `New-build properties in Sutton traded at a <strong>discount of 34.4%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market-h1-2026">Greater London</a> market, 1,536 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a> for the full county picture.`,
+        `Sutton recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>0.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
+        `New-build properties in Sutton traded at a <strong>discount of 0.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market-h1-2026">Greater London</a> market, 412 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Sutton Compared to Nearby Greater London Towns`,
       content: [
         `To put Sutton's market in context, the table below compares it with similarly-priced towns across <a href="/locations/greater-london">Greater London</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Sutton</strong></td><td><strong>£450,000</strong></td><td><strong>1,768</strong></td><td><strong>0%</strong></td></tr><tr><td><a href="/locations/greater-london/woolwich">Woolwich</a></td><td>£450,000</td><td>1,961</td><td>+0.8%</td></tr><tr><td><a href="/locations/greater-london/enfield">Enfield</a></td><td>£447,085</td><td>2,176</td><td>-0.6%</td></tr><tr><td><a href="/locations/greater-london/havering">Havering</a></td><td>£445,000</td><td>2,573</td><td>+1.1%</td></tr><tr><td><a href="/locations/greater-london/lewisham">Lewisham</a></td><td>£460,000</td><td>2,363</td><td>+2.2%</td></tr><tr><td><a href="/locations/greater-london/stratford">Stratford</a></td><td>£435,000</td><td>1,604</td><td>-1.1%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Sutton</strong></td><td><strong>£450,000</strong></td><td><strong>1,742</strong></td><td><strong>0%</strong></td></tr><tr><td><a href="/locations/greater-london/woolwich">Woolwich</a></td><td>£450,000</td><td>1,936</td><td>+0.6%</td></tr><tr><td><a href="/locations/greater-london/enfield">Enfield</a></td><td>£445,000</td><td>2,146</td><td>-1.1%</td></tr><tr><td><a href="/locations/greater-london/havering">Havering</a></td><td>£445,000</td><td>2,546</td><td>+1.1%</td></tr><tr><td><a href="/locations/greater-london/lewisham">Lewisham</a></td><td>£460,000</td><td>2,327</td><td>+2.2%</td></tr><tr><td><a href="/locations/greater-london/stratford">Stratford</a></td><td>£435,000</td><td>1,581</td><td>-1.1%</td></tr></tbody></table>`,
         `For the full Greater London town-by-town breakdown, see our comprehensive <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Sutton?`,
-      answer: `The median house price in Sutton is £450,000, based on 1,768 transactions over the past 12 months. Detached homes average £900,000 while flat properties average £285,000.`,
+      answer: `The median house price in Sutton is £450,000, based on 1,742 transactions over the past 12 months. Detached homes average £900,000 while flat properties average £285,000.`,
     },
     {
       question: `Are house prices rising or falling in Sutton?`,
-      answer: `House prices in Sutton are flat at 0% year-on-year. The market is broadly stable. The wider Greater London market is falling at -2.6%.`,
+      answer: `House prices in Sutton are flat at 0% year-on-year. The market is broadly stable. The wider Greater London market is flat at 0%.`,
     },
     {
       question: `How many properties sold in Sutton recently?`,
-      answer: `Sutton recorded 1,768 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Sutton recorded 1,742 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Sutton?`,
@@ -85,7 +86,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["greater-london-property-market-h1-2026", "london-and-south-east-market-overview-h1-2026", "barking-greater-london-property-market-h1-2026", "barnet-greater-london-property-market-h1-2026", "battersea-greater-london-property-market-h1-2026", "bermondsey-greater-london-property-market-h1-2026"],
   relatedTownSlugs: ["greater-london/sutton"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":900000},{"name":"Semi-detached","value":601000},{"name":"Terraced","value":483750},{"name":"Flat","value":285000}]},
+  charts: {"priceByType":[{"name":"Detached","value":900000},{"name":"Semi-detached","value":604250},{"name":"Terraced","value":483750},{"name":"Flat","value":285000}]},
 };
 
 export default report;

@@ -4,22 +4,24 @@ const report: MarketReport = {
   slug: "hay-on-wye-powys-property-market-h1-2026",
   title: "Hay-on-Wye Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Hay-on-Wye House Prices, End of H1 2026: £250,000 Median",
-  metaDescription: "Hay-on-Wye house prices as at the end of H1 2026: £250,000 median, 1,195 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £250,000, 1,195 sales, 0% YoY. Powys county.",
+  metaDescription: "Hay-on-Wye house prices as at the end of H1 2026: £250,000 median, 1,174 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £250,000, 1,174 sales, 0% YoY. Powys county.",
   category: "town",
   region: "Wales",
   countySlug: "powys",
   townSlug: "hay-on-wye",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Hay-on-Wye Property Market Overview`,
       content: [
         `Book town with international literary festival and premium lifestyle buyer demand`,
-        `The <a href="/locations/powys/hay-on-wye">Hay-on-Wye</a> property market recorded <strong>1,195</strong> residential sales over the past 12 months, with a median sale price of <strong>£250,000</strong>. This places Hay-on-Wye £4k above the Powys county median of £246,250, and £35k below the UK national median of £285,000.`,
+        `The <a href="/locations/powys/hay-on-wye">Hay-on-Wye</a> property market recorded <strong>1,174</strong> residential sales over the past 12 months, with a median sale price of <strong>£250,000</strong>. This places Hay-on-Wye £10k above the Powys county median of £240,000, and £35k below the UK national median of £285,000.`,
         `Prices in Hay-on-Wye have shown broadly stable, with a year-on-year change of <strong>0%</strong>. Within <a href="/locations/powys">Powys</a>, Hay-on-Wye ranks 3rd by price out of 6 principal towns, and 1st by transaction volume.`,
+        `Hay-on-Wye median prices have moved from £260,000 in Q1 2025 to £245,000 in Q2 2026, a change of -5.8% over 5 quarters.`,
+        `Hay-on-Wye shares a HM Land Registry reporting district with neighbouring towns, and the source data does not distinguish Hay-on-Wye-specific sales from the wider district. The figures above reflect the whole shared district rather than Hay-on-Wye alone.`,
       ],
     },
     {
@@ -33,16 +35,16 @@ const report: MarketReport = {
       heading: `Hay-on-Wye House Prices by Property Type`,
       content: [
         `Property prices in Hay-on-Wye vary significantly by type. The table below compares Hay-on-Wye prices with Powys county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Hay-on-Wye</th><th>Powys Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£340,000</td><td>£332,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£215,000</td><td>£216,250</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£171,000</td><td>£173,841</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£95,500</td><td>£95,500</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Hay-on-Wye</th><th>Powys Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£340,000</td><td>£327,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£215,000</td><td>£217,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£172,000</td><td>£175,100</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£95,500</td><td>£91,000</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Hay-on-Wye command <strong>£340,000</strong>, while flat properties are most accessible at <strong>£95,500</strong>. The <strong>£245k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Hay-on-Wye`,
       content: [
-        `Hay-on-Wye recorded <strong>16</strong> new-build transactions in the past 12 months, representing <strong>1.3%</strong> of total sales. There is moderate development activity, with room for further growth.`,
-        `New-build properties in Hay-on-Wye traded at a <strong>premium of 20.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/powys-property-market-h1-2026">Powys</a> market, 28 new-build completions were recorded — see our <a href="/market-reports/powys-property-market-h1-2026">Powys property market report</a> for the full county picture.`,
+        `Hay-on-Wye recorded <strong>14</strong> new-build transactions in the past 12 months, representing <strong>1.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
+        `New-build properties in Hay-on-Wye traded at a <strong>premium of 13.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/powys-property-market-h1-2026">Powys</a> market, 11 new-build completions were recorded — see our <a href="/market-reports/powys-property-market-h1-2026">Powys property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -66,7 +68,7 @@ const report: MarketReport = {
       heading: `Hay-on-Wye Compared to Nearby Powys Towns`,
       content: [
         `To put Hay-on-Wye's market in context, the table below compares it with similarly-priced towns across <a href="/locations/powys">Powys</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Hay-on-Wye</strong></td><td><strong>£250,000</strong></td><td><strong>1,195</strong></td><td><strong>0%</strong></td></tr><tr><td><a href="/locations/powys/llandrindod-wells">Llandrindod Wells</a></td><td>£242,500</td><td>116</td><td>+7.8%</td></tr><tr><td><a href="/locations/powys/welshpool">Welshpool</a></td><td>£232,500</td><td>134</td><td>-5.1%</td></tr><tr><td><a href="/locations/powys/newtown">Newtown</a></td><td>£226,500</td><td>148</td><td>+13.3%</td></tr><tr><td><a href="/locations/powys/brecon">Brecon</a></td><td>£280,000</td><td>177</td><td>-1.8%</td></tr><tr><td><a href="/locations/powys/builth-wells">Builth Wells</a></td><td>£280,000</td><td>58</td><td>+11.6%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Hay-on-Wye</strong></td><td><strong>£250,000</strong></td><td><strong>1,174</strong></td><td><strong>0%</strong></td></tr><tr><td><a href="/locations/powys/llandrindod-wells">Llandrindod Wells</a></td><td>£240,000</td><td>115</td><td>+5.5%</td></tr><tr><td><a href="/locations/powys/newtown">Newtown</a></td><td>£227,500</td><td>147</td><td>+13.8%</td></tr><tr><td><a href="/locations/powys/welshpool">Welshpool</a></td><td>£225,000</td><td>128</td><td>-8.2%</td></tr><tr><td><a href="/locations/powys/brecon">Brecon</a></td><td>£277,500</td><td>174</td><td>-2.5%</td></tr><tr><td><a href="/locations/powys/builth-wells">Builth Wells</a></td><td>£280,000</td><td>58</td><td>+11.6%</td></tr></tbody></table>`,
         `For the full Powys town-by-town breakdown, see our comprehensive <a href="/market-reports/powys-property-market-h1-2026">Powys property market report</a>.`,
       ],
     },
@@ -74,15 +76,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Hay-on-Wye?`,
-      answer: `The median house price in Hay-on-Wye is £250,000, based on 1,195 transactions over the past 12 months. Detached homes average £340,000 while flat properties average £95,500.`,
+      answer: `The median house price in Hay-on-Wye is £250,000, based on 1,174 transactions over the past 12 months. Detached homes average £340,000 while flat properties average £95,500.`,
     },
     {
       question: `Are house prices rising or falling in Hay-on-Wye?`,
-      answer: `House prices in Hay-on-Wye are flat at 0% year-on-year. The market is broadly stable. The wider Powys market is rising at +4.3%.`,
+      answer: `House prices in Hay-on-Wye are flat at 0% year-on-year. The market is broadly stable. The wider Powys market is rising at +4%.`,
     },
     {
       question: `How many properties sold in Hay-on-Wye recently?`,
-      answer: `Hay-on-Wye recorded 1,195 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Hay-on-Wye recorded 1,174 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Hay-on-Wye?`,
@@ -92,7 +94,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["powys-property-market-h1-2026", "wales-market-overview-h1-2026", "brecon-powys-property-market-h1-2026", "builth-wells-powys-property-market-h1-2026", "llandrindod-wells-powys-property-market-h1-2026", "newtown-powys-property-market-h1-2026"],
   relatedTownSlugs: ["powys/hay-on-wye"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":340000},{"name":"Semi-detached","value":215000},{"name":"Terraced","value":171000},{"name":"Flat","value":95500}]},
+  charts: {"priceByType":[{"name":"Detached","value":340000},{"name":"Semi-detached","value":215000},{"name":"Terraced","value":172000},{"name":"Flat","value":95500}]},
 };
 
 export default report;

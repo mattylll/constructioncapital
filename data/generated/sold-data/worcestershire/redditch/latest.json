@@ -1,19 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.044Z",
+  "updatedAt": "2026-07-05T06:06:56.271Z",
   "townSlug": "redditch",
   "countySlug": "worcestershire",
+  "isDistrictLevelFallback": false,
   "stats": {
     "medianPrice": 250000,
     "medianByType": {
       "D": 385000,
-      "S": 262000,
-      "T": 200000,
+      "S": 260500,
+      "T": 199000,
       "F": 130000
     },
-    "transactionCount12m": 823,
-    "yoyChange": 0.4,
+    "transactionCount12m": 814,
+    "yoyChange": 0,
     "newBuildCount": 4,
-    "existingCount": 819,
+    "existingCount": 810,
     "newBuildPremium": -49
   },
   "recentTransactions": [

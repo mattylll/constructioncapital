@@ -4,38 +4,39 @@ const report: MarketReport = {
   slug: "leighton-buzzard-bedfordshire-property-market-h1-2026",
   title: "Leighton Buzzard Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Leighton Buzzard House Prices, End of H1 2026: £340,000 Median",
-  metaDescription: "Leighton Buzzard house prices as at the end of H1 2026: £340,000 median, 718 sales, -5.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £340,000, 718 sales, -5.6% YoY. Bedfordshire county.",
+  metaDescription: "Leighton Buzzard house prices as at the end of H1 2026: £340,000 median, 713 sales, -5.6% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £340,000, 713 sales, -5.6% YoY. Bedfordshire county.",
   category: "town",
   region: "East of England",
   countySlug: "bedfordshire",
   townSlug: "leighton-buzzard",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Leighton Buzzard Property Market Overview`,
       content: [
         `South Bedfordshire market town with London Midland connectivity and growing demand`,
-        `The <a href="/locations/bedfordshire/leighton-buzzard">Leighton Buzzard</a> property market recorded <strong>718</strong> residential sales over the past 12 months, with a median sale price of <strong>£340,000</strong>. This places Leighton Buzzard £3k above the Bedfordshire county median of £337,475, and £55k above the UK national median of £285,000.`,
+        `The <a href="/locations/bedfordshire/leighton-buzzard">Leighton Buzzard</a> property market recorded <strong>713</strong> residential sales over the past 12 months, with a median sale price of <strong>£340,000</strong>. This places Leighton Buzzard £5k above the Bedfordshire county median of £335,000, and £55k above the UK national median of £285,000.`,
         `Prices in Leighton Buzzard have shown a notable decline, with a year-on-year change of <strong>-5.6%</strong>. Within <a href="/locations/bedfordshire">Bedfordshire</a>, Leighton Buzzard ranks 3rd by price out of 7 principal towns, and 5th by transaction volume.`,
+        `Leighton Buzzard median prices have moved from £365,000 in Q1 2025 to £365,000 in Q2 2026, a change of 0.0% over 5 quarters. Leighton Buzzard has now recorded 3 consecutive quarters of price growth.`,
       ],
     },
     {
       heading: `Leighton Buzzard House Prices by Property Type`,
       content: [
         `Property prices in Leighton Buzzard vary significantly by type. The table below compares Leighton Buzzard prices with Bedfordshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Leighton Buzzard</th><th>Bedfordshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£505,000</td><td>£500,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£367,500</td><td>£364,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£315,000</td><td>£300,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£190,000</td><td>£177,000</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Leighton Buzzard</th><th>Bedfordshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£505,000</td><td>£490,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£367,500</td><td>£352,750</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£313,000</td><td>£292,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£190,000</td><td>£173,000</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Leighton Buzzard command <strong>£505,000</strong>, while flat properties are most accessible at <strong>£190,000</strong>. The <strong>£315k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Leighton Buzzard`,
       content: [
-        `Leighton Buzzard recorded <strong>19</strong> new-build transactions in the past 12 months, representing <strong>2.6%</strong> of total sales. There is moderate development activity, with room for further growth.`,
-        `New-build properties in Leighton Buzzard traded at a <strong>premium of 47.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire</a> market, 242 new-build completions were recorded — see our <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire property market report</a> for the full county picture.`,
+        `Leighton Buzzard recorded <strong>19</strong> new-build transactions in the past 12 months, representing <strong>2.7%</strong> of total sales. There is moderate development activity, with room for further growth.`,
+        `New-build properties in Leighton Buzzard traded at a <strong>premium of 47.0%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire</a> market, 172 new-build completions were recorded — see our <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Leighton Buzzard Compared to Nearby Bedfordshire Towns`,
       content: [
         `To put Leighton Buzzard's market in context, the table below compares it with similarly-priced towns across <a href="/locations/bedfordshire">Bedfordshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Leighton Buzzard</strong></td><td><strong>£340,000</strong></td><td><strong>718</strong></td><td><strong>-5.6%</strong></td></tr><tr><td><a href="/locations/bedfordshire/sandy">Sandy</a></td><td>£337,475</td><td>234</td><td>+7.6%</td></tr><tr><td><a href="/locations/bedfordshire/bedford">Bedford</a></td><td>£335,000</td><td>1,847</td><td>-1.5%</td></tr><tr><td><a href="/locations/bedfordshire/dunstable">Dunstable</a></td><td>£330,000</td><td>812</td><td>-7.6%</td></tr><tr><td><a href="/locations/bedfordshire/flitwick">Flitwick</a></td><td>£355,000</td><td>3,580</td><td>-3%</td></tr><tr><td><a href="/locations/bedfordshire/biggleswade">Biggleswade</a></td><td>£355,500</td><td>380</td><td>-2.6%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Leighton Buzzard</strong></td><td><strong>£340,000</strong></td><td><strong>713</strong></td><td><strong>-5.6%</strong></td></tr><tr><td><a href="/locations/bedfordshire/bedford">Bedford</a></td><td>£335,000</td><td>1,806</td><td>-1.5%</td></tr><tr><td><a href="/locations/bedfordshire/sandy">Sandy</a></td><td>£335,000</td><td>229</td><td>+6.3%</td></tr><tr><td><a href="/locations/bedfordshire/dunstable">Dunstable</a></td><td>£329,000</td><td>796</td><td>-7.8%</td></tr><tr><td><a href="/locations/bedfordshire/biggleswade">Biggleswade</a></td><td>£355,000</td><td>374</td><td>-2.7%</td></tr><tr><td><a href="/locations/bedfordshire/flitwick">Flitwick</a></td><td>£355,000</td><td>3,532</td><td>-3.1%</td></tr></tbody></table>`,
         `For the full Bedfordshire town-by-town breakdown, see our comprehensive <a href="/market-reports/bedfordshire-property-market-h1-2026">Bedfordshire property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Leighton Buzzard?`,
-      answer: `The median house price in Leighton Buzzard is £340,000, based on 718 transactions over the past 12 months. Detached homes average £505,000 while flat properties average £190,000.`,
+      answer: `The median house price in Leighton Buzzard is £340,000, based on 713 transactions over the past 12 months. Detached homes average £505,000 while flat properties average £190,000.`,
     },
     {
       question: `Are house prices rising or falling in Leighton Buzzard?`,
-      answer: `House prices in Leighton Buzzard are falling at -5.6% year-on-year. This decline may present buying opportunities for investors and developers. The wider Bedfordshire market is falling at -1.8%.`,
+      answer: `House prices in Leighton Buzzard are falling at -5.6% year-on-year. This decline may present buying opportunities for investors and developers. The wider Bedfordshire market is falling at -1.9%.`,
     },
     {
       question: `How many properties sold in Leighton Buzzard recently?`,
-      answer: `Leighton Buzzard recorded 718 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Leighton Buzzard recorded 713 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Leighton Buzzard?`,
@@ -85,7 +86,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["bedfordshire-property-market-h1-2026", "east-of-england-market-overview-h1-2026", "bedford-bedfordshire-property-market-h1-2026", "biggleswade-bedfordshire-property-market-h1-2026", "dunstable-bedfordshire-property-market-h1-2026", "flitwick-bedfordshire-property-market-h1-2026"],
   relatedTownSlugs: ["bedfordshire/leighton-buzzard"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":505000},{"name":"Semi-detached","value":367500},{"name":"Terraced","value":315000},{"name":"Flat","value":190000}]},
+  charts: {"priceByType":[{"name":"Detached","value":505000},{"name":"Semi-detached","value":367500},{"name":"Terraced","value":313000},{"name":"Flat","value":190000}]},
 };
 
 export default report;

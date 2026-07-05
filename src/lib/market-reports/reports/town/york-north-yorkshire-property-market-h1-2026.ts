@@ -4,22 +4,23 @@ const report: MarketReport = {
   slug: "york-north-yorkshire-property-market-h1-2026",
   title: "York Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "York House Prices, End of H1 2026: £300,000 Median",
-  metaDescription: "York house prices as at the end of H1 2026: £300,000 median, 2,153 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £300,000, 2,153 sales, 0% YoY. North Yorkshire county.",
+  metaDescription: "York house prices as at the end of H1 2026: £300,000 median, 2,107 sales, 0% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £300,000, 2,107 sales, 0% YoY. North Yorkshire county.",
   category: "town",
   region: "North East & Yorkshire",
   countySlug: "north-yorkshire",
   townSlug: "york",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `York Property Market Overview`,
       content: [
         `Heritage city with two universities, major rail hub, and premium residential market within the city walls`,
-        `The <a href="/locations/north-yorkshire/york">York</a> property market recorded <strong>2,153</strong> residential sales over the past 12 months, with a median sale price of <strong>£300,000</strong>. This places York £27k above the North Yorkshire county median of £273,125, and £15k above the UK national median of £285,000.`,
+        `The <a href="/locations/north-yorkshire/york">York</a> property market recorded <strong>2,107</strong> residential sales over the past 12 months, with a median sale price of <strong>£300,000</strong>. This places York £28k above the North Yorkshire county median of £272,000, and £15k above the UK national median of £285,000.`,
         `Prices in York have shown broadly stable, with a year-on-year change of <strong>0%</strong>. Within <a href="/locations/north-yorkshire">North Yorkshire</a>, York ranks 3rd by price out of 8 principal towns, and 1st by transaction volume.`,
+        `York median prices have moved from £302,250 in Q1 2025 to £314,500 in Q2 2026, a change of +4.1% over 5 quarters. York has now recorded 2 consecutive quarters of price growth.`,
       ],
     },
     {
@@ -32,8 +33,8 @@ const report: MarketReport = {
       heading: `York House Prices by Property Type`,
       content: [
         `Property prices in York vary significantly by type. The table below compares York prices with North Yorkshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>York</th><th>North Yorkshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£428,000</td><td>£444,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£300,000</td><td>£280,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£275,000</td><td>£217,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£195,755</td><td>£149,000</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in York command <strong>£428,000</strong>, while flat properties are most accessible at <strong>£195,755</strong>. The <strong>£232k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>York</th><th>North Yorkshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£425,000</td><td>£442,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£300,000</td><td>£278,750</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£275,000</td><td>£217,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£195,000</td><td>£148,500</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in York command <strong>£425,000</strong>, while flat properties are most accessible at <strong>£195,000</strong>. The <strong>£230k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
@@ -41,7 +42,7 @@ const report: MarketReport = {
       content: [
         `York recorded <strong>21</strong> new-build transactions in the past 12 months, representing <strong>1.0%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
         `New-build properties in York traded at a <strong>discount of 17.1%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/north-yorkshire-property-market-h1-2026">North Yorkshire</a> market, 75 new-build completions were recorded — see our <a href="/market-reports/north-yorkshire-property-market-h1-2026">North Yorkshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/north-yorkshire-property-market-h1-2026">North Yorkshire</a> market, 74 new-build completions were recorded — see our <a href="/market-reports/north-yorkshire-property-market-h1-2026">North Yorkshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -55,8 +56,8 @@ const report: MarketReport = {
     {
       heading: `Development Finance in York`,
       content: [
-        `For developers considering York, the local market data translates directly into finance structuring. With a median value of £300,000 and detached homes at £428,000, lenders can assess scheme viability with confidence.`,
-        `A typical <a href="/services/development-finance">development finance</a> facility for a York scheme with a GDV of £428,000 would attract <strong>senior debt of approximately £278,200</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
+        `For developers considering York, the local market data translates directly into finance structuring. With a median value of £300,000 and detached homes at £425,000, lenders can assess scheme viability with confidence.`,
+        `A typical <a href="/services/development-finance">development finance</a> facility for a York scheme with a GDV of £425,000 would attract <strong>senior debt of approximately £276,250</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
         `While prices have remained flat year-on-year, experienced developers can still generate strong returns in York by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in York? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
@@ -65,7 +66,7 @@ const report: MarketReport = {
       heading: `York Compared to Nearby North Yorkshire Towns`,
       content: [
         `To put York's market in context, the table below compares it with similarly-priced towns across <a href="/locations/north-yorkshire">North Yorkshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>York</strong></td><td><strong>£300,000</strong></td><td><strong>2,153</strong></td><td><strong>0%</strong></td></tr><tr><td><a href="/locations/north-yorkshire/harrogate">Harrogate</a></td><td>£315,000</td><td>1,364</td><td>0%</td></tr><tr><td><a href="/locations/north-yorkshire/ripon">Ripon</a></td><td>£281,250</td><td>276</td><td>-4.7%</td></tr><tr><td><a href="/locations/north-yorkshire/skipton">Skipton</a></td><td>£265,000</td><td>452</td><td>-7%</td></tr><tr><td><a href="/locations/north-yorkshire/whitby">Whitby</a></td><td>£256,972</td><td>280</td><td>-4.8%</td></tr><tr><td><a href="/locations/north-yorkshire/knaresborough">Knaresborough</a></td><td>£352,500</td><td>226</td><td>+5.2%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>York</strong></td><td><strong>£300,000</strong></td><td><strong>2,107</strong></td><td><strong>0%</strong></td></tr><tr><td><a href="/locations/north-yorkshire/harrogate">Harrogate</a></td><td>£315,000</td><td>1,345</td><td>+0.7%</td></tr><tr><td><a href="/locations/north-yorkshire/ripon">Ripon</a></td><td>£279,000</td><td>270</td><td>-5.4%</td></tr><tr><td><a href="/locations/north-yorkshire/skipton">Skipton</a></td><td>£265,000</td><td>449</td><td>-6%</td></tr><tr><td><a href="/locations/north-yorkshire/whitby">Whitby</a></td><td>£255,000</td><td>271</td><td>-5.6%</td></tr><tr><td><a href="/locations/north-yorkshire/knaresborough">Knaresborough</a></td><td>£352,500</td><td>224</td><td>+5.2%</td></tr></tbody></table>`,
         `For the full North Yorkshire town-by-town breakdown, see our comprehensive <a href="/market-reports/north-yorkshire-property-market-h1-2026">North Yorkshire property market report</a>.`,
       ],
     },
@@ -73,7 +74,7 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in York?`,
-      answer: `The median house price in York is £300,000, based on 2,153 transactions over the past 12 months. Detached homes average £428,000 while flat properties average £195,755.`,
+      answer: `The median house price in York is £300,000, based on 2,107 transactions over the past 12 months. Detached homes average £425,000 while flat properties average £195,000.`,
     },
     {
       question: `Are house prices rising or falling in York?`,
@@ -81,7 +82,7 @@ const report: MarketReport = {
     },
     {
       question: `How many properties sold in York recently?`,
-      answer: `York recorded 2,153 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `York recorded 2,107 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in York?`,
@@ -91,7 +92,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["north-yorkshire-property-market-h1-2026", "north-east-and-yorkshire-market-overview-h1-2026", "harrogate-north-yorkshire-property-market-h1-2026", "knaresborough-north-yorkshire-property-market-h1-2026", "northallerton-north-yorkshire-property-market-h1-2026", "ripon-north-yorkshire-property-market-h1-2026"],
   relatedTownSlugs: ["north-yorkshire/york"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":428000},{"name":"Semi-detached","value":300000},{"name":"Terraced","value":275000},{"name":"Flat","value":195755}]},
+  charts: {"priceByType":[{"name":"Detached","value":425000},{"name":"Semi-detached","value":300000},{"name":"Terraced","value":275000},{"name":"Flat","value":195000}]},
 };
 
 export default report;

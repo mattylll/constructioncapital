@@ -3,30 +3,31 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "dorking-surrey-property-market-h1-2026",
   title: "Dorking Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
-  metaTitle: "Dorking House Prices, End of H1 2026: £497,500 Median",
-  metaDescription: "Dorking house prices as at the end of H1 2026: £497,500 median, 296 sales, +7% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £497,500, 296 sales, +7% YoY. Surrey county.",
+  metaTitle: "Dorking House Prices, End of H1 2026: £495,000 Median",
+  metaDescription: "Dorking house prices as at the end of H1 2026: £495,000 median, 294 sales, +6.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £495,000, 294 sales, +6.5% YoY. Surrey county.",
   category: "town",
   region: "London & South East",
   countySlug: "surrey",
   townSlug: "dorking",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Dorking Property Market Overview`,
       content: [
         `Surrey Hills market town with heritage conversion opportunities and premium buyer demand`,
-        `The <a href="/locations/surrey/dorking">Dorking</a> property market recorded <strong>296</strong> residential sales over the past 12 months, with a median sale price of <strong>£497,500</strong>. This places Dorking £4k above the Surrey county median of £493,750, and £213k above the UK national median of £285,000.`,
-        `Prices in Dorking have shown strong growth, with a year-on-year change of <strong>+7%</strong>. Within <a href="/locations/surrey">Surrey</a>, Dorking ranks 5th by price out of 10 principal towns, and 10th by transaction volume.`,
+        `The <a href="/locations/surrey/dorking">Dorking</a> property market recorded <strong>294</strong> residential sales over the past 12 months, with a median sale price of <strong>£495,000</strong>. This places Dorking £3k above the Surrey county median of £492,500, and £210k above the UK national median of £285,000.`,
+        `Prices in Dorking have shown strong growth, with a year-on-year change of <strong>+6.5%</strong>. Within <a href="/locations/surrey">Surrey</a>, Dorking ranks 5th by price out of 10 principal towns, and 10th by transaction volume.`,
+        `Dorking median prices have moved from £482,500 in Q1 2025 to £450,000 in Q2 2026, a change of -6.7% over 5 quarters. Dorking has now recorded 3 consecutive quarters of price falls.`,
       ],
     },
     {
       heading: `Dorking House Prices by Property Type`,
       content: [
         `Property prices in Dorking vary significantly by type. The table below compares Dorking prices with Surrey county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Dorking</th><th>Surrey Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£910,000</td><td>£824,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£550,000</td><td>£545,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£435,000</td><td>£432,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£268,000</td><td>£264,000</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Dorking</th><th>Surrey Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£910,000</td><td>£822,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£550,000</td><td>£540,694</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£435,000</td><td>£431,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£268,000</td><td>£264,500</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Dorking command <strong>£910,000</strong>, while flat properties are most accessible at <strong>£268,000</strong>. The <strong>£642k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
@@ -35,7 +36,7 @@ const report: MarketReport = {
       content: [
         `Dorking recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Dorking traded at a <strong>discount of 0.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/surrey-property-market-h1-2026">Surrey</a> market, 134 new-build completions were recorded — see our <a href="/market-reports/surrey-property-market-h1-2026">Surrey property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/surrey-property-market-h1-2026">Surrey</a> market, 131 new-build completions were recorded — see our <a href="/market-reports/surrey-property-market-h1-2026">Surrey property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -49,9 +50,9 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Dorking`,
       content: [
-        `For developers considering Dorking, the local market data translates directly into finance structuring. With a median value of £497,500 and detached homes at £910,000, lenders can assess scheme viability with confidence.`,
+        `For developers considering Dorking, the local market data translates directly into finance structuring. With a median value of £495,000 and detached homes at £910,000, lenders can assess scheme viability with confidence.`,
         `A typical <a href="/services/development-finance">development finance</a> facility for a Dorking scheme with a GDV of £910,000 would attract <strong>senior debt of approximately £591,500</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `With prices rising 7% year-on-year, Dorking presents a supportive environment for new development. Lenders view positive price momentum favourably when assessing loan applications.`,
+        `With prices rising 6.5% year-on-year, Dorking presents a supportive environment for new development. Lenders view positive price momentum favourably when assessing loan applications.`,
         `Ready to develop in Dorking? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Dorking Compared to Nearby Surrey Towns`,
       content: [
         `To put Dorking's market in context, the table below compares it with similarly-priced towns across <a href="/locations/surrey">Surrey</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Dorking</strong></td><td><strong>£497,500</strong></td><td><strong>296</strong></td><td><strong>+7%</strong></td></tr><tr><td><a href="/locations/surrey/guildford">Guildford</a></td><td>£490,000</td><td>1,539</td><td>-1%</td></tr><tr><td><a href="/locations/surrey/redhill">Redhill</a></td><td>£480,000</td><td>1,548</td><td>+1.1%</td></tr><tr><td><a href="/locations/surrey/camberley">Camberley</a></td><td>£475,000</td><td>975</td><td>+1.1%</td></tr><tr><td><a href="/locations/surrey/staines">Staines</a></td><td>£465,000</td><td>1,008</td><td>+3.3%</td></tr><tr><td><a href="/locations/surrey/farnham">Farnham</a></td><td>£540,000</td><td>1,499</td><td>+0.9%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Dorking</strong></td><td><strong>£495,000</strong></td><td><strong>294</strong></td><td><strong>+6.5%</strong></td></tr><tr><td><a href="/locations/surrey/guildford">Guildford</a></td><td>£490,000</td><td>1,519</td><td>-1%</td></tr><tr><td><a href="/locations/surrey/redhill">Redhill</a></td><td>£477,000</td><td>1,520</td><td>+0.4%</td></tr><tr><td><a href="/locations/surrey/camberley">Camberley</a></td><td>£475,000</td><td>966</td><td>+1.1%</td></tr><tr><td><a href="/locations/surrey/staines">Staines</a></td><td>£465,000</td><td>999</td><td>+3.3%</td></tr><tr><td><a href="/locations/surrey/farnham">Farnham</a></td><td>£540,000</td><td>1,475</td><td>+0.9%</td></tr></tbody></table>`,
         `For the full Surrey town-by-town breakdown, see our comprehensive <a href="/market-reports/surrey-property-market-h1-2026">Surrey property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Dorking?`,
-      answer: `The median house price in Dorking is £497,500, based on 296 transactions over the past 12 months. Detached homes average £910,000 while flat properties average £268,000.`,
+      answer: `The median house price in Dorking is £495,000, based on 294 transactions over the past 12 months. Detached homes average £910,000 while flat properties average £268,000.`,
     },
     {
       question: `Are house prices rising or falling in Dorking?`,
-      answer: `House prices in Dorking are rising at +7% year-on-year. This positive trend suggests sustained buyer demand. The wider Surrey market is rising at +2%.`,
+      answer: `House prices in Dorking are rising at +6.5% year-on-year. This positive trend suggests sustained buyer demand. The wider Surrey market is rising at +2.1%.`,
     },
     {
       question: `How many properties sold in Dorking recently?`,
-      answer: `Dorking recorded 296 residential property sales in the past 12 months. This represents a reasonably active market.`,
+      answer: `Dorking recorded 294 residential property sales in the past 12 months. This represents a reasonably active market.`,
     },
     {
       question: `What development finance is available for projects in Dorking?`,

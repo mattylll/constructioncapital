@@ -4,29 +4,30 @@ const report: MarketReport = {
   slug: "poole-dorset-property-market-h1-2026",
   title: "Poole Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Poole House Prices, End of H1 2026: £330,000 Median",
-  metaDescription: "Poole house prices as at the end of H1 2026: £330,000 median, 1,578 sales, +0.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £330,000, 1,578 sales, +0.9% YoY. Dorset county.",
+  metaDescription: "Poole house prices as at the end of H1 2026: £330,000 median, 1,554 sales, +0.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £330,000, 1,554 sales, +0.9% YoY. Dorset county.",
   category: "town",
   region: "South West",
   countySlug: "dorset",
   townSlug: "poole",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Poole Property Market Overview`,
       content: [
         `Harbour-side town with premium waterfront values and Twin Sails regeneration area`,
-        `The <a href="/locations/dorset/poole">Poole</a> property market recorded <strong>1,578</strong> residential sales over the past 12 months, with a median sale price of <strong>£330,000</strong>. This places Poole £13k below the Dorset county median of £343,250, and £45k above the UK national median of £285,000.`,
+        `The <a href="/locations/dorset/poole">Poole</a> property market recorded <strong>1,554</strong> residential sales over the past 12 months, with a median sale price of <strong>£330,000</strong>. This places Poole £13k below the Dorset county median of £343,250, and £45k above the UK national median of £285,000.`,
         `Prices in Poole have shown modest growth, with a year-on-year change of <strong>+0.9%</strong>. Within <a href="/locations/dorset">Dorset</a>, Poole ranks 6th by price out of 8 principal towns, and 2nd by transaction volume.`,
+        `Poole median prices have moved from £336,500 in Q1 2025 to £318,475 in Q2 2026, a change of -5.4% over 5 quarters. Poole has now recorded 3 consecutive quarters of price falls.`,
       ],
     },
     {
       heading: `Poole House Prices by Property Type`,
       content: [
         `Property prices in Poole vary significantly by type. The table below compares Poole prices with Dorset county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Poole</th><th>Dorset Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£430,000</td><td>£509,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£330,000</td><td>£341,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£285,000</td><td>£285,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£225,000</td><td>£190,750</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Poole</th><th>Dorset Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£430,000</td><td>£509,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£330,000</td><td>£340,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£285,000</td><td>£285,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£225,000</td><td>£192,000</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Poole command <strong>£430,000</strong>, while flat properties are most accessible at <strong>£225,000</strong>. The <strong>£205k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
@@ -35,7 +36,7 @@ const report: MarketReport = {
       content: [
         `Poole recorded <strong>1</strong> new-build transactions in the past 12 months, representing <strong>0.1%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in Poole traded at a <strong>discount of 0.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/dorset-property-market-h1-2026">Dorset</a> market, 30 new-build completions were recorded — see our <a href="/market-reports/dorset-property-market-h1-2026">Dorset property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/dorset-property-market-h1-2026">Dorset</a> market, 29 new-build completions were recorded — see our <a href="/market-reports/dorset-property-market-h1-2026">Dorset property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Poole Compared to Nearby Dorset Towns`,
       content: [
         `To put Poole's market in context, the table below compares it with similarly-priced towns across <a href="/locations/dorset">Dorset</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Poole</strong></td><td><strong>£330,000</strong></td><td><strong>1,578</strong></td><td><strong>+0.9%</strong></td></tr><tr><td><a href="/locations/dorset/dorchester">Dorchester</a></td><td>£336,500</td><td>620</td><td>-1.8%</td></tr><tr><td><a href="/locations/dorset/sherborne">Sherborne</a></td><td>£350,000</td><td>234</td><td>+6.1%</td></tr><tr><td><a href="/locations/dorset/bournemouth">Bournemouth</a></td><td>£302,250</td><td>2,300</td><td>+0.8%</td></tr><tr><td><a href="/locations/dorset/bridport">Bridport</a></td><td>£370,000</td><td>316</td><td>+1.4%</td></tr><tr><td><a href="/locations/dorset/weymouth">Weymouth</a></td><td>£275,000</td><td>872</td><td>-3.5%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Poole</strong></td><td><strong>£330,000</strong></td><td><strong>1,554</strong></td><td><strong>+0.9%</strong></td></tr><tr><td><a href="/locations/dorset/dorchester">Dorchester</a></td><td>£336,500</td><td>616</td><td>-1.8%</td></tr><tr><td><a href="/locations/dorset/sherborne">Sherborne</a></td><td>£350,000</td><td>232</td><td>+6.1%</td></tr><tr><td><a href="/locations/dorset/bournemouth">Bournemouth</a></td><td>£302,000</td><td>2,272</td><td>+0.7%</td></tr><tr><td><a href="/locations/dorset/bridport">Bridport</a></td><td>£370,000</td><td>310</td><td>+1.4%</td></tr><tr><td><a href="/locations/dorset/weymouth">Weymouth</a></td><td>£275,000</td><td>861</td><td>-3.5%</td></tr></tbody></table>`,
         `For the full Dorset town-by-town breakdown, see our comprehensive <a href="/market-reports/dorset-property-market-h1-2026">Dorset property market report</a>.`,
       ],
     },
@@ -67,7 +68,7 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Poole?`,
-      answer: `The median house price in Poole is £330,000, based on 1,578 transactions over the past 12 months. Detached homes average £430,000 while flat properties average £225,000.`,
+      answer: `The median house price in Poole is £330,000, based on 1,554 transactions over the past 12 months. Detached homes average £430,000 while flat properties average £225,000.`,
     },
     {
       question: `Are house prices rising or falling in Poole?`,
@@ -75,7 +76,7 @@ const report: MarketReport = {
     },
     {
       question: `How many properties sold in Poole recently?`,
-      answer: `Poole recorded 1,578 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Poole recorded 1,554 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Poole?`,

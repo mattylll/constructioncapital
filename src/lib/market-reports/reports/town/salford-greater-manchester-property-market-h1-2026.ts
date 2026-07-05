@@ -3,39 +3,40 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "salford-greater-manchester-property-market-h1-2026",
   title: "Salford Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
-  metaTitle: "Salford House Prices, End of H1 2026: £223,770 Median",
-  metaDescription: "Salford house prices as at the end of H1 2026: £223,770 median, 2,807 sales, -1% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £223,770, 2,807 sales, -1% YoY. Greater Manchester county.",
+  metaTitle: "Salford House Prices, End of H1 2026: £223,350 Median",
+  metaDescription: "Salford house prices as at the end of H1 2026: £223,350 median, 2,752 sales, -1.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £223,350, 2,752 sales, -1.2% YoY. Greater Manchester county.",
   category: "town",
   region: "North West",
   countySlug: "greater-manchester",
   townSlug: "salford",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Salford Property Market Overview`,
       content: [
         `MediaCityUK anchor driving Salford Quays and Crescent waterfront residential development`,
-        `The <a href="/locations/greater-manchester/salford">Salford</a> property market recorded <strong>2,807</strong> residential sales over the past 12 months, with a median sale price of <strong>£223,770</strong>. This places Salford £10k above the Greater Manchester county median of £213,860, and £61k below the UK national median of £285,000.`,
-        `Prices in Salford have shown broadly stable, with a year-on-year change of <strong>-1%</strong>. Within <a href="/locations/greater-manchester">Greater Manchester</a>, Salford ranks 5th by price out of 10 principal towns, and 5th by transaction volume.`,
+        `The <a href="/locations/greater-manchester/salford">Salford</a> property market recorded <strong>2,752</strong> residential sales over the past 12 months, with a median sale price of <strong>£223,350</strong>. This places Salford £10k above the Greater Manchester county median of £213,675, and £62k below the UK national median of £285,000.`,
+        `Prices in Salford have shown broadly stable, with a year-on-year change of <strong>-1.2%</strong>. Within <a href="/locations/greater-manchester">Greater Manchester</a>, Salford ranks 5th by price out of 10 principal towns, and 5th by transaction volume.`,
+        `Salford median prices have moved from £240,000 in Q1 2025 to £231,000 in Q2 2026, a change of -3.8% over 5 quarters. Salford has now recorded 2 consecutive quarters of price growth.`,
       ],
     },
     {
       heading: `Salford House Prices by Property Type`,
       content: [
         `Property prices in Salford vary significantly by type. The table below compares Salford prices with Greater Manchester county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Salford</th><th>Greater Manchester Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£385,500</td><td>£377,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£265,000</td><td>£252,125</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£205,000</td><td>£180,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£149,995</td><td>£133,750</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Salford command <strong>£385,500</strong>, while flat properties are most accessible at <strong>£149,995</strong>. The <strong>£236k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Salford</th><th>Greater Manchester Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£385,000</td><td>£377,500</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£265,000</td><td>£252,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£205,000</td><td>£180,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£150,000</td><td>£133,750</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Salford command <strong>£385,000</strong>, while flat properties are most accessible at <strong>£150,000</strong>. The <strong>£235k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Salford`,
       content: [
-        `Salford recorded <strong>34</strong> new-build transactions in the past 12 months, representing <strong>1.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
-        `New-build properties in Salford traded at a <strong>premium of 14.1%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester</a> market, 222 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester property market report</a> for the full county picture.`,
+        `Salford recorded <strong>33</strong> new-build transactions in the past 12 months, representing <strong>1.2%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
+        `New-build properties in Salford traded at a <strong>premium of 15.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester</a> market, 207 new-build completions were recorded — see our <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -49,9 +50,9 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Salford`,
       content: [
-        `For developers considering Salford, the local market data translates directly into finance structuring. With a median value of £223,770 and detached homes at £385,500, lenders can assess scheme viability with confidence.`,
-        `A typical <a href="/services/development-finance">development finance</a> facility for a Salford scheme with a GDV of £385,500 would attract <strong>senior debt of approximately £250,575</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `While prices have softened 1% year-on-year, experienced developers can still generate strong returns in Salford by targeting well-located sites with clear demand drivers.`,
+        `For developers considering Salford, the local market data translates directly into finance structuring. With a median value of £223,350 and detached homes at £385,000, lenders can assess scheme viability with confidence.`,
+        `A typical <a href="/services/development-finance">development finance</a> facility for a Salford scheme with a GDV of £385,000 would attract <strong>senior debt of approximately £250,250</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
+        `While prices have softened 1.2% year-on-year, experienced developers can still generate strong returns in Salford by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in Salford? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Salford Compared to Nearby Greater Manchester Towns`,
       content: [
         `To put Salford's market in context, the table below compares it with similarly-priced towns across <a href="/locations/greater-manchester">Greater Manchester</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Salford</strong></td><td><strong>£223,770</strong></td><td><strong>2,807</strong></td><td><strong>-1%</strong></td></tr><tr><td><a href="/locations/greater-manchester/bury">Bury</a></td><td>£230,000</td><td>2,036</td><td>-1.1%</td></tr><tr><td><a href="/locations/greater-manchester/ashton-under-lyne">Ashton-under-Lyne</a></td><td>£203,950</td><td>2,288</td><td>-0.5%</td></tr><tr><td><a href="/locations/greater-manchester/manchester">Manchester</a></td><td>£245,000</td><td>4,460</td><td>+2.1%</td></tr><tr><td><a href="/locations/greater-manchester/oldham">Oldham</a></td><td>£200,000</td><td>2,110</td><td>+5.3%</td></tr><tr><td><a href="/locations/greater-manchester/bolton">Bolton</a></td><td>£190,000</td><td>3,029</td><td>+1.4%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Salford</strong></td><td><strong>£223,350</strong></td><td><strong>2,752</strong></td><td><strong>-1.2%</strong></td></tr><tr><td><a href="/locations/greater-manchester/bury">Bury</a></td><td>£230,000</td><td>2,008</td><td>-1.1%</td></tr><tr><td><a href="/locations/greater-manchester/ashton-under-lyne">Ashton-under-Lyne</a></td><td>£204,000</td><td>2,261</td><td>-0.5%</td></tr><tr><td><a href="/locations/greater-manchester/manchester">Manchester</a></td><td>£244,500</td><td>4,386</td><td>+1.9%</td></tr><tr><td><a href="/locations/greater-manchester/oldham">Oldham</a></td><td>£200,000</td><td>2,073</td><td>+5.3%</td></tr><tr><td><a href="/locations/greater-manchester/bolton">Bolton</a></td><td>£190,000</td><td>2,981</td><td>+1.1%</td></tr></tbody></table>`,
         `For the full Greater Manchester town-by-town breakdown, see our comprehensive <a href="/market-reports/greater-manchester-property-market-h1-2026">Greater Manchester property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Salford?`,
-      answer: `The median house price in Salford is £223,770, based on 2,807 transactions over the past 12 months. Detached homes average £385,500 while flat properties average £149,995.`,
+      answer: `The median house price in Salford is £223,350, based on 2,752 transactions over the past 12 months. Detached homes average £385,000 while flat properties average £150,000.`,
     },
     {
       question: `Are house prices rising or falling in Salford?`,
-      answer: `House prices in Salford are falling at -1% year-on-year. This decline may present buying opportunities for investors and developers. The wider Greater Manchester market is rising at +0.9%.`,
+      answer: `House prices in Salford are falling at -1.2% year-on-year. This decline may present buying opportunities for investors and developers. The wider Greater Manchester market is rising at +0.9%.`,
     },
     {
       question: `How many properties sold in Salford recently?`,
-      answer: `Salford recorded 2,807 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Salford recorded 2,752 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Salford?`,
@@ -85,7 +86,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["greater-manchester-property-market-h1-2026", "north-west-market-overview-h1-2026", "altrincham-greater-manchester-property-market-h1-2026", "ashton-under-lyne-greater-manchester-property-market-h1-2026", "bolton-greater-manchester-property-market-h1-2026", "bury-greater-manchester-property-market-h1-2026"],
   relatedTownSlugs: ["greater-manchester/salford"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":385500},{"name":"Semi-detached","value":265000},{"name":"Terraced","value":205000},{"name":"Flat","value":149995}]},
+  charts: {"priceByType":[{"name":"Detached","value":385000},{"name":"Semi-detached","value":265000},{"name":"Terraced","value":205000},{"name":"Flat","value":150000}]},
 };
 
 export default report;

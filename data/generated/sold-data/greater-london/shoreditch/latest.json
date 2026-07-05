@@ -1,19 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.293Z",
+  "updatedAt": "2026-07-05T06:06:54.682Z",
   "townSlug": "shoreditch",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": true,
   "stats": {
-    "medianPrice": 556750,
+    "medianPrice": 555000,
     "medianByType": {
       "D": 1055000,
       "S": 1400000,
-      "T": 1130000,
+      "T": 1120421,
       "F": 500000
     },
-    "transactionCount12m": 1678,
-    "yoyChange": -1.5,
+    "transactionCount12m": 1652,
+    "yoyChange": -1.8,
     "newBuildCount": 70,
-    "existingCount": 1608,
+    "existingCount": 1582,
     "newBuildPremium": -15.9
   },
   "recentTransactions": [

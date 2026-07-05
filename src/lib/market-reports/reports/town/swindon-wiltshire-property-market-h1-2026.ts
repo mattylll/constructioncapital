@@ -4,38 +4,39 @@ const report: MarketReport = {
   slug: "swindon-wiltshire-property-market-h1-2026",
   title: "Swindon Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
   metaTitle: "Swindon House Prices, End of H1 2026: £270,000 Median",
-  metaDescription: "Swindon house prices as at the end of H1 2026: £270,000 median, 2,627 sales, -2.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £270,000, 2,627 sales, -2.5% YoY. Wiltshire county.",
+  metaDescription: "Swindon house prices as at the end of H1 2026: £270,000 median, 2,580 sales, -2.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £270,000, 2,580 sales, -2.5% YoY. Wiltshire county.",
   category: "town",
   region: "South West",
   countySlug: "wiltshire",
   townSlug: "swindon",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Swindon Property Market Overview`,
       content: [
         `M4 corridor commercial centre with significant office-to-residential PD potential and growing tech sector`,
-        `The <a href="/locations/wiltshire/swindon">Swindon</a> property market recorded <strong>2,627</strong> residential sales over the past 12 months, with a median sale price of <strong>£270,000</strong>. This places Swindon £31k below the Wiltshire county median of £301,062, and £15k below the UK national median of £285,000.`,
+        `The <a href="/locations/wiltshire/swindon">Swindon</a> property market recorded <strong>2,580</strong> residential sales over the past 12 months, with a median sale price of <strong>£270,000</strong>. This places Swindon £33k below the Wiltshire county median of £303,299, and £15k below the UK national median of £285,000.`,
         `Prices in Swindon have shown a moderate decline, with a year-on-year change of <strong>-2.5%</strong>. Within <a href="/locations/wiltshire">Wiltshire</a>, Swindon ranks 8th by price out of 8 principal towns, and 1st by transaction volume.`,
+        `Swindon median prices have moved from £282,000 in Q1 2025 to £270,000 in Q2 2026, a change of -4.3% over 5 quarters.`,
       ],
     },
     {
       heading: `Swindon House Prices by Property Type`,
       content: [
         `Property prices in Swindon vary significantly by type. The table below compares Swindon prices with Wiltshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Swindon</th><th>Wiltshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£415,000</td><td>£452,488</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£297,000</td><td>£303,500</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£240,000</td><td>£245,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£145,099</td><td>£146,425</td><td>£225,000</td></tr></tbody></table>`,
-        `Detached homes in Swindon command <strong>£415,000</strong>, while flat properties are most accessible at <strong>£145,099</strong>. The <strong>£270k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
+        `<table><thead><tr><th>Type</th><th>Swindon</th><th>Wiltshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£415,000</td><td>£453,738</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£297,250</td><td>£303,625</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£240,000</td><td>£245,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£145,050</td><td>£146,525</td><td>£225,000</td></tr></tbody></table>`,
+        `Detached homes in Swindon command <strong>£415,000</strong>, while flat properties are most accessible at <strong>£145,050</strong>. The <strong>£270k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Swindon`,
       content: [
-        `Swindon recorded <strong>22</strong> new-build transactions in the past 12 months, representing <strong>0.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
-        `New-build properties in Swindon traded at a <strong>premium of 18.2%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/wiltshire-property-market-h1-2026">Wiltshire</a> market, 91 new-build completions were recorded — see our <a href="/market-reports/wiltshire-property-market-h1-2026">Wiltshire property market report</a> for the full county picture.`,
+        `Swindon recorded <strong>21</strong> new-build transactions in the past 12 months, representing <strong>0.8%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
+        `New-build properties in Swindon traded at a <strong>premium of 16.5%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/wiltshire-property-market-h1-2026">Wiltshire</a> market, 87 new-build completions were recorded — see our <a href="/market-reports/wiltshire-property-market-h1-2026">Wiltshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `Swindon Compared to Nearby Wiltshire Towns`,
       content: [
         `To put Swindon's market in context, the table below compares it with similarly-priced towns across <a href="/locations/wiltshire">Wiltshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Swindon</strong></td><td><strong>£270,000</strong></td><td><strong>2,627</strong></td><td><strong>-2.5%</strong></td></tr><tr><td><a href="/locations/wiltshire/trowbridge">Trowbridge</a></td><td>£280,000</td><td>650</td><td>0%</td></tr><tr><td><a href="/locations/wiltshire/melksham">Melksham</a></td><td>£285,000</td><td>347</td><td>-3.4%</td></tr><tr><td><a href="/locations/wiltshire/warminster">Warminster</a></td><td>£298,623</td><td>388</td><td>-1.8%</td></tr><tr><td><a href="/locations/wiltshire/devizes">Devizes</a></td><td>£303,500</td><td>410</td><td>+2.9%</td></tr><tr><td><a href="/locations/wiltshire/chippenham">Chippenham</a></td><td>£320,000</td><td>761</td><td>+3.2%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Swindon</strong></td><td><strong>£270,000</strong></td><td><strong>2,580</strong></td><td><strong>-2.5%</strong></td></tr><tr><td><a href="/locations/wiltshire/trowbridge">Trowbridge</a></td><td>£280,000</td><td>647</td><td>0%</td></tr><tr><td><a href="/locations/wiltshire/melksham">Melksham</a></td><td>£288,750</td><td>342</td><td>-2.1%</td></tr><tr><td><a href="/locations/wiltshire/warminster">Warminster</a></td><td>£299,598</td><td>384</td><td>-1.4%</td></tr><tr><td><a href="/locations/wiltshire/devizes">Devizes</a></td><td>£307,000</td><td>407</td><td>+4.1%</td></tr><tr><td><a href="/locations/wiltshire/chippenham">Chippenham</a></td><td>£320,000</td><td>740</td><td>+3.2%</td></tr></tbody></table>`,
         `For the full Wiltshire town-by-town breakdown, see our comprehensive <a href="/market-reports/wiltshire-property-market-h1-2026">Wiltshire property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Swindon?`,
-      answer: `The median house price in Swindon is £270,000, based on 2,627 transactions over the past 12 months. Detached homes average £415,000 while flat properties average £145,099.`,
+      answer: `The median house price in Swindon is £270,000, based on 2,580 transactions over the past 12 months. Detached homes average £415,000 while flat properties average £145,050.`,
     },
     {
       question: `Are house prices rising or falling in Swindon?`,
-      answer: `House prices in Swindon are falling at -2.5% year-on-year. This decline may present buying opportunities for investors and developers. The wider Wiltshire market is falling at -0.1%.`,
+      answer: `House prices in Swindon are falling at -2.5% year-on-year. This decline may present buying opportunities for investors and developers. The wider Wiltshire market is rising at +0.3%.`,
     },
     {
       question: `How many properties sold in Swindon recently?`,
-      answer: `Swindon recorded 2,627 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Swindon recorded 2,580 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Swindon?`,
@@ -85,7 +86,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["wiltshire-property-market-h1-2026", "south-west-market-overview-h1-2026", "chippenham-wiltshire-property-market-h1-2026", "devizes-wiltshire-property-market-h1-2026", "marlborough-wiltshire-property-market-h1-2026", "melksham-wiltshire-property-market-h1-2026"],
   relatedTownSlugs: ["wiltshire/swindon"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":415000},{"name":"Semi-detached","value":297000},{"name":"Terraced","value":240000},{"name":"Flat","value":145099}]},
+  charts: {"priceByType":[{"name":"Detached","value":415000},{"name":"Semi-detached","value":297250},{"name":"Terraced","value":240000},{"name":"Flat","value":145050}]},
 };
 
 export default report;

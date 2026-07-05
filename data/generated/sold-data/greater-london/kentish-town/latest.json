@@ -1,19 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.257Z",
+  "updatedAt": "2026-07-05T06:06:54.649Z",
   "townSlug": "kentish-town",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": true,
   "stats": {
-    "medianPrice": 725500,
+    "medianPrice": 725000,
     "medianByType": {
       "D": 4600000,
       "S": 2442500,
       "T": 1650000,
-      "F": 645107
+      "F": 642500
     },
-    "transactionCount12m": 1342,
-    "yoyChange": -4.5,
+    "transactionCount12m": 1322,
+    "yoyChange": -4.9,
     "newBuildCount": 13,
-    "existingCount": 1329,
+    "existingCount": 1309,
     "newBuildPremium": 5.5
   },
   "recentTransactions": [

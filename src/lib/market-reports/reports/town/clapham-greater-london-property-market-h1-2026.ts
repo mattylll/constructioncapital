@@ -3,39 +3,41 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "clapham-greater-london-property-market-h1-2026",
   title: "Clapham Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
-  metaTitle: "Clapham House Prices, End of H1 2026: £530,000 Median",
-  metaDescription: "Clapham house prices as at the end of H1 2026: £530,000 median, 2,688 sales, -3.2% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £530,000, 2,688 sales, -3.2% YoY. Greater London county.",
+  metaTitle: "Clapham House Prices, End of H1 2026: £525,000 Median",
+  metaDescription: "Clapham house prices as at the end of H1 2026: £525,000 median, 2,644 sales, -4.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £525,000, 2,644 sales, -4.5% YoY. Greater London county.",
   category: "town",
   region: "London & South East",
   countySlug: "greater-london",
   townSlug: "clapham",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `Clapham Property Market Overview`,
       content: [
         `Lambeth family market with Victorian terraces, extensive back-garden development and strong buyer liquidity`,
-        `The <a href="/locations/greater-london/clapham">Clapham</a> property market recorded <strong>2,688</strong> residential sales over the past 12 months, with a median sale price of <strong>£530,000</strong>. This places Clapham in line with the Greater London county median, and £245k above the UK national median of £285,000.`,
-        `Prices in Clapham have shown a moderate decline, with a year-on-year change of <strong>-3.2%</strong>. Within <a href="/locations/greater-london">Greater London</a>, Clapham ranks 26th by price out of 51 principal towns, and 8th by transaction volume.`,
+        `The <a href="/locations/greater-london/clapham">Clapham</a> property market recorded <strong>2,644</strong> residential sales over the past 12 months, with a median sale price of <strong>£525,000</strong>. This places Clapham £40k above the Greater London county median of £485,000, and £240k above the UK national median of £285,000.`,
+        `Prices in Clapham have shown a moderate decline, with a year-on-year change of <strong>-4.5%</strong>. Within <a href="/locations/greater-london">Greater London</a>, Clapham ranks 26th by price out of 51 principal towns, and 8th by transaction volume.`,
+        `Clapham median prices have moved from £520,000 in Q1 2025 to £515,000 in Q2 2026, a change of -1.0% over 5 quarters.`,
+        `Clapham shares a HM Land Registry reporting district with neighbouring towns, and the source data does not distinguish Clapham-specific sales from the wider district. The figures above reflect the whole shared district rather than Clapham alone.`,
       ],
     },
     {
       heading: `Clapham House Prices by Property Type`,
       content: [
         `Property prices in Clapham vary significantly by type. The table below compares Clapham prices with Greater London county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>Clapham</th><th>Greater London Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£1.18m</td><td>£1.16m</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£1.10m</td><td>£815,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£867,500</td><td>£814,500</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£455,000</td><td>£450,000</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>Clapham</th><th>Greater London Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£1.18m</td><td>£852,750</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£1.13m</td><td>£608,375</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£865,000</td><td>£505,000</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£455,000</td><td>£338,000</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in Clapham command <strong>£1.18m</strong>, while flat properties are most accessible at <strong>£455,000</strong>. The <strong>£720k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in Clapham`,
       content: [
-        `Clapham recorded <strong>45</strong> new-build transactions in the past 12 months, representing <strong>1.7%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
-        `New-build properties in Clapham traded at a <strong>premium of 24.9%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/greater-london-property-market-h1-2026">Greater London</a> market, 1,536 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a> for the full county picture.`,
+        `Clapham recorded <strong>43</strong> new-build transactions in the past 12 months, representing <strong>1.6%</strong> of total sales. This indicates meaningful developer activity and proven buyer demand for new homes in the area.`,
+        `New-build properties in Clapham traded at a <strong>premium of 23.3%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/greater-london-property-market-h1-2026">Greater London</a> market, 412 new-build completions were recorded — see our <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -49,9 +51,9 @@ const report: MarketReport = {
     {
       heading: `Development Finance in Clapham`,
       content: [
-        `For developers considering Clapham, the local market data translates directly into finance structuring. With a median value of £530,000 and detached homes at £1.18m, lenders can assess scheme viability with confidence.`,
+        `For developers considering Clapham, the local market data translates directly into finance structuring. With a median value of £525,000 and detached homes at £1.18m, lenders can assess scheme viability with confidence.`,
         `A typical <a href="/services/development-finance">development finance</a> facility for a Clapham scheme with a GDV of £1.18m would attract <strong>senior debt of approximately £763,750</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `While prices have softened 3.2% year-on-year, experienced developers can still generate strong returns in Clapham by targeting well-located sites with clear demand drivers.`,
+        `While prices have softened 4.5% year-on-year, experienced developers can still generate strong returns in Clapham by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in Clapham? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -59,7 +61,7 @@ const report: MarketReport = {
       heading: `Clapham Compared to Nearby Greater London Towns`,
       content: [
         `To put Clapham's market in context, the table below compares it with similarly-priced towns across <a href="/locations/greater-london">Greater London</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Clapham</strong></td><td><strong>£530,000</strong></td><td><strong>2,688</strong></td><td><strong>-3.2%</strong></td></tr><tr><td><a href="/locations/greater-london/brixton">Brixton</a></td><td>£530,000</td><td>2,688</td><td>-3.2%</td></tr><tr><td><a href="/locations/greater-london/vauxhall">Vauxhall</a></td><td>£530,000</td><td>2,688</td><td>-3.2%</td></tr><tr><td><a href="/locations/greater-london/harrow">Harrow</a></td><td>£526,000</td><td>1,440</td><td>+3.1%</td></tr><tr><td><a href="/locations/greater-london/leytonstone">Leytonstone</a></td><td>£535,000</td><td>2,191</td><td>+3.9%</td></tr><tr><td><a href="/locations/greater-london/merton">Merton</a></td><td>£525,000</td><td>1,652</td><td>0%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>Clapham</strong></td><td><strong>£525,000</strong></td><td><strong>2,644</strong></td><td><strong>-4.5%</strong></td></tr><tr><td><a href="/locations/greater-london/brixton">Brixton</a></td><td>£525,000</td><td>2,644</td><td>-4.5%</td></tr><tr><td><a href="/locations/greater-london/harrow">Harrow</a></td><td>£525,000</td><td>1,423</td><td>+2.9%</td></tr><tr><td><a href="/locations/greater-london/merton">Merton</a></td><td>£525,000</td><td>1,627</td><td>0%</td></tr><tr><td><a href="/locations/greater-london/vauxhall">Vauxhall</a></td><td>£525,000</td><td>2,644</td><td>-4.5%</td></tr><tr><td><a href="/locations/greater-london/wimbledon">Wimbledon</a></td><td>£525,000</td><td>1,627</td><td>0%</td></tr></tbody></table>`,
         `For the full Greater London town-by-town breakdown, see our comprehensive <a href="/market-reports/greater-london-property-market-h1-2026">Greater London property market report</a>.`,
       ],
     },
@@ -67,15 +69,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in Clapham?`,
-      answer: `The median house price in Clapham is £530,000, based on 2,688 transactions over the past 12 months. Detached homes average £1.18m while flat properties average £455,000.`,
+      answer: `The median house price in Clapham is £525,000, based on 2,644 transactions over the past 12 months. Detached homes average £1.18m while flat properties average £455,000.`,
     },
     {
       question: `Are house prices rising or falling in Clapham?`,
-      answer: `House prices in Clapham are falling at -3.2% year-on-year. This decline may present buying opportunities for investors and developers. The wider Greater London market is falling at -2.6%.`,
+      answer: `House prices in Clapham are falling at -4.5% year-on-year. This decline may present buying opportunities for investors and developers. The wider Greater London market is flat at 0%.`,
     },
     {
       question: `How many properties sold in Clapham recently?`,
-      answer: `Clapham recorded 2,688 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `Clapham recorded 2,644 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in Clapham?`,
@@ -85,7 +87,7 @@ const report: MarketReport = {
   relatedReportSlugs: ["greater-london-property-market-h1-2026", "london-and-south-east-market-overview-h1-2026", "barking-greater-london-property-market-h1-2026", "barnet-greater-london-property-market-h1-2026", "battersea-greater-london-property-market-h1-2026", "bermondsey-greater-london-property-market-h1-2026"],
   relatedTownSlugs: ["greater-london/clapham"],
   relatedServiceSlugs: ["development-finance", "bridging-loans", "mezzanine-finance"],
-  charts: {"priceByType":[{"name":"Detached","value":1175000},{"name":"Semi-detached","value":1100000},{"name":"Terraced","value":867500},{"name":"Flat","value":455000}]},
+  charts: {"priceByType":[{"name":"Detached","value":1175000},{"name":"Semi-detached","value":1130000},{"name":"Terraced","value":865000},{"name":"Flat","value":455000}]},
 };
 
 export default report;

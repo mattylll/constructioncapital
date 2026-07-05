@@ -1,19 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.713Z",
+  "updatedAt": "2026-07-05T06:06:55.073Z",
   "townSlug": "wandsworth",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": true,
   "stats": {
-    "medianPrice": 630000,
+    "medianPrice": 625750,
     "medianByType": {
       "D": 2447500,
-      "S": 1450000,
-      "T": 1045000,
+      "S": 1464000,
+      "T": 1042500,
       "F": 515000
     },
-    "transactionCount12m": 3449,
-    "yoyChange": 0.8,
-    "newBuildCount": 89,
-    "existingCount": 3360,
+    "transactionCount12m": 3390,
+    "yoyChange": 0.1,
+    "newBuildCount": 88,
+    "existingCount": 3302,
     "newBuildPremium": 102.8
   },
   "recentTransactions": [

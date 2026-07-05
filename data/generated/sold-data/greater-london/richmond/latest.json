@@ -1,19 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.496Z",
+  "updatedAt": "2026-07-05T06:06:54.872Z",
   "townSlug": "richmond",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": false,
   "stats": {
-    "medianPrice": 690000,
+    "medianPrice": 690500,
     "medianByType": {
-      "D": 1562500,
-      "S": 948482,
-      "T": 870500,
-      "F": 460000
+      "D": 1525000,
+      "S": 940000,
+      "T": 875000,
+      "F": 465000
     },
-    "transactionCount12m": 1876,
-    "yoyChange": 0.7,
+    "transactionCount12m": 1832,
+    "yoyChange": 0.2,
     "newBuildCount": 1,
-    "existingCount": 1875,
+    "existingCount": 1831,
     "newBuildPremium": null
   },
   "recentTransactions": [

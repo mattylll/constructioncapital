@@ -3,39 +3,40 @@ import type { MarketReport } from "../../types";
 const report: MarketReport = {
   slug: "st-neots-cambridgeshire-property-market-h1-2026",
   title: "St Neots Property Market: House Prices, Sold Data & Development Finance, End of H1 2026",
-  metaTitle: "St Neots House Prices, End of H1 2026: £312,000 Median",
-  metaDescription: "St Neots house prices as at the end of H1 2026: £312,000 median, 611 sales, -6.9% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
-  excerpt: "Median price £312,000, 611 sales, -6.9% YoY. Cambridgeshire county.",
+  metaTitle: "St Neots House Prices, End of H1 2026: £310,000 Median",
+  metaDescription: "St Neots house prices as at the end of H1 2026: £310,000 median, 602 sales, -7.5% YoY. Sold-price trends by property type, planning pipeline, new-build premiums and development finance.",
+  excerpt: "Median price £310,000, 602 sales, -7.5% YoY. Cambridgeshire county.",
   category: "town",
   region: "East of England",
   countySlug: "cambridgeshire",
   townSlug: "st-neots",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `St Neots Property Market Overview`,
       content: [
         `Huntingdonshire market town with fast London services and Loves Farm expansion`,
-        `The <a href="/locations/cambridgeshire/st-neots">St Neots</a> property market recorded <strong>611</strong> residential sales over the past 12 months, with a median sale price of <strong>£312,000</strong>. This places St Neots £10k above the Cambridgeshire county median of £302,500, and £27k above the UK national median of £285,000.`,
-        `Prices in St Neots have shown a notable decline, with a year-on-year change of <strong>-6.9%</strong>. Within <a href="/locations/cambridgeshire">Cambridgeshire</a>, St Neots ranks 3rd by price out of 8 principal towns, and 5th by transaction volume.`,
+        `The <a href="/locations/cambridgeshire/st-neots">St Neots</a> property market recorded <strong>602</strong> residential sales over the past 12 months, with a median sale price of <strong>£310,000</strong>. This places St Neots £7k above the Cambridgeshire county median of £302,750, and £25k above the UK national median of £285,000.`,
+        `Prices in St Neots have shown a notable decline, with a year-on-year change of <strong>-7.5%</strong>. Within <a href="/locations/cambridgeshire">Cambridgeshire</a>, St Neots ranks 3rd by price out of 8 principal towns, and 5th by transaction volume.`,
+        `St Neots median prices have moved from £325,000 in Q1 2025 to £290,000 in Q2 2026, a change of -10.8% over 5 quarters. St Neots has now recorded 2 consecutive quarters of price falls.`,
       ],
     },
     {
       heading: `St Neots House Prices by Property Type`,
       content: [
         `Property prices in St Neots vary significantly by type. The table below compares St Neots prices with Cambridgeshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>St Neots</th><th>Cambridgeshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£450,000</td><td>£430,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£320,000</td><td>£293,250</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£275,000</td><td>£247,750</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£175,000</td><td>£155,125</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>St Neots</th><th>Cambridgeshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£450,000</td><td>£430,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£320,000</td><td>£294,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£275,000</td><td>£247,625</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£175,000</td><td>£155,125</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in St Neots command <strong>£450,000</strong>, while flat properties are most accessible at <strong>£175,000</strong>. The <strong>£275k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
     {
       heading: `New Build Homes in St Neots`,
       content: [
-        `St Neots recorded <strong>19</strong> new-build transactions in the past 12 months, representing <strong>3.1%</strong> of total sales. There is moderate development activity, with room for further growth.`,
-        `New-build properties in St Neots traded at a <strong>premium of 16.8%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
-        `Across the wider <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire</a> market, 103 new-build completions were recorded — see our <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire property market report</a> for the full county picture.`,
+        `St Neots recorded <strong>19</strong> new-build transactions in the past 12 months, representing <strong>3.2%</strong> of total sales. There is moderate development activity, with room for further growth.`,
+        `New-build properties in St Neots traded at a <strong>premium of 17.6%</strong> versus existing stock. This premium supports the viability of new development, as buyers are willing to pay more for new homes.`,
+        `Across the wider <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire</a> market, 98 new-build completions were recorded — see our <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -49,9 +50,9 @@ const report: MarketReport = {
     {
       heading: `Development Finance in St Neots`,
       content: [
-        `For developers considering St Neots, the local market data translates directly into finance structuring. With a median value of £312,000 and detached homes at £450,000, lenders can assess scheme viability with confidence.`,
+        `For developers considering St Neots, the local market data translates directly into finance structuring. With a median value of £310,000 and detached homes at £450,000, lenders can assess scheme viability with confidence.`,
         `A typical <a href="/services/development-finance">development finance</a> facility for a St Neots scheme with a GDV of £450,000 would attract <strong>senior debt of approximately £292,500</strong> at 65% LTGDV. <a href="/services/mezzanine-finance">Mezzanine finance</a> can stretch total borrowing to 85-90% of costs, while <a href="/services/bridging-loans">bridging loans</a> enable rapid site acquisitions completing in as little as 5 working days.`,
-        `While prices have softened 6.9% year-on-year, experienced developers can still generate strong returns in St Neots by targeting well-located sites with clear demand drivers.`,
+        `While prices have softened 7.5% year-on-year, experienced developers can still generate strong returns in St Neots by targeting well-located sites with clear demand drivers.`,
         `Ready to develop in St Neots? <a href="/deal-room">Submit your scheme</a> for indicative terms within 24 hours from our panel of 100+ lenders.`,
       ],
     },
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `St Neots Compared to Nearby Cambridgeshire Towns`,
       content: [
         `To put St Neots's market in context, the table below compares it with similarly-priced towns across <a href="/locations/cambridgeshire">Cambridgeshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>St Neots</strong></td><td><strong>£312,000</strong></td><td><strong>611</strong></td><td><strong>-6.9%</strong></td></tr><tr><td><a href="/locations/cambridgeshire/huntingdon">Huntingdon</a></td><td>£305,000</td><td>1,149</td><td>-6.2%</td></tr><tr><td><a href="/locations/cambridgeshire/st-ives">St Ives</a></td><td>£300,000</td><td>221</td><td>-3.2%</td></tr><tr><td><a href="/locations/cambridgeshire/ely">Ely</a></td><td>£340,000</td><td>911</td><td>0%</td></tr><tr><td><a href="/locations/cambridgeshire/march">March</a></td><td>£235,000</td><td>372</td><td>-1.7%</td></tr><tr><td><a href="/locations/cambridgeshire/peterborough">Peterborough</a></td><td>£235,000</td><td>1,843</td><td>-2.1%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>St Neots</strong></td><td><strong>£310,000</strong></td><td><strong>602</strong></td><td><strong>-7.5%</strong></td></tr><tr><td><a href="/locations/cambridgeshire/huntingdon">Huntingdon</a></td><td>£305,500</td><td>1,136</td><td>-6%</td></tr><tr><td><a href="/locations/cambridgeshire/st-ives">St Ives</a></td><td>£300,000</td><td>221</td><td>-3.2%</td></tr><tr><td><a href="/locations/cambridgeshire/ely">Ely</a></td><td>£340,000</td><td>898</td><td>0%</td></tr><tr><td><a href="/locations/cambridgeshire/march">March</a></td><td>£235,000</td><td>365</td><td>-2.1%</td></tr><tr><td><a href="/locations/cambridgeshire/peterborough">Peterborough</a></td><td>£235,000</td><td>1,816</td><td>-2.1%</td></tr></tbody></table>`,
         `For the full Cambridgeshire town-by-town breakdown, see our comprehensive <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire property market report</a>.`,
       ],
     },
@@ -67,15 +68,15 @@ const report: MarketReport = {
   faqs: [
     {
       question: `What is the average house price in St Neots?`,
-      answer: `The median house price in St Neots is £312,000, based on 611 transactions over the past 12 months. Detached homes average £450,000 while flat properties average £175,000.`,
+      answer: `The median house price in St Neots is £310,000, based on 602 transactions over the past 12 months. Detached homes average £450,000 while flat properties average £175,000.`,
     },
     {
       question: `Are house prices rising or falling in St Neots?`,
-      answer: `House prices in St Neots are falling at -6.9% year-on-year. This decline may present buying opportunities for investors and developers. The wider Cambridgeshire market is falling at -2.3%.`,
+      answer: `House prices in St Neots are falling at -7.5% year-on-year. This decline may present buying opportunities for investors and developers. The wider Cambridgeshire market is falling at -2.2%.`,
     },
     {
       question: `How many properties sold in St Neots recently?`,
-      answer: `St Neots recorded 611 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
+      answer: `St Neots recorded 602 residential property sales in the past 12 months. This high volume indicates a liquid, active market.`,
     },
     {
       question: `What development finance is available for projects in St Neots?`,

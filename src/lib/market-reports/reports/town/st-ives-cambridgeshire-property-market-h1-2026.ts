@@ -10,23 +10,24 @@ const report: MarketReport = {
   region: "East of England",
   countySlug: "cambridgeshire",
   townSlug: "st-ives",
-  datePublished: "2026-07-04",
-  dateModified: "2026-07-04",
+  datePublished: "2026-07-05",
+  dateModified: "2026-07-05",
   readingTime: "5 min read",
   sections: [
     {
       heading: `St Ives Property Market Overview`,
       content: [
         `Cambridgeshire market town with guided busway Cambridge connectivity and riverside development`,
-        `The <a href="/locations/cambridgeshire/st-ives">St Ives</a> property market recorded <strong>221</strong> residential sales over the past 12 months, with a median sale price of <strong>£300,000</strong>. This places St Ives £3k below the Cambridgeshire county median of £302,500, and £15k above the UK national median of £285,000.`,
+        `The <a href="/locations/cambridgeshire/st-ives">St Ives</a> property market recorded <strong>221</strong> residential sales over the past 12 months, with a median sale price of <strong>£300,000</strong>. This places St Ives £3k below the Cambridgeshire county median of £302,750, and £15k above the UK national median of £285,000.`,
         `Prices in St Ives have shown a moderate decline, with a year-on-year change of <strong>-3.2%</strong>. Within <a href="/locations/cambridgeshire">Cambridgeshire</a>, St Ives ranks 5th by price out of 8 principal towns, and 8th by transaction volume.`,
+        `St Ives median prices have moved from £320,000 in Q1 2025 to £260,000 in Q2 2026, a change of -18.8% over 5 quarters.`,
       ],
     },
     {
       heading: `St Ives House Prices by Property Type`,
       content: [
         `Property prices in St Ives vary significantly by type. The table below compares St Ives prices with Cambridgeshire county averages and UK national figures.`,
-        `<table><thead><tr><th>Type</th><th>St Ives</th><th>Cambridgeshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£435,000</td><td>£430,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£312,500</td><td>£293,250</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£257,750</td><td>£247,750</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£190,000</td><td>£155,125</td><td>£225,000</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Type</th><th>St Ives</th><th>Cambridgeshire Avg</th><th>UK Avg</th></tr></thead><tbody><tr><td><strong>Detached</strong></td><td>£435,000</td><td>£430,000</td><td>£420,000</td></tr><tr><td><strong>Semi-detached</strong></td><td>£312,500</td><td>£294,000</td><td>£265,000</td></tr><tr><td><strong>Terraced</strong></td><td>£257,750</td><td>£247,625</td><td>£230,000</td></tr><tr><td><strong>Flat</strong></td><td>£190,000</td><td>£155,125</td><td>£225,000</td></tr></tbody></table>`,
         `Detached homes in St Ives command <strong>£435,000</strong>, while flat properties are most accessible at <strong>£190,000</strong>. The <strong>£245k spread</strong> between the most and least expensive types indicates a diverse market with opportunities across the development spectrum.`,
       ],
     },
@@ -35,7 +36,7 @@ const report: MarketReport = {
       content: [
         `St Ives recorded <strong>0</strong> new-build transactions in the past 12 months, representing <strong>0.0%</strong> of total sales. New-build supply is limited, potentially indicating either planning constraints or an untapped opportunity for developers.`,
         `New-build properties in St Ives traded at a <strong>discount of 0.0%</strong> versus existing stock. Developers should focus on specification, design quality, and location to maximise values above comparable second-hand stock.`,
-        `Across the wider <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire</a> market, 103 new-build completions were recorded — see our <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire property market report</a> for the full county picture.`,
+        `Across the wider <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire</a> market, 98 new-build completions were recorded — see our <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire property market report</a> for the full county picture.`,
       ],
     },
     {
@@ -59,7 +60,7 @@ const report: MarketReport = {
       heading: `St Ives Compared to Nearby Cambridgeshire Towns`,
       content: [
         `To put St Ives's market in context, the table below compares it with similarly-priced towns across <a href="/locations/cambridgeshire">Cambridgeshire</a>:`,
-        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>St Ives</strong></td><td><strong>£300,000</strong></td><td><strong>221</strong></td><td><strong>-3.2%</strong></td></tr><tr><td><a href="/locations/cambridgeshire/huntingdon">Huntingdon</a></td><td>£305,000</td><td>1,149</td><td>-6.2%</td></tr><tr><td><a href="/locations/cambridgeshire/st-neots">St Neots</a></td><td>£312,000</td><td>611</td><td>-6.9%</td></tr><tr><td><a href="/locations/cambridgeshire/ely">Ely</a></td><td>£340,000</td><td>911</td><td>0%</td></tr><tr><td><a href="/locations/cambridgeshire/march">March</a></td><td>£235,000</td><td>372</td><td>-1.7%</td></tr><tr><td><a href="/locations/cambridgeshire/peterborough">Peterborough</a></td><td>£235,000</td><td>1,843</td><td>-2.1%</td></tr></tbody></table>`,
+        `<table><thead><tr><th>Town</th><th>Median Price</th><th>Sales (12m)</th><th>YoY Change</th></tr></thead><tbody><tr><td><strong>St Ives</strong></td><td><strong>£300,000</strong></td><td><strong>221</strong></td><td><strong>-3.2%</strong></td></tr><tr><td><a href="/locations/cambridgeshire/huntingdon">Huntingdon</a></td><td>£305,500</td><td>1,136</td><td>-6%</td></tr><tr><td><a href="/locations/cambridgeshire/st-neots">St Neots</a></td><td>£310,000</td><td>602</td><td>-7.5%</td></tr><tr><td><a href="/locations/cambridgeshire/ely">Ely</a></td><td>£340,000</td><td>898</td><td>0%</td></tr><tr><td><a href="/locations/cambridgeshire/march">March</a></td><td>£235,000</td><td>365</td><td>-2.1%</td></tr><tr><td><a href="/locations/cambridgeshire/peterborough">Peterborough</a></td><td>£235,000</td><td>1,816</td><td>-2.1%</td></tr></tbody></table>`,
         `For the full Cambridgeshire town-by-town breakdown, see our comprehensive <a href="/market-reports/cambridgeshire-property-market-h1-2026">Cambridgeshire property market report</a>.`,
       ],
     },
@@ -71,7 +72,7 @@ const report: MarketReport = {
     },
     {
       question: `Are house prices rising or falling in St Ives?`,
-      answer: `House prices in St Ives are falling at -3.2% year-on-year. This decline may present buying opportunities for investors and developers. The wider Cambridgeshire market is falling at -2.3%.`,
+      answer: `House prices in St Ives are falling at -3.2% year-on-year. This decline may present buying opportunities for investors and developers. The wider Cambridgeshire market is falling at -2.2%.`,
     },
     {
       question: `How many properties sold in St Ives recently?`,
