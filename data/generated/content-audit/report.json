@@ -1,0 +1,2231 @@
+{
+  "generatedAt": "2026-07-10T09:03:42.573Z",
+  "pagesAudited": 3504,
+  "summary": {
+    "critical": 0,
+    "warning": 0,
+    "info": 207,
+    "boilerplateIndexPct": 93
+  },
+  "findings": [
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "croydon",
+      "service": null,
+      "url": "/locations/greater-london/croydon",
+      "detail": "Planning dataset has 176 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "woolwich",
+      "service": null,
+      "url": "/locations/greater-london/woolwich",
+      "detail": "Planning dataset has 110 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "stratford",
+      "service": null,
+      "url": "/locations/greater-london/stratford",
+      "detail": "Planning dataset has 23 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "tottenham",
+      "service": null,
+      "url": "/locations/greater-london/tottenham",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "greater-london",
+      "town": "tottenham",
+      "service": null,
+      "url": "/locations/greater-london/tottenham",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "brixton",
+      "service": null,
+      "url": "/locations/greater-london/brixton",
+      "detail": "Planning dataset has 170 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "greater-london",
+      "town": "highgate",
+      "service": null,
+      "url": "/locations/greater-london/highgate",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "greater-london",
+      "town": "wimbledon",
+      "service": null,
+      "url": "/locations/greater-london/wimbledon",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "greater-london",
+      "town": "sutton",
+      "service": null,
+      "url": "/locations/greater-london/sutton",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "greater-london",
+      "town": "merton",
+      "service": null,
+      "url": "/locations/greater-london/merton",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "kent",
+      "town": "chatham",
+      "service": null,
+      "url": "/locations/kent/chatham",
+      "detail": "Planning dataset has 13 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "kent",
+      "town": "chatham",
+      "service": null,
+      "url": "/locations/kent/chatham",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "kent",
+      "town": "folkestone",
+      "service": null,
+      "url": "/locations/kent/folkestone",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "kent",
+      "town": "dartford",
+      "service": null,
+      "url": "/locations/kent/dartford",
+      "detail": "Planning dataset has 22 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "kent",
+      "town": "tonbridge",
+      "service": null,
+      "url": "/locations/kent/tonbridge",
+      "detail": "Planning dataset has 49 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "kent",
+      "town": "dover",
+      "service": null,
+      "url": "/locations/kent/dover",
+      "detail": "Planning dataset has 16 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "kent",
+      "town": "sevenoaks",
+      "service": null,
+      "url": "/locations/kent/sevenoaks",
+      "detail": "Planning dataset has 10 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "kent",
+      "town": "margate",
+      "service": null,
+      "url": "/locations/kent/margate",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "surrey",
+      "town": "epsom",
+      "service": null,
+      "url": "/locations/surrey/epsom",
+      "detail": "Planning dataset has 44 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "sussex",
+      "town": "worthing",
+      "service": null,
+      "url": "/locations/sussex/worthing",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "sussex",
+      "town": "crawley",
+      "service": null,
+      "url": "/locations/sussex/crawley",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "sussex",
+      "town": "horsham",
+      "service": null,
+      "url": "/locations/sussex/horsham",
+      "detail": "Planning dataset has 16 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "sussex",
+      "town": "horsham",
+      "service": null,
+      "url": "/locations/sussex/horsham",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hampshire",
+      "town": "portsmouth",
+      "service": null,
+      "url": "/locations/hampshire/portsmouth",
+      "detail": "Planning dataset has 37 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hampshire",
+      "town": "winchester",
+      "service": null,
+      "url": "/locations/hampshire/winchester",
+      "detail": "Planning dataset has 75 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hampshire",
+      "town": "andover",
+      "service": null,
+      "url": "/locations/hampshire/andover",
+      "detail": "Planning dataset has 11 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hampshire",
+      "town": "farnborough",
+      "service": null,
+      "url": "/locations/hampshire/farnborough",
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hampshire",
+      "town": "aldershot",
+      "service": null,
+      "url": "/locations/hampshire/aldershot",
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hampshire",
+      "town": "fleet",
+      "service": null,
+      "url": "/locations/hampshire/fleet",
+      "detail": "Planning dataset has 38 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "berkshire",
+      "town": "maidenhead",
+      "service": null,
+      "url": "/locations/berkshire/maidenhead",
+      "detail": "Planning dataset has 69 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "berkshire",
+      "town": "wokingham",
+      "service": null,
+      "url": "/locations/berkshire/wokingham",
+      "detail": "Planning dataset has 2 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "berkshire",
+      "town": "newbury",
+      "service": null,
+      "url": "/locations/berkshire/newbury",
+      "detail": "Planning dataset has 84 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "berkshire",
+      "town": "windsor",
+      "service": null,
+      "url": "/locations/berkshire/windsor",
+      "detail": "Planning dataset has 69 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "berkshire",
+      "town": "thatcham",
+      "service": null,
+      "url": "/locations/berkshire/thatcham",
+      "detail": "Planning dataset has 84 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "buckinghamshire",
+      "town": "aylesbury",
+      "service": null,
+      "url": "/locations/buckinghamshire/aylesbury",
+      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "buckinghamshire",
+      "town": "high-wycombe",
+      "service": null,
+      "url": "/locations/buckinghamshire/high-wycombe",
+      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "buckinghamshire",
+      "town": "amersham",
+      "service": null,
+      "url": "/locations/buckinghamshire/amersham",
+      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "buckinghamshire",
+      "town": "beaconsfield",
+      "service": null,
+      "url": "/locations/buckinghamshire/beaconsfield",
+      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "buckinghamshire",
+      "town": "marlow",
+      "service": null,
+      "url": "/locations/buckinghamshire/marlow",
+      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "buckinghamshire",
+      "town": "chesham",
+      "service": null,
+      "url": "/locations/buckinghamshire/chesham",
+      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "buckinghamshire",
+      "town": "buckingham",
+      "service": null,
+      "url": "/locations/buckinghamshire/buckingham",
+      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "buckinghamshire",
+      "town": "princes-risborough",
+      "service": null,
+      "url": "/locations/buckinghamshire/princes-risborough",
+      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "oxfordshire",
+      "town": "oxford",
+      "service": null,
+      "url": "/locations/oxfordshire/oxford",
+      "detail": "Planning dataset has 174 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "oxfordshire",
+      "town": "witney",
+      "service": null,
+      "url": "/locations/oxfordshire/witney",
+      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hertfordshire",
+      "town": "st-albans",
+      "service": null,
+      "url": "/locations/hertfordshire/st-albans",
+      "detail": "Planning dataset has 8 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hertfordshire",
+      "town": "watford",
+      "service": null,
+      "url": "/locations/hertfordshire/watford",
+      "detail": "Planning dataset has 18 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hertfordshire",
+      "town": "stevenage",
+      "service": null,
+      "url": "/locations/hertfordshire/stevenage",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hertfordshire",
+      "town": "hertford",
+      "service": null,
+      "url": "/locations/hertfordshire/hertford",
+      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hertfordshire",
+      "town": "bishops-stortford",
+      "service": null,
+      "url": "/locations/hertfordshire/bishops-stortford",
+      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hertfordshire",
+      "town": "harpenden",
+      "service": null,
+      "url": "/locations/hertfordshire/harpenden",
+      "detail": "Planning dataset has 8 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "essex",
+      "town": "basildon",
+      "service": null,
+      "url": "/locations/essex/basildon",
+      "detail": "Planning dataset has 27 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "essex",
+      "town": "southend-on-sea",
+      "service": null,
+      "url": "/locations/essex/southend-on-sea",
+      "detail": "Planning dataset has 89 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "essex",
+      "town": "grays",
+      "service": null,
+      "url": "/locations/essex/grays",
+      "detail": "Planning dataset has 65 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "essex",
+      "town": "grays",
+      "service": null,
+      "url": "/locations/essex/grays",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "bristol",
+      "town": "filton",
+      "service": null,
+      "url": "/locations/bristol/filton",
+      "detail": "Planning dataset has 86 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "somerset",
+      "town": "frome",
+      "service": null,
+      "url": "/locations/somerset/frome",
+      "detail": "Planning dataset has 117 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "somerset",
+      "town": "glastonbury",
+      "service": null,
+      "url": "/locations/somerset/glastonbury",
+      "detail": "Planning dataset has 117 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "somerset",
+      "town": "glastonbury",
+      "service": null,
+      "url": "/locations/somerset/glastonbury",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "somerset",
+      "town": "wells",
+      "service": null,
+      "url": "/locations/somerset/wells",
+      "detail": "Planning dataset has 117 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "somerset",
+      "town": "weston-super-mare",
+      "service": null,
+      "url": "/locations/somerset/weston-super-mare",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "devon",
+      "town": "exeter",
+      "service": null,
+      "url": "/locations/devon/exeter",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "devon",
+      "town": "plymouth",
+      "service": null,
+      "url": "/locations/devon/plymouth",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "devon",
+      "town": "tiverton",
+      "service": null,
+      "url": "/locations/devon/tiverton",
+      "detail": "Planning dataset has 33 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cornwall",
+      "town": "truro",
+      "service": null,
+      "url": "/locations/cornwall/truro",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cornwall",
+      "town": "falmouth",
+      "service": null,
+      "url": "/locations/cornwall/falmouth",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cornwall",
+      "town": "newquay",
+      "service": null,
+      "url": "/locations/cornwall/newquay",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cornwall",
+      "town": "penzance",
+      "service": null,
+      "url": "/locations/cornwall/penzance",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cornwall",
+      "town": "st-austell",
+      "service": null,
+      "url": "/locations/cornwall/st-austell",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cornwall",
+      "town": "bodmin",
+      "service": null,
+      "url": "/locations/cornwall/bodmin",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cornwall",
+      "town": "camborne",
+      "service": null,
+      "url": "/locations/cornwall/camborne",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cornwall",
+      "town": "bude",
+      "service": null,
+      "url": "/locations/cornwall/bude",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "wiltshire",
+      "town": "trowbridge",
+      "service": null,
+      "url": "/locations/wiltshire/trowbridge",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "gloucestershire",
+      "town": "cheltenham",
+      "service": null,
+      "url": "/locations/gloucestershire/cheltenham",
+      "detail": "Planning dataset has 160 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "gloucestershire",
+      "town": "gloucester",
+      "service": null,
+      "url": "/locations/gloucestershire/gloucester",
+      "detail": "Planning dataset has 82 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "gloucestershire",
+      "town": "cirencester",
+      "service": null,
+      "url": "/locations/gloucestershire/cirencester",
+      "detail": "Planning dataset has 228 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "gloucestershire",
+      "town": "tewkesbury",
+      "service": null,
+      "url": "/locations/gloucestershire/tewkesbury",
+      "detail": "Planning dataset has 150 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "gloucestershire",
+      "town": "lydney",
+      "service": null,
+      "url": "/locations/gloucestershire/lydney",
+      "detail": "Planning dataset has 85 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "west-midlands",
+      "town": "birmingham",
+      "service": null,
+      "url": "/locations/west-midlands/birmingham",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "west-midlands",
+      "town": "wolverhampton",
+      "service": null,
+      "url": "/locations/west-midlands/wolverhampton",
+      "detail": "Planning dataset has 132 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "west-midlands",
+      "town": "coventry",
+      "service": null,
+      "url": "/locations/west-midlands/coventry",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "west-midlands",
+      "town": "solihull",
+      "service": null,
+      "url": "/locations/west-midlands/solihull",
+      "detail": "Planning dataset has 23 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "west-midlands",
+      "town": "dudley",
+      "service": null,
+      "url": "/locations/west-midlands/dudley",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "west-midlands",
+      "town": "west-bromwich",
+      "service": null,
+      "url": "/locations/west-midlands/west-bromwich",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "staffordshire",
+      "town": "stafford",
+      "service": null,
+      "url": "/locations/staffordshire/stafford",
+      "detail": "Planning dataset has 13 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "staffordshire",
+      "town": "lichfield",
+      "service": null,
+      "url": "/locations/staffordshire/lichfield",
+      "detail": "Planning dataset has 56 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "staffordshire",
+      "town": "lichfield",
+      "service": null,
+      "url": "/locations/staffordshire/lichfield",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "worcestershire",
+      "town": "redditch",
+      "service": null,
+      "url": "/locations/worcestershire/redditch",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "worcestershire",
+      "town": "bromsgrove",
+      "service": null,
+      "url": "/locations/worcestershire/bromsgrove",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "shropshire",
+      "town": "shrewsbury",
+      "service": null,
+      "url": "/locations/shropshire/shrewsbury",
+      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "shropshire",
+      "town": "oswestry",
+      "service": null,
+      "url": "/locations/shropshire/oswestry",
+      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "shropshire",
+      "town": "bridgnorth",
+      "service": null,
+      "url": "/locations/shropshire/bridgnorth",
+      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "shropshire",
+      "town": "bridgnorth",
+      "service": null,
+      "url": "/locations/shropshire/bridgnorth",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "shropshire",
+      "town": "market-drayton",
+      "service": null,
+      "url": "/locations/shropshire/market-drayton",
+      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "shropshire",
+      "town": "ludlow",
+      "service": null,
+      "url": "/locations/shropshire/ludlow",
+      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "derbyshire",
+      "town": "derby",
+      "service": null,
+      "url": "/locations/derbyshire/derby",
+      "detail": "Planning dataset has 76 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "derbyshire",
+      "town": "chesterfield",
+      "service": null,
+      "url": "/locations/derbyshire/chesterfield",
+      "detail": "Planning dataset has 49 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "derbyshire",
+      "town": "long-eaton",
+      "service": null,
+      "url": "/locations/derbyshire/long-eaton",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "nottinghamshire",
+      "town": "nottingham",
+      "service": null,
+      "url": "/locations/nottinghamshire/nottingham",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "nottinghamshire",
+      "town": "mansfield",
+      "service": null,
+      "url": "/locations/nottinghamshire/mansfield",
+      "detail": "Planning dataset has 18 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "nottinghamshire",
+      "town": "mansfield",
+      "service": null,
+      "url": "/locations/nottinghamshire/mansfield",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "nottinghamshire",
+      "town": "newark",
+      "service": null,
+      "url": "/locations/nottinghamshire/newark",
+      "detail": "Planning dataset has 54 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "nottinghamshire",
+      "town": "worksop",
+      "service": null,
+      "url": "/locations/nottinghamshire/worksop",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "nottinghamshire",
+      "town": "west-bridgford",
+      "service": null,
+      "url": "/locations/nottinghamshire/west-bridgford",
+      "detail": "Planning dataset has 160 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "nottinghamshire",
+      "town": "arnold",
+      "service": null,
+      "url": "/locations/nottinghamshire/arnold",
+      "detail": "Planning dataset has 5 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "leicestershire",
+      "town": "leicester",
+      "service": null,
+      "url": "/locations/leicestershire/leicester",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "leicestershire",
+      "town": "melton-mowbray",
+      "service": null,
+      "url": "/locations/leicestershire/melton-mowbray",
+      "detail": "Planning dataset has 27 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "leicestershire",
+      "town": "market-harborough",
+      "service": null,
+      "url": "/locations/leicestershire/market-harborough",
+      "detail": "Planning dataset has 115 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "lincolnshire",
+      "town": "lincoln",
+      "service": null,
+      "url": "/locations/lincolnshire/lincoln",
+      "detail": "Planning dataset has 36 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "lincolnshire",
+      "town": "sleaford",
+      "service": null,
+      "url": "/locations/lincolnshire/sleaford",
+      "detail": "Planning dataset has 59 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "lincolnshire",
+      "town": "gainsborough",
+      "service": null,
+      "url": "/locations/lincolnshire/gainsborough",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-manchester",
+      "town": "stockport",
+      "service": null,
+      "url": "/locations/greater-manchester/stockport",
+      "detail": "Planning dataset has 7 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-manchester",
+      "town": "oldham",
+      "service": null,
+      "url": "/locations/greater-manchester/oldham",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-manchester",
+      "town": "bury",
+      "service": null,
+      "url": "/locations/greater-manchester/bury",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-manchester",
+      "town": "wigan",
+      "service": null,
+      "url": "/locations/greater-manchester/wigan",
+      "detail": "Planning dataset has 17 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-manchester",
+      "town": "altrincham",
+      "service": null,
+      "url": "/locations/greater-manchester/altrincham",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-manchester",
+      "town": "ashton-under-lyne",
+      "service": null,
+      "url": "/locations/greater-manchester/ashton-under-lyne",
+      "detail": "Planning dataset has 110 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "lancashire",
+      "town": "lancaster",
+      "service": null,
+      "url": "/locations/lancashire/lancaster",
+      "detail": "Planning dataset has 58 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "lancashire",
+      "town": "lytham-st-annes",
+      "service": null,
+      "url": "/locations/lancashire/lytham-st-annes",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "merseyside",
+      "town": "birkenhead",
+      "service": null,
+      "url": "/locations/merseyside/birkenhead",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "merseyside",
+      "town": "southport",
+      "service": null,
+      "url": "/locations/merseyside/southport",
+      "detail": "Planning dataset has 5 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "merseyside",
+      "town": "bootle",
+      "service": null,
+      "url": "/locations/merseyside/bootle",
+      "detail": "Planning dataset has 5 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cumbria",
+      "town": "carlisle",
+      "service": null,
+      "url": "/locations/cumbria/carlisle",
+      "detail": "Planning dataset has 14 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cumbria",
+      "town": "workington",
+      "service": null,
+      "url": "/locations/cumbria/workington",
+      "detail": "Planning dataset has 14 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cumbria",
+      "town": "whitehaven",
+      "service": null,
+      "url": "/locations/cumbria/whitehaven",
+      "detail": "Planning dataset has 14 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "west-yorkshire",
+      "town": "leeds",
+      "service": null,
+      "url": "/locations/west-yorkshire/leeds",
+      "detail": "Planning dataset has 18 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "west-yorkshire",
+      "town": "leeds",
+      "service": null,
+      "url": "/locations/west-yorkshire/leeds",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "west-yorkshire",
+      "town": "huddersfield",
+      "service": null,
+      "url": "/locations/west-yorkshire/huddersfield",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "south-yorkshire",
+      "town": "doncaster",
+      "service": null,
+      "url": "/locations/south-yorkshire/doncaster",
+      "detail": "Planning dataset has 139 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "south-yorkshire",
+      "town": "mexborough",
+      "service": null,
+      "url": "/locations/south-yorkshire/mexborough",
+      "detail": "Planning dataset has 139 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "south-yorkshire",
+      "town": "mexborough",
+      "service": null,
+      "url": "/locations/south-yorkshire/mexborough",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "north-yorkshire",
+      "town": "york",
+      "service": null,
+      "url": "/locations/north-yorkshire/york",
+      "detail": "Planning dataset has 231 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "north-yorkshire",
+      "town": "york",
+      "service": null,
+      "url": "/locations/north-yorkshire/york",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "north-yorkshire",
+      "town": "harrogate",
+      "service": null,
+      "url": "/locations/north-yorkshire/harrogate",
+      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "north-yorkshire",
+      "town": "scarborough",
+      "service": null,
+      "url": "/locations/north-yorkshire/scarborough",
+      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "north-yorkshire",
+      "town": "skipton",
+      "service": null,
+      "url": "/locations/north-yorkshire/skipton",
+      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "north-yorkshire",
+      "town": "whitby",
+      "service": null,
+      "url": "/locations/north-yorkshire/whitby",
+      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "north-yorkshire",
+      "town": "ripon",
+      "service": null,
+      "url": "/locations/north-yorkshire/ripon",
+      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "north-yorkshire",
+      "town": "northallerton",
+      "service": null,
+      "url": "/locations/north-yorkshire/northallerton",
+      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "north-yorkshire",
+      "town": "knaresborough",
+      "service": null,
+      "url": "/locations/north-yorkshire/knaresborough",
+      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "tyne-and-wear",
+      "town": "sunderland",
+      "service": null,
+      "url": "/locations/tyne-and-wear/sunderland",
+      "detail": "Planning dataset has 65 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "tyne-and-wear",
+      "town": "sunderland",
+      "service": null,
+      "url": "/locations/tyne-and-wear/sunderland",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "tyne-and-wear",
+      "town": "gateshead",
+      "service": null,
+      "url": "/locations/tyne-and-wear/gateshead",
+      "detail": "Planning dataset has 34 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "tyne-and-wear",
+      "town": "south-shields",
+      "service": null,
+      "url": "/locations/tyne-and-wear/south-shields",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "tyne-and-wear",
+      "town": "north-shields",
+      "service": null,
+      "url": "/locations/tyne-and-wear/north-shields",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "tyne-and-wear",
+      "town": "washington",
+      "service": null,
+      "url": "/locations/tyne-and-wear/washington",
+      "detail": "Planning dataset has 65 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "county-durham",
+      "town": "durham",
+      "service": null,
+      "url": "/locations/county-durham/durham",
+      "detail": "Planning dataset has 20 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "county-durham",
+      "town": "bishop-auckland",
+      "service": null,
+      "url": "/locations/county-durham/bishop-auckland",
+      "detail": "Planning dataset has 20 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "county-durham",
+      "town": "newton-aycliffe",
+      "service": null,
+      "url": "/locations/county-durham/newton-aycliffe",
+      "detail": "Planning dataset has 20 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "county-durham",
+      "town": "consett",
+      "service": null,
+      "url": "/locations/county-durham/consett",
+      "detail": "Planning dataset has 20 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "county-durham",
+      "town": "chester-le-street",
+      "service": null,
+      "url": "/locations/county-durham/chester-le-street",
+      "detail": "Planning dataset has 20 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "county-durham",
+      "town": "chester-le-street",
+      "service": null,
+      "url": "/locations/county-durham/chester-le-street",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "county-durham",
+      "town": "peterlee",
+      "service": null,
+      "url": "/locations/county-durham/peterlee",
+      "detail": "Planning dataset has 20 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "northumberland",
+      "town": "morpeth",
+      "service": null,
+      "url": "/locations/northumberland/morpeth",
+      "detail": "Planning dataset has 240 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "northumberland",
+      "town": "blyth",
+      "service": null,
+      "url": "/locations/northumberland/blyth",
+      "detail": "Planning dataset has 240 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "northumberland",
+      "town": "cramlington",
+      "service": null,
+      "url": "/locations/northumberland/cramlington",
+      "detail": "Planning dataset has 240 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "northumberland",
+      "town": "alnwick",
+      "service": null,
+      "url": "/locations/northumberland/alnwick",
+      "detail": "Planning dataset has 240 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "northumberland",
+      "town": "hexham",
+      "service": null,
+      "url": "/locations/northumberland/hexham",
+      "detail": "Planning dataset has 240 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "northumberland",
+      "town": "berwick-upon-tweed",
+      "service": null,
+      "url": "/locations/northumberland/berwick-upon-tweed",
+      "detail": "Planning dataset has 240 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "east-riding-of-yorkshire",
+      "town": "hull",
+      "service": null,
+      "url": "/locations/east-riding-of-yorkshire/hull",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "east-riding-of-yorkshire",
+      "town": "driffield",
+      "service": null,
+      "url": "/locations/east-riding-of-yorkshire/driffield",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "norfolk",
+      "town": "norwich",
+      "service": null,
+      "url": "/locations/norfolk/norwich",
+      "detail": "Planning dataset has 66 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "norfolk",
+      "town": "kings-lynn",
+      "service": null,
+      "url": "/locations/norfolk/kings-lynn",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "norfolk",
+      "town": "wymondham",
+      "service": null,
+      "url": "/locations/norfolk/wymondham",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "norfolk",
+      "town": "cromer",
+      "service": null,
+      "url": "/locations/norfolk/cromer",
+      "detail": "Planning dataset has 24 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "suffolk",
+      "town": "bury-st-edmunds",
+      "service": null,
+      "url": "/locations/suffolk/bury-st-edmunds",
+      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "suffolk",
+      "town": "newmarket",
+      "service": null,
+      "url": "/locations/suffolk/newmarket",
+      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cambridgeshire",
+      "town": "cambridge",
+      "service": null,
+      "url": "/locations/cambridgeshire/cambridge",
+      "detail": "Planning dataset has 266 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "cambridgeshire",
+      "town": "ely",
+      "service": null,
+      "url": "/locations/cambridgeshire/ely",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "bedfordshire",
+      "town": "luton",
+      "service": null,
+      "url": "/locations/bedfordshire/luton",
+      "detail": "Planning dataset has 39 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "bedfordshire",
+      "town": "luton",
+      "service": null,
+      "url": "/locations/bedfordshire/luton",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cardiff",
+      "town": "cardiff-city-centre",
+      "service": null,
+      "url": "/locations/cardiff/cardiff-city-centre",
+      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cardiff",
+      "town": "cardiff-bay",
+      "service": null,
+      "url": "/locations/cardiff/cardiff-bay",
+      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cardiff",
+      "town": "canton",
+      "service": null,
+      "url": "/locations/cardiff/canton",
+      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cardiff",
+      "town": "cathays",
+      "service": null,
+      "url": "/locations/cardiff/cathays",
+      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cardiff",
+      "town": "splott",
+      "service": null,
+      "url": "/locations/cardiff/splott",
+      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cardiff",
+      "town": "pontcanna",
+      "service": null,
+      "url": "/locations/cardiff/pontcanna",
+      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "swansea",
+      "town": "swansea-city-centre",
+      "service": null,
+      "url": "/locations/swansea/swansea-city-centre",
+      "detail": "Planning dataset has 185 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "swansea",
+      "town": "swansea-city-centre",
+      "service": null,
+      "url": "/locations/swansea/swansea-city-centre",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "swansea",
+      "town": "mumbles",
+      "service": null,
+      "url": "/locations/swansea/mumbles",
+      "detail": "Planning dataset has 185 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "swansea",
+      "town": "mumbles",
+      "service": null,
+      "url": "/locations/swansea/mumbles",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "swansea",
+      "town": "sa1-waterfront",
+      "service": null,
+      "url": "/locations/swansea/sa1-waterfront",
+      "detail": "Planning dataset has 185 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "swansea",
+      "town": "sa1-waterfront",
+      "service": null,
+      "url": "/locations/swansea/sa1-waterfront",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "swansea",
+      "town": "sketty",
+      "service": null,
+      "url": "/locations/swansea/sketty",
+      "detail": "Planning dataset has 185 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "swansea",
+      "town": "sketty",
+      "service": null,
+      "url": "/locations/swansea/sketty",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "swansea",
+      "town": "morriston",
+      "service": null,
+      "url": "/locations/swansea/morriston",
+      "detail": "Planning dataset has 185 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "swansea",
+      "town": "morriston",
+      "service": null,
+      "url": "/locations/swansea/morriston",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "swansea",
+      "town": "neath",
+      "service": null,
+      "url": "/locations/swansea/neath",
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "newport",
+      "town": "newport-city-centre",
+      "service": null,
+      "url": "/locations/newport/newport-city-centre",
+      "detail": "Planning dataset has 5 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "newport",
+      "town": "caerleon",
+      "service": null,
+      "url": "/locations/newport/caerleon",
+      "detail": "Planning dataset has 5 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "newport",
+      "town": "maindee",
+      "service": null,
+      "url": "/locations/newport/maindee",
+      "detail": "Planning dataset has 5 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "FLAT_YOY",
+      "county": "powys",
+      "town": "hay-on-wye",
+      "service": null,
+      "url": "/locations/powys/hay-on-wye",
+      "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"70%\" appears on 7948 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"75%\" appears on 5626 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"65%\" appears on 5211 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"100%\" appears on 5077 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"85%\" appears on 3300 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"15%\" appears on 3262 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"90%\" appears on 2898 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"20%\" appears on 2722 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"2%\" appears on 2508 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"25%\" appears on 2299 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"10%\" appears on 2195 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"12%\" appears on 1924 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"55%\" appears on 1924 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"60%\" appears on 1924 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"40%\" appears on 1717 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    },
+    {
+      "severity": "info",
+      "type": "CONSTANT_METRIC",
+      "county": "",
+      "town": "",
+      "service": null,
+      "url": "",
+      "detail": "\"4%\" appears on 1703 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+    }
+  ],
+  "boilerplate": {
+    "sharedParagraphs": [
+      {
+        "hash": "cd425fbe0b24",
+        "pages": 438,
+        "sample": "We arrange the full range of property development finance in Croydon: development finance for ground-up schemes, bridging loans for auction purchases and chain "
+      },
+      {
+        "hash": "91c02ede2aef",
+        "pages": 438,
+        "sample": "Start by submitting your deal through our Deal Room with your project details - site address, purchase price, build costs, and expected end value. Our team will"
+      },
+      {
+        "hash": "6f8e71e3e474",
+        "pages": 438,
+        "sample": "The development finance market has become increasingly competitive, with challenger banks, specialist lenders, and debt funds all seeking to lend against qualit"
+      },
+      {
+        "hash": "cdf03ca3cceb",
+        "pages": 438,
+        "sample": "In Croydon and the surrounding area, we regularly arrange development loans for schemes including new-build housing estates, infill developments on brownfield l"
+      },
+      {
+        "hash": "aaee7d76cb62",
+        "pages": 438,
+        "sample": "The development lending market serving Croydon spans high-street banks, challenger banks, and specialist funders — names like Together, United Trust Bank, Alder"
+      },
+      {
+        "hash": "3d18046c8056",
+        "pages": 438,
+        "sample": "Development finance interest rates for Croydon projects typically range from 6.5% to 11% per annum, depending on scheme size, developer experience, leverage, an"
+      },
+      {
+        "hash": "cc22f55f71fe",
+        "pages": 438,
+        "sample": "Beyond the interest rate, your total cost of development finance includes arrangement fees (typically 1.5-2% of the facility), monitoring surveyor fees (£5,000-"
+      },
+      {
+        "hash": "d47c386c4082",
+        "pages": 438,
+        "sample": "The LTV ratio is typically expressed as a percentage of Gross Development Value (LTGDV), with most senior development lenders offering 60-70% LTGDV or 80-90% of"
+      },
+      {
+        "hash": "6c4f6d127c10",
+        "pages": 438,
+        "sample": "Development finance lenders assess four core areas: the site (location, planning status, and any constraints), the scheme (design quality, unit mix, and specifi"
+      },
+      {
+        "hash": "66d3a70c0354",
+        "pages": 438,
+        "sample": "First-time developers can access development finance, though the available terms will reflect the additional risk. Having a strong professional team around you "
+      },
+      {
+        "hash": "33157973dab1",
+        "pages": 438,
+        "sample": "Development finance is drawn in stages aligned to your build programme. Typically, a day-one drawdown covers 50-65% of the land value, with subsequent construct"
+      },
+      {
+        "hash": "6c7ba1e7feae",
+        "pages": 438,
+        "sample": "Most development finance lenders require full, detailed planning permission before they will commit to a facility. Some will consider outline permission with re"
+      },
+      {
+        "hash": "b42dcdc32959",
+        "pages": 438,
+        "sample": "Gross Development Value (GDV) is the total estimated revenue from selling or letting all units in your completed scheme. It's calculated by the lender's valuer "
+      },
+      {
+        "hash": "98ec4d84e129",
+        "pages": 438,
+        "sample": "A 12-unit residential development on a former commercial site near Croydon. The project involved demolition of the existing structure, full site remediation, an"
+      },
+      {
+        "hash": "3cb3a194ea4d",
+        "pages": 438,
+        "sample": "We coordinate the entire mezzanine process, from identifying mezzanine-friendly senior lenders through to negotiating the intercreditor agreement that governs t"
+      },
+      {
+        "hash": "f4f472ad1c79",
+        "pages": 438,
+        "sample": "Getting the capital stack right from the outset is critical. The wrong mezzanine structure can create cash flow problems, governance friction, or exit complicat"
+      },
+      {
+        "hash": "dd733f39092d",
+        "pages": 438,
+        "sample": "Each structure has different implications for your project governance, cost profile, and exit mechanics. Second-charge mezzanine typically costs 12-18% per annu"
+      },
+      {
+        "hash": "eb83727cdfe3",
+        "pages": 438,
+        "sample": "For larger schemes, we also arrange <a href=\"/services/equity-jv\">equity and joint venture</a> capital as an alternative to, or alongside, mezzanine debt. The r"
+      },
+      {
+        "hash": "b8b61d544cd2",
+        "pages": 438,
+        "sample": "Mezzanine capital for Croydon schemes comes from a distinct pool of funders — specialist banks such as OakNorth, Shawbrook, and Aldermore alongside dedicated me"
+      },
+      {
+        "hash": "a8cdaf31ec4e",
+        "pages": 438,
+        "sample": "Mezzanine interest rates typically range from 12% to 18% per annum, with interest usually rolled up rather than serviced monthly. Arrangement fees are 2-3% of t"
+      },
+      {
+        "hash": "ccc61179da01",
+        "pages": 438,
+        "sample": "We model the full capital stack for every mezzanine enquiry, showing you the blended cost of finance, the impact on scheme profit, and the comparison with alter"
+      },
+      {
+        "hash": "a00f3473880c",
+        "pages": 438,
+        "sample": "Mezzanine lenders assess your scheme through a similar lens to senior lenders but with additional focus on the developer's experience and the profit margin in t"
+      },
+      {
+        "hash": "d90412d83fd6",
+        "pages": 438,
+        "sample": "The senior lender must be mezzanine-friendly. Not all development finance lenders accept subordinated debt behind their facility, and those that do typically re"
+      },
+      {
+        "hash": "df580445c481",
+        "pages": 438,
+        "sample": "Minimum mezzanine facility sizes are typically £200,000-£500,000, with some providers requiring larger minimum investments. For smaller schemes where mezzanine "
+      },
+      {
+        "hash": "3946ffa02ec3",
+        "pages": 438,
+        "sample": "An intercreditor agreement (ICA) governs the relationship between senior and mezzanine lenders. It covers priority of payments, information rights, standstill p"
+      },
+      {
+        "hash": "d5c096029bbb",
+        "pages": 438,
+        "sample": "Mezzanine typically stretches your total leverage from the senior lender's cap (usually 60-70% of costs) up to 85-90% of total costs. Achieving 100% of costs th"
+      },
+      {
+        "hash": "ca6e74c1c372",
+        "pages": 438,
+        "sample": "Mezzanine returns are structured as either fixed interest (typically 12-18% p.a., usually rolled up), a profit share (commonly 15-25% of net development profit)"
+      },
+      {
+        "hash": "8d9fbe103ebb",
+        "pages": 438,
+        "sample": "Project overruns with mezzanine in place are more expensive than with senior debt alone, because you're accruing interest on both tranches. Most mezzanine facil"
+      },
+      {
+        "hash": "9a6da83a8914",
+        "pages": 438,
+        "sample": "Mezzanine finance typically bridges the gap between senior debt (60-70% of costs) and 85-90% of total project costs. The mezzanine tranche itself usually repres"
+      },
+      {
+        "hash": "fa43df012ee6",
+        "pages": 438,
+        "sample": "A 24-unit commercial-to-residential conversion requiring a stretched capital stack. Senior debt covered 65% of total costs, with mezzanine bridging the gap to 8"
+      },
+      {
+        "hash": "f6e31030994c",
+        "pages": 438,
+        "sample": "Whether you are purchasing at auction, securing a time-sensitive site acquisition, breaking a property chain, or funding a short-term hold before refinancing on"
+      },
+      {
+        "hash": "743940ed73d5",
+        "pages": 438,
+        "sample": "Popular bridging use cases in Croydon include auction purchases (where you typically have 28 days to complete), chain-break funding to secure your next property"
+      },
+      {
+        "hash": "f8999b2ce147",
+        "pages": 438,
+        "sample": "Use our <a href=\"/calculators/development-finance\">finance calculator</a> to model your bridging costs and exit strategy before approaching lenders. Understandi"
+      },
+      {
+        "hash": "8951da246220",
+        "pages": 438,
+        "sample": "The bridging market serving Croydon runs from specialist lenders such as Together, LendInvest, and United Trust Bank through to the high-street banks' short-ter"
+      },
+      {
+        "hash": "b3b459bd245b",
+        "pages": 438,
+        "sample": "Bridging loan interest rates for Croydon properties typically start from 0.55% per month (6.6% per annum) for straightforward residential assets with clean titl"
+      },
+      {
+        "hash": "c6439375ef5f",
+        "pages": 438,
+        "sample": "The maximum LTV on bridging loans is typically 70-75% for residential property and 65-70% for commercial assets. Some specialist lenders offer higher leverage f"
+      },
+      {
+        "hash": "7dc74917357b",
+        "pages": 438,
+        "sample": "Bridging lenders are primarily concerned with two things: the property (its value, condition, and saleability) and the exit strategy (how and when you will repa"
+      },
+      {
+        "hash": "ee6624c688e7",
+        "pages": 438,
+        "sample": "Acceptable exit strategies include the sale of the bridged property, refinancing onto a term mortgage or <a href=\"/services/development-finance\">development fin"
+      },
+      {
+        "hash": "193530dc1639",
+        "pages": 438,
+        "sample": "Properties that can be bridged include standard residential houses and flats, HMOs, commercial premises, mixed-use buildings, land (with or without planning per"
+      },
+      {
+        "hash": "d78c8cd33576",
+        "pages": 438,
+        "sample": "The fastest bridging completions happen within 3-5 working days for straightforward residential properties with clean title and simple legal structures. More ty"
+      }
+    ],
+    "worstPages": [
+      {
+        "url": "/locations/greater-london/barking/development-finance",
+        "sharedPct": 100,
+        "paras": 33
+      },
+      {
+        "url": "/locations/greater-london/barking/mezzanine-finance",
+        "sharedPct": 100,
+        "paras": 30
+      },
+      {
+        "url": "/locations/greater-london/barking/bridging-loans",
+        "sharedPct": 100,
+        "paras": 32
+      },
+      {
+        "url": "/locations/greater-london/barking/equity-jv",
+        "sharedPct": 100,
+        "paras": 30
+      },
+      {
+        "url": "/locations/greater-london/barking/refurbishment-finance",
+        "sharedPct": 100,
+        "paras": 31
+      },
+      {
+        "url": "/locations/greater-london/barking/commercial-mortgages",
+        "sharedPct": 100,
+        "paras": 31
+      },
+      {
+        "url": "/locations/greater-london/barking/development-exit-finance",
+        "sharedPct": 100,
+        "paras": 31
+      },
+      {
+        "url": "/locations/greater-london/lewisham/development-finance",
+        "sharedPct": 100,
+        "paras": 32
+      },
+      {
+        "url": "/locations/greater-london/lewisham/mezzanine-finance",
+        "sharedPct": 100,
+        "paras": 29
+      },
+      {
+        "url": "/locations/greater-london/lewisham/bridging-loans",
+        "sharedPct": 100,
+        "paras": 32
+      },
+      {
+        "url": "/locations/greater-london/lewisham/equity-jv",
+        "sharedPct": 100,
+        "paras": 29
+      },
+      {
+        "url": "/locations/greater-london/lewisham/refurbishment-finance",
+        "sharedPct": 100,
+        "paras": 31
+      },
+      {
+        "url": "/locations/greater-london/lewisham/commercial-mortgages",
+        "sharedPct": 100,
+        "paras": 31
+      },
+      {
+        "url": "/locations/greater-london/lewisham/development-exit-finance",
+        "sharedPct": 100,
+        "paras": 30
+      },
+      {
+        "url": "/locations/greater-london/wembley/development-finance",
+        "sharedPct": 100,
+        "paras": 32
+      },
+      {
+        "url": "/locations/greater-london/wembley/bridging-loans",
+        "sharedPct": 100,
+        "paras": 32
+      },
+      {
+        "url": "/locations/greater-london/wembley/equity-jv",
+        "sharedPct": 100,
+        "paras": 29
+      },
+      {
+        "url": "/locations/greater-london/wembley/refurbishment-finance",
+        "sharedPct": 100,
+        "paras": 31
+      },
+      {
+        "url": "/locations/greater-london/wembley/development-exit-finance",
+        "sharedPct": 100,
+        "paras": 30
+      },
+      {
+        "url": "/locations/greater-london/hounslow/development-finance",
+        "sharedPct": 100,
+        "paras": 33
+      },
+      {
+        "url": "/locations/greater-london/hounslow/mezzanine-finance",
+        "sharedPct": 100,
+        "paras": 30
+      },
+      {
+        "url": "/locations/greater-london/hounslow/bridging-loans",
+        "sharedPct": 100,
+        "paras": 32
+      },
+      {
+        "url": "/locations/greater-london/hounslow/equity-jv",
+        "sharedPct": 100,
+        "paras": 30
+      },
+      {
+        "url": "/locations/greater-london/hounslow/refurbishment-finance",
+        "sharedPct": 100,
+        "paras": 31
+      },
+      {
+        "url": "/locations/greater-london/hounslow/commercial-mortgages",
+        "sharedPct": 100,
+        "paras": 31
+      },
+      {
+        "url": "/locations/greater-london/hounslow/development-exit-finance",
+        "sharedPct": 100,
+        "paras": 31
+      },
+      {
+        "url": "/locations/greater-london/hackney/bridging-loans",
+        "sharedPct": 100,
+        "paras": 32
+      },
+      {
+        "url": "/locations/greater-london/hackney/equity-jv",
+        "sharedPct": 100,
+        "paras": 29
+      },
+      {
+        "url": "/locations/greater-london/hackney/development-exit-finance",
+        "sharedPct": 100,
+        "paras": 30
+      },
+      {
+        "url": "/locations/greater-london/bermondsey/bridging-loans",
+        "sharedPct": 100,
+        "paras": 32
+      }
+    ]
+  }
+}

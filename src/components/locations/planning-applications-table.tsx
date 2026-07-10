@@ -10,6 +10,8 @@ interface PlanningApplicationsTableProps {
   pending: PlanningApp[];
   summary: PlanningData["summary"];
   townName: string;
+  /** Scrape-window metadata; present once the pipeline writes dataset info */
+  datasetWindow?: { months: number; retrievedAt?: string };
 }
 
 function formatGBP(amount: number): string {
@@ -83,9 +85,14 @@ export function PlanningApplicationsTable({
   pending,
   summary,
   townName,
+  datasetWindow,
 }: PlanningApplicationsTableProps) {
   const topApproved = approved.slice(0, 5);
   const topPending = pending.slice(0, 5);
+  const decided = summary.approved + summary.refused;
+  const windowLabel = datasetWindow?.months
+    ? `last ${datasetWindow.months} months`
+    : "recent decisions";
 
   return (
     <EditorialSection tone="stone">
@@ -105,19 +112,31 @@ export function PlanningApplicationsTable({
       <div className="mt-16">
         {/* Pipeline summary banner */}
         <div className="mb-8 flex flex-wrap gap-x-8 gap-y-3 border-y py-5" style={{ borderColor: "var(--stone-dark)", color: "oklch(0.35 0.04 255)" }}>
-          <div className="flex items-center gap-2">
-            <FileCheck className="h-4 w-4 text-emerald-500" />
-            <span className="text-sm">
-              <strong>{summary.approved}</strong> approved (12m)
-            </span>
-          </div>
-          <span className="text-border">·</span>
-          <div className="flex items-center gap-2">
-            <Clock className="h-4 w-4 text-gold" />
-            <span className="text-sm">
-              <strong>{summary.pending}</strong> pending
-            </span>
-          </div>
+          {decided > 0 ? (
+            <>
+              <div className="flex items-center gap-2">
+                <FileCheck className="h-4 w-4 text-emerald-500" />
+                <span className="text-sm">
+                  <strong>{summary.approved}</strong> approved ({windowLabel})
+                </span>
+              </div>
+              <span className="text-border">·</span>
+              <div className="flex items-center gap-2">
+                <Clock className="h-4 w-4 text-gold" />
+                <span className="text-sm">
+                  <strong>{summary.pending}</strong> pending
+                </span>
+              </div>
+            </>
+          ) : (
+            <div className="flex items-center gap-2">
+              <Clock className="h-4 w-4 text-gold" />
+              <span className="text-sm">
+                <strong>{summary.pending}</strong> residential applications
+                awaiting decision
+              </span>
+            </div>
+          )}
           <span className="text-border">·</span>
           <span className="text-sm">
             <strong>{summary.totalUnits.toLocaleString("en-GB")}</strong> units
@@ -128,10 +147,14 @@ export function PlanningApplicationsTable({
             <strong>{formatGBP(summary.totalEstimatedGDV)}</strong> estimated
             GDV
           </span>
-          <span className="text-border">·</span>
-          <span className="text-sm">
-            <strong>{summary.approvalRate}%</strong> approval rate
-          </span>
+          {decided > 0 && (
+            <>
+              <span className="text-border">·</span>
+              <span className="text-sm">
+                <strong>{summary.approvalRate}%</strong> approval rate ({windowLabel})
+              </span>
+            </>
+          )}
         </div>
 
         {/* Approved applications */}

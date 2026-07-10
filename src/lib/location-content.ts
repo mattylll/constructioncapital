@@ -1,13 +1,15 @@
 /**
  * Location Content Library
  *
- * Generates genuinely distinct content for location pages based on three axes:
- *   1. Service type (6 distinct content sets)
- *   2. Region (8 regional contexts)
+ * Generates genuinely distinct content for location pages based on four axes:
+ *   1. Service type (7 distinct content sets)
+ *   2. Region (11 regional contexts)
  *   3. Town slug hash (deterministic variation so adjacent towns differ)
- *
- * This produces 144-192 distinct content combinations before town/county name injection.
+ *   4. Live local data (Land Registry medians, planning pipeline) injected
+ *      as data-conditional evidence sentences
  */
+
+import { getRegionalServiceNote } from "@/lib/regional-service-notes";
 
 // ─────────────────────────────────────────────────────────
 // Types
@@ -31,15 +33,18 @@ export interface FAQ {
 // County → Region Mapping
 // ─────────────────────────────────────────────────────────
 
-type Region =
+export type Region =
   | "london-se"
   | "north-west"
-  | "midlands"
+  | "east-midlands"
+  | "west-midlands"
   | "south-west"
-  | "north-east-yorkshire"
+  | "yorkshire"
+  | "north-east"
   | "east-of-england"
   | "scotland"
-  | "wales";
+  | "wales"
+  | "uk-generic";
 
 const COUNTY_REGION_MAP: Record<string, Region> = {
   // London & South East
@@ -47,6 +52,7 @@ const COUNTY_REGION_MAP: Record<string, Region> = {
   surrey: "london-se",
   kent: "london-se",
   essex: "london-se",
+  sussex: "london-se",
   "east-sussex": "london-se",
   "west-sussex": "london-se",
   hampshire: "london-se",
@@ -63,18 +69,21 @@ const COUNTY_REGION_MAP: Record<string, Region> = {
   cheshire: "north-west",
   cumbria: "north-west",
 
-  // Midlands
-  "west-midlands": "midlands",
-  "east-midlands": "midlands",
-  warwickshire: "midlands",
-  staffordshire: "midlands",
-  derbyshire: "midlands",
-  nottinghamshire: "midlands",
-  leicestershire: "midlands",
-  northamptonshire: "midlands",
-  worcestershire: "midlands",
-  shropshire: "midlands",
-  herefordshire: "midlands",
+  // West Midlands
+  "west-midlands": "west-midlands",
+  warwickshire: "west-midlands",
+  staffordshire: "west-midlands",
+  worcestershire: "west-midlands",
+  shropshire: "west-midlands",
+  herefordshire: "west-midlands",
+
+  // East Midlands
+  "east-midlands": "east-midlands",
+  derbyshire: "east-midlands",
+  nottinghamshire: "east-midlands",
+  leicestershire: "east-midlands",
+  northamptonshire: "east-midlands",
+  lincolnshire: "east-midlands",
 
   // South West
   bristol: "south-west",
@@ -85,15 +94,17 @@ const COUNTY_REGION_MAP: Record<string, Region> = {
   wiltshire: "south-west",
   gloucestershire: "south-west",
 
-  // North East & Yorkshire
-  "west-yorkshire": "north-east-yorkshire",
-  "south-yorkshire": "north-east-yorkshire",
-  "north-yorkshire": "north-east-yorkshire",
-  "east-riding-of-yorkshire": "north-east-yorkshire",
-  "tyne-and-wear": "north-east-yorkshire",
-  durham: "north-east-yorkshire",
-  northumberland: "north-east-yorkshire",
-  "county-durham": "north-east-yorkshire",
+  // Yorkshire
+  "west-yorkshire": "yorkshire",
+  "south-yorkshire": "yorkshire",
+  "north-yorkshire": "yorkshire",
+  "east-riding-of-yorkshire": "yorkshire",
+
+  // North East
+  "tyne-and-wear": "north-east",
+  durham: "north-east",
+  "county-durham": "north-east",
+  northumberland: "north-east",
 
   // East of England
   suffolk: "east-of-england",
@@ -108,6 +119,7 @@ const COUNTY_REGION_MAP: Record<string, Region> = {
   "city-of-edinburgh": "scotland",
   "city-of-glasgow": "scotland",
   fife: "scotland",
+  aberdeen: "scotland",
   aberdeenshire: "scotland",
   highland: "scotland",
   perth: "scotland",
@@ -125,10 +137,20 @@ const COUNTY_REGION_MAP: Record<string, Region> = {
   powys: "wales",
   carmarthenshire: "wales",
   pembrokeshire: "wales",
+  gwynedd: "wales",
 };
 
-function getRegion(countySlug: string): Region {
-  return COUNTY_REGION_MAP[countySlug] ?? "london-se";
+export function getRegion(countySlug: string): Region {
+  const region = COUNTY_REGION_MAP[countySlug];
+  if (!region) {
+    // Unmapped county — serve place-name-free national copy rather than the
+    // wrong region's. Audit script treats this as a critical finding.
+    console.warn(`[location-content] No region mapping for county "${countySlug}" — using uk-generic copy`);
+    
+return "uk-generic";
+  }
+  
+return region;
 }
 
 // ─────────────────────────────────────────────────────────
@@ -164,20 +186,30 @@ const REGIONAL_CONTEXT: Record<Region, string[]> = {
     "Build costs in the North West remain materially below London and the South East, while rental yields are among the strongest in the country. This combination makes the region attractive to both local developers and national operators. Liverpool's waterfront regeneration and the continued expansion of MediaCityUK in Salford are creating significant development pipelines.",
     "Transport improvements - including HS2 Phase 2 planning and the Trans-Pennine route upgrade - are supporting land value growth in towns along key corridors. Lenders with regional expertise recognise the strong fundamentals and are actively seeking to deploy capital across the North West.",
   ],
-  midlands: [
-    "The Midlands development market benefits from its central UK location, strong transport connectivity, and a growing population attracted by relative affordability compared to London and the South East. Birmingham's ongoing transformation - anchored by HS2 and the Commonwealth Games legacy - has repositioned the city as a serious investment destination.",
-    "The region's industrial heritage creates abundant conversion opportunities, from Victorian mills and factories to post-war commercial buildings with permitted development potential. Build costs are competitive, and the presence of multiple universities drives consistent demand for purpose-built student accommodation and HMO conversions.",
-    "East Midlands towns along the M1 corridor are seeing increased development interest as logistics and distribution companies expand, bringing employment growth that supports residential demand. Nottingham, Leicester, and Derby each offer distinct market dynamics but share strong fundamentals for well-located residential schemes.",
+  "west-midlands": [
+    "The West Midlands development market benefits from its central UK location, strong transport connectivity, and a growing population attracted by relative affordability compared to London and the South East. Birmingham's ongoing transformation - anchored by HS2, the Smithfield masterplan, and the Commonwealth Games legacy - has repositioned the city as a serious investment destination, with ripple effects across the wider conurbation.",
+    "The region's industrial heritage creates abundant conversion opportunities, from Victorian factories in the Jewellery Quarter to post-war commercial buildings with permitted development potential across Coventry, Wolverhampton, and the Black Country. Build costs are competitive, and the presence of multiple universities drives consistent demand for purpose-built student accommodation and HMO conversions.",
+    "Beyond Birmingham, the West Midlands offers diverse market dynamics: Warwickshire's premium towns like Leamington Spa and Stratford-upon-Avon command strong values, Staffordshire combines affordability with M6 corridor connectivity, and the Shropshire and Herefordshire market towns support quality conversion and small-scheme development backed by chronic local undersupply.",
+  ],
+  "east-midlands": [
+    "The East Midlands development market combines genuine affordability with strong employment fundamentals. Nottingham, Leicester, and Derby each offer distinct dynamics - from Nottingham's Island Quarter regeneration to Leicester's dense student market and Derby's advanced engineering employment base - but share solid foundations for well-located residential schemes.",
+    "Towns along the M1 corridor are seeing sustained development interest as logistics and distribution operators expand, bringing employment growth that supports residential demand from Northampton up through Loughborough and into South Yorkshire's borders. The East Midlands Freeport and associated infrastructure investment are reinforcing this employment-led demand story.",
+    "The region's stock of Victorian terraces, former hosiery and lace works, and redundant agricultural buildings creates a natural pipeline of conversion and refurbishment opportunities, while Lincolnshire's market towns offer accessible land values with genuine local housing undersupply. Lenders familiar with the East Midlands recognise the strong income potential relative to entry costs.",
   ],
   "south-west": [
     "The South West combines strong lifestyle appeal with genuine development demand, particularly in Bristol - now established as the UK's most competitive regional city for tech and professional services employment. Housing affordability pressures in Bristol and Bath are pushing demand into surrounding towns, creating opportunities for developers across Somerset, Wiltshire, and Gloucestershire.",
     "Coastal markets in Devon, Cornwall, and Dorset benefit from sustained tourism demand that supports mixed-use and holiday-let development models. Post-pandemic lifestyle migration to the South West has strengthened residential markets in towns previously considered secondary, with remote working enabling permanent relocation from London and the South East.",
     "Bristol's Temple Quarter regeneration, Bath's enterprise zone, and Exeter's growing reputation as a biomedical hub are all generating development opportunities. Lenders recognise the South West's diverse market dynamics - from urban regeneration to rural conversion projects - and several specialist funders actively target the region.",
   ],
-  "north-east-yorkshire": [
-    "Yorkshire and the North East offer some of the UK's most attractive development economics: low land costs, competitive build prices, and surprisingly strong rental yields in cities like Leeds, Sheffield, and Newcastle. The region's university cities generate consistent demand for student accommodation and young professional rental housing.",
-    "Leeds has emerged as a financial services hub second only to London, driving commercial and residential development at scale. Sheffield's advanced manufacturing sector and Newcastle's digital corridor are creating employment-driven housing demand that supports new-build viability in locations that might not have worked a decade ago.",
-    "Regeneration programmes in Teesside, Hull, and Sunderland are unlocking development sites at accessible land values, while the Heritage Action Zones across the region provide additional incentives for sensitive conversion projects. Lenders familiar with the North East and Yorkshire markets understand the strong income potential relative to development costs.",
+  yorkshire: [
+    "Yorkshire offers some of the UK's most attractive development economics: accessible land costs, competitive build prices, and strong rental yields in cities like Leeds, Sheffield, and Bradford. The region's university cities generate consistent demand for student accommodation and young professional rental housing, while its market towns support family housing schemes backed by genuine local undersupply.",
+    "Leeds has emerged as a financial and legal services hub second only to London, driving commercial and residential development at scale - the South Bank regeneration area alone is one of the largest city-centre redevelopment zones in Europe. Sheffield's advanced manufacturing sector, anchored by the AMRC, and its Heart of the City programme are creating employment-driven housing demand that supports new-build viability in locations that might not have worked a decade ago.",
+    "From the York Central brownfield scheme to Bradford's city-centre regeneration and the Humber ports' freeport-driven employment growth, Yorkshire's development pipeline spans premium heritage markets and high-yield urban schemes alike. Lenders familiar with the Yorkshire market understand the strong income potential relative to development costs, and several specialist funders actively target the region.",
+  ],
+  "north-east": [
+    "The North East offers among the most accessible entry prices of any UK development market, paired with some of the country's strongest gross rental yields. Newcastle anchors the regional economy, with the Helix innovation district and a growing digital and life-sciences employment base driving demand for city-centre living from students and young professionals alike.",
+    "Regeneration programmes across the region are unlocking development sites at accessible land values - from Gateshead Quays and the Riverside Sunderland masterplan to Teesworks on the Tees, one of the UK's largest industrial regeneration projects. Darlington's growing government campus and the advanced manufacturing cluster around Sunderland are adding employment-led housing demand to the traditional yield story.",
+    "County Durham and Northumberland combine heritage market towns with genuine housing undersupply, creating opportunities for sensitive conversion projects and small new-build schemes. Lenders familiar with the North East understand the strong income potential relative to development costs, and price facilities on local market realities rather than southern assumptions.",
   ],
   "east-of-england": [
     "The East of England benefits from proximity to London combined with significantly lower land costs, making it attractive for volume residential development. The Cambridge-London corridor is one of the UK's fastest-growing economic zones, with tech-sector employment driving premium housing demand across Cambridgeshire and into Bedfordshire.",
@@ -193,6 +225,10 @@ const REGIONAL_CONTEXT: Record<Region, string[]> = {
     "Wales offers genuine development opportunities backed by a supportive government policy environment. Help to Buy Wales and Welsh Government grant schemes provide demand-side support that improves scheme viability, particularly for developers targeting the first-time buyer market in areas like the South Wales valleys.",
     "Cardiff's continued growth as a commercial and cultural centre is driving residential development demand, particularly in the Cardiff Bay and city centre regeneration zones. Swansea's waterfront transformation and Newport's emerging urban village around the Transporter Bridge district are creating additional development pipelines.",
     "The Welsh planning system has its own nuances - including Technical Advice Notes and the requirement for Welsh language impact assessments in certain areas - that developers need to navigate. Lenders experienced in the Welsh market understand these requirements and can structure facilities that account for the specific consenting timeline.",
+  ],
+  "uk-generic": [
+    "The UK's persistent housing undersupply remains the structural driver behind residential development demand: completions have run below household formation for decades, and local plans across the country are under pressure to allocate more deliverable sites. For developers, that translates into genuine end-user demand for well-located, well-specified schemes.",
+    "The development lending market is deep and competitive, spanning high-street banks, challenger banks, and specialist development funders. Terms vary significantly by lender, scheme type, and developer track record - which is why matching a project to the funders with genuine current appetite for it typically saves both margin and time.",
   ],
 };
 
@@ -642,14 +678,24 @@ const COUNTY_OVERVIEW_VARIANTS: Record<Region, string[][]> = {
       "The rental market across the North West is robust, with yields consistently outperforming London and the South East. This makes the region attractive for developers planning to retain completed units as investments, with commercial mortgage refinancing providing a viable long-term hold strategy.",
     ],
   ],
-  midlands: [
+  "west-midlands": [
     [
-      "The Midlands development market benefits from central UK connectivity, a growing population, and relative affordability that continues to attract both residents and businesses. Birmingham's transformation as a major investment destination is creating demand for housing, offices, and mixed-use developments at a scale not seen in decades.",
-      "The region's industrial heritage provides a rich pipeline of conversion opportunities - from Victorian factories and mills to post-war commercial buildings. These buildings often benefit from permitted development rights, enabling faster consenting and lower planning risk. We work with lenders who understand the specific considerations of conversion projects in the Midlands.",
+      "The West Midlands development market benefits from central UK connectivity, a growing population, and relative affordability that continues to attract both residents and businesses. Birmingham's transformation as a major investment destination is creating demand for housing, offices, and mixed-use developments at a scale not seen in decades.",
+      "The region's industrial heritage provides a rich pipeline of conversion opportunities - from Victorian factories and workshops to post-war commercial buildings. These buildings often benefit from permitted development rights, enabling faster consenting and lower planning risk. We work with lenders who understand the specific considerations of conversion projects in the West Midlands.",
     ],
     [
-      "Property development in the Midlands is supported by strong fundamentals: growing employment, improving transport links, and a housing market that remains affordable relative to earnings. The M1, M6, and M42 corridors connect the region's towns and cities, creating commuter catchment areas that support residential development in locations beyond the traditional urban cores.",
-      "University cities across the Midlands - including Birmingham, Nottingham, Leicester, and Coventry - generate consistent demand for purpose-built student accommodation and graduate rental housing. This specialist sector offers attractive yields and has a dedicated lending market that we access for qualifying projects.",
+      "Property development in the West Midlands is supported by strong fundamentals: growing employment, improving transport links, and a housing market that remains affordable relative to earnings. The M6, M42, and M5 corridors connect the region's towns and cities, creating commuter catchment areas that support residential development in locations beyond the traditional urban cores.",
+      "University cities across the West Midlands - including Birmingham, Coventry, and Wolverhampton - generate consistent demand for purpose-built student accommodation and graduate rental housing. This specialist sector offers attractive yields and has a dedicated lending market that we access for qualifying projects.",
+    ],
+  ],
+  "east-midlands": [
+    [
+      "The East Midlands development market combines genuine affordability with employment-led demand growth. Nottingham, Leicester, and Derby anchor the region's economy, while the M1 logistics corridor and the East Midlands Freeport are drawing sustained investment that supports residential demand in the surrounding towns.",
+      "The region's building stock - Victorian terraces, former textile and hosiery works, and redundant agricultural buildings - provides a rich pipeline of conversion opportunities, many benefiting from permitted development rights. We work with lenders who understand the specific considerations of conversion projects in the East Midlands.",
+    ],
+    [
+      "Property development in the East Midlands is supported by strong fundamentals: a housing market that remains affordable relative to earnings, growing distribution and advanced-manufacturing employment, and university cities - Nottingham, Leicester, and Loughborough among them - that generate consistent demand for student and graduate rental housing.",
+      "From Northamptonshire's commuter towns to Lincolnshire's market towns, the East Midlands offers development opportunities across a wide range of entry prices. Lender appetite for the region is strong, and matching your scheme to funders with genuine current appetite for your location and project type is where we add value.",
     ],
   ],
   "south-west": [
@@ -662,14 +708,24 @@ const COUNTY_OVERVIEW_VARIANTS: Record<Region, string[][]> = {
       "Post-pandemic lifestyle migration has strengthened demand in South West markets that were previously considered secondary. Remote working has enabled permanent relocation from London, pushing up values in towns like Exeter, Taunton, and Cheltenham. Developers who can deliver quality housing stock in these locations are finding strong demand from relocating professionals.",
     ],
   ],
-  "north-east-yorkshire": [
+  yorkshire: [
     [
-      "Yorkshire and the North East offer some of the UK's most compelling development economics. Low land costs, competitive build prices, and strong rental yields create margins that support viable schemes across a range of project types. Leeds, Sheffield, and Newcastle anchor the region's development market, with their university populations and growing employment bases driving consistent housing demand.",
-      "The region's regeneration zones - from Teesside's industrial transformation to Hull's cultural renaissance - are unlocking development sites at accessible land values. Lenders with regional expertise understand the strong income potential relative to development costs, and several specialist funders actively target the North East and Yorkshire markets.",
+      "Yorkshire offers some of the UK's most compelling development economics. Accessible land costs, competitive build prices, and strong rental yields create margins that support viable schemes across a range of project types. Leeds, Sheffield, and Bradford anchor the region's development market, with their university populations and growing employment bases driving consistent housing demand.",
+      "The region's regeneration zones - from Leeds South Bank to Sheffield's Heart of the City and the York Central brownfield scheme - are unlocking development sites at accessible land values. Lenders with regional expertise understand the strong income potential relative to development costs, and several specialist funders actively target the Yorkshire market.",
     ],
     [
-      "Property development in this region benefits from a growing recognition that northern cities offer genuine investment returns comparable to, or exceeding, many southern markets on a yield basis. Student accommodation, young professional rental housing, and family homes all find strong demand in the region's major centres, creating diversified exit options for completed schemes.",
-      "Heritage Action Zones and conservation area grants across Yorkshire and the North East provide additional incentives for sensitive conversion projects, while the region's stock of Victorian and Edwardian buildings creates a natural pipeline of refurbishment opportunities. We connect developers with lenders who value these regional opportunities and can assess schemes based on local market knowledge.",
+      "Property development in Yorkshire benefits from a growing recognition that northern cities offer genuine investment returns comparable to, or exceeding, many southern markets on a yield basis. Student accommodation, young professional rental housing, and family homes all find strong demand in the region's major centres, creating diversified exit options for completed schemes.",
+      "Yorkshire's stock of Victorian and Edwardian buildings - from converted mills in the Pennine towns to city-centre warehouses - creates a natural pipeline of refurbishment and conversion opportunities, with conservation-area grant schemes adding support for sensitive projects. We connect developers with lenders who value these regional opportunities and can assess schemes based on local market knowledge.",
+    ],
+  ],
+  "north-east": [
+    [
+      "The North East offers among the most accessible development entry costs in the UK, paired with some of the country's strongest rental yields. Newcastle anchors the regional market, with Gateshead, Sunderland, and Durham each contributing distinct demand drivers - from student populations to advanced manufacturing employment around the region's automotive cluster.",
+      "The region's regeneration zones - from Gateshead Quays and Riverside Sunderland to the Teesworks industrial regeneration on the Tees - are unlocking development sites at accessible land values. Lenders with regional expertise understand the strong income potential relative to development costs, and several specialist funders actively target the North East market.",
+    ],
+    [
+      "Property development in the North East benefits from a growing recognition that the region offers genuine investment returns exceeding most southern markets on a yield basis. Student accommodation, young professional rental housing, and family homes all find strong demand in the region's centres, creating diversified exit options for completed schemes.",
+      "The North East's stock of Victorian and Edwardian buildings, together with heritage market towns across Northumberland and County Durham, creates a natural pipeline of refurbishment and conversion opportunities. We connect developers with lenders who value these regional opportunities and can assess schemes based on local market knowledge rather than southern assumptions.",
     ],
   ],
   "east-of-england": [
@@ -702,6 +758,12 @@ const COUNTY_OVERVIEW_VARIANTS: Record<Region, string[][]> = {
       "North Wales offers a different market dynamic, with tourism-driven demand supporting holiday-let and mixed-use developments along the coast, while market towns in mid-Wales benefit from lifestyle relocation and a chronic shortage of quality housing stock. We connect developers across Wales with lenders who understand the regional variations and can structure finance accordingly.",
     ],
   ],
+  "uk-generic": [
+    [
+      "The UK development market is underpinned by a structural housing shortage: for decades, completions have run below the rate of household formation, and local authorities across the country are under pressure to allocate more deliverable sites. For developers, this translates into genuine end-user demand for well-located, well-specified residential schemes.",
+      "The development lending market is deep and competitive, spanning high-street banks, challenger banks, and specialist development funders. Terms vary significantly by lender, scheme type, and developer track record - matching a project to the funders with genuine current appetite is where an experienced broker adds measurable value.",
+    ],
+  ],
 };
 
 // ─────────────────────────────────────────────────────────
@@ -729,14 +791,24 @@ const TOWN_OVERVIEW_VARIANTS: Record<Region, ((townName: string, countyName: str
       `Financing developments in ${townName} requires an understanding of local market dynamics that generic, London-centric brokers often lack. Our experience across ${countyName} means we can advise on realistic GDVs, appropriate build cost assumptions, and the specific lender criteria that apply to projects in your area.`,
     ],
   ],
-  midlands: [
+  "west-midlands": [
     (townName, countyName) => [
-      `${townName} sits at the heart of the Midlands development market, benefiting from the region's central location, growing population, and improving transport connections. The area offers development opportunities across the spectrum - from residential new-builds to commercial conversions - with build costs that remain competitive relative to achievable values.`,
+      `${townName} sits within the West Midlands development market, benefiting from the region's central location, growing population, and improving transport connections. The area offers development opportunities across the spectrum - from residential new-builds to commercial conversions - with build costs that remain competitive relative to achievable values.`,
       `Our experience arranging finance for projects across ${countyName} gives us insight into the specific lender appetite for ${townName} developments. We understand which funders are active in the area, what terms they're currently offering, and how to present your scheme to maximise leverage and minimise costs.`,
     ],
     (townName, countyName) => [
-      `Property development in ${townName} benefits from the Midlands' strong fundamentals: a growing population attracted by relative affordability, improving employment opportunities, and transport connectivity that links the region's towns and cities. The area's mix of Victorian housing stock, post-war commercial buildings, and available development land creates a diverse pipeline of opportunities.`,
-      `Lender appetite for ${countyName} projects is strong, with several specialist funders actively targeting the Midlands market. We leverage these relationships to secure competitive terms for ${townName} developments, whether you're a first-time developer or an experienced operator seeking to scale your portfolio.`,
+      `Property development in ${townName} benefits from the West Midlands' strong fundamentals: a growing population attracted by relative affordability, improving employment opportunities, and transport connectivity that links the region's towns and cities. The area's mix of Victorian housing stock, post-war commercial buildings, and available development land creates a diverse pipeline of opportunities.`,
+      `Lender appetite for ${countyName} projects is strong, with several specialist funders actively targeting the West Midlands market. We leverage these relationships to secure competitive terms for ${townName} developments, whether you're a first-time developer or an experienced operator seeking to scale your portfolio.`,
+    ],
+  ],
+  "east-midlands": [
+    (townName, countyName) => [
+      `${townName} sits within the East Midlands development market, where genuine affordability combines with employment growth along the M1 corridor and around the region's cities. The area offers development opportunities across the spectrum - from residential new-builds to conversions of the region's characterful industrial stock - with entry costs that remain accessible relative to achievable values.`,
+      `Our experience arranging finance for projects across ${countyName} gives us insight into the specific lender appetite for ${townName} developments. We understand which funders are active in the area, what terms they're currently offering, and how to present your scheme to maximise leverage and minimise costs.`,
+    ],
+    (townName, countyName) => [
+      `Property development in ${townName} benefits from the East Midlands' strong fundamentals: a housing market that remains affordable relative to earnings, growing logistics and manufacturing employment, and transport connectivity that links the region's towns and cities. The area's mix of Victorian housing stock, former industrial buildings, and available development land creates a diverse pipeline of opportunities.`,
+      `Lender appetite for ${countyName} projects is strong, with several specialist funders actively targeting the East Midlands market. We leverage these relationships to secure competitive terms for ${townName} developments, whether you're a first-time developer or an experienced operator seeking to scale your portfolio.`,
     ],
   ],
   "south-west": [
@@ -749,14 +821,24 @@ const TOWN_OVERVIEW_VARIANTS: Record<Region, ((townName: string, countyName: str
       `We have arranged finance for diverse projects across ${countyName}, from urban apartment schemes to rural conversions, giving us a practical understanding of what works in this market. This experience allows us to guide your ${townName} development toward the most appropriate funding structures and lenders.`,
     ],
   ],
-  "north-east-yorkshire": [
+  yorkshire: [
     (townName, countyName) => [
-      `${townName} is part of a region that offers compelling development economics: competitive land and build costs combined with strong rental yields and growing buyer demand. The area's university population, employment growth, and improving connectivity are creating housing demand that supports new development at margins that work for both established developers and those building their track record.`,
+      `${townName} is part of a Yorkshire market that offers compelling development economics: competitive land and build costs combined with strong rental yields and growing buyer demand. The region's university cities, employment growth, and improving connectivity are creating housing demand that supports new development at margins that work for both established developers and those building their track record.`,
       `Our knowledge of the ${countyName} property market extends beyond headline figures to the micro-level detail that matters for scheme viability - achievable sales rates, realistic construction timelines, and the specific lender criteria for projects in your area. We use this knowledge to secure competitive finance for ${townName} developments.`,
     ],
     (townName, countyName) => [
       `Property development in ${townName} reflects the northern growth story that is reshaping UK property markets. Strong yields, affordable entry points, and genuine demand from a growing population create opportunities that sophisticated developers are increasingly recognising. The key to success is realistic appraisal that reflects local comparables rather than aspirational benchmarks.`,
-      `Securing finance for developments in ${countyName} requires lenders with genuine regional knowledge. National funders who assess every deal through a London lens often miss the value in northern markets. We work with specialist lenders who understand ${townName}'s specific dynamics and can price your facility based on local market realities.`,
+      `Securing finance for developments in ${countyName} requires lenders with genuine regional knowledge. National funders who assess every deal through a London lens often miss the value in Yorkshire markets. We work with specialist lenders who understand ${townName}'s specific dynamics and can price your facility based on local market realities.`,
+    ],
+  ],
+  "north-east": [
+    (townName, countyName) => [
+      `${townName} is part of a North East market that offers some of the most accessible development entry costs in the UK, combined with rental yields that consistently rank among the country's strongest. Employment growth around the region's cities, its universities, and its advanced manufacturing base is creating housing demand that supports new development at margins that work for both established developers and those building their track record.`,
+      `Our knowledge of the ${countyName} property market extends beyond headline figures to the micro-level detail that matters for scheme viability - achievable sales rates, realistic construction timelines, and the specific lender criteria for projects in your area. We use this knowledge to secure competitive finance for ${townName} developments.`,
+    ],
+    (townName, countyName) => [
+      `Property development in ${townName} reflects the northern growth story that is reshaping UK property markets. Strong yields, affordable entry points, and genuine demand from a growing population create opportunities that sophisticated developers are increasingly recognising. The key to success is realistic appraisal that reflects local comparables rather than aspirational benchmarks.`,
+      `Securing finance for developments in ${countyName} requires lenders with genuine regional knowledge. National funders who assess every deal through a London lens often miss the value in North East markets. We work with specialist lenders who understand ${townName}'s specific dynamics and can price your facility based on local market realities.`,
     ],
   ],
   "east-of-england": [
@@ -787,6 +869,12 @@ const TOWN_OVERVIEW_VARIANTS: Record<Region, ((townName: string, countyName: str
     (townName, countyName) => [
       `${townName} is part of a Welsh property market that offers genuine development value. Competitive land prices, a supportive grant environment, and growing demand from both local buyers and relocators create conditions that support viable development across a range of scheme types and price points.`,
       `Financing developments in ${countyName} requires an understanding of the Welsh planning system and local market dynamics. We work with lenders who have committed to the Welsh market and can assess ${townName} projects based on realistic local parameters - not generic UK-wide assumptions that may not reflect your area's specific conditions.`,
+    ],
+  ],
+  "uk-generic": [
+    (townName, countyName) => [
+      `Property development in ${townName} is supported by the same structural driver seen across the UK: housing supply that has trailed demand for decades. Well-located, well-specified schemes find genuine end-user demand, and the depth of the UK development lending market means competitive finance is available for projects with sound fundamentals.`,
+      `We arrange finance for developments across ${countyName}, matching each project with the lenders who have genuine current appetite for its type, scale, and location. That matching - informed by live knowledge of who is deploying capital and on what terms - is where an experienced broker saves you both margin and time on your ${townName} scheme.`,
     ],
   ],
 };
@@ -1021,6 +1109,15 @@ export interface TownFaqData {
   transactionCount12m?: number;
   yoyChange?: number | null;
   context?: string;
+  /** Live planning-pipeline evidence, when the town has planning data */
+  pipelineUnits?: number;
+  pendingCount?: number;
+  largestScheme?: { address: string; units: number };
+  /** Measured local new-build premium %, from sold data */
+  newBuildPremium?: number | null;
+  councilName?: string;
+  /** ISO date of the sold-data snapshot, for attributions */
+  soldDataAsOf?: string;
 }
 
 export function getTownFaqs(
@@ -1283,6 +1380,27 @@ export function getServiceFaqsWithData(
         answer: `Commercial yields in ${townName} vary by property type and tenant quality, but typically range from 5-8% for well-let assets. The area's residential market fundamentals, with a median price of ${formatPrice(data.medianPrice)}${data.yoyChange != null && data.yoyChange !== 0 ? ` and ${data.yoyChange > 0 ? "positive" : "slightly negative"} price movement` : ""}, support local commercial values. Multi-let properties with diversified income streams typically attract the strongest lender appetite and most competitive mortgage terms.`,
       });
     }
+  }
+
+  // Live planning-pipeline FAQ — genuinely town-specific evidence
+  if (data?.pendingCount && data?.pipelineUnits && data?.councilName) {
+    localFaqs.push({
+      question: `How active is the development pipeline in ${townName}?`,
+      answer: `The ${data.councilName} planning register currently shows ${data.pendingCount} residential application${data.pendingCount === 1 ? "" : "s"} awaiting decision in ${townName}, together proposing ${data.pipelineUnits.toLocaleString("en-GB")} units${data.largestScheme ? ` — the largest single scheme proposes ${data.largestScheme.units} units` : ""}. An active pipeline signals both developer confidence in local demand and lender familiarity with the market, which typically translates into more competitive finance terms.`,
+    });
+  }
+
+  // Measured new-build premium FAQ
+  if (
+    data?.newBuildPremium != null &&
+    data.newBuildPremium > 0 &&
+    data.newBuildPremium <= 25 &&
+    (serviceSlug === "development-finance" || serviceSlug === "development-exit-finance")
+  ) {
+    localFaqs.push({
+      question: `Do new-build properties sell at a premium in ${townName}?`,
+      answer: `Yes — HM Land Registry price paid data shows new-build stock in ${townName} selling at a ${data.newBuildPremium}% premium to existing stock over the past twelve months. That measured premium is direct evidence for the GDV line in your appraisal, and lenders give more weight to a locally evidenced premium than to national averages.`,
+    });
   }
 
   // Add NeuronWriter "People Also Ask" FAQs per service
@@ -1702,16 +1820,169 @@ const SERVICE_PAGE_SECTIONS: Record<
  * Returns rich content sections for service-location pages.
  * Each section has a title and 2-3 paragraphs with HTML internal links.
  */
+/**
+ * Data-conditional local evidence, injected into the first content section of
+ * every service page. Each sentence only renders when the underlying data
+ * exists, so no-data towns keep the generic copy unchanged — but any town
+ * with Land Registry or planning data gets copy that cannot be town-swapped.
+ */
+function buildLocalEvidenceParas(
+  serviceSlug: string,
+  townName: string,
+  data?: TownFaqData,
+): string[] {
+  if (!data) return [];
+  const paras: string[] = [];
+
+  // Live planning-pipeline evidence
+  if (data.pendingCount && data.pipelineUnits && data.councilName) {
+    let pipeline = `The live ${data.councilName} planning register currently shows ${data.pendingCount} residential application${data.pendingCount === 1 ? "" : "s"} awaiting decision in ${townName}, together proposing ${data.pipelineUnits.toLocaleString("en-GB")} units.`;
+    if (data.largestScheme) {
+      pipeline += ` The largest — at ${data.largestScheme.address.split(",").slice(0, 2).join(",")} — proposes ${data.largestScheme.units} units.`;
+    }
+    pipeline += ` That pipeline is a useful gauge of both local competition and lender familiarity with ${townName} schemes.`;
+    paras.push(pipeline);
+  }
+
+  // Worked, town-specific finance figure per service
+  if (data.medianPrice) {
+    const median = data.medianPrice;
+    const fmt = (n: number) => formatPrice(Math.round(n / 1000) * 1000);
+    switch (serviceSlug) {
+      case "development-finance": {
+        const gdv = median * 10;
+        paras.push(
+          `To put ${townName} numbers on it: at the current median sale price of ${formatPrice(median)}, a 10-unit scheme implies a GDV in the region of ${fmt(gdv)}. Senior development finance at 65% LTGDV would support a facility of roughly ${fmt(gdv * 0.65)}, drawn in stages against certified build progress.`
+        );
+        break;
+      }
+      case "bridging-loans": {
+        paras.push(
+          `On a typical ${townName} asset at the ${formatPrice(median)} median, a 70% LTV bridge equates to around ${fmt(median * 0.7)} — with completion possible in days rather than weeks where the legal pack is ready.`
+        );
+        break;
+      }
+      case "mezzanine-finance": {
+        const gdv = median * 10;
+        paras.push(
+          `On a representative 10-unit ${townName} scheme (~${fmt(gdv)} GDV at the local median), mezzanine typically bridges the gap between 65% and up to 85% LTGDV — around ${fmt(gdv * 0.2)} of additional leverage that would otherwise be developer equity.`
+        );
+        break;
+      }
+      case "equity-jv": {
+        const gdv = median * 10;
+        paras.push(
+          `For a ${townName} scheme around ${fmt(gdv)} GDV, a typical structure of 65% senior debt and 20% mezzanine leaves an equity requirement near ${fmt(gdv * 0.15)} — the slice a JV or equity partner can fund against a share of profit.`
+        );
+        break;
+      }
+      case "refurbishment-finance": {
+        paras.push(
+          `With ${townName} values at a ${formatPrice(median)} median, refurbishment facilities are typically sized at up to 70% of the day-one value — around ${fmt(median * 0.7)} on a median-priced asset — with works funding drawn against schedule.`
+        );
+        break;
+      }
+      case "commercial-mortgages": {
+        paras.push(
+          `Against ${townName}'s ${formatPrice(median)} residential median, commercial and semi-commercial lot sizes in the town remain accessible: a 70% LTV commercial mortgage on a ${fmt(median * 2)} mixed-use asset means a facility around ${fmt(median * 1.4)}, assessed principally on rental cover.`
+        );
+        break;
+      }
+      case "development-exit-finance": {
+        paras.push(
+          `On a completed ${townName} scheme of six median-priced units (~${fmt(median * 6)} of stock), an exit facility at 70% LTV releases around ${fmt(median * 6 * 0.7)} — clearing the development lender and cutting the funding cost while sales complete at full market pace.`
+        );
+        break;
+      }
+    }
+  }
+
+  // Measured new-build premium
+  if (
+    data.newBuildPremium !== null &&
+    data.newBuildPremium !== undefined &&
+    data.newBuildPremium > 0 &&
+    data.newBuildPremium <= 25 &&
+    (serviceSlug === "development-finance" || serviceSlug === "equity-jv" || serviceSlug === "mezzanine-finance")
+  ) {
+    paras.push(
+      `New-build stock in ${townName} has sold at a measured ${data.newBuildPremium}% premium to existing stock over the past twelve months (HM Land Registry price paid data) — direct evidence for the GDV assumptions in your appraisal.`
+    );
+  }
+
+  return paras;
+}
+
+/**
+ * Lender-and-product landscape notes per service. These close the entity
+ * gap the SERP-consensus briefs identified (data/generated/serp-analysis/
+ * location-service-briefs/): every top-ranking competitor names specific
+ * funders and adjacent products; our pages described mechanics generically.
+ *
+ * Framing rule: market observation only ("names like X compete in this
+ * space") — never a claim of panel membership or endorsement. FCA/NACFB
+ * vocabulary is deliberately excluded.
+ */
+const SERVICE_ENTITY_NOTES: Record<string, (townName: string) => string> = {
+  "development-finance": (townName) =>
+    `The development lending market serving ${townName} spans high-street banks, challenger banks, and specialist funders — names like Together, United Trust Bank, Aldermore, LendInvest, Paragon, and Atelier all compete for well-structured schemes. Facilities are sized against both LTGDV and loan-to-cost (LTC) limits, and appetite varies by scheme type: new build, heavy refurbishment, and industrial-to-residential conversion each sit with different funders at different pricing.`,
+  "bridging-loans": (townName) =>
+    `The bridging market serving ${townName} runs from specialist lenders such as Together, LendInvest, and United Trust Bank through to the high-street banks' short-term products. Beyond a standard first-charge bridge, the same market covers second charge lending, auction finance with 28-day completion deadlines, and bridge-to-buy-to-let structures where the exit is a rental refinance.`,
+  "mezzanine-finance": (townName) =>
+    `Mezzanine capital for ${townName} schemes comes from a distinct pool of funders — specialist banks such as OakNorth, Shawbrook, and Aldermore alongside dedicated mezzanine houses. The mezzanine slice sits behind the senior facility under an intercreditor agreement, is measured against loan-to-cost (LTC) as well as LTGDV, and drawdown timing is negotiated alongside the senior lender's. Where mezzanine doesn't fit, equity finance or a second charge bridging loan can close the same gap with a different risk allocation.`,
+  "commercial-mortgages": (townName) =>
+    `Commercial mortgage credit for ${townName} assets is competitive: Together, Aldermore, Shawbrook, and InterBay compete with the high-street banks (Barclays among them) on standard investment cases. Lenders assess debt service cover (DSCR) as closely as LTV, and adjacent products matter — a commercial bridging finance facility to acquire quickly before terming out, buy to let structures for resi-heavy assets, or a second charge to release equity without disturbing an existing first.`,
+  "refurbishment-finance": (townName) =>
+    `Refurbishment funding for ${townName} projects splits into light refurbishment (cosmetic works, typically funded as a bridging finance variant) and heavy refurbishment where structural works push the facility closer to development finance underwriting. Specialist funders — Together, United Trust Bank, MT Finance, Roma Finance, and Alternative Bridging among them — compete across both, and the same market funds auction finance purchases and buy to let exits once works complete.`,
+  "development-exit-finance": (townName) =>
+    `The development exit market serving ${townName} includes dedicated products from Together, LendInvest, Aldermore, Paragon, Shawbrook, and Assetz Capital. Structurally it is a bridging loan against completed stock: cheaper than the development facility it repays, released at practical completion, and flexible on partial repayments as units sell. Where the plan is to hold rather than sell, buy to let term debt or a second charge against retained units can replace the exit bridge. Related routes from the same funders include commercial bridging for mixed-use stock, auction finance where completed units are being sold at auction, and standard bridging finance where only a short extension is needed.`,
+  "equity-jv": (townName) =>
+    `Equity and JV capital for ${townName} schemes comes from private investors, family offices, and institutional partners rather than the lending market — though funders like Together will sit alongside JV equity in the senior position. Partners underwrite the same metrics a lender would (GDV, loan-to-cost, projected IRR) plus the sponsor's delivery record, and structures are typically ring-fenced in a dedicated SPV spanning residential, mixed-use, and industrial schemes. The equity slice also combines with the wider debt market — bridging finance to secure a site while the JV documents complete, or a buy to let refinance where the partnership retains completed units for income.`,
+};
+
 export function getServicePageSections(
   serviceSlug: string,
   townName: string,
   countyName: string,
   data?: TownFaqData,
+  countySlug?: string,
 ): ContentSection[] {
   const generator = SERVICE_PAGE_SECTIONS[serviceSlug];
   if (!generator) return [];
-  
-return generator(townName, countyName, serviceSlug, data);
+
+  const sections = generator(townName, countyName, serviceSlug, data);
+
+  // Inject town-specific evidence into the first section
+  const evidence = buildLocalEvidenceParas(serviceSlug, townName, data);
+  if (evidence.length > 0 && sections.length > 0) {
+    sections[0] = {
+      ...sections[0],
+      content: [...sections[0].content, ...evidence],
+    };
+  }
+
+  // Lender-and-product landscape note (SERP entity-coverage gap)
+  const entityNote = SERVICE_ENTITY_NOTES[serviceSlug];
+  if (entityNote && sections.length > 1) {
+    sections[1] = {
+      ...sections[1],
+      content: [...sections[1].content, entityNote(townName)],
+    };
+  }
+
+  // Append the region × service editorial note to the last section
+  if (countySlug) {
+    const note = getRegionalServiceNote(getRegion(countySlug), serviceSlug);
+    if (note && sections.length > 0) {
+      const last = sections.length - 1;
+      sections[last] = {
+        ...sections[last],
+        content: [...sections[last].content, note],
+      };
+    }
+  }
+
+  return sections;
 }
 
 /**

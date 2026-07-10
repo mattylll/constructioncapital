@@ -891,8 +891,21 @@ function writeOutputFiles(
 
   // Write town stats JSON
   // Merge with existing planning data if available
-  let planningStats = {
+  // NOTE: "approvedApps12m" is a legacy field name — the value is the approved
+  // count across the scraper's dataset window (see planningWindowMonths), NOT
+  // a guaranteed 12-month figure. Kept for backwards compat; prefer
+  // approvedRecent + planningWindowMonths.
+  let planningStats: {
+    approvedApps12m: number;
+    approvedRecent: number;
+    planningWindowMonths: number | null;
+    pipelineUnits: number;
+    pipelineGdv: number;
+    approvalRate: number;
+  } = {
     approvedApps12m: 0,
+    approvedRecent: 0,
+    planningWindowMonths: null,
     pipelineUnits: 0,
     pipelineGdv: 0,
     approvalRate: 0,
@@ -908,6 +921,8 @@ function writeOutputFiles(
     const planning = JSON.parse(fs.readFileSync(planningPath, "utf-8"));
     planningStats = {
       approvedApps12m: planning.summary?.approved || 0,
+      approvedRecent: planning.summary?.approved || 0,
+      planningWindowMonths: planning.dataset?.windowMonths ?? null,
       pipelineUnits: planning.summary?.totalUnits || 0,
       pipelineGdv: planning.summary?.totalEstimatedGDV || 0,
       approvalRate: planning.summary?.approvalRate || 0,

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import {
-  Building2,
   PoundSterling,
   TrendingUp,
   Calculator,
@@ -8,6 +7,11 @@ import {
   ArrowRight,
 } from "lucide-react";
 import type { PlanningApp } from "@/lib/local-market-data";
+import {
+  appraiseScheme,
+  detectUnitType,
+  type AppraisalResult,
+} from "@/lib/development-appraisal";
 import {
   EditorialSection,
   SectionHeader,
@@ -21,6 +25,8 @@ interface PlanningDealAnalysisProps {
   townSlug: string;
   currentServiceSlug: string;
   medianPrice?: number;
+  medianByType?: Record<string, number>;
+  newBuildPremium?: number | null;
 }
 
 function formatGBP(amount: number): string {
@@ -40,14 +46,17 @@ function formatGBPFull(amount: number): string {
   return `£${amount.toLocaleString("en-GB")}`;
 }
 
-/** Estimate build cost per unit based on scheme category */
-function estimateBuildCostPerUnit(category: string, gdvPerUnit: number): number {
-  // Conversion/PD rights: lower build cost ratio
-  if (category === "prior_approval" || category === "conversion") {
-    return Math.round(gdvPerUnit * 0.35);
-  }
-  // New build: higher build cost
-  return Math.round(gdvPerUnit * 0.45);
+/** Matches the approved-status heuristics used by PlanningApplicationsTable */
+function isApprovedApp(app: PlanningApp): boolean {
+  const decision = app.decision.toLowerCase();
+  
+return (
+    app.status === "Approved" ||
+    app.status.toUpperCase().includes("APPROV") ||
+    decision.includes("approved") ||
+    decision.includes("conditional permission") ||
+    decision.includes("consent")
+  );
 }
 
 /** Classify scheme type for narrative */
@@ -116,9 +125,7 @@ interface CapitalStackItem {
   serviceSlug: string;
 }
 
-function buildCapitalStack(gdv: number, category: string): CapitalStackItem[] {
-  const isConversion = category === "prior_approval" || category === "conversion";
-
+function buildCapitalStack(gdv: number, isConversion: boolean): CapitalStackItem[] {
   if (isConversion) {
     // Conversions: lighter capital structure
     return [
@@ -174,34 +181,30 @@ function buildCapitalStack(gdv: number, category: string): CapitalStackItem[] {
 
 function SchemeAnalysisCard({
   app,
+  appraisal,
   townName,
   countySlug,
   townSlug,
-  medianPrice,
   index,
 }: {
   app: PlanningApp;
+  appraisal: AppraisalResult;
   townName: string;
   countySlug: string;
   townSlug: string;
-  medianPrice?: number;
   index: number;
 }) {
-  const gdv = app.estimatedGdv!;
+  const gdv = appraisal.gdv;
   const units = app.units!;
-  const gdvPerUnit = Math.round(gdv / units);
   const scheme = classifyScheme(app);
-  const stack = buildCapitalStack(gdv, app.category);
-  const buildCostPerUnit = estimateBuildCostPerUnit(app.category, gdvPerUnit);
-  const totalBuildCost = buildCostPerUnit * units;
-  const estimatedProfit = gdv - totalBuildCost - Math.round(gdv * 0.08); // 8% finance + fees
-  const profitOnGdv = ((estimatedProfit / gdv) * 100).toFixed(1);
+  const stack = buildCapitalStack(gdv, appraisal.isConversion);
+  const approved = isApprovedApp(app);
 
-  // Pre-fill deal room with this scheme's financials
+  // Pre-fill deal room with this scheme's appraisal
   const seniorDebt = stack.find((s) => s.label === "Senior Debt");
   const dealRoomParams = new URLSearchParams({
     gdv: String(gdv),
-    total_cost: String(totalBuildCost),
+    total_cost: String(appraisal.totalCostsExLand),
     loan_amount: String(seniorDebt?.amount ?? Math.round(gdv * 0.6)),
     loan_type: scheme.financeProduct,
     town: townName,
@@ -241,6 +244,22 @@ function SchemeAnalysisCard({
               }}
             >
               {scheme.label}
+            </span>{" "}
+            <span
+              className="mb-2 inline-block rounded-full px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider"
+              style={
+                approved
+                  ? {
+                      backgroundColor: "oklch(0.55 0.15 160 / 0.2)",
+                      color: "oklch(0.8 0.12 160)",
+                    }
+                  : {
+                      backgroundColor: "oklch(0.7 0.05 255 / 0.15)",
+                      color: "oklch(0.85 0.02 255)",
+                    }
+              }
+            >
+              {approved ? "Approved" : "Awaiting decision"}
             </span>
             <h4 className="mt-2 text-lg font-bold text-white">
               {app.address.split(",").slice(0, 2).join(",")}
@@ -271,37 +290,103 @@ function SchemeAnalysisCard({
             <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
               GDV / Unit
             </p>
-            <p className="mt-0.5 text-lg font-bold">{formatGBP(gdvPerUnit)}</p>
+            <p className="mt-0.5 text-lg font-bold">
+              {formatGBP(appraisal.gdvPerUnit)}
+            </p>
           </div>
           <div>
             <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
-              Est. Build Cost
+              Build Cost (Range)
             </p>
-            <p className="mt-0.5 text-lg font-bold">{formatGBP(totalBuildCost)}</p>
+            <p className="mt-0.5 text-lg font-bold">
+              {formatGBP(appraisal.buildCostRange.low)}–
+              {formatGBP(appraisal.buildCostRange.high)}
+            </p>
           </div>
           <div>
             <p className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
-              Est. Profit on GDV
+              Residual Land Value
             </p>
-            <p className="mt-0.5 text-lg font-bold">{profitOnGdv}%</p>
+            <p className="mt-0.5 text-lg font-bold">
+              {appraisal.marginalViability
+                ? "Tight"
+                : formatGBP(appraisal.residualLandValue)}
+            </p>
           </div>
         </div>
 
-        {medianPrice && (
-          <p className="mb-6 text-sm text-muted-foreground">
-            At {formatGBP(gdvPerUnit)} per unit, this scheme prices{" "}
-            {gdvPerUnit > medianPrice
-              ? `${Math.round(((gdvPerUnit - medianPrice) / medianPrice) * 100)}% above`
-              : `${Math.round(((medianPrice - gdvPerUnit) / medianPrice) * 100)}% below`}{" "}
-            the {townName} median of {formatGBPFull(medianPrice)}.{" "}
-            <Link
-              href={`/calculators/gdv-calculator`}
-              className="font-semibold text-gold-dark hover:underline"
-            >
-              Calculate GDV
-            </Link>
-          </p>
-        )}
+        <p className="mb-6 text-sm text-muted-foreground">
+          GDV estimated from the {appraisal.gdvBasis}.{" "}
+          {appraisal.marginalViability ? (
+            <>
+              At benchmark build costs and a {appraisal.targetProfitPct}%
+              profit target, viability is tight - land would need to be
+              secured well below prevailing values for this scheme to appraise.
+            </>
+          ) : (
+            <>
+              At benchmark build costs, the implied residual land value is{" "}
+              {formatGBPFull(appraisal.residualLandValue)} (
+              {formatGBP(appraisal.residualPerUnit)}/unit) after a{" "}
+              {appraisal.targetProfitPct}% developer profit target.
+            </>
+          )}{" "}
+          <Link
+            href={`/calculators/gdv-calculator`}
+            className="font-semibold text-gold-dark hover:underline"
+          >
+            Calculate GDV
+          </Link>
+        </p>
+
+        {/* Indicative appraisal table */}
+        <div className="mb-6 overflow-hidden rounded-lg border border-border">
+          <table className="w-full text-sm">
+            <tbody>
+              <tr className="border-b border-border/60 bg-muted/40">
+                <td className="px-4 py-2 font-semibold">Gross Development Value</td>
+                <td className="px-4 py-2 text-right font-semibold">{formatGBP(gdv)}</td>
+              </tr>
+              <tr className="border-b border-border/60">
+                <td className="px-4 py-2 text-muted-foreground">
+                  Construction ({appraisal.totalAreaSqm.toLocaleString("en-GB")} sqm @ £
+                  {appraisal.buildCostPerSqm.mid.toLocaleString("en-GB")}/sqm mid)
+                </td>
+                <td className="px-4 py-2 text-right">−{formatGBP(appraisal.buildCost)}</td>
+              </tr>
+              <tr className="border-b border-border/60">
+                <td className="px-4 py-2 text-muted-foreground">
+                  Externals, fees &amp; contingency
+                </td>
+                <td className="px-4 py-2 text-right">
+                  −{formatGBP(appraisal.externals + appraisal.professionalFees + appraisal.contingency)}
+                </td>
+              </tr>
+              <tr className="border-b border-border/60">
+                <td className="px-4 py-2 text-muted-foreground">
+                  Finance ({appraisal.finance.ltgdvPct}% LTGDV, {appraisal.finance.termMonths}m) &amp; sales costs
+                </td>
+                <td className="px-4 py-2 text-right">
+                  −{formatGBP(appraisal.finance.interest + appraisal.finance.fees + appraisal.salesCosts)}
+                </td>
+              </tr>
+              <tr className="border-b border-border/60">
+                <td className="px-4 py-2 text-muted-foreground">
+                  Developer profit target ({appraisal.targetProfitPct}% on GDV)
+                </td>
+                <td className="px-4 py-2 text-right">−{formatGBP(appraisal.targetProfit)}</td>
+              </tr>
+              <tr className="bg-muted/40">
+                <td className="px-4 py-2 font-semibold">Implied residual land value</td>
+                <td className="px-4 py-2 text-right font-semibold">
+                  {appraisal.marginalViability
+                    ? "Marginal"
+                    : formatGBP(appraisal.residualLandValue)}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         {/* Capital stack visualisation */}
         <div className="mb-4">
@@ -443,7 +528,7 @@ function SchemeAnalysisCard({
         {/* Calculator links */}
         <div className="mt-4 flex flex-wrap gap-2">
           <Link
-            href={`/calculators/${calculatorSlug}?gdv=${gdv}&buildCosts=${totalBuildCost}`}
+            href={`/calculators/${calculatorSlug}?gdv=${gdv}&buildCosts=${appraisal.buildCost}`}
             className="inline-flex items-center gap-1 rounded-full bg-muted px-3 py-1.5 text-xs font-medium text-foreground hover:bg-gold/10 hover:text-gold-dark transition-colors"
           >
             <Calculator className="h-3 w-3" />
@@ -484,23 +569,57 @@ export function PlanningDealAnalysis({
   townSlug,
   currentServiceSlug,
   medianPrice,
+  medianByType,
+  newBuildPremium,
 }: PlanningDealAnalysisProps) {
-  // Select top schemes: must have GDV and units, sorted by GDV descending
-  const significantApps = applications
+  // Dedupe: portals sometimes list the same scheme under multiple references
+  const seenRef = new Set<string>();
+  const seenScheme = new Set<string>();
+  const deduped = applications.filter((a) => {
+    if (seenRef.has(a.reference)) return false;
+    seenRef.add(a.reference);
+    const schemeKey = `${a.address.toLowerCase().trim()}|${a.units ?? ""}`;
+    if (a.units && seenScheme.has(schemeKey)) return false;
+    seenScheme.add(schemeKey);
+    
+return true;
+  });
+
+  // Select top schemes: must have GDV and units, sorted by GDV descending,
+  // and must produce a valid benchmark appraisal
+  const significantApps = deduped
     .filter((a) => a.estimatedGdv && a.units && a.estimatedGdv >= 1_000_000)
     .sort((a, b) => (b.estimatedGdv || 0) - (a.estimatedGdv || 0))
+    .map((app) => ({
+      app,
+      appraisal: appraiseScheme({
+        units: app.units!,
+        unitType: detectUnitType(app.proposal),
+        category: app.category,
+        proposal: app.proposal,
+        countySlug,
+        blendedMedian: medianPrice,
+        medianByType,
+        newBuildPremium,
+        storedEstimatedGdv: app.estimatedGdv,
+      }),
+    }))
+    .filter((x): x is { app: PlanningApp; appraisal: AppraisalResult } =>
+      Boolean(x.appraisal)
+    )
     .slice(0, 3);
 
   if (significantApps.length === 0) return null;
 
   const totalPipelineGdv = significantApps.reduce(
-    (sum, a) => sum + (a.estimatedGdv || 0),
+    (sum, x) => sum + x.appraisal.gdv,
     0
   );
   const totalPipelineUnits = significantApps.reduce(
-    (sum, a) => sum + (a.units || 0),
+    (sum, x) => sum + (x.app.units || 0),
     0
   );
+  const anyApproved = significantApps.some((x) => isApprovedApp(x.app));
 
   return (
     <EditorialSection tone="stone">
@@ -518,11 +637,12 @@ export function PlanningDealAnalysis({
         }
         body={
           <>
-            Financial analysis of the largest approved planning applications
-            in {townName}, {countyName}. These{" "}
-            <strong>{significantApps.length}</strong> schemes represent{" "}
-            <strong>{formatGBP(totalPipelineGdv)}</strong> in combined GDV
-            across{" "}
+            Indicative appraisals of the largest residential schemes in the{" "}
+            {townName} planning pipeline
+            {anyApproved ? "" : " (all currently awaiting decision)"}. These{" "}
+            <strong>{significantApps.length}</strong> schemes represent an
+            estimated <strong>{formatGBP(totalPipelineGdv)}</strong> in
+            combined GDV across{" "}
             <strong>
               {totalPipelineUnits.toLocaleString("en-GB")}
             </strong>{" "}
@@ -532,17 +652,29 @@ export function PlanningDealAnalysis({
       />
       <div className="mt-16">
         <div className="space-y-6">
-          {significantApps.map((app, i) => (
+          {significantApps.map(({ app, appraisal }, i) => (
             <SchemeAnalysisCard
               key={app.reference}
               app={app}
+              appraisal={appraisal}
               townName={townName}
               countySlug={countySlug}
               townSlug={townSlug}
-              medianPrice={medianPrice}
               index={i}
             />
           ))}
+        </div>
+
+        {/* Assumptions footnote — one per section, from the first appraisal */}
+        <div className="mt-8 rounded-lg border border-border/60 bg-muted/30 p-4">
+          <p className="text-xs font-bold uppercase tracking-wider text-muted-foreground">
+            Appraisal assumptions
+          </p>
+          <ul className="mt-2 space-y-1 text-xs leading-relaxed text-muted-foreground">
+            {significantApps[0].appraisal.assumptions.map((a) => (
+              <li key={a}>{a}</li>
+            ))}
+          </ul>
         </div>
 
         {/* Bottom CTA */}

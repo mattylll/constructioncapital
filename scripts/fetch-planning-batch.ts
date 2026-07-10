@@ -113,27 +113,76 @@ function extractPostcode(address: string): string {
   return match ? match[1].toUpperCase().replace(/\s+/, " ") : "";
 }
 
+const NUMBER_WORDS: Record<string, number> = {
+  one: 1,
+  two: 2,
+  three: 3,
+  four: 4,
+  five: 5,
+  six: 6,
+  seven: 7,
+  eight: 8,
+  nine: 9,
+  ten: 10,
+  eleven: 11,
+  twelve: 12,
+  thirteen: 13,
+  fourteen: 14,
+  fifteen: 15,
+  sixteen: 16,
+  seventeen: 17,
+  eighteen: 18,
+  nineteen: 19,
+  twenty: 20,
+  thirty: 30,
+  forty: 40,
+  fifty: 50,
+  sixty: 60,
+  seventy: 70,
+  eighty: 80,
+  ninety: 90,
+};
+
+const UNIT_TOKEN =
+  "(?:dwelling|dwellings|unit|units|home|homes|house|houses|apartment|apartments|flat|flats|maisonette|maisonettes|bungalow|bungalows)";
+const NUMBER_TOKEN =
+  "(?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)";
+
+function parseUnitCount(raw: string): number | null {
+  const value = raw.toLowerCase().replace(/-/g, " ").trim();
+  const numeric = Number.parseInt(value, 10);
+  if (Number.isFinite(numeric) && numeric > 0 && numeric < 500) return numeric;
+
+  const total = value
+    .split(/\s+/)
+    .filter(Boolean)
+    .reduce((sum, part) => sum + (NUMBER_WORDS[part] ?? 0), 0);
+  return total > 0 && total < 500 ? total : null;
+}
+
 function extractUnits(proposal: string): number | null {
-  const p = proposal.toLowerCase();
+  const p = proposal.toLowerCase().replace(/\bno\./g, "no").replace(/\s+/g, " ");
+  const hasResidentialSignal = /\b(dwelling|flat|apartment|residential|house|home|bungalow|maisonette)\b/i.test(p);
+  const hasEquipmentSignal = /\b(antenna|telecom|telecommunications|radio\s+unit|remote\s+radio|transmission\s+dish|base\s+station|mast|cabinet|plant|condenser|generator)\b/i.test(p);
+  if (hasEquipmentSignal && !hasResidentialSignal) return null;
+
   const patterns = [
-    /(\d+)\s*(?:no\.?\s*)?(?:residential\s+)?(?:dwelling|unit|home|house|apartment|flat|maisonette)s?/i,
-    /(?:erection|construction|development|provision|creation)\s+of\s+(\d+)\s/i,
-    /(\d+)\s*(?:x|no\.?)\s*(?:\d[\s-]*bed)/i,
-    /(\d+)\s*(?:bed\s*)?(?:room\s*)?(?:apartment|flat|house|dwelling|unit|home)s?/i,
-    /(?:into|to\s+form|to\s+create|providing)\s+(\d+)\s/i,
+    new RegExp(`\\b(${NUMBER_TOKEN})\\s*(?:no\\s*)?(?:residential\\s+)?${UNIT_TOKEN}\\b`, "i"),
+    new RegExp(`\\b(${NUMBER_TOKEN})\\s*(?:x|no)\\s*(?:[a-z\\s-]+\\s+)?${UNIT_TOKEN}\\b`, "i"),
+    new RegExp(`\\b(?:erection|construction|development|provision|creation|formation)\\s+of\\s+(${NUMBER_TOKEN})\\s+(?:[a-z\\s-]+\\s+)?${UNIT_TOKEN}\\b`, "i"),
+    new RegExp(`\\b(?:into|to\\s+form|to\\s+create|providing|provide)\\s+(${NUMBER_TOKEN})\\s+(?:[a-z\\s-]+\\s+)?${UNIT_TOKEN}\\b`, "i"),
+    new RegExp(`\\b(${NUMBER_TOKEN})\\s*(?:bed\\s*)?(?:room\\s*)?${UNIT_TOKEN}\\b`, "i"),
   ];
   for (const pattern of patterns) {
     const match = p.match(pattern);
-    if (match) {
-      const num = parseInt(match[1], 10);
-      if (num > 0 && num < 500) return num;
-    }
+    const units = match ? parseUnitCount(match[1]) : null;
+    if (units) return units;
   }
   if (p.includes("single dwelling") || p.includes("1 dwelling") || p.includes("one dwelling")) return 1;
   if (
     (p.includes("change of use") || p.includes("conversion")) &&
     (p.includes("dwelling") || p.includes("residential")) &&
-    !p.match(/\d+\s*(?:dwelling|unit|flat|apartment)/)
+    !new RegExp(`\\b${NUMBER_TOKEN}\\s+${UNIT_TOKEN}\\b`, "i").test(p)
   ) {
     return 1;
   }
@@ -432,6 +481,10 @@ const MAINTENANCE_PATTERNS = [
 
 function isMaintenanceProposal(proposal: string): boolean {
   const p = proposal.toLowerCase();
+  const hasDevelopmentSignal = /\b(dwelling|unit|flat|apartment|residential|house|home|conversion|change\s+of\s+use|new\s+build|erection)\b/i.test(p);
+  if (!hasDevelopmentSignal && /\b(solar|photovoltaic|pv\s+panel|heat\s+pump|air\s+source|ev\s+charg|battery\s+storage)\b/i.test(p)) {
+    return true;
+  }
   if (p.length < 60 && !p.match(/dwelling|unit|flat|apartment|residential|house|home/)) {
     if (MAINTENANCE_PATTERNS.some((pat) => pat.test(p))) return true;
   }
@@ -840,9 +893,13 @@ function writeWebsiteJson(
   processed: ProcessedApp[],
   authority: PlanningAuthority,
   townSlug: string,
-  countySlug: string
+  countySlug: string,
+  windowMonths: number
 ): void {
   const relevant = processed.filter((a) => a.is_relevant);
+  const windowTo = new Date();
+  const windowFrom = new Date();
+  windowFrom.setMonth(windowFrom.getMonth() - windowMonths);
 
   const approvedApps = relevant.filter((a) => {
     const status = a.status.toUpperCase();
@@ -928,6 +985,12 @@ function writeWebsiteJson(
         townSlug,
         countySlug,
         localAuthority: authority.name,
+        dataset: {
+          windowMonths,
+          from: windowFrom.toISOString().slice(0, 10),
+          to: windowTo.toISOString().slice(0, 10),
+          retrievedAt: windowTo.toISOString(),
+        },
         summary: {
           total: processed.length,
           relevant: relevant.length,
@@ -1029,7 +1092,7 @@ async function processAuthority(
     }
 
     // Write website pipeline JSON
-    writeWebsiteJson(processed, authority, town.townSlug, town.countySlug);
+    writeWebsiteJson(processed, authority, town.townSlug, town.countySlug, months);
   }
 }
 

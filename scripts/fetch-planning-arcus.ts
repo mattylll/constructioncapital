@@ -1876,9 +1876,13 @@ function writeWebsiteJson(
   processed: ProcessedApp[],
   authority: ArcusAuthority,
   townSlug: string,
-  countySlug: string
+  countySlug: string,
+  windowMonths: number
 ): void {
   const relevant = processed.filter((a) => a.is_relevant);
+  const windowTo = new Date();
+  const windowFrom = new Date();
+  windowFrom.setMonth(windowFrom.getMonth() - windowMonths);
 
   const refusedApps = relevant.filter((a) => {
     const status = a.status.toUpperCase();
@@ -1981,6 +1985,12 @@ return db.localeCompare(da);
         countySlug,
         localAuthority: authority.name,
         source: "arcus",
+        dataset: {
+          windowMonths,
+          from: windowFrom.toISOString().slice(0, 10),
+          to: windowTo.toISOString().slice(0, 10),
+          retrievedAt: windowTo.toISOString(),
+        },
         summary: {
           total: processed.length,
           relevant: relevant.length,
@@ -2191,7 +2201,7 @@ return;
       console.log(`    ${count.toString().padStart(4)}  ${cat}`);
     }
 
-    writeWebsiteJson(processed, authority, town.townSlug, town.countySlug);
+    writeWebsiteJson(processed, authority, town.townSlug, town.countySlug, months);
   }
 }
 

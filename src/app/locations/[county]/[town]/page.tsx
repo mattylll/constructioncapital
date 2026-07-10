@@ -34,6 +34,7 @@ import { SERVICES } from "@/lib/services";
 import { SITE_NAME, SITE_URL, CONTACT } from "@/lib/constants";
 import { getCaseStudiesByCounty } from "@/lib/case-studies";
 import { getTownOverview, getDataDrivenOverview, getTownFaqs } from "@/lib/location-content";
+import { appraiseScheme } from "@/lib/development-appraisal";
 import { getTownMarketData } from "@/lib/town-market-data";
 import { TownMarketInsights } from "@/components/locations/town-market-insights";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
@@ -55,6 +56,7 @@ import { MarketSnapshot } from "@/components/locations/market-snapshot";
 import { RecentSoldPrices } from "@/components/locations/recent-sold-prices";
 import { PlanningApplicationsTable } from "@/components/locations/planning-applications-table";
 import { LocalGdvCalculator } from "@/components/locations/local-gdv-calculator";
+import { DataAttribution } from "@/components/locations/data-attribution";
 import { getGuidesByLocation } from "@/lib/guides";
 import { getLocationVideoId } from "@/lib/location-videos";
 import { LocationVideo } from "@/components/locations/location-video";
@@ -414,7 +416,8 @@ return {
             const townReport = getReportByTownSlug(county, town);
             const countyReport = getReportByCountySlug(county);
             if (!townReport && !countyReport) return null;
-            return (
+            
+return (
               <div className="not-prose mt-8 flex flex-col gap-3">
                 {townReport && (
                   <Link
@@ -557,22 +560,47 @@ return {
         <MarketSnapshot stats={townStats.marketSnapshot} townName={townName} />
       )}
 
-      {/* Local GDV Calculator - engagement tool near market data */}
-      {townStats && (
-        <LocalGdvCalculator
-          defaultGdv={
-            soldData?.stats?.medianByType?.["S"]
-              ? soldData.stats.medianByType["S"] * 6
-              : townStats.marketSnapshot.medianPrice * 4
-          }
-          defaultLandCost={
-            soldData?.stats?.medianByType?.["S"]
-              ? Math.round(soldData.stats.medianByType["S"] * 1.5)
-              : Math.round(townStats.marketSnapshot.medianPrice * 1.2)
-          }
-          townName={townName}
-        />
-      )}
+      {/* Local GDV Calculator - engagement tool near market data.
+          Defaults seeded from a benchmark appraisal of a canonical 6-unit
+          semi-detached scheme at the town's own medians. */}
+      {townStats && (() => {
+        const calcUnits = soldData?.stats?.medianByType?.["S"] ? 6 : 4;
+        const calcAppraisal = appraiseScheme({
+          units: calcUnits,
+          unitType: soldData?.stats?.medianByType?.["S"] ? "semi" : null,
+          category: "new_build",
+          countySlug: county,
+          blendedMedian:
+            soldData?.stats?.medianPrice ?? townStats.marketSnapshot.medianPrice,
+          medianByType: soldData?.stats?.medianByType,
+          newBuildPremium: soldData?.stats?.newBuildPremium,
+        });
+        
+return (
+          <LocalGdvCalculator
+            defaultGdv={
+              calcAppraisal?.gdv ??
+              (soldData?.stats?.medianByType?.["S"]
+                ? soldData.stats.medianByType["S"] * 6
+                : townStats.marketSnapshot.medianPrice * 4)
+            }
+            defaultLandCost={
+              calcAppraisal && !calcAppraisal.marginalViability
+                ? calcAppraisal.residualLandValue
+                : soldData?.stats?.medianByType?.["S"]
+                  ? Math.round(soldData.stats.medianByType["S"] * 1.5)
+                  : Math.round(townStats.marketSnapshot.medianPrice * 1.2)
+            }
+            defaultBuildCost={calcAppraisal?.buildCost}
+            buildCostBasis={
+              calcAppraisal
+                ? `Build cost pre-filled at £${calcAppraisal.buildCostPerSqm.mid.toLocaleString("en-GB")}/sqm (regional benchmark) for a ${calcUnits}-unit scheme.`
+                : undefined
+            }
+            townName={townName}
+          />
+        );
+      })()}
 
       {/* Town Market Insights - editorial content, unique per town */}
       {townMarketData && (
@@ -595,6 +623,22 @@ return {
           pending={planningData.pendingApplications}
           summary={planningData.summary}
           townName={townName}
+          datasetWindow={
+            planningData.dataset
+              ? { months: planningData.dataset.windowMonths }
+              : undefined
+          }
+        />
+      )}
+
+      {/* Dated source attribution for all data modules above */}
+      {(soldData || planningData) && (
+        <DataAttribution
+          soldDataUpdatedAt={soldData?.updatedAt}
+          planningAuthority={planningData?.localAuthority}
+          planningRetrievedAt={
+            planningData?.dataset?.retrievedAt ?? planningData?.updatedAt
+          }
         />
       )}
 

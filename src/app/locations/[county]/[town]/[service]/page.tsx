@@ -27,6 +27,8 @@ import {
   getServiceFaqsWithData,
   getServicePageSections,
 } from "@/lib/location-content";
+import { appraiseScheme } from "@/lib/development-appraisal";
+import { DataAttribution } from "@/components/locations/data-attribution";
 import { LocalCaseStudies } from "@/components/locations/local-case-studies";
 import { LocationMap } from "@/components/locations/location-map";
 import { LocationHeroImage } from "@/components/locations/location-hero-image";
@@ -60,10 +62,6 @@ function deslugify(slug: string): string {
   return slug
     .replace(/-/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase());
-}
-
-function capitalize(s: string): string {
-  return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
 // Helper to convert name to slug
@@ -219,7 +217,6 @@ export default async function ServicePage({ params }: PageProps) {
     slug: t.slug,
     countySlug: county,
   }));
-  const dealExample = getDealExample(service, townName);
   const arrangementFee = getArrangementFee(service);
   const townMarketData = getTownMarketData(county, town);
   const townStats = getTownStats(county, town);
@@ -229,6 +226,11 @@ export default async function ServicePage({ params }: PageProps) {
   const townReport = getReportByTownSlug(county, town);
   const countyReport = getReportByCountySlug(county);
 
+  // Largest pending scheme, for pipeline evidence copy
+  const largestPending = planningData?.pendingApplications
+    ?.filter((a) => a.units)
+    .sort((a, b) => (b.units ?? 0) - (a.units ?? 0))[0];
+
   // Build local data for enrichment
   const localData = (soldData?.stats || townStats) ? {
     medianPrice: soldData?.stats?.medianPrice ?? townStats?.marketSnapshot.medianPrice,
@@ -236,7 +238,39 @@ export default async function ServicePage({ params }: PageProps) {
     transactionCount12m: soldData?.stats?.transactionCount12m ?? townStats?.marketSnapshot.transactionCount12m,
     yoyChange: soldData?.stats?.yoyChange ?? townStats?.marketSnapshot.yoyPriceChange,
     context: townData?.context,
+    pipelineUnits: planningData?.summary.pendingUnits || undefined,
+    pendingCount: planningData?.summary.pending || undefined,
+    largestScheme: largestPending?.units
+      ? { address: largestPending.address, units: largestPending.units }
+      : undefined,
+    newBuildPremium: soldData?.stats?.newBuildPremium,
+    councilName: planningData?.localAuthority,
+    soldDataAsOf: soldData?.updatedAt,
   } : undefined;
+
+  // Deal example: real appraisal at this town's medians when data exists,
+  // static service template otherwise
+  const canonicalAppraisal = localData?.medianPrice
+    ? appraiseScheme({
+        units: 9,
+        unitType: localData.medianByType?.["S"] ? "semi" : null,
+        category: "new_build",
+        countySlug: county,
+        blendedMedian: localData.medianPrice,
+        medianByType: localData.medianByType,
+        newBuildPremium: localData.newBuildPremium,
+      })
+    : null;
+  const dealExample = canonicalAppraisal
+    ? {
+        title: `Illustrative 9-Unit Scheme, ${townName}`,
+        description: `An indicative appraisal for a nine-unit residential scheme priced at ${townName}'s own HM Land Registry medians${canonicalAppraisal.gdvBasis.includes("premium") ? " with the locally measured new-build premium applied" : ""}. Build costs use the regional £/sqm benchmark; every figure updates with the underlying market data.`,
+        gdv: `£${canonicalAppraisal.gdv.toLocaleString("en-GB")}`,
+        loanAmount: `£${canonicalAppraisal.finance.facility.toLocaleString("en-GB")}`,
+        ltv: `${canonicalAppraisal.finance.ltgdvPct}% LTGDV`,
+        loanType: serviceName,
+      }
+    : getDealExample(service, townName);
 
   // Use town-specific service commentary when available, then enriched, then generic
   const marketCommentary = townMarketData?.serviceCommentary?.[service]
@@ -245,28 +279,22 @@ export default async function ServicePage({ params }: PageProps) {
   // Data-enriched FAQs
   const faqs = getServiceFaqsWithData(service, townName, countyName, localData);
 
-  // Rich content sections for SEO depth
-  const contentSections = getServicePageSections(service, townName, countyName, localData);
+  // Rich content sections for SEO depth, with local evidence + regional note
+  const contentSections = getServicePageSections(service, townName, countyName, localData, county);
 
   // Entity-variant lookups (Bradley Benner methodology)
   const townEntity = getTownEntity(county, town);
   const countyEntity = getCountyEntity(county);
   const serviceVariants = getServiceVariants(service);
 
-  // H1: trigger word + service H1 variant + entity primary
-  // (different phrasing from SEO title, which uses serviceVariants.meta)
-  let h1Parts: [string, string];
-  if (townEntity && serviceVariants) {
-    h1Parts = [
-      `${capitalize(townEntity.triggerWord)} ${serviceVariants.h1}`,
-      `for ${townEntity.primary} developers`,
-    ];
-  } else {
-    const titlePattern = SERVICE_TITLE_PATTERNS[service];
-    h1Parts = titlePattern
-      ? titlePattern(townName, countyName).h1
-      : [serviceName, `in ${townName}`];
-  }
+  // H1: direct-keyword form ("Development Finance / in Leeds") — SERP
+  // consensus across the top rankers is a direct service+city H1, so the
+  // Benner entity variation lives in the H2s, commentary, and neighbourhood
+  // sections rather than diluting the H1.
+  const titlePattern = SERVICE_TITLE_PATTERNS[service];
+  const h1Parts: [string, string] = titlePattern
+    ? titlePattern(townEntity?.primary ?? townName, countyName).h1
+    : [serviceName, `in ${townName}`];
 
   const breadcrumbItems = [
     { label: "Home", href: "/" },
@@ -452,6 +480,11 @@ export default async function ServicePage({ params }: PageProps) {
           pending={planningData.pendingApplications}
           summary={planningData.summary}
           townName={townName}
+          datasetWindow={
+            planningData.dataset
+              ? { months: planningData.dataset.windowMonths }
+              : undefined
+          }
         />
       )}
 
@@ -470,6 +503,8 @@ export default async function ServicePage({ params }: PageProps) {
           medianPrice={
             soldData?.stats?.medianPrice ?? townStats?.marketSnapshot.medianPrice
           }
+          medianByType={soldData?.stats?.medianByType}
+          newBuildPremium={soldData?.stats?.newBuildPremium}
         />
       )}
 
@@ -479,6 +514,17 @@ export default async function ServicePage({ params }: PageProps) {
           transactions={soldData.recentTransactions}
           stats={soldData.stats}
           townName={townName}
+        />
+      )}
+
+      {/* Dated source attribution for all data modules above */}
+      {(soldData || planningData) && (
+        <DataAttribution
+          soldDataUpdatedAt={soldData?.updatedAt}
+          planningAuthority={planningData?.localAuthority}
+          planningRetrievedAt={
+            planningData?.dataset?.retrievedAt ?? planningData?.updatedAt
+          }
         />
       )}
 

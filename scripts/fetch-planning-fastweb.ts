@@ -1333,9 +1333,13 @@ function writeWebsiteJson(
   processed: ProcessedApp[],
   authority: FastwebAuthority,
   townSlug: string,
-  countySlug: string
+  countySlug: string,
+  windowMonths: number
 ): void {
   const relevant = processed.filter((a) => a.is_relevant);
+  const windowTo = new Date();
+  const windowFrom = new Date();
+  windowFrom.setMonth(windowFrom.getMonth() - windowMonths);
 
   const approvedApps = relevant.filter((a) => {
     const status = a.status.toUpperCase();
@@ -1428,6 +1432,12 @@ function writeWebsiteJson(
         countySlug,
         localAuthority: authority.name,
         source: "fastweb",
+        dataset: {
+          windowMonths,
+          from: windowFrom.toISOString().slice(0, 10),
+          to: windowTo.toISOString().slice(0, 10),
+          retrievedAt: windowTo.toISOString(),
+        },
         summary: {
           total: processed.length,
           relevant: relevant.length,
@@ -1550,7 +1560,7 @@ async function processAuthority(
     }
 
     // Write website pipeline JSON
-    writeWebsiteJson(processed, authority, town.townSlug, town.countySlug);
+    writeWebsiteJson(processed, authority, town.townSlug, town.countySlug, months);
   }
 }
 

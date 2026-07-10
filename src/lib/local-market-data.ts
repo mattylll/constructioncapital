@@ -20,7 +20,12 @@ export interface TownStats {
     medianPrice: number;
     transactionCount12m: number;
     yoyPriceChange: number | null;
+    /** Legacy name — approved count over the scraper's dataset window, not a true 12m figure. */
     approvedApps12m: number;
+    /** Same value as approvedApps12m under an honest name (written from 2026-07). */
+    approvedRecent?: number;
+    /** Scrape window in months for the planning figures, when known. */
+    planningWindowMonths?: number | null;
     pipelineUnits: number;
     pipelineGdv: number;
     approvalRate: number;
@@ -94,6 +99,13 @@ export interface PlanningData {
   townSlug: string;
   countySlug: string;
   localAuthority: string;
+  /** Scrape-window metadata (present once written by the planning scrapers). */
+  dataset?: {
+    windowMonths: number;
+    from: string;
+    to: string;
+    retrievedAt: string;
+  };
   summary: {
     total: number;
     relevant: number;

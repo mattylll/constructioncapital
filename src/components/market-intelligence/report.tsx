@@ -246,7 +246,7 @@ export function MarketIntelligenceReportView({ report }: { report: MarketIntelli
                 {pipelineGdv > 0 ? fmtCompact(pipelineGdv) : "—"}
               </dd>
               <div className="text-sm text-white/70">
-                {decided > 0 ? `${approvalRate}% approval rate (12m)` : ""}
+                {decided > 0 ? `${approvalRate}% approval rate (recent decisions)` : ""}
               </div>
             </div>
           </dl>

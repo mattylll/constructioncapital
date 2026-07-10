@@ -15,6 +15,11 @@ import {
 interface LocalGdvCalculatorProps {
   defaultGdv: number;
   defaultLandCost: number;
+  /** Benchmark-derived default (regional £/sqm × floor area). Falls back to a
+   * GDV ratio only when the server page couldn't compute a benchmark. */
+  defaultBuildCost?: number;
+  /** One-line description of the build-cost basis, shown in the info note */
+  buildCostBasis?: string;
   townName: string;
 }
 
@@ -64,11 +69,13 @@ function StackBar({
 export function LocalGdvCalculator({
   defaultGdv,
   defaultLandCost,
+  defaultBuildCost,
+  buildCostBasis,
   townName,
 }: LocalGdvCalculatorProps) {
   const [inputs, setInputs] = useState({
     landCost: defaultLandCost.toLocaleString("en-GB"),
-    buildCosts: Math.round(defaultGdv * 0.4).toLocaleString("en-GB"),
+    buildCosts: (defaultBuildCost ?? Math.round(defaultGdv * 0.4)).toLocaleString("en-GB"),
     gdv: defaultGdv.toLocaleString("en-GB"),
     interestRate: "7.5",
   });
@@ -236,8 +243,9 @@ export function LocalGdvCalculator({
             <div className="mt-4 flex items-start gap-3 rounded-xl border border-border bg-muted/30 p-3">
               <Info className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
               <p className="text-xs leading-relaxed text-muted-foreground">
-                Assumes 10% professional fees, 10% contingency, 65% LTGDV senior
-                debt, 18-month term.{" "}
+                {buildCostBasis ? `${buildCostBasis} ` : ""}Assumes 10%
+                professional fees, 10% contingency, 65% LTGDV senior debt,
+                18-month term.{" "}
                 <Link
                   href="/calculators/development-finance"
                   className="text-gold-dark hover:text-gold"

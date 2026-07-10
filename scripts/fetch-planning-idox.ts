@@ -62,6 +62,53 @@ function idoxPath(authority: IdoxAuthority): string {
 // ─── Idox Authority Registry ─────────────────────────────────
 
 const IDOX_AUTHORITIES: IdoxAuthority[] = [
+  // ── Greater London coverage push (2026-07-06) ──────────────
+  // Each of the 6 below confirmed live via curl (HTTP 200 on
+  // search.do?action=simple) before adding; enabled:true only set after
+  // a real dry-run below confirmed application data, not on the strength
+  // of the curl check alone.
+  {
+    id: "bexley",
+    name: "London Borough of Bexley",
+    baseUrl: "https://pa.bexley.gov.uk",
+    towns: [{ townSlug: "bexley", countySlug: "greater-london" }],
+    enabled: false,
+  },
+  {
+    id: "city-of-london",
+    name: "City of London Corporation",
+    baseUrl: "https://www.planning2.cityoflondon.gov.uk",
+    towns: [{ townSlug: "city-of-london", countySlug: "greater-london" }],
+    enabled: false,
+  },
+  {
+    id: "hammersmith-fulham",
+    name: "London Borough of Hammersmith & Fulham",
+    baseUrl: "https://public-access.lbhf.gov.uk",
+    towns: [{ townSlug: "hammersmith", countySlug: "greater-london" }],
+    enabled: false,
+  },
+  {
+    id: "kingston",
+    name: "Royal Borough of Kingston upon Thames",
+    baseUrl: "https://publicaccess.kingston.gov.uk",
+    towns: [{ townSlug: "kingston", countySlug: "greater-london" }],
+    enabled: false,
+  },
+  {
+    id: "westminster",
+    name: "Westminster City Council",
+    baseUrl: "https://idoxpa.westminster.gov.uk",
+    towns: [{ townSlug: "westminster", countySlug: "greater-london" }],
+    enabled: false,
+  },
+  {
+    id: "enfield",
+    name: "London Borough of Enfield",
+    baseUrl: "https://planningandbuildingcontrol.enfield.gov.uk",
+    towns: [{ townSlug: "enfield", countySlug: "greater-london" }],
+    enabled: false,
+  },
   {
     id: "reigate-banstead",
     name: "Reigate and Banstead Borough Council",
@@ -2785,9 +2832,13 @@ function writeWebsiteJson(
   processed: ProcessedApp[],
   authority: IdoxAuthority,
   townSlug: string,
-  countySlug: string
+  countySlug: string,
+  windowMonths: number
 ): void {
   const relevant = processed.filter((a) => a.is_relevant);
+  const windowTo = new Date();
+  const windowFrom = new Date();
+  windowFrom.setMonth(windowFrom.getMonth() - windowMonths);
 
   const approvedApps = relevant.filter((a) => {
     const status = a.status.toUpperCase();
@@ -2884,6 +2935,12 @@ function writeWebsiteJson(
         countySlug,
         localAuthority: authority.name,
         source: "idox",
+        dataset: {
+          windowMonths,
+          from: windowFrom.toISOString().slice(0, 10),
+          to: windowTo.toISOString().slice(0, 10),
+          retrievedAt: windowTo.toISOString(),
+        },
         summary: {
           total: processed.length,
           relevant: relevant.length,
@@ -3003,7 +3060,7 @@ async function processAuthority(
     }
 
     // Write website pipeline JSON
-    writeWebsiteJson(processed, authority, town.townSlug, town.countySlug);
+    writeWebsiteJson(processed, authority, town.townSlug, town.countySlug, months);
   }
 }
 

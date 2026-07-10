@@ -1121,9 +1121,13 @@ function writeWebsiteJson(
   processed: ProcessedApp[],
   authority: AgileAuthority,
   townSlug: string,
-  countySlug: string
+  countySlug: string,
+  windowMonths: number
 ): void {
   const relevant = processed.filter((a) => a.is_relevant);
+  const windowTo = new Date();
+  const windowFrom = new Date();
+  windowFrom.setMonth(windowFrom.getMonth() - windowMonths);
 
   // Compute refused/withdrawn FIRST and have approved exclude them. This
   // matters for Agile specifically: real Redbridge decisionText includes
@@ -1241,6 +1245,12 @@ function writeWebsiteJson(
         countySlug,
         localAuthority: authority.name,
         source: "agile",
+        dataset: {
+          windowMonths,
+          from: windowFrom.toISOString().slice(0, 10),
+          to: windowTo.toISOString().slice(0, 10),
+          retrievedAt: windowTo.toISOString(),
+        },
         summary: {
           total: processed.length,
           relevant: relevant.length,
@@ -1367,7 +1377,7 @@ async function processAuthority(
     }
 
     // Write website pipeline JSON
-    writeWebsiteJson(processed, authority, town.townSlug, town.countySlug);
+    writeWebsiteJson(processed, authority, town.townSlug, town.countySlug, months);
   }
 }
 
