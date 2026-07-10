@@ -4,6 +4,7 @@ import {
   BarChart3,
   TrendingUp,
   TrendingDown,
+  Minus,
   Building2,
   PoundSterling,
   CheckCircle2,
@@ -48,7 +49,9 @@ interface GuideMarketEvidenceProps {
 }
 
 export function GuideMarketEvidence({ data }: GuideMarketEvidenceProps) {
-  const yoyPositive = data.avgYoyChange >= 0;
+  const yoyAvailable = data.avgYoyChange !== null;
+  const yoyPositive = yoyAvailable && data.avgYoyChange! > 0;
+  const yoyFlat = yoyAvailable && data.avgYoyChange === 0;
   const hasPriceByType = Object.keys(data.medianByType).length > 0;
   const planning = data.planning;
 
@@ -90,22 +93,26 @@ export function GuideMarketEvidence({ data }: GuideMarketEvidenceProps) {
               </p>
             </div>
 
-            <div className="rounded-xl border border-border bg-card p-4">
-              {yoyPositive ? (
-                <TrendingUp className="mb-2 h-5 w-5 text-emerald-500" />
-              ) : (
-                <TrendingDown className="mb-2 h-5 w-5 text-red-500" />
-              )}
-              <p className="text-xs text-muted-foreground">Avg YoY Change</p>
-              <p
-                className={`text-lg font-bold ${yoyPositive ? "text-emerald-600" : "text-red-600"}`}
-              >
-                {yoyPositive ? "+" : ""}
-                {data.avgYoyChange}%
-              </p>
-            </div>
+            {yoyAvailable && (
+              <div className="rounded-xl border border-border bg-card p-4">
+                {yoyPositive ? (
+                  <TrendingUp className="mb-2 h-5 w-5 text-emerald-500" />
+                ) : yoyFlat ? (
+                  <Minus className="mb-2 h-5 w-5 text-muted-foreground" />
+                ) : (
+                  <TrendingDown className="mb-2 h-5 w-5 text-red-500" />
+                )}
+                <p className="text-xs text-muted-foreground">Avg YoY Change</p>
+                <p
+                  className={`text-lg font-bold ${yoyPositive ? "text-emerald-600" : yoyFlat ? "" : "text-red-600"}`}
+                >
+                  {yoyPositive ? "+" : ""}
+                  {data.avgYoyChange}%
+                </p>
+              </div>
+            )}
 
-            {data.newBuildPremium !== 0 && (
+            {data.newBuildPremium !== null && data.newBuildPremium !== 0 && (
               <div className="rounded-xl border border-border bg-card p-4">
                 <HardHat className="mb-2 h-5 w-5 text-gold" />
                 <p className="text-xs text-muted-foreground">
@@ -189,8 +196,14 @@ export function GuideMarketEvidence({ data }: GuideMarketEvidenceProps) {
                   </thead>
                   <tbody>
                     {data.topTowns.map((town) => {
-                      const townYoyPositive = town.yoyChange >= 0;
-                      
+                      const yoy = town.yoyChange;
+                      const yoyClass =
+                        yoy === null || yoy === 0
+                          ? "text-muted-foreground"
+                          : yoy > 0
+                            ? "text-emerald-600"
+                            : "text-red-600";
+
 return (
                         <tr
                           key={`${town.countySlug}/${town.slug}`}
@@ -210,11 +223,8 @@ return (
                           <td className="hidden px-4 py-3 text-right sm:table-cell">
                             {town.transactionCount12m.toLocaleString("en-GB")}
                           </td>
-                          <td
-                            className={`px-4 py-3 text-right font-medium ${townYoyPositive ? "text-emerald-600" : "text-red-600"}`}
-                          >
-                            {townYoyPositive ? "+" : ""}
-                            {town.yoyChange}%
+                          <td className={`px-4 py-3 text-right font-medium ${yoyClass}`}>
+                            {yoy === null ? "—" : `${yoy > 0 ? "+" : ""}${yoy}%`}
                           </td>
                         </tr>
                       );

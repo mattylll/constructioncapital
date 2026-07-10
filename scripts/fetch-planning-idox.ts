@@ -62,6 +62,53 @@ function idoxPath(authority: IdoxAuthority): string {
 // ─── Idox Authority Registry ─────────────────────────────────
 
 const IDOX_AUTHORITIES: IdoxAuthority[] = [
+  // ── Greater London coverage push (2026-07-06) ──────────────
+  // Each of the 6 below confirmed live via curl (HTTP 200 on
+  // search.do?action=simple) before adding; enabled:true only set after
+  // a real dry-run below confirmed application data, not on the strength
+  // of the curl check alone.
+  {
+    id: "bexley",
+    name: "London Borough of Bexley",
+    baseUrl: "https://pa.bexley.gov.uk",
+    towns: [{ townSlug: "bexley", countySlug: "greater-london" }],
+    enabled: false,
+  },
+  {
+    id: "city-of-london",
+    name: "City of London Corporation",
+    baseUrl: "https://www.planning2.cityoflondon.gov.uk",
+    towns: [{ townSlug: "city-of-london", countySlug: "greater-london" }],
+    enabled: false,
+  },
+  {
+    id: "hammersmith-fulham",
+    name: "London Borough of Hammersmith & Fulham",
+    baseUrl: "https://public-access.lbhf.gov.uk",
+    towns: [{ townSlug: "hammersmith", countySlug: "greater-london" }],
+    enabled: false,
+  },
+  {
+    id: "kingston",
+    name: "Royal Borough of Kingston upon Thames",
+    baseUrl: "https://publicaccess.kingston.gov.uk",
+    towns: [{ townSlug: "kingston", countySlug: "greater-london" }],
+    enabled: false,
+  },
+  {
+    id: "westminster",
+    name: "Westminster City Council",
+    baseUrl: "https://idoxpa.westminster.gov.uk",
+    towns: [{ townSlug: "westminster", countySlug: "greater-london" }],
+    enabled: false,
+  },
+  {
+    id: "enfield",
+    name: "London Borough of Enfield",
+    baseUrl: "https://planningandbuildingcontrol.enfield.gov.uk",
+    towns: [{ townSlug: "enfield", countySlug: "greater-london" }],
+    enabled: false,
+  },
   {
     id: "reigate-banstead",
     name: "Reigate and Banstead Borough Council",
@@ -635,12 +682,14 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
   // ═══════════════════════════════════════════════════════════════
 
   // ── Berkshire ───────────────────────────────────────────────
+  // Migrated to the Arcus platform (publicaccess.bracknell-forest.gov.uk/s/register-view) —
+  // this baseUrl is dead DNS. Out of scope for this pass; needs a dedicated Arcus scraper.
   {
     id: "bracknell-forest",
     name: "Bracknell Forest Council",
     baseUrl: "https://planapp.bracknell-forest.gov.uk",
     towns: [{ townSlug: "bracknell", countySlug: "berkshire" }],
-    enabled: true,
+    enabled: false,
   },
   {
     id: "rbwm",
@@ -1631,27 +1680,76 @@ function extractPostcode(address: string): string {
   return match ? match[1].toUpperCase().replace(/\s+/, " ") : "";
 }
 
+const NUMBER_WORDS: Record<string, number> = {
+  one: 1,
+  two: 2,
+  three: 3,
+  four: 4,
+  five: 5,
+  six: 6,
+  seven: 7,
+  eight: 8,
+  nine: 9,
+  ten: 10,
+  eleven: 11,
+  twelve: 12,
+  thirteen: 13,
+  fourteen: 14,
+  fifteen: 15,
+  sixteen: 16,
+  seventeen: 17,
+  eighteen: 18,
+  nineteen: 19,
+  twenty: 20,
+  thirty: 30,
+  forty: 40,
+  fifty: 50,
+  sixty: 60,
+  seventy: 70,
+  eighty: 80,
+  ninety: 90,
+};
+
+const UNIT_TOKEN =
+  "(?:dwelling|dwellings|unit|units|home|homes|house|houses|apartment|apartments|flat|flats|maisonette|maisonettes|bungalow|bungalows)";
+const NUMBER_TOKEN =
+  "(?:\\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety)";
+
+function parseUnitCount(raw: string): number | null {
+  const value = raw.toLowerCase().replace(/-/g, " ").trim();
+  const numeric = Number.parseInt(value, 10);
+  if (Number.isFinite(numeric) && numeric > 0 && numeric < 500) return numeric;
+
+  const total = value
+    .split(/\s+/)
+    .filter(Boolean)
+    .reduce((sum, part) => sum + (NUMBER_WORDS[part] ?? 0), 0);
+  return total > 0 && total < 500 ? total : null;
+}
+
 function extractUnits(proposal: string): number | null {
-  const p = proposal.toLowerCase();
+  const p = proposal.toLowerCase().replace(/\bno\./g, "no").replace(/\s+/g, " ");
+  const hasResidentialSignal = /\b(dwelling|flat|apartment|residential|house|home|bungalow|maisonette)\b/i.test(p);
+  const hasEquipmentSignal = /\b(antenna|telecom|telecommunications|radio\s+unit|remote\s+radio|transmission\s+dish|base\s+station|mast|cabinet|plant|condenser|generator)\b/i.test(p);
+  if (hasEquipmentSignal && !hasResidentialSignal) return null;
+
   const patterns = [
-    /(\d+)\s*(?:no\.?\s*)?(?:residential\s+)?(?:dwelling|unit|home|house|apartment|flat|maisonette)s?/i,
-    /(?:erection|construction|development|provision|creation)\s+of\s+(\d+)\s/i,
-    /(\d+)\s*(?:x|no\.?)\s*(?:\d[\s-]*bed)/i,
-    /(\d+)\s*(?:bed\s*)?(?:room\s*)?(?:apartment|flat|house|dwelling|unit|home)s?/i,
-    /(?:into|to\s+form|to\s+create|providing)\s+(\d+)\s/i,
+    new RegExp(`\\b(${NUMBER_TOKEN})\\s*(?:no\\s*)?(?:residential\\s+)?${UNIT_TOKEN}\\b`, "i"),
+    new RegExp(`\\b(${NUMBER_TOKEN})\\s*(?:x|no)\\s*(?:[a-z\\s-]+\\s+)?${UNIT_TOKEN}\\b`, "i"),
+    new RegExp(`\\b(?:erection|construction|development|provision|creation|formation)\\s+of\\s+(${NUMBER_TOKEN})\\s+(?:[a-z\\s-]+\\s+)?${UNIT_TOKEN}\\b`, "i"),
+    new RegExp(`\\b(?:into|to\\s+form|to\\s+create|providing|provide)\\s+(${NUMBER_TOKEN})\\s+(?:[a-z\\s-]+\\s+)?${UNIT_TOKEN}\\b`, "i"),
+    new RegExp(`\\b(${NUMBER_TOKEN})\\s*(?:bed\\s*)?(?:room\\s*)?${UNIT_TOKEN}\\b`, "i"),
   ];
   for (const pattern of patterns) {
     const match = p.match(pattern);
-    if (match) {
-      const num = parseInt(match[1], 10);
-      if (num > 0 && num < 500) return num;
-    }
+    const units = match ? parseUnitCount(match[1]) : null;
+    if (units) return units;
   }
   if (p.includes("single dwelling") || p.includes("1 dwelling") || p.includes("one dwelling")) return 1;
   if (
     (p.includes("change of use") || p.includes("conversion")) &&
     (p.includes("dwelling") || p.includes("residential")) &&
-    !p.match(/\d+\s*(?:dwelling|unit|flat|apartment)/)
+    !new RegExp(`\\b${NUMBER_TOKEN}\\s+${UNIT_TOKEN}\\b`, "i").test(p)
   ) {
     return 1;
   }
@@ -1903,6 +2001,10 @@ const MAINTENANCE_PATTERNS = [
 
 function isMaintenanceProposal(proposal: string): boolean {
   const p = proposal.toLowerCase();
+  const hasDevelopmentSignal = /\b(dwelling|unit|flat|apartment|residential|house|home|conversion|change\s+of\s+use|new\s+build|erection)\b/i.test(p);
+  if (!hasDevelopmentSignal && /\b(solar|photovoltaic|pv\s+panel|heat\s+pump|air\s+source|ev\s+charg|battery\s+storage)\b/i.test(p)) {
+    return true;
+  }
   if (p.length < 60 && !p.match(/dwelling|unit|flat|apartment|residential|house|home/)) {
     if (MAINTENANCE_PATTERNS.some((pat) => pat.test(p))) return true;
   }
@@ -2581,12 +2683,13 @@ async function scrapeAllResults(
   authority: IdoxAuthority,
   dateFrom: string,
   dateTo: string
-): Promise<IdoxSearchResult[]> {
+): Promise<{ results: IdoxSearchResult[]; monthsAttempted: number; monthsErrored: number }> {
   // Split into monthly ranges
   const monthlyRanges = generateMonthlyRanges(dateFrom, dateTo);
   console.log(`  📅 Splitting into ${monthlyRanges.length} monthly date ranges`);
 
   const allResults: IdoxSearchResult[] = [];
+  let monthsErrored = 0;
 
   for (let i = 0; i < monthlyRanges.length; i++) {
     const range = monthlyRanges[i];
@@ -2610,13 +2713,14 @@ async function scrapeAllResults(
         console.log(`    ⚠️  Too many results for ${range.from}–${range.to}, skipping`);
       } else {
         console.error(`    ❌ Error: ${err}`);
+        monthsErrored++;
       }
     }
 
     await sleep(THROTTLE_BETWEEN_MONTHS_MS);
   }
 
-  return allResults;
+  return { results: allResults, monthsAttempted: monthlyRanges.length, monthsErrored };
 }
 
 // ─── Idox → Canonical Format Conversion ──────────────────────
@@ -2728,9 +2832,13 @@ function writeWebsiteJson(
   processed: ProcessedApp[],
   authority: IdoxAuthority,
   townSlug: string,
-  countySlug: string
+  countySlug: string,
+  windowMonths: number
 ): void {
   const relevant = processed.filter((a) => a.is_relevant);
+  const windowTo = new Date();
+  const windowFrom = new Date();
+  windowFrom.setMonth(windowFrom.getMonth() - windowMonths);
 
   const approvedApps = relevant.filter((a) => {
     const status = a.status.toUpperCase();
@@ -2827,6 +2935,12 @@ function writeWebsiteJson(
         countySlug,
         localAuthority: authority.name,
         source: "idox",
+        dataset: {
+          windowMonths,
+          from: windowFrom.toISOString().slice(0, 10),
+          to: windowTo.toISOString().slice(0, 10),
+          retrievedAt: windowTo.toISOString(),
+        },
         summary: {
           total: processed.length,
           relevant: relevant.length,
@@ -2874,10 +2988,19 @@ async function processAuthority(
   // ── Scrape ────────────────────────────────────────────────
   let searchResults: IdoxSearchResult[];
   try {
-    searchResults = await scrapeAllResults(authority, dateFrom, dateTo);
+    const scrapeOutcome = await scrapeAllResults(authority, dateFrom, dateTo);
+    if (scrapeOutcome.monthsErrored > 0 && scrapeOutcome.monthsErrored === scrapeOutcome.monthsAttempted) {
+      throw new Error(
+        `All ${scrapeOutcome.monthsAttempted} monthly requests failed — authority likely unreachable (dead URL or portal down)`
+      );
+    }
+    if (scrapeOutcome.monthsErrored > 0) {
+      console.log(`  ⚠️  Partial failure: ${scrapeOutcome.monthsErrored}/${scrapeOutcome.monthsAttempted} months errored`);
+    }
+    searchResults = scrapeOutcome.results;
   } catch (err) {
     console.error(`  ❌ Failed to scrape ${authority.id}: ${err}`);
-    return;
+    throw err;
   }
 
   console.log(`\n  📦 Scraped: ${searchResults.length} search results`);
@@ -2937,7 +3060,7 @@ async function processAuthority(
     }
 
     // Write website pipeline JSON
-    writeWebsiteJson(processed, authority, town.townSlug, town.countySlug);
+    writeWebsiteJson(processed, authority, town.townSlug, town.countySlug, months);
   }
 }
 
@@ -3072,6 +3195,10 @@ async function main() {
   const failCount = results.filter((r) => !r.success).length;
   console.log(`\n  Total: ${successCount} succeeded, ${failCount} failed`);
   console.log("\n  Done! 🎉\n");
+
+  if (failCount > 0) {
+    process.exitCode = 1;
+  }
 }
 
 main().catch((err) => {

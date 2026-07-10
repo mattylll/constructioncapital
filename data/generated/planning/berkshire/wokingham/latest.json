@@ -1,0 +1,62 @@
+{
+  "updatedAt": "2026-07-05T17:28:54.595Z",
+  "townSlug": "wokingham",
+  "countySlug": "berkshire",
+  "localAuthority": "Wokingham Borough Council",
+  "source": "fastweb",
+  "summary": {
+    "total": 146,
+    "relevant": 2,
+    "approved": 0,
+    "pending": 2,
+    "refused": 0,
+    "approvedUnits": 0,
+    "pendingUnits": 202,
+    "totalUnits": 202,
+    "approvedGdv": 0,
+    "pendingGdv": 95950000,
+    "totalEstimatedGDV": 95950000,
+    "approvalRate": 0
+  },
+  "approvedApplications": [],
+  "pendingApplications": [
+    {
+      "reference": "261486",
+      "address": "1 Ilbury Close Shinfield Wokingham RG2 9DE",
+      "postcode": "RG2 9DE",
+      "ward": "",
+      "proposal": "Permission in principle application for the proposed construction of 2 dwellings on land adjacent to 1 Ilbury Close.",
+      "category": "other_residential",
+      "units": 2,
+      "estimatedGdv": 950000,
+      "status": "Registered",
+      "decision": "",
+      "receivedDate": "23/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.wokingham.gov.uk/FastWebPL/detail.asp?AltRef=261486"
+    },
+    {
+      "reference": "261418",
+      "address": "Bridge Farm New Bath Road Twyford Wokingham RG10 9RU",
+      "postcode": "RG10 9RU",
+      "ward": "",
+      "proposal": "Submission of details to comply with Condition 11 (Samples of Materials) of planning consent 212720 dated 05/07/2023 for outline application for the development of up to 200 dwellings, including 40% affordable housing and associated infrastructure, open space, biodiversity enhancements, landscaping and green infrastructure, following demolition of existing agricultural buildings. Condition 11 relates to samples and details of materials to be used in the construction of external surfaces for Phase 1.",
+      "category": "other_residential",
+      "units": 200,
+      "estimatedGdv": 95000000,
+      "status": "Registered",
+      "decision": "",
+      "receivedDate": "16/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.wokingham.gov.uk/FastWebPL/detail.asp?AltRef=261418"
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import {
   BarChart3,
   TrendingUp,
   TrendingDown,
+  Minus,
   CheckCircle2,
   Building2,
   PoundSterling,
@@ -17,7 +18,7 @@ interface MarketSnapshotProps {
   stats: {
     medianPrice: number;
     transactionCount12m: number;
-    yoyPriceChange: number;
+    yoyPriceChange: number | null;
     approvedApps12m: number;
     pipelineUnits: number;
     pipelineGdv: number;
@@ -30,11 +31,12 @@ function formatGBP(amount: number): string {
   if (amount >= 1_000_000) {
     return `£${(amount / 1_000_000).toFixed(1)}M`;
   }
-  return `£${amount.toLocaleString("en-GB")}`;
+  
+return `£${amount.toLocaleString("en-GB")}`;
 }
 
 export function MarketSnapshot({ stats, townName }: MarketSnapshotProps) {
-  const yoyPositive = stats.yoyPriceChange >= 0;
+  const yoy = stats.yoyPriceChange;
   const hasPlanningData =
     stats.approvedApps12m > 0 ||
     stats.pipelineUnits > 0 ||
@@ -43,19 +45,42 @@ export function MarketSnapshot({ stats, townName }: MarketSnapshotProps) {
   const cells: { icon: React.ElementType; label: string; value: string; accent?: string }[] = [
     { icon: Home, label: "Median price", value: formatGBP(stats.medianPrice) },
     { icon: BarChart3, label: "Sales (12m)", value: stats.transactionCount12m.toLocaleString("en-GB") },
-    {
-      icon: yoyPositive ? TrendingUp : TrendingDown,
-      label: "YoY change",
-      value: `${yoyPositive ? "+" : ""}${stats.yoyPriceChange}%`,
-      accent: yoyPositive ? "oklch(0.55 0.15 160)" : "oklch(0.55 0.2 25)",
-    },
   ];
+  if (yoy !== null) {
+    if (yoy === 0) {
+      // Genuinely flat — render neutrally, never as "+0%" growth
+      cells.push({ icon: Minus, label: "YoY change", value: "Flat" });
+    } else {
+      cells.push({
+        icon: yoy > 0 ? TrendingUp : TrendingDown,
+        label: "YoY change",
+        value: `${yoy > 0 ? "+" : ""}${yoy}%`,
+        accent: yoy > 0 ? "oklch(0.55 0.15 160)" : "oklch(0.55 0.2 25)",
+      });
+    }
+  }
   if (hasPlanningData) {
-    cells.push(
-      { icon: CheckCircle2, label: "Approved (12m)", value: stats.approvedApps12m.toLocaleString("en-GB") },
-      { icon: Building2, label: "Pipeline units", value: stats.pipelineUnits.toLocaleString("en-GB") },
-      { icon: PoundSterling, label: "Pipeline GDV", value: formatGBP(stats.pipelineGdv) },
-    );
+    if (stats.approvedApps12m > 0) {
+      cells.push({
+        icon: CheckCircle2,
+        label: "Approved (recent)",
+        value: stats.approvedApps12m.toLocaleString("en-GB"),
+      });
+    }
+    if (stats.pipelineUnits > 0) {
+      cells.push({
+        icon: Building2,
+        label: "Pipeline units",
+        value: stats.pipelineUnits.toLocaleString("en-GB"),
+      });
+    }
+    if (stats.pipelineGdv > 0) {
+      cells.push({
+        icon: PoundSterling,
+        label: "Pipeline GDV",
+        value: formatGBP(stats.pipelineGdv),
+      });
+    }
   }
 
   return (
@@ -72,16 +97,17 @@ export function MarketSnapshot({ stats, townName }: MarketSnapshotProps) {
             </span>
           </>
         }
-        body={`HM Land Registry sold-price data for ${townName} over the last twelve months, cross-referenced with local planning pipeline. Updated weekly.`}
+        body={`HM Land Registry sold-price data for ${townName} over the last twelve months, alongside the live local planning pipeline. Updated weekly.`}
       />
 
       <dl
-        className={`mt-16 grid grid-cols-2 gap-px border-y sm:grid-cols-3 ${hasPlanningData ? "lg:grid-cols-6" : "lg:grid-cols-3"}`}
+        className={`mt-16 grid grid-cols-2 gap-px border-y sm:grid-cols-3 ${cells.length > 4 ? "lg:grid-cols-6" : "lg:grid-cols-3"}`}
         style={{ borderColor: "var(--stone-dark)", background: "var(--stone-dark)" }}
       >
         {cells.map((cell) => {
           const Icon = cell.icon;
-          return (
+          
+return (
             <div
               key={cell.label}
               className="flex flex-col gap-4 px-6 py-7"
