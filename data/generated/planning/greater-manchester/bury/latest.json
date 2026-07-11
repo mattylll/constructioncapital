@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-05T01:31:00.698Z",
+  "updatedAt": "2026-07-11T07:11:07.849Z",
   "townSlug": "bury",
   "countySlug": "greater-manchester",
   "localAuthority": "Bury Council",
   "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T07:11:07.849Z"
+  },
   "summary": {
-    "total": 240,
+    "total": 251,
     "relevant": 1,
     "approved": 0,
     "pending": 1,

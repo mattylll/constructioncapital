@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-05T03:11:46.611Z",
+  "updatedAt": "2026-07-11T08:37:34.256Z",
   "townSlug": "stockport",
   "countySlug": "greater-manchester",
   "localAuthority": "Stockport Metropolitan Borough Council",
   "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T08:37:34.256Z"
+  },
   "summary": {
-    "total": 593,
+    "total": 610,
     "relevant": 7,
     "approved": 0,
     "pending": 7,
@@ -117,8 +123,8 @@
     },
     {
       "reference": "DC/099029",
-      "address": "Land Off Moor Lane Woodford Stockport SK7 1PJ",
-      "postcode": "SK7 1PJ",
+      "address": "Development Land Moor Lane Woodford Stockport",
+      "postcode": "",
       "ward": "",
       "proposal": "Outline planning application (with all matters reserved) for residential development of up to 130 dwellings with site access from Moor Lane, open space, landscaping, drainage, ecological enhancements and other associated works.",
       "category": "other_residential",

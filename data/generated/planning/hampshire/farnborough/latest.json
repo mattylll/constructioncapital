@@ -1,25 +1,50 @@
 {
-  "updatedAt": "2026-07-05T01:17:34.270Z",
+  "updatedAt": "2026-07-11T06:47:12.802Z",
   "townSlug": "farnborough",
   "countySlug": "hampshire",
   "localAuthority": "Rushmoor Borough Council",
   "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T06:47:12.801Z"
+  },
   "summary": {
-    "total": 156,
+    "total": 162,
     "relevant": 3,
     "approved": 0,
     "pending": 3,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 7,
-    "totalUnits": 7,
+    "pendingUnits": 15,
+    "totalUnits": 15,
     "approvedGdv": 0,
-    "pendingGdv": 3920000,
-    "totalEstimatedGDV": 3920000,
+    "pendingGdv": 6850000,
+    "totalEstimatedGDV": 6850000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/00352/FULPP",
+      "address": "177 Ash Road Aldershot Hampshire GU12 4DB",
+      "postcode": "GU12 4DB",
+      "ward": "",
+      "proposal": "Erection of first floor side and rear extension, a new gable ended roof with rear dormers, a 1.5 storey side extension with front dormers, changes to existing dormers, and internal reconfiguration to provide additional 3no. 1 x bed dwellings (total 8 dwellings on the site)",
+      "category": "other_residential",
+      "units": 8,
+      "estimatedGdv": 2930000,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "29/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.rushmoor.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THE3YENMKI600"
+    },
     {
       "reference": "26/00350/FUL",
       "address": "22 Southwood Road Farnborough Hampshire GU14 0JQ",
@@ -57,25 +82,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.rushmoor.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TE5LLUNMJQD00"
-    },
-    {
-      "reference": "26/00179/FUL",
-      "address": "23 Ballantyne Road Farnborough Hampshire GU14 8SN",
-      "postcode": "GU14 8SN",
-      "ward": "",
-      "proposal": "Pitched roof over first floor with dormer",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided",
-      "decision": "Decided",
-      "receivedDate": "07/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.rushmoor.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TD47XRNM0QG00"
     }
   ]
 }

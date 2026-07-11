@@ -1,21 +1,27 @@
 {
-  "updatedAt": "2026-07-05T02:52:53.164Z",
+  "updatedAt": "2026-07-11T08:20:09.715Z",
   "townSlug": "arnold",
   "countySlug": "nottinghamshire",
   "localAuthority": "Gedling Borough Council",
   "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T08:20:09.714Z"
+  },
   "summary": {
-    "total": 153,
-    "relevant": 5,
+    "total": 154,
+    "relevant": 4,
     "approved": 0,
-    "pending": 5,
+    "pending": 4,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 287,
-    "totalUnits": 287,
+    "pendingUnits": 156,
+    "totalUnits": 156,
     "approvedGdv": 0,
-    "pendingGdv": 67869750,
-    "totalEstimatedGDV": 67869750,
+    "pendingGdv": 36429750,
+    "totalEstimatedGDV": 36429750,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -95,25 +101,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pawam.gedling.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TD9Q2FHLMJI00"
-    },
-    {
-      "reference": "2026/0239",
-      "address": "Land Off Hayden Lane Linby Nottinghamshire",
-      "postcode": "",
-      "ward": "",
-      "proposal": "131 dwellings with access from Delia Avenue and Dorothy Avenue - Variation of Condition 2 of planning permission 2022/0501 (approved documents) to update plans to reflect new house types, including housing mix for private dwellings, minor alterations to finished floor levels, additional boundary treatment, bin collection points and cycle storage. To also include details relating to materials for external surfaces, hard surfaced areas, the Construction Management Plan and boundary treatments",
-      "category": "other_residential",
-      "units": 131,
-      "estimatedGdv": 31440000,
-      "status": "Unknown",
-      "decision": "Unknown",
-      "receivedDate": "10/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pawam.gedling.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TD8H85HLMJC00"
     }
   ]
 }

@@ -1,21 +1,27 @@
 {
-  "updatedAt": "2026-07-05T02:25:16.456Z",
+  "updatedAt": "2026-07-11T07:58:37.114Z",
   "townSlug": "watford",
   "countySlug": "hertfordshire",
   "localAuthority": "Watford Borough Council",
   "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T07:58:37.114Z"
+  },
   "summary": {
-    "total": 163,
-    "relevant": 18,
+    "total": 171,
+    "relevant": 16,
     "approved": 0,
-    "pending": 18,
+    "pending": 16,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 5,
     "totalUnits": 5,
     "approvedGdv": 0,
-    "pendingGdv": 2602000,
-    "totalEstimatedGDV": 2602000,
+    "pendingGdv": 2015000,
+    "totalEstimatedGDV": 2015000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -76,25 +82,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TDFNRJQW0P300"
-    },
-    {
-      "reference": "26/00293/FUL",
-      "address": "8 Holtsmere Close Watford WD25 9NG",
-      "postcode": "WD25 9NG",
-      "ward": "",
-      "proposal": "Demolition of existing detached bungalow and construction 2x new detached houses.",
-      "category": "other_relevant",
-      "units": 2,
-      "estimatedGdv": 1685000,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TD5SP1QWJIF00"
     },
     {
       "reference": "26/00402/FUL",
@@ -180,7 +167,7 @@
       "proposal": "Change of use from residential care home (Class C2), to House in Multiple Occupation (Class C4)",
       "category": "change_of_use",
       "units": 1,
-      "estimatedGdv": 407000,
+      "estimatedGdv": 405000,
       "status": "",
       "decision": "",
       "receivedDate": "",
@@ -268,25 +255,6 @@
       "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TGPKO5QWKJS00"
     },
     {
-      "reference": "26/00456/FUL",
-      "address": "46 Clarendon Road Watford WD17 1HE",
-      "postcode": "WD17 1HE",
-      "ward": "",
-      "proposal": "Replacement roof plant",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TGPKP6QWKJU00"
-    },
-    {
       "reference": "26/00437/FUL",
       "address": "Virgin Media 9 Greycaine Road Watford WD24 7GP",
       "postcode": "WD24 7GP",
@@ -325,25 +293,6 @@
       "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TGCLWYQWKUD00"
     },
     {
-      "reference": "26/00415/FUL",
-      "address": "Island Thomas Sawyer Way Watford Hertfordshire",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Proposed enabling works (Site Remediation).",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TG3CQLQWKMI00"
-    },
-    {
       "reference": "26/00406/FUL",
       "address": "174 St Albans Road Watford WD24 4AS",
       "postcode": "WD24 4AS",
@@ -361,6 +310,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TFXSN6QWHPP00"
+    },
+    {
+      "reference": "26/00511/FUL",
+      "address": "Land And Garage Rear Of 59 Upper Paddock Road Watford WD19 4DY",
+      "postcode": "WD19 4DY",
+      "ward": "",
+      "proposal": "Erection of two semi-detached residential dwellings on land to the rear of No. 59 Upper Paddock Road, together with associated private amenity space, landscaping, cycle storage, refuse provision and parking, following the demolition of the existing vacant garages.",
+      "category": "demolition_rebuild",
+      "units": 2,
+      "estimatedGdv": 1100000,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=THL23TQWKVC00"
     }
   ]
 }

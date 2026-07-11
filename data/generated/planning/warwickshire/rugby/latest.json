@@ -1,0 +1,49 @@
+{
+  "updatedAt": "2026-07-11T09:22:38.667Z",
+  "townSlug": "rugby",
+  "countySlug": "warwickshire",
+  "localAuthority": "Rugby Borough Council",
+  "source": "agile",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T09:22:38.667Z"
+  },
+  "summary": {
+    "total": 3,
+    "relevant": 1,
+    "approved": 0,
+    "pending": 1,
+    "refused": 0,
+    "approvedUnits": 0,
+    "pendingUnits": 0,
+    "totalUnits": 0,
+    "approvedGdv": 0,
+    "pendingGdv": 0,
+    "totalEstimatedGDV": 0,
+    "approvalRate": 0
+  },
+  "approvedApplications": [],
+  "pendingApplications": [
+    {
+      "reference": "R26/0528",
+      "address": "Pavement outside OS 16 High Street, Rugby, CV21 3BG",
+      "postcode": "CV21 3BG",
+      "ward": "",
+      "proposal": "Installation of 1no. black digital communications kiosk, defibrillator and ancil",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "",
+      "decision": "",
+      "receivedDate": "22/05/2026",
+      "decisionDate": "",
+      "applicantName": "NWP Street Limited",
+      "applicantCompany": "NWP Street Limited",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": ""
+    }
+  ]
+}

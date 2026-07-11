@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-05T17:31:36.445Z",
+  "updatedAt": "2026-07-11T09:22:42.002Z",
   "townSlug": "slough",
   "countySlug": "berkshire",
   "localAuthority": "Slough Borough Council",
   "source": "agile",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T09:22:42.001Z"
+  },
   "summary": {
-    "total": 17,
+    "total": 15,
     "relevant": 7,
     "approved": 2,
     "pending": 4,

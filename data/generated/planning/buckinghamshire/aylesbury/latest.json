@@ -1,9 +1,15 @@
 {
-  "updatedAt": "2026-07-03T15:58:29.961Z",
+  "updatedAt": "2026-07-11T07:09:29.527Z",
   "townSlug": "aylesbury",
   "countySlug": "buckinghamshire",
   "localAuthority": "Buckinghamshire Council",
   "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T07:09:29.527Z"
+  },
   "summary": {
     "total": 237,
     "relevant": 6,
@@ -14,8 +20,8 @@
     "pendingUnits": 72,
     "totalUnits": 72,
     "approvedGdv": 0,
-    "pendingGdv": 21964989,
-    "totalEstimatedGDV": 21964989,
+    "pendingGdv": 21960000,
+    "totalEstimatedGDV": 21960000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -104,7 +110,7 @@
       "proposal": "Removal of condition 17 (Agricultural Occupancy) attached to planning permission PL/25/3301/FA (Demolition of bungalow and agricultural buildings, erection of 3 dwellings, 2 of them with a detached annexe and car port)",
       "category": "other_residential",
       "units": 3,
-      "estimatedGdv": 1834989,
+      "estimatedGdv": 1830000,
       "status": "Decided",
       "decision": "Decided",
       "receivedDate": "23/04/2026",

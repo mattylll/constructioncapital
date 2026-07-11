@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-05T03:35:41.519Z",
+  "updatedAt": "2026-07-11T09:00:18.542Z",
   "townSlug": "neath",
   "countySlug": "swansea",
   "localAuthority": "Neath Port Talbot Council",
   "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T09:00:18.542Z"
+  },
   "summary": {
-    "total": 145,
+    "total": 142,
     "relevant": 3,
     "approved": 0,
     "pending": 3,
@@ -14,8 +20,8 @@
     "pendingUnits": 6,
     "totalUnits": 6,
     "approvedGdv": 0,
-    "pendingGdv": 995500,
-    "totalEstimatedGDV": 995500,
+    "pendingGdv": 995225,
+    "totalEstimatedGDV": 995225,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -47,7 +53,7 @@
       "proposal": "Section 73 application to vary condition 2 (approved plans) of planning permission P2022/1043 (Demolition of fire damaged former public house building and construction of 4 no. semi-detached dwelling houses, 1 no. detached dwelling house (5 houses in total) and associated development) approved 20/10/23",
       "category": "other_residential",
       "units": 5,
-      "estimatedGdv": 837500,
+      "estimatedGdv": 836250,
       "status": "Awaiting decision",
       "decision": "Awaiting decision",
       "receivedDate": "30/04/2026",
@@ -66,7 +72,7 @@
       "proposal": "Change of Use of first floor B8 Storage to C5 Dwellinghouse to be used otherwise than a sole or main residence and occupied for 183 days or fewer and bike/bin store.",
       "category": "other_residential",
       "units": 1,
-      "estimatedGdv": 158000,
+      "estimatedGdv": 158975,
       "status": "Decided",
       "decision": "Decided",
       "receivedDate": "15/04/2026",

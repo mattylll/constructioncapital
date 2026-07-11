@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-05T01:14:06.506Z",
+  "updatedAt": "2026-07-11T06:45:59.917Z",
   "townSlug": "lewisham",
   "countySlug": "greater-london",
   "localAuthority": "London Borough of Lewisham",
   "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T06:45:59.916Z"
+  },
   "summary": {
-    "total": 480,
+    "total": 611,
     "relevant": 0,
     "approved": 0,
     "pending": 0,

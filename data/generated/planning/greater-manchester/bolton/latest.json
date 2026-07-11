@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-05T03:10:57.325Z",
+  "updatedAt": "2026-07-11T08:36:47.703Z",
   "townSlug": "bolton",
   "countySlug": "greater-manchester",
   "localAuthority": "Bolton Metropolitan Borough Council",
   "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T08:36:47.703Z"
+  },
   "summary": {
-    "total": 452,
+    "total": 454,
     "relevant": 0,
     "approved": 0,
     "pending": 0,

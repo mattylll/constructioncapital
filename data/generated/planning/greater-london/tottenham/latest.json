@@ -1,11 +1,17 @@
 {
-  "updatedAt": "2026-07-05T19:43:24.276Z",
+  "updatedAt": "2026-07-11T09:26:39.102Z",
   "townSlug": "tottenham",
   "countySlug": "greater-london",
   "localAuthority": "Haringey Council",
   "source": "arcus",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T09:26:39.101Z"
+  },
   "summary": {
-    "total": 747,
+    "total": 741,
     "relevant": 4,
     "approved": 0,
     "pending": 4,
@@ -43,7 +49,7 @@
       "reference": "HGY/2026/1778",
       "address": "196 Page Green Terrace Tottenham London N15 4NP",
       "postcode": "N15 4NP",
-      "ward": "",
+      "ward": "South Tottenham",
       "proposal": "Details pursuant to conditions 4 (Method of construction statement) and 5 (details of chartered engineer) of planning permission HGY/2026/0549 for Excavation of front and rear lightwells and installation of stairs in front garden to basement level, basement extension, single storey rear extension, first and second floor rear extension, installation of waste and bike storage in front garden, reconfiguration and enlargement of existing 3 flats.",
       "category": "other_residential",
       "units": 3,

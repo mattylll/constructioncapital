@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-05T03:15:09.176Z",
+  "updatedAt": "2026-07-11T08:42:29.661Z",
   "townSlug": "hessle",
   "countySlug": "east-riding-of-yorkshire",
   "localAuthority": "East Riding of Yorkshire Council",
   "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-11",
+    "to": "2026-07-11",
+    "retrievedAt": "2026-07-11T08:42:29.661Z"
+  },
   "summary": {
-    "total": 2,
-    "relevant": 0,
+    "total": 35,
+    "relevant": 1,
     "approved": 0,
-    "pending": 0,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
@@ -19,5 +25,25 @@
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "26/01713/VAR",
+      "address": "Westwood Manor 4 Langholm Close Beverley East Riding Of Yorkshire",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Variation of Condition 4 (age restriction) of planning permission 20/04045/PLF (Erection of a building consisting of 51 retirement living plus (extra care) apartments and 1 guest suite (Use Class C2), including erection of substation, car ports to southern boundary and associated access, car parking, amenity space and landscaping following demolition of existing buildings) to allow for the minimum age restriction to be from 70 to 60 years of age New Condition should read: 4. At least one occupier of each individual unit of residential accommodation within the development hereby permitted shall be a minimum age of 60 years.",
+      "category": "demolition_rebuild",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Pending Consideration",
+      "decision": "Pending Consideration",
+      "receivedDate": "03/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://newplanningaccess.eastriding.gov.uk/newplanningaccess/applicationDetails.do?activeTab=summary&keyVal=THLWGWBJJEG00"
+    }
+  ]
 }
