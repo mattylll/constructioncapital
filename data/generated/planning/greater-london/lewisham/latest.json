@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-11T06:45:59.917Z",
+  "updatedAt": "2026-07-12T01:16:58.532Z",
   "townSlug": "lewisham",
   "countySlug": "greater-london",
   "localAuthority": "London Borough of Lewisham",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-11",
-    "to": "2026-07-11",
-    "retrievedAt": "2026-07-11T06:45:59.916Z"
+    "from": "2026-04-12",
+    "to": "2026-07-12",
+    "retrievedAt": "2026-07-12T01:16:58.532Z"
   },
   "summary": {
-    "total": 611,
-    "relevant": 0,
+    "total": 516,
+    "relevant": 1,
     "approved": 0,
-    "pending": 0,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
@@ -25,5 +25,25 @@
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "DC/26/144338",
+      "address": "42 HOMECROFT ROAD, LONDON, SE26 5QG",
+      "postcode": "SE26 5QG",
+      "ward": "",
+      "proposal": "Ground floor extension to a dwellinghouse at 42 Homecroft Road, SE26.",
+      "category": "other_residential",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "16/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.lewisham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_LEWIS_DCAPR_132261"
+    }
+  ]
 }

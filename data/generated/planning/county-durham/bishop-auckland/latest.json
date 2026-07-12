@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-11T07:37:42.785Z",
+  "updatedAt": "2026-07-12T02:09:06.900Z",
   "townSlug": "bishop-auckland",
   "countySlug": "county-durham",
   "localAuthority": "Durham County Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-11",
-    "to": "2026-07-11",
-    "retrievedAt": "2026-07-11T07:37:42.785Z"
+    "from": "2026-04-12",
+    "to": "2026-07-12",
+    "retrievedAt": "2026-07-12T02:09:06.900Z"
   },
   "summary": {
-    "total": 609,
-    "relevant": 22,
+    "total": 607,
+    "relevant": 23,
     "approved": 0,
-    "pending": 22,
+    "pending": 23,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 960,
@@ -82,6 +82,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.durham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THI7LBGDKP900"
+    },
+    {
+      "reference": "DM/26/01615/CPO",
+      "address": "Spital Park Farm Stainmore Road Bowes Barnard Castle DL12 9RH",
+      "postcode": "DL12 9RH",
+      "ward": "",
+      "proposal": "Application for a lawful development certificate for a proposed Met Office installation of a new weather station enclosure (10 metres by 9 metres by 1.2 metres) with meteorological equipment, including a 10 metre collapsible WEC WD10 mast with an anemometer and windvane on the top (with concrete plinth base of 1.8 metres by 2.2 metres).",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Pending Consideration",
+      "decision": "Pending Consideration",
+      "receivedDate": "23/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.durham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TH3E0VGDKLF00"
     },
     {
       "reference": "DM/26/01592/CPO",
@@ -426,23 +445,23 @@
       "sourceUrl": "https://publicaccess.durham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDU3WWGDJOB00"
     },
     {
-      "reference": "DM/26/01040/PA56",
-      "address": "Land North West Of Witton Hall Farm Coach Lane Witton Gilbert DH7 6SU",
-      "postcode": "DH7 6SU",
+      "reference": "DM/26/00965/CPO",
+      "address": "6 West Avenue Chester Moor Chester-le-street DH2 3RS",
+      "postcode": "DH2 3RS",
       "ward": "",
-      "proposal": "Prior notification under Schedule 2, Part 6, Class A for the construction of a farm machinery workshop for maintenance, repair break down and service of farm machinery general storage implements parts and farming tools. Work bench machines etc in relation to DM/25/03376/PNA",
-      "category": "prior_approval",
+      "proposal": "Single-storey rear extension",
+      "category": "other_relevant",
       "units": null,
       "estimatedGdv": null,
-      "status": "Pending Consideration",
-      "decision": "Pending Consideration",
-      "receivedDate": "14/04/2026",
+      "status": "Decided",
+      "decision": "Decided",
+      "receivedDate": "13/04/2026",
       "decisionDate": "",
       "applicantName": "",
       "applicantCompany": "",
       "agentName": "",
       "agentCompany": "",
-      "sourceUrl": "https://publicaccess.durham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDY7NOGD0LS00"
+      "sourceUrl": "https://publicaccess.durham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDL2H8GD0L900"
     }
   ]
 }
