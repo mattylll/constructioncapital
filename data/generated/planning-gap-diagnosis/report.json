@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-07-12T11:06:53.691Z",
+  "complete": true,
+  "diagnoses": [
+    {
+      "vendor": "idox",
+      "id": "westminster",
+      "name": "Westminster City Council",
+      "missingTowns": [
+        "greater-london/westminster",
+        "greater-london/mayfair",
+        "greater-london/marylebone"
+      ],
+      "classification": "TIMEOUT",
+      "exitCode": 143,
+      "townsRecovered": [],
+      "townsStillMissing": [
+        "greater-london/westminster",
+        "greater-london/mayfair",
+        "greater-london/marylebone"
+      ],
+      "durationSec": 1200,
+      "logTail": "    ⏳ Page 13: retrying in 16s (attempt 3/3)...\n    ⏳ Page 14: retrying in 4s (attempt 1/3)...\n    ⏳ Page 14: retrying in 8s (attempt 2/3)...\n    ⏳ Page 14: retrying in 16s (attempt 3/3)...\n    ⏳ Page 26: retrying in 4s (attempt 1/3)...\n    ⏳ Page 26: retrying in 8s (attempt 2/3)...\n    ⏳ Page 26: retrying in 16s (attempt 3/3)...\n    ⏳ Page 27: retrying in 4s (attempt 1/3)...\n    ⏳ Page 27: retrying in 8s (attempt 2/3)...\n    ⏳ Page 27: retrying in 16s (attempt 3/3)...\n    ⏳ Page 39: retrying in 4s (attempt 1/3)...\n\n    ❌ Error fetching page 14: Error: Page 14 fetch failed: 429 Too Many Requests\n    ❌ Error fetching page 27: Error: Page 27 fetch failed: 429 Too Many Requests\n    ❌ Error fetching page 40: Error: Page 40 fetch failed: 429 Too Many Requests\n    ❌ Error fetching page 8: Error: Page 8 fetch failed: 429 Too Many Requests\n    ❌ Error fetching page 9: Error: Page 9 fetch failed: 429 Too Many Requests\n    ❌ Error fetching page 22: Error: Page 22 fetch failed: 429 Too Many Requests\n    ❌ Error fetching page 35: Error: Page 35 fetch failed: 429 Too Many Requests\n    ❌ Error fetching page 48: Error: Page 48 fetch failed: 429 Too Many Requests\n    ❌ Error fetching page 61: Error: Page 61 fetch failed: 429 Too Many Requests\n    ❌ Error fetching page 12: Error: Page 12 fetch failed: 429 Too Many Requests\n    ❌ Error fetching page 13: Error: Page 13 fetch failed: 429 Too Many Requests\n    ❌ Error fetching page 26: Error: Page 26 fetch failed: 429 Too Many Requests\n"
+    },
+    {
+      "vendor": "idox",
+      "id": "hammersmith-fulham",
+      "name": "London Borough of Hammersmith & Fulham",
+      "missingTowns": [
+        "greater-london/hammersmith",
+        "greater-london/fulham"
+      ],
+      "classification": "ZERO_RESULTS",
+      "exitCode": 0,
+      "townsRecovered": [],
+      "townsStillMissing": [
+        "greater-london/hammersmith",
+        "greater-london/fulham"
+      ],
+      "durationSec": 37,
+      "logTail": "    ✓ 0 results\n  📡 Searching 01/05/2026 → 31/05/2026 (2/4)...\n  🔑 Got CSRF token (73445815-6e4...) and 1 session cookies\n    ✓ 0 results\n  📡 Searching 01/06/2026 → 30/06/2026 (3/4)...\n  🔑 Got CSRF token (0c232e0d-0b2...) and 1 session cookies\n    ✓ 0 results\n  📡 Searching 01/07/2026 → 12/07/2026 (4/4)...\n  🔑 Got CSRF token (061c1602-6be...) and 1 session cookies\n    ✓ 0 results\n\n  📦 Scraped: 0 search results\n  ℹ️  No results to process\n\n════════════════════════════════════════════════════════════\n  📋 Batch Summary\n════════════════════════════════════════════════════════════\n  ✅ hammersmith-fulham (London Borough of Hammersmith & Fulham)\n\n  Total: 1 succeeded, 0 failed\n\n  Done! 🎉\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "updatedAt": "2026-07-12T09:07:13.694Z",
+  "townSlug": "gravesend",
+  "countySlug": "kent",
+  "localAuthority": "Gravesham Borough Council",
+  "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-12",
+    "to": "2026-07-12",
+    "retrievedAt": "2026-07-12T09:07:13.693Z"
+  },
+  "summary": {
+    "total": 255,
+    "relevant": 4,
+    "approved": 1,
+    "pending": 2,
+    "refused": 1,
+    "approvedUnits": 1,
+    "pendingUnits": 10,
+    "totalUnits": 11,
+    "approvedGdv": 355000,
+    "pendingGdv": 1749950,
+    "totalEstimatedGDV": 2104950,
+    "approvalRate": 50
+  },
+  "approvedApplications": [
+    {
+      "reference": "20260491",
+      "address": "29 Orchard Avenue Gravesend Kent DA11 7NX",
+      "postcode": "DA11 7NX",
+      "ward": "",
+      "proposal": "Application for a Proposed Lawful Development Certificate; Change of Use from a Class C3 dwellinghouse to a Class C2 Children's Residential Care Home with associated care staff.",
+      "category": "other_residential",
+      "units": 1,
+      "estimatedGdv": 355000,
+      "status": "Certificate Granted",
+      "decision": "Certificate Granted",
+      "receivedDate": "12/05/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://plan.gravesham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEVTXTHPJH100"
+    }
+  ],
+  "pendingApplications": [
+    {
+      "reference": "20260538",
+      "address": "Former St Josephs Convent Preparatory School 46 Old Road East Gravesend Kent DA12 1NR",
+      "postcode": "DA12 1NR",
+      "ward": "",
+      "proposal": "Application for variation of condition 2 attached to planning permission reference number 20240013 for conversion of existing Victorian building into 6 flats. Demolition of existing outbuildings. Erection of a 3 storey medical centre. Erection of a building containing 7no flats. Erection of 41no houses. Associated works to include; access, public open space and landscaping; to allow amendments to the proposed size of the housing units to include 4 bedroom housing and additional 3 bed housing.",
+      "category": "other_residential",
+      "units": 6,
+      "estimatedGdv": 1049970,
+      "status": "Pending Consideration",
+      "decision": "Pending Consideration",
+      "receivedDate": "26/05/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://plan.gravesham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFJWO1HPJWD00"
+    },
+    {
+      "reference": "20260518",
+      "address": "2 Milton Place Gravesend Kent",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Erection of 4 apartments consisting of 2 x one beds and 2 x two beds with associated parking.",
+      "category": "other_residential",
+      "units": 4,
+      "estimatedGdv": 699980,
+      "status": "Pending Consideration",
+      "decision": "Pending Consideration",
+      "receivedDate": "19/05/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://plan.gravesham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TF8SQQHPJPW00"
+    }
+  ]
+}

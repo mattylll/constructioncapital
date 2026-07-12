@@ -1,4 +1,4 @@
-# Location Copy Audit — 2026-07-10
+# Location Copy Audit — 2026-07-12
 
 Pages audited: **3504** (county + town + town×service)
 
@@ -6,45 +6,45 @@ Pages audited: **3504** (county + town + town×service)
 | --- | --- |
 | Critical | 0 |
 | Warning | 0 |
-| Info | 207 |
+| Info | 257 |
 
-**Boilerplate index:** 93% of long paragraphs sitewide are template paragraphs shared by >100 pages (after normalising place names and figures).
+**Boilerplate index:** 92% of long paragraphs sitewide are template paragraphs shared by >100 pages (after normalising place names and figures).
 
 ## Findings by type
 
-### info/ALL_PENDING_PLANNING (141)
+### info/ALL_PENDING_PLANNING (191)
 
-- `/locations/greater-london/croydon` — Planning dataset has 176 apps, none decided — approval stats suppressed by component guard
-- `/locations/greater-london/woolwich` — Planning dataset has 110 apps, none decided — approval stats suppressed by component guard
-- `/locations/greater-london/stratford` — Planning dataset has 23 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/croydon` — Planning dataset has 185 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/woolwich` — Planning dataset has 106 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/stratford` — Planning dataset has 26 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/lewisham` — Planning dataset has 1 apps, none decided — approval stats suppressed by component guard
 - `/locations/greater-london/tottenham` — Planning dataset has 4 apps, none decided — approval stats suppressed by component guard
-- `/locations/greater-london/brixton` — Planning dataset has 170 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/brixton` — Planning dataset has 171 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/mayfair` — Planning dataset has 328 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/marylebone` — Planning dataset has 328 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/clapham` — Planning dataset has 171 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/vauxhall` — Planning dataset has 171 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/westminster` — Planning dataset has 328 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/kingston` — Planning dataset has 48 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/enfield` — Planning dataset has 277 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/bexley` — Planning dataset has 68 apps, none decided — approval stats suppressed by component guard
+- `/locations/greater-london/city-of-london` — Planning dataset has 35 apps, none decided — approval stats suppressed by component guard
+- `/locations/kent/maidstone` — Planning dataset has 55 apps, none decided — approval stats suppressed by component guard
+- `/locations/kent/canterbury` — Planning dataset has 7 apps, none decided — approval stats suppressed by component guard
 - `/locations/kent/chatham` — Planning dataset has 13 apps, none decided — approval stats suppressed by component guard
 - `/locations/kent/dartford` — Planning dataset has 22 apps, none decided — approval stats suppressed by component guard
-- `/locations/kent/tonbridge` — Planning dataset has 49 apps, none decided — approval stats suppressed by component guard
-- `/locations/kent/dover` — Planning dataset has 16 apps, none decided — approval stats suppressed by component guard
-- `/locations/kent/sevenoaks` — Planning dataset has 10 apps, none decided — approval stats suppressed by component guard
-- `/locations/surrey/epsom` — Planning dataset has 44 apps, none decided — approval stats suppressed by component guard
-- `/locations/sussex/worthing` — Planning dataset has 1 apps, none decided — approval stats suppressed by component guard
-- `/locations/sussex/horsham` — Planning dataset has 16 apps, none decided — approval stats suppressed by component guard
-- `/locations/hampshire/portsmouth` — Planning dataset has 37 apps, none decided — approval stats suppressed by component guard
-- `/locations/hampshire/winchester` — Planning dataset has 75 apps, none decided — approval stats suppressed by component guard
-- `/locations/hampshire/andover` — Planning dataset has 11 apps, none decided — approval stats suppressed by component guard
-- `/locations/hampshire/farnborough` — Planning dataset has 3 apps, none decided — approval stats suppressed by component guard
-- `/locations/hampshire/aldershot` — Planning dataset has 3 apps, none decided — approval stats suppressed by component guard
-- `/locations/hampshire/fleet` — Planning dataset has 38 apps, none decided — approval stats suppressed by component guard
-- `/locations/berkshire/maidenhead` — Planning dataset has 69 apps, none decided — approval stats suppressed by component guard
-- …and 121 more (see report.json)
+- `/locations/kent/tonbridge` — Planning dataset has 48 apps, none decided — approval stats suppressed by component guard
+- …and 171 more (see report.json)
 
 ### info/CONSTANT_METRIC (16)
 
-- `sitewide` — "70%" appears on 7948 of 3066 service pages — verify it is a quoted term, not a broken derived metric
+- `sitewide` — "70%" appears on 7934 of 3066 service pages — verify it is a quoted term, not a broken derived metric
 - `sitewide` — "75%" appears on 5626 of 3066 service pages — verify it is a quoted term, not a broken derived metric
-- `sitewide` — "65%" appears on 5211 of 3066 service pages — verify it is a quoted term, not a broken derived metric
-- `sitewide` — "100%" appears on 5077 of 3066 service pages — verify it is a quoted term, not a broken derived metric
+- `sitewide` — "65%" appears on 5125 of 3066 service pages — verify it is a quoted term, not a broken derived metric
+- `sitewide` — "100%" appears on 4985 of 3066 service pages — verify it is a quoted term, not a broken derived metric
 - `sitewide` — "85%" appears on 3300 of 3066 service pages — verify it is a quoted term, not a broken derived metric
-- `sitewide` — "15%" appears on 3262 of 3066 service pages — verify it is a quoted term, not a broken derived metric
-- `sitewide` — "90%" appears on 2898 of 3066 service pages — verify it is a quoted term, not a broken derived metric
+- `sitewide` — "15%" appears on 3226 of 3066 service pages — verify it is a quoted term, not a broken derived metric
+- `sitewide` — "90%" appears on 2884 of 3066 service pages — verify it is a quoted term, not a broken derived metric
 - `sitewide` — "20%" appears on 2722 of 3066 service pages — verify it is a quoted term, not a broken derived metric
 - `sitewide` — "2%" appears on 2508 of 3066 service pages — verify it is a quoted term, not a broken derived metric
 - `sitewide` — "25%" appears on 2299 of 3066 service pages — verify it is a quoted term, not a broken derived metric

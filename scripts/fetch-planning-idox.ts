@@ -18,6 +18,9 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import * as https from "https";
+import * as http from "http";
+import * as tls from "tls";
 import type { AuthorityTown } from "./planning-authorities";
 
 // ─── Configuration ───────────────────────────────────────────
@@ -72,42 +75,49 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "London Borough of Bexley",
     baseUrl: "https://pa.bexley.gov.uk",
     towns: [{ townSlug: "bexley", countySlug: "greater-london" }],
-    enabled: false,
+    enabled: true, // re-enabled 2026-07-12: live-verified Idox portal (HTTP 200, fingerprint match),
   },
   {
     id: "city-of-london",
     name: "City of London Corporation",
     baseUrl: "https://www.planning2.cityoflondon.gov.uk",
     towns: [{ townSlug: "city-of-london", countySlug: "greater-london" }],
-    enabled: false,
+    enabled: true, // re-enabled 2026-07-12: live-verified Idox portal (HTTP 200, fingerprint match),
   },
   {
     id: "hammersmith-fulham",
     name: "London Borough of Hammersmith & Fulham",
     baseUrl: "https://public-access.lbhf.gov.uk",
-    towns: [{ townSlug: "hammersmith", countySlug: "greater-london" }],
-    enabled: false,
+    towns: [
+      { townSlug: "hammersmith", countySlug: "greater-london" },
+      { townSlug: "fulham", countySlug: "greater-london" },
+    ],
+    enabled: true, // 2026-07-12: portal live + session works, BUT search returns 0 results over 3 months — implausible for H&F; search params/parser need investigation (Wave 2). Do not read weekly "succeeded" as data flowing.,
   },
   {
     id: "kingston",
     name: "Royal Borough of Kingston upon Thames",
     baseUrl: "https://publicaccess.kingston.gov.uk",
     towns: [{ townSlug: "kingston", countySlug: "greater-london" }],
-    enabled: false,
+    enabled: true, // re-enabled 2026-07-12: live-verified Idox portal (HTTP 200, fingerprint match),
   },
   {
     id: "westminster",
     name: "Westminster City Council",
     baseUrl: "https://idoxpa.westminster.gov.uk",
-    towns: [{ townSlug: "westminster", countySlug: "greater-london" }],
-    enabled: false,
+    towns: [
+      { townSlug: "westminster", countySlug: "greater-london" },
+      { townSlug: "mayfair", countySlug: "greater-london" },
+      { townSlug: "marylebone", countySlug: "greater-london" },
+    ],
+    enabled: true, // re-enabled 2026-07-12: live-verified Idox portal (HTTP 200, fingerprint match),
   },
   {
     id: "enfield",
     name: "London Borough of Enfield",
     baseUrl: "https://planningandbuildingcontrol.enfield.gov.uk",
     towns: [{ townSlug: "enfield", countySlug: "greater-london" }],
-    enabled: false,
+    enabled: true, // re-enabled 2026-07-12: live-verified Idox portal (HTTP 200, fingerprint match),
   },
   {
     id: "reigate-banstead",
@@ -134,14 +144,16 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
       { townSlug: "dorking", countySlug: "surrey" },
       { townSlug: "leatherhead", countySlug: "surrey" },
     ],
-    enabled: false,
+    enabled: false, // 2026-07-12: MIGRATED to StatMap horizoNext — live at https://molevalley-publicportal.statmap.co.uk/horizonext (verified). Needs new-vendor scraper (Wave 3); not broken.
   },
   {
     id: "guildford",
     name: "Guildford Borough Council",
-    baseUrl: "https://planning.guildford.gov.uk",
+    // 2026-07-12: old host planning.guildford.gov.uk is dead (NXDOMAIN); portal
+    // verified live on the council's current PublicAccess host below.
+    baseUrl: "https://publicaccess.guildford.gov.uk",
     towns: [{ townSlug: "guildford", countySlug: "surrey" }],
-    enabled: false,
+    enabled: true, // re-enabled 2026-07-12: portal live at publicaccess.guildford.gov.uk (verified, Idox fingerprint)
   },
   // spelthorne moved to "spelthorne-new" with correct publicaccess URL
   {
@@ -149,7 +161,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "Elmbridge Borough Council",
     baseUrl: "https://emaps.elmbridge.gov.uk",
     towns: [{ townSlug: "weybridge", countySlug: "surrey" }],
-    enabled: false, // 404 on search page
+    enabled: false // emaps host is not Idox (/online-applications 404) and council site WAFs bots — needs vendor re-fingerprint 2026-07-12, // 404 on search page
   },
 
   // ── London Boroughs (Idox Public Access) ──────────────────
@@ -206,15 +218,22 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     id: "lambeth",
     name: "London Borough of Lambeth",
     baseUrl: "https://planning.lambeth.gov.uk",
-    towns: [{ townSlug: "brixton", countySlug: "greater-london" }],
+    towns: [
+      { townSlug: "brixton", countySlug: "greater-london" },
+      { townSlug: "clapham", countySlug: "greater-london" },
+      { townSlug: "vauxhall", countySlug: "greater-london" },
+    ],
     enabled: true,
   },
   {
     id: "southwark",
     name: "London Borough of Southwark",
     baseUrl: "https://planning.southwark.gov.uk",
-    towns: [{ townSlug: "bermondsey", countySlug: "greater-london" }],
-    enabled: true,
+    towns: [
+      { townSlug: "bermondsey", countySlug: "greater-london" },
+      { townSlug: "southwark", countySlug: "greater-london" },
+    ],
+    enabled: false, // 2026-07-12: TLS chain repaired OK but search.do returns 500 server-side (verified repeatedly). Portal fault or path change — Wave 2; contact/re-check.
   },
 
   // ── Kent ────────────────────────────────────────────────────
@@ -763,7 +782,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "Brighton & Hove City Council",
     baseUrl: "https://planningapps.brighton-hove.gov.uk",
     towns: [{ townSlug: "brighton", countySlug: "sussex" }],
-    enabled: true,
+    enabled: false, // 2026-07-12: 403 in both curl and node — WAF/geo block or bot block. Re-try from different network / Wave 2.
   },
   {
     id: "horsham",
@@ -780,7 +799,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "London Borough of Barking & Dagenham",
     baseUrl: "https://paplan.lbbd.gov.uk",
     towns: [{ townSlug: "barking", countySlug: "greater-london" }],
-    enabled: true,
+    enabled: false, // 2026-07-12: NXDOMAIN — configured hostname no longer exists. Portal moved; Wave 2 re-fingerprint.
   },
 
   // ── Hampshire (additional) ─────────────────────────────────
@@ -838,7 +857,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
       { townSlug: "welwyn-garden-city", countySlug: "hertfordshire" },
       { townSlug: "hatfield", countySlug: "hertfordshire" },
     ],
-    enabled: true,
+    enabled: false, // 2026-07-12: configured URL returns 404 (verified via scraper + curl). Current portal location not yet identified — Wave 2 re-fingerprint.
   },
   {
     id: "hertsmere",
@@ -899,7 +918,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
       { townSlug: "wisbech", countySlug: "cambridgeshire" },
     ],
     searchPath: "/publicaccess",
-    enabled: true,
+    enabled: false, // 2026-07-12: 403 in both curl and node — WAF/geo block or bot block. Re-try from different network / Wave 2.
   },
 
   // ── Derbyshire (additional) ────────────────────────────────
@@ -917,7 +936,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "Leicester City Council",
     baseUrl: "https://planning.leicester.gov.uk",
     towns: [{ townSlug: "leicester", countySlug: "leicestershire" }],
-    enabled: true,
+    enabled: false, // 2026-07-12: configured path 404s but host serves 200 elsewhere (curl -L 404 / node 200 on root) — path likely moved. Wave 2 re-fingerprint.
   },
   {
     id: "hinckley-bosworth",
@@ -993,7 +1012,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "Stoke-on-Trent City Council",
     baseUrl: "https://planning.stoke.gov.uk",
     towns: [{ townSlug: "stoke-on-trent", countySlug: "staffordshire" }],
-    enabled: true,
+    enabled: false, // 2026-07-12: connection timeout in both curl and node — host unresponsive at probe time. Re-check before concluding migration (Wave 2).
   },
   {
     id: "stafford",
@@ -1082,7 +1101,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
       { townSlug: "torquay", countySlug: "devon" },
       { townSlug: "paignton", countySlug: "devon" },
     ],
-    enabled: true,
+    enabled: false, // 2026-07-12: 403 in both curl and node — WAF/geo block or bot block. Re-try from different network / Wave 2.
   },
   {
     id: "teignbridge",
@@ -1096,7 +1115,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "North Devon District Council",
     baseUrl: "https://planning.northdevon.gov.uk",
     towns: [{ townSlug: "barnstaple", countySlug: "devon" }],
-    enabled: true,
+    enabled: false, // 2026-07-12: configured URL returns 404 in both curl and node. Current portal location not yet identified — Wave 2 re-fingerprint.
   },
   {
     id: "mid-devon",
@@ -1123,7 +1142,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
       { townSlug: "poole", countySlug: "dorset" },
       { townSlug: "christchurch", countySlug: "dorset" },
     ],
-    enabled: true,
+    enabled: false, // 2026-07-12: MIGRATED off Idox — configured host 404s; council now runs a bespoke 'BCP Register' SPA at https://planning.bcpcouncil.gov.uk/ (verified live). Needs API investigation (Wave 2); not broken.
   },
 
   // ── Gloucestershire (additional) ──────────────────────────
@@ -1200,7 +1219,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     baseUrl: "https://publicaccess.salford.gov.uk",
     towns: [{ townSlug: "salford", countySlug: "greater-manchester" }],
     searchPath: "/publicaccess",
-    enabled: true,
+    enabled: false, // 2026-07-12: host returns 502 (both probes) — council portal erroring server-side. Possibly transient; weekly run will retry once re-enabled (Wave 2 check).
   },
   {
     id: "stockport",
@@ -1222,7 +1241,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "Rochdale Metropolitan Borough Council",
     baseUrl: "https://publicaccess.rochdale.gov.uk",
     towns: [{ townSlug: "rochdale", countySlug: "greater-manchester" }],
-    enabled: true,
+    enabled: false, // 2026-07-12: host returns 503 (both probes) — council portal erroring server-side. Possibly transient; weekly run will retry once re-enabled (Wave 2 check).
   },
   {
     id: "oldham",
@@ -1326,7 +1345,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "South Norfolk Council",
     baseUrl: "https://info.south-norfolk.gov.uk",
     towns: [{ townSlug: "wymondham", countySlug: "norfolk" }],
-    enabled: true,
+    enabled: false, // 2026-07-12: NXDOMAIN — configured hostname no longer exists. Portal moved; Wave 2 re-fingerprint.
   },
 
   // ── Suffolk ────────────────────────────────────────────────
@@ -1390,7 +1409,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
       { townSlug: "birkenhead", countySlug: "merseyside" },
       { townSlug: "wallasey", countySlug: "merseyside" },
     ],
-    enabled: true,
+    enabled: false, // 2026-07-12: connection timeout in both curl and node — host unresponsive at probe time. Re-check before concluding migration (Wave 2).
   },
 
   // ── Lincolnshire (additional) ─────────────────────────────
@@ -1409,7 +1428,7 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
       { townSlug: "grantham", countySlug: "lincolnshire" },
       { townSlug: "stamford", countySlug: "lincolnshire" },
     ],
-    enabled: true,
+    enabled: false, // 2026-07-12: TLS handshake failure (SSLV3_ALERT) in curl and node — host/SNI config changed. Wave 2 re-fingerprint.
   },
 
   // ── Cumbria ────────────────────────────────────────────────
@@ -2256,11 +2275,211 @@ function loadMedianPrices(
  * Simple cookie jar that parses Set-Cookie headers and replays them.
  * Idox uses JSESSIONID for session tracking.
  */
+/** Structural response type satisfied by both native fetch and the TLS-repair fallback. */
+interface IdoxResponse {
+  ok: boolean;
+  status: number;
+  statusText: string;
+  headers: { getSetCookie?: () => string[] };
+  text(): Promise<string>;
+}
+
+// ─── TLS chain repair (ported from fetch-planning-arcus.ts — see runbook) ───
+// Some council servers (confirmed: Canterbury) send an incomplete certificate
+// chain. curl/browsers repair it via AIA chasing; Node's fetch does not, so
+// every request dies with UNABLE_TO_VERIFY_LEAF_SIGNATURE against a perfectly
+// live portal. On first cert-chain failure per host we read the leaf cert's
+// "CA Issuers" URL, fetch the missing intermediate, and retry with an agent
+// whose CA set includes it — full verification stays on throughout.
+
+const tlsAgentCache = new Map<string, https.Agent>();
+
+function isCertChainError(err: unknown): boolean {
+  const codes = new Set([
+    "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+    "SELF_SIGNED_CERT_IN_CHAIN",
+    "CERT_UNTRUSTED",
+    "DEPTH_ZERO_SELF_SIGNED_CERT",
+  ]);
+  let e = err as { code?: string; cause?: unknown } | undefined;
+  for (let depth = 0; e && depth < 4; depth++) {
+    if (e.code && codes.has(e.code)) return true;
+    e = e.cause as { code?: string; cause?: unknown } | undefined;
+  }
+
+  return false;
+}
+
+function fetchIntermediateCert(caIssuerUrl: string): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const client = caIssuerUrl.startsWith("https:") ? https : http;
+    client
+      .get(caIssuerUrl, (res) => {
+        const chunks: Buffer[] = [];
+        res.on("data", (c: Buffer) => chunks.push(c));
+        res.on("end", () => {
+          const der = Buffer.concat(chunks);
+          const b64 = der.toString("base64");
+          const lines = b64.match(/.{1,64}/g) || [];
+          resolve(`-----BEGIN CERTIFICATE-----\n${lines.join("\n")}\n-----END CERTIFICATE-----\n`);
+        });
+      })
+      .on("error", reject);
+  });
+}
+
+/** Connects without verification just far enough to read the leaf cert's AIA "CA Issuers" URL. */
+function getPeerCaIssuerUrl(hostname: string): Promise<string | null> {
+  return new Promise((resolve) => {
+    const socket = tls.connect(
+      { host: hostname, port: 443, servername: hostname, rejectUnauthorized: false },
+      () => {
+        const cert = socket.getPeerCertificate(false) as unknown as {
+          infoAccess?: Record<string, string[]>;
+        };
+        const issuers = cert.infoAccess?.["CA Issuers - URI"];
+        socket.end();
+        resolve(issuers && issuers[0] ? issuers[0] : null);
+      }
+    );
+    socket.on("error", () => resolve(null));
+  });
+}
+
+async function repairAgentForHost(hostname: string): Promise<https.Agent> {
+  const caIssuerUrl = await getPeerCaIssuerUrl(hostname);
+  if (!caIssuerUrl) {
+    return new https.Agent({ keepAlive: true });
+  }
+
+  // Chase the AIA chain recursively — some hosts (confirmed: Westminster) are
+  // missing MORE than one intermediate, so fetching a single cert still fails
+  // with "unable to get issuer certificate". Follow each fetched cert's own
+  // "CA Issuers" pointer until the chain closes (bounded at 4 hops).
+  const { X509Certificate } = await import("crypto");
+  const chain: string[] = [];
+  let nextUrl: string | null = caIssuerUrl;
+  for (let hop = 0; nextUrl && hop < 4; hop++) {
+    let pem: string;
+    try {
+      pem = await fetchIntermediateCert(nextUrl);
+    } catch {
+      break;
+    }
+    chain.push(pem);
+    try {
+      const cert = new X509Certificate(pem);
+      const aia = cert.infoAccess ?? "";
+      const m = aia.match(/CA Issuers - URI:(\S+)/);
+      nextUrl = m ? m[1] : null;
+    } catch {
+      nextUrl = null;
+    }
+  }
+
+  return new https.Agent({ keepAlive: true, ca: [...tls.rootCertificates, ...chain] });
+}
+
+/**
+ * https.request-based GET/POST that follows redirects (Idox portals redirect
+ * search.do freely) and accumulates Set-Cookie headers across every hop —
+ * used only for hosts whose TLS chain needed repairing.
+ */
+function httpsRequestFollow(
+  url: string,
+  init: { method: string; headers: Record<string, string>; body?: string },
+  agent: https.Agent,
+  setCookies: string[] = [],
+  redirectsLeft = 5
+): Promise<IdoxResponse> {
+  return new Promise((resolve, reject) => {
+    const u = new URL(url);
+    // Explicit Content-Length: without it Node uses chunked transfer-encoding,
+    // which Idox/Tomcat front-ends reject by hanging up the socket.
+    const headers: Record<string, string> = { ...init.headers };
+    if (init.body) headers["Content-Length"] = String(Buffer.byteLength(init.body));
+    const req = https.request(
+      {
+        hostname: u.hostname,
+        port: u.port || 443,
+        path: `${u.pathname}${u.search}`,
+        method: init.method,
+        headers,
+        agent,
+      },
+      (res) => {
+        const hopCookies = res.headers["set-cookie"] ?? [];
+        const allCookies = [...setCookies, ...hopCookies];
+        const status = res.statusCode || 0;
+        const location = res.headers.location;
+
+        if (location && [301, 302, 303, 307, 308].includes(status) && redirectsLeft > 0) {
+          res.resume(); // drain
+          const nextUrl = new URL(location, url).toString();
+          const nextInit =
+            status === 303 || ((status === 301 || status === 302) && init.method === "POST")
+              ? { method: "GET", headers: { ...init.headers } }
+              : init;
+          delete (nextInit.headers as Record<string, string>)["Content-Type"];
+          resolve(httpsRequestFollow(nextUrl, nextInit, agent, allCookies, redirectsLeft - 1));
+
+          return;
+        }
+
+        const chunks: Buffer[] = [];
+        res.on("data", (c: Buffer) => chunks.push(c));
+        res.on("end", () => {
+          const bodyText = Buffer.concat(chunks).toString("utf-8");
+          resolve({
+            ok: status >= 200 && status < 300,
+            status,
+            statusText: res.statusMessage || "",
+            headers: { getSetCookie: () => allCookies },
+            text: async () => bodyText,
+          });
+        });
+      }
+    );
+    req.on("error", reject);
+    if (init.body) req.write(init.body);
+    req.end();
+  });
+}
+
+/**
+ * fetch with transparent per-host TLS chain repair. Hosts with a healthy
+ * chain go through native fetch exactly as before; a host that fails with a
+ * cert-chain error is repaired once and permanently routed via the fallback.
+ */
+async function robustIdoxFetch(
+  url: string,
+  init: { method: string; headers: Record<string, string>; body?: string; redirect?: RequestRedirect }
+): Promise<IdoxResponse> {
+  const hostname = new URL(url).hostname;
+  const repairedAgent = tlsAgentCache.get(hostname);
+  if (repairedAgent) {
+    return httpsRequestFollow(url, init, repairedAgent);
+  }
+
+  try {
+    return (await fetch(url, init)) as unknown as IdoxResponse;
+  } catch (err) {
+    if (!isCertChainError(err)) throw err;
+    console.log(
+      `  🔧 ${hostname} served an incomplete TLS certificate chain — fetching the missing intermediate via AIA and retrying...`
+    );
+    const agent = await repairAgentForHost(hostname);
+    tlsAgentCache.set(hostname, agent);
+
+    return httpsRequestFollow(url, init, agent);
+  }
+}
+
 class CookieJar {
   private cookies: Map<string, string> = new Map();
 
-  /** Parse Set-Cookie headers from a fetch Response */
-  absorb(response: Response): void {
+  /** Parse Set-Cookie headers from a fetch Response (or the TLS-repair fallback) */
+  absorb(response: IdoxResponse): void {
     const setCookies = response.headers.getSetCookie?.() ?? [];
     for (const header of setCookies) {
       // Extract name=value from "name=value; Path=/; HttpOnly"
@@ -2464,7 +2683,7 @@ async function getSearchSession(
   const url = `${authority.baseUrl}${idoxPath(authority)}/search.do?action=advanced&searchType=Application`;
   const cookies = new CookieJar();
 
-  const resp = await fetch(url, {
+  const resp = await robustIdoxFetch(url, {
     method: "GET",
     headers: {
       "User-Agent": USER_AGENT,
@@ -2514,7 +2733,7 @@ async function submitSearch(
     Origin: authority.baseUrl,
   };
 
-  const resp = await fetch(url, {
+  const resp = await robustIdoxFetch(url, {
     method: "POST",
     headers,
     body: formData.toString(),
@@ -2546,7 +2765,7 @@ async function fetchResultsPage(
 ): Promise<{ html: string; cookies: CookieJar }> {
   const url = `${authority.baseUrl}${idoxPath(authority)}/pagedSearchResults.do?action=page&searchCriteria.page=${pageNum}`;
 
-  const resp = await fetch(url, {
+  const resp = await robustIdoxFetch(url, {
     method: "GET",
     headers: {
       "User-Agent": USER_AGENT,

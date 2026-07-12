@@ -1,0 +1,49 @@
+{
+  "updatedAt": "2026-07-12T08:41:48.115Z",
+  "townSlug": "hastings",
+  "countySlug": "sussex",
+  "localAuthority": "Hastings Borough Council",
+  "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-12",
+    "to": "2026-07-12",
+    "retrievedAt": "2026-07-12T08:41:48.115Z"
+  },
+  "summary": {
+    "total": 122,
+    "relevant": 1,
+    "approved": 0,
+    "pending": 1,
+    "refused": 0,
+    "approvedUnits": 0,
+    "pendingUnits": 1,
+    "totalUnits": 1,
+    "approvedGdv": 0,
+    "pendingGdv": 270500,
+    "totalEstimatedGDV": 270500,
+    "approvalRate": 0
+  },
+  "approvedApplications": [],
+  "pendingApplications": [
+    {
+      "reference": "HS/FA/26/00326",
+      "address": "47 Caves Road, St Leonards-on-sea, TN38 0BY",
+      "postcode": "TN38 0BY",
+      "ward": "",
+      "proposal": "Change of use of C3 dwellinghouse to C4 House of multiple occupation",
+      "category": "other_residential",
+      "units": 1,
+      "estimatedGdv": 270500,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "03/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.hastings.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_HSTBC_DCAPR_123157"
+    }
+  ]
+}

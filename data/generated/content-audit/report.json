@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-10T09:03:42.573Z",
+  "generatedAt": "2026-07-12T11:36:07.977Z",
   "pagesAudited": 3504,
   "summary": {
     "critical": 0,
     "warning": 0,
-    "info": 207,
-    "boilerplateIndexPct": 93
+    "info": 257,
+    "boilerplateIndexPct": 92
   },
   "findings": [
     {
@@ -15,7 +15,7 @@
       "town": "croydon",
       "service": null,
       "url": "/locations/greater-london/croydon",
-      "detail": "Planning dataset has 176 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 185 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -24,7 +24,7 @@
       "town": "woolwich",
       "service": null,
       "url": "/locations/greater-london/woolwich",
-      "detail": "Planning dataset has 110 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 106 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -33,7 +33,16 @@
       "town": "stratford",
       "service": null,
       "url": "/locations/greater-london/stratford",
-      "detail": "Planning dataset has 23 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 26 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "lewisham",
+      "service": null,
+      "url": "/locations/greater-london/lewisham",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -60,7 +69,43 @@
       "town": "brixton",
       "service": null,
       "url": "/locations/greater-london/brixton",
-      "detail": "Planning dataset has 170 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 171 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "mayfair",
+      "service": null,
+      "url": "/locations/greater-london/mayfair",
+      "detail": "Planning dataset has 328 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "marylebone",
+      "service": null,
+      "url": "/locations/greater-london/marylebone",
+      "detail": "Planning dataset has 328 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "clapham",
+      "service": null,
+      "url": "/locations/greater-london/clapham",
+      "detail": "Planning dataset has 171 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "vauxhall",
+      "service": null,
+      "url": "/locations/greater-london/vauxhall",
+      "detail": "Planning dataset has 171 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -73,12 +118,30 @@
     },
     {
       "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "westminster",
+      "service": null,
+      "url": "/locations/greater-london/westminster",
+      "detail": "Planning dataset has 328 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
       "type": "FLAT_YOY",
       "county": "greater-london",
       "town": "wimbledon",
       "service": null,
       "url": "/locations/greater-london/wimbledon",
       "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "kingston",
+      "service": null,
+      "url": "/locations/greater-london/kingston",
+      "detail": "Planning dataset has 48 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -91,12 +154,57 @@
     },
     {
       "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "enfield",
+      "service": null,
+      "url": "/locations/greater-london/enfield",
+      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "bexley",
+      "service": null,
+      "url": "/locations/greater-london/bexley",
+      "detail": "Planning dataset has 68 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
       "type": "FLAT_YOY",
       "county": "greater-london",
       "town": "merton",
       "service": null,
       "url": "/locations/greater-london/merton",
       "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "greater-london",
+      "town": "city-of-london",
+      "service": null,
+      "url": "/locations/greater-london/city-of-london",
+      "detail": "Planning dataset has 35 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "kent",
+      "town": "maidstone",
+      "service": null,
+      "url": "/locations/kent/maidstone",
+      "detail": "Planning dataset has 55 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "kent",
+      "town": "canterbury",
+      "service": null,
+      "url": "/locations/kent/canterbury",
+      "detail": "Planning dataset has 7 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -141,7 +249,7 @@
       "town": "tonbridge",
       "service": null,
       "url": "/locations/kent/tonbridge",
-      "detail": "Planning dataset has 49 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 48 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -150,7 +258,7 @@
       "town": "dover",
       "service": null,
       "url": "/locations/kent/dover",
-      "detail": "Planning dataset has 16 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 17 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -159,7 +267,16 @@
       "town": "sevenoaks",
       "service": null,
       "url": "/locations/kent/sevenoaks",
-      "detail": "Planning dataset has 10 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 12 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "kent",
+      "town": "margate",
+      "service": null,
+      "url": "/locations/kent/margate",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -174,10 +291,37 @@
       "severity": "info",
       "type": "ALL_PENDING_PLANNING",
       "county": "surrey",
+      "town": "guildford",
+      "service": null,
+      "url": "/locations/surrey/guildford",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "surrey",
+      "town": "woking",
+      "service": null,
+      "url": "/locations/surrey/woking",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "surrey",
       "town": "epsom",
       "service": null,
       "url": "/locations/surrey/epsom",
-      "detail": "Planning dataset has 44 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 48 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "surrey",
+      "town": "camberley",
+      "service": null,
+      "url": "/locations/surrey/camberley",
+      "detail": "Planning dataset has 5 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -218,6 +362,24 @@
     {
       "severity": "info",
       "type": "ALL_PENDING_PLANNING",
+      "county": "sussex",
+      "town": "hastings",
+      "service": null,
+      "url": "/locations/sussex/hastings",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "sussex",
+      "town": "haywards-heath",
+      "service": null,
+      "url": "/locations/sussex/haywards-heath",
+      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
       "county": "hampshire",
       "town": "portsmouth",
       "service": null,
@@ -231,7 +393,16 @@
       "town": "winchester",
       "service": null,
       "url": "/locations/hampshire/winchester",
-      "detail": "Planning dataset has 75 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 79 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hampshire",
+      "town": "basingstoke",
+      "service": null,
+      "url": "/locations/hampshire/basingstoke",
+      "detail": "Planning dataset has 73 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -240,7 +411,7 @@
       "town": "andover",
       "service": null,
       "url": "/locations/hampshire/andover",
-      "detail": "Planning dataset has 11 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 14 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -267,7 +438,7 @@
       "town": "fleet",
       "service": null,
       "url": "/locations/hampshire/fleet",
-      "detail": "Planning dataset has 38 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 42 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -276,16 +447,7 @@
       "town": "maidenhead",
       "service": null,
       "url": "/locations/berkshire/maidenhead",
-      "detail": "Planning dataset has 69 apps, none decided — approval stats suppressed by component guard"
-    },
-    {
-      "severity": "info",
-      "type": "ALL_PENDING_PLANNING",
-      "county": "berkshire",
-      "town": "wokingham",
-      "service": null,
-      "url": "/locations/berkshire/wokingham",
-      "detail": "Planning dataset has 2 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 70 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -294,7 +456,7 @@
       "town": "newbury",
       "service": null,
       "url": "/locations/berkshire/newbury",
-      "detail": "Planning dataset has 84 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 54 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -303,7 +465,7 @@
       "town": "windsor",
       "service": null,
       "url": "/locations/berkshire/windsor",
-      "detail": "Planning dataset has 69 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 70 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -312,7 +474,7 @@
       "town": "thatcham",
       "service": null,
       "url": "/locations/berkshire/thatcham",
-      "detail": "Planning dataset has 84 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 54 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -393,7 +555,7 @@
       "town": "oxford",
       "service": null,
       "url": "/locations/oxfordshire/oxford",
-      "detail": "Planning dataset has 174 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 187 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -402,7 +564,7 @@
       "town": "witney",
       "service": null,
       "url": "/locations/oxfordshire/witney",
-      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 131 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -411,7 +573,7 @@
       "town": "st-albans",
       "service": null,
       "url": "/locations/hertfordshire/st-albans",
-      "detail": "Planning dataset has 8 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 9 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -420,7 +582,7 @@
       "town": "watford",
       "service": null,
       "url": "/locations/hertfordshire/watford",
-      "detail": "Planning dataset has 18 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 16 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -438,7 +600,7 @@
       "town": "hertford",
       "service": null,
       "url": "/locations/hertfordshire/hertford",
-      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 7 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -447,7 +609,7 @@
       "town": "bishops-stortford",
       "service": null,
       "url": "/locations/hertfordshire/bishops-stortford",
-      "detail": "Planning dataset has 6 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 7 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -456,7 +618,16 @@
       "town": "harpenden",
       "service": null,
       "url": "/locations/hertfordshire/harpenden",
-      "detail": "Planning dataset has 8 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 9 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "hertfordshire",
+      "town": "borehamwood",
+      "service": null,
+      "url": "/locations/hertfordshire/borehamwood",
+      "detail": "Planning dataset has 58 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -465,7 +636,7 @@
       "town": "basildon",
       "service": null,
       "url": "/locations/essex/basildon",
-      "detail": "Planning dataset has 27 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 28 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -483,7 +654,7 @@
       "town": "grays",
       "service": null,
       "url": "/locations/essex/grays",
-      "detail": "Planning dataset has 65 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 69 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -498,10 +669,55 @@
       "severity": "info",
       "type": "ALL_PENDING_PLANNING",
       "county": "bristol",
+      "town": "bristol-city-centre",
+      "service": null,
+      "url": "/locations/bristol/bristol-city-centre",
+      "detail": "Planning dataset has 95 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "bristol",
+      "town": "bedminster",
+      "service": null,
+      "url": "/locations/bristol/bedminster",
+      "detail": "Planning dataset has 95 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "bristol",
+      "town": "bishopston",
+      "service": null,
+      "url": "/locations/bristol/bishopston",
+      "detail": "Planning dataset has 95 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "bristol",
       "town": "filton",
       "service": null,
       "url": "/locations/bristol/filton",
-      "detail": "Planning dataset has 86 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 95 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "bristol",
+      "town": "hengrove",
+      "service": null,
+      "url": "/locations/bristol/hengrove",
+      "detail": "Planning dataset has 95 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "bristol",
+      "town": "keynsham",
+      "service": null,
+      "url": "/locations/bristol/keynsham",
+      "detail": "Planning dataset has 95 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -510,7 +726,7 @@
       "town": "frome",
       "service": null,
       "url": "/locations/somerset/frome",
-      "detail": "Planning dataset has 117 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 106 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -519,7 +735,7 @@
       "town": "glastonbury",
       "service": null,
       "url": "/locations/somerset/glastonbury",
-      "detail": "Planning dataset has 117 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 106 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -537,7 +753,7 @@
       "town": "wells",
       "service": null,
       "url": "/locations/somerset/wells",
-      "detail": "Planning dataset has 117 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 106 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -559,6 +775,15 @@
     },
     {
       "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "devon",
+      "town": "plymouth",
+      "service": null,
+      "url": "/locations/devon/plymouth",
+      "detail": "Planning dataset has 180 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
       "type": "FLAT_YOY",
       "county": "devon",
       "town": "plymouth",
@@ -573,7 +798,7 @@
       "town": "tiverton",
       "service": null,
       "url": "/locations/devon/tiverton",
-      "detail": "Planning dataset has 33 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 36 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -582,7 +807,7 @@
       "town": "truro",
       "service": null,
       "url": "/locations/cornwall/truro",
-      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -591,7 +816,7 @@
       "town": "falmouth",
       "service": null,
       "url": "/locations/cornwall/falmouth",
-      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -600,7 +825,7 @@
       "town": "newquay",
       "service": null,
       "url": "/locations/cornwall/newquay",
-      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -609,7 +834,7 @@
       "town": "penzance",
       "service": null,
       "url": "/locations/cornwall/penzance",
-      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -618,7 +843,7 @@
       "town": "st-austell",
       "service": null,
       "url": "/locations/cornwall/st-austell",
-      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -627,7 +852,7 @@
       "town": "bodmin",
       "service": null,
       "url": "/locations/cornwall/bodmin",
-      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -636,7 +861,7 @@
       "town": "camborne",
       "service": null,
       "url": "/locations/cornwall/camborne",
-      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -645,7 +870,16 @@
       "town": "bude",
       "service": null,
       "url": "/locations/cornwall/bude",
-      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "wiltshire",
+      "town": "swindon",
+      "service": null,
+      "url": "/locations/wiltshire/swindon",
+      "detail": "Planning dataset has 14 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -663,7 +897,7 @@
       "town": "cheltenham",
       "service": null,
       "url": "/locations/gloucestershire/cheltenham",
-      "detail": "Planning dataset has 160 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 168 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -672,7 +906,16 @@
       "town": "gloucester",
       "service": null,
       "url": "/locations/gloucestershire/gloucester",
-      "detail": "Planning dataset has 82 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 86 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "gloucestershire",
+      "town": "stroud",
+      "service": null,
+      "url": "/locations/gloucestershire/stroud",
+      "detail": "Planning dataset has 123 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -681,7 +924,7 @@
       "town": "cirencester",
       "service": null,
       "url": "/locations/gloucestershire/cirencester",
-      "detail": "Planning dataset has 228 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 226 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -690,7 +933,7 @@
       "town": "tewkesbury",
       "service": null,
       "url": "/locations/gloucestershire/tewkesbury",
-      "detail": "Planning dataset has 150 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 145 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -699,7 +942,7 @@
       "town": "lydney",
       "service": null,
       "url": "/locations/gloucestershire/lydney",
-      "detail": "Planning dataset has 85 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 87 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -717,7 +960,7 @@
       "town": "wolverhampton",
       "service": null,
       "url": "/locations/west-midlands/wolverhampton",
-      "detail": "Planning dataset has 132 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 131 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -735,7 +978,7 @@
       "town": "solihull",
       "service": null,
       "url": "/locations/west-midlands/solihull",
-      "detail": "Planning dataset has 23 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 25 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -749,11 +992,38 @@
     {
       "severity": "info",
       "type": "ALL_PENDING_PLANNING",
-      "county": "west-midlands",
-      "town": "west-bromwich",
+      "county": "warwickshire",
+      "town": "leamington-spa",
       "service": null,
-      "url": "/locations/west-midlands/west-bromwich",
+      "url": "/locations/warwickshire/leamington-spa",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "warwickshire",
+      "town": "warwick",
+      "service": null,
+      "url": "/locations/warwickshire/warwick",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "warwickshire",
+      "town": "rugby",
+      "service": null,
+      "url": "/locations/warwickshire/rugby",
       "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "warwickshire",
+      "town": "kenilworth",
+      "service": null,
+      "url": "/locations/warwickshire/kenilworth",
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -762,7 +1032,7 @@
       "town": "stafford",
       "service": null,
       "url": "/locations/staffordshire/stafford",
-      "detail": "Planning dataset has 13 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 12 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -771,7 +1041,7 @@
       "town": "lichfield",
       "service": null,
       "url": "/locations/staffordshire/lichfield",
-      "detail": "Planning dataset has 56 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 54 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -807,7 +1077,7 @@
       "town": "shrewsbury",
       "service": null,
       "url": "/locations/shropshire/shrewsbury",
-      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 55 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -816,7 +1086,7 @@
       "town": "oswestry",
       "service": null,
       "url": "/locations/shropshire/oswestry",
-      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 55 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -825,7 +1095,7 @@
       "town": "bridgnorth",
       "service": null,
       "url": "/locations/shropshire/bridgnorth",
-      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 55 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -843,7 +1113,7 @@
       "town": "market-drayton",
       "service": null,
       "url": "/locations/shropshire/market-drayton",
-      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 55 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -852,7 +1122,7 @@
       "town": "ludlow",
       "service": null,
       "url": "/locations/shropshire/ludlow",
-      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 55 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -861,7 +1131,7 @@
       "town": "derby",
       "service": null,
       "url": "/locations/derbyshire/derby",
-      "detail": "Planning dataset has 76 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 75 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -870,7 +1140,7 @@
       "town": "chesterfield",
       "service": null,
       "url": "/locations/derbyshire/chesterfield",
-      "detail": "Planning dataset has 49 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 54 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -880,6 +1150,15 @@
       "service": null,
       "url": "/locations/derbyshire/long-eaton",
       "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "nottinghamshire",
+      "town": "nottingham",
+      "service": null,
+      "url": "/locations/nottinghamshire/nottingham",
+      "detail": "Planning dataset has 15 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -915,7 +1194,16 @@
       "town": "newark",
       "service": null,
       "url": "/locations/nottinghamshire/newark",
-      "detail": "Planning dataset has 54 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 66 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "nottinghamshire",
+      "town": "worksop",
+      "service": null,
+      "url": "/locations/nottinghamshire/worksop",
+      "detail": "Planning dataset has 67 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -933,7 +1221,7 @@
       "town": "west-bridgford",
       "service": null,
       "url": "/locations/nottinghamshire/west-bridgford",
-      "detail": "Planning dataset has 160 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 158 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -942,7 +1230,16 @@
       "town": "arnold",
       "service": null,
       "url": "/locations/nottinghamshire/arnold",
-      "detail": "Planning dataset has 5 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 4 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "nottinghamshire",
+      "town": "retford",
+      "service": null,
+      "url": "/locations/nottinghamshire/retford",
+      "detail": "Planning dataset has 67 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -960,7 +1257,7 @@
       "town": "melton-mowbray",
       "service": null,
       "url": "/locations/leicestershire/melton-mowbray",
-      "detail": "Planning dataset has 27 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 25 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -969,7 +1266,61 @@
       "town": "market-harborough",
       "service": null,
       "url": "/locations/leicestershire/market-harborough",
-      "detail": "Planning dataset has 115 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 130 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "leicestershire",
+      "town": "coalville",
+      "service": null,
+      "url": "/locations/leicestershire/coalville",
+      "detail": "Planning dataset has 81 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "leicestershire",
+      "town": "wigston",
+      "service": null,
+      "url": "/locations/leicestershire/wigston",
+      "detail": "Planning dataset has 51 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "northamptonshire",
+      "town": "kettering",
+      "service": null,
+      "url": "/locations/northamptonshire/kettering",
+      "detail": "Planning dataset has 175 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "northamptonshire",
+      "town": "corby",
+      "service": null,
+      "url": "/locations/northamptonshire/corby",
+      "detail": "Planning dataset has 175 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "northamptonshire",
+      "town": "wellingborough",
+      "service": null,
+      "url": "/locations/northamptonshire/wellingborough",
+      "detail": "Planning dataset has 175 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "northamptonshire",
+      "town": "rushden",
+      "service": null,
+      "url": "/locations/northamptonshire/rushden",
+      "detail": "Planning dataset has 175 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -978,7 +1329,7 @@
       "town": "lincoln",
       "service": null,
       "url": "/locations/lincolnshire/lincoln",
-      "detail": "Planning dataset has 36 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 40 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -987,7 +1338,7 @@
       "town": "sleaford",
       "service": null,
       "url": "/locations/lincolnshire/sleaford",
-      "detail": "Planning dataset has 59 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 57 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1006,15 +1357,6 @@
       "service": null,
       "url": "/locations/greater-manchester/stockport",
       "detail": "Planning dataset has 7 apps, none decided — approval stats suppressed by component guard"
-    },
-    {
-      "severity": "info",
-      "type": "ALL_PENDING_PLANNING",
-      "county": "greater-manchester",
-      "town": "oldham",
-      "service": null,
-      "url": "/locations/greater-manchester/oldham",
-      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1041,7 +1383,7 @@
       "town": "altrincham",
       "service": null,
       "url": "/locations/greater-manchester/altrincham",
-      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1050,7 +1392,7 @@
       "town": "ashton-under-lyne",
       "service": null,
       "url": "/locations/greater-manchester/ashton-under-lyne",
-      "detail": "Planning dataset has 110 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 109 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1059,7 +1401,7 @@
       "town": "lancaster",
       "service": null,
       "url": "/locations/lancashire/lancaster",
-      "detail": "Planning dataset has 58 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 57 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1086,7 +1428,16 @@
       "town": "southport",
       "service": null,
       "url": "/locations/merseyside/southport",
-      "detail": "Planning dataset has 5 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "merseyside",
+      "town": "st-helens",
+      "service": null,
+      "url": "/locations/merseyside/st-helens",
+      "detail": "Planning dataset has 39 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1095,7 +1446,7 @@
       "town": "bootle",
       "service": null,
       "url": "/locations/merseyside/bootle",
-      "detail": "Planning dataset has 5 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 3 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1104,7 +1455,7 @@
       "town": "carlisle",
       "service": null,
       "url": "/locations/cumbria/carlisle",
-      "detail": "Planning dataset has 14 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 16 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1113,7 +1464,7 @@
       "town": "workington",
       "service": null,
       "url": "/locations/cumbria/workington",
-      "detail": "Planning dataset has 14 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 16 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1122,7 +1473,7 @@
       "town": "whitehaven",
       "service": null,
       "url": "/locations/cumbria/whitehaven",
-      "detail": "Planning dataset has 14 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 16 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1131,7 +1482,7 @@
       "town": "leeds",
       "service": null,
       "url": "/locations/west-yorkshire/leeds",
-      "detail": "Planning dataset has 18 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 21 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1154,11 +1505,38 @@
     {
       "severity": "info",
       "type": "ALL_PENDING_PLANNING",
+      "county": "west-yorkshire",
+      "town": "wakefield",
+      "service": null,
+      "url": "/locations/west-yorkshire/wakefield",
+      "detail": "Planning dataset has 191 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "west-yorkshire",
+      "town": "pontefract",
+      "service": null,
+      "url": "/locations/west-yorkshire/pontefract",
+      "detail": "Planning dataset has 191 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "south-yorkshire",
+      "town": "sheffield",
+      "service": null,
+      "url": "/locations/south-yorkshire/sheffield",
+      "detail": "Planning dataset has 201 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
       "county": "south-yorkshire",
       "town": "doncaster",
       "service": null,
       "url": "/locations/south-yorkshire/doncaster",
-      "detail": "Planning dataset has 139 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 128 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1167,7 +1545,7 @@
       "town": "mexborough",
       "service": null,
       "url": "/locations/south-yorkshire/mexborough",
-      "detail": "Planning dataset has 139 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 128 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1203,7 +1581,7 @@
       "town": "harrogate",
       "service": null,
       "url": "/locations/north-yorkshire/harrogate",
-      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 286 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1212,7 +1590,7 @@
       "town": "scarborough",
       "service": null,
       "url": "/locations/north-yorkshire/scarborough",
-      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 286 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1221,7 +1599,7 @@
       "town": "skipton",
       "service": null,
       "url": "/locations/north-yorkshire/skipton",
-      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 286 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1230,7 +1608,7 @@
       "town": "whitby",
       "service": null,
       "url": "/locations/north-yorkshire/whitby",
-      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 286 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1239,7 +1617,7 @@
       "town": "ripon",
       "service": null,
       "url": "/locations/north-yorkshire/ripon",
-      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 286 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1248,7 +1626,7 @@
       "town": "northallerton",
       "service": null,
       "url": "/locations/north-yorkshire/northallerton",
-      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 286 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1257,7 +1635,7 @@
       "town": "knaresborough",
       "service": null,
       "url": "/locations/north-yorkshire/knaresborough",
-      "detail": "Planning dataset has 277 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 286 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1266,7 +1644,7 @@
       "town": "sunderland",
       "service": null,
       "url": "/locations/tyne-and-wear/sunderland",
-      "detail": "Planning dataset has 65 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 64 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1284,7 +1662,7 @@
       "town": "gateshead",
       "service": null,
       "url": "/locations/tyne-and-wear/gateshead",
-      "detail": "Planning dataset has 34 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 39 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1311,7 +1689,7 @@
       "town": "washington",
       "service": null,
       "url": "/locations/tyne-and-wear/washington",
-      "detail": "Planning dataset has 65 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 64 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1320,7 +1698,7 @@
       "town": "durham",
       "service": null,
       "url": "/locations/county-durham/durham",
-      "detail": "Planning dataset has 20 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 23 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1329,7 +1707,7 @@
       "town": "bishop-auckland",
       "service": null,
       "url": "/locations/county-durham/bishop-auckland",
-      "detail": "Planning dataset has 20 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 23 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1338,7 +1716,7 @@
       "town": "newton-aycliffe",
       "service": null,
       "url": "/locations/county-durham/newton-aycliffe",
-      "detail": "Planning dataset has 20 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 23 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1347,7 +1725,7 @@
       "town": "consett",
       "service": null,
       "url": "/locations/county-durham/consett",
-      "detail": "Planning dataset has 20 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 23 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1356,7 +1734,7 @@
       "town": "chester-le-street",
       "service": null,
       "url": "/locations/county-durham/chester-le-street",
-      "detail": "Planning dataset has 20 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 23 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1374,7 +1752,7 @@
       "town": "peterlee",
       "service": null,
       "url": "/locations/county-durham/peterlee",
-      "detail": "Planning dataset has 20 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 23 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1383,7 +1761,7 @@
       "town": "morpeth",
       "service": null,
       "url": "/locations/northumberland/morpeth",
-      "detail": "Planning dataset has 240 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 233 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1392,7 +1770,7 @@
       "town": "blyth",
       "service": null,
       "url": "/locations/northumberland/blyth",
-      "detail": "Planning dataset has 240 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 233 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1401,7 +1779,7 @@
       "town": "cramlington",
       "service": null,
       "url": "/locations/northumberland/cramlington",
-      "detail": "Planning dataset has 240 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 233 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1410,7 +1788,7 @@
       "town": "alnwick",
       "service": null,
       "url": "/locations/northumberland/alnwick",
-      "detail": "Planning dataset has 240 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 233 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1419,7 +1797,7 @@
       "town": "hexham",
       "service": null,
       "url": "/locations/northumberland/hexham",
-      "detail": "Planning dataset has 240 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 233 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1428,7 +1806,7 @@
       "town": "berwick-upon-tweed",
       "service": null,
       "url": "/locations/northumberland/berwick-upon-tweed",
-      "detail": "Planning dataset has 240 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 233 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1438,6 +1816,42 @@
       "service": null,
       "url": "/locations/east-riding-of-yorkshire/hull",
       "detail": "YoY change is exactly 0 — must render neutrally, never '+0%'"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "east-riding-of-yorkshire",
+      "town": "beverley",
+      "service": null,
+      "url": "/locations/east-riding-of-yorkshire/beverley",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "east-riding-of-yorkshire",
+      "town": "bridlington",
+      "service": null,
+      "url": "/locations/east-riding-of-yorkshire/bridlington",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "east-riding-of-yorkshire",
+      "town": "goole",
+      "service": null,
+      "url": "/locations/east-riding-of-yorkshire/goole",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "east-riding-of-yorkshire",
+      "town": "driffield",
+      "service": null,
+      "url": "/locations/east-riding-of-yorkshire/driffield",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1451,11 +1865,20 @@
     {
       "severity": "info",
       "type": "ALL_PENDING_PLANNING",
+      "county": "east-riding-of-yorkshire",
+      "town": "hessle",
+      "service": null,
+      "url": "/locations/east-riding-of-yorkshire/hessle",
+      "detail": "Planning dataset has 1 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
       "county": "norfolk",
       "town": "norwich",
       "service": null,
       "url": "/locations/norfolk/norwich",
-      "detail": "Planning dataset has 66 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 67 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1491,7 +1914,7 @@
       "town": "bury-st-edmunds",
       "service": null,
       "url": "/locations/suffolk/bury-st-edmunds",
-      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 60 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1500,7 +1923,7 @@
       "town": "newmarket",
       "service": null,
       "url": "/locations/suffolk/newmarket",
-      "detail": "Planning dataset has 63 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 60 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1509,7 +1932,25 @@
       "town": "cambridge",
       "service": null,
       "url": "/locations/cambridgeshire/cambridge",
-      "detail": "Planning dataset has 266 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 260 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cambridgeshire",
+      "town": "huntingdon",
+      "service": null,
+      "url": "/locations/cambridgeshire/huntingdon",
+      "detail": "Planning dataset has 25 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
+      "county": "cambridgeshire",
+      "town": "st-neots",
+      "service": null,
+      "url": "/locations/cambridgeshire/st-neots",
+      "detail": "Planning dataset has 25 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1523,11 +1964,20 @@
     {
       "severity": "info",
       "type": "ALL_PENDING_PLANNING",
+      "county": "cambridgeshire",
+      "town": "st-ives",
+      "service": null,
+      "url": "/locations/cambridgeshire/st-ives",
+      "detail": "Planning dataset has 25 apps, none decided — approval stats suppressed by component guard"
+    },
+    {
+      "severity": "info",
+      "type": "ALL_PENDING_PLANNING",
       "county": "bedfordshire",
       "town": "luton",
       "service": null,
       "url": "/locations/bedfordshire/luton",
-      "detail": "Planning dataset has 39 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 43 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1545,7 +1995,7 @@
       "town": "cardiff-city-centre",
       "service": null,
       "url": "/locations/cardiff/cardiff-city-centre",
-      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 150 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1554,7 +2004,7 @@
       "town": "cardiff-bay",
       "service": null,
       "url": "/locations/cardiff/cardiff-bay",
-      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 150 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1563,7 +2013,7 @@
       "town": "canton",
       "service": null,
       "url": "/locations/cardiff/canton",
-      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 150 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1572,7 +2022,7 @@
       "town": "cathays",
       "service": null,
       "url": "/locations/cardiff/cathays",
-      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 150 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1581,7 +2031,7 @@
       "town": "splott",
       "service": null,
       "url": "/locations/cardiff/splott",
-      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 150 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1590,7 +2040,7 @@
       "town": "pontcanna",
       "service": null,
       "url": "/locations/cardiff/pontcanna",
-      "detail": "Planning dataset has 135 apps, none decided — approval stats suppressed by component guard"
+      "detail": "Planning dataset has 150 apps, none decided — approval stats suppressed by component guard"
     },
     {
       "severity": "info",
@@ -1734,7 +2184,7 @@
       "town": "",
       "service": null,
       "url": "",
-      "detail": "\"70%\" appears on 7948 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+      "detail": "\"70%\" appears on 7934 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
     },
     {
       "severity": "info",
@@ -1752,7 +2202,7 @@
       "town": "",
       "service": null,
       "url": "",
-      "detail": "\"65%\" appears on 5211 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+      "detail": "\"65%\" appears on 5125 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
     },
     {
       "severity": "info",
@@ -1761,7 +2211,7 @@
       "town": "",
       "service": null,
       "url": "",
-      "detail": "\"100%\" appears on 5077 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+      "detail": "\"100%\" appears on 4985 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
     },
     {
       "severity": "info",
@@ -1779,7 +2229,7 @@
       "town": "",
       "service": null,
       "url": "",
-      "detail": "\"15%\" appears on 3262 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+      "detail": "\"15%\" appears on 3226 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
     },
     {
       "severity": "info",
@@ -1788,7 +2238,7 @@
       "town": "",
       "service": null,
       "url": "",
-      "detail": "\"90%\" appears on 2898 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
+      "detail": "\"90%\" appears on 2884 of 3066 service pages — verify it is a quoted term, not a broken derived metric"
     },
     {
       "severity": "info",

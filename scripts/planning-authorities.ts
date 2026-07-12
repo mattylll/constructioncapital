@@ -145,7 +145,7 @@ export const PLANNING_AUTHORITIES: PlanningAuthority[] = [
     schemaFamily: "pbdc",
     towns: [{ townSlug: "walthamstow", countySlug: "greater-london" }],
     searchDateField: "received_date",
-    enabled: false,
+    enabled: false, // 2026-07-12: MIGRATED off Civica — council's "Find an application" page links to https://walthamforest.objective.co.uk/portal/pa/ (Objective). That endpoint refuses plain curl (verify in a browser before building). Old Civica host has a cert hostname mismatch (decommissioned). Wave 3 new-vendor candidate; not broken.
   },
   {
     id: "maldon",
