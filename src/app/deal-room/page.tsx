@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "Deal Room",
   description:
     "Submit your development finance deal. Get indicative terms within 24 hours from our panel of 100+ lenders across the UK.",
+  alternates: {
+    canonical: "/deal-room",
+  },
 };
 
 export default function DealRoomPage() {

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 import { EditorialHero } from "@/components/home/editorial-hero";
@@ -9,6 +10,12 @@ import { MarketStrip } from "@/components/home/market-strip";
 import { FounderNote } from "@/components/home/founder-note";
 import { HomepageEnquiryForm } from "@/components/home/homepage-enquiry-form";
 import { CONTACT } from "@/lib/constants";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default function HomePage() {
   return (
