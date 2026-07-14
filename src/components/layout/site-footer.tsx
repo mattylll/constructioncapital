@@ -17,6 +17,7 @@ const primaryLinks = {
     { href: "/about", label: "About Matt Lenzie" },
     { href: "/case-studies", label: "Case Studies" },
     { href: "/lender-panel", label: "Lender Panel" },
+    { href: "/introducers", label: "Introducers" },
     { href: "/contact", label: "Contact" },
     { href: "/deal-room", label: "Start a deal" },
   ],
@@ -106,8 +107,46 @@ export function SiteFooter() {
               Independent London brokerage. 25+ years of property-finance
               experience, distilled into one principal.
             </p>
+            <div className="mt-8 space-y-2 text-[15px]">
+              <a
+                href={`tel:${CONTACT.phoneRaw}`}
+                className="numeral-tabular block font-semibold transition-colors hover:text-white"
+                style={{ color: "oklch(1 0 0 / 0.75)" }}
+              >
+                {CONTACT.phone}
+              </a>
+              <a
+                href={`mailto:${CONTACT.email}`}
+                className="block transition-colors hover:text-white"
+                style={{ color: "oklch(1 0 0 / 0.6)" }}
+              >
+                {CONTACT.email}
+              </a>
+              {CONTACT.whatsappUrl && (
+                <a
+                  href={CONTACT.whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block transition-colors hover:text-white"
+                  style={{ color: "oklch(1 0 0 / 0.6)" }}
+                >
+                  WhatsApp Matt
+                </a>
+              )}
+              {CONTACT.bookingUrl && (
+                <a
+                  href={CONTACT.bookingUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block transition-colors hover:text-white"
+                  style={{ color: "oklch(1 0 0 / 0.6)" }}
+                >
+                  Book a call with Matt
+                </a>
+              )}
+            </div>
             <p
-              className="mt-8 text-[10px] font-medium uppercase tracking-[0.3em]"
+              className="mt-6 text-[10px] font-medium uppercase tracking-[0.3em]"
               style={{ color: "oklch(1 0 0 / 0.4)" }}
             >
               {CONTACT.address}
@@ -281,4 +320,3 @@ function FooterColumn({
     </div>
   );
 }
-

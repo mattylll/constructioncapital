@@ -34,10 +34,11 @@ export function StickyCTA() {
         </Link>
         <a
           href={`tel:${CONTACT.phoneRaw}`}
-          className="flex items-center justify-center rounded-lg border border-border bg-background px-4 py-2.5 text-sm font-semibold transition-colors hover:bg-muted"
-          aria-label="Call us"
+          className="numeral-tabular flex items-center justify-center gap-1.5 whitespace-nowrap rounded-lg border border-border bg-background px-3 py-2.5 text-xs font-semibold transition-colors hover:bg-muted"
+          aria-label={`Call ${CONTACT.phone}`}
         >
-          <Phone className="h-4 w-4" />
+          <Phone className="h-4 w-4 shrink-0" />
+          020 3816 3693
         </a>
       </div>
     </div>

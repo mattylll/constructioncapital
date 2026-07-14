@@ -8,6 +8,13 @@ export const CONTACT = {
   phone: "+44 20 3816 3693",
   phoneRaw: "+442038163693",
   address: "London, United Kingdom",
+  /**
+   * Optional direct-to-Matt channels — set NEXT_PUBLIC_WHATSAPP_URL (e.g.
+   * https://wa.me/44…) and NEXT_PUBLIC_BOOKING_URL (Calendly/Cal.com) in
+   * Netlify env and redeploy to activate. Render sites gate on presence.
+   */
+  whatsappUrl: process.env.NEXT_PUBLIC_WHATSAPP_URL || undefined,
+  bookingUrl: process.env.NEXT_PUBLIC_BOOKING_URL || undefined,
 } as const;
 
 export const LEGAL_ENTITY = {

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown, Phone, MessageCircle, CalendarClock } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/sheet";
 import { Wordmark } from "@/components/layout/wordmark";
 import { SERVICES } from "@/lib/services";
+import { CONTACT } from "@/lib/constants";
 
 const primaryLinks = [
   { href: "/locations", label: "Locations" },
@@ -69,7 +70,8 @@ export function SiteHeader() {
     }
     document.addEventListener("mousedown", onDocumentClick);
     document.addEventListener("keydown", onEscape);
-    return () => {
+    
+return () => {
       document.removeEventListener("mousedown", onDocumentClick);
       document.removeEventListener("keydown", onEscape);
     };
@@ -224,7 +226,15 @@ export function SiteHeader() {
         </nav>
 
         {/* Desktop CTA */}
-        <div className="hidden md:block">
+        <div className="hidden items-center gap-3 md:flex">
+          <a
+            href={`tel:${CONTACT.phoneRaw}`}
+            className="numeral-tabular inline-flex h-9 items-center gap-2 border border-border px-4 text-sm font-semibold text-foreground transition-colors hover:border-gold hover:text-gold-dark"
+            aria-label={`Call ${CONTACT.phone}`}
+          >
+            <Phone className="h-3.5 w-3.5" style={{ color: "var(--gold-dark)" }} />
+            <span className="hidden lg:inline">{CONTACT.phone}</span>
+          </a>
           <Link
             href="/deal-room"
             className="inline-flex h-9 items-center gap-1.5 bg-navy-dark px-5 text-[12px] font-semibold uppercase tracking-[0.2em] text-background transition-colors hover:bg-navy"
@@ -233,7 +243,16 @@ export function SiteHeader() {
           </Link>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile: tap-to-call + menu */}
+        <div className="flex items-center gap-1 md:hidden">
+          <a
+            href={`tel:${CONTACT.phoneRaw}`}
+            className="inline-flex h-9 w-9 items-center justify-center rounded-md transition-colors hover:bg-muted"
+            aria-label={`Call ${CONTACT.phone}`}
+          >
+            <Phone className="h-5 w-5" style={{ color: "var(--gold-dark)" }} />
+          </a>
+        </div>
         <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
           <SheetTrigger asChild className="md:hidden">
             <Button variant="ghost" size="icon">
@@ -320,6 +339,41 @@ export function SiteHeader() {
                     {link.label}
                   </Link>
                 ))}
+              </div>
+
+              <div className="mt-6 space-y-3 border-t border-border pt-6">
+                <a
+                  href={`tel:${CONTACT.phoneRaw}`}
+                  onClick={() => setMobileOpen(false)}
+                  className="numeral-tabular flex items-center gap-3 text-lg font-semibold text-foreground"
+                >
+                  <Phone className="h-4 w-4" style={{ color: "var(--gold-dark)" }} />
+                  {CONTACT.phone}
+                </a>
+                {CONTACT.whatsappUrl && (
+                  <a
+                    href={CONTACT.whatsappUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setMobileOpen(false)}
+                    className="flex items-center gap-3 text-lg font-medium text-foreground"
+                  >
+                    <MessageCircle className="h-4 w-4" style={{ color: "var(--gold-dark)" }} />
+                    WhatsApp Matt
+                  </a>
+                )}
+                {CONTACT.bookingUrl && (
+                  <a
+                    href={CONTACT.bookingUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setMobileOpen(false)}
+                    className="flex items-center gap-3 text-lg font-medium text-foreground"
+                  >
+                    <CalendarClock className="h-4 w-4" style={{ color: "var(--gold-dark)" }} />
+                    Book a call
+                  </a>
+                )}
               </div>
 
               <Link
