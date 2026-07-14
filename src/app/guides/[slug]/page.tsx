@@ -198,9 +198,52 @@ export default async function GuidePage({ params }: PageProps) {
         deck={guide.excerpt}
       />
 
-      {/* Article Content */}
+      {/* Article Content — sticky TOC rail + article column */}
       <EditorialSection tone="paper">
-        <div className="mx-auto max-w-3xl">
+        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-14 lg:grid-cols-[240px_minmax(0,1fr)]">
+          {/* Sticky TOC rail (desktop) */}
+          <aside className="hidden lg:block">
+            <nav className="sticky top-24">
+              <p
+                className="mb-5 text-[10px] font-medium uppercase tracking-[0.28em]"
+                style={{ color: "var(--gold-dark)" }}
+              >
+                In this guide
+              </p>
+              <ol className="numeral-tabular flex flex-col gap-3 border-l pl-4" style={{ borderColor: "var(--stone-dark)" }}>
+                {guide.sections.map((section, i) => (
+                  <li key={i}>
+                    <a
+                      href={`#section-${i}`}
+                      className="editorial-link block text-[13px] font-medium leading-snug"
+                      style={{ color: "oklch(0.40 0.03 255)" }}
+                    >
+                      <span className="mr-2 text-[11px]" style={{ color: "var(--gold-dark)" }}>
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
+                      {section.heading}
+                    </a>
+                  </li>
+                ))}
+                {guide.faqs && guide.faqs.length > 0 && (
+                  <li>
+                    <a
+                      href="#guide-faqs"
+                      className="editorial-link block text-[13px] font-medium leading-snug"
+                      style={{ color: "oklch(0.40 0.03 255)" }}
+                    >
+                      <span className="mr-2 text-[11px]" style={{ color: "var(--gold-dark)" }}>
+                        {String(guide.sections.length + 1).padStart(2, "0")}
+                      </span>
+                      Frequently asked questions
+                    </a>
+                  </li>
+                )}
+              </ol>
+            </nav>
+          </aside>
+
+          <div className="min-w-0 max-w-3xl">
           {/* Explainer video — lazy-loaded above the article body */}
           {guide.videoUrl && (
             <div
@@ -222,9 +265,9 @@ export default async function GuidePage({ params }: PageProps) {
             </div>
           )}
 
-          {/* Table of contents */}
+          {/* Mobile table of contents */}
           <nav
-            className="mb-16 border-y py-6"
+            className="mb-16 border-y py-6 lg:hidden"
             style={{ borderColor: "var(--stone-dark)" }}
           >
             <p
@@ -256,13 +299,21 @@ export default async function GuidePage({ params }: PageProps) {
 
           {/* Sections */}
           {guide.sections.map((section, i) => (
-            <div key={i} id={`section-${i}`} className="mb-16 scroll-mt-24">
-              <p
-                className="mb-3 text-[11px] font-medium uppercase tracking-[0.26em]"
-                style={{ color: "var(--gold-dark)" }}
-              >
-                {String(i + 1).padStart(2, "0")}
-              </p>
+            <div
+              key={i}
+              id={`section-${i}`}
+              className={`scroll-mt-24 ${i === 0 ? "mb-20" : "mb-20 border-t pt-14"}`}
+              style={i === 0 ? undefined : { borderColor: "var(--stone-dark)" }}
+            >
+              <div className="mb-3 flex items-center gap-4">
+                <span
+                  className="text-[11px] font-medium uppercase tracking-[0.26em]"
+                  style={{ color: "var(--gold-dark)" }}
+                >
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <span className="block h-px w-10" style={{ background: "var(--gold)" }} aria-hidden />
+              </div>
               <h2
                 className="font-heading mb-8 text-[2rem] font-medium leading-[1.1] tracking-[-0.015em] sm:text-[2.25rem]"
                 style={{ color: "var(--navy-dark)" }}
@@ -270,20 +321,52 @@ export default async function GuidePage({ params }: PageProps) {
                 {section.heading}
               </h2>
               <div
-                className="guide-content space-y-5 text-[17px] leading-[1.7] [&_a]:font-medium [&_a]:text-[color:var(--navy-dark)] [&_a]:underline [&_a]:decoration-[color:var(--gold)]/40 [&_a]:underline-offset-2 hover:[&_a]:decoration-[color:var(--gold)] [&_strong]:font-semibold [&_strong]:text-[color:var(--navy-dark)]"
+                className={[
+                  "guide-content space-y-5 text-[17px] leading-[1.7]",
+                  // links + emphasis
+                  "[&_a]:font-medium [&_a]:text-[color:var(--navy-dark)] [&_a]:underline [&_a]:decoration-[color:var(--gold)]/40 [&_a]:underline-offset-2 hover:[&_a]:decoration-[color:var(--gold)]",
+                  "[&_strong]:font-semibold [&_strong]:text-[color:var(--navy-dark)]",
+                  // lists: gold markers, comfortable rhythm
+                  "[&_ul]:my-6 [&_ul]:space-y-2.5 [&_ul]:pl-5 [&_ul>li]:list-disc [&_ul>li]:pl-1 [&_ul>li]:marker:text-[color:var(--gold-dark)]",
+                  "[&_ol]:my-6 [&_ol]:space-y-2.5 [&_ol]:pl-5 [&_ol>li]:list-decimal [&_ol>li]:pl-1 [&_ol>li]:marker:font-semibold [&_ol>li]:marker:text-[color:var(--gold-dark)]",
+                  // tables: editorial treatment
+                  "[&_table]:w-full [&_table]:border-collapse [&_table]:text-[15px]",
+                  "[&_thead_th]:bg-[color:var(--navy-dark)] [&_thead_th]:px-4 [&_thead_th]:py-3 [&_thead_th]:text-left [&_thead_th]:text-[12px] [&_thead_th]:font-semibold [&_thead_th]:uppercase [&_thead_th]:tracking-[0.12em] [&_thead_th]:text-white",
+                  "[&_tbody_td]:border-b [&_tbody_td]:border-[color:var(--stone-dark)] [&_tbody_td]:px-4 [&_tbody_td]:py-3 [&_tbody_td]:align-top",
+                  "[&_tbody_tr:nth-child(even)]:bg-[oklch(0.97_0.005_250)]",
+                  // pull-quotes
+                  "[&_blockquote]:my-8 [&_blockquote]:border-l-2 [&_blockquote]:border-[color:var(--gold)] [&_blockquote]:pl-6 [&_blockquote]:font-heading [&_blockquote]:text-[1.35rem] [&_blockquote]:italic [&_blockquote]:leading-[1.45] [&_blockquote]:text-[color:var(--navy-dark)]",
+                ].join(" ")}
                 style={{ color: "oklch(0.32 0.04 255)" }}
               >
                 {section.content.map((paragraph, j) => {
-                  const isBlock = paragraph.trimStart().startsWith("<table") || paragraph.trimStart().startsWith("<div");
-                  return isBlock ? (
-                    <div key={j} className="my-8 overflow-x-auto" dangerouslySetInnerHTML={{ __html: paragraph }} />
-                  ) : (
-                    <p key={j} dangerouslySetInnerHTML={{ __html: paragraph }} />
+                  const lead = paragraph.trimStart().toLowerCase();
+                  const isBlock = ["<table", "<div", "<ul", "<ol", "<blockquote", "<figure"].some(
+                    (t) => lead.startsWith(t)
                   );
+                  // Standfirst: the guide's opening paragraph gets lede type
+                  const isStandfirst = i === 0 && j === 0;
+                  if (isBlock) {
+                    return (
+                      <div key={j} className="my-8 overflow-x-auto" dangerouslySetInnerHTML={{ __html: paragraph }} />
+                    );
+                  }
+                  if (isStandfirst) {
+                    return (
+                      <p
+                        key={j}
+                        className="font-heading !text-[1.4rem] font-medium !leading-[1.5] tracking-[-0.01em]"
+                        style={{ color: "var(--navy-dark)" }}
+                        dangerouslySetInnerHTML={{ __html: paragraph }}
+                      />
+                    );
+                  }
+                  return <p key={j} dangerouslySetInnerHTML={{ __html: paragraph }} />;
                 })}
               </div>
             </div>
           ))}
+          </div>
         </div>
       </EditorialSection>
 
@@ -423,7 +506,7 @@ export default async function GuidePage({ params }: PageProps) {
 
       {/* FAQs */}
       {guide.faqs && guide.faqs.length > 0 && (
-        <EditorialSection tone="stone">
+        <EditorialSection tone="stone" id="guide-faqs">
           <SectionHeader
             tone="stone"
             eyebrow="Common questions"
