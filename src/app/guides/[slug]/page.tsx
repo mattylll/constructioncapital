@@ -361,7 +361,8 @@ export default async function GuidePage({ params }: PageProps) {
                       />
                     );
                   }
-                  return <p key={j} dangerouslySetInnerHTML={{ __html: paragraph }} />;
+                  
+return <p key={j} dangerouslySetInnerHTML={{ __html: paragraph }} />;
                 })}
               </div>
             </div>
