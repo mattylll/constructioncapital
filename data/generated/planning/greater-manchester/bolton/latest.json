@@ -1,29 +1,49 @@
 {
-  "updatedAt": "2026-07-12T03:09:48.318Z",
+  "updatedAt": "2026-07-26T04:00:09.826Z",
   "townSlug": "bolton",
   "countySlug": "greater-manchester",
   "localAuthority": "Bolton Metropolitan Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-12",
-    "to": "2026-07-12",
-    "retrievedAt": "2026-07-12T03:09:48.318Z"
+    "from": "2026-04-26",
+    "to": "2026-07-26",
+    "retrievedAt": "2026-07-26T04:00:09.826Z"
   },
   "summary": {
     "total": 454,
-    "relevant": 0,
+    "relevant": 1,
     "approved": 0,
-    "pending": 0,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 0,
-    "totalUnits": 0,
+    "pendingUnits": 310,
+    "totalUnits": 310,
     "approvedGdv": 0,
-    "pendingGdv": 0,
-    "totalEstimatedGDV": 0,
+    "pendingGdv": 58900000,
+    "totalEstimatedGDV": 58900000,
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "01245/26",
+      "address": "Land South Of Wigan Road Wigan Road Bolton BL5 2QZ",
+      "postcode": "BL5 2QZ",
+      "ward": "",
+      "proposal": "OUTLINE PLANNING APPLICATION FOR THE ERECTION OF UP TO 310 DWELLINGS TOGETHER WITH THE PROVISION OF PUBLIC OPEN SPACE, LANDSCAPING AND OTHER ASSOCIATED WORKS, FOLLOWING THE DEMOLITION OF EXISTING BUILDINGS (ACCESS DETAILS ONLY)",
+      "category": "other_residential",
+      "units": 310,
+      "estimatedGdv": 58900000,
+      "status": "Deposited",
+      "decision": "Deposited",
+      "receivedDate": "03/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://paplanning.bolton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THLRT0DEJ2800"
+    }
+  ]
 }

@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-12T03:14:22.735Z",
+  "updatedAt": "2026-07-26T03:58:18.404Z",
   "townSlug": "driffield",
   "countySlug": "east-riding-of-yorkshire",
   "localAuthority": "East Riding of Yorkshire Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-12",
-    "to": "2026-07-12",
-    "retrievedAt": "2026-07-12T03:14:22.735Z"
+    "from": "2026-04-26",
+    "to": "2026-07-26",
+    "retrievedAt": "2026-07-26T03:58:18.404Z"
   },
   "summary": {
-    "total": 35,
-    "relevant": 1,
-    "approved": 0,
-    "pending": 1,
+    "total": 47,
+    "relevant": 2,
+    "approved": 2,
+    "pending": 0,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
@@ -22,28 +22,47 @@
     "approvedGdv": 0,
     "pendingGdv": 0,
     "totalEstimatedGDV": 0,
-    "approvalRate": 0
+    "approvalRate": 100
   },
-  "approvedApplications": [],
-  "pendingApplications": [
+  "approvedApplications": [
     {
-      "reference": "26/01713/VAR",
-      "address": "Westwood Manor 4 Langholm Close Beverley East Riding Of Yorkshire",
+      "reference": "26/01095/PAD",
+      "address": "Boothferry Road Goole East Riding Of Yorkshire",
       "postcode": "",
       "ward": "",
-      "proposal": "Variation of Condition 4 (age restriction) of planning permission 20/04045/PLF (Erection of a building consisting of 51 retirement living plus (extra care) apartments and 1 guest suite (Use Class C2), including erection of substation, car ports to southern boundary and associated access, car parking, amenity space and landscaping following demolition of existing buildings) to allow for the minimum age restriction to be from 70 to 60 years of age New Condition should read: 4. At least one occupier of each individual unit of residential accommodation within the development hereby permitted shall be a minimum age of 60 years.",
-      "category": "demolition_rebuild",
+      "proposal": "Display of 23 non-illuminated pictorial banners attached to existing lamp posts",
+      "category": "prior_approval",
       "units": null,
       "estimatedGdv": null,
-      "status": "Pending Consideration",
-      "decision": "Pending Consideration",
-      "receivedDate": "03/07/2026",
+      "status": "Application Approved",
+      "decision": "Application Approved",
+      "receivedDate": "30/04/2026",
       "decisionDate": "",
       "applicantName": "",
       "applicantCompany": "",
       "agentName": "",
       "agentCompany": "",
-      "sourceUrl": "https://newplanningaccess.eastriding.gov.uk/newplanningaccess/applicationDetails.do?activeTab=summary&keyVal=THLWGWBJJEG00"
+      "sourceUrl": "https://newplanningaccess.eastriding.gov.uk/newplanningaccess/applicationDetails.do?activeTab=summary&keyVal=TEAT4ABJH3F00"
+    },
+    {
+      "reference": "26/01082/PAD",
+      "address": "Trent Galleries 9 Butcher Row Beverley East Riding Of Yorkshire HU17 0AA",
+      "postcode": "HU17 0AA",
+      "ward": "",
+      "proposal": "Display of 3 non-illuminated fascia signs and 1 non-illuminated hanging sign (Retrospective)",
+      "category": "prior_approval",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Application Approved",
+      "decision": "Application Approved",
+      "receivedDate": "29/04/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://newplanningaccess.eastriding.gov.uk/newplanningaccess/applicationDetails.do?activeTab=summary&keyVal=TE8YFWBJH1V00"
     }
-  ]
+  ],
+  "pendingApplications": []
 }

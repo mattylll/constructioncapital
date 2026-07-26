@@ -1,31 +1,50 @@
 {
-  "updatedAt": "2026-07-12T08:45:56.291Z",
+  "updatedAt": "2026-07-26T01:51:05.450Z",
   "townSlug": "haywards-heath",
   "countySlug": "sussex",
   "localAuthority": "Mid Sussex District Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-12",
-    "to": "2026-07-12",
-    "retrievedAt": "2026-07-12T08:45:56.290Z"
+    "from": "2026-04-26",
+    "to": "2026-07-26",
+    "retrievedAt": "2026-07-26T01:51:05.450Z"
   },
   "summary": {
-    "total": 461,
+    "total": 481,
     "relevant": 6,
     "approved": 0,
     "pending": 6,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 399,
-    "totalUnits": 399,
+    "pendingUnits": 372,
+    "totalUnits": 372,
     "approvedGdv": 0,
-    "pendingGdv": 165795000,
-    "totalEstimatedGDV": 165795000,
+    "pendingGdv": 159960000,
+    "totalEstimatedGDV": 159960000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "DM/26/1678",
+      "address": "Land At And To Rear Of 3 Heathview Cottages Copthorne Common Copthorne Crawley West Sussex RH10 3LF",
+      "postcode": "RH10 3LF",
+      "ward": "",
+      "proposal": "Residential development of minimum 3 dwellings and maximum 5 dwellings",
+      "category": "other_residential",
+      "units": 3,
+      "estimatedGdv": 1290000,
+      "status": "Pending Consideration",
+      "decision": "Pending Consideration",
+      "receivedDate": "09/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://pa.midsussex.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THWWJ1KT04L00"
+    },
     {
       "reference": "DM/26/1228",
       "address": "Land West Of London Road Handcross West Sussex",
@@ -120,25 +139,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.midsussex.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEPUN9KT08C00"
-    },
-    {
-      "reference": "DM/26/0946",
-      "address": "Land To The R/o Central House 25 Perrymount Road Haywards Heath West Sussex RH16 3XL",
-      "postcode": "RH16 3XL",
-      "ward": "",
-      "proposal": "Erection of a 7- storey building comprising 30 flats (18 x 1 bed and 12 x 2 bed) with associated landscaping, parking and refuse stores. UPDATED ecology report received 26/05/2026 and FRA and drainage strategy received 15/06/2026.",
-      "category": "other_residential",
-      "units": 30,
-      "estimatedGdv": 7125000,
-      "status": "Pending Consideration",
-      "decision": "Pending Consideration",
-      "receivedDate": "14/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.midsussex.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDHPROKT04L00"
     }
   ]
 }

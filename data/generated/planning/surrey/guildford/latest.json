@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-12T11:12:28.941Z",
+  "updatedAt": "2026-07-26T01:05:03.389Z",
   "townSlug": "guildford",
   "countySlug": "surrey",
   "localAuthority": "Guildford Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-12",
-    "to": "2026-07-12",
-    "retrievedAt": "2026-07-12T11:12:28.941Z"
+    "from": "2026-04-26",
+    "to": "2026-07-26",
+    "retrievedAt": "2026-07-26T01:05:03.388Z"
   },
   "summary": {
-    "total": 656,
-    "relevant": 1,
+    "total": 646,
+    "relevant": 2,
     "approved": 0,
-    "pending": 1,
+    "pending": 2,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 1,
@@ -26,6 +26,25 @@
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/P/00959",
+      "address": "Land at Brick Kiln Farm, Old Lane, Ockham, Guildford, Cobham, KT11 1NL",
+      "postcode": "KT11 1NL",
+      "ward": "",
+      "proposal": "Application for permission in principle for the erection of 3-4 dwellinghouses",
+      "category": "other_residential",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "14/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.guildford.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_GUILD_DCAPR_214438"
+    },
     {
       "reference": "26/P/00762",
       "address": "31 Woodbridge Hill, Guildford, GU2 9AA",

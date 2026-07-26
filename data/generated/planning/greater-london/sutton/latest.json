@@ -1,0 +1,49 @@
+{
+  "updatedAt": "2026-07-26T01:34:19.230Z",
+  "townSlug": "sutton",
+  "countySlug": "greater-london",
+  "localAuthority": "London Borough of Sutton",
+  "source": "idox",
+  "dataset": {
+    "windowMonths": 3,
+    "from": "2026-04-26",
+    "to": "2026-07-26",
+    "retrievedAt": "2026-07-26T01:34:19.229Z"
+  },
+  "summary": {
+    "total": 359,
+    "relevant": 1,
+    "approved": 0,
+    "pending": 1,
+    "refused": 0,
+    "approvedUnits": 0,
+    "pendingUnits": 1,
+    "totalUnits": 1,
+    "approvedGdv": 0,
+    "pendingGdv": 285000,
+    "totalEstimatedGDV": 285000,
+    "approvalRate": 0
+  },
+  "approvedApplications": [],
+  "pendingApplications": [
+    {
+      "reference": "DM2026/00711",
+      "address": "105 Longfellow Road Worcester Park KT4 8BD",
+      "postcode": "KT4 8BD",
+      "ward": "",
+      "proposal": "Demolition of single storey rear extension, erection of two bay windows to front elevation, conversion of garage into habitable room, erection of front boundary wall, alterations to existing render, raised patio to rear and boundary treatment in connection with conversion of property from 2 self contained flats into 2 dwellinghouses.",
+      "category": "other_residential",
+      "units": 1,
+      "estimatedGdv": 285000,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningregister.sutton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGGNZKKCHRD00"
+    }
+  ]
+}

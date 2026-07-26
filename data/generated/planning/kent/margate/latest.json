@@ -1,31 +1,50 @@
 {
-  "updatedAt": "2026-07-12T09:08:35.673Z",
+  "updatedAt": "2026-07-26T03:06:39.029Z",
   "townSlug": "margate",
   "countySlug": "kent",
   "localAuthority": "Thanet District Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-12",
-    "to": "2026-07-12",
-    "retrievedAt": "2026-07-12T09:08:35.672Z"
+    "from": "2026-04-26",
+    "to": "2026-07-26",
+    "retrievedAt": "2026-07-26T03:06:39.027Z"
   },
   "summary": {
-    "total": 247,
+    "total": 250,
     "relevant": 4,
     "approved": 0,
     "pending": 4,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 0,
-    "totalUnits": 0,
+    "pendingUnits": 250,
+    "totalUnits": 250,
     "approvedGdv": 0,
-    "pendingGdv": 0,
-    "totalEstimatedGDV": 0,
+    "pendingGdv": 70000000,
+    "totalEstimatedGDV": 70000000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "CON/TH/26/0743",
+      "address": "Land Adjacent To Salmestone Grange Nash Road Margate Kent",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Application for approval of Condition 22 (Highway Works) attached to Planning Permission OL/TH/16/1765 for the outline application for residential development of up to 250 dwellings and alterations to the surrounding highway network, including details of Access with all other matters reserved (Appearance, Landscaping, Layout, Scale)",
+      "category": "other_residential",
+      "units": 250,
+      "estimatedGdv": 70000000,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "16/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.thanet.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TI9FM2QEMQT00"
+    },
     {
       "reference": "CON/TH/26/0632",
       "address": "Land On South Side Of Manston Court Road And West Side Of Haine Road Ramsgate Kent",
@@ -82,25 +101,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.thanet.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEX26MQELWK00"
-    },
-    {
-      "reference": "CON/TH/26/0435",
-      "address": "Land East And West Of Haine Road Ramsgate Kent",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Application for approval of Conditions 34 (Materials) attached to Planning Permission OL/TH/14/0050 and as amended by the non-material amendment application reference NM/TH/25/0598 (Phase 2) for an application for outline planning permission including access for the erection of 785 dwellings, highways infrastructure works (including single carriageway link road), primary school, small scale retail unit, community hall, public openspace",
-      "category": "other_residential",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided",
-      "decision": "Decided",
-      "receivedDate": "24/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.thanet.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDZQTWQELOZ00"
     }
   ]
 }

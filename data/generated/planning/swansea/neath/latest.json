@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T03:30:10.441Z",
+  "updatedAt": "2026-07-26T04:22:35.506Z",
   "townSlug": "neath",
   "countySlug": "swansea",
   "localAuthority": "Neath Port Talbot Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-12",
-    "to": "2026-07-12",
-    "retrievedAt": "2026-07-12T03:30:10.440Z"
+    "from": "2026-04-26",
+    "to": "2026-07-26",
+    "retrievedAt": "2026-07-26T04:22:35.506Z"
   },
   "summary": {
-    "total": 145,
-    "relevant": 3,
+    "total": 147,
+    "relevant": 2,
     "approved": 0,
-    "pending": 3,
+    "pending": 2,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 6,
-    "totalUnits": 6,
+    "pendingUnits": 5,
+    "totalUnits": 5,
     "approvedGdv": 0,
-    "pendingGdv": 995225,
-    "totalEstimatedGDV": 995225,
+    "pendingGdv": 836250,
+    "totalEstimatedGDV": 836250,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -63,25 +63,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEAOSLKZHQA00"
-    },
-    {
-      "reference": "P2026/0241",
-      "address": "32 Station Road Port Talbot Neath Port Talbot SA13 1JS",
-      "postcode": "SA13 1JS",
-      "ward": "",
-      "proposal": "Change of Use of first floor B8 Storage to C5 Dwellinghouse to be used otherwise than a sole or main residence and occupied for 183 days or fewer and bike/bin store.",
-      "category": "other_residential",
-      "units": 1,
-      "estimatedGdv": 158975,
-      "status": "Decided",
-      "decision": "Decided",
-      "receivedDate": "15/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TDJGA6KZHL800"
     }
   ]
 }

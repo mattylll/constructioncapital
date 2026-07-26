@@ -1,50 +1,30 @@
 {
-  "updatedAt": "2026-07-12T03:49:25.211Z",
+  "updatedAt": "2026-07-26T04:43:15.167Z",
   "townSlug": "redbridge",
   "countySlug": "greater-london",
   "localAuthority": "London Borough of Redbridge",
   "source": "agile",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-12",
-    "to": "2026-07-12",
-    "retrievedAt": "2026-07-12T03:49:25.211Z"
+    "from": "2026-04-26",
+    "to": "2026-07-26",
+    "retrievedAt": "2026-07-26T04:43:15.166Z"
   },
   "summary": {
-    "total": 11,
-    "relevant": 4,
-    "approved": 1,
+    "total": 7,
+    "relevant": 1,
+    "approved": 0,
     "pending": 1,
-    "refused": 2,
+    "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
     "totalUnits": 0,
     "approvedGdv": 0,
     "pendingGdv": 0,
     "totalEstimatedGDV": 0,
-    "approvalRate": 33
+    "approvalRate": 0
   },
-  "approvedApplications": [
-    {
-      "reference": "1011/26",
-      "address": "49, High Street, Barkingside, Ilford, IG6 2AD",
-      "postcode": "IG6 2AD",
-      "ward": "Fullwell",
-      "proposal": "Installation of 10x condenser units to rear and side elevations.  (summary)\r\n\r\nA",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided",
-      "decision": "Granted/Approved - with conditions",
-      "receivedDate": "25/04/2026",
-      "decisionDate": "26/06/2026",
-      "applicantName": "Specsavers Optical Stores",
-      "applicantCompany": "",
-      "agentName": "Fisch Design",
-      "agentCompany": "",
-      "sourceUrl": ""
-    }
-  ],
+  "approvedApplications": [],
   "pendingApplications": [
     {
       "reference": "1205/26",

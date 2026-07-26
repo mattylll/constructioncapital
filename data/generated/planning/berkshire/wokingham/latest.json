@@ -1,30 +1,49 @@
 {
-  "updatedAt": "2026-07-12T03:49:16.511Z",
+  "updatedAt": "2026-07-26T04:42:26.202Z",
   "townSlug": "wokingham",
   "countySlug": "berkshire",
   "localAuthority": "Wokingham Borough Council",
   "source": "fastweb",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-12",
-    "to": "2026-07-12",
-    "retrievedAt": "2026-07-12T03:49:16.509Z"
+    "from": "2026-04-26",
+    "to": "2026-07-26",
+    "retrievedAt": "2026-07-26T04:42:26.200Z"
   },
   "summary": {
-    "total": 555,
+    "total": 548,
     "relevant": 6,
-    "approved": 1,
-    "pending": 5,
+    "approved": 2,
+    "pending": 4,
     "refused": 0,
-    "approvedUnits": 3,
-    "pendingUnits": 620,
-    "totalUnits": 623,
-    "approvedGdv": 1425000,
-    "pendingGdv": 294500000,
-    "totalEstimatedGDV": 295925000,
+    "approvedUnits": 5,
+    "pendingUnits": 575,
+    "totalUnits": 580,
+    "approvedGdv": 2375000,
+    "pendingGdv": 273125000,
+    "totalEstimatedGDV": 275500000,
     "approvalRate": 100
   },
   "approvedApplications": [
+    {
+      "reference": "261486",
+      "address": "1 Ilbury Close Shinfield Wokingham RG2 9DE",
+      "postcode": "RG2 9DE",
+      "ward": "",
+      "proposal": "Permission in principle application for the proposed construction of 2 dwellings on land adjacent to 1 Ilbury Close.",
+      "category": "other_residential",
+      "units": 2,
+      "estimatedGdv": 950000,
+      "status": "Decided",
+      "decision": "Approve",
+      "receivedDate": "23/06/2026",
+      "decisionDate": "22/07/2026",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.wokingham.gov.uk/FastWebPL/detail.asp?AltRef=261486"
+    },
     {
       "reference": "261108",
       "address": "Land to the South of 6 Harvest Place Wargrave Reading RG10 8AG",
@@ -47,23 +66,23 @@
   ],
   "pendingApplications": [
     {
-      "reference": "261486",
-      "address": "1 Ilbury Close Shinfield Wokingham RG2 9DE",
-      "postcode": "RG2 9DE",
+      "reference": "261625",
+      "address": "41 Harcourt Drive Earley Wokingham RG6 5TL",
+      "postcode": "RG6 5TL",
       "ward": "",
-      "proposal": "Permission in principle application for the proposed construction of 2 dwellings on land adjacent to 1 Ilbury Close.",
+      "proposal": "Full application for the proposed change of use from C3 dwellinghouse to a sui generis large House in Multiple Occupation (HMO), infilling of the undercroft, erection of part single and part two storey rear extensions, alterations to the front driveway, and associated internal alterations to create an 8-bedroom HMO.",
       "category": "other_residential",
-      "units": 2,
-      "estimatedGdv": 950000,
+      "units": 1,
+      "estimatedGdv": 475000,
       "status": "Registered",
       "decision": "",
-      "receivedDate": "23/06/2026",
+      "receivedDate": "10/07/2026",
       "decisionDate": "",
       "applicantName": "",
       "applicantCompany": "",
       "agentName": "",
       "agentCompany": "",
-      "sourceUrl": "https://planning.wokingham.gov.uk/FastWebPL/detail.asp?AltRef=261486"
+      "sourceUrl": "https://planning.wokingham.gov.uk/FastWebPL/detail.asp?AltRef=261625"
     },
     {
       "reference": "261418",
@@ -121,25 +140,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.wokingham.gov.uk/FastWebPL/detail.asp?AltRef=261194"
-    },
-    {
-      "reference": "260917",
-      "address": "Land at Sun Lane Basingstoke Road Heckfield",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Consultation from Hart District Council for the following proposal: Outline application with all matters reserved except for access for the construction of up to 44 dwellings including affordable housing together with access, landscaping and associated infrastructure (cross boundary application).",
-      "category": "other_residential",
-      "units": 44,
-      "estimatedGdv": 20900000,
-      "status": "Decided",
-      "decision": "Replied",
-      "receivedDate": "15/04/2026",
-      "decisionDate": "18/05/2026",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.wokingham.gov.uk/FastWebPL/detail.asp?AltRef=260917"
     }
   ]
 }
