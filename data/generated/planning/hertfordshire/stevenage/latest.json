@@ -1,49 +1,29 @@
 {
-  "updatedAt": "2026-07-26T01:48:03.041Z",
+  "updatedAt": "2026-08-02T01:45:12.105Z",
   "townSlug": "stevenage",
   "countySlug": "hertfordshire",
   "localAuthority": "Stevenage Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-26",
-    "to": "2026-07-26",
-    "retrievedAt": "2026-07-26T01:48:03.040Z"
+    "from": "2026-05-02",
+    "to": "2026-08-02",
+    "retrievedAt": "2026-08-02T01:45:12.105Z"
   },
   "summary": {
-    "total": 111,
-    "relevant": 1,
+    "total": 32,
+    "relevant": 0,
     "approved": 0,
-    "pending": 1,
+    "pending": 0,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 9,
-    "totalUnits": 9,
+    "pendingUnits": 0,
+    "totalUnits": 0,
     "approvedGdv": 0,
-    "pendingGdv": 3105000,
-    "totalEstimatedGDV": 3105000,
+    "pendingGdv": 0,
+    "totalEstimatedGDV": 0,
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": [
-    {
-      "reference": "26/00491/PIP",
-      "address": "Land Adjacent To Lanes End Todds Green Stevenage Herts SG1 2JE",
-      "postcode": "SG1 2JE",
-      "ward": "",
-      "proposal": "Residential development of between 7 and 9 dwellings",
-      "category": "other_relevant",
-      "units": 9,
-      "estimatedGdv": 3105000,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "29/06/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.stevenage.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THFUNCPH0C600"
-    }
-  ]
+  "pendingApplications": []
 }

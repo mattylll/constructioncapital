@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-07-26T03:43:28.085Z",
+  "updatedAt": "2026-08-02T03:44:02.232Z",
   "townSlug": "west-bromwich",
   "countySlug": "west-midlands",
   "localAuthority": "Sandwell Metropolitan Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-26",
-    "to": "2026-07-26",
-    "retrievedAt": "2026-07-26T03:43:28.085Z"
+    "from": "2026-05-02",
+    "to": "2026-08-02",
+    "retrievedAt": "2026-08-02T03:44:02.232Z"
   },
   "summary": {
-    "total": 240,
-    "relevant": 0,
+    "total": 242,
+    "relevant": 1,
     "approved": 0,
-    "pending": 0,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
@@ -25,5 +25,25 @@
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "DC/26/71848",
+      "address": "169 Rolfe Street Smethwick B66 2AU",
+      "postcode": "B66 2AU",
+      "ward": "",
+      "proposal": "Retention of use of existing Class B2 Unit as MOT testing Centre (Lawful Development Certificate).",
+      "category": "other_residential",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://webcaps.sandwell.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TGPVPUNRM5A00"
+    }
+  ]
 }

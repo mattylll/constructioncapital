@@ -1,31 +1,50 @@
 {
-  "updatedAt": "2026-07-26T01:40:15.564Z",
+  "updatedAt": "2026-08-02T01:39:16.704Z",
   "townSlug": "farnborough",
   "countySlug": "hampshire",
   "localAuthority": "Rushmoor Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-26",
-    "to": "2026-07-26",
-    "retrievedAt": "2026-07-26T01:40:15.563Z"
+    "from": "2026-05-02",
+    "to": "2026-08-02",
+    "retrievedAt": "2026-08-02T01:39:16.702Z"
   },
   "summary": {
-    "total": 153,
+    "total": 166,
     "relevant": 4,
     "approved": 0,
     "pending": 4,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 21,
-    "totalUnits": 21,
+    "pendingUnits": 14,
+    "totalUnits": 14,
     "approvedGdv": 0,
-    "pendingGdv": 8110000,
-    "totalEstimatedGDV": 8110000,
+    "pendingGdv": 4190000,
+    "totalEstimatedGDV": 4190000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/00425/FUL",
+      "address": "Ayling House 16 Ayling Lane Aldershot Hampshire GU11 3LZ",
+      "postcode": "GU11 3LZ",
+      "ward": "",
+      "proposal": "Erection of a detached outbuilding",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "28/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.rushmoor.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIVXB5NM0HX00"
+    },
     {
       "reference": "26/00359/CONDPP",
       "address": "Wesley Hall Barrack Road Aldershot Hampshire GU11 3NP",
@@ -82,25 +101,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.rushmoor.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THDVMDNMKHZ00"
-    },
-    {
-      "reference": "26/00219/REVPP",
-      "address": "Land At And Adjoining Orchard Rise 127 And La Fosse House 129 Ship Lane Farnborough Hampshire",
-      "postcode": "",
-      "ward": "",
-      "proposal": "MINOR MATERIAL AMENDMENTS to development approved with planning permission 24/00748/FULdated 6 February 2026 comprising (a) relocation of Plot 6 & 7 houses; (b) separation of Plot 8, 9, 10 & 11 houses to become detached houses, with the Plot 8, 9 & 11 houses increased from 3 to 4-bedroom size; (c) the Plot 12-14 houses to remain as a terrace, but with the Plot 12 house decreased to 2-bedroom size over two floors; and (d) corresponding adjustments to site layout and parking",
-      "category": "other_residential",
-      "units": 7,
-      "estimatedGdv": 3920000,
-      "status": "Registered",
-      "decision": "Registered",
-      "receivedDate": "27/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.rushmoor.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TE5LLUNMJQD00"
     }
   ]
 }

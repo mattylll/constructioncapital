@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-26T04:22:35.506Z",
+  "updatedAt": "2026-08-02T04:20:43.550Z",
   "townSlug": "neath",
   "countySlug": "swansea",
   "localAuthority": "Neath Port Talbot Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-26",
-    "to": "2026-07-26",
-    "retrievedAt": "2026-07-26T04:22:35.506Z"
+    "from": "2026-05-02",
+    "to": "2026-08-02",
+    "retrievedAt": "2026-08-02T04:20:43.550Z"
   },
   "summary": {
     "total": 147,
-    "relevant": 2,
+    "relevant": 1,
     "approved": 0,
-    "pending": 2,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 5,
-    "totalUnits": 5,
+    "pendingUnits": 0,
+    "totalUnits": 0,
     "approvedGdv": 0,
-    "pendingGdv": 836250,
-    "totalEstimatedGDV": 836250,
+    "pendingGdv": 0,
+    "totalEstimatedGDV": 0,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -44,25 +44,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFQRT7KZI0I00"
-    },
-    {
-      "reference": "P2026/0275",
-      "address": "24 Bryn Road Cwmllynfell Neath Port Talbot SA9 2FJ",
-      "postcode": "SA9 2FJ",
-      "ward": "",
-      "proposal": "Section 73 application to vary condition 2 (approved plans) of planning permission P2022/1043 (Demolition of fire damaged former public house building and construction of 4 no. semi-detached dwelling houses, 1 no. detached dwelling house (5 houses in total) and associated development) approved 20/10/23",
-      "category": "other_residential",
-      "units": 5,
-      "estimatedGdv": 836250,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "30/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEAOSLKZHQA00"
     }
   ]
 }

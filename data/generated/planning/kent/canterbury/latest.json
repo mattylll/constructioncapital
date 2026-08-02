@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-26T01:41:16.573Z",
+  "updatedAt": "2026-08-02T01:39:56.356Z",
   "townSlug": "canterbury",
   "countySlug": "kent",
   "localAuthority": "Canterbury City Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-26",
-    "to": "2026-07-26",
-    "retrievedAt": "2026-07-26T01:41:16.572Z"
+    "from": "2026-05-02",
+    "to": "2026-08-02",
+    "retrievedAt": "2026-08-02T01:39:56.355Z"
   },
   "summary": {
-    "total": 494,
+    "total": 496,
     "relevant": 7,
     "approved": 0,
     "pending": 7,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 110,
-    "totalUnits": 110,
+    "pendingUnits": 52,
+    "totalUnits": 52,
     "approvedGdv": 0,
-    "pendingGdv": 35742000,
-    "totalEstimatedGDV": 35742000,
+    "pendingGdv": 16632500,
+    "totalEstimatedGDV": 16632500,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -44,6 +44,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.canterbury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIHB3IEAN5500"
+    },
+    {
+      "reference": "CA/26/01187",
+      "address": "Barham House The Street Barham Kent CT4 6PA",
+      "postcode": "CT4 6PA",
+      "ward": "",
+      "proposal": "Non-material amendment to planning permission CA/24/00817 (as amended by CA/25/02316 and CA/25/02198) for Phased development consisting of change of use from Nursing Home to 1 dwelling together with 2 two-storey detached dwellings following demolition of existing extension; to amend description to allow for possibility for the erection of a single dwelling in place of two dwellings.",
+      "category": "other_residential",
+      "units": 1,
+      "estimatedGdv": 478500,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "20/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://pa.canterbury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TI5VZ5EAN2300"
     },
     {
       "reference": "CA/26/01110",
@@ -139,25 +158,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.canterbury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEYRUTEAM6Z00"
-    },
-    {
-      "reference": "CA/26/00714",
-      "address": "Hoplands Farm Island Road Hersden Kent CT3 4HQ",
-      "postcode": "CT3 4HQ",
-      "ward": "",
-      "proposal": "Non-material amendment to planning permission CA/22/01584/FUL for the erection of 59 dwellings with associated access, parking, amenity space and landscaping; to allow amendment to layout, addition of substation to North-East of site, amendment to condition wording 19 and 20.",
-      "category": "other_residential",
-      "units": 59,
-      "estimatedGdv": 19588000,
-      "status": "Decided",
-      "decision": "Decided",
-      "receivedDate": "28/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.canterbury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TE7LXLEALZY00"
     }
   ]
 }

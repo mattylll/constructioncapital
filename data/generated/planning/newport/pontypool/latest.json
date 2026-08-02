@@ -1,29 +1,49 @@
 {
-  "updatedAt": "2026-07-26T04:22:29.637Z",
+  "updatedAt": "2026-08-02T04:20:37.873Z",
   "townSlug": "pontypool",
   "countySlug": "newport",
   "localAuthority": "Torfaen County Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-26",
-    "to": "2026-07-26",
-    "retrievedAt": "2026-07-26T04:22:29.637Z"
+    "from": "2026-05-02",
+    "to": "2026-08-02",
+    "retrievedAt": "2026-08-02T04:20:37.872Z"
   },
   "summary": {
-    "total": 82,
-    "relevant": 0,
+    "total": 89,
+    "relevant": 1,
     "approved": 0,
-    "pending": 0,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 0,
-    "totalUnits": 0,
+    "pendingUnits": 44,
+    "totalUnits": 44,
     "approvedGdv": 0,
-    "pendingGdv": 0,
-    "totalEstimatedGDV": 0,
+    "pendingGdv": 5412000,
+    "totalEstimatedGDV": 5412000,
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "26/P/0333/STAT",
+      "address": "University Of Wales College Newport College Crescent Caerleon Newport South Wales",
+      "postcode": "",
+      "ward": "",
+      "proposal": "S73 application to vary condition 1 (approved plans) of 23/0682 S73 application to vary condition 1 (approved plans)of 19/1212 partial demolition, refurbishment and conversion of main building to 44 flats, conversion of TJ Webly building to 2 no. dwellings, conversion of Ty Hywel building to 2 no. residential units (1 flat and 1 house), conversion of Felthorpe to 1 no dwelling, demolition of other existing buildings and construction of 170 no. dwellings, open space, landscaping, engineering and infrastructure works to include retention of listed gates piers, amendments's including changes to internal layout",
+      "category": "other_residential",
+      "units": 44,
+      "estimatedGdv": 5412000,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningonline.torfaen.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIOM54QJ00900"
+    }
+  ]
 }

@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-26T02:24:04.996Z",
+  "updatedAt": "2026-08-02T02:10:50.153Z",
   "townSlug": "wigan",
   "countySlug": "greater-manchester",
   "localAuthority": "Wigan Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-26",
-    "to": "2026-07-26",
-    "retrievedAt": "2026-07-26T02:24:04.995Z"
+    "from": "2026-05-02",
+    "to": "2026-08-02",
+    "retrievedAt": "2026-08-02T02:10:50.153Z"
   },
   "summary": {
-    "total": 283,
+    "total": 287,
     "relevant": 16,
     "approved": 0,
     "pending": 16,
@@ -26,25 +26,6 @@
   },
   "approvedApplications": [],
   "pendingApplications": [
-    {
-      "reference": "A/26/100832/VAR",
-      "address": "ALDI Scot Lane Wigan WN5 0TQ",
-      "postcode": "WN5 0TQ",
-      "ward": "",
-      "proposal": "Section 73 application to vary condition 2 of planning permission A/19/86511/VAR - to allow the premises to be operated on a 24-hour basis",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TE7JX6RRH5700"
-    },
     {
       "reference": "A/26/100959/PIP",
       "address": "Land South Of Higher Lane Aspull",
@@ -310,6 +291,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TG002FRR0DF00"
+    },
+    {
+      "reference": "A/26/101279/PDE",
+      "address": "10 Locks View Ince Wigan WN1 3HL",
+      "postcode": "WN1 3HL",
+      "ward": "",
+      "proposal": "Single storey rear extension projecting 4 metres, and height to top of roof 2.85 metres following demolition of conservatory",
+      "category": "prior_approval",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIO9IMRR0DH00"
     },
     {
       "reference": "A/26/101226/NLA",

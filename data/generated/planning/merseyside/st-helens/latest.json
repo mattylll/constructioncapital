@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-26T02:44:34.623Z",
+  "updatedAt": "2026-08-02T02:39:33.886Z",
   "townSlug": "st-helens",
   "countySlug": "merseyside",
   "localAuthority": "St Helens Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-26",
-    "to": "2026-07-26",
-    "retrievedAt": "2026-07-26T02:44:34.622Z"
+    "from": "2026-05-02",
+    "to": "2026-08-02",
+    "retrievedAt": "2026-08-02T02:39:33.885Z"
   },
   "summary": {
-    "total": 178,
+    "total": 172,
     "relevant": 36,
     "approved": 0,
     "pending": 36,
@@ -20,50 +20,12 @@
     "pendingUnits": 182,
     "totalUnits": 182,
     "approvedGdv": 0,
-    "pendingGdv": 31864500,
-    "totalEstimatedGDV": 31864500,
+    "pendingGdv": 32014000,
+    "totalEstimatedGDV": 32014000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
-    {
-      "reference": "P/2026/0225/PIP",
-      "address": "6 Linden Grove Billinge St Helens WN5 7QP",
-      "postcode": "WN5 7QP",
-      "ward": "",
-      "proposal": "Permission in principle for residential development of 1no dwelling.",
-      "category": "other_relevant",
-      "units": 1,
-      "estimatedGdv": 175500,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.sthelens.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEAYAHPE04I00"
-    },
-    {
-      "reference": "P/2026/0255/FUL",
-      "address": "The Gamble Institute Victoria Square St Helens WA10 1DY",
-      "postcode": "WA10 1DY",
-      "ward": "",
-      "proposal": "Five storey extension on the east elevation to form a new east facing entrance, improved internal circulation and storage, and fully accessible routes throughout building and external alterations to the existing main building.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.sthelens.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TE58IUPE02I00"
-    },
     {
       "reference": "P/2026/0285/FUL",
       "address": "Land Off Elton Head Road St Helens",
@@ -278,7 +240,7 @@
       "address": "Office 1 Hsl Building 437 Warrington Road Rainhill St Helens L35 4LL",
       "postcode": "L35 4LL",
       "ward": "",
-      "proposal": "Single storey side extension",
+      "proposal": "Single storey side extension.",
       "category": "other_relevant",
       "units": null,
       "estimatedGdv": null,
@@ -635,6 +597,25 @@
       "sourceUrl": "https://publicaccess.sthelens.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TG0F3UPEJW700"
     },
     {
+      "reference": "P/2026/0380/PIP",
+      "address": "The Acre Jubits Lane Bold Heath St Helens WA8 5UZ",
+      "postcode": "WA8 5UZ",
+      "ward": "",
+      "proposal": "Permission in principle for construction of 1no self build detached dwelling.",
+      "category": "new_build",
+      "units": 1,
+      "estimatedGdv": 325000,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.sthelens.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIXWDXPE02I00"
+    },
+    {
       "reference": "P/2026/0364/FUL",
       "address": "210 Robins Lane St Helens WA9 3PQ",
       "postcode": "WA9 3PQ",
@@ -709,6 +690,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.sthelens.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THJFKJPEK8S00"
+    },
+    {
+      "reference": "P/2026/0379/FUL",
+      "address": "313 Clipsley Lane Haydock St Helens WA11 0SG",
+      "postcode": "WA11 0SG",
+      "ward": "",
+      "proposal": "Change of use from Training Academy (Class F1(a)) to Local Community Meeting Venue (Class F2(b)).",
+      "category": "change_of_use",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.sthelens.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THJZ1LPEK9400"
     }
   ]
 }

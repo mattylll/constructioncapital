@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-26T04:23:18.494Z",
+  "updatedAt": "2026-08-02T04:21:41.567Z",
   "townSlug": "basildon",
   "countySlug": "essex",
   "localAuthority": "Basildon Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-26",
-    "to": "2026-07-26",
-    "retrievedAt": "2026-07-26T04:23:18.494Z"
+    "from": "2026-05-02",
+    "to": "2026-08-02",
+    "retrievedAt": "2026-08-02T04:21:41.566Z"
   },
   "summary": {
-    "total": 313,
+    "total": 325,
     "relevant": 27,
     "approved": 0,
     "pending": 27,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 240,
-    "totalUnits": 240,
+    "pendingUnits": 356,
+    "totalUnits": 356,
     "approvedGdv": 0,
-    "pendingGdv": 85200000,
-    "totalEstimatedGDV": 85200000,
+    "pendingGdv": 126380000,
+    "totalEstimatedGDV": 126380000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -44,6 +44,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.basildon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TICWS4CQL7400"
+    },
+    {
+      "reference": "26/00796/OUT",
+      "address": "Southlands Gardiners Lane North Billericay Essex CM11 2XA",
+      "postcode": "CM11 2XA",
+      "ward": "",
+      "proposal": "Outline planning application for the erection of up to 116 residential dwellings (Use Class C3) with associated access, public open space, landscaping, sustainable drainage infrastructure and associated works (all matters reserved except for access).",
+      "category": "new_build",
+      "units": 116,
+      "estimatedGdv": 41180000,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "14/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.basildon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TI6827CQL5G00"
     },
     {
       "reference": "26/00794/OUT",
@@ -519,25 +538,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.basildon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEEJVACQK8M00"
-    },
-    {
-      "reference": "26/00479/VAR",
-      "address": "Stock Brook Manor Golf And Country Club Queens Park Avenue Billericay Essex CM12 0SP",
-      "postcode": "CM12 0SP",
-      "ward": "",
-      "proposal": "Variation of condition 2 (Approved Plans and Documents) to alter the weatherproof canopy roof approved in the original planning application 25/00587/FULL to provide an enclosed padel facility.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "27/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.basildon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TE5R3YCQK6800"
     }
   ]
 }

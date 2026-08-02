@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-26T04:47:43.193Z",
+  "updatedAt": "2026-08-02T04:43:25.730Z",
   "townSlug": "tottenham",
   "countySlug": "greater-london",
   "localAuthority": "Haringey Council",
   "source": "arcus",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-26",
-    "to": "2026-07-26",
-    "retrievedAt": "2026-07-26T04:47:43.193Z"
+    "from": "2026-05-02",
+    "to": "2026-08-02",
+    "retrievedAt": "2026-08-02T04:43:25.728Z"
   },
   "summary": {
-    "total": 721,
-    "relevant": 5,
+    "total": 757,
+    "relevant": 6,
     "approved": 1,
-    "pending": 3,
+    "pending": 4,
     "refused": 0,
     "approvedUnits": 3,
-    "pendingUnits": 4,
-    "totalUnits": 7,
+    "pendingUnits": 5,
+    "totalUnits": 8,
     "approvedGdv": 1335000,
-    "pendingGdv": 1885000,
-    "totalEstimatedGDV": 3220000,
+    "pendingGdv": 2330000,
+    "totalEstimatedGDV": 3665000,
     "approvalRate": 100
   },
   "approvedApplications": [
@@ -46,6 +46,25 @@
     }
   ],
   "pendingApplications": [
+    {
+      "reference": "HGY/2026/1947",
+      "address": "6 Umfreville Road Hornsey London N4 1SB",
+      "postcode": "N4 1SB",
+      "ward": "Harringay",
+      "proposal": "Roof extension including above existing outrigger, to create two new habitable rooms and a shower room. Proposal includes new front facing turret in the style of an original feature, with a total of 3 Velux style rooflights to the front elevation and 1 flat rooflight.",
+      "category": "other_residential",
+      "units": 1,
+      "estimatedGdv": 445000,
+      "status": "Under Consultation",
+      "decision": "",
+      "receivedDate": "30/07/2026",
+      "decisionDate": "",
+      "applicantName": "Walder",
+      "applicantCompany": "",
+      "agentName": "Mr Conrad Cherniavsky",
+      "agentCompany": "",
+      "sourceUrl": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iP200000HxR0nIAF?c__r=Arcus_BE_Public_Register"
+    },
     {
       "reference": "HGY/2026/1732",
       "address": "297 Wightman Road Hornsey London N8 0NA",

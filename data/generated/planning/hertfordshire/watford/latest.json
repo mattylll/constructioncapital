@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-26T03:18:53.226Z",
+  "updatedAt": "2026-08-02T03:03:12.296Z",
   "townSlug": "watford",
   "countySlug": "hertfordshire",
   "localAuthority": "Watford Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-26",
-    "to": "2026-07-26",
-    "retrievedAt": "2026-07-26T03:18:53.225Z"
+    "from": "2026-05-02",
+    "to": "2026-08-02",
+    "retrievedAt": "2026-08-02T03:03:12.295Z"
   },
   "summary": {
-    "total": 179,
+    "total": 171,
     "relevant": 18,
     "approved": 0,
     "pending": 18,
@@ -26,25 +26,6 @@
   },
   "approvedApplications": [],
   "pendingApplications": [
-    {
-      "reference": "26/00331/FUL",
-      "address": "The Spinney Watford WD17 4QF",
-      "postcode": "WD17 4QF",
-      "ward": "",
-      "proposal": "Creation of 5no. new car parking spaces.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TE8ONPQWGKA00"
-    },
     {
       "reference": "26/00402/FUL",
       "address": "317 - 319 Lower High Street Watford WD17 2JD",
@@ -329,6 +310,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TFXSN6QWHPP00"
+    },
+    {
+      "reference": "26/00552/FUL",
+      "address": "883 St Albans Road Watford WD25 0NH",
+      "postcode": "WD25 0NH",
+      "ward": "",
+      "proposal": "Extension of existing dropped kerb to improve access.",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://pa.watford.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TIGJ9HQWG7K00"
     },
     {
       "reference": "26/00523/FUL",
