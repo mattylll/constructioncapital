@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.594Z",
+  "updatedAt": "2026-08-07T08:45:02.971Z",
   "townSlug": "chorley",
   "countySlug": "lancashire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CHORLEY"
+  ],
   "marketSnapshot": {
-    "medianPrice": 219998,
-    "transactionCount12m": 1384,
-    "yoyPriceChange": 3.8,
-    "approvedApps12m": 8,
-    "pipelineUnits": 240,
-    "pipelineGdv": 52732960,
-    "approvalRate": 80
+    "medianPrice": 220000,
+    "transactionCount12m": 1363,
+    "yoyPriceChange": 3.2,
+    "approvedApps12m": 6,
+    "approvedRecent": 6,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 158,
+    "pipelineGdv": 37000000,
+    "approvalRate": 67
   }
 }

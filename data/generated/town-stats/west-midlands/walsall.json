@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.900Z",
+  "updatedAt": "2026-08-07T08:45:02.296Z",
   "townSlug": "walsall",
   "countySlug": "west-midlands",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WALSALL"
+  ],
   "marketSnapshot": {
     "medianPrice": 210000,
-    "transactionCount12m": 2265,
+    "transactionCount12m": 2207,
     "yoyPriceChange": -2.3,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

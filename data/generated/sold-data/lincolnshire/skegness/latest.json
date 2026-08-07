@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.538Z",
+  "updatedAt": "2026-08-07T08:45:02.723Z",
   "townSlug": "skegness",
   "countySlug": "lincolnshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EAST LINDSEY"
+  ],
   "stats": {
-    "medianPrice": 209226,
+    "medianPrice": 208000,
     "medianByType": {
       "D": 265000,
       "S": 177000,
-      "T": 148000,
+      "T": 145000,
       "F": 105000
     },
-    "transactionCount12m": 1728,
-    "yoyChange": -1.5,
-    "newBuildCount": 54,
-    "existingCount": 1674,
-    "newBuildPremium": 11.5
+    "transactionCount12m": 1702,
+    "yoyChange": -1,
+    "newBuildCount": 44,
+    "existingCount": 1658,
+    "newBuildPremium": 4.4
   },
   "recentTransactions": [
     {
-      "price": 300000,
-      "date": "2026-05-22",
-      "postcode": "PE24 5AD",
+      "price": 410000,
+      "date": "2026-06-25",
+      "postcode": "PE22 0UE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "WHITEGATES, MIDDLEMARSH ROAD"
+      "address": "LAST PEG COTTAGE, WESTHOUSES"
     },
     {
-      "price": 204500,
-      "date": "2026-05-19",
-      "postcode": "PE23 5NA",
+      "price": 225000,
+      "date": "2026-06-25",
+      "postcode": "LN11 0AG",
       "propertyType": "D",
-      "newBuild": false,
+      "newBuild": true,
       "tenure": "F",
-      "address": "6, CHURCH LANE"
+      "address": "4, SIGNAL BOX WAY"
     },
     {
-      "price": 120000,
-      "date": "2026-05-18",
-      "postcode": "LN12 1PX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HALL BUNGALOW, ALFORD ROAD"
-    },
-    {
-      "price": 217500,
-      "date": "2026-05-18",
-      "postcode": "PE22 8AF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, STICKNEY MEADOWS"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-18",
-      "postcode": "LN12 2ND",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, MARINE AVENUE"
-    },
-    {
-      "price": 229950,
-      "date": "2026-05-18",
-      "postcode": "PE22 8BA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRINDLECROFT, HALL LANE"
-    },
-    {
-      "price": 140000,
-      "date": "2026-05-15",
-      "postcode": "PE25 3EZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, WILFORD GROVE"
-    },
-    {
-      "price": 236000,
-      "date": "2026-05-15",
-      "postcode": "PE22 8PF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, COUNCIL HOUSE, SMALL END"
-    },
-    {
-      "price": 184000,
-      "date": "2026-05-15",
-      "postcode": "PE25 1NU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CLOVELLY, SEA LANE"
-    },
-    {
-      "price": 560000,
-      "date": "2026-05-15",
-      "postcode": "LN10 6BD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, LANSDOWN WAY"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-14",
-      "postcode": "LN9 6RQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, MADELY CLOSE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-13",
-      "postcode": "LN11 7BX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, CLOISTERS WALK"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-13",
-      "postcode": "LN11 0ZU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, EAST FARM LANE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-13",
-      "postcode": "PE24 5BN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, WAINFLEET ROAD"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-13",
-      "postcode": "PE23 5AG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, WATERMILL LANE"
-    },
-    {
-      "price": 108000,
-      "date": "2026-05-12",
-      "postcode": "LN11 0FD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, MALLARD INGS"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-11",
-      "postcode": "LN4 4UE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "63, HOPLANDS ROAD"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-11",
-      "postcode": "LN4 4QY",
+      "price": 138000,
+      "date": "2026-06-23",
+      "postcode": "LN11 8YL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, KEBLE COURT, CLINTON PARK"
+      "address": "19, BRADLEY CLOSE"
     },
     {
-      "price": 305000,
-      "date": "2026-05-11",
-      "postcode": "LN11 7NP",
+      "price": 284660,
+      "date": "2026-06-23",
+      "postcode": "LN4 4UE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "ROSE COTTAGE, WEMBLEY ROAD"
+      "address": "13, HOPLANDS ROAD"
     },
     {
-      "price": 772500,
-      "date": "2026-05-08",
-      "postcode": "LN10 6UZ",
+      "price": 192000,
+      "date": "2026-06-23",
+      "postcode": "LN11 7QS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "62A, HORNCASTLE ROAD"
+      "address": "TIMBRELING, CHURCHILL ROAD"
+    },
+    {
+      "price": 135000,
+      "date": "2026-06-22",
+      "postcode": "LN4 4NY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WHITE SWAN CLOSE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-22",
+      "postcode": "LN12 2YB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, AQUA DRIVE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-06-19",
+      "postcode": "LN8 5NA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, POACHERS CHASE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-19",
+      "postcode": "LN8 6DL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "NEW HOUSE, ST MARYS LANE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-19",
+      "postcode": "PE22 7JU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LAMARACK, MAIN ROAD"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-19",
+      "postcode": "PE25 2ND",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, ALBANY CLOSE"
+    },
+    {
+      "price": 120000,
+      "date": "2026-06-19",
+      "postcode": "LN12 2SF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, MASEFIELD DRIVE"
+    },
+    {
+      "price": 90000,
+      "date": "2026-06-19",
+      "postcode": "PE24 5JR",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BURGH METHODIST CHURCH, JACKSONS LANE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-06-19",
+      "postcode": "LN9 6RS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, JOHNSON DRIVE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-18",
+      "postcode": "LN10 6AD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, BROOKSIDE PLACE"
+    },
+    {
+      "price": 157000,
+      "date": "2026-06-18",
+      "postcode": "PE25 1RF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GLENOLA, THE DRIVE"
+    },
+    {
+      "price": 165000,
+      "date": "2026-06-17",
+      "postcode": "LN11 0AL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, JUBILEE CRESCENT"
+    },
+    {
+      "price": 545000,
+      "date": "2026-06-17",
+      "postcode": "LN8 5QQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MEADOW FARM, STURTON ROAD"
+    },
+    {
+      "price": 121500,
+      "date": "2026-06-17",
+      "postcode": "PE24 5TJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, SUNNINGDALE DRIVE"
+    },
+    {
+      "price": 95000,
+      "date": "2026-06-16",
+      "postcode": "PE23 5LZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "100, MAIN ROAD"
     }
   ],
   "monthlyHistory": [
@@ -222,8 +225,8 @@
     },
     {
       "month": "2024-05",
-      "medianPrice": 212800,
-      "transactions": 199
+      "medianPrice": 212650,
+      "transactions": 200
     },
     {
       "month": "2024-06",
@@ -242,23 +245,23 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 200500,
-      "transactions": 214
+      "medianPrice": 200000,
+      "transactions": 213
     },
     {
       "month": "2024-10",
       "medianPrice": 217498,
-      "transactions": 306
+      "transactions": 308
     },
     {
       "month": "2024-11",
       "medianPrice": 205000,
-      "transactions": 281
+      "transactions": 280
     },
     {
       "month": "2024-12",
-      "medianPrice": 207500,
-      "transactions": 265
+      "medianPrice": 208250,
+      "transactions": 266
     },
     {
       "month": "2025-01",
@@ -272,13 +275,13 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 225000,
-      "transactions": 423
+      "medianPrice": 223750,
+      "transactions": 424
     },
     {
       "month": "2025-04",
       "medianPrice": 189250,
-      "transactions": 124
+      "transactions": 126
     },
     {
       "month": "2025-05",
@@ -287,63 +290,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 191500,
-      "transactions": 232
+      "medianPrice": 190000,
+      "transactions": 236
     },
     {
       "month": "2025-07",
-      "medianPrice": 200000,
-      "transactions": 247
+      "medianPrice": 200500,
+      "transactions": 254
     },
     {
       "month": "2025-08",
       "medianPrice": 220000,
-      "transactions": 230
+      "transactions": 247
     },
     {
       "month": "2025-09",
-      "medianPrice": 202500,
-      "transactions": 196
+      "medianPrice": 207500,
+      "transactions": 206
     },
     {
       "month": "2025-10",
       "medianPrice": 210000,
-      "transactions": 225
+      "transactions": 231
     },
     {
       "month": "2025-11",
-      "medianPrice": 220000,
-      "transactions": 182
+      "medianPrice": 212500,
+      "transactions": 188
     },
     {
       "month": "2025-12",
-      "medianPrice": 199975,
-      "transactions": 154
+      "medianPrice": 200000,
+      "transactions": 167
     },
     {
       "month": "2026-01",
-      "medianPrice": 206650,
-      "transactions": 112
+      "medianPrice": 209150,
+      "transactions": 122
     },
     {
       "month": "2026-02",
-      "medianPrice": 212500,
-      "transactions": 121
+      "medianPrice": 211075,
+      "transactions": 130
     },
     {
       "month": "2026-03",
-      "medianPrice": 208500,
-      "transactions": 146
+      "medianPrice": 207000,
+      "transactions": 147
     },
     {
       "month": "2026-04",
-      "medianPrice": 198500,
-      "transactions": 104
+      "medianPrice": 200000,
+      "transactions": 121
     },
     {
       "month": "2026-05",
-      "medianPrice": 202250,
-      "transactions": 46
+      "medianPrice": 190000,
+      "transactions": 122
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 190000,
+      "transactions": 45
     }
   ],
   "quarterlyHistory": [
@@ -355,47 +363,47 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 200000,
-      "transactions": 598
+      "transactions": 599
     },
     {
       "quarter": "2024-Q3",
       "medianPrice": 220000,
-      "transactions": 707
+      "transactions": 706
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 210000,
-      "transactions": 852
+      "transactions": 854
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 225000,
-      "transactions": 833
+      "transactions": 834
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 193000,
-      "transactions": 549
+      "medianPrice": 192500,
+      "transactions": 555
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 210000,
-      "transactions": 673
+      "transactions": 707
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 210000,
-      "transactions": 561
+      "transactions": 586
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 210000,
-      "transactions": 379
+      "transactions": 399
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 200000,
-      "transactions": 150
+      "medianPrice": 197000,
+      "transactions": 288
     }
   ]
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.671Z",
+  "updatedAt": "2026-08-07T08:45:02.865Z",
   "townSlug": "bury",
   "countySlug": "greater-manchester",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BURY"
+  ],
   "stats": {
     "medianPrice": 230000,
     "medianByType": {
-      "D": 375000,
-      "S": 264000,
+      "D": 381000,
+      "S": 265000,
       "T": 180000,
-      "F": 127500
+      "F": 130000
     },
-    "transactionCount12m": 2008,
-    "yoyChange": -1.1,
-    "newBuildCount": 1,
-    "existingCount": 2007,
-    "newBuildPremium": null
+    "transactionCount12m": 2034,
+    "yoyChange": -2.1,
+    "newBuildCount": 3,
+    "existingCount": 2031,
+    "newBuildPremium": 61.7
   },
   "recentTransactions": [
     {
-      "price": 285000,
-      "date": "2026-05-26",
-      "postcode": "BL9 8EE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, AJAX DRIVE"
-    },
-    {
-      "price": 241000,
-      "date": "2026-05-22",
-      "postcode": "M45 6TR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, KENILWORTH AVENUE"
-    },
-    {
-      "price": 176500,
-      "date": "2026-05-22",
-      "postcode": "M26 2GD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, WHEWELL AVENUE"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-19",
-      "postcode": "M45 6AD",
+      "price": 170000,
+      "date": "2026-06-29",
+      "postcode": "BL9 7EP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "156, BURY NEW ROAD"
+      "address": "17, BENSON STREET"
     },
     {
-      "price": 317500,
-      "date": "2026-05-18",
-      "postcode": "BL9 5JY",
+      "price": 365000,
+      "date": "2026-06-26",
+      "postcode": "BL8 2HS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, ADLINGTON CLOSE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-25",
+      "postcode": "M25 9TZ",
       "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "877, BURNLEY ROAD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-15",
-      "postcode": "M25 0NL",
-      "propertyType": "T",
-      "newBuild": false,
       "tenure": "F",
-      "address": "23, HOPE PARK CLOSE"
+      "address": "112, WOODWARD ROAD"
     },
     {
-      "price": 178000,
-      "date": "2026-05-15",
-      "postcode": "M26 2GE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "227, DUMERS LANE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-15",
-      "postcode": "BL8 1DR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "25, WOODBANK DRIVE"
-    },
-    {
-      "price": 278000,
-      "date": "2026-05-15",
-      "postcode": "BL8 1WF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, BROOK WALK"
-    },
-    {
-      "price": 121000,
-      "date": "2026-05-14",
-      "postcode": "BL8 1JY",
+      "price": 170000,
+      "date": "2026-06-25",
+      "postcode": "M45 7PF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 4, RIVERBANK APARTMENTS, 50, TOTTINGTON ROAD"
+      "address": "4A, STANDMOOR COURT"
     },
     {
-      "price": 145000,
-      "date": "2026-05-14",
-      "postcode": "BL9 0QY",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 9, 5, ST JOHNS GARDENS"
-    },
-    {
-      "price": 155000,
-      "date": "2026-05-12",
-      "postcode": "M26 2XX",
+      "price": 120000,
+      "date": "2026-06-24",
+      "postcode": "BL8 2QY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "3, BRIGHT STREET"
+      "address": "156, WOOD STREET"
     },
     {
-      "price": 300000,
-      "date": "2026-05-12",
-      "postcode": "M26 4WS",
+      "price": 261500,
+      "date": "2026-06-23",
+      "postcode": "M25 0EJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "24, CHARLBURY AVENUE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-19",
+      "postcode": "M26 4LE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12, SHERWOOD AVENUE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-19",
+      "postcode": "M26 3WH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, WINSTON CLOSE"
+      "address": "15, WENTWORTH CLOSE"
+    },
+    {
+      "price": 542500,
+      "date": "2026-06-19",
+      "postcode": "BL8 2EN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "19, KINGSTON CLOSE"
+    },
+    {
+      "price": 152000,
+      "date": "2026-06-19",
+      "postcode": "M26 2GL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "57, YORK STREET"
+    },
+    {
+      "price": 133500,
+      "date": "2026-06-19",
+      "postcode": "BL9 6DG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "172, BELL LANE"
+    },
+    {
+      "price": 282000,
+      "date": "2026-06-19",
+      "postcode": "M26 3RU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, HARPER FOLD ROAD"
+    },
+    {
+      "price": 335000,
+      "date": "2026-06-19",
+      "postcode": "BL8 2HU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "56, BELMONT DRIVE"
+    },
+    {
+      "price": 247000,
+      "date": "2026-06-18",
+      "postcode": "M25 1LQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "90, HAMPDEN ROAD"
     },
     {
       "price": 325000,
-      "date": "2026-05-08",
-      "postcode": "BL9 9SL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "25, LEYTON DRIVE"
-    },
-    {
-      "price": 322500,
-      "date": "2026-05-08",
-      "postcode": "BL9 8HB",
+      "date": "2026-06-17",
+      "postcode": "M25 9RQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, HEATHFIELD ROAD"
+      "address": "13, AGECROFT ROAD EAST"
     },
     {
-      "price": 238000,
-      "date": "2026-05-08",
-      "postcode": "M25 1PT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, MILTON ROAD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-08",
-      "postcode": "M26 4XB",
-      "propertyType": "D",
+      "price": 165000,
+      "date": "2026-06-17",
+      "postcode": "M25 3EL",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "4, CONNAUGHT AVENUE"
+      "address": "4, ALBION MEWS"
     },
     {
-      "price": 405000,
-      "date": "2026-05-08",
-      "postcode": "BL9 8EN",
-      "propertyType": "D",
+      "price": 155000,
+      "date": "2026-06-17",
+      "postcode": "BL8 1BD",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, BURNDALE DRIVE"
+      "address": "25, WOODHILL ROAD"
+    },
+    {
+      "price": 202000,
+      "date": "2026-06-17",
+      "postcode": "M45 6BD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, PRESTFIELD ROAD"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-16",
+      "postcode": "BL8 4BX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4, THORNFIELD ROAD"
     },
     {
       "price": 200000,
-      "date": "2026-05-08",
-      "postcode": "BL9 9HS",
+      "date": "2026-06-16",
+      "postcode": "BL8 3LT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "101, HORNE STREET"
-    },
-    {
-      "price": 189950,
-      "date": "2026-05-08",
-      "postcode": "BL9 9NT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, INGLEWHITE CLOSE"
+      "address": "189, MARKET STREET"
     }
   ],
   "monthlyHistory": [
@@ -228,7 +231,7 @@
     {
       "month": "2024-06",
       "medianPrice": 220000,
-      "transactions": 240
+      "transactions": 244
     },
     {
       "month": "2024-07",
@@ -253,7 +256,7 @@
     {
       "month": "2024-11",
       "medianPrice": 240000,
-      "transactions": 255
+      "transactions": 256
     },
     {
       "month": "2024-12",
@@ -267,8 +270,8 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 235000,
-      "transactions": 229
+      "medianPrice": 234900,
+      "transactions": 230
     },
     {
       "month": "2025-03",
@@ -287,63 +290,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 229500,
+      "medianPrice": 225000,
       "transactions": 261
     },
     {
       "month": "2025-07",
-      "medianPrice": 233250,
-      "transactions": 264
+      "medianPrice": 236500,
+      "transactions": 270
     },
     {
       "month": "2025-08",
       "medianPrice": 235000,
-      "transactions": 239
+      "transactions": 257
     },
     {
       "month": "2025-09",
-      "medianPrice": 230500,
-      "transactions": 211
+      "medianPrice": 234000,
+      "transactions": 216
     },
     {
       "month": "2025-10",
-      "medianPrice": 237000,
-      "transactions": 280
+      "medianPrice": 237500,
+      "transactions": 285
     },
     {
       "month": "2025-11",
-      "medianPrice": 240000,
-      "transactions": 204
+      "medianPrice": 242500,
+      "transactions": 211
     },
     {
       "month": "2025-12",
-      "medianPrice": 237000,
-      "transactions": 194
+      "medianPrice": 223000,
+      "transactions": 252
     },
     {
       "month": "2026-01",
-      "medianPrice": 243875,
-      "transactions": 148
+      "medianPrice": 244500,
+      "transactions": 162
     },
     {
       "month": "2026-02",
-      "medianPrice": 216300,
-      "transactions": 154
+      "medianPrice": 220000,
+      "transactions": 164
     },
     {
       "month": "2026-03",
-      "medianPrice": 200000,
-      "transactions": 177
+      "medianPrice": 202000,
+      "transactions": 185
     },
     {
       "month": "2026-04",
-      "medianPrice": 220000,
-      "transactions": 137
+      "medianPrice": 222500,
+      "transactions": 149
     },
     {
       "month": "2026-05",
-      "medianPrice": 243000,
-      "transactions": 42
+      "medianPrice": 237000,
+      "transactions": 136
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 230000,
+      "transactions": 61
     }
   ],
   "quarterlyHistory": [
@@ -355,7 +363,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 220000,
-      "transactions": 726
+      "transactions": 730
     },
     {
       "quarter": "2024-Q3",
@@ -365,12 +373,12 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 230000,
-      "transactions": 799
+      "transactions": 800
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 245000,
-      "transactions": 881
+      "transactions": 882
     },
     {
       "quarter": "2025-Q2",
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 232750,
-      "transactions": 714
+      "medianPrice": 235000,
+      "transactions": 743
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 237000,
-      "transactions": 678
+      "medianPrice": 230000,
+      "transactions": 748
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 220000,
-      "transactions": 479
+      "medianPrice": 221000,
+      "transactions": 511
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 227500,
-      "transactions": 179
+      "medianPrice": 232500,
+      "transactions": 346
     }
   ]
 }

@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.521Z",
+  "updatedAt": "2026-08-07T08:45:01.940Z",
   "townSlug": "glastonbury",
   "countySlug": "somerset",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOMERSET",
+    "MENDIP"
+  ],
   "marketSnapshot": {
-    "medianPrice": 281000,
-    "transactionCount12m": 172,
-    "yoyPriceChange": 0.4,
+    "medianPrice": 284000,
+    "transactionCount12m": 164,
+    "yoyPriceChange": 1.4,
     "approvedApps12m": 0,
-    "pipelineUnits": 485,
-    "pipelineGdv": 133618750,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 200,
+    "pipelineGdv": 56697500,
     "approvalRate": 0
   }
 }

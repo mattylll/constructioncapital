@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.869Z",
+  "updatedAt": "2026-08-07T08:45:03.246Z",
   "townSlug": "halifax",
   "countySlug": "west-yorkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CALDERDALE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 187000,
-    "transactionCount12m": 2678,
-    "yoyPriceChange": 2.7,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 185000,
+    "transactionCount12m": 2642,
+    "yoyPriceChange": 0,
+    "approvedApps12m": 7,
+    "approvedRecent": 7,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 45,
+    "pipelineGdv": 7522000,
+    "approvalRate": 88
   }
 }

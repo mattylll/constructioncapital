@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.143Z",
+  "updatedAt": "2026-08-07T08:45:01.244Z",
   "townSlug": "gravesend",
   "countySlug": "kent",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GRAVESHAM"
+  ],
   "stats": {
-    "medianPrice": 355000,
+    "medianPrice": 350000,
     "medianByType": {
       "D": 585000,
-      "S": 398000,
+      "S": 400000,
       "T": 320000,
-      "F": 174995
+      "F": 182000
     },
-    "transactionCount12m": 914,
-    "yoyChange": 3.1,
-    "newBuildCount": 1,
-    "existingCount": 913,
-    "newBuildPremium": null
+    "transactionCount12m": 941,
+    "yoyChange": 2.9,
+    "newBuildCount": 24,
+    "existingCount": 917,
+    "newBuildPremium": -44.9
   },
   "recentTransactions": [
     {
-      "price": 170000,
-      "date": "2026-05-21",
-      "postcode": "DA11 7HN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 14, MARTIN HOUSE, HAYNES ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-20",
-      "postcode": "DA11 9QH",
+      "price": 295000,
+      "date": "2026-06-26",
+      "postcode": "DA11 8RZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, DUDLEY ROAD"
+      "address": "3, ROSEBANK GARDENS"
     },
     {
-      "price": 417500,
-      "date": "2026-05-19",
-      "postcode": "DA12 2NN",
+      "price": 487500,
+      "date": "2026-06-19",
+      "postcode": "DA12 1NX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, OLD ROAD EAST"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-19",
+      "postcode": "DA12 4RT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "174, LOWER HIGHAM ROAD"
+      "address": "46, CHALLENGE CLOSE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-19",
+      "postcode": "DA11 7PT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "98, SINGLEWELL ROAD"
+    },
+    {
+      "price": 370000,
+      "date": "2026-06-18",
+      "postcode": "DA11 7NT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FALMANIA HOUSE, OLD WATLING STREET"
     },
     {
       "price": 360000,
-      "date": "2026-05-18",
-      "postcode": "DA11 8AP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "63, GWYNN ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-15",
-      "postcode": "DA12 5RY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "90, WINCHESTER CRESCENT"
-    },
-    {
-      "price": 1330000,
-      "date": "2026-05-12",
-      "postcode": "DA12 5EY",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HEVERCOURT RESIDENTIAL HOME, GOODWOOD CRESCENT"
-    },
-    {
-      "price": 472000,
-      "date": "2026-05-12",
-      "postcode": "ME3 7HR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, HIGH VIEW"
-    },
-    {
-      "price": 287500,
-      "date": "2026-05-11",
-      "postcode": "DA11 7DF",
+      "date": "2026-06-15",
+      "postcode": "DA12 4PZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, SALISBURY ROAD"
-    },
-    {
-      "price": 317000,
-      "date": "2026-05-08",
-      "postcode": "DA12 2FG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, GREAT CLAYNE ROAD"
-    },
-    {
-      "price": 530000,
-      "date": "2026-05-08",
-      "postcode": "DA12 2RE",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, MILTON ROAD"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-08",
-      "postcode": "ME3 7AA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, IRVINE ROAD"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-08",
-      "postcode": "DA11 0SY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, KENT ROAD"
+      "address": "3, ASTRA DRIVE"
     },
     {
       "price": 380000,
-      "date": "2026-05-08",
-      "postcode": "DA12 1RQ",
+      "date": "2026-06-15",
+      "postcode": "DA11 7AZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "54, ABBEY ROAD"
+      "address": "21, MILROY AVENUE"
     },
     {
-      "price": 343500,
-      "date": "2026-05-08",
-      "postcode": "DA11 0HX",
+      "price": 300000,
+      "date": "2026-06-12",
+      "postcode": "DA12 5EX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, BYCLIFFE MEWS"
+      "address": "70, THISTLEDOWN"
     },
     {
-      "price": 360000,
-      "date": "2026-05-07",
-      "postcode": "DA11 8AJ",
+      "price": 400000,
+      "date": "2026-06-12",
+      "postcode": "DA13 0NA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, EDIVA ROAD"
+    },
+    {
+      "price": 385000,
+      "date": "2026-06-12",
+      "postcode": "DA11 9QF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "73, ROBINIA AVENUE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-12",
+      "postcode": "DA12 1NE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, HAIG GARDENS"
+    },
+    {
+      "price": 317000,
+      "date": "2026-06-12",
+      "postcode": "DA12 5JS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "163, HALL ROAD"
+      "address": "11, CEDAR AVENUE"
     },
     {
-      "price": 490000,
-      "date": "2026-05-05",
-      "postcode": "DA11 8PF",
+      "price": 792000,
+      "date": "2026-06-12",
+      "postcode": "DA13 0RN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2A, DURNDALE LANE"
+      "address": "OSBORNE PLACE, HARVEL ROAD"
     },
     {
-      "price": 360000,
-      "date": "2026-05-05",
-      "postcode": "ME3 7ER",
+      "price": 285000,
+      "date": "2026-06-10",
+      "postcode": "DA11 9QN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "203, DOVER ROAD"
+    },
+    {
+      "price": 900000,
+      "date": "2026-06-09",
+      "postcode": "ME3 7NT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SUNNYSIDE, DILLYWOOD LANE"
+    },
+    {
+      "price": 348000,
+      "date": "2026-06-08",
+      "postcode": "DA12 2SR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, NORAH LANE"
+      "address": "2, ALBION ROAD"
     },
     {
-      "price": 88000,
-      "date": "2026-05-01",
-      "postcode": "DA11 0AH",
+      "price": 70000,
+      "date": "2026-06-08",
+      "postcode": "DA12 1DW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 40, THE MALTINGS, CLIFTON ROAD"
+      "address": "FLAT 19, ALPHA HOUSE, PEACOCK STREET"
     },
     {
-      "price": 435000,
-      "date": "2026-05-01",
-      "postcode": "DA12 4NZ",
-      "propertyType": "D",
+      "price": 125000,
+      "date": "2026-06-08",
+      "postcode": "DA12 1AH",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "88, CAMBRIA CRESCENT"
+      "address": "178, WINDMILL STREET"
     },
     {
-      "price": 420000,
-      "date": "2026-05-01",
-      "postcode": "DA12 4PP",
+      "price": 450000,
+      "date": "2026-06-05",
+      "postcode": "DA13 9EN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, VIGILANT WAY"
+      "address": "3, LYNDHURST WAY"
+    },
+    {
+      "price": 288000,
+      "date": "2026-06-05",
+      "postcode": "DA11 9DY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, STATION ROAD"
     }
   ],
   "monthlyHistory": [
@@ -223,7 +226,7 @@
     {
       "month": "2024-05",
       "medianPrice": 325000,
-      "transactions": 116
+      "transactions": 117
     },
     {
       "month": "2024-06",
@@ -282,68 +285,73 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 325000,
-      "transactions": 90
+      "medianPrice": 322500,
+      "transactions": 92
     },
     {
       "month": "2025-06",
       "medianPrice": 325000,
-      "transactions": 94
+      "transactions": 96
     },
     {
       "month": "2025-07",
-      "medianPrice": 373000,
-      "transactions": 137
+      "medianPrice": 350000,
+      "transactions": 149
     },
     {
       "month": "2025-08",
-      "medianPrice": 350000,
-      "transactions": 108
+      "medianPrice": 329000,
+      "transactions": 138
     },
     {
       "month": "2025-09",
       "medianPrice": 380000,
-      "transactions": 129
+      "transactions": 137
     },
     {
       "month": "2025-10",
-      "medianPrice": 360000,
-      "transactions": 98
+      "medianPrice": 365000,
+      "transactions": 99
     },
     {
       "month": "2025-11",
       "medianPrice": 370000,
-      "transactions": 99
+      "transactions": 105
     },
     {
       "month": "2025-12",
-      "medianPrice": 345000,
-      "transactions": 87
+      "medianPrice": 350000,
+      "transactions": 99
     },
     {
       "month": "2026-01",
       "medianPrice": 334500,
-      "transactions": 78
+      "transactions": 82
     },
     {
       "month": "2026-02",
       "medianPrice": 345000,
-      "transactions": 65
-    },
-    {
-      "month": "2026-03",
-      "medianPrice": 335000,
       "transactions": 67
     },
     {
+      "month": "2026-03",
+      "medianPrice": 332500,
+      "transactions": 72
+    },
+    {
       "month": "2026-04",
-      "medianPrice": 364250,
-      "transactions": 52
+      "medianPrice": 363500,
+      "transactions": 63
     },
     {
       "month": "2026-05",
       "medianPrice": 360000,
-      "transactions": 22
+      "transactions": 66
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 340000,
+      "transactions": 27
     }
   ],
   "quarterlyHistory": [
@@ -354,8 +362,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 337500,
-      "transactions": 305
+      "medianPrice": 336250,
+      "transactions": 306
     },
     {
       "quarter": "2024-Q3",
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 320000,
-      "transactions": 251
+      "transactions": 255
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 363500,
-      "transactions": 374
+      "medianPrice": 350000,
+      "transactions": 424
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 352500,
-      "transactions": 284
+      "medianPrice": 360000,
+      "transactions": 303
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 337750,
-      "transactions": 210
+      "medianPrice": 337500,
+      "transactions": 221
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 360000,
-      "transactions": 74
+      "medianPrice": 358000,
+      "transactions": 156
     }
   ]
 }

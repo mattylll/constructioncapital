@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.972Z",
+  "updatedAt": "2026-08-07T08:45:01.420Z",
   "townSlug": "lewes",
   "countySlug": "sussex",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "LEWES"
+  ],
   "marketSnapshot": {
-    "medianPrice": 375000,
-    "transactionCount12m": 1207,
-    "yoyPriceChange": -2.5,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 380000,
+    "transactionCount12m": 1183,
+    "yoyPriceChange": 0,
+    "approvedApps12m": 12,
+    "approvedRecent": 12,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 37,
+    "pipelineGdv": 13985000,
+    "approvalRate": 100
   }
 }

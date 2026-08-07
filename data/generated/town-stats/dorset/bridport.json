@@ -1,12 +1,19 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.683Z",
+  "updatedAt": "2026-08-07T08:45:02.097Z",
   "townSlug": "bridport",
   "countySlug": "dorset",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "DORSET",
+    "WEST DORSET"
+  ],
   "marketSnapshot": {
-    "medianPrice": 370000,
-    "transactionCount12m": 316,
-    "yoyPriceChange": 1.4,
+    "medianPrice": 362500,
+    "transactionCount12m": 294,
+    "yoyPriceChange": -2,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

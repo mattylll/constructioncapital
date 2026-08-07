@@ -1,12 +1,19 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.735Z",
+  "updatedAt": "2026-08-07T08:45:03.116Z",
   "townSlug": "carlisle",
   "countySlug": "cumbria",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CUMBERLAND",
+    "CARLISLE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 169000,
-    "transactionCount12m": 1424,
-    "yoyPriceChange": 2.4,
+    "medianPrice": 168000,
+    "transactionCount12m": 1394,
+    "yoyPriceChange": 1.8,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

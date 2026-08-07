@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.737Z",
+  "updatedAt": "2026-08-07T08:45:02.935Z",
   "townSlug": "blackpool",
   "countySlug": "lancashire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BLACKPOOL"
+  ],
   "stats": {
     "medianPrice": 134000,
     "medianByType": {
-      "D": 260000,
-      "S": 158700,
-      "T": 110000,
-      "F": 85500
+      "D": 261000,
+      "S": 159000,
+      "T": 108875,
+      "F": 85000
     },
-    "transactionCount12m": 1889,
-    "yoyChange": 5.5,
-    "newBuildCount": 1,
-    "existingCount": 1888,
+    "transactionCount12m": 1857,
+    "yoyChange": 5.1,
+    "newBuildCount": 2,
+    "existingCount": 1855,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 139000,
-      "date": "2026-05-22",
-      "postcode": "FY3 8PF",
+      "price": 119950,
+      "date": "2026-06-25",
+      "postcode": "FY1 5PA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, LAKEWAY"
+      "address": "79, KESWICK ROAD"
     },
     {
-      "price": 146000,
-      "date": "2026-05-22",
-      "postcode": "FY5 3BG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, NEVILLE AVENUE"
-    },
-    {
-      "price": 73000,
-      "date": "2026-05-20",
-      "postcode": "FY1 6BP",
+      "price": 143000,
+      "date": "2026-06-24",
+      "postcode": "FY3 7EW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, ST CHADS ROAD"
+      "address": "189, KINGSCOTE DRIVE"
     },
     {
-      "price": 70000,
-      "date": "2026-05-18",
-      "postcode": "FY1 3BG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, WHITESIDE STREET"
-    },
-    {
-      "price": 132000,
-      "date": "2026-05-18",
-      "postcode": "FY3 9DX",
+      "price": 170000,
+      "date": "2026-06-23",
+      "postcode": "FY3 9AU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, MARLBOROUGH ROAD"
+      "address": "71, MERE ROAD"
     },
     {
-      "price": 220000,
-      "date": "2026-05-18",
-      "postcode": "FY4 4SF",
+      "price": 165000,
+      "date": "2026-06-23",
+      "postcode": "FY5 3DS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, CATFORTH AVENUE"
+      "address": "138, EASTPINES DRIVE"
     },
     {
-      "price": 75000,
-      "date": "2026-05-15",
-      "postcode": "FY1 6JD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "116, ST HELIERS ROAD"
-    },
-    {
-      "price": 140000,
-      "date": "2026-05-15",
-      "postcode": "FY1 6PU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "89, ANSDELL ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-15",
-      "postcode": "FY1 4EH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, GLOUCESTER AVENUE"
-    },
-    {
-      "price": 162500,
-      "date": "2026-05-15",
-      "postcode": "FY3 8LH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "106, INGLEWAY AVENUE"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-15",
-      "postcode": "FY2 0ED",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, CROMER ROAD"
-    },
-    {
-      "price": 115000,
-      "date": "2026-05-15",
-      "postcode": "FY3 9UH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, ELTERWATER PLACE"
-    },
-    {
-      "price": 127800,
-      "date": "2026-05-15",
-      "postcode": "FY4 2PZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "136, ABBEY ROAD"
-    },
-    {
-      "price": 148000,
-      "date": "2026-05-15",
-      "postcode": "FY3 9RJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, GOLDSBORO AVENUE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-11",
-      "postcode": "FY5 3AD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, SHERINGHAM AVENUE"
-    },
-    {
-      "price": 130000,
-      "date": "2026-05-08",
-      "postcode": "FY1 2PU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, CLIFFORD ROAD"
-    },
-    {
-      "price": 140000,
-      "date": "2026-05-08",
-      "postcode": "FY5 3QZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "40, BLEASDALE AVENUE"
-    },
-    {
-      "price": 127500,
-      "date": "2026-05-08",
-      "postcode": "FY4 2PZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "156, ABBEY ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-08",
-      "postcode": "FY5 3FQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, DUNNOCK AVENUE"
-    },
-    {
-      "price": 95000,
-      "date": "2026-05-08",
-      "postcode": "FY2 9GL",
+      "price": 103000,
+      "date": "2026-06-23",
+      "postcode": "FY4 5FD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 45, ADMIRAL POINT, 162, QUEENS PROMENADE"
+      "address": "FLAT E, 23, OAKWOOD CLOSE"
+    },
+    {
+      "price": 163000,
+      "date": "2026-06-23",
+      "postcode": "FY4 1QG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ALDERLEY AVENUE"
+    },
+    {
+      "price": 86000,
+      "date": "2026-06-22",
+      "postcode": "FY4 3HH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, POWELL AVENUE"
+    },
+    {
+      "price": 65000,
+      "date": "2026-06-19",
+      "postcode": "FY1 3QQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, CAMBRIDGE ROAD"
+    },
+    {
+      "price": 90000,
+      "date": "2026-06-19",
+      "postcode": "FY2 9SZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, WARBRECK DRIVE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-06-19",
+      "postcode": "FY4 1EQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, THE CRESCENT"
+    },
+    {
+      "price": 184000,
+      "date": "2026-06-19",
+      "postcode": "FY3 8JH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, DENEWAY AVENUE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-06-16",
+      "postcode": "FY3 7EJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ST LOUIS AVENUE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-06-16",
+      "postcode": "FY4 1HT",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GARAGE, 18, STATION TERRACE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-15",
+      "postcode": "FY5 3JH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "52, CONWAY AVENUE"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-15",
+      "postcode": "FY5 3UG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, BURGUNDY CRESCENT"
+    },
+    {
+      "price": 169995,
+      "date": "2026-06-12",
+      "postcode": "FY2 0UH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, COTSWOLD ROAD"
+    },
+    {
+      "price": 86000,
+      "date": "2026-06-12",
+      "postcode": "FY3 9DH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "68, NEWCASTLE AVENUE"
+    },
+    {
+      "price": 87000,
+      "date": "2026-06-12",
+      "postcode": "FY4 4NA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 23, DOVE TREE COURT, CHERRY TREE ROAD"
+    },
+    {
+      "price": 143000,
+      "date": "2026-06-12",
+      "postcode": "FY3 9UP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, KINGSLEY ROAD"
+    },
+    {
+      "price": 142500,
+      "date": "2026-06-12",
+      "postcode": "FY4 2PZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "150, ABBEY ROAD"
     }
   ],
   "monthlyHistory": [
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 135000,
-      "transactions": 313
+      "medianPrice": 135500,
+      "transactions": 314
     },
     {
       "month": "2025-04",
@@ -282,68 +285,73 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 121000,
-      "transactions": 225
+      "medianPrice": 121500,
+      "transactions": 226
     },
     {
       "month": "2025-06",
-      "medianPrice": 126150,
-      "transactions": 252
+      "medianPrice": 125250,
+      "transactions": 254
     },
     {
       "month": "2025-07",
-      "medianPrice": 131250,
-      "transactions": 258
+      "medianPrice": 131500,
+      "transactions": 263
     },
     {
       "month": "2025-08",
-      "medianPrice": 130500,
-      "transactions": 228
+      "medianPrice": 130000,
+      "transactions": 233
     },
     {
       "month": "2025-09",
       "medianPrice": 125000,
-      "transactions": 222
+      "transactions": 241
     },
     {
       "month": "2025-10",
       "medianPrice": 140000,
-      "transactions": 259
+      "transactions": 263
     },
     {
       "month": "2025-11",
-      "medianPrice": 133250,
-      "transactions": 210
+      "medianPrice": 134500,
+      "transactions": 218
     },
     {
       "month": "2025-12",
-      "medianPrice": 128475,
-      "transactions": 178
+      "medianPrice": 127000,
+      "transactions": 203
     },
     {
       "month": "2026-01",
-      "medianPrice": 138000,
-      "transactions": 128
+      "medianPrice": 137500,
+      "transactions": 144
     },
     {
       "month": "2026-02",
-      "medianPrice": 138000,
-      "transactions": 131
+      "medianPrice": 140000,
+      "transactions": 138
     },
     {
       "month": "2026-03",
-      "medianPrice": 134000,
-      "transactions": 156
+      "medianPrice": 132000,
+      "transactions": 163
     },
     {
       "month": "2026-04",
       "medianPrice": 135000,
-      "transactions": 120
+      "transactions": 129
     },
     {
       "month": "2026-05",
-      "medianPrice": 140000,
-      "transactions": 49
+      "medianPrice": 139500,
+      "transactions": 120
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 134000,
+      "transactions": 53
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 132500,
-      "transactions": 732
+      "transactions": 733
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 122750,
-      "transactions": 648
+      "medianPrice": 122500,
+      "transactions": 651
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 130000,
-      "transactions": 708
+      "transactions": 737
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 135000,
-      "transactions": 647
+      "transactions": 684
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 138000,
-      "transactions": 415
+      "medianPrice": 137000,
+      "transactions": 445
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 135000,
-      "transactions": 169
+      "medianPrice": 136750,
+      "transactions": 302
     }
   ]
 }

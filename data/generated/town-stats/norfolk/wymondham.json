@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.292Z",
+  "updatedAt": "2026-08-07T08:45:03.635Z",
   "townSlug": "wymondham",
   "countySlug": "norfolk",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTH NORFOLK"
+  ],
   "marketSnapshot": {
     "medianPrice": 300000,
-    "transactionCount12m": 1697,
+    "transactionCount12m": 1692,
     "yoyPriceChange": 0,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

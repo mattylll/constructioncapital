@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.531Z",
+  "updatedAt": "2026-08-07T08:45:00.990Z",
   "townSlug": "bromley",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BROMLEY"
+  ],
   "marketSnapshot": {
     "medianPrice": 500000,
-    "transactionCount12m": 3288,
-    "yoyPriceChange": 0.8,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "transactionCount12m": 3258,
+    "yoyPriceChange": 0,
+    "approvedApps12m": 28,
+    "approvedRecent": 28,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 93,
+    "pipelineGdv": 44000000,
+    "approvalRate": 74
   }
 }

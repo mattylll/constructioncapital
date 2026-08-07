@@ -1,219 +1,223 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.808Z",
+  "updatedAt": "2026-08-07T08:45:01.936Z",
   "townSlug": "frome",
   "countySlug": "somerset",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOMERSET",
+    "MENDIP"
+  ],
   "stats": {
-    "medianPrice": 316000,
+    "medianPrice": 310000,
     "medianByType": {
-      "D": 447500,
-      "S": 317000,
-      "T": 285000,
-      "F": 159000
+      "D": 440000,
+      "S": 315000,
+      "T": 288000,
+      "F": 170000
     },
-    "transactionCount12m": 474,
-    "yoyChange": -3.7,
-    "newBuildCount": 13,
-    "existingCount": 461,
-    "newBuildPremium": 6.3
+    "transactionCount12m": 478,
+    "yoyChange": -5.3,
+    "newBuildCount": 27,
+    "existingCount": 451,
+    "newBuildPremium": -46
   },
   "recentTransactions": [
     {
-      "price": 395000,
-      "date": "2026-05-22",
-      "postcode": "BA11 1EG",
+      "price": 455000,
+      "date": "2026-06-19",
+      "postcode": "BA11 4AE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, CHRISTCHURCH STREET WEST"
+      "address": "65, THE BUTTS"
     },
     {
-      "price": 225000,
-      "date": "2026-05-22",
-      "postcode": "BA11 1JH",
+      "price": 367000,
+      "date": "2026-06-17",
+      "postcode": "BA11 2BW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, WYTHBURN ROAD"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-17",
+      "postcode": "BA11 5AP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "6, THE OLD BREWERY, GENTLE STREET"
+      "address": "40, TOWER VIEW"
     },
     {
-      "price": 375000,
-      "date": "2026-05-22",
-      "postcode": "BA11 2EA",
+      "price": 360000,
+      "date": "2026-06-15",
+      "postcode": "BA11 1EA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE OLD POLICE HOUSE, WESLEY CLOSE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-15",
+      "postcode": "BA11 4AG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "156, THE BUTTS"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-15",
+      "postcode": "BA11 1LZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "68, WINDSOR CRESCENT"
+      "address": "5, BUTLERS GARDENS"
     },
     {
-      "price": 332500,
-      "date": "2026-05-22",
-      "postcode": "BA11 1PQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, PORTWAY GARDENS"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-19",
-      "postcode": "BA11 2TF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, SYCAMORE DRIVE"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-19",
-      "postcode": "BA11 4GD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, OAKLEY WAY"
-    },
-    {
-      "price": 770000,
-      "date": "2026-05-12",
-      "postcode": "BA11 1NP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, ADDERWELL"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-12",
-      "postcode": "BA11 5HU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, RIVER WALK"
-    },
-    {
-      "price": 380000,
-      "date": "2026-05-12",
-      "postcode": "BA11 1RP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, AVENUE ROAD"
-    },
-    {
-      "price": 355000,
-      "date": "2026-05-08",
-      "postcode": "BA11 1PB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, NEW BUILDINGS"
-    },
-    {
-      "price": 216666,
-      "date": "2026-05-07",
-      "postcode": "BA11 2SL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, PEDLARS GROVE"
-    },
-    {
-      "price": 345000,
-      "date": "2026-05-06",
-      "postcode": "BA11 4HD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, CRITCHILL GROVE"
-    },
-    {
-      "price": 1100000,
-      "date": "2026-05-06",
-      "postcode": "BA11 1HH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, WEYMOUTH ROAD"
-    },
-    {
-      "price": 410000,
-      "date": "2026-05-01",
-      "postcode": "BA11 3DE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, TRINITY STREET"
-    },
-    {
-      "price": 420000,
-      "date": "2026-05-01",
-      "postcode": "BA11 1DB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, CATHERINE STREET"
-    },
-    {
-      "price": 245000,
-      "date": "2026-05-01",
-      "postcode": "BA11 2XT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CHARTERHOUSE DRIVE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-01",
-      "postcode": "BA11 3AX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "71, WHATCOMBE ROAD"
-    },
-    {
-      "price": 353000,
-      "date": "2026-05-01",
-      "postcode": "BA11 2JT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, LEYS LANE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-01",
-      "postcode": "BA11 2XS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, BRUNEL WAY"
-    },
-    {
-      "price": 150000,
-      "date": "2026-04-30",
-      "postcode": "BA11 1ED",
+      "price": 200000,
+      "date": "2026-06-12",
+      "postcode": "BA11 4JW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 39, LONGLEAT COURT, PARK ROAD"
+      "address": "1, ST ALDHELMS COURT, GREEN LANE"
+    },
+    {
+      "price": 165000,
+      "date": "2026-06-12",
+      "postcode": "BA11 5AH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "81, FELTHAM DRIVE"
+    },
+    {
+      "price": 515000,
+      "date": "2026-06-10",
+      "postcode": "BA11 4NP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, HORN STREET"
+    },
+    {
+      "price": 500000,
+      "date": "2026-06-04",
+      "postcode": "BA11 3NB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, WESTON WALK"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-04",
+      "postcode": "BA11 4JR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, WESTWOOD DRIVE"
+    },
+    {
+      "price": 170000,
+      "date": "2026-05-29",
+      "postcode": "BA11 3NQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "32, MARLEYS WAY"
+    },
+    {
+      "price": 260000,
+      "date": "2026-05-29",
+      "postcode": "BA11 2UZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, WREN CLOSE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-05-29",
+      "postcode": "BA11 4DT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CRANMORE VIEW"
+    },
+    {
+      "price": 610000,
+      "date": "2026-05-28",
+      "postcode": "BA11 1HB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, SOMERSET ROAD"
+    },
+    {
+      "price": 860000,
+      "date": "2026-05-28",
+      "postcode": "BA11 5JG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, STYLES HILL"
+    },
+    {
+      "price": 383500,
+      "date": "2026-05-27",
+      "postcode": "BA11 2HE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, FROMEFIELD"
+    },
+    {
+      "price": 880000,
+      "date": "2026-05-27",
+      "postcode": "BA11 5BQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE COACH HOUSE, SANDYS HILL LANE"
+    },
+    {
+      "price": 425000,
+      "date": "2026-05-27",
+      "postcode": "BA11 1GN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, PRINTWORKS ROAD"
+    },
+    {
+      "price": 530000,
+      "date": "2026-05-27",
+      "postcode": "BA11 1JL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, KEYFORD TERRACE"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 375000,
-      "transactions": 25
+      "medianPrice": 380000,
+      "transactions": 26
     },
     {
       "month": "2024-02",
-      "medianPrice": 334975,
-      "transactions": 42
+      "medianPrice": 329950,
+      "transactions": 43
     },
     {
       "month": "2024-03",
       "medianPrice": 345000,
-      "transactions": 49
+      "transactions": 50
     },
     {
       "month": "2024-04",
@@ -242,8 +246,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 348750,
-      "transactions": 44
+      "medianPrice": 347500,
+      "transactions": 45
     },
     {
       "month": "2024-10",
@@ -297,13 +301,13 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 325000,
-      "transactions": 59
+      "medianPrice": 275000,
+      "transactions": 75
     },
     {
       "month": "2025-09",
-      "medianPrice": 340000,
-      "transactions": 50
+      "medianPrice": 322500,
+      "transactions": 54
     },
     {
       "month": "2025-10",
@@ -312,45 +316,50 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 322500,
-      "transactions": 54
+      "medianPrice": 320000,
+      "transactions": 55
     },
     {
       "month": "2025-12",
-      "medianPrice": 337500,
-      "transactions": 43
+      "medianPrice": 336250,
+      "transactions": 48
     },
     {
       "month": "2026-01",
-      "medianPrice": 305000,
-      "transactions": 49
+      "medianPrice": 307500,
+      "transactions": 50
     },
     {
       "month": "2026-02",
       "medianPrice": 320000,
-      "transactions": 31
+      "transactions": 33
     },
     {
       "month": "2026-03",
-      "medianPrice": 269000,
-      "transactions": 42
+      "medianPrice": 263000,
+      "transactions": 45
     },
     {
       "month": "2026-04",
-      "medianPrice": 310000,
-      "transactions": 31
+      "medianPrice": 300000,
+      "transactions": 33
     },
     {
       "month": "2026-05",
-      "medianPrice": 353000,
-      "transactions": 19
+      "medianPrice": 357500,
+      "transactions": 34
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 310000,
+      "transactions": 11
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 343001,
-      "transactions": 116
+      "medianPrice": 345000,
+      "transactions": 119
     },
     {
       "quarter": "2024-Q2",
@@ -359,8 +368,8 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 317500,
-      "transactions": 160
+      "medianPrice": 320000,
+      "transactions": 161
     },
     {
       "quarter": "2024-Q4",
@@ -379,23 +388,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 310000,
-      "transactions": 170
+      "medianPrice": 292500,
+      "transactions": 190
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 332500,
-      "transactions": 146
+      "medianPrice": 330000,
+      "transactions": 152
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 297500,
-      "transactions": 122
+      "transactions": 128
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 337250,
-      "transactions": 50
+      "transactions": 78
     }
   ]
 }

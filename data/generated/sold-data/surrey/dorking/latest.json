@@ -1,23 +1,107 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.241Z",
+  "updatedAt": "2026-08-07T08:45:01.345Z",
   "townSlug": "dorking",
   "countySlug": "surrey",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "MOLE VALLEY"
+  ],
   "stats": {
-    "medianPrice": 495000,
+    "medianPrice": 490000,
     "medianByType": {
       "D": 910000,
       "S": 550000,
-      "T": 435000,
-      "F": 268000
+      "T": 436000,
+      "F": 274000
     },
-    "transactionCount12m": 294,
-    "yoyChange": 6.5,
+    "transactionCount12m": 279,
+    "yoyChange": 5.4,
     "newBuildCount": 0,
-    "existingCount": 294,
+    "existingCount": 279,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 270000,
+      "date": "2026-06-24",
+      "postcode": "RH4 1BS",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62A, WEST STREET"
+    },
+    {
+      "price": 124000,
+      "date": "2026-06-12",
+      "postcode": "RH4 2HQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 4, 16, SOUTH STREET"
+    },
+    {
+      "price": 368500,
+      "date": "2026-06-08",
+      "postcode": "RH5 4NE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, LABURNUM COTTAGE, HORSHAM ROAD"
+    },
+    {
+      "price": 335000,
+      "date": "2026-05-29",
+      "postcode": "RH4 3NL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, WESTCOTT COURT, PARSONAGE LANE"
+    },
+    {
+      "price": 264000,
+      "date": "2026-05-29",
+      "postcode": "RH5 5JT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "69, MARKHAM ROAD"
+    },
+    {
+      "price": 612500,
+      "date": "2026-05-29",
+      "postcode": "RH5 5TR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "RAPLEYS, THE GREEN"
+    },
+    {
+      "price": 975000,
+      "date": "2026-05-28",
+      "postcode": "RH4 3DF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FARLEY, LONGFIELD ROAD"
+    },
+    {
+      "price": 180000,
+      "date": "2026-05-21",
+      "postcode": "RH4 1UB",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, KINGFISHER COURT"
+    },
+    {
+      "price": 450000,
+      "date": "2026-05-20",
+      "postcode": "RH4 1JT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, HART GARDENS"
+    },
     {
       "price": 340000,
       "date": "2026-05-15",
@@ -26,6 +110,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "9, VINCENT LANE"
+    },
+    {
+      "price": 719000,
+      "date": "2026-05-15",
+      "postcode": "RH5 6AS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "AFTON COTTAGE, ADLERS LANE"
+    },
+    {
+      "price": 570000,
+      "date": "2026-05-08",
+      "postcode": "RH4 1NB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, ASHCOMBE ROAD"
     },
     {
       "price": 359750,
@@ -44,15 +146,6 @@
       "newBuild": false,
       "tenure": "L",
       "address": "20, LIMEWAY TERRACE"
-    },
-    {
-      "price": 570000,
-      "date": "2026-05-08",
-      "postcode": "RH4 1NB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, ASHCOMBE ROAD"
     },
     {
       "price": 465000,
@@ -107,96 +200,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "25, THE DENE"
-    },
-    {
-      "price": 765000,
-      "date": "2026-04-24",
-      "postcode": "RH5 6HE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CLIFF COTTAGE"
-    },
-    {
-      "price": 695000,
-      "date": "2026-04-24",
-      "postcode": "RH4 3DS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, GLEBE ROAD"
-    },
-    {
-      "price": 420000,
-      "date": "2026-04-24",
-      "postcode": "RH5 4HL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, BENTSBROOK COTTAGES, SPOOK HILL"
-    },
-    {
-      "price": 950000,
-      "date": "2026-04-23",
-      "postcode": "RH5 4QD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SUNRISE, NEWDIGATE ROAD"
-    },
-    {
-      "price": 550000,
-      "date": "2026-04-22",
-      "postcode": "RH5 5TH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, FERN COTTAGES, STANE STREET"
-    },
-    {
-      "price": 125000,
-      "date": "2026-04-21",
-      "postcode": "RH4 1HH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "23, CANTERBURY COURT"
-    },
-    {
-      "price": 230000,
-      "date": "2026-04-17",
-      "postcode": "RH4 2JQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, RAVENSWOOD COURT, HORSHAM ROAD"
-    },
-    {
-      "price": 882837,
-      "date": "2026-04-17",
-      "postcode": "RH4 3ES",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, KNOLL ROAD"
-    },
-    {
-      "price": 302500,
-      "date": "2026-04-17",
-      "postcode": "RH5 4TE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, TREELANDS"
-    },
-    {
-      "price": 750000,
-      "date": "2026-04-16",
-      "postcode": "RH4 1HZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, LIMEWAY TERRACE"
     }
   ],
   "monthlyHistory": [
@@ -287,23 +290,23 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 376750,
-      "transactions": 45
+      "medianPrice": 375875,
+      "transactions": 46
     },
     {
       "month": "2025-07",
-      "medianPrice": 515000,
-      "transactions": 41
+      "medianPrice": 507500,
+      "transactions": 42
     },
     {
       "month": "2025-08",
       "medianPrice": 525000,
-      "transactions": 32
+      "transactions": 37
     },
     {
       "month": "2025-09",
-      "medianPrice": 544000,
-      "transactions": 32
+      "medianPrice": 538000,
+      "transactions": 33
     },
     {
       "month": "2025-10",
@@ -312,23 +315,23 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 519000,
-      "transactions": 32
+      "medianPrice": 530000,
+      "transactions": 33
     },
     {
       "month": "2025-12",
       "medianPrice": 450000,
-      "transactions": 21
-    },
-    {
-      "month": "2026-01",
-      "medianPrice": 525000,
       "transactions": 23
     },
     {
+      "month": "2026-01",
+      "medianPrice": 500000,
+      "transactions": 27
+    },
+    {
       "month": "2026-02",
-      "medianPrice": 420000,
-      "transactions": 30
+      "medianPrice": 392500,
+      "transactions": 32
     },
     {
       "month": "2026-03",
@@ -338,12 +341,17 @@
     {
       "month": "2026-04",
       "medianPrice": 460000,
-      "transactions": 25
+      "transactions": 27
     },
     {
       "month": "2026-05",
-      "medianPrice": 352375,
-      "transactions": 6
+      "medianPrice": 359750,
+      "transactions": 13
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 270000,
+      "transactions": 3
     }
   ],
   "quarterlyHistory": [
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 412500,
-      "transactions": 90
+      "medianPrice": 410000,
+      "transactions": 91
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 525000,
-      "transactions": 105
+      "medianPrice": 520000,
+      "transactions": 112
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 500000,
-      "transactions": 97
+      "transactions": 100
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 475000,
-      "transactions": 67
+      "medianPrice": 460000,
+      "transactions": 73
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 450000,
-      "transactions": 31
+      "medianPrice": 425000,
+      "transactions": 43
     }
   ]
 }

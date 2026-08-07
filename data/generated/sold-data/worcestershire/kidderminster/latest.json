@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.276Z",
+  "updatedAt": "2026-08-07T08:45:02.430Z",
   "townSlug": "kidderminster",
   "countySlug": "worcestershire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WYRE FOREST"
+  ],
   "stats": {
-    "medianPrice": 243750,
+    "medianPrice": 240000,
     "medianByType": {
-      "D": 360000,
-      "S": 245000,
-      "T": 185000,
+      "D": 350000,
+      "S": 243500,
+      "T": 187000,
       "F": 124000
     },
-    "transactionCount12m": 1171,
-    "yoyChange": -2.5,
-    "newBuildCount": 22,
-    "existingCount": 1149,
-    "newBuildPremium": 13.5
+    "transactionCount12m": 1152,
+    "yoyChange": -4.8,
+    "newBuildCount": 23,
+    "existingCount": 1129,
+    "newBuildPremium": 21.3
   },
   "recentTransactions": [
     {
-      "price": 193000,
-      "date": "2026-05-26",
-      "postcode": "DY13 8EZ",
-      "propertyType": "S",
+      "price": 150000,
+      "date": "2026-06-26",
+      "postcode": "DY10 1XQ",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "9, COURT DRIVE"
+      "tenure": "L",
+      "address": "46, HUMPHRIES DRIVE"
     },
     {
-      "price": 161500,
-      "date": "2026-05-22",
-      "postcode": "DY10 2LN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, YORK STREET"
-    },
-    {
-      "price": 297500,
-      "date": "2026-05-22",
-      "postcode": "DY11 7ND",
+      "price": 260000,
+      "date": "2026-06-19",
+      "postcode": "DY13 0NA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, NAYLOR CLOSE"
+      "address": "15, BEACH ROAD"
     },
     {
-      "price": 227500,
-      "date": "2026-05-22",
-      "postcode": "DY13 9NJ",
+      "price": 245000,
+      "date": "2026-06-19",
+      "postcode": "DY12 2HY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, THE GROVE"
+      "address": "12, GROSVENOR WOOD"
     },
     {
-      "price": 425000,
-      "date": "2026-05-20",
-      "postcode": "DY12 1QG",
-      "propertyType": "D",
+      "price": 220000,
+      "date": "2026-06-19",
+      "postcode": "DY11 5LB",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, MORTIMER GROVE"
+      "address": "35, TRIMPLEY DRIVE"
     },
     {
       "price": 360000,
-      "date": "2026-05-18",
-      "postcode": "DY13 8PB",
+      "date": "2026-06-18",
+      "postcode": "DY10 3AG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, FOXWHELP CLOSE"
+      "address": "108, HOLMCROFT ROAD"
     },
     {
-      "price": 81500,
-      "date": "2026-05-15",
-      "postcode": "DY11 6ND",
-      "propertyType": "F",
+      "price": 119500,
+      "date": "2026-06-17",
+      "postcode": "DY11 6TH",
+      "propertyType": "O",
       "newBuild": false,
-      "tenure": "L",
-      "address": "1, POPLAR ROAD"
+      "tenure": "F",
+      "address": "82, CASTLE ROAD"
     },
     {
-      "price": 262000,
-      "date": "2026-05-15",
-      "postcode": "DY10 2AF",
+      "price": 225000,
+      "date": "2026-06-16",
+      "postcode": "DY13 9NE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "77, CLENSMORE STREET"
+      "address": "58, THE GROVE"
     },
     {
-      "price": 627000,
-      "date": "2026-05-15",
-      "postcode": "DY12 1HU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, THRELFALL DRIVE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-15",
-      "postcode": "DY13 0NY",
+      "price": 170000,
+      "date": "2026-06-16",
+      "postcode": "DY10 2SF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, CLEEVE CLOSE"
+      "address": "31, ADAMS COURT"
     },
     {
-      "price": 247000,
-      "date": "2026-05-15",
-      "postcode": "DY13 8NY",
+      "price": 308000,
+      "date": "2026-06-15",
+      "postcode": "DY13 8QX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CALDY WALK"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-12",
+      "postcode": "DY13 8JN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "55, BUTTERMERE ROAD"
+      "address": "4, DERWENT AVENUE"
     },
     {
-      "price": 270000,
-      "date": "2026-05-15",
-      "postcode": "DY12 1JP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, MEADOW RISE"
-    },
-    {
-      "price": 124500,
-      "date": "2026-05-14",
-      "postcode": "DY11 6DX",
+      "price": 177420,
+      "date": "2026-06-12",
+      "postcode": "DY10 3ND",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 18, CASTLE LOCKS, CASTLE ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-14",
-      "postcode": "DY13 8NZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, CORTLAND WAY"
-    },
-    {
-      "price": 297500,
-      "date": "2026-05-14",
-      "postcode": "DY13 8QJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, WINDERMERE WAY"
-    },
-    {
-      "price": 263000,
-      "date": "2026-05-13",
-      "postcode": "DY13 0HY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, WOODHAMPTON CLOSE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-13",
-      "postcode": "DY12 2BW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, TUDOR ROAD"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-13",
-      "postcode": "DY13 0AN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, BOWER HILL DRIVE"
+      "address": "6, MILL LANE"
     },
     {
       "price": 270000,
-      "date": "2026-05-12",
-      "postcode": "DY11 6NY",
+      "date": "2026-06-12",
+      "postcode": "DY11 5JY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "57, WOODWARD ROAD"
+      "address": "162, HABBERLEY LANE"
     },
     {
-      "price": 320000,
-      "date": "2026-05-12",
-      "postcode": "DY10 3FJ",
+      "price": 173000,
+      "date": "2026-06-11",
+      "postcode": "DY11 7JS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, SUMMER ROAD"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-09",
+      "postcode": "DY10 4AE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, STOURMINSTER WAY"
+      "address": "18, MALLARD AVENUE"
+    },
+    {
+      "price": 165000,
+      "date": "2026-06-09",
+      "postcode": "DY11 7JB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, SPRING GROVE CRESCENT"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-05",
+      "postcode": "DY13 0HB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, HANSTONE ROAD"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-05",
+      "postcode": "DY13 8AN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, TREVITHICK CLOSE"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-05",
+      "postcode": "DY10 3FL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, PIPISTRELLE DRIVE"
+    },
+    {
+      "price": 110000,
+      "date": "2026-06-05",
+      "postcode": "DY13 8EA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, FORGE COURT, ST MICHAELS CLOSE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-05",
+      "postcode": "DY13 0EW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, JACKSON CRESCENT"
     }
   ],
   "monthlyHistory": [
@@ -213,7 +216,7 @@
     {
       "month": "2024-03",
       "medianPrice": 228000,
-      "transactions": 139
+      "transactions": 138
     },
     {
       "month": "2024-04",
@@ -227,8 +230,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 250000,
-      "transactions": 153
+      "medianPrice": 250250,
+      "transactions": 154
     },
     {
       "month": "2024-07",
@@ -258,7 +261,7 @@
     {
       "month": "2024-12",
       "medianPrice": 256500,
-      "transactions": 157
+      "transactions": 158
     },
     {
       "month": "2025-01",
@@ -267,13 +270,13 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 260000,
-      "transactions": 161
+      "medianPrice": 259000,
+      "transactions": 160
     },
     {
       "month": "2025-03",
-      "medianPrice": 265000,
-      "transactions": 301
+      "medianPrice": 265500,
+      "transactions": 304
     },
     {
       "month": "2025-04",
@@ -283,79 +286,84 @@
     {
       "month": "2025-05",
       "medianPrice": 243000,
-      "transactions": 129
+      "transactions": 131
     },
     {
       "month": "2025-06",
-      "medianPrice": 256000,
-      "transactions": 164
+      "medianPrice": 260000,
+      "transactions": 167
     },
     {
       "month": "2025-07",
-      "medianPrice": 270000,
-      "transactions": 160
+      "medianPrice": 268750,
+      "transactions": 168
     },
     {
       "month": "2025-08",
       "medianPrice": 255000,
-      "transactions": 151
+      "transactions": 165
     },
     {
       "month": "2025-09",
-      "medianPrice": 234000,
-      "transactions": 104
+      "medianPrice": 237500,
+      "transactions": 113
     },
     {
       "month": "2025-10",
       "medianPrice": 255500,
-      "transactions": 156
+      "transactions": 162
     },
     {
       "month": "2025-11",
-      "medianPrice": 226750,
-      "transactions": 124
+      "medianPrice": 233500,
+      "transactions": 135
     },
     {
       "month": "2025-12",
-      "medianPrice": 241500,
-      "transactions": 131
+      "medianPrice": 240000,
+      "transactions": 139
     },
     {
       "month": "2026-01",
-      "medianPrice": 235000,
-      "transactions": 81
+      "medianPrice": 230000,
+      "transactions": 93
     },
     {
       "month": "2026-02",
       "medianPrice": 245500,
-      "transactions": 78
+      "transactions": 80
     },
     {
       "month": "2026-03",
       "medianPrice": 220000,
-      "transactions": 99
+      "transactions": 105
     },
     {
       "month": "2026-04",
-      "medianPrice": 225000,
-      "transactions": 71
+      "medianPrice": 240000,
+      "transactions": 79
     },
     {
       "month": "2026-05",
-      "medianPrice": 249000,
-      "transactions": 31
+      "medianPrice": 255500,
+      "transactions": 74
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 220000,
+      "transactions": 27
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 228998,
-      "transactions": 362
+      "medianPrice": 229995,
+      "transactions": 361
     },
     {
       "quarter": "2024-Q2",
       "medianPrice": 245000,
-      "transactions": 389
+      "transactions": 390
     },
     {
       "quarter": "2024-Q3",
@@ -364,38 +372,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 254563,
-      "transactions": 496
+      "medianPrice": 254125,
+      "transactions": 497
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 260000,
-      "transactions": 586
+      "transactions": 588
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 250000,
-      "transactions": 374
+      "transactions": 379
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 250000,
-      "transactions": 415
+      "medianPrice": 251000,
+      "transactions": 446
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 242500,
-      "transactions": 411
+      "medianPrice": 242000,
+      "transactions": 436
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 234975,
-      "transactions": 258
+      "medianPrice": 230000,
+      "transactions": 278
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 237500,
-      "transactions": 102
+      "medianPrice": 240000,
+      "transactions": 180
     }
   ]
 }

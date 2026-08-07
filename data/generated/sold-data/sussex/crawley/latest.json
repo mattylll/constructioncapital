@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.269Z",
+  "updatedAt": "2026-08-07T08:45:01.374Z",
   "townSlug": "crawley",
   "countySlug": "sussex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CRAWLEY"
+  ],
   "stats": {
     "medianPrice": 345000,
     "medianByType": {
-      "D": 575500,
+      "D": 580000,
       "S": 400000,
-      "T": 342500,
-      "F": 205000
+      "T": 342250,
+      "F": 209000
     },
-    "transactionCount12m": 919,
-    "yoyChange": 0,
+    "transactionCount12m": 913,
+    "yoyChange": -0.4,
     "newBuildCount": 0,
-    "existingCount": 919,
+    "existingCount": 913,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 325000,
-      "date": "2026-05-22",
-      "postcode": "RH11 9QQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, BROOKLANDS ROAD"
-    },
-    {
-      "price": 112500,
-      "date": "2026-05-15",
-      "postcode": "RH11 9QQ",
+      "price": 189000,
+      "date": "2026-06-23",
+      "postcode": "RH11 8BP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "3, BROOKLANDS ROAD"
+      "address": "88, HIGHAMS HILL"
     },
     {
-      "price": 385000,
-      "date": "2026-05-15",
-      "postcode": "RH10 3BL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, WORDSWORTH CLOSE"
-    },
-    {
-      "price": 390000,
-      "date": "2026-05-13",
-      "postcode": "RH11 0QE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, YEWLANDS WALK"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-12",
-      "postcode": "RH11 7PT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, BROCK ROAD"
-    },
-    {
-      "price": 352500,
-      "date": "2026-05-11",
-      "postcode": "RH10 7QN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, STABLE CLOSE"
-    },
-    {
-      "price": 348000,
-      "date": "2026-05-08",
-      "postcode": "RH10 1JY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, WEST WAY"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-08",
-      "postcode": "RH11 9EP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, STONECROP CLOSE"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-08",
-      "postcode": "RH10 7SD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, ALFRED CLOSE"
-    },
-    {
-      "price": 615000,
-      "date": "2026-05-08",
-      "postcode": "RH10 8EB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, HOLLYBUSH ROAD"
-    },
-    {
-      "price": 462500,
-      "date": "2026-05-08",
-      "postcode": "RH10 7XQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, LINGFIELD DRIVE"
-    },
-    {
-      "price": 357500,
-      "date": "2026-05-08",
-      "postcode": "RH10 3NB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, LANCASTER CLOSE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-08",
-      "postcode": "RH11 7NY",
+      "price": 258000,
+      "date": "2026-06-16",
+      "postcode": "RH10 3GQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "7, FOUNDRY HOUSE, WEST GREEN DRIVE"
+      "address": "10, OPAL HOUSE, DAFFODIL CRESCENT"
     },
     {
-      "price": 675000,
-      "date": "2026-05-07",
-      "postcode": "RH10 7HX",
+      "price": 210000,
+      "date": "2026-06-15",
+      "postcode": "RH10 3GL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "8, GILES HOUSE, SANGSTER CLOSE"
+    },
+    {
+      "price": 352000,
+      "date": "2026-06-15",
+      "postcode": "RH10 7AP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, THE PASTURE"
+    },
+    {
+      "price": 413750,
+      "date": "2026-06-11",
+      "postcode": "RH11 8AA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, PERRYFIELD ROAD"
+    },
+    {
+      "price": 328000,
+      "date": "2026-06-11",
+      "postcode": "RH10 6DD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, HUNTER ROAD"
+    },
+    {
+      "price": 605000,
+      "date": "2026-06-11",
+      "postcode": "RH10 3TB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, KENDALE CLOSE"
+      "address": "39, ST CATHERINES ROAD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-10",
+      "postcode": "RH10 8JF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "16, MARLOW COURT"
     },
     {
       "price": 365000,
-      "date": "2026-05-07",
-      "postcode": "RH10 7NU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, WANTAGE CLOSE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-07",
-      "postcode": "RH10 7AS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, KNEPP CLOSE"
-    },
-    {
-      "price": 447500,
-      "date": "2026-05-07",
-      "postcode": "RH10 7UG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, MAYES CLOSE"
-    },
-    {
-      "price": 201500,
-      "date": "2026-05-06",
-      "postcode": "RH10 7UY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, STROUDLEY CLOSE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-06",
-      "postcode": "RH10 6PR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, HIGHDOWN COURT, FORESTFIELD"
-    },
-    {
-      "price": 395000,
-      "date": "2026-05-05",
-      "postcode": "RH11 7AU",
+      "date": "2026-06-10",
+      "postcode": "RH10 7HJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, VICTORIA ROAD"
+      "address": "39, MATTHEWS DRIVE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-09",
+      "postcode": "RH11 9NZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, BUCHANS LAWN"
+    },
+    {
+      "price": 373000,
+      "date": "2026-06-09",
+      "postcode": "RH10 7QY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, BENJAMIN ROAD"
+    },
+    {
+      "price": 604000,
+      "date": "2026-06-08",
+      "postcode": "RH10 7GY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, CAMPBELL ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-05",
+      "postcode": "RH11 9NZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, BUCHANS LAWN"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-05",
+      "postcode": "RH10 3JN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, WELLINGTON CLOSE"
+    },
+    {
+      "price": 665000,
+      "date": "2026-06-05",
+      "postcode": "RH10 7EF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, MOUNT CLOSE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-06-05",
+      "postcode": "RH11 7UE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BRISBANE CLOSE"
+    },
+    {
+      "price": 141000,
+      "date": "2026-06-04",
+      "postcode": "RH11 0LX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "32, TRIST WAY"
+    },
+    {
+      "price": 465000,
+      "date": "2026-06-04",
+      "postcode": "RH10 3ER",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, HAMPDEN CLOSE"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-03",
+      "postcode": "RH10 7HL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, HOLDER ROAD"
+    },
+    {
+      "price": 312500,
+      "date": "2026-06-03",
+      "postcode": "RH10 7NY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, CARTER ROAD"
     }
   ],
   "monthlyHistory": [
@@ -268,12 +271,12 @@
     {
       "month": "2025-02",
       "medianPrice": 350000,
-      "transactions": 121
+      "transactions": 120
     },
     {
       "month": "2025-03",
       "medianPrice": 355000,
-      "transactions": 216
+      "transactions": 218
     },
     {
       "month": "2025-04",
@@ -288,62 +291,67 @@
     {
       "month": "2025-06",
       "medianPrice": 350000,
-      "transactions": 104
+      "transactions": 105
     },
     {
       "month": "2025-07",
       "medianPrice": 350000,
-      "transactions": 109
+      "transactions": 117
     },
     {
       "month": "2025-08",
       "medianPrice": 342500,
-      "transactions": 124
+      "transactions": 126
     },
     {
       "month": "2025-09",
       "medianPrice": 355000,
-      "transactions": 114
+      "transactions": 117
     },
     {
       "month": "2025-10",
       "medianPrice": 335000,
-      "transactions": 107
+      "transactions": 110
     },
     {
       "month": "2025-11",
-      "medianPrice": 325000,
-      "transactions": 96
+      "medianPrice": 331000,
+      "transactions": 99
     },
     {
       "month": "2025-12",
-      "medianPrice": 350000,
-      "transactions": 98
+      "medianPrice": 357500,
+      "transactions": 111
     },
     {
       "month": "2026-01",
-      "medianPrice": 345000,
-      "transactions": 69
+      "medianPrice": 350000,
+      "transactions": 76
     },
     {
       "month": "2026-02",
       "medianPrice": 340000,
-      "transactions": 69
+      "transactions": 72
     },
     {
       "month": "2026-03",
-      "medianPrice": 348000,
-      "transactions": 73
+      "medianPrice": 348975,
+      "transactions": 74
     },
     {
       "month": "2026-04",
       "medianPrice": 355000,
-      "transactions": 53
+      "transactions": 61
     },
     {
       "month": "2026-05",
-      "medianPrice": 362500,
-      "transactions": 28
+      "medianPrice": 350000,
+      "transactions": 59
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 352000,
+      "transactions": 25
     }
   ],
   "quarterlyHistory": [
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 350000,
-      "transactions": 423
+      "medianPrice": 350500,
+      "transactions": 424
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 342250,
-      "transactions": 264
+      "medianPrice": 342500,
+      "transactions": 265
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 346000,
-      "transactions": 347
+      "medianPrice": 348500,
+      "transactions": 360
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 338000,
-      "transactions": 301
+      "medianPrice": 340000,
+      "transactions": 320
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 345000,
-      "transactions": 211
+      "transactions": 222
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 357500,
-      "transactions": 81
+      "medianPrice": 352500,
+      "transactions": 145
     }
   ]
 }

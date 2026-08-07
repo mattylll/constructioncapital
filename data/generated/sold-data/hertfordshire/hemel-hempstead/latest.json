@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.529Z",
+  "updatedAt": "2026-08-07T08:45:01.647Z",
   "townSlug": "hemel-hempstead",
   "countySlug": "hertfordshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "DACORUM"
+  ],
   "stats": {
-    "medianPrice": 450000,
+    "medianPrice": 445000,
     "medianByType": {
-      "D": 790000,
-      "S": 534000,
-      "T": 416500,
-      "F": 252000
+      "D": 796250,
+      "S": 538500,
+      "T": 412250,
+      "F": 250000
     },
-    "transactionCount12m": 1604,
-    "yoyChange": 2.3,
-    "newBuildCount": 1,
-    "existingCount": 1603,
-    "newBuildPremium": null
+    "transactionCount12m": 1578,
+    "yoyChange": 1.1,
+    "newBuildCount": 5,
+    "existingCount": 1573,
+    "newBuildPremium": 12.4
   },
   "recentTransactions": [
     {
-      "price": 770000,
-      "date": "2026-05-28",
-      "postcode": "HP23 5JL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, GROVE PARK"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-26",
-      "postcode": "HP1 2TD",
+      "price": 420000,
+      "date": "2026-06-23",
+      "postcode": "HP23 4HB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "67, THE LAWNS"
+      "address": "63, OKELEY LANE"
     },
     {
-      "price": 154000,
-      "date": "2026-05-22",
-      "postcode": "HP23 5EW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "135, ROSEBERY WAY"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-22",
-      "postcode": "HP2 6DH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "137, WAVENEY"
-    },
-    {
-      "price": 775000,
-      "date": "2026-05-21",
-      "postcode": "HP4 1LW",
-      "propertyType": "D",
+      "price": 742500,
+      "date": "2026-06-22",
+      "postcode": "HP4 2JH",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, BRIDGEWATER HILL"
+      "address": "4, WOODLANDS AVENUE"
     },
     {
-      "price": 840000,
-      "date": "2026-05-18",
-      "postcode": "HP2 7AG",
-      "propertyType": "D",
+      "price": 440000,
+      "date": "2026-06-19",
+      "postcode": "HP23 6ET",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, BRANKSOME CLOSE"
-    },
-    {
-      "price": 410000,
-      "date": "2026-05-18",
-      "postcode": "HP1 3HB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, PESCOT HILL"
-    },
-    {
-      "price": 727500,
-      "date": "2026-05-15",
-      "postcode": "HP3 8QT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, THE HORSESHOE"
+      "address": "3, GRYMSDYKE ROAD"
     },
     {
       "price": 575000,
-      "date": "2026-05-15",
-      "postcode": "HP3 0AN",
+      "date": "2026-06-19",
+      "postcode": "HP3 9AS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, WEST VALLEY ROAD"
+      "address": "3, STRATFORD WAY"
     },
     {
-      "price": 415000,
-      "date": "2026-05-15",
-      "postcode": "AL3 8PU",
+      "price": 411500,
+      "date": "2026-06-19",
+      "postcode": "HP2 5HU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, GARLAND CLOSE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-19",
+      "postcode": "HP23 6BX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "26, THE FURLONG"
+    },
+    {
+      "price": 256000,
+      "date": "2026-06-19",
+      "postcode": "HP3 9TJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, GREAT ELMS ROAD"
+    },
+    {
+      "price": 435000,
+      "date": "2026-06-19",
+      "postcode": "HP1 2AH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, LOWER SALES"
+    },
+    {
+      "price": 549000,
+      "date": "2026-06-19",
+      "postcode": "HP4 3PA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, COOMBE GARDENS"
+    },
+    {
+      "price": 730000,
+      "date": "2026-06-18",
+      "postcode": "HP23 5BU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE LODGE, GRANGE CLOSE"
+      "address": "55, DUNDALE ROAD"
     },
     {
-      "price": 675000,
-      "date": "2026-05-15",
-      "postcode": "HP3 0AN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54A, WEST VALLEY ROAD"
-    },
-    {
-      "price": 810000,
-      "date": "2026-05-15",
-      "postcode": "HP4 3DJ",
+      "price": 430000,
+      "date": "2026-06-18",
+      "postcode": "AL3 8RU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "54, CHARLES STREET"
+      "address": "16, PICKFORD ROAD"
     },
     {
-      "price": 220000,
-      "date": "2026-05-15",
-      "postcode": "HP2 6DL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "275, WAVENEY"
-    },
-    {
-      "price": 580000,
-      "date": "2026-05-15",
-      "postcode": "HP3 8QU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "81, THE HORSESHOE"
-    },
-    {
-      "price": 542750,
-      "date": "2026-05-14",
-      "postcode": "HP3 8TD",
+      "price": 380000,
+      "date": "2026-06-18",
+      "postcode": "HP3 8NE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, STRONSAY CLOSE"
+      "address": "10, HADDON CLOSE"
     },
     {
-      "price": 480000,
-      "date": "2026-05-13",
-      "postcode": "HP3 9ST",
+      "price": 708000,
+      "date": "2026-06-17",
+      "postcode": "AL3 8HY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, ALBERT STREET"
+    },
+    {
+      "price": 376000,
+      "date": "2026-06-15",
+      "postcode": "HP1 3DU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GADEBRIDGE ROAD"
+    },
+    {
+      "price": 399000,
+      "date": "2026-06-15",
+      "postcode": "HP1 3PR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, DAGGSDELL ROAD"
+    },
+    {
+      "price": 5000,
+      "date": "2026-06-15",
+      "postcode": "HP4 3JS",
       "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "JANNAWAYS, LONDON ROAD"
+      "address": "22A, VERNEY CLOSE"
     },
     {
-      "price": 385000,
-      "date": "2026-05-13",
-      "postcode": "AL3 8RQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CORNER WOOD"
-    },
-    {
-      "price": 248000,
-      "date": "2026-05-13",
-      "postcode": "HP23 5AX",
+      "price": 225000,
+      "date": "2026-06-12",
+      "postcode": "HP2 4JH",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 17, MASSEY HOUSE, BROOK STREET"
+      "address": "8, WHITE HART ROAD"
     },
     {
-      "price": 520000,
-      "date": "2026-05-13",
-      "postcode": "HP23 5BT",
-      "propertyType": "S",
+      "price": 360000,
+      "date": "2026-06-12",
+      "postcode": "HP1 3QS",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, MEADOW CLOSE"
+      "address": "11, QUARTERMASS ROAD"
     },
     {
-      "price": 415000,
-      "date": "2026-05-12",
-      "postcode": "HP2 5SW",
-      "propertyType": "S",
+      "price": 499950,
+      "date": "2026-06-12",
+      "postcode": "HP23 5DA",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, CATTSDELL"
+      "address": "8A, MANOR ROAD"
+    },
+    {
+      "price": 480000,
+      "date": "2026-06-12",
+      "postcode": "AL3 8JB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "84, BUCKWOOD ROAD"
     }
   ],
   "monthlyHistory": [
@@ -258,7 +261,7 @@
     {
       "month": "2024-12",
       "medianPrice": 430000,
-      "transactions": 208
+      "transactions": 210
     },
     {
       "month": "2025-01",
@@ -267,8 +270,8 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 427000,
-      "transactions": 188
+      "medianPrice": 425000,
+      "transactions": 189
     },
     {
       "month": "2025-03",
@@ -277,8 +280,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 420000,
-      "transactions": 73
+      "medianPrice": 425000,
+      "transactions": 74
     },
     {
       "month": "2025-05",
@@ -287,63 +290,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 417500,
-      "transactions": 152
+      "medianPrice": 415000,
+      "transactions": 153
     },
     {
       "month": "2025-07",
       "medianPrice": 455000,
-      "transactions": 225
+      "transactions": 229
     },
     {
       "month": "2025-08",
-      "medianPrice": 460000,
-      "transactions": 187
+      "medianPrice": 457500,
+      "transactions": 198
     },
     {
       "month": "2025-09",
-      "medianPrice": 425000,
-      "transactions": 182
+      "medianPrice": 440000,
+      "transactions": 199
     },
     {
       "month": "2025-10",
-      "medianPrice": 505000,
-      "transactions": 211
+      "medianPrice": 498750,
+      "transactions": 216
     },
     {
       "month": "2025-11",
-      "medianPrice": 427500,
-      "transactions": 176
+      "medianPrice": 433500,
+      "transactions": 181
     },
     {
       "month": "2025-12",
-      "medianPrice": 443500,
-      "transactions": 160
+      "medianPrice": 445000,
+      "transactions": 177
     },
     {
       "month": "2026-01",
-      "medianPrice": 472500,
-      "transactions": 122
+      "medianPrice": 460000,
+      "transactions": 135
     },
     {
       "month": "2026-02",
-      "medianPrice": 416500,
-      "transactions": 113
+      "medianPrice": 420000,
+      "transactions": 116
     },
     {
       "month": "2026-03",
-      "medianPrice": 422500,
-      "transactions": 127
+      "medianPrice": 418000,
+      "transactions": 133
     },
     {
       "month": "2026-04",
-      "medianPrice": 457500,
-      "transactions": 96
+      "medianPrice": 430000,
+      "transactions": 105
     },
     {
       "month": "2026-05",
-      "medianPrice": 445000,
-      "transactions": 36
+      "medianPrice": 415000,
+      "transactions": 89
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 440000,
+      "transactions": 51
     }
   ],
   "quarterlyHistory": [
@@ -365,37 +373,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 430000,
-      "transactions": 637
+      "transactions": 639
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 450000,
-      "transactions": 727
+      "transactions": 728
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 420000,
-      "transactions": 368
+      "transactions": 370
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 450000,
-      "transactions": 594
+      "transactions": 626
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 455000,
-      "transactions": 547
+      "medianPrice": 456500,
+      "transactions": 574
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 428250,
-      "transactions": 362
+      "medianPrice": 425000,
+      "transactions": 384
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 450000,
-      "transactions": 132
+      "medianPrice": 430000,
+      "transactions": 245
     }
   ]
 }

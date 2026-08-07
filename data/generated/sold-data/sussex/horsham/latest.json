@@ -1,279 +1,282 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.277Z",
+  "updatedAt": "2026-08-07T08:45:01.381Z",
   "townSlug": "horsham",
   "countySlug": "sussex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HORSHAM"
+  ],
   "stats": {
     "medianPrice": 430000,
     "medianByType": {
-      "D": 678500,
-      "S": 450000,
-      "T": 369000,
+      "D": 665000,
+      "S": 445000,
+      "T": 365750,
       "F": 228000
     },
-    "transactionCount12m": 1742,
+    "transactionCount12m": 1695,
     "yoyChange": 0,
-    "newBuildCount": 2,
-    "existingCount": 1740,
-    "newBuildPremium": null
+    "newBuildCount": 7,
+    "existingCount": 1688,
+    "newBuildPremium": -25.6
   },
   "recentTransactions": [
     {
-      "price": 385000,
-      "date": "2026-05-27",
-      "postcode": "RH13 8HB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "APRIL COTTAGE, BRIGHTON ROAD"
-    },
-    {
-      "price": 387500,
-      "date": "2026-05-21",
-      "postcode": "RH14 9RA",
+      "price": 275000,
+      "date": "2026-06-26",
+      "postcode": "RH12 5JD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "73, CARPENTERS"
+      "address": "23, SLOUGHBROOK CLOSE"
     },
     {
-      "price": 540000,
-      "date": "2026-05-21",
-      "postcode": "RH12 5JQ",
+      "price": 610000,
+      "date": "2026-06-25",
+      "postcode": "RH13 9XR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, BIGNOR CLOSE"
+      "address": "1, PORCHESTER CLOSE"
     },
     {
-      "price": 326000,
-      "date": "2026-05-21",
-      "postcode": "RH13 0JY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, SMUGGLERS WAY"
-    },
-    {
-      "price": 575000,
-      "date": "2026-05-20",
-      "postcode": "BN44 3PL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "99, PENLANDS VALE"
-    },
-    {
-      "price": 492500,
-      "date": "2026-05-20",
-      "postcode": "RH13 9GE",
+      "price": 225000,
+      "date": "2026-06-24",
+      "postcode": "RH20 2TA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, TREETOPS"
+      "address": "8, ORCHARD WAY"
     },
     {
-      "price": 515000,
-      "date": "2026-05-20",
-      "postcode": "RH14 9ZL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, RHODES WAY"
-    },
-    {
-      "price": 570000,
-      "date": "2026-05-19",
-      "postcode": "RH13 9UW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, CEDAR DRIVE"
-    },
-    {
-      "price": 410000,
-      "date": "2026-05-19",
-      "postcode": "RH13 5EA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "125, NEW STREET"
-    },
-    {
-      "price": 787500,
-      "date": "2026-05-19",
-      "postcode": "RH12 2QU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, WARNHAM ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-19",
-      "postcode": "RH13 5PS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "67, KINGSLEA"
-    },
-    {
-      "price": 570000,
-      "date": "2026-05-18",
-      "postcode": "BN5 9UY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, THE HOOKS"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-15",
-      "postcode": "RH12 4LW",
+      "price": 335000,
+      "date": "2026-06-22",
+      "postcode": "RH20 3PB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, GREENFIELDS WAY"
+      "address": "1, BANKS CROFT"
     },
     {
-      "price": 120000,
-      "date": "2026-05-15",
-      "postcode": "RH12 4YS",
-      "propertyType": "F",
+      "price": 320000,
+      "date": "2026-06-19",
+      "postcode": "RH20 1DH",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "21, ROBINSWOOD COURT"
+      "tenure": "F",
+      "address": "8, BELL CLOSE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-19",
+      "postcode": "RH13 8JG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, OAKWOOD"
+    },
+    {
+      "price": 855000,
+      "date": "2026-06-18",
+      "postcode": "RH20 4NT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LAVEROCK, FRYERN ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-18",
+      "postcode": "RH12 5NY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, ROPELAND WAY"
+    },
+    {
+      "price": 225500,
+      "date": "2026-06-17",
+      "postcode": "RH13 5SZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BOWES CLOSE"
+    },
+    {
+      "price": 440000,
+      "date": "2026-06-17",
+      "postcode": "RH14 9EN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, CRANHAM AVENUE"
+    },
+    {
+      "price": 470000,
+      "date": "2026-06-15",
+      "postcode": "RH13 9GT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, COMPTON PLACE"
     },
     {
       "price": 460000,
-      "date": "2026-05-15",
-      "postcode": "BN44 3HD",
+      "date": "2026-06-15",
+      "postcode": "RH13 8JW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "BARNACRES, CHURCH FARM WALK"
+      "address": "GREEN WAYS, CHURCH LANE"
     },
     {
-      "price": 400000,
-      "date": "2026-05-15",
-      "postcode": "RH13 9US",
+      "price": 453000,
+      "date": "2026-06-15",
+      "postcode": "RH12 4ET",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "229, CRAWLEY ROAD"
+    },
+    {
+      "price": 337500,
+      "date": "2026-06-15",
+      "postcode": "RH12 5PY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, CASTLEWOOD ROAD"
+      "address": "25, PRIMROSE COPSE"
     },
     {
-      "price": 450000,
-      "date": "2026-05-15",
-      "postcode": "RH12 5HL",
+      "price": 200000,
+      "date": "2026-06-15",
+      "postcode": "RH12 5XY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "32, BARNSNAP CLOSE"
+    },
+    {
+      "price": 1372222,
+      "date": "2026-06-12",
+      "postcode": "RH13 5QL",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "UNIT 6, REDKILN CLOSE"
+    },
+    {
+      "price": 430000,
+      "date": "2026-06-12",
+      "postcode": "RH14 9GL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, SADDLERS CLOSE"
+    },
+    {
+      "price": 610000,
+      "date": "2026-06-12",
+      "postcode": "RH14 9GU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "36, WAGTAIL CLOSE"
+      "address": "61, THE ALDERS"
     },
     {
-      "price": 237000,
-      "date": "2026-05-15",
-      "postcode": "RH12 2QG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, NEPTUNE COURT, HARDY CLOSE"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-15",
-      "postcode": "RH13 5AE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "32, MANTON COURT, KINGS ROAD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-15",
-      "postcode": "RH12 5XX",
+      "price": 810000,
+      "date": "2026-06-12",
+      "postcode": "BN44 3PH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "129, HEATH WAY"
+      "address": "3, PENLANDS CLOSE"
+    },
+    {
+      "price": 387000,
+      "date": "2026-06-12",
+      "postcode": "RH12 2JG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "72, SPENCERS ROAD"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 450000,
-      "transactions": 169
+      "medianPrice": 447500,
+      "transactions": 170
     },
     {
       "month": "2024-02",
-      "medianPrice": 385680,
-      "transactions": 165
+      "medianPrice": 389065,
+      "transactions": 166
     },
     {
       "month": "2024-03",
-      "medianPrice": 421250,
-      "transactions": 210
+      "medianPrice": 424950,
+      "transactions": 213
     },
     {
       "month": "2024-04",
-      "medianPrice": 425000,
-      "transactions": 183
+      "medianPrice": 427500,
+      "transactions": 186
     },
     {
       "month": "2024-05",
       "medianPrice": 450000,
-      "transactions": 200
+      "transactions": 202
     },
     {
       "month": "2024-06",
-      "medianPrice": 442500,
-      "transactions": 182
+      "medianPrice": 440000,
+      "transactions": 187
     },
     {
       "month": "2024-07",
       "medianPrice": 450000,
-      "transactions": 233
+      "transactions": 235
     },
     {
       "month": "2024-08",
       "medianPrice": 460000,
-      "transactions": 210
+      "transactions": 214
     },
     {
       "month": "2024-09",
       "medianPrice": 425000,
-      "transactions": 181
+      "transactions": 183
     },
     {
       "month": "2024-10",
-      "medianPrice": 450000,
-      "transactions": 219
+      "medianPrice": 448000,
+      "transactions": 224
     },
     {
       "month": "2024-11",
       "medianPrice": 425000,
-      "transactions": 233
+      "transactions": 242
     },
     {
       "month": "2024-12",
-      "medianPrice": 435000,
-      "transactions": 217
+      "medianPrice": 439975,
+      "transactions": 220
     },
     {
       "month": "2025-01",
       "medianPrice": 450000,
-      "transactions": 160
+      "transactions": 161
     },
     {
       "month": "2025-02",
-      "medianPrice": 413500,
-      "transactions": 206
+      "medianPrice": 415500,
+      "transactions": 208
     },
     {
       "month": "2025-03",
       "medianPrice": 420000,
-      "transactions": 418
+      "transactions": 420
     },
     {
       "month": "2025-04",
@@ -283,119 +286,124 @@
     {
       "month": "2025-05",
       "medianPrice": 415000,
-      "transactions": 142
+      "transactions": 143
     },
     {
       "month": "2025-06",
-      "medianPrice": 405000,
-      "transactions": 202
+      "medianPrice": 412500,
+      "transactions": 204
     },
     {
       "month": "2025-07",
-      "medianPrice": 425000,
-      "transactions": 231
+      "medianPrice": 422000,
+      "transactions": 239
     },
     {
       "month": "2025-08",
-      "medianPrice": 439000,
-      "transactions": 230
+      "medianPrice": 435000,
+      "transactions": 241
     },
     {
       "month": "2025-09",
-      "medianPrice": 470000,
-      "transactions": 171
+      "medianPrice": 467500,
+      "transactions": 176
     },
     {
       "month": "2025-10",
       "medianPrice": 445000,
-      "transactions": 220
+      "transactions": 223
     },
     {
       "month": "2025-11",
       "medianPrice": 415000,
-      "transactions": 205
+      "transactions": 212
     },
     {
       "month": "2025-12",
-      "medianPrice": 410000,
-      "transactions": 166
+      "medianPrice": 412500,
+      "transactions": 182
     },
     {
       "month": "2026-01",
       "medianPrice": 450000,
-      "transactions": 138
+      "transactions": 151
     },
     {
       "month": "2026-02",
-      "medianPrice": 400000,
-      "transactions": 111
+      "medianPrice": 402000,
+      "transactions": 114
     },
     {
       "month": "2026-03",
       "medianPrice": 415000,
-      "transactions": 143
+      "transactions": 146
     },
     {
       "month": "2026-04",
       "medianPrice": 421500,
-      "transactions": 100
+      "transactions": 106
     },
     {
       "month": "2026-05",
-      "medianPrice": 437500,
-      "transactions": 56
+      "medianPrice": 435000,
+      "transactions": 123
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 420000,
+      "transactions": 61
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 417250,
-      "transactions": 544
+      "medianPrice": 418000,
+      "transactions": 549
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 438000,
-      "transactions": 565
+      "medianPrice": 440000,
+      "transactions": 575
     },
     {
       "quarter": "2024-Q3",
       "medianPrice": 450000,
-      "transactions": 624
+      "transactions": 632
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 435000,
-      "transactions": 669
+      "medianPrice": 434500,
+      "transactions": 686
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 425000,
-      "transactions": 784
+      "transactions": 789
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 422500,
-      "transactions": 421
+      "medianPrice": 423000,
+      "transactions": 424
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 440000,
-      "transactions": 632
+      "medianPrice": 439500,
+      "transactions": 656
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 430000,
-      "transactions": 591
+      "medianPrice": 429500,
+      "transactions": 617
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 415000,
-      "transactions": 392
+      "transactions": 411
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 425000,
-      "transactions": 156
+      "medianPrice": 426250,
+      "transactions": 290
     }
   ]
 }

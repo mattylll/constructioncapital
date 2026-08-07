@@ -50,7 +50,7 @@ export function MarketStrip() {
     {
       label: "Median sale price",
       value: GBP.format(summary.medianOfMedianPrices),
-      foot: `${summary.townsWithPositiveYoy} of ${summary.townsTracked} towns posting positive YoY movement.`,
+      foot: `${summary.townsWithPositiveYoy} of ${summary.townsCounted} towns posting positive YoY movement.`,
     },
   ];
 

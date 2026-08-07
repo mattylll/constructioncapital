@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.304Z",
+  "updatedAt": "2026-08-07T08:45:02.460Z",
   "townSlug": "oswestry",
   "countySlug": "shropshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SHROPSHIRE"
+  ],
   "stats": {
-    "medianPrice": 239500,
+    "medianPrice": 235000,
     "medianByType": {
-      "D": 349950,
-      "S": 199995,
+      "D": 348000,
+      "S": 199998,
       "T": 175000,
-      "F": 109975
+      "F": 121950
     },
-    "transactionCount12m": 465,
-    "yoyChange": -0.2,
-    "newBuildCount": 17,
-    "existingCount": 448,
-    "newBuildPremium": 0.8
+    "transactionCount12m": 455,
+    "yoyChange": -2.1,
+    "newBuildCount": 13,
+    "existingCount": 442,
+    "newBuildPremium": 28.5
   },
   "recentTransactions": [
     {
-      "price": 300000,
-      "date": "2026-05-22",
-      "postcode": "SY11 4AE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, PARK LANE"
-    },
-    {
-      "price": 100000,
-      "date": "2026-05-20",
-      "postcode": "SY10 7RZ",
+      "price": 192500,
+      "date": "2026-06-26",
+      "postcode": "SY10 9RG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "34, BROOKFIELD ESTATE"
-    },
-    {
-      "price": 172500,
-      "date": "2026-05-19",
-      "postcode": "SY11 2PT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BEECH GROVE"
-    },
-    {
-      "price": 318000,
-      "date": "2026-05-15",
-      "postcode": "SY11 3LG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ADDISON WALK"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-15",
-      "postcode": "SY10 9PU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, MILARS FIELD"
-    },
-    {
-      "price": 163000,
-      "date": "2026-05-15",
-      "postcode": "SY11 3GY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, HENRY ROBERTSON DRIVE"
-    },
-    {
-      "price": 193000,
-      "date": "2026-05-15",
-      "postcode": "SY11 4DS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, CAMBRIAN AVENUE"
-    },
-    {
-      "price": 267000,
-      "date": "2026-05-15",
-      "postcode": "SY11 2ET",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, ROFT STREET"
-    },
-    {
-      "price": 172000,
-      "date": "2026-05-12",
-      "postcode": "SY10 7TU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, HOLLY GRANGE"
-    },
-    {
-      "price": 390000,
-      "date": "2026-05-08",
-      "postcode": "SY11 2PE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, GROSVENOR ROAD"
-    },
-    {
-      "price": 103000,
-      "date": "2026-05-08",
-      "postcode": "SY11 1NE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, LORNE STREET"
-    },
-    {
-      "price": 167000,
-      "date": "2026-05-08",
-      "postcode": "SY11 2JR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, BRIDGEMAN ROAD"
+      "address": "3, CAE GWYNN CLOSE"
     },
     {
       "price": 295000,
-      "date": "2026-05-08",
-      "postcode": "SY11 2RE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "70, ASCOT ROAD"
-    },
-    {
-      "price": 430000,
-      "date": "2026-05-08",
-      "postcode": "SY10 8JT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LARCH HOUSE"
-    },
-    {
-      "price": 345000,
-      "date": "2026-05-08",
-      "postcode": "SY10 8NT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SUMMERHILL, ROSEMOUNT DRIVE"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-08",
-      "postcode": "SY11 2AF",
+      "date": "2026-06-19",
+      "postcode": "SY11 2UE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "92, UPPER CHURCH STREET"
+      "address": "2, BARBER CLOSE"
     },
     {
-      "price": 199950,
-      "date": "2026-05-07",
-      "postcode": "SY11 2RW",
+      "price": 215000,
+      "date": "2026-06-15",
+      "postcode": "SY11 1UA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, VICTORIA CRESCENT"
+      "address": "16, JASMINE GARDENS"
     },
     {
-      "price": 140000,
-      "date": "2026-05-06",
-      "postcode": "SY11 3PB",
+      "price": 250000,
+      "date": "2026-06-12",
+      "postcode": "SY11 2RX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "92, HAMMONDS PLACE"
+      "address": "62, OAK DRIVE"
     },
     {
-      "price": 177000,
-      "date": "2026-05-01",
-      "postcode": "SY11 2BT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, VICTORIA FIELDS"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-01",
-      "postcode": "SY11 3JS",
+      "price": 160000,
+      "date": "2026-06-12",
+      "postcode": "SY10 7TN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE SIDINGS, STATION ROAD"
+      "address": "19, ASHLANDS ROAD"
+    },
+    {
+      "price": 103000,
+      "date": "2026-06-12",
+      "postcode": "SY11 1JY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, CASTLE STREET"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-11",
+      "postcode": "SY10 9NE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12A, THE TERRACES"
+    },
+    {
+      "price": 247000,
+      "date": "2026-06-11",
+      "postcode": "SY11 3FJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, MORLAS MEADOWS"
+    },
+    {
+      "price": 127000,
+      "date": "2026-06-11",
+      "postcode": "SY11 2SE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "90, MAPLE AVENUE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-10",
+      "postcode": "SY11 1PF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, SOUTH VIEW"
+    },
+    {
+      "price": 209000,
+      "date": "2026-06-09",
+      "postcode": "SY11 1TT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, BREIDDEN CLOSE"
+    },
+    {
+      "price": 405000,
+      "date": "2026-06-09",
+      "postcode": "SY11 2AA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "RIDVAN, UPPER CHURCH STREET"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-08",
+      "postcode": "SY11 2LW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62, WHITEFRIARS"
+    },
+    {
+      "price": 332000,
+      "date": "2026-06-08",
+      "postcode": "SY10 8JU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "UPLANDS, RHIEW REVEL LANE"
+    },
+    {
+      "price": 335000,
+      "date": "2026-06-08",
+      "postcode": "SY11 1TB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, HIGH FAWR AVENUE"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-08",
+      "postcode": "SY11 1RY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, HOLBACHE COURT, HOLBACHE ROAD"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-08",
+      "postcode": "SY11 4NZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, FITZGWARINE DRIVE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-05",
+      "postcode": "SY11 4JX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, THE WILLOWS"
+    },
+    {
+      "price": 112000,
+      "date": "2026-06-05",
+      "postcode": "SY11 1JZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, CASTLE STREET"
+    },
+    {
+      "price": 368000,
+      "date": "2026-06-05",
+      "postcode": "SY10 8GY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, ST MARYS CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -262,8 +265,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 280000,
-      "transactions": 36
+      "medianPrice": 275000,
+      "transactions": 37
     },
     {
       "month": "2025-02",
@@ -292,58 +295,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 249375,
-      "transactions": 64
+      "medianPrice": 248750,
+      "transactions": 65
     },
     {
       "month": "2025-08",
-      "medianPrice": 228898,
-      "transactions": 46
+      "medianPrice": 237473,
+      "transactions": 50
     },
     {
       "month": "2025-09",
-      "medianPrice": 225000,
-      "transactions": 57
+      "medianPrice": 232498,
+      "transactions": 62
     },
     {
       "month": "2025-10",
-      "medianPrice": 263000,
-      "transactions": 55
+      "medianPrice": 262750,
+      "transactions": 56
     },
     {
       "month": "2025-11",
-      "medianPrice": 240000,
-      "transactions": 45
+      "medianPrice": 239750,
+      "transactions": 46
     },
     {
       "month": "2025-12",
-      "medianPrice": 239975,
-      "transactions": 48
+      "medianPrice": 240000,
+      "transactions": 49
     },
     {
       "month": "2026-01",
-      "medianPrice": 212500,
-      "transactions": 26
+      "medianPrice": 215000,
+      "transactions": 28
     },
     {
       "month": "2026-02",
-      "medianPrice": 201250,
-      "transactions": 34
+      "medianPrice": 202500,
+      "transactions": 35
     },
     {
       "month": "2026-03",
-      "medianPrice": 240250,
-      "transactions": 44
+      "medianPrice": 238000,
+      "transactions": 47
     },
     {
       "month": "2026-04",
       "medianPrice": 250000,
-      "transactions": 33
+      "transactions": 34
     },
     {
       "month": "2026-05",
-      "medianPrice": 189000,
-      "transactions": 20
+      "medianPrice": 197500,
+      "transactions": 35
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 225000,
+      "transactions": 21
     }
   ],
   "quarterlyHistory": [
@@ -369,8 +377,8 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 261250,
-      "transactions": 194
+      "medianPrice": 260000,
+      "transactions": 195
     },
     {
       "quarter": "2025-Q2",
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 239950,
-      "transactions": 167
+      "medianPrice": 240000,
+      "transactions": 177
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 247475,
-      "transactions": 148
+      "medianPrice": 245000,
+      "transactions": 151
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 212500,
-      "transactions": 104
+      "medianPrice": 215000,
+      "transactions": 110
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 238000,
-      "transactions": 53
+      "medianPrice": 225000,
+      "transactions": 90
     }
   ]
 }

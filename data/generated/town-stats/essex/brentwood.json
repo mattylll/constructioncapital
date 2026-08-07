@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.306Z",
+  "updatedAt": "2026-08-07T08:45:01.731Z",
   "townSlug": "brentwood",
   "countySlug": "essex",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BRENTWOOD"
+  ],
   "marketSnapshot": {
-    "medianPrice": 492000,
-    "transactionCount12m": 936,
-    "yoyPriceChange": 0.4,
-    "approvedApps12m": 9,
-    "pipelineUnits": 570,
-    "pipelineGdv": 284709750,
-    "approvalRate": 82
+    "medianPrice": 500000,
+    "transactionCount12m": 894,
+    "yoyPriceChange": 3.6,
+    "approvedApps12m": 7,
+    "approvedRecent": 7,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 435,
+    "pipelineGdv": 220175250,
+    "approvalRate": 88
   }
 }

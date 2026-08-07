@@ -1,209 +1,212 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.237Z",
+  "updatedAt": "2026-08-07T08:45:03.452Z",
   "townSlug": "gateshead",
   "countySlug": "tyne-and-wear",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GATESHEAD"
+  ],
   "stats": {
     "medianPrice": 150000,
     "medianByType": {
       "D": 310000,
       "S": 170000,
-      "T": 140000,
-      "F": 92875
+      "T": 139000,
+      "F": 93000
     },
-    "transactionCount12m": 2149,
+    "transactionCount12m": 2166,
     "yoyChange": -3.2,
-    "newBuildCount": 22,
-    "existingCount": 2127,
-    "newBuildPremium": 71.7
+    "newBuildCount": 20,
+    "existingCount": 2146,
+    "newBuildPremium": 56.1
   },
   "recentTransactions": [
     {
-      "price": 135000,
-      "date": "2026-05-28",
-      "postcode": "NE10 9UH",
+      "price": 162000,
+      "date": "2026-06-25",
+      "postcode": "NE9 7XE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, CYPRESS ROAD"
+    },
+    {
+      "price": 138000,
+      "date": "2026-06-23",
+      "postcode": "NE40 4RJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, DODSWORTH NORTH"
+    },
+    {
+      "price": 278000,
+      "date": "2026-06-22",
+      "postcode": "NE8 2LX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, HIGHBURY"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-27",
-      "postcode": "NE10 0TB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, PLANTATION GROVE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-26",
-      "postcode": "NE16 5ST",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "22, WYNDLEY CLOSE"
-    },
-    {
-      "price": 126500,
-      "date": "2026-05-26",
-      "postcode": "NE40 4EA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, MOUNT VIEW"
-    },
-    {
-      "price": 80000,
-      "date": "2026-05-22",
-      "postcode": "NE17 7BX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, BLYTH STREET"
-    },
-    {
-      "price": 178000,
-      "date": "2026-05-22",
-      "postcode": "NE40 3TR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, EMMAVILLE"
-    },
-    {
-      "price": 115000,
-      "date": "2026-05-18",
-      "postcode": "NE21 5JF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, SPRINGWELL CLOSE"
-    },
-    {
-      "price": 126600,
-      "date": "2026-05-18",
-      "postcode": "DH3 1BL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "124, MOUNT ROAD"
+      "address": "26, ST CUTHBERTS ROAD"
     },
     {
       "price": 145000,
-      "date": "2026-05-18",
-      "postcode": "NE40 4ND",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, MAIN STREET"
-    },
-    {
-      "price": 72000,
-      "date": "2026-05-15",
-      "postcode": "NE9 7BT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, WALLACE GARDENS"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-15",
-      "postcode": "NE9 6XZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, SALCOMBE GARDENS"
-    },
-    {
-      "price": 162000,
-      "date": "2026-05-15",
-      "postcode": "NE11 0DQ",
+      "date": "2026-06-22",
+      "postcode": "NE9 6PT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, SILVERWOOD GARDENS"
+      "address": "63, BRAMPTON GARDENS"
     },
     {
-      "price": 165000,
-      "date": "2026-05-15",
-      "postcode": "NE40 4UX",
+      "price": 111000,
+      "date": "2026-06-19",
+      "postcode": "NE21 6SJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, HOLLY AVENUE"
+    },
+    {
+      "price": 166000,
+      "date": "2026-06-19",
+      "postcode": "NE11 0DU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, COANWOOD GARDENS"
+    },
+    {
+      "price": 142000,
+      "date": "2026-06-19",
+      "postcode": "NE21 6RZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, CLOVER AVENUE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-19",
+      "postcode": "NE21 6LU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, PARK LANE"
+    },
+    {
+      "price": 161000,
+      "date": "2026-06-19",
+      "postcode": "NE10 8ER",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, LOVELESS GARDENS"
+    },
+    {
+      "price": 108000,
+      "date": "2026-06-19",
+      "postcode": "NE16 4NL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, CHASE COURT, RECTORY LANE"
+    },
+    {
+      "price": 92000,
+      "date": "2026-06-19",
+      "postcode": "NE8 3JH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "52, OVETT GARDENS"
+    },
+    {
+      "price": 142000,
+      "date": "2026-06-19",
+      "postcode": "NE8 2DX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "16, JULY COURTYARD, SUMMERS PASS"
+    },
+    {
+      "price": 132500,
+      "date": "2026-06-18",
+      "postcode": "NE9 7EA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, HAMBLETON GREEN"
+    },
+    {
+      "price": 377000,
+      "date": "2026-06-18",
+      "postcode": "NE40 4XL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, MOSS CRESCENT"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-17",
+      "postcode": "NE16 3AH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "17, WOODHOUSE MEWS"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-17",
+      "postcode": "NE16 3AH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "20, WOODHOUSE MEWS"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-17",
+      "postcode": "NE8 4PA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "232, WINDSOR AVENUE"
+    },
+    {
+      "price": 105000,
+      "date": "2026-06-17",
+      "postcode": "NE16 5XA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "25, LAMBTON CLOSE"
+      "address": "152, KINGSWAY"
     },
     {
-      "price": 153000,
-      "date": "2026-05-15",
-      "postcode": "NE21 6QF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, GRASMERE CRESCENT"
-    },
-    {
-      "price": 178500,
-      "date": "2026-05-15",
-      "postcode": "NE9 6TB",
+      "price": 149000,
+      "date": "2026-06-17",
+      "postcode": "NE9 6NL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "112, BEACON LOUGH ROAD"
+      "address": "21, THURSBY GARDENS"
     },
     {
-      "price": 262000,
-      "date": "2026-05-15",
-      "postcode": "NE9 7TX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, TALISMAN VIEW"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-14",
-      "postcode": "DH3 1RS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60, BEAMISH VIEW"
-    },
-    {
-      "price": 80000,
-      "date": "2026-05-14",
-      "postcode": "NE9 5DN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, WESTOVER GARDENS"
-    },
-    {
-      "price": 101000,
-      "date": "2026-05-13",
-      "postcode": "NE39 2NA",
+      "price": 192000,
+      "date": "2026-06-17",
+      "postcode": "NE21 5GE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, GLENCOE TERRACE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-12",
-      "postcode": "NE8 2XZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, SOUTH HILL ROAD"
+      "address": "39, BETSEY PLACE"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 145000,
-      "transactions": 194
+      "medianPrice": 146000,
+      "transactions": 198
     },
     {
       "month": "2024-02",
@@ -268,7 +271,7 @@
     {
       "month": "2025-02",
       "medianPrice": 152000,
-      "transactions": 284
+      "transactions": 283
     },
     {
       "month": "2025-03",
@@ -283,7 +286,7 @@
     {
       "month": "2025-05",
       "medianPrice": 150000,
-      "transactions": 262
+      "transactions": 263
     },
     {
       "month": "2025-06",
@@ -293,64 +296,69 @@
     {
       "month": "2025-07",
       "medianPrice": 152500,
-      "transactions": 263
+      "transactions": 269
     },
     {
       "month": "2025-08",
-      "medianPrice": 145000,
-      "transactions": 267
+      "medianPrice": 146235,
+      "transactions": 286
     },
     {
       "month": "2025-09",
       "medianPrice": 145000,
-      "transactions": 243
+      "transactions": 255
     },
     {
       "month": "2025-10",
-      "medianPrice": 150550,
-      "transactions": 264
+      "medianPrice": 151000,
+      "transactions": 271
     },
     {
       "month": "2025-11",
       "medianPrice": 155000,
-      "transactions": 248
+      "transactions": 257
     },
     {
       "month": "2025-12",
-      "medianPrice": 147350,
-      "transactions": 208
+      "medianPrice": 145000,
+      "transactions": 231
     },
     {
       "month": "2026-01",
-      "medianPrice": 144500,
-      "transactions": 172
+      "medianPrice": 145000,
+      "transactions": 197
     },
     {
       "month": "2026-02",
       "medianPrice": 160000,
-      "transactions": 177
+      "transactions": 187
     },
     {
       "month": "2026-03",
       "medianPrice": 155000,
-      "transactions": 159
+      "transactions": 171
     },
     {
       "month": "2026-04",
-      "medianPrice": 165000,
-      "transactions": 137
+      "medianPrice": 170000,
+      "transactions": 153
     },
     {
       "month": "2026-05",
-      "medianPrice": 140000,
-      "transactions": 59
+      "medianPrice": 145000,
+      "transactions": 135
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 145000,
+      "transactions": 68
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 145000,
-      "transactions": 671
+      "transactions": 675
     },
     {
       "quarter": "2024-Q2",
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 160500,
-      "transactions": 890
+      "medianPrice": 161000,
+      "transactions": 889
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 146868,
-      "transactions": 774
+      "medianPrice": 146235,
+      "transactions": 775
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 146235,
-      "transactions": 773
+      "medianPrice": 147100,
+      "transactions": 810
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 150000,
-      "transactions": 720
+      "transactions": 759
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 150000,
-      "transactions": 508
+      "transactions": 555
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 160000,
-      "transactions": 196
+      "medianPrice": 155000,
+      "transactions": 356
     }
   ]
 }

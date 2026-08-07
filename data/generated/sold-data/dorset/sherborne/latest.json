@@ -1,23 +1,189 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.952Z",
+  "updatedAt": "2026-08-07T08:45:02.095Z",
   "townSlug": "sherborne",
   "countySlug": "dorset",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "DORSET",
+    "WEST DORSET"
+  ],
   "stats": {
     "medianPrice": 350000,
     "medianByType": {
-      "D": 549500,
-      "S": 317000,
-      "T": 269750,
-      "F": 165000
+      "D": 549750,
+      "S": 312500,
+      "T": 275000,
+      "F": 172500
     },
-    "transactionCount12m": 232,
-    "yoyChange": 6.1,
+    "transactionCount12m": 229,
+    "yoyChange": 4.5,
     "newBuildCount": 0,
-    "existingCount": 232,
+    "existingCount": 229,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 640000,
+      "date": "2026-06-15",
+      "postcode": "DT9 6HJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BIRCH COTTAGE, CHETNOLE ROAD"
+    },
+    {
+      "price": 90000,
+      "date": "2026-06-12",
+      "postcode": "DT9 6FH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 15, MULBERRY HOUSE, 2, CANON WOODS CLOSE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-12",
+      "postcode": "DT9 5NH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, HILL VIEW"
+    },
+    {
+      "price": 287000,
+      "date": "2026-06-12",
+      "postcode": "DT9 4EH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, GLOVERS"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-08",
+      "postcode": "DT9 3QE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE SNUG, 6, GEORGE STREET"
+    },
+    {
+      "price": 350000,
+      "date": "2026-06-08",
+      "postcode": "DT9 6NS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, BOWER COURT"
+    },
+    {
+      "price": 360000,
+      "date": "2026-06-01",
+      "postcode": "DT9 3LB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, ROBERTS COURT, DIGBY ROAD"
+    },
+    {
+      "price": 195000,
+      "date": "2026-05-29",
+      "postcode": "DT9 6AR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, SOUTH AVENUE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-05-29",
+      "postcode": "DT9 5PD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LONG REACH"
+    },
+    {
+      "price": 331600,
+      "date": "2026-05-29",
+      "postcode": "DT9 5NY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, QUARRY LANE"
+    },
+    {
+      "price": 765000,
+      "date": "2026-05-29",
+      "postcode": "DT9 5LL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GUNVILLE LODGE"
+    },
+    {
+      "price": 470000,
+      "date": "2026-05-28",
+      "postcode": "DT9 3SF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, FRANCIS WALK"
+    },
+    {
+      "price": 780000,
+      "date": "2026-05-27",
+      "postcode": "DT9 4RE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRAMBLE HOUSE, CROSSFIELDS"
+    },
+    {
+      "price": 180000,
+      "date": "2026-05-27",
+      "postcode": "DT9 4DN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, SIMONS ROAD"
+    },
+    {
+      "price": 557500,
+      "date": "2026-05-27",
+      "postcode": "DT9 4QS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SHENSTONE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-05-22",
+      "postcode": "DT9 4DU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, ST PAULS CLOSE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-05-15",
+      "postcode": "DT9 4DL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, WOOTTON GROVE"
+    },
+    {
+      "price": 217500,
+      "date": "2026-05-15",
+      "postcode": "DT9 6AZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, CLANFIELD"
+    },
     {
       "price": 395000,
       "date": "2026-05-15",
@@ -35,168 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "8, GRANGE PARK"
-    },
-    {
-      "price": 346000,
-      "date": "2026-05-06",
-      "postcode": "DT9 4DU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, ST PAULS CLOSE"
-    },
-    {
-      "price": 425000,
-      "date": "2026-04-24",
-      "postcode": "DT9 5ND",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1 OLD FORGE HOUSE, CAUNDLE LANE"
-    },
-    {
-      "price": 347000,
-      "date": "2026-04-24",
-      "postcode": "DT9 3EX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, LOWER ACREMAN STREET"
-    },
-    {
-      "price": 220000,
-      "date": "2026-04-24",
-      "postcode": "DT9 4FD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, CARPENTERS"
-    },
-    {
-      "price": 300000,
-      "date": "2026-04-23",
-      "postcode": "DT9 5NB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8A, CURTIS CLOSE"
-    },
-    {
-      "price": 445000,
-      "date": "2026-04-22",
-      "postcode": "DT9 6DY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, MIDLEAZE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-04-22",
-      "postcode": "DT9 4DG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, OLD FARM"
-    },
-    {
-      "price": 370000,
-      "date": "2026-04-20",
-      "postcode": "DT9 4EW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, GREENHILL"
-    },
-    {
-      "price": 790000,
-      "date": "2026-04-17",
-      "postcode": "DT9 4BX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "COOMBE COTTAGE, COOMBE"
-    },
-    {
-      "price": 850000,
-      "date": "2026-04-17",
-      "postcode": "DT9 3DT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "122, NEWLAND"
-    },
-    {
-      "price": 220000,
-      "date": "2026-04-10",
-      "postcode": "DT9 4DR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, VERNALLS ROAD"
-    },
-    {
-      "price": 520000,
-      "date": "2026-04-09",
-      "postcode": "DT9 4HX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, KINGS ROAD"
-    },
-    {
-      "price": 249500,
-      "date": "2026-03-31",
-      "postcode": "DT9 3QE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, GEORGE STREET"
-    },
-    {
-      "price": 549500,
-      "date": "2026-03-31",
-      "postcode": "DT9 3EL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "EVERGREENS, WESTBURY"
-    },
-    {
-      "price": 209000,
-      "date": "2026-03-26",
-      "postcode": "DT9 4AN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, HARBOUR ROAD"
-    },
-    {
-      "price": 658000,
-      "date": "2026-03-26",
-      "postcode": "DT9 4BL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "NETHERCOOMBE HOUSE, MARSTON ROAD"
-    },
-    {
-      "price": 575000,
-      "date": "2026-03-24",
-      "postcode": "DT9 6JJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, MIZ MAZE"
-    },
-    {
-      "price": 305000,
-      "date": "2026-03-23",
-      "postcode": "DT9 4AS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, GRANVILLE WAY"
     }
   ],
   "monthlyHistory": [
@@ -232,8 +236,8 @@
     },
     {
       "month": "2024-07",
-      "medianPrice": 292000,
-      "transactions": 23
+      "medianPrice": 301000,
+      "transactions": 24
     },
     {
       "month": "2024-08",
@@ -302,13 +306,13 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 369250,
-      "transactions": 32
+      "medianPrice": 368500,
+      "transactions": 33
     },
     {
       "month": "2025-10",
-      "medianPrice": 345000,
-      "transactions": 27
+      "medianPrice": 347500,
+      "transactions": 28
     },
     {
       "month": "2025-11",
@@ -322,8 +326,8 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 295000,
-      "transactions": 19
+      "medianPrice": 297500,
+      "transactions": 20
     },
     {
       "month": "2026-02",
@@ -342,8 +346,13 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 395000,
-      "transactions": 3
+      "medianPrice": 390000,
+      "transactions": 15
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 287000,
+      "transactions": 7
     }
   ],
   "quarterlyHistory": [
@@ -360,7 +369,7 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 325000,
-      "transactions": 96
+      "transactions": 97
     },
     {
       "quarter": "2024-Q4",
@@ -379,23 +388,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 364250,
-      "transactions": 82
+      "medianPrice": 360000,
+      "transactions": 83
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 345000,
-      "transactions": 71
+      "medianPrice": 347500,
+      "transactions": 72
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 307500,
-      "transactions": 68
+      "medianPrice": 310000,
+      "transactions": 69
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 382500,
-      "transactions": 14
+      "medianPrice": 350000,
+      "transactions": 33
     }
   ]
 }

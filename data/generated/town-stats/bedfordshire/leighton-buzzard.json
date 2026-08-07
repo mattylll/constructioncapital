@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.458Z",
+  "updatedAt": "2026-08-07T08:45:03.768Z",
   "townSlug": "leighton-buzzard",
   "countySlug": "bedfordshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CENTRAL BEDFORDSHIRE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 340000,
-    "transactionCount12m": 718,
-    "yoyPriceChange": -5.6,
+    "medianPrice": 345000,
+    "transactionCount12m": 712,
+    "yoyPriceChange": -3.1,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

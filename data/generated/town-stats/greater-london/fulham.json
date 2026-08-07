@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.351Z",
+  "updatedAt": "2026-08-07T08:45:00.814Z",
   "townSlug": "fulham",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "HAMMERSMITH AND FULHAM"
+  ],
   "marketSnapshot": {
-    "medianPrice": 650000,
-    "transactionCount12m": 1543,
-    "yoyPriceChange": -11.6,
+    "medianPrice": 630000,
+    "transactionCount12m": 1523,
+    "yoyPriceChange": -13,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

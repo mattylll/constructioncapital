@@ -1,23 +1,161 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.286Z",
+  "updatedAt": "2026-08-07T08:45:02.440Z",
   "townSlug": "droitwich",
   "countySlug": "worcestershire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WYCHAVON"
+  ],
   "stats": {
-    "medianPrice": 325000,
+    "medianPrice": 330000,
     "medianByType": {
-      "D": 460000,
-      "S": 287000,
-      "T": 224000,
+      "D": 461000,
+      "S": 290000,
+      "T": 230275,
       "F": 155000
     },
-    "transactionCount12m": 324,
-    "yoyChange": 8.3,
+    "transactionCount12m": 315,
+    "yoyChange": 10,
     "newBuildCount": 1,
-    "existingCount": 323,
+    "existingCount": 314,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 312500,
+      "date": "2026-06-19",
+      "postcode": "WR9 8QA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, PILGRIM ROAD"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-16",
+      "postcode": "WR9 8NR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, SHIRLEY ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-15",
+      "postcode": "WR9 7QE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, WILLOW DRIVE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-12",
+      "postcode": "WR9 8JL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "89, STALLS FARM ROAD"
+    },
+    {
+      "price": 510000,
+      "date": "2026-06-10",
+      "postcode": "WR9 7JW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, PEAR TREE WAY"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-10",
+      "postcode": "WR9 8PU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "54B, WINSLOW AVENUE"
+    },
+    {
+      "price": 218000,
+      "date": "2026-06-09",
+      "postcode": "WR9 0RP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56, OAKLEIGH ROAD"
+    },
+    {
+      "price": 467500,
+      "date": "2026-06-05",
+      "postcode": "WR9 7ET",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, AMPHLETT COURT"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-04",
+      "postcode": "WR9 8LR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, BROMSGROVE ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-05-29",
+      "postcode": "WR9 8EF",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56, FRIAR STREET"
+    },
+    {
+      "price": 267500,
+      "date": "2026-05-27",
+      "postcode": "WR9 9LG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1, WESTMEAD CLOSE"
+    },
+    {
+      "price": 152000,
+      "date": "2026-05-26",
+      "postcode": "WR9 8AH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 9, ROWAN COURT, WORCESTER ROAD"
+    },
+    {
+      "price": 360000,
+      "date": "2026-05-22",
+      "postcode": "WR9 8UE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, SHOWELL GREEN"
+    },
+    {
+      "price": 373000,
+      "date": "2026-05-22",
+      "postcode": "WR9 7HG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, NIGHTINGALE PLACE"
+    },
+    {
+      "price": 510000,
+      "date": "2026-05-22",
+      "postcode": "WR9 7NU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, HAWTHORN RISE"
+    },
     {
       "price": 435000,
       "date": "2026-05-22",
@@ -28,182 +166,47 @@
       "address": "44, DUGARD WAY"
     },
     {
-      "price": 387500,
+      "price": 93000,
       "date": "2026-05-19",
-      "postcode": "WR9 7TD",
-      "propertyType": "D",
+      "postcode": "WR9 9LH",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "79, CENTENARY WAY"
+      "tenure": "L",
+      "address": "7, ARCHERS CLOSE"
     },
     {
-      "price": 230000,
-      "date": "2026-05-15",
-      "postcode": "WR9 0BS",
+      "price": 401000,
+      "date": "2026-05-19",
+      "postcode": "WR9 8QW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, SCHOOL VIEW"
+      "address": "14, ST AUGUSTINES CLOSE"
     },
     {
-      "price": 605000,
-      "date": "2026-05-13",
-      "postcode": "WR9 7NQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "OCTOBER HOUSE, PLOUGH ROAD"
-    },
-    {
-      "price": 570000,
-      "date": "2026-05-13",
-      "postcode": "WR9 8QP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, COLLEGE GREEN"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-07",
-      "postcode": "WR9 8EG",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "107, FRIAR STREET"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-06",
-      "postcode": "WR9 7PJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, AMPHLETT WAY"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-01",
-      "postcode": "WR9 8TB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, CHAWSON PLECK"
-    },
-    {
-      "price": 192000,
-      "date": "2026-05-01",
-      "postcode": "WR9 8TN",
+      "price": 240000,
+      "date": "2026-05-19",
+      "postcode": "WR9 9LA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, TRENT CLOSE"
+      "address": "33, LEDWYCH ROAD"
     },
     {
-      "price": 225000,
-      "date": "2026-04-30",
-      "postcode": "WR9 7HF",
-      "propertyType": "T",
+      "price": 125000,
+      "date": "2026-05-19",
+      "postcode": "WR9 8AH",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "23, FALCON CLOSE"
-    },
-    {
-      "price": 315000,
-      "date": "2026-04-29",
-      "postcode": "WR9 8PA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, WITTON AVENUE"
-    },
-    {
-      "price": 370000,
-      "date": "2026-04-29",
-      "postcode": "WR9 9BY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, SOUTH PARK DRIVE"
-    },
-    {
-      "price": 230550,
-      "date": "2026-04-28",
-      "postcode": "WR9 8QP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "82, COLLEGE GREEN"
-    },
-    {
-      "price": 250000,
-      "date": "2026-04-24",
-      "postcode": "WR9 7SS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, MULBERRY TREE HILL"
-    },
-    {
-      "price": 665000,
-      "date": "2026-04-24",
-      "postcode": "WR9 0LJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WOODFIELD FARMHOUSE, NORTHAMPTON LANE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-04-20",
-      "postcode": "WR9 8EF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60, FRIAR STREET"
-    },
-    {
-      "price": 245000,
-      "date": "2026-04-17",
-      "postcode": "WR9 7UP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, SPRINGPOOL WAY"
-    },
-    {
-      "price": 375000,
-      "date": "2026-04-17",
-      "postcode": "WR9 8RR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, FABRICIUS AVENUE"
-    },
-    {
-      "price": 238000,
-      "date": "2026-04-17",
-      "postcode": "WR9 0RT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, WESTBURY AVENUE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-04-17",
-      "postcode": "WR9 9HU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "97, CROFTERS WAY"
+      "tenure": "L",
+      "address": "FLAT 23, ROWAN COURT, WORCESTER ROAD"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
       "medianPrice": 260000,
-      "transactions": 39
+      "transactions": 40
     },
     {
       "month": "2024-02",
@@ -297,18 +300,18 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 323200,
-      "transactions": 45
+      "medianPrice": 333750,
+      "transactions": 49
     },
     {
       "month": "2025-09",
       "medianPrice": 325000,
-      "transactions": 38
+      "transactions": 41
     },
     {
       "month": "2025-10",
-      "medianPrice": 349000,
-      "transactions": 47
+      "medianPrice": 349500,
+      "transactions": 48
     },
     {
       "month": "2025-11",
@@ -317,8 +320,8 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 307500,
-      "transactions": 26
+      "medianPrice": 335000,
+      "transactions": 28
     },
     {
       "month": "2026-01",
@@ -327,30 +330,35 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 345000,
-      "transactions": 21
+      "medianPrice": 355000,
+      "transactions": 23
     },
     {
       "month": "2026-03",
-      "medianPrice": 280000,
-      "transactions": 21
+      "medianPrice": 290000,
+      "transactions": 22
     },
     {
       "month": "2026-04",
-      "medianPrice": 260000,
-      "transactions": 16
+      "medianPrice": 262500,
+      "transactions": 20
     },
     {
       "month": "2026-05",
-      "medianPrice": 387500,
+      "medianPrice": 271250,
+      "transactions": 24
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 290000,
       "transactions": 9
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 281750,
-      "transactions": 116
+      "medianPrice": 283500,
+      "transactions": 117
     },
     {
       "quarter": "2024-Q2",
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 312500,
-      "transactions": 132
+      "medianPrice": 323200,
+      "transactions": 139
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 349500,
-      "transactions": 110
+      "medianPrice": 350000,
+      "transactions": 113
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 330000,
-      "transactions": 67
+      "medianPrice": 350000,
+      "transactions": 70
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 275000,
-      "transactions": 25
+      "medianPrice": 267500,
+      "transactions": 53
     }
   ]
 }

@@ -1,20 +1,86 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.082Z",
+  "updatedAt": "2026-08-07T08:45:01.177Z",
   "townSlug": "city-of-london",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CITY OF LONDON"
+  ],
   "stats": {
-    "medianPrice": 730000,
+    "medianPrice": 725000,
     "medianByType": {
-      "F": 700000
+      "F": 665000
     },
-    "transactionCount12m": 120,
-    "yoyChange": -19.3,
-    "newBuildCount": 1,
-    "existingCount": 119,
+    "transactionCount12m": 117,
+    "yoyChange": -15.9,
+    "newBuildCount": 0,
+    "existingCount": 117,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 465000,
+      "date": "2026-06-12",
+      "postcode": "EC2Y 8AG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, 6 - 9, BRIDGEWATER SQUARE"
+    },
+    {
+      "price": 525000,
+      "date": "2026-06-12",
+      "postcode": "EC1Y 0RJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 4, BOWATER HOUSE, GOLDEN LANE ESTATE"
+    },
+    {
+      "price": 550000,
+      "date": "2026-06-05",
+      "postcode": "EC1A 7JA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT C, 5, MIDDLE STREET"
+    },
+    {
+      "price": 525000,
+      "date": "2026-05-29",
+      "postcode": "EC1A 9JR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 19, 11 - 12, WEST SMITHFIELD"
+    },
+    {
+      "price": 1375000,
+      "date": "2026-05-28",
+      "postcode": "EC2Y 8BY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 92, LAUDERDALE TOWER, BARBICAN"
+    },
+    {
+      "price": 688000,
+      "date": "2026-05-26",
+      "postcode": "EC1A 7HN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 37, 43, BARTHOLOMEW CLOSE"
+    },
+    {
+      "price": 532500,
+      "date": "2026-05-20",
+      "postcode": "EC1A 7ES",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 38, 28, BARTHOLOMEW CLOSE"
+    },
     {
       "price": 5525000,
       "date": "2026-05-15",
@@ -131,76 +197,13 @@
       "newBuild": false,
       "tenure": "F",
       "address": "1, SEETHING LANE"
-    },
-    {
-      "price": 585000,
-      "date": "2026-02-26",
-      "postcode": "E9 5NW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 205, 11, MELDOLA YARD"
-    },
-    {
-      "price": 1625000,
-      "date": "2026-02-20",
-      "postcode": "EC2Y 8NA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 341, LAUDERDALE TOWER, BARBICAN"
-    },
-    {
-      "price": 665000,
-      "date": "2026-02-20",
-      "postcode": "EC3N 2NU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 604, 1, PEPYS STREET"
-    },
-    {
-      "price": 650000,
-      "date": "2026-02-17",
-      "postcode": "EC2Y 8DN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 43, DEFOE HOUSE, BARBICAN"
-    },
-    {
-      "price": 550000,
-      "date": "2026-02-16",
-      "postcode": "EC2Y 9AZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1806, 5, MOOR LANE"
-    },
-    {
-      "price": 520000,
-      "date": "2026-02-12",
-      "postcode": "EC3N 2NU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 603, 1, PEPYS STREET"
-    },
-    {
-      "price": 490000,
-      "date": "2026-02-06",
-      "postcode": "EC3N 2NU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 510, 1, PEPYS STREET"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 1148000,
-      "transactions": 11
+      "medianPrice": 1224000,
+      "transactions": 12
     },
     {
       "month": "2024-02",
@@ -219,8 +222,8 @@
     },
     {
       "month": "2024-05",
-      "medianPrice": 960000,
-      "transactions": 26
+      "medianPrice": 945000,
+      "transactions": 27
     },
     {
       "month": "2024-06",
@@ -264,8 +267,8 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 861250,
-      "transactions": 24
+      "medianPrice": 860000,
+      "transactions": 23
     },
     {
       "month": "2025-03",
@@ -294,13 +297,13 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 665000,
-      "transactions": 18
+      "medianPrice": 700000,
+      "transactions": 19
     },
     {
       "month": "2025-09",
-      "medianPrice": 747500,
-      "transactions": 14
+      "medianPrice": 720000,
+      "transactions": 15
     },
     {
       "month": "2025-10",
@@ -309,13 +312,13 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 800000,
-      "transactions": 16
+      "medianPrice": 865000,
+      "transactions": 17
     },
     {
       "month": "2025-12",
-      "medianPrice": 792500,
-      "transactions": 15
+      "medianPrice": 806250,
+      "transactions": 20
     },
     {
       "month": "2026-01",
@@ -339,20 +342,25 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 930000,
-      "transactions": 4
+      "medianPrice": 784000,
+      "transactions": 8
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 525000,
+      "transactions": 3
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 890000,
-      "transactions": 93
+      "medianPrice": 893875,
+      "transactions": 94
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 935000,
-      "transactions": 79
+      "medianPrice": 918750,
+      "transactions": 80
     },
     {
       "quarter": "2024-Q3",
@@ -366,8 +374,8 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 860000,
-      "transactions": 85
+      "medianPrice": 845000,
+      "transactions": 84
     },
     {
       "quarter": "2025-Q2",
@@ -377,12 +385,12 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 772500,
-      "transactions": 52
+      "transactions": 54
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 820000,
-      "transactions": 43
+      "medianPrice": 865000,
+      "transactions": 49
     },
     {
       "quarter": "2026-Q1",
@@ -391,8 +399,8 @@
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 827500,
-      "transactions": 6
+      "medianPrice": 550000,
+      "transactions": 13
     }
   ]
 }

@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.512Z",
+  "updatedAt": "2026-08-07T08:45:01.932Z",
   "townSlug": "yeovil",
   "countySlug": "somerset",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOMERSET",
+    "SOUTH SOMERSET"
+  ],
   "marketSnapshot": {
-    "medianPrice": 237750,
-    "transactionCount12m": 746,
-    "yoyPriceChange": -0.9,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 235000,
+    "transactionCount12m": 754,
+    "yoyPriceChange": -2.1,
+    "approvedApps12m": 29,
+    "approvedRecent": 29,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 255,
+    "pipelineGdv": 60160500,
+    "approvalRate": 97
   }
 }

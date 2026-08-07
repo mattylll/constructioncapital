@@ -1,12 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.501Z",
+  "updatedAt": "2026-08-07T08:45:01.920Z",
   "townSlug": "taunton",
   "countySlug": "somerset",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOMERSET",
+    "TAUNTON DEANE",
+    "SOMERSET WEST AND TAUNTON"
+  ],
   "marketSnapshot": {
-    "medianPrice": 279300,
-    "transactionCount12m": 1325,
-    "yoyPriceChange": -0.3,
+    "medianPrice": 280000,
+    "transactionCount12m": 1294,
+    "yoyPriceChange": 1.4,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.838Z",
+  "updatedAt": "2026-08-07T08:45:03.043Z",
   "townSlug": "wallasey",
   "countySlug": "merseyside",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WIRRAL"
+  ],
   "stats": {
     "medianPrice": 175000,
     "medianByType": {
-      "D": 392500,
-      "S": 234265,
-      "T": 142250,
-      "F": 125000
+      "D": 380000,
+      "S": 234530,
+      "T": 142000,
+      "F": 120000
     },
-    "transactionCount12m": 747,
-    "yoyChange": 9.4,
+    "transactionCount12m": 727,
+    "yoyChange": 8.4,
     "newBuildCount": 0,
-    "existingCount": 747,
+    "existingCount": 727,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 105000,
-      "date": "2026-05-26",
-      "postcode": "CH44 5SZ",
+      "price": 412000,
+      "date": "2026-06-18",
+      "postcode": "CH45 8JX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, GROVELAND ROAD"
+    },
+    {
+      "price": 152000,
+      "date": "2026-06-16",
+      "postcode": "CH44 4DN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "32, KENDAL ROAD"
+      "address": "35, CLIFFORD ROAD"
     },
     {
-      "price": 294000,
-      "date": "2026-05-22",
-      "postcode": "CH44 3EF",
+      "price": 120000,
+      "date": "2026-06-12",
+      "postcode": "CH44 0DX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, RICE HEY ROAD"
+    },
+    {
+      "price": 231250,
+      "date": "2026-06-12",
+      "postcode": "CH44 2DH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "46, LYMINGTON ROAD"
+      "address": "46, WALLASEY VILLAGE"
     },
     {
-      "price": 460000,
-      "date": "2026-05-15",
-      "postcode": "CH45 6TY",
+      "price": 180000,
+      "date": "2026-06-12",
+      "postcode": "CH44 1AX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, MAYFIELD ROAD"
+      "address": "9, THE GRANGE"
     },
     {
-      "price": 95000,
-      "date": "2026-05-14",
+      "price": 115000,
+      "date": "2026-06-12",
       "postcode": "CH44 4BL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, HILLCROFT ROAD"
+      "address": "17, HILLCROFT ROAD"
     },
     {
-      "price": 110000,
-      "date": "2026-05-13",
-      "postcode": "CH44 7HN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "25B, OAKDALE ROAD"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-13",
-      "postcode": "CH44 1DJ",
+      "price": 148000,
+      "date": "2026-06-11",
+      "postcode": "CH45 7LQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, VICARAGE GROVE"
-    },
-    {
-      "price": 80000,
-      "date": "2026-05-12",
-      "postcode": "CH44 0DP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, COMELY BANK ROAD"
-    },
-    {
-      "price": 90000,
-      "date": "2026-05-12",
-      "postcode": "CH44 0DP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, COMELY BANK ROAD"
+      "address": "84, URMSON ROAD"
     },
     {
       "price": 95000,
-      "date": "2026-05-12",
-      "postcode": "CH44 6LR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, ETHEL ROAD"
-    },
-    {
-      "price": 410000,
-      "date": "2026-05-12",
-      "postcode": "CH45 8NF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, BAYSWATER ROAD"
-    },
-    {
-      "price": 98000,
-      "date": "2026-05-12",
-      "postcode": "CH44 2EE",
+      "date": "2026-06-10",
+      "postcode": "CH44 0EL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "161, MOSSLANDS DRIVE"
+      "address": "49, RUDGRAVE SQUARE"
     },
     {
-      "price": 332500,
-      "date": "2026-05-12",
-      "postcode": "CH44 3BZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, MARLOWE ROAD"
-    },
-    {
-      "price": 180500,
-      "date": "2026-05-11",
-      "postcode": "CH44 8EG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, LITTLEDALE ROAD"
-    },
-    {
-      "price": 355000,
-      "date": "2026-05-11",
-      "postcode": "CH45 5HB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "194, SEAVIEW ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-08",
-      "postcode": "CH44 2EW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, WESTBOURNE ROAD"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-08",
-      "postcode": "CH44 9DN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, MAINWARING ROAD"
-    },
-    {
-      "price": 255000,
-      "date": "2026-05-07",
-      "postcode": "CH45 3PS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, MOCKBEGGAR WHARF"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-06",
-      "postcode": "CH45 3JE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, CONISTON AVENUE"
-    },
-    {
-      "price": 100000,
-      "date": "2026-05-06",
-      "postcode": "CH45 5AL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, LENNOX AVENUE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-06",
-      "postcode": "CH44 3BG",
+      "price": 315000,
+      "date": "2026-06-09",
+      "postcode": "CH45 3PB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "138, BRECK ROAD"
+      "address": "15, VILLAGE CLOSE"
+    },
+    {
+      "price": 191500,
+      "date": "2026-06-05",
+      "postcode": "CH45 1NQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MELLING ROAD"
+    },
+    {
+      "price": 141000,
+      "date": "2026-06-03",
+      "postcode": "CH45 9JE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, 6, HAMILTON ROAD"
+    },
+    {
+      "price": 112000,
+      "date": "2026-06-03",
+      "postcode": "CH44 9AZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, HALLVILLE ROAD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-02",
+      "postcode": "CH45 1HX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ORRELL ROAD"
+    },
+    {
+      "price": 295000,
+      "date": "2026-06-02",
+      "postcode": "CH44 2BJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, PENNINE ROAD"
+    },
+    {
+      "price": 415000,
+      "date": "2026-06-02",
+      "postcode": "CH45 3NB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, ST HILARY DRIVE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-02",
+      "postcode": "CH45 1JG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, BIRCH GROVE"
+    },
+    {
+      "price": 107000,
+      "date": "2026-06-02",
+      "postcode": "CH44 8EQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "102, LITTLEDALE ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-02",
+      "postcode": "CH45 8PD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "142, LEASOWE ROAD"
+    },
+    {
+      "price": 115000,
+      "date": "2026-05-29",
+      "postcode": "CH45 2NQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 106, PORTLAND COURT, WELLINGTON ROAD"
+    },
+    {
+      "price": 400000,
+      "date": "2026-05-29",
+      "postcode": "CH45 1LE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, DALMORTON ROAD"
     }
   ],
   "monthlyHistory": [
@@ -252,8 +255,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 165000,
-      "transactions": 109
+      "medianPrice": 162500,
+      "transactions": 110
     },
     {
       "month": "2024-12",
@@ -262,8 +265,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 173750,
-      "transactions": 102
+      "medianPrice": 172500,
+      "transactions": 103
     },
     {
       "month": "2025-02",
@@ -287,8 +290,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 154500,
-      "transactions": 92
+      "medianPrice": 154000,
+      "transactions": 93
     },
     {
       "month": "2025-07",
@@ -297,53 +300,58 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 170000,
-      "transactions": 111
+      "medianPrice": 172500,
+      "transactions": 116
     },
     {
       "month": "2025-09",
-      "medianPrice": 182000,
-      "transactions": 91
+      "medianPrice": 180000,
+      "transactions": 95
     },
     {
       "month": "2025-10",
       "medianPrice": 166500,
-      "transactions": 97
+      "transactions": 99
     },
     {
       "month": "2025-11",
-      "medianPrice": 186248,
-      "transactions": 84
+      "medianPrice": 189998,
+      "transactions": 86
     },
     {
       "month": "2025-12",
-      "medianPrice": 165000,
-      "transactions": 67
+      "medianPrice": 164000,
+      "transactions": 77
     },
     {
       "month": "2026-01",
-      "medianPrice": 163000,
-      "transactions": 54
+      "medianPrice": 166000,
+      "transactions": 58
     },
     {
       "month": "2026-02",
-      "medianPrice": 188500,
-      "transactions": 52
+      "medianPrice": 190000,
+      "transactions": 53
     },
     {
       "month": "2026-03",
-      "medianPrice": 185000,
-      "transactions": 55
+      "medianPrice": 183750,
+      "transactions": 58
     },
     {
       "month": "2026-04",
-      "medianPrice": 172500,
-      "transactions": 42
+      "medianPrice": 171000,
+      "transactions": 52
     },
     {
       "month": "2026-05",
-      "medianPrice": 153750,
-      "transactions": 26
+      "medianPrice": 195000,
+      "transactions": 56
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 185750,
+      "transactions": 18
     }
   ],
   "quarterlyHistory": [
@@ -365,37 +373,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 155000,
-      "transactions": 297
+      "transactions": 298
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 177500,
-      "transactions": 322
+      "medianPrice": 177000,
+      "transactions": 323
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 150000,
-      "transactions": 245
+      "transactions": 246
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 175000,
-      "transactions": 285
+      "transactions": 294
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 172000,
-      "transactions": 248
+      "transactions": 262
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 180000,
-      "transactions": 161
+      "transactions": 169
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 172500,
-      "transactions": 68
+      "medianPrice": 180250,
+      "transactions": 126
     }
   ]
 }

@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.280Z",
+  "updatedAt": "2026-08-07T08:45:03.623Z",
   "townSlug": "kings-lynn",
   "countySlug": "norfolk",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "KING'S LYNN AND WEST NORFOLK"
+  ],
   "marketSnapshot": {
-    "medianPrice": 265000,
-    "transactionCount12m": 1840,
-    "yoyPriceChange": 0,
-    "approvedApps12m": 44,
-    "pipelineUnits": 2084,
-    "pipelineGdv": 548685500,
-    "approvalRate": 85
+    "medianPrice": 263000,
+    "transactionCount12m": 1777,
+    "yoyPriceChange": -1.1,
+    "approvedApps12m": 65,
+    "approvedRecent": 65,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 1148,
+    "pipelineGdv": 303940000,
+    "approvalRate": 87
   }
 }

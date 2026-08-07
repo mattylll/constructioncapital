@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:54.641Z",
+  "updatedAt": "2026-08-07T08:45:00.714Z",
   "townSlug": "camden",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "CAMDEN"
+  ],
   "stats": {
-    "medianPrice": 725000,
+    "medianPrice": 712000,
     "medianByType": {
-      "D": 4600000,
-      "S": 2442500,
-      "T": 1650000,
-      "F": 642500
+      "D": 4615000,
+      "S": 2500000,
+      "T": 1600000,
+      "F": 625000
     },
-    "transactionCount12m": 1322,
-    "yoyChange": -4.9,
-    "newBuildCount": 13,
-    "existingCount": 1309,
-    "newBuildPremium": 5.5
+    "transactionCount12m": 1372,
+    "yoyChange": -6.3,
+    "newBuildCount": 11,
+    "existingCount": 1361,
+    "newBuildPremium": 5.4
   },
   "recentTransactions": [
     {
-      "price": 470000,
-      "date": "2026-05-22",
-      "postcode": "NW6 3BN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 50, BROADFIELD, BROADHURST GARDENS"
-    },
-    {
       "price": 475000,
-      "date": "2026-05-15",
-      "postcode": "NW6 3BS",
+      "date": "2026-06-26",
+      "postcode": "NW3 4XD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 5, DUNLUCE HOUSE, 4 - 8A, CANFIELD GARDENS"
+      "address": "FLAT 79, GILLING COURT, BELSIZE GROVE"
     },
     {
-      "price": 475000,
-      "date": "2026-05-15",
-      "postcode": "NW6 3BS",
+      "price": 655000,
+      "date": "2026-06-26",
+      "postcode": "NW6 4SS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 6, DUNLUCE HOUSE, 4 - 8A, CANFIELD GARDENS"
+      "address": "GROUND FLOOR FLAT, 149, ABBEY ROAD"
     },
     {
-      "price": 725000,
-      "date": "2026-05-15",
-      "postcode": "NW6 4RY",
-      "propertyType": "O",
+      "price": 4900000,
+      "date": "2026-06-26",
+      "postcode": "NW1 7TL",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, SHERIDAN COURT, 47, BELSIZE ROAD"
+      "tenure": "F",
+      "address": "21, REGENTS PARK ROAD"
     },
     {
-      "price": 475000,
-      "date": "2026-05-15",
-      "postcode": "NW6 4NB",
+      "price": 300000,
+      "date": "2026-06-24",
+      "postcode": "N6 6ED",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "29A, GASCONY AVENUE"
+      "address": "FLAT 347, HOLLY LODGE MANSIONS, OAKESHOTT AVENUE"
     },
     {
-      "price": 522500,
-      "date": "2026-05-15",
-      "postcode": "NW3 3HL",
+      "price": 765000,
+      "date": "2026-06-22",
+      "postcode": "NW3 4HP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 6, 42, ETON AVENUE"
+      "address": "FLAT 7, 18, LAMBOLLE ROAD"
     },
     {
       "price": 530000,
-      "date": "2026-05-14",
-      "postcode": "NW5 2HH",
+      "date": "2026-06-22",
+      "postcode": "NW1 9XR",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 3, PALMER HOUSE 76-84, FORTESS ROAD"
+      "address": "28B, CANTELOWES ROAD"
     },
     {
-      "price": 570000,
-      "date": "2026-05-12",
-      "postcode": "NW5 4PL",
+      "price": 375000,
+      "date": "2026-06-19",
+      "postcode": "NW3 7PG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "78, WELLESLEY ROAD"
+      "address": "27A, FERNCROFT AVENUE"
     },
     {
-      "price": 635000,
-      "date": "2026-05-11",
-      "postcode": "NW6 1TS",
+      "price": 825000,
+      "date": "2026-06-19",
+      "postcode": "EC1N 8EX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "21B, PANDORA ROAD"
-    },
-    {
-      "price": 4925000,
-      "date": "2026-05-08",
-      "postcode": "WC1R 4SG",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, RED LION SQUARE"
-    },
-    {
-      "price": 575000,
-      "date": "2026-05-08",
-      "postcode": "NW3 2JB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "118A, MANSFIELD ROAD"
-    },
-    {
-      "price": 635000,
-      "date": "2026-05-08",
-      "postcode": "NW1 8HD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "36, MALDEN CRESCENT"
-    },
-    {
-      "price": 910000,
-      "date": "2026-05-08",
-      "postcode": "NW6 2NR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT B, 2, DYNHAM ROAD"
-    },
-    {
-      "price": 680000,
-      "date": "2026-05-08",
-      "postcode": "NW6 1PJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FIRST FLOOR FLAT, 25, KINGDON ROAD"
+      "address": "FLAT 9, SIENNA BUILDINGS, 47, HATTON GARDEN"
     },
     {
       "price": 590000,
-      "date": "2026-05-08",
-      "postcode": "NW6 1HY",
+      "date": "2026-06-19",
+      "postcode": "NW5 2DU",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 5, 22, LYMINGTON ROAD"
+      "address": "22C, CAVERSHAM ROAD"
     },
     {
-      "price": 495000,
-      "date": "2026-05-08",
-      "postcode": "NW6 4NE",
+      "price": 350000,
+      "date": "2026-06-19",
+      "postcode": "WC1H 0NG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "64A, GASCONY AVENUE"
+      "address": "FLAT 340, RUSSELL COURT, WOBURN PLACE"
     },
     {
-      "price": 1450000,
-      "date": "2026-05-08",
-      "postcode": "NW6 3RL",
+      "price": 285000,
+      "date": "2026-06-19",
+      "postcode": "WC1H 0NH",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 8, 15, CLEVE ROAD"
+      "address": "FLAT 391, RUSSELL COURT, WOBURN PLACE"
     },
     {
-      "price": 835000,
-      "date": "2026-05-08",
-      "postcode": "NW3 5NX",
-      "propertyType": "F",
+      "price": 1600000,
+      "date": "2026-06-19",
+      "postcode": "NW3 6SX",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, 24, LYNDHURST ROAD"
+      "tenure": "F",
+      "address": "15, THE MOUNT SQUARE"
     },
     {
-      "price": 565000,
-      "date": "2026-05-08",
-      "postcode": "NW6 1UG",
-      "propertyType": "F",
+      "price": 1055000,
+      "date": "2026-06-17",
+      "postcode": "NW3 3DX",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, 15, PARSIFAL ROAD"
+      "tenure": "F",
+      "address": "49, FELLOWS ROAD"
     },
     {
-      "price": 485000,
-      "date": "2026-05-07",
-      "postcode": "WC1N 1AG",
+      "price": 625000,
+      "date": "2026-06-17",
+      "postcode": "NW6 3RU",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 2, 76, MARCHMONT STREET"
+      "address": "FLAT G, 86, COMPAYNE GARDENS"
+    },
+    {
+      "price": 525000,
+      "date": "2026-06-15",
+      "postcode": "NW1 0JR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, 47, KINGS TERRACE"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-15",
+      "postcode": "WC1H 9DP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 95, QUEEN ALEXANDRA MANSIONS, HASTINGS STREET"
+    },
+    {
+      "price": 985000,
+      "date": "2026-06-15",
+      "postcode": "WC2H 9LN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, FIELDING COURT, 28, EARLHAM STREET"
+    },
+    {
+      "price": 1150000,
+      "date": "2026-06-15",
+      "postcode": "NW3 4BE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 108, HILLFIELD COURT, BELSIZE AVENUE"
+    },
+    {
+      "price": 625000,
+      "date": "2026-06-12",
+      "postcode": "NW3 3LG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, GODOLPHIN HOUSE, 76 - 84, FELLOWS ROAD"
+    },
+    {
+      "price": 226185,
+      "date": "2026-06-12",
+      "postcode": "NW1 8SU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "159, CASTLE ROAD"
     }
   ],
   "monthlyHistory": [
@@ -227,13 +230,13 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 775000,
-      "transactions": 207
+      "medianPrice": 772500,
+      "transactions": 208
     },
     {
       "month": "2024-07",
       "medianPrice": 778500,
-      "transactions": 244
+      "transactions": 246
     },
     {
       "month": "2024-08",
@@ -243,12 +246,12 @@
     {
       "month": "2024-09",
       "medianPrice": 768000,
-      "transactions": 246
+      "transactions": 248
     },
     {
       "month": "2024-10",
-      "medianPrice": 832500,
-      "transactions": 362
+      "medianPrice": 839000,
+      "transactions": 366
     },
     {
       "month": "2024-11",
@@ -273,12 +276,12 @@
     {
       "month": "2025-03",
       "medianPrice": 647000,
-      "transactions": 512
+      "transactions": 510
     },
     {
       "month": "2025-04",
-      "medianPrice": 820000,
-      "transactions": 135
+      "medianPrice": 821875,
+      "transactions": 136
     },
     {
       "month": "2025-05",
@@ -287,63 +290,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 787500,
-      "transactions": 166
+      "medianPrice": 785000,
+      "transactions": 167
     },
     {
       "month": "2025-07",
-      "medianPrice": 832500,
-      "transactions": 198
+      "medianPrice": 825000,
+      "transactions": 205
     },
     {
       "month": "2025-08",
-      "medianPrice": 870000,
-      "transactions": 163
+      "medianPrice": 852500,
+      "transactions": 184
     },
     {
       "month": "2025-09",
-      "medianPrice": 767500,
-      "transactions": 200
+      "medianPrice": 778750,
+      "transactions": 220
     },
     {
       "month": "2025-10",
-      "medianPrice": 708000,
-      "transactions": 145
+      "medianPrice": 735000,
+      "transactions": 158
     },
     {
       "month": "2025-11",
-      "medianPrice": 855000,
-      "transactions": 151
+      "medianPrice": 845000,
+      "transactions": 165
     },
     {
       "month": "2025-12",
-      "medianPrice": 677000,
-      "transactions": 116
+      "medianPrice": 685000,
+      "transactions": 145
     },
     {
       "month": "2026-01",
-      "medianPrice": 782500,
-      "transactions": 104
+      "medianPrice": 820000,
+      "transactions": 132
     },
     {
       "month": "2026-02",
-      "medianPrice": 565000,
-      "transactions": 69
+      "medianPrice": 562500,
+      "transactions": 76
     },
     {
       "month": "2026-03",
-      "medianPrice": 666000,
-      "transactions": 100
+      "medianPrice": 655000,
+      "transactions": 105
     },
     {
       "month": "2026-04",
-      "medianPrice": 660000,
-      "transactions": 77
+      "medianPrice": 655500,
+      "transactions": 88
     },
     {
       "month": "2026-05",
-      "medianPrice": 612500,
-      "transactions": 34
+      "medianPrice": 604000,
+      "transactions": 82
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 590000,
+      "transactions": 49
     }
   ],
   "quarterlyHistory": [
@@ -355,47 +363,47 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 800000,
-      "transactions": 655
+      "transactions": 656
     },
     {
       "quarter": "2024-Q3",
       "medianPrice": 788750,
-      "transactions": 772
+      "transactions": 776
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 792000,
-      "transactions": 851
+      "medianPrice": 795000,
+      "transactions": 855
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 695000,
-      "transactions": 915
+      "transactions": 913
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 786875,
-      "transactions": 482
+      "transactions": 484
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 810000,
-      "transactions": 561
+      "medianPrice": 811000,
+      "transactions": 609
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 750000,
-      "transactions": 412
+      "medianPrice": 762500,
+      "transactions": 468
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 645214,
-      "transactions": 273
+      "medianPrice": 650000,
+      "transactions": 313
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 650000,
-      "transactions": 111
+      "medianPrice": 618000,
+      "transactions": 219
     }
   ]
 }

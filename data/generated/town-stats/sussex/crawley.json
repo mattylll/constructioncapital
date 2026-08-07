@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.926Z",
+  "updatedAt": "2026-08-07T08:45:01.374Z",
   "townSlug": "crawley",
   "countySlug": "sussex",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CRAWLEY"
+  ],
   "marketSnapshot": {
     "medianPrice": 345000,
-    "transactionCount12m": 929,
-    "yoyPriceChange": 0,
+    "transactionCount12m": 913,
+    "yoyPriceChange": -0.4,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

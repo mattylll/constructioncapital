@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.014Z",
+  "updatedAt": "2026-08-07T08:45:03.245Z",
   "townSlug": "halifax",
   "countySlug": "west-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CALDERDALE"
+  ],
   "stats": {
-    "medianPrice": 187500,
+    "medianPrice": 185000,
     "medianByType": {
-      "D": 415000,
-      "S": 225000,
-      "T": 152150,
-      "F": 124000
+      "D": 394000,
+      "S": 222000,
+      "T": 150000,
+      "F": 122000
     },
-    "transactionCount12m": 2652,
-    "yoyChange": 3,
-    "newBuildCount": 8,
-    "existingCount": 2644,
-    "newBuildPremium": 47.1
+    "transactionCount12m": 2642,
+    "yoyChange": 0,
+    "newBuildCount": 12,
+    "existingCount": 2630,
+    "newBuildPremium": 51.4
   },
   "recentTransactions": [
     {
+      "price": 291667,
+      "date": "2026-06-26",
+      "postcode": "HX3 0US",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, COPLEY DRIVE"
+    },
+    {
+      "price": 582500,
+      "date": "2026-06-25",
+      "postcode": "HX5 0QP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, HAMMERSTONES ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-22",
+      "postcode": "HX3 8AP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, WESTFIELD AVENUE"
+    },
+    {
+      "price": 230650,
+      "date": "2026-06-22",
+      "postcode": "HX7 5SA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, TWIST CLOUGH"
+    },
+    {
+      "price": 187500,
+      "date": "2026-06-19",
+      "postcode": "HX7 5EX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, HOLME TERRACE"
+    },
+    {
+      "price": 222000,
+      "date": "2026-06-19",
+      "postcode": "HX2 9SH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, TEWIT GREEN"
+    },
+    {
       "price": 150000,
-      "date": "2026-05-26",
-      "postcode": "HX3 0RP",
+      "date": "2026-06-19",
+      "postcode": "HX6 1HP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "352, SKIRCOAT GREEN ROAD"
-    },
-    {
-      "price": 163500,
-      "date": "2026-05-22",
-      "postcode": "HX6 2BH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, EAST PARADE"
-    },
-    {
-      "price": 66000,
-      "date": "2026-05-21",
-      "postcode": "HX5 9AR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 13, THE SILK MILL, DEWSBURY ROAD"
-    },
-    {
-      "price": 65000,
-      "date": "2026-05-20",
-      "postcode": "HX2 0PN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, ASHVILLE GROVE"
-    },
-    {
-      "price": 77500,
-      "date": "2026-05-20",
-      "postcode": "HX3 7LN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, WEST STREET"
-    },
-    {
-      "price": 267000,
-      "date": "2026-05-19",
-      "postcode": "HX2 0LD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, GOLF CRESCENT"
-    },
-    {
-      "price": 49900,
-      "date": "2026-05-18",
-      "postcode": "HD6 4DR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, WEST STREET"
-    },
-    {
-      "price": 259000,
-      "date": "2026-05-15",
-      "postcode": "HX2 0ET",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, RESERVOIR ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-15",
-      "postcode": "HX2 6HE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, RAVEN BANK"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-15",
-      "postcode": "OL14 5JX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, HAREHILL STREET"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-15",
-      "postcode": "HX6 2AB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, FAIRBANKS"
-    },
-    {
-      "price": 129495,
-      "date": "2026-05-15",
-      "postcode": "HX3 6HR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, WOODLANDS MOUNT"
-    },
-    {
-      "price": 225000,
-      "date": "2026-05-15",
-      "postcode": "HX2 6BJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, WARLEY WOOD AVENUE"
-    },
-    {
-      "price": 90000,
-      "date": "2026-05-15",
-      "postcode": "HX1 2JH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "67, SAVILE GRANGE APARTMENTS, FREE SCHOOL LANE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-15",
-      "postcode": "HX3 0DT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, THIRD AVENUE"
-    },
-    {
-      "price": 182000,
-      "date": "2026-05-15",
-      "postcode": "HX7 5PA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, WHITE LEE GARDENS"
-    },
-    {
-      "price": 130000,
-      "date": "2026-05-15",
-      "postcode": "HX3 6ND",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, SALISBURY PLACE"
+      "address": "35, ROOLEY HEIGHTS"
     },
     {
       "price": 160000,
-      "date": "2026-05-15",
-      "postcode": "HX2 7DJ",
+      "date": "2026-06-19",
+      "postcode": "HX6 2ER",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "27, COPLEY AVENUE"
+      "address": "8, DENBY PLACE"
     },
     {
-      "price": 82005,
-      "date": "2026-05-13",
-      "postcode": "HD6 4AZ",
+      "price": 72000,
+      "date": "2026-06-19",
+      "postcode": "HX1 5SS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, CARR STREET"
+      "address": "4, VICTORIA STREET"
     },
     {
-      "price": 179250,
-      "date": "2026-05-13",
-      "postcode": "HX3 8DY",
+      "price": 150000,
+      "date": "2026-06-19",
+      "postcode": "HX3 0GZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, DELPH BROW, SKIRCOAT MOOR ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-19",
+      "postcode": "HX3 8NW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, GEORGE STREET"
+      "address": "119, BRAMLEY LANE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-06-18",
+      "postcode": "HX2 9RX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "166, ILLINGWORTH ROAD"
+    },
+    {
+      "price": 277000,
+      "date": "2026-06-18",
+      "postcode": "HX3 7WJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, MULBERRY WAY"
+    },
+    {
+      "price": 515000,
+      "date": "2026-06-17",
+      "postcode": "HX2 7RE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, NEWLANDS ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-17",
+      "postcode": "HD6 3PA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "25, CASTLEFIELDS ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-15",
+      "postcode": "HX2 0RL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, BROADLEY CRESCENT"
+    },
+    {
+      "price": 147000,
+      "date": "2026-06-15",
+      "postcode": "HX3 5EH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, LEE MOUNT GARDENS"
+    },
+    {
+      "price": 360000,
+      "date": "2026-06-15",
+      "postcode": "HX2 0LF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, MOUNT AVENUE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-12",
+      "postcode": "HX6 1EF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, STANLEY STREET WEST"
+    },
+    {
+      "price": 160100,
+      "date": "2026-06-12",
+      "postcode": "HX6 1BP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, BROCKWELL GARDENS"
     }
   ],
   "monthlyHistory": [
@@ -218,12 +221,12 @@
     {
       "month": "2024-04",
       "medianPrice": 160000,
-      "transactions": 230
+      "transactions": 231
     },
     {
       "month": "2024-05",
       "medianPrice": 175000,
-      "transactions": 270
+      "transactions": 269
     },
     {
       "month": "2024-06",
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 178000,
-      "transactions": 339
+      "medianPrice": 179000,
+      "transactions": 340
     },
     {
       "month": "2024-11",
@@ -262,8 +265,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 182500,
-      "transactions": 295
+      "medianPrice": 185000,
+      "transactions": 297
     },
     {
       "month": "2025-02",
@@ -273,77 +276,82 @@
     {
       "month": "2025-03",
       "medianPrice": 210000,
-      "transactions": 467
+      "transactions": 468
     },
     {
       "month": "2025-04",
       "medianPrice": 145000,
-      "transactions": 165
+      "transactions": 169
     },
     {
       "month": "2025-05",
       "medianPrice": 180000,
-      "transactions": 261
+      "transactions": 262
     },
     {
       "month": "2025-06",
       "medianPrice": 170000,
-      "transactions": 281
+      "transactions": 282
     },
     {
       "month": "2025-07",
       "medianPrice": 190000,
-      "transactions": 302
+      "transactions": 308
     },
     {
       "month": "2025-08",
       "medianPrice": 190000,
-      "transactions": 330
+      "transactions": 345
     },
     {
       "month": "2025-09",
-      "medianPrice": 191000,
-      "transactions": 294
+      "medianPrice": 193486,
+      "transactions": 312
     },
     {
       "month": "2025-10",
       "medianPrice": 185000,
-      "transactions": 372
+      "transactions": 381
     },
     {
       "month": "2025-11",
-      "medianPrice": 199000,
-      "transactions": 294
+      "medianPrice": 200000,
+      "transactions": 301
     },
     {
       "month": "2025-12",
-      "medianPrice": 173750,
-      "transactions": 250
+      "medianPrice": 170000,
+      "transactions": 269
     },
     {
       "month": "2026-01",
-      "medianPrice": 191000,
-      "transactions": 196
+      "medianPrice": 195000,
+      "transactions": 213
     },
     {
       "month": "2026-02",
-      "medianPrice": 189975,
-      "transactions": 208
+      "medianPrice": 191000,
+      "transactions": 217
     },
     {
       "month": "2026-03",
-      "medianPrice": 181000,
-      "transactions": 222
+      "medianPrice": 180000,
+      "transactions": 227
     },
     {
       "month": "2026-04",
       "medianPrice": 180000,
-      "transactions": 159
+      "transactions": 179
     },
     {
       "month": "2026-05",
-      "medianPrice": 181000,
-      "transactions": 66
+      "medianPrice": 170000,
+      "transactions": 192
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 165000,
+      "transactions": 64
     }
   ],
   "quarterlyHistory": [
@@ -365,37 +373,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 185000,
-      "transactions": 934
+      "transactions": 935
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 195000,
-      "transactions": 1058
+      "transactions": 1061
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 167250,
-      "transactions": 707
+      "medianPrice": 165000,
+      "transactions": 713
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 190000,
-      "transactions": 926
+      "transactions": 965
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 185750,
-      "transactions": 916
+      "medianPrice": 186000,
+      "transactions": 951
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 185500,
-      "transactions": 626
+      "medianPrice": 188000,
+      "transactions": 657
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 180000,
-      "transactions": 225
+      "medianPrice": 175000,
+      "transactions": 435
     }
   ]
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.284Z",
+  "updatedAt": "2026-08-07T08:45:01.389Z",
   "townSlug": "eastbourne",
   "countySlug": "sussex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EASTBOURNE"
+  ],
   "stats": {
     "medianPrice": 270000,
     "medianByType": {
       "D": 415000,
-      "S": 319500,
+      "S": 315000,
       "T": 270000,
       "F": 185000
     },
-    "transactionCount12m": 1230,
+    "transactionCount12m": 1220,
     "yoyChange": -1.8,
     "newBuildCount": 0,
-    "existingCount": 1230,
+    "existingCount": 1220,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 260000,
-      "date": "2026-05-26",
-      "postcode": "BN23 7TL",
+      "price": 300000,
+      "date": "2026-06-29",
+      "postcode": "BN22 8AL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "57, THE RISING"
+      "address": "21, WILLOWFIELD ROAD"
     },
     {
-      "price": 114000,
-      "date": "2026-05-22",
-      "postcode": "BN21 1LQ",
+      "price": 259950,
+      "date": "2026-06-25",
+      "postcode": "BN20 7UD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1B, 48, UPPERTON ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-22",
-      "postcode": "BN23 5DE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 10, PALOMAR COURT, 4, MIDWAY QUAY"
-    },
-    {
-      "price": 365000,
-      "date": "2026-05-22",
-      "postcode": "BN22 8UU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "151, ASTAIRE AVENUE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-21",
-      "postcode": "BN23 6BW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, DRAKE AVENUE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-20",
-      "postcode": "BN23 5BD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, SOLOMONS CLOSE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-18",
-      "postcode": "BN23 5UE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12, WINDWARD QUAY"
-    },
-    {
-      "price": 310000,
-      "date": "2026-05-18",
-      "postcode": "BN23 5BA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, SAMOA WAY"
-    },
-    {
-      "price": 262500,
-      "date": "2026-05-18",
-      "postcode": "BN22 9LT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, SOUTHERN ROAD"
-    },
-    {
-      "price": 355000,
-      "date": "2026-05-18",
-      "postcode": "BN22 8UN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, ASTAIRE AVENUE"
-    },
-    {
-      "price": 340000,
-      "date": "2026-05-18",
-      "postcode": "BN20 8AH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, VICARAGE ROAD"
-    },
-    {
-      "price": 77000,
-      "date": "2026-05-15",
-      "postcode": "BN21 3DH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 17, GLADSTONE COURT, 237, TERMINUS ROAD"
-    },
-    {
-      "price": 99500,
-      "date": "2026-05-15",
-      "postcode": "BN21 2AA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 5, UPPERTON GARDENS"
-    },
-    {
-      "price": 300026,
-      "date": "2026-05-15",
-      "postcode": "BN23 7TF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, STEVENSON CLOSE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-15",
-      "postcode": "BN23 8EL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, HADLOW AVENUE"
-    },
-    {
-      "price": 227000,
-      "date": "2026-05-13",
-      "postcode": "BN21 1DL",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 28, ARLINGTON ROAD"
-    },
-    {
-      "price": 455000,
-      "date": "2026-05-12",
-      "postcode": "BN23 6JW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, MONARCH GARDENS"
+      "address": "FLAT 3, TREVETHAN, 52, CARLISLE ROAD"
     },
     {
       "price": 295000,
-      "date": "2026-05-12",
-      "postcode": "BN21 2UY",
+      "date": "2026-06-19",
+      "postcode": "BN23 6BZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, MOUNTBATTEN DRIVE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-19",
+      "postcode": "BN22 9QN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 8, CLIFTON HOUSE, 2, PARK AVENUE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-19",
+      "postcode": "BN23 8BX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, PARK LANE"
+      "address": "20, FOXGLOVE ROAD"
     },
     {
-      "price": 180000,
-      "date": "2026-05-11",
-      "postcode": "BN23 8HW",
-      "propertyType": "T",
+      "price": 130000,
+      "date": "2026-06-19",
+      "postcode": "BN23 7DE",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "101, SNOWDON CLOSE"
+      "tenure": "L",
+      "address": "14, HEREFORD COURT, LANGNEY RISE"
     },
     {
-      "price": 270000,
-      "date": "2026-05-08",
-      "postcode": "BN22 0RX",
+      "price": 287500,
+      "date": "2026-06-18",
+      "postcode": "BN20 8RG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, ROWAN AVENUE"
+      "address": "39, ROYAL SUSSEX CRESCENT"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-18",
+      "postcode": "BN21 4NL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, EASTWOOD HOUSE, 9, CHISWICK PLACE"
+    },
+    {
+      "price": 305000,
+      "date": "2026-06-18",
+      "postcode": "BN20 7XW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 12, SUMMER COURT, WELLCOMBE CRESCENT"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-18",
+      "postcode": "BN20 7EY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 6, 28, SILVERDALE ROAD"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-18",
+      "postcode": "BN22 7JE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "181, LATIMER ROAD"
+    },
+    {
+      "price": 365500,
+      "date": "2026-06-18",
+      "postcode": "BN21 1PP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, OCKLYNGE ROAD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-17",
+      "postcode": "BN22 8HD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, DUDLEY ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-17",
+      "postcode": "BN22 9QX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, PULBOROUGH AVENUE"
+    },
+    {
+      "price": 263000,
+      "date": "2026-06-16",
+      "postcode": "BN23 8JA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, HODCOMBE CLOSE"
+    },
+    {
+      "price": 113000,
+      "date": "2026-06-16",
+      "postcode": "BN23 8HZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, SNOWDON CLOSE"
+    },
+    {
+      "price": 685000,
+      "date": "2026-06-15",
+      "postcode": "BN20 8DP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, LINDSAY CLOSE"
+    },
+    {
+      "price": 600000,
+      "date": "2026-06-15",
+      "postcode": "BN20 7ST",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, 24, DENTON ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-12",
+      "postcode": "BN22 8AE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "104, PEVENSEY ROAD"
+    },
+    {
+      "price": 281500,
+      "date": "2026-06-12",
+      "postcode": "BN23 8JD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, MICHELHAM CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 273975,
-      "transactions": 220
+      "medianPrice": 275000,
+      "transactions": 222
     },
     {
       "month": "2024-11",
@@ -282,68 +285,73 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 267000,
-      "transactions": 109
+      "medianPrice": 272000,
+      "transactions": 110
     },
     {
       "month": "2025-06",
       "medianPrice": 265000,
-      "transactions": 176
+      "transactions": 177
     },
     {
       "month": "2025-07",
-      "medianPrice": 275000,
-      "transactions": 141
+      "medianPrice": 270000,
+      "transactions": 143
     },
     {
       "month": "2025-08",
       "medianPrice": 275000,
-      "transactions": 163
+      "transactions": 168
     },
     {
       "month": "2025-09",
-      "medianPrice": 265750,
-      "transactions": 130
+      "medianPrice": 259000,
+      "transactions": 140
     },
     {
       "month": "2025-10",
       "medianPrice": 258000,
-      "transactions": 151
+      "transactions": 152
     },
     {
       "month": "2025-11",
       "medianPrice": 280000,
-      "transactions": 152
+      "transactions": 153
     },
     {
       "month": "2025-12",
       "medianPrice": 260000,
-      "transactions": 142
+      "transactions": 156
     },
     {
       "month": "2026-01",
-      "medianPrice": 267500,
-      "transactions": 84
+      "medianPrice": 265000,
+      "transactions": 94
     },
     {
       "month": "2026-02",
       "medianPrice": 280000,
-      "transactions": 89
+      "transactions": 90
     },
     {
       "month": "2026-03",
-      "medianPrice": 280000,
-      "transactions": 99
+      "medianPrice": 277500,
+      "transactions": 100
     },
     {
       "month": "2026-04",
       "medianPrice": 270000,
-      "transactions": 79
+      "transactions": 85
     },
     {
       "month": "2026-05",
-      "medianPrice": 255000,
-      "transactions": 34
+      "medianPrice": 259000,
+      "transactions": 76
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 287500,
+      "transactions": 41
     }
   ],
   "quarterlyHistory": [
@@ -364,8 +372,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 272950,
-      "transactions": 539
+      "medianPrice": 275000,
+      "transactions": 541
     },
     {
       "quarter": "2025-Q1",
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 262500,
-      "transactions": 358
+      "medianPrice": 265000,
+      "transactions": 360
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 272050,
-      "transactions": 434
+      "medianPrice": 270000,
+      "transactions": 451
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 262624,
-      "transactions": 445
+      "medianPrice": 262500,
+      "transactions": 461
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 275000,
-      "transactions": 272
+      "transactions": 284
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 268000,
-      "transactions": 113
+      "medianPrice": 270000,
+      "transactions": 202
     }
   ]
 }

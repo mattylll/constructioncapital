@@ -1,23 +1,153 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.954Z",
+  "updatedAt": "2026-08-07T08:45:02.097Z",
   "townSlug": "bridport",
   "countySlug": "dorset",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "DORSET",
+    "WEST DORSET"
+  ],
   "stats": {
-    "medianPrice": 370000,
+    "medianPrice": 362500,
     "medianByType": {
       "D": 522500,
       "S": 345000,
       "T": 285000,
-      "F": 170500
+      "F": 173000
     },
-    "transactionCount12m": 310,
-    "yoyChange": 1.4,
+    "transactionCount12m": 294,
+    "yoyChange": -2,
     "newBuildCount": 0,
-    "existingCount": 310,
+    "existingCount": 294,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 325000,
+      "date": "2026-06-22",
+      "postcode": "DT6 3DQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, ST KATHERINES DRIVE"
+    },
+    {
+      "price": 395000,
+      "date": "2026-06-22",
+      "postcode": "DT6 4SR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, HOWARD CLOSE"
+    },
+    {
+      "price": 650000,
+      "date": "2026-06-19",
+      "postcode": "DT6 6RQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ASHLEIGH COTTAGE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-12",
+      "postcode": "DT6 5LW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, BOWDOWNS, ST JAMES ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-05",
+      "postcode": "DT6 3HZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, MAY COTTAGES"
+    },
+    {
+      "price": 65000,
+      "date": "2026-06-05",
+      "postcode": "DT6 3JR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 20, WYKES GATE, DOWNES STREET"
+    },
+    {
+      "price": 366900,
+      "date": "2026-06-05",
+      "postcode": "DT6 4DZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, SLADES GREEN"
+    },
+    {
+      "price": 262500,
+      "date": "2026-06-05",
+      "postcode": "DT6 6AE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, GROVE VIEW, WEST ROAD"
+    },
+    {
+      "price": 497000,
+      "date": "2026-05-29",
+      "postcode": "DT6 4AN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8A, JESSOPP AVENUE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-05-29",
+      "postcode": "DT6 4BJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, MANOR BARN, MAIN STREET"
+    },
+    {
+      "price": 354500,
+      "date": "2026-05-29",
+      "postcode": "DT6 4DB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, MANOR FIELDS"
+    },
+    {
+      "price": 490000,
+      "date": "2026-05-29",
+      "postcode": "DT6 6JW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PELHAM"
+    },
+    {
+      "price": 300000,
+      "date": "2026-05-29",
+      "postcode": "DT6 5DA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, PARK ROAD"
+    },
+    {
+      "price": 145000,
+      "date": "2026-05-28",
+      "postcode": "DT6 5DX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37C, NORTH ALLINGTON"
+    },
     {
       "price": 450000,
       "date": "2026-05-26",
@@ -28,6 +158,42 @@
       "address": "WEST COTTAGE"
     },
     {
+      "price": 150000,
+      "date": "2026-05-22",
+      "postcode": "DT6 4HE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, ESPLANADE"
+    },
+    {
+      "price": 492000,
+      "date": "2026-05-22",
+      "postcode": "DT6 3FE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, BLIND LANE CLOSE"
+    },
+    {
+      "price": 329000,
+      "date": "2026-05-22",
+      "postcode": "DT6 5DA",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHAPEL HOUSE, PARK ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-05-22",
+      "postcode": "DT6 4RA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "92, HIGH STREET"
+    },
+    {
       "price": 235000,
       "date": "2026-05-22",
       "postcode": "DT6 3EN",
@@ -35,168 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "14, GORE CROSS WAY"
-    },
-    {
-      "price": 340000,
-      "date": "2026-05-22",
-      "postcode": "DT6 4AU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, STUART WAY"
-    },
-    {
-      "price": 265000,
-      "date": "2026-05-22",
-      "postcode": "DT6 5PH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, PYMORE TERRACE"
-    },
-    {
-      "price": 745000,
-      "date": "2026-05-21",
-      "postcode": "DT6 6HF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WILD WOOD"
-    },
-    {
-      "price": 420000,
-      "date": "2026-05-15",
-      "postcode": "DT6 3AY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, CLAREMONT ROAD"
-    },
-    {
-      "price": 466485,
-      "date": "2026-05-15",
-      "postcode": "DT6 3BT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "215, ST ANDREWS ROAD"
-    },
-    {
-      "price": 485000,
-      "date": "2026-05-15",
-      "postcode": "DT6 4DZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, SLADES GREEN"
-    },
-    {
-      "price": 225000,
-      "date": "2026-05-15",
-      "postcode": "DT6 3AQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, ST HILDA'S, NORTH STREET"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-15",
-      "postcode": "DT6 4RH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, BARROWFIELD CLOSE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-05-15",
-      "postcode": "DT6 5HQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, CHERRY TREE"
-    },
-    {
-      "price": 227500,
-      "date": "2026-05-15",
-      "postcode": "DT6 3HB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 39, PEELERS COURT, ST ANDREWS ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-12",
-      "postcode": "DT6 3RN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, FOLLY MILL GARDENS"
-    },
-    {
-      "price": 456500,
-      "date": "2026-05-08",
-      "postcode": "DT6 4BJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, MANOR BARN, MAIN STREET"
-    },
-    {
-      "price": 415000,
-      "date": "2026-05-08",
-      "postcode": "DT6 4DP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, MAPLE GARDENS"
-    },
-    {
-      "price": 385000,
-      "date": "2026-05-07",
-      "postcode": "DT6 6RX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, NUTCOMBE CLOSE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-07",
-      "postcode": "DT6 6DX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SEAWARD, VERRIOTTS LANE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-06",
-      "postcode": "DT6 4LS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LILLIPUT, GULLIVERS ORCHARD"
-    },
-    {
-      "price": 342000,
-      "date": "2026-05-05",
-      "postcode": "DT6 5PH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, PYMORE TERRACE"
-    },
-    {
-      "price": 311000,
-      "date": "2026-05-05",
-      "postcode": "DT6 3JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, HIGHER STREET"
     }
   ],
   "monthlyHistory": [
@@ -277,8 +281,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 397500,
-      "transactions": 24
+      "medianPrice": 390000,
+      "transactions": 25
     },
     {
       "month": "2025-05",
@@ -287,8 +291,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 335000,
-      "transactions": 26
+      "medianPrice": 345000,
+      "transactions": 27
     },
     {
       "month": "2025-07",
@@ -297,13 +301,13 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 442500,
-      "transactions": 36
+      "medianPrice": 445000,
+      "transactions": 35
     },
     {
       "month": "2025-09",
       "medianPrice": 391250,
-      "transactions": 32
+      "transactions": 34
     },
     {
       "month": "2025-10",
@@ -312,23 +316,23 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 375000,
-      "transactions": 29
+      "medianPrice": 370000,
+      "transactions": 30
     },
     {
       "month": "2025-12",
       "medianPrice": 350000,
-      "transactions": 28
+      "transactions": 31
     },
     {
       "month": "2026-01",
       "medianPrice": 370000,
-      "transactions": 21
+      "transactions": 23
     },
     {
       "month": "2026-02",
-      "medianPrice": 387500,
-      "transactions": 20
+      "medianPrice": 390000,
+      "transactions": 21
     },
     {
       "month": "2026-03",
@@ -342,8 +346,13 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 339000,
-      "transactions": 24
+      "medianPrice": 340000,
+      "transactions": 37
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 345950,
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -375,27 +384,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 347500,
-      "transactions": 64
+      "transactions": 66
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 390000,
-      "transactions": 113
+      "transactions": 114
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 352500,
-      "transactions": 96
+      "medianPrice": 350000,
+      "transactions": 100
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 395000,
-      "transactions": 54
+      "transactions": 57
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 340000,
-      "transactions": 53
+      "medianPrice": 341000,
+      "transactions": 74
     }
   ]
 }

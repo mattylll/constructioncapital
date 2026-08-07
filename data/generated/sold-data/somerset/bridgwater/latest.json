@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.800Z",
+  "updatedAt": "2026-08-07T08:45:01.926Z",
   "townSlug": "bridgwater",
   "countySlug": "somerset",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOMERSET",
+    "SEDGEMOOR"
+  ],
   "stats": {
-    "medianPrice": 255000,
+    "medianPrice": 259000,
     "medianByType": {
-      "D": 374500,
-      "S": 262000,
-      "T": 210975,
-      "F": 128000
+      "D": 372000,
+      "S": 260000,
+      "T": 210000,
+      "F": 126000
     },
-    "transactionCount12m": 893,
-    "yoyChange": 2,
-    "newBuildCount": 5,
-    "existingCount": 888,
-    "newBuildPremium": 73.3
+    "transactionCount12m": 899,
+    "yoyChange": 3.6,
+    "newBuildCount": 4,
+    "existingCount": 895,
+    "newBuildPremium": 72
   },
   "recentTransactions": [
     {
-      "price": 385000,
-      "date": "2026-05-26",
-      "postcode": "TA6 6UQ",
+      "price": 590000,
+      "date": "2026-06-29",
+      "postcode": "TA7 9BH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, EVESHAM DRIVE"
+      "address": "1, TAUNTON ROAD"
     },
     {
-      "price": 265000,
-      "date": "2026-05-22",
-      "postcode": "TA6 6AX",
+      "price": 168000,
+      "date": "2026-06-26",
+      "postcode": "TA6 5SZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, ASHLEIGH AVENUE"
+      "address": "6, LOXLEIGH GARDENS"
     },
     {
-      "price": 600000,
-      "date": "2026-05-21",
-      "postcode": "TA6 7HU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, DURLEIGH ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-20",
-      "postcode": "TA6 4HA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, WINDSOR ROAD"
-    },
-    {
-      "price": 245000,
-      "date": "2026-05-18",
-      "postcode": "TA6 5DD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, WALNUT DRIVE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-05-15",
-      "postcode": "TA6 6RG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4B, CLARE STREET"
-    },
-    {
-      "price": 198000,
-      "date": "2026-05-15",
-      "postcode": "TA6 6XN",
+      "price": 162500,
+      "date": "2026-06-22",
+      "postcode": "TA6 6EU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, OLIVE WAY"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-15",
-      "postcode": "TA6 7NW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "70, ALFOXTON ROAD"
+      "address": "6, POTTERTON CLOSE"
     },
     {
       "price": 315000,
-      "date": "2026-05-15",
-      "postcode": "TA6 4WL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, RUBY DRIVE"
-    },
-    {
-      "price": 245000,
-      "date": "2026-05-15",
-      "postcode": "TA6 4EB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, ALMOND TREE CLOSE"
-    },
-    {
-      "price": 470000,
-      "date": "2026-05-14",
-      "postcode": "TA6 6NY",
+      "date": "2026-06-22",
+      "postcode": "TA6 3TH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "CROWS NEST, CLIFF ROAD"
+      "address": "8, EARLS CLOSE"
     },
     {
-      "price": 525000,
-      "date": "2026-05-13",
-      "postcode": "TA7 9AR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE MALTINGS, MOOR ROAD"
-    },
-    {
-      "price": 195000,
-      "date": "2026-05-13",
-      "postcode": "TA7 0EX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CHEER LANE"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-11",
-      "postcode": "TA6 4HE",
+      "price": 280000,
+      "date": "2026-06-22",
+      "postcode": "TA7 0LA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, BLENHEIM ROAD"
+      "address": "9, SOUTHVIEW ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-19",
+      "postcode": "TA7 8BL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, PURITON PARK"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-19",
+      "postcode": "TA6 7LN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, TRISCOMBE AVENUE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-19",
+      "postcode": "TA6 6UJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, SHELLTHORN GROVE"
+    },
+    {
+      "price": 334000,
+      "date": "2026-06-18",
+      "postcode": "TA6 7PR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GRASMERE CLOSE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-17",
+      "postcode": "TA7 0QS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CASTLE COURT, FORE STREET"
+    },
+    {
+      "price": 187000,
+      "date": "2026-06-12",
+      "postcode": "TA6 4HR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "149, PARKWAY"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-12",
+      "postcode": "TA6 3WH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MILTON PLACE"
+    },
+    {
+      "price": 395000,
+      "date": "2026-06-12",
+      "postcode": "TA7 0QG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, YARD COURT, NORTH LANE"
+    },
+    {
+      "price": 100000,
+      "date": "2026-06-10",
+      "postcode": "TA6 5EG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, MARINERS COURT, MARINERS CLOSE"
+    },
+    {
+      "price": 213000,
+      "date": "2026-06-10",
+      "postcode": "TA6 4QL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CHAMBERLIN AVENUE"
     },
     {
       "price": 420000,
-      "date": "2026-05-08",
-      "postcode": "TA6 3UW",
+      "date": "2026-06-09",
+      "postcode": "TA6 4NR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, OAK APPLE DRIVE"
+      "address": "24, BROADOAK ROAD"
     },
     {
-      "price": 145000,
-      "date": "2026-05-08",
-      "postcode": "TA6 3EG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, SILVER STREET"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-08",
-      "postcode": "TA6 6WP",
+      "price": 200000,
+      "date": "2026-06-08",
+      "postcode": "TA6 4XL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, SAVANNAH DRIVE"
+      "address": "19, CLAREMONT GROVE"
     },
     {
-      "price": 160000,
-      "date": "2026-05-08",
-      "postcode": "TA6 5BG",
+      "price": 175000,
+      "date": "2026-06-08",
+      "postcode": "TA6 3SL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, REDGATE STREET"
+      "address": "31, REEDMOOR GARDENS"
     },
     {
-      "price": 250000,
-      "date": "2026-05-06",
-      "postcode": "TA6 3UP",
+      "price": 245000,
+      "date": "2026-06-05",
+      "postcode": "TA6 3HQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, FOUR ACRE MEADOW"
+      "address": "46, STANDISH STREET"
     },
     {
-      "price": 440000,
-      "date": "2026-05-06",
-      "postcode": "TA5 2BH",
-      "propertyType": "D",
+      "price": 248000,
+      "date": "2026-06-04",
+      "postcode": "TA6 5BT",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE SPINNEY"
+      "address": "24, PENZOY AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -272,8 +276,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 260000,
-      "transactions": 205
+      "medianPrice": 262500,
+      "transactions": 204
     },
     {
       "month": "2025-04",
@@ -288,62 +292,67 @@
     {
       "month": "2025-06",
       "medianPrice": 240000,
-      "transactions": 91
+      "transactions": 92
     },
     {
       "month": "2025-07",
-      "medianPrice": 247500,
-      "transactions": 107
+      "medianPrice": 247250,
+      "transactions": 108
     },
     {
       "month": "2025-08",
-      "medianPrice": 267500,
-      "transactions": 122
+      "medianPrice": 263750,
+      "transactions": 124
     },
     {
       "month": "2025-09",
       "medianPrice": 247000,
-      "transactions": 94
+      "transactions": 99
     },
     {
       "month": "2025-10",
-      "medianPrice": 282500,
-      "transactions": 118
+      "medianPrice": 285000,
+      "transactions": 121
     },
     {
       "month": "2025-11",
-      "medianPrice": 270000,
-      "transactions": 95
+      "medianPrice": 271250,
+      "transactions": 98
     },
     {
       "month": "2025-12",
-      "medianPrice": 247500,
-      "transactions": 89
+      "medianPrice": 247750,
+      "transactions": 98
     },
     {
       "month": "2026-01",
-      "medianPrice": 254900,
-      "transactions": 67
+      "medianPrice": 254000,
+      "transactions": 71
     },
     {
       "month": "2026-02",
-      "medianPrice": 257500,
-      "transactions": 78
+      "medianPrice": 262500,
+      "transactions": 80
     },
     {
       "month": "2026-03",
       "medianPrice": 235000,
-      "transactions": 72
+      "transactions": 77
     },
     {
       "month": "2026-04",
-      "medianPrice": 261000,
-      "transactions": 46
+      "medianPrice": 260000,
+      "transactions": 53
     },
     {
       "month": "2026-05",
-      "medianPrice": 257500,
-      "transactions": 32
+      "medianPrice": 270000,
+      "transactions": 82
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 246500,
+      "transactions": 22
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +379,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 260000,
-      "transactions": 395
+      "transactions": 394
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 244250,
-      "transactions": 238
+      "medianPrice": 242500,
+      "transactions": 239
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 250000,
-      "transactions": 323
+      "transactions": 331
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 265000,
-      "transactions": 302
+      "transactions": 317
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 250000,
-      "transactions": 217
+      "transactions": 228
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 261000,
-      "transactions": 78
+      "medianPrice": 260000,
+      "transactions": 157
     }
   ]
 }

@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.660Z",
+  "updatedAt": "2026-08-07T08:45:01.111Z",
   "townSlug": "hillingdon",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HILLINGDON"
+  ],
   "marketSnapshot": {
     "medianPrice": 500000,
-    "transactionCount12m": 2012,
+    "transactionCount12m": 2044,
     "yoyPriceChange": 3.1,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.704Z",
+  "updatedAt": "2026-08-07T08:45:03.084Z",
   "townSlug": "macclesfield",
   "countySlug": "cheshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CHESHIRE EAST"
+  ],
   "marketSnapshot": {
-    "medianPrice": 295000,
-    "transactionCount12m": 1141,
-    "yoyPriceChange": -1.7,
+    "medianPrice": 294000,
+    "transactionCount12m": 1101,
+    "yoyPriceChange": -2,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

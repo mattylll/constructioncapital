@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.081Z",
+  "updatedAt": "2026-08-07T08:45:03.312Z",
   "townSlug": "doncaster",
   "countySlug": "south-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "DONCASTER"
+  ],
   "stats": {
-    "medianPrice": 167000,
+    "medianPrice": 169975,
     "medianByType": {
-      "D": 275000,
-      "S": 165000,
+      "D": 280000,
+      "S": 166000,
       "T": 115000,
-      "F": 104000
+      "F": 105000
     },
-    "transactionCount12m": 3330,
-    "yoyChange": -0.6,
-    "newBuildCount": 17,
-    "existingCount": 3313,
-    "newBuildPremium": 1.2
+    "transactionCount12m": 3346,
+    "yoyChange": 1.2,
+    "newBuildCount": 24,
+    "existingCount": 3322,
+    "newBuildPremium": 57
   },
   "recentTransactions": [
     {
-      "price": 175000,
-      "date": "2026-05-26",
-      "postcode": "DN3 2AY",
-      "propertyType": "T",
+      "price": 310000,
+      "date": "2026-06-26",
+      "postcode": "DN2 6BS",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "59, PARK AVENUE"
-    },
-    {
-      "price": 172000,
-      "date": "2026-05-26",
-      "postcode": "DN1 1JL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, SILVER STREET"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-22",
-      "postcode": "DN11 0TY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, HEATHERFIELDS CRESCENT"
-    },
-    {
-      "price": 177000,
-      "date": "2026-05-22",
-      "postcode": "DN3 3JJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, HORNSBY ROAD"
-    },
-    {
-      "price": 177000,
-      "date": "2026-05-22",
-      "postcode": "DN4 9AZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, DINMORE CLOSE"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-22",
-      "postcode": "DN7 6EB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60, PIPPIN WAY"
-    },
-    {
-      "price": 114000,
-      "date": "2026-05-21",
-      "postcode": "DN8 4PZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, SOUTH ROAD"
-    },
-    {
-      "price": 164000,
-      "date": "2026-05-21",
-      "postcode": "DN3 2RP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, FEN COURT"
+      "address": "76, TOWN MOOR AVENUE"
     },
     {
       "price": 185000,
-      "date": "2026-05-18",
-      "postcode": "DN2 6HF",
+      "date": "2026-06-26",
+      "postcode": "DN11 0QU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "125, LONSDALE AVENUE"
+      "address": "41, ATTLEE AVENUE"
     },
     {
-      "price": 303000,
-      "date": "2026-05-18",
-      "postcode": "DN2 4FF",
+      "price": 168000,
+      "date": "2026-06-26",
+      "postcode": "DN4 6PL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "67, ALMOND ROAD"
+    },
+    {
+      "price": 174000,
+      "date": "2026-06-26",
+      "postcode": "DN3 3SY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, RIVERSIDE LANE"
+      "address": "8, HALDYNBY GARDENS"
     },
     {
-      "price": 155000,
-      "date": "2026-05-15",
-      "postcode": "DN5 8HR",
+      "price": 100000,
+      "date": "2026-06-25",
+      "postcode": "DN5 9HR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "32, NEWBOLD TERRACE"
+      "address": "27, SPRINGCROFT DRIVE"
     },
     {
-      "price": 160000,
-      "date": "2026-05-15",
-      "postcode": "DN12 2DB",
+      "price": 85000,
+      "date": "2026-06-24",
+      "postcode": "DN7 6LA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, ROBERTS AVENUE"
+      "address": "26, MILCROFT CRESCENT"
     },
     {
-      "price": 160000,
-      "date": "2026-05-15",
-      "postcode": "DN6 9PD",
+      "price": 71000,
+      "date": "2026-06-24",
+      "postcode": "DN2 5EW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, GLEBE ROAD"
+      "address": "28, PLUNKET ROAD"
     },
     {
-      "price": 215000,
-      "date": "2026-05-15",
-      "postcode": "DN5 9DS",
+      "price": 80000,
+      "date": "2026-06-23",
+      "postcode": "DN1 2TP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, CRANBROOK ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-19",
+      "postcode": "DN5 9DH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, LANGTHWAITE ROAD"
+      "address": "13, WALDEN AVENUE"
     },
     {
-      "price": 275000,
-      "date": "2026-05-15",
-      "postcode": "DN4 5PA",
-      "propertyType": "D",
+      "price": 110000,
+      "date": "2026-06-19",
+      "postcode": "DN6 8HL",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "151, BUTTERMERE CRESCENT"
+      "address": "93, SKELLOW ROAD"
     },
     {
-      "price": 130000,
-      "date": "2026-05-15",
-      "postcode": "DN4 5PL",
+      "price": 97500,
+      "date": "2026-06-19",
+      "postcode": "DN3 1ST",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "123, LAKESIDE BOULEVARD"
+      "address": "18, KILN COURT"
     },
     {
-      "price": 95000,
-      "date": "2026-05-15",
-      "postcode": "DN8 4QG",
+      "price": 225000,
+      "date": "2026-06-19",
+      "postcode": "DN3 1LP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, PARK ROAD"
+      "address": "2, LIME DALE VIEW"
     },
     {
-      "price": 70000,
-      "date": "2026-05-15",
-      "postcode": "DN5 0AZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10A, NEW STREET"
-    },
-    {
-      "price": 84000,
-      "date": "2026-05-14",
-      "postcode": "DN6 7JN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, SOUTH STREET"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-14",
-      "postcode": "DN3 1EH",
+      "price": 290000,
+      "date": "2026-06-19",
+      "postcode": "DN3 1QT",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "32, OLD SCHOOL DRIVE"
+      "address": "18, PINEFIELD ROAD"
+    },
+    {
+      "price": 330000,
+      "date": "2026-06-19",
+      "postcode": "DN5 8LH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, ROEHAMPTON RISE"
+    },
+    {
+      "price": 201500,
+      "date": "2026-06-19",
+      "postcode": "DN7 6NE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "EAST VIEW, MAIN STREET"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-19",
+      "postcode": "DN6 0HH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SOUTH VIEW, MOSS ROAD"
+    },
+    {
+      "price": 215000,
+      "date": "2026-06-18",
+      "postcode": "DN3 2EP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, CHESTNUT AVENUE"
+    },
+    {
+      "price": 68000,
+      "date": "2026-06-18",
+      "postcode": "DN8 5DU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, SOUTH PARADE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-18",
+      "postcode": "DN4 6DX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, WHIPHILL CLOSE"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-18",
+      "postcode": "DN7 6FT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, FALLOW ROAD"
     }
   ],
   "monthlyHistory": [
@@ -233,7 +236,7 @@
     {
       "month": "2024-07",
       "medianPrice": 165000,
-      "transactions": 396
+      "transactions": 397
     },
     {
       "month": "2024-08",
@@ -248,7 +251,7 @@
     {
       "month": "2024-10",
       "medianPrice": 172000,
-      "transactions": 561
+      "transactions": 562
     },
     {
       "month": "2024-11",
@@ -257,93 +260,98 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 170650,
-      "transactions": 431
+      "medianPrice": 171575,
+      "transactions": 432
     },
     {
       "month": "2025-01",
       "medianPrice": 160000,
-      "transactions": 331
+      "transactions": 330
     },
     {
       "month": "2025-02",
-      "medianPrice": 163750,
-      "transactions": 416
+      "medianPrice": 164000,
+      "transactions": 417
     },
     {
       "month": "2025-03",
       "medianPrice": 183750,
-      "transactions": 696
+      "transactions": 698
     },
     {
       "month": "2025-04",
       "medianPrice": 145000,
-      "transactions": 248
+      "transactions": 250
     },
     {
       "month": "2025-05",
-      "medianPrice": 155000,
-      "transactions": 397
+      "medianPrice": 156000,
+      "transactions": 401
     },
     {
       "month": "2025-06",
-      "medianPrice": 176500,
-      "transactions": 402
+      "medianPrice": 177000,
+      "transactions": 405
     },
     {
       "month": "2025-07",
-      "medianPrice": 160000,
-      "transactions": 421
+      "medianPrice": 165000,
+      "transactions": 443
     },
     {
       "month": "2025-08",
-      "medianPrice": 170000,
-      "transactions": 380
+      "medianPrice": 170125,
+      "transactions": 406
     },
     {
       "month": "2025-09",
-      "medianPrice": 160000,
-      "transactions": 377
+      "medianPrice": 160625,
+      "transactions": 400
     },
     {
       "month": "2025-10",
       "medianPrice": 165000,
-      "transactions": 433
+      "transactions": 441
     },
     {
       "month": "2025-11",
-      "medianPrice": 164000,
-      "transactions": 379
+      "medianPrice": 163500,
+      "transactions": 389
     },
     {
       "month": "2025-12",
       "medianPrice": 180000,
-      "transactions": 355
+      "transactions": 396
     },
     {
       "month": "2026-01",
-      "medianPrice": 165000,
-      "transactions": 214
+      "medianPrice": 166834,
+      "transactions": 236
     },
     {
       "month": "2026-02",
       "medianPrice": 165000,
-      "transactions": 260
+      "transactions": 274
     },
     {
       "month": "2026-03",
       "medianPrice": 170000,
-      "transactions": 280
+      "transactions": 289
     },
     {
       "month": "2026-04",
       "medianPrice": 170000,
-      "transactions": 224
+      "transactions": 253
     },
     {
       "month": "2026-05",
-      "medianPrice": 160000,
-      "transactions": 73
+      "medianPrice": 164000,
+      "transactions": 217
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 174000,
+      "transactions": 102
     }
   ],
   "quarterlyHistory": [
@@ -360,42 +368,42 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 166500,
-      "transactions": 1284
+      "transactions": 1285
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 165500,
-      "transactions": 1432
+      "transactions": 1434
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 173000,
-      "transactions": 1443
+      "transactions": 1445
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 160000,
-      "transactions": 1047
+      "medianPrice": 161000,
+      "transactions": 1056
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 164000,
-      "transactions": 1178
+      "medianPrice": 165000,
+      "transactions": 1249
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 170000,
-      "transactions": 1167
+      "transactions": 1226
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 167000,
-      "transactions": 754
+      "medianPrice": 167500,
+      "transactions": 799
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 170000,
-      "transactions": 297
+      "transactions": 572
     }
   ]
 }

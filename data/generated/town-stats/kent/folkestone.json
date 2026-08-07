@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.782Z",
+  "updatedAt": "2026-08-07T08:45:01.238Z",
   "townSlug": "folkestone",
   "countySlug": "kent",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "FOLKESTONE AND HYTHE",
+    "SHEPWAY"
+  ],
   "marketSnapshot": {
     "medianPrice": 310000,
-    "transactionCount12m": 1365,
-    "yoyPriceChange": 0,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "transactionCount12m": 1327,
+    "yoyPriceChange": 0.5,
+    "approvedApps12m": 29,
+    "approvedRecent": 29,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 48,
+    "pipelineGdv": 12310000,
+    "approvalRate": 81
   }
 }

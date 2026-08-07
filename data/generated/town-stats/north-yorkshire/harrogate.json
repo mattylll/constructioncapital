@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.015Z",
+  "updatedAt": "2026-08-07T08:45:03.392Z",
   "townSlug": "harrogate",
   "countySlug": "north-yorkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTH YORKSHIRE",
+    "HARROGATE"
+  ],
   "marketSnapshot": {
     "medianPrice": 315000,
-    "transactionCount12m": 1364,
+    "transactionCount12m": 1324,
     "yoyPriceChange": 0,
     "approvedApps12m": 0,
-    "pipelineUnits": 239,
-    "pipelineGdv": 74115000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 748,
+    "pipelineGdv": 234960250,
     "approvalRate": 0
   }
 }

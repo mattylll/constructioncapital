@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.168Z",
+  "updatedAt": "2026-08-07T08:45:03.527Z",
   "townSlug": "chester-le-street",
   "countySlug": "county-durham",
+  "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "COUNTY DURHAM"
+  ],
   "marketSnapshot": {
-    "medianPrice": 125000,
-    "transactionCount12m": 6819,
-    "yoyPriceChange": 0,
+    "medianPrice": 124000,
+    "transactionCount12m": 6641,
+    "yoyPriceChange": -0.8,
     "approvedApps12m": 0,
-    "pipelineUnits": 377,
-    "pipelineGdv": 47082250,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 273,
+    "pipelineGdv": 34125000,
     "approvalRate": 0
   }
 }

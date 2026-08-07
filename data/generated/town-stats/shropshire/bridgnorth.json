@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.084Z",
+  "updatedAt": "2026-08-07T08:45:02.463Z",
   "townSlug": "bridgnorth",
   "countySlug": "shropshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SHROPSHIRE"
+  ],
   "marketSnapshot": {
     "medianPrice": 265000,
-    "transactionCount12m": 255,
-    "yoyPriceChange": 0,
+    "transactionCount12m": 260,
+    "yoyPriceChange": -1.9,
     "approvedApps12m": 0,
-    "pipelineUnits": 237,
-    "pipelineGdv": 62848750,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 21,
+    "pipelineGdv": 5565000,
     "approvalRate": 0
   }
 }

@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.067Z",
+  "updatedAt": "2026-08-07T08:45:01.509Z",
   "townSlug": "fleet",
   "countySlug": "hampshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HART"
+  ],
   "marketSnapshot": {
-    "medianPrice": 448000,
-    "transactionCount12m": 1115,
-    "yoyPriceChange": -4.7,
+    "medianPrice": 445000,
+    "transactionCount12m": 1126,
+    "yoyPriceChange": -5.3,
     "approvedApps12m": 0,
-    "pipelineUnits": 212,
-    "pipelineGdv": 94950000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 206,
+    "pipelineGdv": 89998000,
     "approvalRate": 0
   }
 }

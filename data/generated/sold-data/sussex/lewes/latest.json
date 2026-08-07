@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.314Z",
+  "updatedAt": "2026-08-07T08:45:01.419Z",
   "townSlug": "lewes",
   "countySlug": "sussex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "LEWES"
+  ],
   "stats": {
-    "medianPrice": 375000,
+    "medianPrice": 380000,
     "medianByType": {
-      "D": 485000,
-      "S": 382250,
-      "T": 350500,
-      "F": 220000
+      "D": 480000,
+      "S": 390000,
+      "T": 357500,
+      "F": 217500
     },
-    "transactionCount12m": 1191,
-    "yoyChange": -2.3,
-    "newBuildCount": 12,
-    "existingCount": 1179,
-    "newBuildPremium": 59.3
+    "transactionCount12m": 1183,
+    "yoyChange": 0,
+    "newBuildCount": 13,
+    "existingCount": 1170,
+    "newBuildPremium": 65
   },
   "recentTransactions": [
     {
-      "price": 470000,
-      "date": "2026-05-22",
-      "postcode": "BN8 5QD",
+      "price": 306750,
+      "date": "2026-06-24",
+      "postcode": "BN10 8JE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "LABURNUM HOUSE, LEWES ROAD"
+      "address": "3, DOWNS VIEW"
     },
     {
-      "price": 290000,
-      "date": "2026-05-21",
-      "postcode": "BN25 3LJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, DEAL AVENUE"
-    },
-    {
-      "price": 430000,
-      "date": "2026-05-21",
-      "postcode": "BN8 5JL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, OAKMEDE WAY"
-    },
-    {
-      "price": 480000,
-      "date": "2026-05-20",
-      "postcode": "BN7 2QR",
+      "price": 665000,
+      "date": "2026-06-23",
+      "postcode": "BN7 1TW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, OFFHAM ROAD"
+      "address": "83, PADDOCK LANE"
     },
     {
-      "price": 640000,
-      "date": "2026-05-20",
-      "postcode": "BN6 8ST",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, EAST GARDENS"
-    },
-    {
-      "price": 625000,
-      "date": "2026-05-20",
-      "postcode": "BN8 4NW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MILLFIELD COTTAGE, SOUTH ROUGH"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-19",
-      "postcode": "BN10 7LY",
+      "price": 713000,
+      "date": "2026-06-23",
+      "postcode": "BN7 1LN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, CENTRAL AVENUE"
+      "address": "29, CLUNY STREET"
     },
     {
-      "price": 310000,
-      "date": "2026-05-15",
-      "postcode": "BN25 2XQ",
+      "price": 490000,
+      "date": "2026-06-19",
+      "postcode": "BN9 0NH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, CHARTWELL CLOSE"
+      "address": "16, STATION ROAD"
     },
     {
-      "price": 366000,
-      "date": "2026-05-14",
-      "postcode": "BN10 7UA",
+      "price": 729000,
+      "date": "2026-06-18",
+      "postcode": "BN25 4PZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "63, TELSCOMBE ROAD"
+      "address": "43, HEADLAND AVENUE"
     },
     {
-      "price": 465000,
-      "date": "2026-05-11",
-      "postcode": "BN7 2JB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, FITZGERALD ROAD"
-    },
-    {
-      "price": 227500,
-      "date": "2026-05-11",
-      "postcode": "BN7 1DD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "49, ELEANOR CLOSE"
-    },
-    {
-      "price": 480000,
-      "date": "2026-05-08",
-      "postcode": "BN9 9XX",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, THE FAIRWAY"
-    },
-    {
-      "price": 465000,
-      "date": "2026-05-08",
-      "postcode": "BN10 8NJ",
+      "price": 490000,
+      "date": "2026-06-18",
+      "postcode": "BN7 3DD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, SLINDON AVENUE"
+      "address": "10, CHAPEL ROAD"
     },
     {
-      "price": 390525,
-      "date": "2026-05-08",
-      "postcode": "BN2 8PE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "96, BEVENDEAN AVENUE"
-    },
-    {
-      "price": 642500,
-      "date": "2026-05-08",
-      "postcode": "BN2 8DG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "112, BANNINGS VALE"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-07",
-      "postcode": "BN7 2ER",
+      "price": 373000,
+      "date": "2026-06-17",
+      "postcode": "BN25 3AJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "46, RUSSELL ROW"
+      "address": "6, NORTH CAMP LANE"
     },
     {
-      "price": 170000,
-      "date": "2026-05-06",
-      "postcode": "BN7 2HE",
+      "price": 142950,
+      "date": "2026-06-17",
+      "postcode": "BN25 2BH",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "28, MALLING COURT, SPENCES LANE"
+      "address": "FLAT 2, 54, CLAREMONT ROAD"
     },
     {
-      "price": 950000,
-      "date": "2026-05-06",
-      "postcode": "BN7 1EH",
+      "price": 360000,
+      "date": "2026-06-17",
+      "postcode": "BN2 8RG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, NORTHWOOD AVENUE"
+    },
+    {
+      "price": 402000,
+      "date": "2026-06-16",
+      "postcode": "BN9 9EJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "66, FORT ROAD"
+    },
+    {
+      "price": 626000,
+      "date": "2026-06-16",
+      "postcode": "BN7 1ND",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "67A, HOUNDEAN RISE"
+      "address": "13, NEVILL CRESCENT"
     },
     {
-      "price": 205000,
-      "date": "2026-05-06",
-      "postcode": "BN25 2DN",
+      "price": 860000,
+      "date": "2026-06-15",
+      "postcode": "BN25 4HH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, CHYNGTON ROAD"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-12",
+      "postcode": "BN9 9SS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, WILLOW WALK"
+    },
+    {
+      "price": 330000,
+      "date": "2026-06-12",
+      "postcode": "BN25 2SB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, ST ANDREWS DRIVE"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-12",
+      "postcode": "BN10 8PN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, SOUTHDOWN AVENUE"
+    },
+    {
+      "price": 489950,
+      "date": "2026-06-11",
+      "postcode": "BN7 1UU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, PADDOCK ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-11",
+      "postcode": "BN25 1NS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "6, THE WILLOWS, CHICHESTER ROAD"
+      "address": "7A, CLINTON LANE"
     },
     {
-      "price": 142500,
-      "date": "2026-05-01",
-      "postcode": "BN25 1JP",
+      "price": 190000,
+      "date": "2026-06-11",
+      "postcode": "BN25 2NZ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "46, STRATHEDEN COURT, ESPLANADE"
+      "address": "FLAT 8, LITLINGTON COURT, SURREY ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-11",
+      "postcode": "BN9 0HQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, FIRLE TERRACE"
+    },
+    {
+      "price": 490000,
+      "date": "2026-06-11",
+      "postcode": "BN25 4BU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, ASH DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -267,8 +270,8 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 405000,
-      "transactions": 155
+      "medianPrice": 404500,
+      "transactions": 154
     },
     {
       "month": "2025-03",
@@ -282,68 +285,73 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 348500,
-      "transactions": 120
+      "medianPrice": 346500,
+      "transactions": 122
     },
     {
       "month": "2025-06",
-      "medianPrice": 362500,
-      "transactions": 116
+      "medianPrice": 360000,
+      "transactions": 115
     },
     {
       "month": "2025-07",
       "medianPrice": 350000,
-      "transactions": 155
+      "transactions": 161
     },
     {
       "month": "2025-08",
-      "medianPrice": 397750,
-      "transactions": 148
+      "medianPrice": 416250,
+      "transactions": 158
     },
     {
       "month": "2025-09",
-      "medianPrice": 386000,
-      "transactions": 118
+      "medianPrice": 383750,
+      "transactions": 128
     },
     {
       "month": "2025-10",
       "medianPrice": 380000,
-      "transactions": 143
+      "transactions": 146
     },
     {
       "month": "2025-11",
       "medianPrice": 370000,
-      "transactions": 129
+      "transactions": 135
     },
     {
       "month": "2025-12",
-      "medianPrice": 356250,
-      "transactions": 124
+      "medianPrice": 362500,
+      "transactions": 138
     },
     {
       "month": "2026-01",
-      "medianPrice": 390000,
-      "transactions": 80
+      "medianPrice": 398750,
+      "transactions": 86
     },
     {
       "month": "2026-02",
-      "medianPrice": 370000,
-      "transactions": 91
+      "medianPrice": 381000,
+      "transactions": 95
     },
     {
       "month": "2026-03",
       "medianPrice": 370000,
-      "transactions": 114
+      "transactions": 118
     },
     {
       "month": "2026-04",
-      "medianPrice": 380000,
-      "transactions": 85
+      "medianPrice": 375000,
+      "transactions": 91
     },
     {
       "month": "2026-05",
-      "medianPrice": 395263,
-      "transactions": 32
+      "medianPrice": 366000,
+      "transactions": 81
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 411000,
+      "transactions": 44
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 385000,
-      "transactions": 586
+      "transactions": 585
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 355000,
-      "transactions": 321
+      "transactions": 322
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 375000,
-      "transactions": 421
+      "medianPrice": 380000,
+      "transactions": 447
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 370000,
-      "transactions": 396
+      "medianPrice": 375000,
+      "transactions": 419
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 373000,
-      "transactions": 285
+      "medianPrice": 375000,
+      "transactions": 299
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 380000,
-      "transactions": 117
+      "medianPrice": 375000,
+      "transactions": 216
     }
   ]
 }

@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.740Z",
+  "updatedAt": "2026-08-07T08:45:01.195Z",
   "townSlug": "ashford",
   "countySlug": "kent",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "ASHFORD"
+  ],
   "marketSnapshot": {
-    "medianPrice": 344000,
-    "transactionCount12m": 1474,
-    "yoyPriceChange": 1.2,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 340000,
+    "transactionCount12m": 1470,
+    "yoyPriceChange": 0,
+    "approvedApps12m": 16,
+    "approvedRecent": 16,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 527,
+    "pipelineGdv": 175689000,
+    "approvalRate": 84
   }
 }

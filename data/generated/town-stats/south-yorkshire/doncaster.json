@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.938Z",
+  "updatedAt": "2026-08-07T08:45:03.313Z",
   "townSlug": "doncaster",
   "countySlug": "south-yorkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "DONCASTER"
+  ],
   "marketSnapshot": {
-    "medianPrice": 167000,
-    "transactionCount12m": 3379,
-    "yoyPriceChange": -0.3,
+    "medianPrice": 169975,
+    "transactionCount12m": 3346,
+    "yoyPriceChange": 1.2,
     "approvedApps12m": 0,
-    "pipelineUnits": 622,
-    "pipelineGdv": 102607250,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 823,
+    "pipelineGdv": 136739000,
     "approvalRate": 0
   }
 }

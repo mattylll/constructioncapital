@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.497Z",
+  "updatedAt": "2026-08-07T08:45:03.724Z",
   "townSlug": "st-neots",
   "countySlug": "cambridgeshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HUNTINGDONSHIRE"
+  ],
   "stats": {
-    "medianPrice": 310000,
+    "medianPrice": 312250,
     "medianByType": {
-      "D": 450000,
+      "D": 448750,
       "S": 320000,
-      "T": 275000,
-      "F": 175000
+      "T": 276500,
+      "F": 171500
     },
-    "transactionCount12m": 602,
-    "yoyChange": -7.5,
-    "newBuildCount": 19,
-    "existingCount": 583,
+    "transactionCount12m": 604,
+    "yoyChange": -6.5,
+    "newBuildCount": 22,
+    "existingCount": 582,
     "newBuildPremium": 17.6
   },
   "recentTransactions": [
     {
-      "price": 370000,
-      "date": "2026-05-22",
-      "postcode": "PE19 0AA",
+      "price": 275000,
+      "date": "2026-06-26",
+      "postcode": "PE19 2EQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "55, NUFFIELD ROAD"
+      "address": "243, DUCK LANE"
     },
     {
-      "price": 275000,
-      "date": "2026-05-22",
-      "postcode": "PE19 7JL",
+      "price": 282500,
+      "date": "2026-06-26",
+      "postcode": "PE19 6GD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, ALAMEIN COURT"
+      "address": "9, BAWLINS"
     },
     {
       "price": 350000,
-      "date": "2026-05-22",
-      "postcode": "PE19 2HD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, CHAPMAN WAY"
-    },
-    {
-      "price": 153000,
-      "date": "2026-05-22",
-      "postcode": "PE19 2UU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54, LINDISFARNE CLOSE"
-    },
-    {
-      "price": 268000,
-      "date": "2026-05-18",
-      "postcode": "PE19 6BQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, RADLAND CLOSE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-15",
-      "postcode": "PE19 2UU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "94, LINDISFARNE CLOSE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-13",
-      "postcode": "PE19 8DW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, DULOE BROOK"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-08",
-      "postcode": "PE19 7RX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, ROSAMUND MEWS"
-    },
-    {
-      "price": 452500,
-      "date": "2026-05-08",
-      "postcode": "PE19 6AL",
+      "date": "2026-06-19",
+      "postcode": "PE19 1LA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, FOX BROOK"
+      "address": "OUSEHAVEN, KINGS LANE"
     },
     {
-      "price": 424000,
-      "date": "2026-05-08",
-      "postcode": "PE19 5DX",
+      "price": 470000,
+      "date": "2026-06-18",
+      "postcode": "PE19 8PU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "51, BEACHAMPSTEAD ROAD"
+      "address": "15, BLAKES WAY"
     },
     {
-      "price": 315500,
-      "date": "2026-05-08",
-      "postcode": "PE19 8TX",
-      "propertyType": "S",
+      "price": 442500,
+      "date": "2026-06-17",
+      "postcode": "PE19 5SL",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, CORNWALLIS DRIVE"
+      "address": "30, PARK ROAD"
     },
     {
-      "price": 310000,
-      "date": "2026-05-05",
-      "postcode": "PE19 1EY",
+      "price": 260000,
+      "date": "2026-06-16",
+      "postcode": "PE19 2JA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, HAWTHORN ROAD"
+      "address": "25, HOWITTS LANE"
     },
     {
-      "price": 92500,
-      "date": "2026-05-01",
-      "postcode": "PE19 6GX",
-      "propertyType": "F",
+      "price": 315000,
+      "date": "2026-06-16",
+      "postcode": "PE19 6JR",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "1, STATION SQUARE"
+      "tenure": "F",
+      "address": "16, BOOTH WAY"
     },
     {
       "price": 335000,
-      "date": "2026-05-01",
-      "postcode": "PE19 8TF",
+      "date": "2026-06-15",
+      "postcode": "PE19 1TZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, DIGBY COURT"
+      "address": "14, DEWPOND CLOSE"
     },
     {
-      "price": 495000,
-      "date": "2026-04-30",
-      "postcode": "PE19 1LD",
+      "price": 1175000,
+      "date": "2026-06-05",
+      "postcode": "PE19 6XJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "CALDER COTTAGE, 22, KINGS ROAD"
+      "address": "THE BRAMLEYS, POTTON ROAD"
     },
     {
-      "price": 290000,
-      "date": "2026-04-30",
-      "postcode": "PE19 2HA",
+      "price": 255000,
+      "date": "2026-06-05",
+      "postcode": "PE19 2NX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, STOCKER WAY"
+      "address": "116, HOWITTS GARDENS"
     },
     {
-      "price": 221000,
-      "date": "2026-04-30",
-      "postcode": "PE19 2EN",
+      "price": 322000,
+      "date": "2026-06-04",
+      "postcode": "PE19 6BD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, PEPYS ROAD"
+      "address": "1, TOP BIRCHES"
     },
     {
-      "price": 420000,
-      "date": "2026-04-30",
-      "postcode": "PE19 5YG",
+      "price": 305000,
+      "date": "2026-06-02",
+      "postcode": "PE19 8HJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, WILKINSON CLOSE"
+    },
+    {
+      "price": 472500,
+      "date": "2026-06-02",
+      "postcode": "PE19 6BU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, RED ADMIRAL COURT"
+    },
+    {
+      "price": 171000,
+      "date": "2026-05-29",
+      "postcode": "PE19 2TN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, LUKE STREET"
+    },
+    {
+      "price": 318500,
+      "date": "2026-05-29",
+      "postcode": "PE19 1TY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, SANDWICH ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-05-29",
+      "postcode": "PE19 0AE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, WILCOX DRIVE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-05-29",
+      "postcode": "PE19 8PR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, CORNWALL COURT"
+    },
+    {
+      "price": 280000,
+      "date": "2026-05-29",
+      "postcode": "PE19 2TG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, LEES LANE"
+      "address": "3, POPE ROAD"
     },
     {
-      "price": 90537,
-      "date": "2026-04-29",
-      "postcode": "PE19 8QD",
-      "propertyType": "T",
+      "price": 165000,
+      "date": "2026-05-29",
+      "postcode": "PE19 1AB",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "12, ROE GREEN"
+      "tenure": "L",
+      "address": "2, KNIGHTS COURT"
     },
     {
-      "price": 300000,
-      "date": "2026-04-29",
-      "postcode": "PE19 8DN",
-      "propertyType": "T",
+      "price": 882000,
+      "date": "2026-05-28",
+      "postcode": "PE19 5TU",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, QUEENS GARDENS"
+      "address": "53, GREENWAY"
     }
   ],
   "monthlyHistory": [
@@ -208,7 +211,7 @@
     {
       "month": "2024-02",
       "medianPrice": 325000,
-      "transactions": 74
+      "transactions": 75
     },
     {
       "month": "2024-03",
@@ -217,8 +220,8 @@
     },
     {
       "month": "2024-04",
-      "medianPrice": 310000,
-      "transactions": 67
+      "medianPrice": 312500,
+      "transactions": 68
     },
     {
       "month": "2024-05",
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 310000,
-      "transactions": 81
+      "medianPrice": 304500,
+      "transactions": 84
     },
     {
       "month": "2024-11",
@@ -257,18 +260,18 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 379875,
-      "transactions": 102
+      "medianPrice": 377375,
+      "transactions": 104
     },
     {
       "month": "2025-01",
-      "medianPrice": 300750,
-      "transactions": 68
+      "medianPrice": 307500,
+      "transactions": 67
     },
     {
       "month": "2025-02",
       "medianPrice": 305000,
-      "transactions": 74
+      "transactions": 75
     },
     {
       "month": "2025-03",
@@ -287,23 +290,23 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 350000,
-      "transactions": 83
+      "medianPrice": 348730,
+      "transactions": 84
     },
     {
       "month": "2025-07",
-      "medianPrice": 312250,
-      "transactions": 74
+      "medianPrice": 315000,
+      "transactions": 86
     },
     {
       "month": "2025-08",
-      "medianPrice": 298000,
-      "transactions": 75
+      "medianPrice": 303750,
+      "transactions": 80
     },
     {
       "month": "2025-09",
-      "medianPrice": 315000,
-      "transactions": 57
+      "medianPrice": 320000,
+      "transactions": 64
     },
     {
       "month": "2025-10",
@@ -313,49 +316,54 @@
     {
       "month": "2025-11",
       "medianPrice": 315000,
-      "transactions": 66
+      "transactions": 67
     },
     {
       "month": "2025-12",
       "medianPrice": 305000,
-      "transactions": 62
+      "transactions": 68
     },
     {
       "month": "2026-01",
-      "medianPrice": 367500,
-      "transactions": 46
+      "medianPrice": 360000,
+      "transactions": 49
     },
     {
       "month": "2026-02",
       "medianPrice": 320000,
-      "transactions": 51
+      "transactions": 55
     },
     {
       "month": "2026-03",
-      "medianPrice": 272683,
-      "transactions": 56
+      "medianPrice": 270500,
+      "transactions": 58
     },
     {
       "month": "2026-04",
-      "medianPrice": 285000,
-      "transactions": 37
+      "medianPrice": 290000,
+      "transactions": 47
     },
     {
       "month": "2026-05",
-      "medianPrice": 312750,
-      "transactions": 14
+      "medianPrice": 285000,
+      "transactions": 41
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 322000,
+      "transactions": 13
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 320000,
-      "transactions": 208
+      "transactions": 209
     },
     {
       "quarter": "2024-Q2",
       "medianPrice": 330000,
-      "transactions": 223
+      "transactions": 224
     },
     {
       "quarter": "2024-Q3",
@@ -365,7 +373,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 335000,
-      "transactions": 301
+      "transactions": 306
     },
     {
       "quarter": "2025-Q1",
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 350000,
-      "transactions": 195
+      "medianPrice": 348730,
+      "transactions": 196
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 310000,
-      "transactions": 206
+      "medianPrice": 315000,
+      "transactions": 230
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 325000,
-      "transactions": 203
+      "transactions": 210
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 300000,
-      "transactions": 153
+      "transactions": 162
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 290000,
-      "transactions": 51
+      "medianPrice": 300000,
+      "transactions": 101
     }
   ]
 }

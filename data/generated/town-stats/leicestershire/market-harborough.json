@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.251Z",
+  "updatedAt": "2026-08-07T08:45:02.634Z",
   "townSlug": "market-harborough",
   "countySlug": "leicestershire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HARBOROUGH"
+  ],
   "marketSnapshot": {
-    "medianPrice": 320000,
-    "transactionCount12m": 1267,
-    "yoyPriceChange": -4.5,
+    "medianPrice": 317000,
+    "transactionCount12m": 1220,
+    "yoyPriceChange": -4.8,
     "approvedApps12m": 0,
-    "pipelineUnits": 406,
-    "pipelineGdv": 128015000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 154,
+    "pipelineGdv": 50092000,
     "approvalRate": 0
   }
 }

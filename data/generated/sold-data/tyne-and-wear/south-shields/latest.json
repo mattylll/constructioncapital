@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.246Z",
+  "updatedAt": "2026-08-07T08:45:03.463Z",
   "townSlug": "south-shields",
   "countySlug": "tyne-and-wear",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTH TYNESIDE"
+  ],
   "stats": {
     "medianPrice": 150000,
     "medianByType": {
-      "D": 313750,
+      "D": 315000,
       "S": 185000,
-      "T": 137500,
-      "F": 84750
+      "T": 140000,
+      "F": 83000
     },
-    "transactionCount12m": 1446,
+    "transactionCount12m": 1388,
     "yoyChange": 0,
-    "newBuildCount": 4,
-    "existingCount": 1442,
-    "newBuildPremium": 99.6
+    "newBuildCount": 8,
+    "existingCount": 1380,
+    "newBuildPremium": 77
   },
   "recentTransactions": [
     {
-      "price": 255000,
-      "date": "2026-05-26",
-      "postcode": "NE33 2SA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, BEACH ROAD"
-    },
-    {
-      "price": 265000,
-      "date": "2026-05-26",
-      "postcode": "NE34 8RG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, GERALD STREET"
-    },
-    {
-      "price": 58000,
-      "date": "2026-05-22",
-      "postcode": "NE33 4LF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, SHREWSBURY TERRACE"
-    },
-    {
-      "price": 114000,
-      "date": "2026-05-22",
-      "postcode": "NE31 2JQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, HEXHAM AVENUE"
-    },
-    {
-      "price": 520000,
-      "date": "2026-05-22",
-      "postcode": "SR6 7XE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, SUNNISIDE TERRACE"
-    },
-    {
-      "price": 189950,
-      "date": "2026-05-20",
-      "postcode": "NE34 8RZ",
+      "price": 159950,
+      "date": "2026-06-26",
+      "postcode": "NE36 0JB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "101, REMBRANDT AVENUE"
+      "address": "27, DON VIEW"
     },
     {
-      "price": 245000,
-      "date": "2026-05-15",
-      "postcode": "NE34 6HN",
-      "propertyType": "O",
+      "price": 200000,
+      "date": "2026-06-25",
+      "postcode": "NE34 6RL",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, HEMSLEY ROAD"
+      "address": "136, MARSDEN ROAD"
     },
     {
-      "price": 90000,
-      "date": "2026-05-15",
-      "postcode": "NE34 0NP",
+      "price": 200000,
+      "date": "2026-06-22",
+      "postcode": "NE34 6ST",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BIDEFORD GARDENS"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-22",
+      "postcode": "NE33 3GB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "110, NORTH MAIN COURT"
+    },
+    {
+      "price": 124000,
+      "date": "2026-06-22",
+      "postcode": "SR6 7AS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "55, POPLAR DRIVE"
+    },
+    {
+      "price": 227000,
+      "date": "2026-06-19",
+      "postcode": "NE34 7SX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ALLENDALE DRIVE"
+    },
+    {
+      "price": 173000,
+      "date": "2026-06-19",
+      "postcode": "NE31 2QG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, THE WILLOWS"
+    },
+    {
+      "price": 163000,
+      "date": "2026-06-19",
+      "postcode": "NE34 7PP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, GORSE AVENUE"
+    },
+    {
+      "price": 190000,
+      "date": "2026-06-17",
+      "postcode": "NE33 5EE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, GARDEN GATE DRIVE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-16",
+      "postcode": "NE34 7EZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, CLIFFSIDE"
+    },
+    {
+      "price": 345000,
+      "date": "2026-06-12",
+      "postcode": "NE36 0EQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "124, BECKENHAM AVENUE"
+    },
+    {
+      "price": 137000,
+      "date": "2026-06-12",
+      "postcode": "NE32 4HN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, DUMFRIES CRESCENT"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-12",
+      "postcode": "NE32 5EL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "64, ROMAN ROAD"
+    },
+    {
+      "price": 125000,
+      "date": "2026-06-12",
+      "postcode": "NE33 4DN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, FORTH COURT"
+      "address": "8, DELAVAL COURT"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-12",
+      "postcode": "NE31 2TG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, DUKES AVENUE"
+    },
+    {
+      "price": 190000,
+      "date": "2026-06-12",
+      "postcode": "NE33 1JQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, CAPTAINS WHARF"
     },
     {
       "price": 205000,
-      "date": "2026-05-15",
-      "postcode": "NE34 0PX",
-      "propertyType": "T",
+      "date": "2026-06-12",
+      "postcode": "NE34 0TY",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, ASCOT GARDENS"
+      "address": "59, BROCKLEY AVENUE"
     },
     {
-      "price": 177000,
-      "date": "2026-05-15",
-      "postcode": "NE32 3SN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, SALCOMBE AVENUE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-15",
-      "postcode": "NE34 8UG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, CARAWAY WALK"
-    },
-    {
-      "price": 135000,
-      "date": "2026-05-15",
-      "postcode": "NE34 9TH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, GASKELL AVENUE"
-    },
-    {
-      "price": 105000,
-      "date": "2026-05-15",
-      "postcode": "NE31 1ET",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, JEDMOOR"
-    },
-    {
-      "price": 189000,
-      "date": "2026-05-15",
-      "postcode": "NE31 2RZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "64, CAMBRIDGE AVENUE"
-    },
-    {
-      "price": 100000,
-      "date": "2026-05-12",
-      "postcode": "NE34 8DF",
+      "price": 43000,
+      "date": "2026-06-11",
+      "postcode": "NE34 0JS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "96, REDWOOD AVENUE"
+      "address": "123, STODDART STREET"
     },
     {
-      "price": 36500,
-      "date": "2026-05-11",
-      "postcode": "NE33 3DA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "15, MILNER STREET"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-11",
-      "postcode": "NE34 6DE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "22, MOOR LANE EAST"
-    },
-    {
-      "price": 560000,
-      "date": "2026-05-08",
-      "postcode": "NE36 0QA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "OSBORNE HOUSE, GATESHEAD TERRACE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-05-08",
-      "postcode": "NE36 0JD",
+      "price": 200000,
+      "date": "2026-06-10",
+      "postcode": "NE36 0PR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, BOLDON DRIVE"
+      "address": "7, AVONDALE GARDENS"
     },
     {
-      "price": 155000,
-      "date": "2026-05-08",
-      "postcode": "NE34 7TL",
+      "price": 102000,
+      "date": "2026-06-10",
+      "postcode": "NE34 9DZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "79, BAMBURGH GROVE"
+      "address": "6, SYDNEY GARDENS"
     }
   ],
   "monthlyHistory": [
@@ -282,8 +285,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 152500,
-      "transactions": 176
+      "medianPrice": 155000,
+      "transactions": 177
     },
     {
       "month": "2025-06",
@@ -293,57 +296,62 @@
     {
       "month": "2025-07",
       "medianPrice": 145000,
-      "transactions": 226
+      "transactions": 227
     },
     {
       "month": "2025-08",
-      "medianPrice": 160000,
-      "transactions": 178
+      "medianPrice": 162500,
+      "transactions": 185
     },
     {
       "month": "2025-09",
       "medianPrice": 145000,
-      "transactions": 169
+      "transactions": 183
     },
     {
       "month": "2025-10",
-      "medianPrice": 149000,
-      "transactions": 171
+      "medianPrice": 145000,
+      "transactions": 166
     },
     {
       "month": "2025-11",
-      "medianPrice": 159975,
-      "transactions": 148
+      "medianPrice": 155000,
+      "transactions": 154
     },
     {
       "month": "2025-12",
-      "medianPrice": 160000,
-      "transactions": 135
+      "medianPrice": 153000,
+      "transactions": 154
     },
     {
       "month": "2026-01",
-      "medianPrice": 140000,
-      "transactions": 109
+      "medianPrice": 138000,
+      "transactions": 119
     },
     {
       "month": "2026-02",
-      "medianPrice": 156360,
-      "transactions": 101
+      "medianPrice": 157430,
+      "transactions": 104
     },
     {
       "month": "2026-03",
-      "medianPrice": 138500,
-      "transactions": 114
+      "medianPrice": 143000,
+      "transactions": 119
     },
     {
       "month": "2026-04",
-      "medianPrice": 152000,
-      "transactions": 89
+      "medianPrice": 150000,
+      "transactions": 95
     },
     {
       "month": "2026-05",
       "medianPrice": 155000,
-      "transactions": 44
+      "transactions": 99
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 173000,
+      "transactions": 39
     }
   ],
   "quarterlyHistory": [
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 149000,
-      "transactions": 504
+      "transactions": 505
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 150000,
-      "transactions": 573
+      "transactions": 595
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 153000,
-      "transactions": 454
+      "medianPrice": 150000,
+      "transactions": 474
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 145250,
-      "transactions": 324
+      "medianPrice": 145750,
+      "transactions": 342
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 153000,
-      "transactions": 133
+      "medianPrice": 155000,
+      "transactions": 233
     }
   ]
 }

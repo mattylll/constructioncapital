@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.197Z",
+  "updatedAt": "2026-08-07T08:45:01.627Z",
   "townSlug": "thame",
   "countySlug": "oxfordshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTH OXFORDSHIRE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 437250,
-    "transactionCount12m": 184,
-    "yoyPriceChange": -4.9,
+    "medianPrice": 450000,
+    "transactionCount12m": 176,
+    "yoyPriceChange": -2.2,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

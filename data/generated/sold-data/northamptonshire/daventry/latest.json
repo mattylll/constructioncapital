@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.513Z",
+  "updatedAt": "2026-08-07T08:45:02.694Z",
   "townSlug": "daventry",
   "countySlug": "northamptonshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WEST NORTHAMPTONSHIRE",
+    "DAVENTRY"
+  ],
   "stats": {
-    "medianPrice": 275000,
+    "medianPrice": 272000,
     "medianByType": {
-      "D": 390000,
-      "S": 267500,
+      "D": 385500,
+      "S": 265000,
       "T": 210000,
       "F": 131000
     },
-    "transactionCount12m": 507,
-    "yoyChange": 1.9,
-    "newBuildCount": 2,
+    "transactionCount12m": 510,
+    "yoyChange": 0.4,
+    "newBuildCount": 5,
     "existingCount": 505,
-    "newBuildPremium": null
+    "newBuildPremium": 22.2
   },
   "recentTransactions": [
     {
-      "price": 350000,
-      "date": "2026-05-22",
-      "postcode": "NN11 0RW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, ROMAN WAY"
-    },
-    {
-      "price": 340000,
-      "date": "2026-05-21",
-      "postcode": "NN11 3UP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, MILLER CLOSE"
-    },
-    {
-      "price": 255000,
-      "date": "2026-05-20",
-      "postcode": "NN11 9DE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, COWPER ROAD"
-    },
-    {
-      "price": 97000,
-      "date": "2026-05-18",
-      "postcode": "NN11 0PR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, FALCONERS CLOSE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-13",
-      "postcode": "NN11 4SH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, ST JOHNS CLOSE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-12",
-      "postcode": "NN11 9DH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "67, TENNYSON ROAD"
-    },
-    {
-      "price": 130000,
-      "date": "2026-05-08",
-      "postcode": "NN11 4AB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "16, SHEAF STREET"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-08",
-      "postcode": "NN11 4BE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, THOMAS WEBB CLOSE"
-    },
-    {
-      "price": 242500,
-      "date": "2026-05-08",
-      "postcode": "NN11 2AF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, LUFFIELD CLOSE"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-07",
-      "postcode": "NN11 4PD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, NAPIER CLOSE"
-    },
-    {
-      "price": 333150,
-      "date": "2026-05-06",
-      "postcode": "NN11 6UT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, THE GREEN"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-06",
-      "postcode": "NN11 9EE",
+      "price": 385000,
+      "date": "2026-06-19",
+      "postcode": "NN11 0GG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, CONISTON CLOSE"
+      "address": "7, WINCELY CLOSE"
     },
     {
-      "price": 335000,
-      "date": "2026-05-01",
+      "price": 320000,
+      "date": "2026-06-18",
+      "postcode": "NN11 0GE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, GAINSBOROUGH WAY"
+    },
+    {
+      "price": 330000,
+      "date": "2026-06-18",
+      "postcode": "NN11 4HJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, BADBY ROAD WEST"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-12",
+      "postcode": "NN11 4NW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, THE FAIRWAY"
+    },
+    {
+      "price": 382000,
+      "date": "2026-06-11",
+      "postcode": "NN11 3HS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, BLUEBELL CLOSE"
+    },
+    {
+      "price": 650000,
+      "date": "2026-06-10",
+      "postcode": "NN11 3TW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, PHIPPS ROAD"
+    },
+    {
+      "price": 145000,
+      "date": "2026-06-10",
+      "postcode": "NN11 2PL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, LESNES CLOSE"
+    },
+    {
+      "price": 360000,
+      "date": "2026-06-09",
+      "postcode": "NN11 0RW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, ROMAN WAY"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-09",
       "postcode": "NN11 0NZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, THE HAYSTACK"
+      "address": "63, THE HAYSTACK"
     },
     {
-      "price": 289000,
-      "date": "2026-05-01",
-      "postcode": "NN11 3BN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WYKE COTTAGE, STUBBS ROAD"
-    },
-    {
-      "price": 168000,
-      "date": "2026-04-30",
-      "postcode": "NN11 9BY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BRAUNSTON ROAD"
-    },
-    {
-      "price": 190500,
-      "date": "2026-04-30",
-      "postcode": "NN11 4TX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ST HUGHES CLOSE"
-    },
-    {
-      "price": 465000,
-      "date": "2026-04-29",
-      "postcode": "NN11 3BE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, LONG ROW CLOSE"
-    },
-    {
-      "price": 145000,
-      "date": "2026-04-28",
-      "postcode": "NN11 9UQ",
+      "price": 112000,
+      "date": "2026-06-05",
+      "postcode": "NN11 9AB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 10, TIMKEN LODGE, TIMKEN WAY"
+      "address": "11, MORNING STAR ROAD"
     },
     {
-      "price": 272000,
-      "date": "2026-04-27",
-      "postcode": "NN11 4NZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, SUNNINGDALE DRIVE"
-    },
-    {
-      "price": 440000,
-      "date": "2026-04-27",
-      "postcode": "NN11 0XT",
+      "price": 455000,
+      "date": "2026-06-05",
+      "postcode": "NN11 4UB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, HERON COURT"
+      "address": "12, KINGS GREEN"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-05",
+      "postcode": "NN11 2PQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, BOXGROVE WAY"
+    },
+    {
+      "price": 350000,
+      "date": "2026-06-05",
+      "postcode": "NN11 7HY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, MILL CLOSE"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-05",
+      "postcode": "NN11 0WQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, NEWBURY DRIVE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-06-04",
+      "postcode": "NN11 3DL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, WILD CHERRY CLOSE"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-02",
+      "postcode": "NN11 6JJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CHURCH STREET"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-02",
+      "postcode": "NN11 9FR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, VERNIER CLOSE"
+    },
+    {
+      "price": 247500,
+      "date": "2026-06-01",
+      "postcode": "NN11 3QQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, CENTRAL AVENUE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-05-29",
+      "postcode": "NN11 3QQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, CENTRAL AVENUE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-05-29",
+      "postcode": "NN11 7HD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, ARCHER AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -237,8 +241,8 @@
     },
     {
       "month": "2024-08",
-      "medianPrice": 273500,
-      "transactions": 68
+      "medianPrice": 278500,
+      "transactions": 71
     },
     {
       "month": "2024-09",
@@ -252,8 +256,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 274000,
-      "transactions": 76
+      "medianPrice": 278000,
+      "transactions": 77
     },
     {
       "month": "2024-12",
@@ -273,7 +277,7 @@
     {
       "month": "2025-03",
       "medianPrice": 300000,
-      "transactions": 101
+      "transactions": 102
     },
     {
       "month": "2025-04",
@@ -292,18 +296,18 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 280000,
-      "transactions": 55
+      "medianPrice": 287250,
+      "transactions": 58
     },
     {
       "month": "2025-08",
-      "medianPrice": 273750,
-      "transactions": 76
+      "medianPrice": 275000,
+      "transactions": 82
     },
     {
       "month": "2025-09",
-      "medianPrice": 312500,
-      "transactions": 47
+      "medianPrice": 300000,
+      "transactions": 49
     },
     {
       "month": "2025-10",
@@ -318,22 +322,22 @@
     {
       "month": "2025-12",
       "medianPrice": 257000,
-      "transactions": 40
+      "transactions": 42
     },
     {
       "month": "2026-01",
       "medianPrice": 265000,
-      "transactions": 40
+      "transactions": 42
     },
     {
       "month": "2026-02",
-      "medianPrice": 250000,
-      "transactions": 43
+      "medianPrice": 246488,
+      "transactions": 44
     },
     {
       "month": "2026-03",
-      "medianPrice": 272000,
-      "transactions": 47
+      "medianPrice": 270000,
+      "transactions": 49
     },
     {
       "month": "2026-04",
@@ -342,8 +346,13 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 248750,
-      "transactions": 14
+      "medianPrice": 237500,
+      "transactions": 40
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 325000,
+      "transactions": 18
     }
   ],
   "quarterlyHistory": [
@@ -359,18 +368,18 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 285000,
-      "transactions": 175
+      "medianPrice": 286500,
+      "transactions": 178
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 280000,
-      "transactions": 226
+      "transactions": 227
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 290000,
-      "transactions": 214
+      "transactions": 215
     },
     {
       "quarter": "2025-Q2",
@@ -379,23 +388,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 283750,
-      "transactions": 178
+      "medianPrice": 285000,
+      "transactions": 189
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 274000,
-      "transactions": 163
+      "transactions": 165
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 264250,
-      "transactions": 130
+      "medianPrice": 262000,
+      "transactions": 135
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 258500,
-      "transactions": 42
+      "medianPrice": 261500,
+      "transactions": 86
     }
   ]
 }

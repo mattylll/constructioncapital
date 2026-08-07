@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.173Z",
+  "updatedAt": "2026-08-07T08:45:03.399Z",
   "townSlug": "scarborough",
   "countySlug": "north-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTH YORKSHIRE",
+    "SCARBOROUGH"
+  ],
   "stats": {
-    "medianPrice": 182500,
+    "medianPrice": 180000,
     "medianByType": {
       "D": 328000,
-      "S": 206000,
-      "T": 147500,
-      "F": 117500
+      "S": 210000,
+      "T": 147000,
+      "F": 117000
     },
-    "transactionCount12m": 1071,
-    "yoyChange": -2.9,
-    "newBuildCount": 7,
-    "existingCount": 1064,
-    "newBuildPremium": 31.2
+    "transactionCount12m": 1074,
+    "yoyChange": -5.3,
+    "newBuildCount": 9,
+    "existingCount": 1065,
+    "newBuildPremium": 70.6
   },
   "recentTransactions": [
     {
-      "price": 77500,
-      "date": "2026-05-22",
-      "postcode": "YO12 7JA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "116, NORTH MARINE ROAD"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-22",
-      "postcode": "YO12 7JD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 36, NORTH BAY COURT, 119, NORTH MARINE ROAD"
-    },
-    {
-      "price": 217500,
-      "date": "2026-05-22",
-      "postcode": "YO11 3XG",
+      "price": 149000,
+      "date": "2026-06-26",
+      "postcode": "YO11 3QY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, CAMPION GROVE"
+      "address": "311, EASTWAY"
     },
     {
-      "price": 218000,
-      "date": "2026-05-22",
-      "postcode": "YO12 6HW",
+      "price": 285000,
+      "date": "2026-06-22",
+      "postcode": "YO12 5QW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, SCALBY AVENUE"
+      "address": "27, MALVERN CRESCENT"
     },
     {
-      "price": 745000,
-      "date": "2026-05-19",
-      "postcode": "YO13 0PX",
+      "price": 215000,
+      "date": "2026-06-19",
+      "postcode": "YO11 3QJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "105, OSGODBY LANE"
+    },
+    {
+      "price": 152500,
+      "date": "2026-06-19",
+      "postcode": "YO12 7JU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, FRANKLIN STREET"
+    },
+    {
+      "price": 168000,
+      "date": "2026-06-19",
+      "postcode": "YO12 4DZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, SPRING BANK"
+    },
+    {
+      "price": 145000,
+      "date": "2026-06-19",
+      "postcode": "YO12 6AJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, WESTERDALE MANOR, WEYDALE AVENUE"
+    },
+    {
+      "price": 64250,
+      "date": "2026-06-19",
+      "postcode": "YO11 2XD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, 26, HOLBECK HILL"
+    },
+    {
+      "price": 205000,
+      "date": "2026-06-18",
+      "postcode": "YO12 7NH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, DEVONSHIRE DRIVE"
+    },
+    {
+      "price": 202110,
+      "date": "2026-06-17",
+      "postcode": "YO11 3QD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, WEST PARK ROAD"
+      "address": "15, OSGODBY LANE"
     },
     {
-      "price": 104500,
-      "date": "2026-05-15",
-      "postcode": "YO11 1NR",
-      "propertyType": "T",
+      "price": 140000,
+      "date": "2026-06-17",
+      "postcode": "YO12 4DE",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, BLANDS CLIFF"
+      "address": "8, HILLSIDE GARDENS"
     },
     {
       "price": 170000,
-      "date": "2026-05-15",
-      "postcode": "YO12 6HW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, SCALBY AVENUE"
-    },
-    {
-      "price": 152000,
-      "date": "2026-05-15",
-      "postcode": "YO12 7DQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "111, CANDLER STREET"
-    },
-    {
-      "price": 178000,
-      "date": "2026-05-14",
-      "postcode": "YO11 3PX",
+      "date": "2026-06-15",
+      "postcode": "YO11 3FQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, OSGODBY HALL ROAD"
+      "address": "31, SANDSTONE ROAD"
     },
     {
-      "price": 120000,
-      "date": "2026-05-14",
-      "postcode": "YO12 5EP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, SITWELL COURT, ACKWORTH STREET"
-    },
-    {
-      "price": 485000,
-      "date": "2026-05-14",
-      "postcode": "YO12 4PB",
+      "price": 230000,
+      "date": "2026-06-15",
+      "postcode": "YO12 6DR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE GORSE, STATION ROAD"
+      "address": "49, NEWLANDS PARK CRESCENT"
     },
     {
-      "price": 168500,
-      "date": "2026-05-12",
-      "postcode": "YO11 3PF",
-      "propertyType": "T",
+      "price": 300000,
+      "date": "2026-06-15",
+      "postcode": "YO12 5PD",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, GREEN LANE"
+      "address": "16, LADY EDITHS PARK"
     },
     {
-      "price": 295000,
-      "date": "2026-05-11",
-      "postcode": "YO11 2QY",
-      "propertyType": "T",
+      "price": 210000,
+      "date": "2026-06-12",
+      "postcode": "YO13 9ET",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, LONSDALE ROAD"
+      "address": "4, BROADLANDS DRIVE"
     },
     {
-      "price": 135000,
-      "date": "2026-05-11",
-      "postcode": "YO11 2XF",
+      "price": 85000,
+      "date": "2026-06-12",
+      "postcode": "YO11 2QT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "F",
-      "address": "FLAT 3, 9, HOLBECK ROAD"
+      "address": "3, 14, AVENUE VICTORIA"
     },
     {
-      "price": 200000,
-      "date": "2026-05-08",
-      "postcode": "YO12 7RA",
+      "price": 105000,
+      "date": "2026-06-11",
+      "postcode": "YO12 7ST",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, LANGDALE ROAD"
+      "address": "11, HOXTON ROAD"
     },
     {
-      "price": 127000,
-      "date": "2026-05-08",
-      "postcode": "YO12 5EW",
-      "propertyType": "T",
+      "price": 65000,
+      "date": "2026-06-11",
+      "postcode": "YO11 2QE",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "F",
-      "address": "54, COMMERCIAL STREET"
+      "address": "FLAT 2, 16, RAMSHILL ROAD"
     },
     {
-      "price": 120000,
-      "date": "2026-05-08",
+      "price": 175000,
+      "date": "2026-06-10",
       "postcode": "YO12 7LW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "27, LYELL STREET"
+      "address": "38, LYELL STREET"
     },
     {
-      "price": 102000,
-      "date": "2026-05-08",
-      "postcode": "YO12 4DR",
+      "price": 77260,
+      "date": "2026-06-10",
+      "postcode": "YO12 7HF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 11, ST. JAMES HOUSE, WASH BECK CLOSE"
+      "address": "FLAT 2, 8, BLENHEIM TERRACE"
     },
     {
-      "price": 220000,
-      "date": "2026-05-08",
-      "postcode": "YO12 6DG",
-      "propertyType": "S",
+      "price": 200000,
+      "date": "2026-06-10",
+      "postcode": "YO12 7BY",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, WESTFIELD AVENUE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-05-07",
-      "postcode": "YO13 0BG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, MILL WAY"
+      "address": "EXPRESS FACTORS, ROSCOE STREET"
     }
   ],
   "monthlyHistory": [
@@ -242,8 +246,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 198250,
-      "transactions": 142
+      "medianPrice": 197500,
+      "transactions": 143
     },
     {
       "month": "2024-10",
@@ -257,8 +261,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 199975,
-      "transactions": 126
+      "medianPrice": 200000,
+      "transactions": 127
     },
     {
       "month": "2025-01",
@@ -268,7 +272,7 @@
     {
       "month": "2025-02",
       "medianPrice": 205000,
-      "transactions": 122
+      "transactions": 121
     },
     {
       "month": "2025-03",
@@ -292,58 +296,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 192500,
-      "transactions": 127
+      "medianPrice": 195000,
+      "transactions": 133
     },
     {
       "month": "2025-08",
-      "medianPrice": 195000,
-      "transactions": 123
+      "medianPrice": 198496,
+      "transactions": 133
     },
     {
       "month": "2025-09",
       "medianPrice": 180000,
-      "transactions": 116
-    },
-    {
-      "month": "2025-10",
-      "medianPrice": 179498,
       "transactions": 124
     },
     {
+      "month": "2025-10",
+      "medianPrice": 179000,
+      "transactions": 131
+    },
+    {
       "month": "2025-11",
-      "medianPrice": 178000,
-      "transactions": 129
+      "medianPrice": 175000,
+      "transactions": 140
     },
     {
       "month": "2025-12",
       "medianPrice": 170000,
-      "transactions": 115
+      "transactions": 123
     },
     {
       "month": "2026-01",
-      "medianPrice": 190000,
-      "transactions": 61
+      "medianPrice": 182500,
+      "transactions": 67
     },
     {
       "month": "2026-02",
       "medianPrice": 175750,
-      "transactions": 84
+      "transactions": 86
     },
     {
       "month": "2026-03",
-      "medianPrice": 171250,
-      "transactions": 94
+      "medianPrice": 167500,
+      "transactions": 99
     },
     {
       "month": "2026-04",
       "medianPrice": 207500,
-      "transactions": 88
+      "transactions": 97
     },
     {
       "month": "2026-05",
-      "medianPrice": 217500,
-      "transactions": 31
+      "medianPrice": 200000,
+      "transactions": 64
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 168000,
+      "transactions": 35
     }
   ],
   "quarterlyHistory": [
@@ -360,17 +369,17 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 195000,
-      "transactions": 416
+      "transactions": 417
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 191976,
-      "transactions": 454
+      "medianPrice": 192000,
+      "transactions": 455
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 190000,
-      "transactions": 463
+      "transactions": 462
     },
     {
       "quarter": "2025-Q2",
@@ -379,23 +388,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 188000,
-      "transactions": 366
+      "medianPrice": 190000,
+      "transactions": 390
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 177500,
-      "transactions": 368
+      "medianPrice": 175000,
+      "transactions": 394
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 177000,
-      "transactions": 239
+      "medianPrice": 175000,
+      "transactions": 252
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 210000,
-      "transactions": 119
+      "medianPrice": 200000,
+      "transactions": 196
     }
   ]
 }

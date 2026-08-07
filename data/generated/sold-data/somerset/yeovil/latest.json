@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.805Z",
+  "updatedAt": "2026-08-07T08:45:01.931Z",
   "townSlug": "yeovil",
   "countySlug": "somerset",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOMERSET",
+    "SOUTH SOMERSET"
+  ],
   "stats": {
-    "medianPrice": 238000,
+    "medianPrice": 235000,
     "medianByType": {
-      "D": 412500,
+      "D": 390000,
       "S": 255000,
       "T": 200000,
       "F": 112500
     },
-    "transactionCount12m": 737,
-    "yoyChange": -0.8,
+    "transactionCount12m": 754,
+    "yoyChange": -2.1,
     "newBuildCount": 0,
-    "existingCount": 737,
+    "existingCount": 754,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
+      "price": 457500,
+      "date": "2026-06-25",
+      "postcode": "BA21 5SH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, PRIMROSE LANE"
+    },
+    {
       "price": 184000,
-      "date": "2026-05-28",
-      "postcode": "BA21 3RN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, BROADLEAZE"
-    },
-    {
-      "price": 237500,
-      "date": "2026-05-26",
-      "postcode": "BA21 5RR",
+      "date": "2026-06-19",
+      "postcode": "BA21 4DJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "69, ST MARYS CRESCENT"
-    },
-    {
-      "price": 113000,
-      "date": "2026-05-22",
-      "postcode": "BA20 2SG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, ASHMEAD"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-22",
-      "postcode": "BA21 3SZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, DERWENT WAY"
+      "address": "35, SUMMERHOUSE VIEW"
     },
     {
       "price": 245000,
-      "date": "2026-05-21",
-      "postcode": "BA21 5EU",
+      "date": "2026-06-19",
+      "postcode": "BA20 2PR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "109, SHACKLETON ROAD"
+      "address": "38, PLANTAGENET CHASE"
     },
     {
-      "price": 250000,
-      "date": "2026-05-21",
-      "postcode": "BA22 8SA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, FENNEL WAY"
-    },
-    {
-      "price": 90000,
-      "date": "2026-05-20",
-      "postcode": "BA20 2BY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, 58, PRESTON ROAD"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-18",
-      "postcode": "BA21 3HX",
+      "price": 200000,
+      "date": "2026-06-19",
+      "postcode": "BA21 5RS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, ABBOTS WAY"
+      "address": "15, MAGNA CLOSE"
     },
     {
-      "price": 320000,
-      "date": "2026-05-15",
-      "postcode": "BA21 3SJ",
+      "price": 377500,
+      "date": "2026-06-18",
+      "postcode": "BA21 4JW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, TINTERN"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-15",
-      "postcode": "BA20 1BG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "127, HUISH"
-    },
-    {
-      "price": 310000,
-      "date": "2026-05-15",
-      "postcode": "BA22 9UQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "KESTOR, COURT LANE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-05-15",
-      "postcode": "BA21 5AG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, ST MICHAELS ROAD"
+      "address": "53, GRASS ROYAL"
     },
     {
       "price": 180000,
-      "date": "2026-05-14",
-      "postcode": "BA21 3TS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, HORTON CLOSE"
-    },
-    {
-      "price": 1904020,
-      "date": "2026-05-13",
-      "postcode": "BA22 7RF",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ANNIS HILL HOUSE, STEART HILL"
-    },
-    {
-      "price": 310000,
-      "date": "2026-05-11",
-      "postcode": "BA21 5BP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "86, GREAT MEAD"
-    },
-    {
-      "price": 595000,
-      "date": "2026-05-08",
-      "postcode": "BA20 2LJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, TARRATT ROAD"
-    },
-    {
-      "price": 407500,
-      "date": "2026-05-08",
-      "postcode": "BA20 2HQ",
+      "date": "2026-06-17",
+      "postcode": "BA20 2AN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, HELENA ROAD"
+      "address": "3, SEATON ROAD"
     },
     {
-      "price": 745000,
-      "date": "2026-05-08",
-      "postcode": "BA20 2HN",
+      "price": 195000,
+      "date": "2026-06-16",
+      "postcode": "BA21 3JF",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "80, MONKS DALE"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-15",
+      "postcode": "BA22 7LJ",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE STABLES, CAMELOT COURT"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-15",
+      "postcode": "BA21 4SA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, ALLINGHAM ROAD"
+    },
+    {
+      "price": 131000,
+      "date": "2026-06-15",
+      "postcode": "BA20 2DG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WESTBOURNE GROVE"
+    },
+    {
+      "price": 294000,
+      "date": "2026-06-12",
+      "postcode": "BA21 4DJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SUMMERHOUSE VIEW"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-12",
+      "postcode": "BA21 3AL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "FURZY LODGE, NASH LANE"
+      "address": "8B, SUMMERLANDS"
     },
     {
-      "price": 228000,
-      "date": "2026-05-08",
-      "postcode": "BA22 8QP",
+      "price": 190000,
+      "date": "2026-06-12",
+      "postcode": "BA20 1AR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 10, CLARENCE COURT, CLARENCE STREET"
+    },
+    {
+      "price": 205000,
+      "date": "2026-06-12",
+      "postcode": "BA21 4PE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, HIGH LEA"
+    },
+    {
+      "price": 295000,
+      "date": "2026-06-11",
+      "postcode": "BA22 8XP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, IVEL GARDENS"
+      "address": "1, REX ROAD"
     },
     {
-      "price": 193000,
-      "date": "2026-05-08",
-      "postcode": "BA21 4EE",
-      "propertyType": "T",
+      "price": 215000,
+      "date": "2026-06-09",
+      "postcode": "BA21 3SQ",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "40, CROFTON PARK"
+      "address": "10, PRIORY GLADE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-05",
+      "postcode": "BA21 5LB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CLIFTON CLOSE"
+    },
+    {
+      "price": 190000,
+      "date": "2026-06-05",
+      "postcode": "BA21 3UN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32A, MEREVALE WAY"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-05",
+      "postcode": "BA22 9LH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, MEADOW VIEW"
+    },
+    {
+      "price": 369000,
+      "date": "2026-06-05",
+      "postcode": "BA21 4LL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "152, ST MICHAEL'S AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -212,8 +216,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 214998,
-      "transactions": 86
+      "medianPrice": 215000,
+      "transactions": 87
     },
     {
       "month": "2024-04",
@@ -223,7 +227,7 @@
     {
       "month": "2024-05",
       "medianPrice": 235000,
-      "transactions": 84
+      "transactions": 85
     },
     {
       "month": "2024-06",
@@ -282,80 +286,85 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 239975,
-      "transactions": 94
+      "medianPrice": 239950,
+      "transactions": 95
     },
     {
       "month": "2025-06",
       "medianPrice": 230000,
-      "transactions": 86
+      "transactions": 87
     },
     {
       "month": "2025-07",
       "medianPrice": 245000,
-      "transactions": 91
+      "transactions": 95
     },
     {
       "month": "2025-08",
-      "medianPrice": 248000,
-      "transactions": 81
+      "medianPrice": 249000,
+      "transactions": 84
     },
     {
       "month": "2025-09",
       "medianPrice": 250000,
-      "transactions": 68
+      "transactions": 72
     },
     {
       "month": "2025-10",
-      "medianPrice": 248000,
-      "transactions": 107
+      "medianPrice": 247000,
+      "transactions": 111
     },
     {
       "month": "2025-11",
       "medianPrice": 250000,
-      "transactions": 89
+      "transactions": 92
     },
     {
       "month": "2025-12",
       "medianPrice": 215000,
-      "transactions": 72
+      "transactions": 78
     },
     {
       "month": "2026-01",
       "medianPrice": 213500,
-      "transactions": 44
+      "transactions": 48
     },
     {
       "month": "2026-02",
       "medianPrice": 240000,
-      "transactions": 55
+      "transactions": 63
     },
     {
       "month": "2026-03",
-      "medianPrice": 235000,
-      "transactions": 72
+      "medianPrice": 232500,
+      "transactions": 75
     },
     {
       "month": "2026-04",
-      "medianPrice": 217250,
-      "transactions": 52
+      "medianPrice": 210000,
+      "transactions": 57
     },
     {
       "month": "2026-05",
       "medianPrice": 247500,
-      "transactions": 24
+      "transactions": 56
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 247500,
+      "transactions": 32
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 225000,
-      "transactions": 216
+      "transactions": 217
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 241250,
-      "transactions": 254
+      "medianPrice": 242500,
+      "transactions": 255
     },
     {
       "quarter": "2024-Q3",
@@ -375,27 +384,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 230000,
-      "transactions": 229
+      "transactions": 231
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 246500,
-      "transactions": 240
+      "medianPrice": 248000,
+      "transactions": 251
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 235000,
-      "transactions": 268
+      "transactions": 281
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 235000,
-      "transactions": 171
+      "transactions": 186
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 225000,
-      "transactions": 76
+      "medianPrice": 237500,
+      "transactions": 145
     }
   ]
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.834Z",
+  "updatedAt": "2026-08-07T08:45:01.963Z",
   "townSlug": "exeter",
   "countySlug": "devon",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EXETER"
+  ],
   "stats": {
-    "medianPrice": 300000,
+    "medianPrice": 296500,
     "medianByType": {
-      "D": 450000,
-      "S": 340000,
-      "T": 277000,
+      "D": 457500,
+      "S": 330000,
+      "T": 275750,
       "F": 179000
     },
-    "transactionCount12m": 1242,
-    "yoyChange": 0,
-    "newBuildCount": 9,
-    "existingCount": 1233,
-    "newBuildPremium": 13
+    "transactionCount12m": 1243,
+    "yoyChange": -1.2,
+    "newBuildCount": 12,
+    "existingCount": 1231,
+    "newBuildPremium": 5.1
   },
   "recentTransactions": [
     {
-      "price": 265000,
-      "date": "2026-05-27",
-      "postcode": "EX2 7TD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, LEWIS CRESCENT"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-22",
-      "postcode": "EX2 5LQ",
+      "price": 491000,
+      "date": "2026-06-26",
+      "postcode": "EX2 5HG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, PERYAM CRESCENT"
+      "address": "13, CRANBROOK ROAD"
     },
     {
-      "price": 295000,
-      "date": "2026-05-18",
-      "postcode": "EX3 0NA",
-      "propertyType": "S",
+      "price": 470000,
+      "date": "2026-06-26",
+      "postcode": "EX2 5UB",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "36, POUND LANE"
+      "address": "8, EDGBASTON MEAD"
     },
     {
-      "price": 477500,
-      "date": "2026-05-15",
-      "postcode": "EX2 4SD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, LISTER CLOSE"
-    },
-    {
-      "price": 130000,
-      "date": "2026-05-14",
-      "postcode": "EX4 1PL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, NEWMAN ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-14",
-      "postcode": "EX4 4FP",
+      "price": 132000,
+      "date": "2026-06-26",
+      "postcode": "EX4 1AB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "3, THE YORK WING, MOUNT DINHAM COURT"
+      "address": "FLAT 10, CAROUSEL COURT, COWICK STREET"
     },
     {
-      "price": 840000,
-      "date": "2026-05-14",
-      "postcode": "EX2 7SR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, EDMUNDS WAY"
-    },
-    {
-      "price": 92000,
-      "date": "2026-05-13",
-      "postcode": "EX4 7BX",
+      "price": 175000,
+      "date": "2026-06-25",
+      "postcode": "EX2 8HZ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "26, CHAUCER GROVE"
+      "address": "GROUND FLOOR FLAT, 92, ALPHINGTON ROAD"
     },
     {
-      "price": 305000,
-      "date": "2026-05-12",
-      "postcode": "EX4 1QY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, ISLEWORTH ROAD"
-    },
-    {
-      "price": 485000,
-      "date": "2026-05-08",
-      "postcode": "EX4 6JQ",
+      "price": 255000,
+      "date": "2026-06-25",
+      "postcode": "EX1 3TD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, VICTORIA STREET"
+      "address": "37, ASH FARM CLOSE"
     },
     {
-      "price": 137000,
-      "date": "2026-05-08",
-      "postcode": "EX4 6RP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, WILLOW WALK"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-08",
-      "postcode": "EX4 1RR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "105, BARLEY MOUNT"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-08",
-      "postcode": "EX2 5GS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, WAGON HILL WAY"
-    },
-    {
-      "price": 173000,
-      "date": "2026-05-08",
-      "postcode": "EX4 8AG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, HIGH BANK, PINHOE ROAD"
-    },
-    {
-      "price": 327000,
-      "date": "2026-05-08",
-      "postcode": "EX2 7GB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, VERNON CRESCENT"
-    },
-    {
-      "price": 355000,
-      "date": "2026-05-08",
-      "postcode": "EX1 3EZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, PINN LANE"
-    },
-    {
-      "price": 274000,
-      "date": "2026-05-08",
-      "postcode": "EX4 1SH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "91, REDHILLS"
-    },
-    {
-      "price": 279100,
-      "date": "2026-05-08",
-      "postcode": "EX3 0NE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, NURSERIES CLOSE"
-    },
-    {
-      "price": 670000,
-      "date": "2026-05-07",
-      "postcode": "EX4 4RS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, DORIAM CLOSE"
-    },
-    {
-      "price": 345000,
-      "date": "2026-05-07",
+      "price": 314000,
+      "date": "2026-06-22",
       "postcode": "EX1 2QD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, ST ANNES ROAD"
+      "address": "54, ST ANNES ROAD"
+    },
+    {
+      "price": 171000,
+      "date": "2026-06-19",
+      "postcode": "EX4 2ND",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "241, FARM HILL"
+    },
+    {
+      "price": 325550,
+      "date": "2026-06-18",
+      "postcode": "EX2 5NX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, PLUMTREE DRIVE"
+    },
+    {
+      "price": 535000,
+      "date": "2026-06-17",
+      "postcode": "EX1 3HD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, BIRCHY BARTON HILL"
+    },
+    {
+      "price": 293200,
+      "date": "2026-06-16",
+      "postcode": "EX2 9BR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, SHAFTESBURY ROAD"
+    },
+    {
+      "price": 41000,
+      "date": "2026-06-15",
+      "postcode": "EX2 7TA",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LILLIAN HOUSE, CLYST HEATH"
+    },
+    {
+      "price": 145000,
+      "date": "2026-06-12",
+      "postcode": "EX4 4HF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "19A, NEW NORTH ROAD"
+    },
+    {
+      "price": 271000,
+      "date": "2026-06-12",
+      "postcode": "EX2 5NH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, ALLER VALE CLOSE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-12",
+      "postcode": "EX4 1RB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "8A, PRESCOT ROAD"
+    },
+    {
+      "price": 227500,
+      "date": "2026-06-12",
+      "postcode": "EX4 8NF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, BROOKSIDE CRESCENT"
+    },
+    {
+      "price": 390000,
+      "date": "2026-06-10",
+      "postcode": "EX3 0JR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, CLARA PLACE"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-10",
+      "postcode": "EX2 5QN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BYRON ROAD"
+    },
+    {
+      "price": 485000,
+      "date": "2026-06-10",
+      "postcode": "EX4 1EP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62, OKEHAMPTON ROAD"
+    },
+    {
+      "price": 595000,
+      "date": "2026-06-09",
+      "postcode": "EX4 4DW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, ST DAVIDS HILL"
+    },
+    {
+      "price": 323000,
+      "date": "2026-06-08",
+      "postcode": "EX4 8LY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "158, BEACON LANE"
     }
   ],
   "monthlyHistory": [
@@ -228,7 +231,7 @@
     {
       "month": "2024-06",
       "medianPrice": 320000,
-      "transactions": 183
+      "transactions": 182
     },
     {
       "month": "2024-07",
@@ -242,8 +245,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 295000,
-      "transactions": 175
+      "medianPrice": 295500,
+      "transactions": 174
     },
     {
       "month": "2024-10",
@@ -257,13 +260,13 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 286000,
-      "transactions": 186
+      "medianPrice": 287000,
+      "transactions": 187
     },
     {
       "month": "2025-01",
       "medianPrice": 300000,
-      "transactions": 120
+      "transactions": 121
     },
     {
       "month": "2025-02",
@@ -273,12 +276,12 @@
     {
       "month": "2025-03",
       "medianPrice": 315000,
-      "transactions": 328
+      "transactions": 329
     },
     {
       "month": "2025-04",
-      "medianPrice": 285000,
-      "transactions": 95
+      "medianPrice": 284000,
+      "transactions": 96
     },
     {
       "month": "2025-05",
@@ -287,23 +290,23 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 309000,
-      "transactions": 165
+      "medianPrice": 309500,
+      "transactions": 166
     },
     {
       "month": "2025-07",
       "medianPrice": 300000,
-      "transactions": 160
+      "transactions": 165
     },
     {
       "month": "2025-08",
       "medianPrice": 290000,
-      "transactions": 159
+      "transactions": 168
     },
     {
       "month": "2025-09",
-      "medianPrice": 309000,
-      "transactions": 112
+      "medianPrice": 303000,
+      "transactions": 121
     },
     {
       "month": "2025-10",
@@ -312,38 +315,43 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 310000,
-      "transactions": 131
+      "medianPrice": 305085,
+      "transactions": 137
     },
     {
       "month": "2025-12",
       "medianPrice": 290000,
-      "transactions": 141
+      "transactions": 154
     },
     {
       "month": "2026-01",
-      "medianPrice": 312500,
-      "transactions": 78
+      "medianPrice": 300000,
+      "transactions": 89
     },
     {
       "month": "2026-02",
       "medianPrice": 295000,
-      "transactions": 97
+      "transactions": 104
     },
     {
       "month": "2026-03",
-      "medianPrice": 308500,
-      "transactions": 113
+      "medianPrice": 309250,
+      "transactions": 118
     },
     {
       "month": "2026-04",
       "medianPrice": 280000,
-      "transactions": 84
+      "transactions": 91
     },
     {
       "month": "2026-05",
-      "medianPrice": 300000,
-      "transactions": 32
+      "medianPrice": 287500,
+      "transactions": 84
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 323000,
+      "transactions": 39
     }
   ],
   "quarterlyHistory": [
@@ -355,47 +363,47 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 305000,
-      "transactions": 459
+      "transactions": 458
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 299000,
-      "transactions": 529
+      "medianPrice": 299500,
+      "transactions": 528
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 304411,
-      "transactions": 592
+      "medianPrice": 305000,
+      "transactions": 593
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 306000,
-      "transactions": 633
+      "medianPrice": 306200,
+      "transactions": 635
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 287750,
-      "transactions": 406
+      "transactions": 408
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 295000,
-      "transactions": 431
+      "transactions": 454
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 303500,
-      "transactions": 436
+      "medianPrice": 300000,
+      "transactions": 455
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 304000,
-      "transactions": 288
+      "medianPrice": 303000,
+      "transactions": 311
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 282500,
-      "transactions": 116
+      "medianPrice": 287250,
+      "transactions": 214
     }
   ]
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:54.503Z",
+  "updatedAt": "2026-08-07T08:45:00.567Z",
   "townSlug": "barking",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BARKING AND DAGENHAM"
+  ],
   "stats": {
     "medianPrice": 380000,
     "medianByType": {
-      "D": 460000,
-      "S": 425000,
+      "D": 480000,
+      "S": 436000,
       "T": 395000,
       "F": 230000
     },
-    "transactionCount12m": 1156,
+    "transactionCount12m": 1125,
     "yoyChange": 2.7,
-    "newBuildCount": 8,
-    "existingCount": 1148,
-    "newBuildPremium": 23.8
+    "newBuildCount": 1,
+    "existingCount": 1124,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 465000,
-      "date": "2026-05-22",
-      "postcode": "RM10 8QB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, STERRY CRESCENT"
-    },
-    {
-      "price": 135000,
-      "date": "2026-05-20",
-      "postcode": "IG11 8LN",
+      "price": 268000,
+      "date": "2026-06-23",
+      "postcode": "RM8 2FP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "27, MERSEA HOUSE, 104, HARTS LANE"
+      "address": "FLAT 403, EXETER HOUSE, 41, ACADEMY WAY"
     },
     {
-      "price": 285000,
-      "date": "2026-05-18",
-      "postcode": "IG11 8NZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 37, CENTRAL HOUSE, 14, CAMBRIDGE ROAD"
-    },
-    {
-      "price": 483000,
-      "date": "2026-05-18",
-      "postcode": "RM7 0RT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, LAUREL CRESCENT"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-18",
-      "postcode": "RM10 9BB",
+      "price": 370000,
+      "date": "2026-06-18",
+      "postcode": "RM8 3LP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "166, THIRD AVENUE"
+      "address": "53, AYLMER ROAD"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-17",
+      "postcode": "RM6 5LH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "68, THATCHES GROVE"
+    },
+    {
+      "price": 477500,
+      "date": "2026-06-15",
+      "postcode": "RM6 6EX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, WADEVILLE AVENUE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-06-12",
+      "postcode": "IG11 9AW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, BRADFIELD DRIVE"
     },
     {
       "price": 460000,
-      "date": "2026-05-15",
-      "postcode": "RM7 0XL",
+      "date": "2026-06-12",
+      "postcode": "RM10 9BH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "36, LEONARD AVENUE"
-    },
-    {
-      "price": 380000,
-      "date": "2026-05-15",
-      "postcode": "RM8 2DG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "129, CORNWORTHY ROAD"
-    },
-    {
-      "price": 430000,
-      "date": "2026-05-15",
-      "postcode": "RM10 9TR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, WILTHORNE GARDENS"
-    },
-    {
-      "price": 448000,
-      "date": "2026-05-15",
-      "postcode": "IG11 0PH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, MAYBURY ROAD"
-    },
-    {
-      "price": 560000,
-      "date": "2026-05-15",
-      "postcode": "IG11 9TN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "71, NETHERFIELD GARDENS"
-    },
-    {
-      "price": 258000,
-      "date": "2026-05-14",
-      "postcode": "RM8 3DG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "24, SPARKS CLOSE"
+      "address": "20, CROSBY ROAD"
     },
     {
       "price": 410000,
-      "date": "2026-05-14",
-      "postcode": "RM8 2SJ",
+      "date": "2026-06-12",
+      "postcode": "IG11 7RF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, KENDAL AVENUE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-10",
+      "postcode": "RM6 5EJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "50, CAVALIER CLOSE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-06-08",
+      "postcode": "RM10 8HB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "144, CAMPDEN CRESCENT"
+      "address": "15, PONDFIELD ROAD"
     },
     {
-      "price": 250000,
-      "date": "2026-05-13",
-      "postcode": "RM10 7AT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, BELL FARM AVENUE"
-    },
-    {
-      "price": 303000,
-      "date": "2026-05-13",
-      "postcode": "RM8 3NH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "307, WOOD LANE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-13",
-      "postcode": "IG11 7PS",
+      "price": 237000,
+      "date": "2026-06-08",
+      "postcode": "RM8 2HF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "410, BATH HOUSE, 5, ARBORETUM PLACE"
+      "address": "304, LODGE AVENUE"
     },
     {
-      "price": 436000,
-      "date": "2026-05-11",
-      "postcode": "IG11 8QZ",
+      "price": 400000,
+      "date": "2026-06-05",
+      "postcode": "IG11 9XA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "92, FAIRCROSS AVENUE"
+      "address": "60, SHIRLEY GARDENS"
     },
     {
-      "price": 180000,
-      "date": "2026-05-08",
-      "postcode": "IG11 9XF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "83, GREENSLADE ROAD"
-    },
-    {
-      "price": 430000,
-      "date": "2026-05-07",
-      "postcode": "RM10 8XH",
+      "price": 440000,
+      "date": "2026-06-05",
+      "postcode": "RM8 1DR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "58, WESTERN AVENUE"
+      "address": "597, WOOD LANE"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-05",
+      "postcode": "RM9 6DJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "218, HEDGEMANS ROAD"
+    },
+    {
+      "price": 650000,
+      "date": "2026-06-05",
+      "postcode": "IG11 9HH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, STRATTON DRIVE"
     },
     {
       "price": 390000,
-      "date": "2026-05-07",
-      "postcode": "RM10 8PU",
+      "date": "2026-06-05",
+      "postcode": "RM8 3SL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "20A, EASTFIELD ROAD"
+      "address": "81, BUSHGROVE ROAD"
     },
     {
-      "price": 234000,
-      "date": "2026-05-05",
-      "postcode": "IG11 7PL",
-      "propertyType": "F",
+      "price": 365000,
+      "date": "2026-06-04",
+      "postcode": "RM8 3QS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, NEVILLE ROAD"
+    },
+    {
+      "price": 395000,
+      "date": "2026-06-04",
+      "postcode": "RM9 5TB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "294, WOOD LANE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-03",
+      "postcode": "RM6 6BP",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "73, WESTBURY ROAD"
+      "address": "74, ALBANY ROAD"
+    },
+    {
+      "price": 385000,
+      "date": "2026-06-03",
+      "postcode": "RM9 5BD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "203, OSBORNE SQUARE"
+    },
+    {
+      "price": 429000,
+      "date": "2026-06-02",
+      "postcode": "IG11 9XX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "186, SALISBURY AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -263,12 +266,12 @@
     {
       "month": "2025-01",
       "medianPrice": 370000,
-      "transactions": 143
+      "transactions": 142
     },
     {
       "month": "2025-02",
       "medianPrice": 378000,
-      "transactions": 165
+      "transactions": 167
     },
     {
       "month": "2025-03",
@@ -287,63 +290,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 375000,
-      "transactions": 111
+      "medianPrice": 372500,
+      "transactions": 112
     },
     {
       "month": "2025-07",
       "medianPrice": 382500,
-      "transactions": 163
+      "transactions": 173
     },
     {
       "month": "2025-08",
       "medianPrice": 380000,
-      "transactions": 146
+      "transactions": 150
     },
     {
       "month": "2025-09",
-      "medianPrice": 374000,
-      "transactions": 124
+      "medianPrice": 373000,
+      "transactions": 131
     },
     {
       "month": "2025-10",
-      "medianPrice": 375000,
-      "transactions": 154
+      "medianPrice": 376500,
+      "transactions": 156
     },
     {
       "month": "2025-11",
       "medianPrice": 390000,
-      "transactions": 121
+      "transactions": 127
     },
     {
       "month": "2025-12",
-      "medianPrice": 372500,
-      "transactions": 102
+      "medianPrice": 380000,
+      "transactions": 114
     },
     {
       "month": "2026-01",
       "medianPrice": 400000,
-      "transactions": 85
+      "transactions": 93
     },
     {
       "month": "2026-02",
       "medianPrice": 380000,
-      "transactions": 84
+      "transactions": 90
     },
     {
       "month": "2026-03",
       "medianPrice": 375000,
-      "transactions": 92
+      "transactions": 96
     },
     {
       "month": "2026-04",
       "medianPrice": 380000,
-      "transactions": 73
+      "transactions": 80
     },
     {
       "month": "2026-05",
-      "medianPrice": 380000,
-      "transactions": 31
+      "medianPrice": 375000,
+      "transactions": 87
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 392500,
+      "transactions": 26
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 380000,
-      "transactions": 628
+      "transactions": 629
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 371500,
-      "transactions": 292
+      "medianPrice": 370000,
+      "transactions": 293
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 380000,
-      "transactions": 433
+      "transactions": 454
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 380000,
-      "transactions": 377
+      "transactions": 397
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 380000,
-      "transactions": 261
+      "transactions": 279
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 380000,
-      "transactions": 104
+      "transactions": 193
     }
   ]
 }

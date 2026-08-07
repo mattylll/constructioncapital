@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.513Z",
+  "updatedAt": "2026-08-07T08:45:03.743Z",
   "townSlug": "luton",
   "countySlug": "bedfordshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "LUTON"
+  ],
   "stats": {
     "medianPrice": 300000,
     "medianByType": {
-      "D": 430000,
-      "S": 332000,
-      "T": 267500,
+      "D": 435000,
+      "S": 331250,
+      "T": 266000,
       "F": 170000
     },
-    "transactionCount12m": 1707,
-    "yoyChange": 0,
+    "transactionCount12m": 1631,
+    "yoyChange": -0.8,
     "newBuildCount": 84,
-    "existingCount": 1623,
-    "newBuildPremium": -13.3
+    "existingCount": 1547,
+    "newBuildPremium": -13.9
   },
   "recentTransactions": [
     {
-      "price": 315000,
-      "date": "2026-05-28",
-      "postcode": "LU2 8RA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, ALFRISTON CLOSE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-26",
-      "postcode": "LU4 9FS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, WRAYSBURY CLOSE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-22",
-      "postcode": "LU4 9ER",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, CHALTON ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-21",
-      "postcode": "LU1 3SN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, ORMSBY CLOSE"
-    },
-    {
-      "price": 272500,
-      "date": "2026-05-20",
-      "postcode": "LU2 7JH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, DOREL CLOSE"
-    },
-    {
-      "price": 345000,
-      "date": "2026-05-15",
-      "postcode": "LU1 1QR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, DOWNS ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-15",
-      "postcode": "LU2 0JP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, BROOMS ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-15",
-      "postcode": "LU4 9QZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "78, LINDEN ROAD"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-15",
-      "postcode": "LU4 9LJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "132, HIGH STREET"
-    },
-    {
-      "price": 460000,
-      "date": "2026-05-15",
-      "postcode": "LU2 8RT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, BOLNEY GREEN"
-    },
-    {
-      "price": 355000,
-      "date": "2026-05-15",
-      "postcode": "LU2 0LE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, KENNETH ROAD"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-15",
-      "postcode": "LU2 8JH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, HORSHAM CLOSE"
-    },
-    {
-      "price": 385000,
-      "date": "2026-05-15",
-      "postcode": "LU2 8BW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, SWIFTS GREEN TERRACE, 61A, SWIFTS GREEN ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-15",
-      "postcode": "LU1 4FZ",
+      "price": 209000,
+      "date": "2026-06-26",
+      "postcode": "LU2 8DW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 18, JUNEBERRY APARTMENTS, 2, CYPRESS ROAD"
+      "address": "6, WESTFIELD COURT, HANDCROSS ROAD"
     },
     {
-      "price": 120000,
-      "date": "2026-05-15",
-      "postcode": "LU1 5LQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, WHIPPERLEY WAY"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-15",
-      "postcode": "LU2 7NB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, STOCKINGSTONE ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-14",
-      "postcode": "LU1 1NJ",
+      "price": 290000,
+      "date": "2026-06-26",
+      "postcode": "LU3 2QG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, DALLOW ROAD"
+      "address": "97A, MARSH ROAD"
     },
     {
-      "price": 475000,
-      "date": "2026-05-13",
-      "postcode": "LU2 0PW",
+      "price": 257500,
+      "date": "2026-06-26",
+      "postcode": "LU1 5HG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, ST SAVIOURS CRESCENT"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-22",
+      "postcode": "LU4 9FR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, VILLIERS CLOSE"
+    },
+    {
+      "price": 615000,
+      "date": "2026-06-19",
+      "postcode": "LU2 7YN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "47, WALCOT AVENUE"
+      "address": "16, LIPPITTS HILL"
     },
     {
-      "price": 230000,
-      "date": "2026-05-13",
-      "postcode": "LU1 5SS",
+      "price": 270000,
+      "date": "2026-06-19",
+      "postcode": "LU2 7RL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, WOLSTON CLOSE"
+      "address": "52, LORIMER CLOSE"
     },
     {
-      "price": 402000,
-      "date": "2026-05-12",
-      "postcode": "LU4 8EF",
-      "propertyType": "O",
+      "price": 310000,
+      "date": "2026-06-18",
+      "postcode": "LU4 0RX",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "UNIT 26, TITAN COURT"
+      "address": "38, BRUNEL ROAD"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-18",
+      "postcode": "LU4 0UY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, PEREGRINE ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-06-17",
+      "postcode": "LU2 7LE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, FELIX AVENUE"
+    },
+    {
+      "price": 322500,
+      "date": "2026-06-17",
+      "postcode": "LU3 2EG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "67, GROSVENOR ROAD"
+    },
+    {
+      "price": 360000,
+      "date": "2026-06-16",
+      "postcode": "LU3 1LT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "58, CRANLEIGH GARDENS"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-15",
+      "postcode": "LU4 8QQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, CHALLNEY GARDENS"
+    },
+    {
+      "price": 288000,
+      "date": "2026-06-12",
+      "postcode": "LU3 2DY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "99, GOOSEBERRY HILL"
+    },
+    {
+      "price": 400000,
+      "date": "2026-06-12",
+      "postcode": "LU3 4DU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, CHARNDON CLOSE"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-11",
+      "postcode": "LU4 0NR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, EMERALD ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-11",
+      "postcode": "LU2 0PH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, TURNERS ROAD SOUTH"
+    },
+    {
+      "price": 344000,
+      "date": "2026-06-10",
+      "postcode": "LU4 0BJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "82, STANTON ROAD"
+    },
+    {
+      "price": 495000,
+      "date": "2026-06-10",
+      "postcode": "LU2 7FG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, ROOKERY DRIVE"
+    },
+    {
+      "price": 307000,
+      "date": "2026-06-10",
+      "postcode": "LU4 0DD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, BAMPTON ROAD"
+    },
+    {
+      "price": 155000,
+      "date": "2026-06-09",
+      "postcode": "LU2 8JD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, ELDERBERRY CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -238,7 +241,7 @@
     {
       "month": "2024-08",
       "medianPrice": 300000,
-      "transactions": 198
+      "transactions": 199
     },
     {
       "month": "2024-09",
@@ -263,7 +266,7 @@
     {
       "month": "2025-01",
       "medianPrice": 285000,
-      "transactions": 186
+      "transactions": 187
     },
     {
       "month": "2025-02",
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 325000,
-      "transactions": 317
+      "medianPrice": 323500,
+      "transactions": 318
     },
     {
       "month": "2025-04",
@@ -292,58 +295,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 305000,
-      "transactions": 220
+      "medianPrice": 302500,
+      "transactions": 222
     },
     {
       "month": "2025-08",
-      "medianPrice": 300000,
-      "transactions": 181
+      "medianPrice": 297500,
+      "transactions": 186
     },
     {
       "month": "2025-09",
-      "medianPrice": 290000,
-      "transactions": 260
+      "medianPrice": 295000,
+      "transactions": 267
     },
     {
       "month": "2025-10",
       "medianPrice": 310000,
-      "transactions": 190
+      "transactions": 194
     },
     {
       "month": "2025-11",
-      "medianPrice": 312550,
-      "transactions": 181
+      "medianPrice": 315000,
+      "transactions": 184
     },
     {
       "month": "2025-12",
-      "medianPrice": 290000,
-      "transactions": 158
+      "medianPrice": 295000,
+      "transactions": 165
     },
     {
       "month": "2026-01",
       "medianPrice": 305000,
-      "transactions": 153
+      "transactions": 175
     },
     {
       "month": "2026-02",
-      "medianPrice": 290000,
-      "transactions": 144
+      "medianPrice": 296500,
+      "transactions": 151
     },
     {
       "month": "2026-03",
-      "medianPrice": 288750,
-      "transactions": 124
+      "medianPrice": 285000,
+      "transactions": 133
     },
     {
       "month": "2026-04",
-      "medianPrice": 300000,
-      "transactions": 91
+      "medianPrice": 302000,
+      "transactions": 101
     },
     {
       "month": "2026-05",
-      "medianPrice": 300000,
-      "transactions": 40
+      "medianPrice": 315000,
+      "transactions": 82
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 310000,
+      "transactions": 38
     }
   ],
   "quarterlyHistory": [
@@ -360,7 +368,7 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 295000,
-      "transactions": 593
+      "transactions": 594
     },
     {
       "quarter": "2024-Q4",
@@ -370,7 +378,7 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 310000,
-      "transactions": 717
+      "transactions": 719
     },
     {
       "quarter": "2025-Q2",
@@ -380,22 +388,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 300000,
-      "transactions": 661
+      "transactions": 675
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 306000,
-      "transactions": 529
+      "medianPrice": 310000,
+      "transactions": 543
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 290000,
-      "transactions": 421
+      "medianPrice": 295000,
+      "transactions": 459
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 300000,
-      "transactions": 131
+      "medianPrice": 310000,
+      "transactions": 221
     }
   ]
 }

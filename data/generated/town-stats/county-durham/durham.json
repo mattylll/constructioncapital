@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.126Z",
+  "updatedAt": "2026-08-07T08:45:03.490Z",
   "townSlug": "durham",
   "countySlug": "county-durham",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "COUNTY DURHAM"
+  ],
   "marketSnapshot": {
     "medianPrice": 150000,
-    "transactionCount12m": 1500,
+    "transactionCount12m": 1478,
     "yoyPriceChange": -6.3,
     "approvedApps12m": 0,
-    "pipelineUnits": 377,
-    "pipelineGdv": 56526500,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 273,
+    "pipelineGdv": 40950000,
     "approvalRate": 0
   }
 }

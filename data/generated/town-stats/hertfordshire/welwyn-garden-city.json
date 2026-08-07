@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.226Z",
+  "updatedAt": "2026-08-07T08:45:01.652Z",
   "townSlug": "welwyn-garden-city",
   "countySlug": "hertfordshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WELWYN HATFIELD"
+  ],
   "marketSnapshot": {
     "medianPrice": 410000,
-    "transactionCount12m": 462,
-    "yoyPriceChange": 1.2,
+    "transactionCount12m": 453,
+    "yoyPriceChange": 2.5,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

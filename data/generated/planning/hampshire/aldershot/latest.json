@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-02T01:39:16.711Z",
+  "updatedAt": "2026-08-06T12:50:10.318Z",
   "townSlug": "aldershot",
   "countySlug": "hampshire",
   "localAuthority": "Rushmoor Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-02",
-    "to": "2026-08-02",
-    "retrievedAt": "2026-08-02T01:39:16.710Z"
+    "from": "2026-05-06",
+    "to": "2026-08-06",
+    "retrievedAt": "2026-08-06T12:50:10.318Z"
   },
   "summary": {
-    "total": 166,
-    "relevant": 4,
+    "total": 177,
+    "relevant": 5,
     "approved": 0,
-    "pending": 4,
+    "pending": 5,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 14,
@@ -26,6 +26,25 @@
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/00443/FUL",
+      "address": "6A Alexandra Road Farnborough Hampshire GU14 6DA",
+      "postcode": "GU14 6DA",
+      "ward": "",
+      "proposal": "Front extension",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "04/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.rushmoor.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJ8OF3NM0HX00"
+    },
     {
       "reference": "26/00425/FUL",
       "address": "Ayling House 16 Ayling Lane Aldershot Hampshire GU11 3LZ",

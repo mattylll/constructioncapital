@@ -1,22 +1,43 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.807Z",
+  "updatedAt": "2026-08-07T08:45:04.109Z",
   "townSlug": "builth-wells",
   "countySlug": "powys",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "POWYS"
+  ],
   "stats": {
     "medianPrice": 280000,
     "medianByType": {
       "D": 355000,
       "S": 248500,
-      "T": 173750
+      "T": 177500
     },
-    "transactionCount12m": 58,
-    "yoyChange": 11.6,
+    "transactionCount12m": 56,
+    "yoyChange": 12,
     "newBuildCount": 0,
-    "existingCount": 58,
+    "existingCount": 56,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 158000,
+      "date": "2026-05-29",
+      "postcode": "LD2 3EB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, SMITHFIELD ROW"
+    },
+    {
+      "price": 180000,
+      "date": "2026-05-22",
+      "postcode": "LD2 3RH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, RAILWAY TERRACE"
+    },
     {
       "price": 82250,
       "date": "2026-04-08",
@@ -108,15 +129,6 @@
       "address": "5, IRFON BRIDGE CLOSE"
     },
     {
-      "price": 222000,
-      "date": "2026-01-21",
-      "postcode": "LD2 3FE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, TROED Y BRYN"
-    },
-    {
       "price": 320000,
       "date": "2026-01-21",
       "postcode": "LD2 3AY",
@@ -124,6 +136,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "7, PARK ROAD"
+    },
+    {
+      "price": 222000,
+      "date": "2026-01-21",
+      "postcode": "LD2 3FE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, TROED Y BRYN"
     },
     {
       "price": 275000,
@@ -178,24 +199,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "7, EDW CRESCENT"
-    },
-    {
-      "price": 327500,
-      "date": "2025-11-25",
-      "postcode": "LD2 3DF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, GLANDWR PARK"
-    },
-    {
-      "price": 275000,
-      "date": "2025-11-25",
-      "postcode": "LD2 3DF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, GLANDWR PARK"
     }
   ],
   "monthlyHistory": [
@@ -296,8 +299,8 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 297500,
-      "transactions": 14
+      "medianPrice": 285000,
+      "transactions": 15
     },
     {
       "month": "2025-09",
@@ -333,6 +336,11 @@
       "month": "2026-04",
       "medianPrice": 132500,
       "transactions": 3
+    },
+    {
+      "month": "2026-05",
+      "medianPrice": 169000,
+      "transactions": 2
     }
   ],
   "quarterlyHistory": [
@@ -368,8 +376,8 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 285000,
-      "transactions": 25
+      "medianPrice": 280000,
+      "transactions": 26
     },
     {
       "quarter": "2025-Q4",
@@ -383,8 +391,8 @@
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 132500,
-      "transactions": 3
+      "medianPrice": 158000,
+      "transactions": 5
     }
   ]
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.534Z",
+  "updatedAt": "2026-08-07T08:45:03.765Z",
   "townSlug": "biggleswade",
   "countySlug": "bedfordshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CENTRAL BEDFORDSHIRE"
+  ],
   "stats": {
     "medianPrice": 355000,
     "medianByType": {
-      "D": 500000,
-      "S": 376500,
+      "D": 481250,
+      "S": 375000,
       "T": 300000,
       "F": 200000
     },
-    "transactionCount12m": 374,
-    "yoyChange": -2.7,
-    "newBuildCount": 3,
-    "existingCount": 371,
-    "newBuildPremium": 135.2
+    "transactionCount12m": 360,
+    "yoyChange": -1.4,
+    "newBuildCount": 1,
+    "existingCount": 359,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 345000,
-      "date": "2026-05-15",
-      "postcode": "SG18 8XS",
+      "price": 200000,
+      "date": "2026-06-23",
+      "postcode": "SG18 8GL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, WILSON CLOSE"
+      "address": "55, MAUNDER AVENUE"
     },
     {
-      "price": 375000,
-      "date": "2026-05-15",
-      "postcode": "SG18 8YS",
+      "price": 520000,
+      "date": "2026-06-17",
+      "postcode": "SG18 0RF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, LARKINSON AVENUE"
+    },
+    {
+      "price": 501000,
+      "date": "2026-06-16",
+      "postcode": "SG18 0PY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, DODIMEAD WAY"
+    },
+    {
+      "price": 430000,
+      "date": "2026-06-12",
+      "postcode": "SG18 8YR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, GERANIUM CROFT"
+      "address": "22, LILY EDGE"
     },
     {
-      "price": 237000,
-      "date": "2026-05-15",
-      "postcode": "SG18 8ES",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "15, CHAMBERS LODGE, CHAMBERS WAY"
-    },
-    {
-      "price": 420000,
-      "date": "2026-05-15",
-      "postcode": "SG18 8YJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, LYNTON EDGE"
-    },
-    {
-      "price": 924990,
-      "date": "2026-05-14",
-      "postcode": "SG18 9JD",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GREEN MAN"
-    },
-    {
-      "price": 515000,
-      "date": "2026-05-14",
-      "postcode": "SG18 9DD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, SHAKESPEARE DRIVE"
-    },
-    {
-      "price": 645000,
-      "date": "2026-05-13",
-      "postcode": "SG18 9NP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GREENVIEW, 4, HIGH STREET"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-08",
-      "postcode": "SG18 8XL",
+      "price": 295000,
+      "date": "2026-06-12",
+      "postcode": "SG18 0LW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, MACMILLAN GROVE"
+      "address": "19, BRIGHAM GARDENS"
     },
     {
-      "price": 125000,
-      "date": "2026-05-08",
+      "price": 335000,
+      "date": "2026-06-12",
+      "postcode": "SG18 8TR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, TULIP CLOSE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-12",
       "postcode": "SG18 0AW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "31, WHARF MEWS"
+      "address": "9, WHARF MEWS"
     },
     {
-      "price": 775000,
-      "date": "2026-05-01",
-      "postcode": "SG18 8HD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE OLD HOPBINE, 21, DROVE ROAD"
-    },
-    {
-      "price": 490000,
-      "date": "2026-05-01",
-      "postcode": "SG18 8NP",
+      "price": 365000,
+      "date": "2026-06-11",
+      "postcode": "SG18 0FS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, AVON RISE"
+      "address": "23, TORQUAY CLOSE"
     },
     {
-      "price": 235000,
-      "date": "2026-04-30",
-      "postcode": "SG18 8BL",
+      "price": 175000,
+      "date": "2026-06-10",
+      "postcode": "SG18 8QQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "111A, HITCHIN STREET"
+      "address": "33, BUNYAN ROAD"
     },
     {
-      "price": 392500,
-      "date": "2026-04-30",
-      "postcode": "SG18 9FP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, CAMPION EDGE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-04-29",
-      "postcode": "SG18 0JT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, ROSE LANE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-04-29",
-      "postcode": "SG18 8LZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, DERWENT AVENUE"
-    },
-    {
-      "price": 356000,
-      "date": "2026-04-29",
-      "postcode": "SG18 8DZ",
+      "price": 550000,
+      "date": "2026-06-05",
+      "postcode": "SG18 9RD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "46, OSPREY ROAD"
+      "address": "20, BLACKBIRD GARDENS"
     },
     {
-      "price": 285000,
-      "date": "2026-04-27",
-      "postcode": "SG18 8BA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, ST ANDREWS STREET"
-    },
-    {
-      "price": 439950,
-      "date": "2026-04-24",
-      "postcode": "SG18 8TX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, SNOWDROP WALK"
-    },
-    {
-      "price": 370000,
-      "date": "2026-04-21",
+      "price": 450000,
+      "date": "2026-06-05",
       "postcode": "SG18 0EG",
-      "propertyType": "S",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, BEECH AVENUE"
+      "address": "25, BEECH AVENUE"
     },
     {
-      "price": 480000,
-      "date": "2026-04-21",
-      "postcode": "SG18 9NB",
+      "price": 332500,
+      "date": "2026-06-05",
+      "postcode": "SG18 8NY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, BANCROFT AVENUE"
+      "address": "37, THE ROWLANDS"
+    },
+    {
+      "price": 215000,
+      "date": "2026-06-05",
+      "postcode": "SG18 8QQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, BUNYAN ROAD"
+    },
+    {
+      "price": 382500,
+      "date": "2026-06-05",
+      "postcode": "SG18 0AG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, IVEL BURY"
+    },
+    {
+      "price": 435000,
+      "date": "2026-06-03",
+      "postcode": "SG18 0AN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, IVEL GARDENS"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-03",
+      "postcode": "SG18 0HL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, SPRING CLOSE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-06-02",
+      "postcode": "SG18 9PU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, MANOR CLOSE"
+    },
+    {
+      "price": 336000,
+      "date": "2026-06-02",
+      "postcode": "SG18 0HQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, HAZEL WALK"
+    },
+    {
+      "price": 365000,
+      "date": "2026-05-29",
+      "postcode": "SG18 8FU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, PARRY RISE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-05-29",
+      "postcode": "SG18 0LT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, LAWRENCE ROAD"
     }
   ],
   "monthlyHistory": [
@@ -227,8 +230,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 380000,
-      "transactions": 42
+      "medianPrice": 375000,
+      "transactions": 43
     },
     {
       "month": "2024-07",
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 356250,
-      "transactions": 112
+      "medianPrice": 355000,
+      "transactions": 113
     },
     {
       "month": "2025-04",
@@ -297,13 +300,13 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 367750,
-      "transactions": 54
+      "medianPrice": 342500,
+      "transactions": 59
     },
     {
       "month": "2025-09",
-      "medianPrice": 330000,
-      "transactions": 48
+      "medianPrice": 335000,
+      "transactions": 49
     },
     {
       "month": "2025-10",
@@ -317,8 +320,8 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 349000,
-      "transactions": 34
+      "medianPrice": 352500,
+      "transactions": 36
     },
     {
       "month": "2026-01",
@@ -337,13 +340,18 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 356000,
-      "transactions": 21
+      "medianPrice": 358000,
+      "transactions": 22
     },
     {
       "month": "2026-05",
-      "medianPrice": 420000,
-      "transactions": 11
+      "medianPrice": 365000,
+      "transactions": 31
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 352500,
+      "transactions": 18
     }
   ],
   "quarterlyHistory": [
@@ -354,8 +362,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 378825,
-      "transactions": 134
+      "medianPrice": 377650,
+      "transactions": 135
     },
     {
       "quarter": "2024-Q3",
@@ -370,7 +378,7 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 350000,
-      "transactions": 215
+      "transactions": 216
     },
     {
       "quarter": "2025-Q2",
@@ -379,13 +387,13 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 355000,
-      "transactions": 155
+      "medianPrice": 342500,
+      "transactions": 161
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 340000,
-      "transactions": 117
+      "medianPrice": 348000,
+      "transactions": 119
     },
     {
       "quarter": "2026-Q1",
@@ -394,8 +402,8 @@
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 372500,
-      "transactions": 32
+      "medianPrice": 365000,
+      "transactions": 71
     }
   ]
 }

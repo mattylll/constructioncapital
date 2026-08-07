@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.135Z",
+  "updatedAt": "2026-08-07T08:45:02.515Z",
   "townSlug": "ilkeston",
   "countySlug": "derbyshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EREWASH"
+  ],
   "marketSnapshot": {
-    "medianPrice": 185000,
-    "transactionCount12m": 555,
-    "yoyPriceChange": 1.6,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 189000,
+    "transactionCount12m": 545,
+    "yoyPriceChange": 4.9,
+    "approvedApps12m": 12,
+    "approvedRecent": 12,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 180,
+    "pipelineGdv": 32951250,
+    "approvalRate": 92
   }
 }

@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.796Z",
+  "updatedAt": "2026-08-07T08:45:01.252Z",
   "townSlug": "dartford",
   "countySlug": "kent",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "DARTFORD"
+  ],
   "marketSnapshot": {
     "medianPrice": 363000,
-    "transactionCount12m": 1243,
+    "transactionCount12m": 1221,
     "yoyPriceChange": -0.5,
     "approvedApps12m": 0,
-    "pipelineUnits": 222,
-    "pipelineGdv": 56784500,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 1520,
+    "pipelineGdv": 536452000,
     "approvalRate": 0
   }
 }

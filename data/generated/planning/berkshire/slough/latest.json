@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-02T04:39:21.097Z",
+  "updatedAt": "2026-08-07T08:02:31.787Z",
   "townSlug": "slough",
   "countySlug": "berkshire",
   "localAuthority": "Slough Borough Council",
   "source": "agile",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-02",
-    "to": "2026-08-02",
-    "retrievedAt": "2026-08-02T04:39:21.096Z"
+    "from": "2026-05-07",
+    "to": "2026-08-07",
+    "retrievedAt": "2026-08-07T08:02:31.787Z"
   },
   "summary": {
-    "total": 13,
-    "relevant": 4,
+    "total": 12,
+    "relevant": 3,
     "approved": 1,
-    "pending": 3,
+    "pending": 2,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 2,
@@ -26,27 +26,6 @@
   },
   "approvedApplications": [
     {
-      "reference": "P/20874/001",
-      "address": "42, High Street, Colnbrook, Slough, SL3 0JZ",
-      "postcode": "SL3 0JZ",
-      "ward": "Colnbrook-and-Poyle",
-      "proposal": "Creation of dropped kerb to existing vehicle access.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "Approved with Conditions; Informatives",
-      "receivedDate": "06/05/2026",
-      "decisionDate": "30/06/2026",
-      "applicantName": "B&V Investment Ltd",
-      "applicantCompany": "B&V Investment Ltd",
-      "agentName": "Mr Sidhu",
-      "agentCompany": "",
-      "sourceUrl": ""
-    }
-  ],
-  "pendingApplications": [
-    {
       "reference": "P/19000/001",
       "address": "Unit 1, 26, High Street, Slough, SL1 1EQ",
       "postcode": "SL1 1EQ",
@@ -56,15 +35,17 @@
       "units": null,
       "estimatedGdv": null,
       "status": "",
-      "decision": "",
+      "decision": "Approved with Conditions; Informatives",
       "receivedDate": "12/06/2026",
-      "decisionDate": "",
+      "decisionDate": "03/08/2026",
       "applicantName": "2EE26 Slough Ltd",
       "applicantCompany": "2EE26 Slough Ltd",
       "agentName": "Zyntax Chartered Architects",
       "agentCompany": "",
       "sourceUrl": ""
-    },
+    }
+  ],
+  "pendingApplications": [
     {
       "reference": "P/03007/004",
       "address": "143, High Street, Langley, Slough, SL3 8LP",

@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.138Z",
+  "updatedAt": "2026-08-07T08:45:01.573Z",
   "townSlug": "high-wycombe",
   "countySlug": "buckinghamshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BUCKINGHAMSHIRE",
+    "WYCOMBE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 425000,
-    "transactionCount12m": 1370,
-    "yoyPriceChange": 1.2,
+    "medianPrice": 430000,
+    "transactionCount12m": 1329,
+    "yoyPriceChange": 2.4,
     "approvedApps12m": 0,
-    "pipelineUnits": 294,
-    "pipelineGdv": 124362000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 254,
+    "pipelineGdv": 107138000,
     "approvalRate": 0
   }
 }

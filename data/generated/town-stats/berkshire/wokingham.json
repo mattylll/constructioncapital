@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.105Z",
+  "updatedAt": "2026-08-07T08:45:01.544Z",
   "townSlug": "wokingham",
   "countySlug": "berkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WOKINGHAM"
+  ],
   "marketSnapshot": {
     "medianPrice": 475000,
-    "transactionCount12m": 1864,
-    "yoyPriceChange": -3.1,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "transactionCount12m": 1798,
+    "yoyPriceChange": -4,
+    "approvedApps12m": 2,
+    "approvedRecent": 2,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 580,
+    "pipelineGdv": 275500000,
+    "approvalRate": 100
   }
 }

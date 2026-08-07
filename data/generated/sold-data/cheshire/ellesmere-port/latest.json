@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.891Z",
+  "updatedAt": "2026-08-07T08:45:03.107Z",
   "townSlug": "ellesmere-port",
   "countySlug": "cheshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CHESHIRE WEST AND CHESTER"
+  ],
   "stats": {
     "medianPrice": 200000,
     "medianByType": {
-      "D": 325000,
-      "S": 204000,
+      "D": 320000,
+      "S": 205000,
       "T": 155000,
       "F": 100000
     },
-    "transactionCount12m": 659,
-    "yoyChange": 1,
-    "newBuildCount": 2,
-    "existingCount": 657,
-    "newBuildPremium": null
+    "transactionCount12m": 689,
+    "yoyChange": 1.3,
+    "newBuildCount": 6,
+    "existingCount": 683,
+    "newBuildPremium": 43.7
   },
   "recentTransactions": [
     {
-      "price": 218000,
-      "date": "2026-05-22",
-      "postcode": "CH66 4UY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, INNISFREE CLOSE"
-    },
-    {
-      "price": 35000,
-      "date": "2026-05-20",
-      "postcode": "CH66 4UT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CHALFIELD AVENUE"
-    },
-    {
-      "price": 477715,
-      "date": "2026-05-19",
-      "postcode": "CH66 2ES",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, KELMSCOTT CLOSE"
-    },
-    {
-      "price": 107000,
-      "date": "2026-05-15",
-      "postcode": "CH65 8BW",
+      "price": 207500,
+      "date": "2026-06-26",
+      "postcode": "CH65 4DF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, ASHFIELD ROAD"
+      "address": "21, LINACRE CLOSE"
     },
     {
-      "price": 164500,
-      "date": "2026-05-15",
-      "postcode": "CH66 2UH",
-      "propertyType": "S",
+      "price": 126000,
+      "date": "2026-06-26",
+      "postcode": "CH65 8AW",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, LARCHDALE CLOSE"
+      "address": "12, EXETER ROAD"
     },
     {
-      "price": 110000,
-      "date": "2026-05-15",
-      "postcode": "CH65 2EY",
+      "price": 100000,
+      "date": "2026-06-19",
+      "postcode": "CH65 7DL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, SUTTON WAY"
+    },
+    {
+      "price": 120000,
+      "date": "2026-06-19",
+      "postcode": "CH65 4FY",
       "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "10, WHITEMERE COURT"
+      "tenure": "L",
+      "address": "7, CEDAR POINT, RADDLE WHARF"
     },
     {
-      "price": 732500,
-      "date": "2026-05-15",
-      "postcode": "CH66 1QS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, LINKS AVENUE"
-    },
-    {
-      "price": 245000,
-      "date": "2026-05-15",
-      "postcode": "CH66 4LF",
-      "propertyType": "S",
+      "price": 135000,
+      "date": "2026-06-19",
+      "postcode": "CH65 4FY",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "78, GREEN LANE"
+      "address": "8, CEDAR POINT, RADDLE WHARF"
     },
     {
-      "price": 446250,
-      "date": "2026-05-15",
-      "postcode": "CH65 6TH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, DEESIDE CLOSE"
-    },
-    {
-      "price": 245000,
-      "date": "2026-05-15",
-      "postcode": "CH66 2JN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, HORSTONE ROAD"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-13",
-      "postcode": "CH66 2XD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ST MARKS CRESCENT"
-    },
-    {
-      "price": 104000,
-      "date": "2026-05-13",
-      "postcode": "CH65 2EJ",
+      "price": 185000,
+      "date": "2026-06-19",
+      "postcode": "CH65 4DG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "104, GRACE ROAD"
+      "address": "4, DARWIN ROW"
     },
     {
-      "price": 205000,
-      "date": "2026-05-11",
-      "postcode": "CH66 2SG",
+      "price": 246000,
+      "date": "2026-06-19",
+      "postcode": "CH66 2RY",
       "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "3, ANTRIM DRIVE"
+      "tenure": "F",
+      "address": "50, ARCHERS WAY"
     },
     {
-      "price": 345000,
-      "date": "2026-05-11",
-      "postcode": "CH65 6UF",
+      "price": 320000,
+      "date": "2026-06-19",
+      "postcode": "CH66 2XA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, ACORN DRIVE"
+      "address": "107, BLACKTHORNE AVENUE"
     },
     {
-      "price": 95000,
-      "date": "2026-05-08",
-      "postcode": "CH65 8AE",
+      "price": 211000,
+      "date": "2026-06-15",
+      "postcode": "CH66 2QA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, ROSTHERNE AVENUE"
+    },
+    {
+      "price": 137500,
+      "date": "2026-06-15",
+      "postcode": "CH66 1LY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "126, SEYMOUR DRIVE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-15",
+      "postcode": "CH66 4LH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, ADAM AVENUE"
+    },
+    {
+      "price": 135000,
+      "date": "2026-06-12",
+      "postcode": "CH66 4PG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "38, WHITBY ROAD"
+      "address": "15, DUDLESTON ROAD"
     },
     {
-      "price": 225000,
-      "date": "2026-05-07",
-      "postcode": "CH65 9LL",
+      "price": 168500,
+      "date": "2026-06-12",
+      "postcode": "CH65 2AW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "77, MERSEYTON ROAD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-11",
+      "postcode": "CH66 2PA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, ST KILDA CLOSE"
+      "address": "5, BEECH GROVE"
     },
     {
-      "price": 190000,
-      "date": "2026-05-07",
-      "postcode": "CH66 4QX",
+      "price": 195000,
+      "date": "2026-06-10",
+      "postcode": "CH66 3SZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "44, BAKER DRIVE"
+      "address": "26, FOXDENE"
     },
     {
-      "price": 177000,
-      "date": "2026-05-06",
-      "postcode": "CH65 0AA",
-      "propertyType": "O",
+      "price": 180000,
+      "date": "2026-06-05",
+      "postcode": "CH65 6SJ",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "66, WHITBY ROAD"
+      "address": "2, CASTLE DRIVE"
     },
     {
       "price": 155000,
-      "date": "2026-05-06",
-      "postcode": "CH66 1NP",
+      "date": "2026-06-05",
+      "postcode": "CH65 8EF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, KRONSBEC AVENUE"
+      "address": "39, ALDGATE"
     },
     {
-      "price": 147000,
-      "date": "2026-05-05",
-      "postcode": "CH65 8AA",
-      "propertyType": "O",
+      "price": 130000,
+      "date": "2026-06-05",
+      "postcode": "CH66 1LZ",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "17, WHITBY ROAD"
+      "tenure": "F",
+      "address": "15, SEYMOUR DRIVE"
+    },
+    {
+      "price": 227000,
+      "date": "2026-06-05",
+      "postcode": "CH66 2RX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, ARCHERS WAY"
+    },
+    {
+      "price": 324277,
+      "date": "2026-06-05",
+      "postcode": "CH65 3ER",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, SERENITY AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -227,8 +230,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 213500,
-      "transactions": 106
+      "medianPrice": 215000,
+      "transactions": 107
     },
     {
       "month": "2024-07",
@@ -267,13 +270,13 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 198998,
-      "transactions": 98
+      "medianPrice": 198000,
+      "transactions": 99
     },
     {
       "month": "2025-03",
-      "medianPrice": 215000,
-      "transactions": 137
+      "medianPrice": 216250,
+      "transactions": 140
     },
     {
       "month": "2025-04",
@@ -288,62 +291,67 @@
     {
       "month": "2025-06",
       "medianPrice": 210000,
-      "transactions": 81
+      "transactions": 82
     },
     {
       "month": "2025-07",
-      "medianPrice": 194250,
-      "transactions": 82
+      "medianPrice": 195000,
+      "transactions": 83
     },
     {
       "month": "2025-08",
       "medianPrice": 190000,
-      "transactions": 69
+      "transactions": 78
     },
     {
       "month": "2025-09",
       "medianPrice": 190000,
-      "transactions": 90
+      "transactions": 97
     },
     {
       "month": "2025-10",
-      "medianPrice": 208000,
-      "transactions": 76
+      "medianPrice": 199500,
+      "transactions": 82
     },
     {
       "month": "2025-11",
-      "medianPrice": 220000,
-      "transactions": 63
+      "medianPrice": 225000,
+      "transactions": 67
     },
     {
       "month": "2025-12",
-      "medianPrice": 222500,
-      "transactions": 72
+      "medianPrice": 220000,
+      "transactions": 83
     },
     {
       "month": "2026-01",
-      "medianPrice": 191000,
-      "transactions": 45
+      "medianPrice": 187000,
+      "transactions": 49
     },
     {
       "month": "2026-02",
       "medianPrice": 202500,
-      "transactions": 48
+      "transactions": 50
     },
     {
       "month": "2026-03",
-      "medianPrice": 193000,
-      "transactions": 48
+      "medianPrice": 185500,
+      "transactions": 54
     },
     {
       "month": "2026-04",
-      "medianPrice": 180500,
-      "transactions": 55
+      "medianPrice": 181500,
+      "transactions": 60
     },
     {
       "month": "2026-05",
-      "medianPrice": 185000,
-      "transactions": 28
+      "medianPrice": 188000,
+      "transactions": 51
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 206500,
+      "transactions": 27
     }
   ],
   "quarterlyHistory": [
@@ -354,8 +362,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 191250,
-      "transactions": 258
+      "medianPrice": 192500,
+      "transactions": 259
     },
     {
       "quarter": "2024-Q3",
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 200000,
-      "transactions": 324
+      "transactions": 328
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 190000,
-      "transactions": 217
+      "transactions": 218
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 190500,
-      "transactions": 241
+      "medianPrice": 192000,
+      "transactions": 258
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 215000,
-      "transactions": 211
+      "medianPrice": 210250,
+      "transactions": 232
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 200000,
-      "transactions": 141
+      "medianPrice": 192500,
+      "transactions": 153
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 180500,
-      "transactions": 83
+      "medianPrice": 185000,
+      "transactions": 138
     }
   ]
 }

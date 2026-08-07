@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.788Z",
+  "updatedAt": "2026-08-07T08:45:01.245Z",
   "townSlug": "gravesend",
   "countySlug": "kent",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GRAVESHAM"
+  ],
   "marketSnapshot": {
-    "medianPrice": 355000,
-    "transactionCount12m": 933,
+    "medianPrice": 350000,
+    "transactionCount12m": 941,
     "yoyPriceChange": 2.9,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "approvedApps12m": 1,
+    "approvedRecent": 1,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 13,
+    "pipelineGdv": 2814950,
+    "approvalRate": 100
   }
 }

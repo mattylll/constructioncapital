@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.903Z",
+  "updatedAt": "2026-08-07T08:45:03.122Z",
   "townSlug": "barrow-in-furness",
   "countySlug": "cumbria",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WESTMORLAND AND FURNESS",
+    "BARROW-IN-FURNESS"
+  ],
   "stats": {
-    "medianPrice": 145000,
+    "medianPrice": 147000,
     "medianByType": {
-      "D": 322500,
-      "S": 215000,
+      "D": 322750,
+      "S": 220000,
       "T": 115000,
-      "F": 69975
+      "F": 67000
     },
-    "transactionCount12m": 813,
+    "transactionCount12m": 815,
     "yoyChange": 1.4,
-    "newBuildCount": 3,
-    "existingCount": 810,
-    "newBuildPremium": 124.1
+    "newBuildCount": 2,
+    "existingCount": 813,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 132500,
-      "date": "2026-05-27",
-      "postcode": "LA14 5TP",
+      "price": 112000,
+      "date": "2026-06-29",
+      "postcode": "LA14 3BP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "76, CHATSWORTH STREET"
+      "address": "91, DOMINION STREET"
     },
     {
-      "price": 79950,
-      "date": "2026-05-26",
-      "postcode": "LA13 9RT",
+      "price": 158000,
+      "date": "2026-06-26",
+      "postcode": "LA14 3EL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "72, WORCESTER STREET"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-19",
-      "postcode": "LA14 2AH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, RUSKIN TERRACE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-18",
-      "postcode": "LA13 9PY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "71, DEVON STREET"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-15",
-      "postcode": "LA14 5HS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1 - 3, LINCOLN STREET"
+      "address": "18, AVON STREET"
     },
     {
       "price": 170000,
-      "date": "2026-05-15",
-      "postcode": "LA13 0EE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "141, ROOSE ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-15",
-      "postcode": "LA14 5WD",
+      "date": "2026-06-26",
+      "postcode": "LA14 3JQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, VICTORIA COURT, OXFORD STREET"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-15",
-      "postcode": "LA14 3LE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, DOVER STREET"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-15",
-      "postcode": "LA14 5NE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MANX VIEW, DEVONSHIRE ROAD"
-    },
-    {
-      "price": 83000,
-      "date": "2026-05-14",
-      "postcode": "LA14 2BP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, PENRITH STREET"
-    },
-    {
-      "price": 60000,
-      "date": "2026-05-13",
-      "postcode": "LA13 0DX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, BROADWAY"
-    },
-    {
-      "price": 90000,
-      "date": "2026-05-12",
-      "postcode": "LA14 5RY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, GRANVILLE STREET"
-    },
-    {
-      "price": 475000,
-      "date": "2026-05-11",
-      "postcode": "LA14 4HS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "128, HAWCOAT LANE"
-    },
-    {
-      "price": 205000,
-      "date": "2026-05-11",
-      "postcode": "LA13 0GP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, FARNHAM CLOSE"
-    },
-    {
-      "price": 130000,
-      "date": "2026-05-11",
-      "postcode": "LA14 5NZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, HIGHFIELD ROAD"
+      "address": "28, FALMOUTH STREET"
     },
     {
       "price": 325000,
-      "date": "2026-05-11",
-      "postcode": "LA13 0DD",
+      "date": "2026-06-23",
+      "postcode": "LA14 3HX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, RIVERSIDE GARDENS"
+      "address": "85, CENTRAL DRIVE"
     },
     {
-      "price": 355500,
-      "date": "2026-05-11",
-      "postcode": "LA13 0DD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, RIVERSIDE GARDENS"
-    },
-    {
-      "price": 114000,
-      "date": "2026-05-08",
-      "postcode": "LA13 0NN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, SUNNYBANK, LONG LANE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-08",
-      "postcode": "LA14 4HH",
+      "price": 240000,
+      "date": "2026-06-22",
+      "postcode": "LA14 3TH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, COWLARNS ROAD"
+      "address": "24, HAVERIGG GARDENS"
     },
     {
-      "price": 330000,
-      "date": "2026-05-08",
-      "postcode": "LA13 0RB",
+      "price": 287000,
+      "date": "2026-06-19",
+      "postcode": "LA14 3FE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, STONETHWAITE COURT"
+    },
+    {
+      "price": 80000,
+      "date": "2026-06-18",
+      "postcode": "LA14 2HW",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "97 - 99, CHURCH STREET"
+    },
+    {
+      "price": 52500,
+      "date": "2026-06-18",
+      "postcode": "LA13 0BS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, ABBOTSMEAD APPROACH"
+    },
+    {
+      "price": 74000,
+      "date": "2026-06-15",
+      "postcode": "LA14 2BD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, NEW STREET"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-15",
+      "postcode": "LA14 5BP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, QUANTOCK GREEN"
+    },
+    {
+      "price": 137000,
+      "date": "2026-06-15",
+      "postcode": "LA14 3NU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, DARENT AVENUE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-15",
+      "postcode": "LA14 1BQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, POPLAR BANK"
+      "address": "135, MARSH STREET"
+    },
+    {
+      "price": 100000,
+      "date": "2026-06-12",
+      "postcode": "LA14 4HU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CLIFFE LANE"
+    },
+    {
+      "price": 90000,
+      "date": "2026-06-12",
+      "postcode": "LA14 2EB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "74, SMEATON STREET"
+    },
+    {
+      "price": 93000,
+      "date": "2026-06-12",
+      "postcode": "LA13 9TE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CONSETT STREET"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-11",
+      "postcode": "LA13 9AW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, JESMOND AVENUE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-11",
+      "postcode": "LA14 5SP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, ST JAMES GARDENS"
+    },
+    {
+      "price": 159950,
+      "date": "2026-06-09",
+      "postcode": "LA13 9PD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, ABBOTS VALE"
+    },
+    {
+      "price": 301000,
+      "date": "2026-06-08",
+      "postcode": "LA13 0GP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, FARNHAM CLOSE"
+    },
+    {
+      "price": 72500,
+      "date": "2026-06-05",
+      "postcode": "LA14 2NN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, KEITH STREET"
     }
   ],
   "monthlyHistory": [
@@ -293,37 +297,37 @@
     {
       "month": "2025-07",
       "medianPrice": 130000,
-      "transactions": 97
+      "transactions": 98
     },
     {
       "month": "2025-08",
-      "medianPrice": 147500,
-      "transactions": 89
+      "medianPrice": 148750,
+      "transactions": 90
     },
     {
       "month": "2025-09",
-      "medianPrice": 145250,
-      "transactions": 84
+      "medianPrice": 145500,
+      "transactions": 87
     },
     {
       "month": "2025-10",
       "medianPrice": 151500,
-      "transactions": 86
+      "transactions": 90
     },
     {
       "month": "2025-11",
-      "medianPrice": 129950,
-      "transactions": 79
+      "medianPrice": 129975,
+      "transactions": 80
     },
     {
       "month": "2025-12",
-      "medianPrice": 136000,
-      "transactions": 77
+      "medianPrice": 140000,
+      "transactions": 84
     },
     {
       "month": "2026-01",
-      "medianPrice": 163750,
-      "transactions": 78
+      "medianPrice": 150000,
+      "transactions": 87
     },
     {
       "month": "2026-02",
@@ -332,18 +336,23 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 139975,
-      "transactions": 92
+      "medianPrice": 139950,
+      "transactions": 95
     },
     {
       "month": "2026-04",
-      "medianPrice": 148975,
-      "transactions": 46
+      "medianPrice": 148000,
+      "transactions": 49
     },
     {
       "month": "2026-05",
       "medianPrice": 159000,
-      "transactions": 33
+      "transactions": 61
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 140000,
+      "transactions": 31
     }
   ],
   "quarterlyHistory": [
@@ -380,22 +389,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 140000,
-      "transactions": 270
+      "transactions": 275
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 140000,
-      "transactions": 242
+      "medianPrice": 142500,
+      "transactions": 254
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 152500,
-      "transactions": 238
+      "medianPrice": 150000,
+      "transactions": 250
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 149950,
-      "transactions": 79
+      "medianPrice": 148000,
+      "transactions": 141
     }
   ]
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.819Z",
+  "updatedAt": "2026-08-07T08:45:03.023Z",
   "townSlug": "southport",
   "countySlug": "merseyside",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SEFTON"
+  ],
   "stats": {
     "medianPrice": 215000,
     "medianByType": {
-      "D": 355000,
-      "S": 219998,
-      "T": 185000,
-      "F": 130000
+      "D": 362500,
+      "S": 220000,
+      "T": 182250,
+      "F": 131750
     },
-    "transactionCount12m": 1131,
-    "yoyChange": 2.4,
+    "transactionCount12m": 1147,
+    "yoyChange": 1.9,
     "newBuildCount": 10,
-    "existingCount": 1121,
+    "existingCount": 1137,
     "newBuildPremium": 32.6
   },
   "recentTransactions": [
     {
-      "price": 100000,
-      "date": "2026-05-27",
-      "postcode": "PR8 6BT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, HART STREET"
-    },
-    {
-      "price": 94000,
-      "date": "2026-05-22",
-      "postcode": "PR8 6JE",
+      "price": 71666,
+      "date": "2026-06-24",
+      "postcode": "PR8 2EB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "46B, ASH STREET"
+      "address": "FLAT 2, 13, REGENT ROAD"
     },
     {
-      "price": 390000,
-      "date": "2026-05-22",
-      "postcode": "PR8 2SB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, ROTHWELL DRIVE"
-    },
-    {
-      "price": 495000,
-      "date": "2026-05-22",
-      "postcode": "PR8 6JA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, LETHBRIDGE ROAD"
-    },
-    {
-      "price": 158000,
-      "date": "2026-05-20",
-      "postcode": "PR9 8JD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "247, RUFFORD ROAD"
-    },
-    {
-      "price": 135000,
-      "date": "2026-05-19",
-      "postcode": "PR9 0RB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, ASHLEY ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-18",
-      "postcode": "PR8 6XD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, RUDDINGTON ROAD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-15",
-      "postcode": "PR8 3TQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, THURSBY CLOSE"
-    },
-    {
-      "price": 136000,
-      "date": "2026-05-15",
-      "postcode": "PR9 9HB",
+      "price": 39500,
+      "date": "2026-06-22",
+      "postcode": "PR9 0JL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 5, 51, QUEENS ROAD"
-    },
-    {
-      "price": 202000,
-      "date": "2026-05-14",
-      "postcode": "PR8 6JP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, DODWORTH AVENUE"
-    },
-    {
-      "price": 196500,
-      "date": "2026-05-11",
-      "postcode": "PR9 7QR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, MOSS LANE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-11",
-      "postcode": "PR9 0JP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, LATHOM ROAD"
-    },
-    {
-      "price": 202500,
-      "date": "2026-05-08",
-      "postcode": "PR8 6UL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, INGLETON ROAD"
-    },
-    {
-      "price": 39999,
-      "date": "2026-05-08",
-      "postcode": "PR8 2DG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 22, HOMECHASE HOUSE, CHASE CLOSE"
+      "address": "FLAT A, 130, LEYLAND ROAD"
     },
     {
       "price": 250000,
-      "date": "2026-05-08",
-      "postcode": "PR8 3NN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2A, STAVELEY ROAD"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-07",
-      "postcode": "PR8 2DN",
+      "date": "2026-06-19",
+      "postcode": "PR8 2BH",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT, 40, VICTORIA COURT"
+      "address": "FLAT 2, SOUTH HILL, 9A, LORD STREET WEST"
     },
     {
-      "price": 310000,
-      "date": "2026-05-05",
-      "postcode": "PR9 0NZ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ADELPHI CHAMBERS, HOGHTON STREET"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-05",
-      "postcode": "PR8 5ES",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, WARWICK STREET"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-05",
-      "postcode": "PR9 8HU",
+      "price": 185000,
+      "date": "2026-06-17",
+      "postcode": "PR8 6PR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "146, RUFFORD ROAD"
+      "address": "19, RIVERMEADE"
     },
     {
-      "price": 110000,
-      "date": "2026-05-01",
-      "postcode": "PR9 8HX",
+      "price": 285000,
+      "date": "2026-06-17",
+      "postcode": "PR8 6UH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, FORDHAM CLOSE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-12",
+      "postcode": "PR9 0NR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, CASTLE STREET"
+    },
+    {
+      "price": 262500,
+      "date": "2026-06-12",
+      "postcode": "PR8 2LF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 11, LANCASTER GARDENS, LANCASTER ROAD"
+    },
+    {
+      "price": 50000,
+      "date": "2026-06-12",
+      "postcode": "PR8 1ND",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 33, THE ANCHORAGE, 23, KINGSWAY"
+    },
+    {
+      "price": 78000,
+      "date": "2026-06-11",
+      "postcode": "PR9 7RL",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, CROWLAND STREET"
+    },
+    {
+      "price": 95000,
+      "date": "2026-06-09",
+      "postcode": "PR9 0JU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 8, REGENCY COURT, 29, PARK ROAD WEST"
+    },
+    {
+      "price": 155000,
+      "date": "2026-06-09",
+      "postcode": "PR9 9PX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "90, CHURCHILL AVENUE"
+    },
+    {
+      "price": 75000,
+      "date": "2026-06-08",
+      "postcode": "PR8 6QF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, LAND LANE"
+      "address": "31A, SCARISBRICK NEW ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-08",
+      "postcode": "PR8 2FB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1, CARNOUSTIE CLOSE"
+    },
+    {
+      "price": 430000,
+      "date": "2026-06-08",
+      "postcode": "PR8 2NY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, SANDRINGHAM ROAD"
+    },
+    {
+      "price": 157500,
+      "date": "2026-06-08",
+      "postcode": "PR9 0JS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, NORTHFIELD, 12, PARK ROAD WEST"
+    },
+    {
+      "price": 510000,
+      "date": "2026-06-08",
+      "postcode": "PR8 2QE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, CHATSWORTH ROAD"
+    },
+    {
+      "price": 82500,
+      "date": "2026-06-08",
+      "postcode": "PR9 9LJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 10, WESTDENE, 39, PARK CRESCENT"
+    },
+    {
+      "price": 1300000,
+      "date": "2026-06-05",
+      "postcode": "PR8 2NN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, GREENBANK DRIVE"
+    },
+    {
+      "price": 170000,
+      "date": "2026-06-05",
+      "postcode": "PR8 5AN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "140, SHAKESPEARE STREET"
+    },
+    {
+      "price": 45000,
+      "date": "2026-06-05",
+      "postcode": "PR9 9JU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "42, HOMESANDS HOUSE, PARK ROAD"
     }
   ],
   "monthlyHistory": [
@@ -218,7 +221,7 @@
     {
       "month": "2024-04",
       "medianPrice": 190000,
-      "transactions": 129
+      "transactions": 130
     },
     {
       "month": "2024-05",
@@ -227,8 +230,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 181000,
-      "transactions": 138
+      "medianPrice": 182000,
+      "transactions": 139
     },
     {
       "month": "2024-07",
@@ -278,7 +281,7 @@
     {
       "month": "2025-04",
       "medianPrice": 190000,
-      "transactions": 74
+      "transactions": 75
     },
     {
       "month": "2025-05",
@@ -293,57 +296,62 @@
     {
       "month": "2025-07",
       "medianPrice": 205000,
-      "transactions": 131
+      "transactions": 133
     },
     {
       "month": "2025-08",
-      "medianPrice": 230000,
-      "transactions": 158
+      "medianPrice": 239000,
+      "transactions": 167
     },
     {
       "month": "2025-09",
       "medianPrice": 222475,
-      "transactions": 112
+      "transactions": 118
     },
     {
       "month": "2025-10",
-      "medianPrice": 217500,
-      "transactions": 158
+      "medianPrice": 215000,
+      "transactions": 164
     },
     {
       "month": "2025-11",
-      "medianPrice": 215000,
-      "transactions": 112
+      "medianPrice": 217500,
+      "transactions": 116
     },
     {
       "month": "2025-12",
-      "medianPrice": 218000,
-      "transactions": 103
+      "medianPrice": 220000,
+      "transactions": 119
     },
     {
       "month": "2026-01",
-      "medianPrice": 205000,
-      "transactions": 83
+      "medianPrice": 200000,
+      "transactions": 93
     },
     {
       "month": "2026-02",
       "medianPrice": 220000,
-      "transactions": 85
+      "transactions": 93
     },
     {
       "month": "2026-03",
-      "medianPrice": 222500,
-      "transactions": 108
+      "medianPrice": 220000,
+      "transactions": 113
     },
     {
       "month": "2026-04",
-      "medianPrice": 201475,
-      "transactions": 78
+      "medianPrice": 205000,
+      "transactions": 84
     },
     {
       "month": "2026-05",
-      "medianPrice": 170000,
-      "transactions": 25
+      "medianPrice": 220000,
+      "transactions": 72
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 172500,
+      "transactions": 34
     }
   ],
   "quarterlyHistory": [
@@ -355,7 +363,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 195000,
-      "transactions": 403
+      "transactions": 405
     },
     {
       "quarter": "2024-Q3",
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 187000,
-      "transactions": 299
+      "medianPrice": 187250,
+      "transactions": 300
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 219995,
-      "transactions": 401
+      "medianPrice": 220000,
+      "transactions": 418
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 217000,
-      "transactions": 373
+      "medianPrice": 218000,
+      "transactions": 399
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 212750,
-      "transactions": 276
+      "medianPrice": 210000,
+      "transactions": 299
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 196500,
-      "transactions": 103
+      "medianPrice": 202250,
+      "transactions": 190
     }
   ]
 }

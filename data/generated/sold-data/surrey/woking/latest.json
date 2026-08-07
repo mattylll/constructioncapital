@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.196Z",
+  "updatedAt": "2026-08-07T08:45:01.300Z",
   "townSlug": "woking",
   "countySlug": "surrey",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WOKING"
+  ],
   "stats": {
-    "medianPrice": 430000,
+    "medianPrice": 425000,
     "medianByType": {
-      "D": 750000,
-      "S": 470000,
+      "D": 755000,
+      "S": 464000,
       "T": 385000,
       "F": 250000
     },
-    "transactionCount12m": 1205,
-    "yoyChange": -2.7,
-    "newBuildCount": 89,
-    "existingCount": 1116,
-    "newBuildPremium": -25.3
+    "transactionCount12m": 1194,
+    "yoyChange": -4.5,
+    "newBuildCount": 86,
+    "existingCount": 1108,
+    "newBuildPremium": -24.4
   },
   "recentTransactions": [
     {
-      "price": 390000,
-      "date": "2026-05-22",
-      "postcode": "GU22 9LQ",
-      "propertyType": "S",
+      "price": 345000,
+      "date": "2026-06-29",
+      "postcode": "GU21 7QD",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "4, HIPLEY STREET"
+      "tenure": "L",
+      "address": "5, DALE VIEW"
     },
     {
-      "price": 595000,
-      "date": "2026-05-21",
-      "postcode": "GU22 9AW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, ELMBRIDGE LANE"
-    },
-    {
-      "price": 405000,
-      "date": "2026-05-20",
-      "postcode": "GU21 6DP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "95, VALE FARM ROAD"
-    },
-    {
-      "price": 365500,
-      "date": "2026-05-19",
-      "postcode": "GU21 8TF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, LANSDOWN CLOSE"
-    },
-    {
-      "price": 510000,
-      "date": "2026-05-19",
-      "postcode": "GU21 2RJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ORCHARD MEWS"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-19",
-      "postcode": "GU21 3LA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, NEWSHAM ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-18",
+      "price": 222000,
+      "date": "2026-06-26",
       "postcode": "GU21 5FT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "4, RIVER COURT"
+      "address": "41, RIVER COURT"
     },
     {
-      "price": 225000,
-      "date": "2026-05-15",
-      "postcode": "GU21 6NH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 20, THE OLD DAIRY, 98, GOLDSWORTH ROAD"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-15",
-      "postcode": "GU22 7EN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 8, 3, YORK ROAD"
-    },
-    {
-      "price": 440000,
-      "date": "2026-05-15",
-      "postcode": "GU22 7TL",
-      "propertyType": "T",
+      "price": 436000,
+      "date": "2026-06-22",
+      "postcode": "GU21 3PJ",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, CAVENHAM CLOSE"
+      "address": "19, MARTINDALE ROAD"
     },
     {
-      "price": 467000,
-      "date": "2026-05-15",
-      "postcode": "GU21 2AD",
+      "price": 568000,
+      "date": "2026-06-22",
+      "postcode": "KT14 6AW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56, WOODLANDS AVENUE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-19",
+      "postcode": "GU22 9HL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, LANGLEY COTTAGES"
+      "address": "3, FARM ROAD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-18",
+      "postcode": "GU21 3HY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, ALLOWAY CLOSE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-18",
+      "postcode": "GU22 7SL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "16, DAVOS CLOSE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-06-15",
+      "postcode": "GU21 5HR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 6, THE VILLAS, 7, PORTUGAL ROAD"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-12",
+      "postcode": "KT14 6BH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, ORCHARD DENE, MADEIRA ROAD"
+    },
+    {
+      "price": 530000,
+      "date": "2026-06-12",
+      "postcode": "GU22 8LJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, BROWNE CLOSE"
+    },
+    {
+      "price": 749000,
+      "date": "2026-06-12",
+      "postcode": "GU21 2AH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, VICTORIA ROAD"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-12",
+      "postcode": "GU21 6NY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, DE LARA WAY"
+    },
+    {
+      "price": 530000,
+      "date": "2026-06-12",
+      "postcode": "GU21 8TT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "122, HERMITAGE ROAD"
+    },
+    {
+      "price": 238000,
+      "date": "2026-06-12",
+      "postcode": "GU22 7NQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "39, MEADSIDE, PARK DRIVE"
     },
     {
       "price": 360000,
-      "date": "2026-05-15",
-      "postcode": "GU21 3BP",
+      "date": "2026-06-11",
+      "postcode": "GU22 9YZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, EASTMEAD"
+      "address": "5, PRIESTLY GARDENS"
     },
     {
-      "price": 335000,
-      "date": "2026-05-15",
-      "postcode": "GU21 3QY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, LANGMANS WAY"
-    },
-    {
-      "price": 746500,
-      "date": "2026-05-15",
-      "postcode": "GU22 7SZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, TAMERTON SQUARE"
-    },
-    {
-      "price": 153000,
-      "date": "2026-05-14",
-      "postcode": "GU21 3LL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "27, VERYAN"
-    },
-    {
-      "price": 675500,
-      "date": "2026-05-14",
-      "postcode": "KT14 6AN",
+      "price": 1125000,
+      "date": "2026-06-11",
+      "postcode": "GU22 0AH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "76A, HOLLIES AVENUE"
+      "address": "GLENHOLME, WYCH HILL LANE"
     },
     {
-      "price": 548500,
-      "date": "2026-05-13",
-      "postcode": "GU21 4QL",
+      "price": 432500,
+      "date": "2026-06-11",
+      "postcode": "GU21 8TT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, PARES CLOSE"
+      "address": "140, HERMITAGE ROAD"
     },
     {
-      "price": 550000,
-      "date": "2026-05-12",
-      "postcode": "GU22 9BS",
+      "price": 1375000,
+      "date": "2026-06-11",
+      "postcode": "KT14 6RE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE FIRS, LINDEN WAY"
+      "address": "ALVERSTONE, PYRFORD ROAD"
     },
     {
-      "price": 700000,
-      "date": "2026-05-11",
-      "postcode": "GU21 4XR",
-      "propertyType": "D",
+      "price": 320000,
+      "date": "2026-06-09",
+      "postcode": "GU22 7QB",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "FISTRAL, LITTLEWICK ROAD"
+      "tenure": "L",
+      "address": "FLAT 2, BIRTLEY HOUSE, 38, CLAREMONT AVENUE"
     },
     {
-      "price": 780000,
-      "date": "2026-05-11",
-      "postcode": "GU21 7QZ",
-      "propertyType": "D",
+      "price": 407000,
+      "date": "2026-06-09",
+      "postcode": "GU21 2LS",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, HOLLY CLOSE"
+      "address": "79, ROBIN HOOD ROAD"
     }
   ],
   "monthlyHistory": [
@@ -207,8 +210,8 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 400000,
-      "transactions": 105
+      "medianPrice": 403000,
+      "transactions": 106
     },
     {
       "month": "2024-03",
@@ -257,13 +260,13 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 398750,
-      "transactions": 136
+      "medianPrice": 397500,
+      "transactions": 137
     },
     {
       "month": "2025-01",
-      "medianPrice": 445000,
-      "transactions": 118
+      "medianPrice": 450000,
+      "transactions": 119
     },
     {
       "month": "2025-02",
@@ -287,48 +290,48 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 431500,
-      "transactions": 108
+      "medianPrice": 439000,
+      "transactions": 110
     },
     {
       "month": "2025-07",
       "medianPrice": 463750,
-      "transactions": 138
+      "transactions": 140
     },
     {
       "month": "2025-08",
-      "medianPrice": 450000,
-      "transactions": 129
+      "medianPrice": 460000,
+      "transactions": 137
     },
     {
       "month": "2025-09",
       "medianPrice": 430000,
-      "transactions": 132
+      "transactions": 134
     },
     {
       "month": "2025-10",
-      "medianPrice": 475000,
-      "transactions": 134
+      "medianPrice": 467500,
+      "transactions": 140
     },
     {
       "month": "2025-11",
       "medianPrice": 381500,
-      "transactions": 198
+      "transactions": 200
     },
     {
       "month": "2025-12",
       "medianPrice": 410000,
-      "transactions": 123
+      "transactions": 137
     },
     {
       "month": "2026-01",
       "medianPrice": 406000,
-      "transactions": 69
+      "transactions": 83
     },
     {
       "month": "2026-02",
       "medianPrice": 440000,
-      "transactions": 93
+      "transactions": 95
     },
     {
       "month": "2026-03",
@@ -337,20 +340,25 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 410000,
-      "transactions": 85
+      "medianPrice": 415050,
+      "transactions": 92
     },
     {
       "month": "2026-05",
-      "medianPrice": 450000,
-      "transactions": 43
+      "medianPrice": 430000,
+      "transactions": 83
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 436000,
+      "transactions": 39
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 412500,
-      "transactions": 300
+      "medianPrice": 415000,
+      "transactions": 301
     },
     {
       "quarter": "2024-Q2",
@@ -364,38 +372,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 437000,
-      "transactions": 464
+      "medianPrice": 435000,
+      "transactions": 465
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 438000,
-      "transactions": 571
+      "medianPrice": 439000,
+      "transactions": 572
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 425000,
-      "transactions": 235
+      "medianPrice": 430000,
+      "transactions": 237
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 445000,
-      "transactions": 399
+      "medianPrice": 450000,
+      "transactions": 411
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 410000,
-      "transactions": 455
+      "medianPrice": 406000,
+      "transactions": 477
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 427500,
-      "transactions": 244
+      "medianPrice": 425000,
+      "transactions": 260
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 421050,
-      "transactions": 128
+      "medianPrice": 425000,
+      "transactions": 214
     }
   ]
 }

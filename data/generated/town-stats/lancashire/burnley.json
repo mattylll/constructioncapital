@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.575Z",
+  "updatedAt": "2026-08-07T08:45:02.953Z",
   "townSlug": "burnley",
   "countySlug": "lancashire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BURNLEY"
+  ],
   "marketSnapshot": {
-    "medianPrice": 110000,
-    "transactionCount12m": 1289,
-    "yoyPriceChange": -1.8,
+    "medianPrice": 115000,
+    "transactionCount12m": 1261,
+    "yoyPriceChange": 2.2,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

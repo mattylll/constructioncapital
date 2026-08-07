@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:54.752Z",
+  "updatedAt": "2026-08-07T08:45:00.831Z",
   "townSlug": "battersea",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "WANDSWORTH"
+  ],
   "stats": {
-    "medianPrice": 625750,
+    "medianPrice": 620000,
     "medianByType": {
-      "D": 2447500,
-      "S": 1464000,
-      "T": 1042500,
-      "F": 515000
+      "D": 2450000,
+      "S": 1435000,
+      "T": 990000,
+      "F": 505580
     },
-    "transactionCount12m": 3390,
-    "yoyChange": 0.1,
-    "newBuildCount": 88,
-    "existingCount": 3302,
-    "newBuildPremium": 102.8
+    "transactionCount12m": 3375,
+    "yoyChange": -2.7,
+    "newBuildCount": 84,
+    "existingCount": 3291,
+    "newBuildPremium": 113.2
   },
   "recentTransactions": [
     {
-      "price": 370000,
-      "date": "2026-05-22",
-      "postcode": "SW15 2JL",
+      "price": 555000,
+      "date": "2026-06-26",
+      "postcode": "SW11 4FS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "1, ESPIRIT HOUSE, KESWICK ROAD"
+      "address": "50, RADLEY HOUSE, 10, PALMER ROAD"
     },
     {
-      "price": 535000,
-      "date": "2026-05-22",
-      "postcode": "SW15 2FJ",
+      "price": 475000,
+      "date": "2026-06-24",
+      "postcode": "SW19 5PE",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 36, 5, OAKHILL ROAD"
+      "address": "FLAT 17, KINGFISHER COURT, 15, QUEENSMERE ROAD"
     },
     {
-      "price": 600000,
-      "date": "2026-05-21",
-      "postcode": "SW17 8NP",
+      "price": 565000,
+      "date": "2026-06-24",
+      "postcode": "SW11 5PS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, 30, TAYBRIDGE ROAD"
+    },
+    {
+      "price": 242000,
+      "date": "2026-06-23",
+      "postcode": "SW17 6BB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "47, MOLYNEUX DRIVE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-19",
+      "postcode": "SW17 9LD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, 91, LONGLEY ROAD"
+    },
+    {
+      "price": 707000,
+      "date": "2026-06-19",
+      "postcode": "SW16 6BD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, OKEBURN ROAD"
+      "address": "42, BESLEY STREET"
     },
     {
-      "price": 216000,
-      "date": "2026-05-20",
-      "postcode": "SW19 6JN",
+      "price": 586250,
+      "date": "2026-06-19",
+      "postcode": "SW15 4JY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, MEDFIELD STREET"
+    },
+    {
+      "price": 700000,
+      "date": "2026-06-19",
+      "postcode": "SW18 5LB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "2, LYDNEY CLOSE"
+      "address": "427, MERTON ROAD"
     },
     {
-      "price": 415000,
-      "date": "2026-05-20",
-      "postcode": "SW15 2LJ",
+      "price": 240000,
+      "date": "2026-06-19",
+      "postcode": "SW11 4LE",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 3, 18, WERTER ROAD"
+      "address": "FLAT 78, PARK COURT, BATTERSEA PARK ROAD"
     },
     {
-      "price": 315000,
-      "date": "2026-05-19",
-      "postcode": "SW11 5HY",
+      "price": 850000,
+      "date": "2026-06-19",
+      "postcode": "SW18 1PA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 9, LANDSEER HOUSE, FRANCIS CHICHESTER WAY"
+      "address": "GARDEN FLAT, 49, CROMFORD ROAD"
     },
     {
-      "price": 560000,
-      "date": "2026-05-19",
-      "postcode": "SW15 2PA",
+      "price": 960000,
+      "date": "2026-06-19",
+      "postcode": "SW11 8PJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 3, 119, PUTNEY BRIDGE ROAD"
+      "address": "APARTMENT 136, OSWALD BUILDING, 374, QUEENSTOWN ROAD"
     },
     {
-      "price": 380000,
-      "date": "2026-05-19",
-      "postcode": "SW17 0LR",
+      "price": 115000,
+      "date": "2026-06-19",
+      "postcode": "SW11 1EW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 205, DEEPAK HOUSE, 955, GARRATT LANE"
+      "address": "FLAT 2, 19, AUCKLAND ROAD"
     },
     {
-      "price": 756102,
-      "date": "2026-05-18",
-      "postcode": "SW11 1QB",
+      "price": 1500000,
+      "date": "2026-06-18",
+      "postcode": "SW18 1QF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "69, HALDON ROAD"
+    },
+    {
+      "price": 700000,
+      "date": "2026-06-18",
+      "postcode": "SW15 2QB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "41A, COMYN ROAD"
-    },
-    {
-      "price": 730275,
-      "date": "2026-05-18",
-      "postcode": "SW18 3QZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "74, SWABY ROAD"
-    },
-    {
-      "price": 602027,
-      "date": "2026-05-18",
-      "postcode": "SW18 5RW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "154, BALVERNIE GROVE"
-    },
-    {
-      "price": 640000,
-      "date": "2026-05-15",
-      "postcode": "SW15 2DR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, 17, DISRAELI ROAD"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-15",
-      "postcode": "SW15 5DU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "77, QUEEN MARYS HOUSE, 1, HOLFORD WAY"
-    },
-    {
-      "price": 737000,
-      "date": "2026-05-15",
-      "postcode": "SW17 9HD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7A, LOUBET STREET"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-15",
-      "postcode": "SW17 0JE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19A, FAIRLIGHT ROAD"
-    },
-    {
-      "price": 381000,
-      "date": "2026-05-15",
-      "postcode": "SW11 3LQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 10, HAYTHORN HOUSE, VICARAGE CRESCENT"
+      "address": "38, DISRAELI GARDENS"
     },
     {
       "price": 500000,
-      "date": "2026-05-15",
-      "postcode": "SW11 1XG",
+      "date": "2026-06-18",
+      "postcode": "SW18 1FR",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT GROUND FLOOR, 39, LEATHWAITE ROAD"
+      "address": "FLAT 31, SPINNAKER HOUSE, JUNIPER DRIVE"
     },
     {
-      "price": 370000,
-      "date": "2026-05-15",
-      "postcode": "SW11 4HZ",
+      "price": 970000,
+      "date": "2026-06-17",
+      "postcode": "SW11 4DT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 4, QUEENS COURT, MEATH STREET"
+      "address": "APARTMENT 68, 73, ALBERT BRIDGE ROAD"
     },
     {
-      "price": 488000,
-      "date": "2026-05-15",
-      "postcode": "SW11 3RJ",
+      "price": 720000,
+      "date": "2026-06-17",
+      "postcode": "SW11 4RU",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 5, OYSTER WHARF, 18, LOMBARD ROAD"
+      "address": "FLAT 33, CAMBRIDGE MANSIONS, CAMBRIDGE ROAD"
     },
     {
-      "price": 520000,
-      "date": "2026-05-15",
-      "postcode": "SW18 1TY",
+      "price": 955000,
+      "date": "2026-06-17",
+      "postcode": "SW11 6JP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "90, KINGFISHER HOUSE, JUNIPER DRIVE"
+      "address": "FLAT A, 22, GAYVILLE ROAD"
+    },
+    {
+      "price": 463500,
+      "date": "2026-06-17",
+      "postcode": "SW19 5LR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 7, 89, WIMBLEDON PARK SIDE"
+    },
+    {
+      "price": 580000,
+      "date": "2026-06-17",
+      "postcode": "SW11 5ET",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, ORDISH APARTMENTS, 162, GIDEON ROAD"
     }
   ],
   "monthlyHistory": [
@@ -207,8 +210,8 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 645500,
-      "transactions": 379
+      "medianPrice": 647750,
+      "transactions": 380
     },
     {
       "month": "2024-03",
@@ -217,53 +220,53 @@
     },
     {
       "month": "2024-04",
-      "medianPrice": 612000,
-      "transactions": 407
+      "medianPrice": 612350,
+      "transactions": 408
     },
     {
       "month": "2024-05",
-      "medianPrice": 670000,
-      "transactions": 487
+      "medianPrice": 672500,
+      "transactions": 488
     },
     {
       "month": "2024-06",
       "medianPrice": 652000,
-      "transactions": 451
+      "transactions": 453
     },
     {
       "month": "2024-07",
-      "medianPrice": 612000,
-      "transactions": 678
+      "medianPrice": 623000,
+      "transactions": 683
     },
     {
       "month": "2024-08",
       "medianPrice": 650000,
-      "transactions": 625
+      "transactions": 627
     },
     {
       "month": "2024-09",
-      "medianPrice": 673000,
-      "transactions": 514
+      "medianPrice": 670000,
+      "transactions": 517
     },
     {
       "month": "2024-10",
       "medianPrice": 625000,
-      "transactions": 647
+      "transactions": 648
     },
     {
       "month": "2024-11",
       "medianPrice": 625000,
-      "transactions": 459
+      "transactions": 462
     },
     {
       "month": "2024-12",
       "medianPrice": 625000,
-      "transactions": 472
+      "transactions": 474
     },
     {
       "month": "2025-01",
       "medianPrice": 625000,
-      "transactions": 409
+      "transactions": 411
     },
     {
       "month": "2025-02",
@@ -277,125 +280,130 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 740000,
-      "transactions": 188
+      "medianPrice": 750000,
+      "transactions": 190
     },
     {
       "month": "2025-05",
       "medianPrice": 708100,
-      "transactions": 394
+      "transactions": 398
     },
     {
       "month": "2025-06",
-      "medianPrice": 706050,
-      "transactions": 418
+      "medianPrice": 715000,
+      "transactions": 423
     },
     {
       "month": "2025-07",
       "medianPrice": 745000,
-      "transactions": 489
+      "transactions": 503
     },
     {
       "month": "2025-08",
-      "medianPrice": 692000,
-      "transactions": 469
+      "medianPrice": 707500,
+      "transactions": 513
     },
     {
       "month": "2025-09",
-      "medianPrice": 670000,
-      "transactions": 462
+      "medianPrice": 674750,
+      "transactions": 480
     },
     {
       "month": "2025-10",
-      "medianPrice": 636250,
-      "transactions": 438
+      "medianPrice": 650000,
+      "transactions": 456
     },
     {
       "month": "2025-11",
       "medianPrice": 618750,
-      "transactions": 354
+      "transactions": 378
     },
     {
       "month": "2025-12",
-      "medianPrice": 590750,
-      "transactions": 284
+      "medianPrice": 591500,
+      "transactions": 335
     },
     {
       "month": "2026-01",
-      "medianPrice": 625000,
-      "transactions": 247
+      "medianPrice": 640000,
+      "transactions": 287
     },
     {
       "month": "2026-02",
-      "medianPrice": 575000,
-      "transactions": 226
+      "medianPrice": 567500,
+      "transactions": 235
     },
     {
       "month": "2026-03",
-      "medianPrice": 565000,
-      "transactions": 237
+      "medianPrice": 562500,
+      "transactions": 252
     },
     {
       "month": "2026-04",
-      "medianPrice": 600000,
-      "transactions": 184
+      "medianPrice": 597500,
+      "transactions": 212
     },
     {
       "month": "2026-05",
-      "medianPrice": 537500,
-      "transactions": 90
+      "medianPrice": 595000,
+      "transactions": 233
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 622500,
+      "transactions": 92
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 637500,
-      "transactions": 1133
+      "medianPrice": 638750,
+      "transactions": 1134
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 630000,
-      "transactions": 1345
+      "medianPrice": 634900,
+      "transactions": 1349
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 648000,
-      "transactions": 1817
+      "medianPrice": 646000,
+      "transactions": 1827
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 625000,
-      "transactions": 1578
+      "transactions": 1584
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 590000,
-      "transactions": 1873
+      "transactions": 1875
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 715000,
-      "transactions": 1000
+      "medianPrice": 720000,
+      "transactions": 1011
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 700000,
-      "transactions": 1420
+      "medianPrice": 706500,
+      "transactions": 1496
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 619000,
-      "transactions": 1076
+      "medianPrice": 625000,
+      "transactions": 1169
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 581750,
-      "transactions": 710
+      "medianPrice": 585000,
+      "transactions": 774
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 580000,
-      "transactions": 274
+      "medianPrice": 600000,
+      "transactions": 537
     }
   ]
 }

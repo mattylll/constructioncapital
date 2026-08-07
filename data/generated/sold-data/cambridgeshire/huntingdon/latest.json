@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.492Z",
+  "updatedAt": "2026-08-07T08:45:03.718Z",
   "townSlug": "huntingdon",
   "countySlug": "cambridgeshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HUNTINGDONSHIRE"
+  ],
   "stats": {
-    "medianPrice": 305500,
+    "medianPrice": 310000,
     "medianByType": {
       "D": 425000,
       "S": 285000,
-      "T": 237500,
-      "F": 150000
+      "T": 240000,
+      "F": 149000
     },
-    "transactionCount12m": 1136,
-    "yoyChange": -6,
-    "newBuildCount": 15,
-    "existingCount": 1121,
-    "newBuildPremium": 23
+    "transactionCount12m": 1151,
+    "yoyChange": -4.6,
+    "newBuildCount": 25,
+    "existingCount": 1126,
+    "newBuildPremium": 38.4
   },
   "recentTransactions": [
     {
-      "price": 193000,
-      "date": "2026-05-22",
+      "price": 156224,
+      "date": "2026-06-30",
+      "postcode": "PE29 6TW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, HAWESWATER"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-26",
+      "postcode": "PE29 2NL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "62, BUTCHER DRIVE"
+    },
+    {
+      "price": 249999,
+      "date": "2026-06-26",
+      "postcode": "PE26 1LU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MILTON CLOSE"
+    },
+    {
+      "price": 700000,
+      "date": "2026-06-26",
+      "postcode": "PE28 0AG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, BLACKSMITHS LANE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-06-22",
+      "postcode": "PE29 1RN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, DESBOROUGH ROAD"
+    },
+    {
+      "price": 395000,
+      "date": "2026-06-22",
+      "postcode": "PE29 6WN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, KNIPE CLOSE"
+    },
+    {
+      "price": 237500,
+      "date": "2026-06-19",
+      "postcode": "PE29 1JB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, AVENUE ROAD"
+    },
+    {
+      "price": 400000,
+      "date": "2026-06-19",
+      "postcode": "PE28 0AU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, PARSONS DRIVE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-19",
+      "postcode": "PE26 1DE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, HOLLOW LANE"
+    },
+    {
+      "price": 385000,
+      "date": "2026-06-19",
+      "postcode": "PE28 4PG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, BAKER CLOSE"
+    },
+    {
+      "price": 595000,
+      "date": "2026-06-18",
+      "postcode": "PE28 2BQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE CROFT, THICKET ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-06-18",
+      "postcode": "PE28 3LP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, HOLLIDAYS ROAD"
+    },
+    {
+      "price": 512500,
+      "date": "2026-06-17",
+      "postcode": "PE28 4DJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, WOODWARD CLOSE"
+    },
+    {
+      "price": 340550,
+      "date": "2026-06-12",
+      "postcode": "PE29 2PN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, CORDWAINER ROAD"
+    },
+    {
+      "price": 258000,
+      "date": "2026-06-12",
+      "postcode": "PE29 6UJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, THIRLMERE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-11",
+      "postcode": "PE28 3JW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, THE TRUNDLE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-06-08",
+      "postcode": "PE28 3XN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, WHEATLEY CRESCENT"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-05",
+      "postcode": "PE26 1LZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, THE MALTING"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-05",
       "postcode": "PE29 6XB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "56, ORTHWAITE"
+      "address": "85, ORTHWAITE"
     },
     {
       "price": 250000,
-      "date": "2026-05-22",
-      "postcode": "PE29 1RL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "73, NORFOLK ROAD"
-    },
-    {
-      "price": 780000,
-      "date": "2026-05-18",
-      "postcode": "PE29 2JD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2A, EARNING STREET"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-18",
-      "postcode": "PE28 5SW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, HILL CLOSE"
-    },
-    {
-      "price": 600000,
-      "date": "2026-05-15",
-      "postcode": "PE28 3XU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, LAXTON GRANGE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-05-15",
-      "postcode": "PE26 2QR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, GRENFELL ROAD"
-    },
-    {
-      "price": 392500,
-      "date": "2026-05-15",
-      "postcode": "PE28 4LE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, CHEQUERS CLOSE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-15",
-      "postcode": "PE29 1ST",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, VEASEY ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-15",
-      "postcode": "PE28 5UU",
+      "date": "2026-06-05",
+      "postcode": "PE26 1JU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, MANOR DRIVE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-15",
-      "postcode": "PE28 5UA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, WHITEHOUSE ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-14",
-      "postcode": "PE29 2HN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "40, OLD COURT HALL"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-12",
-      "postcode": "PE28 9BJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, ST. JAMES COURT, HIGH STREET"
-    },
-    {
-      "price": 340000,
-      "date": "2026-05-08",
-      "postcode": "PE28 3HR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, QUEENS ROAD"
-    },
-    {
-      "price": 645000,
-      "date": "2026-05-08",
-      "postcode": "PE29 1SJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CHARLES DRIVE"
-    },
-    {
-      "price": 446000,
-      "date": "2026-05-08",
-      "postcode": "PE29 3PE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ST MARYS STREET"
-    },
-    {
-      "price": 750000,
-      "date": "2026-05-07",
-      "postcode": "PE28 9WL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, PAYN CLOSE"
-    },
-    {
-      "price": 465000,
-      "date": "2026-05-06",
-      "postcode": "PE28 2WE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, MAHADDIE WAY"
-    },
-    {
-      "price": 364000,
-      "date": "2026-05-06",
-      "postcode": "PE28 4JD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, HAMERTON ROAD"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-05",
-      "postcode": "PE28 5XJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, SAPCOTE WAY"
-    },
-    {
-      "price": 140000,
-      "date": "2026-05-05",
-      "postcode": "PE28 5RQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, ALL SAINTS WAY"
+      "address": "3, ALLEN ROAD"
     }
   ],
   "monthlyHistory": [
@@ -278,7 +281,7 @@
     {
       "month": "2025-04",
       "medianPrice": 285000,
-      "transactions": 78
+      "transactions": 79
     },
     {
       "month": "2025-05",
@@ -287,63 +290,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 346500,
-      "transactions": 149
+      "medianPrice": 348250,
+      "transactions": 150
     },
     {
       "month": "2025-07",
       "medianPrice": 305000,
-      "transactions": 147
+      "transactions": 148
     },
     {
       "month": "2025-08",
-      "medianPrice": 323000,
-      "transactions": 130
+      "medianPrice": 325000,
+      "transactions": 143
     },
     {
       "month": "2025-09",
-      "medianPrice": 295000,
-      "transactions": 113
+      "medianPrice": 310798,
+      "transactions": 128
     },
     {
       "month": "2025-10",
-      "medianPrice": 286000,
-      "transactions": 150
+      "medianPrice": 290000,
+      "transactions": 155
     },
     {
       "month": "2025-11",
-      "medianPrice": 342250,
-      "transactions": 112
+      "medianPrice": 342500,
+      "transactions": 119
     },
     {
       "month": "2025-12",
-      "medianPrice": 291000,
-      "transactions": 130
+      "medianPrice": 291750,
+      "transactions": 136
     },
     {
       "month": "2026-01",
-      "medianPrice": 305500,
-      "transactions": 90
+      "medianPrice": 305000,
+      "transactions": 99
     },
     {
       "month": "2026-02",
-      "medianPrice": 316500,
-      "transactions": 102
+      "medianPrice": 315000,
+      "transactions": 105
     },
     {
       "month": "2026-03",
-      "medianPrice": 295000,
-      "transactions": 86
+      "medianPrice": 300000,
+      "transactions": 89
     },
     {
       "month": "2026-04",
-      "medianPrice": 322500,
-      "transactions": 70
+      "medianPrice": 305000,
+      "transactions": 81
     },
     {
       "month": "2026-05",
-      "medianPrice": 302000,
-      "transactions": 24
+      "medianPrice": 320000,
+      "transactions": 89
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 332775,
+      "transactions": 36
     }
   ],
   "quarterlyHistory": [
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 300000,
-      "transactions": 361
+      "medianPrice": 302096,
+      "transactions": 363
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 306500,
-      "transactions": 390
+      "medianPrice": 311596,
+      "transactions": 419
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 303750,
-      "transactions": 392
+      "medianPrice": 307500,
+      "transactions": 410
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 311000,
-      "transactions": 278
+      "medianPrice": 306000,
+      "transactions": 293
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 317000,
-      "transactions": 94
+      "medianPrice": 318000,
+      "transactions": 206
     }
   ]
 }

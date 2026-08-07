@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.170Z",
+  "updatedAt": "2026-08-07T08:45:01.599Z",
   "townSlug": "banbury",
   "countySlug": "oxfordshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CHERWELL"
+  ],
   "marketSnapshot": {
-    "medianPrice": 318000,
-    "transactionCount12m": 880,
-    "yoyPriceChange": -3.6,
+    "medianPrice": 320000,
+    "transactionCount12m": 872,
+    "yoyPriceChange": -3,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

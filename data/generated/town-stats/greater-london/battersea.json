@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.369Z",
+  "updatedAt": "2026-08-07T08:45:00.832Z",
   "townSlug": "battersea",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "WANDSWORTH"
+  ],
   "marketSnapshot": {
-    "medianPrice": 630000,
-    "transactionCount12m": 3449,
-    "yoyPriceChange": 0.8,
+    "medianPrice": 620000,
+    "transactionCount12m": 3375,
+    "yoyPriceChange": -2.7,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

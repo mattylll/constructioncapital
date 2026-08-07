@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-02T01:34:26.673Z",
+  "updatedAt": "2026-08-06T12:44:21.132Z",
   "townSlug": "stratford",
   "countySlug": "greater-london",
   "localAuthority": "London Borough of Newham",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-02",
-    "to": "2026-08-02",
-    "retrievedAt": "2026-08-02T01:34:26.672Z"
+    "from": "2026-05-06",
+    "to": "2026-08-06",
+    "retrievedAt": "2026-08-06T12:44:21.131Z"
   },
   "summary": {
-    "total": 127,
+    "total": 125,
     "relevant": 29,
     "approved": 0,
     "pending": 29,
@@ -26,6 +26,25 @@
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/01079/FUL",
+      "address": "Telephone Kiosk At Junction With Harcourt Road Plaistow Road Stratford London E15 3ET",
+      "postcode": "E15 3ET",
+      "ward": "",
+      "proposal": "Removal and replacement of the existing telephone kiosk with a communications kiosk with integrated advertising display and defibrillator.",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "",
+      "decision": "",
+      "receivedDate": "03/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://pa.newham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TF328XJYLHO00"
+    },
     {
       "reference": "26/01081/FUL",
       "address": "Telephone Kiosk 1 Outside 189 Romford Road Forest Gate London E15 4JF",
@@ -145,8 +164,8 @@
       "address": "321 Romford Road Forest Gate London E7 9HA",
       "postcode": "E7 9HA",
       "ward": "",
-      "proposal": "Erection of a single-storey upward extension with front and rear dormer roof extensions to the existing three-storey property; part three-storey rear extension from first floor level; and conversion of upper floors to provide 4no. one-bedroom flats (Use Class C3). Installation of a balustrade above the existing single-storey rear extension to create amenity space, together with provision of cycle and refuse storage and associated external alterations. (Application site is located within Forest Gate Town Centre Conservation Area).",
-      "category": "conversion",
+      "proposal": "Change of use of ground floor commercial unit from shops (use Class E) to a motor vehicle repair shop (Use Class B2) (retrospective) and the erection of a single-storey upward extension with front and rear dormer roof extensions to the existing three-storey property; part three-storey rear extension from first floor level; and conversion of upper floors to provide 4no. one-bedroom flats (Use Class C3). Installation of a balustrade above the existing single-storey rear extension to create amenity space, together with provision of cycle and refuse storage and associated external alterations. (prospective) (Application site is located within Forest Gate Town Centre Conservation Area). (AMENDED DESCRIPTION)",
+      "category": "change_of_use",
       "units": null,
       "estimatedGdv": null,
       "status": "",
@@ -348,25 +367,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.newham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TF7ZQQJYMHU00"
-    },
-    {
-      "reference": "26/01079/FUL",
-      "address": "Telephone Kiosk At Junction With Harcourt Road Plaistow Road Stratford London E15 3ET",
-      "postcode": "E15 3ET",
-      "ward": "",
-      "proposal": "Removal and replacement of the existing telephone kiosk with a communications kiosk with integrated advertising display and defibrillator.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "",
-      "receivedDate": "01/06/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.newham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TF328XJYLHO00"
     },
     {
       "reference": "26/01188/FUL",

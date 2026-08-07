@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.238Z",
+  "updatedAt": "2026-08-07T08:45:01.341Z",
   "townSlug": "staines",
   "countySlug": "surrey",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SPELTHORNE"
+  ],
   "stats": {
-    "medianPrice": 465000,
+    "medianPrice": 461000,
     "medianByType": {
-      "D": 662500,
-      "S": 520000,
-      "T": 440000,
-      "F": 280000
+      "D": 680000,
+      "S": 500000,
+      "T": 441000,
+      "F": 275000
     },
-    "transactionCount12m": 999,
-    "yoyChange": 3.3,
-    "newBuildCount": 6,
-    "existingCount": 993,
-    "newBuildPremium": -21.6
+    "transactionCount12m": 972,
+    "yoyChange": 2.4,
+    "newBuildCount": 4,
+    "existingCount": 968,
+    "newBuildPremium": -33.8
   },
   "recentTransactions": [
     {
-      "price": 725000,
-      "date": "2026-05-22",
-      "postcode": "TW17 0AW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, THORNHILL WAY"
-    },
-    {
-      "price": 550000,
-      "date": "2026-05-22",
-      "postcode": "TW17 0SD",
+      "price": 395000,
+      "date": "2026-06-25",
+      "postcode": "TW15 1EG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, WALNUT TREE ROAD"
+      "address": "13A, NEW PARK ROAD"
     },
     {
-      "price": 675000,
-      "date": "2026-05-15",
-      "postcode": "TW16 6HQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, VEREKER DRIVE"
-    },
-    {
-      "price": 600000,
-      "date": "2026-05-14",
-      "postcode": "TW17 9AF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, GRANT CLOSE"
-    },
-    {
-      "price": 420000,
-      "date": "2026-05-13",
-      "postcode": "TW16 7DG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, MILL FARM AVENUE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-13",
-      "postcode": "TW15 1BU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, CHATTERN HILL"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-13",
-      "postcode": "TW17 9BE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, CLIVEDEN PLACE"
-    },
-    {
-      "price": 444000,
-      "date": "2026-05-12",
-      "postcode": "TW19 6AJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, HITHERMOOR ROAD"
-    },
-    {
-      "price": 207500,
-      "date": "2026-05-11",
-      "postcode": "TW19 7NB",
+      "price": 195000,
+      "date": "2026-06-19",
+      "postcode": "TW17 0AA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 7, THE GRANGE, DE HAVILLAND WAY"
+      "address": "FLAT 4, 137, LALEHAM ROAD"
     },
     {
-      "price": 440000,
-      "date": "2026-05-11",
-      "postcode": "TW18 4HU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, BREMER ROAD"
-    },
-    {
-      "price": 550000,
-      "date": "2026-05-08",
-      "postcode": "TW18 1HY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "83, WORPLE AVENUE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-08",
-      "postcode": "TW19 7ES",
+      "price": 365000,
+      "date": "2026-06-19",
+      "postcode": "TW18 1AE",
       "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, MANOR PLACE"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-19",
+      "postcode": "TW18 4RW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, PLOVER CLOSE"
+    },
+    {
+      "price": 600000,
+      "date": "2026-06-19",
+      "postcode": "TW15 3HN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "125, STATION CRESCENT"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-19",
+      "postcode": "TW16 5PF",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "22, CAMBRIA GARDENS"
+      "address": "1, SUNBURY COURT MEWS"
     },
     {
-      "price": 860000,
-      "date": "2026-05-08",
-      "postcode": "TW17 9DW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, BRUCE AVENUE"
-    },
-    {
-      "price": 465000,
-      "date": "2026-05-08",
-      "postcode": "TW15 2HG",
+      "price": 520000,
+      "date": "2026-06-19",
+      "postcode": "TW15 1QH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, WENTWORTH CLOSE"
+      "address": "12, DANE ROAD"
     },
     {
-      "price": 440000,
-      "date": "2026-05-08",
-      "postcode": "TW18 1HQ",
+      "price": 425000,
+      "date": "2026-06-18",
+      "postcode": "TW17 0DX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, LANSDOWNE ROAD"
+      "address": "54, WOOD ROAD"
     },
     {
-      "price": 540000,
-      "date": "2026-05-08",
-      "postcode": "TW17 8HP",
+      "price": 750000,
+      "date": "2026-06-18",
+      "postcode": "TW17 8LY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, WESTERN DRIVE"
+      "address": "15, SWAN WALK"
     },
     {
-      "price": 293000,
-      "date": "2026-05-07",
+      "price": 462000,
+      "date": "2026-06-17",
+      "postcode": "TW15 2LA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, VILLAGE WAY"
+    },
+    {
+      "price": 435000,
+      "date": "2026-06-15",
+      "postcode": "TW16 7RH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, BRYONY WAY"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-15",
+      "postcode": "TW19 7PU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "25, JORDANS CLOSE"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-12",
       "postcode": "TW17 8EJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 14, SHEPPERTON COURT, SHEPPERTON COURT DRIVE"
+      "address": "FLAT 40, SHEPPERTON COURT, SHEPPERTON COURT DRIVE"
     },
     {
-      "price": 415000,
-      "date": "2026-05-07",
-      "postcode": "TW15 3DG",
-      "propertyType": "T",
+      "price": 344000,
+      "date": "2026-06-12",
+      "postcode": "TW17 8DS",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "50, HENGROVE CRESCENT"
+      "tenure": "L",
+      "address": "31, GREEN LANE"
     },
     {
-      "price": 500000,
-      "date": "2026-05-06",
-      "postcode": "TW19 6AT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "68, HITHERMOOR ROAD"
-    },
-    {
-      "price": 690000,
-      "date": "2026-05-06",
-      "postcode": "TW15 1NF",
+      "price": 510000,
+      "date": "2026-06-12",
+      "postcode": "TW17 8EP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "ST IVES, APPROACH ROAD"
+      "address": "4, PEARMAIN CLOSE"
+    },
+    {
+      "price": 755000,
+      "date": "2026-06-12",
+      "postcode": "TW15 2JP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "106, PARKLAND GROVE"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-12",
+      "postcode": "TW15 3NP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, CELIA CRESCENT"
+    },
+    {
+      "price": 865000,
+      "date": "2026-06-12",
+      "postcode": "TW16 5BA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, ROPER CRESCENT"
+    },
+    {
+      "price": 920000,
+      "date": "2026-06-12",
+      "postcode": "TW17 9DL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, KILMISTON AVENUE"
+    },
+    {
+      "price": 393000,
+      "date": "2026-06-11",
+      "postcode": "TW16 7NW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, KING GEORGE CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -228,7 +231,7 @@
     {
       "month": "2024-06",
       "medianPrice": 440000,
-      "transactions": 97
+      "transactions": 96
     },
     {
       "month": "2024-07",
@@ -262,8 +265,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 453500,
-      "transactions": 130
+      "medianPrice": 452000,
+      "transactions": 129
     },
     {
       "month": "2025-02",
@@ -293,57 +296,62 @@
     {
       "month": "2025-07",
       "medianPrice": 450000,
-      "transactions": 128
+      "transactions": 132
     },
     {
       "month": "2025-08",
       "medianPrice": 485000,
-      "transactions": 142
+      "transactions": 146
     },
     {
       "month": "2025-09",
-      "medianPrice": 462500,
-      "transactions": 140
+      "medianPrice": 460000,
+      "transactions": 145
     },
     {
       "month": "2025-10",
-      "medianPrice": 461250,
-      "transactions": 102
+      "medianPrice": 462500,
+      "transactions": 103
     },
     {
       "month": "2025-11",
-      "medianPrice": 472500,
-      "transactions": 110
+      "medianPrice": 475000,
+      "transactions": 113
     },
     {
       "month": "2025-12",
-      "medianPrice": 479000,
-      "transactions": 90
+      "medianPrice": 462500,
+      "transactions": 104
     },
     {
       "month": "2026-01",
-      "medianPrice": 470000,
-      "transactions": 67
+      "medianPrice": 472500,
+      "transactions": 72
     },
     {
       "month": "2026-02",
       "medianPrice": 440000,
-      "transactions": 73
+      "transactions": 74
     },
     {
       "month": "2026-03",
-      "medianPrice": 465000,
-      "transactions": 79
+      "medianPrice": 460000,
+      "transactions": 83
     },
     {
       "month": "2026-04",
-      "medianPrice": 437500,
-      "transactions": 58
+      "medianPrice": 427500,
+      "transactions": 62
     },
     {
       "month": "2026-05",
-      "medianPrice": 448000,
-      "transactions": 26
+      "medianPrice": 444000,
+      "transactions": 61
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 456000,
+      "transactions": 38
     }
   ],
   "quarterlyHistory": [
@@ -355,7 +363,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 420000,
-      "transactions": 364
+      "transactions": 363
     },
     {
       "quarter": "2024-Q3",
@@ -370,7 +378,7 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 462500,
-      "transactions": 533
+      "transactions": 532
     },
     {
       "quarter": "2025-Q2",
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 466500,
-      "transactions": 410
+      "medianPrice": 466000,
+      "transactions": 423
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 470000,
-      "transactions": 302
+      "medianPrice": 465000,
+      "transactions": 320
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 455000,
-      "transactions": 219
+      "transactions": 229
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 444500,
-      "transactions": 84
+      "medianPrice": 442000,
+      "transactions": 161
     }
   ]
 }

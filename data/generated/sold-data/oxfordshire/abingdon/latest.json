@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.498Z",
+  "updatedAt": "2026-08-07T08:45:01.612Z",
   "townSlug": "abingdon",
   "countySlug": "oxfordshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "VALE OF WHITE HORSE"
+  ],
   "stats": {
-    "medianPrice": 390000,
+    "medianPrice": 380000,
     "medianByType": {
-      "D": 559000,
-      "S": 382250,
+      "D": 555000,
+      "S": 380000,
       "T": 315000,
       "F": 205000
     },
-    "transactionCount12m": 1530,
-    "yoyChange": -1.3,
-    "newBuildCount": 36,
-    "existingCount": 1494,
-    "newBuildPremium": 11.9
+    "transactionCount12m": 1523,
+    "yoyChange": -4.8,
+    "newBuildCount": 37,
+    "existingCount": 1486,
+    "newBuildPremium": 7.9
   },
   "recentTransactions": [
     {
-      "price": 355000,
-      "date": "2026-05-22",
-      "postcode": "OX14 1PP",
+      "price": 321000,
+      "date": "2026-06-26",
+      "postcode": "SN6 8RS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, SHELLEY CLOSE"
+      "address": "19, LAPWING LANE"
     },
     {
       "price": 310000,
-      "date": "2026-05-22",
-      "postcode": "OX12 0FY",
+      "date": "2026-06-26",
+      "postcode": "OX11 6GF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, SENTINEL STREET"
+      "address": "39, COTTONGRASS ROAD"
     },
     {
-      "price": 586400,
-      "date": "2026-05-22",
-      "postcode": "OX12 9UH",
-      "propertyType": "S",
+      "price": 232000,
+      "date": "2026-06-25",
+      "postcode": "SN7 7AX",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, WEST STREET"
+      "address": "5, CADELS ROW"
     },
     {
-      "price": 410000,
-      "date": "2026-05-21",
-      "postcode": "OX12 7HB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, PALMERS"
-    },
-    {
-      "price": 465000,
-      "date": "2026-05-21",
-      "postcode": "OX12 0NP",
+      "price": 515000,
+      "date": "2026-06-24",
+      "postcode": "OX12 8GJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "52, BLENHEIM GARDENS"
+      "address": "30, SCANTLEBURY WAY"
     },
     {
-      "price": 280000,
-      "date": "2026-05-20",
-      "postcode": "OX1 5QZ",
+      "price": 245000,
+      "date": "2026-06-24",
+      "postcode": "OX12 0PZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, WHITE HORSE CRESCENT"
+    },
+    {
+      "price": 120000,
+      "date": "2026-06-24",
+      "postcode": "OX13 6PD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "129A, THE AVENUE"
+      "address": "9, SWEET BRIAR"
     },
     {
-      "price": 195000,
-      "date": "2026-05-19",
-      "postcode": "OX12 8FA",
-      "propertyType": "F",
+      "price": 567500,
+      "date": "2026-06-22",
+      "postcode": "OX12 9TZ",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "5, ST MARYS"
+      "tenure": "F",
+      "address": "32, WHITTINGTON CRESCENT"
     },
     {
-      "price": 315000,
-      "date": "2026-05-18",
-      "postcode": "OX14 5RR",
+      "price": 450000,
+      "date": "2026-06-22",
+      "postcode": "OX14 3HZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, THAMES STREET"
+    },
+    {
+      "price": 445000,
+      "date": "2026-06-22",
+      "postcode": "OX2 9DJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, RILEY CLOSE"
+      "address": "8, QUEENS CLOSE"
     },
     {
-      "price": 334000,
-      "date": "2026-05-15",
-      "postcode": "OX2 9EF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, BEECH ROAD"
-    },
-    {
-      "price": 677000,
-      "date": "2026-05-15",
-      "postcode": "OX2 9HL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, HUTCHCOMB ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-15",
-      "postcode": "OX13 5AP",
+      "price": 184000,
+      "date": "2026-06-19",
+      "postcode": "OX14 3ZF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "4, STERLING HOUSE, OXFORD ROAD"
+      "address": "167, THAMES VIEW"
     },
     {
-      "price": 370000,
-      "date": "2026-05-15",
-      "postcode": "SN7 7ED",
+      "price": 570000,
+      "date": "2026-06-19",
+      "postcode": "OX12 9TZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "108, WHITTINGTON CRESCENT"
+    },
+    {
+      "price": 397000,
+      "date": "2026-06-19",
+      "postcode": "OX12 9WN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, FERN CLOSE"
+    },
+    {
+      "price": 525000,
+      "date": "2026-06-19",
+      "postcode": "OX12 9HN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, ADKIN WAY"
+    },
+    {
+      "price": 287000,
+      "date": "2026-06-19",
+      "postcode": "OX12 7BH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "85, GROVE STREET"
+    },
+    {
+      "price": 320000,
+      "date": "2026-06-19",
+      "postcode": "OX14 4DU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, STEVENS WAY"
+      "address": "12, DUKE OF YORK AVENUE"
     },
     {
-      "price": 267000,
-      "date": "2026-05-15",
-      "postcode": "OX12 9QN",
+      "price": 335000,
+      "date": "2026-06-19",
+      "postcode": "OX1 5QL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, HILL VIEW"
+      "address": "46, OTTERS REACH"
     },
     {
-      "price": 510000,
-      "date": "2026-05-15",
-      "postcode": "OX2 9QB",
-      "propertyType": "D",
+      "price": 575000,
+      "date": "2026-06-19",
+      "postcode": "OX14 2HA",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "63, THE GLEBE"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-14",
-      "postcode": "OX14 3ZD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "134, THAMES VIEW"
-    },
-    {
-      "price": 545000,
-      "date": "2026-05-14",
-      "postcode": "SN6 8DE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, CHESTNUT GARDENS"
-    },
-    {
-      "price": 630000,
-      "date": "2026-05-14",
-      "postcode": "SN6 8AD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MAY TREE COTTAGE, 21, MANOR LANE"
-    },
-    {
-      "price": 517500,
-      "date": "2026-05-13",
-      "postcode": "OX11 0SA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, CRAFTS END"
+      "address": "47, ST JOHNS ROAD"
     },
     {
       "price": 390000,
-      "date": "2026-05-13",
-      "postcode": "OX11 0SB",
+      "date": "2026-06-17",
+      "postcode": "OX13 6DT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BERRYMERE ROAD"
+    },
+    {
+      "price": 297000,
+      "date": "2026-06-17",
+      "postcode": "OX12 9HQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "65, CRAFTS END"
+      "address": "42, STOCKHAM PARK"
     },
     {
-      "price": 425000,
-      "date": "2026-05-13",
-      "postcode": "OX14 3TL",
-      "propertyType": "T",
+      "price": 355000,
+      "date": "2026-06-15",
+      "postcode": "OX12 7FL",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, FENNEL WAY"
+      "address": "11, CHEQUERS LANE"
     }
   ],
   "monthlyHistory": [
@@ -242,8 +245,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 392125,
-      "transactions": 254
+      "medianPrice": 390000,
+      "transactions": 255
     },
     {
       "month": "2024-10",
@@ -278,72 +281,77 @@
     {
       "month": "2025-04",
       "medianPrice": 290000,
-      "transactions": 109
+      "transactions": 110
     },
     {
       "month": "2025-05",
-      "medianPrice": 399745,
-      "transactions": 191
+      "medianPrice": 398623,
+      "transactions": 192
     },
     {
       "month": "2025-06",
-      "medianPrice": 403125,
-      "transactions": 276
+      "medianPrice": 404375,
+      "transactions": 284
     },
     {
       "month": "2025-07",
-      "medianPrice": 430000,
-      "transactions": 215
+      "medianPrice": 425000,
+      "transactions": 231
     },
     {
       "month": "2025-08",
-      "medianPrice": 410000,
-      "transactions": 181
+      "medianPrice": 407000,
+      "transactions": 205
     },
     {
       "month": "2025-09",
-      "medianPrice": 409000,
-      "transactions": 193
+      "medianPrice": 412500,
+      "transactions": 210
     },
     {
       "month": "2025-10",
-      "medianPrice": 397500,
-      "transactions": 184
+      "medianPrice": 395000,
+      "transactions": 187
     },
     {
       "month": "2025-11",
       "medianPrice": 425000,
-      "transactions": 162
+      "transactions": 167
     },
     {
       "month": "2025-12",
-      "medianPrice": 360000,
-      "transactions": 154
+      "medianPrice": 365000,
+      "transactions": 168
     },
     {
       "month": "2026-01",
-      "medianPrice": 375000,
-      "transactions": 100
+      "medianPrice": 376000,
+      "transactions": 109
     },
     {
       "month": "2026-02",
-      "medianPrice": 397500,
-      "transactions": 120
+      "medianPrice": 392500,
+      "transactions": 126
     },
     {
       "month": "2026-03",
-      "medianPrice": 335000,
-      "transactions": 119
+      "medianPrice": 332000,
+      "transactions": 125
     },
     {
       "month": "2026-04",
       "medianPrice": 360000,
-      "transactions": 92
+      "transactions": 103
     },
     {
       "month": "2026-05",
-      "medianPrice": 355000,
-      "transactions": 41
+      "medianPrice": 365000,
+      "transactions": 99
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 361000,
+      "transactions": 50
     }
   ],
   "quarterlyHistory": [
@@ -360,7 +368,7 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 400000,
-      "transactions": 712
+      "transactions": 713
     },
     {
       "quarter": "2024-Q4",
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 381250,
-      "transactions": 576
+      "transactions": 586
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 415000,
-      "transactions": 589
+      "transactions": 646
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 387500,
-      "transactions": 500
+      "medianPrice": 390000,
+      "transactions": 522
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 370000,
-      "transactions": 339
+      "transactions": 360
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 360000,
-      "transactions": 133
+      "transactions": 252
     }
   ]
 }

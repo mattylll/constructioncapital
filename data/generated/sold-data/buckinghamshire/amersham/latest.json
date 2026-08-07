@@ -1,23 +1,180 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.467Z",
+  "updatedAt": "2026-08-07T08:45:01.578Z",
   "townSlug": "amersham",
   "countySlug": "buckinghamshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BUCKINGHAMSHIRE",
+    "CHILTERN"
+  ],
   "stats": {
     "medianPrice": 750000,
     "medianByType": {
-      "D": 957500,
+      "D": 985000,
       "S": 781750,
-      "T": 545000,
-      "F": 325000
+      "T": 550000,
+      "F": 315000
     },
     "transactionCount12m": 225,
-    "yoyChange": 7.1,
+    "yoyChange": 7.8,
     "newBuildCount": 0,
     "existingCount": 225,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 2850000,
+      "date": "2026-06-17",
+      "postcode": "HP7 0QX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "RIDGEWELL HOUSE"
+    },
+    {
+      "price": 305000,
+      "date": "2026-06-16",
+      "postcode": "HP6 6LY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "50, GROVE ROAD"
+    },
+    {
+      "price": 982500,
+      "date": "2026-06-16",
+      "postcode": "HP7 9DQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, CHEQUERS HILL"
+    },
+    {
+      "price": 508000,
+      "date": "2026-06-05",
+      "postcode": "HP6 6QF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, MARYGOLD WALK"
+    },
+    {
+      "price": 690000,
+      "date": "2026-06-03",
+      "postcode": "HP7 0DB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SOMETHING COTTAGE, 6, CHURCH STREET"
+    },
+    {
+      "price": 1195000,
+      "date": "2026-06-03",
+      "postcode": "HP6 6SH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, CHURCH GROVE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-01",
+      "postcode": "HP6 5UL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 4, ARCHER COURT, 43, CHESHAM ROAD"
+    },
+    {
+      "price": 760000,
+      "date": "2026-06-01",
+      "postcode": "HP7 9FE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, HIGH VIEW PLACE"
+    },
+    {
+      "price": 480000,
+      "date": "2026-05-29",
+      "postcode": "HP6 6UR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ROWAN PLACE"
+    },
+    {
+      "price": 312500,
+      "date": "2026-05-29",
+      "postcode": "HP6 6QW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, KILN AVENUE"
+    },
+    {
+      "price": 286000,
+      "date": "2026-05-29",
+      "postcode": "HP7 9PH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3A, CHENIES PARADE"
+    },
+    {
+      "price": 730000,
+      "date": "2026-05-28",
+      "postcode": "HP7 0LF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, HILL MEADOW"
+    },
+    {
+      "price": 680000,
+      "date": "2026-05-27",
+      "postcode": "HP6 6HL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "64, PLANTATION ROAD"
+    },
+    {
+      "price": 865000,
+      "date": "2026-05-27",
+      "postcode": "HP7 9JA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, LITTLE REEVES AVENUE"
+    },
+    {
+      "price": 322500,
+      "date": "2026-05-22",
+      "postcode": "HP7 0EN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, ELMODESHAM HOUSE, HIGH STREET"
+    },
+    {
+      "price": 1035000,
+      "date": "2026-05-21",
+      "postcode": "HP7 0BN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, HIGHOVER PARK"
+    },
+    {
+      "price": 952750,
+      "date": "2026-05-21",
+      "postcode": "HP7 0QN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, CHANCELLORS"
+    },
     {
       "price": 1000000,
       "date": "2026-05-20",
@@ -37,166 +194,13 @@
       "address": "16, STANLEY HILL"
     },
     {
-      "price": 650000,
-      "date": "2026-05-11",
-      "postcode": "HP7 0JF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, PIGGOTTS END"
-    },
-    {
       "price": 870000,
-      "date": "2026-05-07",
-      "postcode": "HP7 9HH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "101, STANLEY HILL"
-    },
-    {
-      "price": 895000,
-      "date": "2026-05-07",
-      "postcode": "HP7 9AG",
+      "date": "2026-05-15",
+      "postcode": "HP6 6LA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, THE RISE"
-    },
-    {
-      "price": 456773,
-      "date": "2026-04-30",
-      "postcode": "HP6 5EQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, SYCAMORE ROAD"
-    },
-    {
-      "price": 2750000,
-      "date": "2026-04-23",
-      "postcode": "HP7 0QU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MICHAELMAS MEADOW, PENFOLD LANE"
-    },
-    {
-      "price": 562500,
-      "date": "2026-04-22",
-      "postcode": "HP7 9JN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, PINEAPPLE ROAD"
-    },
-    {
-      "price": 580000,
-      "date": "2026-04-15",
-      "postcode": "HP6 6FB",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UNIT 12, THE BUSINESS CENTRE, CORINIUM INDUSTRIAL ESTATE"
-    },
-    {
-      "price": 625000,
-      "date": "2026-04-13",
-      "postcode": "HP6 6EP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, CHESTNUT LANE"
-    },
-    {
-      "price": 825000,
-      "date": "2026-04-10",
-      "postcode": "HP7 9DZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, ACRES END"
-    },
-    {
-      "price": 425000,
-      "date": "2026-04-10",
-      "postcode": "HP7 9LW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "124, WHITE LION ROAD"
-    },
-    {
-      "price": 670000,
-      "date": "2026-04-09",
-      "postcode": "HP7 9JN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1A, PINEAPPLE ROAD"
-    },
-    {
-      "price": 310000,
-      "date": "2026-04-09",
-      "postcode": "HP6 5HP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, CHILTERN PARADE"
-    },
-    {
-      "price": 850000,
-      "date": "2026-04-09",
-      "postcode": "HP6 6HW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "100, PLANTATION ROAD"
-    },
-    {
-      "price": 475000,
-      "date": "2026-04-08",
-      "postcode": "HP6 5FF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 35, REGENT PLACE, 75, SYCAMORE ROAD"
-    },
-    {
-      "price": 530000,
-      "date": "2026-04-02",
-      "postcode": "HP7 0AH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "123, STATION ROAD"
-    },
-    {
-      "price": 725000,
-      "date": "2026-04-02",
-      "postcode": "HP6 5TA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, OAKFIELD CLOSE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-04-01",
-      "postcode": "HP7 9PZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, 8A, NIGHTINGALES CORNER"
-    },
-    {
-      "price": 365000,
-      "date": "2026-04-01",
-      "postcode": "HP7 0JE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "TYLESWORTH, WHIELDEN GREEN"
+      "address": "2, NEW ROAD"
     }
   ],
   "monthlyHistory": [
@@ -297,13 +301,13 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 810000,
-      "transactions": 32
+      "medianPrice": 800000,
+      "transactions": 33
     },
     {
       "month": "2025-09",
-      "medianPrice": 810000,
-      "transactions": 32
+      "medianPrice": 800000,
+      "transactions": 33
     },
     {
       "month": "2025-10",
@@ -312,8 +316,8 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 842000,
-      "transactions": 32
+      "medianPrice": 845000,
+      "transactions": 33
     },
     {
       "month": "2025-12",
@@ -327,8 +331,8 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 620000,
-      "transactions": 9
+      "medianPrice": 701750,
+      "transactions": 10
     },
     {
       "month": "2026-03",
@@ -337,13 +341,18 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 562500,
-      "transactions": 15
+      "medianPrice": 546250,
+      "transactions": 16
     },
     {
       "month": "2026-05",
-      "medianPrice": 870000,
-      "transactions": 5
+      "medianPrice": 705000,
+      "transactions": 18
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 725000,
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -379,23 +388,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 776000,
-      "transactions": 92
+      "medianPrice": 755925,
+      "transactions": 94
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 775000,
-      "transactions": 84
+      "transactions": 85
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 725000,
-      "transactions": 35
+      "medianPrice": 737500,
+      "transactions": 36
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 637500,
-      "transactions": 20
+      "transactions": 42
     }
   ]
 }

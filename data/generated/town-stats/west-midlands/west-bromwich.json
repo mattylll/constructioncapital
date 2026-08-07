@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.928Z",
+  "updatedAt": "2026-08-07T08:45:02.318Z",
   "townSlug": "west-bromwich",
   "countySlug": "west-midlands",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SANDWELL"
+  ],
   "marketSnapshot": {
-    "medianPrice": 210000,
-    "transactionCount12m": 2243,
-    "yoyPriceChange": 2.3,
+    "medianPrice": 210500,
+    "transactionCount12m": 2199,
+    "yoyPriceChange": 0.2,
     "approvedApps12m": 0,
-    "pipelineUnits": 30,
-    "pipelineGdv": 6360000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 0,
+    "pipelineGdv": 0,
     "approvalRate": 0
   }
 }

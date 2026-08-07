@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.343Z",
+  "updatedAt": "2026-08-07T08:45:03.686Z",
   "townSlug": "newmarket",
   "countySlug": "suffolk",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WEST SUFFOLK",
+    "FOREST HEATH"
+  ],
   "marketSnapshot": {
-    "medianPrice": 285000,
-    "transactionCount12m": 353,
-    "yoyPriceChange": -4.2,
+    "medianPrice": 283000,
+    "transactionCount12m": 329,
+    "yoyPriceChange": -5.7,
     "approvedApps12m": 0,
-    "pipelineUnits": 64,
-    "pipelineGdv": 18708500,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 623,
+    "pipelineGdv": 175150000,
     "approvalRate": 0
   }
 }

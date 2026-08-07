@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-07-12T09:07:13.694Z",
+  "updatedAt": "2026-08-07T07:33:10.139Z",
   "townSlug": "gravesend",
   "countySlug": "kent",
   "localAuthority": "Gravesham Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-12",
-    "to": "2026-07-12",
-    "retrievedAt": "2026-07-12T09:07:13.693Z"
+    "from": "2026-05-07",
+    "to": "2026-08-07",
+    "retrievedAt": "2026-08-07T07:33:10.139Z"
   },
   "summary": {
-    "total": 255,
-    "relevant": 4,
+    "total": 271,
+    "relevant": 5,
     "approved": 1,
-    "pending": 2,
-    "refused": 1,
+    "pending": 4,
+    "refused": 0,
     "approvedUnits": 1,
-    "pendingUnits": 10,
-    "totalUnits": 11,
+    "pendingUnits": 12,
+    "totalUnits": 13,
     "approvedGdv": 355000,
-    "pendingGdv": 1749950,
-    "totalEstimatedGDV": 2104950,
-    "approvalRate": 50
+    "pendingGdv": 2459950,
+    "totalEstimatedGDV": 2814950,
+    "approvalRate": 100
   },
   "approvedApplications": [
     {
@@ -46,6 +46,44 @@
     }
   ],
   "pendingApplications": [
+    {
+      "reference": "20260727",
+      "address": "62 Taunton Vale Gravesend Kent DA12 5RB",
+      "postcode": "DA12 5RB",
+      "ward": "",
+      "proposal": "Application for a Proposed Lawful Development Certificate for the erection of a dormer within the side roof slope, conversion of the roof space to form a habitable room and change of use from C3 dwelling house to C4 HMO for up to 6 persons.",
+      "category": "other_residential",
+      "units": 1,
+      "estimatedGdv": 355000,
+      "status": "Pending Consideration",
+      "decision": "Pending Consideration",
+      "receivedDate": "16/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://plan.gravesham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TI87FMHPME800"
+    },
+    {
+      "reference": "20260563",
+      "address": "89 Coopers Road Northfleet Gravesend Kent DA11 7AH",
+      "postcode": "DA11 7AH",
+      "ward": "",
+      "proposal": "Application for a Proposed Lawful Development Certificate; Change of use from a Class C3 dwelling house to a Class C4 HMO for 6 persons.",
+      "category": "other_residential",
+      "units": 1,
+      "estimatedGdv": 355000,
+      "status": "Pending Consideration",
+      "decision": "Pending Consideration",
+      "receivedDate": "01/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://plan.gravesham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFWVHZHPK3L00"
+    },
     {
       "reference": "20260538",
       "address": "Former St Josephs Convent Preparatory School 46 Old Road East Gravesend Kent DA12 1NR",

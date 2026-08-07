@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.703Z",
+  "updatedAt": "2026-08-07T08:45:02.117Z",
   "townSlug": "salisbury",
   "countySlug": "wiltshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WILTSHIRE"
+  ],
   "marketSnapshot": {
     "medianPrice": 335000,
-    "transactionCount12m": 1264,
+    "transactionCount12m": 1249,
     "yoyPriceChange": 3.1,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

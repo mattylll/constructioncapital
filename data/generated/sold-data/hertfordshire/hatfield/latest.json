@@ -1,31 +1,169 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.535Z",
+  "updatedAt": "2026-08-07T08:45:01.654Z",
   "townSlug": "hatfield",
   "countySlug": "hertfordshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WELWYN HATFIELD"
+  ],
   "stats": {
     "medianPrice": 385000,
     "medianByType": {
-      "D": 716500,
-      "S": 510000,
-      "T": 365000,
-      "F": 215000
+      "D": 705000,
+      "S": 502500,
+      "T": 375000,
+      "F": 213000
     },
-    "transactionCount12m": 360,
-    "yoyChange": -3.1,
+    "transactionCount12m": 350,
+    "yoyChange": -0.4,
     "newBuildCount": 0,
-    "existingCount": 360,
+    "existingCount": 350,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 210000,
-      "date": "2026-05-15",
-      "postcode": "AL10 9DU",
+      "price": 225000,
+      "date": "2026-06-12",
+      "postcode": "AL9 7LR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, HUGGINS LANE"
+    },
+    {
+      "price": 207000,
+      "date": "2026-06-10",
+      "postcode": "AL9 5EG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "17, LANE END"
+      "address": "2, KINGS PLACE, NORTH DRIVE"
+    },
+    {
+      "price": 224000,
+      "date": "2026-06-10",
+      "postcode": "AL10 9UD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "62, AVIATION AVENUE"
+    },
+    {
+      "price": 343000,
+      "date": "2026-06-05",
+      "postcode": "AL10 8LQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "92, GARDEN AVENUE"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-05",
+      "postcode": "AL10 9LD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, BROAD ACRES"
+    },
+    {
+      "price": 385000,
+      "date": "2026-06-05",
+      "postcode": "AL10 8SF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "80, TRAVELLERS LANE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-04",
+      "postcode": "AL10 9LE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, BROAD ACRES"
+    },
+    {
+      "price": 355000,
+      "date": "2026-06-01",
+      "postcode": "AL10 8LH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "95, GARDEN AVENUE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-06-01",
+      "postcode": "AL10 9LR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CUNNINGHAM AVENUE"
+    },
+    {
+      "price": 97000,
+      "date": "2026-06-01",
+      "postcode": "AL9 5ES",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "25, NORTHCOTTS"
+    },
+    {
+      "price": 655000,
+      "date": "2026-05-29",
+      "postcode": "AL10 9FJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, BLUEBELL WAY"
+    },
+    {
+      "price": 495000,
+      "date": "2026-05-27",
+      "postcode": "AL10 0PF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, CRAWFORD ROAD"
+    },
+    {
+      "price": 217500,
+      "date": "2026-05-26",
+      "postcode": "AL10 8LW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT, 19, HOLLYFIELD"
+    },
+    {
+      "price": 720000,
+      "date": "2026-05-22",
+      "postcode": "AL9 7NR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, HOLLOWAYS LANE"
+    },
+    {
+      "price": 492000,
+      "date": "2026-05-22",
+      "postcode": "AL10 0RE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, CHELWOOD AVENUE"
+    },
+    {
+      "price": 245000,
+      "date": "2026-05-18",
+      "postcode": "AL9 5ES",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, NORTHCOTTS"
     },
     {
       "price": 346500,
@@ -46,157 +184,22 @@
       "address": "56, POOLEYS LANE"
     },
     {
-      "price": 468000,
-      "date": "2026-05-14",
-      "postcode": "AL9 7LW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, PUTTOCKS DRIVE"
-    },
-    {
-      "price": 465000,
-      "date": "2026-05-12",
-      "postcode": "AL10 8LU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, OAKLANDS WOOD"
-    },
-    {
-      "price": 1175000,
-      "date": "2026-05-12",
-      "postcode": "AL9 7TP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "EAST GABLES, 10, HOME FARM ROAD"
-    },
-    {
-      "price": 265000,
-      "date": "2026-05-08",
-      "postcode": "AL10 9QT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "298, BISHOPS RISE"
-    },
-    {
-      "price": 550000,
-      "date": "2026-05-08",
-      "postcode": "AL10 9HW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, CHANTRY LANE"
-    },
-    {
-      "price": 580000,
-      "date": "2026-05-08",
-      "postcode": "AL10 9HD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, VIGORS CROFT"
-    },
-    {
-      "price": 667500,
-      "date": "2026-05-07",
-      "postcode": "AL10 9FY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, CORNFLOWER WAY"
-    },
-    {
-      "price": 516000,
-      "date": "2026-05-07",
-      "postcode": "AL10 0HH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34A, GROUND LANE"
-    },
-    {
-      "price": 103000,
-      "date": "2026-05-05",
-      "postcode": "AL10 0BJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "42, JASMINE GARDENS"
-    },
-    {
-      "price": 375000,
-      "date": "2026-04-30",
-      "postcode": "AL10 0AT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, HEYFORD WAY"
-    },
-    {
-      "price": 481000,
-      "date": "2026-04-30",
-      "postcode": "AL10 0TW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, BRANCH CLOSE"
-    },
-    {
-      "price": 650000,
-      "date": "2026-04-29",
-      "postcode": "AL9 7UN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "93, BLUEBRIDGE ROAD"
-    },
-    {
       "price": 350000,
-      "date": "2026-04-28",
-      "postcode": "AL10 9GS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, GORSEWAY"
-    },
-    {
-      "price": 400000,
-      "date": "2026-04-27",
-      "postcode": "AL10 0UE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, WOOD COMMON"
-    },
-    {
-      "price": 88000,
-      "date": "2026-04-24",
-      "postcode": "AL9 5ES",
+      "date": "2026-05-15",
+      "postcode": "AL10 0FR",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "25, NORTHCOTTS"
+      "address": "FLAT 20, NEWTOWN HOUSE, TOWN CENTRE"
     },
     {
-      "price": 937500,
-      "date": "2026-04-24",
-      "postcode": "AL9 7UQ",
-      "propertyType": "S",
+      "price": 210000,
+      "date": "2026-05-15",
+      "postcode": "AL10 9DU",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "20, WESTLAND DRIVE"
-    },
-    {
-      "price": 745000,
-      "date": "2026-04-24",
-      "postcode": "AL9 7UJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54, OAKLANDS AVENUE"
+      "tenure": "L",
+      "address": "17, LANE END"
     }
   ],
   "monthlyHistory": [
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 400000,
-      "transactions": 130
+      "transactions": 131
     },
     {
       "month": "2025-04",
@@ -282,68 +285,73 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 330000,
-      "transactions": 31
+      "medianPrice": 332500,
+      "transactions": 32
     },
     {
       "month": "2025-06",
-      "medianPrice": 375000,
-      "transactions": 39
+      "medianPrice": 370500,
+      "transactions": 42
     },
     {
       "month": "2025-07",
-      "medianPrice": 370000,
-      "transactions": 48
+      "medianPrice": 350000,
+      "transactions": 51
     },
     {
       "month": "2025-08",
-      "medianPrice": 402500,
-      "transactions": 36
+      "medianPrice": 390000,
+      "transactions": 39
     },
     {
       "month": "2025-09",
       "medianPrice": 408500,
-      "transactions": 32
+      "transactions": 34
     },
     {
       "month": "2025-10",
-      "medianPrice": 360000,
-      "transactions": 49
+      "medianPrice": 358500,
+      "transactions": 50
     },
     {
       "month": "2025-11",
-      "medianPrice": 460000,
-      "transactions": 37
+      "medianPrice": 461000,
+      "transactions": 38
     },
     {
       "month": "2025-12",
-      "medianPrice": 375000,
-      "transactions": 35
+      "medianPrice": 380000,
+      "transactions": 39
     },
     {
       "month": "2026-01",
-      "medianPrice": 475000,
-      "transactions": 25
+      "medianPrice": 425000,
+      "transactions": 29
     },
     {
       "month": "2026-02",
-      "medianPrice": 409500,
-      "transactions": 30
+      "medianPrice": 420500,
+      "transactions": 32
     },
     {
       "month": "2026-03",
-      "medianPrice": 335000,
-      "transactions": 40
+      "medianPrice": 340000,
+      "transactions": 41
     },
     {
       "month": "2026-04",
-      "medianPrice": 366250,
-      "transactions": 22
+      "medianPrice": 357500,
+      "transactions": 23
     },
     {
       "month": "2026-05",
-      "medianPrice": 492000,
-      "transactions": 12
+      "medianPrice": 480000,
+      "transactions": 20
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 349000,
+      "transactions": 10
     }
   ],
   "quarterlyHistory": [
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 409000,
-      "transactions": 218
+      "medianPrice": 410000,
+      "transactions": 219
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 360000,
-      "transactions": 93
+      "medianPrice": 350000,
+      "transactions": 97
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 390000,
-      "transactions": 116
+      "medianPrice": 376000,
+      "transactions": 124
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 390000,
-      "transactions": 121
+      "transactions": 127
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 375000,
-      "transactions": 95
+      "medianPrice": 380500,
+      "transactions": 102
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 411000,
-      "transactions": 34
+      "medianPrice": 370000,
+      "transactions": 53
     }
   ]
 }

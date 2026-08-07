@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.438Z",
+  "updatedAt": "2026-08-07T08:45:03.656Z",
   "townSlug": "ipswich",
   "countySlug": "suffolk",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "IPSWICH"
+  ],
   "stats": {
-    "medianPrice": 227500,
+    "medianPrice": 230000,
     "medianByType": {
       "D": 365000,
       "S": 255000,
-      "T": 200000,
+      "T": 202500,
       "F": 125000
     },
-    "transactionCount12m": 1471,
-    "yoyChange": -1.1,
-    "newBuildCount": 16,
-    "existingCount": 1455,
-    "newBuildPremium": 35.8
+    "transactionCount12m": 1451,
+    "yoyChange": 0.9,
+    "newBuildCount": 28,
+    "existingCount": 1423,
+    "newBuildPremium": 0.4
   },
   "recentTransactions": [
     {
-      "price": 122000,
-      "date": "2026-05-27",
-      "postcode": "IP1 2LB",
+      "price": 260000,
+      "date": "2026-06-26",
+      "postcode": "IP3 0QE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62, OULTON ROAD"
+    },
+    {
+      "price": 268000,
+      "date": "2026-06-22",
+      "postcode": "IP4 4AE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, WHITBY ROAD"
+    },
+    {
+      "price": 205000,
+      "date": "2026-06-22",
+      "postcode": "IP2 8LF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "87, SIRDAR ROAD"
+      "address": "330, WHERSTEAD ROAD"
     },
     {
-      "price": 165000,
-      "date": "2026-05-26",
-      "postcode": "IP4 2JA",
+      "price": 180000,
+      "date": "2026-06-22",
+      "postcode": "IP4 4EQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, BOSTON ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-19",
+      "postcode": "IP1 6AP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, ROSECROFT ROAD"
+    },
+    {
+      "price": 303000,
+      "date": "2026-06-19",
+      "postcode": "IP1 3NZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "50, CEMETERY ROAD"
+      "address": "37, ALPE STREET"
     },
     {
-      "price": 55000,
-      "date": "2026-05-26",
-      "postcode": "IP4 2DF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, 55, CHRISTCHURCH STREET"
-    },
-    {
-      "price": 187600,
-      "date": "2026-05-22",
-      "postcode": "IP2 8EN",
-      "propertyType": "T",
+      "price": 235000,
+      "date": "2026-06-19",
+      "postcode": "IP1 4EW",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, SEYMOUR ROAD"
+      "address": "34, SPRINGFIELD LANE"
     },
     {
-      "price": 598000,
-      "date": "2026-05-22",
-      "postcode": "IP2 9AL",
+      "price": 275000,
+      "date": "2026-06-17",
+      "postcode": "IP3 9BY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, ASCOT DRIVE"
+    },
+    {
+      "price": 305000,
+      "date": "2026-06-15",
+      "postcode": "IP4 4HD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, LONSDALE CLOSE"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-12",
+      "postcode": "IP4 5SD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, OAK HILL LANE"
+      "address": "17C, GLENEAGLES DRIVE"
     },
     {
-      "price": 240000,
-      "date": "2026-05-21",
-      "postcode": "IP3 8BT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, UPPER CAVENDISH STREET"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-19",
-      "postcode": "IP3 8HN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "94, FOXHALL ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-15",
-      "postcode": "IP4 5BT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, UPLAND ROAD"
-    },
-    {
-      "price": 146000,
-      "date": "2026-05-15",
-      "postcode": "IP4 2AE",
+      "price": 115000,
+      "date": "2026-06-12",
+      "postcode": "IP1 2BN",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "60, BRAMLEY HILL"
+      "address": "19, CHURCHMAN HOUSE, PORTMAN ROAD"
     },
     {
-      "price": 215000,
-      "date": "2026-05-13",
-      "postcode": "IP1 4BY",
+      "price": 207000,
+      "date": "2026-06-12",
+      "postcode": "IP3 8GP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, BROOKS HALL ROAD"
+      "address": "48, BULL ROAD"
     },
     {
-      "price": 265000,
-      "date": "2026-05-12",
-      "postcode": "IP1 6RE",
+      "price": 105000,
+      "date": "2026-06-12",
+      "postcode": "IP2 8GA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "8, MERRILL HEIGHTS, MAIDENHALL APPROACH"
+    },
+    {
+      "price": 385000,
+      "date": "2026-06-12",
+      "postcode": "IP3 8QW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, WIMBORNE AVENUE"
+    },
+    {
+      "price": 307000,
+      "date": "2026-06-11",
+      "postcode": "IP4 4DH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, SANDOWN ROAD"
+      "address": "62, KINGSGATE DRIVE"
     },
     {
-      "price": 215000,
-      "date": "2026-05-12",
-      "postcode": "IP1 5AR",
+      "price": 125000,
+      "date": "2026-06-10",
+      "postcode": "IP4 1DT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "19, TURRET LANE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-10",
+      "postcode": "IP3 0BB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 804, 51, PATTESON ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-10",
+      "postcode": "IP3 9LH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, THEBE CLOSE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-12",
-      "postcode": "IP2 9ND",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "74, PLOVER ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-12",
-      "postcode": "IP4 5NG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "356, SPRING ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-11",
-      "postcode": "IP3 9PG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "107, MILDMAY ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-11",
-      "postcode": "IP1 4BZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "67, BROOKS HALL ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-08",
-      "postcode": "IP1 4EB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, BLENHEIM ROAD"
-    },
-    {
-      "price": 155000,
-      "date": "2026-05-08",
-      "postcode": "IP1 6JS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "480, NORWICH ROAD"
+      "address": "21, CLARENCE ROAD"
     },
     {
       "price": 175000,
-      "date": "2026-05-07",
-      "postcode": "IP4 4NG",
-      "propertyType": "T",
+      "date": "2026-06-08",
+      "postcode": "IP3 8HU",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "40, SCHREIBER ROAD"
+      "address": "34, PEARCE ROAD"
     },
     {
-      "price": 200000,
-      "date": "2026-05-07",
-      "postcode": "IP2 0NH",
+      "price": 205000,
+      "date": "2026-06-08",
+      "postcode": "IP4 5EG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, ASTER ROAD"
+      "address": "19, HENSLOW ROAD"
     }
   ],
   "monthlyHistory": [
@@ -258,12 +261,12 @@
     {
       "month": "2024-12",
       "medianPrice": 235000,
-      "transactions": 158
+      "transactions": 159
     },
     {
       "month": "2025-01",
       "medianPrice": 225000,
-      "transactions": 140
+      "transactions": 141
     },
     {
       "month": "2025-02",
@@ -283,67 +286,72 @@
     {
       "month": "2025-05",
       "medianPrice": 205000,
-      "transactions": 120
+      "transactions": 121
     },
     {
       "month": "2025-06",
-      "medianPrice": 213000,
-      "transactions": 151
+      "medianPrice": 215000,
+      "transactions": 153
     },
     {
       "month": "2025-07",
       "medianPrice": 210000,
-      "transactions": 207
+      "transactions": 209
     },
     {
       "month": "2025-08",
       "medianPrice": 232000,
-      "transactions": 163
+      "transactions": 173
     },
     {
       "month": "2025-09",
-      "medianPrice": 237000,
-      "transactions": 163
+      "medianPrice": 235000,
+      "transactions": 171
     },
     {
       "month": "2025-10",
-      "medianPrice": 235000,
-      "transactions": 202
+      "medianPrice": 232500,
+      "transactions": 204
     },
     {
       "month": "2025-11",
-      "medianPrice": 225000,
-      "transactions": 145
+      "medianPrice": 230000,
+      "transactions": 152
     },
     {
       "month": "2025-12",
-      "medianPrice": 245000,
-      "transactions": 131
+      "medianPrice": 247260,
+      "transactions": 137
     },
     {
       "month": "2026-01",
-      "medianPrice": 213200,
-      "transactions": 140
+      "medianPrice": 225000,
+      "transactions": 149
     },
     {
       "month": "2026-02",
-      "medianPrice": 225000,
-      "transactions": 103
+      "medianPrice": 226500,
+      "transactions": 107
     },
     {
       "month": "2026-03",
       "medianPrice": 220000,
-      "transactions": 126
+      "transactions": 136
     },
     {
       "month": "2026-04",
       "medianPrice": 240000,
-      "transactions": 92
+      "transactions": 100
     },
     {
       "month": "2026-05",
       "medianPrice": 202000,
-      "transactions": 40
+      "transactions": 112
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 265000,
+      "transactions": 35
     }
   ],
   "quarterlyHistory": [
@@ -364,38 +372,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 235000,
-      "transactions": 557
+      "medianPrice": 235500,
+      "transactions": 558
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 235000,
-      "transactions": 590
+      "transactions": 591
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 210000,
-      "transactions": 379
+      "medianPrice": 211250,
+      "transactions": 382
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 228000,
-      "transactions": 533
+      "medianPrice": 226000,
+      "transactions": 553
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 235000,
-      "transactions": 478
+      "transactions": 493
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 220000,
-      "transactions": 369
+      "transactions": 392
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 231000,
-      "transactions": 132
+      "medianPrice": 230000,
+      "transactions": 247
     }
   ]
 }

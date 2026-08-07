@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.440Z",
+  "updatedAt": "2026-08-07T08:45:01.861Z",
   "townSlug": "filton",
   "countySlug": "bristol",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTH GLOUCESTERSHIRE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 330000,
-    "transactionCount12m": 3193,
-    "yoyPriceChange": -2.9,
+    "medianPrice": 335000,
+    "transactionCount12m": 3185,
+    "yoyPriceChange": -1.5,
     "approvedApps12m": 0,
-    "pipelineUnits": 539,
-    "pipelineGdv": 177683850,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 425,
+    "pipelineGdv": 140108750,
     "approvalRate": 0
   }
 }

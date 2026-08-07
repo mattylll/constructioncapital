@@ -1,23 +1,153 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.463Z",
+  "updatedAt": "2026-08-07T08:45:03.686Z",
   "townSlug": "newmarket",
   "countySlug": "suffolk",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WEST SUFFOLK",
+    "FOREST HEATH"
+  ],
   "stats": {
-    "medianPrice": 285000,
+    "medianPrice": 283000,
     "medianByType": {
-      "D": 520000,
+      "D": 500000,
       "S": 295000,
       "T": 240000,
       "F": 175000
     },
-    "transactionCount12m": 348,
-    "yoyChange": -5,
-    "newBuildCount": 3,
-    "existingCount": 345,
-    "newBuildPremium": 96.1
+    "transactionCount12m": 329,
+    "yoyChange": -5.7,
+    "newBuildCount": 2,
+    "existingCount": 327,
+    "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 350000,
+      "date": "2026-06-12",
+      "postcode": "CB8 8ST",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, MALTINGS CLOSE"
+    },
+    {
+      "price": 393500,
+      "date": "2026-06-12",
+      "postcode": "CB8 0AQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, CROFT ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-12",
+      "postcode": "CB8 0QQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "114, VALLEY WAY"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-12",
+      "postcode": "CB8 0BH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, GORDON RICHARDS CLOSE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-06-11",
+      "postcode": "CB8 8AF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, STANLEY ROAD"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-08",
+      "postcode": "CB8 0BY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "86, CHURCHILL AVENUE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-01",
+      "postcode": "CB8 0JS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, LOWTHER STREET"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-01",
+      "postcode": "CB8 0DU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, TOM JENNINGS CLOSE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-05-29",
+      "postcode": "CB8 0DG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ANDREW ROAD"
+    },
+    {
+      "price": 211000,
+      "date": "2026-05-29",
+      "postcode": "CB8 9AT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, BRIDLEMERE COURT"
+    },
+    {
+      "price": 370000,
+      "date": "2026-05-29",
+      "postcode": "CB8 0EU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, KING EDWARD VII ROAD"
+    },
+    {
+      "price": 197000,
+      "date": "2026-05-28",
+      "postcode": "CB8 0AQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, CROFT COTTAGES, CROFT ROAD"
+    },
+    {
+      "price": 345000,
+      "date": "2026-05-27",
+      "postcode": "CB8 8XY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE BEECHES, 1A, BUNTERS ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-05-27",
+      "postcode": "CB8 7AR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "225, PINZA CLOSE"
+    },
     {
       "price": 313000,
       "date": "2026-05-26",
@@ -46,157 +176,31 @@
       "address": "FLAT 6, GRAHAM HOUSE, BIRDCAGE WALK"
     },
     {
-      "price": 467000,
-      "date": "2026-05-08",
-      "postcode": "CB8 8RF",
+      "price": 285000,
+      "date": "2026-05-19",
+      "postcode": "CB8 7JA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, THE GREEN"
+      "address": "9, BLUEBELL DRIVE"
     },
     {
-      "price": 585000,
-      "date": "2026-05-08",
-      "postcode": "CB8 8GW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, THE MEADOWS"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-01",
-      "postcode": "CB8 7HB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "79, CHAPEL STREET"
-    },
-    {
-      "price": 442500,
-      "date": "2026-05-01",
-      "postcode": "CB8 8AD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19 - 21, CHEVELEY ROAD"
-    },
-    {
-      "price": 248000,
-      "date": "2026-05-01",
-      "postcode": "CB8 8BX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "201, NEW CHEVELEY ROAD"
-    },
-    {
-      "price": 193500,
-      "date": "2026-05-01",
-      "postcode": "CB8 0AQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, CROFT ROAD"
-    },
-    {
-      "price": 315000,
-      "date": "2026-04-30",
-      "postcode": "CB8 7BW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "502, NIMBUS WAY"
-    },
-    {
-      "price": 243000,
-      "date": "2026-04-29",
-      "postcode": "CB8 7FP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "25, THE MALTINGS, BREWERS LANE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-04-23",
-      "postcode": "CB8 7FX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, SAXON HALL ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-04-23",
-      "postcode": "CB8 8EZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, GRANBY STREET"
-    },
-    {
-      "price": 227000,
-      "date": "2026-04-20",
-      "postcode": "CB8 9JS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "13, FAIRLAWNS"
-    },
-    {
-      "price": 305000,
-      "date": "2026-04-17",
-      "postcode": "CB8 0NL",
+      "price": 150000,
+      "date": "2026-05-18",
+      "postcode": "CB8 0SY",
       "propertyType": "S",
       "newBuild": false,
-      "tenure": "F",
-      "address": "15, MANDERSTON ROAD"
-    },
-    {
-      "price": 920000,
-      "date": "2026-04-17",
-      "postcode": "CB8 8UN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MEADOWBROOK, THE DUDDERY"
-    },
-    {
-      "price": 122000,
-      "date": "2026-04-17",
-      "postcode": "CB8 8EZ",
-      "propertyType": "F",
-      "newBuild": false,
       "tenure": "L",
-      "address": "UNIT 2, PARK LANE HOUSE, 65, GRANBY STREET"
+      "address": "10, FRAMPTON CLOSE"
     },
     {
-      "price": 147500,
-      "date": "2026-04-17",
-      "postcode": "CB8 8EZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "UNIT 6, PARK LANE HOUSE, 65, GRANBY STREET"
-    },
-    {
-      "price": 435000,
-      "date": "2026-04-17",
-      "postcode": "CB8 7GQ",
+      "price": 265000,
+      "date": "2026-05-18",
+      "postcode": "CB8 0AG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, TUTTE GARDENS"
-    },
-    {
-      "price": 185000,
-      "date": "2026-04-16",
-      "postcode": "CB8 7BB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "406, AUREOLE WALK"
+      "address": "8, GRIFFIN GARDENS"
     }
   ],
   "monthlyHistory": [
@@ -227,8 +231,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 338000,
-      "transactions": 50
+      "medianPrice": 336000,
+      "transactions": 51
     },
     {
       "month": "2024-07",
@@ -297,38 +301,38 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 327500,
-      "transactions": 46
+      "medianPrice": 322500,
+      "transactions": 48
     },
     {
       "month": "2025-09",
-      "medianPrice": 255000,
-      "transactions": 43
-    },
-    {
-      "month": "2025-10",
-      "medianPrice": 290000,
+      "medianPrice": 254500,
       "transactions": 44
     },
     {
+      "month": "2025-10",
+      "medianPrice": 300000,
+      "transactions": 47
+    },
+    {
       "month": "2025-11",
-      "medianPrice": 265000,
-      "transactions": 43
+      "medianPrice": 265500,
+      "transactions": 44
     },
     {
       "month": "2025-12",
-      "medianPrice": 359000,
-      "transactions": 34
+      "medianPrice": 375000,
+      "transactions": 37
     },
     {
       "month": "2026-01",
       "medianPrice": 250000,
-      "transactions": 15
+      "transactions": 19
     },
     {
       "month": "2026-02",
-      "medianPrice": 281500,
-      "transactions": 22
+      "medianPrice": 279000,
+      "transactions": 24
     },
     {
       "month": "2026-03",
@@ -337,13 +341,18 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 237750,
-      "transactions": 20
+      "medianPrice": 243000,
+      "transactions": 23
     },
     {
       "month": "2026-05",
-      "medianPrice": 313000,
-      "transactions": 9
+      "medianPrice": 270000,
+      "transactions": 21
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 275000,
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -355,7 +364,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 280000,
-      "transactions": 130
+      "transactions": 131
     },
     {
       "quarter": "2024-Q3",
@@ -380,22 +389,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 290000,
-      "transactions": 143
+      "transactions": 146
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 300000,
-      "transactions": 121
+      "medianPrice": 312500,
+      "transactions": 128
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 266500,
-      "transactions": 62
+      "transactions": 68
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 265000,
-      "transactions": 29
+      "transactions": 52
     }
   ]
 }

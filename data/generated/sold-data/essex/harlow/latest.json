@@ -1,209 +1,212 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.601Z",
+  "updatedAt": "2026-08-07T08:45:01.726Z",
   "townSlug": "harlow",
   "countySlug": "essex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HARLOW"
+  ],
   "stats": {
     "medianPrice": 335000,
     "medianByType": {
       "D": 520000,
       "S": 425000,
-      "T": 334750,
-      "F": 200000
+      "T": 334500,
+      "F": 205000
     },
-    "transactionCount12m": 845,
-    "yoyChange": 2.4,
-    "newBuildCount": 3,
-    "existingCount": 842,
-    "newBuildPremium": 41.8
+    "transactionCount12m": 833,
+    "yoyChange": 1.5,
+    "newBuildCount": 2,
+    "existingCount": 831,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 200000,
-      "date": "2026-05-27",
-      "postcode": "CM20 2LJ",
+      "price": 220000,
+      "date": "2026-06-26",
+      "postcode": "CM17 0EY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "12, TANYS DELL"
+      "address": "15, MULBERRY GREEN"
     },
     {
-      "price": 220900,
-      "date": "2026-05-26",
-      "postcode": "CM18 6QQ",
+      "price": 315000,
+      "date": "2026-06-24",
+      "postcode": "CM18 7EG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "81, HOOKFIELD"
+      "address": "126, RADBURN CLOSE"
     },
     {
-      "price": 345000,
-      "date": "2026-05-22",
-      "postcode": "CM17 0AB",
+      "price": 350000,
+      "date": "2026-06-19",
+      "postcode": "CM17 9FJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, FORE STREET"
+      "address": "23A, BRICKCROFT HOPPIT"
     },
     {
-      "price": 358750,
-      "date": "2026-05-22",
-      "postcode": "CM17 9WH",
+      "price": 225000,
+      "date": "2026-06-18",
+      "postcode": "CM17 9TA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "36, VICTORIA GATE"
+    },
+    {
+      "price": 330000,
+      "date": "2026-06-18",
+      "postcode": "CM20 1QD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, ASH TREE FIELD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-18",
+      "postcode": "CM20 1PN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "250, THE HORNBEAMS"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-17",
+      "postcode": "CM19 5RH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "186, LITTLE CATTINS"
+    },
+    {
+      "price": 377000,
+      "date": "2026-06-17",
+      "postcode": "CM18 6YQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, OLD ORCHARD"
+    },
+    {
+      "price": 342500,
+      "date": "2026-06-12",
+      "postcode": "CM19 4AR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, HARE STREET SPRINGS"
+    },
+    {
+      "price": 400000,
+      "date": "2026-06-12",
+      "postcode": "CM18 6EU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "231, LITTLE BRAYS"
+    },
+    {
+      "price": 412000,
+      "date": "2026-06-12",
+      "postcode": "CM17 9HF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "42, MALKIN DRIVE"
+      "address": "30, RIDGEWAYS"
     },
     {
-      "price": 370000,
-      "date": "2026-05-22",
-      "postcode": "CM18 7SR",
+      "price": 312000,
+      "date": "2026-06-12",
+      "postcode": "CM18 7HG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, SPRUCE HILL"
+      "address": "223, RUNDELLS"
     },
     {
-      "price": 195000,
-      "date": "2026-05-22",
-      "postcode": "CM20 1AY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "146, TORKILDSEN WAY"
-    },
-    {
-      "price": 720000,
-      "date": "2026-05-22",
-      "postcode": "CM18 6QZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SUNNYSIDE, TYE GREEN VILLAGE"
-    },
-    {
-      "price": 385000,
-      "date": "2026-05-21",
-      "postcode": "CM18 6RH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, BUSHEY CROFT"
-    },
-    {
-      "price": 420000,
-      "date": "2026-05-20",
-      "postcode": "CM18 7JN",
+      "price": 380000,
+      "date": "2026-06-12",
+      "postcode": "CM20 2JZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, CORNER MEADOW"
-    },
-    {
-      "price": 306000,
-      "date": "2026-05-18",
-      "postcode": "CM18 7HH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "274, RUNDELLS"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-18",
-      "postcode": "CM18 6RX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "120, WILLOWFIELD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-15",
-      "postcode": "CM19 5SA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "31, MALLOWS GREEN"
+      "address": "45, BROOMFIELD"
     },
     {
       "price": 325000,
-      "date": "2026-05-15",
-      "postcode": "CM19 4DQ",
+      "date": "2026-06-11",
+      "postcode": "CM17 9PH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "153, NORTHBROOKS"
+      "address": "120, HADLEY GRANGE"
     },
     {
-      "price": 200000,
-      "date": "2026-05-15",
-      "postcode": "CM20 2GD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, BROMLEY CLOSE"
-    },
-    {
-      "price": 336000,
-      "date": "2026-05-15",
-      "postcode": "CM17 9QJ",
+      "price": 314137,
+      "date": "2026-06-09",
+      "postcode": "CM18 7AJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, ELWOOD"
+      "address": "61, UPPER MEALINES"
     },
     {
-      "price": 403000,
-      "date": "2026-05-15",
-      "postcode": "CM19 4BU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, LITTLE GROVE FIELD"
-    },
-    {
-      "price": 662500,
-      "date": "2026-05-15",
-      "postcode": "CM17 9WG",
+      "price": 520000,
+      "date": "2026-06-05",
+      "postcode": "CM17 9XA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "84, WHIELDON GRANGE"
+      "address": "25, CHALLINOR"
     },
     {
-      "price": 342000,
-      "date": "2026-05-14",
-      "postcode": "CM18 7AD",
+      "price": 650000,
+      "date": "2026-06-05",
+      "postcode": "CM18 6PX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, UPPER HOOK"
+    },
+    {
+      "price": 417500,
+      "date": "2026-06-05",
+      "postcode": "CM20 3JS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "250, HALLING HILL"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-03",
+      "postcode": "CM17 9QG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "88, SPINNING WHEEL MEAD"
+      "address": "89, ALBERT GARDENS"
     },
     {
-      "price": 185000,
-      "date": "2026-05-13",
-      "postcode": "CM20 1PG",
-      "propertyType": "F",
+      "price": 325000,
+      "date": "2026-06-03",
+      "postcode": "CM18 6PG",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "41, HORNBEAMS"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-13",
-      "postcode": "CM19 4HZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, HAWKENBURY"
+      "tenure": "F",
+      "address": "3, THE FORTUNES"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
       "medianPrice": 300000,
-      "transactions": 81
+      "transactions": 82
     },
     {
       "month": "2024-02",
@@ -212,8 +215,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 322000,
-      "transactions": 107
+      "medianPrice": 322500,
+      "transactions": 108
     },
     {
       "month": "2024-04",
@@ -257,8 +260,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 330000,
-      "transactions": 101
+      "medianPrice": 327500,
+      "transactions": 103
     },
     {
       "month": "2025-01",
@@ -267,90 +270,95 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 336500,
-      "transactions": 114
+      "medianPrice": 339000,
+      "transactions": 115
     },
     {
       "month": "2025-03",
-      "medianPrice": 340000,
-      "transactions": 223
+      "medianPrice": 345000,
+      "transactions": 228
     },
     {
       "month": "2025-04",
       "medianPrice": 305000,
-      "transactions": 56
+      "transactions": 57
     },
     {
       "month": "2025-05",
-      "medianPrice": 322500,
-      "transactions": 92
+      "medianPrice": 325000,
+      "transactions": 93
     },
     {
       "month": "2025-06",
       "medianPrice": 325000,
-      "transactions": 86
+      "transactions": 89
     },
     {
       "month": "2025-07",
-      "medianPrice": 321500,
-      "transactions": 115
+      "medianPrice": 325000,
+      "transactions": 117
     },
     {
       "month": "2025-08",
       "medianPrice": 340000,
-      "transactions": 95
+      "transactions": 99
     },
     {
       "month": "2025-09",
       "medianPrice": 350000,
-      "transactions": 95
+      "transactions": 99
     },
     {
       "month": "2025-10",
       "medianPrice": 345000,
-      "transactions": 97
+      "transactions": 99
     },
     {
       "month": "2025-11",
       "medianPrice": 320000,
-      "transactions": 74
+      "transactions": 75
     },
     {
       "month": "2025-12",
       "medianPrice": 325000,
-      "transactions": 103
+      "transactions": 112
     },
     {
       "month": "2026-01",
       "medianPrice": 345000,
-      "transactions": 53
+      "transactions": 58
     },
     {
       "month": "2026-02",
-      "medianPrice": 334500,
-      "transactions": 66
+      "medianPrice": 335000,
+      "transactions": 69
     },
     {
       "month": "2026-03",
-      "medianPrice": 312500,
-      "transactions": 70
+      "medianPrice": 315000,
+      "transactions": 73
     },
     {
       "month": "2026-04",
-      "medianPrice": 335000,
-      "transactions": 61
+      "medianPrice": 332500,
+      "transactions": 66
     },
     {
       "month": "2026-05",
-      "medianPrice": 342000,
-      "transactions": 35
+      "medianPrice": 347500,
+      "transactions": 70
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 336250,
+      "transactions": 26
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 315000,
-      "transactions": 276
+      "transactions": 278
     },
     {
       "quarter": "2024-Q2",
@@ -364,38 +372,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 327500,
-      "transactions": 359
+      "medianPrice": 327000,
+      "transactions": 361
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 340500,
-      "transactions": 411
+      "medianPrice": 345000,
+      "transactions": 417
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 320000,
-      "transactions": 234
+      "transactions": 239
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 335000,
-      "transactions": 305
+      "transactions": 315
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 330000,
-      "transactions": 274
+      "medianPrice": 328500,
+      "transactions": 286
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 335000,
-      "transactions": 189
+      "transactions": 200
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 337000,
-      "transactions": 96
+      "medianPrice": 340000,
+      "transactions": 162
     }
   ]
 }

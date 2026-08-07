@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:54.515Z",
+  "updatedAt": "2026-08-07T08:45:00.580Z",
   "townSlug": "woolwich",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GREENWICH"
+  ],
   "stats": {
     "medianPrice": 450000,
     "medianByType": {
-      "D": 715000,
-      "S": 560000,
-      "T": 485000,
-      "F": 362500
+      "D": 685000,
+      "S": 565000,
+      "T": 482000,
+      "F": 355000
     },
-    "transactionCount12m": 1936,
-    "yoyChange": 0.6,
-    "newBuildCount": 22,
-    "existingCount": 1914,
+    "transactionCount12m": 1933,
+    "yoyChange": 1.1,
+    "newBuildCount": 23,
+    "existingCount": 1910,
     "newBuildPremium": -28.2
   },
   "recentTransactions": [
     {
-      "price": 474995,
-      "date": "2026-05-26",
-      "postcode": "SE18 2JE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, WELTON ROAD"
-    },
-    {
-      "price": 615000,
-      "date": "2026-05-22",
-      "postcode": "SE9 3NB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, LEYSDOWN ROAD"
-    },
-    {
-      "price": 346500,
-      "date": "2026-05-22",
-      "postcode": "SE7 8QS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 110, CHARLTON PARK LANE"
-    },
-    {
-      "price": 297000,
-      "date": "2026-05-22",
-      "postcode": "SE28 0PA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, LONG ACRE HOUSE, PETTACRE CLOSE"
-    },
-    {
-      "price": 445000,
-      "date": "2026-05-22",
-      "postcode": "SE10 8GX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, AMPARO HOUSE, 2, BURNEY STREET"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-19",
-      "postcode": "SE28 0EG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, GARRICK DRIVE"
-    },
-    {
-      "price": 476000,
-      "date": "2026-05-18",
-      "postcode": "SE18 2LH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, LANDSTEAD ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-18",
-      "postcode": "SE18 7SX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11D, VICARAGE PARK"
-    },
-    {
-      "price": 710000,
-      "date": "2026-05-15",
-      "postcode": "SE10 8QF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1A, ROYAL PLACE"
-    },
-    {
-      "price": 500000,
-      "date": "2026-05-15",
-      "postcode": "SE9 6BG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, FARNABY ROAD"
-    },
-    {
-      "price": 298000,
-      "date": "2026-05-15",
-      "postcode": "SE10 9EB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 36, EMPIRE REACH, 4, DOWELLS STREET"
-    },
-    {
-      "price": 398000,
-      "date": "2026-05-15",
-      "postcode": "SE18 6QN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1207, FORBES APARTMENTS, 6, BRIGADIER WALK"
-    },
-    {
-      "price": 345950,
-      "date": "2026-05-13",
-      "postcode": "SE12 9DX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "194, ALNWICK ROAD"
-    },
-    {
-      "price": 550000,
-      "date": "2026-05-12",
-      "postcode": "SE10 0TQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 28, POLDO HOUSE, 24, CABLE WALK"
-    },
-    {
-      "price": 500000,
-      "date": "2026-05-12",
-      "postcode": "SE7 7NX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "129C, VICTORIA WAY"
-    },
-    {
-      "price": 750000,
-      "date": "2026-05-12",
-      "postcode": "SE18 6SY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19, HASTINGS STREET"
-    },
-    {
-      "price": 540000,
-      "date": "2026-05-12",
-      "postcode": "SE2 0NT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "313, WICKHAM LANE"
-    },
-    {
-      "price": 318000,
-      "date": "2026-05-12",
-      "postcode": "SE18 2SF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "100, TIMBERCROFT LANE"
-    },
-    {
-      "price": 670000,
-      "date": "2026-05-12",
-      "postcode": "SE3 0AF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, THE KEEP"
-    },
-    {
       "price": 495000,
-      "date": "2026-05-11",
-      "postcode": "SE3 7RS",
+      "date": "2026-06-26",
+      "postcode": "SE10 8LQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "160, SEREN PARK GARDENS"
+      "address": "FLAT 37, ROAN COURT, 60, DEVONSHIRE DRIVE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-06-25",
+      "postcode": "SE18 1EA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, MARMADON ROAD"
+    },
+    {
+      "price": 535000,
+      "date": "2026-06-25",
+      "postcode": "SE10 9ET",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, EARLSWOOD STREET"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-25",
+      "postcode": "SE28 8LH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, AISHER ROAD"
+    },
+    {
+      "price": 588500,
+      "date": "2026-06-19",
+      "postcode": "SE9 3JU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MOLESCROFT"
+    },
+    {
+      "price": 765000,
+      "date": "2026-06-18",
+      "postcode": "SE7 7JH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, HOPEDALE ROAD"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-18",
+      "postcode": "SE3 8AF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, SCARSBROOK ROAD"
+    },
+    {
+      "price": 390000,
+      "date": "2026-06-18",
+      "postcode": "SE10 9GH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 403, CYRIUS HOUSE, 15, BARDSLEY LANE"
+    },
+    {
+      "price": 415000,
+      "date": "2026-06-17",
+      "postcode": "SE18 6YJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1202, AXELL HOUSE, 41, WELLINGTON STREET"
+    },
+    {
+      "price": 470000,
+      "date": "2026-06-17",
+      "postcode": "SE10 9EA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 64, DUNDAS COURT, 29, DOWELLS STREET"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-16",
+      "postcode": "SE2 0YN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "60, KNEE HILL CRESCENT"
+    },
+    {
+      "price": 365000,
+      "date": "2026-06-15",
+      "postcode": "SE18 1PY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, SLADEDALE ROAD"
+    },
+    {
+      "price": 467000,
+      "date": "2026-06-15",
+      "postcode": "SE10 9LY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 9, MAZE HILL LODGE, PARK VISTA"
+    },
+    {
+      "price": 125000,
+      "date": "2026-06-15",
+      "postcode": "SE7 7HP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 24, ST. JOSEPHS COURT, BRAMHOPE LANE"
+    },
+    {
+      "price": 775000,
+      "date": "2026-06-15",
+      "postcode": "SE10 0YW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 708, 8, CUTTER LANE"
+    },
+    {
+      "price": 680000,
+      "date": "2026-06-12",
+      "postcode": "SE18 4LX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "254, SHOOTERS HILL ROAD"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-12",
+      "postcode": "SE18 1PX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "95, SLADEDALE ROAD"
+    },
+    {
+      "price": 462500,
+      "date": "2026-06-12",
+      "postcode": "SE18 1AN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, COXWELL ROAD"
+    },
+    {
+      "price": 320000,
+      "date": "2026-06-12",
+      "postcode": "SE12 8JH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "145, LYME FARM ROAD"
+    },
+    {
+      "price": 267000,
+      "date": "2026-06-12",
+      "postcode": "SE28 8FY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "322, GREENHAVEN DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -243,27 +246,27 @@
     {
       "month": "2024-09",
       "medianPrice": 450000,
-      "transactions": 324
+      "transactions": 326
     },
     {
       "month": "2024-10",
-      "medianPrice": 441800,
-      "transactions": 340
+      "medianPrice": 441600,
+      "transactions": 341
     },
     {
       "month": "2024-11",
-      "medianPrice": 428500,
-      "transactions": 396
+      "medianPrice": 429500,
+      "transactions": 398
     },
     {
       "month": "2024-12",
       "medianPrice": 427495,
-      "transactions": 297
+      "transactions": 299
     },
     {
       "month": "2025-01",
       "medianPrice": 445000,
-      "transactions": 289
+      "transactions": 290
     },
     {
       "month": "2025-02",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 450000,
-      "transactions": 697
+      "transactions": 701
     },
     {
       "month": "2025-04",
@@ -283,67 +286,72 @@
     {
       "month": "2025-05",
       "medianPrice": 450000,
-      "transactions": 171
+      "transactions": 173
     },
     {
       "month": "2025-06",
-      "medianPrice": 450000,
-      "transactions": 236
+      "medianPrice": 449000,
+      "transactions": 239
     },
     {
       "month": "2025-07",
-      "medianPrice": 447250,
-      "transactions": 266
+      "medianPrice": 447000,
+      "transactions": 271
     },
     {
       "month": "2025-08",
-      "medianPrice": 450000,
-      "transactions": 212
+      "medianPrice": 442500,
+      "transactions": 220
     },
     {
       "month": "2025-09",
       "medianPrice": 445500,
-      "transactions": 220
+      "transactions": 230
     },
     {
       "month": "2025-10",
       "medianPrice": 450000,
-      "transactions": 223
+      "transactions": 229
     },
     {
       "month": "2025-11",
-      "medianPrice": 436250,
-      "transactions": 188
+      "medianPrice": 431750,
+      "transactions": 196
     },
     {
       "month": "2025-12",
       "medianPrice": 450000,
-      "transactions": 188
+      "transactions": 206
     },
     {
       "month": "2026-01",
-      "medianPrice": 445000,
-      "transactions": 173
+      "medianPrice": 450000,
+      "transactions": 189
     },
     {
       "month": "2026-02",
-      "medianPrice": 433000,
-      "transactions": 159
+      "medianPrice": 431500,
+      "transactions": 166
     },
     {
       "month": "2026-03",
-      "medianPrice": 445000,
-      "transactions": 162
+      "medianPrice": 450000,
+      "transactions": 173
     },
     {
       "month": "2026-04",
       "medianPrice": 430000,
-      "transactions": 148
+      "transactions": 167
     },
     {
       "month": "2026-05",
-      "medianPrice": 476000,
-      "transactions": 41
+      "medianPrice": 480000,
+      "transactions": 135
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 450000,
+      "transactions": 61
     }
   ],
   "quarterlyHistory": [
@@ -359,43 +367,43 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 458000,
-      "transactions": 961
+      "medianPrice": 455000,
+      "transactions": 963
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 432000,
-      "transactions": 1033
+      "transactions": 1038
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 450000,
-      "transactions": 1273
+      "transactions": 1278
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 442000,
-      "transactions": 522
+      "medianPrice": 440000,
+      "transactions": 527
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 447250,
-      "transactions": 698
+      "medianPrice": 445000,
+      "transactions": 721
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 450000,
-      "transactions": 599
+      "transactions": 631
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 438750,
-      "transactions": 494
+      "medianPrice": 440000,
+      "transactions": 528
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 445000,
-      "transactions": 189
+      "medianPrice": 450000,
+      "transactions": 363
     }
   ]
 }

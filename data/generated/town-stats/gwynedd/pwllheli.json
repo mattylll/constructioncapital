@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.763Z",
+  "updatedAt": "2026-08-07T08:45:04.121Z",
   "townSlug": "pwllheli",
   "countySlug": "gwynedd",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GWYNEDD"
+  ],
   "marketSnapshot": {
-    "medianPrice": 275000,
-    "transactionCount12m": 168,
-    "yoyPriceChange": 14.6,
+    "medianPrice": 265000,
+    "transactionCount12m": 176,
+    "yoyPriceChange": 6,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

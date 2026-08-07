@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.353Z",
+  "updatedAt": "2026-08-07T08:45:02.743Z",
   "townSlug": "stamford",
   "countySlug": "lincolnshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTH KESTEVEN"
+  ],
   "marketSnapshot": {
-    "medianPrice": 303250,
-    "transactionCount12m": 294,
-    "yoyPriceChange": -4.5,
+    "medianPrice": 307500,
+    "transactionCount12m": 274,
+    "yoyPriceChange": -0.8,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.561Z",
+  "updatedAt": "2026-08-07T08:45:01.681Z",
   "townSlug": "chelmsford",
   "countySlug": "essex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CHELMSFORD"
+  ],
   "stats": {
-    "medianPrice": 400000,
+    "medianPrice": 398000,
     "medianByType": {
-      "D": 600000,
+      "D": 585000,
       "S": 430000,
-      "T": 360000,
-      "F": 213750
+      "T": 356175,
+      "F": 215000
     },
-    "transactionCount12m": 2019,
-    "yoyChange": 0.3,
-    "newBuildCount": 26,
-    "existingCount": 1993,
-    "newBuildPremium": 33.1
+    "transactionCount12m": 1949,
+    "yoyChange": -0.5,
+    "newBuildCount": 24,
+    "existingCount": 1925,
+    "newBuildPremium": 19
   },
   "recentTransactions": [
     {
-      "price": 104000,
-      "date": "2026-05-28",
-      "postcode": "CM2 0UT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "24, ALBION COURT"
-    },
-    {
-      "price": 950000,
-      "date": "2026-05-22",
-      "postcode": "CM1 6BQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "76, REGIMENT GATE"
-    },
-    {
-      "price": 345000,
-      "date": "2026-05-22",
-      "postcode": "CM3 5TZ",
+      "price": 415000,
+      "date": "2026-06-26",
+      "postcode": "CM2 6YP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "105, HAMBERTS ROAD"
-    },
-    {
-      "price": 645000,
-      "date": "2026-05-22",
-      "postcode": "CM3 3DR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, ALLENS CLOSE"
-    },
-    {
-      "price": 390000,
-      "date": "2026-05-22",
-      "postcode": "SS11 7BP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, WINDSOR GARDENS"
-    },
-    {
-      "price": 184000,
-      "date": "2026-05-22",
-      "postcode": "CM1 4XL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "43, TUGBY PLACE"
-    },
-    {
-      "price": 960000,
-      "date": "2026-05-21",
-      "postcode": "CM2 8ND",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LANGTOFT, WATCHOUSE ROAD"
-    },
-    {
-      "price": 260000,
-      "date": "2026-05-15",
-      "postcode": "CM2 7QA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "273, BADDOW ROAD"
-    },
-    {
-      "price": 447000,
-      "date": "2026-05-15",
-      "postcode": "CM2 6XH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, CUSAK ROAD"
-    },
-    {
-      "price": 371200,
-      "date": "2026-05-15",
-      "postcode": "CM1 1RG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, HENRY ROAD"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-15",
-      "postcode": "CM1 2HS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, COTSWOLD CRESCENT"
-    },
-    {
-      "price": 520000,
-      "date": "2026-05-15",
-      "postcode": "CM1 6UJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, PERRICLOSE"
-    },
-    {
-      "price": 365000,
-      "date": "2026-05-15",
-      "postcode": "CM2 6QG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, ALDRIDGE CLOSE"
-    },
-    {
-      "price": 410000,
-      "date": "2026-05-15",
-      "postcode": "CM1 4YD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60, QUILP DRIVE"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-15",
-      "postcode": "CM2 6QH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54, HENNIKER GATE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-14",
-      "postcode": "CM1 6AZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "81, WILFRED WATERMAN DRIVE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-14",
-      "postcode": "CM2 6LB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, 220, WHARF ROAD"
-    },
-    {
-      "price": 342000,
-      "date": "2026-05-14",
-      "postcode": "CM2 9LU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60, CYPRESS DRIVE"
-    },
-    {
-      "price": 565000,
-      "date": "2026-05-14",
-      "postcode": "CM1 4XG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, NICKLEBY ROAD"
+      "address": "16, PORTWAY"
     },
     {
       "price": 375000,
-      "date": "2026-05-14",
-      "postcode": "CM3 5TZ",
+      "date": "2026-06-26",
+      "postcode": "CM2 6TR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, BURGESS FIELD"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-25",
+      "postcode": "CM2 0HD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, ORCHARD STREET"
+    },
+    {
+      "price": 323000,
+      "date": "2026-06-24",
+      "postcode": "CM1 2BZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "100, HAMBERTS ROAD"
+      "address": "64, ANDERSON AVENUE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-06-24",
+      "postcode": "CM2 9AR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, WIDFORD ROAD"
+    },
+    {
+      "price": 645000,
+      "date": "2026-06-24",
+      "postcode": "CM3 4QZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "INGLEMIRE, RUNSELL GREEN"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-24",
+      "postcode": "CM2 0GD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, DEVON MEWS"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-22",
+      "postcode": "CM2 9JL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, LUCAS AVENUE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-22",
+      "postcode": "CM1 2SX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, CANUDEN ROAD"
+    },
+    {
+      "price": 437500,
+      "date": "2026-06-19",
+      "postcode": "CM1 6SU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, TYTHE CLOSE"
+    },
+    {
+      "price": 560000,
+      "date": "2026-06-19",
+      "postcode": "CM1 6DP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, WRIGHT CRESCENT"
+    },
+    {
+      "price": 592000,
+      "date": "2026-06-19",
+      "postcode": "CM1 7FS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, PETTY CROFT"
+    },
+    {
+      "price": 326000,
+      "date": "2026-06-19",
+      "postcode": "CM2 9GD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, GERARD GARDENS"
+    },
+    {
+      "price": 365000,
+      "date": "2026-06-19",
+      "postcode": "CM2 8PY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, PYMS ROAD"
+    },
+    {
+      "price": 525000,
+      "date": "2026-06-18",
+      "postcode": "CM1 1DL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, DUNN SIDE"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-17",
+      "postcode": "CM1 2EX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "68, CHEVIOT DRIVE"
+    },
+    {
+      "price": 470000,
+      "date": "2026-06-17",
+      "postcode": "CM3 1LJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, WOODS ROAD"
+    },
+    {
+      "price": 317500,
+      "date": "2026-06-16",
+      "postcode": "CM1 2LW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, THAMES AVENUE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-06-15",
+      "postcode": "CM1 6XH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "114, CROCUS WAY"
+    },
+    {
+      "price": 345000,
+      "date": "2026-06-15",
+      "postcode": "CM2 8AU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "93, ROBIN WAY"
     }
   ],
   "monthlyHistory": [
@@ -262,18 +265,18 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 388750,
-      "transactions": 224
+      "medianPrice": 387500,
+      "transactions": 225
     },
     {
       "month": "2025-02",
       "medianPrice": 390000,
-      "transactions": 254
+      "transactions": 255
     },
     {
       "month": "2025-03",
-      "medianPrice": 421250,
-      "transactions": 488
+      "medianPrice": 422500,
+      "transactions": 489
     },
     {
       "month": "2025-04",
@@ -288,62 +291,67 @@
     {
       "month": "2025-06",
       "medianPrice": 415000,
-      "transactions": 229
+      "transactions": 230
     },
     {
       "month": "2025-07",
-      "medianPrice": 420000,
-      "transactions": 263
+      "medianPrice": 413510,
+      "transactions": 276
     },
     {
       "month": "2025-08",
-      "medianPrice": 411500,
-      "transactions": 264
+      "medianPrice": 410000,
+      "transactions": 281
     },
     {
       "month": "2025-09",
-      "medianPrice": 415500,
-      "transactions": 210
+      "medianPrice": 412500,
+      "transactions": 218
     },
     {
       "month": "2025-10",
-      "medianPrice": 421500,
-      "transactions": 236
+      "medianPrice": 416500,
+      "transactions": 240
     },
     {
       "month": "2025-11",
-      "medianPrice": 410000,
-      "transactions": 227
+      "medianPrice": 415000,
+      "transactions": 232
     },
     {
       "month": "2025-12",
-      "medianPrice": 376275,
-      "transactions": 206
+      "medianPrice": 377000,
+      "transactions": 214
     },
     {
       "month": "2026-01",
-      "medianPrice": 375000,
-      "transactions": 133
+      "medianPrice": 385000,
+      "transactions": 141
     },
     {
       "month": "2026-02",
-      "medianPrice": 381743,
-      "transactions": 155
+      "medianPrice": 381000,
+      "transactions": 157
     },
     {
       "month": "2026-03",
-      "medianPrice": 392000,
-      "transactions": 163
+      "medianPrice": 393500,
+      "transactions": 166
     },
     {
       "month": "2026-04",
-      "medianPrice": 410000,
-      "transactions": 140
+      "medianPrice": 405000,
+      "transactions": 148
     },
     {
       "month": "2026-05",
-      "medianPrice": 365000,
-      "transactions": 57
+      "medianPrice": 375000,
+      "transactions": 135
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 366000,
+      "transactions": 68
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 405000,
-      "transactions": 966
+      "transactions": 969
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 375000,
-      "transactions": 529
+      "transactions": 530
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 415000,
-      "transactions": 737
+      "medianPrice": 410000,
+      "transactions": 775
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 400000,
-      "transactions": 669
+      "transactions": 686
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 385000,
-      "transactions": 451
+      "transactions": 464
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 398000,
-      "transactions": 197
+      "medianPrice": 385000,
+      "transactions": 351
     }
   ]
 }

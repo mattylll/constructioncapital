@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.377Z",
+  "updatedAt": "2026-08-07T08:45:02.766Z",
   "townSlug": "manchester",
   "countySlug": "greater-manchester",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "MANCHESTER"
+  ],
   "marketSnapshot": {
     "medianPrice": 245000,
-    "transactionCount12m": 4460,
+    "transactionCount12m": 4388,
     "yoyPriceChange": 2.1,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.883Z",
+  "updatedAt": "2026-08-07T08:45:03.262Z",
   "townSlug": "pontefract",
   "countySlug": "west-yorkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WAKEFIELD"
+  ],
   "marketSnapshot": {
     "medianPrice": 180000,
-    "transactionCount12m": 1077,
+    "transactionCount12m": 1073,
     "yoyPriceChange": -2.7,
     "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 900,
+    "pipelineGdv": 161892000,
     "approvalRate": 0
   }
 }

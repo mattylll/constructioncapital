@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.821Z",
+  "updatedAt": "2026-08-07T08:45:01.276Z",
   "townSlug": "sevenoaks",
   "countySlug": "kent",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SEVENOAKS"
+  ],
   "marketSnapshot": {
-    "medianPrice": 490875,
-    "transactionCount12m": 1212,
-    "yoyPriceChange": 5.6,
+    "medianPrice": 492500,
+    "transactionCount12m": 1181,
+    "yoyPriceChange": 5.3,
     "approvedApps12m": 0,
-    "pipelineUnits": 20,
-    "pipelineGdv": 7779500,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 3,
+    "pipelineGdv": 1485000,
     "approvalRate": 0
   }
 }

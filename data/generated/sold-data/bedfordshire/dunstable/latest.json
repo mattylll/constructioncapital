@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.529Z",
+  "updatedAt": "2026-08-07T08:45:03.760Z",
   "townSlug": "dunstable",
   "countySlug": "bedfordshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CENTRAL BEDFORDSHIRE"
+  ],
   "stats": {
-    "medianPrice": 329000,
+    "medianPrice": 330000,
     "medianByType": {
-      "D": 500000,
-      "S": 363000,
-      "T": 300000,
+      "D": 497000,
+      "S": 365000,
+      "T": 299000,
       "F": 170000
     },
-    "transactionCount12m": 796,
-    "yoyChange": -7.8,
-    "newBuildCount": 14,
-    "existingCount": 782,
-    "newBuildPremium": 43.3
+    "transactionCount12m": 822,
+    "yoyChange": -7.7,
+    "newBuildCount": 25,
+    "existingCount": 797,
+    "newBuildPremium": 22.3
   },
   "recentTransactions": [
     {
-      "price": 75000,
-      "date": "2026-05-26",
-      "postcode": "LU5 4QE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, HIGHFIELDS CLOSE"
-    },
-    {
-      "price": 525000,
-      "date": "2026-05-22",
-      "postcode": "LU5 6NH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, BRIAN ROAD"
-    },
-    {
-      "price": 347500,
-      "date": "2026-05-22",
-      "postcode": "LU6 1LU",
+      "price": 397500,
+      "date": "2026-06-25",
+      "postcode": "LU5 4AH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, CLIFTON ROAD"
+      "address": "17, NORCOTT CLOSE"
     },
     {
-      "price": 700000,
-      "date": "2026-05-22",
-      "postcode": "LU6 2DJ",
+      "price": 270000,
+      "date": "2026-06-19",
+      "postcode": "LU6 1LY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "66, WATERLOW ROAD"
+    },
+    {
+      "price": 445000,
+      "date": "2026-06-19",
+      "postcode": "LU6 3PB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, DERWENT DRIVE"
+    },
+    {
+      "price": 555000,
+      "date": "2026-06-19",
+      "postcode": "LU6 2PD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE CHALET, CHURCH LANE"
+      "address": "78, HOLYWELL ROAD"
     },
     {
-      "price": 180000,
-      "date": "2026-05-18",
-      "postcode": "LU6 1JN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "137, HIGH STREET NORTH"
-    },
-    {
-      "price": 390000,
-      "date": "2026-05-18",
+      "price": 410000,
+      "date": "2026-06-17",
       "postcode": "LU5 4NX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, WALGRAVE ROAD"
+      "address": "33, WALGRAVE ROAD"
     },
     {
-      "price": 322000,
-      "date": "2026-05-18",
-      "postcode": "LU5 5ER",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, BARLEYFIELD WAY"
-    },
-    {
-      "price": 510000,
-      "date": "2026-05-15",
-      "postcode": "LU6 3DB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, APPLEBY GARDENS"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-15",
-      "postcode": "LU6 3FD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "62, WATLING GARDENS"
-    },
-    {
-      "price": 445000,
-      "date": "2026-05-15",
-      "postcode": "LU5 4LF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "218, LUTON ROAD"
-    },
-    {
-      "price": 252500,
-      "date": "2026-05-14",
-      "postcode": "LU5 6BT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5A, CONGER LANE"
-    },
-    {
-      "price": 80000,
-      "date": "2026-05-12",
-      "postcode": "LU6 1SB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, ELEANORS COURT, ALBION STREET"
-    },
-    {
-      "price": 700000,
-      "date": "2026-05-11",
-      "postcode": "LU6 2DD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, THE ORCHARDS"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-08",
-      "postcode": "LU6 1PN",
+      "price": 284000,
+      "date": "2026-06-15",
+      "postcode": "LU5 6FD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "51, WORTHINGTON ROAD"
+      "address": "37, WILLOW WAY"
     },
     {
-      "price": 137000,
-      "date": "2026-05-08",
-      "postcode": "LU6 1HE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "51A, CLARE COURT, EDWARD STREET"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-07",
-      "postcode": "LU6 1PW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, WORTHINGTON ROAD"
-    },
-    {
-      "price": 76000,
-      "date": "2026-05-07",
-      "postcode": "LU6 3SZ",
+      "price": 170000,
+      "date": "2026-06-15",
+      "postcode": "LU5 4EJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 16, NORTON COURT, HIGH STREET SOUTH"
+      "address": "47, BRIVE ROAD"
     },
     {
-      "price": 390000,
-      "date": "2026-05-07",
-      "postcode": "LU6 1BT",
+      "price": 395000,
+      "date": "2026-06-12",
+      "postcode": "LU6 1EQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, SALTERS WAY"
+      "address": "2, PASCOMB ROAD"
     },
     {
-      "price": 1250000,
-      "date": "2026-05-05",
-      "postcode": "LU6 2QX",
+      "price": 190000,
+      "date": "2026-06-12",
+      "postcode": "LU5 5UF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, MILTON WAY"
+    },
+    {
+      "price": 520000,
+      "date": "2026-06-12",
+      "postcode": "LU6 2NZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, BELL FARM CLOSE"
+      "address": "5, MALMS CLOSE"
     },
     {
-      "price": 130000,
-      "date": "2026-05-01",
-      "postcode": "LU5 5ST",
-      "propertyType": "F",
+      "price": 350000,
+      "date": "2026-06-12",
+      "postcode": "LU5 4NX",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "55, CONSTABLE CLOSE"
+      "tenure": "F",
+      "address": "9, WALGRAVE ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-11",
+      "postcode": "LU5 6LX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, PILGRIMS CLOSE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-06-11",
+      "postcode": "LU5 5BZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, CEMETERY ROAD"
+    },
+    {
+      "price": 466500,
+      "date": "2026-06-10",
+      "postcode": "LU5 4AD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "102, HALF MOON LANE"
+    },
+    {
+      "price": 292000,
+      "date": "2026-06-08",
+      "postcode": "LU6 1PP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, HAMBLING PLACE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-06-08",
+      "postcode": "LU6 3NT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, EASEDALE CLOSE"
+    },
+    {
+      "price": 627500,
+      "date": "2026-06-05",
+      "postcode": "LU6 2RQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WOODSIDE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-06-05",
+      "postcode": "LU6 1EB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, BEECH GREEN"
+    },
+    {
+      "price": 312000,
+      "date": "2026-06-05",
+      "postcode": "LU5 5UE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "101, MILTON WAY"
+    },
+    {
+      "price": 382000,
+      "date": "2026-06-05",
+      "postcode": "LU6 1EW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, LEIGHTON COURT"
     }
   ],
   "monthlyHistory": [
@@ -257,8 +260,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 320000,
-      "transactions": 143
+      "medianPrice": 320500,
+      "transactions": 144
     },
     {
       "month": "2025-01",
@@ -287,63 +290,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 366798,
-      "transactions": 148
+      "medianPrice": 371250,
+      "transactions": 156
     },
     {
       "month": "2025-07",
       "medianPrice": 325000,
-      "transactions": 95
+      "transactions": 97
     },
     {
       "month": "2025-08",
       "medianPrice": 355000,
-      "transactions": 109
+      "transactions": 121
     },
     {
       "month": "2025-09",
-      "medianPrice": 332500,
-      "transactions": 99
-    },
-    {
-      "month": "2025-10",
-      "medianPrice": 330750,
+      "medianPrice": 335250,
       "transactions": 106
     },
     {
+      "month": "2025-10",
+      "medianPrice": 331500,
+      "transactions": 109
+    },
+    {
       "month": "2025-11",
-      "medianPrice": 331000,
-      "transactions": 90
+      "medianPrice": 316500,
+      "transactions": 96
     },
     {
       "month": "2025-12",
       "medianPrice": 341250,
-      "transactions": 84
+      "transactions": 94
     },
     {
       "month": "2026-01",
       "medianPrice": 340000,
-      "transactions": 65
+      "transactions": 71
     },
     {
       "month": "2026-02",
-      "medianPrice": 310000,
-      "transactions": 52
+      "medianPrice": 298000,
+      "transactions": 55
     },
     {
       "month": "2026-03",
-      "medianPrice": 297500,
-      "transactions": 62
+      "medianPrice": 292500,
+      "transactions": 64
     },
     {
       "month": "2026-04",
-      "medianPrice": 330000,
-      "transactions": 31
+      "medianPrice": 320000,
+      "transactions": 37
     },
     {
       "month": "2026-05",
-      "medianPrice": 338750,
-      "transactions": 24
+      "medianPrice": 330000,
+      "transactions": 62
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 357500,
+      "transactions": 26
     }
   ],
   "quarterlyHistory": [
@@ -365,7 +373,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 350000,
-      "transactions": 412
+      "transactions": 413
     },
     {
       "quarter": "2025-Q1",
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 357195,
-      "transactions": 285
+      "medianPrice": 357500,
+      "transactions": 293
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 332500,
-      "transactions": 303
+      "medianPrice": 333250,
+      "transactions": 324
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 335000,
-      "transactions": 280
+      "medianPrice": 331500,
+      "transactions": 299
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 321000,
-      "transactions": 179
+      "medianPrice": 323500,
+      "transactions": 190
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 330000,
-      "transactions": 55
+      "medianPrice": 333000,
+      "transactions": 125
     }
   ]
 }

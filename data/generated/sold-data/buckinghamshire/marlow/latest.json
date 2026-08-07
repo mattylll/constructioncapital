@@ -1,23 +1,72 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.471Z",
+  "updatedAt": "2026-08-07T08:45:01.581Z",
   "townSlug": "marlow",
   "countySlug": "buckinghamshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BUCKINGHAMSHIRE",
+    "WYCOMBE"
+  ],
   "stats": {
-    "medianPrice": 620000,
+    "medianPrice": 637500,
     "medianByType": {
-      "D": 907500,
-      "S": 605000,
-      "T": 545000,
+      "D": 940000,
+      "S": 637500,
+      "T": 550000,
       "F": 342500
     },
-    "transactionCount12m": 199,
-    "yoyChange": -7.5,
+    "transactionCount12m": 216,
+    "yoyChange": -4.9,
     "newBuildCount": 2,
-    "existingCount": 197,
+    "existingCount": 214,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 925000,
+      "date": "2026-06-11",
+      "postcode": "SL7 1ND",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, STATION ROAD"
+    },
+    {
+      "price": 308000,
+      "date": "2026-06-04",
+      "postcode": "SL7 1ET",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1, GLADE HOUSE, VICTORIA ROAD"
+    },
+    {
+      "price": 940000,
+      "date": "2026-06-03",
+      "postcode": "SL7 2PP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TOURAINE, CHILTERN ROAD"
+    },
+    {
+      "price": 562500,
+      "date": "2026-05-29",
+      "postcode": "SL7 1DW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, VICTORIA ROAD"
+    },
+    {
+      "price": 710000,
+      "date": "2026-05-28",
+      "postcode": "SL7 2BG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, POUND CRESCENT"
+    },
     {
       "price": 840000,
       "date": "2026-05-22",
@@ -26,6 +75,42 @@
       "newBuild": false,
       "tenure": "F",
       "address": "19, TRINITY AVENUE"
+    },
+    {
+      "price": 920000,
+      "date": "2026-05-22",
+      "postcode": "SL7 1EA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, GLADE ROAD"
+    },
+    {
+      "price": 1400000,
+      "date": "2026-05-22",
+      "postcode": "SL7 2FQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, PORTLAND CRESCENT"
+    },
+    {
+      "price": 597500,
+      "date": "2026-05-22",
+      "postcode": "SL7 1DW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, VICTORIA ROAD"
+    },
+    {
+      "price": 998891,
+      "date": "2026-05-22",
+      "postcode": "SL7 1NH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE TUCKAWAY, FISHERMANS RETREAT"
     },
     {
       "price": 825000,
@@ -37,6 +122,24 @@
       "address": "7, GARNET COURT"
     },
     {
+      "price": 885000,
+      "date": "2026-05-20",
+      "postcode": "SL7 2QB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, YORK ROAD"
+    },
+    {
+      "price": 739000,
+      "date": "2026-05-20",
+      "postcode": "SL7 3QW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, RAGMANS CLOSE"
+    },
+    {
       "price": 345000,
       "date": "2026-05-14",
       "postcode": "SL7 1NL",
@@ -44,6 +147,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "FLAT 2, 23, STATION ROAD"
+    },
+    {
+      "price": 550000,
+      "date": "2026-05-12",
+      "postcode": "SL7 3HR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, ROOKERY COURT"
     },
     {
       "price": 310000,
@@ -55,6 +167,15 @@
       "address": "14, LAURANCE COURT, DEAN STREET"
     },
     {
+      "price": 684000,
+      "date": "2026-04-28",
+      "postcode": "SL7 3DL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, CLAYMOOR PARK"
+    },
+    {
       "price": 50000,
       "date": "2026-04-23",
       "postcode": "SL7 1EE",
@@ -64,6 +185,15 @@
       "address": "1, BEAUMONT COURT, BEAUMONT RISE"
     },
     {
+      "price": 1150000,
+      "date": "2026-04-23",
+      "postcode": "SL7 2AZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, POUND LANE"
+    },
+    {
       "price": 1950000,
       "date": "2026-04-20",
       "postcode": "SL7 2DP",
@@ -71,132 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "3, MOYLEEN RISE"
-    },
-    {
-      "price": 327000,
-      "date": "2026-04-15",
-      "postcode": "SL7 1AP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "30, GRAINGER HOUSE, FINDLAY MEWS"
-    },
-    {
-      "price": 335000,
-      "date": "2026-04-10",
-      "postcode": "SL7 1XX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, BARONS COURT, DEDMERE RISE"
-    },
-    {
-      "price": 700000,
-      "date": "2026-03-30",
-      "postcode": "SL7 2NY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, COPSE CLOSE"
-    },
-    {
-      "price": 550000,
-      "date": "2026-03-27",
-      "postcode": "SL7 1JZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, REDGRAVE PLACE"
-    },
-    {
-      "price": 424000,
-      "date": "2026-03-27",
-      "postcode": "SL7 1UQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, DOUGLAS COURT, PEACOCK ROAD"
-    },
-    {
-      "price": 386000,
-      "date": "2026-03-27",
-      "postcode": "SL7 2PT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "51, QUEENS ROAD"
-    },
-    {
-      "price": 940000,
-      "date": "2026-03-24",
-      "postcode": "SL7 3NN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "73, NEW ROAD"
-    },
-    {
-      "price": 499950,
-      "date": "2026-03-23",
-      "postcode": "SL7 1HR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, MEAD CLOSE"
-    },
-    {
-      "price": 1000000,
-      "date": "2026-03-23",
-      "postcode": "SL7 3BU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "NITON COTTAGE, MUNDAYDEAN LANE"
-    },
-    {
-      "price": 765000,
-      "date": "2026-03-19",
-      "postcode": "SL7 3QB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, CEDAR DRIVE"
-    },
-    {
-      "price": 700000,
-      "date": "2026-03-12",
-      "postcode": "SL7 3PZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "229, MARLOW BOTTOM"
-    },
-    {
-      "price": 610000,
-      "date": "2026-03-12",
-      "postcode": "SL7 2BU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "172, WEST STREET"
-    },
-    {
-      "price": 1200000,
-      "date": "2026-03-12",
-      "postcode": "SL7 2AH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, POUND LANE"
-    },
-    {
-      "price": 340000,
-      "date": "2026-03-10",
-      "postcode": "SL7 2QE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "20, MAREFIELD ROAD"
     }
   ],
   "monthlyHistory": [
@@ -212,8 +216,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 411750,
-      "transactions": 38
+      "medianPrice": 427475,
+      "transactions": 40
     },
     {
       "month": "2024-04",
@@ -242,8 +246,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 637000,
-      "transactions": 33
+      "medianPrice": 631000,
+      "transactions": 34
     },
     {
       "month": "2024-10",
@@ -252,8 +256,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 671000,
-      "transactions": 33
+      "medianPrice": 695500,
+      "transactions": 34
     },
     {
       "month": "2024-12",
@@ -272,8 +276,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 670000,
-      "transactions": 49
+      "medianPrice": 672500,
+      "transactions": 50
     },
     {
       "month": "2025-04",
@@ -287,43 +291,43 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 580000,
-      "transactions": 24
+      "medianPrice": 575000,
+      "transactions": 25
     },
     {
       "month": "2025-07",
-      "medianPrice": 625000,
-      "transactions": 17
+      "medianPrice": 596250,
+      "transactions": 18
     },
     {
       "month": "2025-08",
-      "medianPrice": 717500,
-      "transactions": 26
+      "medianPrice": 760000,
+      "transactions": 29
     },
     {
       "month": "2025-09",
-      "medianPrice": 625000,
-      "transactions": 23
+      "medianPrice": 605000,
+      "transactions": 27
     },
     {
       "month": "2025-10",
-      "medianPrice": 612500,
-      "transactions": 36
+      "medianPrice": 615000,
+      "transactions": 37
     },
     {
       "month": "2025-11",
-      "medianPrice": 650000,
-      "transactions": 25
+      "medianPrice": 647500,
+      "transactions": 26
     },
     {
       "month": "2025-12",
-      "medianPrice": 550000,
-      "transactions": 25
+      "medianPrice": 575500,
+      "transactions": 26
     },
     {
       "month": "2026-01",
-      "medianPrice": 582000,
-      "transactions": 13
+      "medianPrice": 750000,
+      "transactions": 17
     },
     {
       "month": "2026-02",
@@ -333,24 +337,29 @@
     {
       "month": "2026-03",
       "medianPrice": 700000,
-      "transactions": 15
+      "transactions": 17
     },
     {
       "month": "2026-04",
-      "medianPrice": 331000,
-      "transactions": 4
+      "medianPrice": 509500,
+      "transactions": 6
     },
     {
       "month": "2026-05",
-      "medianPrice": 585000,
-      "transactions": 4
+      "medianPrice": 739000,
+      "transactions": 13
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 925000,
+      "transactions": 3
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 601250,
-      "transactions": 72
+      "medianPrice": 620000,
+      "transactions": 74
     },
     {
       "quarter": "2024-Q2",
@@ -359,43 +368,43 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 646000,
-      "transactions": 91
+      "medianPrice": 643000,
+      "transactions": 92
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 694125,
-      "transactions": 89
+      "medianPrice": 694563,
+      "transactions": 90
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 675000,
-      "transactions": 94
+      "transactions": 95
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 592500,
-      "transactions": 44
-    },
-    {
-      "quarter": "2025-Q3",
-      "medianPrice": 667500,
-      "transactions": 66
-    },
-    {
-      "quarter": "2025-Q4",
-      "medianPrice": 612500,
-      "transactions": 86
-    },
-    {
-      "quarter": "2026-Q1",
-      "medianPrice": 620000,
+      "medianPrice": 585000,
       "transactions": 45
     },
     {
+      "quarter": "2025-Q3",
+      "medianPrice": 652500,
+      "transactions": 74
+    },
+    {
+      "quarter": "2025-Q4",
+      "medianPrice": 615000,
+      "transactions": 89
+    },
+    {
+      "quarter": "2026-Q1",
+      "medianPrice": 675000,
+      "transactions": 51
+    },
+    {
       "quarter": "2026-Q2",
-      "medianPrice": 340000,
-      "transactions": 8
+      "medianPrice": 724500,
+      "transactions": 22
     }
   ]
 }

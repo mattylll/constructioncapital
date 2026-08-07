@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.006Z",
+  "updatedAt": "2026-08-07T08:45:01.452Z",
   "townSlug": "portsmouth",
   "countySlug": "hampshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "PORTSMOUTH"
+  ],
   "marketSnapshot": {
-    "medianPrice": 252750,
-    "transactionCount12m": 2076,
-    "yoyPriceChange": 1.1,
+    "medianPrice": 255000,
+    "transactionCount12m": 2040,
+    "yoyPriceChange": 2,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 109,
     "pipelineGdv": 26780500,
     "approvalRate": 0

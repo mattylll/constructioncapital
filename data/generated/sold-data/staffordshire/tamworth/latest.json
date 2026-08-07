@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.250Z",
+  "updatedAt": "2026-08-07T08:45:02.401Z",
   "townSlug": "tamworth",
   "countySlug": "staffordshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "TAMWORTH"
+  ],
   "stats": {
     "medianPrice": 245000,
     "medianByType": {
-      "D": 370000,
-      "S": 241000,
-      "T": 195500,
-      "F": 130000
+      "D": 365000,
+      "S": 240000,
+      "T": 197325,
+      "F": 133000
     },
-    "transactionCount12m": 885,
+    "transactionCount12m": 895,
     "yoyChange": 2.1,
     "newBuildCount": 11,
-    "existingCount": 874,
-    "newBuildPremium": 82
+    "existingCount": 884,
+    "newBuildPremium": 71.7
   },
   "recentTransactions": [
     {
-      "price": 335000,
-      "date": "2026-05-22",
-      "postcode": "B77 3AH",
+      "price": 395000,
+      "date": "2026-06-19",
+      "postcode": "B77 3AF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "97, WOODHOUSE LANE"
+      "address": "WOODHOUSE COTTAGE, WOODHOUSE LANE"
     },
     {
-      "price": 155000,
-      "date": "2026-05-22",
-      "postcode": "B77 4PZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, WAINWRIGHT HOUSE, WENSLEYDALE"
-    },
-    {
-      "price": 264000,
-      "date": "2026-05-15",
-      "postcode": "B79 7RR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, MEADOW PARK"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-14",
-      "postcode": "B77 5EP",
+      "price": 217000,
+      "date": "2026-06-19",
+      "postcode": "B79 8FD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, HEDGING LANE"
+      "address": "19, LILLINGSTONE AVENUE"
     },
     {
-      "price": 301000,
-      "date": "2026-05-14",
-      "postcode": "B77 1NJ",
-      "propertyType": "S",
+      "price": 430000,
+      "date": "2026-06-16",
+      "postcode": "B79 8RE",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "38, SKIDMORE AVENUE"
+      "address": "28, KENSINGTON DRIVE"
     },
     {
-      "price": 225000,
-      "date": "2026-05-08",
-      "postcode": "B78 3FL",
-      "propertyType": "T",
+      "price": 365000,
+      "date": "2026-06-16",
+      "postcode": "B77 2NX",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, DASHWOOD CLOSE"
-    },
-    {
-      "price": 800000,
-      "date": "2026-05-08",
-      "postcode": "B79 7SP",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE BUNGALOW, MILLFIELD HOUSE, LICHFIELD ROAD"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-08",
-      "postcode": "B77 5DQ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UNIT 6, ROMAN PARK, CLAYMORE"
+      "address": "18, NYMET"
     },
     {
       "price": 260000,
-      "date": "2026-05-08",
-      "postcode": "B77 4FS",
+      "date": "2026-06-16",
+      "postcode": "B77 2RB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, BARLASTON WAY"
+      "address": "17, BELSIZE"
     },
     {
-      "price": 197500,
-      "date": "2026-05-07",
-      "postcode": "B79 7RU",
+      "price": 271000,
+      "date": "2026-06-12",
+      "postcode": "B77 3JX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "86, CANNING ROAD"
+    },
+    {
+      "price": 257000,
+      "date": "2026-06-12",
+      "postcode": "B77 2QQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, FURNESS"
+    },
+    {
+      "price": 308000,
+      "date": "2026-06-12",
+      "postcode": "B77 1QR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, HAYDOCK CLOSE"
+    },
+    {
+      "price": 192500,
+      "date": "2026-06-11",
+      "postcode": "B77 1BQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, CYGNET DRIVE"
+      "address": "78, CELANDINE"
     },
     {
-      "price": 1250000,
-      "date": "2026-05-07",
-      "postcode": "",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "PACIFIC HOUSE, RELAY POINT"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-06",
-      "postcode": "B77 2RL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, WYVERN"
-    },
-    {
-      "price": 212000,
-      "date": "2026-05-06",
+      "price": 175000,
+      "date": "2026-06-08",
       "postcode": "B79 7EQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, LUDGATE"
+      "address": "32, LUDGATE"
     },
     {
-      "price": 232500,
-      "date": "2026-05-06",
-      "postcode": "B77 1DH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "320, TAMWORTH ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-05",
-      "postcode": "B77 5QP",
+      "price": 370000,
+      "date": "2026-06-08",
+      "postcode": "B77 2LY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, TEIGN"
+      "address": "361, WILNECOTE LANE"
     },
     {
-      "price": 360000,
-      "date": "2026-05-05",
-      "postcode": "B77 4LP",
+      "price": 345000,
+      "date": "2026-06-05",
+      "postcode": "B77 4PN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, MELMERBY"
+      "address": "5, MAYFIELD"
     },
     {
-      "price": 339275,
-      "date": "2026-05-05",
-      "postcode": "B77 5NF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "144, OVERWOODS ROAD"
-    },
-    {
-      "price": 265000,
-      "date": "2026-05-05",
-      "postcode": "B77 5NR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, REDWING"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-01",
-      "postcode": "B77 4FT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, ELLASTONE WAY"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-01",
-      "postcode": "B77 4FU",
+      "price": 115000,
+      "date": "2026-06-05",
+      "postcode": "B77 1GR",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 2, RIDWARE HOUSE, BARLASTON WAY"
+      "address": "46, TOM WILLIAMS WAY"
+    },
+    {
+      "price": 227000,
+      "date": "2026-06-05",
+      "postcode": "B77 3EQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, ARGYLE STREET"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-05",
+      "postcode": "B77 3RJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, ZENNOR"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-05",
+      "postcode": "B79 7QD",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, LICHFIELD STREET"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-05",
+      "postcode": "B79 7XE",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, KEPLER"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-04",
+      "postcode": "B78 3YB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, CORNWALL AVENUE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-01",
+      "postcode": "B77 1HL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, MOUNT PLEASANT"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-01",
+      "postcode": "B77 4NB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, HORNBEAM"
     }
   ],
   "monthlyHistory": [
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 259500,
-      "transactions": 193
+      "medianPrice": 258500,
+      "transactions": 194
     },
     {
       "month": "2025-04",
@@ -287,63 +290,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 255500,
-      "transactions": 124
+      "medianPrice": 256000,
+      "transactions": 127
     },
     {
       "month": "2025-07",
       "medianPrice": 245000,
-      "transactions": 107
+      "transactions": 111
     },
     {
       "month": "2025-08",
-      "medianPrice": 245000,
-      "transactions": 119
+      "medianPrice": 248975,
+      "transactions": 126
     },
     {
       "month": "2025-09",
-      "medianPrice": 253750,
-      "transactions": 104
+      "medianPrice": 250000,
+      "transactions": 109
     },
     {
       "month": "2025-10",
-      "medianPrice": 262000,
-      "transactions": 115
+      "medianPrice": 261000,
+      "transactions": 117
     },
     {
       "month": "2025-11",
-      "medianPrice": 235000,
-      "transactions": 115
+      "medianPrice": 245000,
+      "transactions": 117
     },
     {
       "month": "2025-12",
-      "medianPrice": 230000,
-      "transactions": 74
+      "medianPrice": 232000,
+      "transactions": 87
     },
     {
       "month": "2026-01",
-      "medianPrice": 237500,
-      "transactions": 62
+      "medianPrice": 241000,
+      "transactions": 74
     },
     {
       "month": "2026-02",
       "medianPrice": 236500,
-      "transactions": 68
+      "transactions": 69
     },
     {
       "month": "2026-03",
-      "medianPrice": 213750,
-      "transactions": 70
+      "medianPrice": 215000,
+      "transactions": 73
     },
     {
       "month": "2026-04",
-      "medianPrice": 270000,
-      "transactions": 45
+      "medianPrice": 252500,
+      "transactions": 52
     },
     {
       "month": "2026-05",
-      "medianPrice": 262000,
-      "transactions": 22
+      "medianPrice": 250000,
+      "transactions": 71
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 258500,
+      "transactions": 20
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 240000,
-      "transactions": 376
+      "transactions": 377
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 245000,
-      "transactions": 280
+      "medianPrice": 248500,
+      "transactions": 283
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 248975,
-      "transactions": 330
+      "transactions": 346
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 245000,
-      "transactions": 304
+      "medianPrice": 247000,
+      "transactions": 321
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 230000,
-      "transactions": 200
+      "transactions": 216
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 264000,
-      "transactions": 67
+      "medianPrice": 250000,
+      "transactions": 143
     }
   ]
 }

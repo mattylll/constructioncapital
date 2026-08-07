@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.533Z",
+  "updatedAt": "2026-08-07T08:45:01.952Z",
   "townSlug": "weston-super-mare",
   "countySlug": "somerset",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTH SOMERSET"
+  ],
   "marketSnapshot": {
     "medianPrice": 310000,
-    "transactionCount12m": 2924,
+    "transactionCount12m": 2823,
     "yoyPriceChange": -1.6,
     "approvedApps12m": 0,
-    "pipelineUnits": 137,
-    "pipelineGdv": 42470000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 236,
+    "pipelineGdv": 73160000,
     "approvalRate": 0
   }
 }

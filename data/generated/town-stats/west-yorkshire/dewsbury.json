@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.877Z",
+  "updatedAt": "2026-08-07T08:45:03.254Z",
   "townSlug": "dewsbury",
   "countySlug": "west-yorkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "KIRKLEES"
+  ],
   "marketSnapshot": {
-    "medianPrice": 173000,
-    "transactionCount12m": 469,
-    "yoyPriceChange": -1.1,
+    "medianPrice": 170000,
+    "transactionCount12m": 440,
+    "yoyPriceChange": -2.9,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

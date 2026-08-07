@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.727Z",
+  "updatedAt": "2026-08-07T08:45:03.109Z",
   "townSlug": "ellesmere-port",
   "countySlug": "cheshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CHESHIRE WEST AND CHESTER"
+  ],
   "marketSnapshot": {
     "medianPrice": 200000,
-    "transactionCount12m": 674,
-    "yoyPriceChange": 1,
-    "approvedApps12m": 61,
-    "pipelineUnits": 344,
-    "pipelineGdv": 65732750,
-    "approvalRate": 98
+    "transactionCount12m": 689,
+    "yoyPriceChange": 1.3,
+    "approvedApps12m": 72,
+    "approvedRecent": 72,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 925,
+    "pipelineGdv": 183750000,
+    "approvalRate": 99
   }
 }

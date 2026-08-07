@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.115Z",
+  "updatedAt": "2026-08-07T08:45:01.213Z",
   "townSlug": "tunbridge-wells",
   "countySlug": "kent",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "TUNBRIDGE WELLS"
+  ],
   "stats": {
-    "medianPrice": 432450,
+    "medianPrice": 434710,
     "medianByType": {
-      "D": 790000,
-      "S": 462500,
-      "T": 366750,
+      "D": 773166,
+      "S": 450000,
+      "T": 370000,
       "F": 245000
     },
-    "transactionCount12m": 1283,
-    "yoyChange": 1.2,
-    "newBuildCount": 20,
-    "existingCount": 1263,
-    "newBuildPremium": 40.7
+    "transactionCount12m": 1238,
+    "yoyChange": 1.7,
+    "newBuildCount": 11,
+    "existingCount": 1227,
+    "newBuildPremium": 39.3
   },
   "recentTransactions": [
     {
-      "price": 326000,
-      "date": "2026-05-29",
-      "postcode": "TN12 6LF",
+      "price": 375000,
+      "date": "2026-06-25",
+      "postcode": "TN4 9BY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "40, KILN WAY"
+      "address": "51, NURSERY ROAD"
     },
     {
-      "price": 227500,
-      "date": "2026-05-27",
-      "postcode": "TN4 0NT",
+      "price": 150000,
+      "date": "2026-06-19",
+      "postcode": "TN4 8QY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "1, SOUTHBOROUGH COURT, PARK ROAD"
+      "address": "16, ST PAULS COURT, ST PAULS STREET"
     },
     {
-      "price": 295000,
-      "date": "2026-05-22",
-      "postcode": "TN12 6AF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60D, MAIDSTONE ROAD"
-    },
-    {
-      "price": 414500,
-      "date": "2026-05-22",
-      "postcode": "TN12 6EH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, FUGGLES CLOSE"
-    },
-    {
-      "price": 192000,
-      "date": "2026-05-22",
-      "postcode": "TN2 5QQ",
+      "price": 235000,
+      "date": "2026-06-19",
+      "postcode": "TN12 6AG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, SIDNEY CLOSE"
+      "address": "22C, MOUNT PLEASANT"
+    },
+    {
+      "price": 430000,
+      "date": "2026-06-16",
+      "postcode": "TN12 8LN",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, FROMANDEZ DRIVE"
+    },
+    {
+      "price": 912500,
+      "date": "2026-06-15",
+      "postcode": "TN17 2AZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CASTLEFIELD, DIG DOG LANE"
+    },
+    {
+      "price": 362500,
+      "date": "2026-06-15",
+      "postcode": "TN12 6TB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, NORTONS WAY"
+    },
+    {
+      "price": 233000,
+      "date": "2026-06-15",
+      "postcode": "TN2 5BU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, HAWKENBURY MEAD"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-15",
+      "postcode": "TN12 6YD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, THE SHIRES"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-15",
+      "postcode": "TN12 6DG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, ROSEMARY PLACE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-06-12",
+      "postcode": "TN2 3TD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 11, GLENDALE COURT, SANDHURST ROAD"
+    },
+    {
+      "price": 435000,
+      "date": "2026-06-12",
+      "postcode": "TN4 0HA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, EDWARD STREET"
     },
     {
       "price": 275000,
-      "date": "2026-05-20",
-      "postcode": "TN4 8BS",
-      "propertyType": "F",
+      "date": "2026-06-12",
+      "postcode": "TN4 8BG",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1, 83, MOUNT EPHRAIM"
+      "address": "69A, MOUNT EPHRAIM"
     },
     {
-      "price": 1755000,
-      "date": "2026-05-20",
-      "postcode": "TN4 8EE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, EARLS ROAD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-19",
-      "postcode": "TN2 5RY",
+      "price": 385000,
+      "date": "2026-06-11",
+      "postcode": "TN17 2ET",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, UNDERWOOD RISE"
+      "address": "5, WINDMILL COTTAGES"
     },
     {
-      "price": 200000,
-      "date": "2026-05-15",
-      "postcode": "TN1 2EP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, 26, UPPER GROSVENOR ROAD"
-    },
-    {
-      "price": 460000,
-      "date": "2026-05-15",
-      "postcode": "TN12 6RT",
+      "price": 450000,
+      "date": "2026-06-11",
+      "postcode": "TN12 7BD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "46, WHETSTED ROAD"
+      "address": "LANSDOWNE, PIXOT HILL"
     },
     {
-      "price": 205000,
-      "date": "2026-05-15",
-      "postcode": "TN1 2GD",
+      "price": 270000,
+      "date": "2026-06-11",
+      "postcode": "TN4 9RQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 15, RAILWAY HOUSE, JACKWOOD WAY"
+      "address": "6, EXCHANGE MEWS"
     },
     {
-      "price": 670000,
-      "date": "2026-05-15",
-      "postcode": "TN4 8UE",
+      "price": 370000,
+      "date": "2026-06-08",
+      "postcode": "TN4 9BS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, COLEBROOK ROAD"
+    },
+    {
+      "price": 485000,
+      "date": "2026-06-08",
+      "postcode": "TN2 3SX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, PARKWOOD CLOSE"
+    },
+    {
+      "price": 71000,
+      "date": "2026-06-05",
+      "postcode": "TN1 2DF",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "97B, GOODS STATION ROAD"
+    },
+    {
+      "price": 675000,
+      "date": "2026-06-05",
+      "postcode": "TN1 2PF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, MANOR ROAD"
+      "address": "18, ALBION ROAD"
     },
     {
-      "price": 250000,
-      "date": "2026-05-14",
-      "postcode": "TN1 1SW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12A, GUILDFORD ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-14",
-      "postcode": "TN4 8AF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 3, CHARTWELL LODGE, BISHOPS DOWN ROAD"
-    },
-    {
-      "price": 186000,
-      "date": "2026-05-14",
-      "postcode": "TN4 9UP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, WINSTON COURT, 161, ST JOHNS ROAD"
-    },
-    {
-      "price": 490000,
-      "date": "2026-05-13",
-      "postcode": "TN12 6UN",
+      "price": 770000,
+      "date": "2026-06-05",
+      "postcode": "TN4 8NR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, NORTHDOWN CLOSE"
-    },
-    {
-      "price": 625000,
-      "date": "2026-05-12",
-      "postcode": "TN4 9RF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CULVERDEN AVENUE"
-    },
-    {
-      "price": 337500,
-      "date": "2026-05-11",
-      "postcode": "TN2 4QL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, THE SPRINGS, 18, TONBRIDGE ROAD"
-    },
-    {
-      "price": 335000,
-      "date": "2026-05-11",
-      "postcode": "TN2 4UE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, CROMWELL ROAD"
-    },
-    {
-      "price": 767000,
-      "date": "2026-05-11",
-      "postcode": "TN4 9JD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, STEPHENS ROAD"
+      "address": "12A, RUSTWICK"
     }
   ],
   "monthlyHistory": [
@@ -212,8 +215,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 380000,
-      "transactions": 171
+      "medianPrice": 386000,
+      "transactions": 173
     },
     {
       "month": "2024-04",
@@ -262,8 +265,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 465500,
-      "transactions": 135
+      "medianPrice": 457750,
+      "transactions": 136
     },
     {
       "month": "2025-02",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 420000,
-      "transactions": 335
+      "transactions": 336
     },
     {
       "month": "2025-04",
@@ -283,7 +286,7 @@
     {
       "month": "2025-05",
       "medianPrice": 425000,
-      "transactions": 151
+      "transactions": 152
     },
     {
       "month": "2025-06",
@@ -293,64 +296,69 @@
     {
       "month": "2025-07",
       "medianPrice": 425000,
-      "transactions": 180
+      "transactions": 186
     },
     {
       "month": "2025-08",
-      "medianPrice": 513000,
-      "transactions": 168
+      "medianPrice": 510000,
+      "transactions": 178
     },
     {
       "month": "2025-09",
       "medianPrice": 495000,
-      "transactions": 129
+      "transactions": 136
     },
     {
       "month": "2025-10",
-      "medianPrice": 447500,
-      "transactions": 168
+      "medianPrice": 460000,
+      "transactions": 174
     },
     {
       "month": "2025-11",
-      "medianPrice": 430000,
-      "transactions": 131
+      "medianPrice": 432000,
+      "transactions": 141
     },
     {
       "month": "2025-12",
       "medianPrice": 450000,
-      "transactions": 113
+      "transactions": 120
     },
     {
       "month": "2026-01",
-      "medianPrice": 402500,
-      "transactions": 102
+      "medianPrice": 430000,
+      "transactions": 115
     },
     {
       "month": "2026-02",
       "medianPrice": 425000,
-      "transactions": 94
+      "transactions": 97
     },
     {
       "month": "2026-03",
-      "medianPrice": 397500,
+      "medianPrice": 403250,
       "transactions": 110
     },
     {
       "month": "2026-04",
-      "medianPrice": 401250,
-      "transactions": 80
+      "medianPrice": 396250,
+      "transactions": 88
     },
     {
       "month": "2026-05",
-      "medianPrice": 417000,
-      "transactions": 39
+      "medianPrice": 418500,
+      "transactions": 86
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 372500,
+      "transactions": 34
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 408750,
-      "transactions": 438
+      "medianPrice": 410000,
+      "transactions": 440
     },
     {
       "quarter": "2024-Q2",
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 429495,
-      "transactions": 614
+      "medianPrice": 428495,
+      "transactions": 616
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 415000,
-      "transactions": 420
+      "transactions": 421
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 475000,
-      "transactions": 477
+      "medianPrice": 473750,
+      "transactions": 500
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 440000,
-      "transactions": 412
+      "transactions": 435
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 411500,
-      "transactions": 306
+      "medianPrice": 422500,
+      "transactions": 322
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 405000,
-      "transactions": 119
+      "medianPrice": 407500,
+      "transactions": 208
     }
   ]
 }

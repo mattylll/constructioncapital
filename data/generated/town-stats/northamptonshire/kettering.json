@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.289Z",
+  "updatedAt": "2026-08-07T08:45:02.675Z",
   "townSlug": "kettering",
   "countySlug": "northamptonshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTH NORTHAMPTONSHIRE",
+    "KETTERING"
+  ],
   "marketSnapshot": {
-    "medianPrice": 250000,
-    "transactionCount12m": 1457,
-    "yoyPriceChange": -4.6,
+    "medianPrice": 253000,
+    "transactionCount12m": 1402,
+    "yoyPriceChange": -3.1,
     "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 288,
+    "pipelineGdv": 64250000,
     "approvalRate": 0
   }
 }

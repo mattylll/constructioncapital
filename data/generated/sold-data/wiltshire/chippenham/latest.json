@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.978Z",
+  "updatedAt": "2026-08-07T08:45:02.122Z",
   "townSlug": "chippenham",
   "countySlug": "wiltshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WILTSHIRE"
+  ],
   "stats": {
-    "medianPrice": 320000,
+    "medianPrice": 315000,
     "medianByType": {
-      "D": 475000,
-      "S": 310000,
-      "T": 254000,
-      "F": 168975
+      "D": 482500,
+      "S": 312500,
+      "T": 250000,
+      "F": 168000
     },
-    "transactionCount12m": 740,
-    "yoyChange": 3.2,
-    "newBuildCount": 31,
-    "existingCount": 709,
-    "newBuildPremium": -12.4
+    "transactionCount12m": 713,
+    "yoyChange": 0.8,
+    "newBuildCount": 28,
+    "existingCount": 685,
+    "newBuildPremium": -25.9
   },
   "recentTransactions": [
     {
+      "price": 180000,
+      "date": "2026-06-26",
+      "postcode": "SN14 6YD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, HONEYSUCKLE CLOSE"
+    },
+    {
       "price": 410000,
-      "date": "2026-05-22",
-      "postcode": "SN14 8DZ",
+      "date": "2026-06-19",
+      "postcode": "SN14 8RR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, THE DENE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-19",
+      "postcode": "SN15 4AW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, BRITANNIA CRESCENT"
+    },
+    {
+      "price": 345000,
+      "date": "2026-06-19",
+      "postcode": "SN15 4PH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, GROCYN CLOSE"
+      "address": "59, THE GREEN"
     },
     {
-      "price": 130000,
-      "date": "2026-05-21",
-      "postcode": "SN15 3GX",
+      "price": 260000,
+      "date": "2026-06-19",
+      "postcode": "SN14 8DL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CHAPEL PATH"
+    },
+    {
+      "price": 487000,
+      "date": "2026-06-18",
+      "postcode": "SN14 6QG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, WILLOWBANK"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-18",
+      "postcode": "SN15 4SA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, SEAGRY HILL"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-17",
+      "postcode": "SN14 6HX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "90"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-17",
+      "postcode": "SN15 1JF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, TUGELA ROAD"
+    },
+    {
+      "price": 655000,
+      "date": "2026-06-17",
+      "postcode": "SN15 5AW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HAZELDENE, 4, STOPPERS HILL"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-16",
+      "postcode": "SN15 3TN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, BRADBURY CLOSE"
+    },
+    {
+      "price": 327500,
+      "date": "2026-06-16",
+      "postcode": "SN15 1AP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, ELMWOOD"
+    },
+    {
+      "price": 239950,
+      "date": "2026-06-12",
+      "postcode": "SN15 3PG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, BLACKTHORN MEWS"
+    },
+    {
+      "price": 508000,
+      "date": "2026-06-12",
+      "postcode": "SN14 6XZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, HARNISH WAY"
+    },
+    {
+      "price": 108000,
+      "date": "2026-06-12",
+      "postcode": "SN15 1JT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "26, WATERFORD PLACE"
+      "address": "FLAT 3, 46, MARSHFIELD ROAD"
     },
     {
-      "price": 370000,
-      "date": "2026-05-20",
-      "postcode": "SN15 1AL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, GREENWAY GARDENS"
-    },
-    {
-      "price": 212000,
-      "date": "2026-05-19",
-      "postcode": "SN15 3FY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, MORSE CLOSE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-15",
-      "postcode": "SN15 3TA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, ROMAN WAY"
-    },
-    {
-      "price": 140000,
-      "date": "2026-05-15",
-      "postcode": "SN15 3BN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "107, FLOWERS YARD"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-12",
-      "postcode": "SN14 6YG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, CURLEW DRIVE"
-    },
-    {
-      "price": 205000,
-      "date": "2026-05-08",
-      "postcode": "SN15 3YA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, JAMES CLOSE"
-    },
-    {
-      "price": 500000,
-      "date": "2026-05-08",
-      "postcode": "SN15 1PG",
+      "price": 630000,
+      "date": "2026-06-12",
+      "postcode": "SN15 2HU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, RIDINGS MEAD"
+      "address": "51, HAWK STREET"
     },
     {
-      "price": 575000,
-      "date": "2026-05-08",
-      "postcode": "SN15 3PA",
+      "price": 499950,
+      "date": "2026-06-10",
+      "postcode": "SN14 0PY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, SADLERS MEAD"
+      "address": "19, MINSTER WAY"
     },
     {
-      "price": 400000,
-      "date": "2026-05-08",
-      "postcode": "SN15 1LN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, PARK LANE"
-    },
-    {
-      "price": 430000,
-      "date": "2026-05-08",
-      "postcode": "SN14 0EH",
+      "price": 315000,
+      "date": "2026-06-10",
+      "postcode": "SN14 0QA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "40, AUDLEY ROAD"
+      "address": "23, SARUM ROAD"
     },
     {
-      "price": 285000,
-      "date": "2026-05-07",
-      "postcode": "SN14 0WS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "71, ASSART WAY"
-    },
-    {
-      "price": 225000,
-      "date": "2026-05-06",
-      "postcode": "SN15 2FD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, COPPICE CLOSE"
-    },
-    {
-      "price": 305000,
-      "date": "2026-05-05",
-      "postcode": "SN14 0AA",
+      "price": 352000,
+      "date": "2026-06-09",
+      "postcode": "SN15 3DB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, DOWNING STREET"
+      "address": "24, THE CAUSEWAY"
     },
     {
-      "price": 330000,
-      "date": "2026-05-01",
-      "postcode": "SN14 7BP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, THE MALTINGS"
-    },
-    {
-      "price": 450000,
-      "date": "2026-04-30",
-      "postcode": "SN15 3GJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, WILLIS CLOSE"
-    },
-    {
-      "price": 825000,
-      "date": "2026-04-30",
-      "postcode": "SN15 5LL",
+      "price": 116500,
+      "date": "2026-06-05",
+      "postcode": "SN15 3TJ",
       "propertyType": "O",
       "newBuild": false,
-      "tenure": "F",
-      "address": "BARROW FARM HOUSE"
-    },
-    {
-      "price": 362500,
-      "date": "2026-04-30",
-      "postcode": "SN15 3GN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CHIVERS ROAD"
-    },
-    {
-      "price": 435000,
-      "date": "2026-04-30",
-      "postcode": "SN14 0UF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, TURPIN WAY"
+      "tenure": "L",
+      "address": "49, ROMAN WAY"
     }
   ],
   "monthlyHistory": [
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 320000,
-      "transactions": 151
+      "transactions": 152
     },
     {
       "month": "2025-04",
@@ -282,8 +285,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 268000,
-      "transactions": 67
+      "medianPrice": 269000,
+      "transactions": 68
     },
     {
       "month": "2025-06",
@@ -297,33 +300,33 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 347500,
-      "transactions": 106
+      "medianPrice": 350000,
+      "transactions": 111
     },
     {
       "month": "2025-09",
-      "medianPrice": 345000,
-      "transactions": 83
+      "medianPrice": 337500,
+      "transactions": 88
     },
     {
       "month": "2025-10",
-      "medianPrice": 288750,
-      "transactions": 76
+      "medianPrice": 285000,
+      "transactions": 77
     },
     {
       "month": "2025-11",
       "medianPrice": 310000,
-      "transactions": 81
+      "transactions": 83
     },
     {
       "month": "2025-12",
-      "medianPrice": 356500,
-      "transactions": 72
+      "medianPrice": 367000,
+      "transactions": 79
     },
     {
       "month": "2026-01",
       "medianPrice": 285000,
-      "transactions": 59
+      "transactions": 63
     },
     {
       "month": "2026-02",
@@ -332,18 +335,23 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 302500,
-      "transactions": 51
+      "medianPrice": 306250,
+      "transactions": 52
     },
     {
       "month": "2026-04",
-      "medianPrice": 283000,
+      "medianPrice": 273000,
       "transactions": 47
     },
     {
       "month": "2026-05",
-      "medianPrice": 295000,
-      "transactions": 16
+      "medianPrice": 292500,
+      "transactions": 46
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 315000,
+      "transactions": 27
     }
   ],
   "quarterlyHistory": [
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 314500,
-      "transactions": 322
+      "medianPrice": 314000,
+      "transactions": 323
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 280000,
-      "transactions": 206
+      "transactions": 207
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 326250,
-      "transactions": 308
+      "medianPrice": 324500,
+      "transactions": 318
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 320000,
-      "transactions": 229
+      "transactions": 239
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 302250,
-      "transactions": 168
+      "medianPrice": 305000,
+      "transactions": 173
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 285000,
-      "transactions": 63
+      "transactions": 120
     }
   ]
 }

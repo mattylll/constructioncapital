@@ -1,23 +1,161 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.986Z",
+  "updatedAt": "2026-08-07T08:45:02.129Z",
   "townSlug": "melksham",
   "countySlug": "wiltshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WILTSHIRE"
+  ],
   "stats": {
-    "medianPrice": 288750,
+    "medianPrice": 290000,
     "medianByType": {
-      "D": 405000,
-      "S": 280000,
-      "T": 240000,
-      "F": 142000
+      "D": 402500,
+      "S": 282250,
+      "T": 235000,
+      "F": 137500
     },
-    "transactionCount12m": 342,
-    "yoyChange": -2.1,
-    "newBuildCount": 2,
-    "existingCount": 340,
-    "newBuildPremium": null
+    "transactionCount12m": 336,
+    "yoyChange": -1.7,
+    "newBuildCount": 6,
+    "existingCount": 330,
+    "newBuildPremium": 73.2
   },
   "recentTransactions": [
+    {
+      "price": 290000,
+      "date": "2026-06-29",
+      "postcode": "SN12 7FU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "120, LINNET LANE"
+    },
+    {
+      "price": 273275,
+      "date": "2026-06-23",
+      "postcode": "SN12 6PA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, THE LYE"
+    },
+    {
+      "price": 67954,
+      "date": "2026-06-19",
+      "postcode": "SN12 6AF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, KENILWORTH GARDENS"
+    },
+    {
+      "price": 100000,
+      "date": "2026-06-15",
+      "postcode": "SN12 7DY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 22, GIFFORDS COURT, LOWBOURNE"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-15",
+      "postcode": "SN12 7JJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WESTBURY VIEW"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-12",
+      "postcode": "SN12 6QJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "380, LONGLEAZE LANE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-09",
+      "postcode": "SN12 7SN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, CORNFLOWER WAY"
+    },
+    {
+      "price": 435000,
+      "date": "2026-06-09",
+      "postcode": "SN12 7SH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, SORREL CLOSE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-06-05",
+      "postcode": "SN12 6FZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, DAISY CLOSE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-05",
+      "postcode": "SN12 7AE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "110, FOREST ROAD"
+    },
+    {
+      "price": 292000,
+      "date": "2026-06-03",
+      "postcode": "SN12 8DP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, ADDISON ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-06-03",
+      "postcode": "SN12 6WA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "66, TEDDER GARDENS"
+    },
+    {
+      "price": 415000,
+      "date": "2026-05-29",
+      "postcode": "SN12 7GZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, GLADSTONE ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-05-28",
+      "postcode": "SN12 7JT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, ARDEN CLOSE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-05-26",
+      "postcode": "SN12 7GY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ASQUITH AVENUE"
+    },
     {
       "price": 405000,
       "date": "2026-05-22",
@@ -26,6 +164,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "46, HAZELWOOD ROAD"
+    },
+    {
+      "price": 255000,
+      "date": "2026-05-18",
+      "postcode": "SN12 7AD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "86, FOREST ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-05-15",
+      "postcode": "SN12 7EX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, LEAZE ROAD"
     },
     {
       "price": 341500,
@@ -37,166 +193,13 @@
       "address": "31, GRASMERE"
     },
     {
-      "price": 660000,
+      "price": 271500,
       "date": "2026-05-11",
-      "postcode": "SN12 6QA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, PERRYS LANE"
-    },
-    {
-      "price": 442500,
-      "date": "2026-05-08",
-      "postcode": "SN12 6WG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, PARK ROAD"
-    },
-    {
-      "price": 445000,
-      "date": "2026-05-05",
-      "postcode": "SN12 6GL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, RENNIE CRESCENT"
-    },
-    {
-      "price": 590000,
-      "date": "2026-05-01",
-      "postcode": "SN12 8PX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE CORNER HOUSE, 35A, CURTIS ORCHARD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-04-28",
-      "postcode": "SN12 7SJ",
+      "postcode": "SN12 6UJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "43, BURNET CLOSE"
-    },
-    {
-      "price": 135000,
-      "date": "2026-04-28",
-      "postcode": "SN12 8FE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, TURNERS COURT"
-    },
-    {
-      "price": 425000,
-      "date": "2026-04-24",
-      "postcode": "SN12 6GG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, SMEATON WAY"
-    },
-    {
-      "price": 305000,
-      "date": "2026-04-24",
-      "postcode": "SN12 6HU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, LABURNUM DRIVE"
-    },
-    {
-      "price": 327500,
-      "date": "2026-04-24",
-      "postcode": "SN12 6XW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, TANGMERE CLOSE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-04-24",
-      "postcode": "SN12 8QT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, KENNEDY AVENUE"
-    },
-    {
-      "price": 257000,
-      "date": "2026-04-22",
-      "postcode": "SN12 8FB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, BEANACRE ROAD"
-    },
-    {
-      "price": 140000,
-      "date": "2026-04-17",
-      "postcode": "SN12 7GS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "23, VERBENA COURT"
-    },
-    {
-      "price": 350000,
-      "date": "2026-04-17",
-      "postcode": "SN12 6UX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, HAZELWOOD ROAD"
-    },
-    {
-      "price": 385000,
-      "date": "2026-04-16",
-      "postcode": "SN12 7AA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, FOREST ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-04-15",
-      "postcode": "SN12 6DW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "85, SEMINGTON ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-04-15",
-      "postcode": "SN12 6NN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, WEAVERS COTTAGES"
-    },
-    {
-      "price": 222500,
-      "date": "2026-04-10",
-      "postcode": "SN12 6FF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, VALENTIA COURT"
-    },
-    {
-      "price": 337500,
-      "date": "2026-04-10",
-      "postcode": "SN12 6AF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39A, KENILWORTH GARDENS"
+      "address": "60, BARNES WALLIS CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -282,8 +285,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 281000,
-      "transactions": 37
+      "medianPrice": 280500,
+      "transactions": 38
     },
     {
       "month": "2025-06",
@@ -297,13 +300,13 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 310000,
-      "transactions": 39
+      "medianPrice": 321250,
+      "transactions": 44
     },
     {
       "month": "2025-09",
-      "medianPrice": 281250,
-      "transactions": 38
+      "medianPrice": 278750,
+      "transactions": 40
     },
     {
       "month": "2025-10",
@@ -313,17 +316,17 @@
     {
       "month": "2025-11",
       "medianPrice": 315000,
-      "transactions": 38
+      "transactions": 39
     },
     {
       "month": "2025-12",
-      "medianPrice": 325000,
-      "transactions": 37
+      "medianPrice": 322500,
+      "transactions": 40
     },
     {
       "month": "2026-01",
-      "medianPrice": 330000,
-      "transactions": 20
+      "medianPrice": 325000,
+      "transactions": 23
     },
     {
       "month": "2026-02",
@@ -338,12 +341,17 @@
     {
       "month": "2026-04",
       "medianPrice": 258500,
-      "transactions": 22
+      "transactions": 24
     },
     {
       "month": "2026-05",
-      "medianPrice": 443750,
-      "transactions": 6
+      "medianPrice": 400000,
+      "transactions": 13
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 280000,
+      "transactions": 12
     }
   ],
   "quarterlyHistory": [
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 290000,
-      "transactions": 119
+      "medianPrice": 287500,
+      "transactions": 120
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 282250,
-      "transactions": 116
+      "medianPrice": 282500,
+      "transactions": 123
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 296000,
-      "transactions": 126
+      "medianPrice": 295000,
+      "transactions": 130
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 275500,
-      "transactions": 78
+      "medianPrice": 276000,
+      "transactions": 81
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 328750,
-      "transactions": 28
+      "medianPrice": 292000,
+      "transactions": 49
     }
   ]
 }

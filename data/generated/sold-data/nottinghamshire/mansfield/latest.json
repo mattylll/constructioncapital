@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.390Z",
+  "updatedAt": "2026-08-07T08:45:02.550Z",
   "townSlug": "mansfield",
   "countySlug": "nottinghamshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "MANSFIELD"
+  ],
   "stats": {
-    "medianPrice": 180000,
+    "medianPrice": 179500,
     "medianByType": {
       "D": 275000,
       "S": 172500,
-      "T": 118000,
-      "F": 100000
+      "T": 120000,
+      "F": 98500
     },
-    "transactionCount12m": 1197,
-    "yoyChange": 0,
-    "newBuildCount": 26,
-    "existingCount": 1171,
-    "newBuildPremium": 34.9
+    "transactionCount12m": 1188,
+    "yoyChange": -0.3,
+    "newBuildCount": 24,
+    "existingCount": 1164,
+    "newBuildPremium": 38.9
   },
   "recentTransactions": [
     {
-      "price": 317500,
-      "date": "2026-05-28",
-      "postcode": "NG18 2BA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, WOODHOUSE ROAD"
-    },
-    {
-      "price": 228000,
-      "date": "2026-05-22",
-      "postcode": "NG19 9QU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, THE MYND"
-    },
-    {
-      "price": 273000,
-      "date": "2026-05-20",
-      "postcode": "NG19 9GB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CRANSWICK CLOSE"
-    },
-    {
-      "price": 310000,
-      "date": "2026-05-20",
-      "postcode": "NG19 0LY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, RUSHPOOL CLOSE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-05-20",
-      "postcode": "NG20 0DY",
+      "price": 125000,
+      "date": "2026-06-25",
+      "postcode": "NG18 3AU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, RUTLAND CLOSE"
+      "address": "35, REINDEER STREET"
     },
     {
-      "price": 223000,
-      "date": "2026-05-19",
-      "postcode": "NG20 0BQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, KING ROAD"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-15",
-      "postcode": "NG18 3LD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, COLUMBIA AVENUE"
-    },
-    {
-      "price": 262000,
-      "date": "2026-05-15",
-      "postcode": "NG19 0EB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, LITTLE HOLLIES"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-15",
-      "postcode": "NG18 3DS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "225, EAKRING ROAD"
-    },
-    {
-      "price": 265000,
-      "date": "2026-05-15",
-      "postcode": "NG18 4EY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "114, SOUTHWELL ROAD WEST"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-11",
-      "postcode": "NG19 0ET",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, VICTORY DRIVE"
-    },
-    {
-      "price": 70900,
-      "date": "2026-05-08",
-      "postcode": "NG18 2NA",
+      "price": 160000,
+      "date": "2026-06-24",
+      "postcode": "NG21 0BU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, BLAKE CRESCENT"
+      "address": "7, FIRST AVENUE"
     },
     {
-      "price": 180000,
-      "date": "2026-05-08",
-      "postcode": "NG19 8HQ",
+      "price": 130000,
+      "date": "2026-06-22",
+      "postcode": "NG18 5LJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "54, BROWN AVENUE"
+      "address": "43, PADLEY HILL"
     },
     {
-      "price": 350000,
-      "date": "2026-05-08",
-      "postcode": "NG18 4PJ",
+      "price": 315000,
+      "date": "2026-06-22",
+      "postcode": "NG19 7GD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, SOUTHPARK AVENUE"
+      "address": "31, DUNSIL ROAD"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-19",
+      "postcode": "NG18 5DP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, CROMFORD AVENUE"
+    },
+    {
+      "price": 104000,
+      "date": "2026-06-19",
+      "postcode": "NG20 9PS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, ELKESLEY ROAD"
+    },
+    {
+      "price": 632000,
+      "date": "2026-06-19",
+      "postcode": "NG18 4PN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, THE AVENUE"
+    },
+    {
+      "price": 87500,
+      "date": "2026-06-19",
+      "postcode": "NG20 0NB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, WATSON STREET"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-18",
+      "postcode": "NG18 3GT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, RYEDALE AVENUE"
+    },
+    {
+      "price": 127500,
+      "date": "2026-06-18",
+      "postcode": "NG19 6AP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, ARUNDEL DRIVE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-18",
+      "postcode": "NG18 4QG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, BANK END CLOSE"
+    },
+    {
+      "price": 126000,
+      "date": "2026-06-15",
+      "postcode": "NG18 2RY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, LAUREL AVENUE"
+    },
+    {
+      "price": 168000,
+      "date": "2026-06-12",
+      "postcode": "NG19 0NP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, SULBY CLOSE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-06-12",
+      "postcode": "NG19 8JH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, LEAS ROAD"
+    },
+    {
+      "price": 85000,
+      "date": "2026-06-12",
+      "postcode": "NG19 7HH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, CHESTERFIELD ROAD NORTH"
+    },
+    {
+      "price": 266500,
+      "date": "2026-06-12",
+      "postcode": "NG18 4UH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, THE RODERY"
+    },
+    {
+      "price": 345000,
+      "date": "2026-06-12",
+      "postcode": "NG18 5EL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, FRANK AVENUE"
     },
     {
       "price": 225000,
-      "date": "2026-05-08",
-      "postcode": "NG19 9GF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, FAIR VIEW"
-    },
-    {
-      "price": 294000,
-      "date": "2026-05-08",
-      "postcode": "NG18 4QH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, DORCHESTER DRIVE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-08",
-      "postcode": "NG19 9RG",
+      "date": "2026-06-12",
+      "postcode": "NG18 4YE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, THE RUSHES"
+      "address": "41, BLACK ROCK WAY"
     },
     {
-      "price": 157500,
-      "date": "2026-05-06",
-      "postcode": "NG18 2PX",
-      "propertyType": "T",
+      "price": 170000,
+      "date": "2026-06-12",
+      "postcode": "NG19 7JG",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, KING STREET"
+      "address": "240, CHESTERFIELD ROAD NORTH"
     },
     {
-      "price": 75000,
-      "date": "2026-05-06",
-      "postcode": "NG20 0LS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "63, CLUMBER STREET"
-    },
-    {
-      "price": 145000,
-      "date": "2026-05-01",
-      "postcode": "NG19 0DP",
+      "price": 116000,
+      "date": "2026-06-11",
+      "postcode": "NG18 5SZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "82, LAUREL AVENUE"
+      "address": "48, DALLAS STREET"
     }
   ],
   "monthlyHistory": [
@@ -233,7 +236,7 @@
     {
       "month": "2024-07",
       "medianPrice": 180000,
-      "transactions": 178
+      "transactions": 179
     },
     {
       "month": "2024-08",
@@ -248,12 +251,12 @@
     {
       "month": "2024-10",
       "medianPrice": 175000,
-      "transactions": 161
+      "transactions": 162
     },
     {
       "month": "2024-11",
-      "medianPrice": 184500,
-      "transactions": 212
+      "medianPrice": 185000,
+      "transactions": 213
     },
     {
       "month": "2024-12",
@@ -292,58 +295,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 190000,
-      "transactions": 162
+      "medianPrice": 193000,
+      "transactions": 167
     },
     {
       "month": "2025-08",
       "medianPrice": 180000,
-      "transactions": 137
+      "transactions": 150
     },
     {
       "month": "2025-09",
-      "medianPrice": 183000,
-      "transactions": 142
+      "medianPrice": 186000,
+      "transactions": 149
     },
     {
       "month": "2025-10",
-      "medianPrice": 185000,
-      "transactions": 182
+      "medianPrice": 182500,
+      "transactions": 184
     },
     {
       "month": "2025-11",
-      "medianPrice": 183500,
-      "transactions": 116
+      "medianPrice": 187500,
+      "transactions": 123
     },
     {
       "month": "2025-12",
-      "medianPrice": 183250,
-      "transactions": 136
+      "medianPrice": 186500,
+      "transactions": 158
     },
     {
       "month": "2026-01",
       "medianPrice": 168000,
-      "transactions": 80
+      "transactions": 96
     },
     {
       "month": "2026-02",
       "medianPrice": 180000,
-      "transactions": 84
+      "transactions": 87
     },
     {
       "month": "2026-03",
-      "medianPrice": 157000,
-      "transactions": 83
+      "medianPrice": 160000,
+      "transactions": 87
     },
     {
       "month": "2026-04",
-      "medianPrice": 168000,
-      "transactions": 73
+      "medianPrice": 169000,
+      "transactions": 82
     },
     {
       "month": "2026-05",
-      "medianPrice": 221500,
-      "transactions": 26
+      "medianPrice": 174750,
+      "transactions": 74
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 160000,
+      "transactions": 29
     }
   ],
   "quarterlyHistory": [
@@ -360,12 +368,12 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 180000,
-      "transactions": 474
+      "transactions": 475
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 178000,
-      "transactions": 513
+      "transactions": 515
     },
     {
       "quarter": "2025-Q1",
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 182000,
-      "transactions": 441
+      "medianPrice": 185000,
+      "transactions": 466
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 185000,
-      "transactions": 434
+      "transactions": 465
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 168000,
-      "transactions": 247
+      "medianPrice": 167750,
+      "transactions": 270
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 175000,
-      "transactions": 99
+      "medianPrice": 168000,
+      "transactions": 185
     }
   ]
 }

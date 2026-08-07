@@ -1,209 +1,212 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.344Z",
+  "updatedAt": "2026-08-07T08:45:03.558Z",
   "townSlug": "cramlington",
   "countySlug": "northumberland",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTHUMBERLAND"
+  ],
   "stats": {
-    "medianPrice": 179973,
+    "medianPrice": 180000,
     "medianByType": {
-      "D": 309500,
-      "S": 183975,
-      "T": 150000,
-      "F": 80000
+      "D": 310000,
+      "S": 184975,
+      "T": 155000,
+      "F": 81250
     },
-    "transactionCount12m": 410,
+    "transactionCount12m": 417,
     "yoyChange": -6.6,
-    "newBuildCount": 10,
-    "existingCount": 400,
-    "newBuildPremium": 11.4
+    "newBuildCount": 14,
+    "existingCount": 403,
+    "newBuildPremium": 54.5
   },
   "recentTransactions": [
     {
-      "price": 585000,
-      "date": "2026-05-22",
-      "postcode": "NE23 7XE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, RICHMOND WAY"
-    },
-    {
-      "price": 124000,
-      "date": "2026-05-18",
-      "postcode": "NE23 2BU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, THORNLEY AVENUE"
-    },
-    {
-      "price": 122600,
-      "date": "2026-05-15",
-      "postcode": "NE23 3BG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, STEPHEN STREET"
-    },
-    {
-      "price": 183000,
-      "date": "2026-05-15",
-      "postcode": "NE23 8BD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "75, MUSSELBURGH CIRCLE"
-    },
-    {
-      "price": 395000,
-      "date": "2026-05-15",
-      "postcode": "NE23 3SZ",
+      "price": 333000,
+      "date": "2026-06-23",
+      "postcode": "NE23 1DQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, GLENFIELD AVENUE"
+      "address": "3, SCHOOL CLOSE"
     },
     {
-      "price": 110000,
-      "date": "2026-05-11",
-      "postcode": "NE23 6RL",
+      "price": 220000,
+      "date": "2026-06-18",
+      "postcode": "NE23 6JB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, STOREY STREET"
+      "address": "77, WINSHIELDS"
     },
     {
-      "price": 188010,
-      "date": "2026-05-11",
+      "price": 105000,
+      "date": "2026-06-18",
+      "postcode": "NE23 6HU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "13, WHITELAW PLACE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-15",
+      "postcode": "NE23 2AJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, VILLAGE ROAD"
+    },
+    {
+      "price": 170000,
+      "date": "2026-06-12",
+      "postcode": "NE23 2QQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "93, PORCHESTER DRIVE"
+    },
+    {
+      "price": 70000,
+      "date": "2026-06-12",
+      "postcode": "NE23 6TG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12, CLIFTON ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-06-10",
+      "postcode": "NE23 8BF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, LITTLESTONE WYND"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-05",
+      "postcode": "NE23 8BF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56A, LITTLESTONE WYND"
+    },
+    {
+      "price": 196000,
+      "date": "2026-06-05",
+      "postcode": "NE23 3LG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "62, ILFORD AVENUE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-04",
       "postcode": "NE23 3GG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, MILLBROOK ROAD"
+      "address": "30, MILLBROOK ROAD"
     },
     {
-      "price": 290000,
-      "date": "2026-05-08",
-      "postcode": "NE23 7DH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "EMBLETON HOUSE, THE GRANGE"
-    },
-    {
-      "price": 174000,
-      "date": "2026-05-08",
-      "postcode": "NE23 8BQ",
+      "price": 72000,
+      "date": "2026-06-04",
+      "postcode": "NE23 2BP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "54, ARCHERFIELD DRIVE"
+      "address": "19, TINDALE AVENUE"
     },
     {
-      "price": 86000,
-      "date": "2026-05-06",
+      "price": 175000,
+      "date": "2026-06-02",
+      "postcode": "NE23 6HR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, CROOKHAM WAY"
+    },
+    {
+      "price": 239950,
+      "date": "2026-05-29",
+      "postcode": "NE23 1PX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, TORCROSS WAY"
+    },
+    {
+      "price": 285000,
+      "date": "2026-05-29",
+      "postcode": "NE23 3FT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, DENHOLM AVENUE"
+    },
+    {
+      "price": 253000,
+      "date": "2026-05-29",
+      "postcode": "NE23 2XL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, KINLOSS SQUARE"
+    },
+    {
+      "price": 110000,
+      "date": "2026-05-29",
       "postcode": "NE23 6HT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "31, WEETWOOD ROAD"
+      "address": "35, WEETWOOD ROAD"
     },
     {
-      "price": 380000,
-      "date": "2026-05-05",
-      "postcode": "NE23 7EA",
+      "price": 205000,
+      "date": "2026-05-29",
+      "postcode": "NE23 1AU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "GARDEN HOUSE, THE BARNS, MARES CLOSE"
+      "address": "5, BARONEY WAY"
     },
     {
-      "price": 308000,
-      "date": "2026-05-05",
-      "postcode": "NE23 8BF",
-      "propertyType": "D",
+      "price": 149000,
+      "date": "2026-05-28",
+      "postcode": "NE23 7EW",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, LITTLESTONE WYND"
+      "address": "12, BURNLEA GARDENS"
     },
     {
-      "price": 45000,
-      "date": "2026-04-30",
-      "postcode": "NE23 6EA",
+      "price": 84000,
+      "date": "2026-05-22",
+      "postcode": "NE23 6LJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "27, ALEXANDRA WAY"
+      "address": "37, WREAY WALK"
     },
     {
-      "price": 150000,
-      "date": "2026-04-29",
-      "postcode": "NE23 6TB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, BRINKBURN AVENUE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-04-29",
-      "postcode": "NE23 3TY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, PLAISTOW WAY"
-    },
-    {
-      "price": 255000,
-      "date": "2026-04-27",
-      "postcode": "NE23 6RB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LEAHOLME, HIGH PIT ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-04-24",
-      "postcode": "NE23 6LS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, WANLOCK CLOSE"
-    },
-    {
-      "price": 174000,
-      "date": "2026-04-24",
-      "postcode": "NE23 8FR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, FOXGLOVE COURT"
-    },
-    {
-      "price": 191000,
-      "date": "2026-04-24",
-      "postcode": "NE23 8FQ",
+      "price": 126000,
+      "date": "2026-05-22",
+      "postcode": "NE23 2BU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, SNOWDROP WAY"
-    },
-    {
-      "price": 245000,
-      "date": "2026-04-24",
-      "postcode": "NE23 1PF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, TORCROSS WAY"
+      "address": "59, THORNLEY AVENUE"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 190000,
-      "transactions": 45
+      "medianPrice": 199498,
+      "transactions": 46
     },
     {
       "month": "2024-02",
@@ -227,8 +230,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 222000,
-      "transactions": 73
+      "medianPrice": 224995,
+      "transactions": 75
     },
     {
       "month": "2024-07",
@@ -242,8 +245,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 209000,
-      "transactions": 60
+      "medianPrice": 220000,
+      "transactions": 65
     },
     {
       "month": "2024-10",
@@ -252,18 +255,18 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 192594,
-      "transactions": 83
+      "medianPrice": 196000,
+      "transactions": 86
     },
     {
       "month": "2024-12",
-      "medianPrice": 192594,
-      "transactions": 81
+      "medianPrice": 205167,
+      "transactions": 88
     },
     {
       "month": "2025-01",
-      "medianPrice": 189975,
-      "transactions": 50
+      "medianPrice": 190000,
+      "transactions": 51
     },
     {
       "month": "2025-02",
@@ -282,67 +285,72 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 175000,
-      "transactions": 45
+      "medianPrice": 176000,
+      "transactions": 46
     },
     {
       "month": "2025-06",
-      "medianPrice": 204995,
-      "transactions": 77
+      "medianPrice": 205000,
+      "transactions": 79
     },
     {
       "month": "2025-07",
-      "medianPrice": 181995,
-      "transactions": 59
+      "medianPrice": 185000,
+      "transactions": 65
     },
     {
       "month": "2025-08",
-      "medianPrice": 189950,
-      "transactions": 59
+      "medianPrice": 190000,
+      "transactions": 72
     },
     {
       "month": "2025-09",
-      "medianPrice": 184950,
-      "transactions": 49
+      "medianPrice": 195000,
+      "transactions": 54
     },
     {
       "month": "2025-10",
-      "medianPrice": 171125,
-      "transactions": 48
+      "medianPrice": 167000,
+      "transactions": 49
     },
     {
       "month": "2025-11",
-      "medianPrice": 167500,
-      "transactions": 36
+      "medianPrice": 165000,
+      "transactions": 37
     },
     {
       "month": "2025-12",
-      "medianPrice": 165000,
-      "transactions": 42
+      "medianPrice": 160500,
+      "transactions": 50
     },
     {
       "month": "2026-01",
-      "medianPrice": 231500,
-      "transactions": 28
+      "medianPrice": 222925,
+      "transactions": 34
     },
     {
       "month": "2026-02",
       "medianPrice": 167500,
-      "transactions": 27
+      "transactions": 30
     },
     {
       "month": "2026-03",
-      "medianPrice": 179975,
-      "transactions": 38
+      "medianPrice": 183000,
+      "transactions": 43
     },
     {
       "month": "2026-04",
       "medianPrice": 176250,
-      "transactions": 21
+      "transactions": 23
     },
     {
       "month": "2026-05",
-      "medianPrice": 185505,
+      "medianPrice": 196505,
+      "transactions": 30
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 188000,
       "transactions": 12
     }
   ],
@@ -350,52 +358,52 @@
     {
       "quarter": "2024-Q1",
       "medianPrice": 162000,
-      "transactions": 123
+      "transactions": 124
     },
     {
       "quarter": "2024-Q2",
       "medianPrice": 215000,
-      "transactions": 201
+      "transactions": 203
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 192500,
-      "transactions": 158
+      "medianPrice": 200000,
+      "transactions": 163
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 197000,
-      "transactions": 231
+      "medianPrice": 205000,
+      "transactions": 241
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 190000,
-      "transactions": 169
+      "transactions": 170
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 188750,
-      "transactions": 160
+      "medianPrice": 191750,
+      "transactions": 163
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 185000,
-      "transactions": 167
+      "medianPrice": 190000,
+      "transactions": 191
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 168500,
-      "transactions": 126
+      "medianPrice": 165000,
+      "transactions": 136
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 180000,
-      "transactions": 93
+      "transactions": 107
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 183000,
-      "transactions": 33
+      "medianPrice": 185000,
+      "transactions": 65
     }
   ]
 }

@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:54.860Z",
+  "updatedAt": "2026-08-07T08:45:00.943Z",
   "townSlug": "westminster",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "WESTMINSTER",
+    "CITY OF WESTMINSTER"
+  ],
   "stats": {
-    "medianPrice": 790000,
+    "medianPrice": 785000,
     "medianByType": {
-      "D": 2900000,
+      "D": 3050000,
       "S": 4612500,
       "T": 2000000,
-      "F": 700000
+      "F": 690000
     },
-    "transactionCount12m": 1621,
-    "yoyChange": -12.2,
-    "newBuildCount": 11,
-    "existingCount": 1610,
-    "newBuildPremium": 388.9
+    "transactionCount12m": 1603,
+    "yoyChange": -12.8,
+    "newBuildCount": 13,
+    "existingCount": 1590,
+    "newBuildPremium": 406.4
   },
   "recentTransactions": [
     {
-      "price": 520000,
-      "date": "2026-05-22",
-      "postcode": "SW1V 4JU",
+      "price": 740000,
+      "date": "2026-06-30",
+      "postcode": "W10 4JE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, MARNE STREET"
+    },
+    {
+      "price": 1050000,
+      "date": "2026-06-22",
+      "postcode": "W2 1BE",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT G, 27 - 31, SUTHERLAND STREET"
+      "address": "APARTMENT 64, 6, HERMITAGE STREET"
     },
     {
-      "price": 385000,
-      "date": "2026-05-22",
-      "postcode": "W2 5ET",
+      "price": 485000,
+      "date": "2026-06-19",
+      "postcode": "W1H 4NB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 24, LANGLEY HOUSE, ALFRED ROAD"
+      "address": "FLAT 8, CRANFIELD COURT, HOMER STREET"
     },
     {
-      "price": 540000,
-      "date": "2026-05-21",
-      "postcode": "W9 3NQ",
+      "price": 4000000,
+      "date": "2026-06-19",
+      "postcode": "W1K 2JT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, PARK STREET"
+    },
+    {
+      "price": 925000,
+      "date": "2026-06-19",
+      "postcode": "W2 3AH",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT B, 40, HORMEAD ROAD"
+      "address": "FLAT 2, 63, QUEENS GARDENS"
     },
     {
-      "price": 790000,
-      "date": "2026-05-21",
-      "postcode": "W2 6DQ",
+      "price": 500000,
+      "date": "2026-06-18",
+      "postcode": "W9 3EA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 43, 11, SHELDON SQUARE"
+      "address": "FLAT C, 99, FERNHEAD ROAD"
     },
     {
-      "price": 365500,
-      "date": "2026-05-21",
-      "postcode": "W9 1RN",
+      "price": 1825000,
+      "date": "2026-06-17",
+      "postcode": "W1H 2DD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "135, WELLESLEY COURT, MAIDA VALE"
+      "address": "18, BRYANSTON MEWS WEST"
     },
     {
-      "price": 650000,
-      "date": "2026-05-20",
-      "postcode": "SW1V 4NH",
+      "price": 675961,
+      "date": "2026-06-15",
+      "postcode": "SW1V 4NU",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "60A, WINCHESTER STREET"
+      "address": "FLAT 2, 81, WINCHESTER STREET"
     },
     {
-      "price": 990000,
-      "date": "2026-05-18",
+      "price": 820000,
+      "date": "2026-06-15",
+      "postcode": "W1W 6PQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, 110, GREAT PORTLAND STREET"
+    },
+    {
+      "price": 500000,
+      "date": "2026-06-15",
+      "postcode": "W2 6PP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "52, BOURNE TERRACE"
+    },
+    {
+      "price": 950500,
+      "date": "2026-06-15",
+      "postcode": "SW1V 2NX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, 18, MORETON TERRACE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-06-12",
+      "postcode": "W9 3NG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT D, 8, HORMEAD ROAD"
+    },
+    {
+      "price": 462500,
+      "date": "2026-06-12",
+      "postcode": "W2 6QT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 11, 119, WESTBOURNE TERRACE"
+    },
+    {
+      "price": 330000,
+      "date": "2026-06-12",
+      "postcode": "W9 2BP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "13E, LANHILL ROAD"
+    },
+    {
+      "price": 683000,
+      "date": "2026-06-12",
+      "postcode": "W9 2DU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "GARDEN FLAT, 7, MARYLANDS ROAD"
+    },
+    {
+      "price": 997500,
+      "date": "2026-06-12",
+      "postcode": "NW8 9ES",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 42, SOUTH LODGE, CIRCUS ROAD"
+    },
+    {
+      "price": 1800000,
+      "date": "2026-06-11",
+      "postcode": "SW1W 8BD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 32, CARO POINT, 5, GATLIFF ROAD"
+    },
+    {
+      "price": 522500,
+      "date": "2026-06-11",
+      "postcode": "W2 4AA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, 26, HEREFORD ROAD"
+    },
+    {
+      "price": 975000,
+      "date": "2026-06-10",
       "postcode": "NW8 0NG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 4C, 55, MARLBOROUGH HILL"
+      "address": "FLAT 2C, 55, MARLBOROUGH HILL"
     },
     {
-      "price": 675000,
-      "date": "2026-05-18",
-      "postcode": "SW1P 2NU",
+      "price": 485000,
+      "date": "2026-06-10",
+      "postcode": "W1W 6JP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 14, 68, VINCENT SQUARE"
-    },
-    {
-      "price": 685000,
-      "date": "2026-05-18",
-      "postcode": "W1U 5BN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "61, LUXBOROUGH TOWER, LUXBOROUGH STREET"
-    },
-    {
-      "price": 530000,
-      "date": "2026-05-18",
-      "postcode": "NW8 9EN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 22, GROVE COURT, 24, GROVE END ROAD"
-    },
-    {
-      "price": 2500000,
-      "date": "2026-05-15",
-      "postcode": "SW1X 8RS",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, BELGRAVE MEWS NORTH"
-    },
-    {
-      "price": 1087000,
-      "date": "2026-05-15",
-      "postcode": "W2 3NA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 12, 53 - 55, LANCASTER GATE"
-    },
-    {
-      "price": 800000,
-      "date": "2026-05-14",
-      "postcode": "W2 1DB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 202, WESTMARK TOWER, 1, NEWCASTLE PLACE"
-    },
-    {
-      "price": 575000,
-      "date": "2026-05-14",
-      "postcode": "WC2R 1HA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 304, MARCONI HOUSE, 335, STRAND"
-    },
-    {
-      "price": 1600000,
-      "date": "2026-05-12",
-      "postcode": "NW1 6RA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "99, ASHMILL STREET"
-    },
-    {
-      "price": 1300000,
-      "date": "2026-05-12",
-      "postcode": "WC2E 7NZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 18, HARLEQUIN COURT, 20, TAVISTOCK STREET"
-    },
-    {
-      "price": 2200000,
-      "date": "2026-05-11",
-      "postcode": "W2 3NP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, SPIRE HOUSE, LANCASTER GATE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-05-11",
-      "postcode": "NW8 9LR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 145, GROVE END GARDENS, 33, GROVE END ROAD"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-08",
-      "postcode": "W1H 4NF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 32, CRANFIELD COURT, HOMER STREET"
-    },
-    {
-      "price": 2600000,
-      "date": "2026-05-08",
-      "postcode": "SW1X 7AL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, LITTLE CHESTER STREET"
+      "address": "FLAT 63, 49, HALLAM STREET"
     }
   ],
   "monthlyHistory": [
@@ -207,58 +211,58 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 975000,
-      "transactions": 253
+      "medianPrice": 985000,
+      "transactions": 252
     },
     {
       "month": "2024-03",
-      "medianPrice": 1053000,
-      "transactions": 283
+      "medianPrice": 1095000,
+      "transactions": 285
     },
     {
       "month": "2024-04",
-      "medianPrice": 1050000,
-      "transactions": 291
+      "medianPrice": 1055000,
+      "transactions": 293
     },
     {
       "month": "2024-05",
-      "medianPrice": 925000,
-      "transactions": 276
+      "medianPrice": 950000,
+      "transactions": 283
     },
     {
       "month": "2024-06",
-      "medianPrice": 1010001,
-      "transactions": 240
+      "medianPrice": 1032750,
+      "transactions": 245
     },
     {
       "month": "2024-07",
-      "medianPrice": 953500,
-      "transactions": 318
+      "medianPrice": 968751,
+      "transactions": 324
     },
     {
       "month": "2024-08",
-      "medianPrice": 1050000,
-      "transactions": 278
+      "medianPrice": 1055028,
+      "transactions": 280
     },
     {
       "month": "2024-09",
       "medianPrice": 870000,
-      "transactions": 325
+      "transactions": 326
     },
     {
       "month": "2024-10",
-      "medianPrice": 960000,
-      "transactions": 397
+      "medianPrice": 958500,
+      "transactions": 396
     },
     {
       "month": "2024-11",
       "medianPrice": 895000,
-      "transactions": 295
+      "transactions": 297
     },
     {
       "month": "2024-12",
-      "medianPrice": 826000,
-      "transactions": 267
+      "medianPrice": 830000,
+      "transactions": 268
     },
     {
       "month": "2025-01",
@@ -267,13 +271,13 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 861000,
-      "transactions": 233
+      "medianPrice": 860500,
+      "transactions": 234
     },
     {
       "month": "2025-03",
       "medianPrice": 720000,
-      "transactions": 483
+      "transactions": 485
     },
     {
       "month": "2025-04",
@@ -282,120 +286,125 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 1120000,
-      "transactions": 196
+      "medianPrice": 1100000,
+      "transactions": 197
     },
     {
       "month": "2025-06",
-      "medianPrice": 940000,
-      "transactions": 234
+      "medianPrice": 957500,
+      "transactions": 238
     },
     {
       "month": "2025-07",
       "medianPrice": 935000,
-      "transactions": 234
+      "transactions": 240
     },
     {
       "month": "2025-08",
-      "medianPrice": 834500,
-      "transactions": 226
+      "medianPrice": 865050,
+      "transactions": 238
     },
     {
       "month": "2025-09",
-      "medianPrice": 920000,
-      "transactions": 221
+      "medianPrice": 950000,
+      "transactions": 236
     },
     {
       "month": "2025-10",
-      "medianPrice": 790000,
-      "transactions": 215
+      "medianPrice": 785000,
+      "transactions": 226
     },
     {
       "month": "2025-11",
-      "medianPrice": 845000,
-      "transactions": 190
+      "medianPrice": 875000,
+      "transactions": 207
     },
     {
       "month": "2025-12",
-      "medianPrice": 805000,
-      "transactions": 133
+      "medianPrice": 813750,
+      "transactions": 168
     },
     {
       "month": "2026-01",
-      "medianPrice": 678000,
-      "transactions": 113
+      "medianPrice": 680050,
+      "transactions": 129
     },
     {
       "month": "2026-02",
-      "medianPrice": 667500,
-      "transactions": 90
+      "medianPrice": 687500,
+      "transactions": 98
     },
     {
       "month": "2026-03",
-      "medianPrice": 632500,
-      "transactions": 115
+      "medianPrice": 622500,
+      "transactions": 122
     },
     {
       "month": "2026-04",
-      "medianPrice": 775000,
-      "transactions": 79
+      "medianPrice": 780000,
+      "transactions": 93
     },
     {
       "month": "2026-05",
-      "medianPrice": 680000,
-      "transactions": 44
+      "medianPrice": 775000,
+      "transactions": 95
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 802500,
+      "transactions": 42
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 1097500,
-      "transactions": 774
+      "medianPrice": 1100000,
+      "transactions": 775
     },
     {
       "quarter": "2024-Q2",
       "medianPrice": 1000000,
-      "transactions": 807
+      "transactions": 821
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 940000,
-      "transactions": 921
+      "medianPrice": 950000,
+      "transactions": 930
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 900000,
-      "transactions": 959
+      "transactions": 961
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 818750,
-      "transactions": 990
+      "medianPrice": 817500,
+      "transactions": 993
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 1020000,
-      "transactions": 595
+      "medianPrice": 1022500,
+      "transactions": 600
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 900000,
-      "transactions": 681
+      "medianPrice": 912500,
+      "transactions": 714
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 821200,
-      "transactions": 538
+      "medianPrice": 825000,
+      "transactions": 601
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 649375,
-      "transactions": 318
+      "medianPrice": 650000,
+      "transactions": 349
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 750000,
-      "transactions": 123
+      "medianPrice": 777500,
+      "transactions": 230
     }
   ]
 }

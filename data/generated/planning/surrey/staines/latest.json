@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-08-02T01:39:46.584Z",
+  "updatedAt": "2026-08-06T12:50:34.768Z",
   "townSlug": "staines",
   "countySlug": "surrey",
   "localAuthority": "Spelthorne Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-02",
-    "to": "2026-08-02",
-    "retrievedAt": "2026-08-02T01:39:46.582Z"
+    "from": "2026-05-06",
+    "to": "2026-08-06",
+    "retrievedAt": "2026-08-06T12:50:34.768Z"
   },
   "summary": {
-    "total": 228,
-    "relevant": 40,
+    "total": 224,
+    "relevant": 37,
     "approved": 8,
-    "pending": 30,
-    "refused": 2,
+    "pending": 28,
+    "refused": 1,
     "approvedUnits": 2,
     "pendingUnits": 181,
     "totalUnits": 183,
     "approvedGdv": 560000,
     "pendingGdv": 82555000,
     "totalEstimatedGDV": 83115000,
-    "approvalRate": 80
+    "approvalRate": 89
   },
   "approvedApplications": [
     {
@@ -45,25 +45,6 @@
       "sourceUrl": "https://publicaccess.spelthorne.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFPB26PBGCN00"
     },
     {
-      "reference": "26/00547/FUL",
-      "address": "WHSmith 49 - 51 High Street Staines-upon-Thames TW18 4QR",
-      "postcode": "TW18 4QR",
-      "ward": "",
-      "proposal": "Installation of new windows at ground floor level on the east elevation of the building.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided (Approved)",
-      "decision": "Decided (Approved)",
-      "receivedDate": "26/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.spelthorne.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFNJ6BPBGC200"
-    },
-    {
       "reference": "26/00546/FUL",
       "address": "WHSmith 49 - 51 High Street Staines-upon-Thames TW18 4QR",
       "postcode": "TW18 4QR",
@@ -81,6 +62,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.spelthorne.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFNJ5OPBGC000"
+    },
+    {
+      "reference": "26/00547/FUL",
+      "address": "WHSmith 49 - 51 High Street Staines-upon-Thames TW18 4QR",
+      "postcode": "TW18 4QR",
+      "ward": "",
+      "proposal": "Installation of new windows at ground floor level on the east elevation of the building.",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Decided (Approved)",
+      "decision": "Decided (Approved)",
+      "receivedDate": "26/05/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.spelthorne.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFNJ6BPBGC200"
     },
     {
       "reference": "26/00530/FUL",
@@ -180,25 +180,6 @@
   ],
   "pendingApplications": [
     {
-      "reference": "26/00778/LBC",
-      "address": "1 Laleham Abbey Abbey Drive Laleham Staines-upon-Thames TW18 1SZ",
-      "postcode": "TW18 1SZ",
-      "ward": "",
-      "proposal": "Listed Building Consent for the installation of a spiral staircase between the ground floor living room and the basement room",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "24/07/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.spelthorne.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIO3HXPBH3A00"
-    },
-    {
       "reference": "26/00773/FUL",
       "address": "Lewis And Son 131 High Street Staines-upon-Thames TW18 4PD",
       "postcode": "TW18 4PD",
@@ -218,25 +199,6 @@
       "sourceUrl": "https://publicaccess.spelthorne.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIL0EGPBH2I00"
     },
     {
-      "reference": "26/00770/FUL",
-      "address": "4 Burgoyne Road Sunbury-on-Thames TW16 7PW",
-      "postcode": "TW16 7PW",
-      "ward": "",
-      "proposal": "Change of use from C4 (6-person HMO) to sui generis to 7-person HMO",
-      "category": "change_of_use",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "21/07/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.spelthorne.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIJBAFPBH2500"
-    },
-    {
       "reference": "26/00765/FUL",
       "address": "Nationwide 28 - 30 High Street Staines-upon-Thames TW18 4EE",
       "postcode": "TW18 4EE",
@@ -254,6 +216,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.spelthorne.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIIRT2PBH1U00"
+    },
+    {
+      "reference": "26/00770/FUL",
+      "address": "4 Burgoyne Road Sunbury-on-Thames TW16 7PW",
+      "postcode": "TW16 7PW",
+      "ward": "",
+      "proposal": "Change of use from C4 (6-person HMO) to sui generis to 7-person HMO",
+      "category": "change_of_use",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "21/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.spelthorne.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIJBAFPBH2500"
     },
     {
       "reference": "26/00759/FUL",
@@ -469,7 +450,7 @@
       "address": "1 - 3 Desford Way Ashford TW15 3AR",
       "postcode": "TW15 3AR",
       "ward": "",
-      "proposal": "Reversion of a 1 dwelling property to 2 x semi detached properties ( the original design) Both use class C3.",
+      "proposal": "Reversion of a 1 dwelling property to 2 x semi detached properties (the original design) Both use class C3.",
       "category": "other_relevant",
       "units": 1,
       "estimatedGdv": 520000,
@@ -729,25 +710,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.spelthorne.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFN5B5PBGBQ00"
-    },
-    {
-      "reference": "26/00463/FUL",
-      "address": "Inglewood Green Street Sunbury-on-Thames",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Roof extension including installation of a rear facing dormer to allow the creation of an additional residential flat.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "05/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.spelthorne.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEKPY4PBG2O00"
     }
   ]
 }

@@ -1,209 +1,212 @@
 {
-  "updatedAt": "2026-07-05T06:06:54.994Z",
+  "updatedAt": "2026-08-07T08:45:01.084Z",
   "townSlug": "bexley",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BEXLEY"
+  ],
   "stats": {
     "medianPrice": 420000,
     "medianByType": {
-      "D": 647500,
-      "S": 497500,
-      "T": 410000,
+      "D": 650000,
+      "S": 495000,
+      "T": 408500,
       "F": 260000
     },
-    "transactionCount12m": 2156,
-    "yoyChange": 0.4,
+    "transactionCount12m": 2095,
+    "yoyChange": 0,
     "newBuildCount": 0,
-    "existingCount": 2156,
+    "existingCount": 2095,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 185000,
-      "date": "2026-05-22",
-      "postcode": "DA1 3PN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "51, HEATHERBANK CLOSE"
-    },
-    {
-      "price": 267000,
-      "date": "2026-05-21",
-      "postcode": "DA6 7BF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "24, CRAFT COURT, 5, REGAL WALK"
-    },
-    {
-      "price": 298000,
-      "date": "2026-05-21",
-      "postcode": "DA15 7LY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 20, MEDLAR HOUSE, LONGLANDS ROAD"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-21",
-      "postcode": "DA16 2RJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14A, WELLING WAY"
-    },
-    {
-      "price": 453000,
-      "date": "2026-05-20",
-      "postcode": "DA1 4RT",
+      "price": 600000,
+      "date": "2026-06-26",
+      "postcode": "DA8 2NQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "44, IRON MILL PLACE"
+      "address": "4, MOAT LANE"
     },
     {
-      "price": 196000,
-      "date": "2026-05-19",
-      "postcode": "DA15 9HN",
+      "price": 235000,
+      "date": "2026-06-22",
+      "postcode": "DA15 9LN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, SHERWOOD PARK AVENUE"
+      "address": "46, HARCOURT AVENUE"
     },
     {
-      "price": 245000,
-      "date": "2026-05-19",
-      "postcode": "DA8 3QS",
+      "price": 950000,
+      "date": "2026-06-19",
+      "postcode": "DA5 1RE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, SHUTTLEMEAD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-19",
+      "postcode": "DA1 4PT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "203A, MAIDEN LANE"
+    },
+    {
+      "price": 405000,
+      "date": "2026-06-19",
+      "postcode": "DA8 1QB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, DRUMMOND CLOSE"
+      "address": "23, HOLLY HILL ROAD"
     },
     {
-      "price": 215000,
-      "date": "2026-05-19",
-      "postcode": "DA14 4HX",
+      "price": 295000,
+      "date": "2026-06-19",
+      "postcode": "DA5 1EY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "2, HATHERLEY CRESCENT"
+      "address": "115, WOODSIDE LANE"
     },
     {
-      "price": 371000,
-      "date": "2026-05-18",
-      "postcode": "DA14 5HY",
-      "propertyType": "T",
+      "price": 200000,
+      "date": "2026-06-19",
+      "postcode": "DA17 6FG",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "51, TOWNSHEND CLOSE"
+      "tenure": "L",
+      "address": "35, JUTLAND HOUSE, LITTLE BRIGHTS ROAD"
     },
     {
-      "price": 390000,
-      "date": "2026-05-15",
-      "postcode": "DA1 4LQ",
+      "price": 610000,
+      "date": "2026-06-19",
+      "postcode": "DA7 5RE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, CRAYFORD WAY"
+      "address": "91, KING HAROLDS WAY"
     },
     {
       "price": 385000,
-      "date": "2026-05-15",
-      "postcode": "DA16 2DS",
-      "propertyType": "T",
+      "date": "2026-06-16",
+      "postcode": "DA1 4PE",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, PORTHKERRY AVENUE"
+      "address": "228A, IRON MILL LANE"
+    },
+    {
+      "price": 665000,
+      "date": "2026-06-15",
+      "postcode": "DA6 7AP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, OAKLANDS CLOSE"
+    },
+    {
+      "price": 259000,
+      "date": "2026-06-15",
+      "postcode": "DA7 6AS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "27, BRAEMAR AVENUE"
+    },
+    {
+      "price": 505000,
+      "date": "2026-06-12",
+      "postcode": "DA5 3PB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, MAIDEN ERLEGH AVENUE"
     },
     {
       "price": 450000,
-      "date": "2026-05-15",
-      "postcode": "DA16 3QQ",
+      "date": "2026-06-12",
+      "postcode": "DA14 6LW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "60, RUSKIN AVENUE"
+      "address": "23, OXFORD ROAD"
     },
     {
-      "price": 325000,
-      "date": "2026-05-15",
-      "postcode": "DA1 4BA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, DUCKETTS ROAD"
-    },
-    {
-      "price": 600000,
-      "date": "2026-05-15",
-      "postcode": "DA5 1AN",
+      "price": 435000,
+      "date": "2026-06-12",
+      "postcode": "DA7 5LG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, THANET ROAD"
+      "address": "10, WESTBOURNE ROAD"
     },
     {
-      "price": 400000,
-      "date": "2026-05-15",
-      "postcode": "DA16 2DA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "99, RADNOR AVENUE"
-    },
-    {
-      "price": 560000,
-      "date": "2026-05-14",
-      "postcode": "DA7 5DL",
+      "price": 720000,
+      "date": "2026-06-12",
+      "postcode": "DA15 8AJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, ESKDALE ROAD"
+      "address": "137, OLD FARM AVENUE"
     },
     {
-      "price": 375000,
-      "date": "2026-05-14",
-      "postcode": "SE28 8EX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, GRANGE CRESCENT"
-    },
-    {
-      "price": 365000,
-      "date": "2026-05-14",
-      "postcode": "DA8 1EZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "69, HENGIST ROAD"
-    },
-    {
-      "price": 485000,
-      "date": "2026-05-14",
-      "postcode": "DA8 1LU",
+      "price": 607000,
+      "date": "2026-06-12",
+      "postcode": "DA15 7NH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "83, IGHTHAM ROAD"
+      "address": "2, BRAEMAR GARDENS"
     },
     {
-      "price": 411000,
-      "date": "2026-05-13",
-      "postcode": "DA7 4BP",
+      "price": 330000,
+      "date": "2026-06-12",
+      "postcode": "SE28 8ET",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "68, WEST STREET"
+      "address": "55, MANORDENE ROAD"
+    },
+    {
+      "price": 520000,
+      "date": "2026-06-12",
+      "postcode": "DA8 3BT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "223, AVENUE ROAD"
+    },
+    {
+      "price": 294000,
+      "date": "2026-06-12",
+      "postcode": "DA1 4DA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, HAYWARD CLOSE"
+    },
+    {
+      "price": 382500,
+      "date": "2026-06-12",
+      "postcode": "DA1 4LG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "171, CRAYFORD WAY"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 378750,
-      "transactions": 188
+      "medianPrice": 377500,
+      "transactions": 189
     },
     {
       "month": "2024-02",
@@ -213,12 +216,12 @@
     {
       "month": "2024-03",
       "medianPrice": 415000,
-      "transactions": 231
+      "transactions": 233
     },
     {
       "month": "2024-04",
-      "medianPrice": 417000,
-      "transactions": 225
+      "medianPrice": 416000,
+      "transactions": 226
     },
     {
       "month": "2024-05",
@@ -228,17 +231,17 @@
     {
       "month": "2024-06",
       "medianPrice": 410000,
-      "transactions": 220
+      "transactions": 221
     },
     {
       "month": "2024-07",
       "medianPrice": 415000,
-      "transactions": 333
+      "transactions": 337
     },
     {
       "month": "2024-08",
       "medianPrice": 405000,
-      "transactions": 319
+      "transactions": 321
     },
     {
       "month": "2024-09",
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 417250,
-      "transactions": 328
+      "medianPrice": 417000,
+      "transactions": 329
     },
     {
       "month": "2024-11",
@@ -258,12 +261,12 @@
     {
       "month": "2024-12",
       "medianPrice": 420000,
-      "transactions": 271
+      "transactions": 273
     },
     {
       "month": "2025-01",
-      "medianPrice": 427500,
-      "transactions": 288
+      "medianPrice": 425000,
+      "transactions": 289
     },
     {
       "month": "2025-02",
@@ -288,114 +291,119 @@
     {
       "month": "2025-06",
       "medianPrice": 400000,
-      "transactions": 227
+      "transactions": 230
     },
     {
       "month": "2025-07",
-      "medianPrice": 430000,
-      "transactions": 272
+      "medianPrice": 425000,
+      "transactions": 280
     },
     {
       "month": "2025-08",
-      "medianPrice": 430000,
-      "transactions": 300
+      "medianPrice": 429000,
+      "transactions": 309
     },
     {
       "month": "2025-09",
       "medianPrice": 425000,
-      "transactions": 255
+      "transactions": 268
     },
     {
       "month": "2025-10",
       "medianPrice": 430000,
-      "transactions": 271
+      "transactions": 275
     },
     {
       "month": "2025-11",
-      "medianPrice": 410000,
-      "transactions": 231
+      "medianPrice": 404000,
+      "transactions": 238
     },
     {
       "month": "2025-12",
-      "medianPrice": 402500,
-      "transactions": 194
+      "medianPrice": 410000,
+      "transactions": 213
     },
     {
       "month": "2026-01",
       "medianPrice": 406000,
-      "transactions": 148
+      "transactions": 164
     },
     {
       "month": "2026-02",
-      "medianPrice": 415000,
-      "transactions": 169
-    },
-    {
-      "month": "2026-03",
-      "medianPrice": 415000,
+      "medianPrice": 410000,
       "transactions": 177
     },
     {
+      "month": "2026-03",
+      "medianPrice": 413000,
+      "transactions": 185
+    },
+    {
       "month": "2026-04",
-      "medianPrice": 444000,
-      "transactions": 132
+      "medianPrice": 441500,
+      "transactions": 150
     },
     {
       "month": "2026-05",
-      "medianPrice": 380000,
-      "transactions": 48
+      "medianPrice": 400000,
+      "transactions": 129
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 425000,
+      "transactions": 49
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 394000,
-      "transactions": 630
+      "medianPrice": 393000,
+      "transactions": 633
     },
     {
       "quarter": "2024-Q2",
       "medianPrice": 415000,
-      "transactions": 725
+      "transactions": 727
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 415000,
-      "transactions": 956
+      "medianPrice": 412275,
+      "transactions": 962
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 420000,
-      "transactions": 897
+      "transactions": 900
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 425000,
-      "transactions": 1223
+      "transactions": 1224
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 395000,
-      "transactions": 513
+      "transactions": 516
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 430000,
-      "transactions": 827
+      "medianPrice": 425000,
+      "transactions": 857
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 417500,
-      "transactions": 696
+      "medianPrice": 418444,
+      "transactions": 726
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 410000,
-      "transactions": 494
+      "transactions": 526
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 425000,
-      "transactions": 180
+      "transactions": 328
     }
   ]
 }

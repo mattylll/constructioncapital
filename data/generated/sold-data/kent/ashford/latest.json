@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.098Z",
+  "updatedAt": "2026-08-07T08:45:01.194Z",
   "townSlug": "ashford",
   "countySlug": "kent",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "ASHFORD"
+  ],
   "stats": {
-    "medianPrice": 344000,
+    "medianPrice": 340000,
     "medianByType": {
-      "D": 507500,
+      "D": 512000,
       "S": 340000,
-      "T": 289950,
+      "T": 285000,
       "F": 175000
     },
-    "transactionCount12m": 1460,
-    "yoyChange": 1.2,
-    "newBuildCount": 12,
-    "existingCount": 1448,
+    "transactionCount12m": 1470,
+    "yoyChange": 0,
+    "newBuildCount": 11,
+    "existingCount": 1459,
     "newBuildPremium": 20.6
   },
   "recentTransactions": [
     {
-      "price": 420000,
-      "date": "2026-05-27",
-      "postcode": "TN30 6TS",
+      "price": 625000,
+      "date": "2026-06-26",
+      "postcode": "TN27 0QU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TUFTON, STATION ROAD"
+    },
+    {
+      "price": 345000,
+      "date": "2026-06-26",
+      "postcode": "TN23 5GG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GREY WILLOW GARDENS"
+    },
+    {
+      "price": 292000,
+      "date": "2026-06-26",
+      "postcode": "TN23 7HE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, VICTORIA ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-26",
+      "postcode": "TN24 0DS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, WESTWELL COURT"
+      "address": "37, BUSHY ROYDS"
     },
     {
-      "price": 365000,
-      "date": "2026-05-26",
-      "postcode": "TN30 7BG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, SHRUBCOTE"
-    },
-    {
-      "price": 752000,
-      "date": "2026-05-22",
-      "postcode": "TN27 8BJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WHITESTONES, TENTERDEN ROAD"
-    },
-    {
-      "price": 455000,
-      "date": "2026-05-22",
-      "postcode": "TN25 6RP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DUNCOMBE, LEES ROAD"
-    },
-    {
-      "price": 500000,
-      "date": "2026-05-21",
-      "postcode": "TN26 3AH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRUSHWOOD VILLA, SCHOOL ROAD"
-    },
-    {
-      "price": 400500,
-      "date": "2026-05-21",
-      "postcode": "TN24 0JE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, LACTON WAY"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-21",
-      "postcode": "TN23 3RD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, BISHOPSWOOD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-21",
-      "postcode": "TN27 0JA",
+      "price": 267000,
+      "date": "2026-06-26",
+      "postcode": "TN23 5GF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "34, STATION ROAD"
+      "address": "15, GRIFFIN CLOSE"
     },
     {
-      "price": 412500,
-      "date": "2026-05-18",
-      "postcode": "TN25 4EF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CAMPION CLOSE"
-    },
-    {
-      "price": 365000,
-      "date": "2026-05-18",
-      "postcode": "TN25 7FQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, GOLDFINCH DRIVE"
-    },
-    {
-      "price": 785000,
-      "date": "2026-05-18",
-      "postcode": "TN27 0RP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "NEW DERING LODGE, STATION ROAD"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-15",
-      "postcode": "TN24 9PY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, CHRISTOPHER BUSHELL WAY"
-    },
-    {
-      "price": 510000,
-      "date": "2026-05-15",
-      "postcode": "TN23 3HL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "113, SWEET BAY CRESCENT"
-    },
-    {
-      "price": 500000,
-      "date": "2026-05-15",
-      "postcode": "TN23 3JY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, JUNIPER CLOSE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-15",
-      "postcode": "TN24 0FY",
+      "price": 335000,
+      "date": "2026-06-25",
+      "postcode": "TN23 7UZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "36, BILLINGTON GROVE"
+      "address": "76, CHRISTCHURCH ROAD"
     },
     {
-      "price": 250000,
-      "date": "2026-05-15",
-      "postcode": "TN23 5DL",
+      "price": 405000,
+      "date": "2026-06-25",
+      "postcode": "TN23 5JF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, HOLMWOOD ROAD"
+      "address": "59, IMPERIAL WAY"
     },
     {
-      "price": 332500,
-      "date": "2026-05-15",
-      "postcode": "TN24 0JR",
+      "price": 649000,
+      "date": "2026-06-23",
+      "postcode": "TN26 1AJ",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TUTT HILL TACK, WESTWELL LANE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-19",
+      "postcode": "TN23 1LT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, COLLARD ROAD"
-    },
-    {
-      "price": 600000,
-      "date": "2026-05-14",
-      "postcode": "TN24 0NF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, MARIGOLD DRIVE"
-    },
-    {
-      "price": 365000,
-      "date": "2026-05-14",
-      "postcode": "TN23 5JQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, RIBSTON WAY"
+      "address": "21, SACKVILLE CRESCENT"
     },
     {
       "price": 290000,
-      "date": "2026-05-13",
-      "postcode": "TN25 6QX",
+      "date": "2026-06-19",
+      "postcode": "TN23 5DY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "IONA, 16, WEAVERS WAY"
+    },
+    {
+      "price": 327500,
+      "date": "2026-06-19",
+      "postcode": "TN26 2HJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, BOURNEWOOD"
+    },
+    {
+      "price": 675000,
+      "date": "2026-06-18",
+      "postcode": "TN30 7BU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, COLLISON PLACE"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-17",
+      "postcode": "TN27 0JN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, SCHOOL ROAD"
+    },
+    {
+      "price": 369000,
+      "date": "2026-06-17",
+      "postcode": "TN30 7JS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, STONE GREEN"
+    },
+    {
+      "price": 192000,
+      "date": "2026-06-17",
+      "postcode": "TN23 3GJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "24, BLUEBELL ROAD"
+    },
+    {
+      "price": 650000,
+      "date": "2026-06-16",
+      "postcode": "TN25 5AU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, ORCHARD DRIVE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-16",
+      "postcode": "TN30 7PE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, FORGE MEADS"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-16",
+      "postcode": "TN23 5ES",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, KNATCHBULL ROW"
+      "address": "14, ADISHAM GARDENS"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-15",
+      "postcode": "TN23 7TG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, TORRINGTON ROAD"
+    },
+    {
+      "price": 342500,
+      "date": "2026-06-15",
+      "postcode": "TN23 5JH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, RUSSETT CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -248,12 +251,12 @@
     {
       "month": "2024-10",
       "medianPrice": 345000,
-      "transactions": 199
+      "transactions": 201
     },
     {
       "month": "2024-11",
-      "medianPrice": 350000,
-      "transactions": 209
+      "medianPrice": 347500,
+      "transactions": 210
     },
     {
       "month": "2024-12",
@@ -288,22 +291,22 @@
     {
       "month": "2025-06",
       "medianPrice": 337000,
-      "transactions": 175
+      "transactions": 177
     },
     {
       "month": "2025-07",
       "medianPrice": 340000,
-      "transactions": 182
+      "transactions": 185
     },
     {
       "month": "2025-08",
       "medianPrice": 340000,
-      "transactions": 179
+      "transactions": 188
     },
     {
       "month": "2025-09",
-      "medianPrice": 363500,
-      "transactions": 166
+      "medianPrice": 356250,
+      "transactions": 171
     },
     {
       "month": "2025-10",
@@ -312,38 +315,43 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 338000,
-      "transactions": 163
+      "medianPrice": 340000,
+      "transactions": 167
     },
     {
       "month": "2025-12",
-      "medianPrice": 342500,
-      "transactions": 132
+      "medianPrice": 340000,
+      "transactions": 145
     },
     {
       "month": "2026-01",
-      "medianPrice": 357500,
-      "transactions": 104
+      "medianPrice": 360000,
+      "transactions": 119
     },
     {
       "month": "2026-02",
       "medianPrice": 320000,
-      "transactions": 98
+      "transactions": 103
     },
     {
       "month": "2026-03",
-      "medianPrice": 332500,
-      "transactions": 146
+      "medianPrice": 330000,
+      "transactions": 149
     },
     {
       "month": "2026-04",
-      "medianPrice": 327500,
-      "transactions": 98
+      "medianPrice": 325000,
+      "transactions": 111
     },
     {
       "month": "2026-05",
-      "medianPrice": 400500,
-      "transactions": 47
+      "medianPrice": 336000,
+      "transactions": 117
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 327500,
+      "transactions": 53
     }
   ],
   "quarterlyHistory": [
@@ -365,7 +373,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 345000,
-      "transactions": 559
+      "transactions": 562
     },
     {
       "quarter": "2025-Q1",
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 325000,
-      "transactions": 399
+      "transactions": 401
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 345000,
-      "transactions": 527
+      "transactions": 544
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 340000,
-      "transactions": 470
+      "transactions": 487
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 345000,
-      "transactions": 348
+      "transactions": 371
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 340000,
-      "transactions": 145
+      "medianPrice": 330000,
+      "transactions": 281
     }
   ]
 }

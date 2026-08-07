@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.052Z",
+  "updatedAt": "2026-08-07T08:45:02.431Z",
   "townSlug": "kidderminster",
   "countySlug": "worcestershire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WYRE FOREST"
+  ],
   "marketSnapshot": {
-    "medianPrice": 243625,
-    "transactionCount12m": 1180,
-    "yoyPriceChange": -2.5,
-    "approvedApps12m": 9,
-    "pipelineUnits": 7,
-    "pipelineGdv": 1345000,
-    "approvalRate": 82
+    "medianPrice": 240000,
+    "transactionCount12m": 1152,
+    "yoyPriceChange": -4.8,
+    "approvedApps12m": 19,
+    "approvedRecent": 19,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 13,
+    "pipelineGdv": 2450250,
+    "approvalRate": 100
   }
 }

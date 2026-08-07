@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.473Z",
+  "updatedAt": "2026-08-07T08:45:02.648Z",
   "townSlug": "wigston",
   "countySlug": "leicestershire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "OADBY AND WIGSTON"
+  ],
   "stats": {
-    "medianPrice": 273250,
+    "medianPrice": 272750,
     "medianByType": {
       "D": 380000,
       "S": 260000,
-      "T": 191000,
-      "F": 120000
+      "T": 192000,
+      "F": 119000
     },
-    "transactionCount12m": 492,
-    "yoyChange": -0.6,
-    "newBuildCount": 5,
-    "existingCount": 487,
-    "newBuildPremium": 26.5
+    "transactionCount12m": 504,
+    "yoyChange": -1.6,
+    "newBuildCount": 6,
+    "existingCount": 498,
+    "newBuildPremium": 51.1
   },
   "recentTransactions": [
     {
-      "price": 237500,
-      "date": "2026-05-22",
-      "postcode": "LE18 4XF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, CORNWALL ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-15",
-      "postcode": "LE18 4SP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, GLENGATE"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-08",
-      "postcode": "LE2 5TH",
+      "price": 850000,
+      "date": "2026-06-22",
+      "postcode": "LE18 3SH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, COOMBE PLACE"
+      "address": "ALFRACE, NEWTON LANE"
     },
     {
-      "price": 350000,
-      "date": "2026-05-08",
-      "postcode": "LE2 5PP",
+      "price": 186000,
+      "date": "2026-06-19",
+      "postcode": "LE18 3SU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ROMAN HILL"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-18",
+      "postcode": "LE18 3QS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "135, ROSEMEAD DRIVE"
+      "address": "32, CLIPSTONE CLOSE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-06-17",
+      "postcode": "LE2 5FG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, FOXHUNTER DRIVE"
+    },
+    {
+      "price": 70000,
+      "date": "2026-06-17",
+      "postcode": "LE18 4TR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, JASMINE COURT"
+    },
+    {
+      "price": 330000,
+      "date": "2026-06-12",
+      "postcode": "LE18 3XB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, WOBURN CLOSE"
+    },
+    {
+      "price": 332500,
+      "date": "2026-06-12",
+      "postcode": "LE18 2RE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, BODENHAM CLOSE"
+    },
+    {
+      "price": 309800,
+      "date": "2026-06-11",
+      "postcode": "LE18 1BG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, BRAILSFORD ROAD"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-11",
+      "postcode": "LE18 1JD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, FIR TREE CLOSE"
     },
     {
       "price": 180000,
-      "date": "2026-05-08",
-      "postcode": "LE18 4PZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, BEST CLOSE"
-    },
-    {
-      "price": 207000,
-      "date": "2026-05-01",
-      "postcode": "LE18 1DZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, TWO STEEPLES SQUARE"
-    },
-    {
-      "price": 248000,
-      "date": "2026-05-01",
-      "postcode": "LE18 4NZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "71, WINDLASS DRIVE"
-    },
-    {
-      "price": 248000,
-      "date": "2026-04-30",
-      "postcode": "LE18 1FR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, CHELLASTON ROAD"
-    },
-    {
-      "price": 378000,
-      "date": "2026-04-28",
-      "postcode": "LE18 3AG",
+      "date": "2026-06-11",
+      "postcode": "LE18 4UQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, PRESTON CLOSE"
+      "address": "SOUTH COTTAGE, SAFFRON ROAD"
     },
     {
-      "price": 750000,
-      "date": "2026-04-27",
-      "postcode": "LE2 5AD",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10A, CHAPEL STREET"
-    },
-    {
-      "price": 387000,
-      "date": "2026-04-24",
-      "postcode": "LE2 4QE",
+      "price": 350000,
+      "date": "2026-06-10",
+      "postcode": "LE18 1JJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, WOODLANDS COURT"
+      "address": "108, GRANGE ROAD"
     },
     {
-      "price": 268000,
-      "date": "2026-04-24",
-      "postcode": "LE18 3QA",
+      "price": 249500,
+      "date": "2026-06-05",
+      "postcode": "LE18 1GB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, TYRINGHAM ROAD"
+      "address": "42, REPTON ROAD"
     },
     {
-      "price": 305000,
-      "date": "2026-04-21",
-      "postcode": "LE2 4NU",
+      "price": 450000,
+      "date": "2026-06-05",
+      "postcode": "LE18 3WU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, WAYSIDE DRIVE"
+      "address": "10, MAIDWELL CLOSE"
     },
     {
-      "price": 306300,
-      "date": "2026-04-20",
-      "postcode": "LE18 2ES",
+      "price": 205000,
+      "date": "2026-06-05",
+      "postcode": "LE18 2RH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, SOUTH AVENUE"
+      "address": "5, NETTON CLOSE"
     },
     {
-      "price": 260000,
-      "date": "2026-04-17",
-      "postcode": "LE18 2HX",
-      "propertyType": "T",
+      "price": 250000,
+      "date": "2026-06-05",
+      "postcode": "LE18 2RW",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "65, PENZANCE AVENUE"
+      "address": "24, NEW FOREST CLOSE"
     },
     {
-      "price": 425000,
-      "date": "2026-04-15",
-      "postcode": "LE2 4EA",
+      "price": 274500,
+      "date": "2026-06-05",
+      "postcode": "LE2 4EH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, WHITEBEAM ROAD"
+      "address": "13, HOLLY COURT"
     },
     {
-      "price": 240000,
-      "date": "2026-04-15",
-      "postcode": "LE18 2DB",
+      "price": 262500,
+      "date": "2026-06-05",
+      "postcode": "LE18 2HS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "71, PULLMAN ROAD"
+      "address": "16, HALCROFT RISE"
+    },
+    {
+      "price": 495000,
+      "date": "2026-06-01",
+      "postcode": "LE2 5TT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, COOMBE RISE"
+    },
+    {
+      "price": 213000,
+      "date": "2026-05-29",
+      "postcode": "LE18 1HN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "112, KINGSTON AVENUE"
     },
     {
       "price": 215000,
-      "date": "2026-04-14",
-      "postcode": "LE18 2JU",
+      "date": "2026-05-29",
+      "postcode": "LE18 3QH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, BUCKFAST CLOSE"
-    },
-    {
-      "price": 375000,
-      "date": "2026-04-10",
-      "postcode": "LE2 4FY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, SEVERN ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-04-10",
-      "postcode": "LE18 3YF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, ASKRIGG WAY"
+      "address": "50, WATERLOO CRESCENT"
     }
   ],
   "monthlyHistory": [
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 310000,
-      "transactions": 131
+      "medianPrice": 305000,
+      "transactions": 132
     },
     {
       "month": "2025-04",
@@ -292,58 +295,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 275000,
-      "transactions": 67
+      "medianPrice": 277500,
+      "transactions": 68
     },
     {
       "month": "2025-08",
-      "medianPrice": 255000,
-      "transactions": 69
+      "medianPrice": 266250,
+      "transactions": 80
     },
     {
       "month": "2025-09",
       "medianPrice": 283000,
-      "transactions": 61
+      "transactions": 65
     },
     {
       "month": "2025-10",
-      "medianPrice": 280000,
-      "transactions": 57
+      "medianPrice": 280250,
+      "transactions": 58
     },
     {
       "month": "2025-11",
-      "medianPrice": 274000,
-      "transactions": 40
+      "medianPrice": 273000,
+      "transactions": 43
     },
     {
       "month": "2025-12",
-      "medianPrice": 278000,
-      "transactions": 57
+      "medianPrice": 279000,
+      "transactions": 66
     },
     {
       "month": "2026-01",
       "medianPrice": 290000,
-      "transactions": 43
+      "transactions": 48
     },
     {
       "month": "2026-02",
-      "medianPrice": 268750,
-      "transactions": 44
+      "medianPrice": 270000,
+      "transactions": 47
     },
     {
       "month": "2026-03",
-      "medianPrice": 252500,
-      "transactions": 34
+      "medianPrice": 257500,
+      "transactions": 36
     },
     {
       "month": "2026-04",
-      "medianPrice": 270000,
-      "transactions": 21
+      "medianPrice": 269000,
+      "transactions": 30
     },
     {
       "month": "2026-05",
-      "medianPrice": 237500,
-      "transactions": 7
+      "medianPrice": 226250,
+      "transactions": 28
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 269750,
+      "transactions": 18
     }
   ],
   "quarterlyHistory": [
@@ -369,8 +377,8 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 292000,
-      "transactions": 277
+      "medianPrice": 291500,
+      "transactions": 278
     },
     {
       "quarter": "2025-Q2",
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 272000,
-      "transactions": 197
+      "medianPrice": 273000,
+      "transactions": 213
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 276500,
-      "transactions": 154
+      "medianPrice": 278000,
+      "transactions": 167
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 277500,
-      "transactions": 121
+      "medianPrice": 280000,
+      "transactions": 131
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 264000,
-      "transactions": 28
+      "medianPrice": 253750,
+      "transactions": 76
     }
   ]
 }

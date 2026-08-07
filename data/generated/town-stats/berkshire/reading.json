@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.077Z",
+  "updatedAt": "2026-08-07T08:45:01.517Z",
   "townSlug": "reading",
   "countySlug": "berkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "READING"
+  ],
   "marketSnapshot": {
-    "medianPrice": 340000,
-    "transactionCount12m": 1670,
-    "yoyPriceChange": -2.9,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 345000,
+    "transactionCount12m": 1605,
+    "yoyPriceChange": -0.7,
+    "approvedApps12m": 24,
+    "approvedRecent": 24,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 43,
+    "pipelineGdv": 12145000,
+    "approvalRate": 75
   }
 }

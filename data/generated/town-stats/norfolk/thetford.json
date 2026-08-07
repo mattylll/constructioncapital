@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.286Z",
+  "updatedAt": "2026-08-07T08:45:03.629Z",
   "townSlug": "thetford",
   "countySlug": "norfolk",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BRECKLAND"
+  ],
   "marketSnapshot": {
-    "medianPrice": 239995,
-    "transactionCount12m": 577,
-    "yoyPriceChange": -2,
+    "medianPrice": 235000,
+    "transactionCount12m": 568,
+    "yoyPriceChange": -4.1,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

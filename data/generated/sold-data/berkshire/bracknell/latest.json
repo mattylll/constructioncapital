@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.423Z",
+  "updatedAt": "2026-08-07T08:45:01.530Z",
   "townSlug": "bracknell",
   "countySlug": "berkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BRACKNELL FOREST"
+  ],
   "stats": {
     "medianPrice": 410000,
     "medianByType": {
       "D": 635000,
-      "S": 450000,
-      "T": 370000,
-      "F": 233750
+      "S": 455100,
+      "T": 375000,
+      "F": 230000
     },
-    "transactionCount12m": 1286,
-    "yoyChange": -1.2,
-    "newBuildCount": 17,
+    "transactionCount12m": 1288,
+    "yoyChange": -1.9,
+    "newBuildCount": 19,
     "existingCount": 1269,
-    "newBuildPremium": 71.2
+    "newBuildPremium": 59.3
   },
   "recentTransactions": [
     {
-      "price": 322500,
-      "date": "2026-05-22",
-      "postcode": "RG12 9YF",
+      "price": 410000,
+      "date": "2026-06-19",
+      "postcode": "RG45 7BP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, DURLEY MEAD"
+      "address": "41, HEATHILL COTTAGES, HEATH HILL ROAD SOUTH"
+    },
+    {
+      "price": 200000,
+      "date": "2026-06-19",
+      "postcode": "RG12 7GF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "57, TURING DRIVE"
     },
     {
       "price": 300000,
-      "date": "2026-05-22",
-      "postcode": "RG12 7ZR",
+      "date": "2026-06-17",
+      "postcode": "RG12 7RP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "93, KNIGHTSWOOD"
+      "address": "12, KELDHOLME"
     },
     {
-      "price": 460000,
-      "date": "2026-05-15",
-      "postcode": "RG42 6LP",
-      "propertyType": "S",
+      "price": 290000,
+      "date": "2026-06-17",
+      "postcode": "RG42 3SJ",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "2, CARSLAKE COTTAGES, BRACKNELL ROAD"
+      "tenure": "L",
+      "address": "46, TOP COMMON"
     },
     {
-      "price": 390000,
-      "date": "2026-05-15",
-      "postcode": "RG42 3SA",
-      "propertyType": "T",
+      "price": 330000,
+      "date": "2026-06-12",
+      "postcode": "RG45 6UD",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "25, BARLEY MEAD"
-    },
-    {
-      "price": 412450,
-      "date": "2026-05-14",
-      "postcode": "RG42 4NN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, SUMNER CHASE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-13",
-      "postcode": "GU47 0QY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, FAIRMEAD CLOSE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-12",
-      "postcode": "RG12 7NJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, BECKFORD AVENUE"
-    },
-    {
-      "price": 1250000,
-      "date": "2026-05-12",
-      "postcode": "SL5 8AN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, KINGSWOOD"
+      "tenure": "L",
+      "address": "12, LAVANT WAY"
     },
     {
       "price": 380000,
-      "date": "2026-05-11",
-      "postcode": "RG12 7FF",
+      "date": "2026-06-12",
+      "postcode": "GU47 8NB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, BARRY SQUARE"
+      "address": "11, CHILTERN ROAD"
     },
     {
-      "price": 267000,
-      "date": "2026-05-11",
-      "postcode": "RG12 7GQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "15, NETHERBY GARDENS"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-11",
-      "postcode": "RG12 1AB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "51, EAGLE HOUSE, THE RING"
-    },
-    {
-      "price": 710000,
-      "date": "2026-05-11",
-      "postcode": "SL5 8LR",
+      "price": 590000,
+      "date": "2026-06-12",
+      "postcode": "RG12 8GF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, WHITELANDS DRIVE"
+      "address": "29, EDDINGTON ROAD"
+    },
+    {
+      "price": 146000,
+      "date": "2026-06-12",
+      "postcode": "RG12 9FW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 27, WINTERBOURNE COURT, TEBBIT CLOSE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-06-12",
+      "postcode": "RG42 2BY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, AGAR CRESCENT"
+    },
+    {
+      "price": 525000,
+      "date": "2026-06-12",
+      "postcode": "RG12 0WE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, PYEGROVE CHASE"
+    },
+    {
+      "price": 472500,
+      "date": "2026-06-12",
+      "postcode": "RG12 8EH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, FULMAR CRESCENT"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-11",
+      "postcode": "RG12 9LY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "24, THORNHILL"
+    },
+    {
+      "price": 405000,
+      "date": "2026-06-11",
+      "postcode": "RG42 2EJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, WINCHGROVE ROAD"
+    },
+    {
+      "price": 520000,
+      "date": "2026-06-11",
+      "postcode": "RG42 1SP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, MOORDALE AVENUE"
+    },
+    {
+      "price": 500000,
+      "date": "2026-06-10",
+      "postcode": "RG42 4JJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BELFRY GRANGE"
     },
     {
       "price": 335000,
-      "date": "2026-05-08",
-      "postcode": "RG45 6LS",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UNIT 20, WELLINGTON BUSINESS PARK, DUKES RIDE"
-    },
-    {
-      "price": 655000,
-      "date": "2026-05-08",
-      "postcode": "RG12 9FF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, SETLEY WAY"
-    },
-    {
-      "price": 475000,
-      "date": "2026-05-08",
-      "postcode": "RG12 9YW",
+      "date": "2026-06-09",
+      "postcode": "RG12 9QB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, FAWLER MEAD"
+      "address": "20, GLENWOOD"
     },
     {
-      "price": 485000,
-      "date": "2026-05-07",
-      "postcode": "RG12 9PH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, TORNADO CHASE"
-    },
-    {
-      "price": 209000,
-      "date": "2026-05-07",
-      "postcode": "RG12 2GN",
+      "price": 107500,
+      "date": "2026-06-09",
+      "postcode": "RG12 7LN",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "75, FLEMING PLACE"
+      "address": "FLAT 11, TUDOR HOUSE, SOUTH LYNN CRESCENT"
     },
     {
-      "price": 225000,
-      "date": "2026-05-07",
-      "postcode": "RG12 1JG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "26, GOWRING HOUSE, MARKET STREET"
-    },
-    {
-      "price": 535000,
-      "date": "2026-05-07",
-      "postcode": "RG12 7BT",
+      "price": 415000,
+      "date": "2026-06-09",
+      "postcode": "RG42 1PD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, SAFFRON ROAD"
+      "address": "7, ROUNDS HILL"
     },
     {
-      "price": 390000,
-      "date": "2026-05-07",
-      "postcode": "RG12 7JT",
-      "propertyType": "T",
+      "price": 555000,
+      "date": "2026-06-08",
+      "postcode": "RG45 7DD",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, CLIVE GREEN"
+      "address": "50, UPPER BROADMOOR ROAD"
+    },
+    {
+      "price": 625000,
+      "date": "2026-06-08",
+      "postcode": "RG12 8EY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, DIPPER LEA"
     }
   ],
   "monthlyHistory": [
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 376250,
-      "transactions": 176
+      "medianPrice": 377000,
+      "transactions": 177
     },
     {
       "month": "2024-11",
@@ -262,8 +265,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 417500,
-      "transactions": 126
+      "medianPrice": 410000,
+      "transactions": 127
     },
     {
       "month": "2025-02",
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 420000,
-      "transactions": 350
+      "medianPrice": 425000,
+      "transactions": 353
     },
     {
       "month": "2025-04",
@@ -287,23 +290,23 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 430000,
-      "transactions": 173
+      "medianPrice": 439250,
+      "transactions": 176
     },
     {
       "month": "2025-07",
-      "medianPrice": 416250,
-      "transactions": 144
+      "medianPrice": 417500,
+      "transactions": 147
     },
     {
       "month": "2025-08",
-      "medianPrice": 400000,
-      "transactions": 162
+      "medianPrice": 410000,
+      "transactions": 174
     },
     {
       "month": "2025-09",
       "medianPrice": 401500,
-      "transactions": 143
+      "transactions": 149
     },
     {
       "month": "2025-10",
@@ -313,37 +316,42 @@
     {
       "month": "2025-11",
       "medianPrice": 415000,
-      "transactions": 136
+      "transactions": 145
     },
     {
       "month": "2025-12",
-      "medianPrice": 392500,
-      "transactions": 142
+      "medianPrice": 387500,
+      "transactions": 152
     },
     {
       "month": "2026-01",
       "medianPrice": 418000,
-      "transactions": 97
+      "transactions": 105
     },
     {
       "month": "2026-02",
-      "medianPrice": 409000,
-      "transactions": 108
+      "medianPrice": 410000,
+      "transactions": 111
     },
     {
       "month": "2026-03",
       "medianPrice": 355000,
-      "transactions": 99
+      "transactions": 101
     },
     {
       "month": "2026-04",
-      "medianPrice": 433250,
-      "transactions": 79
+      "medianPrice": 426625,
+      "transactions": 90
     },
     {
       "month": "2026-05",
-      "medianPrice": 405000,
-      "transactions": 31
+      "medianPrice": 415000,
+      "transactions": 95
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 392500,
+      "transactions": 32
     }
   ],
   "quarterlyHistory": [
@@ -365,37 +373,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 395000,
-      "transactions": 563
+      "transactions": 564
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 420000,
-      "transactions": 641
+      "transactions": 645
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 435000,
-      "transactions": 375
+      "medianPrice": 440000,
+      "transactions": 378
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 405000,
-      "transactions": 449
+      "medianPrice": 410000,
+      "transactions": 470
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 415000,
-      "transactions": 447
+      "transactions": 466
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 400000,
-      "transactions": 304
+      "transactions": 317
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 416250,
-      "transactions": 110
+      "medianPrice": 415000,
+      "transactions": 217
     }
   ]
 }

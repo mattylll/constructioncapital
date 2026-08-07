@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.149Z",
+  "updatedAt": "2026-08-07T08:45:02.296Z",
   "townSlug": "walsall",
   "countySlug": "west-midlands",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WALSALL"
+  ],
   "stats": {
     "medianPrice": 210000,
     "medianByType": {
       "D": 350000,
       "S": 225000,
-      "T": 180000,
-      "F": 118500
+      "T": 178000,
+      "F": 115000
     },
-    "transactionCount12m": 2219,
-    "yoyChange": -1.4,
-    "newBuildCount": 3,
-    "existingCount": 2216,
-    "newBuildPremium": -15.2
+    "transactionCount12m": 2207,
+    "yoyChange": -2.3,
+    "newBuildCount": 1,
+    "existingCount": 2206,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 170000,
-      "date": "2026-05-22",
-      "postcode": "WS2 8QT",
+      "price": 130000,
+      "date": "2026-06-26",
+      "postcode": "WS1 4EF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, CAIRNS STREET"
+      "address": "159, WESTON STREET"
     },
     {
-      "price": 172000,
-      "date": "2026-05-22",
-      "postcode": "WS3 2AT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, COPE STREET"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-22",
-      "postcode": "WS8 6DU",
+      "price": 187000,
+      "date": "2026-06-26",
+      "postcode": "WS2 7RL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "80, CHESTER ROAD"
+      "address": "18, BALMORAL WAY"
     },
     {
       "price": 210000,
-      "date": "2026-05-22",
-      "postcode": "WS2 0HR",
+      "date": "2026-06-26",
+      "postcode": "WS2 0HZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "173, CHURCHILL ROAD"
+      "address": "17, HAWTHORN PLACE"
     },
     {
-      "price": 125000,
-      "date": "2026-05-22",
-      "postcode": "WV12 5BU",
-      "propertyType": "F",
+      "price": 166000,
+      "date": "2026-06-23",
+      "postcode": "WS1 3EQ",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "79, SQUIRES GROVE"
+      "tenure": "F",
+      "address": "166, SANDWELL STREET"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-19",
+      "postcode": "WS10 7UD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "79, CENTENARY LANE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-06-19",
+      "postcode": "WS2 8SS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "77, BENTLEY LANE"
+    },
+    {
+      "price": 385000,
+      "date": "2026-06-19",
+      "postcode": "WS5 3HL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, PARK HALL ROAD"
+    },
+    {
+      "price": 145000,
+      "date": "2026-06-19",
+      "postcode": "WV12 5LA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, BRERETON ROAD"
+    },
+    {
+      "price": 282000,
+      "date": "2026-06-19",
+      "postcode": "WS4 1RW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, GREEN LANE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-18",
+      "postcode": "WS10 8PZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, WILEY AVENUE SOUTH"
+    },
+    {
+      "price": 182000,
+      "date": "2026-06-17",
+      "postcode": "WS10 8TY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56, STAFFORD ROAD"
+    },
+    {
+      "price": 222000,
+      "date": "2026-06-17",
+      "postcode": "WS3 4AJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "96, CLOCKMILL ROAD"
+    },
+    {
+      "price": 540000,
+      "date": "2026-06-16",
+      "postcode": "WS9 8QT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, WALSALL WOOD ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-16",
+      "postcode": "WS10 8ED",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, WAVERLEY ROAD"
     },
     {
       "price": 100000,
-      "date": "2026-05-20",
-      "postcode": "WS10 8NZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "22, THE AVENUE"
-    },
-    {
-      "price": 665000,
-      "date": "2026-05-18",
-      "postcode": "WS10 8RX",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1A, HIGH STREET"
-    },
-    {
-      "price": 132000,
-      "date": "2026-05-18",
-      "postcode": "WS3 3HN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "125, HARRISON STREET"
-    },
-    {
-      "price": 162500,
-      "date": "2026-05-18",
-      "postcode": "WS9 8AQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "131, THE BRIARS"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-18",
-      "postcode": "WS8 7AH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, WREKIN VIEW"
-    },
-    {
-      "price": 600000,
-      "date": "2026-05-15",
-      "postcode": "WS3 4QW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46A, CHURCH ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-15",
-      "postcode": "WS3 2NG",
+      "date": "2026-06-12",
+      "postcode": "WS10 8TN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, MULBERRY ROAD"
+      "address": "38, KING EDWARD STREET"
     },
     {
-      "price": 390000,
-      "date": "2026-05-15",
-      "postcode": "WV12 5FH",
+      "price": 245000,
+      "date": "2026-06-12",
+      "postcode": "WV12 5JW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, ULLSWATER ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-15",
-      "postcode": "WS8 7BY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, PEAKE ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-14",
-      "postcode": "WV14 8NN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, GLYN AVENUE"
-    },
-    {
-      "price": 192500,
-      "date": "2026-05-14",
-      "postcode": "WS9 0DY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, GRETTON CRESCENT"
-    },
-    {
-      "price": 106500,
-      "date": "2026-05-13",
-      "postcode": "WV12 4DY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, ERNEST CLARK CLOSE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-12",
-      "postcode": "WS3 4EA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "82, SHIREVIEW ROAD"
+      "address": "28, BROADMEADOWS CLOSE"
     },
     {
       "price": 200000,
-      "date": "2026-05-12",
-      "postcode": "WV12 5PP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, ANDREW DRIVE"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-11",
-      "postcode": "WV13 1DF",
+      "date": "2026-06-12",
+      "postcode": "WS4 1AR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, VILLIERS STREET"
+      "address": "28, BIRCH LANE"
+    },
+    {
+      "price": 115000,
+      "date": "2026-06-12",
+      "postcode": "WV13 1HD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, GOUGH STREET"
+    },
+    {
+      "price": 356750,
+      "date": "2026-06-11",
+      "postcode": "B74 3RN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, AMBERLEY WAY"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-11",
+      "postcode": "WS9 8SL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, ST THOMAS CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -248,7 +251,7 @@
     {
       "month": "2024-10",
       "medianPrice": 210000,
-      "transactions": 332
+      "transactions": 333
     },
     {
       "month": "2024-11",
@@ -267,83 +270,88 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 208000,
-      "transactions": 295
+      "medianPrice": 209000,
+      "transactions": 296
     },
     {
       "month": "2025-03",
       "medianPrice": 230000,
-      "transactions": 548
+      "transactions": 550
     },
     {
       "month": "2025-04",
-      "medianPrice": 191000,
-      "transactions": 193
+      "medianPrice": 197750,
+      "transactions": 196
     },
     {
       "month": "2025-05",
       "medianPrice": 205000,
-      "transactions": 280
+      "transactions": 283
     },
     {
       "month": "2025-06",
-      "medianPrice": 229325,
-      "transactions": 287
+      "medianPrice": 230000,
+      "transactions": 293
     },
     {
       "month": "2025-07",
-      "medianPrice": 200000,
-      "transactions": 305
+      "medianPrice": 207000,
+      "transactions": 313
     },
     {
       "month": "2025-08",
-      "medianPrice": 213500,
-      "transactions": 256
+      "medianPrice": 220000,
+      "transactions": 270
     },
     {
       "month": "2025-09",
-      "medianPrice": 215000,
-      "transactions": 238
+      "medianPrice": 217000,
+      "transactions": 247
     },
     {
       "month": "2025-10",
-      "medianPrice": 220000,
-      "transactions": 311
+      "medianPrice": 221000,
+      "transactions": 317
     },
     {
       "month": "2025-11",
       "medianPrice": 205000,
-      "transactions": 249
+      "transactions": 258
     },
     {
       "month": "2025-12",
-      "medianPrice": 225000,
-      "transactions": 194
+      "medianPrice": 226000,
+      "transactions": 217
     },
     {
       "month": "2026-01",
-      "medianPrice": 205000,
-      "transactions": 179
+      "medianPrice": 210000,
+      "transactions": 202
     },
     {
       "month": "2026-02",
-      "medianPrice": 200000,
-      "transactions": 161
+      "medianPrice": 208000,
+      "transactions": 173
     },
     {
       "month": "2026-03",
-      "medianPrice": 205000,
-      "transactions": 203
+      "medianPrice": 200500,
+      "transactions": 214
     },
     {
       "month": "2026-04",
       "medianPrice": 210000,
-      "transactions": 137
+      "transactions": 154
     },
     {
       "month": "2026-05",
-      "medianPrice": 205000,
-      "transactions": 52
+      "medianPrice": 210000,
+      "transactions": 135
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 180000,
+      "transactions": 61
     }
   ],
   "quarterlyHistory": [
@@ -365,37 +373,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 215000,
-      "transactions": 952
+      "transactions": 953
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 220000,
-      "transactions": 1123
+      "transactions": 1126
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 210000,
-      "transactions": 760
+      "medianPrice": 213250,
+      "transactions": 772
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 210000,
-      "transactions": 799
+      "medianPrice": 215000,
+      "transactions": 830
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 215000,
-      "transactions": 754
+      "medianPrice": 217500,
+      "transactions": 792
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 205000,
-      "transactions": 543
+      "medianPrice": 206000,
+      "transactions": 589
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 210000,
-      "transactions": 189
+      "transactions": 350
     }
   ]
 }

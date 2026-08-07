@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.404Z",
+  "updatedAt": "2026-08-07T08:45:02.566Z",
   "townSlug": "worksop",
   "countySlug": "nottinghamshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BASSETLAW"
+  ],
   "stats": {
     "medianPrice": 190000,
     "medianByType": {
       "D": 290000,
-      "S": 176000,
-      "T": 125000,
-      "F": 96000
+      "S": 180000,
+      "T": 122250,
+      "F": 97000
     },
-    "transactionCount12m": 684,
+    "transactionCount12m": 665,
     "yoyChange": 0,
-    "newBuildCount": 23,
-    "existingCount": 661,
-    "newBuildPremium": 43.2
+    "newBuildCount": 26,
+    "existingCount": 639,
+    "newBuildPremium": 39.6
   },
   "recentTransactions": [
     {
-      "price": 128000,
-      "date": "2026-05-26",
-      "postcode": "S80 2EA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "239, KILTON ROAD"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-18",
-      "postcode": "S81 7PJ",
+      "price": 103000,
+      "date": "2026-06-19",
+      "postcode": "S80 1UE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "67, VESSEY ROAD"
+      "address": "104, GATEFORD ROAD"
     },
     {
-      "price": 310000,
-      "date": "2026-05-18",
-      "postcode": "S81 9FB",
+      "price": 288000,
+      "date": "2026-06-19",
+      "postcode": "S81 7RY",
       "propertyType": "D",
       "newBuild": false,
-      "tenure": "F",
-      "address": "3, FOXGLOVE PLACE"
+      "tenure": "L",
+      "address": "16, MONTFORD ROAD"
     },
     {
-      "price": 235000,
-      "date": "2026-05-15",
-      "postcode": "S81 9JX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, DONCASTER ROAD"
-    },
-    {
-      "price": 273000,
-      "date": "2026-05-15",
-      "postcode": "S81 8TD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, MOSGROVE CLOSE"
-    },
-    {
-      "price": 203000,
-      "date": "2026-05-15",
-      "postcode": "S81 0RF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "85, CHESTERTON DRIVE"
-    },
-    {
-      "price": 218000,
-      "date": "2026-05-15",
-      "postcode": "S80 3GU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, CLOVERLEAF COURT"
-    },
-    {
-      "price": 305000,
-      "date": "2026-05-14",
-      "postcode": "S80 1UY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CHESTNUT CLOSE"
-    },
-    {
-      "price": 342500,
-      "date": "2026-05-13",
-      "postcode": "S80 3DX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, BIRCHFIELD DRIVE"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-11",
-      "postcode": "S81 7BL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, GATEFORD AVENUE"
-    },
-    {
-      "price": 132000,
-      "date": "2026-05-11",
-      "postcode": "S81 0UY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, SWALEDALE"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-08",
+      "price": 170000,
+      "date": "2026-06-19",
       "postcode": "S81 7FG",
       "propertyType": "T",
       "newBuild": false,
+      "tenure": "L",
+      "address": "10, SAMIAN CLOSE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-06-18",
+      "postcode": "S81 0BS",
+      "propertyType": "S",
+      "newBuild": false,
       "tenure": "F",
-      "address": "50, SAMIAN CLOSE"
+      "address": "55, SOUTH PARADE"
+    },
+    {
+      "price": 189500,
+      "date": "2026-06-12",
+      "postcode": "S80 1AE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, DUNSTAN CRESCENT"
+    },
+    {
+      "price": 137000,
+      "date": "2026-06-11",
+      "postcode": "S80 1NY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, GROVE COURT"
     },
     {
       "price": 290000,
-      "date": "2026-05-08",
-      "postcode": "S81 8FZ",
+      "date": "2026-06-10",
+      "postcode": "S81 8FG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, ROBIN WAY"
+      "address": "11, BRAY COURT"
     },
     {
-      "price": 125000,
-      "date": "2026-05-07",
-      "postcode": "S81 7JF",
+      "price": 200000,
+      "date": "2026-06-08",
+      "postcode": "S81 0QS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "153, ANSTON AVENUE"
+      "address": "14, COLERIDGE ROAD"
     },
     {
-      "price": 190000,
-      "date": "2026-05-07",
-      "postcode": "S80 3JB",
+      "price": 182500,
+      "date": "2026-06-08",
+      "postcode": "S81 7RH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, MARY STREET"
+      "address": "36, FAIRFAX AVENUE"
     },
     {
-      "price": 120000,
-      "date": "2026-05-05",
-      "postcode": "S80 2LQ",
+      "price": 64000,
+      "date": "2026-06-05",
+      "postcode": "S80 2EJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, THE PINES"
+      "address": "49, CHURCH WALK"
     },
     {
-      "price": 276000,
-      "date": "2026-05-01",
-      "postcode": "S81 0FG",
+      "price": 125000,
+      "date": "2026-06-03",
+      "postcode": "S80 1QB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, CLARENCE ROAD"
+    },
+    {
+      "price": 285000,
+      "date": "2026-05-30",
+      "postcode": "S81 9FJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, DOVECOT CLOSE"
+      "address": "12, SNOWDROP GARDENS"
+    },
+    {
+      "price": 285000,
+      "date": "2026-05-29",
+      "postcode": "S80 3FR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ROBERTSON GROVE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-05-29",
+      "postcode": "S81 9FJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, SNOWDROP GARDENS"
+    },
+    {
+      "price": 190000,
+      "date": "2026-05-28",
+      "postcode": "S80 3GW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, DRAGONFLY WAY"
+    },
+    {
+      "price": 170000,
+      "date": "2026-05-28",
+      "postcode": "S81 0RJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, PLANTATION HILL"
+    },
+    {
+      "price": 435000,
+      "date": "2026-05-28",
+      "postcode": "S81 8QU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, PINGLE CLOSE"
     },
     {
       "price": 160000,
-      "date": "2026-04-30",
-      "postcode": "S80 2RE",
-      "propertyType": "S",
+      "date": "2026-05-27",
+      "postcode": "S80 2QQ",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "95, SOUTH AVENUE"
+      "address": "41, FOREST LANE"
     },
     {
-      "price": 195000,
-      "date": "2026-04-30",
-      "postcode": "S81 0NS",
+      "price": 185000,
+      "date": "2026-05-27",
+      "postcode": "S81 0BE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, HEMMINGFIELD CRESCENT"
+      "address": "10, KILTON CLOSE"
     },
     {
-      "price": 258500,
-      "date": "2026-04-30",
-      "postcode": "S81 8GZ",
-      "propertyType": "S",
+      "price": 1000,
+      "date": "2026-05-27",
+      "postcode": "S80 2HJ",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "44, FENNEC DRIVE"
+      "address": "14, VICARS WALK"
     }
   ],
   "monthlyHistory": [
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 195000,
-      "transactions": 159
+      "transactions": 160
     },
     {
       "month": "2025-04",
@@ -283,67 +286,72 @@
     {
       "month": "2025-05",
       "medianPrice": 189950,
-      "transactions": 91
+      "transactions": 95
     },
     {
       "month": "2025-06",
-      "medianPrice": 197750,
-      "transactions": 126
+      "medianPrice": 201000,
+      "transactions": 130
     },
     {
       "month": "2025-07",
-      "medianPrice": 172500,
-      "transactions": 96
+      "medianPrice": 180000,
+      "transactions": 103
     },
     {
       "month": "2025-08",
-      "medianPrice": 193000,
-      "transactions": 96
+      "medianPrice": 195000,
+      "transactions": 107
     },
     {
       "month": "2025-09",
-      "medianPrice": 190000,
-      "transactions": 83
+      "medianPrice": 199000,
+      "transactions": 90
     },
     {
       "month": "2025-10",
       "medianPrice": 205000,
-      "transactions": 102
+      "transactions": 105
     },
     {
       "month": "2025-11",
-      "medianPrice": 202500,
-      "transactions": 64
+      "medianPrice": 200000,
+      "transactions": 65
     },
     {
       "month": "2025-12",
-      "medianPrice": 190000,
-      "transactions": 59
+      "medianPrice": 187500,
+      "transactions": 64
     },
     {
       "month": "2026-01",
-      "medianPrice": 181250,
-      "transactions": 38
+      "medianPrice": 182500,
+      "transactions": 41
     },
     {
       "month": "2026-02",
-      "medianPrice": 210000,
-      "transactions": 63
+      "medianPrice": 207500,
+      "transactions": 64
     },
     {
       "month": "2026-03",
-      "medianPrice": 177500,
-      "transactions": 57
+      "medianPrice": 176500,
+      "transactions": 58
     },
     {
       "month": "2026-04",
       "medianPrice": 164000,
-      "transactions": 22
+      "transactions": 28
     },
     {
       "month": "2026-05",
-      "medianPrice": 203000,
-      "transactions": 17
+      "medianPrice": 215000,
+      "transactions": 49
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 182500,
+      "transactions": 11
     }
   ],
   "quarterlyHistory": [
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 190000,
-      "transactions": 309
+      "medianPrice": 192373,
+      "transactions": 310
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 190000,
-      "transactions": 291
+      "medianPrice": 192500,
+      "transactions": 299
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 185000,
-      "transactions": 275
+      "medianPrice": 190000,
+      "transactions": 300
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 200000,
-      "transactions": 225
+      "medianPrice": 196000,
+      "transactions": 234
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 188750,
-      "transactions": 158
+      "medianPrice": 187500,
+      "transactions": 163
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 179000,
-      "transactions": 39
+      "medianPrice": 189750,
+      "transactions": 88
     }
   ]
 }

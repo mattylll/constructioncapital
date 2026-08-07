@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.704Z",
+  "updatedAt": "2026-08-07T08:45:04.062Z",
   "townSlug": "neath",
   "countySlug": "swansea",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NEATH PORT TALBOT"
+  ],
   "marketSnapshot": {
-    "medianPrice": 158000,
-    "transactionCount12m": 1510,
-    "yoyPriceChange": 1.9,
+    "medianPrice": 157000,
+    "transactionCount12m": 1442,
+    "yoyPriceChange": 0.6,
     "approvedApps12m": 0,
-    "pipelineUnits": 6,
-    "pipelineGdv": 1000625,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 0,
+    "pipelineGdv": 0,
     "approvalRate": 0
   }
 }

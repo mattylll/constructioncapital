@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.427Z",
+  "updatedAt": "2026-08-07T08:45:03.737Z",
   "townSlug": "st-ives",
   "countySlug": "cambridgeshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HUNTINGDONSHIRE"
+  ],
   "marketSnapshot": {
     "medianPrice": 300000,
-    "transactionCount12m": 221,
+    "transactionCount12m": 229,
     "yoyPriceChange": -3.2,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "approvedApps12m": 10,
+    "approvedRecent": 10,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 1723,
+    "pipelineGdv": 517440000,
+    "approvalRate": 91
   }
 }

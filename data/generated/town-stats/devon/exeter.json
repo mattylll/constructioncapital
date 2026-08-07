@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.546Z",
+  "updatedAt": "2026-08-07T08:45:01.963Z",
   "townSlug": "exeter",
   "countySlug": "devon",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EXETER"
+  ],
   "marketSnapshot": {
-    "medianPrice": 300000,
-    "transactionCount12m": 1265,
-    "yoyPriceChange": 0,
-    "approvedApps12m": 15,
-    "pipelineUnits": 385,
-    "pipelineGdv": 114887000,
-    "approvalRate": 94
+    "medianPrice": 296500,
+    "transactionCount12m": 1243,
+    "yoyPriceChange": -1.2,
+    "approvedApps12m": 14,
+    "approvedRecent": 14,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 141,
+    "pipelineGdv": 42300000,
+    "approvalRate": 82
   }
 }

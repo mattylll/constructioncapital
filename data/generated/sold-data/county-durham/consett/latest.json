@@ -1,23 +1,188 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.287Z",
+  "updatedAt": "2026-08-07T08:45:03.504Z",
   "townSlug": "consett",
   "countySlug": "county-durham",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "COUNTY DURHAM"
+  ],
   "stats": {
-    "medianPrice": 132750,
+    "medianPrice": 131000,
     "medianByType": {
-      "D": 282000,
-      "S": 145000,
-      "T": 107250,
-      "F": 59000
+      "D": 280000,
+      "S": 147000,
+      "T": 110000,
+      "F": 75000
     },
-    "transactionCount12m": 518,
-    "yoyChange": -5.2,
-    "newBuildCount": 8,
-    "existingCount": 510,
-    "newBuildPremium": 44.8
+    "transactionCount12m": 505,
+    "yoyChange": -6.4,
+    "newBuildCount": 7,
+    "existingCount": 498,
+    "newBuildPremium": 82.3
   },
   "recentTransactions": [
+    {
+      "price": 140000,
+      "date": "2026-06-25",
+      "postcode": "DH8 6RH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, SOUTH MAGDALENE"
+    },
+    {
+      "price": 100000,
+      "date": "2026-06-23",
+      "postcode": "DH8 5UQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "241, DURHAM ROAD"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-22",
+      "postcode": "DH8 8RU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, DURHAM ROAD"
+    },
+    {
+      "price": 96500,
+      "date": "2026-06-19",
+      "postcode": "DH8 0SG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, BENFIELDSIDE ROAD"
+    },
+    {
+      "price": 140000,
+      "date": "2026-06-18",
+      "postcode": "DH8 5RF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, PALMERSTON STREET"
+    },
+    {
+      "price": 112000,
+      "date": "2026-06-17",
+      "postcode": "DH8 6HU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, FOURTH STREET, WATLING STREET BUNGALOWS"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-12",
+      "postcode": "DH8 5XT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, GENERATION PLACE"
+    },
+    {
+      "price": 115000,
+      "date": "2026-06-05",
+      "postcode": "DH8 8AB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, ARKLESS GROVE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-04",
+      "postcode": "DH8 5DJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, DALE COURT"
+    },
+    {
+      "price": 100000,
+      "date": "2026-06-04",
+      "postcode": "DH8 5RQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, TAYLOR STREET"
+    },
+    {
+      "price": 75000,
+      "date": "2026-06-03",
+      "postcode": "DH8 7BE",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "92, BRIARDALE"
+    },
+    {
+      "price": 34500,
+      "date": "2026-06-03",
+      "postcode": "DH8 6DJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SOUTH CROSS STREET"
+    },
+    {
+      "price": 95000,
+      "date": "2026-06-01",
+      "postcode": "DH8 6PZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, DENECREST"
+    },
+    {
+      "price": 310000,
+      "date": "2026-05-29",
+      "postcode": "DH8 0QZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, THE BRIARY"
+    },
+    {
+      "price": 163000,
+      "date": "2026-05-29",
+      "postcode": "DH8 0RX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, NORTHSTEAD DRIVE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-05-29",
+      "postcode": "DH8 7FD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, VICTORY CLOSE"
+    },
+    {
+      "price": 70000,
+      "date": "2026-05-28",
+      "postcode": "DH8 8LD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, THE CRESCENT"
+    },
+    {
+      "price": 94000,
+      "date": "2026-05-28",
+      "postcode": "DH8 8AP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, OAKFIELD LANE"
+    },
     {
       "price": 175000,
       "date": "2026-05-27",
@@ -28,175 +193,13 @@
       "address": "61, CORBRIDGE ROAD"
     },
     {
-      "price": 125000,
+      "price": 110000,
       "date": "2026-05-26",
-      "postcode": "DH8 6AT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, OAKDALE ROAD"
-    },
-    {
-      "price": 132000,
-      "date": "2026-05-22",
-      "postcode": "DH8 6LF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, DEWHIRST CLOSE"
-    },
-    {
-      "price": 71000,
-      "date": "2026-05-13",
-      "postcode": "DH8 5EW",
+      "postcode": "DH8 5RT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, WEST VICTORIA STREET"
-    },
-    {
-      "price": 70000,
-      "date": "2026-05-12",
-      "postcode": "DH8 5RR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, WEST PARADE"
-    },
-    {
-      "price": 68000,
-      "date": "2026-05-08",
-      "postcode": "DH8 0AB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, THOMAS STREET"
-    },
-    {
-      "price": 135000,
-      "date": "2026-05-08",
-      "postcode": "DH8 6RJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, SOUTH MAGDALENE"
-    },
-    {
-      "price": 70000,
-      "date": "2026-05-08",
-      "postcode": "DH8 6AH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, COBDEN STREET"
-    },
-    {
-      "price": 126000,
-      "date": "2026-05-08",
-      "postcode": "DH8 5SX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ROGER STREET"
-    },
-    {
-      "price": 97600,
-      "date": "2026-05-07",
-      "postcode": "DH8 8AB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "64, ARKLESS GROVE"
-    },
-    {
-      "price": 147500,
-      "date": "2026-05-07",
-      "postcode": "DH8 5GA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, STUART COURT"
-    },
-    {
-      "price": 90000,
-      "date": "2026-05-07",
-      "postcode": "DH8 5DN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, EDITH STREET"
-    },
-    {
-      "price": 97500,
-      "date": "2026-05-06",
-      "postcode": "DH8 5HS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "130, MEDOMSLEY ROAD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-06",
-      "postcode": "DH8 0TX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, SHERWOOD CLOSE"
-    },
-    {
-      "price": 299950,
-      "date": "2026-05-06",
-      "postcode": "DH8 5XU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, ABBOTTS WAY"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-01",
-      "postcode": "DH8 8RU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, DURHAM ROAD"
-    },
-    {
-      "price": 115999,
-      "date": "2026-04-30",
-      "postcode": "DH8 8DA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, DERBY DRIVE"
-    },
-    {
-      "price": 69000,
-      "date": "2026-04-30",
-      "postcode": "DH8 7NW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ALWYN GARDENS"
-    },
-    {
-      "price": 225000,
-      "date": "2026-04-30",
-      "postcode": "DH8 8BN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, MANOR CLOSE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-04-29",
-      "postcode": "DH8 8RH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, HIGHGATE MEWS"
+      "address": "27, ROSEBERRY TERRACE"
     }
   ],
   "monthlyHistory": [
@@ -262,8 +265,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 142000,
-      "transactions": 61
+      "medianPrice": 141750,
+      "transactions": 62
     },
     {
       "month": "2025-02",
@@ -278,12 +281,12 @@
     {
       "month": "2025-04",
       "medianPrice": 140000,
-      "transactions": 49
+      "transactions": 50
     },
     {
       "month": "2025-05",
-      "medianPrice": 138750,
-      "transactions": 74
+      "medianPrice": 140000,
+      "transactions": 75
     },
     {
       "month": "2025-06",
@@ -293,17 +296,17 @@
     {
       "month": "2025-07",
       "medianPrice": 125000,
-      "transactions": 72
+      "transactions": 75
     },
     {
       "month": "2025-08",
-      "medianPrice": 134000,
-      "transactions": 66
+      "medianPrice": 138075,
+      "transactions": 72
     },
     {
       "month": "2025-09",
-      "medianPrice": 140000,
-      "transactions": 61
+      "medianPrice": 137550,
+      "transactions": 64
     },
     {
       "month": "2025-10",
@@ -313,37 +316,42 @@
     {
       "month": "2025-11",
       "medianPrice": 125000,
-      "transactions": 53
+      "transactions": 57
     },
     {
       "month": "2025-12",
       "medianPrice": 130000,
-      "transactions": 56
+      "transactions": 59
     },
     {
       "month": "2026-01",
       "medianPrice": 133000,
-      "transactions": 42
+      "transactions": 47
     },
     {
       "month": "2026-02",
-      "medianPrice": 140000,
-      "transactions": 37
+      "medianPrice": 125000,
+      "transactions": 39
     },
     {
       "month": "2026-03",
-      "medianPrice": 122500,
-      "transactions": 40
+      "medianPrice": 120000,
+      "transactions": 42
     },
     {
       "month": "2026-04",
-      "medianPrice": 170000,
-      "transactions": 34
+      "medianPrice": 164975,
+      "transactions": 36
     },
     {
       "month": "2026-05",
-      "medianPrice": 125500,
-      "transactions": 16
+      "medianPrice": 130000,
+      "transactions": 37
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 112000,
+      "transactions": 13
     }
   ],
   "quarterlyHistory": [
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 134000,
-      "transactions": 227
+      "medianPrice": 133500,
+      "transactions": 228
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 140000,
-      "transactions": 205
+      "transactions": 207
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 133000,
-      "transactions": 199
+      "medianPrice": 134950,
+      "transactions": 211
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 130000,
-      "transactions": 161
+      "transactions": 168
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 132500,
-      "transactions": 119
+      "medianPrice": 125500,
+      "transactions": 128
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 146750,
-      "transactions": 50
+      "medianPrice": 136500,
+      "transactions": 86
     }
   ]
 }

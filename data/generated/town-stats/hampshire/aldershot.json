@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.063Z",
+  "updatedAt": "2026-08-07T08:45:01.504Z",
   "townSlug": "aldershot",
   "countySlug": "hampshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "RUSHMOOR"
+  ],
   "marketSnapshot": {
-    "medianPrice": 340878,
-    "transactionCount12m": 424,
-    "yoyPriceChange": 4.9,
+    "medianPrice": 345000,
+    "transactionCount12m": 397,
+    "yoyPriceChange": 6.2,
     "approvedApps12m": 0,
-    "pipelineUnits": 7,
-    "pipelineGdv": 3902500,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 14,
+    "pipelineGdv": 3756000,
     "approvalRate": 0
   }
 }

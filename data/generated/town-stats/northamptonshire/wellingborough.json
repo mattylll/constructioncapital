@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.301Z",
+  "updatedAt": "2026-08-07T08:45:02.690Z",
   "townSlug": "wellingborough",
   "countySlug": "northamptonshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTH NORTHAMPTONSHIRE",
+    "WELLINGBOROUGH"
+  ],
   "marketSnapshot": {
     "medianPrice": 245000,
-    "transactionCount12m": 1140,
-    "yoyPriceChange": -7.5,
+    "transactionCount12m": 1133,
+    "yoyPriceChange": -7.9,
     "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 288,
+    "pipelineGdv": 63465000,
     "approvalRate": 0
   }
 }

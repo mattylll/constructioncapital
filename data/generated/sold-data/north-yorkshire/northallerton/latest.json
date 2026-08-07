@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.196Z",
+  "updatedAt": "2026-08-07T08:45:03.414Z",
   "townSlug": "northallerton",
   "countySlug": "north-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTH YORKSHIRE",
+    "HAMBLETON"
+  ],
   "stats": {
-    "medianPrice": 244000,
+    "medianPrice": 240000,
     "medianByType": {
-      "D": 358750,
-      "S": 235000,
+      "D": 350000,
+      "S": 230000,
       "T": 185000,
-      "F": 111000
+      "F": 103500
     },
-    "transactionCount12m": 367,
-    "yoyChange": -3.1,
-    "newBuildCount": 5,
-    "existingCount": 362,
-    "newBuildPremium": 11.9
+    "transactionCount12m": 371,
+    "yoyChange": -5.9,
+    "newBuildCount": 4,
+    "existingCount": 367,
+    "newBuildPremium": -12.5
   },
   "recentTransactions": [
     {
-      "price": 242000,
-      "date": "2026-05-21",
-      "postcode": "DL7 8DJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "264, HIGH STREET"
-    },
-    {
-      "price": 686000,
-      "date": "2026-05-19",
-      "postcode": "DL7 9SS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, MILL LANE"
-    },
-    {
-      "price": 655000,
-      "date": "2026-05-14",
-      "postcode": "DL6 2AS",
+      "price": 435000,
+      "date": "2026-06-26",
+      "postcode": "DL7 8BN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "WILLOW TREE HOUSE"
+      "address": "46, BOROUGHBRIDGE ROAD"
     },
     {
-      "price": 150000,
-      "date": "2026-05-08",
-      "postcode": "DL7 8WD",
+      "price": 265500,
+      "date": "2026-06-23",
+      "postcode": "DL7 8FE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "77, DE LACY ROAD"
+      "address": "22, HAREBELL CLOSE"
     },
     {
-      "price": 193500,
-      "date": "2026-05-08",
-      "postcode": "DL6 2FT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, GOLDFINCH WAY"
-    },
-    {
-      "price": 255000,
-      "date": "2026-05-07",
-      "postcode": "DL7 8RP",
+      "price": 177750,
+      "date": "2026-06-19",
+      "postcode": "DL6 1EY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, ORMESBY CRESCENT"
-    },
-    {
-      "price": 205000,
-      "date": "2026-05-07",
-      "postcode": "DL6 1JE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "214, BANKHEAD ROAD"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-06",
-      "postcode": "DL7 0NN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, LAZENBY"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-05",
-      "postcode": "DL7 8WH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ALL SAINTS LANE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-05-01",
-      "postcode": "DL6 2QG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, HILTON GREEN"
-    },
-    {
-      "price": 167950,
-      "date": "2026-05-01",
-      "postcode": "DL6 1HD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "166, ASHLANDS ROAD"
-    },
-    {
-      "price": 895000,
-      "date": "2026-05-01",
-      "postcode": "DL6 2SE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GREENACRES"
-    },
-    {
-      "price": 146500,
-      "date": "2026-04-24",
-      "postcode": "DL7 8EY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, DEXTA WAY"
-    },
-    {
-      "price": 266000,
-      "date": "2026-04-24",
-      "postcode": "DL6 2GE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, HAWTHORN CLOSE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-04-24",
-      "postcode": "DL6 1JQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, VICARS CROFT"
-    },
-    {
-      "price": 235000,
-      "date": "2026-04-23",
-      "postcode": "DL7 8HH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, ST JAMES ROAD"
-    },
-    {
-      "price": 70000,
-      "date": "2026-04-22",
-      "postcode": "DL6 1EW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "40, ARDEN COURT"
+      "address": "32, THE CRESCENT"
     },
     {
       "price": 165000,
-      "date": "2026-04-22",
-      "postcode": "DL7 8EZ",
+      "date": "2026-06-19",
+      "postcode": "DL6 2FE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, BRICKSIDE WAY"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-18",
+      "postcode": "DL7 8BD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, POPLAR CRESCENT"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-18",
+      "postcode": "DL7 8TF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BEACONSFIELD STREET"
+    },
+    {
+      "price": 257000,
+      "date": "2026-06-15",
+      "postcode": "DL7 8JA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, FERGUSON CLOSE"
+      "address": "3, HOWDEN ROAD"
     },
     {
-      "price": 325000,
-      "date": "2026-04-20",
-      "postcode": "DL7 8BW",
+      "price": 375000,
+      "date": "2026-06-12",
+      "postcode": "DL6 2EG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "79, BOROUGHBRIDGE ROAD"
+      "address": "2, DALESBRED ROW"
     },
     {
-      "price": 350000,
-      "date": "2026-04-20",
-      "postcode": "DL7 8YX",
+      "price": 236000,
+      "date": "2026-06-12",
+      "postcode": "DL6 1ST",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, ST MICHAELS COURT"
+      "address": "11, BRAMBLEFIELDS"
+    },
+    {
+      "price": 209000,
+      "date": "2026-06-11",
+      "postcode": "DL7 8JL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, CHANTRY ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-06-09",
+      "postcode": "DL7 9ND",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LOVATT COTTAGE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-08",
+      "postcode": "DL7 9HG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TWO HOOTS"
+    },
+    {
+      "price": 80000,
+      "date": "2026-06-08",
+      "postcode": "DL6 1EW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "18, ARDEN COURT"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-05",
+      "postcode": "DL7 8WB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, BLACKTHORN ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-05",
+      "postcode": "DL7 8WF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, RUFUS WAY"
+    },
+    {
+      "price": 264000,
+      "date": "2026-06-05",
+      "postcode": "DL7 8RS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MULGRAVE DRIVE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-06-01",
+      "postcode": "DL6 1EL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "67, SWAIN COURT"
+    },
+    {
+      "price": 199000,
+      "date": "2026-05-29",
+      "postcode": "DL6 2FZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, HEDGEHOG WAY"
+    },
+    {
+      "price": 75000,
+      "date": "2026-05-29",
+      "postcode": "DL6 1EN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, ARDEN MEWS"
+    },
+    {
+      "price": 160000,
+      "date": "2026-05-29",
+      "postcode": "DL7 8EY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, DEXTA WAY"
     }
   ],
   "monthlyHistory": [
@@ -262,8 +266,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 289950,
-      "transactions": 37
+      "medianPrice": 282475,
+      "transactions": 38
     },
     {
       "month": "2025-02",
@@ -272,8 +276,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 260771,
-      "transactions": 84
+      "medianPrice": 266998,
+      "transactions": 100
     },
     {
       "month": "2025-04",
@@ -287,43 +291,43 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 241250,
-      "transactions": 52
+      "medianPrice": 240000,
+      "transactions": 53
     },
     {
       "month": "2025-07",
-      "medianPrice": 235000,
-      "transactions": 52
+      "medianPrice": 238000,
+      "transactions": 54
     },
     {
       "month": "2025-08",
-      "medianPrice": 280000,
-      "transactions": 45
+      "medianPrice": 272500,
+      "transactions": 51
     },
     {
       "month": "2025-09",
-      "medianPrice": 210000,
-      "transactions": 35
+      "medianPrice": 210500,
+      "transactions": 38
     },
     {
       "month": "2025-10",
-      "medianPrice": 240000,
-      "transactions": 43
+      "medianPrice": 235000,
+      "transactions": 45
     },
     {
       "month": "2025-11",
       "medianPrice": 230000,
-      "transactions": 41
+      "transactions": 43
     },
     {
       "month": "2025-12",
-      "medianPrice": 275000,
-      "transactions": 41
+      "medianPrice": 240000,
+      "transactions": 43
     },
     {
       "month": "2026-01",
-      "medianPrice": 243800,
-      "transactions": 33
+      "medianPrice": 244000,
+      "transactions": 35
     },
     {
       "month": "2026-02",
@@ -332,18 +336,23 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 230000,
-      "transactions": 27
+      "medianPrice": 236250,
+      "transactions": 32
     },
     {
       "month": "2026-04",
-      "medianPrice": 260000,
-      "transactions": 19
+      "medianPrice": 257500,
+      "transactions": 22
     },
     {
       "month": "2026-05",
-      "medianPrice": 257500,
-      "transactions": 12
+      "medianPrice": 223500,
+      "transactions": 22
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 250000,
+      "transactions": 17
     }
   ],
   "quarterlyHistory": [
@@ -369,33 +378,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 255500,
-      "transactions": 168
+      "medianPrice": 261542,
+      "transactions": 185
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 244000,
-      "transactions": 104
+      "medianPrice": 243000,
+      "transactions": 105
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 247250,
-      "transactions": 132
+      "medianPrice": 241000,
+      "transactions": 143
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 235000,
-      "transactions": 125
+      "transactions": 131
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 244000,
-      "transactions": 89
+      "medianPrice": 246500,
+      "transactions": 96
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 260000,
-      "transactions": 31
+      "medianPrice": 250000,
+      "transactions": 61
     }
   ]
 }

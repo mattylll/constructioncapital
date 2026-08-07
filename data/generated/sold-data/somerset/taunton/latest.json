@@ -1,202 +1,207 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.793Z",
+  "updatedAt": "2026-08-07T08:45:01.920Z",
   "townSlug": "taunton",
   "countySlug": "somerset",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOMERSET",
+    "TAUNTON DEANE",
+    "SOMERSET WEST AND TAUNTON"
+  ],
   "stats": {
-    "medianPrice": 277250,
+    "medianPrice": 280000,
     "medianByType": {
-      "D": 415000,
-      "S": 276000,
+      "D": 420000,
+      "S": 275000,
       "T": 230000,
-      "F": 150000
+      "F": 145000
     },
-    "transactionCount12m": 1306,
-    "yoyChange": -1,
-    "newBuildCount": 14,
-    "existingCount": 1292,
-    "newBuildPremium": -32.4
+    "transactionCount12m": 1294,
+    "yoyChange": 1.4,
+    "newBuildCount": 1,
+    "existingCount": 1293,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 280000,
-      "date": "2026-05-27",
-      "postcode": "TA2 8AX",
+      "price": 270000,
+      "date": "2026-06-30",
+      "postcode": "TA4 3AF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, ROYS PLACE"
+      "address": "MALTHOUSE COTTAGE"
     },
     {
-      "price": 567500,
-      "date": "2026-05-27",
-      "postcode": "TA1 4HG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BEECHCROFT, 4, MOUNT NEBO"
-    },
-    {
-      "price": 410000,
-      "date": "2026-05-26",
-      "postcode": "TA1 4NR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, GILL CRESCENT"
-    },
-    {
-      "price": 335000,
-      "date": "2026-05-22",
-      "postcode": "TA4 4AF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HAGLEYS COTTAGE"
-    },
-    {
-      "price": 480000,
-      "date": "2026-05-22",
-      "postcode": "TA3 5EZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, VICARAGE LAWNS"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-21",
-      "postcode": "TA4 1NU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, BURGE CRESCENT"
-    },
-    {
-      "price": 572500,
-      "date": "2026-05-21",
-      "postcode": "TA2 8AP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, YEAS COTTAGES"
-    },
-    {
-      "price": 195000,
-      "date": "2026-05-20",
-      "postcode": "TA2 7UE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "71, EATON CRESCENT"
-    },
-    {
-      "price": 48000,
-      "date": "2026-05-19",
-      "postcode": "TA1 4PE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "23, LANGHAM GARDENS"
-    },
-    {
-      "price": 358000,
-      "date": "2026-05-15",
-      "postcode": "TA2 8SU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, NORTHWOOD CLOSE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-15",
-      "postcode": "TA1 5NU",
+      "price": 345000,
+      "date": "2026-06-26",
+      "postcode": "TA2 6LQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "64, BELMONT ROAD"
-    },
-    {
-      "price": 121000,
-      "date": "2026-05-15",
-      "postcode": "TA1 3RZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 13, JELLALABAD COURT, THE MOUNT"
-    },
-    {
-      "price": 145000,
-      "date": "2026-05-15",
-      "postcode": "TA2 8EY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "27B, BLACKDOWN ROAD"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-14",
-      "postcode": "TA1 5PJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, UPCOT CRESCENT"
-    },
-    {
-      "price": 395000,
-      "date": "2026-05-14",
-      "postcode": "TA3 6PE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ANGEL ROW"
+      "address": "179, GREENWAY ROAD"
     },
     {
       "price": 190000,
-      "date": "2026-05-13",
-      "postcode": "TA1 3QY",
+      "date": "2026-06-26",
+      "postcode": "TA4 1NY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, MANNING ROAD"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-25",
+      "postcode": "TA1 1AD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "3, SHERFORD COURT, SHERFORD ROAD"
+      "address": "36, NORTHFIELD COURT, POLLARDS WAY"
     },
     {
-      "price": 550000,
-      "date": "2026-05-12",
-      "postcode": "TA1 3DA",
+      "price": 575000,
+      "date": "2026-06-24",
+      "postcode": "TA1 5BD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, GORDONS CLOSE"
+      "address": "6, MANOR ROAD"
     },
     {
-      "price": 420000,
-      "date": "2026-05-12",
-      "postcode": "TA2 6BZ",
+      "price": 425000,
+      "date": "2026-06-22",
+      "postcode": "TA2 8PX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, NASH GREEN"
+      "address": "8, WATERLEAZE"
     },
     {
-      "price": 245000,
-      "date": "2026-05-12",
-      "postcode": "TA4 2NG",
+      "price": 315000,
+      "date": "2026-06-22",
+      "postcode": "TA1 5PN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, SOUTHGATE"
+      "address": "1, HOOPERS CLOSE"
     },
     {
-      "price": 276000,
-      "date": "2026-05-11",
-      "postcode": "TA4 1NA",
+      "price": 232500,
+      "date": "2026-06-19",
+      "postcode": "TA2 7AF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "78, WEDLANDS"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-19",
+      "postcode": "TA3 5QZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, COURTFIELD"
+      "address": "38, CRUFTS MEADOW"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-19",
+      "postcode": "TA4 2LF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, NORTHGATE"
+    },
+    {
+      "price": 80000,
+      "date": "2026-06-19",
+      "postcode": "TA1 1DX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 32, DELLERS COURT, DELLERS WHARF"
+    },
+    {
+      "price": 273500,
+      "date": "2026-06-19",
+      "postcode": "TA4 1JD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, NICHOL PLACE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-06-19",
+      "postcode": "TA4 1HX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "94, GRAHAM WAY"
+    },
+    {
+      "price": 485000,
+      "date": "2026-06-19",
+      "postcode": "TA1 5NP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "101, GALMINGTON ROAD"
+    },
+    {
+      "price": 281088,
+      "date": "2026-06-19",
+      "postcode": "TA3 7LB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, MILL LANE CLOSE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-19",
+      "postcode": "TA4 3BD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "83, DARBY WAY"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-19",
+      "postcode": "TA1 3AE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "83, SOUTH STREET"
+    },
+    {
+      "price": 257500,
+      "date": "2026-06-16",
+      "postcode": "TA2 6FB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, DRAGON RISE"
+    },
+    {
+      "price": 369000,
+      "date": "2026-06-12",
+      "postcode": "TA3 7QZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WESTHAVEN, HONITON ROAD"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-12",
+      "postcode": "TA2 8PG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, HEATHFIELD DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -208,7 +213,7 @@
     {
       "month": "2024-02",
       "medianPrice": 250000,
-      "transactions": 115
+      "transactions": 116
     },
     {
       "month": "2024-03",
@@ -227,8 +232,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 278338,
-      "transactions": 166
+      "medianPrice": 278675,
+      "transactions": 165
     },
     {
       "month": "2024-07",
@@ -247,18 +252,18 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 281500,
-      "transactions": 188
+      "medianPrice": 280000,
+      "transactions": 189
     },
     {
       "month": "2024-11",
-      "medianPrice": 285000,
-      "transactions": 199
+      "medianPrice": 284000,
+      "transactions": 200
     },
     {
       "month": "2024-12",
-      "medianPrice": 297000,
-      "transactions": 173
+      "medianPrice": 297500,
+      "transactions": 175
     },
     {
       "month": "2025-01",
@@ -288,74 +293,79 @@
     {
       "month": "2025-06",
       "medianPrice": 250000,
-      "transactions": 157
+      "transactions": 158
     },
     {
       "month": "2025-07",
       "medianPrice": 266000,
-      "transactions": 178
+      "transactions": 180
     },
     {
       "month": "2025-08",
-      "medianPrice": 285000,
-      "transactions": 161
+      "medianPrice": 280000,
+      "transactions": 169
     },
     {
       "month": "2025-09",
       "medianPrice": 286000,
-      "transactions": 144
+      "transactions": 146
     },
     {
       "month": "2025-10",
       "medianPrice": 265000,
-      "transactions": 175
+      "transactions": 177
     },
     {
       "month": "2025-11",
       "medianPrice": 285000,
-      "transactions": 139
+      "transactions": 144
     },
     {
       "month": "2025-12",
-      "medianPrice": 305000,
-      "transactions": 134
+      "medianPrice": 298750,
+      "transactions": 146
     },
     {
       "month": "2026-01",
-      "medianPrice": 252500,
-      "transactions": 76
+      "medianPrice": 260000,
+      "transactions": 87
     },
     {
       "month": "2026-02",
-      "medianPrice": 250000,
-      "transactions": 113
+      "medianPrice": 251500,
+      "transactions": 116
     },
     {
       "month": "2026-03",
       "medianPrice": 270000,
-      "transactions": 81
+      "transactions": 84
     },
     {
       "month": "2026-04",
-      "medianPrice": 278750,
-      "transactions": 90
+      "medianPrice": 280000,
+      "transactions": 99
     },
     {
       "month": "2026-05",
-      "medianPrice": 290000,
-      "transactions": 40
+      "medianPrice": 291250,
+      "transactions": 94
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 255000,
+      "transactions": 65
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 250000,
-      "transactions": 384
+      "transactions": 385
     },
     {
       "quarter": "2024-Q2",
       "medianPrice": 265000,
-      "transactions": 438
+      "transactions": 437
     },
     {
       "quarter": "2024-Q3",
@@ -365,7 +375,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 287750,
-      "transactions": 560
+      "transactions": 564
     },
     {
       "quarter": "2025-Q1",
@@ -374,28 +384,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 263685,
-      "transactions": 352
+      "medianPrice": 262500,
+      "transactions": 353
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 277500,
-      "transactions": 483
+      "transactions": 495
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 285000,
-      "transactions": 448
+      "transactions": 467
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 257500,
-      "transactions": 270
+      "medianPrice": 260000,
+      "transactions": 287
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 280000,
-      "transactions": 130
+      "transactions": 258
     }
   ]
 }

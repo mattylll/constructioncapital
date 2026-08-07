@@ -1,12 +1,19 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.676Z",
+  "updatedAt": "2026-08-07T08:45:02.088Z",
   "townSlug": "christchurch",
   "countySlug": "dorset",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BOURNEMOUTH, CHRISTCHURCH AND POOLE",
+    "CHRISTCHURCH"
+  ],
   "marketSnapshot": {
-    "medianPrice": 410000,
-    "transactionCount12m": 699,
+    "medianPrice": 415000,
+    "transactionCount12m": 706,
     "yoyPriceChange": 0,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

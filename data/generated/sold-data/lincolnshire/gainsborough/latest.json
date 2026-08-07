@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.561Z",
+  "updatedAt": "2026-08-07T08:45:02.747Z",
   "townSlug": "gainsborough",
   "countySlug": "lincolnshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WEST LINDSEY"
+  ],
   "stats": {
-    "medianPrice": 220000,
+    "medianPrice": 215000,
     "medianByType": {
-      "D": 315000,
-      "S": 188000,
-      "T": 132500,
-      "F": 72000
+      "D": 308500,
+      "S": 185000,
+      "T": 129000,
+      "F": 80000
     },
-    "transactionCount12m": 1297,
-    "yoyChange": 0,
-    "newBuildCount": 18,
-    "existingCount": 1279,
-    "newBuildPremium": 46.6
+    "transactionCount12m": 1282,
+    "yoyChange": -2.3,
+    "newBuildCount": 22,
+    "existingCount": 1260,
+    "newBuildPremium": 23
   },
   "recentTransactions": [
     {
-      "price": 45000,
-      "date": "2026-05-22",
-      "postcode": "DN21 1LD",
+      "price": 198000,
+      "date": "2026-06-26",
+      "postcode": "DN21 1XA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, RAVENDALE ROAD"
+    },
+    {
+      "price": 97500,
+      "date": "2026-06-24",
+      "postcode": "DN21 2AA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, ASHCROFT ROAD"
+      "address": "26, COLVILLE TERRACE"
     },
     {
-      "price": 52000,
-      "date": "2026-05-22",
-      "postcode": "DN21 2AB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, LEWIS STREET"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-22",
-      "postcode": "DN21 3EZ",
+      "price": 280000,
+      "date": "2026-06-23",
+      "postcode": "LN1 2WU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, SOUTHLANDS DRIVE"
-    },
-    {
-      "price": 140000,
-      "date": "2026-05-22",
-      "postcode": "DN21 1AQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, COPPER BEECH CLOSE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-22",
-      "postcode": "LN3 4GF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, ASH HOLT CLOSE"
-    },
-    {
-      "price": 55000,
-      "date": "2026-05-20",
-      "postcode": "DN21 2LA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, GARFIELD STREET"
-    },
-    {
-      "price": 10750,
-      "date": "2026-05-19",
-      "postcode": "LN1 2PW",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DRINSEY FARM HOUSE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-19",
-      "postcode": "LN7 6NJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, NETTLETON ROAD"
-    },
-    {
-      "price": 209000,
-      "date": "2026-05-19",
-      "postcode": "DN21 2QE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, OLD SHOWFIELDS"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-18",
-      "postcode": "LN3 5XG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "70, SILVER STREET"
-    },
-    {
-      "price": 218000,
-      "date": "2026-05-15",
-      "postcode": "DN41 8SB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, BECK CLOSE"
-    },
-    {
-      "price": 68000,
-      "date": "2026-05-15",
-      "postcode": "DN21 1JA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "47, SANDARS MALTINGS, BRIDGE STREET"
+      "address": "5, HARDWICK CLOSE"
     },
     {
       "price": 185000,
-      "date": "2026-05-15",
-      "postcode": "LN8 3RP",
-      "propertyType": "S",
+      "date": "2026-06-23",
+      "postcode": "DN21 3NL",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, ANGLIAN WAY"
+      "address": "12, THE AVENUE"
     },
     {
-      "price": 127000,
-      "date": "2026-05-15",
-      "postcode": "DN21 1DD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "194, SANDSFIELD LANE"
-    },
-    {
-      "price": 158000,
-      "date": "2026-05-15",
-      "postcode": "DN21 1WG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, THE HOLT"
-    },
-    {
-      "price": 273000,
-      "date": "2026-05-15",
-      "postcode": "LN7 6XD",
+      "price": 393000,
+      "date": "2026-06-19",
+      "postcode": "LN2 2RQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, THE MEADOW"
+      "address": "16, SIBTHORPE DRIVE"
     },
     {
-      "price": 157000,
-      "date": "2026-05-14",
-      "postcode": "DN21 2TN",
+      "price": 200000,
+      "date": "2026-06-19",
+      "postcode": "DN21 1ZA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "21, BREWSTER ROAD"
+    },
+    {
+      "price": 178000,
+      "date": "2026-06-19",
+      "postcode": "LN1 2FP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, QUEENSFIELD"
+      "address": "19, SAXON WAY"
     },
     {
-      "price": 265000,
-      "date": "2026-05-14",
-      "postcode": "DN21 1TY",
+      "price": 215000,
+      "date": "2026-06-19",
+      "postcode": "LN2 2YD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, WINDSOR CLOSE"
+    },
+    {
+      "price": 312500,
+      "date": "2026-06-17",
+      "postcode": "LN2 2PP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, BEECH AVENUE"
+    },
+    {
+      "price": 90000,
+      "date": "2026-06-17",
+      "postcode": "DN21 1SF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, TEALBY CLOSE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-15",
+      "postcode": "DN37 8JU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, MIDDLEFIELD LANE"
+      "address": "14, BRICKYARD"
     },
     {
-      "price": 108000,
-      "date": "2026-05-13",
-      "postcode": "DN21 2PP",
+      "price": 395000,
+      "date": "2026-06-15",
+      "postcode": "DN21 3SL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, ASTLEY CRESCENT"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-12",
+      "postcode": "DN21 1YG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, GREY STREET"
+      "address": "38, MARLOW ROAD"
     },
     {
-      "price": 160000,
-      "date": "2026-05-13",
-      "postcode": "LN2 3LN",
+      "price": 173000,
+      "date": "2026-06-12",
+      "postcode": "DN21 1PE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, ST MARYS AVENUE"
+      "address": "10, BRAMLEY COURT"
+    },
+    {
+      "price": 95000,
+      "date": "2026-06-12",
+      "postcode": "DN21 2AT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 46, GRANARY WHARF, BRIDGE STREET"
+    },
+    {
+      "price": 55000,
+      "date": "2026-06-12",
+      "postcode": "LN1 2GG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "36, ELLISONS QUAY"
+    },
+    {
+      "price": 168000,
+      "date": "2026-06-12",
+      "postcode": "LN2 3SD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, MORRIS CLOSE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-11",
+      "postcode": "LN2 3FE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, THE HARDINGS"
+    },
+    {
+      "price": 395000,
+      "date": "2026-06-11",
+      "postcode": "LN1 2WX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, INGAMELLS DRIVE"
+    },
+    {
+      "price": 75000,
+      "date": "2026-06-11",
+      "postcode": "DN21 1DD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "170, SANDSFIELD LANE"
     }
   ],
   "monthlyHistory": [
@@ -252,8 +255,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 212250,
-      "transactions": 186
+      "medianPrice": 212000,
+      "transactions": 187
     },
     {
       "month": "2024-12",
@@ -282,68 +285,73 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 205000,
-      "transactions": 141
+      "medianPrice": 205998,
+      "transactions": 142
     },
     {
       "month": "2025-06",
       "medianPrice": 210000,
-      "transactions": 167
+      "transactions": 173
     },
     {
       "month": "2025-07",
       "medianPrice": 230000,
-      "transactions": 170
+      "transactions": 176
     },
     {
       "month": "2025-08",
-      "medianPrice": 223750,
-      "transactions": 178
+      "medianPrice": 230000,
+      "transactions": 196
     },
     {
       "month": "2025-09",
-      "medianPrice": 223000,
-      "transactions": 161
+      "medianPrice": 221250,
+      "transactions": 172
     },
     {
       "month": "2025-10",
-      "medianPrice": 217500,
-      "transactions": 152
+      "medianPrice": 223000,
+      "transactions": 155
     },
     {
       "month": "2025-11",
-      "medianPrice": 225000,
-      "transactions": 131
+      "medianPrice": 227000,
+      "transactions": 136
     },
     {
       "month": "2025-12",
-      "medianPrice": 207000,
-      "transactions": 141
+      "medianPrice": 205000,
+      "transactions": 151
     },
     {
       "month": "2026-01",
-      "medianPrice": 200000,
-      "transactions": 109
+      "medianPrice": 195000,
+      "transactions": 114
     },
     {
       "month": "2026-02",
-      "medianPrice": 231500,
-      "transactions": 78
+      "medianPrice": 230000,
+      "transactions": 79
     },
     {
       "month": "2026-03",
       "medianPrice": 207000,
-      "transactions": 99
+      "transactions": 100
     },
     {
       "month": "2026-04",
-      "medianPrice": 220000,
-      "transactions": 67
+      "medianPrice": 212500,
+      "transactions": 74
     },
     {
       "month": "2026-05",
-      "medianPrice": 197000,
-      "transactions": 44
+      "medianPrice": 180000,
+      "transactions": 97
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 215000,
+      "transactions": 47
     }
   ],
   "quarterlyHistory": [
@@ -364,8 +372,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 222550,
-      "transactions": 548
+      "medianPrice": 222500,
+      "transactions": 549
     },
     {
       "quarter": "2025-Q1",
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 205000,
-      "transactions": 394
+      "transactions": 401
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 225000,
-      "transactions": 509
+      "medianPrice": 227500,
+      "transactions": 544
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 220000,
-      "transactions": 424
+      "transactions": 442
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 213750,
-      "transactions": 286
+      "medianPrice": 210000,
+      "transactions": 293
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 215000,
-      "transactions": 111
+      "medianPrice": 209500,
+      "transactions": 218
     }
   ]
 }

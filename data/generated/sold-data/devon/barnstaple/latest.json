@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.870Z",
+  "updatedAt": "2026-08-07T08:45:02.001Z",
   "townSlug": "barnstaple",
   "countySlug": "devon",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTH DEVON"
+  ],
   "stats": {
-    "medianPrice": 290000,
+    "medianPrice": 282000,
     "medianByType": {
-      "D": 375000,
-      "S": 280000,
+      "D": 370000,
+      "S": 279500,
       "T": 220000,
       "F": 158000
     },
-    "transactionCount12m": 1203,
-    "yoyChange": -1.5,
-    "newBuildCount": 9,
-    "existingCount": 1194,
-    "newBuildPremium": 41.4
+    "transactionCount12m": 1185,
+    "yoyChange": -4.4,
+    "newBuildCount": 4,
+    "existingCount": 1181,
+    "newBuildPremium": 20.6
   },
   "recentTransactions": [
     {
-      "price": 182500,
-      "date": "2026-05-22",
-      "postcode": "EX36 4DP",
-      "propertyType": "T",
+      "price": 460000,
+      "date": "2026-06-26",
+      "postcode": "EX36 4RA",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, WIDGERY DRIVE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-21",
-      "postcode": "EX36 3DF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "96, EAST STREET"
+      "address": "VENLAKE COTTAGE"
     },
     {
       "price": 240000,
-      "date": "2026-05-20",
-      "postcode": "EX36 3HR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MYRTLE COTTAGE, EAST STREET"
-    },
-    {
-      "price": 630000,
-      "date": "2026-05-20",
-      "postcode": "EX37 9HP",
+      "date": "2026-06-26",
+      "postcode": "EX16 8AT",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "HIGHFIELD BARN"
+      "address": "16, BROOKE ROAD"
     },
     {
-      "price": 230000,
-      "date": "2026-05-19",
-      "postcode": "EX35 6BY",
-      "propertyType": "S",
+      "price": 300000,
+      "date": "2026-06-22",
+      "postcode": "EX36 4EW",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "11, PARK STREET"
+      "tenure": "F",
+      "address": "14, PARKLANDS"
     },
     {
-      "price": 157500,
-      "date": "2026-05-18",
-      "postcode": "EX35 6JA",
+      "price": 227000,
+      "date": "2026-06-19",
+      "postcode": "EX33 1NP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 11, IMPERIAL COURT, CASTLE HILL"
+      "address": "FLAT 4, LINDISFARNE, 36, MOOR LANE"
     },
     {
-      "price": 405000,
-      "date": "2026-05-18",
-      "postcode": "EX36 3HW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HARRIS HOUSE, BACK LANE"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-15",
-      "postcode": "EX34 8BU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, HERMITAGE ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-14",
-      "postcode": "EX31 3GD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, GLENWOOD DRIVE"
-    },
-    {
-      "price": 339000,
-      "date": "2026-05-13",
-      "postcode": "EX31 3ES",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, LINSCOTT CRESCENT"
-    },
-    {
-      "price": 305000,
-      "date": "2026-05-13",
-      "postcode": "EX35 6NF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "COOMBE GIRT"
-    },
-    {
-      "price": 367674,
-      "date": "2026-05-12",
-      "postcode": "EX31 3XU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, WESTER MOOR DRIVE"
-    },
-    {
-      "price": 388000,
-      "date": "2026-05-12",
-      "postcode": "EX32 7QF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MILDMAY"
-    },
-    {
-      "price": 348000,
-      "date": "2026-05-11",
-      "postcode": "EX33 2HF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, THE BRITTONS"
-    },
-    {
-      "price": 305000,
-      "date": "2026-05-11",
-      "postcode": "EX33 1EB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, WEST MEADOW ROAD"
-    },
-    {
-      "price": 355000,
-      "date": "2026-05-11",
-      "postcode": "EX32 8QN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, KESTREL WAY"
-    },
-    {
-      "price": 277000,
-      "date": "2026-05-11",
-      "postcode": "EX31 3SX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, HIGHGROVE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-08",
-      "postcode": "EX18 7BH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, LAND PARK"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-08",
-      "postcode": "EX34 9DJ",
+      "price": 72000,
+      "date": "2026-06-19",
+      "postcode": "EX34 9LT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "18, FORE STREET"
+      "address": "7, CROFTSIDE, VICTORIA ROAD"
     },
     {
-      "price": 276000,
-      "date": "2026-05-08",
-      "postcode": "EX31 4AD",
+      "price": 195000,
+      "date": "2026-06-19",
+      "postcode": "EX36 4AJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3A, BRADIFORD"
+      "address": "13, KINGSWAY"
+    },
+    {
+      "price": 370000,
+      "date": "2026-06-17",
+      "postcode": "EX34 9QN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HAMMETTS, CHAMBERCOMBE PARK ROAD"
+    },
+    {
+      "price": 740000,
+      "date": "2026-06-15",
+      "postcode": "EX39 4LG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, LANE END CLOSE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-12",
+      "postcode": "EX32 0QW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, OAKDALE AVENUE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-12",
+      "postcode": "EX32 8AH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BRAHMS WAY"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-12",
+      "postcode": "EX31 2PF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, MEAD PARK"
+    },
+    {
+      "price": 695000,
+      "date": "2026-06-10",
+      "postcode": "EX36 4DH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ROSEMULLION, GUNSWELL LANE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-10",
+      "postcode": "EX34 0DH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1, SUNDORA, CROSS STREET"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-09",
+      "postcode": "EX32 7DU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, SUNFLOWER ROAD"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-09",
+      "postcode": "EX31 3RH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, ALDER GLADE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-08",
+      "postcode": "EX34 8JX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "123, THE SHIELDS"
+    },
+    {
+      "price": 73500,
+      "date": "2026-06-08",
+      "postcode": "EX34 9AT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "BASEMENT FLAT, 5, AVENUE ROAD"
+    },
+    {
+      "price": 575000,
+      "date": "2026-06-08",
+      "postcode": "EX34 7EE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, KINEVOR CLOSE"
+    },
+    {
+      "price": 292000,
+      "date": "2026-06-08",
+      "postcode": "EX31 2NJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, TAW VIEW"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-06",
+      "postcode": "EX34 9JZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, CAMBRIDGE GROVE"
     }
   ],
   "monthlyHistory": [
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 295000,
-      "transactions": 273
+      "medianPrice": 296250,
+      "transactions": 274
     },
     {
       "month": "2025-04",
@@ -287,63 +290,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 282750,
-      "transactions": 141
+      "medianPrice": 283875,
+      "transactions": 140
     },
     {
       "month": "2025-07",
       "medianPrice": 300000,
-      "transactions": 154
+      "transactions": 161
     },
     {
       "month": "2025-08",
-      "medianPrice": 278000,
-      "transactions": 120
+      "medianPrice": 285000,
+      "transactions": 133
     },
     {
       "month": "2025-09",
-      "medianPrice": 290000,
-      "transactions": 133
+      "medianPrice": 278000,
+      "transactions": 141
     },
     {
       "month": "2025-10",
       "medianPrice": 300000,
-      "transactions": 152
+      "transactions": 155
     },
     {
       "month": "2025-11",
       "medianPrice": 310000,
-      "transactions": 156
+      "transactions": 162
     },
     {
       "month": "2025-12",
       "medianPrice": 275000,
-      "transactions": 130
+      "transactions": 139
     },
     {
       "month": "2026-01",
       "medianPrice": 296000,
-      "transactions": 90
+      "transactions": 96
     },
     {
       "month": "2026-02",
-      "medianPrice": 268750,
-      "transactions": 68
+      "medianPrice": 267500,
+      "transactions": 71
     },
     {
       "month": "2026-03",
-      "medianPrice": 282500,
-      "transactions": 102
+      "medianPrice": 280000,
+      "transactions": 103
     },
     {
       "month": "2026-04",
       "medianPrice": 265000,
-      "transactions": 72
+      "transactions": 77
     },
     {
       "month": "2026-05",
-      "medianPrice": 287500,
-      "transactions": 40
+      "medianPrice": 256000,
+      "transactions": 96
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 262500,
+      "transactions": 36
     }
   ],
   "quarterlyHistory": [
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 297625,
-      "transactions": 534
+      "medianPrice": 297750,
+      "transactions": 535
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 277500,
-      "transactions": 326
+      "medianPrice": 280000,
+      "transactions": 325
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 291500,
-      "transactions": 407
+      "transactions": 435
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 295000,
-      "transactions": 438
+      "transactions": 456
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 285000,
-      "transactions": 260
+      "medianPrice": 282500,
+      "transactions": 270
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 278000,
-      "transactions": 112
+      "medianPrice": 265000,
+      "transactions": 209
     }
   ]
 }

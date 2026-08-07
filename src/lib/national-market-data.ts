@@ -5,7 +5,17 @@ import { cache } from "react";
 export interface NationalMarketSummary {
   /** Number of UK towns with a town-stats file. */
   townsTracked: number;
-  /** Total Land Registry transactions observed across tracked towns in the last 12 months. */
+  /**
+   * Number of towns actually contributing to the aggregates below. Lower than
+   * `townsTracked` because towns sharing an HMLR district are counted once —
+   * use this as the denominator for any "X of Y towns" claim, never
+   * `townsTracked`.
+   */
+  townsCounted: number;
+  /**
+   * Total Land Registry transactions in the last 12 months, counting each HMLR
+   * district once rather than once per town sharing it.
+   */
   transactions12m: number;
   /** Median of town-level median prices across tracked towns (£). */
   medianOfMedianPrices: number;
@@ -19,10 +29,14 @@ export interface NationalMarketSummary {
 
 interface TownSnapshotFile {
   updatedAt?: string;
+  /** True when this town's figures are its HMLR district's, not its own. */
+  isDistrictLevelFallback?: boolean;
+  /** HMLR district(s) the transactions were drawn from. */
+  hmlrDistricts?: string[];
   marketSnapshot?: {
     medianPrice?: number;
     transactionCount12m?: number;
-    yoyPriceChange?: number;
+    yoyPriceChange?: number | null;
   };
 }
 
@@ -46,6 +60,7 @@ export const getNationalMarketSummary = cache((): NationalMarketSummary => {
   if (!fs.existsSync(root)) {
     return {
       townsTracked: 0,
+      townsCounted: 0,
       transactions12m: 0,
       medianOfMedianPrices: 0,
       townsWithPositiveYoy: 0,
@@ -70,43 +85,84 @@ export const getNationalMarketSummary = cache((): NationalMarketSummary => {
   let positiveYoyCount = 0;
   let latestUpdate = 0;
 
+  const parsedFiles: { path: string; data: TownSnapshotFile }[] = [];
   for (const filePath of files) {
     try {
-      const raw = fs.readFileSync(filePath, "utf-8");
-      const parsed: TownSnapshotFile = JSON.parse(raw);
+      const data: TownSnapshotFile = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
-      if (parsed.updatedAt) {
-        const ts = Date.parse(parsed.updatedAt);
+      if (data.updatedAt) {
+        const ts = Date.parse(data.updatedAt);
         if (!Number.isNaN(ts) && ts > latestUpdate) latestUpdate = ts;
       }
-
-      const snap = parsed.marketSnapshot;
-      if (!snap) continue;
-
-      if (typeof snap.medianPrice === "number" && snap.medianPrice > 0) {
-        medianPrices.push(snap.medianPrice);
-      }
-      if (typeof snap.transactionCount12m === "number") {
-        transactionsTotal += snap.transactionCount12m;
-      }
-      if (typeof snap.yoyPriceChange === "number") {
-        yoyChanges.push(snap.yoyPriceChange);
-        if (snap.yoyPriceChange > 0) positiveYoyCount += 1;
-      }
+      if (data.marketSnapshot) parsedFiles.push({ path: filePath, data });
     } catch {
       // skip malformed files — national strip must not fail the build
       continue;
     }
   }
 
-  const nonZeroYoy = yoyChanges.filter((v) => v !== 0);
+  // Towns sharing an HMLR district can each carry that whole district's
+  // transactions, so summing every town counts the same sales repeatedly
+  // (all six Cardiff neighbourhoods hold the full Cardiff figure). Group by
+  // district and count each district once. Files written before
+  // `hmlrDistricts` existed have no district to group on, so each is treated
+  // as its own group — that degrades to the previous behaviour rather than
+  // silently collapsing unrelated towns together.
+  const groups = new Map<string, { path: string; data: TownSnapshotFile }[]>();
+  for (const entry of parsedFiles) {
+    const districts = entry.data.hmlrDistricts;
+    const key =
+      districts && districts.length > 0
+        ? [...districts].sort().join("|")
+        : `__ungrouped__:${entry.path}`;
+    const bucket = groups.get(key);
+    if (bucket) bucket.push(entry);
+    else groups.set(key, [entry]);
+  }
+
+  const counted: TownSnapshotFile[] = [];
+  for (const members of groups.values()) {
+    if (members.length === 1) {
+      counted.push(members[0].data);
+      continue;
+    }
+    // A fallback town's figures are a superset of its properly-attributed
+    // siblings', so prefer the siblings whenever any exist.
+    const specific = members.filter((m) => !m.data.isDistrictLevelFallback);
+    if (specific.length > 0) {
+      for (const m of specific) counted.push(m.data);
+      continue;
+    }
+    // Every member is district-level: they are copies of one another, so keep
+    // a single representative. Dropping them all would erase the area
+    // entirely. Sort by path for a stable choice across builds.
+    const representative = [...members].sort((a, b) => a.path.localeCompare(b.path))[0];
+    counted.push(representative.data);
+  }
+
+  for (const data of counted) {
+    const snap = data.marketSnapshot;
+    if (!snap) continue;
+
+    if (typeof snap.medianPrice === "number" && snap.medianPrice > 0) {
+      medianPrices.push(snap.medianPrice);
+    }
+    if (typeof snap.transactionCount12m === "number") {
+      transactionsTotal += snap.transactionCount12m;
+    }
+    if (typeof snap.yoyPriceChange === "number") {
+      yoyChanges.push(snap.yoyPriceChange);
+      if (snap.yoyPriceChange > 0) positiveYoyCount += 1;
+    }
+  }
 
   return {
     townsTracked: files.length,
+    townsCounted: counted.length,
     transactions12m: transactionsTotal,
     medianOfMedianPrices: median(medianPrices),
     townsWithPositiveYoy: positiveYoyCount,
-    medianYoyChange: median(nonZeroYoy.length > 0 ? nonZeroYoy : [0]),
+    medianYoyChange: median(yoyChanges),
     dataAsOf:
       latestUpdate > 0
         ? new Date(latestUpdate).toISOString()

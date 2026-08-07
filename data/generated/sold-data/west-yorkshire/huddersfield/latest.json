@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.992Z",
+  "updatedAt": "2026-08-07T08:45:03.221Z",
   "townSlug": "huddersfield",
   "countySlug": "west-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "KIRKLEES"
+  ],
   "stats": {
     "medianPrice": 200000,
     "medianByType": {
-      "D": 385000,
-      "S": 215000,
-      "T": 155875,
-      "F": 100000
+      "D": 386500,
+      "S": 217500,
+      "T": 156750,
+      "F": 105000
     },
-    "transactionCount12m": 2103,
+    "transactionCount12m": 2076,
     "yoyChange": 0,
-    "newBuildCount": 29,
-    "existingCount": 2074,
-    "newBuildPremium": 81.8
+    "newBuildCount": 24,
+    "existingCount": 2052,
+    "newBuildPremium": 107.3
   },
   "recentTransactions": [
     {
-      "price": 215000,
-      "date": "2026-05-22",
-      "postcode": "HD2 1GS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33A, NORFOLK AVENUE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-22",
-      "postcode": "HD5 9EP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "38, RYDAL DRIVE"
-    },
-    {
-      "price": 87950,
-      "date": "2026-05-21",
-      "postcode": "HD4 5RF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9, THE COURTYARD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-20",
-      "postcode": "HD4 7PF",
+      "price": 125000,
+      "date": "2026-06-26",
+      "postcode": "HD2 2UD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, WOOD END ROAD"
+      "address": "82, NORMAN ROAD"
     },
     {
-      "price": 277000,
-      "date": "2026-05-20",
-      "postcode": "HD8 9QP",
+      "price": 225000,
+      "date": "2026-06-22",
+      "postcode": "HD8 8RT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "23A, WARBURTON"
+      "address": "1, BROOKSIDE, WAKEFIELD ROAD"
     },
     {
-      "price": 345000,
-      "date": "2026-05-19",
-      "postcode": "HD4 5FE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, REDWING CLOSE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-18",
-      "postcode": "HD3 4QY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "76, ROYD STREET"
-    },
-    {
-      "price": 145000,
-      "date": "2026-05-15",
-      "postcode": "HD4 6NS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, MANOR STREET"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-15",
-      "postcode": "HD5 9JU",
+      "price": 250000,
+      "date": "2026-06-19",
+      "postcode": "HD8 9DB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, CARR GREEN LANE"
+      "address": "60, WOODLANDS DRIVE"
     },
     {
-      "price": 195000,
-      "date": "2026-05-15",
-      "postcode": "HD2 1QR",
+      "price": 170000,
+      "date": "2026-06-19",
+      "postcode": "HD5 8TW",
       "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "137, PARK LEA"
-    },
-    {
-      "price": 130000,
-      "date": "2026-05-12",
-      "postcode": "HD2 1UX",
-      "propertyType": "T",
-      "newBuild": false,
       "tenure": "F",
-      "address": "1155, LEEDS ROAD"
+      "address": "6, LINCOLN GROVE"
     },
     {
-      "price": 115000,
-      "date": "2026-05-12",
+      "price": 105000,
+      "date": "2026-06-16",
       "postcode": "HD3 3XB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "5, MOORLANDS EDGE"
+      "address": "20, MOORLANDS EDGE"
     },
     {
-      "price": 1150000,
-      "date": "2026-05-11",
-      "postcode": "HD2 1GN",
+      "price": 250000,
+      "date": "2026-06-15",
+      "postcode": "HD4 6PT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "76, WOOD LANE"
+    },
+    {
+      "price": 190000,
+      "date": "2026-06-12",
+      "postcode": "HD1 3JS",
       "propertyType": "O",
       "newBuild": false,
-      "tenure": "F",
-      "address": "TECHNOLOGY HOUSE, DYSON WOOD WAY"
+      "tenure": "L",
+      "address": "12, CROSLAND ROAD"
     },
     {
-      "price": 275000,
-      "date": "2026-05-11",
-      "postcode": "HD3 4UY",
+      "price": 130000,
+      "date": "2026-06-12",
+      "postcode": "HD4 5DL",
       "propertyType": "S",
       "newBuild": false,
-      "tenure": "F",
-      "address": "25A, PROSPECT ROAD"
+      "tenure": "L",
+      "address": "5, CLEMENT STREET"
     },
     {
-      "price": 273000,
-      "date": "2026-05-11",
-      "postcode": "HD8 0FX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, TITHEFIELDS"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-11",
-      "postcode": "HD5 8JN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, LONGLEY ROAD"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-08",
-      "postcode": "HD7 5UF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BLAKESTONES"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-08",
-      "postcode": "HD5 8EX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "168, ALMONDBURY BANK"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-08",
-      "postcode": "HD5 8NW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "73, TOWN END"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-08",
-      "postcode": "HD4 6DG",
+      "price": 125000,
+      "date": "2026-06-12",
+      "postcode": "HD1 3TL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "13, MALVERN RISE"
+      "address": "45, HAIGH STREET"
+    },
+    {
+      "price": 186500,
+      "date": "2026-06-12",
+      "postcode": "HD3 4XB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, SPARK STREET"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-12",
+      "postcode": "HD8 9HG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "EVERGREEN HOLLY HOUSE, 10, CLIFFEWOOD RISE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-06-11",
+      "postcode": "HD5 8ST",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "102, DAW ROYDS"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-10",
+      "postcode": "HD8 0ZH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, FOXGLOVE DRIVE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-10",
+      "postcode": "HD8 0FZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "177, HANBY CLOSE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-08",
+      "postcode": "HD5 8BN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, RAVENSKNOWLE ROAD"
+    },
+    {
+      "price": 171000,
+      "date": "2026-06-05",
+      "postcode": "HD5 0DB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, SHOP LANE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-05",
+      "postcode": "HD7 6HP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, MOUNT ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-05",
+      "postcode": "HD1 1EH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 16, JOHN WILLIAM COURT, 72, JOHN WILLIAM STREET"
+    },
+    {
+      "price": 212500,
+      "date": "2026-06-05",
+      "postcode": "HD8 9XR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, WENTWORTH AVENUE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-05",
+      "postcode": "HD5 0DA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, LANGLEY FOLD"
     }
   ],
   "monthlyHistory": [
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 197250,
-      "transactions": 366
+      "medianPrice": 197500,
+      "transactions": 365
     },
     {
       "month": "2024-11",
@@ -268,7 +271,7 @@
     {
       "month": "2025-02",
       "medianPrice": 220000,
-      "transactions": 287
+      "transactions": 288
     },
     {
       "month": "2025-03",
@@ -288,62 +291,67 @@
     {
       "month": "2025-06",
       "medianPrice": 200000,
-      "transactions": 247
+      "transactions": 252
     },
     {
       "month": "2025-07",
-      "medianPrice": 193750,
-      "transactions": 292
+      "medianPrice": 192500,
+      "transactions": 301
     },
     {
       "month": "2025-08",
-      "medianPrice": 207000,
-      "transactions": 259
+      "medianPrice": 210000,
+      "transactions": 273
     },
     {
       "month": "2025-09",
-      "medianPrice": 187500,
-      "transactions": 227
+      "medianPrice": 191000,
+      "transactions": 239
     },
     {
       "month": "2025-10",
       "medianPrice": 210000,
-      "transactions": 264
+      "transactions": 268
     },
     {
       "month": "2025-11",
       "medianPrice": 185000,
-      "transactions": 224
+      "transactions": 238
     },
     {
       "month": "2025-12",
-      "medianPrice": 220000,
-      "transactions": 211
+      "medianPrice": 221000,
+      "transactions": 234
     },
     {
       "month": "2026-01",
-      "medianPrice": 185000,
-      "transactions": 160
-    },
-    {
-      "month": "2026-02",
-      "medianPrice": 200000,
+      "medianPrice": 191500,
       "transactions": 174
     },
     {
+      "month": "2026-02",
+      "medianPrice": 200100,
+      "transactions": 187
+    },
+    {
       "month": "2026-03",
-      "medianPrice": 200000,
-      "transactions": 151
+      "medianPrice": 197000,
+      "transactions": 162
     },
     {
       "month": "2026-04",
-      "medianPrice": 205000,
-      "transactions": 137
+      "medianPrice": 205500,
+      "transactions": 150
     },
     {
       "month": "2026-05",
-      "medianPrice": 215000,
-      "transactions": 55
+      "medianPrice": 197500,
+      "transactions": 172
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 182498,
+      "transactions": 34
     }
   ],
   "quarterlyHistory": [
@@ -365,37 +373,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 200000,
-      "transactions": 1052
+      "transactions": 1051
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 205000,
-      "transactions": 925
+      "medianPrice": 205250,
+      "transactions": 926
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 190000,
-      "transactions": 635
+      "medianPrice": 192500,
+      "transactions": 640
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 195000,
-      "transactions": 778
+      "medianPrice": 196500,
+      "transactions": 813
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 200000,
-      "transactions": 699
+      "medianPrice": 205000,
+      "transactions": 740
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 196500,
-      "transactions": 485
+      "medianPrice": 199950,
+      "transactions": 523
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 206500,
-      "transactions": 192
+      "medianPrice": 200000,
+      "transactions": 356
     }
   ]
 }

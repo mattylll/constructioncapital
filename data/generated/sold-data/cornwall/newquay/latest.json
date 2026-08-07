@@ -1,23 +1,197 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.901Z",
+  "updatedAt": "2026-08-07T08:45:02.037Z",
   "townSlug": "newquay",
   "countySlug": "cornwall",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CORNWALL"
+  ],
   "stats": {
-    "medianPrice": 317500,
+    "medianPrice": 317750,
     "medianByType": {
-      "D": 462500,
-      "S": 320000,
-      "T": 278000,
+      "D": 460000,
+      "S": 322875,
+      "T": 282000,
       "F": 210000
     },
-    "transactionCount12m": 533,
-    "yoyChange": -2.3,
-    "newBuildCount": 4,
-    "existingCount": 529,
-    "newBuildPremium": 47.9
+    "transactionCount12m": 522,
+    "yoyChange": -2.2,
+    "newBuildCount": 5,
+    "existingCount": 517,
+    "newBuildPremium": 35.4
   },
   "recentTransactions": [
+    {
+      "price": 165000,
+      "date": "2026-06-25",
+      "postcode": "TR8 4FE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, STRET GRIFLES"
+    },
+    {
+      "price": 535000,
+      "date": "2026-06-25",
+      "postcode": "TR8 4NP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "NATHLOWEN, TRENCREEK ROAD"
+    },
+    {
+      "price": 377500,
+      "date": "2026-06-22",
+      "postcode": "TR7 3FH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 4, ONE LUSTY GLAZE, LUSTY GLAZE ROAD"
+    },
+    {
+      "price": 320000,
+      "date": "2026-06-19",
+      "postcode": "TR7 2LJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, MEADOWSIDE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-17",
+      "postcode": "TR7 2NZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CASH AND CARRY WAREHOUSE, QUARRY PARK ROAD"
+    },
+    {
+      "price": 645000,
+      "date": "2026-06-16",
+      "postcode": "TR7 1NG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "96, PENMERE DRIVE"
+    },
+    {
+      "price": 135000,
+      "date": "2026-06-10",
+      "postcode": "TR8 5FZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "36, TREMELLYN ROAD"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-05",
+      "postcode": "TR7 2FJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, LUXLAND VIEW"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-05",
+      "postcode": "TR8 4GU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, STRET KOSTI VEUR WOLES"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-05",
+      "postcode": "TR7 3HJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, LEADER ROAD"
+    },
+    {
+      "price": 485000,
+      "date": "2026-06-04",
+      "postcode": "TR7 3JZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE RIDGE, PORTH PARADE"
+    },
+    {
+      "price": 430000,
+      "date": "2026-06-04",
+      "postcode": "TR7 2AA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, CHYNANCE DRIVE"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-04",
+      "postcode": "TR7 1QY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, MARCUS HILL"
+    },
+    {
+      "price": 240000,
+      "date": "2026-05-29",
+      "postcode": "TR7 3RU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, ATTENBORROW COURT, 17, ALEXANDRA ROAD"
+    },
+    {
+      "price": 138500,
+      "date": "2026-05-29",
+      "postcode": "TR7 2FH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 2, WHICKHAM COURT, 17, TRELOGGAN ROAD"
+    },
+    {
+      "price": 460000,
+      "date": "2026-05-29",
+      "postcode": "TR7 2LU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, TRENANCE ROAD"
+    },
+    {
+      "price": 325000,
+      "date": "2026-05-29",
+      "postcode": "TR7 3HF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, STANWAYS ROAD"
+    },
+    {
+      "price": 85000,
+      "date": "2026-05-29",
+      "postcode": "TR7 2DD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "36, WINDSOR COURT"
+    },
+    {
+      "price": 295000,
+      "date": "2026-05-28",
+      "postcode": "TR7 1PP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, SURF VIEW, CAMULLAS WAY"
+    },
     {
       "price": 575000,
       "date": "2026-05-27",
@@ -26,177 +200,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "11, PRAZE ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-21",
-      "postcode": "TR7 1GS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, STRET MORGAN LE FAY"
-    },
-    {
-      "price": 110000,
-      "date": "2026-05-20",
-      "postcode": "TR7 3DU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, OXLEY VALE"
-    },
-    {
-      "price": 523500,
-      "date": "2026-05-19",
-      "postcode": "TR7 1FL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 5, AZURE, 20, HEADLAND ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-18",
-      "postcode": "TR7 2NQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, TREFUSIS, TOLCARNE ROAD"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-18",
-      "postcode": "TR8 4NF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, VYVYAN DRIVE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-15",
-      "postcode": "TR7 3NB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, MERMAID COURT, ALEXANDRA ROAD"
-    },
-    {
-      "price": 335000,
-      "date": "2026-05-13",
-      "postcode": "TR7 2TF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, TRETHERRAS ROAD"
-    },
-    {
-      "price": 399950,
-      "date": "2026-05-11",
-      "postcode": "TR8 4DX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "RIVENDELL, 1 THE BARNS"
-    },
-    {
-      "price": 439950,
-      "date": "2026-05-08",
-      "postcode": "TR7 2SA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, ST ANNES ROAD"
-    },
-    {
-      "price": 390000,
-      "date": "2026-05-08",
-      "postcode": "TR8 4GE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, BOWNDER TREVELI"
-    },
-    {
-      "price": 115000,
-      "date": "2026-05-07",
-      "postcode": "TR7 2DD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "31, WINDSOR COURT"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-07",
-      "postcode": "TR7 2SZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "155, POLWHELE ROAD"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-07",
-      "postcode": "TR7 2RW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, DUKES WAY"
-    },
-    {
-      "price": 385000,
-      "date": "2026-05-06",
-      "postcode": "TR7 2RG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, WHITEGATE ROAD"
-    },
-    {
-      "price": 555000,
-      "date": "2026-05-06",
-      "postcode": "TR7 1RY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "199, PENMERE DRIVE"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-01",
-      "postcode": "TR7 3LU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "OLD POST COTTAGE, PORTH BEAN ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-01",
-      "postcode": "TR7 1NE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, BROAD STREET"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-01",
-      "postcode": "TR7 1SS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, VIVIENNE COURT, ST THOMAS ROAD"
-    },
-    {
-      "price": 335000,
-      "date": "2026-05-01",
-      "postcode": "TR8 5DL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, NEW ROW"
     }
   ],
   "monthlyHistory": [
@@ -207,8 +210,8 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 335000,
-      "transactions": 68
+      "medianPrice": 340000,
+      "transactions": 69
     },
     {
       "month": "2024-03",
@@ -223,7 +226,7 @@
     {
       "month": "2024-05",
       "medianPrice": 310000,
-      "transactions": 54
+      "transactions": 55
     },
     {
       "month": "2024-06",
@@ -242,8 +245,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 335000,
-      "transactions": 73
+      "medianPrice": 345000,
+      "transactions": 75
     },
     {
       "month": "2024-10",
@@ -253,32 +256,32 @@
     {
       "month": "2024-11",
       "medianPrice": 325000,
-      "transactions": 71
+      "transactions": 73
     },
     {
       "month": "2024-12",
-      "medianPrice": 320000,
-      "transactions": 71
+      "medianPrice": 317500,
+      "transactions": 72
     },
     {
       "month": "2025-01",
-      "medianPrice": 322500,
-      "transactions": 60
+      "medianPrice": 325000,
+      "transactions": 61
     },
     {
       "month": "2025-02",
-      "medianPrice": 327500,
-      "transactions": 56
+      "medianPrice": 330000,
+      "transactions": 57
     },
     {
       "month": "2025-03",
-      "medianPrice": 352475,
-      "transactions": 126
+      "medianPrice": 350000,
+      "transactions": 130
     },
     {
       "month": "2025-04",
-      "medianPrice": 282500,
-      "transactions": 40
+      "medianPrice": 280000,
+      "transactions": 41
     },
     {
       "month": "2025-05",
@@ -287,115 +290,120 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 297000,
-      "transactions": 70
+      "medianPrice": 297475,
+      "transactions": 76
     },
     {
       "month": "2025-07",
-      "medianPrice": 305000,
-      "transactions": 61
+      "medianPrice": 300000,
+      "transactions": 65
     },
     {
       "month": "2025-08",
-      "medianPrice": 332500,
-      "transactions": 56
+      "medianPrice": 322250,
+      "transactions": 59
     },
     {
       "month": "2025-09",
-      "medianPrice": 275625,
-      "transactions": 58
+      "medianPrice": 283000,
+      "transactions": 62
     },
     {
       "month": "2025-10",
-      "medianPrice": 283500,
-      "transactions": 72
+      "medianPrice": 285000,
+      "transactions": 73
     },
     {
       "month": "2025-11",
-      "medianPrice": 362500,
-      "transactions": 74
+      "medianPrice": 365000,
+      "transactions": 73
     },
     {
       "month": "2025-12",
-      "medianPrice": 368750,
-      "transactions": 56
+      "medianPrice": 342500,
+      "transactions": 61
     },
     {
       "month": "2026-01",
       "medianPrice": 330000,
-      "transactions": 32
+      "transactions": 34
     },
     {
       "month": "2026-02",
-      "medianPrice": 313000,
-      "transactions": 36
+      "medianPrice": 320000,
+      "transactions": 37
     },
     {
       "month": "2026-03",
       "medianPrice": 325000,
-      "transactions": 37
+      "transactions": 40
     },
     {
       "month": "2026-04",
       "medianPrice": 262500,
-      "transactions": 36
+      "transactions": 40
     },
     {
       "month": "2026-05",
-      "medianPrice": 335000,
-      "transactions": 20
+      "medianPrice": 295000,
+      "transactions": 43
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 325000,
+      "transactions": 13
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 337500,
-      "transactions": 183
+      "medianPrice": 338750,
+      "transactions": 184
     },
     {
       "quarter": "2024-Q2",
       "medianPrice": 317500,
-      "transactions": 168
+      "transactions": 169
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 321615,
-      "transactions": 204
+      "medianPrice": 323390,
+      "transactions": 206
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 332998,
-      "transactions": 226
+      "medianPrice": 332995,
+      "transactions": 229
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 335000,
-      "transactions": 242
+      "transactions": 248
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 303250,
-      "transactions": 158
+      "medianPrice": 300000,
+      "transactions": 165
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 305000,
-      "transactions": 175
+      "medianPrice": 302500,
+      "transactions": 186
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 324250,
-      "transactions": 202
+      "medianPrice": 323500,
+      "transactions": 207
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 320000,
-      "transactions": 105
+      "medianPrice": 325000,
+      "transactions": 111
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 292500,
-      "transactions": 56
+      "medianPrice": 290000,
+      "transactions": 96
     }
   ]
 }

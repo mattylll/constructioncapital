@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.582Z",
+  "updatedAt": "2026-08-07T08:45:01.705Z",
   "townSlug": "southend-on-sea",
   "countySlug": "essex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTHEND-ON-SEA",
+    "SOUTHEND ON SEA"
+  ],
   "stats": {
-    "medianPrice": 333000,
+    "medianPrice": 330000,
     "medianByType": {
-      "D": 530000,
+      "D": 515000,
       "S": 400000,
       "T": 320000,
-      "F": 205000
+      "F": 210000
     },
-    "transactionCount12m": 2106,
-    "yoyChange": 2.5,
+    "transactionCount12m": 2129,
+    "yoyChange": 1.5,
     "newBuildCount": 0,
-    "existingCount": 2106,
+    "existingCount": 2129,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 725000,
-      "date": "2026-05-27",
-      "postcode": "SS1 3PU",
+      "price": 605000,
+      "date": "2026-06-29",
+      "postcode": "SS9 3ED",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, LADRAM CLOSE"
+      "address": "41, SCARBOROUGH DRIVE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-19",
+      "postcode": "SS1 1EJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "19, CAMBRIDGE COURT"
+    },
+    {
+      "price": 370000,
+      "date": "2026-06-19",
+      "postcode": "SS9 4SH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, LARCHWOOD CLOSE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-19",
+      "postcode": "SS9 4HR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, FLEMMING CRESCENT"
+    },
+    {
+      "price": 529000,
+      "date": "2026-06-19",
+      "postcode": "SS0 9UU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "106, SOUTHBOURNE GROVE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-19",
+      "postcode": "SS1 2SB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "21, CHELTENHAM ROAD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-17",
+      "postcode": "SS9 1NN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, MARGUERITE DRIVE"
+    },
+    {
+      "price": 120000,
+      "date": "2026-06-17",
+      "postcode": "SS0 8ET",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "400, STATION ROAD"
+    },
+    {
+      "price": 745000,
+      "date": "2026-06-17",
+      "postcode": "SS9 1NQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, CLIFFSEA GROVE"
+    },
+    {
+      "price": 465000,
+      "date": "2026-06-17",
+      "postcode": "SS9 5EQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "69, GROVEWOOD AVENUE"
+    },
+    {
+      "price": 479000,
+      "date": "2026-06-16",
+      "postcode": "SS0 7JW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE RECTORY, BURDETT AVENUE"
     },
     {
       "price": 320000,
-      "date": "2026-05-27",
-      "postcode": "SS0 8LT",
+      "date": "2026-06-15",
+      "postcode": "SS3 9YW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "63A, KINGS ROAD"
+      "address": "34, SANDPIPER CLOSE"
     },
     {
-      "price": 515000,
-      "date": "2026-05-27",
-      "postcode": "SS9 3EE",
+      "price": 287000,
+      "date": "2026-06-15",
+      "postcode": "SS3 9LE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, RICHMOND AVENUE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-15",
+      "postcode": "SS2 6DS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 27, THE PINNACLE, 59, VICTORIA AVENUE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-06-15",
+      "postcode": "SS0 0HJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "20, CHEDDAR AVENUE"
+    },
+    {
+      "price": 362500,
+      "date": "2026-06-15",
+      "postcode": "SS3 9DR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, WEST ROAD"
+    },
+    {
+      "price": 177500,
+      "date": "2026-06-12",
+      "postcode": "SS0 9JH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 4, RAMUZ COURT, 55, RAMUZ DRIVE"
+    },
+    {
+      "price": 900000,
+      "date": "2026-06-12",
+      "postcode": "SS9 2PG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "92, CRESCENT ROAD"
+    },
+    {
+      "price": 410000,
+      "date": "2026-06-12",
+      "postcode": "SS2 4DB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, SCARBOROUGH DRIVE"
+      "address": "105A, THE GROVE"
     },
     {
-      "price": 190000,
-      "date": "2026-05-22",
-      "postcode": "SS3 9NY",
+      "price": 280000,
+      "date": "2026-06-12",
+      "postcode": "SS2 4DA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "63, THE DRAKES"
-    },
-    {
-      "price": 343000,
-      "date": "2026-05-22",
-      "postcode": "SS0 9JQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "90, WESTBOROUGH ROAD"
-    },
-    {
-      "price": 260000,
-      "date": "2026-05-22",
-      "postcode": "SS9 2QP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "40, LEIGH HEATH COURT, LONDON ROAD"
-    },
-    {
-      "price": 435125,
-      "date": "2026-05-22",
-      "postcode": "SS9 4TB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "227, WOODSIDE"
-    },
-    {
-      "price": 64825,
-      "date": "2026-05-21",
-      "postcode": "SS1 2LH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "37A, WHITEGATE ROAD"
-    },
-    {
-      "price": 455000,
-      "date": "2026-05-21",
-      "postcode": "SS9 4DS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "452, ARTERIAL ROAD"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-20",
-      "postcode": "SS1 3LU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 16, HOMEROWAN HOUSE, STATION ROAD"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-20",
-      "postcode": "SS2 6SX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "104, ROCHFORD ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-20",
-      "postcode": "SS0 9DJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "35, GLENWOOD AVENUE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-19",
-      "postcode": "SS0 8AJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, CRANLEY ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-18",
-      "postcode": "SS1 1FU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 23, CLIFFTOWN SHORE, WESTERN ESPLANADE"
-    },
-    {
-      "price": 655000,
-      "date": "2026-05-18",
-      "postcode": "SS1 3DG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, WYATTS DRIVE"
-    },
-    {
-      "price": 159000,
-      "date": "2026-05-18",
-      "postcode": "SS9 3NH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "810, LONDON ROAD"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-18",
-      "postcode": "SS2 6SG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, KEITH WAY"
-    },
-    {
-      "price": 775000,
-      "date": "2026-05-18",
-      "postcode": "SS9 1JZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, SUNNINGDALE AVENUE"
-    },
-    {
-      "price": 184000,
-      "date": "2026-05-15",
-      "postcode": "SS3 9NU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, EXETER HOUSE, 25, BOWBANK CLOSE"
-    },
-    {
-      "price": 470000,
-      "date": "2026-05-15",
-      "postcode": "SS2 6NU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "67, EARLS HALL AVENUE"
+      "address": "120, THE GROVE"
     }
   ],
   "monthlyHistory": [
@@ -252,13 +256,13 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 327500,
-      "transactions": 280
+      "medianPrice": 325000,
+      "transactions": 281
     },
     {
       "month": "2024-12",
       "medianPrice": 330000,
-      "transactions": 245
+      "transactions": 246
     },
     {
       "month": "2025-01",
@@ -273,12 +277,12 @@
     {
       "month": "2025-03",
       "medianPrice": 335000,
-      "transactions": 518
+      "transactions": 519
     },
     {
       "month": "2025-04",
       "medianPrice": 290000,
-      "transactions": 127
+      "transactions": 128
     },
     {
       "month": "2025-05",
@@ -288,62 +292,67 @@
     {
       "month": "2025-06",
       "medianPrice": 295000,
-      "transactions": 244
+      "transactions": 246
     },
     {
       "month": "2025-07",
-      "medianPrice": 347500,
-      "transactions": 250
+      "medianPrice": 350000,
+      "transactions": 253
     },
     {
       "month": "2025-08",
-      "medianPrice": 355000,
-      "transactions": 263
+      "medianPrice": 356500,
+      "transactions": 270
     },
     {
       "month": "2025-09",
-      "medianPrice": 327500,
-      "transactions": 244
+      "medianPrice": 325000,
+      "transactions": 259
     },
     {
       "month": "2025-10",
-      "medianPrice": 330000,
-      "transactions": 236
+      "medianPrice": 333500,
+      "transactions": 239
     },
     {
       "month": "2025-11",
-      "medianPrice": 335000,
-      "transactions": 267
+      "medianPrice": 330000,
+      "transactions": 277
     },
     {
       "month": "2025-12",
-      "medianPrice": 342000,
-      "transactions": 218
+      "medianPrice": 350000,
+      "transactions": 247
     },
     {
       "month": "2026-01",
-      "medianPrice": 332000,
-      "transactions": 153
+      "medianPrice": 340000,
+      "transactions": 163
     },
     {
       "month": "2026-02",
-      "medianPrice": 320000,
-      "transactions": 178
+      "medianPrice": 317500,
+      "transactions": 186
     },
     {
       "month": "2026-03",
-      "medianPrice": 319500,
-      "transactions": 176
+      "medianPrice": 320000,
+      "transactions": 183
     },
     {
       "month": "2026-04",
-      "medianPrice": 310000,
-      "transactions": 127
+      "medianPrice": 307500,
+      "transactions": 137
     },
     {
       "month": "2026-05",
-      "medianPrice": 335000,
-      "transactions": 59
+      "medianPrice": 320000,
+      "transactions": 157
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 362500,
+      "transactions": 61
     }
   ],
   "quarterlyHistory": [
@@ -364,38 +373,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 330000,
-      "transactions": 788
+      "medianPrice": 328750,
+      "transactions": 790
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 330000,
-      "transactions": 948
+      "transactions": 949
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 297000,
-      "transactions": 555
+      "medianPrice": 295000,
+      "transactions": 558
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 340000,
-      "transactions": 757
+      "transactions": 782
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 336000,
-      "transactions": 721
+      "medianPrice": 337500,
+      "transactions": 763
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 325000,
-      "transactions": 507
+      "transactions": 532
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 315000,
-      "transactions": 186
+      "medianPrice": 318500,
+      "transactions": 355
     }
   ]
 }

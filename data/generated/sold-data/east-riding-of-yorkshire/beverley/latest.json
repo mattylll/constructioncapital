@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.371Z",
+  "updatedAt": "2026-08-07T08:45:03.585Z",
   "townSlug": "beverley",
   "countySlug": "east-riding-of-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EAST RIDING OF YORKSHIRE"
+  ],
   "stats": {
-    "medianPrice": 249000,
+    "medianPrice": 240000,
     "medianByType": {
-      "D": 338000,
-      "S": 229950,
-      "T": 185000,
+      "D": 340000,
+      "S": 225000,
+      "T": 182000,
       "F": 123000
     },
-    "transactionCount12m": 603,
-    "yoyChange": 1.6,
-    "newBuildCount": 41,
-    "existingCount": 562,
-    "newBuildPremium": 27.3
+    "transactionCount12m": 586,
+    "yoyChange": -4,
+    "newBuildCount": 26,
+    "existingCount": 560,
+    "newBuildPremium": 9.1
   },
   "recentTransactions": [
     {
-      "price": 244000,
-      "date": "2026-05-22",
-      "postcode": "HU17 7EY",
+      "price": 220000,
+      "date": "2026-06-26",
+      "postcode": "HU17 0RQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, HOGAN CLOSE"
+      "address": "7, HOLGATE CLOSE"
     },
     {
-      "price": 175000,
-      "date": "2026-05-21",
-      "postcode": "HU17 8ND",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, SLOE LANE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-19",
+      "price": 216000,
+      "date": "2026-06-25",
       "postcode": "HU17 9QT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "116, HIGHFIELD ROAD"
+      "address": "144, HIGHFIELD ROAD"
     },
     {
-      "price": 128000,
-      "date": "2026-05-18",
-      "postcode": "HU17 0DW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, HIGHGATE COURT"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-18",
-      "postcode": "HU17 0SS",
+      "price": 177000,
+      "date": "2026-06-19",
+      "postcode": "HU17 5NT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, ROSEMARY WAY"
+      "address": "3, BARLEY GATE"
     },
     {
-      "price": 350000,
-      "date": "2026-05-15",
-      "postcode": "HU17 7SD",
-      "propertyType": "D",
+      "price": 186500,
+      "date": "2026-06-18",
+      "postcode": "HU17 7LA",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "106, THE MEADOWS"
+      "address": "22, CARNABY CLOSE"
     },
     {
-      "price": 225000,
-      "date": "2026-05-15",
-      "postcode": "HU17 9UN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, ROWAN AVENUE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-15",
-      "postcode": "HU17 9JA",
+      "price": 135000,
+      "date": "2026-06-17",
+      "postcode": "HU17 7LA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "170, NORWOOD"
+      "address": "14, CARNABY CLOSE"
     },
     {
-      "price": 150000,
-      "date": "2026-05-13",
-      "postcode": "HU17 9LF",
+      "price": 270000,
+      "date": "2026-06-16",
+      "postcode": "HU17 8UW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BERKSHIRE CLOSE"
+    },
+    {
+      "price": 308000,
+      "date": "2026-06-15",
+      "postcode": "HU17 8GD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, FOTHERBY WALK"
+      "address": "14, JUNIPER CHASE"
     },
     {
-      "price": 307500,
-      "date": "2026-05-12",
-      "postcode": "HU17 9TA",
-      "propertyType": "D",
+      "price": 190000,
+      "date": "2026-06-12",
+      "postcode": "HU17 7LA",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, ASCOTT CLOSE"
+      "address": "21, CARNABY CLOSE"
     },
     {
-      "price": 150000,
-      "date": "2026-05-12",
-      "postcode": "HU17 0QA",
+      "price": 215000,
+      "date": "2026-06-12",
+      "postcode": "HU17 7FB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, MARTIN STREET"
+      "address": "20, NEWMAN AVENUE"
     },
     {
-      "price": 214950,
-      "date": "2026-05-11",
-      "postcode": "HU17 0AR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 1, COLLISON HOUSE, TRINITY LANE"
-    },
-    {
-      "price": 227000,
-      "date": "2026-05-11",
-      "postcode": "HU17 8EW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, TEESDALE CROFT"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-11",
-      "postcode": "HU17 9GD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, HAMBLING DRIVE"
-    },
-    {
-      "price": 268000,
-      "date": "2026-05-11",
-      "postcode": "HU17 5NA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, MALLARD AVENUE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-08",
+      "price": 210000,
+      "date": "2026-06-12",
       "postcode": "HU17 0RA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "77, BEVERLEY PARKLANDS"
+      "address": "75, BEVERLEY PARKLANDS"
     },
     {
-      "price": 210000,
-      "date": "2026-05-08",
-      "postcode": "HU17 9LH",
+      "price": 235000,
+      "date": "2026-06-12",
+      "postcode": "HU17 8UQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "65, BURDEN ROAD"
+      "address": "72, CHESTER AVENUE"
     },
     {
-      "price": 325000,
-      "date": "2026-05-07",
-      "postcode": "HU17 7SQ",
+      "price": 200000,
+      "date": "2026-06-12",
+      "postcode": "HU17 7QQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, SHELDRAKE WAY"
+    },
+    {
+      "price": 53308,
+      "date": "2026-06-12",
+      "postcode": "HU17 0EG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, PRIORY ROAD"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-12",
+      "postcode": "HU17 8HP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "61, MINSTER MOORGATE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-12",
+      "postcode": "HU17 8HF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, BARTLETT AVENUE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-12",
+      "postcode": "HU17 0SA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, THEARNE LANE"
+    },
+    {
+      "price": 195500,
+      "date": "2026-06-08",
+      "postcode": "HU17 8HP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, MINSTER MOORGATE"
+    },
+    {
+      "price": 750000,
+      "date": "2026-06-05",
+      "postcode": "HU17 8PP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, FOXGLOVE WAY"
+      "address": "MOUSE HILL"
     },
     {
-      "price": 450000,
-      "date": "2026-05-07",
-      "postcode": "HU17 8LB",
+      "price": 110000,
+      "date": "2026-06-05",
+      "postcode": "HU17 9AY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 22, DELTA, 60, MILL LANE"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-05",
+      "postcode": "HU17 0SE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, ROMNEY DRIVE"
-    },
-    {
-      "price": 328000,
-      "date": "2026-05-07",
-      "postcode": "HU17 7LS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, THE LAWNS"
+      "address": "2B, FERRY LANE"
     }
   ],
   "monthlyHistory": [
@@ -228,7 +231,7 @@
     {
       "month": "2024-06",
       "medianPrice": 248250,
-      "transactions": 121
+      "transactions": 122
     },
     {
       "month": "2024-07",
@@ -252,8 +255,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 267500,
-      "transactions": 88
+      "medianPrice": 265000,
+      "transactions": 89
     },
     {
       "month": "2024-12",
@@ -287,23 +290,23 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 236750,
-      "transactions": 90
+      "medianPrice": 237000,
+      "transactions": 91
     },
     {
       "month": "2025-07",
-      "medianPrice": 302500,
-      "transactions": 94
+      "medianPrice": 305896,
+      "transactions": 96
     },
     {
       "month": "2025-08",
-      "medianPrice": 244920,
-      "transactions": 61
+      "medianPrice": 252495,
+      "transactions": 67
     },
     {
       "month": "2025-09",
-      "medianPrice": 239750,
-      "transactions": 76
+      "medianPrice": 247500,
+      "transactions": 79
     },
     {
       "month": "2025-10",
@@ -313,17 +316,17 @@
     {
       "month": "2025-11",
       "medianPrice": 275000,
-      "transactions": 71
+      "transactions": 78
     },
     {
       "month": "2025-12",
-      "medianPrice": 202500,
-      "transactions": 53
+      "medianPrice": 215000,
+      "transactions": 58
     },
     {
       "month": "2026-01",
       "medianPrice": 227500,
-      "transactions": 48
+      "transactions": 52
     },
     {
       "month": "2026-02",
@@ -332,18 +335,23 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 240000,
-      "transactions": 45
+      "medianPrice": 237500,
+      "transactions": 46
     },
     {
       "month": "2026-04",
-      "medianPrice": 260000,
-      "transactions": 41
+      "medianPrice": 255000,
+      "transactions": 44
     },
     {
       "month": "2026-05",
-      "medianPrice": 220000,
-      "transactions": 24
+      "medianPrice": 222500,
+      "transactions": 52
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 215000,
+      "transactions": 23
     }
   ],
   "quarterlyHistory": [
@@ -355,7 +363,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 250000,
-      "transactions": 293
+      "transactions": 294
     },
     {
       "quarter": "2024-Q3",
@@ -364,8 +372,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 249475,
-      "transactions": 314
+      "medianPrice": 249000,
+      "transactions": 315
     },
     {
       "quarter": "2025-Q1",
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 218000,
-      "transactions": 228
+      "medianPrice": 220000,
+      "transactions": 229
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 265000,
-      "transactions": 231
+      "medianPrice": 265250,
+      "transactions": 242
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 240000,
-      "transactions": 183
+      "medianPrice": 245000,
+      "transactions": 195
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 240000,
-      "transactions": 135
+      "medianPrice": 237500,
+      "transactions": 140
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 244000,
-      "transactions": 65
+      "medianPrice": 227000,
+      "transactions": 119
     }
   ]
 }

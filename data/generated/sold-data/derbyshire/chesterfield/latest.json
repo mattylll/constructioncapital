@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.333Z",
+  "updatedAt": "2026-08-07T08:45:02.488Z",
   "townSlug": "chesterfield",
   "countySlug": "derbyshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CHESTERFIELD"
+  ],
   "stats": {
-    "medianPrice": 185000,
+    "medianPrice": 187000,
     "medianByType": {
-      "D": 313500,
-      "S": 185000,
+      "D": 315000,
+      "S": 187000,
       "T": 140000,
-      "F": 120000
+      "F": 115250
     },
-    "transactionCount12m": 1238,
-    "yoyChange": -2.6,
-    "newBuildCount": 3,
-    "existingCount": 1235,
-    "newBuildPremium": 130.9
+    "transactionCount12m": 1255,
+    "yoyChange": -1.6,
+    "newBuildCount": 22,
+    "existingCount": 1233,
+    "newBuildPremium": 3.4
   },
   "recentTransactions": [
     {
-      "price": 330000,
-      "date": "2026-05-21",
-      "postcode": "S41 8AB",
-      "propertyType": "D",
+      "price": 200000,
+      "date": "2026-06-26",
+      "postcode": "S43 2DF",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, BARHOLME CLOSE"
+      "address": "70, DEVONSHIRE AVENUE NORTH"
     },
     {
-      "price": 117500,
-      "date": "2026-05-20",
-      "postcode": "S41 0LJ",
+      "price": 225000,
+      "date": "2026-06-26",
+      "postcode": "S41 8RQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, SANDRINGHAM CLOSE"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-25",
+      "postcode": "S40 3DE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, MOORLAND VIEW ROAD"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-25",
+      "postcode": "S43 1GR",
       "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, THE GREEN"
-    },
-    {
-      "price": 89000,
-      "date": "2026-05-20",
-      "postcode": "S40 1RF",
-      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 10, 1 - 3, KNIFESMITHGATE"
+      "address": "41, WINDMILL WAY"
     },
     {
-      "price": 365000,
-      "date": "2026-05-20",
-      "postcode": "S40 3BP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, LINTON ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-19",
-      "postcode": "S40 4HD",
+      "price": 180000,
+      "date": "2026-06-19",
+      "postcode": "S40 4RZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, PROSPECT TERRACE"
+      "address": "1, HATTON DRIVE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-19",
+      "postcode": "S40 2XA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, FARNON CLOSE"
+    },
+    {
+      "price": 193000,
+      "date": "2026-06-19",
+      "postcode": "S40 4LL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, QUANTOCK WAY"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-16",
+      "postcode": "S41 0SW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, STUART CLOSE"
     },
     {
       "price": 375000,
-      "date": "2026-05-19",
-      "postcode": "S41 0XN",
+      "date": "2026-06-16",
+      "postcode": "S40 4TG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, RATCLIFFE CLOSE"
+      "address": "5, SPIRE HEIGHTS"
     },
     {
       "price": 185000,
-      "date": "2026-05-18",
-      "postcode": "S41 7DP",
+      "date": "2026-06-16",
+      "postcode": "S43 3PZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "32, CHANTREY AVENUE"
+      "address": "17, MILTON PLACE"
     },
     {
-      "price": 205000,
-      "date": "2026-05-15",
-      "postcode": "S43 3WA",
-      "propertyType": "S",
+      "price": 73000,
+      "date": "2026-06-16",
+      "postcode": "S40 4UE",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "15, BOOKER CLOSE"
+      "tenure": "L",
+      "address": "42, MERCASTON CLOSE"
     },
     {
-      "price": 163000,
-      "date": "2026-05-15",
-      "postcode": "S41 9QP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "90, CHURCH STREET NORTH"
-    },
-    {
-      "price": 130000,
-      "date": "2026-05-14",
-      "postcode": "S41 8RS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, SANFORTH STREET"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-13",
-      "postcode": "S41 0YF",
+      "price": 345000,
+      "date": "2026-06-16",
+      "postcode": "S41 0TE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, OADBY DRIVE"
+      "address": "315, BRIMINGTON ROAD"
     },
     {
-      "price": 295000,
-      "date": "2026-05-13",
-      "postcode": "S41 0YB",
+      "price": 245000,
+      "date": "2026-06-15",
+      "postcode": "S43 1JR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, RAYLEIGH AVENUE"
+    },
+    {
+      "price": 90000,
+      "date": "2026-06-15",
+      "postcode": "S41 0GF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 127, PICCADILLY HEIGHTS, WAIN AVENUE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-12",
+      "postcode": "S43 3BL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, REMPSTONE DRIVE"
+      "address": "19, TOLLBRIDGE ROAD"
     },
     {
-      "price": 160000,
-      "date": "2026-05-12",
-      "postcode": "S43 2JQ",
+      "price": 188000,
+      "date": "2026-06-12",
+      "postcode": "S40 4TD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, FIR STREET"
+      "address": "19, COBDEN ROAD"
     },
     {
-      "price": 275000,
-      "date": "2026-05-12",
-      "postcode": "S40 3AR",
+      "price": 155000,
+      "date": "2026-06-12",
+      "postcode": "S41 8TL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, GLENTHORNE CLOSE"
+      "address": "23, SHERBOURNE AVENUE"
     },
     {
-      "price": 110000,
-      "date": "2026-05-12",
-      "postcode": "S40 4TA",
+      "price": 180000,
+      "date": "2026-06-12",
+      "postcode": "S43 1QL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1B, GROVE ROAD"
+    },
+    {
+      "price": 203500,
+      "date": "2026-06-12",
+      "postcode": "S40 1LN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, COMPTON STREET"
+      "address": "37, CLARENCE ROAD"
     },
     {
-      "price": 162500,
-      "date": "2026-05-12",
-      "postcode": "S43 3PR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BARROW STREET"
-    },
-    {
-      "price": 317500,
-      "date": "2026-05-11",
-      "postcode": "S40 3DS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, MILL STREAM CLOSE"
-    },
-    {
-      "price": 145000,
-      "date": "2026-05-11",
-      "postcode": "S40 2SD",
+      "price": 85000,
+      "date": "2026-06-12",
+      "postcode": "S43 1HN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "67, ST AUGUSTINES CRESCENT"
-    },
-    {
-      "price": 147000,
-      "date": "2026-05-08",
-      "postcode": "S43 2BL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, DEVONSHIRE ROAD NORTH"
-    },
-    {
-      "price": 249000,
-      "date": "2026-05-08",
-      "postcode": "S41 8DJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, ESKDALE CLOSE"
+      "address": "27, BURNELL STREET"
     }
   ],
   "monthlyHistory": [
@@ -237,13 +240,13 @@
     },
     {
       "month": "2024-08",
-      "medianPrice": 196000,
-      "transactions": 150
+      "medianPrice": 199000,
+      "transactions": 151
     },
     {
       "month": "2024-09",
-      "medianPrice": 181500,
-      "transactions": 124
+      "medianPrice": 181000,
+      "transactions": 125
     },
     {
       "month": "2024-10",
@@ -277,13 +280,13 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 185500,
-      "transactions": 94
+      "medianPrice": 186000,
+      "transactions": 95
     },
     {
       "month": "2025-05",
-      "medianPrice": 174750,
-      "transactions": 134
+      "medianPrice": 175000,
+      "transactions": 136
     },
     {
       "month": "2025-06",
@@ -292,58 +295,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 187500,
-      "transactions": 145
+      "medianPrice": 190000,
+      "transactions": 147
     },
     {
       "month": "2025-08",
-      "medianPrice": 189975,
-      "transactions": 144
+      "medianPrice": 190000,
+      "transactions": 156
     },
     {
       "month": "2025-09",
-      "medianPrice": 184000,
-      "transactions": 150
+      "medianPrice": 185000,
+      "transactions": 157
     },
     {
       "month": "2025-10",
       "medianPrice": 192500,
-      "transactions": 163
+      "transactions": 165
     },
     {
       "month": "2025-11",
-      "medianPrice": 193500,
-      "transactions": 150
+      "medianPrice": 195500,
+      "transactions": 158
     },
     {
       "month": "2025-12",
-      "medianPrice": 181250,
-      "transactions": 110
+      "medianPrice": 178000,
+      "transactions": 129
     },
     {
       "month": "2026-01",
       "medianPrice": 178674,
-      "transactions": 96
+      "transactions": 102
     },
     {
       "month": "2026-02",
-      "medianPrice": 170000,
-      "transactions": 85
+      "medianPrice": 165000,
+      "transactions": 88
     },
     {
       "month": "2026-03",
-      "medianPrice": 195000,
-      "transactions": 89
+      "medianPrice": 192000,
+      "transactions": 93
     },
     {
       "month": "2026-04",
-      "medianPrice": 190000,
-      "transactions": 85
+      "medianPrice": 170000,
+      "transactions": 95
     },
     {
       "month": "2026-05",
-      "medianPrice": 200000,
-      "transactions": 39
+      "medianPrice": 212500,
+      "transactions": 102
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 193000,
+      "transactions": 43
     }
   ],
   "quarterlyHistory": [
@@ -360,7 +368,7 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 185000,
-      "transactions": 441
+      "transactions": 443
     },
     {
       "quarter": "2024-Q4",
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 192998,
-      "transactions": 390
+      "medianPrice": 195000,
+      "transactions": 393
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 185000,
-      "transactions": 439
+      "medianPrice": 189973,
+      "transactions": 460
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 190000,
-      "transactions": 423
+      "transactions": 452
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 180000,
-      "transactions": 270
+      "transactions": 283
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 190000,
-      "transactions": 124
+      "medianPrice": 191750,
+      "transactions": 240
     }
   ]
 }

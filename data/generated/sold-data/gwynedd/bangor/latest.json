@@ -1,23 +1,134 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.815Z",
+  "updatedAt": "2026-08-07T08:45:04.117Z",
   "townSlug": "bangor",
   "countySlug": "gwynedd",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GWYNEDD"
+  ],
   "stats": {
-    "medianPrice": 190000,
+    "medianPrice": 185500,
     "medianByType": {
-      "D": 350000,
-      "S": 225000,
+      "D": 340000,
+      "S": 255000,
       "T": 148000,
       "F": 106000
     },
-    "transactionCount12m": 240,
-    "yoyChange": 8.6,
+    "transactionCount12m": 230,
+    "yoyChange": 3.1,
     "newBuildCount": 0,
-    "existingCount": 240,
+    "existingCount": 230,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 445000,
+      "date": "2026-06-23",
+      "postcode": "LL57 4PL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PANT Y GRAIG"
+    },
+    {
+      "price": 166000,
+      "date": "2026-06-15",
+      "postcode": "LL57 2AT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, PENLLYS TERRACE"
+    },
+    {
+      "price": 148000,
+      "date": "2026-06-15",
+      "postcode": "LL57 3NB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4 HEN AELWYD, PENRHYN TERRACE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-12",
+      "postcode": "LL57 2EX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, FFORDD GWYNDY"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-12",
+      "postcode": "LL57 3NY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, ADWYR NANT"
+    },
+    {
+      "price": 470000,
+      "date": "2026-06-11",
+      "postcode": "LL57 2HE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, HOLYHEAD ROAD"
+    },
+    {
+      "price": 140000,
+      "date": "2026-06-08",
+      "postcode": "LL57 2YA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, PENCHWINTAN ROAD"
+    },
+    {
+      "price": 465000,
+      "date": "2026-06-05",
+      "postcode": "LL57 2DB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRENTWOOD, COLLEGE ROAD"
+    },
+    {
+      "price": 145000,
+      "date": "2026-06-03",
+      "postcode": "LL57 3TB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, GLANRAFON"
+    },
+    {
+      "price": 169500,
+      "date": "2026-06-01",
+      "postcode": "LL57 3TW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, WELL STREET NUMBER TWO"
+    },
+    {
+      "price": 200000,
+      "date": "2026-05-29",
+      "postcode": "LL57 3AG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, VICTORIA PLACE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-05-22",
+      "postcode": "LL57 4NF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TARA, PENDINAS ESTATE"
+    },
     {
       "price": 75000,
       "date": "2026-05-19",
@@ -64,6 +175,15 @@
       "address": "24, DEINIOL ROAD"
     },
     {
+      "price": 105000,
+      "date": "2026-04-29",
+      "postcode": "LL57 2UR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, DEINIOL ROAD"
+    },
+    {
       "price": 90000,
       "date": "2026-04-28",
       "postcode": "LL57 2HA",
@@ -80,123 +200,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "49A, HILL STREET"
-    },
-    {
-      "price": 225000,
-      "date": "2026-04-23",
-      "postcode": "LL57 4TR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, BLAEN Y WAWR"
-    },
-    {
-      "price": 144000,
-      "date": "2026-04-20",
-      "postcode": "LL57 1AH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MOUNT VIEW, GLYNNE ROAD"
-    },
-    {
-      "price": 235000,
-      "date": "2026-04-17",
-      "postcode": "LL57 2RU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, GORDON TERRACE"
-    },
-    {
-      "price": 140000,
-      "date": "2026-04-17",
-      "postcode": "LL57 4SG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "310, CAERNARFON ROAD"
-    },
-    {
-      "price": 750000,
-      "date": "2026-04-17",
-      "postcode": "LL57 2BH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MENAI DALE, SILIWEN ROAD"
-    },
-    {
-      "price": 293000,
-      "date": "2026-04-15",
-      "postcode": "LL57 2QP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, BRON GWYNEDD"
-    },
-    {
-      "price": 76000,
-      "date": "2026-04-15",
-      "postcode": "LL57 1NS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "93, HIGH STREET"
-    },
-    {
-      "price": 197000,
-      "date": "2026-04-14",
-      "postcode": "LL57 2YE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, AINON ROAD"
-    },
-    {
-      "price": 125500,
-      "date": "2026-04-14",
-      "postcode": "LL57 1BQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, MOUNT STREET"
-    },
-    {
-      "price": 156500,
-      "date": "2026-04-13",
-      "postcode": "LL57 4YR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, TAI'R STABLAU"
-    },
-    {
-      "price": 185000,
-      "date": "2026-04-10",
-      "postcode": "LL57 3PG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, GLANOGWEN"
-    },
-    {
-      "price": 240000,
-      "date": "2026-04-10",
-      "postcode": "LL57 2AD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, MOUNT PLEASANT TERRACE"
-    },
-    {
-      "price": 183000,
-      "date": "2026-04-08",
-      "postcode": "LL57 1AY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, ORME ROAD"
     }
   ],
   "monthlyHistory": [
@@ -303,12 +306,12 @@
     {
       "month": "2025-09",
       "medianPrice": 191750,
-      "transactions": 22
+      "transactions": 26
     },
     {
       "month": "2025-10",
-      "medianPrice": 145000,
-      "transactions": 30
+      "medianPrice": 140000,
+      "transactions": 31
     },
     {
       "month": "2025-11",
@@ -318,32 +321,37 @@
     {
       "month": "2025-12",
       "medianPrice": 217250,
-      "transactions": 32
+      "transactions": 34
     },
     {
       "month": "2026-01",
-      "medianPrice": 242250,
-      "transactions": 10
+      "medianPrice": 259500,
+      "transactions": 11
     },
     {
       "month": "2026-02",
-      "medianPrice": 220000,
-      "transactions": 21
+      "medianPrice": 242500,
+      "transactions": 23
     },
     {
       "month": "2026-03",
-      "medianPrice": 205000,
-      "transactions": 24
+      "medianPrice": 185000,
+      "transactions": 25
     },
     {
       "month": "2026-04",
-      "medianPrice": 179000,
-      "transactions": 18
+      "medianPrice": 175000,
+      "transactions": 19
     },
     {
       "month": "2026-05",
-      "medianPrice": 75000,
-      "transactions": 3
+      "medianPrice": 175000,
+      "transactions": 5
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 167750,
+      "transactions": 10
     }
   ],
   "quarterlyHistory": [
@@ -380,22 +388,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 186000,
-      "transactions": 87
+      "transactions": 91
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 179500,
-      "transactions": 84
+      "medianPrice": 178000,
+      "transactions": 87
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 225000,
-      "transactions": 55
+      "transactions": 59
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 175000,
-      "transactions": 21
+      "medianPrice": 172250,
+      "transactions": 34
     }
   ]
 }

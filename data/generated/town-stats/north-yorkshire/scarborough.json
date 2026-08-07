@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.025Z",
+  "updatedAt": "2026-08-07T08:45:03.399Z",
   "townSlug": "scarborough",
   "countySlug": "north-yorkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTH YORKSHIRE",
+    "SCARBOROUGH"
+  ],
   "marketSnapshot": {
-    "medianPrice": 182500,
-    "transactionCount12m": 1084,
-    "yoyPriceChange": -2.4,
+    "medianPrice": 180000,
+    "transactionCount12m": 1074,
+    "yoyPriceChange": -5.3,
     "approvedApps12m": 0,
-    "pipelineUnits": 239,
-    "pipelineGdv": 42207500,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 748,
+    "pipelineGdv": 136005500,
     "approvalRate": 0
   }
 }

@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.090Z",
+  "updatedAt": "2026-08-07T08:45:01.531Z",
   "townSlug": "bracknell",
   "countySlug": "berkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BRACKNELL FOREST"
+  ],
   "marketSnapshot": {
     "medianPrice": 410000,
-    "transactionCount12m": 1302,
-    "yoyPriceChange": -1.2,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "transactionCount12m": 1288,
+    "yoyPriceChange": -1.9,
+    "approvedApps12m": 1,
+    "approvedRecent": 1,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 799,
+    "pipelineGdv": 318425000,
+    "approvalRate": 50
   }
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.398Z",
+  "updatedAt": "2026-08-07T08:45:01.503Z",
   "townSlug": "aldershot",
   "countySlug": "hampshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "RUSHMOOR"
+  ],
   "stats": {
-    "medianPrice": 342000,
+    "medianPrice": 345000,
     "medianByType": {
-      "D": 537500,
-      "S": 390000,
-      "T": 340000,
-      "F": 170000
+      "D": 524000,
+      "S": 400000,
+      "T": 330000,
+      "F": 174000
     },
-    "transactionCount12m": 415,
-    "yoyChange": 5.2,
-    "newBuildCount": 4,
-    "existingCount": 411,
-    "newBuildPremium": 77.9
+    "transactionCount12m": 397,
+    "yoyChange": 6.2,
+    "newBuildCount": 5,
+    "existingCount": 392,
+    "newBuildPremium": 66.2
   },
   "recentTransactions": [
     {
-      "price": 485000,
-      "date": "2026-05-15",
-      "postcode": "GU11 3PH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, KINGS ROAD"
-    },
-    {
-      "price": 80000,
-      "date": "2026-05-13",
-      "postcode": "GU11 1LQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "24, CULDROSE HOUSE, 1, FREDERICK STREET"
-    },
-    {
-      "price": 408000,
-      "date": "2026-05-12",
-      "postcode": "GU11 3QJ",
+      "price": 360000,
+      "date": "2026-06-19",
+      "postcode": "GU12 4XA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, BOXALLS LANE"
+      "address": "44, GREEN WAY"
     },
     {
-      "price": 375000,
-      "date": "2026-05-07",
-      "postcode": "GU12 4AF",
+      "price": 340000,
+      "date": "2026-06-17",
+      "postcode": "GU12 4PY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "69, WHYTE AVENUE"
+      "address": "114, NEWPORT ROAD"
     },
     {
-      "price": 370000,
-      "date": "2026-05-07",
-      "postcode": "GU11 3AD",
+      "price": 306000,
+      "date": "2026-06-15",
+      "postcode": "GU12 4QB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, LOWER NEWPORT ROAD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-12",
+      "postcode": "GU12 4QX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, CALVERT CLOSE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-12",
+      "postcode": "GU11 1NA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, CAVENDISH ROAD"
+    },
+    {
+      "price": 735000,
+      "date": "2026-06-12",
+      "postcode": "GU11 3QS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, ROCK GARDENS"
+      "address": "19, BOXALLS GROVE"
     },
     {
-      "price": 235000,
-      "date": "2026-05-06",
+      "price": 348500,
+      "date": "2026-06-04",
+      "postcode": "GU11 3PS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "66, CHURCH ROAD"
+    },
+    {
+      "price": 355000,
+      "date": "2026-06-02",
       "postcode": "GU11 3JP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, YORK ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-05-29",
+      "postcode": "GU11 3ET",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, UPPER ELMS ROAD"
+    },
+    {
+      "price": 255000,
+      "date": "2026-05-28",
+      "postcode": "GU11 3TY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1, 44, YORK ROAD"
+      "address": "43, CAMPBELL FIELDS"
     },
     {
-      "price": 375000,
-      "date": "2026-05-05",
-      "postcode": "GU12 4SD",
+      "price": 120000,
+      "date": "2026-05-28",
+      "postcode": "GU11 1JU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, 177, VICTORIA ROAD"
+    },
+    {
+      "price": 420000,
+      "date": "2026-05-28",
+      "postcode": "GU12 4HP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, ORCHARD GARDENS"
+    },
+    {
+      "price": 455000,
+      "date": "2026-05-27",
+      "postcode": "GU11 4AU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, HIGHLAND ROAD"
+      "address": "2, KEMPT LANE"
     },
     {
-      "price": 155000,
-      "date": "2026-05-01",
-      "postcode": "GU11 3GY",
+      "price": 442000,
+      "date": "2026-05-26",
+      "postcode": "GU11 4AR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, JEROME STREET"
+    },
+    {
+      "price": 632500,
+      "date": "2026-05-26",
+      "postcode": "GU11 4AX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, MONTGOMERY AVENUE"
+    },
+    {
+      "price": 190000,
+      "date": "2026-05-21",
+      "postcode": "GU11 3GZ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "31, BELL CHASE"
+      "address": "82, BELL CHASE"
     },
     {
-      "price": 400000,
-      "date": "2026-05-01",
-      "postcode": "GU12 4QL",
+      "price": 382500,
+      "date": "2026-05-15",
+      "postcode": "GU11 3PR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, NORTHFIELD CLOSE"
+      "address": "23, CHURCH ROAD"
     },
     {
-      "price": 244000,
-      "date": "2026-04-30",
-      "postcode": "GU11 2FD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, BIRCH HOUSE, EXCHANGE CLOSE"
-    },
-    {
-      "price": 347000,
-      "date": "2026-04-29",
-      "postcode": "GU11 3ST",
-      "propertyType": "T",
+      "price": 600000,
+      "date": "2026-05-15",
+      "postcode": "GU11 4BW",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "145A, CHURCH LANE EAST"
+      "address": "7, YOUNG WAY"
     },
     {
-      "price": 370000,
-      "date": "2026-04-27",
-      "postcode": "GU12 4SA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "100, BELLE VUE ROAD"
-    },
-    {
-      "price": 330000,
-      "date": "2026-04-27",
-      "postcode": "GU12 4EA",
+      "price": 395000,
+      "date": "2026-05-15",
+      "postcode": "GU12 4PS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, LOWER FARNHAM ROAD"
+      "address": "40, HAIG ROAD"
     },
     {
-      "price": 235000,
-      "date": "2026-04-24",
-      "postcode": "GU11 3EP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, 25, CARGATE AVENUE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-04-24",
-      "postcode": "GU12 4BY",
+      "price": 432500,
+      "date": "2026-05-15",
+      "postcode": "GU11 3QD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, COLEMAN ROAD"
-    },
-    {
-      "price": 344000,
-      "date": "2026-04-24",
-      "postcode": "GU12 4EE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60, HERRETT STREET"
-    },
-    {
-      "price": 320000,
-      "date": "2026-04-24",
-      "postcode": "GU11 3AD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, ROCK GARDENS"
-    },
-    {
-      "price": 440000,
-      "date": "2026-04-24",
-      "postcode": "GU11 3NF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "232, WEYBOURNE ROAD"
-    },
-    {
-      "price": 210000,
-      "date": "2026-04-23",
-      "postcode": "GU11 2EU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, PARSONS CLOSE"
-    },
-    {
-      "price": 257000,
-      "date": "2026-04-23",
-      "postcode": "GU11 1YH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, BEAUMONT GROVE"
+      "address": "71, JUBILEE ROAD"
     }
   ],
   "monthlyHistory": [
@@ -263,7 +266,7 @@
     {
       "month": "2025-01",
       "medianPrice": 350000,
-      "transactions": 42
+      "transactions": 43
     },
     {
       "month": "2025-02",
@@ -273,37 +276,37 @@
     {
       "month": "2025-03",
       "medianPrice": 355000,
-      "transactions": 85
+      "transactions": 87
     },
     {
       "month": "2025-04",
-      "medianPrice": 241000,
-      "transactions": 34
+      "medianPrice": 220000,
+      "transactions": 33
     },
     {
       "month": "2025-05",
-      "medianPrice": 360000,
-      "transactions": 32
+      "medianPrice": 370000,
+      "transactions": 33
     },
     {
       "month": "2025-06",
-      "medianPrice": 327500,
-      "transactions": 80
+      "medianPrice": 330000,
+      "transactions": 81
     },
     {
       "month": "2025-07",
-      "medianPrice": 279000,
-      "transactions": 69
+      "medianPrice": 260825,
+      "transactions": 70
     },
     {
       "month": "2025-08",
-      "medianPrice": 396000,
-      "transactions": 48
+      "medianPrice": 392000,
+      "transactions": 49
     },
     {
       "month": "2025-09",
-      "medianPrice": 349500,
-      "transactions": 46
+      "medianPrice": 355000,
+      "transactions": 50
     },
     {
       "month": "2025-10",
@@ -312,38 +315,43 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 330000,
-      "transactions": 39
+      "medianPrice": 324000,
+      "transactions": 46
     },
     {
       "month": "2025-12",
-      "medianPrice": 310000,
-      "transactions": 44
+      "medianPrice": 302500,
+      "transactions": 54
     },
     {
       "month": "2026-01",
       "medianPrice": 330000,
-      "transactions": 19
+      "transactions": 21
     },
     {
       "month": "2026-02",
-      "medianPrice": 345500,
-      "transactions": 40
+      "medianPrice": 325000,
+      "transactions": 43
     },
     {
       "month": "2026-03",
-      "medianPrice": 345000,
-      "transactions": 37
+      "medianPrice": 350000,
+      "transactions": 35
     },
     {
       "month": "2026-04",
       "medianPrice": 344000,
-      "transactions": 27
+      "transactions": 29
     },
     {
       "month": "2026-05",
-      "medianPrice": 375000,
-      "transactions": 9
+      "medianPrice": 378750,
+      "transactions": 24
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 351750,
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 350000,
-      "transactions": 178
+      "transactions": 181
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 325000,
-      "transactions": 146
+      "transactions": 147
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 340000,
-      "transactions": 163
+      "transactions": 169
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 327500,
-      "transactions": 132
+      "medianPrice": 322000,
+      "transactions": 149
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 345000,
-      "transactions": 96
+      "transactions": 99
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 358500,
-      "transactions": 36
+      "medianPrice": 360000,
+      "transactions": 61
     }
   ]
 }

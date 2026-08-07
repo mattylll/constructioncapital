@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.878Z",
+  "updatedAt": "2026-08-07T08:45:03.092Z",
   "townSlug": "northwich",
   "countySlug": "cheshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CHESHIRE WEST AND CHESTER"
+  ],
   "stats": {
-    "medianPrice": 265000,
+    "medianPrice": 262000,
     "medianByType": {
       "D": 410000,
-      "S": 249250,
-      "T": 177500,
+      "S": 250000,
+      "T": 180000,
       "F": 125500
     },
-    "transactionCount12m": 1015,
-    "yoyChange": 1.9,
-    "newBuildCount": 7,
-    "existingCount": 1008,
-    "newBuildPremium": 25.6
+    "transactionCount12m": 1026,
+    "yoyChange": -1.1,
+    "newBuildCount": 10,
+    "existingCount": 1016,
+    "newBuildPremium": 34.4
   },
   "recentTransactions": [
     {
+      "price": 407000,
+      "date": "2026-06-23",
+      "postcode": "CW8 4FY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, CENTURY AVENUE"
+    },
+    {
       "price": 280000,
-      "date": "2026-05-22",
-      "postcode": "CW9 7GA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, MARLOWE ROAD"
-    },
-    {
-      "price": 147000,
-      "date": "2026-05-22",
-      "postcode": "CW9 7AB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, ALAN STREET"
-    },
-    {
-      "price": 550000,
-      "date": "2026-05-15",
-      "postcode": "CW9 8TH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, MONARCH DRIVE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-05-15",
-      "postcode": "CW8 1AT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, BOWLING GREEN COURT"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-15",
-      "postcode": "CW8 4TG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, WOODLEA COURT"
-    },
-    {
-      "price": 255000,
-      "date": "2026-05-15",
-      "postcode": "CW9 8QE",
+      "date": "2026-06-19",
+      "postcode": "CW8 4HF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, NIDDRIES LANE"
+      "address": "6, PLUMBS FOLD"
     },
     {
-      "price": 243000,
-      "date": "2026-05-15",
-      "postcode": "CW8 3DE",
+      "price": 180000,
+      "date": "2026-06-19",
+      "postcode": "CW8 2ZN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12, PETHERTON HOUSE, MILLWOOD DRIVE"
+    },
+    {
+      "price": 257000,
+      "date": "2026-06-18",
+      "postcode": "CW8 4YN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, LIME AVENUE"
+      "address": "27, TELFORD ROAD"
     },
     {
-      "price": 187000,
-      "date": "2026-05-15",
-      "postcode": "CW8 3LQ",
-      "propertyType": "T",
+      "price": 227000,
+      "date": "2026-06-18",
+      "postcode": "CW8 1DS",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "66, THE CRESCENT"
+      "address": "4, RIVERSIDE PARK"
+    },
+    {
+      "price": 5775,
+      "date": "2026-06-17",
+      "postcode": "CW8 2DQ",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, BALMORAL CLOSE"
+    },
+    {
+      "price": 720000,
+      "date": "2026-06-17",
+      "postcode": "CW8 3PN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CROFT COTTAGE, SHADYBROOK LANE"
+    },
+    {
+      "price": 190000,
+      "date": "2026-06-17",
+      "postcode": "CW9 8EU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "68, GRANVILLE ROAD"
     },
     {
       "price": 220000,
-      "date": "2026-05-14",
-      "postcode": "CW8 3BY",
+      "date": "2026-06-15",
+      "postcode": "CW9 7JX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, KEEPERS LANE"
+      "address": "26, SHURLACH ROAD"
     },
     {
-      "price": 475000,
-      "date": "2026-05-08",
-      "postcode": "CW9 8WY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, MEREWORTH DRIVE"
-    },
-    {
-      "price": 245000,
-      "date": "2026-05-08",
-      "postcode": "CW8 4YW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, LEACH DRIVE"
-    },
-    {
-      "price": 602000,
-      "date": "2026-05-07",
-      "postcode": "CW9 8JP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, DAVENHAM MEADOWS, HARTFORD ROAD"
-    },
-    {
-      "price": 203000,
-      "date": "2026-05-06",
-      "postcode": "CW8 3PB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, PARK AVENUE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-06",
-      "postcode": "CW8 3BB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "129, NORTHWICH ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-01",
-      "postcode": "CW9 8UF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, ELLINGHAM WAY"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-01",
-      "postcode": "CW9 5AG",
+      "price": 162500,
+      "date": "2026-06-15",
+      "postcode": "CW9 7QF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, WITTON STREET"
+      "address": "15, FRYER ROAD"
     },
     {
-      "price": 209000,
-      "date": "2026-05-01",
+      "price": 202000,
+      "date": "2026-06-12",
+      "postcode": "CW8 4ZR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "9, ROBERTS COURT"
+    },
+    {
+      "price": 440000,
+      "date": "2026-06-12",
+      "postcode": "CW9 6BU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, BURGAMOT LANE"
+    },
+    {
+      "price": 279000,
+      "date": "2026-06-12",
+      "postcode": "CW8 3RA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, HILL TOP ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-12",
+      "postcode": "CW8 2PA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, OAK LANE"
+    },
+    {
+      "price": 210500,
+      "date": "2026-06-12",
       "postcode": "CW9 6EL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, HEWITT GROVE"
+      "address": "43, HEWITT GROVE"
     },
     {
-      "price": 200000,
-      "date": "2026-05-01",
-      "postcode": "CW8 1NP",
+      "price": 150000,
+      "date": "2026-06-12",
+      "postcode": "CW8 1BJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE YARD, 43A, SCHOOL LANE"
+      "address": "20, WEAVER ROAD"
     },
     {
-      "price": 290000,
-      "date": "2026-05-01",
-      "postcode": "CW8 3EH",
-      "propertyType": "S",
+      "price": 267000,
+      "date": "2026-06-11",
+      "postcode": "CW8 4UD",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "59, GREEN PARK"
+      "address": "54, WALKER ROAD"
     },
     {
-      "price": 425000,
-      "date": "2026-05-01",
-      "postcode": "CW9 8FS",
+      "price": 124000,
+      "date": "2026-06-11",
+      "postcode": "CW9 7DQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, EDWARD STREET"
+    },
+    {
+      "price": 302000,
+      "date": "2026-06-10",
+      "postcode": "CW8 2QD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, PULFORD CLOSE"
+      "address": "3, VALLEY LANE"
+    },
+    {
+      "price": 170000,
+      "date": "2026-06-10",
+      "postcode": "CW8 1BZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, FLOWER STREET"
     }
   ],
   "monthlyHistory": [
@@ -227,8 +230,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 240000,
-      "transactions": 115
+      "medianPrice": 246500,
+      "transactions": 116
     },
     {
       "month": "2024-07",
@@ -248,7 +251,7 @@
     {
       "month": "2024-10",
       "medianPrice": 252500,
-      "transactions": 146
+      "transactions": 145
     },
     {
       "month": "2024-11",
@@ -263,87 +266,92 @@
     {
       "month": "2025-01",
       "medianPrice": 265000,
-      "transactions": 95
+      "transactions": 96
     },
     {
       "month": "2025-02",
       "medianPrice": 270000,
-      "transactions": 137
+      "transactions": 139
     },
     {
       "month": "2025-03",
-      "medianPrice": 280000,
-      "transactions": 251
+      "medianPrice": 281000,
+      "transactions": 259
     },
     {
       "month": "2025-04",
-      "medianPrice": 237500,
-      "transactions": 72
+      "medianPrice": 240000,
+      "transactions": 73
     },
     {
       "month": "2025-05",
-      "medianPrice": 246600,
-      "transactions": 85
+      "medianPrice": 249000,
+      "transactions": 88
     },
     {
       "month": "2025-06",
-      "medianPrice": 260000,
-      "transactions": 96
-    },
-    {
-      "month": "2025-07",
-      "medianPrice": 266500,
-      "transactions": 125
-    },
-    {
-      "month": "2025-08",
-      "medianPrice": 274000,
+      "medianPrice": 267998,
       "transactions": 106
     },
     {
+      "month": "2025-07",
+      "medianPrice": 267000,
+      "transactions": 126
+    },
+    {
+      "month": "2025-08",
+      "medianPrice": 279995,
+      "transactions": 115
+    },
+    {
       "month": "2025-09",
-      "medianPrice": 276250,
-      "transactions": 112
+      "medianPrice": 285000,
+      "transactions": 114
     },
     {
       "month": "2025-10",
       "medianPrice": 265000,
-      "transactions": 137
+      "transactions": 138
     },
     {
       "month": "2025-11",
       "medianPrice": 276250,
-      "transactions": 102
+      "transactions": 106
     },
     {
       "month": "2025-12",
-      "medianPrice": 261500,
-      "transactions": 106
+      "medianPrice": 260000,
+      "transactions": 122
     },
     {
       "month": "2026-01",
       "medianPrice": 280000,
-      "transactions": 88
+      "transactions": 92
     },
     {
       "month": "2026-02",
       "medianPrice": 260000,
-      "transactions": 81
+      "transactions": 82
     },
     {
       "month": "2026-03",
-      "medianPrice": 248250,
-      "transactions": 94
+      "medianPrice": 250000,
+      "transactions": 100
     },
     {
       "month": "2026-04",
-      "medianPrice": 261000,
-      "transactions": 71
+      "medianPrice": 255500,
+      "transactions": 76
     },
     {
       "month": "2026-05",
-      "medianPrice": 244000,
-      "transactions": 20
+      "medianPrice": 235000,
+      "transactions": 63
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 190000,
+      "transactions": 33
     }
   ],
   "quarterlyHistory": [
@@ -354,8 +362,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 254995,
-      "transactions": 323
+      "medianPrice": 254998,
+      "transactions": 324
     },
     {
       "quarter": "2024-Q3",
@@ -365,37 +373,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 255000,
-      "transactions": 428
+      "transactions": 427
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 275000,
-      "transactions": 483
+      "medianPrice": 277498,
+      "transactions": 494
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 250000,
-      "transactions": 253
+      "medianPrice": 255000,
+      "transactions": 267
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 270000,
-      "transactions": 343
+      "medianPrice": 279995,
+      "transactions": 355
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 265000,
-      "transactions": 345
+      "transactions": 366
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 260000,
-      "transactions": 263
+      "medianPrice": 263500,
+      "transactions": 274
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 250000,
-      "transactions": 91
+      "medianPrice": 226000,
+      "transactions": 172
     }
   ]
 }

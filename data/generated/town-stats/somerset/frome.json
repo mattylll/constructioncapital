@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.517Z",
+  "updatedAt": "2026-08-07T08:45:01.937Z",
   "townSlug": "frome",
   "countySlug": "somerset",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOMERSET",
+    "MENDIP"
+  ],
   "marketSnapshot": {
-    "medianPrice": 315000,
-    "transactionCount12m": 484,
-    "yoyPriceChange": -4.4,
+    "medianPrice": 310000,
+    "transactionCount12m": 478,
+    "yoyPriceChange": -5.3,
     "approvedApps12m": 0,
-    "pipelineUnits": 485,
-    "pipelineGdv": 151155625,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 200,
+    "pipelineGdv": 63467000,
     "approvalRate": 0
   }
 }

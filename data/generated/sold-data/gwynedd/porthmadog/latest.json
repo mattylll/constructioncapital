@@ -1,21 +1,43 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.819Z",
+  "updatedAt": "2026-08-07T08:45:04.120Z",
   "townSlug": "porthmadog",
   "countySlug": "gwynedd",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GWYNEDD"
+  ],
   "stats": {
-    "medianPrice": 192500,
+    "medianPrice": 190000,
     "medianByType": {
-      "D": 272500,
-      "T": 155000
+      "D": 270000,
+      "T": 155000,
+      "F": 150000
     },
     "transactionCount12m": 45,
-    "yoyChange": 4.1,
+    "yoyChange": 3.5,
     "newBuildCount": 0,
     "existingCount": 45,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 257000,
+      "date": "2026-06-05",
+      "postcode": "LL49 9AF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, DORA STREET"
+    },
+    {
+      "price": 150000,
+      "date": "2026-05-27",
+      "postcode": "LL49 9EA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "78, MADOC STREET WEST"
+    },
     {
       "price": 200000,
       "date": "2026-05-05",
@@ -44,6 +66,15 @@
       "address": "55, CHAPEL STREET"
     },
     {
+      "price": 165000,
+      "date": "2026-04-28",
+      "postcode": "LL49 9RA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, CHURCH STREET"
+    },
+    {
       "price": 520000,
       "date": "2026-04-28",
       "postcode": "LL49 9UF",
@@ -60,15 +91,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "27, RALPH STREET"
-    },
-    {
-      "price": 165000,
-      "date": "2026-04-28",
-      "postcode": "LL49 9RA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, CHURCH STREET"
     },
     {
       "price": 70000,
@@ -134,15 +156,6 @@
       "address": "7, MADOC STREET"
     },
     {
-      "price": 145000,
-      "date": "2026-02-16",
-      "postcode": "LL49 9EG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, GLASLYN STREET"
-    },
-    {
       "price": 180000,
       "date": "2026-02-16",
       "postcode": "LL49 9ND",
@@ -150,6 +163,15 @@
       "newBuild": false,
       "tenure": "L",
       "address": "65, SOUTH SNOWDON WHARF"
+    },
+    {
+      "price": 145000,
+      "date": "2026-02-16",
+      "postcode": "LL49 9EG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GLASLYN STREET"
     },
     {
       "price": 129000,
@@ -177,24 +199,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "1, FACTORY PLACE"
-    },
-    {
-      "price": 150000,
-      "date": "2025-12-19",
-      "postcode": "LL49 9AS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, OAKLEY WHARF"
-    },
-    {
-      "price": 155000,
-      "date": "2025-12-19",
-      "postcode": "LL49 9EL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, EAST AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -315,8 +319,8 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 249000,
-      "transactions": 5
+      "medianPrice": 160000,
+      "transactions": 7
     },
     {
       "month": "2026-01",
@@ -340,8 +344,13 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 200000,
-      "transactions": 3
+      "medianPrice": 177500,
+      "transactions": 4
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 257000,
+      "transactions": 1
     }
   ],
   "quarterlyHistory": [
@@ -382,8 +391,8 @@
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 220000,
-      "transactions": 19
+      "medianPrice": 192500,
+      "transactions": 21
     },
     {
       "quarter": "2026-Q1",
@@ -392,8 +401,8 @@
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 245000,
-      "transactions": 8
+      "medianPrice": 228500,
+      "transactions": 10
     }
   ]
 }

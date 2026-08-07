@@ -1,40 +1,133 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.820Z",
+  "updatedAt": "2026-08-07T08:45:04.121Z",
   "townSlug": "pwllheli",
   "countySlug": "gwynedd",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GWYNEDD"
+  ],
   "stats": {
-    "medianPrice": 275000,
+    "medianPrice": 265000,
     "medianByType": {
       "D": 345000,
-      "S": 265000,
-      "T": 178000,
-      "F": 185000
+      "S": 250000,
+      "T": 188000,
+      "F": 139500
     },
-    "transactionCount12m": 167,
-    "yoyChange": 12.7,
+    "transactionCount12m": 176,
+    "yoyChange": 6,
     "newBuildCount": 0,
-    "existingCount": 167,
+    "existingCount": 176,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 350000,
+      "price": 220000,
+      "date": "2026-06-05",
+      "postcode": "LL53 7NW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, GLYN Y MOR"
+    },
+    {
+      "price": 400000,
+      "date": "2026-06-02",
+      "postcode": "LL53 8SD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TYN TWLL"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-01",
+      "postcode": "LL53 6EH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, GLAN Y PWLL"
+    },
+    {
+      "price": 302500,
+      "date": "2026-05-26",
+      "postcode": "LL53 5AN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34A, MIN Y MOR, VICTORIA PARADE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-05-22",
+      "postcode": "LL53 6PA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRYN CERDD"
+    },
+    {
+      "price": 116000,
+      "date": "2026-05-22",
+      "postcode": "LL53 7DS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "IVY COTTAGE FLAT, STRYD FAWR"
+    },
+    {
+      "price": 210000,
+      "date": "2026-05-22",
+      "postcode": "LL53 7BG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TREFLYS"
+    },
+    {
+      "price": 499000,
+      "date": "2026-05-22",
+      "postcode": "LL53 7TT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GLYN Y MOR, GLYNYWEDDW ESTATE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-05-22",
+      "postcode": "LL53 6AD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DELON, LON UCHAF"
+    },
+    {
+      "price": 82000,
+      "date": "2026-05-22",
+      "postcode": "LL53 5PN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 9, WEST END POINT, WEST END PARADE"
+    },
+    {
+      "price": 240000,
+      "date": "2026-05-20",
+      "postcode": "LL53 6AL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TAWELFAN, LON UCHAF"
+    },
+    {
+      "price": 300000,
       "date": "2026-05-18",
       "postcode": "LL53 8EH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
       "address": "PANT"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-15",
-      "postcode": "LL53 5PN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 7, WEST END POINT, WEST END PARADE"
     },
     {
       "price": 235000,
@@ -55,6 +148,42 @@
       "address": "GLEN GARTH, LLEYN STREET"
     },
     {
+      "price": 124000,
+      "date": "2026-05-15",
+      "postcode": "LL53 5TH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BODEGROES TERRACE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-05-15",
+      "postcode": "LL53 8PZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GORFFWYSFA"
+    },
+    {
+      "price": 200000,
+      "date": "2026-05-15",
+      "postcode": "LL53 5PN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 7, WEST END POINT, WEST END PARADE"
+    },
+    {
+      "price": 730000,
+      "date": "2026-05-08",
+      "postcode": "LL53 7DB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TANLLECH UCHAF"
+    },
+    {
       "price": 260000,
       "date": "2026-05-05",
       "postcode": "LL53 5PP",
@@ -71,132 +200,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "BRYNAFON"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-01",
-      "postcode": "LL53 6DJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HAULFRON"
-    },
-    {
-      "price": 498000,
-      "date": "2026-04-30",
-      "postcode": "LL53 8PB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "RAIFFT"
-    },
-    {
-      "price": 275000,
-      "date": "2026-04-28",
-      "postcode": "LL53 6TN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GORFFWYSFA"
-    },
-    {
-      "price": 870000,
-      "date": "2026-04-20",
-      "postcode": "LL53 6TB",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LLWYN HELYG"
-    },
-    {
-      "price": 345000,
-      "date": "2026-04-17",
-      "postcode": "LL53 5SW",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LLAWENDY UCHAF, LLEYN STREET"
-    },
-    {
-      "price": 350000,
-      "date": "2026-04-17",
-      "postcode": "LL53 6RA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRYN EIFION"
-    },
-    {
-      "price": 170000,
-      "date": "2026-04-16",
-      "postcode": "LL53 7BE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TERFYN UCHAF, LON RHOSLYN"
-    },
-    {
-      "price": 210000,
-      "date": "2026-04-16",
-      "postcode": "LL53 6NJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, BRO SION WYN"
-    },
-    {
-      "price": 305000,
-      "date": "2026-04-15",
-      "postcode": "LL53 5AN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, MIN Y MOR, VICTORIA PARADE"
-    },
-    {
-      "price": 145000,
-      "date": "2026-04-13",
-      "postcode": "LL53 6NH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PEN Y GROES"
-    },
-    {
-      "price": 410000,
-      "date": "2026-04-10",
-      "postcode": "LL53 7RF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CYNLAS"
-    },
-    {
-      "price": 410000,
-      "date": "2026-04-07",
-      "postcode": "LL53 7EW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CAER GRAIG, LON HAWEN"
-    },
-    {
-      "price": 299950,
-      "date": "2026-04-07",
-      "postcode": "LL53 5PP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, LON CEREDIGION"
-    },
-    {
-      "price": 540000,
-      "date": "2026-04-01",
-      "postcode": "LL53 7RN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GODRE'R FOEL"
     }
   ],
   "monthlyHistory": [
@@ -297,13 +300,13 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 258000,
-      "transactions": 29
+      "medianPrice": 261500,
+      "transactions": 30
     },
     {
       "month": "2025-09",
       "medianPrice": 292500,
-      "transactions": 13
+      "transactions": 15
     },
     {
       "month": "2025-10",
@@ -318,32 +321,37 @@
     {
       "month": "2025-12",
       "medianPrice": 250000,
-      "transactions": 11
-    },
-    {
-      "month": "2026-01",
-      "medianPrice": 239950,
-      "transactions": 9
-    },
-    {
-      "month": "2026-02",
-      "medianPrice": 240000,
       "transactions": 15
     },
     {
+      "month": "2026-01",
+      "medianPrice": 250000,
+      "transactions": 15
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 237500,
+      "transactions": 18
+    },
+    {
       "month": "2026-03",
-      "medianPrice": 267500,
-      "transactions": 8
+      "medianPrice": 292500,
+      "transactions": 10
     },
     {
       "month": "2026-04",
-      "medianPrice": 345000,
-      "transactions": 13
+      "medianPrice": 325000,
+      "transactions": 14
     },
     {
       "month": "2026-05",
-      "medianPrice": 330000,
-      "transactions": 7
+      "medianPrice": 267500,
+      "transactions": 18
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 220000,
+      "transactions": 3
     }
   ],
   "quarterlyHistory": [
@@ -380,22 +388,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 280000,
-      "transactions": 62
+      "transactions": 65
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 258250,
-      "transactions": 54
+      "transactions": 58
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 245000,
-      "transactions": 32
+      "medianPrice": 250000,
+      "transactions": 43
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 337500,
-      "transactions": 20
+      "medianPrice": 285000,
+      "transactions": 35
     }
   ]
 }

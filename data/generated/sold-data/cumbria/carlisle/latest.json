@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.897Z",
+  "updatedAt": "2026-08-07T08:45:03.116Z",
   "townSlug": "carlisle",
   "countySlug": "cumbria",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CUMBERLAND",
+    "CARLISLE"
+  ],
   "stats": {
-    "medianPrice": 168375,
+    "medianPrice": 168000,
     "medianByType": {
-      "D": 320000,
+      "D": 315000,
       "S": 175000,
       "T": 130000,
-      "F": 95500
+      "F": 100000
     },
-    "transactionCount12m": 1404,
-    "yoyChange": 1.4,
-    "newBuildCount": 7,
-    "existingCount": 1397,
-    "newBuildPremium": 39.9
+    "transactionCount12m": 1394,
+    "yoyChange": 1.8,
+    "newBuildCount": 5,
+    "existingCount": 1389,
+    "newBuildPremium": 25.7
   },
   "recentTransactions": [
     {
-      "price": 125000,
-      "date": "2026-05-19",
-      "postcode": "CA6 4NX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GLASDEN COTTAGE"
-    },
-    {
-      "price": 305000,
-      "date": "2026-05-18",
-      "postcode": "CA1 3GT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, CLARKSVILLE CLOSE"
-    },
-    {
-      "price": 168000,
-      "date": "2026-05-18",
-      "postcode": "CA4 8FQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, ST CONSTANTINES WAY"
-    },
-    {
-      "price": 58257,
-      "date": "2026-05-18",
-      "postcode": "CA2 5LQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, BOUSTEADS GRASSING"
-    },
-    {
-      "price": 81000,
-      "date": "2026-05-15",
-      "postcode": "CA1 3DQ",
+      "price": 82000,
+      "date": "2026-06-19",
+      "postcode": "CA2 7AG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 6, 308, LONDON ROAD"
+      "address": "42, CANAL COURT"
     },
     {
-      "price": 85000,
-      "date": "2026-05-15",
-      "postcode": "CA1 2ES",
+      "price": 137500,
+      "date": "2026-06-19",
+      "postcode": "CA1 2BD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, FUSEHILL STREET"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-15",
-      "postcode": "CA1 2QH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "249, LONDON ROAD"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-15",
-      "postcode": "CA2 6BQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, SUTTLE LANE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-15",
-      "postcode": "CA2 6JR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "141, WIGTON ROAD"
-    },
-    {
-      "price": 198000,
-      "date": "2026-05-15",
-      "postcode": "CA1 3HN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "103, LONGHOLME ROAD"
-    },
-    {
-      "price": 245000,
-      "date": "2026-05-15",
-      "postcode": "CA4 0DF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, TOWNHEAD ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-15",
-      "postcode": "CA3 0AQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9, REIVER PLACE"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-15",
-      "postcode": "CA1 2BX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "331, WARWICK ROAD"
-    },
-    {
-      "price": 64000,
-      "date": "2026-05-13",
-      "postcode": "CA2 5UU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, MORTON STREET"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-12",
-      "postcode": "CA2 5SG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, COOGAN CLOSE"
-    },
-    {
-      "price": 80000,
-      "date": "2026-05-11",
-      "postcode": "CA2 4JF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, CANT CRESCENT"
-    },
-    {
-      "price": 83100,
-      "date": "2026-05-08",
-      "postcode": "CA1 2LW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, THOMSON STREET"
-    },
-    {
-      "price": 35000,
-      "date": "2026-05-08",
-      "postcode": "CA1 2BX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "277, WARWICK ROAD"
-    },
-    {
-      "price": 333000,
-      "date": "2026-05-08",
-      "postcode": "CA6 4AQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "69, EDENSIDE"
+      "address": "20, JACKSON STREET"
     },
     {
       "price": 165000,
-      "date": "2026-05-08",
-      "postcode": "CA2 6DR",
+      "date": "2026-06-19",
+      "postcode": "CA2 6SE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, CROSSHILL DRIVE"
+    },
+    {
+      "price": 80000,
+      "date": "2026-06-19",
+      "postcode": "CA2 7DF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, DALE MEADOWS"
+      "address": "65, BOWER STREET"
+    },
+    {
+      "price": 115000,
+      "date": "2026-06-19",
+      "postcode": "CA6 5UY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, SWAN STREET"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-19",
+      "postcode": "CA2 5NG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, CLIFTON STREET"
+    },
+    {
+      "price": 80000,
+      "date": "2026-06-18",
+      "postcode": "CA1 2BX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "288, WARWICK ROAD"
+    },
+    {
+      "price": 273000,
+      "date": "2026-06-15",
+      "postcode": "CA1 3FZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, AXSON DRIVE"
+    },
+    {
+      "price": 59950,
+      "date": "2026-06-15",
+      "postcode": "CA2 4HP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, YORK GARDENS"
+    },
+    {
+      "price": 293000,
+      "date": "2026-06-15",
+      "postcode": "CA2 7QP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, CRIFFEL ROAD"
+    },
+    {
+      "price": 112000,
+      "date": "2026-06-15",
+      "postcode": "CA2 4AB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, BLACKWELL ROAD"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-15",
+      "postcode": "CA2 4BL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "82, CURROCK ROAD"
+    },
+    {
+      "price": 143500,
+      "date": "2026-06-15",
+      "postcode": "CA6 4DL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, FENWICK DRIVE"
+    },
+    {
+      "price": 148000,
+      "date": "2026-06-15",
+      "postcode": "CA2 7EB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "132, RAFFLES AVENUE"
+    },
+    {
+      "price": 273000,
+      "date": "2026-06-12",
+      "postcode": "CA3 8RH",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, FISHER STREET"
+    },
+    {
+      "price": 135000,
+      "date": "2026-06-12",
+      "postcode": "CA5 6BD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "KIRDALE, NORTH END"
+    },
+    {
+      "price": 96000,
+      "date": "2026-06-12",
+      "postcode": "CA1 2HS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, HOWE STREET"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-12",
+      "postcode": "CA4 8FT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, LOUGH WOOD CRESCENT"
+    },
+    {
+      "price": 211000,
+      "date": "2026-06-10",
+      "postcode": "CA3 0HL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, BRUNSTOCK CLOSE"
+    },
+    {
+      "price": 105000,
+      "date": "2026-06-10",
+      "postcode": "CA2 5SG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, COOGAN CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -243,7 +247,7 @@
     {
       "month": "2024-09",
       "medianPrice": 165000,
-      "transactions": 191
+      "transactions": 190
     },
     {
       "month": "2024-10",
@@ -253,16 +257,16 @@
     {
       "month": "2024-11",
       "medianPrice": 167500,
-      "transactions": 182
+      "transactions": 184
     },
     {
       "month": "2024-12",
       "medianPrice": 150000,
-      "transactions": 165
+      "transactions": 166
     },
     {
       "month": "2025-01",
-      "medianPrice": 162756,
+      "medianPrice": 160000,
       "transactions": 131
     },
     {
@@ -292,58 +296,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 170000,
-      "transactions": 188
+      "medianPrice": 169975,
+      "transactions": 194
     },
     {
       "month": "2025-08",
-      "medianPrice": 161000,
-      "transactions": 155
+      "medianPrice": 162000,
+      "transactions": 160
     },
     {
       "month": "2025-09",
       "medianPrice": 175000,
-      "transactions": 148
+      "transactions": 156
     },
     {
       "month": "2025-10",
       "medianPrice": 165000,
-      "transactions": 184
+      "transactions": 192
     },
     {
       "month": "2025-11",
-      "medianPrice": 183000,
-      "transactions": 139
+      "medianPrice": 186500,
+      "transactions": 140
     },
     {
       "month": "2025-12",
-      "medianPrice": 152450,
-      "transactions": 134
+      "medianPrice": 155000,
+      "transactions": 147
     },
     {
       "month": "2026-01",
-      "medianPrice": 182000,
-      "transactions": 95
+      "medianPrice": 172500,
+      "transactions": 104
     },
     {
       "month": "2026-02",
       "medianPrice": 180000,
-      "transactions": 103
+      "transactions": 109
     },
     {
       "month": "2026-03",
       "medianPrice": 150000,
-      "transactions": 133
+      "transactions": 135
     },
     {
       "month": "2026-04",
-      "medianPrice": 172500,
-      "transactions": 109
+      "medianPrice": 168500,
+      "transactions": 120
     },
     {
       "month": "2026-05",
+      "medianPrice": 155000,
+      "transactions": 118
+    },
+    {
+      "month": "2026-06",
       "medianPrice": 160000,
-      "transactions": 46
+      "transactions": 37
     }
   ],
   "quarterlyHistory": [
@@ -360,16 +369,16 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 165000,
-      "transactions": 578
+      "transactions": 577
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 165000,
-      "transactions": 559
+      "transactions": 562
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 174500,
+      "medianPrice": 173000,
       "transactions": 567
     },
     {
@@ -380,22 +389,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 170000,
-      "transactions": 491
+      "transactions": 510
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 165500,
-      "transactions": 457
+      "medianPrice": 168000,
+      "transactions": 479
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 170000,
-      "transactions": 331
+      "transactions": 348
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 168000,
-      "transactions": 155
+      "medianPrice": 157500,
+      "transactions": 275
     }
   ]
 }

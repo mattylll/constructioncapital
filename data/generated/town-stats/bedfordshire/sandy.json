@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.463Z",
+  "updatedAt": "2026-08-07T08:45:03.771Z",
   "townSlug": "sandy",
   "countySlug": "bedfordshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CENTRAL BEDFORDSHIRE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 337475,
-    "transactionCount12m": 234,
-    "yoyPriceChange": 7.6,
+    "medianPrice": 340000,
+    "transactionCount12m": 218,
+    "yoyPriceChange": 7.9,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

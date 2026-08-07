@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.021Z",
+  "updatedAt": "2026-08-07T08:45:01.110Z",
   "townSlug": "hillingdon",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HILLINGDON"
+  ],
   "stats": {
     "medianPrice": 500000,
     "medianByType": {
-      "D": 835000,
+      "D": 826500,
       "S": 555000,
       "T": 495000,
       "F": 295000
     },
-    "transactionCount12m": 1987,
+    "transactionCount12m": 2044,
     "yoyChange": 3.1,
-    "newBuildCount": 15,
-    "existingCount": 1972,
-    "newBuildPremium": -22.3
+    "newBuildCount": 14,
+    "existingCount": 2030,
+    "newBuildPremium": -23.1
   },
   "recentTransactions": [
     {
-      "price": 450000,
-      "date": "2026-05-27",
-      "postcode": "UB8 2RY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, VILLIER COURT, VILLIER STREET"
-    },
-    {
-      "price": 460000,
-      "date": "2026-05-22",
-      "postcode": "UB7 7RL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, ST STEPHENS ROAD"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-22",
-      "postcode": "UB4 8BA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "87, WOODSTOCK GARDENS"
-    },
-    {
-      "price": 726000,
-      "date": "2026-05-22",
-      "postcode": "HA6 1EH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, ROY ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-22",
-      "postcode": "UB10 0LZ",
+      "price": 540000,
+      "date": "2026-06-26",
+      "postcode": "HA4 6PR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6A, BYRON PARADE"
+      "address": "139, CLYFFORD ROAD"
     },
     {
-      "price": 335000,
-      "date": "2026-05-22",
-      "postcode": "UB3 3PY",
+      "price": 550000,
+      "date": "2026-06-25",
+      "postcode": "HA4 0PR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "51, GADE CLOSE"
+      "address": "86, ROYAL CRESCENT"
     },
     {
-      "price": 475000,
-      "date": "2026-05-22",
-      "postcode": "HA6 2AF",
+      "price": 735000,
+      "date": "2026-06-25",
+      "postcode": "HA4 9PE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "420, FIELD END ROAD"
+    },
+    {
+      "price": 145000,
+      "date": "2026-06-24",
+      "postcode": "UB3 5AE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, DAVID CLOSE"
+    },
+    {
+      "price": 710000,
+      "date": "2026-06-24",
+      "postcode": "HA4 6HF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CROSIER WAY"
+    },
+    {
+      "price": 490000,
+      "date": "2026-06-24",
+      "postcode": "HA6 1FE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, VANQUISH HOUSE, 211, PINNER ROAD"
+    },
+    {
+      "price": 495000,
+      "date": "2026-06-24",
+      "postcode": "HA6 1FE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, VANQUISH HOUSE, 211, PINNER ROAD"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-24",
+      "postcode": "HA6 1FE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, VANQUISH HOUSE, 211, PINNER ROAD"
+    },
+    {
+      "price": 525000,
+      "date": "2026-06-24",
+      "postcode": "HA6 1FE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 4, VANQUISH HOUSE, 211, PINNER ROAD"
+    },
+    {
+      "price": 495000,
+      "date": "2026-06-24",
+      "postcode": "HA6 1FE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 5, VANQUISH HOUSE, 211, PINNER ROAD"
+    },
+    {
+      "price": 625000,
+      "date": "2026-06-24",
+      "postcode": "HA6 1FE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 6, VANQUISH HOUSE, 211, PINNER ROAD"
+    },
+    {
+      "price": 490000,
+      "date": "2026-06-24",
+      "postcode": "HA6 1FE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, VANQUISH HOUSE, 211, PINNER ROAD"
+    },
+    {
+      "price": 525000,
+      "date": "2026-06-24",
+      "postcode": "HA6 1FE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 8, VANQUISH HOUSE, 211, PINNER ROAD"
+    },
+    {
+      "price": 760000,
+      "date": "2026-06-19",
+      "postcode": "UB10 8ED",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, ROKER PARK AVENUE"
+    },
+    {
+      "price": 625000,
+      "date": "2026-06-19",
+      "postcode": "HA5 2TQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, CURZON PLACE"
+    },
+    {
+      "price": 702500,
+      "date": "2026-06-19",
+      "postcode": "HA4 8BN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "231, EASTCOTE ROAD"
+    },
+    {
+      "price": 615000,
+      "date": "2026-06-19",
+      "postcode": "HA4 6QJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, CAVENDISH AVENUE"
+    },
+    {
+      "price": 532500,
+      "date": "2026-06-19",
+      "postcode": "HA4 0TB",
       "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "6, TRINITY CLOSE"
+      "tenure": "F",
+      "address": "55, TORCROSS ROAD"
     },
     {
-      "price": 358000,
-      "date": "2026-05-21",
-      "postcode": "UB7 7GE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, CONSTABULARY CLOSE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-05-21",
-      "postcode": "UB8 2QZ",
+      "price": 535000,
+      "date": "2026-06-19",
+      "postcode": "UB8 3ER",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "123, WATERLOO ROAD"
+      "address": "22, MORELLO AVENUE"
     },
     {
-      "price": 700000,
-      "date": "2026-05-21",
-      "postcode": "HA4 8SN",
+      "price": 426000,
+      "date": "2026-06-19",
+      "postcode": "UB10 0SL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, MORFORD WAY"
-    },
-    {
-      "price": 530000,
-      "date": "2026-05-21",
-      "postcode": "UB10 9AY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "76, WINDSOR AVENUE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-20",
-      "postcode": "UB10 8TH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "41, CRANSTON CLOSE"
-    },
-    {
-      "price": 430000,
-      "date": "2026-05-15",
-      "postcode": "UB10 0RL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, SAUNDERS ROAD"
-    },
-    {
-      "price": 316500,
-      "date": "2026-05-15",
-      "postcode": "UB10 0FE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, PORTAL CLOSE"
-    },
-    {
-      "price": 355000,
-      "date": "2026-05-15",
-      "postcode": "HA4 9DL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 42, LUNA APARTMENTS, 272, FIELD END ROAD"
-    },
-    {
-      "price": 539950,
-      "date": "2026-05-15",
-      "postcode": "UB10 9JD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "68, WOODCROFT CRESCENT"
-    },
-    {
-      "price": 545000,
-      "date": "2026-05-15",
-      "postcode": "UB8 2PJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, THE GREENWAY"
-    },
-    {
-      "price": 885000,
-      "date": "2026-05-15",
-      "postcode": "UB10 9LA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, CHAPTER CLOSE"
-    },
-    {
-      "price": 925000,
-      "date": "2026-05-14",
-      "postcode": "HA6 1RQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, STANLEY ROAD"
-    },
-    {
-      "price": 940000,
-      "date": "2026-05-14",
-      "postcode": "UB10 8LW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, PARKFIELD ROAD"
+      "address": "7, HEATH ROAD"
     }
   ],
   "monthlyHistory": [
@@ -218,7 +221,7 @@
     {
       "month": "2024-04",
       "medianPrice": 475000,
-      "transactions": 226
+      "transactions": 227
     },
     {
       "month": "2024-05",
@@ -247,13 +250,13 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 507000,
-      "transactions": 333
+      "medianPrice": 506000,
+      "transactions": 334
     },
     {
       "month": "2024-11",
       "medianPrice": 480000,
-      "transactions": 306
+      "transactions": 307
     },
     {
       "month": "2024-12",
@@ -263,12 +266,12 @@
     {
       "month": "2025-01",
       "medianPrice": 480000,
-      "transactions": 237
+      "transactions": 239
     },
     {
       "month": "2025-02",
-      "medianPrice": 510500,
-      "transactions": 244
+      "medianPrice": 511000,
+      "transactions": 247
     },
     {
       "month": "2025-03",
@@ -278,72 +281,77 @@
     {
       "month": "2025-04",
       "medianPrice": 300000,
-      "transactions": 192
+      "transactions": 194
     },
     {
       "month": "2025-05",
-      "medianPrice": 505712,
-      "transactions": 220
+      "medianPrice": 505000,
+      "transactions": 222
     },
     {
       "month": "2025-06",
-      "medianPrice": 451210,
-      "transactions": 334
+      "medianPrice": 450560,
+      "transactions": 342
     },
     {
       "month": "2025-07",
       "medianPrice": 500000,
-      "transactions": 237
+      "transactions": 244
     },
     {
       "month": "2025-08",
-      "medianPrice": 520000,
-      "transactions": 243
+      "medianPrice": 514375,
+      "transactions": 264
     },
     {
       "month": "2025-09",
-      "medianPrice": 505000,
-      "transactions": 249
+      "medianPrice": 500000,
+      "transactions": 267
     },
     {
       "month": "2025-10",
       "medianPrice": 510000,
-      "transactions": 252
+      "transactions": 254
     },
     {
       "month": "2025-11",
-      "medianPrice": 490000,
-      "transactions": 202
+      "medianPrice": 495000,
+      "transactions": 217
     },
     {
       "month": "2025-12",
-      "medianPrice": 470000,
-      "transactions": 189
+      "medianPrice": 485000,
+      "transactions": 211
     },
     {
       "month": "2026-01",
-      "medianPrice": 505000,
-      "transactions": 165
+      "medianPrice": 507500,
+      "transactions": 184
     },
     {
       "month": "2026-02",
-      "medianPrice": 507500,
-      "transactions": 172
+      "medianPrice": 510000,
+      "transactions": 181
     },
     {
       "month": "2026-03",
-      "medianPrice": 442500,
-      "transactions": 156
+      "medianPrice": 445000,
+      "transactions": 163
     },
     {
       "month": "2026-04",
-      "medianPrice": 456000,
-      "transactions": 119
+      "medianPrice": 452000,
+      "transactions": 137
     },
     {
       "month": "2026-05",
-      "medianPrice": 460000,
-      "transactions": 53
+      "medianPrice": 495000,
+      "transactions": 145
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 525000,
+      "transactions": 61
     }
   ],
   "quarterlyHistory": [
@@ -355,7 +363,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 470000,
-      "transactions": 702
+      "transactions": 703
     },
     {
       "quarter": "2024-Q3",
@@ -364,38 +372,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 482250,
-      "transactions": 900
+      "medianPrice": 481250,
+      "transactions": 902
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 500000,
-      "transactions": 1149
+      "transactions": 1154
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 440000,
-      "transactions": 746
+      "medianPrice": 437000,
+      "transactions": 758
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 505000,
-      "transactions": 729
+      "medianPrice": 500000,
+      "transactions": 775
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 498000,
-      "transactions": 643
+      "medianPrice": 500000,
+      "transactions": 682
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 493000,
-      "transactions": 493
+      "medianPrice": 495000,
+      "transactions": 528
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 458000,
-      "transactions": 172
+      "medianPrice": 490000,
+      "transactions": 343
     }
   ]
 }

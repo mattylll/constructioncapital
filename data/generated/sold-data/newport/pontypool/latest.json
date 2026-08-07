@@ -1,23 +1,170 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.801Z",
+  "updatedAt": "2026-08-07T08:45:04.101Z",
   "townSlug": "pontypool",
   "countySlug": "newport",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "TORFAEN"
+  ],
   "stats": {
-    "medianPrice": 178000,
+    "medianPrice": 175000,
     "medianByType": {
-      "D": 330000,
-      "S": 195000,
+      "D": 320000,
+      "S": 207500,
       "T": 145000,
-      "F": 123000
+      "F": 120250
     },
-    "transactionCount12m": 377,
-    "yoyChange": 1.7,
+    "transactionCount12m": 376,
+    "yoyChange": -1.5,
     "newBuildCount": 0,
-    "existingCount": 377,
+    "existingCount": 376,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 165000,
+      "date": "2026-06-19",
+      "postcode": "NP4 5HH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, VICTORIA STREET"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-18",
+      "postcode": "NP4 0QE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, AFON CLOSE"
+    },
+    {
+      "price": 102500,
+      "date": "2026-06-09",
+      "postcode": "NP4 9PN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "42, QUEEN STREET"
+    },
+    {
+      "price": 140000,
+      "date": "2026-06-05",
+      "postcode": "NP4 7RW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, GLADSTONE TERRACE"
+    },
+    {
+      "price": 145000,
+      "date": "2026-06-04",
+      "postcode": "NP4 6AE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, CRUMLIN STREET"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-04",
+      "postcode": "NP4 7DA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "IRONSTONE, LOCK UP LANE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-03",
+      "postcode": "NP4 6LP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, CHURCH MEWS"
+    },
+    {
+      "price": 147000,
+      "date": "2026-06-01",
+      "postcode": "NP4 6NT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, BALMOND TERRACE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-05-29",
+      "postcode": "NP4 7DY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, MANOR ROAD"
+    },
+    {
+      "price": 224000,
+      "date": "2026-05-28",
+      "postcode": "NP4 5LG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, STAFFORD ROAD"
+    },
+    {
+      "price": 110000,
+      "date": "2026-05-27",
+      "postcode": "NP4 6LX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "74, OSBORNE ROAD"
+    },
+    {
+      "price": 303000,
+      "date": "2026-05-22",
+      "postcode": "NP4 5JZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, ST MATTHEWS ROAD"
+    },
+    {
+      "price": 135000,
+      "date": "2026-05-21",
+      "postcode": "NP4 9HP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, LLANOVER ROAD ESTATE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-05-20",
+      "postcode": "NP4 5BW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, SOUTH AVENUE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-05-14",
+      "postcode": "NP4 9LF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, CWMAVON ROAD"
+    },
+    {
+      "price": 220000,
+      "date": "2026-05-14",
+      "postcode": "NP4 6AL",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TY NI, 8, COEDCAE PLACE"
+    },
     {
       "price": 110000,
       "date": "2026-05-12",
@@ -28,6 +175,24 @@
       "address": "29, QUEEN STREET"
     },
     {
+      "price": 146000,
+      "date": "2026-05-11",
+      "postcode": "NP4 6QG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, CORONATION TERRACE"
+    },
+    {
+      "price": 247500,
+      "date": "2026-05-08",
+      "postcode": "NP4 0ND",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, GLASCOED ROAD"
+    },
+    {
       "price": 144000,
       "date": "2026-05-07",
       "postcode": "NP4 0NY",
@@ -35,168 +200,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "10, PONTYFELIN LANE"
-    },
-    {
-      "price": 266000,
-      "date": "2026-05-06",
-      "postcode": "NP4 5LL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "101, SUNNYBANK ROAD"
-    },
-    {
-      "price": 445000,
-      "date": "2026-05-06",
-      "postcode": "NP4 0BX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, COED Y FELIN"
-    },
-    {
-      "price": 135000,
-      "date": "2026-05-05",
-      "postcode": "NP4 8JT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, QUARRY COTTAGES, PENYGARN ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-01",
-      "postcode": "NP4 9QT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "115, ELGAM AVENUE"
-    },
-    {
-      "price": 75000,
-      "date": "2026-04-30",
-      "postcode": "NP4 6LX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "72A, OSBORNE ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-04-27",
-      "postcode": "NP4 5HG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, CHARLES STREET"
-    },
-    {
-      "price": 138000,
-      "date": "2026-04-24",
-      "postcode": "NP4 7BY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, SNATCHWOOD ROAD"
-    },
-    {
-      "price": 73000,
-      "date": "2026-04-20",
-      "postcode": "NP4 7RJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, GOLYNOS PLACE"
-    },
-    {
-      "price": 370000,
-      "date": "2026-04-17",
-      "postcode": "NP4 0BX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, COED Y FELIN"
-    },
-    {
-      "price": 160000,
-      "date": "2026-04-17",
-      "postcode": "NP4 5EW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, SHERBOURNE ROAD"
-    },
-    {
-      "price": 710000,
-      "date": "2026-04-16",
-      "postcode": "NP4 9HU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LITTLE OAKS, LLANOVER ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-04-08",
-      "postcode": "NP4 6LF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BLORENGE, ALBION ROAD"
-    },
-    {
-      "price": 342000,
-      "date": "2026-04-08",
-      "postcode": "NP4 8RR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, COED CAMLAS"
-    },
-    {
-      "price": 155000,
-      "date": "2026-04-07",
-      "postcode": "NP4 7AB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, HIGH STREET"
-    },
-    {
-      "price": 180000,
-      "date": "2026-04-02",
-      "postcode": "NP4 5AQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, SPRING TERRACE"
-    },
-    {
-      "price": 123000,
-      "date": "2026-04-02",
-      "postcode": "NP4 0QP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, BLODWEN ROAD"
-    },
-    {
-      "price": 355000,
-      "date": "2026-04-02",
-      "postcode": "NP4 6BS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, PINE GARDENS"
-    },
-    {
-      "price": 160000,
-      "date": "2026-04-02",
-      "postcode": "NP4 6PF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TY MAWR, HANBURY ROAD"
     }
   ],
   "monthlyHistory": [
@@ -282,8 +285,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 155000,
-      "transactions": 33
+      "medianPrice": 160000,
+      "transactions": 32
     },
     {
       "month": "2025-06",
@@ -298,52 +301,57 @@
     {
       "month": "2025-08",
       "medianPrice": 181250,
-      "transactions": 46
+      "transactions": 50
     },
     {
       "month": "2025-09",
       "medianPrice": 170000,
-      "transactions": 53
+      "transactions": 55
     },
     {
       "month": "2025-10",
-      "medianPrice": 201000,
-      "transactions": 64
+      "medianPrice": 197000,
+      "transactions": 65
     },
     {
       "month": "2025-11",
-      "medianPrice": 187000,
-      "transactions": 41
+      "medianPrice": 180000,
+      "transactions": 47
     },
     {
       "month": "2025-12",
-      "medianPrice": 157238,
-      "transactions": 34
+      "medianPrice": 158738,
+      "transactions": 40
     },
     {
       "month": "2026-01",
-      "medianPrice": 165000,
-      "transactions": 19
+      "medianPrice": 170000,
+      "transactions": 23
     },
     {
       "month": "2026-02",
-      "medianPrice": 170000,
-      "transactions": 31
+      "medianPrice": 180000,
+      "transactions": 33
     },
     {
       "month": "2026-03",
-      "medianPrice": 206800,
-      "transactions": 26
+      "medianPrice": 210000,
+      "transactions": 27
     },
     {
       "month": "2026-04",
-      "medianPrice": 160000,
-      "transactions": 15
+      "medianPrice": 159000,
+      "transactions": 22
     },
     {
       "month": "2026-05",
-      "medianPrice": 179500,
-      "transactions": 6
+      "medianPrice": 217500,
+      "transactions": 18
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 148500,
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 180000,
-      "transactions": 111
+      "transactions": 110
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 178000,
-      "transactions": 151
+      "medianPrice": 173500,
+      "transactions": 157
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 182500,
-      "transactions": 139
+      "medianPrice": 179000,
+      "transactions": 152
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 177500,
-      "transactions": 76
+      "medianPrice": 183000,
+      "transactions": 83
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 160000,
-      "transactions": 21
+      "medianPrice": 162500,
+      "transactions": 48
     }
   ]
 }

@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.253Z",
+  "updatedAt": "2026-08-07T08:45:03.600Z",
   "townSlug": "hessle",
   "countySlug": "east-riding-of-yorkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EAST RIDING OF YORKSHIRE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 202500,
-    "transactionCount12m": 224,
-    "yoyPriceChange": 6.6,
-    "approvedApps12m": 1,
+    "medianPrice": 196750,
+    "transactionCount12m": 240,
+    "yoyPriceChange": -1.6,
+    "approvedApps12m": 2,
+    "approvedRecent": 2,
+    "planningWindowMonths": 3,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 100

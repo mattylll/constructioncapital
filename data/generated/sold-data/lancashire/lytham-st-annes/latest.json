@@ -1,214 +1,217 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.783Z",
+  "updatedAt": "2026-08-07T08:45:02.984Z",
   "townSlug": "lytham-st-annes",
   "countySlug": "lancashire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "FYLDE"
+  ],
   "stats": {
-    "medianPrice": 240000,
+    "medianPrice": 235000,
     "medianByType": {
-      "D": 343000,
-      "S": 227750,
-      "T": 176070,
-      "F": 135000
+      "D": 344500,
+      "S": 225000,
+      "T": 177500,
+      "F": 141000
     },
-    "transactionCount12m": 1145,
-    "yoyChange": 0,
-    "newBuildCount": 15,
-    "existingCount": 1130,
-    "newBuildPremium": 52.3
+    "transactionCount12m": 1169,
+    "yoyChange": -2.1,
+    "newBuildCount": 14,
+    "existingCount": 1155,
+    "newBuildPremium": 52.9
   },
   "recentTransactions": [
     {
-      "price": 100000,
-      "date": "2026-05-22",
-      "postcode": "PR4 1XP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "82, BUTLERS MEADOW"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-22",
-      "postcode": "FY8 1AY",
+      "price": 215000,
+      "date": "2026-06-24",
+      "postcode": "FY8 1QA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "2, CLEMENT COURT, 289, INNER PROMENADE"
+      "address": "402, SCHOLARS COURT, KINGS ROAD"
     },
     {
-      "price": 361190,
-      "date": "2026-05-20",
-      "postcode": "FY8 3LP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, LIMA ROAD"
-    },
-    {
-      "price": 139000,
-      "date": "2026-05-18",
-      "postcode": "FY8 5TS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19, NILE CLOSE"
-    },
-    {
-      "price": 950000,
-      "date": "2026-05-18",
-      "postcode": "FY8 4AD",
+      "price": 429000,
+      "date": "2026-06-24",
+      "postcode": "FY8 3FW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "SILVER BIRCHES, ISLAY ROAD"
+      "address": "9, TAYLOR CLOSE"
     },
     {
-      "price": 425000,
-      "date": "2026-05-18",
-      "postcode": "PR4 2FD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, LANGTON LANE"
-    },
-    {
-      "price": 119000,
-      "date": "2026-05-18",
-      "postcode": "FY8 1AR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, BELVEDERE COURT, KINGSWAY"
-    },
-    {
-      "price": 195000,
-      "date": "2026-05-15",
-      "postcode": "FY8 4ES",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "34, ROSSALL ROAD"
-    },
-    {
-      "price": 168079,
-      "date": "2026-05-14",
-      "postcode": "PR4 1BX",
+      "price": 218000,
+      "date": "2026-06-24",
+      "postcode": "PR4 1FW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "38, BEECH AVENUE"
+      "address": "33, CHANCEL DRIVE"
     },
     {
-      "price": 240000,
-      "date": "2026-05-14",
-      "postcode": "FY8 2RU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "23, CLIVE AVENUE"
-    },
-    {
-      "price": 470000,
-      "date": "2026-05-13",
-      "postcode": "PR4 3EZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, THE ORCHARD"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-13",
-      "postcode": "FY4 5JR",
+      "price": 210000,
+      "date": "2026-06-19",
+      "postcode": "PR4 1AH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "THE OAKS, PRESTON NEW ROAD"
+      "address": "172, LYTHAM ROAD"
     },
     {
-      "price": 499950,
-      "date": "2026-05-13",
-      "postcode": "FY8 1EN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "67, LAVERTON ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-12",
-      "postcode": "FY8 1QF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, ORCHID COURT, 35 - 37, SOUTH PROMENADE"
-    },
-    {
-      "price": 267000,
-      "date": "2026-05-12",
-      "postcode": "FY8 3JD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, LOWTON ROAD"
-    },
-    {
-      "price": 470000,
-      "date": "2026-05-12",
-      "postcode": "FY8 4ES",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, ROSSALL ROAD"
-    },
-    {
-      "price": 249950,
-      "date": "2026-05-11",
-      "postcode": "FY8 4DX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "34, RUTLAND ROAD"
-    },
-    {
-      "price": 187000,
-      "date": "2026-05-08",
-      "postcode": "FY8 2BD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "13, DURHAM AVENUE"
-    },
-    {
-      "price": 108200,
-      "date": "2026-05-08",
-      "postcode": "PR4 1XX",
+      "price": 205000,
+      "date": "2026-06-19",
+      "postcode": "FY8 3DR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, CANBERRA WAY"
+      "address": "37, WALTER AVENUE"
     },
     {
-      "price": 160000,
-      "date": "2026-05-08",
-      "postcode": "PR4 1XA",
+      "price": 127000,
+      "date": "2026-06-19",
+      "postcode": "PR4 2DE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "78, LYTHAM ROAD"
+      "address": "10, FYLDE STREET"
+    },
+    {
+      "price": 560000,
+      "date": "2026-06-18",
+      "postcode": "FY8 1AJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, BAZLEY ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-18",
+      "postcode": "FY8 2AW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "47, ASHTON VIEW, ST GEORGES ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-18",
+      "postcode": "FY8 2LQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, KENDAL ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-12",
+      "postcode": "FY8 3LJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "19, THE ROYALS, 11, LINKS GATE"
+    },
+    {
+      "price": 189000,
+      "date": "2026-06-12",
+      "postcode": "PR4 1SN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, KIMBERLEY CLOSE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-12",
+      "postcode": "FY8 1UR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, 61, ST ANNES ROAD EAST"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-12",
+      "postcode": "FY8 2RT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, CHATHAM AVENUE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-06-12",
+      "postcode": "FY8 5HX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, RIVERSDALE LODGE, EAST BEACH"
+    },
+    {
+      "price": 344000,
+      "date": "2026-06-11",
+      "postcode": "FY6 7YZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, LEONARD PLACE"
+    },
+    {
+      "price": 565000,
+      "date": "2026-06-09",
+      "postcode": "FY8 2PP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "450, CLIFTON DRIVE NORTH"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-09",
+      "postcode": "FY8 5LE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, HENRY STREET"
+    },
+    {
+      "price": 182000,
+      "date": "2026-06-05",
+      "postcode": "FY8 1FH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 14, HARRISON VIEW, BAILEY AVENUE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-05",
+      "postcode": "PR4 3SX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, MARSH VIEW"
+    },
+    {
+      "price": 316000,
+      "date": "2026-06-05",
+      "postcode": "PR4 3FN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, GADWALL CLOSE"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 257500,
-      "transactions": 82
+      "medianPrice": 255000,
+      "transactions": 83
     },
     {
       "month": "2024-02",
-      "medianPrice": 237000,
-      "transactions": 117
+      "medianPrice": 238500,
+      "transactions": 118
     },
     {
       "month": "2024-03",
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 235000,
-      "transactions": 171
+      "medianPrice": 236750,
+      "transactions": 172
     },
     {
       "month": "2024-11",
@@ -277,80 +280,85 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 205000,
-      "transactions": 77
+      "medianPrice": 212000,
+      "transactions": 79
     },
     {
       "month": "2025-05",
       "medianPrice": 210000,
-      "transactions": 117
+      "transactions": 118
     },
     {
       "month": "2025-06",
-      "medianPrice": 225000,
-      "transactions": 101
+      "medianPrice": 227000,
+      "transactions": 102
     },
     {
       "month": "2025-07",
-      "medianPrice": 241000,
-      "transactions": 120
+      "medianPrice": 247498,
+      "transactions": 130
     },
     {
       "month": "2025-08",
       "medianPrice": 267500,
-      "transactions": 144
+      "transactions": 156
     },
     {
       "month": "2025-09",
       "medianPrice": 245000,
-      "transactions": 134
+      "transactions": 137
     },
     {
       "month": "2025-10",
-      "medianPrice": 228750,
-      "transactions": 140
-    },
-    {
-      "month": "2025-11",
-      "medianPrice": 227000,
+      "medianPrice": 227500,
       "transactions": 145
     },
     {
+      "month": "2025-11",
+      "medianPrice": 230000,
+      "transactions": 153
+    },
+    {
       "month": "2025-12",
-      "medianPrice": 235000,
-      "transactions": 115
+      "medianPrice": 242500,
+      "transactions": 132
     },
     {
       "month": "2026-01",
-      "medianPrice": 250000,
-      "transactions": 73
+      "medianPrice": 221250,
+      "transactions": 82
     },
     {
       "month": "2026-02",
-      "medianPrice": 244000,
-      "transactions": 100
+      "medianPrice": 249500,
+      "transactions": 106
     },
     {
       "month": "2026-03",
       "medianPrice": 220000,
-      "transactions": 94
+      "transactions": 98
     },
     {
       "month": "2026-04",
       "medianPrice": 205000,
-      "transactions": 65
+      "transactions": 71
     },
     {
       "month": "2026-05",
-      "medianPrice": 265000,
-      "transactions": 37
+      "medianPrice": 240000,
+      "transactions": 83
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 216500,
+      "transactions": 28
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 237250,
-      "transactions": 326
+      "medianPrice": 237748,
+      "transactions": 328
     },
     {
       "quarter": "2024-Q2",
@@ -364,8 +372,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 239995,
-      "transactions": 505
+      "medianPrice": 239998,
+      "transactions": 506
     },
     {
       "quarter": "2025-Q1",
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 215000,
-      "transactions": 295
+      "transactions": 299
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 255000,
-      "transactions": 398
+      "transactions": 423
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 229500,
-      "transactions": 400
+      "medianPrice": 230000,
+      "transactions": 430
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 225000,
-      "transactions": 267
+      "transactions": 286
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 237475,
-      "transactions": 102
+      "medianPrice": 228250,
+      "transactions": 182
     }
   ]
 }

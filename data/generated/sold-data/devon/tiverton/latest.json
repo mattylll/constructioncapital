@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.875Z",
+  "updatedAt": "2026-08-07T08:45:02.007Z",
   "townSlug": "tiverton",
   "countySlug": "devon",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "MID DEVON"
+  ],
   "stats": {
-    "medianPrice": 280000,
+    "medianPrice": 277750,
     "medianByType": {
-      "D": 405000,
-      "S": 268000,
-      "T": 220000,
-      "F": 120000
+      "D": 414750,
+      "S": 265000,
+      "T": 222500,
+      "F": 122000
     },
-    "transactionCount12m": 879,
-    "yoyChange": -6.4,
-    "newBuildCount": 11,
-    "existingCount": 868,
-    "newBuildPremium": 68.1
+    "transactionCount12m": 860,
+    "yoyChange": -4.9,
+    "newBuildCount": 8,
+    "existingCount": 852,
+    "newBuildPremium": 84.9
   },
   "recentTransactions": [
     {
-      "price": 239000,
-      "date": "2026-05-27",
-      "postcode": "EX16 6AR",
+      "price": 260000,
+      "date": "2026-06-22",
+      "postcode": "EX16 6WU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, BELMONT ROAD"
+      "address": "22, HAWKS DRIVE"
     },
     {
-      "price": 365500,
-      "date": "2026-05-22",
-      "postcode": "EX15 1PB",
+      "price": 263000,
+      "date": "2026-06-22",
+      "postcode": "EX16 6TJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CLARE DRIVE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-22",
+      "postcode": "EX16 6DN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, KINGS CRESCENT"
+    },
+    {
+      "price": 447000,
+      "date": "2026-06-19",
+      "postcode": "EX18 7HL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, COLEBROOKE LANE"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-22",
-      "postcode": "EX16 8LJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PENNYMOOR COTTAGE"
-    },
-    {
-      "price": 550000,
-      "date": "2026-05-20",
-      "postcode": "EX17 6SQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PUMP COTTAGE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-18",
-      "postcode": "EX16 9RJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LARKS RISE"
-    },
-    {
-      "price": 795000,
-      "date": "2026-05-15",
-      "postcode": "EX16 9QA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "STEART"
+      "address": "WILD ROSE HOUSE"
     },
     {
       "price": 160000,
-      "date": "2026-05-15",
-      "postcode": "EX17 6PP",
+      "date": "2026-06-19",
+      "postcode": "EX16 6PL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, CHURCH CLOSE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-05-15",
-      "postcode": "EX16 4PX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, LIME TREE MEAD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-14",
-      "postcode": "EX17 6EJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, BEECH DRIVE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-13",
-      "postcode": "EX16 6UW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, ROGERS CLOSE"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-13",
-      "postcode": "EX15 1ZE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, ELIZABETH ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-12",
-      "postcode": "EX16 4ER",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, SPURWAY ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-11",
-      "postcode": "EX17 3NJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, WESTWOOD CLOSE"
-    },
-    {
-      "price": 130000,
-      "date": "2026-05-08",
-      "postcode": "EX17 3BX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, DARTMOOR RAILWAY MEWS"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-08",
-      "postcode": "EX16 5FH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, LACE CRESCENT"
-    },
-    {
-      "price": 650000,
-      "date": "2026-05-08",
-      "postcode": "EX16 4FN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, SANDY PLACE"
-    },
-    {
-      "price": 990000,
-      "date": "2026-05-05",
-      "postcode": "EX17 2BP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THREE LITTLE PIGS, 1, PARLIAMENT STREET"
-    },
-    {
-      "price": 287500,
-      "date": "2026-05-05",
-      "postcode": "EX5 4HP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "QUINCE COTTAGE, 16B, FORE STREET"
+      "address": "61, ST ANDREW STREET"
     },
     {
       "price": 194000,
-      "date": "2026-05-01",
-      "postcode": "EX16 6GW",
+      "date": "2026-06-19",
+      "postcode": "EX15 3AA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, MOFFATT ROW"
+      "address": "19, THE SQUARE"
     },
     {
-      "price": 275000,
-      "date": "2026-05-01",
-      "postcode": "EX15 1QD",
+      "price": 147000,
+      "date": "2026-06-19",
+      "postcode": "EX17 3EW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, DEAN STREET"
+    },
+    {
+      "price": 100000,
+      "date": "2026-06-18",
+      "postcode": "EX16 6AH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "32B, BAMPTON STREET"
+    },
+    {
+      "price": 155000,
+      "date": "2026-06-16",
+      "postcode": "EX16 5QB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, SPICER CLOSE"
+      "address": "11, KABALE CLOSE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-12",
+      "postcode": "EX17 6DB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TYTHE BARN"
+    },
+    {
+      "price": 190000,
+      "date": "2026-06-12",
+      "postcode": "EX16 4AB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, BRANSCOMBE ROAD"
+    },
+    {
+      "price": 192000,
+      "date": "2026-06-12",
+      "postcode": "EX15 1UJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, CHAFFINCH DRIVE"
+    },
+    {
+      "price": 435000,
+      "date": "2026-06-12",
+      "postcode": "EX17 2DL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, OKEFIELD ROAD"
+    },
+    {
+      "price": 158000,
+      "date": "2026-06-10",
+      "postcode": "EX16 4HR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 4, 18, THE AVENUE"
+    },
+    {
+      "price": 135000,
+      "date": "2026-06-10",
+      "postcode": "EX16 9BA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, BANFIELDS"
+    },
+    {
+      "price": 360000,
+      "date": "2026-06-09",
+      "postcode": "EX5 4RA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, DUKES ORCHARD"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-09",
+      "postcode": "EX16 8PP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, EASTWICK BARTON"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-08",
+      "postcode": "EX15 1SL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, HAWTHORN CLOSE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-08",
+      "postcode": "EX15 1XQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, NORMAN DRIVE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-05",
+      "postcode": "EX15 1US",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, GREENHOUSE GARDENS"
     }
   ],
   "monthlyHistory": [
@@ -218,7 +221,7 @@
     {
       "month": "2024-04",
       "medianPrice": 300000,
-      "transactions": 93
+      "transactions": 92
     },
     {
       "month": "2024-05",
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 298000,
-      "transactions": 139
+      "medianPrice": 299000,
+      "transactions": 140
     },
     {
       "month": "2024-11",
@@ -262,18 +265,18 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 324040,
-      "transactions": 87
+      "medianPrice": 322500,
+      "transactions": 89
     },
     {
       "month": "2025-02",
-      "medianPrice": 287500,
-      "transactions": 114
+      "medianPrice": 285000,
+      "transactions": 115
     },
     {
       "month": "2025-03",
-      "medianPrice": 336250,
-      "transactions": 208
+      "medianPrice": 335000,
+      "transactions": 209
     },
     {
       "month": "2025-04",
@@ -282,68 +285,73 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 272500,
-      "transactions": 105
+      "medianPrice": 270000,
+      "transactions": 110
     },
     {
       "month": "2025-06",
-      "medianPrice": 280000,
-      "transactions": 119
+      "medianPrice": 287500,
+      "transactions": 122
     },
     {
       "month": "2025-07",
-      "medianPrice": 265000,
-      "transactions": 130
+      "medianPrice": 258000,
+      "transactions": 149
     },
     {
       "month": "2025-08",
       "medianPrice": 285000,
-      "transactions": 111
+      "transactions": 119
     },
     {
       "month": "2025-09",
-      "medianPrice": 290000,
-      "transactions": 95
+      "medianPrice": 292000,
+      "transactions": 99
     },
     {
       "month": "2025-10",
       "medianPrice": 266000,
-      "transactions": 107
+      "transactions": 109
     },
     {
       "month": "2025-11",
-      "medianPrice": 280000,
-      "transactions": 89
+      "medianPrice": 282500,
+      "transactions": 90
     },
     {
       "month": "2025-12",
-      "medianPrice": 275000,
-      "transactions": 81
+      "medianPrice": 268000,
+      "transactions": 95
     },
     {
       "month": "2026-01",
       "medianPrice": 243000,
-      "transactions": 65
+      "transactions": 67
     },
     {
       "month": "2026-02",
       "medianPrice": 270000,
-      "transactions": 64
+      "transactions": 65
     },
     {
       "month": "2026-03",
       "medianPrice": 280000,
-      "transactions": 84
+      "transactions": 90
     },
     {
       "month": "2026-04",
-      "medianPrice": 299950,
-      "transactions": 49
+      "medianPrice": 298475,
+      "transactions": 52
     },
     {
       "month": "2026-05",
-      "medianPrice": 300000,
-      "transactions": 27
+      "medianPrice": 274000,
+      "transactions": 58
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 220000,
+      "transactions": 31
     }
   ],
   "quarterlyHistory": [
@@ -355,7 +363,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 295000,
-      "transactions": 338
+      "transactions": 337
     },
     {
       "quarter": "2024-Q3",
@@ -364,38 +372,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 304500,
-      "transactions": 390
+      "medianPrice": 305000,
+      "transactions": 391
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 325000,
-      "transactions": 409
+      "medianPrice": 323000,
+      "transactions": 413
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 279000,
-      "transactions": 280
+      "medianPrice": 276500,
+      "transactions": 288
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 280000,
-      "transactions": 336
+      "medianPrice": 275000,
+      "transactions": 367
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 275000,
-      "transactions": 277
+      "medianPrice": 270000,
+      "transactions": 294
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 270000,
-      "transactions": 213
+      "medianPrice": 267500,
+      "transactions": 222
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 299975,
-      "transactions": 76
+      "medianPrice": 270000,
+      "transactions": 141
     }
   ]
 }

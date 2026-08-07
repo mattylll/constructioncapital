@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.098Z",
+  "updatedAt": "2026-08-07T08:45:03.463Z",
   "townSlug": "south-shields",
   "countySlug": "tyne-and-wear",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTH TYNESIDE"
+  ],
   "marketSnapshot": {
     "medianPrice": 150000,
-    "transactionCount12m": 1469,
+    "transactionCount12m": 1388,
     "yoyPriceChange": 0,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

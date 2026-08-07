@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.617Z",
+  "updatedAt": "2026-08-07T08:45:02.807Z",
   "townSlug": "stockport",
   "countySlug": "greater-manchester",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "STOCKPORT"
+  ],
   "stats": {
     "medianPrice": 300000,
     "medianByType": {
-      "D": 520000,
+      "D": 525000,
       "S": 325000,
       "T": 235000,
       "F": 165000
     },
-    "transactionCount12m": 3474,
-    "yoyChange": 2.7,
-    "newBuildCount": 14,
-    "existingCount": 3460,
-    "newBuildPremium": 108.2
+    "transactionCount12m": 3481,
+    "yoyChange": 1.7,
+    "newBuildCount": 18,
+    "existingCount": 3463,
+    "newBuildPremium": 83.7
   },
   "recentTransactions": [
     {
-      "price": 405000,
-      "date": "2026-05-27",
-      "postcode": "SK8 2JA",
+      "price": 560000,
+      "date": "2026-06-29",
+      "postcode": "SK8 6EW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "78, HIGHFIELD ROAD"
+    },
+    {
+      "price": 377000,
+      "date": "2026-06-26",
+      "postcode": "SK6 5JR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "24, RICROFT ROAD"
+    },
+    {
+      "price": 208000,
+      "date": "2026-06-24",
+      "postcode": "SK1 4AT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "46, VICTORIA ROAD"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-24",
+      "postcode": "SK6 5JR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "20, BROOKHEAD DRIVE"
+      "address": "1, RICROFT ROAD"
     },
     {
       "price": 130000,
-      "date": "2026-05-22",
-      "postcode": "SK2 7HW",
+      "date": "2026-06-24",
+      "postcode": "SK4 4NL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "58, PRESTBURY CLOSE"
+      "address": "FLAT 20, TATTON COURT, 35, DERBY ROAD"
+    },
+    {
+      "price": 170000,
+      "date": "2026-06-23",
+      "postcode": "SK6 7DE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, WOODSTOCK COURT, 4, ARKWRIGHT ROAD"
+    },
+    {
+      "price": 670000,
+      "date": "2026-06-19",
+      "postcode": "SK8 6EQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, SOUTHDOWN CRESCENT"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-19",
+      "postcode": "SK1 4NW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, WINDERMERE ROAD"
+    },
+    {
+      "price": 88071,
+      "date": "2026-06-19",
+      "postcode": "SK8 6BD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "59, WILLOW AVENUE"
     },
     {
       "price": 130000,
-      "date": "2026-05-22",
-      "postcode": "SK1 1AR",
+      "date": "2026-06-19",
+      "postcode": "SK4 2QS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 7, BANK CHAMBERS, ST PETERSGATE"
+      "address": "FLAT 7, ROMANY COURT, 286, WELLINGTON ROAD NORTH"
+    },
+    {
+      "price": 417000,
+      "date": "2026-06-19",
+      "postcode": "SK6 7NY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "83, HIBBERT LANE"
     },
     {
       "price": 285000,
-      "date": "2026-05-22",
-      "postcode": "SK7 5AF",
+      "date": "2026-06-19",
+      "postcode": "SK4 3PN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, GRENVILLE ROAD"
+      "address": "6, BRASSINGTON ROAD"
     },
     {
-      "price": 96000,
-      "date": "2026-05-22",
-      "postcode": "SK8 4BG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 31, WILLOW COURT, BROOKSIDE ROAD"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-21",
-      "postcode": "SK8 6JZ",
+      "price": 198000,
+      "date": "2026-06-19",
+      "postcode": "SK8 2JL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "58D, HULME HALL ROAD"
+      "address": "1, MINSTER DRIVE"
     },
     {
-      "price": 147500,
-      "date": "2026-05-21",
-      "postcode": "SK3 8RU",
+      "price": 265000,
+      "date": "2026-06-19",
+      "postcode": "SK6 2BS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "24, PORTREA CLOSE"
+      "address": "501, STOCKPORT ROAD WEST"
     },
     {
-      "price": 495000,
-      "date": "2026-05-20",
-      "postcode": "SK8 3QQ",
+      "price": 200000,
+      "date": "2026-06-19",
+      "postcode": "SK3 9LD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, FARR STREET"
+    },
+    {
+      "price": 875000,
+      "date": "2026-06-19",
+      "postcode": "SK7 3BD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "62, OUTWOOD DRIVE"
+      "address": "38, GRANGE ROAD"
     },
     {
-      "price": 205000,
-      "date": "2026-05-20",
-      "postcode": "SK4 3DA",
+      "price": 185000,
+      "date": "2026-06-19",
+      "postcode": "SK5 7BD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, PARRS MOUNT MEWS"
+      "address": "6, SPRINGFIELD AVENUE"
     },
     {
-      "price": 270000,
-      "date": "2026-05-20",
-      "postcode": "SK3 9PA",
+      "price": 340000,
+      "date": "2026-06-19",
+      "postcode": "SK7 3PG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, HILLINGTON ROAD"
+      "address": "34, REDFORD DRIVE"
     },
     {
-      "price": 750000,
-      "date": "2026-05-20",
-      "postcode": "SK7 2DS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, DARWIN GROVE"
-    },
-    {
-      "price": 230500,
-      "date": "2026-05-19",
-      "postcode": "SK4 5LX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "18, NELSTROP ROAD"
-    },
-    {
-      "price": 112000,
-      "date": "2026-05-19",
-      "postcode": "SK1 3DL",
+      "price": 207000,
+      "date": "2026-06-19",
+      "postcode": "SK5 6NY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "55, MIDDLE HILLGATE"
+      "address": "12, BELFIELD ROAD"
     },
     {
-      "price": 345000,
-      "date": "2026-05-19",
-      "postcode": "SK7 5PF",
-      "propertyType": "S",
+      "price": 410000,
+      "date": "2026-06-18",
+      "postcode": "SK8 7NF",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, LONGMEAD AVENUE"
-    },
-    {
-      "price": 70000,
-      "date": "2026-05-18",
-      "postcode": "SK1 3FX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 31, ARCHER HOUSE, 3, JOHN STREET"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-18",
-      "postcode": "SK4 3BN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 26, THE WOODLANDS, WOODLANDS ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-18",
-      "postcode": "SK4 1ND",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, CHURCHILL STREET"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-18",
-      "postcode": "SK7 5QY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, BICKERTON DRIVE"
-    },
-    {
-      "price": 390000,
-      "date": "2026-05-15",
-      "postcode": "SK8 3JY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, COPPICE COURT"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-15",
-      "postcode": "SK8 7LD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, WOODSTOCK AVENUE"
+      "address": "8, RIPLEY AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -213,7 +216,7 @@
     {
       "month": "2024-03",
       "medianPrice": 250000,
-      "transactions": 407
+      "transactions": 406
     },
     {
       "month": "2024-04",
@@ -262,8 +265,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 293000,
-      "transactions": 364
+      "medianPrice": 295000,
+      "transactions": 366
     },
     {
       "month": "2025-02",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 310000,
-      "transactions": 800
+      "transactions": 802
     },
     {
       "month": "2025-04",
@@ -282,75 +285,80 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 290000,
-      "transactions": 335
+      "medianPrice": 295000,
+      "transactions": 339
     },
     {
       "month": "2025-06",
-      "medianPrice": 320000,
-      "transactions": 413
+      "medianPrice": 321500,
+      "transactions": 414
     },
     {
       "month": "2025-07",
       "medianPrice": 315000,
-      "transactions": 428
+      "transactions": 435
     },
     {
       "month": "2025-08",
       "medianPrice": 310000,
-      "transactions": 447
+      "transactions": 473
     },
     {
       "month": "2025-09",
-      "medianPrice": 300000,
-      "transactions": 366
+      "medianPrice": 300500,
+      "transactions": 384
     },
     {
       "month": "2025-10",
-      "medianPrice": 306800,
-      "transactions": 454
+      "medianPrice": 307750,
+      "transactions": 468
     },
     {
       "month": "2025-11",
-      "medianPrice": 290000,
-      "transactions": 386
+      "medianPrice": 295000,
+      "transactions": 398
     },
     {
       "month": "2025-12",
-      "medianPrice": 290000,
-      "transactions": 306
+      "medianPrice": 293448,
+      "transactions": 344
     },
     {
       "month": "2026-01",
-      "medianPrice": 300000,
-      "transactions": 263
+      "medianPrice": 305000,
+      "transactions": 287
     },
     {
       "month": "2026-02",
       "medianPrice": 318000,
-      "transactions": 292
+      "transactions": 301
     },
     {
       "month": "2026-03",
-      "medianPrice": 297500,
-      "transactions": 270
+      "medianPrice": 295000,
+      "transactions": 280
     },
     {
       "month": "2026-04",
-      "medianPrice": 290000,
-      "transactions": 237
+      "medianPrice": 294000,
+      "transactions": 259
     },
     {
       "month": "2026-05",
-      "medianPrice": 312500,
-      "transactions": 105
+      "medianPrice": 300000,
+      "transactions": 241
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 287500,
+      "transactions": 116
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 270000,
-      "transactions": 1081
+      "transactions": 1080
     },
     {
       "quarter": "2024-Q2",
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 300000,
-      "transactions": 1640
+      "transactions": 1644
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 290000,
-      "transactions": 976
+      "medianPrice": 293000,
+      "transactions": 981
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 310000,
-      "transactions": 1241
+      "transactions": 1292
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 295000,
-      "transactions": 1146
+      "medianPrice": 300000,
+      "transactions": 1210
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 305000,
-      "transactions": 825
+      "medianPrice": 306250,
+      "transactions": 868
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 295000,
-      "transactions": 342
+      "medianPrice": 298475,
+      "transactions": 616
     }
   ]
 }

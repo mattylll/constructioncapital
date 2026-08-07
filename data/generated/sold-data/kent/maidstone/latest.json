@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.089Z",
+  "updatedAt": "2026-08-07T08:45:01.185Z",
   "townSlug": "maidstone",
   "countySlug": "kent",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "MAIDSTONE"
+  ],
   "stats": {
     "medianPrice": 350000,
     "medianByType": {
-      "D": 557000,
+      "D": 550000,
       "S": 375000,
-      "T": 296000,
-      "F": 180000
+      "T": 295000,
+      "F": 181000
     },
-    "transactionCount12m": 1945,
-    "yoyChange": -1.8,
-    "newBuildCount": 14,
-    "existingCount": 1931,
-    "newBuildPremium": 59.6
+    "transactionCount12m": 1958,
+    "yoyChange": -2.8,
+    "newBuildCount": 25,
+    "existingCount": 1933,
+    "newBuildPremium": 40
   },
   "recentTransactions": [
     {
-      "price": 350000,
-      "date": "2026-05-29",
-      "postcode": "ME15 9AJ",
+      "price": 400000,
+      "date": "2026-06-26",
+      "postcode": "ME15 8YF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, LONGFIELD PLACE"
+      "address": "28, PENTECOST LANE"
     },
     {
-      "price": 421000,
-      "date": "2026-05-29",
-      "postcode": "ME15 8JW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1B, WILLINGTON STREET"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-26",
-      "postcode": "ME16 8BA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, CORNWALLIS ROAD"
-    },
-    {
-      "price": 490000,
-      "date": "2026-05-22",
-      "postcode": "ME15 9RE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, BERWYN GROVE"
-    },
-    {
-      "price": 617500,
-      "date": "2026-05-22",
-      "postcode": "ME16 0AS",
+      "price": 550000,
+      "date": "2026-06-25",
+      "postcode": "ME16 9FA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "65, ROSELEIGH AVENUE"
+      "address": "8, BROKE WOOD WAY"
     },
     {
-      "price": 195000,
-      "date": "2026-05-21",
-      "postcode": "ME15 6GX",
-      "propertyType": "F",
+      "price": 400000,
+      "date": "2026-06-23",
+      "postcode": "ME17 4XS",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "1, CORNHILL PLACE"
+      "tenure": "F",
+      "address": "8, GENN PARK"
     },
     {
-      "price": 285000,
-      "date": "2026-05-20",
-      "postcode": "ME16 8LR",
+      "price": 340000,
+      "date": "2026-06-19",
+      "postcode": "ME17 3PS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, LAUREL GROVE"
+    },
+    {
+      "price": 355000,
+      "date": "2026-06-19",
+      "postcode": "ME17 4PS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, STOCKETT LANE"
+    },
+    {
+      "price": 379000,
+      "date": "2026-06-19",
+      "postcode": "TN12 9JU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "58, HARTNUP STREET"
+      "address": "2, SPRING GROVE COTTAGES, GOUDHURST ROAD"
     },
     {
-      "price": 330000,
-      "date": "2026-05-18",
-      "postcode": "ME15 8TQ",
+      "price": 320000,
+      "date": "2026-06-19",
+      "postcode": "ME15 8SG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, FOXDEN DRIVE"
-    },
-    {
-      "price": 445000,
-      "date": "2026-05-18",
-      "postcode": "ME16 9BB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, GLEBE LANE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-18",
-      "postcode": "ME5 9JD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE PINES, BOXLEY ROAD"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-17",
-      "postcode": "ME14 5QD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "41, NORTHFLEET CLOSE"
-    },
-    {
-      "price": 437000,
-      "date": "2026-05-15",
-      "postcode": "ME16 9QE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, BLOSSOM CLOSE"
-    },
-    {
-      "price": 370000,
-      "date": "2026-05-15",
-      "postcode": "ME15 7SW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, ST PHILIPS AVENUE"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-15",
-      "postcode": "ME15 0HJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, NORTH VIEW COTTAGES, FORGE LANE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-15",
-      "postcode": "ME5 8XD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, FIR TREE GROVE"
+      "address": "17, ELLENSWOOD CLOSE"
     },
     {
       "price": 350000,
-      "date": "2026-05-15",
-      "postcode": "ME15 7ER",
+      "date": "2026-06-19",
+      "postcode": "ME15 8TX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, DORSET WAY"
+      "address": "54, BETSHAM ROAD"
     },
     {
-      "price": 285000,
-      "date": "2026-05-15",
-      "postcode": "ME15 7NG",
+      "price": 585000,
+      "date": "2026-06-19",
+      "postcode": "ME16 0GS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GREYFRIARS CLOSE"
+    },
+    {
+      "price": 365000,
+      "date": "2026-06-18",
+      "postcode": "ME14 2JU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "58, CAMBRIDGE CRESCENT"
+      "address": "73, HILLARY ROAD"
     },
     {
-      "price": 250000,
-      "date": "2026-05-15",
-      "postcode": "ME15 6FG",
+      "price": 270000,
+      "date": "2026-06-17",
+      "postcode": "ME14 2RA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, BARFRESTON CLOSE"
+      "address": "104, CALDER ROAD"
     },
     {
-      "price": 325000,
-      "date": "2026-05-15",
-      "postcode": "ME17 4DA",
+      "price": 160000,
+      "date": "2026-06-17",
+      "postcode": "ME16 8JQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 5, ST. GEORGES HOUSE, ST GEORGES SQUARE"
+    },
+    {
+      "price": 415000,
+      "date": "2026-06-16",
+      "postcode": "ME15 7AU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, PLAINS AVENUE"
+    },
+    {
+      "price": 263000,
+      "date": "2026-06-16",
+      "postcode": "ME15 7RH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, LEWIS ROW COTTAGES, HERMITAGE LANE"
+      "address": "71, LOWER ROAD"
     },
     {
-      "price": 1500000,
-      "date": "2026-05-14",
-      "postcode": "ME14 5AD",
-      "propertyType": "O",
+      "price": 280000,
+      "date": "2026-06-15",
+      "postcode": "ME16 8LL",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, HEDLEY STREET"
+      "address": "135, MILTON STREET"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-15",
+      "postcode": "ME16 8UG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, SHERBOURNE DRIVE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-06-15",
+      "postcode": "ME14 5SN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, HAREBELL CLOSE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-06-15",
+      "postcode": "ME17 3XZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SAPPHIRE PARK"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-12",
+      "postcode": "ME5 9PF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CINNABAR CLOSE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-06-12",
+      "postcode": "ME15 8SN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, REDSELLS CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -237,8 +240,8 @@
     },
     {
       "month": "2024-08",
-      "medianPrice": 365000,
-      "transactions": 253
+      "medianPrice": 365500,
+      "transactions": 254
     },
     {
       "month": "2024-09",
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 375000,
-      "transactions": 295
+      "medianPrice": 374500,
+      "transactions": 296
     },
     {
       "month": "2024-11",
@@ -258,7 +261,7 @@
     {
       "month": "2024-12",
       "medianPrice": 360000,
-      "transactions": 255
+      "transactions": 256
     },
     {
       "month": "2025-01",
@@ -273,12 +276,12 @@
     {
       "month": "2025-03",
       "medianPrice": 378000,
-      "transactions": 425
+      "transactions": 429
     },
     {
       "month": "2025-04",
-      "medianPrice": 350500,
-      "transactions": 116
+      "medianPrice": 351000,
+      "transactions": 117
     },
     {
       "month": "2025-05",
@@ -287,63 +290,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 339998,
-      "transactions": 258
+      "medianPrice": 339995,
+      "transactions": 259
     },
     {
       "month": "2025-07",
       "medianPrice": 360000,
-      "transactions": 231
+      "transactions": 235
     },
     {
       "month": "2025-08",
-      "medianPrice": 350000,
-      "transactions": 233
+      "medianPrice": 360000,
+      "transactions": 251
     },
     {
       "month": "2025-09",
-      "medianPrice": 343750,
-      "transactions": 192
+      "medianPrice": 344995,
+      "transactions": 203
     },
     {
       "month": "2025-10",
       "medianPrice": 371250,
-      "transactions": 266
+      "transactions": 270
     },
     {
       "month": "2025-11",
       "medianPrice": 360000,
-      "transactions": 228
+      "transactions": 235
     },
     {
       "month": "2025-12",
-      "medianPrice": 356500,
-      "transactions": 198
+      "medianPrice": 350000,
+      "transactions": 217
     },
     {
       "month": "2026-01",
-      "medianPrice": 342500,
-      "transactions": 172
+      "medianPrice": 350000,
+      "transactions": 188
     },
     {
       "month": "2026-02",
-      "medianPrice": 365000,
-      "transactions": 150
+      "medianPrice": 370000,
+      "transactions": 156
     },
     {
       "month": "2026-03",
-      "medianPrice": 330000,
-      "transactions": 153
+      "medianPrice": 329000,
+      "transactions": 166
     },
     {
       "month": "2026-04",
       "medianPrice": 340000,
-      "transactions": 114
+      "transactions": 136
     },
     {
       "month": "2026-05",
-      "medianPrice": 320000,
-      "transactions": 52
+      "medianPrice": 330000,
+      "transactions": 115
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 360000,
+      "transactions": 65
     }
   ],
   "quarterlyHistory": [
@@ -359,43 +367,43 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 345000,
-      "transactions": 733
+      "medianPrice": 346000,
+      "transactions": 734
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 360000,
-      "transactions": 809
+      "transactions": 811
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 365000,
-      "transactions": 897
+      "transactions": 901
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 347750,
-      "transactions": 576
+      "transactions": 578
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 350000,
-      "transactions": 656
+      "transactions": 689
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 365000,
-      "transactions": 692
+      "medianPrice": 364500,
+      "transactions": 722
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 340000,
-      "transactions": 475
+      "medianPrice": 350000,
+      "transactions": 510
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 332500,
-      "transactions": 166
+      "medianPrice": 347671,
+      "transactions": 316
     }
   ]
 }

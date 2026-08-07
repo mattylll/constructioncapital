@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.450Z",
+  "updatedAt": "2026-08-07T08:45:03.671Z",
   "townSlug": "lowestoft",
   "countySlug": "suffolk",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EAST SUFFOLK",
+    "WAVENEY"
+  ],
   "stats": {
     "medianPrice": 220000,
     "medianByType": {
-      "D": 297750,
-      "S": 222500,
-      "T": 167000,
-      "F": 116000
+      "D": 295000,
+      "S": 225000,
+      "T": 170000,
+      "F": 117000
     },
-    "transactionCount12m": 900,
+    "transactionCount12m": 923,
     "yoyChange": 2.3,
     "newBuildCount": 3,
-    "existingCount": 897,
+    "existingCount": 920,
     "newBuildPremium": 88.6
   },
   "recentTransactions": [
     {
-      "price": 222500,
-      "date": "2026-05-22",
-      "postcode": "NR33 9NX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "180, DELL ROAD"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-22",
-      "postcode": "NR33 7QJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, LOWLANDS CLOSE"
-    },
-    {
-      "price": 281000,
-      "date": "2026-05-21",
-      "postcode": "NR32 4UD",
+      "price": 475000,
+      "date": "2026-06-29",
+      "postcode": "NR32 4LF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, WINDERMERE PARK"
+      "address": "48, GUNTON CHURCH LANE"
     },
     {
-      "price": 230000,
-      "date": "2026-05-18",
-      "postcode": "NR33 7UE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, THE NORDALLS"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-15",
-      "postcode": "NR33 7TL",
+      "price": 265000,
+      "date": "2026-06-24",
+      "postcode": "NR32 4WX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "69, CATCHPOLE CLOSE"
+      "address": "45, JENKINS GREEN"
     },
     {
-      "price": 200000,
-      "date": "2026-05-14",
-      "postcode": "NR32 4JT",
+      "price": 365000,
+      "date": "2026-06-22",
+      "postcode": "NR33 8SN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, CLOVER WAY"
+      "address": "14, THISTLEDOWN"
     },
     {
-      "price": 263000,
-      "date": "2026-05-11",
-      "postcode": "NR32 3HQ",
+      "price": 380000,
+      "date": "2026-06-19",
+      "postcode": "NR33 8TX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, CHILTERN CRESCENT"
+      "address": "3, SEAVERT CLOSE"
     },
     {
-      "price": 200000,
-      "date": "2026-05-11",
-      "postcode": "NR33 9LP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "197, VICTORIA ROAD"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-08",
-      "postcode": "NR32 1TD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, QUEENS ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-08",
-      "postcode": "NR32 4HF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "80, SUSSEX ROAD"
-    },
-    {
-      "price": 195000,
-      "date": "2026-05-08",
-      "postcode": "NR32 2SJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, BRAMBLE GREEN"
-    },
-    {
-      "price": 298000,
-      "date": "2026-05-08",
-      "postcode": "NR33 0DY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "347, LONDON ROAD SOUTH"
-    },
-    {
-      "price": 249000,
-      "date": "2026-05-08",
-      "postcode": "NR33 8QA",
+      "price": 360000,
+      "date": "2026-06-19",
+      "postcode": "NR33 8QG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, CONRAD CLOSE"
+      "address": "20, FAIRFIELD DRIVE"
     },
     {
-      "price": 135000,
-      "date": "2026-05-07",
-      "postcode": "NR33 7PW",
+      "price": 290000,
+      "date": "2026-06-19",
+      "postcode": "NR32 2EN",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "220, DENMARK ROAD"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-18",
+      "postcode": "NR32 3BS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, LONDON ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-05",
-      "postcode": "NR33 8UL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, CHAUKERS CRESCENT"
-    },
-    {
-      "price": 245000,
-      "date": "2026-05-05",
-      "postcode": "NR33 9DD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "153, LONG ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-01",
-      "postcode": "NR33 7QY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "74, WASH LANE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-01",
-      "postcode": "NR33 8NY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, COWSLIP CRESCENT"
+      "address": "1, MARLBOROUGH ROAD"
     },
     {
       "price": 150000,
-      "date": "2026-05-01",
-      "postcode": "NR33 0DB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, BANNER COURT, KIRKLEY CLIFF ROAD"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-01",
-      "postcode": "NR32 3QS",
+      "date": "2026-06-18",
+      "postcode": "NR32 2AY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, LUPTON CLOSE"
+      "address": "73, MAIDSTONE ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-16",
+      "postcode": "NR32 3FG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, COPPICE CLOSE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-15",
+      "postcode": "NR32 4PY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, EL ALAMEIN ROAD"
+    },
+    {
+      "price": 227500,
+      "date": "2026-06-15",
+      "postcode": "NR33 9EN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ROZLYNE CLOSE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-12",
+      "postcode": "NR33 8DF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HEATHDENE, GISLEHAM ROAD"
+    },
+    {
+      "price": 165000,
+      "date": "2026-06-12",
+      "postcode": "NR33 7SF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "221, CHURCH ROAD"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-12",
+      "postcode": "NR33 7TP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, LLOYDS AVENUE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-12",
+      "postcode": "NR33 8JZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, BEVERLEY COURT"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-11",
+      "postcode": "NR33 0EL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, ST LEONARDS ROAD"
+    },
+    {
+      "price": 188500,
+      "date": "2026-06-05",
+      "postcode": "NR33 8JJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CROMWELL COURT"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-05",
+      "postcode": "NR32 3NY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, MOYES ROAD"
+    },
+    {
+      "price": 170000,
+      "date": "2026-06-05",
+      "postcode": "NR33 0NP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, BIRDS LANE"
+    },
+    {
+      "price": 435000,
+      "date": "2026-06-05",
+      "postcode": "NR33 8QP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, DALE HAVEN"
     }
   ],
   "monthlyHistory": [
@@ -293,57 +297,62 @@
     {
       "month": "2025-07",
       "medianPrice": 205000,
-      "transactions": 106
+      "transactions": 107
     },
     {
       "month": "2025-08",
       "medianPrice": 240000,
-      "transactions": 110
+      "transactions": 113
     },
     {
       "month": "2025-09",
-      "medianPrice": 235000,
-      "transactions": 103
+      "medianPrice": 232000,
+      "transactions": 113
     },
     {
       "month": "2025-10",
-      "medianPrice": 215500,
-      "transactions": 106
+      "medianPrice": 216000,
+      "transactions": 113
     },
     {
       "month": "2025-11",
       "medianPrice": 220000,
-      "transactions": 90
+      "transactions": 94
     },
     {
       "month": "2025-12",
       "medianPrice": 210000,
-      "transactions": 110
+      "transactions": 120
     },
     {
       "month": "2026-01",
-      "medianPrice": 216000,
-      "transactions": 60
+      "medianPrice": 220000,
+      "transactions": 64
     },
     {
       "month": "2026-02",
-      "medianPrice": 225500,
-      "transactions": 72
+      "medianPrice": 222500,
+      "transactions": 74
     },
     {
       "month": "2026-03",
       "medianPrice": 235000,
-      "transactions": 85
+      "transactions": 87
     },
     {
       "month": "2026-04",
-      "medianPrice": 214000,
-      "transactions": 62
+      "medianPrice": 221500,
+      "transactions": 68
     },
     {
       "month": "2026-05",
-      "medianPrice": 200000,
-      "transactions": 21
+      "medianPrice": 210000,
+      "transactions": 69
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 262500,
+      "transactions": 30
     }
   ],
   "quarterlyHistory": [
@@ -379,23 +388,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 222000,
-      "transactions": 319
+      "medianPrice": 221000,
+      "transactions": 333
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 213750,
-      "transactions": 306
+      "medianPrice": 215000,
+      "transactions": 327
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 224000,
-      "transactions": 217
+      "medianPrice": 221500,
+      "transactions": 225
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 210000,
-      "transactions": 83
+      "medianPrice": 220000,
+      "transactions": 167
     }
   ]
 }

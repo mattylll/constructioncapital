@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.969Z",
+  "updatedAt": "2026-08-07T08:45:03.346Z",
   "townSlug": "barnsley",
   "countySlug": "south-yorkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BARNSLEY"
+  ],
   "marketSnapshot": {
-    "medianPrice": 162000,
-    "transactionCount12m": 2165,
-    "yoyPriceChange": -1.8,
+    "medianPrice": 165000,
+    "transactionCount12m": 2185,
+    "yoyPriceChange": 0,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

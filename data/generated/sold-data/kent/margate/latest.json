@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.181Z",
+  "updatedAt": "2026-08-07T08:45:01.284Z",
   "townSlug": "margate",
   "countySlug": "kent",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "THANET"
+  ],
   "stats": {
-    "medianPrice": 280000,
+    "medianPrice": 285000,
     "medianByType": {
-      "D": 433500,
-      "S": 308000,
+      "D": 442500,
+      "S": 309000,
       "T": 255000,
-      "F": 167000
+      "F": 165000
     },
-    "transactionCount12m": 1730,
-    "yoyChange": 0,
-    "newBuildCount": 9,
-    "existingCount": 1721,
-    "newBuildPremium": 37.5
+    "transactionCount12m": 1735,
+    "yoyChange": 2.9,
+    "newBuildCount": 7,
+    "existingCount": 1728,
+    "newBuildPremium": 82.5
   },
   "recentTransactions": [
     {
-      "price": 167000,
-      "date": "2026-05-28",
-      "postcode": "CT11 7NR",
+      "price": 205000,
+      "date": "2026-06-25",
+      "postcode": "CT9 3XA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, IRVINE DRIVE"
+    },
+    {
+      "price": 305000,
+      "date": "2026-06-25",
+      "postcode": "CT12 4AG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, TOTHILL STREET"
+    },
+    {
+      "price": 740000,
+      "date": "2026-06-24",
+      "postcode": "CT9 5EA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, PEMBROKE AVENUE"
+    },
+    {
+      "price": 205000,
+      "date": "2026-06-23",
+      "postcode": "CT9 4FX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, 2, LYNX STREET"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-22",
+      "postcode": "CT10 1DP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 4, 1, EASTERN ESPLANADE"
+    },
+    {
+      "price": 347500,
+      "date": "2026-06-19",
+      "postcode": "CT10 2ED",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, FREDA CLOSE"
+    },
+    {
+      "price": 178500,
+      "date": "2026-06-19",
+      "postcode": "CT9 2LB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 4, 10, EASTERN ESPLANADE"
+    },
+    {
+      "price": 770000,
+      "date": "2026-06-18",
+      "postcode": "CT10 3SE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "140, BOTANY ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-18",
+      "postcode": "CT12 6UL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "88, BOUNDARY ROAD"
+      "address": "4, CLEMENTS ROAD"
     },
     {
-      "price": 270000,
-      "date": "2026-05-22",
+      "price": 250000,
+      "date": "2026-06-18",
+      "postcode": "CT11 0AQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, BLOOMSBURY ROAD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-18",
       "postcode": "CT10 2AP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 3, BRADSTOW HOUSE, 21, ST PETERS ROAD"
+      "address": "FLAT 6, BEACONSFIELD HOUSE, 25, ST PETERS ROAD"
     },
     {
-      "price": 175000,
-      "date": "2026-05-22",
-      "postcode": "CT11 8EP",
-      "propertyType": "T",
+      "price": 325000,
+      "date": "2026-06-17",
+      "postcode": "CT7 0AL",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "34, AVENUE ROAD"
+      "address": "10, LININGTON ROAD"
     },
     {
-      "price": 580000,
-      "date": "2026-05-22",
-      "postcode": "CT11 0EB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, EDITH ROAD"
-    },
-    {
-      "price": 287500,
-      "date": "2026-05-22",
-      "postcode": "CT10 2PF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, THE SILVERS"
-    },
-    {
-      "price": 310000,
-      "date": "2026-05-22",
-      "postcode": "CT9 5TR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, MERE GATE"
-    },
-    {
-      "price": 485000,
-      "date": "2026-05-21",
-      "postcode": "CT10 2EZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "122, PARK AVENUE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-20",
-      "postcode": "CT9 5DJ",
+      "price": 162500,
+      "date": "2026-06-17",
+      "postcode": "CT11 8JL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 3, 18, WESTBROOK GARDENS"
+      "address": "FLAT 2, 14, WELLINGTON CRESCENT"
     },
     {
-      "price": 400000,
-      "date": "2026-05-19",
-      "postcode": "CT9 3NL",
+      "price": 350000,
+      "date": "2026-06-16",
+      "postcode": "CT10 2SE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, DALMENY AVENUE"
+      "address": "32, VICARAGE STREET"
     },
     {
-      "price": 450000,
-      "date": "2026-05-19",
-      "postcode": "CT10 1JG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, HILLER CLOSE"
-    },
-    {
-      "price": 381000,
-      "date": "2026-05-19",
-      "postcode": "CT7 0EH",
+      "price": 355000,
+      "date": "2026-06-16",
+      "postcode": "CT10 1AU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, NOTTINGHAM ROAD"
+      "address": "175, BRADSTOW WAY"
     },
     {
-      "price": 317000,
-      "date": "2026-05-15",
-      "postcode": "CT9 5SW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, BEATRICE ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-15",
-      "postcode": "CT7 0DL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "105, PARK AVENUE"
-    },
-    {
-      "price": 432000,
-      "date": "2026-05-15",
-      "postcode": "CT11 0LS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, DOWNS ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-15",
-      "postcode": "CT9 1QW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, DANE HILL ROW"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-15",
-      "postcode": "CT11 9NG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, HIGHCLIFFE COURT, GRANGE ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-15",
-      "postcode": "CT9 2SJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "201, COLLEGE ROAD"
-    },
-    {
-      "price": 307000,
-      "date": "2026-05-15",
-      "postcode": "CT7 9UB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "334, CANTERBURY ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-14",
-      "postcode": "CT10 3JY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 14, GREYFRIARS COURT, GEORGE HILL ROAD"
-    },
-    {
-      "price": 490000,
-      "date": "2026-05-13",
-      "postcode": "CT9 2JU",
+      "price": 260000,
+      "date": "2026-06-16",
+      "postcode": "CT11 9PG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, WARWICK ROAD"
+      "address": "11, PRIORY ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-16",
+      "postcode": "CT11 9LW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, ELDON GROVE"
+    },
+    {
+      "price": 236000,
+      "date": "2026-06-15",
+      "postcode": "CT9 4NL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, SYCAMORE CLOSE"
+    },
+    {
+      "price": 690000,
+      "date": "2026-06-15",
+      "postcode": "CT10 1QG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, WROTHAM ROAD"
+    },
+    {
+      "price": 745000,
+      "date": "2026-06-15",
+      "postcode": "CT10 3QP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, KINGSGATE AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -218,7 +221,7 @@
     {
       "month": "2024-04",
       "medianPrice": 267500,
-      "transactions": 190
+      "transactions": 191
     },
     {
       "month": "2024-05",
@@ -252,8 +255,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 272500,
-      "transactions": 237
+      "medianPrice": 271250,
+      "transactions": 238
     },
     {
       "month": "2024-12",
@@ -288,62 +291,67 @@
     {
       "month": "2025-06",
       "medianPrice": 272000,
-      "transactions": 195
+      "transactions": 197
     },
     {
       "month": "2025-07",
-      "medianPrice": 268750,
-      "transactions": 218
+      "medianPrice": 270000,
+      "transactions": 223
     },
     {
       "month": "2025-08",
-      "medianPrice": 280000,
-      "transactions": 214
+      "medianPrice": 285000,
+      "transactions": 231
     },
     {
       "month": "2025-09",
-      "medianPrice": 283750,
-      "transactions": 174
+      "medianPrice": 280000,
+      "transactions": 186
     },
     {
       "month": "2025-10",
       "medianPrice": 295000,
-      "transactions": 240
+      "transactions": 248
     },
     {
       "month": "2025-11",
       "medianPrice": 272500,
-      "transactions": 199
+      "transactions": 204
     },
     {
       "month": "2025-12",
       "medianPrice": 295000,
-      "transactions": 158
+      "transactions": 177
     },
     {
       "month": "2026-01",
-      "medianPrice": 253000,
-      "transactions": 122
+      "medianPrice": 255000,
+      "transactions": 129
     },
     {
       "month": "2026-02",
-      "medianPrice": 299500,
-      "transactions": 138
+      "medianPrice": 300000,
+      "transactions": 143
     },
     {
       "month": "2026-03",
       "medianPrice": 280000,
-      "transactions": 138
+      "transactions": 142
     },
     {
       "month": "2026-04",
-      "medianPrice": 275000,
-      "transactions": 123
+      "medianPrice": 273500,
+      "transactions": 134
     },
     {
       "month": "2026-05",
-      "medianPrice": 310000,
-      "transactions": 48
+      "medianPrice": 280000,
+      "transactions": 119
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 250000,
+      "transactions": 49
     }
   ],
   "quarterlyHistory": [
@@ -355,7 +363,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 275000,
-      "transactions": 576
+      "transactions": 577
     },
     {
       "quarter": "2024-Q3",
@@ -365,7 +373,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 280000,
-      "transactions": 695
+      "transactions": 696
     },
     {
       "quarter": "2025-Q1",
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 269000,
-      "transactions": 497
+      "transactions": 499
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 275000,
-      "transactions": 606
+      "medianPrice": 276750,
+      "transactions": 640
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 290000,
-      "transactions": 597
+      "transactions": 629
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 278500,
-      "transactions": 398
+      "medianPrice": 280000,
+      "transactions": 414
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 280000,
-      "transactions": 171
+      "medianPrice": 275000,
+      "transactions": 302
     }
   ]
 }

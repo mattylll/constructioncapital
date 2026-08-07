@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.394Z",
+  "updatedAt": "2026-08-07T08:45:01.499Z",
   "townSlug": "fareham",
   "countySlug": "hampshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "FAREHAM"
+  ],
   "stats": {
-    "medianPrice": 343000,
+    "medianPrice": 345000,
     "medianByType": {
-      "D": 500000,
-      "S": 342250,
+      "D": 514000,
+      "S": 345000,
       "T": 295000,
-      "F": 165000
+      "F": 173000
     },
-    "transactionCount12m": 1449,
-    "yoyChange": -2,
-    "newBuildCount": 12,
-    "existingCount": 1437,
-    "newBuildPremium": 34.5
+    "transactionCount12m": 1467,
+    "yoyChange": 0,
+    "newBuildCount": 16,
+    "existingCount": 1451,
+    "newBuildPremium": 14.8
   },
   "recentTransactions": [
     {
-      "price": 312500,
-      "date": "2026-05-22",
-      "postcode": "SO31 7DH",
+      "price": 290000,
+      "date": "2026-06-26",
+      "postcode": "SO31 6TN",
       "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "10, EMBSAY ROAD"
+      "tenure": "F",
+      "address": "34, PIMPERNEL CLOSE"
     },
     {
       "price": 585000,
-      "date": "2026-05-22",
-      "postcode": "SO31 9BE",
+      "date": "2026-06-25",
+      "postcode": "PO15 5QD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, TRIMARAN ROAD"
+      "address": "37, HEATHFIELD AVENUE"
     },
     {
-      "price": 175000,
-      "date": "2026-05-22",
-      "postcode": "PO15 6ND",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 8, NASHE HOUSE, NASHE WAY"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-22",
-      "postcode": "PO14 3RU",
+      "price": 305000,
+      "date": "2026-06-25",
+      "postcode": "PO15 7EU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, BRAMHAM MOOR"
+      "address": "23, BUCHAN AVENUE"
     },
     {
-      "price": 368500,
-      "date": "2026-05-22",
-      "postcode": "PO14 3AN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, TAMMYS TURN"
-    },
-    {
-      "price": 870000,
-      "date": "2026-05-22",
-      "postcode": "PO15 7BQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, SHIRE CLOSE"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-22",
-      "postcode": "PO14 1EZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, REDLANDS LANE"
-    },
-    {
-      "price": 347000,
-      "date": "2026-05-21",
-      "postcode": "PO16 8HU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, PORTOBELLO GROVE"
-    },
-    {
-      "price": 310000,
-      "date": "2026-05-21",
-      "postcode": "PO16 0TQ",
+      "price": 300000,
+      "date": "2026-06-24",
+      "postcode": "PO15 6BS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, BOSUNS CLOSE"
+      "address": "11, HIGH WALK"
     },
     {
-      "price": 348000,
-      "date": "2026-05-20",
-      "postcode": "PO15 6LQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, PARK FARM AVENUE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-20",
-      "postcode": "PO14 1SW",
+      "price": 335000,
+      "date": "2026-06-22",
+      "postcode": "PO14 4QJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, CLEVELAND DRIVE"
+      "address": "2, STEEPLE WAY"
     },
     {
-      "price": 84000,
-      "date": "2026-05-20",
-      "postcode": "PO16 9FG",
-      "propertyType": "F",
+      "price": 285000,
+      "date": "2026-06-22",
+      "postcode": "PO16 0TY",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "16, SOUTHFIELDS"
+      "tenure": "F",
+      "address": "160, REDLANDS LANE"
     },
     {
       "price": 490000,
-      "date": "2026-05-20",
-      "postcode": "SO31 6NN",
+      "date": "2026-06-22",
+      "postcode": "PO16 8UG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, SUMMERFIELDS"
+      "address": "79, FURZEHALL AVENUE"
     },
     {
-      "price": 75000,
-      "date": "2026-05-19",
-      "postcode": "SO31 7FP",
+      "price": 205000,
+      "date": "2026-06-19",
+      "postcode": "SO31 9GU",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 34, SARISBURY GATE, DOVE GARDENS"
+      "address": "FLAT 6, HAVELOCK COURT, HAVELOCK ROAD"
     },
     {
-      "price": 278000,
-      "date": "2026-05-18",
-      "postcode": "PO15 6EQ",
+      "price": 330000,
+      "date": "2026-06-19",
+      "postcode": "PO16 9NP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, THE GLADE"
+      "address": "48, LONSDALE AVENUE"
     },
     {
-      "price": 275000,
-      "date": "2026-05-18",
-      "postcode": "PO16 0TS",
+      "price": 298000,
+      "date": "2026-06-19",
+      "postcode": "SO31 9JF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "52, COOMBE FARM AVENUE"
+      "address": "218, WARSASH ROAD"
     },
     {
-      "price": 140000,
-      "date": "2026-05-15",
-      "postcode": "PO16 0BQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, FAREHAM QUAYS, 2, ELMHURST ROAD"
-    },
-    {
-      "price": 427500,
-      "date": "2026-05-15",
-      "postcode": "SO31 6LR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, CHURCH CLOSE"
-    },
-    {
-      "price": 310000,
-      "date": "2026-05-15",
-      "postcode": "PO16 7SN",
+      "price": 300000,
+      "date": "2026-06-19",
+      "postcode": "PO16 0PL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "55, COLENSO ROAD"
+      "address": "48B, BELVOIR CLOSE"
     },
     {
-      "price": 400000,
-      "date": "2026-05-15",
-      "postcode": "SO31 1DG",
+      "price": 885000,
+      "date": "2026-06-19",
+      "postcode": "PO16 8US",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, RED OAKS DRIVE"
+      "address": "1, WALLINGTON ORCHARD"
+    },
+    {
+      "price": 243000,
+      "date": "2026-06-19",
+      "postcode": "SO31 7LU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, SOUTHWINDS COURT, 6, CRABLECK LANE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-18",
+      "postcode": "PO14 4NB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, ABSHOT ROAD"
+    },
+    {
+      "price": 343500,
+      "date": "2026-06-18",
+      "postcode": "PO14 1BU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, LONGFIELD AVENUE"
+    },
+    {
+      "price": 415000,
+      "date": "2026-06-17",
+      "postcode": "PO15 6PX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "180, GUDGE HEATH LANE"
+    },
+    {
+      "price": 410000,
+      "date": "2026-06-17",
+      "postcode": "PO14 4SF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, MERRYFIELD"
+    },
+    {
+      "price": 372500,
+      "date": "2026-06-16",
+      "postcode": "PO15 6NP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "69, HILLSON DRIVE"
+    },
+    {
+      "price": 510000,
+      "date": "2026-06-15",
+      "postcode": "PO17 5EF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "106, FUNTLEY ROAD"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-12",
+      "postcode": "PO16 9BP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, WINDSOR ROAD"
     }
   ],
   "monthlyHistory": [
@@ -288,62 +291,67 @@
     {
       "month": "2025-06",
       "medianPrice": 345000,
-      "transactions": 192
+      "transactions": 193
     },
     {
       "month": "2025-07",
-      "medianPrice": 327000,
-      "transactions": 193
+      "medianPrice": 330000,
+      "transactions": 196
     },
     {
       "month": "2025-08",
       "medianPrice": 350000,
-      "transactions": 175
+      "transactions": 187
     },
     {
       "month": "2025-09",
-      "medianPrice": 349973,
-      "transactions": 158
+      "medianPrice": 350000,
+      "transactions": 175
     },
     {
       "month": "2025-10",
       "medianPrice": 350000,
-      "transactions": 176
+      "transactions": 182
     },
     {
       "month": "2025-11",
-      "medianPrice": 327500,
-      "transactions": 151
+      "medianPrice": 335000,
+      "transactions": 158
     },
     {
       "month": "2025-12",
       "medianPrice": 345000,
-      "transactions": 145
+      "transactions": 161
     },
     {
       "month": "2026-01",
       "medianPrice": 350000,
-      "transactions": 99
+      "transactions": 111
     },
     {
       "month": "2026-02",
-      "medianPrice": 343500,
-      "transactions": 127
+      "medianPrice": 344250,
+      "transactions": 128
     },
     {
       "month": "2026-03",
       "medianPrice": 364750,
-      "transactions": 108
+      "transactions": 112
     },
     {
       "month": "2026-04",
       "medianPrice": 325000,
-      "transactions": 86
+      "transactions": 93
     },
     {
       "month": "2026-05",
-      "medianPrice": 340000,
-      "transactions": 61
+      "medianPrice": 327500,
+      "transactions": 136
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 322500,
+      "transactions": 54
     }
   ],
   "quarterlyHistory": [
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 330000,
-      "transactions": 408
+      "transactions": 409
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 340000,
-      "transactions": 526
+      "medianPrice": 346230,
+      "transactions": 558
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 345000,
-      "transactions": 472
+      "transactions": 501
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 350000,
-      "transactions": 334
+      "transactions": 351
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 325000,
-      "transactions": 147
+      "transactions": 283
     }
   ]
 }

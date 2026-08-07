@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.084Z",
+  "updatedAt": "2026-08-07T08:45:01.524Z",
   "townSlug": "slough",
   "countySlug": "berkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SLOUGH"
+  ],
   "marketSnapshot": {
     "medianPrice": 390000,
-    "transactionCount12m": 828,
-    "yoyPriceChange": 4.4,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "transactionCount12m": 821,
+    "yoyPriceChange": 2.8,
+    "approvedApps12m": 1,
+    "approvedRecent": 1,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 2,
+    "pipelineGdv": 780000,
+    "approvalRate": 100
   }
 }

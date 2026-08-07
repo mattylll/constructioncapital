@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.444Z",
+  "updatedAt": "2026-08-07T08:45:03.753Z",
   "townSlug": "bedford",
   "countySlug": "bedfordshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BEDFORD"
+  ],
   "marketSnapshot": {
     "medianPrice": 335000,
-    "transactionCount12m": 1847,
-    "yoyPriceChange": -1.5,
-    "approvedApps12m": 54,
-    "pipelineUnits": 502,
-    "pipelineGdv": 168167750,
-    "approvalRate": 90
+    "transactionCount12m": 1792,
+    "yoyPriceChange": -2.2,
+    "approvedApps12m": 61,
+    "approvedRecent": 61,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 1009,
+    "pipelineGdv": 337454000,
+    "approvalRate": 79
   }
 }

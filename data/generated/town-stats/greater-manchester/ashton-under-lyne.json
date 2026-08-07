@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.531Z",
+  "updatedAt": "2026-08-07T08:45:02.914Z",
   "townSlug": "ashton-under-lyne",
   "countySlug": "greater-manchester",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "TAMESIDE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 203950,
-    "transactionCount12m": 2288,
-    "yoyPriceChange": -0.5,
+    "medianPrice": 205000,
+    "transactionCount12m": 2234,
+    "yoyPriceChange": 0,
     "approvedApps12m": 0,
-    "pipelineUnits": 17,
-    "pipelineGdv": 3074900,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 22,
+    "pipelineGdv": 3919750,
     "approvalRate": 0
   }
 }

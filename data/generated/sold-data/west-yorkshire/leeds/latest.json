@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.944Z",
+  "updatedAt": "2026-08-07T08:45:03.168Z",
   "townSlug": "leeds",
   "countySlug": "west-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "LEEDS"
+  ],
   "stats": {
     "medianPrice": 235000,
     "medianByType": {
-      "D": 420200,
-      "S": 255000,
-      "T": 188125,
-      "F": 148500
+      "D": 424250,
+      "S": 256500,
+      "T": 189000,
+      "F": 147500
     },
-    "transactionCount12m": 8311,
+    "transactionCount12m": 8262,
     "yoyChange": 0,
-    "newBuildCount": 59,
-    "existingCount": 8252,
-    "newBuildPremium": 10.6
+    "newBuildCount": 58,
+    "existingCount": 8204,
+    "newBuildPremium": 17.6
   },
   "recentTransactions": [
     {
-      "price": 70000,
-      "date": "2026-05-27",
-      "postcode": "LS13 3QZ",
+      "price": 185000,
+      "date": "2026-06-29",
+      "postcode": "LS10 3BL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, BRIGHTON CLIFF"
+      "address": "24, BLAKENEY GROVE"
     },
     {
-      "price": 525000,
-      "date": "2026-05-26",
-      "postcode": "LS27 9TF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, HAWKSLEY COURT"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-22",
-      "postcode": "WF10 2DW",
+      "price": 255000,
+      "date": "2026-06-26",
+      "postcode": "LS8 1RD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, MANOR PARK AVENUE"
+      "address": "6, LARKHILL GREEN"
     },
     {
-      "price": 325000,
-      "date": "2026-05-22",
-      "postcode": "LS25 2BQ",
+      "price": 225000,
+      "date": "2026-06-26",
+      "postcode": "LS13 1EP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, ACASTER DRIVE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-22",
-      "postcode": "LS10 4PA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, WESTWOOD COURT"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-22",
-      "postcode": "LS14 5QD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "126, STANKS DRIVE"
-    },
-    {
-      "price": 137000,
-      "date": "2026-05-22",
-      "postcode": "LS27 9PN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "69, SPRINGFIELD ROAD"
-    },
-    {
-      "price": 149500,
-      "date": "2026-05-22",
-      "postcode": "LS12 5LT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, WHITEHALL GREEN"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-22",
-      "postcode": "LS8 4JB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, MARKHAM AVENUE"
-    },
-    {
-      "price": 277000,
-      "date": "2026-05-22",
-      "postcode": "LS26 0EE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, THE OVAL"
-    },
-    {
-      "price": 305000,
-      "date": "2026-05-22",
-      "postcode": "LS25 7SB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, APPLE TREE LANE"
-    },
-    {
-      "price": 205000,
-      "date": "2026-05-21",
-      "postcode": "LS14 1JW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "109, KENTMERE APPROACH"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-21",
-      "postcode": "LS22 7GE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, NORTH GROVE WAY"
-    },
-    {
-      "price": 208000,
-      "date": "2026-05-21",
-      "postcode": "LS25 1EF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, BEECH GROVE AVENUE"
-    },
-    {
-      "price": 340000,
-      "date": "2026-05-21",
-      "postcode": "LS27 7WB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, SUFFIELD CRESCENT"
-    },
-    {
-      "price": 75333,
-      "date": "2026-05-20",
-      "postcode": "LS17 9EL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, THE CLOSE"
+      "address": "440, LEEDS & BRADFORD ROAD"
     },
     {
       "price": 320000,
-      "date": "2026-05-20",
-      "postcode": "LS18 4LZ",
+      "date": "2026-06-26",
+      "postcode": "LS27 0HF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, TINGLEY COMMON"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-26",
+      "postcode": "LS13 4EX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CENTURY FIELDS"
+    },
+    {
+      "price": 205000,
+      "date": "2026-06-26",
+      "postcode": "LS12 4XG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, SUNNYBANK AVENUE"
+      "address": "38, CLIFFE PARK DRIVE"
     },
     {
-      "price": 1650,
-      "date": "2026-05-19",
-      "postcode": "LS18 4SX",
-      "propertyType": "O",
+      "price": 240000,
+      "date": "2026-06-26",
+      "postcode": "LS10 4TX",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "65, NEWLAITHES ROAD"
+      "address": "44, THE CANTER"
     },
     {
-      "price": 242000,
-      "date": "2026-05-19",
-      "postcode": "LS28 6AD",
-      "propertyType": "T",
+      "price": 255000,
+      "date": "2026-06-25",
+      "postcode": "LS15 8PH",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, PALMERSTON CLOSE"
+      "address": "64, KINGSWEAR CRESCENT"
     },
     {
-      "price": 787500,
-      "date": "2026-05-19",
-      "postcode": "LS22 5AG",
+      "price": 375000,
+      "date": "2026-06-25",
+      "postcode": "LS25 7NR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, MILLBECK GREEN"
+      "address": "11, MERTON CLOSE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-24",
+      "postcode": "LS13 4PU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, HARLEY WALK"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-23",
+      "postcode": "LS14 5JL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, MILL GREEN GARDENS"
+    },
+    {
+      "price": 770000,
+      "date": "2026-06-23",
+      "postcode": "LS8 1AG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, TALBOT ROAD"
+    },
+    {
+      "price": 295000,
+      "date": "2026-06-23",
+      "postcode": "LS18 5QJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1A, BREARY TERRACE"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-22",
+      "postcode": "LS18 5SE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE HAWTHORNS, SCOTLAND LANE"
+    },
+    {
+      "price": 482300,
+      "date": "2026-06-22",
+      "postcode": "LS12 5RZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, MAPLE DRIVE"
+    },
+    {
+      "price": 662500,
+      "date": "2026-06-22",
+      "postcode": "LS19 6EQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, LARKFIELD ROAD"
+    },
+    {
+      "price": 295000,
+      "date": "2026-06-22",
+      "postcode": "LS15 8BR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, MANSTON WAY"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-19",
+      "postcode": "LS25 7FN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, ORCHID CLOSE"
+    },
+    {
+      "price": 295000,
+      "date": "2026-06-19",
+      "postcode": "LS11 5QY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, PARKWOOD ROAD"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-19",
+      "postcode": "LS6 2DD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, 33, SHIRE OAK ROAD"
     }
   ],
   "monthlyHistory": [
@@ -212,8 +215,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 221000,
-      "transactions": 967
+      "medianPrice": 221995,
+      "transactions": 969
     },
     {
       "month": "2024-04",
@@ -222,13 +225,13 @@
     },
     {
       "month": "2024-05",
-      "medianPrice": 224000,
-      "transactions": 1067
+      "medianPrice": 224500,
+      "transactions": 1068
     },
     {
       "month": "2024-06",
       "medianPrice": 235000,
-      "transactions": 1132
+      "transactions": 1133
     },
     {
       "month": "2024-07",
@@ -243,12 +246,12 @@
     {
       "month": "2024-09",
       "medianPrice": 240000,
-      "transactions": 1037
+      "transactions": 1038
     },
     {
       "month": "2024-10",
-      "medianPrice": 238000,
-      "transactions": 1209
+      "medianPrice": 237750,
+      "transactions": 1208
     },
     {
       "month": "2024-11",
@@ -258,12 +261,12 @@
     {
       "month": "2024-12",
       "medianPrice": 244000,
-      "transactions": 1278
+      "transactions": 1280
     },
     {
       "month": "2025-01",
       "medianPrice": 225000,
-      "transactions": 866
+      "transactions": 868
     },
     {
       "month": "2025-02",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 245000,
-      "transactions": 1762
+      "transactions": 1766
     },
     {
       "month": "2025-04",
@@ -283,119 +286,124 @@
     {
       "month": "2025-05",
       "medianPrice": 225000,
-      "transactions": 835
+      "transactions": 839
     },
     {
       "month": "2025-06",
       "medianPrice": 240000,
-      "transactions": 1013
+      "transactions": 1020
     },
     {
       "month": "2025-07",
-      "medianPrice": 235250,
-      "transactions": 1101
+      "medianPrice": 236000,
+      "transactions": 1120
     },
     {
       "month": "2025-08",
-      "medianPrice": 235000,
-      "transactions": 1041
+      "medianPrice": 237000,
+      "transactions": 1101
     },
     {
       "month": "2025-09",
       "medianPrice": 235000,
-      "transactions": 960
+      "transactions": 1017
     },
     {
       "month": "2025-10",
-      "medianPrice": 242000,
-      "transactions": 989
+      "medianPrice": 240000,
+      "transactions": 1009
     },
     {
       "month": "2025-11",
-      "medianPrice": 242500,
-      "transactions": 903
+      "medianPrice": 241295,
+      "transactions": 942
     },
     {
       "month": "2025-12",
-      "medianPrice": 235000,
-      "transactions": 842
+      "medianPrice": 238500,
+      "transactions": 920
     },
     {
       "month": "2026-01",
       "medianPrice": 230000,
-      "transactions": 612
+      "transactions": 661
     },
     {
       "month": "2026-02",
-      "medianPrice": 226500,
-      "transactions": 637
+      "medianPrice": 227900,
+      "transactions": 654
     },
     {
       "month": "2026-03",
-      "medianPrice": 232500,
-      "transactions": 657
+      "medianPrice": 232250,
+      "transactions": 674
     },
     {
       "month": "2026-04",
-      "medianPrice": 237000,
-      "transactions": 568
+      "medianPrice": 232000,
+      "transactions": 641
     },
     {
       "month": "2026-05",
-      "medianPrice": 232000,
-      "transactions": 201
+      "medianPrice": 235000,
+      "transactions": 567
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 230000,
+      "transactions": 256
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 218995,
-      "transactions": 2631
+      "transactions": 2633
     },
     {
       "quarter": "2024-Q2",
       "medianPrice": 225000,
-      "transactions": 3115
+      "transactions": 3117
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 234475,
-      "transactions": 3216
+      "medianPrice": 234000,
+      "transactions": 3217
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 240000,
-      "transactions": 3716
+      "transactions": 3717
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 236250,
-      "transactions": 3688
+      "transactions": 3694
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 230000,
-      "transactions": 2471
+      "transactions": 2482
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 235000,
-      "transactions": 3102
+      "medianPrice": 235625,
+      "transactions": 3238
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 240000,
-      "transactions": 2734
+      "transactions": 2871
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 230000,
-      "transactions": 1906
+      "transactions": 1989
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 235000,
-      "transactions": 769
+      "medianPrice": 231672,
+      "transactions": 1464
     }
   ]
 }

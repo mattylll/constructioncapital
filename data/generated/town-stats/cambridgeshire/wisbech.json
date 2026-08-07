@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.424Z",
+  "updatedAt": "2026-08-07T08:45:03.735Z",
   "townSlug": "wisbech",
   "countySlug": "cambridgeshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "FENLAND"
+  ],
   "marketSnapshot": {
-    "medianPrice": 209000,
-    "transactionCount12m": 430,
-    "yoyPriceChange": 4.1,
+    "medianPrice": 206000,
+    "transactionCount12m": 416,
+    "yoyPriceChange": 0.5,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

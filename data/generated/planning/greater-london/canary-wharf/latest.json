@@ -1,29 +1,49 @@
 {
-  "updatedAt": "2026-08-02T01:30:57.100Z",
+  "updatedAt": "2026-08-06T12:41:30.588Z",
   "townSlug": "canary-wharf",
   "countySlug": "greater-london",
   "localAuthority": "London Borough of Tower Hamlets",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-02",
-    "to": "2026-08-02",
-    "retrievedAt": "2026-08-02T01:30:57.098Z"
+    "from": "2026-05-06",
+    "to": "2026-08-06",
+    "retrievedAt": "2026-08-06T12:41:30.588Z"
   },
   "summary": {
-    "total": 413,
-    "relevant": 0,
+    "total": 449,
+    "relevant": 1,
     "approved": 0,
-    "pending": 0,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 0,
-    "totalUnits": 0,
+    "pendingUnits": 1,
+    "totalUnits": 1,
     "approvedGdv": 0,
-    "pendingGdv": 0,
-    "totalEstimatedGDV": 0,
+    "pendingGdv": 471356,
+    "totalEstimatedGDV": 471356,
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "PA/26/01288/NC",
+      "address": "9 Swedenborg Gardens, London, E1 8HP",
+      "postcode": "E1 8HP",
+      "ward": "",
+      "proposal": "Change of use from C3 dwelling to children?s home (C2) serving as a permanent home for three Towe...",
+      "category": "other_residential",
+      "units": 1,
+      "estimatedGdv": 471356,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "27/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=DCAPR_151177"
+    }
+  ]
 }

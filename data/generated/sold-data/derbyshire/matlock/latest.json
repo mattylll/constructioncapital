@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.345Z",
+  "updatedAt": "2026-08-07T08:45:02.501Z",
   "townSlug": "matlock",
   "countySlug": "derbyshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "DERBYSHIRE DALES"
+  ],
   "stats": {
     "medianPrice": 315000,
     "medianByType": {
       "D": 460000,
-      "S": 275000,
+      "S": 274000,
       "T": 235000,
       "F": 181875
     },
-    "transactionCount12m": 796,
-    "yoyChange": 0.3,
-    "newBuildCount": 9,
-    "existingCount": 787,
-    "newBuildPremium": 19
+    "transactionCount12m": 834,
+    "yoyChange": 1.6,
+    "newBuildCount": 7,
+    "existingCount": 827,
+    "newBuildPremium": -9.5
   },
   "recentTransactions": [
     {
-      "price": 263000,
-      "date": "2026-05-28",
-      "postcode": "DE4 2HY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, NORTH PARK"
-    },
-    {
-      "price": 183750,
-      "date": "2026-05-21",
-      "postcode": "DE4 4DT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 9, WALTHAM HOUSE, ST JOHN STREET"
-    },
-    {
-      "price": 178000,
-      "date": "2026-05-19",
-      "postcode": "DE4 2HZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, PARK VIEW"
-    },
-    {
-      "price": 340000,
-      "date": "2026-05-19",
-      "postcode": "DE4 4AD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, GORSEY BANK"
-    },
-    {
-      "price": 377500,
-      "date": "2026-05-15",
-      "postcode": "DE6 1EH",
+      "price": 675000,
+      "date": "2026-06-23",
+      "postcode": "DE4 5JE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, MANOR ROAD"
+      "address": "232, STARKHOLMES ROAD"
     },
     {
-      "price": 155000,
-      "date": "2026-05-15",
-      "postcode": "DE45 1BA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "17, HOLYWELL"
-    },
-    {
-      "price": 685000,
-      "date": "2026-05-14",
-      "postcode": "DE6 1ED",
+      "price": 310000,
+      "date": "2026-06-19",
+      "postcode": "DE6 1BN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, THE GREEN ROAD"
+      "address": "21, OLD DERBY ROAD"
     },
     {
-      "price": 435000,
-      "date": "2026-05-11",
-      "postcode": "DE45 1RP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, DERWENT VIEW, CALVER ROAD"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-08",
-      "postcode": "DE4 3GE",
+      "price": 264000,
+      "date": "2026-06-19",
+      "postcode": "DE6 3GX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, WELLINGTON CLOSE"
+      "address": "25, SYCAMORE WAY"
     },
     {
-      "price": 260000,
-      "date": "2026-05-08",
-      "postcode": "SK17 8NZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8A, WHITECROSS AVENUE"
-    },
-    {
-      "price": 383000,
-      "date": "2026-05-08",
-      "postcode": "DE6 3GZ",
+      "price": 375000,
+      "date": "2026-06-17",
+      "postcode": "DE6 1AW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, ELMS VIEW"
+      "address": "EYEWELL COTTAGE, COACHMANS CLOSE"
     },
     {
-      "price": 292500,
-      "date": "2026-05-08",
-      "postcode": "DE4 2FU",
-      "propertyType": "S",
+      "price": 450000,
+      "date": "2026-06-15",
+      "postcode": "DE6 5LX",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, WEAVERS ROAD"
+      "address": "CHERRY HINTON, PUMP LANE"
     },
     {
       "price": 180000,
-      "date": "2026-05-08",
-      "postcode": "DE4 4PB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, GREENWAY CROFT"
-    },
-    {
-      "price": 180500,
-      "date": "2026-05-08",
-      "postcode": "DE4 3BA",
+      "date": "2026-06-12",
+      "postcode": "DE6 1GA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "196, BAKEWELL ROAD"
+      "address": "49, PARK AVENUE"
     },
     {
-      "price": 390000,
-      "date": "2026-05-08",
-      "postcode": "DE6 2EY",
+      "price": 222500,
+      "date": "2026-06-12",
+      "postcode": "SK17 8HR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DEAN COTTAGE, SHERWOOD ROAD"
+    },
+    {
+      "price": 440000,
+      "date": "2026-06-12",
+      "postcode": "DE6 3EP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, THE ELMS"
+      "address": "CHAPEL HOUSE"
     },
     {
-      "price": 210777,
-      "date": "2026-05-07",
-      "postcode": "DE6 1BL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, OLD HILL"
-    },
-    {
-      "price": 430000,
-      "date": "2026-05-07",
-      "postcode": "DE4 4NZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, PORTER LANE"
-    },
-    {
-      "price": 625000,
-      "date": "2026-05-07",
-      "postcode": "DE4 4FR",
+      "price": 565000,
+      "date": "2026-06-11",
+      "postcode": "DE6 1TQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "44, CROMFORD ROAD"
+      "address": "10, DAVENPORT GROVE"
     },
     {
-      "price": 235000,
-      "date": "2026-05-06",
-      "postcode": "DE4 4DW",
+      "price": 130000,
+      "date": "2026-06-10",
+      "postcode": "DE4 3GN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 6, RUTLAND COURT, RUTLAND STREET"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-08",
+      "postcode": "DE4 2GU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CROWSTONES HOUSE, CROWSTONES ROAD"
+    },
+    {
+      "price": 330000,
+      "date": "2026-06-05",
+      "postcode": "DE45 1JH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRINSLEY COTTAGE, CHURCH STREET"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-05",
+      "postcode": "DE4 4DZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, WATER LANE"
+    },
+    {
+      "price": 540000,
+      "date": "2026-06-05",
+      "postcode": "DE4 3GY",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CLAREMONT PENTECOSTAL EVENTIDE HOME, 68, CAVENDISH ROAD"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-05",
+      "postcode": "DE4 3SD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "72, MORLEDGE"
+    },
+    {
+      "price": 355000,
+      "date": "2026-06-05",
+      "postcode": "DE4 4DJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, YOKECLIFFE AVENUE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-05",
+      "postcode": "DE4 5NR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12, BAILEYS MILL"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-05",
+      "postcode": "DE4 3EZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, NETHER GARDENS"
+      "address": "2, THE BEECHES"
     },
     {
-      "price": 225000,
-      "date": "2026-05-06",
-      "postcode": "DE4 4GY",
-      "propertyType": "S",
+      "price": 175000,
+      "date": "2026-06-05",
+      "postcode": "DE4 3FN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, CAVENDISH APARTMENTS, CAVENDISH ROAD"
+    },
+    {
+      "price": 550000,
+      "date": "2026-06-04",
+      "postcode": "SK17 0AW",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, BARNES CROFT"
+      "address": "OLD DAME SCHOOL, CHURCH STREET"
     }
   ],
   "monthlyHistory": [
@@ -278,12 +281,12 @@
     {
       "month": "2025-04",
       "medianPrice": 270000,
-      "transactions": 56
+      "transactions": 58
     },
     {
       "month": "2025-05",
-      "medianPrice": 275000,
-      "transactions": 81
+      "medianPrice": 277000,
+      "transactions": 83
     },
     {
       "month": "2025-06",
@@ -293,56 +296,61 @@
     {
       "month": "2025-07",
       "medianPrice": 315000,
-      "transactions": 101
+      "transactions": 103
     },
     {
       "month": "2025-08",
-      "medianPrice": 330000,
-      "transactions": 97
+      "medianPrice": 336250,
+      "transactions": 102
     },
     {
       "month": "2025-09",
-      "medianPrice": 320500,
-      "transactions": 84
+      "medianPrice": 321500,
+      "transactions": 86
     },
     {
       "month": "2025-10",
-      "medianPrice": 325000,
-      "transactions": 119
+      "medianPrice": 320000,
+      "transactions": 127
     },
     {
       "month": "2025-11",
-      "medianPrice": 368000,
-      "transactions": 91
+      "medianPrice": 351500,
+      "transactions": 94
     },
     {
       "month": "2025-12",
-      "medianPrice": 310000,
-      "transactions": 68
+      "medianPrice": 307500,
+      "transactions": 76
     },
     {
       "month": "2026-01",
-      "medianPrice": 305500,
-      "transactions": 70
+      "medianPrice": 297000,
+      "transactions": 75
     },
     {
       "month": "2026-02",
-      "medianPrice": 297998,
-      "transactions": 62
+      "medianPrice": 304998,
+      "transactions": 64
     },
     {
       "month": "2026-03",
-      "medianPrice": 342500,
-      "transactions": 54
+      "medianPrice": 317500,
+      "transactions": 60
     },
     {
       "month": "2026-04",
-      "medianPrice": 279300,
-      "transactions": 45
+      "medianPrice": 275000,
+      "transactions": 55
     },
     {
       "month": "2026-05",
-      "medianPrice": 269000,
+      "medianPrice": 295000,
+      "transactions": 75
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 318500,
       "transactions": 30
     }
   ],
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 280000,
-      "transactions": 243
+      "medianPrice": 285000,
+      "transactions": 247
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 320000,
-      "transactions": 282
+      "medianPrice": 322000,
+      "transactions": 291
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 322500,
-      "transactions": 278
+      "medianPrice": 320000,
+      "transactions": 297
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 314500,
-      "transactions": 186
+      "medianPrice": 310000,
+      "transactions": 199
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 275000,
-      "transactions": 75
+      "medianPrice": 293750,
+      "transactions": 160
     }
   ]
 }

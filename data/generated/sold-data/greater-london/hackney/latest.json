@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:54.618Z",
+  "updatedAt": "2026-08-07T08:45:00.691Z",
   "townSlug": "hackney",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "HACKNEY"
+  ],
   "stats": {
-    "medianPrice": 555000,
+    "medianPrice": 550000,
     "medianByType": {
       "D": 1055000,
       "S": 1400000,
-      "T": 1120421,
+      "T": 1107000,
       "F": 500000
     },
-    "transactionCount12m": 1652,
-    "yoyChange": -1.8,
-    "newBuildCount": 70,
-    "existingCount": 1582,
-    "newBuildPremium": -15.9
+    "transactionCount12m": 1647,
+    "yoyChange": -3.5,
+    "newBuildCount": 69,
+    "existingCount": 1578,
+    "newBuildPremium": -18.3
   },
   "recentTransactions": [
     {
-      "price": 900000,
-      "date": "2026-05-27",
-      "postcode": "N4 2GQ",
+      "price": 450000,
+      "date": "2026-06-30",
+      "postcode": "N16 0QU",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 75, KINGLY BUILDING, 18, WOODBERRY DOWN"
+      "address": "27, ARBOR COURT"
     },
     {
       "price": 420000,
-      "date": "2026-05-27",
-      "postcode": "N1 7ES",
+      "date": "2026-06-29",
+      "postcode": "N16 7NB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 105, BRACKLYN COURT, WIMBOURNE STREET"
+      "address": "91A, BAYSTON ROAD"
     },
     {
-      "price": 630000,
-      "date": "2026-05-22",
-      "postcode": "E9 6EN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, TRESHAM WALK"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-22",
-      "postcode": "N16 6AX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7G, 117, CAZENOVE ROAD"
-    },
-    {
-      "price": 485000,
-      "date": "2026-05-22",
-      "postcode": "N1 7SH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 119, ROYLE BUILDING, 31, WENLOCK ROAD"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-22",
-      "postcode": "E9 5PN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, EDRED HOUSE, HOMERTON ROAD"
-    },
-    {
-      "price": 735000,
-      "date": "2026-05-20",
-      "postcode": "N1 5QS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 19, HERTFORD WHARF, 20, HERTFORD ROAD"
-    },
-    {
-      "price": 755000,
-      "date": "2026-05-20",
-      "postcode": "E5 0NF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "23, DUNLACE ROAD"
-    },
-    {
-      "price": 1400000,
-      "date": "2026-05-20",
-      "postcode": "E5 0LZ",
-      "propertyType": "T",
+      "price": 526000,
+      "date": "2026-06-24",
+      "postcode": "E8 1NG",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "92, GLENARM ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-19",
-      "postcode": "N16 5AJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 40, JOSEPH COURT, AMHURST PARK"
+      "address": "170, DALSTON LANE"
     },
     {
       "price": 510000,
-      "date": "2026-05-19",
-      "postcode": "N16 7SW",
+      "date": "2026-06-19",
+      "postcode": "E5 9NW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 44, HEATHERLEY COURT, EVERING ROAD"
+      "address": "11, INVER CLOSE"
     },
     {
-      "price": 900000,
-      "date": "2026-05-18",
-      "postcode": "N16 6EJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "70, DARENTH ROAD"
-    },
-    {
-      "price": 340537,
-      "date": "2026-05-15",
-      "postcode": "N16 7RJ",
+      "price": 622500,
+      "date": "2026-06-19",
+      "postcode": "N16 9JW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FIRST FLOOR FLAT, 107, BROOKE ROAD"
+      "address": "FLAT 14, SUTHERLAND COURT, 203, ALBION ROAD"
     },
     {
-      "price": 538000,
-      "date": "2026-05-15",
-      "postcode": "E8 3GU",
+      "price": 450000,
+      "date": "2026-06-19",
+      "postcode": "N4 2BN",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 54, THOMAS TOWER, DALSTON SQUARE"
+      "address": "FLAT 5, KIMPTON COURT, 2, MURRAIN ROAD"
     },
     {
-      "price": 650000,
-      "date": "2026-05-15",
-      "postcode": "E2 8JD",
+      "price": 450000,
+      "date": "2026-06-19",
+      "postcode": "N16 6XF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "2A, PEARSON STREET"
+      "address": "FLAT 11, ARK COURT, 54A, ALKHAM ROAD"
     },
     {
-      "price": 681074,
-      "date": "2026-05-15",
-      "postcode": "N16 7RJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "107, BROOKE ROAD"
-    },
-    {
-      "price": 495000,
-      "date": "2026-05-15",
-      "postcode": "N4 2XL",
+      "price": 505000,
+      "date": "2026-06-18",
+      "postcode": "N4 2BD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 38, THERFIELD COURT, BROWNSWOOD ROAD"
+      "address": "FLAT 5, ST JOHNS COURT, QUEEN'S DRIVE"
     },
     {
-      "price": 400000,
-      "date": "2026-05-14",
-      "postcode": "E9 7HS",
+      "price": 582500,
+      "date": "2026-06-16",
+      "postcode": "E8 3GD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "10, ST AGNES CLOSE"
+      "address": "FLAT 13, MARLEY HOUSE, ROSEBERRY PLACE"
     },
     {
-      "price": 377175,
-      "date": "2026-05-14",
-      "postcode": "E5 8NS",
+      "price": 945000,
+      "date": "2026-06-15",
+      "postcode": "N16 7LS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "74, CRICKETFIELD ROAD"
+      "address": "8A, BROOKE ROAD"
+    },
+    {
+      "price": 645000,
+      "date": "2026-06-15",
+      "postcode": "E5 8DE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 02.09, OTTO BUILDING, DOWNS ROAD"
+    },
+    {
+      "price": 487000,
+      "date": "2026-06-12",
+      "postcode": "E9 7HD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT C, 213, VICTORIA PARK ROAD"
+    },
+    {
+      "price": 585000,
+      "date": "2026-06-12",
+      "postcode": "E5 0DA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, CALDECOTT WAY"
+    },
+    {
+      "price": 558680,
+      "date": "2026-06-12",
+      "postcode": "N1 7RA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, BARLOW HOUSE, PROVOST ESTATE"
+    },
+    {
+      "price": 775000,
+      "date": "2026-06-12",
+      "postcode": "N5 2LT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "62A, MOUNTGROVE ROAD"
+    },
+    {
+      "price": 212500,
+      "date": "2026-06-12",
+      "postcode": "N1 7JL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 25, ANGEL WHARF, 164, SHEPHERDESS WALK"
+    },
+    {
+      "price": 630000,
+      "date": "2026-06-11",
+      "postcode": "E8 3AH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 42, 66, DALSTON LANE"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-11",
+      "postcode": "E5 8DE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 11.01, OTTO BUILDING, DOWNS ROAD"
+    },
+    {
+      "price": 1400000,
+      "date": "2026-06-11",
+      "postcode": "N1 6PB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "THIRD FLOOR FLAT, 53, HOXTON SQUARE"
     },
     {
       "price": 710000,
-      "date": "2026-05-13",
-      "postcode": "E8 1JP",
+      "date": "2026-06-10",
+      "postcode": "E8 3FS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 4, 14, BRETT ROAD"
+      "address": "FLAT 10, DEKKER HOUSE, DALSTON SQUARE"
     }
   ],
   "monthlyHistory": [
@@ -223,7 +226,7 @@
     {
       "month": "2024-05",
       "medianPrice": 600000,
-      "transactions": 261
+      "transactions": 262
     },
     {
       "month": "2024-06",
@@ -253,12 +256,12 @@
     {
       "month": "2024-11",
       "medianPrice": 540000,
-      "transactions": 370
+      "transactions": 371
     },
     {
       "month": "2024-12",
-      "medianPrice": 551772,
-      "transactions": 230
+      "medianPrice": 552543,
+      "transactions": 231
     },
     {
       "month": "2025-01",
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 560675,
-      "transactions": 563
+      "medianPrice": 560338,
+      "transactions": 566
     },
     {
       "month": "2025-04",
@@ -283,67 +286,72 @@
     {
       "month": "2025-05",
       "medianPrice": 565000,
-      "transactions": 179
+      "transactions": 181
     },
     {
       "month": "2025-06",
       "medianPrice": 580000,
-      "transactions": 186
+      "transactions": 188
     },
     {
       "month": "2025-07",
       "medianPrice": 605000,
-      "transactions": 228
+      "transactions": 237
     },
     {
       "month": "2025-08",
-      "medianPrice": 535316,
-      "transactions": 281
+      "medianPrice": 544795,
+      "transactions": 302
     },
     {
       "month": "2025-09",
-      "medianPrice": 583750,
-      "transactions": 204
+      "medianPrice": 600000,
+      "transactions": 227
     },
     {
       "month": "2025-10",
-      "medianPrice": 569625,
-      "transactions": 182
+      "medianPrice": 570000,
+      "transactions": 185
     },
     {
       "month": "2025-11",
-      "medianPrice": 615000,
-      "transactions": 183
+      "medianPrice": 621000,
+      "transactions": 196
     },
     {
       "month": "2025-12",
-      "medianPrice": 518000,
-      "transactions": 149
+      "medianPrice": 520000,
+      "transactions": 171
     },
     {
       "month": "2026-01",
-      "medianPrice": 540000,
-      "transactions": 117
+      "medianPrice": 555425,
+      "transactions": 138
     },
     {
       "month": "2026-02",
       "medianPrice": 500000,
-      "transactions": 113
+      "transactions": 117
     },
     {
       "month": "2026-03",
-      "medianPrice": 575500,
-      "transactions": 112
+      "medianPrice": 576000,
+      "transactions": 123
     },
     {
       "month": "2026-04",
-      "medianPrice": 545000,
-      "transactions": 84
+      "medianPrice": 530000,
+      "transactions": 99
     },
     {
       "month": "2026-05",
-      "medianPrice": 534000,
-      "transactions": 42
+      "medianPrice": 511250,
+      "transactions": 102
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 543340,
+      "transactions": 36
     }
   ],
   "quarterlyHistory": [
@@ -355,7 +363,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 640000,
-      "transactions": 694
+      "transactions": 695
     },
     {
       "quarter": "2024-Q3",
@@ -365,37 +373,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 563530,
-      "transactions": 915
+      "transactions": 917
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 565500,
-      "transactions": 998
+      "medianPrice": 565000,
+      "transactions": 1001
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 565000,
-      "transactions": 494
+      "transactions": 498
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 565000,
-      "transactions": 713
+      "medianPrice": 577825,
+      "transactions": 766
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 565335,
-      "transactions": 514
+      "medianPrice": 569625,
+      "transactions": 552
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 543250,
-      "transactions": 342
+      "medianPrice": 550000,
+      "transactions": 378
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 541500,
-      "transactions": 126
+      "medianPrice": 525000,
+      "transactions": 237
     }
   ]
 }

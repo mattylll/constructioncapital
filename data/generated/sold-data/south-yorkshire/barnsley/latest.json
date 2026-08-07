@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.118Z",
+  "updatedAt": "2026-08-07T08:45:03.346Z",
   "townSlug": "barnsley",
   "countySlug": "south-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BARNSLEY"
+  ],
   "stats": {
-    "medianPrice": 162000,
+    "medianPrice": 165000,
     "medianByType": {
-      "D": 299375,
-      "S": 172000,
-      "T": 121500,
-      "F": 94000
+      "D": 292000,
+      "S": 174125,
+      "T": 122000,
+      "F": 95000
     },
-    "transactionCount12m": 2136,
-    "yoyChange": -1.8,
-    "newBuildCount": 22,
-    "existingCount": 2114,
-    "newBuildPremium": 3.3
+    "transactionCount12m": 2185,
+    "yoyChange": 0,
+    "newBuildCount": 16,
+    "existingCount": 2169,
+    "newBuildPremium": 9.3
   },
   "recentTransactions": [
     {
-      "price": 175000,
-      "date": "2026-05-27",
-      "postcode": "S75 4QS",
+      "price": 198333,
+      "date": "2026-06-30",
+      "postcode": "S70 3RW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, MOOR END LANE"
+      "address": "126, BARNSBRIDGE GROVE"
     },
     {
-      "price": 95000,
-      "date": "2026-05-22",
-      "postcode": "S71 1DA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, DENTON STREET"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-22",
-      "postcode": "S71 3AH",
+      "price": 156000,
+      "date": "2026-06-30",
+      "postcode": "S71 1RP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "113, LAITHES LANE"
+      "address": "352, WAKEFIELD ROAD"
     },
     {
-      "price": 220000,
-      "date": "2026-05-22",
-      "postcode": "S70 3JZ",
+      "price": 232000,
+      "date": "2026-06-26",
+      "postcode": "S71 2GG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, HONEYSUCKLE GARDENS"
+      "address": "37, BRETTON WAY"
     },
     {
-      "price": 165000,
-      "date": "2026-05-22",
-      "postcode": "S75 1PW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "474, HIGHAM COMMON ROAD"
-    },
-    {
-      "price": 63000,
-      "date": "2026-05-22",
-      "postcode": "S74 8AX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "20, OAKEN ROYD CROFT"
-    },
-    {
-      "price": 313500,
-      "date": "2026-05-21",
-      "postcode": "S75 1EX",
+      "price": 300000,
+      "date": "2026-06-24",
+      "postcode": "S75 6JB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, HALL BANK"
-    },
-    {
-      "price": 195000,
-      "date": "2026-05-21",
-      "postcode": "S75 5PN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, HEDGE LANE"
-    },
-    {
-      "price": 110000,
-      "date": "2026-05-21",
-      "postcode": "S70 5UY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "94, SHEFFIELD ROAD"
-    },
-    {
-      "price": 278000,
-      "date": "2026-05-20",
-      "postcode": "S75 2LA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "188, POGMOOR ROAD"
-    },
-    {
-      "price": 97000,
-      "date": "2026-05-20",
-      "postcode": "S70 1NE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, POND STREET"
-    },
-    {
-      "price": 80000,
-      "date": "2026-05-19",
-      "postcode": "S70 6RN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "16, CAISTOR AVENUE"
-    },
-    {
-      "price": 70000,
-      "date": "2026-05-19",
-      "postcode": "S73 9JU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, SNAPE HILL ROAD"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-18",
-      "postcode": "S72 8TG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, SIDCOP VIEW, SIDCOP ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-18",
-      "postcode": "S73 9JH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, RIVERSIDE CLOSE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-15",
-      "postcode": "S73 0RZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, OVERDALE ROAD"
+      "address": "1, BOURNE COURT"
     },
     {
       "price": 105000,
-      "date": "2026-05-15",
-      "postcode": "S74 0NT",
+      "date": "2026-06-19",
+      "postcode": "S72 8LS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, KAY STREET"
+      "address": "13, QUARRY STREET"
     },
     {
-      "price": 190000,
-      "date": "2026-05-15",
-      "postcode": "S70 5BD",
+      "price": 200000,
+      "date": "2026-06-19",
+      "postcode": "S73 0NB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, VERNON ROAD"
+      "address": "53, WOOD WALK"
     },
     {
-      "price": 285000,
-      "date": "2026-05-15",
-      "postcode": "S75 1FW",
+      "price": 155000,
+      "date": "2026-06-19",
+      "postcode": "S71 3SE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, ATHERSLEY ROAD"
+    },
+    {
+      "price": 255000,
+      "date": "2026-06-19",
+      "postcode": "S75 3TF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, MILLERS GROVE"
+      "address": "4, HOLLIN CROFT"
     },
     {
-      "price": 165000,
-      "date": "2026-05-15",
-      "postcode": "S71 5JA",
+      "price": 300000,
+      "date": "2026-06-19",
+      "postcode": "S71 4GJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, PARISH ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-19",
+      "postcode": "S73 9NR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, DARTREE CLOSE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-15",
+      "postcode": "S75 1LD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, HIGHAM COMMON ROAD"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-15",
+      "postcode": "S73 0FD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, THE SIDINGS"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-15",
+      "postcode": "S73 0WH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "127, HAROLD AVENUE"
+      "address": "80, LUNDHILL DRIVE"
+    },
+    {
+      "price": 216000,
+      "date": "2026-06-12",
+      "postcode": "S71 1AB",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, PONTEFRACT ROAD"
+    },
+    {
+      "price": 75000,
+      "date": "2026-06-12",
+      "postcode": "S71 1EF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, WINDERMERE ROAD"
+    },
+    {
+      "price": 115000,
+      "date": "2026-06-12",
+      "postcode": "S70 3EP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, VICTORIA STREET"
+    },
+    {
+      "price": 52500,
+      "date": "2026-06-12",
+      "postcode": "S73 0AG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, MARSH STREET"
+    },
+    {
+      "price": 236500,
+      "date": "2026-06-12",
+      "postcode": "S75 4ND",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "64, MANOR PARK"
+    },
+    {
+      "price": 163000,
+      "date": "2026-06-12",
+      "postcode": "S74 9DY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, BROAD STREET"
+    },
+    {
+      "price": 154000,
+      "date": "2026-06-12",
+      "postcode": "S70 6EZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WESTFIELD STREET"
     }
   ],
   "monthlyHistory": [
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 174000,
-      "transactions": 462
+      "medianPrice": 173000,
+      "transactions": 463
     },
     {
       "month": "2025-04",
@@ -282,68 +285,73 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 175000,
-      "transactions": 296
+      "medianPrice": 174500,
+      "transactions": 298
     },
     {
       "month": "2025-06",
       "medianPrice": 165000,
-      "transactions": 293
+      "transactions": 294
     },
     {
       "month": "2025-07",
-      "medianPrice": 160000,
-      "transactions": 252
+      "medianPrice": 165000,
+      "transactions": 262
     },
     {
       "month": "2025-08",
-      "medianPrice": 164000,
-      "transactions": 249
+      "medianPrice": 165000,
+      "transactions": 257
     },
     {
       "month": "2025-09",
-      "medianPrice": 157000,
-      "transactions": 241
+      "medianPrice": 158000,
+      "transactions": 249
     },
     {
       "month": "2025-10",
-      "medianPrice": 170000,
-      "transactions": 249
+      "medianPrice": 168500,
+      "transactions": 254
     },
     {
       "month": "2025-11",
       "medianPrice": 160000,
-      "transactions": 262
+      "transactions": 282
     },
     {
       "month": "2025-12",
-      "medianPrice": 162750,
-      "transactions": 194
+      "medianPrice": 168000,
+      "transactions": 222
     },
     {
       "month": "2026-01",
       "medianPrice": 168000,
-      "transactions": 177
+      "transactions": 189
     },
     {
       "month": "2026-02",
-      "medianPrice": 161500,
-      "transactions": 169
+      "medianPrice": 165000,
+      "transactions": 176
     },
     {
       "month": "2026-03",
-      "medianPrice": 156000,
-      "transactions": 182
+      "medianPrice": 157000,
+      "transactions": 189
     },
     {
       "month": "2026-04",
-      "medianPrice": 151500,
-      "transactions": 138
+      "medianPrice": 148000,
+      "transactions": 157
     },
     {
       "month": "2026-05",
-      "medianPrice": 173500,
-      "transactions": 72
+      "medianPrice": 175000,
+      "transactions": 177
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 165750,
+      "transactions": 75
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 165000,
-      "transactions": 935
+      "transactions": 936
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 165000,
-      "transactions": 752
+      "transactions": 755
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 160000,
-      "transactions": 742
+      "medianPrice": 162000,
+      "transactions": 768
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 165000,
-      "transactions": 705
+      "transactions": 758
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 164750,
-      "transactions": 528
+      "medianPrice": 165000,
+      "transactions": 554
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 159750,
-      "transactions": 210
+      "medianPrice": 161000,
+      "transactions": 409
     }
   ]
 }

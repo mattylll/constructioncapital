@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.676Z",
+  "updatedAt": "2026-08-07T08:45:03.052Z",
   "townSlug": "chester",
   "countySlug": "cheshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CHESHIRE WEST AND CHESTER"
+  ],
   "marketSnapshot": {
-    "medianPrice": 280000,
-    "transactionCount12m": 1508,
-    "yoyPriceChange": 2,
-    "approvedApps12m": 61,
-    "pipelineUnits": 344,
-    "pipelineGdv": 91739000,
-    "approvalRate": 98
+    "medianPrice": 275000,
+    "transactionCount12m": 1501,
+    "yoyPriceChange": 0,
+    "approvedApps12m": 72,
+    "approvedRecent": 72,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 925,
+    "pipelineGdv": 257458750,
+    "approvalRate": 99
   }
 }

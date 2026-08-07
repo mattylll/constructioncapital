@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.235Z",
+  "updatedAt": "2026-08-07T08:45:00.702Z",
   "townSlug": "bermondsey",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "SOUTHWARK"
+  ],
   "marketSnapshot": {
-    "medianPrice": 520000,
-    "transactionCount12m": 2268,
-    "yoyPriceChange": -1,
+    "medianPrice": 511624,
+    "transactionCount12m": 2158,
+    "yoyPriceChange": -2.5,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

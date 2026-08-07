@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.130Z",
+  "updatedAt": "2026-08-07T08:45:02.508Z",
   "townSlug": "belper",
   "countySlug": "derbyshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "AMBER VALLEY"
+  ],
   "marketSnapshot": {
-    "medianPrice": 216750,
-    "transactionCount12m": 1596,
-    "yoyPriceChange": -5.8,
+    "medianPrice": 216250,
+    "transactionCount12m": 1542,
+    "yoyPriceChange": -4.7,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

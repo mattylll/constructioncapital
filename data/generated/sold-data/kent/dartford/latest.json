@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.149Z",
+  "updatedAt": "2026-08-07T08:45:01.251Z",
   "townSlug": "dartford",
   "countySlug": "kent",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "DARTFORD"
+  ],
   "stats": {
-    "medianPrice": 364000,
+    "medianPrice": 363000,
     "medianByType": {
-      "D": 630000,
-      "S": 435000,
-      "T": 350000,
+      "D": 645000,
+      "S": 440000,
+      "T": 355000,
       "F": 225000
     },
-    "transactionCount12m": 1224,
-    "yoyChange": -0.3,
-    "newBuildCount": 5,
-    "existingCount": 1219,
-    "newBuildPremium": 26.4
+    "transactionCount12m": 1221,
+    "yoyChange": -0.5,
+    "newBuildCount": 9,
+    "existingCount": 1212,
+    "newBuildPremium": 41.4
   },
   "recentTransactions": [
     {
-      "price": 312000,
-      "date": "2026-05-27",
-      "postcode": "DA9 9HN",
+      "price": 340000,
+      "date": "2026-06-25",
+      "postcode": "DA10 0LU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "66, INGRESS GARDENS"
+      "address": "25, BROOMFIELD ROAD"
     },
     {
-      "price": 325000,
-      "date": "2026-05-21",
-      "postcode": "DA1 1JL",
-      "propertyType": "T",
+      "price": 700000,
+      "date": "2026-06-19",
+      "postcode": "DA3 7LA",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, INGRAM ROAD"
+      "address": "61, LONGFIELD AVENUE"
     },
     {
-      "price": 517500,
-      "date": "2026-05-20",
-      "postcode": "DA10 1DN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, OUTRED PLACE"
-    },
-    {
-      "price": 345000,
-      "date": "2026-05-20",
-      "postcode": "DA1 5DU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, LITTLEBROOK MANORWAY"
-    },
-    {
-      "price": 460000,
-      "date": "2026-05-19",
-      "postcode": "DA2 7RU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, MAY ROAD"
-    },
-    {
-      "price": 232000,
-      "date": "2026-05-18",
-      "postcode": "DA10 1FQ",
+      "price": 105000,
+      "date": "2026-06-19",
+      "postcode": "DA10 1EP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "286, ACKERS DRIVE"
+      "address": "35, ARAGON HOUSE, 65, CHERRY ORCHARD"
     },
     {
-      "price": 285000,
-      "date": "2026-05-15",
-      "postcode": "DA2 6FE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9, BRUNEL HOUSE, STONE HOUSE LANE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-15",
-      "postcode": "DA9 9NJ",
+      "price": 585000,
+      "date": "2026-06-16",
+      "postcode": "DA1 2BS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, RIVERVIEW ROAD"
-    },
-    {
-      "price": 333000,
-      "date": "2026-05-15",
-      "postcode": "DA1 2LG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, GORDON ROAD"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-15",
-      "postcode": "DA1 3EB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, BLENHEIM ROAD"
-    },
-    {
-      "price": 395000,
-      "date": "2026-05-15",
-      "postcode": "DA2 7DQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, FARM COTTAGES"
-    },
-    {
-      "price": 385000,
-      "date": "2026-05-15",
-      "postcode": "DA1 1TW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, GREAT QUEEN STREET"
-    },
-    {
-      "price": 440000,
-      "date": "2026-05-15",
-      "postcode": "DA1 3BA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, WILMOT ROAD"
-    },
-    {
-      "price": 405000,
-      "date": "2026-05-14",
-      "postcode": "DA1 1LX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, DENE ROAD"
-    },
-    {
-      "price": 110000,
-      "date": "2026-05-14",
-      "postcode": "DA9 9DG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "24, WINSTON CLOSE"
-    },
-    {
-      "price": 194000,
-      "date": "2026-05-13",
-      "postcode": "DA1 5FG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9, SWALLOWS COURT, VICKERS LANE"
-    },
-    {
-      "price": 385000,
-      "date": "2026-05-12",
-      "postcode": "DA1 2ST",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, OAKFIELD PARK ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-11",
-      "postcode": "DA9 9NN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, HIGH STREET"
-    },
-    {
-      "price": 345000,
-      "date": "2026-05-08",
-      "postcode": "DA2 7JX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, MOSS WAY"
+      "address": "80, PRIORY ROAD"
     },
     {
       "price": 360000,
-      "date": "2026-05-08",
-      "postcode": "DA2 7PL",
+      "date": "2026-06-16",
+      "postcode": "DA1 1SD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "43, BREWERS FIELD"
+      "address": "13, BRANDON ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-15",
+      "postcode": "DA9 9FU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "57, EMPIRE WALK"
+    },
+    {
+      "price": 495000,
+      "date": "2026-06-12",
+      "postcode": "DA1 3HS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, HEATHLANDS RISE"
+    },
+    {
+      "price": 390000,
+      "date": "2026-06-12",
+      "postcode": "DA9 9LQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, ST JAMES LANE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-06-12",
+      "postcode": "DA1 5RE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, RUBY TUESDAY DRIVE"
+    },
+    {
+      "price": 229000,
+      "date": "2026-06-12",
+      "postcode": "DA1 5SF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 19, ORMEROD POINT, 39, RUBY TUESDAY DRIVE"
+    },
+    {
+      "price": 505000,
+      "date": "2026-06-12",
+      "postcode": "DA9 9DS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, HAYES ROAD"
+    },
+    {
+      "price": 370000,
+      "date": "2026-06-12",
+      "postcode": "DA1 3LY",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "107, ASHEN DRIVE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-12",
+      "postcode": "DA9 9RY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "101, SANDPIPER CLOSE"
+    },
+    {
+      "price": 227500,
+      "date": "2026-06-12",
+      "postcode": "DA1 2GF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12, CRITCHLEY AVENUE"
+    },
+    {
+      "price": 522500,
+      "date": "2026-06-11",
+      "postcode": "DA1 3HT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, BROOMHILL ROAD"
+    },
+    {
+      "price": 445000,
+      "date": "2026-06-10",
+      "postcode": "DA1 5SQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, TYNDAL WAY"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-10",
+      "postcode": "DA10 0HQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "79, CHURCH ROAD"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-10",
+      "postcode": "DA1 3JR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, CHASTILIAN ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-09",
+      "postcode": "DA2 7HU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, LITTLEDALE, GREEN STREET GREEN ROAD"
+    },
+    {
+      "price": 252650,
+      "date": "2026-06-09",
+      "postcode": "DA9 9UB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, SHEARWATER COURT, WATERSTONE WAY"
     }
   ],
   "monthlyHistory": [
@@ -228,7 +231,7 @@
     {
       "month": "2024-06",
       "medianPrice": 345000,
-      "transactions": 175
+      "transactions": 176
     },
     {
       "month": "2024-07",
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 347500,
-      "transactions": 180
+      "medianPrice": 350000,
+      "transactions": 181
     },
     {
       "month": "2024-11",
@@ -287,62 +290,67 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 395995,
-      "transactions": 138
+      "medianPrice": 397998,
+      "transactions": 140
     },
     {
       "month": "2025-07",
-      "medianPrice": 359000,
-      "transactions": 164
+      "medianPrice": 357750,
+      "transactions": 170
     },
     {
       "month": "2025-08",
-      "medianPrice": 375000,
-      "transactions": 149
+      "medianPrice": 371000,
+      "transactions": 156
     },
     {
       "month": "2025-09",
-      "medianPrice": 360000,
-      "transactions": 150
+      "medianPrice": 365000,
+      "transactions": 161
     },
     {
       "month": "2025-10",
       "medianPrice": 360000,
-      "transactions": 151
+      "transactions": 159
     },
     {
       "month": "2025-11",
-      "medianPrice": 352500,
-      "transactions": 136
+      "medianPrice": 360000,
+      "transactions": 141
     },
     {
       "month": "2025-12",
       "medianPrice": 380000,
-      "transactions": 131
+      "transactions": 142
     },
     {
       "month": "2026-01",
       "medianPrice": 375000,
-      "transactions": 83
+      "transactions": 93
     },
     {
       "month": "2026-02",
-      "medianPrice": 357550,
-      "transactions": 93
+      "medianPrice": 356275,
+      "transactions": 94
     },
     {
       "month": "2026-03",
       "medianPrice": 365000,
-      "transactions": 93
+      "transactions": 97
     },
     {
       "month": "2026-04",
       "medianPrice": 342500,
-      "transactions": 70
+      "transactions": 80
     },
     {
       "month": "2026-05",
-      "medianPrice": 360000,
+      "medianPrice": 352500,
+      "transactions": 86
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 372500,
       "transactions": 30
     }
   ],
@@ -355,7 +363,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 345000,
-      "transactions": 491
+      "transactions": 492
     },
     {
       "quarter": "2024-Q3",
@@ -365,7 +373,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 365000,
-      "transactions": 519
+      "transactions": 520
     },
     {
       "quarter": "2025-Q1",
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 376000,
-      "transactions": 319
+      "transactions": 321
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 365000,
-      "transactions": 463
+      "transactions": 487
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 366000,
-      "transactions": 418
+      "medianPrice": 365000,
+      "transactions": 442
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 365000,
-      "transactions": 269
+      "medianPrice": 362500,
+      "transactions": 284
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 345000,
-      "transactions": 100
+      "medianPrice": 350000,
+      "transactions": 196
     }
   ]
 }

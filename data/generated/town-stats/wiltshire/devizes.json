@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.721Z",
+  "updatedAt": "2026-08-07T08:45:02.135Z",
   "townSlug": "devizes",
   "countySlug": "wiltshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WILTSHIRE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 303500,
-    "transactionCount12m": 410,
-    "yoyPriceChange": 2.9,
+    "medianPrice": 310000,
+    "transactionCount12m": 401,
+    "yoyPriceChange": 7.1,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

@@ -1,23 +1,170 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.993Z",
+  "updatedAt": "2026-08-07T08:45:02.137Z",
   "townSlug": "warminster",
   "countySlug": "wiltshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WILTSHIRE"
+  ],
   "stats": {
-    "medianPrice": 299598,
+    "medianPrice": 295000,
     "medianByType": {
-      "D": 437475,
-      "S": 280000,
-      "T": 222000,
-      "F": 123250
+      "D": 418000,
+      "S": 275000,
+      "T": 228000,
+      "F": 117000
     },
-    "transactionCount12m": 384,
-    "yoyChange": -1.4,
-    "newBuildCount": 10,
-    "existingCount": 374,
-    "newBuildPremium": 3.3
+    "transactionCount12m": 379,
+    "yoyChange": -4.8,
+    "newBuildCount": 11,
+    "existingCount": 368,
+    "newBuildPremium": 29.7
   },
   "recentTransactions": [
+    {
+      "price": 394000,
+      "date": "2026-06-25",
+      "postcode": "BA12 6PP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, NURSERY GARDENS"
+    },
+    {
+      "price": 457500,
+      "date": "2026-06-25",
+      "postcode": "BA12 6FG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, WALNUT ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-19",
+      "postcode": "BA12 0BG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30C, COPHEAP LANE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-17",
+      "postcode": "BA12 9AG",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, HIGH STREET"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-17",
+      "postcode": "BA12 8TD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, MINSTER VIEW"
+    },
+    {
+      "price": 267000,
+      "date": "2026-06-17",
+      "postcode": "BA12 9HN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, BISHOPSTROW"
+    },
+    {
+      "price": 535000,
+      "date": "2026-06-17",
+      "postcode": "BA12 8JA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CAPEL HOUSE, 11, EMWELL STREET"
+    },
+    {
+      "price": 337000,
+      "date": "2026-06-11",
+      "postcode": "BA12 0BL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, HILLBOURNE CLOSE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-08",
+      "postcode": "BA12 8EU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, ST ANDREWS ROAD"
+    },
+    {
+      "price": 525000,
+      "date": "2026-06-05",
+      "postcode": "BA12 6RG",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WHITE LODGE, THE STREET"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-05",
+      "postcode": "BA12 8DN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, BROOK STREET"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-04",
+      "postcode": "BA12 8GT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, SIRIUS CLOSE"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-01",
+      "postcode": "BA12 9QD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, POULSEN CLOSE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-05-29",
+      "postcode": "BA12 8FD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, CHESTNUT TREE GARDENS"
+    },
+    {
+      "price": 910000,
+      "date": "2026-05-28",
+      "postcode": "BA12 0AN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12C, WESTBURY ROAD"
+    },
+    {
+      "price": 237000,
+      "date": "2026-05-26",
+      "postcode": "BA12 8HS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, RUSKIN DRIVE"
+    },
     {
       "price": 348000,
       "date": "2026-05-26",
@@ -28,175 +175,31 @@
       "address": "29, THE TEASELS"
     },
     {
-      "price": 550000,
+      "price": 420000,
       "date": "2026-05-22",
-      "postcode": "BA12 7RQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "127, FOLLY LANE"
-    },
-    {
-      "price": 257500,
-      "date": "2026-05-21",
-      "postcode": "BA12 0AG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27"
-    },
-    {
-      "price": 340000,
-      "date": "2026-05-21",
-      "postcode": "BA12 9PF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, EBBLE CRESCENT"
-    },
-    {
-      "price": 56000,
-      "date": "2026-05-20",
-      "postcode": "BA12 6HT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9, THE YEWS"
-    },
-    {
-      "price": 460000,
-      "date": "2026-05-19",
-      "postcode": "BA12 7PN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, BIRCHWOOD CLOSE"
-    },
-    {
-      "price": 675000,
-      "date": "2026-05-19",
-      "postcode": "BA12 9PB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, LOWER MARSH ROAD"
-    },
-    {
-      "price": 130000,
-      "date": "2026-05-19",
-      "postcode": "BA12 9DQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, BARCLAY COURT, 48, WOODCOCK ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-15",
-      "postcode": "BA12 0AB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BEECH GROVE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-15",
-      "postcode": "BA12 8FR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, TURNPIKE COURT"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-15",
-      "postcode": "BA12 8GE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, KYTE CLOSE"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-14",
       "postcode": "BA12 7EX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "76"
+      "address": "77"
     },
     {
-      "price": 165000,
-      "date": "2026-05-08",
-      "postcode": "BA12 8JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, EMWELL STREET"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-08",
-      "postcode": "BA12 0BD",
+      "price": 675000,
+      "date": "2026-05-22",
+      "postcode": "BA12 6JZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, THE DOWNLANDS"
+      "address": "6, TOWNSEND CLOSE"
     },
     {
-      "price": 280000,
-      "date": "2026-05-06",
-      "postcode": "BA12 9AG",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, HIGH STREET"
-    },
-    {
-      "price": 1210000,
-      "date": "2026-05-06",
-      "postcode": "BA12 6PE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "STOUR VALE COTTAGE, ZEALS ROW"
-    },
-    {
-      "price": 322500,
-      "date": "2026-05-06",
-      "postcode": "BA12 0DH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, FORAGE LANE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-01",
-      "postcode": "BA12 9NU",
+      "price": 228000,
+      "date": "2026-05-22",
+      "postcode": "BA12 7JU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, STUART GREEN"
-    },
-    {
-      "price": 223000,
-      "date": "2026-04-30",
-      "postcode": "BA12 9EL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, COPPICE CLOSE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-04-30",
-      "postcode": "BA12 0NT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, THE GROVE"
+      "address": "5, VICARAGE MEWS"
     }
   ],
   "monthlyHistory": [
@@ -287,8 +290,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 299975,
-      "transactions": 70
+      "medianPrice": 300000,
+      "transactions": 71
     },
     {
       "month": "2025-07",
@@ -297,13 +300,13 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 310000,
-      "transactions": 43
+      "medianPrice": 320000,
+      "transactions": 47
     },
     {
       "month": "2025-09",
-      "medianPrice": 325000,
-      "transactions": 45
+      "medianPrice": 324000,
+      "transactions": 46
     },
     {
       "month": "2025-10",
@@ -317,13 +320,13 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 348000,
-      "transactions": 33
+      "medianPrice": 345000,
+      "transactions": 37
     },
     {
       "month": "2026-01",
-      "medianPrice": 335000,
-      "transactions": 27
+      "medianPrice": 328750,
+      "transactions": 30
     },
     {
       "month": "2026-02",
@@ -333,7 +336,7 @@
     {
       "month": "2026-03",
       "medianPrice": 270000,
-      "transactions": 39
+      "transactions": 41
     },
     {
       "month": "2026-04",
@@ -342,8 +345,13 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 332500,
-      "transactions": 18
+      "medianPrice": 313750,
+      "transactions": 36
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 325000,
+      "transactions": 13
     }
   ],
   "quarterlyHistory": [
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 280623,
-      "transactions": 112
+      "medianPrice": 281000,
+      "transactions": 113
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 320000,
-      "transactions": 133
+      "transactions": 138
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 305000,
-      "transactions": 113
+      "transactions": 117
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 270000,
-      "transactions": 101
+      "medianPrice": 272500,
+      "transactions": 106
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 265000,
-      "transactions": 41
+      "medianPrice": 278250,
+      "transactions": 72
     }
   ]
 }

@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.492Z",
+  "updatedAt": "2026-08-07T08:45:01.911Z",
   "townSlug": "bath",
   "countySlug": "somerset",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BATH AND NORTH EAST SOMERSET"
+  ],
   "marketSnapshot": {
-    "medianPrice": 429500,
-    "transactionCount12m": 1266,
-    "yoyPriceChange": 1.1,
+    "medianPrice": 420000,
+    "transactionCount12m": 1247,
+    "yoyPriceChange": -1.5,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

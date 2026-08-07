@@ -1,23 +1,116 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.914Z",
+  "updatedAt": "2026-08-07T08:45:02.053Z",
   "townSlug": "bude",
   "countySlug": "cornwall",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CORNWALL"
+  ],
   "stats": {
-    "medianPrice": 343000,
+    "medianPrice": 330000,
     "medianByType": {
       "D": 427750,
       "S": 285000,
-      "T": 275000,
+      "T": 254950,
       "F": 195000
     },
-    "transactionCount12m": 209,
-    "yoyChange": -6,
-    "newBuildCount": 10,
+    "transactionCount12m": 207,
+    "yoyChange": -7.7,
+    "newBuildCount": 8,
     "existingCount": 199,
-    "newBuildPremium": -0.1
+    "newBuildPremium": 3.8
   },
   "recentTransactions": [
+    {
+      "price": 400000,
+      "date": "2026-06-23",
+      "postcode": "EX23 8GH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, CURLEW ROAD"
+    },
+    {
+      "price": 395000,
+      "date": "2026-06-15",
+      "postcode": "EX23 8QF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, BEDE HAVEN CLOSE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-11",
+      "postcode": "EX23 8QF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, BEDE HAVEN CLOSE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-11",
+      "postcode": "EX23 8JQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 16, PENTYRE COURT, VICARAGE ROAD"
+    },
+    {
+      "price": 249500,
+      "date": "2026-06-10",
+      "postcode": "EX23 8TP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, REDEN ROAD"
+    },
+    {
+      "price": 500000,
+      "date": "2026-06-04",
+      "postcode": "EX23 0HY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LONG CLOSE, HELEBRIDGE ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-05-29",
+      "postcode": "EX23 9ES",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, ORCHARD CLOSE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-05-29",
+      "postcode": "EX23 9AP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, NEW ROAD"
+    },
+    {
+      "price": 445000,
+      "date": "2026-05-29",
+      "postcode": "EX23 8ET",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CLINTON CLOSE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-05-22",
+      "postcode": "EX23 9HP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "67, STIBB COTTAGES"
+    },
     {
       "price": 365000,
       "date": "2026-05-21",
@@ -26,6 +119,69 @@
       "newBuild": false,
       "tenure": "F",
       "address": "7, MOOR CROSS"
+    },
+    {
+      "price": 457500,
+      "date": "2026-05-19",
+      "postcode": "EX23 8BQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, PUFFIN CLOSE"
+    },
+    {
+      "price": 305000,
+      "date": "2026-05-19",
+      "postcode": "EX23 8FY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, BITTERN CLOSE"
+    },
+    {
+      "price": 277500,
+      "date": "2026-05-15",
+      "postcode": "EX23 9QR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHURCH VIEW"
+    },
+    {
+      "price": 605000,
+      "date": "2026-05-14",
+      "postcode": "EX23 0BR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "COPPERBEECH"
+    },
+    {
+      "price": 472000,
+      "date": "2026-05-13",
+      "postcode": "EX23 0AD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LARGO, THE CRESCENT"
+    },
+    {
+      "price": 400000,
+      "date": "2026-05-11",
+      "postcode": "EX23 8ET",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, CLINTON CLOSE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-05-08",
+      "postcode": "EX23 9LD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE GRANARY, IVYLEAF BARTON"
     },
     {
       "price": 400000,
@@ -44,159 +200,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "6, SOUTHCOTT MEADOWS"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-06",
-      "postcode": "EX23 0BP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, LOWER KENTS"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-01",
-      "postcode": "EX23 8GB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, WHALESBOROUGH PARC"
-    },
-    {
-      "price": 970000,
-      "date": "2026-04-29",
-      "postcode": "EX23 9EF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TRELAN"
-    },
-    {
-      "price": 297000,
-      "date": "2026-04-27",
-      "postcode": "EX23 8FS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, WIGEON ROAD"
-    },
-    {
-      "price": 460000,
-      "date": "2026-04-23",
-      "postcode": "EX23 8PJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MARDENIA COURT, BENCOOLEN ROAD"
-    },
-    {
-      "price": 100000,
-      "date": "2026-04-22",
-      "postcode": "EX23 8AW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 13, KIMING, STRATTON ROAD"
-    },
-    {
-      "price": 370000,
-      "date": "2026-04-20",
-      "postcode": "EX23 0JN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CLOVER HOUSE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-04-17",
-      "postcode": "EX23 9BH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, UNION COTTAGES, BOWDEN"
-    },
-    {
-      "price": 166600,
-      "date": "2026-04-17",
-      "postcode": "EX23 8SB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, AGNES CLOSE"
-    },
-    {
-      "price": 880000,
-      "date": "2026-04-17",
-      "postcode": "EX23 9LZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HERSHAM CARPENTRY"
-    },
-    {
-      "price": 300000,
-      "date": "2026-04-16",
-      "postcode": "EX23 8AG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, COAST VIEW"
-    },
-    {
-      "price": 755000,
-      "date": "2026-04-10",
-      "postcode": "EX23 8NQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MAER BRIDGE, MAER LANE"
-    },
-    {
-      "price": 249900,
-      "date": "2026-04-07",
-      "postcode": "EX23 8QP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "134, BERRIES AVENUE"
-    },
-    {
-      "price": 465000,
-      "date": "2026-04-02",
-      "postcode": "EX23 8NZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SANDFORD, POUGHILL ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-04-02",
-      "postcode": "EX23 8SL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, CHERRILL GARDENS"
-    },
-    {
-      "price": 350000,
-      "date": "2026-04-02",
-      "postcode": "EX23 8SH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, GURNEY CLOSE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-04-02",
-      "postcode": "EX23 8GW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9, PEN MORVAH, BRAMBLE HILL"
     }
   ],
   "monthlyHistory": [
@@ -287,23 +290,23 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 345000,
-      "transactions": 21
+      "medianPrice": 355000,
+      "transactions": 22
     },
     {
       "month": "2025-07",
-      "medianPrice": 357500,
-      "transactions": 32
+      "medianPrice": 360000,
+      "transactions": 33
     },
     {
       "month": "2025-08",
-      "medianPrice": 387000,
-      "transactions": 16
+      "medianPrice": 419000,
+      "transactions": 17
     },
     {
       "month": "2025-09",
-      "medianPrice": 350000,
-      "transactions": 33
+      "medianPrice": 330000,
+      "transactions": 35
     },
     {
       "month": "2025-10",
@@ -317,23 +320,23 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 385000,
-      "transactions": 19
+      "medianPrice": 350000,
+      "transactions": 22
     },
     {
       "month": "2026-01",
-      "medianPrice": 278000,
-      "transactions": 20
+      "medianPrice": 273750,
+      "transactions": 22
     },
     {
       "month": "2026-02",
-      "medianPrice": 278750,
-      "transactions": 12
+      "medianPrice": 327500,
+      "transactions": 14
     },
     {
       "month": "2026-03",
-      "medianPrice": 311000,
-      "transactions": 12
+      "medianPrice": 307000,
+      "transactions": 13
     },
     {
       "month": "2026-04",
@@ -342,8 +345,13 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 375000,
-      "transactions": 5
+      "medianPrice": 370000,
+      "transactions": 16
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 360000,
+      "transactions": 6
     }
   ],
   "quarterlyHistory": [
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 297000,
-      "transactions": 51
+      "medianPrice": 298500,
+      "transactions": 52
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 355000,
-      "transactions": 81
+      "transactions": 85
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 372500,
-      "transactions": 68
+      "medianPrice": 365000,
+      "transactions": 71
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 287500,
-      "transactions": 44
+      "medianPrice": 285000,
+      "transactions": 49
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 360000,
-      "transactions": 24
+      "medianPrice": 355000,
+      "transactions": 41
     }
   ]
 }

@@ -1,12 +1,19 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.752Z",
+  "updatedAt": "2026-08-07T08:45:03.133Z",
   "townSlug": "workington",
   "countySlug": "cumbria",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CUMBERLAND",
+    "ALLERDALE"
+  ],
   "marketSnapshot": {
     "medianPrice": 150000,
-    "transactionCount12m": 477,
-    "yoyPriceChange": 0.7,
+    "transactionCount12m": 485,
+    "yoyPriceChange": 0,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

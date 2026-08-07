@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.180Z",
+  "updatedAt": "2026-08-07T08:45:02.329Z",
   "townSlug": "warwick",
   "countySlug": "warwickshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WARWICK"
+  ],
   "stats": {
-    "medianPrice": 346200,
+    "medianPrice": 342000,
     "medianByType": {
       "D": 514000,
-      "S": 335000,
-      "T": 295000,
-      "F": 180000
+      "S": 333000,
+      "T": 294250,
+      "F": 177750
     },
-    "transactionCount12m": 546,
-    "yoyChange": -2.5,
-    "newBuildCount": 5,
-    "existingCount": 541,
-    "newBuildPremium": 31.9
+    "transactionCount12m": 533,
+    "yoyChange": -5,
+    "newBuildCount": 9,
+    "existingCount": 524,
+    "newBuildPremium": -45.1
   },
   "recentTransactions": [
     {
-      "price": 172250,
-      "date": "2026-05-27",
-      "postcode": "CV34 5AU",
-      "propertyType": "F",
+      "price": 860000,
+      "date": "2026-06-26",
+      "postcode": "CV34 6PS",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "14, CAPE COURT, CHANDLEY WHARF"
+      "tenure": "F",
+      "address": "212, MYTON ROAD"
     },
     {
-      "price": 165000,
-      "date": "2026-05-22",
-      "postcode": "CV34 4TZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "37, BIRCH MEADOW CLOSE"
-    },
-    {
-      "price": 287500,
-      "date": "2026-05-15",
-      "postcode": "CV34 4PU",
+      "price": 375000,
+      "date": "2026-06-26",
+      "postcode": "CV34 5EX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, MAYNARD AVENUE"
-    },
-    {
-      "price": 387500,
-      "date": "2026-05-15",
-      "postcode": "CV34 5TF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, WOODLOES AVENUE SOUTH"
-    },
-    {
-      "price": 550000,
-      "date": "2026-05-15",
-      "postcode": "CV34 5FD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, RIDGELEY CLOSE"
-    },
-    {
-      "price": 540000,
-      "date": "2026-05-08",
-      "postcode": "CV34 6RZ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, OLYMPUS COURT, OLYMPUS AVENUE"
-    },
-    {
-      "price": 630000,
-      "date": "2026-05-08",
-      "postcode": "CV34 6XT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, BRACKLEY CRESCENT"
-    },
-    {
-      "price": 410000,
-      "date": "2026-05-07",
-      "postcode": "CV34 4JY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, ST NICHOLAS COURT"
-    },
-    {
-      "price": 151000,
-      "date": "2026-05-06",
-      "postcode": "CV34 5DS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, 2, UPPER CAPE"
-    },
-    {
-      "price": 340000,
-      "date": "2026-05-05",
-      "postcode": "CV34 6NY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, JOHN SCOTT WAY"
+      "address": "21, YARDLEY CLOSE"
     },
     {
       "price": 515000,
-      "date": "2026-05-01",
-      "postcode": "CV34 5TD",
+      "date": "2026-06-23",
+      "postcode": "CV34 6EE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, OAKWOOD GROVE"
+      "address": "26, TOUCHSTONE ROAD"
     },
     {
-      "price": 275000,
-      "date": "2026-05-01",
-      "postcode": "CV34 5TJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "89, MILLBANK"
-    },
-    {
-      "price": 387000,
-      "date": "2026-05-01",
-      "postcode": "CV34 8AN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, CONRAD LEWIS WAY"
-    },
-    {
-      "price": 303000,
-      "date": "2026-05-01",
-      "postcode": "CV34 5EU",
+      "price": 310000,
+      "date": "2026-06-22",
+      "postcode": "CV34 5QN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, PERCY ROAD"
+      "address": "178, EMSCOTE ROAD"
     },
     {
-      "price": 105000,
-      "date": "2026-05-01",
-      "postcode": "CV34 4JE",
-      "propertyType": "F",
+      "price": 430000,
+      "date": "2026-06-22",
+      "postcode": "CV34 7AP",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "3, PRIORY WALK"
+      "tenure": "F",
+      "address": "80, VICKERS WAY"
     },
     {
-      "price": 305000,
-      "date": "2026-05-01",
+      "price": 335000,
+      "date": "2026-06-11",
       "postcode": "CV34 6GL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, PAROLLES CLOSE"
+      "address": "18, PAROLLES CLOSE"
     },
     {
-      "price": 210000,
-      "date": "2026-04-30",
-      "postcode": "CV34 6NA",
-      "propertyType": "T",
+      "price": 165000,
+      "date": "2026-06-11",
+      "postcode": "CV34 4AB",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "4, WEST END COURT"
+      "tenure": "L",
+      "address": "FLAT C, 2, CHURCH STREET"
     },
     {
-      "price": 465000,
-      "date": "2026-04-29",
-      "postcode": "CV34 5UJ",
+      "price": 520000,
+      "date": "2026-06-08",
+      "postcode": "CV35 7TQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, SUTHERLAND CLOSE"
+      "address": "65, HIGHFIELD"
     },
     {
-      "price": 425000,
-      "date": "2026-04-27",
-      "postcode": "CV34 7DE",
+      "price": 182500,
+      "date": "2026-06-05",
+      "postcode": "CV34 4UP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "19, SPRING POOL"
+    },
+    {
+      "price": 580000,
+      "date": "2026-06-05",
+      "postcode": "CV34 8DN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, LAVENDER CLOSE"
+    },
+    {
+      "price": 470000,
+      "date": "2026-06-04",
+      "postcode": "CV34 6AT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, TALBOT DRIVE"
+      "address": "60, STRATFORD ROAD"
     },
     {
-      "price": 290000,
-      "date": "2026-04-27",
-      "postcode": "CV34 5JR",
+      "price": 170000,
+      "date": "2026-06-03",
+      "postcode": "CV34 6NS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "43, BROMHURST WAY"
+    },
+    {
+      "price": 176000,
+      "date": "2026-05-29",
+      "postcode": "CV34 4TZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "52, BIRCH MEADOW CLOSE"
+    },
+    {
+      "price": 170000,
+      "date": "2026-05-29",
+      "postcode": "CV34 4JZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "48, TURBERVILLE PLACE"
+    },
+    {
+      "price": 278000,
+      "date": "2026-05-29",
+      "postcode": "CV34 6JG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, PENNEY LANE"
+    },
+    {
+      "price": 430000,
+      "date": "2026-05-29",
+      "postcode": "CV34 6WN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, TWYCROSS WALK"
+      "address": "25, NIGHTINGALE AVENUE"
+    },
+    {
+      "price": 339950,
+      "date": "2026-05-29",
+      "postcode": "CV34 5PB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, GREVILLE ROAD"
+    },
+    {
+      "price": 309000,
+      "date": "2026-05-29",
+      "postcode": "CV34 7AP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, VICKERS WAY"
+    },
+    {
+      "price": 370000,
+      "date": "2026-05-29",
+      "postcode": "CV34 7BD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, PALMER CRESCENT"
+    },
+    {
+      "price": 368200,
+      "date": "2026-05-29",
+      "postcode": "CV34 5LJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, MONTAGUE ROAD"
     }
   ],
   "monthlyHistory": [
@@ -208,7 +211,7 @@
     {
       "month": "2024-02",
       "medianPrice": 325000,
-      "transactions": 72
+      "transactions": 71
     },
     {
       "month": "2024-03",
@@ -268,42 +271,42 @@
     {
       "month": "2025-02",
       "medianPrice": 370000,
-      "transactions": 87
+      "transactions": 88
     },
     {
       "month": "2025-03",
-      "medianPrice": 369000,
-      "transactions": 167
+      "medianPrice": 368000,
+      "transactions": 174
     },
     {
       "month": "2025-04",
-      "medianPrice": 347450,
-      "transactions": 33
+      "medianPrice": 355000,
+      "transactions": 35
     },
     {
       "month": "2025-05",
-      "medianPrice": 315400,
-      "transactions": 57
+      "medianPrice": 308100,
+      "transactions": 62
     },
     {
       "month": "2025-06",
-      "medianPrice": 370000,
-      "transactions": 92
+      "medianPrice": 365000,
+      "transactions": 93
     },
     {
       "month": "2025-07",
       "medianPrice": 352500,
-      "transactions": 82
+      "transactions": 88
     },
     {
       "month": "2025-08",
-      "medianPrice": 331000,
-      "transactions": 67
+      "medianPrice": 337500,
+      "transactions": 74
     },
     {
       "month": "2025-09",
-      "medianPrice": 327500,
-      "transactions": 66
+      "medianPrice": 321000,
+      "transactions": 72
     },
     {
       "month": "2025-10",
@@ -312,18 +315,18 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 371250,
-      "transactions": 58
+      "medianPrice": 367500,
+      "transactions": 61
     },
     {
       "month": "2025-12",
-      "medianPrice": 362000,
-      "transactions": 47
+      "medianPrice": 368500,
+      "transactions": 50
     },
     {
       "month": "2026-01",
-      "medianPrice": 325000,
-      "transactions": 36
+      "medianPrice": 365000,
+      "transactions": 45
     },
     {
       "month": "2026-02",
@@ -332,25 +335,30 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 353500,
-      "transactions": 46
+      "medianPrice": 365000,
+      "transactions": 47
     },
     {
       "month": "2026-04",
-      "medianPrice": 375000,
-      "transactions": 29
+      "medianPrice": 368750,
+      "transactions": 32
     },
     {
       "month": "2026-05",
-      "medianPrice": 322500,
-      "transactions": 16
+      "medianPrice": 309000,
+      "transactions": 43
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 402500,
+      "transactions": 12
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 371652,
-      "transactions": 216
+      "medianPrice": 373303,
+      "transactions": 215
     },
     {
       "quarter": "2024-Q2",
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 369500,
-      "transactions": 320
+      "medianPrice": 368000,
+      "transactions": 328
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 329000,
-      "transactions": 182
+      "medianPrice": 327906,
+      "transactions": 190
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 340000,
-      "transactions": 215
+      "transactions": 234
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 360000,
-      "transactions": 169
+      "transactions": 175
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 340000,
-      "transactions": 125
+      "medianPrice": 362500,
+      "transactions": 135
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 362500,
-      "transactions": 45
+      "medianPrice": 340000,
+      "transactions": 87
     }
   ]
 }

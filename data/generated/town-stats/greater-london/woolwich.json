@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.104Z",
+  "updatedAt": "2026-08-07T08:45:00.581Z",
   "townSlug": "woolwich",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GREENWICH"
+  ],
   "marketSnapshot": {
     "medianPrice": 450000,
-    "transactionCount12m": 1961,
-    "yoyPriceChange": 0.8,
+    "transactionCount12m": 1933,
+    "yoyPriceChange": 1.1,
     "approvedApps12m": 0,
-    "pipelineUnits": 29,
-    "pipelineGdv": 12791250,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 47,
+    "pipelineGdv": 20450000,
     "approvalRate": 0
   }
 }

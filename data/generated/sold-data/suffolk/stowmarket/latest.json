@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.468Z",
+  "updatedAt": "2026-08-07T08:45:03.691Z",
   "townSlug": "stowmarket",
   "countySlug": "suffolk",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "MID SUFFOLK"
+  ],
   "stats": {
     "medianPrice": 300000,
     "medianByType": {
-      "D": 418000,
-      "S": 260000,
+      "D": 415000,
+      "S": 262500,
       "T": 225000,
       "F": 140000
     },
-    "transactionCount12m": 1294,
-    "yoyChange": -5.4,
-    "newBuildCount": 32,
-    "existingCount": 1262,
-    "newBuildPremium": 25.4
+    "transactionCount12m": 1287,
+    "yoyChange": -4.8,
+    "newBuildCount": 30,
+    "existingCount": 1257,
+    "newBuildPremium": 17.8
   },
   "recentTransactions": [
     {
-      "price": 235000,
-      "date": "2026-05-22",
-      "postcode": "IP6 9PR",
+      "price": 175000,
+      "date": "2026-06-24",
+      "postcode": "IP14 3NT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "VINE COTTAGE, SCHOOL ROAD"
+      "address": "53, OLD STREET"
     },
     {
-      "price": 325000,
-      "date": "2026-05-22",
-      "postcode": "IP23 7BQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, DANIEL GARDENS"
-    },
-    {
-      "price": 251000,
-      "date": "2026-05-22",
+      "price": 273000,
+      "date": "2026-06-22",
       "postcode": "IP14 5GY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, EAGLE CLOSE"
+    },
+    {
+      "price": 490000,
+      "date": "2026-06-22",
+      "postcode": "IP30 9GP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, SHRUBBERY CLOSE"
+    },
+    {
+      "price": 232000,
+      "date": "2026-06-22",
+      "postcode": "IP6 0FG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, EAGLE CLOSE"
+      "address": "38, LIMESTONE CLOSE"
     },
     {
-      "price": 342000,
-      "date": "2026-05-22",
-      "postcode": "IP14 2AZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE JAYS, CHURCH ROAD"
-    },
-    {
-      "price": 255000,
-      "date": "2026-05-19",
-      "postcode": "IP30 9UF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, PYES MEADOW"
-    },
-    {
-      "price": 187500,
-      "date": "2026-05-18",
-      "postcode": "IP23 7PL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MUDDLE END, THE STREET"
-    },
-    {
-      "price": 575000,
-      "date": "2026-05-18",
-      "postcode": "IP21 5BA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, HOME FARM, EYE ROAD"
-    },
-    {
-      "price": 238000,
-      "date": "2026-05-18",
-      "postcode": "IP31 3US",
+      "price": 209000,
+      "date": "2026-06-19",
+      "postcode": "IP23 7DA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, BENNETT CLOSE"
+      "address": "40, ASH DRIVE"
     },
     {
-      "price": 267500,
-      "date": "2026-05-18",
-      "postcode": "IP6 0BH",
+      "price": 250000,
+      "date": "2026-06-19",
+      "postcode": "IP6 8EB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, LINCOLN GARDENS"
+      "address": "45, STEGGALL CLOSE"
     },
     {
-      "price": 280000,
-      "date": "2026-05-15",
-      "postcode": "IP14 1UQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "138, SPENCER WAY"
-    },
-    {
-      "price": 420000,
-      "date": "2026-05-15",
-      "postcode": "IP21 5AH",
+      "price": 307500,
+      "date": "2026-06-19",
+      "postcode": "IP23 8HB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "GREENLANDS, CROSS STREET"
+      "address": "196, THE STREET"
     },
     {
-      "price": 270000,
-      "date": "2026-05-15",
-      "postcode": "IP8 4EX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, LEGGATT DRIVE"
-    },
-    {
-      "price": 610000,
-      "date": "2026-05-14",
-      "postcode": "IP14 4TW",
+      "price": 515000,
+      "date": "2026-06-18",
+      "postcode": "IP22 1PU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "MAYTHORNES, WESTHORPE ROAD"
+      "address": "MEADOW VIEW, LONG GREEN"
     },
     {
-      "price": 425000,
-      "date": "2026-05-14",
-      "postcode": "IP22 1EG",
+      "price": 375000,
+      "date": "2026-06-18",
+      "postcode": "IP6 8PS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "OLD POST OFFICE, THE STREET"
+      "address": "1, SPARROW HALL COTTAGE"
     },
     {
       "price": 200000,
-      "date": "2026-05-14",
-      "postcode": "IP14 2JG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, MODEL FARM"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-13",
-      "postcode": "IP21 4LZ",
+      "date": "2026-06-17",
+      "postcode": "IP14 1SU",
       "propertyType": "D",
       "newBuild": false,
-      "tenure": "F",
-      "address": "LONG VIEW, STRADBROKE ROAD"
+      "tenure": "L",
+      "address": "14, TOWN GREEN"
     },
     {
-      "price": 135000,
-      "date": "2026-05-13",
-      "postcode": "IP6 8EN",
+      "price": 105000,
+      "date": "2026-06-17",
+      "postcode": "IP14 1EJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "3, KERRIDGE COURT, BARKING ROAD"
+      "address": "17, SHERINGHAM COURT"
     },
     {
-      "price": 140000,
-      "date": "2026-05-13",
-      "postcode": "IP6 0TE",
+      "price": 285000,
+      "date": "2026-06-15",
+      "postcode": "IP14 2PP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, MELFORD ROAD"
+    },
+    {
+      "price": 360000,
+      "date": "2026-06-15",
+      "postcode": "IP14 2DJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, ALDIS AVENUE"
+    },
+    {
+      "price": 900000,
+      "date": "2026-06-12",
+      "postcode": "IP14 2NJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHELFORD BARN, COMBS LANE"
+    },
+    {
+      "price": 595000,
+      "date": "2026-06-12",
+      "postcode": "IP14 6LX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE COTTAGE, THE STREET"
+    },
+    {
+      "price": 312500,
+      "date": "2026-06-12",
+      "postcode": "IP31 3SX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, VICTORIA CLOSE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-12",
+      "postcode": "IP13 8EB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, FLETCHER CLOSE"
+      "address": "30, NOYES AVENUE"
     },
     {
-      "price": 530000,
-      "date": "2026-05-13",
-      "postcode": "IP13 8EA",
-      "propertyType": "D",
+      "price": 281000,
+      "date": "2026-06-10",
+      "postcode": "IP14 1SH",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "SPRINGFIELD, MILL ROAD"
+      "address": "24, WINCHESTER CLOSE"
     },
     {
-      "price": 389000,
-      "date": "2026-05-13",
-      "postcode": "IP23 7PG",
-      "propertyType": "D",
+      "price": 105000,
+      "date": "2026-06-10",
+      "postcode": "IP14 1JW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "51, GIPPING PLACE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-09",
+      "postcode": "IP23 8HZ",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "SUNRISE VILLA, REDLINGFIELD ROAD"
+      "address": "25, MARTINS MEADOW"
     }
   ],
   "monthlyHistory": [
@@ -232,8 +235,8 @@
     },
     {
       "month": "2024-07",
-      "medianPrice": 327500,
-      "transactions": 171
+      "medianPrice": 326948,
+      "transactions": 172
     },
     {
       "month": "2024-08",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 315000,
-      "transactions": 332
+      "transactions": 335
     },
     {
       "month": "2025-04",
@@ -283,67 +286,72 @@
     {
       "month": "2025-05",
       "medianPrice": 300000,
-      "transactions": 171
+      "transactions": 175
     },
     {
       "month": "2025-06",
       "medianPrice": 320000,
-      "transactions": 179
+      "transactions": 183
     },
     {
       "month": "2025-07",
-      "medianPrice": 312000,
-      "transactions": 179
+      "medianPrice": 314975,
+      "transactions": 188
     },
     {
       "month": "2025-08",
-      "medianPrice": 292000,
-      "transactions": 161
+      "medianPrice": 303500,
+      "transactions": 188
     },
     {
       "month": "2025-09",
-      "medianPrice": 318500,
-      "transactions": 136
+      "medianPrice": 322000,
+      "transactions": 141
     },
     {
       "month": "2025-10",
       "medianPrice": 335000,
-      "transactions": 169
+      "transactions": 175
     },
     {
       "month": "2025-11",
-      "medianPrice": 298500,
-      "transactions": 136
+      "medianPrice": 302500,
+      "transactions": 140
     },
     {
       "month": "2025-12",
-      "medianPrice": 290000,
-      "transactions": 135
+      "medianPrice": 295000,
+      "transactions": 145
     },
     {
       "month": "2026-01",
-      "medianPrice": 295000,
-      "transactions": 78
+      "medianPrice": 300000,
+      "transactions": 87
     },
     {
       "month": "2026-02",
       "medianPrice": 290000,
-      "transactions": 100
+      "transactions": 103
     },
     {
       "month": "2026-03",
-      "medianPrice": 275000,
-      "transactions": 105
+      "medianPrice": 271500,
+      "transactions": 112
     },
     {
       "month": "2026-04",
-      "medianPrice": 326500,
-      "transactions": 70
+      "medianPrice": 328000,
+      "transactions": 81
     },
     {
       "month": "2026-05",
-      "medianPrice": 273000,
-      "transactions": 52
+      "medianPrice": 285500,
+      "transactions": 115
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 278000,
+      "transactions": 34
     }
   ],
   "quarterlyHistory": [
@@ -359,8 +367,8 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 321898,
-      "transactions": 570
+      "medianPrice": 321296,
+      "transactions": 571
     },
     {
       "quarter": "2024-Q4",
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 315000,
-      "transactions": 720
+      "transactions": 723
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 300000,
-      "transactions": 439
+      "medianPrice": 302500,
+      "transactions": 447
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 304000,
-      "transactions": 476
+      "medianPrice": 310000,
+      "transactions": 517
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 311500,
-      "transactions": 440
+      "medianPrice": 315000,
+      "transactions": 460
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 285000,
-      "transactions": 283
+      "medianPrice": 286000,
+      "transactions": 302
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 298750,
-      "transactions": 122
+      "medianPrice": 290000,
+      "transactions": 230
     }
   ]
 }

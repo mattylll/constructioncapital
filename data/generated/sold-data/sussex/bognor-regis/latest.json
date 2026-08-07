@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.305Z",
+  "updatedAt": "2026-08-07T08:45:01.411Z",
   "townSlug": "bognor-regis",
   "countySlug": "sussex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "ARUN"
+  ],
   "stats": {
-    "medianPrice": 332750,
+    "medianPrice": 335000,
     "medianByType": {
-      "D": 481000,
-      "S": 343000,
+      "D": 475000,
+      "S": 345000,
       "T": 290000,
-      "F": 165000
+      "F": 167750
     },
-    "transactionCount12m": 2150,
-    "yoyChange": -3.6,
-    "newBuildCount": 47,
-    "existingCount": 2103,
-    "newBuildPremium": 35.3
+    "transactionCount12m": 2157,
+    "yoyChange": -2.9,
+    "newBuildCount": 50,
+    "existingCount": 2107,
+    "newBuildPremium": 35.1
   },
   "recentTransactions": [
     {
-      "price": 150000,
-      "date": "2026-05-29",
-      "postcode": "PO21 2QZ",
+      "price": 440000,
+      "date": "2026-06-26",
+      "postcode": "BN17 7TH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, NEAL CRESCENT"
+    },
+    {
+      "price": 465000,
+      "date": "2026-06-26",
+      "postcode": "PO21 3LP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, CARLTON AVENUE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-26",
+      "postcode": "BN16 3TT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, BARWICK CLOSE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-24",
+      "postcode": "PO22 9EP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20A, SELSEY AVENUE"
+      "address": "86, SANDYMOUNT AVENUE"
     },
     {
-      "price": 285000,
-      "date": "2026-05-26",
-      "postcode": "BN17 5BZ",
-      "propertyType": "T",
+      "price": 375000,
+      "date": "2026-06-23",
+      "postcode": "PO21 3JP",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, RIVER ROAD"
+      "address": "32, LEDBURY WAY"
     },
     {
-      "price": 105000,
-      "date": "2026-05-26",
+      "price": 465000,
+      "date": "2026-06-22",
+      "postcode": "BN16 4GT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, HIGHDOWN CLOSE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-22",
+      "postcode": "PO22 6HY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4, JUBILEE PARADE, 133, ELMER ROAD"
+    },
+    {
+      "price": 417500,
+      "date": "2026-06-22",
+      "postcode": "BN16 4PH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, HAIGH COPSE"
+    },
+    {
+      "price": 93000,
+      "date": "2026-06-19",
       "postcode": "BN17 5PY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 17, FRANCIS COURT, 47, CHURCH STREET"
+      "address": "FLAT 28, FRANCIS COURT, 47, CHURCH STREET"
     },
     {
-      "price": 335000,
-      "date": "2026-05-22",
-      "postcode": "BN18 0XW",
+      "price": 232500,
+      "date": "2026-06-19",
+      "postcode": "PO22 9HE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "49, NEPTUNE WAY"
+      "address": "27, WESTFIELD"
     },
     {
-      "price": 310000,
-      "date": "2026-05-22",
-      "postcode": "PO21 5RP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, CAMBRIDGE DRIVE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-05-21",
-      "postcode": "BN16 1EA",
+      "price": 260000,
+      "date": "2026-06-19",
+      "postcode": "BN17 7TF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "75, OLD WORTHING ROAD"
+      "address": "7, FAWCETT GROVE"
     },
     {
-      "price": 107500,
-      "date": "2026-05-21",
-      "postcode": "PO22 0DY",
+      "price": 300000,
+      "date": "2026-06-19",
+      "postcode": "PO21 5FX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, BOWLES CLOSE"
+    },
+    {
+      "price": 135000,
+      "date": "2026-06-19",
+      "postcode": "BN16 2RE",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 24, WINDMILL COURT, BARNHAM ROAD"
+      "address": "FLAT 19, NORDSETER LODGE, SEA LANE"
     },
     {
-      "price": 315000,
-      "date": "2026-05-20",
-      "postcode": "BN16 4BS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, GREENACRES RING"
-    },
-    {
-      "price": 392000,
-      "date": "2026-05-20",
-      "postcode": "BN16 4GN",
+      "price": 400000,
+      "date": "2026-06-19",
+      "postcode": "BN17 6AE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, WHITFIELD CLOSE"
+      "address": "36, SOUTHFIELDS ROAD"
     },
     {
-      "price": 550000,
-      "date": "2026-05-20",
-      "postcode": "PO21 2RE",
-      "propertyType": "D",
+      "price": 281500,
+      "date": "2026-06-19",
+      "postcode": "PO22 6SJ",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, FURSE FELD"
+      "address": "76, SILVER BIRCH DRIVE"
     },
     {
       "price": 405000,
-      "date": "2026-05-20",
-      "postcode": "BN12 5RT",
+      "date": "2026-06-19",
+      "postcode": "BN17 6QP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, MIDDLE ONSLOW CLOSE"
+      "address": "18, WEST HEAD"
     },
     {
-      "price": 180000,
-      "date": "2026-05-18",
-      "postcode": "PO22 9LS",
+      "price": 290000,
+      "date": "2026-06-19",
+      "postcode": "PO21 5PU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, PEMBROKE WAY"
+    },
+    {
+      "price": 345000,
+      "date": "2026-06-18",
+      "postcode": "BN16 3AY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LANGLEY COTTAGE, STATION ROAD"
+    },
+    {
+      "price": 295000,
+      "date": "2026-06-18",
+      "postcode": "PO22 6SJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, SILVER BIRCH DRIVE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-18",
+      "postcode": "PO22 6DB",
       "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "62, GORDON AVENUE"
-    },
-    {
-      "price": 244500,
-      "date": "2026-05-18",
-      "postcode": "PO21 5JT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, COLLYER AVENUE"
-    },
-    {
-      "price": 475000,
-      "date": "2026-05-16",
-      "postcode": "BN16 2QY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, PARRY DRIVE"
-    },
-    {
-      "price": 328500,
-      "date": "2026-05-15",
-      "postcode": "BN16 2HT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, HERONS COURT CLOSE"
-    },
-    {
-      "price": 990000,
-      "date": "2026-05-15",
-      "postcode": "BN16 2BW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "KINGSFOLD HOUSE, THE ROUNDWAY"
-    },
-    {
-      "price": 440000,
-      "date": "2026-05-15",
-      "postcode": "PO21 2DX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, HILLSBORO ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-15",
-      "postcode": "PO22 0JX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, WARREN WAY"
-    },
-    {
-      "price": 480000,
-      "date": "2026-05-15",
-      "postcode": "BN16 1QA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, MANOR ROAD"
-    },
-    {
-      "price": 485000,
-      "date": "2026-05-15",
-      "postcode": "BN16 2PJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "70, MILTON AVENUE"
+      "address": "130, MIDDLETON ROAD"
     }
   ],
   "monthlyHistory": [
@@ -222,8 +225,8 @@
     },
     {
       "month": "2024-05",
-      "medianPrice": 334500,
-      "transactions": 254
+      "medianPrice": 334000,
+      "transactions": 253
     },
     {
       "month": "2024-06",
@@ -233,7 +236,7 @@
     {
       "month": "2024-07",
       "medianPrice": 325000,
-      "transactions": 286
+      "transactions": 285
     },
     {
       "month": "2024-08",
@@ -242,8 +245,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 335000,
-      "transactions": 301
+      "medianPrice": 336250,
+      "transactions": 302
     },
     {
       "month": "2024-10",
@@ -257,8 +260,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 341000,
-      "transactions": 294
+      "medianPrice": 342000,
+      "transactions": 295
     },
     {
       "month": "2025-01",
@@ -288,62 +291,67 @@
     {
       "month": "2025-06",
       "medianPrice": 355000,
-      "transactions": 262
+      "transactions": 267
     },
     {
       "month": "2025-07",
-      "medianPrice": 327000,
-      "transactions": 278
+      "medianPrice": 332750,
+      "transactions": 286
     },
     {
       "month": "2025-08",
-      "medianPrice": 340000,
-      "transactions": 240
+      "medianPrice": 350000,
+      "transactions": 261
     },
     {
       "month": "2025-09",
-      "medianPrice": 337500,
-      "transactions": 219
+      "medianPrice": 328250,
+      "transactions": 238
     },
     {
       "month": "2025-10",
       "medianPrice": 347500,
-      "transactions": 254
+      "transactions": 258
     },
     {
       "month": "2025-11",
-      "medianPrice": 335750,
-      "transactions": 230
+      "medianPrice": 334250,
+      "transactions": 236
     },
     {
       "month": "2025-12",
       "medianPrice": 325000,
-      "transactions": 249
+      "transactions": 278
     },
     {
       "month": "2026-01",
-      "medianPrice": 341000,
-      "transactions": 148
+      "medianPrice": 344000,
+      "transactions": 160
     },
     {
       "month": "2026-02",
       "medianPrice": 330000,
-      "transactions": 178
+      "transactions": 182
     },
     {
       "month": "2026-03",
-      "medianPrice": 321500,
-      "transactions": 186
+      "medianPrice": 323500,
+      "transactions": 192
     },
     {
       "month": "2026-04",
       "medianPrice": 320000,
-      "transactions": 141
+      "transactions": 155
     },
     {
       "month": "2026-05",
-      "medianPrice": 372500,
-      "transactions": 70
+      "medianPrice": 350000,
+      "transactions": 178
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 300000,
+      "transactions": 66
     }
   ],
   "quarterlyHistory": [
@@ -354,8 +362,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 347917,
-      "transactions": 766
+      "medianPrice": 347500,
+      "transactions": 765
     },
     {
       "quarter": "2024-Q3",
@@ -365,7 +373,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 340000,
-      "transactions": 871
+      "transactions": 872
     },
     {
       "quarter": "2025-Q1",
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 335000,
-      "transactions": 603
+      "medianPrice": 336250,
+      "transactions": 608
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 332000,
-      "transactions": 737
+      "medianPrice": 340000,
+      "transactions": 785
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 335000,
-      "transactions": 733
+      "transactions": 772
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 330000,
-      "transactions": 512
+      "transactions": 534
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 332500,
-      "transactions": 211
+      "medianPrice": 330000,
+      "transactions": 399
     }
   ]
 }

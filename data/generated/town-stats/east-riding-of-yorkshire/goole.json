@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.245Z",
+  "updatedAt": "2026-08-07T08:45:03.592Z",
   "townSlug": "goole",
   "countySlug": "east-riding-of-yorkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EAST RIDING OF YORKSHIRE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 177500,
-    "transactionCount12m": 524,
-    "yoyPriceChange": -11.3,
-    "approvedApps12m": 1,
+    "medianPrice": 180000,
+    "transactionCount12m": 543,
+    "yoyPriceChange": -10,
+    "approvedApps12m": 2,
+    "approvedRecent": 2,
+    "planningWindowMonths": 3,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 100

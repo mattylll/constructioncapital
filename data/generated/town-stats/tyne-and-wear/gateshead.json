@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.087Z",
+  "updatedAt": "2026-08-07T08:45:03.453Z",
   "townSlug": "gateshead",
   "countySlug": "tyne-and-wear",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GATESHEAD"
+  ],
   "marketSnapshot": {
     "medianPrice": 150000,
-    "transactionCount12m": 2177,
+    "transactionCount12m": 2166,
     "yoyPriceChange": -3.2,
     "approvedApps12m": 0,
-    "pipelineUnits": 553,
-    "pipelineGdv": 82950000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 26,
+    "pipelineGdv": 3614375,
     "approvalRate": 0
   }
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.623Z",
+  "updatedAt": "2026-08-07T08:45:01.748Z",
   "townSlug": "grays",
   "countySlug": "essex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "THURROCK"
+  ],
   "stats": {
     "medianPrice": 350000,
     "medianByType": {
-      "D": 555000,
+      "D": 550000,
       "S": 400000,
       "T": 340000,
-      "F": 203000
+      "F": 206000
     },
-    "transactionCount12m": 1561,
+    "transactionCount12m": 1567,
     "yoyChange": 0,
-    "newBuildCount": 3,
-    "existingCount": 1558,
-    "newBuildPremium": 221.4
+    "newBuildCount": 7,
+    "existingCount": 1560,
+    "newBuildPremium": 167.1
   },
   "recentTransactions": [
     {
-      "price": 184000,
-      "date": "2026-05-22",
-      "postcode": "RM17 6RU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4B, TUDOR COURT, HIGH VIEW AVENUE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-18",
-      "postcode": "RM19 1RD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "18, WINDERMERE AVENUE"
-    },
-    {
-      "price": 395000,
-      "date": "2026-05-15",
-      "postcode": "RM15 4JS",
+      "price": 341500,
+      "date": "2026-06-26",
+      "postcode": "RM16 6NY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, HALL CRESCENT"
+      "address": "68, CLIFFORD ROAD"
+    },
+    {
+      "price": 500000,
+      "date": "2026-06-22",
+      "postcode": "SS17 0DN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, CHANTRY CRESCENT"
+    },
+    {
+      "price": 460000,
+      "date": "2026-06-19",
+      "postcode": "RM16 2XU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, THE CLOSE"
+    },
+    {
+      "price": 465000,
+      "date": "2026-06-19",
+      "postcode": "RM17 5RQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, TENNYSON AVENUE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-19",
+      "postcode": "RM17 6AD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55A, ROSEDALE ROAD"
+    },
+    {
+      "price": 575000,
+      "date": "2026-06-18",
+      "postcode": "SS17 7SJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, LYNDHURST ROAD"
+    },
+    {
+      "price": 865000,
+      "date": "2026-06-17",
+      "postcode": "RM16 6YQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, SYLVAN CLOSE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-16",
+      "postcode": "RM15 6EU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, FOXGLOVE ROAD"
+    },
+    {
+      "price": 390000,
+      "date": "2026-06-16",
+      "postcode": "RM16 4DD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, LEA ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-16",
+      "postcode": "RM15 6AX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, CHERWELL GROVE"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-15",
+      "postcode": "RM17 5FE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, HASTINGS CLOSE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-15",
+      "postcode": "RM17 5AP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, LISLE PLACE"
+    },
+    {
+      "price": 730000,
+      "date": "2026-06-12",
+      "postcode": "SS17 8AT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MAGNOLIA PLACE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-12",
+      "postcode": "RM19 1SF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "13, TALUS CLOSE"
     },
     {
       "price": 350000,
-      "date": "2026-05-15",
-      "postcode": "RM17 6AJ",
+      "date": "2026-06-12",
+      "postcode": "RM17 5SP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "46, OVERCLIFF ROAD"
+      "address": "38, TOFT AVENUE"
     },
     {
-      "price": 425000,
-      "date": "2026-05-15",
-      "postcode": "RM18 8XD",
+      "price": 745000,
+      "date": "2026-06-11",
+      "postcode": "RM17 5RP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, WOODWARD CLOSE"
+    },
+    {
+      "price": 402000,
+      "date": "2026-06-10",
+      "postcode": "RM15 5AY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, ERRIFF DRIVE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-10",
+      "postcode": "RM18 8JQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "64, STEPHENSON AVENUE"
-    },
-    {
-      "price": 434000,
-      "date": "2026-05-15",
-      "postcode": "RM16 6QW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "151, SACHFIELD DRIVE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-15",
-      "postcode": "RM17 5YT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, ROSEBERY ROAD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-15",
-      "postcode": "SS17 0PQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, SOUTHEND ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-15",
-      "postcode": "RM15 4QS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, FRANKLYNS, TEVIOT AVENUE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-14",
-      "postcode": "SS17 7JW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "374, NORTON CLOSE"
-    },
-    {
-      "price": 365500,
-      "date": "2026-05-14",
-      "postcode": "RM15 6RB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, CEDAR RISE"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-13",
-      "postcode": "RM18 8RS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, LAMBOURNE"
-    },
-    {
-      "price": 860000,
-      "date": "2026-05-13",
-      "postcode": "RM17 5RR",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE COACH HOUSE RESIDENTIAL HOME, 10, WOODWARD HEIGHTS"
+      "address": "1, BURNS PLACE"
     },
     {
       "price": 350000,
-      "date": "2026-05-13",
-      "postcode": "RM15 4ER",
+      "date": "2026-06-09",
+      "postcode": "RM17 5AP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, GRANGE ROAD"
+      "address": "16, LISLE PLACE"
     },
     {
-      "price": 180000,
-      "date": "2026-05-13",
-      "postcode": "RM15 5BD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 10, ARCHERS COURT, ARISDALE AVENUE"
-    },
-    {
-      "price": 307000,
-      "date": "2026-05-13",
-      "postcode": "RM16 3ET",
+      "price": 360000,
+      "date": "2026-06-09",
+      "postcode": "SS17 9AA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, ROWLEY ROAD"
-    },
-    {
-      "price": 312000,
-      "date": "2026-05-11",
-      "postcode": "RM18 8HQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, DRYDEN PLACE"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-11",
-      "postcode": "SS17 7SP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "212, LYNDHURST ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-08",
-      "postcode": "RM16 2AP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7B, CRAMMAVILL STREET"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-08",
-      "postcode": "RM15 5QN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, CAM GREEN"
+      "address": "53, LAMPITS HILL"
     }
   ],
   "monthlyHistory": [
@@ -223,7 +226,7 @@
     {
       "month": "2024-05",
       "medianPrice": 330000,
-      "transactions": 183
+      "transactions": 184
     },
     {
       "month": "2024-06",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 360000,
-      "transactions": 437
+      "transactions": 439
     },
     {
       "month": "2025-04",
@@ -283,66 +286,71 @@
     {
       "month": "2025-05",
       "medianPrice": 350000,
-      "transactions": 173
+      "transactions": 176
     },
     {
       "month": "2025-06",
       "medianPrice": 345000,
-      "transactions": 178
+      "transactions": 177
     },
     {
       "month": "2025-07",
       "medianPrice": 365000,
-      "transactions": 194
+      "transactions": 197
     },
     {
       "month": "2025-08",
       "medianPrice": 345000,
-      "transactions": 179
+      "transactions": 188
     },
     {
       "month": "2025-09",
       "medianPrice": 350000,
-      "transactions": 190
+      "transactions": 197
     },
     {
       "month": "2025-10",
       "medianPrice": 360000,
-      "transactions": 222
+      "transactions": 225
     },
     {
       "month": "2025-11",
-      "medianPrice": 341000,
-      "transactions": 173
+      "medianPrice": 340500,
+      "transactions": 178
     },
     {
       "month": "2025-12",
       "medianPrice": 340000,
-      "transactions": 135
+      "transactions": 164
     },
     {
       "month": "2026-01",
-      "medianPrice": 362500,
-      "transactions": 125
+      "medianPrice": 365000,
+      "transactions": 143
     },
     {
       "month": "2026-02",
-      "medianPrice": 352500,
-      "transactions": 116
+      "medianPrice": 350000,
+      "transactions": 121
     },
     {
       "month": "2026-03",
-      "medianPrice": 350000,
-      "transactions": 137
+      "medianPrice": 355000,
+      "transactions": 147
     },
     {
       "month": "2026-04",
-      "medianPrice": 350000,
-      "transactions": 100
+      "medianPrice": 348000,
+      "transactions": 112
     },
     {
       "month": "2026-05",
-      "medianPrice": 335000,
+      "medianPrice": 345000,
+      "transactions": 99
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 350000,
       "transactions": 31
     }
   ],
@@ -354,8 +362,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 333000,
-      "transactions": 495
+      "medianPrice": 332250,
+      "transactions": 496
     },
     {
       "quarter": "2024-Q3",
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 351500,
-      "transactions": 804
+      "medianPrice": 353000,
+      "transactions": 806
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 335250,
-      "transactions": 428
+      "medianPrice": 336500,
+      "transactions": 430
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 350000,
-      "transactions": 563
+      "medianPrice": 350375,
+      "transactions": 582
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 351000,
-      "transactions": 530
+      "medianPrice": 350000,
+      "transactions": 567
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 356000,
-      "transactions": 378
+      "medianPrice": 355000,
+      "transactions": 411
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 350000,
-      "transactions": 131
+      "medianPrice": 349998,
+      "transactions": 242
     }
   ]
 }

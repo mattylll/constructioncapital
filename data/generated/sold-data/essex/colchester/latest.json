@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.593Z",
+  "updatedAt": "2026-08-07T08:45:01.717Z",
   "townSlug": "colchester",
   "countySlug": "essex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "COLCHESTER"
+  ],
   "stats": {
-    "medianPrice": 315000,
+    "medianPrice": 317500,
     "medianByType": {
-      "D": 440000,
+      "D": 441000,
       "S": 325000,
       "T": 270000,
-      "F": 168000
+      "F": 166000
     },
-    "transactionCount12m": 2301,
-    "yoyChange": -1.6,
+    "transactionCount12m": 2237,
+    "yoyChange": 0,
     "newBuildCount": 28,
-    "existingCount": 2273,
-    "newBuildPremium": 39.7
+    "existingCount": 2209,
+    "newBuildPremium": 28.3
   },
   "recentTransactions": [
     {
-      "price": 207500,
-      "date": "2026-05-27",
-      "postcode": "CO2 7EN",
-      "propertyType": "T",
+      "price": 170000,
+      "date": "2026-06-26",
+      "postcode": "CO4 9TS",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "8, CROMWELL ROAD"
+      "tenure": "L",
+      "address": "24, HANBURY GARDENS"
     },
     {
-      "price": 170000,
-      "date": "2026-05-22",
+      "price": 300000,
+      "date": "2026-06-22",
+      "postcode": "CO2 9RU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, CLERKE CHASE"
+    },
+    {
+      "price": 305000,
+      "date": "2026-06-19",
+      "postcode": "CO4 3JS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, ACACIA AVENUE"
+    },
+    {
+      "price": 615000,
+      "date": "2026-06-19",
+      "postcode": "CO4 5BU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SHRUBLAND HOUSE, 43, MILE END ROAD"
+    },
+    {
+      "price": 173000,
+      "date": "2026-06-19",
       "postcode": "CO5 7JJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "14, OXTON CLOSE"
+      "address": "28, OXTON CLOSE"
     },
     {
-      "price": 190000,
-      "date": "2026-05-22",
-      "postcode": "CO4 5RY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "44, AXIAL DRIVE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-22",
-      "postcode": "CO2 7RG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, POWNALL CRESCENT"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-22",
-      "postcode": "CO5 0DW",
+      "price": 390000,
+      "date": "2026-06-19",
+      "postcode": "CO4 5PL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, CAROLINA WAY"
+      "address": "59, ENDEAVOUR WAY"
     },
     {
-      "price": 326000,
-      "date": "2026-05-21",
-      "postcode": "CO1 2ES",
-      "propertyType": "T",
+      "price": 495000,
+      "date": "2026-06-19",
+      "postcode": "CO3 3DW",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, OLD HEATH ROAD"
-    },
-    {
-      "price": 192000,
-      "date": "2026-05-21",
-      "postcode": "CO4 5FY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "110, HAKEWILL WAY"
+      "address": "11, SALISBURY AVENUE"
     },
     {
       "price": 120000,
-      "date": "2026-05-21",
-      "postcode": "CO4 3QQ",
+      "date": "2026-06-18",
+      "postcode": "CO5 7NL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "109, GARDENIA WALK"
+      "address": "17, ABBERTON GRANGE, LAYER ROAD"
     },
     {
-      "price": 530000,
-      "date": "2026-05-21",
-      "postcode": "CO4 5AE",
+      "price": 270000,
+      "date": "2026-06-18",
+      "postcode": "CO3 0PP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, SPRING SEDGE CLOSE"
+    },
+    {
+      "price": 460000,
+      "date": "2026-06-18",
+      "postcode": "CO3 4SJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "60, BERGHOLT ROAD"
+      "address": "16, SCYTHE WAY"
     },
     {
-      "price": 200000,
-      "date": "2026-05-20",
-      "postcode": "CO5 0DW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, CAROLINA WAY"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-19",
-      "postcode": "CO3 0RB",
+      "price": 215000,
+      "date": "2026-06-18",
+      "postcode": "CO1 2BN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, MONTBRETIA CLOSE"
+      "address": "36, KENDALL ROAD"
     },
     {
-      "price": 163000,
-      "date": "2026-05-19",
-      "postcode": "CO1 2JP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "83, GEORGE WILLIAMS WAY"
-    },
-    {
-      "price": 380000,
-      "date": "2026-05-19",
-      "postcode": "CO5 8TE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, HILLSIDE COTTAGES, MEETING LANE"
-    },
-    {
-      "price": 383000,
-      "date": "2026-05-19",
-      "postcode": "CO3 0PJ",
+      "price": 350000,
+      "date": "2026-06-18",
+      "postcode": "CO3 4JH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, MARRAM CLOSE"
+      "address": "37, SHELLEY ROAD"
     },
     {
-      "price": 280000,
-      "date": "2026-05-18",
-      "postcode": "CO2 7LZ",
-      "propertyType": "T",
+      "price": 515000,
+      "date": "2026-06-16",
+      "postcode": "CO2 8EW",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, BROOKSIDE CLOSE"
+      "address": "19, ROWHEDGE ROAD"
     },
     {
-      "price": 300000,
-      "date": "2026-05-18",
-      "postcode": "CO3 8BU",
-      "propertyType": "S",
+      "price": 265000,
+      "date": "2026-06-15",
+      "postcode": "CO5 7ER",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, PENGUIN PARADE"
+      "address": "35, ALBION STREET"
     },
     {
-      "price": 250000,
-      "date": "2026-05-18",
-      "postcode": "CO2 8RQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "79, LETHE GROVE"
-    },
-    {
-      "price": 145000,
-      "date": "2026-05-18",
-      "postcode": "CO4 5ZJ",
+      "price": 95000,
+      "date": "2026-06-15",
+      "postcode": "CO2 8BY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "54, CHAPMAN PLACE"
+      "address": "19, RANGER WALK"
     },
     {
-      "price": 282500,
-      "date": "2026-05-18",
-      "postcode": "CO2 8WW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "99, JOHN MACE ROAD"
-    },
-    {
-      "price": 335000,
-      "date": "2026-05-15",
-      "postcode": "CO5 0UU",
+      "price": 322500,
+      "date": "2026-06-15",
+      "postcode": "CO3 3RS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, HONEYBEE GROVE"
+      "address": "14, ACLAND AVENUE"
+    },
+    {
+      "price": 136500,
+      "date": "2026-06-15",
+      "postcode": "CO4 5ZF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, WHEELWRIGHT PLACE"
+    },
+    {
+      "price": 385000,
+      "date": "2026-06-12",
+      "postcode": "CO3 0QJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, ROWAN CLOSE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-12",
+      "postcode": "CO2 9FZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, TROWEL PLACE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-06-12",
+      "postcode": "CO3 0PN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, DARNEL WAY"
     }
   ],
   "monthlyHistory": [
@@ -263,7 +266,7 @@
     {
       "month": "2025-01",
       "medianPrice": 325000,
-      "transactions": 235
+      "transactions": 236
     },
     {
       "month": "2025-02",
@@ -283,67 +286,72 @@
     {
       "month": "2025-05",
       "medianPrice": 320000,
-      "transactions": 191
+      "transactions": 192
     },
     {
       "month": "2025-06",
       "medianPrice": 315000,
-      "transactions": 290
+      "transactions": 292
     },
     {
       "month": "2025-07",
-      "medianPrice": 315000,
-      "transactions": 317
+      "medianPrice": 312500,
+      "transactions": 320
     },
     {
       "month": "2025-08",
-      "medianPrice": 325000,
-      "transactions": 269
+      "medianPrice": 340000,
+      "transactions": 291
     },
     {
       "month": "2025-09",
       "medianPrice": 327000,
-      "transactions": 239
+      "transactions": 249
     },
     {
       "month": "2025-10",
-      "medianPrice": 312500,
-      "transactions": 290
+      "medianPrice": 312250,
+      "transactions": 292
     },
     {
       "month": "2025-11",
       "medianPrice": 325000,
-      "transactions": 225
+      "transactions": 231
     },
     {
       "month": "2025-12",
-      "medianPrice": 305000,
-      "transactions": 228
+      "medianPrice": 302500,
+      "transactions": 250
     },
     {
       "month": "2026-01",
-      "medianPrice": 302500,
-      "transactions": 180
+      "medianPrice": 305000,
+      "transactions": 193
     },
     {
       "month": "2026-02",
-      "medianPrice": 318000,
-      "transactions": 181
+      "medianPrice": 320000,
+      "transactions": 189
     },
     {
       "month": "2026-03",
       "medianPrice": 320000,
-      "transactions": 182
+      "transactions": 186
     },
     {
       "month": "2026-04",
-      "medianPrice": 300000,
-      "transactions": 159
+      "medianPrice": 302500,
+      "transactions": 172
     },
     {
       "month": "2026-05",
+      "medianPrice": 301500,
+      "transactions": 161
+    },
+    {
+      "month": "2026-06",
       "medianPrice": 300000,
-      "transactions": 84
+      "transactions": 67
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 330000,
-      "transactions": 1061
+      "transactions": 1062
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 310000,
-      "transactions": 602
+      "transactions": 605
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 325000,
-      "transactions": 825
+      "transactions": 860
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 315000,
-      "transactions": 743
+      "transactions": 773
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 317500,
-      "transactions": 543
+      "medianPrice": 319000,
+      "transactions": 568
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 300000,
-      "transactions": 243
+      "transactions": 400
     }
   ]
 }

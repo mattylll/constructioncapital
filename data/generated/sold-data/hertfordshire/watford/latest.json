@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.519Z",
+  "updatedAt": "2026-08-07T08:45:01.636Z",
   "townSlug": "watford",
   "countySlug": "hertfordshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WATFORD"
+  ],
   "stats": {
-    "medianPrice": 405000,
+    "medianPrice": 415000,
     "medianByType": {
-      "D": 842500,
-      "S": 550000,
+      "D": 875000,
+      "S": 555250,
       "T": 420000,
-      "F": 255000
+      "F": 258500
     },
-    "transactionCount12m": 824,
-    "yoyChange": -1.2,
+    "transactionCount12m": 796,
+    "yoyChange": 2.5,
     "newBuildCount": 26,
-    "existingCount": 798,
-    "newBuildPremium": -41.4
+    "existingCount": 770,
+    "newBuildPremium": -42.2
   },
   "recentTransactions": [
     {
-      "price": 465000,
-      "date": "2026-05-22",
-      "postcode": "WD17 2QB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, SOTHERON ROAD"
-    },
-    {
-      "price": 211500,
-      "date": "2026-05-21",
-      "postcode": "WD17 2QZ",
+      "price": 305000,
+      "date": "2026-06-26",
+      "postcode": "WD17 4UA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "5C, GLADSTONE ROAD"
+      "address": "6, WINDERMERE COURT, ALEXANDRA ROAD"
     },
     {
-      "price": 550000,
-      "date": "2026-05-19",
-      "postcode": "WD25 0AG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "71, NORTH WESTERN AVENUE"
-    },
-    {
-      "price": 535000,
-      "date": "2026-05-15",
-      "postcode": "WD25 9JL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "605, ST ALBANS ROAD"
-    },
-    {
-      "price": 620000,
-      "date": "2026-05-15",
-      "postcode": "WD19 4ED",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "68, PINNER ROAD"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-12",
-      "postcode": "WD17 4LR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, ELIZABETH COURT, 170, HEMPSTEAD ROAD"
-    },
-    {
-      "price": 620500,
-      "date": "2026-05-12",
-      "postcode": "WD24 7QQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "74, BUSHEY MILL LANE"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-12",
-      "postcode": "WD25 9PG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, BEKEN COURT"
-    },
-    {
-      "price": 900000,
-      "date": "2026-05-12",
-      "postcode": "WD17 4TZ",
+      "price": 785000,
+      "date": "2026-06-26",
+      "postcode": "WD25 7JQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, RIDGEFIELD"
+      "address": "260, HORSESHOE LANE"
     },
     {
-      "price": 197000,
-      "date": "2026-05-08",
-      "postcode": "WD18 0FQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "110, WILMINGTON CLOSE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-08",
-      "postcode": "WD19 4EF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, PINNER ROAD"
-    },
-    {
-      "price": 615000,
-      "date": "2026-05-08",
-      "postcode": "WD24 4HU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, CARISBROOKE AVENUE"
-    },
-    {
-      "price": 975000,
-      "date": "2026-05-08",
-      "postcode": "WD17 4NQ",
+      "price": 955000,
+      "date": "2026-06-26",
+      "postcode": "WD18 7SH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, YORKE GATE"
+      "address": "344, HAGDEN LANE"
     },
     {
-      "price": 317000,
-      "date": "2026-05-08",
-      "postcode": "WD18 7HG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 12, OMEGA COURT, THE GATEWAY"
-    },
-    {
-      "price": 367000,
-      "date": "2026-05-07",
-      "postcode": "WD24 5DT",
-      "propertyType": "T",
+      "price": 560000,
+      "date": "2026-06-26",
+      "postcode": "WD24 6RP",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "42, BEDFORD STREET"
+      "address": "76, LEGGATTS WOOD AVENUE"
     },
     {
       "price": 500000,
-      "date": "2026-05-07",
-      "postcode": "WD19 4HG",
+      "date": "2026-06-25",
+      "postcode": "WD19 4AJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "32, OXHEY AVENUE"
+      "address": "94, VILLIERS ROAD"
     },
     {
-      "price": 395000,
-      "date": "2026-05-06",
-      "postcode": "WD17 2RG",
+      "price": 563000,
+      "date": "2026-06-19",
+      "postcode": "WD25 9QT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, SHAFTESBURY ROAD"
+      "address": "22, CODICOTE DRIVE"
     },
     {
-      "price": 213000,
-      "date": "2026-05-06",
-      "postcode": "WD18 7JG",
+      "price": 520000,
+      "date": "2026-06-19",
+      "postcode": "WD25 7EX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "71, GANDERS ASH"
+    },
+    {
+      "price": 385000,
+      "date": "2026-06-19",
+      "postcode": "WD18 0AX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, NEAL STREET"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-16",
+      "postcode": "WD24 4RJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT C, 174, RICKMANSWORTH ROAD"
+      "address": "FLAT 13, WESTMINSTER HOUSE, HALLAM CLOSE"
     },
     {
-      "price": 282500,
-      "date": "2026-05-05",
-      "postcode": "WD18 0GU",
+      "price": 325000,
+      "date": "2026-06-12",
+      "postcode": "WD24 4RB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 21, ESSOLDO COURT, 4, GRANVILLE ROAD"
+      "address": "FLAT 9, ELIZABETH HOUSE, KEELE CLOSE"
     },
     {
-      "price": 112000,
-      "date": "2026-05-05",
-      "postcode": "WD17 4PZ",
+      "price": 405000,
+      "date": "2026-06-12",
+      "postcode": "WD24 5EU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MILTON STREET"
+    },
+    {
+      "price": 441500,
+      "date": "2026-06-12",
+      "postcode": "WD24 4DR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, BRUCE GROVE"
+    },
+    {
+      "price": 100000,
+      "date": "2026-06-11",
+      "postcode": "WD17 3AF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "25, HEATHDENE MANOR"
+      "address": "20, NANTERRE COURT, 63 - 67, HEMPSTEAD ROAD"
+    },
+    {
+      "price": 405000,
+      "date": "2026-06-10",
+      "postcode": "WD24 4RE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 35, ELIZABETH HOUSE, EXETER CLOSE"
+    },
+    {
+      "price": 283000,
+      "date": "2026-06-09",
+      "postcode": "WD17 4DS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, BURROW CLOSE"
+    },
+    {
+      "price": 391500,
+      "date": "2026-06-09",
+      "postcode": "WD18 0EU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, SOULDERN STREET"
+    },
+    {
+      "price": 190000,
+      "date": "2026-06-09",
+      "postcode": "WD18 0HQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7A, HAGDEN LANE"
+    },
+    {
+      "price": 305000,
+      "date": "2026-06-08",
+      "postcode": "WD18 0RD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, FEARNLEY STREET"
+    },
+    {
+      "price": 417500,
+      "date": "2026-06-05",
+      "postcode": "WD24 5DZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, COPSEWOOD ROAD"
+    },
+    {
+      "price": 460000,
+      "date": "2026-06-05",
+      "postcode": "WD25 9TA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ALDBURY CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 424075,
-      "transactions": 194
+      "medianPrice": 423150,
+      "transactions": 193
     },
     {
       "month": "2024-11",
@@ -283,7 +286,7 @@
     {
       "month": "2025-05",
       "medianPrice": 400000,
-      "transactions": 95
+      "transactions": 96
     },
     {
       "month": "2025-06",
@@ -298,12 +301,12 @@
     {
       "month": "2025-08",
       "medianPrice": 400000,
-      "transactions": 94
+      "transactions": 97
     },
     {
       "month": "2025-09",
       "medianPrice": 422500,
-      "transactions": 101
+      "transactions": 103
     },
     {
       "month": "2025-10",
@@ -312,37 +315,42 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 402000,
-      "transactions": 103
+      "medianPrice": 397500,
+      "transactions": 108
     },
     {
       "month": "2025-12",
-      "medianPrice": 420000,
-      "transactions": 67
+      "medianPrice": 436250,
+      "transactions": 76
     },
     {
       "month": "2026-01",
-      "medianPrice": 382000,
-      "transactions": 47
+      "medianPrice": 400000,
+      "transactions": 56
     },
     {
       "month": "2026-02",
-      "medianPrice": 420000,
-      "transactions": 61
+      "medianPrice": 422475,
+      "transactions": 64
     },
     {
       "month": "2026-03",
-      "medianPrice": 428050,
-      "transactions": 66
+      "medianPrice": 418050,
+      "transactions": 70
     },
     {
       "month": "2026-04",
-      "medianPrice": 396500,
-      "transactions": 62
+      "medianPrice": 400000,
+      "transactions": 67
     },
     {
       "month": "2026-05",
-      "medianPrice": 422500,
+      "medianPrice": 400000,
+      "transactions": 49
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 405000,
       "transactions": 24
     }
   ],
@@ -364,8 +372,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 415000,
-      "transactions": 477
+      "medianPrice": 413500,
+      "transactions": 476
     },
     {
       "quarter": "2025-Q1",
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 400000,
-      "transactions": 221
+      "transactions": 222
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 407163,
-      "transactions": 320
+      "medianPrice": 409325,
+      "transactions": 325
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 410500,
-      "transactions": 264
+      "medianPrice": 413750,
+      "transactions": 278
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 406000,
-      "transactions": 174
+      "medianPrice": 413500,
+      "transactions": 190
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 400000,
-      "transactions": 86
+      "transactions": 140
     }
   ]
 }

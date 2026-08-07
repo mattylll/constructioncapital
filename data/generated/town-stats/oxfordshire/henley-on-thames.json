@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.196Z",
+  "updatedAt": "2026-08-07T08:45:01.626Z",
   "townSlug": "henley-on-thames",
   "countySlug": "oxfordshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTH OXFORDSHIRE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 675000,
-    "transactionCount12m": 229,
-    "yoyPriceChange": -6.9,
+    "medianPrice": 720000,
+    "transactionCount12m": 239,
+    "yoyPriceChange": 1.1,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

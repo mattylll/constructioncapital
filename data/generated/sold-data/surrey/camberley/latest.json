@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.232Z",
+  "updatedAt": "2026-08-07T08:45:01.336Z",
   "townSlug": "camberley",
   "countySlug": "surrey",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SURREY HEATH"
+  ],
   "stats": {
     "medianPrice": 475000,
     "medianByType": {
       "D": 710000,
       "S": 470000,
-      "T": 385000,
-      "F": 222000
+      "T": 377250,
+      "F": 225000
     },
-    "transactionCount12m": 966,
+    "transactionCount12m": 972,
     "yoyChange": 1.1,
-    "newBuildCount": 4,
-    "existingCount": 962,
-    "newBuildPremium": 8.3
+    "newBuildCount": 6,
+    "existingCount": 966,
+    "newBuildPremium": 38.4
   },
   "recentTransactions": [
     {
+      "price": 950000,
+      "date": "2026-06-26",
+      "postcode": "GU18 5SG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, SUNDEW CLOSE"
+    },
+    {
+      "price": 933000,
+      "date": "2026-06-24",
+      "postcode": "GU24 9HZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, COMMONFIELDS"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-23",
+      "postcode": "GU15 3GL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "84, THE COURTYARD, SOUTHWELL PARK ROAD"
+    },
+    {
+      "price": 472000,
+      "date": "2026-06-22",
+      "postcode": "GU16 8RR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, LONGMEADOW"
+    },
+    {
+      "price": 560000,
+      "date": "2026-06-19",
+      "postcode": "GU24 9DG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, ELM GROVE"
+    },
+    {
+      "price": 955000,
+      "date": "2026-06-19",
+      "postcode": "GU24 9PE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ERICA CLOSE"
+    },
+    {
+      "price": 680000,
+      "date": "2026-06-19",
+      "postcode": "GU16 6JP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, MINEHURST ROAD"
+    },
+    {
       "price": 315000,
-      "date": "2026-05-22",
-      "postcode": "GU15 1EX",
+      "date": "2026-06-19",
+      "postcode": "GU19 5DH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "38, FRANCIS WAY"
+      "address": "155, LONDON ROAD"
     },
     {
-      "price": 720000,
-      "date": "2026-05-22",
-      "postcode": "GU15 2SW",
+      "price": 969375,
+      "date": "2026-06-19",
+      "postcode": "GU15 2DP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "71, PARK ROAD"
+      "address": "30, WAVERLEY DRIVE"
     },
     {
-      "price": 410000,
-      "date": "2026-05-19",
-      "postcode": "GU16 8RS",
+      "price": 565000,
+      "date": "2026-06-19",
+      "postcode": "GU16 8TB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "57, LONGMEADOW"
-    },
-    {
-      "price": 525000,
-      "date": "2026-05-18",
-      "postcode": "GU24 8NG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, HEATHLANDS, MACMAHON CLOSE"
-    },
-    {
-      "price": 699950,
-      "date": "2026-05-15",
-      "postcode": "GU15 1PJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, SOVEREIGN DRIVE"
-    },
-    {
-      "price": 415000,
-      "date": "2026-05-15",
-      "postcode": "GU16 6BP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, SALISBURY GROVE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-15",
-      "postcode": "GU16 6BZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, NIGHTINGALE DRIVE"
-    },
-    {
-      "price": 516000,
-      "date": "2026-05-15",
-      "postcode": "GU15 1QU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, BUTTERMERE DRIVE"
-    },
-    {
-      "price": 515000,
-      "date": "2026-05-14",
-      "postcode": "GU24 8NQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, THE GRANGE"
-    },
-    {
-      "price": 525000,
-      "date": "2026-05-12",
-      "postcode": "GU24 8NQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, THE GRANGE"
-    },
-    {
-      "price": 630000,
-      "date": "2026-05-12",
-      "postcode": "GU18 5YJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CLEARSPRINGS"
+      "address": "27, GORSE ROAD"
     },
     {
       "price": 200000,
-      "date": "2026-05-11",
-      "postcode": "GU16 8QA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, HEATHER MEAD"
-    },
-    {
-      "price": 710000,
-      "date": "2026-05-08",
-      "postcode": "GU20 6QD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, WINDMILL FIELD"
-    },
-    {
-      "price": 187000,
-      "date": "2026-05-08",
-      "postcode": "GU24 9JB",
+      "date": "2026-06-19",
+      "postcode": "GU19 5LH",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "34, MEADOW WAY"
+      "address": "FLAT 2, HEATH COURT, HEATH ROAD"
     },
     {
-      "price": 295000,
-      "date": "2026-05-08",
-      "postcode": "GU18 5SX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "35, MEADOWBANK ROAD"
-    },
-    {
-      "price": 345000,
-      "date": "2026-05-07",
-      "postcode": "GU19 5QJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, ALBERT ROAD"
-    },
-    {
-      "price": 770000,
-      "date": "2026-05-06",
-      "postcode": "GU15 4LD",
+      "price": 716600,
+      "date": "2026-06-18",
+      "postcode": "GU24 9QB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, DIAMOND RIDGE"
+      "address": "9A, BIRCH LANE"
     },
     {
-      "price": 512500,
-      "date": "2026-05-06",
-      "postcode": "GU16 9BH",
+      "price": 425000,
+      "date": "2026-06-18",
+      "postcode": "GU16 8XP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, BUCKINGHAM WAY"
+    },
+    {
+      "price": 738000,
+      "date": "2026-06-15",
+      "postcode": "GU15 2LT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "191, WORSLEY ROAD"
+      "address": "24B, HEATHERDALE ROAD"
     },
     {
-      "price": 830000,
-      "date": "2026-05-05",
-      "postcode": "GU16 8TS",
+      "price": 482500,
+      "date": "2026-06-15",
+      "postcode": "GU16 6FT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, RIDGES RISE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-15",
+      "postcode": "GU15 4JG",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, KINGS RIDE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-12",
+      "postcode": "GU15 2YB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, HANBURY WAY"
+    },
+    {
+      "price": 915000,
+      "date": "2026-06-12",
+      "postcode": "GU15 1HG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, GREENLEAS"
+      "address": "20, HILLSBOROUGH PARK"
     },
     {
-      "price": 195000,
-      "date": "2026-05-01",
-      "postcode": "GU15 2ET",
+      "price": 710000,
+      "date": "2026-06-12",
+      "postcode": "GU15 1RB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, BUTTERMERE DRIVE"
+    },
+    {
+      "price": 168000,
+      "date": "2026-06-12",
+      "postcode": "GU16 6BL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 7, LANSDOWNE COURT, 3, UPPER PARK ROAD"
+      "address": "3, POPLAR CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -227,8 +230,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 440000,
-      "transactions": 111
+      "medianPrice": 442500,
+      "transactions": 112
     },
     {
       "month": "2024-07",
@@ -272,13 +275,13 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 471250,
-      "transactions": 252
+      "medianPrice": 472500,
+      "transactions": 253
     },
     {
       "month": "2025-04",
-      "medianPrice": 475000,
-      "transactions": 41
+      "medianPrice": 480000,
+      "transactions": 42
     },
     {
       "month": "2025-05",
@@ -287,63 +290,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 445000,
-      "transactions": 88
+      "medianPrice": 440000,
+      "transactions": 89
     },
     {
       "month": "2025-07",
-      "medianPrice": 507500,
-      "transactions": 110
+      "medianPrice": 510000,
+      "transactions": 111
     },
     {
       "month": "2025-08",
-      "medianPrice": 504000,
-      "transactions": 116
+      "medianPrice": 500000,
+      "transactions": 121
     },
     {
       "month": "2025-09",
       "medianPrice": 485000,
-      "transactions": 109
+      "transactions": 115
     },
     {
       "month": "2025-10",
       "medianPrice": 466250,
-      "transactions": 137
+      "transactions": 139
     },
     {
       "month": "2025-11",
-      "medianPrice": 471500,
-      "transactions": 98
+      "medianPrice": 473000,
+      "transactions": 105
     },
     {
       "month": "2025-12",
-      "medianPrice": 444500,
-      "transactions": 98
+      "medianPrice": 450000,
+      "transactions": 103
     },
     {
       "month": "2026-01",
-      "medianPrice": 493000,
-      "transactions": 64
+      "medianPrice": 500000,
+      "transactions": 74
     },
     {
       "month": "2026-02",
-      "medianPrice": 450000,
-      "transactions": 71
+      "medianPrice": 462500,
+      "transactions": 72
     },
     {
       "month": "2026-03",
-      "medianPrice": 490000,
-      "transactions": 95
+      "medianPrice": 480000,
+      "transactions": 98
     },
     {
       "month": "2026-04",
       "medianPrice": 465000,
-      "transactions": 61
+      "transactions": 65
     },
     {
       "month": "2026-05",
-      "medianPrice": 515000,
-      "transactions": 21
+      "medianPrice": 485000,
+      "transactions": 63
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 475000,
+      "transactions": 37
     }
   ],
   "quarterlyHistory": [
@@ -354,8 +362,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 465000,
-      "transactions": 327
+      "medianPrice": 467500,
+      "transactions": 328
     },
     {
       "quarter": "2024-Q3",
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 470000,
-      "transactions": 497
+      "transactions": 498
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 475000,
-      "transactions": 223
+      "transactions": 225
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 500000,
-      "transactions": 335
+      "transactions": 347
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 467500,
-      "transactions": 333
+      "medianPrice": 468000,
+      "transactions": 347
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 485000,
-      "transactions": 230
+      "medianPrice": 490000,
+      "transactions": 244
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 472500,
-      "transactions": 82
+      "medianPrice": 472000,
+      "transactions": 165
     }
   ]
 }

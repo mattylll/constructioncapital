@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.186Z",
+  "updatedAt": "2026-08-07T08:45:02.336Z",
   "townSlug": "rugby",
   "countySlug": "warwickshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "RUGBY"
+  ],
   "stats": {
-    "medianPrice": 277500,
+    "medianPrice": 275000,
     "medianByType": {
-      "D": 430000,
+      "D": 435000,
       "S": 275000,
-      "T": 212000,
-      "F": 128500
+      "T": 213500,
+      "F": 132750
     },
-    "transactionCount12m": 1296,
-    "yoyChange": -7.5,
-    "newBuildCount": 35,
-    "existingCount": 1261,
-    "newBuildPremium": 10.5
+    "transactionCount12m": 1280,
+    "yoyChange": -7.1,
+    "newBuildCount": 28,
+    "existingCount": 1252,
+    "newBuildPremium": 43.6
   },
   "recentTransactions": [
     {
-      "price": 250000,
-      "date": "2026-05-22",
-      "postcode": "CV23 0AT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, LOBELIA CLOSE"
-    },
-    {
-      "price": 365000,
-      "date": "2026-05-22",
-      "postcode": "CV8 3NR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, ALLOTMENT DRIVE"
-    },
-    {
-      "price": 310000,
-      "date": "2026-05-22",
-      "postcode": "CV21 4BS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, HARRISON CLOSE"
-    },
-    {
-      "price": 291000,
-      "date": "2026-05-22",
-      "postcode": "CV22 7JN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, ROWAN DRIVE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-15",
-      "postcode": "CV23 9DG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "73, TOWNSEND LANE"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-15",
-      "postcode": "CV21 1UD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, REDWOOD ROAD"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-15",
-      "postcode": "CV21 1LR",
+      "price": 180000,
+      "date": "2026-06-24",
+      "postcode": "CV21 2BU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "65, GRASMERE CLOSE"
+      "address": "87, BRIDGET STREET"
     },
     {
-      "price": 380000,
-      "date": "2026-05-15",
-      "postcode": "CV22 6NW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, SOUTHAM ROAD"
-    },
-    {
-      "price": 118500,
-      "date": "2026-05-15",
-      "postcode": "CV22 6AZ",
+      "price": 175000,
+      "date": "2026-06-23",
+      "postcode": "CV3 2BS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "90, BUCHANAN ROAD"
+      "address": "2, MONKS ROAD"
     },
     {
-      "price": 204000,
-      "date": "2026-05-14",
-      "postcode": "CV23 9AZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, MAIN STREET"
-    },
-    {
-      "price": 255000,
-      "date": "2026-05-14",
-      "postcode": "CV22 5PE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, ANDERSON AVENUE"
-    },
-    {
-      "price": 255000,
-      "date": "2026-05-08",
-      "postcode": "CV21 3JU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "158, MURRAY ROAD"
-    },
-    {
-      "price": 202500,
-      "date": "2026-05-08",
-      "postcode": "CV21 2BJ",
+      "price": 129000,
+      "date": "2026-06-19",
+      "postcode": "CV21 3JZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, GEORGE STREET"
+      "address": "79, CRAVEN ROAD"
     },
     {
-      "price": 246250,
-      "date": "2026-05-08",
-      "postcode": "CV21 4PQ",
+      "price": 173500,
+      "date": "2026-06-19",
+      "postcode": "CV21 2EP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, BENNETT STREET"
+    },
+    {
+      "price": 278000,
+      "date": "2026-06-19",
+      "postcode": "CV23 0YH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "36, FENWICK DRIVE"
+      "address": "4, VERVAIN DRIVE"
     },
     {
-      "price": 590000,
-      "date": "2026-05-08",
-      "postcode": "CV23 0GL",
+      "price": 497500,
+      "date": "2026-06-19",
+      "postcode": "CV21 4DU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "100, CRACKTHORNE DRIVE"
+      "address": "17, CRICK ROAD"
     },
     {
-      "price": 180000,
-      "date": "2026-05-08",
-      "postcode": "CV21 3NF",
+      "price": 222000,
+      "date": "2026-06-18",
+      "postcode": "CV23 9FQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, OXFORD STREET"
+      "address": "15, KERRY HILL DRIVE"
     },
     {
-      "price": 675000,
-      "date": "2026-05-07",
-      "postcode": "CV23 9JT",
+      "price": 940000,
+      "date": "2026-06-16",
+      "postcode": "CV22 6NP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, BEECH DRIVE"
+      "address": "20, THE HALL CLOSE"
     },
     {
-      "price": 151000,
-      "date": "2026-05-01",
-      "postcode": "CV22 5LT",
+      "price": 250000,
+      "date": "2026-06-16",
+      "postcode": "CV21 3PW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, BENN STREET"
+      "address": "1, EASTLANDS MEWS"
     },
     {
-      "price": 352000,
-      "date": "2026-05-01",
-      "postcode": "CV22 6JR",
+      "price": 148000,
+      "date": "2026-06-15",
+      "postcode": "CV22 7HF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 3, BAKER HOUSE, IVY GRANGE"
+    },
+    {
+      "price": 289000,
+      "date": "2026-06-15",
+      "postcode": "CV21 4DP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, WHITTLE CLOSE"
+      "address": "21, EASTWOOD GROVE"
     },
     {
-      "price": 325000,
-      "date": "2026-05-01",
-      "postcode": "CV23 0GN",
+      "price": 405000,
+      "date": "2026-06-12",
+      "postcode": "CV22 7ZR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, STANFORD WAY"
+    },
+    {
+      "price": 173550,
+      "date": "2026-06-12",
+      "postcode": "CV21 1UT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, BEECH HOUSE, 4, OSIER CLOSE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-12",
+      "postcode": "CV22 7DA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "99, SNELLSDALE ROAD"
+      "address": "71, ADDISON ROAD"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-12",
+      "postcode": "CV22 5HY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, BALCOMBE ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-12",
+      "postcode": "CV22 6AT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "58, WESTFIELD ROAD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-12",
+      "postcode": "CV21 4DU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, CRICK ROAD"
+    },
+    {
+      "price": 490000,
+      "date": "2026-06-10",
+      "postcode": "CV22 6DX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, HARRIS DRIVE"
+    },
+    {
+      "price": 145000,
+      "date": "2026-06-10",
+      "postcode": "CV21 1AN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, KIRKISTOWN CLOSE"
+    },
+    {
+      "price": 257000,
+      "date": "2026-06-09",
+      "postcode": "CV21 3LF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, GROSVENOR ROAD"
     }
   ],
   "monthlyHistory": [
@@ -238,7 +241,7 @@
     {
       "month": "2024-08",
       "medianPrice": 278000,
-      "transactions": 209
+      "transactions": 208
     },
     {
       "month": "2024-09",
@@ -273,12 +276,12 @@
     {
       "month": "2025-03",
       "medianPrice": 315000,
-      "transactions": 374
+      "transactions": 375
     },
     {
       "month": "2025-04",
-      "medianPrice": 285000,
-      "transactions": 104
+      "medianPrice": 292000,
+      "transactions": 106
     },
     {
       "month": "2025-05",
@@ -287,63 +290,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 345000,
-      "transactions": 214
+      "medianPrice": 346000,
+      "transactions": 219
     },
     {
       "month": "2025-07",
-      "medianPrice": 278750,
-      "transactions": 190
+      "medianPrice": 282250,
+      "transactions": 194
     },
     {
       "month": "2025-08",
-      "medianPrice": 280000,
-      "transactions": 166
+      "medianPrice": 280500,
+      "transactions": 172
     },
     {
       "month": "2025-09",
-      "medianPrice": 277500,
-      "transactions": 142
+      "medianPrice": 270000,
+      "transactions": 151
     },
     {
       "month": "2025-10",
-      "medianPrice": 282500,
-      "transactions": 158
+      "medianPrice": 280000,
+      "transactions": 160
     },
     {
       "month": "2025-11",
-      "medianPrice": 290000,
-      "transactions": 135
+      "medianPrice": 295000,
+      "transactions": 137
     },
     {
       "month": "2025-12",
       "medianPrice": 282500,
-      "transactions": 121
+      "transactions": 135
     },
     {
       "month": "2026-01",
-      "medianPrice": 263000,
-      "transactions": 83
+      "medianPrice": 260000,
+      "transactions": 90
     },
     {
       "month": "2026-02",
-      "medianPrice": 264950,
-      "transactions": 95
+      "medianPrice": 271500,
+      "transactions": 102
     },
     {
       "month": "2026-03",
-      "medianPrice": 271250,
-      "transactions": 114
+      "medianPrice": 275000,
+      "transactions": 117
     },
     {
       "month": "2026-04",
-      "medianPrice": 265500,
-      "transactions": 100
+      "medianPrice": 275000,
+      "transactions": 107
     },
     {
       "month": "2026-05",
-      "medianPrice": 255000,
-      "transactions": 23
+      "medianPrice": 250000,
+      "transactions": 81
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 265000,
+      "transactions": 51
     }
   ],
   "quarterlyHistory": [
@@ -359,8 +367,8 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 286375,
-      "transactions": 558
+      "medianPrice": 287000,
+      "transactions": 557
     },
     {
       "quarter": "2024-Q4",
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 310000,
-      "transactions": 668
+      "transactions": 669
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 314252,
-      "transactions": 458
+      "medianPrice": 315000,
+      "transactions": 465
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 280000,
-      "transactions": 498
+      "transactions": 517
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 282500,
-      "transactions": 414
+      "transactions": 432
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 265500,
-      "transactions": 292
+      "medianPrice": 267500,
+      "transactions": 309
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 262500,
-      "transactions": 123
+      "transactions": 239
     }
   ]
 }

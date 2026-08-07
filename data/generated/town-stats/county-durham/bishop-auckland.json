@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.134Z",
+  "updatedAt": "2026-08-07T08:45:03.497Z",
   "townSlug": "bishop-auckland",
   "countySlug": "county-durham",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "COUNTY DURHAM"
+  ],
   "marketSnapshot": {
-    "medianPrice": 115000,
-    "transactionCount12m": 761,
-    "yoyPriceChange": 8.5,
+    "medianPrice": 112000,
+    "transactionCount12m": 755,
+    "yoyPriceChange": 3.7,
     "approvedApps12m": 0,
-    "pipelineUnits": 377,
-    "pipelineGdv": 42872200,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 273,
+    "pipelineGdv": 31395000,
     "approvalRate": 0
   }
 }

@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.485Z",
+  "updatedAt": "2026-08-07T08:45:03.710Z",
   "townSlug": "peterborough",
   "countySlug": "cambridgeshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CITY OF PETERBOROUGH",
+    "PETERBOROUGH"
+  ],
   "stats": {
     "medianPrice": 235000,
     "medianByType": {
-      "D": 330000,
+      "D": 335000,
       "S": 240000,
       "T": 185000,
       "F": 120000
     },
-    "transactionCount12m": 1816,
+    "transactionCount12m": 1841,
     "yoyChange": -2.1,
-    "newBuildCount": 34,
-    "existingCount": 1782,
-    "newBuildPremium": 38.5
+    "newBuildCount": 35,
+    "existingCount": 1806,
+    "newBuildPremium": 26.5
   },
   "recentTransactions": [
     {
-      "price": 163000,
-      "date": "2026-05-22",
-      "postcode": "PE2 5TP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, LESSINGHAM"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-22",
-      "postcode": "PE2 5RP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "89, STAGSDEN"
-    },
-    {
-      "price": 299000,
-      "date": "2026-05-21",
-      "postcode": "PE2 6HA",
+      "price": 200000,
+      "date": "2026-06-30",
+      "postcode": "PE1 4EU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, EAST OF ENGLAND WAY"
-    },
-    {
-      "price": 156000,
-      "date": "2026-05-20",
-      "postcode": "PE8 6EN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, LAWRENCE ROAD"
-    },
-    {
-      "price": 365130,
-      "date": "2026-05-19",
-      "postcode": "PE3 6FB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, HAYWARDSFIELD"
+      "address": "14, SALLOWS ROAD"
     },
     {
       "price": 250000,
-      "date": "2026-05-19",
-      "postcode": "PE4 6RL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, AINSDALE DRIVE"
-    },
-    {
-      "price": 465000,
-      "date": "2026-05-19",
-      "postcode": "PE7 8BB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, STANTON SQUARE"
-    },
-    {
-      "price": 348000,
-      "date": "2026-05-19",
-      "postcode": "PE6 7ST",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, WHITSED ROAD"
-    },
-    {
-      "price": 256000,
-      "date": "2026-05-18",
-      "postcode": "PE7 8WA",
+      "date": "2026-06-29",
+      "postcode": "PE7 8BA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "51, MOLYNEUX SQUARE"
+      "address": "18, ST KATHERINES MEWS"
     },
     {
-      "price": 192500,
-      "date": "2026-05-18",
-      "postcode": "PE3 9YB",
+      "price": 197500,
+      "date": "2026-06-26",
+      "postcode": "PE7 8PN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "83, DEERLEAP"
+      "address": "10, BRECKEN COURT"
     },
     {
-      "price": 282500,
-      "date": "2026-05-15",
-      "postcode": "PE2 6BY",
+      "price": 412250,
+      "date": "2026-06-25",
+      "postcode": "PE2 8AX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, FLETTON AVENUE"
+    },
+    {
+      "price": 273000,
+      "date": "2026-06-22",
+      "postcode": "PE4 6QJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, KELBURN ROAD"
+      "address": "37, CISSBURY RING"
     },
     {
-      "price": 172000,
-      "date": "2026-05-15",
-      "postcode": "PE4 6LB",
+      "price": 265000,
+      "date": "2026-06-22",
+      "postcode": "PE6 7XL",
       "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, IXWORTH CLOSE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-19",
+      "postcode": "PE2 9FE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, EMPEROR WAY"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-19",
+      "postcode": "PE7 8QZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "64, ROSEWOOD WAY"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-19",
+      "postcode": "PE7 8QQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, LOCKWOOD WAY"
+    },
+    {
+      "price": 480000,
+      "date": "2026-06-19",
+      "postcode": "PE7 8ST",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, HEWITT CLOSE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-19",
+      "postcode": "PE4 5BA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, PARTRIDGE GROVE"
+    },
+    {
+      "price": 113000,
+      "date": "2026-06-19",
+      "postcode": "PE3 6DS",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "1, BARN CLOSE"
+      "address": "10, SOVEREIGN PLACE"
     },
     {
-      "price": 136000,
-      "date": "2026-05-15",
-      "postcode": "PE1 2QG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, HENRY STREET"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-15",
-      "postcode": "PE2 9PN",
+      "price": 247500,
+      "date": "2026-06-19",
+      "postcode": "PE2 8TE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, BREWSTER AVENUE"
+      "address": "73, OAKDALE AVENUE"
     },
     {
-      "price": 700000,
-      "date": "2026-05-14",
-      "postcode": "PE1 4DU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, BROADWAY GARDENS"
-    },
-    {
-      "price": 316000,
-      "date": "2026-05-14",
-      "postcode": "PE7 8PZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "67, CLOVELLY DRIVE"
-    },
-    {
-      "price": 169000,
-      "date": "2026-05-14",
-      "postcode": "PE3 7DR",
+      "price": 121000,
+      "date": "2026-06-19",
+      "postcode": "PE1 3BJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, TANSOR GARTH"
+      "address": "5, VICTORIA STREET"
     },
     {
-      "price": 570000,
-      "date": "2026-05-14",
-      "postcode": "PE4 7YG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, PASTON RIDINGS"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-13",
-      "postcode": "PE6 7LJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, ST BENEDICTS CLOSE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-13",
-      "postcode": "PE7 8EZ",
+      "price": 278000,
+      "date": "2026-06-19",
+      "postcode": "PE7 8JD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, REEDLAND WAY"
+      "address": "2, KILN STREET"
+    },
+    {
+      "price": 174000,
+      "date": "2026-06-18",
+      "postcode": "PE2 8EB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, DUKE STREET"
+    },
+    {
+      "price": 88000,
+      "date": "2026-06-16",
+      "postcode": "PE3 9QL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 9, OAKFIELDS, 74 - 76, BRADWELL ROAD"
+    },
+    {
+      "price": 187500,
+      "date": "2026-06-15",
+      "postcode": "PE3 9XH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, MIDDLETON"
+    },
+    {
+      "price": 218000,
+      "date": "2026-06-15",
+      "postcode": "PE1 3XH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, BLUEBELL AVENUE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-15",
+      "postcode": "PE2 5PD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "139, MEDESWELL"
     }
   ],
   "monthlyHistory": [
@@ -248,12 +252,12 @@
     {
       "month": "2024-10",
       "medianPrice": 250000,
-      "transactions": 346
+      "transactions": 347
     },
     {
       "month": "2024-11",
       "medianPrice": 230000,
-      "transactions": 302
+      "transactions": 303
     },
     {
       "month": "2024-12",
@@ -263,87 +267,92 @@
     {
       "month": "2025-01",
       "medianPrice": 230000,
-      "transactions": 206
+      "transactions": 208
     },
     {
       "month": "2025-02",
       "medianPrice": 235500,
-      "transactions": 260
+      "transactions": 262
     },
     {
       "month": "2025-03",
-      "medianPrice": 239293,
-      "transactions": 466
+      "medianPrice": 239793,
+      "transactions": 468
     },
     {
       "month": "2025-04",
-      "medianPrice": 231500,
-      "transactions": 158
+      "medianPrice": 235000,
+      "transactions": 166
     },
     {
       "month": "2025-05",
       "medianPrice": 250000,
-      "transactions": 254
+      "transactions": 258
     },
     {
       "month": "2025-06",
       "medianPrice": 240000,
-      "transactions": 275
+      "transactions": 287
     },
     {
       "month": "2025-07",
-      "medianPrice": 234000,
-      "transactions": 226
+      "medianPrice": 240000,
+      "transactions": 240
     },
     {
       "month": "2025-08",
-      "medianPrice": 250000,
-      "transactions": 221
+      "medianPrice": 253000,
+      "transactions": 242
     },
     {
       "month": "2025-09",
-      "medianPrice": 229000,
-      "transactions": 194
+      "medianPrice": 230000,
+      "transactions": 206
     },
     {
       "month": "2025-10",
       "medianPrice": 250000,
-      "transactions": 239
+      "transactions": 241
     },
     {
       "month": "2025-11",
-      "medianPrice": 240750,
-      "transactions": 202
+      "medianPrice": 242000,
+      "transactions": 208
     },
     {
       "month": "2025-12",
-      "medianPrice": 232250,
-      "transactions": 168
+      "medianPrice": 233500,
+      "transactions": 184
     },
     {
       "month": "2026-01",
-      "medianPrice": 215000,
-      "transactions": 146
+      "medianPrice": 220000,
+      "transactions": 152
     },
     {
       "month": "2026-02",
-      "medianPrice": 231000,
-      "transactions": 148
+      "medianPrice": 233000,
+      "transactions": 157
     },
     {
       "month": "2026-03",
-      "medianPrice": 209500,
-      "transactions": 138
+      "medianPrice": 210000,
+      "transactions": 151
     },
     {
       "month": "2026-04",
-      "medianPrice": 220000,
-      "transactions": 131
+      "medianPrice": 215000,
+      "transactions": 147
     },
     {
       "month": "2026-05",
       "medianPrice": 250000,
-      "transactions": 47
+      "transactions": 128
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 227500,
+      "transactions": 64
     }
   ],
   "quarterlyHistory": [
@@ -365,37 +374,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 245000,
-      "transactions": 937
+      "transactions": 939
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 235000,
-      "transactions": 932
+      "transactions": 938
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 240000,
-      "transactions": 687
+      "transactions": 711
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 239000,
-      "transactions": 641
+      "medianPrice": 240000,
+      "transactions": 688
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 240000,
-      "transactions": 609
+      "medianPrice": 241500,
+      "transactions": 633
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 215500,
-      "transactions": 432
+      "medianPrice": 220000,
+      "transactions": 460
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 232500,
-      "transactions": 178
+      "transactions": 339
     }
   ]
 }

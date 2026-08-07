@@ -1,12 +1,19 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.745Z",
+  "updatedAt": "2026-08-07T08:45:03.126Z",
   "townSlug": "kendal",
   "countySlug": "cumbria",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WESTMORLAND AND FURNESS",
+    "SOUTH LAKELAND"
+  ],
   "marketSnapshot": {
     "medianPrice": 260000,
-    "transactionCount12m": 495,
-    "yoyPriceChange": -7.1,
+    "transactionCount12m": 518,
+    "yoyPriceChange": -8.8,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

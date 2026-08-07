@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.693Z",
+  "updatedAt": "2026-08-07T08:45:02.105Z",
   "townSlug": "swindon",
   "countySlug": "wiltshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SWINDON"
+  ],
   "marketSnapshot": {
     "medianPrice": 270000,
-    "transactionCount12m": 2627,
+    "transactionCount12m": 2548,
     "yoyPriceChange": -2.5,
     "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 2274,
+    "pipelineGdv": 598986000,
     "approvalRate": 0
   }
 }

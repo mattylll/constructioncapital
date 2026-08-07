@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.382Z",
+  "updatedAt": "2026-08-07T08:45:03.597Z",
   "townSlug": "driffield",
   "countySlug": "east-riding-of-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EAST RIDING OF YORKSHIRE"
+  ],
   "stats": {
     "medianPrice": 215000,
     "medianByType": {
       "D": 305000,
-      "S": 189000,
-      "T": 154500,
+      "S": 190000,
+      "T": 155000,
       "F": 77000
     },
-    "transactionCount12m": 488,
-    "yoyChange": 0,
-    "newBuildCount": 4,
-    "existingCount": 484,
-    "newBuildPremium": -17.8
+    "transactionCount12m": 497,
+    "yoyChange": -2.3,
+    "newBuildCount": 14,
+    "existingCount": 483,
+    "newBuildPremium": 42.7
   },
   "recentTransactions": [
     {
-      "price": 178000,
-      "date": "2026-05-21",
-      "postcode": "YO25 6SL",
+      "price": 189000,
+      "date": "2026-06-26",
+      "postcode": "YO25 5YU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, CHERRY CLOSE"
+      "address": "43, SOUTHFIELD CLOSE"
     },
     {
-      "price": 235000,
-      "date": "2026-05-15",
-      "postcode": "YO25 4PF",
+      "price": 140750,
+      "date": "2026-06-19",
+      "postcode": "YO25 6XX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, RUDDS GREEN"
+      "address": "12, ST MARGARETS CLOSE"
     },
     {
-      "price": 335000,
-      "date": "2026-05-15",
-      "postcode": "YO25 9HP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "JACANI"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-15",
-      "postcode": "YO25 6RP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, WOLD VIEW ROAD NORTH"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-14",
-      "postcode": "YO25 5BZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, UNDERWOOD BANK"
-    },
-    {
-      "price": 245000,
-      "date": "2026-05-11",
-      "postcode": "YO25 8QR",
+      "price": 119000,
+      "date": "2026-06-19",
+      "postcode": "YO25 5EY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, PARK AVENUE"
+      "address": "36, STAR HILL ROAD"
     },
     {
-      "price": 57500,
-      "date": "2026-05-08",
-      "postcode": "YO25 5PP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "35, EASTERFIELD COURT"
-    },
-    {
-      "price": 77000,
-      "date": "2026-05-08",
-      "postcode": "YO25 6FQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, TAYLORS FIELD"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-07",
-      "postcode": "YO25 4QA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, WEST END FALLS"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-02",
-      "postcode": "YO25 5XA",
+      "price": 150000,
+      "date": "2026-06-19",
+      "postcode": "YO25 9XQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, YORK ROAD"
+      "address": "3, SOUTHFIELD CLOSE"
     },
     {
-      "price": 350000,
-      "date": "2026-05-01",
-      "postcode": "YO25 5EG",
+      "price": 117500,
+      "date": "2026-06-17",
+      "postcode": "YO25 6RF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, ADELPHI STREET"
+    },
+    {
+      "price": 127000,
+      "date": "2026-06-16",
+      "postcode": "YO25 6DA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, BRIDGE STREET"
+    },
+    {
+      "price": 271000,
+      "date": "2026-06-15",
+      "postcode": "YO25 5PA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "NORTHERN HOUSE, SCARBOROUGH ROAD"
-    },
-    {
-      "price": 950872,
-      "date": "2026-05-01",
-      "postcode": "YO25 9JN",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CRANSWICK NURSERY AND GARDEN CENTRE, BURN BUTTS LANE"
-    },
-    {
-      "price": 71000,
-      "date": "2026-05-01",
-      "postcode": "YO25 5NR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "23, FAWCETT GARDENS"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-01",
-      "postcode": "YO25 5FN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, THE BEECHES"
+      "address": "2, VERITY WAY"
     },
     {
       "price": 185000,
-      "date": "2026-04-30",
-      "postcode": "YO25 6RB",
+      "date": "2026-06-12",
+      "postcode": "YO25 5EE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "72, WOLDHOLME AVENUE"
+      "address": "4, WELBOURN GARDENS"
     },
     {
-      "price": 95000,
-      "date": "2026-04-30",
-      "postcode": "YO25 4UE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, LAMB ROW"
-    },
-    {
-      "price": 230000,
-      "date": "2026-04-29",
-      "postcode": "YO25 5JE",
+      "price": 200000,
+      "date": "2026-06-12",
+      "postcode": "YO25 8SG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, MANORFIELD ROAD"
+      "address": "7, ALDERMANS WAY"
     },
     {
-      "price": 306500,
-      "date": "2026-04-24",
-      "postcode": "YO25 5FF",
+      "price": 315000,
+      "date": "2026-06-12",
+      "postcode": "YO25 6UJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, SYLVAN MEAD"
+      "address": "68, BRACKEN ROAD"
     },
     {
-      "price": 170000,
-      "date": "2026-04-23",
-      "postcode": "YO25 4JT",
+      "price": 175000,
+      "date": "2026-06-10",
+      "postcode": "YO25 6SJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, ALMOND CLOSE"
+    },
+    {
+      "price": 156000,
+      "date": "2026-06-09",
+      "postcode": "YO25 9XX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, SOUTHFIELD ROAD"
+    },
+    {
+      "price": 177000,
+      "date": "2026-06-05",
+      "postcode": "YO25 5LJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "107, NEW WALK"
+    },
+    {
+      "price": 140000,
+      "date": "2026-06-05",
+      "postcode": "YO25 6TA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, HOWE LANE"
+      "address": "99, WESTGATE"
     },
     {
-      "price": 170000,
-      "date": "2026-04-23",
-      "postcode": "YO25 6BG",
+      "price": 270000,
+      "date": "2026-06-04",
+      "postcode": "YO25 5PH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MCINTOSH DRIVE"
+    },
+    {
+      "price": 157000,
+      "date": "2026-06-03",
+      "postcode": "YO25 6UG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, TEMPLE CLOSE"
+      "address": "27, VICTORIA ROAD"
+    },
+    {
+      "price": 403200,
+      "date": "2026-06-01",
+      "postcode": "YO25 8FX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, KESTREL FIELD"
+    },
+    {
+      "price": 97500,
+      "date": "2026-06-01",
+      "postcode": "YO25 9QR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FLAT 4, THE OLDE CROSS KEYS, 19, MAIN STREET"
+    },
+    {
+      "price": 190000,
+      "date": "2026-05-29",
+      "postcode": "YO25 8UN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, BURTON FIELDS"
+    },
+    {
+      "price": 185000,
+      "date": "2026-05-29",
+      "postcode": "YO25 5HJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, REDWING DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -282,33 +285,33 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 189500,
-      "transactions": 48
+      "medianPrice": 192000,
+      "transactions": 49
     },
     {
       "month": "2025-06",
-      "medianPrice": 253175,
-      "transactions": 58
+      "medianPrice": 254600,
+      "transactions": 59
     },
     {
       "month": "2025-07",
-      "medianPrice": 188100,
-      "transactions": 61
+      "medianPrice": 197500,
+      "transactions": 63
     },
     {
       "month": "2025-08",
-      "medianPrice": 197500,
-      "transactions": 58
+      "medianPrice": 207500,
+      "transactions": 68
     },
     {
       "month": "2025-09",
       "medianPrice": 210000,
-      "transactions": 47
+      "transactions": 55
     },
     {
       "month": "2025-10",
       "medianPrice": 260000,
-      "transactions": 66
+      "transactions": 67
     },
     {
       "month": "2025-11",
@@ -317,33 +320,38 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 222500,
-      "transactions": 64
+      "medianPrice": 225000,
+      "transactions": 67
     },
     {
       "month": "2026-01",
-      "medianPrice": 220000,
-      "transactions": 37
+      "medianPrice": 210000,
+      "transactions": 41
     },
     {
       "month": "2026-02",
-      "medianPrice": 196000,
-      "transactions": 42
+      "medianPrice": 197500,
+      "transactions": 45
     },
     {
       "month": "2026-03",
-      "medianPrice": 225000,
-      "transactions": 47
+      "medianPrice": 215000,
+      "transactions": 49
     },
     {
       "month": "2026-04",
-      "medianPrice": 197500,
-      "transactions": 22
+      "medianPrice": 196000,
+      "transactions": 23
     },
     {
       "month": "2026-05",
-      "medianPrice": 240000,
-      "transactions": 14
+      "medianPrice": 190000,
+      "transactions": 27
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 166000,
+      "transactions": 18
     }
   ],
   "quarterlyHistory": [
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 225000,
-      "transactions": 151
+      "medianPrice": 227500,
+      "transactions": 153
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 198500,
-      "transactions": 166
+      "medianPrice": 204500,
+      "transactions": 186
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 230000,
-      "transactions": 175
+      "transactions": 179
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 212500,
-      "transactions": 126
+      "medianPrice": 210000,
+      "transactions": 135
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 216250,
-      "transactions": 36
+      "medianPrice": 185000,
+      "transactions": 68
     }
   ]
 }

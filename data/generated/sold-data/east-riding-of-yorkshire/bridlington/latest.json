@@ -1,209 +1,212 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.376Z",
+  "updatedAt": "2026-08-07T08:45:03.589Z",
   "townSlug": "bridlington",
   "countySlug": "east-riding-of-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EAST RIDING OF YORKSHIRE"
+  ],
   "stats": {
-    "medianPrice": 175000,
+    "medianPrice": 172500,
     "medianByType": {
       "D": 270000,
-      "S": 176500,
-      "T": 142500,
-      "F": 75000
+      "S": 177500,
+      "T": 140000,
+      "F": 78000
     },
-    "transactionCount12m": 605,
-    "yoyChange": -1.7,
-    "newBuildCount": 4,
-    "existingCount": 601,
-    "newBuildPremium": 24.6
+    "transactionCount12m": 599,
+    "yoyChange": -4.2,
+    "newBuildCount": 8,
+    "existingCount": 591,
+    "newBuildPremium": 27.1
   },
   "recentTransactions": [
     {
-      "price": 245000,
-      "date": "2026-05-22",
-      "postcode": "YO15 3LQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, PARTRIDGE CLOSE"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-22",
-      "postcode": "YO15 3LQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, PARTRIDGE CLOSE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-21",
-      "postcode": "YO15 1PD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "EGROMS, 23, TOWER STREET"
-    },
-    {
-      "price": 90000,
-      "date": "2026-05-21",
-      "postcode": "YO16 4AU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, FIELD ROAD"
-    },
-    {
-      "price": 187000,
-      "date": "2026-05-18",
-      "postcode": "YO16 6QX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, ST COLUMBA ROAD"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-15",
-      "postcode": "YO15 1NX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, STOTTLEBINK"
-    },
-    {
-      "price": 159000,
-      "date": "2026-05-15",
-      "postcode": "YO15 1LR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, CASTLE CRESCENT"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-15",
-      "postcode": "YO16 7AJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, MILL GATE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-11",
-      "postcode": "YO16 7BH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, EVESHAM CROFT"
-    },
-    {
-      "price": 85000,
-      "date": "2026-05-11",
-      "postcode": "YO16 4HD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "131, BROOKLAND ROAD"
-    },
-    {
-      "price": 195000,
-      "date": "2026-05-08",
-      "postcode": "YO16 4ET",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, BRITANNIA ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-08",
-      "postcode": "YO15 2DT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, MARSHALL AVENUE"
-    },
-    {
-      "price": 151000,
-      "date": "2026-05-08",
-      "postcode": "YO16 7LT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, QUEENSGATE"
-    },
-    {
-      "price": 140000,
-      "date": "2026-05-07",
-      "postcode": "YO15 2EY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, TRINITY ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-07",
-      "postcode": "YO16 6GL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, AIREDALE DRIVE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-05-05",
-      "postcode": "YO16 6YR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, MORDACKS ROAD"
-    },
-    {
-      "price": 129000,
-      "date": "2026-05-01",
-      "postcode": "YO16 7LW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "65, MILNER ROAD"
-    },
-    {
-      "price": 121000,
-      "date": "2026-05-01",
-      "postcode": "YO15 2HZ",
+      "price": 35000,
+      "date": "2026-06-26",
+      "postcode": "YO16 4PQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1, GARDEN FLAT MELBOURNE COURT, 3, ALEXANDRA DRIVE"
+      "address": "19, BURLINGTON COURT, GORDON ROAD"
     },
     {
-      "price": 78000,
-      "date": "2026-04-30",
+      "price": 250000,
+      "date": "2026-06-19",
+      "postcode": "YO16 4JX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, GILBERT STREET"
+    },
+    {
+      "price": 190000,
+      "date": "2026-06-19",
+      "postcode": "YO15 3NT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, AVOCET WAY"
+    },
+    {
+      "price": 215000,
+      "date": "2026-06-19",
+      "postcode": "YO15 3NU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, KINGFISHER DRIVE"
+    },
+    {
+      "price": 169000,
+      "date": "2026-06-17",
+      "postcode": "YO16 4QS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, NURSERY GROVE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-06-17",
+      "postcode": "YO16 6TZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, SANDSACRE ROAD"
+    },
+    {
+      "price": 289950,
+      "date": "2026-06-16",
+      "postcode": "YO15 2LL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, SECOND AVENUE"
+    },
+    {
+      "price": 455000,
+      "date": "2026-06-16",
+      "postcode": "YO15 3LZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, BELVEDERE CLOSE"
+    },
+    {
+      "price": 172500,
+      "date": "2026-06-12",
+      "postcode": "YO15 1EH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43A, MAIN STREET"
+    },
+    {
+      "price": 206000,
+      "date": "2026-06-12",
+      "postcode": "YO15 3JS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, CARDIGAN ROAD"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-12",
+      "postcode": "YO15 2JZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 6, HIGHCLIFFE COURT, ST ANNES ROAD"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-10",
+      "postcode": "YO16 6GL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "92, AIREDALE DRIVE"
+    },
+    {
+      "price": 257000,
+      "date": "2026-06-08",
+      "postcode": "YO15 1LL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CROSSWAYS, WOODCOCK ROAD"
+    },
+    {
+      "price": 115000,
+      "date": "2026-06-05",
+      "postcode": "YO15 3HQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54A, CARDIGAN ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-05",
+      "postcode": "YO16 7SU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ST ANTHONY ROAD"
+    },
+    {
+      "price": 82000,
+      "date": "2026-06-05",
       "postcode": "YO16 4QG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "29, AVENUE COURT"
+      "address": "39, AVENUE COURT"
     },
     {
-      "price": 282500,
-      "date": "2026-04-30",
-      "postcode": "YO16 4EB",
-      "propertyType": "D",
+      "price": 88000,
+      "date": "2026-06-05",
+      "postcode": "YO16 4NS",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, ST THOMAS ROAD"
+      "address": "1, ST MARTINS GROVE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-05",
+      "postcode": "YO15 2AX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FLAT 5, 53, WELLINGTON ROAD"
+    },
+    {
+      "price": 228000,
+      "date": "2026-05-29",
+      "postcode": "YO15 3BF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BUNTING LEA"
+    },
+    {
+      "price": 127000,
+      "date": "2026-05-29",
+      "postcode": "YO16 7SP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, RED RIDGES, ST AIDAN ROAD"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 164000,
-      "transactions": 47
+      "medianPrice": 162875,
+      "transactions": 48
     },
     {
       "month": "2024-02",
@@ -258,7 +261,7 @@
     {
       "month": "2024-12",
       "medianPrice": 176250,
-      "transactions": 102
+      "transactions": 104
     },
     {
       "month": "2025-01",
@@ -268,12 +271,12 @@
     {
       "month": "2025-02",
       "medianPrice": 165000,
-      "transactions": 61
+      "transactions": 62
     },
     {
       "month": "2025-03",
       "medianPrice": 200000,
-      "transactions": 119
+      "transactions": 120
     },
     {
       "month": "2025-04",
@@ -292,43 +295,43 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 190000,
-      "transactions": 67
-    },
-    {
-      "month": "2025-08",
-      "medianPrice": 182000,
+      "medianPrice": 188500,
       "transactions": 68
     },
     {
+      "month": "2025-08",
+      "medianPrice": 186000,
+      "transactions": 73
+    },
+    {
       "month": "2025-09",
-      "medianPrice": 165000,
-      "transactions": 61
+      "medianPrice": 161500,
+      "transactions": 67
     },
     {
       "month": "2025-10",
-      "medianPrice": 164950,
-      "transactions": 87
+      "medianPrice": 164000,
+      "transactions": 93
     },
     {
       "month": "2025-11",
       "medianPrice": 178750,
-      "transactions": 58
+      "transactions": 60
     },
     {
       "month": "2025-12",
       "medianPrice": 180000,
-      "transactions": 73
+      "transactions": 75
     },
     {
       "month": "2026-01",
-      "medianPrice": 172500,
-      "transactions": 54
+      "medianPrice": 175000,
+      "transactions": 55
     },
     {
       "month": "2026-02",
-      "medianPrice": 167000,
-      "transactions": 55
+      "medianPrice": 167250,
+      "transactions": 56
     },
     {
       "month": "2026-03",
@@ -337,20 +340,25 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 165000,
-      "transactions": 31
+      "medianPrice": 170250,
+      "transactions": 34
     },
     {
       "month": "2026-05",
-      "medianPrice": 177500,
+      "medianPrice": 175000,
+      "transactions": 29
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 198000,
       "transactions": 18
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 172500,
-      "transactions": 173
+      "medianPrice": 171250,
+      "transactions": 174
     },
     {
       "quarter": "2024-Q2",
@@ -365,12 +373,12 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 175000,
-      "transactions": 288
+      "transactions": 290
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 188907,
-      "transactions": 241
+      "transactions": 243
     },
     {
       "quarter": "2025-Q2",
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 178975,
-      "transactions": 196
+      "medianPrice": 177750,
+      "transactions": 208
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 175500,
-      "transactions": 218
+      "medianPrice": 175000,
+      "transactions": 228
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 167500,
-      "transactions": 158
+      "medianPrice": 168000,
+      "transactions": 160
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 168000,
-      "transactions": 49
+      "medianPrice": 177500,
+      "transactions": 81
     }
   ]
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.363Z",
+  "updatedAt": "2026-08-07T08:45:02.520Z",
   "townSlug": "swadlincote",
   "countySlug": "derbyshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTH DERBYSHIRE"
+  ],
   "stats": {
     "medianPrice": 240000,
     "medianByType": {
-      "D": 335000,
+      "D": 337950,
       "S": 220000,
       "T": 180000,
       "F": 131250
     },
-    "transactionCount12m": 1417,
+    "transactionCount12m": 1429,
     "yoyChange": -7,
-    "newBuildCount": 61,
-    "existingCount": 1356,
-    "newBuildPremium": 24.9
+    "newBuildCount": 58,
+    "existingCount": 1371,
+    "newBuildPremium": 24.2
   },
   "recentTransactions": [
     {
-      "price": 161500,
-      "date": "2026-05-26",
-      "postcode": "DE11 0SR",
+      "price": 272000,
+      "date": "2026-06-26",
+      "postcode": "DE72 2DR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, JOHN STREET"
-    },
-    {
-      "price": 490000,
-      "date": "2026-05-26",
-      "postcode": "DE3 0UT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, BRAMBLING CRESCENT"
-    },
-    {
-      "price": 363000,
-      "date": "2026-05-22",
-      "postcode": "DE65 6QL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, WALLFIELDS CLOSE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-21",
-      "postcode": "DE11 7JP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "181C, BURTON ROAD"
-    },
-    {
-      "price": 168000,
-      "date": "2026-05-15",
-      "postcode": "DE11 7LE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "87, SALISBURY DRIVE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-15",
-      "postcode": "DE73 8LQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, THE MEWS"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-15",
-      "postcode": "DE65 5EJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "157, STATION ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-15",
-      "postcode": "DE65 6DH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, HAMILTON TERRACE"
-    },
-    {
-      "price": 177000,
-      "date": "2026-05-15",
-      "postcode": "DE15 9SL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, MANOR CLOSE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-15",
-      "postcode": "DE11 0XU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, CORAL LANE"
-    },
-    {
-      "price": 114000,
-      "date": "2026-05-15",
-      "postcode": "DE11 9PS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, NEW STREET"
-    },
-    {
-      "price": 660000,
-      "date": "2026-05-15",
-      "postcode": "DE73 7HA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HAYSIDE, TWYFORD ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-14",
-      "postcode": "DE11 9BL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, HOPE WAY"
+      "address": "6, RECTORY FARM MEWS"
     },
     {
       "price": 260000,
-      "date": "2026-05-14",
-      "postcode": "DE65 5HR",
+      "date": "2026-06-26",
+      "postcode": "DE11 0XS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, CALDER CLOSE"
+      "address": "17, GREENLANDS"
     },
     {
-      "price": 340000,
-      "date": "2026-05-13",
-      "postcode": "DE65 6HQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ELMHURST"
-    },
-    {
-      "price": 395000,
-      "date": "2026-05-13",
-      "postcode": "DE15 9UQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, STATION CLOSE"
-    },
-    {
-      "price": 95000,
-      "date": "2026-05-12",
-      "postcode": "DE11 0AW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "64, MIDLAND ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-12",
-      "postcode": "DE73 6AD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, KIRBY DRIVE"
-    },
-    {
-      "price": 201950,
-      "date": "2026-05-12",
-      "postcode": "DE11 7LD",
+      "price": 195000,
+      "date": "2026-06-25",
+      "postcode": "DE65 5ED",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "45, SALISBURY DRIVE"
+      "address": "4, EATON CLOSE"
     },
     {
-      "price": 280000,
-      "date": "2026-05-12",
-      "postcode": "DE11 0PD",
+      "price": 272000,
+      "date": "2026-06-24",
+      "postcode": "DE65 6BH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, FARMHOUSE MEWS"
+    },
+    {
+      "price": 215000,
+      "date": "2026-06-22",
+      "postcode": "DE65 6JZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, SPRINGFIELD ROAD"
+    },
+    {
+      "price": 188500,
+      "date": "2026-06-19",
+      "postcode": "DE11 0EJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, KINGS ROAD"
+    },
+    {
+      "price": 244000,
+      "date": "2026-06-19",
+      "postcode": "DE11 7GG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, FAIRLIE GARDENS"
+    },
+    {
+      "price": 217500,
+      "date": "2026-06-19",
+      "postcode": "DE11 0UZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, ASTON DRIVE"
+      "address": "6, TILLEY GREEN"
+    },
+    {
+      "price": 655000,
+      "date": "2026-06-18",
+      "postcode": "DE23 3BG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CHARTLEY DRIVE"
+    },
+    {
+      "price": 295000,
+      "date": "2026-06-18",
+      "postcode": "DE15 9TJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "162, WOODLAND ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-17",
+      "postcode": "DE65 5QB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, THE HAYES"
+    },
+    {
+      "price": 131000,
+      "date": "2026-06-17",
+      "postcode": "DE11 9QZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, SCHOOL STREET"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-15",
+      "postcode": "DE3 0AF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, TRENT WAY"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-12",
+      "postcode": "DE11 0RS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, WESTWOOD PARK"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-12",
+      "postcode": "DE73 8FS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, GEORGE STREET"
+    },
+    {
+      "price": 288000,
+      "date": "2026-06-12",
+      "postcode": "DE23 3WF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, ELVASTON DRIVE"
+    },
+    {
+      "price": 86000,
+      "date": "2026-06-12",
+      "postcode": "DE73 8BF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "25, CASTLE MILLS"
+    },
+    {
+      "price": 167500,
+      "date": "2026-06-12",
+      "postcode": "DE11 9BS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, ALLISON AVENUE"
+    },
+    {
+      "price": 294000,
+      "date": "2026-06-12",
+      "postcode": "DE11 0SQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, PARLIAMENT STREET"
+    },
+    {
+      "price": 135000,
+      "date": "2026-06-12",
+      "postcode": "DE72 2DY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "24, CHEAL CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -227,8 +230,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 246500,
-      "transactions": 185
+      "medianPrice": 247250,
+      "transactions": 186
     },
     {
       "month": "2024-07",
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 251746,
-      "transactions": 205
+      "medianPrice": 250000,
+      "transactions": 207
     },
     {
       "month": "2024-11",
@@ -258,12 +261,12 @@
     {
       "month": "2024-12",
       "medianPrice": 260000,
-      "transactions": 231
+      "transactions": 232
     },
     {
       "month": "2025-01",
-      "medianPrice": 255000,
-      "transactions": 135
+      "medianPrice": 256500,
+      "transactions": 136
     },
     {
       "month": "2025-02",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 270000,
-      "transactions": 318
+      "transactions": 320
     },
     {
       "month": "2025-04",
@@ -288,62 +291,67 @@
     {
       "month": "2025-06",
       "medianPrice": 270352,
-      "transactions": 192
+      "transactions": 194
     },
     {
       "month": "2025-07",
-      "medianPrice": 245000,
-      "transactions": 175
+      "medianPrice": 245501,
+      "transactions": 184
     },
     {
       "month": "2025-08",
       "medianPrice": 245000,
-      "transactions": 202
+      "transactions": 220
     },
     {
       "month": "2025-09",
-      "medianPrice": 265000,
-      "transactions": 149
+      "medianPrice": 260000,
+      "transactions": 158
     },
     {
       "month": "2025-10",
       "medianPrice": 240000,
-      "transactions": 171
+      "transactions": 179
     },
     {
       "month": "2025-11",
       "medianPrice": 240000,
-      "transactions": 159
+      "transactions": 166
     },
     {
       "month": "2025-12",
       "medianPrice": 220000,
-      "transactions": 147
+      "transactions": 152
     },
     {
       "month": "2026-01",
-      "medianPrice": 240000,
-      "transactions": 107
+      "medianPrice": 245000,
+      "transactions": 109
     },
     {
       "month": "2026-02",
       "medianPrice": 220000,
-      "transactions": 95
+      "transactions": 101
     },
     {
       "month": "2026-03",
       "medianPrice": 260000,
-      "transactions": 139
+      "transactions": 143
     },
     {
       "month": "2026-04",
-      "medianPrice": 235000,
-      "transactions": 74
+      "medianPrice": 238750,
+      "transactions": 84
     },
     {
       "month": "2026-05",
-      "medianPrice": 288750,
-      "transactions": 38
+      "medianPrice": 260000,
+      "transactions": 110
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 234500,
+      "transactions": 46
     }
   ],
   "quarterlyHistory": [
@@ -354,8 +362,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 243500,
-      "transactions": 505
+      "medianPrice": 244250,
+      "transactions": 506
     },
     {
       "quarter": "2024-Q3",
@@ -365,37 +373,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 260000,
-      "transactions": 650
+      "transactions": 653
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 260000,
-      "transactions": 631
+      "transactions": 634
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 250000,
-      "transactions": 468
+      "transactions": 470
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 249000,
-      "transactions": 526
+      "medianPrice": 249975,
+      "transactions": 562
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 233500,
-      "transactions": 477
+      "medianPrice": 233700,
+      "transactions": 497
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 235000,
-      "transactions": 341
+      "medianPrice": 240000,
+      "transactions": 353
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 249000,
-      "transactions": 112
+      "medianPrice": 247750,
+      "transactions": 240
     }
   ]
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.358Z",
+  "updatedAt": "2026-08-07T08:45:02.515Z",
   "townSlug": "ilkeston",
   "countySlug": "derbyshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EREWASH"
+  ],
   "stats": {
-    "medianPrice": 184500,
+    "medianPrice": 189000,
     "medianByType": {
       "D": 300000,
-      "S": 192250,
-      "T": 148000,
+      "S": 195000,
+      "T": 150000,
       "F": 98250
     },
-    "transactionCount12m": 540,
-    "yoyChange": 1.4,
+    "transactionCount12m": 545,
+    "yoyChange": 4.9,
     "newBuildCount": 0,
-    "existingCount": 540,
+    "existingCount": 545,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
+      "price": 175000,
+      "date": "2026-06-26",
+      "postcode": "DE7 8PU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "122, NELSON STREET"
+    },
+    {
+      "price": 105000,
+      "date": "2026-06-23",
+      "postcode": "DE7 8NQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, MERIDIAN CLOSE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-22",
+      "postcode": "DE7 8RL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, HENSHAW PLACE"
+    },
+    {
+      "price": 120000,
+      "date": "2026-06-22",
+      "postcode": "DE7 4AP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, THE TRIANGLE"
+    },
+    {
+      "price": 185650,
+      "date": "2026-06-22",
+      "postcode": "DE7 8AF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, ST MARY STREET"
+    },
+    {
+      "price": 239000,
+      "date": "2026-06-17",
+      "postcode": "DE7 4BX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, NOSKWITH STREET"
+    },
+    {
+      "price": 122000,
+      "date": "2026-06-16",
+      "postcode": "DE7 8JA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, SPRINGFIELD GARDENS"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-15",
+      "postcode": "DE7 4QH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, MAIN STREET"
+    },
+    {
       "price": 145000,
-      "date": "2026-05-22",
-      "postcode": "DE7 8DS",
-      "propertyType": "D",
+      "date": "2026-06-08",
+      "postcode": "DE7 4AQ",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, BARKER GATE"
+      "address": "18, THURMAN STREET"
     },
     {
-      "price": 169000,
-      "date": "2026-05-18",
-      "postcode": "DE7 5DL",
+      "price": 162000,
+      "date": "2026-06-05",
+      "postcode": "DE7 5PX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, MILLFIELD ROAD"
+      "address": "4, CHALONS CLOSE"
     },
     {
-      "price": 195000,
-      "date": "2026-05-15",
-      "postcode": "DE7 8JD",
-      "propertyType": "O",
+      "price": 129500,
+      "date": "2026-06-05",
+      "postcode": "DE7 4AP",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, AWSWORTH ROAD"
+      "address": "31, THE TRIANGLE"
     },
     {
-      "price": 25000,
-      "date": "2026-05-15",
-      "postcode": "DE7 8FW",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, WILTON PLACE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-15",
-      "postcode": "DE7 4JR",
+      "price": 186000,
+      "date": "2026-06-05",
+      "postcode": "DE7 4SQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, CROSSHILL DRIVE"
+      "address": "7, UPPER WOOD CLOSE"
     },
     {
-      "price": 221000,
-      "date": "2026-05-12",
-      "postcode": "DE7 5FW",
+      "price": 201000,
+      "date": "2026-06-05",
+      "postcode": "DE7 8UU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "55, STANTON ROAD"
+      "address": "51, MILFORD DRIVE"
     },
     {
-      "price": 290000,
-      "date": "2026-05-12",
-      "postcode": "DE7 4PU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, HEDGES DRIVE"
-    },
-    {
-      "price": 81000,
-      "date": "2026-05-08",
-      "postcode": "DE7 5BW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "51, PALMERSTON ROAD"
-    },
-    {
-      "price": 163000,
-      "date": "2026-05-08",
-      "postcode": "DE7 4EZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "91, WINDERMERE AVENUE"
-    },
-    {
-      "price": 193000,
-      "date": "2026-05-08",
-      "postcode": "DE7 4SX",
+      "price": 130000,
+      "date": "2026-06-05",
+      "postcode": "DE7 8GG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, WASH MEADOW CLOSE"
-    },
-    {
-      "price": 65000,
-      "date": "2026-05-05",
-      "postcode": "DE7 8LE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, NORMAN STREET"
-    },
-    {
-      "price": 75000,
-      "date": "2026-05-01",
-      "postcode": "DE7 5DA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "75, PARK ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-01",
-      "postcode": "DE7 4PX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "74, MALTHOUSE ROAD"
-    },
-    {
-      "price": 167500,
-      "date": "2026-04-30",
-      "postcode": "DE7 8NR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "133, NORMAN STREET"
+      "address": "9, MILL STREET"
     },
     {
       "price": 300000,
-      "date": "2026-04-29",
-      "postcode": "DE7 6FB",
+      "date": "2026-06-02",
+      "postcode": "DE7 8QF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "65, STATION ROAD"
+      "address": "179, CHURCH STREET"
     },
     {
-      "price": 140000,
-      "date": "2026-04-28",
-      "postcode": "DE7 4HA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, GOODWOOD CRESCENT"
-    },
-    {
-      "price": 385000,
-      "date": "2026-04-28",
-      "postcode": "DE7 6LP",
+      "price": 330000,
+      "date": "2026-06-01",
+      "postcode": "DE7 6JE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "175, HALLAM WAY"
+      "address": "9, DERWENT AVENUE"
     },
     {
-      "price": 238000,
-      "date": "2026-04-24",
-      "postcode": "DE7 4NA",
-      "propertyType": "O",
+      "price": 499995,
+      "date": "2026-05-29",
+      "postcode": "DE7 6HQ",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, STANLEY CLOSE"
+      "address": "100, HIGH LANE WEST"
     },
     {
-      "price": 118500,
-      "date": "2026-04-24",
-      "postcode": "DE7 8GQ",
+      "price": 240000,
+      "date": "2026-05-29",
+      "postcode": "DE7 9JA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, BARLING DRIVE"
+    },
+    {
+      "price": 248000,
+      "date": "2026-05-29",
+      "postcode": "DE7 6JF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, PEVERIL CRESCENT"
+    },
+    {
+      "price": 170000,
+      "date": "2026-05-29",
+      "postcode": "DE7 4GL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "44, MILL STREET"
-    },
-    {
-      "price": 158000,
-      "date": "2026-04-24",
-      "postcode": "DE7 5DJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, MILLFIELD ROAD"
+      "address": "89, WIRKSWORTH ROAD"
     }
   ],
   "monthlyHistory": [
@@ -257,8 +260,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 181500,
-      "transactions": 66
+      "medianPrice": 181000,
+      "transactions": 67
     },
     {
       "month": "2025-01",
@@ -298,37 +301,37 @@
     {
       "month": "2025-08",
       "medianPrice": 190000,
-      "transactions": 81
+      "transactions": 84
     },
     {
       "month": "2025-09",
       "medianPrice": 175000,
-      "transactions": 61
+      "transactions": 62
     },
     {
       "month": "2025-10",
-      "medianPrice": 187750,
-      "transactions": 78
+      "medianPrice": 185000,
+      "transactions": 79
     },
     {
       "month": "2025-11",
-      "medianPrice": 195000,
-      "transactions": 71
+      "medianPrice": 196250,
+      "transactions": 72
     },
     {
       "month": "2025-12",
       "medianPrice": 170000,
-      "transactions": 43
+      "transactions": 46
     },
     {
       "month": "2026-01",
-      "medianPrice": 187250,
-      "transactions": 40
+      "medianPrice": 189000,
+      "transactions": 45
     },
     {
       "month": "2026-02",
-      "medianPrice": 202000,
-      "transactions": 41
+      "medianPrice": 209000,
+      "transactions": 44
     },
     {
       "month": "2026-03",
@@ -337,13 +340,18 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 180000,
-      "transactions": 29
+      "medianPrice": 192500,
+      "transactions": 32
     },
     {
       "month": "2026-05",
-      "medianPrice": 163000,
-      "transactions": 13
+      "medianPrice": 190000,
+      "transactions": 45
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 177500,
+      "transactions": 16
     }
   ],
   "quarterlyHistory": [
@@ -364,8 +372,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 178000,
-      "transactions": 207
+      "medianPrice": 177000,
+      "transactions": 208
     },
     {
       "quarter": "2025-Q1",
@@ -380,22 +388,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 180000,
-      "transactions": 207
+      "transactions": 211
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 184500,
-      "transactions": 192
+      "medianPrice": 185000,
+      "transactions": 197
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 194950,
-      "transactions": 115
+      "medianPrice": 197000,
+      "transactions": 123
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 172500,
-      "transactions": 42
+      "medianPrice": 186000,
+      "transactions": 93
     }
   ]
 }

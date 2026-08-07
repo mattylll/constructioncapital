@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.307Z",
+  "updatedAt": "2026-08-07T08:45:03.649Z",
   "townSlug": "dereham",
   "countySlug": "norfolk",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BRECKLAND"
+  ],
   "marketSnapshot": {
-    "medianPrice": 270000,
-    "transactionCount12m": 449,
-    "yoyPriceChange": 0.7,
+    "medianPrice": 259000,
+    "transactionCount12m": 453,
+    "yoyPriceChange": -5.8,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

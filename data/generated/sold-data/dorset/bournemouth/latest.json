@@ -1,202 +1,207 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.921Z",
+  "updatedAt": "2026-08-07T08:45:02.062Z",
   "townSlug": "bournemouth",
   "countySlug": "dorset",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BOURNEMOUTH, CHRISTCHURCH AND POOLE",
+    "BOURNEMOUTH",
+    "CHRISTCHURCH AND POOLE"
+  ],
   "stats": {
-    "medianPrice": 302000,
+    "medianPrice": 300000,
     "medianByType": {
-      "D": 450000,
-      "S": 340000,
+      "D": 447500,
+      "S": 335000,
       "T": 285000,
       "F": 200000
     },
-    "transactionCount12m": 2272,
-    "yoyChange": 0.7,
-    "newBuildCount": 5,
-    "existingCount": 2267,
-    "newBuildPremium": 37.9
+    "transactionCount12m": 2271,
+    "yoyChange": 0,
+    "newBuildCount": 2,
+    "existingCount": 2269,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 370000,
-      "date": "2026-05-27",
-      "postcode": "BH11 9DR",
+      "price": 605000,
+      "date": "2026-06-24",
+      "postcode": "BH7 7EW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "172, POOLE LANE"
+      "address": "14, SPRINGVALE AVENUE"
     },
     {
-      "price": 120500,
-      "date": "2026-05-27",
-      "postcode": "BH2 6AE",
+      "price": 205000,
+      "date": "2026-06-24",
+      "postcode": "BH5 1LQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 7, 9, CAMBRIDGE ROAD"
+      "address": "FLAT 4, THE GATEHOUSE, 3, CHESSEL AVENUE"
     },
     {
-      "price": 540000,
-      "date": "2026-05-22",
-      "postcode": "BH9 3QP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, SANDRINGHAM CLOSE"
-    },
-    {
-      "price": 520000,
-      "date": "2026-05-22",
-      "postcode": "BH6 5DT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "68, STAMFORD ROAD"
-    },
-    {
-      "price": 597500,
-      "date": "2026-05-22",
-      "postcode": "BH7 6SB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, OVINGTON AVENUE"
-    },
-    {
-      "price": 320500,
-      "date": "2026-05-22",
-      "postcode": "BH7 6LS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, LEAPHILL ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-22",
-      "postcode": "BH1 4QU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "316, WINDHAM ROAD"
-    },
-    {
-      "price": 187500,
-      "date": "2026-05-22",
-      "postcode": "BH6 5AQ",
+      "price": 125000,
+      "date": "2026-06-23",
+      "postcode": "BH4 8DN",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 5, 61, SOUTHBOURNE ROAD"
+      "address": "FLAT 14, THE CHINES, 43, ALUM CHINE ROAD"
     },
     {
-      "price": 348800,
-      "date": "2026-05-21",
-      "postcode": "BH9 2SA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, VICARAGE ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-20",
-      "postcode": "BH9 2TZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "113, THE GROVE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-05-20",
-      "postcode": "BH4 9HR",
+      "price": 240000,
+      "date": "2026-06-23",
+      "postcode": "BH1 1RG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 3, CHEYNE COURT, 37, SURREY ROAD"
+      "address": "FLAT 4, 28, CAVENDISH ROAD"
     },
     {
-      "price": 300000,
-      "date": "2026-05-19",
-      "postcode": "BH6 3SY",
+      "price": 170000,
+      "date": "2026-06-22",
+      "postcode": "BH5 2JQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 13, VICTORIA COURT 26-32, GRAND AVENUE"
+      "address": "6, THE MEWS, 37, HARCOURT ROAD"
     },
     {
-      "price": 380000,
-      "date": "2026-05-19",
-      "postcode": "BH10 5EH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, CHARLES GARDENS"
-    },
-    {
-      "price": 555000,
-      "date": "2026-05-19",
-      "postcode": "BH8 9HW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, CHIGWELL ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-19",
-      "postcode": "BH10 5AB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FIRST FLOOR FLAT, 83, COOMBE AVENUE"
-    },
-    {
-      "price": 333000,
-      "date": "2026-05-18",
-      "postcode": "BH8 0LA",
+      "price": 350000,
+      "date": "2026-06-22",
+      "postcode": "BH9 2RE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, VICKERS CLOSE"
+      "address": "1, CHURCH VIEW, VICTORIA PARK ROAD"
     },
     {
-      "price": 197000,
-      "date": "2026-05-15",
-      "postcode": "BH2 6LT",
+      "price": 220000,
+      "date": "2026-06-22",
+      "postcode": "BH5 1JR",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 66, RICHMOND GATE, 1, RICHMOND HILL DRIVE"
+      "address": "FLAT A36, SAN REMO TOWERS, SEA ROAD"
     },
     {
-      "price": 210000,
-      "date": "2026-05-15",
-      "postcode": "BH8 8RY",
-      "propertyType": "O",
+      "price": 281000,
+      "date": "2026-06-19",
+      "postcode": "BH9 3QA",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "121, CAPSTONE ROAD"
+      "tenure": "F",
+      "address": "56, GUNVILLE CRESCENT"
     },
     {
-      "price": 178000,
-      "date": "2026-05-15",
-      "postcode": "BH3 7HT",
+      "price": 245000,
+      "date": "2026-06-19",
+      "postcode": "BH4 8BQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 8, BARRINGTON COURT, 51, TALBOT AVENUE"
+      "address": "FLAT 1, CAVENDISH COURT, 9, GROSVENOR ROAD"
     },
     {
-      "price": 295000,
-      "date": "2026-05-15",
-      "postcode": "BH8 9LH",
+      "price": 385000,
+      "date": "2026-06-19",
+      "postcode": "BH2 5BA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 2, ASPIRE, 39, QUEENS PARK AVENUE"
+      "address": "FLAT 1, STAUNTON HOUSE, EXETER PARK ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-19",
+      "postcode": "BH11 8AP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, FRYER CLOSE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-19",
+      "postcode": "BH11 8BP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, MONTGOMERY AVENUE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-19",
+      "postcode": "BH8 8NX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "94, STEWART ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-19",
+      "postcode": "BH1 4RF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "181, WINDHAM ROAD"
+    },
+    {
+      "price": 155000,
+      "date": "2026-06-18",
+      "postcode": "BH2 5HZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 33, CRAG HALL 15-17, DURLEY GARDENS"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-17",
+      "postcode": "BH5 1LX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 3, 2A, BEECHWOOD AVENUE"
+    },
+    {
+      "price": 342500,
+      "date": "2026-06-16",
+      "postcode": "BH11 9RZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "95, KING JOHN AVENUE"
+    },
+    {
+      "price": 430000,
+      "date": "2026-06-15",
+      "postcode": "BH8 0HN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, HASTINGS ROAD"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-12",
+      "postcode": "BH9 3NP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "256, MUSCLIFFE LANE"
+    },
+    {
+      "price": 298000,
+      "date": "2026-06-12",
+      "postcode": "BH1 1QJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, TRINITY ROAD"
     }
   ],
   "monthlyHistory": [
@@ -267,13 +272,13 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 315000,
-      "transactions": 247
+      "medianPrice": 307000,
+      "transactions": 249
     },
     {
       "month": "2025-03",
       "medianPrice": 320000,
-      "transactions": 513
+      "transactions": 514
     },
     {
       "month": "2025-04",
@@ -287,63 +292,68 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 275000,
-      "transactions": 207
+      "medianPrice": 272000,
+      "transactions": 217
     },
     {
       "month": "2025-07",
-      "medianPrice": 315000,
-      "transactions": 254
+      "medianPrice": 312750,
+      "transactions": 260
     },
     {
       "month": "2025-08",
       "medianPrice": 295000,
-      "transactions": 296
+      "transactions": 300
     },
     {
       "month": "2025-09",
-      "medianPrice": 283500,
-      "transactions": 248
+      "medianPrice": 282000,
+      "transactions": 257
     },
     {
       "month": "2025-10",
-      "medianPrice": 301000,
-      "transactions": 273
+      "medianPrice": 302500,
+      "transactions": 278
     },
     {
       "month": "2025-11",
-      "medianPrice": 318000,
-      "transactions": 263
+      "medianPrice": 315000,
+      "transactions": 271
     },
     {
       "month": "2025-12",
-      "medianPrice": 286000,
-      "transactions": 207
+      "medianPrice": 290000,
+      "transactions": 235
     },
     {
       "month": "2026-01",
       "medianPrice": 300000,
-      "transactions": 203
+      "transactions": 220
     },
     {
       "month": "2026-02",
-      "medianPrice": 345500,
-      "transactions": 177
+      "medianPrice": 340000,
+      "transactions": 183
     },
     {
       "month": "2026-03",
       "medianPrice": 300000,
-      "transactions": 175
+      "transactions": 181
     },
     {
       "month": "2026-04",
-      "medianPrice": 300000,
-      "transactions": 148
+      "medianPrice": 290000,
+      "transactions": 159
     },
     {
       "month": "2026-05",
-      "medianPrice": 313750,
-      "transactions": 70
+      "medianPrice": 307000,
+      "transactions": 153
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 300000,
+      "transactions": 83
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +380,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 310000,
-      "transactions": 1005
+      "transactions": 1008
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 274000,
-      "transactions": 538
+      "medianPrice": 272250,
+      "transactions": 548
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 300000,
-      "transactions": 798
+      "medianPrice": 296000,
+      "transactions": 817
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 300000,
-      "transactions": 743
+      "transactions": 784
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 312500,
-      "transactions": 555
+      "medianPrice": 310000,
+      "transactions": 584
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 306000,
-      "transactions": 218
+      "medianPrice": 300000,
+      "transactions": 395
     }
   ]
 }

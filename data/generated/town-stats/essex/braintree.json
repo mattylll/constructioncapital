@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.313Z",
+  "updatedAt": "2026-08-07T08:45:01.739Z",
   "townSlug": "braintree",
   "countySlug": "essex",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BRAINTREE"
+  ],
   "marketSnapshot": {
     "medianPrice": 335000,
-    "transactionCount12m": 1858,
+    "transactionCount12m": 1808,
     "yoyPriceChange": -2.9,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

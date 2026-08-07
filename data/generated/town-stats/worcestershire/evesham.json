@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.063Z",
+  "updatedAt": "2026-08-07T08:45:02.442Z",
   "townSlug": "evesham",
   "countySlug": "worcestershire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WYCHAVON"
+  ],
   "marketSnapshot": {
-    "medianPrice": 290000,
-    "transactionCount12m": 496,
-    "yoyPriceChange": -1.7,
+    "medianPrice": 295000,
+    "transactionCount12m": 488,
+    "yoyPriceChange": 1.7,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

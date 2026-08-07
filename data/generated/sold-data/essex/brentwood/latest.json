@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.605Z",
+  "updatedAt": "2026-08-07T08:45:01.730Z",
   "townSlug": "brentwood",
   "countySlug": "essex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BRENTWOOD"
+  ],
   "stats": {
-    "medianPrice": 492625,
+    "medianPrice": 500000,
     "medianByType": {
-      "D": 820000,
-      "S": 535000,
-      "T": 424500,
-      "F": 271250
+      "D": 847500,
+      "S": 540000,
+      "T": 425000,
+      "F": 270000
     },
-    "transactionCount12m": 924,
-    "yoyChange": 0.5,
-    "newBuildCount": 21,
-    "existingCount": 903,
-    "newBuildPremium": -19.2
+    "transactionCount12m": 894,
+    "yoyChange": 3.6,
+    "newBuildCount": 15,
+    "existingCount": 879,
+    "newBuildPremium": -29
   },
   "recentTransactions": [
     {
+      "price": 575000,
+      "date": "2026-06-19",
+      "postcode": "CM13 1EA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, WOODLAND AVENUE"
+    },
+    {
+      "price": 490000,
+      "date": "2026-06-19",
+      "postcode": "CM13 3FU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, ELLIOTS CLOSE"
+    },
+    {
+      "price": 410000,
+      "date": "2026-06-16",
+      "postcode": "CM14 4GX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "21, THE SPIRES, EASTFIELD ROAD"
+    },
+    {
+      "price": 1242080,
+      "date": "2026-06-15",
+      "postcode": "CM13 1AG",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BURNSIDE, ALEXANDER LANE"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-12",
+      "postcode": "CM14 4UU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, VINE WAY"
+    },
+    {
+      "price": 415000,
+      "date": "2026-06-12",
+      "postcode": "CM13 1HG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, WOODLAND AVENUE"
+    },
+    {
+      "price": 960000,
+      "date": "2026-06-12",
+      "postcode": "CM15 8QS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, HOLMWOOD AVENUE"
+    },
+    {
+      "price": 500000,
+      "date": "2026-06-12",
+      "postcode": "CM15 9RB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, CROW GREEN ROAD"
+    },
+    {
       "price": 270000,
-      "date": "2026-05-21",
-      "postcode": "CM15 9LR",
+      "date": "2026-06-12",
+      "postcode": "CM14 4HY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "3, DARLINGTON COURT, BROOMWOOD GARDENS"
+      "address": "FLAT 9, CORNSLAND COURT, ROSE VALLEY"
     },
     {
-      "price": 396000,
-      "date": "2026-05-14",
-      "postcode": "CM15 9QU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, MAGNOLIA WAY"
-    },
-    {
-      "price": 470000,
-      "date": "2026-05-13",
-      "postcode": "CM14 4XW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, WINGWAY"
-    },
-    {
-      "price": 570000,
-      "date": "2026-05-11",
-      "postcode": "CM14 5SA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, SNAKES HILL"
-    },
-    {
-      "price": 825000,
-      "date": "2026-05-07",
-      "postcode": "CM4 9TL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BARRINGTON PLACE"
-    },
-    {
-      "price": 745000,
-      "date": "2026-05-07",
-      "postcode": "CM15 0BJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ROSEWOOD, BLACKMORE ROAD"
-    },
-    {
-      "price": 749500,
-      "date": "2026-05-06",
-      "postcode": "CM4 9EF",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, PINE DRIVE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-05",
-      "postcode": "CM14 4AN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, HIGH STREET"
-    },
-    {
-      "price": 492500,
-      "date": "2026-05-01",
-      "postcode": "CM15 9NB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, LANCASTER CLOSE"
-    },
-    {
-      "price": 660000,
-      "date": "2026-05-01",
-      "postcode": "CM13 1PN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "190, RAYLEIGH ROAD"
-    },
-    {
-      "price": 440000,
-      "date": "2026-05-01",
-      "postcode": "CM14 5BQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, NITA ROAD"
-    },
-    {
-      "price": 510000,
-      "date": "2026-05-01",
-      "postcode": "CM13 1EZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, ARNOLDS CLOSE"
-    },
-    {
-      "price": 465000,
-      "date": "2026-04-30",
-      "postcode": "CM14 4LH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, ST JAMES ROAD"
-    },
-    {
-      "price": 3500000,
-      "date": "2026-04-30",
-      "postcode": "CM14 4EJ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HIGHWAY HOUSE, 171, KINGS ROAD"
-    },
-    {
-      "price": 425000,
-      "date": "2026-04-30",
-      "postcode": "CM15 8FL",
+      "price": 120000,
+      "date": "2026-06-10",
+      "postcode": "CM15 9BU",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "34, KESTREL CLOSE"
+      "address": "FLAT 1, HOMEHURST HOUSE, SAWYERS HALL LANE"
     },
     {
-      "price": 675000,
-      "date": "2026-04-30",
-      "postcode": "CM15 8PX",
-      "propertyType": "S",
+      "price": 830000,
+      "date": "2026-06-09",
+      "postcode": "CM14 4TX",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "56A, OLIVER ROAD"
+      "address": "9, PARK ROAD"
+    },
+    {
+      "price": 397000,
+      "date": "2026-06-09",
+      "postcode": "CM15 9RL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, CROW GREEN LANE"
+    },
+    {
+      "price": 925000,
+      "date": "2026-06-05",
+      "postcode": "CM15 8EN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "COPPERFIELD, 53, SHENFIELD ROAD"
+    },
+    {
+      "price": 800000,
+      "date": "2026-06-05",
+      "postcode": "CM15 8PG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "95, HUNTER AVENUE"
     },
     {
       "price": 450000,
-      "date": "2026-04-30",
-      "postcode": "CM15 0UH",
+      "date": "2026-06-05",
+      "postcode": "CM13 3NL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, DUNMOW GARDENS"
+    },
+    {
+      "price": 545000,
+      "date": "2026-06-05",
+      "postcode": "CM13 2DU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, LIME AVENUE"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-05",
+      "postcode": "CM14 5DZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "275, ROMAN ROAD"
+      "address": "53, CROMWELL ROAD"
     },
     {
-      "price": 310000,
-      "date": "2026-04-30",
-      "postcode": "CM15 9GL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "43, THE MEADS, ONGAR ROAD"
-    },
-    {
-      "price": 460000,
-      "date": "2026-04-30",
-      "postcode": "CM15 9LN",
+      "price": 475000,
+      "date": "2026-06-05",
+      "postcode": "CM14 5UA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, MARLBOROUGH ROAD"
+      "address": "3, BLACKTHORN WAY"
     },
     {
-      "price": 347000,
-      "date": "2026-04-29",
-      "postcode": "CM14 5WD",
-      "propertyType": "F",
+      "price": 731250,
+      "date": "2026-06-05",
+      "postcode": "CM14 5AE",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "23, GREENSLEEVES DRIVE"
+      "tenure": "F",
+      "address": "43, HARTSWOOD ROAD"
+    },
+    {
+      "price": 570000,
+      "date": "2026-06-05",
+      "postcode": "CM15 9RH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FAYRE WYNS, CROW GREEN LANE"
     }
   ],
   "monthlyHistory": [
@@ -262,8 +265,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 470000,
-      "transactions": 96
+      "medianPrice": 465000,
+      "transactions": 97
     },
     {
       "month": "2025-02",
@@ -277,73 +280,78 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 410000,
-      "transactions": 67
+      "medianPrice": 413750,
+      "transactions": 68
     },
     {
       "month": "2025-05",
       "medianPrice": 517000,
-      "transactions": 85
+      "transactions": 87
     },
     {
       "month": "2025-06",
-      "medianPrice": 545000,
-      "transactions": 100
+      "medianPrice": 540000,
+      "transactions": 101
     },
     {
       "month": "2025-07",
       "medianPrice": 473750,
-      "transactions": 132
+      "transactions": 140
     },
     {
       "month": "2025-08",
-      "medianPrice": 480000,
-      "transactions": 133
+      "medianPrice": 482500,
+      "transactions": 138
     },
     {
       "month": "2025-09",
-      "medianPrice": 535000,
-      "transactions": 90
+      "medianPrice": 513750,
+      "transactions": 98
     },
     {
       "month": "2025-10",
-      "medianPrice": 495000,
-      "transactions": 135
+      "medianPrice": 501000,
+      "transactions": 139
     },
     {
       "month": "2025-11",
-      "medianPrice": 520000,
-      "transactions": 123
+      "medianPrice": 522500,
+      "transactions": 128
     },
     {
       "month": "2025-12",
       "medianPrice": 525000,
-      "transactions": 82
+      "transactions": 95
     },
     {
       "month": "2026-01",
-      "medianPrice": 460000,
-      "transactions": 59
+      "medianPrice": 500500,
+      "transactions": 74
     },
     {
       "month": "2026-02",
-      "medianPrice": 470000,
-      "transactions": 56
+      "medianPrice": 465000,
+      "transactions": 61
     },
     {
       "month": "2026-03",
       "medianPrice": 471250,
-      "transactions": 72
+      "transactions": 74
     },
     {
       "month": "2026-04",
-      "medianPrice": 475000,
-      "transactions": 49
+      "medianPrice": 477500,
+      "transactions": 54
     },
     {
       "month": "2026-05",
-      "medianPrice": 501250,
-      "transactions": 12
+      "medianPrice": 535000,
+      "transactions": 40
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 495000,
+      "transactions": 26
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 480000,
-      "transactions": 515
+      "transactions": 516
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 497500,
-      "transactions": 252
+      "transactions": 256
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 485000,
-      "transactions": 355
+      "transactions": 376
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 510000,
-      "transactions": 340
+      "medianPrice": 517500,
+      "transactions": 362
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 467500,
-      "transactions": 187
+      "medianPrice": 484000,
+      "transactions": 209
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 480000,
-      "transactions": 61
+      "medianPrice": 488750,
+      "transactions": 120
     }
   ]
 }

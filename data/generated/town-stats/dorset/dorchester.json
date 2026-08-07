@@ -1,12 +1,19 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.672Z",
+  "updatedAt": "2026-08-07T08:45:02.085Z",
   "townSlug": "dorchester",
   "countySlug": "dorset",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "DORSET",
+    "WEST DORSET"
+  ],
   "marketSnapshot": {
-    "medianPrice": 336500,
-    "transactionCount12m": 620,
-    "yoyPriceChange": -1.8,
+    "medianPrice": 335000,
+    "transactionCount12m": 594,
+    "yoyPriceChange": -1.5,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

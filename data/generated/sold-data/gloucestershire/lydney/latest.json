@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.035Z",
+  "updatedAt": "2026-08-07T08:45:02.182Z",
   "townSlug": "lydney",
   "countySlug": "gloucestershire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "FOREST OF DEAN"
+  ],
   "stats": {
-    "medianPrice": 280000,
+    "medianPrice": 276250,
     "medianByType": {
-      "D": 385000,
-      "S": 245000,
+      "D": 380000,
+      "S": 242000,
       "T": 205000,
-      "F": 120000
+      "F": 119000
     },
-    "transactionCount12m": 876,
-    "yoyChange": 3.7,
-    "newBuildCount": 6,
-    "existingCount": 870,
-    "newBuildPremium": 2.7
+    "transactionCount12m": 870,
+    "yoyChange": 2.3,
+    "newBuildCount": 3,
+    "existingCount": 867,
+    "newBuildPremium": -2.6
   },
   "recentTransactions": [
     {
-      "price": 173750,
-      "date": "2026-05-19",
-      "postcode": "GL16 8AB",
+      "price": 260000,
+      "date": "2026-06-25",
+      "postcode": "GL18 1UB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, FARRIERS COURT"
+      "address": "40, MAY HILL VIEW"
     },
     {
-      "price": 315000,
-      "date": "2026-05-18",
-      "postcode": "GL16 8JS",
-      "propertyType": "S",
+      "price": 340000,
+      "date": "2026-06-24",
+      "postcode": "GL16 8EY",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, EAST COTTAGES, HIGH STREET"
+      "address": "4, CAUDWELL CLOSE"
     },
     {
-      "price": 245000,
-      "date": "2026-05-15",
-      "postcode": "NP16 7ET",
-      "propertyType": "S",
+      "price": 475000,
+      "date": "2026-06-23",
+      "postcode": "GL15 6NS",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, WYEBANK CLOSE"
+      "address": "RANFURLY, NETHEREND"
+    },
+    {
+      "price": 132500,
+      "date": "2026-06-19",
+      "postcode": "GL18 1TY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "44, DAFFODIL COURT"
+    },
+    {
+      "price": 312500,
+      "date": "2026-06-19",
+      "postcode": "GL15 5SY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, COURT ROAD"
+    },
+    {
+      "price": 85000,
+      "date": "2026-06-19",
+      "postcode": "GL16 7QY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "4, ZION APARTMENTS, CHAPEL ROAD"
     },
     {
       "price": 190000,
-      "date": "2026-05-15",
-      "postcode": "GL14 2RE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, TRINITY WAY"
-    },
-    {
-      "price": 575000,
-      "date": "2026-05-14",
-      "postcode": "GL15 4PE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CLAYSON HOUSE"
-    },
-    {
-      "price": 389950,
-      "date": "2026-05-13",
-      "postcode": "GL18 1TL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, ONSLOW ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-13",
-      "postcode": "GL15 5DG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, VICTORIA ROAD"
-    },
-    {
-      "price": 195000,
-      "date": "2026-05-12",
-      "postcode": "GL14 3JE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, NEWTOWN ROAD"
-    },
-    {
-      "price": 317000,
-      "date": "2026-05-12",
-      "postcode": "GL14 3PB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, DEAN CRESCENT"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-08",
-      "postcode": "GL18 1SW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, CROFT ROAD"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-08",
-      "postcode": "GL15 4BQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, ABBOTS GATE"
-    },
-    {
-      "price": 282500,
-      "date": "2026-05-08",
-      "postcode": "GL17 0SE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, ASH GROVE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-08",
-      "postcode": "GL14 2NG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, THE KEELINGS"
-    },
-    {
-      "price": 335000,
-      "date": "2026-05-06",
-      "postcode": "GL17 0NR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "COPPERFIELDS, YARTLETON LANE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-05",
-      "postcode": "GL15 5NE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, ASH CLOSE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-01",
-      "postcode": "GL16 8RS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, KINGS MEADE"
-    },
-    {
-      "price": 395000,
-      "date": "2026-05-01",
-      "postcode": "GL18 1FH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, KESTREL CLOSE"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-01",
-      "postcode": "GL17 9SX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MAPLELEAVES, JOYS GREEN ROAD"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-01",
-      "postcode": "GL15 5LY",
+      "date": "2026-06-19",
+      "postcode": "GL15 4HQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, QUEEN STREET"
+      "address": "3, OAKFIELD GARDENS"
     },
     {
-      "price": 260000,
-      "date": "2026-05-01",
-      "postcode": "GL15 5TJ",
+      "price": 185000,
+      "date": "2026-06-16",
+      "postcode": "GL14 2DE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, THE OAK FIELD"
+    },
+    {
+      "price": 205000,
+      "date": "2026-06-16",
+      "postcode": "GL14 3JB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, STEAM MILLS ROAD"
+    },
+    {
+      "price": 208000,
+      "date": "2026-06-15",
+      "postcode": "GL15 5FW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "51, LYCH GATE MEWS"
+      "address": "3, BAYLISS CLOSE"
+    },
+    {
+      "price": 345000,
+      "date": "2026-06-15",
+      "postcode": "GL15 5PD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, TIBERIUS AVENUE"
+    },
+    {
+      "price": 605000,
+      "date": "2026-06-12",
+      "postcode": "GL14 1RE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BEECHWOOD HOUSE"
+    },
+    {
+      "price": 345000,
+      "date": "2026-06-12",
+      "postcode": "GL18 1SZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, LAKESIDE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-12",
+      "postcode": "GL15 6HQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, OAKLEY WAY"
+    },
+    {
+      "price": 168000,
+      "date": "2026-06-11",
+      "postcode": "GL17 0EJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, DEAN MEADOWS"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-05",
+      "postcode": "GL15 4RT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ORCHARD RISE, BAILEY HILL"
+    },
+    {
+      "price": 345000,
+      "date": "2026-06-05",
+      "postcode": "GL15 6EA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ORCHARD CLOSE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-02",
+      "postcode": "GL14 3DU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, BUCKSHAFT ROAD"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-01",
+      "postcode": "GL15 4AJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FIR TREE HOUSE, BRAINS GREEN"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-01",
+      "postcode": "GL16 7HH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2A, HOLCOT ROAD"
     }
   ],
   "monthlyHistory": [
@@ -237,8 +240,8 @@
     },
     {
       "month": "2024-08",
-      "medianPrice": 295000,
-      "transactions": 137
+      "medianPrice": 297500,
+      "transactions": 136
     },
     {
       "month": "2024-09",
@@ -253,7 +256,7 @@
     {
       "month": "2024-11",
       "medianPrice": 257500,
-      "transactions": 122
+      "transactions": 120
     },
     {
       "month": "2024-12",
@@ -277,8 +280,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 263750,
-      "transactions": 66
+      "medianPrice": 260000,
+      "transactions": 67
     },
     {
       "month": "2025-05",
@@ -293,57 +296,62 @@
     {
       "month": "2025-07",
       "medianPrice": 285000,
-      "transactions": 105
+      "transactions": 107
     },
     {
       "month": "2025-08",
       "medianPrice": 270000,
-      "transactions": 125
+      "transactions": 132
     },
     {
       "month": "2025-09",
       "medianPrice": 304750,
-      "transactions": 96
+      "transactions": 100
     },
     {
       "month": "2025-10",
       "medianPrice": 284000,
-      "transactions": 113
+      "transactions": 115
     },
     {
       "month": "2025-11",
       "medianPrice": 300000,
-      "transactions": 98
+      "transactions": 102
     },
     {
       "month": "2025-12",
-      "medianPrice": 251250,
-      "transactions": 76
+      "medianPrice": 264000,
+      "transactions": 87
     },
     {
       "month": "2026-01",
-      "medianPrice": 275000,
-      "transactions": 63
+      "medianPrice": 280000,
+      "transactions": 66
     },
     {
       "month": "2026-02",
-      "medianPrice": 250000,
-      "transactions": 72
+      "medianPrice": 257500,
+      "transactions": 76
     },
     {
       "month": "2026-03",
       "medianPrice": 275000,
-      "transactions": 66
+      "transactions": 68
     },
     {
       "month": "2026-04",
       "medianPrice": 250000,
-      "transactions": 55
+      "transactions": 63
     },
     {
       "month": "2026-05",
-      "medianPrice": 265000,
-      "transactions": 22
+      "medianPrice": 245000,
+      "transactions": 61
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 312500,
+      "transactions": 21
     }
   ],
   "quarterlyHistory": [
@@ -359,13 +367,13 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 282250,
-      "transactions": 360
+      "medianPrice": 282500,
+      "transactions": 359
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 250000,
-      "transactions": 386
+      "transactions": 384
     },
     {
       "quarter": "2025-Q1",
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 275000,
-      "transactions": 266
+      "transactions": 267
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 285000,
-      "transactions": 326
+      "transactions": 339
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 283500,
-      "transactions": 287
+      "medianPrice": 283750,
+      "transactions": 304
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 270000,
-      "transactions": 201
+      "medianPrice": 274000,
+      "transactions": 210
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 260000,
-      "transactions": 77
+      "medianPrice": 250000,
+      "transactions": 145
     }
   ]
 }

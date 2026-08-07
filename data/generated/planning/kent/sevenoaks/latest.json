@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-02T01:43:20.052Z",
+  "updatedAt": "2026-08-06T12:54:14.003Z",
   "townSlug": "sevenoaks",
   "countySlug": "kent",
   "localAuthority": "Sevenoaks District Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-02",
-    "to": "2026-08-02",
-    "retrievedAt": "2026-08-02T01:43:20.050Z"
+    "from": "2026-05-06",
+    "to": "2026-08-06",
+    "retrievedAt": "2026-08-06T12:54:14.003Z"
   },
   "summary": {
-    "total": 136,
-    "relevant": 12,
+    "total": 128,
+    "relevant": 11,
     "approved": 0,
-    "pending": 12,
+    "pending": 11,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 4,
-    "totalUnits": 4,
+    "pendingUnits": 3,
+    "totalUnits": 3,
     "approvedGdv": 0,
-    "pendingGdv": 1980000,
-    "totalEstimatedGDV": 1980000,
+    "pendingGdv": 1485000,
+    "totalEstimatedGDV": 1485000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -234,25 +234,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.sevenoaks.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEZGN9BKFNF00"
-    },
-    {
-      "reference": "26/01217/FUL",
-      "address": "21 St Marys Road Swanley Kent BR8 7BU",
-      "postcode": "BR8 7BU",
-      "ward": "",
-      "proposal": "Subdivision of plot, demolition of single storey kitchen side extension and garage. Construction of two x 1 bed dwellings. 2 new accesses, parking, and associated landscaping. Single-storey rear extension to existing house, new dormer to rear, alterations to landscaping.",
-      "category": "new_build",
-      "units": 1,
-      "estimatedGdv": 495000,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.sevenoaks.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEXM63BKFMV00"
     }
   ]
 }

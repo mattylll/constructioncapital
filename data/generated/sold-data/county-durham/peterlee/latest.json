@@ -1,209 +1,212 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.331Z",
+  "updatedAt": "2026-08-07T08:45:03.546Z",
   "townSlug": "peterlee",
   "countySlug": "county-durham",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "COUNTY DURHAM"
+  ],
   "stats": {
-    "medianPrice": 76000,
+    "medianPrice": 75000,
     "medianByType": {
-      "D": 226000,
-      "S": 105000,
-      "T": 56000,
-      "F": 33000
+      "D": 230000,
+      "S": 100975,
+      "T": 55000,
+      "F": 45000
     },
-    "transactionCount12m": 474,
-    "yoyChange": 8.6,
+    "transactionCount12m": 465,
+    "yoyChange": 4.2,
     "newBuildCount": 0,
-    "existingCount": 474,
+    "existingCount": 465,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 21000,
-      "date": "2026-05-26",
+      "price": 90000,
+      "date": "2026-06-24",
+      "postcode": "SR8 2JW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, BLACKDOWN CLOSE"
+    },
+    {
+      "price": 73500,
+      "date": "2026-06-19",
+      "postcode": "SR8 5JJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, AMERSHAM CRESCENT"
+    },
+    {
+      "price": 40500,
+      "date": "2026-06-11",
+      "postcode": "SR8 4JH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, HARDWICK STREET"
+    },
+    {
+      "price": 26000,
+      "date": "2026-06-09",
       "postcode": "SR8 4QQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "42, ELEVENTH STREET"
+      "address": "34, ELEVENTH STREET"
     },
     {
-      "price": 89000,
-      "date": "2026-05-22",
-      "postcode": "SR8 4BG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, ALNWICK STREET"
-    },
-    {
-      "price": 80000,
-      "date": "2026-05-21",
-      "postcode": "SR8 3EX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, PARADISE LANE"
-    },
-    {
-      "price": 63000,
-      "date": "2026-05-15",
-      "postcode": "SR8 2PG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "74, CHEVIOT PLACE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-15",
-      "postcode": "SR8 4HY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, STAPYLTON DRIVE"
-    },
-    {
-      "price": 121999,
-      "date": "2026-05-14",
-      "postcode": "SR8 5HD",
+      "price": 195000,
+      "date": "2026-06-05",
+      "postcode": "SR8 1PZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, HALE RISE"
-    },
-    {
-      "price": 281000,
-      "date": "2026-05-13",
-      "postcode": "SR8 3AU",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "VILLAGE FISH BAR, LOW ROW"
-    },
-    {
-      "price": 38500,
-      "date": "2026-05-11",
-      "postcode": "SR8 4EL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, MURRAY STREET"
-    },
-    {
-      "price": 93000,
-      "date": "2026-05-08",
-      "postcode": "SR8 5PU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, KENTMERE PLACE"
+      "address": "131, BROUGHAM COURT"
     },
     {
       "price": 50000,
-      "date": "2026-05-08",
+      "date": "2026-06-05",
       "postcode": "SR8 3LZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, JAMES STREET"
+      "address": "17, JAMES STREET"
     },
     {
-      "price": 95000,
-      "date": "2026-05-01",
-      "postcode": "SR8 4HH",
+      "price": 67000,
+      "date": "2026-06-05",
+      "postcode": "SR8 2PA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, BLACKTHORNE AVENUE"
+      "address": "13, CLEVELAND PLACE"
     },
     {
-      "price": 80000,
-      "date": "2026-05-01",
-      "postcode": "SR8 5HT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, ELLIOTT ROAD"
-    },
-    {
-      "price": 98999,
-      "date": "2026-04-30",
-      "postcode": "SR8 4NW",
+      "price": 35000,
+      "date": "2026-06-05",
+      "postcode": "SR8 4LX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, HANDLEY STREET"
+      "address": "69, SEVENTH STREET"
     },
     {
-      "price": 85000,
-      "date": "2026-04-30",
-      "postcode": "SR8 4RN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "63, ROSEBY ROAD"
-    },
-    {
-      "price": 60200,
-      "date": "2026-04-30",
-      "postcode": "SR8 4HF",
+      "price": 79999,
+      "date": "2026-06-04",
+      "postcode": "SR8 3RZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, ACACIA AVENUE"
-    },
-    {
-      "price": 39999,
-      "date": "2026-04-30",
-      "postcode": "SR8 4ET",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, GLANTON TERRACE"
-    },
-    {
-      "price": 85000,
-      "date": "2026-04-28",
-      "postcode": "SR8 2DU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "104, ACRE RIGG ROAD"
-    },
-    {
-      "price": 29000,
-      "date": "2026-04-28",
-      "postcode": "SR8 3SL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, BOSTON STREET"
+      "address": "1, BOURNE STREET"
     },
     {
       "price": 45000,
-      "date": "2026-04-28",
-      "postcode": "SR8 4PT",
+      "date": "2026-06-04",
+      "postcode": "SR8 3LU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, YODEN AVENUE"
+      "address": "19, THORPE STREET"
+    },
+    {
+      "price": 39000,
+      "date": "2026-06-04",
+      "postcode": "SR8 3PP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, VINCENT STREET"
+    },
+    {
+      "price": 21000,
+      "date": "2026-06-03",
+      "postcode": "SR8 4LY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, EIGHTH STREET"
+    },
+    {
+      "price": 31012,
+      "date": "2026-06-02",
+      "postcode": "SR8 2JX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, BRECON CLOSE"
+    },
+    {
+      "price": 35000,
+      "date": "2026-06-02",
+      "postcode": "SR8 4LZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, NINTH STREET"
+    },
+    {
+      "price": 89500,
+      "date": "2026-05-29",
+      "postcode": "SR8 5RW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, MANOR WAY"
+    },
+    {
+      "price": 30000,
+      "date": "2026-05-29",
+      "postcode": "SR8 4NE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, TENTH STREET"
+    },
+    {
+      "price": 93500,
+      "date": "2026-05-29",
+      "postcode": "SR8 2LE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "132, PENTLAND CLOSE"
     },
     {
       "price": 75000,
-      "date": "2026-04-24",
-      "postcode": "SR8 4AN",
+      "date": "2026-05-27",
+      "postcode": "SR8 2EL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, SMILLIE ROAD"
+      "address": "36, STAFFORD PLACE"
+    },
+    {
+      "price": 55000,
+      "date": "2026-05-27",
+      "postcode": "SR8 4QN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, GORDON AVENUE"
+    },
+    {
+      "price": 51500,
+      "date": "2026-05-27",
+      "postcode": "SR8 4JL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, HAWTHORN CRESCENT"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 63000,
-      "transactions": 55
+      "medianPrice": 61500,
+      "transactions": 56
     },
     {
       "month": "2024-02",
@@ -297,8 +300,8 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 69250,
-      "transactions": 64
+      "medianPrice": 68500,
+      "transactions": 67
     },
     {
       "month": "2025-09",
@@ -307,23 +310,23 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 76000,
-      "transactions": 51
+      "medianPrice": 70000,
+      "transactions": 56
     },
     {
       "month": "2025-11",
-      "medianPrice": 89950,
-      "transactions": 41
+      "medianPrice": 85000,
+      "transactions": 46
     },
     {
       "month": "2025-12",
       "medianPrice": 75000,
-      "transactions": 56
+      "transactions": 62
     },
     {
       "month": "2026-01",
-      "medianPrice": 73000,
-      "transactions": 29
+      "medianPrice": 72750,
+      "transactions": 32
     },
     {
       "month": "2026-02",
@@ -332,25 +335,30 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 76000,
-      "transactions": 44
+      "medianPrice": 75000,
+      "transactions": 45
     },
     {
       "month": "2026-04",
-      "medianPrice": 80000,
-      "transactions": 21
+      "medianPrice": 73500,
+      "transactions": 26
     },
     {
       "month": "2026-05",
-      "medianPrice": 84500,
-      "transactions": 12
+      "medianPrice": 80000,
+      "transactions": 32
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 42750,
+      "transactions": 14
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 63500,
-      "transactions": 175
+      "medianPrice": 63250,
+      "transactions": 176
     },
     {
       "quarter": "2024-Q2",
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 68250,
-      "transactions": 196
+      "medianPrice": 68500,
+      "transactions": 199
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 79497,
-      "transactions": 148
+      "medianPrice": 76500,
+      "transactions": 164
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 85000,
-      "transactions": 113
+      "transactions": 117
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 80000,
-      "transactions": 33
+      "medianPrice": 72750,
+      "transactions": 72
     }
   ]
 }

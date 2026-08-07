@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.333Z",
+  "updatedAt": "2026-08-07T08:45:01.439Z",
   "townSlug": "southampton",
   "countySlug": "hampshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTHAMPTON"
+  ],
   "stats": {
-    "medianPrice": 250000,
+    "medianPrice": 255000,
     "medianByType": {
-      "D": 398200,
+      "D": 380000,
       "S": 300000,
       "T": 260000,
-      "F": 159494
+      "F": 160000
     },
-    "transactionCount12m": 2683,
-    "yoyChange": -2,
-    "newBuildCount": 7,
-    "existingCount": 2676,
-    "newBuildPremium": -6.3
+    "transactionCount12m": 2353,
+    "yoyChange": 2,
+    "newBuildCount": 5,
+    "existingCount": 2348,
+    "newBuildPremium": 2
   },
   "recentTransactions": [
     {
-      "price": 210000,
-      "date": "2026-05-22",
-      "postcode": "SO17 1AE",
+      "price": 146000,
+      "date": "2026-06-24",
+      "postcode": "SO16 9PR",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 2, HIGHFIELDS, 56, RICHMOND GARDENS"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-22",
-      "postcode": "SO15 4GQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, CLAREMONT CRESCENT"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-22",
-      "postcode": "SO18 5EN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, MILBURY CRESCENT"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-22",
-      "postcode": "SO15 5PS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "111, HOWARDS GROVE"
-    },
-    {
-      "price": 118508,
-      "date": "2026-05-22",
-      "postcode": "SO17 2LN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, ABERDEEN ROAD"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-21",
-      "postcode": "SO14 6FW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, LIVERPOOL STREET"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-20",
-      "postcode": "SO15 5FL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "39, CHARLTON ROAD"
-    },
-    {
-      "price": 209000,
-      "date": "2026-05-19",
-      "postcode": "SO16 5FS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, OLIVE ROAD"
-    },
-    {
-      "price": 243500,
-      "date": "2026-05-18",
-      "postcode": "SO19 8LS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "138C, SOUTH EAST ROAD"
-    },
-    {
-      "price": 97000,
-      "date": "2026-05-15",
-      "postcode": "SO15 5AZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, AYES COURT, 60, HILL LANE"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-15",
-      "postcode": "SO19 0NL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "247A, BOTLEY ROAD"
+      "address": "13, BLYTH CLOSE"
     },
     {
       "price": 245000,
-      "date": "2026-05-15",
-      "postcode": "SO16 3PU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, REDWOOD WAY"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-15",
-      "postcode": "SO19 1RG",
+      "date": "2026-06-23",
+      "postcode": "SO19 9HD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "12, RANGE GARDENS"
+      "address": "88, TICONDEROGA GARDENS"
     },
     {
-      "price": 283000,
-      "date": "2026-05-15",
-      "postcode": "SO16 4GG",
+      "price": 233750,
+      "date": "2026-06-23",
+      "postcode": "SO19 8JW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "72, CLARENDON ROAD"
+      "address": "2, CHAPEL CRESCENT"
     },
     {
-      "price": 275000,
-      "date": "2026-05-15",
-      "postcode": "SO15 3GJ",
-      "propertyType": "T",
+      "price": 247000,
+      "date": "2026-06-22",
+      "postcode": "SO17 1RH",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "9, YORK ROAD"
+      "address": "25, GLEBE COURT"
     },
     {
-      "price": 340000,
-      "date": "2026-05-15",
-      "postcode": "SO19 9HZ",
+      "price": 300000,
+      "date": "2026-06-19",
+      "postcode": "SO15 2TF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, CHARLES KNOTT GARDENS"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-19",
+      "postcode": "SO16 9TB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, BARONS MEAD"
+    },
+    {
+      "price": 242500,
+      "date": "2026-06-19",
+      "postcode": "SO15 8PX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "74, IMPERIAL AVENUE"
+    },
+    {
+      "price": 305000,
+      "date": "2026-06-19",
+      "postcode": "SO19 5ES",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, BATH ROAD"
+    },
+    {
+      "price": 122500,
+      "date": "2026-06-19",
+      "postcode": "SO15 2JR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, OAKLEY HOUSE, COURT ROAD"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-18",
+      "postcode": "SO15 3AB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "9, BOURNE ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-17",
+      "postcode": "SO16 9FT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, LULWORTH GREEN"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-17",
+      "postcode": "SO17 2GD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 8, 43, BELMONT ROAD"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-17",
+      "postcode": "SO19 4BS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "288, UPPER WESTON LANE"
+      "address": "104, CHESSEL CRESCENT"
     },
     {
-      "price": 302000,
-      "date": "2026-05-15",
-      "postcode": "SO15 3FR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "40, RICHMOND ROAD"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-15",
-      "postcode": "SO19 7AF",
+      "price": 484000,
+      "date": "2026-06-16",
+      "postcode": "SO18 2PP",
       "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "77, MALDON ROAD"
+      "tenure": "F",
+      "address": "12, NORWICH ROAD"
     },
     {
-      "price": 192500,
-      "date": "2026-05-15",
-      "postcode": "SO18 2QX",
+      "price": 205000,
+      "date": "2026-06-15",
+      "postcode": "SO14 6QY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "129, CORNWALL ROAD"
+      "address": "5A, PADWELL ROAD"
     },
     {
-      "price": 211000,
-      "date": "2026-05-15",
-      "postcode": "SO14 0EW",
-      "propertyType": "T",
+      "price": 375000,
+      "date": "2026-06-15",
+      "postcode": "SO15 4LR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, PRINCE OF WALES AVENUE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-15",
+      "postcode": "SO15 2LQ",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "37, HARTINGTON ROAD"
+      "address": "3, LAUREL GATE, 7, ARCHERS ROAD"
+    },
+    {
+      "price": 262500,
+      "date": "2026-06-15",
+      "postcode": "SO19 2BH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, SPRING ROAD"
+    },
+    {
+      "price": 65000,
+      "date": "2026-06-15",
+      "postcode": "SO17 2GR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 25, WOODSIDE COURT, WOODSIDE ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-12",
+      "postcode": "SO15 8RJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, BEECH ROAD"
     }
   ],
   "monthlyHistory": [
@@ -252,18 +255,18 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 251000,
-      "transactions": 272
+      "medianPrice": 252000,
+      "transactions": 271
     },
     {
       "month": "2024-12",
       "medianPrice": 250000,
-      "transactions": 293
+      "transactions": 295
     },
     {
       "month": "2025-01",
       "medianPrice": 260000,
-      "transactions": 252
+      "transactions": 255
     },
     {
       "month": "2025-02",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 265000,
-      "transactions": 477
+      "transactions": 478
     },
     {
       "month": "2025-04",
@@ -282,68 +285,73 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 235000,
-      "transactions": 211
+      "medianPrice": 236250,
+      "transactions": 212
     },
     {
       "month": "2025-06",
-      "medianPrice": 246000,
-      "transactions": 230
+      "medianPrice": 247000,
+      "transactions": 231
     },
     {
       "month": "2025-07",
-      "medianPrice": 219349,
-      "transactions": 680
+      "medianPrice": 213941,
+      "transactions": 670
     },
     {
       "month": "2025-08",
-      "medianPrice": 260000,
-      "transactions": 307
+      "medianPrice": 270000,
+      "transactions": 339
     },
     {
       "month": "2025-09",
-      "medianPrice": 248500,
-      "transactions": 248
-    },
-    {
-      "month": "2025-10",
-      "medianPrice": 255000,
+      "medianPrice": 252000,
       "transactions": 263
     },
     {
+      "month": "2025-10",
+      "medianPrice": 254000,
+      "transactions": 269
+    },
+    {
       "month": "2025-11",
-      "medianPrice": 257500,
-      "transactions": 254
+      "medianPrice": 250000,
+      "transactions": 277
     },
     {
       "month": "2025-12",
-      "medianPrice": 258000,
-      "transactions": 234
+      "medianPrice": 260000,
+      "transactions": 274
     },
     {
       "month": "2026-01",
-      "medianPrice": 255000,
-      "transactions": 177
+      "medianPrice": 257000,
+      "transactions": 195
     },
     {
       "month": "2026-02",
-      "medianPrice": 267500,
-      "transactions": 169
+      "medianPrice": 266250,
+      "transactions": 180
     },
     {
       "month": "2026-03",
-      "medianPrice": 247500,
-      "transactions": 205
+      "medianPrice": 245000,
+      "transactions": 214
     },
     {
       "month": "2026-04",
-      "medianPrice": 245000,
-      "transactions": 137
+      "medianPrice": 240000,
+      "transactions": 157
     },
     {
       "month": "2026-05",
-      "medianPrice": 247500,
-      "transactions": 68
+      "medianPrice": 255000,
+      "transactions": 164
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 246500,
+      "transactions": 60
     }
   ],
   "quarterlyHistory": [
@@ -365,37 +373,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 250000,
-      "transactions": 863
+      "transactions": 864
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 260000,
-      "transactions": 967
+      "transactions": 971
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 240000,
-      "transactions": 621
+      "transactions": 623
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 238500,
-      "transactions": 1235
+      "medianPrice": 242250,
+      "transactions": 1272
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 256000,
-      "transactions": 751
+      "medianPrice": 255000,
+      "transactions": 820
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 255000,
-      "transactions": 551
+      "transactions": 589
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 245000,
-      "transactions": 205
+      "medianPrice": 247400,
+      "transactions": 381
     }
   ]
 }

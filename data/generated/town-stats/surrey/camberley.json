@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.885Z",
+  "updatedAt": "2026-08-07T08:45:01.336Z",
   "townSlug": "camberley",
   "countySlug": "surrey",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SURREY HEATH"
+  ],
   "marketSnapshot": {
     "medianPrice": 475000,
-    "transactionCount12m": 975,
+    "transactionCount12m": 972,
     "yoyPriceChange": 1.1,
     "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 82,
+    "pipelineGdv": 38950000,
     "approvalRate": 0
   }
 }

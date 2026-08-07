@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.762Z",
+  "updatedAt": "2026-08-07T08:45:04.120Z",
   "townSlug": "porthmadog",
   "countySlug": "gwynedd",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GWYNEDD"
+  ],
   "marketSnapshot": {
-    "medianPrice": 192500,
+    "medianPrice": 190000,
     "transactionCount12m": 45,
-    "yoyPriceChange": 4.9,
+    "yoyPriceChange": 3.5,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

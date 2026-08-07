@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.739Z",
+  "updatedAt": "2026-08-07T08:45:02.154Z",
   "townSlug": "gloucester",
   "countySlug": "gloucestershire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GLOUCESTER"
+  ],
   "marketSnapshot": {
-    "medianPrice": 246000,
-    "transactionCount12m": 1507,
-    "yoyPriceChange": -1.6,
+    "medianPrice": 247500,
+    "transactionCount12m": 1460,
+    "yoyPriceChange": -1,
     "approvedApps12m": 0,
-    "pipelineUnits": 912,
-    "pipelineGdv": 225290000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 1095,
+    "pipelineGdv": 267960000,
     "approvalRate": 0
   }
 }

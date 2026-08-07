@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.338Z",
+  "updatedAt": "2026-08-07T08:45:00.802Z",
   "townSlug": "clapham",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "LAMBETH"
+  ],
   "marketSnapshot": {
-    "medianPrice": 530000,
-    "transactionCount12m": 2688,
-    "yoyPriceChange": -3.2,
+    "medianPrice": 522500,
+    "transactionCount12m": 2603,
+    "yoyPriceChange": -4.1,
     "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 206,
+    "pipelineGdv": 104020000,
     "approvalRate": 0
   }
 }

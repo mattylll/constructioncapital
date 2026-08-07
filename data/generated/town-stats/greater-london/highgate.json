@@ -1,12 +1,19 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.441Z",
+  "updatedAt": "2026-08-07T08:45:00.902Z",
   "townSlug": "highgate",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "CAMDEN",
+    "HARINGEY"
+  ],
   "marketSnapshot": {
-    "medianPrice": 625000,
-    "transactionCount12m": 3124,
-    "yoyPriceChange": 0,
+    "medianPrice": 620000,
+    "transactionCount12m": 3091,
+    "yoyPriceChange": -0.8,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

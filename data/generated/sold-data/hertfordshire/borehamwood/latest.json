@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.552Z",
+  "updatedAt": "2026-08-07T08:45:01.672Z",
   "townSlug": "borehamwood",
   "countySlug": "hertfordshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HERTSMERE"
+  ],
   "stats": {
-    "medianPrice": 540000,
+    "medianPrice": 535000,
     "medianByType": {
-      "D": 973750,
-      "S": 611750,
-      "T": 460000,
-      "F": 310000
+      "D": 997500,
+      "S": 612000,
+      "T": 452500,
+      "F": 315000
     },
-    "transactionCount12m": 1000,
-    "yoyChange": 3.8,
+    "transactionCount12m": 987,
+    "yoyChange": 1.9,
     "newBuildCount": 1,
-    "existingCount": 999,
+    "existingCount": 986,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 602515,
-      "date": "2026-05-28",
-      "postcode": "WD7 8JP",
+      "price": 325000,
+      "date": "2026-06-25",
+      "postcode": "WD6 1UQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "75, STRATFIELD ROAD"
+    },
+    {
+      "price": 580000,
+      "date": "2026-06-24",
+      "postcode": "WD6 2LW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, SCRUBBITTS PARK ROAD"
+      "address": "46, FEATHERSTONE GARDENS"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-22",
+      "postcode": "WD23 4SJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "26, THE FOUR TUBS"
+    },
+    {
+      "price": 550000,
+      "date": "2026-06-18",
+      "postcode": "WD6 5RT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, NOVELLO WAY"
+    },
+    {
+      "price": 365000,
+      "date": "2026-06-16",
+      "postcode": "WD23 1EN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 18, HEATHSIDE COURT, HIGH ROAD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-15",
+      "postcode": "WD23 4QJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, COTSWOLD AVENUE"
     },
     {
       "price": 790000,
-      "date": "2026-05-27",
-      "postcode": "WD23 2RB",
-      "propertyType": "F",
+      "date": "2026-06-15",
+      "postcode": "WD23 4RF",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 18, CONNAUGHT HOUSE, ROYAL CONNAUGHT DRIVE"
+      "tenure": "F",
+      "address": "59, CHILTERN AVENUE"
     },
     {
-      "price": 445000,
-      "date": "2026-05-22",
-      "postcode": "WD23 3EE",
+      "price": 720000,
+      "date": "2026-06-15",
+      "postcode": "EN6 1EU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "137, CHURCH ROAD"
+    },
+    {
+      "price": 707000,
+      "date": "2026-06-15",
+      "postcode": "WD23 3DX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, PARK ROAD"
+      "address": "15, RUDOLPH ROAD"
     },
     {
-      "price": 670000,
-      "date": "2026-05-18",
-      "postcode": "WD7 9JN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, WAYSIDE"
-    },
-    {
-      "price": 660000,
-      "date": "2026-05-15",
-      "postcode": "EN6 2LD",
+      "price": 385000,
+      "date": "2026-06-12",
+      "postcode": "WD6 5JL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, SHERWOOD AVENUE"
+      "address": "127, CROWN ROAD"
     },
     {
-      "price": 725000,
-      "date": "2026-05-14",
-      "postcode": "WD23 2BJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, THE DRIVE"
-    },
-    {
-      "price": 1275000,
-      "date": "2026-05-12",
-      "postcode": "WD25 8EU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, STABLES END"
-    },
-    {
-      "price": 520000,
-      "date": "2026-05-08",
-      "postcode": "WD23 2BE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, DUNCAN WAY"
-    },
-    {
-      "price": 408000,
-      "date": "2026-05-08",
-      "postcode": "WD6 2PH",
+      "price": 419500,
+      "date": "2026-06-12",
+      "postcode": "WD23 3LP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, WANSFORD PARK"
+      "address": "58, HERNE ROAD"
     },
     {
-      "price": 685000,
-      "date": "2026-05-07",
-      "postcode": "EN6 5HT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "92, TORRINGTON DRIVE"
-    },
-    {
-      "price": 690000,
-      "date": "2026-05-05",
-      "postcode": "WD23 1AQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, THE WHITEHOUSE, SPARROWS HERNE"
-    },
-    {
-      "price": 485000,
-      "date": "2026-05-05",
-      "postcode": "WD6 5BG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, WALSHFORD WAY"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-01",
-      "postcode": "WD23 2HW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, BRAMBLING CLOSE"
-    },
-    {
-      "price": 755000,
-      "date": "2026-05-01",
-      "postcode": "EN6 1EY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "105, CHURCH ROAD"
-    },
-    {
-      "price": 687500,
-      "date": "2026-05-01",
-      "postcode": "WD23 4RX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "193, LITTLE BUSHEY LANE"
-    },
-    {
-      "price": 975000,
-      "date": "2026-05-01",
-      "postcode": "EN6 2EX",
+      "price": 3500000,
+      "date": "2026-06-11",
+      "postcode": "WD25 8ES",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "71, BAKER STREET"
+      "address": "THE FARM HOUSE, THE GREEN"
     },
     {
-      "price": 315000,
-      "date": "2026-05-01",
-      "postcode": "WD23 2BX",
+      "price": 559000,
+      "date": "2026-06-11",
+      "postcode": "WD6 5FP",
       "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "6, FOREST WALK"
+      "tenure": "F",
+      "address": "47, HORIZON PLACE"
     },
     {
-      "price": 590000,
-      "date": "2026-05-01",
-      "postcode": "EN6 2NW",
+      "price": 785000,
+      "date": "2026-06-11",
+      "postcode": "WD23 4GD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, SUNNYBANK ROAD"
+      "address": "19, LANGMEAD DRIVE"
     },
     {
-      "price": 3200000,
-      "date": "2026-04-30",
-      "postcode": "WD7 7DJ",
-      "propertyType": "D",
+      "price": 807500,
+      "date": "2026-06-10",
+      "postcode": "WD23 1NJ",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, THE AVENUE"
+      "address": "18, RUTHERFORD WAY"
     },
     {
-      "price": 182500,
-      "date": "2026-04-30",
-      "postcode": "WD6 5NJ",
+      "price": 390000,
+      "date": "2026-06-10",
+      "postcode": "WD6 1AJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "24, LION COURT"
+      "address": "FLAT 9, SOMERVILLE HOUSE, HOLMESLEY ROAD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-09",
+      "postcode": "WD6 4BS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, ALLERTON ROAD"
+    },
+    {
+      "price": 387500,
+      "date": "2026-06-09",
+      "postcode": "WD6 4LN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, CROMWELL ROAD"
+    },
+    {
+      "price": 399950,
+      "date": "2026-06-08",
+      "postcode": "WD6 4BN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "76, MORPETH AVENUE"
+    },
+    {
+      "price": 369995,
+      "date": "2026-06-05",
+      "postcode": "WD23 2NN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 16, MAYFIELD COURT, LONDON ROAD"
     }
   ],
   "monthlyHistory": [
@@ -253,7 +256,7 @@
     {
       "month": "2024-11",
       "medianPrice": 525000,
-      "transactions": 132
+      "transactions": 133
     },
     {
       "month": "2024-12",
@@ -267,8 +270,8 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 527500,
-      "transactions": 129
+      "medianPrice": 526250,
+      "transactions": 130
     },
     {
       "month": "2025-03",
@@ -282,8 +285,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 485000,
-      "transactions": 93
+      "medianPrice": 490000,
+      "transactions": 94
     },
     {
       "month": "2025-06",
@@ -292,58 +295,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 560500,
-      "transactions": 112
+      "medianPrice": 561000,
+      "transactions": 113
     },
     {
       "month": "2025-08",
       "medianPrice": 550000,
-      "transactions": 144
+      "transactions": 149
     },
     {
       "month": "2025-09",
-      "medianPrice": 499950,
-      "transactions": 123
+      "medianPrice": 515000,
+      "transactions": 129
     },
     {
       "month": "2025-10",
-      "medianPrice": 627500,
-      "transactions": 132
+      "medianPrice": 625000,
+      "transactions": 135
     },
     {
       "month": "2025-11",
       "medianPrice": 524000,
-      "transactions": 96
+      "transactions": 98
     },
     {
       "month": "2025-12",
-      "medianPrice": 510000,
-      "transactions": 95
+      "medianPrice": 525000,
+      "transactions": 104
     },
     {
       "month": "2026-01",
-      "medianPrice": 600000,
-      "transactions": 69
+      "medianPrice": 587500,
+      "transactions": 76
     },
     {
       "month": "2026-02",
-      "medianPrice": 515875,
-      "transactions": 66
+      "medianPrice": 515000,
+      "transactions": 67
     },
     {
       "month": "2026-03",
-      "medianPrice": 470000,
-      "transactions": 95
+      "medianPrice": 471250,
+      "transactions": 96
     },
     {
       "month": "2026-04",
-      "medianPrice": 515000,
-      "transactions": 64
+      "medianPrice": 498000,
+      "transactions": 74
     },
     {
       "month": "2026-05",
-      "medianPrice": 665000,
-      "transactions": 18
+      "medianPrice": 578750,
+      "transactions": 58
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 476000,
+      "transactions": 31
     }
   ],
   "quarterlyHistory": [
@@ -364,38 +372,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 524924,
-      "transactions": 415
+      "medianPrice": 524962,
+      "transactions": 416
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 528750,
-      "transactions": 480
+      "medianPrice": 527500,
+      "transactions": 481
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 500500,
-      "transactions": 228
+      "medianPrice": 501000,
+      "transactions": 229
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 550000,
-      "transactions": 379
+      "medianPrice": 545000,
+      "transactions": 391
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 575000,
-      "transactions": 323
+      "medianPrice": 580000,
+      "transactions": 337
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 515875,
-      "transactions": 230
+      "medianPrice": 515000,
+      "transactions": 239
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 552500,
-      "transactions": 82
+      "medianPrice": 505000,
+      "transactions": 163
     }
   ]
 }

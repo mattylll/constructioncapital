@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.002Z",
+  "updatedAt": "2026-08-07T08:45:03.380Z",
   "townSlug": "york",
   "countySlug": "north-yorkshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "YORK"
+  ],
   "marketSnapshot": {
     "medianPrice": 300000,
-    "transactionCount12m": 2153,
-    "yoyPriceChange": 0,
+    "transactionCount12m": 2104,
+    "yoyPriceChange": -1,
     "approvedApps12m": 0,
-    "pipelineUnits": 26,
-    "pipelineGdv": 7367450,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 22,
+    "pipelineGdv": 6180000,
     "approvalRate": 0
   }
 }

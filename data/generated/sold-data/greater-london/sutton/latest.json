@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:54.917Z",
+  "updatedAt": "2026-08-07T08:45:01.003Z",
   "townSlug": "sutton",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SUTTON"
+  ],
   "stats": {
     "medianPrice": 450000,
     "medianByType": {
       "D": 900000,
-      "S": 604250,
-      "T": 483750,
+      "S": 600000,
+      "T": 482125,
       "F": 285000
     },
-    "transactionCount12m": 1742,
+    "transactionCount12m": 1686,
     "yoyChange": 0,
-    "newBuildCount": 1,
-    "existingCount": 1741,
+    "newBuildCount": 2,
+    "existingCount": 1684,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 666000,
-      "date": "2026-05-27",
-      "postcode": "SM6 8SU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, OSMOND GARDENS"
-    },
-    {
-      "price": 515000,
-      "date": "2026-05-22",
-      "postcode": "SM1 2EL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, ANTROBUS CLOSE"
-    },
-    {
-      "price": 328000,
-      "date": "2026-05-19",
-      "postcode": "SM1 2UF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 11, GREBE COURT, SANDPIPER ROAD"
-    },
-    {
-      "price": 537000,
-      "date": "2026-05-18",
-      "postcode": "CR0 4QQ",
+      "price": 474000,
+      "date": "2026-06-19",
+      "postcode": "KT4 8LE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "34, BRISTOW ROAD"
+      "address": "44, LINDSAY ROAD"
     },
     {
-      "price": 750000,
-      "date": "2026-05-18",
-      "postcode": "SM5 4QL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, WINDBOROUGH ROAD"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-15",
-      "postcode": "SM1 4DU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, MARSHALLS COURT, MARSHALLS ROAD"
-    },
-    {
-      "price": 915000,
-      "date": "2026-05-15",
-      "postcode": "SM2 7EG",
+      "price": 885000,
+      "date": "2026-06-19",
+      "postcode": "KT4 8TX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, THE DENE"
+      "address": "58, TUDOR AVENUE"
     },
     {
-      "price": 500000,
-      "date": "2026-05-15",
-      "postcode": "KT4 8JH",
+      "price": 650000,
+      "date": "2026-06-19",
+      "postcode": "CR0 4PP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, LAVINGTON ROAD"
+    },
+    {
+      "price": 307500,
+      "date": "2026-06-19",
+      "postcode": "SM5 2JH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 14, NELSON COURT, 17, DENMARK ROAD"
+    },
+    {
+      "price": 650000,
+      "date": "2026-06-19",
+      "postcode": "SM3 9AP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, WASHINGTON ROAD"
+      "address": "77, EGHAM CRESCENT"
     },
     {
-      "price": 370000,
-      "date": "2026-05-15",
-      "postcode": "SM2 6QN",
+      "price": 180000,
+      "date": "2026-06-18",
+      "postcode": "SM6 0JF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "6, HEREFORD COURT, WORCESTER ROAD"
+      "address": "FLAT 9, MOORLANDS, 17, BEDDINGTON GARDENS"
     },
     {
-      "price": 350000,
-      "date": "2026-05-14",
-      "postcode": "SM1 3SQ",
+      "price": 325000,
+      "date": "2026-06-18",
+      "postcode": "SM1 2JH",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "12, NORTHPOINT CLOSE"
+      "address": "69A, ST ALBANS ROAD"
+    },
+    {
+      "price": 435000,
+      "date": "2026-06-17",
+      "postcode": "KT4 8TW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, TRENT WAY"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-16",
+      "postcode": "SM2 5TF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 18, SPRINGWELL MANOR, 38, ALBION ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-16",
+      "postcode": "SM1 2TH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "34A, ST JAMES AVENUE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-06-16",
+      "postcode": "SM5 1QA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "64, TEWKESBURY ROAD"
+    },
+    {
+      "price": 480000,
+      "date": "2026-06-15",
+      "postcode": "KT4 8NW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, DORCHESTER ROAD"
+    },
+    {
+      "price": 465000,
+      "date": "2026-06-15",
+      "postcode": "SM3 8RA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "138, MALDEN ROAD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-12",
+      "postcode": "SM5 1ER",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, QUARR ROAD"
+    },
+    {
+      "price": 560000,
+      "date": "2026-06-12",
+      "postcode": "SM6 7JF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11A, LEECHCROFT ROAD"
     },
     {
       "price": 595000,
-      "date": "2026-05-14",
-      "postcode": "SM1 2EZ",
+      "date": "2026-06-12",
+      "postcode": "SM6 9RL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "181, GANDER GREEN LANE"
+      "address": "50, COWPER GARDENS"
     },
     {
-      "price": 485000,
-      "date": "2026-05-13",
-      "postcode": "SM2 5NR",
+      "price": 430000,
+      "date": "2026-06-12",
+      "postcode": "SM5 4LQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, DOWNS ROAD"
+      "address": "10, NORTH AVENUE"
     },
     {
-      "price": 370000,
-      "date": "2026-05-11",
-      "postcode": "SM3 8BN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, PARK LANE"
-    },
-    {
-      "price": 427000,
-      "date": "2026-05-08",
-      "postcode": "SM3 8QY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "193, MALDEN ROAD"
-    },
-    {
-      "price": 238000,
-      "date": "2026-05-08",
-      "postcode": "SM2 6QF",
+      "price": 110000,
+      "date": "2026-06-12",
+      "postcode": "SM5 4LN",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 2, CLARE COURT, 14, OVERTON ROAD"
+      "address": "15, SANDOWN DRIVE"
     },
     {
-      "price": 270000,
-      "date": "2026-05-08",
-      "postcode": "SM2 6TZ",
+      "price": 280000,
+      "date": "2026-06-12",
+      "postcode": "SM2 5BB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "93, HULVERSTON CLOSE"
+      "address": "41, AUTUMN DRIVE"
     },
     {
-      "price": 442000,
-      "date": "2026-05-08",
-      "postcode": "SM5 4NY",
-      "propertyType": "S",
+      "price": 450000,
+      "date": "2026-06-11",
+      "postcode": "SM2 6NL",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, BARROW AVENUE"
-    },
-    {
-      "price": 720000,
-      "date": "2026-05-08",
-      "postcode": "SM1 2RG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, ROBIN HOOD LANE"
-    },
-    {
-      "price": 630000,
-      "date": "2026-05-07",
-      "postcode": "KT4 8XE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "63, OAKS AVENUE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-06",
-      "postcode": "KT4 8HH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "160A, CENTRAL ROAD"
+      "address": "68, SEVENOAKS CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -297,53 +300,58 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 475000,
-      "transactions": 250
+      "medianPrice": 470000,
+      "transactions": 265
     },
     {
       "month": "2025-09",
       "medianPrice": 465000,
-      "transactions": 194
+      "transactions": 201
     },
     {
       "month": "2025-10",
       "medianPrice": 480000,
-      "transactions": 224
+      "transactions": 227
     },
     {
       "month": "2025-11",
-      "medianPrice": 458000,
-      "transactions": 190
+      "medianPrice": 465000,
+      "transactions": 197
     },
     {
       "month": "2025-12",
       "medianPrice": 420000,
-      "transactions": 151
+      "transactions": 163
     },
     {
       "month": "2026-01",
       "medianPrice": 425000,
-      "transactions": 111
+      "transactions": 124
     },
     {
       "month": "2026-02",
       "medianPrice": 446950,
-      "transactions": 146
+      "transactions": 158
     },
     {
       "month": "2026-03",
-      "medianPrice": 420000,
-      "transactions": 135
+      "medianPrice": 425000,
+      "transactions": 137
     },
     {
       "month": "2026-04",
-      "medianPrice": 411000,
-      "transactions": 116
+      "medianPrice": 412000,
+      "transactions": 129
     },
     {
       "month": "2026-05",
-      "medianPrice": 463500,
-      "transactions": 30
+      "medianPrice": 450000,
+      "transactions": 91
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 455000,
+      "transactions": 44
     }
   ],
   "quarterlyHistory": [
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 465000,
-      "transactions": 680
+      "medianPrice": 460000,
+      "transactions": 702
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 451000,
-      "transactions": 565
+      "medianPrice": 460000,
+      "transactions": 587
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 433500,
-      "transactions": 392
+      "medianPrice": 440000,
+      "transactions": 419
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 417500,
-      "transactions": 146
+      "medianPrice": 429125,
+      "transactions": 264
     }
   ]
 }

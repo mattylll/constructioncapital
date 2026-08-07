@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:54.969Z",
+  "updatedAt": "2026-08-07T08:45:01.058Z",
   "townSlug": "ilford",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "REDBRIDGE"
+  ],
   "stats": {
-    "medianPrice": 485000,
+    "medianPrice": 480000,
     "medianByType": {
       "D": 655000,
-      "S": 595000,
-      "T": 510000,
-      "F": 250000
+      "S": 600000,
+      "T": 506000,
+      "F": 246000
     },
-    "transactionCount12m": 1011,
-    "yoyChange": 2.8,
-    "newBuildCount": 0,
-    "existingCount": 1011,
+    "transactionCount12m": 1033,
+    "yoyChange": 1.1,
+    "newBuildCount": 2,
+    "existingCount": 1031,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 470000,
-      "date": "2026-05-20",
-      "postcode": "IG1 1PL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "290, HAMPTON ROAD"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-20",
-      "postcode": "IG1 3LQ",
+      "price": 209000,
+      "date": "2026-06-25",
+      "postcode": "IG5 0PX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "32, STANHOPE GARDENS"
+      "address": "27, WINNINGALES COURT"
     },
     {
-      "price": 240000,
-      "date": "2026-05-20",
-      "postcode": "IG6 3TN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, HARBOURER ROAD"
-    },
-    {
-      "price": 479000,
-      "date": "2026-05-18",
-      "postcode": "IG3 9ED",
+      "price": 622000,
+      "date": "2026-06-22",
+      "postcode": "IG4 5LG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, DAWLISH DRIVE"
-    },
-    {
-      "price": 615000,
-      "date": "2026-05-15",
-      "postcode": "IG4 5PG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, PEAKETON AVENUE"
-    },
-    {
-      "price": 500000,
-      "date": "2026-05-15",
-      "postcode": "IG6 2BW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, BEAMINSTER GARDENS"
-    },
-    {
-      "price": 171000,
-      "date": "2026-05-15",
-      "postcode": "IG3 8TR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 24, WELLWOOD ROAD"
+      "address": "41, BRANTWOOD GARDENS"
     },
     {
       "price": 660000,
-      "date": "2026-05-15",
-      "postcode": "IG6 1AP",
+      "date": "2026-06-22",
+      "postcode": "IG6 3BE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "81, ARDWELL AVENUE"
+      "address": "18, LANCELOT ROAD"
     },
     {
-      "price": 535000,
-      "date": "2026-05-15",
-      "postcode": "IG5 0UJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, CLIFFORD AVENUE"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-15",
-      "postcode": "IG1 3BP",
+      "price": 160000,
+      "date": "2026-06-19",
+      "postcode": "IG1 1LA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "51, NORTHBROOK ROAD"
+      "address": "56D, GROSVENOR ROAD"
     },
     {
-      "price": 170000,
-      "date": "2026-05-14",
-      "postcode": "IG1 3BB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 55, MANSFIELD ROAD"
-    },
-    {
-      "price": 800000,
-      "date": "2026-05-13",
-      "postcode": "IG3 8LQ",
+      "price": 615000,
+      "date": "2026-06-19",
+      "postcode": "IG5 0LQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "32, NORFOLK ROAD"
+      "address": "11A, CLAYBURY BROADWAY"
     },
     {
-      "price": 480000,
-      "date": "2026-05-13",
-      "postcode": "IG6 2RN",
+      "price": 385000,
+      "date": "2026-06-19",
+      "postcode": "IG2 7RG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, PLYMOUTH TERRACE"
+    },
+    {
+      "price": 960000,
+      "date": "2026-06-15",
+      "postcode": "IG1 4XF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, YEOMEN WAY"
+      "address": "17, HOLCOMBE ROAD"
     },
     {
-      "price": 610000,
-      "date": "2026-05-11",
-      "postcode": "IG1 4HU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "201A, BALFOUR ROAD"
-    },
-    {
-      "price": 327500,
-      "date": "2026-05-08",
-      "postcode": "IG1 3JL",
+      "price": 580000,
+      "date": "2026-06-15",
+      "postcode": "IG5 0BW",
       "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "49, COWLEY ROAD"
+      "tenure": "F",
+      "address": "108, RUSHDEN GARDENS"
     },
     {
-      "price": 253000,
-      "date": "2026-05-08",
-      "postcode": "IG3 9RH",
+      "price": 860000,
+      "date": "2026-06-12",
+      "postcode": "IG1 3QB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, CASTLEVIEW GARDENS"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-12",
+      "postcode": "IG2 7NE",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 14, MONTAGUE HOUSE, 527, GREEN LANE"
+      "address": "15, ABBEY ROAD"
     },
     {
-      "price": 87500,
-      "date": "2026-05-08",
-      "postcode": "IG1 2ZJ",
+      "price": 370000,
+      "date": "2026-06-12",
+      "postcode": "IG2 6FG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 8, HUTTON COURT, 43, ILFORD HILL"
+      "address": "84, GABRIELLE HOUSE, 332 - 336, PERTH ROAD"
+    },
+    {
+      "price": 700000,
+      "date": "2026-06-09",
+      "postcode": "IG3 8XE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, BARLEY LANE"
+    },
+    {
+      "price": 428000,
+      "date": "2026-06-09",
+      "postcode": "IG1 2NS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "85, BLACKTHORN ROAD"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-08",
+      "postcode": "IG1 1TL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 25, BALFOUR HOUSE, 394 - 398, HIGH ROAD"
+    },
+    {
+      "price": 170000,
+      "date": "2026-06-08",
+      "postcode": "IG2 7JY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 55, REGAL HOUSE, ROYAL CRESCENT"
+    },
+    {
+      "price": 537000,
+      "date": "2026-06-05",
+      "postcode": "IG3 9NX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, BUDOCH DRIVE"
     },
     {
       "price": 450000,
-      "date": "2026-05-07",
-      "postcode": "IG1 4HB",
+      "date": "2026-06-05",
+      "postcode": "IG2 7NJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "187, THOROLD ROAD"
+      "address": "42, PERKINS ROAD"
     },
     {
-      "price": 228000,
-      "date": "2026-05-06",
-      "postcode": "IG2 7DH",
+      "price": 498000,
+      "date": "2026-06-05",
+      "postcode": "IG6 3EE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, LYNDHURST GARDENS"
+      "address": "48, NEWCASTLE AVENUE"
     },
     {
-      "price": 200000,
-      "date": "2026-05-06",
-      "postcode": "IG1 3JL",
+      "price": 237000,
+      "date": "2026-06-05",
+      "postcode": "IG1 3BG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "GROUND FLOOR FLAT, 40, COWLEY ROAD"
+      "address": "38B, ARGYLE ROAD"
+    },
+    {
+      "price": 395000,
+      "date": "2026-06-05",
+      "postcode": "IG3 9FL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, GRIGGS CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -268,12 +271,12 @@
     {
       "month": "2025-02",
       "medianPrice": 475000,
-      "transactions": 147
+      "transactions": 148
     },
     {
       "month": "2025-03",
       "medianPrice": 495000,
-      "transactions": 307
+      "transactions": 308
     },
     {
       "month": "2025-04",
@@ -283,67 +286,72 @@
     {
       "month": "2025-05",
       "medianPrice": 430000,
-      "transactions": 97
+      "transactions": 99
     },
     {
       "month": "2025-06",
-      "medianPrice": 488000,
-      "transactions": 88
+      "medianPrice": 486000,
+      "transactions": 89
     },
     {
       "month": "2025-07",
       "medianPrice": 485000,
-      "transactions": 111
+      "transactions": 113
     },
     {
       "month": "2025-08",
-      "medianPrice": 515000,
-      "transactions": 121
+      "medianPrice": 510000,
+      "transactions": 128
     },
     {
       "month": "2025-09",
-      "medianPrice": 480000,
-      "transactions": 115
+      "medianPrice": 470000,
+      "transactions": 117
     },
     {
       "month": "2025-10",
       "medianPrice": 480000,
-      "transactions": 153
+      "transactions": 156
     },
     {
       "month": "2025-11",
       "medianPrice": 475000,
-      "transactions": 106
+      "transactions": 117
     },
     {
       "month": "2025-12",
-      "medianPrice": 505000,
-      "transactions": 94
+      "medianPrice": 510000,
+      "transactions": 111
     },
     {
       "month": "2026-01",
       "medianPrice": 440000,
-      "transactions": 74
+      "transactions": 82
     },
     {
       "month": "2026-02",
-      "medianPrice": 499000,
-      "transactions": 73
+      "medianPrice": 497000,
+      "transactions": 76
     },
     {
       "month": "2026-03",
-      "medianPrice": 480000,
-      "transactions": 117
+      "medianPrice": 475000,
+      "transactions": 122
     },
     {
       "month": "2026-04",
       "medianPrice": 530000,
-      "transactions": 50
+      "transactions": 53
     },
     {
       "month": "2026-05",
-      "medianPrice": 306250,
-      "transactions": 24
+      "medianPrice": 390500,
+      "transactions": 62
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 450000,
+      "transactions": 29
     }
   ],
   "quarterlyHistory": [
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 482550,
-      "transactions": 560
+      "medianPrice": 480050,
+      "transactions": 562
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 450000,
-      "transactions": 248
+      "transactions": 251
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 500000,
-      "transactions": 347
+      "medianPrice": 491000,
+      "transactions": 358
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 480000,
-      "transactions": 353
+      "medianPrice": 482500,
+      "transactions": 384
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 475000,
-      "transactions": 264
+      "transactions": 280
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 500000,
-      "transactions": 74
+      "medianPrice": 477250,
+      "transactions": 144
     }
   ]
 }

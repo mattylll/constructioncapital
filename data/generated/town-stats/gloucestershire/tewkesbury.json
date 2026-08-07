@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.762Z",
+  "updatedAt": "2026-08-07T08:45:02.177Z",
   "townSlug": "tewkesbury",
   "countySlug": "gloucestershire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "TEWKESBURY"
+  ],
   "marketSnapshot": {
     "medianPrice": 315000,
-    "transactionCount12m": 1262,
-    "yoyPriceChange": -3.9,
+    "transactionCount12m": 1242,
+    "yoyPriceChange": -3.7,
     "approvedApps12m": 0,
-    "pipelineUnits": 539,
-    "pipelineGdv": 170125000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 813,
+    "pipelineGdv": 256442500,
     "approvalRate": 0
   }
 }

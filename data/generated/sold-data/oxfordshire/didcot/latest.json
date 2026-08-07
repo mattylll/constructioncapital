@@ -1,23 +1,107 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.490Z",
+  "updatedAt": "2026-08-07T08:45:01.602Z",
   "townSlug": "didcot",
   "countySlug": "oxfordshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTH OXFORDSHIRE"
+  ],
   "stats": {
-    "medianPrice": 362500,
+    "medianPrice": 361250,
     "medianByType": {
-      "D": 478725,
-      "S": 375000,
+      "D": 486000,
+      "S": 374000,
       "T": 300000,
-      "F": 201500
+      "F": 205000
     },
-    "transactionCount12m": 419,
-    "yoyChange": 0.7,
+    "transactionCount12m": 402,
+    "yoyChange": 0.3,
     "newBuildCount": 22,
-    "existingCount": 397,
-    "newBuildPremium": 36.4
+    "existingCount": 380,
+    "newBuildPremium": 35
   },
   "recentTransactions": [
+    {
+      "price": 460000,
+      "date": "2026-06-05",
+      "postcode": "OX11 9LZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, LAKE ROAD"
+    },
+    {
+      "price": 715000,
+      "date": "2026-06-01",
+      "postcode": "OX11 9GF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, WIDDOWSON CLOSE"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-01",
+      "postcode": "OX11 7XP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, DAGDALE DRIVE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-05-29",
+      "postcode": "OX11 8TP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, SANDRINGHAM ROAD"
+    },
+    {
+      "price": 417000,
+      "date": "2026-05-29",
+      "postcode": "OX11 7XN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, RAWTHEY AVENUE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-05-29",
+      "postcode": "OX11 0AA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 8, BERTRAM HOUSE, 2D, PARK CLOSE"
+    },
+    {
+      "price": 106000,
+      "date": "2026-05-26",
+      "postcode": "OX11 6HT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "73, FALCON DRIVE"
+    },
+    {
+      "price": 217500,
+      "date": "2026-05-26",
+      "postcode": "OX11 7BU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "27, CHURCHILL ROAD"
+    },
+    {
+      "price": 345000,
+      "date": "2026-05-26",
+      "postcode": "OX11 6AB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, PARTRIDGE CLOSE"
+    },
     {
       "price": 417500,
       "date": "2026-05-26",
@@ -26,6 +110,33 @@
       "newBuild": false,
       "tenure": "F",
       "address": "39, OXFORD CRESCENT"
+    },
+    {
+      "price": 415000,
+      "date": "2026-05-22",
+      "postcode": "OX11 6AD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, DUNNOCK END"
+    },
+    {
+      "price": 655000,
+      "date": "2026-05-22",
+      "postcode": "OX11 9DL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, THE CROFT"
+    },
+    {
+      "price": 537751,
+      "date": "2026-05-22",
+      "postcode": "OX11 7US",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, CROOKDALE BECK"
     },
     {
       "price": 382500,
@@ -64,6 +175,15 @@
       "address": "38, WANTAGE ROAD"
     },
     {
+      "price": 575000,
+      "date": "2026-05-14",
+      "postcode": "OX11 9DZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, RUGGE FURLONG"
+    },
+    {
       "price": 475000,
       "date": "2026-05-12",
       "postcode": "OX11 9BT",
@@ -73,130 +193,13 @@
       "address": "THE THATCHED COTTAGE, ABINGDON ROAD"
     },
     {
-      "price": 370000,
-      "date": "2026-05-08",
-      "postcode": "OX11 7YG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, BRUNSTOCK BECK"
-    },
-    {
-      "price": 314000,
-      "date": "2026-05-07",
-      "postcode": "OX11 7FE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, OUSE CLOSE"
-    },
-    {
-      "price": 575000,
-      "date": "2026-05-07",
-      "postcode": "OX11 7JQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, BLENHEIM CLOSE"
-    },
-    {
-      "price": 380000,
-      "date": "2026-05-07",
-      "postcode": "OX11 6FH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, DIAMOND DRIVE"
-    },
-    {
-      "price": 303000,
-      "date": "2026-05-07",
-      "postcode": "OX11 9RJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, BALLIOL DRIVE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-07",
-      "postcode": "OX11 7YE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, FINHAM BROOK"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-06",
-      "postcode": "OX11 7AZ",
+      "price": 142000,
+      "date": "2026-05-11",
+      "postcode": "OX11 8DA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "7, PRIOR COURT"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-06",
-      "postcode": "OX11 6ER",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, WOODPECKER WAY"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-05",
-      "postcode": "OX11 7YG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54, BRUNSTOCK BECK"
-    },
-    {
-      "price": 362500,
-      "date": "2026-05-01",
-      "postcode": "OX11 8TT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, WINDSOR CLOSE"
-    },
-    {
-      "price": 365000,
-      "date": "2026-05-01",
-      "postcode": "OX11 7DB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, FREEMAN ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-04-30",
-      "postcode": "OX11 6BY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, WHITEBEAM COURT"
-    },
-    {
-      "price": 239500,
-      "date": "2026-04-29",
-      "postcode": "OX11 8UP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, WORCESTER DRIVE"
-    },
-    {
-      "price": 427500,
-      "date": "2026-04-28",
-      "postcode": "OX11 6HZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, LINNET GROVE"
+      "address": "42, FLEET WAY"
     }
   ],
   "monthlyHistory": [
@@ -247,13 +250,13 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 364750,
-      "transactions": 64
+      "medianPrice": 375000,
+      "transactions": 65
     },
     {
       "month": "2024-11",
-      "medianPrice": 355000,
-      "transactions": 63
+      "medianPrice": 360000,
+      "transactions": 64
     },
     {
       "month": "2024-12",
@@ -283,7 +286,7 @@
     {
       "month": "2025-05",
       "medianPrice": 350000,
-      "transactions": 44
+      "transactions": 45
     },
     {
       "month": "2025-06",
@@ -292,33 +295,33 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 351000,
-      "transactions": 40
+      "medianPrice": 352000,
+      "transactions": 41
     },
     {
       "month": "2025-08",
-      "medianPrice": 355000,
-      "transactions": 65
+      "medianPrice": 360000,
+      "transactions": 66
     },
     {
       "month": "2025-09",
-      "medianPrice": 385000,
-      "transactions": 43
+      "medianPrice": 380000,
+      "transactions": 45
     },
     {
       "month": "2025-10",
-      "medianPrice": 375000,
-      "transactions": 52
+      "medianPrice": 373000,
+      "transactions": 55
     },
     {
       "month": "2025-11",
-      "medianPrice": 335000,
-      "transactions": 39
+      "medianPrice": 332500,
+      "transactions": 40
     },
     {
       "month": "2025-12",
-      "medianPrice": 381250,
-      "transactions": 34
+      "medianPrice": 377500,
+      "transactions": 33
     },
     {
       "month": "2026-01",
@@ -337,13 +340,18 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 320000,
-      "transactions": 25
+      "medianPrice": 325000,
+      "transactions": 28
     },
     {
       "month": "2026-05",
-      "medianPrice": 362500,
-      "transactions": 17
+      "medianPrice": 360000,
+      "transactions": 31
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 460000,
+      "transactions": 3
     }
   ],
   "quarterlyHistory": [
@@ -364,8 +372,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 342500,
-      "transactions": 200
+      "medianPrice": 348250,
+      "transactions": 202
     },
     {
       "quarter": "2025-Q1",
@@ -374,18 +382,18 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 355000,
-      "transactions": 127
+      "medianPrice": 352500,
+      "transactions": 128
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 365000,
-      "transactions": 148
+      "transactions": 152
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 370000,
-      "transactions": 125
+      "medianPrice": 362500,
+      "transactions": 128
     },
     {
       "quarter": "2026-Q1",
@@ -394,8 +402,8 @@
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 337500,
-      "transactions": 42
+      "medianPrice": 347500,
+      "transactions": 62
     }
   ]
 }

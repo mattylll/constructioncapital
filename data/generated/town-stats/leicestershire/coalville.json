@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.258Z",
+  "updatedAt": "2026-08-07T08:45:02.643Z",
   "townSlug": "coalville",
   "countySlug": "leicestershire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTH WEST LEICESTERSHIRE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 255000,
-    "transactionCount12m": 1379,
-    "yoyPriceChange": -3.8,
+    "medianPrice": 252000,
+    "transactionCount12m": 1352,
+    "yoyPriceChange": -5.6,
     "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 91,
+    "pipelineGdv": 24357000,
     "approvalRate": 0
   }
 }

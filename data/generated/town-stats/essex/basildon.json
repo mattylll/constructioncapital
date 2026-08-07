@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.268Z",
+  "updatedAt": "2026-08-07T08:45:01.694Z",
   "townSlug": "basildon",
   "countySlug": "essex",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BASILDON"
+  ],
   "marketSnapshot": {
     "medianPrice": 355000,
-    "transactionCount12m": 2017,
-    "yoyPriceChange": 1.4,
+    "transactionCount12m": 1959,
+    "yoyPriceChange": 0,
     "approvedApps12m": 0,
-    "pipelineUnits": 116,
-    "pipelineGdv": 41180000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 356,
+    "pipelineGdv": 126380000,
     "approvalRate": 0
   }
 }

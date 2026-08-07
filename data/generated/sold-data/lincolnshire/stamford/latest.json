@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.557Z",
+  "updatedAt": "2026-08-07T08:45:02.743Z",
   "townSlug": "stamford",
   "countySlug": "lincolnshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTH KESTEVEN"
+  ],
   "stats": {
-    "medianPrice": 302500,
+    "medianPrice": 307500,
     "medianByType": {
-      "D": 449000,
+      "D": 450000,
       "S": 290000,
-      "T": 274500,
-      "F": 166000
+      "T": 274000,
+      "F": 174500
     },
-    "transactionCount12m": 291,
-    "yoyChange": -4.9,
-    "newBuildCount": 1,
-    "existingCount": 290,
+    "transactionCount12m": 274,
+    "yoyChange": -0.8,
+    "newBuildCount": 0,
+    "existingCount": 274,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 387000,
-      "date": "2026-05-14",
-      "postcode": "PE9 1FF",
+      "price": 360000,
+      "date": "2026-06-25",
+      "postcode": "PE9 4BU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "85, BANKS CRESCENT"
-    },
-    {
-      "price": 84000,
-      "date": "2026-05-08",
-      "postcode": "PE9 2DD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "10, CLAPTON CLOSE"
-    },
-    {
-      "price": 370000,
-      "date": "2026-05-07",
-      "postcode": "PE9 3DB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, BARROWFIELD DRIVE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-01",
-      "postcode": "PE9 2WN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CLOVER GARDENS"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-01",
-      "postcode": "PE9 1UX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, DRIFT GARDENS"
-    },
-    {
-      "price": 230000,
-      "date": "2026-04-30",
-      "postcode": "PE9 1DT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, TURNPOLE CLOSE"
-    },
-    {
-      "price": 3200000,
-      "date": "2026-04-29",
-      "postcode": "PE9 4SN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UFFINGTON MANOR, MAIN ROAD"
-    },
-    {
-      "price": 167000,
-      "date": "2026-04-29",
-      "postcode": "PE9 1HJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, WINDSOR CLOSE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-04-28",
-      "postcode": "PE9 3ER",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, VANDERBANK TERRACE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-04-28",
-      "postcode": "PE9 2TU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, FALKIRK CLOSE"
-    },
-    {
-      "price": 395000,
-      "date": "2026-04-27",
-      "postcode": "PE9 2XS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, ARRAN ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-04-24",
-      "postcode": "PE9 1BB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "STONE COTTAGE, LITTLE CASTERTON ROAD"
-    },
-    {
-      "price": 415000,
-      "date": "2026-04-24",
-      "postcode": "PE9 4NQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, TEMPLEMAN DRIVE"
+      "address": "41, PRIMROSE WAY"
     },
     {
       "price": 315000,
-      "date": "2026-04-23",
-      "postcode": "PE9 2XS",
+      "date": "2026-06-19",
+      "postcode": "PE9 2EW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "67, ARRAN ROAD"
+      "address": "42, TORKINGTON GARDENS"
     },
     {
-      "price": 685000,
-      "date": "2026-04-17",
-      "postcode": "PE9 2DS",
+      "price": 135000,
+      "date": "2026-06-18",
+      "postcode": "PE9 1HR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, CHARLES ROAD"
+    },
+    {
+      "price": 183000,
+      "date": "2026-06-17",
+      "postcode": "PE9 2EW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, TORKINGTON GARDENS"
+    },
+    {
+      "price": 575000,
+      "date": "2026-06-17",
+      "postcode": "PE9 2JJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, CEDAR ROAD"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-15",
+      "postcode": "PE9 1HJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "40A, ST MARYS STREET"
+      "address": "8, WINDSOR CLOSE"
     },
     {
-      "price": 318000,
-      "date": "2026-04-17",
-      "postcode": "PE9 1HS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, CHRIST CHURCH CLOSE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-04-17",
-      "postcode": "PE9 1HS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, CHRIST CHURCH CLOSE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-04-15",
-      "postcode": "PE9 2QF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, QUEENS WALK"
-    },
-    {
-      "price": 297000,
-      "date": "2026-04-13",
-      "postcode": "PE9 4BU",
+      "price": 303000,
+      "date": "2026-06-11",
+      "postcode": "PE9 2UE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, PRIMROSE WAY"
+      "address": "93, CASTERTON ROAD"
     },
     {
-      "price": 390000,
-      "date": "2026-04-10",
-      "postcode": "PE9 2LW",
-      "propertyType": "F",
+      "price": 670000,
+      "date": "2026-06-09",
+      "postcode": "PE9 2JG",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, WELLAND MEWS"
+      "address": "10, OAK ROAD"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-09",
+      "postcode": "PE9 1FJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "78, BANKS CRESCENT"
+    },
+    {
+      "price": 341000,
+      "date": "2026-06-05",
+      "postcode": "PE9 2XH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, HIGHLANDS WAY"
+    },
+    {
+      "price": 224000,
+      "date": "2026-06-04",
+      "postcode": "PE9 1DH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, GAINSBOROUGH ROAD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-03",
+      "postcode": "PE9 4LX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17A, HIGH STREET"
+    },
+    {
+      "price": 625000,
+      "date": "2026-06-01",
+      "postcode": "PE9 2PY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, FOUNDRY ROAD"
+    },
+    {
+      "price": 520000,
+      "date": "2026-05-29",
+      "postcode": "PE9 2ZB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, GRESLEY DRIVE"
+    },
+    {
+      "price": 405000,
+      "date": "2026-05-28",
+      "postcode": "PE9 2YQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31B, SCOTGATE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-05-27",
+      "postcode": "PE9 1UF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, RYHALL ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-05-27",
+      "postcode": "PE9 2QE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "68, QUEENS WALK"
+    },
+    {
+      "price": 338000,
+      "date": "2026-05-26",
+      "postcode": "PE9 1SP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, WILLOUGHBY ROAD"
+    },
+    {
+      "price": 272500,
+      "date": "2026-05-26",
+      "postcode": "PE9 1UJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "89, RYHALL ROAD"
+    },
+    {
+      "price": 281000,
+      "date": "2026-05-22",
+      "postcode": "PE9 1QY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, SOUTH VIEW TERRACE"
     }
   ],
   "monthlyHistory": [
@@ -263,7 +266,7 @@
     {
       "month": "2025-01",
       "medianPrice": 267000,
-      "transactions": 27
+      "transactions": 29
     },
     {
       "month": "2025-02",
@@ -292,8 +295,8 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 300000,
-      "transactions": 48
+      "medianPrice": 297500,
+      "transactions": 50
     },
     {
       "month": "2025-08",
@@ -302,8 +305,8 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 274625,
-      "transactions": 30
+      "medianPrice": 274000,
+      "transactions": 31
     },
     {
       "month": "2025-10",
@@ -317,8 +320,8 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 280000,
-      "transactions": 25
+      "medianPrice": 282500,
+      "transactions": 28
     },
     {
       "month": "2026-01",
@@ -338,12 +341,17 @@
     {
       "month": "2026-04",
       "medianPrice": 321500,
-      "transactions": 20
+      "transactions": 22
     },
     {
       "month": "2026-05",
+      "medianPrice": 345000,
+      "transactions": 19
+    },
+    {
+      "month": "2026-06",
       "medianPrice": 325000,
-      "transactions": 5
+      "transactions": 13
     }
   ],
   "quarterlyHistory": [
@@ -370,7 +378,7 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 308000,
-      "transactions": 144
+      "transactions": 146
     },
     {
       "quarter": "2025-Q2",
@@ -379,13 +387,13 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 299000,
-      "transactions": 118
+      "medianPrice": 295000,
+      "transactions": 121
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 305000,
-      "transactions": 98
+      "transactions": 101
     },
     {
       "quarter": "2026-Q1",
@@ -394,8 +402,8 @@
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 325000,
-      "transactions": 25
+      "medianPrice": 330000,
+      "transactions": 54
     }
   ]
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.777Z",
+  "updatedAt": "2026-08-07T08:45:02.977Z",
   "townSlug": "accrington",
   "countySlug": "lancashire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HYNDBURN"
+  ],
   "stats": {
-    "medianPrice": 128000,
+    "medianPrice": 130000,
     "medianByType": {
-      "D": 268000,
+      "D": 270000,
       "S": 185000,
       "T": 105000,
-      "F": 88000
+      "F": 90000
     },
-    "transactionCount12m": 1028,
-    "yoyChange": 0.4,
-    "newBuildCount": 1,
-    "existingCount": 1027,
+    "transactionCount12m": 1021,
+    "yoyChange": 1.2,
+    "newBuildCount": 2,
+    "existingCount": 1019,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 39995,
-      "date": "2026-05-22",
-      "postcode": "BB5 0EF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, FOXHILL BANK BROW"
-    },
-    {
-      "price": 39995,
-      "date": "2026-05-22",
-      "postcode": "BB5 0EF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, FOXHILL BANK BROW"
-    },
-    {
-      "price": 80000,
-      "date": "2026-05-22",
-      "postcode": "BB5 0EF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, FOXHILL BANK BROW"
-    },
-    {
-      "price": 92000,
-      "date": "2026-05-22",
-      "postcode": "BB5 0FG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, THE GROVE"
-    },
-    {
-      "price": 159950,
-      "date": "2026-05-22",
-      "postcode": "BB5 2QF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "421, MANCHESTER ROAD"
-    },
-    {
-      "price": 140000,
-      "date": "2026-05-21",
-      "postcode": "BB5 6BN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "27, LIME ROAD"
-    },
-    {
-      "price": 130000,
-      "date": "2026-05-21",
-      "postcode": "BB6 7RU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "23, ARTHUR STREET"
-    },
-    {
-      "price": 163000,
-      "date": "2026-05-20",
-      "postcode": "BB1 3NQ",
+      "price": 160000,
+      "date": "2026-06-22",
+      "postcode": "BB5 0BA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "84, LYNDHURST AVENUE"
+      "address": "50, LOWER ANTLEY STREET"
     },
     {
-      "price": 186000,
-      "date": "2026-05-19",
-      "postcode": "BB5 0BT",
-      "propertyType": "T",
+      "price": 220000,
+      "date": "2026-06-19",
+      "postcode": "BB5 2PG",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "F",
-      "address": "16, NEWARK STREET"
+      "tenure": "L",
+      "address": "37, OAKWOOD ROAD"
     },
     {
-      "price": 93000,
-      "date": "2026-05-15",
+      "price": 160000,
+      "date": "2026-06-18",
       "postcode": "BB1 2DT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, HARDMAN CLOSE"
+      "address": "20, HARDMAN CLOSE"
     },
     {
-      "price": 63000,
-      "date": "2026-05-15",
-      "postcode": "BB5 6AT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, HAYWOOD ROAD"
-    },
-    {
-      "price": 132500,
-      "date": "2026-05-15",
-      "postcode": "BB5 5AU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "16, MATHER AVENUE"
-    },
-    {
-      "price": 65000,
-      "date": "2026-05-15",
-      "postcode": "BB6 7ET",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "29, SCHOOL STREET"
-    },
-    {
-      "price": 115000,
-      "date": "2026-05-15",
-      "postcode": "BB6 7EA",
+      "price": 194000,
+      "date": "2026-06-12",
+      "postcode": "BB5 2QF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, WAVERLEDGE STREET"
+      "address": "423, MANCHESTER ROAD"
     },
     {
-      "price": 110000,
-      "date": "2026-05-15",
-      "postcode": "BB5 6NQ",
+      "price": 150000,
+      "date": "2026-06-12",
+      "postcode": "BB5 3AG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, HORNBY STREET"
+    },
+    {
+      "price": 165000,
+      "date": "2026-06-12",
+      "postcode": "BB5 1BS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "7, PROSPECT TERRACE"
+      "address": "150, WHALLEY ROAD"
     },
     {
-      "price": 80000,
-      "date": "2026-05-14",
-      "postcode": "BB5 6NQ",
+      "price": 96000,
+      "date": "2026-06-12",
+      "postcode": "BB5 4JT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "65, CHURCH STREET"
+    },
+    {
+      "price": 189950,
+      "date": "2026-06-12",
+      "postcode": "BB5 2TU",
       "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "2, PROSPECT TERRACE"
+      "tenure": "F",
+      "address": "168, SOUTHWOOD DRIVE"
     },
     {
-      "price": 46400,
-      "date": "2026-05-13",
-      "postcode": "BB5 2LR",
-      "propertyType": "O",
+      "price": 151000,
+      "date": "2026-06-12",
+      "postcode": "BB6 7RR",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "F",
-      "address": "2, ROUGH LEE ROAD"
+      "tenure": "L",
+      "address": "86, WINDSOR ROAD"
+    },
+    {
+      "price": 70000,
+      "date": "2026-06-10",
+      "postcode": "BB6 7DZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "113, BLACKBURN ROAD"
     },
     {
       "price": 75000,
-      "date": "2026-05-13",
-      "postcode": "BB5 2HP",
+      "date": "2026-06-10",
+      "postcode": "BB5 0LE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "54, SOUTH STREET"
+      "address": "30, EXCHANGE STREET"
     },
     {
-      "price": 220000,
-      "date": "2026-05-12",
-      "postcode": "BB5 3AA",
+      "price": 155000,
+      "date": "2026-06-10",
+      "postcode": "BB6 7RZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "13, POPLAR AVENUE"
+    },
+    {
+      "price": 77500,
+      "date": "2026-06-08",
+      "postcode": "BB6 7RY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "44, MAPLE STREET"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-05",
+      "postcode": "BB5 2PD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "4, MAYFIELD AVENUE"
+      "address": "172, MANCHESTER ROAD"
     },
     {
-      "price": 171000,
-      "date": "2026-05-11",
-      "postcode": "BB5 6BG",
+      "price": 105500,
+      "date": "2026-06-05",
+      "postcode": "BB6 7BS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "16, CHELTENHAM AVENUE"
+      "address": "35, ST CECILIA STREET"
+    },
+    {
+      "price": 90000,
+      "date": "2026-06-05",
+      "postcode": "BB5 6RS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "20, PARK STREET"
+    },
+    {
+      "price": 100500,
+      "date": "2026-06-05",
+      "postcode": "BB5 4DZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "50, ELMFIELD STREET"
+    },
+    {
+      "price": 147000,
+      "date": "2026-06-05",
+      "postcode": "BB5 6RT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "107, PLANTATION STREET"
+    },
+    {
+      "price": 157500,
+      "date": "2026-06-04",
+      "postcode": "BB5 3PZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, STANLEY STREET"
+    },
+    {
+      "price": 100000,
+      "date": "2026-06-03",
+      "postcode": "BB5 6SQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, CEDAR STREET"
     }
   ],
   "monthlyHistory": [
@@ -207,8 +210,8 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 114250,
-      "transactions": 104
+      "medianPrice": 115000,
+      "transactions": 105
     },
     {
       "month": "2024-03",
@@ -248,7 +251,7 @@
     {
       "month": "2024-10",
       "medianPrice": 130000,
-      "transactions": 153
+      "transactions": 154
     },
     {
       "month": "2024-11",
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 151000,
-      "transactions": 169
+      "medianPrice": 152000,
+      "transactions": 171
     },
     {
       "month": "2025-04",
@@ -293,64 +296,69 @@
     {
       "month": "2025-07",
       "medianPrice": 127000,
-      "transactions": 138
+      "transactions": 142
     },
     {
       "month": "2025-08",
-      "medianPrice": 128500,
-      "transactions": 108
+      "medianPrice": 127000,
+      "transactions": 113
     },
     {
       "month": "2025-09",
-      "medianPrice": 123500,
-      "transactions": 100
+      "medianPrice": 121000,
+      "transactions": 104
     },
     {
       "month": "2025-10",
-      "medianPrice": 122000,
-      "transactions": 133
+      "medianPrice": 123000,
+      "transactions": 135
     },
     {
       "month": "2025-11",
-      "medianPrice": 132500,
-      "transactions": 114
-    },
-    {
-      "month": "2025-12",
-      "medianPrice": 152050,
+      "medianPrice": 133754,
       "transactions": 118
     },
     {
+      "month": "2025-12",
+      "medianPrice": 153599,
+      "transactions": 129
+    },
+    {
       "month": "2026-01",
-      "medianPrice": 108000,
-      "transactions": 57
+      "medianPrice": 113000,
+      "transactions": 67
     },
     {
       "month": "2026-02",
       "medianPrice": 145000,
-      "transactions": 86
+      "transactions": 88
     },
     {
       "month": "2026-03",
-      "medianPrice": 128000,
-      "transactions": 90
+      "medianPrice": 130000,
+      "transactions": 98
     },
     {
       "month": "2026-04",
-      "medianPrice": 129000,
-      "transactions": 73
+      "medianPrice": 130000,
+      "transactions": 81
     },
     {
       "month": "2026-05",
-      "medianPrice": 112500,
-      "transactions": 37
+      "medianPrice": 130000,
+      "transactions": 85
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 150000,
+      "transactions": 21
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 120000,
-      "transactions": 294
+      "transactions": 295
     },
     {
       "quarter": "2024-Q2",
@@ -364,13 +372,13 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 129975,
-      "transactions": 416
+      "medianPrice": 130000,
+      "transactions": 417
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 135500,
-      "transactions": 385
+      "medianPrice": 136000,
+      "transactions": 387
     },
     {
       "quarter": "2025-Q2",
@@ -380,22 +388,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 125000,
-      "transactions": 346
+      "transactions": 359
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 135000,
-      "transactions": 365
+      "medianPrice": 137250,
+      "transactions": 382
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 127500,
-      "transactions": 233
+      "medianPrice": 128000,
+      "transactions": 253
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 125000,
-      "transactions": 110
+      "medianPrice": 130000,
+      "transactions": 187
     }
   ]
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.632Z",
+  "updatedAt": "2026-08-07T08:45:01.758Z",
   "townSlug": "clacton-on-sea",
   "countySlug": "essex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "TENDRING"
+  ],
   "stats": {
     "medianPrice": 265000,
     "medianByType": {
-      "D": 350000,
+      "D": 345000,
       "S": 255000,
       "T": 205000,
-      "F": 142000
+      "F": 141500
     },
-    "transactionCount12m": 1987,
+    "transactionCount12m": 2016,
     "yoyChange": -5.4,
-    "newBuildCount": 57,
-    "existingCount": 1930,
+    "newBuildCount": 56,
+    "existingCount": 1960,
     "newBuildPremium": 48.9
   },
   "recentTransactions": [
     {
-      "price": 365000,
-      "date": "2026-05-22",
-      "postcode": "CO15 5LZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "71B, DULWICH ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-22",
-      "postcode": "CO16 7EU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, CAMELLIA CRESCENT"
-    },
-    {
       "price": 235000,
-      "date": "2026-05-21",
-      "postcode": "CO12 4UE",
+      "date": "2026-06-24",
+      "postcode": "CO14 8PD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, HOWARD AVENUE"
+      "address": "19, ALFRED TERRACE"
     },
     {
-      "price": 340000,
-      "date": "2026-05-18",
-      "postcode": "CO7 8EL",
+      "price": 330000,
+      "date": "2026-06-24",
+      "postcode": "CO16 8JL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "268, POINT CLEAR ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-22",
+      "postcode": "CO16 8JA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, BRAMLEY CLOSE"
+      "address": "108B, POINT CLEAR ROAD"
     },
     {
-      "price": 365000,
-      "date": "2026-05-18",
-      "postcode": "CO15 4RN",
+      "price": 460000,
+      "date": "2026-06-22",
+      "postcode": "CO15 1BU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, GORSE LANE"
+      "address": "20, VICARAGE GARDENS"
     },
     {
-      "price": 395000,
-      "date": "2026-05-18",
-      "postcode": "CO14 8SG",
+      "price": 380000,
+      "date": "2026-06-19",
+      "postcode": "CO15 2PE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, HUBBARDS CHASE"
+      "address": "62, TUDOR GREEN"
     },
     {
-      "price": 475000,
-      "date": "2026-05-18",
-      "postcode": "CO13 0PS",
+      "price": 225000,
+      "date": "2026-06-19",
+      "postcode": "CO15 4RE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, ROSECROFT CLOSE"
+    },
+    {
+      "price": 147500,
+      "date": "2026-06-19",
+      "postcode": "CO15 1NQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "127, SELSEY AVENUE"
+    },
+    {
+      "price": 330000,
+      "date": "2026-06-19",
+      "postcode": "CO15 6QS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "32, WILLOW AVENUE"
+      "address": "28, ABBIGAIL GARDENS"
     },
     {
-      "price": 160000,
-      "date": "2026-05-18",
-      "postcode": "CO12 4DA",
+      "price": 210000,
+      "date": "2026-06-19",
+      "postcode": "CO15 3DN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, BIRCH AVENUE"
+      "address": "26, DUDLEY ROAD"
     },
     {
-      "price": 550000,
-      "date": "2026-05-18",
-      "postcode": "CO11 2BH",
+      "price": 257000,
+      "date": "2026-06-19",
+      "postcode": "CO15 2AW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "128, COLCHESTER ROAD"
+      "address": "62, JAMESON ROAD"
     },
     {
-      "price": 278000,
-      "date": "2026-05-15",
-      "postcode": "CO15 1AT",
+      "price": 325000,
+      "date": "2026-06-19",
+      "postcode": "CO7 7LD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, KHARTOUM VILLAS"
+    },
+    {
+      "price": 216000,
+      "date": "2026-06-19",
+      "postcode": "CO13 0UQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, CROWN ROAD"
+      "address": "8, LARK WAY"
     },
     {
-      "price": 90000,
-      "date": "2026-05-15",
+      "price": 117500,
+      "date": "2026-06-19",
       "postcode": "CO15 1LA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 53, WESTCLIFF COURT, EDITH ROAD"
+      "address": "FLAT 14, WESTCLIFF COURT, EDITH ROAD"
     },
     {
-      "price": 234000,
-      "date": "2026-05-15",
-      "postcode": "CO12 4FF",
+      "price": 250000,
+      "date": "2026-06-19",
+      "postcode": "CO15 4RU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "65, WILLIAMSBURG AVENUE"
+      "address": "80, WOODLANDS CLOSE"
     },
     {
-      "price": 173000,
-      "date": "2026-05-15",
-      "postcode": "CO12 3BD",
+      "price": 345000,
+      "date": "2026-06-19",
+      "postcode": "CO12 3RX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, FRONKS AVENUE"
+    },
+    {
+      "price": 268000,
+      "date": "2026-06-19",
+      "postcode": "CO15 6PB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, HILLSIDE CRESCENT"
+    },
+    {
+      "price": 227000,
+      "date": "2026-06-18",
+      "postcode": "CO7 0DU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, GRAFTON ROAD"
+      "address": "50, COLNE ROAD"
     },
     {
-      "price": 725000,
-      "date": "2026-05-15",
-      "postcode": "CO13 9AU",
-      "propertyType": "D",
+      "price": 115000,
+      "date": "2026-06-18",
+      "postcode": "CO15 3HT",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, THE ESPLANADE"
-    },
-    {
-      "price": 327000,
-      "date": "2026-05-15",
-      "postcode": "CO16 9EB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, SPRINGFIELD MEADOWS"
-    },
-    {
-      "price": 365000,
-      "date": "2026-05-15",
-      "postcode": "CO12 4WL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, CHAFFINCH DRIVE"
-    },
-    {
-      "price": 445000,
-      "date": "2026-05-14",
-      "postcode": "CO15 1BA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, KINGS ROAD"
-    },
-    {
-      "price": 362500,
-      "date": "2026-05-14",
-      "postcode": "CO15 5PP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, PRIMROSE ROAD"
-    },
-    {
-      "price": 535000,
-      "date": "2026-05-14",
-      "postcode": "CO11 2QA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GRAESTON, ARDLEIGH ROAD"
+      "address": "71, COPPINS ROAD"
     },
     {
       "price": 260000,
-      "date": "2026-05-14",
-      "postcode": "CO15 4JJ",
+      "date": "2026-06-18",
+      "postcode": "CO15 4RP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, TERNDALE"
+      "address": "123, GORSE LANE"
+    },
+    {
+      "price": 465000,
+      "date": "2026-06-18",
+      "postcode": "CO13 0FN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, ALDRICH CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -262,8 +265,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 280000,
-      "transactions": 235
+      "medianPrice": 282500,
+      "transactions": 236
     },
     {
       "month": "2025-02",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 290000,
-      "transactions": 543
+      "transactions": 544
     },
     {
       "month": "2025-04",
@@ -283,67 +286,72 @@
     {
       "month": "2025-05",
       "medianPrice": 275000,
-      "transactions": 203
+      "transactions": 206
     },
     {
       "month": "2025-06",
-      "medianPrice": 289995,
-      "transactions": 269
+      "medianPrice": 289998,
+      "transactions": 270
     },
     {
       "month": "2025-07",
-      "medianPrice": 277500,
-      "transactions": 248
+      "medianPrice": 285000,
+      "transactions": 259
     },
     {
       "month": "2025-08",
-      "medianPrice": 275000,
-      "transactions": 241
+      "medianPrice": 280000,
+      "transactions": 269
     },
     {
       "month": "2025-09",
-      "medianPrice": 272500,
-      "transactions": 210
+      "medianPrice": 279500,
+      "transactions": 232
     },
     {
       "month": "2025-10",
-      "medianPrice": 260000,
-      "transactions": 244
+      "medianPrice": 258750,
+      "transactions": 256
     },
     {
       "month": "2025-11",
-      "medianPrice": 277000,
-      "transactions": 215
+      "medianPrice": 278500,
+      "transactions": 218
     },
     {
       "month": "2025-12",
-      "medianPrice": 260000,
-      "transactions": 205
+      "medianPrice": 270000,
+      "transactions": 233
     },
     {
       "month": "2026-01",
       "medianPrice": 265000,
-      "transactions": 152
+      "transactions": 161
     },
     {
       "month": "2026-02",
-      "medianPrice": 267500,
-      "transactions": 153
+      "medianPrice": 265000,
+      "transactions": 161
     },
     {
       "month": "2026-03",
-      "medianPrice": 250000,
-      "transactions": 163
+      "medianPrice": 251000,
+      "transactions": 168
     },
     {
       "month": "2026-04",
-      "medianPrice": 255000,
-      "transactions": 132
+      "medianPrice": 253750,
+      "transactions": 150
     },
     {
       "month": "2026-05",
-      "medianPrice": 280000,
-      "transactions": 67
+      "medianPrice": 265000,
+      "transactions": 160
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 260000,
+      "transactions": 63
     }
   ],
   "quarterlyHistory": [
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 287750,
-      "transactions": 1050
+      "medianPrice": 288975,
+      "transactions": 1052
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 268000,
-      "transactions": 623
+      "transactions": 627
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 275000,
-      "transactions": 699
+      "medianPrice": 280000,
+      "transactions": 760
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 265000,
-      "transactions": 664
+      "medianPrice": 270000,
+      "transactions": 707
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 260000,
-      "transactions": 468
+      "transactions": 490
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 258000,
-      "transactions": 199
+      "medianPrice": 260000,
+      "transactions": 373
     }
   ]
 }

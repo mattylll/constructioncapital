@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.647Z",
+  "updatedAt": "2026-08-07T08:45:03.023Z",
   "townSlug": "southport",
   "countySlug": "merseyside",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SEFTON"
+  ],
   "marketSnapshot": {
     "medianPrice": 215000,
-    "transactionCount12m": 1146,
-    "yoyPriceChange": 2.4,
+    "transactionCount12m": 1147,
+    "yoyPriceChange": 1.9,
     "approvedApps12m": 0,
-    "pipelineUnits": 99,
-    "pipelineGdv": 20520000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 16,
+    "pipelineGdv": 2675000,
     "approvalRate": 0
   }
 }

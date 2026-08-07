@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.333Z",
+  "updatedAt": "2026-08-07T08:45:02.724Z",
   "townSlug": "skegness",
   "countySlug": "lincolnshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EAST LINDSEY"
+  ],
   "marketSnapshot": {
-    "medianPrice": 208501,
-    "transactionCount12m": 1757,
-    "yoyPriceChange": -1.9,
+    "medianPrice": 208000,
+    "transactionCount12m": 1702,
+    "yoyPriceChange": -1,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

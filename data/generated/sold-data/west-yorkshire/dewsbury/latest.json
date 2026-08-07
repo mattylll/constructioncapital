@@ -1,23 +1,188 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.023Z",
+  "updatedAt": "2026-08-07T08:45:03.254Z",
   "townSlug": "dewsbury",
   "countySlug": "west-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "KIRKLEES"
+  ],
   "stats": {
-    "medianPrice": 171250,
+    "medianPrice": 170000,
     "medianByType": {
-      "D": 285000,
-      "S": 195000,
-      "T": 140000,
+      "D": 273500,
+      "S": 193500,
+      "T": 135000,
       "F": 82500
     },
-    "transactionCount12m": 460,
-    "yoyChange": -2.1,
+    "transactionCount12m": 440,
+    "yoyChange": -2.9,
     "newBuildCount": 3,
-    "existingCount": 457,
-    "newBuildPremium": 52.9
+    "existingCount": 437,
+    "newBuildPremium": 53
   },
   "recentTransactions": [
+    {
+      "price": 222000,
+      "date": "2026-06-26",
+      "postcode": "WF13 4DE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, HIGHFIELD CHASE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-06-19",
+      "postcode": "WF12 7FE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, CHIDSWELL LANE"
+    },
+    {
+      "price": 55000,
+      "date": "2026-06-19",
+      "postcode": "WF13 2EY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 138, JOSHUA HOUSE, TEXTILE STREET"
+    },
+    {
+      "price": 314000,
+      "date": "2026-06-12",
+      "postcode": "WF12 0JD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, SMITHY BROOK LANE"
+    },
+    {
+      "price": 148000,
+      "date": "2026-06-11",
+      "postcode": "WF13 3TH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, HERON CLOSE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-11",
+      "postcode": "WF13 4SF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MILLBROOK GARDENS"
+    },
+    {
+      "price": 104995,
+      "date": "2026-06-09",
+      "postcode": "WF12 8LB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, WALKER STREET"
+    },
+    {
+      "price": 153000,
+      "date": "2026-06-08",
+      "postcode": "WF12 0BD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "82, FOXROYD LANE"
+    },
+    {
+      "price": 94000,
+      "date": "2026-06-05",
+      "postcode": "WF13 3DD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "57, VICTORIA STREET"
+    },
+    {
+      "price": 153000,
+      "date": "2026-06-05",
+      "postcode": "WF12 0BY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, MOUNTAIN CRESCENT"
+    },
+    {
+      "price": 102500,
+      "date": "2026-06-05",
+      "postcode": "WF13 4NW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, NORTH VIEW, KNOWLES HILL ROAD"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-03",
+      "postcode": "WF13 3TG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12B, MAIZEBROOK"
+    },
+    {
+      "price": 267500,
+      "date": "2026-05-29",
+      "postcode": "WF12 0RQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4A, OVERTHORPE ROAD"
+    },
+    {
+      "price": 172000,
+      "date": "2026-05-29",
+      "postcode": "WF12 8HD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, PRINCESS LANE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-05-29",
+      "postcode": "WF12 0JP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, HENLEY AVENUE"
+    },
+    {
+      "price": 120000,
+      "date": "2026-05-29",
+      "postcode": "WF12 8HF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, SYKE INGS CLOSE"
+    },
+    {
+      "price": 458000,
+      "date": "2026-05-27",
+      "postcode": "WF12 0LT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "179, FOXROYD LANE"
+    },
+    {
+      "price": 135000,
+      "date": "2026-05-27",
+      "postcode": "WF12 8NU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, CEDAR DRIVE"
+    },
     {
       "price": 142000,
       "date": "2026-05-26",
@@ -28,175 +193,13 @@
       "address": "291, HUDDERSFIELD ROAD"
     },
     {
-      "price": 350000,
-      "date": "2026-05-15",
-      "postcode": "WF12 0JY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, VALLEY ROAD"
-    },
-    {
-      "price": 83000,
-      "date": "2026-05-15",
-      "postcode": "WF12 8HU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, SYKE INGS TERRACE"
-    },
-    {
-      "price": 188000,
-      "date": "2026-05-13",
-      "postcode": "WF13 3BB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "71, THE CRESCENT"
-    },
-    {
-      "price": 144000,
-      "date": "2026-05-12",
-      "postcode": "WF13 2QS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, HANOVER GARDENS"
-    },
-    {
-      "price": 155000,
-      "date": "2026-05-11",
-      "postcode": "WF12 9EX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "419, LEES HALL ROAD"
-    },
-    {
-      "price": 83500,
-      "date": "2026-05-08",
-      "postcode": "WF12 7HP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "687, LEEDS ROAD"
-    },
-    {
-      "price": 214000,
-      "date": "2026-05-08",
-      "postcode": "WF13 4AB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, LONGLANDS ROAD"
-    },
-    {
-      "price": 392500,
-      "date": "2026-05-08",
-      "postcode": "WF12 0JA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, NIXON CLOSE"
-    },
-    {
-      "price": 177500,
-      "date": "2026-05-01",
-      "postcode": "WF13 4BG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, KILPIN HILL LANE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-01",
-      "postcode": "WF12 8NF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, SHORT STREET"
-    },
-    {
-      "price": 178000,
-      "date": "2026-04-30",
-      "postcode": "WF12 8LY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, OSSETT LANE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-04-28",
-      "postcode": "WF12 7PP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, ULLSWATER ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-04-27",
-      "postcode": "WF13 4NX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, SCARR END VIEW"
-    },
-    {
       "price": 95000,
-      "date": "2026-04-27",
-      "postcode": "WF13 3HD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, GARDEN TERRACE"
-    },
-    {
-      "price": 120000,
-      "date": "2026-04-24",
-      "postcode": "WF13 3PH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "73, HECKMONDWIKE ROAD"
-    },
-    {
-      "price": 255000,
-      "date": "2026-04-24",
-      "postcode": "WF12 7AR",
+      "date": "2026-05-22",
+      "postcode": "WF12 0BA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, ALMSCLIFFE AVENUE"
-    },
-    {
-      "price": 270000,
-      "date": "2026-04-24",
-      "postcode": "WF12 8DN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, JILLING ING PARK"
-    },
-    {
-      "price": 316000,
-      "date": "2026-04-22",
-      "postcode": "WF12 0LR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, WHITLEY ROAD"
-    },
-    {
-      "price": 50000,
-      "date": "2026-04-21",
-      "postcode": "WF13 4AZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "65, HALIFAX ROAD"
+      "address": "4, ST ANNS CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -212,8 +215,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 169000,
-      "transactions": 70
+      "medianPrice": 168000,
+      "transactions": 71
     },
     {
       "month": "2024-04",
@@ -263,7 +266,7 @@
     {
       "month": "2025-01",
       "medianPrice": 155000,
-      "transactions": 61
+      "transactions": 62
     },
     {
       "month": "2025-02",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 190000,
-      "transactions": 89
+      "transactions": 91
     },
     {
       "month": "2025-04",
@@ -292,8 +295,8 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 169000,
-      "transactions": 66
+      "medianPrice": 171250,
+      "transactions": 68
     },
     {
       "month": "2025-08",
@@ -308,49 +311,54 @@
     {
       "month": "2025-10",
       "medianPrice": 170000,
-      "transactions": 56
+      "transactions": 57
     },
     {
       "month": "2025-11",
-      "medianPrice": 180000,
-      "transactions": 72
+      "medianPrice": 178000,
+      "transactions": 75
     },
     {
       "month": "2025-12",
-      "medianPrice": 160000,
-      "transactions": 35
+      "medianPrice": 155000,
+      "transactions": 42
     },
     {
       "month": "2026-01",
-      "medianPrice": 170000,
-      "transactions": 41
+      "medianPrice": 158475,
+      "transactions": 44
     },
     {
       "month": "2026-02",
       "medianPrice": 169750,
-      "transactions": 32
+      "transactions": 34
     },
     {
       "month": "2026-03",
       "medianPrice": 155000,
-      "transactions": 30
+      "transactions": 31
     },
     {
       "month": "2026-04",
-      "medianPrice": 189000,
-      "transactions": 28
+      "medianPrice": 180000,
+      "transactions": 33
     },
     {
       "month": "2026-05",
-      "medianPrice": 175000,
-      "transactions": 11
+      "medianPrice": 155000,
+      "transactions": 25
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 150500,
+      "transactions": 12
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 158500,
-      "transactions": 148
+      "medianPrice": 157000,
+      "transactions": 149
     },
     {
       "quarter": "2024-Q2",
@@ -369,8 +377,8 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 175000,
-      "transactions": 210
+      "medianPrice": 170000,
+      "transactions": 213
     },
     {
       "quarter": "2025-Q2",
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 172500,
-      "transactions": 167
+      "medianPrice": 173000,
+      "transactions": 169
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 174000,
-      "transactions": 163
+      "medianPrice": 170000,
+      "transactions": 174
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 162000,
-      "transactions": 103
+      "transactions": 109
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 180000,
-      "transactions": 39
+      "medianPrice": 167475,
+      "transactions": 70
     }
   ]
 }

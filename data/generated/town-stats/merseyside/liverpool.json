@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.625Z",
+  "updatedAt": "2026-08-07T08:45:03.001Z",
   "townSlug": "liverpool",
   "countySlug": "merseyside",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "LIVERPOOL"
+  ],
   "marketSnapshot": {
-    "medianPrice": 167000,
-    "transactionCount12m": 4607,
-    "yoyPriceChange": 5.7,
+    "medianPrice": 167500,
+    "transactionCount12m": 4570,
+    "yoyPriceChange": 4.7,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

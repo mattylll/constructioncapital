@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.918Z",
+  "updatedAt": "2026-08-07T08:45:01.368Z",
   "townSlug": "worthing",
   "countySlug": "sussex",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WORTHING"
+  ],
   "marketSnapshot": {
     "medianPrice": 335000,
-    "transactionCount12m": 1304,
-    "yoyPriceChange": -2.9,
+    "transactionCount12m": 1272,
+    "yoyPriceChange": -2,
     "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 278,
+    "pipelineGdv": 93130000,
     "approvalRate": 0
   }
 }

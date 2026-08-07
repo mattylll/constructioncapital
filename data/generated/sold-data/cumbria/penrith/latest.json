@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.910Z",
+  "updatedAt": "2026-08-07T08:45:03.129Z",
   "townSlug": "penrith",
   "countySlug": "cumbria",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WESTMORLAND AND FURNESS",
+    "EDEN"
+  ],
   "stats": {
-    "medianPrice": 236000,
+    "medianPrice": 241000,
     "medianByType": {
-      "D": 370000,
-      "S": 235000,
+      "D": 375000,
+      "S": 240000,
       "T": 175000,
-      "F": 121250
+      "F": 128000
     },
-    "transactionCount12m": 486,
-    "yoyChange": -7.5,
-    "newBuildCount": 2,
-    "existingCount": 484,
-    "newBuildPremium": null
+    "transactionCount12m": 508,
+    "yoyChange": -5.1,
+    "newBuildCount": 4,
+    "existingCount": 504,
+    "newBuildPremium": 57.3
   },
   "recentTransactions": [
     {
-      "price": 370000,
-      "date": "2026-05-22",
-      "postcode": "CA11 8UL",
+      "price": 198000,
+      "date": "2026-06-26",
+      "postcode": "CA11 9AS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, MUSGRAVE STREET"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-23",
+      "postcode": "CA10 1QX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, ASPEN GARDENS"
+      "address": "10, CHESTNUT CLOSE"
     },
     {
-      "price": 160000,
-      "date": "2026-05-20",
-      "postcode": "CA11 8BB",
+      "price": 80000,
+      "date": "2026-06-18",
+      "postcode": "CA11 7NN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, SCOTLAND ROAD"
+    },
+    {
+      "price": 162000,
+      "date": "2026-06-18",
+      "postcode": "CA11 0XW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, DUKES MEADOW"
+    },
+    {
+      "price": 166000,
+      "date": "2026-06-18",
+      "postcode": "CA11 7TG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "36, SAND CROFT"
+      "address": "15, SANDGATE COURT"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-18",
+      "postcode": "CA11 8LW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, CARLETON PLACE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-18",
+      "postcode": "CA10 3PE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, WANDSWORTH GARDENS"
+    },
+    {
+      "price": 295000,
+      "date": "2026-06-17",
+      "postcode": "CA10 1QT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WESTFIELDS, 3, EDEN HEIGHTS"
     },
     {
       "price": 420000,
-      "date": "2026-05-19",
-      "postcode": "CA11 8UF",
+      "date": "2026-06-16",
+      "postcode": "CA10 1TZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, JUNIPER WAY"
+      "address": "8, KIRKHILL"
     },
     {
-      "price": 395000,
-      "date": "2026-05-13",
-      "postcode": "CA11 9SS",
-      "propertyType": "D",
+      "price": 150000,
+      "date": "2026-06-15",
+      "postcode": "CA11 7XT",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "NAMASTE"
+      "tenure": "L",
+      "address": "APARTMENT 10, PELE COURT, FRIARGATE"
     },
     {
-      "price": 510000,
-      "date": "2026-05-08",
-      "postcode": "CA10 1QL",
+      "price": 290000,
+      "date": "2026-06-12",
+      "postcode": "CA10 2JR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "DERRY HOUSE"
+      "address": "4, QUAKERS LANE"
+    },
+    {
+      "price": 231500,
+      "date": "2026-06-12",
+      "postcode": "CA11 7RQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, CROFT AVENUE"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-12",
+      "postcode": "CA10 2AL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, CARLETON HALL GARDENS"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-11",
+      "postcode": "CA11 8UR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "61, CARLETON MEADOWS"
     },
     {
       "price": 260000,
-      "date": "2026-05-08",
-      "postcode": "CA11 8FA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, PRIMROSE DRIVE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-07",
-      "postcode": "CA10 1EF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ROODS PLACE"
-    },
-    {
-      "price": 505000,
-      "date": "2026-05-05",
-      "postcode": "CA11 8BB",
+      "date": "2026-06-11",
+      "postcode": "CA10 3NR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, SAND CROFT"
+      "address": "1, CROFT AVENUE"
     },
     {
-      "price": 420000,
-      "date": "2026-05-01",
-      "postcode": "CA10 1PB",
+      "price": 280000,
+      "date": "2026-06-10",
+      "postcode": "CA11 8DL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, BRENTFIELD WAY"
+    },
+    {
+      "price": 462000,
+      "date": "2026-06-10",
+      "postcode": "CA10 1SG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "ELDERFLOWER COTTAGE"
+      "address": "27, OTTERS HOLT"
     },
     {
-      "price": 260000,
-      "date": "2026-04-30",
-      "postcode": "CA10 1QJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, CROSSFELL VIEW"
-    },
-    {
-      "price": 265000,
-      "date": "2026-04-30",
-      "postcode": "CA11 7RG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, CROFT AVENUE"
-    },
-    {
-      "price": 249995,
-      "date": "2026-04-30",
-      "postcode": "CA10 3RJ",
+      "price": 155000,
+      "date": "2026-06-10",
+      "postcode": "CA10 3LT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "WINDER HOUSE, FRONT STREET"
+      "address": "28, WEST LANE"
     },
     {
-      "price": 875000,
-      "date": "2026-04-30",
-      "postcode": "CA10 3HQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE FIELD HOUSE"
-    },
-    {
-      "price": 1200000,
-      "date": "2026-04-29",
-      "postcode": "CA11 9BQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UNIT 17, BOWERBANK WAY"
-    },
-    {
-      "price": 370000,
-      "date": "2026-04-29",
-      "postcode": "CA10 3BL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, SMOOT GARTH"
-    },
-    {
-      "price": 333750,
-      "date": "2026-04-28",
-      "postcode": "CA11 0EJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, KELD CLOSE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-04-27",
-      "postcode": "CA11 0TU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, HOWARD PARK"
-    },
-    {
-      "price": 202500,
-      "date": "2026-04-24",
-      "postcode": "CA11 8TN",
+      "price": 247000,
+      "date": "2026-06-10",
+      "postcode": "CA11 8DL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, BIRCH CRESCENT"
+      "address": "54, BRENTFIELD WAY"
     },
     {
-      "price": 175000,
-      "date": "2026-04-24",
-      "postcode": "CA11 9BY",
-      "propertyType": "T",
+      "price": 120000,
+      "date": "2026-06-10",
+      "postcode": "CA11 8FD",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, JAMES STREET"
-    },
-    {
-      "price": 197000,
-      "date": "2026-04-23",
-      "postcode": "CA11 9TG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GLEN HOUSE"
+      "address": "77, PRIMROSE DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -293,22 +297,22 @@
     {
       "month": "2025-07",
       "medianPrice": 235000,
-      "transactions": 53
+      "transactions": 54
     },
     {
       "month": "2025-08",
-      "medianPrice": 240000,
-      "transactions": 61
+      "medianPrice": 244000,
+      "transactions": 66
     },
     {
       "month": "2025-09",
-      "medianPrice": 232000,
-      "transactions": 65
+      "medianPrice": 240000,
+      "transactions": 69
     },
     {
       "month": "2025-10",
-      "medianPrice": 254500,
-      "transactions": 62
+      "medianPrice": 255000,
+      "transactions": 64
     },
     {
       "month": "2025-11",
@@ -317,13 +321,13 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 217500,
-      "transactions": 52
+      "medianPrice": 229750,
+      "transactions": 56
     },
     {
       "month": "2026-01",
-      "medianPrice": 200000,
-      "transactions": 29
+      "medianPrice": 220000,
+      "transactions": 33
     },
     {
       "month": "2026-02",
@@ -338,12 +342,17 @@
     {
       "month": "2026-04",
       "medianPrice": 215000,
-      "transactions": 29
+      "transactions": 30
     },
     {
       "month": "2026-05",
-      "medianPrice": 395000,
-      "transactions": 9
+      "medianPrice": 295000,
+      "transactions": 31
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 260000,
+      "transactions": 35
     }
   ],
   "quarterlyHistory": [
@@ -379,23 +388,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 235000,
-      "transactions": 179
+      "medianPrice": 240000,
+      "transactions": 189
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 247500,
-      "transactions": 170
+      "medianPrice": 250000,
+      "transactions": 176
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 220000,
-      "transactions": 103
+      "medianPrice": 230000,
+      "transactions": 107
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 247498,
-      "transactions": 38
+      "medianPrice": 248498,
+      "transactions": 96
     }
   ]
 }

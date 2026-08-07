@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.243Z",
+  "updatedAt": "2026-08-07T08:45:02.395Z",
   "townSlug": "burton-upon-trent",
   "countySlug": "staffordshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EAST STAFFORDSHIRE"
+  ],
   "stats": {
-    "medianPrice": 227250,
+    "medianPrice": 228000,
     "medianByType": {
       "D": 355000,
       "S": 220000,
       "T": 160000,
-      "F": 100000
+      "F": 98000
     },
-    "transactionCount12m": 1426,
-    "yoyChange": -1.2,
-    "newBuildCount": 18,
-    "existingCount": 1408,
-    "newBuildPremium": 36
+    "transactionCount12m": 1420,
+    "yoyChange": -0.9,
+    "newBuildCount": 15,
+    "existingCount": 1405,
+    "newBuildPremium": 52
   },
   "recentTransactions": [
     {
-      "price": 207500,
-      "date": "2026-05-22",
-      "postcode": "ST14 7HH",
+      "price": 545000,
+      "date": "2026-06-24",
+      "postcode": "DE13 0WN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, LIONHEART LANE"
+    },
+    {
+      "price": 152000,
+      "date": "2026-06-24",
+      "postcode": "DE13 0NU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "118, TUTBURY ROAD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-19",
+      "postcode": "DE13 9AB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "102, STATION ROAD"
+    },
+    {
+      "price": 330000,
+      "date": "2026-06-19",
+      "postcode": "ST14 8TY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, PARTRIDGE DRIVE"
+    },
+    {
+      "price": 85000,
+      "date": "2026-06-19",
+      "postcode": "ST14 7NP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, THE LAWNS"
+      "address": "16, CEDAR CLOSE"
+    },
+    {
+      "price": 675000,
+      "date": "2026-06-19",
+      "postcode": "DE6 2DA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BOLDERSHAW FARM"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-15",
+      "postcode": "ST14 8TQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, BLOUNTS DRIVE"
+    },
+    {
+      "price": 170000,
+      "date": "2026-06-15",
+      "postcode": "ST14 7BX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, CHEADLE ROAD"
+    },
+    {
+      "price": 95000,
+      "date": "2026-06-15",
+      "postcode": "DE14 2GU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, PIPERS WAY"
     },
     {
       "price": 290000,
-      "date": "2026-05-22",
-      "postcode": "DE13 0AY",
+      "date": "2026-06-15",
+      "postcode": "DE13 0UE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, POPLAR GARDENS"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-12",
+      "postcode": "DE15 9JG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, BEDFORD ROAD"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-12",
+      "postcode": "ST14 5AN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "250, ROLLESTON ROAD"
+      "address": "31, BROOMYCLOSE LANE"
     },
     {
-      "price": 227000,
-      "date": "2026-05-22",
-      "postcode": "ST14 7FJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, OLD LODGE CLOSE"
-    },
-    {
-      "price": 197000,
-      "date": "2026-05-22",
-      "postcode": "DE13 0SQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "91, PANAMA ROAD"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-21",
-      "postcode": "ST14 7NL",
+      "price": 530000,
+      "date": "2026-06-12",
+      "postcode": "ST14 8LD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, PINE WALK"
+      "address": "PORTERS FARM, HIGH STREET"
     },
     {
-      "price": 445000,
-      "date": "2026-05-20",
-      "postcode": "DE13 0QW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, OAK ROAD"
-    },
-    {
-      "price": 182500,
-      "date": "2026-05-15",
-      "postcode": "ST14 7AD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, BURTON TERRACE"
-    },
-    {
-      "price": 560000,
-      "date": "2026-05-15",
-      "postcode": "DE13 8SA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, SQUIRRELS CORNER"
-    },
-    {
-      "price": 267500,
-      "date": "2026-05-15",
-      "postcode": "ST14 5HJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, CROFTSTEAD AVENUE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-15",
-      "postcode": "DE13 0SH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, HEVEA ROAD"
-    },
-    {
-      "price": 213750,
-      "date": "2026-05-15",
-      "postcode": "DE14 3UU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, ROOK ROAD"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-14",
-      "postcode": "ST14 8TS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, SWALLOW CLOSE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-05-11",
-      "postcode": "DE15 9RJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "361, ROSLISTON ROAD"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-11",
-      "postcode": "DE14 2SB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, CHESTERTON ROAD"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-08",
-      "postcode": "ST14 7RG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, ASHLEIGH DRIVE"
-    },
-    {
-      "price": 318000,
-      "date": "2026-05-08",
-      "postcode": "DE15 9GB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, DOVERIDGE ROAD"
-    },
-    {
-      "price": 176500,
-      "date": "2026-05-08",
-      "postcode": "ST14 8BS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, BALANCE HILL"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-08",
-      "postcode": "ST10 4PU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CHERRY TREES, FARM LANE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-08",
-      "postcode": "DE13 9TB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "87B, HENHURST HILL"
-    },
-    {
-      "price": 100000,
-      "date": "2026-05-08",
-      "postcode": "ST14 8ES",
+      "price": 85000,
+      "date": "2026-06-12",
+      "postcode": "DE13 0XQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "12, MELLOR LODGE, TOWN MEADOWS WAY"
+      "address": "FLAT 5, FARM COURT, FARM ROAD"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-12",
+      "postcode": "DE15 9DF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "82, MARLBOROUGH CRESCENT"
+    },
+    {
+      "price": 70000,
+      "date": "2026-06-12",
+      "postcode": "DE14 2PT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "93, HORNINGLOW ROAD"
+    },
+    {
+      "price": 192000,
+      "date": "2026-06-11",
+      "postcode": "DE15 0EN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "66, MELBOURNE AVENUE"
+    },
+    {
+      "price": 345000,
+      "date": "2026-06-11",
+      "postcode": "DE14 3DB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FLAT 1, 221, BRANSTON ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-10",
+      "postcode": "DE15 0BB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "68, MILL HILL LANE"
+    },
+    {
+      "price": 335000,
+      "date": "2026-06-10",
+      "postcode": "DE15 9HF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TREE TOPS, THE DINGLE"
     }
   ],
   "monthlyHistory": [
@@ -243,7 +246,7 @@
     {
       "month": "2024-09",
       "medianPrice": 225000,
-      "transactions": 203
+      "transactions": 204
     },
     {
       "month": "2024-10",
@@ -252,8 +255,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 235000,
-      "transactions": 209
+      "medianPrice": 234998,
+      "transactions": 210
     },
     {
       "month": "2024-12",
@@ -272,13 +275,13 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 248250,
-      "transactions": 302
+      "medianPrice": 249000,
+      "transactions": 304
     },
     {
       "month": "2025-04",
-      "medianPrice": 205000,
-      "transactions": 83
+      "medianPrice": 206998,
+      "transactions": 84
     },
     {
       "month": "2025-05",
@@ -288,62 +291,67 @@
     {
       "month": "2025-06",
       "medianPrice": 240000,
-      "transactions": 218
+      "transactions": 223
     },
     {
       "month": "2025-07",
       "medianPrice": 225000,
-      "transactions": 185
+      "transactions": 193
     },
     {
       "month": "2025-08",
-      "medianPrice": 265000,
-      "transactions": 184
+      "medianPrice": 262500,
+      "transactions": 198
     },
     {
       "month": "2025-09",
       "medianPrice": 215000,
-      "transactions": 156
+      "transactions": 170
     },
     {
       "month": "2025-10",
       "medianPrice": 235000,
-      "transactions": 186
+      "transactions": 193
     },
     {
       "month": "2025-11",
-      "medianPrice": 241250,
-      "transactions": 158
+      "medianPrice": 240000,
+      "transactions": 163
     },
     {
       "month": "2025-12",
-      "medianPrice": 223000,
-      "transactions": 147
+      "medianPrice": 231000,
+      "transactions": 158
     },
     {
       "month": "2026-01",
       "medianPrice": 225000,
-      "transactions": 87
+      "transactions": 94
     },
     {
       "month": "2026-02",
-      "medianPrice": 205000,
-      "transactions": 115
+      "medianPrice": 207498,
+      "transactions": 118
     },
     {
       "month": "2026-03",
-      "medianPrice": 225000,
-      "transactions": 129
+      "medianPrice": 221000,
+      "transactions": 136
     },
     {
       "month": "2026-04",
       "medianPrice": 210000,
-      "transactions": 75
+      "transactions": 86
     },
     {
       "month": "2026-05",
-      "medianPrice": 223500,
-      "transactions": 34
+      "medianPrice": 220000,
+      "transactions": 96
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 250000,
+      "transactions": 35
     }
   ],
   "quarterlyHistory": [
@@ -359,43 +367,43 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 227950,
-      "transactions": 551
+      "medianPrice": 227975,
+      "transactions": 552
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 232373,
-      "transactions": 640
+      "medianPrice": 232000,
+      "transactions": 641
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 237500,
-      "transactions": 635
+      "transactions": 637
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 220250,
-      "transactions": 494
+      "medianPrice": 221248,
+      "transactions": 500
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 230000,
-      "transactions": 525
+      "transactions": 561
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 235000,
-      "transactions": 491
+      "transactions": 514
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 220000,
-      "transactions": 331
+      "transactions": 348
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 215000,
-      "transactions": 109
+      "medianPrice": 220000,
+      "transactions": 217
     }
   ]
 }

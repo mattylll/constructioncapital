@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.763Z",
+  "updatedAt": "2026-08-07T08:45:04.062Z",
   "townSlug": "neath",
   "countySlug": "swansea",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NEATH PORT TALBOT"
+  ],
   "stats": {
-    "medianPrice": 158975,
+    "medianPrice": 157000,
     "medianByType": {
-      "D": 268000,
-      "S": 167250,
-      "T": 125000,
-      "F": 88750
+      "D": 270000,
+      "S": 165000,
+      "T": 127000,
+      "F": 91000
     },
-    "transactionCount12m": 1492,
-    "yoyChange": 2.6,
-    "newBuildCount": 6,
-    "existingCount": 1486,
-    "newBuildPremium": 55.1
+    "transactionCount12m": 1442,
+    "yoyChange": 0.6,
+    "newBuildCount": 1,
+    "existingCount": 1441,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 170000,
-      "date": "2026-05-18",
-      "postcode": "SA18 1PD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "90, HEOL CAE GURWEN"
-    },
-    {
-      "price": 65000,
-      "date": "2026-05-15",
-      "postcode": "SA13 1LN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT, 29, COMMERCIAL ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-15",
-      "postcode": "SA10 6FW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, LON Y GRUG"
-    },
-    {
-      "price": 395000,
-      "date": "2026-05-15",
-      "postcode": "SA11 3RJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, THE OAKS"
-    },
-    {
-      "price": 135000,
-      "date": "2026-05-15",
-      "postcode": "SA8 4HD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, THOMAS STREET"
-    },
-    {
-      "price": 70000,
-      "date": "2026-05-15",
-      "postcode": "SA10 6AF",
+      "price": 155000,
+      "date": "2026-06-26",
+      "postcode": "SA11 5LR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, OLD ROAD"
+      "address": "24, MERTHYR ROAD"
     },
     {
-      "price": 165000,
-      "date": "2026-05-15",
-      "postcode": "SA11 3QG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "100, RIDGEWOOD GARDENS"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-15",
-      "postcode": "SA13 2AT",
+      "price": 167000,
+      "date": "2026-06-23",
+      "postcode": "SA13 3NT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, MORLAIS ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-15",
-      "postcode": "SA12 6NX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, LINGFIELD AVENUE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-15",
-      "postcode": "SA12 8LX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, CAE CANOL"
-    },
-    {
-      "price": 140000,
-      "date": "2026-05-15",
-      "postcode": "SA10 8LH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ROSSER TERRACE"
+      "address": "MIN Y MYNYDD, CORONATION AVENUE"
     },
     {
       "price": 200000,
-      "date": "2026-05-15",
-      "postcode": "SA11 3FE",
+      "date": "2026-06-19",
+      "postcode": "SA12 6EQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "70, HUNTERS RIDGE"
+      "address": "48, PORTH Y GWYDDEL"
     },
     {
-      "price": 175000,
-      "date": "2026-05-15",
-      "postcode": "SA11 2ER",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "212, OLD ROAD"
-    },
-    {
-      "price": 380000,
-      "date": "2026-05-15",
-      "postcode": "SA10 7UG",
+      "price": 285000,
+      "date": "2026-06-19",
+      "postcode": "SA18 1UN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "45, FURZELAND DRIVE"
+      "address": "SCHOOL HOUSE, NEW ROAD"
     },
     {
-      "price": 123000,
-      "date": "2026-05-15",
-      "postcode": "SA11 1UL",
+      "price": 160000,
+      "date": "2026-06-17",
+      "postcode": "SA9 2AA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, BURNSIDE"
+      "address": "7, ALLTYGRUG ROAD"
     },
     {
-      "price": 156000,
-      "date": "2026-05-15",
-      "postcode": "SA12 7AP",
-      "propertyType": "S",
+      "price": 235000,
+      "date": "2026-06-16",
+      "postcode": "SA10 6HB",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, JASMINE CLOSE"
+      "address": "12, GROVE LANE"
     },
     {
-      "price": 80000,
-      "date": "2026-05-14",
-      "postcode": "SA10 6NB",
+      "price": 43000,
+      "date": "2026-06-16",
+      "postcode": "SA13 2HA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, HIGH STREET"
+      "address": "5, CAERHENDY"
     },
     {
-      "price": 190000,
-      "date": "2026-05-11",
-      "postcode": "SA11 3QG",
+      "price": 126000,
+      "date": "2026-06-12",
+      "postcode": "SA12 7LS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "126, RIDGEWOOD GARDENS"
+      "address": "64, WESTERN AVENUE"
     },
     {
-      "price": 220000,
-      "date": "2026-05-08",
-      "postcode": "SA18 1RW",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "303, HEOL Y GORS"
-    },
-    {
-      "price": 173000,
-      "date": "2026-05-08",
-      "postcode": "SA12 8BN",
+      "price": 198000,
+      "date": "2026-06-12",
+      "postcode": "SA13 2BD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, SWAN ROAD"
+      "address": "26, WERN ROAD"
+    },
+    {
+      "price": 258000,
+      "date": "2026-06-12",
+      "postcode": "SA10 7DE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, THE HANNANTS"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-12",
+      "postcode": "SA12 7TW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, VERDI ROAD"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-12",
+      "postcode": "SA13 2AW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, BERTHA ROAD"
+    },
+    {
+      "price": 145000,
+      "date": "2026-06-12",
+      "postcode": "SA13 2LR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, MORFA AVENUE"
+    },
+    {
+      "price": 103500,
+      "date": "2026-06-11",
+      "postcode": "SA18 1YE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, ST DAVIDS ROAD"
+    },
+    {
+      "price": 147500,
+      "date": "2026-06-11",
+      "postcode": "SA18 1SY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, MAES Y GLYN"
+    },
+    {
+      "price": 72500,
+      "date": "2026-06-11",
+      "postcode": "SA18 1SY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, MAES Y GLYN"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-10",
+      "postcode": "SA11 3DF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, PARK STREET"
+    },
+    {
+      "price": 148000,
+      "date": "2026-06-09",
+      "postcode": "SA8 3HX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CAE RHEDYN"
+    },
+    {
+      "price": 51218,
+      "date": "2026-06-08",
+      "postcode": "SA11 2PH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "83, ROCKINGHAM TERRACE"
+    },
+    {
+      "price": 158000,
+      "date": "2026-06-05",
+      "postcode": "SA12 8ER",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, HEOL Y NANT"
     }
   ],
   "monthlyHistory": [
@@ -217,8 +220,8 @@
     },
     {
       "month": "2024-04",
-      "medianPrice": 135000,
-      "transactions": 169
+      "medianPrice": 135500,
+      "transactions": 170
     },
     {
       "month": "2024-05",
@@ -237,13 +240,13 @@
     },
     {
       "month": "2024-08",
-      "medianPrice": 141250,
-      "transactions": 208
+      "medianPrice": 142500,
+      "transactions": 209
     },
     {
       "month": "2024-09",
       "medianPrice": 140000,
-      "transactions": 152
+      "transactions": 153
     },
     {
       "month": "2024-10",
@@ -292,58 +295,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 166250,
-      "transactions": 198
+      "medianPrice": 167750,
+      "transactions": 200
     },
     {
       "month": "2025-08",
-      "medianPrice": 160000,
-      "transactions": 177
+      "medianPrice": 158500,
+      "transactions": 184
     },
     {
       "month": "2025-09",
-      "medianPrice": 155250,
-      "transactions": 158
+      "medianPrice": 152975,
+      "transactions": 166
     },
     {
       "month": "2025-10",
       "medianPrice": 160000,
-      "transactions": 218
+      "transactions": 221
     },
     {
       "month": "2025-11",
       "medianPrice": 165000,
-      "transactions": 168
+      "transactions": 173
     },
     {
       "month": "2025-12",
-      "medianPrice": 160000,
-      "transactions": 149
+      "medianPrice": 157000,
+      "transactions": 169
     },
     {
       "month": "2026-01",
-      "medianPrice": 152500,
-      "transactions": 106
+      "medianPrice": 150000,
+      "transactions": 123
     },
     {
       "month": "2026-02",
-      "medianPrice": 145000,
-      "transactions": 119
+      "medianPrice": 150000,
+      "transactions": 124
     },
     {
       "month": "2026-03",
-      "medianPrice": 151500,
-      "transactions": 104
+      "medianPrice": 153000,
+      "transactions": 111
     },
     {
       "month": "2026-04",
-      "medianPrice": 147950,
-      "transactions": 83
+      "medianPrice": 145000,
+      "transactions": 89
     },
     {
       "month": "2026-05",
-      "medianPrice": 175000,
-      "transactions": 39
+      "medianPrice": 173000,
+      "transactions": 93
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 160000,
+      "transactions": 24
     }
   ],
   "quarterlyHistory": [
@@ -355,12 +363,12 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 145000,
-      "transactions": 503
+      "transactions": 504
     },
     {
       "quarter": "2024-Q3",
       "medianPrice": 140500,
-      "transactions": 528
+      "transactions": 530
     },
     {
       "quarter": "2024-Q4",
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 160500,
-      "transactions": 533
+      "medianPrice": 160250,
+      "transactions": 550
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 162000,
-      "transactions": 535
+      "medianPrice": 160000,
+      "transactions": 563
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 150000,
-      "transactions": 329
+      "transactions": 358
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 155500,
-      "transactions": 122
+      "medianPrice": 158500,
+      "transactions": 206
     }
   ]
 }

@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.907Z",
+  "updatedAt": "2026-08-07T08:45:01.357Z",
   "townSlug": "brighton",
   "countySlug": "sussex",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BRIGHTON AND HOVE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 411500,
-    "transactionCount12m": 2932,
-    "yoyPriceChange": 2.9,
+    "medianPrice": 415000,
+    "transactionCount12m": 2899,
+    "yoyPriceChange": 3.8,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

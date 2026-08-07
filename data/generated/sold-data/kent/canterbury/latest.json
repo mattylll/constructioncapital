@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.107Z",
+  "updatedAt": "2026-08-07T08:45:01.205Z",
   "townSlug": "canterbury",
   "countySlug": "kent",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CANTERBURY"
+  ],
   "stats": {
-    "medianPrice": 332000,
+    "medianPrice": 330000,
     "medianByType": {
-      "D": 478500,
-      "S": 335000,
-      "T": 290000,
-      "F": 192000
+      "D": 475000,
+      "S": 333250,
+      "T": 291000,
+      "F": 192500
     },
-    "transactionCount12m": 1624,
-    "yoyChange": -2.4,
+    "transactionCount12m": 1633,
+    "yoyChange": -2.9,
     "newBuildCount": 26,
-    "existingCount": 1598,
-    "newBuildPremium": 16.3
+    "existingCount": 1607,
+    "newBuildPremium": -0.4
   },
   "recentTransactions": [
     {
-      "price": 275000,
-      "date": "2026-05-26",
-      "postcode": "CT6 8NR",
+      "price": 250000,
+      "date": "2026-06-26",
+      "postcode": "CT6 7TE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, COBBLERS BRIDGE ROAD"
+      "address": "19, HOLBOURN CLOSE"
     },
     {
-      "price": 270000,
-      "date": "2026-05-22",
-      "postcode": "CT6 8QR",
-      "propertyType": "S",
+      "price": 75000,
+      "date": "2026-06-26",
+      "postcode": "CT6 8PD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, CHISLET COURT"
+    },
+    {
+      "price": 200000,
+      "date": "2026-06-26",
+      "postcode": "CT1 3QH",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, BOGNOR DRIVE"
+      "address": "3, LIME KILN ROAD"
     },
     {
-      "price": 220000,
-      "date": "2026-05-22",
-      "postcode": "CT6 5SL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, ARKLEY ROAD"
-    },
-    {
-      "price": 696000,
-      "date": "2026-05-21",
-      "postcode": "CT5 2HQ",
+      "price": 470000,
+      "date": "2026-06-25",
+      "postcode": "CT6 5UF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, PIER AVENUE"
+      "address": "20, WYE GREEN"
     },
     {
-      "price": 410000,
-      "date": "2026-05-21",
-      "postcode": "CT5 2JP",
+      "price": 110000,
+      "date": "2026-06-24",
+      "postcode": "CT2 7JZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, BARTON MILL COURT, STATION ROAD WEST"
+    },
+    {
+      "price": 390000,
+      "date": "2026-06-24",
+      "postcode": "CT6 6BS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "30A, WYNN ROAD"
+      "address": "36, TYNDALE PARK"
     },
     {
-      "price": 385000,
-      "date": "2026-05-21",
-      "postcode": "CT5 2LT",
+      "price": 448000,
+      "date": "2026-06-19",
+      "postcode": "CT6 5FR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, LOVELL CLOSE"
+    },
+    {
+      "price": 543750,
+      "date": "2026-06-19",
+      "postcode": "CT6 5QF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "70, HERNE BAY ROAD"
+      "address": "18, BRUNSWICK SQUARE"
     },
     {
-      "price": 279000,
-      "date": "2026-05-20",
-      "postcode": "CT2 8NX",
+      "price": 142000,
+      "date": "2026-06-19",
+      "postcode": "CT1 1JF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "38, HUDSON ROAD"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-19",
+      "postcode": "CT1 2NU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "2A, PRIORESS ROAD"
+      "address": "11, HAWKS LANE"
     },
     {
-      "price": 430000,
-      "date": "2026-05-20",
-      "postcode": "CT1 3LS",
-      "propertyType": "S",
+      "price": 870000,
+      "date": "2026-06-18",
+      "postcode": "CT5 2DS",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, NUNNERY ROAD"
-    },
-    {
-      "price": 810000,
-      "date": "2026-05-19",
-      "postcode": "CT2 0NH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62C, STURRY HILL"
+      "address": "15, GLOUCESTER ROAD"
     },
     {
       "price": 300000,
-      "date": "2026-05-19",
-      "postcode": "CT6 7AE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, RUSKINS VIEW"
-    },
-    {
-      "price": 345000,
-      "date": "2026-05-19",
-      "postcode": "CT6 6AF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, DOUGLAS ROAD"
-    },
-    {
-      "price": 364550,
-      "date": "2026-05-18",
-      "postcode": "CT6 6SD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, COVENTRY GARDENS"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-18",
-      "postcode": "CT1 3SF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14B, SEYMOUR PLACE"
-    },
-    {
-      "price": 410000,
-      "date": "2026-05-18",
-      "postcode": "CT5 4JE",
+      "date": "2026-06-18",
+      "postcode": "CT6 8LY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "51, GREEN LANE"
+      "address": "76, CLARENDON STREET"
     },
     {
-      "price": 320000,
-      "date": "2026-05-15",
-      "postcode": "CT5 1DT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, THE SALT YARD, 110, CORNWALLIS CIRCLE"
-    },
-    {
-      "price": 429000,
-      "date": "2026-05-15",
-      "postcode": "CT5 4HB",
+      "price": 260000,
+      "date": "2026-06-18",
+      "postcode": "CT6 7LD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, NORFOLK STREET"
+      "address": "19, FALCON CLOSE"
     },
     {
-      "price": 143000,
-      "date": "2026-05-15",
-      "postcode": "CT5 1LQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1A, STATION ROAD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-15",
-      "postcode": "CT5 3HQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, BECKET CLOSE"
-    },
-    {
-      "price": 292000,
-      "date": "2026-05-15",
-      "postcode": "CT5 2RD",
+      "price": 280000,
+      "date": "2026-06-16",
+      "postcode": "CT6 7UU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "56, WOODMAN AVENUE"
+      "address": "19, WRENTHAM AVENUE"
     },
     {
-      "price": 250000,
-      "date": "2026-05-15",
-      "postcode": "CT1 3JP",
+      "price": 353000,
+      "date": "2026-06-15",
+      "postcode": "CT2 8DQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, WHITSTABLE ROAD"
+    },
+    {
+      "price": 243500,
+      "date": "2026-06-15",
+      "postcode": "CT2 9AA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, LANSDOWN ROAD"
+      "address": "9, THE MINT"
+    },
+    {
+      "price": 184000,
+      "date": "2026-06-15",
+      "postcode": "CT6 7AN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, SCHOOL LANE"
+    },
+    {
+      "price": 930000,
+      "date": "2026-06-15",
+      "postcode": "CT3 4LS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MANOR HOUSE, FORD"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-15",
+      "postcode": "CT6 5HQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "21, STEEL CLOSE"
+    },
+    {
+      "price": 347500,
+      "date": "2026-06-12",
+      "postcode": "CT6 7SJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, HERNE DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -208,22 +211,22 @@
     {
       "month": "2024-02",
       "medianPrice": 300000,
-      "transactions": 155
+      "transactions": 157
     },
     {
       "month": "2024-03",
-      "medianPrice": 317500,
-      "transactions": 189
+      "medianPrice": 320000,
+      "transactions": 191
     },
     {
       "month": "2024-04",
-      "medianPrice": 318000,
-      "transactions": 165
+      "medianPrice": 320000,
+      "transactions": 167
     },
     {
       "month": "2024-05",
-      "medianPrice": 337500,
-      "transactions": 200
+      "medianPrice": 335000,
+      "transactions": 201
     },
     {
       "month": "2024-06",
@@ -252,13 +255,13 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 359498,
-      "transactions": 282
+      "medianPrice": 356500,
+      "transactions": 284
     },
     {
       "month": "2024-12",
-      "medianPrice": 349750,
-      "transactions": 204
+      "medianPrice": 350000,
+      "transactions": 205
     },
     {
       "month": "2025-01",
@@ -288,74 +291,79 @@
     {
       "month": "2025-06",
       "medianPrice": 350000,
-      "transactions": 235
+      "transactions": 238
     },
     {
       "month": "2025-07",
       "medianPrice": 342500,
-      "transactions": 212
+      "transactions": 218
     },
     {
       "month": "2025-08",
-      "medianPrice": 325000,
-      "transactions": 206
+      "medianPrice": 322500,
+      "transactions": 222
     },
     {
       "month": "2025-09",
+      "medianPrice": 330000,
+      "transactions": 184
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 340000,
+      "transactions": 205
+    },
+    {
+      "month": "2025-11",
+      "medianPrice": 354500,
+      "transactions": 188
+    },
+    {
+      "month": "2025-12",
       "medianPrice": 335000,
       "transactions": 173
     },
     {
-      "month": "2025-10",
-      "medianPrice": 342500,
-      "transactions": 199
-    },
-    {
-      "month": "2025-11",
-      "medianPrice": 354000,
-      "transactions": 183
-    },
-    {
-      "month": "2025-12",
-      "medianPrice": 331500,
-      "transactions": 164
-    },
-    {
       "month": "2026-01",
-      "medianPrice": 305000,
-      "transactions": 111
+      "medianPrice": 310000,
+      "transactions": 123
     },
     {
       "month": "2026-02",
-      "medianPrice": 305000,
-      "transactions": 116
+      "medianPrice": 310000,
+      "transactions": 123
     },
     {
       "month": "2026-03",
       "medianPrice": 320000,
-      "transactions": 140
+      "transactions": 151
     },
     {
       "month": "2026-04",
-      "medianPrice": 350000,
-      "transactions": 100
+      "medianPrice": 349000,
+      "transactions": 108
     },
     {
       "month": "2026-05",
-      "medianPrice": 332500,
-      "transactions": 54
+      "medianPrice": 335000,
+      "transactions": 138
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 360000,
+      "transactions": 59
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 310000,
-      "transactions": 530
+      "transactions": 534
     },
     {
       "quarter": "2024-Q2",
       "medianPrice": 340000,
-      "transactions": 584
+      "transactions": 587
     },
     {
       "quarter": "2024-Q3",
@@ -365,7 +373,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 345000,
-      "transactions": 741
+      "transactions": 744
     },
     {
       "quarter": "2025-Q1",
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 325000,
-      "transactions": 486
+      "transactions": 489
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 332025,
-      "transactions": 591
+      "medianPrice": 330000,
+      "transactions": 624
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 347475,
-      "transactions": 546
+      "medianPrice": 345000,
+      "transactions": 566
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 315000,
-      "transactions": 367
+      "transactions": 397
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 342500,
-      "transactions": 154
+      "medianPrice": 345000,
+      "transactions": 305
     }
   ]
 }

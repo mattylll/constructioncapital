@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.406Z",
+  "updatedAt": "2026-08-07T08:45:03.724Z",
   "townSlug": "st-neots",
   "countySlug": "cambridgeshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HUNTINGDONSHIRE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 312000,
-    "transactionCount12m": 611,
-    "yoyPriceChange": -6.9,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 312250,
+    "transactionCount12m": 604,
+    "yoyPriceChange": -6.5,
+    "approvedApps12m": 10,
+    "approvedRecent": 10,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 1723,
+    "pipelineGdv": 534690000,
+    "approvalRate": 91
   }
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.398Z",
+  "updatedAt": "2026-08-07T08:45:02.559Z",
   "townSlug": "newark",
   "countySlug": "nottinghamshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NEWARK AND SHERWOOD"
+  ],
   "stats": {
-    "medianPrice": 225850,
+    "medianPrice": 230000,
     "medianByType": {
       "D": 325000,
-      "S": 192000,
+      "S": 195000,
       "T": 160000,
-      "F": 116000
+      "F": 118250
     },
-    "transactionCount12m": 1532,
-    "yoyChange": -2.7,
-    "newBuildCount": 31,
-    "existingCount": 1501,
+    "transactionCount12m": 1519,
+    "yoyChange": -1.2,
+    "newBuildCount": 47,
+    "existingCount": 1472,
     "newBuildPremium": 28.9
   },
   "recentTransactions": [
     {
-      "price": 247000,
-      "date": "2026-05-26",
-      "postcode": "NG22 9DW",
+      "price": 248500,
+      "date": "2026-06-26",
+      "postcode": "NG24 5BG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, WICKENBY AVENUE"
+    },
+    {
+      "price": 349950,
+      "date": "2026-06-26",
+      "postcode": "NG23 7PA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, DENBIGH COURT"
+    },
+    {
+      "price": 292000,
+      "date": "2026-06-24",
+      "postcode": "NG21 0GE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, KINGFISHER WAY"
+      "address": "14, SAPPHIRE CLOSE"
     },
     {
-      "price": 480000,
-      "date": "2026-05-22",
-      "postcode": "NG22 8WP",
+      "price": 210000,
+      "date": "2026-06-23",
+      "postcode": "NG24 4JA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, WINDSOR AVENUE"
+    },
+    {
+      "price": 206500,
+      "date": "2026-06-22",
+      "postcode": "NG25 0JN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, WESTGATE"
+    },
+    {
+      "price": 156000,
+      "date": "2026-06-19",
+      "postcode": "NG24 4FH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 4, 11, LORD HAWKE WAY"
+    },
+    {
+      "price": 562500,
+      "date": "2026-06-19",
+      "postcode": "NG23 5ST",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, ST MICHAELS VIEW"
+      "address": "BRAMLEY HOUSE, 21, MAIN STREET"
     },
     {
-      "price": 165000,
-      "date": "2026-05-20",
-      "postcode": "NG21 9PN",
+      "price": 263000,
+      "date": "2026-06-19",
+      "postcode": "NG24 3WD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "99, MARLESTON LANE"
+    },
+    {
+      "price": 190000,
+      "date": "2026-06-19",
+      "postcode": "NG24 3DE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, BROOME CLOSE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-06-19",
+      "postcode": "NG21 9GT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, CHAFFINCH CLOSE"
+    },
+    {
+      "price": 268000,
+      "date": "2026-06-17",
+      "postcode": "NG24 3AB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "163, LONDON ROAD"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-17",
+      "postcode": "NG24 4SU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3A, LONG LANE"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-15",
+      "postcode": "NG24 1NE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, SIXTH AVENUE"
+      "address": "5, LAWRENCE STREET"
     },
     {
-      "price": 135000,
-      "date": "2026-05-14",
-      "postcode": "NG24 4UR",
+      "price": 500000,
+      "date": "2026-06-15",
+      "postcode": "NG23 7PH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, PARLIAMENT STREET"
+      "address": "8A, SWINDERBY ROAD"
     },
     {
-      "price": 345000,
-      "date": "2026-05-14",
-      "postcode": "NG24 2GG",
-      "propertyType": "D",
+      "price": 134000,
+      "date": "2026-06-12",
+      "postcode": "NG24 3JQ",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, IRETON AVENUE"
+      "address": "15, STAPLE LANE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-06-12",
+      "postcode": "NG24 2AN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "139, WINTHORPE ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-12",
+      "postcode": "NG24 3EE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, VESSEY CLOSE"
     },
     {
       "price": 255000,
-      "date": "2026-05-13",
-      "postcode": "NG22 8SD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ARCHERS DRIVE"
-    },
-    {
-      "price": 580000,
-      "date": "2026-05-13",
-      "postcode": "NG25 0UP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, LONGMEAD DRIVE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-13",
-      "postcode": "NG24 1AB",
+      "date": "2026-06-12",
+      "postcode": "NG24 3AW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "36A, KIRK GATE"
+      "address": "42, MILTON STREET"
     },
     {
-      "price": 138000,
-      "date": "2026-05-12",
-      "postcode": "NG24 3BA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, SMITH STREET"
-    },
-    {
-      "price": 171000,
-      "date": "2026-05-11",
-      "postcode": "NG24 1PS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, KINGSNORTH CLOSE"
-    },
-    {
-      "price": 146000,
-      "date": "2026-05-08",
-      "postcode": "NG21 9QY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, MILL LANE"
-    },
-    {
-      "price": 140000,
-      "date": "2026-05-08",
-      "postcode": "NG21 0EU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, VERA CRESCENT"
-    },
-    {
-      "price": 152000,
-      "date": "2026-05-08",
-      "postcode": "NG24 2EF",
+      "price": 310000,
+      "date": "2026-06-12",
+      "postcode": "NG24 1NJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, CLARKS LANE"
+      "address": "16, WELLINGTON ROAD"
     },
     {
-      "price": 650000,
-      "date": "2026-05-08",
-      "postcode": "NG22 0DA",
+      "price": 249500,
+      "date": "2026-06-12",
+      "postcode": "NG21 9GY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "EAKRING METHODIST CHURCH, KIRKLINGTON ROAD"
-    },
-    {
-      "price": 260000,
-      "date": "2026-05-08",
-      "postcode": "NG24 2JX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, SHELDRAKE ROAD"
-    },
-    {
-      "price": 255000,
-      "date": "2026-05-07",
-      "postcode": "NG24 3AE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, ACACIA ROAD"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-07",
-      "postcode": "NG24 3GU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, COTTAGE CLOSE"
-    },
-    {
-      "price": 386000,
-      "date": "2026-05-07",
-      "postcode": "NG23 6JE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE BARN, GREAT NORTH ROAD"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-01",
-      "postcode": "NG24 4BU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "77, HATTON GARDENS"
-    },
-    {
-      "price": 189000,
-      "date": "2026-05-01",
-      "postcode": "NG24 4HQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, CLEVELAND SQUARE"
+      "address": "37, ROSEBAY GARDENS"
     }
   ],
   "monthlyHistory": [
@@ -207,8 +210,8 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 214000,
-      "transactions": 166
+      "medianPrice": 213000,
+      "transactions": 167
     },
     {
       "month": "2024-03",
@@ -268,7 +271,7 @@
     {
       "month": "2025-02",
       "medianPrice": 215000,
-      "transactions": 180
+      "transactions": 181
     },
     {
       "month": "2025-03",
@@ -283,74 +286,79 @@
     {
       "month": "2025-05",
       "medianPrice": 235000,
-      "transactions": 177
+      "transactions": 180
     },
     {
       "month": "2025-06",
       "medianPrice": 235000,
-      "transactions": 224
+      "transactions": 235
     },
     {
       "month": "2025-07",
-      "medianPrice": 207500,
-      "transactions": 213
+      "medianPrice": 210000,
+      "transactions": 229
     },
     {
       "month": "2025-08",
-      "medianPrice": 235000,
-      "transactions": 195
+      "medianPrice": 245000,
+      "transactions": 220
     },
     {
       "month": "2025-09",
       "medianPrice": 235000,
-      "transactions": 169
+      "transactions": 185
     },
     {
       "month": "2025-10",
-      "medianPrice": 219000,
-      "transactions": 218
+      "medianPrice": 220000,
+      "transactions": 224
     },
     {
       "month": "2025-11",
       "medianPrice": 235000,
-      "transactions": 168
+      "transactions": 171
     },
     {
       "month": "2025-12",
       "medianPrice": 230000,
-      "transactions": 156
+      "transactions": 166
     },
     {
       "month": "2026-01",
-      "medianPrice": 225000,
-      "transactions": 95
+      "medianPrice": 230000,
+      "transactions": 103
     },
     {
       "month": "2026-02",
       "medianPrice": 235000,
-      "transactions": 115
+      "transactions": 119
     },
     {
       "month": "2026-03",
-      "medianPrice": 230000,
-      "transactions": 123
+      "medianPrice": 236500,
+      "transactions": 126
     },
     {
       "month": "2026-04",
-      "medianPrice": 207500,
-      "transactions": 96
+      "medianPrice": 215000,
+      "transactions": 113
     },
     {
       "month": "2026-05",
-      "medianPrice": 220000,
-      "transactions": 24
+      "medianPrice": 205000,
+      "transactions": 89
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 230000,
+      "transactions": 42
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 225000,
-      "transactions": 477
+      "medianPrice": 224000,
+      "transactions": 478
     },
     {
       "quarter": "2024-Q2",
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 225000,
-      "transactions": 685
+      "transactions": 686
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 231500,
-      "transactions": 501
+      "medianPrice": 235000,
+      "transactions": 515
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 227000,
-      "transactions": 577
+      "medianPrice": 232498,
+      "transactions": 634
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 229000,
-      "transactions": 542
+      "medianPrice": 230000,
+      "transactions": 561
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 230000,
-      "transactions": 333
+      "medianPrice": 235000,
+      "transactions": 348
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 212500,
-      "transactions": 120
+      "medianPrice": 213750,
+      "transactions": 244
     }
   ]
 }

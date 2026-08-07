@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.209Z",
+  "updatedAt": "2026-08-07T08:45:02.358Z",
   "townSlug": "bedworth",
   "countySlug": "warwickshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NUNEATON AND BEDWORTH"
+  ],
   "stats": {
-    "medianPrice": 229000,
+    "medianPrice": 230000,
     "medianByType": {
-      "D": 343500,
-      "S": 232000,
-      "T": 175000,
+      "D": 340000,
+      "S": 240000,
+      "T": 176000,
       "F": 110000
     },
     "transactionCount12m": 328,
-    "yoyChange": -3.8,
-    "newBuildCount": 14,
-    "existingCount": 314,
-    "newBuildPremium": 62.9
+    "yoyChange": -4.2,
+    "newBuildCount": 9,
+    "existingCount": 319,
+    "newBuildPremium": 113
   },
   "recentTransactions": [
     {
-      "price": 260000,
-      "date": "2026-05-13",
-      "postcode": "CV12 9BQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, PINE TREE ROAD"
-    },
-    {
-      "price": 365000,
-      "date": "2026-05-11",
-      "postcode": "CV12 0NN",
+      "price": 255000,
+      "date": "2026-06-19",
+      "postcode": "CV12 0GU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, DOVE CLOSE"
+      "address": "5, JASMINE WAY"
     },
     {
-      "price": 225000,
-      "date": "2026-05-08",
-      "postcode": "CV12 8BS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, AMOS JACQUES ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-07",
-      "postcode": "CV12 0JF",
+      "price": 260000,
+      "date": "2026-06-19",
+      "postcode": "CV12 8EF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, MAYNARD AVENUE"
+      "address": "37, NEWDIGATE ROAD"
+    },
+    {
+      "price": 263000,
+      "date": "2026-06-15",
+      "postcode": "CV12 8SD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "73, GALLAGHER ROAD"
+    },
+    {
+      "price": 173000,
+      "date": "2026-06-12",
+      "postcode": "CV12 0JN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "231, SMORRALL LANE"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-12",
+      "postcode": "CV12 8AJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, THE LEYS"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-10",
+      "postcode": "CV12 8ED",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, MARGARET AVENUE"
     },
     {
       "price": 385000,
-      "date": "2026-05-07",
-      "postcode": "CV12 9RS",
+      "date": "2026-06-08",
+      "postcode": "CV12 0NY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "34, WESTON LANE"
+      "address": "11, JUNIPER CLOSE"
     },
     {
-      "price": 265000,
-      "date": "2026-04-24",
-      "postcode": "CV12 9PE",
+      "price": 227500,
+      "date": "2026-06-05",
+      "postcode": "CV12 0LD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, HEMSWORTH DRIVE"
+      "address": "469, SMORRALL LANE"
     },
     {
-      "price": 260000,
-      "date": "2026-04-24",
-      "postcode": "CV12 8TE",
+      "price": 210000,
+      "date": "2026-06-05",
+      "postcode": "CV12 9RQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, EPSOM CLOSE"
+      "address": "52, BARNACLE LANE"
     },
     {
-      "price": 195000,
-      "date": "2026-04-24",
-      "postcode": "CV12 0EH",
+      "price": 157000,
+      "date": "2026-06-05",
+      "postcode": "CV12 0ET",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, KEENAN DRIVE"
+      "address": "18, RAYNOR CRESCENT"
     },
     {
-      "price": 302500,
-      "date": "2026-04-24",
-      "postcode": "CV12 9LJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "91, BEDWORTH ROAD"
-    },
-    {
-      "price": 196500,
-      "date": "2026-04-24",
-      "postcode": "CV12 8QP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "108, NEWTOWN ROAD"
-    },
-    {
-      "price": 75000,
-      "date": "2026-04-17",
-      "postcode": "CV12 8QS",
+      "price": 187000,
+      "date": "2026-06-03",
+      "postcode": "CV12 8BB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "60, NEWTOWN ROAD"
+      "address": "133, WOOD STREET"
     },
     {
-      "price": 350000,
-      "date": "2026-04-17",
+      "price": 260000,
+      "date": "2026-06-03",
+      "postcode": "CV12 9ST",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, TEWKESBURY DRIVE"
+    },
+    {
+      "price": 147000,
+      "date": "2026-06-01",
+      "postcode": "CV12 9DR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "108, BULKINGTON ROAD"
+    },
+    {
+      "price": 340000,
+      "date": "2026-05-29",
       "postcode": "CV12 8AJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, THE LEYS"
+      "address": "24, THE LEYS"
     },
     {
-      "price": 215000,
-      "date": "2026-04-10",
-      "postcode": "CV12 8TE",
+      "price": 98000,
+      "date": "2026-05-29",
+      "postcode": "CV12 0PF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, BOVENEY, BEDE VILLAGE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-05-22",
+      "postcode": "CV12 0LJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, EPSOM CLOSE"
+      "address": "11, LINDLEY ROAD"
     },
     {
-      "price": 205000,
-      "date": "2026-04-10",
-      "postcode": "CV12 9BZ",
+      "price": 236000,
+      "date": "2026-05-22",
+      "postcode": "CV12 8HQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "121, ACACIA CRESCENT"
+      "address": "2, TULLIVER CLOSE"
     },
     {
-      "price": 232000,
-      "date": "2026-04-10",
-      "postcode": "CV12 9BY",
+      "price": 240000,
+      "date": "2026-05-15",
+      "postcode": "CV12 9HS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, ACACIA CRESCENT"
+      "address": "5A, COALPIT FIELDS ROAD"
     },
     {
-      "price": 183250,
-      "date": "2026-04-10",
-      "postcode": "CV12 8BL",
-      "propertyType": "T",
+      "price": 362500,
+      "date": "2026-05-15",
+      "postcode": "CV12 0GL",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, JOHN KNIGHT ROAD"
+      "address": "4, PRIMROSE DRIVE"
     },
     {
-      "price": 148000,
-      "date": "2026-04-09",
-      "postcode": "CV12 0HY",
-      "propertyType": "T",
+      "price": 355000,
+      "date": "2026-05-15",
+      "postcode": "CV12 0GL",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "328, GOODYERS END LANE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-04-08",
-      "postcode": "CV12 8AP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "65, NUNEATON ROAD"
-    },
-    {
-      "price": 253000,
-      "date": "2026-04-07",
-      "postcode": "CV12 9PT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, CARLTON CLOSE"
-    },
-    {
-      "price": 170000,
-      "date": "2026-03-31",
-      "postcode": "CV12 0EJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "87, KEENAN DRIVE"
+      "address": "35, PRIMROSE DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 287500,
-      "transactions": 42
+      "medianPrice": 285000,
+      "transactions": 43
     },
     {
       "month": "2024-11",
@@ -292,58 +295,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 240000,
-      "transactions": 47
+      "medianPrice": 232000,
+      "transactions": 50
     },
     {
       "month": "2025-08",
-      "medianPrice": 222000,
-      "transactions": 49
+      "medianPrice": 222250,
+      "transactions": 50
     },
     {
       "month": "2025-09",
-      "medianPrice": 237000,
-      "transactions": 41
+      "medianPrice": 231000,
+      "transactions": 42
     },
     {
       "month": "2025-10",
-      "medianPrice": 258000,
-      "transactions": 31
+      "medianPrice": 259000,
+      "transactions": 32
     },
     {
       "month": "2025-11",
-      "medianPrice": 238000,
-      "transactions": 38
+      "medianPrice": 240000,
+      "transactions": 39
     },
     {
       "month": "2025-12",
       "medianPrice": 240000,
-      "transactions": 37
+      "transactions": 44
     },
     {
       "month": "2026-01",
-      "medianPrice": 205000,
-      "transactions": 22
+      "medianPrice": 260000,
+      "transactions": 25
     },
     {
       "month": "2026-02",
       "medianPrice": 215000,
-      "transactions": 24
+      "transactions": 25
     },
     {
       "month": "2026-03",
-      "medianPrice": 210000,
-      "transactions": 29
+      "medianPrice": 200000,
+      "transactions": 31
     },
     {
       "month": "2026-04",
-      "medianPrice": 210000,
-      "transactions": 14
+      "medianPrice": 215000,
+      "transactions": 19
     },
     {
       "month": "2026-05",
       "medianPrice": 260000,
-      "transactions": 5
+      "transactions": 15
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 240000,
+      "transactions": 13
     }
   ],
   "quarterlyHistory": [
@@ -364,8 +372,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 249000,
-      "transactions": 132
+      "medianPrice": 248000,
+      "transactions": 133
     },
     {
       "quarter": "2025-Q1",
@@ -380,22 +388,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 230000,
-      "transactions": 137
+      "transactions": 142
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 241250,
-      "transactions": 106
+      "medianPrice": 240000,
+      "transactions": 115
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 211000,
-      "transactions": 75
+      "transactions": 81
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 225000,
-      "transactions": 19
+      "medianPrice": 240000,
+      "transactions": 47
     }
   ]
 }

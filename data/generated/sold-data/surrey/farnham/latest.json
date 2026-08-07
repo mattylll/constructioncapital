@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.218Z",
+  "updatedAt": "2026-08-07T08:45:01.321Z",
   "townSlug": "farnham",
   "countySlug": "surrey",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WAVERLEY"
+  ],
   "stats": {
-    "medianPrice": 540000,
+    "medianPrice": 535000,
     "medianByType": {
       "D": 825000,
-      "S": 546250,
-      "T": 422500,
-      "F": 270000
+      "S": 537500,
+      "T": 417500,
+      "F": 268750
     },
-    "transactionCount12m": 1475,
-    "yoyChange": 0.9,
-    "newBuildCount": 16,
-    "existingCount": 1459,
-    "newBuildPremium": -22.2
+    "transactionCount12m": 1429,
+    "yoyChange": -0.9,
+    "newBuildCount": 17,
+    "existingCount": 1412,
+    "newBuildPremium": -28.7
   },
   "recentTransactions": [
     {
-      "price": 299950,
-      "date": "2026-05-26",
-      "postcode": "GU27 1SA",
+      "price": 250000,
+      "date": "2026-06-26",
+      "postcode": "GU7 1DG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, MILL CLOSE"
+      "address": "17, TOWN END CLOSE"
     },
     {
-      "price": 500000,
-      "date": "2026-05-22",
-      "postcode": "GU7 1YZ",
+      "price": 915000,
+      "date": "2026-06-25",
+      "postcode": "GU10 2PQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, PARKHURST FIELDS"
+    },
+    {
+      "price": 750000,
+      "date": "2026-06-24",
+      "postcode": "GU6 8PN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, LAMMAS CLOSE"
+      "address": "ACORNS, ROWLY DRIVE"
+    },
+    {
+      "price": 405000,
+      "date": "2026-06-22",
+      "postcode": "GU5 0BB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WINDRUSH CLOSE"
+    },
+    {
+      "price": 369500,
+      "date": "2026-06-19",
+      "postcode": "GU9 8PE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, ARTHUR CLOSE"
     },
     {
       "price": 535000,
-      "date": "2026-05-22",
-      "postcode": "GU9 0QY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, SOUTH AVENUE"
-    },
-    {
-      "price": 385000,
-      "date": "2026-05-21",
-      "postcode": "GU8 5NB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, WILLOW MEWS"
-    },
-    {
-      "price": 825000,
-      "date": "2026-05-20",
-      "postcode": "GU8 4RZ",
+      "date": "2026-06-19",
+      "postcode": "GU8 5RD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, ASH COMBE"
+      "address": "64, CRAMHURST LANE"
     },
     {
-      "price": 690000,
-      "date": "2026-05-19",
-      "postcode": "GU10 3EA",
+      "price": 388000,
+      "date": "2026-06-19",
+      "postcode": "GU9 7BH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, ST MARYS COTTAGES, THE STREET"
+      "address": "20, WAYNFLETE LANE"
     },
     {
-      "price": 705000,
-      "date": "2026-05-15",
-      "postcode": "GU10 2DD",
+      "price": 383000,
+      "date": "2026-06-18",
+      "postcode": "GU9 0HU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, STOCKBRIDGE COTTAGES, TILFORD ROAD"
+      "address": "13, FOLLY LANE NORTH"
     },
     {
-      "price": 645000,
-      "date": "2026-05-15",
-      "postcode": "GU8 5BE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, NEW ROAD"
-    },
-    {
-      "price": 975000,
-      "date": "2026-05-15",
-      "postcode": "GU8 5DS",
+      "price": 697500,
+      "date": "2026-06-18",
+      "postcode": "GU9 0SB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "HUNTERS PRIDE, PORTSMOUTH ROAD"
+      "address": "5, TRINITY FIELDS"
     },
     {
-      "price": 385000,
-      "date": "2026-05-15",
-      "postcode": "GU7 3AS",
+      "price": 550000,
+      "date": "2026-06-18",
+      "postcode": "GU6 7PU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, RECTORY CLOSE"
+    },
+    {
+      "price": 660000,
+      "date": "2026-06-17",
+      "postcode": "GU8 6DQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "LAWSONIA, MARSHALL ROAD"
+      "address": "14, WEST HILL"
     },
     {
-      "price": 380000,
-      "date": "2026-05-15",
-      "postcode": "GU6 8TQ",
+      "price": 1250000,
+      "date": "2026-06-17",
+      "postcode": "GU10 3JS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, LONGDOWN ROAD"
+    },
+    {
+      "price": 320000,
+      "date": "2026-06-16",
+      "postcode": "GU9 0EQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "245, LYALL PLACE"
+    },
+    {
+      "price": 865000,
+      "date": "2026-06-16",
+      "postcode": "GU9 8SY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, GREENHILL WAY"
+    },
+    {
+      "price": 592600,
+      "date": "2026-06-15",
+      "postcode": "GU8 5HA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, GEORGE ROAD"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-15",
+      "postcode": "GU8 5EX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "4, JACKSON CLOSE"
+      "address": "FLAT 20, BUTLERS PLACE, PORTSMOUTH ROAD"
     },
     {
-      "price": 215000,
-      "date": "2026-05-14",
-      "postcode": "GU26 6FR",
+      "price": 406000,
+      "date": "2026-06-15",
+      "postcode": "GU8 5NL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, MIDDLEMARCH"
+    },
+    {
+      "price": 1328000,
+      "date": "2026-06-12",
+      "postcode": "GU7 1PD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DOVE HOUSE, THE DRIVE"
+    },
+    {
+      "price": 1290000,
+      "date": "2026-06-12",
+      "postcode": "GU8 5JW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, UPPER MANOR ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-06-12",
+      "postcode": "GU9 7QD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "2, PEVENSEY, BEACON HILL ROAD"
-    },
-    {
-      "price": 650000,
-      "date": "2026-05-12",
-      "postcode": "GU6 8BT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, HERON SHAW"
-    },
-    {
-      "price": 562500,
-      "date": "2026-05-12",
-      "postcode": "GU9 9FF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, STANLEY CLOSE"
-    },
-    {
-      "price": 850000,
-      "date": "2026-05-11",
-      "postcode": "GU6 7FY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, BRAMLEY VALE"
-    },
-    {
-      "price": 620000,
-      "date": "2026-05-11",
-      "postcode": "GU6 8WP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, KEY DRIVE"
-    },
-    {
-      "price": 395000,
-      "date": "2026-05-11",
-      "postcode": "GU10 2NZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, TYLNEY WOOD"
-    },
-    {
-      "price": 480000,
-      "date": "2026-05-11",
-      "postcode": "GU7 2LW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, THE HORSESHOE"
-    },
-    {
-      "price": 412000,
-      "date": "2026-05-08",
-      "postcode": "GU5 0AS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "APRIL COTTAGE, SNOWDENHAM LANE"
-    },
-    {
-      "price": 471700,
-      "date": "2026-05-08",
-      "postcode": "GU9 0QD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, ELM ROAD"
+      "address": "9, FIRGROVE COURT"
     }
   ],
   "monthlyHistory": [
@@ -207,8 +210,8 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 530000,
-      "transactions": 134
+      "medianPrice": 535000,
+      "transactions": 133
     },
     {
       "month": "2024-03",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 515000,
-      "transactions": 360
+      "transactions": 363
     },
     {
       "month": "2025-04",
@@ -283,74 +286,79 @@
     {
       "month": "2025-05",
       "medianPrice": 485000,
-      "transactions": 123
+      "transactions": 124
     },
     {
       "month": "2025-06",
-      "medianPrice": 540000,
-      "transactions": 161
+      "medianPrice": 544975,
+      "transactions": 162
     },
     {
       "month": "2025-07",
-      "medianPrice": 573750,
-      "transactions": 218
+      "medianPrice": 567000,
+      "transactions": 223
     },
     {
       "month": "2025-08",
       "medianPrice": 550000,
-      "transactions": 228
+      "transactions": 246
     },
     {
       "month": "2025-09",
-      "medianPrice": 582740,
-      "transactions": 169
+      "medianPrice": 568750,
+      "transactions": 176
     },
     {
       "month": "2025-10",
-      "medianPrice": 570000,
-      "transactions": 161
+      "medianPrice": 565000,
+      "transactions": 163
     },
     {
       "month": "2025-11",
-      "medianPrice": 550000,
-      "transactions": 143
+      "medianPrice": 565000,
+      "transactions": 150
     },
     {
       "month": "2025-12",
-      "medianPrice": 564000,
-      "transactions": 127
+      "medianPrice": 577000,
+      "transactions": 141
     },
     {
       "month": "2026-01",
-      "medianPrice": 500000,
-      "transactions": 131
+      "medianPrice": 525000,
+      "transactions": 141
     },
     {
       "month": "2026-02",
-      "medianPrice": 485000,
-      "transactions": 119
+      "medianPrice": 495000,
+      "transactions": 128
     },
     {
       "month": "2026-03",
-      "medianPrice": 523500,
-      "transactions": 97
+      "medianPrice": 502500,
+      "transactions": 100
     },
     {
       "month": "2026-04",
-      "medianPrice": 499999,
-      "transactions": 83
+      "medianPrice": 502500,
+      "transactions": 88
     },
     {
       "month": "2026-05",
-      "medianPrice": 553500,
-      "transactions": 38
+      "medianPrice": 500000,
+      "transactions": 92
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 586300,
+      "transactions": 50
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 540000,
-      "transactions": 436
+      "transactions": 435
     },
     {
       "quarter": "2024-Q2",
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 528000,
-      "transactions": 677
+      "medianPrice": 526500,
+      "transactions": 680
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 532500,
-      "transactions": 368
+      "medianPrice": 537500,
+      "transactions": 370
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 565000,
-      "transactions": 615
+      "medianPrice": 560000,
+      "transactions": 645
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 564000,
-      "transactions": 431
+      "medianPrice": 571250,
+      "transactions": 454
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 500000,
-      "transactions": 347
+      "transactions": 369
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 515000,
-      "transactions": 121
+      "medianPrice": 512500,
+      "transactions": 230
     }
   ]
 }

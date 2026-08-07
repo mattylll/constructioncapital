@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.640Z",
+  "updatedAt": "2026-08-07T08:45:01.767Z",
   "townSlug": "canvey-island",
   "countySlug": "essex",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CASTLE POINT"
+  ],
   "stats": {
     "medianPrice": 365000,
     "medianByType": {
       "D": 448250,
       "S": 363000,
-      "T": 305000,
+      "T": 300000,
       "F": 220000
     },
-    "transactionCount12m": 944,
-    "yoyChange": 2.8,
-    "newBuildCount": 0,
-    "existingCount": 944,
+    "transactionCount12m": 934,
+    "yoyChange": 1.4,
+    "newBuildCount": 1,
+    "existingCount": 933,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 375000,
-      "date": "2026-05-27",
-      "postcode": "SS7 3HB",
+      "price": 320000,
+      "date": "2026-06-19",
+      "postcode": "SS7 3RT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "446, CHURCH ROAD"
+      "address": "33, SAYERS"
     },
     {
-      "price": 495000,
-      "date": "2026-05-27",
-      "postcode": "SS7 4EF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, ARUNDEL ROAD"
-    },
-    {
-      "price": 435000,
-      "date": "2026-05-21",
-      "postcode": "SS7 5PB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "93, CUMBERLAND AVENUE"
-    },
-    {
-      "price": 640000,
-      "date": "2026-05-20",
-      "postcode": "SS8 9PU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, GEORGE CLOSE"
-    },
-    {
-      "price": 441000,
-      "date": "2026-05-20",
-      "postcode": "SS8 7HJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, WHITEWAYS"
-    },
-    {
-      "price": 390000,
-      "date": "2026-05-19",
-      "postcode": "SS7 1EG",
+      "price": 385000,
+      "date": "2026-06-18",
+      "postcode": "SS7 4ET",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "77, THUNDERSLEY PARK ROAD"
+      "address": "3, CHANCEL CLOSE"
     },
     {
-      "price": 220000,
-      "date": "2026-05-18",
-      "postcode": "SS7 2RQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12, TEMPLEWOOD COURT"
-    },
-    {
-      "price": 159852,
-      "date": "2026-05-15",
-      "postcode": "SS7 2AB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "20B, HOMESTEAD GARDENS"
-    },
-    {
-      "price": 475000,
-      "date": "2026-05-14",
-      "postcode": "SS7 5AR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, ELM VIEW ROAD"
-    },
-    {
-      "price": 430000,
-      "date": "2026-05-13",
-      "postcode": "SS7 5DG",
+      "price": 462500,
+      "date": "2026-06-18",
+      "postcode": "SS7 4DA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, WOODHAM ROAD"
+      "address": "28, LOUISA AVENUE"
     },
     {
-      "price": 212500,
-      "date": "2026-05-12",
-      "postcode": "SS7 2ED",
-      "propertyType": "F",
+      "price": 520000,
+      "date": "2026-06-18",
+      "postcode": "SS7 2ET",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, EVERGLADES, LONDON ROAD"
+      "tenure": "F",
+      "address": "123, WOODFIELD ROAD"
     },
     {
-      "price": 255000,
-      "date": "2026-05-12",
-      "postcode": "SS7 1AX",
-      "propertyType": "F",
+      "price": 425000,
+      "date": "2026-06-17",
+      "postcode": "SS8 0BP",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 2, MANNA HEIGHTS, LONDON ROAD"
+      "tenure": "F",
+      "address": "12, ROSE ROAD"
     },
     {
       "price": 335000,
-      "date": "2026-05-08",
-      "postcode": "SS8 9NU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, ASHLEIGH CLOSE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-08",
-      "postcode": "SS8 8PA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, WINTERSWYK AVENUE"
-    },
-    {
-      "price": 405000,
-      "date": "2026-05-07",
-      "postcode": "SS7 3AY",
+      "date": "2026-06-15",
+      "postcode": "SS8 0LR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, KINGS PARK"
+      "address": "8, EDITH CLOSE"
     },
     {
-      "price": 740000,
-      "date": "2026-05-05",
-      "postcode": "SS7 3LX",
+      "price": 390000,
+      "date": "2026-06-15",
+      "postcode": "SS8 8LJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "HALCYON LODGE, GREAT BURCHES ROAD"
+      "address": "66, HALLET ROAD"
     },
     {
-      "price": 7169996,
-      "date": "2026-05-01",
-      "postcode": "",
-      "propertyType": "O",
+      "price": 290000,
+      "date": "2026-06-15",
+      "postcode": "SS8 9NE",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "PLOTS 1-44, HART GROVE"
+      "address": "27, ST AGNES DRIVE"
     },
     {
-      "price": 180000,
-      "date": "2026-05-01",
-      "postcode": "SS8 7HL",
+      "price": 540000,
+      "date": "2026-06-12",
+      "postcode": "SS7 5AL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "34, HANDEL ROAD"
+      "address": "462, HIGH ROAD"
     },
     {
-      "price": 300000,
-      "date": "2026-05-01",
-      "postcode": "SS7 4LH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, MANDEVILLE WAY"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-01",
-      "postcode": "SS7 1FG",
+      "price": 197500,
+      "date": "2026-06-12",
+      "postcode": "SS7 4BY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "8, ROBINS PATH"
+      "address": "FLAT 2, SAXON COURT, LONDON ROAD"
+    },
+    {
+      "price": 435000,
+      "date": "2026-06-12",
+      "postcode": "SS8 8DY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, DOVERVELT ROAD"
+    },
+    {
+      "price": 360000,
+      "date": "2026-06-12",
+      "postcode": "SS8 8NU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, BAARDWYK AVENUE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-12",
+      "postcode": "SS7 3PY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 18, ASTON PLACE, HART ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-11",
+      "postcode": "SS7 5SF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "635, HIGH ROAD"
+    },
+    {
+      "price": 652500,
+      "date": "2026-06-09",
+      "postcode": "SS8 0GX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, HEATHER CLOSE"
+    },
+    {
+      "price": 578000,
+      "date": "2026-06-08",
+      "postcode": "SS7 2LS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, ORCHILL DRIVE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-08",
+      "postcode": "SS8 9RH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "100, CHURCH PARADE"
+    },
+    {
+      "price": 600000,
+      "date": "2026-06-05",
+      "postcode": "SS7 1HD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, FERNLEA ROAD"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-05",
+      "postcode": "SS8 7PE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, DOVERCLIFF ROAD"
+    },
+    {
+      "price": 243500,
+      "date": "2026-06-05",
+      "postcode": "SS8 9AN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "85, THELMA AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -282,8 +285,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 330000,
-      "transactions": 91
+      "medianPrice": 332500,
+      "transactions": 92
     },
     {
       "month": "2025-06",
@@ -293,42 +296,42 @@
     {
       "month": "2025-07",
       "medianPrice": 375000,
-      "transactions": 133
+      "transactions": 138
     },
     {
       "month": "2025-08",
-      "medianPrice": 368000,
-      "transactions": 109
+      "medianPrice": 366500,
+      "transactions": 116
     },
     {
       "month": "2025-09",
       "medianPrice": 350000,
-      "transactions": 101
+      "transactions": 105
     },
     {
       "month": "2025-10",
       "medianPrice": 375000,
-      "transactions": 125
+      "transactions": 127
     },
     {
       "month": "2025-11",
-      "medianPrice": 355000,
-      "transactions": 95
+      "medianPrice": 365000,
+      "transactions": 100
     },
     {
       "month": "2025-12",
-      "medianPrice": 370000,
-      "transactions": 104
+      "medianPrice": 375000,
+      "transactions": 115
     },
     {
       "month": "2026-01",
-      "medianPrice": 350250,
-      "transactions": 60
+      "medianPrice": 375000,
+      "transactions": 68
     },
     {
       "month": "2026-02",
-      "medianPrice": 334000,
-      "transactions": 82
+      "medianPrice": 345000,
+      "transactions": 84
     },
     {
       "month": "2026-03",
@@ -338,12 +341,17 @@
     {
       "month": "2026-04",
       "medianPrice": 350000,
-      "transactions": 55
+      "transactions": 61
     },
     {
       "month": "2026-05",
-      "medianPrice": 382500,
-      "transactions": 24
+      "medianPrice": 393500,
+      "transactions": 62
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 364000,
+      "transactions": 34
     }
   ],
   "quarterlyHistory": [
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 355000,
-      "transactions": 264
+      "transactions": 265
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 368000,
-      "transactions": 343
+      "transactions": 359
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 371000,
-      "transactions": 324
+      "medianPrice": 375000,
+      "transactions": 342
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 350000,
-      "transactions": 226
+      "medianPrice": 355000,
+      "transactions": 236
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 375000,
-      "transactions": 79
+      "transactions": 157
     }
   ]
 }

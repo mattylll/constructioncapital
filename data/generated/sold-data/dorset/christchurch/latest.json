@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.946Z",
+  "updatedAt": "2026-08-07T08:45:02.088Z",
   "townSlug": "christchurch",
   "countySlug": "dorset",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BOURNEMOUTH, CHRISTCHURCH AND POOLE",
+    "CHRISTCHURCH"
+  ],
   "stats": {
-    "medianPrice": 410000,
+    "medianPrice": 415000,
     "medianByType": {
-      "D": 538750,
-      "S": 383750,
-      "T": 337750,
-      "F": 220000
+      "D": 535000,
+      "S": 385000,
+      "T": 337500,
+      "F": 217500
     },
-    "transactionCount12m": 694,
-    "yoyChange": -0.3,
-    "newBuildCount": 3,
-    "existingCount": 691,
-    "newBuildPremium": -26.8
+    "transactionCount12m": 706,
+    "yoyChange": 0,
+    "newBuildCount": 1,
+    "existingCount": 705,
+    "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 445000,
-      "date": "2026-05-22",
-      "postcode": "BH23 2RQ",
+      "price": 243000,
+      "date": "2026-06-26",
+      "postcode": "BH23 4PP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "25, HOBURNE GARDENS"
+    },
+    {
+      "price": 810000,
+      "date": "2026-06-25",
+      "postcode": "BH23 7NY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, RIMBURY WAY"
+      "address": "90, WHITEHAYES ROAD"
     },
     {
-      "price": 425000,
-      "date": "2026-05-22",
+      "price": 545000,
+      "date": "2026-06-23",
+      "postcode": "BH23 5HW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3C, SEATON ROAD"
+    },
+    {
+      "price": 545000,
+      "date": "2026-06-19",
+      "postcode": "BH23 4LY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, SORRELL WAY"
+    },
+    {
+      "price": 675000,
+      "date": "2026-06-19",
+      "postcode": "BH23 2PD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "88, HURN WAY"
+    },
+    {
+      "price": 292500,
+      "date": "2026-06-19",
+      "postcode": "BH23 3EE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, LE PATOUREL CLOSE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-19",
+      "postcode": "BH23 5DT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 4, BELVEDERE, 6, WORTLEY ROAD"
+    },
+    {
+      "price": 415000,
+      "date": "2026-06-19",
+      "postcode": "BH23 2DG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, AVON ROAD WEST"
+    },
+    {
+      "price": 410000,
+      "date": "2026-06-19",
+      "postcode": "BH23 3HN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, MUDEFORD LANE"
+    },
+    {
+      "price": 500000,
+      "date": "2026-06-19",
+      "postcode": "BH23 4NT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, THE MEADWAY"
+    },
+    {
+      "price": 515000,
+      "date": "2026-06-19",
+      "postcode": "BH23 4BE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, DUNLIN CLOSE"
+    },
+    {
+      "price": 329950,
+      "date": "2026-06-19",
+      "postcode": "BH23 5SG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "91, PLANTATION DRIVE"
+    },
+    {
+      "price": 580000,
+      "date": "2026-06-18",
+      "postcode": "BH23 7NZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE GATE HOUSE, 1, THE GREEN"
+    },
+    {
+      "price": 700000,
+      "date": "2026-06-18",
+      "postcode": "BH23 5RR",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27A, PINEWOOD CLOSE"
+    },
+    {
+      "price": 470000,
+      "date": "2026-06-17",
       "postcode": "BH23 2UF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, REGENCY CRESCENT"
+      "address": "41, REGENCY CRESCENT"
     },
     {
-      "price": 126000,
-      "date": "2026-05-21",
-      "postcode": "BH23 5HD",
+      "price": 275000,
+      "date": "2026-06-17",
+      "postcode": "BH23 5DR",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 18, SEWARD COURT, 380 - 396, LYMINGTON ROAD"
+      "address": "FLAT 10, EDWARDS COURT 9-11, WORTLEY ROAD"
     },
     {
-      "price": 825000,
-      "date": "2026-05-19",
-      "postcode": "BH23 1JD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, ST MARGARETS AVENUE"
-    },
-    {
-      "price": 445000,
-      "date": "2026-05-18",
-      "postcode": "BH23 2RQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, RIMBURY WAY"
-    },
-    {
-      "price": 670000,
-      "date": "2026-05-18",
-      "postcode": "BH23 1NX",
+      "price": 363000,
+      "date": "2026-06-17",
+      "postcode": "BH23 5TA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, CREEDY DRIVE"
+      "address": "7, NORLEYWOOD"
     },
     {
-      "price": 260000,
-      "date": "2026-05-18",
-      "postcode": "BH23 3RB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, BRIAR CLOSE"
-    },
-    {
-      "price": 473000,
-      "date": "2026-05-15",
-      "postcode": "BH23 4NU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, THE MEADWAY"
-    },
-    {
-      "price": 547500,
-      "date": "2026-05-12",
-      "postcode": "BH23 4TD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BEAUFORT CLOSE"
-    },
-    {
-      "price": 420000,
-      "date": "2026-05-11",
-      "postcode": "BH23 4NQ",
+      "price": 400000,
+      "date": "2026-06-16",
+      "postcode": "BH23 5BW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "44, SMUGGLERS LANE NORTH"
+      "address": "43, MERLEY DRIVE"
     },
     {
-      "price": 470000,
-      "date": "2026-05-08",
-      "postcode": "BH23 5NQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, CHANTRY CLOSE"
-    },
-    {
-      "price": 621000,
-      "date": "2026-05-08",
-      "postcode": "BH23 7JT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "215, SALISBURY ROAD"
-    },
-    {
-      "price": 585000,
-      "date": "2026-05-08",
-      "postcode": "BH23 4BQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, RAVEN WAY"
-    },
-    {
-      "price": 635000,
-      "date": "2026-05-08",
-      "postcode": "BH23 2PW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, CHESTNUT AVENUE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-08",
-      "postcode": "BH23 4TY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, BUTTERCUP DRIVE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-08",
-      "postcode": "BH23 7HN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, BARLANDS CLOSE"
-    },
-    {
-      "price": 480000,
-      "date": "2026-05-08",
-      "postcode": "BH23 5NJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, LATIMERS CLOSE"
-    },
-    {
-      "price": 355000,
-      "date": "2026-05-07",
-      "postcode": "BH23 2PU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, WILDFELL CLOSE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-06",
-      "postcode": "BH23 3EL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "24A, EDWARD ROAD"
-    },
-    {
-      "price": 95000,
-      "date": "2026-05-06",
-      "postcode": "BH23 5HG",
+      "price": 450000,
+      "date": "2026-06-16",
+      "postcode": "BH23 5DT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 14, HOMECLIFFE HOUSE, 466 - 470, LYMINGTON ROAD"
+      "address": "FLAT 9, DANEHOUSE LODGE, 8, WORTLEY ROAD"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-12",
+      "postcode": "BH23 2AB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "77, CLARENDON ROAD"
     }
   ],
   "monthlyHistory": [
@@ -227,8 +231,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 362500,
-      "transactions": 70
+      "medianPrice": 360000,
+      "transactions": 71
     },
     {
       "month": "2024-07",
@@ -272,13 +276,13 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 385000,
-      "transactions": 139
+      "medianPrice": 387500,
+      "transactions": 140
     },
     {
       "month": "2025-04",
-      "medianPrice": 390000,
-      "transactions": 26
+      "medianPrice": 397000,
+      "transactions": 27
     },
     {
       "month": "2025-05",
@@ -287,48 +291,48 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 352500,
-      "transactions": 55
+      "medianPrice": 353750,
+      "transactions": 54
     },
     {
       "month": "2025-07",
-      "medianPrice": 390000,
-      "transactions": 67
+      "medianPrice": 395800,
+      "transactions": 68
     },
     {
       "month": "2025-08",
-      "medianPrice": 430000,
-      "transactions": 109
+      "medianPrice": 431500,
+      "transactions": 110
     },
     {
       "month": "2025-09",
-      "medianPrice": 484750,
-      "transactions": 76
+      "medianPrice": 482500,
+      "transactions": 81
     },
     {
       "month": "2025-10",
-      "medianPrice": 405000,
-      "transactions": 85
+      "medianPrice": 402500,
+      "transactions": 86
     },
     {
       "month": "2025-11",
-      "medianPrice": 402500,
-      "transactions": 72
+      "medianPrice": 405000,
+      "transactions": 73
     },
     {
       "month": "2025-12",
       "medianPrice": 390000,
-      "transactions": 63
+      "transactions": 69
     },
     {
       "month": "2026-01",
-      "medianPrice": 355000,
-      "transactions": 67
+      "medianPrice": 361250,
+      "transactions": 74
     },
     {
       "month": "2026-02",
-      "medianPrice": 346500,
-      "transactions": 42
+      "medianPrice": 358500,
+      "transactions": 46
     },
     {
       "month": "2026-03",
@@ -337,13 +341,18 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 415000,
-      "transactions": 42
+      "medianPrice": 430000,
+      "transactions": 43
     },
     {
       "month": "2026-05",
-      "medianPrice": 425000,
-      "transactions": 23
+      "medianPrice": 435000,
+      "transactions": 46
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 420000,
+      "transactions": 37
     }
   ],
   "quarterlyHistory": [
@@ -354,8 +363,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 400000,
-      "transactions": 191
+      "medianPrice": 395000,
+      "transactions": 192
     },
     {
       "quarter": "2024-Q3",
@@ -370,32 +379,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 415000,
-      "transactions": 300
+      "transactions": 301
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 386250,
+      "medianPrice": 388750,
       "transactions": 128
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 434000,
-      "transactions": 252
+      "medianPrice": 435000,
+      "transactions": 259
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 402500,
-      "transactions": 220
+      "transactions": 228
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 375000,
-      "transactions": 165
+      "medianPrice": 378000,
+      "transactions": 176
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 425000,
-      "transactions": 65
+      "medianPrice": 427500,
+      "transactions": 126
     }
   ]
 }

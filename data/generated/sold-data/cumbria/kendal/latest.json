@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.907Z",
+  "updatedAt": "2026-08-07T08:45:03.126Z",
   "townSlug": "kendal",
   "countySlug": "cumbria",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WESTMORLAND AND FURNESS",
+    "SOUTH LAKELAND"
+  ],
   "stats": {
     "medianPrice": 260000,
     "medianByType": {
-      "D": 417500,
-      "S": 271000,
-      "T": 231750,
-      "F": 145000
+      "D": 435000,
+      "S": 270000,
+      "T": 230000,
+      "F": 146000
     },
-    "transactionCount12m": 488,
-    "yoyChange": -7.1,
-    "newBuildCount": 6,
-    "existingCount": 482,
-    "newBuildPremium": 14
+    "transactionCount12m": 518,
+    "yoyChange": -8.8,
+    "newBuildCount": 4,
+    "existingCount": 514,
+    "newBuildPremium": 2.5
   },
   "recentTransactions": [
     {
-      "price": 540000,
-      "date": "2026-05-18",
-      "postcode": "LA9 7TA",
+      "price": 144000,
+      "date": "2026-06-24",
+      "postcode": "LA9 7SH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "19, BLUEBELL CLOSE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-22",
+      "postcode": "LA9 5QZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, HOWARD STREET"
+    },
+    {
+      "price": 205000,
+      "date": "2026-06-18",
+      "postcode": "LA9 5JH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, STRAWBERRY FIELDS"
+      "address": "16, WATTSFIELD ROAD"
     },
     {
-      "price": 430000,
-      "date": "2026-05-15",
-      "postcode": "LA8 8ET",
+      "price": 320000,
+      "date": "2026-06-18",
+      "postcode": "LA9 7NR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "POPPY BARN, MIDDLE FOULSHAW"
+      "address": "23, LINGMOOR RISE"
     },
     {
-      "price": 350000,
-      "date": "2026-05-14",
-      "postcode": "LA9 7JQ",
+      "price": 186000,
+      "date": "2026-06-16",
+      "postcode": "LA9 7HB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, WASDALE CLOSE"
+      "address": "17, HILL PLACE"
+    },
+    {
+      "price": 575000,
+      "date": "2026-06-16",
+      "postcode": "LA9 5RS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "KILNSTONES, UNDERBARROW ROAD"
     },
     {
       "price": 315000,
-      "date": "2026-05-11",
-      "postcode": "LA9 5BS",
+      "date": "2026-06-09",
+      "postcode": "LA9 7AZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "58, CASTLE GROVE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-09",
+      "postcode": "LA9 5DF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, KIRKBARROW LANE"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-08",
+      "postcode": "LA9 7NT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, HAYCLOSE CRESCENT"
+    },
+    {
+      "price": 205000,
+      "date": "2026-06-08",
+      "postcode": "LA9 4UA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "306, SAND AIRE HOUSE, STRAMONGATE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-05",
+      "postcode": "LA8 0JX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 12, SEDGWICK HOUSE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-04",
+      "postcode": "LA9 7AQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "191, VICARAGE DRIVE"
+      "address": "97, VALLEY DRIVE"
     },
     {
       "price": 300000,
-      "date": "2026-05-08",
-      "postcode": "LA9 6NY",
+      "date": "2026-06-04",
+      "postcode": "LA8 0DJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "MEADOWBANK, MEADOWBANK BUSINESS PARK, SHAP ROAD"
+      "address": "HOLME PARK LODGE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-06-03",
+      "postcode": "LA8 0EY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "JASMINE COTE, DOVE NEST LANE"
+    },
+    {
+      "price": 148000,
+      "date": "2026-06-01",
+      "postcode": "LA9 7SH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, BLUEBELL CLOSE"
+    },
+    {
+      "price": 461000,
+      "date": "2026-05-29",
+      "postcode": "LA9 5HU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WESTHOLME, LUMLEY ROAD"
     },
     {
       "price": 190000,
-      "date": "2026-05-08",
-      "postcode": "LA9 4JG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, HIGH FELLSIDE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-08",
-      "postcode": "LA9 7PU",
+      "date": "2026-05-29",
+      "postcode": "LA8 9ND",
       "propertyType": "F",
       "newBuild": false,
-      "tenure": "L",
-      "address": "7, HOWE BANK CLOSE"
+      "tenure": "F",
+      "address": "37, BECK NOOK"
     },
     {
-      "price": 750000,
-      "date": "2026-05-08",
-      "postcode": "LA8 9AZ",
+      "price": 425000,
+      "date": "2026-05-29",
+      "postcode": "LA8 0LW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "OVERBECK"
-    },
-    {
-      "price": 600000,
-      "date": "2026-05-05",
-      "postcode": "LA9 4LL",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, SANDES AVENUE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-01",
-      "postcode": "LA9 4EX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "67, WATERSIDE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-01",
-      "postcode": "LA9 5HY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, YEATS CLOSE"
-    },
-    {
-      "price": 222000,
-      "date": "2026-05-01",
-      "postcode": "LA9 4SS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, ASHLEIGH ROAD"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-01",
-      "postcode": "LA9 5ND",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, ANCHORITE ROAD"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-01",
-      "postcode": "LA9 7DY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, ARCHERS MEADOW"
-    },
-    {
-      "price": 256000,
-      "date": "2026-05-01",
-      "postcode": "LA9 7SN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, SWALLOW CLOSE"
-    },
-    {
-      "price": 182500,
-      "date": "2026-05-01",
-      "postcode": "LA9 7LP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, RINKFIELD"
+      "address": "7, THE WALLED GARDEN"
     },
     {
       "price": 125000,
-      "date": "2026-05-01",
-      "postcode": "LA9 4EN",
+      "date": "2026-05-29",
+      "postcode": "LA9 4SL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1, 141, HIGHGATE"
+      "address": "21, GARDINER BANK"
     },
     {
-      "price": 140000,
-      "date": "2026-04-30",
-      "postcode": "LA9 4NR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12, MIDDLE LANE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-04-30",
-      "postcode": "LA8 0EU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WOODBANK COTTAGE, MAIN STREET"
-    },
-    {
-      "price": 207500,
-      "date": "2026-04-28",
-      "postcode": "LA9 7HJ",
+      "price": 200000,
+      "date": "2026-05-29",
+      "postcode": "LA9 6DF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, HALIBURTON ROAD"
+      "address": "2, MINT CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -267,8 +271,8 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 330000,
-      "transactions": 65
+      "medianPrice": 322500,
+      "transactions": 66
     },
     {
       "month": "2025-03",
@@ -282,8 +286,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 251500,
-      "transactions": 60
+      "medianPrice": 253000,
+      "transactions": 61
     },
     {
       "month": "2025-06",
@@ -292,18 +296,18 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 290000,
-      "transactions": 57
+      "medianPrice": 295000,
+      "transactions": 59
     },
     {
       "month": "2025-08",
-      "medianPrice": 250000,
-      "transactions": 65
+      "medianPrice": 251250,
+      "transactions": 66
     },
     {
       "month": "2025-09",
       "medianPrice": 260000,
-      "transactions": 62
+      "transactions": 69
     },
     {
       "month": "2025-10",
@@ -313,37 +317,42 @@
     {
       "month": "2025-11",
       "medianPrice": 269000,
-      "transactions": 61
+      "transactions": 63
     },
     {
       "month": "2025-12",
       "medianPrice": 230000,
-      "transactions": 43
+      "transactions": 51
     },
     {
       "month": "2026-01",
-      "medianPrice": 260000,
-      "transactions": 35
+      "medianPrice": 262500,
+      "transactions": 46
     },
     {
       "month": "2026-02",
-      "medianPrice": 331250,
-      "transactions": 32
+      "medianPrice": 312500,
+      "transactions": 36
     },
     {
       "month": "2026-03",
-      "medianPrice": 290000,
-      "transactions": 40
+      "medianPrice": 289000,
+      "transactions": 44
     },
     {
       "month": "2026-04",
-      "medianPrice": 250000,
-      "transactions": 29
+      "medianPrice": 254000,
+      "transactions": 32
     },
     {
       "month": "2026-05",
-      "medianPrice": 300000,
-      "transactions": 17
+      "medianPrice": 257000,
+      "transactions": 50
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 260000,
+      "transactions": 15
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +379,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 315000,
-      "transactions": 239
+      "transactions": 240
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 233000,
-      "transactions": 145
+      "medianPrice": 234000,
+      "transactions": 146
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 260500,
-      "transactions": 184
+      "medianPrice": 263500,
+      "transactions": 194
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 252500,
-      "transactions": 162
+      "medianPrice": 255000,
+      "transactions": 172
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 290000,
-      "transactions": 107
+      "medianPrice": 287000,
+      "transactions": 126
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 254000,
-      "transactions": 46
+      "medianPrice": 256000,
+      "transactions": 97
     }
   ]
 }

@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.587Z",
+  "updatedAt": "2026-08-07T08:45:02.002Z",
   "townSlug": "barnstaple",
   "countySlug": "devon",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTH DEVON"
+  ],
   "marketSnapshot": {
-    "medianPrice": 290000,
-    "transactionCount12m": 1211,
-    "yoyPriceChange": -1.7,
+    "medianPrice": 282000,
+    "transactionCount12m": 1185,
+    "yoyPriceChange": -4.4,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

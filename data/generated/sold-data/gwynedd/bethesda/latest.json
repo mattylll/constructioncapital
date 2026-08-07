@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.825Z",
+  "updatedAt": "2026-08-07T08:45:04.128Z",
   "townSlug": "bethesda",
   "countySlug": "gwynedd",
   "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "GWYNEDD"
+  ],
   "stats": {
-    "medianPrice": 192500,
+    "medianPrice": 192560,
     "medianByType": {
       "D": 305000,
-      "S": 213500,
-      "T": 150000,
-      "F": 112000
+      "S": 207000,
+      "T": 150500,
+      "F": 115000
     },
-    "transactionCount12m": 1262,
+    "transactionCount12m": 1269,
     "yoyChange": 1.3,
     "newBuildCount": 3,
-    "existingCount": 1259,
-    "newBuildPremium": 212.5
+    "existingCount": 1266,
+    "newBuildPremium": 211.7
   },
   "recentTransactions": [
     {
       "price": 177500,
-      "date": "2026-05-22",
-      "postcode": "LL36 9DU",
+      "date": "2026-06-25",
+      "postcode": "LL52 0SF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, FAENOL AVENUE"
+      "address": "3, CAE'R FFYNNON"
     },
     {
-      "price": 75000,
-      "date": "2026-05-19",
-      "postcode": "LL57 2UF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, TREM ELIDIR"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-18",
-      "postcode": "LL53 8EH",
+      "price": 445000,
+      "date": "2026-06-23",
+      "postcode": "LL57 4PL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "PANT"
+      "address": "PANT Y GRAIG"
     },
     {
-      "price": 200000,
-      "date": "2026-05-15",
-      "postcode": "LL53 5PN",
+      "price": 399000,
+      "date": "2026-06-19",
+      "postcode": "LL40 2RS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TY RHUFEINIG"
+    },
+    {
+      "price": 105000,
+      "date": "2026-06-19",
+      "postcode": "LL40 1DN",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 7, WEST END POINT, WEST END PARADE"
+      "address": "FLAT 13, GOLDEN LION, LION STREET"
     },
     {
       "price": 125000,
-      "date": "2026-05-15",
-      "postcode": "LL56 4HX",
+      "date": "2026-06-18",
+      "postcode": "LL55 2HE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, MENAI STREET"
+      "address": "7, NEWBOROUGH STREET"
     },
     {
-      "price": 80000,
-      "date": "2026-05-15",
-      "postcode": "LL42 1AT",
+      "price": 166000,
+      "date": "2026-06-15",
+      "postcode": "LL57 2AT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, PENLLYS TERRACE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-15",
+      "postcode": "LL36 9AH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, STATION ROAD"
+    },
+    {
+      "price": 152000,
+      "date": "2026-06-15",
+      "postcode": "LL36 9YE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, LLANEGRYN STREET"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-15",
+      "postcode": "LL55 3HT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, MARIAN TERRACE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-15",
+      "postcode": "LL41 3ED",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, CWM BOWYDD ROAD"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-15",
+      "postcode": "LL41 3DS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "95, WYNNE ROAD"
+    },
+    {
+      "price": 148000,
+      "date": "2026-06-15",
+      "postcode": "LL57 3NB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4 HEN AELWYD, PENRHYN TERRACE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-12",
+      "postcode": "LL55 4TR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, VAYNOL COTTAGES"
+    },
+    {
+      "price": 127000,
+      "date": "2026-06-12",
+      "postcode": "LL54 5LS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, RIVER TERRACE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-12",
+      "postcode": "LL55 1LR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, WATER STREET"
-    },
-    {
-      "price": 305000,
-      "date": "2026-05-15",
-      "postcode": "LL36 0DW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, FAENOL ISAF"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-15",
-      "postcode": "LL53 6HT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DOLFOR, BRYNGLAS"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-15",
-      "postcode": "LL53 5SP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GLEN GARTH, LLEYN STREET"
-    },
-    {
-      "price": 51000,
-      "date": "2026-05-11",
-      "postcode": "LL57 2EU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, HOLYHEAD ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-11",
-      "postcode": "LL54 6NN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, MARKET PLACE"
-    },
-    {
-      "price": 380000,
-      "date": "2026-05-11",
-      "postcode": "LL54 7LB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "AELYBRYN"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-11",
-      "postcode": "LL55 1RT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, MARKET STREET"
-    },
-    {
-      "price": 430000,
-      "date": "2026-05-08",
-      "postcode": "LL55 3AD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE BUNGALOW, GORS BACH"
-    },
-    {
-      "price": 228000,
-      "date": "2026-05-08",
-      "postcode": "LL45 2HS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, PANT GOLAU"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-06",
-      "postcode": "LL40 2AF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DWYRYD"
-    },
-    {
-      "price": 305000,
-      "date": "2026-05-06",
-      "postcode": "LL42 1PA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, FFORDD LLWYN MYNACH"
-    },
-    {
-      "price": 470000,
-      "date": "2026-05-05",
-      "postcode": "LL40 2TA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CAPEL COFFA"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-05",
-      "postcode": "SY20 9NH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CEFN BYRIATH"
+      "address": "MOR HELI, BANGOR ROAD"
     },
     {
       "price": 175000,
-      "date": "2026-05-05",
-      "postcode": "LL46 2SB",
+      "date": "2026-06-12",
+      "postcode": "LL55 4HN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, NEWTON STREET"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-12",
+      "postcode": "LL57 2EX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "ANWYL"
+      "address": "15, FFORDD GWYNDY"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-12",
+      "postcode": "LL57 3NY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, ADWYR NANT"
+    },
+    {
+      "price": 263000,
+      "date": "2026-06-12",
+      "postcode": "LL23 7RY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FRONHEULOG, 17, FFRYDAN ROAD"
+    },
+    {
+      "price": 470000,
+      "date": "2026-06-11",
+      "postcode": "LL57 2HE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, HOLYHEAD ROAD"
     }
   ],
   "monthlyHistory": [
@@ -288,7 +291,7 @@
     {
       "month": "2025-06",
       "medianPrice": 200000,
-      "transactions": 162
+      "transactions": 163
     },
     {
       "month": "2025-07",
@@ -297,53 +300,58 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 180000,
-      "transactions": 181
+      "medianPrice": 182500,
+      "transactions": 186
     },
     {
       "month": "2025-09",
-      "medianPrice": 192500,
-      "transactions": 116
+      "medianPrice": 195000,
+      "transactions": 124
     },
     {
       "month": "2025-10",
       "medianPrice": 175000,
-      "transactions": 166
+      "transactions": 170
     },
     {
       "month": "2025-11",
-      "medianPrice": 205000,
-      "transactions": 138
+      "medianPrice": 200000,
+      "transactions": 143
     },
     {
       "month": "2025-12",
       "medianPrice": 195000,
-      "transactions": 127
+      "transactions": 144
     },
     {
       "month": "2026-01",
-      "medianPrice": 203000,
-      "transactions": 80
+      "medianPrice": 205000,
+      "transactions": 94
     },
     {
       "month": "2026-02",
       "medianPrice": 190000,
-      "transactions": 104
+      "transactions": 115
     },
     {
       "month": "2026-03",
       "medianPrice": 195000,
-      "transactions": 91
+      "transactions": 101
     },
     {
       "month": "2026-04",
-      "medianPrice": 196500,
-      "transactions": 93
+      "medianPrice": 196750,
+      "transactions": 100
     },
     {
       "month": "2026-05",
-      "medianPrice": 235000,
-      "transactions": 33
+      "medianPrice": 225500,
+      "transactions": 84
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 175000,
+      "transactions": 45
     }
   ],
   "quarterlyHistory": [
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 200000,
-      "transactions": 461
+      "transactions": 462
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 185000,
-      "transactions": 456
+      "medianPrice": 186000,
+      "transactions": 469
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 192500,
-      "transactions": 431
+      "medianPrice": 190000,
+      "transactions": 457
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 190000,
-      "transactions": 275
+      "medianPrice": 197475,
+      "transactions": 310
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 202500,
-      "transactions": 126
+      "medianPrice": 200000,
+      "transactions": 229
     }
   ]
 }

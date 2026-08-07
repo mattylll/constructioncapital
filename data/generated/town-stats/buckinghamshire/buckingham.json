@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.156Z",
+  "updatedAt": "2026-08-07T08:45:01.587Z",
   "townSlug": "buckingham",
   "countySlug": "buckinghamshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BUCKINGHAMSHIRE",
+    "AYLESBURY VALE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 375000,
-    "transactionCount12m": 405,
-    "yoyPriceChange": -5.1,
+    "medianPrice": 370000,
+    "transactionCount12m": 378,
+    "yoyPriceChange": -6.3,
     "approvedApps12m": 0,
-    "pipelineUnits": 294,
-    "pipelineGdv": 108780000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 254,
+    "pipelineGdv": 94470000,
     "approvalRate": 0
   }
 }

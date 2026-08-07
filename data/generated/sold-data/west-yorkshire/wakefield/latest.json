@@ -1,209 +1,212 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.002Z",
+  "updatedAt": "2026-08-07T08:45:03.232Z",
   "townSlug": "wakefield",
   "countySlug": "west-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WAKEFIELD"
+  ],
   "stats": {
-    "medianPrice": 217500,
+    "medianPrice": 217740,
     "medianByType": {
-      "D": 355000,
-      "S": 220000,
-      "T": 157500,
-      "F": 103000
+      "D": 361000,
+      "S": 218000,
+      "T": 159000,
+      "F": 100000
     },
-    "transactionCount12m": 1471,
-    "yoyChange": 1.2,
-    "newBuildCount": 26,
-    "existingCount": 1445,
+    "transactionCount12m": 1484,
+    "yoyChange": 1.3,
+    "newBuildCount": 48,
+    "existingCount": 1436,
     "newBuildPremium": 21.4
   },
   "recentTransactions": [
     {
-      "price": 160000,
-      "date": "2026-05-22",
-      "postcode": "WF4 3AE",
+      "price": 190000,
+      "date": "2026-06-22",
+      "postcode": "WF2 9EX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "444, DENBY DALE ROAD EAST"
+      "address": "21, WASDALE ROAD"
     },
     {
-      "price": 80750,
-      "date": "2026-05-22",
-      "postcode": "WF2 0PY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8A, QUEENS DRIVE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-22",
-      "postcode": "WF4 3EE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "90, HIGH STREET"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-22",
-      "postcode": "WF1 2HS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, FIRST AVENUE"
-    },
-    {
-      "price": 152000,
-      "date": "2026-05-21",
-      "postcode": "WF3 4DZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, BAKER LANE"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-20",
-      "postcode": "WF1 5RR",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "62A, THORNES LANE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-05-20",
-      "postcode": "WF2 9BL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, DEWSBURY ROAD"
-    },
-    {
-      "price": 154000,
-      "date": "2026-05-15",
-      "postcode": "WF1 5LT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, BRIAR GROVE"
-    },
-    {
-      "price": 272000,
-      "date": "2026-05-15",
-      "postcode": "WF3 4FY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, BEAMSHAW WAY"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-15",
-      "postcode": "WF1 5BZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, FREDERICK AVENUE"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-15",
-      "postcode": "WF2 9PQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "79, ALVERTHORPE ROAD"
-    },
-    {
-      "price": 405000,
-      "date": "2026-05-15",
-      "postcode": "WF2 6HB",
+      "price": 423000,
+      "date": "2026-06-19",
+      "postcode": "WF2 0BZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, WINGATE CROFT"
+      "address": "10, SUNNY HILL CLOSE"
     },
     {
-      "price": 220000,
-      "date": "2026-05-15",
-      "postcode": "WF2 8QA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, THORNES MOOR CLOSE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-15",
-      "postcode": "WF2 7EN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, KETTLETHORPE ROAD"
-    },
-    {
-      "price": 90000,
-      "date": "2026-05-14",
-      "postcode": "WF2 8TF",
+      "price": 195000,
+      "date": "2026-06-19",
+      "postcode": "WF1 2GL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, GRANGE STREET"
+      "address": "35, LIMESTONE ROAD"
     },
     {
-      "price": 50000,
-      "date": "2026-05-14",
-      "postcode": "WF1 1DE",
+      "price": 375000,
+      "date": "2026-06-19",
+      "postcode": "WF3 4GJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, TREE TOP DRIVE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-19",
+      "postcode": "WF3 3FQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, SPRINGFIELD CRESCENT"
+    },
+    {
+      "price": 305000,
+      "date": "2026-06-19",
+      "postcode": "WF2 0LP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, WRENTHORPE ROAD"
+    },
+    {
+      "price": 360000,
+      "date": "2026-06-17",
+      "postcode": "WF2 6HP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WALTON STATION LANE"
+    },
+    {
+      "price": 175500,
+      "date": "2026-06-15",
+      "postcode": "WF3 4ET",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, MOORLAND PLACE"
+    },
+    {
+      "price": 218000,
+      "date": "2026-06-12",
+      "postcode": "WF4 4LZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, OAKLAND DRIVE"
+    },
+    {
+      "price": 176500,
+      "date": "2026-06-12",
+      "postcode": "WF2 9PB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, RUFFORD STREET"
+    },
+    {
+      "price": 89000,
+      "date": "2026-06-12",
+      "postcode": "WF2 8WA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "15, THE PINNACLE, INGS ROAD"
+      "address": "39, BRACKENDALE ROAD"
     },
     {
-      "price": 150100,
-      "date": "2026-05-11",
-      "postcode": "WF2 0EA",
+      "price": 149000,
+      "date": "2026-06-12",
+      "postcode": "WF1 2PJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "82, SILCOATES STREET"
+      "address": "7, PRINCESS STREET"
     },
     {
-      "price": 215000,
-      "date": "2026-05-08",
-      "postcode": "WF4 1NW",
+      "price": 245000,
+      "date": "2026-06-12",
+      "postcode": "WF1 3RN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, BEDE HOUSE, COLLEGE GROVE ROAD"
+    },
+    {
+      "price": 168000,
+      "date": "2026-06-12",
+      "postcode": "WF4 6JQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, CLIFTON ROAD"
+    },
+    {
+      "price": 136000,
+      "date": "2026-06-12",
+      "postcode": "WF2 8NL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, SHAY LANE"
+      "address": "26, HASELDEN ROAD"
     },
     {
-      "price": 190423,
-      "date": "2026-05-08",
-      "postcode": "WF3 4JY",
-      "propertyType": "D",
+      "price": 220000,
+      "date": "2026-06-12",
+      "postcode": "WF4 3NP",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, ASH GROVE"
+      "address": "101, HOLLINGTHORPE AVENUE"
     },
     {
-      "price": 86000,
-      "date": "2026-05-08",
-      "postcode": "WF4 1BG",
+      "price": 131000,
+      "date": "2026-06-12",
+      "postcode": "WF4 3EJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "118, CLIFF ROAD"
+    },
+    {
+      "price": 120000,
+      "date": "2026-06-11",
+      "postcode": "WF2 9PR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, CROSSLEY STREET"
+      "address": "4, LONGFIELD TERRACE"
+    },
+    {
+      "price": 360000,
+      "date": "2026-06-11",
+      "postcode": "WF2 8LP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CLEVELAND GARTH"
+    },
+    {
+      "price": 47000,
+      "date": "2026-06-11",
+      "postcode": "WF1 1DG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "96, THE PINNACLE, INGS ROAD"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 182500,
-      "transactions": 131
+      "medianPrice": 181250,
+      "transactions": 132
     },
     {
       "month": "2024-02",
@@ -248,12 +251,12 @@
     {
       "month": "2024-10",
       "medianPrice": 215000,
-      "transactions": 217
+      "transactions": 218
     },
     {
       "month": "2024-11",
-      "medianPrice": 203500,
-      "transactions": 204
+      "medianPrice": 202000,
+      "transactions": 205
     },
     {
       "month": "2024-12",
@@ -263,7 +266,7 @@
     {
       "month": "2025-01",
       "medianPrice": 200000,
-      "transactions": 172
+      "transactions": 173
     },
     {
       "month": "2025-02",
@@ -293,64 +296,69 @@
     {
       "month": "2025-07",
       "medianPrice": 210000,
-      "transactions": 179
+      "transactions": 185
     },
     {
       "month": "2025-08",
-      "medianPrice": 230000,
-      "transactions": 186
+      "medianPrice": 227500,
+      "transactions": 212
     },
     {
       "month": "2025-09",
-      "medianPrice": 220000,
-      "transactions": 170
+      "medianPrice": 223000,
+      "transactions": 181
     },
     {
       "month": "2025-10",
       "medianPrice": 235000,
-      "transactions": 191
+      "transactions": 199
     },
     {
       "month": "2025-11",
       "medianPrice": 215000,
-      "transactions": 174
+      "transactions": 178
     },
     {
       "month": "2025-12",
       "medianPrice": 217740,
-      "transactions": 148
+      "transactions": 163
     },
     {
       "month": "2026-01",
-      "medianPrice": 212500,
-      "transactions": 90
+      "medianPrice": 216000,
+      "transactions": 96
     },
     {
       "month": "2026-02",
       "medianPrice": 226000,
-      "transactions": 135
+      "transactions": 137
     },
     {
       "month": "2026-03",
-      "medianPrice": 191000,
-      "transactions": 99
+      "medianPrice": 193000,
+      "transactions": 102
     },
     {
       "month": "2026-04",
-      "medianPrice": 216000,
-      "transactions": 103
+      "medianPrice": 221250,
+      "transactions": 116
     },
     {
       "month": "2026-05",
-      "medianPrice": 172500,
-      "transactions": 32
+      "medianPrice": 213750,
+      "transactions": 98
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 180000,
+      "transactions": 43
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 208000,
-      "transactions": 463
+      "medianPrice": 206500,
+      "transactions": 464
     },
     {
       "quarter": "2024-Q2",
@@ -365,12 +373,12 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 215000,
-      "transactions": 667
+      "transactions": 669
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 220000,
-      "transactions": 620
+      "transactions": 621
     },
     {
       "quarter": "2025-Q2",
@@ -380,22 +388,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 220000,
-      "transactions": 535
+      "transactions": 578
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 220000,
-      "transactions": 513
+      "transactions": 540
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 210000,
-      "transactions": 324
+      "medianPrice": 215000,
+      "transactions": 335
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 200000,
-      "transactions": 135
+      "medianPrice": 209000,
+      "transactions": 257
     }
   ]
 }

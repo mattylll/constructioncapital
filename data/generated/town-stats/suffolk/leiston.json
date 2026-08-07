@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.371Z",
+  "updatedAt": "2026-08-07T08:45:03.697Z",
   "townSlug": "leiston",
   "countySlug": "suffolk",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EAST SUFFOLK",
+    "SUFFOLK COASTAL"
+  ],
   "marketSnapshot": {
-    "medianPrice": 257000,
-    "transactionCount12m": 91,
-    "yoyPriceChange": 9.8,
-    "approvedApps12m": 59,
-    "pipelineUnits": 914,
-    "pipelineGdv": 234083500,
-    "approvalRate": 94
+    "medianPrice": 251500,
+    "transactionCount12m": 86,
+    "yoyPriceChange": 7.2,
+    "approvedApps12m": 76,
+    "approvedRecent": 76,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 1015,
+    "pipelineGdv": 259106500,
+    "approvalRate": 99
   }
 }

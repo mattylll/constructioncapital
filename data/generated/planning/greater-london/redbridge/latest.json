@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-02T04:39:18.833Z",
+  "updatedAt": "2026-08-07T08:02:29.770Z",
   "townSlug": "redbridge",
   "countySlug": "greater-london",
   "localAuthority": "London Borough of Redbridge",
   "source": "agile",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-02",
-    "to": "2026-08-02",
-    "retrievedAt": "2026-08-02T04:39:18.832Z"
+    "from": "2026-05-07",
+    "to": "2026-08-07",
+    "retrievedAt": "2026-08-07T08:02:29.770Z"
   },
   "summary": {
-    "total": 6,
-    "relevant": 1,
+    "total": 8,
+    "relevant": 2,
     "approved": 0,
-    "pending": 1,
+    "pending": 2,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
@@ -26,6 +26,25 @@
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "2019/26",
+      "address": "51, High Street, Ilford, IG6 2AD",
+      "postcode": "IG6 2AD",
+      "ward": "Fullwell",
+      "proposal": "Change of use of ground floor from a Commercial Unit to a Bingo Venue/Hall. Inst",
+      "category": "change_of_use",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Under assessment",
+      "decision": "",
+      "receivedDate": "01/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": ""
+    },
     {
       "reference": "1205/26",
       "address": "129, The Manor House, High Street, Wanstead, London, E11 2RL",

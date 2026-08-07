@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.686Z",
+  "updatedAt": "2026-08-07T08:45:03.063Z",
   "townSlug": "warrington",
   "countySlug": "cheshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WARRINGTON"
+  ],
   "marketSnapshot": {
-    "medianPrice": 249999,
-    "transactionCount12m": 2419,
+    "medianPrice": 249975,
+    "transactionCount12m": 2398,
     "yoyPriceChange": 2,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

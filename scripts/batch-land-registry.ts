@@ -871,6 +871,11 @@ function writeOutputFiles(
         // Report generators should caveat this rather than presenting the
         // numbers as town-specific.
         isDistrictLevelFallback,
+        // The HMLR district(s) this location's transactions were drawn from.
+        // Aggregates above town level MUST group on this and count each
+        // district once, rather than summing every town — towns sharing a
+        // district otherwise contribute the same transactions repeatedly.
+        hmlrDistricts: mapping.districts,
         stats: {
           medianPrice: stats.medianPrice,
           medianByType: stats.medianByType,
@@ -940,6 +945,11 @@ function writeOutputFiles(
         updatedAt: new Date().toISOString(),
         townSlug: mapping.townSlug,
         countySlug: mapping.countySlug,
+        // Mirrored from the sold-data file so national/county aggregates that
+        // only read town-stats can still dedupe shared HMLR districts without
+        // opening a second file. See the note in the sold-data writer above.
+        isDistrictLevelFallback,
+        hmlrDistricts: mapping.districts,
         marketSnapshot: {
           medianPrice: stats.medianPrice,
           transactionCount12m: stats.transactionCount12m,

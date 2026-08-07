@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.991Z",
+  "updatedAt": "2026-08-07T08:45:02.379Z",
   "townSlug": "stafford",
   "countySlug": "staffordshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "STAFFORD"
+  ],
   "marketSnapshot": {
     "medianPrice": 250000,
-    "transactionCount12m": 1600,
-    "yoyPriceChange": -1.4,
+    "transactionCount12m": 1540,
+    "yoyPriceChange": -2,
     "approvedApps12m": 0,
-    "pipelineUnits": 302,
-    "pipelineGdv": 75346750,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 36,
+    "pipelineGdv": 9000000,
     "approvalRate": 0
   }
 }

@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.847Z",
+  "updatedAt": "2026-08-07T08:45:01.300Z",
   "townSlug": "woking",
   "countySlug": "surrey",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WOKING"
+  ],
   "marketSnapshot": {
-    "medianPrice": 429050,
-    "transactionCount12m": 1218,
-    "yoyPriceChange": -2.7,
+    "medianPrice": 425000,
+    "transactionCount12m": 1194,
+    "yoyPriceChange": -4.5,
     "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 53,
+    "pipelineGdv": 18650000,
     "approvalRate": 0
   }
 }

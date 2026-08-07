@@ -1,209 +1,212 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.976Z",
+  "updatedAt": "2026-08-07T08:45:03.203Z",
   "townSlug": "bradford",
   "countySlug": "west-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BRADFORD"
+  ],
   "stats": {
     "medianPrice": 160000,
     "medianByType": {
-      "D": 300000,
+      "D": 305500,
       "S": 185000,
-      "T": 126500,
-      "F": 81000
+      "T": 127250,
+      "F": 93000
     },
-    "transactionCount12m": 3223,
-    "yoyChange": 6.7,
-    "newBuildCount": 46,
-    "existingCount": 3177,
-    "newBuildPremium": 46.9
+    "transactionCount12m": 3206,
+    "yoyChange": 6,
+    "newBuildCount": 50,
+    "existingCount": 3156,
+    "newBuildPremium": 54.7
   },
   "recentTransactions": [
     {
-      "price": 60000,
-      "date": "2026-05-29",
-      "postcode": "BD3 0AJ",
+      "price": 127000,
+      "date": "2026-06-25",
+      "postcode": "BD12 9JE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "78, BOLDSHAY STREET"
+      "address": "37, OAKENSHAW COURT"
     },
     {
-      "price": 185000,
-      "date": "2026-05-22",
-      "postcode": "BD6 2BX",
+      "price": 132000,
+      "date": "2026-06-22",
+      "postcode": "BD14 6NX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "48, CHERWELL DRIVE"
+      "address": "13, CRANBROOK STREET"
     },
     {
-      "price": 180000,
-      "date": "2026-05-22",
-      "postcode": "BD2 3FH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, FETLOCK DRIVE"
-    },
-    {
-      "price": 312500,
-      "date": "2026-05-22",
-      "postcode": "BD6 3EJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "194, BEACON ROAD"
-    },
-    {
-      "price": 167500,
-      "date": "2026-05-22",
-      "postcode": "BD4 8UJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, WINCHESTER GARDENS"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-22",
-      "postcode": "BD15 7DU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "440, ALLERTON ROAD"
-    },
-    {
-      "price": 222500,
-      "date": "2026-05-22",
-      "postcode": "BD6 2LS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, GLENDALE DRIVE"
-    },
-    {
-      "price": 135000,
-      "date": "2026-05-21",
-      "postcode": "BD4 0JF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, MADISON AVENUE"
-    },
-    {
-      "price": 95000,
-      "date": "2026-05-19",
-      "postcode": "BD3 8AJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "106, CARRINGTON STREET"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-19",
-      "postcode": "BD7 4PN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "73, ASCOT DRIVE"
-    },
-    {
-      "price": 96000,
-      "date": "2026-05-19",
-      "postcode": "BD7 4ND",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "158, OLD ROAD"
-    },
-    {
-      "price": 145000,
-      "date": "2026-05-19",
-      "postcode": "BD2 3EB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, CHARNWOOD GROVE"
-    },
-    {
-      "price": 39000,
-      "date": "2026-05-18",
-      "postcode": "BD1 3SA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 37, RAWSON BUILDINGS, 4, RAWSON ROAD"
-    },
-    {
-      "price": 110000,
-      "date": "2026-05-18",
-      "postcode": "BD4 6JB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, DAWSON MOUNT"
-    },
-    {
-      "price": 50000,
-      "date": "2026-05-15",
-      "postcode": "BD1 5AE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 46, EASTBROOK HALL, LEEDS ROAD"
-    },
-    {
-      "price": 355000,
-      "date": "2026-05-15",
-      "postcode": "BD13 2FE",
+      "price": 215000,
+      "date": "2026-06-22",
+      "postcode": "BD2 3FB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, HAZEL FOLD"
+      "address": "6, CHERRY TREE PLACE"
     },
     {
-      "price": 310000,
-      "date": "2026-05-15",
-      "postcode": "BD10 8SU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, JAVELIN CLOSE"
-    },
-    {
-      "price": 279000,
-      "date": "2026-05-15",
-      "postcode": "BD15 0HD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, BIRCHLANDS GROVE"
-    },
-    {
-      "price": 90000,
-      "date": "2026-05-15",
-      "postcode": "BD8 8QT",
+      "price": 100000,
+      "date": "2026-06-19",
+      "postcode": "BD13 1JS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, SPRINGCLIFFE STREET"
+      "address": "7, LUDDENDEN PLACE"
+    },
+    {
+      "price": 72500,
+      "date": "2026-06-19",
+      "postcode": "BD7 3PE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "94, BELDON ROAD"
+    },
+    {
+      "price": 187000,
+      "date": "2026-06-19",
+      "postcode": "BD13 3HT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, WOLD CLOSE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-19",
+      "postcode": "BD6 1PS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "123, ELMFIELD DRIVE"
+    },
+    {
+      "price": 258500,
+      "date": "2026-06-19",
+      "postcode": "BD6 2AR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, CHERRY GROVE"
     },
     {
       "price": 190000,
-      "date": "2026-05-15",
-      "postcode": "BD12 0JT",
+      "date": "2026-06-18",
+      "postcode": "BD12 0NH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "83, WOODROW DRIVE"
+      "address": "9, WESLEY DRIVE"
+    },
+    {
+      "price": 100000,
+      "date": "2026-06-18",
+      "postcode": "BD4 0DP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, EASTFIELD GARDENS"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-18",
+      "postcode": "BD12 9JZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, GRIFFE TERRACE"
+    },
+    {
+      "price": 144000,
+      "date": "2026-06-18",
+      "postcode": "BD6 3DZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "58, LIME VALE WAY"
+    },
+    {
+      "price": 87000,
+      "date": "2026-06-17",
+      "postcode": "BD3 9DS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "102, HAREWOOD STREET"
+    },
+    {
+      "price": 165000,
+      "date": "2026-06-16",
+      "postcode": "BD14 6RZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, DELPH GROVE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-16",
+      "postcode": "BD2 4AH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, ASHBOURNE ROAD"
+    },
+    {
+      "price": 83500,
+      "date": "2026-06-15",
+      "postcode": "BD2 2BW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "27, TAY COURT"
+    },
+    {
+      "price": 188000,
+      "date": "2026-06-12",
+      "postcode": "BD14 6LJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, PENFIELD GROVE"
+    },
+    {
+      "price": 105000,
+      "date": "2026-06-12",
+      "postcode": "BD4 7JZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, BRASSEY TERRACE"
+    },
+    {
+      "price": 193000,
+      "date": "2026-06-12",
+      "postcode": "BD2 2LT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, ACRE CRESCENT"
+    },
+    {
+      "price": 135000,
+      "date": "2026-06-12",
+      "postcode": "BD6 1TG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, TENNYSON ROAD"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
       "medianPrice": 134000,
-      "transactions": 310
+      "transactions": 309
     },
     {
       "month": "2024-02",
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 149250,
-      "transactions": 530
+      "medianPrice": 149500,
+      "transactions": 531
     },
     {
       "month": "2024-11",
@@ -258,7 +261,7 @@
     {
       "month": "2024-12",
       "medianPrice": 156000,
-      "transactions": 471
+      "transactions": 472
     },
     {
       "month": "2025-01",
@@ -267,18 +270,18 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 156500,
-      "transactions": 414
+      "medianPrice": 159475,
+      "transactions": 416
     },
     {
       "month": "2025-03",
       "medianPrice": 170000,
-      "transactions": 615
+      "transactions": 616
     },
     {
       "month": "2025-04",
       "medianPrice": 130000,
-      "transactions": 237
+      "transactions": 239
     },
     {
       "month": "2025-05",
@@ -288,69 +291,74 @@
     {
       "month": "2025-06",
       "medianPrice": 152000,
-      "transactions": 397
+      "transactions": 399
     },
     {
       "month": "2025-07",
       "medianPrice": 152000,
-      "transactions": 408
+      "transactions": 416
     },
     {
       "month": "2025-08",
-      "medianPrice": 154000,
-      "transactions": 381
+      "medianPrice": 152000,
+      "transactions": 436
     },
     {
       "month": "2025-09",
-      "medianPrice": 158500,
-      "transactions": 423
+      "medianPrice": 158000,
+      "transactions": 451
     },
     {
       "month": "2025-10",
-      "medianPrice": 159000,
-      "transactions": 413
+      "medianPrice": 160000,
+      "transactions": 415
     },
     {
       "month": "2025-11",
-      "medianPrice": 172750,
-      "transactions": 308
+      "medianPrice": 170000,
+      "transactions": 315
     },
     {
       "month": "2025-12",
       "medianPrice": 165000,
-      "transactions": 312
+      "transactions": 333
     },
     {
       "month": "2026-01",
       "medianPrice": 160000,
-      "transactions": 220
+      "transactions": 232
     },
     {
       "month": "2026-02",
       "medianPrice": 160000,
-      "transactions": 244
+      "transactions": 253
     },
     {
       "month": "2026-03",
       "medianPrice": 162000,
-      "transactions": 268
+      "transactions": 277
     },
     {
       "month": "2026-04",
-      "medianPrice": 161000,
-      "transactions": 213
+      "medianPrice": 160000,
+      "transactions": 252
     },
     {
       "month": "2026-05",
-      "medianPrice": 160000,
-      "transactions": 89
+      "medianPrice": 175750,
+      "transactions": 229
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 176250,
+      "transactions": 86
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 134075,
-      "transactions": 1109
+      "medianPrice": 134038,
+      "transactions": 1108
     },
     {
       "quarter": "2024-Q2",
@@ -365,37 +373,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 151000,
-      "transactions": 1461
+      "transactions": 1463
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 155000,
-      "transactions": 1389
+      "medianPrice": 155500,
+      "transactions": 1392
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 145000,
-      "transactions": 1023
+      "transactions": 1027
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 154000,
-      "transactions": 1212
+      "transactions": 1303
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 165000,
-      "transactions": 1033
+      "transactions": 1063
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 160500,
-      "transactions": 732
+      "medianPrice": 160000,
+      "transactions": 762
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 160750,
-      "transactions": 302
+      "medianPrice": 167500,
+      "transactions": 567
     }
   ]
 }

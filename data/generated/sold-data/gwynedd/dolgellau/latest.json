@@ -1,23 +1,62 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.821Z",
+  "updatedAt": "2026-08-07T08:45:04.122Z",
   "townSlug": "dolgellau",
   "countySlug": "gwynedd",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GWYNEDD"
+  ],
   "stats": {
-    "medianPrice": 175000,
+    "medianPrice": 176500,
     "medianByType": {
-      "D": 268750,
-      "S": 227500,
+      "D": 267500,
+      "S": 246000,
       "T": 145000,
-      "F": 141750
+      "F": 107000
     },
-    "transactionCount12m": 56,
-    "yoyChange": -18.6,
+    "transactionCount12m": 53,
+    "yoyChange": -16,
     "newBuildCount": 0,
-    "existingCount": 56,
+    "existingCount": 53,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 399000,
+      "date": "2026-06-19",
+      "postcode": "LL40 2RS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TY RHUFEINIG"
+    },
+    {
+      "price": 105000,
+      "date": "2026-06-19",
+      "postcode": "LL40 1DN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 13, GOLDEN LION, LION STREET"
+    },
+    {
+      "price": 140000,
+      "date": "2026-06-01",
+      "postcode": "LL40 1LN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TY SEREN, MEYRICK STREET"
+    },
+    {
+      "price": 110000,
+      "date": "2026-05-27",
+      "postcode": "LL40 1EU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BODARRAN, SMITHFIELD SQUARE"
+    },
     {
       "price": 270000,
       "date": "2026-05-06",
@@ -35,6 +74,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "CAPEL COFFA"
+    },
+    {
+      "price": 277500,
+      "date": "2026-04-29",
+      "postcode": "LL40 2AT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, MEIRION TERRACE"
     },
     {
       "price": 165000,
@@ -62,6 +110,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "1, WENALLT VILLAS"
+    },
+    {
+      "price": 246000,
+      "date": "2026-04-07",
+      "postcode": "LL40 2DY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, TAI NEWYDDION"
     },
     {
       "price": 310000,
@@ -100,15 +157,6 @@
       "address": "PENARLAG HOUSE, BARMOUTH ROAD"
     },
     {
-      "price": 175000,
-      "date": "2026-03-12",
-      "postcode": "LL40 1LS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRAGDY, MEYRICK STREET"
-    },
-    {
       "price": 185000,
       "date": "2026-03-12",
       "postcode": "LL40 2TY",
@@ -116,6 +164,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "25, BRYNIAU"
+    },
+    {
+      "price": 175000,
+      "date": "2026-03-12",
+      "postcode": "LL40 1LS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BRAGDY, MEYRICK STREET"
     },
     {
       "price": 70000,
@@ -143,60 +200,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "13, MAES TALARAN"
-    },
-    {
-      "price": 163995,
-      "date": "2026-02-20",
-      "postcode": "LL40 1UA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, TALYBONT"
-    },
-    {
-      "price": 165000,
-      "date": "2026-02-20",
-      "postcode": "LL40 1DL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, GREEN LANE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-02-13",
-      "postcode": "LL40 1LA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BODWYN, ARRAN ROAD"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-06",
-      "postcode": "LL40 1LN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GELLI, MEYRICK STREET"
-    },
-    {
-      "price": 107000,
-      "date": "2025-12-19",
-      "postcode": "LL40 1DN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, GOLDEN LION, LION STREET"
-    },
-    {
-      "price": 199999,
-      "date": "2025-12-05",
-      "postcode": "LL40 1LY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, SPRINGFIELD STREET"
     }
   ],
   "monthlyHistory": [
@@ -287,8 +290,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 187500,
-      "transactions": 10
+      "medianPrice": 195000,
+      "transactions": 11
     },
     {
       "month": "2025-07",
@@ -307,8 +310,8 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 221250,
-      "transactions": 8
+      "medianPrice": 227500,
+      "transactions": 9
     },
     {
       "month": "2025-11",
@@ -332,13 +335,18 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 193250,
-      "transactions": 4
+      "medianPrice": 228000,
+      "transactions": 6
     },
     {
       "month": "2026-05",
-      "medianPrice": 370000,
-      "transactions": 2
+      "medianPrice": 270000,
+      "transactions": 3
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 140000,
+      "transactions": 3
     }
   ],
   "quarterlyHistory": [
@@ -369,8 +377,8 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 197500,
-      "transactions": 28
+      "medianPrice": 200000,
+      "transactions": 29
     },
     {
       "quarter": "2025-Q3",
@@ -379,8 +387,8 @@
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 187500,
-      "transactions": 16
+      "medianPrice": 199999,
+      "transactions": 17
     },
     {
       "quarter": "2026-Q1",
@@ -389,8 +397,8 @@
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 240000,
-      "transactions": 6
+      "medianPrice": 228000,
+      "transactions": 12
     }
   ]
 }

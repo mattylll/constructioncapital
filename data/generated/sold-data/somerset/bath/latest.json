@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.786Z",
+  "updatedAt": "2026-08-07T08:45:01.911Z",
   "townSlug": "bath",
   "countySlug": "somerset",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BATH AND NORTH EAST SOMERSET"
+  ],
   "stats": {
-    "medianPrice": 429000,
+    "medianPrice": 420000,
     "medianByType": {
-      "D": 752500,
-      "S": 482000,
-      "T": 415000,
-      "F": 301000
+      "D": 740000,
+      "S": 473750,
+      "T": 410000,
+      "F": 301500
     },
-    "transactionCount12m": 1251,
-    "yoyChange": 0.9,
-    "newBuildCount": 1,
-    "existingCount": 1250,
+    "transactionCount12m": 1247,
+    "yoyChange": -1.5,
+    "newBuildCount": 2,
+    "existingCount": 1245,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 445000,
-      "date": "2026-05-27",
-      "postcode": "BA2 3LR",
+      "price": 700000,
+      "date": "2026-06-29",
+      "postcode": "BA1 2UF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, MELCOMBE ROAD"
+      "address": "1, SION HILL"
     },
     {
-      "price": 735000,
-      "date": "2026-05-26",
-      "postcode": "BA1 7ER",
+      "price": 430000,
+      "date": "2026-06-26",
+      "postcode": "BA1 7RD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, SCHOOL LANE"
+      "address": "10, VICTORIA GARDENS"
     },
     {
-      "price": 520000,
-      "date": "2026-05-22",
-      "postcode": "BA2 1AT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, DARTMOUTH AVENUE"
-    },
-    {
-      "price": 550000,
-      "date": "2026-05-21",
-      "postcode": "BA2 4DG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, BRIDGE LOCK MEWS"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-19",
-      "postcode": "BA2 8TS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, OLD FORGE WAY"
-    },
-    {
-      "price": 850000,
-      "date": "2026-05-19",
-      "postcode": "BA2 3PB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "47, KING EDWARD ROAD"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-15",
-      "postcode": "BA2 8LB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "136, NEW BUILDINGS"
-    },
-    {
-      "price": 748500,
-      "date": "2026-05-15",
-      "postcode": "BA1 2QN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, OXFORD ROW"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-15",
-      "postcode": "BA1 3BS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, AUDLEY GROVE"
-    },
-    {
-      "price": 1590000,
-      "date": "2026-05-14",
-      "postcode": "BA2 6AT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, MACAULAY BUILDINGS"
-    },
-    {
-      "price": 650000,
-      "date": "2026-05-14",
-      "postcode": "BA1 4AZ",
+      "price": 410000,
+      "date": "2026-06-23",
+      "postcode": "BA2 8SB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, PURLEWENT DRIVE"
+      "address": "28, WELLOW MEAD"
     },
     {
-      "price": 290000,
-      "date": "2026-05-12",
-      "postcode": "BA2 5BU",
+      "price": 590000,
+      "date": "2026-06-19",
+      "postcode": "BA1 4NG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "80, LEIGHTON ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-06-19",
+      "postcode": "BA2 8SW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, OLD ENGLAND WAY"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-18",
+      "postcode": "BA2 2EL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "12, MULBERRY WAY"
+      "address": "FLAT 3, 141, ENGLISHCOMBE LANE"
     },
     {
-      "price": 365000,
-      "date": "2026-05-12",
-      "postcode": "BA2 0HA",
+      "price": 225000,
+      "date": "2026-06-18",
+      "postcode": "BA2 8EL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, ECKWEEK GARDENS"
+    },
+    {
+      "price": 255000,
+      "date": "2026-06-17",
+      "postcode": "BA1 1AU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, ST LAWRENCE HOUSE, 1, PHILIP STREET"
+    },
+    {
+      "price": 171874,
+      "date": "2026-06-17",
+      "postcode": "BA2 0AR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, ST MARYS GREEN"
+      "address": "LITTLECOTE, THE STREET"
     },
     {
-      "price": 442500,
-      "date": "2026-05-08",
-      "postcode": "BA2 4SS",
+      "price": 950000,
+      "date": "2026-06-17",
+      "postcode": "BA2 5AW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "58, PRIORY CLOSE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-17",
+      "postcode": "BA1 6AW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, 3, KENSINGTON PLACE"
+    },
+    {
+      "price": 605000,
+      "date": "2026-06-17",
+      "postcode": "BA2 0DQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE BIRCHES"
+    },
+    {
+      "price": 600000,
+      "date": "2026-06-16",
+      "postcode": "BA2 0EJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MULBERRY HOUSE, SOUTH ROAD"
+    },
+    {
+      "price": 578000,
+      "date": "2026-06-15",
+      "postcode": "BA2 9AF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, GOOLD CLOSE"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-15",
+      "postcode": "BA2 3PP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, DEVONSHIRE MEWS, DEVONSHIRE BUILDINGS"
+      "address": "62, HERBERT ROAD"
     },
     {
-      "price": 405000,
-      "date": "2026-05-08",
-      "postcode": "BA2 3AG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "22, MAPLE GARDENS"
-    },
-    {
-      "price": 195000,
-      "date": "2026-05-08",
-      "postcode": "BA1 4DF",
+      "price": 355000,
+      "date": "2026-06-12",
+      "postcode": "BA1 6AX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 10, SHEPPARDS GARDENS, HIGH STREET"
+      "address": "THIRD FLOOR FLAT, 6, GROSVENOR PLACE"
     },
     {
-      "price": 183000,
-      "date": "2026-05-08",
-      "postcode": "BA2 4AZ",
+      "price": 330000,
+      "date": "2026-06-12",
+      "postcode": "BA1 2QX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "53, THE MOORINGS, SYDNEY WHARF"
+      "address": "FLAT 3, 14, ALFRED STREET"
     },
     {
-      "price": 162500,
-      "date": "2026-05-08",
-      "postcode": "BA1 2JR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "GROUND FLOOR FLAT, 6, BARTON BUILDINGS"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-08",
-      "postcode": "BA1 7NH",
-      "propertyType": "T",
+      "price": 390000,
+      "date": "2026-06-12",
+      "postcode": "BA2 2DY",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "STAMBROOK COTTAGE, STAMBRIDGE"
+      "address": "12, SPRUCE WAY"
     },
     {
-      "price": 525000,
-      "date": "2026-05-06",
-      "postcode": "BA1 6FW",
-      "propertyType": "F",
+      "price": 425000,
+      "date": "2026-06-12",
+      "postcode": "BA2 2EY",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 8, KENSINGTON CHAPEL, KENSINGTON PLACE"
+      "tenure": "F",
+      "address": "4, SABIN CLOSE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-06-12",
+      "postcode": "BA1 3JB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, RUDMORE PARK"
     }
   ],
   "monthlyHistory": [
@@ -262,8 +265,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 477010,
-      "transactions": 129
+      "medianPrice": 478505,
+      "transactions": 130
     },
     {
       "month": "2025-02",
@@ -293,57 +296,62 @@
     {
       "month": "2025-07",
       "medianPrice": 476000,
-      "transactions": 156
+      "transactions": 160
     },
     {
       "month": "2025-08",
       "medianPrice": 425000,
-      "transactions": 160
+      "transactions": 166
     },
     {
       "month": "2025-09",
       "medianPrice": 450000,
-      "transactions": 149
+      "transactions": 160
     },
     {
       "month": "2025-10",
       "medianPrice": 434500,
-      "transactions": 182
+      "transactions": 184
     },
     {
       "month": "2025-11",
       "medianPrice": 435000,
-      "transactions": 138
+      "transactions": 141
     },
     {
       "month": "2025-12",
-      "medianPrice": 447500,
-      "transactions": 124
+      "medianPrice": 460000,
+      "transactions": 139
     },
     {
       "month": "2026-01",
       "medianPrice": 418000,
-      "transactions": 84
+      "transactions": 94
     },
     {
       "month": "2026-02",
       "medianPrice": 405000,
-      "transactions": 82
+      "transactions": 84
     },
     {
       "month": "2026-03",
       "medianPrice": 400000,
-      "transactions": 98
+      "transactions": 103
     },
     {
       "month": "2026-04",
       "medianPrice": 410000,
-      "transactions": 77
+      "transactions": 80
     },
     {
       "month": "2026-05",
-      "medianPrice": 405000,
-      "transactions": 28
+      "medianPrice": 365000,
+      "transactions": 85
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 380000,
+      "transactions": 43
     }
   ],
   "quarterlyHistory": [
@@ -370,7 +378,7 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 425000,
-      "transactions": 635
+      "transactions": 636
     },
     {
       "quarter": "2025-Q2",
@@ -380,22 +388,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 450000,
-      "transactions": 465
+      "transactions": 486
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 435000,
-      "transactions": 444
+      "medianPrice": 438750,
+      "transactions": 464
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 406250,
-      "transactions": 264
+      "medianPrice": 405000,
+      "transactions": 281
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 405000,
-      "transactions": 105
+      "medianPrice": 393750,
+      "transactions": 208
     }
   ]
 }

@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.237Z",
+  "updatedAt": "2026-08-07T08:45:02.621Z",
   "townSlug": "hinckley",
   "countySlug": "leicestershire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HINCKLEY AND BOSWORTH"
+  ],
   "marketSnapshot": {
-    "medianPrice": 258000,
-    "transactionCount12m": 1456,
-    "yoyPriceChange": -1.9,
+    "medianPrice": 255000,
+    "transactionCount12m": 1432,
+    "yoyPriceChange": -3.8,
     "approvedApps12m": 4,
-    "pipelineUnits": 200,
-    "pipelineGdv": 51538000,
+    "approvedRecent": 4,
+    "planningWindowMonths": null,
+    "pipelineUnits": 99,
+    "pipelineGdv": 25479000,
     "approvalRate": 100
   }
 }

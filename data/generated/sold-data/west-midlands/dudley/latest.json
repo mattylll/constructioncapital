@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.134Z",
+  "updatedAt": "2026-08-07T08:45:02.281Z",
   "townSlug": "dudley",
   "countySlug": "west-midlands",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "DUDLEY"
+  ],
   "stats": {
     "medianPrice": 230000,
     "medianByType": {
       "D": 345000,
-      "S": 235000,
+      "S": 236125,
       "T": 200000,
-      "F": 125000
+      "F": 127500
     },
-    "transactionCount12m": 2866,
+    "transactionCount12m": 2837,
     "yoyChange": 0,
     "newBuildCount": 9,
-    "existingCount": 2857,
-    "newBuildPremium": 38.4
+    "existingCount": 2828,
+    "newBuildPremium": 47
   },
   "recentTransactions": [
     {
-      "price": 207000,
-      "date": "2026-05-22",
-      "postcode": "DY8 1NL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, SWINCROSS ROAD"
-    },
-    {
-      "price": 142500,
-      "date": "2026-05-22",
-      "postcode": "DY5 3SR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, CARDER DRIVE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-05-22",
-      "postcode": "DY8 1EY",
+      "price": 155000,
+      "date": "2026-06-25",
+      "postcode": "DY2 8XT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "78C, PARKFIELD ROAD"
+      "address": "5, JUNCTION STREET"
     },
     {
-      "price": 130000,
-      "date": "2026-05-21",
-      "postcode": "B63 4NX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, LYTTLETON HOUSE, BLACKBERRY LANE"
-    },
-    {
-      "price": 205000,
-      "date": "2026-05-21",
-      "postcode": "B63 4DW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, WITLEY AVENUE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-20",
-      "postcode": "DY2 7QP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, HAIG ROAD"
-    },
-    {
-      "price": 281000,
-      "date": "2026-05-18",
-      "postcode": "DY6 8QJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, RANDALL CLOSE"
-    },
-    {
-      "price": 255000,
-      "date": "2026-05-18",
-      "postcode": "B63 3TP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "82, WHITTINGHAM ROAD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-16",
-      "postcode": "B63 1DX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, FOXLEA ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-15",
-      "postcode": "DY3 1PP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, THE QUADRANT"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-15",
-      "postcode": "B63 2UY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, LONG INNAGE"
-    },
-    {
-      "price": 243500,
-      "date": "2026-05-15",
-      "postcode": "DY8 4PF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "162, HIGH STREET"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-15",
-      "postcode": "DY2 9JU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, MOUSESWEET CLOSE"
-    },
-    {
-      "price": 258000,
-      "date": "2026-05-15",
-      "postcode": "DY3 2XH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, EATON CRESCENT"
-    },
-    {
-      "price": 179500,
-      "date": "2026-05-15",
-      "postcode": "DY5 3XT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27D, CRESSETT LANE"
-    },
-    {
-      "price": 422000,
-      "date": "2026-05-14",
-      "postcode": "B62 8SX",
+      "price": 110000,
+      "date": "2026-06-23",
+      "postcode": "DY2 8LX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "105, COUNTY PARK AVENUE"
+      "address": "10, PARKHILL STREET"
     },
     {
-      "price": 125000,
-      "date": "2026-05-13",
-      "postcode": "DY2 0SF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, COCHRANE ROAD"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-13",
-      "postcode": "DY8 3BA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, POPLAR CRESCENT"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-13",
-      "postcode": "B62 0AA",
+      "price": 330000,
+      "date": "2026-06-22",
+      "postcode": "DY6 9DU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "99, MANOR ABBEY ROAD"
+      "address": "6, FRAYNE AVENUE"
     },
     {
       "price": 235000,
-      "date": "2026-05-13",
-      "postcode": "B62 9QL",
+      "date": "2026-06-19",
+      "postcode": "DY1 2QL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56, CARDONESS PLACE"
+    },
+    {
+      "price": 355000,
+      "date": "2026-06-19",
+      "postcode": "DY2 7TG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, ELIZABETH GROVE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-19",
+      "postcode": "DY8 3SD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 18, LIDDIARD COURT, BELFRY DRIVE"
+    },
+    {
+      "price": 177500,
+      "date": "2026-06-19",
+      "postcode": "DY5 3HH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "83, FENTON STREET"
+    },
+    {
+      "price": 125000,
+      "date": "2026-06-18",
+      "postcode": "B62 8PF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, SHENSTONE FLATS"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-17",
+      "postcode": "B63 3QU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "277, STOURBRIDGE ROAD"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-17",
+      "postcode": "DY8 3DU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, MIDDLEFIELD AVENUE"
+      "address": "81, ST GEORGES ROAD"
+    },
+    {
+      "price": 314000,
+      "date": "2026-06-17",
+      "postcode": "B62 8HU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55A, VICARAGE ROAD"
+    },
+    {
+      "price": 400000,
+      "date": "2026-06-16",
+      "postcode": "DY1 2GL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, STOKESAY RISE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-16",
+      "postcode": "DY3 1LJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, LIME ROAD"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-16",
+      "postcode": "B62 9DU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, NEWLANDS DRIVE"
+    },
+    {
+      "price": 123000,
+      "date": "2026-06-15",
+      "postcode": "DY2 8RL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "50, WELLSPRING GARDENS"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-12",
+      "postcode": "B63 4SA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, INSTONE ROAD"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-12",
+      "postcode": "DY2 0JR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, LYTTLETON CLOSE"
+    },
+    {
+      "price": 136000,
+      "date": "2026-06-12",
+      "postcode": "B63 3QN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "63, BELLE VALE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-12",
+      "postcode": "B63 3PT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, BLAGDON ROAD"
+    },
+    {
+      "price": 258000,
+      "date": "2026-06-12",
+      "postcode": "DY6 8PQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, RANGEWAYS ROAD"
     }
   ],
   "monthlyHistory": [
@@ -208,7 +211,7 @@
     {
       "month": "2024-02",
       "medianPrice": 220000,
-      "transactions": 298
+      "transactions": 299
     },
     {
       "month": "2024-03",
@@ -242,8 +245,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 217125,
-      "transactions": 392
+      "medianPrice": 217750,
+      "transactions": 393
     },
     {
       "month": "2024-10",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 240000,
-      "transactions": 669
+      "transactions": 670
     },
     {
       "month": "2025-04",
@@ -282,75 +285,80 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 227820,
-      "transactions": 319
+      "medianPrice": 227660,
+      "transactions": 320
     },
     {
       "month": "2025-06",
       "medianPrice": 235000,
-      "transactions": 422
+      "transactions": 426
     },
     {
       "month": "2025-07",
       "medianPrice": 240000,
-      "transactions": 381
+      "transactions": 388
     },
     {
       "month": "2025-08",
-      "medianPrice": 227025,
-      "transactions": 360
+      "medianPrice": 229975,
+      "transactions": 384
     },
     {
       "month": "2025-09",
       "medianPrice": 240000,
-      "transactions": 319
+      "transactions": 334
     },
     {
       "month": "2025-10",
       "medianPrice": 226750,
-      "transactions": 414
+      "transactions": 430
     },
     {
       "month": "2025-11",
       "medianPrice": 240000,
-      "transactions": 310
+      "transactions": 320
     },
     {
       "month": "2025-12",
-      "medianPrice": 229000,
-      "transactions": 250
+      "medianPrice": 230000,
+      "transactions": 285
     },
     {
       "month": "2026-01",
-      "medianPrice": 220000,
-      "transactions": 197
+      "medianPrice": 229975,
+      "transactions": 222
     },
     {
       "month": "2026-02",
-      "medianPrice": 223750,
-      "transactions": 200
+      "medianPrice": 225000,
+      "transactions": 205
     },
     {
       "month": "2026-03",
       "medianPrice": 222000,
-      "transactions": 260
+      "transactions": 264
     },
     {
       "month": "2026-04",
-      "medianPrice": 215000,
-      "transactions": 177
+      "medianPrice": 216250,
+      "transactions": 200
     },
     {
       "month": "2026-05",
-      "medianPrice": 235000,
-      "transactions": 60
+      "medianPrice": 236000,
+      "transactions": 186
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 224000,
+      "transactions": 74
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 210000,
-      "transactions": 906
+      "transactions": 907
     },
     {
       "quarter": "2024-Q2",
@@ -360,7 +368,7 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 230000,
-      "transactions": 1171
+      "transactions": 1172
     },
     {
       "quarter": "2024-Q4",
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 236000,
-      "transactions": 1295
+      "medianPrice": 236250,
+      "transactions": 1296
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 227000,
-      "transactions": 990
+      "transactions": 995
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 235000,
-      "transactions": 1060
+      "transactions": 1106
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 232000,
-      "transactions": 974
+      "transactions": 1035
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 221000,
-      "transactions": 657
+      "medianPrice": 225000,
+      "transactions": 691
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 220000,
-      "transactions": 237
+      "medianPrice": 225975,
+      "transactions": 460
     }
   ]
 }

@@ -1,208 +1,211 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.224Z",
+  "updatedAt": "2026-08-07T08:45:03.441Z",
   "townSlug": "sunderland",
   "countySlug": "tyne-and-wear",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SUNDERLAND"
+  ],
   "stats": {
     "medianPrice": 130000,
     "medianByType": {
-      "D": 273750,
+      "D": 280000,
       "S": 150000,
-      "T": 114000,
-      "F": 66248
+      "T": 115000,
+      "F": 67000
     },
-    "transactionCount12m": 1814,
+    "transactionCount12m": 1804,
     "yoyChange": 0,
-    "newBuildCount": 5,
-    "existingCount": 1809,
-    "newBuildPremium": 154.6
+    "newBuildCount": 14,
+    "existingCount": 1790,
+    "newBuildPremium": 157
   },
   "recentTransactions": [
     {
+      "price": 103000,
+      "date": "2026-06-26",
+      "postcode": "SR2 7SL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, PEARTREE MEWS, TUNSTALL ROAD"
+    },
+    {
+      "price": 173000,
+      "date": "2026-06-25",
+      "postcode": "SR6 9AT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "101, ATKINSON ROAD"
+    },
+    {
+      "price": 190000,
+      "date": "2026-06-25",
+      "postcode": "SR2 7QE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, IVANHOE CRESCENT"
+    },
+    {
       "price": 150000,
-      "date": "2026-05-22",
-      "postcode": "SR3 4JN",
+      "date": "2026-06-23",
+      "postcode": "SR5 5HQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "108, TWICKENHAM ROAD"
+      "address": "8, MIDDLEHAM COURT"
     },
     {
-      "price": 169500,
-      "date": "2026-05-22",
-      "postcode": "SR4 7RX",
-      "propertyType": "T",
+      "price": 213000,
+      "date": "2026-06-22",
+      "postcode": "SR3 2AB",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "46, BARNARD STREET"
+      "address": "1, LIDCOMBE CLOSE"
     },
     {
-      "price": 126860,
-      "date": "2026-05-22",
-      "postcode": "SR5 3RF",
-      "propertyType": "T",
+      "price": 57000,
+      "date": "2026-06-22",
+      "postcode": "SR5 4PX",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, CAITHNESS SQUARE"
+      "address": "27, BEXHILL ROAD"
     },
     {
-      "price": 180000,
-      "date": "2026-05-21",
+      "price": 168750,
+      "date": "2026-06-19",
+      "postcode": "SR3 3LE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "83, ABERCORN ROAD"
+    },
+    {
+      "price": 186000,
+      "date": "2026-06-19",
       "postcode": "SR2 0EX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, LYNGROVE"
+      "address": "40, LYNGROVE"
     },
     {
-      "price": 167000,
-      "date": "2026-05-21",
-      "postcode": "SR3 3DS",
+      "price": 164500,
+      "date": "2026-06-19",
+      "postcode": "SR4 0BS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "55, THE STRAND"
+      "address": "62, FLODDEN ROAD"
     },
     {
       "price": 125000,
-      "date": "2026-05-20",
-      "postcode": "SR5 4QH",
+      "date": "2026-06-19",
+      "postcode": "SR3 1LB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, DEVON DRIVE"
+    },
+    {
+      "price": 110000,
+      "date": "2026-06-19",
+      "postcode": "SR6 0LQ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "69, BEXHILL ROAD"
+      "address": "51, HARTINGTON STREET"
     },
     {
-      "price": 140000,
-      "date": "2026-05-20",
-      "postcode": "SR4 7QD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "144, MOUNT ROAD"
-    },
-    {
-      "price": 255000,
-      "date": "2026-05-19",
-      "postcode": "SR2 9DN",
-      "propertyType": "T",
+      "price": 98000,
+      "date": "2026-06-19",
+      "postcode": "SR2 7JY",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "3, THE PRECINCT"
+      "address": "FLAT 7, LOUISE HOUSE, VICTORIA COURT"
     },
     {
-      "price": 169995,
-      "date": "2026-05-19",
-      "postcode": "SR2 0AZ",
+      "price": 127000,
+      "date": "2026-06-19",
+      "postcode": "SR5 3AQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "55, RAVENSWORTH"
+      "address": "13, THE VILLAS"
     },
     {
-      "price": 95000,
-      "date": "2026-05-15",
-      "postcode": "SR4 6BH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, GRANVILLE STREET"
-    },
-    {
-      "price": 155000,
-      "date": "2026-05-15",
-      "postcode": "SR2 7BG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FLAT 1, 11, ESPLANADE WEST"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-15",
-      "postcode": "SR6 8AN",
+      "price": 187000,
+      "date": "2026-06-18",
+      "postcode": "SR3 2ST",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, ESKDALE ROAD"
+      "address": "31, GOLDLYNN DRIVE"
     },
     {
-      "price": 249950,
-      "date": "2026-05-15",
-      "postcode": "SR6 8DR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "97, DEEPDENE ROAD"
-    },
-    {
-      "price": 135000,
-      "date": "2026-05-15",
-      "postcode": "SR6 9JY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, LILAC GROVE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-15",
-      "postcode": "SR5 1PS",
+      "price": 176950,
+      "date": "2026-06-18",
+      "postcode": "SR3 2EW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, SHOTLEY AVENUE"
+      "address": "27, WOBURN DRIVE"
     },
     {
-      "price": 133000,
-      "date": "2026-05-15",
-      "postcode": "SR4 0DG",
-      "propertyType": "S",
+      "price": 160000,
+      "date": "2026-06-18",
+      "postcode": "SR4 6EF",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, FAWN ROAD"
+      "address": "1, WESTBURY STREET"
     },
     {
-      "price": 415000,
-      "date": "2026-05-15",
-      "postcode": "SR6 8EL",
+      "price": 265000,
+      "date": "2026-06-17",
+      "postcode": "SR4 6EE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, DACRE ROAD"
+      "address": "60, CORNING ROAD"
     },
     {
-      "price": 150000,
-      "date": "2026-05-15",
-      "postcode": "SR4 8EW",
+      "price": 200000,
+      "date": "2026-06-17",
+      "postcode": "SR3 3BG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, PALMSTEAD ROAD"
+      "address": "5, NORTH MOOR FARM, NORTH MOOR LANE"
     },
     {
-      "price": 100450,
-      "date": "2026-05-14",
-      "postcode": "SR3 3DL",
+      "price": 170000,
+      "date": "2026-06-17",
+      "postcode": "SR6 0QD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, TOPCLIFF"
+    },
+    {
+      "price": 123500,
+      "date": "2026-06-17",
+      "postcode": "SR2 9QB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, AGAR ROAD"
-    },
-    {
-      "price": 188000,
-      "date": "2026-05-14",
-      "postcode": "SR3 1JG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, RUTLAND AVENUE"
+      "address": "37, WELDON AVENUE"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 117725,
+      "medianPrice": 117250,
       "transactions": 174
     },
     {
@@ -273,77 +276,82 @@
     {
       "month": "2025-03",
       "medianPrice": 145000,
-      "transactions": 341
+      "transactions": 342
     },
     {
       "month": "2025-04",
-      "medianPrice": 111500,
-      "transactions": 157
+      "medianPrice": 117500,
+      "transactions": 160
     },
     {
       "month": "2025-05",
       "medianPrice": 130000,
-      "transactions": 219
+      "transactions": 223
     },
     {
       "month": "2025-06",
       "medianPrice": 147000,
-      "transactions": 273
+      "transactions": 277
     },
     {
       "month": "2025-07",
-      "medianPrice": 123000,
-      "transactions": 235
+      "medianPrice": 125000,
+      "transactions": 241
     },
     {
       "month": "2025-08",
-      "medianPrice": 135000,
-      "transactions": 215
+      "medianPrice": 139950,
+      "transactions": 236
     },
     {
       "month": "2025-09",
-      "medianPrice": 127000,
-      "transactions": 181
+      "medianPrice": 127750,
+      "transactions": 192
     },
     {
       "month": "2025-10",
       "medianPrice": 125000,
-      "transactions": 237
+      "transactions": 242
     },
     {
       "month": "2025-11",
       "medianPrice": 135000,
-      "transactions": 220
+      "transactions": 227
     },
     {
       "month": "2025-12",
-      "medianPrice": 140000,
-      "transactions": 183
+      "medianPrice": 135000,
+      "transactions": 202
     },
     {
       "month": "2026-01",
-      "medianPrice": 121000,
-      "transactions": 130
+      "medianPrice": 123000,
+      "transactions": 141
     },
     {
       "month": "2026-02",
-      "medianPrice": 129000,
-      "transactions": 156
+      "medianPrice": 130000,
+      "transactions": 162
     },
     {
       "month": "2026-03",
-      "medianPrice": 132500,
-      "transactions": 140
+      "medianPrice": 134000,
+      "transactions": 144
     },
     {
       "month": "2026-04",
-      "medianPrice": 116500,
-      "transactions": 110
+      "medianPrice": 120000,
+      "transactions": 117
     },
     {
       "month": "2026-05",
       "medianPrice": 135000,
-      "transactions": 49
+      "transactions": 119
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 148000,
+      "transactions": 60
     }
   ],
   "quarterlyHistory": [
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 136000,
-      "transactions": 777
+      "medianPrice": 136500,
+      "transactions": 778
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 130000,
-      "transactions": 649
+      "medianPrice": 131975,
+      "transactions": 660
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 127500,
-      "transactions": 631
+      "medianPrice": 130000,
+      "transactions": 669
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 131500,
-      "transactions": 640
+      "medianPrice": 130000,
+      "transactions": 671
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 127250,
-      "transactions": 426
+      "medianPrice": 129000,
+      "transactions": 447
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 127000,
-      "transactions": 159
+      "medianPrice": 134975,
+      "transactions": 296
     }
   ]
 }

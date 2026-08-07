@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.713Z",
+  "updatedAt": "2026-08-07T08:45:03.094Z",
   "townSlug": "northwich",
   "countySlug": "cheshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CHESHIRE WEST AND CHESTER"
+  ],
   "marketSnapshot": {
-    "medianPrice": 265000,
-    "transactionCount12m": 1035,
-    "yoyPriceChange": 1.9,
-    "approvedApps12m": 61,
-    "pipelineUnits": 344,
-    "pipelineGdv": 85995000,
-    "approvalRate": 98
+    "medianPrice": 262000,
+    "transactionCount12m": 1026,
+    "yoyPriceChange": -1.1,
+    "approvedApps12m": 72,
+    "approvedRecent": 72,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 925,
+    "pipelineGdv": 243087500,
+    "approvalRate": 99
   }
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.647Z",
+  "updatedAt": "2026-08-07T08:45:02.841Z",
   "townSlug": "rochdale",
   "countySlug": "greater-manchester",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "ROCHDALE"
+  ],
   "stats": {
-    "medianPrice": 190000,
+    "medianPrice": 196000,
     "medianByType": {
-      "D": 340000,
-      "S": 225000,
-      "T": 155000,
+      "D": 340500,
+      "S": 227000,
+      "T": 156000,
       "F": 116000
     },
-    "transactionCount12m": 2166,
-    "yoyChange": -2.6,
-    "newBuildCount": 7,
-    "existingCount": 2159,
-    "newBuildPremium": 75.3
+    "transactionCount12m": 2219,
+    "yoyChange": 2.1,
+    "newBuildCount": 18,
+    "existingCount": 2201,
+    "newBuildPremium": 73.1
   },
   "recentTransactions": [
     {
-      "price": 49136,
-      "date": "2026-05-29",
-      "postcode": "M24 1RP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, BROOKSIDE CRESCENT"
-    },
-    {
-      "price": 129950,
-      "date": "2026-05-22",
-      "postcode": "OL16 4AH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "17, BROADVIEW COURT, BROAD LANE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-22",
-      "postcode": "M24 2DL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "142, GREEN STREET"
-    },
-    {
-      "price": 147000,
-      "date": "2026-05-18",
-      "postcode": "OL12 6NB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, JOSEPH STREET"
-    },
-    {
-      "price": 105000,
-      "date": "2026-05-15",
-      "postcode": "OL15 9QJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "41, ROCK NOOK"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-15",
-      "postcode": "M24 2DH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "539, OLDHAM ROAD"
-    },
-    {
-      "price": 205000,
-      "date": "2026-05-15",
-      "postcode": "M24 2GX",
+      "price": 265000,
+      "date": "2026-06-25",
+      "postcode": "M24 5AY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "22, ACRESFIELD ROAD"
+      "address": "10, TARRAGON DRIVE"
     },
     {
-      "price": 330000,
-      "date": "2026-05-15",
-      "postcode": "OL10 2NZ",
+      "price": 270000,
+      "date": "2026-06-23",
+      "postcode": "OL12 7JG",
       "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, SALISBURY AVENUE"
-    },
-    {
-      "price": 358000,
-      "date": "2026-05-15",
-      "postcode": "OL16 4FX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, JONES WAY"
-    },
-    {
-      "price": 130000,
-      "date": "2026-05-15",
-      "postcode": "M24 1LU",
-      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "11, WHITECROFT MEADOW"
+      "address": "599, ROOLEY MOOR ROAD"
+    },
+    {
+      "price": 159950,
+      "date": "2026-06-19",
+      "postcode": "M24 2HZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "21, HILTON FOLD LANE"
     },
     {
       "price": 210000,
-      "date": "2026-05-15",
-      "postcode": "OL16 3HL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, PENNINE DRIVE"
-    },
-    {
-      "price": 191100,
-      "date": "2026-05-15",
-      "postcode": "OL10 2BL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, ULLSWATER GROVE"
-    },
-    {
-      "price": 297000,
-      "date": "2026-05-15",
-      "postcode": "OL16 2SB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3A, STOTT STREET"
-    },
-    {
-      "price": 100000,
-      "date": "2026-05-15",
-      "postcode": "OL12 9AT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, HOWARTH GREEN"
-    },
-    {
-      "price": 141000,
-      "date": "2026-05-15",
-      "postcode": "OL10 4AH",
+      "date": "2026-06-19",
+      "postcode": "BL9 7HX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "241, BAMFORD ROAD"
+      "address": "94, PRETTYWOOD"
     },
     {
-      "price": 177500,
-      "date": "2026-05-13",
-      "postcode": "M24 2HE",
+      "price": 230000,
+      "date": "2026-06-19",
+      "postcode": "OL11 5XZ",
       "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "14, WILLOW AVENUE"
+      "tenure": "F",
+      "address": "112, SHELFIELD LANE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-19",
+      "postcode": "M24 5PG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "101, MARTINDALE CRESCENT"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-19",
+      "postcode": "OL11 3NT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, THE WOODS"
+    },
+    {
+      "price": 167500,
+      "date": "2026-06-19",
+      "postcode": "OL10 3DX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, MELTON STREET"
+    },
+    {
+      "price": 125000,
+      "date": "2026-06-19",
+      "postcode": "M24 1DY",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "57, MOUNT ROAD"
+    },
+    {
+      "price": 299950,
+      "date": "2026-06-19",
+      "postcode": "OL15 8QL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, CHICHESTER CLOSE"
+    },
+    {
+      "price": 125000,
+      "date": "2026-06-19",
+      "postcode": "M24 1DY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, MOUNT ROAD"
     },
     {
       "price": 90000,
-      "date": "2026-05-12",
-      "postcode": "OL10 4QN",
+      "date": "2026-06-18",
+      "postcode": "OL16 2XN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "18, DERBY STREET"
+      "address": "122, BELFIELD ROAD"
     },
     {
-      "price": 200000,
-      "date": "2026-05-12",
-      "postcode": "OL15 9AD",
-      "propertyType": "T",
+      "price": 360000,
+      "date": "2026-06-16",
+      "postcode": "OL11 5RZ",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, HARE HILL ROAD"
+      "address": "20, HIGHFIELD ROAD"
     },
     {
-      "price": 250000,
-      "date": "2026-05-11",
-      "postcode": "OL12 7HN",
+      "price": 315000,
+      "date": "2026-06-15",
+      "postcode": "OL10 3FJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "L",
-      "address": "53, HARRIDGE AVENUE"
+      "address": "58, SHUTTLE DRIVE"
     },
     {
-      "price": 190000,
-      "date": "2026-05-08",
-      "postcode": "M24 2HE",
-      "propertyType": "S",
+      "price": 110718,
+      "date": "2026-06-15",
+      "postcode": "M24 5QP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "138, MOSEDALE ROAD"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-15",
+      "postcode": "OL15 0DZ",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "53, WILLOW AVENUE"
+      "address": "17, WALMSLEY AVENUE"
+    },
+    {
+      "price": 284000,
+      "date": "2026-06-15",
+      "postcode": "M24 5DF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CLEWORTH ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-15",
+      "postcode": "M24 2DQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "48, KENYON LANE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-12",
+      "postcode": "M24 2WD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, MYRTLE ROAD"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-12",
+      "postcode": "M24 2DT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "362, OLDHAM ROAD"
     }
   ],
   "monthlyHistory": [
@@ -242,8 +245,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 206000,
-      "transactions": 249
+      "medianPrice": 207000,
+      "transactions": 250
     },
     {
       "month": "2024-10",
@@ -273,77 +276,82 @@
     {
       "month": "2025-03",
       "medianPrice": 221000,
-      "transactions": 456
+      "transactions": 458
     },
     {
       "month": "2025-04",
       "medianPrice": 175000,
-      "transactions": 170
+      "transactions": 171
     },
     {
       "month": "2025-05",
-      "medianPrice": 175000,
-      "transactions": 239
+      "medianPrice": 174000,
+      "transactions": 240
     },
     {
       "month": "2025-06",
       "medianPrice": 200000,
-      "transactions": 263
+      "transactions": 265
     },
     {
       "month": "2025-07",
-      "medianPrice": 183000,
-      "transactions": 271
+      "medianPrice": 184000,
+      "transactions": 276
     },
     {
       "month": "2025-08",
-      "medianPrice": 188500,
-      "transactions": 260
+      "medianPrice": 199950,
+      "transactions": 281
     },
     {
       "month": "2025-09",
-      "medianPrice": 175750,
-      "transactions": 242
+      "medianPrice": 177750,
+      "transactions": 254
     },
     {
       "month": "2025-10",
-      "medianPrice": 193500,
-      "transactions": 288
+      "medianPrice": 195000,
+      "transactions": 293
     },
     {
       "month": "2025-11",
-      "medianPrice": 190000,
-      "transactions": 253
+      "medianPrice": 188000,
+      "transactions": 271
     },
     {
       "month": "2025-12",
       "medianPrice": 210000,
-      "transactions": 237
+      "transactions": 273
     },
     {
       "month": "2026-01",
-      "medianPrice": 180000,
-      "transactions": 141
+      "medianPrice": 181500,
+      "transactions": 162
     },
     {
       "month": "2026-02",
       "medianPrice": 197000,
-      "transactions": 175
+      "transactions": 179
     },
     {
       "month": "2026-03",
-      "medianPrice": 191000,
-      "transactions": 183
+      "medianPrice": 195000,
+      "transactions": 192
     },
     {
       "month": "2026-04",
       "medianPrice": 190000,
-      "transactions": 128
+      "transactions": 142
     },
     {
       "month": "2026-05",
-      "medianPrice": 200000,
-      "transactions": 42
+      "medianPrice": 204000,
+      "transactions": 152
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 221500,
+      "transactions": 58
     }
   ],
   "quarterlyHistory": [
@@ -360,7 +368,7 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 200000,
-      "transactions": 850
+      "transactions": 851
     },
     {
       "quarter": "2024-Q4",
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 200000,
-      "transactions": 915
+      "transactions": 917
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 179975,
-      "transactions": 672
+      "medianPrice": 179950,
+      "transactions": 676
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 185000,
-      "transactions": 773
+      "transactions": 811
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 200000,
-      "transactions": 778
+      "medianPrice": 195500,
+      "transactions": 837
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 190000,
-      "transactions": 499
+      "medianPrice": 195000,
+      "transactions": 533
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 190550,
-      "transactions": 170
+      "medianPrice": 200000,
+      "transactions": 352
     }
   ]
 }

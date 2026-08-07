@@ -1,23 +1,189 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.186Z",
+  "updatedAt": "2026-08-07T08:45:03.408Z",
   "townSlug": "whitby",
   "countySlug": "north-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTH YORKSHIRE",
+    "SCARBOROUGH"
+  ],
   "stats": {
     "medianPrice": 255000,
     "medianByType": {
-      "D": 375000,
+      "D": 367500,
       "S": 250000,
-      "T": 220000,
-      "F": 151000
+      "T": 214000,
+      "F": 152000
     },
-    "transactionCount12m": 271,
+    "transactionCount12m": 279,
     "yoyChange": -5.6,
-    "newBuildCount": 3,
-    "existingCount": 268,
-    "newBuildPremium": 43.1
+    "newBuildCount": 7,
+    "existingCount": 272,
+    "newBuildPremium": 37.3
   },
   "recentTransactions": [
+    {
+      "price": 210300,
+      "date": "2026-06-26",
+      "postcode": "YO21 1EP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, GRAY STREET"
+    },
+    {
+      "price": 254000,
+      "date": "2026-06-26",
+      "postcode": "YO21 3NE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, WESTBOURNE ROAD"
+    },
+    {
+      "price": 497000,
+      "date": "2026-06-24",
+      "postcode": "YO22 5AN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MULGRAVE COTTAGE"
+    },
+    {
+      "price": 295000,
+      "date": "2026-06-17",
+      "postcode": "YO21 3HB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, KIRBYS FLATS, EAST TERRACE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-15",
+      "postcode": "YO21 3NW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, CHANCEL WAY"
+    },
+    {
+      "price": 73500,
+      "date": "2026-06-09",
+      "postcode": "YO21 2DB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, HIGH STREET"
+    },
+    {
+      "price": 202000,
+      "date": "2026-06-05",
+      "postcode": "YO21 1JA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ELM GROVE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-03",
+      "postcode": "YO22 4UN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, KINGSTON GARTH"
+    },
+    {
+      "price": 173000,
+      "date": "2026-06-02",
+      "postcode": "YO22 4DN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, SANDSIDE"
+    },
+    {
+      "price": 485000,
+      "date": "2026-05-29",
+      "postcode": "YO22 5AN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WHEATKITS, THE COMMON"
+    },
+    {
+      "price": 275000,
+      "date": "2026-05-29",
+      "postcode": "YO22 4DY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "58, KINGFISHER DRIVE"
+    },
+    {
+      "price": 258000,
+      "date": "2026-05-29",
+      "postcode": "YO22 5EH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "119, COACH ROAD"
+    },
+    {
+      "price": 120000,
+      "date": "2026-05-29",
+      "postcode": "YO21 3HQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 5, 14, ABBEY TERRACE"
+    },
+    {
+      "price": 1500000,
+      "date": "2026-05-29",
+      "postcode": "YO21 3DT",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, UPGANG LANE"
+    },
+    {
+      "price": 255000,
+      "date": "2026-05-28",
+      "postcode": "YO22 5EN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "181, COACH ROAD"
+    },
+    {
+      "price": 59190,
+      "date": "2026-05-27",
+      "postcode": "YO21 1QS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 4, 12, BAGDALE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-05-27",
+      "postcode": "YO21 3NU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, SAXON ROAD"
+    },
+    {
+      "price": 240000,
+      "date": "2026-05-22",
+      "postcode": "YO22 4DZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, HEATHER DRIVE"
+    },
     {
       "price": 280000,
       "date": "2026-05-20",
@@ -28,175 +194,13 @@
       "address": "44, LOVE LANE"
     },
     {
-      "price": 320000,
-      "date": "2026-05-18",
-      "postcode": "YO21 1PN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, PARK TERRACE"
-    },
-    {
-      "price": 445000,
-      "date": "2026-05-14",
-      "postcode": "YO22 5HX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ST. NINIANS"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-12",
-      "postcode": "YO21 1PL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, OSWY STREET"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-11",
-      "postcode": "YO21 3QS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HILLCREST, RICHARDSONS ROW"
-    },
-    {
-      "price": 225000,
-      "date": "2026-05-08",
-      "postcode": "YO22 4DW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, HENRIETTA STREET"
-    },
-    {
-      "price": 248000,
-      "date": "2026-05-08",
-      "postcode": "YO22 4QP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, NIGHTINGALE DRIVE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-07",
-      "postcode": "YO22 5BZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, BIRCH AVENUE"
-    },
-    {
-      "price": 205000,
-      "date": "2026-05-06",
-      "postcode": "YO21 1RY",
+      "price": 110000,
+      "date": "2026-05-19",
+      "postcode": "YO21 1QQ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 5, THE WOODLANDS, WOODLANDS"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-01",
-      "postcode": "YO21 3AE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TALDOMAS GALLERY, ST HILDAS TERRACE"
-    },
-    {
-      "price": 470000,
-      "date": "2026-04-29",
-      "postcode": "YO22 4RS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, THE ESPLANADE"
-    },
-    {
-      "price": 212000,
-      "date": "2026-04-29",
-      "postcode": "YO21 1PL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, OSWY STREET"
-    },
-    {
-      "price": 250000,
-      "date": "2026-04-24",
-      "postcode": "YO21 3AF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2A, POPLAR ROW"
-    },
-    {
-      "price": 230000,
-      "date": "2026-04-24",
-      "postcode": "YO21 1QD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, PROSPECT HILL"
-    },
-    {
-      "price": 112500,
-      "date": "2026-04-24",
-      "postcode": "YO21 3FH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, 1, ABBEY TERRACE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-04-24",
-      "postcode": "YO21 1QL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34A, BAGDALE"
-    },
-    {
-      "price": 597000,
-      "date": "2026-04-22",
-      "postcode": "YO21 3SU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "NESS VIEW, EAST ROW"
-    },
-    {
-      "price": 395000,
-      "date": "2026-04-22",
-      "postcode": "YO22 4QT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, SANDPIPER PLACE"
-    },
-    {
-      "price": 545000,
-      "date": "2026-04-17",
-      "postcode": "YO22 5HU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FOSS WAY, UGGLEBARNBY LANE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-04-17",
-      "postcode": "YO22 4LG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, PROSPECT FIELD"
+      "address": "6, HILLSIDE APARTMENTS, 12, HANOVER TERRACE"
     }
   ],
   "monthlyHistory": [
@@ -292,18 +296,18 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 261250,
-      "transactions": 35
+      "medianPrice": 258125,
+      "transactions": 38
     },
     {
       "month": "2025-08",
-      "medianPrice": 232475,
-      "transactions": 34
+      "medianPrice": 251600,
+      "transactions": 40
     },
     {
       "month": "2025-09",
-      "medianPrice": 292000,
-      "transactions": 22
+      "medianPrice": 270000,
+      "transactions": 24
     },
     {
       "month": "2025-10",
@@ -312,13 +316,13 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 275000,
-      "transactions": 33
+      "medianPrice": 270000,
+      "transactions": 36
     },
     {
       "month": "2025-12",
-      "medianPrice": 247500,
-      "transactions": 26
+      "medianPrice": 252500,
+      "transactions": 28
     },
     {
       "month": "2026-01",
@@ -327,8 +331,8 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 220000,
-      "transactions": 13
+      "medianPrice": 230000,
+      "transactions": 15
     },
     {
       "month": "2026-03",
@@ -337,13 +341,18 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 258944,
-      "transactions": 17
+      "medianPrice": 275000,
+      "transactions": 19
     },
     {
       "month": "2026-05",
-      "medianPrice": 261500,
-      "transactions": 10
+      "medianPrice": 248000,
+      "transactions": 25
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 254000,
+      "transactions": 9
     }
   ],
   "quarterlyHistory": [
@@ -379,23 +388,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 260000,
-      "transactions": 91
+      "medianPrice": 257500,
+      "transactions": 102
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 260000,
-      "transactions": 105
+      "medianPrice": 255000,
+      "transactions": 110
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 241250,
-      "transactions": 58
+      "transactions": 60
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 258944,
-      "transactions": 27
+      "medianPrice": 255000,
+      "transactions": 53
     }
   ]
 }

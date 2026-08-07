@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.193Z",
+  "updatedAt": "2026-08-07T08:45:02.342Z",
   "townSlug": "nuneaton",
   "countySlug": "warwickshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NUNEATON AND BEDWORTH"
+  ],
   "stats": {
     "medianPrice": 220000,
     "medianByType": {
       "D": 335000,
-      "S": 230000,
-      "T": 170000,
-      "F": 112500
+      "S": 226250,
+      "T": 172000,
+      "F": 111500
     },
-    "transactionCount12m": 955,
+    "transactionCount12m": 945,
     "yoyChange": -10.2,
     "newBuildCount": 10,
-    "existingCount": 945,
-    "newBuildPremium": 56.4
+    "existingCount": 935,
+    "newBuildPremium": 67
   },
   "recentTransactions": [
     {
-      "price": 280000,
-      "date": "2026-05-22",
-      "postcode": "CV11 4SN",
+      "price": 158000,
+      "date": "2026-06-26",
+      "postcode": "CV10 9AY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "106, ASHWOOD ROAD"
+    },
+    {
+      "price": 366000,
+      "date": "2026-06-16",
+      "postcode": "CV10 7RU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, PURCELL AVENUE"
+      "address": "58, MARSDALE DRIVE"
     },
     {
-      "price": 180000,
-      "date": "2026-05-22",
-      "postcode": "CV10 8AL",
+      "price": 160000,
+      "date": "2026-06-15",
+      "postcode": "CV10 9LH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "65, VALE VIEW"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-20",
-      "postcode": "CV10 9DG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "245, CEDAR ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-15",
-      "postcode": "CV10 9RE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, CABINHILL ROAD"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-15",
-      "postcode": "CV10 8JP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, PRIORY STREET"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-14",
-      "postcode": "CV10 8JN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "126, CUMBERLAND DRIVE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-11",
-      "postcode": "CV10 9HU",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE MIDLAND RAILWAY INN, WHITTLEFORD ROAD"
+      "address": "210, BUCKS HILL"
     },
     {
       "price": 320000,
-      "date": "2026-05-08",
-      "postcode": "CV10 9RD",
+      "date": "2026-06-12",
+      "postcode": "CV11 6DZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, ADDISON CLOSE"
+      "address": "87, ST NICOLAS PARK DRIVE"
     },
     {
-      "price": 64500,
-      "date": "2026-05-08",
-      "postcode": "CV11 5XH",
+      "price": 190625,
+      "date": "2026-06-12",
+      "postcode": "CV10 9FP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "196, EDINBURGH ROAD"
+    },
+    {
+      "price": 157000,
+      "date": "2026-06-11",
+      "postcode": "CV10 8LJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "245, CHURCH ROAD"
+    },
+    {
+      "price": 182000,
+      "date": "2026-06-10",
+      "postcode": "CV10 9ST",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "88, CHAYTOR DRIVE"
+    },
+    {
+      "price": 257000,
+      "date": "2026-06-05",
+      "postcode": "CV11 4TQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, COPSEWOOD AVENUE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-05",
+      "postcode": "CV10 7DB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, WESTWOOD CLOSE"
+    },
+    {
+      "price": 212000,
+      "date": "2026-06-04",
+      "postcode": "CV10 0EN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, CASTLE ROAD"
+    },
+    {
+      "price": 50000,
+      "date": "2026-06-03",
+      "postcode": "CV10 9EB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "7, BERKELEY CLOSE"
+      "address": "9, RAMSDEN AVENUE"
     },
     {
-      "price": 230000,
-      "date": "2026-05-08",
-      "postcode": "CV10 9FX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, BRIGHTS ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-06",
-      "postcode": "CV11 6DN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, PEAKE AVENUE"
-    },
-    {
-      "price": 80000,
-      "date": "2026-05-05",
-      "postcode": "CV11 5AQ",
+      "price": 107000,
+      "date": "2026-06-03",
+      "postcode": "CV11 6LA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "9, STATION VIEW"
+      "address": "95, OASTON ROAD"
     },
     {
-      "price": 183000,
-      "date": "2026-05-05",
-      "postcode": "CV10 9TA",
-      "propertyType": "T",
+      "price": 74000,
+      "date": "2026-06-03",
+      "postcode": "CV11 5XW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "24, GILLETT CLOSE"
+    },
+    {
+      "price": 421500,
+      "date": "2026-06-01",
+      "postcode": "CV11 6HT",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, MELFORT CLOSE"
+      "address": "3, THIRLMERE AVENUE"
     },
     {
-      "price": 100000,
-      "date": "2026-05-01",
-      "postcode": "CV11 4JX",
-      "propertyType": "T",
+      "price": 345000,
+      "date": "2026-06-01",
+      "postcode": "CV11 6FF",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, BULL STREET"
+      "address": "9, PENRYN CLOSE"
     },
     {
-      "price": 90000,
-      "date": "2026-05-01",
-      "postcode": "CV11 4JX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, BULL STREET"
-    },
-    {
-      "price": 196000,
-      "date": "2026-05-01",
-      "postcode": "CV10 7DX",
+      "price": 215000,
+      "date": "2026-06-01",
+      "postcode": "CV11 4RX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, HERBERT STREET"
+      "address": "29, MELBOURNE CLOSE"
     },
     {
-      "price": 305000,
-      "date": "2026-05-01",
-      "postcode": "CV11 6FW",
+      "price": 335000,
+      "date": "2026-05-29",
+      "postcode": "CV10 9SQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, PENZANCE WAY"
+      "address": "24, DICKENS CLOSE"
     },
     {
-      "price": 290000,
-      "date": "2026-05-01",
-      "postcode": "CV11 4GE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ROCKINGHAM DRIVE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-01",
-      "postcode": "CV10 8LA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, ARBURY GARTH"
-    },
-    {
-      "price": 237000,
-      "date": "2026-05-01",
-      "postcode": "CV10 8PU",
+      "price": 270000,
+      "date": "2026-05-29",
+      "postcode": "CV10 0BA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, QUANTOCK DRIVE"
+      "address": "33, SHANKLIN DRIVE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-05-29",
+      "postcode": "CV10 9DH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, THE DINGLE"
+    },
+    {
+      "price": 148000,
+      "date": "2026-05-29",
+      "postcode": "CV11 5PY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, DUKE STREET"
     }
   ],
   "monthlyHistory": [
@@ -223,7 +226,7 @@
     {
       "month": "2024-05",
       "medianPrice": 240000,
-      "transactions": 150
+      "transactions": 151
     },
     {
       "month": "2024-06",
@@ -257,8 +260,8 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 265000,
-      "transactions": 155
+      "medianPrice": 265823,
+      "transactions": 156
     },
     {
       "month": "2025-01",
@@ -282,48 +285,48 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 237000,
-      "transactions": 104
+      "medianPrice": 237500,
+      "transactions": 105
     },
     {
       "month": "2025-06",
-      "medianPrice": 260000,
-      "transactions": 182
+      "medianPrice": 260500,
+      "transactions": 187
     },
     {
       "month": "2025-07",
-      "medianPrice": 218452,
-      "transactions": 101
+      "medianPrice": 230000,
+      "transactions": 107
     },
     {
       "month": "2025-08",
-      "medianPrice": 233500,
-      "transactions": 114
+      "medianPrice": 240000,
+      "transactions": 125
     },
     {
       "month": "2025-09",
-      "medianPrice": 220000,
-      "transactions": 109
+      "medianPrice": 226450,
+      "transactions": 116
     },
     {
       "month": "2025-10",
-      "medianPrice": 230000,
-      "transactions": 134
+      "medianPrice": 232500,
+      "transactions": 138
     },
     {
       "month": "2025-11",
       "medianPrice": 220000,
-      "transactions": 116
+      "transactions": 121
     },
     {
       "month": "2025-12",
-      "medianPrice": 248000,
-      "transactions": 81
+      "medianPrice": 245000,
+      "transactions": 93
     },
     {
       "month": "2026-01",
-      "medianPrice": 214000,
-      "transactions": 75
+      "medianPrice": 217500,
+      "transactions": 80
     },
     {
       "month": "2026-02",
@@ -338,12 +341,17 @@
     {
       "month": "2026-04",
       "medianPrice": 197500,
-      "transactions": 60
+      "transactions": 62
     },
     {
       "month": "2026-05",
-      "medianPrice": 207500,
-      "transactions": 20
+      "medianPrice": 204000,
+      "transactions": 60
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 201313,
+      "transactions": 16
     }
   ],
   "quarterlyHistory": [
@@ -354,8 +362,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 233250,
-      "transactions": 458
+      "medianPrice": 232500,
+      "transactions": 459
     },
     {
       "quarter": "2024-Q3",
@@ -365,7 +373,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 250000,
-      "transactions": 456
+      "transactions": 457
     },
     {
       "quarter": "2025-Q1",
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 240000,
-      "transactions": 352
+      "medianPrice": 245000,
+      "transactions": 358
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 227750,
-      "transactions": 324
+      "medianPrice": 230000,
+      "transactions": 348
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 230000,
-      "transactions": 331
+      "transactions": 352
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 205000,
-      "transactions": 231
+      "medianPrice": 207000,
+      "transactions": 236
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 200000,
-      "transactions": 80
+      "medianPrice": 201250,
+      "transactions": 138
     }
   ]
 }

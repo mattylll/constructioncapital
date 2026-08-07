@@ -1,23 +1,153 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.469Z",
+  "updatedAt": "2026-08-07T08:45:01.580Z",
   "townSlug": "beaconsfield",
   "countySlug": "buckinghamshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BUCKINGHAMSHIRE",
+    "SOUTH BUCKS"
+  ],
   "stats": {
-    "medianPrice": 952000,
+    "medianPrice": 945000,
     "medianByType": {
-      "D": 1426250,
-      "S": 850000,
-      "T": 565000,
-      "F": 395000
+      "D": 1325000,
+      "S": 755000,
+      "T": 650000,
+      "F": 385000
     },
-    "transactionCount12m": 177,
-    "yoyChange": -1.6,
-    "newBuildCount": 4,
-    "existingCount": 173,
-    "newBuildPremium": 21.8
+    "transactionCount12m": 173,
+    "yoyChange": -2.3,
+    "newBuildCount": 3,
+    "existingCount": 170,
+    "newBuildPremium": 40.9
   },
   "recentTransactions": [
+    {
+      "price": 712000,
+      "date": "2026-06-18",
+      "postcode": "HP9 1SA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "69, THE SPINNEY"
+    },
+    {
+      "price": 1695000,
+      "date": "2026-06-17",
+      "postcode": "HP9 1JY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11A, WOODLANDS DRIVE"
+    },
+    {
+      "price": 750000,
+      "date": "2026-06-16",
+      "postcode": "HP9 1AR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "68, CANDLEMAS MEAD"
+    },
+    {
+      "price": 650000,
+      "date": "2026-06-12",
+      "postcode": "HP9 2DU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "89, SHEPHERDS LANE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-11",
+      "postcode": "HP9 2HN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1B, LONDON END"
+    },
+    {
+      "price": 965000,
+      "date": "2026-06-11",
+      "postcode": "HP9 1TR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, TILSWORTH ROAD"
+    },
+    {
+      "price": 1035000,
+      "date": "2026-06-01",
+      "postcode": "HP9 2HR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, PARK LANE"
+    },
+    {
+      "price": 785000,
+      "date": "2026-06-01",
+      "postcode": "HP9 2LD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, MALTHOUSE SQUARE"
+    },
+    {
+      "price": 302000,
+      "date": "2026-06-01",
+      "postcode": "HP9 1BF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, BEACONSFIELD MEWS"
+    },
+    {
+      "price": 585000,
+      "date": "2026-06-01",
+      "postcode": "HP9 1AT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BELL CLOSE"
+    },
+    {
+      "price": 319000,
+      "date": "2026-05-29",
+      "postcode": "HP9 1QX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "178, MAXWELL ROAD"
+    },
+    {
+      "price": 730000,
+      "date": "2026-05-29",
+      "postcode": "HP9 1SA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "104, THE SPINNEY"
+    },
+    {
+      "price": 750000,
+      "date": "2026-05-29",
+      "postcode": "HP9 1AF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, CANDLEMAS LANE"
+    },
+    {
+      "price": 815000,
+      "date": "2026-05-21",
+      "postcode": "HP9 2DP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, CHARSLEY ROAD"
+    },
     {
       "price": 600000,
       "date": "2026-05-14",
@@ -26,6 +156,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "21, HEARNES MEADOW"
+    },
+    {
+      "price": 975000,
+      "date": "2026-05-14",
+      "postcode": "HP9 2XQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, GODOLPHIN ROAD"
+    },
+    {
+      "price": 1437500,
+      "date": "2026-05-14",
+      "postcode": "HP9 1JW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, WOODSIDE ROAD"
     },
     {
       "price": 945000,
@@ -53,150 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "SANDALWOOD, DREWS PARK"
-    },
-    {
-      "price": 1190000,
-      "date": "2026-04-28",
-      "postcode": "HP9 1EJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, BURGESS WOOD ROAD SOUTH"
-    },
-    {
-      "price": 730000,
-      "date": "2026-04-27",
-      "postcode": "HP9 1AR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "77, CANDLEMAS MEAD"
-    },
-    {
-      "price": 870000,
-      "date": "2026-04-27",
-      "postcode": "HP9 2HA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, AMERSHAM ROAD"
-    },
-    {
-      "price": 895000,
-      "date": "2026-04-24",
-      "postcode": "HP9 2BF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, ORCHARD GREEN"
-    },
-    {
-      "price": 1250000,
-      "date": "2026-04-17",
-      "postcode": "HP9 2RW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, DUPRE CRESCENT"
-    },
-    {
-      "price": 400000,
-      "date": "2026-04-10",
-      "postcode": "HP9 1AQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 12, MAXWELL PLACE, 130 - 136, MAXWELL ROAD"
-    },
-    {
-      "price": 500000,
-      "date": "2026-04-07",
-      "postcode": "HP9 2LZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "14, CALUMET, REYNOLDS ROAD"
-    },
-    {
-      "price": 785000,
-      "date": "2026-04-07",
-      "postcode": "HP9 2RW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, DUPRE CRESCENT"
-    },
-    {
-      "price": 795000,
-      "date": "2026-04-02",
-      "postcode": "HP9 1AB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 10, THE GROVES, 46, STATION ROAD"
-    },
-    {
-      "price": 630000,
-      "date": "2026-04-01",
-      "postcode": "HP9 1RE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, CHESTERTON GREEN"
-    },
-    {
-      "price": 275000,
-      "date": "2026-03-31",
-      "postcode": "HP9 1BF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, BEACONSFIELD MEWS"
-    },
-    {
-      "price": 735000,
-      "date": "2026-03-31",
-      "postcode": "HP9 2NE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, BARING ROAD"
-    },
-    {
-      "price": 288000,
-      "date": "2026-03-27",
-      "postcode": "HP9 1QF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "37, ELMERS COURT, POST OFFICE LANE"
-    },
-    {
-      "price": 510000,
-      "date": "2026-03-26",
-      "postcode": "HP9 1BE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, ROWAN CLOSE"
-    },
-    {
-      "price": 725000,
-      "date": "2026-03-20",
-      "postcode": "HP9 1LL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, HORSESHOE CRESCENT"
-    },
-    {
-      "price": 840000,
-      "date": "2026-03-13",
-      "postcode": "HP9 2RW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, DUPRE CRESCENT"
     }
   ],
   "monthlyHistory": [
@@ -287,8 +291,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 783640,
-      "transactions": 21
+      "medianPrice": 786820,
+      "transactions": 22
     },
     {
       "month": "2025-07",
@@ -297,13 +301,13 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 1105000,
-      "transactions": 28
+      "medianPrice": 1160000,
+      "transactions": 31
     },
     {
       "month": "2025-09",
-      "medianPrice": 850000,
-      "transactions": 17
+      "medianPrice": 825000,
+      "transactions": 18
     },
     {
       "month": "2025-10",
@@ -312,13 +316,13 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 1020000,
-      "transactions": 23
+      "medianPrice": 947500,
+      "transactions": 24
     },
     {
       "month": "2025-12",
-      "medianPrice": 975000,
-      "transactions": 21
+      "medianPrice": 982500,
+      "transactions": 24
     },
     {
       "month": "2026-01",
@@ -337,13 +341,18 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 832500,
-      "transactions": 12
+      "medianPrice": 870000,
+      "transactions": 13
     },
     {
       "month": "2026-05",
-      "medianPrice": 772500,
-      "transactions": 2
+      "medianPrice": 782500,
+      "transactions": 8
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 731000,
+      "transactions": 10
     }
   ],
   "quarterlyHistory": [
@@ -374,18 +383,18 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 952500,
-      "transactions": 62
+      "medianPrice": 950000,
+      "transactions": 63
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 1150000,
-      "transactions": 80
+      "transactions": 84
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 962500,
-      "transactions": 64
+      "transactions": 68
     },
     {
       "quarter": "2026-Q1",
@@ -394,8 +403,8 @@
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 832500,
-      "transactions": 14
+      "medianPrice": 785000,
+      "transactions": 31
     }
   ]
 }

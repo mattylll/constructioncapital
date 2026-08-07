@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.468Z",
+  "updatedAt": "2026-08-07T08:45:02.642Z",
   "townSlug": "coalville",
   "countySlug": "leicestershire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTH WEST LEICESTERSHIRE"
+  ],
   "stats": {
-    "medianPrice": 255000,
+    "medianPrice": 252000,
     "medianByType": {
-      "D": 351000,
+      "D": 353750,
       "S": 235000,
-      "T": 185000,
-      "F": 140000
+      "T": 180000,
+      "F": 146000
     },
-    "transactionCount12m": 1361,
-    "yoyChange": -3.8,
-    "newBuildCount": 43,
-    "existingCount": 1318,
-    "newBuildPremium": 19.6
+    "transactionCount12m": 1352,
+    "yoyChange": -5.6,
+    "newBuildCount": 33,
+    "existingCount": 1319,
+    "newBuildPremium": 28.8
   },
   "recentTransactions": [
     {
-      "price": 317500,
-      "date": "2026-05-26",
-      "postcode": "DE74 2JL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, CORDWELL CLOSE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-22",
-      "postcode": "LE67 6JY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, ELM CLOSE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-22",
-      "postcode": "LE65 2JB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, DREW COURT"
-    },
-    {
-      "price": 238000,
-      "date": "2026-05-22",
-      "postcode": "LE67 5PS",
+      "price": 263000,
+      "date": "2026-06-26",
+      "postcode": "LE67 3AW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "75, PETERFIELD ROAD"
+      "address": "48, DISCOVERY CLOSE"
     },
     {
-      "price": 267000,
-      "date": "2026-05-22",
-      "postcode": "LE67 2RN",
+      "price": 475000,
+      "date": "2026-06-25",
+      "postcode": "LE67 4PE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, BELCHER CLOSE"
+      "address": "35, BALMORAL ROAD"
     },
     {
-      "price": 317000,
-      "date": "2026-05-22",
-      "postcode": "LE67 2LY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BRADSHAW DRIVE"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-19",
-      "postcode": "LE65 2RP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, GLADE LANE"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-15",
-      "postcode": "DE12 6DQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, RAWDON ROAD"
-    },
-    {
-      "price": 237000,
-      "date": "2026-05-15",
-      "postcode": "LE67 2ND",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, CLAREMONT DRIVE"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-15",
+      "price": 163000,
+      "date": "2026-06-23",
       "postcode": "LE67 4JJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "60, WATERWORKS ROAD"
+      "address": "43, WATERWORKS ROAD"
     },
     {
-      "price": 162500,
-      "date": "2026-05-15",
-      "postcode": "LE65 1BF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19, BOSWORTH HOUSE, SOUTH STREET"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-15",
-      "postcode": "LE67 6QF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "74, CORONET DRIVE"
-    },
-    {
-      "price": 323000,
-      "date": "2026-05-15",
-      "postcode": "LE65 1DB",
+      "price": 190000,
+      "date": "2026-06-19",
+      "postcode": "LE67 1GB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, LEICESTER ROAD"
+      "address": "186, BATTRAM ROAD"
     },
     {
-      "price": 277000,
-      "date": "2026-05-13",
-      "postcode": "LE67 3NT",
+      "price": 607000,
+      "date": "2026-06-19",
+      "postcode": "LE67 6DA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, SPRUCE DRIVE"
+      "address": "19, FRANCES WAY"
     },
     {
-      "price": 288000,
-      "date": "2026-05-12",
-      "postcode": "DE12 7BA",
+      "price": 482500,
+      "date": "2026-06-19",
+      "postcode": "LE65 2AU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, MILLSTONE DRIVE"
+    },
+    {
+      "price": 168500,
+      "date": "2026-06-19",
+      "postcode": "DE12 7NH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, BROOKS CLOSE"
+      "address": "10, BURTON ROAD"
     },
     {
-      "price": 210000,
-      "date": "2026-05-08",
-      "postcode": "LE67 1HB",
+      "price": 390000,
+      "date": "2026-06-19",
+      "postcode": "LE65 2FN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, HIGHFIELDS CLOSE"
+    },
+    {
+      "price": 258000,
+      "date": "2026-06-19",
+      "postcode": "LE65 1FX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, PICKERING DRIVE"
+      "address": "15, OAK CRESCENT"
+    },
+    {
+      "price": 214000,
+      "date": "2026-06-18",
+      "postcode": "LE67 2GY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, CAVENDISH CRESCENT"
+    },
+    {
+      "price": 181000,
+      "date": "2026-06-18",
+      "postcode": "LE65 1DA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, LEICESTER ROAD"
     },
     {
       "price": 250000,
-      "date": "2026-05-08",
-      "postcode": "DE12 7LZ",
+      "date": "2026-06-18",
+      "postcode": "LE67 4BL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, COPHILLS CLOSE"
+      "address": "198, BARDON ROAD"
     },
     {
-      "price": 250000,
-      "date": "2026-05-08",
-      "postcode": "LE67 4EQ",
-      "propertyType": "S",
+      "price": 323000,
+      "date": "2026-06-17",
+      "postcode": "DE11 8HA",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, JOHN COOPER WAY"
+      "address": "12, OCCUPATION ROAD"
     },
     {
-      "price": 215000,
-      "date": "2026-05-08",
-      "postcode": "LE67 4HA",
-      "propertyType": "S",
+      "price": 319000,
+      "date": "2026-06-16",
+      "postcode": "DE74 2SN",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, BEACON CRESCENT"
+      "address": "1, WELSTED ROAD"
     },
     {
-      "price": 240000,
-      "date": "2026-05-08",
-      "postcode": "DE12 7FD",
+      "price": 300000,
+      "date": "2026-06-16",
+      "postcode": "LE65 2NR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, BRAMBLY CLOSE"
+      "address": "10, WINCHESTER WAY"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-15",
+      "postcode": "LE67 3SF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, CONVENT DRIVE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-06-15",
+      "postcode": "LE67 6JW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, PARKDALE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-15",
+      "postcode": "LE65 2PW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, TAMWORTH ROAD"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-15",
+      "postcode": "LE67 6NX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, ST DENYS CRESCENT"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-15",
+      "postcode": "LE67 8NR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, THE GREEN"
     }
   ],
   "monthlyHistory": [
@@ -242,8 +245,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 267975,
-      "transactions": 178
+      "medianPrice": 265500,
+      "transactions": 180
     },
     {
       "month": "2024-10",
@@ -258,7 +261,7 @@
     {
       "month": "2024-12",
       "medianPrice": 289950,
-      "transactions": 217
+      "transactions": 219
     },
     {
       "month": "2025-01",
@@ -273,77 +276,82 @@
     {
       "month": "2025-03",
       "medianPrice": 270000,
-      "transactions": 314
+      "transactions": 315
     },
     {
       "month": "2025-04",
-      "medianPrice": 257500,
-      "transactions": 107
+      "medianPrice": 257750,
+      "transactions": 108
     },
     {
       "month": "2025-05",
-      "medianPrice": 254323,
-      "transactions": 160
+      "medianPrice": 255000,
+      "transactions": 164
     },
     {
       "month": "2025-06",
-      "medianPrice": 258000,
-      "transactions": 197
+      "medianPrice": 260000,
+      "transactions": 201
     },
     {
       "month": "2025-07",
-      "medianPrice": 277375,
-      "transactions": 186
+      "medianPrice": 280000,
+      "transactions": 196
     },
     {
       "month": "2025-08",
-      "medianPrice": 280000,
-      "transactions": 179
+      "medianPrice": 286250,
+      "transactions": 192
     },
     {
       "month": "2025-09",
-      "medianPrice": 251000,
-      "transactions": 138
+      "medianPrice": 252000,
+      "transactions": 147
     },
     {
       "month": "2025-10",
       "medianPrice": 251000,
-      "transactions": 162
+      "transactions": 166
     },
     {
       "month": "2025-11",
       "medianPrice": 249999,
-      "transactions": 117
+      "transactions": 119
     },
     {
       "month": "2025-12",
-      "medianPrice": 249000,
-      "transactions": 142
+      "medianPrice": 250000,
+      "transactions": 153
     },
     {
       "month": "2026-01",
-      "medianPrice": 235000,
-      "transactions": 100
+      "medianPrice": 237500,
+      "transactions": 115
     },
     {
       "month": "2026-02",
       "medianPrice": 265000,
-      "transactions": 119
+      "transactions": 121
     },
     {
       "month": "2026-03",
-      "medianPrice": 261000,
-      "transactions": 109
+      "medianPrice": 260000,
+      "transactions": 111
     },
     {
       "month": "2026-04",
-      "medianPrice": 237500,
-      "transactions": 104
+      "medianPrice": 235000,
+      "transactions": 116
     },
     {
       "month": "2026-05",
-      "medianPrice": 254000,
-      "transactions": 34
+      "medianPrice": 258000,
+      "transactions": 95
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 251000,
+      "transactions": 47
     }
   ],
   "quarterlyHistory": [
@@ -359,43 +367,43 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 262450,
-      "transactions": 527
+      "medianPrice": 261500,
+      "transactions": 529
     },
     {
       "quarter": "2024-Q4",
       "medianPrice": 270000,
-      "transactions": 654
+      "transactions": 656
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 270000,
-      "transactions": 628
+      "transactions": 629
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 255000,
-      "transactions": 464
+      "medianPrice": 258000,
+      "transactions": 473
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 270000,
-      "transactions": 503
+      "medianPrice": 275000,
+      "transactions": 535
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 250000,
-      "transactions": 421
+      "transactions": 438
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 252000,
-      "transactions": 328
+      "medianPrice": 251000,
+      "transactions": 347
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 247000,
-      "transactions": 138
+      "medianPrice": 250000,
+      "transactions": 258
     }
   ]
 }

@@ -1,23 +1,72 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.477Z",
+  "updatedAt": "2026-08-07T08:45:01.589Z",
   "townSlug": "princes-risborough",
   "countySlug": "buckinghamshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BUCKINGHAMSHIRE",
+    "WYCOMBE"
+  ],
   "stats": {
-    "medianPrice": 507000,
+    "medianPrice": 485000,
     "medianByType": {
       "D": 700000,
-      "S": 462500,
-      "T": 390000,
-      "F": 235000
+      "S": 465000,
+      "T": 412500,
+      "F": 238750
     },
-    "transactionCount12m": 169,
-    "yoyChange": 2.4,
-    "newBuildCount": 4,
-    "existingCount": 165,
-    "newBuildPremium": 34
+    "transactionCount12m": 165,
+    "yoyChange": -6.1,
+    "newBuildCount": 3,
+    "existingCount": 162,
+    "newBuildPremium": 35.4
   },
   "recentTransactions": [
+    {
+      "price": 422500,
+      "date": "2026-06-17",
+      "postcode": "HP27 9EP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "18, CHILTERN LODGE, LONGWICK ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-17",
+      "postcode": "HP27 0AX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SUNSET COURT, HIGH STREET"
+    },
+    {
+      "price": 592500,
+      "date": "2026-06-12",
+      "postcode": "HP27 9TN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CROWN WAY"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-05",
+      "postcode": "HP27 9EW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, FARMERS WAY"
+    },
+    {
+      "price": 280931,
+      "date": "2026-06-05",
+      "postcode": "HP27 9FW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, LAMMAS CLOSE"
+    },
     {
       "price": 837500,
       "date": "2026-05-26",
@@ -28,6 +77,33 @@
       "address": "30, ST TERESAS CLOSE"
     },
     {
+      "price": 560000,
+      "date": "2026-05-22",
+      "postcode": "HP27 9HR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, WESTMEAD"
+    },
+    {
+      "price": 555000,
+      "date": "2026-05-22",
+      "postcode": "HP27 9EN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "99, GOODEARL PLACE"
+    },
+    {
+      "price": 735000,
+      "date": "2026-05-21",
+      "postcode": "HP27 0SP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SPRING COTTAGE, CHAPEL HILL"
+    },
+    {
       "price": 825000,
       "date": "2026-05-15",
       "postcode": "HP27 0PJ",
@@ -35,6 +111,33 @@
       "newBuild": false,
       "tenure": "F",
       "address": "4, VIOLET CLOSE"
+    },
+    {
+      "price": 630000,
+      "date": "2026-05-15",
+      "postcode": "HP27 9QE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, QUEENS COTTAGE, LOWER ICKNIELD WAY"
+    },
+    {
+      "price": 550000,
+      "date": "2026-05-14",
+      "postcode": "HP27 0HL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, THE AVENUE"
+    },
+    {
+      "price": 750000,
+      "date": "2026-05-12",
+      "postcode": "HP27 9LX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SHANGRI-LA, LETTER BOX LANE"
     },
     {
       "price": 510000,
@@ -98,105 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "YEW TREE COTTAGE, FOUNDRY LANE"
-    },
-    {
-      "price": 365000,
-      "date": "2026-04-29",
-      "postcode": "HP27 0EQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "53, EAVES COURT, THE RETREAT"
-    },
-    {
-      "price": 660000,
-      "date": "2026-04-28",
-      "postcode": "HP27 9SE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, BELL CRESCENT"
-    },
-    {
-      "price": 333000,
-      "date": "2026-04-24",
-      "postcode": "HP27 0BW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, OAK ROAD"
-    },
-    {
-      "price": 725000,
-      "date": "2026-04-24",
-      "postcode": "HP27 9AN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ROSEWOOD COTTAGE, THE BUTTS"
-    },
-    {
-      "price": 480000,
-      "date": "2026-04-17",
-      "postcode": "HP27 0BZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, WOODLANDS"
-    },
-    {
-      "price": 520000,
-      "date": "2026-04-10",
-      "postcode": "HP27 9DH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BAY TREE COTTAGE, 1A, FAIRWAY"
-    },
-    {
-      "price": 205000,
-      "date": "2026-04-01",
-      "postcode": "HP27 9GB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, KITE CRESCENT"
-    },
-    {
-      "price": 830000,
-      "date": "2026-03-31",
-      "postcode": "HP27 0SS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, ST PETERS CLOSE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-03-31",
-      "postcode": "HP27 0AF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "140, JASMINE CRESCENT"
-    },
-    {
-      "price": 165000,
-      "date": "2026-03-27",
-      "postcode": "HP27 0EQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "34, EAVES COURT, THE RETREAT"
-    },
-    {
-      "price": 1150000,
-      "date": "2026-03-23",
-      "postcode": "HP27 0LZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRAMBLES, CADSDEN ROAD"
     }
   ],
   "monthlyHistory": [
@@ -302,28 +306,28 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 475000,
-      "transactions": 27
+      "medianPrice": 507500,
+      "transactions": 28
     },
     {
       "month": "2025-10",
       "medianPrice": 460000,
-      "transactions": 16
+      "transactions": 17
     },
     {
       "month": "2025-11",
-      "medianPrice": 460000,
-      "transactions": 25
+      "medianPrice": 480000,
+      "transactions": 28
     },
     {
       "month": "2025-12",
-      "medianPrice": 550000,
-      "transactions": 11
+      "medianPrice": 475000,
+      "transactions": 14
     },
     {
       "month": "2026-01",
       "medianPrice": 435000,
-      "transactions": 13
+      "transactions": 15
     },
     {
       "month": "2026-02",
@@ -342,8 +346,13 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 605000,
-      "transactions": 6
+      "medianPrice": 595000,
+      "transactions": 12
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 422500,
+      "transactions": 5
     }
   ],
   "quarterlyHistory": [
@@ -379,23 +388,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 584000,
-      "transactions": 64
+      "medianPrice": 600000,
+      "transactions": 65
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 460000,
-      "transactions": 52
+      "transactions": 59
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 492500,
-      "transactions": 38
+      "transactions": 40
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 497500,
-      "transactions": 16
+      "medianPrice": 520000,
+      "transactions": 27
     }
   ]
 }

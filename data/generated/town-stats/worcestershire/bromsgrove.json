@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.068Z",
+  "updatedAt": "2026-08-07T08:45:02.447Z",
   "townSlug": "bromsgrove",
   "countySlug": "worcestershire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BROMSGROVE"
+  ],
   "marketSnapshot": {
     "medianPrice": 335000,
-    "transactionCount12m": 1027,
-    "yoyPriceChange": -0.7,
+    "transactionCount12m": 967,
+    "yoyPriceChange": -0.1,
     "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 330,
+    "pipelineGdv": 111300000,
     "approvalRate": 0
   }
 }

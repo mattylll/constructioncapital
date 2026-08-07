@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.755Z",
+  "updatedAt": "2026-08-07T08:45:02.953Z",
   "townSlug": "burnley",
   "countySlug": "lancashire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BURNLEY"
+  ],
   "stats": {
-    "medianPrice": 110000,
+    "medianPrice": 115000,
     "medianByType": {
-      "D": 295063,
+      "D": 300000,
       "S": 180000,
-      "T": 84500,
-      "F": 89000
+      "T": 85000,
+      "F": 85500
     },
-    "transactionCount12m": 1269,
-    "yoyChange": -0.9,
-    "newBuildCount": 3,
-    "existingCount": 1266,
-    "newBuildPremium": 259.1
+    "transactionCount12m": 1261,
+    "yoyChange": 2.2,
+    "newBuildCount": 5,
+    "existingCount": 1256,
+    "newBuildPremium": 243.5
   },
   "recentTransactions": [
     {
-      "price": 134000,
-      "date": "2026-05-22",
-      "postcode": "BB12 8NJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, WASDALE CLOSE"
-    },
-    {
-      "price": 93000,
-      "date": "2026-05-22",
-      "postcode": "BB11 5BG",
+      "price": 119950,
+      "date": "2026-06-25",
+      "postcode": "BB12 8RJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "87A, COG LANE"
+      "address": "75, MILTON STREET"
     },
     {
-      "price": 160000,
-      "date": "2026-05-22",
-      "postcode": "BB12 6DD",
-      "propertyType": "S",
+      "price": 888,
+      "date": "2026-06-23",
+      "postcode": "BB10 1HW",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, CUNNINGHAM GROVE"
+      "address": "27, KESWICK ROAD"
     },
     {
-      "price": 280000,
-      "date": "2026-05-22",
-      "postcode": "BB11 3QE",
+      "price": 365000,
+      "date": "2026-06-23",
+      "postcode": "BB11 5HB",
       "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "47, WILKIE AVENUE"
+      "tenure": "F",
+      "address": "4, BUTTERCROSS CLOSE"
     },
     {
-      "price": 141000,
-      "date": "2026-05-22",
-      "postcode": "BB12 7LQ",
-      "propertyType": "T",
+      "price": 139500,
+      "date": "2026-06-22",
+      "postcode": "BB12 6ET",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, WATER STREET"
+      "address": "12, WARDLEY CLOSE"
     },
     {
-      "price": 38000,
-      "date": "2026-05-22",
-      "postcode": "BB12 6QE",
+      "price": 146000,
+      "date": "2026-06-19",
+      "postcode": "BB10 4SN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "8, WORDSWORTH STREET"
+      "address": "32, BURNLEY ROAD"
     },
     {
-      "price": 60000,
-      "date": "2026-05-21",
-      "postcode": "BB11 5JT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "229, COG LANE"
-    },
-    {
-      "price": 115000,
-      "date": "2026-05-21",
-      "postcode": "BB12 6NS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, LYTTON STREET"
-    },
-    {
-      "price": 80000,
-      "date": "2026-05-18",
-      "postcode": "BB10 3EQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "13, BASNETT STREET"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-15",
-      "postcode": "BB10 2PD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "92, CASTERTON AVENUE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-15",
-      "postcode": "BB10 2DT",
+      "price": 159500,
+      "date": "2026-06-19",
+      "postcode": "BB12 0EE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, LYDGATE"
+      "address": "25, GARSWOOD CLOSE"
     },
     {
-      "price": 90000,
-      "date": "2026-05-14",
-      "postcode": "BB12 6HT",
+      "price": 195000,
+      "date": "2026-06-18",
+      "postcode": "BB11 2JU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, ROSEMOUNT AVENUE"
+    },
+    {
+      "price": 125000,
+      "date": "2026-06-18",
+      "postcode": "BB11 2HZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "1, DORSET STREET"
+      "address": "68, HOLLINGREAVE ROAD"
     },
     {
-      "price": 60000,
-      "date": "2026-05-13",
-      "postcode": "BB12 7AX",
+      "price": 39000,
+      "date": "2026-06-16",
+      "postcode": "BB12 8QY",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "47, ST ANNES STREET"
+      "address": "30, VICTORIA ROAD"
     },
     {
-      "price": 62000,
-      "date": "2026-05-12",
-      "postcode": "BB10 4DF",
+      "price": 108000,
+      "date": "2026-06-12",
+      "postcode": "BB10 4DA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "18, LEBANON STREET"
+      "address": "121, BRUNSHAW ROAD"
     },
     {
-      "price": 55000,
-      "date": "2026-05-12",
-      "postcode": "BB11 4PE",
+      "price": 180000,
+      "date": "2026-06-12",
+      "postcode": "BB10 2NP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "13, MINEHEAD AVENUE"
+    },
+    {
+      "price": 149950,
+      "date": "2026-06-12",
+      "postcode": "BB10 2EX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "63, NAIRNE STREET"
+      "address": "3, ROCKWOOD CLOSE"
     },
     {
-      "price": 75000,
-      "date": "2026-05-08",
-      "postcode": "BB11 3DQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "36, HOBART STREET"
-    },
-    {
-      "price": 225000,
-      "date": "2026-05-08",
+      "price": 270000,
+      "date": "2026-06-12",
       "postcode": "BB12 0TN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, BERWICK DRIVE"
+      "address": "31, BERWICK DRIVE"
     },
     {
-      "price": 100000,
-      "date": "2026-05-08",
-      "postcode": "BB12 0AZ",
+      "price": 110000,
+      "date": "2026-06-11",
+      "postcode": "BB11 5EH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "25, GORDON STREET"
+      "address": "2, VILLIERS STREET"
+    },
+    {
+      "price": 60000,
+      "date": "2026-06-10",
+      "postcode": "BB12 8QY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12, VICTORIA ROAD"
+    },
+    {
+      "price": 85000,
+      "date": "2026-06-10",
+      "postcode": "BB11 5LF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, TIBER AVENUE"
     },
     {
       "price": 180000,
-      "date": "2026-05-08",
-      "postcode": "BB11 2RF",
+      "date": "2026-06-10",
+      "postcode": "BB11 2QE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "42, MOSELEY ROAD"
+      "address": "1, RAEBURN AVENUE"
     },
     {
-      "price": 175000,
-      "date": "2026-05-08",
-      "postcode": "BB12 0JG",
+      "price": 146000,
+      "date": "2026-06-10",
+      "postcode": "BB11 4SA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, CROW WOOD AVENUE"
+      "address": "42, LISBON DRIVE"
+    },
+    {
+      "price": 56000,
+      "date": "2026-06-09",
+      "postcode": "BB11 3LP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "31, REED STREET"
+    },
+    {
+      "price": 85000,
+      "date": "2026-06-09",
+      "postcode": "BB10 4DD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "24, MIZPAH STREET"
     }
   ],
   "monthlyHistory": [
@@ -227,8 +230,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 127000,
-      "transactions": 141
+      "medianPrice": 127250,
+      "transactions": 142
     },
     {
       "month": "2024-07",
@@ -243,17 +246,17 @@
     {
       "month": "2024-09",
       "medianPrice": 125000,
-      "transactions": 149
+      "transactions": 150
     },
     {
       "month": "2024-10",
       "medianPrice": 110000,
-      "transactions": 206
+      "transactions": 205
     },
     {
       "month": "2024-11",
       "medianPrice": 122500,
-      "transactions": 189
+      "transactions": 191
     },
     {
       "month": "2024-12",
@@ -277,73 +280,78 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 92000,
-      "transactions": 115
+      "medianPrice": 93750,
+      "transactions": 118
     },
     {
       "month": "2025-05",
-      "medianPrice": 93875,
-      "transactions": 172
+      "medianPrice": 94625,
+      "transactions": 174
     },
     {
       "month": "2025-06",
-      "medianPrice": 117000,
-      "transactions": 153
+      "medianPrice": 117250,
+      "transactions": 154
     },
     {
       "month": "2025-07",
-      "medianPrice": 95000,
-      "transactions": 176
+      "medianPrice": 95999,
+      "transactions": 179
     },
     {
       "month": "2025-08",
-      "medianPrice": 113500,
-      "transactions": 152
+      "medianPrice": 117500,
+      "transactions": 169
     },
     {
       "month": "2025-09",
-      "medianPrice": 108498,
-      "transactions": 134
+      "medianPrice": 115000,
+      "transactions": 140
     },
     {
       "month": "2025-10",
-      "medianPrice": 127000,
-      "transactions": 172
+      "medianPrice": 126000,
+      "transactions": 175
     },
     {
       "month": "2025-11",
       "medianPrice": 120000,
-      "transactions": 113
+      "transactions": 120
     },
     {
       "month": "2025-12",
-      "medianPrice": 111750,
-      "transactions": 114
+      "medianPrice": 111000,
+      "transactions": 133
     },
     {
       "month": "2026-01",
       "medianPrice": 100000,
-      "transactions": 93
+      "transactions": 101
     },
     {
       "month": "2026-02",
       "medianPrice": 130000,
-      "transactions": 104
+      "transactions": 108
     },
     {
       "month": "2026-03",
       "medianPrice": 100000,
-      "transactions": 109
+      "transactions": 114
     },
     {
       "month": "2026-04",
-      "medianPrice": 110000,
-      "transactions": 103
+      "medianPrice": 112500,
+      "transactions": 119
     },
     {
       "month": "2026-05",
-      "medianPrice": 107500,
-      "transactions": 24
+      "medianPrice": 119000,
+      "transactions": 68
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 125000,
+      "transactions": 36
     }
   ],
   "quarterlyHistory": [
@@ -355,17 +363,17 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 110000,
-      "transactions": 458
+      "transactions": 459
     },
     {
       "quarter": "2024-Q3",
       "medianPrice": 107500,
-      "transactions": 486
+      "transactions": 487
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 120000,
-      "transactions": 551
+      "medianPrice": 120500,
+      "transactions": 552
     },
     {
       "quarter": "2025-Q1",
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 99475,
-      "transactions": 440
+      "medianPrice": 99975,
+      "transactions": 446
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 107000,
-      "transactions": 462
+      "medianPrice": 110000,
+      "transactions": 488
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 120000,
-      "transactions": 399
+      "medianPrice": 119000,
+      "transactions": 428
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 109000,
-      "transactions": 306
+      "medianPrice": 110000,
+      "transactions": 323
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 110000,
-      "transactions": 127
+      "medianPrice": 120000,
+      "transactions": 223
     }
   ]
 }

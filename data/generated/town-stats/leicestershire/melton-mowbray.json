@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.245Z",
+  "updatedAt": "2026-08-07T08:45:02.628Z",
   "townSlug": "melton-mowbray",
   "countySlug": "leicestershire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "MELTON"
+  ],
   "marketSnapshot": {
     "medianPrice": 262000,
-    "transactionCount12m": 661,
+    "transactionCount12m": 660,
     "yoyPriceChange": -3,
     "approvedApps12m": 0,
-    "pipelineUnits": 580,
-    "pipelineGdv": 147900000,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 45,
+    "pipelineGdv": 7858000,
     "approvalRate": 0
   }
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:54.557Z",
+  "updatedAt": "2026-08-07T08:45:00.625Z",
   "townSlug": "lewisham",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "LEWISHAM"
+  ],
   "stats": {
-    "medianPrice": 460000,
+    "medianPrice": 450000,
     "medianByType": {
-      "D": 855500,
-      "S": 765000,
-      "T": 630000,
+      "D": 885000,
+      "S": 750000,
+      "T": 644500,
       "F": 365000
     },
-    "transactionCount12m": 2327,
-    "yoyChange": 2.2,
-    "newBuildCount": 2,
-    "existingCount": 2325,
-    "newBuildPremium": null
+    "transactionCount12m": 2339,
+    "yoyChange": 0,
+    "newBuildCount": 3,
+    "existingCount": 2336,
+    "newBuildPremium": 2.2
   },
   "recentTransactions": [
     {
-      "price": 410000,
-      "date": "2026-05-28",
-      "postcode": "SE6 4FA",
+      "price": 425000,
+      "date": "2026-06-26",
+      "postcode": "SE6 4EJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "3, DIXIE COURT, ADENMORE ROAD"
+      "address": "25, APPLEBY COURT, ADENMORE ROAD"
     },
     {
-      "price": 415000,
-      "date": "2026-05-22",
-      "postcode": "BR1 4NG",
+      "price": 867405,
+      "date": "2026-06-24",
+      "postcode": "SE23 2DR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, FARMFIELD ROAD"
+      "address": "52, SHIPMAN ROAD"
     },
     {
-      "price": 437000,
-      "date": "2026-05-22",
-      "postcode": "SE6 1NS",
+      "price": 325000,
+      "date": "2026-06-24",
+      "postcode": "SE6 2BP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "12A, MINARD ROAD"
+      "address": "FLAT 1, 6, RINGSTEAD ROAD"
     },
     {
-      "price": 600000,
-      "date": "2026-05-22",
-      "postcode": "SE6 1JL",
+      "price": 811000,
+      "date": "2026-06-23",
+      "postcode": "SE6 4NF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "121, SOUTH PARK CRESCENT"
+      "address": "17, GLENWOOD ROAD"
     },
     {
-      "price": 339700,
-      "date": "2026-05-21",
-      "postcode": "SE8 5NN",
+      "price": 612500,
+      "date": "2026-06-23",
+      "postcode": "SE12 8QF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, BRIGHTFIELD ROAD"
+    },
+    {
+      "price": 495000,
+      "date": "2026-06-19",
+      "postcode": "SE23 1JZ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "66, ROLT STREET"
+      "address": "40A, STONDON PARK"
     },
     {
-      "price": 442000,
-      "date": "2026-05-20",
-      "postcode": "SE26 6AR",
+      "price": 375000,
+      "date": "2026-06-19",
+      "postcode": "SE6 2EY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "29A, OAKSFORD AVENUE"
+      "address": "53, SPORTSBANK STREET"
     },
     {
-      "price": 545000,
-      "date": "2026-05-20",
-      "postcode": "SE4 1YS",
+      "price": 335000,
+      "date": "2026-06-19",
+      "postcode": "SE13 6UF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "54, IVY ROAD"
+      "address": "ADMIRAL HOUSE, 13, HOSPITAL WAY"
     },
     {
-      "price": 540000,
-      "date": "2026-05-18",
-      "postcode": "SE26 4EU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, HIGHCLERE STREET"
-    },
-    {
-      "price": 395000,
-      "date": "2026-05-18",
-      "postcode": "SE26 6JQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "69, WELLS PARK ROAD"
-    },
-    {
-      "price": 625000,
-      "date": "2026-05-18",
-      "postcode": "SE23 2RR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, LESCOMBE CLOSE"
-    },
-    {
-      "price": 1100000,
-      "date": "2026-05-15",
-      "postcode": "SE23 3AP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, CANONBIE ROAD"
-    },
-    {
-      "price": 850000,
-      "date": "2026-05-15",
-      "postcode": "SE4 2PX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, ARICA ROAD"
-    },
-    {
-      "price": 970000,
-      "date": "2026-05-15",
-      "postcode": "SE13 6BT",
+      "price": 900000,
+      "date": "2026-06-18",
+      "postcode": "SE13 7JL",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, ALBION WAY"
+      "address": "60, VICARS HILL"
     },
     {
-      "price": 895000,
-      "date": "2026-05-15",
-      "postcode": "SE13 7TT",
+      "price": 375000,
+      "date": "2026-06-18",
+      "postcode": "SE6 1UX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "37B, ARDGOWAN ROAD"
+    },
+    {
+      "price": 365000,
+      "date": "2026-06-17",
+      "postcode": "SE8 5JN",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, UNDERCLIFF ROAD"
-    },
-    {
-      "price": 422500,
-      "date": "2026-05-15",
-      "postcode": "SE23 2UL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 61, PIKETHORNE, WESTBOURNE DRIVE"
-    },
-    {
-      "price": 440000,
-      "date": "2026-05-15",
-      "postcode": "SE6 3ES",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "61, OVERDOWN ROAD"
-    },
-    {
-      "price": 385000,
-      "date": "2026-05-15",
-      "postcode": "SE6 1UU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "42A, ARDGOWAN ROAD"
+      "address": "23, GREENLAND MEWS"
     },
     {
       "price": 315000,
-      "date": "2026-05-15",
-      "postcode": "SE12 0HW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, ASH HOUSE, BURNT ASH HILL"
-    },
-    {
-      "price": 435000,
-      "date": "2026-05-15",
-      "postcode": "SE13 5TB",
+      "date": "2026-06-17",
+      "postcode": "BR1 5JX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, LOWNES COURTYARD"
+      "address": "82, NORTHOVER"
     },
     {
-      "price": 235000,
-      "date": "2026-05-15",
-      "postcode": "SE13 7PZ",
+      "price": 930000,
+      "date": "2026-06-15",
+      "postcode": "SE23 2BG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, BAMPTON ROAD"
+    },
+    {
+      "price": 360000,
+      "date": "2026-06-15",
+      "postcode": "SE12 8PU",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 3, 153, LEWISHAM ROAD"
+      "address": "104B, BURNT ASH ROAD"
+    },
+    {
+      "price": 400000,
+      "date": "2026-06-15",
+      "postcode": "SE4 2DS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "182C, DRAKEFELL ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-15",
+      "postcode": "SE4 1HW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, ELSIEMAUD ROAD"
+    },
+    {
+      "price": 825000,
+      "date": "2026-06-15",
+      "postcode": "SE6 1SW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "72, BALLOCH ROAD"
+    },
+    {
+      "price": 135000,
+      "date": "2026-06-15",
+      "postcode": "SE6 2LE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "9, STANNARD COURT, CULVERLEY ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-15",
+      "postcode": "SE23 1RT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "21, PARK RISE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-12",
+      "postcode": "SE6 1TD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "73, BIRKHALL ROAD"
     }
   ],
   "monthlyHistory": [
@@ -222,8 +225,8 @@
     },
     {
       "month": "2024-05",
-      "medianPrice": 460000,
-      "transactions": 293
+      "medianPrice": 455000,
+      "transactions": 289
     },
     {
       "month": "2024-06",
@@ -232,8 +235,8 @@
     },
     {
       "month": "2024-07",
-      "medianPrice": 450500,
-      "transactions": 334
+      "medianPrice": 451000,
+      "transactions": 335
     },
     {
       "month": "2024-08",
@@ -242,8 +245,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 469500,
-      "transactions": 340
+      "medianPrice": 470000,
+      "transactions": 341
     },
     {
       "month": "2024-10",
@@ -262,18 +265,18 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 462500,
-      "transactions": 306
+      "medianPrice": 465000,
+      "transactions": 307
     },
     {
       "month": "2025-02",
       "medianPrice": 450000,
-      "transactions": 282
+      "transactions": 281
     },
     {
       "month": "2025-03",
       "medianPrice": 450000,
-      "transactions": 728
+      "transactions": 727
     },
     {
       "month": "2025-04",
@@ -283,84 +286,89 @@
     {
       "month": "2025-05",
       "medianPrice": 430000,
-      "transactions": 236
+      "transactions": 237
     },
     {
       "month": "2025-06",
       "medianPrice": 424750,
-      "transactions": 258
+      "transactions": 260
     },
     {
       "month": "2025-07",
-      "medianPrice": 470000,
-      "transactions": 311
+      "medianPrice": 472000,
+      "transactions": 315
     },
     {
       "month": "2025-08",
-      "medianPrice": 500000,
-      "transactions": 296
+      "medianPrice": 485000,
+      "transactions": 323
     },
     {
       "month": "2025-09",
-      "medianPrice": 499999,
-      "transactions": 254
+      "medianPrice": 475000,
+      "transactions": 277
     },
     {
       "month": "2025-10",
       "medianPrice": 445000,
-      "transactions": 299
+      "transactions": 303
     },
     {
       "month": "2025-11",
-      "medianPrice": 444288,
-      "transactions": 256
+      "medianPrice": 445000,
+      "transactions": 265
     },
     {
       "month": "2025-12",
-      "medianPrice": 440000,
-      "transactions": 211
+      "medianPrice": 450000,
+      "transactions": 246
     },
     {
       "month": "2026-01",
-      "medianPrice": 460000,
-      "transactions": 154
+      "medianPrice": 452500,
+      "transactions": 172
     },
     {
       "month": "2026-02",
       "medianPrice": 450000,
-      "transactions": 171
+      "transactions": 178
     },
     {
       "month": "2026-03",
-      "medianPrice": 447500,
-      "transactions": 203
+      "medianPrice": 441250,
+      "transactions": 212
     },
     {
       "month": "2026-04",
       "medianPrice": 450000,
-      "transactions": 147
+      "transactions": 166
     },
     {
       "month": "2026-05",
-      "medianPrice": 450000,
+      "medianPrice": 436000,
+      "transactions": 168
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 400000,
       "transactions": 77
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 420000,
+      "medianPrice": 425000,
       "transactions": 731
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 450108,
-      "transactions": 857
+      "medianPrice": 450000,
+      "transactions": 853
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 446000,
-      "transactions": 1053
+      "medianPrice": 450000,
+      "transactions": 1055
     },
     {
       "quarter": "2024-Q4",
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 450000,
-      "transactions": 1316
+      "transactions": 1315
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 420000,
-      "transactions": 651
+      "transactions": 654
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 487500,
-      "transactions": 861
+      "medianPrice": 475000,
+      "transactions": 915
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 445000,
-      "transactions": 766
+      "medianPrice": 448170,
+      "transactions": 814
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 450000,
-      "transactions": 528
+      "transactions": 562
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 450000,
-      "transactions": 224
+      "medianPrice": 435000,
+      "transactions": 411
     }
   ]
 }

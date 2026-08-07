@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.201Z",
+  "updatedAt": "2026-08-07T08:45:01.305Z",
   "townSlug": "epsom",
   "countySlug": "surrey",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EPSOM AND EWELL"
+  ],
   "stats": {
-    "medianPrice": 567000,
+    "medianPrice": 561000,
     "medianByType": {
-      "D": 860000,
-      "S": 630000,
+      "D": 850000,
+      "S": 620000,
       "T": 500000,
       "F": 310000
     },
-    "transactionCount12m": 774,
-    "yoyChange": 9,
+    "transactionCount12m": 746,
+    "yoyChange": 6.9,
     "newBuildCount": 0,
-    "existingCount": 774,
+    "existingCount": 746,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 360000,
-      "date": "2026-05-22",
-      "postcode": "KT17 2NS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, ELMWOOD CLOSE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-05-19",
-      "postcode": "KT19 0DT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "364, KINGSTON ROAD"
-    },
-    {
-      "price": 737500,
-      "date": "2026-05-18",
-      "postcode": "KT18 7SA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58A, WHEELERS LANE"
-    },
-    {
-      "price": 829000,
-      "date": "2026-05-15",
-      "postcode": "KT17 4HQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, COLLEGE ROAD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-15",
-      "postcode": "KT17 2DS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ERNEST COTTAGES, KINGSTON ROAD"
-    },
-    {
-      "price": 620000,
-      "date": "2026-05-14",
-      "postcode": "KT19 9HF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "488A, CHESSINGTON ROAD"
-    },
-    {
-      "price": 910000,
-      "date": "2026-05-13",
-      "postcode": "KT4 7DJ",
+      "price": 460000,
+      "date": "2026-06-29",
+      "postcode": "KT17 1DF",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, THE GRANGE"
+      "address": "17, STONES ROAD"
     },
     {
-      "price": 670000,
-      "date": "2026-05-12",
-      "postcode": "KT4 7BG",
-      "propertyType": "T",
+      "price": 736500,
+      "date": "2026-06-26",
+      "postcode": "KT17 2NX",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "105, ELMSTEAD GARDENS"
+      "address": "3, CALVERLEY ROAD"
     },
     {
-      "price": 265000,
-      "date": "2026-05-11",
-      "postcode": "KT17 4QR",
+      "price": 570000,
+      "date": "2026-06-23",
+      "postcode": "KT19 0PU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "61, FIRSWOOD AVENUE"
+    },
+    {
+      "price": 580000,
+      "date": "2026-06-19",
+      "postcode": "KT19 0LT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "59, WALSINGHAM GARDENS"
+    },
+    {
+      "price": 355000,
+      "date": "2026-06-15",
+      "postcode": "KT19 9EA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "13, MAPLE GARDENS, 20 - 26, UPPER HIGH STREET"
+      "address": "115, JASMIN ROAD"
     },
     {
-      "price": 548000,
-      "date": "2026-05-08",
-      "postcode": "KT19 9SY",
+      "price": 499000,
+      "date": "2026-06-12",
+      "postcode": "KT18 6HU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, BELFIELD ROAD"
+      "address": "14, MANNAMEAD"
     },
     {
-      "price": 410000,
-      "date": "2026-05-08",
-      "postcode": "KT17 2EB",
+      "price": 480000,
+      "date": "2026-06-12",
+      "postcode": "KT17 1DA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "42, MEADOW WALK"
-    },
-    {
-      "price": 517000,
-      "date": "2026-05-08",
-      "postcode": "KT19 9EG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "348A, CHESSINGTON ROAD"
-    },
-    {
-      "price": 675000,
-      "date": "2026-05-08",
-      "postcode": "KT18 7SJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "83, PARKLAWN AVENUE"
-    },
-    {
-      "price": 505000,
-      "date": "2026-05-08",
-      "postcode": "KT18 7TB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, BRAMBLE WALK"
-    },
-    {
-      "price": 318000,
-      "date": "2026-05-08",
-      "postcode": "KT17 4BY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, DANEHURST COURT, ALEXANDRA ROAD"
-    },
-    {
-      "price": 421000,
-      "date": "2026-05-08",
-      "postcode": "KT19 9QA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, WATERSEDGE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-08",
-      "postcode": "KT19 0SB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, REMBRANDT COURT"
-    },
-    {
-      "price": 445000,
-      "date": "2026-05-07",
-      "postcode": "KT19 8NG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 19, OAKS VIEW, COURT LANE"
+      "address": "10, LEITH ROAD"
     },
     {
       "price": 755000,
-      "date": "2026-05-07",
-      "postcode": "KT18 5LZ",
+      "date": "2026-06-12",
+      "postcode": "KT17 1NA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, THE KINGSWAY"
+    },
+    {
+      "price": 590000,
+      "date": "2026-06-08",
+      "postcode": "KT19 0NX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, ASTON WAY"
+      "address": "68, NEWBURY GARDENS"
     },
     {
-      "price": 315000,
-      "date": "2026-05-05",
-      "postcode": "KT17 1EA",
+      "price": 175500,
+      "date": "2026-06-08",
+      "postcode": "KT17 1LR",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 12, ACER HOUSE, 97 - 101, EAST STREET"
+      "address": "126, FARRIERS ROAD"
+    },
+    {
+      "price": 985000,
+      "date": "2026-06-05",
+      "postcode": "KT17 4NA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, MOSPEY CRESCENT"
+    },
+    {
+      "price": 580000,
+      "date": "2026-06-05",
+      "postcode": "KT19 0HA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, PAMS WAY"
+    },
+    {
+      "price": 740000,
+      "date": "2026-06-05",
+      "postcode": "KT17 3ES",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BIRCHFIELD GROVE"
+    },
+    {
+      "price": 590000,
+      "date": "2026-06-04",
+      "postcode": "SM2 7JL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, HOLMWOOD CLOSE"
+    },
+    {
+      "price": 540000,
+      "date": "2026-06-02",
+      "postcode": "KT18 7LX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6A, DORKING ROAD"
+    },
+    {
+      "price": 405000,
+      "date": "2026-06-01",
+      "postcode": "KT18 7QS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 1, LADAS HOUSE, 13, WOODCOTE ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-01",
+      "postcode": "KT17 4RG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "21, STEVENS CLOSE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-01",
+      "postcode": "KT17 4RG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "15, STEVENS CLOSE"
+    },
+    {
+      "price": 650000,
+      "date": "2026-06-01",
+      "postcode": "KT17 2PY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, EWELL BY PASS"
+    },
+    {
+      "price": 596000,
+      "date": "2026-05-29",
+      "postcode": "KT19 9SZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "85, NORTHCROFT ROAD"
     }
   ],
   "monthlyHistory": [
@@ -277,8 +280,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 338500,
-      "transactions": 32
+      "medianPrice": 342000,
+      "transactions": 33
     },
     {
       "month": "2025-05",
@@ -288,62 +291,67 @@
     {
       "month": "2025-06",
       "medianPrice": 500000,
-      "transactions": 95
+      "transactions": 97
     },
     {
       "month": "2025-07",
-      "medianPrice": 575500,
-      "transactions": 110
+      "medianPrice": 570500,
+      "transactions": 112
     },
     {
       "month": "2025-08",
-      "medianPrice": 554000,
-      "transactions": 83
+      "medianPrice": 560000,
+      "transactions": 87
     },
     {
       "month": "2025-09",
-      "medianPrice": 553000,
-      "transactions": 84
+      "medianPrice": 545000,
+      "transactions": 87
     },
     {
       "month": "2025-10",
-      "medianPrice": 565000,
-      "transactions": 82
-    },
-    {
-      "month": "2025-11",
-      "medianPrice": 582260,
-      "transactions": 96
-    },
-    {
-      "month": "2025-12",
-      "medianPrice": 515000,
+      "medianPrice": 560000,
       "transactions": 83
     },
     {
+      "month": "2025-11",
+      "medianPrice": 589520,
+      "transactions": 101
+    },
+    {
+      "month": "2025-12",
+      "medianPrice": 520000,
+      "transactions": 89
+    },
+    {
       "month": "2026-01",
-      "medianPrice": 560000,
-      "transactions": 64
+      "medianPrice": 573000,
+      "transactions": 73
     },
     {
       "month": "2026-02",
-      "medianPrice": 499075,
-      "transactions": 44
+      "medianPrice": 525700,
+      "transactions": 46
     },
     {
       "month": "2026-03",
       "medianPrice": 572000,
-      "transactions": 62
+      "transactions": 64
     },
     {
       "month": "2026-04",
-      "medianPrice": 525000,
-      "transactions": 53
+      "medianPrice": 560000,
+      "transactions": 57
     },
     {
       "month": "2026-05",
-      "medianPrice": 517000,
-      "transactions": 27
+      "medianPrice": 515000,
+      "transactions": 55
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 570000,
+      "transactions": 19
     }
   ],
   "quarterlyHistory": [
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 491250,
-      "transactions": 190
+      "medianPrice": 492500,
+      "transactions": 193
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 565000,
-      "transactions": 277
+      "medianPrice": 561375,
+      "transactions": 286
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 575000,
-      "transactions": 261
+      "transactions": 273
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 560000,
-      "transactions": 170
+      "medianPrice": 569000,
+      "transactions": 183
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 521000,
-      "transactions": 80
+      "medianPrice": 540000,
+      "transactions": 131
     }
   ]
 }

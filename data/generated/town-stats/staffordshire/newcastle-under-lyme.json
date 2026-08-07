@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.021Z",
+  "updatedAt": "2026-08-07T08:45:02.407Z",
   "townSlug": "newcastle-under-lyme",
   "countySlug": "staffordshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NEWCASTLE-UNDER-LYME"
+  ],
   "marketSnapshot": {
-    "medianPrice": 191250,
-    "transactionCount12m": 1408,
-    "yoyPriceChange": 2.8,
-    "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 191000,
+    "transactionCount12m": 1394,
+    "yoyPriceChange": 1.9,
+    "approvedApps12m": 28,
+    "approvedRecent": 28,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 1468,
+    "pipelineGdv": 270847500,
+    "approvalRate": 90
   }
 }

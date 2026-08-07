@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.979Z",
+  "updatedAt": "2026-08-07T08:45:02.367Z",
   "townSlug": "stoke-on-trent",
   "countySlug": "staffordshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "STOKE-ON-TRENT"
+  ],
   "marketSnapshot": {
-    "medianPrice": 143000,
-    "transactionCount12m": 2780,
-    "yoyPriceChange": 2.1,
+    "medianPrice": 144500,
+    "transactionCount12m": 2726,
+    "yoyPriceChange": 3.2,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

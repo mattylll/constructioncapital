@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.445Z",
+  "updatedAt": "2026-08-07T08:45:01.554Z",
   "townSlug": "windsor",
   "countySlug": "berkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WINDSOR AND MAIDENHEAD"
+  ],
   "stats": {
-    "medianPrice": 503500,
+    "medianPrice": 500000,
     "medianByType": {
-      "D": 775000,
+      "D": 799950,
       "S": 575000,
-      "T": 505000,
-      "F": 295000
+      "T": 500000,
+      "F": 297500
     },
-    "transactionCount12m": 418,
-    "yoyChange": 0.7,
-    "newBuildCount": 2,
-    "existingCount": 416,
-    "newBuildPremium": null
+    "transactionCount12m": 421,
+    "yoyChange": 0,
+    "newBuildCount": 4,
+    "existingCount": 417,
+    "newBuildPremium": 14.4
   },
   "recentTransactions": [
     {
-      "price": 400000,
-      "date": "2026-05-15",
-      "postcode": "SL4 4HX",
+      "price": 610000,
+      "date": "2026-06-26",
+      "postcode": "SL4 6NA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, FOREST ROAD"
+      "address": "10, QUEENS ROAD"
     },
     {
-      "price": 605000,
-      "date": "2026-05-15",
-      "postcode": "SL4 5SZ",
+      "price": 470000,
+      "date": "2026-06-22",
+      "postcode": "SL4 5LD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, EAST CRESCENT"
+    },
+    {
+      "price": 765000,
+      "date": "2026-06-17",
+      "postcode": "SL4 5QA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "44, HAYSE HILL"
+      "address": "21, LONGMEAD"
     },
     {
-      "price": 1585000,
-      "date": "2026-05-12",
-      "postcode": "SL4 4AF",
+      "price": 820000,
+      "date": "2026-06-17",
+      "postcode": "SL4 4AG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "36, WINKFIELD ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-12",
-      "postcode": "SL4 1SY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "30, MOUNTBATTEN SQUARE"
-    },
-    {
-      "price": 573000,
-      "date": "2026-05-11",
-      "postcode": "SL4 2ND",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, MILLS SPUR"
-    },
-    {
-      "price": 537000,
-      "date": "2026-05-08",
-      "postcode": "SL4 4QD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, MARSHALL PLACE"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-01",
-      "postcode": "SL4 3LF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "95, KNIGHTS PLACE"
-    },
-    {
-      "price": 675000,
-      "date": "2026-05-01",
-      "postcode": "SL4 1RT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "73, ARTHUR ROAD"
-    },
-    {
-      "price": 682500,
-      "date": "2026-05-01",
-      "postcode": "SL4 2LZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, WALPOLE ROAD"
-    },
-    {
-      "price": 875000,
-      "date": "2026-04-30",
-      "postcode": "SL4 3PG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, COLLEGE CRESCENT"
-    },
-    {
-      "price": 645000,
-      "date": "2026-04-30",
-      "postcode": "SL4 4EL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, ST ANDREWS CRESCENT"
-    },
-    {
-      "price": 315000,
-      "date": "2026-04-30",
-      "postcode": "SL4 3LF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "84, KNIGHTS PLACE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-04-29",
-      "postcode": "SL4 4PU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19, BYRON COURT"
-    },
-    {
-      "price": 530000,
-      "date": "2026-04-29",
-      "postcode": "SL4 2ND",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, MILLS SPUR"
-    },
-    {
-      "price": 755000,
-      "date": "2026-04-29",
-      "postcode": "SL4 3SA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, GREEN LANE"
-    },
-    {
-      "price": 725000,
-      "date": "2026-04-28",
-      "postcode": "SL4 4DE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "61, CLEWER HILL ROAD"
-    },
-    {
-      "price": 308000,
-      "date": "2026-04-27",
-      "postcode": "SL4 5FF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, BELL COURT, 42, OAK LANE"
-    },
-    {
-      "price": 433000,
-      "date": "2026-04-27",
-      "postcode": "SL4 2PJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, CROFT CORNER"
-    },
-    {
-      "price": 525000,
-      "date": "2026-04-27",
-      "postcode": "SL4 2QJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "96, ST LUKES ROAD"
+      "address": "BANTRY HOUSE, WOODLAND AVENUE"
     },
     {
       "price": 450000,
-      "date": "2026-04-24",
-      "postcode": "SL4 3DR",
+      "date": "2026-06-15",
+      "postcode": "SL4 5NS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7A, DEDWORTH DRIVE"
+    },
+    {
+      "price": 1625000,
+      "date": "2026-06-12",
+      "postcode": "SL4 1JE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, GROVE ROAD"
+    },
+    {
+      "price": 540000,
+      "date": "2026-06-10",
+      "postcode": "SL4 3RQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, NELSON ROAD"
+    },
+    {
+      "price": 371500,
+      "date": "2026-06-09",
+      "postcode": "SL4 3BP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "171, ST LEONARDS ROAD"
+      "address": "21A, ST LEONARDS ROAD"
+    },
+    {
+      "price": 535000,
+      "date": "2026-06-08",
+      "postcode": "SL4 5PZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, LONGMEAD"
+    },
+    {
+      "price": 475000,
+      "date": "2026-05-29",
+      "postcode": "SL4 6LG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, NORTHFIELD ROAD"
+    },
+    {
+      "price": 457500,
+      "date": "2026-05-29",
+      "postcode": "SL4 4JQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, SHEEPCOTE ROAD"
+    },
+    {
+      "price": 499950,
+      "date": "2026-05-29",
+      "postcode": "SL4 4PD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, PRIORS ROAD"
+    },
+    {
+      "price": 465000,
+      "date": "2026-05-28",
+      "postcode": "SL4 2NH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, KINGSBURY DRIVE"
+    },
+    {
+      "price": 517000,
+      "date": "2026-05-26",
+      "postcode": "SL4 4BP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ADDINGTON CLOSE"
+    },
+    {
+      "price": 625000,
+      "date": "2026-05-26",
+      "postcode": "SL4 5UL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "POOH CORNER, OAKLEY GREEN ROAD"
+    },
+    {
+      "price": 283000,
+      "date": "2026-05-22",
+      "postcode": "SL4 4JL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "170, DEDWORTH ROAD"
+    },
+    {
+      "price": 272000,
+      "date": "2026-05-22",
+      "postcode": "SL4 1RB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, BRIDGEWATER TERRACE"
+    },
+    {
+      "price": 620000,
+      "date": "2026-05-22",
+      "postcode": "SL4 3PS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "106, SPRINGFIELD ROAD"
+    },
+    {
+      "price": 425000,
+      "date": "2026-05-22",
+      "postcode": "SL4 6BB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "53, TANGIER LANE"
+    },
+    {
+      "price": 446000,
+      "date": "2026-05-21",
+      "postcode": "SL4 5HG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, RAYS AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -293,7 +296,7 @@
     {
       "month": "2025-07",
       "medianPrice": 550000,
-      "transactions": 39
+      "transactions": 41
     },
     {
       "month": "2025-08",
@@ -302,33 +305,33 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 528750,
-      "transactions": 54
+      "medianPrice": 527500,
+      "transactions": 57
     },
     {
       "month": "2025-10",
-      "medianPrice": 522500,
-      "transactions": 52
+      "medianPrice": 525000,
+      "transactions": 53
     },
     {
       "month": "2025-11",
       "medianPrice": 460000,
-      "transactions": 53
+      "transactions": 57
     },
     {
       "month": "2025-12",
-      "medianPrice": 465000,
-      "transactions": 33
+      "medianPrice": 441250,
+      "transactions": 36
     },
     {
       "month": "2026-01",
-      "medianPrice": 550000,
-      "transactions": 35
+      "medianPrice": 516500,
+      "transactions": 40
     },
     {
       "month": "2026-02",
-      "medianPrice": 455000,
-      "transactions": 33
+      "medianPrice": 465000,
+      "transactions": 34
     },
     {
       "month": "2026-03",
@@ -337,12 +340,17 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 500000,
-      "transactions": 27
+      "medianPrice": 525000,
+      "transactions": 31
     },
     {
       "month": "2026-05",
-      "medianPrice": 573000,
+      "medianPrice": 475000,
+      "transactions": 23
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 540000,
       "transactions": 9
     }
   ],
@@ -380,22 +388,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 530000,
-      "transactions": 149
+      "transactions": 154
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 492500,
-      "transactions": 138
+      "medianPrice": 486250,
+      "transactions": 146
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 501000,
-      "transactions": 100
+      "medianPrice": 499975,
+      "transactions": 106
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 527500,
-      "transactions": 36
+      "medianPrice": 517000,
+      "transactions": 63
     }
   ]
 }

@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.861Z",
+  "updatedAt": "2026-08-07T08:45:01.314Z",
   "townSlug": "redhill",
   "countySlug": "surrey",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "REIGATE AND BANSTEAD"
+  ],
   "marketSnapshot": {
-    "medianPrice": 480000,
-    "transactionCount12m": 1548,
+    "medianPrice": 475000,
+    "transactionCount12m": 1508,
     "yoyPriceChange": 1.1,
-    "approvedApps12m": 13,
-    "pipelineUnits": 398,
-    "pipelineGdv": 184570000,
-    "approvalRate": 72
+    "approvedApps12m": 19,
+    "approvedRecent": 19,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 773,
+    "pipelineGdv": 365067000,
+    "approvalRate": 70
   }
 }

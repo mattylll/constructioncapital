@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.007Z",
+  "updatedAt": "2026-08-07T08:45:01.097Z",
   "townSlug": "havering",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "HAVERING"
+  ],
   "stats": {
-    "medianPrice": 445000,
+    "medianPrice": 447500,
     "medianByType": {
-      "D": 657500,
-      "S": 500500,
+      "D": 664500,
+      "S": 507000,
       "T": 430000,
-      "F": 260000
+      "F": 258000
     },
-    "transactionCount12m": 2546,
-    "yoyChange": 1.1,
-    "newBuildCount": 4,
-    "existingCount": 2542,
-    "newBuildPremium": 12.6
+    "transactionCount12m": 2517,
+    "yoyChange": 1.7,
+    "newBuildCount": 5,
+    "existingCount": 2512,
+    "newBuildPremium": 213.2
   },
   "recentTransactions": [
     {
-      "price": 135000,
-      "date": "2026-05-22",
-      "postcode": "RM3 0WB",
+      "price": 500000,
+      "date": "2026-06-26",
+      "postcode": "RM11 1TS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, BILLET LANE"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-26",
+      "postcode": "RM13 7PT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "191, MUNGO PARK ROAD"
+    },
+    {
+      "price": 465000,
+      "date": "2026-06-26",
+      "postcode": "RM2 5AR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, GLENWOOD DRIVE"
+    },
+    {
+      "price": 360000,
+      "date": "2026-06-23",
+      "postcode": "RM13 9TT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "105, COWPER ROAD"
+    },
+    {
+      "price": 480000,
+      "date": "2026-06-22",
+      "postcode": "RM12 4DR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "104, BANCROFT CHASE"
+    },
+    {
+      "price": 386000,
+      "date": "2026-06-19",
+      "postcode": "RM13 7QU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, CHERRY TREE CLOSE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-19",
+      "postcode": "RM5 3BG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "2, BARTHOLOMEW DRIVE"
+      "address": "13, HILLRISE ROAD"
     },
     {
-      "price": 585000,
-      "date": "2026-05-22",
-      "postcode": "RM12 4DZ",
+      "price": 473000,
+      "date": "2026-06-19",
+      "postcode": "RM3 0WY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "49, EDISON AVENUE"
+      "address": "19, WHITMORE AVENUE"
     },
     {
-      "price": 315000,
-      "date": "2026-05-22",
-      "postcode": "RM1 2QZ",
-      "propertyType": "F",
+      "price": 221000,
+      "date": "2026-06-19",
+      "postcode": "RM5 3JJ",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 5, BUCKINGHAM COURT, CARLISLE ROAD"
+      "address": "5, ERITH CRESCENT"
     },
     {
-      "price": 295000,
-      "date": "2026-05-19",
-      "postcode": "RM11 2AA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, LORDS COURT, 2, CRANHAM ROAD"
-    },
-    {
-      "price": 575000,
-      "date": "2026-05-18",
-      "postcode": "RM1 4BP",
+      "price": 425000,
+      "date": "2026-06-19",
+      "postcode": "RM12 6TD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "72, MASHITERS WALK"
+      "address": "5, KENT DRIVE"
     },
     {
-      "price": 420000,
-      "date": "2026-05-18",
-      "postcode": "RM7 8ES",
+      "price": 775000,
+      "date": "2026-06-18",
+      "postcode": "RM2 5AJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "47, BIRCH CLOSE"
-    },
-    {
-      "price": 405000,
-      "date": "2026-05-18",
-      "postcode": "RM12 5HD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, CORMORANT WALK"
-    },
-    {
-      "price": 600000,
-      "date": "2026-05-15",
-      "postcode": "RM12 6SP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ASCOT GARDENS"
-    },
-    {
-      "price": 615000,
-      "date": "2026-05-15",
-      "postcode": "RM14 2PA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "75, NEWBURY GARDENS"
-    },
-    {
-      "price": 530000,
-      "date": "2026-05-15",
-      "postcode": "RM12 6BE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, PLUMPTON AVENUE"
-    },
-    {
-      "price": 385000,
-      "date": "2026-05-15",
-      "postcode": "RM5 2PS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "148, CHARLOTTE GARDENS"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-14",
-      "postcode": "RM5 3YL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, MOUNT PLEASANT ROAD"
-    },
-    {
-      "price": 440000,
-      "date": "2026-05-14",
-      "postcode": "RM1 2QP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, CARLISLE ROAD"
-    },
-    {
-      "price": 352000,
-      "date": "2026-05-14",
-      "postcode": "RM3 9PT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, REDCAR ROAD"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-14",
-      "postcode": "RM5 2PX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, SILVERMERE AVENUE"
-    },
-    {
-      "price": 469000,
-      "date": "2026-05-14",
-      "postcode": "RM2 6JJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, DURHAM AVENUE"
-    },
-    {
-      "price": 187500,
-      "date": "2026-05-13",
-      "postcode": "RM7 7JG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, ST GEORGES COURT"
+      "address": "86, LODGE AVENUE"
     },
     {
       "price": 205000,
-      "date": "2026-05-12",
-      "postcode": "RM12 6NJ",
+      "date": "2026-06-18",
+      "postcode": "RM3 8YW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 3, M P HOUSE, 20A, STATION LANE"
+      "address": "4, TROWBRIDGE ROAD"
     },
     {
-      "price": 240000,
-      "date": "2026-05-12",
-      "postcode": "RM12 6NJ",
+      "price": 205000,
+      "date": "2026-06-18",
+      "postcode": "RM3 8GU",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 2, M P HOUSE, 20A, STATION LANE"
+      "address": "FLAT 21, NATASHA COURT, MIMOSA CLOSE"
     },
     {
-      "price": 240000,
-      "date": "2026-05-12",
-      "postcode": "RM12 6NJ",
+      "price": 408000,
+      "date": "2026-06-18",
+      "postcode": "RM12 5DE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "61, EGBERT CLOSE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-06-18",
+      "postcode": "RM12 5NJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 1, M P HOUSE, 20A, STATION LANE"
+      "address": "FLAT 34, ASTRA COURT WEST, ASTRA CLOSE"
+    },
+    {
+      "price": 500000,
+      "date": "2026-06-18",
+      "postcode": "RM12 5PA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "442, SOUTH END ROAD"
+    },
+    {
+      "price": 725000,
+      "date": "2026-06-17",
+      "postcode": "RM3 0JX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CHURCH ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-06-17",
+      "postcode": "RM1 1AR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "22, MALT HOUSE PLACE"
+    },
+    {
+      "price": 462500,
+      "date": "2026-06-17",
+      "postcode": "RM7 0QH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, NORWOOD AVENUE"
+    },
+    {
+      "price": 600000,
+      "date": "2026-06-15",
+      "postcode": "RM11 3QA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, HEDINGHAM ROAD"
     }
   ],
   "monthlyHistory": [
@@ -243,7 +246,7 @@
     {
       "month": "2024-09",
       "medianPrice": 440000,
-      "transactions": 284
+      "transactions": 285
     },
     {
       "month": "2024-10",
@@ -263,7 +266,7 @@
     {
       "month": "2025-01",
       "medianPrice": 445000,
-      "transactions": 318
+      "transactions": 319
     },
     {
       "month": "2025-02",
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 456000,
-      "transactions": 702
+      "medianPrice": 455000,
+      "transactions": 704
     },
     {
       "month": "2025-04",
@@ -288,62 +291,67 @@
     {
       "month": "2025-06",
       "medianPrice": 418000,
-      "transactions": 253
+      "transactions": 257
     },
     {
       "month": "2025-07",
       "medianPrice": 440000,
-      "transactions": 348
+      "transactions": 366
     },
     {
       "month": "2025-08",
       "medianPrice": 440000,
-      "transactions": 317
+      "transactions": 334
     },
     {
       "month": "2025-09",
       "medianPrice": 470000,
-      "transactions": 267
+      "transactions": 280
     },
     {
       "month": "2025-10",
       "medianPrice": 440000,
-      "transactions": 319
+      "transactions": 326
     },
     {
       "month": "2025-11",
-      "medianPrice": 442500,
-      "transactions": 245
+      "medianPrice": 440000,
+      "transactions": 256
     },
     {
       "month": "2025-12",
       "medianPrice": 436500,
-      "transactions": 232
+      "transactions": 268
     },
     {
       "month": "2026-01",
-      "medianPrice": 450000,
-      "transactions": 231
+      "medianPrice": 454500,
+      "transactions": 256
     },
     {
       "month": "2026-02",
       "medianPrice": 445000,
-      "transactions": 205
+      "transactions": 213
     },
     {
       "month": "2026-03",
-      "medianPrice": 432000,
-      "transactions": 218
+      "medianPrice": 434000,
+      "transactions": 225
     },
     {
       "month": "2026-04",
-      "medianPrice": 434500,
-      "transactions": 160
+      "medianPrice": 440000,
+      "transactions": 179
     },
     {
       "month": "2026-05",
-      "medianPrice": 422500,
-      "transactions": 46
+      "medianPrice": 442750,
+      "transactions": 170
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 465000,
+      "transactions": 69
     }
   ],
   "quarterlyHistory": [
@@ -360,7 +368,7 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 435000,
-      "transactions": 1009
+      "transactions": 1010
     },
     {
       "quarter": "2024-Q4",
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 452500,
-      "transactions": 1348
+      "medianPrice": 452000,
+      "transactions": 1351
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 425000,
-      "transactions": 598
+      "transactions": 602
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 450000,
-      "transactions": 932
+      "transactions": 980
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 440000,
-      "transactions": 796
+      "transactions": 850
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 444500,
-      "transactions": 654
+      "medianPrice": 445000,
+      "transactions": 694
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 431000,
-      "transactions": 206
+      "medianPrice": 448500,
+      "transactions": 418
     }
   ]
 }

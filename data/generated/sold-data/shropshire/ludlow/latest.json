@@ -1,23 +1,188 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.313Z",
+  "updatedAt": "2026-08-07T08:45:02.467Z",
   "townSlug": "ludlow",
   "countySlug": "shropshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SHROPSHIRE"
+  ],
   "stats": {
-    "medianPrice": 265000,
+    "medianPrice": 270000,
     "medianByType": {
       "D": 345000,
-      "S": 235000,
+      "S": 240000,
       "T": 215000,
-      "F": 105000
+      "F": 110000
     },
-    "transactionCount12m": 229,
-    "yoyChange": -1.9,
+    "transactionCount12m": 238,
+    "yoyChange": 1.7,
     "newBuildCount": 4,
-    "existingCount": 225,
-    "newBuildPremium": 34.5
+    "existingCount": 234,
+    "newBuildPremium": 33.6
   },
   "recentTransactions": [
+    {
+      "price": 168000,
+      "date": "2026-06-18",
+      "postcode": "SY8 1UN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "27, TOWNSEND CLOSE"
+    },
+    {
+      "price": 295000,
+      "date": "2026-06-17",
+      "postcode": "SY8 1AZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHANCERY HOUSE, 6, MILL STREET"
+    },
+    {
+      "price": 463000,
+      "date": "2026-06-16",
+      "postcode": "SY8 1RX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, FRIARS GARDEN"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-12",
+      "postcode": "SY8 2PG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "139, CORVE STREET"
+    },
+    {
+      "price": 272500,
+      "date": "2026-06-12",
+      "postcode": "SY8 2DA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, THE GREEN"
+    },
+    {
+      "price": 135000,
+      "date": "2026-06-12",
+      "postcode": "SY8 2LW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "57, RAGLAN PLACE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-09",
+      "postcode": "SY8 1TQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, TOLL GATE ROAD"
+    },
+    {
+      "price": 273000,
+      "date": "2026-06-09",
+      "postcode": "SY8 2NJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, NEW STREET"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-03",
+      "postcode": "SY8 1DF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, CASTLEFORD ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-01",
+      "postcode": "SY8 3RE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, HIGHNAM CRESCENT"
+    },
+    {
+      "price": 385000,
+      "date": "2026-05-29",
+      "postcode": "SY8 1EE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LINNEY VILLA COACH HOUSE, LINNEY"
+    },
+    {
+      "price": 150000,
+      "date": "2026-05-29",
+      "postcode": "SY8 1AW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "CHIMNEY POTS, BUTTERCROSS"
+    },
+    {
+      "price": 540000,
+      "date": "2026-05-29",
+      "postcode": "SY8 1PQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, LOWER BROAD STREET"
+    },
+    {
+      "price": 240000,
+      "date": "2026-05-29",
+      "postcode": "SY8 1UH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, JAMES CLOSE"
+    },
+    {
+      "price": 248000,
+      "date": "2026-05-28",
+      "postcode": "SY8 3JT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE SQUIRRELS, OFFICE LANE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-05-27",
+      "postcode": "SY8 3PA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, THREE CROSSES"
+    },
+    {
+      "price": 284000,
+      "date": "2026-05-22",
+      "postcode": "SY8 1XT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, LOUGHTON CLOSE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-05-22",
+      "postcode": "SY8 2QA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SUMMERFIELDS"
+    },
     {
       "price": 350000,
       "date": "2026-05-22",
@@ -35,168 +200,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "43B, STANTON ROAD"
-    },
-    {
-      "price": 100000,
-      "date": "2026-05-14",
-      "postcode": "SY8 1BZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "17, COLLEGE COURT"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-13",
-      "postcode": "SY8 1HY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "56, CLEE VIEW"
-    },
-    {
-      "price": 195000,
-      "date": "2026-05-13",
-      "postcode": "SY8 1DJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, BETJEMAN LODGE, CORVE STREET"
-    },
-    {
-      "price": 499000,
-      "date": "2026-05-08",
-      "postcode": "SY8 1EZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HIGHLANDS, LIVESEY ROAD"
-    },
-    {
-      "price": 690000,
-      "date": "2026-05-07",
-      "postcode": "SY8 3HQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE LANZES"
-    },
-    {
-      "price": 525000,
-      "date": "2026-05-07",
-      "postcode": "SY8 2DR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, KNIGHTS WAY"
-    },
-    {
-      "price": 885000,
-      "date": "2026-05-07",
-      "postcode": "SY8 4AA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CARVER HOUSE, OVERTON ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-05",
-      "postcode": "SY8 1UJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, NORMANDIE CLOSE"
-    },
-    {
-      "price": 310000,
-      "date": "2026-05-01",
-      "postcode": "SY8 1UJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, NORMANDIE CLOSE"
-    },
-    {
-      "price": 254000,
-      "date": "2026-05-01",
-      "postcode": "SY8 2NU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, HAYTON VIEW"
-    },
-    {
-      "price": 462500,
-      "date": "2026-04-30",
-      "postcode": "SY8 2EJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BAYTREE COTTAGE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-04-20",
-      "postcode": "SY8 1HD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, JULIAN ROAD"
-    },
-    {
-      "price": 284000,
-      "date": "2026-04-17",
-      "postcode": "SY8 1XX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, PARYS ROAD"
-    },
-    {
-      "price": 307500,
-      "date": "2026-04-17",
-      "postcode": "SY8 2NU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, HAYTON VIEW"
-    },
-    {
-      "price": 445000,
-      "date": "2026-04-17",
-      "postcode": "SY8 3BL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8"
-    },
-    {
-      "price": 205000,
-      "date": "2026-04-17",
-      "postcode": "SY8 1UD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, POTTER CLOSE"
-    },
-    {
-      "price": 230000,
-      "date": "2026-04-17",
-      "postcode": "SY8 2NU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, HAYTON VIEW"
-    },
-    {
-      "price": 420000,
-      "date": "2026-04-17",
-      "postcode": "SY8 1QS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, GRAVEL HILL"
     }
   ],
   "monthlyHistory": [
@@ -292,23 +295,23 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 258000,
-      "transactions": 27
+      "medianPrice": 254000,
+      "transactions": 28
     },
     {
       "month": "2025-08",
-      "medianPrice": 302500,
-      "transactions": 22
+      "medianPrice": 305000,
+      "transactions": 23
     },
     {
       "month": "2025-09",
-      "medianPrice": 225000,
-      "transactions": 14
+      "medianPrice": 226000,
+      "transactions": 16
     },
     {
       "month": "2025-10",
       "medianPrice": 278000,
-      "transactions": 29
+      "transactions": 31
     },
     {
       "month": "2025-11",
@@ -317,18 +320,18 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 275000,
-      "transactions": 16
+      "medianPrice": 265000,
+      "transactions": 19
     },
     {
       "month": "2026-01",
-      "medianPrice": 270000,
-      "transactions": 23
+      "medianPrice": 260000,
+      "transactions": 24
     },
     {
       "month": "2026-02",
-      "medianPrice": 280000,
-      "transactions": 11
+      "medianPrice": 299750,
+      "transactions": 14
     },
     {
       "month": "2026-03",
@@ -338,12 +341,17 @@
     {
       "month": "2026-04",
       "medianPrice": 295750,
-      "transactions": 16
+      "transactions": 18
     },
     {
       "month": "2026-05",
-      "medianPrice": 295000,
-      "transactions": 12
+      "medianPrice": 277500,
+      "transactions": 26
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 272750,
+      "transactions": 10
     }
   ],
   "quarterlyHistory": [
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 250000,
-      "transactions": 63
+      "medianPrice": 258000,
+      "transactions": 67
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 265000,
-      "transactions": 75
+      "transactions": 80
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 260000,
-      "transactions": 65
+      "medianPrice": 265000,
+      "transactions": 69
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 295750,
-      "transactions": 28
+      "medianPrice": 277500,
+      "transactions": 54
     }
   ]
 }

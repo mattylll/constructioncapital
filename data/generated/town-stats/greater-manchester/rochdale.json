@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.454Z",
+  "updatedAt": "2026-08-07T08:45:02.841Z",
   "townSlug": "rochdale",
   "countySlug": "greater-manchester",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "ROCHDALE"
+  ],
   "marketSnapshot": {
-    "medianPrice": 190000,
-    "transactionCount12m": 2204,
-    "yoyPriceChange": -2.6,
+    "medianPrice": 196000,
+    "transactionCount12m": 2219,
+    "yoyPriceChange": 2.1,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

@@ -1,22 +1,88 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.806Z",
+  "updatedAt": "2026-08-07T08:45:04.107Z",
   "townSlug": "welshpool",
   "countySlug": "powys",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "POWYS"
+  ],
   "stats": {
-    "medianPrice": 225000,
+    "medianPrice": 241000,
     "medianByType": {
-      "D": 327500,
-      "S": 191000,
+      "D": 295000,
+      "S": 201500,
       "T": 175100
     },
-    "transactionCount12m": 128,
-    "yoyChange": -8.2,
-    "newBuildCount": 5,
-    "existingCount": 123,
-    "newBuildPremium": -9.8
+    "transactionCount12m": 124,
+    "yoyChange": -3.6,
+    "newBuildCount": 9,
+    "existingCount": 115,
+    "newBuildPremium": 8.7
   },
   "recentTransactions": [
+    {
+      "price": 265000,
+      "date": "2026-06-19",
+      "postcode": "SY21 9LZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MINEAH DRIVE"
+    },
+    {
+      "price": 295000,
+      "date": "2026-06-10",
+      "postcode": "SY21 8RY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PANORAMA"
+    },
+    {
+      "price": 145000,
+      "date": "2026-06-01",
+      "postcode": "SY21 7RL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, COED Y BRYN"
+    },
+    {
+      "price": 728000,
+      "date": "2026-06-01",
+      "postcode": "SY21 8EN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE FRON"
+    },
+    {
+      "price": 267000,
+      "date": "2026-05-22",
+      "postcode": "SY21 7HZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, MYRTLE DRIVE"
+    },
+    {
+      "price": 243000,
+      "date": "2026-05-22",
+      "postcode": "SY21 7DB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, HEULWEN WAY"
+    },
+    {
+      "price": 230000,
+      "date": "2026-05-20",
+      "postcode": "SY21 9PA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, OLDCASTLE AVENUE"
+    },
     {
       "price": 150000,
       "date": "2026-05-18",
@@ -34,6 +100,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "5, OLDCASTLE AVENUE"
+    },
+    {
+      "price": 375000,
+      "date": "2026-05-05",
+      "postcode": "SY21 8RY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GWEL AFON"
     },
     {
       "price": 255000,
@@ -63,15 +138,6 @@
       "address": "LLYN CIL"
     },
     {
-      "price": 370000,
-      "date": "2026-03-27",
-      "postcode": "SY21 0BH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CROESO"
-    },
-    {
       "price": 162000,
       "date": "2026-03-27",
       "postcode": "SY21 7BA",
@@ -79,6 +145,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "97, LITTLE HENFAES DRIVE"
+    },
+    {
+      "price": 370000,
+      "date": "2026-03-27",
+      "postcode": "SY21 0BH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CROESO"
     },
     {
       "price": 267500,
@@ -124,78 +199,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "5, HEATHERWOOD"
-    },
-    {
-      "price": 154000,
-      "date": "2026-02-27",
-      "postcode": "SY21 0RY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CARTREFLE, BRIDGE STREET"
-    },
-    {
-      "price": 203000,
-      "date": "2026-02-27",
-      "postcode": "SY21 9AN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, MAESGARMON"
-    },
-    {
-      "price": 330000,
-      "date": "2026-02-27",
-      "postcode": "SY21 0AH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PEN Y BONT"
-    },
-    {
-      "price": 196000,
-      "date": "2026-02-27",
-      "postcode": "SY21 7GZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, BURGESS CLOSE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-02-25",
-      "postcode": "SY21 7BA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "122, LITTLE HENFAES DRIVE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-02-25",
-      "postcode": "SY21 7LR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BODEINION, RAVEN STREET"
-    },
-    {
-      "price": 172764,
-      "date": "2026-02-20",
-      "postcode": "SY21 9FD",
-      "propertyType": "T",
-      "newBuild": true,
-      "tenure": "F",
-      "address": "1, LLWYN NANT"
-    },
-    {
-      "price": 410000,
-      "date": "2026-02-16",
-      "postcode": "SY21 0JY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BUNGALOW"
     }
   ],
   "monthlyHistory": [
@@ -281,8 +284,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 245000,
-      "transactions": 26
+      "medianPrice": 260000,
+      "transactions": 27
     },
     {
       "month": "2025-06",
@@ -291,8 +294,8 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 245000,
-      "transactions": 27
+      "medianPrice": 295000,
+      "transactions": 29
     },
     {
       "month": "2025-08",
@@ -301,18 +304,18 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 200000,
-      "transactions": 13
+      "medianPrice": 205000,
+      "transactions": 14
     },
     {
       "month": "2025-10",
-      "medianPrice": 207500,
-      "transactions": 21
+      "medianPrice": 232500,
+      "transactions": 24
     },
     {
       "month": "2025-11",
       "medianPrice": 270000,
-      "transactions": 13
+      "transactions": 15
     },
     {
       "month": "2025-12",
@@ -322,7 +325,7 @@
     {
       "month": "2026-01",
       "medianPrice": 240000,
-      "transactions": 12
+      "transactions": 14
     },
     {
       "month": "2026-02",
@@ -341,8 +344,13 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 212500,
-      "transactions": 2
+      "medianPrice": 255000,
+      "transactions": 6
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 280000,
+      "transactions": 4
     }
   ],
   "quarterlyHistory": [
@@ -373,28 +381,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 230000,
-      "transactions": 55
+      "medianPrice": 230125,
+      "transactions": 56
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 213750,
-      "transactions": 52
+      "medianPrice": 235000,
+      "transactions": 55
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 211250,
-      "transactions": 52
+      "medianPrice": 220000,
+      "transactions": 57
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 255000,
-      "transactions": 28
+      "transactions": 30
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 255000,
-      "transactions": 5
+      "medianPrice": 265000,
+      "transactions": 13
     }
   ]
 }

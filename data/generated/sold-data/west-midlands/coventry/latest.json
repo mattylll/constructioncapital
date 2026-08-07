@@ -1,214 +1,217 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.104Z",
+  "updatedAt": "2026-08-07T08:45:02.250Z",
   "townSlug": "coventry",
   "countySlug": "west-midlands",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "COVENTRY"
+  ],
   "stats": {
-    "medianPrice": 220000,
+    "medianPrice": 218750,
     "medianByType": {
-      "D": 375000,
-      "S": 260000,
-      "T": 209960,
+      "D": 375250,
+      "S": 255000,
+      "T": 207500,
       "F": 125000
     },
-    "transactionCount12m": 2989,
-    "yoyChange": 0,
-    "newBuildCount": 20,
-    "existingCount": 2969,
-    "newBuildPremium": 54
+    "transactionCount12m": 2966,
+    "yoyChange": -0.6,
+    "newBuildCount": 36,
+    "existingCount": 2930,
+    "newBuildPremium": 67.2
   },
   "recentTransactions": [
     {
-      "price": 281100,
-      "date": "2026-05-27",
-      "postcode": "CV3 5FP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, THE MARTYRS CLOSE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-27",
-      "postcode": "CV2 2HZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, WIMBORNE DRIVE"
-    },
-    {
-      "price": 44213,
-      "date": "2026-05-27",
-      "postcode": "CV2 5EJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "138, FARREN ROAD"
-    },
-    {
-      "price": 219000,
-      "date": "2026-05-26",
-      "postcode": "CV2 3DP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, DARTMOUTH ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-05-22",
-      "postcode": "CV2 3FF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "412, ANSTY ROAD"
-    },
-    {
-      "price": 225000,
-      "date": "2026-05-22",
-      "postcode": "CV2 1UP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, HOMESTEAD"
-    },
-    {
-      "price": 186000,
-      "date": "2026-05-22",
-      "postcode": "CV5 6LG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, CENTAUR ROAD"
-    },
-    {
-      "price": 630000,
-      "date": "2026-05-21",
-      "postcode": "CV4 7HD",
+      "price": 220000,
+      "date": "2026-06-29",
+      "postcode": "CV2 2JY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, HERITAGE COURT"
+      "address": "5, FONTMELL CLOSE"
     },
     {
-      "price": 263000,
-      "date": "2026-05-21",
-      "postcode": "CV6 3LF",
+      "price": 320000,
+      "date": "2026-06-26",
+      "postcode": "CV5 8NY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, MADEIRA CROFT"
+    },
+    {
+      "price": 346500,
+      "date": "2026-06-25",
+      "postcode": "CV3 1QE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, MARCONI CLOSE"
+    },
+    {
+      "price": 110094,
+      "date": "2026-06-24",
+      "postcode": "CV3 1BS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, ALDERMOOR LANE"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-23",
+      "postcode": "CV5 9GX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, WITNELL ROAD"
+      "address": "122, BIRMINGHAM ROAD"
     },
     {
-      "price": 265000,
-      "date": "2026-05-20",
-      "postcode": "CV3 2HJ",
+      "price": 307000,
+      "date": "2026-06-23",
+      "postcode": "CV5 9DS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, BROWNS LANE"
+    },
+    {
+      "price": 246000,
+      "date": "2026-06-22",
+      "postcode": "CV2 5JU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "76, LORD LYTTON AVENUE"
+    },
+    {
+      "price": 253000,
+      "date": "2026-06-19",
+      "postcode": "CV4 8LZ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, LOWESWATER ROAD"
+      "address": "104, CHERRY TREE DRIVE"
     },
     {
-      "price": 200000,
-      "date": "2026-05-19",
-      "postcode": "CV2 5LA",
-      "propertyType": "T",
+      "price": 235000,
+      "date": "2026-06-19",
+      "postcode": "CV2 3AL",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, KEATS ROAD"
+      "address": "13, LAMERTON CLOSE"
     },
     {
-      "price": 120000,
-      "date": "2026-05-19",
-      "postcode": "CV2 1PT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, CO OPERATIVE STREET"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-18",
+      "price": 187250,
+      "date": "2026-06-19",
       "postcode": "CV2 3NW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "67, TORCROSS AVENUE"
+      "address": "89, TORCROSS AVENUE"
     },
     {
-      "price": 175000,
-      "date": "2026-05-15",
-      "postcode": "CV4 9RN",
+      "price": 255000,
+      "date": "2026-06-19",
+      "postcode": "CV3 5FP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, WOOD END CROFT"
+      "address": "13, THE MARTYRS CLOSE"
     },
     {
-      "price": 205000,
-      "date": "2026-05-15",
-      "postcode": "CV6 7DA",
+      "price": 96000,
+      "date": "2026-06-19",
+      "postcode": "CV3 6AS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "31, BRENTWOOD GARDENS"
+    },
+    {
+      "price": 92000,
+      "date": "2026-06-19",
+      "postcode": "CV2 4GE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "145, SWAN LANE"
+    },
+    {
+      "price": 80000,
+      "date": "2026-06-19",
+      "postcode": "CV5 6HU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 14, CONSORT PLACE, 40, SHAKLETON ROAD"
+    },
+    {
+      "price": 255000,
+      "date": "2026-06-19",
+      "postcode": "CV6 1GD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "32, PEARSON AVENUE"
+      "address": "95, DALLINGTON ROAD"
     },
     {
-      "price": 295000,
-      "date": "2026-05-15",
-      "postcode": "CV3 2TS",
-      "propertyType": "T",
+      "price": 143000,
+      "date": "2026-06-19",
+      "postcode": "CV4 9AN",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "11, HIMBLETON DRIVE"
-    },
-    {
-      "price": 635000,
-      "date": "2026-05-15",
-      "postcode": "CV5 6PD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, MORNINGSIDE"
-    },
-    {
-      "price": 192000,
-      "date": "2026-05-15",
-      "postcode": "CV6 7DN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, ALDER ROAD"
+      "tenure": "L",
+      "address": "37, JEFFERSON WAY"
     },
     {
       "price": 365000,
-      "date": "2026-05-15",
-      "postcode": "CV3 2RW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, GAINFORD RISE"
-    },
-    {
-      "price": 286000,
-      "date": "2026-05-15",
-      "postcode": "CV5 8HN",
+      "date": "2026-06-18",
+      "postcode": "CV3 6DH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, GRAYSWOOD AVENUE"
+      "address": "9, GREEN LANE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-06-18",
+      "postcode": "CV3 6PU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 8, PIPERS COURT, BEANFIELD AVENUE"
+    },
+    {
+      "price": 44000,
+      "date": "2026-06-18",
+      "postcode": "CV3 3GQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "60, RIDGETHORPE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-15",
+      "postcode": "CV2 3LS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, STARCROSS CLOSE"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
       "medianPrice": 215000,
-      "transactions": 272
+      "transactions": 271
     },
     {
       "month": "2024-02",
       "medianPrice": 210000,
-      "transactions": 316
+      "transactions": 318
     },
     {
       "month": "2024-03",
@@ -228,7 +231,7 @@
     {
       "month": "2024-06",
       "medianPrice": 220000,
-      "transactions": 368
+      "transactions": 370
     },
     {
       "month": "2024-07",
@@ -247,8 +250,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 210500,
-      "transactions": 464
+      "medianPrice": 211000,
+      "transactions": 463
     },
     {
       "month": "2024-11",
@@ -258,22 +261,22 @@
     {
       "month": "2024-12",
       "medianPrice": 220000,
-      "transactions": 459
+      "transactions": 460
     },
     {
       "month": "2025-01",
       "medianPrice": 218500,
-      "transactions": 336
+      "transactions": 337
     },
     {
       "month": "2025-02",
       "medianPrice": 215000,
-      "transactions": 381
+      "transactions": 382
     },
     {
       "month": "2025-03",
       "medianPrice": 225000,
-      "transactions": 672
+      "transactions": 674
     },
     {
       "month": "2025-04",
@@ -282,80 +285,85 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 214000,
-      "transactions": 325
+      "medianPrice": 215000,
+      "transactions": 329
     },
     {
       "month": "2025-06",
-      "medianPrice": 231800,
-      "transactions": 397
+      "medianPrice": 232000,
+      "transactions": 400
     },
     {
       "month": "2025-07",
       "medianPrice": 232000,
-      "transactions": 387
+      "transactions": 393
     },
     {
       "month": "2025-08",
       "medianPrice": 220000,
-      "transactions": 363
+      "transactions": 384
     },
     {
       "month": "2025-09",
       "medianPrice": 215000,
-      "transactions": 358
+      "transactions": 385
     },
     {
       "month": "2025-10",
       "medianPrice": 220000,
-      "transactions": 385
+      "transactions": 399
     },
     {
       "month": "2025-11",
       "medianPrice": 220500,
-      "transactions": 323
+      "transactions": 333
     },
     {
       "month": "2025-12",
       "medianPrice": 217250,
-      "transactions": 282
+      "transactions": 310
     },
     {
       "month": "2026-01",
-      "medianPrice": 220000,
-      "transactions": 225
+      "medianPrice": 217000,
+      "transactions": 241
     },
     {
       "month": "2026-02",
-      "medianPrice": 217750,
-      "transactions": 248
+      "medianPrice": 219250,
+      "transactions": 252
     },
     {
       "month": "2026-03",
       "medianPrice": 205000,
-      "transactions": 218
+      "transactions": 224
     },
     {
       "month": "2026-04",
-      "medianPrice": 221500,
-      "transactions": 162
+      "medianPrice": 220000,
+      "transactions": 186
     },
     {
       "month": "2026-05",
       "medianPrice": 225000,
-      "transactions": 90
+      "transactions": 229
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 231500,
+      "transactions": 84
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 210000,
-      "transactions": 969
+      "medianPrice": 210500,
+      "transactions": 970
     },
     {
       "quarter": "2024-Q2",
       "medianPrice": 215000,
-      "transactions": 1091
+      "transactions": 1093
     },
     {
       "quarter": "2024-Q3",
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 220000,
-      "transactions": 1389
+      "transactions": 1393
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 221000,
-      "transactions": 984
+      "medianPrice": 222000,
+      "transactions": 991
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 220500,
-      "transactions": 1108
+      "medianPrice": 221750,
+      "transactions": 1162
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 220000,
-      "transactions": 990
+      "transactions": 1042
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 212500,
-      "transactions": 691
+      "medianPrice": 212000,
+      "transactions": 717
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 224000,
-      "transactions": 252
+      "medianPrice": 225000,
+      "transactions": 499
     }
   ]
 }

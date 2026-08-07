@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.313Z",
+  "updatedAt": "2026-08-07T08:45:03.656Z",
   "townSlug": "ipswich",
   "countySlug": "suffolk",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "IPSWICH"
+  ],
   "marketSnapshot": {
-    "medianPrice": 227500,
-    "transactionCount12m": 1495,
-    "yoyPriceChange": -1.1,
+    "medianPrice": 230000,
+    "transactionCount12m": 1451,
+    "yoyPriceChange": 0.9,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

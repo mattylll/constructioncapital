@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.220Z",
+  "updatedAt": "2026-08-07T08:45:01.648Z",
   "townSlug": "hemel-hempstead",
   "countySlug": "hertfordshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "DACORUM"
+  ],
   "marketSnapshot": {
-    "medianPrice": 450000,
-    "transactionCount12m": 1626,
-    "yoyPriceChange": 2.3,
-    "approvedApps12m": 28,
-    "pipelineUnits": 675,
-    "pipelineGdv": 302626500,
+    "medianPrice": 445000,
+    "transactionCount12m": 1578,
+    "yoyPriceChange": 1.1,
+    "approvedApps12m": 40,
+    "approvedRecent": 40,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 41,
+    "pipelineGdv": 20378000,
     "approvalRate": 100
   }
 }

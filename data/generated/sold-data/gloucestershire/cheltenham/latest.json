@@ -1,209 +1,212 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.998Z",
+  "updatedAt": "2026-08-07T08:45:02.143Z",
   "townSlug": "cheltenham",
   "countySlug": "gloucestershire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CHELTENHAM"
+  ],
   "stats": {
-    "medianPrice": 320000,
+    "medianPrice": 325000,
     "medianByType": {
-      "D": 618500,
-      "S": 367500,
+      "D": 625000,
+      "S": 368750,
       "T": 300000,
       "F": 200000
     },
-    "transactionCount12m": 1640,
-    "yoyChange": 0.3,
-    "newBuildCount": 10,
-    "existingCount": 1630,
-    "newBuildPremium": -19.9
+    "transactionCount12m": 1582,
+    "yoyChange": 2.4,
+    "newBuildCount": 4,
+    "existingCount": 1578,
+    "newBuildPremium": -19.2
   },
   "recentTransactions": [
     {
-      "price": 270000,
-      "date": "2026-05-22",
-      "postcode": "GL50 2SL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, ETON LODGE, 5, THE PARK"
-    },
-    {
-      "price": 390000,
-      "date": "2026-05-21",
-      "postcode": "GL51 3DU",
+      "price": 370000,
+      "date": "2026-06-26",
+      "postcode": "GL52 2QF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, FRIARS CLOSE"
+      "address": "26, HAYES ROAD"
     },
     {
-      "price": 200000,
-      "date": "2026-05-18",
-      "postcode": "GL51 6PZ",
+      "price": 110000,
+      "date": "2026-06-23",
+      "postcode": "GL52 6BX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "12, THORNCLIFFE FLATS, LANSDOWN ROAD"
+      "address": "12, HOPWOOD GROVE"
     },
     {
-      "price": 655000,
-      "date": "2026-05-18",
-      "postcode": "GL50 2BY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, GRATTON ROAD"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-15",
-      "postcode": "GL50 2TF",
+      "price": 133500,
+      "date": "2026-06-19",
+      "postcode": "GL52 6DA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 4, THE PINES, 22, TIVOLI ROAD"
+      "address": "9, BERKELEY COURT, HIGH STREET"
+    },
+    {
+      "price": 87000,
+      "date": "2026-06-19",
+      "postcode": "GL51 7TY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "96, MONKSCROFT"
     },
     {
       "price": 318000,
-      "date": "2026-05-15",
-      "postcode": "GL51 8EU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, ALSTONE MEWS"
-    },
-    {
-      "price": 385000,
-      "date": "2026-05-15",
-      "postcode": "GL52 6JD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, BROOK VALE"
-    },
-    {
-      "price": 258000,
-      "date": "2026-05-15",
-      "postcode": "GL52 6SB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, UPPER PARK STREET"
-    },
-    {
-      "price": 710000,
-      "date": "2026-05-15",
-      "postcode": "GL53 0NQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, NOURSE CLOSE"
-    },
-    {
-      "price": 257500,
-      "date": "2026-05-15",
-      "postcode": "GL50 4BL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, GRANVILLE STREET"
-    },
-    {
-      "price": 1075000,
-      "date": "2026-05-15",
-      "postcode": "GL53 0DQ",
+      "date": "2026-06-18",
+      "postcode": "GL50 4RT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "111, LECKHAMPTON ROAD"
+      "address": "18, MANDARIN WAY"
     },
     {
-      "price": 320000,
-      "date": "2026-05-14",
-      "postcode": "GL52 5FQ",
+      "price": 205000,
+      "date": "2026-06-15",
+      "postcode": "GL51 9HP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, FAIRFORD ROAD"
+      "address": "23, RUSSELL PLACE"
     },
     {
-      "price": 640000,
-      "date": "2026-05-14",
-      "postcode": "GL53 8BS",
-      "propertyType": "D",
+      "price": 196500,
+      "date": "2026-06-15",
+      "postcode": "GL51 3NL",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, GROVELANDS CLOSE"
+      "address": "2, ENNERDALE ROAD"
     },
     {
-      "price": 260000,
-      "date": "2026-05-13",
-      "postcode": "GL51 6QX",
+      "price": 132000,
+      "date": "2026-06-12",
+      "postcode": "GL52 5GA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 6, CHARLTON COURT, 55, LANSDOWN ROAD"
+      "address": "62, REDMARLEY ROAD"
     },
     {
-      "price": 275000,
-      "date": "2026-05-12",
-      "postcode": "GL50 4ED",
+      "price": 393000,
+      "date": "2026-06-12",
+      "postcode": "GL50 4PB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CONIFERS, SWINDON LANE"
+    },
+    {
+      "price": 550000,
+      "date": "2026-06-12",
+      "postcode": "GL53 8JH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "72, HORSEFAIR STREET"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-12",
+      "postcode": "GL52 5HB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, BENNINGTON STREET"
+      "address": "85, PENNINE ROAD"
     },
     {
       "price": 300000,
-      "date": "2026-05-12",
-      "postcode": "GL51 8EH",
+      "date": "2026-06-12",
+      "postcode": "GL51 8NU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "28, ALSTONE AVENUE"
+      "address": "15, QUEENS RETREAT"
     },
     {
-      "price": 140000,
-      "date": "2026-05-11",
-      "postcode": "GL52 5PP",
+      "price": 266500,
+      "date": "2026-06-12",
+      "postcode": "GL50 3RP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, WYMANS ROAD"
+      "address": "72, MILLBROOK STREET"
     },
     {
-      "price": 240000,
-      "date": "2026-05-08",
-      "postcode": "GL50 2AN",
-      "propertyType": "F",
+      "price": 825000,
+      "date": "2026-06-12",
+      "postcode": "GL50 2AP",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "FIRST AND SECOND FLOOR FLAT, 6, GREAT NORWOOD STREET"
+      "tenure": "F",
+      "address": "16, GREAT NORWOOD STREET"
     },
     {
-      "price": 588000,
-      "date": "2026-05-08",
-      "postcode": "GL52 3EQ",
+      "price": 474500,
+      "date": "2026-06-12",
+      "postcode": "GL53 0BH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, ACACIA CLOSE"
+      "address": "3, MORNINGTON DRIVE"
     },
     {
-      "price": 315000,
-      "date": "2026-05-08",
-      "postcode": "GL53 7PD",
-      "propertyType": "T",
+      "price": 150000,
+      "date": "2026-06-12",
+      "postcode": "GL50 3LG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT G, 17, AMBROSE STREET"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-12",
+      "postcode": "GL51 0FZ",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "15, EWLYN TERRACE"
+      "address": "4, SOTHERBY DRIVE"
+    },
+    {
+      "price": 675000,
+      "date": "2026-06-11",
+      "postcode": "GL50 4NP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FERNMOOR, TOMMY TAYLORS LANE"
+    },
+    {
+      "price": 120000,
+      "date": "2026-06-10",
+      "postcode": "GL50 3JA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 6, 444, HIGH STREET"
+    },
+    {
+      "price": 875000,
+      "date": "2026-06-10",
+      "postcode": "GL53 8DA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, CIRENCESTER ROAD"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 285714,
-      "transactions": 176
+      "medianPrice": 292500,
+      "transactions": 180
     },
     {
       "month": "2024-02",
@@ -238,7 +241,7 @@
     {
       "month": "2024-08",
       "medianPrice": 340000,
-      "transactions": 218
+      "transactions": 217
     },
     {
       "month": "2024-09",
@@ -248,7 +251,7 @@
     {
       "month": "2024-10",
       "medianPrice": 327500,
-      "transactions": 264
+      "transactions": 265
     },
     {
       "month": "2024-11",
@@ -262,8 +265,8 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 317250,
-      "transactions": 172
+      "medianPrice": 318000,
+      "transactions": 173
     },
     {
       "month": "2025-02",
@@ -287,70 +290,75 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 306594,
-      "transactions": 181
+      "medianPrice": 315000,
+      "transactions": 187
     },
     {
       "month": "2025-07",
-      "medianPrice": 318475,
-      "transactions": 228
+      "medianPrice": 322250,
+      "transactions": 233
     },
     {
       "month": "2025-08",
-      "medianPrice": 335000,
-      "transactions": 209
+      "medianPrice": 332500,
+      "transactions": 215
     },
     {
       "month": "2025-09",
       "medianPrice": 320000,
-      "transactions": 192
+      "transactions": 200
     },
     {
       "month": "2025-10",
-      "medianPrice": 325000,
-      "transactions": 228
+      "medianPrice": 327500,
+      "transactions": 232
     },
     {
       "month": "2025-11",
-      "medianPrice": 348500,
-      "transactions": 174
+      "medianPrice": 341250,
+      "transactions": 180
     },
     {
       "month": "2025-12",
       "medianPrice": 300000,
-      "transactions": 156
+      "transactions": 165
     },
     {
       "month": "2026-01",
       "medianPrice": 285000,
-      "transactions": 103
+      "transactions": 113
     },
     {
       "month": "2026-02",
       "medianPrice": 350000,
-      "transactions": 129
+      "transactions": 131
     },
     {
       "month": "2026-03",
       "medianPrice": 290000,
-      "transactions": 106
+      "transactions": 107
     },
     {
       "month": "2026-04",
-      "medianPrice": 322500,
-      "transactions": 106
+      "medianPrice": 325000,
+      "transactions": 112
     },
     {
       "month": "2026-05",
-      "medianPrice": 339000,
-      "transactions": 38
+      "medianPrice": 348000,
+      "transactions": 115
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 318000,
+      "transactions": 41
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 300000,
-      "transactions": 481
+      "transactions": 485
     },
     {
       "quarter": "2024-Q2",
@@ -359,43 +367,43 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 330500,
-      "transactions": 632
+      "medianPrice": 331000,
+      "transactions": 631
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 321500,
-      "transactions": 627
+      "medianPrice": 320750,
+      "transactions": 628
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 317500,
-      "transactions": 739
+      "medianPrice": 317750,
+      "transactions": 740
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 290535,
-      "transactions": 416
+      "medianPrice": 291070,
+      "transactions": 422
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 325000,
-      "transactions": 629
+      "transactions": 648
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 325000,
-      "transactions": 558
+      "transactions": 577
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 302500,
-      "transactions": 338
+      "medianPrice": 300000,
+      "transactions": 351
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 325000,
-      "transactions": 144
+      "medianPrice": 327000,
+      "transactions": 268
     }
   ]
 }

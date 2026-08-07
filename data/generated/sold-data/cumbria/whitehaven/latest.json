@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.915Z",
+  "updatedAt": "2026-08-07T08:45:03.136Z",
   "townSlug": "whitehaven",
   "countySlug": "cumbria",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CUMBERLAND",
+    "COPELAND"
+  ],
   "stats": {
-    "medianPrice": 155500,
+    "medianPrice": 155000,
     "medianByType": {
-      "D": 285000,
-      "S": 162000,
-      "T": 118500,
-      "F": 90250
+      "D": 290000,
+      "S": 160000,
+      "T": 119000,
+      "F": 91625
     },
-    "transactionCount12m": 388,
-    "yoyChange": -2.8,
-    "newBuildCount": 9,
-    "existingCount": 379,
-    "newBuildPremium": 38.7
+    "transactionCount12m": 387,
+    "yoyChange": -3.1,
+    "newBuildCount": 5,
+    "existingCount": 382,
+    "newBuildPremium": 43.3
   },
   "recentTransactions": [
     {
-      "price": 242500,
-      "date": "2026-05-20",
-      "postcode": "CA28 6TG",
+      "price": 225000,
+      "date": "2026-06-24",
+      "postcode": "CA28 6LX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, OAKFIELD COURT"
+      "address": "101, LOOP ROAD NORTH"
     },
     {
-      "price": 93000,
-      "date": "2026-05-20",
-      "postcode": "CA28 8QH",
+      "price": 116500,
+      "date": "2026-06-24",
+      "postcode": "CA28 6AF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, YORK TERRACE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-19",
+      "postcode": "CA28 9SZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "47, WASDALE CLOSE"
+    },
+    {
+      "price": 97000,
+      "date": "2026-06-19",
+      "postcode": "CA28 9PX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "61, BUTTERMERE AVENUE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-06-19",
+      "postcode": "CA28 8YN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, POOLES CLOSE"
+    },
+    {
+      "price": 142000,
+      "date": "2026-06-18",
+      "postcode": "CA28 8JH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, HOMEWOOD ROAD"
+    },
+    {
+      "price": 65000,
+      "date": "2026-06-17",
+      "postcode": "CA28 6DG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, HUGH STREET"
+    },
+    {
+      "price": 100000,
+      "date": "2026-06-16",
+      "postcode": "CA28 7QF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "15, ST JOHNS COURT"
+      "address": "7, SANDHILLS COURT, QUEEN STREET"
     },
     {
-      "price": 455000,
-      "date": "2026-05-20",
-      "postcode": "CA28 6SG",
+      "price": 270000,
+      "date": "2026-06-12",
+      "postcode": "CA28 9FA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "SUMMER LEA, HARRAS ROAD"
+      "address": "7, LADYSMITH CLOSE"
     },
     {
-      "price": 56000,
-      "date": "2026-05-15",
-      "postcode": "CA28 8NX",
+      "price": 155000,
+      "date": "2026-06-12",
+      "postcode": "CA28 7PA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CATHERINE STREET"
+    },
+    {
+      "price": 66000,
+      "date": "2026-06-11",
+      "postcode": "CA28 8AJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "43, CAMBRIDGE ROAD"
-    },
-    {
-      "price": 78000,
-      "date": "2026-05-15",
-      "postcode": "CA28 9PP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, BRAKESIDE GARDENS"
-    },
-    {
-      "price": 128500,
-      "date": "2026-05-15",
-      "postcode": "CA28 9TE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "156, MEADOW ROAD"
-    },
-    {
-      "price": 139950,
-      "date": "2026-05-11",
-      "postcode": "CA28 8BA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "100, VALLEY PARK"
-    },
-    {
-      "price": 225000,
-      "date": "2026-05-11",
-      "postcode": "CA28 7UE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, TOWER HILL"
-    },
-    {
-      "price": 95000,
-      "date": "2026-05-06",
-      "postcode": "CA28 6PF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, MORESBY TERRACE"
-    },
-    {
-      "price": 132100,
-      "date": "2026-05-06",
-      "postcode": "CA28 8SG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "87, ULLSWATER AVENUE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-05",
-      "postcode": "CA28 6HG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, BRANSTY ROAD"
-    },
-    {
-      "price": 197500,
-      "date": "2026-05-01",
-      "postcode": "CA28 6XE",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, RED LONNING"
-    },
-    {
-      "price": 72000,
-      "date": "2026-05-01",
-      "postcode": "CA28 8SR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, RICHMOND HILL ROAD"
-    },
-    {
-      "price": 86000,
-      "date": "2026-05-01",
-      "postcode": "CA28 9BT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ELLISONS PLACE"
-    },
-    {
-      "price": 345000,
-      "date": "2026-05-01",
-      "postcode": "CA28 6TB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, RUSKIN DRIVE"
-    },
-    {
-      "price": 211250,
-      "date": "2026-05-01",
-      "postcode": "CA28 9AH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, BASKET ROAD"
-    },
-    {
-      "price": 126000,
-      "date": "2026-04-30",
-      "postcode": "CA28 6EQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, THE CLOSE"
-    },
-    {
-      "price": 125000,
-      "date": "2026-04-29",
-      "postcode": "CA28 6UD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, SPRINGFIELD GROVE"
+      "address": "142, ESK AVENUE"
     },
     {
       "price": 135000,
-      "date": "2026-04-27",
-      "postcode": "CA28 6QR",
+      "date": "2026-06-05",
+      "postcode": "CA28 9AD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, MICKLAM COTTAGES"
+      "address": "5, HARBOUR VIEW"
     },
     {
-      "price": 162000,
-      "date": "2026-04-24",
+      "price": 230000,
+      "date": "2026-06-05",
       "postcode": "CA28 6SA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, HOLLY BANK"
+      "address": "53, HOLLY BANK"
+    },
+    {
+      "price": 145000,
+      "date": "2026-06-05",
+      "postcode": "CA28 6AA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, ALBERT TERRACE"
+    },
+    {
+      "price": 128500,
+      "date": "2026-06-04",
+      "postcode": "CA28 7SL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, HILARY MEWS"
+    },
+    {
+      "price": 248000,
+      "date": "2026-06-03",
+      "postcode": "CA28 6SW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62, LAUREL BANK"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-02",
+      "postcode": "CA28 7PZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, HIGH STREET"
+    },
+    {
+      "price": 128000,
+      "date": "2026-06-01",
+      "postcode": "CA28 8QU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "82, MAIN STREET"
+    },
+    {
+      "price": 145000,
+      "date": "2026-05-29",
+      "postcode": "CA28 6SA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, HOLLY BANK"
+    },
+    {
+      "price": 350000,
+      "date": "2026-05-29",
+      "postcode": "CA28 6JZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "95, RANNERDALE DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -292,38 +296,38 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 175500,
-      "transactions": 56
+      "medianPrice": 175000,
+      "transactions": 57
     },
     {
       "month": "2025-08",
       "medianPrice": 128000,
-      "transactions": 39
+      "transactions": 41
     },
     {
       "month": "2025-09",
-      "medianPrice": 145000,
-      "transactions": 45
+      "medianPrice": 150000,
+      "transactions": 46
     },
     {
       "month": "2025-10",
-      "medianPrice": 155000,
-      "transactions": 39
+      "medianPrice": 149000,
+      "transactions": 40
     },
     {
       "month": "2025-11",
-      "medianPrice": 152125,
-      "transactions": 38
+      "medianPrice": 156750,
+      "transactions": 39
     },
     {
       "month": "2025-12",
       "medianPrice": 142500,
-      "transactions": 37
+      "transactions": 41
     },
     {
       "month": "2026-01",
-      "medianPrice": 160000,
-      "transactions": 25
+      "medianPrice": 154975,
+      "transactions": 26
     },
     {
       "month": "2026-02",
@@ -337,13 +341,18 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 166000,
-      "transactions": 20
+      "medianPrice": 170000,
+      "transactions": 22
     },
     {
       "month": "2026-05",
-      "medianPrice": 136025,
-      "transactions": 16
+      "medianPrice": 147500,
+      "transactions": 40
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 143500,
+      "transactions": 18
     }
   ],
   "quarterlyHistory": [
@@ -380,22 +389,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 154000,
-      "transactions": 140
+      "transactions": 144
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 151250,
-      "transactions": 114
+      "transactions": 120
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 159500,
-      "transactions": 104
+      "medianPrice": 159000,
+      "transactions": 105
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 161000,
-      "transactions": 36
+      "medianPrice": 152500,
+      "transactions": 80
     }
   ]
 }

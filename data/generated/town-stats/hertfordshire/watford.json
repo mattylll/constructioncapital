@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:52.209Z",
+  "updatedAt": "2026-08-07T08:45:01.636Z",
   "townSlug": "watford",
   "countySlug": "hertfordshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WATFORD"
+  ],
   "marketSnapshot": {
-    "medianPrice": 407000,
-    "transactionCount12m": 840,
-    "yoyPriceChange": -0.7,
+    "medianPrice": 415000,
+    "transactionCount12m": 796,
+    "yoyPriceChange": 2.5,
     "approvedApps12m": 0,
-    "pipelineUnits": 4,
-    "pipelineGdv": 2324325,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 9,
+    "pipelineGdv": 3035000,
     "approvalRate": 0
   }
 }

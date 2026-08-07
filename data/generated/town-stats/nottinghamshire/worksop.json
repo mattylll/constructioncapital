@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.187Z",
+  "updatedAt": "2026-08-07T08:45:02.566Z",
   "townSlug": "worksop",
   "countySlug": "nottinghamshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BASSETLAW"
+  ],
   "marketSnapshot": {
     "medianPrice": 190000,
-    "transactionCount12m": 693,
+    "transactionCount12m": 665,
     "yoyPriceChange": 0,
     "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 19,
+    "pipelineGdv": 3734000,
     "approvalRate": 0
   }
 }

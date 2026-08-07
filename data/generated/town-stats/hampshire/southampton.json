@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.995Z",
+  "updatedAt": "2026-08-07T08:45:01.440Z",
   "townSlug": "southampton",
   "countySlug": "hampshire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTHAMPTON"
+  ],
   "marketSnapshot": {
-    "medianPrice": 250000,
-    "transactionCount12m": 2732,
-    "yoyPriceChange": -2,
-    "approvedApps12m": 24,
-    "pipelineUnits": 56,
-    "pipelineGdv": 10001412,
-    "approvalRate": 100
+    "medianPrice": 255000,
+    "transactionCount12m": 2353,
+    "yoyPriceChange": 2,
+    "approvedApps12m": 26,
+    "approvedRecent": 26,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 76,
+    "pipelineGdv": 13660146,
+    "approvalRate": 96
   }
 }

@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.268Z",
+  "updatedAt": "2026-08-07T08:45:03.613Z",
   "townSlug": "great-yarmouth",
   "countySlug": "norfolk",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "GREAT YARMOUTH"
+  ],
   "marketSnapshot": {
-    "medianPrice": 205000,
-    "transactionCount12m": 1201,
-    "yoyPriceChange": -2.4,
-    "approvedApps12m": 2,
-    "pipelineUnits": 205,
-    "pipelineGdv": 40365000,
-    "approvalRate": 100
+    "medianPrice": 202000,
+    "transactionCount12m": 1161,
+    "yoyPriceChange": -3.8,
+    "approvedApps12m": 4,
+    "approvedRecent": 4,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 461,
+    "pipelineGdv": 92615000,
+    "approvalRate": 67
   }
 }

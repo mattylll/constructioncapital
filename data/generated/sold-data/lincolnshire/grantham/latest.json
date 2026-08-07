@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.528Z",
+  "updatedAt": "2026-08-07T08:45:02.712Z",
   "townSlug": "grantham",
   "countySlug": "lincolnshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOUTH KESTEVEN"
+  ],
   "stats": {
-    "medianPrice": 215000,
+    "medianPrice": 219000,
     "medianByType": {
-      "D": 325000,
-      "S": 201500,
-      "T": 165000,
+      "D": 328000,
+      "S": 200000,
+      "T": 162000,
       "F": 100000
     },
-    "transactionCount12m": 803,
-    "yoyChange": -6.5,
-    "newBuildCount": 17,
-    "existingCount": 786,
-    "newBuildPremium": 20.9
+    "transactionCount12m": 790,
+    "yoyChange": -4.8,
+    "newBuildCount": 12,
+    "existingCount": 778,
+    "newBuildPremium": 41
   },
   "recentTransactions": [
     {
-      "price": 350000,
-      "date": "2026-05-28",
-      "postcode": "NG33 4EA",
+      "price": 315000,
+      "date": "2026-06-26",
+      "postcode": "NG32 3RP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "ORCHARD COTTAGE"
+      "address": "9, PADDOCK CLOSE"
     },
     {
-      "price": 284000,
-      "date": "2026-05-22",
-      "postcode": "NG31 8HW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "103, CLIFFE ROAD"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-21",
-      "postcode": "NG31 8NR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "259, BARROWBY ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-18",
-      "postcode": "NG32 1TQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, LEYS CLOSE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-15",
-      "postcode": "NG33 4EE",
+      "price": 247500,
+      "date": "2026-06-23",
+      "postcode": "NG31 8FH",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, ORCHARD WAY"
-    },
-    {
-      "price": 54000,
-      "date": "2026-05-15",
-      "postcode": "NG31 6BS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9B, QUEEN STREET"
-    },
-    {
-      "price": 430000,
-      "date": "2026-05-15",
-      "postcode": "NG31 8UN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, SCARBOROUGH CLOSE"
-    },
-    {
-      "price": 92000,
-      "date": "2026-05-15",
-      "postcode": "NG31 6DW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "65, BREWERY HILL"
-    },
-    {
-      "price": 237000,
-      "date": "2026-05-15",
-      "postcode": "NG32 3DS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, HIGH STREET"
-    },
-    {
-      "price": 265000,
-      "date": "2026-05-15",
-      "postcode": "NG31 7EZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, HILLSIDE DRIVE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-14",
-      "postcode": "NG31 9SB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "82, SUNNINGDALE"
-    },
-    {
-      "price": 107000,
-      "date": "2026-05-12",
-      "postcode": "NG31 7AR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, ATLANTIC PLACE"
+      "address": "32, WENSLEYDALE CLOSE"
     },
     {
       "price": 120000,
-      "date": "2026-05-11",
-      "postcode": "NG31 6DB",
+      "date": "2026-06-22",
+      "postcode": "NG31 7BP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, COMMERCIAL ROAD"
+      "address": "80, STAMFORD STREET"
     },
     {
       "price": 215000,
-      "date": "2026-05-08",
-      "postcode": "NG31 9RF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "117, QUEENSWAY"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-08",
-      "postcode": "NG31 7JT",
+      "date": "2026-06-19",
+      "postcode": "NG31 7JL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "353, HARLAXTON ROAD"
+      "address": "56, DENTON AVENUE"
     },
     {
-      "price": 246000,
-      "date": "2026-05-07",
-      "postcode": "NG31 9TS",
+      "price": 160000,
+      "date": "2026-06-19",
+      "postcode": "NG31 7RE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, FOURTH AVENUE"
+      "address": "102, HORNSBY ROAD"
+    },
+    {
+      "price": 337000,
+      "date": "2026-06-18",
+      "postcode": "NG31 8JQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, PRETORIA ROAD"
+    },
+    {
+      "price": 322500,
+      "date": "2026-06-17",
+      "postcode": "NG32 3BY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CRAGGS COTTAGE, 14, HOUGH ROAD"
+    },
+    {
+      "price": 440000,
+      "date": "2026-06-17",
+      "postcode": "NG31 8AF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "156, BARROWBY ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-17",
+      "postcode": "NG31 9GF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BERKSHIRE DRIVE"
+    },
+    {
+      "price": 119950,
+      "date": "2026-06-16",
+      "postcode": "NG31 8FD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "43, PREMIER COURT"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-15",
+      "postcode": "NG31 8WR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, CALDICOT GARDENS"
+    },
+    {
+      "price": 118000,
+      "date": "2026-06-12",
+      "postcode": "NG31 7WS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "21, PACEY WAY"
+    },
+    {
+      "price": 147000,
+      "date": "2026-06-12",
+      "postcode": "NG31 9TE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, MONTROSE CLOSE"
+    },
+    {
+      "price": 171000,
+      "date": "2026-06-12",
+      "postcode": "NG31 7RE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "68, HORNSBY ROAD"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-12",
+      "postcode": "NG31 6JD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "86, HOUGHTON ROAD"
+    },
+    {
+      "price": 168000,
+      "date": "2026-06-10",
+      "postcode": "NG31 7BS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "89, STAMFORD STREET"
+    },
+    {
+      "price": 227000,
+      "date": "2026-06-10",
+      "postcode": "NG31 8SY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, BALMORAL DRIVE"
     },
     {
       "price": 320000,
-      "date": "2026-05-07",
-      "postcode": "NG31 9FB",
+      "date": "2026-06-10",
+      "postcode": "NG32 1TA",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, ST MELLION DRIVE"
+      "address": "59, HEDGEFIELD ROAD"
     },
     {
-      "price": 210000,
-      "date": "2026-05-06",
-      "postcode": "NG32 3JZ",
+      "price": 295000,
+      "date": "2026-06-09",
+      "postcode": "NG32 3AP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, BRANT ROAD"
+      "address": "GLENVILLE, LINCOLN ROAD"
     },
     {
-      "price": 400000,
-      "date": "2026-05-06",
-      "postcode": "NG31 8JX",
-      "propertyType": "D",
+      "price": 170000,
+      "date": "2026-06-09",
+      "postcode": "NG31 9ND",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "38, GRANTHAM ROAD"
-    },
-    {
-      "price": 380000,
-      "date": "2026-05-05",
-      "postcode": "NG31 8GR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, HOLLYWOOD CLOSE"
+      "address": "10, KIPLING CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -218,7 +221,7 @@
     {
       "month": "2024-04",
       "medianPrice": 185000,
-      "transactions": 72
+      "transactions": 73
     },
     {
       "month": "2024-05",
@@ -237,8 +240,8 @@
     },
     {
       "month": "2024-08",
-      "medianPrice": 236180,
-      "transactions": 126
+      "medianPrice": 235000,
+      "transactions": 127
     },
     {
       "month": "2024-09",
@@ -277,8 +280,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 216000,
-      "transactions": 58
+      "medianPrice": 222000,
+      "transactions": 59
     },
     {
       "month": "2025-05",
@@ -288,27 +291,27 @@
     {
       "month": "2025-06",
       "medianPrice": 230000,
-      "transactions": 110
+      "transactions": 111
     },
     {
       "month": "2025-07",
-      "medianPrice": 215000,
-      "transactions": 113
+      "medianPrice": 219000,
+      "transactions": 118
     },
     {
       "month": "2025-08",
-      "medianPrice": 214850,
-      "transactions": 96
+      "medianPrice": 215000,
+      "transactions": 103
     },
     {
       "month": "2025-09",
-      "medianPrice": 207500,
-      "transactions": 95
+      "medianPrice": 208750,
+      "transactions": 102
     },
     {
       "month": "2025-10",
       "medianPrice": 200000,
-      "transactions": 125
+      "transactions": 127
     },
     {
       "month": "2025-11",
@@ -318,32 +321,37 @@
     {
       "month": "2025-12",
       "medianPrice": 225000,
-      "transactions": 71
+      "transactions": 75
     },
     {
       "month": "2026-01",
-      "medianPrice": 215000,
-      "transactions": 58
+      "medianPrice": 220000,
+      "transactions": 66
     },
     {
       "month": "2026-02",
-      "medianPrice": 215000,
-      "transactions": 53
-    },
-    {
-      "month": "2026-03",
-      "medianPrice": 220000,
-      "transactions": 69
-    },
-    {
-      "month": "2026-04",
-      "medianPrice": 237500,
+      "medianPrice": 208750,
       "transactions": 54
     },
     {
+      "month": "2026-03",
+      "medianPrice": 216500,
+      "transactions": 72
+    },
+    {
+      "month": "2026-04",
+      "medianPrice": 230000,
+      "transactions": 64
+    },
+    {
       "month": "2026-05",
-      "medianPrice": 274500,
-      "transactions": 22
+      "medianPrice": 254000,
+      "transactions": 52
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 184500,
+      "transactions": 32
     }
   ],
   "quarterlyHistory": [
@@ -355,12 +363,12 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 210000,
-      "transactions": 262
+      "transactions": 263
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 240500,
-      "transactions": 348
+      "medianPrice": 240000,
+      "transactions": 349
     },
     {
       "quarter": "2024-Q4",
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 227000,
-      "transactions": 270
+      "transactions": 272
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 213600,
-      "transactions": 304
+      "medianPrice": 215000,
+      "transactions": 323
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 216500,
-      "transactions": 264
+      "transactions": 270
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 216500,
-      "transactions": 180
+      "transactions": 192
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 240000,
-      "transactions": 76
+      "medianPrice": 236000,
+      "transactions": 148
     }
   ]
 }

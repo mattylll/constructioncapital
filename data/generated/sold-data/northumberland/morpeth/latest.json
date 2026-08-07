@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.337Z",
+  "updatedAt": "2026-08-07T08:45:03.550Z",
   "townSlug": "morpeth",
   "countySlug": "northumberland",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORTHUMBERLAND"
+  ],
   "stats": {
-    "medianPrice": 245000,
+    "medianPrice": 250000,
     "medianByType": {
-      "D": 390000,
-      "S": 220000,
-      "T": 169975,
-      "F": 153500
+      "D": 395000,
+      "S": 215000,
+      "T": 168500,
+      "F": 154950
     },
-    "transactionCount12m": 771,
-    "yoyChange": 4.3,
-    "newBuildCount": 17,
-    "existingCount": 754,
-    "newBuildPremium": 135.5
+    "transactionCount12m": 793,
+    "yoyChange": 6.4,
+    "newBuildCount": 20,
+    "existingCount": 773,
+    "newBuildPremium": 128.4
   },
   "recentTransactions": [
     {
-      "price": 240000,
-      "date": "2026-05-22",
-      "postcode": "NE61 6RB",
+      "price": 150000,
+      "date": "2026-06-23",
+      "postcode": "NE61 2NB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, RENWICK WALK"
+    },
+    {
+      "price": 475000,
+      "date": "2026-06-23",
+      "postcode": "NE65 8QR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, THE PADDOCKS, HIGH ONSTEAD"
+      "address": "WHINNEY HILL COTTAGE"
     },
     {
-      "price": 198000,
-      "date": "2026-05-22",
-      "postcode": "NE61 2HB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "122, GREEN LANE"
-    },
-    {
-      "price": 181500,
-      "date": "2026-05-22",
-      "postcode": "NE61 2EP",
+      "price": 277500,
+      "date": "2026-06-23",
+      "postcode": "NE61 2AR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, MERLEY GATE"
-    },
-    {
-      "price": 637000,
-      "date": "2026-05-22",
-      "postcode": "NE61 1JJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "OLYMPIA HOUSE, NORTHLANDS ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-22",
-      "postcode": "NE61 2RF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, PRIORS WALK"
-    },
-    {
-      "price": 130000,
-      "date": "2026-05-20",
-      "postcode": "NE61 6UN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, CHARLES STREET"
-    },
-    {
-      "price": 105000,
-      "date": "2026-05-20",
-      "postcode": "NE65 0NS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, ACKLINGTON STREET"
-    },
-    {
-      "price": 142600,
-      "date": "2026-05-15",
-      "postcode": "NE65 0DY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, CHURCH STREET"
-    },
-    {
-      "price": 415000,
-      "date": "2026-05-15",
-      "postcode": "NE61 2XU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, SYLVAN CLOSE"
+      "address": "11, NURSERY MEWS"
     },
     {
       "price": 290000,
-      "date": "2026-05-15",
-      "postcode": "NE61 2ZN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, CORDWAINERS"
-    },
-    {
-      "price": 113000,
-      "date": "2026-05-15",
-      "postcode": "NE65 9TU",
+      "date": "2026-06-23",
+      "postcode": "NE61 3LP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, CHAPEL ROW"
+      "address": "26, MICKLEWOOD CLOSE"
     },
     {
-      "price": 429000,
-      "date": "2026-05-13",
-      "postcode": "NE61 6PG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, TRANWELL COURT"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-12",
-      "postcode": "NE65 8DS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12, SEA VIEW"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-11",
-      "postcode": "NE61 2TZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, KINGSWELL"
-    },
-    {
-      "price": 573000,
-      "date": "2026-05-08",
-      "postcode": "NE61 5JS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CROFTMERE, THE CRESCENT"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-08",
-      "postcode": "NE61 2GL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, KINGSLEY CLOSE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-05-08",
-      "postcode": "NE61 2FA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, WEAVERS ROAD"
-    },
-    {
-      "price": 440000,
-      "date": "2026-05-08",
-      "postcode": "NE61 2FT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, FULLERS VIEW"
-    },
-    {
-      "price": 225000,
-      "date": "2026-05-08",
-      "postcode": "NE61 3FN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, COMFREY DRIVE"
-    },
-    {
-      "price": 395000,
-      "date": "2026-05-08",
-      "postcode": "NE65 9QE",
+      "price": 219500,
+      "date": "2026-06-19",
+      "postcode": "NE61 3FF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9 THIRSTON COURT, WEST MOOR FARM"
+      "address": "105, FENNEL WAY"
+    },
+    {
+      "price": 101000,
+      "date": "2026-06-19",
+      "postcode": "NE61 1XG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, WILLOW CLOSE"
+    },
+    {
+      "price": 115000,
+      "date": "2026-06-19",
+      "postcode": "NE61 1AQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "25, DAWSON PLACE"
+    },
+    {
+      "price": 425000,
+      "date": "2026-06-19",
+      "postcode": "NE61 6NZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, STONELEIGH"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-19",
+      "postcode": "NE65 7QN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, WHITTON VIEW"
+    },
+    {
+      "price": 306000,
+      "date": "2026-06-19",
+      "postcode": "NE61 2FA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, WEAVERS ROAD"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-16",
+      "postcode": "NE61 2GD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, BOWYER WAY"
+    },
+    {
+      "price": 157000,
+      "date": "2026-06-16",
+      "postcode": "NE61 1HQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "46, SILVAS COURT, DACRE STREET"
+    },
+    {
+      "price": 430000,
+      "date": "2026-06-15",
+      "postcode": "NE65 8JT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CAIRN VIEW"
+    },
+    {
+      "price": 330000,
+      "date": "2026-06-15",
+      "postcode": "NE61 2SS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, HIGH PARK"
+    },
+    {
+      "price": 255000,
+      "date": "2026-06-12",
+      "postcode": "NE61 6BF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, BEAUMONT COURT"
+    },
+    {
+      "price": 165000,
+      "date": "2026-06-12",
+      "postcode": "",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CONGREGATIONAL CHURCH, WELLWOOD STREET"
+    },
+    {
+      "price": 209000,
+      "date": "2026-06-10",
+      "postcode": "NE61 5RR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, GABLES END"
+    },
+    {
+      "price": 155000,
+      "date": "2026-06-10",
+      "postcode": "NE65 9SW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "104, WOODSIDE CRESCENT"
+    },
+    {
+      "price": 575000,
+      "date": "2026-06-09",
+      "postcode": "NE61 2GH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, COPPERFIELD DRIVE"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-09",
+      "postcode": "NE61 1TN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, TENTER TERRACE"
     }
   ],
   "monthlyHistory": [
@@ -292,43 +295,43 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 208517,
-      "transactions": 80
+      "medianPrice": 227500,
+      "transactions": 91
     },
     {
       "month": "2025-08",
-      "medianPrice": 270000,
-      "transactions": 93
+      "medianPrice": 283000,
+      "transactions": 102
     },
     {
       "month": "2025-09",
       "medianPrice": 230000,
-      "transactions": 105
+      "transactions": 111
     },
     {
       "month": "2025-10",
-      "medianPrice": 249950,
-      "transactions": 101
+      "medianPrice": 252475,
+      "transactions": 102
     },
     {
       "month": "2025-11",
-      "medianPrice": 274875,
-      "transactions": 78
+      "medianPrice": 265000,
+      "transactions": 81
     },
     {
       "month": "2025-12",
-      "medianPrice": 279000,
-      "transactions": 76
+      "medianPrice": 285000,
+      "transactions": 84
     },
     {
       "month": "2026-01",
       "medianPrice": 275000,
-      "transactions": 55
+      "transactions": 59
     },
     {
       "month": "2026-02",
       "medianPrice": 240000,
-      "transactions": 57
+      "transactions": 61
     },
     {
       "month": "2026-03",
@@ -337,13 +340,18 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 299500,
-      "transactions": 50
+      "medianPrice": 298000,
+      "transactions": 57
     },
     {
       "month": "2026-05",
-      "medianPrice": 230000,
-      "transactions": 31
+      "medianPrice": 229000,
+      "transactions": 62
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 255000,
+      "transactions": 29
     }
   ],
   "quarterlyHistory": [
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 230000,
-      "transactions": 278
+      "medianPrice": 235000,
+      "transactions": 304
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 267500,
-      "transactions": 255
+      "transactions": 267
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 235000,
-      "transactions": 170
+      "transactions": 178
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 252000,
-      "transactions": 81
+      "medianPrice": 250000,
+      "transactions": 148
     }
   ]
 }

@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.856Z",
+  "updatedAt": "2026-08-07T08:45:01.986Z",
   "townSlug": "torquay",
   "countySlug": "devon",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "TORBAY"
+  ],
   "stats": {
-    "medianPrice": 225000,
+    "medianPrice": 223250,
     "medianByType": {
-      "D": 416732,
-      "S": 273500,
-      "T": 213125,
-      "F": 144000
+      "D": 421000,
+      "S": 280000,
+      "T": 210000,
+      "F": 145000
     },
-    "transactionCount12m": 820,
-    "yoyChange": -2.2,
-    "newBuildCount": 1,
-    "existingCount": 819,
+    "transactionCount12m": 807,
+    "yoyChange": -2.9,
+    "newBuildCount": 2,
+    "existingCount": 805,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 235000,
-      "date": "2026-05-21",
-      "postcode": "TQ2 6TP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "9, BAYTHORPE LODGE, LIVERMEAD HILL"
-    },
-    {
-      "price": 145000,
-      "date": "2026-05-20",
-      "postcode": "TQ1 3JJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "17, STANLEY COURT, STANLEY ROAD"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-15",
-      "postcode": "TQ2 7HH",
+      "price": 285000,
+      "date": "2026-06-23",
+      "postcode": "TQ1 4PH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3A, COLLATON ROAD"
+      "address": "21, BYRON ROAD"
     },
     {
-      "price": 385000,
-      "date": "2026-05-15",
-      "postcode": "TQ2 8NW",
+      "price": 120000,
+      "date": "2026-06-19",
+      "postcode": "TQ2 6AN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, SANFORD ROAD"
+    },
+    {
+      "price": 288000,
+      "date": "2026-06-18",
+      "postcode": "TQ2 7BQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "40, BRUNEL AVENUE"
+      "address": "3, KINTYRE CLOSE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-17",
+      "postcode": "TQ1 4QN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, CAMBRIDGE ROAD"
+    },
+    {
+      "price": 625000,
+      "date": "2026-06-16",
+      "postcode": "TQ1 2QE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "NEWLANDS, WELLSWOOD AVENUE"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-15",
+      "postcode": "TQ1 1PH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, SUNNYHILL, HIGHER WARBERRY ROAD"
+    },
+    {
+      "price": 610000,
+      "date": "2026-06-15",
+      "postcode": "TQ1 2HB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, OXLEA CLOSE"
+    },
+    {
+      "price": 120000,
+      "date": "2026-06-15",
+      "postcode": "TQ1 2QU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 9, ILSHAM HOUSE, ASHELDON ROAD"
     },
     {
       "price": 189000,
-      "date": "2026-05-15",
-      "postcode": "TQ2 8QR",
+      "date": "2026-06-15",
+      "postcode": "TQ1 3BA",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "40, BRAESIDE ROAD"
+      "address": "10, WELLINGTON ROAD"
     },
     {
-      "price": 220000,
-      "date": "2026-05-15",
-      "postcode": "TQ1 4JH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, DOWER ROAD"
-    },
-    {
-      "price": 110000,
-      "date": "2026-05-15",
-      "postcode": "TQ1 1LY",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "GROUND FLOOR FLAT, 72, KENWYN ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-14",
-      "postcode": "TQ1 3JH",
+      "price": 405000,
+      "date": "2026-06-12",
+      "postcode": "TQ1 1SR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "REDCOT, SHIRBURN ROAD"
+      "address": "140, WINDSOR ROAD"
     },
     {
-      "price": 220000,
-      "date": "2026-05-13",
-      "postcode": "TQ2 8EY",
+      "price": 405000,
+      "date": "2026-06-12",
+      "postcode": "TQ2 7DD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, FALLOWAY CLOSE"
+      "address": "55, SHIPHAY LANE"
     },
     {
-      "price": 1175000,
-      "date": "2026-05-13",
-      "postcode": "TQ1 1QB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ROWELL, HUNSDON ROAD"
-    },
-    {
-      "price": 95000,
-      "date": "2026-05-12",
-      "postcode": "TQ2 6GU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, WESTERLANDS, COCKINGTON LANE"
-    },
-    {
-      "price": 745000,
-      "date": "2026-05-11",
-      "postcode": "TQ1 1HF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62, BRADDONS HILL ROAD EAST"
-    },
-    {
-      "price": 164000,
-      "date": "2026-05-08",
-      "postcode": "TQ2 5TN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, ASTOR HOUSE, WARREN ROAD"
-    },
-    {
-      "price": 291717,
-      "date": "2026-05-08",
-      "postcode": "TQ2 6FA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 6, THE CORBYN APARTMENTS, TORBAY ROAD"
-    },
-    {
-      "price": 300566,
-      "date": "2026-05-08",
-      "postcode": "TQ2 6FA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 11, THE CORBYN APARTMENTS, TORBAY ROAD"
-    },
-    {
-      "price": 190053,
-      "date": "2026-05-08",
-      "postcode": "TQ2 6FA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 3, THE CORBYN APARTMENTS, TORBAY ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-08",
-      "postcode": "TQ1 2EH",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 16, MEADWOOD, ST MARKS ROAD"
-    },
-    {
-      "price": 354143,
-      "date": "2026-05-08",
-      "postcode": "TQ2 6FA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "18, THE CORBYN, TORBAY ROAD"
-    },
-    {
-      "price": 142500,
-      "date": "2026-05-08",
-      "postcode": "TQ2 6PL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "15, COURTLANDS, RAWLYN ROAD"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-08",
-      "postcode": "TQ2 7RJ",
+      "price": 185000,
+      "date": "2026-06-12",
+      "postcode": "TQ2 5SR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "62, FOWEY AVENUE"
+      "address": "37, ROCK ROAD"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-12",
+      "postcode": "TQ2 7NE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, TORRIDGE AVENUE"
+    },
+    {
+      "price": 142000,
+      "date": "2026-06-12",
+      "postcode": "TQ1 4JR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, ORCHARD PLACE"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-12",
+      "postcode": "TQ1 4TN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, STOKE ROAD"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-11",
+      "postcode": "TQ2 6JH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, FROBISHER GREEN"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-10",
+      "postcode": "TQ2 7FL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, DARWIN CRESCENT"
+    },
+    {
+      "price": 222900,
+      "date": "2026-06-05",
+      "postcode": "TQ1 3JN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, STUDLEY ROAD"
+    },
+    {
+      "price": 74000,
+      "date": "2026-06-05",
+      "postcode": "TQ1 4AZ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "8C, ST JAMES ROAD"
+    },
+    {
+      "price": 335000,
+      "date": "2026-06-04",
+      "postcode": "TQ2 6JN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, DRAKE AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -217,8 +220,8 @@
     },
     {
       "month": "2024-04",
-      "medianPrice": 222000,
-      "transactions": 67
+      "medianPrice": 220000,
+      "transactions": 65
     },
     {
       "month": "2024-05",
@@ -293,57 +296,62 @@
     {
       "month": "2025-07",
       "medianPrice": 260000,
-      "transactions": 100
+      "transactions": 101
     },
     {
       "month": "2025-08",
-      "medianPrice": 220000,
-      "transactions": 109
+      "medianPrice": 215000,
+      "transactions": 115
     },
     {
       "month": "2025-09",
-      "medianPrice": 222500,
-      "transactions": 88
+      "medianPrice": 220000,
+      "transactions": 91
     },
     {
       "month": "2025-10",
       "medianPrice": 215000,
-      "transactions": 111
+      "transactions": 114
     },
     {
       "month": "2025-11",
-      "medianPrice": 212500,
-      "transactions": 78
+      "medianPrice": 210000,
+      "transactions": 82
     },
     {
       "month": "2025-12",
-      "medianPrice": 231000,
-      "transactions": 76
+      "medianPrice": 237000,
+      "transactions": 85
     },
     {
       "month": "2026-01",
-      "medianPrice": 225000,
-      "transactions": 67
+      "medianPrice": 230000,
+      "transactions": 70
     },
     {
       "month": "2026-02",
-      "medianPrice": 220000,
-      "transactions": 57
+      "medianPrice": 222500,
+      "transactions": 59
     },
     {
       "month": "2026-03",
-      "medianPrice": 194000,
-      "transactions": 49
+      "medianPrice": 219000,
+      "transactions": 52
     },
     {
       "month": "2026-04",
-      "medianPrice": 232500,
-      "transactions": 60
+      "medianPrice": 237500,
+      "transactions": 69
     },
     {
       "month": "2026-05",
-      "medianPrice": 230000,
-      "transactions": 38
+      "medianPrice": 220000,
+      "transactions": 69
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 275000,
+      "transactions": 25
     }
   ],
   "quarterlyHistory": [
@@ -354,8 +362,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 225000,
-      "transactions": 276
+      "medianPrice": 224500,
+      "transactions": 274
     },
     {
       "quarter": "2024-Q3",
@@ -380,22 +388,22 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 225000,
-      "transactions": 297
+      "transactions": 307
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 223250,
-      "transactions": 265
+      "medianPrice": 220000,
+      "transactions": 281
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 220000,
-      "transactions": 173
+      "medianPrice": 222500,
+      "transactions": 181
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 230000,
-      "transactions": 98
+      "transactions": 163
     }
   ]
 }

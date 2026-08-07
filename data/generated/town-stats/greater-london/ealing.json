@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.122Z",
+  "updatedAt": "2026-08-07T08:45:00.597Z",
   "townSlug": "ealing",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EALING"
+  ],
   "marketSnapshot": {
-    "medianPrice": 510000,
-    "transactionCount12m": 2196,
-    "yoyPriceChange": -1,
-    "approvedApps12m": 84,
-    "pipelineUnits": 206,
-    "pipelineGdv": 107809510,
-    "approvalRate": 82
+    "medianPrice": 505000,
+    "transactionCount12m": 2157,
+    "yoyPriceChange": -1.2,
+    "approvedApps12m": 79,
+    "approvedRecent": 79,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 251,
+    "pipelineGdv": 114674000,
+    "approvalRate": 81
   }
 }

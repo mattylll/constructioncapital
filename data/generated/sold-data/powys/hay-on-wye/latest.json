@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.811Z",
+  "updatedAt": "2026-08-07T08:45:04.113Z",
   "townSlug": "hay-on-wye",
   "countySlug": "powys",
   "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "POWYS"
+  ],
   "stats": {
     "medianPrice": 250000,
     "medianByType": {
-      "D": 340000,
-      "S": 215000,
-      "T": 172000,
-      "F": 95500
+      "D": 336250,
+      "S": 220000,
+      "T": 170000,
+      "F": 100000
     },
-    "transactionCount12m": 1174,
+    "transactionCount12m": 1160,
     "yoyChange": 0,
-    "newBuildCount": 14,
-    "existingCount": 1160,
-    "newBuildPremium": 13
+    "newBuildCount": 18,
+    "existingCount": 1142,
+    "newBuildPremium": 16
   },
   "recentTransactions": [
     {
-      "price": 187500,
-      "date": "2026-05-28",
-      "postcode": "LD3 9BL",
-      "propertyType": "S",
+      "price": 200000,
+      "date": "2026-06-26",
+      "postcode": "LD3 9EA",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, AVENUE PLACE"
+      "address": "15, PENDRE"
     },
     {
-      "price": 253000,
-      "date": "2026-05-18",
-      "postcode": "LD3 9BS",
-      "propertyType": "S",
+      "price": 340000,
+      "date": "2026-06-26",
+      "postcode": "SY18 6DL",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "81, PONTWILYM"
+      "address": "GLYNRHEDYN, CWMDU"
     },
     {
       "price": 200000,
-      "date": "2026-05-18",
-      "postcode": "LD3 8DN",
+      "date": "2026-06-22",
+      "postcode": "SY17 5HF",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, NEWGATE STREET"
+      "address": "1, MAES Y DINAS"
     },
     {
-      "price": 150000,
-      "date": "2026-05-18",
-      "postcode": "SY21 0NR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRYN PISTYLL"
-    },
-    {
-      "price": 299000,
-      "date": "2026-05-15",
-      "postcode": "LD3 7EN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, TREGUNTER PLACE"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-14",
-      "postcode": "LD1 5NX",
+      "price": 200000,
+      "date": "2026-06-19",
+      "postcode": "SY16 4PR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, MAPLE RIDGE CLOSE"
-    },
-    {
-      "price": 472000,
-      "date": "2026-05-13",
-      "postcode": "LD3 7SX",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UNIT 5, PENDRE COURTYARD"
-    },
-    {
-      "price": 695000,
-      "date": "2026-05-13",
-      "postcode": "HR3 5RS",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MAES Y CAER, 3 BOATSIDE BARNS"
-    },
-    {
-      "price": 199000,
-      "date": "2026-05-12",
-      "postcode": "LD1 6DG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HILLCOM, HILLCREST DRIVE"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-11",
-      "postcode": "SY16 2NP",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, HIGH STREET"
-    },
-    {
-      "price": 252000,
-      "date": "2026-05-11",
-      "postcode": "LD3 9ET",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, BEECH GROVE"
-    },
-    {
-      "price": 380000,
-      "date": "2026-05-11",
-      "postcode": "LD3 9EN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, PENDRE CLOSE"
-    },
-    {
-      "price": 345000,
-      "date": "2026-05-11",
-      "postcode": "LD3 9EY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54, BEECH GROVE"
-    },
-    {
-      "price": 108000,
-      "date": "2026-05-11",
-      "postcode": "SY22 5AD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, RHIWLAS TERRACE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-05-11",
-      "postcode": "SY18 6HR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GELLIDEG, VAN ROAD"
-    },
-    {
-      "price": 189500,
-      "date": "2026-05-08",
-      "postcode": "SY18 6DR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "69, CAEGWYN"
-    },
-    {
-      "price": 112500,
-      "date": "2026-05-08",
-      "postcode": "SA9 1LA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "62 - 64, COMMERCIAL STREET"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-08",
-      "postcode": "HR3 5DU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, THE CAEPOUND"
+      "address": "PENARRON VIEW, 39, CHESTNUT VIEW"
     },
     {
       "price": 170000,
-      "date": "2026-05-07",
-      "postcode": "SY17 5PW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, PLAS TRANNON"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-06",
-      "postcode": "SY17 5EQ",
+      "date": "2026-06-19",
+      "postcode": "LD6 5PP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "CAMBRIAN VILLA, STATION ROAD"
+      "address": "10, MAES COTTAGE ESTATE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-06-19",
+      "postcode": "LD3 9LD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, DAN Y CRUG"
+    },
+    {
+      "price": 265000,
+      "date": "2026-06-19",
+      "postcode": "SY21 9LZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MINEAH DRIVE"
+    },
+    {
+      "price": 85000,
+      "date": "2026-06-19",
+      "postcode": "LD1 6AU",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 9, SOUTH COURT, PARK TERRACE"
+    },
+    {
+      "price": 330000,
+      "date": "2026-06-19",
+      "postcode": "SY18 6AJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "JUNIPER BANK, PENYGREEN ROAD"
+    },
+    {
+      "price": 373000,
+      "date": "2026-06-19",
+      "postcode": "LD1 6AR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHAPTER HOUSE, ROCK PARK CLOSE"
+    },
+    {
+      "price": 470000,
+      "date": "2026-06-17",
+      "postcode": "LD3 9RL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, PARK VIEW"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-16",
+      "postcode": "LD1 5HB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, BRYNTEG"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-15",
+      "postcode": "SY22 6RN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SHERWOOD"
+    },
+    {
+      "price": 470000,
+      "date": "2026-06-12",
+      "postcode": "SY22 6QL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DAY COTTAGE"
+    },
+    {
+      "price": 152000,
+      "date": "2026-06-12",
+      "postcode": "SY16 1BP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, MEREDITH COURT, OLD KERRY ROAD"
+    },
+    {
+      "price": 250577,
+      "date": "2026-06-12",
+      "postcode": "SY16 4LJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, SPRINGFIELDS"
+    },
+    {
+      "price": 417000,
+      "date": "2026-06-12",
+      "postcode": "LD7 1DW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "RINGWOOD, BROOKSIDE"
+    },
+    {
+      "price": 430000,
+      "date": "2026-06-12",
+      "postcode": "SY22 6TU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, BRYDGES GATE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-12",
+      "postcode": "SY22 6HF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PLOT, 21, CAE DAFYDD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-12",
+      "postcode": "SY22 6BF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CAE VYRNWY"
     }
   ],
   "monthlyHistory": [
@@ -268,7 +271,7 @@
     {
       "month": "2025-02",
       "medianPrice": 250000,
-      "transactions": 157
+      "transactions": 158
     },
     {
       "month": "2025-03",
@@ -278,12 +281,12 @@
     {
       "month": "2025-04",
       "medianPrice": 270000,
-      "transactions": 159
+      "transactions": 158
     },
     {
       "month": "2025-05",
       "medianPrice": 230000,
-      "transactions": 173
+      "transactions": 175
     },
     {
       "month": "2025-06",
@@ -292,58 +295,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 272500,
-      "transactions": 163
+      "medianPrice": 271250,
+      "transactions": 170
     },
     {
       "month": "2025-08",
-      "medianPrice": 259250,
-      "transactions": 160
+      "medianPrice": 260000,
+      "transactions": 169
     },
     {
       "month": "2025-09",
-      "medianPrice": 245250,
-      "transactions": 140
+      "medianPrice": 249950,
+      "transactions": 151
     },
     {
       "month": "2025-10",
-      "medianPrice": 240000,
-      "transactions": 145
+      "medianPrice": 247500,
+      "transactions": 150
     },
     {
       "month": "2025-11",
-      "medianPrice": 249950,
-      "transactions": 129
+      "medianPrice": 249975,
+      "transactions": 134
     },
     {
       "month": "2025-12",
-      "medianPrice": 250000,
-      "transactions": 109
+      "medianPrice": 253500,
+      "transactions": 128
     },
     {
       "month": "2026-01",
       "medianPrice": 260000,
-      "transactions": 77
+      "transactions": 87
     },
     {
       "month": "2026-02",
-      "medianPrice": 239500,
-      "transactions": 76
+      "medianPrice": 230000,
+      "transactions": 79
     },
     {
       "month": "2026-03",
       "medianPrice": 254500,
-      "transactions": 100
+      "transactions": 104
     },
     {
       "month": "2026-04",
       "medianPrice": 245000,
-      "transactions": 71
+      "transactions": 75
     },
     {
       "month": "2026-05",
-      "medianPrice": 246250,
-      "transactions": 30
+      "medianPrice": 242500,
+      "transactions": 75
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 240000,
+      "transactions": 38
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 260000,
-      "transactions": 464
+      "transactions": 465
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 235000,
-      "transactions": 477
+      "medianPrice": 237500,
+      "transactions": 478
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 260000,
-      "transactions": 463
+      "transactions": 490
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 248000,
-      "transactions": 383
+      "medianPrice": 250000,
+      "transactions": 412
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 250000,
-      "transactions": 253
+      "transactions": 270
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 245000,
-      "transactions": 101
+      "medianPrice": 242885,
+      "transactions": 188
     }
   ]
 }

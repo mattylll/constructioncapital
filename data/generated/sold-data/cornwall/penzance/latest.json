@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.903Z",
+  "updatedAt": "2026-08-07T08:45:02.041Z",
   "townSlug": "penzance",
   "countySlug": "cornwall",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CORNWALL"
+  ],
   "stats": {
-    "medianPrice": 290000,
+    "medianPrice": 285000,
     "medianByType": {
-      "D": 449500,
-      "S": 312500,
-      "T": 242000,
-      "F": 165000
+      "D": 449000,
+      "S": 320000,
+      "T": 241000,
+      "F": 185000
     },
-    "transactionCount12m": 408,
-    "yoyChange": 3.6,
-    "newBuildCount": 0,
-    "existingCount": 408,
+    "transactionCount12m": 419,
+    "yoyChange": 0,
+    "newBuildCount": 1,
+    "existingCount": 418,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 355000,
-      "date": "2026-05-20",
-      "postcode": "TR18 3LG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "24, PENROSE COURT, CHYANDOUR CLIFF"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-18",
-      "postcode": "TR19 7TR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, HIGHER BOJEWYAN"
-    },
-    {
-      "price": 327500,
-      "date": "2026-05-13",
-      "postcode": "TR19 6US",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, ST. POL DE LEON VIEW, TRUNGLE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-13",
-      "postcode": "TR20 8AL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 4, THE OLD SAIL LOFT, CHAPEL SQUARE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-12",
-      "postcode": "TR19 7UL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, CARRALLACK MEWS"
-    },
-    {
-      "price": 183000,
-      "date": "2026-05-12",
-      "postcode": "TR18 5JG",
+      "price": 287500,
+      "date": "2026-06-22",
+      "postcode": "TR18 2DH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, NORTH CORNER"
+      "address": "5, ST MARYS STREET"
     },
     {
-      "price": 253000,
-      "date": "2026-05-08",
-      "postcode": "TR20 9AA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TY-MORDROS, HELSTON ROAD"
-    },
-    {
-      "price": 705000,
-      "date": "2026-05-08",
-      "postcode": "TR18 3LU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PENDREA COTTAGE, TRYTHOGGA"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-08",
-      "postcode": "TR19 6RU",
+      "price": 318000,
+      "date": "2026-06-19",
+      "postcode": "TR18 4HS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "TOPAZ, WESLEY SQUARE"
+      "address": "32, BAY VIEW TERRACE"
     },
     {
-      "price": 610000,
-      "date": "2026-05-07",
-      "postcode": "TR19 6XN",
+      "price": 335000,
+      "date": "2026-06-19",
+      "postcode": "TR19 7JD",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "AUBAWN"
+      "address": "1, BOSORNE CLOSE"
     },
     {
-      "price": 255000,
-      "date": "2026-05-01",
-      "postcode": "TR19 6TJ",
+      "price": 215000,
+      "date": "2026-06-18",
+      "postcode": "TR19 7LL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, FORE STREET"
+    },
+    {
+      "price": 70000,
+      "date": "2026-06-16",
+      "postcode": "TR20 9EG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, WELLINGTON PLACE"
+      "address": "1, SOUTH COTTAGES, RELUBBUS LANE"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-12",
+      "postcode": "TR18 2BL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, BELGRAVIA STREET"
+    },
+    {
+      "price": 191000,
+      "date": "2026-06-12",
+      "postcode": "TR18 2EA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ROSE TERRACE"
+    },
+    {
+      "price": 292500,
+      "date": "2026-06-12",
+      "postcode": "TR18 2PE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, ST CLARE STREET"
+    },
+    {
+      "price": 57000,
+      "date": "2026-06-11",
+      "postcode": "TR20 8YN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "13, OLD COURT, KENEGIE MANOR"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-10",
+      "postcode": "TR18 3BW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, CHYANDAUNCE TERRACE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-06-10",
+      "postcode": "TR18 2EY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CROSS STREET"
+    },
+    {
+      "price": 695000,
+      "date": "2026-06-05",
+      "postcode": "TR19 6EW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, PARC AN PEATH"
     },
     {
       "price": 290000,
-      "date": "2026-05-01",
-      "postcode": "TR20 9JR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "EAST COTTAGE, PRIMROSE HILL"
-    },
-    {
-      "price": 330000,
-      "date": "2026-04-30",
-      "postcode": "TR19 7QL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TYLLER TEG, 2, TRUTHWALL VILLAS"
-    },
-    {
-      "price": 153500,
-      "date": "2026-04-30",
-      "postcode": "TR18 4NX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, 4, ALEXANDRA TERRACE"
-    },
-    {
-      "price": 550000,
-      "date": "2026-04-29",
-      "postcode": "TR20 9RN",
+      "date": "2026-06-04",
+      "postcode": "TR19 7LJ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "WEST END COTTAGE, TRESCOWE"
+      "address": "22, FORE STREET"
     },
     {
-      "price": 450000,
-      "date": "2026-04-28",
-      "postcode": "TR19 6QJ",
+      "price": 280000,
+      "date": "2026-06-02",
+      "postcode": "TR18 2SX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, SOUTHVIEW TERRACE"
+      "address": "8, HIGH STREET"
     },
     {
-      "price": 412500,
-      "date": "2026-04-27",
-      "postcode": "TR20 8AZ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MEADOW VIEW BARN, BOREA"
-    },
-    {
-      "price": 95000,
-      "date": "2026-04-27",
-      "postcode": "TR18 4AF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51A, CHAPEL STREET"
-    },
-    {
-      "price": 375000,
-      "date": "2026-04-24",
-      "postcode": "TR18 4RJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, LANSDOWNE CLOSE"
-    },
-    {
-      "price": 246500,
-      "date": "2026-04-24",
-      "postcode": "TR18 2EU",
+      "price": 400000,
+      "date": "2026-06-02",
+      "postcode": "TR18 2PH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, MOUNT STREET"
+      "address": "8, TRENEERE ROAD"
+    },
+    {
+      "price": 700000,
+      "date": "2026-06-01",
+      "postcode": "TR20 9SU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BLUE YONDER, TREWELLOE ROAD"
+    },
+    {
+      "price": 400000,
+      "date": "2026-05-29",
+      "postcode": "TR18 5NU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHYNOWETH, CHYWOONE GROVE"
+    },
+    {
+      "price": 266000,
+      "date": "2026-05-29",
+      "postcode": "TR18 2ED",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, HIGHER PEVERELL ROAD"
+    },
+    {
+      "price": 760000,
+      "date": "2026-05-28",
+      "postcode": "TR18 5EQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MYRTLE COTTAGE, ST PETERS HILL"
+    },
+    {
+      "price": 220000,
+      "date": "2026-05-27",
+      "postcode": "TR18 2PU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, BULLOCK MARKET TERRACE"
     }
   ],
   "monthlyHistory": [
@@ -212,8 +215,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 290000,
-      "transactions": 62
+      "medianPrice": 280000,
+      "transactions": 61
     },
     {
       "month": "2024-04",
@@ -252,18 +255,18 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 308000,
+      "medianPrice": 311000,
       "transactions": 64
     },
     {
       "month": "2024-12",
-      "medianPrice": 275000,
-      "transactions": 51
+      "medianPrice": 287460,
+      "transactions": 62
     },
     {
       "month": "2025-01",
-      "medianPrice": 272500,
-      "transactions": 50
+      "medianPrice": 286000,
+      "transactions": 52
     },
     {
       "month": "2025-02",
@@ -272,23 +275,23 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 280000,
-      "transactions": 91
+      "medianPrice": 281250,
+      "transactions": 92
     },
     {
       "month": "2025-04",
-      "medianPrice": 196000,
-      "transactions": 26
+      "medianPrice": 200000,
+      "transactions": 27
     },
     {
       "month": "2025-05",
-      "medianPrice": 265500,
-      "transactions": 41
+      "medianPrice": 265750,
+      "transactions": 42
     },
     {
       "month": "2025-06",
-      "medianPrice": 245000,
-      "transactions": 31
+      "medianPrice": 250000,
+      "transactions": 37
     },
     {
       "month": "2025-07",
@@ -297,13 +300,13 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 325000,
-      "transactions": 57
+      "medianPrice": 305000,
+      "transactions": 66
     },
     {
       "month": "2025-09",
-      "medianPrice": 277500,
-      "transactions": 48
+      "medianPrice": 287500,
+      "transactions": 54
     },
     {
       "month": "2025-10",
@@ -312,18 +315,18 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 270000,
-      "transactions": 40
+      "medianPrice": 275000,
+      "transactions": 45
     },
     {
       "month": "2025-12",
-      "medianPrice": 275000,
-      "transactions": 44
+      "medianPrice": 269500,
+      "transactions": 50
     },
     {
       "month": "2026-01",
       "medianPrice": 270000,
-      "transactions": 29
+      "transactions": 31
     },
     {
       "month": "2026-02",
@@ -333,24 +336,29 @@
     {
       "month": "2026-03",
       "medianPrice": 345000,
-      "transactions": 31
+      "transactions": 39
     },
     {
       "month": "2026-04",
-      "medianPrice": 340000,
-      "transactions": 24
+      "medianPrice": 337500,
+      "transactions": 26
     },
     {
       "month": "2026-05",
-      "medianPrice": 272500,
-      "transactions": 12
+      "medianPrice": 255000,
+      "transactions": 23
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 288750,
+      "transactions": 16
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 285500,
-      "transactions": 162
+      "medianPrice": 285000,
+      "transactions": 161
     },
     {
       "quarter": "2024-Q2",
@@ -364,38 +372,38 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 291250,
-      "transactions": 182
+      "medianPrice": 292500,
+      "transactions": 193
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 290000,
-      "transactions": 189
+      "medianPrice": 292500,
+      "transactions": 192
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 242500,
-      "transactions": 98
+      "medianPrice": 250000,
+      "transactions": 106
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 295000,
-      "transactions": 158
+      "medianPrice": 300000,
+      "transactions": 173
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 275000,
-      "transactions": 139
+      "transactions": 150
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 291000,
-      "transactions": 83
+      "medianPrice": 300000,
+      "transactions": 93
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 295000,
-      "transactions": 36
+      "medianPrice": 287500,
+      "transactions": 65
     }
   ]
 }

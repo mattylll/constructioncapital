@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:54.571Z",
+  "updatedAt": "2026-08-07T08:45:00.639Z",
   "townSlug": "tottenham",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": true,
+  "hmlrDistricts": [
+    "HARINGEY"
+  ],
   "stats": {
     "medianPrice": 550000,
     "medianByType": {
       "D": 2050000,
       "S": 1170000,
-      "T": 710000,
-      "F": 445000
+      "T": 705000,
+      "F": 448700
     },
-    "transactionCount12m": 1760,
-    "yoyChange": 0,
-    "newBuildCount": 40,
-    "existingCount": 1720,
-    "newBuildPremium": -44.9
+    "transactionCount12m": 1719,
+    "yoyChange": 0.9,
+    "newBuildCount": 12,
+    "existingCount": 1707,
+    "newBuildPremium": -4
   },
   "recentTransactions": [
     {
-      "price": 300000,
-      "date": "2026-05-26",
-      "postcode": "N15 3BA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "36, CONWAY ROAD"
-    },
-    {
-      "price": 10000,
-      "date": "2026-05-22",
-      "postcode": "N4 4QR",
-      "propertyType": "O",
+      "price": 515000,
+      "date": "2026-06-26",
+      "postcode": "N17 7ND",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "224, STAPLETON HALL ROAD"
+      "address": "3, DEVONSHIRE ROAD"
     },
     {
-      "price": 646500,
-      "date": "2026-05-22",
-      "postcode": "N15 3BD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, CONWAY ROAD"
-    },
-    {
-      "price": 540000,
-      "date": "2026-05-22",
-      "postcode": "N13 6AL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "91, NORFOLK AVENUE"
-    },
-    {
-      "price": 575000,
-      "date": "2026-05-21",
-      "postcode": "N13 6AJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "82, NORFOLK AVENUE"
-    },
-    {
-      "price": 600000,
-      "date": "2026-05-21",
-      "postcode": "N22 6QG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "148, HEWITT AVENUE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-19",
-      "postcode": "N8 7EX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, 32, PRIORY ROAD"
-    },
-    {
-      "price": 440000,
-      "date": "2026-05-18",
-      "postcode": "N15 5JN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "91, IDA ROAD"
-    },
-    {
-      "price": 652500,
-      "date": "2026-05-15",
-      "postcode": "N4 4BU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5A, FLORENCE ROAD"
-    },
-    {
-      "price": 670000,
-      "date": "2026-05-14",
-      "postcode": "N22 6JL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "203, LYMINGTON AVENUE"
-    },
-    {
-      "price": 530000,
-      "date": "2026-05-14",
-      "postcode": "N8 9QP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, 17, HASLEMERE ROAD"
-    },
-    {
-      "price": 1000000,
-      "date": "2026-05-12",
-      "postcode": "N10 3JR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT C, 64, MUSWELL HILL ROAD"
-    },
-    {
-      "price": 412000,
-      "date": "2026-05-11",
-      "postcode": "N8 7DN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 84, HILLFIELD AVENUE"
-    },
-    {
-      "price": 320000,
-      "date": "2026-05-11",
+      "price": 285000,
+      "date": "2026-06-23",
       "postcode": "N11 2NF",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 54, GEAN COURT, CLINE ROAD"
+      "address": "FLAT 5, GEAN COURT, CLINE ROAD"
     },
     {
-      "price": 1770000,
-      "date": "2026-05-11",
-      "postcode": "N6 5TQ",
+      "price": 690000,
+      "date": "2026-06-23",
+      "postcode": "N6 5RN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 5, 62, SHEPHERDS HILL"
+    },
+    {
+      "price": 802000,
+      "date": "2026-06-22",
+      "postcode": "N8 8RR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7C, WOLSELEY ROAD"
+    },
+    {
+      "price": 288000,
+      "date": "2026-06-22",
+      "postcode": "N8 7NN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 7, BANK CHAMBERS, 120, HIGH STREET"
+    },
+    {
+      "price": 13500,
+      "date": "2026-06-16",
+      "postcode": "N17 6HD",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "307, MOUNT PLEASANT ROAD"
+    },
+    {
+      "price": 580000,
+      "date": "2026-06-15",
+      "postcode": "N22 6NP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "32, HOLMESDALE ROAD"
+      "address": "114, MORLEY AVENUE"
     },
     {
-      "price": 385000,
-      "date": "2026-05-08",
-      "postcode": "N8 8JT",
+      "price": 742500,
+      "date": "2026-06-12",
+      "postcode": "N22 6QD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, HEWITT AVENUE"
+    },
+    {
+      "price": 923000,
+      "date": "2026-06-12",
+      "postcode": "N15 3AD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, CRANLEIGH ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-12",
+      "postcode": "N4 4NL",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "150B, PARK ROAD"
+      "address": "4A, OAKFIELD ROAD"
     },
     {
-      "price": 490000,
-      "date": "2026-05-08",
-      "postcode": "N8 9RR",
+      "price": 615000,
+      "date": "2026-06-12",
+      "postcode": "N4 4ED",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "149B, NELSON ROAD"
+      "address": "60C, FERME PARK ROAD"
     },
     {
-      "price": 925000,
-      "date": "2026-05-08",
-      "postcode": "N8 7JN",
+      "price": 500000,
+      "date": "2026-06-12",
+      "postcode": "N17 7AN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "86, HENNINGHAM ROAD"
+    },
+    {
+      "price": 501500,
+      "date": "2026-06-11",
+      "postcode": "N6 5TN",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT E, LIGHTFOOT STUDIOS, LIGHTFOOT ROAD"
+      "address": "12, NORTHWOOD ROAD"
     },
     {
-      "price": 550000,
-      "date": "2026-05-08",
-      "postcode": "N10 1BT",
+      "price": 1025000,
+      "date": "2026-06-11",
+      "postcode": "N22 6QX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "238, SIRDAR ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-11",
+      "postcode": "N17 9GD",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "504, MUSWELL HILL BROADWAY"
+      "address": "FLAT 42, MERLIN HEIGHTS, WATERSIDE WAY"
     },
     {
-      "price": 365000,
-      "date": "2026-05-08",
-      "postcode": "N17 9GL",
+      "price": 535000,
+      "date": "2026-06-11",
+      "postcode": "N15 4SW",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 60, KINGFISHER HEIGHTS, WATERSIDE WAY"
+      "address": "GROUND FLOOR FLAT, 7, GROVE PARK ROAD"
+    },
+    {
+      "price": 715000,
+      "date": "2026-06-11",
+      "postcode": "N22 6JG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "78, LYMINGTON AVENUE"
+    },
+    {
+      "price": 44000,
+      "date": "2026-06-10",
+      "postcode": "N4 3SW",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "86, VICTORIA ROAD"
+    },
+    {
+      "price": 16500,
+      "date": "2026-06-10",
+      "postcode": "N8 9HG",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, FAIRFIELD ROAD"
+    },
+    {
+      "price": 22500,
+      "date": "2026-06-08",
+      "postcode": "N10 3HS",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "119, MUSWELL HILL ROAD"
     }
   ],
   "monthlyHistory": [
@@ -237,8 +240,8 @@
     },
     {
       "month": "2024-08",
-      "medianPrice": 559000,
-      "transactions": 278
+      "medianPrice": 558000,
+      "transactions": 279
     },
     {
       "month": "2024-09",
@@ -248,12 +251,12 @@
     {
       "month": "2024-10",
       "medianPrice": 550000,
-      "transactions": 281
+      "transactions": 283
     },
     {
       "month": "2024-11",
-      "medianPrice": 550000,
-      "transactions": 251
+      "medianPrice": 551000,
+      "transactions": 252
     },
     {
       "month": "2024-12",
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 538750,
-      "transactions": 572
+      "medianPrice": 537500,
+      "transactions": 575
     },
     {
       "month": "2025-04",
@@ -283,67 +286,72 @@
     {
       "month": "2025-05",
       "medianPrice": 535000,
-      "transactions": 153
+      "transactions": 154
     },
     {
       "month": "2025-06",
       "medianPrice": 550000,
-      "transactions": 192
+      "transactions": 195
     },
     {
       "month": "2025-07",
-      "medianPrice": 552250,
-      "transactions": 276
+      "medianPrice": 550000,
+      "transactions": 289
     },
     {
       "month": "2025-08",
-      "medianPrice": 606250,
-      "transactions": 234
+      "medianPrice": 585000,
+      "transactions": 248
     },
     {
       "month": "2025-09",
-      "medianPrice": 590688,
-      "transactions": 232
+      "medianPrice": 575000,
+      "transactions": 253
     },
     {
       "month": "2025-10",
-      "medianPrice": 589500,
-      "transactions": 218
+      "medianPrice": 587000,
+      "transactions": 223
     },
     {
       "month": "2025-11",
-      "medianPrice": 516500,
-      "transactions": 170
+      "medianPrice": 530000,
+      "transactions": 179
     },
     {
       "month": "2025-12",
       "medianPrice": 537500,
-      "transactions": 169
+      "transactions": 203
     },
     {
       "month": "2026-01",
-      "medianPrice": 600000,
-      "transactions": 137
+      "medianPrice": 610500,
+      "transactions": 160
     },
     {
       "month": "2026-02",
-      "medianPrice": 512500,
-      "transactions": 108
+      "medianPrice": 515000,
+      "transactions": 117
     },
     {
       "month": "2026-03",
-      "medianPrice": 550000,
-      "transactions": 133
+      "medianPrice": 545000,
+      "transactions": 143
     },
     {
       "month": "2026-04",
-      "medianPrice": 485000,
-      "transactions": 86
+      "medianPrice": 487000,
+      "transactions": 100
     },
     {
       "month": "2026-05",
-      "medianPrice": 539000,
-      "transactions": 43
+      "medianPrice": 577500,
+      "transactions": 102
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 500000,
+      "transactions": 37
     }
   ],
   "quarterlyHistory": [
@@ -360,42 +368,42 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 575000,
-      "transactions": 782
+      "transactions": 783
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 540000,
-      "transactions": 777
+      "medianPrice": 537500,
+      "transactions": 780
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 550000,
-      "transactions": 1076
+      "transactions": 1079
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 525000,
-      "transactions": 492
+      "transactions": 496
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 578915,
-      "transactions": 742
+      "medianPrice": 569750,
+      "transactions": 790
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 545000,
-      "transactions": 557
+      "medianPrice": 546500,
+      "transactions": 605
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 550000,
-      "transactions": 378
+      "medianPrice": 555000,
+      "transactions": 420
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 495000,
-      "transactions": 129
+      "medianPrice": 520000,
+      "transactions": 239
     }
   ]
 }

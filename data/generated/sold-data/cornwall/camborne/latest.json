@@ -1,23 +1,179 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.912Z",
+  "updatedAt": "2026-08-07T08:45:02.051Z",
   "townSlug": "camborne",
   "countySlug": "cornwall",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CORNWALL"
+  ],
   "stats": {
     "medianPrice": 223500,
     "medianByType": {
-      "D": 320000,
+      "D": 335000,
       "S": 247000,
-      "T": 193000,
-      "F": 120000
+      "T": 190000,
+      "F": 120250
     },
-    "transactionCount12m": 284,
+    "transactionCount12m": 290,
     "yoyChange": 1.6,
-    "newBuildCount": 2,
-    "existingCount": 282,
+    "newBuildCount": 1,
+    "existingCount": 289,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 475000,
+      "date": "2026-06-25",
+      "postcode": "TR14 0HU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TREVETH"
+    },
+    {
+      "price": 203000,
+      "date": "2026-06-23",
+      "postcode": "TR14 8BZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CAMERON COURT, WEST CHARLES STREET"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-22",
+      "postcode": "TR14 9HR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, BOLENOWE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-19",
+      "postcode": "TR14 7AH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CRANE MANOR COURT, CRANE ROAD"
+    },
+    {
+      "price": 222500,
+      "date": "2026-06-16",
+      "postcode": "TR14 9EG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, PENDARVES STREET"
+    },
+    {
+      "price": 260000,
+      "date": "2026-06-15",
+      "postcode": "TR14 7RW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, PARC AN BANS"
+    },
+    {
+      "price": 133600,
+      "date": "2026-06-12",
+      "postcode": "TR14 9EJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, TRESLOTHAN ROAD"
+    },
+    {
+      "price": 170000,
+      "date": "2026-06-10",
+      "postcode": "TR14 8HG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, UNION STREET"
+    },
+    {
+      "price": 120000,
+      "date": "2026-06-08",
+      "postcode": "TR14 8HR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CENTENARY STREET"
+    },
+    {
+      "price": 112500,
+      "date": "2026-06-05",
+      "postcode": "TR14 8RN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BELLEVER PARC"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-04",
+      "postcode": "TR14 8RW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, DOLCOATH ROAD"
+    },
+    {
+      "price": 92000,
+      "date": "2026-06-04",
+      "postcode": "TR14 8LY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 12, CARN BREA COURT, TREVITHICK ROAD"
+    },
+    {
+      "price": 240000,
+      "date": "2026-06-03",
+      "postcode": "TR14 8DN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, HAVELOCK BUNGALOWS"
+    },
+    {
+      "price": 200000,
+      "date": "2026-06-01",
+      "postcode": "TR14 0LA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, CHAPEL ROW"
+    },
+    {
+      "price": 210000,
+      "date": "2026-05-29",
+      "postcode": "TR14 8UA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ANERAY ROAD"
+    },
+    {
+      "price": 70000,
+      "date": "2026-05-29",
+      "postcode": "TR14 8LP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "23, ST PIRAN'S COURT, TREVITHICK ROAD"
+    },
+    {
+      "price": 170000,
+      "date": "2026-05-26",
+      "postcode": "TR14 7NT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, TREHANE ROAD"
+    },
     {
       "price": 223500,
       "date": "2026-05-22",
@@ -28,175 +184,22 @@
       "address": "92, PARK ROAD"
     },
     {
-      "price": 148000,
-      "date": "2026-05-21",
-      "postcode": "TR14 7TL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, STRAY PARK COURT"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-19",
-      "postcode": "TR14 8PW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "165, NORTH ROSKEAR ROAD"
-    },
-    {
-      "price": 217500,
-      "date": "2026-05-14",
-      "postcode": "TR14 8RW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, DOLCOATH ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-08",
-      "postcode": "TR14 9EF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, FORE STREET"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-08",
-      "postcode": "TR14 0DL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, HIDDERLEY PARK"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-08",
-      "postcode": "TR14 7UQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, TRECARRACK ROAD"
-    },
-    {
-      "price": 256000,
-      "date": "2026-05-06",
-      "postcode": "TR14 0JU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "68, FORE STREET"
-    },
-    {
-      "price": 310500,
-      "date": "2026-05-06",
-      "postcode": "TR14 0PJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SOUTH COTTAGE"
-    },
-    {
-      "price": 160000,
-      "date": "2026-04-30",
-      "postcode": "TR14 7UP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, STABLYS DOLCOATH"
-    },
-    {
-      "price": 370000,
-      "date": "2026-04-27",
-      "postcode": "TR14 0HL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, TEHIDY CLOSE"
-    },
-    {
-      "price": 70000,
-      "date": "2026-04-24",
-      "postcode": "TR14 8LP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19, ST PIRAN'S COURT, TREVITHICK ROAD"
-    },
-    {
-      "price": 210000,
-      "date": "2026-04-24",
-      "postcode": "TR14 8HU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, CENTENARY ROW WEST"
-    },
-    {
-      "price": 315000,
-      "date": "2026-04-24",
-      "postcode": "TR14 0JX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, HIBERNIA GARDENS"
-    },
-    {
-      "price": 245000,
-      "date": "2026-04-24",
+      "price": 90000,
+      "date": "2026-05-22",
       "postcode": "TR14 8FH",
       "propertyType": "T",
       "newBuild": false,
-      "tenure": "F",
-      "address": "58, KERRIER WAY"
+      "tenure": "L",
+      "address": "8, KERRIER WAY"
     },
     {
-      "price": 365000,
-      "date": "2026-04-22",
-      "postcode": "TR14 7UF",
-      "propertyType": "D",
+      "price": 255000,
+      "date": "2026-05-22",
+      "postcode": "TR14 0AB",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, LADY DRIVE"
-    },
-    {
-      "price": 130000,
-      "date": "2026-04-20",
-      "postcode": "TR14 8DF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17A, ROSKEAR"
-    },
-    {
-      "price": 250000,
-      "date": "2026-04-17",
-      "postcode": "TR14 8AS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "51, VYVYAN STREET"
-    },
-    {
-      "price": 273500,
-      "date": "2026-04-17",
-      "postcode": "TR14 8LZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, ROSELAND PARK"
-    },
-    {
-      "price": 223500,
-      "date": "2026-04-17",
-      "postcode": "TR14 8AZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, FORE STREET"
+      "address": "2, ROSEWARNE GATE"
     }
   ],
   "monthlyHistory": [
@@ -282,8 +285,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 207000,
-      "transactions": 29
+      "medianPrice": 207250,
+      "transactions": 30
     },
     {
       "month": "2025-06",
@@ -297,33 +300,33 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 195000,
-      "transactions": 35
+      "medianPrice": 202500,
+      "transactions": 36
     },
     {
       "month": "2025-09",
-      "medianPrice": 195000,
-      "transactions": 31
+      "medianPrice": 195500,
+      "transactions": 33
     },
     {
       "month": "2025-10",
-      "medianPrice": 258975,
-      "transactions": 34
+      "medianPrice": 265000,
+      "transactions": 35
     },
     {
       "month": "2025-11",
-      "medianPrice": 248500,
-      "transactions": 28
+      "medianPrice": 259500,
+      "transactions": 32
     },
     {
       "month": "2025-12",
       "medianPrice": 234000,
-      "transactions": 33
+      "transactions": 35
     },
     {
       "month": "2026-01",
-      "medianPrice": 230000,
-      "transactions": 21
+      "medianPrice": 225000,
+      "transactions": 22
     },
     {
       "month": "2026-02",
@@ -333,17 +336,22 @@
     {
       "month": "2026-03",
       "medianPrice": 220000,
-      "transactions": 31
+      "transactions": 33
     },
     {
       "month": "2026-04",
-      "medianPrice": 270000,
-      "transactions": 20
+      "medianPrice": 271750,
+      "transactions": 22
     },
     {
       "month": "2026-05",
-      "medianPrice": 223500,
-      "transactions": 9
+      "medianPrice": 218750,
+      "transactions": 20
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 201500,
+      "transactions": 14
     }
   ],
   "quarterlyHistory": [
@@ -375,27 +383,27 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 195000,
-      "transactions": 83
+      "transactions": 84
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 195250,
-      "transactions": 96
+      "medianPrice": 205000,
+      "transactions": 99
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 246000,
-      "transactions": 95
+      "medianPrice": 250000,
+      "transactions": 102
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 229950,
-      "transactions": 69
+      "medianPrice": 220000,
+      "transactions": 72
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 256000,
-      "transactions": 29
+      "medianPrice": 226750,
+      "transactions": 56
     }
   ]
 }

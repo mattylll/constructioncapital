@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.384Z",
+  "updatedAt": "2026-08-07T08:45:03.599Z",
   "townSlug": "hessle",
   "countySlug": "east-riding-of-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EAST RIDING OF YORKSHIRE"
+  ],
   "stats": {
-    "medianPrice": 200000,
+    "medianPrice": 196750,
     "medianByType": {
-      "D": 313750,
-      "S": 210000,
-      "T": 169000,
-      "F": 115000
+      "D": 338000,
+      "S": 204000,
+      "T": 164975,
+      "F": 108000
     },
-    "transactionCount12m": 215,
-    "yoyChange": 5.3,
-    "newBuildCount": 2,
-    "existingCount": 213,
-    "newBuildPremium": null
+    "transactionCount12m": 240,
+    "yoyChange": -1.6,
+    "newBuildCount": 3,
+    "existingCount": 237,
+    "newBuildPremium": -8.4
   },
   "recentTransactions": [
     {
-      "price": 158000,
-      "date": "2026-05-22",
-      "postcode": "HU13 9JA",
-      "propertyType": "T",
+      "price": 379950,
+      "date": "2026-06-19",
+      "postcode": "HU13 0HF",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, KIRKHAM CLOSE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-22",
-      "postcode": "HU13 0QL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, WESTBOURNE GROVE"
+      "address": "11, DUNSTON DRIVE"
     },
     {
       "price": 365000,
-      "date": "2026-05-15",
-      "postcode": "HU13 0EX",
+      "date": "2026-06-12",
+      "postcode": "HU13 0GS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, ROSNER DRIVE"
+    },
+    {
+      "price": 190000,
+      "date": "2026-06-12",
+      "postcode": "HU13 9JF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "63, SOUTHFIELD"
+      "address": "16, GLAMIS ROAD"
+    },
+    {
+      "price": 95000,
+      "date": "2026-06-12",
+      "postcode": "HU13 9ND",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, EDWARD STREET"
     },
     {
       "price": 210000,
-      "date": "2026-05-08",
-      "postcode": "HU13 0TQ",
+      "date": "2026-06-11",
+      "postcode": "HU13 0QW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "10, CLARKE AVENUE"
+      "address": "26, WAUDBY CLOSE"
     },
     {
-      "price": 89021,
-      "date": "2026-05-08",
-      "postcode": "HU13 9DY",
+      "price": 340000,
+      "date": "2026-06-11",
+      "postcode": "HU13 0LE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, TALL TREES"
+    },
+    {
+      "price": 274000,
+      "date": "2026-06-05",
+      "postcode": "HU13 0QW",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "124, FIRST LANE"
+      "address": "4, WAUDBY CLOSE"
     },
     {
-      "price": 207500,
-      "date": "2026-05-06",
-      "postcode": "HU13 9HG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, BRIGG DRIVE"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-01",
-      "postcode": "HU13 9EG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, FIRST LANE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-01",
-      "postcode": "HU13 0DJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, SOUTHGATE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-04-30",
-      "postcode": "HU13 0PS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, TRANBY AVENUE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-04-24",
-      "postcode": "HU13 9QB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, GREEN LANE"
-    },
-    {
-      "price": 147500,
-      "date": "2026-04-22",
-      "postcode": "HU13 0RW",
+      "price": 100000,
+      "date": "2026-06-05",
+      "postcode": "HU13 0HA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 7, 88, DAVENPORT AVENUE"
+      "address": "8, DYKES HOUSE, REDCLIFF ROAD"
     },
     {
-      "price": 215000,
-      "date": "2026-04-22",
-      "postcode": "HU13 9HZ",
+      "price": 184950,
+      "date": "2026-06-05",
+      "postcode": "HU13 0DS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, GISBURN ROAD"
+      "address": "13, FERRY ROAD"
     },
     {
-      "price": 140000,
-      "date": "2026-04-17",
+      "price": 187000,
+      "date": "2026-06-05",
+      "postcode": "HU13 0HP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, ELSHAM RISE"
+    },
+    {
+      "price": 108000,
+      "date": "2026-06-01",
+      "postcode": "HU13 0ER",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, MENTONE HOUSE, WESTHILL"
+    },
+    {
+      "price": 800000,
+      "date": "2026-05-29",
+      "postcode": "HU13 0ES",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BEECH LODGE, WOODFIELD LANE"
+    },
+    {
+      "price": 357500,
+      "date": "2026-05-29",
+      "postcode": "HU13 0HF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, DUNSTON DRIVE"
+    },
+    {
+      "price": 147000,
+      "date": "2026-05-27",
       "postcode": "HU13 9DL",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "79, NORTHFIELD AVENUE"
+      "address": "81, NORTHFIELD AVENUE"
     },
     {
-      "price": 390000,
-      "date": "2026-04-17",
-      "postcode": "HU13 0FS",
+      "price": 1270000,
+      "date": "2026-05-26",
+      "postcode": "HU13 0JZ",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HESSLE MOUNT SCHOOL, JENNY BROUGH LANE"
+    },
+    {
+      "price": 425000,
+      "date": "2026-05-26",
+      "postcode": "HU13 0TB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "11, GREENFIELD AVENUE"
+      "address": "15, ACORN WAY"
     },
     {
-      "price": 528500,
-      "date": "2026-04-17",
-      "postcode": "HU13 0PN",
-      "propertyType": "D",
+      "price": 269500,
+      "date": "2026-05-22",
+      "postcode": "HU13 0QA",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "29A, MARLBOROUGH AVENUE"
+      "address": "5, MAY GROVE"
     },
     {
-      "price": 180000,
-      "date": "2026-04-14",
-      "postcode": "HU13 9HJ",
-      "propertyType": "D",
+      "price": 195000,
+      "date": "2026-05-22",
+      "postcode": "HU13 9DU",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "56, BERRYMAN WAY"
-    },
-    {
-      "price": 270000,
-      "date": "2026-04-09",
-      "postcode": "HU13 0HB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, RIVERSIDE COURT, CLIFF ROAD"
+      "address": "1, BISHOP TEMPLE COURT"
     },
     {
       "price": 170000,
-      "date": "2026-04-08",
-      "postcode": "HU13 9EJ",
+      "date": "2026-05-22",
+      "postcode": "HU13 0AZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "83, SEATON ROAD"
+      "address": "1, BON ACCORD ROAD"
     },
     {
-      "price": 127500,
-      "date": "2026-04-07",
-      "postcode": "HU13 9DG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "35, BEDFORD ROAD"
-    },
-    {
-      "price": 212500,
-      "date": "2026-04-02",
-      "postcode": "HU13 0LP",
+      "price": 385000,
+      "date": "2026-05-22",
+      "postcode": "HU13 0PP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, SWANLAND ROAD"
+      "address": "45, BARROW LANE"
     }
   ],
   "monthlyHistory": [
@@ -287,8 +290,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 204750,
-      "transactions": 32
+      "medianPrice": 205000,
+      "transactions": 33
     },
     {
       "month": "2025-07",
@@ -297,33 +300,33 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 211500,
-      "transactions": 24
+      "medianPrice": 217500,
+      "transactions": 26
     },
     {
       "month": "2025-09",
-      "medianPrice": 195000,
-      "transactions": 24
+      "medianPrice": 190000,
+      "transactions": 27
     },
     {
       "month": "2025-10",
-      "medianPrice": 167000,
-      "transactions": 28
+      "medianPrice": 168000,
+      "transactions": 29
     },
     {
       "month": "2025-11",
       "medianPrice": 217475,
-      "transactions": 26
+      "transactions": 28
     },
     {
       "month": "2025-12",
-      "medianPrice": 217500,
-      "transactions": 20
+      "medianPrice": 215000,
+      "transactions": 23
     },
     {
       "month": "2026-01",
-      "medianPrice": 185000,
-      "transactions": 23
+      "medianPrice": 200000,
+      "transactions": 24
     },
     {
       "month": "2026-02",
@@ -338,12 +341,17 @@
     {
       "month": "2026-04",
       "medianPrice": 201250,
-      "transactions": 14
+      "transactions": 18
     },
     {
       "month": "2026-05",
-      "medianPrice": 180000,
-      "transactions": 8
+      "medianPrice": 195000,
+      "transactions": 27
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 190000,
+      "transactions": 11
     }
   ],
   "quarterlyHistory": [
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 186350,
-      "transactions": 82
+      "medianPrice": 186500,
+      "transactions": 83
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 214250,
-      "transactions": 76
+      "medianPrice": 213500,
+      "transactions": 81
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 191475,
-      "transactions": 74
+      "transactions": 80
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 202500,
-      "transactions": 54
+      "medianPrice": 205000,
+      "transactions": 55
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 185000,
-      "transactions": 22
+      "medianPrice": 192500,
+      "transactions": 56
     }
   ]
 }

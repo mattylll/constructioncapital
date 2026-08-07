@@ -1,37 +1,56 @@
 {
-  "updatedAt": "2026-08-02T02:14:11.118Z",
+  "updatedAt": "2026-08-06T16:04:57.714Z",
   "townSlug": "leeds",
   "countySlug": "west-yorkshire",
   "localAuthority": "Leeds City Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-02",
-    "to": "2026-08-02",
-    "retrievedAt": "2026-08-02T02:14:11.117Z"
+    "from": "2026-05-06",
+    "to": "2026-08-06",
+    "retrievedAt": "2026-08-06T16:04:57.714Z"
   },
   "summary": {
-    "total": 1580,
+    "total": 1483,
     "relevant": 17,
     "approved": 0,
     "pending": 17,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 495,
-    "totalUnits": 495,
+    "pendingUnits": 494,
+    "totalUnits": 494,
     "approvedGdv": 0,
-    "pendingGdv": 116065500,
-    "totalEstimatedGDV": 116065500,
+    "pendingGdv": 115830500,
+    "totalEstimatedGDV": 115830500,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
     {
+      "reference": "26/04329/PIP",
+      "address": "Land (part Of Field) To The South Of Barnsdale Road (A639)",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Permission in principle for five new dwellings, including site road, parking and associated landscaping",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Current",
+      "decision": "Current",
+      "receivedDate": "31/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJ1JMDJB2QX00"
+    },
+    {
       "reference": "26/03783/FU",
       "address": "New Barn House Hall Mews Boston Spa Wetherby LS23 6DT",
       "postcode": "LS23 6DT",
       "ward": "",
-      "proposal": "Change of use of former office to one C3 dwelling with alterations including Two new dormers with windows to front; replacement of four ground floor windows with doors and renewal of remaining ground floor windows and doors",
+      "proposal": "Change of use of former office to one C3 dwellinghouse, erection of two front dormers, fenestration alterations to front, replacement windows to front, fencing and bike store to front.",
       "category": "other_residential",
       "units": 1,
       "estimatedGdv": 235000,
@@ -329,25 +348,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEZB2UJBKYP00"
-    },
-    {
-      "reference": "26/02523/FU",
-      "address": "2 Headingley Avenue Headingley Leeds LS6 3EP",
-      "postcode": "LS6 3EP",
-      "ward": "",
-      "proposal": "Change of use from Sui Generis 9 Bed HMO to 3 no. C3 dwellings; roof alterations including removal of chimney stack; addition of two new dormer windows and rooflight; replacement of first floor window and door with canopy and white concrete surround",
-      "category": "other_residential",
-      "units": 1,
-      "estimatedGdv": 235000,
-      "status": "Decided",
-      "decision": "Decided",
-      "receivedDate": "12/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.leeds.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEJVS2JBHX600"
     }
   ]
 }

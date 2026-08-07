@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.523Z",
+  "updatedAt": "2026-08-07T08:45:01.640Z",
   "townSlug": "stevenage",
   "countySlug": "hertfordshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "STEVENAGE"
+  ],
   "stats": {
-    "medianPrice": 345000,
+    "medianPrice": 346000,
     "medianByType": {
-      "D": 558500,
-      "S": 390000,
-      "T": 335000,
-      "F": 197500
+      "D": 560000,
+      "S": 400000,
+      "T": 339500,
+      "F": 196250
     },
-    "transactionCount12m": 721,
-    "yoyChange": 3,
+    "transactionCount12m": 716,
+    "yoyChange": 3.3,
     "newBuildCount": 0,
-    "existingCount": 721,
+    "existingCount": 716,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 285000,
-      "date": "2026-05-22",
-      "postcode": "SG2 7QY",
+      "price": 395000,
+      "date": "2026-06-23",
+      "postcode": "SG2 8SW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "64, AUGUSTUS GATE"
+      "address": "73, WOBURN CLOSE"
     },
     {
-      "price": 335000,
-      "date": "2026-05-22",
-      "postcode": "SG2 7BN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "117, CHALKDOWN"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-21",
-      "postcode": "SG2 8JL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, BENSTEDE"
-    },
-    {
-      "price": 380000,
-      "date": "2026-05-20",
-      "postcode": "SG1 2BP",
+      "price": 755000,
+      "date": "2026-06-19",
+      "postcode": "SG2 9TN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, LEYDEN ROAD"
+      "address": "23, WATERCRESS CLOSE"
     },
     {
-      "price": 360000,
-      "date": "2026-05-20",
-      "postcode": "SG1 4PG",
+      "price": 340000,
+      "date": "2026-06-15",
+      "postcode": "SG2 8AG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "45, SOUTHWARK CLOSE"
+      "address": "126, MARYMEAD DRIVE"
+    },
+    {
+      "price": 248000,
+      "date": "2026-06-12",
+      "postcode": "SG2 9QB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, LIME CLOSE"
+    },
+    {
+      "price": 143000,
+      "date": "2026-06-12",
+      "postcode": "SG2 9PH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "23, ROUNDMEAD"
+    },
+    {
+      "price": 190000,
+      "date": "2026-06-12",
+      "postcode": "SG2 9RT",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5, THE LAWNS"
+    },
+    {
+      "price": 207500,
+      "date": "2026-06-12",
+      "postcode": "SG1 4RS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "63, BARON COURT"
     },
     {
       "price": 350000,
-      "date": "2026-05-18",
-      "postcode": "SG2 7DN",
+      "date": "2026-06-12",
+      "postcode": "SG2 0AJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "44, UPLANDS"
+      "address": "84, TELFORD AVENUE"
     },
     {
       "price": 315000,
-      "date": "2026-05-18",
-      "postcode": "SG2 8HY",
+      "date": "2026-06-11",
+      "postcode": "SG2 0QB",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "82, HOLLY LEYS"
+      "address": "27, PANKHURST CRESCENT"
     },
     {
-      "price": 285000,
-      "date": "2026-05-18",
-      "postcode": "SG1 2RG",
+      "price": 318000,
+      "date": "2026-06-11",
+      "postcode": "SG2 9ER",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, TORQUAY CRESCENT"
+      "address": "10, COLLENSWOOD ROAD"
     },
     {
-      "price": 302000,
-      "date": "2026-05-15",
-      "postcode": "SG2 7DL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "85, BEANE AVENUE"
-    },
-    {
-      "price": 291000,
-      "date": "2026-05-13",
-      "postcode": "SG1 2NR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, FAIRVIEW ROAD"
-    },
-    {
-      "price": 326418,
-      "date": "2026-05-11",
-      "postcode": "SG1 4JL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "93, DURHAM ROAD"
-    },
-    {
-      "price": 218000,
-      "date": "2026-05-08",
-      "postcode": "SG2 7DT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, MONTFITCHET WALK"
-    },
-    {
-      "price": 580000,
-      "date": "2026-05-07",
-      "postcode": "SG1 3QU",
+      "price": 420000,
+      "date": "2026-06-10",
+      "postcode": "SG2 8SG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, FRESSON ROAD"
+      "address": "30, BERKELEY CLOSE"
     },
     {
-      "price": 400000,
-      "date": "2026-05-06",
-      "postcode": "SG1 1UB",
+      "price": 510000,
+      "date": "2026-06-10",
+      "postcode": "SG2 0JD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, LYNDALE"
-    },
-    {
-      "price": 312500,
-      "date": "2026-05-05",
-      "postcode": "SG1 6AA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, WANSBECK CLOSE"
-    },
-    {
-      "price": 380000,
-      "date": "2026-05-01",
-      "postcode": "SG2 8LT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "117, OAKS CROSS"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-01",
-      "postcode": "SG2 9YN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "49, RANDALLS HILL"
-    },
-    {
-      "price": 370000,
-      "date": "2026-05-01",
-      "postcode": "SG2 0LE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "93, CHELLS WAY"
+      "address": "8, KEATS CLOSE"
     },
     {
       "price": 350000,
-      "date": "2026-04-30",
-      "postcode": "SG2 8QQ",
+      "date": "2026-06-09",
+      "postcode": "SG2 9TS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, CARISBROOKE CLOSE"
+      "address": "45, WIGRAM WAY"
     },
     {
-      "price": 600000,
-      "date": "2026-04-30",
-      "postcode": "SG1 2JR",
-      "propertyType": "D",
+      "price": 360000,
+      "date": "2026-06-05",
+      "postcode": "SG1 3TT",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, KESSINGLAND AVENUE"
+      "address": "6, BROADVIEW"
+    },
+    {
+      "price": 365000,
+      "date": "2026-06-05",
+      "postcode": "SG1 5JS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "411, WISDEN ROAD"
+    },
+    {
+      "price": 220000,
+      "date": "2026-06-03",
+      "postcode": "SG1 3JA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "18, POUND AVENUE"
+    },
+    {
+      "price": 382500,
+      "date": "2026-06-01",
+      "postcode": "SG2 9TZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62, THE PADDOCKS"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-01",
+      "postcode": "SG2 9AA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, MONKS VIEW"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-01",
+      "postcode": "SG2 9TA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, BEECH DRIVE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-05-29",
+      "postcode": "SG1 4HH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "188, YORK ROAD"
     }
   ],
   "monthlyHistory": [
@@ -227,8 +230,8 @@
     },
     {
       "month": "2024-06",
-      "medianPrice": 327500,
-      "transactions": 91
+      "medianPrice": 328250,
+      "transactions": 92
     },
     {
       "month": "2024-07",
@@ -248,7 +251,7 @@
     {
       "month": "2024-10",
       "medianPrice": 340000,
-      "transactions": 112
+      "transactions": 113
     },
     {
       "month": "2024-11",
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 350000,
-      "transactions": 203
+      "medianPrice": 349500,
+      "transactions": 204
     },
     {
       "month": "2025-04",
@@ -292,58 +295,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 341250,
-      "transactions": 92
+      "medianPrice": 340000,
+      "transactions": 94
     },
     {
       "month": "2025-08",
-      "medianPrice": 352000,
-      "transactions": 99
+      "medianPrice": 350000,
+      "transactions": 105
     },
     {
       "month": "2025-09",
-      "medianPrice": 346500,
-      "transactions": 84
+      "medianPrice": 340000,
+      "transactions": 88
     },
     {
       "month": "2025-10",
-      "medianPrice": 349500,
-      "transactions": 96
+      "medianPrice": 349000,
+      "transactions": 97
     },
     {
       "month": "2025-11",
-      "medianPrice": 340000,
-      "transactions": 61
+      "medianPrice": 337500,
+      "transactions": 64
     },
     {
       "month": "2025-12",
-      "medianPrice": 357500,
-      "transactions": 54
+      "medianPrice": 356000,
+      "transactions": 64
     },
     {
       "month": "2026-01",
       "medianPrice": 335000,
-      "transactions": 47
+      "transactions": 50
     },
     {
       "month": "2026-02",
-      "medianPrice": 348750,
-      "transactions": 70
+      "medianPrice": 350000,
+      "transactions": 73
     },
     {
       "month": "2026-03",
       "medianPrice": 325000,
-      "transactions": 58
+      "transactions": 59
     },
     {
       "month": "2026-04",
       "medianPrice": 337250,
-      "transactions": 54
+      "transactions": 58
     },
     {
       "month": "2026-05",
-      "medianPrice": 330709,
-      "transactions": 18
+      "medianPrice": 350000,
+      "transactions": 60
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 340000,
+      "transactions": 19
     }
   ],
   "quarterlyHistory": [
@@ -354,8 +362,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 328250,
-      "transactions": 276
+      "medianPrice": 329000,
+      "transactions": 277
     },
     {
       "quarter": "2024-Q3",
@@ -364,13 +372,13 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 345000,
-      "transactions": 285
+      "medianPrice": 343500,
+      "transactions": 286
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 342000,
-      "transactions": 394
+      "transactions": 395
     },
     {
       "quarter": "2025-Q2",
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 348000,
-      "transactions": 275
+      "medianPrice": 345000,
+      "transactions": 287
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 350000,
-      "transactions": 211
+      "transactions": 225
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 335000,
-      "transactions": 175
+      "transactions": 182
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 335000,
-      "transactions": 72
+      "medianPrice": 345000,
+      "transactions": 137
     }
   ]
 }

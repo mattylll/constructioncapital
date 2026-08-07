@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.531Z",
+  "updatedAt": "2026-08-07T08:45:02.716Z",
   "townSlug": "boston",
   "countySlug": "lincolnshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BOSTON"
+  ],
   "stats": {
-    "medianPrice": 194975,
+    "medianPrice": 192500,
     "medianByType": {
-      "D": 255000,
-      "S": 163500,
-      "T": 119500,
+      "D": 253000,
+      "S": 160000,
+      "T": 120000,
       "F": 90000
     },
-    "transactionCount12m": 738,
-    "yoyChange": -1.3,
-    "newBuildCount": 59,
-    "existingCount": 679,
+    "transactionCount12m": 757,
+    "yoyChange": -2.3,
+    "newBuildCount": 62,
+    "existingCount": 695,
     "newBuildPremium": 34.4
   },
   "recentTransactions": [
     {
-      "price": 137000,
-      "date": "2026-05-22",
-      "postcode": "PE21 8LF",
+      "price": 154000,
+      "date": "2026-06-22",
+      "postcode": "PE20 1BP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "80, FYDELL STREET"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-22",
-      "postcode": "PE21 9JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "45, HORNCASTLE ROAD"
-    },
-    {
-      "price": 105000,
-      "date": "2026-05-22",
-      "postcode": "PE20 3EN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, ABBEY ROAD"
-    },
-    {
-      "price": 79950,
-      "date": "2026-05-19",
-      "postcode": "PE21 8GG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, GAMMONS COURT"
-    },
-    {
-      "price": 299950,
-      "date": "2026-05-15",
-      "postcode": "PE21 9AP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "70, PRINCESS ANNE ROAD"
-    },
-    {
-      "price": 105000,
-      "date": "2026-05-15",
-      "postcode": "PE21 0AQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, 35, RECTORY ROAD"
-    },
-    {
-      "price": 103000,
-      "date": "2026-05-14",
-      "postcode": "PE21 8PE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, ALBERT STREET"
-    },
-    {
-      "price": 95000,
-      "date": "2026-05-12",
-      "postcode": "PE21 9EP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ROBIN HOODS WALK"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-12",
-      "postcode": "PE21 0RZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE SHEILING, RECTORY CLOSE"
-    },
-    {
-      "price": 347500,
-      "date": "2026-05-12",
-      "postcode": "PE21 6LG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, WITHAM PLACE"
-    },
-    {
-      "price": 137000,
-      "date": "2026-05-11",
-      "postcode": "PE21 9TE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "135, NORFOLK STREET"
+      "address": "LEOMINSTER, LONDON ROAD"
     },
     {
       "price": 150000,
-      "date": "2026-05-11",
-      "postcode": "PE22 0JG",
+      "date": "2026-06-19",
+      "postcode": "PE21 8DR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "41, PRINCE WILLIAM DRIVE"
+      "address": "OAK COTTAGE, BROADFIELD LANE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-19",
+      "postcode": "PE21 7HE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, WOODSIDE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-19",
+      "postcode": "PE21 9AY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, MONTEITH CRESCENT"
     },
     {
       "price": 190000,
-      "date": "2026-05-08",
-      "postcode": "PE20 2BS",
+      "date": "2026-06-18",
+      "postcode": "PE20 3EL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "31, BELL LANE"
+      "address": "27, MONKS ROAD"
     },
     {
-      "price": 310000,
-      "date": "2026-05-08",
-      "postcode": "PE21 7HP",
+      "price": 275000,
+      "date": "2026-06-17",
+      "postcode": "PE21 7LP",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, TYTTON LANE EAST"
+      "address": "106, WEST END ROAD"
     },
     {
-      "price": 75000,
-      "date": "2026-05-08",
-      "postcode": "PE21 8BP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "69, IVY CRESCENT"
-    },
-    {
-      "price": 342000,
-      "date": "2026-05-08",
-      "postcode": "PE20 2HJ",
+      "price": 360000,
+      "date": "2026-06-17",
+      "postcode": "PE20 1QN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "37, MONARCHS ROAD"
+      "address": "8, HANSARD WAY"
     },
     {
-      "price": 214000,
-      "date": "2026-05-08",
-      "postcode": "PE21 8HU",
+      "price": 265000,
+      "date": "2026-06-15",
+      "postcode": "PE20 3NT",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "45, PUNCHBOWL LANE"
+      "address": "2, HALL DRIVE"
     },
     {
-      "price": 100000,
-      "date": "2026-05-08",
-      "postcode": "PE21 9BY",
+      "price": 121000,
+      "date": "2026-06-12",
+      "postcode": "PE21 8NY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "9, HOSPITAL LANE"
+      "address": "10, SYDNEY STREET"
     },
     {
-      "price": 184000,
-      "date": "2026-05-06",
-      "postcode": "PE20 3NP",
+      "price": 150000,
+      "date": "2026-06-12",
+      "postcode": "PE22 9EL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, CHURCH CLOSE"
+    },
+    {
+      "price": 153500,
+      "date": "2026-06-12",
+      "postcode": "PE21 7GD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, OLDMAN CLOSE"
+    },
+    {
+      "price": 560000,
+      "date": "2026-06-12",
+      "postcode": "PE22 9HR",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE OLD FARMHOUSE, OLD MAIN ROAD"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-11",
+      "postcode": "PE21 6PT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, UNION STREET"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-11",
+      "postcode": "PE21 0AR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "21, MILNE GREEN"
+      "address": "88, KINGSWAY"
     },
     {
-      "price": 315000,
-      "date": "2026-05-06",
-      "postcode": "PE21 7TS",
+      "price": 158000,
+      "date": "2026-06-11",
+      "postcode": "PE22 0BD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, LACEYS LANE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-06-05",
+      "postcode": "PE20 1QU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, ARCHIBALD WALK"
+      "address": "HIDEWAY, RALPHS LANE"
+    },
+    {
+      "price": 95052,
+      "date": "2026-06-05",
+      "postcode": "PE21 8PN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, CASTLE STREET"
+    },
+    {
+      "price": 65000,
+      "date": "2026-06-04",
+      "postcode": "PE21 8TB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, PULVERTOFT LANE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-06-03",
+      "postcode": "PE22 9GB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, LIME WALK"
+    },
+    {
+      "price": 243000,
+      "date": "2026-06-01",
+      "postcode": "PE20 1XA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, SAXON GATE"
     }
   ],
   "monthlyHistory": [
@@ -262,18 +265,18 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 201500,
-      "transactions": 103
+      "medianPrice": 200750,
+      "transactions": 104
     },
     {
       "month": "2025-02",
-      "medianPrice": 202500,
-      "transactions": 86
+      "medianPrice": 205000,
+      "transactions": 88
     },
     {
       "month": "2025-03",
-      "medianPrice": 216000,
-      "transactions": 166
+      "medianPrice": 215000,
+      "transactions": 165
     },
     {
       "month": "2025-04",
@@ -282,68 +285,73 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 207000,
-      "transactions": 75
+      "medianPrice": 207998,
+      "transactions": 76
     },
     {
       "month": "2025-06",
       "medianPrice": 185000,
-      "transactions": 99
+      "transactions": 103
     },
     {
       "month": "2025-07",
-      "medianPrice": 177500,
-      "transactions": 80
+      "medianPrice": 180000,
+      "transactions": 84
     },
     {
       "month": "2025-08",
-      "medianPrice": 184650,
-      "transactions": 87
+      "medianPrice": 182325,
+      "transactions": 100
     },
     {
       "month": "2025-09",
       "medianPrice": 205000,
-      "transactions": 87
+      "transactions": 93
     },
     {
       "month": "2025-10",
-      "medianPrice": 208250,
-      "transactions": 90
+      "medianPrice": 210000,
+      "transactions": 93
     },
     {
       "month": "2025-11",
       "medianPrice": 190000,
-      "transactions": 64
+      "transactions": 67
     },
     {
       "month": "2025-12",
-      "medianPrice": 215000,
-      "transactions": 81
+      "medianPrice": 213500,
+      "transactions": 89
     },
     {
       "month": "2026-01",
       "medianPrice": 188500,
-      "transactions": 48
+      "transactions": 62
     },
     {
       "month": "2026-02",
-      "medianPrice": 198975,
-      "transactions": 72
+      "medianPrice": 197950,
+      "transactions": 75
     },
     {
       "month": "2026-03",
-      "medianPrice": 198750,
-      "transactions": 78
+      "medianPrice": 194975,
+      "transactions": 80
     },
     {
       "month": "2026-04",
       "medianPrice": 175000,
-      "transactions": 34
+      "transactions": 37
     },
     {
       "month": "2026-05",
-      "medianPrice": 180750,
-      "transactions": 24
+      "medianPrice": 182750,
+      "transactions": 52
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 154500,
+      "transactions": 20
     }
   ],
   "quarterlyHistory": [
@@ -370,32 +378,32 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 205000,
-      "transactions": 355
+      "transactions": 357
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 185000,
-      "transactions": 238
+      "medianPrice": 188000,
+      "transactions": 243
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 190000,
-      "transactions": 254
+      "transactions": 277
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 207000,
-      "transactions": 235
+      "medianPrice": 206500,
+      "transactions": 249
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 196475,
-      "transactions": 198
+      "medianPrice": 194950,
+      "transactions": 217
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 176250,
-      "transactions": 58
+      "medianPrice": 179950,
+      "transactions": 109
     }
   ]
 }

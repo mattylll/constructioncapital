@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.060Z",
+  "updatedAt": "2026-08-07T08:45:02.440Z",
   "townSlug": "droitwich",
   "countySlug": "worcestershire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WYCHAVON"
+  ],
   "marketSnapshot": {
-    "medianPrice": 325000,
-    "transactionCount12m": 331,
-    "yoyPriceChange": 8.3,
+    "medianPrice": 330000,
+    "transactionCount12m": 315,
+    "yoyPriceChange": 10,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

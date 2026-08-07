@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-07-03T11:39:51.177Z",
+  "updatedAt": "2026-08-07T08:45:00.651Z",
   "townSlug": "wembley",
   "countySlug": "greater-london",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "BRENT"
+  ],
   "marketSnapshot": {
-    "medianPrice": 520000,
-    "transactionCount12m": 1595,
-    "yoyPriceChange": -1,
+    "medianPrice": 515000,
+    "transactionCount12m": 1574,
+    "yoyPriceChange": -1.9,
     "approvedApps12m": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": null,
     "pipelineUnits": 0,
     "pipelineGdv": 0,
     "approvalRate": 0

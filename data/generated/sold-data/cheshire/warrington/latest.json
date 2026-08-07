@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.855Z",
+  "updatedAt": "2026-08-07T08:45:03.063Z",
   "townSlug": "warrington",
   "countySlug": "cheshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WARRINGTON"
+  ],
   "stats": {
-    "medianPrice": 249925,
+    "medianPrice": 249975,
     "medianByType": {
-      "D": 420500,
-      "S": 258000,
-      "T": 178000,
-      "F": 135000
+      "D": 425000,
+      "S": 260000,
+      "T": 180000,
+      "F": 130000
     },
-    "transactionCount12m": 2376,
+    "transactionCount12m": 2398,
     "yoyChange": 2,
-    "newBuildCount": 5,
-    "existingCount": 2371,
-    "newBuildPremium": 73
+    "newBuildCount": 9,
+    "existingCount": 2389,
+    "newBuildPremium": 69
   },
   "recentTransactions": [
     {
-      "price": 240000,
-      "date": "2026-05-22",
-      "postcode": "WA5 3JL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, VENTNOR CLOSE"
-    },
-    {
-      "price": 88000,
-      "date": "2026-05-21",
-      "postcode": "WA4 6LQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 16, BRINDLEY COURT, LONDON ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-20",
-      "postcode": "WA13 9GR",
+      "price": 156000,
+      "date": "2026-06-26",
+      "postcode": "WA5 4HJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "47, SPRINGBANK GARDENS"
+      "address": "86, FAIRCLOUGH STREET"
+    },
+    {
+      "price": 241000,
+      "date": "2026-06-26",
+      "postcode": "WA1 3HQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "25, THORN ROAD"
+    },
+    {
+      "price": 331500,
+      "date": "2026-06-25",
+      "postcode": "WA5 7XA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, CASTLE GREEN"
+    },
+    {
+      "price": 320000,
+      "date": "2026-06-23",
+      "postcode": "WA5 3TN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, PALMDALE GARDENS"
+    },
+    {
+      "price": 2000,
+      "date": "2026-06-22",
+      "postcode": "",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PLOT 1, BLAKELEY FARM, WIGSHAW LANE"
+    },
+    {
+      "price": 8500,
+      "date": "2026-06-22",
+      "postcode": "",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PLOT 2, BLAKELEY FARM, WIGSHAW LANE"
+    },
+    {
+      "price": 430000,
+      "date": "2026-06-22",
+      "postcode": "WA5 8HQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, PASADENA AVENUE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-19",
+      "postcode": "WA1 4PZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, RIVERSDALE"
     },
     {
       "price": 205000,
-      "date": "2026-05-20",
-      "postcode": "WA2 0SQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "12, KILSYTH CLOSE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-20",
-      "postcode": "WA1 4ND",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "33, AUSTRAL AVENUE"
-    },
-    {
-      "price": 207000,
-      "date": "2026-05-20",
-      "postcode": "WA1 4BL",
+      "date": "2026-06-19",
+      "postcode": "WA2 0LZ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "49, CLIFTONVILLE ROAD"
+      "address": "15, WINDERMERE AVENUE"
     },
     {
-      "price": 222500,
-      "date": "2026-05-19",
-      "postcode": "WA4 1PR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, REYNOLDS STREET"
-    },
-    {
-      "price": 525000,
-      "date": "2026-05-19",
-      "postcode": "WA5 3HT",
+      "price": 445000,
+      "date": "2026-06-19",
+      "postcode": "WA13 0DN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "92, WENSLEYDALE CLOSE"
+      "address": "57A, BOOTHS HILL ROAD"
     },
     {
-      "price": 367000,
-      "date": "2026-05-18",
-      "postcode": "WA13 0TA",
-      "propertyType": "D",
+      "price": 375000,
+      "date": "2026-06-16",
+      "postcode": "WA4 2NN",
+      "propertyType": "S",
       "newBuild": false,
-      "tenure": "F",
-      "address": "OLD CHAPEL, OLD CHERRY LANE"
+      "tenure": "L",
+      "address": "91, SPRINGFIELD AVENUE"
     },
     {
-      "price": 188500,
-      "date": "2026-05-18",
-      "postcode": "WA2 9RQ",
+      "price": 320000,
+      "date": "2026-06-16",
+      "postcode": "WA13 9RB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, HUNTER AVENUE"
+      "address": "14, GREEN VIEW"
     },
     {
-      "price": 240000,
-      "date": "2026-05-15",
-      "postcode": "WA1 1UD",
-      "propertyType": "T",
+      "price": 125000,
+      "date": "2026-06-16",
+      "postcode": "WA1 3FW",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "12, CROSFIELD STREET"
+      "address": "35, THORNEYCROFT DRIVE"
     },
     {
-      "price": 315000,
-      "date": "2026-05-15",
-      "postcode": "WA1 3EP",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, EASTDALE ROAD"
-    },
-    {
-      "price": 735000,
-      "date": "2026-05-15",
-      "postcode": "WA13 0BE",
+      "price": 550000,
+      "date": "2026-06-15",
+      "postcode": "WA13 0NE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "51A, HIGHER LANE"
+      "address": "28, WYCHWOOD AVENUE"
     },
     {
-      "price": 299950,
-      "date": "2026-05-15",
-      "postcode": "WA5 2DW",
+      "price": 262500,
+      "date": "2026-06-15",
+      "postcode": "WA4 6AT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, FORMBY CLOSE"
+      "address": "61, RYDAL AVENUE"
     },
     {
-      "price": 247500,
-      "date": "2026-05-15",
-      "postcode": "WA1 3SE",
+      "price": 487000,
+      "date": "2026-06-15",
+      "postcode": "WA4 2DH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ACKERS ROAD"
+    },
+    {
+      "price": 142000,
+      "date": "2026-06-12",
+      "postcode": "WA5 1BJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, ALEXANDRA STREET"
+      "address": "21, EVELYN STREET"
     },
     {
-      "price": 280000,
-      "date": "2026-05-15",
-      "postcode": "WA4 2JB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, ALDERLEY ROAD"
-    },
-    {
-      "price": 198000,
-      "date": "2026-05-14",
-      "postcode": "WA4 1EA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, HAWTHORNE GROVE"
-    },
-    {
-      "price": 455000,
-      "date": "2026-05-14",
-      "postcode": "WA5 3RU",
+      "price": 410000,
+      "date": "2026-06-12",
+      "postcode": "WA5 9TG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "93, STOCKDALE DRIVE"
+      "address": "37, PENMARK CLOSE"
     },
     {
-      "price": 171000,
-      "date": "2026-05-14",
-      "postcode": "WA2 8AD",
+      "price": 283800,
+      "date": "2026-06-12",
+      "postcode": "WA2 0BW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "40, EAST AVENUE"
+      "address": "19, RONALD DRIVE"
     },
     {
-      "price": 126000,
-      "date": "2026-05-13",
-      "postcode": "WA1 2JL",
+      "price": 168000,
+      "date": "2026-06-12",
+      "postcode": "WA2 9SR",
       "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "15, VILLARS STREET"
+      "tenure": "F",
+      "address": "89, CHILTERN ROAD"
     }
   ],
   "monthlyHistory": [
@@ -217,8 +220,8 @@
     },
     {
       "month": "2024-04",
-      "medianPrice": 226000,
-      "transactions": 193
+      "medianPrice": 230000,
+      "transactions": 197
     },
     {
       "month": "2024-05",
@@ -253,12 +256,12 @@
     {
       "month": "2024-11",
       "medianPrice": 239000,
-      "transactions": 330
+      "transactions": 332
     },
     {
       "month": "2024-12",
-      "medianPrice": 225000,
-      "transactions": 281
+      "medianPrice": 226250,
+      "transactions": 282
     },
     {
       "month": "2025-01",
@@ -282,68 +285,73 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 229000,
-      "transactions": 229
+      "medianPrice": 229500,
+      "transactions": 230
     },
     {
       "month": "2025-06",
       "medianPrice": 250000,
-      "transactions": 277
+      "transactions": 279
     },
     {
       "month": "2025-07",
       "medianPrice": 250000,
-      "transactions": 300
+      "transactions": 308
     },
     {
       "month": "2025-08",
-      "medianPrice": 270000,
-      "transactions": 281
+      "medianPrice": 266000,
+      "transactions": 300
     },
     {
       "month": "2025-09",
-      "medianPrice": 240000,
-      "transactions": 275
+      "medianPrice": 236000,
+      "transactions": 286
     },
     {
       "month": "2025-10",
-      "medianPrice": 235000,
-      "transactions": 297
+      "medianPrice": 236750,
+      "transactions": 306
     },
     {
       "month": "2025-11",
-      "medianPrice": 243000,
-      "transactions": 249
+      "medianPrice": 245000,
+      "transactions": 257
     },
     {
       "month": "2025-12",
-      "medianPrice": 266000,
-      "transactions": 248
+      "medianPrice": 256506,
+      "transactions": 268
     },
     {
       "month": "2026-01",
-      "medianPrice": 247450,
-      "transactions": 186
+      "medianPrice": 248000,
+      "transactions": 211
     },
     {
       "month": "2026-02",
-      "medianPrice": 237500,
-      "transactions": 194
+      "medianPrice": 243250,
+      "transactions": 210
     },
     {
       "month": "2026-03",
-      "medianPrice": 262500,
-      "transactions": 192
+      "medianPrice": 259470,
+      "transactions": 198
     },
     {
       "month": "2026-04",
       "medianPrice": 250000,
-      "transactions": 153
+      "transactions": 169
     },
     {
       "month": "2026-05",
-      "medianPrice": 240000,
-      "transactions": 59
+      "medianPrice": 242500,
+      "transactions": 182
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 280000,
+      "transactions": 57
     }
   ],
   "quarterlyHistory": [
@@ -354,8 +362,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 236000,
-      "transactions": 673
+      "medianPrice": 237000,
+      "transactions": 677
     },
     {
       "quarter": "2024-Q3",
@@ -364,8 +372,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 233000,
-      "transactions": 935
+      "medianPrice": 233250,
+      "transactions": 938
     },
     {
       "quarter": "2025-Q1",
@@ -374,28 +382,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 232750,
-      "transactions": 658
+      "medianPrice": 233000,
+      "transactions": 661
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 251250,
-      "transactions": 856
+      "medianPrice": 250000,
+      "transactions": 894
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 245000,
-      "transactions": 794
+      "transactions": 831
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 246000,
-      "transactions": 572
+      "medianPrice": 249950,
+      "transactions": 619
     },
     {
       "quarter": "2026-Q2",
       "medianPrice": 250000,
-      "transactions": 212
+      "transactions": 408
     }
   ]
 }

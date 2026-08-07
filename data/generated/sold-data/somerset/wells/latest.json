@@ -1,23 +1,198 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.815Z",
+  "updatedAt": "2026-08-07T08:45:01.942Z",
   "townSlug": "wells",
   "countySlug": "somerset",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SOMERSET",
+    "MENDIP"
+  ],
   "stats": {
     "medianPrice": 335000,
     "medianByType": {
-      "D": 530000,
-      "S": 320000,
-      "T": 295000,
-      "F": 196500
+      "D": 537500,
+      "S": 323750,
+      "T": 300000,
+      "F": 186000
     },
-    "transactionCount12m": 243,
+    "transactionCount12m": 248,
     "yoyChange": 1.5,
     "newBuildCount": 0,
-    "existingCount": 243,
+    "existingCount": 248,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 375000,
+      "date": "2026-06-16",
+      "postcode": "BA5 2EQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, BURCOTT ROAD"
+    },
+    {
+      "price": 107500,
+      "date": "2026-06-12",
+      "postcode": "BA5 1UR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 2, PALACE COURT, SILVER STREET"
+    },
+    {
+      "price": 254000,
+      "date": "2026-06-12",
+      "postcode": "BA5 1RQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE OLD CIDER HOUSE"
+    },
+    {
+      "price": 372500,
+      "date": "2026-06-12",
+      "postcode": "BA5 1UE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, SPRING RISE"
+    },
+    {
+      "price": 317500,
+      "date": "2026-06-11",
+      "postcode": "BA5 2TL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, NORTH ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-05",
+      "postcode": "BA5 2HX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, WELSFORD AVENUE"
+    },
+    {
+      "price": 267500,
+      "date": "2026-06-05",
+      "postcode": "BA5 2JH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, GOODYMOOR AVENUE"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-03",
+      "postcode": "BA5 3HJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, NETTLE COMBE HOUSE"
+    },
+    {
+      "price": 341000,
+      "date": "2026-06-02",
+      "postcode": "BA5 1GP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, EBBOR GORGE ROAD"
+    },
+    {
+      "price": 390000,
+      "date": "2026-06-01",
+      "postcode": "BA5 2TE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WOODACRE"
+    },
+    {
+      "price": 560000,
+      "date": "2026-06-01",
+      "postcode": "BA5 2BB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, PORTWAY"
+    },
+    {
+      "price": 975000,
+      "date": "2026-05-29",
+      "postcode": "BA5 1LA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "EAST COURT FARM, NORTH ROAD"
+    },
+    {
+      "price": 143750,
+      "date": "2026-05-29",
+      "postcode": "BA5 2GZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "78, WOOLCOMBE ROAD"
+    },
+    {
+      "price": 295000,
+      "date": "2026-05-27",
+      "postcode": "BA5 2DS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, MARKET STREET"
+    },
+    {
+      "price": 490000,
+      "date": "2026-05-26",
+      "postcode": "BA5 3LT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "66, KINGS CASTLE ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-05-21",
+      "postcode": "BA5 2LB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, ST ANDREWS MEWS"
+    },
+    {
+      "price": 162000,
+      "date": "2026-05-21",
+      "postcode": "BA5 1DJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "17, ALFRED COURT, GATE LANE"
+    },
+    {
+      "price": 377500,
+      "date": "2026-05-20",
+      "postcode": "BA5 2JG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "53, MOUNT PLEASANT AVENUE"
+    },
+    {
+      "price": 70000,
+      "date": "2026-05-19",
+      "postcode": "BA5 2QX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 17, MONDYES COURT, MILTON LANE"
+    },
     {
       "price": 270000,
       "date": "2026-05-19",
@@ -26,177 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "3, PARAY PLACE"
-    },
-    {
-      "price": 485000,
-      "date": "2026-05-19",
-      "postcode": "BA5 2ET",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, WOLSEY CLOSE"
-    },
-    {
-      "price": 380000,
-      "date": "2026-05-19",
-      "postcode": "BA5 2GB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, WHEELER GROVE"
-    },
-    {
-      "price": 560000,
-      "date": "2026-05-15",
-      "postcode": "BA5 3RQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "STONELEIGH, FAYREWAY"
-    },
-    {
-      "price": 327000,
-      "date": "2026-05-15",
-      "postcode": "BA5 2BA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, PORTWAY"
-    },
-    {
-      "price": 245000,
-      "date": "2026-05-12",
-      "postcode": "BA5 2FD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, LETHBRIDGE ROAD"
-    },
-    {
-      "price": 218500,
-      "date": "2026-05-08",
-      "postcode": "BA5 2UY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53A, ST THOMAS STREET"
-    },
-    {
-      "price": 243000,
-      "date": "2026-05-08",
-      "postcode": "BA5 1SA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, THE CLOISTERS"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-01",
-      "postcode": "BA5 1TG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, BISHOPSLEA CLOSE"
-    },
-    {
-      "price": 1015000,
-      "date": "2026-04-22",
-      "postcode": "BA5 3AH",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UPPER MILTON FARM"
-    },
-    {
-      "price": 235000,
-      "date": "2026-04-21",
-      "postcode": "BA5 3BL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 2, HIPPISLEY HOUSE"
-    },
-    {
-      "price": 545000,
-      "date": "2026-04-20",
-      "postcode": "BA5 2LQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HALDEN HOUSE, NEW STREET"
-    },
-    {
-      "price": 160000,
-      "date": "2026-04-20",
-      "postcode": "BA5 2NU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3, BIDDLE COMBE CLOSE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-04-17",
-      "postcode": "BA5 1JZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, HIGH STREET"
-    },
-    {
-      "price": 980000,
-      "date": "2026-04-17",
-      "postcode": "BA5 2TL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, NORTH ROAD"
-    },
-    {
-      "price": 420000,
-      "date": "2026-04-15",
-      "postcode": "BA5 1LF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, ABBEY CLOSE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-04-15",
-      "postcode": "BA5 2GW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 21, ST. ATHELM LODGE, WEST STREET"
-    },
-    {
-      "price": 715000,
-      "date": "2026-04-10",
-      "postcode": "BA5 1FT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, KNIGHT ROAD"
-    },
-    {
-      "price": 351000,
-      "date": "2026-04-10",
-      "postcode": "BA5 2LT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ASH LANE"
-    },
-    {
-      "price": 200000,
-      "date": "2026-04-10",
-      "postcode": "BA5 2EQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, BURCOTT ROAD"
     }
   ],
   "monthlyHistory": [
@@ -282,8 +286,8 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 380000,
-      "transactions": 27
+      "medianPrice": 375000,
+      "transactions": 28
     },
     {
       "month": "2025-06",
@@ -302,13 +306,13 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 382500,
-      "transactions": 27
+      "medianPrice": 385750,
+      "transactions": 28
     },
     {
       "month": "2025-10",
       "medianPrice": 285000,
-      "transactions": 25
+      "transactions": 27
     },
     {
       "month": "2025-11",
@@ -317,8 +321,8 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 315000,
-      "transactions": 21
+      "medianPrice": 290000,
+      "transactions": 22
     },
     {
       "month": "2026-01",
@@ -327,8 +331,8 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 330000,
-      "transactions": 17
+      "medianPrice": 345000,
+      "transactions": 18
     },
     {
       "month": "2026-03",
@@ -338,12 +342,17 @@
     {
       "month": "2026-04",
       "medianPrice": 385500,
-      "transactions": 16
+      "transactions": 18
     },
     {
       "month": "2026-05",
       "medianPrice": 270000,
-      "transactions": 9
+      "transactions": 23
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 317500,
+      "transactions": 11
     }
   ],
   "quarterlyHistory": [
@@ -374,28 +383,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 362500,
-      "transactions": 69
+      "medianPrice": 356250,
+      "transactions": 70
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 350000,
-      "transactions": 89
+      "medianPrice": 351250,
+      "transactions": 90
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 327500,
-      "transactions": 68
+      "medianPrice": 325000,
+      "transactions": 71
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 335000,
-      "transactions": 62
+      "medianPrice": 340000,
+      "transactions": 63
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 335000,
-      "transactions": 25
+      "medianPrice": 313750,
+      "transactions": 52
     }
   ]
 }

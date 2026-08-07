@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.288Z",
+  "updatedAt": "2026-08-07T08:45:02.442Z",
   "townSlug": "evesham",
   "countySlug": "worcestershire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "WYCHAVON"
+  ],
   "stats": {
-    "medianPrice": 290500,
+    "medianPrice": 295000,
     "medianByType": {
-      "D": 410000,
-      "S": 275000,
-      "T": 225000,
-      "F": 131000
+      "D": 410675,
+      "S": 272000,
+      "T": 230000,
+      "F": 135000
     },
-    "transactionCount12m": 485,
-    "yoyChange": -1.2,
+    "transactionCount12m": 488,
+    "yoyChange": 1.7,
     "newBuildCount": 2,
-    "existingCount": 483,
+    "existingCount": 486,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
+      "price": 387500,
+      "date": "2026-06-25",
+      "postcode": "WR11 7ZF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, KINGSHURST DRIVE"
+    },
+    {
+      "price": 345000,
+      "date": "2026-06-19",
+      "postcode": "WR11 4JR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, RUDGE ROAD"
+    },
+    {
+      "price": 285000,
+      "date": "2026-06-17",
+      "postcode": "WR11 2AN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, GREENGAGE WAY"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-15",
+      "postcode": "WR11 1HJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "148, FAIRFIELD ROAD"
+    },
+    {
+      "price": 257500,
+      "date": "2026-06-15",
+      "postcode": "WR11 2SJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, YPRES WAY"
+    },
+    {
+      "price": 226000,
+      "date": "2026-06-12",
+      "postcode": "WR11 2NQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "82, LARKSPUR DRIVE"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-12",
+      "postcode": "WR11 1XQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, WOODLANDS"
+    },
+    {
+      "price": 271650,
+      "date": "2026-06-12",
+      "postcode": "WR11 2RS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, CARTWRIGHT WAY"
+    },
+    {
       "price": 450000,
-      "date": "2026-05-20",
-      "postcode": "WR11 7HX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "92A, STATION ROAD"
-    },
-    {
-      "price": 247000,
-      "date": "2026-05-15",
-      "postcode": "WR11 1XT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "78, HAZEL AVENUE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-05-14",
-      "postcode": "WR11 4QB",
+      "date": "2026-06-05",
+      "postcode": "WR11 4JN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, LEICESTER GROVE"
+      "address": "1, QUEENS ROAD"
     },
     {
-      "price": 272000,
-      "date": "2026-05-14",
-      "postcode": "WR11 3LB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, TURNPIKE DRIVE"
-    },
-    {
-      "price": 390000,
-      "date": "2026-05-14",
-      "postcode": "WR11 8LP",
+      "price": 215000,
+      "date": "2026-06-05",
+      "postcode": "WR11 1EN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, TITHEWAY"
+      "address": "14, LINDSEY AVENUE"
     },
     {
-      "price": 124000,
-      "date": "2026-05-08",
-      "postcode": "WR11 4QT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "11, CONDUIT HOUSE, RYNAL PLACE"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-08",
-      "postcode": "WR11 1GZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, BURMA CLOSE"
-    },
-    {
-      "price": 397000,
-      "date": "2026-05-07",
-      "postcode": "WR11 7AF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, BIRCH GROVE"
-    },
-    {
-      "price": 202500,
-      "date": "2026-05-06",
-      "postcode": "WR11 7EQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, MANORSIDE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-05",
-      "postcode": "WR11 8RU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, AVON COURT"
-    },
-    {
-      "price": 343000,
-      "date": "2026-05-01",
-      "postcode": "WR11 3EA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, LICHFIELD AVENUE"
-    },
-    {
-      "price": 478500,
-      "date": "2026-05-01",
-      "postcode": "WR11 4NR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, SIMON DE MONTFORT DRIVE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-05-01",
+      "price": 250000,
+      "date": "2026-06-04",
       "postcode": "WR11 2LR",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "79, COLUMBINE GROVE"
+      "address": "30, COLUMBINE GROVE"
     },
     {
-      "price": 655000,
-      "date": "2026-04-29",
-      "postcode": "WR11 7SA",
+      "price": 440000,
+      "date": "2026-06-04",
+      "postcode": "WR11 3JH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, MANOR ROAD"
+      "address": "36, CRUMP WAY"
     },
     {
-      "price": 230000,
-      "date": "2026-04-29",
-      "postcode": "WR11 4AQ",
-      "propertyType": "T",
+      "price": 425000,
+      "date": "2026-06-03",
+      "postcode": "WR11 7JH",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "32, BEWDLEY STREET"
+      "address": "8B, MAIN STREET"
     },
     {
-      "price": 290000,
-      "date": "2026-04-29",
-      "postcode": "WR11 4QD",
-      "propertyType": "T",
+      "price": 490000,
+      "date": "2026-06-03",
+      "postcode": "WR11 7HX",
+      "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, CAMBRIA ROAD"
+      "address": "94, STATION ROAD"
     },
     {
-      "price": 447000,
-      "date": "2026-04-27",
-      "postcode": "WR11 8RQ",
+      "price": 370000,
+      "date": "2026-06-03",
+      "postcode": "WR11 8PJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, LEASOWES ROAD"
+      "address": "23, MEADOW WAY"
     },
     {
-      "price": 252000,
-      "date": "2026-04-27",
-      "postcode": "WR11 7XP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, DUDLEY ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-04-24",
-      "postcode": "WR11 4JJ",
+      "price": 210000,
+      "date": "2026-06-02",
+      "postcode": "WR11 3JJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "79, BRIAR CLOSE"
+      "address": "1, DISCOVERY LANE"
     },
     {
-      "price": 135000,
-      "date": "2026-04-24",
-      "postcode": "WR11 1BU",
+      "price": 125000,
+      "date": "2026-06-01",
+      "postcode": "WR11 4RJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 7, PIPPINS COURT, 40, WATERSIDE"
+      "address": "47, ROBINS CORNER"
+    },
+    {
+      "price": 249000,
+      "date": "2026-06-01",
+      "postcode": "WR11 3GF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, VIBURNUM WALK"
+    },
+    {
+      "price": 210000,
+      "date": "2026-05-29",
+      "postcode": "WR11 2RS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, CARTWRIGHT WAY"
+    },
+    {
+      "price": 270000,
+      "date": "2026-05-29",
+      "postcode": "WR11 2NJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, LARKSPUR DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -207,8 +210,8 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 282500,
-      "transactions": 42
+      "medianPrice": 280000,
+      "transactions": 43
     },
     {
       "month": "2024-03",
@@ -273,7 +276,7 @@
     {
       "month": "2025-03",
       "medianPrice": 320000,
-      "transactions": 138
+      "transactions": 140
     },
     {
       "month": "2025-04",
@@ -287,70 +290,75 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 297500,
-      "transactions": 54
+      "medianPrice": 295000,
+      "transactions": 55
     },
     {
       "month": "2025-07",
-      "medianPrice": 275000,
-      "transactions": 68
+      "medianPrice": 278000,
+      "transactions": 72
     },
     {
       "month": "2025-08",
       "medianPrice": 290000,
-      "transactions": 57
+      "transactions": 61
     },
     {
       "month": "2025-09",
-      "medianPrice": 318750,
-      "transactions": 48
+      "medianPrice": 315000,
+      "transactions": 49
     },
     {
       "month": "2025-10",
-      "medianPrice": 300000,
-      "transactions": 81
+      "medianPrice": 292500,
+      "transactions": 82
     },
     {
       "month": "2025-11",
-      "medianPrice": 257500,
-      "transactions": 42
+      "medianPrice": 260000,
+      "transactions": 45
     },
     {
       "month": "2025-12",
-      "medianPrice": 310000,
-      "transactions": 52
+      "medianPrice": 315000,
+      "transactions": 54
     },
     {
       "month": "2026-01",
-      "medianPrice": 300000,
-      "transactions": 29
+      "medianPrice": 321500,
+      "transactions": 32
     },
     {
       "month": "2026-02",
       "medianPrice": 326250,
-      "transactions": 33
+      "transactions": 35
     },
     {
       "month": "2026-03",
       "medianPrice": 290000,
-      "transactions": 44
+      "transactions": 46
     },
     {
       "month": "2026-04",
-      "medianPrice": 280000,
-      "transactions": 35
+      "medianPrice": 276250,
+      "transactions": 38
     },
     {
       "month": "2026-05",
-      "medianPrice": 335000,
-      "transactions": 13
+      "medianPrice": 271000,
+      "transactions": 34
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 278325,
+      "transactions": 18
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 285000,
-      "transactions": 115
+      "medianPrice": 283500,
+      "transactions": 116
     },
     {
       "quarter": "2024-Q2",
@@ -369,33 +377,33 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 311000,
-      "transactions": 252
+      "medianPrice": 310000,
+      "transactions": 254
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 279950,
-      "transactions": 157
+      "medianPrice": 278725,
+      "transactions": 158
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 285000,
-      "transactions": 173
+      "medianPrice": 285750,
+      "transactions": 182
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 297000,
-      "transactions": 175
+      "transactions": 181
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 300000,
-      "transactions": 106
+      "medianPrice": 305000,
+      "transactions": 113
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 287551,
-      "transactions": 48
+      "medianPrice": 272250,
+      "transactions": 90
     }
   ]
 }

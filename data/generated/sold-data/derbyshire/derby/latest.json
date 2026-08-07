@@ -1,202 +1,206 @@
 {
-  "updatedAt": "2026-07-05T06:06:56.322Z",
+  "updatedAt": "2026-08-07T08:45:02.478Z",
   "townSlug": "derby",
   "countySlug": "derbyshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "CITY OF DERBY",
+    "DERBY"
+  ],
   "stats": {
-    "medianPrice": 205000,
+    "medianPrice": 207500,
     "medianByType": {
       "D": 320000,
-      "S": 212000,
-      "T": 158000,
-      "F": 115000
+      "S": 213850,
+      "T": 160000,
+      "F": 110000
     },
-    "transactionCount12m": 2663,
-    "yoyChange": -1.4,
-    "newBuildCount": 37,
-    "existingCount": 2626,
-    "newBuildPremium": 35.9
+    "transactionCount12m": 2686,
+    "yoyChange": 0,
+    "newBuildCount": 22,
+    "existingCount": 2664,
+    "newBuildPremium": 43.2
   },
   "recentTransactions": [
     {
-      "price": 755000,
-      "date": "2026-05-27",
-      "postcode": "DE1 3HZ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BRIDGE STREET"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-26",
-      "postcode": "DE3 0RX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "157, LADYBANK ROAD"
-    },
-    {
       "price": 90000,
-      "date": "2026-05-22",
-      "postcode": "DE21 2HA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "17, DUKERIES LANE"
-    },
-    {
-      "price": 140000,
-      "date": "2026-05-22",
-      "postcode": "DE21 6EG",
+      "date": "2026-06-26",
+      "postcode": "DE24 8WD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "156, COWSLEY ROAD"
+      "address": "11, ELLESMERE AVENUE"
     },
     {
-      "price": 182500,
-      "date": "2026-05-22",
-      "postcode": "DE21 4NG",
+      "price": 350000,
+      "date": "2026-06-26",
+      "postcode": "DE23 3XR",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "26, FIELD LANE"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-22",
-      "postcode": "DE24 9LE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, RONA CLOSE"
-    },
-    {
-      "price": 115000,
-      "date": "2026-05-20",
-      "postcode": "DE23 8EQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, HARRIET STREET"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-19",
-      "postcode": "DE3 9BQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, PORTLAND CLOSE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-19",
-      "postcode": "DE21 2SW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "75, SAFFRON DRIVE"
-    },
-    {
-      "price": 152500,
-      "date": "2026-05-18",
-      "postcode": "DE21 6PA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "161, MEADOW LANE"
-    },
-    {
-      "price": 305000,
-      "date": "2026-05-15",
-      "postcode": "DE24 0TG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, APPIAN WAY"
-    },
-    {
-      "price": 337000,
-      "date": "2026-05-15",
-      "postcode": "DE23 6ET",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, CRICH AVENUE"
-    },
-    {
-      "price": 101714,
-      "date": "2026-05-15",
-      "postcode": "DE24 8EU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, ELMTREE AVENUE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-05-15",
-      "postcode": "DE24 8DD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "517, OSMASTON PARK ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-15",
-      "postcode": "DE23 4BP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, DENNIS CLOSE"
+      "address": "5, FARRIER GARDENS"
     },
     {
       "price": 255000,
-      "date": "2026-05-15",
-      "postcode": "DE24 9EP",
+      "date": "2026-06-24",
+      "postcode": "DE23 6TP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, CARLTON DRIVE"
+      "address": "12, VICARAGE AVENUE"
     },
     {
-      "price": 130000,
-      "date": "2026-05-15",
-      "postcode": "DE23 6AY",
-      "propertyType": "F",
+      "price": 150000,
+      "date": "2026-06-19",
+      "postcode": "DE21 4QJ",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 24, THE ORCHARDS, 317, BURTON ROAD"
+      "tenure": "F",
+      "address": "7, BRASSINGTON ROAD"
     },
     {
-      "price": 55000,
-      "date": "2026-05-14",
-      "postcode": "DE23 8FQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 4, PARK GATE, 36, REGINALD STREET"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-12",
-      "postcode": "DE1 3AF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 40, CATHEDRAL VIEW, FULL STREET"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-12",
-      "postcode": "DE21 6SQ",
+      "price": 282000,
+      "date": "2026-06-19",
+      "postcode": "DE23 6TB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "12, EDWARD AVENUE"
+      "address": "22, MOUNT CARMEL STREET"
+    },
+    {
+      "price": 137500,
+      "date": "2026-06-19",
+      "postcode": "DE24 1AB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "86, ATLANTIC WAY"
+    },
+    {
+      "price": 397500,
+      "date": "2026-06-19",
+      "postcode": "DE23 6DY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, BALMORAL CLOSE"
+    },
+    {
+      "price": 110000,
+      "date": "2026-06-19",
+      "postcode": "DE21 2UY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, HEATHERMEAD CLOSE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-19",
+      "postcode": "DE21 6BE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, DORSET STREET"
+    },
+    {
+      "price": 292500,
+      "date": "2026-06-19",
+      "postcode": "DE22 1JU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "128, HIGHFIELDS PARK DRIVE"
+    },
+    {
+      "price": 277000,
+      "date": "2026-06-18",
+      "postcode": "DE24 8HP",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "UNIT 12, STADIUM BUSINESS COURT"
+    },
+    {
+      "price": 153000,
+      "date": "2026-06-17",
+      "postcode": "DE21 7LX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "80, DERBY ROAD"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-17",
+      "postcode": "DE21 4JN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "127, BUXTON ROAD"
+    },
+    {
+      "price": 302500,
+      "date": "2026-06-17",
+      "postcode": "DE73 6NE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, WHITEHAVEN GROVE"
+    },
+    {
+      "price": 109000,
+      "date": "2026-06-16",
+      "postcode": "DE24 8LG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "93, WHITEHURST STREET"
+    },
+    {
+      "price": 87000,
+      "date": "2026-06-16",
+      "postcode": "DE21 6WB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "14, BOSTON CLOSE"
+    },
+    {
+      "price": 166666,
+      "date": "2026-06-16",
+      "postcode": "DE24 8LT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, WILKINS DRIVE"
+    },
+    {
+      "price": 435000,
+      "date": "2026-06-16",
+      "postcode": "DE22 2TA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, COPPICE END ROAD"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-15",
+      "postcode": "DE24 9LU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, GRAMPIAN WAY"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-15",
+      "postcode": "DE24 0LY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "71, FALMOUTH ROAD"
     }
   ],
   "monthlyHistory": [
@@ -228,7 +232,7 @@
     {
       "month": "2024-06",
       "medianPrice": 200000,
-      "transactions": 277
+      "transactions": 276
     },
     {
       "month": "2024-07",
@@ -258,7 +262,7 @@
     {
       "month": "2024-12",
       "medianPrice": 197000,
-      "transactions": 433
+      "transactions": 435
     },
     {
       "month": "2025-01",
@@ -283,67 +287,72 @@
     {
       "month": "2025-05",
       "medianPrice": 200000,
-      "transactions": 268
+      "transactions": 269
     },
     {
       "month": "2025-06",
-      "medianPrice": 216000,
-      "transactions": 310
+      "medianPrice": 217500,
+      "transactions": 313
     },
     {
       "month": "2025-07",
-      "medianPrice": 209000,
-      "transactions": 288
+      "medianPrice": 210000,
+      "transactions": 293
     },
     {
       "month": "2025-08",
-      "medianPrice": 217500,
-      "transactions": 318
+      "medianPrice": 219000,
+      "transactions": 330
     },
     {
       "month": "2025-09",
-      "medianPrice": 202000,
-      "transactions": 315
+      "medianPrice": 201756,
+      "transactions": 329
     },
     {
       "month": "2025-10",
       "medianPrice": 210000,
-      "transactions": 351
+      "transactions": 362
     },
     {
       "month": "2025-11",
-      "medianPrice": 206000,
-      "transactions": 271
+      "medianPrice": 205000,
+      "transactions": 281
     },
     {
       "month": "2025-12",
       "medianPrice": 202000,
-      "transactions": 272
+      "transactions": 294
     },
     {
       "month": "2026-01",
       "medianPrice": 200000,
-      "transactions": 192
+      "transactions": 212
     },
     {
       "month": "2026-02",
-      "medianPrice": 203500,
-      "transactions": 200
+      "medianPrice": 210000,
+      "transactions": 206
     },
     {
       "month": "2026-03",
-      "medianPrice": 209250,
-      "transactions": 244
+      "medianPrice": 210000,
+      "transactions": 249
     },
     {
       "month": "2026-04",
-      "medianPrice": 205250,
-      "transactions": 201
+      "medianPrice": 210000,
+      "transactions": 225
     },
     {
       "month": "2026-05",
-      "medianPrice": 187500,
-      "transactions": 62
+      "medianPrice": 212000,
+      "transactions": 186
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 210000,
+      "transactions": 77
     }
   ],
   "quarterlyHistory": [
@@ -355,7 +364,7 @@
     {
       "quarter": "2024-Q2",
       "medianPrice": 198000,
-      "transactions": 790
+      "transactions": 789
     },
     {
       "quarter": "2024-Q3",
@@ -365,7 +374,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 200000,
-      "transactions": 1233
+      "transactions": 1235
     },
     {
       "quarter": "2025-Q1",
@@ -374,28 +383,28 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 204000,
-      "transactions": 789
+      "medianPrice": 205000,
+      "transactions": 793
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 210000,
-      "transactions": 921
+      "transactions": 952
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 205000,
-      "transactions": 894
+      "transactions": 937
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 205000,
-      "transactions": 636
+      "transactions": 667
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 203000,
-      "transactions": 263
+      "medianPrice": 210000,
+      "transactions": 488
     }
   ]
 }

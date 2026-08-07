@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:55.417Z",
+  "updatedAt": "2026-08-07T08:45:01.523Z",
   "townSlug": "slough",
   "countySlug": "berkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "SLOUGH"
+  ],
   "stats": {
     "medianPrice": 390000,
     "medianByType": {
       "D": 600000,
-      "S": 450000,
+      "S": 459250,
       "T": 400000,
       "F": 210000
     },
-    "transactionCount12m": 818,
-    "yoyChange": 4,
-    "newBuildCount": 4,
-    "existingCount": 814,
-    "newBuildPremium": 12.1
+    "transactionCount12m": 821,
+    "yoyChange": 2.8,
+    "newBuildCount": 3,
+    "existingCount": 818,
+    "newBuildPremium": 8.8
   },
   "recentTransactions": [
     {
-      "price": 125000,
-      "date": "2026-05-28",
-      "postcode": "SL1 5SU",
-      "propertyType": "F",
+      "price": 456000,
+      "date": "2026-06-26",
+      "postcode": "SL1 5UB",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "L",
-      "address": "32, BRAMBER COURT"
+      "tenure": "F",
+      "address": "50, HUNTERS WAY"
     },
     {
       "price": 530000,
-      "date": "2026-05-26",
-      "postcode": "SL1 5RB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, ELMSHOTT LANE"
-    },
-    {
-      "price": 560000,
-      "date": "2026-05-22",
-      "postcode": "SL1 6NF",
+      "date": "2026-06-24",
+      "postcode": "SL1 5FG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "56, HAYMILL ROAD"
+      "address": "18, MATHECOMBE ROAD"
     },
     {
-      "price": 367000,
-      "date": "2026-05-22",
-      "postcode": "SL1 3JB",
-      "propertyType": "T",
+      "price": 292500,
+      "date": "2026-06-24",
+      "postcode": "SL3 8DD",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "17, MUNDESLEY SPUR"
+      "tenure": "L",
+      "address": "7, NEWTON CLOSE"
     },
     {
       "price": 525000,
-      "date": "2026-05-15",
-      "postcode": "SL1 5DJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, EARLS LANE"
-    },
-    {
-      "price": 570000,
-      "date": "2026-05-15",
-      "postcode": "SL2 5EX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, ST PAULS AVENUE"
-    },
-    {
-      "price": 115000,
-      "date": "2026-05-15",
-      "postcode": "SL1 2YU",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, TOPAZ CLOSE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-14",
-      "postcode": "SL3 8LP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "187, HIGH STREET"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-13",
-      "postcode": "SL1 2JF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 14, TRESCO, 83 - 95, WINDSOR ROAD"
-    },
-    {
-      "price": 375000,
-      "date": "2026-05-12",
-      "postcode": "SL2 2HF",
+      "date": "2026-06-22",
+      "postcode": "SL2 5ER",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "53, PERRYMAN WAY"
+      "address": "112, ST PAULS AVENUE"
     },
     {
-      "price": 580000,
-      "date": "2026-05-11",
-      "postcode": "SL1 6LJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, BROOK CRESCENT"
-    },
-    {
-      "price": 405000,
-      "date": "2026-05-08",
-      "postcode": "SL2 2AP",
+      "price": 345000,
+      "date": "2026-06-22",
+      "postcode": "SL1 9DW",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "213, WENTWORTH AVENUE"
+      "address": "108, BADER GARDENS"
     },
     {
-      "price": 755000,
-      "date": "2026-05-08",
-      "postcode": "SL3 7PU",
+      "price": 802000,
+      "date": "2026-06-19",
+      "postcode": "SL3 8XX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "42, PALMERSTON AVENUE"
+      "address": "3, SOUTHWOLD SPUR"
     },
     {
-      "price": 390000,
-      "date": "2026-05-07",
-      "postcode": "SL2 5TQ",
+      "price": 262000,
+      "date": "2026-06-18",
+      "postcode": "SL1 5UG",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "63, FARM CRESCENT"
+      "address": "39, MOOR FURLONG"
     },
     {
-      "price": 355000,
-      "date": "2026-05-01",
-      "postcode": "SL1 9HW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, JELLICOE CLOSE"
-    },
-    {
-      "price": 151000,
-      "date": "2026-05-01",
-      "postcode": "SL1 1EL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, HIGHVIEW POINT, 92, HIGH STREET"
-    },
-    {
-      "price": 620000,
-      "date": "2026-05-01",
-      "postcode": "SL1 3FQ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "UNIT 15D, SLOUGH BUSINESS PARK, 94, FARNHAM ROAD"
-    },
-    {
-      "price": 600000,
-      "date": "2026-05-01",
-      "postcode": "SL1 5JP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, DENNIS WAY"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-01",
-      "postcode": "SL3 7DB",
+      "price": 520000,
+      "date": "2026-06-18",
+      "postcode": "SL2 5JF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "38, THE DRIVE"
+      "address": "28, GRASMERE AVENUE"
     },
     {
-      "price": 165000,
-      "date": "2026-05-01",
-      "postcode": "SL2 1BA",
+      "price": 500000,
+      "date": "2026-06-16",
+      "postcode": "SL2 5JB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, KENDAL DRIVE"
+    },
+    {
+      "price": 675000,
+      "date": "2026-06-15",
+      "postcode": "SL3 7BD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, GILMORE CLOSE"
+    },
+    {
+      "price": 391000,
+      "date": "2026-06-11",
+      "postcode": "SL1 3EX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "71, OATLANDS DRIVE"
+    },
+    {
+      "price": 399950,
+      "date": "2026-06-10",
+      "postcode": "SL2 2AB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, LOWER LEES ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-10",
+      "postcode": "SL1 1UB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "14, WILTSHIRE AVENUE"
+      "address": "FLAT 2, 22 - 24, WEXHAM ROAD"
+    },
+    {
+      "price": 440000,
+      "date": "2026-06-09",
+      "postcode": "SL1 5PE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, SOUTH CLOSE"
+    },
+    {
+      "price": 288000,
+      "date": "2026-06-09",
+      "postcode": "SL3 8EY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, HUNTINGTON PLACE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-05",
+      "postcode": "SL3 8HS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, MEAD AVENUE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-05",
+      "postcode": "SL1 6LT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, PARKVIEW CHASE"
+    },
+    {
+      "price": 895000,
+      "date": "2026-06-05",
+      "postcode": "SL3 7LQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, PARKLAND AVENUE"
+    },
+    {
+      "price": 430000,
+      "date": "2026-06-05",
+      "postcode": "SL2 2JG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, EDENBRIDGE ROAD"
+    },
+    {
+      "price": 548000,
+      "date": "2026-06-04",
+      "postcode": "SL3 8NT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WILD GREEN SOUTH"
     }
   ],
   "monthlyHistory": [
@@ -242,8 +245,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 375000,
-      "transactions": 133
+      "medianPrice": 374000,
+      "transactions": 135
     },
     {
       "month": "2024-10",
@@ -262,13 +265,13 @@
     },
     {
       "month": "2025-01",
-      "medianPrice": 396862,
-      "transactions": 105
+      "medianPrice": 398406,
+      "transactions": 106
     },
     {
       "month": "2025-02",
-      "medianPrice": 373750,
-      "transactions": 118
+      "medianPrice": 372500,
+      "transactions": 119
     },
     {
       "month": "2025-03",
@@ -292,58 +295,63 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 386000,
-      "transactions": 101
+      "medianPrice": 382500,
+      "transactions": 104
     },
     {
       "month": "2025-08",
-      "medianPrice": 385000,
-      "transactions": 93
+      "medianPrice": 382500,
+      "transactions": 98
     },
     {
       "month": "2025-09",
-      "medianPrice": 395000,
-      "transactions": 87
+      "medianPrice": 392500,
+      "transactions": 90
     },
     {
       "month": "2025-10",
-      "medianPrice": 398750,
-      "transactions": 118
+      "medianPrice": 397500,
+      "transactions": 119
     },
     {
       "month": "2025-11",
       "medianPrice": 370000,
-      "transactions": 83
+      "transactions": 85
     },
     {
       "month": "2025-12",
-      "medianPrice": 400000,
-      "transactions": 72
+      "medianPrice": 410000,
+      "transactions": 84
     },
     {
       "month": "2026-01",
       "medianPrice": 400000,
-      "transactions": 63
+      "transactions": 77
     },
     {
       "month": "2026-02",
       "medianPrice": 395000,
-      "transactions": 83
+      "transactions": 87
     },
     {
       "month": "2026-03",
-      "medianPrice": 385000,
-      "transactions": 64
+      "medianPrice": 380000,
+      "transactions": 65
     },
     {
       "month": "2026-04",
-      "medianPrice": 372500,
-      "transactions": 50
+      "medianPrice": 380000,
+      "transactions": 57
     },
     {
       "month": "2026-05",
-      "medianPrice": 395000,
-      "transactions": 20
+      "medianPrice": 371000,
+      "transactions": 52
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 446500,
+      "transactions": 22
     }
   ],
   "quarterlyHistory": [
@@ -359,8 +367,8 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 345000,
-      "transactions": 412
+      "medianPrice": 343250,
+      "transactions": 414
     },
     {
       "quarter": "2024-Q4",
@@ -370,7 +378,7 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 393000,
-      "transactions": 503
+      "transactions": 505
     },
     {
       "quarter": "2025-Q2",
@@ -379,23 +387,23 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 387000,
-      "transactions": 281
+      "medianPrice": 385000,
+      "transactions": 292
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 386500,
-      "transactions": 273
+      "medianPrice": 390000,
+      "transactions": 288
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 395000,
-      "transactions": 210
+      "transactions": 229
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 377500,
-      "transactions": 70
+      "medianPrice": 390000,
+      "transactions": 131
     }
   ]
 }

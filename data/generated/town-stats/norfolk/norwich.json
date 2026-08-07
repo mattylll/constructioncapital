@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:54.259Z",
+  "updatedAt": "2026-08-07T08:45:03.605Z",
   "townSlug": "norwich",
   "countySlug": "norfolk",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "NORWICH"
+  ],
   "marketSnapshot": {
     "medianPrice": 230000,
-    "transactionCount12m": 1580,
-    "yoyPriceChange": -2.1,
+    "transactionCount12m": 1583,
+    "yoyPriceChange": -1.7,
     "approvedApps12m": 0,
-    "pipelineUnits": 24,
-    "pipelineGdv": 5029500,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 12,
+    "pipelineGdv": 2505000,
     "approvalRate": 0
   }
 }

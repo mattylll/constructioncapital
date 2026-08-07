@@ -1,202 +1,205 @@
 {
-  "updatedAt": "2026-07-05T06:06:57.379Z",
+  "updatedAt": "2026-08-07T08:45:03.592Z",
   "townSlug": "goole",
   "countySlug": "east-riding-of-yorkshire",
   "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "EAST RIDING OF YORKSHIRE"
+  ],
   "stats": {
-    "medianPrice": 177250,
+    "medianPrice": 180000,
     "medianByType": {
-      "D": 322000,
-      "S": 186500,
-      "T": 107250,
-      "F": 106500
+      "D": 333000,
+      "S": 190000,
+      "T": 107500,
+      "F": 115000
     },
-    "transactionCount12m": 514,
-    "yoyChange": -11.4,
-    "newBuildCount": 20,
-    "existingCount": 494,
-    "newBuildPremium": 38
+    "transactionCount12m": 543,
+    "yoyChange": -10,
+    "newBuildCount": 28,
+    "existingCount": 515,
+    "newBuildPremium": 14.6
   },
   "recentTransactions": [
     {
-      "price": 275000,
-      "date": "2026-05-22",
-      "postcode": "DN14 7SP",
+      "price": 395000,
+      "date": "2026-06-26",
+      "postcode": "DN14 7HY",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, CAVILL DRIVE"
+      "address": "1, SHELFORD AVENUE"
     },
     {
-      "price": 160000,
-      "date": "2026-05-22",
-      "postcode": "DN14 8PS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, NEW COTTAGES"
-    },
-    {
-      "price": 247000,
-      "date": "2026-05-20",
-      "postcode": "DN14 7PR",
+      "price": 230000,
+      "date": "2026-06-24",
+      "postcode": "DN14 7DX",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "BURNSIDE, HIGH STREET"
+      "address": "36, THE MEADOWS"
     },
     {
-      "price": 120000,
-      "date": "2026-05-15",
-      "postcode": "DN14 6HX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, MALVERN ROAD"
-    },
-    {
-      "price": 333000,
-      "date": "2026-05-15",
-      "postcode": "DN14 7SR",
+      "price": 260000,
+      "date": "2026-06-18",
+      "postcode": "DN14 9RB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "88, LANGRICK AVENUE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-15",
-      "postcode": "DN14 9JQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, BEAST FAIR"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-14",
-      "postcode": "DN14 9EF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "113, HIGH STREET"
-    },
-    {
-      "price": 555000,
-      "date": "2026-05-13",
-      "postcode": "DN14 0AS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "FIELD LANE COTTAGE, FIELD LANE"
-    },
-    {
-      "price": 60000,
-      "date": "2026-05-08",
-      "postcode": "DN14 5RR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, COTTINGHAM STREET"
-    },
-    {
-      "price": 115000,
-      "date": "2026-05-08",
-      "postcode": "DN14 6BP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, PASTURE ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-05-08",
-      "postcode": "DN14 7ZG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, OSANA AVENUE"
-    },
-    {
-      "price": 340000,
-      "date": "2026-05-08",
-      "postcode": "DN14 7JB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, BRIERLEY CLOSE"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-07",
-      "postcode": "DN14 6LT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, NEWCLOSE LANE"
+      "address": "7, JASMINE CLOSE"
     },
     {
       "price": 185000,
-      "date": "2026-05-06",
-      "postcode": "DN14 5RZ",
+      "date": "2026-06-18",
+      "postcode": "DN14 9DF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "49, DEMPSTER AVENUE"
+      "address": "3, SNAITH ROAD"
     },
     {
-      "price": 174500,
-      "date": "2026-05-06",
-      "postcode": "DN14 8LD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "79, HIGH STREET"
-    },
-    {
-      "price": 115000,
-      "date": "2026-05-06",
-      "postcode": "DN14 6DU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, ELSIE STREET"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-05",
-      "postcode": "DN14 6RD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "88, WESTERN ROAD"
-    },
-    {
-      "price": 355000,
-      "date": "2026-05-01",
-      "postcode": "DN14 7DY",
+      "price": 370000,
+      "date": "2026-06-12",
+      "postcode": "DN14 6FE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "MEADOW SIDE, 102, BUTTFIELD ROAD"
+      "address": "1, BUTTERBUR DRIVE"
+    },
+    {
+      "price": 206000,
+      "date": "2026-06-10",
+      "postcode": "DN14 6UR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, LANSDOWN ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-08",
+      "postcode": "DN14 6FP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, JEEVES DRIVE"
+    },
+    {
+      "price": 90000,
+      "date": "2026-06-05",
+      "postcode": "DN14 5EP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, CARLISLE STREET"
+    },
+    {
+      "price": 272000,
+      "date": "2026-06-05",
+      "postcode": "DN14 9HN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, CHURCH LANE"
+    },
+    {
+      "price": 202000,
+      "date": "2026-06-05",
+      "postcode": "DN14 9JY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, MILL BALK PLACE"
+    },
+    {
+      "price": 128000,
+      "date": "2026-06-05",
+      "postcode": "DN14 8RL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, RIVERSIDE"
+    },
+    {
+      "price": 85000,
+      "date": "2026-06-05",
+      "postcode": "DN14 5HG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, FOUNTAYNE STREET"
+    },
+    {
+      "price": 90000,
+      "date": "2026-06-05",
+      "postcode": "DN14 5EP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "68, CARLISLE STREET"
+    },
+    {
+      "price": 88000,
+      "date": "2026-06-03",
+      "postcode": "DN14 5EX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, VICTORIA STREET"
+    },
+    {
+      "price": 143000,
+      "date": "2026-06-03",
+      "postcode": "DN14 5BN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, THE MALT KILNS"
+    },
+    {
+      "price": 101000,
+      "date": "2026-06-03",
+      "postcode": "DN14 6JA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, MARLBOROUGH AVENUE"
+    },
+    {
+      "price": 181000,
+      "date": "2026-06-01",
+      "postcode": "DN14 8QN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, CHAPEL LANE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-05-29",
+      "postcode": "DN14 6FA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, PHOENIX AVENUE"
+    },
+    {
+      "price": 252000,
+      "date": "2026-05-29",
+      "postcode": "DN14 9TB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, PUNTON WALK"
     },
     {
       "price": 190000,
-      "date": "2026-05-01",
-      "postcode": "DN14 6PL",
+      "date": "2026-05-29",
+      "postcode": "DN14 5JB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "27, ETON ROAD"
-    },
-    {
-      "price": 153000,
-      "date": "2026-04-30",
-      "postcode": "DN14 7ST",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "68A, HAILGATE"
+      "address": "1, SHUFFLETON COURT, HOOK ROAD"
     }
   ],
   "monthlyHistory": [
@@ -258,7 +261,7 @@
     {
       "month": "2024-12",
       "medianPrice": 234995,
-      "transactions": 74
+      "transactions": 75
     },
     {
       "month": "2025-01",
@@ -272,8 +275,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 236500,
-      "transactions": 94
+      "medianPrice": 235000,
+      "transactions": 93
     },
     {
       "month": "2025-04",
@@ -282,48 +285,48 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 220000,
-      "transactions": 57
+      "medianPrice": 238523,
+      "transactions": 58
     },
     {
       "month": "2025-06",
-      "medianPrice": 227500,
-      "transactions": 57
+      "medianPrice": 237995,
+      "transactions": 61
     },
     {
       "month": "2025-07",
-      "medianPrice": 191250,
-      "transactions": 72
+      "medianPrice": 192500,
+      "transactions": 83
     },
     {
       "month": "2025-08",
-      "medianPrice": 168000,
-      "transactions": 55
+      "medianPrice": 182855,
+      "transactions": 72
     },
     {
       "month": "2025-09",
-      "medianPrice": 194500,
-      "transactions": 56
+      "medianPrice": 195000,
+      "transactions": 61
     },
     {
       "month": "2025-10",
-      "medianPrice": 150000,
-      "transactions": 73
+      "medianPrice": 155000,
+      "transactions": 77
     },
     {
       "month": "2025-11",
-      "medianPrice": 185000,
-      "transactions": 59
+      "medianPrice": 167500,
+      "transactions": 66
     },
     {
       "month": "2025-12",
-      "medianPrice": 183750,
-      "transactions": 56
+      "medianPrice": 179500,
+      "transactions": 64
     },
     {
       "month": "2026-01",
-      "medianPrice": 167500,
-      "transactions": 34
+      "medianPrice": 175000,
+      "transactions": 36
     },
     {
       "month": "2026-02",
@@ -333,17 +336,22 @@
     {
       "month": "2026-03",
       "medianPrice": 172500,
-      "transactions": 29
+      "transactions": 31
     },
     {
       "month": "2026-04",
-      "medianPrice": 190000,
-      "transactions": 41
+      "medianPrice": 185000,
+      "transactions": 43
     },
     {
       "month": "2026-05",
-      "medianPrice": 190000,
-      "transactions": 19
+      "medianPrice": 185000,
+      "transactions": 44
+    },
+    {
+      "month": "2026-06",
+      "medianPrice": 185000,
+      "transactions": 17
     }
   ],
   "quarterlyHistory": [
@@ -365,37 +373,37 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 215000,
-      "transactions": 224
+      "transactions": 225
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 200000,
-      "transactions": 223
+      "transactions": 222
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 205500,
-      "transactions": 150
+      "medianPrice": 208000,
+      "transactions": 155
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 182855,
-      "transactions": 183
+      "medianPrice": 189995,
+      "transactions": 216
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 176000,
-      "transactions": 188
+      "medianPrice": 170000,
+      "transactions": 207
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 175000,
-      "transactions": 101
+      "transactions": 105
     },
     {
       "quarter": "2026-Q2",
-      "medianPrice": 190000,
-      "transactions": 60
+      "medianPrice": 185000,
+      "transactions": 104
     }
   ]
 }

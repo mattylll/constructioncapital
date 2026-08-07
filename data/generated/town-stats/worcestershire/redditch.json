@@ -1,14 +1,20 @@
 {
-  "updatedAt": "2026-07-03T11:39:53.044Z",
+  "updatedAt": "2026-08-07T08:45:02.425Z",
   "townSlug": "redditch",
   "countySlug": "worcestershire",
+  "isDistrictLevelFallback": false,
+  "hmlrDistricts": [
+    "REDDITCH"
+  ],
   "marketSnapshot": {
-    "medianPrice": 250000,
-    "transactionCount12m": 823,
-    "yoyPriceChange": 0.4,
+    "medianPrice": 260000,
+    "transactionCount12m": 836,
+    "yoyPriceChange": 4,
     "approvedApps12m": 0,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
+    "approvedRecent": 0,
+    "planningWindowMonths": 3,
+    "pipelineUnits": 330,
+    "pipelineGdv": 83175000,
     "approvalRate": 0
   }
 }
