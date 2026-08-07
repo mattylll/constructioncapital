@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-26T04:01:09.830Z",
+  "updatedAt": "2026-08-07T10:30:22.837Z",
   "townSlug": "stockport",
   "countySlug": "greater-manchester",
   "localAuthority": "Stockport Metropolitan Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-04-26",
-    "to": "2026-07-26",
-    "retrievedAt": "2026-07-26T04:01:09.829Z"
+    "from": "2026-05-07",
+    "to": "2026-08-07",
+    "retrievedAt": "2026-08-07T10:30:22.837Z"
   },
   "summary": {
-    "total": 647,
-    "relevant": 8,
+    "total": 663,
+    "relevant": 9,
     "approved": 0,
-    "pending": 8,
+    "pending": 9,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 377,
-    "totalUnits": 377,
+    "pendingUnits": 667,
+    "totalUnits": 667,
     "approvedGdv": 0,
-    "pendingGdv": 113100000,
-    "totalEstimatedGDV": 113100000,
+    "pendingGdv": 160950000,
+    "totalEstimatedGDV": 160950000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -177,6 +177,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.stockport.gov.uk/PlanningData-live/applicationDetails.do?activeTab=summary&keyVal=TG00WEPJHEA00"
+    },
+    {
+      "reference": "DC/099773",
+      "address": "Vitality House 217 Wellington Road South Heaviley Stockport SK2 6NG",
+      "postcode": "SK2 6NG",
+      "ward": "",
+      "proposal": "The proposed development will seek permission for the demolition of the existing building and structures on site and redevelopment of the site with a residential apartment scheme comprising of up to a maximum of 290 dwellings, together with 45sqm of commercial space at ground floor.",
+      "category": "other_residential",
+      "units": 290,
+      "estimatedGdv": 47850000,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.stockport.gov.uk/PlanningData-live/applicationDetails.do?activeTab=summary&keyVal=TITY5MPJ0DB00"
     }
   ]
 }

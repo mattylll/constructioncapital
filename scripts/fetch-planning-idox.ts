@@ -124,7 +124,8 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "Reigate and Banstead Borough Council",
     baseUrl: "https://planning.reigate-banstead.gov.uk",
     towns: [
-      { townSlug: "reigate", countySlug: "surrey" },
+      // 2026-07-12: "reigate" removed — no town page exists; Redhill is the
+      // Reigate & Banstead town with a page.
       { townSlug: "redhill", countySlug: "surrey" },
     ],
     enabled: true,
@@ -234,6 +235,89 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
       { townSlug: "southwark", countySlug: "greater-london" },
     ],
     enabled: false, // 2026-07-12: TLS chain repaired OK but search.do returns 500 server-side (verified repeatedly). Portal fault or path change — Wave 2; contact/re-check.
+  },
+
+  // ── Essex ───────────────────────────────────────────────────
+  {
+    id: "colchester",
+    name: "Colchester City Council",
+    baseUrl: "https://pa.colchester.gov.uk",
+    towns: [{ townSlug: "colchester", countySlug: "essex" }],
+    enabled: true, // added 2026-07-12: verified Idox live — BUT search returns 0 raw results over 3 months (implausible for Colchester; same silent-zero class as hammersmith-fulham). Search-params investigation needed; weekly ✅ does not mean data is flowing.
+  },
+
+  // ── Wave 2 additions (2026-07-12, fingerprint-verified) ─────
+  {
+    id: "sutton",
+    name: "London Borough of Sutton",
+    baseUrl: "https://planningregister.sutton.gov.uk",
+    towns: [{ townSlug: "sutton", countySlug: "greater-london" }],
+    enabled: true, // added 2026-07-12: verified Idox live (HTTP 200, IDOX PA marker + LPA name)
+  },
+  {
+    id: "tendring",
+    name: "Tendring District Council",
+    baseUrl: "https://idox.tendringdc.gov.uk",
+    towns: [{ townSlug: "clacton-on-sea", countySlug: "essex" }],
+    enabled: true, // added 2026-07-12: verified Idox live (HTTP 200, IDOX PA marker + LPA name)
+  },
+  {
+    id: "tower-hamlets",
+    name: "London Borough of Tower Hamlets",
+    baseUrl: "https://development.towerhamlets.gov.uk",
+    towns: [
+      { townSlug: "tower-hamlets", countySlug: "greater-london" },
+      { townSlug: "whitechapel", countySlug: "greater-london" },
+      { townSlug: "canary-wharf", countySlug: "greater-london" },
+    ],
+    enabled: true, // added 2026-07-12: verified Idox live (HTTP 200, IDOX PA marker + LPA name)
+  },
+
+  {
+    id: "harlow",
+    name: "Harlow Council",
+    baseUrl: "https://planningonline.harlow.gov.uk",
+    towns: [{ townSlug: "harlow", countySlug: "essex" }],
+    enabled: true, // added 2026-07-12: verified Idox live (batch-2 fingerprint, HTTP 200 + LPA name)
+  },
+  {
+    id: "north-tyneside",
+    name: "North Tyneside Council",
+    baseUrl: "https://idoxpublicaccess.northtyneside.gov.uk",
+    towns: [{ townSlug: "north-shields", countySlug: "tyne-and-wear" }],
+    enabled: true, // added 2026-07-12: verified Idox live (batch-2 fingerprint, HTTP 200 + LPA name)
+  },
+  {
+    id: "nuneaton-bedworth",
+    name: "Nuneaton and Bedworth Borough Council",
+    baseUrl: "https://idoxcloud.nuneatonandbedworth.gov.uk",
+    towns: [
+      { townSlug: "nuneaton", countySlug: "warwickshire" },
+      { townSlug: "bedworth", countySlug: "warwickshire" },
+    ],
+    enabled: false, // 2026-07-12: this is Idox CLOUD (new product), not Public Access — /online-applications 404s. See AUTHORITY_RESEARCH["NUNEATON AND BEDWORTH"]; Wave 3 idox-cloud scraper candidate.
+  },
+
+  {
+    id: "castle-point",
+    name: "Castle Point Borough Council",
+    baseUrl: "https://publicaccess.castlepoint.gov.uk",
+    towns: [{ townSlug: "canvey-island", countySlug: "essex" }],
+    enabled: true, // added 2026-07-12: verified Idox live (batch-1 fingerprint, HTTP 200 + signatures)
+  },
+  {
+    id: "braintree",
+    name: "Braintree District Council",
+    baseUrl: "https://publicaccess.braintree.gov.uk",
+    towns: [{ townSlug: "braintree", countySlug: "essex" }],
+    enabled: false, // 2026-07-12: council publishes this Idox URL but our probes hit Cloudflare 403 — force-test with --authority before enabling
+  },
+  {
+    id: "peterborough",
+    name: "Peterborough City Council",
+    baseUrl: "https://planpa.peterborough.gov.uk",
+    towns: [{ townSlug: "peterborough", countySlug: "cambridgeshire" }],
+    enabled: false, // 2026-07-12: council publishes this Idox URL; probes timed out — force-test with --authority before enabling
   },
 
   // ── Kent ────────────────────────────────────────────────────
@@ -408,9 +492,10 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
       { townSlug: "bristol-city-centre", countySlug: "bristol" },
       { townSlug: "bedminster", countySlug: "bristol" },
       { townSlug: "bishopston", countySlug: "bristol" },
-      { townSlug: "filton", countySlug: "bristol" },
       { townSlug: "hengrove", countySlug: "bristol" },
       { townSlug: "keynsham", countySlug: "bristol" },
+    
+      // 2026-07-12: filton removed — its LPA is South Gloucestershire (idox:south-gloucestershire owns it)
     ],
     enabled: true,
   },
@@ -1493,6 +1578,13 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
       { townSlug: "builth-wells", countySlug: "powys" },
       { townSlug: "hay-on-wye", countySlug: "powys" },
     ],
+    // 2026-08-07: pa.powys.gov.uk/online-applications/search.do returns HTTP
+    // 503 on three consecutive direct probes and to the scraper. Verified
+    // server-side, not a TLS or header-size failure on our end. These six
+    // towns last had data on 2026-07-12. Left ENABLED deliberately so the
+    // weekly run keeps retrying and recovers by itself if this is
+    // maintenance; revisit and re-fingerprint if it is still 503 by
+    // 2026-09-01, since the portal may have moved.
     enabled: true,
   },
   {
@@ -2310,6 +2402,24 @@ function isCertChainError(err: unknown): boolean {
   return false;
 }
 
+/**
+ * Some Idox front-ends emit a very large response header block (Dover sends
+ * well over undici's 16KB ceiling, mostly Set-Cookie and cache headers).
+ * Node's global fetch rejects these outright with a generic "fetch failed",
+ * while curl and node:https accept them — so this is our limit, not the
+ * portal being down. Detected here and routed to the https fallback below,
+ * which raises maxHeaderSize.
+ */
+function isHeadersOverflowError(err: unknown): boolean {
+  let e = err as { code?: string; cause?: unknown } | undefined;
+  for (let depth = 0; e && depth < 4; depth++) {
+    if (e.code === "UND_ERR_HEADERS_OVERFLOW") return true;
+    e = e.cause as { code?: string; cause?: unknown } | undefined;
+  }
+
+  return false;
+}
+
 function fetchIntermediateCert(caIssuerUrl: string): Promise<string> {
   return new Promise((resolve, reject) => {
     const client = caIssuerUrl.startsWith("https:") ? https : http;
@@ -2406,6 +2516,10 @@ function httpsRequestFollow(
         method: init.method,
         headers,
         agent,
+        // Node defaults to 16KB, same as undici. Portals that tripped the
+        // overflow need more than that, and this path exists precisely to
+        // serve them.
+        maxHeaderSize: 128 * 1024,
       },
       (res) => {
         const hopCookies = res.headers["set-cookie"] ?? [];
@@ -2464,6 +2578,17 @@ async function robustIdoxFetch(
   try {
     return (await fetch(url, init)) as unknown as IdoxResponse;
   } catch (err) {
+    if (isHeadersOverflowError(err)) {
+      console.log(
+        `  🔧 ${hostname} sent a response header block larger than fetch allows — retrying via https with a raised header limit...`
+      );
+      // No TLS repair needed, just a plain agent routed down the https path.
+      const agent = new https.Agent({ keepAlive: true });
+      tlsAgentCache.set(hostname, agent);
+
+      return httpsRequestFollow(url, init, agent);
+    }
+
     if (!isCertChainError(err)) throw err;
     console.log(
       `  🔧 ${hostname} served an incomplete TLS certificate chain — fetching the missing intermediate via AIA and retrying...`
@@ -2915,31 +3040,92 @@ async function scrapeAllResults(
     console.log(`  📡 Searching ${range.from} → ${range.to} (${i + 1}/${monthlyRanges.length})...`);
 
     try {
-      // Fresh session for each month (CSRF is single-use)
-      const { csrf, cookies } = await withRetry(
-        () => getSearchSession(authority),
-        `Session ${i + 1}`
-      );
-      await sleep(THROTTLE_MS);
-
-      const { results } = await scrapeDateRange(
-        authority, range.from, range.to, cookies, csrf
+      const results = await scrapeRangeSubdividing(
+        authority, range.from, range.to, `Session ${i + 1}`
       );
       console.log(`    ✓ ${results.length} results`);
       allResults.push(...results);
     } catch (err) {
-      if (String(err).includes("TOO_MANY_RESULTS")) {
-        console.log(`    ⚠️  Too many results for ${range.from}–${range.to}, skipping`);
-      } else {
-        console.error(`    ❌ Error: ${err}`);
-        monthsErrored++;
-      }
+      console.error(`    ❌ Error: ${err}`);
+      monthsErrored++;
     }
 
     await sleep(THROTTLE_BETWEEN_MONTHS_MS);
   }
 
   return { results: allResults, monthsAttempted: monthlyRanges.length, monthsErrored };
+}
+
+/** Parse DD/MM/YYYY into a Date. */
+function parseDDMMYYYY(s: string): Date {
+  const [d, m, y] = s.split("/").map(Number);
+
+  return new Date(y, m - 1, d);
+}
+
+/**
+ * Scrape one date range, halving it whenever the portal reports "too many
+ * results" rather than abandoning the window.
+ *
+ * Busy authorities (confirmed: Leeds, East Hertfordshire, East Riding) exceed
+ * Idox's result cap over a full month. This previously logged "skipping" and
+ * moved on WITHOUT counting an error, so the authority was recorded as a clean
+ * success while silently missing most of its data — East Riding came back with
+ * 20 applications from a 7-day tail after three of four months were dropped.
+ * Halving continues down to single days; a day that still overflows is genuinely
+ * beyond what the portal will return and is the only case we give up on.
+ */
+async function scrapeRangeSubdividing(
+  authority: IdoxAuthority,
+  dateFrom: string,
+  dateTo: string,
+  sessionLabel: string,
+  depth = 0
+): Promise<IdoxSearchResult[]> {
+  try {
+    // Fresh session per search — Idox CSRF tokens are single-use.
+    const { csrf, cookies } = await withRetry(
+      () => getSearchSession(authority),
+      sessionLabel
+    );
+    await sleep(THROTTLE_MS);
+
+    const { results } = await scrapeDateRange(
+      authority, dateFrom, dateTo, cookies, csrf
+    );
+
+    return results;
+  } catch (err) {
+    if (!String(err).includes("TOO_MANY_RESULTS")) throw err;
+
+    const start = parseDDMMYYYY(dateFrom);
+    const end = parseDDMMYYYY(dateTo);
+    const spanDays = Math.round((end.getTime() - start.getTime()) / 86_400_000);
+
+    if (spanDays < 1 || depth >= 6) {
+      console.log(
+        `    ⚠️  ${dateFrom} still exceeds the portal's result cap at one-day granularity — skipping this day only`
+      );
+
+      return [];
+    }
+
+    const mid = new Date(start.getTime() + Math.floor(spanDays / 2) * 86_400_000);
+    const midNext = new Date(mid.getTime() + 86_400_000);
+    console.log(
+      `    ↔️  Too many results for ${dateFrom}–${dateTo}, splitting into two narrower windows...`
+    );
+
+    const left = await scrapeRangeSubdividing(
+      authority, dateFrom, formatDateDDMMYYYY(mid), sessionLabel, depth + 1
+    );
+    await sleep(THROTTLE_BETWEEN_MONTHS_MS);
+    const right = await scrapeRangeSubdividing(
+      authority, formatDateDDMMYYYY(midNext), dateTo, sessionLabel, depth + 1
+    );
+
+    return [...left, ...right];
+  }
 }
 
 // ─── Idox → Canonical Format Conversion ──────────────────────
