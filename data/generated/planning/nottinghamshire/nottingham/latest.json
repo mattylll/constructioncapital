@@ -1,31 +1,50 @@
 {
-  "updatedAt": "2026-08-07T00:29:17.032Z",
+  "updatedAt": "2026-08-09T02:47:10.893Z",
   "townSlug": "nottingham",
   "countySlug": "nottinghamshire",
   "localAuthority": "Nottingham City Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-07",
-    "to": "2026-08-07",
-    "retrievedAt": "2026-08-07T00:29:17.032Z"
+    "from": "2026-05-09",
+    "to": "2026-08-09",
+    "retrievedAt": "2026-08-09T02:47:10.891Z"
   },
   "summary": {
-    "total": 406,
+    "total": 386,
     "relevant": 12,
     "approved": 0,
     "pending": 12,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 94,
-    "totalUnits": 94,
+    "pendingUnits": 122,
+    "totalUnits": 122,
     "approvedGdv": 0,
-    "pendingGdv": 13480000,
-    "totalEstimatedGDV": 13480000,
+    "pendingGdv": 18800000,
+    "totalEstimatedGDV": 18800000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/01205/PFUL3",
+      "address": "Wheatsheaf Public House Sneinton Road Nottingham Nottingham City NG2 4PW",
+      "postcode": "NG2 4PW",
+      "ward": "",
+      "proposal": "Proposal to demolish existing disused pub and build 28 dwellings over six storeys.",
+      "category": "other_residential",
+      "units": 28,
+      "estimatedGdv": 5320000,
+      "status": "Pending Consideration",
+      "decision": "Pending Consideration",
+      "receivedDate": "14/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.nottinghamcity.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TI5FJPLYJTK00"
+    },
     {
       "reference": "26/01192/PFUL3",
       "address": "St Anns Market Robin Hood Chase Nottingham",
@@ -234,25 +253,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.nottinghamcity.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEVAVVLYHM500"
-    },
-    {
-      "reference": "26/00717/PACPD",
-      "address": "Unit 5 Castlebridge Office Village Lawrence Way Nottingham",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Change of Use from offices to create 13 x C3 apartments",
-      "category": "prior_approval",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided",
-      "decision": "Decided",
-      "receivedDate": "06/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.nottinghamcity.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TELYI4LYGY900"
     }
   ]
 }

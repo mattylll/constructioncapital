@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-08-06T12:54:14.003Z",
+  "updatedAt": "2026-08-09T01:41:07.165Z",
   "townSlug": "sevenoaks",
   "countySlug": "kent",
   "localAuthority": "Sevenoaks District Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-06",
-    "to": "2026-08-06",
-    "retrievedAt": "2026-08-06T12:54:14.003Z"
+    "from": "2026-05-09",
+    "to": "2026-08-09",
+    "retrievedAt": "2026-08-09T01:41:07.164Z"
   },
   "summary": {
     "total": 128,
@@ -20,8 +20,8 @@
     "pendingUnits": 3,
     "totalUnits": 3,
     "approvedGdv": 0,
-    "pendingGdv": 1485000,
-    "totalEstimatedGDV": 1485000,
+    "pendingGdv": 1477500,
+    "totalEstimatedGDV": 1477500,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -44,6 +44,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.sevenoaks.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFYEQOBK0LO00"
+    },
+    {
+      "reference": "26/01357/FUL",
+      "address": "Unit 1 Block 12 Vestry Road Sevenoaks Kent TN14 5EL",
+      "postcode": "TN14 5EL",
+      "ward": "",
+      "proposal": "Demolition of an existing warehouse building and change of use of land to open storage (Use Class B8), the retention of an existing building (use class B8), the erection of fencing and with finished level with surrounding surfaces to be compacted Type 2 stone ermeable).",
+      "category": "change_of_use",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://pa.sevenoaks.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFR8LBBKFXT00"
     },
     {
       "reference": "26/01343/FUL",
@@ -110,7 +129,7 @@
       "proposal": "The erection of two dwellings with associated access, parking, cycle shed and landscaping, including fencing.",
       "category": "new_build",
       "units": 2,
-      "estimatedGdv": 990000,
+      "estimatedGdv": 985000,
       "status": "",
       "decision": "",
       "receivedDate": "",
@@ -167,7 +186,7 @@
       "proposal": "Prior notification for a change of use from Commercial, Business and Service (Use Class E) to Dwellinghouses (Use Class C3). This application is made under Class MA of The Town and Country Planning (General Permitted Development) (England) Order 2015.",
       "category": "prior_approval",
       "units": 1,
-      "estimatedGdv": 495000,
+      "estimatedGdv": 492500,
       "status": "",
       "decision": "",
       "receivedDate": "",
@@ -215,25 +234,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.sevenoaks.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEZGNPBKFNH00"
-    },
-    {
-      "reference": "26/01225/FUL",
-      "address": "Rosede Old London Road Knockholt Kent TN14 7LU",
-      "postcode": "TN14 7LU",
-      "ward": "",
-      "proposal": "Erection of detached dwelling including subterranean basement, double garage/part port, and introduction of vehicular access and gate, associated car parking and hard and soft landscaping.",
-      "category": "new_build",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.sevenoaks.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEZGN9BKFNF00"
     }
   ]
 }

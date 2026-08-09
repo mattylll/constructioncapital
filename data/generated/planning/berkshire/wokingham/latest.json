@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-07T08:02:24.764Z",
+  "updatedAt": "2026-08-09T04:30:18.251Z",
   "townSlug": "wokingham",
   "countySlug": "berkshire",
   "localAuthority": "Wokingham Borough Council",
   "source": "fastweb",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-07",
-    "to": "2026-08-07",
-    "retrievedAt": "2026-08-07T08:02:24.763Z"
+    "from": "2026-05-09",
+    "to": "2026-08-09",
+    "retrievedAt": "2026-08-09T04:30:18.249Z"
   },
   "summary": {
-    "total": 565,
-    "relevant": 6,
-    "approved": 2,
+    "total": 561,
+    "relevant": 5,
+    "approved": 1,
     "pending": 4,
     "refused": 0,
-    "approvedUnits": 5,
+    "approvedUnits": 2,
     "pendingUnits": 575,
-    "totalUnits": 580,
-    "approvedGdv": 2375000,
+    "totalUnits": 577,
+    "approvedGdv": 950000,
     "pendingGdv": 273125000,
-    "totalEstimatedGDV": 275500000,
+    "totalEstimatedGDV": 274075000,
     "approvalRate": 100
   },
   "approvedApplications": [
@@ -43,25 +43,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.wokingham.gov.uk/FastWebPL/detail.asp?AltRef=261486"
-    },
-    {
-      "reference": "261108",
-      "address": "Land to the South of 6 Harvest Place Wargrave Reading RG10 8AG",
-      "postcode": "RG10 8AG",
-      "ward": "",
-      "proposal": "Permission in principle application for a residential development comprising the erection of a minimum of 2 and a maximum of 3 dwellings, including removal of existing outbuildings.",
-      "category": "other_residential",
-      "units": 3,
-      "estimatedGdv": 1425000,
-      "status": "Decided",
-      "decision": "Approve",
-      "receivedDate": "07/05/2026",
-      "decisionDate": "19/06/2026",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.wokingham.gov.uk/FastWebPL/detail.asp?AltRef=261108"
     }
   ],
   "pendingApplications": [

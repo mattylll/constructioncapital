@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-08-07T07:42:46.877Z",
+  "updatedAt": "2026-08-09T03:04:53.845Z",
   "townSlug": "st-ives",
   "countySlug": "cambridgeshire",
   "localAuthority": "Huntingdonshire District Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-07",
-    "to": "2026-08-07",
-    "retrievedAt": "2026-08-07T07:42:46.877Z"
+    "from": "2026-05-09",
+    "to": "2026-08-09",
+    "retrievedAt": "2026-08-09T03:04:53.844Z"
   },
   "summary": {
-    "total": 565,
-    "relevant": 108,
-    "approved": 10,
+    "total": 557,
+    "relevant": 105,
+    "approved": 9,
     "pending": 92,
-    "refused": 1,
+    "refused": 0,
     "approvedUnits": 6,
     "pendingUnits": 1717,
     "totalUnits": 1723,
     "approvedGdv": 1800000,
-    "pendingGdv": 515640000,
-    "totalEstimatedGDV": 517440000,
-    "approvalRate": 91
+    "pendingGdv": 515680000,
+    "totalEstimatedGDV": 517480000,
+    "approvalRate": 100
   },
   "approvedApplications": [
     {
@@ -138,25 +138,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TF8A0HIKMU700"
-    },
-    {
-      "reference": "26/00850/CLPD",
-      "address": "85 Wertheim Way Huntingdon PE29 6UH",
-      "postcode": "PE29 6UH",
-      "ward": "",
-      "proposal": "Lawful development certificate for proposed use of property as a residential care home for up to 2 young persons (Class C2) (no material difference with lawful use as Class C3 dwelling)",
-      "category": "other_residential",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Approved",
-      "decision": "Approved",
-      "receivedDate": "08/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEPDIYIKMML00"
     },
     {
       "reference": "26/01059/S73",
@@ -1320,6 +1301,25 @@
       "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGV5GGIKFQN00"
     },
     {
+      "reference": "26/01086/FUL",
+      "address": "Tesco Stores Ltd Abbots Ripton Road Huntingdon PE28 2LA",
+      "postcode": "PE28 2LA",
+      "ward": "",
+      "proposal": "Installation of a self service laundry kiosk to superstore curtilage",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "In progress",
+      "decision": "In progress",
+      "receivedDate": "16/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGPZFGIKFO800"
+    },
+    {
       "reference": "26/01081/FUL",
       "address": "Land Rear Of 72A To 78 High Street Great Paxton",
       "postcode": "",
@@ -1479,7 +1479,7 @@
       "proposal": "Demolition of the existing cattery and kennels buildings and the erection of 4 detached dwellings, together with associated works including access and infrastructure",
       "category": "demolition_rebuild",
       "units": 4,
-      "estimatedGdv": 1740000,
+      "estimatedGdv": 1780000,
       "status": "In progress",
       "decision": "In progress",
       "receivedDate": "10/06/2026",
@@ -1945,25 +1945,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEXBNQIKMPM00"
-    },
-    {
-      "reference": "26/00845/FUL",
-      "address": "Tower Farm And Stables Toseland Road Yelling PE19 6SA",
-      "postcode": "PE19 6SA",
-      "ward": "",
-      "proposal": "Increase in number of mobile home pitches from 1 to 7 and retrospective permission for the erection of 1 additional Day Room. Site to include siting of 4 Touring Caravans. Use class remains mixed between part equestrian use and part traveller site.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "In progress",
-      "decision": "In progress",
-      "receivedDate": "07/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.huntingdonshire.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TENZE2IKMM200"
     }
   ]
 }

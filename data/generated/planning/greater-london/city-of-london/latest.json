@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-06T12:11:50.314Z",
+  "updatedAt": "2026-08-09T01:02:26.741Z",
   "townSlug": "city-of-london",
   "countySlug": "greater-london",
   "localAuthority": "City of London Corporation",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-06",
-    "to": "2026-08-06",
-    "retrievedAt": "2026-08-06T12:11:50.313Z"
+    "from": "2026-05-09",
+    "to": "2026-08-09",
+    "retrievedAt": "2026-08-09T01:02:26.740Z"
   },
   "summary": {
-    "total": 375,
+    "total": 382,
     "relevant": 37,
     "approved": 0,
     "pending": 37,
@@ -26,6 +26,25 @@
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/01107/LBC",
+      "address": "Park House 16 Finsbury Circus London EC2M 7EB",
+      "postcode": "EC2M 7EB",
+      "ward": "",
+      "proposal": "Internal alterations to ground floor level including new partitions and office fit out.",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Under Consideration",
+      "decision": "Under Consideration",
+      "receivedDate": "31/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://www.planning2.cityoflondon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJ1PUTFHJGN00"
+    },
     {
       "reference": "26/01055/LBC",
       "address": "St Ethelburga's Centre For Reconciliation And Peace 78 Bishopsgate London EC2N 4AG",
@@ -709,25 +728,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://www.planning2.cityoflondon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEYYG7FHH7Z00"
-    },
-    {
-      "reference": "26/00664/LBC",
-      "address": "163 Cromwell Tower Barbican London EC2Y 8DD",
-      "postcode": "EC2Y 8DD",
-      "ward": "",
-      "proposal": "Internal alterations to include the removal of internal door between kitchen and utility, removal of sliding panels in hallway and cupboards in bedrooms. Installation of sliding door to en suite shower room, replacement of internal doors and refurbishment of kitchen and bathrooms.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided",
-      "decision": "Decided",
-      "receivedDate": "07/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://www.planning2.cityoflondon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TENKT2FHH1W00"
     }
   ]
 }
