@@ -32,7 +32,7 @@ const report: MarketReport = {
       heading: "What this means for developers seeking finance",
       content: [
         `A market writing roughly 1,250 secured facilities a week across 35 active lenders is a market with genuine competition for good schemes. Pricing and leverage still vary widely between lenders, which is exactly where whole-of-market advice earns its keep.`,
-        `Construction Capital arranges development finance, bridging and development exit facilities across the lenders behind these numbers. To discuss a scheme, call <a href="tel:+441582227007">01582 227 007</a> or start with the <a href="/deal-room">deal room</a>.`,
+        `Construction Capital arranges development finance, bridging and development exit facilities across the lenders behind these numbers. To discuss a scheme, call <a href="tel:+442038163693">+44 20 3816 3693</a> or start with the <a href="/deal-room">deal room</a>.`,
       ],
     },
   ],
