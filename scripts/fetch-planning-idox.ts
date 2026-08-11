@@ -372,6 +372,10 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "Portsmouth City Council",
     baseUrl: "https://publicaccess.portsmouth.gov.uk",
     towns: [{ townSlug: "portsmouth", countySlug: "hampshire" }],
+    // 2026-08-11: HTTP 403 from our network AND from an independent second
+    // network — WAF-class blocking of automated access at the portal, not a
+    // reaction to our scraping volume. Wave-2 item (request-shape work).
+    // Left enabled so the weekly run detects if the block lifts.
     enabled: true,
   },
   {
@@ -550,6 +554,11 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "Manchester City Council",
     baseUrl: "https://pa.manchester.gov.uk",
     towns: [{ townSlug: "manchester", countySlug: "greater-manchester" }],
+    // 2026-08-11: connection timeout from our network AND ECONNREFUSED from an
+    // independent second network — the portal is refusing connections at
+    // source, not blocking our IP. Worked 2026-08-10 early in the 12-month
+    // run. Left enabled to self-heal; re-fingerprint if still dead by
+    // 2026-09-01. Last good data: 2026-08-10 (12mo window).
     enabled: true,
   },
   {

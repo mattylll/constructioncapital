@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T11:15:40.894Z",
+  "updatedAt": "2026-08-11T10:44:11.005Z",
   "townSlug": "canary-wharf",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": true,
@@ -8,13 +8,13 @@
   ],
   "marketSnapshot": {
     "medianPrice": 460000,
-    "transactionCount12m": 1882,
+    "transactionCount12m": 1860,
     "yoyPriceChange": -9.8,
     "approvedApps12m": 0,
     "approvedRecent": 0,
-    "planningWindowMonths": 3,
-    "pipelineUnits": 1,
-    "pipelineGdv": 471356,
+    "planningWindowMonths": 12,
+    "pipelineUnits": 25,
+    "pipelineGdv": 11500000,
     "approvalRate": 0
   }
 }
