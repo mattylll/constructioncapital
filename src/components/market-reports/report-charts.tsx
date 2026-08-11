@@ -259,9 +259,15 @@ export function ReportChartsSection({ charts }: { charts: ReportCharts }) {
 export function QuarterlyTrendChart({
   data,
   label = "Facilities registered per quarter",
+  unit = "facilities",
+  tickInterval = 1,
 }: {
   data: { name: string; value: number }[];
   label?: string;
+  /** Tooltip unit, e.g. "facilities" or "% of existing stock" */
+  unit?: string;
+  /** X-axis tick interval (0 = every label) */
+  tickInterval?: number;
 }) {
   return (
     <div className="my-10">
@@ -279,7 +285,7 @@ export function QuarterlyTrendChart({
             tick={{ fontSize: 11, fill: "oklch(0.45 0.02 255)" }}
             tickLine={false}
             axisLine={false}
-            interval={1}
+            interval={tickInterval}
           />
           <YAxis
             tick={{ fontSize: 11, fill: "oklch(0.45 0.02 255)" }}
@@ -290,7 +296,7 @@ export function QuarterlyTrendChart({
           />
           <Tooltip
             content={
-              <CustomTooltip valueFormatter={(v) => `${v.toLocaleString("en-GB")} facilities`} />
+              <CustomTooltip valueFormatter={(v) => `${v.toLocaleString("en-GB")} ${unit}`} />
             }
             cursor={{ fill: "oklch(0.95 0.01 255)" }}
           />

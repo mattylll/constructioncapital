@@ -276,6 +276,12 @@ export default async function MarketReportPage({ params }: PageProps) {
             // Lending Monitor time series: explicit condition (first section),
             // not a heading-substring match — those have proven fragile.
             const showQuarterlyTrend = !!(report.charts?.quarterlyTrend?.length) && i === 0;
+            // Lending niche editions reuse townPrices for a regional-ratio bar
+            // (rendered unit-aware, NOT with the £-formatted town chart).
+            const showLendingRegional =
+              report.category === "lending" &&
+              !!(report.charts?.townPrices?.length) &&
+              heading.includes("existing stock");
 
             return (
               <div key={i} id={`section-${i}`} className="mb-16 scroll-mt-24">
@@ -316,6 +322,14 @@ export default async function MarketReportPage({ params }: PageProps) {
                 {showYoyChange && <YoyChangeChart data={report.charts!.townYoyChange!} />}
                 {showQuarterlyTrend && (
                   <QuarterlyTrendChart data={report.charts!.quarterlyTrend!} />
+                )}
+                {showLendingRegional && (
+                  <QuarterlyTrendChart
+                    data={report.charts!.townPrices!}
+                    label="Pipeline beds as a share of existing CQC-registered stock"
+                    unit="% of existing stock"
+                    tickInterval={0}
+                  />
                 )}
               </div>
             );

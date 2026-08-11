@@ -1,0 +1,58 @@
+{
+ "asOf": "2026-06-03",
+ "attribution": "Contains public sector information from the Care Quality Commission, licensed under the Open Government Licence v3.0.",
+ "totals": {
+  "homes": 13738,
+  "beds": 444873,
+  "poorRatedPct": 17.3
+ },
+ "byRegion": {
+  "East of England": {
+   "homes": 850,
+   "beds": 29898,
+   "poor": 179,
+   "rated": 764
+  },
+  "London & South East": {
+   "homes": 4505,
+   "beds": 144342,
+   "poor": 649,
+   "rated": 4163
+  },
+  "South West": {
+   "homes": 1753,
+   "beds": 52310,
+   "poor": 179,
+   "rated": 1665
+  },
+  "North West": {
+   "homes": 1777,
+   "beds": 59790,
+   "poor": 333,
+   "rated": 1645
+  },
+  "North East & Yorkshire": {
+   "homes": 1817,
+   "beds": 63302,
+   "poor": 275,
+   "rated": 1695
+  },
+  "Midlands": {
+   "homes": 3036,
+   "beds": 95231,
+   "poor": 587,
+   "rated": 2763
+  }
+ },
+ "typeSplit": {
+  "newBuild": 65,
+  "extension": 30,
+  "conversion": 194,
+  "other": 26
+ },
+ "sizeBands": {
+  "1-19": 193,
+  "20-59": 7,
+  "60plus": 12
+ }
+}
