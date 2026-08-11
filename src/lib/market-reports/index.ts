@@ -1,4 +1,5 @@
 import type { MarketReport, ReportCategory } from "./types";
+import { LENDING_REPORTS } from "./reports/lending";
 import { PRESS_REPORTS } from "./reports/press";
 import { TOWN_REPORTS } from "./reports/town";
 import { TOWN_REPORTS_H1_2026 } from "./reports/town/index-h1-2026";
@@ -141,6 +142,7 @@ const UNSORTED_MARKET_REPORTS: MarketReport[] = [
   property_type_price_guide_2026,
   uk_house_price_changes_2026,
   // Press / PR reports
+  ...LENDING_REPORTS,
   ...PRESS_REPORTS,
   // Town (auto-imported from barrel)
   ...TOWN_REPORTS,

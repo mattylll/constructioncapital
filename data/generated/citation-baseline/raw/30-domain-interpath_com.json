@@ -1,0 +1,178 @@
+{
+  "rank": {
+    "endpoint": "/dataforseo_labs/google/domain_rank_overview/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.01212,
+    "result": [
+      {
+        "se_type": "google",
+        "target": "interpath.com",
+        "location_code": 2826,
+        "language_code": "en",
+        "total_count": 1,
+        "items_count": 1,
+        "items": [
+          {
+            "se_type": "google",
+            "location_code": 2826,
+            "language_code": "en",
+            "metrics": {
+              "organic": {
+                "pos_1": 16,
+                "pos_2_3": 27,
+                "pos_4_10": 103,
+                "pos_11_20": 57,
+                "pos_21_30": 58,
+                "pos_31_40": 39,
+                "pos_41_50": 34,
+                "pos_51_60": 20,
+                "pos_61_70": 22,
+                "pos_71_80": 9,
+                "pos_81_90": 8,
+                "pos_91_100": 0,
+                "etv": 11922.434149928391,
+                "count": 393,
+                "estimated_paid_traffic_cost": 23639.9881090587,
+                "is_new": 232,
+                "is_up": 77,
+                "is_down": 53,
+                "is_lost": 113,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              },
+              "paid": {
+                "pos_1": 0,
+                "pos_2_3": 0,
+                "pos_4_10": 0,
+                "pos_11_20": 0,
+                "pos_21_30": 0,
+                "pos_31_40": 0,
+                "pos_41_50": 0,
+                "pos_51_60": 0,
+                "pos_61_70": 0,
+                "pos_71_80": 0,
+                "pos_81_90": 0,
+                "pos_91_100": 0,
+                "etv": 0,
+                "count": 0,
+                "estimated_paid_traffic_cost": 0,
+                "is_new": 0,
+                "is_up": 0,
+                "is_down": 0,
+                "is_lost": 0,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "bl": {
+    "endpoint": "/backlinks/summary/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.024036,
+    "result": [
+      {
+        "target": "interpath.com",
+        "first_seen": "2019-01-15 23:45:55 +00:00",
+        "lost_date": null,
+        "rank": 338,
+        "backlinks": 11394,
+        "backlinks_spam_score": 3,
+        "crawled_pages": 1029,
+        "info": {
+          "server": "cloudflare",
+          "cms": null,
+          "platform_type": [
+            "unknown"
+          ],
+          "ip_address": "141.193.213.20",
+          "country": "GB",
+          "is_ip": false,
+          "target_spam_score": 0
+        },
+        "internal_links_count": 11094,
+        "external_links_count": 358,
+        "broken_backlinks": 1,
+        "broken_pages": 41,
+        "referring_domains": 775,
+        "referring_domains_nofollow": 336,
+        "referring_main_domains": 729,
+        "referring_main_domains_nofollow": 328,
+        "referring_ips": 544,
+        "referring_subnets": 415,
+        "referring_pages": 6495,
+        "referring_pages_nofollow": 807,
+        "referring_links_tld": {
+          "com": 5474,
+          "de": 190,
+          "co.uk": 177,
+          "org": 83,
+          "ie": 58,
+          "ch": 40,
+          "at": 39,
+          "jobs": 38,
+          "net": 37,
+          "co": 31
+        },
+        "referring_links_types": {
+          "anchor": 3955,
+          "image": 2456,
+          "redirect": 84
+        },
+        "referring_links_attributes": {
+          "nofollow": 807,
+          "noopener": 747,
+          "noreferrer": 499,
+          "ugc": 8,
+          "external": 6
+        },
+        "referring_links_platform_types": {
+          "unknown": 5167,
+          "organization": 891,
+          "cms": 360,
+          "blogs": 332,
+          "news": 242,
+          "ecommerce": 18,
+          "message-boards": 3
+        },
+        "referring_links_semantic_locations": {
+          "section": 5003,
+          "": 691,
+          "article": 416,
+          "main": 347,
+          "header": 16,
+          "aside": 11,
+          "details": 4,
+          "figcaption": 3,
+          "figure": 3,
+          "footer": 1
+        },
+        "referring_links_countries": {
+          "": 2850,
+          "GB": 2783,
+          "DE": 221,
+          "US": 193,
+          "WW": 98,
+          "IE": 58,
+          "IN": 53,
+          "CH": 40,
+          "AT": 40,
+          "CO": 31
+        }
+      }
+    ]
+  }
+}

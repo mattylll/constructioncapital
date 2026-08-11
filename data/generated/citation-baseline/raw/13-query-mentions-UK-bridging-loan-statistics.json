@@ -1,0 +1,1601 @@
+{
+  "endpoint": "/ai_optimization/llm_mentions/search_mentions/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.11,
+  "result": [
+    {
+      "total_count": 10,
+      "offset": 0,
+      "search_after_token": "eyJDdXJyZW50T2Zmc2V0IjoxMCwiUmF3UmVxdWVzdCI6eyJ0YXJnZXQiOlt7InR5cGUiOiJrZXl3b3JkIiwia2V5d29yZCI6IlVLIGJyaWRnaW5nIGxvYW4gc3RhdGlzdGljcyIsInNlYXJjaF9zY29wZSI6WyJhbnkiXSwic2VhcmNoX3R5cGUiOiJpbmNsdWRlIiwiZW50cnlfdHlwZSI6IndvcmRfbWF0Y2gifV0sInBsYXRmb3JtIjpudWxsLCJsYW5ndWFnZSI6ImVuIiwibG9jYXRpb24iOjI4MjYsImxpbWl0IjoyMCwib2Zmc2V0IjowLCJvcmRlcl9ieSI6bnVsbCwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJhaWQiOjcwODk4fSwiU2VhcmNoQWZ0ZXJEYXRhIjp7IlZlcnNpb24iOjEsIlNlYXJjaEFmdGVyVmFsdWVzIjp7ImFpX3NlYXJjaF92b2x1bWUiOjUwLCJkYXRlIjoiMjAyNi0wNy0xMVQxNDoxODozM1oiLCJoYXNoIjotODQ4ODY3NzY2NjEzOTk3NzQ0MH0sIlRva2VuUmVhbE9mZnNldCI6MH19",
+      "items_count": 10,
+      "items": [
+        {
+          "platform": "google",
+          "model_name": "google_ai_overview",
+          "location_code": 2826,
+          "language_code": "en",
+          "question": "budgetary deficit",
+          "answer": "A budget deficit `occurs when a government's total expenditure exceeds its total tax revenues and other receipts over a specific financial period, requiring it to borrow money`.[](https://commonslibrary.parliament.uk/research-briefings/sn06167/) [[1]](https://commonslibrary.parliament.uk/research-briefings/sn06167/)[[2]](https://www.vedantu.com/commerce/budget-deficit)\n\nKey Concepts\n\n- **Budget Deficit Formula**: E x p e n d i t u r e−R e v e n u e=D e f i c i t\n- **Deficit vs. Debt** : The deficit is the shortfall within a single financial year. The **national debt** is the cumulative total of all unpaid annual deficits.\n- **Primary Deficit** : The budget deficit minus interest payments on the national debt.[](https://commonslibrary.parliament.uk/research-briefings/sn06167/) [[1]](https://commonslibrary.parliament.uk/research-briefings/sn06167/)[[2]](https://gocardless.com/guides/posts/what-is-a-budget-deficit/)\n\nHow Governments Cover the Shortfall\n\nTo bridge the gap between what they spend and what they collect, governments primarily:\n\n- **Issue Bonds** : Sell government bonds, gilts, or Treasury securities to investors and central banks.\n- **Borrow** : Take on loans from international organizations or other countries.[[1]](https://www.freshbooks.com/en-gb/hub/accounting/fiscal-deficit)[[2]](https://unherd.com/newsroom/frances-deficit-crisis-could-topple-emmanuel-macron/)[[3]](https://testbook.com/question-answer/which-of-the-following-best-defines-the-fiscal-def--6358cbe7ace566f090355f24)[[4]](https://testbook.com/question-answer/read-the-following-statements-and-select-the-appro--6967a7ba2f3354b188bfd865)\n\nEconomic Impact\n\n- **Stimulus (Keynesian)** : Deliberate deficit spending is sometimes used to stimulate an ailing economy, boost employment, and drive aggregate demand.\n- **Debt Accumulation** : Persistent deficits increase the national debt, which means a larger portion of future tax revenue must be spent just to pay the interest.\n- **Inflation Risk** : If a government covers deficits by printing excessive money, it can trigger inflation or currency devaluation.[](https://www.investopedia.com/terms/b/budget-deficit.asp) [[1]](https://www.investopedia.com/terms/b/budget-deficit.asp)[[2]](https://gocardless.com/guides/posts/what-is-a-budget-deficit/)[[3]](https://www.tutor2u.net/economics/reference/ib-economics-the-budget-outcome)[[4]](https://www.lynalden.com/fiscal-and-monetary-policy/)\n\nCurrent UK Figures For context on the United Kingdom's public finances, borrowing (the overall public sector budget deficit) reached £24.3 billion in April 2026. For the full financial year ending March 2026, provisional estimates indicated borrowing sat at £129.0 billion (about 4.2% of GDP).[](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/april2026) [[1]](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/april2026)You can track up-to-date monthly borrowing figures and fiscal reports on the [Office for National Statistics](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/april2026) or read analysis from the [Office for Budget Responsibility](https://obr.uk/forecasts-in-depth/brief-guides-and-explainers/public-finances/).[[1]](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/april2026)[[2]](https://obr.uk/monthly-public-finances-briefing/)",
+          "sources": [
+            {
+              "snippet": "The deficit is the difference between government revenue and spending, usually measured over a single financial year. Debt is the ...",
+              "source_name": "The House of Commons Library",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 1,
+              "title": "The budget deficit: a short guide - The House of Commons Library",
+              "domain": "commonslibrary.parliament.uk",
+              "url": "https://commonslibrary.parliament.uk/research-briefings/sn06167/",
+              "publication_date": null
+            },
+            {
+              "snippet": "Budget deficit definition What is a budget deficit? A budget deficit occurs when expenses exceed income (i.e., tax and other borro...",
+              "source_name": "GoCardless",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 2,
+              "title": "What Is a Budget Deficit? - GoCardless",
+              "domain": "gocardless.com",
+              "url": "https://gocardless.com/guides/posts/what-is-a-budget-deficit/",
+              "publication_date": null
+            },
+            {
+              "snippet": "1. Main points * Borrowing – the difference between total public sector spending and income – was £24.3 billion in April 2026; thi...",
+              "source_name": "Office for National Statistics",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 3,
+              "title": "Public sector finances, UK: April 2026 - Office for National Statistics",
+              "domain": "www.ons.gov.uk",
+              "url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/april2026",
+              "publication_date": null
+            },
+            {
+              "snippet": "What Is the Difference Between the Federal Budget Deficit and the Federal Government Debt? A federal budget deficit occurs when go...",
+              "source_name": "Investopedia",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 4,
+              "title": "Understanding Budget Deficits: Causes, Impact, and Solutions",
+              "domain": "www.investopedia.com",
+              "url": "https://www.investopedia.com/terms/b/budget-deficit.asp",
+              "publication_date": null
+            },
+            {
+              "snippet": "The budget deficit is calculated with the following formula: Budget Deficit = Total Government Expenditure – Total Government Rece...",
+              "source_name": "Vedantu",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 5,
+              "title": "Budget Deficit: Types, Formula, Advantages, and Examples - Vedantu",
+              "domain": "www.vedantu.com",
+              "url": "https://www.vedantu.com/commerce/budget-deficit",
+              "publication_date": null
+            }
+          ],
+          "search_results": null,
+          "ai_search_volume": 1300,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 1600
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "search_volume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "search_volume": 2900
+            }
+          ],
+          "first_response_at": "2025-09-12 04:07:41 +00:00",
+          "last_response_at": "2026-05-27 18:28:16 +00:00",
+          "brand_entities": null,
+          "fan_out_queries": null,
+          "is_web_search_based": true
+        },
+        {
+          "platform": "google",
+          "model_name": "google_ai_overview",
+          "location_code": 2826,
+          "language_code": "en",
+          "question": "budget deficits",
+          "answer": "A budget deficit `occurs when a government's total expenditure exceeds its total tax revenues and other receipts over a specific financial period, requiring it to borrow money`.[](https://commonslibrary.parliament.uk/research-briefings/sn06167/) [[1]](https://commonslibrary.parliament.uk/research-briefings/sn06167/)[[2]](https://www.vedantu.com/commerce/budget-deficit)\n\nKey Concepts\n\n- **Budget Deficit Formula**: E x p e n d i t u r e−R e v e n u e=D e f i c i t\n- **Deficit vs. Debt** : The deficit is the shortfall within a single financial year. The **national debt** is the cumulative total of all unpaid annual deficits.\n- **Primary Deficit** : The budget deficit minus interest payments on the national debt.[](https://commonslibrary.parliament.uk/research-briefings/sn06167/) [[1]](https://commonslibrary.parliament.uk/research-briefings/sn06167/)[[2]](https://gocardless.com/guides/posts/what-is-a-budget-deficit/)\n\nHow Governments Cover the Shortfall\n\nTo bridge the gap between what they spend and what they collect, governments primarily:\n\n- **Issue Bonds** : Sell government bonds, gilts, or Treasury securities to investors and central banks.\n- **Borrow** : Take on loans from international organizations or other countries.[[1]](https://www.freshbooks.com/en-gb/hub/accounting/fiscal-deficit)[[2]](https://unherd.com/newsroom/frances-deficit-crisis-could-topple-emmanuel-macron/)[[3]](https://testbook.com/question-answer/which-of-the-following-best-defines-the-fiscal-def--6358cbe7ace566f090355f24)[[4]](https://testbook.com/question-answer/read-the-following-statements-and-select-the-appro--6967a7ba2f3354b188bfd865)\n\nEconomic Impact\n\n- **Stimulus (Keynesian)** : Deliberate deficit spending is sometimes used to stimulate an ailing economy, boost employment, and drive aggregate demand.\n- **Debt Accumulation** : Persistent deficits increase the national debt, which means a larger portion of future tax revenue must be spent just to pay the interest.\n- **Inflation Risk** : If a government covers deficits by printing excessive money, it can trigger inflation or currency devaluation.[](https://www.investopedia.com/terms/b/budget-deficit.asp) [[1]](https://www.investopedia.com/terms/b/budget-deficit.asp)[[2]](https://gocardless.com/guides/posts/what-is-a-budget-deficit/)[[3]](https://www.tutor2u.net/economics/reference/ib-economics-the-budget-outcome)[[4]](https://www.lynalden.com/fiscal-and-monetary-policy/)\n\nCurrent UK Figures For context on the United Kingdom's public finances, borrowing (the overall public sector budget deficit) reached £24.3 billion in April 2026. For the full financial year ending March 2026, provisional estimates indicated borrowing sat at £129.0 billion (about 4.2% of GDP).[](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/april2026) [[1]](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/april2026)You can track up-to-date monthly borrowing figures and fiscal reports on the [Office for National Statistics](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/april2026) or read analysis from the [Office for Budget Responsibility](https://obr.uk/forecasts-in-depth/brief-guides-and-explainers/public-finances/).[[1]](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/april2026)[[2]](https://obr.uk/monthly-public-finances-briefing/)",
+          "sources": [
+            {
+              "snippet": "The deficit is the difference between government revenue and spending, usually measured over a single financial year. Debt is the ...",
+              "source_name": "The House of Commons Library",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 1,
+              "title": "The budget deficit: a short guide - The House of Commons Library",
+              "domain": "commonslibrary.parliament.uk",
+              "url": "https://commonslibrary.parliament.uk/research-briefings/sn06167/",
+              "publication_date": null
+            },
+            {
+              "snippet": "1. Main points * Borrowing – the difference between total public sector spending and income – was £24.3 billion in April 2026; thi...",
+              "source_name": "Office for National Statistics",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 2,
+              "title": "Public sector finances, UK: April 2026 - Office for National Statistics",
+              "domain": "www.ons.gov.uk",
+              "url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/bulletins/publicsectorfinances/april2026",
+              "publication_date": null
+            },
+            {
+              "snippet": "What Is the Difference Between the Federal Budget Deficit and the Federal Government Debt? A federal budget deficit occurs when go...",
+              "source_name": "Investopedia",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 3,
+              "title": "Understanding Budget Deficits: Causes, Impact, and Solutions",
+              "domain": "www.investopedia.com",
+              "url": "https://www.investopedia.com/terms/b/budget-deficit.asp",
+              "publication_date": null
+            },
+            {
+              "snippet": "Budget deficit definition What is a budget deficit? A budget deficit occurs when expenses exceed income (i.e., tax and other borro...",
+              "source_name": "GoCardless",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 4,
+              "title": "What Is a Budget Deficit? - GoCardless",
+              "domain": "gocardless.com",
+              "url": "https://gocardless.com/guides/posts/what-is-a-budget-deficit/",
+              "publication_date": null
+            },
+            {
+              "snippet": "The budget deficit is calculated with the following formula: Budget Deficit = Total Government Expenditure – Total Government Rece...",
+              "source_name": "Vedantu",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 5,
+              "title": "Budget Deficit: Types, Formula, Advantages, and Examples - Vedantu",
+              "domain": "www.vedantu.com",
+              "url": "https://www.vedantu.com/commerce/budget-deficit",
+              "publication_date": null
+            }
+          ],
+          "search_results": null,
+          "ai_search_volume": 1300,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 1600
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 1300
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 880
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 1600
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 1000
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "search_volume": 1300
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "search_volume": 2900
+            }
+          ],
+          "first_response_at": "2025-09-09 10:59:18 +00:00",
+          "last_response_at": "2026-05-27 18:24:28 +00:00",
+          "brand_entities": null,
+          "fan_out_queries": null,
+          "is_web_search_based": true
+        },
+        {
+          "platform": "google",
+          "model_name": "google_ai_overview",
+          "location_code": 2826,
+          "language_code": "en",
+          "question": "what is core math",
+          "answer": "Core Maths is `a post-16 Level 3 qualification in the UK (equivalent in size and UCAS points to an AS-Level) designed for students who achieved a Grade 4 or above in GCSE Maths, but are not taking A-Level Mathematics` . It focuses on applying practical, real-world math and statistics to everyday life and future careers.[](https://amsp.org.uk/universities/post-16-specifications/core-maths/) [[1]](https://amsp.org.uk/universities/post-16-specifications/core-maths/)[[2]](https://www.youtube.com/watch?v=oF8bCPWHwOA)[[3]](https://www.youtube.com/watch?v=V6ETM2v0smA&t=8)[[4]](https://www.youtube.com/watch?v=CWB4JXp32gw&t=4)\n\nWho is it for?\n\nCore Maths is tailored for students pursuing subjects with heavy quantitative demands—like Psychology, Geography, Biology, Business, Economics, or Health and Social Care. It bridges the gap between basic GCSE arithmetic and the complex data analysis required in university-level studies and the modern workplace.[](https://www.holycross.ac.uk/news/item/245/what-is-core-maths-and-how-could-it-enhance-your-learning) [[1]](https://www.holycross.ac.uk/news/item/245/what-is-core-maths-and-how-could-it-enhance-your-learning)[[2]](https://www.youtube.com/watch?v=V6ETM2v0smA&t=8)[[3]](https://www.youtube.com/watch?v=oF8bCPWHwOA)[[4]](https://www.youtube.com/watch?v=CWB4JXp32gw&t=4)\n\nWhat is covered in the course?\n\nUnlike A-Level Maths, which heavily features calculus and pure algebra, Core Maths emphasizes practical application. Key topics typically include:[](https://www.aqa.org.uk/blog/why-core-maths-heres-why) [[1]](https://www.aqa.org.uk/blog/why-core-maths-heres-why)[[2]](https://www.youtube.com/shorts/CF-bT5QvMvI)\n\n- **Financial Mathematics:** Understanding taxation, National Insurance, student loans, mortgages, and personal budgeting.\n- **Statistics and Data Analysis:** Working with data sets, understanding probability distributions, and identifying bias or errors in statistics and news headlines.\n- **Mathematical Modelling:** Using techniques like Fermi estimation and critical path analysis to solve real-world problems.[](https://amsp.org.uk/universities/post-16-specifications/core-maths/) [[1]](https://amsp.org.uk/universities/post-16-specifications/core-maths/)[[2]](https://www.youtube.com/watch?v=oF8bCPWHwOA)[[3]](https://www.facebook.com/NelsonandColneCollegeSixthForm/videos/what-is-core-maths-and-how-can-it-help-me-hear-from-a-level-core-maths-students-/289429227329097/)[[4]](https://www.youtube.com/watch?v=V6ETM2v0smA&t=8)[[5]](https://www.youtube.com/watch?v=CWB4JXp32gw&t=4)[[6]](https://www.aqa.org.uk/blog/why-core-maths-heres-why)\n\nWhy is it valued?Many universities and employers highly value Core Maths because it actively develops critical thinking and quantitative problem-solving skills. Taking the qualification can improve a student's UCAS points and, in some cases, lead to reduced A-Level or degree entry requirements for non-STEM subjects.[](https://www.ocr.org.uk/qualifications/core-maths/) [[1]](https://www.ocr.org.uk/qualifications/core-maths/)[[2]](https://www.youtube.com/watch?v=V6ETM2v0smA&t=8)[[3]](https://www.youtube.com/watch?v=oF8bCPWHwOA)[[4]](https://www.youtube.com/watch?v=CWB4JXp32gw&t=4)For further details on specifications, delivery methods, and how it supports your specific subject choices, you can visit the [Advanced Mathematics Support Programme (AMSP)](https://amsp.org.uk/universities/post-16-specifications/core-maths/) or the Mathematics in Education and Industry (MEI) websites.",
+          "sources": [
+            {
+              "snippet": "Core Maths is a level 3 maths qualification that is equal in size to an AS level qualification. It is intended for students who ha...",
+              "source_name": "AMSP",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 1,
+              "title": "What is Core Maths? - AMSP",
+              "domain": "amsp.org.uk",
+              "url": "https://amsp.org.uk/universities/post-16-specifications/core-maths/",
+              "publication_date": null
+            },
+            {
+              "snippet": "gcse and Alevel maths. they give you the tools for maths. what core maths does is teach you how to use those. tools in the real wo...",
+              "source_name": "Facebook",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 2,
+              "title": "What is Core Maths? 🤔 and how can it help me? 🧠 Hear from A Level ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/NelsonandColneCollegeSixthForm/videos/what-is-core-maths-and-how-can-it-help-me-hear-from-a-level-core-maths-students-/289429227329097/",
+              "publication_date": null
+            },
+            {
+              "snippet": "Our Level 3 Core Maths qualifications are designed to give students essential problem-solving and quantitative skills. Equal in si...",
+              "source_name": "Cambridge OCR",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 3,
+              "title": "Core Maths - OCR",
+              "domain": "www.ocr.org.uk",
+              "url": "https://www.ocr.org.uk/qualifications/core-maths/",
+              "publication_date": null
+            },
+            {
+              "snippet": "Core Maths is a one-year course that can enhance your performance in your chosen subjects. It's designed for students who study tw...",
+              "source_name": "Holy Cross College",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 4,
+              "title": "What is Core Maths and how could it enhance your learning? - News - Holy Cross College",
+              "domain": "www.holycross.ac.uk",
+              "url": "https://www.holycross.ac.uk/news/item/245/what-is-core-maths-and-how-could-it-enhance-your-learning",
+              "publication_date": null
+            },
+            {
+              "snippet": "Why Core Maths? Here's why... * Banishing \"when will I ever use this?\" – Core Maths in the real world. Maths has often been regard...",
+              "source_name": "AQA",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 5,
+              "title": "Why Core Maths? Here's why...",
+              "domain": "www.aqa.org.uk",
+              "url": "https://www.aqa.org.uk/blog/why-core-maths-heres-why",
+              "publication_date": null
+            },
+            {
+              "snippet": "hello i'm andrew teacher of core maths. we learn and use the maths needed in education employment and everyday. life i highly reco...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 6,
+              "title": "Core Maths",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=V6ETM2v0smA&t=8",
+              "publication_date": null
+            },
+            {
+              "snippet": "hello and welcome to this cool maths. video one of the first things i'm going to need to do is to actually explain what core maths...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 7,
+              "title": "Core Maths: Information for Prospective Sixth Form Students",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=CWB4JXp32gw&t=4",
+              "publication_date": null
+            },
+            {
+              "snippet": "what is coremaths coremaths is a level three post16 maths qualification. it can be taken alongside A levels and vocational qualifi...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 8,
+              "title": "Core Maths at Holy Cross College, presented by Adam Gillibrand",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=oF8bCPWHwOA",
+              "publication_date": null
+            },
+            {
+              "snippet": "yes the difference between the core mathematics and the essential mathematics being done at senior school grade 10 right now pay a...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 9,
+              "title": "CORE MATHEMATICS AND ESSENTIAL ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/CF-bT5QvMvI",
+              "publication_date": null
+            }
+          ],
+          "search_results": null,
+          "ai_search_volume": 390,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "search_volume": 140
+            }
+          ],
+          "first_response_at": "2025-09-23 16:15:14 +00:00",
+          "last_response_at": "2026-07-20 14:44:43 +00:00",
+          "brand_entities": null,
+          "fan_out_queries": null,
+          "is_web_search_based": true
+        },
+        {
+          "platform": "google",
+          "model_name": "google_ai_overview",
+          "location_code": 2826,
+          "language_code": "en",
+          "question": "what is core maths",
+          "answer": "Core Maths is `a post-16 Level 3 qualification in the UK (equivalent in size and UCAS points to an AS-Level) designed for students who achieved a Grade 4 or above in GCSE Maths, but are not taking A-Level Mathematics` . It focuses on applying practical, real-world math and statistics to everyday life and future careers.[](https://amsp.org.uk/universities/post-16-specifications/core-maths/) [[1]](https://amsp.org.uk/universities/post-16-specifications/core-maths/)[[2]](https://www.youtube.com/watch?v=oF8bCPWHwOA)[[3]](https://www.youtube.com/watch?v=V6ETM2v0smA&t=8)[[4]](https://www.youtube.com/watch?v=CWB4JXp32gw&t=4)\n\nWho is it for?\n\nCore Maths is tailored for students pursuing subjects with heavy quantitative demands—like Psychology, Geography, Biology, Business, Economics, or Health and Social Care. It bridges the gap between basic GCSE arithmetic and the complex data analysis required in university-level studies and the modern workplace.[](https://www.holycross.ac.uk/news/item/245/what-is-core-maths-and-how-could-it-enhance-your-learning) [[1]](https://www.holycross.ac.uk/news/item/245/what-is-core-maths-and-how-could-it-enhance-your-learning)[[2]](https://www.youtube.com/watch?v=V6ETM2v0smA&t=8)[[3]](https://www.youtube.com/watch?v=oF8bCPWHwOA)[[4]](https://www.youtube.com/watch?v=CWB4JXp32gw&t=4)\n\nWhat is covered in the course?\n\nUnlike A-Level Maths, which heavily features calculus and pure algebra, Core Maths emphasizes practical application. Key topics typically include:[](https://www.aqa.org.uk/blog/why-core-maths-heres-why) [[1]](https://www.aqa.org.uk/blog/why-core-maths-heres-why)[[2]](https://www.youtube.com/shorts/CF-bT5QvMvI)\n\n- **Financial Mathematics:** Understanding taxation, National Insurance, student loans, mortgages, and personal budgeting.\n- **Statistics and Data Analysis:** Working with data sets, understanding probability distributions, and identifying bias or errors in statistics and news headlines.\n- **Mathematical Modelling:** Using techniques like Fermi estimation and critical path analysis to solve real-world problems.[](https://amsp.org.uk/universities/post-16-specifications/core-maths/) [[1]](https://amsp.org.uk/universities/post-16-specifications/core-maths/)[[2]](https://www.youtube.com/watch?v=oF8bCPWHwOA)[[3]](https://www.facebook.com/NelsonandColneCollegeSixthForm/videos/what-is-core-maths-and-how-can-it-help-me-hear-from-a-level-core-maths-students-/289429227329097/)[[4]](https://www.youtube.com/watch?v=V6ETM2v0smA&t=8)[[5]](https://www.youtube.com/watch?v=CWB4JXp32gw&t=4)[[6]](https://www.aqa.org.uk/blog/why-core-maths-heres-why)\n\nWhy is it valued?Many universities and employers highly value Core Maths because it actively develops critical thinking and quantitative problem-solving skills. Taking the qualification can improve a student's UCAS points and, in some cases, lead to reduced A-Level or degree entry requirements for non-STEM subjects.[](https://www.ocr.org.uk/qualifications/core-maths/) [[1]](https://www.ocr.org.uk/qualifications/core-maths/)[[2]](https://www.youtube.com/watch?v=V6ETM2v0smA&t=8)[[3]](https://www.youtube.com/watch?v=oF8bCPWHwOA)[[4]](https://www.youtube.com/watch?v=CWB4JXp32gw&t=4)For further details on specifications, delivery methods, and how it supports your specific subject choices, you can visit the [Advanced Mathematics Support Programme (AMSP)](https://amsp.org.uk/universities/post-16-specifications/core-maths/) or the Mathematics in Education and Industry (MEI) websites.",
+          "sources": [
+            {
+              "snippet": "Core Maths is a level 3 maths qualification that is equal in size to an AS level qualification. It is intended for students who ha...",
+              "source_name": "AMSP",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 1,
+              "title": "What is Core Maths? - AMSP",
+              "domain": "amsp.org.uk",
+              "url": "https://amsp.org.uk/universities/post-16-specifications/core-maths/",
+              "publication_date": null
+            },
+            {
+              "snippet": "gcse and Alevel maths. they give you the tools for maths. what core maths does is teach you how to use those. tools in the real wo...",
+              "source_name": "Facebook",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 2,
+              "title": "What is Core Maths? 🤔 and how can it help me? 🧠 Hear from A Level ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/NelsonandColneCollegeSixthForm/videos/what-is-core-maths-and-how-can-it-help-me-hear-from-a-level-core-maths-students-/289429227329097/",
+              "publication_date": null
+            },
+            {
+              "snippet": "Our Level 3 Core Maths qualifications are designed to give students essential problem-solving and quantitative skills. Equal in si...",
+              "source_name": "Cambridge OCR",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 3,
+              "title": "Core Maths - OCR",
+              "domain": "www.ocr.org.uk",
+              "url": "https://www.ocr.org.uk/qualifications/core-maths/",
+              "publication_date": null
+            },
+            {
+              "snippet": "Core Maths is a one-year course that can enhance your performance in your chosen subjects. It's designed for students who study tw...",
+              "source_name": "Holy Cross College",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 4,
+              "title": "What is Core Maths and how could it enhance your learning? - News - Holy Cross College",
+              "domain": "www.holycross.ac.uk",
+              "url": "https://www.holycross.ac.uk/news/item/245/what-is-core-maths-and-how-could-it-enhance-your-learning",
+              "publication_date": null
+            },
+            {
+              "snippet": "Why Core Maths? Here's why... * Banishing \"when will I ever use this?\" – Core Maths in the real world. Maths has often been regard...",
+              "source_name": "AQA",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 5,
+              "title": "Why Core Maths? Here's why...",
+              "domain": "www.aqa.org.uk",
+              "url": "https://www.aqa.org.uk/blog/why-core-maths-heres-why",
+              "publication_date": null
+            },
+            {
+              "snippet": "hello i'm andrew teacher of core maths. we learn and use the maths needed in education employment and everyday. life i highly reco...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 6,
+              "title": "Core Maths",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=V6ETM2v0smA&t=8",
+              "publication_date": null
+            },
+            {
+              "snippet": "hello and welcome to this cool maths. video one of the first things i'm going to need to do is to actually explain what core maths...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 7,
+              "title": "Core Maths: Information for Prospective Sixth Form Students",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=CWB4JXp32gw&t=4",
+              "publication_date": null
+            },
+            {
+              "snippet": "what is coremaths coremaths is a level three post16 maths qualification. it can be taken alongside A levels and vocational qualifi...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 8,
+              "title": "Core Maths at Holy Cross College, presented by Adam Gillibrand",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=oF8bCPWHwOA",
+              "publication_date": null
+            },
+            {
+              "snippet": "yes the difference between the core mathematics and the essential mathematics being done at senior school grade 10 right now pay a...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 9,
+              "title": "CORE MATHEMATICS AND ESSENTIAL ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/CF-bT5QvMvI",
+              "publication_date": null
+            }
+          ],
+          "search_results": null,
+          "ai_search_volume": 390,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "search_volume": 140
+            }
+          ],
+          "first_response_at": "2025-09-23 16:16:49 +00:00",
+          "last_response_at": "2026-07-20 14:44:29 +00:00",
+          "brand_entities": null,
+          "fan_out_queries": null,
+          "is_web_search_based": true
+        },
+        {
+          "platform": "google",
+          "model_name": "google_ai_overview",
+          "location_code": 2826,
+          "language_code": "en",
+          "question": "what is core mathematics",
+          "answer": "Core Maths is `a post-16 Level 3 qualification in the UK (equivalent in size and UCAS points to an AS-Level) designed for students who achieved a Grade 4 or above in GCSE Maths, but are not taking A-Level Mathematics` . It focuses on applying practical, real-world math and statistics to everyday life and future careers.[](https://amsp.org.uk/universities/post-16-specifications/core-maths/) [[1]](https://amsp.org.uk/universities/post-16-specifications/core-maths/)[[2]](https://www.youtube.com/watch?v=oF8bCPWHwOA)[[3]](https://www.youtube.com/watch?v=V6ETM2v0smA&t=8)[[4]](https://www.youtube.com/watch?v=CWB4JXp32gw&t=4)\n\nWho is it for?\n\nCore Maths is tailored for students pursuing subjects with heavy quantitative demands—like Psychology, Geography, Biology, Business, Economics, or Health and Social Care. It bridges the gap between basic GCSE arithmetic and the complex data analysis required in university-level studies and the modern workplace.[](https://www.holycross.ac.uk/news/item/245/what-is-core-maths-and-how-could-it-enhance-your-learning) [[1]](https://www.holycross.ac.uk/news/item/245/what-is-core-maths-and-how-could-it-enhance-your-learning)[[2]](https://www.youtube.com/watch?v=V6ETM2v0smA&t=8)[[3]](https://www.youtube.com/watch?v=oF8bCPWHwOA)[[4]](https://www.youtube.com/watch?v=CWB4JXp32gw&t=4)\n\nWhat is covered in the course?\n\nUnlike A-Level Maths, which heavily features calculus and pure algebra, Core Maths emphasizes practical application. Key topics typically include:[](https://www.aqa.org.uk/blog/why-core-maths-heres-why) [[1]](https://www.aqa.org.uk/blog/why-core-maths-heres-why)[[2]](https://www.youtube.com/shorts/CF-bT5QvMvI)\n\n- **Financial Mathematics:** Understanding taxation, National Insurance, student loans, mortgages, and personal budgeting.\n- **Statistics and Data Analysis:** Working with data sets, understanding probability distributions, and identifying bias or errors in statistics and news headlines.\n- **Mathematical Modelling:** Using techniques like Fermi estimation and critical path analysis to solve real-world problems.[](https://amsp.org.uk/universities/post-16-specifications/core-maths/) [[1]](https://amsp.org.uk/universities/post-16-specifications/core-maths/)[[2]](https://www.youtube.com/watch?v=oF8bCPWHwOA)[[3]](https://www.facebook.com/NelsonandColneCollegeSixthForm/videos/what-is-core-maths-and-how-can-it-help-me-hear-from-a-level-core-maths-students-/289429227329097/)[[4]](https://www.youtube.com/watch?v=V6ETM2v0smA&t=8)[[5]](https://www.youtube.com/watch?v=CWB4JXp32gw&t=4)[[6]](https://www.aqa.org.uk/blog/why-core-maths-heres-why)\n\nWhy is it valued?Many universities and employers highly value Core Maths because it actively develops critical thinking and quantitative problem-solving skills. Taking the qualification can improve a student's UCAS points and, in some cases, lead to reduced A-Level or degree entry requirements for non-STEM subjects.[](https://www.ocr.org.uk/qualifications/core-maths/) [[1]](https://www.ocr.org.uk/qualifications/core-maths/)[[2]](https://www.youtube.com/watch?v=V6ETM2v0smA&t=8)[[3]](https://www.youtube.com/watch?v=oF8bCPWHwOA)[[4]](https://www.youtube.com/watch?v=CWB4JXp32gw&t=4)For further details on specifications, delivery methods, and how it supports your specific subject choices, you can visit the [Advanced Mathematics Support Programme (AMSP)](https://amsp.org.uk/universities/post-16-specifications/core-maths/) or the Mathematics in Education and Industry (MEI) websites.",
+          "sources": [
+            {
+              "snippet": "Core Maths is a level 3 maths qualification that is equal in size to an AS level qualification. It is intended for students who ha...",
+              "source_name": "AMSP",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 1,
+              "title": "What is Core Maths? - AMSP",
+              "domain": "amsp.org.uk",
+              "url": "https://amsp.org.uk/universities/post-16-specifications/core-maths/",
+              "publication_date": null
+            },
+            {
+              "snippet": "gcse and Alevel maths. they give you the tools for maths. what core maths does is teach you how to use those. tools in the real wo...",
+              "source_name": "Facebook",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 2,
+              "title": "What is Core Maths? 🤔 and how can it help me? 🧠 Hear from A Level ...",
+              "domain": "www.facebook.com",
+              "url": "https://www.facebook.com/NelsonandColneCollegeSixthForm/videos/what-is-core-maths-and-how-can-it-help-me-hear-from-a-level-core-maths-students-/289429227329097/",
+              "publication_date": null
+            },
+            {
+              "snippet": "Our Level 3 Core Maths qualifications are designed to give students essential problem-solving and quantitative skills. Equal in si...",
+              "source_name": "Cambridge OCR",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 3,
+              "title": "Core Maths - OCR",
+              "domain": "www.ocr.org.uk",
+              "url": "https://www.ocr.org.uk/qualifications/core-maths/",
+              "publication_date": null
+            },
+            {
+              "snippet": "Core Maths is a one-year course that can enhance your performance in your chosen subjects. It's designed for students who study tw...",
+              "source_name": "Holy Cross College",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 4,
+              "title": "What is Core Maths and how could it enhance your learning? - News - Holy Cross College",
+              "domain": "www.holycross.ac.uk",
+              "url": "https://www.holycross.ac.uk/news/item/245/what-is-core-maths-and-how-could-it-enhance-your-learning",
+              "publication_date": null
+            },
+            {
+              "snippet": "Why Core Maths? Here's why... * Banishing \"when will I ever use this?\" – Core Maths in the real world. Maths has often been regard...",
+              "source_name": "AQA",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 5,
+              "title": "Why Core Maths? Here's why...",
+              "domain": "www.aqa.org.uk",
+              "url": "https://www.aqa.org.uk/blog/why-core-maths-heres-why",
+              "publication_date": null
+            },
+            {
+              "snippet": "hello i'm andrew teacher of core maths. we learn and use the maths needed in education employment and everyday. life i highly reco...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 6,
+              "title": "Core Maths",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=V6ETM2v0smA&t=8",
+              "publication_date": null
+            },
+            {
+              "snippet": "hello and welcome to this cool maths. video one of the first things i'm going to need to do is to actually explain what core maths...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 7,
+              "title": "Core Maths: Information for Prospective Sixth Form Students",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=CWB4JXp32gw&t=4",
+              "publication_date": null
+            },
+            {
+              "snippet": "what is coremaths coremaths is a level three post16 maths qualification. it can be taken alongside A levels and vocational qualifi...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 8,
+              "title": "Core Maths at Holy Cross College, presented by Adam Gillibrand",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=oF8bCPWHwOA",
+              "publication_date": null
+            },
+            {
+              "snippet": "yes the difference between the core mathematics and the essential mathematics being done at senior school grade 10 right now pay a...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 9,
+              "title": "CORE MATHEMATICS AND ESSENTIAL ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/CF-bT5QvMvI",
+              "publication_date": null
+            }
+          ],
+          "search_results": null,
+          "ai_search_volume": 390,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 6,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 320
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 210
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 390
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 720
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 590
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "search_volume": 140
+            }
+          ],
+          "first_response_at": "2025-10-14 15:21:08 +00:00",
+          "last_response_at": "2026-07-20 14:29:57 +00:00",
+          "brand_entities": null,
+          "fan_out_queries": null,
+          "is_web_search_based": true
+        },
+        {
+          "platform": "google",
+          "model_name": "google_ai_overview",
+          "location_code": 2826,
+          "language_code": "en",
+          "question": "home ownership uk",
+          "answer": "UK home ownership currently sits at roughly `65% across England and 53% among UK adults nationwide` . The national average house price is approximately £278,024. While home values have fluctuated due to shifting mortgage costs, demand remains resilient, especially in northern regions.[](https://www.ethnicity-facts-figures.service.gov.uk/housing/owning-and-renting/home-ownership/latest) [[1]](https://www.ethnicity-facts-figures.service.gov.uk/housing/owning-and-renting/home-ownership/latest)[[2]](https://www.avanthomes.co.uk/about-avant/newsroom/home-ownership-statistics-for-the-uk)[[3]](https://uk.finance.yahoo.com/news/average-uk-house-price-fell-064202120.html)[[4]](https://www.theguardian.com/money/2026/jun/01/uk-house-prices-fall-interest-rates-nationwide-savills-iran-war)[[5]](https://www.robinsonandhallauctions.co.uk/uk-property-market-2026-house-price-forecast/)[[6]](https://www.zoopla.co.uk/discover/property-news/house-price-index/)Current Market Statistics\n\n- **Average UK House Price:** £278,024 (down 0.6% month-on-month).\n- **Regional Disparities:** Average prices span from approximately £188,000 in Scotland to roughly £554,000 in London.\n- **Ownership Breakdown:** Roughly 28% of adults own their homes outright, while about 25% are paying off a mortgage.[](https://www.gov.uk/government/news/uk-house-price-index-for-january-2026) [[1]](https://www.gov.uk/government/news/uk-house-price-index-for-january-2026)[[2]](https://uk.finance.yahoo.com/news/average-uk-house-price-fell-064202120.html)[[3]](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/march2026)[[4]](https://www.uswitch.com/mortgages/home-ownership-statistics/)[[5]](https://www.avanthomes.co.uk/about-avant/newsroom/home-ownership-statistics-for-the-uk)\n\nAffordability & The First-Time Buyer Affordability is currently stretched. Geopolitical concerns have pushed mortgage rates upward, with typical 2-year and 5-year fixed deals sitting near 5% to 6%. First-time buyers are facing a highly competitive market, often needing to secure higher-than-average deposits or rely on family assistance to bridge the affordability gap.[](https://www.robinsonandhallauctions.co.uk/uk-property-market-2026-house-price-forecast/) [[1]](https://www.robinsonandhallauctions.co.uk/uk-property-market-2026-house-price-forecast/)[[2]](https://www.lloydsbankinggroup.com/insights/whats-next-for-the-uk-housing-market-in-2026.html)[[3]](https://www.propertymark.co.uk/resource/rising-costs-and-shifting-tenures-captured-in-latest-national-snapshot.html)[[4]](https://fortune.com/europe/2023/08/10/guppies-millennials-genz-zoomers-give-up-hope-owning-home-property/)[[5]](https://www.lse.ac.uk/news/latest-news-from-lse/housing-and-social-mobility)Government Assistance Schemes To navigate the challenging entry into home ownership, buyers can utilize several schemes and tools:\n\n- **Help to Build (Equity Loan):** Allows you to build your own home with a lower deposit.\n- **First Homes Scheme:** Offers newly built homes to first-time buyers at a discount of at least 30% compared to market value.\n- **[Shared Ownership](https://www.moneyhelper.org.uk/en/homes/buying-a-home/government-schemes-for-first-time-home-buyers-and-existing-homeowners):** Allows you to buy a share of a home (between 25% and 75%) and pay rent on the remainder, which helps reduce the required mortgage deposit.[](https://www.moneyhelper.org.uk/en/homes/buying-a-home/government-schemes-for-first-time-home-buyers-and-existing-homeowners) [[1]](https://www.moneyhelper.org.uk/en/homes/buying-a-home/government-schemes-for-first-time-home-buyers-and-existing-homeowners)[[2]](https://www.money.co.uk/mortgages/help-to-buy-mortgages)[[3]](https://www.gov.uk/browse/housing-local-services/buying-owning-property)[[4]](https://www.gov.uk/government/news/proposals-to-help-people-build-their-own-homes-welcomed-by-housing-secretary-robert-jenrick)[[5]](https://www.gov.uk/first-homes-scheme)\n\nResources for Buying Before purchasing a property in the UK, it is vital to research the local property type (whether it is a leasehold or freehold). You can track average regional values by consulting the official [UK House Price Index](https://www.gov.uk/government/news/uk-house-price-index-for-january-2026) , or investigate the exact title status of existing properties using the [HM Land Registry](https://www.data.gov.uk/collections/land-and-property/land-and-property-ownership).[[1]](https://www.citizensadvice.org.uk/housing/buying-and-selling-a-home/buying-a-home/)[[2]](https://www.gov.uk/government/statistics/uk-house-price-index-for-january-2026/uk-house-price-index-summary-january-2026)[[3]](https://www.data.gov.uk/collections/land-and-property/land-and-property-ownership)",
+          "sources": [
+            {
+              "snippet": "1. Main facts and figures. in the 2 years to March 2023, an average of 65% of households in England owned their own homes. 70% of ...",
+              "source_name": "GOV.UK",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 1,
+              "title": "Home ownership - GOV.UK Ethnicity facts and figures",
+              "domain": "www.ethnicity-facts-figures.service.gov.uk",
+              "url": "https://www.ethnicity-facts-figures.service.gov.uk/housing/owning-and-renting/home-ownership/latest",
+              "publication_date": null
+            },
+            {
+              "snippet": "Written by Laura Hamilton, Mortgage ExpertEdited by Jason McDonald, Mortgage Expert, 22 July 2024. This page includes relevant UK ...",
+              "source_name": "Uswitch",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 2,
+              "title": "UK Home Ownership Statistics 2024 Report | Uswitch.com",
+              "domain": "www.uswitch.com",
+              "url": "https://www.uswitch.com/mortgages/home-ownership-statistics/",
+              "publication_date": null
+            },
+            {
+              "snippet": "As of July 2024, 53% of UK adults own their own home, compared to 50% in 2023. 28% of Brits own their home outright, whilst 25% ha...",
+              "source_name": "Avant Homes",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 3,
+              "title": "58+ Home Ownership Statistics for the UK in 2024 & 2025",
+              "domain": "www.avanthomes.co.uk",
+              "url": "https://www.avanthomes.co.uk/about-avant/newsroom/home-ownership-statistics-for-the-uk",
+              "publication_date": null
+            },
+            {
+              "snippet": "Is the property leasehold, freehold or commonhold. Freehold property. If the property is freehold, this means that the land on whi...",
+              "source_name": "Citizens Advice",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 4,
+              "title": "Buying a home - Citizens Advice",
+              "domain": "www.citizensadvice.org.uk",
+              "url": "https://www.citizensadvice.org.uk/housing/buying-and-selling-a-home/buying-a-home/",
+              "publication_date": null
+            },
+            {
+              "snippet": "Shared ownership is where you buy a share of a home from the landlord, who is usually the council or a housing association, and pa...",
+              "source_name": "MoneyHelper",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 5,
+              "title": "Government schemes for first-time home buyers and existing ...",
+              "domain": "www.moneyhelper.org.uk",
+              "url": "https://www.moneyhelper.org.uk/en/homes/buying-a-home/government-schemes-for-first-time-home-buyers-and-existing-homeowners",
+              "publication_date": null
+            },
+            {
+              "snippet": "Find information about a property in England or Wales via HM Land Registry, or in Scotland via Registers of Scotland. With HM Land...",
+              "source_name": "UK Gov Data",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 6,
+              "title": "Land and property ownership - Collection - Data.gov.uk",
+              "domain": "www.data.gov.uk",
+              "url": "https://www.data.gov.uk/collections/land-and-property/land-and-property-ownership",
+              "publication_date": null
+            },
+            {
+              "snippet": "Flat/maisonette. £218,000. £223,000. -2.2. All. £290,000. £287,000. 1.1. Funding and buyer status for England. Transaction type. A...",
+              "source_name": "GOV.UK",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 7,
+              "title": "UK House Price Index for January 2026 - GOV.UK",
+              "domain": "www.gov.uk",
+              "url": "https://www.gov.uk/government/news/uk-house-price-index-for-january-2026",
+              "publication_date": null
+            },
+            {
+              "snippet": "3. House prices across the UK and by English region. The average house price for England was £290,000 in January 2026, up 1.1% (£3...",
+              "source_name": "Office for National Statistics",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 8,
+              "title": "Private rent and house prices, UK: March 2026",
+              "domain": "www.ons.gov.uk",
+              "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/march2026",
+              "publication_date": null
+            },
+            {
+              "snippet": "3. Price changes * 3.1 Annual price change. Annual price change for UK by country over the past 4 years. Download this chart's dat...",
+              "source_name": "GOV.UK",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 9,
+              "title": "UK House Price Index summary: January 2026 - GOV.UK",
+              "domain": "www.gov.uk",
+              "url": "https://www.gov.uk/government/statistics/uk-house-price-index-for-january-2026/uk-house-price-index-summary-january-2026",
+              "publication_date": null
+            },
+            {
+              "snippet": "Under normal circumstances, slowing inflation, low growth and rising unemployment would encourage the Bank of England to reduce in...",
+              "source_name": "Robinson & Hall Auctions",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 10,
+              "title": "UK Housing Market 2026: What's Really Happening with ...",
+              "domain": "www.robinsonandhallauctions.co.uk",
+              "url": "https://www.robinsonandhallauctions.co.uk/uk-property-market-2026-house-price-forecast/",
+              "publication_date": null
+            },
+            {
+              "snippet": "We're committed to supporting the UK's regions and communities, supporting the regeneration of low-income areas, addressing dispar...",
+              "source_name": "Lloyds Banking Group plc",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 11,
+              "title": "What’s next for the UK housing market in 2026?",
+              "domain": "www.lloydsbankinggroup.com",
+              "url": "https://www.lloydsbankinggroup.com/insights/whats-next-for-the-uk-housing-market-in-2026.html",
+              "publication_date": null
+            },
+            {
+              "snippet": "Sales are holding up despite fewer buyers in the market but pricing correctly remains essential for sellers in 2026. The key findi...",
+              "source_name": "Zoopla",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 12,
+              "title": "House Price Index: May 2026 - Zoopla",
+              "domain": "www.zoopla.co.uk",
+              "url": "https://www.zoopla.co.uk/discover/property-news/house-price-index/",
+              "publication_date": null
+            },
+            {
+              "snippet": "More on this story UK house price growth halved as Iran war fallout hits housing market. 8 May 2026. UK house prices jump despite ...",
+              "source_name": "The Guardian",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 13,
+              "title": "UK house prices fall for first time this year amid rising interest rates",
+              "domain": "www.theguardian.com",
+              "url": "https://www.theguardian.com/money/2026/jun/01/uk-house-prices-fall-interest-rates-nationwide-savills-iran-war",
+              "publication_date": null
+            },
+            {
+              "snippet": "Vicky Shaw. Mon, 1 June 2026 at 1:32 am GMT-7 3 min read. UK house prices recorded their first monthly dip of the year in May, wit...",
+              "source_name": "Yahoo Finance UK",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 14,
+              "title": "UK house prices fall for first time in 2026 creating strongest buyers’ market for years",
+              "domain": "uk.finance.yahoo.com",
+              "url": "https://uk.finance.yahoo.com/news/average-uk-house-price-fell-064202120.html",
+              "publication_date": null
+            }
+          ],
+          "search_results": null,
+          "ai_search_volume": 260,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 170
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 260
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "search_volume": 320
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "search_volume": 320
+            }
+          ],
+          "first_response_at": "2025-11-28 09:11:33 +00:00",
+          "last_response_at": "2026-06-01 09:45:55 +00:00",
+          "brand_entities": null,
+          "fan_out_queries": null,
+          "is_web_search_based": true
+        },
+        {
+          "platform": "google",
+          "model_name": "google_ai_overview",
+          "location_code": 2826,
+          "language_code": "en",
+          "question": "southend players",
+          "answer": "![In Focus: Southend United - Sutton United Football Club](https://api.dataforseo.com/cdn/i/04041855-1087-0066-0000-a5278b0fb164:4)\nSouthend United's 2025-26 squad, managed by Kevin Maher, features key players including `goalkeeper Collin Andeng-Ndi, defenders Gus Scott-Morriss and Nathan Ralph, and forwards Andy Dallas and Josh Walker` . The team competes in the National League, often utilizing players like [Noor Husin](https://www.google.com/search?q=Noor+Husin&csui=3&hl=en&gl=GB&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE&ved=2ahUKEwjBiNrJx9STAxUeQjABHSTuNtUQgK4QegYIAQgAEAY), [Jack Bridge](https://www.google.com/search?q=Jack+Bridge&csui=3&hl=en&gl=GB&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE&ved=2ahUKEwjBiNrJx9STAxUeQjABHSTuNtUQgK4QegYIAQgAEAc) , and [Harry Cardwell](https://www.google.com/search?q=Harry+Cardwell&csui=3&hl=en&gl=GB&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE&ved=2ahUKEwjBiNrJx9STAxUeQjABHSTuNtUQgK4QegYIAQgAEAg).[[1]](https://www.espn.co.uk/football/team/squad/_/id/310/eng.southend)[[2]](https://www.soccerbase.com/teams/team.sd?team_id=2393#:~:text=Current%20Squad%20*%20NA%20Anssi%20Jaakkola%20%28G%29,Cardwell%20%28F%29%20*%2024%20Charley%20Kendall%20%28F%29)[[3]](https://www.worldfootball.net/teams/te1754/southend-united/)\n\n**Key 2025-26 Squad Members** \n\n- **Goalkeepers:** Collin Andeng-Ndi, Nick Hayes.\n- **Defenders:** Gus Scott-Morriss, Nathan Ralph, Ben Goodliffe, Joe Gubbins, Harry Taylor, Jason Demetriou.\n- **Midfielders:** Jack Bridge, Noor Husin, Cavanagh Miley, James Morton, Oliver Coker.\n- **Forwards:** Andy Dallas, Josh Walker, Tom Hopper, Harry Cardwell, Slavi Spasov.[[1]](https://www.southendunited.co.uk/teams/academy/)[[2]](https://www.worldfootball.net/teams/te1754/southend-united/all-players/#:~:text=Football%20-%20results%2C%20news%2C%20statistics%20and%20much%20more)[[3]](https://www.soccerbase.com/teams/team.sd?team_id=2393#:~:text=Current%20Squad%20*%20NA%20Anssi%20Jaakkola%20%28G%29,Cardwell%20%28F%29%20*%2024%20Charley%20Kendall%20%28F%29)\n\n**Top Scorers (2025/2026 Season)** \n\n- **[A. Dallas](https://www.google.com/search?q=A.+Dallas&csui=3&hl=en&gl=GB&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE&ved=2ahUKEwjBiNrJx9STAxUeQjABHSTuNtUQgK4QegYIAQgBEAM):** 0.36 ratio.\n- **[G. Scott-Morriss](https://www.google.com/search?q=G.+Scott-Morriss&csui=3&hl=en&gl=GB&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE&ved=2ahUKEwjBiNrJx9STAxUeQjABHSTuNtUQgK4QegYIAQgBEAU):** 0.31 ratio.\n- **[J. Walker](https://www.google.com/search?q=J.+Walker&csui=3&hl=en&gl=GB&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE&ved=2ahUKEwjBiNrJx9STAxUeQjABHSTuNtUQgK4QegYIAQgBEAc):** 0.22 ratio.[[1]](https://www.worldfootball.net/teams/te1754/southend-united/)\n\nInformation on the full, up-to-date roster and player profiles can be found on the Southend United official website or [Soccerbase](https://www.soccerbase.com/teams/team.sd?team_id=2393).[[1]](https://www.southendunited.co.uk/teams/academy/)[[2]](https://www.soccerbase.com/teams/team.sd?team_id=2393#:~:text=Current%20Squad%20*%20NA%20Anssi%20Jaakkola%20%28G%29,Cardwell%20%28F%29%20*%2024%20Charley%20Kendall%20%28F%29)[](https://www.soccerbase.com/teams/team.sd?team_id=2393#:~:text=Current%20Squad%20*%20NA%20Anssi%20Jaakkola%20%28G%29,Cardwell%20%28F%29%20*%2024%20Charley%20Kendall%20%28F%29) Southend FC Club Details | First Team Squad | Soccer Base Current Squad * NA Anssi Jaakkola (G) * 23 Nick Hayes (G) * 25 Owen Mason (G) * 30 Collin Andeng-Ndi (G) * 31 Charlie Brown (G) * ...![](https://api.dataforseo.com/cdn/i/04041855-1087-0066-0000-a5278b0fb164:5)\nSoccerbase![](https://api.dataforseo.com/cdn/i/04041855-1087-0066-0000-a5278b0fb164:6)\n[](https://www.southendunited.co.uk/teams/academy/) First Team | Southend United Football Club Forwards * Andy Dallas Loaned in. Profile Unavailable. * Josh Walker. Profile Unavailable. * Tom Hopper. Profile Unavailable. * Sl...![](https://api.dataforseo.com/cdn/i/04041855-1087-0066-0000-a5278b0fb164:7)\nSouthend United Football Club[](https://www.worldfootball.net/teams/te1754/southend-united/) Southend United » Overview - worldfootball.net Table_title: Topscorer National League 2025/2026 Table_content: header: | # | Player | Ratio | row: | #: 1 | Player: A. Dallas | R...![](https://api.dataforseo.com/cdn/i/04041855-1087-0066-0000-a5278b0fb164:8)\nworldfootball.net![](https://api.dataforseo.com/cdn/i/04041855-1087-0066-0000-a5278b0fb164:9)\n[](https://www.espn.co.uk/football/team/squad/_/id/310/eng.southend) Southend United 2025-26 Squad - ESPN (UK)--. --. England. 6. 0. 0. 6. 0. 0. 0. 0. 0. 22. --. --. Cameroon. 28. 1. 0. 27. 0. 0. 0. 0. 0. outfield players. Name, POS · James...![](https://api.dataforseo.com/cdn/i/04041855-1087-0066-0000-a5278b0fb164:10)\nESPN![](https://api.dataforseo.com/cdn/i/04041855-1087-0066-0000-a5278b0fb164:11)\n[](https://www.worldfootball.net/teams/te1754/southend-united/all-players/#:~:text=Football%20-%20results%2C%20news%2C%20statistics%20and%20much%20more) Southend United » Player list - worldfootball.net Football - results, news, statistics and much more...![](https://api.dataforseo.com/cdn/i/04041855-1087-0066-0000-a5278b0fb164:12)\nworldfootball.net![](https://api.dataforseo.com/cdn/i/04041855-1087-0066-0000-a5278b0fb164:13)",
+          "sources": [
+            {
+              "snippet": "Current Squad * NA Anssi Jaakkola (G) * 23 Nick Hayes (G) * 25 Owen Mason (G) * 30 Collin Andeng-Ndi (G) * 31 Charlie Brown (G) * ...",
+              "source_name": "Soccerbase",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 1,
+              "title": "Southend FC Club Details | First Team Squad | Soccer Base",
+              "domain": "www.soccerbase.com",
+              "url": "https://www.soccerbase.com/teams/team.sd?team_id=2393#:~:text=Current%20Squad%20*%20NA%20Anssi%20Jaakkola%20%28G%29,Cardwell%20%28F%29%20*%2024%20Charley%20Kendall%20%28F%29",
+              "publication_date": null
+            },
+            {
+              "snippet": "Forwards * Andy Dallas Loaned in. Profile Unavailable. * Josh Walker. Profile Unavailable. * Tom Hopper. Profile Unavailable. * Sl...",
+              "source_name": "Southend United Football Club",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 2,
+              "title": "First Team | Southend United Football Club",
+              "domain": "www.southendunited.co.uk",
+              "url": "https://www.southendunited.co.uk/teams/academy/",
+              "publication_date": null
+            },
+            {
+              "snippet": "Table_title: Topscorer National League 2025/2026 Table_content: header: | # | Player | Ratio | row: | #: 1 | Player: A. Dallas | R...",
+              "source_name": "worldfootball.net",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 3,
+              "title": "Southend United » Overview - worldfootball.net",
+              "domain": "www.worldfootball.net",
+              "url": "https://www.worldfootball.net/teams/te1754/southend-united/",
+              "publication_date": null
+            },
+            {
+              "snippet": "--. --. England. 6. 0. 0. 6. 0. 0. 0. 0. 0. 22. --. --. Cameroon. 28. 1. 0. 27. 0. 0. 0. 0. 0. outfield players. Name, POS · James...",
+              "source_name": "ESPN",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 4,
+              "title": "Southend United 2025-26 Squad - ESPN (UK)",
+              "domain": "www.espn.co.uk",
+              "url": "https://www.espn.co.uk/football/team/squad/_/id/310/eng.southend",
+              "publication_date": null
+            },
+            {
+              "snippet": "Football - results, news, statistics and much more...",
+              "source_name": "worldfootball.net",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 5,
+              "title": "Southend United » Player list - worldfootball.net",
+              "domain": "www.worldfootball.net",
+              "url": "https://www.worldfootball.net/teams/te1754/southend-united/all-players/#:~:text=Football%20-%20results%2C%20news%2C%20statistics%20and%20much%20more",
+              "publication_date": null
+            }
+          ],
+          "search_results": null,
+          "ai_search_volume": 110,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 90
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 140
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 5,
+              "search_volume": 260
+            },
+            {
+              "year": 2025,
+              "month": 4,
+              "search_volume": 90
+            }
+          ],
+          "first_response_at": "2026-04-04 16:07:44 +00:00",
+          "last_response_at": "2026-04-04 16:07:44 +00:00",
+          "brand_entities": null,
+          "fan_out_queries": null,
+          "is_web_search_based": true
+        },
+        {
+          "platform": "google",
+          "model_name": "google_ai_overview",
+          "location_code": 2826,
+          "language_code": "en",
+          "question": "uk tertiary education",
+          "answer": "UK tertiary education encompasses all post-secondary education for learners 18 and older, bridging **Further Education (FE)** —such as vocational diplomas, T-Levels, and apprenticeships—and **Higher Education (HE)** , which covers undergraduate and postgraduate degrees . Qualifications and tuition fees vary significantly across England, Scotland, Wales, and Northern Ireland.[](https://en.wikipedia.org/wiki/Tertiary_education) [[1]](https://en.wikipedia.org/wiki/Tertiary_education)[[2]](https://www.gov.uk/further-education-courses)[[3]](https://study-uk.britishcouncil.org/)[[4]](https://www.youtube.com/watch?v=ZYC6oxnQcGM&t=247)[[5]](https://www.nidirect.gov.uk/articles/what-higher-education)Key Components & Structures\n\n- **Further Education (FE):** Delivered at local FE colleges, these courses range from basic skills and T-levels to Higher National Diplomas (HNDs) and technical qualifications. They are primarily designed to lead directly to employment or advanced technical roles.[](https://www.gov.uk/further-education-courses) [[1]](https://www.gov.uk/further-education-courses)\n- **Higher Education (HE):** Provided by universities and specialized HE institutions. Undergraduate degrees typically take **3 years** full-time in England, Wales, and Northern Ireland, while Scottish universities generally use a **4-year** model that allows for broader subject exploration in the first two years.[](https://en.wikipedia.org/wiki/Education_in_the_United_Kingdom) [[1]](https://en.wikipedia.org/wiki/Education_in_the_United_Kingdom)[[2]](https://www.youtube.com/watch?v=ZYC6oxnQcGM&t=247)\n\nCurrent Landscape & Funding\n\n- **Tuition & Loans:** In England, undergraduate tuition fees are capped at **£9,250** per year. In Scotland, tuition is generally free for eligible Scottish-domiciled students. Welsh and Northern Irish students also have localized fee caps and support grants.[[1]](https://www.universitiesuk.ac.uk/sites/default/files/field/downloads/2021-07/briefing-undergraduate-funding-england.pdf)[[2]](https://www.britishineurope.org/articles/95076-uk-universities-home-fees-student-finance)[[3]](https://www.bbc.co.uk/news/articles/cwyegp0dnq9o)[[4]](https://bridge-u.com/resources/guide-studying-uk-university/)[[5]](https://www.ucas.com/applying/applying-to-university/mature-students/student-finance-for-mature-students)\n- **Cost of Living Crisis:** Rising living costs have altered the traditional \"move away\" university experience. Almost a third of 18-year-olds now live at home while studying, prompting institutions to offer more flexible and hybrid learning models.[](https://www.ellucian.com/en-gb/blog/uk-moving-toward-tertiary-education-system) [[1]](https://www.ellucian.com/en-gb/blog/uk-moving-toward-tertiary-education-system)[[2]](https://www.youtube.com/shorts/2EWDTpjJ6bc)\n- **Apprenticeships:** Degree apprenticeships and technical courses are surging in popularity as students seek to earn a wage while avoiding traditional university debt.[](https://www.youtube.com/shorts/2EWDTpjJ6bc) [[1]](https://www.youtube.com/shorts/2EWDTpjJ6bc)\n\nNavigating the System For prospective students, applying to most UK undergraduate courses requires using the centralized [UCAS](https://www.ucas.com/) service. You can compare course statistics, graduate employment rates, and student satisfaction using the official [Discover Uni](https://discoveruni.gov.uk/) tool.[](https://www.gov.uk/higher-education-courses-find-and-apply) [[1]](https://www.gov.uk/higher-education-courses-find-and-apply)If you're interested in pursuing tertiary education in the UK, let me know:\n\n- Your **subject or career interest** \n- Your **preferred region** (England, Scotland, Wales, or NI)\n- If you prefer **vocational training/apprenticeships** or an **academic degree** \n\nI can help you narrow down the best routes and institutions for your goals.",
+          "sources": [
+            {
+              "snippet": "Tertiary education (also called higher education or post-secondary education) is the educational level following the completion of...",
+              "source_name": "Wikipedia",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 1,
+              "title": "Tertiary education - Wikipedia",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Tertiary_education",
+              "publication_date": null
+            },
+            {
+              "snippet": "Discover Uni - compare information on courses, including student satisfaction and jobs after study. UCAS - search by course name, ...",
+              "source_name": "GOV.UK",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 2,
+              "title": "Higher education courses: find and apply - GOV.UK",
+              "domain": "www.gov.uk",
+              "url": "https://www.gov.uk/higher-education-courses-find-and-apply",
+              "publication_date": null
+            },
+            {
+              "snippet": "In each country there are five stages of education: early years, primary, secondary, further education (FE) and higher education (",
+              "source_name": "Wikipedia",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 3,
+              "title": "Education in the United Kingdom - Wikipedia",
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Education_in_the_United_Kingdom",
+              "publication_date": null
+            },
+            {
+              "snippet": "Integrated Master's Degrees. Postgraduate. Advanced certificates diplomas. Apprenticeships. Certificates diplomas. Doctorates. Mas...",
+              "source_name": "Study UK – British Council",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 4,
+              "title": "Study UK Homepage | Study UK",
+              "domain": "study-uk.britishcouncil.org",
+              "url": "https://study-uk.britishcouncil.org/",
+              "publication_date": null
+            },
+            {
+              "snippet": "Changing student expectations have shifted how further and higher education might be delivered. The traditional experience of movi...",
+              "source_name": "Ellucian",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 5,
+              "title": "Is the UK Moving Toward a Tertiary Education System?",
+              "domain": "www.ellucian.com",
+              "url": "https://www.ellucian.com/en-gb/blog/uk-moving-toward-tertiary-education-system",
+              "publication_date": null
+            },
+            {
+              "snippet": "Further education ( FE ) includes any study after secondary education that's not part of higher education (that is, not taken as p...",
+              "source_name": "GOV.UK",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 6,
+              "title": "Further education courses and funding: Overview - GOV.UK",
+              "domain": "www.gov.uk",
+              "url": "https://www.gov.uk/further-education-courses",
+              "publication_date": null
+            },
+            {
+              "snippet": "most abilities as you kind of go through and I think that's a superb selling point for higher education in the UK as well. so lots...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 7,
+              "title": "UK higher education system and academic life",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=ZYC6oxnQcGM&t=247",
+              "publication_date": null
+            },
+            {
+              "snippet": "i think it's very important cuz when you choose a university. it's not just for the subjects. you want to study but it's also the ...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 8,
+              "title": "How the Cost of Living Crisis Is Changing University ...",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/shorts/2EWDTpjJ6bc",
+              "publication_date": null
+            }
+          ],
+          "search_results": null,
+          "ai_search_volume": 70,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 140
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 70
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 30
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "search_volume": 90
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "search_volume": 70
+            }
+          ],
+          "first_response_at": "2025-10-19 08:33:51 +00:00",
+          "last_response_at": "2026-07-04 09:24:35 +00:00",
+          "brand_entities": null,
+          "fan_out_queries": null,
+          "is_web_search_based": true
+        },
+        {
+          "platform": "google",
+          "model_name": "google_ai_overview",
+          "location_code": 2826,
+          "language_code": "en",
+          "question": "math for real world",
+          "answer": "![Welcome To The Real World: Math in Action](https://api.dataforseo.com/llm_m/cdn/i/3749828893991467393:a61cabb51efd251913407d0d274a80cf)\n`Mathematical modeling` is the process of translating everyday, real-world problems into mathematical frameworks to find actionable solutions. It bridges abstract concepts like algebra, geometry, and statistics with tangible challenges in budgeting, career choices, and physical sciences.[](https://www.youtube.com/watch?v=ard71JoCrj4&t=76) [[1]](https://www.youtube.com/watch?v=ard71JoCrj4&t=76)[[2]](https://christiananswers.net/spotlight/games/2000/mathfortherealworld.html)[[3]](https://www.reddit.com/r/nostalgia/comments/171kmu5/math_for_the_real_world/)\n\nKey Everyday Applications\n\nApplying mathematical skills helps in practical ways every single day:\n\n- **Personal Finance:** Calculating compound interest and APR is crucial for understanding loans and mortgages. Tools like the UK Government Mortgage Calculator help determine exact monthly payments and long-term costs.[[1]](https://www.reddit.com/r/nostalgia/comments/171kmu5/math_for_the_real_world/)\n- **Budgeting:** Using percentages and fractions allows you to manage household budgets, track weekly expenses, and plan for savings goals.\n- **Physical Navigation & Travel:** Applying trigonometry and geometry helps with everything from measuring room dimensions for furniture to optimizing driving routes and calculating fuel efficiency.[[1]](https://www.reddit.com/r/nostalgia/comments/171kmu5/math_for_the_real_world/)\n- **Health and Fitness:** Tracking caloric intake, calculating BMI, and measuring heart rate zones are all rooted in applied statistics and basic arithmetic.\n\nMath in Professional Fields Professionals use applied mathematics daily to make critical, real-world decisions:[](https://www.mathnasium.com/math-centers/troy/news/importance-math-everyday-life) [[1]](https://www.mathnasium.com/math-centers/troy/news/importance-math-everyday-life)\n\n- **Structural Engineering:** Geometry and calculus are used to figure out load distributions, ensuring buildings and bridges can withstand environmental forces like high winds or heavy snow.[](https://www.youtube.com/watch?v=FJ3-vmKLizA&t=2) [[1]](https://www.youtube.com/watch?v=FJ3-vmKLizA&t=2)\n- **Data Science & Tech:** Algorithms and probability are the backbone of search engines, digital security, and the media streaming apps you use daily.\n- **Healthcare:** Physical therapists rely on angles and geometry to measure joint articulation and monitor recovery progress.[[1]](https://www.reddit.com/r/nostalgia/comments/171kmu5/math_for_the_real_world/)\n\nFor tips on how to connect seemingly abstract mathematical principles with daily scenarios to solve everyday questions:![Related video thumbnail](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfV6IE9if77dMQscmh6Eb1C5P22hKFv9snhsx1yJCHe6l7uvMn)\n7:44[Unlock the Power of Math with Real-World Calculus and Statistics![](https://api.dataforseo.com/llm_m/cdn/i/3749828893991467393:b366b79334ba0fcd1d49eb4d4d37d3b8)\n![](https://api.dataforseo.com/llm_m/cdn/i/3749828893991467393:94c9951244f18c2f6526a5e1ee528e69)\nMath The World YouTube · 3 Jul 2024](https://www.youtube.com/watch?v=ard71JoCrj4)",
+          "sources": [
+            {
+              "snippet": "and did you know that there's math all around you today we get to go behind the scenes of three different places that use math eve...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 1,
+              "title": "Math in the Real World: A Behind-the-Scenes Look (Full Episode)",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=FJ3-vmKLizA&t=2",
+              "publication_date": null
+            },
+            {
+              "snippet": "channel we're a project that shows how math can be used to answer questions and give insights into the world around us. and when w...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 2,
+              "title": "Unlock the Power of Math with Real-World Calculus and Statistics",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=ard71JoCrj4&t=76",
+              "publication_date": null
+            },
+            {
+              "snippet": "It equips us with critical thinking abilities, logical reasoning, and analytical skills. These problem-solving skills extend beyon...",
+              "source_name": "Mathnasium",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 3,
+              "title": "The Importance of Math in Everyday Life - Mathnasium",
+              "domain": "www.mathnasium.com",
+              "url": "https://www.mathnasium.com/math-centers/troy/news/importance-math-everyday-life",
+              "publication_date": null
+            },
+            {
+              "snippet": "hi I'm Caroline from Doodles and digits. and did you know that there's math all around you today we get to go behind the scenes of...",
+              "source_name": "www.youtube.com",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 4,
+              "title": "Math in the Real World: A Behind-the-Scenes Look (Full Episode)",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=FJ3-vmKLizA",
+              "publication_date": null
+            }
+          ],
+          "search_results": null,
+          "ai_search_volume": 50,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "search_volume": 50
+            }
+          ],
+          "first_response_at": "2026-03-06 17:21:45 +00:00",
+          "last_response_at": "2026-07-12 14:22:26 +00:00",
+          "brand_entities": null,
+          "fan_out_queries": null,
+          "is_web_search_based": true
+        },
+        {
+          "platform": "google",
+          "model_name": "google_ai_overview",
+          "location_code": 2826,
+          "language_code": "en",
+          "question": "real world math",
+          "answer": "![Welcome To The Real World: Math in Action](https://api.dataforseo.com/llm_m/cdn/i/-8488677666139977440:a61cabb51efd251913407d0d274a80cf)\n`Mathematical modeling` is the process of translating everyday, real-world problems into mathematical frameworks to find actionable solutions. It bridges abstract concepts like algebra, geometry, and statistics with tangible challenges in budgeting, career choices, and physical sciences.[](https://www.youtube.com/watch?v=ard71JoCrj4&t=76) [[1]](https://www.youtube.com/watch?v=ard71JoCrj4&t=76)[[2]](https://christiananswers.net/spotlight/games/2000/mathfortherealworld.html)[[3]](https://www.reddit.com/r/nostalgia/comments/171kmu5/math_for_the_real_world/)\n\nKey Everyday Applications\n\nApplying mathematical skills helps in practical ways every single day:\n\n- **Personal Finance:** Calculating compound interest and APR is crucial for understanding loans and mortgages. Tools like the UK Government Mortgage Calculator help determine exact monthly payments and long-term costs.[[1]](https://www.reddit.com/r/nostalgia/comments/171kmu5/math_for_the_real_world/)\n- **Budgeting:** Using percentages and fractions allows you to manage household budgets, track weekly expenses, and plan for savings goals.\n- **Physical Navigation & Travel:** Applying trigonometry and geometry helps with everything from measuring room dimensions for furniture to optimizing driving routes and calculating fuel efficiency.[[1]](https://www.reddit.com/r/nostalgia/comments/171kmu5/math_for_the_real_world/)\n- **Health and Fitness:** Tracking caloric intake, calculating BMI, and measuring heart rate zones are all rooted in applied statistics and basic arithmetic.\n\nMath in Professional Fields Professionals use applied mathematics daily to make critical, real-world decisions:[](https://www.mathnasium.com/math-centers/troy/news/importance-math-everyday-life) [[1]](https://www.mathnasium.com/math-centers/troy/news/importance-math-everyday-life)\n\n- **Structural Engineering:** Geometry and calculus are used to figure out load distributions, ensuring buildings and bridges can withstand environmental forces like high winds or heavy snow.[](https://www.youtube.com/watch?v=FJ3-vmKLizA&t=2) [[1]](https://www.youtube.com/watch?v=FJ3-vmKLizA&t=2)\n- **Data Science & Tech:** Algorithms and probability are the backbone of search engines, digital security, and the media streaming apps you use daily.\n- **Healthcare:** Physical therapists rely on angles and geometry to measure joint articulation and monitor recovery progress.[[1]](https://www.reddit.com/r/nostalgia/comments/171kmu5/math_for_the_real_world/)\n\nFor tips on how to connect seemingly abstract mathematical principles with daily scenarios to solve everyday questions:![Related video thumbnail](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfV6IE9if77dMQscmh6Eb1C5P22hKFv9snhsx1yJCHe6l7uvMn)\n7:44[Unlock the Power of Math with Real-World Calculus and Statistics![](https://api.dataforseo.com/llm_m/cdn/i/-8488677666139977440:b366b79334ba0fcd1d49eb4d4d37d3b8)\n![](https://api.dataforseo.com/llm_m/cdn/i/-8488677666139977440:94c9951244f18c2f6526a5e1ee528e69)\nMath The World YouTube · 3 Jul 2024](https://www.youtube.com/watch?v=ard71JoCrj4)",
+          "sources": [
+            {
+              "snippet": "and did you know that there's math all around you today we get to go behind the scenes of three different places that use math eve...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 1,
+              "title": "Math in the Real World: A Behind-the-Scenes Look (Full Episode)",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=FJ3-vmKLizA&t=2",
+              "publication_date": null
+            },
+            {
+              "snippet": "channel we're a project that shows how math can be used to answer questions and give insights into the world around us. and when w...",
+              "source_name": "YouTube",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 2,
+              "title": "Unlock the Power of Math with Real-World Calculus and Statistics",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=ard71JoCrj4&t=76",
+              "publication_date": null
+            },
+            {
+              "snippet": "It equips us with critical thinking abilities, logical reasoning, and analytical skills. These problem-solving skills extend beyon...",
+              "source_name": "Mathnasium",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 3,
+              "title": "The Importance of Math in Everyday Life - Mathnasium",
+              "domain": "www.mathnasium.com",
+              "url": "https://www.mathnasium.com/math-centers/troy/news/importance-math-everyday-life",
+              "publication_date": null
+            },
+            {
+              "snippet": "hi I'm Caroline from Doodles and digits. and did you know that there's math all around you today we get to go behind the scenes of...",
+              "source_name": "www.youtube.com",
+              "thumbnail": null,
+              "markdown": null,
+              "rank": 4,
+              "title": "Math in the Real World: A Behind-the-Scenes Look (Full Episode)",
+              "domain": "www.youtube.com",
+              "url": "https://www.youtube.com/watch?v=FJ3-vmKLizA",
+              "publication_date": null
+            }
+          ],
+          "search_results": null,
+          "ai_search_volume": 50,
+          "monthly_searches": [
+            {
+              "year": 2026,
+              "month": 5,
+              "search_volume": 20
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "search_volume": 30
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "search_volume": 50
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "search_volume": 40
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "search_volume": 40
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "search_volume": 70
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "search_volume": 110
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "search_volume": 10
+            },
+            {
+              "year": 2025,
+              "month": 7,
+              "search_volume": 50
+            },
+            {
+              "year": 2025,
+              "month": 6,
+              "search_volume": 50
+            }
+          ],
+          "first_response_at": "2026-07-11 14:18:33 +00:00",
+          "last_response_at": "2026-07-11 14:18:33 +00:00",
+          "brand_entities": null,
+          "fan_out_queries": null,
+          "is_web_search_based": true
+        }
+      ]
+    }
+  ]
+}

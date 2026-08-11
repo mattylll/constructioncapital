@@ -1,0 +1,99 @@
+{
+  "endpoint": "/ai_optimization/llm_mentions/target_metrics/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.101,
+  "result": [
+    {
+      "total_count": 0,
+      "offset": 0,
+      "items_count": 0,
+      "aggregated_metrics": {
+        "location": [
+          {
+            "key": 2826,
+            "mentions": 46,
+            "ai_search_volume": 6480
+          }
+        ],
+        "language": [
+          {
+            "key": "en",
+            "mentions": 46,
+            "ai_search_volume": 6480
+          }
+        ],
+        "platform": [
+          {
+            "key": "google",
+            "mentions": 46,
+            "ai_search_volume": 6480
+          }
+        ],
+        "sources_domain": [
+          {
+            "key": "constructioncapital.co.uk",
+            "mentions": 46,
+            "ai_search_volume": 6480
+          },
+          {
+            "key": "www.isurv.com",
+            "mentions": 17,
+            "ai_search_volume": 1770
+          },
+          {
+            "key": "ww3.rics.org",
+            "mentions": 16,
+            "ai_search_volume": 1380
+          },
+          {
+            "key": "www.johndwood.co.uk",
+            "mentions": 13,
+            "ai_search_volume": 1150
+          },
+          {
+            "key": "www.greaterlondonproperties.co.uk",
+            "mentions": 13,
+            "ai_search_volume": 1150
+          },
+          {
+            "key": "www.jpmorgan.com",
+            "mentions": 12,
+            "ai_search_volume": 1080
+          },
+          {
+            "key": "princesurveyors.co.uk",
+            "mentions": 12,
+            "ai_search_volume": 1080
+          },
+          {
+            "key": "www.pricehubble.com",
+            "mentions": 11,
+            "ai_search_volume": 990
+          },
+          {
+            "key": "www.nrla.org.uk",
+            "mentions": 11,
+            "ai_search_volume": 990
+          },
+          {
+            "key": "www.ons.gov.uk",
+            "mentions": 8,
+            "ai_search_volume": 1860
+          }
+        ],
+        "search_results_domain": [],
+        "brand_entities_title": [],
+        "brand_entities_category": [],
+        "total": {
+          "mentions": 46,
+          "ai_search_volume": 6480
+        }
+      },
+      "items": []
+    }
+  ]
+}

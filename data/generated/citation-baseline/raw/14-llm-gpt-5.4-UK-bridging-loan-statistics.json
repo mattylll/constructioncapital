@@ -1,0 +1,177 @@
+{
+  "endpoint": "/ai_optimization/chat_gpt/llm_responses/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.0693425,
+  "result": [
+    {
+      "model_name": "gpt-5.4-2026-03-05",
+      "input_tokens": 11025,
+      "output_tokens": 1412,
+      "reasoning_tokens": 308,
+      "web_search": true,
+      "money_spent": 0.0687425,
+      "datetime": "2026-08-09 19:24:23 +00:00",
+      "items": [
+        {
+          "type": "reasoning",
+          "sections": [
+            {
+              "type": "summary_text",
+              "text": "**Searching for bridging loan stats**\n\nThe user seems to be looking for statistics, possibly the latest information, so I’ll need to clarify that. I think starting with an overview of recent UK bridging loan statistics could be helpful. I should focus on authoritative sources like the ASTL and FCA to ensure reliability. It looks like a search is in order to gather the most accurate data for the user. Let's get to it!"
+            }
+          ]
+        },
+        {
+          "type": "reasoning",
+          "sections": null
+        },
+        {
+          "type": "reasoning",
+          "sections": [
+            {
+              "type": "summary_text",
+              "text": "**Preparing facts and stats**\n\nI see I only have one web call to make. The user seems to want a summary with citations for all factual claims, but their request is a bit terse. I could ask for clarification, but I can still provide the headline stats while offering deeper insights if needed. It's important to cite every fact with internet-supported sources. I'll also mention regulated bridging and BDLA/Bridging Trends while noting that market definitions can differ. Let's put together some concise bullet points!"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "sections": [
+            {
+              "type": "text",
+              "text": "Here are some **UK bridging loan statistics** you can use, split by source because the market is measured in different ways:\n\n### 1) FCA regulated bridging loans\nThese figures cover **regulated bridging loan sales** reported to the FCA, so they are a narrower subset of the total bridging market. ([fca.org.uk](https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai))\n\n- **2021:** **2,368** sales, total value **£931.8m**. ([fca.org.uk](https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai))\n- **2022:** **3,038** sales, total value **£1.278bn**. ([fca.org.uk](https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai))\n- **2023:** **3,735** sales, total value **£1.425bn**. ([fca.org.uk](https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai))\n- **2024 (Q1–Q3):** **3,043** sales, total value **£1.163bn**. ([fca.org.uk](https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai))\n- **2025 (full year):** **4,691** sales, total value **£1.828bn**. ([fca.org.uk](https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai))\n\nThat means FCA-regulated bridging volumes rose from **£1.425bn in 2023** to **£1.828bn in 2025**, while sales increased from **3,735** to **4,691** over the same period. ([fca.org.uk](https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai))\n\n### 2) FCA 2025 breakdowns\nFor **2025 regulated bridging loans**, the largest loan-value band by number of sales was **£120,001 to under £250,000** with **1,326** sales, while the largest by value was **£250,000 to under £500,000** at **£433.6m**. ([fca.org.uk](https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai))\n\nBy region in **2025**, **Central & Greater London** had the highest total value at **£503.0m** from **773** sales. The **South West** had **846** sales worth **£312.8m**, which was the highest sales count among regions listed. ([fca.org.uk](https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai))\n\nThe FCA also reported **second-charge regulated bridge loans** in **2025** at **281** sales worth **£42.2m**. ([fca.org.uk](https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai))\n\n### 3) Wider market / industry data\nIndustry data from the **BDLA** shows a much larger market than the FCA regulated subset, because it covers broader bridging and development lending activity reported by member lenders. ([bridgingandcommercial.co.uk](https://bridgingandcommercial.co.uk/article/21083/bridging-loan-books-surpass-pound10bn?utm_source=openai))\n\n- **Q4 2024:** bridging completions reached a record **£2.3bn**, and total loan books rose to **£10.3bn** for the first time. Applications were **£11.3bn**. ([bridgingandcommercial.co.uk](https://bridgingandcommercial.co.uk/article/21083/bridging-loan-books-surpass-pound10bn?utm_source=openai))\n- **Q1 2025:** applications jumped to **£18.34bn** and completions totalled **£2.8bn**, matching the record level cited for **Q4 2024** in that report. ([bridgingandcommercial.co.uk](https://bridgingandcommercial.co.uk/article/21421/bridging-applications-rocket-55-hinting-at-lending-surge-ahead?utm_source=openai))\n- **Q1 2026:** completions were **£1.8bn**, applications **£9.9bn**, and total lender loan books **£11.5bn**. Average LTV was **56.64%**. ([bridgingandcommercial.co.uk](https://bridgingandcommercial.co.uk/bdla-data-shows-dip-in-activity-as-completions-fall-to-18bn?utm_source=openai))\n\n### 4) Bridging Trends market indicators\nAccording to **Bridging Trends** data reported in February **2025** for the **2024** market:\n\n- total gross lending was **£822.2m**, just **1% below** the **£831m** historic high recorded in **2023**;  \n- average completion time fell from **58 days in 2023** to **47 days in 2024**;  \n- average monthly interest rate increased from **0.86%** to **0.88%**; and  \n- average LTV was reported at **58%**. ([bridgingandcommercial.co.uk](https://bridgingandcommercial.co.uk/article/21058/bridging-trends-data-shows-market-resilience-and-faster-completion-times-in-2024?utm_source=openai))\n\n### Quick takeaway\nIf you want a simple headline: **the UK bridging market remained large and active through 2024–2026, with FCA-regulated bridging reaching £1.83bn across 4,691 sales in 2025, while broader BDLA industry data showed quarterly completions as high as £2.8bn and loan books above £11bn by Q1 2026.** ([fca.org.uk](https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai))\n\nIf you want, I can turn this into:\n1. a **table**,  \n2. a **short market commentary**, or  \n3. **APA/Harvard-style cited notes** for a report.",
+              "annotations": [
+                {
+                  "title": "Information on regulated bridging (short-term) loans -January 2025 | FCA",
+                  "url": "https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai",
+                  "start_index": 297,
+                  "end_index": 434,
+                  "text": "([fca.org.uk](https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai))"
+                },
+                {
+                  "title": "Information on regulated bridging (short-term) loans -January 2025 | FCA",
+                  "url": "https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai",
+                  "start_index": 490,
+                  "end_index": 627,
+                  "text": "([fca.org.uk](https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai))"
+                },
+                {
+                  "title": "Information on regulated bridging (short-term) loans -January 2025 | FCA",
+                  "url": "https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai",
+                  "start_index": 683,
+                  "end_index": 820,
+                  "text": "([fca.org.uk](https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai))"
+                },
+                {
+                  "title": "Information on regulated bridging (short-term) loans -January 2025 | FCA",
+                  "url": "https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai",
+                  "start_index": 876,
+                  "end_index": 1013,
+                  "text": "([fca.org.uk](https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai))"
+                },
+                {
+                  "title": "Information on regulated bridging (short-term) loans -January 2025 | FCA",
+                  "url": "https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai",
+                  "start_index": 1077,
+                  "end_index": 1214,
+                  "text": "([fca.org.uk](https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai))"
+                },
+                {
+                  "title": "Information on mortgage bridging loans - February 2026 | FCA",
+                  "url": "https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai",
+                  "start_index": 1282,
+                  "end_index": 1408,
+                  "text": "([fca.org.uk](https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai))"
+                },
+                {
+                  "title": "Information on regulated bridging (short-term) loans -January 2025 | FCA",
+                  "url": "https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai",
+                  "start_index": 1580,
+                  "end_index": 1717,
+                  "text": "([fca.org.uk](https://www.fca.org.uk/freedom-information/information-regulated-bridging-short-term-loans-january-2025?utm_source=openai))"
+                },
+                {
+                  "title": "Information on mortgage bridging loans - February 2026 | FCA",
+                  "url": "https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai",
+                  "start_index": 1967,
+                  "end_index": 2093,
+                  "text": "([fca.org.uk](https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai))"
+                },
+                {
+                  "title": "Information on mortgage bridging loans - February 2026 | FCA",
+                  "url": "https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai",
+                  "start_index": 2322,
+                  "end_index": 2448,
+                  "text": "([fca.org.uk](https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai))"
+                },
+                {
+                  "title": "Information on mortgage bridging loans - February 2026 | FCA",
+                  "url": "https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai",
+                  "start_index": 2560,
+                  "end_index": 2686,
+                  "text": "([fca.org.uk](https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging loan books surpass £10bn",
+                  "url": "https://bridgingandcommercial.co.uk/article/21083/bridging-loan-books-surpass-pound10bn?utm_source=openai",
+                  "start_index": 2910,
+                  "end_index": 3048,
+                  "text": "([bridgingandcommercial.co.uk](https://bridgingandcommercial.co.uk/article/21083/bridging-loan-books-surpass-pound10bn?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging loan books surpass £10bn",
+                  "url": "https://bridgingandcommercial.co.uk/article/21083/bridging-loan-books-surpass-pound10bn?utm_source=openai",
+                  "start_index": 3207,
+                  "end_index": 3345,
+                  "text": "([bridgingandcommercial.co.uk](https://bridgingandcommercial.co.uk/article/21083/bridging-loan-books-surpass-pound10bn?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging applications rocket 55%, hinting at lending surge ahead",
+                  "url": "https://bridgingandcommercial.co.uk/article/21421/bridging-applications-rocket-55-hinting-at-lending-surge-ahead?utm_source=openai",
+                  "start_index": 3498,
+                  "end_index": 3661,
+                  "text": "([bridgingandcommercial.co.uk](https://bridgingandcommercial.co.uk/article/21421/bridging-applications-rocket-55-hinting-at-lending-surge-ahead?utm_source=openai))"
+                },
+                {
+                  "title": "BDLA data shows dip in activity as completions fall to £1.8bn | Bridging & Commercial",
+                  "url": "https://bridgingandcommercial.co.uk/bdla-data-shows-dip-in-activity-as-completions-fall-to-18bn?utm_source=openai",
+                  "start_index": 3800,
+                  "end_index": 3946,
+                  "text": "([bridgingandcommercial.co.uk](https://bridgingandcommercial.co.uk/bdla-data-shows-dip-in-activity-as-completions-fall-to-18bn?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging Trends data shows market resilience and faster completion times",
+                  "url": "https://bridgingandcommercial.co.uk/article/21058/bridging-trends-data-shows-market-resilience-and-faster-completion-times-in-2024?utm_source=openai",
+                  "start_index": 4390,
+                  "end_index": 4571,
+                  "text": "([bridgingandcommercial.co.uk](https://bridgingandcommercial.co.uk/article/21058/bridging-trends-data-shows-market-resilience-and-faster-completion-times-in-2024?utm_source=openai))"
+                },
+                {
+                  "title": "Information on mortgage bridging loans - February 2026 | FCA",
+                  "url": "https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai",
+                  "start_index": 4887,
+                  "end_index": 5013,
+                  "text": "([fca.org.uk](https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026?utm_source=openai))"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "fan_out_queries": [
+        "UK bridging loan statistics 2025 ASTL annual bridging market report",
+        "UK bridging loan market statistics 2024 2025 Bridging & Commercial",
+        "bridging loans UK statistics FCA consumer credit 2025",
+        "UK Finance bridging loan statistics 2025",
+        "BDLA quarterly lending data Q1 2026 bridging development lenders association pdf",
+        "BDLA quarterly lending data Q1 2025 site:bdla.org.uk bridging",
+        "Bridging Trends 2024 report PDF bridging trends",
+        "EY UK Bridging Market Survey 2024 pdf"
+      ]
+    }
+  ]
+}

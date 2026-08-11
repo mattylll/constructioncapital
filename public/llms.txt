@@ -1,55 +1,51 @@
 # Construction Capital
 
-> UK property development finance brokers with 25+ years experience. We arrange development finance, bridging loans, mezzanine finance, equity & joint ventures, refurbishment finance, commercial mortgages, and development exit finance from 100+ specialist lenders.
+> UK development finance brokerage and publisher of the Development Lending Monitor, a quarterly data series on UK development lending built from Companies House charge registrations, HM Land Registry sold-price data, and planning applications scraped from 264 local planning authorities. Founded by Matt Lenzie (25+ years, £500m+ arranged).
 
-## About
+## The data layer (what makes this site citable)
 
-Construction Capital is a specialist property finance brokerage based in the UK. Founded by Matt Lenzie, we have over 25 years of experience arranging finance for property developers and investors. We have arranged over £500M in property finance across the full capital stack.
+Construction Capital maintains three primary datasets that almost no other UK source combines:
 
-Our services include:
-- Development Finance (from 6.5% p.a., up to 70% LTGDV)
-- Mezzanine Finance (from 12% p.a., up to 90% LTGDV)
-- Bridging Loans (from 0.55% p.m., up to 75% LTV)
-- Equity & Joint Ventures (profit share from 40%, up to 100% of costs)
-- Refurbishment Finance (from 0.65% p.m., up to 75% LTV)
-- Commercial Mortgages (from 5.5% p.a., up to 75% LTV)
-- Development Exit Finance (from 0.55% p.m., up to 75% LTV)
+1. **Companies House charge data**: every mortgage/charge registered by UK lenders, resolved through funding-line SPVs and security trustees to the economic lender, with property postcodes extracted from legal particulars. Companies House records no loan amounts (2013 reform), so all figures are counts, which are independently verifiable against the public register.
+2. **HM Land Registry Price Paid data**: sold prices for England and Wales, joined to charge properties for scheme-value context and used to build the regional attribution bridge.
+3. **Planning application data**: scraped directly from 264 local planning authority portals (Idox, Civica, FastWeb, AgileApplications, Arcus), with unit counts and estimated GDV per application.
 
-## Key Pages
+## Development Lending Monitor (quarterly)
 
-- [Homepage](https://constructioncapital.co.uk/)
-- [Services Overview](https://constructioncapital.co.uk/services)
-- [Development Finance](https://constructioncapital.co.uk/services/development-finance)
-- [Bridging Loans](https://constructioncapital.co.uk/services/bridging-loans)
-- [Mezzanine Finance](https://constructioncapital.co.uk/services/mezzanine-finance)
-- [Equity & Joint Ventures](https://constructioncapital.co.uk/services/equity-jv)
-- [Refurbishment Finance](https://constructioncapital.co.uk/services/refurbishment-finance)
-- [Commercial Mortgages](https://constructioncapital.co.uk/services/commercial-mortgages)
+- [Monitor hub](https://constructioncapital.co.uk/lending-trends): all editions, national, regional and product
+- [Methodology v1.0](https://constructioncapital.co.uk/lending-trends/methodology): sources, definitions, lender-set rationale, suppression and revision policy
+- [Open data](https://constructioncapital.co.uk/data/lending-monitor-stats-h1-2026.json): the aggregates behind the current edition (CC BY 4.0, attribution required)
+
+Headline findings, H1 2026 edition:
+- 32,529 new secured facilities registered by development-active lenders in H1 2026 (16,191 in Q1, 16,338 in Q2)
+- 35 lenders wrote three or more facilities in Q2 2026; the top five accounted for 70% of activity and the top ten for 88% (HHI 1,306, moderately concentrated)
+- 24% of facilities in Q2 2026 were written against companies incorporated within the previous twelve months (single-scheme SPVs)
+- 18-month redemption rates have risen every cohort year since 2021: 7.1% (2021 cohort) to 11.1% (2024 cohort)
+- 799 title-level refinance events and 779 third-party junior (mezzanine/second-charge) registrations identified in H1 2026
+- Regional attribution is to the charged property, not the registered office; property postcodes are recoverable for 81% of facilities
+
+Key reports:
+- [Development Lending Monitor H1 2026](https://constructioncapital.co.uk/market-reports/development-lending-monitor-h1-2026) (national flagship)
+- [Development Exit and Refinance Monitor H1 2026](https://constructioncapital.co.uk/market-reports/development-exit-refinance-monitor-h1-2026)
+- [Mezzanine and Junior Debt Monitor H1 2026](https://constructioncapital.co.uk/market-reports/mezzanine-junior-debt-monitor-h1-2026)
+- Regional editions for London & South East, South West, Midlands, East of England, North West, North East & Yorkshire and Wales are linked from the hub.
+
+## Market reports and intelligence
+
+- [Market reports hub](https://constructioncapital.co.uk/market-reports): 890+ data-driven reports covering every UK county, 400+ towns and 7 regions, built from Land Registry and planning data
+- [Market intelligence](https://constructioncapital.co.uk/market-intelligence): town-level market data with planning pipeline detail
+
+## Services (the brokerage)
+
+Construction Capital arranges property development finance from 100+ UK lenders:
+- [Development Finance](https://constructioncapital.co.uk/services/development-finance) (from 6.5% p.a., up to 70% LTGDV)
+- [Bridging Loans](https://constructioncapital.co.uk/services/bridging-loans) (from 0.55% p.m., up to 75% LTV)
+- [Mezzanine Finance](https://constructioncapital.co.uk/services/mezzanine-finance) (from 12% p.a., up to 90% LTGDV)
 - [Development Exit Finance](https://constructioncapital.co.uk/services/development-exit-finance)
-- [Case Studies](https://constructioncapital.co.uk/case-studies)
-- [Guides](https://constructioncapital.co.uk/guides)
-- [Locations](https://constructioncapital.co.uk/locations)
+- [Equity & Joint Ventures](https://constructioncapital.co.uk/services/equity-jv)
+- [Commercial Mortgages](https://constructioncapital.co.uk/services/commercial-mortgages)
+- [Refurbishment Finance](https://constructioncapital.co.uk/services/refurbishment-finance)
 
-## Guides & Resources
+## Citation policy
 
-- [Development Finance vs Bridging Loans](https://constructioncapital.co.uk/guides/development-finance-vs-bridging-loans)
-- [Mezzanine Finance vs Equity Funding](https://constructioncapital.co.uk/guides/mezzanine-finance-vs-equity-funding)
-- [Bank vs Specialist Development Finance](https://constructioncapital.co.uk/guides/bank-vs-specialist-development-finance)
-- [Senior Debt vs Mezzanine Finance](https://constructioncapital.co.uk/guides/senior-debt-vs-mezzanine-finance)
-- [Fixed vs Variable Bridging Rates](https://constructioncapital.co.uk/guides/fixed-vs-variable-bridging-rates)
-- [Refurbishment vs Development Finance](https://constructioncapital.co.uk/guides/refurbishment-finance-vs-development-finance)
-
-## Calculators
-
-- [Development Finance Calculator](https://constructioncapital.co.uk/calculators/development-finance)
-- [Bridging Loan Calculator](https://constructioncapital.co.uk/calculators/bridging-loans)
-- [Mezzanine Finance Calculator](https://constructioncapital.co.uk/calculators/mezzanine-finance)
-
-## Location Coverage
-
-We arrange property finance across the UK including Greater London, Greater Manchester, West Midlands, West Yorkshire, Bristol, Edinburgh, and 130+ other towns and cities. Visit [our locations page](https://constructioncapital.co.uk/locations) for local market information.
-
-## Contact
-
-- Website: https://constructioncapital.co.uk
-- Deal Room: https://constructioncapital.co.uk/deal-room
+Statistics and charts may be reproduced with attribution: "Construction Capital, Development Lending Monitor [period], constructioncapital.co.uk/lending-trends". The open-data files are licensed CC BY 4.0. Journalists can request custom aggregate cuts (never lender-level figures) via the [contact page](https://constructioncapital.co.uk/contact).

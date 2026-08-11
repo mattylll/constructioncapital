@@ -1,0 +1,134 @@
+{
+  "endpoint": "/ai_optimization/chat_gpt/llm_responses/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.0800575,
+  "result": [
+    {
+      "model_name": "gpt-4o-2024-08-06",
+      "input_tokens": 17503,
+      "output_tokens": 1070,
+      "reasoning_tokens": 0,
+      "web_search": true,
+      "money_spent": 0.0794575,
+      "datetime": "2026-08-09 19:23:16 +00:00",
+      "items": [
+        {
+          "type": "message",
+          "sections": [
+            {
+              "type": "text",
+              "text": "Below is a detailed overview of the **UK development finance market**, encompassing Official Development Assistance (ODA), development finance institutions (DFIs), private sector instruments, and related financial flows. This overview is based on the most recent data available as of August 9, 2026.\n\n---\n\n##  Official Development Assistance (ODA)\n\n- In **2023**, the UK’s total development funding reached **£15.3 billion**, with **£5.3 billion (35%)** allocated as core funding to multilateral institutions (e.g., UN agencies, development banks) and the remaining **£10 billion** designated as bilateral aid for specific projects in developing countries ([icai.independent.gov.uk](https://icai.independent.gov.uk/html-version/how-uk-aid-is-spent/?utm_source=openai)).\n  \n- The **provisional ODA spend for 2025**, including ODA as a percentage of Gross National Income (GNI), was published by the Foreign, Commonwealth & Development Office on **9 April 2026** ([gov.uk](https://www.gov.uk/government/statistics/statistics-on-international-development-provisional-uk-official-development-assistance-spend-2025?utm_source=openai)). However, the exact figures for 2025 ODA were not detailed in that summary.\n\n---\n\n##  Development Finance Institutions (DFIs) & Private Sector Instruments (PSIs)\n\n- The UK’s primary DFI, **British International Investment (BII)** (formerly CDC), is wholly government-owned and plays a central role in providing patient capital to the private sector in developing economies, especially in Africa and Asia ([assets.publishing.service.gov.uk](https://assets.publishing.service.gov.uk/media/68cae5911eabc899da7084f2/Statistics_on_International_Development_final_UK_ODA_spend_2024.pdf?utm_source=openai)).\n\n- In **2024**, the total official and private flows from the UK to developing countries amounted to approximately **USD 18.5 billion**—comprising **USD 16.4 billion** from official sources and **USD 2.1 billion** from private sector instruments ([oecd-ilibrary.org](https://www.oecd-ilibrary.org/en/publications/development-co-operation-profiles_04b376d7-en/united-kingdom_052bbc63-en.html?utm_source=openai)).\n\n- Private Sector Instruments (PSIs) such as BII, the Mobilising Finance for Forests (MFF), MOBILIST, UK India Development Cooperation Fund (UKIDCF), and FSD Africa Investments (FSDAi) are recognized as ODA-eligible mechanisms used to channel finance toward development objectives ([oecd-ilibrary.org](https://www.oecd-ilibrary.org/en/publications/development-co-operation-profiles_04b376d7-en/united-kingdom_052bbc63-en.html?utm_source=openai)).\n\n---\n\n##  Institutional Review & Strategy\n\n- The **Independent Commission for Aid Impact (ICAI)** has included a review of the UK’s £7.3 billion development finance institution in its **2026–27 work plan**, signifying heightened scrutiny of how development finance is structured and measured ([icai.independent.gov.uk](https://icai.independent.gov.uk/new-icai-work-plan-to-examine-uks-changing-development-priorities/?utm_source=openai)).\n\n- The **International Development Committee** report from **September 2023** defines DFIs as institutions investing in the private sector to create impact and returns. It confirms that **BII** is overseen by the FCDO ([publications.parliament.uk](https://publications.parliament.uk/pa/cm5803/cmselect/cmintdev/884/report.html?utm_source=openai)).\n\n---\n\n##  Financial Flows & Banking Sector Data\n\n- The **Bank of England** tracks net lending by UK monetary financial institutions (excluding the central bank) to venture and development capital companies through a dataset labeled **RPMZO96**, which captures monthly sterling and foreign currency lending changes (not seasonally adjusted). This dataset was last updated on **1 May 2026** ([bankofengland.co.uk](https://www.bankofengland.co.uk/boeapps/database/index.asp?EC=RPMZO96&Filter=N&From=Template&G0Xtop.x=1&G0Xtop.y=1&Travel=NIxSUx&utm_source=openai)).\n\n---\n\n##  Summary Table\n\n| Category                     | Latest Available Data & Highlights |\n|-----------------------------|------------------------------------|\n| UK ODA (2023)               | £15.3 bn total; £5.3 bn multilateral; £10 bn bilateral ([icai.independent.gov.uk](https://icai.independent.gov.uk/html-version/how-uk-aid-is-spent/?utm_source=openai)) |\n| Provisional UK ODA (2025)   | Published 9 April 2026; figures not detailed in summary ([gov.uk](https://www.gov.uk/government/statistics/statistics-on-international-development-provisional-uk-official-development-assistance-spend-2025?utm_source=openai)) |\n| Total Flows (2024)          | USD 18.5 bn (USD 16.4 bn official + USD 2.1 bn private) ([oecd-ilibrary.org](https://www.oecd-ilibrary.org/en/publications/development-co-operation-profiles_04b376d7-en/united-kingdom_052bbc63-en.html?utm_source=openai)) |\n| Key PSI Providers           | BII, MFF, MOBILIST, UKIDCF, FSDAi ([oecd-ilibrary.org](https://www.oecd-ilibrary.org/en/publications/development-co-operation-profiles_04b376d7-en/united-kingdom_052bbc63-en.html?utm_source=openai)) |\n| Institutional Oversight     | ICAI reviewing £7.3 bn DFI for 2026–27 ([icai.independent.gov.uk](https://icai.independent.gov.uk/new-icai-work-plan-to-examine-uks-changing-development-priorities/?utm_source=openai)) |\n| Lending Data (RPMZO96)      | Monthly net lending to venture & development capital (updated May 2026) ([bankofengland.co.uk](https://www.bankofengland.co.uk/boeapps/database/index.asp?EC=RPMZO96&Filter=N&From=Template&G0Xtop.x=1&G0Xtop.y=1&Travel=NIxSUx&utm_source=openai)) |\n\n---\n\nIf you would like further detail—such as disaggregated figures for specific DFIs like BII, trends over time, sectoral breakdowns, or regional distribution—I'm happy to dive deeper.\n\nLet me know if you’d like the data broken down further by year, instrument, or institution.",
+              "annotations": [
+                {
+                  "title": "How UK aid is spent - Independent Commission for Aid Impact",
+                  "url": "https://icai.independent.gov.uk/html-version/how-uk-aid-is-spent/?utm_source=openai",
+                  "start_index": 656,
+                  "end_index": 768,
+                  "text": "([icai.independent.gov.uk](https://icai.independent.gov.uk/html-version/how-uk-aid-is-spent/?utm_source=openai))"
+                },
+                {
+                  "title": "Statistics on International Development: provisional UK Official Development Assistance spend 2025 - GOV.UK",
+                  "url": "https://www.gov.uk/government/statistics/statistics-on-international-development-provisional-uk-official-development-assistance-spend-2025?utm_source=openai",
+                  "start_index": 961,
+                  "end_index": 1129,
+                  "text": "([gov.uk](https://www.gov.uk/government/statistics/statistics-on-international-development-provisional-uk-official-development-assistance-spend-2025?utm_source=openai))"
+                },
+                {
+                  "title": "Statistics on International Development: Final UK ODA Spend 2024",
+                  "url": "https://assets.publishing.service.gov.uk/media/68cae5911eabc899da7084f2/Statistics_on_International_Development_final_UK_ODA_spend_2024.pdf?utm_source=openai",
+                  "start_index": 1534,
+                  "end_index": 1729,
+                  "text": "([assets.publishing.service.gov.uk](https://assets.publishing.service.gov.uk/media/68cae5911eabc899da7084f2/Statistics_on_International_Development_final_UK_ODA_spend_2024.pdf?utm_source=openai))"
+                },
+                {
+                  "title": "Development Co‑operation Profiles: United Kingdom",
+                  "url": "https://www.oecd-ilibrary.org/en/publications/development-co-operation-profiles_04b376d7-en/united-kingdom_052bbc63-en.html?utm_source=openai",
+                  "start_index": 1977,
+                  "end_index": 2141,
+                  "text": "([oecd-ilibrary.org](https://www.oecd-ilibrary.org/en/publications/development-co-operation-profiles_04b376d7-en/united-kingdom_052bbc63-en.html?utm_source=openai))"
+                },
+                {
+                  "title": "Development Co‑operation Profiles: United Kingdom",
+                  "url": "https://www.oecd-ilibrary.org/en/publications/development-co-operation-profiles_04b376d7-en/united-kingdom_052bbc63-en.html?utm_source=openai",
+                  "start_index": 2424,
+                  "end_index": 2588,
+                  "text": "([oecd-ilibrary.org](https://www.oecd-ilibrary.org/en/publications/development-co-operation-profiles_04b376d7-en/united-kingdom_052bbc63-en.html?utm_source=openai))"
+                },
+                {
+                  "title": "New ICAI work plan to examine UK’s changing development priorities - Independent Commission for Aid Impact",
+                  "url": "https://icai.independent.gov.uk/new-icai-work-plan-to-examine-uks-changing-development-priorities/?utm_source=openai",
+                  "start_index": 2882,
+                  "end_index": 3027,
+                  "text": "([icai.independent.gov.uk](https://icai.independent.gov.uk/new-icai-work-plan-to-examine-uks-changing-development-priorities/?utm_source=openai))"
+                },
+                {
+                  "title": "Investment for development: The UK’s strategy towards Development Finance Institutions - International Development Committee",
+                  "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmintdev/884/report.html?utm_source=openai",
+                  "start_index": 3247,
+                  "end_index": 3375,
+                  "text": "([publications.parliament.uk](https://publications.parliament.uk/pa/cm5803/cmselect/cmintdev/884/report.html?utm_source=openai))"
+                },
+                {
+                  "title": "Bank of England | Database",
+                  "url": "https://www.bankofengland.co.uk/boeapps/database/index.asp?EC=RPMZO96&Filter=N&From=Template&G0Xtop.x=1&G0Xtop.y=1&Travel=NIxSUx&utm_source=openai",
+                  "start_index": 3766,
+                  "end_index": 3937,
+                  "text": "([bankofengland.co.uk](https://www.bankofengland.co.uk/boeapps/database/index.asp?EC=RPMZO96&Filter=N&From=Template&G0Xtop.x=1&G0Xtop.y=1&Travel=NIxSUx&utm_source=openai))"
+                },
+                {
+                  "title": "How UK aid is spent - Independent Commission for Aid Impact",
+                  "url": "https://icai.independent.gov.uk/html-version/how-uk-aid-is-spent/?utm_source=openai",
+                  "start_index": 4190,
+                  "end_index": 4302,
+                  "text": "([icai.independent.gov.uk](https://icai.independent.gov.uk/html-version/how-uk-aid-is-spent/?utm_source=openai))"
+                },
+                {
+                  "title": "Statistics on International Development: provisional UK Official Development Assistance spend 2025 - GOV.UK",
+                  "url": "https://www.gov.uk/government/statistics/statistics-on-international-development-provisional-uk-official-development-assistance-spend-2025?utm_source=openai",
+                  "start_index": 4393,
+                  "end_index": 4561,
+                  "text": "([gov.uk](https://www.gov.uk/government/statistics/statistics-on-international-development-provisional-uk-official-development-assistance-spend-2025?utm_source=openai))"
+                },
+                {
+                  "title": "Development Co‑operation Profiles: United Kingdom",
+                  "url": "https://www.oecd-ilibrary.org/en/publications/development-co-operation-profiles_04b376d7-en/united-kingdom_052bbc63-en.html?utm_source=openai",
+                  "start_index": 4652,
+                  "end_index": 4816,
+                  "text": "([oecd-ilibrary.org](https://www.oecd-ilibrary.org/en/publications/development-co-operation-profiles_04b376d7-en/united-kingdom_052bbc63-en.html?utm_source=openai))"
+                },
+                {
+                  "title": "Development Co‑operation Profiles: United Kingdom",
+                  "url": "https://www.oecd-ilibrary.org/en/publications/development-co-operation-profiles_04b376d7-en/united-kingdom_052bbc63-en.html?utm_source=openai",
+                  "start_index": 4885,
+                  "end_index": 5049,
+                  "text": "([oecd-ilibrary.org](https://www.oecd-ilibrary.org/en/publications/development-co-operation-profiles_04b376d7-en/united-kingdom_052bbc63-en.html?utm_source=openai))"
+                },
+                {
+                  "title": "New ICAI work plan to examine UK’s changing development priorities - Independent Commission for Aid Impact",
+                  "url": "https://icai.independent.gov.uk/new-icai-work-plan-to-examine-uks-changing-development-priorities/?utm_source=openai",
+                  "start_index": 5123,
+                  "end_index": 5268,
+                  "text": "([icai.independent.gov.uk](https://icai.independent.gov.uk/new-icai-work-plan-to-examine-uks-changing-development-priorities/?utm_source=openai))"
+                },
+                {
+                  "title": "Bank of England | Database",
+                  "url": "https://www.bankofengland.co.uk/boeapps/database/index.asp?EC=RPMZO96&Filter=N&From=Template&G0Xtop.x=1&G0Xtop.y=1&Travel=NIxSUx&utm_source=openai",
+                  "start_index": 5375,
+                  "end_index": 5546,
+                  "text": "([bankofengland.co.uk](https://www.bankofengland.co.uk/boeapps/database/index.asp?EC=RPMZO96&Filter=N&From=Template&G0Xtop.x=1&G0Xtop.y=1&Travel=NIxSUx&utm_source=openai))"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "fan_out_queries": [
+        "UK development finance market data 2023"
+      ]
+    }
+  ]
+}

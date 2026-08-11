@@ -1,0 +1,42 @@
+{
+  "endpoint": "/ai_optimization/chat_gpt/llm_responses/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.014405,
+  "result": [
+    {
+      "model_name": "gpt-5.4-2026-03-05",
+      "input_tokens": 4460,
+      "output_tokens": 177,
+      "reasoning_tokens": 89,
+      "web_search": false,
+      "money_spent": 0.013805,
+      "datetime": "2026-08-09 19:23:55 +00:00",
+      "items": [
+        {
+          "type": "reasoning",
+          "sections": [
+            {
+              "type": "summary_text",
+              "text": "**Clarifying loan information**\n\nI need to make sure I understand the user's question about the number of development loans in the UK. It's a bit vague since it could mean types of loans, providers, or how many are outstanding. I think it’s best to ask for clarification directly rather than making assumptions. I could provide some options, but a concise follow-up question would probably be more effective to get the information I need!"
+            }
+          ]
+        },
+        {
+          "type": "message",
+          "sections": [
+            {
+              "type": "text",
+              "text": "Do you mean:\n\n1. **How many types of development loans** are available in the UK,  \n2. **How many lenders** offer development loans in the UK, or  \n3. **How many development loans are currently outstanding / issued** in the UK?\n\n“Development loan” can mean different things here, so if you tell me which one you want, I can give you a precise answer.",
+              "annotations": null
+            }
+          ]
+        }
+      ],
+      "fan_out_queries": null
+    }
+  ]
+}

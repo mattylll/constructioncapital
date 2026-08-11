@@ -1,0 +1,180 @@
+{
+  "rank": {
+    "endpoint": "/dataforseo_labs/google/domain_rank_overview/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.01212,
+    "result": [
+      {
+        "se_type": "google",
+        "target": "shawbrook.co.uk",
+        "location_code": 2826,
+        "language_code": "en",
+        "total_count": 1,
+        "items_count": 1,
+        "items": [
+          {
+            "se_type": "google",
+            "location_code": 2826,
+            "language_code": "en",
+            "metrics": {
+              "organic": {
+                "pos_1": 205,
+                "pos_2_3": 297,
+                "pos_4_10": 1265,
+                "pos_11_20": 1724,
+                "pos_21_30": 1664,
+                "pos_31_40": 1182,
+                "pos_41_50": 741,
+                "pos_51_60": 397,
+                "pos_61_70": 222,
+                "pos_71_80": 126,
+                "pos_81_90": 78,
+                "pos_91_100": 40,
+                "etv": 120283.13797654584,
+                "count": 7941,
+                "estimated_paid_traffic_cost": 733090.1813699787,
+                "is_new": 3579,
+                "is_up": 2266,
+                "is_down": 1660,
+                "is_lost": 4053,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              },
+              "paid": {
+                "pos_1": 0,
+                "pos_2_3": 1,
+                "pos_4_10": 0,
+                "pos_11_20": 0,
+                "pos_21_30": 0,
+                "pos_31_40": 0,
+                "pos_41_50": 0,
+                "pos_51_60": 0,
+                "pos_61_70": 0,
+                "pos_71_80": 0,
+                "pos_81_90": 0,
+                "pos_91_100": 0,
+                "etv": 2.0999999046325684,
+                "count": 1,
+                "estimated_paid_traffic_cost": 80.80799865722656,
+                "is_new": 1,
+                "is_up": 0,
+                "is_down": 0,
+                "is_lost": 0,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "bl": {
+    "endpoint": "/backlinks/summary/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.024036,
+    "result": [
+      {
+        "target": "shawbrook.co.uk",
+        "first_seen": "2019-01-16 19:00:30 +00:00",
+        "lost_date": null,
+        "rank": 319,
+        "backlinks": 21893,
+        "backlinks_spam_score": 10,
+        "crawled_pages": 1744,
+        "info": {
+          "server": "volt-adc",
+          "cms": null,
+          "platform_type": [
+            "organization"
+          ],
+          "ip_address": "159.60.150.161",
+          "country": "GB",
+          "is_ip": false,
+          "target_spam_score": 0
+        },
+        "internal_links_count": 27682,
+        "external_links_count": 9632,
+        "broken_backlinks": 166,
+        "broken_pages": 32,
+        "referring_domains": 1874,
+        "referring_domains_nofollow": 919,
+        "referring_main_domains": 1485,
+        "referring_main_domains_nofollow": 574,
+        "referring_ips": 1229,
+        "referring_subnets": 883,
+        "referring_pages": 10700,
+        "referring_pages_nofollow": 2468,
+        "referring_links_tld": {
+          "com": 6909,
+          "co.uk": 1173,
+          "xyz": 716,
+          "org": 340,
+          "io": 168,
+          "jobs": 144,
+          "online": 115,
+          "space": 109,
+          "website": 108,
+          "site": 106
+        },
+        "referring_links_types": {
+          "image": 5687,
+          "anchor": 4925,
+          "redirect": 88
+        },
+        "referring_links_attributes": {
+          "nofollow": 2467,
+          "noopener": 1707,
+          "noreferrer": 883,
+          "external": 30,
+          "sponsored": 17,
+          "ugc": 10
+        },
+        "referring_links_platform_types": {
+          "organization": 7078,
+          "blogs": 6773,
+          "cms": 6745,
+          "unknown": 2546,
+          "news": 441,
+          "ecommerce": 35,
+          "message-boards": 21,
+          "wikis": 2
+        },
+        "referring_links_semantic_locations": {
+          "section": 5967,
+          "": 2142,
+          "article": 1070,
+          "main": 1017,
+          "footer": 328,
+          "figure": 99,
+          "header": 29,
+          "aside": 28,
+          "nav": 12,
+          "details": 4
+        },
+        "referring_links_countries": {
+          "GB": 6963,
+          "": 2341,
+          "US": 433,
+          "WW": 389,
+          "IO": 168,
+          "RU": 98,
+          "IN": 54,
+          "CO": 39,
+          "TV": 21,
+          "DE": 21
+        }
+      }
+    ]
+  }
+}

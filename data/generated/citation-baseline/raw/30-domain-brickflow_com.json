@@ -1,0 +1,176 @@
+{
+  "rank": {
+    "endpoint": "/dataforseo_labs/google/domain_rank_overview/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.01212,
+    "result": [
+      {
+        "se_type": "google",
+        "target": "brickflow.com",
+        "location_code": 2826,
+        "language_code": "en",
+        "total_count": 1,
+        "items_count": 1,
+        "items": [
+          {
+            "se_type": "google",
+            "location_code": 2826,
+            "language_code": "en",
+            "metrics": {
+              "organic": {
+                "pos_1": 7,
+                "pos_2_3": 50,
+                "pos_4_10": 356,
+                "pos_11_20": 179,
+                "pos_21_30": 134,
+                "pos_31_40": 84,
+                "pos_41_50": 50,
+                "pos_51_60": 39,
+                "pos_61_70": 17,
+                "pos_71_80": 17,
+                "pos_81_90": 6,
+                "pos_91_100": 2,
+                "etv": 12895.848165066913,
+                "count": 941,
+                "estimated_paid_traffic_cost": 233360.9213359356,
+                "is_new": 409,
+                "is_up": 234,
+                "is_down": 246,
+                "is_lost": 316,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              },
+              "paid": {
+                "pos_1": 0,
+                "pos_2_3": 0,
+                "pos_4_10": 0,
+                "pos_11_20": 0,
+                "pos_21_30": 0,
+                "pos_31_40": 0,
+                "pos_41_50": 0,
+                "pos_51_60": 0,
+                "pos_61_70": 0,
+                "pos_71_80": 0,
+                "pos_81_90": 0,
+                "pos_91_100": 0,
+                "etv": 0,
+                "count": 0,
+                "estimated_paid_traffic_cost": 0,
+                "is_new": 0,
+                "is_up": 0,
+                "is_down": 0,
+                "is_lost": 0,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "bl": {
+    "endpoint": "/backlinks/summary/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.024036,
+    "result": [
+      {
+        "target": "brickflow.com",
+        "first_seen": "2019-01-16 14:32:24 +00:00",
+        "lost_date": null,
+        "rank": 309,
+        "backlinks": 2566,
+        "backlinks_spam_score": 33,
+        "crawled_pages": 776,
+        "info": {
+          "server": "cloudflare",
+          "cms": null,
+          "platform_type": [
+            "unknown"
+          ],
+          "ip_address": "199.60.103.80",
+          "country": "GB",
+          "is_ip": false,
+          "target_spam_score": 3
+        },
+        "internal_links_count": 21593,
+        "external_links_count": 1818,
+        "broken_backlinks": 0,
+        "broken_pages": 25,
+        "referring_domains": 680,
+        "referring_domains_nofollow": 272,
+        "referring_main_domains": 583,
+        "referring_main_domains_nofollow": 179,
+        "referring_ips": 306,
+        "referring_subnets": 258,
+        "referring_pages": 2305,
+        "referring_pages_nofollow": 940,
+        "referring_links_tld": {
+          "com": 691,
+          "xyz": 655,
+          "de": 477,
+          "co.uk": 91,
+          "hu": 58,
+          "org": 43,
+          "info": 25,
+          "it": 24,
+          "site": 24,
+          "space": 23
+        },
+        "referring_links_types": {
+          "anchor": 1936,
+          "image": 356,
+          "canonical": 12,
+          "redirect": 1
+        },
+        "referring_links_attributes": {
+          "nofollow": 940,
+          "noopener": 257,
+          "noreferrer": 41,
+          "external": 2,
+          "ugc": 1
+        },
+        "referring_links_platform_types": {
+          "unknown": 1766,
+          "blogs": 407,
+          "cms": 397,
+          "organization": 210,
+          "news": 18,
+          "ecommerce": 2,
+          "message-boards": 2
+        },
+        "referring_links_semantic_locations": {
+          "": 1802,
+          "article": 283,
+          "main": 136,
+          "section": 59,
+          "figure": 19,
+          "header": 5,
+          "aside": 1
+        },
+        "referring_links_countries": {
+          "": 1381,
+          "DE": 481,
+          "US": 123,
+          "GB": 105,
+          "WW": 89,
+          "HU": 58,
+          "IT": 24,
+          "IN": 7,
+          "CL": 6,
+          "CO": 6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "rank": {
+    "endpoint": "/dataforseo_labs/google/domain_rank_overview/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.01212,
+    "result": [
+      {
+        "se_type": "google",
+        "target": "savills.co.uk",
+        "location_code": 2826,
+        "language_code": "en",
+        "total_count": 1,
+        "items_count": 1,
+        "items": [
+          {
+            "se_type": "google",
+            "location_code": 2826,
+            "language_code": "en",
+            "metrics": {
+              "organic": {
+                "pos_1": 1602,
+                "pos_2_3": 2622,
+                "pos_4_10": 6773,
+                "pos_11_20": 6832,
+                "pos_21_30": 6048,
+                "pos_31_40": 4986,
+                "pos_41_50": 4032,
+                "pos_51_60": 3380,
+                "pos_61_70": 2714,
+                "pos_71_80": 2265,
+                "pos_81_90": 1810,
+                "pos_91_100": 936,
+                "etv": 712423.0010728445,
+                "count": 44000,
+                "estimated_paid_traffic_cost": 1715994.2233830653,
+                "is_new": 24266,
+                "is_up": 8071,
+                "is_down": 9144,
+                "is_lost": 24731,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              },
+              "paid": {
+                "pos_1": 3,
+                "pos_2_3": 2,
+                "pos_4_10": 2,
+                "pos_11_20": 0,
+                "pos_21_30": 0,
+                "pos_31_40": 0,
+                "pos_41_50": 0,
+                "pos_51_60": 0,
+                "pos_61_70": 0,
+                "pos_71_80": 0,
+                "pos_81_90": 0,
+                "pos_91_100": 0,
+                "etv": 223.90599989891052,
+                "count": 7,
+                "estimated_paid_traffic_cost": 161.35206127166748,
+                "is_new": 7,
+                "is_up": 0,
+                "is_down": 0,
+                "is_lost": 20,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "bl": {
+    "endpoint": "/backlinks/summary/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.024036,
+    "result": [
+      {
+        "target": "savills.co.uk",
+        "first_seen": "2019-01-16 02:28:29 +00:00",
+        "lost_date": null,
+        "rank": 531,
+        "backlinks": 29139525,
+        "backlinks_spam_score": 0,
+        "crawled_pages": 86945,
+        "info": {
+          "server": "Apache",
+          "cms": null,
+          "platform_type": [
+            "unknown"
+          ],
+          "ip_address": "165.84.208.133",
+          "country": "GB",
+          "is_ip": false,
+          "target_spam_score": 2
+        },
+        "internal_links_count": 2495471,
+        "external_links_count": 890326,
+        "broken_backlinks": 17910950,
+        "broken_pages": 13663,
+        "referring_domains": 11771,
+        "referring_domains_nofollow": 2434,
+        "referring_main_domains": 10563,
+        "referring_main_domains_nofollow": 1806,
+        "referring_ips": 6618,
+        "referring_subnets": 3780,
+        "referring_pages": 18307205,
+        "referring_pages_nofollow": 10070,
+        "referring_links_tld": {
+          "com": 18059619,
+          "net": 37665,
+          "co.uk": 23920,
+          "blogspot.com": 23247,
+          "com.hk": 11357,
+          "de": 9595,
+          "rugby": 9235,
+          "com.au": 8904,
+          "es": 8841,
+          "nl": 8165
+        },
+        "referring_links_types": {
+          "anchor": 18124914,
+          "image": 177908,
+          "canonical": 3870,
+          "redirect": 298,
+          "alternate": 215
+        },
+        "referring_links_attributes": {
+          "noopener": 56391,
+          "noreferrer": 49453,
+          "nofollow": 10029,
+          "sponsored": 9303,
+          "ugc": 510,
+          "external": 192
+        },
+        "referring_links_platform_types": {
+          "unknown": 15376352,
+          "ecommerce": 2822427,
+          "blogs": 90607,
+          "organization": 79273,
+          "cms": 68466,
+          "news": 4495,
+          "wikis": 81,
+          "message-boards": 80
+        },
+        "referring_links_semantic_locations": {
+          "nav": 10975857,
+          "footer": 3884220,
+          "header": 1824853,
+          "article": 1309471,
+          "": 234494,
+          "aside": 52471,
+          "section": 12623,
+          "main": 12486,
+          "figure": 614,
+          "figcaption": 102
+        },
+        "referring_links_countries": {
+          "GB": 18049116,
+          "": 88764,
+          "WW": 19628,
+          "HK": 11358,
+          "DE": 9712,
+          "ES": 9466,
+          "FR": 9410,
+          "AU": 8972,
+          "NL": 8189,
+          "US": 7603
+        }
+      }
+    ]
+  }
+}

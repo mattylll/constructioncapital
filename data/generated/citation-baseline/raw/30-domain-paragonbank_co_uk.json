@@ -1,0 +1,180 @@
+{
+  "rank": {
+    "endpoint": "/dataforseo_labs/google/domain_rank_overview/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.01212,
+    "result": [
+      {
+        "se_type": "google",
+        "target": "paragonbank.co.uk",
+        "location_code": 2826,
+        "language_code": "en",
+        "total_count": 1,
+        "items_count": 1,
+        "items": [
+          {
+            "se_type": "google",
+            "location_code": 2826,
+            "language_code": "en",
+            "metrics": {
+              "organic": {
+                "pos_1": 163,
+                "pos_2_3": 61,
+                "pos_4_10": 236,
+                "pos_11_20": 420,
+                "pos_21_30": 453,
+                "pos_31_40": 333,
+                "pos_41_50": 273,
+                "pos_51_60": 144,
+                "pos_61_70": 91,
+                "pos_71_80": 65,
+                "pos_81_90": 47,
+                "pos_91_100": 23,
+                "etv": 61140.68347671442,
+                "count": 2309,
+                "estimated_paid_traffic_cost": 190228.97463356983,
+                "is_new": 1260,
+                "is_up": 415,
+                "is_down": 469,
+                "is_lost": 2034,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              },
+              "paid": {
+                "pos_1": 3,
+                "pos_2_3": 0,
+                "pos_4_10": 0,
+                "pos_11_20": 0,
+                "pos_21_30": 0,
+                "pos_31_40": 0,
+                "pos_41_50": 0,
+                "pos_51_60": 0,
+                "pos_61_70": 0,
+                "pos_71_80": 0,
+                "pos_81_90": 0,
+                "pos_91_100": 0,
+                "etv": 42.660000801086426,
+                "count": 3,
+                "estimated_paid_traffic_cost": 619.8356077671051,
+                "is_new": 3,
+                "is_up": 0,
+                "is_down": 0,
+                "is_lost": 0,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "bl": {
+    "endpoint": "/backlinks/summary/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.024036,
+    "result": [
+      {
+        "target": "paragonbank.co.uk",
+        "first_seen": "2019-01-16 10:13:10 +00:00",
+        "lost_date": null,
+        "rank": 277,
+        "backlinks": 6320,
+        "backlinks_spam_score": 13,
+        "crawled_pages": 2,
+        "info": {
+          "server": "cloudflare",
+          "cms": null,
+          "platform_type": [
+            "unknown"
+          ],
+          "ip_address": "104.18.20.130",
+          "country": "GB",
+          "is_ip": false,
+          "target_spam_score": 65
+        },
+        "internal_links_count": 0,
+        "external_links_count": 0,
+        "broken_backlinks": 0,
+        "broken_pages": 0,
+        "referring_domains": 1525,
+        "referring_domains_nofollow": 835,
+        "referring_main_domains": 1287,
+        "referring_main_domains_nofollow": 629,
+        "referring_ips": 990,
+        "referring_subnets": 690,
+        "referring_pages": 6007,
+        "referring_pages_nofollow": 1515,
+        "referring_links_tld": {
+          "co.uk": 3400,
+          "com": 1319,
+          "online": 369,
+          "xyz": 221,
+          "net": 74,
+          "org": 54,
+          "org.uk": 53,
+          "io": 49,
+          "ru": 44,
+          "website": 43
+        },
+        "referring_links_types": {
+          "anchor": 3175,
+          "image": 2694,
+          "redirect": 138
+        },
+        "referring_links_attributes": {
+          "noopener": 3737,
+          "noreferrer": 3023,
+          "nofollow": 1515,
+          "ugc": 120,
+          "external": 32,
+          "sponsored": 16
+        },
+        "referring_links_platform_types": {
+          "unknown": 3747,
+          "organization": 1551,
+          "cms": 1143,
+          "blogs": 1122,
+          "news": 309,
+          "ecommerce": 16,
+          "message-boards": 9,
+          "wikis": 2
+        },
+        "referring_links_semantic_locations": {
+          "footer": 2360,
+          "": 1302,
+          "article": 994,
+          "main": 612,
+          "section": 577,
+          "nav": 91,
+          "figure": 28,
+          "header": 20,
+          "aside": 17,
+          "figcaption": 6
+        },
+        "referring_links_countries": {
+          "GB": 3944,
+          "": 1444,
+          "WW": 248,
+          "US": 111,
+          "IO": 51,
+          "IN": 48,
+          "RU": 44,
+          "DE": 20,
+          "CO": 15,
+          "BR": 6
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "endpoint": "/ai_optimization/chat_gpt/llm_responses/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.0859425,
+  "result": [
+    {
+      "model_name": "gpt-4o-2024-08-06",
+      "input_tokens": 17117,
+      "output_tokens": 1755,
+      "reasoning_tokens": 0,
+      "web_search": true,
+      "money_spent": 0.0853425,
+      "datetime": "2026-08-09 19:24:06 +00:00",
+      "items": [
+        {
+          "type": "message",
+          "sections": [
+            {
+              "type": "text",
+              "text": "Here is a comprehensive, up-to-date overview of UK bridging loan statistics as of mid-2026, structured by key metrics and supported by multiple reliable sources:\n\n---\n\n##  1. Market Size and Loan Book\n\n- **Total Loan Book**  \n  The Bridging & Development Lenders Association (BDLA) reports that as of Q1 2026, the total outstanding bridging and development loan book stood at approximately £11.5 billion, following a peak of around £13.4 billion in Q4 2025. ([theintermediary.co.uk](https://theintermediary.co.uk/2026/03/bridging-loan-applications-rise-to-11-7bn-as-sector-holds-firm-bdla/?utm_source=openai))\n\n- **Market Growth Projection**  \n  Forecasts indicate that the overall UK bridging finance market is expected to reach roughly £12.2 billion in outstanding loans by the end of 2026. ([lendingbridge.co.uk](https://www.lendingbridge.co.uk/blogs/uk-bridging-loans-market-growth2026?utm_source=openai))\n\n- **Historical Growth Trajectory**  \n  A snapshot of annual gross lending shows substantial growth: from approximately £4.94 bn in 2022, to £5.76 bn in 2023 (up ~16%), to £7.34 bn in 2024 (up ~27%), and then exceeding £13 bn in 2025. The total loan book is projected to surpass £12 bn in 2026. ([fundingagent.co.uk](https://www.fundingagent.co.uk/post/bridging-finance-statistics-uk?utm_source=openai))\n\n- **Scale Expansion**  \n  In May 2026, BDLA data highlighted that the bridging market had doubled in size over the previous five years and that their panel of specialist lenders—over 100 members—was tracking a combined loan book of around £13 bn. ([bridging.fund](https://www.bridging.fund/market-updates/uk-bridging-market-scale-pricing-may-2026/?utm_source=openai))\n\n---\n\n##  2. Applications and Completions\n\n- **Applications**  \n  - Q4 2025: £11.7 bn in applications, up 2.6% from the prior quarter. ([theintermediary.co.uk](https://theintermediary.co.uk/2026/03/bridging-loan-applications-rise-to-11-7bn-as-sector-holds-firm-bdla/?utm_source=openai))  \n  - Q1 2026: Applications moderated to £9.9 bn, reflecting a more measured market environment. ([cherryplc.co.uk](https://www.cherryplc.co.uk/industry/pressreleases/details/23809?utm_source=openai))\n\n- **Completions**  \n  - Q4 2025: Completed lending totaled just under £2.5 bn. ([theintermediary.co.uk](https://theintermediary.co.uk/2026/03/bridging-loan-applications-rise-to-11-7bn-as-sector-holds-firm-bdla/?utm_source=openai))  \n  - Q1 2026: Completions fell to £1.8 bn. ([cherryplc.co.uk](https://www.cherryplc.co.uk/industry/pressreleases/details/23809?utm_source=openai))\n\n---\n\n##  3. Interest Rates, Terms, and LTV\n\n- **Interest Rates**  \n  - Q3 2025: Average monthly interest rate was around 0.85%, up from 0.81% in Q2. ([mortgagesolutions.co.uk](https://www.mortgagesolutions.co.uk/specialist-lending/bridging/2025/11/13/bridging-lending-hits-209-4m-in-q3/?utm_source=openai))  \n  - Q1 2026: Average monthly rate slightly eased to 0.82%. ([mpamag.com](https://www.mpamag.com/uk/mortgage-types/bridging/bridging-lending-holds-steady-in-q1/575140?utm_source=openai))  \n  - May 2026 market floor rates varied by LTV and purpose: for first-charge residential at sub-55% LTV, rates ranged from 0.85%–0.95% per month; higher LTVs and complex deals carried higher rates up to 1.75%. ([bridging.fund](https://www.bridging.fund/market-updates/uk-bridging-market-scale-pricing-may-2026/?utm_source=openai))\n\n- **Loan-to-Value (LTV)**  \n  - Q3 2025: Average LTV stood at approximately 55%. ([mortgagesolutions.co.uk](https://www.mortgagesolutions.co.uk/specialist-lending/bridging/2025/11/13/bridging-lending-hits-209-4m-in-q3/?utm_source=openai))  \n  - Q1 2026: Average LTV reduced to around 52–56.6%, suggesting a conservative lending approach. ([cherryplc.co.uk](https://www.cherryplc.co.uk/industry/pressreleases/details/23809?utm_source=openai))\n\n- **Loan Terms & Completion Times**  \n  - Q3 2025: Average term was 12 months; average completion time was 41 days (down from 48 days in Q2). ([mortgagesolutions.co.uk](https://www.mortgagesolutions.co.uk/specialist-lending/bridging/2025/11/13/bridging-lending-hits-209-4m-in-q3/?utm_source=openai))  \n  - Q1 2026: Completion time averaged 53 days; term remained around 12 months. ([mpamag.com](https://www.mpamag.com/uk/mortgage-types/bridging/bridging-lending-holds-steady-in-q1/575140?utm_source=openai))  \n  - Q2 2026: Forbes Advisor reported Q1 2026 bridging loan volume at ~£200 m, with average completion time of 53 days and term of 12 months. ([forbes.com](https://www.forbes.com/advisor/uk/loans/best-bridging-loans/?utm_source=openai))\n\n---\n\n##  4. Purpose and Loan Types\n\n- **Common Uses**  \n  - Q1 2026: Investment purchase remained the most common purpose at 22% of all bridging transactions—unchanged from Q4 2025. ([mpamag.com](https://www.mpamag.com/uk/mortgage-types/bridging/bridging-lending-holds-steady-in-q1/575140?utm_source=openai))\n\n- **Regulated vs. Unregulated**  \n  - Unregulated bridging loans rose to 59% of the market in Q1 2026, the highest level since Q4 2021 (64%). ([mpamag.com](https://www.mpamag.com/uk/mortgage-types/bridging/bridging-lending-holds-steady-in-q1/575140?utm_source=openai))\n\n- **Security Positions**  \n  - Q3 2025: Around 88% of bridging deals were first-charge; 12% were second-charge. ([mortgagesolutions.co.uk](https://www.mortgagesolutions.co.uk/specialist-lending/bridging/2025/11/13/bridging-lending-hits-209-4m-in-q3/?utm_source=openai))\n\n---\n\n##  5. Market Dynamics & Sentiment\n\n- **Governance and Consolidation**  \n  The 2026 Interpath & BDLA Bridging Market Survey indicates increasing governance and consolidation in the sector. Macroeconomic uncertainty was cited as a top concern by 65% of respondents (up from 39% in 2025). There is growing focus on independent verification of security and robust underwriting. ([interpath.com](https://interpath.com/media-hub/articles/increased-governance-and-more-consolidation-to-shape-bridging-finance-market-interpath-bdla-bridging-market-survey-2026/?utm_source=openai))\n\n- **Development Finance Appetite**  \n  Around half of market participants reported increasing selective exposure to development finance, signaling optimism in this segment. ([interpath.com](https://interpath.com/media-hub/articles/increased-governance-and-more-consolidation-to-shape-bridging-finance-market-interpath-bdla-bridging-market-survey-2026/?utm_source=openai))\n\n- **Market Competitiveness**  \n  By mid-2026, the sector had broadened significantly, with over 100 specialist lenders. Pricing became more competitive due to increased capital, improved underwriting infrastructure, and institutional recognition of bridging as an asset class. ([bridging.fund](https://www.bridging.fund/market-updates/uk-bridging-market-scale-pricing-may-2026/?utm_source=openai))\n\n---\n\n##  Summary Table\n\n Metric | Value / Trend\n---|---\nTotal Loan Book | £11.5 bn (Q1 2026), forecast to reach £12.2 bn by end of 2026\nApplications | £11.7 bn (Q4 2025) → £9.9 bn (Q1 2026)\nCompletions | £2.5 bn (Q4 2025) → £1.8 bn (Q1 2026)\nInterest Rate (monthly) | ~0.85% (Q3 2025), ~0.82% (Q1 2026), market floor 0.85–0.95% for low LTV\nAverage LTV | ~55% (Q3 2025), ~52–56.6% (Q1 2026)\nLoan Term | ~12 months\nCompletion Time | 41 days (Q3 2025), 53 days (Q1 2026)\nUse | 22% investment purchase\nRegulation | 59% unregulated (Q1 2026)\nMarket Sentiment | Cautiously optimistic; stronger governance and selective development finance growth\n\n---\n\n##  Final Thoughts\n\nThe UK bridging loan market has expanded significantly in recent years, now boasting a loan book exceeding £11 billion and poised to surpass £12 billion by end of 2026. Despite a slight softening in activity early in the year, overall demand remains strong. Borrowers benefit from improved pricing, faster completion times, and a broader choice of lenders. Lenders, meanwhile, are adopting more rigorous governance and increasingly focusing on development finance. This maturity signals a sector evolving from niche to mainstream within UK property finance.\n\nIf you'd like more detail on specific sub-sectors (e.g., regional trends, borrower types, regulatory outlook), feel free to ask!",
+              "annotations": [
+                {
+                  "title": "Bridging loan applications rise to £11.7bn as sector holds firm - BDLA - The Intermediary - Latest UK mortgage news",
+                  "url": "https://theintermediary.co.uk/2026/03/bridging-loan-applications-rise-to-11-7bn-as-sector-holds-firm-bdla/?utm_source=openai",
+                  "start_index": 458,
+                  "end_index": 609,
+                  "text": "([theintermediary.co.uk](https://theintermediary.co.uk/2026/03/bridging-loan-applications-rise-to-11-7bn-as-sector-holds-firm-bdla/?utm_source=openai))"
+                },
+                {
+                  "title": "UK Bridging Loans Market Set to Reach £12.2 B... | Lending Bridge",
+                  "url": "https://www.lendingbridge.co.uk/blogs/uk-bridging-loans-market-growth2026?utm_source=openai",
+                  "start_index": 793,
+                  "end_index": 909,
+                  "text": "([lendingbridge.co.uk](https://www.lendingbridge.co.uk/blogs/uk-bridging-loans-market-growth2026?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging Finance Statistics UK 2026 - Funding Agent",
+                  "url": "https://www.fundingagent.co.uk/post/bridging-finance-statistics-uk?utm_source=openai",
+                  "start_index": 1205,
+                  "end_index": 1313,
+                  "text": "([fundingagent.co.uk](https://www.fundingagent.co.uk/post/bridging-finance-statistics-uk?utm_source=openai))"
+                },
+                {
+                  "title": "UK Bridging Market in May 2026 — Why Borrowers Are Seeing Better Pricing | bridging.fund",
+                  "url": "https://www.bridging.fund/market-updates/uk-bridging-market-scale-pricing-may-2026/?utm_source=openai",
+                  "start_index": 1562,
+                  "end_index": 1682,
+                  "text": "([bridging.fund](https://www.bridging.fund/market-updates/uk-bridging-market-scale-pricing-may-2026/?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging loan applications rise to £11.7bn as sector holds firm - BDLA - The Intermediary - Latest UK mortgage news",
+                  "url": "https://theintermediary.co.uk/2026/03/bridging-loan-applications-rise-to-11-7bn-as-sector-holds-firm-bdla/?utm_source=openai",
+                  "start_index": 1818,
+                  "end_index": 1969,
+                  "text": "([theintermediary.co.uk](https://theintermediary.co.uk/2026/03/bridging-loan-applications-rise-to-11-7bn-as-sector-holds-firm-bdla/?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging market adjusts after strong growth cycle as sector confidence remains",
+                  "url": "https://www.cherryplc.co.uk/industry/pressreleases/details/23809?utm_source=openai",
+                  "start_index": 2067,
+                  "end_index": 2170,
+                  "text": "([cherryplc.co.uk](https://www.cherryplc.co.uk/industry/pressreleases/details/23809?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging loan applications rise to £11.7bn as sector holds firm - BDLA - The Intermediary - Latest UK mortgage news",
+                  "url": "https://theintermediary.co.uk/2026/03/bridging-loan-applications-rise-to-11-7bn-as-sector-holds-firm-bdla/?utm_source=openai",
+                  "start_index": 2251,
+                  "end_index": 2402,
+                  "text": "([theintermediary.co.uk](https://theintermediary.co.uk/2026/03/bridging-loan-applications-rise-to-11-7bn-as-sector-holds-firm-bdla/?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging market adjusts after strong growth cycle as sector confidence remains",
+                  "url": "https://www.cherryplc.co.uk/industry/pressreleases/details/23809?utm_source=openai",
+                  "start_index": 2447,
+                  "end_index": 2550,
+                  "text": "([cherryplc.co.uk](https://www.cherryplc.co.uk/industry/pressreleases/details/23809?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging lending hits £209.4m in Q3",
+                  "url": "https://www.mortgagesolutions.co.uk/specialist-lending/bridging/2025/11/13/bridging-lending-hits-209-4m-in-q3/?utm_source=openai",
+                  "start_index": 2701,
+                  "end_index": 2858,
+                  "text": "([mortgagesolutions.co.uk](https://www.mortgagesolutions.co.uk/specialist-lending/bridging/2025/11/13/bridging-lending-hits-209-4m-in-q3/?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging lending holds steady in Q1 | Mortgage Introducer",
+                  "url": "https://www.mpamag.com/uk/mortgage-types/bridging/bridging-lending-holds-steady-in-q1/575140?utm_source=openai",
+                  "start_index": 2920,
+                  "end_index": 3046,
+                  "text": "([mpamag.com](https://www.mpamag.com/uk/mortgage-types/bridging/bridging-lending-holds-steady-in-q1/575140?utm_source=openai))"
+                },
+                {
+                  "title": "UK Bridging Market in May 2026 — Why Borrowers Are Seeing Better Pricing | bridging.fund",
+                  "url": "https://www.bridging.fund/market-updates/uk-bridging-market-scale-pricing-may-2026/?utm_source=openai",
+                  "start_index": 3258,
+                  "end_index": 3378,
+                  "text": "([bridging.fund](https://www.bridging.fund/market-updates/uk-bridging-market-scale-pricing-may-2026/?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging lending hits £209.4m in Q3",
+                  "url": "https://www.mortgagesolutions.co.uk/specialist-lending/bridging/2025/11/13/bridging-lending-hits-209-4m-in-q3/?utm_source=openai",
+                  "start_index": 3461,
+                  "end_index": 3618,
+                  "text": "([mortgagesolutions.co.uk](https://www.mortgagesolutions.co.uk/specialist-lending/bridging/2025/11/13/bridging-lending-hits-209-4m-in-q3/?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging market adjusts after strong growth cycle as sector confidence remains",
+                  "url": "https://www.cherryplc.co.uk/industry/pressreleases/details/23809?utm_source=openai",
+                  "start_index": 3718,
+                  "end_index": 3821,
+                  "text": "([cherryplc.co.uk](https://www.cherryplc.co.uk/industry/pressreleases/details/23809?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging lending hits £209.4m in Q3",
+                  "url": "https://www.mortgagesolutions.co.uk/specialist-lending/bridging/2025/11/13/bridging-lending-hits-209-4m-in-q3/?utm_source=openai",
+                  "start_index": 3965,
+                  "end_index": 4122,
+                  "text": "([mortgagesolutions.co.uk](https://www.mortgagesolutions.co.uk/specialist-lending/bridging/2025/11/13/bridging-lending-hits-209-4m-in-q3/?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging lending holds steady in Q1 | Mortgage Introducer",
+                  "url": "https://www.mpamag.com/uk/mortgage-types/bridging/bridging-lending-holds-steady-in-q1/575140?utm_source=openai",
+                  "start_index": 4204,
+                  "end_index": 4330,
+                  "text": "([mpamag.com](https://www.mpamag.com/uk/mortgage-types/bridging/bridging-lending-holds-steady-in-q1/575140?utm_source=openai))"
+                },
+                {
+                  "title": "Compare Bridging Loans UK: Best Bridging Finance Rates & Companies – Forbes Advisor UK",
+                  "url": "https://www.forbes.com/advisor/uk/loans/best-bridging-loans/?utm_source=openai",
+                  "start_index": 4474,
+                  "end_index": 4568,
+                  "text": "([forbes.com](https://www.forbes.com/advisor/uk/loans/best-bridging-loans/?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging lending holds steady in Q1 | Mortgage Introducer",
+                  "url": "https://www.mpamag.com/uk/mortgage-types/bridging/bridging-lending-holds-steady-in-q1/575140?utm_source=openai",
+                  "start_index": 4752,
+                  "end_index": 4878,
+                  "text": "([mpamag.com](https://www.mpamag.com/uk/mortgage-types/bridging/bridging-lending-holds-steady-in-q1/575140?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging lending holds steady in Q1 | Mortgage Introducer",
+                  "url": "https://www.mpamag.com/uk/mortgage-types/bridging/bridging-lending-holds-steady-in-q1/575140?utm_source=openai",
+                  "start_index": 5022,
+                  "end_index": 5148,
+                  "text": "([mpamag.com](https://www.mpamag.com/uk/mortgage-types/bridging/bridging-lending-holds-steady-in-q1/575140?utm_source=openai))"
+                },
+                {
+                  "title": "Bridging lending hits £209.4m in Q3",
+                  "url": "https://www.mortgagesolutions.co.uk/specialist-lending/bridging/2025/11/13/bridging-lending-hits-209-4m-in-q3/?utm_source=openai",
+                  "start_index": 5262,
+                  "end_index": 5419,
+                  "text": "([mortgagesolutions.co.uk](https://www.mortgagesolutions.co.uk/specialist-lending/bridging/2025/11/13/bridging-lending-hits-209-4m-in-q3/?utm_source=openai))"
+                },
+                {
+                  "title": "Increased governance and more consolidation to shape bridging finance market – Interpath & BDLA Bridging Market Survey 2026 - Interpath",
+                  "url": "https://interpath.com/media-hub/articles/increased-governance-and-more-consolidation-to-shape-bridging-finance-market-interpath-bdla-bridging-market-survey-2026/?utm_source=openai",
+                  "start_index": 5801,
+                  "end_index": 5999,
+                  "text": "([interpath.com](https://interpath.com/media-hub/articles/increased-governance-and-more-consolidation-to-shape-bridging-finance-market-interpath-bdla-bridging-market-survey-2026/?utm_source=openai))"
+                },
+                {
+                  "title": "Increased governance and more consolidation to shape bridging finance market – Interpath & BDLA Bridging Market Survey 2026 - Interpath",
+                  "url": "https://interpath.com/media-hub/articles/increased-governance-and-more-consolidation-to-shape-bridging-finance-market-interpath-bdla-bridging-market-survey-2026/?utm_source=openai",
+                  "start_index": 6174,
+                  "end_index": 6372,
+                  "text": "([interpath.com](https://interpath.com/media-hub/articles/increased-governance-and-more-consolidation-to-shape-bridging-finance-market-interpath-bdla-bridging-market-survey-2026/?utm_source=openai))"
+                },
+                {
+                  "title": "UK Bridging Market in May 2026 — Why Borrowers Are Seeing Better Pricing | bridging.fund",
+                  "url": "https://www.bridging.fund/market-updates/uk-bridging-market-scale-pricing-may-2026/?utm_source=openai",
+                  "start_index": 6651,
+                  "end_index": 6771,
+                  "text": "([bridging.fund](https://www.bridging.fund/market-updates/uk-bridging-market-scale-pricing-may-2026/?utm_source=openai))"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "fan_out_queries": [
+        "UK bridging loan statistics 2023"
+      ]
+    }
+  ]
+}

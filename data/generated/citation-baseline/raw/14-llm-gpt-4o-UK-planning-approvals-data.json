@@ -1,0 +1,33 @@
+{
+  "endpoint": "/ai_optimization/chat_gpt/llm_responses/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.00281,
+  "result": [
+    {
+      "model_name": "gpt-4o-2024-08-06",
+      "input_tokens": 316,
+      "output_tokens": 142,
+      "reasoning_tokens": 0,
+      "web_search": false,
+      "money_spent": 0.00221,
+      "datetime": "2026-08-09 19:24:41 +00:00",
+      "items": [
+        {
+          "type": "message",
+          "sections": [
+            {
+              "type": "text",
+              "text": "To find the most up-to-date UK planning approvals data, you can check the following resources:\n\n1. **UK Government Planning Portal**: This is a comprehensive resource for planning applications and information.\n\n2. **Local Authority Websites**: Many planning decisions are made at the local level, so local council websites can provide specific data on planning applications and approvals.\n\n3. **Office for National Statistics (ONS)**: They often publish data and statistics related to housing and planning.\n\n4. **Department for Levelling Up, Housing and Communities**: This department publishes reports and statistics on planning applications.\n\nIf you need the latest or specific data, let me know, and I can look it up for you.",
+              "annotations": null
+            }
+          ]
+        }
+      ],
+      "fan_out_queries": null
+    }
+  ]
+}

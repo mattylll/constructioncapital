@@ -254,3 +254,60 @@ export function ReportChartsSection({ charts }: { charts: ReportCharts }) {
     </div>
   );
 }
+
+/** Quarterly activity trend for Lending Monitor reports (count-based series). */
+export function QuarterlyTrendChart({
+  data,
+  label = "Facilities registered per quarter",
+}: {
+  data: { name: string; value: number }[];
+  label?: string;
+}) {
+  return (
+    <div className="my-10">
+      <p
+        className="mb-4 text-[11px] font-medium uppercase tracking-[0.26em]"
+        style={{ color: "oklch(0.50 0.02 255)" }}
+      >
+        {label}
+      </p>
+      <ResponsiveContainer width="100%" height={300}>
+        <BarChart data={data} margin={{ top: 8, right: 8, bottom: 4, left: 8 }}>
+          <CartesianGrid strokeDasharray="3 3" stroke="oklch(0.90 0.01 255)" vertical={false} />
+          <XAxis
+            dataKey="name"
+            tick={{ fontSize: 11, fill: "oklch(0.45 0.02 255)" }}
+            tickLine={false}
+            axisLine={false}
+            interval={1}
+          />
+          <YAxis
+            tick={{ fontSize: 11, fill: "oklch(0.45 0.02 255)" }}
+            tickFormatter={(v: number) => v.toLocaleString("en-GB")}
+            tickLine={false}
+            axisLine={false}
+            width={52}
+          />
+          <Tooltip
+            content={
+              <CustomTooltip valueFormatter={(v) => `${v.toLocaleString("en-GB")} facilities`} />
+            }
+            cursor={{ fill: "oklch(0.95 0.01 255)" }}
+          />
+          <Bar dataKey="value" radius={[3, 3, 0, 0]}>
+            {data.map((_, i) => (
+              <Cell
+                key={i}
+                fill={i >= data.length - 2 ? "oklch(0.75 0.12 85)" : "oklch(0.35 0.06 255)"}
+              />
+            ))}
+          </Bar>
+        </BarChart>
+      </ResponsiveContainer>
+      <p className="mt-2 text-[12px]" style={{ color: "oklch(0.50 0.02 255)" }}>
+        Source: Companies House charge registrations, Construction Capital analysis. Latest period
+        highlighted.
+      </p>
+    </div>
+  );
+}

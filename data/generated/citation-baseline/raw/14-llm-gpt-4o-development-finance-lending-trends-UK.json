@@ -1,0 +1,33 @@
+{
+  "endpoint": "/ai_optimization/chat_gpt/llm_responses/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.003562,
+  "result": [
+    {
+      "model_name": "gpt-4o-2024-08-06",
+      "input_tokens": 317,
+      "output_tokens": 217,
+      "reasoning_tokens": 0,
+      "web_search": false,
+      "money_spent": 0.0029625,
+      "datetime": "2026-08-09 19:23:34 +00:00",
+      "items": [
+        {
+          "type": "message",
+          "sections": [
+            {
+              "type": "text",
+              "text": "Development finance in the UK has been evolving with several key trends shaping the landscape:\n\n1. **Increased Demand for Residential Projects**: The demand for housing has led to more finance options for residential developments, especially in urban areas.\n\n2. **Sustainability and Green Finance**: There is a growing emphasis on environmentally sustainable projects, with lenders offering incentives for green building practices.\n\n3. **Alternative Lending**: Beyond traditional banks, alternative lenders, such as peer-to-peer platforms and crowdfunding, have gained prominence, offering more flexible terms.\n\n4. **Technology Integration**: The use of fintech in development finance is increasing, with streamlined processes and improved access to funding through digital platforms.\n\n5. **Regional Variations**: Funding trends can vary significantly across different regions, with some areas receiving more support for urban regeneration projects.\n\n6. **Regulatory Changes**: Ongoing changes in regulations can impact lending criteria and availability, influencing how finance is structured and accessed.\n\nThese trends reflect broader shifts in the economy and policy environment, impacting how development projects are financed across the UK.",
+              "annotations": null
+            }
+          ]
+        }
+      ],
+      "fan_out_queries": null
+    }
+  ]
+}

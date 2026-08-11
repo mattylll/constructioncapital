@@ -1,0 +1,33 @@
+{
+  "endpoint": "/ai_optimization/chat_gpt/llm_responses/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.002007,
+  "result": [
+    {
+      "model_name": "gpt-4o-2024-08-06",
+      "input_tokens": 319,
+      "output_tokens": 61,
+      "reasoning_tokens": 0,
+      "web_search": false,
+      "money_spent": 0.0014075,
+      "datetime": "2026-08-09 19:23:50 +00:00",
+      "items": [
+        {
+          "type": "message",
+          "sections": [
+            {
+              "type": "text",
+              "text": "I currently don't have access to real-time data. To find the most recent information on the number of development loans in the UK, you might want to consult reports from financial institutions, government statistics, or industry analyses. You can also check with major banks or lenders for specific data on development loans.",
+              "annotations": null
+            }
+          ]
+        }
+      ],
+      "fan_out_queries": null
+    }
+  ]
+}

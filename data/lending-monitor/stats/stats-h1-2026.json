@@ -1,0 +1,1187 @@
+{
+ "meta": {
+  "period": "H1 2026",
+  "periodFrom": "2026-01-01",
+  "periodTo": "2026-06-30",
+  "generatedAt": "2026-08-09T19:50:41.573Z",
+  "methodologyVersion": "1.0",
+  "minSampleFloor": 30,
+  "redemptionWindowMonths": 18,
+  "lenderSetVersion": "1.0",
+  "regionBridgeVersion": "1.0",
+  "dataVintage": {
+   "chargesMax": "2026-07-31",
+   "satisfiedMax": "2026-08-03",
+   "landRegistryMax": "2026-06-30"
+  },
+  "coverageNotes": [
+   "Companies House charge filings record no loan amounts (2013 reform); activity is measured in charge and borrower counts.",
+   "Regional attribution uses property postcodes extracted from charge particulars, not registered offices; coverage share is stated per tier.",
+   "England & Wales only for regional cuts (Land Registry / PPD scope).",
+   "Lender-level figures are never published; concentration is reported as aggregate shares and HHI only."
+  ]
+ },
+ "national": {
+  "specialist_development": {
+   "quarterly": [
+    {
+     "quarter": "2023-Q1",
+     "charges": 224,
+     "borrowers": 143,
+     "satisfied": 161,
+     "newSpvSharePct": 27
+    },
+    {
+     "quarter": "2023-Q2",
+     "charges": 247,
+     "borrowers": 158,
+     "satisfied": 191,
+     "newSpvSharePct": 16
+    },
+    {
+     "quarter": "2023-Q3",
+     "charges": 211,
+     "borrowers": 145,
+     "satisfied": 185,
+     "newSpvSharePct": 24
+    },
+    {
+     "quarter": "2023-Q4",
+     "charges": 250,
+     "borrowers": 178,
+     "satisfied": 198,
+     "newSpvSharePct": 23
+    },
+    {
+     "quarter": "2024-Q1",
+     "charges": 172,
+     "borrowers": 110,
+     "satisfied": 156,
+     "newSpvSharePct": 33
+    },
+    {
+     "quarter": "2024-Q2",
+     "charges": 243,
+     "borrowers": 154,
+     "satisfied": 218,
+     "newSpvSharePct": 26
+    },
+    {
+     "quarter": "2024-Q3",
+     "charges": 229,
+     "borrowers": 158,
+     "satisfied": 173,
+     "newSpvSharePct": 20
+    },
+    {
+     "quarter": "2024-Q4",
+     "charges": 272,
+     "borrowers": 185,
+     "satisfied": 195,
+     "newSpvSharePct": 22
+    },
+    {
+     "quarter": "2025-Q1",
+     "charges": 176,
+     "borrowers": 117,
+     "satisfied": 172,
+     "newSpvSharePct": 22
+    },
+    {
+     "quarter": "2025-Q2",
+     "charges": 228,
+     "borrowers": 163,
+     "satisfied": 195,
+     "newSpvSharePct": 27
+    },
+    {
+     "quarter": "2025-Q3",
+     "charges": 199,
+     "borrowers": 148,
+     "satisfied": 181,
+     "newSpvSharePct": 26
+    },
+    {
+     "quarter": "2025-Q4",
+     "charges": 262,
+     "borrowers": 180,
+     "satisfied": 163,
+     "newSpvSharePct": 33
+    },
+    {
+     "quarter": "2026-Q1",
+     "charges": 242,
+     "borrowers": 154,
+     "satisfied": 202,
+     "newSpvSharePct": 31
+    },
+    {
+     "quarter": "2026-Q2",
+     "charges": 228,
+     "borrowers": 163,
+     "satisfied": 159,
+     "newSpvSharePct": 21
+    }
+   ],
+   "breadth": [
+    {
+     "quarter": "2023-Q1",
+     "activeLenders": 14,
+     "anyActivityLenders": 15,
+     "top5SharePct": 64,
+     "top10SharePct": 87,
+     "hhi": 1104
+    },
+    {
+     "quarter": "2023-Q2",
+     "activeLenders": 15,
+     "anyActivityLenders": 15,
+     "top5SharePct": 68,
+     "top10SharePct": 91,
+     "hhi": 1270
+    },
+    {
+     "quarter": "2023-Q3",
+     "activeLenders": 13,
+     "anyActivityLenders": 14,
+     "top5SharePct": 64,
+     "top10SharePct": 93,
+     "hhi": 1096
+    },
+    {
+     "quarter": "2023-Q4",
+     "activeLenders": 12,
+     "anyActivityLenders": 14,
+     "top5SharePct": 67,
+     "top10SharePct": 94,
+     "hhi": 1186
+    },
+    {
+     "quarter": "2024-Q1",
+     "activeLenders": 10,
+     "anyActivityLenders": 15,
+     "top5SharePct": 68,
+     "top10SharePct": 95,
+     "hhi": 1333
+    },
+    {
+     "quarter": "2024-Q2",
+     "activeLenders": 12,
+     "anyActivityLenders": 15,
+     "top5SharePct": 62,
+     "top10SharePct": 91,
+     "hhi": 1155
+    },
+    {
+     "quarter": "2024-Q3",
+     "activeLenders": 13,
+     "anyActivityLenders": 14,
+     "top5SharePct": 62,
+     "top10SharePct": 92,
+     "hhi": 1020
+    },
+    {
+     "quarter": "2024-Q4",
+     "activeLenders": 13,
+     "anyActivityLenders": 14,
+     "top5SharePct": 64,
+     "top10SharePct": 91,
+     "hhi": 1180
+    },
+    {
+     "quarter": "2025-Q1",
+     "activeLenders": 13,
+     "anyActivityLenders": 14,
+     "top5SharePct": 59,
+     "top10SharePct": 91,
+     "hhi": 948
+    },
+    {
+     "quarter": "2025-Q2",
+     "activeLenders": 13,
+     "anyActivityLenders": 13,
+     "top5SharePct": 58,
+     "top10SharePct": 89,
+     "hhi": 951
+    },
+    {
+     "quarter": "2025-Q3",
+     "activeLenders": 13,
+     "anyActivityLenders": 14,
+     "top5SharePct": 57,
+     "top10SharePct": 90,
+     "hhi": 936
+    },
+    {
+     "quarter": "2025-Q4",
+     "activeLenders": 13,
+     "anyActivityLenders": 15,
+     "top5SharePct": 58,
+     "top10SharePct": 91,
+     "hhi": 938
+    },
+    {
+     "quarter": "2026-Q1",
+     "activeLenders": 14,
+     "anyActivityLenders": 14,
+     "top5SharePct": 68,
+     "top10SharePct": 91,
+     "hhi": 1232
+    },
+    {
+     "quarter": "2026-Q2",
+     "activeLenders": 12,
+     "anyActivityLenders": 13,
+     "top5SharePct": 67,
+     "top10SharePct": 95,
+     "hhi": 1227
+    }
+   ],
+   "redemption": [
+    {
+     "cohortYear": "2019",
+     "originated": 948,
+     "redeemedWithin18mPct": 15.9
+    },
+    {
+     "cohortYear": "2020",
+     "originated": 575,
+     "redeemedWithin18mPct": 20.9
+    },
+    {
+     "cohortYear": "2021",
+     "originated": 1248,
+     "redeemedWithin18mPct": 20
+    },
+    {
+     "cohortYear": "2022",
+     "originated": 1192,
+     "redeemedWithin18mPct": 22
+    },
+    {
+     "cohortYear": "2023",
+     "originated": 932,
+     "redeemedWithin18mPct": 19.4
+    },
+    {
+     "cohortYear": "2024",
+     "originated": 916,
+     "redeemedWithin18mPct": 25.1
+    }
+   ]
+  },
+  "ecosystem": {
+   "quarterly": [
+    {
+     "quarter": "2023-Q1",
+     "charges": 9461,
+     "borrowers": 6080,
+     "satisfied": 2293,
+     "newSpvSharePct": 20
+    },
+    {
+     "quarter": "2023-Q2",
+     "charges": 9036,
+     "borrowers": 5804,
+     "satisfied": 2179,
+     "newSpvSharePct": 20
+    },
+    {
+     "quarter": "2023-Q3",
+     "charges": 9878,
+     "borrowers": 6396,
+     "satisfied": 2263,
+     "newSpvSharePct": 21
+    },
+    {
+     "quarter": "2023-Q4",
+     "charges": 10123,
+     "borrowers": 6510,
+     "satisfied": 2693,
+     "newSpvSharePct": 22
+    },
+    {
+     "quarter": "2024-Q1",
+     "charges": 10626,
+     "borrowers": 6681,
+     "satisfied": 2864,
+     "newSpvSharePct": 23
+    },
+    {
+     "quarter": "2024-Q2",
+     "charges": 12068,
+     "borrowers": 7507,
+     "satisfied": 2946,
+     "newSpvSharePct": 24
+    },
+    {
+     "quarter": "2024-Q3",
+     "charges": 12793,
+     "borrowers": 8025,
+     "satisfied": 3691,
+     "newSpvSharePct": 24
+    },
+    {
+     "quarter": "2024-Q4",
+     "charges": 14374,
+     "borrowers": 8994,
+     "satisfied": 3276,
+     "newSpvSharePct": 25
+    },
+    {
+     "quarter": "2025-Q1",
+     "charges": 14447,
+     "borrowers": 9204,
+     "satisfied": 3515,
+     "newSpvSharePct": 24
+    },
+    {
+     "quarter": "2025-Q2",
+     "charges": 13453,
+     "borrowers": 8565,
+     "satisfied": 3337,
+     "newSpvSharePct": 24
+    },
+    {
+     "quarter": "2025-Q3",
+     "charges": 15301,
+     "borrowers": 9471,
+     "satisfied": 4110,
+     "newSpvSharePct": 24
+    },
+    {
+     "quarter": "2025-Q4",
+     "charges": 15907,
+     "borrowers": 9530,
+     "satisfied": 3776,
+     "newSpvSharePct": 24
+    },
+    {
+     "quarter": "2026-Q1",
+     "charges": 16191,
+     "borrowers": 9765,
+     "satisfied": 4438,
+     "newSpvSharePct": 24
+    },
+    {
+     "quarter": "2026-Q2",
+     "charges": 16338,
+     "borrowers": 9781,
+     "satisfied": 4468,
+     "newSpvSharePct": 24
+    }
+   ],
+   "breadth": [
+    {
+     "quarter": "2023-Q1",
+     "activeLenders": 37,
+     "anyActivityLenders": 38,
+     "top5SharePct": 74,
+     "top10SharePct": 89,
+     "hhi": 1257
+    },
+    {
+     "quarter": "2023-Q2",
+     "activeLenders": 38,
+     "anyActivityLenders": 38,
+     "top5SharePct": 73,
+     "top10SharePct": 89,
+     "hhi": 1298
+    },
+    {
+     "quarter": "2023-Q3",
+     "activeLenders": 36,
+     "anyActivityLenders": 37,
+     "top5SharePct": 73,
+     "top10SharePct": 89,
+     "hhi": 1222
+    },
+    {
+     "quarter": "2023-Q4",
+     "activeLenders": 35,
+     "anyActivityLenders": 37,
+     "top5SharePct": 73,
+     "top10SharePct": 87,
+     "hhi": 1272
+    },
+    {
+     "quarter": "2024-Q1",
+     "activeLenders": 33,
+     "anyActivityLenders": 38,
+     "top5SharePct": 74,
+     "top10SharePct": 89,
+     "hhi": 1325
+    },
+    {
+     "quarter": "2024-Q2",
+     "activeLenders": 35,
+     "anyActivityLenders": 39,
+     "top5SharePct": 72,
+     "top10SharePct": 88,
+     "hhi": 1310
+    },
+    {
+     "quarter": "2024-Q3",
+     "activeLenders": 36,
+     "anyActivityLenders": 38,
+     "top5SharePct": 72,
+     "top10SharePct": 88,
+     "hhi": 1320
+    },
+    {
+     "quarter": "2024-Q4",
+     "activeLenders": 36,
+     "anyActivityLenders": 37,
+     "top5SharePct": 70,
+     "top10SharePct": 87,
+     "hhi": 1263
+    },
+    {
+     "quarter": "2025-Q1",
+     "activeLenders": 36,
+     "anyActivityLenders": 37,
+     "top5SharePct": 71,
+     "top10SharePct": 88,
+     "hhi": 1229
+    },
+    {
+     "quarter": "2025-Q2",
+     "activeLenders": 36,
+     "anyActivityLenders": 36,
+     "top5SharePct": 69,
+     "top10SharePct": 87,
+     "hhi": 1234
+    },
+    {
+     "quarter": "2025-Q3",
+     "activeLenders": 36,
+     "anyActivityLenders": 37,
+     "top5SharePct": 69,
+     "top10SharePct": 88,
+     "hhi": 1215
+    },
+    {
+     "quarter": "2025-Q4",
+     "activeLenders": 36,
+     "anyActivityLenders": 38,
+     "top5SharePct": 69,
+     "top10SharePct": 87,
+     "hhi": 1232
+    },
+    {
+     "quarter": "2026-Q1",
+     "activeLenders": 37,
+     "anyActivityLenders": 37,
+     "top5SharePct": 70,
+     "top10SharePct": 88,
+     "hhi": 1275
+    },
+    {
+     "quarter": "2026-Q2",
+     "activeLenders": 35,
+     "anyActivityLenders": 36,
+     "top5SharePct": 70,
+     "top10SharePct": 88,
+     "hhi": 1306
+    }
+   ],
+   "redemption": [
+    {
+     "cohortYear": "2019",
+     "originated": 25010,
+     "redeemedWithin18mPct": 8.6
+    },
+    {
+     "cohortYear": "2020",
+     "originated": 20538,
+     "redeemedWithin18mPct": 8.8
+    },
+    {
+     "cohortYear": "2021",
+     "originated": 34222,
+     "redeemedWithin18mPct": 7.1
+    },
+    {
+     "cohortYear": "2022",
+     "originated": 39388,
+     "redeemedWithin18mPct": 7.4
+    },
+    {
+     "cohortYear": "2023",
+     "originated": 38498,
+     "redeemedWithin18mPct": 9.5
+    },
+    {
+     "cohortYear": "2024",
+     "originated": 49861,
+     "redeemedWithin18mPct": 11.1
+    }
+   ]
+  },
+  "institutional_credit": {
+   "quarterly": [
+    {
+     "quarter": "2023-Q1",
+     "charges": 129,
+     "borrowers": 97,
+     "satisfied": 21,
+     "newSpvSharePct": 3
+    },
+    {
+     "quarter": "2023-Q2",
+     "charges": 35,
+     "borrowers": 33,
+     "satisfied": 42,
+     "newSpvSharePct": 0
+    },
+    {
+     "quarter": "2023-Q3",
+     "charges": 183,
+     "borrowers": 165,
+     "satisfied": 49,
+     "newSpvSharePct": 3
+    },
+    {
+     "quarter": "2023-Q4",
+     "charges": 245,
+     "borrowers": 203,
+     "satisfied": 51,
+     "newSpvSharePct": 1
+    },
+    {
+     "quarter": "2024-Q1",
+     "charges": 54,
+     "borrowers": 39,
+     "satisfied": 68,
+     "newSpvSharePct": 7
+    },
+    {
+     "quarter": "2024-Q2",
+     "charges": 71,
+     "borrowers": 66,
+     "satisfied": 77,
+     "newSpvSharePct": 7
+    },
+    {
+     "quarter": "2024-Q3",
+     "charges": 233,
+     "borrowers": 209,
+     "satisfied": 15,
+     "newSpvSharePct": 1
+    },
+    {
+     "quarter": "2024-Q4",
+     "charges": 106,
+     "borrowers": 88,
+     "satisfied": 19,
+     "newSpvSharePct": 10
+    },
+    {
+     "quarter": "2025-Q1",
+     "charges": 76,
+     "borrowers": 67,
+     "satisfied": 69,
+     "newSpvSharePct": 5
+    },
+    {
+     "quarter": "2025-Q2",
+     "charges": 223,
+     "borrowers": 192,
+     "satisfied": 35,
+     "newSpvSharePct": 3
+    },
+    {
+     "quarter": "2025-Q3",
+     "charges": 45,
+     "borrowers": 43,
+     "satisfied": 136,
+     "newSpvSharePct": 18
+    },
+    {
+     "quarter": "2025-Q4",
+     "charges": 137,
+     "borrowers": 107,
+     "satisfied": 75,
+     "newSpvSharePct": 10
+    },
+    {
+     "quarter": "2026-Q1",
+     "charges": 100,
+     "borrowers": 88,
+     "satisfied": 140,
+     "newSpvSharePct": 4
+    },
+    {
+     "quarter": "2026-Q2",
+     "charges": 90,
+     "borrowers": 85,
+     "satisfied": 42,
+     "newSpvSharePct": 6
+    }
+   ]
+  },
+  "wholeMarket": {
+   "quarterly": [
+    {
+     "quarter": "2023-Q1",
+     "charges": 38700,
+     "borrowers": 26011
+    },
+    {
+     "quarter": "2023-Q2",
+     "charges": 37942,
+     "borrowers": 25479
+    },
+    {
+     "quarter": "2023-Q3",
+     "charges": 39554,
+     "borrowers": 26641
+    },
+    {
+     "quarter": "2023-Q4",
+     "charges": 41141,
+     "borrowers": 27710
+    },
+    {
+     "quarter": "2024-Q1",
+     "charges": 40893,
+     "borrowers": 27887
+    },
+    {
+     "quarter": "2024-Q2",
+     "charges": 44937,
+     "borrowers": 30103
+    },
+    {
+     "quarter": "2024-Q3",
+     "charges": 47581,
+     "borrowers": 32579
+    },
+    {
+     "quarter": "2024-Q4",
+     "charges": 54641,
+     "borrowers": 36558
+    },
+    {
+     "quarter": "2025-Q1",
+     "charges": 52680,
+     "borrowers": 35995
+    },
+    {
+     "quarter": "2025-Q2",
+     "charges": 50829,
+     "borrowers": 34684
+    },
+    {
+     "quarter": "2025-Q3",
+     "charges": 55338,
+     "borrowers": 37620
+    },
+    {
+     "quarter": "2025-Q4",
+     "charges": 62454,
+     "borrowers": 41631
+    },
+    {
+     "quarter": "2026-Q1",
+     "charges": 59995,
+     "borrowers": 40630
+    },
+    {
+     "quarter": "2026-Q2",
+     "charges": 61551,
+     "borrowers": 41462
+    }
+   ]
+  }
+ },
+ "regional": {
+  "ecosystem": {
+   "coveragePct": 81,
+   "regions": {
+    "South West": [
+     {
+      "quarter": "2023-Q1",
+      "charges": 491
+     },
+     {
+      "quarter": "2023-Q2",
+      "charges": 477
+     },
+     {
+      "quarter": "2023-Q3",
+      "charges": 516
+     },
+     {
+      "quarter": "2023-Q4",
+      "charges": 511
+     },
+     {
+      "quarter": "2024-Q1",
+      "charges": 556
+     },
+     {
+      "quarter": "2024-Q2",
+      "charges": 579
+     },
+     {
+      "quarter": "2024-Q3",
+      "charges": 716
+     },
+     {
+      "quarter": "2024-Q4",
+      "charges": 651
+     },
+     {
+      "quarter": "2025-Q1",
+      "charges": 721
+     },
+     {
+      "quarter": "2025-Q2",
+      "charges": 571
+     },
+     {
+      "quarter": "2025-Q3",
+      "charges": 757
+     },
+     {
+      "quarter": "2025-Q4",
+      "charges": 771
+     },
+     {
+      "quarter": "2026-Q1",
+      "charges": 765
+     },
+     {
+      "quarter": "2026-Q2",
+      "charges": 813
+     }
+    ],
+    "London & South East": [
+     {
+      "quarter": "2023-Q1",
+      "charges": 2168
+     },
+     {
+      "quarter": "2023-Q2",
+      "charges": 2063
+     },
+     {
+      "quarter": "2023-Q3",
+      "charges": 2476
+     },
+     {
+      "quarter": "2023-Q4",
+      "charges": 2353
+     },
+     {
+      "quarter": "2024-Q1",
+      "charges": 2516
+     },
+     {
+      "quarter": "2024-Q2",
+      "charges": 2940
+     },
+     {
+      "quarter": "2024-Q3",
+      "charges": 2931
+     },
+     {
+      "quarter": "2024-Q4",
+      "charges": 3123
+     },
+     {
+      "quarter": "2025-Q1",
+      "charges": 3360
+     },
+     {
+      "quarter": "2025-Q2",
+      "charges": 3041
+     },
+     {
+      "quarter": "2025-Q3",
+      "charges": 3314
+     },
+     {
+      "quarter": "2025-Q4",
+      "charges": 3490
+     },
+     {
+      "quarter": "2026-Q1",
+      "charges": 3774
+     },
+     {
+      "quarter": "2026-Q2",
+      "charges": 3741
+     }
+    ],
+    "North West": [
+     {
+      "quarter": "2023-Q1",
+      "charges": 1425
+     },
+     {
+      "quarter": "2023-Q2",
+      "charges": 1358
+     },
+     {
+      "quarter": "2023-Q3",
+      "charges": 1516
+     },
+     {
+      "quarter": "2023-Q4",
+      "charges": 1669
+     },
+     {
+      "quarter": "2024-Q1",
+      "charges": 1872
+     },
+     {
+      "quarter": "2024-Q2",
+      "charges": 1971
+     },
+     {
+      "quarter": "2024-Q3",
+      "charges": 2136
+     },
+     {
+      "quarter": "2024-Q4",
+      "charges": 2394
+     },
+     {
+      "quarter": "2025-Q1",
+      "charges": 2373
+     },
+     {
+      "quarter": "2025-Q2",
+      "charges": 2192
+     },
+     {
+      "quarter": "2025-Q3",
+      "charges": 2514
+     },
+     {
+      "quarter": "2025-Q4",
+      "charges": 2654
+     },
+     {
+      "quarter": "2026-Q1",
+      "charges": 2518
+     },
+     {
+      "quarter": "2026-Q2",
+      "charges": 2680
+     }
+    ],
+    "Midlands": [
+     {
+      "quarter": "2023-Q1",
+      "charges": 1309
+     },
+     {
+      "quarter": "2023-Q2",
+      "charges": 1223
+     },
+     {
+      "quarter": "2023-Q3",
+      "charges": 1316
+     },
+     {
+      "quarter": "2023-Q4",
+      "charges": 1474
+     },
+     {
+      "quarter": "2024-Q1",
+      "charges": 1437
+     },
+     {
+      "quarter": "2024-Q2",
+      "charges": 1650
+     },
+     {
+      "quarter": "2024-Q3",
+      "charges": 1802
+     },
+     {
+      "quarter": "2024-Q4",
+      "charges": 2252
+     },
+     {
+      "quarter": "2025-Q1",
+      "charges": 2160
+     },
+     {
+      "quarter": "2025-Q2",
+      "charges": 1895
+     },
+     {
+      "quarter": "2025-Q3",
+      "charges": 2066
+     },
+     {
+      "quarter": "2025-Q4",
+      "charges": 2211
+     },
+     {
+      "quarter": "2026-Q1",
+      "charges": 2214
+     },
+     {
+      "quarter": "2026-Q2",
+      "charges": 2175
+     }
+    ],
+    "North East & Yorkshire": [
+     {
+      "quarter": "2023-Q1",
+      "charges": 1180
+     },
+     {
+      "quarter": "2023-Q2",
+      "charges": 988
+     },
+     {
+      "quarter": "2023-Q3",
+      "charges": 1013
+     },
+     {
+      "quarter": "2023-Q4",
+      "charges": 1164
+     },
+     {
+      "quarter": "2024-Q1",
+      "charges": 1335
+     },
+     {
+      "quarter": "2024-Q2",
+      "charges": 1682
+     },
+     {
+      "quarter": "2024-Q3",
+      "charges": 1590
+     },
+     {
+      "quarter": "2024-Q4",
+      "charges": 1896
+     },
+     {
+      "quarter": "2025-Q1",
+      "charges": 1976
+     },
+     {
+      "quarter": "2025-Q2",
+      "charges": 1858
+     },
+     {
+      "quarter": "2025-Q3",
+      "charges": 2134
+     },
+     {
+      "quarter": "2025-Q4",
+      "charges": 2035
+     },
+     {
+      "quarter": "2026-Q1",
+      "charges": 2213
+     },
+     {
+      "quarter": "2026-Q2",
+      "charges": 2400
+     }
+    ],
+    "Wales": [
+     {
+      "quarter": "2023-Q1",
+      "charges": 270
+     },
+     {
+      "quarter": "2023-Q2",
+      "charges": 312
+     },
+     {
+      "quarter": "2023-Q3",
+      "charges": 328
+     },
+     {
+      "quarter": "2023-Q4",
+      "charges": 404
+     },
+     {
+      "quarter": "2024-Q1",
+      "charges": 351
+     },
+     {
+      "quarter": "2024-Q2",
+      "charges": 443
+     },
+     {
+      "quarter": "2024-Q3",
+      "charges": 473
+     },
+     {
+      "quarter": "2024-Q4",
+      "charges": 520
+     },
+     {
+      "quarter": "2025-Q1",
+      "charges": 543
+     },
+     {
+      "quarter": "2025-Q2",
+      "charges": 554
+     },
+     {
+      "quarter": "2025-Q3",
+      "charges": 543
+     },
+     {
+      "quarter": "2025-Q4",
+      "charges": 579
+     },
+     {
+      "quarter": "2026-Q1",
+      "charges": 693
+     },
+     {
+      "quarter": "2026-Q2",
+      "charges": 613
+     }
+    ],
+    "East of England": [
+     {
+      "quarter": "2023-Q1",
+      "charges": 534
+     },
+     {
+      "quarter": "2023-Q2",
+      "charges": 597
+     },
+     {
+      "quarter": "2023-Q3",
+      "charges": 683
+     },
+     {
+      "quarter": "2023-Q4",
+      "charges": 621
+     },
+     {
+      "quarter": "2024-Q1",
+      "charges": 740
+     },
+     {
+      "quarter": "2024-Q2",
+      "charges": 816
+     },
+     {
+      "quarter": "2024-Q3",
+      "charges": 831
+     },
+     {
+      "quarter": "2024-Q4",
+      "charges": 882
+     },
+     {
+      "quarter": "2025-Q1",
+      "charges": 1027
+     },
+     {
+      "quarter": "2025-Q2",
+      "charges": 870
+     },
+     {
+      "quarter": "2025-Q3",
+      "charges": 1037
+     },
+     {
+      "quarter": "2025-Q4",
+      "charges": 1108
+     },
+     {
+      "quarter": "2026-Q1",
+      "charges": 1102
+     },
+     {
+      "quarter": "2026-Q2",
+      "charges": 1005
+     }
+    ]
+   },
+   "suppressed": []
+  }
+ },
+ "products": {
+  "stacks": [
+   {
+    "quarter": "2023-Q1",
+    "refinanceEvents": 179,
+    "juniorAlongsideSenior": 92
+   },
+   {
+    "quarter": "2023-Q2",
+    "refinanceEvents": 191,
+    "juniorAlongsideSenior": 95
+   },
+   {
+    "quarter": "2023-Q3",
+    "refinanceEvents": 226,
+    "juniorAlongsideSenior": 118
+   },
+   {
+    "quarter": "2023-Q4",
+    "refinanceEvents": 229,
+    "juniorAlongsideSenior": 133
+   },
+   {
+    "quarter": "2024-Q1",
+    "refinanceEvents": 223,
+    "juniorAlongsideSenior": 125
+   },
+   {
+    "quarter": "2024-Q2",
+    "refinanceEvents": 270,
+    "juniorAlongsideSenior": 132
+   },
+   {
+    "quarter": "2024-Q3",
+    "refinanceEvents": 257,
+    "juniorAlongsideSenior": 164
+   },
+   {
+    "quarter": "2024-Q4",
+    "refinanceEvents": 317,
+    "juniorAlongsideSenior": 223
+   },
+   {
+    "quarter": "2025-Q1",
+    "refinanceEvents": 310,
+    "juniorAlongsideSenior": 231
+   },
+   {
+    "quarter": "2025-Q2",
+    "refinanceEvents": 363,
+    "juniorAlongsideSenior": 256
+   },
+   {
+    "quarter": "2025-Q3",
+    "refinanceEvents": 337,
+    "juniorAlongsideSenior": 257
+   },
+   {
+    "quarter": "2025-Q4",
+    "refinanceEvents": 365,
+    "juniorAlongsideSenior": 357
+   },
+   {
+    "quarter": "2026-Q1",
+    "refinanceEvents": 402,
+    "juniorAlongsideSenior": 359
+   },
+   {
+    "quarter": "2026-Q2",
+    "refinanceEvents": 397,
+    "juniorAlongsideSenior": 420
+   }
+  ]
+ },
+ "suppressedCuts": []
+}

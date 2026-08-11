@@ -1,0 +1,99 @@
+{
+  "endpoint": "/ai_optimization/llm_mentions/target_metrics/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.101,
+  "result": [
+    {
+      "total_count": 0,
+      "offset": 0,
+      "items_count": 0,
+      "aggregated_metrics": {
+        "location": [
+          {
+            "key": 2826,
+            "mentions": 4784,
+            "ai_search_volume": 2549360
+          }
+        ],
+        "language": [
+          {
+            "key": "en",
+            "mentions": 4784,
+            "ai_search_volume": 2549360
+          }
+        ],
+        "platform": [
+          {
+            "key": "google",
+            "mentions": 4784,
+            "ai_search_volume": 2549360
+          }
+        ],
+        "sources_domain": [
+          {
+            "key": "www.savills.co.uk",
+            "mentions": 4784,
+            "ai_search_volume": 2549360
+          },
+          {
+            "key": "www.youtube.com",
+            "mentions": 1282,
+            "ai_search_volume": 749240
+          },
+          {
+            "key": "www.rightmove.co.uk",
+            "mentions": 845,
+            "ai_search_volume": 735290
+          },
+          {
+            "key": "www.gov.uk",
+            "mentions": 796,
+            "ai_search_volume": 396810
+          },
+          {
+            "key": "hoa.org.uk",
+            "mentions": 667,
+            "ai_search_volume": 358420
+          },
+          {
+            "key": "www.zoopla.co.uk",
+            "mentions": 658,
+            "ai_search_volume": 464320
+          },
+          {
+            "key": "www.knightfrank.co.uk",
+            "mentions": 470,
+            "ai_search_volume": 200910
+          },
+          {
+            "key": "www.reddit.com",
+            "mentions": 470,
+            "ai_search_volume": 144350
+          },
+          {
+            "key": "en.wikipedia.org",
+            "mentions": 455,
+            "ai_search_volume": 600730
+          },
+          {
+            "key": "www.onthemarket.com",
+            "mentions": 287,
+            "ai_search_volume": 124890
+          }
+        ],
+        "search_results_domain": [],
+        "brand_entities_title": [],
+        "brand_entities_category": [],
+        "total": {
+          "mentions": 4784,
+          "ai_search_volume": 2549360
+        }
+      },
+      "items": []
+    }
+  ]
+}

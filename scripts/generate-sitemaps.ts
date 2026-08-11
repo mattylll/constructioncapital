@@ -200,6 +200,18 @@ function buildGuides(): SitemapUrl[] {
 function buildMarketIntelligence(): SitemapUrl[] {
   return [
     {
+      url: `${SITE_URL}/lending-trends`,
+      lastmod: today,
+      changefreq: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${SITE_URL}/lending-trends/methodology`,
+      lastmod: today,
+      changefreq: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${SITE_URL}/market-intelligence`,
       lastmod: today,
       changefreq: "weekly",

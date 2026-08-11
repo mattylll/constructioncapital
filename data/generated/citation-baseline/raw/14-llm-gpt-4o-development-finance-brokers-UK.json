@@ -1,0 +1,33 @@
+{
+  "endpoint": "/ai_optimization/chat_gpt/llm_responses/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.00352,
+  "result": [
+    {
+      "model_name": "gpt-4o-2024-08-06",
+      "input_tokens": 316,
+      "output_tokens": 213,
+      "reasoning_tokens": 0,
+      "web_search": false,
+      "money_spent": 0.00292,
+      "datetime": "2026-08-09 19:24:26 +00:00",
+      "items": [
+        {
+          "type": "message",
+          "sections": [
+            {
+              "type": "text",
+              "text": "Development finance brokers in the UK specialize in helping clients secure funding for property development projects. They typically work with a range of lenders to find the best finance options for new builds, refurbishments, or conversions.\n\nHere are some key points about development finance brokers:\n\n1. **Expertise**: They have in-depth knowledge of the property development market and can provide advice tailored to specific projects.\n   \n2. **Access to Lenders**: Brokers often have established relationships with banks, private lenders, and specialist finance companies, which can improve your chances of securing finance.\n\n3. **Tailored Solutions**: They can negotiate terms and conditions to suit the unique needs of your development project.\n\n4. **Types of Finance**: Brokers can help secure various types of finance, including bridging loans, mezzanine finance, and joint venture funding.\n\n5. **Cost**: Brokers typically charge a fee, which can be a percentage of the loan amount or a flat fee.\n\nIf you need further assistance finding a broker, I can help with more specific information or recommendations.",
+              "annotations": null
+            }
+          ]
+        }
+      ],
+      "fan_out_queries": null
+    }
+  ]
+}

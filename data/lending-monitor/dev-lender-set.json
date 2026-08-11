@@ -1,0 +1,482 @@
+{
+  "version": "1.0",
+  "asOf": "2026-08-09",
+  "definition": "Development finance activity is measured across three lender tiers. specialist_development: pure-play development lenders whose whole charge book is development lending. development_active_mixed: banks and bridging lenders with substantial development arms; their charges count toward the wider short-term property funding ecosystem and toward development only with per-charge secondary signals (borrower SIC, SPV age, particulars keywords). institutional_credit: institutional real-estate credit funds, reported as a separate ecosystem cut.",
+  "tiers": {
+    "specialist_development": [
+      {
+        "lender_id": 25,
+        "name": "Maslow Capital",
+        "rationale": "Pure-play development lender; lends via numbered SPVs (Maslow 1-V, A8 DAC)",
+        "h1_2026_charges": 0,
+        "total_charges": 493
+      },
+      {
+        "lender_id": 13,
+        "name": "Avamore Capital",
+        "rationale": "Development & bridging specialist; entity-level split (Avamore Development Finance 1 vs Capital Bridging)",
+        "h1_2026_charges": 46,
+        "total_charges": 504
+      },
+      {
+        "lender_id": 24,
+        "name": "Zorin Finance",
+        "rationale": "Development lender via Zorin Avenue Lendco vehicles",
+        "h1_2026_charges": 45,
+        "total_charges": 432
+      },
+      {
+        "lender_id": 27,
+        "name": "Puma Property Finance",
+        "rationale": "Development arm of Puma Investments; lends via Heritage Square",
+        "h1_2026_charges": 12,
+        "total_charges": 555
+      },
+      {
+        "lender_id": 14,
+        "name": "Atelier Capital Partners",
+        "rationale": "Pure-play development lender",
+        "h1_2026_charges": 36,
+        "total_charges": 413
+      },
+      {
+        "lender_id": 88,
+        "name": "MSP Capital",
+        "rationale": "Development & bridging, development-led book",
+        "h1_2026_charges": 77,
+        "total_charges": 1967
+      },
+      {
+        "lender_id": 12,
+        "name": "Assetz Capital",
+        "rationale": "Development & SME property lender via Assetz Capital Trust Company",
+        "h1_2026_charges": 11,
+        "total_charges": 2071
+      },
+      {
+        "lender_id": 130,
+        "name": "CapitalRise",
+        "rationale": "Prime development finance platform",
+        "h1_2026_charges": 23,
+        "total_charges": 302
+      },
+      {
+        "lender_id": 90,
+        "name": "Magnet Capital",
+        "rationale": "Pure-play development lender",
+        "h1_2026_charges": 16,
+        "total_charges": 285
+      },
+      {
+        "lender_id": 89,
+        "name": "Regentsmead",
+        "rationale": "Pure-play development lender",
+        "h1_2026_charges": 0,
+        "total_charges": 304
+      },
+      {
+        "lender_id": 48,
+        "name": "Wellesley Finance",
+        "rationale": "Development lender",
+        "h1_2026_charges": 0,
+        "total_charges": 125
+      },
+      {
+        "lender_id": 220,
+        "name": "Lowry Capital",
+        "rationale": "Development & bridging",
+        "h1_2026_charges": 19,
+        "total_charges": 645
+      },
+      {
+        "lender_id": 216,
+        "name": "Bricks Finance",
+        "rationale": "Development & bridging",
+        "h1_2026_charges": 17,
+        "total_charges": 199
+      },
+      {
+        "lender_id": 103,
+        "name": "Hunter Finance",
+        "rationale": "Small-scheme development lender",
+        "h1_2026_charges": 6,
+        "total_charges": 107
+      },
+      {
+        "lender_id": 159,
+        "name": "Salboy",
+        "rationale": "Developer-backed development funding",
+        "h1_2026_charges": 0,
+        "total_charges": 25
+      },
+      {
+        "lender_id": 218,
+        "name": "Westwood Capital Finance",
+        "rationale": "Development lender",
+        "h1_2026_charges": 91,
+        "total_charges": 340
+      },
+      {
+        "lender_id": 134,
+        "name": "Clearwell Capital",
+        "rationale": "Development lender",
+        "h1_2026_charges": 0,
+        "total_charges": 16
+      },
+      {
+        "lender_id": 81,
+        "name": "Acre Lane Capital",
+        "rationale": "Development & bridging",
+        "h1_2026_charges": 0,
+        "total_charges": 15
+      },
+      {
+        "lender_id": 97,
+        "name": "Silbury Finance",
+        "rationale": "Development lender (Oaktree-backed)",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 26,
+        "name": "Pluto Finance",
+        "rationale": "Development & bridging lender",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 125,
+        "name": "Precede Capital Partners",
+        "rationale": "Development lender",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 133,
+        "name": "Hilltop Credit Partners",
+        "rationale": "Development lender",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 137,
+        "name": "BLG Development Finance",
+        "rationale": "Pure-play development lender",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 50,
+        "name": "Blend Network",
+        "rationale": "Development lending platform",
+        "h1_2026_charges": 0,
+        "total_charges": 11
+      },
+      {
+        "lender_id": 51,
+        "name": "Invest and Fund",
+        "rationale": "Development lending platform",
+        "h1_2026_charges": 4,
+        "total_charges": 4
+      },
+      {
+        "lender_id": 49,
+        "name": "CrowdProperty",
+        "rationale": "Development lending platform (CP Security Trustees)",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 126,
+        "name": "Blackfinch",
+        "rationale": "Property development arm of Blackfinch Group",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 47,
+        "name": "Sancus Lending",
+        "rationale": "Development & bridging",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 52,
+        "name": "Relendex",
+        "rationale": "Development lending platform",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 124,
+        "name": "Downing",
+        "rationale": "Property development lending arm (also non-property activity; property-led in charge data)",
+        "h1_2026_charges": 47,
+        "total_charges": 856
+      },
+      {
+        "lender_id": 233,
+        "name": "National Housing Bank",
+        "rationale": "Publicly-backed SME housebuilder lender (2026 launch)",
+        "h1_2026_charges": 20,
+        "total_charges": 20
+      }
+    ],
+    "development_active_mixed": [
+      {
+        "lender_id": 2,
+        "name": "Shawbrook Bank",
+        "rationale": "Specialist bank; development finance arm alongside BTL/commercial book",
+        "h1_2026_charges": 3233,
+        "total_charges": 43762
+      },
+      {
+        "lender_id": 3,
+        "name": "United Trust Bank",
+        "rationale": "Specialist bank with major development finance division",
+        "h1_2026_charges": 343,
+        "total_charges": 6144
+      },
+      {
+        "lender_id": 7,
+        "name": "Paragon Bank",
+        "rationale": "Paragon Development Finance division alongside BTL book",
+        "h1_2026_charges": 3184,
+        "total_charges": 70972
+      },
+      {
+        "lender_id": 10,
+        "name": "Hampshire Trust Bank",
+        "rationale": "Specialist bank with development finance division",
+        "h1_2026_charges": 1002,
+        "total_charges": 10489
+      },
+      {
+        "lender_id": 21,
+        "name": "Close Brothers",
+        "rationale": "Close Brothers Property Finance division alongside asset/invoice divisions",
+        "h1_2026_charges": 474,
+        "total_charges": 13701
+      },
+      {
+        "lender_id": 102,
+        "name": "Cambridge & Counties Bank",
+        "rationale": "Specialist bank, property development active",
+        "h1_2026_charges": 239,
+        "total_charges": 3737
+      },
+      {
+        "lender_id": 31,
+        "name": "InterBay Funding",
+        "rationale": "OSB Group entity (incl. OneSavings Bank/Kent Reliance aliases); development-active group",
+        "h1_2026_charges": 3152,
+        "total_charges": 44331
+      },
+      {
+        "lender_id": 1,
+        "name": "Together",
+        "rationale": "Bridging-led with development products",
+        "h1_2026_charges": 8465,
+        "total_charges": 71050
+      },
+      {
+        "lender_id": 5,
+        "name": "LendInvest",
+        "rationale": "Bridging/BTL-led with development arm",
+        "h1_2026_charges": 3373,
+        "total_charges": 26546
+      },
+      {
+        "lender_id": 29,
+        "name": "West One Loans",
+        "rationale": "Bridging-led with development arm",
+        "h1_2026_charges": 428,
+        "total_charges": 5232
+      },
+      {
+        "lender_id": 63,
+        "name": "Aspen Bridging",
+        "rationale": "Bridging with development-exit products",
+        "h1_2026_charges": 143,
+        "total_charges": 832
+      },
+      {
+        "lender_id": 4,
+        "name": "MT Finance",
+        "rationale": "Bridging, some ground-up",
+        "h1_2026_charges": 107,
+        "total_charges": 1209
+      },
+      {
+        "lender_id": 16,
+        "name": "Hope Capital",
+        "rationale": "Bridging lender via Hope Capital 2/3/4 vehicles",
+        "h1_2026_charges": 359,
+        "total_charges": 2120
+      },
+      {
+        "lender_id": 73,
+        "name": "MS Lending Group",
+        "rationale": "Bridging lender via MS Lending SPV vehicles",
+        "h1_2026_charges": 559,
+        "total_charges": 3301
+      },
+      {
+        "lender_id": 251,
+        "name": "Fortys Capital",
+        "rationale": "Bridging lender via Fortys Capital 1-9 vehicles",
+        "h1_2026_charges": 573,
+        "total_charges": 3802
+      },
+      {
+        "lender_id": 44,
+        "name": "KSEYE",
+        "rationale": "Bridging lender via KSEYE Capital vehicles",
+        "h1_2026_charges": 129,
+        "total_charges": 1037
+      },
+      {
+        "lender_id": 252,
+        "name": "Bath & West Finance",
+        "rationale": "Bridging/development via numbered vehicles",
+        "h1_2026_charges": 186,
+        "total_charges": 866
+      },
+      {
+        "lender_id": 84,
+        "name": "Lendhub",
+        "rationale": "Bridging & development lender",
+        "h1_2026_charges": 117,
+        "total_charges": 748
+      },
+      {
+        "lender_id": 15,
+        "name": "Glenhawk",
+        "rationale": "Bridging with development products",
+        "h1_2026_charges": 0,
+        "total_charges": 36
+      },
+      {
+        "lender_id": 17,
+        "name": "Roma Finance",
+        "rationale": "Bridging & development",
+        "h1_2026_charges": 0,
+        "total_charges": 36
+      },
+      {
+        "lender_id": 6,
+        "name": "Octopus Real Estate",
+        "rationale": "Property lender across bridging/development/commercial",
+        "h1_2026_charges": 0,
+        "total_charges": 36
+      },
+      {
+        "lender_id": 191,
+        "name": "Quantum Mortgages",
+        "rationale": "Specialist BTL/bridging",
+        "h1_2026_charges": 687,
+        "total_charges": 3264
+      },
+      {
+        "lender_id": 147,
+        "name": "Charles Street",
+        "rationale": "Bridging & development",
+        "h1_2026_charges": 475,
+        "total_charges": 4681
+      },
+      {
+        "lender_id": 92,
+        "name": "Reward Finance Group",
+        "rationale": "SME property lending",
+        "h1_2026_charges": 266,
+        "total_charges": 2881
+      },
+      {
+        "lender_id": 8,
+        "name": "Aldermore Bank",
+        "rationale": "Specialist bank, property development active",
+        "h1_2026_charges": 4431,
+        "total_charges": 43455
+      },
+      {
+        "lender_id": 28,
+        "name": "Secure Trust Bank",
+        "rationale": "Real estate finance division",
+        "h1_2026_charges": 134,
+        "total_charges": 2036
+      }
+    ],
+    "institutional_credit": [
+      {
+        "lender_id": 229,
+        "name": "Ares Management",
+        "rationale": "Institutional credit; UK charge footprint spans corporate + real estate lending",
+        "h1_2026_charges": 190,
+        "total_charges": 4259
+      },
+      {
+        "lender_id": 231,
+        "name": "Intermediate Capital Group",
+        "rationale": "Institutional credit fund",
+        "h1_2026_charges": 0,
+        "total_charges": 240
+      },
+      {
+        "lender_id": 222,
+        "name": "Cheyne Capital",
+        "rationale": "Institutional real estate credit",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 228,
+        "name": "Apollo Global Management",
+        "rationale": "Institutional credit",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 224,
+        "name": "PGIM Real Estate",
+        "rationale": "Institutional real estate credit",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 225,
+        "name": "M&G Investments",
+        "rationale": "Institutional real estate credit",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 230,
+        "name": "Starwood Capital",
+        "rationale": "Institutional real estate credit",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 226,
+        "name": "BentallGreenOak",
+        "rationale": "Institutional real estate credit",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 227,
+        "name": "Nuveen Real Estate",
+        "rationale": "Institutional real estate credit",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      },
+      {
+        "lender_id": 223,
+        "name": "Cain International",
+        "rationale": "Institutional development finance",
+        "h1_2026_charges": 0,
+        "total_charges": 0
+      }
+    ]
+  }
+}

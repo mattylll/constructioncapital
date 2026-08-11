@@ -1,0 +1,99 @@
+{
+  "endpoint": "/ai_optimization/llm_mentions/target_metrics/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.101,
+  "result": [
+    {
+      "total_count": 0,
+      "offset": 0,
+      "items_count": 0,
+      "aggregated_metrics": {
+        "location": [
+          {
+            "key": 2826,
+            "mentions": 3712,
+            "ai_search_volume": 2801630
+          }
+        ],
+        "language": [
+          {
+            "key": "en",
+            "mentions": 3712,
+            "ai_search_volume": 2801630
+          }
+        ],
+        "platform": [
+          {
+            "key": "google",
+            "mentions": 3712,
+            "ai_search_volume": 2801630
+          }
+        ],
+        "sources_domain": [
+          {
+            "key": "www.knightfrank.co.uk",
+            "mentions": 3712,
+            "ai_search_volume": 2801630
+          },
+          {
+            "key": "www.rightmove.co.uk",
+            "mentions": 912,
+            "ai_search_volume": 538280
+          },
+          {
+            "key": "www.youtube.com",
+            "mentions": 741,
+            "ai_search_volume": 756740
+          },
+          {
+            "key": "en.wikipedia.org",
+            "mentions": 619,
+            "ai_search_volume": 1078410
+          },
+          {
+            "key": "www.zoopla.co.uk",
+            "mentions": 542,
+            "ai_search_volume": 304930
+          },
+          {
+            "key": "www.savills.co.uk",
+            "mentions": 470,
+            "ai_search_volume": 200910
+          },
+          {
+            "key": "www.onthemarket.com",
+            "mentions": 384,
+            "ai_search_volume": 232580
+          },
+          {
+            "key": "search.savills.com",
+            "mentions": 355,
+            "ai_search_volume": 260430
+          },
+          {
+            "key": "www.cbre.co.uk",
+            "mentions": 293,
+            "ai_search_volume": 134660
+          },
+          {
+            "key": "www.doogal.co.uk",
+            "mentions": 276,
+            "ai_search_volume": 134450
+          }
+        ],
+        "search_results_domain": [],
+        "brand_entities_title": [],
+        "brand_entities_category": [],
+        "total": {
+          "mentions": 3712,
+          "ai_search_volume": 2801630
+        }
+      },
+      "items": []
+    }
+  ]
+}

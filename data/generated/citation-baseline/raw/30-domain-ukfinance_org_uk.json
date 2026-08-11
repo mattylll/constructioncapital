@@ -1,0 +1,182 @@
+{
+  "rank": {
+    "endpoint": "/dataforseo_labs/google/domain_rank_overview/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.01212,
+    "result": [
+      {
+        "se_type": "google",
+        "target": "ukfinance.org.uk",
+        "location_code": 2826,
+        "language_code": "en",
+        "total_count": 1,
+        "items_count": 1,
+        "items": [
+          {
+            "se_type": "google",
+            "location_code": 2826,
+            "language_code": "en",
+            "metrics": {
+              "organic": {
+                "pos_1": 191,
+                "pos_2_3": 431,
+                "pos_4_10": 2152,
+                "pos_11_20": 2454,
+                "pos_21_30": 1634,
+                "pos_31_40": 1152,
+                "pos_41_50": 853,
+                "pos_51_60": 669,
+                "pos_61_70": 539,
+                "pos_71_80": 366,
+                "pos_81_90": 217,
+                "pos_91_100": 59,
+                "etv": 96789.78603033349,
+                "count": 10717,
+                "estimated_paid_traffic_cost": 618024.1758415361,
+                "is_new": 5693,
+                "is_up": 2686,
+                "is_down": 1875,
+                "is_lost": 4563,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              },
+              "paid": {
+                "pos_1": 0,
+                "pos_2_3": 0,
+                "pos_4_10": 0,
+                "pos_11_20": 0,
+                "pos_21_30": 0,
+                "pos_31_40": 0,
+                "pos_41_50": 0,
+                "pos_51_60": 0,
+                "pos_61_70": 0,
+                "pos_71_80": 0,
+                "pos_81_90": 0,
+                "pos_91_100": 0,
+                "etv": 0,
+                "count": 0,
+                "estimated_paid_traffic_cost": 0,
+                "is_new": 0,
+                "is_up": 0,
+                "is_down": 0,
+                "is_lost": 0,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "bl": {
+    "endpoint": "/backlinks/summary/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.024036,
+    "result": [
+      {
+        "target": "ukfinance.org.uk",
+        "first_seen": "2019-01-15 23:57:11 +00:00",
+        "lost_date": null,
+        "rank": 399,
+        "backlinks": 68637,
+        "backlinks_spam_score": 26,
+        "crawled_pages": 7197,
+        "info": {
+          "server": "WebServer",
+          "cms": null,
+          "platform_type": [
+            "unknown"
+          ],
+          "ip_address": "95.100.146.59",
+          "country": "GB",
+          "is_ip": false,
+          "target_spam_score": 0
+        },
+        "internal_links_count": 298457,
+        "external_links_count": 34137,
+        "broken_backlinks": 3697,
+        "broken_pages": 1531,
+        "referring_domains": 9720,
+        "referring_domains_nofollow": 2283,
+        "referring_main_domains": 8370,
+        "referring_main_domains_nofollow": 1510,
+        "referring_ips": 6389,
+        "referring_subnets": 3517,
+        "referring_pages": 63193,
+        "referring_pages_nofollow": 8125,
+        "referring_links_tld": {
+          "com": 21784,
+          "blogspot.com": 18217,
+          "co.uk": 8713,
+          "org.uk": 2743,
+          "org": 1895,
+          "nl": 1366,
+          "direct": 1049,
+          "net": 725,
+          "xyz": 489,
+          "uk": 415
+        },
+        "referring_links_types": {
+          "anchor": 55886,
+          "image": 5797,
+          "redirect": 1230,
+          "canonical": 280
+        },
+        "referring_links_attributes": {
+          "noopener": 13138,
+          "nofollow": 8119,
+          "noreferrer": 7101,
+          "external": 664,
+          "ugc": 118,
+          "sponsored": 80,
+          "bookmark": 4
+        },
+        "referring_links_platform_types": {
+          "blogs": 29448,
+          "organization": 19207,
+          "unknown": 16483,
+          "cms": 11951,
+          "news": 4628,
+          "ecommerce": 406,
+          "message-boards": 313,
+          "wikis": 233
+        },
+        "referring_links_semantic_locations": {
+          "": 34644,
+          "article": 12162,
+          "section": 7675,
+          "main": 4053,
+          "footer": 2648,
+          "header": 1031,
+          "nav": 749,
+          "details": 79,
+          "aside": 64,
+          "figure": 49
+        },
+        "referring_links_countries": {
+          "": 32635,
+          "GB": 15899,
+          "WW": 5854,
+          "US": 4035,
+          "NL": 1374,
+          "IO": 329,
+          "DE": 324,
+          "IN": 251,
+          "RU": 201,
+          "CO": 200
+        }
+      }
+    ]
+  }
+}

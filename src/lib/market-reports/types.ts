@@ -9,7 +9,7 @@ export interface ReportFaq {
   answer: string;
 }
 
-export type ReportCategory = "county" | "regional" | "thematic" | "town";
+export type ReportCategory = "county" | "regional" | "thematic" | "town" | "lending";
 
 export interface ChartDataPoint {
   name: string;
@@ -26,6 +26,8 @@ export interface ReportCharts {
   townPrices?: ChartDataPoint[];
   /** YoY change by town - bar chart with pos/neg colors */
   townYoyChange?: ChartDataPoint[];
+  /** Quarterly time series (lending reports) - composed trend chart */
+  quarterlyTrend?: ChartDataPoint[];
 }
 
 export interface MarketReport {

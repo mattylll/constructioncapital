@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { ArrowRight, Clock, MapPin, TrendingUp, BarChart3, Home } from "lucide-react";
+import { ArrowRight, Clock, MapPin, TrendingUp, BarChart3, Home, Landmark } from "lucide-react";
 import type { MarketReport, ReportCategory } from "@/lib/market-reports/types";
 
 const categoryLabels: Record<ReportCategory, string> = {
@@ -10,6 +10,7 @@ const categoryLabels: Record<ReportCategory, string> = {
   regional: "Regional Overviews",
   thematic: "Thematic Analysis",
   town: "Town Reports",
+  lending: "Lending Monitor",
 };
 
 const categoryIcons: Record<ReportCategory, typeof MapPin> = {
@@ -17,6 +18,7 @@ const categoryIcons: Record<ReportCategory, typeof MapPin> = {
   regional: BarChart3,
   thematic: TrendingUp,
   town: Home,
+  lending: Landmark,
 };
 
 export function ReportsGrid({ reports }: { reports: MarketReport[] }) {
@@ -53,7 +55,7 @@ return true;
         >
           All ({reports.length})
         </button>
-        {(["county", "town", "regional", "thematic"] as ReportCategory[]).map((cat) => {
+        {(["lending", "county", "town", "regional", "thematic"] as ReportCategory[]).map((cat) => {
           const count = reports.filter((r) => r.category === cat).length;
           
 return (

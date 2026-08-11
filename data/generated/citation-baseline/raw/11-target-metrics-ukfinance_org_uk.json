@@ -1,0 +1,99 @@
+{
+  "endpoint": "/ai_optimization/llm_mentions/target_metrics/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.101,
+  "result": [
+    {
+      "total_count": 0,
+      "offset": 0,
+      "items_count": 0,
+      "aggregated_metrics": {
+        "location": [
+          {
+            "key": 2826,
+            "mentions": 1563,
+            "ai_search_volume": 595650
+          }
+        ],
+        "language": [
+          {
+            "key": "en",
+            "mentions": 1563,
+            "ai_search_volume": 595650
+          }
+        ],
+        "platform": [
+          {
+            "key": "google",
+            "mentions": 1563,
+            "ai_search_volume": 595650
+          }
+        ],
+        "sources_domain": [
+          {
+            "key": "www.ukfinance.org.uk",
+            "mentions": 1563,
+            "ai_search_volume": 595650
+          },
+          {
+            "key": "www.youtube.com",
+            "mentions": 349,
+            "ai_search_volume": 113220
+          },
+          {
+            "key": "en.wikipedia.org",
+            "mentions": 307,
+            "ai_search_volume": 183110
+          },
+          {
+            "key": "www.bankofengland.co.uk",
+            "mentions": 241,
+            "ai_search_volume": 137060
+          },
+          {
+            "key": "www.moneysavingexpert.com",
+            "mentions": 199,
+            "ai_search_volume": 64610
+          },
+          {
+            "key": "www.gov.uk",
+            "mentions": 195,
+            "ai_search_volume": 45250
+          },
+          {
+            "key": "www.fca.org.uk",
+            "mentions": 170,
+            "ai_search_volume": 31980
+          },
+          {
+            "key": "www.bbc.co.uk",
+            "mentions": 141,
+            "ai_search_volume": 93840
+          },
+          {
+            "key": "www.lloydsbank.com",
+            "mentions": 140,
+            "ai_search_volume": 88080
+          },
+          {
+            "key": "www.natwest.com",
+            "mentions": 130,
+            "ai_search_volume": 54150
+          }
+        ],
+        "search_results_domain": [],
+        "brand_entities_title": [],
+        "brand_entities_category": [],
+        "total": {
+          "mentions": 1563,
+          "ai_search_volume": 595650
+        }
+      },
+      "items": []
+    }
+  ]
+}

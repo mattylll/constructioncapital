@@ -1,0 +1,179 @@
+{
+  "rank": {
+    "endpoint": "/dataforseo_labs/google/domain_rank_overview/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.01212,
+    "result": [
+      {
+        "se_type": "google",
+        "target": "blgdevelopmentfinance.co.uk",
+        "location_code": 2826,
+        "language_code": "en",
+        "total_count": 1,
+        "items_count": 1,
+        "items": [
+          {
+            "se_type": "google",
+            "location_code": 2826,
+            "language_code": "en",
+            "metrics": {
+              "organic": {
+                "pos_1": 2,
+                "pos_2_3": 8,
+                "pos_4_10": 40,
+                "pos_11_20": 50,
+                "pos_21_30": 30,
+                "pos_31_40": 31,
+                "pos_41_50": 21,
+                "pos_51_60": 12,
+                "pos_61_70": 9,
+                "pos_71_80": 1,
+                "pos_81_90": 1,
+                "pos_91_100": 2,
+                "etv": 504.19994332641363,
+                "count": 207,
+                "estimated_paid_traffic_cost": 6754.102677673101,
+                "is_new": 66,
+                "is_up": 66,
+                "is_down": 64,
+                "is_lost": 81,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              },
+              "paid": {
+                "pos_1": 0,
+                "pos_2_3": 0,
+                "pos_4_10": 0,
+                "pos_11_20": 0,
+                "pos_21_30": 0,
+                "pos_31_40": 0,
+                "pos_41_50": 0,
+                "pos_51_60": 0,
+                "pos_61_70": 0,
+                "pos_71_80": 0,
+                "pos_81_90": 0,
+                "pos_91_100": 0,
+                "etv": 0,
+                "count": 0,
+                "estimated_paid_traffic_cost": 0,
+                "is_new": 0,
+                "is_up": 0,
+                "is_down": 0,
+                "is_lost": 0,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "bl": {
+    "endpoint": "/backlinks/summary/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.024036,
+    "result": [
+      {
+        "target": "blgdevelopmentfinance.co.uk",
+        "first_seen": "2019-02-24 03:37:55 +00:00",
+        "lost_date": null,
+        "rank": 133,
+        "backlinks": 188,
+        "backlinks_spam_score": 13,
+        "crawled_pages": 207,
+        "info": {
+          "server": "cloudflare",
+          "cms": "wordpress",
+          "platform_type": [
+            "cms",
+            "blogs",
+            "organization"
+          ],
+          "ip_address": "188.114.96.3",
+          "country": "GB",
+          "is_ip": false,
+          "target_spam_score": 0
+        },
+        "internal_links_count": 6618,
+        "external_links_count": 1747,
+        "broken_backlinks": 0,
+        "broken_pages": 2,
+        "referring_domains": 107,
+        "referring_domains_nofollow": 61,
+        "referring_main_domains": 105,
+        "referring_main_domains_nofollow": 61,
+        "referring_ips": 88,
+        "referring_subnets": 83,
+        "referring_pages": 174,
+        "referring_pages_nofollow": 94,
+        "referring_links_tld": {
+          "com": 84,
+          "co.uk": 51,
+          "co": 6,
+          "blogspot.com": 5,
+          "uk": 4,
+          "news": 3,
+          "fyi": 2,
+          "eu": 2,
+          "world": 2,
+          "net": 2
+        },
+        "referring_links_types": {
+          "anchor": 155,
+          "image": 15,
+          "redirect": 4
+        },
+        "referring_links_attributes": {
+          "nofollow": 94,
+          "noopener": 53,
+          "noreferrer": 23,
+          "external": 5,
+          "bookmark": 3,
+          "ugc": 1
+        },
+        "referring_links_platform_types": {
+          "unknown": 53,
+          "organization": 45,
+          "news": 41,
+          "cms": 39,
+          "blogs": 36,
+          "ecommerce": 14,
+          "message-boards": 2,
+          "wikis": 1
+        },
+        "referring_links_semantic_locations": {
+          "article": 81,
+          "": 62,
+          "section": 18,
+          "main": 7,
+          "aside": 4,
+          "figcaption": 1,
+          "nav": 1
+        },
+        "referring_links_countries": {
+          "GB": 104,
+          "": 47,
+          "CO": 6,
+          "US": 5,
+          "WW": 5,
+          "PL": 1,
+          "RU": 1,
+          "LK": 1,
+          "DE": 1,
+          "DO": 1
+        }
+      }
+    ]
+  }
+}

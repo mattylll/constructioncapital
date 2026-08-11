@@ -1,0 +1,182 @@
+{
+  "t": {
+    "endpoint": "/ai_optimization/llm_mentions/target_metrics/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 40501,
+    "task_status_message": "Invalid Field: 'Each 'target' item must be an object.'.",
+    "cost": 0,
+    "result": null
+  },
+  "s": {
+    "endpoint": "/ai_optimization/llm_mentions/search_mentions/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 40501,
+    "task_status_message": "Invalid Field: 'Each 'target' item must be an object.'.",
+    "cost": 0,
+    "result": null
+  },
+  "d": {
+    "endpoint": "/ai_optimization/llm_mentions/top_mentioned_domains/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 40501,
+    "task_status_message": "Invalid Field: 'Field 'target' is missing or has an invalid type (expected array).'.",
+    "cost": 0,
+    "result": null
+  },
+  "k": {
+    "endpoint": "/ai_optimization/ai_keyword_data/keywords_search_volume/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.0102,
+    "result": [
+      {
+        "location_code": 2826,
+        "language_code": "en",
+        "items_count": 2,
+        "items": [
+          {
+            "keyword": "development finance brokers uk",
+            "ai_search_volume": 0,
+            "ai_monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "ai_search_volume": 0
+              }
+            ]
+          },
+          {
+            "keyword": "uk bridging loan statistics",
+            "ai_search_volume": 0,
+            "ai_monthly_searches": [
+              {
+                "year": 2026,
+                "month": 7,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 6,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 5,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 4,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 3,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 2,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2026,
+                "month": 1,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 12,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 11,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 10,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 9,
+                "ai_search_volume": 0
+              },
+              {
+                "year": 2025,
+                "month": 8,
+                "ai_search_volume": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

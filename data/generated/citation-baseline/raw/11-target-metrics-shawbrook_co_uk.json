@@ -1,0 +1,99 @@
+{
+  "endpoint": "/ai_optimization/llm_mentions/target_metrics/live",
+  "http": 200,
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "task_status_code": 20000,
+  "task_status_message": "Ok.",
+  "cost": 0.101,
+  "result": [
+    {
+      "total_count": 0,
+      "offset": 0,
+      "items_count": 0,
+      "aggregated_metrics": {
+        "location": [
+          {
+            "key": 2826,
+            "mentions": 1598,
+            "ai_search_volume": 803290
+          }
+        ],
+        "language": [
+          {
+            "key": "en",
+            "mentions": 1598,
+            "ai_search_volume": 803290
+          }
+        ],
+        "platform": [
+          {
+            "key": "google",
+            "mentions": 1598,
+            "ai_search_volume": 803290
+          }
+        ],
+        "sources_domain": [
+          {
+            "key": "www.shawbrook.co.uk",
+            "mentions": 1598,
+            "ai_search_volume": 803290
+          },
+          {
+            "key": "www.natwest.com",
+            "mentions": 512,
+            "ai_search_volume": 212130
+          },
+          {
+            "key": "www.youtube.com",
+            "mentions": 507,
+            "ai_search_volume": 289770
+          },
+          {
+            "key": "www.moneysavingexpert.com",
+            "mentions": 407,
+            "ai_search_volume": 322100
+          },
+          {
+            "key": "www.moneysupermarket.com",
+            "mentions": 275,
+            "ai_search_volume": 144770
+          },
+          {
+            "key": "moneyfactscompare.co.uk",
+            "mentions": 264,
+            "ai_search_volume": 305920
+          },
+          {
+            "key": "www.ybs.co.uk",
+            "mentions": 263,
+            "ai_search_volume": 100840
+          },
+          {
+            "key": "www.barclays.co.uk",
+            "mentions": 222,
+            "ai_search_volume": 58830
+          },
+          {
+            "key": "www.lloydsbank.com",
+            "mentions": 186,
+            "ai_search_volume": 103730
+          },
+          {
+            "key": "www.hsbc.co.uk",
+            "mentions": 183,
+            "ai_search_volume": 71260
+          }
+        ],
+        "search_results_domain": [],
+        "brand_entities_title": [],
+        "brand_entities_category": [],
+        "total": {
+          "mentions": 1598,
+          "ai_search_volume": 803290
+        }
+      },
+      "items": []
+    }
+  ]
+}

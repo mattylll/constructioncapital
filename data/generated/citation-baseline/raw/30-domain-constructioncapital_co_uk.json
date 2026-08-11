@@ -1,0 +1,162 @@
+{
+  "rank": {
+    "endpoint": "/dataforseo_labs/google/domain_rank_overview/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.01212,
+    "result": [
+      {
+        "se_type": "google",
+        "target": "constructioncapital.co.uk",
+        "location_code": 2826,
+        "language_code": "en",
+        "total_count": 1,
+        "items_count": 1,
+        "items": [
+          {
+            "se_type": "google",
+            "location_code": 2826,
+            "language_code": "en",
+            "metrics": {
+              "organic": {
+                "pos_1": 0,
+                "pos_2_3": 3,
+                "pos_4_10": 25,
+                "pos_11_20": 40,
+                "pos_21_30": 24,
+                "pos_31_40": 12,
+                "pos_41_50": 16,
+                "pos_51_60": 21,
+                "pos_61_70": 12,
+                "pos_71_80": 17,
+                "pos_81_90": 7,
+                "pos_91_100": 2,
+                "etv": 212.13999911397696,
+                "count": 179,
+                "estimated_paid_traffic_cost": 789.8394891917706,
+                "is_new": 170,
+                "is_up": 7,
+                "is_down": 2,
+                "is_lost": 63,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              },
+              "paid": {
+                "pos_1": 0,
+                "pos_2_3": 0,
+                "pos_4_10": 0,
+                "pos_11_20": 0,
+                "pos_21_30": 0,
+                "pos_31_40": 0,
+                "pos_41_50": 0,
+                "pos_51_60": 0,
+                "pos_61_70": 0,
+                "pos_71_80": 0,
+                "pos_81_90": 0,
+                "pos_91_100": 0,
+                "etv": 0,
+                "count": 0,
+                "estimated_paid_traffic_cost": 0,
+                "is_new": 0,
+                "is_up": 0,
+                "is_down": 0,
+                "is_lost": 0,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "bl": {
+    "endpoint": "/backlinks/summary/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.024036,
+    "result": [
+      {
+        "target": "constructioncapital.co.uk",
+        "first_seen": "2025-12-31 14:37:07 +00:00",
+        "lost_date": null,
+        "rank": 229,
+        "backlinks": 1404,
+        "backlinks_spam_score": 18,
+        "crawled_pages": 0,
+        "info": {
+          "server": null,
+          "cms": null,
+          "platform_type": null,
+          "ip_address": null,
+          "country": null,
+          "is_ip": false,
+          "target_spam_score": 0
+        },
+        "internal_links_count": 0,
+        "external_links_count": 0,
+        "broken_backlinks": 0,
+        "broken_pages": 0,
+        "referring_domains": 52,
+        "referring_domains_nofollow": 11,
+        "referring_main_domains": 52,
+        "referring_main_domains_nofollow": 11,
+        "referring_ips": 41,
+        "referring_subnets": 23,
+        "referring_pages": 1080,
+        "referring_pages_nofollow": 12,
+        "referring_links_tld": {
+          "co.uk": 441,
+          "fly.dev": 192,
+          "pages.dev": 183,
+          "zeabur.app": 111,
+          "fm": 106,
+          "org": 24,
+          "com": 6,
+          "to": 5,
+          "party": 2,
+          "wiki": 1
+        },
+        "referring_links_types": {
+          "anchor": 1080
+        },
+        "referring_links_attributes": {
+          "noopener": 486,
+          "nofollow": 12,
+          "noreferrer": 10,
+          "external": 1
+        },
+        "referring_links_platform_types": {
+          "unknown": 555,
+          "organization": 524,
+          "blogs": 5,
+          "cms": 5,
+          "news": 1
+        },
+        "referring_links_semantic_locations": {
+          "article": 485,
+          "nav": 437,
+          "section": 109,
+          "footer": 31,
+          "": 17,
+          "main": 1
+        },
+        "referring_links_countries": {
+          "": 525,
+          "GB": 443,
+          "FM": 106,
+          "TO": 5,
+          "DE": 1
+        }
+      }
+    ]
+  }
+}

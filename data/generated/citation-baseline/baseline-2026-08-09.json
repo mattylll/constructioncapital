@@ -1,0 +1,3529 @@
+{
+  "meta": {
+    "captured_at": "2026-08-09T19:30:47.955Z",
+    "baseline_date": "2026-08-09",
+    "site": "constructioncapital.co.uk",
+    "purpose": "Pre-publication baseline of AI-search and organic visibility, captured before the quarterly lending-report programme launches. Unrepeatable once publishing starts.",
+    "data_source": "DataForSEO (live API)",
+    "location_code": 2826,
+    "location": "United Kingdom",
+    "language_code": "en",
+    "endpoints_used": [
+      "/v3/appendix/user_data (account/subscription check)",
+      "/v3/ai_optimization/ai_keyword_data/keywords_search_volume/live",
+      "/v3/ai_optimization/llm_mentions/target_metrics/live",
+      "/v3/ai_optimization/llm_mentions/search_mentions/live",
+      "/v3/ai_optimization/chat_gpt/llm_responses/live (models gpt-4o, gpt-5.4, web_search=true, GB)",
+      "/v3/serp/google/organic/live/advanced (depth 50, desktop, load_async_ai_overview=true)",
+      "/v3/dataforseo_labs/google/domain_rank_overview/live",
+      "/v3/backlinks/summary/live"
+    ],
+    "raw_responses_dir": "data/generated/citation-baseline/raw/"
+  },
+  "headline": {
+    "ai_overview_citations_on_target_queries": 1,
+    "target_queries": 8,
+    "chatgpt_citations_on_target_queries": 0,
+    "chatgpt_prompts_run": 16,
+    "organic_top10_on_target_queries": 2,
+    "organic_top50_on_target_queries": 3,
+    "total_ai_overview_mentions_all_topics": 46,
+    "ai_overview_mentions_on_market_data_topics": 0
+  },
+  "ai_visibility": {
+    "ai_search_volume": {
+      "note": "AI search volume for all eight target queries returned 0 in DataForSEO's AI keyword database. This is an empty result, not an error — these are low-frequency head terms in AI search as at the capture date.",
+      "keywords": [
+        {
+          "keyword": "uk development finance market data",
+          "ai_search_volume": 0,
+          "last_12m": [
+            {
+              "year": 2026,
+              "month": 7,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "v": 0
+            }
+          ]
+        },
+        {
+          "keyword": "development finance lending trends uk",
+          "ai_search_volume": 0,
+          "last_12m": [
+            {
+              "year": 2026,
+              "month": 7,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "v": 0
+            }
+          ]
+        },
+        {
+          "keyword": "how many development loans in the uk",
+          "ai_search_volume": 0,
+          "last_12m": [
+            {
+              "year": 2026,
+              "month": 7,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "v": 0
+            }
+          ]
+        },
+        {
+          "keyword": "uk bridging loan statistics",
+          "ai_search_volume": 0,
+          "last_12m": [
+            {
+              "year": 2026,
+              "month": 7,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "v": 0
+            }
+          ]
+        },
+        {
+          "keyword": "development finance brokers uk",
+          "ai_search_volume": 0,
+          "last_12m": [
+            {
+              "year": 2026,
+              "month": 7,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "v": 0
+            }
+          ]
+        },
+        {
+          "keyword": "uk planning approvals data",
+          "ai_search_volume": 0,
+          "last_12m": [
+            {
+              "year": 2026,
+              "month": 7,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "v": 0
+            }
+          ]
+        },
+        {
+          "keyword": "student accommodation development finance",
+          "ai_search_volume": 0,
+          "last_12m": [
+            {
+              "year": 2026,
+              "month": 7,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "v": 0
+            }
+          ]
+        },
+        {
+          "keyword": "care home development finance",
+          "ai_search_volume": 0,
+          "last_12m": [
+            {
+              "year": 2026,
+              "month": 7,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "v": 0
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "v": 0
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "v": 0
+            }
+          ]
+        },
+        {
+          "keyword": "construction capital",
+          "ai_search_volume": 5,
+          "last_12m": [
+            {
+              "year": 2026,
+              "month": 7,
+              "v": 5
+            },
+            {
+              "year": 2026,
+              "month": 6,
+              "v": 9
+            },
+            {
+              "year": 2026,
+              "month": 5,
+              "v": 13
+            },
+            {
+              "year": 2026,
+              "month": 4,
+              "v": 14
+            },
+            {
+              "year": 2026,
+              "month": 3,
+              "v": 14
+            },
+            {
+              "year": 2026,
+              "month": 2,
+              "v": 13
+            },
+            {
+              "year": 2026,
+              "month": 1,
+              "v": 19
+            },
+            {
+              "year": 2025,
+              "month": 12,
+              "v": 18
+            },
+            {
+              "year": 2025,
+              "month": 11,
+              "v": 17
+            },
+            {
+              "year": 2025,
+              "month": 10,
+              "v": 21
+            },
+            {
+              "year": 2025,
+              "month": 9,
+              "v": 18
+            },
+            {
+              "year": 2025,
+              "month": 8,
+              "v": 18
+            }
+          ]
+        }
+      ]
+    },
+    "domain_level_llm_mentions": {
+      "constructioncapital.co.uk": {
+        "status": "20000 Ok.",
+        "mentions": 46,
+        "ai_search_volume": 6480,
+        "platforms": [
+          {
+            "key": "google",
+            "mentions": 46,
+            "ai_search_volume": 6480
+          }
+        ],
+        "co_cited_domains": [
+          {
+            "domain": "www.isurv.com",
+            "mentions": 17
+          },
+          {
+            "domain": "ww3.rics.org",
+            "mentions": 16
+          },
+          {
+            "domain": "www.johndwood.co.uk",
+            "mentions": 13
+          },
+          {
+            "domain": "www.greaterlondonproperties.co.uk",
+            "mentions": 13
+          },
+          {
+            "domain": "www.jpmorgan.com",
+            "mentions": 12
+          },
+          {
+            "domain": "princesurveyors.co.uk",
+            "mentions": 12
+          },
+          {
+            "domain": "www.pricehubble.com",
+            "mentions": 11
+          },
+          {
+            "domain": "www.nrla.org.uk",
+            "mentions": 11
+          }
+        ]
+      },
+      "savills.co.uk": {
+        "status": "20000 Ok.",
+        "mentions": 4784,
+        "ai_search_volume": 2549360,
+        "platforms": [
+          {
+            "key": "google",
+            "mentions": 4784,
+            "ai_search_volume": 2549360
+          }
+        ],
+        "co_cited_domains": [
+          {
+            "domain": "www.youtube.com",
+            "mentions": 1282
+          },
+          {
+            "domain": "www.rightmove.co.uk",
+            "mentions": 845
+          },
+          {
+            "domain": "www.gov.uk",
+            "mentions": 796
+          },
+          {
+            "domain": "hoa.org.uk",
+            "mentions": 667
+          },
+          {
+            "domain": "www.zoopla.co.uk",
+            "mentions": 658
+          },
+          {
+            "domain": "www.knightfrank.co.uk",
+            "mentions": 470
+          },
+          {
+            "domain": "www.reddit.com",
+            "mentions": 470
+          },
+          {
+            "domain": "en.wikipedia.org",
+            "mentions": 455
+          }
+        ]
+      },
+      "knightfrank.co.uk": {
+        "status": "20000 Ok.",
+        "mentions": 3712,
+        "ai_search_volume": 2801630,
+        "platforms": [
+          {
+            "key": "google",
+            "mentions": 3712,
+            "ai_search_volume": 2801630
+          }
+        ],
+        "co_cited_domains": [
+          {
+            "domain": "www.rightmove.co.uk",
+            "mentions": 912
+          },
+          {
+            "domain": "www.youtube.com",
+            "mentions": 741
+          },
+          {
+            "domain": "en.wikipedia.org",
+            "mentions": 619
+          },
+          {
+            "domain": "www.zoopla.co.uk",
+            "mentions": 542
+          },
+          {
+            "domain": "www.savills.co.uk",
+            "mentions": 470
+          },
+          {
+            "domain": "www.onthemarket.com",
+            "mentions": 384
+          },
+          {
+            "domain": "search.savills.com",
+            "mentions": 355
+          },
+          {
+            "domain": "www.cbre.co.uk",
+            "mentions": 293
+          }
+        ]
+      },
+      "ukfinance.org.uk": {
+        "status": "20000 Ok.",
+        "mentions": 1563,
+        "ai_search_volume": 595650,
+        "platforms": [
+          {
+            "key": "google",
+            "mentions": 1563,
+            "ai_search_volume": 595650
+          }
+        ],
+        "co_cited_domains": [
+          {
+            "domain": "www.youtube.com",
+            "mentions": 349
+          },
+          {
+            "domain": "en.wikipedia.org",
+            "mentions": 307
+          },
+          {
+            "domain": "www.bankofengland.co.uk",
+            "mentions": 241
+          },
+          {
+            "domain": "www.moneysavingexpert.com",
+            "mentions": 199
+          },
+          {
+            "domain": "www.gov.uk",
+            "mentions": 195
+          },
+          {
+            "domain": "www.fca.org.uk",
+            "mentions": 170
+          },
+          {
+            "domain": "www.bbc.co.uk",
+            "mentions": 141
+          },
+          {
+            "domain": "www.lloydsbank.com",
+            "mentions": 140
+          }
+        ]
+      },
+      "shawbrook.co.uk": {
+        "status": "20000 Ok.",
+        "mentions": 1598,
+        "ai_search_volume": 803290,
+        "platforms": [
+          {
+            "key": "google",
+            "mentions": 1598,
+            "ai_search_volume": 803290
+          }
+        ],
+        "co_cited_domains": [
+          {
+            "domain": "www.natwest.com",
+            "mentions": 512
+          },
+          {
+            "domain": "www.youtube.com",
+            "mentions": 507
+          },
+          {
+            "domain": "www.moneysavingexpert.com",
+            "mentions": 407
+          },
+          {
+            "domain": "www.moneysupermarket.com",
+            "mentions": 275
+          },
+          {
+            "domain": "moneyfactscompare.co.uk",
+            "mentions": 264
+          },
+          {
+            "domain": "www.ybs.co.uk",
+            "mentions": 263
+          },
+          {
+            "domain": "www.barclays.co.uk",
+            "mentions": 222
+          },
+          {
+            "domain": "www.lloydsbank.com",
+            "mentions": 186
+          }
+        ]
+      }
+    },
+    "our_existing_ai_overview_footprint": {
+      "total_mentions": 46,
+      "returned": 46,
+      "note": "All existing citations are on educational/valuation/regional-price topics. None are on lending-market-data topics — the gap the report programme targets.",
+      "cited_urls": [
+        {
+          "url": "https://constructioncapital.co.uk/guides/commercial-property-valuation-methods",
+          "mentions": 15
+        },
+        {
+          "url": "https://constructioncapital.co.uk/market-reports/cornwall-property-market",
+          "mentions": 8
+        },
+        {
+          "url": "https://constructioncapital.co.uk/calculators/barn-conversion",
+          "mentions": 6
+        },
+        {
+          "url": "https://constructioncapital.co.uk/guides/residual-land-valuation-method",
+          "mentions": 5
+        },
+        {
+          "url": "https://constructioncapital.co.uk/guides/interest-rate-trends-development-finance",
+          "mentions": 4
+        },
+        {
+          "url": "https://constructioncapital.co.uk/guides/how-to-calculate-gdv",
+          "mentions": 2
+        },
+        {
+          "url": "https://constructioncapital.co.uk/guides/monitoring-surveyor-fees-explained",
+          "mentions": 2
+        },
+        {
+          "url": "https://constructioncapital.co.uk/guides/build-to-rent-development-finance",
+          "mentions": 1
+        },
+        {
+          "url": "https://constructioncapital.co.uk/guides/development-finance-profit-margins",
+          "mentions": 1
+        },
+        {
+          "url": "https://constructioncapital.co.uk/market-reports/greater-london-property-market-h1-2026",
+          "mentions": 1
+        },
+        {
+          "url": "https://constructioncapital.co.uk/guides/development-finance-phased-projects",
+          "mentions": 1
+        }
+      ],
+      "questions": [
+        {
+          "question": "build to rent development finance",
+          "ai_search_volume": 390,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "what is a residual valuation",
+          "ai_search_volume": 390,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "what is residual valuation",
+          "ai_search_volume": 390,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "house prices in cornwall uk",
+          "ai_search_volume": 320,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "house prices cornwall",
+          "ai_search_volume": 320,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "average house price cornwall",
+          "ai_search_volume": 210,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "average house prices cornwall",
+          "ai_search_volume": 210,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "average house price in cornwall",
+          "ai_search_volume": 210,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "average house prices in cornwall",
+          "ai_search_volume": 210,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "cornwall average house price",
+          "ai_search_volume": 210,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "cost to convert a barn",
+          "ai_search_volume": 210,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "cost of barn conversions",
+          "ai_search_volume": 210,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "cornwall house prices",
+          "ai_search_volume": 170,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "how much does a barn conversion cost",
+          "ai_search_volume": 140,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "how much do barn conversions cost",
+          "ai_search_volume": 140,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "how much does it cost to do a barn conversion",
+          "ai_search_volume": 140,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "how much does it cost to convert a barn",
+          "ai_search_volume": 140,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "gdv finance",
+          "ai_search_volume": 110,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "monitoring cost",
+          "ai_search_volume": 110,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "monitoring costs",
+          "ai_search_volume": 110,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "residual land value",
+          "ai_search_volume": 110,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "residual land valuation",
+          "ai_search_volume": 110,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "method of property valuation",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "methods of valuation of property",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "method of valuation property",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "methods of property valuation",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "property valuation methodology",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "property valuations methods",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "property valuation methodologies",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "property valuation approaches",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "property value method",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "property valuation method",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "property valuation methods",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "real estate valuation methods",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "residual method of valuation",
+          "ai_search_volume": 90,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "5 methods of valuation rics",
+          "ai_search_volume": 70,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "5 valuation methods rics",
+          "ai_search_volume": 70,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "construction interest rates",
+          "ai_search_volume": 70,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "construction finance rates",
+          "ai_search_volume": 70,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "construction financing rates",
+          "ai_search_volume": 70,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "construction loan rate",
+          "ai_search_volume": 70,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "gdv property meaning",
+          "ai_search_volume": 70,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "how much do property developers make",
+          "ai_search_volume": 70,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "how much does a house cost in london",
+          "ai_search_volume": 70,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "rics valuation methods",
+          "ai_search_volume": 70,
+          "platform": "google",
+          "model": "google_ai_overview"
+        },
+        {
+          "question": "phased development",
+          "ai_search_volume": 50,
+          "platform": "google",
+          "model": "google_ai_overview"
+        }
+      ]
+    },
+    "per_query_llm_mentions_corpus": {
+      "note": "DATA QUALITY WARNING: the llm_mentions keyword filter matches loosely (token-level), not on exact phrase. e.g. 'UK bridging loan statistics' returned AI Overviews about 'budget deficits' and 'core math'. These per-query domain tallies are NOT reliable and are recorded for completeness only. Conclusions in this baseline rest on exact-query SERP and ChatGPT evidence instead.",
+      "results": {
+        "UK development finance market data": {
+          "status": "20000 Ok.",
+          "total_matching_responses": 1487,
+          "sampled": 20,
+          "we_are_cited": false,
+          "sample_questions": [
+            "amc entertainment stocks",
+            "industries",
+            "amazon stocks",
+            "afc energy share price",
+            "hbr share price"
+          ],
+          "top_cited_domains": [
+            {
+              "domain": "uk.finance.yahoo.com",
+              "responses_citing": 16
+            },
+            {
+              "domain": "api.dataforseo.com",
+              "responses_citing": 10
+            },
+            {
+              "domain": "google.com",
+              "responses_citing": 9
+            },
+            {
+              "domain": "en.wikipedia.org",
+              "responses_citing": 7
+            },
+            {
+              "domain": "ajbell.co.uk",
+              "responses_citing": 6
+            },
+            {
+              "domain": "etoro.com",
+              "responses_citing": 5
+            },
+            {
+              "domain": "lse.co.uk",
+              "responses_citing": 5
+            },
+            {
+              "domain": "cnbc.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "robinhood.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "londonstockexchange.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "markets.ft.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "uk.investing.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "hl.co.uk",
+              "responses_citing": 4
+            },
+            {
+              "domain": "marketwatch.com",
+              "responses_citing": 3
+            },
+            {
+              "domain": "youtube.com",
+              "responses_citing": 3
+            }
+          ]
+        },
+        "development finance lending trends UK": {
+          "status": "20000 Ok.",
+          "total_matching_responses": 26,
+          "sampled": 20,
+          "we_are_cited": false,
+          "sample_questions": [
+            "what is real estate industry",
+            "valuation for commercial property",
+            "cre news today",
+            "risk credit analyst",
+            "what jobs can an economics degree get you"
+          ],
+          "top_cited_domains": [
+            {
+              "domain": "youtube.com",
+              "responses_citing": 8
+            },
+            {
+              "domain": "api.dataforseo.com",
+              "responses_citing": 6
+            },
+            {
+              "domain": "google.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "uk.indeed.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "prospects.ac.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "investopedia.com",
+              "responses_citing": 3
+            },
+            {
+              "domain": "ukfinance.org.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "sciencedirect.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "construction21.org",
+              "responses_citing": 2
+            },
+            {
+              "domain": "barclaysimpson.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "reddit.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "careernavigator.accaglobal.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "hsbc.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "totaljobs.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "ie.edu",
+              "responses_citing": 2
+            }
+          ]
+        },
+        "how many development loans in the UK": {
+          "status": "20000 Ok.",
+          "total_matching_responses": 203,
+          "sampled": 20,
+          "we_are_cited": false,
+          "sample_questions": [
+            "grants for business start up",
+            "peer to peer lenders",
+            "peer-to-peer lending",
+            "grants business start-up",
+            "government grant"
+          ],
+          "top_cited_domains": [
+            {
+              "domain": "youtube.com",
+              "responses_citing": 17
+            },
+            {
+              "domain": "gov.uk",
+              "responses_citing": 13
+            },
+            {
+              "domain": "api.dataforseo.com",
+              "responses_citing": 11
+            },
+            {
+              "domain": "british-business-bank.co.uk",
+              "responses_citing": 9
+            },
+            {
+              "domain": "google.com",
+              "responses_citing": 7
+            },
+            {
+              "domain": "kingstrust.org.uk",
+              "responses_citing": 4
+            },
+            {
+              "domain": "find-government-grants.service.gov.uk",
+              "responses_citing": 4
+            },
+            {
+              "domain": "money.co.uk",
+              "responses_citing": 4
+            },
+            {
+              "domain": "startuploans.co.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "grantup.co.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "moneyhelper.org.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "prospects.ac.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "moneysavingexpert.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "unbiased.co.uk",
+              "responses_citing": 2
+            },
+            {
+              "domain": "4thway.co.uk",
+              "responses_citing": 2
+            }
+          ]
+        },
+        "UK bridging loan statistics": {
+          "status": "20000 Ok.",
+          "total_matching_responses": 10,
+          "sampled": 10,
+          "we_are_cited": false,
+          "sample_questions": [
+            "budgetary deficit",
+            "budget deficits",
+            "what is core math",
+            "what is core maths",
+            "what is core mathematics"
+          ],
+          "top_cited_domains": [
+            {
+              "domain": "youtube.com",
+              "responses_citing": 6
+            },
+            {
+              "domain": "ons.gov.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "amsp.org.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "holycross.ac.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "aqa.org.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "facebook.com",
+              "responses_citing": 3
+            },
+            {
+              "domain": "ocr.org.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "api.dataforseo.com",
+              "responses_citing": 3
+            },
+            {
+              "domain": "commonslibrary.parliament.uk",
+              "responses_citing": 2
+            },
+            {
+              "domain": "vedantu.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "gocardless.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "freshbooks.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "unherd.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "testbook.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "investopedia.com",
+              "responses_citing": 2
+            }
+          ]
+        },
+        "development finance brokers UK": {
+          "status": "20000 Ok.",
+          "total_matching_responses": 424,
+          "sampled": 20,
+          "we_are_cited": false,
+          "sample_questions": [
+            "bridge lender",
+            "bridging lenders",
+            "specialized loan services",
+            "bae systems stock",
+            "speedy hire share price"
+          ],
+          "top_cited_domains": [
+            {
+              "domain": "api.dataforseo.com",
+              "responses_citing": 9
+            },
+            {
+              "domain": "uk.finance.yahoo.com",
+              "responses_citing": 8
+            },
+            {
+              "domain": "youtube.com",
+              "responses_citing": 6
+            },
+            {
+              "domain": "westoneloans.co.uk",
+              "responses_citing": 5
+            },
+            {
+              "domain": "google.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "hl.co.uk",
+              "responses_citing": 4
+            },
+            {
+              "domain": "uk.linkedin.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "shawbrook.co.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "markets.ft.com",
+              "responses_citing": 3
+            },
+            {
+              "domain": "uk.investing.com",
+              "responses_citing": 3
+            },
+            {
+              "domain": "kalkinemedia.com",
+              "responses_citing": 3
+            },
+            {
+              "domain": "londonstockexchange.com",
+              "responses_citing": 3
+            },
+            {
+              "domain": "uk.advfn.com",
+              "responses_citing": 3
+            },
+            {
+              "domain": "en.wikipedia.org",
+              "responses_citing": 3
+            },
+            {
+              "domain": "ennessglobal.com",
+              "responses_citing": 2
+            }
+          ]
+        },
+        "UK planning approvals data": {
+          "status": "20000 Ok.",
+          "total_matching_responses": 289,
+          "sampled": 20,
+          "we_are_cited": false,
+          "sample_questions": [
+            "nuclear power plant england",
+            "ais banking",
+            "nuclear power station england",
+            "uk nuclear power plants",
+            "uk nuclear plants"
+          ],
+          "top_cited_domains": [
+            {
+              "domain": "youtube.com",
+              "responses_citing": 15
+            },
+            {
+              "domain": "api.dataforseo.com",
+              "responses_citing": 14
+            },
+            {
+              "domain": "en.wikipedia.org",
+              "responses_citing": 9
+            },
+            {
+              "domain": "gov.uk",
+              "responses_citing": 7
+            },
+            {
+              "domain": "assets.publishing.service.gov.uk",
+              "responses_citing": 7
+            },
+            {
+              "domain": "onr.org.uk",
+              "responses_citing": 6
+            },
+            {
+              "domain": "edfenergy.com",
+              "responses_citing": 6
+            },
+            {
+              "domain": "world-nuclear.org",
+              "responses_citing": 6
+            },
+            {
+              "domain": "bbc.co.uk",
+              "responses_citing": 5
+            },
+            {
+              "domain": "gov.scot",
+              "responses_citing": 4
+            },
+            {
+              "domain": "theguardian.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "iss-stoxx.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "igem.org.uk",
+              "responses_citing": 4
+            },
+            {
+              "domain": "bbc.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "energyvoice.com",
+              "responses_citing": 4
+            }
+          ]
+        },
+        "student accommodation development finance": {
+          "status": "20000 Ok.",
+          "total_matching_responses": 115,
+          "sampled": 20,
+          "we_are_cited": false,
+          "sample_questions": [
+            "housing development finance",
+            "uni of leeds open days",
+            "career higher education",
+            "london developer",
+            "studentlife"
+          ],
+          "top_cited_domains": [
+            {
+              "domain": "api.dataforseo.com",
+              "responses_citing": 6
+            },
+            {
+              "domain": "youtube.com",
+              "responses_citing": 5
+            },
+            {
+              "domain": "gov.uk",
+              "responses_citing": 4
+            },
+            {
+              "domain": "ucas.com",
+              "responses_citing": 4
+            },
+            {
+              "domain": "securetrustbank.com",
+              "responses_citing": 3
+            },
+            {
+              "domain": "google.com",
+              "responses_citing": 3
+            },
+            {
+              "domain": "oaknorth.co.uk",
+              "responses_citing": 2
+            },
+            {
+              "domain": "natwest.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "shawbrook.co.uk",
+              "responses_citing": 2
+            },
+            {
+              "domain": "brickflow.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "nationalcareers.service.gov.uk",
+              "responses_citing": 2
+            },
+            {
+              "domain": "careers.manchester.ac.uk",
+              "responses_citing": 2
+            },
+            {
+              "domain": "uk.indeed.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "nhsbsa.nhs.uk",
+              "responses_citing": 2
+            },
+            {
+              "domain": "rcn.org.uk",
+              "responses_citing": 2
+            }
+          ]
+        },
+        "care home development finance": {
+          "status": "20000 Ok.",
+          "total_matching_responses": 324,
+          "sampled": 20,
+          "we_are_cited": false,
+          "sample_questions": [
+            "leader of scotland",
+            "exotic",
+            "job search in united kingdom",
+            "care for market",
+            "retirement home"
+          ],
+          "top_cited_domains": [
+            {
+              "domain": "youtube.com",
+              "responses_citing": 9
+            },
+            {
+              "domain": "api.dataforseo.com",
+              "responses_citing": 9
+            },
+            {
+              "domain": "google.com",
+              "responses_citing": 8
+            },
+            {
+              "domain": "en.wikipedia.org",
+              "responses_citing": 4
+            },
+            {
+              "domain": "nationalcareers.service.gov.uk",
+              "responses_citing": 4
+            },
+            {
+              "domain": "gov.uk",
+              "responses_citing": 3
+            },
+            {
+              "domain": "reddit.com",
+              "responses_citing": 3
+            },
+            {
+              "domain": "uk.indeed.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "housingcare.org",
+              "responses_citing": 2
+            },
+            {
+              "domain": "open.edu",
+              "responses_citing": 2
+            },
+            {
+              "domain": "skillsforcareers.education.gov.uk",
+              "responses_citing": 2
+            },
+            {
+              "domain": "jobs.army.mod.uk",
+              "responses_citing": 2
+            },
+            {
+              "domain": "careers.sphs.uk.com",
+              "responses_citing": 2
+            },
+            {
+              "domain": "army.mod.uk",
+              "responses_citing": 2
+            },
+            {
+              "domain": "allure.com",
+              "responses_citing": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  "organic_serp": {
+    "per_query": [
+      {
+        "query": "UK development finance market data",
+        "ai_search_volume": 0,
+        "organic": {
+          "we_rank": true,
+          "our_positions": [
+            {
+              "position": 6,
+              "domain": "constructioncapital.co.uk",
+              "url": "https://constructioncapital.co.uk/guides/uk-development-finance-market-2026",
+              "title": "UK Development Finance Market 2026 | Rates & Trends"
+            }
+          ],
+          "top_10": [
+            {
+              "position": 2,
+              "domain": "bii.co.uk",
+              "url": "https://www.bii.co.uk/en/",
+              "title": "British International Investment: Development Finance Institution"
+            },
+            {
+              "position": 3,
+              "domain": "ukfinance.org.uk",
+              "url": "https://www.ukfinance.org.uk/policy-and-guidance/reports-and-publications/uk-public-and-private-markets-report",
+              "title": "UK Public and Private Capital Markets | Policy and Guidance"
+            },
+            {
+              "position": 4,
+              "domain": "bayes.citystgeorges.ac.uk",
+              "url": "https://www.bayes.citystgeorges.ac.uk/faculties-and-research/centres/real-estate/bayes-cre-lending-report",
+              "title": "Bayes UK Commercial Real Estate Lending Project (CREL ..."
+            },
+            {
+              "position": 5,
+              "domain": "bankofengland.co.uk",
+              "url": "https://www.bankofengland.co.uk/statistics",
+              "title": "Statistics"
+            },
+            {
+              "position": 6,
+              "domain": "constructioncapital.co.uk",
+              "url": "https://constructioncapital.co.uk/guides/uk-development-finance-market-2026",
+              "title": "UK Development Finance Market 2026 | Rates & Trends"
+            },
+            {
+              "position": 7,
+              "domain": "publications.parliament.uk",
+              "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmintdev/884/report.html",
+              "title": "The UK's strategy towards Development Finance Institutions"
+            },
+            {
+              "position": 8,
+              "domain": "content.knightfrank.com",
+              "url": "https://content.knightfrank.com/resources/knightfrankfinance.co.uk/publications/residential-development-finance-report.pdf",
+              "title": "RESIDENTIAL DEVELOPMENT FINANCE REPORT"
+            },
+            {
+              "position": 9,
+              "domain": "lendinvest.com",
+              "url": "https://www.lendinvest.com/blog/the-2026-uk-property-development-market-viability-policy-and-the-sme-revival/",
+              "title": "The 2026 UK Property Development Market"
+            },
+            {
+              "position": 10,
+              "domain": "blgdevelopmentfinance.co.uk",
+              "url": "https://blgdevelopmentfinance.co.uk/news/current-state-of-the-development-finance-market/",
+              "title": "Current State Of The Development Finance Market"
+            }
+          ],
+          "organic_results_captured": 49
+        },
+        "google_ai_overview": {
+          "present": true,
+          "cites_us": true,
+          "cited_domains": [
+            "bankofengland.co.uk",
+            "bayes.citystgeorges.ac.uk",
+            "citystgeorges.ac.uk",
+            "constructioncapital.co.uk"
+          ]
+        },
+        "chatgpt_web_search": [
+          {
+            "model_requested": "gpt-4o",
+            "model_returned": "gpt-4o-2024-08-06",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 5828,
+            "cited_domains": [
+              "icai.independent.gov.uk",
+              "gov.uk",
+              "assets.publishing.service.gov.uk",
+              "oecd-ilibrary.org",
+              "publications.parliament.uk",
+              "bankofengland.co.uk"
+            ]
+          },
+          {
+            "model_requested": "gpt-5.4",
+            "model_returned": "gpt-5.4-2026-03-05",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 4833,
+            "cited_domains": [
+              "wwwtest.bankofengland.co.uk",
+              "bankofengland.co.uk",
+              "propertyreporter.co.uk",
+              "gov.uk"
+            ]
+          }
+        ],
+        "cited_anywhere": true
+      },
+      {
+        "query": "development finance lending trends UK",
+        "ai_search_volume": 0,
+        "organic": {
+          "we_rank": true,
+          "our_positions": [
+            {
+              "position": 3,
+              "domain": "constructioncapital.co.uk",
+              "url": "https://constructioncapital.co.uk/guides/interest-rate-trends-development-finance",
+              "title": "Development Finance Interest Rate Trends | UK Guide"
+            },
+            {
+              "position": 15,
+              "domain": "constructioncapital.co.uk",
+              "url": "https://constructioncapital.co.uk/guides/development-finance-lending-criteria-changes",
+              "title": "Development Finance Lending Criteria Changes | Guide"
+            }
+          ],
+          "top_10": [
+            {
+              "position": 2,
+              "domain": "content.knightfrank.com",
+              "url": "https://content.knightfrank.com/resources/knightfrankfinance.co.uk/publications/residential-development-finance-report.pdf",
+              "title": "RESIDENTIAL DEVELOPMENT FINANCE REPORT"
+            },
+            {
+              "position": 3,
+              "domain": "constructioncapital.co.uk",
+              "url": "https://constructioncapital.co.uk/guides/interest-rate-trends-development-finance",
+              "title": "Development Finance Interest Rate Trends | UK Guide"
+            },
+            {
+              "position": 4,
+              "domain": "swoopfunding.com",
+              "url": "https://swoopfunding.com/uk/commercial-mortgages/development-finance/",
+              "title": "Development finance explained - how do I get it? | Swoop UK"
+            },
+            {
+              "position": 5,
+              "domain": "paragonbank.co.uk",
+              "url": "https://www.paragonbank.co.uk/blog/what-trends-are-we-likely-to-see-in-the-development-finance-industry-in-2025-",
+              "title": "What trends are we likely to see in the Development ..."
+            },
+            {
+              "position": 6,
+              "domain": "lendinvest.com",
+              "url": "https://www.lendinvest.com/blog/the-2026-uk-property-development-market-viability-policy-and-the-sme-revival/",
+              "title": "The 2026 UK Property Development Market"
+            },
+            {
+              "position": 7,
+              "domain": "bankofengland.co.uk",
+              "url": "https://www.bankofengland.co.uk/statistics",
+              "title": "Statistics"
+            },
+            {
+              "position": 8,
+              "domain": "blgdevelopmentfinance.co.uk",
+              "url": "https://blgdevelopmentfinance.co.uk/",
+              "title": "Property Development Finance | Development Funding & Loans"
+            },
+            {
+              "position": 9,
+              "domain": "utbank.co.uk",
+              "url": "https://www.utbank.co.uk/understanding-lenders-criteria-for-development-funding/",
+              "title": "Understanding lenders' criteria for development funding"
+            },
+            {
+              "position": 10,
+              "domain": "diamondpropertyfinance.com",
+              "url": "https://diamondpropertyfinance.com/blogs/uk-property-development-finance-everything-you-need-to-know-in-2025/",
+              "title": "[2025 Guide] Development Finance | The SME Revival ..."
+            }
+          ],
+          "organic_results_captured": 39
+        },
+        "google_ai_overview": {
+          "present": true,
+          "cites_us": false,
+          "cited_domains": [
+            "shawbrook.co.uk",
+            "paragonbank.co.uk",
+            "commercialtrust.co.uk",
+            "abcfinance.co.uk",
+            "fdcommercial.co.uk",
+            "alternativebridging.co.uk",
+            "nmfinance.co.uk",
+            "lendinvest.com",
+            "diamondpropertyfinance.com"
+          ]
+        },
+        "chatgpt_web_search": [
+          {
+            "model_requested": "gpt-4o",
+            "model_returned": "gpt-4o-2024-08-06",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 1245,
+            "cited_domains": []
+          },
+          {
+            "model_requested": "gpt-5.4",
+            "model_returned": "gpt-5.4-2026-03-05",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 5202,
+            "cited_domains": [
+              "bankofengland.co.uk",
+              "british-business-bank.co.uk"
+            ]
+          }
+        ],
+        "cited_anywhere": false
+      },
+      {
+        "query": "how many development loans in the UK",
+        "ai_search_volume": 0,
+        "organic": {
+          "we_rank": true,
+          "our_positions": [
+            {
+              "position": 24,
+              "domain": "constructioncapital.co.uk",
+              "url": "https://constructioncapital.co.uk/guides/interest-rate-trends-development-finance",
+              "title": "Development Finance Interest Rate Trends | UK Guide"
+            }
+          ],
+          "top_10": [
+            {
+              "position": 2,
+              "domain": "swoopfunding.com",
+              "url": "https://swoopfunding.com/uk/commercial-mortgages/development-finance/",
+              "title": "Development finance explained - how do I get it? | Swoop UK"
+            },
+            {
+              "position": 3,
+              "domain": "gov.uk",
+              "url": "https://www.gov.uk/guidance/levelling-up-home-building-fund-development-finance",
+              "title": "[Withdrawn] Home Building Fund — development finance"
+            },
+            {
+              "position": 5,
+              "domain": "blgdevelopmentfinance.co.uk",
+              "url": "https://blgdevelopmentfinance.co.uk/",
+              "title": "Property Development Finance | Development Funding & Loans"
+            },
+            {
+              "position": 6,
+              "domain": "brickflow.com",
+              "url": "https://brickflow.com/development-finance/compare-development-finance-rates",
+              "title": "Compare The Best Development Finance Rates In The UK"
+            },
+            {
+              "position": 7,
+              "domain": "ukandeu.ac.uk",
+              "url": "https://ukandeu.ac.uk/explainers/development-banks/",
+              "title": "Development banks"
+            },
+            {
+              "position": 8,
+              "domain": "nmfinance.co.uk",
+              "url": "https://nmfinance.co.uk/your-complete-property-development-finance-guide-in-the-uk/",
+              "title": "Your Complete Property Development Finance Guide In ..."
+            },
+            {
+              "position": 9,
+              "domain": "shawbrook.co.uk",
+              "url": "https://www.shawbrook.co.uk/property-finance/development-finance/",
+              "title": "Development Finance | Property Development Loans"
+            },
+            {
+              "position": 10,
+              "domain": "responsiblefinance.org.uk",
+              "url": "https://responsiblefinance.org.uk/2024/05/record-year-of-community-development-finance-to-people-and-enterprises-across-uk/",
+              "title": "Record year of community development finance to people ..."
+            }
+          ],
+          "organic_results_captured": 49
+        },
+        "google_ai_overview": {
+          "present": true,
+          "cites_us": false,
+          "cited_domains": [
+            "shawbrook.co.uk",
+            "utbank.co.uk",
+            "gov.uk",
+            "iwoca.co.uk",
+            "brickflow.com",
+            "nmfinance.co.uk",
+            "swoopfunding.com"
+          ]
+        },
+        "chatgpt_web_search": [
+          {
+            "model_requested": "gpt-4o",
+            "model_returned": "gpt-4o-2024-08-06",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 325,
+            "cited_domains": []
+          },
+          {
+            "model_requested": "gpt-5.4",
+            "model_returned": "gpt-5.4-2026-03-05",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 789,
+            "cited_domains": []
+          }
+        ],
+        "cited_anywhere": false
+      },
+      {
+        "query": "UK bridging loan statistics",
+        "ai_search_volume": 0,
+        "organic": {
+          "we_rank": false,
+          "our_positions": [],
+          "top_10": [
+            {
+              "position": 2,
+              "domain": "cliftonpf.co.uk",
+              "url": "https://www.cliftonpf.co.uk/blog/27062025164949-bridging-loan-statistics/",
+              "title": "Bridging Loan Statistics | 2025 Data"
+            },
+            {
+              "position": 4,
+              "domain": "westoneloans.co.uk",
+              "url": "https://www.westoneloans.co.uk/blog/bridging-loan-book-forecast-to-hit-12bn-in-2025",
+              "title": "7 reasons why Bridging is booming in 2025"
+            },
+            {
+              "position": 5,
+              "domain": "dbrs.morningstar.com",
+              "url": "https://dbrs.morningstar.com/research/455189/uk-bridging-loan-market-traits-and-credit-considerations",
+              "title": "UK Bridging Loan Market: Traits and Credit Considerations"
+            },
+            {
+              "position": 6,
+              "domain": "bridgingfinance4u.co.uk",
+              "url": "https://bridgingfinance4u.co.uk/bridging-finance-uk-guide/",
+              "title": "Bridging Finance UK 2026 Guide | Rates, AVM, Exit"
+            },
+            {
+              "position": 7,
+              "domain": "bridgingtrends.com",
+              "url": "http://www.bridgingtrends.com/",
+              "title": "Bridging Trends – Quarterly Infographic"
+            },
+            {
+              "position": 8,
+              "domain": "moneysupermarket.com",
+              "url": "https://www.moneysupermarket.com/loans/bridge-loans/",
+              "title": "Compare Bridging Loans"
+            },
+            {
+              "position": 9,
+              "domain": "bridgingmarket.org",
+              "url": "https://www.bridgingmarket.org/",
+              "title": "Bridging Market Statistics, Trends & Consumer Insights"
+            },
+            {
+              "position": 10,
+              "domain": "fca.org.uk",
+              "url": "https://www.fca.org.uk/freedom-information/information-mortgage-bridging-loans-february-2026",
+              "title": "Information on mortgage bridging loans - February 2026"
+            }
+          ],
+          "organic_results_captured": 49
+        },
+        "google_ai_overview": {
+          "present": true,
+          "cites_us": false,
+          "cited_domains": [
+            "fca.org.uk",
+            "westoneloans.co.uk",
+            "bridgingfinance4u.co.uk",
+            "bridgingloandirectory.co.uk",
+            "moneysupermarket.com",
+            "fundingagent.co.uk",
+            "acquisition-international.com",
+            "cliftonpf.co.uk",
+            "thebdla.org"
+          ]
+        },
+        "chatgpt_web_search": [
+          {
+            "model_requested": "gpt-4o",
+            "model_returned": "gpt-4o-2024-08-06",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 8126,
+            "cited_domains": [
+              "theintermediary.co.uk",
+              "lendingbridge.co.uk",
+              "fundingagent.co.uk",
+              "bridging.fund",
+              "cherryplc.co.uk",
+              "mortgagesolutions.co.uk",
+              "mpamag.com",
+              "forbes.com",
+              "interpath.com"
+            ]
+          },
+          {
+            "model_requested": "gpt-5.4",
+            "model_returned": "gpt-5.4-2026-03-05",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 6096,
+            "cited_domains": [
+              "fca.org.uk",
+              "bridgingandcommercial.co.uk"
+            ]
+          }
+        ],
+        "cited_anywhere": false
+      },
+      {
+        "query": "development finance brokers UK",
+        "ai_search_volume": 0,
+        "organic": {
+          "we_rank": false,
+          "our_positions": [],
+          "top_10": [
+            {
+              "position": 1,
+              "domain": "cliftonpf.co.uk",
+              "url": "https://www.cliftonpf.co.uk/property-development-finance/property-development-finance-broker/",
+              "title": "Property Development Finance Broker"
+            },
+            {
+              "position": 2,
+              "domain": "brickflow.com",
+              "url": "https://brickflow.com/broker-directory/development-finance-brokers",
+              "title": "Compare Development Finance Brokers From A Directory ..."
+            },
+            {
+              "position": 3,
+              "domain": "shawbrook.co.uk",
+              "url": "https://www.shawbrook.co.uk/property-finance/development-finance/",
+              "title": "Development Finance | Property Development Loans"
+            },
+            {
+              "position": 4,
+              "domain": "paragonbank.co.uk",
+              "url": "https://www.paragonbank.co.uk/business/loans/development-finance",
+              "title": "Development Finance"
+            },
+            {
+              "position": 5,
+              "domain": "ennessglobal.com",
+              "url": "https://www.ennessglobal.com/real-estate-finance/property-development",
+              "title": "Property Development Finance UK | Funding Broker ..."
+            },
+            {
+              "position": 6,
+              "domain": "fdcommercial.co.uk",
+              "url": "https://www.fdcommercial.co.uk/development-finance/",
+              "title": "UK Property Development Finance Brokers"
+            },
+            {
+              "position": 7,
+              "domain": "saffronbs.co.uk",
+              "url": "https://www.saffronbs.co.uk/mortgages/tips-tools-support/development-finance",
+              "title": "Property Development Finance"
+            },
+            {
+              "position": 8,
+              "domain": "estateagenttoday.co.uk",
+              "url": "https://www.estateagenttoday.co.uk/article/2025/08/top-5-development-finance-brokers-in-the-uk/",
+              "title": "Top 5 development finance brokers in the UK"
+            },
+            {
+              "position": 9,
+              "domain": "blgdevelopmentfinance.co.uk",
+              "url": "https://blgdevelopmentfinance.co.uk/",
+              "title": "Property Development Finance | Development Funding & Loans"
+            },
+            {
+              "position": 10,
+              "domain": "ariafinance.co.uk",
+              "url": "https://www.ariafinance.co.uk/development-finance",
+              "title": "Development Finance - Aria Finance - Leading Specialist ..."
+            }
+          ],
+          "organic_results_captured": 50
+        },
+        "google_ai_overview": {
+          "present": false,
+          "cites_us": false,
+          "cited_domains": []
+        },
+        "chatgpt_web_search": [
+          {
+            "model_requested": "gpt-4o",
+            "model_returned": "gpt-4o-2024-08-06",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 1118,
+            "cited_domains": []
+          },
+          {
+            "model_requested": "gpt-5.4",
+            "model_returned": "gpt-5.4-2026-03-05",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 1809,
+            "cited_domains": []
+          }
+        ],
+        "cited_anywhere": false
+      },
+      {
+        "query": "UK planning approvals data",
+        "ai_search_volume": 0,
+        "organic": {
+          "we_rank": false,
+          "our_positions": [],
+          "top_10": [
+            {
+              "position": 1,
+              "domain": "gov.uk",
+              "url": "https://www.gov.uk/government/statistical-data-sets/live-tables-on-planning-application-statistics",
+              "title": "Live tables on planning application statistics"
+            },
+            {
+              "position": 3,
+              "domain": "searchland.co.uk",
+              "url": "https://searchland.co.uk/blog/uk-planning-application-approval-rates",
+              "title": "UK Planning Application Data & Approval Rates (2011– ..."
+            },
+            {
+              "position": 4,
+              "domain": "planning.data.gov.uk",
+              "url": "https://www.planning.data.gov.uk/",
+              "title": "Planning.data.gov.uk"
+            },
+            {
+              "position": 5,
+              "domain": "localdigital.gov.uk",
+              "url": "https://www.localdigital.gov.uk/digital-planning/planning-data/",
+              "title": "Better access to planning data"
+            },
+            {
+              "position": 6,
+              "domain": "planningportal.co.uk",
+              "url": "https://www.planningportal.co.uk/services/professional-portal/planning-portal-application-index",
+              "title": "Planning Portal Application Index"
+            },
+            {
+              "position": 7,
+              "domain": "mhclgdigital.blog.gov.uk",
+              "url": "https://mhclgdigital.blog.gov.uk/2022/09/28/introducing-the-planning-data-platform/",
+              "title": "Introducing the planning data platform - MHCLG Digital"
+            },
+            {
+              "position": 8,
+              "domain": "app.powerbi.com",
+              "url": "https://app.powerbi.com/view?r=eyJrIjoiMDQ1MmRlMjEtMThlMy00MWIxLThmNTEtMzU4M2I5ODNmYTJlIiwidCI6ImJmMzQ2ODEwLTljN2QtNDNkZS1hODcyLTI0YTJlZjM5OTVhOCJ9",
+              "title": "Microsoft Power BI"
+            },
+            {
+              "position": 9,
+              "domain": "gov.uk",
+              "url": "https://www.gov.uk/government/collections/planning-applications-statistics",
+              "title": "Planning applications statistics"
+            },
+            {
+              "position": 10,
+              "domain": "landhawk.uk",
+              "url": "https://www.landhawk.uk/api/planning-application-data/",
+              "title": "UK Planning Application Data API For Use In Your Own ..."
+            }
+          ],
+          "organic_results_captured": 49
+        },
+        "google_ai_overview": {
+          "present": true,
+          "cites_us": false,
+          "cited_domains": [
+            "gov.uk",
+            "planningportal.co.uk",
+            "searchland.co.uk",
+            "architectureforlondon.com"
+          ]
+        },
+        "chatgpt_web_search": [
+          {
+            "model_requested": "gpt-4o",
+            "model_returned": "gpt-4o-2024-08-06",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 728,
+            "cited_domains": []
+          },
+          {
+            "model_requested": "gpt-5.4",
+            "model_returned": "gpt-5.4-2026-03-05",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 4100,
+            "cited_domains": [
+              "gov.uk",
+              "planning.data.gov.uk",
+              "data.spatialhub.scot",
+              "gov.scot",
+              "en.wikipedia.org",
+              "nidirect.gov.uk"
+            ]
+          }
+        ],
+        "cited_anywhere": false
+      },
+      {
+        "query": "student accommodation development finance",
+        "ai_search_volume": 0,
+        "organic": {
+          "we_rank": false,
+          "our_positions": [],
+          "top_10": [
+            {
+              "position": 2,
+              "domain": "paragonbank.co.uk",
+              "url": "https://www.paragonbank.co.uk/development-finance/student-accommodation-development-finance",
+              "title": "Student Accommodation Development Finance"
+            },
+            {
+              "position": 3,
+              "domain": "shawbrook.co.uk",
+              "url": "https://www.shawbrook.co.uk/property-finance/development-finance/student-accommodation-development-finance/",
+              "title": "Student Accommodation Development Finance"
+            },
+            {
+              "position": 4,
+              "domain": "securetrustbank.com",
+              "url": "https://www.securetrustbank.com/real-estate-finance/property-development-finance/student-accommodation-development-finance",
+              "title": "Student Accommodation Development Finance"
+            },
+            {
+              "position": 5,
+              "domain": "blgdevelopmentfinance.co.uk",
+              "url": "https://blgdevelopmentfinance.co.uk/products/student-accommodation-development-loan/",
+              "title": "Student Accommodation Development Finance | PBSA ..."
+            },
+            {
+              "position": 6,
+              "domain": "fdcommercial.co.uk",
+              "url": "https://www.fdcommercial.co.uk/commercial-mortgages/student-accommodation-mortgage/",
+              "title": "Student Accommodation Mortgage | PBSA Investment ..."
+            },
+            {
+              "position": 7,
+              "domain": "fundingfred.com",
+              "url": "https://fundingfred.com/blog/development-finance-for-student-accommodation-and-co-living-schemes",
+              "title": "Development Finance for Student Accommodation & Co- ..."
+            },
+            {
+              "position": 8,
+              "domain": "studentaccommodationfinance.co.uk",
+              "url": "https://studentaccommodationfinance.co.uk/guides/student-accommodation-development-finance/",
+              "title": "Student accommodation development finance: loan to cost ..."
+            },
+            {
+              "position": 9,
+              "domain": "ldnfinance.co.uk",
+              "url": "https://ldnfinance.co.uk/specialist-finance/development/student-accommodation-development-finance/",
+              "title": "Student Accommodation Development Finance"
+            },
+            {
+              "position": 10,
+              "domain": "colliers.com",
+              "url": "https://www.colliers.com/en-gb/services/debt-advisory/case-studies/loan-financing-for-student-accommodation-development",
+              "title": "Loan Financing for Student Accommodation Development"
+            }
+          ],
+          "organic_results_captured": 49
+        },
+        "google_ai_overview": {
+          "present": true,
+          "cites_us": false,
+          "cited_domains": [
+            "paragonbank.co.uk",
+            "shawbrook.co.uk",
+            "securetrustbank.com",
+            "assetzcapital.co.uk",
+            "esteemacapital.com",
+            "fundingfred.com",
+            "cfpgroup.co.uk",
+            "maffinancegroup.co.uk",
+            "ennessglobal.com",
+            "studentaccommodationfinance.co.uk"
+          ]
+        },
+        "chatgpt_web_search": [
+          {
+            "model_requested": "gpt-4o",
+            "model_returned": "gpt-4o-2024-08-06",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 1350,
+            "cited_domains": []
+          },
+          {
+            "model_requested": "gpt-5.4",
+            "model_returned": "gpt-5.4-2026-03-05",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 5375,
+            "cited_domains": [
+              "knightfrank.co.uk",
+              "studentaccommodationfinance.co.uk",
+              "developing.fund",
+              "pbsax.com"
+            ]
+          }
+        ],
+        "cited_anywhere": false
+      },
+      {
+        "query": "care home development finance",
+        "ai_search_volume": 0,
+        "organic": {
+          "we_rank": false,
+          "our_positions": [],
+          "top_10": [
+            {
+              "position": 2,
+              "domain": "assetzcapital.co.uk",
+              "url": "https://www.assetzcapital.co.uk/property-finance/care-home-finance/",
+              "title": "Care Home Finance - Funding for Care Home Development"
+            },
+            {
+              "position": 3,
+              "domain": "shawbrook.co.uk",
+              "url": "https://www.shawbrook.co.uk/business/business-lending/healthcare/care-home-finance/",
+              "title": "Care Home Finance For Businesses - Healthcare"
+            },
+            {
+              "position": 4,
+              "domain": "rangewell.com",
+              "url": "https://rangewell.com/care-homes/development-finance-for-care-homes",
+              "title": "Development Finance For Care Homes"
+            },
+            {
+              "position": 5,
+              "domain": "paragonbankinggroup.co.uk",
+              "url": "https://www.paragonbankinggroup.co.uk/news/news-releases/paragon-development-finance-launches-specialist-care-home-funding-product-supporting-experienced-operators-and-uk-care-provision",
+              "title": "Paragon Development Finance launches specialist care ..."
+            },
+            {
+              "position": 6,
+              "domain": "oaknorth.co.uk",
+              "url": "https://oaknorth.co.uk/business-loans/senior-living/",
+              "title": "Care Home Finance | Business Loans for Care Facilities"
+            },
+            {
+              "position": 7,
+              "domain": "pumapropertyfinance.co.uk",
+              "url": "https://www.pumapropertyfinance.co.uk/portfolio-homepage/sectors/care-homes",
+              "title": "Care homes"
+            },
+            {
+              "position": 8,
+              "domain": "swoopfunding.com",
+              "url": "https://swoopfunding.com/uk/sectors/care-home-finance/",
+              "title": "Care home mortgages | Apply for care home finance"
+            },
+            {
+              "position": 9,
+              "domain": "portmanfinancegroup.co.uk",
+              "url": "https://portmanfinancegroup.co.uk/care-home-finance/",
+              "title": "Residential Care Home Finance"
+            },
+            {
+              "position": 10,
+              "domain": "esteemacapital.com",
+              "url": "https://esteemacapital.com/development-finance-uk/care-home-development-loan/",
+              "title": "\"Care Home & Health Care\" Development Loan"
+            }
+          ],
+          "organic_results_captured": 49
+        },
+        "google_ai_overview": {
+          "present": true,
+          "cites_us": false,
+          "cited_domains": [
+            "shawbrook.co.uk",
+            "paragonbank.co.uk",
+            "oaknorth.co.uk",
+            "assetzcapital.co.uk",
+            "rangewell.com",
+            "commercialpropertydevelopmentfinance.co.uk"
+          ]
+        },
+        "chatgpt_web_search": [
+          {
+            "model_requested": "gpt-4o",
+            "model_returned": "gpt-4o-2024-08-06",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 1696,
+            "cited_domains": []
+          },
+          {
+            "model_requested": "gpt-5.4",
+            "model_returned": "gpt-5.4-2026-03-05",
+            "status": "20000 Ok.",
+            "cites_us": false,
+            "names_us_in_text": false,
+            "answer_chars": 4416,
+            "cited_domains": [
+              "shawbrook.co.uk",
+              "carehomesfinance.co.uk",
+              "planningscout.co.uk",
+              "assistedlivingfinance.co.uk"
+            ]
+          }
+        ],
+        "cited_anywhere": false
+      }
+    ],
+    "brand_query": {
+      "query": "construction capital",
+      "our_positions": [
+        {
+          "position": 1,
+          "domain": "constructioncapital.co.uk",
+          "url": "https://constructioncapital.co.uk/",
+          "title": "Construction Capital | UK Development Finance Brokers"
+        }
+      ],
+      "top_10": [
+        {
+          "position": 1,
+          "domain": "constructioncapital.co.uk",
+          "url": "https://constructioncapital.co.uk/",
+          "title": "Construction Capital | UK Development Finance Brokers"
+        },
+        {
+          "position": 2,
+          "domain": "london.gov.uk",
+          "url": "https://www.london.gov.uk/programmes-strategies/jobs-and-skills/funding/construction-skills-capital-fund",
+          "title": "Construction Skills Capital Fund - Greater London Authority"
+        },
+        {
+          "position": 4,
+          "domain": "find-and-update.company-information.service.gov.uk",
+          "url": "https://find-and-update.company-information.service.gov.uk/company/07212342",
+          "title": "construction capital limited - Companies House"
+        },
+        {
+          "position": 6,
+          "domain": "capitalconstruction.london",
+          "url": "https://www.capitalconstruction.london/",
+          "title": "The Capital Group - Construction Excellence in London UK"
+        },
+        {
+          "position": 7,
+          "domain": "ultimatefinance.co.uk",
+          "url": "https://ultimatefinance.co.uk/funding-solutions/working-capital/construction-finance",
+          "title": "Construction Finance"
+        },
+        {
+          "position": 8,
+          "domain": "capitalconstructionltd.co.uk",
+          "url": "https://www.capitalconstructionltd.co.uk/",
+          "title": "Capital Construction Limited"
+        },
+        {
+          "position": 9,
+          "domain": "novuna.co.uk",
+          "url": "https://www.novuna.co.uk/news-and-insights/business-cash-flow/how-do-construction-business-loans-work/",
+          "title": "How do construction business loans work?"
+        },
+        {
+          "position": 10,
+          "domain": "octagoncapital.co.uk",
+          "url": "https://octagoncapital.co.uk/construction-finance/",
+          "title": "Construction Finance Lenders | Borrow £50K to £7 Million"
+        }
+      ],
+      "ai_overview_present": true,
+      "ai_overview_cites_us": true,
+      "ai_overview_cited_domains": [
+        "constructioncapital.co.uk",
+        "octagoncapital.co.uk",
+        "greenwoodcapital.co.uk"
+      ],
+      "ai_search_volume": 5
+    }
+  },
+  "citation_competitors": {
+    "note": "Ranked by how many of the eight target queries each domain appears on. Artifact domains (api.dataforseo.com, google.com) excluded.",
+    "google_ai_overview_citation_frequency": [
+      {
+        "domain": "shawbrook.co.uk",
+        "queries": 4
+      },
+      {
+        "domain": "paragonbank.co.uk",
+        "queries": 3
+      },
+      {
+        "domain": "nmfinance.co.uk",
+        "queries": 2
+      },
+      {
+        "domain": "gov.uk",
+        "queries": 2
+      },
+      {
+        "domain": "assetzcapital.co.uk",
+        "queries": 2
+      },
+      {
+        "domain": "bankofengland.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "bayes.citystgeorges.ac.uk",
+        "queries": 1
+      },
+      {
+        "domain": "citystgeorges.ac.uk",
+        "queries": 1
+      },
+      {
+        "domain": "constructioncapital.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "commercialtrust.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "abcfinance.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "fdcommercial.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "alternativebridging.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "lendinvest.com",
+        "queries": 1
+      },
+      {
+        "domain": "diamondpropertyfinance.com",
+        "queries": 1
+      },
+      {
+        "domain": "utbank.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "iwoca.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "brickflow.com",
+        "queries": 1
+      },
+      {
+        "domain": "swoopfunding.com",
+        "queries": 1
+      },
+      {
+        "domain": "fca.org.uk",
+        "queries": 1
+      },
+      {
+        "domain": "westoneloans.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "bridgingfinance4u.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "bridgingloandirectory.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "moneysupermarket.com",
+        "queries": 1
+      },
+      {
+        "domain": "fundingagent.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "acquisition-international.com",
+        "queries": 1
+      },
+      {
+        "domain": "cliftonpf.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "thebdla.org",
+        "queries": 1
+      },
+      {
+        "domain": "planningportal.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "searchland.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "architectureforlondon.com",
+        "queries": 1
+      },
+      {
+        "domain": "securetrustbank.com",
+        "queries": 1
+      },
+      {
+        "domain": "esteemacapital.com",
+        "queries": 1
+      },
+      {
+        "domain": "fundingfred.com",
+        "queries": 1
+      },
+      {
+        "domain": "cfpgroup.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "maffinancegroup.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "ennessglobal.com",
+        "queries": 1
+      },
+      {
+        "domain": "studentaccommodationfinance.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "oaknorth.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "rangewell.com",
+        "queries": 1
+      },
+      {
+        "domain": "commercialpropertydevelopmentfinance.co.uk",
+        "queries": 1
+      }
+    ],
+    "chatgpt_citation_frequency": [
+      {
+        "domain": "gov.uk",
+        "queries": 3
+      },
+      {
+        "domain": "bankofengland.co.uk",
+        "queries": 3
+      },
+      {
+        "domain": "icai.independent.gov.uk",
+        "queries": 1
+      },
+      {
+        "domain": "assets.publishing.service.gov.uk",
+        "queries": 1
+      },
+      {
+        "domain": "oecd-ilibrary.org",
+        "queries": 1
+      },
+      {
+        "domain": "publications.parliament.uk",
+        "queries": 1
+      },
+      {
+        "domain": "wwwtest.bankofengland.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "propertyreporter.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "british-business-bank.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "theintermediary.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "lendingbridge.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "fundingagent.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "bridging.fund",
+        "queries": 1
+      },
+      {
+        "domain": "cherryplc.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "mortgagesolutions.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "mpamag.com",
+        "queries": 1
+      },
+      {
+        "domain": "forbes.com",
+        "queries": 1
+      },
+      {
+        "domain": "interpath.com",
+        "queries": 1
+      },
+      {
+        "domain": "fca.org.uk",
+        "queries": 1
+      },
+      {
+        "domain": "bridgingandcommercial.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "planning.data.gov.uk",
+        "queries": 1
+      },
+      {
+        "domain": "data.spatialhub.scot",
+        "queries": 1
+      },
+      {
+        "domain": "gov.scot",
+        "queries": 1
+      },
+      {
+        "domain": "en.wikipedia.org",
+        "queries": 1
+      },
+      {
+        "domain": "nidirect.gov.uk",
+        "queries": 1
+      },
+      {
+        "domain": "knightfrank.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "studentaccommodationfinance.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "developing.fund",
+        "queries": 1
+      },
+      {
+        "domain": "pbsax.com",
+        "queries": 1
+      },
+      {
+        "domain": "shawbrook.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "carehomesfinance.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "planningscout.co.uk",
+        "queries": 1
+      },
+      {
+        "domain": "assistedlivingfinance.co.uk",
+        "queries": 1
+      }
+    ],
+    "organic_ranking_frequency": [
+      {
+        "domain": "blgdevelopmentfinance.co.uk",
+        "top10": 5,
+        "top20": 5,
+        "best": 5
+      },
+      {
+        "domain": "shawbrook.co.uk",
+        "top10": 4,
+        "top20": 5,
+        "best": 3
+      },
+      {
+        "domain": "paragonbank.co.uk",
+        "top10": 3,
+        "top20": 5,
+        "best": 2
+      },
+      {
+        "domain": "gov.uk",
+        "top10": 3,
+        "top20": 4,
+        "best": 1
+      },
+      {
+        "domain": "swoopfunding.com",
+        "top10": 3,
+        "top20": 3,
+        "best": 2
+      },
+      {
+        "domain": "brickflow.com",
+        "top10": 2,
+        "top20": 5,
+        "best": 2
+      },
+      {
+        "domain": "constructioncapital.co.uk",
+        "top10": 2,
+        "top20": 4,
+        "best": 3
+      },
+      {
+        "domain": "lendinvest.com",
+        "top10": 2,
+        "top20": 4,
+        "best": 6
+      },
+      {
+        "domain": "fdcommercial.co.uk",
+        "top10": 2,
+        "top20": 4,
+        "best": 6
+      },
+      {
+        "domain": "bankofengland.co.uk",
+        "top10": 2,
+        "top20": 2,
+        "best": 5
+      },
+      {
+        "domain": "content.knightfrank.com",
+        "top10": 2,
+        "top20": 2,
+        "best": 2
+      },
+      {
+        "domain": "cliftonpf.co.uk",
+        "top10": 2,
+        "top20": 2,
+        "best": 1
+      },
+      {
+        "domain": "ukfinance.org.uk",
+        "top10": 1,
+        "top20": 4,
+        "best": 3
+      },
+      {
+        "domain": "diamondpropertyfinance.com",
+        "top10": 1,
+        "top20": 3,
+        "best": 10
+      },
+      {
+        "domain": "assetzcapital.co.uk",
+        "top10": 1,
+        "top20": 3,
+        "best": 2
+      },
+      {
+        "domain": "utbank.co.uk",
+        "top10": 1,
+        "top20": 2,
+        "best": 9
+      },
+      {
+        "domain": "nmfinance.co.uk",
+        "top10": 1,
+        "top20": 2,
+        "best": 8
+      },
+      {
+        "domain": "ennessglobal.com",
+        "top10": 1,
+        "top20": 2,
+        "best": 5
+      },
+      {
+        "domain": "bridgingfinance4u.co.uk",
+        "top10": 1,
+        "top20": 2,
+        "best": 6
+      },
+      {
+        "domain": "oaknorth.co.uk",
+        "top10": 1,
+        "top20": 2,
+        "best": 6
+      },
+      {
+        "domain": "searchland.co.uk",
+        "top10": 1,
+        "top20": 2,
+        "best": 3
+      },
+      {
+        "domain": "planning.data.gov.uk",
+        "top10": 1,
+        "top20": 2,
+        "best": 4
+      },
+      {
+        "domain": "colliers.com",
+        "top10": 1,
+        "top20": 2,
+        "best": 10
+      },
+      {
+        "domain": "esteemacapital.com",
+        "top10": 1,
+        "top20": 2,
+        "best": 10
+      },
+      {
+        "domain": "rangewell.com",
+        "top10": 1,
+        "top20": 2,
+        "best": 4
+      },
+      {
+        "domain": "bii.co.uk",
+        "top10": 1,
+        "top20": 1,
+        "best": 2
+      },
+      {
+        "domain": "bayes.citystgeorges.ac.uk",
+        "top10": 1,
+        "top20": 1,
+        "best": 4
+      },
+      {
+        "domain": "publications.parliament.uk",
+        "top10": 1,
+        "top20": 1,
+        "best": 7
+      },
+      {
+        "domain": "ukandeu.ac.uk",
+        "top10": 1,
+        "top20": 1,
+        "best": 7
+      },
+      {
+        "domain": "responsiblefinance.org.uk",
+        "top10": 1,
+        "top20": 1,
+        "best": 10
+      }
+    ]
+  },
+  "domain_metrics": {
+    "constructioncapital.co.uk": {
+      "domain": "constructioncapital.co.uk",
+      "organic": {
+        "status": "20000 Ok.",
+        "keywords": 179,
+        "estimated_traffic": 212.13999911397696,
+        "estimated_traffic_cost": 789.8394891917706,
+        "pos_1": 0,
+        "pos_2_3": 3,
+        "pos_4_10": 25,
+        "pos_11_20": 40,
+        "pos_21_30": 24,
+        "pos_31_40": 12,
+        "pos_41_50": 16,
+        "pos_51_100": null
+      },
+      "backlinks": {
+        "status": "20000 Ok.",
+        "rank": 229,
+        "backlinks": 1404,
+        "referring_domains": 52,
+        "referring_main_domains": 52,
+        "referring_domains_nofollow": 11,
+        "referring_pages": 1080,
+        "referring_ips": 41,
+        "broken_backlinks": 0,
+        "first_seen": "2025-12-31 14:37:07 +00:00",
+        "internal_links_count": 0,
+        "crawled_pages": 0
+      }
+    },
+    "shawbrook.co.uk": {
+      "domain": "shawbrook.co.uk",
+      "organic": {
+        "status": "20000 Ok.",
+        "keywords": 7941,
+        "estimated_traffic": 120283.13797654584,
+        "estimated_traffic_cost": 733090.1813699787,
+        "pos_1": 205,
+        "pos_2_3": 297,
+        "pos_4_10": 1265,
+        "pos_11_20": 1724,
+        "pos_21_30": 1664,
+        "pos_31_40": 1182,
+        "pos_41_50": 741,
+        "pos_51_100": null
+      },
+      "backlinks": {
+        "status": "20000 Ok.",
+        "rank": 319,
+        "backlinks": 21893,
+        "referring_domains": 1874,
+        "referring_main_domains": 1485,
+        "referring_domains_nofollow": 919,
+        "referring_pages": 10700,
+        "referring_ips": 1229,
+        "broken_backlinks": 166,
+        "first_seen": "2019-01-16 19:00:30 +00:00",
+        "internal_links_count": 27682,
+        "crawled_pages": 1744
+      }
+    },
+    "blgdevelopmentfinance.co.uk": {
+      "domain": "blgdevelopmentfinance.co.uk",
+      "organic": {
+        "status": "20000 Ok.",
+        "keywords": 207,
+        "estimated_traffic": 504.19994332641363,
+        "estimated_traffic_cost": 6754.102677673101,
+        "pos_1": 2,
+        "pos_2_3": 8,
+        "pos_4_10": 40,
+        "pos_11_20": 50,
+        "pos_21_30": 30,
+        "pos_31_40": 31,
+        "pos_41_50": 21,
+        "pos_51_100": null
+      },
+      "backlinks": {
+        "status": "20000 Ok.",
+        "rank": 133,
+        "backlinks": 188,
+        "referring_domains": 107,
+        "referring_main_domains": 105,
+        "referring_domains_nofollow": 61,
+        "referring_pages": 174,
+        "referring_ips": 88,
+        "broken_backlinks": 0,
+        "first_seen": "2019-02-24 03:37:55 +00:00",
+        "internal_links_count": 6618,
+        "crawled_pages": 207
+      }
+    },
+    "paragonbank.co.uk": {
+      "domain": "paragonbank.co.uk",
+      "organic": {
+        "status": "20000 Ok.",
+        "keywords": 2309,
+        "estimated_traffic": 61140.68347671442,
+        "estimated_traffic_cost": 190228.97463356983,
+        "pos_1": 163,
+        "pos_2_3": 61,
+        "pos_4_10": 236,
+        "pos_11_20": 420,
+        "pos_21_30": 453,
+        "pos_31_40": 333,
+        "pos_41_50": 273,
+        "pos_51_100": null
+      },
+      "backlinks": {
+        "status": "20000 Ok.",
+        "rank": 277,
+        "backlinks": 6320,
+        "referring_domains": 1525,
+        "referring_main_domains": 1287,
+        "referring_domains_nofollow": 835,
+        "referring_pages": 6007,
+        "referring_ips": 990,
+        "broken_backlinks": 0,
+        "first_seen": "2019-01-16 10:13:10 +00:00",
+        "internal_links_count": 0,
+        "crawled_pages": 2
+      }
+    },
+    "brickflow.com": {
+      "domain": "brickflow.com",
+      "organic": {
+        "status": "20000 Ok.",
+        "keywords": 941,
+        "estimated_traffic": 12895.848165066913,
+        "estimated_traffic_cost": 233360.9213359356,
+        "pos_1": 7,
+        "pos_2_3": 50,
+        "pos_4_10": 356,
+        "pos_11_20": 179,
+        "pos_21_30": 134,
+        "pos_31_40": 84,
+        "pos_41_50": 50,
+        "pos_51_100": null
+      },
+      "backlinks": {
+        "status": "20000 Ok.",
+        "rank": 309,
+        "backlinks": 2566,
+        "referring_domains": 680,
+        "referring_main_domains": 583,
+        "referring_domains_nofollow": 272,
+        "referring_pages": 2305,
+        "referring_ips": 306,
+        "broken_backlinks": 0,
+        "first_seen": "2019-01-16 14:32:24 +00:00",
+        "internal_links_count": 21593,
+        "crawled_pages": 776
+      }
+    },
+    "ukfinance.org.uk": {
+      "domain": "ukfinance.org.uk",
+      "organic": {
+        "status": "20000 Ok.",
+        "keywords": 10717,
+        "estimated_traffic": 96789.78603033349,
+        "estimated_traffic_cost": 618024.1758415361,
+        "pos_1": 191,
+        "pos_2_3": 431,
+        "pos_4_10": 2152,
+        "pos_11_20": 2454,
+        "pos_21_30": 1634,
+        "pos_31_40": 1152,
+        "pos_41_50": 853,
+        "pos_51_100": null
+      },
+      "backlinks": {
+        "status": "20000 Ok.",
+        "rank": 399,
+        "backlinks": 68637,
+        "referring_domains": 9720,
+        "referring_main_domains": 8370,
+        "referring_domains_nofollow": 2283,
+        "referring_pages": 63193,
+        "referring_ips": 6389,
+        "broken_backlinks": 3697,
+        "first_seen": "2019-01-15 23:57:11 +00:00",
+        "internal_links_count": 298457,
+        "crawled_pages": 7197
+      }
+    },
+    "knightfrank.co.uk": {
+      "domain": "knightfrank.co.uk",
+      "organic": {
+        "status": "20000 Ok.",
+        "keywords": 88702,
+        "estimated_traffic": 885133.9506970383,
+        "estimated_traffic_cost": 1475014.5401287426,
+        "pos_1": 1327,
+        "pos_2_3": 3720,
+        "pos_4_10": 15781,
+        "pos_11_20": 22559,
+        "pos_21_30": 16386,
+        "pos_31_40": 11778,
+        "pos_41_50": 7586,
+        "pos_51_100": null
+      },
+      "backlinks": {
+        "status": "20000 Ok.",
+        "rank": 424,
+        "backlinks": 130694,
+        "referring_domains": 6040,
+        "referring_main_domains": 5602,
+        "referring_domains_nofollow": 1241,
+        "referring_pages": 106604,
+        "referring_ips": 4030,
+        "broken_backlinks": 9734,
+        "first_seen": "2019-01-16 02:23:57 +00:00",
+        "internal_links_count": 445081,
+        "crawled_pages": 22478
+      }
+    },
+    "savills.co.uk": {
+      "domain": "savills.co.uk",
+      "organic": {
+        "status": "20000 Ok.",
+        "keywords": 44000,
+        "estimated_traffic": 712423.0010728445,
+        "estimated_traffic_cost": 1715994.2233830653,
+        "pos_1": 1602,
+        "pos_2_3": 2622,
+        "pos_4_10": 6773,
+        "pos_11_20": 6832,
+        "pos_21_30": 6048,
+        "pos_31_40": 4986,
+        "pos_41_50": 4032,
+        "pos_51_100": null
+      },
+      "backlinks": {
+        "status": "20000 Ok.",
+        "rank": 531,
+        "backlinks": 29139525,
+        "referring_domains": 11771,
+        "referring_main_domains": 10563,
+        "referring_domains_nofollow": 2434,
+        "referring_pages": 18307205,
+        "referring_ips": 6618,
+        "broken_backlinks": 17910950,
+        "first_seen": "2019-01-16 02:28:29 +00:00",
+        "internal_links_count": 2495471,
+        "crawled_pages": 86945
+      }
+    },
+    "thebdla.org": {
+      "domain": "thebdla.org",
+      "organic": {
+        "status": "20000 Ok.",
+        "keywords": 79,
+        "estimated_traffic": 36.768000427633524,
+        "estimated_traffic_cost": 48.25553849339485,
+        "pos_1": 0,
+        "pos_2_3": 0,
+        "pos_4_10": 5,
+        "pos_11_20": 5,
+        "pos_21_30": 11,
+        "pos_31_40": 13,
+        "pos_41_50": 19,
+        "pos_51_100": null
+      },
+      "backlinks": {
+        "status": "20000 Ok.",
+        "rank": 262,
+        "backlinks": 2082,
+        "referring_domains": 99,
+        "referring_main_domains": 91,
+        "referring_domains_nofollow": 15,
+        "referring_pages": 1744,
+        "referring_ips": 76,
+        "broken_backlinks": 2,
+        "first_seen": "2019-04-25 08:41:11 +00:00",
+        "internal_links_count": 1424,
+        "crawled_pages": 81
+      }
+    },
+    "interpath.com": {
+      "domain": "interpath.com",
+      "organic": {
+        "status": "20000 Ok.",
+        "keywords": 393,
+        "estimated_traffic": 11922.434149928391,
+        "estimated_traffic_cost": 23639.9881090587,
+        "pos_1": 16,
+        "pos_2_3": 27,
+        "pos_4_10": 103,
+        "pos_11_20": 57,
+        "pos_21_30": 58,
+        "pos_31_40": 39,
+        "pos_41_50": 34,
+        "pos_51_100": null
+      },
+      "backlinks": {
+        "status": "20000 Ok.",
+        "rank": 338,
+        "backlinks": 11394,
+        "referring_domains": 775,
+        "referring_main_domains": 729,
+        "referring_domains_nofollow": 336,
+        "referring_pages": 6495,
+        "referring_ips": 544,
+        "broken_backlinks": 1,
+        "first_seen": "2019-01-15 23:45:55 +00:00",
+        "internal_links_count": 11094,
+        "crawled_pages": 1029
+      }
+    }
+  },
+  "caveats": [
+    "AI search volume returned 0 for all eight target queries (empty result, endpoint healthy).",
+    "The llm_mentions per-query keyword filter is fuzzy; those tallies are unreliable and excluded from conclusions.",
+    "gpt-4o returned answers with no citable links for 6 of 8 queries; gpt-5.4 returned links for 6 of 8. Both are recorded as-is.",
+    "AI Overview presence is volatile and personalised; this is one desktop capture at one point in time.",
+    "savills.co.uk did not appear in any top-10 for the target queries (it reached #12 on one). knightfrank.co.uk ranks via content.knightfrank.com. interpath.com appeared once, via ChatGPT on bridging statistics.",
+    "DataForSEO Labs domain_rank_overview is a cached database snapshot, not a live SERP read: it reports 0 position-1 keywords for us while the live SERP capture has us at #1 for the brand query. Labs figures are directional; the live SERP section is the authoritative positional record.",
+    "No DataForSEO endpoint returned an 'unavailable' or subscription error during this capture."
+  ]
+}

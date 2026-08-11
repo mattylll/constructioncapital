@@ -19,6 +19,7 @@ import {
 import { SERVICES } from "@/lib/services";
 import {
   PriceByTypeChart,
+  QuarterlyTrendChart,
   TownPricesChart,
   YoyChangeChart,
 } from "@/components/market-reports/report-charts";
@@ -151,11 +152,42 @@ export default async function MarketReportPage({ params }: PageProps) {
         }
       : null;
 
+  // Lending Monitor reports are backed by a published open dataset; Dataset
+  // markup makes the data itself machine-discoverable (AI-citation surface).
+  const datasetJsonLd =
+    report.category === "lending"
+      ? {
+          "@context": "https://schema.org",
+          "@type": "Dataset",
+          name: `${report.title} - underlying aggregates`,
+          description:
+            "Quarterly aggregates of UK development lending activity from Companies House charge registrations: facility counts, borrower counts, lender breadth and concentration, redemption cohorts, refinance and junior-debt events, regional series.",
+          url: `${SITE_URL}/market-reports/${report.slug}`,
+          isAccessibleForFree: true,
+          license: "https://creativecommons.org/licenses/by/4.0/",
+          creator: {
+            "@type": "Organization",
+            name: SITE_NAME,
+            url: SITE_URL,
+          },
+          distribution: [
+            {
+              "@type": "DataDownload",
+              encodingFormat: "application/json",
+              contentUrl: `${SITE_URL}/data/lending-monitor-stats-h1-2026.json`,
+            },
+          ],
+          temporalCoverage: "2023-01/2026-06",
+          spatialCoverage: { "@type": "Place", name: "United Kingdom" },
+        }
+      : null;
+
   return (
     <>
       <JsonLd data={articleJsonLd} />
       <JsonLd data={breadcrumbJsonLd} />
       {faqJsonLd && <JsonLd data={faqJsonLd} />}
+      {datasetJsonLd && <JsonLd data={datasetJsonLd} />}
 
       <PageHero
         tone="paper"
@@ -176,6 +208,22 @@ export default async function MarketReportPage({ params }: PageProps) {
         }
         title={report.title}
         deck={report.excerpt}
+        actions={
+          report.countySlug && (
+            <CTAButton
+              href={
+                report.townSlug
+                  ? `/locations/${report.countySlug}/${report.townSlug}`
+                  : `/locations/${report.countySlug}`
+              }
+              variant="gold"
+              size="md"
+            >
+              View {deslugify(report.townSlug ?? report.countySlug)} finance
+              options
+            </CTAButton>
+          )
+        }
       />
 
       {/* Article Content */}
@@ -225,6 +273,9 @@ export default async function MarketReportPage({ params }: PageProps) {
             const showYoyChange = !!(report.charts?.townYoyChange?.length) && (
               heading.includes("outlook") || heading.includes("year-on-year")
             );
+            // Lending Monitor time series: explicit condition (first section),
+            // not a heading-substring match — those have proven fragile.
+            const showQuarterlyTrend = !!(report.charts?.quarterlyTrend?.length) && i === 0;
 
             return (
               <div key={i} id={`section-${i}`} className="mb-16 scroll-mt-24">
@@ -263,6 +314,9 @@ export default async function MarketReportPage({ params }: PageProps) {
                 {showPriceByType && <PriceByTypeChart data={report.charts!.priceByType!} />}
                 {showTownPrices && <TownPricesChart data={report.charts!.townPrices!} />}
                 {showYoyChange && <YoyChangeChart data={report.charts!.townYoyChange!} />}
+                {showQuarterlyTrend && (
+                  <QuarterlyTrendChart data={report.charts!.quarterlyTrend!} />
+                )}
               </div>
             );
           })}
@@ -323,38 +377,40 @@ export default async function MarketReportPage({ params }: PageProps) {
               </Link>
             ))}
           </div>
+        </EditorialSection>
+      )}
 
-          {/* Location links */}
-          {report.countySlug && (
-            <div className="mt-10 flex flex-wrap items-center gap-x-5 gap-y-2">
-              <span
-                className="text-[10px] font-medium uppercase tracking-[0.26em]"
-                style={{ color: "oklch(0.50 0.02 255)" }}
-              >
-                Explore locations
-              </span>
-              <Link
-                href={`/locations/${report.countySlug}`}
-                className="editorial-link text-[14px] font-medium"
-                style={{ color: "var(--navy-dark)" }}
-              >
-                {deslugify(report.countySlug)}
-              </Link>
-              {report.relatedTownSlugs.slice(0, 6).map((ts) => {
-                const [, town] = ts.split("/");
-                return (
-                  <Link
-                    key={ts}
-                    href={`/locations/${ts}`}
-                    className="editorial-link text-[14px] font-medium"
-                    style={{ color: "var(--navy-dark)" }}
-                  >
-                    {deslugify(town)}
-                  </Link>
-                );
-              })}
-            </div>
-          )}
+      {/* Location links */}
+      {report.countySlug && (
+        <EditorialSection tone={relatedServices.length > 0 ? "paper" : "stone"}>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+            <span
+              className="text-[10px] font-medium uppercase tracking-[0.26em]"
+              style={{ color: "oklch(0.50 0.02 255)" }}
+            >
+              Explore locations
+            </span>
+            <Link
+              href={`/locations/${report.countySlug}`}
+              className="editorial-link text-[14px] font-medium"
+              style={{ color: "var(--navy-dark)" }}
+            >
+              {deslugify(report.countySlug)}
+            </Link>
+            {report.relatedTownSlugs.slice(0, 6).map((ts) => {
+              const [, town] = ts.split("/");
+              return (
+                <Link
+                  key={ts}
+                  href={`/locations/${ts}`}
+                  className="editorial-link text-[14px] font-medium"
+                  style={{ color: "var(--navy-dark)" }}
+                >
+                  {deslugify(town)}
+                </Link>
+              );
+            })}
+          </div>
         </EditorialSection>
       )}
 

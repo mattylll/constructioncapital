@@ -1,29 +1,49 @@
 {
-  "updatedAt": "2026-08-09T02:01:45.122Z",
+  "updatedAt": "2026-08-09T23:02:42.615Z",
   "townSlug": "bury",
   "countySlug": "greater-manchester",
   "localAuthority": "Bury Council",
   "source": "idox",
   "dataset": {
-    "windowMonths": 3,
-    "from": "2026-05-09",
+    "windowMonths": 12,
+    "from": "2025-08-09",
     "to": "2026-08-09",
-    "retrievedAt": "2026-08-09T02:01:45.122Z"
+    "retrievedAt": "2026-08-09T23:02:42.615Z"
   },
   "summary": {
-    "total": 249,
-    "relevant": 0,
+    "total": 1031,
+    "relevant": 1,
     "approved": 0,
-    "pending": 0,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 0,
-    "totalUnits": 0,
+    "pendingUnits": 9,
+    "totalUnits": 9,
     "approvedGdv": 0,
-    "pendingGdv": 0,
-    "totalEstimatedGDV": 0,
+    "pendingGdv": 2070000,
+    "totalEstimatedGDV": 2070000,
     "approvalRate": 0
   },
   "approvedApplications": [],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "73130",
+      "address": "Land at Hazel Hall Lane, Ramsbottom",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Application for permission in principle for the erection of 8-9 dwellings",
+      "category": "other_residential",
+      "units": 9,
+      "estimatedGdv": 2070000,
+      "status": "Decided",
+      "decision": "Decided",
+      "receivedDate": "23/04/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.bury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_BURY_DCAPR_64580"
+    }
+  ]
 }

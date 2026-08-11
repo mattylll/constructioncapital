@@ -1,0 +1,184 @@
+{
+  "rank": {
+    "endpoint": "/dataforseo_labs/google/domain_rank_overview/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.01212,
+    "result": [
+      {
+        "se_type": "google",
+        "target": "knightfrank.co.uk",
+        "location_code": 2826,
+        "language_code": "en",
+        "total_count": 1,
+        "items_count": 1,
+        "items": [
+          {
+            "se_type": "google",
+            "location_code": 2826,
+            "language_code": "en",
+            "metrics": {
+              "organic": {
+                "pos_1": 1327,
+                "pos_2_3": 3720,
+                "pos_4_10": 15781,
+                "pos_11_20": 22559,
+                "pos_21_30": 16386,
+                "pos_31_40": 11778,
+                "pos_41_50": 7586,
+                "pos_51_60": 4594,
+                "pos_61_70": 2694,
+                "pos_71_80": 1401,
+                "pos_81_90": 652,
+                "pos_91_100": 224,
+                "etv": 885133.9506970383,
+                "count": 88702,
+                "estimated_paid_traffic_cost": 1475014.5401287426,
+                "is_new": 43175,
+                "is_up": 21756,
+                "is_down": 18216,
+                "is_lost": 29182,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              },
+              "paid": {
+                "pos_1": 7,
+                "pos_2_3": 2,
+                "pos_4_10": 0,
+                "pos_11_20": 0,
+                "pos_21_30": 0,
+                "pos_31_40": 0,
+                "pos_41_50": 0,
+                "pos_51_60": 0,
+                "pos_61_70": 0,
+                "pos_71_80": 0,
+                "pos_81_90": 0,
+                "pos_91_100": 0,
+                "etv": 64.17000102996826,
+                "count": 9,
+                "estimated_paid_traffic_cost": 331.0941638946533,
+                "is_new": 9,
+                "is_up": 0,
+                "is_down": 0,
+                "is_lost": 10,
+                "clickstream_etv": null,
+                "clickstream_gender_distribution": null,
+                "clickstream_age_distribution": null
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "bl": {
+    "endpoint": "/backlinks/summary/live",
+    "http": 200,
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "task_status_code": 20000,
+    "task_status_message": "Ok.",
+    "cost": 0.024036,
+    "result": [
+      {
+        "target": "knightfrank.co.uk",
+        "first_seen": "2019-01-16 02:23:57 +00:00",
+        "lost_date": null,
+        "rank": 424,
+        "backlinks": 130694,
+        "backlinks_spam_score": 14,
+        "crawled_pages": 22478,
+        "info": {
+          "server": "wswaf",
+          "cms": null,
+          "platform_type": [
+            "unknown"
+          ],
+          "ip_address": "163.171.242.128",
+          "country": "GB",
+          "is_ip": false,
+          "target_spam_score": 13
+        },
+        "internal_links_count": 445081,
+        "external_links_count": 710158,
+        "broken_backlinks": 9734,
+        "broken_pages": 2632,
+        "referring_domains": 6040,
+        "referring_domains_nofollow": 1241,
+        "referring_main_domains": 5602,
+        "referring_main_domains_nofollow": 1171,
+        "referring_ips": 4030,
+        "referring_subnets": 2438,
+        "referring_pages": 106604,
+        "referring_pages_nofollow": 23753,
+        "referring_links_tld": {
+          "com": 66488,
+          "co.uk": 13286,
+          "com.au": 4519,
+          "blogspot.com": 3413,
+          "co.za": 1829,
+          "ch": 1465,
+          "co.th": 962,
+          "es": 876,
+          "net": 812,
+          "com.sg": 765
+        },
+        "referring_links_types": {
+          "anchor": 90844,
+          "image": 13392,
+          "alternate": 1383,
+          "canonical": 618,
+          "redirect": 367
+        },
+        "referring_links_attributes": {
+          "nofollow": 23741,
+          "noopener": 22538,
+          "noreferrer": 16453,
+          "ugc": 751,
+          "external": 113,
+          "sponsored": 75,
+          "bookmark": 5,
+          "author": 1
+        },
+        "referring_links_platform_types": {
+          "unknown": 82115,
+          "organization": 12957,
+          "blogs": 10792,
+          "cms": 7653,
+          "ecommerce": 3462,
+          "news": 2904,
+          "wikis": 165,
+          "message-boards": 14
+        },
+        "referring_links_semantic_locations": {
+          "": 26360,
+          "footer": 24780,
+          "section": 21146,
+          "header": 11377,
+          "article": 9945,
+          "main": 6183,
+          "aside": 3080,
+          "nav": 2050,
+          "figcaption": 1472,
+          "figure": 205
+        },
+        "referring_links_countries": {
+          "GB": 62427,
+          "": 11280,
+          "WW": 7967,
+          "AU": 4540,
+          "US": 3617,
+          "ZA": 1828,
+          "CH": 1465,
+          "TH": 965,
+          "ES": 889,
+          "CA": 814
+        }
+      }
+    ]
+  }
+}

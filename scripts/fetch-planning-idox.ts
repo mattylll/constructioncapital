@@ -1333,6 +1333,12 @@ const IDOX_AUTHORITIES: IdoxAuthority[] = [
     name: "Oldham Metropolitan Borough Council",
     baseUrl: "https://planningpa.oldham.gov.uk",
     towns: [{ townSlug: "oldham", countySlug: "greater-manchester" }],
+    // 2026-08-11: portal is live (search page GETs return 200) but search
+    // SUBMISSIONS are rejected 403 by Microsoft-Azure-Application-Gateway/v2 —
+    // a WAF in front of the POST endpoint, verified on a clean single-authority
+    // run. Not a dead portal, not rate-limiting. Left enabled so the weekly run
+    // keeps probing; fixing needs the scraper's POST to satisfy the WAF
+    // (headers/fingerprint), a Wave-2 item. Last good data: 2026-08-02 (3mo).
     enabled: true,
   },
   {
