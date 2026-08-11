@@ -1,0 +1,173 @@
+{
+ "extractedAt": "2026-08-11",
+ "basis": "264-town planning dataset, 12-month windows only (12 short-window towns excluded), keyword classification with condition-filing noise filter and cross-authority dedupe",
+ "window12m": {
+  "apps": 315,
+  "units": 3426,
+  "gdvEst": 1097694425,
+  "approved": 48,
+  "pending": 267
+ },
+ "h1_2026": {
+  "apps": 125,
+  "units": 1560,
+  "gdvEst": 544350450
+ },
+ "byRegion": {
+  "East of England": {
+   "n": 29,
+   "u": 815,
+   "g": 194561000
+  },
+  "London & South East": {
+   "n": 104,
+   "u": 1310,
+   "g": 557189500
+  },
+  "Midlands": {
+   "n": 75,
+   "u": 737,
+   "g": 210645250
+  },
+  "South West": {
+   "n": 26,
+   "u": 260,
+   "g": 84489250
+  },
+  "North East & Yorkshire": {
+   "n": 56,
+   "u": 258,
+   "g": 44022425
+  },
+  "Wales": {
+   "n": 5,
+   "u": 37,
+   "g": 4825000
+  },
+  "North West": {
+   "n": 20,
+   "u": 9,
+   "g": 1962000
+  }
+ },
+ "byQuarter": {
+  "2025-Q3": 33,
+  "2025-Q4": 54,
+  "2026-Q1": 65,
+  "2026-Q2": 60,
+  "2026-Q3": 14
+ },
+ "topSchemes": [
+  {
+   "la": "Great Yarmouth Borough Council",
+   "region": "East of England",
+   "status": "pending",
+   "decision": "",
+   "units": 446,
+   "gdv": 90092000,
+   "rec": "2025-10-14",
+   "proposal": "Hybrid planning application seeking: \n\n(1) Full planning permission for construction of 446 residential dwellings and associated landscaping"
+  },
+  {
+   "la": "Thurrock Council",
+   "region": "London & South East",
+   "status": "pending",
+   "decision": "",
+   "units": 412,
+   "gdv": 144200000,
+   "rec": null,
+   "proposal": "Outline planning permission with all matters reserved except for access, for the construction of up to 412 dwellings (Use Class C3), primary"
+  },
+  {
+   "la": "North Norfolk District Council",
+   "region": "East of England",
+   "status": "pending",
+   "decision": "Pending Consideration",
+   "units": 343,
+   "gdv": 98012250,
+   "rec": "2026-03-02",
+   "proposal": "Details of access, appearance, landscaping, layout & scale for new three-storey care home for older people, with associated access, parking "
+  },
+  {
+   "la": "Reigate and Banstead Borough Council",
+   "region": "London & South East",
+   "status": "pending",
+   "decision": "Registered",
+   "units": 300,
+   "gdv": 142500000,
+   "rec": "2026-04-16",
+   "proposal": "Application for Reserved Matters approval for appearance, layout, scale and landscaping relating to the erection of replacement scout hut wi"
+  },
+  {
+   "la": "Bromsgrove & Redditch Councils",
+   "region": "Midlands",
+   "status": "pending",
+   "decision": "",
+   "units": 300,
+   "gdv": 100500000,
+   "rec": null,
+   "proposal": "Demolition of outbuildings and associated hardstanding; construction of up to 300 homes (Use Class C3) and a care home (Use Class C2); princ"
+  },
+  {
+   "la": "Mid Sussex District Council",
+   "region": "London & South East",
+   "status": "pending",
+   "decision": "Awaiting decision",
+   "units": 230,
+   "gdv": 100050000,
+   "rec": "2026-03-05",
+   "proposal": "Outline application (appearance, landscaping, layout and scale reserved), for the demolition of existing buildings and erection of up to 230"
+  },
+  {
+   "la": "Bristol City Council",
+   "region": "South West",
+   "status": "pending",
+   "decision": "Pending consideration",
+   "units": 200,
+   "gdv": 70000000,
+   "rec": "2026-04-24",
+   "proposal": "Application for approval of reserved matters for Phase 2 of the development granted outline planning permission under reference 22/01199/PB "
+  },
+  {
+   "la": "North West Leicestershire District Council",
+   "region": "Midlands",
+   "status": "pending",
+   "decision": "",
+   "units": 200,
+   "gdv": 50400000,
+   "rec": null,
+   "proposal": "Scoping Opinion under Town and Country Planning (Environmental Impact Assessment) Regulations 2017 in respect of proposed development up to "
+  },
+  {
+   "la": "Lichfield District Council",
+   "region": "Midlands",
+   "status": "pending",
+   "decision": "Pending Consideration",
+   "units": 130,
+   "gdv": 39305500,
+   "rec": "2026-04-20",
+   "proposal": "Outline planning application (with all matters reserved except for access) for the development of up to 130 dwellings (Class C3) and a care "
+  },
+  {
+   "la": "Royal Borough of Kingston upon Thames",
+   "region": "London & South East",
+   "status": "pending",
+   "decision": "",
+   "units": 80,
+   "gdv": 42800000,
+   "rec": null,
+   "proposal": "Outline planning permission for demolition of vacant residential care home and erection of 80 bed residential care home with associated bins"
+  }
+ ],
+ "charges": {
+  "h1_2026": {
+   "charges": 1828,
+   "borrowers": 1356
+  },
+  "h1_2025": {
+   "charges": 1885,
+   "borrowers": 1309
+  },
+  "basis": "CH charges vs borrowers with care-sector SIC (87xxx, 86102, 86900)"
+ }
+}
