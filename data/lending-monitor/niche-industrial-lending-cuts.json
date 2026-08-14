@@ -1,0 +1,140 @@
+{
+ "version": "1.0",
+ "builtAt": "2026-08-14",
+ "definition": "Two independent cuts of Companies House charge registrations. The operator cut counts charges against borrowers carrying warehousing, cargo-handling or road-freight SIC codes (occupier-side demand). The collateral cut counts charges whose particulars name industrial property types (investor and owner-occupier property lending, any borrower SIC). They overlap and are never summed.",
+ "wholeMarketH1Charges": {
+  "h1_2024": 85830,
+  "h1_2025": 103509,
+  "h1_2026": 121546
+ },
+ "wholeMarketNote": "All charge registrations at Companies House in the period, any sector. Growth in a niche cut must be read against this baseline; shares are the honest comparator.",
+ "operatorCut": {
+  "label": "Operators: warehousing & storage (52101-52103), cargo handling (52241-52243), road freight (49410)",
+  "h1_2026": {
+   "charges": 608,
+   "borrowers": 511,
+   "newBorrowerSharePct": 12.5,
+   "shareOfAllChargesPct": 0.5
+  },
+  "h1_2025": {
+   "charges": 579,
+   "borrowers": 469,
+   "newBorrowerSharePct": 11.2,
+   "shareOfAllChargesPct": 0.559
+  },
+  "h1_2024": {
+   "charges": 583,
+   "borrowers": 479,
+   "newBorrowerSharePct": 8.6,
+   "shareOfAllChargesPct": 0.679
+  },
+  "redemptionCohorts": [
+   {
+    "cohort": "2019",
+    "originated": 1176,
+    "redeemedWithin18mPct": 11.1
+   },
+   {
+    "cohort": "2020",
+    "originated": 903,
+    "redeemedWithin18mPct": 8.9
+   },
+   {
+    "cohort": "2021",
+    "originated": 963,
+    "redeemedWithin18mPct": 11.3
+   },
+   {
+    "cohort": "2022",
+    "originated": 968,
+    "redeemedWithin18mPct": 8.6
+   },
+   {
+    "cohort": "2023",
+    "originated": 973,
+    "redeemedWithin18mPct": 10.8
+   },
+   {
+    "cohort": "2024",
+    "originated": 1200,
+    "redeemedWithin18mPct": 13.5
+   }
+  ],
+  "regionalH1_2026_propertyLocated": {
+   "South West": 14,
+   "London & South East": 12,
+   "East of England": 12,
+   "North West": 11,
+   "Midlands": 11,
+   "outside coverage": 6,
+   "North East & Yorkshire": 5,
+   "Wales": 2
+  },
+  "regionalCoverageNote": "property-postcode located; charges with no extractable property postcode are not represented"
+ },
+ "collateralCut": {
+  "label": "Collateral: charge particulars naming industrial estates, industrial units/parks, trading estates, warehouses or trade counters",
+  "h1_2026": {
+   "charges": 911,
+   "borrowers": 713,
+   "newBorrowerSharePct": 15.4,
+   "shareOfAllChargesPct": 0.75
+  },
+  "h1_2025": {
+   "charges": 706,
+   "borrowers": 548,
+   "newBorrowerSharePct": 13.2,
+   "shareOfAllChargesPct": 0.682
+  },
+  "h1_2024": {
+   "charges": 705,
+   "borrowers": 511,
+   "newBorrowerSharePct": 12.5,
+   "shareOfAllChargesPct": 0.821
+  },
+  "redemptionCohorts": [
+   {
+    "cohort": "2019",
+    "originated": 1541,
+    "redeemedWithin18mPct": 5.3
+   },
+   {
+    "cohort": "2020",
+    "originated": 1195,
+    "redeemedWithin18mPct": 7.4
+   },
+   {
+    "cohort": "2021",
+    "originated": 1299,
+    "redeemedWithin18mPct": 8.2
+   },
+   {
+    "cohort": "2022",
+    "originated": 1289,
+    "redeemedWithin18mPct": 7.1
+   },
+   {
+    "cohort": "2023",
+    "originated": 1195,
+    "redeemedWithin18mPct": 6.8
+   },
+   {
+    "cohort": "2024",
+    "originated": 1445,
+    "redeemedWithin18mPct": 9.0
+   }
+  ],
+  "regionalH1_2026_propertyLocated": {
+   "Midlands": 140,
+   "North East & Yorkshire": 135,
+   "London & South East": 113,
+   "North West": 102,
+   "outside coverage": 88,
+   "East of England": 81,
+   "South West": 75,
+   "Wales": 57
+  },
+  "regionalCoverageNote": "property-postcode located; charges with no extractable property postcode are not represented"
+ },
+ "overlapH1_2026": 14
+}

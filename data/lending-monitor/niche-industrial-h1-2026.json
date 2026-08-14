@@ -1,0 +1,189 @@
+{
+ "extractedAt": "2026-08-14",
+ "basis": "Raw Idox planning exports from the Construction Capital lake, deduped by (council, reference) and cross-register; admin filings (condition discharge, NMA) excluded; self storage excluded. 12-month window 2025-08-06 to 2026-08-06 over 83 councils whose scrape window spans the full period; the quarterly series uses the 83 councils whose window reaches back to July 2025. Floorspace is as stated in proposal text and is a floor, not a total.",
+ "cutoff": "2026-08-06",
+ "windowStart": "2025-08-06",
+ "councilsTotal": 147,
+ "councilsQualifying12m": 83,
+ "councilsQualifyingTrend": 83,
+ "allTimeIndustrialApps": 2677,
+ "regionInferredFromCouncilModal": 620,
+ "window12m": {
+  "apps": 1001,
+  "withFloorspace": 32,
+  "floorspaceSqm": 872799,
+  "approved": 48,
+  "refused": 15,
+  "decidedOther": 879,
+  "pending": 59,
+  "bigbox": 148
+ },
+ "h1_2026": {
+  "apps": 547,
+  "withFloorspace": 15,
+  "floorspaceSqm": 299713,
+  "approved": 16,
+  "refused": 3,
+  "decidedOther": 495,
+  "pending": 33,
+  "bigbox": 78
+ },
+ "byRegion": {
+  "East of England": {
+   "n": 142,
+   "sqm": 287573,
+   "approved": 13
+  },
+  "London & South East": {
+   "n": 269,
+   "sqm": 76067,
+   "approved": 5
+  },
+  "Midlands": {
+   "n": 116,
+   "sqm": 386446,
+   "approved": 4
+  },
+  "North East & Yorkshire": {
+   "n": 166,
+   "sqm": 3003,
+   "approved": 18
+  },
+  "North West": {
+   "n": 115,
+   "sqm": 97642,
+   "approved": 2
+  },
+  "South West": {
+   "n": 134,
+   "sqm": 22068,
+   "approved": 6
+  },
+  "Wales": {
+   "n": 59,
+   "sqm": 0,
+   "approved": 0
+  }
+ },
+ "byQuarter": {
+  "2025-Q3": 215,
+  "2025-Q4": 230,
+  "2026-Q1": 277,
+  "2026-Q2": 270,
+  "2026-Q3": 86
+ },
+ "tierSplit": {
+  "industrial": 962,
+  "openStorage": 39
+ },
+ "topSchemes": [
+  {
+   "council": "greater-cambridge",
+   "region": "East of England",
+   "status": "decided",
+   "sqm": 230000,
+   "bigbox": false,
+   "received": "2026-07-03",
+   "proposal": "Development of up to 230,000 m2 GIA of employment floorspace (within Use Classes E (g)(i), E(g)(ii), E(g)(iii), B2, and B8) together with supporting community and amenity space (within Use Classes F1, F2, E(a), E(b), E(d"
+  },
+  {
+   "council": "derby-city",
+   "region": "Midlands",
+   "status": "pending",
+   "sqm": 104430,
+   "bigbox": false,
+   "received": "2026-06-12",
+   "proposal": "Approval of reserved matters of access, appearance, landscaping, layout and scale in respect of Attenuation Tank 1 manufacturing facility - 23/00817/OUT - Outline planning permission with all matters reserved is sought f"
+  },
+  {
+   "council": "trafford",
+   "region": "North West",
+   "status": "decided",
+   "sqm": 70000,
+   "bigbox": false,
+   "received": "2025-12-10",
+   "proposal": "Outline planning application (with all matters reserved except for access from Hulme Hall Road, Cornbrook Road, and Trafford Road) for a mixed-use development comprising residential uses; (Use Classes C2 up to 100 care b"
+  },
+  {
+   "council": "west-oxfordshire",
+   "region": "London & South East",
+   "status": "decided",
+   "sqm": 64305,
+   "bigbox": true,
+   "received": "2025-09-12",
+   "proposal": "Outline planning application (with all matters reserved except access) for the demolition of existing buildings and the redevelopment and expansion of Enstone Business Park to provide up to 64,305sqm (GIA) of flexible em"
+  },
+  {
+   "council": "harborough",
+   "region": "Midlands",
+   "status": "pending",
+   "sqm": 60000,
+   "bigbox": false,
+   "received": "2025-10-21",
+   "proposal": "Outline planning permission (all matters reserved except for access) for up to 60,000sqm of employment floorspace within Use Class B8, a new roundabout site access off the A5, amended site access from Gibbet Lane, plus l"
+  },
+  {
+   "council": "chelmsford",
+   "region": "East of England",
+   "status": "pending",
+   "sqm": 46605,
+   "bigbox": true,
+   "received": "2026-02-27",
+   "proposal": "Commercial Development Of Up To 46,605Sqm Of Mixed Employment, Logistics, Storage And Distribution Uses (Use Classes E(G)(Iii), B2, B8) Supporting Associated Development, Infrastructure And Landscaping. Appearance, Lands"
+  },
+  {
+   "council": "bolton",
+   "region": "North West",
+   "status": "decided",
+   "sqm": 25000,
+   "bigbox": true,
+   "received": "2025-11-17",
+   "proposal": "HYBRID PLANNING APPLICATION CONSISTING OF (1) LAND AT LEE HALL SOUTH FOR THE RESIDENTIAL DEVELOPMENT OF UP TO 1450 DWELLINGS (USE CLASS C3), CARE FACILITY (75 BEDS) (USE CLASS C2) RETAIL FACILITIES (USE CLASS E & SUI GEN"
+  },
+  {
+   "council": "tewkesbury",
+   "region": "South West",
+   "status": "decided",
+   "sqm": 19658,
+   "bigbox": false,
+   "received": "2026-01-29",
+   "proposal": "Full planning permission for the provision of pitches and ancillary facilities; and outline planning permission (all matters reserved except for access) for the erection of up to 211,600 sq. ft of employment floorspace ("
+  },
+  {
+   "council": "hinckley-bosworth",
+   "region": "Midlands",
+   "status": "decided",
+   "sqm": 10500,
+   "bigbox": false,
+   "received": "2026-05-11",
+   "proposal": "Outline planning application for a development of up to 10,500sqm of employment floorspace (use class B2/B8) (all matters reserved except access)"
+  },
+  {
+   "council": "west-berkshire",
+   "region": "London & South East",
+   "status": "decided",
+   "sqm": 4676,
+   "bigbox": true,
+   "received": "2026-02-03",
+   "proposal": "Development of 1 No. single storey warehouse consisting of 4676 sq m B8 Storage and Distribution space and 487 sq m covered space under freestanding link canopy, 32 car parking spaces, lorry yard and cycle stores. PV pan"
+  },
+  {
+   "council": "norwich",
+   "region": "East of England",
+   "status": "decided",
+   "sqm": 3400,
+   "bigbox": true,
+   "received": "2025-12-11",
+   "proposal": "Erection of industrial units to provide 3,400 sqm of flexible and adaptable space for Use Classes E(g)(ii), and Class E(g)(iii), General Industrial Use Class B2 and Storage and Distribution Use Class B8 and Ancillary Acc"
+  },
+  {
+   "council": "great-yarmouth",
+   "region": "East of England",
+   "status": "pending",
+   "sqm": 3356,
+   "bigbox": false,
+   "received": "2025-09-26",
+   "proposal": "Pre-Application Enquiry: Erection of a two-storey warehouse/office building (3,356sqm), car park areas and associated works for RWE as part of the Operations and Maintenance Campus, on a reduced site area and scale compa"
+  }
+ ]
+}

@@ -11,5 +11,6 @@ import r7 from "./development-lending-monitor-north-west-h1-2026";
 import r8 from "./development-lending-monitor-south-west-h1-2026";
 import r9 from "./development-lending-monitor-wales-h1-2026";
 import r10 from "./mezzanine-junior-debt-monitor-h1-2026";
+import r11 from "./industrial-logistics-development-monitor-h1-2026";
 
-export const LENDING_REPORTS: MarketReport[] = [r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10];
+export const LENDING_REPORTS: MarketReport[] = [r0, r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11];
