@@ -185,5 +185,87 @@
    "received": "2025-09-26",
    "proposal": "Pre-Application Enquiry: Erection of a two-storey warehouse/office building (3,356sqm), car park areas and associated works for RWE as part of the Operations and Maintenance Campus, on a reduced site area and scale compa"
   }
- ]
+ ],
+ "ppd": {
+  "byYear": {
+   "2020": {
+    "transactions": 1910,
+    "medianPrice": 300000,
+    "meanPrice": 1325538,
+    "totalConsideration": 2531777143
+   },
+   "2021": {
+    "transactions": 2193,
+    "medianPrice": 350000,
+    "meanPrice": 1446856,
+    "totalConsideration": 3172955212
+   },
+   "2022": {
+    "transactions": 2001,
+    "medianPrice": 380000,
+    "meanPrice": 1674390,
+    "totalConsideration": 3350454165
+   },
+   "2023": {
+    "transactions": 1841,
+    "medianPrice": 375000,
+    "meanPrice": 1186482,
+    "totalConsideration": 2184314163
+   },
+   "2024": {
+    "transactions": 1966,
+    "medianPrice": 365000,
+    "meanPrice": 1310597,
+    "totalConsideration": 2576632922
+   },
+   "2025": {
+    "transactions": 1668,
+    "medianPrice": 380000,
+    "meanPrice": 1219088,
+    "totalConsideration": 2033438193
+   },
+   "2026": {
+    "transactions": 244,
+    "medianPrice": 365750,
+    "meanPrice": 980340,
+    "totalConsideration": 239203074
+   }
+  },
+  "byRegion12m": {
+   "Midlands": {
+    "transactions": 168,
+    "medianPrice": 397800
+   },
+   "London & South East": {
+    "transactions": 125,
+    "medianPrice": 450000
+   },
+   "North West": {
+    "transactions": 110,
+    "medianPrice": 355000
+   },
+   "South West": {
+    "transactions": 109,
+    "medianPrice": 318615
+   },
+   "North East & Yorkshire": {
+    "transactions": 88,
+    "medianPrice": 392500
+   },
+   "East of England": {
+    "transactions": 79,
+    "medianPrice": 350000
+   },
+   "Wales": {
+    "transactions": 64,
+    "medianPrice": 374500
+   },
+   "outside coverage": {
+    "transactions": 30,
+    "medianPrice": 267500
+   }
+  },
+  "note": "HMLR Price Paid type-O (commercial) transactions at industrial-keyword addresses. Type O excludes most portfolio/share deals; registrations lag 1-2 months minimum, longer for commercial.",
+  "maxTransactionDate": "2026-06-12"
+ }
 }
