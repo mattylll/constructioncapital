@@ -120,11 +120,11 @@ This deal is a good example of how specialist broker knowledge can unlock better
 
 The key changes require brokers to provide borrowers with a standardised disclosure document before any fees are charged, setting out the full cost of intermediation including arrangement fees, exit fees, and any commissions received from lenders. This brings unregulated lending intermediation closer to the disclosure standards already in place for regulated mortgage advice.
 
-For developers, this is broadly positive news. Greater transparency in fee structures will make it easier to compare brokerage propositions and ensure you understand the full cost of your finance package. At Construction Capital, we have always operated with full fee transparency, so these changes simply formalise our existing approach.
+For developers, this is broadly positive news. Greater transparency in fee structures will make it easier to compare brokerage propositions and ensure you understand the full cost of your finance package. At Construction Capital, we have always operated with full fee transparency as a matter of practice, regardless of what is formally required. For clarity, Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and refer clients to FCA-authorised partner firms where a regulated product is needed.
 
 The rules also introduce a 14-day cooling-off period for brokerage agreements, giving borrowers time to review terms before committing. This does not apply to the underlying loan facility, only the broker engagement.
 
-Brokers who fail to comply face enforcement action and potential removal from the FCA register. We expect this to accelerate consolidation in the market, with smaller operators who have relied on opaque fee structures finding it harder to compete.
+Regulated firms that fail to comply face enforcement action from the FCA. We expect this to accelerate consolidation in the market, with smaller operators who have relied on opaque fee structures finding it harder to compete.
 
 Our view is that this regulation is overdue and will raise standards across the industry. Developers should welcome the move and use the standardised disclosure documents to make more informed decisions about their finance partners.`,
       category: "regulatory" as const,

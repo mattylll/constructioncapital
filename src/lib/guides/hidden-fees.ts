@@ -81,7 +81,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -173,7 +173,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -265,7 +265,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -358,7 +358,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -450,7 +450,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -542,7 +542,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -634,7 +634,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -726,7 +726,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -818,7 +818,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -910,7 +910,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -1002,7 +1002,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -1094,7 +1094,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -1186,7 +1186,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -1286,7 +1286,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
@@ -1394,7 +1394,7 @@ const HIDDEN_FEES_RAW: Omit<Guide, "readingTime">[] = [
       },
       {
         question: "Are development finance fees regulated by the FCA?",
-        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Working with an FCA-registered broker provides an additional layer of consumer protection."
+        answer: "Most development finance falls outside FCA regulation because it is extended to SPVs or companies for business purposes. This means lenders are not subject to the same disclosure requirements as regulated mortgage lenders. However, reputable lenders and brokers will still provide full fee transparency. Construction Capital is not authorised or regulated by the Financial Conduct Authority; we arrange non-regulated commercial finance and are transparent about all costs upfront. Where a client needs a regulated product, we introduce them to FCA-authorised partner firms on an introducer basis."
       },
       {
         question: "How can I reduce the total fees on my development finance facility?",
