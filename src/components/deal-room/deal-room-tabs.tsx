@@ -4,28 +4,42 @@ import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { MessageSquare, FileText } from "lucide-react";
 
-import { DealRoomForm } from "@/components/deal-room/deal-room-form";
+import {
+  DealRoomForm,
+  type DealRoomPrefill,
+} from "@/components/deal-room/deal-room-form";
 import { QuickEnquiryForm } from "@/components/quick-enquiry-form";
 
 const tabs = [
   {
     id: "quick" as const,
-    label: "Quick Enquiry",
+    label: "Ask Matt",
     icon: MessageSquare,
-    description: "Just want to chat? Leave your details and we'll call you back.",
+    description: "Four fields and Matt calls you back. The fastest way to find out if your deal works.",
   },
   {
     id: "full" as const,
-    label: "Full Application",
+    label: "Send the Full Deal",
     icon: FileText,
-    description: "Ready to go? Submit your deal for indicative terms within 24 hours.",
+    description: "Numbers ready? Send the outline and get Matt's indicative terms within 24 hours.",
   },
 ];
 
-export function DealRoomTabs() {
+interface DealRoomTabsProps {
+  /** Explicit prefill, used when opened as an in-page popup (see DealRoomForm). */
+  prefill?: DealRoomPrefill;
+}
+
+export function DealRoomTabs({ prefill }: DealRoomTabsProps = {}) {
   const searchParams = useSearchParams();
   // Auto-switch to Full Application when calculator params are present
-  const hasCalcParams = searchParams.get("gdv") || searchParams.get("loan_amount") || searchParams.get("source");
+  const hasCalcParams =
+    prefill?.gdv ||
+    prefill?.loanAmount ||
+    prefill?.source ||
+    searchParams.get("gdv") ||
+    searchParams.get("loan_amount") ||
+    searchParams.get("source");
   const [activeTab, setActiveTab] = useState<"quick" | "full">(hasCalcParams ? "full" : "quick");
 
   return (
@@ -66,7 +80,7 @@ return (
           <QuickEnquiryForm />
         </div>
       ) : (
-        <DealRoomForm />
+        <DealRoomForm prefill={prefill} />
       )}
     </div>
   );

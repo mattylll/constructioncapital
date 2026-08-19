@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { toast } from "sonner";
 import {
@@ -20,6 +20,9 @@ import {
   trackDealRoomStep,
   trackDealRoomSubmit,
   trackDealRoomPrefill,
+  trackFormStart,
+  trackFormAbandon,
+  trackFormPartialSaved,
 } from "@/lib/analytics";
 import {
   Select,
@@ -109,11 +112,32 @@ const steps = [
 
 function parseCurrencyToNumber(value: string): number {
   const num = parseInt(value.replace(/[^0-9]/g, ""), 10);
-  
+
 return isNaN(num) ? 0 : num;
 }
 
-export function DealRoomForm() {
+const STORAGE_KEY = "cc_deal_room_form";
+
+export interface DealRoomPrefill {
+  gdv?: string;
+  totalCost?: string;
+  loanAmount?: string;
+  loanType?: string;
+  town?: string;
+  source?: string;
+}
+
+interface DealRoomFormProps {
+  /**
+   * Explicit prefill values, used when this form is opened as an in-page
+   * popup (e.g. from a calculator) rather than reached via /deal-room?...
+   * URL params. Takes priority over the URL — a popup doesn't navigate, so
+   * there's no query string to read the calculator's numbers from.
+   */
+  prefill?: DealRoomPrefill;
+}
+
+export function DealRoomForm({ prefill }: DealRoomFormProps = {}) {
   const searchParams = useSearchParams();
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState<FormData>(initialFormData);
@@ -127,13 +151,53 @@ export function DealRoomForm() {
   const [prefilledSource, setPrefilledSource] = useState<string | null>(null);
   const [prefilledSummary, setPrefilledSummary] = useState<{ gdv?: string; loanAmount?: string; loanType?: string } | null>(null);
 
+  const startedRef = useRef(false);
+  const submittedRef = useRef(false);
+  const stepRef = useRef(1);
+  const partialSentRef = useRef<Set<number>>(new Set());
+
+  // Restore any in-progress application ("save your progress" made literal).
+  // Runs before the URL-prefill effect below, which overrides where present.
   useEffect(() => {
-    const gdv = searchParams.get("gdv");
-    const totalCost = searchParams.get("total_cost");
-    const loanAmount = searchParams.get("loan_amount");
-    const loanType = searchParams.get("loan_type");
-    const town = searchParams.get("town");
-    const source = searchParams.get("source");
+    try {
+      const saved = sessionStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        const parsed = JSON.parse(saved) as Partial<FormData>;
+        setFormData((prev) => ({ ...prev, ...parsed }));
+      }
+    } catch {
+      // ignore corrupt/unavailable storage
+    }
+  }, []);
+
+  // Persist as they type
+  useEffect(() => {
+    try {
+      sessionStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
+    } catch {
+      // storage unavailable — non-fatal
+    }
+  }, [formData]);
+
+  // Funnel visibility: form abandoned without submitting
+  useEffect(() => {
+    function handlePageHide() {
+      if (startedRef.current && !submittedRef.current) {
+        trackFormAbandon("deal_room", stepRef.current);
+      }
+    }
+    window.addEventListener("pagehide", handlePageHide);
+
+    return () => window.removeEventListener("pagehide", handlePageHide);
+  }, []);
+
+  useEffect(() => {
+    const gdv = prefill?.gdv ?? searchParams.get("gdv");
+    const totalCost = prefill?.totalCost ?? searchParams.get("total_cost");
+    const loanAmount = prefill?.loanAmount ?? searchParams.get("loan_amount");
+    const loanType = prefill?.loanType ?? searchParams.get("loan_type");
+    const town = prefill?.town ?? searchParams.get("town");
+    const source = prefill?.source ?? searchParams.get("source");
 
     if (gdv || totalCost || loanAmount || loanType || town) {
       setFormData((prev) => ({
@@ -155,9 +219,13 @@ export function DealRoomForm() {
         });
       }
     }
-  }, [searchParams]);
+  }, [searchParams, prefill]);
 
   function updateField(field: keyof FormData, value: string) {
+    if (!startedRef.current) {
+      startedRef.current = true;
+      trackFormStart("deal_room");
+    }
     setFormData((prev) => ({ ...prev, [field]: value }));
     if (errors[field]) {
       setErrors((prev) => {
@@ -177,6 +245,13 @@ return next;
         newErrors.projectLocation = "Project location is required";
       if (!formData.postcode.trim())
         newErrors.postcode = "Postcode is required";
+      if (!formData.email.trim()) newErrors.email = "Email is required";
+      if (
+        formData.email.trim() &&
+        !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)
+      ) {
+        newErrors.email = "Please enter a valid email";
+      }
       if (!formData.projectType)
         newErrors.projectType = "Please select a project type";
     }
@@ -188,10 +263,11 @@ return next;
       if (!formData.loanType)
         newErrors.loanType = "Please select a loan type";
 
-      // Validate minimum loan amount (£500k)
+      // Any positive amount is welcome — lenders on the panel start around
+      // £100k, and Matt triages everything personally.
       const loanNum = parseCurrencyToNumber(formData.loanAmount);
-      if (formData.loanAmount.trim() && loanNum > 0 && loanNum < 500000) {
-        newErrors.loanAmount = "Minimum loan amount is £500,000";
+      if (formData.loanAmount.trim() && loanNum <= 0) {
+        newErrors.loanAmount = "Please enter a loan amount";
       }
     }
 
@@ -213,10 +289,57 @@ return next;
 return Object.keys(newErrors).length === 0;
   }
 
+  // Calculators, location pages and planning-outreach links all hand off to
+  // the Deal Room via a `source` query param (captured into prefilledSource
+  // by the URL-prefill effect above). That's the only record of where a
+  // lead started — source_page/pathname reads "/deal-room" for everyone by
+  // the time they reach any step — so both the partial-save chase list and
+  // the final submit need to carry it forward explicitly or the CRM can
+  // never trace a lead back to the calculator that generated it.
+  function getLeadSource(): string | undefined {
+    return getUtmParam("utm_source") || prefilledSource || undefined;
+  }
+
+  function savePartial(completedStep: number) {
+    // Best-effort, once per step per session; never blocks navigation.
+    if (partialSentRef.current.has(completedStep)) return;
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) return;
+    partialSentRef.current.add(completedStep);
+
+    const unitsNum = parseInt(formData.units.replace(/[^0-9]/g, ""), 10);
+    try {
+      fetch("/api/leads/partial", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        keepalive: true,
+        body: JSON.stringify({
+          email: formData.email.trim(),
+          step: completedStep,
+          project_location: formData.projectLocation.trim() || undefined,
+          project_postcode: formData.postcode.trim() || undefined,
+          project_type: formData.projectType || undefined,
+          units: isNaN(unitsNum) ? undefined : unitsNum,
+          gdv: parseCurrencyToNumber(formData.gdv) || undefined,
+          total_cost: parseCurrencyToNumber(formData.totalCost) || undefined,
+          loan_amount: parseCurrencyToNumber(formData.loanAmount) || undefined,
+          loan_type: formData.loanType || undefined,
+          additional_info: formData.additionalInfo.trim() || undefined,
+          source_page: window.location.pathname,
+          lead_source: getLeadSource(),
+        }),
+      }).catch(() => {});
+      trackFormPartialSaved(completedStep);
+    } catch {
+      // never interrupt the form for analytics/capture
+    }
+  }
+
   function handleNext() {
     if (validateStep(currentStep)) {
+      savePartial(currentStep);
       const nextStep = Math.min(currentStep + 1, 3);
       trackDealRoomStep(nextStep, "forward");
+      stepRef.current = nextStep;
       setCurrentStep(nextStep);
     }
   }
@@ -224,6 +347,7 @@ return Object.keys(newErrors).length === 0;
   function handleBack() {
     const prevStep = Math.max(currentStep - 1, 1);
     trackDealRoomStep(prevStep, "back");
+    stepRef.current = prevStep;
     setCurrentStep(prevStep);
   }
 
@@ -234,6 +358,8 @@ return Object.keys(newErrors).length === 0;
 
     try {
       const unitsNum = parseInt(formData.units.replace(/[^0-9]/g, ""), 10);
+
+      const calculatorSource = getLeadSource();
 
       const res = await fetch("/api/leads", {
         method: "POST",
@@ -253,15 +379,30 @@ return Object.keys(newErrors).length === 0;
           phone: formData.phone.trim(),
           company: formData.company.trim() || undefined,
           source_page: window.location.pathname,
-          utm_source: getUtmParam("utm_source"),
+          utm_source: calculatorSource,
           utm_medium: getUtmParam("utm_medium"),
           utm_campaign: getUtmParam("utm_campaign"),
+          facility_size: parseCurrencyToNumber(formData.loanAmount),
+          fee_rate: 0.01,
+          expected_fee: parseCurrencyToNumber(formData.loanAmount) * 0.01,
+          probability: 0.05,
+          pipeline_stage: "new",
+          lead_source: calculatorSource || "seo",
+          lead_kind: "borrower",
+          article_url: getUtmParam("article_url") || undefined,
+          planning_reference: getUtmParam("planning_reference") || undefined,
         }),
       });
 
       if (!res.ok) throw new Error("Submission failed");
 
-      trackDealRoomSubmit(formData.loanType, parseCurrencyToNumber(formData.loanAmount));
+      trackDealRoomSubmit(formData.loanType, parseCurrencyToNumber(formData.loanAmount), calculatorSource);
+      submittedRef.current = true;
+      try {
+        sessionStorage.removeItem(STORAGE_KEY);
+      } catch {
+        // non-fatal
+      }
       setIsSubmitted(true);
       toast.success("Deal submitted successfully");
     } catch (error) {
@@ -339,7 +480,7 @@ return parseInt(num, 10).toLocaleString("en-GB");
   };
 
   // Handle planning-sourced entries (e.g., "planning-5/2025/0741")
-  const source = searchParams.get("source") ?? "";
+  const source = prefill?.source ?? searchParams.get("source") ?? "";
   if (source.startsWith("planning-") && !sourceLabels[source]) {
     sourceLabels[source] = `Planning Application ${source.replace("planning-", "")}`;
   }
@@ -518,6 +659,28 @@ return parseInt(num, 10).toLocaleString("en-GB");
                 className="mt-2 h-12"
               />
             </div>
+
+            <div>
+              <Label htmlFor="email-step1" className="text-sm font-semibold">
+                Email *
+              </Label>
+              <Input
+                id="email-step1"
+                type="email"
+                placeholder="you@company.co.uk"
+                value={formData.email}
+                onChange={(e) => updateField("email", e.target.value)}
+                className="mt-2 h-12"
+              />
+              {errors.email && (
+                <p className="mt-1.5 text-sm text-destructive">
+                  {errors.email}
+                </p>
+              )}
+              <p className="mt-1.5 text-xs text-muted-foreground">
+                So Matt can save your progress and reply personally.
+              </p>
+            </div>
           </div>
         </div>
       )}
@@ -607,7 +770,7 @@ return parseInt(num, 10).toLocaleString("en-GB");
                       <Info className="h-3.5 w-3.5 text-muted-foreground" />
                     </TooltipTrigger>
                     <TooltipContent side="top" className="max-w-xs">
-                      How much you need to borrow. We arrange facilities from £500,000 upwards.
+                      How much you need to borrow. Facilities arranged from around £100,000 upwards.
                     </TooltipContent>
                   </Tooltip>
                 </TooltipProvider>
@@ -631,9 +794,6 @@ return parseInt(num, 10).toLocaleString("en-GB");
                   {errors.loanAmount}
                 </p>
               )}
-              <p className="mt-1.5 text-xs text-muted-foreground">
-                Minimum £500,000
-              </p>
             </div>
 
             <div>
