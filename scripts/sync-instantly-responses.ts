@@ -174,7 +174,17 @@ async function main() {
           utm_source: "instantly",
           utm_medium: "email",
           utm_campaign: campaign.id,
+          lead_source: "planning_outreach",
+          lead_kind: "planning_outreach",
+          pipeline_stage: "new",
+          planning_reference: vars.planning_reference || undefined,
+          article_url: vars.article_url || vars.news_url || undefined,
         });
+
+        if (!result.ok) {
+          console.error(`    GHL push failed: ${result.error.slice(0, 100)}`);
+          continue;
+        }
 
         syncLog.push({
           email: lead.email,

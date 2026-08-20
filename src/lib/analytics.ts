@@ -44,12 +44,27 @@ export function trackDealRoomStep(step: number, direction: "forward" | "back") {
   });
 }
 
-export function trackDealRoomSubmit(loanType: string, loanAmount: number) {
+export function trackDealRoomSubmit(
+  loanType: string,
+  loanAmount: number,
+  source?: string
+) {
   trackEvent({
     action: "deal_room_submit",
     category: "lead_generation",
     label: loanType,
     value: loanAmount,
+    source: source || "direct",
+  });
+  trackEvent({
+    action: "qualify_lead",
+    category: "lead_generation",
+    label: "borrower_deal_room",
+    value: loanAmount,
+    currency: "GBP",
+    lead_type: "borrower",
+    loan_type: loanType,
+    source: source || "direct",
   });
 }
 
@@ -58,6 +73,32 @@ export function trackDealRoomPrefill(source: string) {
     action: "deal_room_prefill",
     category: "lead_generation",
     label: source,
+  });
+}
+
+export function trackFormStart(form: "quick_enquiry" | "deal_room") {
+  trackEvent({
+    action: "form_start",
+    category: "lead_generation",
+    label: form,
+  });
+}
+
+export function trackFormAbandon(form: "quick_enquiry" | "deal_room", lastStep: number) {
+  trackEvent({
+    action: "form_abandon",
+    category: "lead_generation",
+    label: form,
+    value: lastStep,
+  });
+}
+
+export function trackFormPartialSaved(step: number) {
+  trackEvent({
+    action: "form_partial_saved",
+    category: "lead_generation",
+    label: `step_${step}`,
+    value: step,
   });
 }
 
@@ -107,5 +148,28 @@ export function trackEnquirySubmit(sourcePage: string) {
     action: "enquiry_submit",
     category: "lead_generation",
     label: sourcePage,
+  });
+  trackEvent({
+    action: "qualify_lead",
+    category: "lead_generation",
+    label: "quick_enquiry",
+    source_page: sourcePage,
+    lead_type: "borrower",
+  });
+}
+
+export function trackIntroducerSubmit(partnerType: string) {
+  trackEvent({
+    action: "introducer_enquiry_submit",
+    category: "lead_generation",
+    label: partnerType,
+    lead_type: "introducer",
+  });
+  trackEvent({
+    action: "qualify_lead",
+    category: "lead_generation",
+    label: "introducer_partner",
+    partner_type: partnerType,
+    lead_type: "introducer",
   });
 }

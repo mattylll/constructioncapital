@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
-import { Resend } from "resend";
-import { pushLeadToGHL } from "@/lib/ghl";
+import { deliverLead } from "@/lib/lead-sinks";
 
 function formatCurrency(amount: number): string {
   return new Intl.NumberFormat("en-GB", {
@@ -29,6 +28,23 @@ export async function POST(request: Request) {
       phone,
       company,
       source_page,
+      utm_source,
+      utm_medium,
+      utm_campaign,
+      facility_size,
+      fee_rate,
+      expected_fee,
+      probability,
+      pipeline_stage,
+      lead_source,
+      product_stack,
+      planning_reference,
+      article_url,
+      lender_shortlist,
+      expected_close_month,
+      next_action_at,
+      owner,
+      lead_kind,
     } = body;
 
     // Validate required fields
@@ -39,27 +55,38 @@ export async function POST(request: Request) {
       );
     }
 
-    // Push to GoHighLevel CRM (primary lead capture)
-    await pushLeadToGHL(body);
+    const crmLead = {
+      ...body,
+      utm_source,
+      utm_medium,
+      utm_campaign,
+      facility_size: facility_size ?? loan_amount,
+      fee_rate: fee_rate ?? 0.01,
+      expected_fee: expected_fee ?? loan_amount * (fee_rate ?? 0.01),
+      probability: probability ?? 0.05,
+      pipeline_stage: pipeline_stage ?? "new",
+      lead_source: lead_source ?? utm_source ?? "seo",
+      product_stack,
+      planning_reference,
+      article_url,
+      lender_shortlist,
+      expected_close_month,
+      next_action_at,
+      owner,
+      lead_kind: lead_kind ?? "borrower",
+    };
 
-    // Send email notification if Resend is configured (optional)
-    const resendApiKey = process.env.RESEND_API_KEY;
-    const notificationEmail = process.env.LEAD_NOTIFICATION_EMAIL;
+    // Deliver to both sinks (GHL CRM + notification email). deliverLead
+    // alerts via the email subject if the CRM push fails.
+    const submittedAt = new Date().toLocaleString("en-GB", {
+      dateStyle: "full",
+      timeStyle: "short",
+      timeZone: "Europe/London",
+    });
 
-    if (resendApiKey && notificationEmail) {
-      try {
-        const resend = new Resend(resendApiKey);
-        const submittedAt = new Date().toLocaleString("en-GB", {
-          dateStyle: "full",
-          timeStyle: "short",
-          timeZone: "Europe/London",
-        });
-
-        await resend.emails.send({
-          from: process.env.RESEND_FROM_EMAIL || "Construction Capital <onboarding@resend.dev>",
-          to: notificationEmail,
-          subject: `New Lead: ${full_name} - ${loan_type} ${formatCurrency(loan_amount)}`,
-          html: `
+    const delivery = await deliverLead(crmLead, {
+      subject: `New Lead: ${full_name} - ${loan_type} ${formatCurrency(loan_amount)}`,
+      html: `
             <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 600px; margin: 0 auto; color: #1a1a2e;">
               <div style="background: linear-gradient(135deg, #1a1a2e, #2d2d5e); padding: 32px; border-radius: 12px 12px 0 0;">
                 <h1 style="color: #c9a84c; margin: 0; font-size: 22px; font-weight: 700;">New Deal Room Enquiry</h1>
@@ -77,6 +104,9 @@ export async function POST(request: Request) {
                 <table style="width: 100%; border-collapse: collapse; margin-bottom: 24px;">
                   <tr><td style="padding: 8px 0; color: #666; font-size: 14px; width: 140px;">Loan Type</td><td style="padding: 8px 0; font-size: 14px; font-weight: 600;">${loan_type}</td></tr>
                   <tr><td style="padding: 8px 0; color: #666; font-size: 14px;">Loan Amount</td><td style="padding: 8px 0; font-size: 14px; font-weight: 600;">${formatCurrency(loan_amount)}</td></tr>
+                  <tr><td style="padding: 8px 0; color: #666; font-size: 14px;">Expected Fee</td><td style="padding: 8px 0; font-size: 14px; font-weight: 600;">${formatCurrency(crmLead.expected_fee)}</td></tr>
+                  <tr><td style="padding: 8px 0; color: #666; font-size: 14px;">Pipeline Stage</td><td style="padding: 8px 0; font-size: 14px;">${crmLead.pipeline_stage}</td></tr>
+                  <tr><td style="padding: 8px 0; color: #666; font-size: 14px;">Lead Source</td><td style="padding: 8px 0; font-size: 14px;">${crmLead.lead_source}</td></tr>
                   <tr><td style="padding: 8px 0; color: #666; font-size: 14px;">GDV</td><td style="padding: 8px 0; font-size: 14px;">${formatCurrency(gdv)}</td></tr>
                   <tr><td style="padding: 8px 0; color: #666; font-size: 14px;">Total Cost</td><td style="padding: 8px 0; font-size: 14px;">${formatCurrency(total_cost)}</td></tr>
                   <tr><td style="padding: 8px 0; color: #666; font-size: 14px;">Location</td><td style="padding: 8px 0; font-size: 14px;">${project_location}${project_postcode ? ` (${project_postcode})` : ""}</td></tr>
@@ -91,16 +121,21 @@ export async function POST(request: Request) {
               </div>
             </div>
           `,
-        });
-      } catch (emailError) {
-        console.error("Email notification failed (non-blocking):", emailError);
-      }
+    });
+
+    if (!delivery.delivered) {
+      // Both sinks failed — surface it so the client shows the
+      // "call us directly" fallback instead of a false success screen.
+      return NextResponse.json(
+        { error: "Failed to submit lead" },
+        { status: 500 }
+      );
     }
 
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error("Lead submission error:", error);
-    
+
 return NextResponse.json(
       { error: "Failed to submit lead" },
       { status: 500 }
