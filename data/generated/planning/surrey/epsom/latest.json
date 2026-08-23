@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-16T01:03:11.423Z",
+  "updatedAt": "2026-08-23T01:02:15.545Z",
   "townSlug": "epsom",
   "countySlug": "surrey",
   "localAuthority": "Epsom and Ewell Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T01:03:11.420Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T01:02:15.472Z"
   },
   "summary": {
-    "total": 268,
-    "relevant": 45,
+    "total": 269,
+    "relevant": 46,
     "approved": 0,
-    "pending": 45,
+    "pending": 46,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 16,
@@ -26,6 +26,25 @@
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/00973/S106A",
+      "address": "Development Site At Former 46 Woodcote Green Road Epsom Surrey KT18 7DJ",
+      "postcode": "KT18 7DJ",
+      "ward": "",
+      "proposal": "Discharge Obligation(s) as specified in S106 Agreement attached to planning permission 23/01146/FUL",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "",
+      "decision": "",
+      "receivedDate": "17/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://eplanning.epsom-ewell.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TK0D6VGY0IU00"
+    },
     {
       "reference": "26/00874/FUL",
       "address": "7 Alexandra Road Epsom Surrey KT17 4BH",
@@ -82,6 +101,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://eplanning.epsom-ewell.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THHYV1GYK5P00"
+    },
+    {
+      "reference": "26/00935/REM",
+      "address": "8B Woodlands Avenue Worcester Park Surrey KT4 7AN",
+      "postcode": "KT4 7AN",
+      "ward": "",
+      "proposal": "Variation of Condition 2 (Approved Plans), 5 (Site Levels), 17 (Boundary Treatment) of planning permission 22/01474/FUL to allow for design amendments and to change the timing for Condition 5 and 17 from Prior to the commencement of above Ground Works and Prior to above Ground Works to Prior to Occupation respectively.",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "",
+      "decision": "",
+      "receivedDate": "07/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://eplanning.epsom-ewell.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJJPWYGY0IU00"
     },
     {
       "reference": "26/00905/PDCOU",
@@ -278,7 +316,7 @@
       "address": "Linden Bridge School Grafton Road Worcester Park Surrey KT4 7JW",
       "postcode": "KT4 7JW",
       "ward": "",
-      "proposal": "Construction of new 3m high fence to North-east boundary (retrospective)",
+      "proposal": "Construction of new 3m high fence to northeast boundary. (Retrospective)",
       "category": "other_relevant",
       "units": null,
       "estimatedGdv": null,
@@ -861,25 +899,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://eplanning.epsom-ewell.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFOZXEGYJVP00"
-    },
-    {
-      "reference": "26/00609/REM",
-      "address": "67 The Green Ewell Surrey KT17 3JU",
-      "postcode": "KT17 3JU",
-      "ward": "",
-      "proposal": "Variation of Condition 1 (Timescale), 2 (Approved Plans), 3 (Materials) of planning permission 24/01233/FUL to alter the design and materials to the front boundary wall (part-retrospective)",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "",
-      "receivedDate": "21/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://eplanning.epsom-ewell.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFE71GGYJUI00"
     }
   ]
 }

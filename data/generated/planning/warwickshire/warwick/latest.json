@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-16T03:15:28.974Z",
+  "updatedAt": "2026-08-23T03:59:49.413Z",
   "townSlug": "warwick",
   "countySlug": "warwickshire",
   "localAuthority": "Warwick District Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T03:15:28.974Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T03:59:49.413Z"
   },
   "summary": {
-    "total": 360,
-    "relevant": 4,
+    "total": 373,
+    "relevant": 5,
     "approved": 0,
-    "pending": 4,
+    "pending": 5,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
@@ -26,6 +26,25 @@
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "W/26/1133/AG",
+      "address": "Land at, Vicarage Lane, Sherbourne",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Prior approval under the General Permitted Development Order 2015 (as amended) (GPDO) Part 3, Cla...",
+      "category": "prior_approval",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "05/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningdocuments.warwickdc.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_WARWI_DCAPR_100563"
+    },
     {
       "reference": "W/26/0937/AG",
       "address": "13 The Smallholdings, Stoneleigh Road, Baginton, Coventry, CV8 3BA",

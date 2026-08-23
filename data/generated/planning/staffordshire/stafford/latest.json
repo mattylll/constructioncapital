@@ -1,31 +1,50 @@
 {
-  "updatedAt": "2026-08-16T03:13:36.873Z",
+  "updatedAt": "2026-08-23T03:57:44.565Z",
   "townSlug": "stafford",
   "countySlug": "staffordshire",
   "localAuthority": "Stafford Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T03:13:36.872Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T03:57:44.564Z"
   },
   "summary": {
-    "total": 86,
-    "relevant": 9,
+    "total": 81,
+    "relevant": 12,
     "approved": 0,
-    "pending": 9,
+    "pending": 12,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 35,
-    "totalUnits": 35,
+    "pendingUnits": 41,
+    "totalUnits": 41,
     "approvedGdv": 0,
-    "pendingGdv": 8750000,
-    "totalEstimatedGDV": 8750000,
+    "pendingGdv": 10220000,
+    "totalEstimatedGDV": 10220000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/42561/FUL",
+      "address": "27 & 30 Crabbery Street Stafford ST16 2BA",
+      "postcode": "ST16 2BA",
+      "ward": "",
+      "proposal": "Change of use and conversion of the upper floors of 27 & 30 Crabbery Street to provide three self-contained apartments and a three bedroom House in Multiple Occupation (HMO)",
+      "category": "change_of_use",
+      "units": 3,
+      "estimatedGdv": 360000,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "06/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://www12.staffordbc.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJCPLOPSFKM00"
+    },
     {
       "reference": "26/42583/PIP",
       "address": "Aston Pool Farm Stafford Road Aston By Stone Stone Staffordshire ST15 0BH",
@@ -82,6 +101,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://www12.staffordbc.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIIULRPSN1R00"
+    },
+    {
+      "reference": "26/42477/FUL",
+      "address": "Lamb And Flag Main Road Little Haywood Stafford Staffordshire ST18 0TU",
+      "postcode": "ST18 0TU",
+      "ward": "",
+      "proposal": "External beer garden refurbishment (in conjunction with 26/42478/LBC)",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "21/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://www12.staffordbc.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIIULPPSN1Q00"
     },
     {
       "reference": "26/42509/PIP",
@@ -196,6 +234,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://www12.staffordbc.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGIINPPS00O00"
+    },
+    {
+      "reference": "26/42287/FUL",
+      "address": "19 Cherry Tree Crescent Great Bridgeford Stafford Staffordshire ST18 9TN",
+      "postcode": "ST18 9TN",
+      "ward": "",
+      "proposal": "Erection of 3 bed detached bungalow",
+      "category": "other_relevant",
+      "units": 3,
+      "estimatedGdv": 1110000,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "26/05/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://www12.staffordbc.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFNJ5WPSMEV00"
     }
   ]
 }

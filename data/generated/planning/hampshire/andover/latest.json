@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-16T03:07:46.776Z",
+  "updatedAt": "2026-08-23T03:34:01.284Z",
   "townSlug": "andover",
   "countySlug": "hampshire",
   "localAuthority": "Test Valley Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T03:07:46.774Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T03:34:01.283Z"
   },
   "summary": {
-    "total": 457,
+    "total": 455,
     "relevant": 8,
     "approved": 0,
     "pending": 8,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 108,
-    "totalUnits": 108,
+    "pendingUnits": 407,
+    "totalUnits": 407,
     "approvedGdv": 0,
-    "pendingGdv": 37800000,
-    "totalEstimatedGDV": 37800000,
+    "pendingGdv": 142450000,
+    "totalEstimatedGDV": 142450000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -141,6 +141,25 @@
       "sourceUrl": "https://view-applications.testvalley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TH35W5QCM0W00"
     },
     {
+      "reference": "26/01326/SCRS",
+      "address": "Land South Of Castle Lane North Baddesley Hampshire",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Screening Opinion under the Town and Country Planning (Environmental Impact Assessment) Regulations 2017 for erection of up to 300 dwellings, with care/employment, retail, SANG and associated access including new vehicular access on to Castle lane, parking, landscaping, open space and infrastructure works",
+      "category": "other_residential",
+      "units": 300,
+      "estimatedGdv": 105000000,
+      "status": "Decided",
+      "decision": "Decided",
+      "receivedDate": "19/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://view-applications.testvalley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGVKGPQC0PP00"
+    },
+    {
       "reference": "26/01245/OUTS",
       "address": "Land At Crawley Hill Crawley Hill West Wellow Hampshire",
       "postcode": "",
@@ -158,25 +177,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://view-applications.testvalley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGF1Q4QCLPW00"
-    },
-    {
-      "reference": "26/01080/VARN",
-      "address": "The Lake House Nuns Walk Longparish Andover Hampshire SP11 6QL",
-      "postcode": "SP11 6QL",
-      "ward": "",
-      "proposal": "Variation of condition 02 (approved plans) of 24/02978/FULLN (Demolition of 11 buildings and erection of 1 dwelling and garage with associated access, parking, and landscaping, and installation of package treatment plant) - internal layout alterations, revised fenestration, garage handed, rotated, and relocated, north elevation windows changed to doors, dining room sliding door arrangement revised to corner detail, west elevation - dining room sliding door arrangement revised to corner detail, window to en-suite added, south elevation - central recessed panel detail to annexe revised to include glazing with rooflights removed, east elevation - window removed",
-      "category": "other_residential",
-      "units": 1,
-      "estimatedGdv": 350000,
-      "status": "Decided",
-      "decision": "Decided",
-      "receivedDate": "20/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://view-applications.testvalley.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFCCFMQCL7L00"
     }
   ]
 }

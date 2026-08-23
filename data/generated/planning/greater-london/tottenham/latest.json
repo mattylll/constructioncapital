@@ -1,30 +1,49 @@
 {
-  "updatedAt": "2026-08-16T04:14:59.736Z",
+  "updatedAt": "2026-08-23T06:11:45.467Z",
   "townSlug": "tottenham",
   "countySlug": "greater-london",
   "localAuthority": "Haringey Council",
   "source": "arcus",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T04:14:59.735Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T06:11:45.467Z"
   },
   "summary": {
-    "total": 685,
+    "total": 693,
     "relevant": 6,
-    "approved": 1,
-    "pending": 4,
+    "approved": 2,
+    "pending": 3,
     "refused": 0,
-    "approvedUnits": 3,
-    "pendingUnits": 11,
+    "approvedUnits": 6,
+    "pendingUnits": 8,
     "totalUnits": 14,
-    "approvedGdv": 1342800,
-    "pendingGdv": 5026000,
+    "approvedGdv": 2685600,
+    "pendingGdv": 3683200,
     "totalEstimatedGDV": 6368800,
     "approvalRate": 100
   },
   "approvedApplications": [
+    {
+      "reference": "HGY/2026/1794",
+      "address": "196 Page Green Terrace Tottenham London N15 4NP",
+      "postcode": "N15 4NP",
+      "ward": "South Tottenham",
+      "proposal": "Variation of condition 2 (approved plans) of planning permission HGY/2025/0549 for Excavation of front and rear lightwells and installation of stairs in front garden to basement level, basement extension, single storey rear extension, first and second floor rear extension, installation of waste and bike storage in front garden, reconfiguration and enlargement of existing 3 flats.\r\nProposed amendment: To increase depth of single storey ground floor rear extension with a conservatory.",
+      "category": "other_residential",
+      "units": 3,
+      "estimatedGdv": 1342800,
+      "status": "Decision Made",
+      "decision": "Approve with Conditions",
+      "receivedDate": "24/06/2026",
+      "decisionDate": "21/08/2026",
+      "applicantName": "Mr Friedman",
+      "applicantCompany": "",
+      "agentName": "Mr Joel Stern",
+      "agentCompany": "",
+      "sourceUrl": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iP200000Hqz7FIAR?c__r=Arcus_BE_Public_Register"
+    },
     {
       "reference": "HGY/2026/1778",
       "address": "196 Page Green Terrace Tottenham London N15 4NP",
@@ -102,25 +121,6 @@
       "agentName": "Mr Gulraiz Ghafoor",
       "agentCompany": "",
       "sourceUrl": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iP200000Ho59BIAR?c__r=Arcus_BE_Public_Register"
-    },
-    {
-      "reference": "HGY/2026/1794",
-      "address": "196 Page Green Terrace Tottenham London N15 4NP",
-      "postcode": "N15 4NP",
-      "ward": "South Tottenham",
-      "proposal": "Variation of condition 2 (approved plans) of planning permission HGY/2025/0549 for Excavation of front and rear lightwells and installation of stairs in front garden to basement level, basement extension, single storey rear extension, first and second floor rear extension, installation of waste and bike storage in front garden, reconfiguration and enlargement of existing 3 flats.\r\nProposed amendment: To increase depth of single storey ground floor rear extension with a conservatory.",
-      "category": "other_residential",
-      "units": 3,
-      "estimatedGdv": 1342800,
-      "status": "Under Consultation",
-      "decision": "",
-      "receivedDate": "24/06/2026",
-      "decisionDate": "",
-      "applicantName": "Mr Friedman",
-      "applicantCompany": "",
-      "agentName": "Mr Joel Stern",
-      "agentCompany": "",
-      "sourceUrl": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iP200000Hqz7FIAR?c__r=Arcus_BE_Public_Register"
     }
   ]
 }

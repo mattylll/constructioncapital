@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-16T01:54:40.166Z",
+  "updatedAt": "2026-08-23T01:50:00.753Z",
   "townSlug": "worthing",
   "countySlug": "sussex",
   "localAuthority": "Adur & Worthing Councils",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T01:54:40.166Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T01:50:00.753Z"
   },
   "summary": {
-    "total": 284,
-    "relevant": 3,
+    "total": 279,
+    "relevant": 1,
     "approved": 0,
-    "pending": 3,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 401,
-    "totalUnits": 401,
+    "pendingUnits": 278,
+    "totalUnits": 278,
     "approvedGdv": 0,
-    "pendingGdv": 134335000,
-    "totalEstimatedGDV": 134335000,
+    "pendingGdv": 93130000,
+    "totalEstimatedGDV": 93130000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -44,44 +44,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.adur-worthing.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TI8YLYCBG5100"
-    },
-    {
-      "reference": "AWDM/0628/26",
-      "address": "Land Between Sword Street And Martlets Way Worthing West Sussex",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Full planning application for a mixed-use development comprising 123 dwellings and commercial floorspace together with associated parking, landscaping, open space and drainage [Land at Durrington Gasworks]",
-      "category": "other_residential",
-      "units": 123,
-      "estimatedGdv": 41205000,
-      "status": "Registered",
-      "decision": "Registered",
-      "receivedDate": "21/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.adur-worthing.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFD98NCBN4V00"
-    },
-    {
-      "reference": "AWDM/0614/26",
-      "address": "Land East Of Shadwells Road At Mash Barn Estate Mash Barn Lane Lancing West Sussex",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Application to Vary Condition 1 (Approved Plans) of previously approved AWDM/0021/22. Amendment: 1. Removal of small single-storey rear extension on 7 housetypes; 2. Internal reconfiguration of Block B; 3. Provision of additional vehicular parking to serve the community use.",
-      "category": "other_residential",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Registered",
-      "decision": "Registered",
-      "receivedDate": "19/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.adur-worthing.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TF9WZJCBN3M00"
     }
   ]
 }

@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-16T04:11:03.680Z",
+  "updatedAt": "2026-08-23T06:07:45.701Z",
   "townSlug": "wokingham",
   "countySlug": "berkshire",
   "localAuthority": "Wokingham Borough Council",
   "source": "fastweb",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T04:11:03.678Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T06:07:45.699Z"
   },
   "summary": {
-    "total": 544,
+    "total": 549,
     "relevant": 4,
     "approved": 2,
     "pending": 2,
     "refused": 0,
     "approvedUnits": 202,
-    "pendingUnits": 141,
-    "totalUnits": 343,
+    "pendingUnits": 2,
+    "totalUnits": 204,
     "approvedGdv": 94940000,
-    "pendingGdv": 66270000,
-    "totalEstimatedGDV": 161210000,
+    "pendingGdv": 940000,
+    "totalEstimatedGDV": 95880000,
     "approvalRate": 100
   },
   "approvedApplications": [
@@ -66,6 +66,25 @@
   ],
   "pendingApplications": [
     {
+      "reference": "261883",
+      "address": "Goodrest House, Crosfields School Shinfield Road Shinfield Wokingham RG2 9BL",
+      "postcode": "RG2 9BL",
+      "ward": "",
+      "proposal": "Full application for change of use from C3 Dwelling house to F1(a) Education, demolition of existing single storey utility room and garage, construction of a single storey side extension and internal alterations.",
+      "category": "other_residential",
+      "units": 1,
+      "estimatedGdv": 470000,
+      "status": "Registered",
+      "decision": "",
+      "receivedDate": "10/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.wokingham.gov.uk/FastWebPL/detail.asp?AltRef=261883"
+    },
+    {
       "reference": "261625",
       "address": "41 Harcourt Drive Earley Wokingham RG6 5TL",
       "postcode": "RG6 5TL",
@@ -83,25 +102,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.wokingham.gov.uk/FastWebPL/detail.asp?AltRef=261625"
-    },
-    {
-      "reference": "261209",
-      "address": "Hogwood Farm Sheerlands Road Arborfield Wokingham RG40 4QY",
-      "postcode": "RG40 4QY",
-      "ward": "",
-      "proposal": "Application for submission of details to comply with Conditions 3 (Materials), 8 (Electric Vehicle Charging) and 9 (Water Butts and Composting) of planning permission 251263 dated 28 April 2026 for the application for approval of Reserved Matters pursuant to Outline Planning Consent O/2014/2179 (as varied by 181194 dated 14 November 2018) comprising details of 140 dwellings within Parcel P6 together with associated internal access roads, parking, landscaping, footpaths and sustainable urban drainage systems (SuDS) at Parcel P6, Finchwood Park, Sheerlands Road, Finchampstead, Wokingham, RG40 4QY.",
-      "category": "other_residential",
-      "units": 140,
-      "estimatedGdv": 65800000,
-      "status": "Registered",
-      "decision": "",
-      "receivedDate": "18/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.wokingham.gov.uk/FastWebPL/detail.asp?AltRef=261209"
     }
   ]
 }

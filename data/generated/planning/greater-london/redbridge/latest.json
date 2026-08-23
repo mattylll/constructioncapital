@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-16T04:11:15.451Z",
+  "updatedAt": "2026-08-23T06:07:51.909Z",
   "townSlug": "redbridge",
   "countySlug": "greater-london",
   "localAuthority": "London Borough of Redbridge",
   "source": "agile",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T04:11:15.451Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T06:07:51.906Z"
   },
   "summary": {
-    "total": 7,
-    "relevant": 2,
+    "total": 8,
+    "relevant": 3,
     "approved": 0,
-    "pending": 2,
+    "pending": 3,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
@@ -26,6 +26,25 @@
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "2175/26",
+      "address": "49, High Street, Ilford, IG6 2AD",
+      "postcode": "IG6 2AD",
+      "ward": "Fullwell",
+      "proposal": "Installation of 10 condenser units to the rear / side elevation. (Summary).",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Under assessment",
+      "decision": "",
+      "receivedDate": "18/08/2026",
+      "decisionDate": "",
+      "applicantName": "Specsavers Optical Stores",
+      "applicantCompany": "",
+      "agentName": "Fisch Design",
+      "agentCompany": "",
+      "sourceUrl": ""
+    },
     {
       "reference": "2019/26",
       "address": "51, High Street, Ilford, IG6 2AD",

@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-16T04:11:14.520Z",
+  "updatedAt": "2026-08-23T06:07:51.072Z",
   "townSlug": "slough",
   "countySlug": "berkshire",
   "localAuthority": "Slough Borough Council",
   "source": "agile",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T04:11:14.519Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T06:07:51.071Z"
   },
   "summary": {
     "total": 13,
-    "relevant": 2,
+    "relevant": 1,
     "approved": 1,
-    "pending": 1,
+    "pending": 0,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 1,
-    "totalUnits": 1,
+    "pendingUnits": 0,
+    "totalUnits": 0,
     "approvedGdv": 0,
-    "pendingGdv": 390000,
-    "totalEstimatedGDV": 390000,
+    "pendingGdv": 0,
+    "totalEstimatedGDV": 0,
     "approvalRate": 100
   },
   "approvedApplications": [
@@ -45,25 +45,5 @@
       "sourceUrl": ""
     }
   ],
-  "pendingApplications": [
-    {
-      "reference": "P/03007/004",
-      "address": "143, High Street, Langley, Slough, SL3 8LP",
-      "postcode": "SL3 8LP",
-      "ward": "Langley Foxborough",
-      "proposal": "Planning application for the proposed change of use from residential dwelling (U",
-      "category": "change_of_use",
-      "units": 1,
-      "estimatedGdv": 390000,
-      "status": "",
-      "decision": "",
-      "receivedDate": "19/05/2026",
-      "decisionDate": "",
-      "applicantName": "Restorative Homes Ltd",
-      "applicantCompany": "Restorative Homes Ltd",
-      "agentName": "Haus Planners",
-      "agentCompany": "",
-      "sourceUrl": ""
-    }
-  ]
+  "pendingApplications": []
 }

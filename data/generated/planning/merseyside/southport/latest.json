@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-16T02:30:36.383Z",
+  "updatedAt": "2026-08-23T02:52:45.174Z",
   "townSlug": "southport",
   "countySlug": "merseyside",
   "localAuthority": "Sefton Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T02:30:36.382Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T02:52:45.174Z"
   },
   "summary": {
-    "total": 354,
-    "relevant": 3,
+    "total": 349,
+    "relevant": 2,
     "approved": 0,
-    "pending": 3,
+    "pending": 2,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 39,
-    "totalUnits": 39,
+    "pendingUnits": 30,
+    "totalUnits": 30,
     "approvedGdv": 0,
-    "pendingGdv": 7633500,
-    "totalEstimatedGDV": 7633500,
+    "pendingGdv": 6450000,
+    "totalEstimatedGDV": 6450000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -63,25 +63,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.sefton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGDMQZNWK5300"
-    },
-    {
-      "reference": "DC/2026/00877",
-      "address": "19 Oxford Road Birkdale PR8 2JR",
-      "postcode": "PR8 2JR",
-      "ward": "",
-      "proposal": "Non-material amendment to planning permission DC/2022/00861 approved on 05/06/2023 to amend the description of development to ''Erection of a 3 storey block of 9 apartments including lower ground floor accommodation, a detached dwellinghouse with associated assess, parking and landscaping following demolition of the existing dwellinghouse\" and to amend external elevations",
-      "category": "other_residential",
-      "units": 9,
-      "estimatedGdv": 1183500,
-      "status": "",
-      "decision": "",
-      "receivedDate": "18/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.sefton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFE0NYNW08800"
     }
   ]
 }

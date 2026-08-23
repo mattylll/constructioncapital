@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-16T01:53:57.647Z",
+  "updatedAt": "2026-08-23T01:49:25.859Z",
   "townSlug": "stevenage",
   "countySlug": "hertfordshire",
   "localAuthority": "Stevenage Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T01:53:57.646Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T01:49:25.859Z"
   },
   "summary": {
-    "total": 110,
-    "relevant": 1,
+    "total": 111,
+    "relevant": 2,
     "approved": 0,
-    "pending": 1,
+    "pending": 2,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 9,
-    "totalUnits": 9,
+    "pendingUnits": 11,
+    "totalUnits": 11,
     "approvedGdv": 0,
-    "pendingGdv": 3114000,
-    "totalEstimatedGDV": 3114000,
+    "pendingGdv": 3806000,
+    "totalEstimatedGDV": 3806000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -44,6 +44,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.stevenage.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THFUNCPH0C600"
+    },
+    {
+      "reference": "26/00605/FP",
+      "address": "Stevenage Leisure Park, Unit 1A Kings Way Stevenage Herts SG1 2UA",
+      "postcode": "SG1 2UA",
+      "ward": "",
+      "proposal": "Sub division of Unit R1 into 2 Units including new entrance and new side delivery window",
+      "category": "other_residential",
+      "units": 2,
+      "estimatedGdv": 692000,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.stevenage.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJWJGTPHFX500"
     }
   ]
 }

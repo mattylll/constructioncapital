@@ -1,31 +1,50 @@
 {
-  "updatedAt": "2026-08-16T03:21:28.040Z",
+  "updatedAt": "2026-08-23T04:04:09.802Z",
   "townSlug": "weston-super-mare",
   "countySlug": "somerset",
   "localAuthority": "North Somerset Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T03:21:28.039Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T04:04:09.802Z"
   },
   "summary": {
-    "total": 513,
+    "total": 485,
     "relevant": 4,
     "approved": 0,
     "pending": 4,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 235,
-    "totalUnits": 235,
+    "pendingUnits": 323,
+    "totalUnits": 323,
     "approvedGdv": 0,
-    "pendingGdv": 72850000,
-    "totalEstimatedGDV": 72850000,
+    "pendingGdv": 100130000,
+    "totalEstimatedGDV": 100130000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/P/1660/NMA",
+      "address": "Land At Farleigh Fields And 54 And 56 Farleigh Road Backwell",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Non-Material amendment to application 23/P/2508/RM (Reserved matters application for matters of access (internal only), appearance, landscaping, layout and scale for the erection of 90no. dwellings, including provision of an additional 6no. self build plots which will be subject to separate reserved matters application(s) pursuant to Outline permission 21/P/1766/OUT (Outline planning application for demolition of 54 and 56 Farleigh Road; residential development of up to 125 dwellings (Class C3); strategic landscaping and earthworks, surface water drainage and all other ancillary infrastructure and enabling works with means of site access (excluding internal roads) from the new junction off Farleigh Road for approval; all other matters (internal access, layout, appearance, scale and landscaping) reserved for subsequent approval.)) to allow for the addition of parking bays to the site entrance.",
+      "category": "other_residential",
+      "units": 125,
+      "estimatedGdv": 38750000,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "12/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.n-somerset.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJNF1ALPFT000"
+    },
     {
       "reference": "26/P/1490/SCON",
       "address": "Land Adjacent To Elsbert Drive Bristol BS13 8AL",
@@ -82,25 +101,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.n-somerset.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFNH34LPKO300"
-    },
-    {
-      "reference": "26/P/1069/OUT",
-      "address": "Brookside Greenhill Road Sandford Winscombe BS25 5PF",
-      "postcode": "BS25 5PF",
-      "ward": "",
-      "proposal": "Outline planning application with all matters reserved except for access, for the erection of up to 37 dwellings, including affordable housing, with demolition of existing buildings, together with associated infrastructure, landscaping, drainage and open space",
-      "category": "other_residential",
-      "units": 37,
-      "estimatedGdv": 11470000,
-      "status": "Registered",
-      "decision": "Registered",
-      "receivedDate": "20/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.n-somerset.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFC7T8LPKGD00"
     }
   ]
 }

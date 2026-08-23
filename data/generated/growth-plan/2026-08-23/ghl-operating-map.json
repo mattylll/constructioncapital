@@ -1,0 +1,98 @@
+{
+  "leadRouting": [
+    {
+      "leadKind": "borrower",
+      "sourceExamples": "Deal Room, calculators, commercial service pages",
+      "ghlPipelineEnv": "GHL_PIPELINE_ID",
+      "ghlStageEnv": "GHL_BORROWER_STAGE_ID or GHL_ENQUIRY_STAGE_ID",
+      "requiredTags": "Construction Capital; CC Type: borrower; CC Source: seo/direct/paid; CC Stage: new",
+      "firstTask": "Call within 15 minutes during business hours",
+      "owner": "Founder / originator",
+      "sla": "15-minute call; lender route within 24 hours when core docs exist"
+    },
+    {
+      "leadKind": "introducer",
+      "sourceExamples": "/introducers, partner referrals, professional adviser outreach",
+      "ghlPipelineEnv": "GHL_INTRODUCER_PIPELINE_ID or GHL_PIPELINE_ID",
+      "ghlStageEnv": "GHL_INTRODUCER_STAGE_ID or GHL_ENQUIRY_STAGE_ID",
+      "requiredTags": "Construction Capital; CC Type: introducer; Introducer Programme; CC Source: referral_partner",
+      "firstTask": "Book partner call and record adviser type",
+      "owner": "Founder",
+      "sla": "Same-day reply; partner call within 3 business days"
+    },
+    {
+      "leadKind": "planning_outreach",
+      "sourceExamples": "Instantly positive replies, approved planning application outreach",
+      "ghlPipelineEnv": "GHL_PIPELINE_ID",
+      "ghlStageEnv": "GHL_PLANNING_OUTREACH_STAGE_ID or GHL_ENQUIRY_STAGE_ID",
+      "requiredTags": "Construction Capital; CC Type: planning_outreach; Planning Trigger; CC Source: planning_outreach",
+      "firstTask": "Confirm applicant/developer, site status and funding need",
+      "owner": "Outreach manager / founder",
+      "sla": "Same-day reply and call attempt"
+    },
+    {
+      "leadKind": "content_lead",
+      "sourceExamples": "SEO pages, guides, market reports, Remotion/video CTAs",
+      "ghlPipelineEnv": "GHL_PIPELINE_ID",
+      "ghlStageEnv": "GHL_CONTENT_LEAD_STAGE_ID or GHL_ENQUIRY_STAGE_ID",
+      "requiredTags": "Construction Capital; CC Type: content_lead; CC Source: seo/youtube/linkedin",
+      "firstTask": "Qualify borrower, facility size and project timing",
+      "owner": "Founder / originator",
+      "sla": "15-minute call during business hours if qualified"
+    },
+    {
+      "leadKind": "quick_enquiry",
+      "sourceExamples": "Contact page and general enquiry forms",
+      "ghlPipelineEnv": "GHL_PIPELINE_ID",
+      "ghlStageEnv": "GHL_QUICK_ENQUIRY_STAGE_ID or GHL_ENQUIRY_STAGE_ID",
+      "requiredTags": "Construction Capital; CC Type: quick_enquiry; CC Source: direct",
+      "firstTask": "Triage into borrower, introducer, lender or non-fit",
+      "owner": "Founder / admin",
+      "sla": "Same-day triage"
+    }
+  ],
+  "automations": [
+    {
+      "trigger": "Tag added: CC Type: introducer",
+      "action": "Create task: Book introducer call",
+      "due": "1 business day",
+      "owner": "Founder"
+    },
+    {
+      "trigger": "Tag added: CC Type: borrower",
+      "action": "Create task: Call new qualified lead",
+      "due": "15 minutes during business hours",
+      "owner": "Founder / originator"
+    },
+    {
+      "trigger": "Tag added: Planning Trigger",
+      "action": "Create task: Review planning article and call/email applicant",
+      "due": "Same business day",
+      "owner": "Outreach manager"
+    },
+    {
+      "trigger": "Opportunity stage unchanged for 7 days before mandated",
+      "action": "Create stuck-deal review task",
+      "due": "Next Monday revenue meeting",
+      "owner": "Founder"
+    },
+    {
+      "trigger": "Introducer has no referral in 30 days",
+      "action": "Send market briefing and ask for one live case",
+      "due": "Next weekly partner nurture cycle",
+      "owner": "Outreach manager"
+    }
+  ],
+  "requiredCustomFieldNotes": [
+    {
+      "field": "contact.project_description",
+      "use": "Single rich text summary containing loan amount, expected fee, probability, source, planning reference, article URL and product stack.",
+      "status": "Already populated by website/API integration."
+    },
+    {
+      "field": "Opportunity monetary value",
+      "use": "Facility size for borrower/deal leads; 0 for pure introducer enquiries unless a referred deal is attached.",
+      "status": "Already populated by website/API integration."
+    }
+  ]
+}

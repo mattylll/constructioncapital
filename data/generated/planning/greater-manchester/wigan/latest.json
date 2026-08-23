@@ -1,50 +1,31 @@
 {
-  "updatedAt": "2026-08-16T02:02:15.821Z",
+  "updatedAt": "2026-08-23T02:29:58.882Z",
   "townSlug": "wigan",
   "countySlug": "greater-manchester",
   "localAuthority": "Wigan Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T02:02:15.821Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T02:29:58.881Z"
   },
   "summary": {
     "total": 293,
-    "relevant": 17,
+    "relevant": 16,
     "approved": 0,
-    "pending": 17,
+    "pending": 16,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 530,
-    "totalUnits": 530,
+    "pendingUnits": 525,
+    "totalUnits": 525,
     "approvedGdv": 0,
-    "pendingGdv": 94910000,
-    "totalEstimatedGDV": 94910000,
+    "pendingGdv": 94010000,
+    "totalEstimatedGDV": 94010000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
-    {
-      "reference": "A/26/100959/PIP",
-      "address": "Land South Of Higher Lane Aspull",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Permission in principle for erection of up to 5 dwellings",
-      "category": "new_build",
-      "units": 5,
-      "estimatedGdv": 900000,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFFSGERR0DH00"
-    },
     {
       "reference": "A/26/101141/RMMAJ",
       "address": "Land North Of Mosley Common North Of The Guided Busway Tyldesley",
@@ -274,6 +255,25 @@
       "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TG002FRR0DF00"
     },
     {
+      "reference": "A/26/101308/VAR",
+      "address": "79 Woodland Avenue Hindley Green Wigan WN2 4PP",
+      "postcode": "WN2 4PP",
+      "ward": "",
+      "proposal": "To vary condition 2 (approved plans) of planning permission A/24/97523/HH to allow revised drawings showing a 1 metre extension to the approved detached garage and an enlarged rear dormer landing window. All other aspects of the development remain as previously approved",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIXIDQRRJQG00"
+    },
+    {
       "reference": "A/26/101307/VAR",
       "address": "Pizza Hut 791 Ormskirk Road Wigan WN5 8HE",
       "postcode": "WN5 8HE",
@@ -329,25 +329,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TI48QSRR08S00"
-    },
-    {
-      "reference": "A/26/101356/PDE",
-      "address": "26 Dandelion Green Worsley Manchester M28 1PT",
-      "postcode": "M28 1PT",
-      "ward": "",
-      "proposal": "Single storey rear extension with a projection of 5.8m, height to the top of flat roof 2.8m following demolition of existing rear extension",
-      "category": "prior_approval",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.wigan.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJJVMJRR0DF00"
     }
   ]
 }

@@ -1,50 +1,31 @@
 {
-  "updatedAt": "2026-08-16T01:39:25.335Z",
+  "updatedAt": "2026-08-23T01:37:27.054Z",
   "townSlug": "camberley",
   "countySlug": "surrey",
   "localAuthority": "Surrey Heath Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T01:39:25.335Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T01:37:27.053Z"
   },
   "summary": {
-    "total": 332,
+    "total": 335,
     "relevant": 8,
     "approved": 0,
     "pending": 8,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 82,
-    "totalUnits": 82,
+    "pendingUnits": 118,
+    "totalUnits": 118,
     "approvedGdv": 0,
-    "pendingGdv": 38950000,
-    "totalEstimatedGDV": 38950000,
+    "pendingGdv": 47050000,
+    "totalEstimatedGDV": 47050000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
-    {
-      "reference": "26/0452/MPO",
-      "address": "Princess Royal Barracks Brunswick Road Deepcut Camberley Surrey",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Application to update the Cycle Network Strategy pursuant to Schedule 7 Part 1 of the section 106 legal agreement dated 17 April 2014 as amended in relation to planning permission 12/0546 as amended by 18/0619 dated 19 July 2019 and 18/1002 dated 14 November 2019)",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.surreyheath.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFG8TVPR01W00"
-    },
     {
       "reference": "26/0543/DTC",
       "address": "Tickners 74 Chertsey Road Chobham Woking Surrey GU24 8PJ",
@@ -177,6 +158,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.surreyheath.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TI9Z1VPRG0600"
+    },
+    {
+      "reference": "26/0749/DTC",
+      "address": "St James House Knoll Road Camberley Surrey GU15 3XW",
+      "postcode": "GU15 3XW",
+      "ward": "",
+      "proposal": "Submission of details to comply with condition 3 (Noise Assessment) attached to planning permission 25/1132/E2R for the Prior Approval Under Schedule 2, Part 3 Class MA of the General Permitted Development Order 2015 (as amended) for the change of use from offices (Class B1) to residential (Class C2) to provide 36 flats.",
+      "category": "other_residential",
+      "units": 36,
+      "estimatedGdv": 8100000,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://publicaccess.surreyheath.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJX4N6PRGK700"
     }
   ]
 }

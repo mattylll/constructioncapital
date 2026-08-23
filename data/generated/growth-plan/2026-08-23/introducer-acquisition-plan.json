@@ -1,0 +1,252 @@
+{
+  "targetActivePartners": 20,
+  "targetMonthlyReferredPipeline": 50000000,
+  "requiredOperatingCadence": {
+    "weeklyNewProspectsAdded": 50,
+    "weeklyFirstTouches": 50,
+    "weeklyFollowUps": 100,
+    "weeklyPartnerCalls": 8,
+    "weeklyPartnerNurtureTouches": 20
+  },
+  "stageDefinitions": [
+    {
+      "id": "target",
+      "label": "Target identified",
+      "conversionToActive": 0.1
+    },
+    {
+      "id": "contacted",
+      "label": "Contacted",
+      "conversionToActive": 0.12
+    },
+    {
+      "id": "replied",
+      "label": "Replied",
+      "conversionToActive": 0.25
+    },
+    {
+      "id": "call_booked",
+      "label": "Call booked",
+      "conversionToActive": 0.4
+    },
+    {
+      "id": "partner_agreed",
+      "label": "Partner terms agreed",
+      "conversionToActive": 0.65
+    },
+    {
+      "id": "first_referral",
+      "label": "First referral received",
+      "conversionToActive": 0.8
+    },
+    {
+      "id": "active",
+      "label": "Active referral partner",
+      "conversionToActive": 1
+    }
+  ],
+  "stagePlan": [
+    {
+      "month": 1,
+      "targetsIdentified": 200,
+      "contacted": 100,
+      "replies": 20,
+      "callsBooked": 12,
+      "partnerTermsAgreed": 6,
+      "firstReferrals": 2,
+      "activePartners": 2
+    },
+    {
+      "month": 2,
+      "targetsIdentified": 275,
+      "contacted": 200,
+      "replies": 45,
+      "callsBooked": 28,
+      "partnerTermsAgreed": 14,
+      "firstReferrals": 8,
+      "activePartners": 8
+    },
+    {
+      "month": 3,
+      "targetsIdentified": 350,
+      "contacted": 300,
+      "replies": 75,
+      "callsBooked": 45,
+      "partnerTermsAgreed": 24,
+      "firstReferrals": 14,
+      "activePartners": 14
+    },
+    {
+      "month": 4,
+      "targetsIdentified": 425,
+      "contacted": 400,
+      "replies": 110,
+      "callsBooked": 65,
+      "partnerTermsAgreed": 35,
+      "firstReferrals": 22,
+      "activePartners": 20
+    }
+  ],
+  "activePartnerSlots": [
+    {
+      "category": "Planning consultants",
+      "activeSlot": "Planning consultants 1",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Planning consultants",
+      "activeSlot": "Planning consultants 2",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Planning consultants",
+      "activeSlot": "Planning consultants 3",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Planning consultants",
+      "activeSlot": "Planning consultants 4",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Planning consultants",
+      "activeSlot": "Planning consultants 5",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Architects",
+      "activeSlot": "Architects 1",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Architects",
+      "activeSlot": "Architects 2",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Architects",
+      "activeSlot": "Architects 3",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Architects",
+      "activeSlot": "Architects 4",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Solicitors",
+      "activeSlot": "Solicitors 1",
+      "monthlyPipelineTarget": 2666667,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Solicitors",
+      "activeSlot": "Solicitors 2",
+      "monthlyPipelineTarget": 2666667,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Solicitors",
+      "activeSlot": "Solicitors 3",
+      "monthlyPipelineTarget": 2666667,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Accountants",
+      "activeSlot": "Accountants 1",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Accountants",
+      "activeSlot": "Accountants 2",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "QS and project monitors",
+      "activeSlot": "QS and project monitors 1",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "QS and project monitors",
+      "activeSlot": "QS and project monitors 2",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Specialist finance brokers",
+      "activeSlot": "Specialist finance brokers 1",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Specialist finance brokers",
+      "activeSlot": "Specialist finance brokers 2",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Valuers",
+      "activeSlot": "Valuers 1",
+      "monthlyPipelineTarget": 2500000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    },
+    {
+      "category": "Land agents and development-site agents",
+      "activeSlot": "Land agents and development-site agents 1",
+      "monthlyPipelineTarget": 2000000,
+      "minimumActivityRule": "Active only when they have sent at least one qualified opportunity in the last 60 days or two in the last quarter.",
+      "partnerOffer": "24-hour funding view, white-labelled client review, clear referral fee, co-branded funding article where relevant.",
+      "nextAction": "Identify named principal, connect on LinkedIn, email introducer proposition, follow with phone call."
+    }
+  ]
+}

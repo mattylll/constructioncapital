@@ -1,31 +1,50 @@
 {
-  "updatedAt": "2026-08-16T01:56:58.596Z",
+  "updatedAt": "2026-08-23T01:52:33.431Z",
   "townSlug": "haywards-heath",
   "countySlug": "sussex",
   "localAuthority": "Mid Sussex District Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T01:56:58.595Z"
+    "from": "2026-05-23",
+    "to": "2026-08-23",
+    "retrievedAt": "2026-08-23T01:52:33.431Z"
   },
   "summary": {
-    "total": 483,
-    "relevant": 2,
+    "total": 482,
+    "relevant": 3,
     "approved": 0,
     "pending": 2,
-    "refused": 0,
+    "refused": 1,
     "approvedUnits": 0,
-    "pendingUnits": 90,
-    "totalUnits": 90,
+    "pendingUnits": 285,
+    "totalUnits": 285,
     "approvedGdv": 0,
-    "pendingGdv": 39150000,
-    "totalEstimatedGDV": 39150000,
+    "pendingGdv": 123975000,
+    "totalEstimatedGDV": 123975000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "DM/26/1961",
+      "address": "Land At Foxhole Farm Foxhole Lane Bolney West Sussex",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Approval of reserved matters (appearance landscaping layout and scale) following outline approval of DM/25/1129 for the erection of 198 dwellings (including 60 affordable) with associated landscaping, community orchard, public open space and infrastructure.",
+      "category": "other_residential",
+      "units": 198,
+      "estimatedGdv": 86130000,
+      "status": "Pending Consideration",
+      "decision": "Pending Consideration",
+      "receivedDate": "07/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://pa.midsussex.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJEA12KT04L00"
+    },
     {
       "reference": "DM/26/1771",
       "address": "Land Off Scamps Hill Scaynes Hill Road Lindfield West Sussex",
@@ -44,25 +63,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.midsussex.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIGZC1KT04L00"
-    },
-    {
-      "reference": "DM/26/1678",
-      "address": "Land At And To Rear Of 3 Heathview Cottages Copthorne Common Copthorne Crawley West Sussex RH10 3LF",
-      "postcode": "RH10 3LF",
-      "ward": "",
-      "proposal": "Residential development of minimum 3 dwellings and maximum 5 dwellings",
-      "category": "other_residential",
-      "units": 3,
-      "estimatedGdv": 1305000,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "09/07/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.midsussex.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THWWJ1KT04L00"
     }
   ]
 }
