@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-23T01:51:31.142Z",
+  "updatedAt": "2026-08-30T06:49:18.638Z",
   "townSlug": "hertford",
   "countySlug": "hertfordshire",
   "localAuthority": "East Hertfordshire District Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-23",
-    "to": "2026-08-23",
-    "retrievedAt": "2026-08-23T01:51:31.142Z"
+    "from": "2026-05-30",
+    "to": "2026-08-30",
+    "retrievedAt": "2026-08-30T06:49:18.638Z"
   },
   "summary": {
-    "total": 413,
-    "relevant": 3,
+    "total": 427,
+    "relevant": 2,
     "approved": 0,
-    "pending": 3,
+    "pending": 2,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 435,
-    "totalUnits": 435,
+    "pendingUnits": 233,
+    "totalUnits": 233,
     "approvedGdv": 0,
-    "pendingGdv": 195750000,
-    "totalEstimatedGDV": 195750000,
+    "pendingGdv": 104850000,
+    "totalEstimatedGDV": 104850000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -63,25 +63,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.eastherts.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TG477SGLL5500"
-    },
-    {
-      "reference": "3/26/0754/VAR",
-      "address": "Parcel D-G Phase 2 Stortford Fields Hadham Road Bishops Stortford Hertfordshire",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Variation of condition 1 (approved plans) attached to pp 3/25/0485/REM (reserved matters application relating to the Layout, Scale, Appearance and Landscaping for approval of 202 dwellings with associated infrastructure within parcels D, E, F and G - in relation to a variation of outline planning permission 3/22/0214/VAR (Originally 3/13/0804/OP) and to discharge conditions 5 (Eastern neighbourhood further details), 19 (hard and soft landscape proposals) and 31 (reduction in energy use) attached to 3/22/0214/VAR) to allow for the substitution of approved drawings comprising amendments to the site layout, boundary treatments, materials, refuse and cycle strategies, affordable housing tenure plan, end window arrangements, garden and managed areas, porch styles, street scenes, footpath link sections, off-site sections and associated house type drawings",
-      "category": "other_residential",
-      "units": 202,
-      "estimatedGdv": 90900000,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "27/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.eastherts.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFP032GLL0A00"
     }
   ]
 }

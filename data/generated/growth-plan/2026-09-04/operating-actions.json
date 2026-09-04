@@ -1,0 +1,142 @@
+[
+  {
+    "priority": "P0",
+    "workstream": "Revenue control",
+    "cadence": "Daily",
+    "owner": "Founder",
+    "action": "Review every live deal with no next action due today or overdue.",
+    "output": "Updated stage, probability, expected fee, close month and next action.",
+    "acceptanceCriteria": "100% of live opportunities have owner, stage, probability, close month and next action date.",
+    "metric": "Live weighted facility value and expected 1% fee."
+  },
+  {
+    "priority": "P0",
+    "workstream": "Sales response",
+    "cadence": "Daily",
+    "owner": "Founder / originator",
+    "action": "Call every new qualified lead during business hours within 15 minutes.",
+    "output": "Call logged, qualification noted, core document request sent if viable.",
+    "acceptanceCriteria": "No qualified lead waits longer than 15 minutes during business hours.",
+    "metric": "Speed to lead; qualified-to-docs-requested conversion."
+  },
+  {
+    "priority": "P0",
+    "workstream": "Introducers",
+    "cadence": "Weekly",
+    "owner": "Founder",
+    "action": "Add 50 named introducer prospects and send 50 first-touch partner emails.",
+    "output": "Named prospects with company, role, email/LinkedIn, category and first-touch date.",
+    "acceptanceCriteria": "50 first touches, 100 follow-ups, 8 calls booked and 2 partner-agreed outcomes per week.",
+    "metric": "Active introducers; referred facility pipeline per month."
+  },
+  {
+    "priority": "P0",
+    "workstream": "Introducers",
+    "cadence": "Weekly",
+    "owner": "Founder",
+    "action": "Run eight introducer calls focused on planning consultants, architects and solicitors.",
+    "output": "Partner fit scored, referral fee terms discussed, next referral ask agreed.",
+    "acceptanceCriteria": "At least two firms move to partner_agreed or first_referral stage each week.",
+    "metric": "Calls booked to partner-agreed conversion."
+  },
+  {
+    "priority": "P1",
+    "workstream": "Introducer nurture",
+    "cadence": "Weekly",
+    "owner": "Outreach manager",
+    "action": "Send a practical market briefing to all active and warm introducers.",
+    "output": "One forwardable email with rate note, lender appetite and recent planning/site insight.",
+    "acceptanceCriteria": "Briefing sent weekly; replies and referral prompts logged against each partner.",
+    "metric": "Partner replies and repeat referrals."
+  },
+  {
+    "priority": "P0",
+    "workstream": "Planning outreach",
+    "cadence": "Weekly",
+    "owner": "Data/content operator",
+    "action": "Run planning scrape, QA approvals, generate site articles and export outreach records.",
+    "output": "Approved-site records with article URL, applicant/company, agent and funding estimate.",
+    "acceptanceCriteria": "False positives below 10%; all viable records have source URL, article URL and contact path.",
+    "metric": "Planning prospects, conversations and new facility pipeline."
+  },
+  {
+    "priority": "P1",
+    "workstream": "Planning outreach",
+    "cadence": "Weekly",
+    "owner": "Outreach manager",
+    "action": "Send email plus letter to every planning prospect above threshold.",
+    "output": "Outreach logged with article link, sold-price evidence and 70% LTGDV estimate.",
+    "acceptanceCriteria": "100+ planning-triggered prospects per month and 30 direct conversations.",
+    "metric": "Planning prospect to conversation conversion."
+  },
+  {
+    "priority": "P1",
+    "workstream": "SEO content",
+    "cadence": "Weekly",
+    "owner": "Content operator",
+    "action": "Brief or publish 10 P1 commercial pages from content-sprint.csv.",
+    "output": "Page with CTA, examples, terms, lender objections, checklist and internal links.",
+    "acceptanceCriteria": "No page ships without direct finance CTA and CRM source tracking.",
+    "metric": "Published P1 pages; assisted leads; ranking movement."
+  },
+  {
+    "priority": "P1",
+    "workstream": "Link building",
+    "cadence": "Weekly",
+    "owner": "Outreach manager",
+    "action": "Work 25 P1 link prospects from link-sprint.csv.",
+    "output": "Prospect classified, first email sent, two follow-ups scheduled, status logged.",
+    "acceptanceCriteria": "Junk directories and scraped profiles excluded; 20 quality links/month target maintained.",
+    "metric": "Quality links acquired; editorial links; partner links."
+  },
+  {
+    "priority": "P1",
+    "workstream": "Video",
+    "cadence": "Weekly",
+    "owner": "Content/video operator",
+    "action": "Produce 15-20 Remotion videos from remotion-video-calendar.csv.",
+    "output": "9:16, 1:1 and 16:9 variants with captions, one CTA and matching page/link.",
+    "acceptanceCriteria": "Every planning article above threshold gets a short video; every video points to one CTA.",
+    "metric": "Videos published; views; clicks to deal-room/introducers."
+  },
+  {
+    "priority": "P1",
+    "workstream": "Partner assets",
+    "cadence": "Fortnightly",
+    "owner": "Founder / content operator",
+    "action": "Create one co-branded or white-label funding note for a warm introducer.",
+    "output": "PDF/article/email asset they can forward to developer clients.",
+    "acceptanceCriteria": "At least two partner-specific assets created per month for high-potential introducers.",
+    "metric": "Introducer asset sends and referrals generated."
+  },
+  {
+    "priority": "P0",
+    "workstream": "Management rhythm",
+    "cadence": "Monday",
+    "owner": "Founder",
+    "action": "Run 45-minute revenue meeting from the dashboard.",
+    "output": "Pipeline deltas, stuck deals, lead source performance and this week's targets.",
+    "acceptanceCriteria": "Every stuck qualified deal has a blocker, owner and unlock action.",
+    "metric": "Weighted pipeline, mandates and completions."
+  },
+  {
+    "priority": "P0",
+    "workstream": "Management rhythm",
+    "cadence": "Friday",
+    "owner": "Founder",
+    "action": "Review wins, losses, stuck deals and partner/referral movement.",
+    "output": "Lost reasons logged and next week's priority targets confirmed.",
+    "acceptanceCriteria": "Every lost or stuck deal has a reason that can improve packaging, targeting or lender routing.",
+    "metric": "Win rate, lost reasons, stuck-deal age."
+  },
+  {
+    "priority": "P2",
+    "workstream": "Hiring",
+    "cadence": "Monthly",
+    "owner": "Founder",
+    "action": "Review capacity triggers for packaging/admin, originator and partnerships support.",
+    "output": "Hire/no-hire decision based on live pipeline, response times and overdue tasks.",
+    "acceptanceCriteria": "Hire support when qualified pipeline exceeds capacity or SLA compliance falls below target.",
+    "metric": "Open tasks per owner; response SLA; qualified pipeline per originator."
+  }
+]

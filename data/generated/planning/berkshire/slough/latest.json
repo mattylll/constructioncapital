@@ -1,20 +1,20 @@
 {
-  "updatedAt": "2026-08-23T06:07:51.072Z",
+  "updatedAt": "2026-09-04T14:57:36.008Z",
   "townSlug": "slough",
   "countySlug": "berkshire",
   "localAuthority": "Slough Borough Council",
   "source": "agile",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-23",
-    "to": "2026-08-23",
-    "retrievedAt": "2026-08-23T06:07:51.071Z"
+    "from": "2026-06-04",
+    "to": "2026-09-04",
+    "retrievedAt": "2026-09-04T14:57:36.006Z"
   },
   "summary": {
-    "total": 13,
-    "relevant": 1,
+    "total": 16,
+    "relevant": 3,
     "approved": 1,
-    "pending": 0,
+    "pending": 2,
     "refused": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
@@ -45,5 +45,44 @@
       "sourceUrl": ""
     }
   ],
-  "pendingApplications": []
+  "pendingApplications": [
+    {
+      "reference": "P/16349/002",
+      "address": "94, High Street, Langley, Slough, SL3 8JS",
+      "postcode": "SL3 8JS",
+      "ward": "Langley Foxborough",
+      "proposal": "Retrospective application of insulated render to external walls",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "",
+      "decision": "",
+      "receivedDate": "03/09/2026",
+      "decisionDate": "",
+      "applicantName": "CD CAPITAL PROPERTIES LTD",
+      "applicantCompany": "CD CAPITAL PROPERTIES LTD",
+      "agentName": "Redmond Ivie Architects",
+      "agentCompany": "",
+      "sourceUrl": ""
+    },
+    {
+      "reference": "P/04303/054",
+      "address": "132-144, High Street, Slough, SL1 1HP",
+      "postcode": "SL1 1HP",
+      "ward": "Herschel Park",
+      "proposal": "Planning application for the change of use of land as a temporary car park for a",
+      "category": "change_of_use",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "",
+      "decision": "",
+      "receivedDate": "28/08/2026",
+      "decisionDate": "",
+      "applicantName": "Staines Developments (No.2) Limited",
+      "applicantCompany": "Staines Developments (No.2) Limited",
+      "agentName": "Salisbury Jones Planning",
+      "agentCompany": "",
+      "sourceUrl": ""
+    }
+  ]
 }

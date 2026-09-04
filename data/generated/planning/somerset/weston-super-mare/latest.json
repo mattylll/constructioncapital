@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-23T04:04:09.802Z",
+  "updatedAt": "2026-09-04T13:59:05.997Z",
   "townSlug": "weston-super-mare",
   "countySlug": "somerset",
   "localAuthority": "North Somerset Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-23",
-    "to": "2026-08-23",
-    "retrievedAt": "2026-08-23T04:04:09.802Z"
+    "from": "2026-06-04",
+    "to": "2026-09-04",
+    "retrievedAt": "2026-09-04T13:59:05.997Z"
   },
   "summary": {
-    "total": 485,
-    "relevant": 4,
+    "total": 494,
+    "relevant": 3,
     "approved": 0,
-    "pending": 4,
+    "pending": 3,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 323,
-    "totalUnits": 323,
+    "pendingUnits": 225,
+    "totalUnits": 225,
     "approvedGdv": 0,
-    "pendingGdv": 100130000,
-    "totalEstimatedGDV": 100130000,
+    "pendingGdv": 69750000,
+    "totalEstimatedGDV": 69750000,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -82,25 +82,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.n-somerset.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TH3FFMLPLR100"
-    },
-    {
-      "reference": "26/P/1107/NMA",
-      "address": "Land At Rectory Farm Chescombe Road Yatton",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Non-Material Amendment to application 23/P/0238/RM (Reserved matters application for layout, scale, appearance and landscaping in relation to the erection of 98 dwellings, provision of open space, landscaping, car parking and associated infrastructure pursuant to the outline planning consent ref 21/P/0236/OUT (Outline planning application for a residential development of up to 100no. dwellings and associated infrastructure following demolition of existing buildings on site, with access for approval and all other matters for subsequent approval - approved under appeal reference APP/D0121/W/21/3286677)) to allow for the amendment to the approved landscaping scheme.",
-      "category": "other_residential",
-      "units": 98,
-      "estimatedGdv": 30380000,
-      "status": "Registered",
-      "decision": "Registered",
-      "receivedDate": "26/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.n-somerset.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFNH34LPKO300"
     }
   ]
 }

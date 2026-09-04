@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-16T02:54:13.235Z",
+  "updatedAt": "2026-09-04T13:11:09.299Z",
   "townSlug": "gravesend",
   "countySlug": "kent",
   "localAuthority": "Gravesham Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-16",
-    "to": "2026-08-16",
-    "retrievedAt": "2026-08-16T02:54:13.234Z"
+    "from": "2026-06-04",
+    "to": "2026-09-04",
+    "retrievedAt": "2026-09-04T13:11:09.299Z"
   },
   "summary": {
-    "total": 247,
-    "relevant": 4,
+    "total": 263,
+    "relevant": 3,
     "approved": 1,
-    "pending": 3,
+    "pending": 2,
     "refused": 0,
     "approvedUnits": 1,
-    "pendingUnits": 11,
-    "totalUnits": 12,
+    "pendingUnits": 68,
+    "totalUnits": 69,
     "approvedGdv": 350000,
-    "pendingGdv": 2167480,
-    "totalEstimatedGDV": 2517480,
+    "pendingGdv": 23800000,
+    "totalEstimatedGDV": 24150000,
     "approvalRate": 100
   },
   "approvedApplications": [
@@ -47,6 +47,25 @@
   ],
   "pendingApplications": [
     {
+      "reference": "20260815",
+      "address": "Woodlands Farm Wrotham Road Culverstone Gravesend Kent DA13 0RQ",
+      "postcode": "DA13 0RQ",
+      "ward": "",
+      "proposal": "Outline planning application for the development of 67 dwellings, public open space and associated works, with approval sought for the principal means of vehicular access from Newlands Lane. All other matters are reserved.",
+      "category": "other_residential",
+      "units": 67,
+      "estimatedGdv": 23450000,
+      "status": "Pending Consideration",
+      "decision": "Pending Consideration",
+      "receivedDate": "13/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://plan.gravesham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJO234HPGCS00"
+    },
+    {
       "reference": "20260563",
       "address": "89 Coopers Road Northfleet Gravesend Kent DA11 7AH",
       "postcode": "DA11 7AH",
@@ -64,44 +83,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://plan.gravesham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFWVHZHPK3L00"
-    },
-    {
-      "reference": "20260538",
-      "address": "Former St Josephs Convent Preparatory School 46 Old Road East Gravesend Kent DA12 1NR",
-      "postcode": "DA12 1NR",
-      "ward": "",
-      "proposal": "Application for variation of condition 2 attached to planning permission reference number 20240013 for conversion of existing Victorian building into 6 flats. Demolition of existing outbuildings. Erection of a 3 storey medical centre. Erection of a building containing 7no flats. Erection of 41no houses. Associated works to include; access, public open space and landscaping; to allow amendments to the proposed size of the housing units to include 4 bedroom housing and additional 3 bed housing.",
-      "category": "other_residential",
-      "units": 6,
-      "estimatedGdv": 1090488,
-      "status": "Pending Consideration",
-      "decision": "Pending Consideration",
-      "receivedDate": "26/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://plan.gravesham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFJWO1HPJWD00"
-    },
-    {
-      "reference": "20260518",
-      "address": "2 Milton Place Gravesend Kent",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Erection of 4 apartments consisting of 2 x one beds and 2 x two beds with associated parking.",
-      "category": "other_residential",
-      "units": 4,
-      "estimatedGdv": 726992,
-      "status": "Pending Consideration",
-      "decision": "Pending Consideration",
-      "receivedDate": "19/05/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://plan.gravesham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TF8SQQHPJPW00"
     }
   ]
 }

@@ -1,50 +1,31 @@
 {
-  "updatedAt": "2026-08-23T04:02:12.114Z",
+  "updatedAt": "2026-09-04T13:57:01.774Z",
   "townSlug": "swindon",
   "countySlug": "wiltshire",
   "localAuthority": "Swindon Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-23",
-    "to": "2026-08-23",
-    "retrievedAt": "2026-08-23T04:02:12.114Z"
+    "from": "2026-06-04",
+    "to": "2026-09-04",
+    "retrievedAt": "2026-09-04T13:57:01.774Z"
   },
   "summary": {
-    "total": 318,
-    "relevant": 16,
+    "total": 315,
+    "relevant": 15,
     "approved": 0,
-    "pending": 16,
+    "pending": 15,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 2115,
-    "totalUnits": 2115,
+    "pendingUnits": 2487,
+    "totalUnits": 2487,
     "approvedGdv": 0,
-    "pendingGdv": 555810000,
-    "totalEstimatedGDV": 555810000,
+    "pendingGdv": 657266000,
+    "totalEstimatedGDV": 657266000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
-    {
-      "reference": "S/RES/26/0682",
-      "address": "Redlands Farm Wanborough Road Swindon SN3 0AD",
-      "postcode": "SN3 0AD",
-      "ward": "",
-      "proposal": "Variation of Conditions 1 (Approved Plans), 2 Materials (Buildings), 3 Materials (Hard Landscaping) and 4 (Landscape and Public Realm) from Planning Application S/RES/23/0128 - Reserved Matters Application (following outline planning permission S/OUT/16/0021) for the Village Square, Convenience Retail Unit, 8 Apartments, Associated Servicing, Parking and Landscaping.",
-      "category": "other_residential",
-      "units": 8,
-      "estimatedGdv": 1144000,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.swindon.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TFQP1OPTJDN00"
-    },
     {
       "reference": "S/26/0806",
       "address": "Berkeley House 9 Milton Road Swindon SN1 5JE",
@@ -217,25 +198,6 @@
       "sourceUrl": "https://pa.swindon.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TIVQHSPTLCK00"
     },
     {
-      "reference": "S/COND/26/0939",
-      "address": "Lotmead Site Eastern Villages Swindon",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Discharge of Condition 38 (Archaeological Mitigation Strategy) from previous application S/OUT/19/0582-Outline Planning Application (means of access off Wanborough Road not reserved) for demolition and/or conversion of existing buildings and redevelopment to provide up to 2,500 homes (Use Class C3), up to 1,780 sqm of community/retail uses (Use Class D1/D2/A1/A3/A4), up to 2,500 sqm of employment use (Use Class B1), sports hub, playing pitches, 2no. 2 Form Entry primary schools, green infrastructure, indicative primary access road corridors to A420, improvements to Wanborough Road and associated works.",
-      "category": "other_residential",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "",
-      "decision": "",
-      "receivedDate": "",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://pa.swindon.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TITVUPPTLBO00"
-    },
-    {
       "reference": "S/COND/26/0900",
       "address": "Coachbuilders House Stratton Road Stratton St Margaret Swindon",
       "postcode": "",
@@ -329,6 +291,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://pa.swindon.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=THJO5MPTKJS00"
+    },
+    {
+      "reference": "S/COND/26/1056",
+      "address": "Rowborough Primary Street On Land North Of A420 Known As South Marston And Rowborough Eastern Villages Swindon",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Discharge of conditions 36 (Construction Method Statement) and 37 (Construction and Environmental Management Plan) from previous application S/OUT/13/1555 - Outline Planning Permission, for a sustainable urban extension to the east of Swindon and north of the A420 of up to 2,380 dwellings together with a mixed use local centres/areas (including A1 retail up to 1,500 sq metres, services (A2), restaurants, pubs and takeaways (A3, A4, A5), business uses (B1) up to 1,000 sq metres, residential); community uses (D1); sheltered and/or care accommodation (C2/C3); two primary schools; green infrastructure including formal (including playing fields) and informal open space, landscape, biodiversity and amenity space; play space (including NEAPS/LEAPS/MUGAS); changing and sports facilities (including D2) and ancillary retail uses; sustainable drainage systems; highway, cycle and pedestrian routes; car parking; infrastructure including utilities); engineering works including ground remodelling; demolition, site reclamation and removal of structures; the formation of new accesses from the A420, Old Vicarage Lane and Thornhill Road.",
+      "category": "other_residential",
+      "units": 380,
+      "estimatedGdv": 102600000,
+      "status": "",
+      "decision": "",
+      "receivedDate": "",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://pa.swindon.gov.uk/publicaccess/applicationDetails.do?activeTab=summary&keyVal=TK9TDSPTM7J00"
     }
   ]
 }

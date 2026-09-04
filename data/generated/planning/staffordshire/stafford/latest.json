@@ -1,31 +1,50 @@
 {
-  "updatedAt": "2026-08-23T03:57:44.565Z",
+  "updatedAt": "2026-09-04T13:51:17.560Z",
   "townSlug": "stafford",
   "countySlug": "staffordshire",
   "localAuthority": "Stafford Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-23",
-    "to": "2026-08-23",
-    "retrievedAt": "2026-08-23T03:57:44.564Z"
+    "from": "2026-06-04",
+    "to": "2026-09-04",
+    "retrievedAt": "2026-09-04T13:51:17.560Z"
   },
   "summary": {
-    "total": 81,
-    "relevant": 12,
+    "total": 99,
+    "relevant": 14,
     "approved": 0,
-    "pending": 12,
+    "pending": 14,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 41,
-    "totalUnits": 41,
+    "pendingUnits": 39,
+    "totalUnits": 39,
     "approvedGdv": 0,
-    "pendingGdv": 10220000,
-    "totalEstimatedGDV": 10220000,
+    "pendingGdv": 9360000,
+    "totalEstimatedGDV": 9360000,
     "approvalRate": 0
   },
   "approvedApplications": [],
   "pendingApplications": [
+    {
+      "reference": "26/42672/ESS",
+      "address": "Land East Of Stone Road Stafford",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Screening Opinion - Outline application with all matters reserved except for primary access for the development of up to 650 homes, primary school and associated facilities, public open spaces, drainage details, earthworks and all related works including demolition of existing buildings, structures and site clearance",
+      "category": "other_residential",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "21/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://www12.staffordbc.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TKOOI1PS00O00"
+    },
     {
       "reference": "26/42561/FUL",
       "address": "27 & 30 Crabbery Street Stafford ST16 2BA",
@@ -179,6 +198,25 @@
       "sourceUrl": "https://www12.staffordbc.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THT0Y7PS09C00"
     },
     {
+      "reference": "26/42366/FUL",
+      "address": "West View Barn Beechcliffe Lane Stoke-On-Trent Staffordshire ST12 9HP",
+      "postcode": "ST12 9HP",
+      "ward": "",
+      "proposal": "Change of use of land from mixed use to residential use to create domestic curtilage",
+      "category": "change_of_use",
+      "units": 1,
+      "estimatedGdv": 250000,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "18/06/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://www12.staffordbc.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGTL0VPSMO500"
+    },
+    {
       "reference": "26/42377/PIP",
       "address": "Manor Farm Cannock Road Brocton Stafford Staffordshire ST17 0SU",
       "postcode": "ST17 0SU",
@@ -236,23 +274,23 @@
       "sourceUrl": "https://www12.staffordbc.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGIINPPS00O00"
     },
     {
-      "reference": "26/42287/FUL",
-      "address": "19 Cherry Tree Crescent Great Bridgeford Stafford Staffordshire ST18 9TN",
-      "postcode": "ST18 9TN",
+      "reference": "26/42670/REM",
+      "address": "Darwood And Hazelden Creswell Grove Creswell Stafford ST18 9QU",
+      "postcode": "ST18 9QU",
       "ward": "",
-      "proposal": "Erection of 3 bed detached bungalow",
+      "proposal": "Reserved Matters (appearance, landscaping and scale ) to 25/41512/OUT",
       "category": "other_relevant",
-      "units": 3,
-      "estimatedGdv": 1110000,
+      "units": null,
+      "estimatedGdv": null,
       "status": "Awaiting decision",
       "decision": "Awaiting decision",
-      "receivedDate": "26/05/2026",
+      "receivedDate": "01/06/2026",
       "decisionDate": "",
       "applicantName": "",
       "applicantCompany": "",
       "agentName": "",
       "agentCompany": "",
-      "sourceUrl": "https://www12.staffordbc.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFNJ5WPSMEV00"
+      "sourceUrl": "https://www12.staffordbc.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TKOHY1PS00O00"
     }
   ]
 }

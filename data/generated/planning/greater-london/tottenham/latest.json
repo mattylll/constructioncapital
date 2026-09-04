@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-08-23T06:11:45.467Z",
+  "updatedAt": "2026-09-04T15:02:09.571Z",
   "townSlug": "tottenham",
   "countySlug": "greater-london",
   "localAuthority": "Haringey Council",
   "source": "arcus",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-23",
-    "to": "2026-08-23",
-    "retrievedAt": "2026-08-23T06:11:45.467Z"
+    "from": "2026-06-04",
+    "to": "2026-09-04",
+    "retrievedAt": "2026-09-04T15:02:09.571Z"
   },
   "summary": {
-    "total": 693,
-    "relevant": 6,
+    "total": 722,
+    "relevant": 5,
     "approved": 2,
-    "pending": 3,
-    "refused": 0,
+    "pending": 1,
+    "refused": 1,
     "approvedUnits": 6,
-    "pendingUnits": 8,
-    "totalUnits": 14,
+    "pendingUnits": 1,
+    "totalUnits": 7,
     "approvedGdv": 2685600,
-    "pendingGdv": 3683200,
-    "totalEstimatedGDV": 6368800,
-    "approvalRate": 100
+    "pendingGdv": 447600,
+    "totalEstimatedGDV": 3133200,
+    "approvalRate": 67
   },
   "approvedApplications": [
     {
@@ -83,44 +83,6 @@
       "agentName": "Mr Conrad Cherniavsky",
       "agentCompany": "",
       "sourceUrl": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iP200000HxR0nIAF?c__r=Arcus_BE_Public_Register"
-    },
-    {
-      "reference": "HGY/2026/1926",
-      "address": "73 - 77 Clarence Road Wood Green London N22 8PG",
-      "postcode": "N22 8PG",
-      "ward": "Bounds Green",
-      "proposal": "Erection of ground and first floor rear and side extensions and associated landscaping works to increase the number of residential units from 6 flats to 7 flats.",
-      "category": "other_residential",
-      "units": 6,
-      "estimatedGdv": 2685600,
-      "status": "Under Consultation",
-      "decision": "",
-      "receivedDate": "07/07/2026",
-      "decisionDate": "",
-      "applicantName": "Mr K Sandhu",
-      "applicantCompany": "",
-      "agentName": "Mr Graham Eades, Hawkins Eades Associates",
-      "agentCompany": "",
-      "sourceUrl": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iP200000HwlftIAB?c__r=Arcus_BE_Public_Register"
-    },
-    {
-      "reference": "HGY/2026/1732",
-      "address": "297 Wightman Road Hornsey London N8 0NA",
-      "postcode": "N8 0NA",
-      "ward": "Harringay",
-      "proposal": "Change of Use from C3 Dwellinghouse to a 5 Bedroom / 5 Person HMO (Use Class C4)",
-      "category": "other_residential",
-      "units": 1,
-      "estimatedGdv": 550000,
-      "status": "Under Consultation",
-      "decision": "",
-      "receivedDate": "07/07/2026",
-      "decisionDate": "",
-      "applicantName": "Mr W Hassan",
-      "applicantCompany": "",
-      "agentName": "Mr Gulraiz Ghafoor",
-      "agentCompany": "",
-      "sourceUrl": "https://publicregister.haringey.gov.uk/pr/s/detail/a0iP200000Ho59BIAR?c__r=Arcus_BE_Public_Register"
     }
   ]
 }
