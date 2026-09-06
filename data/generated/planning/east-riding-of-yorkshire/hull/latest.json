@@ -1,50 +1,30 @@
 {
-  "updatedAt": "2026-09-04T14:08:11.670Z",
+  "updatedAt": "2026-09-06T03:49:22.777Z",
   "townSlug": "hull",
   "countySlug": "east-riding-of-yorkshire",
   "localAuthority": "Hull City Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-06-04",
-    "to": "2026-09-04",
-    "retrievedAt": "2026-09-04T14:08:11.669Z"
+    "from": "2026-06-06",
+    "to": "2026-09-06",
+    "retrievedAt": "2026-09-06T03:49:22.777Z"
   },
   "summary": {
-    "total": 225,
-    "relevant": 29,
-    "approved": 1,
-    "pending": 28,
+    "total": 203,
+    "relevant": 26,
+    "approved": 0,
+    "pending": 26,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 631,
-    "totalUnits": 631,
+    "pendingUnits": 507,
+    "totalUnits": 507,
     "approvedGdv": 0,
-    "pendingGdv": 81130000,
-    "totalEstimatedGDV": 81130000,
-    "approvalRate": 100
+    "pendingGdv": 65010000,
+    "totalEstimatedGDV": 65010000,
+    "approvalRate": 0
   },
-  "approvedApplications": [
-    {
-      "reference": "26/00524/COU",
-      "address": "Cavendish Print Ltd 45 Great Union Street Kingston Upon Hull HU9 1UB",
-      "postcode": "HU9 1UB",
-      "ward": "",
-      "proposal": "Change of use of the existing building from workshop/office premises (Use Class E/B2/B8 as applicable) to a community-based day opportunities service (Use Class F1)",
-      "category": "change_of_use",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Application Permitted",
-      "decision": "Application Permitted",
-      "receivedDate": "01/06/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://www.hullcc.gov.uk/padcbc/publicaccess-live/applicationDetails.do?activeTab=summary&keyVal=TFYC4YSOIU200"
-    }
-  ],
+  "approvedApplications": [],
   "pendingApplications": [
     {
       "reference": "26/00829/CONDET",
@@ -539,44 +519,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://www.hullcc.gov.uk/padcbc/publicaccess-live/applicationDetails.do?activeTab=summary&keyVal=TGBJ6DSOLT900"
-    },
-    {
-      "reference": "26/00531/FULL",
-      "address": "The Point Land At Priory Park East Henry Boot Way Kingston Upon Hull HU4 7EG",
-      "postcode": "HU4 7EG",
-      "ward": "",
-      "proposal": "Erection of a building (5 units) for flexible Consent for use classes E(g)/B2/B8 Development with Trade Counter (Flexible Planning Permission) including associated external works, parking, lighting columns & landscaping.",
-      "category": "other_residential",
-      "units": 5,
-      "estimatedGdv": 650000,
-      "status": "Pending Consideration",
-      "decision": "Pending Consideration",
-      "receivedDate": "03/06/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://www.hullcc.gov.uk/padcbc/publicaccess-live/applicationDetails.do?activeTab=summary&keyVal=TG0I12SOJCW00"
-    },
-    {
-      "reference": "26/00529/FULL",
-      "address": "Land To South Of Preston Road Kingston Upon Hull",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Erection of 119 dwellings, public open space, sustainable drainage solutions and associated infrastructure.",
-      "category": "other_residential",
-      "units": 119,
-      "estimatedGdv": 15470000,
-      "status": "Pending Consideration",
-      "decision": "Pending Consideration",
-      "receivedDate": "03/06/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://www.hullcc.gov.uk/padcbc/publicaccess-live/applicationDetails.do?activeTab=summary&keyVal=TG06X5SOJ7Q00"
     }
   ]
 }

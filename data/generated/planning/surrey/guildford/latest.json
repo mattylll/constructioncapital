@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-08-30T01:19:37.311Z",
+  "updatedAt": "2026-09-06T01:04:00.535Z",
   "townSlug": "guildford",
   "countySlug": "surrey",
   "localAuthority": "Guildford Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-05-30",
-    "to": "2026-08-30",
-    "retrievedAt": "2026-08-30T01:19:37.311Z"
+    "from": "2026-06-06",
+    "to": "2026-09-06",
+    "retrievedAt": "2026-09-06T01:04:00.535Z"
   },
   "summary": {
-    "total": 672,
-    "relevant": 2,
+    "total": 646,
+    "relevant": 1,
     "approved": 0,
-    "pending": 2,
+    "pending": 1,
     "refused": 0,
     "approvedUnits": 0,
-    "pendingUnits": 1,
-    "totalUnits": 1,
+    "pendingUnits": 0,
+    "totalUnits": 0,
     "approvedGdv": 0,
-    "pendingGdv": 490000,
-    "totalEstimatedGDV": 490000,
+    "pendingGdv": 0,
+    "totalEstimatedGDV": 0,
     "approvalRate": 0
   },
   "approvedApplications": [],
@@ -44,25 +44,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.guildford.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_GUILD_DCAPR_214438"
-    },
-    {
-      "reference": "26/P/00762",
-      "address": "31 Woodbridge Hill, Guildford, GU2 9AA",
-      "postcode": "GU2 9AA",
-      "ward": "",
-      "proposal": "Conversion from a standard dwellinghouse (C3) to a C4 house of multiple occupancy (HMO).",
-      "category": "other_residential",
-      "units": 1,
-      "estimatedGdv": 490000,
-      "status": "Registered",
-      "decision": "Registered",
-      "receivedDate": "05/06/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.guildford.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_GUILD_DCAPR_214043"
     }
   ]
 }

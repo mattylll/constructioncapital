@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-04T14:59:56.112Z",
+  "updatedAt": "2026-09-06T04:31:26.812Z",
   "townSlug": "bromley",
   "countySlug": "greater-london",
   "localAuthority": "London Borough of Bromley",
   "source": "arcus",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-06-04",
-    "to": "2026-09-04",
-    "retrievedAt": "2026-09-04T14:59:56.111Z"
+    "from": "2026-06-06",
+    "to": "2026-09-06",
+    "retrievedAt": "2026-09-06T04:31:26.812Z"
   },
   "summary": {
     "total": 782,
-    "relevant": 103,
-    "approved": 24,
-    "pending": 71,
-    "refused": 8,
-    "approvedUnits": 5,
+    "relevant": 106,
+    "approved": 25,
+    "pending": 72,
+    "refused": 9,
+    "approvedUnits": 7,
     "pendingUnits": 105,
-    "totalUnits": 110,
-    "approvedGdv": 2160000,
+    "totalUnits": 112,
+    "approvedGdv": 3375000,
     "pendingGdv": 50355000,
-    "totalEstimatedGDV": 52515000,
-    "approvalRate": 75
+    "totalEstimatedGDV": 53730000,
+    "approvalRate": 74
   },
   "approvedApplications": [
     {
@@ -43,6 +43,25 @@
       "agentName": "Mr Neil Bartlett",
       "agentCompany": "",
       "sourceUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003UtBpIAK?c__r=Arcus_BE_Public_Register"
+    },
+    {
+      "reference": "26/02197/FPA",
+      "address": "TIMBERDOWN ADJACENT TO 1, JACKSON ROAD, BROMLEY, BR2 8NL",
+      "postcode": "BR2 8NL",
+      "ward": "Bromley Common & Holwood",
+      "proposal": "Demolition of existing structures and erection of 2 two storey four-bedroom semi-detached dwellings and 2 part two/three storey four-bedroom semi-detached dwellings, with associated car parking and access",
+      "category": "demolition_rebuild",
+      "units": 2,
+      "estimatedGdv": 1215000,
+      "status": "Decision Made",
+      "decision": "GRANTED",
+      "receivedDate": "11/06/2026",
+      "decisionDate": "04/09/2026",
+      "applicantName": "Land and Development Director Matt Arnold",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003RlIrIAK?c__r=Arcus_BE_Public_Register"
     },
     {
       "reference": "26/02796/PIP",
@@ -311,25 +330,6 @@
       "sourceUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003TBfxIAG?c__r=Arcus_BE_Public_Register"
     },
     {
-      "reference": "26/02404/FPA",
-      "address": "118 CROYDON ROAD, PENGE, LONDON, SE20 7YZ",
-      "postcode": "SE20 7YZ",
-      "ward": "Crystal Palace & Anerley",
-      "proposal": "Replacement of all existing old upvc windows to all elevations and all flats with double glazed white coloured new Upvc windows of sliding sash styles to front elevation and top hung over top hung styles to rear and side elevations to match existing sizes.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decision Made",
-      "decision": "GRANTED",
-      "receivedDate": "15/06/2026",
-      "decisionDate": "10/08/2026",
-      "applicantName": "Mrs Ann Miller",
-      "applicantCompany": "",
-      "agentName": "Mr Iain Newsome",
-      "agentCompany": "",
-      "sourceUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003U5rlIAC?c__r=Arcus_BE_Public_Register"
-    },
-    {
       "reference": "26/02405/FPA",
       "address": "120 CROYDON ROAD, PENGE, LONDON, SE20 7YZ",
       "postcode": "SE20 7YZ",
@@ -349,6 +349,44 @@
       "sourceUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003U5tNIAS?c__r=Arcus_BE_Public_Register"
     },
     {
+      "reference": "26/02404/FPA",
+      "address": "118 CROYDON ROAD, PENGE, LONDON, SE20 7YZ",
+      "postcode": "SE20 7YZ",
+      "ward": "Crystal Palace & Anerley",
+      "proposal": "Replacement of all existing old upvc windows to all elevations and all flats with double glazed white coloured new Upvc windows of sliding sash styles to front elevation and top hung over top hung styles to rear and side elevations to match existing sizes.",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Decision Made",
+      "decision": "GRANTED",
+      "receivedDate": "15/06/2026",
+      "decisionDate": "10/08/2026",
+      "applicantName": "Mrs Ann Miller",
+      "applicantCompany": "",
+      "agentName": "Mr Iain Newsome",
+      "agentCompany": "",
+      "sourceUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003U5rlIAC?c__r=Arcus_BE_Public_Register"
+    },
+    {
+      "reference": "26/02246/FPA",
+      "address": "Tesco Superstore, Croydon Road, Elmers End, Beckenham, BR3 4AA",
+      "postcode": "BR3 4AA",
+      "ward": "Kelsey & Eden Park",
+      "proposal": "Installation of one single storey self-service laundry kiosk (Class E) to include removal of 3 no. parking bays and installation of 9 no. bollards",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Decision Made",
+      "decision": "GRANTED",
+      "receivedDate": "23/06/2026",
+      "decisionDate": "07/08/2026",
+      "applicantName": "Johnson Cleaners Uk Ltd",
+      "applicantCompany": "Johnson Cleaners Uk Ltd",
+      "agentName": "Laurence Piper",
+      "agentCompany": "",
+      "sourceUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003SGphIAG?c__r=Arcus_BE_Public_Register"
+    },
+    {
       "reference": "26/02544/NOT",
       "address": "124 EDEN PARK AVENUE, BECKENHAM, BR3 3JQ",
       "postcode": "BR3 3JQ",
@@ -366,25 +404,6 @@
       "agentName": "Mr John Tomlin",
       "agentCompany": "",
       "sourceUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003VndpIAC?c__r=Arcus_BE_Public_Register"
-    },
-    {
-      "reference": "26/02280/FPA",
-      "address": "HOLMOAKS HOUSE, 47 BROMLEY ROAD, BECKENHAM, BR3 5PA",
-      "postcode": "BR3 5PA",
-      "ward": "Beckenham Town & Copers Cope",
-      "proposal": "Replacement of all existing communal timber-framed windows and integrated AOVs with new double-glazed uPVC units.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decision Made",
-      "decision": "GRANTED",
-      "receivedDate": "05/06/2026",
-      "decisionDate": "31/07/2026",
-      "applicantName": "Lorraine Paul",
-      "applicantCompany": "",
-      "agentName": "Mr Isaac Berbiers",
-      "agentCompany": "",
-      "sourceUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003SfWLIA0?c__r=Arcus_BE_Public_Register"
     },
     {
       "reference": "26/02489/NOT",
@@ -1831,6 +1850,25 @@
       "agentName": "Mr Daniel Ward",
       "agentCompany": "",
       "sourceUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003VGUzIAO?c__r=Arcus_BE_Public_Register"
+    },
+    {
+      "reference": "26/02240/FPA",
+      "address": "75 QUEENSWAY, PETTS WOOD, ORPINGTON, BR5 1DQ",
+      "postcode": "BR5 1DQ",
+      "ward": "Petts Wood & Knoll",
+      "proposal": "Retention of single storey rear extension to provide relaxation & wellness area",
+      "category": "other_relevant",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Valid",
+      "decision": "",
+      "receivedDate": "11/06/2026",
+      "decisionDate": "",
+      "applicantName": "mr hai huynh",
+      "applicantCompany": "",
+      "agentName": "Mr jeremy sparrow",
+      "agentCompany": "",
+      "sourceUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003SBjZIAW?c__r=Arcus_BE_Public_Register"
     }
   ]
 }

@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-09-04T14:57:55.801Z",
+  "updatedAt": "2026-09-06T04:29:39.968Z",
   "townSlug": "bracknell",
   "countySlug": "berkshire",
   "localAuthority": "Bracknell Forest Council",
   "source": "arcus",
   "dataset": {
     "windowMonths": 3,
-    "from": "2026-06-04",
-    "to": "2026-09-04",
-    "retrievedAt": "2026-09-04T14:57:55.801Z"
+    "from": "2026-06-06",
+    "to": "2026-09-06",
+    "retrievedAt": "2026-09-06T04:29:39.967Z"
   },
   "summary": {
-    "total": 254,
-    "relevant": 50,
+    "total": 249,
+    "relevant": 48,
     "approved": 6,
-    "pending": 40,
+    "pending": 38,
     "refused": 2,
     "approvedUnits": 0,
-    "pendingUnits": 532,
-    "totalUnits": 532,
+    "pendingUnits": 352,
+    "totalUnits": 352,
     "approvedGdv": 0,
-    "pendingGdv": 216680000,
-    "totalEstimatedGDV": 216680000,
+    "pendingGdv": 142880000,
+    "totalEstimatedGDV": 142880000,
     "approvalRate": 75
   },
   "approvedApplications": [
@@ -862,44 +862,6 @@
       "agentName": "Catherine Bruce",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.bracknell-forest.gov.uk/s/detail/a1DP300000EWXqPMAX?c__r=Arcus_BE_Public_Register"
-    },
-    {
-      "reference": "PA/2026/0543",
-      "address": "Green Meadow, Land to East of Grove Lane, Grove Lane, RG42 6ND",
-      "postcode": "RG42 6ND",
-      "ward": "Winkfield and Warfield East",
-      "proposal": "Proposed erection of a detached dwellinghouse.",
-      "category": "other_relevant",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Under Consultation",
-      "decision": "",
-      "receivedDate": "05/06/2026",
-      "decisionDate": "",
-      "applicantName": "Mr and Mrs Curtis",
-      "applicantCompany": "",
-      "agentName": "ET Planning",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.bracknell-forest.gov.uk/s/detail/a1DP300000EO5uXMAT?c__r=Arcus_BE_Public_Register"
-    },
-    {
-      "reference": "PA/2026/0567",
-      "address": "Land north east of Easthampstead Road, Wokingham",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Outline application with all matters reserved except means of access for up to 180 dwellings and associated infrastructure including open space, play space, landscaping, SuDs and green infrastructure.\r\nPlease note: The application has been submitted in relation to the area proposed as an extension to the South Wokingham SDL in the Local Plan Update (LPU).",
-      "category": "other_residential",
-      "units": 180,
-      "estimatedGdv": 73800000,
-      "status": "Decision Made",
-      "decision": "Object",
-      "receivedDate": "05/06/2026",
-      "decisionDate": "02/07/2026",
-      "applicantName": "Local Authority - Wokingham Borough Council",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.bracknell-forest.gov.uk/s/detail/a1DP300000EYY2PMAX?c__r=Arcus_BE_Public_Register"
     }
   ]
 }
