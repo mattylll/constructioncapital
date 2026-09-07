@@ -58,7 +58,8 @@ LOG="logs/planning-outreach-${TIMESTAMP}.log"
   echo
 
   echo "--- Commit & push ---"
-  git add data/generated/planning-outreach/ data/generated/developer-prospects/outreach-log.json data/generated/developer-prospects/ghl-sync-log.json 2>/dev/null || true
+  # These paths are git-ignored for the website build, so force-add the outreach state and reports.
+  git add -f data/generated/planning-outreach/state.json data/generated/planning-outreach/runs data/generated/developer-prospects/outreach-log.json data/generated/developer-prospects/ghl-sync-log.json 2>/dev/null || true
   if git diff --cached --quiet; then
     echo "No outreach changes to commit."
   else
