@@ -1,0 +1,2134 @@
+[
+  {
+    "key": "london borough of ealing::262743pacbsd",
+    "reference": "262743PACBSD",
+    "localAuthority": "London Borough of Ealing",
+    "county": "greater-london",
+    "town": "ealing",
+    "address": "26-30 Ealing Gateway Uxbridge Road Ealing W5 2AU",
+    "postcode": "W5 2AU",
+    "proposal": "Change of use from office floorspace (Use Class E(g)(i)) to residential x 68 flats (Use Class C3) (Class MA, 56 day Prior Approval Process)",
+    "consentStage": "primary_consent",
+    "decisionDate": null,
+    "units": 68,
+    "schemeType": "flats",
+    "unitValue": 375000,
+    "gdv": 25500000,
+    "ltgdv": 0.65,
+    "loanAmount": 16575000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 505000,
+      "transactionCount12m": 2126,
+      "yoyChange": -1.2
+    },
+    "comparables": [
+      {
+        "address": "FLAT 3, ROBERTS COURT, 46 - 48, MADELEY ROAD",
+        "postcode": "W5 2NA",
+        "price": 460000,
+        "date": "2026-06-22",
+        "propertyType": "F",
+        "newBuild": false
+      },
+      {
+        "address": "FLAT 15, SPRINGFIELD COURT, LYNTON ROAD",
+        "postcode": "W3 9EA",
+        "price": 347500,
+        "date": "2026-06-26",
+        "propertyType": "F",
+        "newBuild": false
+      },
+      {
+        "address": "44A, GROSVENOR ROAD",
+        "postcode": "W7 1HJ",
+        "price": 420000,
+        "date": "2026-06-26",
+        "propertyType": "F",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 25500000,
+      "gdvPerUnit": 375000,
+      "gdvBasis": "HM Land Registry flat median of £375,000",
+      "buildCost": 7840000,
+      "onCosts": 3241000,
+      "financeCosts": 2034000,
+      "landValue": 7922000,
+      "totalCost": 21037000,
+      "targetProfit": 4463000,
+      "targetProfitPct": 17.5,
+      "senior": 16575000,
+      "seniorLtgdv": 0.65,
+      "seniorLtc": 0.7878975139040738,
+      "stretchSenior": 17850000,
+      "stretchLtgdv": 0.7,
+      "stretchLtc": 0.848505014973618,
+      "mezzanine": 2358000,
+      "totalDebt": 18933000,
+      "totalDebtLtgdv": 0.7424705882352941,
+      "totalDebtLtc": 0.899985739411513,
+      "equityWithSenior": 4462000,
+      "equityWithMezz": 2104000,
+      "termMonths": 24,
+      "marginalViability": false,
+      "costModelCredible": true,
+      "assumptions": [
+        "GDV: HM Land Registry flat median of £375,000.",
+        "Build cost: £1,610-£2,080/sqm (conversion, indicative range informed by BCIS regional tender-price data, 2025/26) × 63 sqm/unit (NDSS-derived).",
+        "On-costs: externals 12.5%, professional fees 8%, contingency 7.5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 24 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "see company name",
+    "applicantCompany": "",
+    "agentName": "SM Planning",
+    "agentCompany": "",
+    "applicantDetailSource": "idox-details",
+    "resolution": {
+      "applicantRaw": "see company name",
+      "applicantKind": "individual",
+      "ownerCompany": null,
+      "ownerCompanyName": "",
+      "contacts": [],
+      "pscs": [],
+      "associatedCompanies": [],
+      "agentCompanyName": "",
+      "outcome": "unresolved",
+      "notes": [
+        "individual applicant: no active property-company directorship found near the site",
+        "Apollo name search \"See Name\": 0 results, none matching name + property/senior signals"
+      ]
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://pam.ealing.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THYZZDJMHTB00"
+  },
+  {
+    "key": "reading borough council::pl/26/0958",
+    "reference": "PL/26/0958",
+    "localAuthority": "Reading Borough Council",
+    "county": "berkshire",
+    "town": "reading",
+    "address": "ABATTOIRS ROAD, READING",
+    "postcode": "",
+    "proposal": "Extension of the temporary planning permission, as approved under PL/21/1010, for the now constructed and fully operational 40 no. sleeping units and 3 no. support units for rough sleepers until 31st March 2028. (amended)",
+    "consentStage": "primary_consent",
+    "decisionDate": null,
+    "units": 40,
+    "schemeType": "unknown",
+    "unitValue": 362250,
+    "gdv": 14490000,
+    "ltgdv": 0.65,
+    "loanAmount": 9419000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 345000,
+      "transactionCount12m": 1587,
+      "yoyChange": -0.7
+    },
+    "comparables": [
+      {
+        "address": "7, BRIAR CLOSE",
+        "postcode": "RG4 7QH",
+        "price": 650000,
+        "date": "2026-06-24",
+        "propertyType": "D",
+        "newBuild": false
+      },
+      {
+        "address": "80, BROAD STREET",
+        "postcode": "RG1 2AP",
+        "price": 875000,
+        "date": "2026-06-23",
+        "propertyType": "O",
+        "newBuild": false
+      },
+      {
+        "address": "10, ALMOND DRIVE",
+        "postcode": "RG4 6NH",
+        "price": 520000,
+        "date": "2026-06-22",
+        "propertyType": "S",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 14490000,
+      "gdvPerUnit": 362250,
+      "gdvBasis": "HM Land Registry blended median of £345,000 plus a 5% new-build premium (assumed)",
+      "buildCost": 6936000,
+      "onCosts": 2346000,
+      "financeCosts": 926000,
+      "landValue": 1746000,
+      "totalCost": 11954000,
+      "targetProfit": 2536000,
+      "targetProfitPct": 17.5,
+      "senior": 9419000,
+      "seniorLtgdv": 0.6500345065562457,
+      "seniorLtc": 0.7879370921867157,
+      "stretchSenior": 10143000,
+      "stretchLtgdv": 0.7,
+      "stretchLtc": 0.8485025932742178,
+      "mezzanine": 1340000,
+      "totalDebt": 10759000,
+      "totalDebtLtgdv": 0.7425120772946859,
+      "totalDebtLtc": 0.9000334616028107,
+      "equityWithSenior": 2535000,
+      "equityWithMezz": 1195000,
+      "termMonths": 18,
+      "marginalViability": false,
+      "costModelCredible": true,
+      "assumptions": [
+        "GDV: HM Land Registry blended median of £345,000 plus a 5% new-build premium (assumed).",
+        "Build cost: £2,250-£2,850/sqm (new build, indicative range informed by BCIS regional tender-price data, 2025/26) × 68 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 10%, contingency 5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 18 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "Mr Daryn  Inston",
+    "applicantCompany": "",
+    "agentName": "Mr Daryn Inston",
+    "agentCompany": "",
+    "applicantDetailSource": null,
+    "resolution": {
+      "applicantRaw": "Mr Daryn Inston",
+      "applicantKind": "individual",
+      "ownerCompany": null,
+      "ownerCompanyName": "",
+      "contacts": [],
+      "pscs": [],
+      "associatedCompanies": [],
+      "agentCompanyName": "",
+      "outcome": "unresolved",
+      "notes": [
+        "individual applicant: no active property-company directorship found near the site",
+        "Apollo name search \"Daryn Inston\": 0 results, none matching name + property/senior signals"
+      ]
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://publicregister.reading.gov.uk/pr/s/detail/a0zP200000B0lLZIAZ?c__r=Arcus_BE_Public_Register"
+  },
+  {
+    "key": "london borough of ealing::262550var",
+    "reference": "262550VAR",
+    "localAuthority": "London Borough of Ealing",
+    "county": "greater-london",
+    "town": "ealing",
+    "address": "Springfield Court & Fells Haugh Lynton Road & Horn Lane Acton London W3 9EA",
+    "postcode": "W3 9EA",
+    "proposal": "Minor Material Amendment Application (S.73) to vary condition 2 (approved plans) to allow amendments of wordings pursuant to 254660VAR dated 29/01/2026 for 'Alterations and extensions to roof of the building to provide six self-contained residential units; associated works including rear dormer extensions; raising of front stairwells; and landscaping'",
+    "consentStage": "primary_consent",
+    "decisionDate": null,
+    "units": 6,
+    "schemeType": "unknown",
+    "unitValue": 530333,
+    "gdv": 3182000,
+    "ltgdv": 0.65,
+    "loanAmount": 2068000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 505000,
+      "transactionCount12m": 2126,
+      "yoyChange": -1.2
+    },
+    "comparables": [
+      {
+        "address": "FLAT 15, SPRINGFIELD COURT, LYNTON ROAD",
+        "postcode": "W3 9EA",
+        "price": 347500,
+        "date": "2026-06-26",
+        "propertyType": "F",
+        "newBuild": false
+      },
+      {
+        "address": "27, WILTSHIRE HOUSE, AVENUE ROAD",
+        "postcode": "W3 8YS",
+        "price": 395000,
+        "date": "2026-06-19",
+        "propertyType": "F",
+        "newBuild": false
+      },
+      {
+        "address": "44A, GROSVENOR ROAD",
+        "postcode": "W7 1HJ",
+        "price": 420000,
+        "date": "2026-06-26",
+        "propertyType": "F",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 3182000,
+      "gdvPerUnit": 530333,
+      "gdvBasis": "HM Land Registry blended median of £505,000 plus a 5% new-build premium (assumed)",
+      "buildCost": 1682000,
+      "onCosts": 557000,
+      "financeCosts": 153000,
+      "landValue": 233000,
+      "totalCost": 2625000,
+      "targetProfit": 557000,
+      "targetProfitPct": 17.5,
+      "senior": 2068000,
+      "seniorLtgdv": 0.6499057196731616,
+      "seniorLtc": 0.7878095238095238,
+      "stretchSenior": 2227000,
+      "stretchLtgdv": 0.6998742928975488,
+      "stretchLtc": 0.8483809523809523,
+      "mezzanine": 295000,
+      "totalDebt": 2363000,
+      "totalDebtLtgdv": 0.7426147077309868,
+      "totalDebtLtc": 0.9001904761904762,
+      "equityWithSenior": 557000,
+      "equityWithMezz": 262000,
+      "termMonths": 12,
+      "marginalViability": false,
+      "costModelCredible": true,
+      "assumptions": [
+        "GDV: HM Land Registry blended median of £505,000 plus a 5% new-build premium (assumed).",
+        "Build cost: £2,600-£3,350/sqm (new build, indicative range informed by BCIS regional tender-price data, 2025/26) × 95 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 10%, contingency 5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "Mr G Brusati",
+    "applicantCompany": "",
+    "agentName": "Mr Ian Felgate",
+    "agentCompany": "Brookes Architects Ltd",
+    "applicantDetailSource": "idox-details",
+    "resolution": {
+      "applicantRaw": "Mr G Brusati",
+      "applicantKind": "unknown",
+      "ownerCompany": null,
+      "ownerCompanyName": "",
+      "contacts": [],
+      "pscs": [],
+      "associatedCompanies": [],
+      "agentCompanyName": "Brookes Architects Ltd",
+      "outcome": "unresolved",
+      "notes": []
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://pam.ealing.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TH77R8JMH8200"
+  },
+  {
+    "key": "king's lynn & west norfolk borough council::26/01151/f",
+    "reference": "26/01151/F",
+    "localAuthority": "King's Lynn & West Norfolk Borough Council",
+    "county": "norfolk",
+    "town": "kings-lynn",
+    "address": "Potters London Ltd Rollesby Road Hardwick Industrial Estate King's Lynn Norfolk PE30 4HP",
+    "postcode": "PE30 4HP",
+    "proposal": "7 No small general industrial starter units",
+    "consentStage": "primary_consent",
+    "decisionDate": null,
+    "units": 7,
+    "schemeType": "unknown",
+    "unitValue": 273000,
+    "gdv": 1911000,
+    "ltgdv": 0.65,
+    "loanAmount": 1242000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 260000,
+      "transactionCount12m": 1745,
+      "yoyChange": -2.8
+    },
+    "comparables": [
+      {
+        "address": "6, THE GREEN",
+        "postcode": "PE30 3RD",
+        "price": 245000,
+        "date": "2026-06-19",
+        "propertyType": "S",
+        "newBuild": false
+      },
+      {
+        "address": "100, HIGH STREET",
+        "postcode": "PE30 1BW",
+        "price": 150000,
+        "date": "2026-06-17",
+        "propertyType": "O",
+        "newBuild": false
+      },
+      {
+        "address": "7 - 11, LOKE ROAD",
+        "postcode": "PE30 2AY",
+        "price": 248000,
+        "date": "2026-06-16",
+        "propertyType": "D",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 1911000,
+      "gdvPerUnit": 273000,
+      "gdvBasis": "HM Land Registry blended median of £260,000 plus a 5% new-build premium (assumed)",
+      "buildCost": 1583000,
+      "onCosts": 486000,
+      "financeCosts": 92000,
+      "landValue": 0,
+      "totalCost": 2161000,
+      "targetProfit": 334000,
+      "targetProfitPct": 17.5,
+      "senior": 1242000,
+      "seniorLtgdv": 0.6499215070643642,
+      "seniorLtc": 0.5747339194817215,
+      "stretchSenior": 1338000,
+      "stretchLtgdv": 0.7001569858712716,
+      "stretchLtc": 0.6191577973160574,
+      "mezzanine": 191000,
+      "totalDebt": 1433000,
+      "totalDebtLtgdv": 0.749869178440607,
+      "totalDebtLtc": 0.6631189264229523,
+      "equityWithSenior": 919000,
+      "equityWithMezz": 728000,
+      "termMonths": 12,
+      "marginalViability": true,
+      "costModelCredible": false,
+      "assumptions": [
+        "GDV: HM Land Registry blended median of £260,000 plus a 5% new-build premium (assumed).",
+        "Build cost: £2,100-£2,650/sqm (new build, indicative range informed by BCIS regional tender-price data, 2025/26) × 95 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 10%, contingency 5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "",
+    "applicantCompany": "",
+    "agentName": "Holt Architectural",
+    "agentCompany": "Agent Address Mr Scott Brown Brambly Hedge Dereham Road Colkirk NR21 7NQ",
+    "applicantDetailSource": "idox-details",
+    "resolution": {
+      "applicantRaw": "",
+      "applicantKind": "unknown",
+      "ownerCompany": null,
+      "ownerCompanyName": "",
+      "contacts": [],
+      "pscs": [],
+      "associatedCompanies": [],
+      "agentCompanyName": "Mr Scott Brown Brambly Hedge Dereham Road Colkirk NR21 7NQ",
+      "outcome": "unresolved",
+      "notes": []
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://online.west-norfolk.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THY20WIVHCF00"
+  },
+  {
+    "key": "chelmsford city council::26/01045/pip",
+    "reference": "26/01045/PIP",
+    "localAuthority": "Chelmsford City Council",
+    "county": "essex",
+    "town": "chelmsford",
+    "address": "Land Adjacent West Ridings White Elm Road Bicknacre Chelmsford Essex",
+    "postcode": "",
+    "proposal": "Permission In Principle For Up To 3 Dwellings.",
+    "consentStage": "primary_consent",
+    "decisionDate": "2026-08-28",
+    "units": 3,
+    "schemeType": "houses",
+    "unitValue": 511333,
+    "gdv": 1534000,
+    "ltgdv": 0.65,
+    "loanAmount": 997000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 398000,
+      "transactionCount12m": 1925,
+      "yoyChange": -0.5
+    },
+    "comparables": [
+      {
+        "address": "16, PORTWAY",
+        "postcode": "CM2 6YP",
+        "price": 415000,
+        "date": "2026-06-26",
+        "propertyType": "S",
+        "newBuild": false
+      },
+      {
+        "address": "65, BURGESS FIELD",
+        "postcode": "CM2 6TR",
+        "price": 375000,
+        "date": "2026-06-26",
+        "propertyType": "T",
+        "newBuild": false
+      },
+      {
+        "address": "27, ORCHARD STREET",
+        "postcode": "CM2 0HD",
+        "price": 285000,
+        "date": "2026-06-25",
+        "propertyType": "T",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 1534000,
+      "gdvPerUnit": 511333,
+      "gdvBasis": "HM Land Registry blended median of £430,000 plus a 18.9% new-build premium (measured locally)",
+      "buildCost": 727000,
+      "onCosts": 247000,
+      "financeCosts": 74000,
+      "landValue": 218000,
+      "totalCost": 1266000,
+      "targetProfit": 268000,
+      "targetProfitPct": 17.5,
+      "senior": 997000,
+      "seniorLtgdv": 0.6499348109517601,
+      "seniorLtc": 0.7875197472353871,
+      "stretchSenior": 1074000,
+      "stretchLtgdv": 0.7001303780964798,
+      "stretchLtc": 0.8483412322274881,
+      "mezzanine": 142000,
+      "totalDebt": 1139000,
+      "totalDebtLtgdv": 0.742503259452412,
+      "totalDebtLtc": 0.8996840442338072,
+      "equityWithSenior": 269000,
+      "equityWithMezz": 127000,
+      "termMonths": 12,
+      "marginalViability": false,
+      "costModelCredible": true,
+      "assumptions": [
+        "GDV: HM Land Registry blended median of £430,000 plus a 18.9% new-build premium (measured locally).",
+        "Build cost: £2,250-£2,850/sqm (new build, indicative range informed by BCIS regional tender-price data, 2025/26) × 95 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 10%, contingency 5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "Mr & Mrs Schofield",
+    "applicantCompany": "",
+    "agentName": "Mr Alex Robinson",
+    "agentCompany": "",
+    "applicantDetailSource": null,
+    "resolution": {
+      "applicantRaw": "Mr & Mrs Schofield",
+      "applicantKind": "unknown",
+      "ownerCompany": null,
+      "ownerCompanyName": "",
+      "contacts": [],
+      "pscs": [],
+      "associatedCompanies": [],
+      "agentCompanyName": "",
+      "outcome": "unresolved",
+      "notes": []
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://planning.chelmsford.gov.uk/planning/search-applications#VIEW?RefType=GFPlanning&KeyNo=658900"
+  },
+  {
+    "key": "reigate and banstead borough council::26/01094/f",
+    "reference": "26/01094/F",
+    "localAuthority": "Reigate and Banstead Borough Council",
+    "county": "surrey",
+    "town": "redhill",
+    "address": "The Barn 122 London Road Redhill Surrey RH1 2JJ",
+    "postcode": "RH1 2JJ",
+    "proposal": "Proposed 3 x new air conditioning units enclosed on three sides with a protective railing. A proposed new gas cooler at ground level. Proposed new timber fence with access gate.",
+    "consentStage": "primary_consent",
+    "decisionDate": null,
+    "units": 3,
+    "schemeType": "unknown",
+    "unitValue": 498667,
+    "gdv": 1496000,
+    "ltgdv": 0.65,
+    "loanAmount": 972000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 475000,
+      "transactionCount12m": 1495,
+      "yoyChange": 1.1
+    },
+    "comparables": [
+      {
+        "address": "FLAT 3, 11, SPRINGFIELD CLOSE",
+        "postcode": "RH1 5GY",
+        "price": 275000,
+        "date": "2026-06-22",
+        "propertyType": "F",
+        "newBuild": false
+      },
+      {
+        "address": "65, SPENCER WAY",
+        "postcode": "RH1 5LF",
+        "price": 360000,
+        "date": "2026-06-19",
+        "propertyType": "T",
+        "newBuild": false
+      },
+      {
+        "address": "2, KEATS AVENUE",
+        "postcode": "RH1 1AG",
+        "price": 385000,
+        "date": "2026-06-17",
+        "propertyType": "T",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 1496000,
+      "gdvPerUnit": 498667,
+      "gdvBasis": "HM Land Registry blended median of £475,000 plus a 5% new-build premium (assumed)",
+      "buildCost": 727000,
+      "onCosts": 245000,
+      "financeCosts": 72000,
+      "landValue": 190000,
+      "totalCost": 1234000,
+      "targetProfit": 262000,
+      "targetProfitPct": 17.5,
+      "senior": 972000,
+      "seniorLtgdv": 0.6497326203208557,
+      "seniorLtc": 0.7876823338735819,
+      "stretchSenior": 1047000,
+      "stretchLtgdv": 0.6998663101604278,
+      "stretchLtc": 0.8484602917341977,
+      "mezzanine": 139000,
+      "totalDebt": 1111000,
+      "totalDebtLtgdv": 0.7426470588235294,
+      "totalDebtLtc": 0.9003241491085899,
+      "equityWithSenior": 262000,
+      "equityWithMezz": 123000,
+      "termMonths": 12,
+      "marginalViability": false,
+      "costModelCredible": true,
+      "assumptions": [
+        "GDV: HM Land Registry blended median of £475,000 plus a 5% new-build premium (assumed).",
+        "Build cost: £2,250-£2,850/sqm (new build, indicative range informed by BCIS regional tender-price data, 2025/26) × 95 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 10%, contingency 5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "Tesco PLC",
+    "applicantCompany": "",
+    "agentName": "Tesco Business Solutions",
+    "agentCompany": "",
+    "applicantDetailSource": "idox-details",
+    "resolution": {
+      "applicantRaw": "Tesco PLC",
+      "applicantKind": "company",
+      "ownerCompany": null,
+      "ownerCompanyName": "Tesco PLC",
+      "contacts": [],
+      "pscs": [],
+      "associatedCompanies": [],
+      "agentCompanyName": "",
+      "outcome": "excluded_organisation",
+      "notes": [
+        "applicant is an excluded organisation (Tesco PLC); no lookups made"
+      ]
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://planning.reigate-banstead.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THDQXUMVMX000"
+  },
+  {
+    "key": "london borough of bromley::26/02197/fpa",
+    "reference": "26/02197/FPA",
+    "localAuthority": "London Borough of Bromley",
+    "county": "greater-london",
+    "town": "bromley",
+    "address": "TIMBERDOWN ADJACENT TO 1, JACKSON ROAD, BROMLEY, BR2 8NL",
+    "postcode": "BR2 8NL",
+    "proposal": "Demolition of existing structures and erection of 2 two storey four-bedroom semi-detached dwellings and 2 part two/three storey four-bedroom semi-detached dwellings, with associated car parking and access",
+    "consentStage": "primary_consent",
+    "decisionDate": "2026-09-04",
+    "units": 2,
+    "schemeType": "houses",
+    "unitValue": 638000,
+    "gdv": 1276000,
+    "ltgdv": 0.65,
+    "loanAmount": 829000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 500000,
+      "transactionCount12m": 3202,
+      "yoyChange": 0
+    },
+    "comparables": [
+      {
+        "address": "15A, BECKENHAM ROAD",
+        "postcode": "BR4 0QR",
+        "price": 940000,
+        "date": "2026-06-24",
+        "propertyType": "S",
+        "newBuild": false
+      },
+      {
+        "address": "31, ELIZABETH WAY",
+        "postcode": "BR5 4BJ",
+        "price": 385000,
+        "date": "2026-06-24",
+        "propertyType": "T",
+        "newBuild": false
+      },
+      {
+        "address": "17, HARTFIELD CRESCENT",
+        "postcode": "BR4 9DN",
+        "price": 900000,
+        "date": "2026-06-19",
+        "propertyType": "D",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 1276000,
+      "gdvPerUnit": 638000,
+      "gdvBasis": "HM Land Registry semi-detached median of £607,500 plus a 5% new-build premium (assumed)",
+      "buildCost": 549000,
+      "onCosts": 190000,
+      "financeCosts": 62000,
+      "landValue": 252000,
+      "totalCost": 1053000,
+      "targetProfit": 223000,
+      "targetProfitPct": 17.5,
+      "senior": 829000,
+      "seniorLtgdv": 0.6496865203761756,
+      "seniorLtc": 0.7872744539411206,
+      "stretchSenior": 893000,
+      "stretchLtgdv": 0.6998432601880877,
+      "stretchLtc": 0.8480531813865148,
+      "mezzanine": 119000,
+      "totalDebt": 948000,
+      "totalDebtLtgdv": 0.7429467084639498,
+      "totalDebtLtc": 0.9002849002849003,
+      "equityWithSenior": 224000,
+      "equityWithMezz": 105000,
+      "termMonths": 12,
+      "marginalViability": false,
+      "costModelCredible": true,
+      "assumptions": [
+        "GDV: HM Land Registry semi-detached median of £607,500 plus a 5% new-build premium (assumed).",
+        "Build cost: £2,600-£3,350/sqm (new build, indicative range informed by BCIS regional tender-price data, 2025/26) × 93 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 10%, contingency 5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "Land and Development Director Matt Arnold",
+    "applicantCompany": "",
+    "agentName": "",
+    "agentCompany": "",
+    "applicantDetailSource": null,
+    "resolution": {
+      "applicantRaw": "Land and Development Director Matt Arnold",
+      "applicantKind": "company",
+      "ownerCompany": {
+        "companyNumber": "17158885",
+        "companyName": "ARNOLD AND SONS LANDSCAPING LTD LTD",
+        "companyStatus": "active",
+        "companyType": "ltd",
+        "incorporationDate": "2026-04-15",
+        "sicCodes": [
+          "01610"
+        ],
+        "registeredOffice": {
+          "addressLine1": "Medhurst Barn",
+          "addressLine2": "Cranbrook Road",
+          "locality": "Biddenden",
+          "region": "",
+          "postalCode": "TN27 8DY",
+          "country": "United Kingdom"
+        },
+        "directors": [
+          {
+            "name": "ARNOLD, Tom Sebastian",
+            "firstName": "Tom",
+            "lastName": "Arnold",
+            "role": "director",
+            "appointedOn": "2026-04-15",
+            "appointmentsLink": "/officers/pPsohfQgbepyrNhRVBs-0ptzPyg/appointments"
+          }
+        ],
+        "matchConfidence": "fuzzy"
+      },
+      "ownerCompanyName": "ARNOLD AND SONS LANDSCAPING LTD LTD",
+      "contacts": [],
+      "pscs": [
+        {
+          "name": "Tom Sebastian Arnold",
+          "firstName": "Tom",
+          "lastName": "Arnold",
+          "kind": "individual-person-with-significant-control",
+          "naturesOfControl": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ]
+        }
+      ],
+      "associatedCompanies": [],
+      "agentCompanyName": "",
+      "outcome": "owner_identified_no_email",
+      "notes": [
+        "Companies House: ARNOLD AND SONS LANDSCAPING LTD LTD (17158885, fuzzy, 1 directors)",
+        "Apollo: 0 results for \"ARNOLD AND SONS LANDSCAPING LTD LTD\", none at a matching organisation",
+        "Companies House graph: 1 people, 0 associated companies",
+        "Apollo name search \"Tom Arnold\": 10 results, none matching name + property/senior signals"
+      ]
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003RlIrIAK?c__r=Arcus_BE_Public_Register"
+  },
+  {
+    "key": "southampton city council::26/00744/pa2a",
+    "reference": "26/00744/PA2A",
+    "localAuthority": "Southampton City Council",
+    "county": "hampshire",
+    "town": "southampton",
+    "address": "Locksley Court 24 - 26 Archers Road Southampton SO15 2LE",
+    "postcode": "SO15 2LE",
+    "proposal": "Permitted Development Assessment - Prior Approval sought for an additional 1 storey to provide 6 x flats (4 x two bed 2 x one bed)",
+    "consentStage": "primary_consent",
+    "decisionDate": null,
+    "units": 6,
+    "schemeType": "flats",
+    "unitValue": 160000,
+    "gdv": 960000,
+    "ltgdv": 0.65,
+    "loanAmount": 624000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 255000,
+      "transactionCount12m": 2316,
+      "yoyChange": 2
+    },
+    "comparables": [
+      {
+        "address": "FLAT 7, OAKLEY HOUSE, COURT ROAD",
+        "postcode": "SO15 2JR",
+        "price": 122500,
+        "date": "2026-06-19",
+        "propertyType": "F",
+        "newBuild": false
+      },
+      {
+        "address": "9, BOURNE ROAD",
+        "postcode": "SO15 3AB",
+        "price": 220000,
+        "date": "2026-06-18",
+        "propertyType": "F",
+        "newBuild": false
+      },
+      {
+        "address": "3, LAUREL GATE, 7, ARCHERS ROAD",
+        "postcode": "SO15 2LQ",
+        "price": 225000,
+        "date": "2026-06-15",
+        "propertyType": "F",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 960000,
+      "gdvPerUnit": 160000,
+      "gdvBasis": "HM Land Registry flat median of £160,000",
+      "buildCost": 597000,
+      "onCosts": 196000,
+      "financeCosts": 46000,
+      "landValue": 0,
+      "totalCost": 839000,
+      "targetProfit": 168000,
+      "targetProfitPct": 17.5,
+      "senior": 624000,
+      "seniorLtgdv": 0.65,
+      "seniorLtc": 0.7437425506555423,
+      "stretchSenior": 672000,
+      "stretchLtgdv": 0.7,
+      "stretchLtc": 0.8009535160905841,
+      "mezzanine": 96000,
+      "totalDebt": 720000,
+      "totalDebtLtgdv": 0.75,
+      "totalDebtLtc": 0.8581644815256257,
+      "equityWithSenior": 215000,
+      "equityWithMezz": 119000,
+      "termMonths": 12,
+      "marginalViability": true,
+      "costModelCredible": false,
+      "assumptions": [
+        "GDV: HM Land Registry flat median of £160,000.",
+        "Build cost: £1,400-£1,770/sqm (conversion, indicative range informed by BCIS regional tender-price data, 2025/26) × 63 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 8%, contingency 7.5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "G & O Securities Limited",
+    "applicantCompany": "",
+    "agentName": "Planning Insight",
+    "agentCompany": "",
+    "applicantDetailSource": "idox-details",
+    "resolution": {
+      "applicantRaw": "G & O Securities Limited",
+      "applicantKind": "company",
+      "ownerCompany": {
+        "companyNumber": "02959865",
+        "companyName": "G & O SECURITIES LIMITED",
+        "companyStatus": "active",
+        "companyType": "ltd",
+        "incorporationDate": "1994-08-18",
+        "sicCodes": [
+          "68100",
+          "68209",
+          "82110",
+          "82911"
+        ],
+        "registeredOffice": {
+          "addressLine1": "60 Kingston Road",
+          "addressLine2": "",
+          "locality": "New Malden",
+          "region": "Surrey",
+          "postalCode": "KT3 3JG",
+          "country": "England"
+        },
+        "directors": [
+          {
+            "name": "O'DELL, Christopher John",
+            "firstName": "Christopher",
+            "lastName": "O'Dell",
+            "role": "director",
+            "appointedOn": "2000-03-01",
+            "appointmentsLink": "/officers/qMEAFf4SZAYadT_2Qg14beuyQMw/appointments"
+          }
+        ],
+        "matchConfidence": "exact"
+      },
+      "ownerCompanyName": "G & O SECURITIES LIMITED",
+      "contacts": [],
+      "pscs": [
+        {
+          "name": "Mr Christopher John O'Dell",
+          "firstName": "Christopher",
+          "lastName": "O'Dell",
+          "kind": "individual-person-with-significant-control",
+          "naturesOfControl": [
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ]
+        }
+      ],
+      "associatedCompanies": [
+        {
+          "companyNumber": "04848494",
+          "companyName": "GROUND RENT PROPERTY SERVICES LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2025-09-02",
+          "viaPerson": "Christopher O'Dell",
+          "propertyLike": true
+        },
+        {
+          "companyNumber": "15749350",
+          "companyName": "MADELL PROPERTIES LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2024-05-29",
+          "viaPerson": "Christopher O'Dell",
+          "propertyLike": true
+        },
+        {
+          "companyNumber": "00477580",
+          "companyName": "BUILDERS MERCHANTS (WIMBLEDON) LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2024-05-03",
+          "viaPerson": "Christopher O'Dell",
+          "propertyLike": true
+        },
+        {
+          "companyNumber": "14911270",
+          "companyName": "NEW MALDEN PROPERTY LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2023-06-02",
+          "viaPerson": "Christopher O'Dell",
+          "propertyLike": true
+        },
+        {
+          "companyNumber": "08975110",
+          "companyName": "G20 PROPERTY LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2018-05-01",
+          "viaPerson": "Christopher O'Dell",
+          "propertyLike": true
+        },
+        {
+          "companyNumber": "02364392",
+          "companyName": "MENETRIER INVESTMENTS LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2011-12-16",
+          "viaPerson": "Christopher O'Dell",
+          "propertyLike": true
+        },
+        {
+          "companyNumber": "03256407",
+          "companyName": "LISA PROPERTY LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2011-08-18",
+          "viaPerson": "Christopher O'Dell",
+          "propertyLike": true
+        },
+        {
+          "companyNumber": "02865918",
+          "companyName": "KNIGHTS PARK ESTATES LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2011-08-18",
+          "viaPerson": "Christopher O'Dell",
+          "propertyLike": true
+        }
+      ],
+      "agentCompanyName": "",
+      "outcome": "owner_identified_no_email",
+      "notes": [
+        "Companies House: G & O SECURITIES LIMITED (02959865, exact, 1 directors)",
+        "Apollo: 0 results for \"G & O SECURITIES LIMITED\", none at a matching organisation",
+        "Companies House graph: 1 people, 8 associated companies (GROUND RENT PROPERTY SERVICES LIMITED; MADELL PROPERTIES LIMITED; BUILDERS MERCHANTS (WIMBLEDON) LIMITED; NEW MALDEN PROPERTY LIMITED)",
+        "Apollo name search \"Christopher O'Dell\": 3 results, none matching name + property/senior signals"
+      ]
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://planningpublicaccess.southampton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TH88YVOZL8F00"
+  },
+  {
+    "key": "southampton city council::26/00809/pa56",
+    "reference": "26/00809/PA56",
+    "localAuthority": "Southampton City Council",
+    "county": "hampshire",
+    "town": "southampton",
+    "address": "76 Anglesea Road Southampton",
+    "postcode": "",
+    "proposal": "Prior Approval sought for a change of use from Commercial, Business and Service (Use Class E) to 5 flats (3 x 1 bed, 2 x 2 bed) (Use Class C3)",
+    "consentStage": "primary_consent",
+    "decisionDate": null,
+    "units": 5,
+    "schemeType": "flats",
+    "unitValue": 160000,
+    "gdv": 800000,
+    "ltgdv": 0.65,
+    "loanAmount": 520000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 255000,
+      "transactionCount12m": 2316,
+      "yoyChange": 2
+    },
+    "comparables": [
+      {
+        "address": "13, BLYTH CLOSE",
+        "postcode": "SO16 9PR",
+        "price": 146000,
+        "date": "2026-06-24",
+        "propertyType": "F",
+        "newBuild": false
+      },
+      {
+        "address": "25, GLEBE COURT",
+        "postcode": "SO17 1RH",
+        "price": 247000,
+        "date": "2026-06-22",
+        "propertyType": "F",
+        "newBuild": false
+      },
+      {
+        "address": "FLAT 7, OAKLEY HOUSE, COURT ROAD",
+        "postcode": "SO15 2JR",
+        "price": 122500,
+        "date": "2026-06-19",
+        "propertyType": "F",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 800000,
+      "gdvPerUnit": 160000,
+      "gdvBasis": "HM Land Registry flat median of £160,000",
+      "buildCost": 498000,
+      "onCosts": 163000,
+      "financeCosts": 38000,
+      "landValue": 0,
+      "totalCost": 699000,
+      "targetProfit": 140000,
+      "targetProfitPct": 17.5,
+      "senior": 520000,
+      "seniorLtgdv": 0.65,
+      "seniorLtc": 0.7439198855507868,
+      "stretchSenior": 560000,
+      "stretchLtgdv": 0.7,
+      "stretchLtc": 0.8011444921316166,
+      "mezzanine": 80000,
+      "totalDebt": 600000,
+      "totalDebtLtgdv": 0.75,
+      "totalDebtLtc": 0.8583690987124464,
+      "equityWithSenior": 179000,
+      "equityWithMezz": 99000,
+      "termMonths": 12,
+      "marginalViability": true,
+      "costModelCredible": false,
+      "assumptions": [
+        "GDV: HM Land Registry flat median of £160,000.",
+        "Build cost: £1,400-£1,770/sqm (conversion, indicative range informed by BCIS regional tender-price data, 2025/26) × 63 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 8%, contingency 7.5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "KT1 Investments LTD",
+    "applicantCompany": "",
+    "agentName": "RS Studio",
+    "agentCompany": "",
+    "applicantDetailSource": "idox-details",
+    "resolution": {
+      "applicantRaw": "KT1 Investments LTD",
+      "applicantKind": "company",
+      "ownerCompany": {
+        "companyNumber": "15775745",
+        "companyName": "KT1 INVESTMENTS LTD",
+        "companyStatus": "active",
+        "companyType": "ltd",
+        "incorporationDate": "2024-06-13",
+        "sicCodes": [
+          "68100",
+          "68201",
+          "68209",
+          "68320"
+        ],
+        "registeredOffice": {
+          "addressLine1": "East Quay Kite Hill",
+          "addressLine2": "Wootton Bridge",
+          "locality": "Ryde",
+          "region": "Isle Of Wight",
+          "postalCode": "PO33 4LA",
+          "country": "England"
+        },
+        "directors": [
+          {
+            "name": "BATTU, Balbinder",
+            "firstName": "Balbinder",
+            "lastName": "Battu",
+            "role": "director",
+            "appointedOn": "2024-06-13",
+            "appointmentsLink": "/officers/HfaaXXU6aohRQiGaMZRXpwSjvbI/appointments"
+          },
+          {
+            "name": "GAUR, Sandeep",
+            "firstName": "Sandeep",
+            "lastName": "Gaur",
+            "role": "director",
+            "appointedOn": "2024-06-13",
+            "appointmentsLink": "/officers/wAotXJ5MtMUNmZsjh9SmwemgeDs/appointments"
+          }
+        ],
+        "matchConfidence": "exact"
+      },
+      "ownerCompanyName": "KT1 INVESTMENTS LTD",
+      "contacts": [],
+      "pscs": [
+        {
+          "name": "Mr Balbinder Battu",
+          "firstName": "Balbinder",
+          "lastName": "Battu",
+          "kind": "individual-person-with-significant-control",
+          "naturesOfControl": [
+            "ownership-of-shares-25-to-50-percent",
+            "voting-rights-25-to-50-percent",
+            "right-to-appoint-and-remove-directors"
+          ]
+        },
+        {
+          "name": "Mr Sandeep Gaur",
+          "firstName": "Sandeep",
+          "lastName": "Gaur",
+          "kind": "individual-person-with-significant-control",
+          "naturesOfControl": [
+            "ownership-of-shares-25-to-50-percent",
+            "voting-rights-25-to-50-percent",
+            "right-to-appoint-and-remove-directors"
+          ]
+        }
+      ],
+      "associatedCompanies": [
+        {
+          "companyNumber": "OC449578",
+          "companyName": "BAT2 PARTNERS LLP",
+          "companyStatus": "active",
+          "role": "llp-designated-member",
+          "appointedOn": "2023-10-18",
+          "viaPerson": "Balbinder Battu",
+          "propertyLike": false
+        }
+      ],
+      "agentCompanyName": "",
+      "outcome": "owner_identified_no_email",
+      "notes": [
+        "Companies House: KT1 INVESTMENTS LTD (15775745, exact, 2 directors)",
+        "Apollo: 0 results for \"KT1 INVESTMENTS LTD\", none at a matching organisation",
+        "Companies House graph: 2 people, 1 associated companies (BAT2 PARTNERS LLP)",
+        "Apollo name search \"Balbinder Battu\": 0 results, none matching name + property/senior signals",
+        "Apollo name search \"Sandeep Gaur\": 1 results, none matching name + property/senior signals"
+      ]
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://planningpublicaccess.southampton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THYSHDOZM9700"
+  },
+  {
+    "key": "london borough of ealing::262304ful",
+    "reference": "262304FUL",
+    "localAuthority": "London Borough of Ealing",
+    "county": "greater-london",
+    "town": "ealing",
+    "address": "12 Woodland Rise Greenford UB6 0RD",
+    "postcode": "UB6 0RD",
+    "proposal": "Change of Use of a single dwellinghouse (Use Class C3) into a small House in Multiple Occupation (HMO) (Use Class C4), for up to 5 occupants; including alterations to the rear and side elevations involving modifications and insertion of windows; and associated external alterations",
+    "consentStage": "primary_consent",
+    "decisionDate": null,
+    "units": 1,
+    "schemeType": "houses",
+    "unitValue": 661000,
+    "gdv": 661000,
+    "ltgdv": 0.65,
+    "loanAmount": 430000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 505000,
+      "transactionCount12m": 2126,
+      "yoyChange": -1.2
+    },
+    "comparables": [
+      {
+        "address": "63, FEDERAL ROAD",
+        "postcode": "UB6 7AP",
+        "price": 427000,
+        "date": "2026-06-18",
+        "propertyType": "T",
+        "newBuild": false
+      },
+      {
+        "address": "80, MIDDLETON AVENUE",
+        "postcode": "UB6 8BS",
+        "price": 570000,
+        "date": "2026-06-17",
+        "propertyType": "S",
+        "newBuild": false
+      },
+      {
+        "address": "46, DARYNGTON DRIVE",
+        "postcode": "UB6 8BN",
+        "price": 655000,
+        "date": "2026-06-17",
+        "propertyType": "S",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 661000,
+      "gdvPerUnit": 661000,
+      "gdvBasis": "HM Land Registry blended median of £661,000",
+      "buildCost": 174000,
+      "onCosts": 69000,
+      "financeCosts": 32000,
+      "landValue": 270000,
+      "totalCost": 545000,
+      "targetProfit": 116000,
+      "targetProfitPct": 17.5,
+      "senior": 430000,
+      "seniorLtgdv": 0.6505295007564297,
+      "seniorLtc": 0.7889908256880734,
+      "stretchSenior": 463000,
+      "stretchLtgdv": 0.7004538577912254,
+      "stretchLtc": 0.8495412844036697,
+      "mezzanine": 61000,
+      "totalDebt": 491000,
+      "totalDebtLtgdv": 0.7428139183055976,
+      "totalDebtLtc": 0.9009174311926605,
+      "equityWithSenior": 115000,
+      "equityWithMezz": 54000,
+      "termMonths": 12,
+      "marginalViability": false,
+      "costModelCredible": true,
+      "assumptions": [
+        "GDV: HM Land Registry blended median of £661,000.",
+        "Build cost: £1,610-£2,080/sqm (conversion, indicative range informed by BCIS regional tender-price data, 2025/26) × 95 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 8%, contingency 7.5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "Mr. M IQBAL",
+    "applicantCompany": "",
+    "agentName": "Mrs Bhumi Shah",
+    "agentCompany": "ICreate Designs Limited",
+    "applicantDetailSource": "idox-details",
+    "resolution": {
+      "applicantRaw": "Mr. M IQBAL",
+      "applicantKind": "unknown",
+      "ownerCompany": null,
+      "ownerCompanyName": "",
+      "contacts": [],
+      "pscs": [],
+      "associatedCompanies": [],
+      "agentCompanyName": "ICreate Designs Limited",
+      "outcome": "unresolved",
+      "notes": []
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://pam.ealing.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGBI2IJMGI900"
+  },
+  {
+    "key": "london borough of bromley::26/02796/pip",
+    "reference": "26/02796/PIP",
+    "localAuthority": "London Borough of Bromley",
+    "county": "greater-london",
+    "town": "bromley",
+    "address": "SPINDRIFT, THE DRIFT, BROMLEY, BR2 8HL",
+    "postcode": "BR2 8HL",
+    "proposal": "Permission in Principle for the for the construction of one dwelling (minimum) and two dwellings (maximum) and highway access under Part 2A of the Town and Country Planning (Permission in Principle) (Amendment) Order 2017.",
+    "consentStage": "primary_consent",
+    "decisionDate": "2026-09-04",
+    "units": 1,
+    "schemeType": "houses",
+    "unitValue": 638000,
+    "gdv": 638000,
+    "ltgdv": 0.65,
+    "loanAmount": 415000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 500000,
+      "transactionCount12m": 3202,
+      "yoyChange": 0
+    },
+    "comparables": [
+      {
+        "address": "15A, BECKENHAM ROAD",
+        "postcode": "BR4 0QR",
+        "price": 940000,
+        "date": "2026-06-24",
+        "propertyType": "S",
+        "newBuild": false
+      },
+      {
+        "address": "31, ELIZABETH WAY",
+        "postcode": "BR5 4BJ",
+        "price": 385000,
+        "date": "2026-06-24",
+        "propertyType": "T",
+        "newBuild": false
+      },
+      {
+        "address": "17, HARTFIELD CRESCENT",
+        "postcode": "BR4 9DN",
+        "price": 900000,
+        "date": "2026-06-19",
+        "propertyType": "D",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 638000,
+      "gdvPerUnit": 638000,
+      "gdvBasis": "HM Land Registry blended median of £607,500 plus a 5% new-build premium (assumed)",
+      "buildCost": 280000,
+      "onCosts": 96000,
+      "financeCosts": 30000,
+      "landValue": 120000,
+      "totalCost": 526000,
+      "targetProfit": 112000,
+      "targetProfitPct": 17.5,
+      "senior": 415000,
+      "seniorLtgdv": 0.6504702194357367,
+      "seniorLtc": 0.7889733840304183,
+      "stretchSenior": 447000,
+      "stretchLtgdv": 0.700626959247649,
+      "stretchLtc": 0.8498098859315589,
+      "mezzanine": 58000,
+      "totalDebt": 473000,
+      "totalDebtLtgdv": 0.7413793103448276,
+      "totalDebtLtc": 0.8992395437262357,
+      "equityWithSenior": 111000,
+      "equityWithMezz": 53000,
+      "termMonths": 12,
+      "marginalViability": false,
+      "costModelCredible": true,
+      "assumptions": [
+        "GDV: HM Land Registry blended median of £607,500 plus a 5% new-build premium (assumed).",
+        "Build cost: £2,600-£3,350/sqm (new build, indicative range informed by BCIS regional tender-price data, 2025/26) × 95 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 10%, contingency 5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "Mr & Mrs R & L Russ",
+    "applicantCompany": "",
+    "agentName": "Mr Joe Alderman",
+    "agentCompany": "",
+    "applicantDetailSource": null,
+    "resolution": {
+      "applicantRaw": "Mr & Mrs R & L Russ",
+      "applicantKind": "unknown",
+      "ownerCompany": null,
+      "ownerCompanyName": "",
+      "contacts": [],
+      "pscs": [],
+      "associatedCompanies": [],
+      "agentCompanyName": "",
+      "outcome": "unresolved",
+      "notes": []
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003YoOrIAK?c__r=Arcus_BE_Public_Register"
+  },
+  {
+    "key": "ashford borough council::pa/2026/1020",
+    "reference": "PA/2026/1020",
+    "localAuthority": "Ashford Borough Council",
+    "county": "kent",
+    "town": "ashford",
+    "address": "Land north of The Bungalow, Green Lane (Submitted as Green Lane Stables, Green Lane, Challock, Ashford, TN25 4DN)",
+    "postcode": "TN25 4DN",
+    "proposal": "Change of use of land for the erection of a one-and-a-half-storey, self-build detached dwelling, together with a detached car barn and associated infrastructure.",
+    "consentStage": "primary_consent",
+    "decisionDate": "2026-08-26",
+    "units": 1,
+    "schemeType": "houses",
+    "unitValue": 512000,
+    "gdv": 512000,
+    "ltgdv": 0.65,
+    "loanAmount": 333000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 340000,
+      "transactionCount12m": 1440,
+      "yoyChange": 0
+    },
+    "comparables": [
+      {
+        "address": "28, ORCHARD DRIVE",
+        "postcode": "TN25 5AU",
+        "price": 650000,
+        "date": "2026-06-16",
+        "propertyType": "D",
+        "newBuild": false
+      },
+      {
+        "address": "TUFTON, STATION ROAD",
+        "postcode": "TN27 0QU",
+        "price": 625000,
+        "date": "2026-06-26",
+        "propertyType": "D",
+        "newBuild": false
+      },
+      {
+        "address": "4, GREY WILLOW GARDENS",
+        "postcode": "TN23 5GG",
+        "price": 345000,
+        "date": "2026-06-26",
+        "propertyType": "S",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 512000,
+      "gdvPerUnit": 512000,
+      "gdvBasis": "HM Land Registry detached house median of £512,000",
+      "buildCost": 196000,
+      "onCosts": 71000,
+      "financeCosts": 24000,
+      "landValue": 131000,
+      "totalCost": 422000,
+      "targetProfit": 90000,
+      "targetProfitPct": 17.5,
+      "senior": 333000,
+      "seniorLtgdv": 0.650390625,
+      "seniorLtc": 0.7890995260663507,
+      "stretchSenior": 358000,
+      "stretchLtgdv": 0.69921875,
+      "stretchLtc": 0.8483412322274881,
+      "mezzanine": 47000,
+      "totalDebt": 380000,
+      "totalDebtLtgdv": 0.7421875,
+      "totalDebtLtc": 0.9004739336492891,
+      "equityWithSenior": 89000,
+      "equityWithMezz": 42000,
+      "termMonths": 12,
+      "marginalViability": false,
+      "costModelCredible": true,
+      "assumptions": [
+        "GDV: HM Land Registry detached house median of £512,000.",
+        "Build cost: £1,400-£1,770/sqm (conversion, indicative range informed by BCIS regional tender-price data, 2025/26) × 124 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 8%, contingency 7.5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "Mr & Mrs N Ovenden",
+    "applicantCompany": "",
+    "agentName": "Mr Matt Judge",
+    "agentCompany": "",
+    "applicantDetailSource": null,
+    "resolution": {
+      "applicantRaw": "Mr & Mrs N Ovenden",
+      "applicantKind": "unknown",
+      "ownerCompany": null,
+      "ownerCompanyName": "",
+      "contacts": [],
+      "pscs": [],
+      "associatedCompanies": [],
+      "agentCompanyName": "",
+      "outcome": "unresolved",
+      "notes": []
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://abcportal.ashford.gov.uk/pr/s/detail/a0hTw000004q7O5IAI?c__r=Arcus_BE_Public_Register"
+  },
+  {
+    "key": "southampton city council::26/00803/dis",
+    "reference": "26/00803/DIS",
+    "localAuthority": "Southampton City Council",
+    "county": "hampshire",
+    "town": "southampton",
+    "address": "123-125 Above Bar Street Southampton SO14 7FH",
+    "postcode": "SO14 7FH",
+    "proposal": "Application for approval of details reserved by conditions 03 (Nitrate Mitigation), 06 (Water efficiency) and 07 (Energy Efficiency) of permission 24/01032/FUL for 5 flats",
+    "consentStage": "condition_discharge",
+    "decisionDate": null,
+    "units": 5,
+    "schemeType": "flats",
+    "unitValue": 163200,
+    "gdv": 816000,
+    "ltgdv": 0.65,
+    "loanAmount": 530000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 255000,
+      "transactionCount12m": 2316,
+      "yoyChange": 2
+    },
+    "comparables": [
+      {
+        "address": "5A, PADWELL ROAD",
+        "postcode": "SO14 6QY",
+        "price": 205000,
+        "date": "2026-06-15",
+        "propertyType": "F",
+        "newBuild": false
+      },
+      {
+        "address": "13, BLYTH CLOSE",
+        "postcode": "SO16 9PR",
+        "price": 146000,
+        "date": "2026-06-24",
+        "propertyType": "F",
+        "newBuild": false
+      },
+      {
+        "address": "25, GLEBE COURT",
+        "postcode": "SO17 1RH",
+        "price": 247000,
+        "date": "2026-06-22",
+        "propertyType": "F",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 816000,
+      "gdvPerUnit": 163200,
+      "gdvBasis": "HM Land Registry flat median of £160,000 plus a 2% new-build premium (measured locally)",
+      "buildCost": 803000,
+      "onCosts": 241000,
+      "financeCosts": 39000,
+      "landValue": 0,
+      "totalCost": 1083000,
+      "targetProfit": 143000,
+      "targetProfitPct": 17.5,
+      "senior": 530000,
+      "seniorLtgdv": 0.6495098039215687,
+      "seniorLtc": 0.48938134810710987,
+      "stretchSenior": 571000,
+      "stretchLtgdv": 0.6997549019607843,
+      "stretchLtc": 0.5272391505078485,
+      "mezzanine": 82000,
+      "totalDebt": 612000,
+      "totalDebtLtgdv": 0.75,
+      "totalDebtLtc": 0.5650969529085873,
+      "equityWithSenior": 553000,
+      "equityWithMezz": 471000,
+      "termMonths": 12,
+      "marginalViability": true,
+      "costModelCredible": false,
+      "assumptions": [
+        "GDV: HM Land Registry flat median of £160,000 plus a 2% new-build premium (measured locally).",
+        "Build cost: £2,250-£2,850/sqm (new build, indicative range informed by BCIS regional tender-price data, 2025/26) × 63 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 10%, contingency 5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "Seaongold Ltd",
+    "applicantCompany": "",
+    "agentName": "New Image Design",
+    "agentCompany": "",
+    "applicantDetailSource": "idox-details",
+    "resolution": {
+      "applicantRaw": "Seaongold Ltd",
+      "applicantKind": "company",
+      "ownerCompany": {
+        "companyNumber": "15784114",
+        "companyName": "SEAONGOLD LTD",
+        "companyStatus": "active",
+        "companyType": "ltd",
+        "incorporationDate": "2024-06-17",
+        "sicCodes": [
+          "68209",
+          "70229"
+        ],
+        "registeredOffice": {
+          "addressLine1": "L C S House",
+          "addressLine2": "44 Worship Street",
+          "locality": "London",
+          "region": "",
+          "postalCode": "EC2A 2EA",
+          "country": "England"
+        },
+        "directors": [
+          {
+            "name": "LIN, Yuan Jing",
+            "firstName": "Yuan",
+            "lastName": "Lin",
+            "role": "director",
+            "appointedOn": "2024-06-17",
+            "appointmentsLink": "/officers/g0-AnLnQWo7VH98SskUwDWemXvY/appointments"
+          }
+        ],
+        "matchConfidence": "exact"
+      },
+      "ownerCompanyName": "SEAONGOLD LTD",
+      "contacts": [],
+      "pscs": [
+        {
+          "name": "Mr Yuan Jing Lin",
+          "firstName": "Yuan",
+          "lastName": "Lin",
+          "kind": "individual-person-with-significant-control",
+          "naturesOfControl": [
+            "ownership-of-shares-75-to-100-percent",
+            "voting-rights-75-to-100-percent",
+            "right-to-appoint-and-remove-directors"
+          ]
+        }
+      ],
+      "associatedCompanies": [
+        {
+          "companyNumber": "16709976",
+          "companyName": "SPIRITBLOOM LTD",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2025-09-11",
+          "viaPerson": "Yuan Lin",
+          "propertyLike": false
+        },
+        {
+          "companyNumber": "16540555",
+          "companyName": "UK TEOCHEW CULTURE AND COMMERCE ASSOCIATION",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2025-06-25",
+          "viaPerson": "Yuan Lin",
+          "propertyLike": false
+        }
+      ],
+      "agentCompanyName": "",
+      "outcome": "owner_identified_no_email",
+      "notes": [
+        "Companies House: SEAONGOLD LTD (15784114, exact, 1 directors)",
+        "Apollo: 0 results for \"SEAONGOLD LTD\", none at a matching organisation",
+        "Companies House graph: 1 people, 2 associated companies (SPIRITBLOOM LTD; UK TEOCHEW CULTURE AND COMMERCE ASSOCIATION)",
+        "Apollo name search \"Yuan Lin\": 6 results, none matching name + property/senior signals"
+      ]
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://planningpublicaccess.southampton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THY65AOZM7X00"
+  },
+  {
+    "key": "london borough of bromley::22/04060/s73a",
+    "reference": "22/04060/S73A",
+    "localAuthority": "London Borough of Bromley",
+    "county": "greater-london",
+    "town": "bromley",
+    "address": "FOXHOLLOW, MERLEWOOD DRIVE, CHISLEHURST, BR7 5LQ",
+    "postcode": "BR7 5LQ",
+    "proposal": "Under Section 73 of the Town and Country Planning Act 1990, variation of Condition 2 of planning permission reference 22/04060/FULL1 dated 19.12.2022 granted for (Demolition of ancillary residential outbuildings. Erection of two storey dwelling with associated car parking and amenity area) to allow for increased building footprint and increased external building height and internal floor heights.",
+    "consentStage": "variation",
+    "decisionDate": "2026-09-04",
+    "units": 2,
+    "schemeType": "houses",
+    "unitValue": 638000,
+    "gdv": 1276000,
+    "ltgdv": 0.65,
+    "loanAmount": 829000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 500000,
+      "transactionCount12m": 3202,
+      "yoyChange": 0
+    },
+    "comparables": [
+      {
+        "address": "15A, BECKENHAM ROAD",
+        "postcode": "BR4 0QR",
+        "price": 940000,
+        "date": "2026-06-24",
+        "propertyType": "S",
+        "newBuild": false
+      },
+      {
+        "address": "31, ELIZABETH WAY",
+        "postcode": "BR5 4BJ",
+        "price": 385000,
+        "date": "2026-06-24",
+        "propertyType": "T",
+        "newBuild": false
+      },
+      {
+        "address": "17, HARTFIELD CRESCENT",
+        "postcode": "BR4 9DN",
+        "price": 900000,
+        "date": "2026-06-19",
+        "propertyType": "D",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 1276000,
+      "gdvPerUnit": 638000,
+      "gdvBasis": "HM Land Registry blended median of £607,500 plus a 5% new-build premium (assumed)",
+      "buildCost": 561000,
+      "onCosts": 194000,
+      "financeCosts": 62000,
+      "landValue": 236000,
+      "totalCost": 1053000,
+      "targetProfit": 223000,
+      "targetProfitPct": 17.5,
+      "senior": 829000,
+      "seniorLtgdv": 0.6496865203761756,
+      "seniorLtc": 0.7872744539411206,
+      "stretchSenior": 893000,
+      "stretchLtgdv": 0.6998432601880877,
+      "stretchLtc": 0.8480531813865148,
+      "mezzanine": 119000,
+      "totalDebt": 948000,
+      "totalDebtLtgdv": 0.7429467084639498,
+      "totalDebtLtc": 0.9002849002849003,
+      "equityWithSenior": 224000,
+      "equityWithMezz": 105000,
+      "termMonths": 12,
+      "marginalViability": false,
+      "costModelCredible": true,
+      "assumptions": [
+        "GDV: HM Land Registry blended median of £607,500 plus a 5% new-build premium (assumed).",
+        "Build cost: £2,600-£3,350/sqm (new build, indicative range informed by BCIS regional tender-price data, 2025/26) × 95 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 10%, contingency 5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "Mr Richard Stone",
+    "applicantCompany": "",
+    "agentName": "Mr Neil Bartlett",
+    "agentCompany": "",
+    "applicantDetailSource": null,
+    "resolution": {
+      "applicantRaw": "Mr Richard Stone",
+      "applicantKind": "individual",
+      "ownerCompany": null,
+      "ownerCompanyName": "",
+      "contacts": [],
+      "pscs": [],
+      "associatedCompanies": [],
+      "agentCompanyName": "",
+      "outcome": "unresolved",
+      "notes": [
+        "individual applicant: no active property-company directorship found near the site",
+        "Apollo name search \"Richard Stone\": 10 results, none matching name + property/senior signals"
+      ]
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://planningaccess.bromley.gov.uk/pr/s/detail/a0lTv000003UtBpIAK?c__r=Arcus_BE_Public_Register"
+  },
+  {
+    "key": "south somerset district council (legacy portal)::26/01343/s73a",
+    "reference": "26/01343/S73A",
+    "localAuthority": "South Somerset District Council (legacy portal)",
+    "county": "somerset",
+    "town": "yeovil",
+    "address": "Golden Valley Farm Water Lane Charlton Horethorne Sherborne Dorset DT9 4NX",
+    "postcode": "DT9 4NX",
+    "proposal": "S73 application to vary condition 2 (approved plans) of 24/02972/FUL for Conversion of 3 agricultural barns into 3 dwellings, demolition of a 4th agricultural barn to allow for the erection of a 4th dwelling with existing access from Water Lane and creation of a new access from Daw's Lane and ancillary works.",
+    "consentStage": "variation",
+    "decisionDate": null,
+    "units": 3,
+    "schemeType": "houses",
+    "unitValue": 255000,
+    "gdv": 765000,
+    "ltgdv": 0.65,
+    "loanAmount": 497000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 236750,
+      "transactionCount12m": 744,
+      "yoyChange": -1.4
+    },
+    "comparables": [
+      {
+        "address": "43, PRIMROSE LANE",
+        "postcode": "BA21 5SH",
+        "price": 457500,
+        "date": "2026-06-25",
+        "propertyType": "D",
+        "newBuild": false
+      },
+      {
+        "address": "35, SUMMERHOUSE VIEW",
+        "postcode": "BA21 4DJ",
+        "price": 184000,
+        "date": "2026-06-19",
+        "propertyType": "S",
+        "newBuild": false
+      },
+      {
+        "address": "38, PLANTAGENET CHASE",
+        "postcode": "BA20 2PR",
+        "price": 245000,
+        "date": "2026-06-19",
+        "propertyType": "S",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 765000,
+      "gdvPerUnit": 255000,
+      "gdvBasis": "HM Land Registry blended median of £255,000",
+      "buildCost": 410000,
+      "onCosts": 138000,
+      "financeCosts": 36000,
+      "landValue": 47000,
+      "totalCost": 631000,
+      "targetProfit": 134000,
+      "targetProfitPct": 17.5,
+      "senior": 497000,
+      "seniorLtgdv": 0.6496732026143791,
+      "seniorLtc": 0.7876386687797148,
+      "stretchSenior": 536000,
+      "stretchLtgdv": 0.7006535947712418,
+      "stretchLtc": 0.849445324881141,
+      "mezzanine": 71000,
+      "totalDebt": 568000,
+      "totalDebtLtgdv": 0.742483660130719,
+      "totalDebtLtc": 0.9001584786053882,
+      "equityWithSenior": 134000,
+      "equityWithMezz": 63000,
+      "termMonths": 12,
+      "marginalViability": false,
+      "costModelCredible": true,
+      "assumptions": [
+        "GDV: HM Land Registry blended median of £255,000.",
+        "Build cost: £1,270-£1,610/sqm (conversion, indicative range informed by BCIS regional tender-price data, 2025/26) × 95 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 8%, contingency 7.5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "Hopkins Estates Ltd",
+    "applicantCompany": "",
+    "agentName": "Mrs Claudia Lopez-Leal",
+    "agentCompany": "Grass Roots Planning",
+    "applicantDetailSource": "idox-details",
+    "resolution": {
+      "applicantRaw": "Hopkins Estates Ltd",
+      "applicantKind": "company",
+      "ownerCompany": {
+        "companyNumber": "01312512",
+        "companyName": "HOPKINS ESTATES LIMITED",
+        "companyStatus": "active",
+        "companyType": "ltd",
+        "incorporationDate": "1977-05-04",
+        "sicCodes": [
+          "01500",
+          "23630",
+          "41100",
+          "68209"
+        ],
+        "registeredOffice": {
+          "addressLine1": "The Tythings Commercial Centre",
+          "addressLine2": "Southgate Road",
+          "locality": "Wincanton",
+          "region": "Somerset",
+          "postalCode": "BA9 9RZ",
+          "country": ""
+        },
+        "directors": [
+          {
+            "name": "HOPKINS, Nathan William",
+            "firstName": "Nathan",
+            "lastName": "Hopkins",
+            "role": "director",
+            "appointedOn": "2003-10-22",
+            "appointmentsLink": "/officers/P2horI1y5-_d-QpZ-mhr6ugwjHM/appointments"
+          },
+          {
+            "name": "HOPKINS, William Ian",
+            "firstName": "William",
+            "lastName": "Hopkins",
+            "role": "director",
+            "appointedOn": "",
+            "appointmentsLink": "/officers/UwLT8b2LPfYbmQ8aCpKLvNvMuC4/appointments"
+          }
+        ],
+        "matchConfidence": "sic-match"
+      },
+      "ownerCompanyName": "HOPKINS ESTATES LIMITED",
+      "contacts": [
+        {
+          "firstName": "Nathan",
+          "lastName": "Hopkins",
+          "title": "Director",
+          "email": "nathan@hopkins.uk.net",
+          "emailStatus": "verified",
+          "linkedinUrl": "http://www.linkedin.com/in/nathan-hopkins-18312433",
+          "companyName": "Hopkins Estates",
+          "companyDomain": "hopkins-estates.co.uk",
+          "role": "director",
+          "confidence": "high",
+          "apolloId": "5ab4394ba6da987144c72961"
+        }
+      ],
+      "pscs": [
+        {
+          "name": "Mr William Ian Hopkins",
+          "firstName": "William",
+          "lastName": "Hopkins",
+          "kind": "individual-person-with-significant-control",
+          "naturesOfControl": [
+            "ownership-of-shares-75-to-100-percent-as-firm",
+            "voting-rights-75-to-100-percent-as-firm",
+            "right-to-appoint-and-remove-directors",
+            "significant-influence-or-control-as-firm"
+          ]
+        }
+      ],
+      "associatedCompanies": [
+        {
+          "companyNumber": "13528053",
+          "companyName": "KINGSLAND PROPERTY & LAND AGENTS LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2021-07-23",
+          "viaPerson": "Nathan Hopkins",
+          "propertyLike": true
+        },
+        {
+          "companyNumber": "06376309",
+          "companyName": "HOPKINS DEVELOPMENTS (HOLDINGS) LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2007-10-30",
+          "viaPerson": "Nathan Hopkins",
+          "propertyLike": true
+        },
+        {
+          "companyNumber": "16412963",
+          "companyName": "HOPKINS INDUSTRIES LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2025-04-28",
+          "viaPerson": "Nathan Hopkins",
+          "propertyLike": false
+        },
+        {
+          "companyNumber": "06113729",
+          "companyName": "KINGSMEAD BUSINESS PARK MANAGEMENT COMPANY LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2007-02-19",
+          "viaPerson": "Nathan Hopkins",
+          "propertyLike": false
+        },
+        {
+          "companyNumber": "09747763",
+          "companyName": "HOPKINS DEVELOPMENTS LIMITED",
+          "companyStatus": "active",
+          "role": "director",
+          "appointedOn": "2018-09-11",
+          "viaPerson": "William Hopkins",
+          "propertyLike": true
+        }
+      ],
+      "agentCompanyName": "Grass Roots Planning",
+      "outcome": "owner_contact",
+      "notes": [
+        "Companies House: HOPKINS ESTATES LIMITED (01312512, sic-match, 2 directors)",
+        "Apollo: 0 results for \"HOPKINS ESTATES LIMITED\", none at a matching organisation",
+        "Companies House graph: 2 people, 5 associated companies (KINGSLAND PROPERTY & LAND AGENTS LIMITED; HOPKINS DEVELOPMENTS (HOLDINGS) LIMITED; HOPKINS INDUSTRIES LIMITED; KINGSMEAD BUSINESS PARK MANAGEMENT COMPANY LIMITED)",
+        "Apollo: Nathan Hopkins matched as Director at Hopkins Estates (high)",
+        "Apollo name search \"William Hopkins\": 10 results, none matching name + property/senior signals"
+      ]
+    },
+    "verifications": [
+      {
+        "email": "nathan@hopkins.uk.net",
+        "verdict": "send_catch_all",
+        "status": "catch_all",
+        "score": 75,
+        "reason": "catch-all domain, inbox unconfirmed"
+      }
+    ],
+    "pushed": [
+      {
+        "email": "nathan@hopkins.uk.net",
+        "leadId": "01a07a91-4eff-7a4b-9c16-6e562929cd7b",
+        "role": "director",
+        "verification": "catch-all"
+      }
+    ],
+    "skippedEmails": [],
+    "planningUrl": "https://publicaccess.southsomerset.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TGF3VYOWKIA00"
+  },
+  {
+    "key": "king's lynn & west norfolk borough council::26/01078/o",
+    "reference": "26/01078/O",
+    "localAuthority": "King's Lynn & West Norfolk Borough Council",
+    "county": "norfolk",
+    "town": "kings-lynn",
+    "address": "Land North of 37 And 39 Manor Road Dersingham Norfolk",
+    "postcode": "",
+    "proposal": "Outline application for the erection of no. 2 dwellings with all matters reserved except access",
+    "consentStage": "outline",
+    "decisionDate": null,
+    "units": 2,
+    "schemeType": "houses",
+    "unitValue": 247000,
+    "gdv": 494000,
+    "ltgdv": 0.65,
+    "loanAmount": 321000,
+    "valuationSource": "appraisal",
+    "sold": {
+      "medianPrice": 260000,
+      "transactionCount12m": 1745,
+      "yoyChange": -2.8
+    },
+    "comparables": [
+      {
+        "address": "WELLINGHALL, CASTLE ROAD",
+        "postcode": "PE33 0SG",
+        "price": 360000,
+        "date": "2026-06-26",
+        "propertyType": "D",
+        "newBuild": false
+      },
+      {
+        "address": "6, HALLFIELDS",
+        "postcode": "PE33 0DN",
+        "price": 320000,
+        "date": "2026-06-26",
+        "propertyType": "D",
+        "newBuild": false
+      },
+      {
+        "address": "3, BRIDGE ROAD",
+        "postcode": "PE38 0AE",
+        "price": 180000,
+        "date": "2026-06-26",
+        "propertyType": "T",
+        "newBuild": false
+      }
+    ],
+    "stack": {
+      "gdv": 494000,
+      "gdvPerUnit": 247000,
+      "gdvBasis": "HM Land Registry blended median of £235,000 plus a 5% new-build premium (assumed)",
+      "buildCost": 452000,
+      "onCosts": 137000,
+      "financeCosts": 24000,
+      "landValue": 0,
+      "totalCost": 613000,
+      "targetProfit": 86000,
+      "targetProfitPct": 17.5,
+      "senior": 321000,
+      "seniorLtgdv": 0.6497975708502024,
+      "seniorLtc": 0.5236541598694943,
+      "stretchSenior": 346000,
+      "stretchLtgdv": 0.7004048582995951,
+      "stretchLtc": 0.564437194127243,
+      "mezzanine": 50000,
+      "totalDebt": 371000,
+      "totalDebtLtgdv": 0.7510121457489879,
+      "totalDebtLtc": 0.6052202283849919,
+      "equityWithSenior": 292000,
+      "equityWithMezz": 242000,
+      "termMonths": 12,
+      "marginalViability": true,
+      "costModelCredible": false,
+      "assumptions": [
+        "GDV: HM Land Registry blended median of £235,000 plus a 5% new-build premium (assumed).",
+        "Build cost: £2,100-£2,650/sqm (new build, indicative range informed by BCIS regional tender-price data, 2025/26) × 95 sqm/unit (NDSS-derived).",
+        "On-costs: externals 10%, professional fees 10%, contingency 5%, sales & legals 3.5000000000000004% of GDV. Excludes CIL/Section 106, which vary by charging schedule and scheme.",
+        "Finance: senior facility at 65% LTGDV, 8.5% pa on an average 57.49999999999999% drawdown over 12 months, plus 2.5% arrangement and exit fees.",
+        "Residual land value assumes the industry-standard 17.5% developer profit-on-GDV target. Indicative appraisal, not a valuation or lending offer."
+      ]
+    },
+    "applicantName": "",
+    "applicantCompany": "",
+    "agentName": "Class Q Ltd",
+    "agentCompany": "Agent Address Mr Tom Helliwell The Grey House 3 Broad Street Stamford PE9 1PG GB",
+    "applicantDetailSource": "idox-details",
+    "resolution": {
+      "applicantRaw": "",
+      "applicantKind": "unknown",
+      "ownerCompany": null,
+      "ownerCompanyName": "",
+      "contacts": [],
+      "pscs": [],
+      "associatedCompanies": [],
+      "agentCompanyName": "Mr Tom Helliwell The Grey House 3 Broad Street Stamford PE9 1PG GB",
+      "outcome": "unresolved",
+      "notes": []
+    },
+    "verifications": [],
+    "pushed": [],
+    "skippedEmails": [],
+    "planningUrl": "https://online.west-norfolk.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TH7H54IVH9U00"
+  }
+]
