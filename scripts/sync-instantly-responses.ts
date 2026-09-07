@@ -1,36 +1,30 @@
 /**
  * Sync Instantly.ai Responses to GoHighLevel CRM
  *
- * Polls Instantly API for positive replies to outreach campaigns,
- * then creates GHL contacts/opportunities via the existing pushLeadToGHL().
+ * Polls the Instantly v2 API for leads marked interested in the planning
+ * outreach campaign, then creates GHL contacts/opportunities via pushLeadToGHL().
  *
  * Tags: "Outreach - Planning Data" to distinguish from website leads.
  *
- * Env: INSTANTLY_API_KEY, GHL_API_KEY, GHL_LOCATION_ID
+ * Env: INSTANTLY_API_KEY, GHL_API_KEY, GHL_LOCATION_ID,
+ *      INSTANTLY_CAMPAIGN_ID | INSTANTLY_CAMPAIGN_NAME (defaults to the weekly planning campaign)
  *
  * Usage:
  *   npx tsx scripts/sync-instantly-responses.ts
  *   npx tsx scripts/sync-instantly-responses.ts --campaign <campaign-id>
+ *   npx tsx scripts/sync-instantly-responses.ts --all-campaigns   # every campaign in the workspace
  *   npx tsx scripts/sync-instantly-responses.ts --dry-run
  */
 
 import * as fs from "fs";
 import * as path from "path";
+
 import { pushLeadToGHL } from "../src/lib/ghl";
+import { loadEnvLocal } from "./lib/env";
+import { INTEREST_STATUS_LABEL, InstantlyClient, leadVariables, type InstantlyCampaign } from "./lib/instantly";
+import { CAMPAIGN_NAME_DEFAULT } from "./lib/outreach-copy";
 
-// ── Types ───────────────────────────────────────────────────────────────────
-
-interface InstantlyLead {
-  id: string;
-  email: string;
-  first_name: string;
-  last_name: string;
-  company_name: string;
-  status: string;
-  custom_variables: Record<string, string>;
-  replied: boolean;
-  interested: boolean;
-}
+loadEnvLocal();
 
 interface SyncLogEntry {
   email: string;
@@ -40,56 +34,15 @@ interface SyncLogEntry {
   syncedAt: string;
 }
 
-// ── Config ──────────────────────────────────────────────────────────────────
-
 const API_KEY = process.env.INSTANTLY_API_KEY;
-const API_BASE = "https://api.instantly.ai/api/v1";
-const SYNC_LOG_PATH = path.join(
-  process.cwd(),
-  "data",
-  "generated",
-  "developer-prospects",
-  "ghl-sync-log.json"
-);
+const SYNC_LOG_PATH = path.join(process.cwd(), "data", "generated", "developer-prospects", "ghl-sync-log.json");
 
-// ── API ─────────────────────────────────────────────────────────────────────
-
-async function getCampaigns(): Promise<any[]> {
-  const res = await fetch(`${API_BASE}/campaign/list?api_key=${API_KEY}`);
-  if (!res.ok) throw new Error(`Instantly ${res.status}: ${await res.text()}`);
-  return res.json();
-}
-
-async function getLeads(campaignId: string, status: string = "interested"): Promise<InstantlyLead[]> {
-  const allLeads: InstantlyLead[] = [];
-  let skip = 0;
-  const limit = 100;
-
-  // Paginate through all leads
-  while (true) {
-    const url = `${API_BASE}/lead/list?api_key=${API_KEY}&campaign_id=${campaignId}&limit=${limit}&skip=${skip}`;
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`Instantly ${res.status}: ${await res.text()}`);
-
-    const leads: InstantlyLead[] = await res.json();
-    if (leads.length === 0) break;
-
-    // Filter by status
-    const filtered = leads.filter((l) => {
-      if (status === "interested") return l.interested;
-      if (status === "replied") return l.replied;
-      return l.status === status;
-    });
-    allLeads.push(...filtered);
-
-    skip += limit;
-    if (leads.length < limit) break;
-  }
-
-  return allLeads;
-}
-
-// ── Helpers ─────────────────────────────────────────────────────────────────
+const args = process.argv.slice(2);
+const campaignFlag = args.indexOf("--campaign");
+const campaignId = campaignFlag !== -1 ? args[campaignFlag + 1] : process.env.INSTANTLY_CAMPAIGN_ID;
+const allCampaigns = args.includes("--all-campaigns");
+const isDryRun = args.includes("--dry-run");
+const campaignName = process.env.INSTANTLY_CAMPAIGN_NAME ?? CAMPAIGN_NAME_DEFAULT;
 
 function loadSyncLog(): SyncLogEntry[] {
   if (!fs.existsSync(SYNC_LOG_PATH)) return [];
@@ -101,75 +54,95 @@ function saveSyncLog(log: SyncLogEntry[]): void {
   fs.writeFileSync(SYNC_LOG_PATH, JSON.stringify(log, null, 2), "utf-8");
 }
 
-// ── Main ────────────────────────────────────────────────────────────────────
-
-const args = process.argv.slice(2);
-const campaignFlag = args.indexOf("--campaign");
-const campaignId = campaignFlag !== -1 ? args[campaignFlag + 1] : undefined;
-const isDryRun = args.includes("--dry-run");
+/** "£1.3m" → 1300000, "£650k" → 650000 */
+function parseGbp(value: string | undefined): number {
+  if (!value) return 0;
+  const m = value.replace(/[£,\s]/g, "").match(/^([\d.]+)([mk])?$/i);
+  if (!m) return 0;
+  const n = parseFloat(m[1]);
+  const unit = (m[2] ?? "").toLowerCase();
+  return Math.round(n * (unit === "m" ? 1_000_000 : unit === "k" ? 1_000 : 1));
+}
 
 async function main() {
   if (!API_KEY) {
     console.error("Missing INSTANTLY_API_KEY environment variable");
     process.exit(1);
   }
+  const instantly = new InstantlyClient(API_KEY);
 
-  // Get campaigns
-  let campaigns: any[];
+  let campaigns: InstantlyCampaign[];
   if (campaignId) {
-    campaigns = [{ id: campaignId, name: "specified" }];
+    campaigns = [await instantly.getCampaign(campaignId)];
+  } else if (allCampaigns) {
+    campaigns = await instantly.listCampaigns();
   } else {
-    campaigns = await getCampaigns();
-    console.log(`Found ${campaigns.length} campaign(s)`);
+    campaigns = (await instantly.listCampaigns()).filter((c) => c.name.trim().toLowerCase() === campaignName.toLowerCase());
+    if (campaigns.length === 0) {
+      console.log(`No campaign named "${campaignName}" found. Pass --campaign <id> or --all-campaigns.`);
+      return;
+    }
   }
+  console.log(`Syncing ${campaigns.length} campaign(s)`);
 
   const syncLog = loadSyncLog();
-  const alreadySynced = new Set(syncLog.map((e) => e.email));
+  const alreadySynced = new Set(syncLog.map((e) => e.email.toLowerCase()));
 
   let totalSynced = 0;
   let totalSkipped = 0;
 
   for (const campaign of campaigns) {
-    console.log(`\nCampaign: ${campaign.name || campaign.id}`);
+    console.log(`\nCampaign: ${campaign.name} (${campaign.id})`);
+    const leads = await instantly.listLeads(campaign.id);
+    // 1 interested, 2 meeting booked, 3 meeting completed, 4 closed
+    const interested = leads.filter((l) => typeof l.lt_interest_status === "number" && l.lt_interest_status >= 1);
+    const replied = leads.filter((l) => (l.email_reply_count ?? 0) > 0).length;
+    console.log(`  Leads: ${leads.length}; replied: ${replied}; interested or better: ${interested.length}`);
 
-    // Get interested/replied leads
-    const leads = await getLeads(campaign.id, "interested");
-    console.log(`  Interested leads: ${leads.length}`);
-
-    for (const lead of leads) {
-      if (alreadySynced.has(lead.email)) {
+    for (const lead of interested) {
+      const email = lead.email.toLowerCase();
+      if (alreadySynced.has(email)) {
         totalSkipped++;
         continue;
       }
 
-      const vars = lead.custom_variables || {};
+      const vars = leadVariables(lead);
       const fullName = `${lead.first_name || ""} ${lead.last_name || ""}`.trim();
-      const loanAmount = parseFloat(vars.loan_amount?.replace(/[£,km]/g, "") || "0") * 1000;
-      const gdv = parseFloat(vars.gdv?.replace(/[£,km]/g, "") || "0") * 1000;
+      const interestLabel = INTEREST_STATUS_LABEL[lead.lt_interest_status as number] ?? String(lead.lt_interest_status);
+      const gdv = parseGbp(vars.gdv);
+      const loanAmount = parseGbp(vars.loanAmount ?? vars.loan_amount);
+      const siteAddress = vars.siteAddress ?? vars.site_address ?? "";
+      const planningReference = vars.planningReference ?? vars.planning_reference ?? "";
 
       if (isDryRun) {
-        console.log(`  [DRY RUN] ${lead.email} — ${lead.company_name} — ${vars.loan_amount || "?"}`);
+        console.log(`  [DRY RUN] ${email} — ${lead.company_name ?? ""} — ${interestLabel} — ${siteAddress}`);
         totalSynced++;
         continue;
       }
 
-      console.log(`  Syncing: ${lead.email} (${lead.company_name})`);
-
+      console.log(`  Syncing: ${email} (${lead.company_name ?? ""}) — ${interestLabel}`);
       try {
         const result = await pushLeadToGHL({
-          full_name: fullName || lead.company_name,
-          email: lead.email,
+          full_name: fullName || lead.company_name || email,
+          email,
           phone: "",
-          company: lead.company_name,
-          project_location: vars.town_name || vars.site_address || "",
-          project_postcode: vars.site_postcode || "",
+          company: lead.company_name ?? "",
+          project_location: vars.townName ?? vars.town_name ?? siteAddress,
+          project_postcode: vars.sitePostcode ?? vars.site_postcode ?? "",
           project_type: "Development",
-          units: parseInt(vars.units || "0", 10) || undefined,
-          gdv: gdv || 0,
+          units: parseInt((vars.unitsText ?? vars.units ?? "0").replace(/\D+/g, ""), 10) || undefined,
+          gdv,
           total_cost: 0,
-          loan_amount: loanAmount || 0,
+          loan_amount: loanAmount,
           loan_type: "Development Finance",
-          additional_info: `Planning Ref: ${vars.planning_reference || "N/A"}\nSite: ${vars.site_address || "N/A"}\n${vars.personalised_summary || ""}`,
+          additional_info: [
+            `Instantly interest: ${interestLabel}`,
+            `Planning Ref: ${planningReference || "N/A"} (${vars.localAuthority ?? vars.local_authority ?? ""})`,
+            `Site: ${siteAddress || "N/A"}`,
+            `Consent: ${vars.consentStage ?? ""}`,
+            `Planning URL: ${vars.planningUrl ?? ""}`,
+            `Contact role: ${vars.contactRole ?? ""}`,
+          ].join("\n"),
           source_page: "Outreach - Planning Data",
           utm_source: "instantly",
           utm_medium: "email",
@@ -177,8 +150,8 @@ async function main() {
           lead_source: "planning_outreach",
           lead_kind: "planning_outreach",
           pipeline_stage: "new",
-          planning_reference: vars.planning_reference || undefined,
-          article_url: vars.article_url || vars.news_url || undefined,
+          planning_reference: planningReference || undefined,
+          article_url: vars.locationPageUrl ?? vars.article_url ?? undefined,
         });
 
         if (!result.ok) {
@@ -187,13 +160,12 @@ async function main() {
         }
 
         syncLog.push({
-          email: lead.email,
+          email,
           instantlyLeadId: lead.id,
           ghlContactId: result.contactId || "",
           ghlOpportunityId: result.opportunityId || "",
           syncedAt: new Date().toISOString(),
         });
-
         totalSynced++;
         console.log(`    GHL: contact=${result.contactId} opp=${result.opportunityId}`);
       } catch (e: unknown) {
@@ -203,11 +175,11 @@ async function main() {
     }
   }
 
-  saveSyncLog(syncLog);
+  if (!isDryRun) saveSyncLog(syncLog);
 
   console.log(`\n--- Done ---`);
   console.log(`Synced: ${totalSynced}`);
-  console.log(`Skipped: ${totalSkipped}`);
+  console.log(`Skipped (already synced): ${totalSkipped}`);
   console.log(`Log: ${SYNC_LOG_PATH}`);
 }
 

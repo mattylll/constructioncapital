@@ -4,7 +4,7 @@
  * Takes prospects with indicative terms and contact data, then pushes them
  * as leads to an Instantly.ai campaign with custom variables for personalisation.
  *
- * API: Instantly.ai REST API
+ * API: Instantly.ai REST API v2 (see scripts/lib/instantly.ts)
  * Env: INSTANTLY_API_KEY
  *
  * Usage:
@@ -12,10 +12,16 @@
  *   npx tsx scripts/push-to-instantly.ts --campaign <id> --limit 50
  *   npx tsx scripts/push-to-instantly.ts --campaign <id> --dry-run
  *   npx tsx scripts/push-to-instantly.ts --list-campaigns
+ *
+ * For the automated weekly flow use scripts/planning-outreach-weekly.ts instead;
+ * this script pushes the older with-terms.json prospect file on demand.
  */
 
 import * as fs from "fs";
 import * as path from "path";
+
+import { loadEnvLocal } from "./lib/env";
+import { CAMPAIGN_STATUS_LABEL, InstantlyClient } from "./lib/instantly";
 
 // ── Types ───────────────────────────────────────────────────────────────────
 
@@ -83,8 +89,9 @@ const PROSPECTS_DIR = path.join(process.cwd(), "data", "generated", "developer-p
 const CANDIDATES = ["with-terms.json", "contacts.json", "enriched.json"];
 const OUTREACH_LOG_PATH = path.join(PROSPECTS_DIR, "outreach-log.json");
 
+loadEnvLocal();
 const API_KEY = process.env.INSTANTLY_API_KEY;
-const API_BASE = "https://api.instantly.ai/api/v1";
+const instantly = API_KEY ? new InstantlyClient(API_KEY) : null;
 
 const RATE_LIMIT_MS = 500;
 
@@ -100,11 +107,10 @@ const listCampaigns = args.includes("--list-campaigns");
 // ── API ─────────────────────────────────────────────────────────────────────
 
 async function fetchCampaigns(): Promise<any[]> {
-  const res = await fetch(`${API_BASE}/campaign/list?api_key=${API_KEY}`);
-  if (!res.ok) throw new Error(`Instantly API ${res.status}: ${await res.text()}`);
-  return res.json();
+  return instantly!.listCampaigns();
 }
 
+/** Instantly API v2: one lead per call, custom variables as flat string values. */
 async function addLead(
   campaignId: string,
   email: string,
@@ -113,30 +119,17 @@ async function addLead(
   companyName: string,
   customVars: Record<string, string>
 ): Promise<any> {
-  const res = await fetch(`${API_BASE}/lead/add`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      api_key: API_KEY,
-      campaign_id: campaignId,
-      skip_if_in_workspace: true,
-      leads: [
-        {
-          email,
-          first_name: firstName,
-          last_name: lastName,
-          company_name: companyName,
-          custom_variables: customVars,
-        },
-      ],
-    }),
+  const lead = await instantly!.createLead({
+    campaign: campaignId,
+    email,
+    first_name: firstName,
+    last_name: lastName,
+    company_name: companyName,
+    custom_variables: customVars,
+    skip_if_in_workspace: true,
+    skip_if_in_campaign: true,
   });
-
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Instantly API ${res.status}: ${text}`);
-  }
-  return res.json();
+  return { leads: [lead] };
 }
 
 function sleep(ms: number): Promise<void> {
@@ -173,7 +166,7 @@ async function main() {
     const campaigns = await fetchCampaigns();
     console.log("\nInstantly Campaigns:\n");
     for (const c of campaigns) {
-      console.log(`  ${c.id}  ${c.name}  (${c.status})`);
+      console.log(`  ${c.id}  ${c.name}  (${CAMPAIGN_STATUS_LABEL[c.status] ?? c.status}, ${(c.email_list ?? []).length} accounts)`);
     }
     process.exit(0);
   }
