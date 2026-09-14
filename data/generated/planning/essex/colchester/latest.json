@@ -1,14 +1,25 @@
 {
-  "updatedAt": "2026-09-06T01:27:11.495Z",
+  "updatedAt": "2026-09-08T07:58:44.265Z",
   "townSlug": "colchester",
   "countySlug": "essex",
   "localAuthority": "Colchester City Council",
   "source": "idox",
   "dataset": {
-    "windowMonths": 3,
-    "from": "2026-06-06",
-    "to": "2026-09-06",
-    "retrievedAt": "2026-09-06T01:27:11.494Z"
+    "windowMonths": 12,
+    "from": "2025-09-08",
+    "to": "2026-09-08",
+    "retrievedAt": "2026-09-08T07:58:44.265Z",
+    "searchBy": [
+      "received",
+      "decided"
+    ],
+    "decisionResolution": {
+      "candidates": 0,
+      "cacheHits": 0,
+      "fetched": 0,
+      "failed": 0,
+      "resolved": 0
+    }
   },
   "summary": {
     "total": 3,
@@ -16,6 +27,7 @@
     "approved": 0,
     "pending": 0,
     "refused": 0,
+    "withdrawn": 0,
     "approvedUnits": 0,
     "pendingUnits": 0,
     "totalUnits": 0,
