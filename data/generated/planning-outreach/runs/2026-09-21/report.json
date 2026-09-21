@@ -1,0 +1,37 @@
+{
+  "runId": "2026-09-21",
+  "mode": {
+    "DRY_RUN": false,
+    "NO_PUSH": false,
+    "NO_ENRICH": false
+  },
+  "funnel": {
+    "approvedFinanceTargets": 6903,
+    "alreadyProcessed": 314,
+    "tooOld": 4416,
+    "freshCandidates": 1786,
+    "processedThisRun": 60,
+    "applicantKnownBefore": 4,
+    "applicantKnownAfter": 43,
+    "ownerCompanyIdentified": 23,
+    "ownerContactWithEmail": 11,
+    "agentContactWithEmail": 0,
+    "leadsPushed": 8,
+    "leadsSkippedDuplicate": 0,
+    "letterRouteOnly": 13,
+    "emailsVerified": 14,
+    "emailsSafe": 4,
+    "emailsCatchAll": 4,
+    "emailsRejected": 6
+  },
+  "campaign": {
+    "id": "3e782ec6-3f92-4eb7-9c3d-545e29765e6e",
+    "name": "Planning Approvals - Weekly",
+    "status": 0
+  },
+  "apollo": {
+    "searches": 113,
+    "enrichments": 14,
+    "creditsUsedEstimate": 14
+  }
+}
