@@ -1,42 +1,80 @@
 {
-  "updatedAt": "2026-09-13T09:11:31.343Z",
+  "updatedAt": "2026-09-20T04:34:53.833Z",
   "townSlug": "oldham",
   "countySlug": "greater-manchester",
   "localAuthority": "Oldham Metropolitan Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 12,
-    "from": "2025-09-13",
-    "to": "2026-09-13",
-    "retrievedAt": "2026-09-13T09:11:31.342Z",
+    "from": "2025-09-20",
+    "to": "2026-09-20",
+    "retrievedAt": "2026-09-20T04:34:53.830Z",
     "searchBy": [
       "received",
       "decided"
     ],
     "decisionResolution": {
-      "candidates": 156,
-      "cacheHits": 136,
-      "fetched": 20,
+      "candidates": 155,
+      "cacheHits": 103,
+      "fetched": 52,
       "failed": 0,
-      "resolved": 104
+      "resolved": 105
     }
   },
   "summary": {
-    "total": 1582,
-    "relevant": 156,
-    "approved": 85,
-    "pending": 54,
+    "total": 1577,
+    "relevant": 155,
+    "approved": 86,
+    "pending": 52,
     "refused": 9,
     "withdrawn": 8,
-    "approvedUnits": 216,
-    "pendingUnits": 204,
-    "totalUnits": 420,
-    "approvedGdv": 45095600,
-    "pendingGdv": 40997450,
-    "totalEstimatedGDV": 86093050,
-    "approvalRate": 90
+    "approvedUnits": 220,
+    "pendingUnits": 171,
+    "totalUnits": 391,
+    "approvedGdv": 45895400,
+    "pendingGdv": 34399100,
+    "totalEstimatedGDV": 80294500,
+    "approvalRate": 91
   },
   "approvedApplications": [
+    {
+      "reference": "FUL/356336/26",
+      "address": "32 Whitegate Lane Chadderton Oldham OL9 8LS",
+      "postcode": "OL9 8LS",
+      "ward": "",
+      "proposal": "Change of use from a dwellinghouse (Class C3) to a 3-bedroom House in Multiple Occupation (Class C4) for up to 3 residents.",
+      "category": "hmo",
+      "units": 1,
+      "estimatedGdv": 199950,
+      "status": "Decided",
+      "decision": "Granted",
+      "receivedDate": "04/06/2026",
+      "decisionDate": "08/09/2026",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TG26Y2MCKW600"
+    },
+    {
+      "reference": "PIP/356566/26",
+      "address": "Land Opposite 11 New Earth Street Oldham OL4 5ES",
+      "postcode": "OL4 5ES",
+      "ward": "",
+      "proposal": "Permission in Principle for 4 dwellings.",
+      "category": "other_residential",
+      "units": 4,
+      "estimatedGdv": 799800,
+      "status": "Decided",
+      "decision": "Granted",
+      "receivedDate": "20/07/2026",
+      "decisionDate": "08/09/2026",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIH5BBMC00J00"
+    },
     {
       "reference": "PIP/356624/26",
       "address": "Land To Rear Of Cheviot Avenue And Miller Avenue Oldham OL8 4HD",
@@ -1632,25 +1670,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=SJCGB3MCJ3O00"
-    },
-    {
-      "reference": "CEA/354854/25",
-      "address": "30 Thorn Avenue Failsworth Oldham M35 0WP",
-      "postcode": "M35 0WP",
-      "ward": "",
-      "proposal": "The proposal is for a change of use from a C3 dwellinghouse to a C4 House in Multiple Occupation (HMO) for 6 occupants. Existing C3 dwellinghouse proposing change of use and conversion of garage to 6-bed C4 HMO.",
-      "category": "other_residential",
-      "units": 1,
-      "estimatedGdv": 199950,
-      "status": "Decided",
-      "decision": "Granted",
-      "receivedDate": "23/07/2025",
-      "decisionDate": "17/09/2025",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=SZSW43MCFMW00"
     }
   ],
   "pendingApplications": [
@@ -1750,6 +1769,25 @@
       "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJE29PMCM5H00"
     },
     {
+      "reference": "CEU/356644/26",
+      "address": "189 Coalshaw Green Road Chadderton Oldham OL9 8JS",
+      "postcode": "OL9 8JS",
+      "ward": "",
+      "proposal": "4 Bedroom HMO with 4 occupants",
+      "category": "hmo",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Awaiting decision",
+      "decision": "",
+      "receivedDate": "05/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TJ8I7EMCM2S00"
+    },
+    {
       "reference": "CEU/356643/26",
       "address": "4 Kershaw Road Failsworth Oldham M35 9PU",
       "postcode": "M35 9PU",
@@ -1843,25 +1881,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIH5TUMCLRT00"
-    },
-    {
-      "reference": "PIP/356566/26",
-      "address": "Land Opposite 11 New Earth Street Oldham OL4 5ES",
-      "postcode": "OL4 5ES",
-      "ward": "",
-      "proposal": "Permission in Principle for 4 dwellings.",
-      "category": "other_residential",
-      "units": 4,
-      "estimatedGdv": 799800,
-      "status": "Awaiting decision",
-      "decision": "",
-      "receivedDate": "20/07/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIH5BBMC00J00"
     },
     {
       "reference": "FUL/356549/26",
@@ -1976,25 +1995,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TG60F3MCKY200"
-    },
-    {
-      "reference": "FUL/356336/26",
-      "address": "32 Whitegate Lane Chadderton Oldham OL9 8LS",
-      "postcode": "OL9 8LS",
-      "ward": "",
-      "proposal": "Change of use from a dwellinghouse (Class C3) to a 3-bedroom House in Multiple Occupation (Class C4) for up to 3 residents.",
-      "category": "hmo",
-      "units": 1,
-      "estimatedGdv": 199950,
-      "status": "Awaiting decision",
-      "decision": "",
-      "receivedDate": "04/06/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TG26Y2MCKW600"
     },
     {
       "reference": "FUL/356323/26",
@@ -2660,25 +2660,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T3CIJWMCGJY00"
-    },
-    {
-      "reference": "FUL/355091/25",
-      "address": "Land Bounded By Oldham Road, Brookdale Street And Ridgefield Street Failsworth Oldham M35 0BX",
-      "postcode": "M35 0BX",
-      "ward": "",
-      "proposal": "Erection of 28 no dwellings with associated access, parking and landscaping works.",
-      "category": "new_build",
-      "units": 28,
-      "estimatedGdv": 5598600,
-      "status": "Awaiting decision",
-      "decision": "",
-      "receivedDate": "17/09/2025",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planningpa.oldham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T2ODCZMCGDQ00"
     }
   ]
 }

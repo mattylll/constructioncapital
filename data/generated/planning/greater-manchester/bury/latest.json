@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-09-13T09:11:27.879Z",
+  "updatedAt": "2026-09-20T01:58:24.531Z",
   "townSlug": "bury",
   "countySlug": "greater-manchester",
   "localAuthority": "Bury Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 12,
-    "from": "2025-09-13",
-    "to": "2026-09-13",
-    "retrievedAt": "2026-09-13T09:11:27.879Z",
+    "from": "2025-09-20",
+    "to": "2026-09-20",
+    "retrievedAt": "2026-09-20T01:58:24.529Z",
     "searchBy": [
       "received",
       "decided"
     ],
     "decisionResolution": {
-      "candidates": 126,
-      "cacheHits": 114,
-      "fetched": 12,
+      "candidates": 124,
+      "cacheHits": 109,
+      "fetched": 15,
       "failed": 0,
       "resolved": 110
     }
   },
   "summary": {
-    "total": 1300,
-    "relevant": 126,
+    "total": 1304,
+    "relevant": 124,
     "approved": 53,
-    "pending": 18,
-    "refused": 41,
-    "withdrawn": 14,
+    "pending": 16,
+    "refused": 40,
+    "withdrawn": 15,
     "approvedUnits": 200,
-    "pendingUnits": 38,
-    "totalUnits": 238,
+    "pendingUnits": 35,
+    "totalUnits": 235,
     "approvedGdv": 41645000,
-    "pendingGdv": 7330000,
-    "totalEstimatedGDV": 48975000,
-    "approvalRate": 56
+    "pendingGdv": 6350000,
+    "totalEstimatedGDV": 47995000,
+    "approvalRate": 57
   },
   "approvedApplications": [
     {
@@ -570,25 +570,6 @@
       "sourceUrl": "https://planning.bury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_BURY_DCAPR_63662"
     },
     {
-      "reference": "72383",
-      "address": "Smithie Garage, Spring Street, Ramsbottom, Bury, BL0 9JQ",
-      "postcode": "BL0 9JQ",
-      "ward": "",
-      "proposal": "Conversion and extension of former garage into 1 No. two storey dwelling",
-      "category": "conversion",
-      "units": 1,
-      "estimatedGdv": 230000,
-      "status": "Decided",
-      "decision": "Approve with Conditions",
-      "receivedDate": "16/09/2025",
-      "decisionDate": "25/02/2026",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.bury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_BURY_DCAPR_63762"
-    },
-    {
       "reference": "72454",
       "address": "13 Morley Street, Whitefield, Manchester, M45 6GF",
       "postcode": "M45 6GF",
@@ -606,6 +587,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.bury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_BURY_DCAPR_63848"
+    },
+    {
+      "reference": "72383",
+      "address": "Smithie Garage, Spring Street, Ramsbottom, Bury, BL0 9JQ",
+      "postcode": "BL0 9JQ",
+      "ward": "",
+      "proposal": "Conversion and extension of former garage into 1 No. two storey dwelling",
+      "category": "conversion",
+      "units": 1,
+      "estimatedGdv": 230000,
+      "status": "Decided",
+      "decision": "Approve with Conditions",
+      "receivedDate": "16/09/2025",
+      "decisionDate": "25/02/2026",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planning.bury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_BURY_DCAPR_63762"
     },
     {
       "reference": "72509",
@@ -1161,25 +1161,6 @@
       "sourceUrl": "https://planning.bury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_BURY_DCAPR_65010"
     },
     {
-      "reference": "73516",
-      "address": "Land to the north of 2-14 Bentley Hall Road, Walshaw, Bury.",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Outline application for the erection of 2 no detached dwellings with associated parking and lands...",
-      "category": "new_build",
-      "units": 2,
-      "estimatedGdv": 750000,
-      "status": "Registered",
-      "decision": "Registered",
-      "receivedDate": "06/08/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.bury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_BURY_DCAPR_65009"
-    },
-    {
       "reference": "73474",
       "address": "252 Bolton Road, Radcliffe, Manchester, M26 3GW",
       "postcode": "M26 3GW",
@@ -1273,25 +1254,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.bury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_BURY_DCAPR_64808"
-    },
-    {
-      "reference": "73325",
-      "address": "37 Park Street, Prestwich, Manchester, M25 1EU",
-      "postcode": "M25 1EU",
-      "ward": "",
-      "proposal": "Change of use from a dwelling (Class C3) to House in Multiple Occupation (HMO) (Class C4) 5 no. b...",
-      "category": "hmo",
-      "units": 1,
-      "estimatedGdv": 230000,
-      "status": "Registered",
-      "decision": "Unknown",
-      "receivedDate": "15/06/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.bury.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_BURY_DCAPR_64793"
     },
     {
       "reference": "73314",

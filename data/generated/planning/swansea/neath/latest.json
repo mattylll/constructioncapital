@@ -1,42 +1,61 @@
 {
-  "updatedAt": "2026-09-13T09:11:32.666Z",
+  "updatedAt": "2026-09-20T05:49:24.451Z",
   "townSlug": "neath",
   "countySlug": "swansea",
   "localAuthority": "Neath Port Talbot Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 12,
-    "from": "2025-09-13",
-    "to": "2026-09-13",
-    "retrievedAt": "2026-09-13T09:11:32.666Z",
+    "from": "2025-09-20",
+    "to": "2026-09-20",
+    "retrievedAt": "2026-09-20T05:49:24.449Z",
     "searchBy": [
       "received",
       "decided"
     ],
     "decisionResolution": {
-      "candidates": 61,
-      "cacheHits": 45,
-      "fetched": 16,
+      "candidates": 62,
+      "cacheHits": 36,
+      "fetched": 26,
       "failed": 0,
-      "resolved": 36
+      "resolved": 37
     }
   },
   "summary": {
-    "total": 826,
-    "relevant": 67,
-    "approved": 32,
+    "total": 822,
+    "relevant": 68,
+    "approved": 33,
     "pending": 25,
     "refused": 4,
     "withdrawn": 6,
-    "approvedUnits": 76,
-    "pendingUnits": 317,
-    "totalUnits": 393,
-    "approvedGdv": 10648000,
-    "pendingGdv": 47400500,
-    "totalEstimatedGDV": 58048500,
+    "approvedUnits": 79,
+    "pendingUnits": 472,
+    "totalUnits": 551,
+    "approvedGdv": 11024500,
+    "pendingGdv": 71584000,
+    "totalEstimatedGDV": 82608500,
     "approvalRate": 89
   },
   "approvedApplications": [
+    {
+      "reference": "P2026/0459",
+      "address": "Land At Kennel Row Briton Ferry Neath",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Application to approve detail required by conditions 4 (Construction Method Statement); 5 (Contamination Assessment); 6 (Contamination Remediation); 7 (Materials); 8 (Site Levels); 9 (Landscaping); 10 (Internal Road Scheme); and 11 (Arrangements for street management and maintenance) of planning permission P2016/0499 for the Demolition of existing former Chapel and Car Sales/servicing buildings and compound. Construction of 8 number 2 bedroom terraced houses and 3 number 3 bedroom units, together with widening and reconstruction of part of Kennel Row to and adoptable standard.",
+      "category": "new_build",
+      "units": 3,
+      "estimatedGdv": 376500,
+      "status": "Decided",
+      "decision": "Approved",
+      "receivedDate": "13/07/2026",
+      "decisionDate": "10/09/2026",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TI4429KZIH100"
+    },
     {
       "reference": "P2026/0383",
       "address": "16 Golwg Y Mynydd Waunceirch Neath Port Talbot SA10 7RJ",
@@ -686,6 +705,25 @@
       "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TKS97DKZIZH00"
     },
     {
+      "reference": "P2026/0561",
+      "address": "7 Cimla Court Cimla Neath Port Talbot SA11 3TT",
+      "postcode": "SA11 3TT",
+      "ward": "",
+      "proposal": "Conversion of a dwelling into 2 no. 1 bedroom self contained flats and 1 no. 3 bedroom self contained flat",
+      "category": "conversion",
+      "units": 1,
+      "estimatedGdv": 90000,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "27/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TKFAHXKZIX100"
+    },
+    {
       "reference": "P2026/0552",
       "address": "30-32 Morrisons Daily Station Road Port Talbot Neath Port Talbot SA13 1JS",
       "postcode": "SA13 1JS",
@@ -762,25 +800,6 @@
       "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TIHB3MKZIJO00"
     },
     {
-      "reference": "P2026/0459",
-      "address": "Land At Kennel Row Briton Ferry Neath",
-      "postcode": "",
-      "ward": "",
-      "proposal": "Application to approve detail required by conditions 4 (Construction Method Statement); 5 (Contamination Assessment); 6 (Contamination Remediation); 7 (Materials); 8 (Site Levels); 9 (Landscaping); 10 (Internal Road Scheme); and 11 (Arrangements for street management and maintenance) of planning permission P2016/0499 for the Demolition of existing former Chapel and Car Sales/servicing buildings and compound. Construction of 8 number 2 bedroom terraced houses and 3 number 3 bedroom units, together with widening and reconstruction of part of Kennel Row to and adoptable standard.",
-      "category": "new_build",
-      "units": 3,
-      "estimatedGdv": 376500,
-      "status": "Awaiting decision",
-      "decision": "Decided",
-      "receivedDate": "13/07/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TI4429KZIH100"
-    },
-    {
       "reference": "P2026/0457",
       "address": "27 Pen Y Banc Seven Sisters SA10 9AB",
       "postcode": "SA10 9AB",
@@ -800,25 +819,6 @@
       "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TI00SMKZIG800"
     },
     {
-      "reference": "P2026/0455",
-      "address": "Jerusalem Chapel Station Road Pontrhydyfen SA12 9SG",
-      "postcode": "SA12 9SG",
-      "ward": "",
-      "proposal": "Renovation and change of use of Jerusalem Chapel to residential accommodation (C3) with small additional extensions to side annexe plus new parking arrangement.",
-      "category": "conversion",
-      "units": 1,
-      "estimatedGdv": 158000,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "10/07/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THYPLQKZIG000"
-    },
-    {
       "reference": "P2026/0454",
       "address": "Jerusalem Chapel Station Road Pontrhydyfen SA12 9SG",
       "postcode": "SA12 9SG",
@@ -836,6 +836,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THYPLNKZIFZ00"
+    },
+    {
+      "reference": "P2026/0455",
+      "address": "Jerusalem Chapel Station Road Pontrhydyfen SA12 9SG",
+      "postcode": "SA12 9SG",
+      "ward": "",
+      "proposal": "Renovation and change of use of Jerusalem Chapel to residential accommodation (C3) with small additional extensions to side annexe plus new parking arrangement.",
+      "category": "conversion",
+      "units": 1,
+      "estimatedGdv": 158000,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "10/07/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=THYPLQKZIG000"
     },
     {
       "reference": "P2026/0430",
@@ -912,6 +931,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TFQRT7KZI0I00"
+    },
+    {
+      "reference": "P2026/0299",
+      "address": "Former Tirbach Washery Ystalyfera Swansea",
+      "postcode": "",
+      "ward": "",
+      "proposal": "Outline planning application (all matters reserved except for access) for the redevelopment of the former Tirbach Washery with the construction of up to 160 residential dwellings and associated infrastructure works",
+      "category": "new_build",
+      "units": 160,
+      "estimatedGdv": 25280000,
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
+      "receivedDate": "11/05/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TEVAI9KZHUB00"
     },
     {
       "reference": "P2026/0245",
@@ -1102,25 +1140,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T44D1ZKZ02R00"
-    },
-    {
-      "reference": "P2025/0667",
-      "address": "Land To Rear And Side Of 50 Brecon Road Pontardawe Neath Port Talbot SA8 4PD",
-      "postcode": "SA8 4PD",
-      "ward": "",
-      "proposal": "3 no. three storey detached dwellings, retaining walls, bin store and associated works",
-      "category": "new_build",
-      "units": 3,
-      "estimatedGdv": 810000,
-      "status": "Awaiting decision",
-      "decision": "Awaiting decision",
-      "receivedDate": "18/09/2025",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planningonline.npt.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T2RVI2KZFIC00"
     }
   ]
 }

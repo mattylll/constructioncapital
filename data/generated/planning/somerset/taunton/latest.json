@@ -1,42 +1,80 @@
 {
-  "updatedAt": "2026-09-13T09:11:31.886Z",
+  "updatedAt": "2026-09-20T04:54:37.046Z",
   "townSlug": "taunton",
   "countySlug": "somerset",
   "localAuthority": "Somerset Council (former Somerset West and Taunton)",
   "source": "idox",
   "dataset": {
     "windowMonths": 12,
-    "from": "2025-09-13",
-    "to": "2026-09-13",
-    "retrievedAt": "2026-09-13T09:11:31.886Z",
+    "from": "2025-09-20",
+    "to": "2026-09-20",
+    "retrievedAt": "2026-09-20T04:54:37.044Z",
     "searchBy": [
       "received",
       "decided"
     ],
     "decisionResolution": {
       "candidates": 39,
-      "cacheHits": 39,
-      "fetched": 0,
+      "cacheHits": 34,
+      "fetched": 5,
       "failed": 0,
-      "resolved": 34
+      "resolved": 36
     }
   },
   "summary": {
     "total": 335,
     "relevant": 39,
-    "approved": 21,
-    "pending": 5,
+    "approved": 23,
+    "pending": 3,
     "refused": 10,
     "withdrawn": 3,
-    "approvedUnits": 41,
-    "pendingUnits": 5,
+    "approvedUnits": 42,
+    "pendingUnits": 4,
     "totalUnits": 46,
-    "approvedGdv": 11592500,
-    "pendingGdv": 1375000,
+    "approvedGdv": 11867500,
+    "pendingGdv": 1100000,
     "totalEstimatedGDV": 12967500,
-    "approvalRate": 68
+    "approvalRate": 70
   },
   "approvedApplications": [
+    {
+      "reference": "3/21/26/039",
+      "address": "29 Blenheim Road, Minehead, TA24 5PZ",
+      "postcode": "TA24 5PZ",
+      "ward": "",
+      "proposal": "Demolition of existing rear conservatory and erection of single storey flat roof rear extension f...",
+      "category": "new_build",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Decided",
+      "decision": "Grant",
+      "receivedDate": "13/07/2026",
+      "decisionDate": "17/09/2026",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://www1.somersetwestandtaunton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_WSC_DCAPR_34042"
+    },
+    {
+      "reference": "3/21/26/020",
+      "address": "Strand Cafe, Warren Road, Minehead, TA24 5BG",
+      "postcode": "TA24 5BG",
+      "ward": "",
+      "proposal": "Conversion of the single residential unit on the first and second floors into 8 No. self containe...",
+      "category": "conversion",
+      "units": 1,
+      "estimatedGdv": 275000,
+      "status": "Decided",
+      "decision": "Grant",
+      "receivedDate": "21/04/2026",
+      "decisionDate": "16/09/2026",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://www1.somersetwestandtaunton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_WSC_DCAPR_33951"
+    },
     {
       "reference": "3/02/21/001",
       "address": "Sandpit Meadows, Brompton Ralph to Gandstone Cross, Brompton Ralph, TA4 2RT",
@@ -458,25 +496,6 @@
       "sourceUrl": "https://www1.somersetwestandtaunton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_WSC_DCAPR_34061"
     },
     {
-      "reference": "3/21/26/039",
-      "address": "29 Blenheim Road, Minehead, TA24 5PZ",
-      "postcode": "TA24 5PZ",
-      "ward": "",
-      "proposal": "Demolition of existing rear conservatory and erection of single storey flat roof rear extension f...",
-      "category": "new_build",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Registered",
-      "decision": "",
-      "receivedDate": "13/07/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://www1.somersetwestandtaunton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_WSC_DCAPR_34042"
-    },
-    {
       "reference": "3/21/26/036",
       "address": "9 Blenheim Road, Minehead, TA24 5PZ",
       "postcode": "TA24 5PZ",
@@ -513,25 +532,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://www1.somersetwestandtaunton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_WSC_DCAPR_33994"
-    },
-    {
-      "reference": "3/21/26/020",
-      "address": "Strand Cafe, Warren Road, Minehead, TA24 5BG",
-      "postcode": "TA24 5BG",
-      "ward": "",
-      "proposal": "Conversion of the single residential unit on the first and second floors into 8 No. self containe...",
-      "category": "conversion",
-      "units": 1,
-      "estimatedGdv": 275000,
-      "status": "Awaiting decision",
-      "decision": "",
-      "receivedDate": "21/04/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://www1.somersetwestandtaunton.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_WSC_DCAPR_33951"
     }
   ]
 }

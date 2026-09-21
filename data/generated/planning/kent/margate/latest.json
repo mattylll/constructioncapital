@@ -1,39 +1,39 @@
 {
-  "updatedAt": "2026-09-13T09:11:29.905Z",
+  "updatedAt": "2026-09-20T02:44:27.371Z",
   "townSlug": "margate",
   "countySlug": "kent",
   "localAuthority": "Thanet District Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 12,
-    "from": "2025-09-13",
-    "to": "2026-09-13",
-    "retrievedAt": "2026-09-13T09:11:29.904Z",
+    "from": "2025-09-20",
+    "to": "2026-09-20",
+    "retrievedAt": "2026-09-20T02:44:27.367Z",
     "searchBy": [
       "received",
       "decided"
     ],
     "decisionResolution": {
-      "candidates": 238,
-      "cacheHits": 128,
-      "fetched": 110,
+      "candidates": 237,
+      "cacheHits": 166,
+      "fetched": 71,
       "failed": 0,
-      "resolved": 167
+      "resolved": 166
     }
   },
   "summary": {
-    "total": 1337,
-    "relevant": 238,
-    "approved": 141,
+    "total": 1322,
+    "relevant": 237,
+    "approved": 140,
     "pending": 71,
     "refused": 17,
     "withdrawn": 9,
-    "approvedUnits": 3985,
+    "approvedUnits": 3984,
     "pendingUnits": 2699,
-    "totalUnits": 6684,
-    "approvedGdv": 1088237500,
+    "totalUnits": 6683,
+    "approvedGdv": 1088069500,
     "pendingGdv": 747280000,
-    "totalEstimatedGDV": 1835517500,
+    "totalEstimatedGDV": 1835349500,
     "approvalRate": 89
   },
   "approvedApplications": [
@@ -2696,25 +2696,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.thanet.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=SQFOATQEFW800"
-    },
-    {
-      "reference": "F/TH/20/0569",
-      "address": "5 Hardres Street RAMSGATE Kent CT11 8QD",
-      "postcode": "CT11 8QD",
-      "ward": "",
-      "proposal": "Change of use of part ground floor, first floor and basement from restaurant and residential (Use Class A3 and Use Class C3) to 3No. 1-bed flats and 2No 2-bed flats, with the insertion of windows within lightwell and addition of door to rear yard, and 1No 3-bed dwelling fronting Union Street, together with the erection of bicycle/bin store",
-      "category": "conversion",
-      "units": 1,
-      "estimatedGdv": 168000,
-      "status": "Decided",
-      "decision": "Grant Permission",
-      "receivedDate": "30/04/2020",
-      "decisionDate": "15/09/2025",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.thanet.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=Q9LWEMQEI8L00"
     }
   ],
   "pendingApplications": [

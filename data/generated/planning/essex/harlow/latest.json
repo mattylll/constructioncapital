@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-09-13T09:11:25.354Z",
+  "updatedAt": "2026-09-20T01:18:55.149Z",
   "townSlug": "harlow",
   "countySlug": "essex",
   "localAuthority": "Harlow Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 12,
-    "from": "2025-09-13",
-    "to": "2026-09-13",
-    "retrievedAt": "2026-09-13T09:11:25.354Z",
+    "from": "2025-09-20",
+    "to": "2026-09-20",
+    "retrievedAt": "2026-09-20T01:18:55.149Z",
     "searchBy": [
       "received",
       "decided"
     ],
     "decisionResolution": {
-      "candidates": 33,
-      "cacheHits": 24,
-      "fetched": 9,
+      "candidates": 34,
+      "cacheHits": 26,
+      "fetched": 8,
       "failed": 0,
       "resolved": 26
     }
   },
   "summary": {
-    "total": 661,
-    "relevant": 33,
+    "total": 667,
+    "relevant": 34,
     "approved": 12,
-    "pending": 10,
+    "pending": 11,
     "refused": 8,
     "withdrawn": 3,
     "approvedUnits": 94,
@@ -267,6 +267,25 @@
     }
   ],
   "pendingApplications": [
+    {
+      "reference": "HW/HSE/26/00366",
+      "address": "4 Doulton Close Harlow Essex CM17 9RG",
+      "postcode": "CM17 9RG",
+      "ward": "",
+      "proposal": "Conversion of existing integral garage into a home office. The existing garage door will be removed and replaced with brickwork and a new window to match the existing house. An internal doorway will be created between the existing house and garage. No extension to the footprint of the property is proposed",
+      "category": "conversion",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Unknown",
+      "decision": "",
+      "receivedDate": "10/09/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://planningonline.harlow.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=TL4ZHZHXJL000"
+    },
     {
       "reference": "HW/FUL/26/00357",
       "address": "Harlowbury Primary School Watlington Road Harlow Essex CM17 0DX",

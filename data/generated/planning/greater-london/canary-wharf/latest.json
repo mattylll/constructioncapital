@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-09-13T09:11:25.344Z",
+  "updatedAt": "2026-09-20T01:19:31.827Z",
   "townSlug": "canary-wharf",
   "countySlug": "greater-london",
   "localAuthority": "London Borough of Tower Hamlets",
   "source": "idox",
   "dataset": {
     "windowMonths": 12,
-    "from": "2025-09-13",
-    "to": "2026-09-13",
-    "retrievedAt": "2026-09-13T09:11:25.344Z",
+    "from": "2025-09-20",
+    "to": "2026-09-20",
+    "retrievedAt": "2026-09-20T01:19:31.827Z",
     "searchBy": [
       "received",
       "decided"
     ],
     "decisionResolution": {
-      "candidates": 99,
-      "cacheHits": 78,
-      "fetched": 21,
+      "candidates": 100,
+      "cacheHits": 82,
+      "fetched": 18,
       "failed": 0,
-      "resolved": 78
+      "resolved": 77
     }
   },
   "summary": {
-    "total": 2532,
-    "relevant": 99,
-    "approved": 37,
-    "pending": 28,
+    "total": 2496,
+    "relevant": 100,
+    "approved": 36,
+    "pending": 30,
     "refused": 34,
     "withdrawn": 0,
-    "approvedUnits": 62,
-    "pendingUnits": 24,
-    "totalUnits": 86,
-    "approvedGdv": 29171150,
-    "pendingGdv": 11056800,
-    "totalEstimatedGDV": 40227950,
-    "approvalRate": 52
+    "approvedUnits": 61,
+    "pendingUnits": 26,
+    "totalUnits": 87,
+    "approvedGdv": 28696150,
+    "pendingGdv": 12006800,
+    "totalEstimatedGDV": 40702950,
+    "approvalRate": 51
   },
   "approvedApplications": [
     {
@@ -720,28 +720,28 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=DCAPR_148766"
-    },
+    }
+  ],
+  "pendingApplications": [
     {
-      "reference": "PA/25/00898/S",
-      "address": "88 Hardinge Street, London, E1 0EB",
-      "postcode": "E1 0EB",
+      "reference": "PA/26/01149/A1",
+      "address": "92 Commercial Street, London, E1 6LZ",
+      "postcode": "E1 6LZ",
       "ward": "",
-      "proposal": "Change of use from former convent (Use Class C2) to emergency, temporary residential accommodatio...",
-      "category": "conversion",
-      "units": 1,
-      "estimatedGdv": 475000,
-      "status": "Decided",
-      "decision": "Permit",
-      "receivedDate": "16/05/2025",
-      "decisionDate": "19/09/2025",
+      "proposal": "Mansard roof extension to create 1no. studio flat.",
+      "category": "new_build",
+      "units": null,
+      "estimatedGdv": null,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "10/09/2026",
+      "decisionDate": "",
       "applicantName": "",
       "applicantCompany": "",
       "agentName": "",
       "agentCompany": "",
-      "sourceUrl": "https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=DCAPR_148192"
-    }
-  ],
-  "pendingApplications": [
+      "sourceUrl": "https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=DCAPR_151029"
+    },
     {
       "reference": "PA/26/01372/NC",
       "address": "Anglesey House, Lindfield Street, London E14 6HS",
@@ -760,6 +760,25 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=DCAPR_151269"
+    },
+    {
+      "reference": "PA/26/01521/A1",
+      "address": "Land adjacent to 27 Pigott Street, London E14 7EN",
+      "postcode": "E14 7EN",
+      "ward": "",
+      "proposal": "Redevelopment of the site to provide two residential dwellings with associated works and landscap...",
+      "category": "new_build",
+      "units": 2,
+      "estimatedGdv": 950000,
+      "status": "Registered",
+      "decision": "Registered",
+      "receivedDate": "28/08/2026",
+      "decisionDate": "",
+      "applicantName": "",
+      "applicantCompany": "",
+      "agentName": "",
+      "agentCompany": "",
+      "sourceUrl": "https://development.towerhamlets.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=DCAPR_151437"
     },
     {
       "reference": "PA/26/01154/NC",
@@ -846,8 +865,8 @@
       "category": "new_build",
       "units": null,
       "estimatedGdv": null,
-      "status": "Registered",
-      "decision": "Registered",
+      "status": "Unknown",
+      "decision": "Unknown",
       "receivedDate": "10/08/2026",
       "decisionDate": "",
       "applicantName": "",
@@ -979,8 +998,8 @@
       "category": "hmo",
       "units": null,
       "estimatedGdv": null,
-      "status": "Unknown",
-      "decision": "Unknown",
+      "status": "Registered",
+      "decision": "Registered",
       "receivedDate": "08/05/2026",
       "decisionDate": "",
       "applicantName": "",

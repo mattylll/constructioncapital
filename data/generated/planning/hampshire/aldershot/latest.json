@@ -1,30 +1,30 @@
 {
-  "updatedAt": "2026-09-13T09:11:25.588Z",
+  "updatedAt": "2026-09-20T07:01:01.434Z",
   "townSlug": "aldershot",
   "countySlug": "hampshire",
   "localAuthority": "Rushmoor Borough Council",
   "source": "idox",
   "dataset": {
     "windowMonths": 12,
-    "from": "2025-09-13",
-    "to": "2026-09-13",
-    "retrievedAt": "2026-09-13T09:11:25.587Z",
+    "from": "2025-09-20",
+    "to": "2026-09-20",
+    "retrievedAt": "2026-09-20T07:01:01.432Z",
     "searchBy": [
       "received",
       "decided"
     ],
     "decisionResolution": {
-      "candidates": 56,
-      "cacheHits": 48,
+      "candidates": 55,
+      "cacheHits": 32,
       "fetched": 0,
-      "failed": 8,
-      "resolved": 33
+      "failed": 23,
+      "resolved": 32
     }
   },
   "summary": {
     "total": 716,
-    "relevant": 56,
-    "approved": 27,
+    "relevant": 55,
+    "approved": 26,
     "pending": 23,
     "refused": 4,
     "withdrawn": 2,
@@ -530,25 +530,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://publicaccess.rushmoor.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T16PPINM0HX00"
-    },
-    {
-      "reference": "25/00433/FUL",
-      "address": "12 Pegasus Road Farnborough Hampshire GU14 8SG",
-      "postcode": "GU14 8SG",
-      "ward": "",
-      "proposal": "Erection of single storey, side and rear extension following demolition of existing conservatory",
-      "category": "demolition_rebuild",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided",
-      "decision": "Permission Granted",
-      "receivedDate": "14/08/2025",
-      "decisionDate": "16/09/2025",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://publicaccess.rushmoor.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=T10A25NM0QG00"
     }
   ],
   "pendingApplications": [
@@ -618,8 +599,8 @@
       "category": "other_relevant",
       "units": null,
       "estimatedGdv": null,
-      "status": "Registered",
-      "decision": "Registered",
+      "status": "Awaiting decision",
+      "decision": "Awaiting decision",
       "receivedDate": "28/07/2026",
       "decisionDate": "",
       "applicantName": "",
@@ -656,7 +637,7 @@
       "category": "conversion",
       "units": null,
       "estimatedGdv": null,
-      "status": "Awaiting decision",
+      "status": "Decided",
       "decision": "Decided",
       "receivedDate": "29/06/2026",
       "decisionDate": "",

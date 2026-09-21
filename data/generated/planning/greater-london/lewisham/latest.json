@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-09-13T09:11:24.845Z",
+  "updatedAt": "2026-09-20T01:18:09.344Z",
   "townSlug": "lewisham",
   "countySlug": "greater-london",
   "localAuthority": "London Borough of Lewisham",
   "source": "idox",
   "dataset": {
     "windowMonths": 12,
-    "from": "2025-09-13",
-    "to": "2026-09-13",
-    "retrievedAt": "2026-09-13T09:11:24.845Z",
+    "from": "2025-09-20",
+    "to": "2026-09-20",
+    "retrievedAt": "2026-09-20T01:18:09.342Z",
     "searchBy": [
       "received",
       "decided"
     ],
     "decisionResolution": {
-      "candidates": 89,
-      "cacheHits": 89,
-      "fetched": 0,
+      "candidates": 86,
+      "cacheHits": 75,
+      "fetched": 11,
       "failed": 0,
-      "resolved": 78
+      "resolved": 76
     }
   },
   "summary": {
-    "total": 3542,
-    "relevant": 89,
-    "approved": 43,
-    "pending": 15,
-    "refused": 29,
+    "total": 3545,
+    "relevant": 86,
+    "approved": 40,
+    "pending": 14,
+    "refused": 30,
     "withdrawn": 2,
     "approvedUnits": 29,
-    "pendingUnits": 13,
-    "totalUnits": 42,
+    "pendingUnits": 12,
+    "totalUnits": 41,
     "approvedGdv": 12876000,
-    "pendingGdv": 5234500,
-    "totalEstimatedGDV": 18110500,
-    "approvalRate": 60
+    "pendingGdv": 4784500,
+    "totalEstimatedGDV": 17660500,
+    "approvalRate": 57
   },
   "approvedApplications": [
     {
@@ -796,63 +796,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.lewisham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_LEWIS_DCAPR_127866"
-    },
-    {
-      "reference": "DC/25/140864",
-      "address": "51 MOREMEAD ROAD, LONDON, SE6 3LR",
-      "postcode": "SE6 3LR",
-      "ward": "",
-      "proposal": "Demolition of an existing conservatory and construction of a single-storey flat roof extension wi...",
-      "category": "new_build",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided",
-      "decision": "Granted",
-      "receivedDate": "17/07/2025",
-      "decisionDate": "19/09/2025",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.lewisham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_LEWIS_DCAPR_128787"
-    },
-    {
-      "reference": "DC/25/140659",
-      "address": "22 FORDYCE ROAD, LONDON, SE13 6RH",
-      "postcode": "SE13 6RH",
-      "ward": "",
-      "proposal": "Demolition of an existing garage and construction of a 2-storey dwellinghouse, together with bin ...",
-      "category": "new_build",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided",
-      "decision": "Granted",
-      "receivedDate": "01/07/2025",
-      "decisionDate": "19/09/2025",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.lewisham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_LEWIS_DCAPR_128582"
-    },
-    {
-      "reference": "DC/25/140946",
-      "address": "39 REID HOUSE, 36-52 HYNDEWOOD, LONDON, SE23 2BJ",
-      "postcode": "SE23 2BJ",
-      "ward": "",
-      "proposal": "Installation of replacement brown uPVC windows at 39 Reid House, 36-52 Hyndewood, SE23",
-      "category": "new_build",
-      "units": null,
-      "estimatedGdv": null,
-      "status": "Decided",
-      "decision": "Granted",
-      "receivedDate": "28/07/2025",
-      "decisionDate": "18/09/2025",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.lewisham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_LEWIS_DCAPR_128869"
     }
   ],
   "pendingApplications": [
@@ -874,25 +817,6 @@
       "agentName": "",
       "agentCompany": "",
       "sourceUrl": "https://planning.lewisham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_LEWIS_DCAPR_132943"
-    },
-    {
-      "reference": "DC/26/144768",
-      "address": "5 CASTLANDS ROAD, LONDON, SE6 4LN",
-      "postcode": "SE6 4LN",
-      "ward": "",
-      "proposal": "Change of use of the existing dwellinghouse (Use Class C3(a) into a children's care home (Use Cla...",
-      "category": "conversion",
-      "units": 1,
-      "estimatedGdv": 450000,
-      "status": "Registered",
-      "decision": "Awaiting decision",
-      "receivedDate": "17/07/2026",
-      "decisionDate": "",
-      "applicantName": "",
-      "applicantCompany": "",
-      "agentName": "",
-      "agentCompany": "",
-      "sourceUrl": "https://planning.lewisham.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=_LEWIS_DCAPR_132691"
     },
     {
       "reference": "DC/26/144756",
