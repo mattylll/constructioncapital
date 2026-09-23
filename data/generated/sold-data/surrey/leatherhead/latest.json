@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.412Z",
+  "updatedAt": "2026-09-23T05:26:55.723Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "leatherhead",
   "countySlug": "surrey",
   "isDistrictLevelFallback": false,
@@ -7,17 +8,17 @@
     "MOLE VALLEY"
   ],
   "stats": {
-    "medianPrice": 565000,
+    "medianPrice": 567500,
     "medianByType": {
-      "D": 875500,
-      "S": 565000,
-      "T": 441000,
-      "F": 254000
+      "D": 860000,
+      "S": 560000,
+      "T": 432000,
+      "F": 258250
     },
-    "transactionCount12m": 337,
-    "yoyChange": -2.6,
+    "transactionCount12m": 448,
+    "yoyChange": -2.2,
     "newBuildCount": 0,
-    "existingCount": 337,
+    "existingCount": 448,
     "newBuildPremium": null
   },
   "recentTransactions": [
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 531500,
       "transactions": 20
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 499950,
-      "transactions": 11
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 518000,
       "transactions": 97
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 483975,
-      "transactions": 58
     }
   ]
 }

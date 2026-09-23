@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.715Z",
+  "updatedAt": "2026-09-23T05:26:56.027Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "hemel-hempstead",
   "countySlug": "hertfordshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "DACORUM"
   ],
   "stats": {
-    "medianPrice": 442000,
+    "medianPrice": 442050,
     "medianByType": {
-      "D": 796250,
-      "S": 534500,
-      "T": 412250,
-      "F": 252000
+      "D": 795000,
+      "S": 532000,
+      "T": 411250,
+      "F": 250000
     },
-    "transactionCount12m": 1559,
+    "transactionCount12m": 1982,
     "yoyChange": 0.5,
-    "newBuildCount": 5,
-    "existingCount": 1554,
-    "newBuildPremium": 13.3
+    "newBuildCount": 8,
+    "existingCount": 1974,
+    "newBuildPremium": 41
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 415000,
       "transactions": 89
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 440000,
-      "transactions": 51
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 425000,
       "transactions": 384
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 430000,
-      "transactions": 245
     }
   ]
 }

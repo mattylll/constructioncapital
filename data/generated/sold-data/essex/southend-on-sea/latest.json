@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.774Z",
+  "updatedAt": "2026-09-23T05:26:56.083Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "southend-on-sea",
   "countySlug": "essex",
   "isDistrictLevelFallback": false,
@@ -10,16 +11,16 @@
   "stats": {
     "medianPrice": 330000,
     "medianByType": {
-      "D": 515000,
-      "S": 400000,
-      "T": 320000,
-      "F": 210000
+      "D": 535000,
+      "S": 395000,
+      "T": 325000,
+      "F": 208500
     },
-    "transactionCount12m": 2106,
+    "transactionCount12m": 2678,
     "yoyChange": 1.5,
-    "newBuildCount": 0,
-    "existingCount": 2106,
-    "newBuildPremium": null
+    "newBuildCount": 8,
+    "existingCount": 2670,
+    "newBuildPremium": -15.2
   },
   "recentTransactions": [
     {
@@ -348,11 +349,6 @@
       "month": "2026-05",
       "medianPrice": 320000,
       "transactions": 157
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 362500,
-      "transactions": 61
     }
   ],
   "quarterlyHistory": [
@@ -400,11 +396,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 325000,
       "transactions": 532
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 318500,
-      "transactions": 355
     }
   ]
 }

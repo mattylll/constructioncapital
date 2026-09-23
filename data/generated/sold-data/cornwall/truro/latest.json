@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.104Z",
+  "updatedAt": "2026-09-23T05:26:56.402Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "truro",
   "countySlug": "cornwall",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "CORNWALL"
   ],
   "stats": {
-    "medianPrice": 319000,
+    "medianPrice": 320000,
     "medianByType": {
-      "D": 440000,
+      "D": 455000,
       "S": 305000,
-      "T": 253500,
-      "F": 185000
+      "T": 258000,
+      "F": 184500
     },
-    "transactionCount12m": 658,
-    "yoyChange": -1.9,
-    "newBuildCount": 2,
-    "existingCount": 656,
-    "newBuildPremium": null
+    "transactionCount12m": 837,
+    "yoyChange": -1.6,
+    "newBuildCount": 7,
+    "existingCount": 830,
+    "newBuildPremium": 154.7
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 295000,
       "transactions": 57
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 280750,
-      "transactions": 30
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 310000,
       "transactions": 173
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 295000,
-      "transactions": 124
     }
   ]
 }

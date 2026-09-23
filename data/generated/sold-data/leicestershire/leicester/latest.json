@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.662Z",
+  "updatedAt": "2026-09-23T05:26:56.971Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "leicester",
   "countySlug": "leicestershire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "LEICESTER"
   ],
   "stats": {
-    "medianPrice": 236250,
+    "medianPrice": 235000,
     "medianByType": {
-      "D": 375500,
-      "S": 267500,
-      "T": 215000,
+      "D": 370000,
+      "S": 265000,
+      "T": 212000,
       "F": 120000
     },
-    "transactionCount12m": 2100,
-    "yoyChange": 1.5,
-    "newBuildCount": 5,
-    "existingCount": 2095,
-    "newBuildPremium": -19
+    "transactionCount12m": 2678,
+    "yoyChange": 2.1,
+    "newBuildCount": 14,
+    "existingCount": 2664,
+    "newBuildPremium": 19.7
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 240000,
       "transactions": 148
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 232500,
-      "transactions": 58
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 235000,
       "transactions": 540
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 235000,
-      "transactions": 371
     }
   ]
 }

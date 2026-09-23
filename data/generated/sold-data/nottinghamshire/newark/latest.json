@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.626Z",
+  "updatedAt": "2026-09-23T05:26:56.936Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "newark",
   "countySlug": "nottinghamshire",
   "isDistrictLevelFallback": false,
@@ -10,15 +11,15 @@
     "medianPrice": 230000,
     "medianByType": {
       "D": 325000,
-      "S": 195000,
-      "T": 160000,
-      "F": 119500
+      "S": 199973,
+      "T": 159000,
+      "F": 123000
     },
-    "transactionCount12m": 1496,
-    "yoyChange": -1.7,
-    "newBuildCount": 44,
-    "existingCount": 1452,
-    "newBuildPremium": 28.9
+    "transactionCount12m": 2022,
+    "yoyChange": -0.9,
+    "newBuildCount": 119,
+    "existingCount": 1903,
+    "newBuildPremium": 26.7
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 205000,
       "transactions": 89
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 230000,
-      "transactions": 42
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 235000,
       "transactions": 348
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 213750,
-      "transactions": 244
     }
   ]
 }

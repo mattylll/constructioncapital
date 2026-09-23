@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.209Z",
+  "updatedAt": "2026-09-23T05:26:57.522Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "leeds",
   "countySlug": "west-yorkshire",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 235000,
     "medianByType": {
-      "D": 424995,
-      "S": 256000,
-      "T": 189725,
-      "F": 147500
+      "D": 422800,
+      "S": 255000,
+      "T": 189000,
+      "F": 148000
     },
-    "transactionCount12m": 8117,
+    "transactionCount12m": 10583,
     "yoyChange": 0,
-    "newBuildCount": 54,
-    "existingCount": 8063,
-    "newBuildPremium": 16
+    "newBuildCount": 213,
+    "existingCount": 10370,
+    "newBuildPremium": 48.9
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 235000,
       "transactions": 567
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 230000,
-      "transactions": 256
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 230000,
       "transactions": 1989
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 231672,
-      "transactions": 1464
     }
   ]
 }

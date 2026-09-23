@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.780Z",
+  "updatedAt": "2026-09-23T05:26:58.075Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "huntingdon",
   "countySlug": "cambridgeshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "HUNTINGDONSHIRE"
   ],
   "stats": {
-    "medianPrice": 310000,
+    "medianPrice": 313598,
     "medianByType": {
-      "D": 425000,
+      "D": 426750,
       "S": 285000,
       "T": 240000,
-      "F": 149500
+      "F": 149000
     },
-    "transactionCount12m": 1130,
-    "yoyChange": -4.2,
-    "newBuildCount": 24,
-    "existingCount": 1106,
-    "newBuildPremium": 36.8
+    "transactionCount12m": 1478,
+    "yoyChange": -3.5,
+    "newBuildCount": 59,
+    "existingCount": 1419,
+    "newBuildPremium": 22.6
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 320000,
       "transactions": 89
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 332775,
-      "transactions": 36
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 306000,
       "transactions": 293
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 318000,
-      "transactions": 206
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:10.700Z",
+  "updatedAt": "2026-09-23T05:26:54.984Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "lewisham",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
@@ -8,13 +9,13 @@
   ],
   "marketSnapshot": {
     "medianPrice": 450000,
-    "transactionCount12m": 2302,
+    "transactionCount12m": 2962,
     "yoyPriceChange": 0,
-    "approvedApps12m": 0,
-    "approvedRecent": 0,
+    "approvedApps12m": 40,
+    "approvedRecent": 40,
     "planningWindowMonths": 12,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "pipelineUnits": 41,
+    "pipelineGdv": 17660500,
+    "approvalRate": 57
   }
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.558Z",
+  "updatedAt": "2026-09-23T05:26:55.866Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "eastleigh",
   "countySlug": "hampshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "EASTLEIGH"
   ],
   "stats": {
-    "medianPrice": 335000,
+    "medianPrice": 332000,
     "medianByType": {
       "D": 479000,
-      "S": 340500,
-      "T": 290000,
-      "F": 177500
+      "S": 343500,
+      "T": 288000,
+      "F": 180000
     },
-    "transactionCount12m": 1573,
-    "yoyChange": -1.5,
-    "newBuildCount": 11,
-    "existingCount": 1562,
-    "newBuildPremium": 48.6
+    "transactionCount12m": 2026,
+    "yoyChange": -3.1,
+    "newBuildCount": 51,
+    "existingCount": 1975,
+    "newBuildPremium": 28.2
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 336250,
       "transactions": 118
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 352500,
-      "transactions": 44
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 328750,
       "transactions": 434
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 332500,
-      "transactions": 284
     }
   ]
 }

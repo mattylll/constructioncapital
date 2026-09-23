@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:10.829Z",
+  "updatedAt": "2026-09-23T05:26:55.120Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "shoreditch",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": true,
@@ -7,18 +8,18 @@
     "HACKNEY"
   ],
   "stats": {
-    "medianPrice": 550000,
+    "medianPrice": 560000,
     "medianByType": {
-      "D": 1055000,
+      "D": 1250000,
       "S": 1400000,
-      "T": 1107000,
+      "T": 1150000,
       "F": 500000
     },
-    "transactionCount12m": 1622,
-    "yoyChange": -3.2,
-    "newBuildCount": 68,
-    "existingCount": 1554,
-    "newBuildPremium": -24.7
+    "transactionCount12m": 2121,
+    "yoyChange": -1.8,
+    "newBuildCount": 93,
+    "existingCount": 2028,
+    "newBuildPremium": -7.5
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 511250,
       "transactions": 102
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 543340,
-      "transactions": 36
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 550000,
       "transactions": 378
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 525000,
-      "transactions": 237
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.100Z",
+  "updatedAt": "2026-09-23T05:26:57.417Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "chester",
   "countySlug": "cheshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "CHESHIRE WEST AND CHESTER"
   ],
   "stats": {
-    "medianPrice": 275000,
+    "medianPrice": 279000,
     "medianByType": {
       "D": 435000,
       "S": 300000,
-      "T": 245000,
-      "F": 157000
+      "T": 240000,
+      "F": 157500
     },
-    "transactionCount12m": 1483,
-    "yoyChange": 0,
-    "newBuildCount": 4,
-    "existingCount": 1479,
-    "newBuildPremium": 98.2
+    "transactionCount12m": 1876,
+    "yoyChange": 1.5,
+    "newBuildCount": 21,
+    "existingCount": 1855,
+    "newBuildPremium": 49.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 280000,
       "transactions": 117
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 261000,
-      "transactions": 56
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 295000,
       "transactions": 363
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 275000,
-      "transactions": 271
     }
   ]
 }

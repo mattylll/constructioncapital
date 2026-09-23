@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.838Z",
+  "updatedAt": "2026-09-23T05:26:56.142Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "canvey-island",
   "countySlug": "essex",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "CASTLE POINT"
   ],
   "stats": {
-    "medianPrice": 365000,
+    "medianPrice": 367250,
     "medianByType": {
-      "D": 448250,
-      "S": 361625,
+      "D": 450000,
+      "S": 365500,
       "T": 300000,
       "F": 220000
     },
-    "transactionCount12m": 922,
-    "yoyChange": 1.4,
-    "newBuildCount": 1,
-    "existingCount": 921,
-    "newBuildPremium": null
+    "transactionCount12m": 1212,
+    "yoyChange": 3.5,
+    "newBuildCount": 7,
+    "existingCount": 1205,
+    "newBuildPremium": -4.8
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 393500,
       "transactions": 62
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 364000,
-      "transactions": 34
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 355000,
       "transactions": 236
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 375000,
-      "transactions": 157
     }
   ]
 }

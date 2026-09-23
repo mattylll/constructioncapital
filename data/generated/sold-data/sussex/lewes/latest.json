@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.485Z",
+  "updatedAt": "2026-09-23T05:26:55.795Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "lewes",
   "countySlug": "sussex",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "LEWES"
   ],
   "stats": {
-    "medianPrice": 380000,
+    "medianPrice": 375000,
     "medianByType": {
-      "D": 480000,
-      "S": 390000,
-      "T": 355000,
-      "F": 216250
+      "D": 485000,
+      "S": 385000,
+      "T": 350000,
+      "F": 220000
     },
-    "transactionCount12m": 1169,
-    "yoyChange": 0,
-    "newBuildCount": 13,
-    "existingCount": 1156,
-    "newBuildPremium": 66.4
+    "transactionCount12m": 1496,
+    "yoyChange": -2.6,
+    "newBuildCount": 21,
+    "existingCount": 1475,
+    "newBuildPremium": 52.8
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 366000,
       "transactions": 81
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 411000,
-      "transactions": 44
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 375000,
       "transactions": 299
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 375000,
-      "transactions": 216
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.785Z",
+  "updatedAt": "2026-09-23T05:26:58.081Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "st-neots",
   "countySlug": "cambridgeshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "HUNTINGDONSHIRE"
   ],
   "stats": {
-    "medianPrice": 312500,
+    "medianPrice": 315000,
     "medianByType": {
-      "D": 447500,
-      "S": 320000,
+      "D": 451250,
+      "S": 325000,
       "T": 276500,
-      "F": 169250
+      "F": 175000
     },
-    "transactionCount12m": 599,
-    "yoyChange": -5.9,
-    "newBuildCount": 19,
-    "existingCount": 580,
-    "newBuildPremium": 17.2
+    "transactionCount12m": 787,
+    "yoyChange": -6.3,
+    "newBuildCount": 59,
+    "existingCount": 728,
+    "newBuildPremium": 24.8
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 285000,
       "transactions": 41
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 322000,
-      "transactions": 13
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 300000,
       "transactions": 162
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 300000,
-      "transactions": 101
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.653Z",
+  "updatedAt": "2026-09-23T05:26:56.963Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "retford",
   "countySlug": "nottinghamshire",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 200000,
     "medianByType": {
-      "D": 311500,
+      "D": 329998,
       "S": 181000,
-      "T": 150000,
-      "F": 93500
+      "T": 145000,
+      "F": 96000
     },
-    "transactionCount12m": 422,
+    "transactionCount12m": 539,
     "yoyChange": -9.1,
-    "newBuildCount": 3,
-    "existingCount": 419,
-    "newBuildPremium": 180
+    "newBuildCount": 19,
+    "existingCount": 520,
+    "newBuildPremium": 79
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 205000,
       "transactions": 27
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 252750,
-      "transactions": 12
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 190000,
       "transactions": 108
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 210000,
-      "transactions": 76
     }
   ]
 }

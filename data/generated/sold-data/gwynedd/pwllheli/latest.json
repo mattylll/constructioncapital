@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:14.116Z",
+  "updatedAt": "2026-09-23T05:26:58.402Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "pwllheli",
   "countySlug": "gwynedd",
   "isDistrictLevelFallback": false,
@@ -7,17 +8,17 @@
     "GWYNEDD"
   ],
   "stats": {
-    "medianPrice": 265000,
+    "medianPrice": 260750,
     "medianByType": {
-      "D": 345000,
-      "S": 239975,
-      "T": 190000,
-      "F": 163000
+      "D": 332250,
+      "S": 255000,
+      "T": 162000,
+      "F": 174000
     },
-    "transactionCount12m": 169,
-    "yoyChange": 6,
+    "transactionCount12m": 236,
+    "yoyChange": 4.3,
     "newBuildCount": 0,
-    "existingCount": 169,
+    "existingCount": 236,
     "newBuildPremium": null
   },
   "recentTransactions": [
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 267500,
       "transactions": 18
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 220000,
-      "transactions": 3
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 250000,
       "transactions": 43
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 285000,
-      "transactions": 35
     }
   ]
 }

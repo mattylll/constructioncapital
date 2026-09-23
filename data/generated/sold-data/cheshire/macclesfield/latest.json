@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.130Z",
+  "updatedAt": "2026-09-23T05:26:57.447Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "macclesfield",
   "countySlug": "cheshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "CHESHIRE EAST"
   ],
   "stats": {
-    "medianPrice": 292500,
+    "medianPrice": 295000,
     "medianByType": {
-      "D": 490000,
+      "D": 499950,
       "S": 318000,
       "T": 210000,
-      "F": 155000
+      "F": 163000
     },
-    "transactionCount12m": 1083,
-    "yoyChange": -2.5,
-    "newBuildCount": 24,
-    "existingCount": 1059,
-    "newBuildPremium": 25.9
+    "transactionCount12m": 1403,
+    "yoyChange": -1.7,
+    "newBuildCount": 63,
+    "existingCount": 1340,
+    "newBuildPremium": 28.6
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 260000,
       "transactions": 61
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 213250,
-      "transactions": 36
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 299950,
       "transactions": 248
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 260000,
-      "transactions": 167
     }
   ]
 }

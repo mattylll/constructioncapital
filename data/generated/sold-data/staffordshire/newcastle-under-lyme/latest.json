@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.476Z",
+  "updatedAt": "2026-09-23T05:26:56.779Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "newcastle-under-lyme",
   "countySlug": "staffordshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "NEWCASTLE-UNDER-LYME"
   ],
   "stats": {
-    "medianPrice": 191750,
+    "medianPrice": 190000,
     "medianByType": {
-      "D": 310000,
+      "D": 312000,
       "S": 190000,
-      "T": 137000,
-      "F": 93750
+      "T": 135000,
+      "F": 92500
     },
-    "transactionCount12m": 1370,
-    "yoyChange": 3.1,
-    "newBuildCount": 11,
-    "existingCount": 1359,
-    "newBuildPremium": 59.7
+    "transactionCount12m": 1762,
+    "yoyChange": 1.1,
+    "newBuildCount": 23,
+    "existingCount": 1739,
+    "newBuildPremium": 71.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 205000,
       "transactions": 90
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 195000,
-      "transactions": 45
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 182750,
       "transactions": 328
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 195000,
-      "transactions": 248
     }
   ]
 }

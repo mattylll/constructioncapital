@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.937Z",
+  "updatedAt": "2026-09-23T05:26:57.251Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "wigan",
   "countySlug": "greater-manchester",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "WIGAN"
   ],
   "stats": {
-    "medianPrice": 180000,
+    "medianPrice": 181000,
     "medianByType": {
-      "D": 330000,
-      "S": 204995,
-      "T": 137500,
+      "D": 325975,
+      "S": 205000,
+      "T": 138000,
       "F": 110000
     },
-    "transactionCount12m": 3673,
-    "yoyChange": -2.3,
-    "newBuildCount": 20,
-    "existingCount": 3653,
-    "newBuildPremium": 78.6
+    "transactionCount12m": 4828,
+    "yoyChange": -0.4,
+    "newBuildCount": 85,
+    "existingCount": 4743,
+    "newBuildPremium": 61.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 171000,
       "transactions": 249
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 180000,
-      "transactions": 87
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 180000,
       "transactions": 895
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 178975,
-      "transactions": 572
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.569Z",
+  "updatedAt": "2026-09-23T05:26:56.881Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "matlock",
   "countySlug": "derbyshire",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 315000,
     "medianByType": {
-      "D": 460000,
-      "S": 275000,
+      "D": 457500,
+      "S": 270000,
       "T": 236000,
       "F": 181875
     },
-    "transactionCount12m": 822,
-    "yoyChange": 1.6,
-    "newBuildCount": 7,
-    "existingCount": 815,
-    "newBuildPremium": -9.5
+    "transactionCount12m": 1053,
+    "yoyChange": 0,
+    "newBuildCount": 18,
+    "existingCount": 1035,
+    "newBuildPremium": 4.9
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 295000,
       "transactions": 75
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 318500,
-      "transactions": 30
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 310000,
       "transactions": 199
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 293750,
-      "transactions": 160
     }
   ]
 }

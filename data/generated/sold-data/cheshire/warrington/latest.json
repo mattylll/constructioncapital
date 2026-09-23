@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.114Z",
+  "updatedAt": "2026-09-23T05:26:57.430Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "warrington",
   "countySlug": "cheshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "WARRINGTON"
   ],
   "stats": {
-    "medianPrice": 248975,
+    "medianPrice": 250000,
     "medianByType": {
       "D": 425000,
-      "S": 260000,
+      "S": 258000,
       "T": 180000,
-      "F": 130000
+      "F": 129000
     },
-    "transactionCount12m": 2350,
-    "yoyChange": 1.6,
-    "newBuildCount": 9,
-    "existingCount": 2341,
-    "newBuildPremium": 69.4
+    "transactionCount12m": 3031,
+    "yoyChange": 2,
+    "newBuildCount": 46,
+    "existingCount": 2985,
+    "newBuildPremium": 51
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 242500,
       "transactions": 182
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 280000,
-      "transactions": 57
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 249950,
       "transactions": 619
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 250000,
-      "transactions": 408
     }
   ]
 }

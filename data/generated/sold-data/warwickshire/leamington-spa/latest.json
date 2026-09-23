@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.397Z",
+  "updatedAt": "2026-09-23T05:26:56.700Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "leamington-spa",
   "countySlug": "warwickshire",
   "isDistrictLevelFallback": false,
@@ -7,17 +8,17 @@
     "WARWICK"
   ],
   "stats": {
-    "medianPrice": 328250,
+    "medianPrice": 326550,
     "medianByType": {
-      "D": 522500,
-      "S": 346000,
-      "T": 323500,
+      "D": 527500,
+      "S": 345500,
+      "T": 319500,
       "F": 210000
     },
-    "transactionCount12m": 840,
-    "yoyChange": -2,
-    "newBuildCount": 1,
-    "existingCount": 839,
+    "transactionCount12m": 1066,
+    "yoyChange": -2.5,
+    "newBuildCount": 2,
+    "existingCount": 1064,
     "newBuildPremium": null
   },
   "recentTransactions": [
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 305000,
       "transactions": 62
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 325000,
-      "transactions": 37
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 335000,
       "transactions": 177
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 313000,
-      "transactions": 168
     }
   ]
 }

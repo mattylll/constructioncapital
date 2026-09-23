@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.215Z",
+  "updatedAt": "2026-09-23T05:26:56.522Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "cheltenham",
   "countySlug": "gloucestershire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "CHELTENHAM"
   ],
   "stats": {
-    "medianPrice": 325000,
+    "medianPrice": 321000,
     "medianByType": {
-      "D": 625000,
-      "S": 367500,
+      "D": 605000,
+      "S": 365000,
       "T": 300000,
-      "F": 200000
+      "F": 205000
     },
-    "transactionCount12m": 1554,
-    "yoyChange": 2.5,
-    "newBuildCount": 4,
-    "existingCount": 1550,
-    "newBuildPremium": -19.2
+    "transactionCount12m": 2031,
+    "yoyChange": 1.1,
+    "newBuildCount": 24,
+    "existingCount": 2007,
+    "newBuildPremium": 1.2
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 348000,
       "transactions": 115
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 318000,
-      "transactions": 41
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 300000,
       "transactions": 351
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 327000,
-      "transactions": 268
     }
   ]
 }

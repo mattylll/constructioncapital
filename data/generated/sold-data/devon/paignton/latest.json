@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.100Z",
+  "updatedAt": "2026-09-23T05:26:56.397Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "paignton",
   "countySlug": "devon",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 250000,
     "medianByType": {
-      "D": 365500,
-      "S": 260000,
-      "T": 212500,
-      "F": 140500
+      "D": 366000,
+      "S": 258000,
+      "T": 220000,
+      "F": 137500
     },
-    "transactionCount12m": 637,
-    "yoyChange": -3.8,
-    "newBuildCount": 1,
-    "existingCount": 636,
-    "newBuildPremium": null
+    "transactionCount12m": 825,
+    "yoyChange": -5.7,
+    "newBuildCount": 12,
+    "existingCount": 813,
+    "newBuildPremium": 25
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 260000,
       "transactions": 65
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 246000,
-      "transactions": 27
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 240000,
       "transactions": 159
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 258000,
-      "transactions": 133
     }
   ]
 }

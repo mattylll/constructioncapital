@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.808Z",
+  "updatedAt": "2026-09-23T05:26:57.119Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "gainsborough",
   "countySlug": "lincolnshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "WEST LINDSEY"
   ],
   "stats": {
-    "medianPrice": 215000,
+    "medianPrice": 217500,
     "medianByType": {
-      "D": 306000,
-      "S": 185000,
-      "T": 128500,
-      "F": 81500
+      "D": 305000,
+      "S": 185750,
+      "T": 135000,
+      "F": 80000
     },
-    "transactionCount12m": 1258,
-    "yoyChange": -2.3,
-    "newBuildCount": 19,
-    "existingCount": 1239,
-    "newBuildPremium": 20.9
+    "transactionCount12m": 1670,
+    "yoyChange": -1.1,
+    "newBuildCount": 96,
+    "existingCount": 1574,
+    "newBuildPremium": 8.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 180000,
       "transactions": 97
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 215000,
-      "transactions": 47
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 210000,
       "transactions": 293
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 209500,
-      "transactions": 218
     }
   ]
 }

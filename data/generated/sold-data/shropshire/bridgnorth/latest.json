@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.534Z",
+  "updatedAt": "2026-09-23T05:26:56.847Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "bridgnorth",
   "countySlug": "shropshire",
   "isDistrictLevelFallback": false,
@@ -9,15 +10,15 @@
   "stats": {
     "medianPrice": 265000,
     "medianByType": {
-      "D": 382500,
+      "D": 377500,
       "S": 250000,
-      "T": 222500,
-      "F": 140000
+      "T": 220000,
+      "F": 142500
     },
-    "transactionCount12m": 257,
+    "transactionCount12m": 304,
     "yoyChange": -1.9,
     "newBuildCount": 0,
-    "existingCount": 257,
+    "existingCount": 304,
     "newBuildPremium": null
   },
   "recentTransactions": [
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 243000,
       "transactions": 13
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 306500,
-      "transactions": 10
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 248500,
       "transactions": 61
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 267500,
-      "transactions": 40
     }
   ]
 }

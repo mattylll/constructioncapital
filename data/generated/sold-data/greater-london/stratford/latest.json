@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:10.686Z",
+  "updatedAt": "2026-09-23T05:26:54.969Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "stratford",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "NEWHAM"
   ],
   "stats": {
-    "medianPrice": 425000,
+    "medianPrice": 430000,
     "medianByType": {
-      "D": 575000,
-      "S": 460000,
+      "D": 525000,
+      "S": 480000,
       "T": 470000,
-      "F": 345000
+      "F": 350000
     },
-    "transactionCount12m": 1531,
-    "yoyChange": -3.8,
-    "newBuildCount": 67,
-    "existingCount": 1464,
-    "newBuildPremium": 45.9
+    "transactionCount12m": 1986,
+    "yoyChange": -2.3,
+    "newBuildCount": 137,
+    "existingCount": 1849,
+    "newBuildPremium": 38.2
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 415000,
       "transactions": 113
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 410000,
-      "transactions": 47
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 420000,
       "transactions": 378
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 410500,
-      "transactions": 270
     }
   ]
 }

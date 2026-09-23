@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.672Z",
+  "updatedAt": "2026-09-23T05:26:55.984Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "didcot",
   "countySlug": "oxfordshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "SOUTH OXFORDSHIRE"
   ],
   "stats": {
-    "medianPrice": 362500,
+    "medianPrice": 361250,
     "medianByType": {
-      "D": 485000,
+      "D": 475000,
       "S": 375000,
       "T": 300000,
-      "F": 204000
+      "F": 205500
     },
-    "transactionCount12m": 397,
-    "yoyChange": 0.7,
-    "newBuildCount": 22,
-    "existingCount": 375,
-    "newBuildPremium": 35
+    "transactionCount12m": 506,
+    "yoyChange": 0.3,
+    "newBuildCount": 33,
+    "existingCount": 473,
+    "newBuildPremium": 34.3
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 360000,
       "transactions": 31
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 460000,
-      "transactions": 3
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 356250,
       "transactions": 108
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 347500,
-      "transactions": 62
     }
   ]
 }

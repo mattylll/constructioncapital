@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.385Z",
+  "updatedAt": "2026-09-23T05:26:57.693Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "mexborough",
   "countySlug": "south-yorkshire",
   "isDistrictLevelFallback": false,
@@ -7,17 +8,17 @@
     "DONCASTER"
   ],
   "stats": {
-    "medianPrice": 127000,
+    "medianPrice": 120000,
     "medianByType": {
       "D": 260000,
-      "S": 152000,
-      "T": 80000,
-      "F": 170000
+      "S": 151250,
+      "T": 79500,
+      "F": 163000
     },
-    "transactionCount12m": 190,
-    "yoyChange": 5.8,
+    "transactionCount12m": 250,
+    "yoyChange": 2.6,
     "newBuildCount": 0,
-    "existingCount": 190,
+    "existingCount": 250,
     "newBuildPremium": null
   },
   "recentTransactions": [
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 145000,
       "transactions": 16
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 142000,
-      "transactions": 7
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 128500,
       "transactions": 50
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 148500,
-      "transactions": 36
     }
   ]
 }

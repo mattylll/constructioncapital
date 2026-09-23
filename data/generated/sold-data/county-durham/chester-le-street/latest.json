@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.586Z",
+  "updatedAt": "2026-09-23T05:26:57.876Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "chester-le-street",
   "countySlug": "county-durham",
   "isDistrictLevelFallback": true,
@@ -7,18 +8,18 @@
     "COUNTY DURHAM"
   ],
   "stats": {
-    "medianPrice": 124000,
+    "medianPrice": 125000,
     "medianByType": {
       "D": 260000,
-      "S": 140000,
-      "T": 86000,
+      "S": 142750,
+      "T": 85000,
       "F": 85000
     },
-    "transactionCount12m": 6545,
-    "yoyChange": -0.8,
-    "newBuildCount": 59,
-    "existingCount": 6486,
-    "newBuildPremium": 98.4
+    "transactionCount12m": 8716,
+    "yoyChange": 0,
+    "newBuildCount": 284,
+    "existingCount": 8432,
+    "newBuildPremium": 72.5
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 119975,
       "transactions": 468
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 120000,
-      "transactions": 215
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 116500,
       "transactions": 1660
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 122000,
-      "transactions": 1187
     }
   ]
 }

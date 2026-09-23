@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.735Z",
+  "updatedAt": "2026-09-23T05:26:57.044Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "kettering",
   "countySlug": "northamptonshire",
   "isDistrictLevelFallback": false,
@@ -8,18 +9,18 @@
     "KETTERING"
   ],
   "stats": {
-    "medianPrice": 253000,
+    "medianPrice": 255000,
     "medianByType": {
-      "D": 364100,
-      "S": 248000,
-      "T": 199998,
-      "F": 121500
+      "D": 365000,
+      "S": 250000,
+      "T": 197000,
+      "F": 127000
     },
-    "transactionCount12m": 1381,
+    "transactionCount12m": 1857,
     "yoyChange": -3.1,
-    "newBuildCount": 13,
-    "existingCount": 1368,
-    "newBuildPremium": 68.7
+    "newBuildCount": 81,
+    "existingCount": 1776,
+    "newBuildPremium": 40
   },
   "recentTransactions": [
     {
@@ -348,11 +349,6 @@
       "month": "2026-05",
       "medianPrice": 269998,
       "transactions": 72
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 245000,
-      "transactions": 41
     }
   ],
   "quarterlyHistory": [
@@ -400,11 +396,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 245000,
       "transactions": 339
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 251500,
-      "transactions": 236
     }
   ]
 }

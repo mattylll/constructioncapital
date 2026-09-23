@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.163Z",
+  "updatedAt": "2026-09-23T05:26:56.469Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "christchurch",
   "countySlug": "dorset",
   "isDistrictLevelFallback": false,
@@ -8,14 +9,14 @@
     "CHRISTCHURCH"
   ],
   "marketSnapshot": {
-    "medianPrice": 413000,
-    "transactionCount12m": 690,
-    "yoyPriceChange": -0.5,
-    "approvedApps12m": 0,
-    "approvedRecent": 0,
-    "planningWindowMonths": null,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 410000,
+    "transactionCount12m": 843,
+    "yoyPriceChange": -1.2,
+    "approvedApps12m": 316,
+    "approvedRecent": 316,
+    "planningWindowMonths": 12,
+    "pipelineUnits": 571,
+    "pipelineGdv": 184080000,
+    "approvalRate": 74
   }
 }

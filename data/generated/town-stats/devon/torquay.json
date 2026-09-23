@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.063Z",
+  "updatedAt": "2026-09-23T05:26:56.360Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "torquay",
   "countySlug": "devon",
   "isDistrictLevelFallback": false,
@@ -7,14 +8,14 @@
     "TORBAY"
   ],
   "marketSnapshot": {
-    "medianPrice": 222700,
-    "transactionCount12m": 794,
-    "yoyPriceChange": -3.2,
-    "approvedApps12m": 0,
-    "approvedRecent": 0,
-    "planningWindowMonths": null,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 225000,
+    "transactionCount12m": 1028,
+    "yoyPriceChange": -2.2,
+    "approvedApps12m": 71,
+    "approvedRecent": 71,
+    "planningWindowMonths": 12,
+    "pipelineUnits": 865,
+    "pipelineGdv": 166761856,
+    "approvalRate": 88
   }
 }

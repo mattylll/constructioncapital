@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.004Z",
+  "updatedAt": "2026-09-23T05:26:55.302Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "canary-wharf",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": true,
@@ -7,18 +8,18 @@
     "TOWER HAMLETS"
   ],
   "stats": {
-    "medianPrice": 460000,
+    "medianPrice": 475000,
     "medianByType": {
       "D": 1150000,
-      "S": 737500,
-      "T": 814500,
-      "F": 437000
+      "S": 756500,
+      "T": 811250,
+      "F": 453550
     },
-    "transactionCount12m": 1860,
-    "yoyChange": -9.8,
-    "newBuildCount": 69,
-    "existingCount": 1791,
-    "newBuildPremium": 50
+    "transactionCount12m": 2576,
+    "yoyChange": -7.6,
+    "newBuildCount": 210,
+    "existingCount": 2366,
+    "newBuildPremium": 65.4
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 432500,
       "transactions": 129
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 442500,
-      "transactions": 42
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 450000,
       "transactions": 481
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 445000,
-      "transactions": 293
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.768Z",
+  "updatedAt": "2026-09-23T05:26:57.076Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "lincoln",
   "countySlug": "lincolnshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "LINCOLN"
   ],
   "stats": {
-    "medianPrice": 184000,
+    "medianPrice": 182000,
     "medianByType": {
       "D": 285000,
       "S": 200000,
-      "T": 157500,
-      "F": 116000
+      "T": 155000,
+      "F": 113750
     },
-    "transactionCount12m": 1083,
-    "yoyChange": 5.1,
-    "newBuildCount": 2,
-    "existingCount": 1081,
-    "newBuildPremium": null
+    "transactionCount12m": 1389,
+    "yoyChange": 2.8,
+    "newBuildCount": 4,
+    "existingCount": 1385,
+    "newBuildPremium": 37.3
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 179975,
       "transactions": 102
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 185000,
-      "transactions": 43
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 180000,
       "transactions": 274
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 175000,
-      "transactions": 209
     }
   ]
 }

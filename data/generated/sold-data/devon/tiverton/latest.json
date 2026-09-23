@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.083Z",
+  "updatedAt": "2026-09-23T05:26:56.380Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "tiverton",
   "countySlug": "devon",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "MID DEVON"
   ],
   "stats": {
-    "medianPrice": 277750,
+    "medianPrice": 275000,
     "medianByType": {
-      "D": 414500,
-      "S": 265000,
-      "T": 222500,
-      "F": 121000
+      "D": 407500,
+      "S": 268000,
+      "T": 220000,
+      "F": 134000
     },
-    "transactionCount12m": 848,
-    "yoyChange": -4.9,
-    "newBuildCount": 6,
-    "existingCount": 842,
-    "newBuildPremium": 72
+    "transactionCount12m": 1146,
+    "yoyChange": -7.7,
+    "newBuildCount": 66,
+    "existingCount": 1080,
+    "newBuildPremium": 24.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 274000,
       "transactions": 58
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 220000,
-      "transactions": 31
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 267500,
       "transactions": 222
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 270000,
-      "transactions": 141
     }
   ]
 }

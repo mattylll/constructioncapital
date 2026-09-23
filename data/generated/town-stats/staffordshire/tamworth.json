@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.469Z",
+  "updatedAt": "2026-09-23T05:26:56.773Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "tamworth",
   "countySlug": "staffordshire",
   "isDistrictLevelFallback": false,
@@ -7,14 +8,14 @@
     "TAMWORTH"
   ],
   "marketSnapshot": {
-    "medianPrice": 245000,
-    "transactionCount12m": 883,
-    "yoyPriceChange": 1.9,
-    "approvedApps12m": 0,
-    "approvedRecent": 0,
-    "planningWindowMonths": null,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 247000,
+    "transactionCount12m": 1153,
+    "yoyPriceChange": 2.9,
+    "approvedApps12m": 16,
+    "approvedRecent": 16,
+    "planningWindowMonths": 12,
+    "pipelineUnits": 16,
+    "pipelineGdv": 3144000,
+    "approvalRate": 94
   }
 }

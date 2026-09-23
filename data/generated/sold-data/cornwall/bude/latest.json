@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.131Z",
+  "updatedAt": "2026-09-23T05:26:56.432Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "bude",
   "countySlug": "cornwall",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "CORNWALL"
   ],
   "stats": {
-    "medianPrice": 330000,
+    "medianPrice": 343000,
     "medianByType": {
-      "D": 427500,
-      "S": 285000,
-      "T": 254950,
-      "F": 195000
+      "D": 428000,
+      "S": 288000,
+      "T": 260000,
+      "F": 187500
     },
-    "transactionCount12m": 205,
-    "yoyChange": -7,
-    "newBuildCount": 8,
-    "existingCount": 197,
-    "newBuildPremium": 5.4
+    "transactionCount12m": 268,
+    "yoyChange": -5.2,
+    "newBuildCount": 14,
+    "existingCount": 254,
+    "newBuildPremium": 31.6
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 370000,
       "transactions": 16
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 360000,
-      "transactions": 6
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 285000,
       "transactions": 49
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 355000,
-      "transactions": 41
     }
   ]
 }

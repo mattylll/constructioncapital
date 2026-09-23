@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.597Z",
+  "updatedAt": "2026-09-23T05:26:55.903Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "bracknell",
   "countySlug": "berkshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "BRACKNELL FOREST"
   ],
   "stats": {
-    "medianPrice": 410000,
+    "medianPrice": 415000,
     "medianByType": {
-      "D": 630000,
-      "S": 455050,
+      "D": 635000,
+      "S": 460000,
       "T": 375000,
-      "F": 230000
+      "F": 231000
     },
-    "transactionCount12m": 1269,
-    "yoyChange": -2,
-    "newBuildCount": 18,
-    "existingCount": 1251,
-    "newBuildPremium": 60.1
+    "transactionCount12m": 1646,
+    "yoyChange": 0,
+    "newBuildCount": 48,
+    "existingCount": 1598,
+    "newBuildPremium": 58.9
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 415000,
       "transactions": 95
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 392500,
-      "transactions": 32
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 400000,
       "transactions": 317
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 415000,
-      "transactions": 217
     }
   ]
 }

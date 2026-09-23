@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.999Z",
+  "updatedAt": "2026-09-23T05:26:57.313Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "lancaster",
   "countySlug": "lancashire",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 195000,
     "medianByType": {
-      "D": 350000,
-      "S": 213500,
+      "D": 343750,
+      "S": 211000,
       "T": 160000,
-      "F": 115000
+      "F": 119500
     },
-    "transactionCount12m": 1588,
+    "transactionCount12m": 2001,
     "yoyChange": 0,
-    "newBuildCount": 5,
-    "existingCount": 1583,
-    "newBuildPremium": 74.4
+    "newBuildCount": 16,
+    "existingCount": 1985,
+    "newBuildPremium": 92.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 201500,
       "transactions": 99
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 187250,
-      "transactions": 52
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 187475,
       "transactions": 370
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 195000,
-      "transactions": 263
     }
   ]
 }

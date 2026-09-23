@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.436Z",
+  "updatedAt": "2026-09-23T05:26:56.740Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "stoke-on-trent",
   "countySlug": "staffordshire",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 145000,
     "medianByType": {
-      "D": 260000,
+      "D": 257500,
       "S": 165000,
       "T": 105000,
-      "F": 74995
+      "F": 75250
     },
-    "transactionCount12m": 2693,
+    "transactionCount12m": 3458,
     "yoyChange": 3.6,
-    "newBuildCount": 20,
-    "existingCount": 2673,
-    "newBuildPremium": 15.3
+    "newBuildCount": 37,
+    "existingCount": 3421,
+    "newBuildPremium": 58.3
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 155000,
       "transactions": 165
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 159500,
-      "transactions": 72
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 140000,
       "transactions": 670
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 147750,
-      "transactions": 434
     }
   ]
 }

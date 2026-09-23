@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.116Z",
+  "updatedAt": "2026-09-23T05:26:56.415Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "penzance",
   "countySlug": "cornwall",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "CORNWALL"
   ],
   "stats": {
-    "medianPrice": 285000,
+    "medianPrice": 282500,
     "medianByType": {
-      "D": 448000,
-      "S": 320000,
-      "T": 239000,
-      "F": 185000
+      "D": 450000,
+      "S": 295000,
+      "T": 241000,
+      "F": 181500
     },
-    "transactionCount12m": 409,
+    "transactionCount12m": 518,
     "yoyChange": 0,
-    "newBuildCount": 1,
-    "existingCount": 408,
-    "newBuildPremium": null
+    "newBuildCount": 7,
+    "existingCount": 511,
+    "newBuildPremium": -6.7
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 255000,
       "transactions": 23
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 288750,
-      "transactions": 16
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 300000,
       "transactions": 93
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 287500,
-      "transactions": 65
     }
   ]
 }

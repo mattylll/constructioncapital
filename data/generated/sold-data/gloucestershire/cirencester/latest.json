@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.241Z",
+  "updatedAt": "2026-09-23T05:26:56.545Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "cirencester",
   "countySlug": "gloucestershire",
   "isDistrictLevelFallback": false,
@@ -11,14 +12,14 @@
     "medianByType": {
       "D": 650000,
       "S": 400000,
-      "T": 335000,
-      "F": 202500
+      "T": 340000,
+      "F": 212500
     },
-    "transactionCount12m": 1145,
-    "yoyChange": -3.3,
-    "newBuildCount": 5,
-    "existingCount": 1140,
-    "newBuildPremium": -17
+    "transactionCount12m": 1472,
+    "yoyChange": -2.2,
+    "newBuildCount": 12,
+    "existingCount": 1460,
+    "newBuildPremium": -1.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 430000,
       "transactions": 70
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 357500,
-      "transactions": 40
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 417000,
       "transactions": 257
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 432500,
-      "transactions": 200
     }
   ]
 }

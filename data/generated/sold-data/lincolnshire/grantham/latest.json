@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.775Z",
+  "updatedAt": "2026-09-23T05:26:57.082Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "grantham",
   "countySlug": "lincolnshire",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 220000,
     "medianByType": {
-      "D": 329000,
+      "D": 325000,
       "S": 200000,
-      "T": 165000,
+      "T": 169000,
       "F": 100000
     },
-    "transactionCount12m": 781,
+    "transactionCount12m": 1044,
     "yoyChange": -4.3,
-    "newBuildCount": 12,
-    "existingCount": 769,
-    "newBuildPremium": 40.2
+    "newBuildCount": 50,
+    "existingCount": 994,
+    "newBuildPremium": 22.8
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 254000,
       "transactions": 52
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 184500,
-      "transactions": 32
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 216500,
       "transactions": 192
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 236000,
-      "transactions": 148
     }
   ]
 }

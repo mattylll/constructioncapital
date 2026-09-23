@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.619Z",
+  "updatedAt": "2026-09-23T05:26:56.928Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "mansfield",
   "countySlug": "nottinghamshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "MANSFIELD"
   ],
   "stats": {
-    "medianPrice": 178500,
+    "medianPrice": 180000,
     "medianByType": {
-      "D": 275000,
+      "D": 280000,
       "S": 172500,
       "T": 120000,
-      "F": 98500
+      "F": 101000
     },
-    "transactionCount12m": 1178,
-    "yoyChange": -0.8,
-    "newBuildCount": 24,
-    "existingCount": 1154,
-    "newBuildPremium": 39.7
+    "transactionCount12m": 1574,
+    "yoyChange": 0,
+    "newBuildCount": 51,
+    "existingCount": 1523,
+    "newBuildPremium": 38.2
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 174750,
       "transactions": 74
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 160000,
-      "transactions": 29
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 167750,
       "transactions": 270
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 168000,
-      "transactions": 185
     }
   ]
 }

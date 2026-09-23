@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.704Z",
+  "updatedAt": "2026-09-23T05:26:56.016Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "watford",
   "countySlug": "hertfordshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "WATFORD"
   ],
   "stats": {
-    "medianPrice": 415000,
+    "medianPrice": 410000,
     "medianByType": {
-      "D": 875000,
-      "S": 555250,
+      "D": 842500,
+      "S": 550000,
       "T": 420000,
-      "F": 258500
+      "F": 260000
     },
-    "transactionCount12m": 788,
-    "yoyChange": 2.5,
-    "newBuildCount": 26,
-    "existingCount": 762,
-    "newBuildPremium": -42.2
+    "transactionCount12m": 1022,
+    "yoyChange": 0.4,
+    "newBuildCount": 36,
+    "existingCount": 986,
+    "newBuildPremium": 1.6
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 400000,
       "transactions": 49
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 405000,
-      "transactions": 24
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 413500,
       "transactions": 190
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 400000,
-      "transactions": 140
     }
   ]
 }

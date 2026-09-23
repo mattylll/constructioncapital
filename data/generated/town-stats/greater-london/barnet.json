@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.143Z",
+  "updatedAt": "2026-09-23T05:26:55.443Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "barnet",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
@@ -8,13 +9,13 @@
   ],
   "marketSnapshot": {
     "medianPrice": 550000,
-    "transactionCount12m": 2585,
-    "yoyPriceChange": 1.9,
-    "approvedApps12m": 0,
-    "approvedRecent": 0,
-    "planningWindowMonths": null,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "transactionCount12m": 3443,
+    "yoyPriceChange": 2.8,
+    "approvedApps12m": 192,
+    "approvedRecent": 192,
+    "planningWindowMonths": 12,
+    "pipelineUnits": 2440,
+    "pipelineGdv": 1285755000,
+    "approvalRate": 68
   }
 }

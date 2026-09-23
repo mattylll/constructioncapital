@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.659Z",
+  "updatedAt": "2026-09-23T05:26:57.954Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "driffield",
   "countySlug": "east-riding-of-yorkshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "EAST RIDING OF YORKSHIRE"
   ],
   "stats": {
-    "medianPrice": 215000,
+    "medianPrice": 215540,
     "medianByType": {
       "D": 305000,
-      "S": 189500,
+      "S": 188000,
       "T": 155000,
       "F": 77000
     },
-    "transactionCount12m": 488,
-    "yoyChange": -2.3,
-    "newBuildCount": 14,
-    "existingCount": 474,
-    "newBuildPremium": 41.7
+    "transactionCount12m": 627,
+    "yoyChange": 1.7,
+    "newBuildCount": 41,
+    "existingCount": 586,
+    "newBuildPremium": 26.2
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 190000,
       "transactions": 27
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 166000,
-      "transactions": 18
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 210000,
       "transactions": 135
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 185000,
-      "transactions": 68
     }
   ]
 }

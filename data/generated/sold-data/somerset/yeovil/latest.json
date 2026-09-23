@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.005Z",
+  "updatedAt": "2026-09-23T05:26:56.308Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "yeovil",
   "countySlug": "somerset",
   "isDistrictLevelFallback": false,
@@ -8,18 +9,18 @@
     "SOUTH SOMERSET"
   ],
   "stats": {
-    "medianPrice": 236750,
+    "medianPrice": 235500,
     "medianByType": {
-      "D": 395000,
-      "S": 255000,
+      "D": 400000,
+      "S": 254000,
       "T": 200000,
-      "F": 112500
+      "F": 115000
     },
-    "transactionCount12m": 744,
-    "yoyChange": -1.4,
-    "newBuildCount": 0,
-    "existingCount": 744,
-    "newBuildPremium": null
+    "transactionCount12m": 950,
+    "yoyChange": -3.9,
+    "newBuildCount": 11,
+    "existingCount": 939,
+    "newBuildPremium": 15.7
   },
   "recentTransactions": [
     {
@@ -348,11 +349,6 @@
       "month": "2026-05",
       "medianPrice": 247500,
       "transactions": 56
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 247500,
-      "transactions": 32
     }
   ],
   "quarterlyHistory": [
@@ -400,11 +396,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 235000,
       "transactions": 186
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 237500,
-      "transactions": 145
     }
   ]
 }

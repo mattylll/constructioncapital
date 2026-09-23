@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.865Z",
+  "updatedAt": "2026-09-23T05:26:57.178Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "stockport",
   "countySlug": "greater-manchester",
   "isDistrictLevelFallback": false,
@@ -7,14 +8,14 @@
     "STOCKPORT"
   ],
   "marketSnapshot": {
-    "medianPrice": 300000,
-    "transactionCount12m": 3418,
-    "yoyPriceChange": 1.7,
-    "approvedApps12m": 0,
-    "approvedRecent": 0,
+    "medianPrice": 305000,
+    "transactionCount12m": 4401,
+    "yoyPriceChange": 5.2,
+    "approvedApps12m": 29,
+    "approvedRecent": 29,
     "planningWindowMonths": 12,
-    "pipelineUnits": 950,
-    "pipelineGdv": 284190000,
-    "approvalRate": 0
+    "pipelineUnits": 2812,
+    "pipelineGdv": 810730500,
+    "approvalRate": 85
   }
 }

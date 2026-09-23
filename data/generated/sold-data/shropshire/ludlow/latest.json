@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.538Z",
+  "updatedAt": "2026-09-23T05:26:56.850Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "ludlow",
   "countySlug": "shropshire",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 270000,
     "medianByType": {
-      "D": 345000,
+      "D": 347500,
       "S": 240000,
-      "T": 217500,
+      "T": 220000,
       "F": 110000
     },
-    "transactionCount12m": 231,
-    "yoyChange": 0,
-    "newBuildCount": 3,
-    "existingCount": 228,
-    "newBuildPremium": 45.3
+    "transactionCount12m": 289,
+    "yoyChange": -0.9,
+    "newBuildCount": 11,
+    "existingCount": 278,
+    "newBuildPremium": 22.8
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 277500,
       "transactions": 26
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 272750,
-      "transactions": 10
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 265000,
       "transactions": 69
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 277500,
-      "transactions": 54
     }
   ]
 }

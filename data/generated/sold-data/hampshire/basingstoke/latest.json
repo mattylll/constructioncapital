@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.536Z",
+  "updatedAt": "2026-09-23T05:26:55.846Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "basingstoke",
   "countySlug": "hampshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "BASINGSTOKE AND DEANE"
   ],
   "stats": {
-    "medianPrice": 375000,
+    "medianPrice": 372500,
     "medianByType": {
-      "D": 571250,
+      "D": 565000,
       "S": 400000,
-      "T": 311500,
-      "F": 190000
+      "T": 312995,
+      "F": 187750
     },
-    "transactionCount12m": 1915,
-    "yoyChange": 2.2,
-    "newBuildCount": 9,
-    "existingCount": 1906,
-    "newBuildPremium": 31.2
+    "transactionCount12m": 2451,
+    "yoyChange": 0.7,
+    "newBuildCount": 39,
+    "existingCount": 2412,
+    "newBuildPremium": 51.4
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 348500,
       "transactions": 121
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 422500,
-      "transactions": 62
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 372500,
       "transactions": 500
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 372500,
-      "transactions": 326
     }
   ]
 }

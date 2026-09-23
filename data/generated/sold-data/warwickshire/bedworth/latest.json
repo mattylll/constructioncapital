@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.427Z",
+  "updatedAt": "2026-09-23T05:26:56.732Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "bedworth",
   "countySlug": "warwickshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "NUNEATON AND BEDWORTH"
   ],
   "stats": {
-    "medianPrice": 230000,
+    "medianPrice": 235000,
     "medianByType": {
       "D": 340000,
-      "S": 236000,
+      "S": 240000,
       "T": 176000,
-      "F": 110000
+      "F": 107000
     },
-    "transactionCount12m": 326,
-    "yoyChange": -4.2,
-    "newBuildCount": 9,
-    "existingCount": 317,
-    "newBuildPremium": 113.4
+    "transactionCount12m": 423,
+    "yoyChange": 0,
+    "newBuildCount": 33,
+    "existingCount": 390,
+    "newBuildPremium": 48.3
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 260000,
       "transactions": 15
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 240000,
-      "transactions": 13
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 211000,
       "transactions": 81
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 240000,
-      "transactions": 47
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.635Z",
+  "updatedAt": "2026-09-23T05:26:57.933Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "hull",
   "countySlug": "east-riding-of-yorkshire",
   "isDistrictLevelFallback": false,
@@ -12,15 +13,15 @@
     "medianPrice": 130000,
     "medianByType": {
       "D": 245000,
-      "S": 160000,
-      "T": 117000,
-      "F": 80000
+      "S": 162000,
+      "T": 116000,
+      "F": 73250
     },
-    "transactionCount12m": 2656,
+    "transactionCount12m": 3538,
     "yoyChange": 0,
-    "newBuildCount": 21,
-    "existingCount": 2635,
-    "newBuildPremium": 42.3
+    "newBuildCount": 109,
+    "existingCount": 3429,
+    "newBuildPremium": 70.5
   },
   "recentTransactions": [
     {
@@ -349,11 +350,6 @@
       "month": "2026-05",
       "medianPrice": 127000,
       "transactions": 181
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 140000,
-      "transactions": 89
     }
   ],
   "quarterlyHistory": [
@@ -401,11 +397,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 132875,
       "transactions": 670
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 127000,
-      "transactions": 462
     }
   ]
 }

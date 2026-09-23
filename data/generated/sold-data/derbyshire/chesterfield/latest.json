@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.557Z",
+  "updatedAt": "2026-09-23T05:26:56.869Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "chesterfield",
   "countySlug": "derbyshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "CHESTERFIELD"
   ],
   "stats": {
-    "medianPrice": 187000,
+    "medianPrice": 190000,
     "medianByType": {
-      "D": 315000,
-      "S": 185000,
-      "T": 140000,
-      "F": 115125
+      "D": 317500,
+      "S": 187500,
+      "T": 138000,
+      "F": 115500
     },
-    "transactionCount12m": 1236,
-    "yoyChange": -1.6,
-    "newBuildCount": 21,
-    "existingCount": 1215,
-    "newBuildPremium": 1.6
+    "transactionCount12m": 1597,
+    "yoyChange": 1.6,
+    "newBuildCount": 56,
+    "existingCount": 1541,
+    "newBuildPremium": 52
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 212500,
       "transactions": 102
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 193000,
-      "transactions": 43
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 180000,
       "transactions": 283
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 191750,
-      "transactions": 240
     }
   ]
 }

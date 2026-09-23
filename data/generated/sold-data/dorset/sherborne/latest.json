@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.168Z",
+  "updatedAt": "2026-09-23T05:26:56.476Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "sherborne",
   "countySlug": "dorset",
   "isDistrictLevelFallback": false,
@@ -10,15 +11,15 @@
   "stats": {
     "medianPrice": 350000,
     "medianByType": {
-      "D": 549750,
-      "S": 310000,
-      "T": 275000,
-      "F": 172500
+      "D": 547250,
+      "S": 315000,
+      "T": 272500,
+      "F": 158000
     },
-    "transactionCount12m": 226,
-    "yoyChange": 4.5,
+    "transactionCount12m": 280,
+    "yoyChange": 7.7,
     "newBuildCount": 0,
-    "existingCount": 226,
+    "existingCount": 280,
     "newBuildPremium": null
   },
   "recentTransactions": [
@@ -348,11 +349,6 @@
       "month": "2026-05",
       "medianPrice": 390000,
       "transactions": 15
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 287000,
-      "transactions": 7
     }
   ],
   "quarterlyHistory": [
@@ -400,11 +396,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 310000,
       "transactions": 69
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 350000,
-      "transactions": 33
     }
   ]
 }

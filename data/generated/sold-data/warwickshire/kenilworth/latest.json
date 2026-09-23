@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.425Z",
+  "updatedAt": "2026-09-23T05:26:56.730Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "kenilworth",
   "countySlug": "warwickshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "WARWICK"
   ],
   "stats": {
-    "medianPrice": 389750,
+    "medianPrice": 396500,
     "medianByType": {
-      "D": 565000,
-      "S": 415000,
-      "T": 325000,
-      "F": 183500
+      "D": 575000,
+      "S": 399975,
+      "T": 318500,
+      "F": 184250
     },
-    "transactionCount12m": 316,
-    "yoyChange": -2.6,
-    "newBuildCount": 4,
-    "existingCount": 312,
-    "newBuildPremium": 15.6
+    "transactionCount12m": 412,
+    "yoyChange": -0.9,
+    "newBuildCount": 13,
+    "existingCount": 399,
+    "newBuildPremium": 15.4
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 332500,
       "transactions": 22
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 286100,
-      "transactions": 9
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 410000,
       "transactions": 74
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 355000,
-      "transactions": 50
     }
   ]
 }

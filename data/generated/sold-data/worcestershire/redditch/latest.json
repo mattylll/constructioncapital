@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.494Z",
+  "updatedAt": "2026-09-23T05:26:56.798Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "redditch",
   "countySlug": "worcestershire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "REDDITCH"
   ],
   "stats": {
-    "medianPrice": 260000,
+    "medianPrice": 255000,
     "medianByType": {
       "D": 380000,
-      "S": 262000,
+      "S": 265000,
       "T": 200000,
-      "F": 132000
+      "F": 130000
     },
-    "transactionCount12m": 821,
-    "yoyChange": 4.4,
-    "newBuildCount": 2,
-    "existingCount": 819,
-    "newBuildPremium": null
+    "transactionCount12m": 1058,
+    "yoyChange": 2,
+    "newBuildCount": 4,
+    "existingCount": 1054,
+    "newBuildPremium": -50.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 241000,
       "transactions": 53
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 268000,
-      "transactions": 35
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 262000,
       "transactions": 170
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 250000,
-      "transactions": 141
     }
   ]
 }

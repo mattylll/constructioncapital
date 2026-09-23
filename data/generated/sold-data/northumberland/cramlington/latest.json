@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.618Z",
+  "updatedAt": "2026-09-23T05:26:57.910Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "cramlington",
   "countySlug": "northumberland",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "NORTHUMBERLAND"
   ],
   "stats": {
-    "medianPrice": 180000,
+    "medianPrice": 185000,
     "medianByType": {
-      "D": 310000,
-      "S": 184950,
+      "D": 312000,
+      "S": 185000,
       "T": 155000,
-      "F": 81250
+      "F": 80000
     },
-    "transactionCount12m": 413,
-    "yoyChange": -6.5,
-    "newBuildCount": 14,
-    "existingCount": 399,
-    "newBuildPremium": 54.5
+    "transactionCount12m": 578,
+    "yoyChange": -7.5,
+    "newBuildCount": 53,
+    "existingCount": 525,
+    "newBuildPremium": 30.6
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 196505,
       "transactions": 30
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 188000,
-      "transactions": 12
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 180000,
       "transactions": 107
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 185000,
-      "transactions": 65
     }
   ]
 }

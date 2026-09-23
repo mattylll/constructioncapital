@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.422Z",
+  "updatedAt": "2026-09-23T05:26:55.732Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "brighton",
   "countySlug": "sussex",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "BRIGHTON AND HOVE"
   ],
   "stats": {
-    "medianPrice": 415000,
+    "medianPrice": 410000,
     "medianByType": {
       "D": 690000,
-      "S": 490000,
-      "T": 500000,
+      "S": 485000,
+      "T": 497000,
       "F": 295000
     },
-    "transactionCount12m": 2861,
-    "yoyChange": 3.8,
-    "newBuildCount": 7,
-    "existingCount": 2854,
-    "newBuildPremium": -15.7
+    "transactionCount12m": 3613,
+    "yoyChange": 2.5,
+    "newBuildCount": 13,
+    "existingCount": 3600,
+    "newBuildPremium": -16.5
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 470000,
       "transactions": 193
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 425000,
-      "transactions": 101
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 390000,
       "transactions": 691
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 450000,
-      "transactions": 480
     }
   ]
 }

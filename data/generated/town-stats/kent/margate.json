@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.350Z",
+  "updatedAt": "2026-09-23T05:26:55.661Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "margate",
   "countySlug": "kent",
   "isDistrictLevelFallback": false,
@@ -7,14 +8,14 @@
     "THANET"
   ],
   "marketSnapshot": {
-    "medianPrice": 285000,
-    "transactionCount12m": 1708,
-    "yoyPriceChange": 3.6,
-    "approvedApps12m": 0,
-    "approvedRecent": 0,
+    "medianPrice": 280000,
+    "transactionCount12m": 2182,
+    "yoyPriceChange": 0,
+    "approvedApps12m": 61,
+    "approvedRecent": 61,
     "planningWindowMonths": 12,
-    "pipelineUnits": 1747,
-    "pipelineGdv": 489255000,
-    "approvalRate": 0
+    "pipelineUnits": 579,
+    "pipelineGdv": 154170000,
+    "approvalRate": 78
   }
 }

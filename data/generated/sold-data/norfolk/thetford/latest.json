@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.695Z",
+  "updatedAt": "2026-09-23T05:26:57.985Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "thetford",
   "countySlug": "norfolk",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "BRECKLAND"
   ],
   "stats": {
-    "medianPrice": 235000,
+    "medianPrice": 237500,
     "medianByType": {
-      "D": 305000,
-      "S": 227500,
-      "T": 182000,
-      "F": 97000
+      "D": 300000,
+      "S": 230000,
+      "T": 180000,
+      "F": 110000
     },
-    "transactionCount12m": 564,
-    "yoyChange": -4.1,
-    "newBuildCount": 14,
-    "existingCount": 550,
-    "newBuildPremium": 42.2
+    "transactionCount12m": 743,
+    "yoyChange": -3.1,
+    "newBuildCount": 23,
+    "existingCount": 720,
+    "newBuildPremium": 35.8
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 252500,
       "transactions": 40
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 215000,
-      "transactions": 22
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 230000,
       "transactions": 170
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 242000,
-      "transactions": 105
     }
   ]
 }

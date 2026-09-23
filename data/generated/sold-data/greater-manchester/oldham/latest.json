@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.909Z",
+  "updatedAt": "2026-09-23T05:26:57.222Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "oldham",
   "countySlug": "greater-manchester",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "OLDHAM"
   ],
   "stats": {
-    "medianPrice": 200000,
+    "medianPrice": 199950,
     "medianByType": {
-      "D": 377000,
-      "S": 238000,
-      "T": 165000,
-      "F": 140000
+      "D": 378500,
+      "S": 236000,
+      "T": 160000,
+      "F": 139000
     },
-    "transactionCount12m": 2081,
-    "yoyChange": 4.3,
-    "newBuildCount": 18,
-    "existingCount": 2063,
-    "newBuildPremium": 124.3
+    "transactionCount12m": 2698,
+    "yoyChange": 5.2,
+    "newBuildCount": 42,
+    "existingCount": 2656,
+    "newBuildPremium": 127.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 200000,
       "transactions": 145
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 173500,
-      "transactions": 53
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 199975,
       "transactions": 530
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 199973,
-      "transactions": 348
     }
   ]
 }

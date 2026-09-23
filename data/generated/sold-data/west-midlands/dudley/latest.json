@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.355Z",
+  "updatedAt": "2026-09-23T05:26:56.657Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "dudley",
   "countySlug": "west-midlands",
   "isDistrictLevelFallback": false,
@@ -10,15 +11,15 @@
     "medianPrice": 230000,
     "medianByType": {
       "D": 345000,
-      "S": 235000,
+      "S": 237000,
       "T": 200000,
-      "F": 129475
+      "F": 126500
     },
-    "transactionCount12m": 2786,
+    "transactionCount12m": 3718,
     "yoyChange": 0,
-    "newBuildCount": 6,
-    "existingCount": 2780,
-    "newBuildPremium": 19.6
+    "newBuildCount": 62,
+    "existingCount": 3656,
+    "newBuildPremium": 47.8
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 236000,
       "transactions": 186
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 224000,
-      "transactions": 74
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 225000,
       "transactions": 691
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 225975,
-      "transactions": 460
     }
   ]
 }

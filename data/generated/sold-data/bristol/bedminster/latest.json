@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.884Z",
+  "updatedAt": "2026-09-23T05:26:56.186Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "bedminster",
   "countySlug": "bristol",
   "isDistrictLevelFallback": true,
@@ -14,11 +15,11 @@
       "T": 375000,
       "F": 260000
     },
-    "transactionCount12m": 4911,
-    "yoyChange": 2.5,
-    "newBuildCount": 19,
-    "existingCount": 4892,
-    "newBuildPremium": -25.7
+    "transactionCount12m": 6158,
+    "yoyChange": 2.9,
+    "newBuildCount": 42,
+    "existingCount": 6116,
+    "newBuildPremium": 2.9
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 346000,
       "transactions": 365
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 378000,
-      "transactions": 147
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 344000,
       "transactions": 1277
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 356500,
-      "transactions": 864
     }
   ]
 }

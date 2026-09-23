@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.846Z",
+  "updatedAt": "2026-09-23T05:26:57.159Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "salford",
   "countySlug": "greater-manchester",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "SALFORD"
   ],
   "stats": {
-    "medianPrice": 224250,
+    "medianPrice": 225000,
     "medianByType": {
-      "D": 388500,
-      "S": 263000,
-      "T": 208000,
+      "D": 386000,
+      "S": 265000,
+      "T": 205000,
       "F": 150000
     },
-    "transactionCount12m": 2684,
-    "yoyChange": -1.1,
-    "newBuildCount": 27,
-    "existingCount": 2657,
-    "newBuildPremium": 37.3
+    "transactionCount12m": 3588,
+    "yoyChange": 0,
+    "newBuildCount": 89,
+    "existingCount": 3499,
+    "newBuildPremium": 39.3
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 221000,
       "transactions": 181
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 225000,
-      "transactions": 91
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 222650,
       "transactions": 658
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 223500,
-      "transactions": 462
     }
   ]
 }

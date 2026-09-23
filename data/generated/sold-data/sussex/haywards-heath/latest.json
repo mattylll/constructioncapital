@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.495Z",
+  "updatedAt": "2026-09-23T05:26:55.804Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "haywards-heath",
   "countySlug": "sussex",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "MID SUSSEX"
   ],
   "stats": {
-    "medianPrice": 435000,
+    "medianPrice": 432000,
     "medianByType": {
-      "D": 647500,
+      "D": 645000,
       "S": 450000,
-      "T": 370000,
-      "F": 240000
+      "T": 368000,
+      "F": 237500
     },
-    "transactionCount12m": 1761,
-    "yoyChange": 0,
-    "newBuildCount": 17,
-    "existingCount": 1744,
-    "newBuildPremium": 42.1
+    "transactionCount12m": 2305,
+    "yoyChange": -0.7,
+    "newBuildCount": 70,
+    "existingCount": 2235,
+    "newBuildPremium": 20.9
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 412500,
       "transactions": 134
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 466250,
-      "transactions": 54
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 425000,
       "transactions": 443
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 425000,
-      "transactions": 330
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.469Z",
+  "updatedAt": "2026-09-23T05:26:56.773Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "tamworth",
   "countySlug": "staffordshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "TAMWORTH"
   ],
   "stats": {
-    "medianPrice": 245000,
+    "medianPrice": 247000,
     "medianByType": {
       "D": 365000,
-      "S": 240000,
-      "T": 197500,
-      "F": 132000
+      "S": 245000,
+      "T": 195000,
+      "F": 131000
     },
-    "transactionCount12m": 883,
-    "yoyChange": 1.9,
-    "newBuildCount": 11,
-    "existingCount": 872,
-    "newBuildPremium": 71.7
+    "transactionCount12m": 1153,
+    "yoyChange": 2.9,
+    "newBuildCount": 29,
+    "existingCount": 1124,
+    "newBuildPremium": 63.7
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 250000,
       "transactions": 71
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 258500,
-      "transactions": 20
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 230000,
       "transactions": 216
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 250000,
-      "transactions": 143
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.446Z",
+  "updatedAt": "2026-09-23T05:26:56.751Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "stafford",
   "countySlug": "staffordshire",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 250000,
     "medianByType": {
-      "D": 370000,
-      "S": 235375,
-      "T": 187500,
+      "D": 367500,
+      "S": 235000,
+      "T": 185000,
       "F": 120000
     },
-    "transactionCount12m": 1519,
-    "yoyChange": -2,
-    "newBuildCount": 32,
-    "existingCount": 1487,
-    "newBuildPremium": 17
+    "transactionCount12m": 2009,
+    "yoyChange": 0,
+    "newBuildCount": 99,
+    "existingCount": 1910,
+    "newBuildPremium": 19
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 250000,
       "transactions": 101
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 225000,
-      "transactions": 50
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 245000,
       "transactions": 388
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 255950,
-      "transactions": 281
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.649Z",
+  "updatedAt": "2026-09-23T05:26:56.958Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "arnold",
   "countySlug": "nottinghamshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "GEDLING"
   ],
   "stats": {
-    "medianPrice": 238000,
+    "medianPrice": 240000,
     "medianByType": {
-      "D": 342500,
-      "S": 225000,
-      "T": 176000,
-      "F": 128000
+      "D": 345000,
+      "S": 227500,
+      "T": 175500,
+      "F": 127000
     },
-    "transactionCount12m": 1366,
-    "yoyChange": -4.8,
-    "newBuildCount": 29,
-    "existingCount": 1337,
-    "newBuildPremium": 30.5
+    "transactionCount12m": 1789,
+    "yoyChange": -2.6,
+    "newBuildCount": 72,
+    "existingCount": 1717,
+    "newBuildPremium": 34.8
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 236250,
       "transactions": 106
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 214915,
-      "transactions": 38
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 224000,
       "transactions": 309
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 237500,
-      "transactions": 238
     }
   ]
 }

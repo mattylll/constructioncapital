@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.547Z",
+  "updatedAt": "2026-09-23T05:26:56.859Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "derby",
   "countySlug": "derbyshire",
   "isDistrictLevelFallback": false,
@@ -8,18 +9,18 @@
     "DERBY"
   ],
   "stats": {
-    "medianPrice": 207500,
+    "medianPrice": 210000,
     "medianByType": {
-      "D": 317500,
-      "S": 213700,
-      "T": 160000,
-      "F": 110000
+      "D": 320000,
+      "S": 213500,
+      "T": 159000,
+      "F": 115000
     },
-    "transactionCount12m": 2645,
-    "yoyChange": 0.2,
-    "newBuildCount": 21,
-    "existingCount": 2624,
-    "newBuildPremium": 43.2
+    "transactionCount12m": 3357,
+    "yoyChange": 1.8,
+    "newBuildCount": 84,
+    "existingCount": 3273,
+    "newBuildPremium": 26.3
   },
   "recentTransactions": [
     {
@@ -348,11 +349,6 @@
       "month": "2026-05",
       "medianPrice": 212000,
       "transactions": 186
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 210000,
-      "transactions": 77
     }
   ],
   "quarterlyHistory": [
@@ -400,11 +396,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 205000,
       "transactions": 667
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 210000,
-      "transactions": 488
     }
   ]
 }

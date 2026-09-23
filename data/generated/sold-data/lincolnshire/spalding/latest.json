@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.792Z",
+  "updatedAt": "2026-09-23T05:26:57.101Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "spalding",
   "countySlug": "lincolnshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "SOUTH HOLLAND"
   ],
   "stats": {
-    "medianPrice": 225000,
+    "medianPrice": 225995,
     "medianByType": {
-      "D": 285000,
-      "S": 180000,
+      "D": 280000,
+      "S": 181250,
       "T": 150000,
-      "F": 88000
+      "F": 87250
     },
-    "transactionCount12m": 1181,
-    "yoyChange": -3.3,
-    "newBuildCount": 33,
-    "existingCount": 1148,
-    "newBuildPremium": 11.1
+    "transactionCount12m": 1539,
+    "yoyChange": -2.6,
+    "newBuildCount": 88,
+    "existingCount": 1451,
+    "newBuildPremium": 9.8
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 234000,
       "transactions": 86
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 230000,
-      "transactions": 40
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 220000,
       "transactions": 295
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 230000,
-      "transactions": 216
     }
   ]
 }

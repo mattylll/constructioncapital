@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.824Z",
+  "updatedAt": "2026-09-23T05:26:57.137Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "manchester",
   "countySlug": "greater-manchester",
   "isDistrictLevelFallback": false,
@@ -11,14 +12,14 @@
     "medianByType": {
       "D": 389950,
       "S": 300000,
-      "T": 235000,
-      "F": 200000
+      "T": 234000,
+      "F": 208000
     },
-    "transactionCount12m": 4290,
-    "yoyChange": 2.1,
-    "newBuildCount": 114,
-    "existingCount": 4176,
-    "newBuildPremium": 10.1
+    "transactionCount12m": 5616,
+    "yoyChange": 0,
+    "newBuildCount": 276,
+    "existingCount": 5340,
+    "newBuildPremium": 33.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 240500,
       "transactions": 302
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 239000,
-      "transactions": 102
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 245000,
       "transactions": 1146
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 235000,
-      "transactions": 701
     }
   ]
 }

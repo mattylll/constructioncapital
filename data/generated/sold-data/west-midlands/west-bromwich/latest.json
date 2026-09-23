@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.389Z",
+  "updatedAt": "2026-09-23T05:26:56.692Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "west-bromwich",
   "countySlug": "west-midlands",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "SANDWELL"
   ],
   "stats": {
-    "medianPrice": 211000,
+    "medianPrice": 212000,
     "medianByType": {
-      "D": 300000,
+      "D": 315000,
       "S": 230000,
-      "T": 192500,
-      "F": 106250
+      "T": 195000,
+      "F": 110000
     },
-    "transactionCount12m": 2161,
-    "yoyChange": 0.5,
-    "newBuildCount": 8,
-    "existingCount": 2153,
-    "newBuildPremium": -16.4
+    "transactionCount12m": 2851,
+    "yoyChange": 3.4,
+    "newBuildCount": 33,
+    "existingCount": 2818,
+    "newBuildPremium": -11.5
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 212000,
       "transactions": 135
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 183500,
-      "transactions": 72
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 211250,
       "transactions": 532
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 210000,
-      "transactions": 367
     }
   ]
 }

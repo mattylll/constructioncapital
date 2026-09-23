@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.566Z",
+  "updatedAt": "2026-09-23T05:26:55.873Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "fareham",
   "countySlug": "hampshire",
   "isDistrictLevelFallback": false,
@@ -7,14 +8,14 @@
     "FAREHAM"
   ],
   "marketSnapshot": {
-    "medianPrice": 345000,
-    "transactionCount12m": 1441,
-    "yoyPriceChange": 0,
-    "approvedApps12m": 0,
-    "approvedRecent": 0,
-    "planningWindowMonths": null,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 343500,
+    "transactionCount12m": 1886,
+    "yoyPriceChange": -1.9,
+    "approvedApps12m": 52,
+    "approvedRecent": 52,
+    "planningWindowMonths": 12,
+    "pipelineUnits": 215,
+    "pipelineGdv": 71939000,
+    "approvalRate": 90
   }
 }

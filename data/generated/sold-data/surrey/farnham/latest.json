@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.386Z",
+  "updatedAt": "2026-09-23T05:26:55.697Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "farnham",
   "countySlug": "surrey",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "WAVERLEY"
   ],
   "stats": {
-    "medianPrice": 536500,
+    "medianPrice": 540000,
     "medianByType": {
-      "D": 820000,
-      "S": 542500,
-      "T": 414500,
-      "F": 267500
+      "D": 836500,
+      "S": 550000,
+      "T": 420000,
+      "F": 271500
     },
-    "transactionCount12m": 1408,
-    "yoyChange": -0.6,
-    "newBuildCount": 17,
-    "existingCount": 1391,
-    "newBuildPremium": -29.2
+    "transactionCount12m": 1860,
+    "yoyChange": 1.5,
+    "newBuildCount": 44,
+    "existingCount": 1816,
+    "newBuildPremium": -19.5
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 500000,
       "transactions": 92
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 586300,
-      "transactions": 50
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 500000,
       "transactions": 369
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 512500,
-      "transactions": 230
     }
   ]
 }

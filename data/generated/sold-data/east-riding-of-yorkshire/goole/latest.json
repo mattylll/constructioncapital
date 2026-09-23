@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.655Z",
+  "updatedAt": "2026-09-23T05:26:57.951Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "goole",
   "countySlug": "east-riding-of-yorkshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "EAST RIDING OF YORKSHIRE"
   ],
   "stats": {
-    "medianPrice": 180000,
+    "medianPrice": 185000,
     "medianByType": {
-      "D": 333000,
-      "S": 190000,
-      "T": 107500,
-      "F": 115000
+      "D": 331500,
+      "S": 189998,
+      "T": 110000,
+      "F": 106500
     },
-    "transactionCount12m": 532,
-    "yoyChange": -10,
-    "newBuildCount": 24,
-    "existingCount": 508,
-    "newBuildPremium": 28.9
+    "transactionCount12m": 693,
+    "yoyChange": -7.5,
+    "newBuildCount": 66,
+    "existingCount": 627,
+    "newBuildPremium": 58.7
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 185000,
       "transactions": 44
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 185000,
-      "transactions": 17
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 175000,
       "transactions": 105
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 185000,
-      "transactions": 104
     }
   ]
 }

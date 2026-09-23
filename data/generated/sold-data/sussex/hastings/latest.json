@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.460Z",
+  "updatedAt": "2026-09-23T05:26:55.770Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "hastings",
   "countySlug": "sussex",
   "isDistrictLevelFallback": false,
@@ -10,15 +11,15 @@
     "medianPrice": 270000,
     "medianByType": {
       "D": 400000,
-      "S": 306250,
+      "S": 310000,
       "T": 260000,
       "F": 162625
     },
-    "transactionCount12m": 1080,
-    "yoyChange": 0.8,
-    "newBuildCount": 6,
-    "existingCount": 1074,
-    "newBuildPremium": 98.1
+    "transactionCount12m": 1360,
+    "yoyChange": 0,
+    "newBuildCount": 8,
+    "existingCount": 1352,
+    "newBuildPremium": 87
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 275000,
       "transactions": 63
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 282500,
-      "transactions": 38
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 260000,
       "transactions": 263
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 275000,
-      "transactions": 183
     }
   ]
 }

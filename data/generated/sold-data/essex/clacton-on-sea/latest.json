@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.830Z",
+  "updatedAt": "2026-09-23T05:26:56.134Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "clacton-on-sea",
   "countySlug": "essex",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "TENDRING"
   ],
   "stats": {
-    "medianPrice": 265000,
+    "medianPrice": 270000,
     "medianByType": {
-      "D": 345000,
+      "D": 355000,
       "S": 255000,
-      "T": 205000,
-      "F": 141500
+      "T": 208500,
+      "F": 147750
     },
-    "transactionCount12m": 1984,
-    "yoyChange": -5.4,
-    "newBuildCount": 54,
-    "existingCount": 1930,
-    "newBuildPremium": 49.7
+    "transactionCount12m": 2600,
+    "yoyChange": -3.2,
+    "newBuildCount": 170,
+    "existingCount": 2430,
+    "newBuildPremium": 50
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 265000,
       "transactions": 160
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 260000,
-      "transactions": 63
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 260000,
       "transactions": 490
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 260000,
-      "transactions": 373
     }
   ]
 }

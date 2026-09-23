@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.173Z",
+  "updatedAt": "2026-09-23T05:26:57.488Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "penrith",
   "countySlug": "cumbria",
   "isDistrictLevelFallback": false,
@@ -8,18 +9,18 @@
     "EDEN"
   ],
   "stats": {
-    "medianPrice": 242000,
+    "medianPrice": 240000,
     "medianByType": {
-      "D": 375000,
+      "D": 370000,
       "S": 240000,
       "T": 175000,
-      "F": 128000
+      "F": 125000
     },
-    "transactionCount12m": 499,
-    "yoyChange": -3.2,
-    "newBuildCount": 4,
-    "existingCount": 495,
-    "newBuildPremium": 57.3
+    "transactionCount12m": 631,
+    "yoyChange": -7.7,
+    "newBuildCount": 13,
+    "existingCount": 618,
+    "newBuildPremium": 8.5
   },
   "recentTransactions": [
     {
@@ -348,11 +349,6 @@
       "month": "2026-05",
       "medianPrice": 295000,
       "transactions": 31
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 260000,
-      "transactions": 35
     }
   ],
   "quarterlyHistory": [
@@ -400,11 +396,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 230000,
       "transactions": 107
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 248498,
-      "transactions": 96
     }
   ]
 }

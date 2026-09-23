@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:10.890Z",
+  "updatedAt": "2026-09-23T05:26:55.182Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "fulham",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": true,
@@ -7,18 +8,18 @@
     "HAMMERSMITH AND FULHAM"
   ],
   "stats": {
-    "medianPrice": 650000,
+    "medianPrice": 654750,
     "medianByType": {
-      "D": 2340000,
-      "S": 1700000,
-      "T": 1350000,
-      "F": 555000
+      "D": 2075000,
+      "S": 1826750,
+      "T": 1370000,
+      "F": 550000
     },
-    "transactionCount12m": 1424,
-    "yoyChange": -7.1,
-    "newBuildCount": 13,
-    "existingCount": 1411,
-    "newBuildPremium": 25.8
+    "transactionCount12m": 2021,
+    "yoyChange": -10.6,
+    "newBuildCount": 109,
+    "existingCount": 1912,
+    "newBuildPremium": -50.9
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 545675,
       "transactions": 81
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 730000,
-      "transactions": 41
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 620000,
       "transactions": 319
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 622500,
-      "transactions": 236
     }
   ]
 }

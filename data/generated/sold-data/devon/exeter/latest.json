@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.039Z",
+  "updatedAt": "2026-09-23T05:26:56.338Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "exeter",
   "countySlug": "devon",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "EXETER"
   ],
   "stats": {
-    "medianPrice": 295750,
+    "medianPrice": 300000,
     "medianByType": {
       "D": 460000,
-      "S": 330000,
-      "T": 276500,
-      "F": 178000
+      "S": 336000,
+      "T": 278000,
+      "F": 180000
     },
-    "transactionCount12m": 1220,
-    "yoyChange": -1.4,
-    "newBuildCount": 11,
-    "existingCount": 1209,
-    "newBuildPremium": 5.1
+    "transactionCount12m": 1600,
+    "yoyChange": 0,
+    "newBuildCount": 34,
+    "existingCount": 1566,
+    "newBuildPremium": 50.8
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 287500,
       "transactions": 84
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 323000,
-      "transactions": 39
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 303000,
       "transactions": 311
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 287250,
-      "transactions": 214
     }
   ]
 }

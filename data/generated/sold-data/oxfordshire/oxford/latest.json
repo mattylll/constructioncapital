@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.661Z",
+  "updatedAt": "2026-09-23T05:26:55.975Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "oxford",
   "countySlug": "oxfordshire",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 450000,
     "medianByType": {
-      "D": 805000,
-      "S": 479500,
+      "D": 800000,
+      "S": 480000,
       "T": 460000,
-      "F": 330000
+      "F": 325000
     },
-    "transactionCount12m": 1082,
+    "transactionCount12m": 1393,
     "yoyChange": 0,
-    "newBuildCount": 2,
-    "existingCount": 1080,
-    "newBuildPremium": null
+    "newBuildCount": 13,
+    "existingCount": 1380,
+    "newBuildPremium": 44.4
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 440000,
       "transactions": 82
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 396250,
-      "transactions": 28
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 430000,
       "transactions": 264
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 445000,
-      "transactions": 190
     }
   ]
 }

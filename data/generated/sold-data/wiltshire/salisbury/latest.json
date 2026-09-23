@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.190Z",
+  "updatedAt": "2026-09-23T05:26:56.498Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "salisbury",
   "countySlug": "wiltshire",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 335000,
     "medianByType": {
-      "D": 490000,
+      "D": 480000,
       "S": 330000,
       "T": 280000,
       "F": 175000
     },
-    "transactionCount12m": 1229,
+    "transactionCount12m": 1575,
     "yoyChange": 3.1,
-    "newBuildCount": 3,
-    "existingCount": 1226,
-    "newBuildPremium": -30.1
+    "newBuildCount": 4,
+    "existingCount": 1571,
+    "newBuildPremium": -43.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 335000,
       "transactions": 93
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 320000,
-      "transactions": 45
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 340000,
       "transactions": 256
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 340000,
-      "transactions": 237
     }
   ]
 }

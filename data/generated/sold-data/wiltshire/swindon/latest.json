@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.178Z",
+  "updatedAt": "2026-09-23T05:26:56.486Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "swindon",
   "countySlug": "wiltshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "SWINDON"
   ],
   "stats": {
-    "medianPrice": 270000,
+    "medianPrice": 273000,
     "medianByType": {
-      "D": 415000,
-      "S": 298500,
+      "D": 425000,
+      "S": 300000,
       "T": 240000,
-      "F": 143000
+      "F": 145050
     },
-    "transactionCount12m": 2517,
-    "yoyChange": -2.5,
-    "newBuildCount": 20,
-    "existingCount": 2497,
-    "newBuildPremium": 5.6
+    "transactionCount12m": 3352,
+    "yoyChange": -1.1,
+    "newBuildCount": 124,
+    "existingCount": 3228,
+    "newBuildPremium": 31.5
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 250000,
       "transactions": 188
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 255000,
-      "transactions": 81
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 277333,
       "transactions": 584
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 260000,
-      "transactions": 455
     }
   ]
 }

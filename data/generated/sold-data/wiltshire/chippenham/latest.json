@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.196Z",
+  "updatedAt": "2026-09-23T05:26:56.503Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "chippenham",
   "countySlug": "wiltshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "WILTSHIRE"
   ],
   "stats": {
-    "medianPrice": 315000,
+    "medianPrice": 310000,
     "medianByType": {
-      "D": 480000,
-      "S": 313750,
+      "D": 475000,
+      "S": 305000,
       "T": 250000,
-      "F": 168000
+      "F": 170000
     },
-    "transactionCount12m": 699,
-    "yoyChange": 0.8,
-    "newBuildCount": 26,
-    "existingCount": 673,
-    "newBuildPremium": -11.5
+    "transactionCount12m": 942,
+    "yoyChange": -1.6,
+    "newBuildCount": 50,
+    "existingCount": 892,
+    "newBuildPremium": -4
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 292500,
       "transactions": 46
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 315000,
-      "transactions": 27
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 305000,
       "transactions": 173
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 285000,
-      "transactions": 120
     }
   ]
 }

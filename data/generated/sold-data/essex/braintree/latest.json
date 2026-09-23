@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.809Z",
+  "updatedAt": "2026-09-23T05:26:56.115Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "braintree",
   "countySlug": "essex",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "BRAINTREE"
   ],
   "stats": {
-    "medianPrice": 335000,
+    "medianPrice": 336000,
     "medianByType": {
-      "D": 490000,
-      "S": 340000,
-      "T": 290000,
-      "F": 172500
+      "D": 500000,
+      "S": 345000,
+      "T": 289000,
+      "F": 171500
     },
-    "transactionCount12m": 1793,
-    "yoyChange": -2.9,
-    "newBuildCount": 36,
-    "existingCount": 1757,
-    "newBuildPremium": 52.3
+    "transactionCount12m": 2323,
+    "yoyChange": -2.6,
+    "newBuildCount": 91,
+    "existingCount": 2232,
+    "newBuildPremium": 50.8
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 320000,
       "transactions": 136
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 320000,
-      "transactions": 59
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 340000,
       "transactions": 451
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 320000,
-      "transactions": 314
     }
   ]
 }

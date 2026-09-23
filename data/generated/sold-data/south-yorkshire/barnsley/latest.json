@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.380Z",
+  "updatedAt": "2026-09-23T05:26:57.687Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "barnsley",
   "countySlug": "south-yorkshire",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 165000,
     "medianByType": {
-      "D": 292000,
-      "S": 175000,
-      "T": 121950,
-      "F": 95000
+      "D": 295000,
+      "S": 173000,
+      "T": 120000,
+      "F": 94000
     },
-    "transactionCount12m": 2152,
+    "transactionCount12m": 2783,
     "yoyChange": 0,
-    "newBuildCount": 16,
-    "existingCount": 2136,
-    "newBuildPremium": 9.3
+    "newBuildCount": 56,
+    "existingCount": 2727,
+    "newBuildPremium": 41.5
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 175000,
       "transactions": 177
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 165750,
-      "transactions": 75
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 165000,
       "transactions": 554
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 161000,
-      "transactions": 409
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.087Z",
+  "updatedAt": "2026-09-23T05:26:55.385Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "harrow",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "HARROW"
   ],
   "stats": {
-    "medianPrice": 525000,
+    "medianPrice": 520000,
     "medianByType": {
-      "D": 950000,
+      "D": 965000,
       "S": 630000,
       "T": 550000,
-      "F": 322000
+      "F": 325220
     },
-    "transactionCount12m": 1383,
-    "yoyChange": 2.9,
-    "newBuildCount": 12,
-    "existingCount": 1371,
-    "newBuildPremium": -32.3
+    "transactionCount12m": 1784,
+    "yoyChange": 1.8,
+    "newBuildCount": 50,
+    "existingCount": 1734,
+    "newBuildPremium": -29.7
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 501000,
       "transactions": 81
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 518000,
-      "transactions": 37
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 510000,
       "transactions": 375
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 535000,
-      "transactions": 213
     }
   ]
 }

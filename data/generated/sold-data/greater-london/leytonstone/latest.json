@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.123Z",
+  "updatedAt": "2026-09-23T05:26:55.421Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "leytonstone",
   "countySlug": "greater-london",
   "isDistrictLevelFallback": true,
@@ -7,18 +8,18 @@
     "WALTHAM FOREST"
   ],
   "stats": {
-    "medianPrice": 530500,
+    "medianPrice": 535000,
     "medianByType": {
-      "D": 800000,
-      "S": 695000,
-      "T": 661750,
-      "F": 394500
+      "D": 750000,
+      "S": 694750,
+      "T": 660000,
+      "F": 390000
     },
-    "transactionCount12m": 2093,
-    "yoyChange": 3,
-    "newBuildCount": 8,
-    "existingCount": 2085,
-    "newBuildPremium": -42.2
+    "transactionCount12m": 2702,
+    "yoyChange": 4.9,
+    "newBuildCount": 28,
+    "existingCount": 2674,
+    "newBuildPremium": -39.3
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 542500,
       "transactions": 130
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 547625,
-      "transactions": 50
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 531750,
       "transactions": 480
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 530000,
-      "transactions": 343
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.000Z",
+  "updatedAt": "2026-09-23T05:26:56.302Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "bridgwater",
   "countySlug": "somerset",
   "isDistrictLevelFallback": false,
@@ -8,18 +9,18 @@
     "SEDGEMOOR"
   ],
   "stats": {
-    "medianPrice": 258500,
+    "medianPrice": 255000,
     "medianByType": {
-      "D": 372000,
+      "D": 375000,
       "S": 260000,
       "T": 210000,
-      "F": 126000
+      "F": 124250
     },
-    "transactionCount12m": 882,
-    "yoyChange": 3.4,
-    "newBuildCount": 4,
-    "existingCount": 878,
-    "newBuildPremium": 72.7
+    "transactionCount12m": 1125,
+    "yoyChange": 2,
+    "newBuildCount": 10,
+    "existingCount": 1115,
+    "newBuildPremium": 62.8
   },
   "recentTransactions": [
     {
@@ -348,11 +349,6 @@
       "month": "2026-05",
       "medianPrice": 270000,
       "transactions": 82
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 246500,
-      "transactions": 22
     }
   ],
   "quarterlyHistory": [
@@ -400,11 +396,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 250000,
       "transactions": 228
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 260000,
-      "transactions": 157
     }
   ]
 }

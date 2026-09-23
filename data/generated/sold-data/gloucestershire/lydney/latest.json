@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.257Z",
+  "updatedAt": "2026-09-23T05:26:56.560Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "lydney",
   "countySlug": "gloucestershire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "FOREST OF DEAN"
   ],
   "stats": {
-    "medianPrice": 275000,
+    "medianPrice": 280000,
     "medianByType": {
       "D": 380000,
-      "S": 242000,
+      "S": 245000,
       "T": 205000,
-      "F": 119000
+      "F": 120000
     },
-    "transactionCount12m": 852,
-    "yoyChange": 1.7,
-    "newBuildCount": 3,
-    "existingCount": 849,
-    "newBuildPremium": -1.7
+    "transactionCount12m": 1111,
+    "yoyChange": 3.7,
+    "newBuildCount": 24,
+    "existingCount": 1087,
+    "newBuildPremium": 2.7
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 245000,
       "transactions": 61
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 312500,
-      "transactions": 21
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 274000,
       "transactions": 210
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 250000,
-      "transactions": 145
     }
   ]
 }

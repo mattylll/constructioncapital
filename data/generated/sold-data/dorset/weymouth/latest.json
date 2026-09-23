@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.156Z",
+  "updatedAt": "2026-09-23T05:26:56.460Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "weymouth",
   "countySlug": "dorset",
   "isDistrictLevelFallback": false,
@@ -8,18 +9,18 @@
     "WEYMOUTH AND PORTLAND"
   ],
   "stats": {
-    "medianPrice": 272750,
+    "medianPrice": 275000,
     "medianByType": {
-      "D": 429000,
-      "S": 320000,
+      "D": 423750,
+      "S": 315000,
       "T": 245000,
-      "F": 167000
+      "F": 167500
     },
-    "transactionCount12m": 860,
-    "yoyChange": -4.3,
-    "newBuildCount": 13,
-    "existingCount": 847,
-    "newBuildPremium": -23.7
+    "transactionCount12m": 1103,
+    "yoyChange": -4.7,
+    "newBuildCount": 38,
+    "existingCount": 1065,
+    "newBuildPremium": 7.9
   },
   "recentTransactions": [
     {
@@ -348,11 +349,6 @@
       "month": "2026-05",
       "medianPrice": 305000,
       "transactions": 72
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 268750,
-      "transactions": 40
     }
   ],
   "quarterlyHistory": [
@@ -400,11 +396,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 265000,
       "transactions": 209
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 279300,
-      "transactions": 174
     }
   ]
 }

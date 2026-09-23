@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.649Z",
+  "updatedAt": "2026-09-23T05:26:55.954Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "beaconsfield",
   "countySlug": "buckinghamshire",
   "isDistrictLevelFallback": false,
@@ -10,16 +11,16 @@
   "stats": {
     "medianPrice": 950000,
     "medianByType": {
-      "D": 1325000,
-      "S": 755000,
-      "T": 650000,
-      "F": 385000
+      "D": 1437500,
+      "S": 765000,
+      "T": 610000,
+      "F": 390000
     },
-    "transactionCount12m": 171,
+    "transactionCount12m": 232,
     "yoyChange": -2.6,
-    "newBuildCount": 3,
-    "existingCount": 168,
-    "newBuildPremium": 37.2
+    "newBuildCount": 6,
+    "existingCount": 226,
+    "newBuildPremium": 18.4
   },
   "recentTransactions": [
     {
@@ -348,11 +349,6 @@
       "month": "2026-05",
       "medianPrice": 782500,
       "transactions": 8
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 731000,
-      "transactions": 10
     }
   ],
   "quarterlyHistory": [
@@ -400,11 +396,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 735000,
       "transactions": 27
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 785000,
-      "transactions": 31
     }
   ]
 }

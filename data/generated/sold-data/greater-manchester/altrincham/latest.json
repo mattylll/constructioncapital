@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.954Z",
+  "updatedAt": "2026-09-23T05:26:57.268Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "altrincham",
   "countySlug": "greater-manchester",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "TRAFFORD"
   ],
   "stats": {
-    "medianPrice": 374100,
+    "medianPrice": 368000,
     "medianByType": {
-      "D": 690000,
-      "S": 401500,
-      "T": 335000,
-      "F": 190825
+      "D": 680000,
+      "S": 400000,
+      "T": 330000,
+      "F": 190000
     },
-    "transactionCount12m": 2272,
-    "yoyChange": 3.9,
-    "newBuildCount": 2,
-    "existingCount": 2270,
-    "newBuildPremium": null
+    "transactionCount12m": 2969,
+    "yoyChange": 2.7,
+    "newBuildCount": 14,
+    "existingCount": 2955,
+    "newBuildPremium": -5.7
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 402500,
       "transactions": 190
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 326000,
-      "transactions": 67
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 362500,
       "transactions": 582
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 368400,
-      "transactions": 404
     }
   ]
 }

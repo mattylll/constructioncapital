@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.149Z",
+  "updatedAt": "2026-09-23T05:26:56.452Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "poole",
   "countySlug": "dorset",
   "isDistrictLevelFallback": false,
@@ -9,14 +10,14 @@
     "CHRISTCHURCH AND POOLE"
   ],
   "marketSnapshot": {
-    "medianPrice": 326500,
-    "transactionCount12m": 1508,
-    "yoyPriceChange": -1.1,
-    "approvedApps12m": 0,
-    "approvedRecent": 0,
-    "planningWindowMonths": null,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "medianPrice": 330000,
+    "transactionCount12m": 1912,
+    "yoyPriceChange": 1.5,
+    "approvedApps12m": 316,
+    "approvedRecent": 316,
+    "planningWindowMonths": 12,
+    "pipelineUnits": 571,
+    "pipelineGdv": 161245000,
+    "approvalRate": 74
   }
 }

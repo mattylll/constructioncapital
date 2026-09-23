@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.799Z",
+  "updatedAt": "2026-09-23T05:26:57.108Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "sleaford",
   "countySlug": "lincolnshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "NORTH KESTEVEN"
   ],
   "stats": {
-    "medianPrice": 235000,
+    "medianPrice": 240000,
     "medianByType": {
-      "D": 299975,
-      "S": 209000,
-      "T": 173000,
-      "F": 119000
+      "D": 300000,
+      "S": 210000,
+      "T": 172750,
+      "F": 120000
     },
-    "transactionCount12m": 1498,
-    "yoyChange": -2.1,
-    "newBuildCount": 32,
-    "existingCount": 1466,
-    "newBuildPremium": 13.1
+    "transactionCount12m": 1953,
+    "yoyChange": 1.1,
+    "newBuildCount": 86,
+    "existingCount": 1867,
+    "newBuildPremium": 18.2
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 233250,
       "transactions": 104
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 280000,
-      "transactions": 47
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 232500,
       "transactions": 383
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 240000,
-      "transactions": 264
     }
   ]
 }

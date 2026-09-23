@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.882Z",
+  "updatedAt": "2026-09-23T05:26:57.196Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "bolton",
   "countySlug": "greater-manchester",
   "isDistrictLevelFallback": false,
@@ -11,14 +12,14 @@
     "medianByType": {
       "D": 360000,
       "S": 220000,
-      "T": 152750,
-      "F": 108000
+      "T": 151000,
+      "F": 105000
     },
-    "transactionCount12m": 2966,
-    "yoyChange": 0,
-    "newBuildCount": 26,
-    "existingCount": 2940,
-    "newBuildPremium": 78.6
+    "transactionCount12m": 3816,
+    "yoyChange": 0.5,
+    "newBuildCount": 72,
+    "existingCount": 3744,
+    "newBuildPremium": 76.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 185000,
       "transactions": 216
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 175000,
-      "transactions": 65
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 189750,
       "transactions": 736
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 190000,
-      "transactions": 483
     }
   ]
 }

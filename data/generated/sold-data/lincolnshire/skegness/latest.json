@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.785Z",
+  "updatedAt": "2026-09-23T05:26:57.094Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "skegness",
   "countySlug": "lincolnshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "EAST LINDSEY"
   ],
   "stats": {
-    "medianPrice": 208000,
+    "medianPrice": 205000,
     "medianByType": {
-      "D": 265000,
-      "S": 176611,
-      "T": 145000,
-      "F": 106500
+      "D": 262348,
+      "S": 176086,
+      "T": 149950,
+      "F": 105000
     },
-    "transactionCount12m": 1675,
-    "yoyChange": -1,
-    "newBuildCount": 40,
-    "existingCount": 1635,
-    "newBuildPremium": 5.6
+    "transactionCount12m": 2216,
+    "yoyChange": -4.7,
+    "newBuildCount": 136,
+    "existingCount": 2080,
+    "newBuildPremium": 5.5
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 190000,
       "transactions": 122
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 190000,
-      "transactions": 45
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 210000,
       "transactions": 399
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 197000,
-      "transactions": 288
     }
   ]
 }

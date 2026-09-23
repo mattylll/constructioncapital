@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:12.483Z",
+  "updatedAt": "2026-09-23T05:26:56.787Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "cannock",
   "countySlug": "staffordshire",
   "isDistrictLevelFallback": false,
@@ -8,13 +9,13 @@
   ],
   "marketSnapshot": {
     "medianPrice": 220000,
-    "transactionCount12m": 1020,
+    "transactionCount12m": 1311,
     "yoyPriceChange": -2.2,
-    "approvedApps12m": 0,
-    "approvedRecent": 0,
-    "planningWindowMonths": null,
-    "pipelineUnits": 0,
-    "pipelineGdv": 0,
-    "approvalRate": 0
+    "approvedApps12m": 80,
+    "approvedRecent": 80,
+    "planningWindowMonths": 12,
+    "pipelineUnits": 44,
+    "pipelineGdv": 9902500,
+    "approvalRate": 82
   }
 }

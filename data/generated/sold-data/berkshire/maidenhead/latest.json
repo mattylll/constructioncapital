@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.604Z",
+  "updatedAt": "2026-09-23T05:26:55.908Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "maidenhead",
   "countySlug": "berkshire",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 500000,
     "medianByType": {
-      "D": 843000,
-      "S": 530000,
-      "T": 460000,
+      "D": 810000,
+      "S": 539750,
+      "T": 457500,
       "F": 285000
     },
-    "transactionCount12m": 719,
-    "yoyChange": -2.6,
-    "newBuildCount": 13,
-    "existingCount": 706,
-    "newBuildPremium": 34
+    "transactionCount12m": 935,
+    "yoyChange": 0,
+    "newBuildCount": 30,
+    "existingCount": 905,
+    "newBuildPremium": 3
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 454000,
       "transactions": 46
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 500000,
-      "transactions": 23
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 475000,
       "transactions": 178
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 477700,
-      "transactions": 109
     }
   ]
 }

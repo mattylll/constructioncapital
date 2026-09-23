@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.365Z",
+  "updatedAt": "2026-09-23T05:26:55.677Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "woking",
   "countySlug": "surrey",
   "isDistrictLevelFallback": false,
@@ -7,17 +8,17 @@
     "WOKING"
   ],
   "stats": {
-    "medianPrice": 425000,
+    "medianPrice": 430000,
     "medianByType": {
-      "D": 755000,
-      "S": 464000,
+      "D": 770000,
+      "S": 473600,
       "T": 385000,
-      "F": 250000
+      "F": 253250
     },
-    "transactionCount12m": 1179,
-    "yoyChange": -4.5,
-    "newBuildCount": 86,
-    "existingCount": 1093,
+    "transactionCount12m": 1472,
+    "yoyChange": -3.4,
+    "newBuildCount": 100,
+    "existingCount": 1372,
     "newBuildPremium": -24.4
   },
   "recentTransactions": [
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 430000,
       "transactions": 83
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 436000,
-      "transactions": 39
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 425000,
       "transactions": 260
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 425000,
-      "transactions": 214
     }
   ]
 }

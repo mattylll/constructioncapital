@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.376Z",
+  "updatedAt": "2026-09-23T05:26:55.688Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "redhill",
   "countySlug": "surrey",
   "isDistrictLevelFallback": false,
@@ -9,16 +10,16 @@
   "stats": {
     "medianPrice": 475000,
     "medianByType": {
-      "D": 800000,
+      "D": 825000,
       "S": 540000,
-      "T": 434250,
+      "T": 431100,
       "F": 260000
     },
-    "transactionCount12m": 1495,
+    "transactionCount12m": 1927,
     "yoyChange": 1.1,
-    "newBuildCount": 3,
-    "existingCount": 1492,
-    "newBuildPremium": 31.6
+    "newBuildCount": 6,
+    "existingCount": 1921,
+    "newBuildPremium": 64.7
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 445000,
       "transactions": 116
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 450000,
-      "transactions": 55
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 475000,
       "transactions": 354
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 470000,
-      "transactions": 279
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:13.148Z",
+  "updatedAt": "2026-09-23T05:26:57.463Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "nantwich",
   "countySlug": "cheshire",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "CHESHIRE EAST"
   ],
   "stats": {
-    "medianPrice": 300000,
+    "medianPrice": 295000,
     "medianByType": {
-      "D": 425000,
-      "S": 270000,
-      "T": 232000,
-      "F": 133500
+      "D": 430000,
+      "S": 269000,
+      "T": 223000,
+      "F": 135000
     },
-    "transactionCount12m": 504,
-    "yoyChange": 5,
-    "newBuildCount": 7,
-    "existingCount": 497,
-    "newBuildPremium": 33.9
+    "transactionCount12m": 679,
+    "yoyChange": 3.5,
+    "newBuildCount": 37,
+    "existingCount": 642,
+    "newBuildPremium": 5.6
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 270000,
       "transactions": 33
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 340000,
-      "transactions": 27
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 280000,
       "transactions": 111
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 295000,
-      "transactions": 91
     }
   ]
 }

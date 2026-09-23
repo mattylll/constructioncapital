@@ -1,5 +1,6 @@
 {
-  "updatedAt": "2026-08-11T10:44:11.357Z",
+  "updatedAt": "2026-09-23T05:26:55.670Z",
+  "dataAsOf": "2026-05-31",
   "townSlug": "guildford",
   "countySlug": "surrey",
   "isDistrictLevelFallback": false,
@@ -7,18 +8,18 @@
     "GUILDFORD"
   ],
   "stats": {
-    "medianPrice": 490000,
+    "medianPrice": 495000,
     "medianByType": {
-      "D": 824500,
-      "S": 500000,
-      "T": 400000,
-      "F": 262500
+      "D": 837640,
+      "S": 502500,
+      "T": 395000,
+      "F": 260000
     },
-    "transactionCount12m": 1421,
-    "yoyChange": -2,
-    "newBuildCount": 6,
-    "existingCount": 1415,
-    "newBuildPremium": 63.8
+    "transactionCount12m": 1881,
+    "yoyChange": 1,
+    "newBuildCount": 24,
+    "existingCount": 1857,
+    "newBuildPremium": 41.1
   },
   "recentTransactions": [
     {
@@ -347,11 +348,6 @@
       "month": "2026-05",
       "medianPrice": 473500,
       "transactions": 106
-    },
-    {
-      "month": "2026-06",
-      "medianPrice": 562500,
-      "transactions": 38
     }
   ],
   "quarterlyHistory": [
@@ -399,11 +395,6 @@
       "quarter": "2026-Q1",
       "medianPrice": 471250,
       "transactions": 366
-    },
-    {
-      "quarter": "2026-Q2",
-      "medianPrice": 487500,
-      "transactions": 247
     }
   ]
 }
