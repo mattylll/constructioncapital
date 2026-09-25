@@ -1,4 +1,5 @@
 import type { MarketReport, ReportCategory } from "./types";
+import housing_share_2024_25 from "./reports/thematic/housing-output-fell-regional-share-rose-2024-25";
 import { LENDING_REPORTS } from "./reports/lending";
 import { PRESS_REPORTS } from "./reports/press";
 import { TOWN_REPORTS } from "./reports/town";
@@ -76,6 +77,7 @@ import property_type_price_guide_2026 from "./reports/thematic/property-type-pri
 import uk_house_price_changes_2026 from "./reports/thematic/uk-house-price-changes-2026";
 
 const UNSORTED_MARKET_REPORTS: MarketReport[] = [
+  housing_share_2024_25,
   // County (loaded first for priority in slug lookups)
   bedfordshire_property_market,
   berkshire_property_market,

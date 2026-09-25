@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, ArrowUpRight, Clock } from "lucide-react";
@@ -60,11 +61,15 @@ export async function generateMetadata({
       type: "article",
       publishedTime: report.datePublished,
       modifiedTime: report.dateModified,
+      ...(report.illustration && {
+        images: [{ url: `${SITE_URL}${report.illustration.src}`, alt: report.illustration.alt }],
+      }),
     },
     twitter: {
       card: "summary_large_image",
       title: report.metaTitle,
       description: report.metaDescription,
+      ...(report.illustration && { images: [`${SITE_URL}${report.illustration.src}`] }),
     },
   };
 }
@@ -110,6 +115,7 @@ export default async function MarketReportPage({ params }: PageProps) {
     datePublished: report.datePublished,
     dateModified: report.dateModified,
     url: `${SITE_URL}/market-reports/${slug}`,
+    ...(report.illustration && { image: `${SITE_URL}${report.illustration.src}` }),
     author: {
       "@type": "Person",
       name: "Matt Lenzie",
@@ -303,6 +309,23 @@ export default async function MarketReportPage({ params }: PageProps) {
           </nav>
 
           {/* Sections with inline charts */}
+          {report.illustration && (
+            <figure className="mb-16">
+              <a href={report.illustration.src} aria-label="Open full-size infographic">
+                <Image
+                  src={report.illustration.src}
+                  alt={report.illustration.alt}
+                  width={report.illustration.width}
+                  height={report.illustration.height}
+                  className="h-auto w-full"
+                  sizes="(max-width: 768px) 100vw, 768px"
+                />
+              </a>
+              <figcaption className="mt-4 text-sm leading-relaxed">
+                {report.illustration.caption}
+              </figcaption>
+            </figure>
+          )}
           {report.sections.map((section, i) => {
             const heading = section.heading.toLowerCase();
             const showPriceByType = !!(report.charts?.priceByType?.length) && (
