@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:57.440Z",
+  "updatedAt": "2026-09-25T08:18:17.121Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "crewe",
   "countySlug": "cheshire",
@@ -10,197 +10,197 @@
   "stats": {
     "medianPrice": 210000,
     "medianByType": {
-      "D": 339500,
-      "S": 203250,
-      "T": 125625,
-      "F": 100000
+      "D": 340000,
+      "S": 204000,
+      "T": 126250,
+      "F": 98000
     },
-    "transactionCount12m": 1567,
+    "transactionCount12m": 1785,
     "yoyChange": 5,
-    "newBuildCount": 28,
-    "existingCount": 1539,
-    "newBuildPremium": 47.4
+    "newBuildCount": 41,
+    "existingCount": 1744,
+    "newBuildPremium": 40.6
   },
   "recentTransactions": [
     {
-      "price": 244000,
-      "date": "2026-06-24",
-      "postcode": "CW2 5DW",
+      "price": 150000,
+      "date": "2026-07-28",
+      "postcode": "CW1 4RY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, HESKETH CROFT"
+    },
+    {
+      "price": 180000,
+      "date": "2026-07-24",
+      "postcode": "CW2 5BY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "87, CREWE ROAD"
+      "address": "14, OSBORNE GROVE"
     },
     {
-      "price": 119000,
-      "date": "2026-06-19",
-      "postcode": "CW1 4DG",
+      "price": 160000,
+      "date": "2026-07-24",
+      "postcode": "CW2 6JD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "84, MIDDLEWICH STREET"
+      "address": "92, BEDFORD STREET"
     },
     {
-      "price": 1272500,
-      "date": "2026-06-19",
-      "postcode": "CW4 8DX",
+      "price": 190000,
+      "date": "2026-07-24",
+      "postcode": "CW2 6BL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "ROWLEY LODGE, FORTY ACRE LANE"
+      "address": "4, BARKER STREET"
     },
     {
-      "price": 170000,
-      "date": "2026-06-17",
-      "postcode": "CW2 8FA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, SANDHURST AVENUE"
-    },
-    {
-      "price": 315000,
-      "date": "2026-06-17",
-      "postcode": "CW1 3NU",
+      "price": 235000,
+      "date": "2026-07-21",
+      "postcode": "CW2 5HS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "66, JAMES ATKINSON WAY"
+      "address": "2, ENFIELD CLOSE"
     },
     {
-      "price": 152000,
-      "date": "2026-06-15",
-      "postcode": "CW2 8PR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, BRERETON CLOSE"
-    },
-    {
-      "price": 165000,
-      "date": "2026-06-12",
-      "postcode": "CW1 3YX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, KESTREL DRIVE"
-    },
-    {
-      "price": 620000,
-      "date": "2026-06-12",
-      "postcode": "CW1 5RY",
+      "price": 449000,
+      "date": "2026-07-20",
+      "postcode": "CW2 5SX",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, THE DINGLE"
+      "address": "6, ELLIS CLOSE"
     },
     {
-      "price": 58000,
-      "date": "2026-06-12",
-      "postcode": "CW1 3NX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "77, JAMES ATKINSON WAY"
-    },
-    {
-      "price": 130000,
-      "date": "2026-06-10",
-      "postcode": "CW1 4HB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, PRUNUS ROAD"
-    },
-    {
-      "price": 173000,
-      "date": "2026-06-09",
-      "postcode": "CW2 5HE",
+      "price": 225000,
+      "date": "2026-07-17",
+      "postcode": "CW1 5TU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "55, GREENFIELDS AVENUE"
-    },
-    {
-      "price": 277500,
-      "date": "2026-06-08",
-      "postcode": "CW1 4QF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, HOTHERSALL CLOSE"
-    },
-    {
-      "price": 245000,
-      "date": "2026-06-05",
-      "postcode": "CW1 4SE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, GORDON GEDDES WAY"
-    },
-    {
-      "price": 185000,
-      "date": "2026-06-05",
-      "postcode": "CW1 5YA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, PELICAN CLOSE"
-    },
-    {
-      "price": 142000,
-      "date": "2026-06-04",
-      "postcode": "CW1 3QU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, TOMKINSON CLOSE"
+      "address": "42, GRENVILLE CLOSE"
     },
     {
       "price": 265000,
-      "date": "2026-06-03",
-      "postcode": "CW1 4TW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "66, LAMBOURN DRIVE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-06-03",
-      "postcode": "CW2 8DL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, MILNE CLOSE"
-    },
-    {
-      "price": 183000,
-      "date": "2026-06-03",
-      "postcode": "CW1 3RG",
+      "date": "2026-07-17",
+      "postcode": "CW2 5UN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "106, MABLINS LANE"
+      "address": "38, SPRINGBANK ROAD"
     },
     {
-      "price": 640000,
-      "date": "2026-06-03",
-      "postcode": "CW1 5UP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "NURSERY COTTAGE, SLAUGHTER HILL"
-    },
-    {
-      "price": 323000,
-      "date": "2026-06-02",
-      "postcode": "CW3 0FP",
+      "price": 265000,
+      "date": "2026-07-17",
+      "postcode": "CW2 8WJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, WELL FIELD WAY"
+      "address": "104A, TEAL WAY"
+    },
+    {
+      "price": 179000,
+      "date": "2026-07-17",
+      "postcode": "CW1 5HU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, LAURESTON AVENUE"
+    },
+    {
+      "price": 368000,
+      "date": "2026-07-17",
+      "postcode": "CW2 8WJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, TEAL WAY"
+    },
+    {
+      "price": 180000,
+      "date": "2026-07-16",
+      "postcode": "CW2 6JP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, BEDFORD PLACE"
+    },
+    {
+      "price": 90000,
+      "date": "2026-07-16",
+      "postcode": "CW2 8BG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 18, GAINSBOROUGH COURT, 59, STEWART STREET"
+    },
+    {
+      "price": 850000,
+      "date": "2026-07-15",
+      "postcode": "CW3 0JB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LAKESIDE LODGE, HALL LANE"
+    },
+    {
+      "price": 120000,
+      "date": "2026-07-15",
+      "postcode": "CW2 7LB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "182, WALTHALL STREET"
+    },
+    {
+      "price": 190000,
+      "date": "2026-07-14",
+      "postcode": "CW2 7UA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, HUGHES DRIVE"
+    },
+    {
+      "price": 122500,
+      "date": "2026-07-13",
+      "postcode": "CW1 3AN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "83, RAMSBOTTOM STREET"
+    },
+    {
+      "price": 156000,
+      "date": "2026-07-13",
+      "postcode": "CW1 3TR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, EVANS STREET"
+    },
+    {
+      "price": 145000,
+      "date": "2026-07-13",
+      "postcode": "CW2 8ST",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "105, FIELD LANE"
+    },
+    {
+      "price": 460000,
+      "date": "2026-07-13",
+      "postcode": "CW2 6QN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "440, CREWE ROAD"
     }
   ],
   "monthlyHistory": [
@@ -226,8 +226,8 @@
     },
     {
       "month": "2024-05",
-      "medianPrice": 185000,
-      "transactions": 154
+      "medianPrice": 186000,
+      "transactions": 156
     },
     {
       "month": "2024-06",
@@ -276,78 +276,78 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 246500,
-      "transactions": 259
+      "medianPrice": 247225,
+      "transactions": 260
     },
     {
       "month": "2025-04",
-      "medianPrice": 174000,
-      "transactions": 102
+      "medianPrice": 175000,
+      "transactions": 103
     },
     {
       "month": "2025-05",
       "medianPrice": 185000,
-      "transactions": 173
+      "transactions": 175
     },
     {
       "month": "2025-06",
-      "medianPrice": 217950,
-      "transactions": 172
+      "medianPrice": 217500,
+      "transactions": 175
     },
     {
       "month": "2025-07",
-      "medianPrice": 221250,
-      "transactions": 128
+      "medianPrice": 216250,
+      "transactions": 130
     },
     {
       "month": "2025-08",
-      "medianPrice": 221250,
-      "transactions": 174
+      "medianPrice": 222500,
+      "transactions": 179
     },
     {
       "month": "2025-09",
-      "medianPrice": 187000,
-      "transactions": 147
+      "medianPrice": 185000,
+      "transactions": 163
     },
     {
       "month": "2025-10",
-      "medianPrice": 203500,
-      "transactions": 153
+      "medianPrice": 204750,
+      "transactions": 166
     },
     {
       "month": "2025-11",
       "medianPrice": 225000,
-      "transactions": 145
+      "transactions": 146
     },
     {
       "month": "2025-12",
       "medianPrice": 210000,
-      "transactions": 149
+      "transactions": 151
     },
     {
       "month": "2026-01",
-      "medianPrice": 210000,
-      "transactions": 83
+      "medianPrice": 207500,
+      "transactions": 88
     },
     {
       "month": "2026-02",
-      "medianPrice": 190000,
-      "transactions": 99
+      "medianPrice": 189500,
+      "transactions": 112
     },
     {
       "month": "2026-03",
-      "medianPrice": 225000,
-      "transactions": 119
+      "medianPrice": 220000,
+      "transactions": 131
     },
     {
       "month": "2026-04",
       "medianPrice": 227500,
-      "transactions": 87
+      "transactions": 89
     },
     {
       "month": "2026-05",
-      "medianPrice": 190000,
-      "transactions": 87
+      "medianPrice": 188500,
+      "transactions": 98
     }
   ],
   "quarterlyHistory": [
@@ -358,8 +358,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 183850,
-      "transactions": 418
+      "medianPrice": 185000,
+      "transactions": 420
     },
     {
       "quarter": "2024-Q3",
@@ -373,28 +373,28 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 215000,
-      "transactions": 567
+      "medianPrice": 216000,
+      "transactions": 568
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 193000,
-      "transactions": 447
+      "medianPrice": 190000,
+      "transactions": 453
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 207500,
-      "transactions": 449
+      "medianPrice": 202500,
+      "transactions": 472
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 210000,
-      "transactions": 447
+      "transactions": 463
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 205000,
-      "transactions": 301
+      "medianPrice": 200000,
+      "transactions": 331
     }
   ]
 }

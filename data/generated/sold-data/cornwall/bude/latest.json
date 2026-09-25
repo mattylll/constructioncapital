@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:56.432Z",
+  "updatedAt": "2026-09-25T08:18:15.680Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "bude",
   "countySlug": "cornwall",
@@ -8,20 +8,146 @@
     "CORNWALL"
   ],
   "stats": {
-    "medianPrice": 343000,
+    "medianPrice": 344000,
     "medianByType": {
-      "D": 428000,
-      "S": 288000,
-      "T": 260000,
-      "F": 187500
+      "D": 427500,
+      "S": 290000,
+      "T": 258750,
+      "F": 195000
     },
-    "transactionCount12m": 268,
-    "yoyChange": -5.2,
-    "newBuildCount": 14,
-    "existingCount": 254,
-    "newBuildPremium": 31.6
+    "transactionCount12m": 296,
+    "yoyChange": -5,
+    "newBuildCount": 16,
+    "existingCount": 280,
+    "newBuildPremium": 31
   },
   "recentTransactions": [
+    {
+      "price": 810000,
+      "date": "2026-07-22",
+      "postcode": "EX23 0AG",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "TREVOSE LODGE, MARINE DRIVE"
+    },
+    {
+      "price": 242000,
+      "date": "2026-07-17",
+      "postcode": "EX23 9JH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, CLEAVE CRESCENT"
+    },
+    {
+      "price": 275000,
+      "date": "2026-07-16",
+      "postcode": "EX23 9PF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PENDORE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-07-16",
+      "postcode": "EX23 8GN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, WAGTAIL CLOSE"
+    },
+    {
+      "price": 750000,
+      "date": "2026-07-08",
+      "postcode": "EX23 0HR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LANGFORD HELE FARM"
+    },
+    {
+      "price": 375000,
+      "date": "2026-07-07",
+      "postcode": "EX23 8RY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, MINSTER AVENUE"
+    },
+    {
+      "price": 445000,
+      "date": "2026-07-02",
+      "postcode": "EX23 9AU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, POUNDFIELD CLOSE"
+    },
+    {
+      "price": 820000,
+      "date": "2026-07-02",
+      "postcode": "EX23 8NE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, THE PENARVOR, 15, CROOKLETS"
+    },
+    {
+      "price": 480000,
+      "date": "2026-07-01",
+      "postcode": "EX23 0BE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GREEN BANKS"
+    },
+    {
+      "price": 305000,
+      "date": "2026-06-26",
+      "postcode": "EX23 0HZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BROWNS PARK, HELEBRIDGE ROAD"
+    },
+    {
+      "price": 272500,
+      "date": "2026-06-26",
+      "postcode": "EX23 0HX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, ST MARWENNE CLOSE"
+    },
+    {
+      "price": 340000,
+      "date": "2026-06-26",
+      "postcode": "EX23 0FD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, HOBBACOTT RISE"
+    },
+    {
+      "price": 440000,
+      "date": "2026-06-24",
+      "postcode": "EX23 9AU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, POUNDFIELD CLOSE"
+    },
+    {
+      "price": 75000,
+      "date": "2026-06-24",
+      "postcode": "EX23 9PP",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PENLOE FIELD"
+    },
     {
       "price": 400000,
       "date": "2026-06-23",
@@ -30,6 +156,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "7, CURLEW ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-22",
+      "postcode": "EX23 8HU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "55, EAST FAIRHOLME ROAD"
+    },
+    {
+      "price": 380000,
+      "date": "2026-06-19",
+      "postcode": "EX23 8PX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, MANOR ROAD"
     },
     {
       "price": 395000,
@@ -41,6 +185,15 @@
       "address": "8, BEDE HAVEN CLOSE"
     },
     {
+      "price": 240000,
+      "date": "2026-06-12",
+      "postcode": "EX23 9AF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, ST OLAFS ROAD"
+    },
+    {
       "price": 325000,
       "date": "2026-06-11",
       "postcode": "EX23 8QF",
@@ -48,159 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "36, BEDE HAVEN CLOSE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-06-11",
-      "postcode": "EX23 8JQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 16, PENTYRE COURT, VICARAGE ROAD"
-    },
-    {
-      "price": 249500,
-      "date": "2026-06-10",
-      "postcode": "EX23 8TP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, REDEN ROAD"
-    },
-    {
-      "price": 500000,
-      "date": "2026-06-04",
-      "postcode": "EX23 0HY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LONG CLOSE, HELEBRIDGE ROAD"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-29",
-      "postcode": "EX23 9ES",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, ORCHARD CLOSE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-29",
-      "postcode": "EX23 9AP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, NEW ROAD"
-    },
-    {
-      "price": 445000,
-      "date": "2026-05-29",
-      "postcode": "EX23 8ET",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, CLINTON CLOSE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-05-22",
-      "postcode": "EX23 9HP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "67, STIBB COTTAGES"
-    },
-    {
-      "price": 365000,
-      "date": "2026-05-21",
-      "postcode": "EX23 9EH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, MOOR CROSS"
-    },
-    {
-      "price": 457500,
-      "date": "2026-05-19",
-      "postcode": "EX23 8BQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, PUFFIN CLOSE"
-    },
-    {
-      "price": 305000,
-      "date": "2026-05-19",
-      "postcode": "EX23 8FY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, BITTERN CLOSE"
-    },
-    {
-      "price": 277500,
-      "date": "2026-05-15",
-      "postcode": "EX23 9QR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CHURCH VIEW"
-    },
-    {
-      "price": 605000,
-      "date": "2026-05-14",
-      "postcode": "EX23 0BR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "COPPERBEECH"
-    },
-    {
-      "price": 472000,
-      "date": "2026-05-13",
-      "postcode": "EX23 0AD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "LARGO, THE CRESCENT"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-11",
-      "postcode": "EX23 8ET",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, CLINTON CLOSE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-05-08",
-      "postcode": "EX23 9LD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE GRANARY, IVYLEAF BARTON"
-    },
-    {
-      "price": 400000,
-      "date": "2026-05-07",
-      "postcode": "EX23 8EP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, VALLEY ROAD"
-    },
-    {
-      "price": 390000,
-      "date": "2026-05-06",
-      "postcode": "EX23 0NG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, SOUTHCOTT MEADOWS"
     }
   ],
   "monthlyHistory": [
@@ -221,8 +221,8 @@
     },
     {
       "month": "2024-04",
-      "medianPrice": 285000,
-      "transactions": 23
+      "medianPrice": 292475,
+      "transactions": 22
     },
     {
       "month": "2024-05",
@@ -291,8 +291,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 355000,
-      "transactions": 22
+      "medianPrice": 345000,
+      "transactions": 23
     },
     {
       "month": "2025-07",
@@ -301,18 +301,18 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 419000,
-      "transactions": 17
+      "medianPrice": 387000,
+      "transactions": 18
     },
     {
       "month": "2025-09",
-      "medianPrice": 330000,
-      "transactions": 35
+      "medianPrice": 340000,
+      "transactions": 36
     },
     {
       "month": "2025-10",
       "medianPrice": 285000,
-      "transactions": 24
+      "transactions": 27
     },
     {
       "month": "2025-11",
@@ -326,8 +326,8 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 273750,
-      "transactions": 22
+      "medianPrice": 278000,
+      "transactions": 26
     },
     {
       "month": "2026-02",
@@ -358,8 +358,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 304975,
-      "transactions": 70
+      "medianPrice": 310000,
+      "transactions": 69
     },
     {
       "quarter": "2024-Q3",
@@ -378,23 +378,23 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 298500,
-      "transactions": 52
+      "medianPrice": 297000,
+      "transactions": 53
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 355000,
-      "transactions": 85
+      "transactions": 87
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 365000,
-      "transactions": 71
+      "medianPrice": 360000,
+      "transactions": 74
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 285000,
-      "transactions": 49
+      "medianPrice": 290000,
+      "transactions": 53
     }
   ]
 }

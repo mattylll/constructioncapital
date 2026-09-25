@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:55.553Z",
+  "updatedAt": "2026-09-25T08:18:14.317Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "city-of-london",
   "countySlug": "greater-london",
@@ -8,17 +8,107 @@
     "CITY OF LONDON"
   ],
   "stats": {
-    "medianPrice": 770000,
+    "medianPrice": 775000,
     "medianByType": {
-      "F": 720000
+      "F": 735500
     },
-    "transactionCount12m": 155,
-    "yoyChange": -10.9,
-    "newBuildCount": 3,
-    "existingCount": 152,
-    "newBuildPremium": 81.8
+    "transactionCount12m": 180,
+    "yoyChange": -10.3,
+    "newBuildCount": 4,
+    "existingCount": 176,
+    "newBuildPremium": 50.7
   },
   "recentTransactions": [
+    {
+      "price": 410000,
+      "date": "2026-07-07",
+      "postcode": "EC1A 7ES",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 42, 28, BARTHOLOMEW CLOSE"
+    },
+    {
+      "price": 890000,
+      "date": "2026-07-06",
+      "postcode": "EC4V 3PS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 119, GLOBE VIEW, 10, HIGH TIMBER STREET"
+    },
+    {
+      "price": 2000000,
+      "date": "2026-07-03",
+      "postcode": "EC4M 7DE",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "LOWER BASEMENT TO GROUND FLOOR PREMISES, 34 - 36, LUDGATE HILL"
+    },
+    {
+      "price": 1775000,
+      "date": "2026-07-03",
+      "postcode": "EC2Y 8NJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 323, SHAKESPEARE TOWER, BARBICAN"
+    },
+    {
+      "price": 1500000,
+      "date": "2026-06-30",
+      "postcode": "EC2Y 8DH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "519, BUNYAN COURT, BARBICAN"
+    },
+    {
+      "price": 2400000,
+      "date": "2026-06-30",
+      "postcode": "EC2Y 8NA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 391, LAUDERDALE TOWER, BARBICAN"
+    },
+    {
+      "price": 563500,
+      "date": "2026-06-29",
+      "postcode": "EC1A 7HN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 35, 43, BARTHOLOMEW CLOSE"
+    },
+    {
+      "price": 793292,
+      "date": "2026-06-25",
+      "postcode": "EC2Y 8BA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 157, ANDREWES HOUSE, BARBICAN"
+    },
+    {
+      "price": 835000,
+      "date": "2026-06-24",
+      "postcode": "EC2Y 8DJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 29, JOHN TRUNDLE COURT, BARBICAN"
+    },
+    {
+      "price": 495000,
+      "date": "2026-06-19",
+      "postcode": "EC2Y 8NE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 78, JOHN TRUNDLE COURT, BARBICAN"
+    },
     {
       "price": 465000,
       "date": "2026-06-12",
@@ -108,96 +198,6 @@
       "newBuild": false,
       "tenure": "L",
       "address": "FLAT 1402, 5, MOOR LANE"
-    },
-    {
-      "price": 980000,
-      "date": "2026-05-06",
-      "postcode": "EC2Y 8BE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, BRANDON MEWS, BARBICAN"
-    },
-    {
-      "price": 775000,
-      "date": "2026-04-30",
-      "postcode": "EC2Y 8BN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 702, WILLOUGHBY HOUSE, BARBICAN"
-    },
-    {
-      "price": 520000,
-      "date": "2026-04-20",
-      "postcode": "EC2Y 8DH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "215, BUNYAN COURT, BARBICAN"
-    },
-    {
-      "price": 823000,
-      "date": "2026-03-30",
-      "postcode": "EC4Y 0DD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 13, VICTORIA HOUSE, 25, TUDOR STREET"
-    },
-    {
-      "price": 357400,
-      "date": "2026-03-27",
-      "postcode": "E1 8BZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 6, PROSPERO HOUSE, 6, PORTSOKEN STREET"
-    },
-    {
-      "price": 15700000,
-      "date": "2026-03-25",
-      "postcode": "EC1A 9DD",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, GILTSPUR STREET"
-    },
-    {
-      "price": 417500,
-      "date": "2026-03-05",
-      "postcode": "EC2Y 8NE",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 87, JOHN TRUNDLE COURT, BARBICAN"
-    },
-    {
-      "price": 605000,
-      "date": "2026-03-02",
-      "postcode": "EC4A 1BF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 41, ST. DUNSTANS HOUSE, 133 - 137, FETTER LANE"
-    },
-    {
-      "price": 835000,
-      "date": "2026-02-27",
-      "postcode": "EC1A 7BT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 44, 75, LITTLE BRITAIN"
-    },
-    {
-      "price": 27247456,
-      "date": "2026-02-26",
-      "postcode": "EC3N 4AX",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, SEETHING LANE"
     }
   ],
   "monthlyHistory": [
@@ -303,33 +303,33 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 720000,
-      "transactions": 15
+      "medianPrice": 865000,
+      "transactions": 20
     },
     {
       "month": "2025-10",
       "medianPrice": 923975,
-      "transactions": 12
+      "transactions": 14
     },
     {
       "month": "2025-11",
-      "medianPrice": 865000,
-      "transactions": 17
+      "medianPrice": 735000,
+      "transactions": 19
     },
     {
       "month": "2025-12",
-      "medianPrice": 806250,
-      "transactions": 20
+      "medianPrice": 792500,
+      "transactions": 21
     },
     {
       "month": "2026-01",
-      "medianPrice": 652000,
-      "transactions": 10
+      "medianPrice": 665000,
+      "transactions": 11
     },
     {
       "month": "2026-02",
       "medianPrice": 650000,
-      "transactions": 9
+      "transactions": 13
     },
     {
       "month": "2026-03",
@@ -380,18 +380,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 772500,
-      "transactions": 54
+      "medianPrice": 845000,
+      "transactions": 59
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 865000,
-      "transactions": 49
+      "medianPrice": 806250,
+      "transactions": 54
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 644500,
-      "transactions": 24
+      "medianPrice": 650000,
+      "transactions": 29
     }
   ]
 }

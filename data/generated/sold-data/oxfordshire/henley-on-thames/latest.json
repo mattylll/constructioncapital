@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:56.005Z",
+  "updatedAt": "2026-09-25T08:18:14.946Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "henley-on-thames",
   "countySlug": "oxfordshire",
@@ -8,20 +8,83 @@
     "SOUTH OXFORDSHIRE"
   ],
   "stats": {
-    "medianPrice": 695000,
+    "medianPrice": 700000,
     "medianByType": {
-      "D": 1202500,
-      "S": 637500,
-      "T": 558500,
+      "D": 1180000,
+      "S": 640000,
+      "T": 556750,
       "F": 362500
     },
-    "transactionCount12m": 298,
-    "yoyChange": -5.4,
-    "newBuildCount": 13,
-    "existingCount": 285,
-    "newBuildPremium": -20.7
+    "transactionCount12m": 327,
+    "yoyChange": -4.8,
+    "newBuildCount": 14,
+    "existingCount": 313,
+    "newBuildPremium": -19.9
   },
   "recentTransactions": [
+    {
+      "price": 595000,
+      "date": "2026-07-22",
+      "postcode": "RG9 1SD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, ALBERT ROAD"
+    },
+    {
+      "price": 810000,
+      "date": "2026-07-16",
+      "postcode": "RG9 1RA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, ELIZABETH ROAD"
+    },
+    {
+      "price": 269000,
+      "date": "2026-07-16",
+      "postcode": "RG9 1US",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, TILEBARN CLOSE"
+    },
+    {
+      "price": 500000,
+      "date": "2026-07-15",
+      "postcode": "RG9 2JP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, FAIRMILE COURT, FAIRMILE"
+    },
+    {
+      "price": 580000,
+      "date": "2026-07-10",
+      "postcode": "RG9 1EJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, FARM ROAD"
+    },
+    {
+      "price": 262500,
+      "date": "2026-07-02",
+      "postcode": "RG9 2EG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "5A, GRAVEL HILL"
+    },
+    {
+      "price": 875000,
+      "date": "2026-07-01",
+      "postcode": "RG9 5BL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WISTERIA LODGE, CATSLIP"
+    },
     {
       "price": 620850,
       "date": "2026-06-15",
@@ -48,6 +111,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "THE BUNGALOW"
+    },
+    {
+      "price": 915000,
+      "date": "2026-06-11",
+      "postcode": "RG9 1RR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, VALLEY ROAD"
+    },
+    {
+      "price": 732000,
+      "date": "2026-06-11",
+      "postcode": "",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "OLD BREWERY HOUSE, 86, NEW STREET"
     },
     {
       "price": 1075000,
@@ -77,6 +158,24 @@
       "address": "79, HARPSDEN ROAD"
     },
     {
+      "price": 610000,
+      "date": "2026-06-05",
+      "postcode": "RG9 1DG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, MARMION ROAD"
+    },
+    {
+      "price": 752500,
+      "date": "2026-06-05",
+      "postcode": "RG9 1DE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, GRANGE ROAD"
+    },
+    {
       "price": 575000,
       "date": "2026-06-04",
       "postcode": "RG9 2BA",
@@ -102,105 +201,6 @@
       "newBuild": false,
       "tenure": "L",
       "address": "23, WAR MEMORIAL PLACE"
-    },
-    {
-      "price": 460000,
-      "date": "2026-05-29",
-      "postcode": "RG9 2ET",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, ABRAHAMS ROAD"
-    },
-    {
-      "price": 412000,
-      "date": "2026-05-29",
-      "postcode": "RG9 2EN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "79, CRISP ROAD"
-    },
-    {
-      "price": 2250000,
-      "date": "2026-05-28",
-      "postcode": "RG9 2BP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, NEW STREET"
-    },
-    {
-      "price": 1075000,
-      "date": "2026-05-27",
-      "postcode": "RG9 1SH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, HAMILTON AVENUE"
-    },
-    {
-      "price": 775000,
-      "date": "2026-05-22",
-      "postcode": "RG9 5QB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SPINNEY LEA, BUSGROVE LANE"
-    },
-    {
-      "price": 2400000,
-      "date": "2026-05-22",
-      "postcode": "RG9 5PE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BUCKS BARN"
-    },
-    {
-      "price": 780000,
-      "date": "2026-05-22",
-      "postcode": "RG9 2LL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ELY COTTAGE, WHARFE LANE"
-    },
-    {
-      "price": 925000,
-      "date": "2026-05-20",
-      "postcode": "RG9 3JR",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "ISIS, STATION ROAD"
-    },
-    {
-      "price": 750000,
-      "date": "2026-05-15",
-      "postcode": "RG9 1RA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, ELIZABETH ROAD"
-    },
-    {
-      "price": 650000,
-      "date": "2026-05-15",
-      "postcode": "RG9 1EA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "166, READING ROAD"
-    },
-    {
-      "price": 440000,
-      "date": "2026-05-14",
-      "postcode": "RG9 1BT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, UPTON CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -301,18 +301,18 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 615000,
-      "transactions": 35
+      "medianPrice": 625000,
+      "transactions": 36
     },
     {
       "month": "2025-09",
       "medianPrice": 785000,
-      "transactions": 28
+      "transactions": 32
     },
     {
       "month": "2025-10",
-      "medianPrice": 742500,
-      "transactions": 33
+      "medianPrice": 763750,
+      "transactions": 36
     },
     {
       "month": "2025-11",
@@ -326,18 +326,18 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 730000,
-      "transactions": 25
+      "medianPrice": 750000,
+      "transactions": 27
     },
     {
       "month": "2026-02",
-      "medianPrice": 460000,
-      "transactions": 15
+      "medianPrice": 515000,
+      "transactions": 19
     },
     {
       "month": "2026-03",
-      "medianPrice": 676500,
-      "transactions": 19
+      "medianPrice": 575000,
+      "transactions": 21
     },
     {
       "month": "2026-04",
@@ -347,7 +347,7 @@
     {
       "month": "2026-05",
       "medianPrice": 775000,
-      "transactions": 19
+      "transactions": 21
     }
   ],
   "quarterlyHistory": [
@@ -383,18 +383,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 612500,
-      "transactions": 92
+      "medianPrice": 615000,
+      "transactions": 97
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 775000,
-      "transactions": 79
+      "medianPrice": 780000,
+      "transactions": 82
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 606000,
-      "transactions": 59
+      "medianPrice": 636275,
+      "transactions": 67
     }
   ]
 }

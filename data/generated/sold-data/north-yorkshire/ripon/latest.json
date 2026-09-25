@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:57.753Z",
+  "updatedAt": "2026-09-25T08:18:17.552Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "ripon",
   "countySlug": "north-yorkshire",
@@ -9,20 +9,191 @@
     "HARROGATE"
   ],
   "stats": {
-    "medianPrice": 296000,
+    "medianPrice": 295000,
     "medianByType": {
-      "D": 455000,
-      "S": 282500,
-      "T": 213000,
-      "F": 156000
+      "D": 465000,
+      "S": 265000,
+      "T": 215000,
+      "F": 155000
     },
-    "transactionCount12m": 334,
-    "yoyChange": 0.3,
-    "newBuildCount": 4,
-    "existingCount": 330,
-    "newBuildPremium": 24.6
+    "transactionCount12m": 389,
+    "yoyChange": 0,
+    "newBuildCount": 19,
+    "existingCount": 370,
+    "newBuildPremium": -28.5
   },
   "recentTransactions": [
+    {
+      "price": 220000,
+      "date": "2026-07-21",
+      "postcode": "HG4 1QJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, VYNER STREET"
+    },
+    {
+      "price": 324000,
+      "date": "2026-07-21",
+      "postcode": "HG4 1TE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, KINGSTONIA GARDENS"
+    },
+    {
+      "price": 300000,
+      "date": "2026-07-20",
+      "postcode": "HG4 5EB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ROWAN COTTAGE"
+    },
+    {
+      "price": 418000,
+      "date": "2026-07-17",
+      "postcode": "HG4 2TP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "22, DOUBLEGATES AVENUE"
+    },
+    {
+      "price": 515000,
+      "date": "2026-07-16",
+      "postcode": "HG4 1QW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, BONDGATE GREEN"
+    },
+    {
+      "price": 585000,
+      "date": "2026-07-16",
+      "postcode": "HG4 1NL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "RIVERSLODGE, FISHERGREEN"
+    },
+    {
+      "price": 165000,
+      "date": "2026-07-10",
+      "postcode": "HG4 1NH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, ALMA GARDENS"
+    },
+    {
+      "price": 580000,
+      "date": "2026-07-08",
+      "postcode": "HG4 2LB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "71, WHITCLIFFE LANE"
+    },
+    {
+      "price": 127000,
+      "date": "2026-07-07",
+      "postcode": "HG4 2TJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "21, COLLEGE COURT, STEVEN WAY"
+    },
+    {
+      "price": 730000,
+      "date": "2026-07-07",
+      "postcode": "HG4 3AY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WOODSIDE HOUSE, 3, PARKLANDS"
+    },
+    {
+      "price": 270000,
+      "date": "2026-06-26",
+      "postcode": "HG4 2EX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 10, HIGHFIELD HOUSE, 6, HEMSWORTH WALK"
+    },
+    {
+      "price": 168500,
+      "date": "2026-06-26",
+      "postcode": "HG4 2HY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, BREWSTER TERRACE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-06-26",
+      "postcode": "HG4 1UN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, PALACE ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-26",
+      "postcode": "HG4 4BU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, BREWERS WAY"
+    },
+    {
+      "price": 470000,
+      "date": "2026-06-26",
+      "postcode": "HG4 1JF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, STATION CLOSE"
+    },
+    {
+      "price": 485000,
+      "date": "2026-06-25",
+      "postcode": "HG4 2HN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, LARK HILL CRESCENT"
+    },
+    {
+      "price": 281500,
+      "date": "2026-06-24",
+      "postcode": "HG4 3LS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "APRIL COTTAGE, POTTERY LANE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-22",
+      "postcode": "HG4 5AN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "FIELD VIEW, 13, TITHE WAY"
+    },
+    {
+      "price": 295000,
+      "date": "2026-06-22",
+      "postcode": "HG4 2AH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, WESTBOURNE GROVE"
+    },
     {
       "price": 180000,
       "date": "2026-06-19",
@@ -31,177 +202,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "11, MOORSIDE DALE"
-    },
-    {
-      "price": 315000,
-      "date": "2026-06-15",
-      "postcode": "HG4 2PD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, SANDY LANE"
-    },
-    {
-      "price": 179950,
-      "date": "2026-06-10",
-      "postcode": "HG4 1QD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, BONDGATE"
-    },
-    {
-      "price": 120000,
-      "date": "2026-06-09",
-      "postcode": "HG4 1JD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, URE BANK TOP"
-    },
-    {
-      "price": 210000,
-      "date": "2026-06-05",
-      "postcode": "HG4 1BF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, CATHEDRAL COURT"
-    },
-    {
-      "price": 513750,
-      "date": "2026-06-01",
-      "postcode": "HG4 2HG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, KIRKBY ROAD"
-    },
-    {
-      "price": 850000,
-      "date": "2026-05-28",
-      "postcode": "HG4 3BE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE BEECHES"
-    },
-    {
-      "price": 875000,
-      "date": "2026-05-28",
-      "postcode": "HG4 3JE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WAYSIDE COTTAGE"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-27",
-      "postcode": "HG4 5JW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, STATION ROAD"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-26",
-      "postcode": "HG4 5FD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, REGENCY PLACE"
-    },
-    {
-      "price": 432250,
-      "date": "2026-05-22",
-      "postcode": "HG4 5PA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, MAPLE GARTH"
-    },
-    {
-      "price": 246500,
-      "date": "2026-05-22",
-      "postcode": "HG4 3SB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MOSS COTTAGE, 3, PRINCESS TERRACE"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-21",
-      "postcode": "HG4 2DN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "65A, CLOTHERHOLME ROAD"
-    },
-    {
-      "price": 143000,
-      "date": "2026-05-20",
-      "postcode": "HG4 1QW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 3, IDDESLEIGH HOUSE, 17A, BONDGATE GREEN"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-19",
-      "postcode": "HG4 2DT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, BISHOPTON PLACE"
-    },
-    {
-      "price": 239500,
-      "date": "2026-05-18",
-      "postcode": "HG4 1FA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, THE RED HOUSE, 41, PALACE ROAD"
-    },
-    {
-      "price": 405000,
-      "date": "2026-05-15",
-      "postcode": "HG4 5BE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, ORCHARD CLOSE"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-15",
-      "postcode": "HG4 2NE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "81, LEAD LANE"
-    },
-    {
-      "price": 335000,
-      "date": "2026-05-14",
-      "postcode": "HG4 2AX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8B, PARK STREET"
-    },
-    {
-      "price": 525000,
-      "date": "2026-05-08",
-      "postcode": "HG4 5FL",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "RICHMOND HOUSE, MELMERBY GREEN LANE"
     }
   ],
   "monthlyHistory": [
@@ -272,8 +272,8 @@
     },
     {
       "month": "2025-02",
-      "medianPrice": 302500,
-      "transactions": 26
+      "medianPrice": 275000,
+      "transactions": 27
     },
     {
       "month": "2025-03",
@@ -292,28 +292,28 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 365000,
-      "transactions": 29
+      "medianPrice": 375000,
+      "transactions": 31
     },
     {
       "month": "2025-07",
-      "medianPrice": 330975,
-      "transactions": 38
+      "medianPrice": 320000,
+      "transactions": 39
     },
     {
       "month": "2025-08",
-      "medianPrice": 290000,
-      "transactions": 38
+      "medianPrice": 303115,
+      "transactions": 41
     },
     {
       "month": "2025-09",
       "medianPrice": 365000,
-      "transactions": 24
+      "transactions": 27
     },
     {
       "month": "2025-10",
-      "medianPrice": 330000,
-      "transactions": 23
+      "medianPrice": 211776,
+      "transactions": 34
     },
     {
       "month": "2025-11",
@@ -322,8 +322,8 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 265000,
-      "transactions": 33
+      "medianPrice": 287498,
+      "transactions": 34
     },
     {
       "month": "2026-01",
@@ -332,18 +332,18 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 313750,
-      "transactions": 20
+      "medianPrice": 320000,
+      "transactions": 22
     },
     {
       "month": "2026-03",
       "medianPrice": 275000,
-      "transactions": 25
+      "transactions": 27
     },
     {
       "month": "2026-04",
-      "medianPrice": 225000,
-      "transactions": 15
+      "medianPrice": 239000,
+      "transactions": 17
     },
     {
       "month": "2026-05",
@@ -374,28 +374,28 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 315000,
-      "transactions": 113
+      "medianPrice": 309147,
+      "transactions": 114
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 288500,
-      "transactions": 66
+      "medianPrice": 302500,
+      "transactions": 68
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 337500,
-      "transactions": 100
+      "medianPrice": 340000,
+      "transactions": 107
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 296000,
-      "transactions": 94
+      "medianPrice": 260000,
+      "transactions": 106
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 276500,
-      "transactions": 62
+      "medianPrice": 278000,
+      "transactions": 66
     }
   ]
 }

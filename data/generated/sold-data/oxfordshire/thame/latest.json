@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:56.006Z",
+  "updatedAt": "2026-09-25T08:18:14.948Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "thame",
   "countySlug": "oxfordshire",
@@ -10,18 +10,126 @@
   "stats": {
     "medianPrice": 445000,
     "medianByType": {
-      "D": 652500,
-      "S": 480000,
-      "T": 365000,
+      "D": 642000,
+      "S": 466250,
+      "T": 370000,
       "F": 265000
     },
-    "transactionCount12m": 233,
+    "transactionCount12m": 257,
     "yoyChange": -3.3,
-    "newBuildCount": 9,
-    "existingCount": 224,
-    "newBuildPremium": 24.6
+    "newBuildCount": 14,
+    "existingCount": 243,
+    "newBuildPremium": 17.8
   },
   "recentTransactions": [
+    {
+      "price": 410000,
+      "date": "2026-07-24",
+      "postcode": "OX9 3WQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, ASTLEY ROAD"
+    },
+    {
+      "price": 605000,
+      "date": "2026-07-17",
+      "postcode": "OX9 3GD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, WARREN MEAD"
+    },
+    {
+      "price": 905000,
+      "date": "2026-07-17",
+      "postcode": "OX9 3JG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, CROFT CLOSE"
+    },
+    {
+      "price": 650000,
+      "date": "2026-07-14",
+      "postcode": "OX9 3AJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, CHURCH ROAD"
+    },
+    {
+      "price": 350000,
+      "date": "2026-07-10",
+      "postcode": "OX9 3AY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "108, AYLESBURY ROAD"
+    },
+    {
+      "price": 622500,
+      "date": "2026-07-09",
+      "postcode": "OX9 3ZQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, YOUENS DRIVE"
+    },
+    {
+      "price": 673500,
+      "date": "2026-07-06",
+      "postcode": "OX9 2EP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, SOUTHERN ROAD"
+    },
+    {
+      "price": 355000,
+      "date": "2026-07-03",
+      "postcode": "OX9 3TU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, WEBSTER CLOSE"
+    },
+    {
+      "price": 410000,
+      "date": "2026-06-26",
+      "postcode": "OX9 7AW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, BACK STREET"
+    },
+    {
+      "price": 305000,
+      "date": "2026-06-25",
+      "postcode": "OX9 2DH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, VAN DIEMANS ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-19",
+      "postcode": "OX9 3EL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "68, ALEXANDER HOUSE, ANGUS COURT"
+    },
+    {
+      "price": 365000,
+      "date": "2026-06-19",
+      "postcode": "OX9 3DQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, ROUNDHEAD DRIVE"
+    },
     {
       "price": 390000,
       "date": "2026-06-15",
@@ -30,6 +138,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "23, ESINGDON DRIVE"
+    },
+    {
+      "price": 445000,
+      "date": "2026-06-15",
+      "postcode": "OX9 3GD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WARREN MEAD"
     },
     {
       "price": 440000,
@@ -84,130 +201,13 @@
       "newBuild": false,
       "tenure": "F",
       "address": "64, PARK STREET"
-    },
-    {
-      "price": 555000,
-      "date": "2026-05-29",
-      "postcode": "OX9 3WL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, LANGDALE ROAD"
-    },
-    {
-      "price": 485000,
-      "date": "2026-05-29",
-      "postcode": "OX9 3ZG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, YOUENS DRIVE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-28",
-      "postcode": "OX9 2PP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, THE HOMESTEAD"
-    },
-    {
-      "price": 492000,
-      "date": "2026-05-27",
-      "postcode": "OX9 3FE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, MARKUS AVENUE"
-    },
-    {
-      "price": 490000,
-      "date": "2026-05-21",
-      "postcode": "OX9 3BE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, WILLOW ROAD"
-    },
-    {
-      "price": 900000,
-      "date": "2026-05-13",
-      "postcode": "OX9 3DN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, JOHN FULKES AVENUE"
-    },
-    {
-      "price": 995000,
-      "date": "2026-05-13",
-      "postcode": "OX9 2AU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, CEDAR CRESCENT"
-    },
-    {
-      "price": 420000,
-      "date": "2026-05-13",
-      "postcode": "OX9 3YX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, ONSLOW DRIVE"
-    },
-    {
-      "price": 495000,
-      "date": "2026-05-08",
-      "postcode": "OX9 2PP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, THE HOMESTEAD"
-    },
-    {
-      "price": 480000,
-      "date": "2026-05-08",
-      "postcode": "OX9 3TG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CROMWELL AVENUE"
-    },
-    {
-      "price": 440000,
-      "date": "2026-05-08",
-      "postcode": "OX9 3XH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, MONTROSE WAY"
-    },
-    {
-      "price": 705000,
-      "date": "2026-05-08",
-      "postcode": "OX9 2QA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, ARNOLD WAY"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-08",
-      "postcode": "OX9 3NJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, HORTON AVENUE"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
-      "medianPrice": 475000,
-      "transactions": 25
+      "medianPrice": 462500,
+      "transactions": 26
     },
     {
       "month": "2024-02",
@@ -296,8 +296,8 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 395000,
-      "transactions": 23
+      "medianPrice": 444975,
+      "transactions": 26
     },
     {
       "month": "2025-08",
@@ -306,13 +306,13 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 350000,
-      "transactions": 13
+      "medianPrice": 377500,
+      "transactions": 14
     },
     {
       "month": "2025-10",
-      "medianPrice": 445000,
-      "transactions": 25
+      "medianPrice": 448625,
+      "transactions": 28
     },
     {
       "month": "2025-11",
@@ -336,25 +336,25 @@
     },
     {
       "month": "2026-03",
-      "medianPrice": 415000,
-      "transactions": 16
+      "medianPrice": 430000,
+      "transactions": 17
     },
     {
       "month": "2026-04",
-      "medianPrice": 460000,
-      "transactions": 13
+      "medianPrice": 447500,
+      "transactions": 14
     },
     {
       "month": "2026-05",
       "medianPrice": 480000,
-      "transactions": 21
+      "transactions": 23
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 475000,
-      "transactions": 65
+      "transactions": 66
     },
     {
       "quarter": "2024-Q2",
@@ -383,18 +383,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 410000,
-      "transactions": 61
+      "medianPrice": 422500,
+      "transactions": 65
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 460000,
-      "transactions": 67
+      "medianPrice": 456125,
+      "transactions": 70
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 432500,
-      "transactions": 37
+      "medianPrice": 435000,
+      "transactions": 38
     }
   ]
 }

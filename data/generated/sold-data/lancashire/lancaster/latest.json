@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:57.313Z",
+  "updatedAt": "2026-09-25T08:18:16.957Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "lancaster",
   "countySlug": "lancashire",
@@ -10,197 +10,197 @@
   "stats": {
     "medianPrice": 195000,
     "medianByType": {
-      "D": 343750,
-      "S": 211000,
+      "D": 350000,
+      "S": 215000,
       "T": 160000,
-      "F": 119500
+      "F": 120000
     },
-    "transactionCount12m": 2001,
+    "transactionCount12m": 2239,
     "yoyChange": 0,
-    "newBuildCount": 16,
-    "existingCount": 1985,
-    "newBuildPremium": 92.1
+    "newBuildCount": 32,
+    "existingCount": 2207,
+    "newBuildPremium": 90.8
   },
   "recentTransactions": [
     {
-      "price": 189500,
-      "date": "2026-06-26",
-      "postcode": "LA1 2PW",
+      "price": 220000,
+      "date": "2026-07-28",
+      "postcode": "LA4 4LJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "35, GREENSET CLOSE"
+      "address": "2, LAKE AVENUE"
     },
     {
-      "price": 135000,
-      "date": "2026-06-25",
-      "postcode": "LA4 6QS",
+      "price": 185000,
+      "date": "2026-07-27",
+      "postcode": "LA3 2GT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "1, CHAFFINCH CLOSE"
+    },
+    {
+      "price": 314000,
+      "date": "2026-07-27",
+      "postcode": "LA1 4EB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, BRAMPTON DRIVE"
+      "address": "5, BEDFORD PLACE"
+    },
+    {
+      "price": 210000,
+      "date": "2026-07-24",
+      "postcode": "LA4 5SE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, BRENDJEAN ROAD"
+    },
+    {
+      "price": 210000,
+      "date": "2026-07-24",
+      "postcode": "LA4 5FD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 109, BROADWAY ONE, DALLAM AVENUE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-07-22",
+      "postcode": "LA3 2WG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ROBIN CRESCENT"
+    },
+    {
+      "price": 90000,
+      "date": "2026-07-21",
+      "postcode": "LA1 5TG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "8, LANCAMBE COURT"
+    },
+    {
+      "price": 146000,
+      "date": "2026-07-21",
+      "postcode": "LA4 6NZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, SLYNE ROAD"
+    },
+    {
+      "price": 130000,
+      "date": "2026-07-20",
+      "postcode": "LA1 1AH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "22, LUNE SQUARE, DAMSIDE STREET"
+    },
+    {
+      "price": 262000,
+      "date": "2026-07-17",
+      "postcode": "LA3 2TH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, VIKING WAY"
     },
     {
       "price": 250000,
-      "date": "2026-06-25",
-      "postcode": "LA4 6HQ",
+      "date": "2026-07-17",
+      "postcode": "LA6 1HH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, BRIDGE ROAD"
+    },
+    {
+      "price": 435000,
+      "date": "2026-07-17",
+      "postcode": "LA2 9BZ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, HEST BANK ROAD"
+      "address": "THE BLOSSOMS, WHAMS LANE"
     },
     {
-      "price": 95000,
-      "date": "2026-06-24",
-      "postcode": "LA4 4PD",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "16, HUTTON GROVE"
-    },
-    {
-      "price": 120000,
-      "date": "2026-06-19",
-      "postcode": "LA1 1TN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 8, HARDWICKE HOUSE, DALLAS ROAD"
-    },
-    {
-      "price": 145000,
-      "date": "2026-06-19",
-      "postcode": "LA1 5DB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1A, WESTBOURNE ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-06-19",
-      "postcode": "LA4 6EE",
+      "price": 125500,
+      "date": "2026-07-17",
+      "postcode": "LA1 2PA",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "24, ST CHRISTOPHERS WAY"
+      "address": "21, GRANVILLE ROAD"
     },
     {
-      "price": 170000,
-      "date": "2026-06-19",
-      "postcode": "LA5 9DA",
-      "propertyType": "T",
+      "price": 237500,
+      "date": "2026-07-17",
+      "postcode": "LA4 5NY",
+      "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "23, EDWARD STREET"
+      "address": "10, VICTORIA PARADE"
     },
     {
-      "price": 545000,
-      "date": "2026-06-18",
-      "postcode": "LA5 0UL",
+      "price": 390000,
+      "date": "2026-07-17",
+      "postcode": "LA5 9XH",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, SHORE GREEN"
+      "address": "17, WHERNSIDE GROVE"
     },
     {
-      "price": 182000,
-      "date": "2026-06-17",
-      "postcode": "LA1 5HW",
+      "price": 285000,
+      "date": "2026-07-17",
+      "postcode": "LA1 4HF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "8, LEYCESTER DRIVE"
+      "address": "26, PALATINE AVENUE"
     },
     {
-      "price": 156500,
-      "date": "2026-06-17",
-      "postcode": "LA3 3HA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, KEVIN GROVE"
-    },
-    {
-      "price": 199950,
-      "date": "2026-06-17",
-      "postcode": "LA5 8EE",
+      "price": 268000,
+      "date": "2026-07-17",
+      "postcode": "LA2 9QR",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, CANAL GARDENS"
+      "address": "67, HORNBY ROAD"
     },
     {
-      "price": 35000,
-      "date": "2026-06-15",
-      "postcode": "LA4 5LG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, RIBBLESDALE COURT"
-    },
-    {
-      "price": 317500,
-      "date": "2026-06-15",
-      "postcode": "LA4 6RR",
+      "price": 320000,
+      "date": "2026-07-17",
+      "postcode": "LA5 0SP",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "187, BARE LANE"
+      "address": "KEEPERS COTTAGE, 1, KEEPERS GREEN"
     },
     {
-      "price": 380000,
-      "date": "2026-06-15",
-      "postcode": "LA6 2RA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SELBY COTTAGE"
-    },
-    {
-      "price": 131000,
-      "date": "2026-06-15",
-      "postcode": "LA1 2DW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, ASHBOURNE DRIVE"
-    },
-    {
-      "price": 125000,
-      "date": "2026-06-15",
-      "postcode": "LA1 3DR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54, PERTH STREET"
-    },
-    {
-      "price": 245000,
-      "date": "2026-06-12",
-      "postcode": "LA6 2GY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "20, THE MEADOWS"
-    },
-    {
-      "price": 265000,
-      "date": "2026-06-12",
-      "postcode": "LA3 1AF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "99, REGENT ROAD"
-    },
-    {
-      "price": 355000,
-      "date": "2026-06-12",
-      "postcode": "LA5 8BP",
+      "price": 295000,
+      "date": "2026-07-17",
+      "postcode": "LA3 3BU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "18, OLD STATION LANE"
+      "address": "6, ERMINE PLACE"
+    },
+    {
+      "price": 80000,
+      "date": "2026-07-16",
+      "postcode": "LA5 9BS",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, STATION BUILDINGS, WARTON ROAD"
     }
   ],
   "monthlyHistory": [
@@ -256,8 +256,8 @@
     },
     {
       "month": "2024-11",
-      "medianPrice": 195000,
-      "transactions": 229
+      "medianPrice": 194500,
+      "transactions": 230
     },
     {
       "month": "2024-12",
@@ -291,53 +291,53 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 195000,
-      "transactions": 152
+      "medianPrice": 195750,
+      "transactions": 156
     },
     {
       "month": "2025-07",
-      "medianPrice": 180000,
-      "transactions": 193
+      "medianPrice": 183750,
+      "transactions": 196
     },
     {
       "month": "2025-08",
-      "medianPrice": 195000,
-      "transactions": 225
+      "medianPrice": 200800,
+      "transactions": 236
     },
     {
       "month": "2025-09",
-      "medianPrice": 190000,
-      "transactions": 185
+      "medianPrice": 191000,
+      "transactions": 200
     },
     {
       "month": "2025-10",
-      "medianPrice": 197500,
-      "transactions": 223
+      "medianPrice": 204000,
+      "transactions": 240
     },
     {
       "month": "2025-11",
-      "medianPrice": 200000,
-      "transactions": 220
+      "medianPrice": 204000,
+      "transactions": 222
     },
     {
       "month": "2025-12",
       "medianPrice": 195000,
-      "transactions": 170
+      "transactions": 171
     },
     {
       "month": "2026-01",
-      "medianPrice": 185000,
-      "transactions": 109
+      "medianPrice": 190000,
+      "transactions": 117
     },
     {
       "month": "2026-02",
-      "medianPrice": 190000,
-      "transactions": 128
+      "medianPrice": 189000,
+      "transactions": 146
     },
     {
       "month": "2026-03",
       "medianPrice": 186500,
-      "transactions": 133
+      "transactions": 143
     },
     {
       "month": "2026-04",
@@ -346,8 +346,8 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 201500,
-      "transactions": 99
+      "medianPrice": 199000,
+      "transactions": 105
     }
   ],
   "quarterlyHistory": [
@@ -369,7 +369,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 190000,
-      "transactions": 660
+      "transactions": 661
     },
     {
       "quarter": "2025-Q1",
@@ -379,22 +379,22 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 190000,
-      "transactions": 458
+      "transactions": 462
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 189950,
-      "transactions": 603
+      "medianPrice": 190000,
+      "transactions": 632
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 199950,
-      "transactions": 613
+      "medianPrice": 200000,
+      "transactions": 633
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 187475,
-      "transactions": 370
+      "medianPrice": 188500,
+      "transactions": 406
     }
   ]
 }

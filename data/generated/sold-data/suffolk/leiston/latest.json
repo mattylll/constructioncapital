@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:58.052Z",
+  "updatedAt": "2026-09-25T08:18:17.967Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "leiston",
   "countySlug": "suffolk",
@@ -11,18 +11,54 @@
   "stats": {
     "medianPrice": 250000,
     "medianByType": {
-      "D": 385000,
-      "S": 230000,
-      "T": 190000,
-      "F": 100000
+      "D": 377500,
+      "S": 230500,
+      "T": 187500,
+      "F": 116250
     },
-    "transactionCount12m": 115,
+    "transactionCount12m": 133,
     "yoyChange": 8.7,
     "newBuildCount": 1,
-    "existingCount": 114,
+    "existingCount": 132,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 180000,
+      "date": "2026-07-17",
+      "postcode": "IP16 4AD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 3, 51 BRIDGE HOUSE, SIZEWELL ROAD"
+    },
+    {
+      "price": 282500,
+      "date": "2026-07-03",
+      "postcode": "IP16 4HR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "58, ST MARGARETS CRESCENT"
+    },
+    {
+      "price": 190000,
+      "date": "2026-07-01",
+      "postcode": "IP16 4AZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, HAVEN ROAD"
+    },
+    {
+      "price": 135000,
+      "date": "2026-06-24",
+      "postcode": "IP16 4BX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "105, HIGH STREET"
+    },
     {
       "price": 170000,
       "date": "2026-06-05",
@@ -78,6 +114,15 @@
       "address": "4, HEATH VIEW"
     },
     {
+      "price": 205000,
+      "date": "2026-05-29",
+      "postcode": "IP16 4JA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, CARR AVENUE"
+    },
+    {
       "price": 220000,
       "date": "2026-05-22",
       "postcode": "IP16 4JA",
@@ -114,6 +159,15 @@
       "address": "5, FOXGLOVE END"
     },
     {
+      "price": 125000,
+      "date": "2026-04-08",
+      "postcode": "IP16 4QH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "NESELDOWN, ALDEBURGH ROAD"
+    },
+    {
       "price": 385000,
       "date": "2026-04-01",
       "postcode": "IP16 4PY",
@@ -148,60 +202,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "19, THE GABLES"
-    },
-    {
-      "price": 185000,
-      "date": "2026-03-27",
-      "postcode": "IP16 4EZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, ROBERTS ROAD"
-    },
-    {
-      "price": 285000,
-      "date": "2026-03-23",
-      "postcode": "IP16 4HP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "83, ST MARGARETS CRESCENT"
-    },
-    {
-      "price": 210000,
-      "date": "2026-03-23",
-      "postcode": "IP16 4DN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, HAYLINGS ROAD"
-    },
-    {
-      "price": 227000,
-      "date": "2026-03-20",
-      "postcode": "IP16 4BS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, VALLEY GARDENS"
-    },
-    {
-      "price": 475000,
-      "date": "2026-03-20",
-      "postcode": "IP16 4PZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SEVENBROOMES, MILL HILL"
-    },
-    {
-      "price": 205000,
-      "date": "2026-03-12",
-      "postcode": "IP16 4WX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, COXWELLS SQUARE"
     }
   ],
   "monthlyHistory": [
@@ -302,18 +302,18 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 219000,
-      "transactions": 14
+      "medianPrice": 220000,
+      "transactions": 15
     },
     {
       "month": "2025-09",
       "medianPrice": 199000,
-      "transactions": 8
+      "transactions": 10
     },
     {
       "month": "2025-10",
-      "medianPrice": 255500,
-      "transactions": 12
+      "medianPrice": 258000,
+      "transactions": 13
     },
     {
       "month": "2025-11",
@@ -322,33 +322,33 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 425000,
-      "transactions": 5
+      "medianPrice": 382500,
+      "transactions": 6
     },
     {
       "month": "2026-01",
       "medianPrice": 267000,
-      "transactions": 10
+      "transactions": 12
     },
     {
       "month": "2026-02",
-      "medianPrice": 355000,
-      "transactions": 10
+      "medianPrice": 335000,
+      "transactions": 14
     },
     {
       "month": "2026-03",
-      "medianPrice": 227000,
-      "transactions": 11
+      "medianPrice": 241000,
+      "transactions": 12
     },
     {
       "month": "2026-04",
-      "medianPrice": 355000,
-      "transactions": 4
+      "medianPrice": 325000,
+      "transactions": 5
     },
     {
       "month": "2026-05",
-      "medianPrice": 225000,
-      "transactions": 5
+      "medianPrice": 222500,
+      "transactions": 6
     }
   ],
   "quarterlyHistory": [
@@ -385,17 +385,17 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 220000,
-      "transactions": 42
+      "transactions": 45
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 259000,
-      "transactions": 24
+      "transactions": 26
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 269000,
-      "transactions": 31
+      "medianPrice": 269500,
+      "transactions": 38
     }
   ]
 }

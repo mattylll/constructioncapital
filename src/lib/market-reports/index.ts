@@ -5,6 +5,9 @@ import { TOWN_REPORTS } from "./reports/town";
 import { TOWN_REPORTS_H1_2026 } from "./reports/town/index-h1-2026";
 import { COUNTY_REPORTS_H1_2026 } from "./reports/county/index-h1-2026";
 import { REGIONAL_REPORTS_H1_2026 } from "./reports/regional/index-h1-2026";
+import { TOWN_REPORTS_Q3_2026 } from "./reports/town/index-q3-2026";
+import { COUNTY_REPORTS_Q3_2026 } from "./reports/county/index-q3-2026";
+import { REGIONAL_REPORTS_Q3_2026 } from "./reports/regional/index-q3-2026";
 
 // County reports
 import bedfordshire_property_market from "./reports/county/bedfordshire-property-market";
@@ -125,6 +128,7 @@ const UNSORTED_MARKET_REPORTS: MarketReport[] = [
   // County — H1 2026 editions (coexist alongside the April reports above;
   // see the edition-precedence note below on how the newest wins lookups)
   ...COUNTY_REPORTS_H1_2026,
+  ...COUNTY_REPORTS_Q3_2026,
   // Regional
   east_of_england_market_overview,
   london_and_south_east_market_overview,
@@ -135,6 +139,7 @@ const UNSORTED_MARKET_REPORTS: MarketReport[] = [
   wales_market_overview,
   // Regional — H1 2026 editions
   ...REGIONAL_REPORTS_H1_2026,
+  ...REGIONAL_REPORTS_Q3_2026,
   // Thematic
   development_finance_hotspots_2026,
   most_active_property_markets_2026,
@@ -148,6 +153,7 @@ const UNSORTED_MARKET_REPORTS: MarketReport[] = [
   ...TOWN_REPORTS,
   // Town — H1 2026 editions
   ...TOWN_REPORTS_H1_2026,
+  ...TOWN_REPORTS_Q3_2026,
 ];
 
 // Most-recently-modified first, so freshly refreshed reports (e.g. the
@@ -176,6 +182,38 @@ const countySlugMap = new Map(
 const townSlugMap = new Map(
   byAgeAscending.filter((r) => r.category === "town" && r.townSlug && r.countySlug).map((r) => [`${r.countySlug}/${r.townSlug}`, r])
 );
+const regionalSlugMap = new Map(
+  byAgeAscending.filter((r) => r.category === "regional" && r.region).map((r) => [r.region!, r])
+);
+
+// Every superseded edition (e.g. an April county/town/regional report that
+// now has an H1 2026 successor) stays live forever at its original URL and
+// keeps its original numbers — cited URLs must never change or disappear.
+// But it must not compete with its successor for search ranking: both were
+// previously self-canonical and both sitemap-listed, which is duplicate
+// content at scale (~830 pages). getCanonicalReport() resolves any report
+// to "the" current edition for its family (itself, if it already is one),
+// via the same oldest-to-newest-wins maps used for internal linking above —
+// used to point superseded editions' <link rel="canonical"> at their
+// successor and to exclude them from the sitemap, without touching the
+// pages' own content.
+export function getCanonicalReport(report: MarketReport): MarketReport {
+  if (report.category === "county" && report.countySlug) {
+    return countySlugMap.get(report.countySlug) ?? report;
+  }
+  if (report.category === "town" && report.townSlug && report.countySlug) {
+    return townSlugMap.get(`${report.countySlug}/${report.townSlug}`) ?? report;
+  }
+  if (report.category === "regional" && report.region) {
+    return regionalSlugMap.get(report.region) ?? report;
+  }
+  return report;
+}
+
+/** True if `report` is an older edition that a newer one has superseded. */
+export function isSupersededEdition(report: MarketReport): boolean {
+  return getCanonicalReport(report).slug !== report.slug;
+}
 
 export function getReportBySlug(slug: string): MarketReport | undefined {
   return slugMap.get(slug);

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:58.389Z",
+  "updatedAt": "2026-09-25T08:18:18.536Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "llandrindod-wells",
   "countySlug": "powys",
@@ -12,16 +12,52 @@
     "medianByType": {
       "D": 300000,
       "S": 215000,
-      "T": 180000,
-      "F": 83500
+      "T": 173000,
+      "F": 82000
     },
-    "transactionCount12m": 152,
+    "transactionCount12m": 162,
     "yoyChange": 4.3,
     "newBuildCount": 2,
-    "existingCount": 150,
+    "existingCount": 160,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 172000,
+      "date": "2026-07-22",
+      "postcode": "LD1 6DP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "94, HOLCOMBE DRIVE"
+    },
+    {
+      "price": 256000,
+      "date": "2026-07-10",
+      "postcode": "LD1 5NT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, LAKESIDE AVENUE"
+    },
+    {
+      "price": 565000,
+      "date": "2026-07-09",
+      "postcode": "LD1 5RF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CEFN BACH"
+    },
+    {
+      "price": 373000,
+      "date": "2026-06-19",
+      "postcode": "LD1 6AR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHAPTER HOUSE, ROCK PARK CLOSE"
+    },
     {
       "price": 85000,
       "date": "2026-06-19",
@@ -32,13 +68,13 @@
       "address": "FLAT 9, SOUTH COURT, PARK TERRACE"
     },
     {
-      "price": 373000,
-      "date": "2026-06-19",
-      "postcode": "LD1 6AR",
-      "propertyType": "D",
+      "price": 77000,
+      "date": "2026-06-18",
+      "postcode": "LD1 5LU",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "CHAPTER HOUSE, ROCK PARK CLOSE"
+      "tenure": "L",
+      "address": "FLAT 3, CARLYON, TEMPLE DRIVE"
     },
     {
       "price": 160000,
@@ -158,49 +194,13 @@
       "address": "HILLCOM, HILLCREST DRIVE"
     },
     {
-      "price": 245000,
-      "date": "2026-04-30",
-      "postcode": "LD1 5BF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, CAMDDWR RISE"
-    },
-    {
-      "price": 255000,
-      "date": "2026-04-30",
-      "postcode": "LD1 5BZ",
+      "price": 460000,
+      "date": "2026-05-08",
+      "postcode": "LD1 6AS",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "16, CLYWEDOG DRIVE"
-    },
-    {
-      "price": 170000,
-      "date": "2026-04-29",
-      "postcode": "LD1 6PE",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BLUEBELL COTTAGES, DDOLE ROAD"
-    },
-    {
-      "price": 618000,
-      "date": "2026-04-29",
-      "postcode": "LD1 6NU",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "DOLIVER"
-    },
-    {
-      "price": 245000,
-      "date": "2026-04-28",
-      "postcode": "LD1 6DT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, CORTAY PARK"
+      "address": "LLWYN, ITHON ROAD"
     }
   ],
   "monthlyHistory": [
@@ -306,8 +306,8 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 230000,
-      "transactions": 17
+      "medianPrice": 227500,
+      "transactions": 18
     },
     {
       "month": "2025-10",
@@ -316,8 +316,8 @@
     },
     {
       "month": "2025-11",
-      "medianPrice": 287000,
-      "transactions": 16
+      "medianPrice": 295000,
+      "transactions": 17
     },
     {
       "month": "2025-12",
@@ -331,13 +331,13 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 212500,
-      "transactions": 11
+      "medianPrice": 215000,
+      "transactions": 13
     },
     {
       "month": "2026-03",
       "medianPrice": 200000,
-      "transactions": 10
+      "transactions": 11
     },
     {
       "month": "2026-04",
@@ -346,8 +346,8 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 300000,
-      "transactions": 7
+      "medianPrice": 314000,
+      "transactions": 8
     }
   ],
   "quarterlyHistory": [
@@ -383,18 +383,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 235000,
-      "transactions": 49
+      "medianPrice": 233750,
+      "transactions": 50
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 255000,
-      "transactions": 33
+      "medianPrice": 260000,
+      "transactions": 34
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 215000,
-      "transactions": 27
+      "medianPrice": 222500,
+      "transactions": 30
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:56.847Z",
+  "updatedAt": "2026-09-25T08:18:16.293Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "bridgnorth",
   "countySlug": "shropshire",
@@ -8,20 +8,164 @@
     "SHROPSHIRE"
   ],
   "stats": {
-    "medianPrice": 265000,
+    "medianPrice": 270000,
     "medianByType": {
-      "D": 377500,
-      "S": 250000,
+      "D": 382500,
+      "S": 255000,
       "T": 220000,
-      "F": 142500
+      "F": 145000
     },
-    "transactionCount12m": 304,
-    "yoyChange": -1.9,
+    "transactionCount12m": 338,
+    "yoyChange": 0,
     "newBuildCount": 0,
-    "existingCount": 304,
+    "existingCount": 338,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 480000,
+      "date": "2026-07-22",
+      "postcode": "WV16 6PH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "LONGMOOR HOUSE"
+    },
+    {
+      "price": 450000,
+      "date": "2026-07-17",
+      "postcode": "WV16 5DN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, PAULBROOK ROAD"
+    },
+    {
+      "price": 375000,
+      "date": "2026-07-17",
+      "postcode": "WV16 6EE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, GRASMERE DRIVE"
+    },
+    {
+      "price": 243000,
+      "date": "2026-07-17",
+      "postcode": "WV16 5AQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, TREVITHICK CLOSE"
+    },
+    {
+      "price": 158000,
+      "date": "2026-07-13",
+      "postcode": "WV16 4EJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, ST LEONARDS CLOSE"
+    },
+    {
+      "price": 272500,
+      "date": "2026-07-10",
+      "postcode": "WV15 5DJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, ELMHURST"
+    },
+    {
+      "price": 335000,
+      "date": "2026-07-03",
+      "postcode": "WV16 6PB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, LINCOLN FIELDS"
+    },
+    {
+      "price": 300000,
+      "date": "2026-07-01",
+      "postcode": "WV16 4EJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, ST LEONARDS CLOSE"
+    },
+    {
+      "price": 625000,
+      "date": "2026-06-26",
+      "postcode": "WV15 6EG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HOLLY COTTAGE"
+    },
+    {
+      "price": 550000,
+      "date": "2026-06-26",
+      "postcode": "WV15 5LS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, STABLEFORD BUNGALOWS"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-26",
+      "postcode": "WV16 6JX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, CORONATION STREET"
+    },
+    {
+      "price": 165000,
+      "date": "2026-06-26",
+      "postcode": "WV15 5DA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, BERNARDS HILL"
+    },
+    {
+      "price": 195000,
+      "date": "2026-06-26",
+      "postcode": "WV15 5AS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56, BERNARDS HILL"
+    },
+    {
+      "price": 397000,
+      "date": "2026-06-24",
+      "postcode": "WV15 6BH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, WASHBROOK ROAD"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-24",
+      "postcode": "WV15 6BB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "49, SEVERN STREET"
+    },
+    {
+      "price": 229950,
+      "date": "2026-06-24",
+      "postcode": "WV15 5AR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, HOSPITAL STREET"
+    },
     {
       "price": 337670,
       "date": "2026-06-17",
@@ -57,150 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "9, PRINCESS DRIVE"
-    },
-    {
-      "price": 198000,
-      "date": "2026-06-12",
-      "postcode": "WV16 6LW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ARLEY VIEW CLOSE"
-    },
-    {
-      "price": 270000,
-      "date": "2026-06-12",
-      "postcode": "WV15 5DR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, BIRCHLANDS"
-    },
-    {
-      "price": 265000,
-      "date": "2026-06-05",
-      "postcode": "WV16 4JD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, DUCHESS DRIVE"
-    },
-    {
-      "price": 318000,
-      "date": "2026-06-05",
-      "postcode": "WV15 6BS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, HILLSIDE AVENUE"
-    },
-    {
-      "price": 484000,
-      "date": "2026-06-01",
-      "postcode": "WV15 6BE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, PALE MEADOW ROAD"
-    },
-    {
-      "price": 190000,
-      "date": "2026-06-01",
-      "postcode": "WV16 4HX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, INNAGE LANE"
-    },
-    {
-      "price": 210000,
-      "date": "2026-05-29",
-      "postcode": "WV16 4BG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "57, CARTWAY"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-29",
-      "postcode": "WV16 4HT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "22, MORTIMER LODGE, INNAGE LANE"
-    },
-    {
-      "price": 243000,
-      "date": "2026-05-27",
-      "postcode": "WV16 6JN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, VICARAGE LANE"
-    },
-    {
-      "price": 298000,
-      "date": "2026-05-26",
-      "postcode": "WV16 5AJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, LUDLOW HEIGHTS"
-    },
-    {
-      "price": 232500,
-      "date": "2026-05-22",
-      "postcode": "WV16 6FA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, HITCHENS WAY"
-    },
-    {
-      "price": 525000,
-      "date": "2026-05-22",
-      "postcode": "WV16 6BG",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE PADDOCKS, THE COMMON"
-    },
-    {
-      "price": 340000,
-      "date": "2026-05-15",
-      "postcode": "WV15 5NX",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "MAYPOLE COTTAGE"
-    },
-    {
-      "price": 395000,
-      "date": "2026-05-11",
-      "postcode": "WV16 4JF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, QUEENSWAY DRIVE"
-    },
-    {
-      "price": 399950,
-      "date": "2026-05-11",
-      "postcode": "WV16 5JW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, SEVERN VALE"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-11",
-      "postcode": "WV15 5DF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "87, LODGE LANE"
     }
   ],
   "monthlyHistory": [
@@ -211,8 +211,8 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 330000,
-      "transactions": 25
+      "medianPrice": 327500,
+      "transactions": 26
     },
     {
       "month": "2024-03",
@@ -246,8 +246,8 @@
     },
     {
       "month": "2024-09",
-      "medianPrice": 248000,
-      "transactions": 30
+      "medianPrice": 251000,
+      "transactions": 31
     },
     {
       "month": "2024-10",
@@ -276,18 +276,18 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 298500,
-      "transactions": 78
+      "medianPrice": 305000,
+      "transactions": 79
     },
     {
       "month": "2025-04",
-      "medianPrice": 238000,
-      "transactions": 19
+      "medianPrice": 241500,
+      "transactions": 20
     },
     {
       "month": "2025-05",
-      "medianPrice": 267500,
-      "transactions": 23
+      "medianPrice": 273750,
+      "transactions": 24
     },
     {
       "month": "2025-06",
@@ -296,28 +296,28 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 290000,
-      "transactions": 17
+      "medianPrice": 285000,
+      "transactions": 18
     },
     {
       "month": "2025-08",
-      "medianPrice": 247500,
-      "transactions": 28
+      "medianPrice": 250000,
+      "transactions": 29
     },
     {
       "month": "2025-09",
-      "medianPrice": 307500,
-      "transactions": 30
+      "medianPrice": 315000,
+      "transactions": 33
     },
     {
       "month": "2025-10",
-      "medianPrice": 282000,
-      "transactions": 39
+      "medianPrice": 288500,
+      "transactions": 42
     },
     {
       "month": "2025-11",
       "medianPrice": 270000,
-      "transactions": 29
+      "transactions": 31
     },
     {
       "month": "2025-12",
@@ -326,8 +326,8 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 197500,
-      "transactions": 18
+      "medianPrice": 219975,
+      "transactions": 20
     },
     {
       "month": "2026-02",
@@ -341,20 +341,20 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 225000,
-      "transactions": 17
+      "medianPrice": 242500,
+      "transactions": 18
     },
     {
       "month": "2026-05",
-      "medianPrice": 243000,
-      "transactions": 13
+      "medianPrice": 276250,
+      "transactions": 16
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 278000,
-      "transactions": 79
+      "medianPrice": 277750,
+      "transactions": 80
     },
     {
       "quarter": "2024-Q2",
@@ -363,8 +363,8 @@
     },
     {
       "quarter": "2024-Q3",
-      "medianPrice": 252500,
-      "transactions": 121
+      "medianPrice": 254750,
+      "transactions": 122
     },
     {
       "quarter": "2024-Q4",
@@ -373,28 +373,28 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 273200,
-      "transactions": 134
+      "medianPrice": 273400,
+      "transactions": 135
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 245000,
-      "transactions": 65
+      "transactions": 67
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 280000,
-      "transactions": 75
+      "transactions": 80
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 272000,
-      "transactions": 105
+      "medianPrice": 272250,
+      "transactions": 110
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 248500,
-      "transactions": 61
+      "medianPrice": 250000,
+      "transactions": 63
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:58.387Z",
+  "updatedAt": "2026-09-25T08:18:18.535Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "welshpool",
   "countySlug": "powys",
@@ -11,16 +11,61 @@
     "medianPrice": 243000,
     "medianByType": {
       "D": 305000,
-      "S": 197000,
-      "T": 159000
+      "S": 192000,
+      "T": 165750
     },
-    "transactionCount12m": 167,
+    "transactionCount12m": 183,
     "yoyChange": -0.8,
     "newBuildCount": 9,
-    "existingCount": 158,
+    "existingCount": 174,
     "newBuildPremium": 3.7
   },
   "recentTransactions": [
+    {
+      "price": 225000,
+      "date": "2026-07-03",
+      "postcode": "SY21 9NR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, RHOSLAN"
+    },
+    {
+      "price": 835000,
+      "date": "2026-06-30",
+      "postcode": "SY21 7AR",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ELMHURST, SEVERN ROAD"
+    },
+    {
+      "price": 323000,
+      "date": "2026-06-29",
+      "postcode": "SY21 9JT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, ABBEY CLOSE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-06-23",
+      "postcode": "SY21 0AP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MINFFORD"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-22",
+      "postcode": "SY21 9PA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, OLDCASTLE AVENUE"
+    },
     {
       "price": 265000,
       "date": "2026-06-19",
@@ -67,6 +112,15 @@
       "address": "7, MYRTLE DRIVE"
     },
     {
+      "price": 357000,
+      "date": "2026-05-22",
+      "postcode": "SY21 9BL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, MAES Y CELYN"
+    },
+    {
       "price": 243000,
       "date": "2026-05-22",
       "postcode": "SY21 7DB",
@@ -94,15 +148,6 @@
       "address": "BRYN PISTYLL"
     },
     {
-      "price": 275000,
-      "date": "2026-05-05",
-      "postcode": "SY21 9PA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, OLDCASTLE AVENUE"
-    },
-    {
       "price": 375000,
       "date": "2026-05-05",
       "postcode": "SY21 8RY",
@@ -110,6 +155,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "GWEL AFON"
+    },
+    {
+      "price": 275000,
+      "date": "2026-05-05",
+      "postcode": "SY21 9PA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, OLDCASTLE AVENUE"
     },
     {
       "price": 255000,
@@ -121,15 +175,6 @@
       "address": "22, OLDCASTLE AVENUE"
     },
     {
-      "price": 185000,
-      "date": "2026-04-10",
-      "postcode": "SY21 9HW",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GUNGROG HALL"
-    },
-    {
       "price": 400000,
       "date": "2026-04-10",
       "postcode": "SY21 8AY",
@@ -139,6 +184,15 @@
       "address": "LLYN CIL"
     },
     {
+      "price": 185000,
+      "date": "2026-04-10",
+      "postcode": "SY21 9HW",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GUNGROG HALL"
+    },
+    {
       "price": 162000,
       "date": "2026-03-27",
       "postcode": "SY21 7BA",
@@ -146,60 +200,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "97, LITTLE HENFAES DRIVE"
-    },
-    {
-      "price": 370000,
-      "date": "2026-03-27",
-      "postcode": "SY21 0BH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CROESO"
-    },
-    {
-      "price": 267500,
-      "date": "2026-03-25",
-      "postcode": "SY21 7LL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, PARK TERRACE"
-    },
-    {
-      "price": 85000,
-      "date": "2026-03-20",
-      "postcode": "SY21 8LX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SUNNYSIDE"
-    },
-    {
-      "price": 340000,
-      "date": "2026-03-13",
-      "postcode": "SY21 0BH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRYNAWEL"
-    },
-    {
-      "price": 261500,
-      "date": "2026-03-11",
-      "postcode": "SY21 9EU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HYDAN COTTAGE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-03-02",
-      "postcode": "SY21 8LQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, HEATHERWOOD"
     }
   ],
   "monthlyHistory": [
@@ -305,13 +305,13 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 205000,
-      "transactions": 14
+      "medianPrice": 210000,
+      "transactions": 17
     },
     {
       "month": "2025-10",
-      "medianPrice": 232500,
-      "transactions": 24
+      "medianPrice": 230000,
+      "transactions": 27
     },
     {
       "month": "2025-11",
@@ -325,13 +325,13 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 240000,
-      "transactions": 14
+      "medianPrice": 250000,
+      "transactions": 17
     },
     {
       "month": "2026-02",
-      "medianPrice": 203000,
-      "transactions": 9
+      "medianPrice": 199500,
+      "transactions": 10
     },
     {
       "month": "2026-03",
@@ -345,8 +345,8 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 255000,
-      "transactions": 6
+      "medianPrice": 267000,
+      "transactions": 7
     }
   ],
   "quarterlyHistory": [
@@ -382,18 +382,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 235000,
-      "transactions": 55
+      "medianPrice": 230000,
+      "transactions": 58
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 220000,
-      "transactions": 57
+      "medianPrice": 225000,
+      "transactions": 60
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 255000,
-      "transactions": 30
+      "transactions": 34
     }
   ]
 }

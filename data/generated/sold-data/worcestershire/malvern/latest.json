@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:56.810Z",
+  "updatedAt": "2026-09-25T08:18:16.242Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "malvern",
   "countySlug": "worcestershire",
@@ -8,199 +8,199 @@
     "MALVERN HILLS"
   ],
   "stats": {
-    "medianPrice": 335000,
+    "medianPrice": 332500,
     "medianByType": {
       "D": 450000,
       "S": 290000,
-      "T": 237000,
-      "F": 175500
+      "T": 236000,
+      "F": 185000
     },
-    "transactionCount12m": 1156,
-    "yoyChange": 4.7,
-    "newBuildCount": 92,
-    "existingCount": 1064,
-    "newBuildPremium": 1.2
+    "transactionCount12m": 1337,
+    "yoyChange": 3.9,
+    "newBuildCount": 122,
+    "existingCount": 1215,
+    "newBuildPremium": -3.4
   },
   "recentTransactions": [
     {
-      "price": 370000,
-      "date": "2026-06-22",
-      "postcode": "WR2 6QW",
+      "price": 268000,
+      "date": "2026-07-27",
+      "postcode": "WR14 1LN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, SPRINGFIELD GLADE"
+    },
+    {
+      "price": 243000,
+      "date": "2026-07-24",
+      "postcode": "WR14 1NN",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, JACOMB ROAD"
+      "address": "21, HANDBURY ROAD"
     },
     {
-      "price": 295000,
-      "date": "2026-06-19",
-      "postcode": "WR5 3LG",
+      "price": 325000,
+      "date": "2026-07-24",
+      "postcode": "WR14 1SE",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "33, THE LIMES"
+      "address": "71, SOMERS PARK AVENUE"
     },
     {
-      "price": 270000,
-      "date": "2026-06-19",
-      "postcode": "WR15 8FB",
+      "price": 300000,
+      "date": "2026-07-24",
+      "postcode": "WR8 0NN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, MINGE LANE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-07-24",
+      "postcode": "WR14 2SB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, THE OAKLANDS"
+      "address": "6, MEADOW ROAD"
     },
     {
-      "price": 135000,
-      "date": "2026-06-19",
-      "postcode": "WR14 1US",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 3, ELGAR LODGE, 1, HOWSELL ROAD"
-    },
-    {
-      "price": 385000,
-      "date": "2026-06-19",
-      "postcode": "WR14 1DS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, OAKFIELD ROAD"
-    },
-    {
-      "price": 360000,
-      "date": "2026-06-16",
-      "postcode": "WR2 5TF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, CORONATION AVENUE"
-    },
-    {
-      "price": 382500,
-      "date": "2026-06-15",
-      "postcode": "WR5 3FZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, THE GROVE"
-    },
-    {
-      "price": 375000,
-      "date": "2026-06-12",
-      "postcode": "WR14 2JG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, BANK STREET"
-    },
-    {
-      "price": 360000,
-      "date": "2026-06-12",
-      "postcode": "WR2 5PW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, MILL MEADOW"
-    },
-    {
-      "price": 117000,
-      "date": "2026-06-12",
+      "price": 185000,
+      "date": "2026-07-23",
       "postcode": "WR14 1AA",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 2, 170, WORCESTER ROAD"
+      "address": "APARTMENT 3, ORIEL HOUSE, 46, WORCESTER ROAD"
     },
     {
-      "price": 375000,
-      "date": "2026-06-10",
-      "postcode": "WR2 4SD",
+      "price": 765000,
+      "date": "2026-07-20",
+      "postcode": "WR14 1HQ",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, BOWLING GREEN ROAD"
+      "address": "16, ALEXANDRA ROAD"
     },
     {
-      "price": 310000,
-      "date": "2026-06-10",
+      "price": 249000,
+      "date": "2026-07-17",
+      "postcode": "WR14 1WE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, POPLAR GARDENS"
+    },
+    {
+      "price": 320000,
+      "date": "2026-07-16",
+      "postcode": "WR14 1UE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, MICHAEL CRESCENT"
+    },
+    {
+      "price": 750000,
+      "date": "2026-07-15",
+      "postcode": "WR8 0PZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SMITHMORE, NAUNTON"
+    },
+    {
+      "price": 200000,
+      "date": "2026-07-15",
+      "postcode": "WR14 1YD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, SANDRINGHAM CLOSE"
+    },
+    {
+      "price": 180000,
+      "date": "2026-07-15",
+      "postcode": "WR8 0JT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CUTTERS COTTAGE, 4B, COURT STREET"
+    },
+    {
+      "price": 546800,
+      "date": "2026-07-15",
       "postcode": "WR8 0HW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "78, OLD STREET"
+    },
+    {
+      "price": 145000,
+      "date": "2026-07-15",
+      "postcode": "WR15 8BP",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "68, OLD STREET"
+      "address": "3, ST MARYS MEWS"
     },
     {
-      "price": 130000,
-      "date": "2026-06-10",
-      "postcode": "WR14 1US",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 4, ELGAR LODGE, 1, HOWSELL ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-06-09",
-      "postcode": "WR14 4BQ",
+      "price": 337500,
+      "date": "2026-07-14",
+      "postcode": "WR2 4QU",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "OWLS NOOK, LOWER DINGLE"
+      "address": "2, OLD RECTORY CLOSE"
     },
     {
-      "price": 225000,
-      "date": "2026-06-09",
-      "postcode": "WR13 5AX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, PYNDAR COURT"
-    },
-    {
-      "price": 325000,
-      "date": "2026-06-05",
-      "postcode": "WR2 6RR",
+      "price": 1138500,
+      "date": "2026-07-14",
+      "postcode": "WR6 6JT",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "HANVILLE, BELL LANE"
+      "address": "GARDEN HOUSE, WORCESTER ROAD"
     },
     {
-      "price": 485000,
-      "date": "2026-06-05",
-      "postcode": "WR14 1DS",
+      "price": 460000,
+      "date": "2026-07-13",
+      "postcode": "WR14 3RW",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "49, OAKFIELD ROAD"
+      "address": "2, RYLE WAY"
     },
     {
-      "price": 545000,
-      "date": "2026-06-04",
-      "postcode": "WR2 5GU",
+      "price": 360000,
+      "date": "2026-07-13",
+      "postcode": "WR14 2WB",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, CALLOWS ORCHARD"
+      "address": "16, SPINDLE ROAD"
     },
     {
-      "price": 472500,
-      "date": "2026-06-03",
-      "postcode": "WR8 9DP",
-      "propertyType": "D",
+      "price": 380000,
+      "date": "2026-07-11",
+      "postcode": "WR14 1SS",
+      "propertyType": "O",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, EARLS GRANGE"
+      "address": "132, WORCESTER ROAD"
     },
     {
-      "price": 305000,
-      "date": "2026-06-03",
-      "postcode": "WR14 3JQ",
+      "price": 294000,
+      "date": "2026-07-10",
+      "postcode": "WR2 6SQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "102, LONGRIDGE ROAD"
+      "address": "24, JACOMB CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -216,8 +216,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 305000,
-      "transactions": 125
+      "medianPrice": 307500,
+      "transactions": 126
     },
     {
       "month": "2024-04",
@@ -277,22 +277,22 @@
     {
       "month": "2025-03",
       "medianPrice": 310000,
-      "transactions": 241
+      "transactions": 242
     },
     {
       "month": "2025-04",
-      "medianPrice": 290000,
-      "transactions": 59
+      "medianPrice": 292500,
+      "transactions": 60
     },
     {
       "month": "2025-05",
-      "medianPrice": 335000,
-      "transactions": 97
+      "medianPrice": 336500,
+      "transactions": 98
     },
     {
       "month": "2025-06",
       "medianPrice": 330000,
-      "transactions": 144
+      "transactions": 150
     },
     {
       "month": "2025-07",
@@ -301,60 +301,60 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 377500,
-      "transactions": 140
+      "medianPrice": 375000,
+      "transactions": 144
     },
     {
       "month": "2025-09",
-      "medianPrice": 335736,
-      "transactions": 103
+      "medianPrice": 332000,
+      "transactions": 126
     },
     {
       "month": "2025-10",
-      "medianPrice": 355000,
-      "transactions": 114
+      "medianPrice": 340000,
+      "transactions": 127
     },
     {
       "month": "2025-11",
-      "medianPrice": 310000,
-      "transactions": 69
+      "medianPrice": 317500,
+      "transactions": 70
     },
     {
       "month": "2025-12",
       "medianPrice": 325000,
-      "transactions": 101
+      "transactions": 105
     },
     {
       "month": "2026-01",
-      "medianPrice": 325000,
-      "transactions": 57
+      "medianPrice": 327500,
+      "transactions": 64
     },
     {
       "month": "2026-02",
-      "medianPrice": 332000,
-      "transactions": 79
+      "medianPrice": 358000,
+      "transactions": 96
     },
     {
       "month": "2026-03",
-      "medianPrice": 310000,
-      "transactions": 57
+      "medianPrice": 295000,
+      "transactions": 67
     },
     {
       "month": "2026-04",
       "medianPrice": 350000,
-      "transactions": 63
+      "transactions": 64
     },
     {
       "month": "2026-05",
       "medianPrice": 320000,
-      "transactions": 73
+      "transactions": 79
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 315000,
-      "transactions": 300
+      "transactions": 301
     },
     {
       "quarter": "2024-Q2",
@@ -374,27 +374,27 @@
     {
       "quarter": "2025-Q1",
       "medianPrice": 320000,
-      "transactions": 454
+      "transactions": 455
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 330000,
-      "transactions": 300
+      "medianPrice": 331250,
+      "transactions": 308
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 350000,
-      "transactions": 376
+      "transactions": 403
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 325000,
-      "transactions": 284
+      "transactions": 302
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 330000,
-      "transactions": 193
+      "medianPrice": 332000,
+      "transactions": 227
     }
   ]
 }

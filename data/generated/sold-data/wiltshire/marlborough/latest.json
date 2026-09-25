@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:56.512Z",
+  "updatedAt": "2026-09-25T08:18:15.793Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "marlborough",
   "countySlug": "wiltshire",
@@ -8,20 +8,92 @@
     "WILTSHIRE"
   ],
   "stats": {
-    "medianPrice": 443750,
+    "medianPrice": 440000,
     "medianByType": {
-      "D": 627500,
-      "S": 428000,
-      "T": 338000,
+      "D": 625000,
+      "S": 405000,
+      "T": 339000,
       "F": 160000
     },
-    "transactionCount12m": 304,
-    "yoyChange": -3,
+    "transactionCount12m": 332,
+    "yoyChange": -3.8,
     "newBuildCount": 1,
-    "existingCount": 303,
+    "existingCount": 331,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 385000,
+      "date": "2026-07-24",
+      "postcode": "SN8 2EN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "DAWN COTTAGE, 25, THE GREEN"
+    },
+    {
+      "price": 649400,
+      "date": "2026-07-22",
+      "postcode": "SN8 1RR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, MANTON HOLLOW"
+    },
+    {
+      "price": 735000,
+      "date": "2026-07-16",
+      "postcode": "SN8 1EW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "8, CROMWELL COURT"
+    },
+    {
+      "price": 272500,
+      "date": "2026-07-16",
+      "postcode": "SN8 1DZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "64, ROGERS MEADOW"
+    },
+    {
+      "price": 455000,
+      "date": "2026-07-16",
+      "postcode": "SN8 2QW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "23, ISLES COURT"
+    },
+    {
+      "price": 211000,
+      "date": "2026-07-06",
+      "postcode": "SN8 1JQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1A, SILVERLESS STREET"
+    },
+    {
+      "price": 145000,
+      "date": "2026-07-03",
+      "postcode": "SN8 3AJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 5, NUTLEY COURT, EASTCOURT ROAD"
+    },
+    {
+      "price": 485000,
+      "date": "2026-06-26",
+      "postcode": "SN8 3PF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "65, CHURCH STREET"
+    },
     {
       "price": 527500,
       "date": "2026-06-25",
@@ -41,6 +113,24 @@
       "address": "GREY GABLES"
     },
     {
+      "price": 410000,
+      "date": "2026-06-19",
+      "postcode": "SN8 2LQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "23, DOWNSMEAD"
+    },
+    {
+      "price": 355000,
+      "date": "2026-06-17",
+      "postcode": "SN8 2FN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "11, FLEUR DE LIS, LONDON ROAD"
+    },
+    {
       "price": 470000,
       "date": "2026-06-16",
       "postcode": "SN8 1NQ",
@@ -48,6 +138,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "KENNET MEAD, PEWSEY ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-16",
+      "postcode": "SN8 1BZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, LOWER PROSPECT"
     },
     {
       "price": 540000,
@@ -68,6 +167,24 @@
       "address": "4, GROVE PLACE"
     },
     {
+      "price": 482500,
+      "date": "2026-06-11",
+      "postcode": "SN8 3LU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BUNTING COTTAGE 2, THE MALTINGS, FARM LANE"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-05",
+      "postcode": "SN8 3LS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, CASTLE ROAD"
+    },
+    {
       "price": 425000,
       "date": "2026-06-02",
       "postcode": "SN8 1UR",
@@ -84,123 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "4, TOWN MILL"
-    },
-    {
-      "price": 262500,
-      "date": "2026-05-29",
-      "postcode": "SN8 1JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, KINGSBURY STREET"
-    },
-    {
-      "price": 565000,
-      "date": "2026-05-29",
-      "postcode": "SN8 3JY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12"
-    },
-    {
-      "price": 665000,
-      "date": "2026-05-28",
-      "postcode": "SN8 1EJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, CLARENDON COURT"
-    },
-    {
-      "price": 510000,
-      "date": "2026-05-28",
-      "postcode": "SN8 1AY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, VICARAGE CLOSE"
-    },
-    {
-      "price": 412000,
-      "date": "2026-05-27",
-      "postcode": "SN8 3AE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, STIBB GREEN"
-    },
-    {
-      "price": 285000,
-      "date": "2026-05-27",
-      "postcode": "SN8 1BA",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "2, FIVE ALLS COURT, LONDON ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-26",
-      "postcode": "SN8 1XG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "WARDENS FLAT 9, CASTLE COURT, RIVER PARK"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-22",
-      "postcode": "SN8 1BQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, POULTON COTTAGES, TIN PIT"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-22",
-      "postcode": "SN8 3PE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, CHURCH STREET"
-    },
-    {
-      "price": 465000,
-      "date": "2026-05-21",
-      "postcode": "SN8 4HJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SANDHILLS, 3, MANTON CLOSE"
-    },
-    {
-      "price": 530000,
-      "date": "2026-05-21",
-      "postcode": "SN8 1RR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, MANTON HOLLOW"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-20",
-      "postcode": "SN8 1DZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, ROGERS MEADOW"
-    },
-    {
-      "price": 315000,
-      "date": "2026-05-18",
-      "postcode": "SN8 1HQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, HIGH STREET"
     }
   ],
   "monthlyHistory": [
@@ -301,18 +301,18 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 445000,
-      "transactions": 38
+      "medianPrice": 450000,
+      "transactions": 39
     },
     {
       "month": "2025-09",
-      "medianPrice": 420000,
-      "transactions": 27
+      "medianPrice": 402500,
+      "transactions": 30
     },
     {
       "month": "2025-10",
-      "medianPrice": 469000,
-      "transactions": 28
+      "medianPrice": 445000,
+      "transactions": 31
     },
     {
       "month": "2025-11",
@@ -321,18 +321,18 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 442500,
-      "transactions": 21
+      "medianPrice": 458750,
+      "transactions": 22
     },
     {
       "month": "2026-01",
-      "medianPrice": 390000,
-      "transactions": 19
+      "medianPrice": 412500,
+      "transactions": 22
     },
     {
       "month": "2026-02",
-      "medianPrice": 445000,
-      "transactions": 15
+      "medianPrice": 430000,
+      "transactions": 17
     },
     {
       "month": "2026-03",
@@ -341,13 +341,13 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 430000,
-      "transactions": 14
+      "medianPrice": 465000,
+      "transactions": 15
     },
     {
       "month": "2026-05",
-      "medianPrice": 412000,
-      "transactions": 25
+      "medianPrice": 386000,
+      "transactions": 26
     }
   ],
   "quarterlyHistory": [
@@ -384,17 +384,17 @@
     {
       "quarter": "2025-Q3",
       "medianPrice": 440000,
-      "transactions": 110
+      "transactions": 114
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 461500,
-      "transactions": 76
+      "medianPrice": 452500,
+      "transactions": 80
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 440000,
-      "transactions": 51
+      "medianPrice": 437500,
+      "transactions": 56
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:56.350Z",
+  "updatedAt": "2026-09-25T08:18:15.508Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "plymouth",
   "countySlug": "devon",
@@ -9,199 +9,199 @@
     "PLYMOUTH"
   ],
   "stats": {
-    "medianPrice": 220000,
+    "medianPrice": 220600,
     "medianByType": {
-      "D": 390500,
-      "S": 264500,
+      "D": 392000,
+      "S": 262000,
       "T": 210000,
-      "F": 132000
+      "F": 131000
     },
-    "transactionCount12m": 3881,
-    "yoyChange": 0,
-    "newBuildCount": 22,
-    "existingCount": 3859,
-    "newBuildPremium": -9.1
+    "transactionCount12m": 4345,
+    "yoyChange": 0.3,
+    "newBuildCount": 34,
+    "existingCount": 4311,
+    "newBuildPremium": 2.2
   },
   "recentTransactions": [
     {
+      "price": 245000,
+      "date": "2026-07-30",
+      "postcode": "PL5 3DU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "303, ST PETERS ROAD"
+    },
+    {
+      "price": 278000,
+      "date": "2026-07-28",
+      "postcode": "PL9 7FB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, BRINCHCOMBE MEWS"
+    },
+    {
+      "price": 185000,
+      "date": "2026-07-27",
+      "postcode": "PL6 6QF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "182, SOUTHWAY DRIVE"
+    },
+    {
+      "price": 75000,
+      "date": "2026-07-24",
+      "postcode": "PL1 2PP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 29, CITADEL COURT, 2, ELLIOT STREET"
+    },
+    {
+      "price": 307000,
+      "date": "2026-07-24",
+      "postcode": "PL9 9PB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "85, ASHERY DRIVE"
+    },
+    {
+      "price": 260125,
+      "date": "2026-07-24",
+      "postcode": "PL9 9UX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, BUDDLE CLOSE"
+    },
+    {
+      "price": 348500,
+      "date": "2026-07-24",
+      "postcode": "PL6 6BB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, UPLAND DRIVE"
+    },
+    {
       "price": 330000,
-      "date": "2026-06-30",
-      "postcode": "PL7 1XJ",
+      "date": "2026-07-24",
+      "postcode": "PL6 5QD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "29, SLATELANDS CLOSE"
+      "address": "38, AUSTIN CRESCENT"
     },
     {
-      "price": 372500,
-      "date": "2026-06-29",
-      "postcode": "PL7 4QQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, TITHE ROAD"
-    },
-    {
-      "price": 265000,
-      "date": "2026-06-26",
-      "postcode": "PL6 5QW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, BAYDON CLOSE"
-    },
-    {
-      "price": 270000,
-      "date": "2026-06-26",
-      "postcode": "PL6 7EA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, HIGHCLERE GARDENS"
-    },
-    {
-      "price": 87000,
-      "date": "2026-06-25",
-      "postcode": "PL2 3TL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "127, ST PANCRAS AVENUE"
-    },
-    {
-      "price": 128000,
-      "date": "2026-06-25",
-      "postcode": "PL4 0LX",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "3A, TEATS HILL FLATS"
-    },
-    {
-      "price": 300000,
-      "date": "2026-06-25",
-      "postcode": "PL2 3AJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "27, BERESFORD STREET"
-    },
-    {
-      "price": 192500,
-      "date": "2026-06-25",
-      "postcode": "PL3 6EG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, COLNE GARDENS"
-    },
-    {
-      "price": 382500,
-      "date": "2026-06-25",
-      "postcode": "PL9 9HU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "65, GREEN PARK ROAD"
-    },
-    {
-      "price": 175000,
-      "date": "2026-06-24",
-      "postcode": "PL5 2HA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "65, COOMBE WAY"
-    },
-    {
-      "price": 300000,
-      "date": "2026-06-23",
-      "postcode": "PL7 4SF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, LYNWOOD AVENUE"
-    },
-    {
-      "price": 147500,
-      "date": "2026-06-23",
-      "postcode": "PL5 2AQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, BYARD CLOSE"
-    },
-    {
-      "price": 265000,
-      "date": "2026-06-22",
-      "postcode": "PL5 4ET",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "76, TAUNTON AVENUE"
-    },
-    {
-      "price": 325000,
-      "date": "2026-06-22",
-      "postcode": "PL4 8RH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, LIPSON ROAD"
-    },
-    {
-      "price": 325000,
-      "date": "2026-06-22",
-      "postcode": "PL5 3SY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, OLD WOODLANDS ROAD"
-    },
-    {
-      "price": 215000,
-      "date": "2026-06-19",
-      "postcode": "PL5 3BA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "101, WHIN BANK ROAD"
-    },
-    {
-      "price": 362500,
-      "date": "2026-06-19",
-      "postcode": "PL5 1SH",
+      "price": 358500,
+      "date": "2026-07-24",
+      "postcode": "PL9 8TL",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, WAVERLEY ROAD"
+      "address": "89, SHORTWOOD CRESCENT"
     },
     {
-      "price": 282500,
-      "date": "2026-06-19",
-      "postcode": "PL6 7FP",
+      "price": 255000,
+      "date": "2026-07-24",
+      "postcode": "PL7 2RH",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "25, ECO WAY"
+      "address": "8, CARDIFF CLOSE"
     },
     {
-      "price": 195000,
-      "date": "2026-06-19",
-      "postcode": "PL5 3PZ",
+      "price": 191000,
+      "date": "2026-07-24",
+      "postcode": "PL5 3JG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "80, ST PETERS ROAD"
+    },
+    {
+      "price": 175000,
+      "date": "2026-07-24",
+      "postcode": "PL7 1PJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, LATIMER CLOSE"
+    },
+    {
+      "price": 152000,
+      "date": "2026-07-24",
+      "postcode": "PL1 2NJ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "93, CASTLE STREET"
+    },
+    {
+      "price": 196000,
+      "date": "2026-07-24",
+      "postcode": "PL9 9UH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, KITTER DRIVE"
+    },
+    {
+      "price": 160500,
+      "date": "2026-07-24",
+      "postcode": "PL2 1NU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, BEATRICE AVENUE"
+    },
+    {
+      "price": 513000,
+      "date": "2026-07-24",
+      "postcode": "PL9 8RJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, DUNSTONE ROAD"
+    },
+    {
+      "price": 185000,
+      "date": "2026-07-24",
+      "postcode": "PL2 2SD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, KIRKSTALL CLOSE"
+    },
+    {
+      "price": 332500,
+      "date": "2026-07-24",
+      "postcode": "PL4 7PX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "82, MOUNT GOULD ROAD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-07-23",
+      "postcode": "PL5 1NS",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "17, ASHRIDGE GARDENS"
+      "address": "4, LOUGHBORO ROAD"
     },
     {
-      "price": 346500,
-      "date": "2026-06-19",
-      "postcode": "PL6 6HH",
+      "price": 210000,
+      "date": "2026-07-22",
+      "postcode": "PL3 5AD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "6, EASTCOTE CLOSE"
+      "address": "60, ASHFORD CRESCENT"
     }
   ],
   "monthlyHistory": [
@@ -212,8 +212,8 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 205000,
-      "transactions": 327
+      "medianPrice": 202825,
+      "transactions": 328
     },
     {
       "month": "2024-03",
@@ -242,8 +242,8 @@
     },
     {
       "month": "2024-08",
-      "medianPrice": 217500,
-      "transactions": 414
+      "medianPrice": 217000,
+      "transactions": 415
     },
     {
       "month": "2024-09",
@@ -288,74 +288,74 @@
     {
       "month": "2025-05",
       "medianPrice": 218500,
-      "transactions": 286
+      "transactions": 287
     },
     {
       "month": "2025-06",
       "medianPrice": 220000,
-      "transactions": 356
+      "transactions": 357
     },
     {
       "month": "2025-07",
-      "medianPrice": 220000,
-      "transactions": 393
-    },
-    {
-      "month": "2025-08",
-      "medianPrice": 218500,
+      "medianPrice": 217500,
       "transactions": 394
     },
     {
+      "month": "2025-08",
+      "medianPrice": 219000,
+      "transactions": 401
+    },
+    {
       "month": "2025-09",
-      "medianPrice": 220000,
-      "transactions": 344
+      "medianPrice": 225000,
+      "transactions": 375
     },
     {
       "month": "2025-10",
-      "medianPrice": 231000,
-      "transactions": 332
+      "medianPrice": 230000,
+      "transactions": 354
     },
     {
       "month": "2025-11",
       "medianPrice": 225000,
-      "transactions": 366
+      "transactions": 370
     },
     {
       "month": "2025-12",
-      "medianPrice": 229950,
-      "transactions": 373
+      "medianPrice": 226000,
+      "transactions": 382
     },
     {
       "month": "2026-01",
-      "medianPrice": 215000,
-      "transactions": 231
+      "medianPrice": 216200,
+      "transactions": 247
     },
     {
       "month": "2026-02",
-      "medianPrice": 208000,
-      "transactions": 249
+      "medianPrice": 207750,
+      "transactions": 276
     },
     {
       "month": "2026-03",
-      "medianPrice": 213000,
-      "transactions": 324
+      "medianPrice": 215500,
+      "transactions": 342
     },
     {
       "month": "2026-04",
       "medianPrice": 227500,
-      "transactions": 176
+      "transactions": 181
     },
     {
       "month": "2026-05",
       "medianPrice": 218000,
-      "transactions": 249
+      "transactions": 266
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 205000,
-      "transactions": 980
+      "transactions": 981
     },
     {
       "quarter": "2024-Q2",
@@ -365,7 +365,7 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 220000,
-      "transactions": 1157
+      "transactions": 1158
     },
     {
       "quarter": "2024-Q4",
@@ -379,23 +379,23 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 212500,
-      "transactions": 861
+      "medianPrice": 212000,
+      "transactions": 863
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 220000,
-      "transactions": 1131
+      "transactions": 1170
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 229950,
-      "transactions": 1071
+      "medianPrice": 226000,
+      "transactions": 1106
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 215000,
-      "transactions": 804
+      "transactions": 865
     }
   ]
 }

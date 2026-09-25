@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:57.829Z",
+  "updatedAt": "2026-09-25T08:18:17.660Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "washington",
   "countySlug": "tyne-and-wear",
@@ -8,199 +8,199 @@
     "SUNDERLAND"
   ],
   "stats": {
-    "medianPrice": 141125,
+    "medianPrice": 145000,
     "medianByType": {
-      "D": 307498,
-      "S": 170000,
+      "D": 313000,
+      "S": 170500,
       "T": 120000,
-      "F": 47000
+      "F": 48000
     },
-    "transactionCount12m": 626,
-    "yoyChange": 0.8,
-    "newBuildCount": 16,
-    "existingCount": 610,
-    "newBuildPremium": 127.5
+    "transactionCount12m": 729,
+    "yoyChange": 3.6,
+    "newBuildCount": 35,
+    "existingCount": 694,
+    "newBuildPremium": 120
   },
   "recentTransactions": [
     {
-      "price": 105000,
-      "date": "2026-06-22",
-      "postcode": "NE37 2HL",
+      "price": 99950,
+      "date": "2026-07-29",
+      "postcode": "NE37 2HQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "497, COACH ROAD ESTATE"
+      "address": "428, COACH ROAD ESTATE"
     },
     {
-      "price": 15000,
-      "date": "2026-06-18",
-      "postcode": "NE37 3EA",
+      "price": 173000,
+      "date": "2026-07-24",
+      "postcode": "NE37 1SJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, SWARTH CLOSE"
+    },
+    {
+      "price": 128000,
+      "date": "2026-07-20",
+      "postcode": "NE38 8RL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, NEWRIGGS"
+    },
+    {
+      "price": 138000,
+      "date": "2026-07-20",
+      "postcode": "NE38 9AQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "122, ROWAN AVENUE"
+    },
+    {
+      "price": 178500,
+      "date": "2026-07-17",
+      "postcode": "NE38 0QG",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, HOLWICK CLOSE"
+    },
+    {
+      "price": 500000,
+      "date": "2026-07-17",
+      "postcode": "NE38 8BN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, FATFIELD PARK"
+    },
+    {
+      "price": 121000,
+      "date": "2026-07-10",
+      "postcode": "NE38 7BG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "54, KENILWORTH COURT"
+      "address": "1 THE EAST WING, DAME MARGARET HALL, THE AVENUE"
     },
     {
-      "price": 370000,
-      "date": "2026-06-16",
-      "postcode": "NE38 8TN",
+      "price": 90000,
+      "date": "2026-07-09",
+      "postcode": "NE38 8ST",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, HOLLYHOCK"
+    },
+    {
+      "price": 125000,
+      "date": "2026-07-09",
+      "postcode": "NE38 8RT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "74, NEWRIGGS"
+    },
+    {
+      "price": 360000,
+      "date": "2026-07-06",
+      "postcode": "NE37 1ER",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "3, LYDCOTT"
+      "address": "11, HIGHFIELDS MANOR"
     },
     {
-      "price": 220000,
-      "date": "2026-06-12",
-      "postcode": "NE38 8FL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, MELDON CLOSE"
-    },
-    {
-      "price": 80000,
-      "date": "2026-06-12",
-      "postcode": "NE37 1TH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "1, MARDALE"
-    },
-    {
-      "price": 195000,
-      "date": "2026-06-05",
-      "postcode": "NE38 7HB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, CHACOMBE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-06-05",
-      "postcode": "NE38 0NH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, CHIPCHASE"
-    },
-    {
-      "price": 135000,
-      "date": "2026-06-05",
-      "postcode": "NE38 9EW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "64, ALWIN"
-    },
-    {
-      "price": 108000,
-      "date": "2026-06-05",
-      "postcode": "NE38 7PE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "34, NEWSTEAD COURT"
-    },
-    {
-      "price": 89000,
-      "date": "2026-06-05",
-      "postcode": "NE38 8EG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, STOCKLEY ROAD"
-    },
-    {
-      "price": 100000,
-      "date": "2026-06-05",
-      "postcode": "NE37 1HG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, STRIDINGEDGE"
-    },
-    {
-      "price": 23750,
-      "date": "2026-06-04",
+      "price": 25000,
+      "date": "2026-07-06",
       "postcode": "NE37 3EB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "29, COLLINGWOOD COURT"
+      "address": "24, COLLINGWOOD COURT"
     },
     {
-      "price": 470000,
-      "date": "2026-06-03",
-      "postcode": "NE38 9JF",
-      "propertyType": "D",
+      "price": 110000,
+      "date": "2026-07-03",
+      "postcode": "NE38 8HU",
+      "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "13, HOPE SHIELD"
+      "address": "355, HORSLEY ROAD"
     },
     {
-      "price": 18500,
-      "date": "2026-06-03",
-      "postcode": "NE37 3DY",
+      "price": 87000,
+      "date": "2026-07-03",
+      "postcode": "NE37 3AX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, WESTGARTH TERRACE"
+    },
+    {
+      "price": 140000,
+      "date": "2026-07-03",
+      "postcode": "NE37 1UD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "38, BRIDEKIRK"
+    },
+    {
+      "price": 95500,
+      "date": "2026-07-03",
+      "postcode": "NE37 1RR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, ROSEGILL"
+    },
+    {
+      "price": 170000,
+      "date": "2026-07-02",
+      "postcode": "NE38 7TA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, FOUNTAINS CLOSE"
+    },
+    {
+      "price": 84500,
+      "date": "2026-06-30",
+      "postcode": "NE37 1SR",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "56, NEVILLE COURT"
+      "address": "6, DRUMALDRACE"
     },
     {
-      "price": 79000,
-      "date": "2026-06-02",
-      "postcode": "NE38 0JH",
+      "price": 132000,
+      "date": "2026-06-30",
+      "postcode": "NE38 7DY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62, RAEBURN AVENUE"
+    },
+    {
+      "price": 144000,
+      "date": "2026-06-30",
+      "postcode": "NE38 0DS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "39, WITTON COURT"
+      "address": "19, GAIRLOCH DRIVE"
     },
     {
-      "price": 130000,
-      "date": "2026-06-01",
-      "postcode": "NE38 0PB",
+      "price": 110000,
+      "date": "2026-06-30",
+      "postcode": "NE38 8HU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "69, MALVERN ROAD"
-    },
-    {
-      "price": 2617500,
-      "date": "2026-06-01",
-      "postcode": "NE38 8QE",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, WALTON ROAD"
-    },
-    {
-      "price": 147000,
-      "date": "2026-05-29",
-      "postcode": "NE38 9EN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, ALWIN"
-    },
-    {
-      "price": 250000,
-      "date": "2026-05-29",
-      "postcode": "NE38 8NP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, OVINGHAM CLOSE"
-    },
-    {
-      "price": 48000,
-      "date": "2026-05-29",
-      "postcode": "NE37 2QY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, TYNE GARDENS"
+      "address": "355, HORSLEY ROAD"
     }
   ],
   "monthlyHistory": [
@@ -226,8 +226,8 @@
     },
     {
       "month": "2024-05",
-      "medianPrice": 118750,
-      "transactions": 46
+      "medianPrice": 115000,
+      "transactions": 47
     },
     {
       "month": "2024-06",
@@ -291,53 +291,53 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 195500,
-      "transactions": 74
+      "medianPrice": 200000,
+      "transactions": 77
     },
     {
       "month": "2025-07",
       "medianPrice": 140000,
-      "transactions": 51
+      "transactions": 53
     },
     {
       "month": "2025-08",
-      "medianPrice": 152500,
-      "transactions": 68
-    },
-    {
-      "month": "2025-09",
-      "medianPrice": 130000,
-      "transactions": 45
-    },
-    {
-      "month": "2025-10",
-      "medianPrice": 155000,
+      "medianPrice": 150000,
       "transactions": 69
     },
     {
+      "month": "2025-09",
+      "medianPrice": 138000,
+      "transactions": 53
+    },
+    {
+      "month": "2025-10",
+      "medianPrice": 178500,
+      "transactions": 79
+    },
+    {
       "month": "2025-11",
-      "medianPrice": 145000,
-      "transactions": 61
+      "medianPrice": 161000,
+      "transactions": 63
     },
     {
       "month": "2025-12",
-      "medianPrice": 146000,
-      "transactions": 59
+      "medianPrice": 151000,
+      "transactions": 64
     },
     {
       "month": "2026-01",
-      "medianPrice": 122500,
-      "transactions": 42
+      "medianPrice": 120000,
+      "transactions": 47
     },
     {
       "month": "2026-02",
       "medianPrice": 152500,
-      "transactions": 30
+      "transactions": 36
     },
     {
       "month": "2026-03",
-      "medianPrice": 145000,
-      "transactions": 37
+      "medianPrice": 158975,
+      "transactions": 42
     },
     {
       "month": "2026-04",
@@ -346,8 +346,8 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 128000,
-      "transactions": 32
+      "medianPrice": 125500,
+      "transactions": 38
     }
   ],
   "quarterlyHistory": [
@@ -358,8 +358,8 @@
     },
     {
       "quarter": "2024-Q2",
-      "medianPrice": 117500,
-      "transactions": 159
+      "medianPrice": 116250,
+      "transactions": 160
     },
     {
       "quarter": "2024-Q3",
@@ -378,23 +378,23 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 150500,
-      "transactions": 175
+      "medianPrice": 158000,
+      "transactions": 178
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 142100,
-      "transactions": 164
+      "medianPrice": 142200,
+      "transactions": 175
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 152000,
-      "transactions": 189
+      "medianPrice": 160500,
+      "transactions": 206
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 134000,
-      "transactions": 109
+      "medianPrice": 135000,
+      "transactions": 125
     }
   ]
 }

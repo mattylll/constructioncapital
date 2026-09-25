@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:58.403Z",
+  "updatedAt": "2026-09-25T08:18:18.555Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "dolgellau",
   "countySlug": "gwynedd",
@@ -8,20 +8,65 @@
     "GWYNEDD"
   ],
   "stats": {
-    "medianPrice": 178250,
+    "medianPrice": 175000,
     "medianByType": {
-      "D": 255000,
-      "S": 251500,
+      "D": 260000,
+      "S": 246000,
       "T": 145000,
-      "F": 107000
+      "F": 116000
     },
-    "transactionCount12m": 74,
-    "yoyChange": -23,
+    "transactionCount12m": 83,
+    "yoyChange": -24.4,
     "newBuildCount": 1,
-    "existingCount": 73,
+    "existingCount": 82,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 145000,
+      "date": "2026-07-20",
+      "postcode": "LL40 1BU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, SMITHFIELD LANE"
+    },
+    {
+      "price": 125000,
+      "date": "2026-07-10",
+      "postcode": "LL40 1RD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HUNKY DORY, PLAS NEWYDD, ELDON SQUARE"
+    },
+    {
+      "price": 83000,
+      "date": "2026-06-30",
+      "postcode": "LL40 1BH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, ENGLISH TERRACE"
+    },
+    {
+      "price": 110000,
+      "date": "2026-06-26",
+      "postcode": "LL40 1HR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, MAES TALARAN"
+    },
+    {
+      "price": 105000,
+      "date": "2026-06-19",
+      "postcode": "LL40 1DN",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 13, GOLDEN LION, LION STREET"
+    },
     {
       "price": 399000,
       "date": "2026-06-19",
@@ -32,13 +77,13 @@
       "address": "TY RHUFEINIG"
     },
     {
-      "price": 105000,
-      "date": "2026-06-19",
-      "postcode": "LL40 1DN",
-      "propertyType": "F",
+      "price": 175000,
+      "date": "2026-06-10",
+      "postcode": "LL40 1DD",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 13, GOLDEN LION, LION STREET"
+      "tenure": "F",
+      "address": "4, WATERLOO STREET"
     },
     {
       "price": 140000,
@@ -156,51 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "PENARLAG HOUSE, BARMOUTH ROAD"
-    },
-    {
-      "price": 185000,
-      "date": "2026-03-12",
-      "postcode": "LL40 2TY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, BRYNIAU"
-    },
-    {
-      "price": 175000,
-      "date": "2026-03-12",
-      "postcode": "LL40 1LS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BRAGDY, MEYRICK STREET"
-    },
-    {
-      "price": 70000,
-      "date": "2026-03-09",
-      "postcode": "LL40 1NY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, GWERNCEIRIOS"
-    },
-    {
-      "price": 289995,
-      "date": "2026-03-04",
-      "postcode": "LL40 2DF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SWN Y NANT"
-    },
-    {
-      "price": 145000,
-      "date": "2026-03-02",
-      "postcode": "LL40 1HR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, MAES TALARAN"
     }
   ],
   "monthlyHistory": [
@@ -306,8 +306,8 @@
     },
     {
       "month": "2025-09",
-      "medianPrice": 99000,
-      "transactions": 5
+      "medianPrice": 152000,
+      "transactions": 6
     },
     {
       "month": "2025-10",
@@ -326,13 +326,13 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 170000,
-      "transactions": 4
+      "medianPrice": 165000,
+      "transactions": 5
     },
     {
       "month": "2026-03",
-      "medianPrice": 160000,
-      "transactions": 8
+      "medianPrice": 167500,
+      "transactions": 10
     },
     {
       "month": "2026-04",
@@ -378,8 +378,8 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 167000,
-      "transactions": 22
+      "medianPrice": 171000,
+      "transactions": 23
     },
     {
       "quarter": "2025-Q4",
@@ -388,8 +388,8 @@
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 170000,
-      "transactions": 12
+      "medianPrice": 165000,
+      "transactions": 15
     }
   ]
 }

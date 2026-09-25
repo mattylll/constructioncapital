@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:57.749Z",
+  "updatedAt": "2026-09-25T08:18:17.544Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "whitby",
   "countySlug": "north-yorkshire",
@@ -11,18 +11,153 @@
   "stats": {
     "medianPrice": 255000,
     "medianByType": {
-      "D": 366250,
-      "S": 252400,
+      "D": 365000,
+      "S": 250000,
       "T": 215000,
       "F": 165000
     },
-    "transactionCount12m": 370,
+    "transactionCount12m": 409,
     "yoyChange": -5.6,
-    "newBuildCount": 21,
-    "existingCount": 349,
-    "newBuildPremium": 6.2
+    "newBuildCount": 24,
+    "existingCount": 385,
+    "newBuildPremium": 4.3
   },
   "recentTransactions": [
+    {
+      "price": 110000,
+      "date": "2026-07-17",
+      "postcode": "YO21 3AE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 4, 23, ST HILDAS TERRACE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-07-17",
+      "postcode": "YO22 4SQ",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "BIRKBY COTTAGE, CHAPEL STREET"
+    },
+    {
+      "price": 240000,
+      "date": "2026-07-15",
+      "postcode": "YO21 3UF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, CONVENT WAY"
+    },
+    {
+      "price": 400000,
+      "date": "2026-07-15",
+      "postcode": "YO21 1SW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, MAIN ROAD"
+    },
+    {
+      "price": 725000,
+      "date": "2026-07-09",
+      "postcode": "YO21 1RZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PROVENCE HOUSE, 2, CARR HILL RIDGE"
+    },
+    {
+      "price": 89000,
+      "date": "2026-07-08",
+      "postcode": "YO21 3FH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 5, 1, ABBEY TERRACE"
+    },
+    {
+      "price": 275000,
+      "date": "2026-07-07",
+      "postcode": "YO22 4HR",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, CROWDY CLOSE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-07-06",
+      "postcode": "YO22 5HG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, HERMITAGE WAY"
+    },
+    {
+      "price": 330000,
+      "date": "2026-07-06",
+      "postcode": "YO21 3LS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, FARM CLOSE"
+    },
+    {
+      "price": 175000,
+      "date": "2026-07-06",
+      "postcode": "YO22 4JA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, HELREDALE ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-07-03",
+      "postcode": "YO21 3AA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE COTTAGE, ST HILDAS GARDENS"
+    },
+    {
+      "price": 150000,
+      "date": "2026-07-03",
+      "postcode": "YO21 1HQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "7, ARUNDEL HOWE, BYLAND ROAD"
+    },
+    {
+      "price": 177500,
+      "date": "2026-07-03",
+      "postcode": "YO22 4JA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, HELREDALE ROAD"
+    },
+    {
+      "price": 170000,
+      "date": "2026-06-30",
+      "postcode": "YO21 2EQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, CHURCH STREET"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-30",
+      "postcode": "YO22 4HP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, BRACKEN CLOSE"
+    },
     {
       "price": 210300,
       "date": "2026-06-26",
@@ -42,6 +177,24 @@
       "address": "15, WESTBOURNE ROAD"
     },
     {
+      "price": 175000,
+      "date": "2026-06-26",
+      "postcode": "YO22 5DQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, HALL PASTURE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-25",
+      "postcode": "YO21 2LF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, EASTON LANE"
+    },
+    {
       "price": 497000,
       "date": "2026-06-24",
       "postcode": "YO22 5AN",
@@ -49,159 +202,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "MULGRAVE COTTAGE"
-    },
-    {
-      "price": 295000,
-      "date": "2026-06-17",
-      "postcode": "YO21 3HB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, KIRBYS FLATS, EAST TERRACE"
-    },
-    {
-      "price": 285000,
-      "date": "2026-06-15",
-      "postcode": "YO21 3NW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, CHANCEL WAY"
-    },
-    {
-      "price": 73500,
-      "date": "2026-06-09",
-      "postcode": "YO21 2DB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "63, HIGH STREET"
-    },
-    {
-      "price": 202000,
-      "date": "2026-06-05",
-      "postcode": "YO21 1JA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, ELM GROVE"
-    },
-    {
-      "price": 260000,
-      "date": "2026-06-03",
-      "postcode": "YO22 4UN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, KINGSTON GARTH"
-    },
-    {
-      "price": 173000,
-      "date": "2026-06-02",
-      "postcode": "YO22 4DN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "7, SANDSIDE"
-    },
-    {
-      "price": 485000,
-      "date": "2026-05-29",
-      "postcode": "YO22 5AN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WHEATKITS, THE COMMON"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-29",
-      "postcode": "YO22 4DY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "58, KINGFISHER DRIVE"
-    },
-    {
-      "price": 258000,
-      "date": "2026-05-29",
-      "postcode": "YO22 5EH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "119, COACH ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-29",
-      "postcode": "YO21 3HQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 5, 14, ABBEY TERRACE"
-    },
-    {
-      "price": 1500000,
-      "date": "2026-05-29",
-      "postcode": "YO21 3DT",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, UPGANG LANE"
-    },
-    {
-      "price": 255000,
-      "date": "2026-05-28",
-      "postcode": "YO22 5EN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "181, COACH ROAD"
-    },
-    {
-      "price": 59190,
-      "date": "2026-05-27",
-      "postcode": "YO21 1QS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 4, 12, BAGDALE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-27",
-      "postcode": "YO21 3NU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, SAXON ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-22",
-      "postcode": "YO22 4DZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31, HEATHER DRIVE"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-20",
-      "postcode": "YO21 3LJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, LOVE LANE"
-    },
-    {
-      "price": 110000,
-      "date": "2026-05-19",
-      "postcode": "YO21 1QQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "6, HILLSIDE APARTMENTS, 12, HANOVER TERRACE"
     }
   ],
   "monthlyHistory": [
@@ -302,23 +302,23 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 251600,
+      "medianPrice": 258000,
       "transactions": 40
     },
     {
       "month": "2025-09",
-      "medianPrice": 270000,
-      "transactions": 24
+      "medianPrice": 257835,
+      "transactions": 29
     },
     {
       "month": "2025-10",
-      "medianPrice": 270000,
-      "transactions": 46
+      "medianPrice": 280000,
+      "transactions": 47
     },
     {
       "month": "2025-11",
-      "medianPrice": 270000,
-      "transactions": 36
+      "medianPrice": 275000,
+      "transactions": 37
     },
     {
       "month": "2025-12",
@@ -327,18 +327,18 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 276000,
-      "transactions": 21
+      "medianPrice": 277975,
+      "transactions": 22
     },
     {
       "month": "2026-02",
       "medianPrice": 230000,
-      "transactions": 15
+      "transactions": 20
     },
     {
       "month": "2026-03",
-      "medianPrice": 241250,
-      "transactions": 24
+      "medianPrice": 250000,
+      "transactions": 25
     },
     {
       "month": "2026-04",
@@ -347,8 +347,8 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 248000,
-      "transactions": 25
+      "medianPrice": 249000,
+      "transactions": 30
     }
   ],
   "quarterlyHistory": [
@@ -384,18 +384,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 257500,
-      "transactions": 102
+      "medianPrice": 257835,
+      "transactions": 107
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 255000,
-      "transactions": 110
+      "medianPrice": 257500,
+      "transactions": 112
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 241250,
-      "transactions": 60
+      "medianPrice": 250000,
+      "transactions": 67
     }
   ]
 }

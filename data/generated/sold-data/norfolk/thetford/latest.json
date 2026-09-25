@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:57.985Z",
+  "updatedAt": "2026-09-25T08:18:17.878Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "thetford",
   "countySlug": "norfolk",
@@ -8,199 +8,199 @@
     "BRECKLAND"
   ],
   "stats": {
-    "medianPrice": 237500,
+    "medianPrice": 240000,
     "medianByType": {
       "D": 300000,
       "S": 230000,
-      "T": 180000,
+      "T": 182000,
       "F": 110000
     },
-    "transactionCount12m": 743,
-    "yoyChange": -3.1,
-    "newBuildCount": 23,
-    "existingCount": 720,
-    "newBuildPremium": 35.8
+    "transactionCount12m": 816,
+    "yoyChange": -2.4,
+    "newBuildCount": 35,
+    "existingCount": 781,
+    "newBuildPremium": 34
   },
   "recentTransactions": [
     {
-      "price": 155000,
-      "date": "2026-06-25",
-      "postcode": "IP25 6FB",
+      "price": 457000,
+      "date": "2026-07-20",
+      "postcode": "IP25 7DJ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, MARY SHANKS CLOSE"
+      "address": "13, COOK ROAD"
     },
     {
-      "price": 250000,
-      "date": "2026-06-25",
-      "postcode": "IP25 7EL",
+      "price": 202500,
+      "date": "2026-07-16",
+      "postcode": "IP24 2UB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, DOLPHIN CRESCENT"
+      "address": "28, ETHELREDA DRIVE"
     },
     {
-      "price": 150000,
-      "date": "2026-06-23",
-      "postcode": "IP24 2YG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, JUNIPER CLOSE"
-    },
-    {
-      "price": 310000,
-      "date": "2026-06-22",
-      "postcode": "IP25 7QN",
+      "price": 240000,
+      "date": "2026-07-15",
+      "postcode": "IP25 7HU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "30, MILL STREET"
+      "address": "10, AMYS CLOSE"
     },
     {
-      "price": 207000,
-      "date": "2026-06-19",
-      "postcode": "IP25 6ZP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, BURROW DRIVE"
-    },
-    {
-      "price": 300000,
-      "date": "2026-06-19",
-      "postcode": "IP24 2YQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, SPEEDWELL CLOSE"
-    },
-    {
-      "price": 190000,
-      "date": "2026-06-19",
-      "postcode": "IP24 3NP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, ST JOHNS WAY"
-    },
-    {
-      "price": 238000,
-      "date": "2026-06-18",
-      "postcode": "IP25 6BZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, CHARLES AVENUE"
-    },
-    {
-      "price": 133000,
-      "date": "2026-06-18",
-      "postcode": "IP25 6LN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "123, BRANDON ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-06-12",
-      "postcode": "IP25 6HG",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, BLUEBELL CLOSE"
-    },
-    {
-      "price": 415000,
-      "date": "2026-06-12",
-      "postcode": "IP25 7FE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "6, ACORN CLOSE"
-    },
-    {
-      "price": 135000,
-      "date": "2026-06-12",
-      "postcode": "IP24 1AR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HONEY BEE GARDEN, 29, PAINTER STREET"
-    },
-    {
-      "price": 195000,
-      "date": "2026-06-12",
-      "postcode": "IP24 2DL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, CASTLE STREET"
-    },
-    {
-      "price": 280000,
-      "date": "2026-06-05",
-      "postcode": "IP25 6FN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, FORTRESS ROAD"
-    },
-    {
-      "price": 290000,
-      "date": "2026-06-05",
-      "postcode": "IP24 2ZA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, TRAFALGAR WAY"
-    },
-    {
-      "price": 196000,
-      "date": "2026-06-05",
-      "postcode": "IP25 7QA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, GIBSON ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-06-05",
-      "postcode": "IP24 2TB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, ADMIRALS WAY"
-    },
-    {
-      "price": 145000,
-      "date": "2026-06-04",
-      "postcode": "IP24 3LA",
+      "price": 98000,
+      "date": "2026-07-13",
+      "postcode": "IP24 1QJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "3A, PINE CLOSE"
+      "address": "15, BEN CULEY DRIVE"
     },
     {
-      "price": 282000,
-      "date": "2026-06-02",
-      "postcode": "IP24 3NH",
+      "price": 150000,
+      "date": "2026-07-10",
+      "postcode": "IP24 1JN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "131, FAIRFIELDS"
+    },
+    {
+      "price": 100000,
+      "date": "2026-07-10",
+      "postcode": "IP25 6GW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "47, LANCASTER AVENUE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-07-10",
+      "postcode": "IP24 1JG",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "52, MACKENZIE ROAD"
+      "address": "41, HIGHLANDS"
     },
     {
-      "price": 260000,
-      "date": "2026-06-01",
-      "postcode": "IP25 6LP",
+      "price": 300000,
+      "date": "2026-07-10",
+      "postcode": "IP24 2UA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, BENET CLOSE"
+    },
+    {
+      "price": 265000,
+      "date": "2026-07-07",
+      "postcode": "IP25 7QN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, STOKES AVENUE"
+      "address": "41, MILL STREET"
+    },
+    {
+      "price": 165000,
+      "date": "2026-07-06",
+      "postcode": "IP24 1LD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "62, TENNYSON WAY"
+    },
+    {
+      "price": 220000,
+      "date": "2026-07-06",
+      "postcode": "IP24 2YD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "42, MALLOW ROAD"
+    },
+    {
+      "price": 242500,
+      "date": "2026-07-03",
+      "postcode": "IP24 1JD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60B, CROXTON ROAD"
+    },
+    {
+      "price": 200000,
+      "date": "2026-07-03",
+      "postcode": "IP25 6GQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, CANBERRA ROAD"
+    },
+    {
+      "price": 270000,
+      "date": "2026-07-02",
+      "postcode": "IP25 6BB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, CHURCHILL CLOSE"
+    },
+    {
+      "price": 215000,
+      "date": "2026-07-02",
+      "postcode": "IP24 2XD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, PRIMROSE CLOSE"
+    },
+    {
+      "price": 385000,
+      "date": "2026-07-02",
+      "postcode": "IP24 2UD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, GEORGE ROAD"
+    },
+    {
+      "price": 310000,
+      "date": "2026-07-01",
+      "postcode": "IP24 1NJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, SHROPHAM ROAD"
+    },
+    {
+      "price": 129500,
+      "date": "2026-07-01",
+      "postcode": "IP25 6QZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "18, DUDLEY CLOSE"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-30",
+      "postcode": "IP25 6LE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, THREE POST ROAD"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-30",
+      "postcode": "IP24 1DL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, GLOUCESTER WAY"
     }
   ],
   "monthlyHistory": [
@@ -261,13 +261,13 @@
     },
     {
       "month": "2024-12",
-      "medianPrice": 228750,
-      "transactions": 66
+      "medianPrice": 227500,
+      "transactions": 67
     },
     {
       "month": "2025-01",
-      "medianPrice": 240000,
-      "transactions": 49
+      "medianPrice": 246000,
+      "transactions": 50
     },
     {
       "month": "2025-02",
@@ -276,48 +276,48 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 250000,
-      "transactions": 116
+      "medianPrice": 253998,
+      "transactions": 120
     },
     {
       "month": "2025-04",
-      "medianPrice": 248000,
-      "transactions": 47
+      "medianPrice": 249000,
+      "transactions": 48
     },
     {
       "month": "2025-05",
-      "medianPrice": 225000,
-      "transactions": 62
+      "medianPrice": 230000,
+      "transactions": 63
     },
     {
       "month": "2025-06",
-      "medianPrice": 238500,
-      "transactions": 78
+      "medianPrice": 241250,
+      "transactions": 80
     },
     {
       "month": "2025-07",
-      "medianPrice": 246250,
-      "transactions": 86
+      "medianPrice": 250000,
+      "transactions": 88
     },
     {
       "month": "2025-08",
-      "medianPrice": 249250,
-      "transactions": 58
+      "medianPrice": 251750,
+      "transactions": 62
     },
     {
       "month": "2025-09",
-      "medianPrice": 217500,
-      "transactions": 56
+      "medianPrice": 220000,
+      "transactions": 63
     },
     {
       "month": "2025-10",
       "medianPrice": 240000,
-      "transactions": 70
+      "transactions": 78
     },
     {
       "month": "2025-11",
       "medianPrice": 235000,
-      "transactions": 65
+      "transactions": 67
     },
     {
       "month": "2025-12",
@@ -331,23 +331,23 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 212500,
-      "transactions": 37
+      "medianPrice": 213750,
+      "transactions": 40
     },
     {
       "month": "2026-03",
       "medianPrice": 230000,
-      "transactions": 72
+      "transactions": 77
     },
     {
       "month": "2026-04",
-      "medianPrice": 245000,
-      "transactions": 43
+      "medianPrice": 243500,
+      "transactions": 44
     },
     {
       "month": "2026-05",
-      "medianPrice": 252500,
-      "transactions": 40
+      "medianPrice": 255000,
+      "transactions": 43
     }
   ],
   "quarterlyHistory": [
@@ -369,32 +369,32 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 250000,
-      "transactions": 248
+      "transactions": 249
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 240000,
-      "transactions": 245
+      "medianPrice": 240801,
+      "transactions": 250
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 239500,
-      "transactions": 187
+      "medianPrice": 240000,
+      "transactions": 191
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 235000,
-      "transactions": 200
+      "transactions": 213
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 240000,
-      "transactions": 190
+      "transactions": 200
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 230000,
-      "transactions": 170
+      "transactions": 178
     }
   ]
 }

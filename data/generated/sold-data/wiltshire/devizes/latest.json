@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:56.514Z",
+  "updatedAt": "2026-09-25T08:18:15.798Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "devizes",
   "countySlug": "wiltshire",
@@ -8,20 +8,191 @@
     "WILTSHIRE"
   ],
   "stats": {
-    "medianPrice": 300000,
+    "medianPrice": 305000,
     "medianByType": {
-      "D": 455000,
-      "S": 299950,
+      "D": 458750,
+      "S": 299975,
       "T": 250000,
-      "F": 144000
+      "F": 143000
     },
-    "transactionCount12m": 501,
-    "yoyChange": 1.7,
-    "newBuildCount": 14,
-    "existingCount": 487,
-    "newBuildPremium": 80.7
+    "transactionCount12m": 561,
+    "yoyChange": 3.4,
+    "newBuildCount": 17,
+    "existingCount": 544,
+    "newBuildPremium": 93.3
   },
   "recentTransactions": [
+    {
+      "price": 665000,
+      "date": "2026-07-27",
+      "postcode": "SN10 1NT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, LONG STREET"
+    },
+    {
+      "price": 279950,
+      "date": "2026-07-20",
+      "postcode": "SN10 5NS",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "54, HIGHLANDS"
+    },
+    {
+      "price": 325000,
+      "date": "2026-07-17",
+      "postcode": "SN10 3BQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, BRICKLEY LANE"
+    },
+    {
+      "price": 500000,
+      "date": "2026-07-17",
+      "postcode": "SN10 4RE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, MANOR CLOSE"
+    },
+    {
+      "price": 570000,
+      "date": "2026-07-17",
+      "postcode": "SN10 4RR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CROFT COTTAGE, TOWNSEND"
+    },
+    {
+      "price": 270000,
+      "date": "2026-07-17",
+      "postcode": "SN10 3UA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, FERGUSON ROAD"
+    },
+    {
+      "price": 395000,
+      "date": "2026-07-17",
+      "postcode": "SN10 2GF",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "60, ANZIO ROAD"
+    },
+    {
+      "price": 243500,
+      "date": "2026-07-14",
+      "postcode": "SN10 4BH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, RIDGEWAY CLOSE"
+    },
+    {
+      "price": 249900,
+      "date": "2026-07-10",
+      "postcode": "SN10 5BA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, BRATTON AVENUE"
+    },
+    {
+      "price": 385000,
+      "date": "2026-07-07",
+      "postcode": "SN10 2UH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, MATON CLOSE"
+    },
+    {
+      "price": 445000,
+      "date": "2026-07-07",
+      "postcode": "SN10 2QX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, WINCHCOMBE AVENUE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-07-07",
+      "postcode": "SN10 2FR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CORN CROFT LANE"
+    },
+    {
+      "price": 333000,
+      "date": "2026-07-02",
+      "postcode": "SN10 3BA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "24, CORNFIELD ROAD"
+    },
+    {
+      "price": 450000,
+      "date": "2026-07-02",
+      "postcode": "SN10 2SE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, SMITH CLOSE"
+    },
+    {
+      "price": 499000,
+      "date": "2026-07-02",
+      "postcode": "SN10 2TG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, WATERSIDE PARK"
+    },
+    {
+      "price": 325000,
+      "date": "2026-07-02",
+      "postcode": "SN10 3FN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, DOWSE ROAD"
+    },
+    {
+      "price": 296000,
+      "date": "2026-07-01",
+      "postcode": "SN10 3FR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, WADWORTH ROAD"
+    },
+    {
+      "price": 185000,
+      "date": "2026-07-01",
+      "postcode": "SN10 4SN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "4, FOXLEY FIELDS"
+    },
+    {
+      "price": 490000,
+      "date": "2026-07-01",
+      "postcode": "SN10 4AQ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "87, HIGH STREET"
+    },
     {
       "price": 425000,
       "date": "2026-06-30",
@@ -30,177 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "45, COPPERS ROAD"
-    },
-    {
-      "price": 400000,
-      "date": "2026-06-26",
-      "postcode": "SN10 5RU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WESTVIEW COTTAGE, 33, HIGH STREET"
-    },
-    {
-      "price": 295000,
-      "date": "2026-06-17",
-      "postcode": "SN10 3AN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, NURSTEED PARK"
-    },
-    {
-      "price": 460000,
-      "date": "2026-06-17",
-      "postcode": "SN10 2EE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "46, ROUNDWAY PARK"
-    },
-    {
-      "price": 350000,
-      "date": "2026-06-15",
-      "postcode": "SN10 3BJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "36, MEADOW DRIVE"
-    },
-    {
-      "price": 340000,
-      "date": "2026-06-15",
-      "postcode": "SN10 5HW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, QUEENS ROAD"
-    },
-    {
-      "price": 125000,
-      "date": "2026-06-12",
-      "postcode": "SN10 1BG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAG 4, 4, ST JOHNS ALLEY"
-    },
-    {
-      "price": 270000,
-      "date": "2026-06-12",
-      "postcode": "SN10 2RQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, MARINA CLOSE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-06-12",
-      "postcode": "SN10 2RW",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, BAILEY CLOSE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-06-12",
-      "postcode": "SN10 5NA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, HIGH STREET"
-    },
-    {
-      "price": 282500,
-      "date": "2026-06-12",
-      "postcode": "SN10 2TG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, WATERSIDE PARK"
-    },
-    {
-      "price": 300500,
-      "date": "2026-06-12",
-      "postcode": "SN10 2AY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BLENCATHRA, BATH ROAD"
-    },
-    {
-      "price": 144000,
-      "date": "2026-06-11",
-      "postcode": "SN10 4SW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, CROOKS LANE"
-    },
-    {
-      "price": 225000,
-      "date": "2026-06-09",
-      "postcode": "SN10 5SJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, MILL HEAD"
-    },
-    {
-      "price": 705000,
-      "date": "2026-06-08",
-      "postcode": "SN10 4SQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PADDOCK VIEW, BOWDENS"
-    },
-    {
-      "price": 275000,
-      "date": "2026-06-08",
-      "postcode": "SN10 5LG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, EYLES ROAD"
-    },
-    {
-      "price": 298000,
-      "date": "2026-06-06",
-      "postcode": "SN10 2DY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, MOONRAKERS"
-    },
-    {
-      "price": 240000,
-      "date": "2026-06-05",
-      "postcode": "SN10 3BA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "22, CORNFIELD ROAD"
-    },
-    {
-      "price": 750000,
-      "date": "2026-06-05",
-      "postcode": "SN10 4PS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, KINGS ROAD"
-    },
-    {
-      "price": 245000,
-      "date": "2026-06-05",
-      "postcode": "SN10 3RZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, MASLEN CLOSE"
     }
   ],
   "monthlyHistory": [
@@ -301,48 +301,48 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 380000,
-      "transactions": 59
+      "medianPrice": 352750,
+      "transactions": 61
     },
     {
       "month": "2025-09",
-      "medianPrice": 327000,
-      "transactions": 47
+      "medianPrice": 326000,
+      "transactions": 48
     },
     {
       "month": "2025-10",
-      "medianPrice": 355000,
-      "transactions": 57
+      "medianPrice": 350000,
+      "transactions": 67
     },
     {
       "month": "2025-11",
-      "medianPrice": 303500,
-      "transactions": 52
+      "medianPrice": 300000,
+      "transactions": 53
     },
     {
       "month": "2025-12",
-      "medianPrice": 300000,
-      "transactions": 31
+      "medianPrice": 310000,
+      "transactions": 33
     },
     {
       "month": "2026-01",
-      "medianPrice": 260000,
-      "transactions": 27
+      "medianPrice": 270000,
+      "transactions": 31
     },
     {
       "month": "2026-02",
-      "medianPrice": 298750,
-      "transactions": 32
+      "medianPrice": 300000,
+      "transactions": 35
     },
     {
       "month": "2026-03",
       "medianPrice": 282500,
-      "transactions": 28
+      "transactions": 30
     },
     {
       "month": "2026-04",
-      "medianPrice": 339950,
-      "transactions": 29
+      "medianPrice": 339975,
+      "transactions": 30
     },
     {
       "month": "2026-05",
@@ -383,18 +383,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 298750,
-      "transactions": 160
+      "medianPrice": 296950,
+      "transactions": 163
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 327500,
-      "transactions": 140
+      "medianPrice": 330000,
+      "transactions": 153
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 280000,
-      "transactions": 87
+      "medianPrice": 283500,
+      "transactions": 96
     }
   ]
 }

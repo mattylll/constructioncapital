@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:58.382Z",
+  "updatedAt": "2026-09-25T08:18:18.517Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "cwmbran",
   "countySlug": "newport",
@@ -8,199 +8,199 @@
     "TORFAEN"
   ],
   "stats": {
-    "medianPrice": 203000,
+    "medianPrice": 200000,
     "medianByType": {
-      "D": 345000,
-      "S": 225063,
+      "D": 348000,
+      "S": 231250,
       "T": 175000,
-      "F": 119000
+      "F": 118000
     },
-    "transactionCount12m": 549,
-    "yoyChange": -4.4,
-    "newBuildCount": 15,
-    "existingCount": 534,
+    "transactionCount12m": 615,
+    "yoyChange": -5.8,
+    "newBuildCount": 20,
+    "existingCount": 595,
     "newBuildPremium": 50
   },
   "recentTransactions": [
     {
-      "price": 240000,
-      "date": "2026-06-05",
-      "postcode": "NP44 8TE",
+      "price": 250000,
+      "date": "2026-07-20",
+      "postcode": "NP44 8RE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, LISWERRY DRIVE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-07-14",
+      "postcode": "NP44 2NX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "217, THE HIGHWAY"
+    },
+    {
+      "price": 137950,
+      "date": "2026-07-06",
+      "postcode": "NP44 4SR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, EARLS MEDE"
+    },
+    {
+      "price": 178000,
+      "date": "2026-07-03",
+      "postcode": "NP44 3EY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, OAKFIELD ROAD"
+    },
+    {
+      "price": 99000,
+      "date": "2026-07-01",
+      "postcode": "NP44 4NR",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "10, DRAYTON COURT"
+    },
+    {
+      "price": 660000,
+      "date": "2026-07-01",
+      "postcode": "NP44 6JN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, BLUEBELL COURT"
+    },
+    {
+      "price": 601000,
+      "date": "2026-06-30",
+      "postcode": "NP44 2DT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, HANFIELD PARK"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-30",
+      "postcode": "NP44 1AX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, MAINDEE TERRACE"
+    },
+    {
+      "price": 130000,
+      "date": "2026-06-29",
+      "postcode": "NP44 2JZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, AFON TERRACE"
+    },
+    {
+      "price": 290000,
+      "date": "2026-06-26",
+      "postcode": "NP44 7AY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, MILL HOUSE COURT"
+    },
+    {
+      "price": 47000,
+      "date": "2026-06-26",
+      "postcode": "NP44 7LQ",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "30, PENTRE CLOSE"
+    },
+    {
+      "price": 187550,
+      "date": "2026-06-26",
+      "postcode": "NP44 1LP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "91, TRINITY ROAD"
+    },
+    {
+      "price": 298750,
+      "date": "2026-06-26",
+      "postcode": "NP44 1DJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "45, STRYD CAMLAS"
+    },
+    {
+      "price": 275000,
+      "date": "2026-06-26",
+      "postcode": "NP44 3FH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "142, JAMES PROSSER WAY"
+    },
+    {
+      "price": 315500,
+      "date": "2026-06-25",
+      "postcode": "NP44 3FB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "131, CWRT CELYN"
+    },
+    {
+      "price": 433000,
+      "date": "2026-06-24",
+      "postcode": "NP44 8UE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WEST VIEW, CROWN ROAD"
+    },
+    {
+      "price": 280000,
+      "date": "2026-06-22",
+      "postcode": "NP44 5AD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, GRAIG VIEW, TRAM ROAD"
+    },
+    {
+      "price": 326500,
+      "date": "2026-06-19",
+      "postcode": "NP44 2PE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, LLANDEGVETH CLOSE"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-19",
+      "postcode": "NP44 8US",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "L",
-      "address": "51, WORCESTER CLOSE"
+      "address": "6, BATH GREEN"
     },
     {
-      "price": 205000,
-      "date": "2026-05-29",
-      "postcode": "NP44 3JW",
+      "price": 60000,
+      "date": "2026-06-19",
+      "postcode": "NP44 8SD",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "51, VICTORIA STREET"
-    },
-    {
-      "price": 135250,
-      "date": "2026-05-29",
-      "postcode": "NP44 8ST",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "16, CAERNARVON CRESCENT"
-    },
-    {
-      "price": 205000,
-      "date": "2026-05-28",
-      "postcode": "NP44 1RY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, CLARK AVENUE"
-    },
-    {
-      "price": 182500,
-      "date": "2026-05-26",
-      "postcode": "NP44 3DF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, BRANGWYN AVENUE"
-    },
-    {
-      "price": 305000,
-      "date": "2026-05-22",
-      "postcode": "NP44 1GD",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, HEOL EWEN"
-    },
-    {
-      "price": 191000,
-      "date": "2026-05-22",
-      "postcode": "NP44 1FE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, LLE EIRLYS"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-22",
-      "postcode": "NP44 7JR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, HOLLYBUSH CLOSE"
-    },
-    {
-      "price": 149000,
-      "date": "2026-05-22",
-      "postcode": "NP44 1HL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, NANT CELYN CLOSE"
-    },
-    {
-      "price": 152000,
-      "date": "2026-05-21",
-      "postcode": "NP44 2JB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "50, SNOWDON COURT"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-18",
-      "postcode": "NP44 4LF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "65, BOWLEAZE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-18",
-      "postcode": "NP44 3PW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "77, LLEWELLYN ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-18",
-      "postcode": "NP44 3NX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, KEATS CLOSE"
-    },
-    {
-      "price": 188000,
-      "date": "2026-05-15",
-      "postcode": "NP44 7HY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, GLYNTIRION"
-    },
-    {
-      "price": 398000,
-      "date": "2026-05-15",
-      "postcode": "NP44 7NZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "124, GIFFORD CLOSE"
-    },
-    {
-      "price": 163000,
-      "date": "2026-05-15",
-      "postcode": "NP44 4PX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, NEYLAND PATH"
-    },
-    {
-      "price": 269250,
-      "date": "2026-05-15",
-      "postcode": "NP44 2LJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "96, NORTH ROAD"
-    },
-    {
-      "price": 262500,
-      "date": "2026-05-13",
-      "postcode": "NP44 3GD",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "39, GRAYSON WAY"
-    },
-    {
-      "price": 317500,
-      "date": "2026-05-12",
-      "postcode": "NP44 3BG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "217, LLANTARNAM ROAD"
-    },
-    {
-      "price": 145000,
-      "date": "2026-05-08",
-      "postcode": "NP44 1LZ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, PORTHMAWR ROAD"
+      "address": "12, OGMORE PLACE"
     }
   ],
   "monthlyHistory": [
@@ -276,8 +276,8 @@
     },
     {
       "month": "2025-03",
-      "medianPrice": 215000,
-      "transactions": 77
+      "medianPrice": 215500,
+      "transactions": 78
     },
     {
       "month": "2025-04",
@@ -286,58 +286,58 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 226250,
-      "transactions": 60
+      "medianPrice": 222500,
+      "transactions": 61
     },
     {
       "month": "2025-06",
-      "medianPrice": 220000,
-      "transactions": 79
+      "medianPrice": 222500,
+      "transactions": 80
     },
     {
       "month": "2025-07",
-      "medianPrice": 195000,
-      "transactions": 59
+      "medianPrice": 197500,
+      "transactions": 60
     },
     {
       "month": "2025-08",
-      "medianPrice": 222500,
-      "transactions": 54
+      "medianPrice": 225000,
+      "transactions": 58
     },
     {
       "month": "2025-09",
-      "medianPrice": 205000,
-      "transactions": 67
+      "medianPrice": 200000,
+      "transactions": 74
     },
     {
       "month": "2025-10",
-      "medianPrice": 207500,
-      "transactions": 65
+      "medianPrice": 208750,
+      "transactions": 70
     },
     {
       "month": "2025-11",
-      "medianPrice": 185000,
-      "transactions": 49
+      "medianPrice": 183500,
+      "transactions": 50
     },
     {
       "month": "2025-12",
-      "medianPrice": 177500,
-      "transactions": 55
+      "medianPrice": 183000,
+      "transactions": 57
     },
     {
       "month": "2026-01",
-      "medianPrice": 213500,
-      "transactions": 24
+      "medianPrice": 210250,
+      "transactions": 31
     },
     {
       "month": "2026-02",
-      "medianPrice": 225000,
-      "transactions": 27
+      "medianPrice": 195000,
+      "transactions": 33
     },
     {
       "month": "2026-03",
-      "medianPrice": 211500,
-      "transactions": 22
+      "medianPrice": 198000,
+      "transactions": 23
     },
     {
       "month": "2026-04",
@@ -347,7 +347,7 @@
     {
       "month": "2026-05",
       "medianPrice": 175000,
-      "transactions": 29
+      "transactions": 32
     }
   ],
   "quarterlyHistory": [
@@ -373,28 +373,28 @@
     },
     {
       "quarter": "2025-Q1",
-      "medianPrice": 195000,
-      "transactions": 165
+      "medianPrice": 196250,
+      "transactions": 166
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 217000,
-      "transactions": 200
+      "transactions": 202
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 208500,
-      "transactions": 180
+      "transactions": 192
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 188345,
-      "transactions": 169
+      "transactions": 177
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 216000,
-      "transactions": 73
+      "medianPrice": 207500,
+      "transactions": 87
     }
   ]
 }

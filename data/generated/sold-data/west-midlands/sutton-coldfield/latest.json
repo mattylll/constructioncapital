@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:56.682Z",
+  "updatedAt": "2026-09-25T08:18:16.041Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "sutton-coldfield",
   "countySlug": "west-midlands",
@@ -8,199 +8,199 @@
     "BIRMINGHAM"
   ],
   "stats": {
-    "medianPrice": 362000,
+    "medianPrice": 360000,
     "medianByType": {
-      "D": 530000,
-      "S": 360000,
-      "T": 300000,
-      "F": 167000
+      "D": 525000,
+      "S": 357000,
+      "T": 297500,
+      "F": 165875
     },
-    "transactionCount12m": 1337,
-    "yoyChange": 1.8,
-    "newBuildCount": 17,
-    "existingCount": 1320,
-    "newBuildPremium": -3.3
+    "transactionCount12m": 1501,
+    "yoyChange": 1.3,
+    "newBuildCount": 21,
+    "existingCount": 1480,
+    "newBuildPremium": -4.2
   },
   "recentTransactions": [
     {
-      "price": 76000,
-      "date": "2026-06-23",
-      "postcode": "B74 2XH",
+      "price": 175000,
+      "date": "2026-07-24",
+      "postcode": "B74 2TX",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 35, MILLS COURT, 263, LICHFIELD ROAD"
+      "address": "APARTMENT 31, BAKER COURT, 188B, LICHFIELD ROAD"
     },
     {
-      "price": 375000,
-      "date": "2026-06-22",
-      "postcode": "B76 2RH",
+      "price": 500000,
+      "date": "2026-07-23",
+      "postcode": "B74 4NL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, FOUR OAKS COMMON ROAD"
+    },
+    {
+      "price": 237500,
+      "date": "2026-07-23",
+      "postcode": "B73 5JN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "31, LIME GROVE"
+    },
+    {
+      "price": 146000,
+      "date": "2026-07-23",
+      "postcode": "B72 1DD",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 5, HOLLYHURST COURT, 224, BIRMINGHAM ROAD"
+    },
+    {
+      "price": 775000,
+      "date": "2026-07-23",
+      "postcode": "B75 6SU",
       "propertyType": "D",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, WOODBERRY DRIVE"
+      "address": "219, DOWER ROAD"
     },
     {
-      "price": 290000,
-      "date": "2026-06-19",
-      "postcode": "B74 2XR",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 14, BEECHCROFT COURT, FOUR OAKS ROAD"
-    },
-    {
-      "price": 335000,
-      "date": "2026-06-19",
-      "postcode": "B73 5XL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "326B, JOCKEY ROAD"
-    },
-    {
-      "price": 458000,
-      "date": "2026-06-19",
-      "postcode": "B75 5PG",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "44, SLADE ROAD"
-    },
-    {
-      "price": 355000,
-      "date": "2026-06-18",
-      "postcode": "B75 7PD",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "374, RECTORY ROAD"
-    },
-    {
-      "price": 315000,
-      "date": "2026-06-16",
-      "postcode": "B75 7SN",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "21, HOLLYFIELD ROAD"
-    },
-    {
-      "price": 260000,
-      "date": "2026-06-16",
+      "price": 485000,
+      "date": "2026-07-22",
       "postcode": "B74 4JD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, WYNDLEY CLOSE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-07-20",
+      "postcode": "B72 1NZ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, CHAVASSE ROAD"
+    },
+    {
+      "price": 485000,
+      "date": "2026-07-17",
+      "postcode": "B72 1HX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, SHOOTERS HILL"
+    },
+    {
+      "price": 220000,
+      "date": "2026-07-17",
+      "postcode": "B75 7AG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, RILAND AVENUE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-07-17",
+      "postcode": "B75 7NF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, GOODEVE WALK"
+    },
+    {
+      "price": 525000,
+      "date": "2026-07-15",
+      "postcode": "B75 6DH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "52, TAMWORTH ROAD"
+    },
+    {
+      "price": 501000,
+      "date": "2026-07-10",
+      "postcode": "B73 5SP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, WESTERN ROAD"
+    },
+    {
+      "price": 672500,
+      "date": "2026-07-10",
+      "postcode": "B74 4YG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "41, TENNYSON AVENUE"
+    },
+    {
+      "price": 382500,
+      "date": "2026-07-10",
+      "postcode": "B76 2BT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, HORSFALL DRIVE"
+    },
+    {
+      "price": 72500,
+      "date": "2026-07-10",
+      "postcode": "B74 4LP",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 21, 40, WYNDLEY CLOSE"
+      "address": "FLAT 3, CLARENCE COURT, 272, CLARENCE ROAD"
     },
     {
-      "price": 256000,
-      "date": "2026-06-13",
-      "postcode": "B73 5LQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "70, MOORFIELD DRIVE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-06-12",
-      "postcode": "B72 1RJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, DUKE STREET"
-    },
-    {
-      "price": 270000,
-      "date": "2026-06-12",
-      "postcode": "B75 7JS",
+      "price": 280000,
+      "date": "2026-07-10",
+      "postcode": "B75 7HE",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "98, WHEATMOOR ROAD"
+      "address": "7, GUNNER GROVE"
     },
     {
-      "price": 685000,
-      "date": "2026-06-12",
-      "postcode": "B72 1JX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "204, MANEY HILL ROAD"
-    },
-    {
-      "price": 298000,
-      "date": "2026-06-12",
-      "postcode": "B76 1HH",
+      "price": 300000,
+      "date": "2026-07-09",
+      "postcode": "B73 5BB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "55, PLANTS BROOK ROAD"
+      "address": "139, CHESTER ROAD"
     },
     {
-      "price": 370000,
-      "date": "2026-06-12",
-      "postcode": "B75 7BW",
+      "price": 300000,
+      "date": "2026-07-09",
+      "postcode": "B73 5BB",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "1, RECTORY PARK CLOSE"
+      "address": "137, CHESTER ROAD"
     },
     {
-      "price": 272000,
-      "date": "2026-06-11",
-      "postcode": "B75 5HB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "91, GIBBONS ROAD"
-    },
-    {
-      "price": 352500,
-      "date": "2026-06-10",
-      "postcode": "B74 4LW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, HOOK DRIVE"
-    },
-    {
-      "price": 245000,
-      "date": "2026-06-10",
-      "postcode": "B73 5UL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "147, BOLDMERE ROAD"
-    },
-    {
-      "price": 335000,
-      "date": "2026-06-09",
-      "postcode": "B76 2BH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, SWALE ROAD"
-    },
-    {
-      "price": 39000,
-      "date": "2026-06-09",
-      "postcode": "B74 4TR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "60, BELWELL LANE"
-    },
-    {
-      "price": 186500,
-      "date": "2026-06-08",
-      "postcode": "B73 5QG",
+      "price": 156000,
+      "date": "2026-07-08",
+      "postcode": "B73 5GB",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "73, WILKINSON CLOSE"
+      "address": "FLAT 15, STEEPLE LODGE, 20, CHURCH ROAD"
+    },
+    {
+      "price": 140000,
+      "date": "2026-07-07",
+      "postcode": "B74 4DB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 17, BALFOUR COURT, 361, LICHFIELD ROAD"
     }
   ],
   "monthlyHistory": [
@@ -211,8 +211,8 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 368125,
-      "transactions": 96
+      "medianPrice": 365000,
+      "transactions": 97
     },
     {
       "month": "2024-03",
@@ -302,22 +302,22 @@
     {
       "month": "2025-08",
       "medianPrice": 345000,
-      "transactions": 149
+      "transactions": 153
     },
     {
       "month": "2025-09",
-      "medianPrice": 366000,
-      "transactions": 94
+      "medianPrice": 371750,
+      "transactions": 106
     },
     {
       "month": "2025-10",
-      "medianPrice": 370000,
-      "transactions": 132
+      "medianPrice": 355000,
+      "transactions": 143
     },
     {
       "month": "2025-11",
-      "medianPrice": 372500,
-      "transactions": 126
+      "medianPrice": 368500,
+      "transactions": 129
     },
     {
       "month": "2025-12",
@@ -326,35 +326,35 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 352500,
-      "transactions": 84
+      "medianPrice": 355000,
+      "transactions": 91
     },
     {
       "month": "2026-02",
-      "medianPrice": 360000,
-      "transactions": 115
+      "medianPrice": 367500,
+      "transactions": 128
     },
     {
       "month": "2026-03",
       "medianPrice": 360000,
-      "transactions": 95
+      "transactions": 104
     },
     {
       "month": "2026-04",
-      "medianPrice": 372500,
-      "transactions": 62
+      "medianPrice": 365000,
+      "transactions": 65
     },
     {
       "month": "2026-05",
-      "medianPrice": 392500,
-      "transactions": 76
+      "medianPrice": 386000,
+      "transactions": 85
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
       "medianPrice": 340000,
-      "transactions": 274
+      "transactions": 275
     },
     {
       "quarter": "2024-Q2",
@@ -383,18 +383,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 356625,
-      "transactions": 386
+      "medianPrice": 355500,
+      "transactions": 402
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 375000,
-      "transactions": 365
+      "medianPrice": 370000,
+      "transactions": 379
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 358500,
-      "transactions": 294
+      "medianPrice": 360000,
+      "transactions": 323
     }
   ]
 }

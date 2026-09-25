@@ -5,7 +5,7 @@ import { SITE_URL } from "@/lib/constants";
 import { CALCULATORS } from "@/lib/calculators";
 import { CASE_STUDIES } from "@/lib/case-studies";
 import { GUIDES } from "@/lib/guides";
-import { MARKET_REPORTS } from "@/lib/market-reports";
+import { MARKET_REPORTS, isSupersededEdition } from "@/lib/market-reports";
 import { TOP_50_LOCATIONS } from "@/lib/market-intelligence-locations";
 import { SERVICES } from "@/lib/services";
 import { UK_COUNTIES } from "@/lib/uk-locations-data";
@@ -234,7 +234,11 @@ function buildMarketReports(): SitemapUrl[] {
       changefreq: "weekly",
       priority: 0.9,
     },
-    ...MARKET_REPORTS.map((report) => ({
+    // Superseded editions (older county/town/regional reports with a newer
+    // successor) stay live and crawlable via direct link and internal
+    // canonical, but aren't submitted in the sitemap — only the current
+    // edition per location should be offered to crawlers for indexing.
+    ...MARKET_REPORTS.filter((report) => !isSupersededEdition(report)).map((report) => ({
       url: `${SITE_URL}/market-reports/${report.slug}`,
       lastmod: report.dateModified ?? today,
       changefreq: "monthly",

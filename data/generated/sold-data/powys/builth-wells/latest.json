@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:58.392Z",
+  "updatedAt": "2026-09-25T08:18:18.537Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "builth-wells",
   "countySlug": "powys",
@@ -8,19 +8,64 @@
     "POWYS"
   ],
   "stats": {
-    "medianPrice": 267500,
+    "medianPrice": 275000,
     "medianByType": {
-      "D": 352500,
-      "S": 248500,
+      "D": 355000,
+      "S": 222000,
       "T": 177500
     },
-    "transactionCount12m": 66,
-    "yoyChange": 6.8,
+    "transactionCount12m": 73,
+    "yoyChange": 9.8,
     "newBuildCount": 0,
-    "existingCount": 66,
+    "existingCount": 73,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 210000,
+      "date": "2026-07-24",
+      "postcode": "LD2 3BN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, CASTLE STREET"
+    },
+    {
+      "price": 560000,
+      "date": "2026-07-08",
+      "postcode": "LD2 3YX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CROSS HOUSE"
+    },
+    {
+      "price": 315000,
+      "date": "2026-07-02",
+      "postcode": "LD2 3PW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CWMCHWEFRU OLD FARM HOUSE"
+    },
+    {
+      "price": 360000,
+      "date": "2026-06-25",
+      "postcode": "LD2 3JZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, CASTLE MEADOW"
+    },
+    {
+      "price": 375000,
+      "date": "2026-06-24",
+      "postcode": "LD2 3ER",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, ORCHARDS, OAKLANDS"
+    },
     {
       "price": 158000,
       "date": "2026-05-29",
@@ -85,15 +130,6 @@
       "address": "28, WYE VIEW"
     },
     {
-      "price": 212000,
-      "date": "2026-03-06",
-      "postcode": "LD2 3EJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, PLEASANT VIEW"
-    },
-    {
       "price": 385000,
       "date": "2026-03-06",
       "postcode": "LD2 3BE",
@@ -110,6 +146,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "DOLEGLWYS, GOLF LINKS ROAD"
+    },
+    {
+      "price": 212000,
+      "date": "2026-03-06",
+      "postcode": "LD2 3EJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, PLEASANT VIEW"
+    },
+    {
+      "price": 620000,
+      "date": "2026-02-19",
+      "postcode": "LD2 3TL",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CWMAMLIW FARM"
     },
     {
       "price": 479998,
@@ -130,15 +184,6 @@
       "address": "5, IRFON BRIDGE CLOSE"
     },
     {
-      "price": 320000,
-      "date": "2026-01-21",
-      "postcode": "LD2 3AY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, PARK ROAD"
-    },
-    {
       "price": 222000,
       "date": "2026-01-21",
       "postcode": "LD2 3FE",
@@ -148,58 +193,13 @@
       "address": "23, TROED Y BRYN"
     },
     {
-      "price": 275000,
-      "date": "2026-01-06",
-      "postcode": "LD2 3DB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "WYE VALE, 22, BROADWAY"
-    },
-    {
-      "price": 350000,
-      "date": "2025-12-15",
-      "postcode": "LD2 3HP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "TY BRYN"
-    },
-    {
-      "price": 285000,
-      "date": "2025-12-08",
-      "postcode": "LD2 3NY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, YNYSVIEW"
-    },
-    {
-      "price": 240000,
-      "date": "2025-12-05",
-      "postcode": "LD2 3UQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BROOMFIELD"
-    },
-    {
-      "price": 425000,
-      "date": "2025-12-03",
-      "postcode": "LD2 3EQ",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE PARK"
-    },
-    {
-      "price": 185000,
-      "date": "2025-12-02",
-      "postcode": "LD2 3UH",
+      "price": 320000,
+      "date": "2026-01-21",
+      "postcode": "LD2 3AY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "7, EDW CRESCENT"
+      "address": "7, PARK ROAD"
     }
   ],
   "monthlyHistory": [
@@ -310,8 +310,8 @@
     },
     {
       "month": "2025-10",
-      "medianPrice": 327500,
-      "transactions": 9
+      "medianPrice": 341250,
+      "transactions": 10
     },
     {
       "month": "2025-11",
@@ -327,6 +327,11 @@
       "month": "2026-01",
       "medianPrice": 320000,
       "transactions": 5
+    },
+    {
+      "month": "2026-02",
+      "medianPrice": 620000,
+      "transactions": 1
     },
     {
       "month": "2026-03",
@@ -382,13 +387,13 @@
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 295000,
-      "transactions": 20
+      "medianPrice": 305000,
+      "transactions": 21
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 297500,
-      "transactions": 10
+      "medianPrice": 320000,
+      "transactions": 11
     }
   ]
 }

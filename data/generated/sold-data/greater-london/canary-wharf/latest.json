@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:55.302Z",
+  "updatedAt": "2026-09-25T08:18:13.974Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "canary-wharf",
   "countySlug": "greater-london",
@@ -11,203 +11,203 @@
     "medianPrice": 475000,
     "medianByType": {
       "D": 1150000,
-      "S": 756500,
-      "T": 811250,
-      "F": 453550
+      "S": 760000,
+      "T": 815250,
+      "F": 450000
     },
-    "transactionCount12m": 2576,
+    "transactionCount12m": 2883,
     "yoyChange": -7.6,
-    "newBuildCount": 210,
-    "existingCount": 2366,
-    "newBuildPremium": 65.4
+    "newBuildCount": 244,
+    "existingCount": 2639,
+    "newBuildPremium": 66.2
   },
   "recentTransactions": [
     {
-      "price": 600000,
-      "date": "2026-06-29",
-      "postcode": "E14 3EU",
+      "price": 336000,
+      "date": "2026-07-29",
+      "postcode": "E1 1LF",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 805, DRYDEN BUILDING, 37, COMMERCIAL ROAD"
+    },
+    {
+      "price": 628000,
+      "date": "2026-07-29",
+      "postcode": "E14 3WG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "354, ST DAVIDS SQUARE"
+    },
+    {
+      "price": 470000,
+      "date": "2026-07-24",
+      "postcode": "E1W 1LG",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 82, MATILDA HOUSE, ST KATHARINES WAY"
+    },
+    {
+      "price": 601000,
+      "date": "2026-07-23",
+      "postcode": "E2 9RP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "12, KEDLESTON WALK"
+    },
+    {
+      "price": 500000,
+      "date": "2026-07-23",
+      "postcode": "E14 8AX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 26, DUNDEE WHARF, 100, THREE COLT STREET"
+    },
+    {
+      "price": 631000,
+      "date": "2026-07-22",
+      "postcode": "E2 7ET",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 16, WALTON HOUSE, MONTCLARE STREET"
+    },
+    {
+      "price": 425000,
+      "date": "2026-07-20",
+      "postcode": "E14 7DW",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "164, PIGOTT STREET"
+    },
+    {
+      "price": 885000,
+      "date": "2026-07-17",
+      "postcode": "E3 5QU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "5, CAPSTAN SQUARE"
+      "address": "73, ELLESMERE ROAD"
+    },
+    {
+      "price": 790000,
+      "date": "2026-07-17",
+      "postcode": "E14 9YB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "61, BARNFIELD PLACE"
+    },
+    {
+      "price": 220000,
+      "date": "2026-07-17",
+      "postcode": "E14 6JJ",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "40B, EAST INDIA DOCK ROAD"
+    },
+    {
+      "price": 300000,
+      "date": "2026-07-17",
+      "postcode": "E2 0SS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 13, HAROLD HOUSE, MACE STREET"
+    },
+    {
+      "price": 625000,
+      "date": "2026-07-15",
+      "postcode": "E14 9WS",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 807, HAMPTON TOWER, 75, MARSH WALL"
+    },
+    {
+      "price": 615000,
+      "date": "2026-07-15",
+      "postcode": "E3 4US",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 103, GUARDIAN APARTMENTS, 20, KEVTAR GARDEN"
     },
     {
       "price": 450000,
-      "date": "2026-06-23",
-      "postcode": "E1 3FJ",
+      "date": "2026-07-15",
+      "postcode": "E14 7FY",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 201, KILN HOUSE, 8, KILLICK WAY"
+      "address": "FLAT 602, INGOT TOWER, 28, URSULA GOULD WAY"
     },
     {
-      "price": 308000,
-      "date": "2026-06-23",
-      "postcode": "E3 2GP",
+      "price": 600000,
+      "date": "2026-07-15",
+      "postcode": "E14 9WS",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 4, BEVAN COURT, 246, TREDEGAR ROAD"
+      "address": "APARTMENT 507, HAMPTON TOWER, 75, MARSH WALL"
     },
     {
-      "price": 620000,
-      "date": "2026-06-22",
-      "postcode": "E3 2ZR",
+      "price": 550000,
+      "date": "2026-07-15",
+      "postcode": "E14 0XG",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 105, WINSOR BUILDING, 17, WYKE ROAD"
+      "address": "FLAT 702, RENDEL HOUSE, 20, GOODLUCK HOPE WALK"
     },
     {
-      "price": 385000,
-      "date": "2026-06-22",
-      "postcode": "E14 3LB",
+      "price": 240000,
+      "date": "2026-07-15",
+      "postcode": "E3 2UT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 11, ELM HOUSE, EAST FERRY ROAD"
+      "address": "FLAT 15 PARK EAST BUILDING, BOW QUARTER, 60, FAIRFIELD ROAD"
     },
     {
-      "price": 435000,
-      "date": "2026-06-19",
-      "postcode": "E3 3LG",
+      "price": 310000,
+      "date": "2026-07-15",
+      "postcode": "E1W 3RT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 803, SARGASSO COURT, 30, VOYSEY SQUARE"
+      "address": "FLAT 20, DOUGHTY COURT, PRUSOM STREET"
     },
     {
-      "price": 500000,
-      "date": "2026-06-19",
-      "postcode": "E2 8FU",
+      "price": 465000,
+      "date": "2026-07-14",
+      "postcode": "E1 3BT",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "APARTMENT 204, GRACE ALLEN COURT, 16, GOLDSMITHS ROW"
+      "address": "FLAT 11, 6, TRINITY MEWS"
     },
     {
-      "price": 605000,
-      "date": "2026-06-19",
-      "postcode": "E1W 3SJ",
+      "price": 515000,
+      "date": "2026-07-14",
+      "postcode": "E14 8EJ",
       "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 47, MERCHANT COURT, 61, WAPPING WALL"
-    },
-    {
-      "price": 815000,
-      "date": "2026-06-18",
-      "postcode": "E1W 1NG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 66, CINNABAR WHARF EAST, 28, WAPPING HIGH STREET"
-    },
-    {
-      "price": 334500,
-      "date": "2026-06-17",
-      "postcode": "E1W 2NB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 13, 78, WAPPING HIGH STREET"
-    },
-    {
-      "price": 270000,
-      "date": "2026-06-17",
-      "postcode": "E14 9HN",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1011, 3, PAN PENINSULA SQUARE"
-    },
-    {
-      "price": 345000,
-      "date": "2026-06-16",
-      "postcode": "E14 6EQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "19, RICARDO STREET"
-    },
-    {
-      "price": 540000,
-      "date": "2026-06-16",
-      "postcode": "E2 6NQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 7, ADRIAN BOULT HOUSE, 125, MANSFORD STREET"
-    },
-    {
-      "price": 390000,
-      "date": "2026-06-16",
-      "postcode": "E14 8RH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "APARTMENT 25, HANOVER HOUSE, 32, WESTFERRY CIRCUS"
-    },
-    {
-      "price": 391000,
-      "date": "2026-06-15",
-      "postcode": "E14 6GH",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 207, CELESTIAL HOUSE, 153, CORDELIA STREET"
-    },
-    {
-      "price": 349000,
-      "date": "2026-06-15",
-      "postcode": "E3 4YG",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 505, PORCELAIN HOUSE, 20, ST PAULS WAY"
-    },
-    {
-      "price": 95000,
-      "date": "2026-06-12",
-      "postcode": "E3 3YF",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 19, JOLLES HOUSE, 90, BROMLEY HIGH STREET"
-    },
-    {
-      "price": 500000,
-      "date": "2026-06-12",
-      "postcode": "E14 3NW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1106, HERITAGE TOWER, 118, EAST FERRY ROAD"
-    },
-    {
-      "price": 380000,
-      "date": "2026-06-12",
-      "postcode": "E1 5QZ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 15, STEEPLE COURT, COVENTRY ROAD"
-    },
-    {
-      "price": 495000,
-      "date": "2026-06-11",
-      "postcode": "E1 3JJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "46, STEPNEY GREEN"
+      "address": "FLAT 5, LAMB COURT, 69, NARROW STREET"
     }
   ],
   "monthlyHistory": [
     {
       "month": "2024-01",
       "medianPrice": 450000,
-      "transactions": 185
+      "transactions": 186
     },
     {
       "month": "2024-02",
@@ -241,8 +241,8 @@
     },
     {
       "month": "2024-08",
-      "medianPrice": 496554,
-      "transactions": 451
+      "medianPrice": 499172,
+      "transactions": 454
     },
     {
       "month": "2024-09",
@@ -252,12 +252,12 @@
     {
       "month": "2024-10",
       "medianPrice": 560000,
-      "transactions": 439
+      "transactions": 443
     },
     {
       "month": "2024-11",
-      "medianPrice": 555000,
-      "transactions": 349
+      "medianPrice": 553000,
+      "transactions": 350
     },
     {
       "month": "2024-12",
@@ -267,7 +267,7 @@
     {
       "month": "2025-01",
       "medianPrice": 460000,
-      "transactions": 263
+      "transactions": 264
     },
     {
       "month": "2025-02",
@@ -277,7 +277,7 @@
     {
       "month": "2025-03",
       "medianPrice": 500000,
-      "transactions": 672
+      "transactions": 673
     },
     {
       "month": "2025-04",
@@ -286,75 +286,75 @@
     },
     {
       "month": "2025-05",
-      "medianPrice": 498075,
-      "transactions": 187
+      "medianPrice": 494000,
+      "transactions": 189
     },
     {
       "month": "2025-06",
-      "medianPrice": 518750,
-      "transactions": 314
+      "medianPrice": 520000,
+      "transactions": 316
     },
     {
       "month": "2025-07",
-      "medianPrice": 535000,
-      "transactions": 325
+      "medianPrice": 530000,
+      "transactions": 330
     },
     {
       "month": "2025-08",
-      "medianPrice": 482750,
-      "transactions": 294
+      "medianPrice": 483000,
+      "transactions": 301
     },
     {
       "month": "2025-09",
-      "medianPrice": 483750,
-      "transactions": 248
+      "medianPrice": 493440,
+      "transactions": 275
     },
     {
       "month": "2025-10",
-      "medianPrice": 466750,
-      "transactions": 204
+      "medianPrice": 475000,
+      "transactions": 226
     },
     {
       "month": "2025-11",
-      "medianPrice": 457500,
-      "transactions": 216
+      "medianPrice": 452500,
+      "transactions": 220
     },
     {
       "month": "2025-12",
       "medianPrice": 441500,
-      "transactions": 201
+      "transactions": 207
     },
     {
       "month": "2026-01",
       "medianPrice": 450000,
-      "transactions": 161
+      "transactions": 185
     },
     {
       "month": "2026-02",
-      "medianPrice": 430000,
-      "transactions": 131
+      "medianPrice": 434000,
+      "transactions": 153
     },
     {
       "month": "2026-03",
-      "medianPrice": 460000,
-      "transactions": 189
+      "medianPrice": 450000,
+      "transactions": 212
     },
     {
       "month": "2026-04",
       "medianPrice": 450000,
-      "transactions": 122
+      "transactions": 130
     },
     {
       "month": "2026-05",
-      "medianPrice": 432500,
-      "transactions": 129
+      "medianPrice": 433750,
+      "transactions": 144
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 450000,
-      "transactions": 663
+      "medianPrice": 451125,
+      "transactions": 664
     },
     {
       "quarter": "2024-Q2",
@@ -364,37 +364,37 @@
     {
       "quarter": "2024-Q3",
       "medianPrice": 515000,
-      "transactions": 1144
+      "transactions": 1147
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 541111,
-      "transactions": 1081
+      "medianPrice": 540701,
+      "transactions": 1086
     },
     {
       "quarter": "2025-Q1",
       "medianPrice": 483750,
-      "transactions": 1206
+      "transactions": 1208
     },
     {
       "quarter": "2025-Q2",
       "medianPrice": 500000,
-      "transactions": 629
+      "transactions": 633
     },
     {
       "quarter": "2025-Q3",
       "medianPrice": 500000,
-      "transactions": 867
+      "transactions": 906
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 455000,
-      "transactions": 621
+      "medianPrice": 460000,
+      "transactions": 653
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 450000,
-      "transactions": 481
+      "transactions": 550
     }
   ]
 }

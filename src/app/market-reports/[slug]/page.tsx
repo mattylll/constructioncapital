@@ -15,6 +15,7 @@ import {
   MARKET_REPORTS,
   getReportBySlug,
   getRelatedReports,
+  getCanonicalReport,
 } from "@/lib/market-reports";
 import { SERVICES } from "@/lib/services";
 import {
@@ -39,11 +40,18 @@ export async function generateMetadata({
 
   if (!report) return { title: "Report Not Found" };
 
+  // A superseded edition (e.g. an April report with an H1 2026 successor)
+  // stays live at its original URL with its original numbers — cited links
+  // must never break — but canonicalises to its successor so the two don't
+  // compete as duplicate content. The current edition canonicalises to
+  // itself, unchanged from before.
+  const canonicalSlug = getCanonicalReport(report).slug;
+
   return {
     title: report.metaTitle,
     description: report.metaDescription,
     alternates: {
-      canonical: `${SITE_URL}/market-reports/${slug}`,
+      canonical: `${SITE_URL}/market-reports/${canonicalSlug}`,
     },
     openGraph: {
       title: report.metaTitle,
@@ -78,6 +86,17 @@ export default async function MarketReportPage({ params }: PageProps) {
   if (!report) notFound();
 
   const relatedReports = getRelatedReports(slug);
+  // Superseded editions stay live at their original URL with their original numbers, so cited
+  // links never break, but readers are pointed at the current edition. The H1 2026 county, town
+  // and regional editions also carry a correction: their planning figures counted follow-on
+  // filings (condition discharges, S106 submissions) that restated earlier schemes, found and
+  // fixed 2026-09-23.
+  const currentEdition = getCanonicalReport(report);
+  const isSuperseded = currentEdition.slug !== report.slug;
+  const hasPlanningCorrection =
+    isSuperseded &&
+    slug.endsWith("-h1-2026") &&
+    (report.category === "county" || report.category === "town" || report.category === "regional");
   const relatedServices = report.relatedServiceSlugs
     .map((s) => SERVICES.find((svc) => svc.slug === s))
     .filter(Boolean);
@@ -229,6 +248,28 @@ export default async function MarketReportPage({ params }: PageProps) {
       {/* Article Content */}
       <EditorialSection tone="paper">
         <div className="mx-auto max-w-3xl">
+          {isSuperseded && (
+            <aside
+              className="mb-12 border-l-2 py-4 pl-5 text-[15px] leading-relaxed"
+              style={{ borderColor: "var(--gold-dark)", background: "var(--stone)" }}
+            >
+              <p className="font-medium">
+                A newer edition of this report is available:{" "}
+                <Link href={`/market-reports/${currentEdition.slug}`} className="editorial-link">
+                  {currentEdition.title}
+                </Link>
+                .
+              </p>
+              {hasPlanningCorrection && (
+                <p className="mt-2">
+                  Correction: the planning figures in this edition included follow-on applications,
+                  such as condition discharges and section 106 submissions, that restated schemes
+                  already approved. This overstated approvals and pipeline units in some areas. The
+                  newer edition uses corrected figures.
+                </p>
+              )}
+            </aside>
+          )}
           {/* Table of contents */}
           <nav
             className="mb-16 border-y py-6"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:58.007Z",
+  "updatedAt": "2026-09-25T08:18:17.907Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "attleborough",
   "countySlug": "norfolk",
@@ -8,20 +8,173 @@
     "BRECKLAND"
   ],
   "stats": {
-    "medianPrice": 263500,
+    "medianPrice": 265000,
     "medianByType": {
-      "D": 342500,
-      "S": 247000,
-      "T": 210000,
+      "D": 350000,
+      "S": 242750,
+      "T": 211250,
       "F": 127500
     },
-    "transactionCount12m": 318,
-    "yoyChange": -10.8,
-    "newBuildCount": 8,
-    "existingCount": 310,
-    "newBuildPremium": 0.4
+    "transactionCount12m": 363,
+    "yoyChange": -10.3,
+    "newBuildCount": 11,
+    "existingCount": 352,
+    "newBuildPremium": 1.8
   },
   "recentTransactions": [
+    {
+      "price": 210000,
+      "date": "2026-07-24",
+      "postcode": "NR17 1XP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, SPEEDWELL CLOSE"
+    },
+    {
+      "price": 750000,
+      "date": "2026-07-08",
+      "postcode": "NR17 1DS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "WOODSIDE, HARGHAM ROAD"
+    },
+    {
+      "price": 230000,
+      "date": "2026-07-07",
+      "postcode": "NR17 1FW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, GREENFIELD DRIVE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-07-02",
+      "postcode": "NR17 1GJ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "6, BRIMSTONE CLOSE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-07-02",
+      "postcode": "NR17 1TE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "50, POPPY WAY"
+    },
+    {
+      "price": 330000,
+      "date": "2026-07-01",
+      "postcode": "NR17 1HT",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "COOKS CROFT, MILL LANE"
+    },
+    {
+      "price": 157500,
+      "date": "2026-07-01",
+      "postcode": "NR17 1QU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, WORCESTER WAY"
+    },
+    {
+      "price": 310000,
+      "date": "2026-07-01",
+      "postcode": "NR17 2HA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, HOLLY ROAD"
+    },
+    {
+      "price": 262500,
+      "date": "2026-07-01",
+      "postcode": "NR17 2PN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, PRIMROSE CLOSE"
+    },
+    {
+      "price": 350000,
+      "date": "2026-06-30",
+      "postcode": "NR17 1FU",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, CHERRY CLOSE"
+    },
+    {
+      "price": 625000,
+      "date": "2026-06-30",
+      "postcode": "NR17 2LA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "ASHTREES, NORWICH ROAD"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-30",
+      "postcode": "NR17 1DG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "PINE VIEW COTTAGE, NORTH ACRE"
+    },
+    {
+      "price": 320000,
+      "date": "2026-06-26",
+      "postcode": "NR17 2JH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "40, RYE LANE"
+    },
+    {
+      "price": 257500,
+      "date": "2026-06-26",
+      "postcode": "NR17 2EL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "51, EDENSIDE DRIVE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-06-26",
+      "postcode": "NR17 1HZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "CHICANE, WATTON ROAD"
+    },
+    {
+      "price": 245000,
+      "date": "2026-06-26",
+      "postcode": "NR17 2PZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, LAVENDER CLOSE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-06-26",
+      "postcode": "NR17 2RQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, HAMMOND WAY"
+    },
     {
       "price": 130000,
       "date": "2026-06-25",
@@ -32,6 +185,15 @@
       "address": "5, EDWARDS COURT, QUEENS ROAD"
     },
     {
+      "price": 370000,
+      "date": "2026-06-23",
+      "postcode": "NR17 1GR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, NUTHATCH WAY"
+    },
+    {
       "price": 195000,
       "date": "2026-06-22",
       "postcode": "NR17 2QP",
@@ -39,168 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "13, ASH TREE CLOSE"
-    },
-    {
-      "price": 120000,
-      "date": "2026-06-19",
-      "postcode": "NR17 2DJ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 9, HAILEY HOUSE, LONDON ROAD"
-    },
-    {
-      "price": 257000,
-      "date": "2026-06-18",
-      "postcode": "NR17 1GU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, TORTOISESHELL DRIVE"
-    },
-    {
-      "price": 750000,
-      "date": "2026-06-09",
-      "postcode": "NR17 1DS",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "HONEYBEE HOUSE, HARGHAM ROAD"
-    },
-    {
-      "price": 227000,
-      "date": "2026-06-08",
-      "postcode": "NR17 2JN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, ROSECROFT"
-    },
-    {
-      "price": 245000,
-      "date": "2026-06-05",
-      "postcode": "NR17 1FW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, GREENFIELD DRIVE"
-    },
-    {
-      "price": 290000,
-      "date": "2026-06-02",
-      "postcode": "NR17 1FZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, MUSTANG WAY"
-    },
-    {
-      "price": 242500,
-      "date": "2026-05-29",
-      "postcode": "NR17 2JQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "80, CLOVER ROAD"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-29",
-      "postcode": "NR17 2JW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52F, CHAPEL ROAD"
-    },
-    {
-      "price": 300000,
-      "date": "2026-05-29",
-      "postcode": "NR17 2NF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, ARLINGTON CLOSE"
-    },
-    {
-      "price": 521400,
-      "date": "2026-05-22",
-      "postcode": "NR17 1SR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SOUTHVIEW, FEN STREET"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-22",
-      "postcode": "NR17 1YF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "18, KEELING WAY"
-    },
-    {
-      "price": 190000,
-      "date": "2026-05-22",
-      "postcode": "NR17 1DY",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, WATTON ROAD"
-    },
-    {
-      "price": 125000,
-      "date": "2026-05-21",
-      "postcode": "NR17 2AW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, COURT LODGE, SURROGATE STREET"
-    },
-    {
-      "price": 230000,
-      "date": "2026-05-19",
-      "postcode": "NR17 2JR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, POPLAR WAY"
-    },
-    {
-      "price": 275000,
-      "date": "2026-05-15",
-      "postcode": "NR17 1FR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, LANCASTER ROAD"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-13",
-      "postcode": "NR17 2LB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "AVONDALE, NORWICH ROAD"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-08",
-      "postcode": "NR17 1FZ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, MUSTANG WAY"
-    },
-    {
-      "price": 243500,
-      "date": "2026-05-08",
-      "postcode": "NR17 2HR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, THIEVES LANE"
     }
   ],
   "monthlyHistory": [
@@ -211,8 +211,8 @@
     },
     {
       "month": "2024-02",
-      "medianPrice": 395000,
-      "transactions": 18
+      "medianPrice": 410000,
+      "transactions": 19
     },
     {
       "month": "2024-03",
@@ -301,18 +301,18 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 270000,
-      "transactions": 32
+      "medianPrice": 275000,
+      "transactions": 33
     },
     {
       "month": "2025-09",
-      "medianPrice": 287000,
-      "transactions": 37
+      "medianPrice": 295000,
+      "transactions": 43
     },
     {
       "month": "2025-10",
-      "medianPrice": 317500,
-      "transactions": 40
+      "medianPrice": 310000,
+      "transactions": 41
     },
     {
       "month": "2025-11",
@@ -322,22 +322,22 @@
     {
       "month": "2025-12",
       "medianPrice": 235000,
-      "transactions": 24
+      "transactions": 25
     },
     {
       "month": "2026-01",
-      "medianPrice": 272500,
-      "transactions": 12
+      "medianPrice": 250000,
+      "transactions": 16
     },
     {
       "month": "2026-02",
-      "medianPrice": 262500,
-      "transactions": 20
+      "medianPrice": 265000,
+      "transactions": 24
     },
     {
       "month": "2026-03",
       "medianPrice": 255000,
-      "transactions": 25
+      "transactions": 29
     },
     {
       "month": "2026-04",
@@ -347,14 +347,14 @@
     {
       "month": "2026-05",
       "medianPrice": 230000,
-      "transactions": 13
+      "transactions": 15
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 322500,
-      "transactions": 68
+      "medianPrice": 325000,
+      "transactions": 69
     },
     {
       "quarter": "2024-Q2",
@@ -383,18 +383,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 284250,
-      "transactions": 96
+      "medianPrice": 285000,
+      "transactions": 103
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 280000,
-      "transactions": 96
+      "transactions": 98
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 260000,
-      "transactions": 57
+      "transactions": 69
     }
   ]
 }

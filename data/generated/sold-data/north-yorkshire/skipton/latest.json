@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:57.744Z",
+  "updatedAt": "2026-09-25T08:18:17.536Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "skipton",
   "countySlug": "north-yorkshire",
@@ -9,20 +9,173 @@
     "CRAVEN"
   ],
   "stats": {
-    "medianPrice": 265000,
+    "medianPrice": 270000,
     "medianByType": {
       "D": 495000,
-      "S": 316000,
+      "S": 321000,
       "T": 201000,
-      "F": 176000
+      "F": 178000
     },
-    "transactionCount12m": 552,
-    "yoyChange": -5.3,
-    "newBuildCount": 15,
-    "existingCount": 537,
-    "newBuildPremium": 69.2
+    "transactionCount12m": 611,
+    "yoyChange": -3.6,
+    "newBuildCount": 16,
+    "existingCount": 595,
+    "newBuildPremium": 50
   },
   "recentTransactions": [
+    {
+      "price": 342500,
+      "date": "2026-07-17",
+      "postcode": "BD23 6RD",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, MAIN STREET"
+    },
+    {
+      "price": 825000,
+      "date": "2026-07-17",
+      "postcode": "BD23 6AG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, OVERDALE GRANGE"
+    },
+    {
+      "price": 225000,
+      "date": "2026-07-17",
+      "postcode": "BD23 3BP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "37, WILLOW WAY"
+    },
+    {
+      "price": 140000,
+      "date": "2026-07-16",
+      "postcode": "BD23 2PL",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, DAWSON STREET"
+    },
+    {
+      "price": 245000,
+      "date": "2026-07-15",
+      "postcode": "BD23 1EE",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, SKIPTON HOUSE, THANETS YARD"
+    },
+    {
+      "price": 336500,
+      "date": "2026-07-10",
+      "postcode": "BD23 6SN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BANKFOOT COTTAGE, 60, BARDEN ROAD"
+    },
+    {
+      "price": 585000,
+      "date": "2026-07-10",
+      "postcode": "BD23 1FX",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, WHERNSIDE ROAD"
+    },
+    {
+      "price": 219000,
+      "date": "2026-06-30",
+      "postcode": "BD23 2DR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, LAMBERT STREET"
+    },
+    {
+      "price": 156000,
+      "date": "2026-06-30",
+      "postcode": "BD23 1SU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, CLITHEROE STREET"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-30",
+      "postcode": "BD23 2DS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, WELLINGTON STREET"
+    },
+    {
+      "price": 302500,
+      "date": "2026-06-29",
+      "postcode": "BD23 2JY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, SHORTBANK ROAD"
+    },
+    {
+      "price": 825000,
+      "date": "2026-06-26",
+      "postcode": "BD23 1FP",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, HIGH CASTLE, RECTORY LANE"
+    },
+    {
+      "price": 235000,
+      "date": "2026-06-26",
+      "postcode": "BD23 3SD",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "3, AIREDALE AVENUE"
+    },
+    {
+      "price": 395000,
+      "date": "2026-06-25",
+      "postcode": "BD23 4PS",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, PENDLE VIEW"
+    },
+    {
+      "price": 760000,
+      "date": "2026-06-25",
+      "postcode": "BD23 5BT",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GARSLEIGH, THE AVENUE"
+    },
+    {
+      "price": 557000,
+      "date": "2026-06-24",
+      "postcode": "BD23 4BN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "MILL HOUSE, SCALEGILL"
+    },
+    {
+      "price": 359000,
+      "date": "2026-06-22",
+      "postcode": "BD23 4NY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, NEWTON WAY"
+    },
     {
       "price": 285000,
       "date": "2026-06-19",
@@ -49,159 +202,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "1, CAWDER MEWS"
-    },
-    {
-      "price": 705000,
-      "date": "2026-06-18",
-      "postcode": "BD23 6EH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "JACOBS COTTAGE"
-    },
-    {
-      "price": 350000,
-      "date": "2026-06-15",
-      "postcode": "BD23 3SQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "42, SHARPHAW VIEW"
-    },
-    {
-      "price": 282500,
-      "date": "2026-06-15",
-      "postcode": "BD23 3QQ",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "5, ESHTON HALL"
-    },
-    {
-      "price": 597500,
-      "date": "2026-06-12",
-      "postcode": "BD23 4NJ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "BECKFIELD HOUSE, CHURCH STREET"
-    },
-    {
-      "price": 325000,
-      "date": "2026-06-12",
-      "postcode": "BD23 3UT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, HOME FARM, MARK HOUSE LANE"
-    },
-    {
-      "price": 384000,
-      "date": "2026-06-12",
-      "postcode": "BD23 5NB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, RAINES MEADOWS"
-    },
-    {
-      "price": 325000,
-      "date": "2026-06-08",
-      "postcode": "BD23 5BE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CHAPEL STREET"
-    },
-    {
-      "price": 173500,
-      "date": "2026-06-08",
-      "postcode": "BD23 2NE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, PEMBROKE STREET"
-    },
-    {
-      "price": 258000,
-      "date": "2026-06-05",
-      "postcode": "BD23 2JS",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, SUN MOOR DRIVE"
-    },
-    {
-      "price": 760000,
-      "date": "2026-06-04",
-      "postcode": "BD23 6RH",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, PASTURE ROAD"
-    },
-    {
-      "price": 170000,
-      "date": "2026-05-29",
-      "postcode": "BD23 2DU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "40, ROWLAND STREET"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-29",
-      "postcode": "BD23 2BU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "102, BURNSIDE CRESCENT"
-    },
-    {
-      "price": 282000,
-      "date": "2026-05-29",
-      "postcode": "BD23 5DS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, GREEN TERRACE"
-    },
-    {
-      "price": 219500,
-      "date": "2026-05-29",
-      "postcode": "BD23 2LB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "17, THE GROVE"
-    },
-    {
-      "price": 660000,
-      "date": "2026-05-28",
-      "postcode": "BD23 5BJ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, INTAKE LANE"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-28",
-      "postcode": "BD23 1PX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, WOODMAN TERRACE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-28",
-      "postcode": "BD23 3SS",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, IVY HOUSE GARDENS"
     }
   ],
   "monthlyHistory": [
@@ -252,8 +252,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 254250,
-      "transactions": 80
+      "medianPrice": 255000,
+      "transactions": 81
     },
     {
       "month": "2024-11",
@@ -297,8 +297,8 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 239500,
-      "transactions": 63
+      "medianPrice": 239250,
+      "transactions": 64
     },
     {
       "month": "2025-08",
@@ -308,47 +308,47 @@
     {
       "month": "2025-09",
       "medianPrice": 265000,
-      "transactions": 49
+      "transactions": 54
     },
     {
       "month": "2025-10",
-      "medianPrice": 271250,
-      "transactions": 56
+      "medianPrice": 278250,
+      "transactions": 60
     },
     {
       "month": "2025-11",
-      "medianPrice": 310000,
-      "transactions": 57
+      "medianPrice": 315000,
+      "transactions": 59
     },
     {
       "month": "2025-12",
-      "medianPrice": 247500,
-      "transactions": 41
+      "medianPrice": 256000,
+      "transactions": 44
     },
     {
       "month": "2026-01",
-      "medianPrice": 266250,
-      "transactions": 32
+      "medianPrice": 270000,
+      "transactions": 35
     },
     {
       "month": "2026-02",
-      "medianPrice": 279975,
-      "transactions": 44
+      "medianPrice": 279950,
+      "transactions": 49
     },
     {
       "month": "2026-03",
       "medianPrice": 222500,
-      "transactions": 26
+      "transactions": 28
     },
     {
       "month": "2026-04",
-      "medianPrice": 239750,
-      "transactions": 24
+      "medianPrice": 234500,
+      "transactions": 25
     },
     {
       "month": "2026-05",
-      "medianPrice": 240000,
-      "transactions": 29
+      "medianPrice": 295000,
+      "transactions": 37
     }
   ],
   "quarterlyHistory": [
@@ -370,7 +370,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 285000,
-      "transactions": 194
+      "transactions": 195
     },
     {
       "quarter": "2025-Q1",
@@ -384,18 +384,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 250000,
-      "transactions": 179
+      "medianPrice": 249957,
+      "transactions": 185
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 284000,
-      "transactions": 154
+      "medianPrice": 287000,
+      "transactions": 163
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 261250,
-      "transactions": 102
+      "medianPrice": 266250,
+      "transactions": 112
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:58.402Z",
+  "updatedAt": "2026-09-25T08:18:18.553Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "porthmadog",
   "countySlug": "gwynedd",
@@ -8,20 +8,38 @@
     "GWYNEDD"
   ],
   "stats": {
-    "medianPrice": 190000,
+    "medianPrice": 196250,
     "medianByType": {
-      "D": 272500,
-      "S": 190000,
+      "D": 270000,
+      "S": 251000,
       "T": 155000,
       "F": 150000
     },
-    "transactionCount12m": 55,
-    "yoyChange": 4.4,
+    "transactionCount12m": 58,
+    "yoyChange": 7.8,
     "newBuildCount": 0,
-    "existingCount": 55,
+    "existingCount": 58,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 210000,
+      "date": "2026-06-26",
+      "postcode": "LL49 9AA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "THE MEWS, BANK PLACE"
+    },
+    {
+      "price": 312000,
+      "date": "2026-06-26",
+      "postcode": "LL49 9HU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, MEADOW DRIVE"
+    },
     {
       "price": 257000,
       "date": "2026-06-05",
@@ -68,15 +86,6 @@
       "address": "55, CHAPEL STREET"
     },
     {
-      "price": 165000,
-      "date": "2026-04-28",
-      "postcode": "LL49 9RA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "26, CHURCH STREET"
-    },
-    {
       "price": 520000,
       "date": "2026-04-28",
       "postcode": "LL49 9UF",
@@ -93,6 +102,15 @@
       "newBuild": false,
       "tenure": "F",
       "address": "27, RALPH STREET"
+    },
+    {
+      "price": 165000,
+      "date": "2026-04-28",
+      "postcode": "LL49 9RA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, CHURCH STREET"
     },
     {
       "price": 70000,
@@ -140,15 +158,6 @@
       "address": "77, CEFN Y GADER"
     },
     {
-      "price": 160000,
-      "date": "2026-02-27",
-      "postcode": "LL49 9EN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, EAST AVENUE"
-    },
-    {
       "price": 190000,
       "date": "2026-02-27",
       "postcode": "LL49 9BU",
@@ -158,13 +167,13 @@
       "address": "7, MADOC STREET"
     },
     {
-      "price": 180000,
-      "date": "2026-02-16",
-      "postcode": "LL49 9ND",
-      "propertyType": "O",
+      "price": 160000,
+      "date": "2026-02-27",
+      "postcode": "LL49 9EN",
+      "propertyType": "T",
       "newBuild": false,
-      "tenure": "L",
-      "address": "65, SOUTH SNOWDON WHARF"
+      "tenure": "F",
+      "address": "32, EAST AVENUE"
     },
     {
       "price": 145000,
@@ -176,6 +185,15 @@
       "address": "4, GLASLYN STREET"
     },
     {
+      "price": 180000,
+      "date": "2026-02-16",
+      "postcode": "LL49 9ND",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "65, SOUTH SNOWDON WHARF"
+    },
+    {
       "price": 129000,
       "date": "2026-02-05",
       "postcode": "LL49 9TA",
@@ -183,24 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "1, PENRHIW TERRACE"
-    },
-    {
-      "price": 130000,
-      "date": "2026-01-14",
-      "postcode": "LL49 9PT",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "19, ISGRAIG"
-    },
-    {
-      "price": 132000,
-      "date": "2026-01-09",
-      "postcode": "LL49 9RE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, FACTORY PLACE"
     }
   ],
   "monthlyHistory": [
@@ -296,8 +296,8 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 139500,
-      "transactions": 2
+      "medianPrice": 225000,
+      "transactions": 3
     },
     {
       "month": "2025-08",
@@ -383,8 +383,8 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 225000,
-      "transactions": 9
+      "medianPrice": 235000,
+      "transactions": 10
     },
     {
       "quarter": "2025-Q4",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:57.922Z",
+  "updatedAt": "2026-09-25T08:18:17.790Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "berwick-upon-tweed",
   "countySlug": "northumberland",
@@ -8,20 +8,119 @@
     "NORTHUMBERLAND"
   ],
   "stats": {
-    "medianPrice": 190000,
+    "medianPrice": 189500,
     "medianByType": {
       "D": 330000,
-      "S": 195000,
-      "T": 175000,
-      "F": 115000
+      "S": 197500,
+      "T": 167500,
+      "F": 112500
     },
-    "transactionCount12m": 251,
-    "yoyChange": 2.7,
-    "newBuildCount": 3,
-    "existingCount": 248,
-    "newBuildPremium": 84.9
+    "transactionCount12m": 275,
+    "yoyChange": 2.4,
+    "newBuildCount": 7,
+    "existingCount": 268,
+    "newBuildPremium": 68.4
   },
   "recentTransactions": [
+    {
+      "price": 152000,
+      "date": "2026-07-21",
+      "postcode": "TD15 2UB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "11, LAMBTON AVENUE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-07-17",
+      "postcode": "TD15 2QJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "26, SUNNYSIDE MEWS"
+    },
+    {
+      "price": 495000,
+      "date": "2026-07-15",
+      "postcode": "TD15 2LS",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, EAST ORD GARDENS"
+    },
+    {
+      "price": 140000,
+      "date": "2026-07-08",
+      "postcode": "TD15 2AQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, BREWERY BANK"
+    },
+    {
+      "price": 130000,
+      "date": "2026-07-03",
+      "postcode": "TD15 1SN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "147, NEWFIELDS"
+    },
+    {
+      "price": 375000,
+      "date": "2026-07-01",
+      "postcode": "TD15 2TY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, CHEVIOT VIEW"
+    },
+    {
+      "price": 237000,
+      "date": "2026-06-29",
+      "postcode": "TD15 2AW",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "103, MAIN STREET"
+    },
+    {
+      "price": 395000,
+      "date": "2026-06-25",
+      "postcode": "TD15 1NW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, MEADOW GRANGE"
+    },
+    {
+      "price": 89000,
+      "date": "2026-06-24",
+      "postcode": "TD15 1DH",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "36, WOOLMARKET"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-24",
+      "postcode": "TD15 2JH",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, HIGHCLIFFE"
+    },
+    {
+      "price": 98000,
+      "date": "2026-06-22",
+      "postcode": "TD15 1HB",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "FLAT 5, 3, QUAY WALLS"
+    },
     {
       "price": 244000,
       "date": "2026-06-19",
@@ -68,6 +167,15 @@
       "address": "7, SWANSTON MEWS"
     },
     {
+      "price": 308000,
+      "date": "2026-06-12",
+      "postcode": "TD15 2GU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, TAYLORS GARDENS"
+    },
+    {
       "price": 285000,
       "date": "2026-06-11",
       "postcode": "TD15 2FB",
@@ -93,114 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "187, NEWFIELDS"
-    },
-    {
-      "price": 145000,
-      "date": "2026-05-29",
-      "postcode": "TD15 2YR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, LAMB COURT"
-    },
-    {
-      "price": 425000,
-      "date": "2026-05-28",
-      "postcode": "TD15 2QP",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SUNNYSIDE HOUSE, SUNNYSIDE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-27",
-      "postcode": "TD15 1HN",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "31A, PALACE STREET"
-    },
-    {
-      "price": 645000,
-      "date": "2026-05-27",
-      "postcode": "TD15 2PL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE BYRE, LINDISFARNE BAY COTTAGES"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-15",
-      "postcode": "TD15 2JA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "54, EASTCLIFFE"
-    },
-    {
-      "price": 178500,
-      "date": "2026-05-15",
-      "postcode": "TD15 2YR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, LAMB COURT"
-    },
-    {
-      "price": 335000,
-      "date": "2026-05-15",
-      "postcode": "TD15 2FN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, MEADOW DALE"
-    },
-    {
-      "price": 115000,
-      "date": "2026-05-14",
-      "postcode": "TD15 1PZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, SEA VIEW"
-    },
-    {
-      "price": 265000,
-      "date": "2026-05-11",
-      "postcode": "TD15 1RX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, ALBERT ROAD"
-    },
-    {
-      "price": 295000,
-      "date": "2026-05-11",
-      "postcode": "TD15 2YT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, RODDAM COURT"
-    },
-    {
-      "price": 255000,
-      "date": "2026-05-11",
-      "postcode": "TD15 1PQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, CARRICK CLOSE"
-    },
-    {
-      "price": 97500,
-      "date": "2026-05-08",
-      "postcode": "TD15 1DB",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "7, WALKERGATE"
     }
   ],
   "monthlyHistory": [
@@ -302,17 +302,17 @@
     {
       "month": "2025-08",
       "medianPrice": 175000,
-      "transactions": 43
+      "transactions": 44
     },
     {
       "month": "2025-09",
-      "medianPrice": 150000,
-      "transactions": 14
+      "medianPrice": 170000,
+      "transactions": 16
     },
     {
       "month": "2025-10",
-      "medianPrice": 220000,
-      "transactions": 35
+      "medianPrice": 200000,
+      "transactions": 41
     },
     {
       "month": "2025-11",
@@ -331,13 +331,13 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 165000,
-      "transactions": 15
+      "medianPrice": 158000,
+      "transactions": 16
     },
     {
       "month": "2026-03",
-      "medianPrice": 215000,
-      "transactions": 17
+      "medianPrice": 235000,
+      "transactions": 19
     },
     {
       "month": "2026-04",
@@ -383,18 +383,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 184500,
-      "transactions": 88
+      "medianPrice": 185000,
+      "transactions": 91
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 225000,
-      "transactions": 64
+      "medianPrice": 215500,
+      "transactions": 70
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 170000,
-      "transactions": 50
+      "transactions": 53
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:56.425Z",
+  "updatedAt": "2026-09-25T08:18:15.657Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "bodmin",
   "countySlug": "cornwall",
@@ -8,20 +8,155 @@
     "CORNWALL"
   ],
   "stats": {
-    "medianPrice": 247750,
+    "medianPrice": 250000,
     "medianByType": {
-      "D": 375000,
-      "S": 230000,
-      "T": 175000,
-      "F": 118000
+      "D": 370000,
+      "S": 233000,
+      "T": 175500,
+      "F": 115000
     },
-    "transactionCount12m": 346,
-    "yoyChange": -4.7,
-    "newBuildCount": 7,
-    "existingCount": 339,
-    "newBuildPremium": 100
+    "transactionCount12m": 393,
+    "yoyChange": -3.8,
+    "newBuildCount": 8,
+    "existingCount": 385,
+    "newBuildPremium": 82
   },
   "recentTransactions": [
+    {
+      "price": 42000,
+      "date": "2026-07-15",
+      "postcode": "PL31 2EX",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "93, WALLACE ROAD"
+    },
+    {
+      "price": 290000,
+      "date": "2026-07-14",
+      "postcode": "PL30 3HH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "GULLAND COTTAGE"
+    },
+    {
+      "price": 325000,
+      "date": "2026-07-13",
+      "postcode": "PL31 1BD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, MARKS DRIVE"
+    },
+    {
+      "price": 245000,
+      "date": "2026-07-10",
+      "postcode": "PL31 1HP",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "7, KESTELL PARC"
+    },
+    {
+      "price": 245000,
+      "date": "2026-07-10",
+      "postcode": "PL31 1QJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1C, PAULL ROAD"
+    },
+    {
+      "price": 250000,
+      "date": "2026-07-10",
+      "postcode": "PL31 2WQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, HIGHFIELD PARK"
+    },
+    {
+      "price": 176000,
+      "date": "2026-07-10",
+      "postcode": "PL31 1AW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "76, BEACON ROAD"
+    },
+    {
+      "price": 392500,
+      "date": "2026-07-09",
+      "postcode": "PL31 2HD",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "2, MAYFIELD CLOSE"
+    },
+    {
+      "price": 550000,
+      "date": "2026-07-09",
+      "postcode": "PL30 5BN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "20, BLOWINGHOUSE LANE"
+    },
+    {
+      "price": 81375,
+      "date": "2026-07-09",
+      "postcode": "PL31 1FT",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "34, KEW VARA"
+    },
+    {
+      "price": 475000,
+      "date": "2026-07-08",
+      "postcode": "PL30 5BL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, TOWER PARK"
+    },
+    {
+      "price": 88000,
+      "date": "2026-07-08",
+      "postcode": "PL31 1JF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "67, NORTHEY ROAD"
+    },
+    {
+      "price": 236000,
+      "date": "2026-07-03",
+      "postcode": "PL31 1RE",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, HELMAN TOR VIEW"
+    },
+    {
+      "price": 795000,
+      "date": "2026-07-03",
+      "postcode": "PL30 3AL",
+      "propertyType": "O",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BROCTON"
+    },
+    {
+      "price": 229500,
+      "date": "2026-06-26",
+      "postcode": "PL31 1PU",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "46, BAWDEN ROAD"
+    },
     {
       "price": 340000,
       "date": "2026-06-26",
@@ -30,6 +165,24 @@
       "newBuild": false,
       "tenure": "F",
       "address": "46, BRAMLEY PARK"
+    },
+    {
+      "price": 370000,
+      "date": "2026-06-25",
+      "postcode": "PL30 5PJ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "SUNNYSIDE"
+    },
+    {
+      "price": 257000,
+      "date": "2026-06-22",
+      "postcode": "PL31 1QH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "8, WESTHEATH AVENUE"
     },
     {
       "price": 215000,
@@ -41,166 +194,13 @@
       "address": "102, NORTHEY ROAD"
     },
     {
-      "price": 169000,
-      "date": "2026-06-12",
-      "postcode": "PL30 5BT",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, LITTLETON LANE"
-    },
-    {
-      "price": 234000,
-      "date": "2026-06-12",
-      "postcode": "PL30 5BT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "PEN COS"
-    },
-    {
-      "price": 325000,
-      "date": "2026-06-12",
-      "postcode": "PL30 4LU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, SOUTHWELL"
-    },
-    {
-      "price": 252000,
-      "date": "2026-06-11",
-      "postcode": "PL31 2FF",
+      "price": 100000,
+      "date": "2026-06-18",
+      "postcode": "PL31 2BS",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "74, GILBERT ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-06-11",
-      "postcode": "PL31 1HP",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "67, KESTELL PARC"
-    },
-    {
-      "price": 250000,
-      "date": "2026-06-10",
-      "postcode": "PL31 1JL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "11, STATHAM ROAD"
-    },
-    {
-      "price": 600000,
-      "date": "2026-06-10",
-      "postcode": "PL30 5HR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "SOUTHWINDS, TREBELL"
-    },
-    {
-      "price": 162000,
-      "date": "2026-06-05",
-      "postcode": "PL30 5HA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, THE ADVANCE, CHURCHTOWN"
-    },
-    {
-      "price": 235000,
-      "date": "2026-06-03",
-      "postcode": "PL31 1PF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, WHITESTONE CRESCENT"
-    },
-    {
-      "price": 380000,
-      "date": "2026-05-29",
-      "postcode": "PL30 3NA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "OAK COTTAGE, CHAPEL ROAD"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-29",
-      "postcode": "PL30 4LY",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "RIVERSIDE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-05-29",
-      "postcode": "PL30 3PY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, CLAYLANDS"
-    },
-    {
-      "price": 670000,
-      "date": "2026-05-29",
-      "postcode": "PL30 3BX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "GREENWIX"
-    },
-    {
-      "price": 420000,
-      "date": "2026-05-29",
-      "postcode": "PL30 4HN",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE CUDDY"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-29",
-      "postcode": "PL31 1GA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "8, ROYFFE WAY"
-    },
-    {
-      "price": 160000,
-      "date": "2026-05-28",
-      "postcode": "PL31 1PH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "137, KINSMAN ESTATE"
-    },
-    {
-      "price": 235000,
-      "date": "2026-05-27",
-      "postcode": "PL30 3JG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, TOWER TERRACE"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-27",
-      "postcode": "PL31 1QW",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "78, QUEENS CRESCENT"
+      "address": "12, PENQUITE DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -216,8 +216,8 @@
     },
     {
       "month": "2024-03",
-      "medianPrice": 237500,
-      "transactions": 36
+      "medianPrice": 250000,
+      "transactions": 37
     },
     {
       "month": "2024-04",
@@ -281,8 +281,8 @@
     },
     {
       "month": "2025-04",
-      "medianPrice": 225000,
-      "transactions": 17
+      "medianPrice": 221000,
+      "transactions": 18
     },
     {
       "month": "2025-05",
@@ -296,43 +296,43 @@
     },
     {
       "month": "2025-07",
-      "medianPrice": 242000,
-      "transactions": 39
+      "medianPrice": 243500,
+      "transactions": 40
     },
     {
       "month": "2025-08",
-      "medianPrice": 255000,
-      "transactions": 31
+      "medianPrice": 242500,
+      "transactions": 32
     },
     {
       "month": "2025-09",
-      "medianPrice": 200000,
-      "transactions": 40
+      "medianPrice": 215000,
+      "transactions": 45
     },
     {
       "month": "2025-10",
       "medianPrice": 250000,
-      "transactions": 29
-    },
-    {
-      "month": "2025-11",
-      "medianPrice": 260000,
       "transactions": 31
     },
     {
+      "month": "2025-11",
+      "medianPrice": 264000,
+      "transactions": 32
+    },
+    {
       "month": "2025-12",
-      "medianPrice": 240000,
-      "transactions": 38
+      "medianPrice": 260000,
+      "transactions": 41
     },
     {
       "month": "2026-01",
       "medianPrice": 200000,
-      "transactions": 15
+      "transactions": 19
     },
     {
       "month": "2026-02",
-      "medianPrice": 250000,
-      "transactions": 19
+      "medianPrice": 255000,
+      "transactions": 21
     },
     {
       "month": "2026-03",
@@ -341,20 +341,20 @@
     },
     {
       "month": "2026-04",
-      "medianPrice": 248500,
-      "transactions": 16
+      "medianPrice": 250000,
+      "transactions": 17
     },
     {
       "month": "2026-05",
-      "medianPrice": 235000,
-      "transactions": 23
+      "medianPrice": 233000,
+      "transactions": 25
     }
   ],
   "quarterlyHistory": [
     {
       "quarter": "2024-Q1",
-      "medianPrice": 260000,
-      "transactions": 79
+      "medianPrice": 262500,
+      "transactions": 80
     },
     {
       "quarter": "2024-Q2",
@@ -378,23 +378,23 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 250000,
-      "transactions": 91
+      "medianPrice": 245000,
+      "transactions": 92
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 229000,
-      "transactions": 110
+      "medianPrice": 242000,
+      "transactions": 117
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 250000,
-      "transactions": 98
+      "medianPrice": 251000,
+      "transactions": 104
     },
     {
       "quarter": "2026-Q1",
       "medianPrice": 250000,
-      "transactions": 55
+      "transactions": 61
     }
   ]
 }

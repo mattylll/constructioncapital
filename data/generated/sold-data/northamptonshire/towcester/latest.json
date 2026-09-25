@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:57.073Z",
+  "updatedAt": "2026-09-25T08:18:16.622Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "towcester",
   "countySlug": "northamptonshire",
@@ -9,20 +9,182 @@
     "SOUTH NORTHAMPTONSHIRE"
   ],
   "stats": {
-    "medianPrice": 343995,
+    "medianPrice": 346000,
     "medianByType": {
-      "D": 485000,
-      "S": 317500,
-      "T": 305000,
-      "F": 145500
+      "D": 490000,
+      "S": 316000,
+      "T": 300000,
+      "F": 152500
     },
-    "transactionCount12m": 513,
-    "yoyChange": -5.2,
-    "newBuildCount": 49,
-    "existingCount": 464,
+    "transactionCount12m": 585,
+    "yoyChange": -4.7,
+    "newBuildCount": 69,
+    "existingCount": 516,
     "newBuildPremium": 27.3
   },
   "recentTransactions": [
+    {
+      "price": 212500,
+      "date": "2026-07-29",
+      "postcode": "NN12 8LU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, SANDS CLOSE"
+    },
+    {
+      "price": 465000,
+      "date": "2026-07-17",
+      "postcode": "NN12 7SH",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "BROOKSIDE, MILL LANE"
+    },
+    {
+      "price": 296062,
+      "date": "2026-07-15",
+      "postcode": "NN12 7NA",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "56, HIGH STREET"
+    },
+    {
+      "price": 635000,
+      "date": "2026-07-14",
+      "postcode": "NN12 8QB",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, THE PADDOCK"
+    },
+    {
+      "price": 350000,
+      "date": "2026-07-10",
+      "postcode": "NN12 6BP",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, ORCHARD CLOSE"
+    },
+    {
+      "price": 230000,
+      "date": "2026-07-10",
+      "postcode": "NN12 6EN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "15, LEESON ROAD"
+    },
+    {
+      "price": 305000,
+      "date": "2026-07-10",
+      "postcode": "NN12 6UF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, FONTWELL DRIVE"
+    },
+    {
+      "price": 270000,
+      "date": "2026-07-09",
+      "postcode": "NN12 6LU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, TENNYSON CLOSE"
+    },
+    {
+      "price": 185000,
+      "date": "2026-07-09",
+      "postcode": "NN12 6RL",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "61, ALCHESTER COURT"
+    },
+    {
+      "price": 260000,
+      "date": "2026-07-07",
+      "postcode": "NN12 6EN",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "33, LEESON ROAD"
+    },
+    {
+      "price": 705000,
+      "date": "2026-07-03",
+      "postcode": "NN12 8LG",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "HIGHAM LODGE, 2, BANBURY LANE"
+    },
+    {
+      "price": 400000,
+      "date": "2026-07-03",
+      "postcode": "NN12 6PA",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28, HAYDOCK CLOSE"
+    },
+    {
+      "price": 315000,
+      "date": "2026-06-30",
+      "postcode": "NN12 6DW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "81, NORTON CRESCENT"
+    },
+    {
+      "price": 310000,
+      "date": "2026-06-30",
+      "postcode": "NN12 6UY",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "2, MALTHOUSE COURT"
+    },
+    {
+      "price": 300000,
+      "date": "2026-06-30",
+      "postcode": "NN12 6AA",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "17, BELLE FIELD"
+    },
+    {
+      "price": 255000,
+      "date": "2026-06-30",
+      "postcode": "NN12 6UG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "21, PONTEFRACT AVENUE"
+    },
+    {
+      "price": 420000,
+      "date": "2026-06-29",
+      "postcode": "NN12 6LL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "30, DRAYSON WAY"
+    },
+    {
+      "price": 732000,
+      "date": "2026-06-29",
+      "postcode": "NN12 6LN",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "25, DRAYSON WAY"
+    },
     {
       "price": 380000,
       "date": "2026-06-26",
@@ -33,175 +195,13 @@
       "address": "5, HAWTHORN DRIVE"
     },
     {
-      "price": 243000,
+      "price": 268000,
       "date": "2026-06-26",
-      "postcode": "NN12 6UG",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "23, PONTEFRACT AVENUE"
-    },
-    {
-      "price": 360000,
-      "date": "2026-06-22",
-      "postcode": "NN12 6UY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "22, MALTHOUSE COURT"
-    },
-    {
-      "price": 457500,
-      "date": "2026-06-19",
-      "postcode": "NN12 8BB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, MILL LANE"
-    },
-    {
-      "price": 425000,
-      "date": "2026-06-18",
-      "postcode": "NN12 6NR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "78, AINTREE AVENUE"
-    },
-    {
-      "price": 270000,
-      "date": "2026-06-18",
-      "postcode": "NN12 6AF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, WATLING STREET EAST"
-    },
-    {
-      "price": 250000,
-      "date": "2026-06-17",
-      "postcode": "NN12 6EX",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "47, RICHMOND ROAD"
-    },
-    {
-      "price": 425000,
-      "date": "2026-06-12",
-      "postcode": "NN12 6PA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, HAYDOCK CLOSE"
-    },
-    {
-      "price": 400000,
-      "date": "2026-06-11",
-      "postcode": "NN12 6DB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "156, WATLING STREET EAST"
-    },
-    {
-      "price": 325000,
-      "date": "2026-06-10",
-      "postcode": "NN12 6RP",
+      "postcode": "NN12 6FY",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2, ALCHESTER COURT"
-    },
-    {
-      "price": 432000,
-      "date": "2026-06-09",
-      "postcode": "NN12 6JU",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, WORDSWORTH CLOSE"
-    },
-    {
-      "price": 502500,
-      "date": "2026-06-05",
-      "postcode": "NN12 8RX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE BIRCHES, MAIN STREET"
-    },
-    {
-      "price": 320000,
-      "date": "2026-06-05",
-      "postcode": "NN12 8QU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "30, WAPPENHAM ROAD"
-    },
-    {
-      "price": 198000,
-      "date": "2026-06-05",
-      "postcode": "NN12 6RP",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "4, ALCHESTER COURT"
-    },
-    {
-      "price": 577500,
-      "date": "2026-06-05",
-      "postcode": "NN12 8UB",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "4, TOWCESTER ROAD"
-    },
-    {
-      "price": 255000,
-      "date": "2026-06-05",
-      "postcode": "NN12 6UJ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "5, HEREFORD CLOSE"
-    },
-    {
-      "price": 330000,
-      "date": "2026-06-01",
-      "postcode": "NN12 6LY",
-      "propertyType": "O",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "107, REDCAR ROAD"
-    },
-    {
-      "price": 120000,
-      "date": "2026-05-29",
-      "postcode": "NN12 6DT",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "27, RICHMOND COURT"
-    },
-    {
-      "price": 322500,
-      "date": "2026-05-29",
-      "postcode": "NN12 8LB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "8, WATLING STREET EAST"
-    },
-    {
-      "price": 325000,
-      "date": "2026-05-28",
-      "postcode": "NN12 8UA",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "28, BRACKLEY ROAD"
+      "address": "4, KILSBY DRIVE"
     }
   ],
   "monthlyHistory": [
@@ -302,18 +302,18 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 355000,
-      "transactions": 49
+      "medianPrice": 357500,
+      "transactions": 60
     },
     {
       "month": "2025-09",
-      "medianPrice": 365000,
-      "transactions": 49
+      "medianPrice": 370000,
+      "transactions": 60
     },
     {
       "month": "2025-10",
-      "medianPrice": 320000,
-      "transactions": 47
+      "medianPrice": 325000,
+      "transactions": 53
     },
     {
       "month": "2025-11",
@@ -322,23 +322,23 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 308000,
-      "transactions": 33
+      "medianPrice": 311500,
+      "transactions": 34
     },
     {
       "month": "2026-01",
-      "medianPrice": 326000,
-      "transactions": 25
+      "medianPrice": 343000,
+      "transactions": 26
     },
     {
       "month": "2026-02",
-      "medianPrice": 331250,
-      "transactions": 38
+      "medianPrice": 327500,
+      "transactions": 42
     },
     {
       "month": "2026-03",
-      "medianPrice": 328500,
-      "transactions": 32
+      "medianPrice": 322000,
+      "transactions": 35
     },
     {
       "month": "2026-04",
@@ -347,8 +347,8 @@
     },
     {
       "month": "2026-05",
-      "medianPrice": 323750,
-      "transactions": 20
+      "medianPrice": 322500,
+      "transactions": 23
     }
   ],
   "quarterlyHistory": [
@@ -384,18 +384,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 356250,
-      "transactions": 138
+      "medianPrice": 361250,
+      "transactions": 160
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 325000,
-      "transactions": 134
+      "medianPrice": 327500,
+      "transactions": 141
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 330000,
-      "transactions": 95
+      "medianPrice": 326000,
+      "transactions": 103
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:57.693Z",
+  "updatedAt": "2026-09-25T08:18:17.463Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "mexborough",
   "countySlug": "south-yorkshire",
@@ -8,20 +8,110 @@
     "DONCASTER"
   ],
   "stats": {
-    "medianPrice": 120000,
+    "medianPrice": 122500,
     "medianByType": {
-      "D": 260000,
-      "S": 151250,
-      "T": 79500,
-      "F": 163000
+      "D": 267500,
+      "S": 152250,
+      "T": 78800,
+      "F": 145366
     },
-    "transactionCount12m": 250,
-    "yoyChange": 2.6,
+    "transactionCount12m": 296,
+    "yoyChange": 3.4,
     "newBuildCount": 0,
-    "existingCount": 250,
+    "existingCount": 296,
     "newBuildPremium": null
   },
   "recentTransactions": [
+    {
+      "price": 55000,
+      "date": "2026-07-27",
+      "postcode": "S64 9RB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "176, WATH ROAD"
+    },
+    {
+      "price": 130000,
+      "date": "2026-07-03",
+      "postcode": "S64 9EL",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, HAWTHORNE CRESCENT"
+    },
+    {
+      "price": 150000,
+      "date": "2026-07-03",
+      "postcode": "S64 0AH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, HALL AVENUE"
+    },
+    {
+      "price": 44499,
+      "date": "2026-07-02",
+      "postcode": "S64 9DX",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "12, BEACONSFIELD STREET"
+    },
+    {
+      "price": 252000,
+      "date": "2026-07-01",
+      "postcode": "S64 0QY",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "9, LANARK DRIVE"
+    },
+    {
+      "price": 250000,
+      "date": "2026-06-30",
+      "postcode": "S64 0NQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "44, DOVE ROAD"
+    },
+    {
+      "price": 134995,
+      "date": "2026-06-26",
+      "postcode": "S64 0FA",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "21, SCHOLEYS WHARF"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-26",
+      "postcode": "S64 0AH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, HALL AVENUE"
+    },
+    {
+      "price": 200000,
+      "date": "2026-06-26",
+      "postcode": "S64 0FH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, GREEN SHANK DRIVE"
+    },
+    {
+      "price": 112500,
+      "date": "2026-06-25",
+      "postcode": "S64 9BW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, ARGYLE STREET"
+    },
     {
       "price": 190000,
       "date": "2026-06-19",
@@ -30,6 +120,33 @@
       "newBuild": false,
       "tenure": "F",
       "address": "19, LYNWOOD DRIVE"
+    },
+    {
+      "price": 160000,
+      "date": "2026-06-19",
+      "postcode": "S64 0FB",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "18, WILD GEESE WAY"
+    },
+    {
+      "price": 82000,
+      "date": "2026-06-19",
+      "postcode": "S64 9BB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "29, CROMWELL ROAD"
+    },
+    {
+      "price": 196000,
+      "date": "2026-06-12",
+      "postcode": "S64 0AQ",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "35, WASHINGTON STREET"
     },
     {
       "price": 42000,
@@ -77,130 +194,13 @@
       "address": "24, BELMONT STREET"
     },
     {
-      "price": 330000,
-      "date": "2026-06-01",
-      "postcode": "S64 0JH",
-      "propertyType": "D",
+      "price": 115000,
+      "date": "2026-06-03",
+      "postcode": "S64 0FQ",
+      "propertyType": "F",
       "newBuild": false,
-      "tenure": "F",
-      "address": "23, CHEPSTOW DRIVE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-29",
-      "postcode": "S64 0HQ",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, PASTURES MEWS"
-    },
-    {
-      "price": 78600,
-      "date": "2026-05-29",
-      "postcode": "S64 9BY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "38, VICTORIA ROAD"
-    },
-    {
-      "price": 135000,
-      "date": "2026-05-29",
-      "postcode": "S64 9BU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "104, VICTORIA ROAD"
-    },
-    {
-      "price": 270000,
-      "date": "2026-05-29",
-      "postcode": "S64 9SR",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, KESTREL DRIVE"
-    },
-    {
-      "price": 220000,
-      "date": "2026-05-29",
-      "postcode": "S64 0JX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, CHURCH MEWS"
-    },
-    {
-      "price": 165000,
-      "date": "2026-05-22",
-      "postcode": "S64 0HQ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "12, PASTURES MEWS"
-    },
-    {
-      "price": 200000,
-      "date": "2026-05-22",
-      "postcode": "S64 9PB",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, HILLS CLOSE"
-    },
-    {
-      "price": 158000,
-      "date": "2026-05-19",
-      "postcode": "S64 0HY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, CLAYFIELD AVENUE"
-    },
-    {
-      "price": 155000,
-      "date": "2026-05-15",
-      "postcode": "S64 0HF",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "CARTER KNOWLE, CHURCH STREET"
-    },
-    {
-      "price": 65000,
-      "date": "2026-05-07",
-      "postcode": "S64 9NF",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43, BELMONT STREET"
-    },
-    {
-      "price": 87500,
-      "date": "2026-05-06",
-      "postcode": "S64 0LU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "52, DONCASTER ROAD"
-    },
-    {
-      "price": 80000,
-      "date": "2026-05-05",
-      "postcode": "S64 9JR",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "94, ARNOLD CRESCENT"
-    },
-    {
-      "price": 85000,
-      "date": "2026-05-05",
-      "postcode": "S64 9QS",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "10, FREDERICK STREET"
+      "tenure": "L",
+      "address": "APARTMENT 1, COLTRAN MILL APARTMENTS, DON ROLLER ROAD"
     }
   ],
   "monthlyHistory": [
@@ -251,8 +251,8 @@
     },
     {
       "month": "2024-10",
-      "medianPrice": 127000,
-      "transactions": 20
+      "medianPrice": 131500,
+      "transactions": 21
     },
     {
       "month": "2024-11",
@@ -291,8 +291,8 @@
     },
     {
       "month": "2025-06",
-      "medianPrice": 152000,
-      "transactions": 22
+      "medianPrice": 160000,
+      "transactions": 23
     },
     {
       "month": "2025-07",
@@ -301,18 +301,18 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 115000,
-      "transactions": 25
+      "medianPrice": 147000,
+      "transactions": 29
     },
     {
       "month": "2025-09",
-      "medianPrice": 117000,
-      "transactions": 25
+      "medianPrice": 122750,
+      "transactions": 30
     },
     {
       "month": "2025-10",
       "medianPrice": 129950,
-      "transactions": 23
+      "transactions": 25
     },
     {
       "month": "2025-11",
@@ -321,33 +321,33 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 135000,
-      "transactions": 19
+      "medianPrice": 137500,
+      "transactions": 20
     },
     {
       "month": "2026-01",
-      "medianPrice": 85000,
-      "transactions": 19
+      "medianPrice": 87500,
+      "transactions": 20
     },
     {
       "month": "2026-02",
-      "medianPrice": 152000,
-      "transactions": 11
+      "medianPrice": 147500,
+      "transactions": 14
     },
     {
       "month": "2026-03",
       "medianPrice": 170000,
-      "transactions": 20
+      "transactions": 21
     },
     {
       "month": "2026-04",
-      "medianPrice": 197000,
-      "transactions": 13
+      "medianPrice": 154500,
+      "transactions": 14
     },
     {
       "month": "2026-05",
-      "medianPrice": 145000,
-      "transactions": 16
+      "medianPrice": 155000,
+      "transactions": 17
     }
   ],
   "quarterlyHistory": [
@@ -368,8 +368,8 @@
     },
     {
       "quarter": "2024-Q4",
-      "medianPrice": 131500,
-      "transactions": 69
+      "medianPrice": 132750,
+      "transactions": 70
     },
     {
       "quarter": "2025-Q1",
@@ -378,23 +378,23 @@
     },
     {
       "quarter": "2025-Q2",
-      "medianPrice": 128500,
-      "transactions": 56
+      "medianPrice": 140000,
+      "transactions": 57
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 108000,
-      "transactions": 77
+      "medianPrice": 115000,
+      "transactions": 86
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 129950,
-      "transactions": 65
+      "medianPrice": 132475,
+      "transactions": 68
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 128500,
-      "transactions": 50
+      "medianPrice": 120000,
+      "transactions": 55
     }
   ]
 }

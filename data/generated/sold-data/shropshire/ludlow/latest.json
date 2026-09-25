@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:56.850Z",
+  "updatedAt": "2026-09-25T08:18:16.297Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "ludlow",
   "countySlug": "shropshire",
@@ -10,18 +10,99 @@
   "stats": {
     "medianPrice": 270000,
     "medianByType": {
-      "D": 347500,
+      "D": 345000,
       "S": 240000,
       "T": 220000,
       "F": 110000
     },
-    "transactionCount12m": 289,
+    "transactionCount12m": 312,
     "yoyChange": -0.9,
-    "newBuildCount": 11,
-    "existingCount": 278,
-    "newBuildPremium": 22.8
+    "newBuildCount": 15,
+    "existingCount": 297,
+    "newBuildPremium": 23
   },
   "recentTransactions": [
+    {
+      "price": 775000,
+      "date": "2026-07-20",
+      "postcode": "SY8 4JZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "VIGROVE BARN"
+    },
+    {
+      "price": 226500,
+      "date": "2026-07-17",
+      "postcode": "SY8 2DY",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, THE OLD FORGE"
+    },
+    {
+      "price": 285000,
+      "date": "2026-07-16",
+      "postcode": "SY8 3BX",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "1, STOKE COTTAGES"
+    },
+    {
+      "price": 220000,
+      "date": "2026-07-13",
+      "postcode": "SY8 1TG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, HONEY MEADOW"
+    },
+    {
+      "price": 278000,
+      "date": "2026-07-13",
+      "postcode": "SY8 1LE",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "COTSWOLD, STEVENTON NEW ROAD"
+    },
+    {
+      "price": 185000,
+      "date": "2026-07-03",
+      "postcode": "SY8 1YG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "106, DAHN DRIVE"
+    },
+    {
+      "price": 155000,
+      "date": "2026-07-02",
+      "postcode": "SY8 2PF",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "70, STANTON ROAD"
+    },
+    {
+      "price": 183000,
+      "date": "2026-06-30",
+      "postcode": "SY8 1XZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "39, DAHN DRIVE"
+    },
+    {
+      "price": 355000,
+      "date": "2026-06-22",
+      "postcode": "SY8 1FL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "19, LEWIS DRIVE"
+    },
     {
       "price": 168000,
       "date": "2026-06-18",
@@ -120,87 +201,6 @@
       "newBuild": false,
       "tenure": "F",
       "address": "LINNEY VILLA COACH HOUSE, LINNEY"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-29",
-      "postcode": "SY8 1AW",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "CHIMNEY POTS, BUTTERCROSS"
-    },
-    {
-      "price": 540000,
-      "date": "2026-05-29",
-      "postcode": "SY8 1PQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "15, LOWER BROAD STREET"
-    },
-    {
-      "price": 240000,
-      "date": "2026-05-29",
-      "postcode": "SY8 1UH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "9, JAMES CLOSE"
-    },
-    {
-      "price": 248000,
-      "date": "2026-05-28",
-      "postcode": "SY8 3JT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "THE SQUIRRELS, OFFICE LANE"
-    },
-    {
-      "price": 150000,
-      "date": "2026-05-27",
-      "postcode": "SY8 3PA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "33, THREE CROSSES"
-    },
-    {
-      "price": 284000,
-      "date": "2026-05-22",
-      "postcode": "SY8 1XT",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "3, LOUGHTON CLOSE"
-    },
-    {
-      "price": 450000,
-      "date": "2026-05-22",
-      "postcode": "SY8 2QA",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, SUMMERFIELDS"
-    },
-    {
-      "price": 350000,
-      "date": "2026-05-22",
-      "postcode": "SY8 1RX",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "25, FRIARS GARDEN"
-    },
-    {
-      "price": 280000,
-      "date": "2026-05-22",
-      "postcode": "SY8 2PF",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "43B, STANTON ROAD"
     }
   ],
   "monthlyHistory": [
@@ -301,23 +301,23 @@
     },
     {
       "month": "2025-08",
-      "medianPrice": 305000,
-      "transactions": 23
+      "medianPrice": 312500,
+      "transactions": 24
     },
     {
       "month": "2025-09",
-      "medianPrice": 226000,
-      "transactions": 16
+      "medianPrice": 259500,
+      "transactions": 17
     },
     {
       "month": "2025-10",
-      "medianPrice": 278000,
-      "transactions": 31
+      "medianPrice": 286500,
+      "transactions": 36
     },
     {
       "month": "2025-11",
       "medianPrice": 232500,
-      "transactions": 30
+      "transactions": 32
     },
     {
       "month": "2025-12",
@@ -326,13 +326,13 @@
     },
     {
       "month": "2026-01",
-      "medianPrice": 260000,
-      "transactions": 24
+      "medianPrice": 250000,
+      "transactions": 25
     },
     {
       "month": "2026-02",
       "medianPrice": 299750,
-      "transactions": 14
+      "transactions": 16
     },
     {
       "month": "2026-03",
@@ -347,7 +347,7 @@
     {
       "month": "2026-05",
       "medianPrice": 277500,
-      "transactions": 26
+      "transactions": 28
     }
   ],
   "quarterlyHistory": [
@@ -383,18 +383,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 258000,
-      "transactions": 67
+      "medianPrice": 265000,
+      "transactions": 69
     },
     {
       "quarter": "2025-Q4",
       "medianPrice": 265000,
-      "transactions": 80
+      "transactions": 87
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 265000,
-      "transactions": 69
+      "medianPrice": 262500,
+      "transactions": 72
     }
   ]
 }

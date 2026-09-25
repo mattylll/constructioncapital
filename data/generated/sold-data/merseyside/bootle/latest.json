@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:57.406Z",
+  "updatedAt": "2026-09-25T08:18:17.076Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "bootle",
   "countySlug": "merseyside",
@@ -8,199 +8,199 @@
     "SEFTON"
   ],
   "stats": {
-    "medianPrice": 132550,
+    "medianPrice": 132496,
     "medianByType": {
       "D": 252500,
-      "S": 182500,
+      "S": 183000,
       "T": 115000,
       "F": 65000
     },
-    "transactionCount12m": 598,
+    "transactionCount12m": 668,
     "yoyChange": 6,
     "newBuildCount": 0,
-    "existingCount": 598,
+    "existingCount": 668,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 260000,
-      "date": "2026-06-19",
-      "postcode": "L20 0EF",
+      "price": 130000,
+      "date": "2026-07-24",
+      "postcode": "L30 0QZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "88, STONYFIELD"
+    },
+    {
+      "price": 182000,
+      "date": "2026-07-20",
+      "postcode": "L20 6NE",
       "propertyType": "S",
       "newBuild": false,
-      "tenure": "L",
-      "address": "8, ALEXANDRA DRIVE"
+      "tenure": "F",
+      "address": "69, MELVILLE ROAD"
+    },
+    {
+      "price": 50000,
+      "date": "2026-07-17",
+      "postcode": "L30 2PW",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "75, STERRIX LANE"
     },
     {
       "price": 155000,
-      "date": "2026-06-18",
-      "postcode": "L30 1SB",
+      "date": "2026-07-15",
+      "postcode": "L20 9AG",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "32, WORCESTER ROAD"
+    },
+    {
+      "price": 155000,
+      "date": "2026-07-14",
+      "postcode": "L20 6LD",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "20, MARLBOROUGH AVENUE"
+      "address": "31, HARRIS DRIVE"
     },
     {
-      "price": 110000,
-      "date": "2026-06-17",
-      "postcode": "L30 5RJ",
-      "propertyType": "T",
+      "price": 260000,
+      "date": "2026-07-10",
+      "postcode": "L20 6GB",
+      "propertyType": "D",
       "newBuild": false,
-      "tenure": "F",
-      "address": "1, JOHN HUNTER WAY"
+      "tenure": "L",
+      "address": "18, ORRELL LANE"
     },
     {
-      "price": 115000,
-      "date": "2026-06-17",
-      "postcode": "L20 7DQ",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "63, WADHAM ROAD"
-    },
-    {
-      "price": 135000,
-      "date": "2026-06-12",
-      "postcode": "L20 5ET",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, ALTCAR ROAD"
-    },
-    {
-      "price": 125000,
-      "date": "2026-06-12",
-      "postcode": "L20 9AL",
+      "price": 214000,
+      "date": "2026-07-09",
+      "postcode": "L30 1PN",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "181H, GLOUCESTER ROAD"
+      "address": "55, ABBEYSTEAD AVENUE"
     },
     {
-      "price": 150000,
-      "date": "2026-06-12",
-      "postcode": "L20 0AP",
+      "price": 132500,
+      "date": "2026-07-09",
+      "postcode": "L20 2DR",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "131, BEDFORD ROAD"
+    },
+    {
+      "price": 118000,
+      "date": "2026-07-09",
+      "postcode": "L20 9LY",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "23, CLARE ROAD"
+    },
+    {
+      "price": 185000,
+      "date": "2026-07-03",
+      "postcode": "L30 8SE",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "63, VAUX CRESCENT"
+      "address": "67, PRIMARY AVENUE"
     },
     {
-      "price": 65900,
-      "date": "2026-06-10",
-      "postcode": "L20 5AR",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "48, THORNTON ROAD"
-    },
-    {
-      "price": 45000,
-      "date": "2026-06-09",
-      "postcode": "L20 4RL",
-      "propertyType": "F",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "FLAT 1, 11, PEEL ROAD"
-    },
-    {
-      "price": 160000,
-      "date": "2026-06-08",
-      "postcode": "L20 9HH",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "32, FERNHILL ROAD"
-    },
-    {
-      "price": 74000,
-      "date": "2026-06-01",
-      "postcode": "L20 5EB",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "45, CROXTETH ROAD"
-    },
-    {
-      "price": 90000,
-      "date": "2026-05-29",
-      "postcode": "L20 2EY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "L",
-      "address": "21, ANTONIO STREET"
-    },
-    {
-      "price": 180000,
-      "date": "2026-05-29",
+      "price": 210000,
+      "date": "2026-07-03",
       "postcode": "L30 1PQ",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "4, PARKFIELD AVENUE"
+      "address": "38, PARKFIELD AVENUE"
     },
     {
-      "price": 127500,
-      "date": "2026-05-29",
-      "postcode": "L20 4JL",
+      "price": 142995,
+      "date": "2026-07-03",
+      "postcode": "L20 9AU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "L",
-      "address": "10, BIBBYS LANE"
+      "address": "304, HAWTHORNE ROAD"
     },
     {
-      "price": 120000,
-      "date": "2026-05-29",
-      "postcode": "L30 5QS",
+      "price": 85000,
+      "date": "2026-07-01",
+      "postcode": "L20 2ET",
       "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "29, CANTERBURY WAY"
-    },
-    {
-      "price": 115000,
-      "date": "2026-05-29",
-      "postcode": "L20 8LY",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "20, WILLIAM HENRY STREET"
-    },
-    {
-      "price": 175000,
-      "date": "2026-05-29",
-      "postcode": "L30 3UA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "13, BARNFIELD CLOSE"
-    },
-    {
-      "price": 215000,
-      "date": "2026-05-29",
-      "postcode": "L30 7PH",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "41, APOLLO WAY"
-    },
-    {
-      "price": 78000,
-      "date": "2026-05-29",
-      "postcode": "L20 9EY",
-      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "FLAT 6, 13, BREEZE HILL"
+      "address": "60, OLIVIA STREET"
     },
     {
-      "price": 180000,
-      "date": "2026-05-26",
-      "postcode": "L30 5QG",
+      "price": 95000,
+      "date": "2026-06-30",
+      "postcode": "L30 5QJ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "5, PETERBOROUGH DRIVE"
+    },
+    {
+      "price": 183000,
+      "date": "2026-06-29",
+      "postcode": "L20 6GG",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "2C, ST OSWALDS LANE"
+      "address": "12, LIBREX CLOSE"
+    },
+    {
+      "price": 150000,
+      "date": "2026-06-26",
+      "postcode": "L30 5SB",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "43, LOUIS PASTEUR AVENUE"
+    },
+    {
+      "price": 152500,
+      "date": "2026-06-26",
+      "postcode": "L30 3TZ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "14, ST AMBROSE CROFT"
+    },
+    {
+      "price": 225000,
+      "date": "2026-06-26",
+      "postcode": "L20 6NW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "6, MARY ROAD"
+    },
+    {
+      "price": 210000,
+      "date": "2026-06-26",
+      "postcode": "L30 7PW",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, ALDRINS LANE"
+    },
+    {
+      "price": 70500,
+      "date": "2026-06-25",
+      "postcode": "L20 5DU",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "66, MARKFIELD ROAD"
     }
   ],
   "monthlyHistory": [
@@ -302,27 +302,27 @@
     {
       "month": "2025-08",
       "medianPrice": 142500,
-      "transactions": 70
+      "transactions": 72
     },
     {
       "month": "2025-09",
-      "medianPrice": 128500,
-      "transactions": 49
+      "medianPrice": 126750,
+      "transactions": 56
     },
     {
       "month": "2025-10",
-      "medianPrice": 112000,
-      "transactions": 85
+      "medianPrice": 113840,
+      "transactions": 89
     },
     {
       "month": "2025-11",
       "medianPrice": 125000,
-      "transactions": 41
+      "transactions": 42
     },
     {
       "month": "2025-12",
-      "medianPrice": 137000,
-      "transactions": 53
+      "medianPrice": 136000,
+      "transactions": 54
     },
     {
       "month": "2026-01",
@@ -331,23 +331,23 @@
     },
     {
       "month": "2026-02",
-      "medianPrice": 117000,
-      "transactions": 29
+      "medianPrice": 116000,
+      "transactions": 41
     },
     {
       "month": "2026-03",
-      "medianPrice": 140000,
-      "transactions": 45
+      "medianPrice": 137500,
+      "transactions": 48
     },
     {
       "month": "2026-04",
       "medianPrice": 154000,
-      "transactions": 35
+      "transactions": 39
     },
     {
       "month": "2026-05",
-      "medianPrice": 128750,
-      "transactions": 40
+      "medianPrice": 127500,
+      "transactions": 41
     }
   ],
   "quarterlyHistory": [
@@ -383,18 +383,18 @@
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 133750,
-      "transactions": 174
+      "medianPrice": 132500,
+      "transactions": 183
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 125000,
-      "transactions": 179
+      "medianPrice": 120000,
+      "transactions": 185
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 140000,
-      "transactions": 108
+      "medianPrice": 133000,
+      "transactions": 123
     }
   ]
 }

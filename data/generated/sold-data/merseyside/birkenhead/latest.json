@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T05:26:57.385Z",
+  "updatedAt": "2026-09-25T08:18:17.048Z",
   "dataAsOf": "2026-05-31",
   "townSlug": "birkenhead",
   "countySlug": "merseyside",
@@ -10,197 +10,197 @@
   "stats": {
     "medianPrice": 125000,
     "medianByType": {
-      "D": 380000,
-      "S": 177000,
+      "D": 394000,
+      "S": 178750,
       "T": 111000,
-      "F": 95000
+      "F": 93750
     },
-    "transactionCount12m": 769,
+    "transactionCount12m": 835,
     "yoyChange": 0,
     "newBuildCount": 0,
-    "existingCount": 769,
+    "existingCount": 835,
     "newBuildPremium": null
   },
   "recentTransactions": [
     {
-      "price": 70000,
-      "date": "2026-06-19",
-      "postcode": "CH42 2EU",
+      "price": 150000,
+      "date": "2026-07-20",
+      "postcode": "CH42 3XL",
       "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "34, ST PAULS CLOSE"
+    },
+    {
+      "price": 65400,
+      "date": "2026-07-17",
+      "postcode": "CH42 4RA",
+      "propertyType": "F",
       "newBuild": false,
       "tenure": "L",
-      "address": "3, LAWNSIDE CLOSE"
+      "address": "FLAT 8, 49 - 51, EGERTON PARK"
     },
     {
-      "price": 280000,
-      "date": "2026-06-19",
-      "postcode": "CH42 6RY",
+      "price": 225000,
+      "date": "2026-07-15",
+      "postcode": "CH42 1QQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, THE OLD MANOR, MERSEY LANE SOUTH"
+    },
+    {
+      "price": 84000,
+      "date": "2026-07-15",
+      "postcode": "CH41 1DP",
+      "propertyType": "F",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "APARTMENT 155, EAST FLOAT QUAY, DOCK ROAD"
+    },
+    {
+      "price": 85000,
+      "date": "2026-07-15",
+      "postcode": "CH41 0AN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "16, UPPER BRASSEY STREET"
+    },
+    {
+      "price": 190000,
+      "date": "2026-07-10",
+      "postcode": "CH42 9PF",
       "propertyType": "S",
       "newBuild": false,
       "tenure": "F",
-      "address": "19, THE WIEND"
+      "address": "35, CECIL ROAD"
     },
     {
-      "price": 110000,
-      "date": "2026-06-19",
-      "postcode": "CH42 9LY",
+      "price": 550000,
+      "date": "2026-07-10",
+      "postcode": "CH42 8PL",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "10, ST STEPHENS ROAD"
+    },
+    {
+      "price": 120000,
+      "date": "2026-07-10",
+      "postcode": "CH41 2XE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "L",
+      "address": "3, SHAW STREET"
+    },
+    {
+      "price": 107500,
+      "date": "2026-07-10",
+      "postcode": "CH42 2DU",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "54, WOODVILLE ROAD"
+      "address": "429, OLD CHESTER ROAD"
     },
     {
-      "price": 184000,
-      "date": "2026-06-19",
-      "postcode": "CH42 9LN",
+      "price": 250000,
+      "date": "2026-07-10",
+      "postcode": "CH42 4PX",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "233, WOODCHURCH ROAD"
+      "address": "59, BEBINGTON ROAD"
+    },
+    {
+      "price": 70000,
+      "date": "2026-07-10",
+      "postcode": "CH41 8DE",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "13, MALLABY STREET"
+    },
+    {
+      "price": 220000,
+      "date": "2026-07-09",
+      "postcode": "CH41 0EH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "27, VIOLET ROAD"
+    },
+    {
+      "price": 80600,
+      "date": "2026-07-03",
+      "postcode": "CH41 2RN",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "143, RODNEY STREET"
+    },
+    {
+      "price": 265000,
+      "date": "2026-07-03",
+      "postcode": "CH42 4QZ",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "28A, EGERTON PARK"
+    },
+    {
+      "price": 220000,
+      "date": "2026-07-03",
+      "postcode": "CH42 2DF",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "36, BROWNING AVENUE"
+    },
+    {
+      "price": 670000,
+      "date": "2026-07-03",
+      "postcode": "CH42 8LR",
+      "propertyType": "D",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "63, OSMASTON ROAD"
     },
     {
       "price": 108000,
-      "date": "2026-06-18",
-      "postcode": "CH42 9PJ",
+      "date": "2026-07-03",
+      "postcode": "CH41 3RT",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "49, WOODCHURCH LANE"
+      "address": "23, BIRCHWOOD AVENUE"
     },
     {
-      "price": 117000,
-      "date": "2026-06-15",
+      "price": 128000,
+      "date": "2026-07-02",
+      "postcode": "CH42 9JH",
+      "propertyType": "S",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "64, SINGLETON AVENUE"
+    },
+    {
+      "price": 125099,
+      "date": "2026-07-02",
+      "postcode": "CH42 5PQ",
+      "propertyType": "T",
+      "newBuild": false,
+      "tenure": "F",
+      "address": "48, ROSEDALE ROAD"
+    },
+    {
+      "price": 110000,
+      "date": "2026-07-02",
       "postcode": "CH41 8AJ",
       "propertyType": "T",
       "newBuild": false,
       "tenure": "F",
-      "address": "14, MORLEY AVENUE"
-    },
-    {
-      "price": 272000,
-      "date": "2026-06-12",
-      "postcode": "CH42 7JZ",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "48, WILLOWBANK ROAD"
-    },
-    {
-      "price": 150000,
-      "date": "2026-06-12",
-      "postcode": "CH41 3RY",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "14, ST ANNES CLOSE"
-    },
-    {
-      "price": 85000,
-      "date": "2026-06-12",
-      "postcode": "CH42 3YA",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "59, MULBERRY ROAD"
-    },
-    {
-      "price": 95000,
-      "date": "2026-06-12",
-      "postcode": "CH42 5NU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "63, MOORLAND ROAD"
-    },
-    {
-      "price": 77000,
-      "date": "2026-06-11",
-      "postcode": "CH42 7HW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "103, ELMSWOOD ROAD"
-    },
-    {
-      "price": 725000,
-      "date": "2026-06-11",
-      "postcode": "CH42 8LE",
-      "propertyType": "D",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "1, PROSPECT ROAD"
-    },
-    {
-      "price": 145000,
-      "date": "2026-06-08",
-      "postcode": "CH42 3XP",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "24, WESTDALE ROAD"
-    },
-    {
-      "price": 126950,
-      "date": "2026-06-05",
-      "postcode": "CH42 3XW",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "2, SOUTHDALE ROAD"
-    },
-    {
-      "price": 275000,
-      "date": "2026-06-05",
-      "postcode": "CH42 0LU",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "16, HARLAND ROAD"
-    },
-    {
-      "price": 71500,
-      "date": "2026-06-05",
-      "postcode": "CH41 4HU",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "55, NEWLING STREET"
-    },
-    {
-      "price": 133000,
-      "date": "2026-06-04",
-      "postcode": "CH42 4QL",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "37, INGLEMERE ROAD"
-    },
-    {
-      "price": 75000,
-      "date": "2026-06-04",
-      "postcode": "CH41 2SL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, THE WOODLANDS"
-    },
-    {
-      "price": 110000,
-      "date": "2026-06-04",
-      "postcode": "CH41 2SL",
-      "propertyType": "S",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "72, THE WOODLANDS"
-    },
-    {
-      "price": 159000,
-      "date": "2026-06-03",
-      "postcode": "CH41 0EE",
-      "propertyType": "T",
-      "newBuild": false,
-      "tenure": "F",
-      "address": "53, PRIMROSE ROAD"
+      "address": "23, MORLEY AVENUE"
     }
   ],
   "monthlyHistory": [
@@ -252,7 +252,7 @@
     {
       "month": "2024-10",
       "medianPrice": 125000,
-      "transactions": 82
+      "transactions": 83
     },
     {
       "month": "2024-11",
@@ -282,7 +282,7 @@
     {
       "month": "2025-04",
       "medianPrice": 120000,
-      "transactions": 53
+      "transactions": 54
     },
     {
       "month": "2025-05",
@@ -302,17 +302,17 @@
     {
       "month": "2025-08",
       "medianPrice": 118500,
-      "transactions": 60
+      "transactions": 62
     },
     {
       "month": "2025-09",
-      "medianPrice": 150000,
-      "transactions": 51
+      "medianPrice": 142000,
+      "transactions": 53
     },
     {
       "month": "2025-10",
-      "medianPrice": 122250,
-      "transactions": 82
+      "medianPrice": 123030,
+      "transactions": 84
     },
     {
       "month": "2025-11",
@@ -321,33 +321,33 @@
     },
     {
       "month": "2025-12",
-      "medianPrice": 122500,
-      "transactions": 70
+      "medianPrice": 125000,
+      "transactions": 71
     },
     {
       "month": "2026-01",
       "medianPrice": 114000,
-      "transactions": 46
+      "transactions": 50
     },
     {
       "month": "2026-02",
-      "medianPrice": 127000,
-      "transactions": 53
+      "medianPrice": 129500,
+      "transactions": 60
     },
     {
       "month": "2026-03",
-      "medianPrice": 135000,
-      "transactions": 53
+      "medianPrice": 132500,
+      "transactions": 56
     },
     {
       "month": "2026-04",
-      "medianPrice": 115750,
-      "transactions": 42
+      "medianPrice": 117500,
+      "transactions": 45
     },
     {
       "month": "2026-05",
-      "medianPrice": 137500,
-      "transactions": 44
+      "medianPrice": 135000,
+      "transactions": 49
     }
   ],
   "quarterlyHistory": [
@@ -369,7 +369,7 @@
     {
       "quarter": "2024-Q4",
       "medianPrice": 125000,
-      "transactions": 212
+      "transactions": 213
     },
     {
       "quarter": "2025-Q1",
@@ -379,22 +379,22 @@
     {
       "quarter": "2025-Q2",
       "medianPrice": 120000,
-      "transactions": 212
+      "transactions": 213
     },
     {
       "quarter": "2025-Q3",
-      "medianPrice": 125500,
-      "transactions": 202
+      "medianPrice": 125000,
+      "transactions": 206
     },
     {
       "quarter": "2025-Q4",
-      "medianPrice": 125500,
-      "transactions": 222
+      "medianPrice": 128000,
+      "transactions": 225
     },
     {
       "quarter": "2026-Q1",
-      "medianPrice": 125000,
-      "transactions": 152
+      "medianPrice": 126000,
+      "transactions": 166
     }
   ]
 }
