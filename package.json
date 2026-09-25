@@ -6,7 +6,7 @@
     "license": "MIT",
     "scripts": {
         "dev": "next dev --turbopack",
-        "build": "tsx scripts/generate-sitemaps.ts && next build --experimental-build-mode=compile",
+        "build": "tsx scripts/generate-sitemaps.ts && next build --experimental-build-mode=compile && node scripts/compact-runtime-data.mjs",
         "generate:sitemaps": "tsx scripts/generate-sitemaps.ts",
         "start": "next start",
         "lint": "next lint",
